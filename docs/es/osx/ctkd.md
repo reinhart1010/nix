@@ -2,8 +2,8 @@
 layout: page
 title: osx/ctkd (español)
 description: "Daemon de SmartCard."
-content_hash: 5d54e52c2f2e41c97443e018a454bb9a0c1f8a26
-last_modified_at: 2023-11-12
+content_hash: 5573a5165b8ca9eff931fb3621197237db55a85b
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/ctkd.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Daemon de SmartCard.
 No debe invocarse manualmente.
-Más información: <https://www.manpagez.com/man/8/ctkd/>.
+Más información: <https://keith.github.io/xcode-man-pages/ctkd.8.html>.
 
 - Inicia el daemon:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/mdutil (中文)
 description: "管理 Spotlight（聚焦搜索）用于搜索的索引数据。"
-content_hash: 0fef3c7b9c4ca7121df68806ec601ddff293edeb
-last_modified_at: 2023-11-12
+content_hash: ca1041d689589ffc1e1bd5899db71b52f7d1e79e
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/mdutil.html
@@ -16,7 +16,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># mdutil
 
 管理 Spotlight（聚焦搜索）用于搜索的索引数据。
-更多信息：<https://ss64.com/osx/mdutil.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/mdutil.1.html>.
 
 - 显示指定卷（'/'）的索引状态：
 

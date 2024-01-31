@@ -2,8 +2,8 @@
 layout: page
 title: osx/base64 (हिन्दी)
 description: "बेस 64 प्रस्तुतीकरण का उपयोग करके कोड और डिकोड करें।"
-content_hash: e82a2b2161aee16de3e422caee5a5822540aabd8
-last_modified_at: 2023-11-12
+content_hash: e3bca8463f17863e86175ea8db9ecd00d2a1e065
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # base64
 
 बेस 64 प्रस्तुतीकरण का उपयोग करके कोड और डिकोड करें।
-अधिक जानकारी: <https://www.unix.com/man-page/osx/1/base64/>।
+अधिक जानकारी: <https://keith.github.io/xcode-man-pages/base64.1.html>।
 
 - फ़ाइल को कोड करें:
 

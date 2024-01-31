@@ -2,8 +2,8 @@
 layout: page
 title: osx/osascript (中文)
 description: "在命令行中运行指定的 AppleScript 或 JavaScript 脚本程序。"
-content_hash: 2b6c5045a04fb2e928d958a41ca4dbcc1adcb355
-last_modified_at: 2024-01-01
+content_hash: 2054f773adfd9ca0105bbbbdde47253ac928358d
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/osascript.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # osascript
 
 在命令行中运行指定的 AppleScript 或 JavaScript 脚本程序。
-更多信息：<https://ss64.com/osx/osascript.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/osascript.1.html>.
 
 - 运行一个 AppleScript 命令：
 

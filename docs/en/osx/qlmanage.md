@@ -2,8 +2,8 @@
 layout: page
 title: osx/qlmanage (English)
 description: "QuickLook server tool."
-content_hash: 0ce9cdb00506745bf2b72680ce76d678e35a5b35
-last_modified_at: 2023-11-12
+content_hash: d165239bd58767586dbb6ecd5974a2b17ac489ab
+last_modified_at: 2024-01-31
 related_topics:
   - title: 中文 version
     url: /zh/osx/qlmanage.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # qlmanage
 
 QuickLook server tool.
-More information: <https://ss64.com/osx/qlmanage.html>.
+More information: <https://keith.github.io/xcode-man-pages/qlmanage.1.html>.
 
 - Display QuickLook for one or multiple files:
 

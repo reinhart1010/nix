@@ -2,8 +2,8 @@
 layout: page
 title: osx/shuf (español)
 description: "Genera permutaciones aleatorias."
-content_hash: 13a10a89788a97ce3cdd04d4863327fd0fc6f47b
-last_modified_at: 2023-11-12
+content_hash: 521663397625101f6076b0972d0d33c2bb055070
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/shuf.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # shuf
 
 Genera permutaciones aleatorias.
-Más información: <https://www.unix.com/man-page/linux/1/shuf/>.
+Más información: <https://keith.github.io/xcode-man-pages/shuf.1.html>.
 
 - Ordena aleatoriamente las líneas de un fichero y muestra el resultado:
 

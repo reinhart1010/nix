@@ -2,8 +2,8 @@
 layout: page
 title: osx/chflags (English)
 description: "Change file or directory flags."
-content_hash: f1a6f496fc31b2042355fb620f7ad7675feea8c3
-last_modified_at: 2023-11-12
+content_hash: 189e5f1b0b7b7718c615267f3b34b63bd3515830
+last_modified_at: 2024-01-31
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/chflags.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # chflags
 
 Change file or directory flags.
-More information: <https://ss64.com/osx/chflags.html>.
+More information: <https://keith.github.io/xcode-man-pages/chflags.1.html>.
 
 - Set the `hidden` flag for a file:
 

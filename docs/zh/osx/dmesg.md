@@ -2,8 +2,8 @@
 layout: page
 title: osx/dmesg (中文)
 description: "将内核消息写入标准输出。"
-content_hash: 95a32012b6a07b21d617f4652fb4ec93ea6f4f0a
-last_modified_at: 2023-11-12
+content_hash: 67cc361ac9a90d696e57f9aabc7a7fe3b855f612
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/dmesg.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # dmesg
 
 将内核消息写入标准输出。
-更多信息：<https://www.manpagez.com/man/8/dmesg/>.
+更多信息：<https://keith.github.io/xcode-man-pages/dmesg.8.html>.
 
 - 显示内核消息：
 

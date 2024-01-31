@@ -2,8 +2,8 @@
 layout: page
 title: osx/route (español)
 description: "Manipula manualmente las tablas de enrutamiento."
-content_hash: 8055d205e0c632efc7be96edd8e4f40c0d6b4956
-last_modified_at: 2023-11-12
+content_hash: c8ae583e563755a63579db926cb19d8afafa253b
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/route.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Manipula manualmente las tablas de enrutamiento.
 Necesita ser root.
-Más información: <https://www.manpagez.com/man/8/route/>.
+Más información: <https://keith.github.io/xcode-man-pages/route.8.html>.
 
 - Añade una ruta a un destino a través de una puerta de enlace:
 

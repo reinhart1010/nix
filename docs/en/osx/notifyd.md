@@ -2,15 +2,15 @@
 layout: page
 title: osx/notifyd (English)
 description: "Notification server."
-content_hash: 4ab48b65c0811b93ef40901bcc3044217e25306e
-last_modified_at: 2023-11-12
+content_hash: 1446b82765de995dc86513bb087f334f8ee71f2c
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # notifyd
 
 Notification server.
 It should not be invoked manually.
-More information: <https://www.manpagez.com/man/8/notifyd/>.
+More information: <https://keith.github.io/xcode-man-pages/notifyd.8.html>.
 
 - Start the daemon:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/say (español)
 description: "Convierte texto a voz."
-content_hash: 6f00c5475b1867e87666d0b70b5c65a8c7cd22eb
-last_modified_at: 2023-11-26
+content_hash: 0fb9173a58437fc3c86b276a4e37a78286bdb776
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/say.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # say
 
 Convierte texto a voz.
-Más información: <https://ss64.com/osx/say.html>.
+Más información: <https://keith.github.io/xcode-man-pages/say.1.html>.
 
 - Di una frase en voz alta:
 

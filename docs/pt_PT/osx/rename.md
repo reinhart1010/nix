@@ -2,8 +2,8 @@
 layout: page
 title: osx/rename (português (Portugal))
 description: "Altera o nome de um ficheiro ou grupo de ficheiros com uma expressão regular."
-content_hash: 455d56c7b3c29f53c88141fd580548a41473074e
-last_modified_at: 2023-11-12
+content_hash: a10f9f7a0a5a6580cf19c1f0359c00309007f6fe
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/rename.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # rename
 
 Altera o nome de um ficheiro ou grupo de ficheiros com uma expressão regular.
-Mais informações: <https://www.manpagez.com/man/2/rename/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/rename.2.html>.
 
 - Altera "antes" para "depois" o nome dos ficheiros especificados:
 

@@ -2,11 +2,14 @@
 layout: page
 title: osx/cut (English)
 description: "Cut out fields from `stdin` or files."
-content_hash: 6adf9f0d69b6e04f78ca5bb7c705bc34060fe389
-last_modified_at: 2024-01-09
+content_hash: 53db2f42051811ba17a1386c402d0ceaa6f8551d
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/cut.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/cut.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/cut.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # cut
 
 Cut out fields from `stdin` or files.
-More information: <https://manned.org/man/freebsd-13.0/cut.1>.
+More information: <https://keith.github.io/xcode-man-pages/cut.1.html>.
 
 - Print a specific character/field range of each line:
 

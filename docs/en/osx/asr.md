@@ -2,7 +2,7 @@
 layout: page
 title: osx/asr (English)
 description: "Restore (copy) a disk image onto a volume."
-content_hash: c74ba1314c759e7f2fd825db2f28dd179c4c83c5
+content_hash: 8f0b1ff2475576d69f7a92513c5a8ac7571c5e42
 last_modified_at: 2024-01-31
 related_topics:
   - title: español version
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Restore (copy) a disk image onto a volume.
 The command name stands for Apple Software Restore.
-More information: <https://www.unix.com/man-page/osx/8/asr/>.
+More information: <https://keith.github.io/xcode-man-pages/asr.8.html>.
 
 - Restore a disk image to a target volume:
 

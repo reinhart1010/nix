@@ -2,8 +2,8 @@
 layout: page
 title: osx/security (polski)
 description: "Administruj pękami kluczy, kluczami, certyfikatami oraz framework'iem Security."
-content_hash: b55b8b8bef248795db1f40da6eee5e7d2464fa6a
-last_modified_at: 2023-11-12
+content_hash: e77f9f23b3f4278f05bbacadebe78dbb60b4d3df
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/security.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # security
 
 Administruj pękami kluczy, kluczami, certyfikatami oraz framework'iem Security.
-Więcej informacji: <https://ss64.com/osx/security.html>.
+Więcej informacji: <https://keith.github.io/xcode-man-pages/security.1.html>.
 
 - Wypisz wszystkie dostępne pęki kluczy:
 

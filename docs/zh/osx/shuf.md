@@ -2,8 +2,8 @@
 layout: page
 title: osx/shuf (中文)
 description: "生成随机排列。"
-content_hash: bf2027cd0bcd92b22a49164adc26910c99498ae1
-last_modified_at: 2024-01-01
+content_hash: 828c1f49ea05b567c2d87a80e93dadd06884182c
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/shuf.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # shuf
 
 生成随机排列。
-更多信息：<https://www.unix.com/man-page/linux/1/shuf/>.
+更多信息：<https://keith.github.io/xcode-man-pages/shuf.1.html>.
 
 - 随机化文件中的行顺序并输出结果：
 

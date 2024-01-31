@@ -2,8 +2,8 @@
 layout: page
 title: osx/md5 (中文)
 description: "计算 MD5 加密和校验。"
-content_hash: 7a9044054c5ac0ec45eff0b7062723dd067e65cb
-last_modified_at: 2024-01-01
+content_hash: b398686ed9b2adef49ea8e6fc6bb5b3f0f0cb476
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/md5.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # md5
 
 计算 MD5 加密和校验。
-更多信息：<https://ss64.com/osx/md5.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/md5.1.html>.
 
 - 计算一个文件的 MD5 校验值：
 

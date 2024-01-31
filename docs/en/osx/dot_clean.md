@@ -2,8 +2,8 @@
 layout: page
 title: osx/dot_clean (English)
 description: "Merge ._* files with corresponding native files."
-content_hash: 6ac1dc811e3bd1f515d5b8ca8b0455fdbd1e21e4
-last_modified_at: 2023-11-12
+content_hash: eaf3976ad065cd4cc4697371f6051173bdce330b
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/dot_clean.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # dot_clean
 
 Merge ._* files with corresponding native files.
-More information: <https://ss64.com/osx/dot_clean.html>.
+More information: <https://keith.github.io/xcode-man-pages/dot_clean.1.html>.
 
 - Merge all `._*` files recursively:
 

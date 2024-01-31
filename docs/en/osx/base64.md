@@ -2,8 +2,8 @@
 layout: page
 title: osx/base64 (English)
 description: "Encode and decode using Base64 representation."
-content_hash: 58fd5294d667ce1571771c449b2736d2796ebcaa
-last_modified_at: 2023-11-12
+content_hash: 1e37b4b19d09b2e4bcdabb1393db627674780930
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/base64.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # base64
 
 Encode and decode using Base64 representation.
-More information: <https://www.unix.com/man-page/osx/1/base64/>.
+More information: <https://keith.github.io/xcode-man-pages/base64.1.html>.
 
 - Encode a file:
 

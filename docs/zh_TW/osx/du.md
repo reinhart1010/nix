@@ -2,8 +2,8 @@
 layout: page
 title: osx/du (中文 (繁體, 台灣))
 description: "硬碟使用量：估算每個檔案以及目錄所佔用的硬碟容量。"
-content_hash: 0ead61fbbe9818ba8b13dc5f35b199df219cb23d
-last_modified_at: 2023-11-12
+content_hash: 72d49b29ff98a55f1a7c5c75ee8b22750dc49078
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/du.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # du
 
 硬碟使用量：估算每個檔案以及目錄所佔用的硬碟容量。
-更多資訊：<https://ss64.com/osx/du.html>.
+更多資訊：<https://keith.github.io/xcode-man-pages/du.1.html>.
 
 - 以給定單位（KiB/MiB/GiB）列出目錄和所有子目錄的大小：
 

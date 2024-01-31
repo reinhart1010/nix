@@ -2,8 +2,8 @@
 layout: page
 title: osx/ditto (English)
 description: "Copy files and directories."
-content_hash: af16a4ca1aa7608cd00d4e260aac368ce08ef0df
-last_modified_at: 2023-11-12
+content_hash: 86522358d8dfda4ccd40013f677e58a4e70090fd
+last_modified_at: 2024-01-31
 related_topics:
   - title: বাংলা version
     url: /bn/osx/ditto.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # ditto
 
 Copy files and directories.
-More information: <https://ss64.com/osx/ditto.html>.
+More information: <https://keith.github.io/xcode-man-pages/ditto.1.html>.
 
 - Overwrite contents of destination directory with contents of source directory:
 

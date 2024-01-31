@@ -2,8 +2,8 @@
 layout: page
 title: osx/caffeinate (English)
 description: "Prevent macOS from sleeping."
-content_hash: b166d2199cbe0dbb409324b27cc0f81e31d83107
-last_modified_at: 2023-11-12
+content_hash: aeb4617b2972d78833162bbb0ae9880e3fcc68b5
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # caffeinate
 
 Prevent macOS from sleeping.
-More information: <https://ss64.com/osx/caffeinate.html>.
+More information: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Prevent from sleeping for 1 hour (3600 seconds):
 

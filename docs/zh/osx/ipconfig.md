@@ -2,8 +2,8 @@
 layout: page
 title: osx/ipconfig (中文)
 description: "查看和编辑网卡信息."
-content_hash: 8be73ceb039bea9c4b1c2082f6d422717210f492
-last_modified_at: 2023-11-12
+content_hash: 8bdd45510b2240b25c93c221c2436bfc43d8225c
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/ipconfig.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # ipconfig
 
 查看和编辑网卡信息.
-更多信息：<https://ss64.com/osx/ipconfig.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/ipconfig.8.html>.
 
 - 列出所有的网卡：
 

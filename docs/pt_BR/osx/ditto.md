@@ -2,8 +2,8 @@
 layout: page
 title: osx/ditto (português (Brasil))
 description: "Copia arquivos e diretórios."
-content_hash: 7a5124738e94655d142214d1e1324ebb9da404d2
-last_modified_at: 2023-11-12
+content_hash: 482106e02b7d3e5162437ff7d9a80236df98327d
+last_modified_at: 2024-01-31
 related_topics:
   - title: বাংলা version
     url: /bn/osx/ditto.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # ditto
 
 Copia arquivos e diretórios.
-Mais informações: <https://ss64.com/osx/ditto.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/ditto.1.html>.
 
 - Sobrescreve o conteúdo do diretório de destino pelo conteúdo do diretório de origem:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/nettop (español)
 description: "Muestra información actualizada sobre la red."
-content_hash: e88448e3cfd7cefb34fdaa4e55398c3038620a79
-last_modified_at: 2023-11-12
+content_hash: ab3c46562595dc3c039df9ad37e3b52cfbb10198
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/nettop.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # nettop
 
 Muestra información actualizada sobre la red.
-Más información: <https://www.manpagez.com/man/1/nettop/>.
+Más información: <https://keith.github.io/xcode-man-pages/nettop.1.html>.
 
 - Monitoriza los sockets TCP y UDP de todas las interfaces:
 

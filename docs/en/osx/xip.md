@@ -2,11 +2,14 @@
 layout: page
 title: osx/xip (English)
 description: "Create or expand compressed files in a secure xip archive."
-content_hash: 334b4c6eae3a89d2f21cf9d63743066244dad4d3
-last_modified_at: 2023-11-12
+content_hash: eebf81ea04502481f55871d7aea8784a28f235fb
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/xip.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/xip.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/osx/xip.html
@@ -17,7 +20,7 @@ tldri18n_status: 2
 
 Create or expand compressed files in a secure xip archive.
 Only archives signed by Apple are trusted, so this tool should not be used to create archives.
-More information: <https://www.manpagez.com/man/1/xip/>.
+More information: <https://keith.github.io/xcode-man-pages/xip.1.html>.
 
 - Expand the archive into the current working directory:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/du (Nederlands)
 description: "Disk gebruik: schat en groepeer bestand en map ruimte gebruik."
-content_hash: 3d2f1b6e48d1a4a29e5946b864e4d5eb5e3128f0
-last_modified_at: 2023-11-12
+content_hash: 237c55ce368310b91bf0a21e95e6274f8d257aa6
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/du.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # du
 
 Disk gebruik: schat en groepeer bestand en map ruimte gebruik.
-Meer informatie: <https://ss64.com/osx/du.html>.
+Meer informatie: <https://keith.github.io/xcode-man-pages/du.1.html>.
 
 - Toont de grootte van een map en mogelijke sub-mappen, met een gegeven eenheid (KiB/MiB/GiB):
 

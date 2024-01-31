@@ -2,8 +2,8 @@
 layout: page
 title: osx/airport (中文)
 description: "无线网络配置工具。"
-content_hash: 6d3056459896b18892fc0a1bb9ab275be66f2fde
-last_modified_at: 2024-01-01
+content_hash: 5a311b612a2631d2a271769d7c1462014ee13011
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/airport.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # airport
 
 无线网络配置工具。
-更多信息：<https://ss64.com/osx/airport.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/airport.1.html>.
 
 - 显示当前的无线状态信息：
 

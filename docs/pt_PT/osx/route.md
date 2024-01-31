@@ -2,8 +2,8 @@
 layout: page
 title: osx/route (português (Portugal))
 description: "Alteração manual da tabela de rotas."
-content_hash: 1a9ff7ade792b3166046343cdd91118b24d05745
-last_modified_at: 2024-01-14
+content_hash: ed6b625a59e59b4d9c39f59a834af8a4bee8f1de
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/route.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Alteração manual da tabela de rotas.
 Necessita de root.
-Mais informações: <https://www.manpagez.com/man/8/route/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/route.8.html>.
 
 - Adiciona uma rota para um destino passando por um gateway:
 

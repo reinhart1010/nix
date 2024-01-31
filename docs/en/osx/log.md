@@ -2,8 +2,8 @@
 layout: page
 title: osx/log (English)
 description: "View, export, and configure logging systems."
-content_hash: 20197b4af08b009ddc316f911d1389b6b88aed19
-last_modified_at: 2023-11-12
+content_hash: 8a1b86792a3f2f0b3573f788102170b998847278
+last_modified_at: 2024-01-31
 related_topics:
   - title: italiano version
     url: /it/osx/log.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # log
 
 View, export, and configure logging systems.
-More information: <https://www.dssw.co.uk/reference/log.html>.
+More information: <https://keith.github.io/xcode-man-pages/log.1.html>.
 
 - Stream live system logs:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/machine (English)
 description: "Print machine type."
-content_hash: 55528228c70794c6ad1262b39b46bffc4f2a255e
-last_modified_at: 2023-11-12
+content_hash: b66e311344a9a8e60329883b63e7366ae5083be3
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/machine.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # machine
 
 Print machine type.
-More information: <https://manned.org/machine>.
+More information: <https://keith.github.io/xcode-man-pages/machine.1.html>.
 
 - Print CPU architecture:
 

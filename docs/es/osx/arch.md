@@ -2,8 +2,8 @@
 layout: page
 title: osx/arch (español)
 description: "Muestra el nombre de la arquitectura del sistema, o ejecuta un comando bajo una arquitectura diferente."
-content_hash: 8fa7b8315bbfe3f070ca7dd2b8509658f0722ada
-last_modified_at: 2023-11-30
+content_hash: bba5f4285063230da176f73f5f7c9f401a221b2d
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/arch.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Muestra el nombre de la arquitectura del sistema, o ejecuta un comando bajo una arquitectura diferente.
 Véase también: `uname`.
-Más información: <https://www.unix.com/man-page/osx/1/arch/>.
+Más información: <https://keith.github.io/xcode-man-pages/arch.1.html>.
 
 - Muestra la arquitectura del sistema:
 

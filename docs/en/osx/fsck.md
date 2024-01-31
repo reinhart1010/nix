@@ -2,8 +2,8 @@
 layout: page
 title: osx/fsck (English)
 description: "Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run."
-content_hash: 45a3cd26a33377e3cbfd4ba96950b1d55839d474
-last_modified_at: 2023-11-12
+content_hash: 17a43c9b7805e0726f3db4bd18b93efd64ddceb1
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/fsck.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run.
 It is a wrapper that calls `fsck_hfs`, `fsck_apfs`, `fsck_msdos`, `fsck_exfat`, and `fsck_udf` as needed.
-More information: <https://ss64.com/osx/fsck.html>.
+More information: <https://keith.github.io/xcode-man-pages/fsck.8.html>.
 
 - Check filesystem `/dev/sdX`, reporting any damaged blocks:
 

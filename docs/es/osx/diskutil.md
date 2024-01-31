@@ -2,8 +2,8 @@
 layout: page
 title: osx/diskutil (español)
 description: "Utilidad para gestionar discos y volúmenes locales."
-content_hash: 6d29df84dcc1c8ebb8438d2f155c0338484e464d
-last_modified_at: 2023-11-12
+content_hash: db5b0ce3720fe7f65fadb766dfe6df7ec0dd2a05
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/diskutil.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # diskutil
 
 Utilidad para gestionar discos y volúmenes locales.
-Más información: <https://ss64.com/osx/diskutil.html>.
+Más información: <https://keith.github.io/xcode-man-pages/diskutil.8.html>.
 
 - Lista todos los discos, particiones y volúmenes montados actualmente disponibles:
 

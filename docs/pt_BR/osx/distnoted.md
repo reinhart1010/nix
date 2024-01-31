@@ -2,8 +2,8 @@
 layout: page
 title: osx/distnoted (português (Brasil))
 description: "Fornece serviços de notificação distribuídos."
-content_hash: 52cc19604258205d37cbf96b9f26a149d20fa787
-last_modified_at: 2023-11-12
+content_hash: eabfe6f3a0c7c425b2a025858154aadfdc864df2
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/distnoted.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Fornece serviços de notificação distribuídos.
 Não deve ser invocado manualmente.
-Mais informações: <https://www.manpagez.com/man/8/distnoted/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/distnoted.8.html>.
 
 - Inicia o daemon:
 

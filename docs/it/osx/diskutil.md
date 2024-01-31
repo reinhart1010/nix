@@ -2,8 +2,8 @@
 layout: page
 title: osx/diskutil (italiano)
 description: "Strumento per gestire i dischi locali e i volumi."
-content_hash: b215551d23a33e425a45be06a63589b49a7b9c84
-last_modified_at: 2023-11-12
+content_hash: d54e2f52d13a6a0047a0ee9c5c226f30a41a2a41
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/diskutil.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # diskutil
 
 Strumento per gestire i dischi locali e i volumi.
-Maggiori informazioni: <https://ss64.com/osx/diskutil.html>.
+Maggiori informazioni: <https://keith.github.io/xcode-man-pages/diskutil.8.html>.
 
 - Mostra tutti i dischi correnti, le partizioni e i volumi montati:
 

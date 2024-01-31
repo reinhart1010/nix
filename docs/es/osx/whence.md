@@ -2,8 +2,8 @@
 layout: page
 title: osx/whence (español)
 description: "Un comando integrado de zsh para indicar cómo se interpretaría un comando dado."
-content_hash: 92724cf90174467688255788bc2ad02504bf4264
-last_modified_at: 2024-01-07
+content_hash: 9c80c906aed64c4de21212ee6eb5f9f7fe99eda0
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/whence.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # whence
 
 Un comando integrado de zsh para indicar cómo se interpretaría un comando dado.
-Más información: <https://www.unix.com/man-page/OpenSolaris/1/whence/>.
+Más información: <https://keith.github.io/xcode-man-pages/whence.1.html>.
 
 - Interpreta `comando`, con expansión si se define como un `alias` (similar al `command -v` integrado):
 

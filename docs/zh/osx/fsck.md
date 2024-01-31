@@ -2,8 +2,8 @@
 layout: page
 title: osx/fsck (中文)
 description: "检查或修复文件系统的完整性，运行命令时应卸载文件系统。"
-content_hash: efca59ea81f9e17416ed43407cfbcb80c91cc9e7
-last_modified_at: 2023-11-12
+content_hash: 3e94d2e435a6140213ce29b25895459f0d519af5
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/fsck.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 检查或修复文件系统的完整性，运行命令时应卸载文件系统。
 它是一个包装器，包含 `fsck_hfs`, `fsck_apfs`, `fsck_msdos`, `fsck_exfat`, `fsck_udf` 作为可选。
-更多信息：<https://ss64.com/osx/fsck.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/fsck.8.html>.
 
 - 检查文件系统 /dev/sda，报告损坏的块：
 

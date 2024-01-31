@@ -2,8 +2,8 @@
 layout: page
 title: osx/split (español)
 description: "Divide un archivo en trozos."
-content_hash: bbab6b33f562aaaff18cc4ffa96f35b8ab7c222e
-last_modified_at: 2024-01-30
+content_hash: 559350f471cf322e81c260e64ea2af49da2ebfff
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/split.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # split
 
 Divide un archivo en trozos.
-Más información: <https://ss64.com/osx/split.html>.
+Más información: <https://keith.github.io/xcode-man-pages/split.1.html>.
 
 - Divide un archivo, cada división tiene 10 líneas (excepto la última división):
 

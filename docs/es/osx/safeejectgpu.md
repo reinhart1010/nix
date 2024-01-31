@@ -2,8 +2,8 @@
 layout: page
 title: osx/safeejectgpu (español)
 description: "Expulsa una GPU de forma segura."
-content_hash: ffdd2aceed14bf00a00bb995038361604fbc1eb4
-last_modified_at: 2024-01-07
+content_hash: 01a239d1afbf1652e7c279807c6a694f9f905b9f
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/safeejectgpu.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # SafeEjectGPU
 
 Expulsa una GPU de forma segura.
-Más información: <https://www.unix.com/man-page/mojave/8/safeejectgpu>.
+Más información: <https://keith.github.io/xcode-man-pages/safeejectgpu.8.html>.
 
 - Expulsa todas las GPUs:
 

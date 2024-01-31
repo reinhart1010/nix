@@ -2,18 +2,21 @@
 layout: page
 title: osx/lipo (español)
 description: "Herramienta para el manejo de binarios universales Mach-O."
-content_hash: 19252de081c0e4804f7ea708601f57bd369a80dd
-last_modified_at: 2023-11-12
+content_hash: b30ae169aa3c84041db20d6cf7210d05c702e221
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/lipo.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/lipo.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # lipo
 
 Herramienta para el manejo de binarios universales Mach-O.
-Más información: <https://ss64.com/osx/lipo.html>.
+Más información: <https://keith.github.io/xcode-man-pages/lipo.1.html>.
 
 - Crea un archivo universal a partir de dos archivos de una sola arquitectura:
 

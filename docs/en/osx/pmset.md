@@ -2,8 +2,8 @@
 layout: page
 title: osx/pmset (English)
 description: "Configure macOS power management settings, as one might do in System Preferences > Energy Saver."
-content_hash: 20a4972edbdbd265e663b461876b571e9cc911c6
-last_modified_at: 2023-11-12
+content_hash: 476c803502af9a8fee4f5fb905836a51e66a6400
+last_modified_at: 2024-01-31
 related_topics:
   - title: 中文 version
     url: /zh/osx/pmset.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Configure macOS power management settings, as one might do in System Preferences > Energy Saver.
 Commands that modify settings must begin with `sudo`.
-More information: <https://ss64.com/osx/pmset.html>.
+More information: <https://keith.github.io/xcode-man-pages/pmset.1.html>.
 
 - Display the current power management settings:
 

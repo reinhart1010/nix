@@ -2,8 +2,8 @@
 layout: page
 title: osx/csrutil (português (Brasil))
 description: "Gerencia a configuração do System Integrity Protection (SIP)."
-content_hash: 6b61d2a3577aaee374fd312248e219f068733ba0
-last_modified_at: 2023-11-12
+content_hash: 5d84e69728fd5242285f21ffb46a7fc6399e659a
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/csrutil.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # csrutil
 
 Gerencia a configuração do System Integrity Protection (SIP).
-Mais informações: <https://ss64.com/osx/csrutil.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/csrutil.8.html>.
 
 - Exibe o status do System Integrity Protection:
 

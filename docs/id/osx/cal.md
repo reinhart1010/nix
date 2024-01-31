@@ -2,8 +2,8 @@
 layout: page
 title: osx/cal (Indonesia)
 description: "Menampilkan informasi kalender."
-content_hash: ec2c27b1009e95b2465f2bda8f19d7c8e059b946
-last_modified_at: 2023-11-12
+content_hash: 320c4c682401234475aa9dbf747cd265056644c0
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/cal.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # cal
 
 Menampilkan informasi kalender.
-Informasi lebih lanjut: <https://ss64.com/osx/cal.html>.
+Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/cal.1.html>.
 
 - Menampilkan kalender pada bulan ini:
 

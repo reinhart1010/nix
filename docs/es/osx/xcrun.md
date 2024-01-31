@@ -2,8 +2,8 @@
 layout: page
 title: osx/xcrun (español)
 description: "Ejecuta o localiza herramientas de desarrollo y propiedades."
-content_hash: 928f99e2ec98799f1a367a7ba585c0c7ed2aadb6
-last_modified_at: 2023-11-12
+content_hash: 797c80dcbafdbee548833df0c50b4a82530b7086
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/xcrun.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # xcrun
 
 Ejecuta o localiza herramientas de desarrollo y propiedades.
-Más información: <https://www.unix.com/man-page/osx/1/xcrun/>.
+Más información: <https://keith.github.io/xcode-man-pages/xcrun.1.html>.
 
 - Localiza y ejecuta una herramienta desde el directorio activo de desarrolladores:
 

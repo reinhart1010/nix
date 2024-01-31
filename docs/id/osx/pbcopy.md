@@ -2,8 +2,8 @@
 layout: page
 title: osx/pbcopy (Indonesia)
 description: "Menempatkan output standar pada papan klip (clipboard)."
-content_hash: d9a181e9e2c82b6c7e2ba771667833e29df7af14
-last_modified_at: 2023-11-12
+content_hash: f2890db98d937a69e6018f9465fea5879eed4880
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/pbcopy.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # pbcopy
 
 Menempatkan output standar pada papan klip (clipboard).
-Informasi lebih lanjut: <https://ss64.com/osx/pbcopy.html>.
+Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/pbcopy.1.html>.
 
 - Menempatkan konten file pada papan klip:
 

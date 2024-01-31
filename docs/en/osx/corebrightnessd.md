@@ -2,8 +2,8 @@
 layout: page
 title: osx/corebrightnessd (English)
 description: "Manages Night Shift."
-content_hash: c62b92e241ac5da6731211214ee0387acc4c97f2
-last_modified_at: 2023-11-12
+content_hash: d8eb41a6308d57c4127aef09b059e2205d37e7fc
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/corebrightnessd.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Manages Night Shift.
 It should not be invoked manually.
-More information: <https://www.manpagez.com/man/8/corebrightnessd/>.
+More information: <https://keith.github.io/xcode-man-pages/corebrightnessd.8.html>.
 
 - Start the daemon:
 

@@ -2,9 +2,12 @@
 layout: page
 title: osx/arch (English)
 description: "Display the name of the system architecture, or run a command under a different architecture."
-content_hash: 624650a05bea712719c43019a8678dc757c6190e
-last_modified_at: 2023-11-29
+content_hash: f56da632bcd1688087723920c9172af3c8f28c95
+last_modified_at: 2024-01-31
 related_topics:
+  - title: español version
+    url: /es/osx/arch.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/arch.html
     icon: bi bi-globe
@@ -20,7 +23,7 @@ tldri18n_status: 2
 
 Display the name of the system architecture, or run a command under a different architecture.
 See also: `uname`.
-More information: <https://www.unix.com/man-page/osx/1/arch/>.
+More information: <https://keith.github.io/xcode-man-pages/arch.1.html>.
 
 - Display the system's architecture:
 

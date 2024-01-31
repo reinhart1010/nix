@@ -2,8 +2,8 @@
 layout: page
 title: osx/pbcopy (ไทย)
 description: "คัดลอกข้อมูลจากอินพุตมาตรฐาน (`stdin`) ไปยังคลิปบอร์ด"
-content_hash: 25d2d0019d9ed1e9670e0fc33dd8743554758753
-last_modified_at: 2023-11-12
+content_hash: dd77ad8f1baa335c556a06b5dfdfb8695dad5d49
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/pbcopy.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 คัดลอกข้อมูลจากอินพุตมาตรฐาน (`stdin`) ไปยังคลิปบอร์ด
 เทียบได้กับการกดปุ่ม Cmd + C บนแป้นพิมพ์
-ข้อมูลเพิ่มเติม: <https://ss64.com/osx/pbcopy.html>
+ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/pbcopy.1.html>
 
 - คัดลอกเนื้อหาในไฟล์ที่กำหนดไปยังคลิปบอร์ด:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/caffeinate (polski)
 description: "Nie pozwól aby macOS się uśpił."
-content_hash: 19c1c720b3b06955b0b2626278c76cf5c4e73baf
-last_modified_at: 2023-11-12
+content_hash: a3848d2cc81f28dbbf0ee90a719eb3470d9cc9f7
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># caffeinate
 
 Nie pozwól aby macOS się uśpił.
-Więcej informacji: <https://ss64.com/osx/caffeinate.html>.
+Więcej informacji: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Nie usypiaj przez 1 godzinę (3600 sekund):
 

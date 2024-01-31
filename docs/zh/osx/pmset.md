@@ -2,8 +2,8 @@
 layout: page
 title: osx/pmset (中文)
 description: "配置 macOS 电源管理设置，就像在系统首选项 > 节能程序中一样。"
-content_hash: 406e1a71ccb886bdc376e187c2bc17c3f31531cb
-last_modified_at: 2023-11-12
+content_hash: 22ffe693fa049e0b0e8bdb4afc8b0098c8caeb50
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/pmset.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 配置 macOS 电源管理设置，就像在系统首选项 > 节能程序中一样。
 修改设置的命令必须以 `sudo` 开头。
-更多信息：<https://ss64.com/osx/pmset.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/pmset.1.html>.
 
 - 显示当前电源管理设置：
 

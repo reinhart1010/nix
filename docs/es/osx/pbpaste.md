@@ -2,8 +2,8 @@
 layout: page
 title: osx/pbpaste (español)
 description: "Envía el contenido del portapapeles a la salida estándar."
-content_hash: 5dd115155a692096636a49bc2b7ee9593e87ccbf
-last_modified_at: 2023-11-12
+content_hash: f82a550d6a1ebdc520f93368c18c1409666f383c
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/pbpaste.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Envía el contenido del portapapeles a la salida estándar.
 Comparable a pulsar Cmd + V en el teclado.
-Más información: <https://ss64.com/osx/pbpaste.html>.
+Más información: <https://keith.github.io/xcode-man-pages/pbpaste.1.html>.
 
 - Escribe el contenido del portapapeles en un archivo:
 

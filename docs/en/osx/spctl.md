@@ -2,8 +2,8 @@
 layout: page
 title: osx/spctl (English)
 description: "Manage the security assessment policy subsystem."
-content_hash: c96018fdef699274d14bf6defd3c303eb17d7531
-last_modified_at: 2023-11-12
+content_hash: ea3c86c88338cb4511291ace4a86bbf210cb2f73
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/spctl.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Manage the security assessment policy subsystem.
 Utility for managing Gatekeeper in macOS.
-More information: <https://www.unix.com/man-page/osx/8/SPCTL/>.
+More information: <https://keith.github.io/xcode-man-pages/SPCTL.8.html>.
 
 - Turn off Gatekeeper:
 

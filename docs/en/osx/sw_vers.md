@@ -2,8 +2,8 @@
 layout: page
 title: osx/sw_vers (English)
 description: "Print macOS operating system version information."
-content_hash: f852a7e8ec80c6287f7c37189741e0527266d953
-last_modified_at: 2023-11-12
+content_hash: 7274395e3c0ec64174c885795f6ee02a63db4887
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/sw_vers.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # sw_vers
 
 Print macOS operating system version information.
-More information: <https://ss64.com/osx/sw_vers.html>.
+More information: <https://keith.github.io/xcode-man-pages/sw_vers.1.html>.
 
 - Print all available information (OS name, version number, and build):
 

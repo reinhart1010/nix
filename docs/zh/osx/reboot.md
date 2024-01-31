@@ -2,8 +2,8 @@
 layout: page
 title: osx/reboot (中文)
 description: "重启系统。"
-content_hash: 66aeaf5cb559554f274d78bce2f17d80916befa7
-last_modified_at: 2023-11-12
+content_hash: 413b96fbd0852b3ad630d6e670a8c76397a87c2e
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/reboot.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # reboot
 
 重启系统。
-更多信息：<https://ss64.com/osx/reboot.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/reboot.8.html>.
 
 - 立刻重启：
 

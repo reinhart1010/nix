@@ -2,8 +2,8 @@
 layout: page
 title: osx/tmutil (español)
 description: "Utilidad para gestionar las copias de seguridad de Time Machine. La mayoría de las acciones requieren privilegios de root."
-content_hash: 5d36030db81dda0750fd887ddf9821e8923c8c0a
-last_modified_at: 2023-11-26
+content_hash: a59610bb36c09375259c732ce0872519b87b0301
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/tmutil.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # tmutil
 
 Utilidad para gestionar las copias de seguridad de Time Machine. La mayoría de las acciones requieren privilegios de root.
-Más información: <https://ss64.com/osx/tmutil.html>.
+Más información: <https://keith.github.io/xcode-man-pages/tmutil.8.html>.
 
 - Establece una unidad HFS+ como destino de la copia de seguridad:
 

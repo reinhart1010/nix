@@ -2,8 +2,8 @@
 layout: page
 title: osx/dot_clean (português (Brasil))
 description: "Mescla ._* arquivos com arquivos nativos correspondentes."
-content_hash: 77bbe9e37d16c443c0e3b60f986f87d7dbfb6150
-last_modified_at: 2023-11-12
+content_hash: 019c05f9525acc605cea7fb413bf0b749c4e14ea
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/dot_clean.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # dot_clean
 
 Mescla ._* arquivos com arquivos nativos correspondentes.
-Mais informações: <https://ss64.com/osx/dot_clean.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/dot_clean.1.html>.
 
 - Mescla todos os `._*` arquivos recursivamente:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/as (español)
 description: "Ensamblador portable GNU."
-content_hash: 991307f5cdfd1cd634255ca4ed1eeb3f78cf8b01
-last_modified_at: 2023-12-11
+content_hash: 8266ca8b4fb779866843c816b3b301bbddaea658
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/as.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Ensamblador portable GNU.
 Principalmente destinado a ensamblar la salida de `gcc` para ser utilizada por` ld`.
-Más información: <https://www.unix.com/man-page/osx/1/as/>.
+Más información: <https://keith.github.io/xcode-man-pages/as.1.html>.
 
 - Ensambla un archivo, escribiendo la salida en `a.out`:
 

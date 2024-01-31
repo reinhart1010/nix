@@ -2,8 +2,8 @@
 layout: page
 title: osx/locate (中文)
 description: "快速查找文件名。"
-content_hash: 0d1d40399b1c3c5e1acaed695d4e224b15ea8bb0
-last_modified_at: 2024-01-01
+content_hash: 35e5da15a9e1711fe7c7ab6510a7193a366d8ace
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/locate.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # locate
 
 快速查找文件名。
-更多信息：<https://manned.org/locate>.
+更多信息：<https://keith.github.io/xcode-man-pages/locate.1.html>.
 
 - 在数据库中查找关键字。注意：数据库定期重新更新（通常每周或每天）：
 

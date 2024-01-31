@@ -2,8 +2,8 @@
 layout: page
 title: osx/du (português (Brasil))
 description: "Uso do Disco: estima e resume o uso do espaço de arquivos e diretórios."
-content_hash: 0c1cb3c2d850c429ce8513c94ee1f251367a3b36
-last_modified_at: 2023-11-12
+content_hash: a7314976a035b8eb53039f66a6461bb3310e699a
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/du.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # du
 
 Uso do Disco: estima e resume o uso do espaço de arquivos e diretórios.
-Mais informações: <https://ss64.com/osx/du.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/du.1.html>.
 
 - Lista os tamanhos de um diretório e quaisquer subdiretórios, na unidade fornecida (KiB/MiB/GiB):
 

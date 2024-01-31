@@ -2,9 +2,12 @@
 layout: page
 title: osx/getfileinfo (English)
 description: "Get information about a file in an HFS+ directory."
-content_hash: eb58503d0e40e8b893e1a8be9582fa3bc11e0447
-last_modified_at: 2023-12-02
+content_hash: 055d4691d8541d8023814e585cb13e32ad47b942
+last_modified_at: 2024-01-31
 related_topics:
+  - title: Indonesia version
+    url: /id/osx/getfileinfo.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/getfileinfo.html
     icon: bi bi-globe
@@ -16,7 +19,7 @@ tldri18n_status: 2
 # GetFileInfo
 
 Get information about a file in an HFS+ directory.
-More information: <https://www.unix.com/man-page/osx/1/GetFileInfo/>.
+More information: <https://keith.github.io/xcode-man-pages/GetFileInfo.1.html>.
 
 - Display information about a given file:
 

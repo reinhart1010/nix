@@ -2,8 +2,8 @@
 layout: page
 title: osx/cfprefsd (português (Brasil))
 description: "Fornece serviços de preferências (`CFPreferences`, `NSUserDefaults`)."
-content_hash: 54a069ccc6eb26999915a5af1d002f00d5bb13fc
-last_modified_at: 2023-11-12
+content_hash: b8432828213e73cc75749d4ef4d4107b3a3d68bd
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/cfprefsd.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Fornece serviços de preferências (`CFPreferences`, `NSUserDefaults`).
 Não deve ser invocado manualmente.
-Mais informações: <https://www.unix.com/man-page/osx/8/cfprefsd/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/cfprefsd.8.html>.
 
 - Inicia o daemon:
 

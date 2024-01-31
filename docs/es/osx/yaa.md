@@ -2,8 +2,8 @@
 layout: page
 title: osx/yaa (español)
 description: "Crea y manipula archivos YAA."
-content_hash: 688fe7c14f437d56323af253a707dca4aedcfba8
-last_modified_at: 2023-12-27
+content_hash: cd9f6194e44fa59f8edd968b462b5144f420d789
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/yaa.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # yaa
 
 Crea y manipula archivos YAA.
-Más información: <https://www.manpagez.com/man/1/yaa/>.
+Más información: <https://keith.github.io/xcode-man-pages/yaa.1.html>.
 
 - Crea un archivo a partir de un directorio:
 

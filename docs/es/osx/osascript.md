@@ -2,8 +2,8 @@
 layout: page
 title: osx/osascript (español)
 description: "Ejecuta AppleScript o JavaScript for Automation (JXA) desde la línea de comandos."
-content_hash: 289be9e436d5c24847694854f5d4afa198c86432
-last_modified_at: 2024-01-07
+content_hash: c0b677455a3af7a014e326bf129ae14262ed7cc3
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/osascript.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # osascript
 
 Ejecuta AppleScript o JavaScript for Automation (JXA) desde la línea de comandos.
-Más información: <https://ss64.com/osx/osascript.html>.
+Más información: <https://keith.github.io/xcode-man-pages/osascript.1.html>.
 
 - Ejecuta un comando AppleScript:
 

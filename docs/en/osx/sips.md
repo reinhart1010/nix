@@ -2,8 +2,8 @@
 layout: page
 title: osx/sips (English)
 description: "Apple Scriptable Image Processing System."
-content_hash: 7e277bb008a7ffbce267aac4ea1e65a13b9809a5
-last_modified_at: 2023-11-12
+content_hash: 03f55af19e3950ecda546309afb6d299f25af5e9
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/sips.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Apple Scriptable Image Processing System.
 Raster/Query images and ColorSync ICC Profiles.
-More information: <https://ss64.com/osx/sips.html>.
+More information: <https://keith.github.io/xcode-man-pages/sips.1.html>.
 
 - Specify an output directory so that originals do not get modified:
 

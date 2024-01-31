@@ -2,8 +2,8 @@
 layout: page
 title: osx/securityd (English)
 description: "This manages security contexts and cryptographic operations."
-content_hash: 7c28c224e9a0481793d47284c49fbbfc90a97d39
-last_modified_at: 2023-11-12
+content_hash: 2556943e6976aa025bd14911167c020a44ed2fd5
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # securityd
@@ -11,7 +11,7 @@ tldri18n_status: 2
 This manages security contexts and cryptographic operations.
 Works with secd for keychain access.
 It should not be invoked manually.
-More information: <https://www.unix.com/man-page/osx/1/securityd/>.
+More information: <https://keith.github.io/xcode-man-pages/securityd.1.html>.
 
 - Start the daemon:
 

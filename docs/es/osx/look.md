@@ -2,8 +2,8 @@
 layout: page
 title: osx/look (español)
 description: "Busca líneas en un archivo ordenado."
-content_hash: 581b722837564c62a4b41f87bf99cc75ae183ef7
-last_modified_at: 2023-11-26
+content_hash: 55453a761bea5f0f97ba3fd85e35c3b07e528c67
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/look.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # look
 
 Busca líneas en un archivo ordenado.
-Más información: <https://manned.org/look>.
+Más información: <https://keith.github.io/xcode-man-pages/look.1.html>.
 
 - Busca las líneas que comienzan con el prefijo dado:
 

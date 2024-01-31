@@ -2,8 +2,8 @@
 layout: page
 title: osx/caffeinate (Indonesia)
 description: "Menghindari macOS dari sleep (mode tidur)."
-content_hash: 30b796b374337c766b74fb73b714d394e2046092
-last_modified_at: 2023-11-12
+content_hash: 4b460152325d8e7691804a9625b0ac73f6e9ecb5
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># caffeinate
 
 Menghindari macOS dari sleep (mode tidur).
-Informasi lebih lanjut: <https://ss64.com/osx/caffeinate.html>.
+Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Menghindari mode sleep selama 1 jam (3600 detik):
 

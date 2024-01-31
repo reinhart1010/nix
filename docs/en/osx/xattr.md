@@ -2,8 +2,8 @@
 layout: page
 title: osx/xattr (English)
 description: "Utility to work with extended filesystem attributes."
-content_hash: b47b316ea74c27cceb636f5204d0544774fb3647
-last_modified_at: 2023-11-12
+content_hash: 23faf17e9e6783f65f9904c77f50a1063ab01623
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/xattr.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # xattr
 
 Utility to work with extended filesystem attributes.
-More information: <https://ss64.com/osx/xattr.html>.
+More information: <https://keith.github.io/xcode-man-pages/xattr.1.html>.
 
 - List key:value extended attributes for a given file:
 

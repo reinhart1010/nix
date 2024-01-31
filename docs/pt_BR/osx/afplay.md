@@ -2,8 +2,8 @@
 layout: page
 title: osx/afplay (português (Brasil))
 description: "Player de áudio para linha de comando."
-content_hash: 4fcaf77cde853524d12bf8d2f86c36442039711c
-last_modified_at: 2023-12-28
+content_hash: 24964d5b6cfad9c1368ef713e089a9208f6f7a5d
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/afplay.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # afplay
 
 Player de áudio para linha de comando.
-Mais informações: <https://ss64.com/osx/afplay.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/afplay.1.html>.
 
 - Reproduz um arquivo de som (espera até que a reprodução termine):
 

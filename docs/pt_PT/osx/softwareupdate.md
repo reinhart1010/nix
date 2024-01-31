@@ -2,8 +2,8 @@
 layout: page
 title: osx/softwareupdate (português (Portugal))
 description: "Ferramenta de atualização de aplicativos da App Store via linha de comandos."
-content_hash: 71056664727222cd25585086620117e12e25773d
-last_modified_at: 2024-01-14
+content_hash: abd621997a44fa7cdf3772e776c782317bcace1d
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/softwareupdate.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # softwareupdate
 
 Ferramenta de atualização de aplicativos da App Store via linha de comandos.
-Mais informações: <https://ss64.com/osx/softwareupdate.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/softwareupdate.8.html>.
 
 - Lista todos as atualizações disponíveis:
 

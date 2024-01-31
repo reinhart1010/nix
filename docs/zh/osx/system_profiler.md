@@ -2,8 +2,8 @@
 layout: page
 title: osx/system_profiler (中文)
 description: "报告系统硬件和软件配置。"
-content_hash: da7de93d316b1554e4b6a5c53dc39a2dd0583c43
-last_modified_at: 2023-11-12
+content_hash: dfd72c126b75e902b7ff5a1a5a5a85c476158e9c
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/system_profiler.html
@@ -16,7 +16,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># system_profiler
 
 报告系统硬件和软件配置。
-更多信息：<https://ss64.com/osx/system_profiler.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/system_profiler.8.html>.
 
 - 显示可由 System Profiler.app 打开的完整系统资源报告：
 

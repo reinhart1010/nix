@@ -2,8 +2,8 @@
 layout: page
 title: osx/osascript (Indonesia)
 description: "Jalankan AppleScript atau JavaScript for Automation (JXA) dari command-line."
-content_hash: dac0802a3ba080dc9d6f864014fbdf3074df407e
-last_modified_at: 2023-11-12
+content_hash: 31fb94b821c35349f397bfd7837a3a9c5b0364dc
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/osascript.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # osascript
 
 Jalankan AppleScript atau JavaScript for Automation (JXA) dari command-line.
-Informasi lebih lanjut: <https://ss64.com/osx/osascript.html>.
+Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/osascript.1.html>.
 
 - Menjalankan sebuah perintah AppleScript:
 

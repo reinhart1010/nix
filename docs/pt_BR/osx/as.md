@@ -2,8 +2,8 @@
 layout: page
 title: osx/as (português (Brasil))
 description: "Montador (assembler) GNU portável."
-content_hash: 843fcbe0bd95a3751a5626028763a56e18c34ebb
-last_modified_at: 2023-12-28
+content_hash: f4e2f970fb2465c320933d7cccd3c2d9ca7a7ada
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/as.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Montador (assembler) GNU portável.
 Principalmente destinado a montar a saída do `gcc` para ser usada pelo `ld`.
-Mais informações: <https://www.unix.com/man-page/osx/1/as/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/as.1.html>.
 
 - Monta (compilar) um arquivo, escrevendo a saída para `a.out`:
 

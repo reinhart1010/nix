@@ -2,11 +2,14 @@
 layout: page
 title: osx/arch (中文)
 description: "显示系统架构的名称，或者在不同的架构下运行命令。"
-content_hash: 11739065117e885f67c7dabb7b70a187f89215aa
-last_modified_at: 2023-11-29
+content_hash: 6d7443dde44ef70c5e7b94655092e2a292b32af9
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/arch.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/arch.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/arch.html
@@ -23,7 +26,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 显示系统架构的名称，或者在不同的架构下运行命令。
 另见: `uname`.
-更多信息：<https://www.unix.com/man-page/osx/1/arch/>.
+更多信息：<https://keith.github.io/xcode-man-pages/arch.1.html>.
 
 - 显示系统的架构：
 

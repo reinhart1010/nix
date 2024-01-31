@@ -2,8 +2,8 @@
 layout: page
 title: osx/uname (தமிழ்)
 description: "தற்போதைய இயந்திரம் மற்றும் அதில் இயங்கும் இயக்க முறைமை பற்றிய விவரங்களை அச்சிடவும்."
-content_hash: 5a12af6afb83dc2f391bb9bf4838d4252fe1acc8
-last_modified_at: 2023-11-12
+content_hash: edb217fdf681a8e604963107d7c1f176a4dbf615
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/uname.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 தற்போதைய இயந்திரம் மற்றும் அதில் இயங்கும் இயக்க முறைமை பற்றிய விவரங்களை அச்சிடவும்.
 குறிப்பு: இயக்க முறைமை பற்றிய கூடுதல் தகவலுக்கு, `sw_vers` கட்டளையை முயற்சிக்கவும்.
-மேலும் விவரத்திற்கு: <https://ss64.com/osx/uname.html>.
+மேலும் விவரத்திற்கு: <https://keith.github.io/xcode-man-pages/uname.1.html>.
 
 - கர்னல் பெயரை அச்சிடவும்:
 

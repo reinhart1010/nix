@@ -2,8 +2,8 @@
 layout: page
 title: osx/webinspectord (español)
 description: "Transmite comandos entre Web Inspector y objetos remotos como WKWebView."
-content_hash: e6e7872854a4fad7e194d102ca37f36b00647850
-last_modified_at: 2023-11-12
+content_hash: f87d31c88beadbad9ad5f91e1ef0defe10112aa3
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/webinspectord.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Transmite comandos entre Web Inspector y objetos remotos como WKWebView.
 No debe invocarse manualmente.
-Más información: <https://www.manpagez.com/man/8/webinspectord/>.
+Más información: <https://keith.github.io/xcode-man-pages/webinspectord.8.html>.
 
 - Inicia el daemon:
 

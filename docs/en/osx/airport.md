@@ -2,8 +2,8 @@
 layout: page
 title: osx/airport (English)
 description: "Wireless network configuration utility."
-content_hash: 7d969e071ae323fcdb2f9484995ed66c5282a3a5
-last_modified_at: 2023-11-12
+content_hash: f4522d914de10ce23d9ec6bc0b7b003a4233e2ed
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/airport.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # airport
 
 Wireless network configuration utility.
-More information: <https://ss64.com/osx/airport.html>.
+More information: <https://keith.github.io/xcode-man-pages/airport.1.html>.
 
 - Show current wireless status information:
 

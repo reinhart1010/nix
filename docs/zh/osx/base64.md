@@ -2,8 +2,8 @@
 layout: page
 title: osx/base64 (中文)
 description: "使用 Base64 来进行编码和解码。"
-content_hash: 50ba65577d1d16b86a3b67130eaf3d60098f0154
-last_modified_at: 2024-01-01
+content_hash: 26c94c7318b916f565cc413860c7c825ff39ee00
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # base64
 
 使用 Base64 来进行编码和解码。
-更多信息：<https://www.unix.com/man-page/osx/1/base64/>.
+更多信息：<https://keith.github.io/xcode-man-pages/base64.1.html>.
 
 - 编码目标文件：
 

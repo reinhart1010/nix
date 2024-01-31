@@ -2,8 +2,8 @@
 layout: page
 title: osx/watchlistd (English)
 description: "Manages the Apple TV app's watch list."
-content_hash: 3c231854a522c665c0de7222eb90797da234d3b5
-last_modified_at: 2023-11-12
+content_hash: df618d2eb906fd545f1560e26ad775729c6ee8f6
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/watchlistd.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Manages the Apple TV app's watch list.
 It should not be invoked manually.
-More information: <https://www.manpagez.com/man/8/watchlistd/>.
+More information: <https://keith.github.io/xcode-man-pages/watchlistd.8.html>.
 
 - Start the daemon:
 

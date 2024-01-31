@@ -2,8 +2,8 @@
 layout: page
 title: osx/drutil (中文)
 description: "与 DVD 刻录机交互。"
-content_hash: 1cd2cca9db734de2a1b038e72aa3852ae705418b
-last_modified_at: 2023-11-12
+content_hash: 8590ed19de6e67343d78c98bb28f3de53d0cbcda
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/drutil.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # drutil
 
 与 DVD 刻录机交互。
-更多信息：<https://ss64.com/osx/drutil.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/drutil.1.html>.
 
 - 从驱动器中弹出磁盘：
 

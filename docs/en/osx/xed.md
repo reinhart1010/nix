@@ -2,7 +2,7 @@
 layout: page
 title: osx/xed (English)
 description: "Opens files for editing in Xcode."
-content_hash: dab9e4eaec98c2a5b61a0c6df3cb828448be2714
+content_hash: c0f1ad0bbc48095261d8c2ef2a848cec350b5467
 last_modified_at: 2024-01-31
 related_topics:
   - title: español version
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # xed
 
 Opens files for editing in Xcode.
-More information: <https://www.manpagez.com/man/1/xed/>.
+More information: <https://keith.github.io/xcode-man-pages/xed.1.html>.
 
 - Open file in Xcode:
 

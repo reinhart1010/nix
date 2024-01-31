@@ -2,8 +2,8 @@
 layout: page
 title: osx/shutdown (中文)
 description: "关闭并重新启动系统。"
-content_hash: 94b952e8d54dd3a0c355553e0379175e3fbf5722
-last_modified_at: 2024-01-01
+content_hash: b4059e2c0c85f2318521caff7cd8804ae58bc7ec
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/shutdown.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # shutdown
 
 关闭并重新启动系统。
-更多信息：<https://ss64.com/osx/shutdown.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/shutdown.8.html>.
 
 - 立即关机：
 

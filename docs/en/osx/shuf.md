@@ -2,8 +2,8 @@
 layout: page
 title: osx/shuf (English)
 description: "Generate random permutations."
-content_hash: d0dfc9979798054b5544e0630a9173f3014967fb
-last_modified_at: 2023-11-12
+content_hash: 92816b1d38a2b4c8a255ab147eeef7a864ef5ae0
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/shuf.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # shuf
 
 Generate random permutations.
-More information: <https://www.unix.com/man-page/linux/1/shuf/>.
+More information: <https://keith.github.io/xcode-man-pages/shuf.1.html>.
 
 - Randomize the order of lines in a file and output the result:
 

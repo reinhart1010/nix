@@ -2,8 +2,8 @@
 layout: page
 title: osx/bless (português (Brasil))
 description: "Define a capacidade de inicialização por volume e as opções de disco de inicialização. Set volume boot capability and startup disk options."
-content_hash: 96a2b7e582a98a199a389d01d4123337439b75d2
-last_modified_at: 2023-12-28
+content_hash: 4b1eb358fae41d45d9c12cc976ca46f64a48c2e8
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/bless.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # bless
 
 Define a capacidade de inicialização por volume e as opções de disco de inicialização. Set volume boot capability and startup disk options.
-Mais informações: <https://ss64.com/osx/bless.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/bless.1.html>.
 
 - Define um volume somente com Mac OS X ou Darwin e cria os arquivos BootX e `boot.efi` se necessário:
 

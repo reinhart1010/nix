@@ -2,8 +2,8 @@
 layout: page
 title: osx/nvram (español)
 description: "Manipula variables del firmware."
-content_hash: 7ed3acfbd6b11b3b991ce94a2841f0bd6113e7f7
-last_modified_at: 2023-11-12
+content_hash: 05481b462c8bc60bfe9def3ee63eb7db7124e67c
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/nvram.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # nvram
 
 Manipula variables del firmware.
-Más información: <https://ss64.com/osx/nvram.html>.
+Más información: <https://keith.github.io/xcode-man-pages/nvram.8.html>.
 
 - Im[p]rime todas las variables almacenadas en la NVRAM:
 

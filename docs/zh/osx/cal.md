@@ -2,8 +2,8 @@
 layout: page
 title: osx/cal (中文)
 description: "打印日历信息。"
-content_hash: 890db462a259aaf60d182c6b136d91ef2dc8ed4c
-last_modified_at: 2023-11-12
+content_hash: 6ed7703111ad07a1bd51b9f6dd77e06e7d36b4c1
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/cal.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # cal
 
 打印日历信息。
-更多信息：<https://ss64.com/osx/cal.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/cal.1.html>.
 
 - 显示本月日历：
 

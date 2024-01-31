@@ -2,8 +2,8 @@
 layout: page
 title: osx/bless (español)
 description: "Establece la capacidad de arranque del volumen y las opciones del disco de arranque."
-content_hash: 597bddb21e3999b98cdfd1aee59190aaf1be98a7
-last_modified_at: 2023-11-12
+content_hash: 66f6814b75d3ef46233604d548624834c3839d78
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/bless.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # bless
 
 Establece la capacidad de arranque del volumen y las opciones del disco de arranque.
-Más información: <https://ss64.com/osx/bless.html>.
+Más información: <https://keith.github.io/xcode-man-pages/bless.1.html>.
 
 - Bendice un volumen sólo con Mac OS X o Darwin, y crea los archivos BootX y `boot.efi` según sea necesario:
 

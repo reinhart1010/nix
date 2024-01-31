@@ -2,8 +2,8 @@
 layout: page
 title: osx/du (中文)
 description: "磁盘使用率：估计和汇总文件和目录空间使用率。"
-content_hash: a2055db3a1ce10fb29a77c5d5baeabd92c3e4723
-last_modified_at: 2024-01-01
+content_hash: 39ea27048e19e2ad4b4d0cda6d723ecad9baf4ea
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/du.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # du
 
 磁盘使用率：估计和汇总文件和目录空间使用率。
-更多信息：<https://ss64.com/osx/du.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/du.1.html>.
 
 - 以给定单位（KiB/MiB/GiB）列出目录和所有子目录的大小：
 

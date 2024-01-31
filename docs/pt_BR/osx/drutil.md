@@ -2,8 +2,8 @@
 layout: page
 title: osx/drutil (português (Brasil))
 description: "Interage com gravadores de DVD."
-content_hash: b037dad1adbe47e442d0d8110cbd8f33f021d3a3
-last_modified_at: 2023-11-12
+content_hash: fc779ddb01762b496fd71c83a96b4bc130278067
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/drutil.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # drutil
 
 Interage com gravadores de DVD.
-Mais informações: <https://ss64.com/osx/drutil.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/drutil.1.html>.
 
 - Ejeta um disco da unidade:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/cal (English)
 description: "Prints calendar information."
-content_hash: 1d57b3bea96d4bcac59c9366eb3899fbd689addd
-last_modified_at: 2023-11-12
+content_hash: 9db1a3c046d8654038ccee35352855c7ac7d3788
+last_modified_at: 2024-01-31
 related_topics:
   - title: Indonesia version
     url: /id/osx/cal.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # cal
 
 Prints calendar information.
-More information: <https://ss64.com/osx/cal.html>.
+More information: <https://keith.github.io/xcode-man-pages/cal.1.html>.
 
 - Display a calendar for the current month:
 

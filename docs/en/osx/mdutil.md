@@ -2,8 +2,8 @@
 layout: page
 title: osx/mdutil (English)
 description: "Manage the metadata stores used by Spotlight for indexing."
-content_hash: e90d2a436b7bf61122310a456d30be66f8b64218
-last_modified_at: 2023-11-12
+content_hash: e66fda3c6cdd9f87a67b835b28f5249a4f192868
+last_modified_at: 2024-01-31
 related_topics:
   - title: 中文 version
     url: /zh/osx/mdutil.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # mdutil
 
 Manage the metadata stores used by Spotlight for indexing.
-More information: <https://ss64.com/osx/mdutil.html>.
+More information: <https://keith.github.io/xcode-man-pages/mdutil.1.html>.
 
 - Show the indexing status of the startup volume:
 

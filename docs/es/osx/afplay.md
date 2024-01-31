@@ -2,8 +2,8 @@
 layout: page
 title: osx/afplay (español)
 description: "Reproductor de audio de línea de comandos."
-content_hash: 2c2d6f8290dbb3f731557cf426166a92a6bb1467
-last_modified_at: 2023-11-12
+content_hash: d0ec035e1483f16f75bb1211adfcca44dbe5c09b
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/afplay.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # afplay
 
 Reproductor de audio de línea de comandos.
-Más información: <https://ss64.com/osx/afplay.html>.
+Más información: <https://keith.github.io/xcode-man-pages/afplay.1.html>.
 
 - Reproduce un archivo de audio (espera hasta que finalice la reproducción):
 

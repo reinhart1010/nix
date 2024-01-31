@@ -2,8 +2,8 @@
 layout: page
 title: osx/pbpaste (English)
 description: "Send the contents of the clipboard to `stdout`."
-content_hash: 32aaed7f4bdab3b25e474302d76b25f5701b32d2
-last_modified_at: 2023-11-12
+content_hash: 0f3ba36a27fd3324f303efd21cd2b1b35cd2b144
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/pbpaste.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Send the contents of the clipboard to `stdout`.
 Comparable to pressing Cmd + V on the keyboard.
-More information: <https://ss64.com/osx/pbpaste.html>.
+More information: <https://keith.github.io/xcode-man-pages/pbpaste.1.html>.
 
 - Write the contents of the clipboard to a file:
 

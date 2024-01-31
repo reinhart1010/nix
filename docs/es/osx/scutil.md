@@ -2,8 +2,8 @@
 layout: page
 title: osx/scutil (español)
 description: "Gestiona los parámetros de configuración del sistema."
-content_hash: 5a77102be4137cf4c87a0efbbb76edb3cbccecab
-last_modified_at: 2024-01-07
+content_hash: 1f3151fc9efc26177450cacbc29222f0a763a785
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/scutil.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Gestiona los parámetros de configuración del sistema.
 Es necesario ser root para establecer la configuración.
-Más información: <https://ss64.com/osx/scutil.html>.
+Más información: <https://keith.github.io/xcode-man-pages/scutil.8.html>.
 
 - Muestra la configuración DNS:
 

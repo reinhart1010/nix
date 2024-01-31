@@ -2,8 +2,8 @@
 layout: page
 title: osx/as (English)
 description: "Portable GNU assembler."
-content_hash: ee1dcb0e71914c1d59a7abe8fdda6bd4a42ec783
-last_modified_at: 2023-11-12
+content_hash: f1c5e361990101e5b691b67597de3dfc80c05563
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/as.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Portable GNU assembler.
 Primarily intended to assemble output from `gcc` to be used by `ld`.
-More information: <https://www.unix.com/man-page/osx/1/as/>.
+More information: <https://keith.github.io/xcode-man-pages/as.1.html>.
 
 - Assemble a file, writing the output to `a.out`:
 

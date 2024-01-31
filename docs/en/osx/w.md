@@ -2,11 +2,14 @@
 layout: page
 title: osx/w (English)
 description: "Show who is logged on and what they are doing."
-content_hash: ab3a80f079608adeda5c9da0d7e936d8aeb8506c
-last_modified_at: 2023-11-12
+content_hash: e4ee4fc9fc64a6e41d0d59e2f085bf3191ae2777
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/w.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/w.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/osx/w.html
@@ -20,7 +23,7 @@ tldri18n_status: 2
 
 Show who is logged on and what they are doing.
 Print user login, TTY, remote host, login time, idle time, current process.
-More information: <https://ss64.com/osx/w.html>.
+More information: <https://keith.github.io/xcode-man-pages/w.1.html>.
 
 - Show logged-in users information:
 

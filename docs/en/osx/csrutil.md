@@ -2,8 +2,8 @@
 layout: page
 title: osx/csrutil (English)
 description: "Manage the System Integrity Protection configuration."
-content_hash: fcf55b9152faafc37776f4ba3121e2a474577153
-last_modified_at: 2023-11-12
+content_hash: 76d4dcadd9a1aaaf34cf90cda096c03cfd24db89
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/csrutil.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # csrutil
 
 Manage the System Integrity Protection configuration.
-More information: <https://ss64.com/osx/csrutil.html>.
+More information: <https://keith.github.io/xcode-man-pages/csrutil.8.html>.
 
 - Display the System Integrity Protection status:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/bird (português (Brasil))
 description: "Suporta a sincronização do iCloud e iCloud Drive."
-content_hash: da588e8bcde4de75bfca1dc7ebf8a1108f2b4322
-last_modified_at: 2023-12-28
+content_hash: f690bbd30b38d6a7d162484e6a0f4f0e26c9c096
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/bird.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Suporta a sincronização do iCloud e iCloud Drive.
 Não deve ser invocado manualmente.
-Mais informações: <https://www.unix.com/man-page/mojave/8/bird/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/bird.8.html>.
 
 - Inicia o daemon:
 

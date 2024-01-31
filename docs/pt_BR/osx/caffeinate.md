@@ -2,8 +2,8 @@
 layout: page
 title: osx/caffeinate (português (Brasil))
 description: "Evita que o macOS entre em suspensão (repouso)."
-content_hash: 55d6c61c9348c87444f14bfbfd0d581b337ce09e
-last_modified_at: 2023-11-12
+content_hash: 18da070a66dc39d958a30500f87c4d6dc6c52e91
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># caffeinate
 
 Evita que o macOS entre em suspensão (repouso).
-Mais informações: <https://ss64.com/osx/caffeinate.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Evita a suspensão por uma hora (3600 segundos):
 

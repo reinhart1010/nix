@@ -2,11 +2,14 @@
 layout: page
 title: osx/arch (português (Portugal))
 description: "Mostra o nome da arquitetura do sistema, ou executa um comando utilizando uma arquitetura escolhida."
-content_hash: 247f7535a0c7ae39afd1f2471d5dac207d0c5812
-last_modified_at: 2023-11-29
+content_hash: e592e9bc3023b621d76a5c6f98d580bb0b1c4923
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/arch.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/arch.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/arch.html
@@ -23,7 +26,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Mostra o nome da arquitetura do sistema, ou executa um comando utilizando uma arquitetura escolhida.
 Ver também: `uname`.
-Mais informações: <https://www.unix.com/man-page/osx/1/arch/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/arch.1.html>.
 
 - Mostra o nome da arquitetura do sistema:
 

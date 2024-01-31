@@ -2,8 +2,8 @@
 layout: page
 title: osx/plutil (español)
 description: "Ve, convierte, valida o edita archivos de listas de propiedades (\"plist\")."
-content_hash: bf5ea102de2a506aa5c44fb428ca39537ef92932
-last_modified_at: 2023-11-26
+content_hash: 99d3621bed679444384104a0e7ca32bf44215748
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/plutil.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # plutil
 
 Ve, convierte, valida o edita archivos de listas de propiedades ("plist").
-Más información: <https://www.manpagez.com/man/1/plutil/>.
+Más información: <https://keith.github.io/xcode-man-pages/plutil.1.html>.
 
 - Muestra el contenido de uno o más archivos plist en un formato legible por humanos:
 

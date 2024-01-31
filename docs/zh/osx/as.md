@@ -2,8 +2,8 @@
 layout: page
 title: osx/as (中文)
 description: "便携式 GNU 汇编程序。"
-content_hash: ca57bae7db94eecfe7ac8eee6781b0afde4ed836
-last_modified_at: 2023-11-12
+content_hash: 121a647425e6c7739ed8a5fbeaea9f5f00c1c86d
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/as.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 便携式 GNU 汇编程序。
 主要用于汇编 `gcc` 的输出以供 `ld` 使用。
-更多信息：<https://www.unix.com/man-page/osx/1/as/>.
+更多信息：<https://keith.github.io/xcode-man-pages/as.1.html>.
 
 - 汇编文件，将输出写入 a.out：
 

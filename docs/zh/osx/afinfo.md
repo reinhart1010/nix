@@ -2,8 +2,8 @@
 layout: page
 title: osx/afinfo (中文)
 description: "显示音频文件元数据（Metadata）详细信息（OS X）。"
-content_hash: 8ff32142397a73873e9c37b74ae76a2f0d310ae2
-last_modified_at: 2024-01-01
+content_hash: 1452e60fd9be7b95b00062013315d663b5741d80
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/afinfo.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 显示音频文件元数据（Metadata）详细信息（OS X）。
 OS X 自带命令。
-更多信息：<https://ss64.com/osx/afinfo.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/afinfo.1.html>.
 
 - 显示给定音频文件的详细信息：
 

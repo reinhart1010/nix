@@ -2,11 +2,14 @@
 layout: page
 title: osx/say (中文)
 description: "将文本转换为语音。"
-content_hash: 201080fd7364ff5a9549c7d2b1be5b26b6fbf9bf
-last_modified_at: 2023-11-12
+content_hash: 0f909f9b6b9158bfee2ace55fede192957a048f4
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/say.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/say.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/osx/say.html
@@ -16,7 +19,7 @@ tldri18n_status: 2
 # say
 
 将文本转换为语音。
-更多信息：<https://ss64.com/osx/say.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/say.1.html>.
 
 - 大声说出一个句子：
 

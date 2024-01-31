@@ -2,8 +2,8 @@
 layout: page
 title: osx/uname (español)
 description: "Imprime detalles sobre la máquina actual y el sistema operativo que se ejecuta en ella."
-content_hash: 0c3d0b354a8e6e35bdf5c39a1d2a0e9ca5ee608b
-last_modified_at: 2023-11-12
+content_hash: 5e03d2ee4fbbe912529bb43d925453b473a475b6
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/uname.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Imprime detalles sobre la máquina actual y el sistema operativo que se ejecuta en ella.
 Nota: para obtener información adicional sobre el sistema operativo, pruebe el comando `sw_vers`.
-Más información: <https://ss64.com/osx/uname.html>.
+Más información: <https://keith.github.io/xcode-man-pages/uname.1.html>.
 
 - Imprime el nombre del kernel:
 

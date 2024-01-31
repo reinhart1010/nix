@@ -2,8 +2,8 @@
 layout: page
 title: osx/vm_stat (English)
 description: "Show virtual memory statistics."
-content_hash: f158f27ec9700cffd003bb917d4640275bf10f62
-last_modified_at: 2023-11-12
+content_hash: dcd76c4a84259e92140686337830cfdd2a495e17
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/vm_stat.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # vm_stat
 
 Show virtual memory statistics.
-More information: <https://www.unix.com/man-page/osx/1/vm_stat>.
+More information: <https://keith.github.io/xcode-man-pages/vm_stat.1.html>.
 
 - Display virtual memory statistics:
 

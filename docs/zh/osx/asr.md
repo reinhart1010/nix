@@ -2,8 +2,8 @@
 layout: page
 title: osx/asr (中文)
 description: "将磁盘映像还原（复制）到卷上。"
-content_hash: 53718a5598ff1e858fbc4ebb1a79ee4115381867
-last_modified_at: 2024-01-01
+content_hash: 8ca62cb477f750923bbb1e8fa0788920b3d2a453
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/asr.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 将磁盘映像还原（复制）到卷上。
 命令名称是 Apple Software Restore 的缩写。
-更多信息：<https://www.unix.com/man-page/osx/8/asr/>.
+更多信息：<https://keith.github.io/xcode-man-pages/asr.8.html>.
 
 - 将磁盘映像复制到目标卷：
 

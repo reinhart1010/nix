@@ -2,8 +2,8 @@
 layout: page
 title: osx/asr (português (Brasil))
 description: "Restaurar (copiar) uma imagem de disco em um volume."
-content_hash: 6c927b9a06926822d02aca8fd577d285f08de5e7
-last_modified_at: 2024-01-10
+content_hash: 6c8e0b50b4e21490232af0d1140927db789a093c
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/asr.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Restaurar (copiar) uma imagem de disco em um volume.
 O nome do comando significa Apple Software Restore.
-Mais informações: <https://www.unix.com/man-page/osx/8/asr/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/asr.8.html>.
 
 - Restaura uma imagem de disco para um volume de destino:
 

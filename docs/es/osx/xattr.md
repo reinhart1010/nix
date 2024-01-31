@@ -2,8 +2,8 @@
 layout: page
 title: osx/xattr (español)
 description: "Utilidad para trabajar con atributos extendidos del sistema de ficheros."
-content_hash: 7aa48d7b942c08ea5fec4dfd4ab00bda0af56845
-last_modified_at: 2024-01-02
+content_hash: 661431eb338e717b3515edd457633ddbf7b21686
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/xattr.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # xattr
 
 Utilidad para trabajar con atributos extendidos del sistema de ficheros.
-Más información: <https://ss64.com/osx/xattr.html>.
+Más información: <https://keith.github.io/xcode-man-pages/xattr.1.html>.
 
 - Lista atributos extendidos clave:valor para un archivo dado:
 

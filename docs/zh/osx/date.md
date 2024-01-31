@@ -2,14 +2,17 @@
 layout: page
 title: osx/date (中文)
 description: "设置或显示系统日期。"
-content_hash: 3a62a899b0f1442a729e82c557c068e9807591d6
-last_modified_at: 2024-01-01
+content_hash: a8155f35e1ae1f03ac7f0e1ea583f6d82b7f26e3
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/date.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/osx/date.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/date.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/osx/date.html
@@ -22,7 +25,7 @@ tldri18n_status: 2
 # date
 
 设置或显示系统日期。
-更多信息：<https://ss64.com/osx/date.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/date.1.html>.
 
 - 使用默认区域设置的格式显示当前日期：
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/cal (português (Brasil))
 description: "Exibe informações de calendário."
-content_hash: 1bdeed52fa19dc31bbc3a597a58ae7c886ba3ceb
-last_modified_at: 2023-11-12
+content_hash: 1080cc43119b34e9d4f80096e855807e2e181c2a
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/cal.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # cal
 
 Exibe informações de calendário.
-Mais informações: <https://ss64.com/osx/cal.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/cal.1.html>.
 
 - Exibe um calendário para o mês atual:
 

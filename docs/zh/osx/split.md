@@ -2,11 +2,14 @@
 layout: page
 title: osx/split (中文)
 description: "把一个文件拆分成几块。"
-content_hash: 2ff59cbbbba9e43a9dd542fd8f4bea5a3102297a
-last_modified_at: 2023-11-12
+content_hash: 7d96329d0fa2c5bfb7272c1708926ed86484ab9b
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/split.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/split.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -16,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># split
 
 把一个文件拆分成几块。
-更多信息：<https://ss64.com/osx/split.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/split.1.html>.
 
 - 分割一个文件，每个分割部分有 10 行（除了最后一个）：
 

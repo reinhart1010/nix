@@ -2,8 +2,8 @@
 layout: page
 title: osx/launchctl (中文)
 description: "用于启动守护程序（系统范围的服务）和启动代理程序（每个用户程序）的命令行界面，该界面指向苹果的`launchd` 管理工具。"
-content_hash: e87c7cc776e6108ca8ba357654b3cc2251a9b11d
-last_modified_at: 2023-11-12
+content_hash: c39defdfd7c531e18502e22781043ea8223a0d28
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/launchctl.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 用于启动守护程序（系统范围的服务）和启动代理程序（每个用户程序）的命令行界面，该界面指向苹果的`launchd` 管理工具。
 `launchd`加载放置在适当位置的基于 XML 的`*.plist`文件，并根据其定义的计划运行相应的命令。
-更多信息：<https://manned.org/launchctl>.
+更多信息：<https://keith.github.io/xcode-man-pages/launchctl.1.html>.
 
 - 每当用户登录时，自动将 plist 文件加载到 `launchd`：
 

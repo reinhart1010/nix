@@ -2,8 +2,8 @@
 layout: page
 title: osx/ping (English)
 description: "Send ICMP ECHO_REQUEST packets to network hosts."
-content_hash: 4b8fdb3299601d1b32f0c74e25e306b8bfc288b3
-last_modified_at: 2023-11-12
+content_hash: 6defdf4d885c9cd0593c83c1b9109c09d4d3a34f
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/ping.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # ping
 
 Send ICMP ECHO_REQUEST packets to network hosts.
-More information: <https://ss64.com/osx/ping.html>.
+More information: <https://keith.github.io/xcode-man-pages/ping.8.html>.
 
 - Ping the specified host:
 

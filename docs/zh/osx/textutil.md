@@ -2,8 +2,8 @@
 layout: page
 title: osx/textutil (中文)
 description: "用于操作各种格式的文本文件。"
-content_hash: c9ee2ae8b3f1dedf3c6be6190a99c98cbe78d520
-last_modified_at: 2023-11-12
+content_hash: 61206102e501e8147f8370f8fd39662767170171
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/textutil.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # textutil
 
 用于操作各种格式的文本文件。
-更多信息：<https://ss64.com/osx/textutil.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/textutil.1.html>.
 
 - 显示有关 `foo.rtf` 的信息：
 

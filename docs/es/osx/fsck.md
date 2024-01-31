@@ -2,8 +2,8 @@
 layout: page
 title: osx/fsck (español)
 description: "Comprueba la integridad de un sistema de archivos o los repara. El sistema de ficheros debe estar desmontado en el momento de ejecutar el comando."
-content_hash: af4eeea23703445cfce1c33b5efc89297d02b13c
-last_modified_at: 2023-11-12
+content_hash: 137d0a3cd98c4d3bf5a279f3aaf7c79027a6305b
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/fsck.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Comprueba la integridad de un sistema de archivos o los repara. El sistema de ficheros debe estar desmontado en el momento de ejecutar el comando.
 Es una envoltura que llama a `fsck_hfs`, `fsck_apfs`, `fsck_msdos`, `fsck_exfat`, y `fsck_udf` según sea necesario.
-Más información: <https://ss64.com/osx/fsck.html>.
+Más información: <https://keith.github.io/xcode-man-pages/fsck.8.html>.
 
 - Comprueba el sistema de ficheros `/dev/sdX`, informando de cualquier bloque dañado:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/dmesg (English)
 description: "Write the kernel messages to `stdout`."
-content_hash: c324c40d97a490ebe51897dbcad8534702d862c5
-last_modified_at: 2023-11-12
+content_hash: 537b8c79d747281bb8ebbc1fe343aa6940451c6b
+last_modified_at: 2024-01-31
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/dmesg.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # dmesg
 
 Write the kernel messages to `stdout`.
-More information: <https://www.manpagez.com/man/8/dmesg/>.
+More information: <https://keith.github.io/xcode-man-pages/dmesg.8.html>.
 
 - Show kernel messages:
 

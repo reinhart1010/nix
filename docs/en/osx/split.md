@@ -2,9 +2,12 @@
 layout: page
 title: osx/split (English)
 description: "Split a file into pieces."
-content_hash: 42f6c2dac5921f581e0cc228367c248246f490b9
-last_modified_at: 2023-11-12
+content_hash: 4eaff9da8dc69ed3e74c437122d9b53a1bcd7801
+last_modified_at: 2024-01-31
 related_topics:
+  - title: español version
+    url: /es/osx/split.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/split.html
     icon: bi bi-globe
@@ -13,7 +16,7 @@ tldri18n_status: 2
 # split
 
 Split a file into pieces.
-More information: <https://ss64.com/osx/split.html>.
+More information: <https://keith.github.io/xcode-man-pages/split.1.html>.
 
 - Split a file, each split having 10 lines (except the last split):
 

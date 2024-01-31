@@ -2,8 +2,8 @@
 layout: page
 title: osx/coreautha (English)
 description: "A system agent providing the `LocalAuthentication` framework."
-content_hash: 6fc2789fe4a5fc8808b81c0ab57f538c8287b688
-last_modified_at: 2023-11-12
+content_hash: dfe816ac6a9485cd9b54a508d829869184178494
+last_modified_at: 2024-01-31
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/coreautha.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 A system agent providing the `LocalAuthentication` framework.
 It should not be invoked manually. See also: `coreauthd`.
-More information: <https://www.manpagez.com/man/8/coreautha/>.
+More information: <https://keith.github.io/xcode-man-pages/coreautha.8.html>.
 
 - Start the agent:
 

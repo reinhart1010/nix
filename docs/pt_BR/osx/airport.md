@@ -2,8 +2,8 @@
 layout: page
 title: osx/airport (português (Brasil))
 description: "Utilitário de configuração de rede sem fio."
-content_hash: 653309492ed7e1afc50af727a4ab764f00b6a8ed
-last_modified_at: 2023-12-28
+content_hash: ff57436827d1bdd237b60239bb35288066e47f66
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/airport.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # airport
 
 Utilitário de configuração de rede sem fio.
-Mais informações: <https://ss64.com/osx/airport.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/airport.1.html>.
 
 - Mostra informações de status da rede sem fio atual:
 

@@ -2,9 +2,12 @@
 layout: page
 title: osx/scutil (English)
 description: "Manage system configuration parameters."
-content_hash: 82b2801f34bafa17fbe27f5b7b27b8f349e8bdb3
-last_modified_at: 2023-11-12
+content_hash: 88a1134856e630c272f287dcd0bac10606468182
+last_modified_at: 2024-01-31
 related_topics:
+  - title: español version
+    url: /es/osx/scutil.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/osx/scutil.html
     icon: bi bi-globe
@@ -17,7 +20,7 @@ tldri18n_status: 2
 
 Manage system configuration parameters.
 Necessitates to be root when setting configuration.
-More information: <https://ss64.com/osx/scutil.html>.
+More information: <https://keith.github.io/xcode-man-pages/scutil.8.html>.
 
 - Display DNS Configuration:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/sysctl (English)
 description: "Access kernel state information."
-content_hash: b0b679d489b3529d81e0d583dc0757bafe12cef4
-last_modified_at: 2023-11-12
+content_hash: 3500db5d38ec8c743d5eb38116cc261c471c3d49
+last_modified_at: 2024-01-31
 related_topics:
   - title: 中文 version
     url: /zh/osx/sysctl.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # sysctl
 
 Access kernel state information.
-More information: <https://ss64.com/osx/sysctl.html>.
+More information: <https://keith.github.io/xcode-man-pages/sysctl.8.html>.
 
 - Show all available variables and their values:
 

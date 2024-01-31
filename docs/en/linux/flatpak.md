@@ -2,8 +2,8 @@
 layout: page
 title: linux/flatpak (English)
 description: "Build, install and run flatpak applications and runtimes."
-content_hash: 017921a8bffb9268ce21d3bc031c55a5076b1811
-last_modified_at: 2023-11-12
+content_hash: f14d18babcfcfff99279600486f0bd9add7ce43e
+last_modified_at: 2024-01-31
 related_topics:
   - title: हिन्दी version
     url: /hi/linux/flatpak.html
@@ -32,9 +32,9 @@ More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.
 
 `flatpak install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
 
-- List all installed applications and runtimes:
+- List installed applications, ignoring runtimes:
 
-`flatpak list`
+`flatpak list --app`
 
 - Update all installed applications and runtimes:
 

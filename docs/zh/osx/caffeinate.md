@@ -2,8 +2,8 @@
 layout: page
 title: osx/caffeinate (中文)
 description: "防止 Mac 进入休眠模式。"
-content_hash: dc0d2dedef234d7c52ff5de39fda806e2a6e3cbd
-last_modified_at: 2023-11-12
+content_hash: e0fc19d6886cc2de6f8873d750d5be1e27122d9b
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># caffeinate
 
 防止 Mac 进入休眠模式。
-更多信息：<https://ss64.com/osx/caffeinate.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - 防止进入休眠模式 , 1 小时内（3600 秒）：
 

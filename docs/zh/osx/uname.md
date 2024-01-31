@@ -2,8 +2,8 @@
 layout: page
 title: osx/uname (中文)
 description: "打印当前计算机及其上运行的操作系统的详细信息。"
-content_hash: 48c192cb96d998c0447778ab8fcdc65bf70590cd
-last_modified_at: 2023-11-12
+content_hash: 83895af9079b7d0a89554f25793e32edd276489c
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/uname.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 打印当前计算机及其上运行的操作系统的详细信息。
 注意：有关操作系统的其他信息，请尝试使用 `sw-vers` 命令。
-更多信息：<https://ss64.com/osx/uname.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/uname.1.html>.
 
 - 打印内核名称：
 

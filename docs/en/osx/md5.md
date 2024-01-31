@@ -2,8 +2,8 @@
 layout: page
 title: osx/md5 (English)
 description: "Calculate MD5 cryptographic checksums."
-content_hash: 06f051f95282476a094317fd1518215da95d7094
-last_modified_at: 2023-11-12
+content_hash: 9a8e5221d5a4093712cce7097acdb3199cabe956
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/md5.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # md5
 
 Calculate MD5 cryptographic checksums.
-More information: <https://ss64.com/osx/md5.html>.
+More information: <https://keith.github.io/xcode-man-pages/md5.1.html>.
 
 - Calculate the MD5 checksum for a file:
 

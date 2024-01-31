@@ -2,8 +2,8 @@
 layout: page
 title: osx/biometrickitd (English)
 description: "Provides support for biometric operations."
-content_hash: 970254dff181f64903fa668e9c6391042d329452
-last_modified_at: 2023-11-12
+content_hash: 6807862d2bdc39bc2fb5fb48e56448446f9fde2e
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/biometrickitd.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Provides support for biometric operations.
 It should not be invoked manually.
-More information: <https://www.manpagez.com/man/8/biometrickitd/>.
+More information: <https://keith.github.io/xcode-man-pages/biometrickitd.8.html>.
 
 - Start the daemon:
 

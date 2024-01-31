@@ -2,8 +2,8 @@
 layout: page
 title: osx/top (español)
 description: "Muestra información dinámica en tiempo real sobre los procesos en ejecución."
-content_hash: 1b9450d08d57cac275d02e87c5d056ab3125ba2d
-last_modified_at: 2024-01-07
+content_hash: 5611f7440056167d5feec8de24e9f4275329c65a
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/top.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # top
 
 Muestra información dinámica en tiempo real sobre los procesos en ejecución.
-Más información: <https://ss64.com/osx/top.html>.
+Más información: <https://keith.github.io/xcode-man-pages/top.1.html>.
 
 - Inicia top, todas las opciones están disponibles en la interfaz:
 

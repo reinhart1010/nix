@@ -2,8 +2,8 @@
 layout: page
 title: osx/screencapture (English)
 description: "Utility to take screenshots and screen recordings."
-content_hash: f0d6f699c697381c5f577e451c31493481d860e1
-last_modified_at: 2023-11-12
+content_hash: 4221588fc35d9a741ac0d191f178ff829cdafa1c
+last_modified_at: 2024-01-31
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/screencapture.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # screencapture
 
 Utility to take screenshots and screen recordings.
-More information: <https://ss64.com/osx/screencapture.html>.
+More information: <https://keith.github.io/xcode-man-pages/screencapture.1.html>.
 
 - Take a screenshot and save it to a file:
 

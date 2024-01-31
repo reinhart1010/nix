@@ -2,8 +2,8 @@
 layout: page
 title: osx/caffeinate (español)
 description: "Evita que macOS entre en modo de reposo."
-content_hash: 9016d83c53ba206fb6bd5d8cface0fd4e74b24c2
-last_modified_at: 2023-11-12
+content_hash: eba5b1bd438355d78c20155cfbdce8a7fb572930
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># caffeinate
 
 Evita que macOS entre en modo de reposo.
-Más información: <https://ss64.com/osx/caffeinate.html>.
+Más información: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Evita entrar en modo reposo por 1 hora (3600 segundos):
 

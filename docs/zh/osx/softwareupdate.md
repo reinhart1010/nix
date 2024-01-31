@@ -2,8 +2,8 @@
 layout: page
 title: osx/softwareupdate (中文)
 description: "通过命令行更新 macOS 应用商店中应用程序的工具。"
-content_hash: f419dab6d7bf2817ea9b4fa426d9c2f58ac1ac46
-last_modified_at: 2024-01-01
+content_hash: 650c709790eabb7483dba183e1ea251efd412b7f
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/softwareupdate.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # softwareupdate
 
 通过命令行更新 macOS 应用商店中应用程序的工具。
-更多信息：<https://ss64.com/osx/softwareupdate.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/softwareupdate.8.html>.
 
 - 列出所有可用的更新：
 

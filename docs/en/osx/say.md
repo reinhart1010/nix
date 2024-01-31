@@ -2,9 +2,12 @@
 layout: page
 title: osx/say (English)
 description: "Converts text to speech."
-content_hash: f0a83d00d1484f5e0e4cbc19125ef33c6543a5c1
-last_modified_at: 2023-11-12
+content_hash: 1cc8c30391c855a7ba222596288e50d70bd4c6af
+last_modified_at: 2024-01-31
 related_topics:
+  - title: español version
+    url: /es/osx/say.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/osx/say.html
     icon: bi bi-globe
@@ -16,7 +19,7 @@ tldri18n_status: 2
 # say
 
 Converts text to speech.
-More information: <https://ss64.com/osx/say.html>.
+More information: <https://keith.github.io/xcode-man-pages/say.1.html>.
 
 - Say a phrase aloud:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/afinfo (español)
 description: "Analizador de metadatos de archivos de audio para OS X."
-content_hash: 1b63e22b5c75f378f9a9ee62968e000213b2a158
-last_modified_at: 2024-01-02
+content_hash: 8385c00d8ef043c21c35984c9e006db1c9cd311b
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/afinfo.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Analizador de metadatos de archivos de audio para OS X.
 Comando nativo de OS X.
-Más información: <https://ss64.com/osx/afinfo.html>.
+Más información: <https://keith.github.io/xcode-man-pages/afinfo.1.html>.
 
 - Muestra información de un archivo de audio dado:
 

@@ -2,15 +2,19 @@
 layout: page
 title: osx/tail (English)
 description: "Display the last part of a file."
-content_hash: 1cf4f7dcfa961ba792221ef6b413705ef14eb909
-last_modified_at: 2023-11-12
+content_hash: 767ca434dc0a3fe1455b764936a7b08121075752
+last_modified_at: 2024-01-31
+related_topics:
+  - title: Nederlands version
+    url: /nl/osx/tail.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # tail
 
 Display the last part of a file.
 See also: `head`.
-More information: <https://manned.org/man/freebsd-13.0/tail.1>.
+More information: <https://keith.github.io/tail.1.html>.
 
 - Show last 'count' lines in file:
 

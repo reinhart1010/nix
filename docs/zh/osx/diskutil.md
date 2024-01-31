@@ -2,8 +2,8 @@
 layout: page
 title: osx/diskutil (中文)
 description: "用于管理本地磁盘和卷的实用程序。"
-content_hash: 1f02000c4d68f644fa1f77af7e8b8c67b954bf95
-last_modified_at: 2023-11-12
+content_hash: 343830b5bae9489462c9e64cc2de2910df696f81
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/diskutil.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # diskutil
 
 用于管理本地磁盘和卷的实用程序。
-更多信息：<https://ss64.com/osx/diskutil.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/diskutil.8.html>.
 
 - 列出所有当前可用的磁盘、分区和已装入的卷：
 

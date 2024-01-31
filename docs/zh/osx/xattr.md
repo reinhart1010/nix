@@ -2,8 +2,8 @@
 layout: page
 title: osx/xattr (中文)
 description: "用于扩展文件系统属性的实用程序。"
-content_hash: 01a38e282256af4da74e59d9843cd6e479185bac
-last_modified_at: 2023-11-12
+content_hash: e7b41451a274eec27db64d46f11be835172bb056
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/xattr.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # xattr
 
 用于扩展文件系统属性的实用程序。
-更多信息：<https://ss64.com/osx/xattr.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/xattr.1.html>.
 
 - 列出 键：值 列表，显示指定文件的值扩展属性：
 

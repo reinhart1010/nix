@@ -2,8 +2,8 @@
 layout: page
 title: osx/afplay (English)
 description: "Command-line audio player."
-content_hash: eea63e12f22a6b47f1f8bd920b3c11b2772143e6
-last_modified_at: 2023-11-12
+content_hash: 8ba5111045ded11bf52996b438f2529afd0ce0c5
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/afplay.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # afplay
 
 Command-line audio player.
-More information: <https://ss64.com/osx/afplay.html>.
+More information: <https://keith.github.io/xcode-man-pages/afplay.1.html>.
 
 - Play a sound file (waits until playback ends):
 

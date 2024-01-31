@@ -2,8 +2,8 @@
 layout: page
 title: osx/fdesetup (English)
 description: "Set and retrieve FileVault related information."
-content_hash: 4c65bc932e36b36b17d3720a2ae74fb83fec9cbb
-last_modified_at: 2023-12-27
+content_hash: 4c7957457a5a696764dd74beef8f33f4bfcb5533
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/fdesetup.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # fdesetup
 
 Set and retrieve FileVault related information.
-More information: <https://www.unix.com/man-page/mojave/8/fdesetup/>.
+More information: <https://keith.github.io/xcode-man-pages/fdesetup.8.html>.
 
 - List current FileVault enabled users:
 

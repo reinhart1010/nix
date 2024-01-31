@@ -2,8 +2,8 @@
 layout: page
 title: osx/pbcopy (español)
 description: "Copia datos de `stdin` al portapapeles."
-content_hash: a262394258e6640a3c4b6515ac3f024474489120
-last_modified_at: 2023-11-12
+content_hash: d6b004394ea33745847656506fefc4a6a38740b8
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/pbcopy.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Copia datos de `stdin` al portapapeles.
 Comparable a pulsar Cmd + C en el teclado.
-Más información: <https://ss64.com/osx/pbcopy.html>.
+Más información: <https://keith.github.io/xcode-man-pages/pbcopy.1.html>.
 
 - Coloca el contenido de un archivo específico en el portapapeles:
 

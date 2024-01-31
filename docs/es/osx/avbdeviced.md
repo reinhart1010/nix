@@ -2,8 +2,8 @@
 layout: page
 title: osx/avbdeviced (español)
 description: "Un servicio para gestionar dispositivos Audio Video Bridging (AVB)."
-content_hash: e32f23659e665351967992513793e9e37bee5b68
-last_modified_at: 2023-11-29
+content_hash: edd7c306d03b574cefbe025faabd1b81c18dd5e8
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/avbdeviced.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Un servicio para gestionar dispositivos Audio Video Bridging (AVB).
 No debe invocarse manualmente.
-Más información: <https://www.manpagez.com/man/1/avbdeviced/>.
+Más información: <https://keith.github.io/xcode-man-pages/avbdeviced.1.html>.
 
 - Inicia el daemon:
 

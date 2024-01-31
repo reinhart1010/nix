@@ -2,8 +2,8 @@
 layout: page
 title: osx/reboot (español)
 description: "Reinicia el sistema."
-content_hash: f87a7363e0c99cf80f526a57ca1afd2e204f56ac
-last_modified_at: 2023-11-12
+content_hash: 7a6f7ff2a61d2287a711f3e76475d802290f8daf
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/reboot.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # reboot
 
 Reinicia el sistema.
-Más información: <https://ss64.com/osx/reboot.html>.
+Más información: <https://keith.github.io/xcode-man-pages/reboot.8.html>.
 
 - Reinicia inmediatamente:
 

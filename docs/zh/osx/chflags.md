@@ -2,8 +2,8 @@
 layout: page
 title: osx/chflags (中文)
 description: "更改文件或文件夹的标志。"
-content_hash: 7d49c00c24fb80d8936798e4b243b6c830c97c56
-last_modified_at: 2023-11-12
+content_hash: a6b75113394ccedee5f95c0c1a451387ff96be45
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/chflags.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # chflags
 
 更改文件或文件夹的标志。
-更多信息：<https://ss64.com/osx/chflags.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/chflags.1.html>.
 
 - 给文件设置 hidden（隐藏）标签：
 

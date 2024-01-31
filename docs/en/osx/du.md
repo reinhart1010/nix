@@ -2,8 +2,8 @@
 layout: page
 title: osx/du (English)
 description: "Disk usage: estimate and summarize file and directory space usage."
-content_hash: c89646c526560472fdc20397508f2a699193d43f
-last_modified_at: 2023-11-12
+content_hash: d5b6e5799caad0bae31060aea1ddcd5c150de1b1
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/du.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # du
 
 Disk usage: estimate and summarize file and directory space usage.
-More information: <https://ss64.com/osx/du.html>.
+More information: <https://keith.github.io/xcode-man-pages/du.1.html>.
 
 - List the sizes of a directory and any subdirectories, in the given unit (KiB/MiB/GiB):
 

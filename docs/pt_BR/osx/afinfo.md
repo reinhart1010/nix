@@ -2,8 +2,8 @@
 layout: page
 title: osx/afinfo (português (Brasil))
 description: "Parser de metadados de arquivos de áudio para OS X."
-content_hash: 81bdfd0b0139545f1db9cd874c372bde46d6359f
-last_modified_at: 2023-12-28
+content_hash: 39a3c7832c0984aaa9688f122269bf698f3096a6
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/afinfo.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Parser de metadados de arquivos de áudio para OS X.
 Comando nativo do OS X.
-Mais informações: <https://ss64.com/osx/afinfo.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/afinfo.1.html>.
 
 - Exibe informações de um determinado arquivo de áudio:
 

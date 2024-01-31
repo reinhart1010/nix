@@ -2,8 +2,8 @@
 layout: page
 title: osx/route (中文)
 description: "手动操作路由表。"
-content_hash: 51784dea6bb746e501f863118702b00f44e2cc8d
-last_modified_at: 2024-01-01
+content_hash: 1945dc1be81ea6e05383c0ed323f1ab427ac2932
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/route.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 手动操作路由表。
 需要 root 权限。
-更多信息：<https://www.manpagez.com/man/8/route/>.
+更多信息：<https://keith.github.io/xcode-man-pages/route.8.html>.
 
 - 通过网关向目标添加路由：
 

@@ -2,11 +2,14 @@
 layout: page
 title: osx/date (Indonesia)
 description: "Mengatur atau menampilkan tanggal sistem."
-content_hash: bdb82560308d445317d0e86df9bfdf0d8145eab2
-last_modified_at: 2023-12-29
+content_hash: 0087134d1a681c0d04204644ee6391e080277aab
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/date.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/date.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/osx/date.html
@@ -22,7 +25,7 @@ tldri18n_status: 2
 # date
 
 Mengatur atau menampilkan tanggal sistem.
-Informasi lebih lanjut: <https://ss64.com/osx/date.html>.
+Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/date.1.html>.
 
 - Menampilkan tanggal saat ini menggunakan format _locale_:
 

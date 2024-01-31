@@ -2,8 +2,8 @@
 layout: page
 title: osx/airportd (español)
 description: "Gestiona las interfaces inalámbricas."
-content_hash: 41b26f5b13ef0a48da6bf2a53d6d84d8aef98c3a
-last_modified_at: 2023-11-29
+content_hash: b16d2987c571188c33bf9992edd9e3f5cfa24add
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/airportd.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Gestiona las interfaces inalámbricas.
 No debe invocarse manualmente.
-Más información: <https://www.manpagez.com/man/8/airportd/>.
+Más información: <https://keith.github.io/xcode-man-pages/airportd.8.html>.
 
 - Inicia el daemon:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/top (中文)
 description: "显示运行进程的动态实时信息。"
-content_hash: ce46eace6fee1a79a8637df12f60e927b666d799
-last_modified_at: 2023-11-12
+content_hash: eb5d81442ed3e521a487dcec4c28fe2fd57d8104
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/top.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # top
 
 显示运行进程的动态实时信息。
-更多信息：<https://ss64.com/osx/top.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/top.1.html>.
 
 - 执行 top 命令，界面中提供所有选项：
 

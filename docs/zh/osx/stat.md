@@ -2,8 +2,8 @@
 layout: page
 title: osx/stat (中文)
 description: "显示文件状态。"
-content_hash: 77de7b732613b0c67cf1dbafbf9583ce4f95ccae
-last_modified_at: 2023-11-12
+content_hash: d45f390e92587e42233c49758f802cb4ec04ab42
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/stat.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # stat
 
 显示文件状态。
-更多信息：<https://ss64.com/osx/stat.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/stat.1.html>.
 
 - 显示文件属性，如大小、权限、创建和访问日期等：
 

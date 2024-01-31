@@ -2,8 +2,8 @@
 layout: page
 title: osx/ping (中文)
 description: "向网络主机发送 ICMP 回显请求数据包。"
-content_hash: ee078b2c8bb2247b888e6ede230b112ae1656b03
-last_modified_at: 2024-01-01
+content_hash: df413fc9ac372ad057e459a3c1193f4520d5b213
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/ping.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # ping
 
 向网络主机发送 ICMP 回显请求数据包。
-更多信息：<https://ss64.com/osx/ping.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/ping.8.html>.
 
 - Ping 指定的主机：
 

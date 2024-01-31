@@ -2,8 +2,8 @@
 layout: page
 title: osx/filecoordinationd (English)
 description: "Coordinates access to files by multiple processes (`NSFileCoordinator`, `NSFilePresenter`)."
-content_hash: afbc537dce84527fca0aa6bda3a6803fec9767cd
-last_modified_at: 2023-11-12
+content_hash: fdfce45e59959c3bbe3cf7c465c95087fb655dab
+last_modified_at: 2024-01-31
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/filecoordinationd.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Coordinates access to files by multiple processes (`NSFileCoordinator`, `NSFilePresenter`).
 It should not be invoked manually.
-More information: <https://www.unix.com/man-page/osx/8/filecoordinationd/>.
+More information: <https://keith.github.io/xcode-man-pages/filecoordinationd.8.html>.
 
 - Start the daemon:
 

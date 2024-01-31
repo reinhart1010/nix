@@ -2,9 +2,12 @@
 layout: page
 title: osx/look (English)
 description: "Look for lines in sorted file."
-content_hash: ec8d36031f63b395d89c5f23364d82fc10d7f2d2
-last_modified_at: 2023-11-12
+content_hash: 650dcccfbc0c98eaff479f336593c06bd6cd82b4
+last_modified_at: 2024-01-31
 related_topics:
+  - title: español version
+    url: /es/osx/look.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/look.html
     icon: bi bi-globe
@@ -13,7 +16,7 @@ tldri18n_status: 2
 # look
 
 Look for lines in sorted file.
-More information: <https://manned.org/look>.
+More information: <https://keith.github.io/xcode-man-pages/look.1.html>.
 
 - Look for lines which begins with the given prefix:
 

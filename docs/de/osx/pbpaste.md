@@ -2,8 +2,8 @@
 layout: page
 title: osx/pbpaste (Deutsch)
 description: "Sende den Inhalt der Zwischenablage zum Standardoutput."
-content_hash: 2bcca8dae805160eff61da5e2d1077c2139ae76a
-last_modified_at: 2023-11-12
+content_hash: 82c87d4718e8bdb6f43b5061c9f4258d2a0f3260
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/pbpaste.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # pbpaste
 
 Sende den Inhalt der Zwischenablage zum Standardoutput.
-Weitere Informationen: <https://ss64.com/osx/pbpaste.html>.
+Weitere Informationen: <https://keith.github.io/xcode-man-pages/pbpaste.1.html>.
 
 - Schreibe den Inhalt der Zwischenablage in eine Datei:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/ditto (বাংলা)
 description: "ফাইল এবং ডিরেক্টরি কপি করুন।"
-content_hash: 76be5680e21d90910e03776f21c4e7de5208bff0
-last_modified_at: 2023-11-12
+content_hash: 2cb0c36a7f606c4b1e15aa8278001d3188a242d6
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/ditto.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # ditto
 
 ফাইল এবং ডিরেক্টরি কপি করুন।
-আরও তথ্য পাবেন: <https://ss64.com/osx/ditto.html>।
+আরও তথ্য পাবেন: <https://keith.github.io/xcode-man-pages/ditto.1.html>।
 
 - সোর্স ডিরেক্টরির বিষয়বস্তু দিয়ে  গন্তব্য ডিরেক্টরির বিষয়বস্তু ওভাররাইট করুন:
 

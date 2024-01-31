@@ -2,11 +2,14 @@
 layout: page
 title: osx/w (español)
 description: "Muestra quién está conectado y qué está haciendo."
-content_hash: 02a220a24be74120a7d5cafa3866071575e90441
-last_modified_at: 2023-11-12
+content_hash: c639affa3339df423af0eea640fe2e6495629683
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/w.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/w.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/osx/w.html
@@ -20,7 +23,7 @@ tldri18n_status: 2
 
 Muestra quién está conectado y qué está haciendo.
 Imprime el inicio de sesión del usuario, TTY, host remoto, tiempo de inicio de sesiòn, tiempo de inactividad, proceso actual.
-Más información: <https://ss64.com/osx/w.html>.
+Más información: <https://keith.github.io/xcode-man-pages/w.1.html>.
 
 - Muestra información de los usuarios conectados:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/open (español)
 description: "Abre archivos, directorios y aplicaciones."
-content_hash: 9bfac2ebbf8464c092def56371e65ccd4d6672cb
-last_modified_at: 2023-11-12
+content_hash: aacd1d74ea655443c6a7c729f946f194a4cf1e1b
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # open
 
 Abre archivos, directorios y aplicaciones.
-Más información: <https://ss64.com/osx/open.html>.
+Más información: <https://keith.github.io/xcode-man-pages/open.1.html>.
 
 - Abre un archivo con la aplicación asociada:
 

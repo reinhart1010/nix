@@ -2,8 +2,8 @@
 layout: page
 title: osx/apachectl (español)
 description: "Interfaz de control de Apache HTTP Server para macOS."
-content_hash: 2b4302a355e86822bd01751073545238b0ce0d9c
-last_modified_at: 2023-11-12
+content_hash: 69a3228f8c5844a52da525a53079709b9650f868
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/apachectl.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # apachectl
 
 Interfaz de control de Apache HTTP Server para macOS.
-Más información: <https://www.unix.com/man-page/osx/8/apachectl/>.
+Más información: <https://keith.github.io/xcode-man-pages/apachectl.8.html>.
 
 - Inicia la tarea launchd `org.apache.httpd`:
 

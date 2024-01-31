@@ -2,8 +2,8 @@
 layout: page
 title: osx/ps (español)
 description: "Información sobre los procesos en ejecución."
-content_hash: a7bcbb1a6f35dccb98aac24835567998ad74a3d6
-last_modified_at: 2024-01-07
+content_hash: ed1c75c62463c3098f4c4c0e66135a18bc1959de
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/ps.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # ps
 
 Información sobre los procesos en ejecución.
-Más información: <https://www.unix.com/man-page/osx/1/ps/>.
+Más información: <https://keith.github.io/xcode-man-pages/ps.1.html>.
 
 - Lista todos los procesos en ejecución:
 

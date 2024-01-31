@@ -2,8 +2,8 @@
 layout: page
 title: osx/wc (español)
 description: "Cuenta líneas, palabras o bytes."
-content_hash: 57778e1c2537a47d62b4478388d5d3a42396abd2
-last_modified_at: 2023-11-12
+content_hash: b6809651497095bafd35cc9a032b9f09c6003bc8
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/wc.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # wc
 
 Cuenta líneas, palabras o bytes.
-Más información: <https://ss64.com/osx/wc.html>.
+Más información: <https://keith.github.io/xcode-man-pages/wc.1.html>.
 
 - Cuenta líneas en un archivo:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/universalaccessd (español)
 description: "Proporciona servicios de acceso universal."
-content_hash: 750ada3b4b4319429a4a35691b2041557a056e4a
-last_modified_at: 2023-11-12
+content_hash: ec69114033c46e59e6353927f41b399b751b0349
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/universalaccessd.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Proporciona servicios de acceso universal.
 No debe invocarse manualmente.
-Más información: <https://www.manpagez.com/man/8/universalaccessd/>.
+Más información: <https://keith.github.io/xcode-man-pages/universalaccessd.8.html>.
 
 - Inicia el daemon:
 

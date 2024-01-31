@@ -2,8 +2,8 @@
 layout: page
 title: osx/md5 (español)
 description: "Calcula sumas de comprobación criptográficas MD5."
-content_hash: 044709c1da5f67840de0c493a5c463c43d9a32e7
-last_modified_at: 2024-01-07
+content_hash: eb2dd52545a326171cfc19d515957931ffaa7d5f
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/md5.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # md5
 
 Calcula sumas de comprobación criptográficas MD5.
-Más información: <https://ss64.com/osx/md5.html>.
+Más información: <https://keith.github.io/xcode-man-pages/md5.1.html>.
 
 - Calcula la suma de comprobación MD5 de un archivo:
 

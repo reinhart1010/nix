@@ -2,8 +2,8 @@
 layout: page
 title: osx/bnepd (português (Brasil))
 description: "Serviço que lida com todas as conexões de rede Bluetooth."
-content_hash: dfc64370b629d2b40ff1624403bde434fc6e5a50
-last_modified_at: 2023-12-28
+content_hash: 831d0fe4d3b07e8a04adc27f678809b8062338a6
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/bnepd.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Serviço que lida com todas as conexões de rede Bluetooth.
 Não deve ser invocado manualmente.
-Mais informações: <https://www.unix.com/man-page/osx/8/bnepd/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/bnepd.8.html>.
 
 - Inicia o daemon:
 

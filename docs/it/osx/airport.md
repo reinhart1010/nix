@@ -2,8 +2,8 @@
 layout: page
 title: osx/airport (italiano)
 description: "Strumento di configurazione delle reti senza fili."
-content_hash: dc6074d3f88c87aba01a07fff889abcc208f8f9b
-last_modified_at: 2023-12-29
+content_hash: a2e0903e3c1bec914ddef0f7e61b7996615605dc
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/airport.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # airport
 
 Strumento di configurazione delle reti senza fili.
-Maggiori informazioni: <https://ss64.com/osx/airport.html>.
+Maggiori informazioni: <https://keith.github.io/xcode-man-pages/airport.1.html>.
 
 - Mostra le informazioni relative allo stato attuale delle connessioni senza fili:
 

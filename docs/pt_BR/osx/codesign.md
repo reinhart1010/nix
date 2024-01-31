@@ -2,8 +2,8 @@
 layout: page
 title: osx/codesign (português (Brasil))
 description: "Cria e manipula assinaturas de código para macOS."
-content_hash: 74504f53b905ae0f46b4ba6bc88325f2f2977c84
-last_modified_at: 2023-11-12
+content_hash: 9b32b9511403e10d3ef41dd27580a46b49c992fc
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/codesign.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # codesign
 
 Cria e manipula assinaturas de código para macOS.
-Mais informações: <https://www.unix.com/man-page/osx/1/codesign/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/codesign.1.html>.
 
 - Assina um aplicativo com um certificado:
 

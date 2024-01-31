@@ -2,8 +2,8 @@
 layout: page
 title: osx/ditto (中文)
 description: "复制文件和目录。"
-content_hash: aa1b6a28bf505fce99022a4f40b3cefceef5084d
-last_modified_at: 2023-11-12
+content_hash: 9c1002fcaccf75b2c18892a012778a9b16f3d107
+last_modified_at: 2024-01-31
 related_topics:
   - title: বাংলা version
     url: /bn/osx/ditto.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # ditto
 
 复制文件和目录。
-更多信息：<https://ss64.com/osx/ditto.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/ditto.1.html>.
 
 - 用源目录的内容覆盖目标目录的内容：
 

@@ -2,11 +2,14 @@
 layout: page
 title: osx/date (English)
 description: "Set or display the system date."
-content_hash: 3f4cbdbd7a71dde2357f34f7b7a7fd0d7153e96d
-last_modified_at: 2023-11-12
+content_hash: eb7e8f28d2702845ada7749e3926ce1914fa0287
+last_modified_at: 2024-01-31
 related_topics:
   - title: Indonesia version
     url: /id/osx/date.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/date.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/osx/date.html
@@ -22,7 +25,7 @@ tldri18n_status: 2
 # date
 
 Set or display the system date.
-More information: <https://ss64.com/osx/date.html>.
+More information: <https://keith.github.io/xcode-man-pages/date.1.html>.
 
 - Display the current date using the default locale's format:
 

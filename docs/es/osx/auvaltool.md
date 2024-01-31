@@ -2,8 +2,8 @@
 layout: page
 title: osx/auvaltool (español)
 description: "Herramienta de validación AudioUnit para Mac."
-content_hash: 08c984ada72edfb4bf624f8264ed695c7f62dcb6
-last_modified_at: 2023-11-12
+content_hash: a7ce35ffef1bdc1e3b2a9995907ca3e0e64d0beb
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/auvaltool.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # auvaltool
 
 Herramienta de validación AudioUnit para Mac.
-Más información: <https://www.unix.com/man-page/mojave/1/auvaltool>.
+Más información: <https://keith.github.io/xcode-man-pages/auvaltool.1.html>.
 
 - Lista todas las AudioUnits disponibles de cualquier tipo:
 

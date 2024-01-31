@@ -2,8 +2,8 @@
 layout: page
 title: osx/open (Indonesia)
 description: "Buka file, direktori, dan aplikasi."
-content_hash: 27429458b5e336b0b3d8c78665a43f7e6fa39e4c
-last_modified_at: 2023-11-12
+content_hash: 08e4b6bb1d6235bfeb790f3fce0dfc0217a2479b
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
@@ -25,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># open
 
 Buka file, direktori, dan aplikasi.
-Informasi lebih lanjut: <https://ss64.com/osx/open.html>.
+Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/open.1.html>.
 
 - Buka sebuah file di dalam aplikasi default:
 

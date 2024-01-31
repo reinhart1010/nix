@@ -2,8 +2,8 @@
 layout: page
 title: osx/dot_clean (español)
 description: "Fusiona los archivos ._* con los archivos nativos correspondientes."
-content_hash: da02bbf8abcc0044f5ff7f9a82371ebadc4a12f8
-last_modified_at: 2024-01-07
+content_hash: a3ea6440ab1eac9610a0cf206795bb7da1baabee
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/dot_clean.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # dot_clean
 
 Fusiona los archivos ._* con los archivos nativos correspondientes.
-Más información: <https://ss64.com/osx/dot_clean.html>.
+Más información: <https://keith.github.io/xcode-man-pages/dot_clean.1.html>.
 
 - Fusiona todos los ficheros `._*` recursivamente:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/codesign (English)
 description: "Create and manipulate code signatures for macOS."
-content_hash: 935b90d2fef24eeb882a05ada0535d697fa34bad
-last_modified_at: 2023-11-12
+content_hash: 340d8c98c87e82ff70545284dbf1a8d2c740e4c9
+last_modified_at: 2024-01-31
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/codesign.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # codesign
 
 Create and manipulate code signatures for macOS.
-More information: <https://www.unix.com/man-page/osx/1/codesign/>.
+More information: <https://keith.github.io/xcode-man-pages/codesign.1.html>.
 
 - Sign an application with a certificate:
 

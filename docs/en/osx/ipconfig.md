@@ -2,8 +2,8 @@
 layout: page
 title: osx/ipconfig (English)
 description: "View and control IP configuration state."
-content_hash: 16fb0cb985afdac226c925cff3c9d54c190e75f4
-last_modified_at: 2023-11-12
+content_hash: 3f4443408dc424b41668cfbe02be1d2fd2440a3b
+last_modified_at: 2024-01-31
 related_topics:
   - title: 中文 version
     url: /zh/osx/ipconfig.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # ipconfig
 
 View and control IP configuration state.
-More information: <https://ss64.com/osx/ipconfig.html>.
+More information: <https://keith.github.io/xcode-man-pages/ipconfig.8.html>.
 
 - List all network interfaces:
 

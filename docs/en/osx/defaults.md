@@ -2,8 +2,8 @@
 layout: page
 title: osx/defaults (English)
 description: "Read and write macOS user configuration for applications."
-content_hash: 5358f53e44db79b912a9e441b067e8d8fb8ef7d2
-last_modified_at: 2023-11-12
+content_hash: 16548f54061cc6c526c9393e52cbdcbaab433cad
+last_modified_at: 2024-01-31
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/defaults.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # defaults
 
 Read and write macOS user configuration for applications.
-More information: <https://ss64.com/osx/defaults.html>.
+More information: <https://keith.github.io/xcode-man-pages/defaults.1.html>.
 
 - Read system defaults for an application option:
 

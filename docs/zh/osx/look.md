@@ -2,8 +2,8 @@
 layout: page
 title: osx/look (中文)
 description: "查找已排序的文件行（注意，必须是已排序的文件）。"
-content_hash: bc58f9e6ecd974dcf1c53477f0ede195bde3191c
-last_modified_at: 2024-01-01
+content_hash: 5793fdaabc96d0aeb9db7cadb2abdc392ca88cef
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/look.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # look
 
 查找已排序的文件行（注意，必须是已排序的文件）。
-更多信息：<https://manned.org/look>.
+更多信息：<https://keith.github.io/xcode-man-pages/look.1.html>.
 
 - 它开始寻找一个给定的前缀：
 

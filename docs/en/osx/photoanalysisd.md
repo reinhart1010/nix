@@ -2,8 +2,8 @@
 layout: page
 title: osx/photoanalysisd (English)
 description: "Analyze photo libraries for Memories, People, and scene or object based search."
-content_hash: 5dcbca12179da6635f1b048386d71167e8731819
-last_modified_at: 2023-11-15
+content_hash: db5d84479c03e5238342826195bff13d74a82690
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/photoanalysisd.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Analyze photo libraries for Memories, People, and scene or object based search.
 `photoanalysisd` should not be invoked manually.
-More information: <https://www.manpagez.com/man/8/photoanalysisd/>.
+More information: <https://keith.github.io/xcode-man-pages/photoanalysisd.8.html>.
 
 - Start the daemon:
 

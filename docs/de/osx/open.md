@@ -2,8 +2,8 @@
 layout: page
 title: osx/open (Deutsch)
 description: "Öffne Dateien, Verzeichnisse und Anwendungen."
-content_hash: ed1d2dd7d146d1abd223e8e176e9b107dc48b51a
-last_modified_at: 2023-11-12
+content_hash: 0d1be3c0de25e24d917121f239c0a850255219a9
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/open.html
@@ -25,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># open
 
 Öffne Dateien, Verzeichnisse und Anwendungen.
-Weitere Informationen: <https://ss64.com/osx/open.html>.
+Weitere Informationen: <https://keith.github.io/xcode-man-pages/open.1.html>.
 
 - Öffne eine Datei in der zugehörigen Anwendung:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/defaults (português (Brasil))
 description: "Lê e grava a configuração do usuário do macOS para aplicativos."
-content_hash: c8eeb9639fa25ce0ca6559140aadebb396286216
-last_modified_at: 2023-11-12
+content_hash: 2abb2ab6f3f4aeeecc65c87f41997f484599100d
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/defaults.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # defaults
 
 Lê e grava a configuração do usuário do macOS para aplicativos.
-Mais informações: <https://ss64.com/osx/defaults.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/defaults.1.html>.
 
 - Lê os padrões do sistema para uma opção do aplicativo:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/screencapture (português (Portugal))
 description: "Utilitário para fazer capturas de ecrã e gravações de ecrã."
-content_hash: 2bb483314e9bb814196d4ed3ce8ac07218c76bf8
-last_modified_at: 2023-11-12
+content_hash: c578690022283aff2a4121a7a4d2c23e479476c0
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/screencapture.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # screencapture
 
 Utilitário para fazer capturas de ecrã e gravações de ecrã.
-Mais informações: <https://ss64.com/osx/screencapture.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/screencapture.1.html>.
 
 - Faz um captura de ecrã e guarda-a num ficheiro:
 

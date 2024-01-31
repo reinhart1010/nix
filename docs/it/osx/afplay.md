@@ -2,8 +2,8 @@
 layout: page
 title: osx/afplay (italiano)
 description: "Riproduttore audio a riga di comando."
-content_hash: 663e6491c88522132198a883a3e5692e94e1cc28
-last_modified_at: 2023-12-29
+content_hash: 995495301ecf242bd1ade64099b0e706b73a90de
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/afplay.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # afplay
 
 Riproduttore audio a riga di comando.
-Maggiori informazioni: <https://ss64.com/osx/afplay.html>.
+Maggiori informazioni: <https://keith.github.io/xcode-man-pages/afplay.1.html>.
 
 - Riproduci un file audio (fino a quando non finisce la riproduzione):
 

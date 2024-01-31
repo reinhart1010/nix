@@ -2,8 +2,8 @@
 layout: page
 title: osx/emond (English)
 description: "Event Monitor service that accepts events from various services, runs them through a simple rules engine, and takes action."
-content_hash: 243a86dca219a060c724575b789f846d05e3b25a
-last_modified_at: 2023-11-12
+content_hash: 2a6a7c0f6ee7f752b891c91908df892cbe5bc3ee
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/emond.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Event Monitor service that accepts events from various services, runs them through a simple rules engine, and takes action.
 The actions can run commands, send email, or SMS messages.
-More information: <https://www.manpagez.com/man/8/emond/>.
+More information: <https://keith.github.io/xcode-man-pages/emond.8.html>.
 
 - Start the daemon:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/xip (português (Portugal))
 description: "Cria ou extrai ficheiros comprimido de um arquivo xip."
-content_hash: 5ad18db9b90a6645808c68de6a22fe5f8b3b7561
-last_modified_at: 2023-11-12
+content_hash: d78321ad6afa84bf8ae51c6e288730283fd5c716
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/xip.html
@@ -11,13 +11,16 @@ related_topics:
   - title: español version
     url: /es/osx/xip.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/xip.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # xip
 
 Cria ou extrai ficheiros comprimido de um arquivo xip.
 Apenas arquivos criados pela Apple são confiáveis, dado isto esta ferramenta não deve ser utilizada para criar arquivos.
-Mais informações: <https://www.manpagez.com/man/1/xip/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/xip.1.html>.
 
 - Extrai o arquivo para o diretório de trabalho atual:
 

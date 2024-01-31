@@ -2,8 +2,8 @@
 layout: page
 title: osx/base64 (português (Brasil))
 description: "Codifica e decodifica usando a representação Base64."
-content_hash: 56aae8398e3e6279c8004978b54b75416821a720
-last_modified_at: 2023-12-28
+content_hash: 86b490466bf30d33b1a9f5a4913a01dcfe1bf1d1
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # base64
 
 Codifica e decodifica usando a representação Base64.
-Mais informações: <https://www.unix.com/man-page/osx/1/base64/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/base64.1.html>.
 
 - Codifica um arquivo:
 

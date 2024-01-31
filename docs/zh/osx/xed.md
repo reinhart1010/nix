@@ -2,8 +2,8 @@
 layout: page
 title: osx/xed (中文)
 description: "用 Xcode 打开要编辑的文件。"
-content_hash: 693c091657fa639e1c76669b203f1e2322a39051
-last_modified_at: 2023-11-12
+content_hash: 44bfef3b94729b9b8a5b87b0daab038cd650dcab
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/xed.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # xed
 
 用 Xcode 打开要编辑的文件。
-更多信息：<https://www.manpagez.com/man/1/xed/>.
+更多信息：<https://keith.github.io/xcode-man-pages/xed.1.html>.
 
 - 用 Xcode 打开文件：
 

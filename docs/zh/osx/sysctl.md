@@ -2,8 +2,8 @@
 layout: page
 title: osx/sysctl (中文)
 description: "访问内核状态信息。"
-content_hash: 99dc30a82e50e29711b86274a1fa9b0571970af8
-last_modified_at: 2023-11-12
+content_hash: ca63c5ff6c51c21c8c69885447c8b23af58b5215
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/sysctl.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # sysctl
 
 访问内核状态信息。
-更多信息：<https://ss64.com/osx/sysctl.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/sysctl.8.html>.
 
 - 显示所有可用变量及其值：
 

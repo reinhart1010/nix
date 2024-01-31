@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/lorem (English)
-description: "Create more or less random lorem ipsum text."
-content_hash: ccaa37c99bb25e5fbf3c78ef0ee0149450c4ce5a
-last_modified_at: 2023-11-12
+description: "Create some random Latin looking placeholder text."
+content_hash: e1a11c6c3e0ea0393c8fb364f8d3914fefd8e8fd
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # lorem
 
-Create more or less random lorem ipsum text.
+Create some random Latin looking placeholder text.
 More information: <https://manned.org/lorem>.
 
 - Print the specified number of words:

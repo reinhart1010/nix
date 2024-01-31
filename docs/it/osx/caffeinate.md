@@ -2,8 +2,8 @@
 layout: page
 title: osx/caffeinate (italiano)
 description: "Impedisci al mac di sospendersi."
-content_hash: c3ac20e36b328d64d87690e890302cfdd7d33393
-last_modified_at: 2023-11-12
+content_hash: 79895af3f845e52d6b8fe841177dc7a6e7fb5ad0
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># caffeinate
 
 Impedisci al mac di sospendersi.
-Maggiori informazioni: <https://ss64.com/osx/caffeinate.html>.
+Maggiori informazioni: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Impedisci la sospensione per un'ora (3600 secondi):
 

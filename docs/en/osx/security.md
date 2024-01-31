@@ -2,8 +2,8 @@
 layout: page
 title: osx/security (English)
 description: "Administer keychains, keys, certificates and the Security framework."
-content_hash: b24cce883dcf897f84dae9654204599122fbf948
-last_modified_at: 2023-11-12
+content_hash: e2f3774b99c291df554d98e3ce5c87ecaa61a173
+last_modified_at: 2024-01-31
 related_topics:
   - title: polski version
     url: /pl/osx/security.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # security
 
 Administer keychains, keys, certificates and the Security framework.
-More information: <https://ss64.com/osx/security.html>.
+More information: <https://keith.github.io/xcode-man-pages/security.1.html>.
 
 - List all available keychains:
 

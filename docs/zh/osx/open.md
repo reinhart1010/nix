@@ -2,8 +2,8 @@
 layout: page
 title: osx/open (中文)
 description: "打开文件、目录和应用程序。"
-content_hash: da231b0f0fb7659d05fd0dce47a4f1a7fffa48fc
-last_modified_at: 2023-11-12
+content_hash: c1f0c4dbc295d6af3b806451505472220dd65e97
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
@@ -25,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># open
 
 打开文件、目录和应用程序。
-更多信息：<https://ss64.com/osx/open.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/open.1.html>.
 
 - 使用系统关联的应用程序打开文件：
 

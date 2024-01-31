@@ -2,8 +2,8 @@
 layout: page
 title: osx/codesign (中文)
 description: "为 macOS 的应用程序签名。"
-content_hash: d86ef0032f9caf681bdd830fd136950157e1f31b
-last_modified_at: 2024-01-01
+content_hash: e1ca272e3e905cd1d595a7010394c0c6c5af2648
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/codesign.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # codesign
 
 为 macOS 的应用程序签名。
-更多信息：<https://www.unix.com/man-page/osx/1/codesign/>.
+更多信息：<https://keith.github.io/xcode-man-pages/codesign.1.html>.
 
 - 用证书签名：
 

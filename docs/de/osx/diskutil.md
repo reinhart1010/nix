@@ -2,8 +2,8 @@
 layout: page
 title: osx/diskutil (Deutsch)
 description: "Dienstprogramm zur Verwaltung lokaler Festplatten und Volumes."
-content_hash: 20edd50238f88109611f5b91497ec70f281ad10f
-last_modified_at: 2023-11-12
+content_hash: 77a4e1b812470b2d633f0d6a0c4232d014bdc1f2
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/diskutil.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # diskutil
 
 Dienstprogramm zur Verwaltung lokaler Festplatten und Volumes.
-Weitere Informationen: <https://ss64.com/osx/diskutil.html>.
+Weitere Informationen: <https://keith.github.io/xcode-man-pages/diskutil.8.html>.
 
 - Auflisten aller aktuell verfügbaren Festplatten, Partitionen und gemounteten Volumes:
 

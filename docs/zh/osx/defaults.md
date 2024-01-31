@@ -2,8 +2,8 @@
 layout: page
 title: osx/defaults (中文)
 description: "读取和写入 macOS 应用程序的用户配置。"
-content_hash: 849ef2183988a3ac63a04e97a80a15671dc0c535
-last_modified_at: 2023-11-12
+content_hash: 5b0f02ba9d1f32a89fd388ab050a249753d1c42f
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/defaults.html
@@ -19,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># defaults
 
 读取和写入 macOS 应用程序的用户配置。
-更多信息：<https://ss64.com/osx/defaults.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/defaults.1.html>.
 
 - 读取应用程序选项的系统默认值：
 

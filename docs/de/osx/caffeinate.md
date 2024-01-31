@@ -2,8 +2,8 @@
 layout: page
 title: osx/caffeinate (Deutsch)
 description: "Hindert den Mac daran, in den Schlaf-Modus zu gehen."
-content_hash: 7286c98f9b01ce885bc35c0b7e0225cb8e9917cd
-last_modified_at: 2023-11-12
+content_hash: f35ae7726dd2035c9be8d7b82fdf63baad074d11
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/caffeinate.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># caffeinate
 
 Hindert den Mac daran, in den Schlaf-Modus zu gehen.
-Weitere Informationen: <https://ss64.com/osx/caffeinate.html>.
+Weitere Informationen: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Halte den Mac für 1 Stunde (3600 Sekunden) wach:
 

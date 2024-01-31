@@ -2,8 +2,8 @@
 layout: page
 title: osx/tmutil (Deutsch)
 description: "Dienstprogramm zum Verwalten von Time Machine-Backups. Die meisten Befehle erfordern Root-Rechte."
-content_hash: e328211066fc6a3498b4f5eef4f7cb1f8f456101
-last_modified_at: 2023-12-28
+content_hash: bada9f538c3c0028a2015aee2e0156c9b3de699d
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/tmutil.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # tmutil
 
 Dienstprogramm zum Verwalten von Time Machine-Backups. Die meisten Befehle erfordern Root-Rechte.
-Weitere Informationen: <https://ss64.com/osx/tmutil.html>.
+Weitere Informationen: <https://keith.github.io/xcode-man-pages/tmutil.8.html>.
 
 - Setze ein HFS+ Laufwerk als Backupziel:
 

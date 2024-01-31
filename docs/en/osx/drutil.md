@@ -2,8 +2,8 @@
 layout: page
 title: osx/drutil (English)
 description: "Interact with DVD burners."
-content_hash: c1915f4b53cc77c92bf489920a6a76c46dbfea8c
-last_modified_at: 2023-11-12
+content_hash: 58315725c671c15b78de27f5cd513761b182b060
+last_modified_at: 2024-01-31
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/drutil.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # drutil
 
 Interact with DVD burners.
-More information: <https://ss64.com/osx/drutil.html>.
+More information: <https://keith.github.io/xcode-man-pages/drutil.1.html>.
 
 - Eject a disk from the drive:
 

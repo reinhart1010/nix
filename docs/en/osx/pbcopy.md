@@ -2,8 +2,8 @@
 layout: page
 title: osx/pbcopy (English)
 description: "Copy data from `stdin` to the clipboard."
-content_hash: 2811b12339ce628f1eb25677af749c70c5562cf7
-last_modified_at: 2023-11-12
+content_hash: 97c32945425a7e371d5cd09c9a0248d9b8c8adda
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/osx/pbcopy.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Copy data from `stdin` to the clipboard.
 Comparable to pressing Cmd + C on the keyboard.
-More information: <https://ss64.com/osx/pbcopy.html>.
+More information: <https://keith.github.io/xcode-man-pages/pbcopy.1.html>.
 
 - Place the contents of a specific file in the clipboard:
 

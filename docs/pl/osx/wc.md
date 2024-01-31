@@ -2,8 +2,8 @@
 layout: page
 title: osx/wc (polski)
 description: "Zlicza linie, słowa, i bajty."
-content_hash: 19cb05a0a74520137ffeda9e5df499b858d9ba12
-last_modified_at: 2023-11-12
+content_hash: 14f7c49ea14ae9e464f76c958110a0fee9b701d4
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/wc.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # wc
 
 Zlicza linie, słowa, i bajty.
-Więcej informacji: <https://ss64.com/osx/wc.html>.
+Więcej informacji: <https://keith.github.io/xcode-man-pages/wc.1.html>.
 
 - Policz linie w pliku:
 

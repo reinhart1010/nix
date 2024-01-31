@@ -2,8 +2,8 @@
 layout: page
 title: osx/ping (español)
 description: "Envía paquetes ICMP ECHO_REQUEST a hosts de la red."
-content_hash: dd44c97a09efdf725b0f03b61182ddda6c3924c9
-last_modified_at: 2023-11-12
+content_hash: 4f02c34c0ad3bf6648997747c43dbc534b8bd2ea
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/ping.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # ping
 
 Envía paquetes ICMP ECHO_REQUEST a hosts de la red.
-Más información: <https://ss64.com/osx/ping.html>.
+Más información: <https://keith.github.io/xcode-man-pages/ping.8.html>.
 
 - Ping al host especificado:
 

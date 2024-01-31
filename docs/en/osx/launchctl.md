@@ -2,8 +2,8 @@
 layout: page
 title: osx/launchctl (English)
 description: "Control Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs)."
-content_hash: 49877cd5c97ce95628989acc6a3135c555216daf
-last_modified_at: 2023-11-12
+content_hash: 80ca400f05e2c5df1fc9a91a1771ca302681b6b2
+last_modified_at: 2024-01-31
 related_topics:
   - title: Nederlands version
     url: /nl/osx/launchctl.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Control Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs).
 `launchd` loads XML-based `*.plist` files placed in the appropriate locations, and runs the corresponding commands according to their defined schedule.
-More information: <https://manned.org/launchctl>.
+More information: <https://keith.github.io/xcode-man-pages/launchctl.1.html>.
 
 - Activate a user-specific agent to be loaded into `launchd` whenever the user logs in:
 

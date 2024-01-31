@@ -2,8 +2,8 @@
 layout: page
 title: osx/dmesg (português (Brasil))
 description: "Exibe mensagens do kernel na saída padrão."
-content_hash: 50262165a2a62f3e637cb14cee1a268c9c893d40
-last_modified_at: 2023-11-12
+content_hash: cbda535bb6ce2d955de23b9f104ff80432ea3486
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/dmesg.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # dmesg
 
 Exibe mensagens do kernel na saída padrão.
-Mais informações: <https://www.manpagez.com/man/8/dmesg/>.
+Mais informações: <https://keith.github.io/xcode-man-pages/dmesg.8.html>.
 
 - Exibe mensagens do kernel:
 

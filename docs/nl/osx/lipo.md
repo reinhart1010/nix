@@ -2,8 +2,8 @@
 layout: page
 title: osx/lipo (Nederlands)
 description: "Tool voor het verwerken van Mach-O Universal Binaries."
-content_hash: 634f4ad465b43e491c08798bf2f79b8a81dc0d55
-last_modified_at: 2023-11-26
+content_hash: 1a29596b9440d9ecd3b994946d66757166630dd9
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/lipo.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # lipo
 
 Tool voor het verwerken van Mach-O Universal Binaries.
-Meer informatie: <https://ss64.com/osx/lipo.html>.
+Meer informatie: <https://keith.github.io/xcode-man-pages/lipo.1.html>.
 
 - Maak een universeel bestand uit twee bestanden met één architectuur:
 

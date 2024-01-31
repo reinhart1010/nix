@@ -2,8 +2,8 @@
 layout: page
 title: osx/asr (italiano)
 description: "Ripristina (copia) un'immagine disco dentro a un volume."
-content_hash: e489cab98514311561776bc0241dd4a8f6052cdc
-last_modified_at: 2023-12-29
+content_hash: 5abe99c2affb20481ff38fa069dc64e1f4019336
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/asr.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Ripristina (copia) un'immagine disco dentro a un volume.
 Il nome del comando sta per Apple Software Restore (software di ripristino Apple).
-Maggiori informazioni: <https://www.unix.com/man-page/osx/8/asr/>.
+Maggiori informazioni: <https://keith.github.io/xcode-man-pages/asr.8.html>.
 
 - Ripristina un'immagine disco su un volume specifico:
 

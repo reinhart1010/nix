@@ -2,8 +2,8 @@
 layout: page
 title: osx/wifivelocityd (español)
 description: "Asistente XPC para realizar acciones de contexto de sistema para el framework WiFiVelocity."
-content_hash: 46ea0fa5a0fb200d086db46183d9250f62eb0ab9
-last_modified_at: 2023-11-12
+content_hash: 48f88427ea26d96d99db163dad720824f56ed909
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/wifivelocityd.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Asistente XPC para realizar acciones de contexto de sistema para el framework WiFiVelocity.
 No debe invocarse manualmente.
-Más información: <http://www.manpagez.com/man/8/wifivelocityd/>.
+Más información: <https://keith.github.io/xcode-man-pages/wifivelocityd.8.html>.
 
 - Inicia el daemon:
 

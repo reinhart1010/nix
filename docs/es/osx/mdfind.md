@@ -2,8 +2,8 @@
 layout: page
 title: osx/mdfind (español)
 description: "Lista los archivos que coinciden con una consulta dada."
-content_hash: 8e5406ac2397bbd5418b0e10ca4c81bf74fa3adc
-last_modified_at: 2023-11-12
+content_hash: 74ba615c408da2b4c594d776d769d160b370aa2c
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/mdfind.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # mdfind
 
 Lista los archivos que coinciden con una consulta dada.
-Más información: <https://ss64.com/osx/mdfind.html>.
+Más información: <https://keith.github.io/xcode-man-pages/mdfind.1.html>.
 
 - Busca un archivo por su nombre:
 

@@ -2,14 +2,17 @@
 layout: page
 title: osx/w (polski)
 description: "Pokazuje kto jest zalogowany i co aktualnie robi."
-content_hash: 29104baa318501d6b7d872fa8e977a20931e49ff
-last_modified_at: 2023-11-12
+content_hash: 097783e3fce8b168fc1371178566667eaac40af7
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/w.html
     icon: bi bi-globe
   - title: español version
     url: /es/osx/w.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/w.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/w.html
@@ -20,7 +23,7 @@ tldri18n_status: 2
 
 Pokazuje kto jest zalogowany i co aktualnie robi.
 Wyświetla login, TTY, zdalny host, czas zalogowania, czas bezczynności i aktualny proces.
-Więcej informacji: <https://ss64.com/osx/w.html>.
+Więcej informacji: <https://keith.github.io/xcode-man-pages/w.1.html>.
 
 - Pokazuje informacje o aktualnie zalogowanych użytkownikach:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/sw_vers (中文)
 description: "打印 macOS 操作系统的版本信息。"
-content_hash: 6134b32b225495030ec86b2e26dfa0f8e39adb43
-last_modified_at: 2023-11-12
+content_hash: e042d71b040d9ee0ecdc21ffc46784d6c5a5c6ad
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/sw_vers.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # sw_vers
 
 打印 macOS 操作系统的版本信息。
-更多信息：<https://ss64.com/osx/sw_vers.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/sw_vers.1.html>.
 
 - 打印所有可用信息（操作系统名称、版本号和构建版本）：
 

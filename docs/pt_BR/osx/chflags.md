@@ -2,8 +2,8 @@
 layout: page
 title: osx/chflags (português (Brasil))
 description: "Altera flags de arquivo ou diretório."
-content_hash: c423bb9fb0273155b039e269561f3904e4637e18
-last_modified_at: 2023-11-12
+content_hash: d74805aeac266b718ea11525f924b9dd9a73b44c
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/chflags.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # chflags
 
 Altera flags de arquivo ou diretório.
-Mais informações: <https://ss64.com/osx/chflags.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/chflags.1.html>.
 
 - Define a flag `hidden` para um arquivo:
 

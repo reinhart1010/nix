@@ -2,8 +2,8 @@
 layout: page
 title: osx/date (한국어)
 description: "시스템 날짜 설정 또는 표시."
-content_hash: 218fb3a3d84cf7343581de96c34e91ddc291c7b4
-last_modified_at: 2024-01-16
+content_hash: 6d7c37a207fd581b7619780068aa467a0cd56e73
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/date.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # date
 
 시스템 날짜 설정 또는 표시.
-더 많은 정보: <https://ss64.com/osx/date.html>.
+더 많은 정보: <https://keith.github.io/xcode-man-pages/date.1.html>.
 
 - 기본 로케일 형식을 사용하여 현재 날짜를 표시:
 

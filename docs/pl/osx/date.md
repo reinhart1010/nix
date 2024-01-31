@@ -2,14 +2,17 @@
 layout: page
 title: osx/date (polski)
 description: "Ustaw bądź wyświetl datę systemową."
-content_hash: d2e7baa5aa2a92ce56e9b00827d6916f563dba0c
-last_modified_at: 2023-11-12
+content_hash: 60bb73a57acdbc3a8d1568493811774047c2108a
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/date.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/osx/date.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/date.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/date.html
@@ -22,7 +25,7 @@ tldri18n_status: 2
 # date
 
 Ustaw bądź wyświetl datę systemową.
-Więcej informacji: <https://ss64.com/osx/date.html>.
+Więcej informacji: <https://keith.github.io/xcode-man-pages/date.1.html>.
 
 - Wyświetl aktualną datę w domyślnym formacie:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/system_profiler (English)
 description: "Report system hardware and software configuration."
-content_hash: a93b1357000799e81ecea9703644a57da309af40
-last_modified_at: 2023-11-12
+content_hash: 9c780549e7d4528e1252f09fa9040c9b17a3adc7
+last_modified_at: 2024-01-31
 related_topics:
   - title: 中文 version
     url: /zh/osx/system_profiler.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # system_profiler
 
 Report system hardware and software configuration.
-More information: <https://ss64.com/osx/system_profiler.html>.
+More information: <https://keith.github.io/xcode-man-pages/system_profiler.8.html>.
 
 - Display a report with specific details level (mini [no personal information], basic or full):
 

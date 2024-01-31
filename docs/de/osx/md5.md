@@ -2,8 +2,8 @@
 layout: page
 title: osx/md5 (Deutsch)
 description: "Berechne kryptografische MD5-Prüfsummen."
-content_hash: 654d94d6cd1ed029ba3759e729b412ecc82d51a7
-last_modified_at: 2023-11-12
+content_hash: 816699d91409bcca7c074b3d2470238eaf269425
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/md5.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # md5
 
 Berechne kryptografische MD5-Prüfsummen.
-Weitere Informationen: <https://ss64.com/osx/md5.html>.
+Weitere Informationen: <https://keith.github.io/xcode-man-pages/md5.1.html>.
 
 - Berechne die MD5-Prüfsumme einer Datei und gib sie mit Dateinamen auf der Konsole aus:
 

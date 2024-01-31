@@ -2,8 +2,8 @@
 layout: page
 title: osx/mdfind (中文)
 description: "列出与给定查询匹配的文件。"
-content_hash: edc332a26a91aaa139ca0a52024cd4c74ce83c6c
-last_modified_at: 2024-01-01
+content_hash: 2fe59a1a754742bd12443dd93b7e6954e8bb052a
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/osx/mdfind.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # mdfind
 
 列出与给定查询匹配的文件。
-更多信息：<https://ss64.com/osx/mdfind.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/mdfind.1.html>.
 
 - 按文件名查找文件：
 
