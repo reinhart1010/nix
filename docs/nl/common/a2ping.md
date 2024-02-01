@@ -2,8 +2,8 @@
 layout: page
 title: common/a2ping (Nederlands)
 description: "Converteer afbeeldingen in EPS- of PDF-bestanden."
-content_hash: 21be9680b85b6e24e20944617dd68c966018994c
-last_modified_at: 2023-11-19
+content_hash: dd13f5b605282da9b75af13ee82e52db7f06dc57
+last_modified_at: 2024-02-01
 related_topics:
   - title: বাংলা version
     url: /bn/common/a2ping.html
@@ -11,8 +11,14 @@ related_topics:
   - title: English version
     url: /en/common/a2ping.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/a2ping.html
+    icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/a2ping.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/a2ping.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/a2ping.html
@@ -48,6 +54,6 @@ Meer informatie: <https://manned.org/a2ping>.
 
 `a2ping --extra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Hulp weergeven:
+- Toon de help:
 
 `a2ping -h`

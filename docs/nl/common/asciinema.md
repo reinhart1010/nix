@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/asciinema (Nederlands)
-description: "Neemt en speelt terminal sessies af, en deelt hem optioneel op asciinema.org."
-content_hash: 21c7583bde237a70c22470caebe47e7a9b06436b
-last_modified_at: 2023-11-12
+description: "Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org."
+content_hash: 63eff7c29d661f8d83e054961f2e949bcb442362
+last_modified_at: 2024-02-01
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 ---
 # asciinema
 
-Neemt en speelt terminal sessies af, en deelt hem optioneel op asciinema.org.
+Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org.
 Meer informatie: <https://asciinema.org/docs/usage>.
 
 - Associeer de lokale installatie van `asciinema` met het asciinema.org account:
@@ -40,11 +40,11 @@ Meer informatie: <https://asciinema.org/docs/usage>.
 
 - Maak een nieuwe opname en sla het op in een lokaal bestand:
 
-`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>`.cast`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.cast</span>
 
 - Speelt een terminal opname of vanaf een lokaal bestand:
 
-`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>`.cast`
+`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.cast</span>
 
 - Speelt een terminal opname of vanaf asciinema.org:
 
@@ -56,8 +56,8 @@ Meer informatie: <https://asciinema.org/docs/usage>.
 
 - Laat de volledige inhoud zien van een lokaal opgeslagen opname:
 
-`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>`.cast`
+`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.cast</span>
 
 - Slaat een lokaal opgeslagen terminal sessie op bij asciinema.org:
 
-`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>`.cast`
+`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.cast</span>

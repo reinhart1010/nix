@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-commit (Nederlands)
 description: "Commit bestanden naar een Fossil repository."
-content_hash: 2d5dd105aa660b995283ffc681f4a0727ce6ffae
-last_modified_at: 2023-11-26
+content_hash: bf4b993e868313def42a92d08294b9ef912d55a9
+last_modified_at: 2024-02-01
 related_topics:
   - title: English version
     url: /en/common/fossil-commit.html
@@ -29,4 +29,4 @@ Meer informatie: <https://fossil-scm.org/home/help/commit>.
 
 - Maak een nieuwe versie met aanpassingen van de gespecificeerde bestanden; de gebruiker zal gevraagd worden voor een opmerking:
 
-`fossil commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand2</span>
+`fossil commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 ...</span>

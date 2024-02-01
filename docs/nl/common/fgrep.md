@@ -2,8 +2,8 @@
 layout: page
 title: common/fgrep (Nederlands)
 description: "Zoek naar strings in bestanden."
-content_hash: 7c158ebac97f9be2dd40ec0dd139863460c68e87
-last_modified_at: 2023-11-27
+content_hash: 21cda082031f830bdce90ef58736a27d66981180
+last_modified_at: 2024-02-01
 related_topics:
   - title: English version
     url: /en/common/fgrep.html
@@ -22,7 +22,7 @@ Meer informatie: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Zoek in bestanden, maar alleen in regels die volledig overeenkomen:
 
-`fgrep -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_string</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand2</span>
+`fgrep -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_string</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 ...</span>
 
 - Tel het aantal regels in een bestand die overeenkomen met de opgegeven string:
 
@@ -38,4 +38,4 @@ Meer informatie: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Toon bestandsnamen waarvan de inhoud minimaal één keer overeenkomt met de string:
 
-`fgrep -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_string</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand2</span>
+`fgrep -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_string</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 ...</span>

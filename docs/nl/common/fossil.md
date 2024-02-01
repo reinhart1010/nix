@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil (Nederlands)
 description: "Gedistribueerd versiebheer systeem."
-content_hash: f1ea438c44084aebdeaf473172268ca96c5a0100
-last_modified_at: 2023-11-26
+content_hash: 1750fae20eb07b493ab417f4899b76e6399d5b4a
+last_modified_at: 2024-02-01
 related_topics:
   - title: English version
     url: /en/common/fossil.html
@@ -16,18 +16,18 @@ Gedistribueerd versiebheer systeem.
 Sommige subcommando's zoals `fossil db` hebben hun eigen documentatie.
 Meer informatie: <https://fossil-scm.org/>.
 
-- Controller de Fossil versie:
-
-`fossil version`
-
-- Toon algemene help (toon beschikbare subcommandos):
-
-`fossil help`
-
-- Toon help voor een Fossil subcommando (zoals `add`, `commit`, etc.):
-
-`fossil help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
-
 - Voer een Fossil subcommando uit:
 
 `fossil `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
+
+- Toon de algemene help:
+
+`fossil help`
+
+- Toon de help voor een specifiek subcommando (zoals `add`, `commit`, etc.):
+
+`fossil help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
+
+- Toon de versie:
+
+`fossil version`

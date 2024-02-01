@@ -2,8 +2,8 @@
 layout: page
 title: windows/del (Nederlands)
 description: "Verwijder een of meer bestanden."
-content_hash: 7284309269bcf23e33e067b90ff298485249ecb9
-last_modified_at: 2023-11-12
+content_hash: 44f287bb945e2ffb586fd0fac54126d267e41a81
+last_modified_at: 2024-02-01
 related_topics:
   - title: Deutsch version
     url: /de/windows/del.html
@@ -58,7 +58,7 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 
 `del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span>` /q`
 
-- Geef de beschikbare hulp en lijst met attributen weer:
+- Geef de beschikbare help en lijst met attributen weer:
 
 `del /?`
 

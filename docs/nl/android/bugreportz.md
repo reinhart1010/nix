@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (Nederlands)
 description: "Genereer een gezipt Android-bugrapport."
-content_hash: 11e7411a17326db4aa09354d05b8b2f3037f3c60
-last_modified_at: 2023-11-12
+content_hash: e7f86cd6c135d76a108617152e1c2569c85db695
+last_modified_at: 2024-02-01
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ Meer informatie: <https://cs.android.com/android/platform/superproject/+/main:fr
 
 `bugreportz -p`
 
-- Toon de versie van `bugreportz`:
-
-`bugreportz -v`
-
-- Help weergeven:
+- Toon de help:
 
 `bugreportz -h`
+
+- Toon de versie:
+
+`bugreportz -v`

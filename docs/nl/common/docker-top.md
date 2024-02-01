@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-top (Nederlands)
 description: "Toon de lopende processen van een container."
-content_hash: 468e687f5fede82d0c767476ee3f129414dca83f
-last_modified_at: 2023-11-26
+content_hash: ba59a3315eb232c18e4665b42394eb593501b552
+last_modified_at: 2024-02-01
 related_topics:
   - title: English version
     url: /en/common/docker-top.html
@@ -19,6 +19,6 @@ Meer informatie: <https://docs.docker.com/engine/reference/commandline/top>.
 
 `docker top `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span>
 
-- Hulp weergeven:
+- Toon de help:
 
 `docker top --help`

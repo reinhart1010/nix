@@ -2,8 +2,8 @@
 layout: page
 title: common/git (Nederlands)
 description: "Gedistribueerd versiebeheersysteem."
-content_hash: c6783ed31048bb57bac46f1166c5b64d5f36a3a2
-last_modified_at: 2023-11-23
+content_hash: 8dff23e02a15b02da340fdc266806c733a759aa3
+last_modified_at: 2024-02-01
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,18 +58,6 @@ Gedistribueerd versiebeheersysteem.
 Sommige subcommando's zoals `commit`, `add`, `branch`, `checkout`, `push`, etc. hebben hun eigen documentatie.
 Meer informatie: <https://git-scm.com/>.
 
-- Controleer de Git versie:
-
-`git --version`
-
-- Toon algemene hulp:
-
-`git --help`
-
-- Toon hulp bij een Git-subcommando (zoals `commit`, `log`, enz.):
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommando</span>
-
 - Voer een Git-subcommando uit:
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommando</span>
@@ -81,3 +69,15 @@ Meer informatie: <https://git-scm.com/>.
 - Voer een Git-subcommando met een gegeven configuratieset:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.sleutel</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">waarde</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommando</span>
+
+- Toon de algemene help:
+
+`git --help`
+
+- Toon de help van een specifiek subcommando (zoals `commit`, `log`, enz.):
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommando</span>
+
+- Toon de versie:
+
+`git --version`

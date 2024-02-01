@@ -2,8 +2,8 @@
 layout: page
 title: common/egrep (Nederlands)
 description: "Vind patronen in bestanden door gebruik te maken van uitgebreidere reguliere expressies (ondersteund `?`, `+`, `{}`, `()` en `|`)."
-content_hash: d2065056755711e4119b284cb04fcee455e0a637
-last_modified_at: 2023-11-27
+content_hash: 21ac1b7943d411cbe6b2af148d41becb7eab070a
+last_modified_at: 2024-02-01
 related_topics:
   - title: English version
     url: /en/common/egrep.html
@@ -24,7 +24,7 @@ Meer informatie: <https://manned.org/egrep>.
 
 - Zoek naar een patroon in meerdere bestanden:
 
-`egrep "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand3</span>
+`egrep "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 ...</span>
 
 - Zoek in `stdin` naar een patroon:
 

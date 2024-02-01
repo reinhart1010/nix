@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (Nederlands)
 description: "Bestanden tonen en samenvoegen."
-content_hash: 52a847098336e0b49fbe8652a0d5eb03d53f8955
-last_modified_at: 2023-11-26
+content_hash: 279be7c74193b373acbc667088a9c453b58cbcef
+last_modified_at: 2024-02-01
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -49,17 +49,17 @@ Bestanden tonen en samenvoegen.
 Een `cat` kopie met syntax highlighting en Git integratie.
 Meer informatie: <https://github.com/sharkdp/bat>.
 
-- Toon de inhoud van een bestand naar `stdout`:
+- Toon de inhoud van een of meerdere bestanden in `stdout`:
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 ...</span>
 
 - Voeg verschillende bestanden samen in het doelbestand:
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doelbestand</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doelbestand</span>
 
 - Voeg verschillende bestanden toe aan het doelbestand:
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand2</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doelbestand</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doelbestand</span>
 
 - Nummer alle uitvoerregels:
 
@@ -67,7 +67,7 @@ Meer informatie: <https://github.com/sharkdp/bat>.
 
 - Highlight de syntax van een JSON-bestand:
 
-`bat --language json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.json</span>
+`bat --language json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.json</span>
 
 - Toon alle ondersteunde talen:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco (Nederlands)
 description: "De Chocolatey pakket manager."
-content_hash: acbf2dcdca4bffc16f71f6d41fa3eccf1d34714e
-last_modified_at: 2023-11-26
+content_hash: 572d64a30db63c4f32053febaf00014ce6b54f12
+last_modified_at: 2024-02-01
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -50,11 +50,11 @@ Meer informatie: <https://chocolatey.org>.
 
 `choco `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>
 
-- Toon algemene hulp:
+- Toon de algemene help:
 
 `choco -?`
 
-- Toon help voor een specifiek commando:
+- Toon de help voor een specifiek commando:
 
 `choco `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>` -?`
 

@@ -2,11 +2,14 @@
 layout: page
 title: common/docker-diff (Nederlands)
 description: "Inspecteer wijzigingen in bestanden of mappen op het bestandssysteem van een container."
-content_hash: 18ffe4b5932679a915c4e2991f25abf4181f3262
-last_modified_at: 2023-11-26
+content_hash: 1507d02b8b0559a39402ce2d8bb83455d3f378ad
+last_modified_at: 2024-02-01
 related_topics:
   - title: English version
     url: /en/common/docker-diff.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-diff.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -19,6 +22,6 @@ Meer informatie: <https://docs.docker.com/engine/reference/commandline/diff>.
 
 `docker diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span>
 
-- Hulp weergeven:
+- Toon de help:
 
 `docker diff --help`

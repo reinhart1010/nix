@@ -2,8 +2,8 @@
 layout: page
 title: common/act (Nederlands)
 description: "Voer GitHub-acties lokaal uit met behulp van Docker."
-content_hash: 3a88f77f69e2c5d253b10447ae808769c8abe83e
-last_modified_at: 2023-11-12
+content_hash: ee1ac0509c171e8e853d8d893e006f5506aaa2ce
+last_modified_at: 2024-02-01
 related_topics:
   - title: English version
     url: /en/common/act.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/act.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/act.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/act.html
@@ -33,7 +36,7 @@ tldri18n_status: 2
 Voer GitHub-acties lokaal uit met behulp van Docker.
 Meer informatie: <https://github.com/nektos/act>.
 
-- Maak een lijst van de beschikbare acties:
+- Maak een [l]ijst van de beschikbare acties:
 
 `act -l`
 
@@ -45,11 +48,11 @@ Meer informatie: <https://github.com/nektos/act>.
 
 `act `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">evenement_type</span>
 
-- Voer een specifieke actie uit:
+- Voer een specifieke [j]ob uit:
 
-`act -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">actie_id</span>
+`act -j `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span>
 
-- Voer de acties niet daadwerkelijk uit (d.w.z. een proefrit):
+- Voer de acties [n]iet daadwerkelijk uit (d.w.z. een proefrit):
 
 `act -n`
 
@@ -57,6 +60,6 @@ Meer informatie: <https://github.com/nektos/act>.
 
 `act -v`
 
-- Voer een specifieke workflow uit:
+- Voer een specifieke [W]orkflow uit:
 
 `act push -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/workflow</span>
