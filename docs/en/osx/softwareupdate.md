@@ -2,8 +2,8 @@
 layout: page
 title: osx/softwareupdate (English)
 description: "Update macOS App Store apps."
-content_hash: 99fb897110e6e7eddcca1cfb136efae752dd921c
-last_modified_at: 2024-01-31
+content_hash: 6afa1553b0ede3dee83f8e776f8add8b58cd6a82
+last_modified_at: 2024-02-01
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/softwareupdate.html
@@ -26,9 +26,9 @@ More information: <https://keith.github.io/xcode-man-pages/softwareupdate.8.html
 
 `softwareupdate --install --all`
 
-- Download and install all recommended updates:
+- Download and install all [r]ecommended updates:
 
-`softwareupdate --install --req`
+`softwareupdate --install --recommended`
 
 - Download and install a specific app:
 

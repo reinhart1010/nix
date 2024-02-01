@@ -3,14 +3,17 @@ layout: page
 title: windows/reg-flags (中文)
 description: "显示或设置注册表键的标志。"
 content_hash: 25626478f85368faab4809dfe8dd18bfbbb92afa
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-01
 related_topics:
   - title: English version
     url: /en/windows/reg-flags.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# reg flags
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># reg flags
 
 显示或设置注册表键的标志。
 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-flags>.
