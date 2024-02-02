@@ -2,8 +2,8 @@
 layout: page
 title: linux/getconf (English)
 description: "Get configuration values from your Linux system."
-content_hash: 4dd8ef07fd846586d10291a4fa461ac095d26bc0
-last_modified_at: 2024-01-30
+content_hash: bae77927e6b7f812381fea3f5a6eb82525156622
+last_modified_at: 2024-02-02
 tldri18n_status: 2
 ---
 # getconf
@@ -19,7 +19,7 @@ More information: <https://manned.org/getconf.1>.
 
 `getconf -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Check if your linux system is a 32-bit or 64-bit:
+- Check if the system is 32-bit or 64-bit:
 
 `getconf LONG_BIT`
 

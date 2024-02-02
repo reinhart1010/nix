@@ -3,19 +3,10 @@ layout: page
 title: linux/gio-trash (English)
 description: "Move files to the trash bin."
 content_hash: a4c08918843dc22dca207df5dbb73fd3ca8cc63f
-last_modified_at: 2024-02-01
-tldri18n_status: 0
+last_modified_at: 2024-02-02
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/gio-trash.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gio trash
+# gio trash
 
 Move files to the trash bin.
 Used by GNOME to handle trash.

@@ -2,8 +2,8 @@
 layout: page
 title: common/venv (English)
 description: "Create lightweight virtual environments in python."
-content_hash: a9f44e821aa3d9fb94f7ab755c7d49de03948dfe
-last_modified_at: 2024-01-30
+content_hash: eefd4bdea3443d9fcdc48e274c01b1c46eddda9e
+last_modified_at: 2024-02-02
 tldri18n_status: 2
 ---
 # venv
@@ -15,7 +15,7 @@ More information: <https://docs.python.org/3/library/venv.html>.
 
 ` python -m venv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/virtual_environment</span>
 
-- Activate the virtual environment (Linux and Mac OS):
+- Activate the virtual environment (Linux and macOS):
 
 `source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/virtual_environment</span>`/bin/activate`
 

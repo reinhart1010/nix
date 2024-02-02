@@ -2,8 +2,8 @@
 layout: page
 title: common/mongod (English)
 description: "The MongoDB database server."
-content_hash: 30468601a2fb95a1801dba9776299b43880aa7bf
-last_modified_at: 2024-01-25
+content_hash: d11ecf9f322bc2a7a554e5845028675912e6e8fa
+last_modified_at: 2024-02-02
 related_topics:
   - title: Indonesia version
     url: /id/common/mongod.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 The MongoDB database server.
 More information: <https://docs.mongodb.com/manual/reference/program/mongod>.
 
-- Specify the storage directory (default: `/data/db` on Linux and MacOS, `C:\data\db` on Windows):
+- Specify the storage directory (default: `/data/db` on Linux and macOS, `C:\data\db` on Windows):
 
 `mongod --dbpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
