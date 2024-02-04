@@ -1,29 +1,38 @@
 ---
 layout: page
 title: linux/chsh (English)
-description: "Change the user's login shell."
-content_hash: b2bd19ae84ce6cba61f9d182d5ebb5f2336e9d34
+description: "Change user's login shell."
+content_hash: 1353f724bfa95676052008b7dc48369423ed3cb1
+last_modified_at: 2024-02-04
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/chsh.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># chsh
 
-Change the user's login shell.
+Change user's login shell.
+Part of `util-linux`.
 More information: <https://manned.org/chsh>.
 
-- Change the current user's login shell interactively:
+- Set a specific login shell for the current user interactively:
 
-`chsh`
+`sudo chsh`
 
-- Change the current user's login shell:
+- Set a specific login [s]hell for the current user:
 
-`chsh --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span>
+`sudo chsh --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span>
 
-- Change the login shell for a given user:
+- Set a login [s]hell for a specific user:
 
-`chsh --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
+`sudo chsh --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
-- List available shells:
+- [l]ist available shells:
 
-`chsh --list-shells`
+`sudo chsh --list-shells`

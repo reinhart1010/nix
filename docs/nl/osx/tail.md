@@ -2,8 +2,8 @@
 layout: page
 title: osx/tail (Nederlands)
 description: "Toon het laatste deel van een bestand."
-content_hash: 524b0f2c61b13ab8aefa128a2ebdea868ce19f28
-last_modified_at: 2024-01-26
+content_hash: 68e4f1f395f2f2d03b35a78256f57cc736c3579e
+last_modified_at: 2024-02-04
 related_topics:
   - title: English version
     url: /en/osx/tail.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Toon het laatste deel van een bestand.
 Bekijk ook: `head`.
-Meer informatie: <https://manned.org/man/freebsd-13.0/tail.1>.
+Meer informatie: <https://keith.github.io/tail.1.html>.
 
 - Toon laatste aantal regels in een bestand:
 

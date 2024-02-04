@@ -1,23 +1,25 @@
 ---
 layout: page
-title: osx/look (English)
+title: freebsd/look (English)
 description: "Display lines beginning with a prefix in a sorted file."
-content_hash: 99ef9bb75b09deed2a652162b67c4c441540dece
+content_hash: 47aab4b5f7f8833cc3cb9eb64330f606f6da8183
 last_modified_at: 2024-02-04
-related_topics:
-  - title: español version
-    url: /es/osx/look.html
-    icon: bi bi-globe
-  - title: 中文 version
-    url: /zh/osx/look.html
-    icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 0
 ---
-# look
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/look.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># look
 
 Display lines beginning with a prefix in a sorted file.
 See also: `grep`, `sort`.
-More information: <https://keith.github.io/xcode-man-pages/look.1.html>.
+More information: <https://man.freebsd.org/cgi/man.cgi?look>.
 
 - Search for lines beginning with a specific prefix in a specific file:
 
