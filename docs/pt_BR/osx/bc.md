@@ -2,8 +2,8 @@
 layout: page
 title: osx/bc (português (Brasil))
 description: "Linguagem e calculadora com precisão arbitrária."
-content_hash: 55ffd9b539f9fba88d30b80ecee43b66dea6626f
-last_modified_at: 2023-12-28
+content_hash: 80247fe4604e8c55e0340b2d2190e2963ff98d7f
+last_modified_at: 2024-02-04
 related_topics:
   - title: English version
     url: /en/osx/bc.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Linguagem e calculadora com precisão arbitrária.
 Veja também: `dc`.
-Mais informações: <https://manned.org/man/freebsd-13.0/bc.1>.
+Mais informações: <https://keith.github.io/xcode-man-pages/bc.1.html>.
 
 - Inicia uma sessão interativa:
 

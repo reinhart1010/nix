@@ -2,11 +2,14 @@
 layout: page
 title: osx/getfileinfo (中文)
 description: "获取有关 HFS+ 目录中文件的信息。"
-content_hash: 4536be9575237c34187603c4993612ebd16ac286
-last_modified_at: 2023-11-12
+content_hash: c4590132b93b8866fe62d809ac7e59baf792e569
+last_modified_at: 2024-02-04
 related_topics:
   - title: English version
     url: /en/osx/getfileinfo.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/getfileinfo.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/getfileinfo.html
@@ -16,7 +19,7 @@ tldri18n_status: 2
 # GetFileInfo
 
 获取有关 HFS+ 目录中文件的信息。
-更多信息：<https://www.unix.com/man-page/osx/1/GetFileInfo/>.
+更多信息：<https://keith.github.io/xcode-man-pages/GetFileInfo.1.html>.
 
 - 显示有关给定文件的信息：
 

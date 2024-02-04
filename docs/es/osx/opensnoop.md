@@ -2,8 +2,8 @@
 layout: page
 title: osx/opensnoop (español)
 description: "Herramienta que rastrea las aperturas de archivos en tu sistema."
-content_hash: 3a5fdc478301ba1c3281e6b2714c59503ae0c09b
-last_modified_at: 2023-11-12
+content_hash: e0078e212b8f6d1dc93cbf8023a93cc4654ca9f1
+last_modified_at: 2024-02-04
 related_topics:
   - title: English version
     url: /en/osx/opensnoop.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # opensnoop
 
 Herramienta que rastrea las aperturas de archivos en tu sistema.
-Más información: <https://ss64.com/osx/opensnoop.html>.
+Más información: <https://keith.github.io/xcode-man-pages/opensnoop.1m.html>.
 
 - Imprime todos los archivos abiertos a medida que ocurren:
 

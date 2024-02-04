@@ -2,11 +2,14 @@
 layout: page
 title: osx/cut (español)
 description: "Corta campos sean `stdin` o archivos."
-content_hash: f5c090355dfdd0aeff4667977cdce03805b97443
-last_modified_at: 2024-01-09
+content_hash: c2c821c1835d13ae0890e4236443400977751fb4
+last_modified_at: 2024-02-04
 related_topics:
   - title: English version
     url: /en/osx/cut.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/cut.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/cut.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # cut
 
 Corta campos sean `stdin` o archivos.
-Más información: <https://manned.org/man/freebsd-13.0/cut.1>.
+Más información: <https://keith.github.io/xcode-man-pages/cut.1.html>.
 
 - Imprime un rango específico de caracteres/campos de cada línea:
 

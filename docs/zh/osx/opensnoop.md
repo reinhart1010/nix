@@ -2,8 +2,8 @@
 layout: page
 title: osx/opensnoop (中文)
 description: "跟踪系统中打开的文件标识符。"
-content_hash: b6c3cbe887df765f1fbb9d11b69a48dec65b5e9d
-last_modified_at: 2024-01-01
+content_hash: 67ab0563defaf9773654436c12db2707defb3fdb
+last_modified_at: 2024-02-04
 related_topics:
   - title: English version
     url: /en/osx/opensnoop.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # opensnoop
 
 跟踪系统中打开的文件标识符。
-更多信息：<https://ss64.com/osx/opensnoop.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/opensnoop.1m.html>.
 
 - 输出当前系统内被打开的所有文件：
 

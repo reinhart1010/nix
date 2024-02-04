@@ -2,14 +2,17 @@
 layout: page
 title: osx/cut (русский)
 description: "Вырезать поля из стандартного ввода или файлов."
-content_hash: 7508b1a937f98579bdd01c208b7a28f828a7723e
-last_modified_at: 2024-01-09
+content_hash: 5a5098d4c9f9c37edf6e7f8fc8775348f03b76af
+last_modified_at: 2024-02-04
 related_topics:
   - title: English version
     url: /en/osx/cut.html
     icon: bi bi-globe
   - title: español version
     url: /es/osx/cut.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/cut.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/cut.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # cut
 
 Вырезать поля из стандартного ввода или файлов.
-Больше информации: <https://manned.org/man/freebsd-13.0/cut.1>.
+Больше информации: <https://keith.github.io/xcode-man-pages/cut.1.html>.
 
 - Вывести указанный диапазон символов/полей каждой строки (`-c|f 1|1,10|1-10|1-|-10` далее обозначается как `диапазон`):
 

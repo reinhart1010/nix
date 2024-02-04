@@ -2,8 +2,8 @@
 layout: page
 title: osx/getfileinfo (Indonesia)
 description: "Dapatkan informasi sebuah file dalam direktori yang terkandung dalam penyimpanan berbasis HFS+."
-content_hash: e283cc401b0b5a5692291ce663322a98fdd93e46
-last_modified_at: 2023-12-03
+content_hash: d6412e23b3409847e2d7ff8ed583e5ea8b54bf67
+last_modified_at: 2024-02-04
 related_topics:
   - title: English version
     url: /en/osx/getfileinfo.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # GetFileInfo
 
 Dapatkan informasi sebuah file dalam direktori yang terkandung dalam penyimpanan berbasis HFS+.
-Informasi lebih lanjut: <https://www.unix.com/man-page/osx/1/GetFileInfo/>.
+Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/GetFileInfo.1.html>.
 
 - Tampilkan informasi mengenai suatu file:
 

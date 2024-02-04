@@ -2,8 +2,8 @@
 layout: page
 title: osx/usernoted (español)
 description: "Proporciona servicios de notificación."
-content_hash: 870af9d6909a2d02bd2404a1d60a75903f3f6693
-last_modified_at: 2023-11-12
+content_hash: ef948009c73e3c95f69202acb5e30ce545bc9edd
+last_modified_at: 2024-02-04
 related_topics:
   - title: English version
     url: /en/osx/usernoted.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Proporciona servicios de notificación.
 No debe invocarse manualmente.
-Más información: <https://www.unix.com/man-page/mojave/8/usernoted>.
+Más información: <https://keith.github.io/xcode-man-pages/usernoted.8.html>.
 
 - Inicia el daemon:
 
