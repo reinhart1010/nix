@@ -2,8 +2,8 @@
 layout: page
 title: linux/rename (English)
 description: "Rename multiple files."
-content_hash: 2f34214508ede6240250c66da5aec2c59d843d23
-last_modified_at: 2023-11-12
+content_hash: 7a6f4954ffde310eaad6311c69a7226541c565c9
+last_modified_at: 2024-02-05
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/rename.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # rename
 
 Rename multiple files.
-NOTE: this page refers to the command from the `util-linux` package.
+Note: this page refers to the command from the `util-linux` package.
 For the Perl version, see `file-rename` or `perl-rename`.
 Warning: This command has no safeguards and will overwrite files without prompting.
 More information: <https://manned.org/rename>.

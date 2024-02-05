@@ -2,14 +2,14 @@
 layout: page
 title: osx/chpass (English)
 description: "Add or change user database information, including login shell and password."
-content_hash: f9fd4f84ad5ab390536dbd3bc9ae97df7f5de72d
+content_hash: 5edb7298eceaa8661f6bbbd87227fcbb57cc2772
 last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # chpass
 
 Add or change user database information, including login shell and password.
-NOTE: it's not possible to change the user's password on Open Directory systems, use `passwd` instead.
+Note: it's not possible to change the user's password on Open Directory systems, use `passwd` instead.
 See also: `passwd`.
 More information: <https://man.freebsd.org/cgi/man.cgi?chpass>.
 

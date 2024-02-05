@@ -2,14 +2,14 @@
 layout: page
 title: linux/perl-rename (English)
 description: "Rename multiple files."
-content_hash: 18cd75a21c1deba87df28466fd91633249230f69
-last_modified_at: 2023-11-12
+content_hash: e86dd28a27e5b21b1375d3100cc1ecc547d8d74a
+last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # rename
 
 Rename multiple files.
-NOTE: this page refers to the command from the `perl-rename` Arch Linux package.
+Note: this page refers to the command from the `perl-rename` Arch Linux package.
 More information: <https://manned.org/rename>.
 
 - Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):

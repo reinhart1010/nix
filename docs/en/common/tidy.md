@@ -2,14 +2,14 @@
 layout: page
 title: common/tidy (English)
 description: "Clean up and pretty print HTML, XHTML and XML files."
-content_hash: 2e3280e642eb0adb13508e25726e5f85d8ad1ddc
-last_modified_at: 2024-01-09
+content_hash: 7226fd1d956a6b3bb2d675c2d60cac5b4c21f153
+last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # tidy
 
 Clean up and pretty print HTML, XHTML and XML files.
-NOTE: `tidy` cannot preserve original indentation.
+Note: `tidy` cannot preserve original indentation.
 More information: <https://api.html-tidy.org/tidy/tidylib_api_5.2.0/tidy_cmd.html>.
 
 - Pretty print an HTML file:

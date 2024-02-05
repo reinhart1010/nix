@@ -2,14 +2,14 @@
 layout: page
 title: linux/urpmi-update (English)
 description: "Update the list of packages from a package repository in Mageia."
-content_hash: 1e647bbcf891f887e772ef94abb4ea0adffc7f54
-last_modified_at: 2024-01-16
+content_hash: f11c954eb32c5068eb26cd607b3f39c3e3ceb5f6
+last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # urpmi.update
 
 Update the list of packages from a package repository in Mageia.
-NOTE: Mageia documentation uses medium and repository as synonymous.
+Note: Mageia documentation uses medium and repository as synonymous.
 See also: `urpmi`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpmq`.
 More information: <https://wiki.mageia.org/en/URPMI#urpmi.update>.
 

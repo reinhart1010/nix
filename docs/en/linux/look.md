@@ -2,14 +2,14 @@
 layout: page
 title: linux/look (English)
 description: "Display lines beginning with a prefix in a file."
-content_hash: 2afc463ceb6ada22f5d1b528167a565044d27e02
+content_hash: 45f82df1c35d3b44e4a3b74f3a7750e5f172788f
 last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # look
 
 Display lines beginning with a prefix in a file.
-NOTE: the lines in the file must be sorted.
+Note: the lines in the file must be sorted.
 See also: `grep`, `sort`.
 More information: <https://manned.org/look>.
 

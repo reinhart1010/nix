@@ -2,8 +2,8 @@
 layout: page
 title: osx/launchctl (English)
 description: "Control Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs)."
-content_hash: 80ca400f05e2c5df1fc9a91a1771ca302681b6b2
-last_modified_at: 2024-01-31
+content_hash: 70bec3203462c72655aa8f22d0ddc1060bbe101a
+last_modified_at: 2024-02-05
 related_topics:
   - title: Nederlands version
     url: /nl/osx/launchctl.html
@@ -35,11 +35,11 @@ More information: <https://keith.github.io/xcode-man-pages/launchctl.1.html>.
 
 `launchctl list`
 
-- Unload a currently loaded agent, e.g. to make changes (note: the plist file is automatically loaded into `launchd` after a reboot and/or logging in):
+- Unload a currently loaded agent, e.g. to make changes (Note: the plist file is automatically loaded into `launchd` after a reboot and/or logging in):
 
 `launchctl unload ~/Library/LaunchAgents/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_script</span>`.plist`
 
-- Manually run a known (loaded) agent/daemon, even if it is not the right time (note: this command uses the agent's label, rather than the filename):
+- Manually run a known (loaded) agent/daemon, even if it is not the right time (Note: this command uses the agent's label, rather than the filename):
 
 `launchctl start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script_file</span>
 

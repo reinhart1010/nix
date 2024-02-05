@@ -2,8 +2,8 @@
 layout: page
 title: common/q (English)
 description: "Execute SQL-like queries on .csv and .tsv files."
-content_hash: f3715267f9514bd113d9dafb1a9b888244da4a9a
-last_modified_at: 2023-11-12
+content_hash: d75bf1807e9b0c29b4eb0feb75ed7dcdd43cc8e3
+last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # q
@@ -31,6 +31,6 @@ More information: <https://harelba.github.io/q>.
 
 `q "SELECT * FROM `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` f1 JOIN `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/other_file</span>` f2 ON (f1.c1 = f2.c1)"`
 
-- Format output using an output delimiter with an output header line (note: command will output column names based on the input file header or the column aliases overridden in the query):
+- Format output using an output delimiter with an output header line (Note: command will output column names based on the input file header or the column aliases overridden in the query):
 
 `q -D`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delimiter</span>` -O "SELECT `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column</span>` as `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alias</span>` from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`"`

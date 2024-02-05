@@ -2,14 +2,14 @@
 layout: page
 title: common/look (English)
 description: "Display lines beginning with a prefix in a sorted file."
-content_hash: c156ec33e8794faee900f6965ac5488d7f09f50f
+content_hash: 2067c2fe2d20c0bbfdcea94c75fb16b2b4e78fcb
 last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # look
 
 Display lines beginning with a prefix in a sorted file.
-NOTE: the lines in the file must be sorted.
+Note: the lines in the file must be sorted.
 See also: `grep`, `sort`.
 More information: <https://man.openbsd.org/look>.
 

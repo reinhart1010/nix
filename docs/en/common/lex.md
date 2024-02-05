@@ -2,15 +2,15 @@
 layout: page
 title: common/lex (English)
 description: "Lexical analyzer generator."
-content_hash: 6d9c6375013717fe22d80594c9b26b738bbf9dbc
-last_modified_at: 2024-01-07
+content_hash: 7b697cd9e2d3913d3d6134d6bb36da3be1d2be06
+last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # lex
 
 Lexical analyzer generator.
 Given the specification for a lexical analyzer, generates C code implementing it.
-NOTE: on most major OSes, this command is an alias for `flex`.
+Note: on most major OSes, this command is an alias for `flex`.
 More information: <https://manned.org/lex.1>.
 
 - Generate an analyzer from a Lex file, storing it to the file `lex.yy.c`:

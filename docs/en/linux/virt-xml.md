@@ -2,14 +2,14 @@
 layout: page
 title: linux/virt-xml (English)
 description: "Edit libvirt Domain XML files with explicit command-line options."
-content_hash: 2bbaa513bdee3c43e5fc916f85bc67f66e54b003
-last_modified_at: 2023-11-12
+content_hash: 8c13f8b2d99303abc013ab9be21f81e20e869ec0
+last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # virt-xml
 
 Edit libvirt Domain XML files with explicit command-line options.
-NOTE: 'domain' refers to the name, UUID or ID for the existing VMs (See: tldr virsh).
+Note: 'domain' refers to the name, UUID or ID for the existing VMs (See: tldr virsh).
 More information: <https://github.com/virt-manager/virt-manager/blob/main/man/virt-xml.rst>.
 
 - List all the suboptions for a specific option:

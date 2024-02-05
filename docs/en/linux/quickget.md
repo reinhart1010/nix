@@ -2,14 +2,14 @@
 layout: page
 title: linux/quickget (English)
 description: "Download and prepare materials for building a Quickemu virtual machine."
-content_hash: e9302bf8e923fbd84bbfd682abbb78b2a9f1c65b
-last_modified_at: 2024-01-22
+content_hash: a81ea804a6b374944d8bed6eb3978ceac882e373
+last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # quickget
 
 Download and prepare materials for building a Quickemu virtual machine.
-NOTE: the parameter "edition" is always optional.
+Note: the parameter "edition" is always optional.
 See also: `quickemu`.
 More information: <https://github.com/quickemu-project/quickemu>.
 

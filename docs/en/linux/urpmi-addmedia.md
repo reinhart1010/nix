@@ -2,14 +2,14 @@
 layout: page
 title: linux/urpmi-addmedia (English)
 description: "Add media in Mageia."
-content_hash: f93f4e3af1450c986e642979f306429fc0087d27
-last_modified_at: 2024-01-16
+content_hash: 1c2643310faa09ea041caafa95dfd37d6a2edac4
+last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # urpmi.addmedia
 
 Add media in Mageia.
-NOTE: Mageia documentation uses medium and repository as synonymous.
+Note: Mageia documentation uses medium and repository as synonymous.
 See also: `urpmi`, `urpmi.update`, `urpme`, `urpmi.removemedia`, `urpmf`, `urpmq`.
 More information: <https://wiki.mageia.org/en/URPMI#urpme>.
 

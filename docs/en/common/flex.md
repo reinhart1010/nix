@@ -2,15 +2,15 @@
 layout: page
 title: common/flex (English)
 description: "Lexical analyzer generator. A rewrite of `lex` with extensions to the POSIX specification."
-content_hash: 4943bae669a35dd367b3943a39ac5f0efc72bb48
-last_modified_at: 2024-01-07
+content_hash: 90ec0ce65ac3b4003fb144885bf3c9a99dfcfd13
+last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # flex
 
 Lexical analyzer generator. A rewrite of `lex` with extensions to the POSIX specification.
 Given the specification for a lexical analyzer, generates C code implementing it.
-NOTE: long options don't work on OpenBSD.
+Note: long options don't work on OpenBSD.
 More information: <https://manned.org/flex>.
 
 - Generate an analyzer from a flex file, storing it to the file `lex.yy.c`:

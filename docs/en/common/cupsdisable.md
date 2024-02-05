@@ -2,8 +2,8 @@
 layout: page
 title: common/cupsdisable (English)
 description: "Stop printers and classes."
-content_hash: bf02f20ebcb1ead96d4823d3de1ceae040196b2f
-last_modified_at: 2023-12-30
+content_hash: 206b663dd9c9729cdd187d791b8cc0ee4cda52db
+last_modified_at: 2024-02-05
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cupsdisable.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # cupsdisable
 
 Stop printers and classes.
-NOTE: destination is referred as a printer or a class of printers.
+Note: destination is referred as a printer or a class of printers.
 See also: `cupsenable`, `cupsaccept`, `cupsreject`, `lpstat`.
 More information: <https://openprinting.github.io/cups/doc/man-cupsenable.html>.
 

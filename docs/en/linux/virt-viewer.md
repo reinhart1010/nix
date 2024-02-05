@@ -2,14 +2,14 @@
 layout: page
 title: linux/virt-viewer (English)
 description: "Minimal graphical interface for a virtual machine (VM)."
-content_hash: 202573fefbb138801c1382d27dccad3d2e0e8a89
-last_modified_at: 2023-11-12
+content_hash: 43a890b4bf648ec2b46555ee86b306b452b7db8d
+last_modified_at: 2024-02-05
 tldri18n_status: 2
 ---
 # virt-viewer
 
 Minimal graphical interface for a virtual machine (VM).
-NOTE: 'domain' refers to the name, UUID or ID for the existing VMs (See: tldr virsh).
+Note: 'domain' refers to the name, UUID or ID for the existing VMs (See: tldr virsh).
 More information: <https://manned.org/virt-viewer>.
 
 - Launch `virt-viewer` with a prompt to select running virtual machines:
