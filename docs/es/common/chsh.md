@@ -3,7 +3,7 @@ layout: page
 title: common/chsh (español)
 description: "Cambia el intérprete de comandos de inicio de sesión."
 content_hash: 214f7f1a684591a7b53dcbf95a905cb2969c196e
-last_modified_at: 2024-01-02
+last_modified_at: 2024-02-05
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -41,9 +41,12 @@ related_topics:
   - title: svenska version
     url: /sv/common/chsh.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# chsh
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># chsh
 
 Cambia el intérprete de comandos de inicio de sesión.
 Más información: <https://manned.org/chsh>.

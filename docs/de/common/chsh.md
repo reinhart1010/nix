@@ -3,7 +3,7 @@ layout: page
 title: common/chsh (Deutsch)
 description: "Ändere die Login-Shell eines Benutzers."
 content_hash: 4c0b8811e71d32ccf5e4f243091caf962e6e4cd1
-last_modified_at: 2023-12-28
+last_modified_at: 2024-02-05
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/common/chsh.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/chsh.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/chsh.html
@@ -38,9 +41,12 @@ related_topics:
   - title: svenska version
     url: /sv/common/chsh.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# chsh
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># chsh
 
 Ändere die Login-Shell eines Benutzers.
 Weitere Informationen: <https://manned.org/chsh>.
