@@ -3,23 +3,14 @@ layout: page
 title: common/pnmpsnr (español)
 description: "Calcula la diferencia entre dos imágenes."
 content_hash: a05916207330fe3631db758e205c075e494e8bef
-last_modified_at: 2024-02-05
+last_modified_at: 2024-02-06
 related_topics:
   - title: English version
     url: /en/common/pnmpsnr.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pnmpsnr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pnmpsnr
+# pnmpsnr
 
 Calcula la diferencia entre dos imágenes.
 Más información: <https://netpbm.sourceforge.net/doc/pnmpsnr.html>.
