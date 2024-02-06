@@ -2,8 +2,8 @@
 layout: page
 title: linux/setfacl (English)
 description: "Set file access control lists (ACL)."
-content_hash: f3cc5bb74eaa2ed4db4d901c847c86033ed10160
-last_modified_at: 2023-11-12
+content_hash: 7c35ab2bab2c00350e34df0d4e33ff7ad440914d
+last_modified_at: 2024-02-06
 tldri18n_status: 2
 ---
 # setfacl
@@ -11,18 +11,18 @@ tldri18n_status: 2
 Set file access control lists (ACL).
 More information: <https://manned.org/setfacl>.
 
-- Modify ACL of a file for user with read and write access:
+- [M]odify ACL of a file for user with read and write access:
 
-`setfacl -m u:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`:rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`setfacl --modify u:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`:rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
-- Modify default ACL of a file for all users:
+- [M]odify [d]efault ACL of a file for all users:
 
-`setfacl -d -m u::rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`setfacl --modify --default u::rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
 - Remove ACL of a file for a user:
 
-`setfacl -x u:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`setfacl --remove u:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
 - Remove all ACL entries of a file:
 
-`setfacl -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`setfacl --remove-all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
