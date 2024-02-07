@@ -2,8 +2,8 @@
 layout: page
 title: linux/alien (English)
 description: "Convert different installation packages to other formats."
-content_hash: cff6ab38e3558da93405587160dba064408f4b95
-last_modified_at: 2023-11-12
+content_hash: 5e40b8d2f429f0497528c59c02be5740af65be50
+last_modified_at: 2024-02-07
 related_topics:
   - title: Deutsch version
     url: /de/linux/alien.html
@@ -25,6 +25,7 @@ tldri18n_status: 2
 # alien
 
 Convert different installation packages to other formats.
+See also: `debtap`, for `.deb` conversion on Arch Linux.
 More information: <https://manned.org/alien>.
 
 - Convert a specific installation file to Debian format (`.deb` extension):
