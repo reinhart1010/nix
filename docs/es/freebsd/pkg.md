@@ -3,7 +3,7 @@ layout: page
 title: freebsd/pkg (español)
 description: "Gestor de paquetes de FreeBSD."
 content_hash: 3a785498e6b2804191fcf1720a9222efee56721d
-last_modified_at: 2024-02-06
+last_modified_at: 2024-02-07
 related_topics:
   - title: English version
     url: /en/freebsd/pkg.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/freebsd/pkg.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/pkg.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pkg
+# pkg
 
 Gestor de paquetes de FreeBSD.
 Más información: <https://man.freebsd.org/cgi/man.cgi?query=pkg&sektion=8>.

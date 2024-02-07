@@ -3,19 +3,10 @@ layout: page
 title: common/pnmalias (English)
 description: "Apply antialiasing onto a PNM image."
 content_hash: 110e2c55b4f5f39a46daab43342b584d3b615b02
-last_modified_at: 2024-02-06
-tldri18n_status: 0
+last_modified_at: 2024-02-07
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pnmalias.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pnmalias
+# pnmalias
 
 Apply antialiasing onto a PNM image.
 More information: <https://netpbm.sourceforge.net/doc/pnmalias.html>.

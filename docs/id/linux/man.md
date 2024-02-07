@@ -3,7 +3,7 @@ layout: page
 title: linux/man (Indonesia)
 description: "Format dan tampilkan halaman manual."
 content_hash: d04745a95ace221f28706cea76226ce9587cf9e8
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-07
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -29,9 +29,12 @@ related_topics:
   - title: українська version
     url: /uk/linux/man.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# man
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># man
 
 Format dan tampilkan halaman manual.
 Informasi lebih lanjut: <https://manned.org/man>.

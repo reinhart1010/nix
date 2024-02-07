@@ -3,7 +3,7 @@ layout: page
 title: linux/man (русский)
 description: "Утилита просмотра справочных страницs."
 content_hash: 8ba334083e435bd296dfc03cbd520ef5be1e3e5a
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-07
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -29,9 +29,12 @@ related_topics:
   - title: українська version
     url: /uk/linux/man.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# man
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># man
 
 Утилита просмотра справочных страницs.
 Больше информации: <https://manned.org/man>.
