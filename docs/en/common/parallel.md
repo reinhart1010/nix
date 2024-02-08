@@ -2,7 +2,7 @@
 layout: page
 title: common/parallel (English)
 description: "Run commands on multiple CPU cores."
-content_hash: 477b2db0232b5ee9e0f12d75bcf58e56e8505ad9
+content_hash: cffa96d78452ec16a395907fa6e78c57d3072d78
 last_modified_at: 2024-02-08
 tldri18n_status: 2
 ---
@@ -41,4 +41,4 @@ More information: <https://www.gnu.org/software/parallel>.
 
 - Print the jobs which `parallel` is running in `stderr`:
 
-`parallel -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`parallel -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` ::: `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">args</span>
