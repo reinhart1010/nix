@@ -2,8 +2,8 @@
 layout: page
 title: common/parallel (English)
 description: "Run commands on multiple CPU cores."
-content_hash: df3186cc472c45bf878807203cb8293b647398c7
-last_modified_at: 2024-01-31
+content_hash: 477b2db0232b5ee9e0f12d75bcf58e56e8505ad9
+last_modified_at: 2024-02-08
 tldri18n_status: 2
 ---
 # parallel
@@ -34,3 +34,11 @@ More information: <https://www.gnu.org/software/parallel>.
 - Run on multiple machines via SSH:
 
 `parallel -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine1</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` ::: `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg2</span>
+
+- Download 4 files simultaneously from a text file containing links showing progress:
+
+`parallel -j4 --bar --eta wget -q {} :::: `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/links.txt</span>
+
+- Print the jobs which `parallel` is running in `stderr`:
+
+`parallel -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
