@@ -2,8 +2,8 @@
 layout: page
 title: linux/kdesrc-build (English)
 description: "Easily build KDE components from its source repositories."
-content_hash: 8c3f7c1150e109052662645e3a2bcf510cf2cf32
-last_modified_at: 2023-11-26
+content_hash: a78a397729da641948b8097848edda649862e220
+last_modified_at: 2024-02-08
 tldri18n_status: 2
 ---
 # kdesrc-build
@@ -34,3 +34,7 @@ More information: <https://invent.kde.org/sdk/kdesrc-build>.
 - Print full compilation info:
 
 `kdesrc-build --debug `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_name</span>
+
+- Build all configured components:
+
+`kdesrc-build`
