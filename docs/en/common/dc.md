@@ -2,8 +2,8 @@
 layout: page
 title: common/dc (English)
 description: "An arbitrary precision calculator. Uses reverse polish notation (RPN)."
-content_hash: 40ec20227f7fdab6a36111f2334388ad27e39bea
-last_modified_at: 2023-11-12
+content_hash: f5d6d0e9ec638c938999293b2c513b2026a9e544
+last_modified_at: 2024-02-09
 related_topics:
   - title: italiano version
     url: /it/common/dc.html
@@ -32,7 +32,7 @@ More information: <https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.h
 
 `dc --expression='4 5 * 17 - p'`
 
-- Set number of decimal places to 7 (7 k), calculate 5 divided by -3 (5 _3 /) and [p]rint:
+- Specify the number of decimal places to 7 (7 k), calculate 5 divided by -3 (5 _3 /) and [p]rint:
 
 `dc --expression='7 k 5 _3 / p'`
 

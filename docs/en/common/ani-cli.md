@@ -2,8 +2,8 @@
 layout: page
 title: common/ani-cli (English)
 description: "A cli to browse and watch anime."
-content_hash: 2366bed88713fc69709acdd1d06cb1cc165fb1ca
-last_modified_at: 2023-11-23
+content_hash: 6b043ce81535401f92c5f0ea823da9c187ebbd7e
+last_modified_at: 2024-02-09
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html
@@ -11,11 +11,17 @@ related_topics:
   - title: español version
     url: /es/common/ani-cli.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/ani-cli.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/ani-cli.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/ani-cli.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ani-cli.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ani-cli.html
@@ -31,22 +37,22 @@ More information: <https://github.com/pystardust/ani-cli>.
 
 `ani-cli "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anime_name</span>`"`
 
-- Download episode:
+- [d]ownload episode:
 
 `ani-cli -d "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anime_name</span>`"`
 
-- Use VLC as the media player:
+- Use [v]LC as the media player:
 
 `ani-cli -v "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anime_name</span>`"`
 
-- Specify episode to watch:
+- Watch a specific [e]pisode:
 
 `ani-cli -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">episode_number</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anime_name</span>`"`
 
-- Continue watching anime from history:
+- [c]ontinue watching anime from history:
 
 `ani-cli -c`
 
-- Update `ani-cli`:
+- [U]pdate `ani-cli`:
 
 `ani-cli -U`

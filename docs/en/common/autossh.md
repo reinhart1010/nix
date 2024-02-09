@@ -2,8 +2,8 @@
 layout: page
 title: common/autossh (English)
 description: "Run, monitor and restart SSH connections."
-content_hash: a4a8c9458fc82adb2b83cd2339d908b22af8737f
-last_modified_at: 2023-11-12
+content_hash: 868b4946964d6c5b6f249e1b1ffe857c2981391e
+last_modified_at: 2024-02-09
 related_topics:
   - title: español version
     url: /es/common/autossh.html
@@ -28,15 +28,15 @@ Run, monitor and restart SSH connections.
 Auto-reconnects to keep port forwarding tunnels up. Accepts all `ssh` flags.
 More information: <https://www.harding.motd.ca/autossh>.
 
-- Start an SSH session, restarting when a monitoring port fails to return data:
+- Start an SSH session, restarting when the [M]onitoring port fails to return data:
 
 `autossh -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_port</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span>`"`
 
-- Forward a local port to a remote one, restarting when necessary:
+- Forward a [L]ocal port to a remote one, restarting when necessary:
 
 `autossh -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_port</span>` -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span>`:localhost:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Fork `autossh` into the background before executing `ssh` and don't open a remote shell:
+- Fork `autossh` into the background before executing `ssh` and do [N]ot open a remote shell:
 
 `autossh -f -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_port</span>` -N "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span>`"`
 

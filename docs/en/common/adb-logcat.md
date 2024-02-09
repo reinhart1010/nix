@@ -2,14 +2,17 @@
 layout: page
 title: common/adb-logcat (English)
 description: "Dump a log of system messages."
-content_hash: 23d8e711a26f5c1db9d568e13cd3cb44957854ee
-last_modified_at: 2023-11-12
+content_hash: db2bcfd59bed3ba202ec9e85250945ce08de9554
+last_modified_at: 2024-02-09
 related_topics:
   - title: español version
     url: /es/common/adb-logcat.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/adb-logcat.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/adb-logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/adb-logcat.html
@@ -28,7 +31,7 @@ More information: <https://developer.android.com/studio/command-line/logcat>.
 
 `adb logcat`
 
-- Display lines that match a regular expression:
+- Display lines that match a regular [e]xpression:
 
 `adb logcat -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span>
 

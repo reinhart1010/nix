@@ -2,8 +2,8 @@
 layout: page
 title: common/apropos (English)
 description: "Search the manual pages for names and descriptions."
-content_hash: 1bc5a43eba28d76d59dd5b486d3311e70f840ff5
-last_modified_at: 2023-11-12
+content_hash: f632fd1f794dc3b0e9ee0ccddfdaf0b5d2e8fa3c
+last_modified_at: 2024-02-09
 related_topics:
   - title: Deutsch version
     url: /de/common/apropos.html
@@ -34,10 +34,10 @@ More information: <https://manned.org/apropos>.
 
 `apropos `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span>
 
-- Search without restricting the output to the terminal width:
+- Search without restricting the output to the terminal width ([l]ong output):
 
 `apropos -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span>
 
-- Search for pages that contain all the expressions given:
+- Search for pages that match [a]ll the expressions given:
 
 `apropos `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression_1</span>` -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression_2</span>` -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression_3</span>

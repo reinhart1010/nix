@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (English)
 description: "Cross-platform, GPU-accelerated terminal emulator."
-content_hash: c0f68410ad74427a9b57760abe1557fbc89d9360
-last_modified_at: 2024-01-25
+content_hash: 21f46a7d9ef4367a36087ac0f2bef9f945c4b387
+last_modified_at: 2024-02-09
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -50,11 +50,11 @@ More information: <https://github.com/alacritty/alacritty>.
 
 `alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Run a command in a new Alacritty window:
+- [e]xecute a command in a new Alacritty window:
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Specify alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Use an alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
 
 `alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.yml</span>
 

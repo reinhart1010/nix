@@ -2,8 +2,8 @@
 layout: page
 title: common/csslint (English)
 description: "A linter for CSS code."
-content_hash: 89bdc54ff21cdec6feeca23629b918f076c12815
-last_modified_at: 2024-01-31
+content_hash: 7d2fcaf0a395f36ec548ec5d97d0268feca5c027
+last_modified_at: 2024-02-09
 related_topics:
   - title: italiano version
     url: /it/common/csslint.html
@@ -33,14 +33,14 @@ More information: <https://github.com/CSSLint/csslint/wiki/Command-line-interfac
 
 `csslint --list-rules`
 
-- Specify certain rules as errors (which result in a non-zero exit code):
+- Treat certain rules as errors (which results in a non-zero exit code):
 
 `csslint --errors=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">errors,universal-selector,imports</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.css</span>
 
-- Specify certain rules as warnings:
+- Treat certain rules as warnings:
 
 `csslint --warnings=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">box-sizing,selector-max,floats</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.css</span>
 
-- Specify certain rules to ignore:
+- Ignore specific rules:
 
 `csslint --ignore=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ids,rules-count,shorthand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.css</span>

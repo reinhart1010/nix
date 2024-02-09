@@ -2,8 +2,8 @@
 layout: page
 title: common/az-lock (English)
 description: "Manage Azure locks."
-content_hash: 0aa80df8e1fea271a1fedb5a13811a0036c984ab
-last_modified_at: 2023-11-12
+content_hash: 86cff0bbaef66c658066c19953b5cdf2bc0f7f6a
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # az lock
@@ -32,6 +32,6 @@ More information: <https://learn.microsoft.com/cli/azure/lock>.
 
 `az lock list`
 
-- Show a subscription level lock:
+- Show a subscription level lock with a specific [n]ame:
 
 `az lock show -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lock_name</span>

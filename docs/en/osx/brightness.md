@@ -2,8 +2,8 @@
 layout: page
 title: osx/brightness (English)
 description: "Get and set the brightness level of all internal and certain external displays."
-content_hash: c40d1f12863657ea030e6649a430200636fe4c3f
-last_modified_at: 2023-11-12
+content_hash: be8eb7358b2b05e6f7ea90cab129d2c2392819b8
+last_modified_at: 2024-02-09
 related_topics:
   - title: Indonesia version
     url: /id/osx/brightness.html
@@ -25,9 +25,9 @@ More information: <https://github.com/nriley/brightness>.
 
 `brightness -l`
 
-- Set the brightness to 100%:
+- Set a specific brightness:
 
-`brightness `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`brightness `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..1</span>
 
 - Set the brightness to 50%:
 

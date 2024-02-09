@@ -2,8 +2,8 @@
 layout: page
 title: common/cs-java (English)
 description: "The `java` and `java-home` commands fetch and install JVMs. The `java` command runs them too."
-content_hash: 68416af321cd9dd952306e75171b71befd545df5
-last_modified_at: 2024-01-30
+content_hash: ceb25267656570616853518a6342b352f41a12f9
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # cs java
@@ -27,7 +27,7 @@ More information: <https://get-coursier.io/docs/cli-java>.
 
 `cs java --installed`
 
-- Set the a specific JVM as one-off "default" for the shell instance:
+- Set a specific JVM as one-off default for the shell instance:
 
 `cs java --jvm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_name</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_version</span>` --env`
 

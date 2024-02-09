@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible-playbook (English)
 description: "Execute tasks defined in playbook on remote machines over SSH."
-content_hash: f97216f8314a0444b537713e3583a13f4b903323
-last_modified_at: 2023-11-12
+content_hash: fff3a94859757f433429afa3c930bebb1d038dea
+last_modified_at: 2024-02-09
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-playbook.html
@@ -31,15 +31,15 @@ More information: <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.
 
 `ansible-playbook `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span>
 
-- Run tasks in playbook with custom host inventory:
+- Run tasks in playbook with custom host [i]nventory:
 
 `ansible-playbook `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span>` -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inventory_file</span>
 
-- Run tasks in playbook with extra variables defined via the command-line:
+- Run tasks in playbook with [e]xtra variables defined via the command-line:
 
 `ansible-playbook `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span>` -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable1</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable2</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value2</span>`"`
 
-- Run tasks in playbook with extra variables defined in a JSON file:
+- Run tasks in playbook with [e]xtra variables defined in a JSON file:
 
 `ansible-playbook `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span>` -e "@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variables.json</span>`"`
 

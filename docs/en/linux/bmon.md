@@ -2,8 +2,8 @@
 layout: page
 title: linux/bmon (English)
 description: "Monitor bandwidth and capture network related statistics."
-content_hash: 985ed8ae4f5e03a7215e0e3962cdf6704b56eb50
-last_modified_at: 2023-11-12
+content_hash: 8182082bf9586fbb18fdd81abdce10458880145c
+last_modified_at: 2024-02-09
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/bmon.html
@@ -26,10 +26,10 @@ More information: <https://github.com/tgraf/bmon>.
 
 `bmon -b`
 
-- Set policy to define which network interface(s) is/are displayed:
+- Specify the policy to define which network interface(s) is/are displayed:
 
 `bmon -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface_1,interface_2,interface_3</span>
 
-- Set interval (in seconds) in which rate per counter is calculated:
+- Specify the interval (in seconds) in which rate per counter is calculated:
 
 `bmon -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.0</span>

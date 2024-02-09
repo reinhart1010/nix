@@ -2,8 +2,8 @@
 layout: page
 title: common/gitui (English)
 description: "Terminal UI for Git."
-content_hash: e1b9b6b0566e85bcf961de034147cbc373906239
-last_modified_at: 2023-11-12
+content_hash: 36f3740898598e6a53449fc74a55ec9d18981cc6
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # gitui
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Terminal UI for Git.
 More information: <https://github.com/extrawurst/gitui>.
 
-- Set the color theme (defaults to `theme.ron`):
+- Specify the color theme (defaults to `theme.ron`):
 
 `gitui --theme `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">theme</span>
 
@@ -27,11 +27,11 @@ More information: <https://github.com/extrawurst/gitui>.
 
 `gitui --bugreport`
 
-- Set the Git directory:
+- Use a specific Git directory:
 
 `gitui --directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Set the working directory:
+- Use a specific working directory:
 
 `gitui --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 

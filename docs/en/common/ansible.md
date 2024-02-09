@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible (English)
 description: "Manage groups of computers remotely over SSH. (use the `/etc/ansible/hosts` file to add new groups/hosts)."
-content_hash: 029463561852aedfe8c4c0aea9b186ac2f305cb0
-last_modified_at: 2023-11-12
+content_hash: bf91631103a4a6fc4850929b515fb6da1bbfb07c
+last_modified_at: 2024-02-09
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ansible.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ansible.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ansible.html
@@ -35,11 +38,11 @@ More information: <https://www.ansible.com/>.
 
 `ansible `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span>` --list-hosts`
 
-- Ping a group of hosts by invoking the ping module:
+- Ping a group of hosts by invoking the ping [m]odule:
 
 `ansible `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span>` -m ping`
 
-- Display facts about a group of hosts by invoking the setup module:
+- Display facts about a group of hosts by invoking the setup [m]odule:
 
 `ansible `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span>` -m setup`
 

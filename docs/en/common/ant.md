@@ -2,8 +2,8 @@
 layout: page
 title: common/ant (English)
 description: "Apache Ant."
-content_hash: f8a4c14e106e32e6863ba4dd11c3865ad45c5de6
-last_modified_at: 2023-11-12
+content_hash: a0d53afc0f986c53db4f300d1d7c3fbb9c7da70a
+last_modified_at: 2024-02-09
 related_topics:
   - title: Deutsch version
     url: /de/common/ant.html
@@ -29,7 +29,7 @@ More information: <https://ant.apache.org>.
 
 `ant`
 
-- Build a project using build file other than `build.xml`:
+- Build a project using build [f]ile other than `build.xml`:
 
 `ant -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">buildfile.xml</span>
 

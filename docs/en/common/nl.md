@@ -1,32 +1,44 @@
 ---
 layout: page
 title: common/nl (English)
-description: "A utility for numbering lines, either from a file, or from `stdin`."
-content_hash: 0c2b9a7df5432d5db0edf348c9458e5d8d0a6d2d
-last_modified_at: 2023-11-12
+description: "Number lines from a file or from `stdin`."
+content_hash: 798429aa8ab1d7e8d1c43059f282d9f46717c027
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # nl
 
-A utility for numbering lines, either from a file, or from `stdin`.
-More information: <https://www.gnu.org/software/coreutils/nl>.
+Number lines from a file or from `stdin`.
+More information: <https://manned.org/nl.1p>.
 
 - Number non-blank lines in a file:
 
 `nl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Read from `stdout`:
+- Read from `stdin`:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | nl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">options</span>` -`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | nl -`
 
-- Number only the lines with printable text:
+- Number [a]ll [b]ody lines including blank lines or do [n]ot number body lines:
 
-`nl -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`nl -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Number all lines including blank lines:
-
-`nl -b a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
-
-- Number only the body lines that match a basic regular expression (BRE) pattern:
+- Number only the [b]ody lines that match a basic regular expression (BRE) [p]attern:
 
 `nl -b p'FooBar[0-9]' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Use a specific [i]ncrement for line numbering:
+
+`nl -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">increment</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Specify the line numbering format to [r]ight or [l]eft justified, keeping leading [z]eros or [n]ot:
+
+`nl -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rz|ln|rn</span>
+
+- Specify the line numbering's [w]idth (6 by default):
+
+`nl -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">col_width</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Use a specific string to [s]eparate the line numbers from the lines (TAB by default):
+
+`nl -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">separator</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

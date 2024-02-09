@@ -2,8 +2,8 @@
 layout: page
 title: common/gladtex (English)
 description: "A LaTeX formula preprocessor for HTML files."
-content_hash: ae3104bb327b33b719065ce845102203090233af
-last_modified_at: 2023-11-20
+content_hash: ee9915662a907b73fbb2eec21b29578fd18ce598
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # gladtex
@@ -12,7 +12,7 @@ A LaTeX formula preprocessor for HTML files.
 It converts LaTeX formulas to images.
 More information: <https://manned.org/gladtex.1>.
 
-- Convert to html:
+- Convert to HTML:
 
 `gladtex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.htex</span>
 

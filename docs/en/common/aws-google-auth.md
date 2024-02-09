@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-google-auth (English)
 description: "Command-line tool to acquire AWS temporary (STS) credentials using Google Apps as a federated (Single Sign-On) provider."
-content_hash: 65baea6c66da5da6b41faae68f560f9e6cd3c166
-last_modified_at: 2023-12-27
+content_hash: 6cec6d559bf364ca2a15e43299e85792f39fb606
+last_modified_at: 2024-02-09
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-google-auth.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 Command-line tool to acquire AWS temporary (STS) credentials using Google Apps as a federated (Single Sign-On) provider.
 More information: <https://github.com/cevoaustralia/aws-google-auth>.
 
-- Log in with Google SSO using the IDP and SP identifiers and set the credentials duration to one hour:
+- Log in with Google SSO using the specified [u]sername [I]DP and [S]P identifiers and set the credentials [d]uration to one hour:
 
 `aws-google-auth -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example@example.com</span>` -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GOOGLE_IDP_ID</span>` -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GOOGLE_SP_ID</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3600</span>
 

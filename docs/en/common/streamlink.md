@@ -2,8 +2,8 @@
 layout: page
 title: common/streamlink (English)
 description: "Extracts streams from various services and pipes them into a video player of choice."
-content_hash: 31a996dde4cf7fc033037eec16cea9662a3ec6ec
-last_modified_at: 2024-01-24
+content_hash: 2141abf34ae662913cca49f8ebb57de349f6eaf7
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # streamlink
@@ -27,7 +27,7 @@ More information: <https://streamlink.github.io>.
 
 `streamlink --player=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mpv</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com/stream</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">best</span>
 
-- Specify the amount of time to skip from the beginning of the stream. For live streams, this is a negative offset from the end of the stream (rewind):
+- Skip a specific amount of time from the beginning of the stream. For live streams, this is a negative offset from the end of the stream (rewind):
 
 `streamlink --hls-start-offset `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[HH:]MM:SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com/stream</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">best</span>
 

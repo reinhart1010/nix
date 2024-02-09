@@ -2,8 +2,8 @@
 layout: page
 title: common/scrcpy (English)
 description: "Display and control your Android device on a desktop."
-content_hash: 390cfb05b47c5d9e2bbb43b07b73cee076b4c006
-last_modified_at: 2023-11-12
+content_hash: cb957ff88a78aab686645b5869eb56377611e561
+last_modified_at: 2024-02-09
 related_topics:
   - title: Indonesia version
     url: /id/common/scrcpy.html
@@ -39,6 +39,6 @@ More information: <https://github.com/Genymobile/scrcpy>.
 
 `scrcpy --record `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mp4</span>
 
-- Set target directory for pushing files to device by drag and drop (non-APK):
+- Specify the target directory for pushing files to device by drag and drop (non-APK):
 
 `scrcpy --push-target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>

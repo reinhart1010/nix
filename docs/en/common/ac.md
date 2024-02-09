@@ -2,8 +2,8 @@
 layout: page
 title: common/ac (English)
 description: "Print statistics on how long users have been connected."
-content_hash: 660aa284f96ca8b33268d31efc9b7995d7bec29d
-last_modified_at: 2023-11-12
+content_hash: 17b1610ef486919358e751ea5ee5c9f638eb4c40
+last_modified_at: 2024-02-09
 related_topics:
   - title: বাংলা version
     url: /bn/common/ac.html
@@ -11,8 +11,14 @@ related_topics:
   - title: español version
     url: /es/common/ac.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ac.html
+    icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/ac.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ac.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ac.html
@@ -45,6 +51,6 @@ More information: <https://man.openbsd.org/ac>.
 
 `ac -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
-- Print how long a particular user has been connected in hours per day (with total):
+- Print how long a particular user has been connected in hours per [d]ay (with total):
 
 `ac -dp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>

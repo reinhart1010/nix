@@ -2,8 +2,8 @@
 layout: page
 title: common/cmatrix (English)
 description: "Shows a scrolling Matrix like screen in the terminal."
-content_hash: 4af53394f78a27883527064629996e5d00b33a81
-last_modified_at: 2023-11-12
+content_hash: fa7b9a1dca26eb7ca9e2926e15dff70bf438d99f
+last_modified_at: 2024-02-09
 related_topics:
   - title: català version
     url: /ca/common/cmatrix.html
@@ -21,18 +21,18 @@ tldri18n_status: 2
 Shows a scrolling Matrix like screen in the terminal.
 More information: <https://github.com/abishekvashok/cmatrix>.
 
-- Enable asynchronous scrolling:
+- Enable [a]synchronous scrolling:
 
 `cmatrix -a`
 
-- Display red text:
+- Change the text [C]olor (green by default):
 
 `cmatrix -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">red</span>
 
-- Enable rainbow mode:
+- Enable [r]ainbow mode:
 
 `cmatrix -r`
 
-- Set screen update delay to 2 centiseconds (20 milliseconds):
+- Use a screen [u]pdate delay of 100 centiseconds (1 second):
 
-`cmatrix -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>
+`cmatrix -u 100`

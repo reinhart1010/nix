@@ -2,9 +2,12 @@
 layout: page
 title: common/age-keygen (English)
 description: "Generate `age` key pairs."
-content_hash: 7023709e9b5f57ec2744f90d6115b5394cfdf61b
-last_modified_at: 2023-12-03
+content_hash: 2eac7e11e3bde4b7cba6d29cc7e9a0e7b5a60a42
+last_modified_at: 2024-02-09
 related_topics:
+  - title: Indonesia version
+    url: /id/common/age-keygen.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/age-keygen.html
     icon: bi bi-globe
@@ -23,6 +26,6 @@ More information: <https://manned.org/age-keygen>.
 
 `age-keygen --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Convert an identity to a recipient and print the public key to `stdout`:
+- Convert an identit[y] to a recipient and print the public key to `stdout`:
 
 `age-keygen -y `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

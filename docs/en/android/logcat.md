@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (English)
 description: "Dump a log of system messages, including stack traces when an error occurred, and information messages logged by applications."
-content_hash: 52fa0c06c1973b0689d0466d14af9ec2abe2b0f3
-last_modified_at: 2023-11-12
+content_hash: 348fa09d11c3cd289a56fd1ec1421cec29ba83a4
+last_modified_at: 2024-02-09
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -70,7 +73,7 @@ More information: <https://developer.android.com/studio/command-line/logcat>.
 
 `logcat`
 
-- Write system logs to a file:
+- Write system logs to a [f]ile:
 
 `logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

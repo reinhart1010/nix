@@ -2,8 +2,8 @@
 layout: page
 title: linux/handlr (English)
 description: "Manage your default applications."
-content_hash: 589c640cfdb90a7cf22e3d2219da3c4faab1e9d5
-last_modified_at: 2023-11-12
+content_hash: a33e13db66c3789873ccbf59b7223a63b828e9ea
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # handlr
@@ -19,7 +19,7 @@ More information: <https://github.com/chmln/handlr>.
 
 `handlr open `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span>
 
-- Set imv as the default application for PNG files:
+- Set `imv` as the default application for PNG files:
 
 `handlr set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imv.desktop</span>
 

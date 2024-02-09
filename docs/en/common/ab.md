@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (English)
 description: "Apache HTTP server benchmarking tool."
-content_hash: dcfa07f488349eb771ad4052001b8cdb847203f4
-last_modified_at: 2023-12-31
+content_hash: 08806b613ae844e8b56a0ae0254a4d9fe713c3e9
+last_modified_at: 2024-02-09
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -70,7 +70,7 @@ More information: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 `ab -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- Set the maximum number of seconds ([t]imeout) to spend for benchmarking:
+- Set the maximum number of seconds ([t]imeout) to spend for benchmarking (30 by default):
 
 `ab -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 

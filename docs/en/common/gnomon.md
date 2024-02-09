@@ -2,8 +2,8 @@
 layout: page
 title: common/gnomon (English)
 description: "Utility to annotate console logging statements with timestamps and find slow processes."
-content_hash: 10e95ff66c97b75706172295a78fe1b3b66d4b23
-last_modified_at: 2023-11-12
+content_hash: 93e4fd7e0dcca19c0f3c83a79464acf2fd982e8c
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # gnomon
@@ -23,10 +23,10 @@ More information: <https://github.com/paypal/gnomon>.
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm test</span>` | gnomon --type=absolute`
 
-- Set a high threshold of 0.5 seconds for the elapsed time; exceeding which the timestamp will be colored bright red:
+- Use a high threshold of 0.5 seconds, exceeding which the timestamp will be colored bright red:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm test</span>` | gnomon --high `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm test</span>` | gnomon --high 0.5`
 
-- Set a medium threshold of 0.2 seconds (Timestamp will be colored bright yellow):
+- Use a medium threshold of 0.2 seconds, exceeding which the timestamp will be colored bright yellow:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm test</span>` | gnomon --medium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.2</span>

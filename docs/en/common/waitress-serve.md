@@ -2,8 +2,8 @@
 layout: page
 title: common/waitress-serve (English)
 description: "Pure Python WSGI HTTP Server."
-content_hash: 53696944a2e9b95cb7070a4e02e0a8ad7b101f67
-last_modified_at: 2023-11-12
+content_hash: 2fa2f2ab1aadce11b24ee55b3e0cba54a8535ceb
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # waitress-serve
@@ -31,6 +31,6 @@ More information: <https://docs.pylonsproject.org/projects/waitress/en/latest/ru
 
 `waitress-serve --call `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path.wsgi_factory</span>
 
-- Set the URL scheme to HTTPS:
+- Use the HTTPS URL scheme:
 
 `waitress-serve --url-scheme=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path:wsgi_func</span>

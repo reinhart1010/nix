@@ -2,14 +2,17 @@
 layout: page
 title: common/ag (English)
 description: "The Silver Searcher. Like `ack`, but aims to be faster."
-content_hash: 5ee359f25b525f069b8710ab817e19c3d6c1982e
-last_modified_at: 2023-12-03
+content_hash: 2048fed3b77929e9f0ecfad80a3dd18413fd0779
+last_modified_at: 2024-02-09
 related_topics:
   - title: español version
     url: /es/common/ag.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ag.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ag.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ag.html
@@ -50,11 +53,11 @@ More information: <https://github.com/ggreer/the_silver_searcher>.
 
 `ag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Find files containing "foo", but only list the filenames:
+- Find files containing "foo", but only [l]ist the filenames:
 
 `ag -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>
 
-- Find files containing "FOO" case-insensitively, and print only the match, rather than the whole line:
+- Find files containing "FOO" case-[i]nsensitively, and print [o]nly the match, rather than the whole line:
 
 `ag -i -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FOO</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/timeout (English)
 description: "Run a command with a time limit."
-content_hash: 25cc2f8bceb6d228074f97c6df7ecc7afef65252
-last_modified_at: 2023-11-12
+content_hash: 0a116b02fa5008a6ea0525fde786089f368f23ca
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # timeout
@@ -11,10 +11,10 @@ tldri18n_status: 2
 Run a command with a time limit.
 More information: <https://www.gnu.org/software/coreutils/timeout>.
 
-- Run `sleep 10` and terminate it, if it runs for more than 3 seconds:
+- Run `sleep 10` and terminate it after 3 seconds:
 
-`timeout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3s</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sleep 10</span>
+`timeout 3s sleep 10`
 
-- Specify the signal to be sent to the command after the time limit expires. (By default, TERM is sent):
+- Send a signal to the command after the time limit expires (SIGTERM by default):
 
 `timeout --signal `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">INT</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5s</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sleep 10</span>

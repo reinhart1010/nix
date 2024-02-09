@@ -2,8 +2,8 @@
 layout: page
 title: common/arp (English)
 description: "Show and manipulate your system's ARP cache."
-content_hash: 3c1c877c0edbb7366b0d7102435cef2fb7284398
-last_modified_at: 2023-11-12
+content_hash: 19ca880da70569600853b4e53c4fe04f3981b487
+last_modified_at: 2024-02-09
 related_topics:
   - title: Deutsch version
     url: /de/common/arp.html
@@ -40,10 +40,10 @@ More information: <https://manned.org/arp>.
 
 `arp -a`
 
-- Delete a specific entry:
+- [d]elete a specific entry:
 
 `arp -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span>
 
-- Create an entry in the ARP table:
+- [s]et up a new entry in the ARP table:
 
 `arp -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span>

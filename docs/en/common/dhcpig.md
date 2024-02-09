@@ -2,8 +2,8 @@
 layout: page
 title: common/dhcpig (English)
 description: "Initiates an advanced DHCP exhaustion attack and stress test."
-content_hash: 0d84b76a9f04d48f3faa3761c45a223bbf79ccb8
-last_modified_at: 2023-11-12
+content_hash: 3081cb45936f56a89fd258bcd9319a25726d1299
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # dhcpig
@@ -32,7 +32,7 @@ More information: <https://github.com/kamorin/DHCPig>.
 
 `sudo ./pig.py -c --verbosity=1 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth1</span>
 
-- Set debug verbosity and scan network of neighboring devices using ARP packets:
+- Use a debug verbosity of 100 and scan network of neighboring devices using ARP packets:
 
 `sudo ./pig.py -c --verbosity=100 --neighbors-scan-arp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth1</span>
 

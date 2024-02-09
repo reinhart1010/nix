@@ -2,8 +2,8 @@
 layout: page
 title: common/montage (English)
 description: "Tiles images into a customizable grid."
-content_hash: 975feae859c6ea0cecadd7882de8f041bcf95724
-last_modified_at: 2023-11-12
+content_hash: 0d4e804008e150838c9fc3d4ec7a122bd003a0be
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # montage
@@ -20,7 +20,7 @@ More information: <https://imagemagick.org/script/montage.php>.
 
 `montage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg ...</span>` -geometry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/montage.jpg</span>
 
-- Set the grid cell size and resize images to fit it before tiling:
+- Specify the grid cell size and resize images to fit it before tiling:
 
 `montage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg ...</span>` -geometry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480+0+0</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/montage.jpg</span>
 

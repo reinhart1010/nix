@@ -2,8 +2,8 @@
 layout: page
 title: common/dvc-config (English)
 description: "Low level command to manage custom configuration options for dvc repositories."
-content_hash: 34d4f73d5c594cf4c7d4713422d3ae89f26d4535
-last_modified_at: 2024-01-25
+content_hash: d398cf22ea4db9b4200fcd24edf4a3db6dff3db5
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # dvc config
@@ -38,4 +38,4 @@ More information: <https://dvc.org/doc/command-reference/config>.
 
 - Set a local, global, or system level configuration value:
 
-`dvc config --local/global/system `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>
+`dvc config --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local|global|system</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>

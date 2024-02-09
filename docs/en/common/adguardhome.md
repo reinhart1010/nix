@@ -2,8 +2,8 @@
 layout: page
 title: common/adguardhome (English)
 description: "A network-wide software for blocking ads & tracking."
-content_hash: 7f551afb024ebc238566f58f8ef39ff0da334e02
-last_modified_at: 2024-01-31
+content_hash: 95087a3a36db8f30491e360d445ae35c39d1d21d
+last_modified_at: 2024-02-09
 related_topics:
   - title: français version
     url: /fr/common/adguardhome.html
@@ -35,7 +35,7 @@ More information: <https://github.com/AdguardTeam/AdGuardHome>.
 
 `AdGuardHome --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/AdGuardHome.yaml</span>
 
-- Set the work directory for data to be stored in:
+- Store the data in a specific work directory:
 
 `AdGuardHome --work-dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 

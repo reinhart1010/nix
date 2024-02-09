@@ -2,8 +2,8 @@
 layout: page
 title: common/dua (English)
 description: "Dua (Disk Usage Analyzer) is a tool to conveniently learn about the usage of disk space of a given directory."
-content_hash: afa100c831ec864f8ae32f32f3580d15fb2e305f
-last_modified_at: 2023-11-12
+content_hash: c65515680b32296f95c3e7f58154b1e4b16a9a0c
+last_modified_at: 2024-02-09
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dua.html
@@ -39,6 +39,6 @@ More information: <https://github.com/Byron/dua-cli>.
 
 `dua --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">metric|binary|bytes|GB|GiB|MB|MiB</span>
 
-- Set the number of threads to be used:
+- Use a specific number of threads (defaults to the process number of threads):
 
 `dua --threads `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>

@@ -2,8 +2,12 @@
 layout: page
 title: common/transmission-cli (English)
 description: "A lightweight, command-line BitTorrent client."
-content_hash: 3b0d89e7c7a705e1181b7d3074592a8a99f15812
-last_modified_at: 2023-11-12
+content_hash: a436f2a98102d77fef250ed3dfa12a2d139c1548
+last_modified_at: 2024-02-09
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/transmission-cli.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # transmission-cli
@@ -24,11 +28,11 @@ More information: <https://transmissionbt.com>.
 
 `transmission-cli --new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file_or_directory</span>
 
-- Set the download speed limit to 50 KB/s:
+- Specify the download speed limit (in KB/s):
 
 `transmission-cli --downlimit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|path/to/file</span>
 
-- Set the upload speed limit to 50 KB/s:
+- Specify the upload speed limit (in KB/s):
 
 `transmission-cli --uplimit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|path/to/file</span>
 

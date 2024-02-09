@@ -2,14 +2,20 @@
 layout: page
 title: common/atq (English)
 description: "Show jobs scheduled by `at` or `batch` commands."
-content_hash: 48ad6cf8910e080cccf922eb3ebaf3c2db5a3e65
-last_modified_at: 2023-11-12
+content_hash: c85099d671f97220771c39d5374368a21023f9cc
+last_modified_at: 2024-02-09
 related_topics:
+  - title: فارسی version
+    url: /fa/common/atq.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/atq.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/atq.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/atq.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/atq.html
@@ -25,7 +31,7 @@ More information: <https://manned.org/atq>.
 
 `atq`
 
-- Show jobs from queue named 'a' (queues have single-character names):
+- Show jobs from the 'a' [q]ueue (queues have single-character names):
 
 `atq -q `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a</span>
 

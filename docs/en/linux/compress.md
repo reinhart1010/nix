@@ -2,8 +2,8 @@
 layout: page
 title: linux/compress (English)
 description: "Compress files using the Unix `compress` command."
-content_hash: 6da176ac8ecd7fedc885fd8c8982900a1ef80b61
-last_modified_at: 2023-11-12
+content_hash: 7080bd0e73034100b0ec4d0f4e11c6aeecf018c2
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # compress
@@ -19,7 +19,7 @@ More information: <https://manned.org/compress.1>.
 
 `compress -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Set maximum compression bits (9-16 bits):
+- Specify the maximum compression bits (9-16 bits):
 
 `compress -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bits</span>
 

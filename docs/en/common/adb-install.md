@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-install (English)
 description: "Android Debug Bridge Install: Push packages to an Android emulator instance or connected Android devices."
-content_hash: 030dd9649980bac5345d7c900e5e817bc3d57fd3
-last_modified_at: 2023-11-12
+content_hash: 01f0e6fb491879781c7f65b3aa2d24a7052f6f76
+last_modified_at: 2024-02-09
 related_topics:
   - title: español version
     url: /es/common/adb-install.html
@@ -47,15 +47,15 @@ More information: <https://developer.android.com/studio/command-line/adb>.
 
 `adb -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">serial_number</span>` install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span>
 
-- Reinstall an existing app, keeping its data:
+- [r]einstall an existing app, keeping its data:
 
 `adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span>
 
-- Push an Android application allowing version code downgrade (debuggable packages only):
+- Push an Android application allowing version code [d]owngrade (debuggable packages only):
 
 `adb install -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span>
 
-- Grant all permissions listed in the app manifest:
+- [g]rant all permissions listed in the app manifest:
 
 `adb install -g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span>
 

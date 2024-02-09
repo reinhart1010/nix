@@ -2,8 +2,8 @@
 layout: page
 title: common/atoum (English)
 description: "A simple, modern and intuitive unit testing framework for PHP."
-content_hash: 6c77b7d28f53558bb678db0d0adec7a53047b19a
-last_modified_at: 2023-11-12
+content_hash: 311ce4bc5c0317a29c801f76ec73b98f623444bd
+last_modified_at: 2024-02-09
 related_topics:
   - title: español version
     url: /es/common/atoum.html
@@ -32,23 +32,23 @@ More information: <http://atoum.org>.
 
 `atoum`
 
-- Run tests using the specified configuration file:
+- Run tests using the specified [c]onfiguration file:
 
 `atoum -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Run a specific test file:
+- Run a specific test [f]ile:
 
 `atoum -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Run a specific directory of tests:
+- Run a specific [d]irectory of tests:
 
 `atoum -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Run all tests under a specific namespace:
+- Run all tests under a specific name[s]pace:
 
 `atoum -ns `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
 
-- Run all tests with a specific tag:
+- Run all tests with a specific [t]ag:
 
 `atoum -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span>
 

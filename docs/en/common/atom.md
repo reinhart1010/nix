@@ -2,8 +2,8 @@
 layout: page
 title: common/atom (English)
 description: "A cross-platform pluggable text editor."
-content_hash: d2ded01da883e013149b702f0f958ad63845d526
-last_modified_at: 2023-11-12
+content_hash: ef80afa169ec3c3ae84060948acee927e85ec8db
+last_modified_at: 2024-02-09
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -38,7 +38,7 @@ More information: <https://atom.io/>.
 
 `atom `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
-- Open a file or directory in a new window:
+- Open a file or directory in a [n]ew window:
 
 `atom -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
