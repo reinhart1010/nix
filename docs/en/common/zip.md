@@ -2,8 +2,8 @@
 layout: page
 title: common/zip (English)
 description: "Package and compress (archive) files into `zip` archive."
-content_hash: 96414abddfb1f3b905760d4a2687b2b070e37354
-last_modified_at: 2024-01-30
+content_hash: 7753e00b72541c542760f186df14c65df96bc1fb
+last_modified_at: 2024-02-09
 related_topics:
   - title: français version
     url: /fr/common/zip.html
@@ -39,7 +39,7 @@ More information: <https://manned.org/zip>.
 
 - Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 
-`zip -r -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0-9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
+`zip -r -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 
 - Create an [e]ncrypted archive with a specific password:
 

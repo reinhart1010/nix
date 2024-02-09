@@ -2,8 +2,8 @@
 layout: page
 title: linux/zip (English)
 description: "Package and compress (archive) files into `zip` archive."
-content_hash: a032751e66818460aca06437564468fef51c9754
-last_modified_at: 2024-01-30
+content_hash: f3b3624d5ec243b9fbb190aafdd5414e49e6ce68
+last_modified_at: 2024-02-09
 tldri18n_status: 2
 ---
 # zip
@@ -26,7 +26,7 @@ More information: <https://manned.org/zip>.
 
 - Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 
-`zip -r -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0-9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
+`zip -r -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 
 - Create an encrypted archive with a specific password:
 
