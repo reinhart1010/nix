@@ -3,14 +3,17 @@ layout: page
 title: common/babeld (Deutsch)
 description: "Routing-Daemon für Babel, der Firewall-ähnliche Filter benutzt."
 content_hash: b5fcff42380fdc192ebc5976037c3b34fb37c906
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-10
 related_topics:
   - title: English version
     url: /en/common/babeld.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# babeld
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># babeld
 
 Routing-Daemon für Babel, der Firewall-ähnliche Filter benutzt.
 Weitere Informationen: <https://www.irif.fr/~jch/software/babel/babeld.html>.

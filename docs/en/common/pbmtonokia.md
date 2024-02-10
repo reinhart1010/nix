@@ -3,19 +3,10 @@ layout: page
 title: common/pbmtonokia (English)
 description: "Convert a PBM image to one of Nokia's Smart Messaging Formats ."
 content_hash: 66dffef2c888bf8a523c423461ffa30d13c19521
-last_modified_at: 2024-02-09
-tldri18n_status: 0
+last_modified_at: 2024-02-10
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pbmtonokia.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pbmtonokia
+# pbmtonokia
 
 Convert a PBM image to one of Nokia's Smart Messaging Formats .
 More information: <https://netpbm.sourceforge.net/doc/pbmtonokia.html>.

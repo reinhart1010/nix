@@ -3,19 +3,10 @@ layout: page
 title: common/pnmpad (English)
 description: "Add borders to a PNM image."
 content_hash: 6970f8a4e7d926227a517f07ff14457e5412e261
-last_modified_at: 2024-02-09
-tldri18n_status: 0
+last_modified_at: 2024-02-10
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pnmpad.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pnmpad
+# pnmpad
 
 Add borders to a PNM image.
 See also: `pnmmargin`, `pamcut`, `pamcomp`.
