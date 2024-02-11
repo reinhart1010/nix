@@ -3,23 +3,14 @@ layout: page
 title: common/gammastep (español)
 description: "Ajusta la temperatura del color de la pantalla según la hora del día."
 content_hash: 433d03fdfe31ccb35472b0ffedab4287afdb7b38
-last_modified_at: 2024-02-10
+last_modified_at: 2024-02-11
 related_topics:
   - title: English version
     url: /en/common/gammastep.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gammastep.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Gammastep
+# Gammastep
 
 Ajusta la temperatura del color de la pantalla según la hora del día.
 Más información: <https://gitlab.com/chinstrap/gammastep>.
