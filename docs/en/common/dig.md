@@ -2,8 +2,8 @@
 layout: page
 title: common/dig (English)
 description: "DNS lookup utility."
-content_hash: 462e22d28d8b1df5638e74837e90058dea3b5b4f
-last_modified_at: 2023-12-20
+content_hash: 09adaf1026a5e772f4d677509063b3fe3ad7fd6c
+last_modified_at: 2024-02-11
 related_topics:
   - title: español version
     url: /es/common/dig.html
@@ -57,3 +57,7 @@ More information: <https://manned.org/dig>.
 - Perform iterative queries and display the entire trace path to resolve a domain name:
 
 `dig +trace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+
+- Query a DNS server over a non-standard [p]ort using the TCP protocol:
+
+`dig +tcp -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>` @`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dns_server_ip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
