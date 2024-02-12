@@ -2,8 +2,8 @@
 layout: page
 title: common/yes (English)
 description: "Output something repeatedly."
-content_hash: b61a9ee9a5e3d4790cabb22acef8a3e78dc29937
-last_modified_at: 2023-11-12
+content_hash: 8c112262abd1585f7493277de771cc3195a8527d
+last_modified_at: 2024-02-12
 related_topics:
   - title: español version
     url: /es/common/yes.html
@@ -42,3 +42,7 @@ More information: <https://www.gnu.org/software/coreutils/yes>.
 - Accept everything prompted by the `apt-get` command:
 
 `yes | sudo apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span>
+
+- Repeatedly output a newline to always accept the default option of a prompt:
+
+`yes ''`
