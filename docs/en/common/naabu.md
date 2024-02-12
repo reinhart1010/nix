@@ -2,8 +2,8 @@
 layout: page
 title: common/naabu (English)
 description: "A fast port scanner written in Go with a focus on reliability and simplicity."
-content_hash: 9ad69dd64d06eb8fa4f9653db02f3aa715814564
-last_modified_at: 2024-02-09
+content_hash: ab2f041963daea7f8b615be65c66c5f68aa1440c
+last_modified_at: 2024-02-12
 related_topics:
   - title: español version
     url: /es/common/naabu.html
@@ -39,3 +39,7 @@ More information: <https://github.com/projectdiscovery/naabu>.
 - Show CDN type the remote host is using, if any:
 
 `naabu -p 80,443 -cdn -host `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
+
+- Run `nmap` from `naabu` for additional functionalities (`nmap` must be installed):
+
+`sudo naabu -v -host `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>` -nmap-cli 'nmap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v -T5 -sC</span>`'`

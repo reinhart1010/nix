@@ -2,8 +2,8 @@
 layout: page
 title: common/git-diff (English)
 description: "Show changes to tracked files."
-content_hash: 0755c0a602dc12ed1f232616182a4453c0a54235
-last_modified_at: 2023-11-12
+content_hash: c079da4a8a913c4fcb2383e1278378c2cdb35268
+last_modified_at: 2024-02-12
 related_topics:
   - title: español version
     url: /es/common/git-diff.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 Show changes to tracked files.
 More information: <https://git-scm.com/docs/git-diff>.
 
-- Show unstaged, uncommitted changes:
+- Show unstaged changes:
 
 `git diff`
 
