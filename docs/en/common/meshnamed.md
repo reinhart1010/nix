@@ -3,19 +3,10 @@ layout: page
 title: common/meshnamed (English)
 description: "Distributed naming system for IPv6 mesh networks."
 content_hash: b4952fe54193db407b69a0aa9e9f420661365a2c
-last_modified_at: 2024-02-11
-tldri18n_status: 0
+last_modified_at: 2024-02-12
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/meshnamed.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># meshnamed
+# meshnamed
 
 Distributed naming system for IPv6 mesh networks.
 More information: <https://github.com/zhoreeq/meshname/>.

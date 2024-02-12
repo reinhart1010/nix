@@ -3,7 +3,7 @@ layout: page
 title: common/dig (日本語)
 description: "DNS 情報を調べるユーティリティーです。"
 content_hash: 620c1b6fc44b6733eeabd061c010f715d38d455a
-last_modified_at: 2023-12-20
+last_modified_at: 2024-02-12
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -23,9 +23,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/dig.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# dig
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dig
 
 DNS 情報を調べるユーティリティーです。
 詳しくはこちら: <https://manned.org/dig>

@@ -3,7 +3,7 @@ layout: page
 title: common/dig (español)
 description: "Utilidad de consulta para DNS."
 content_hash: 5aaf10fe28be86d836759a4691197ca357b8ed3e
-last_modified_at: 2024-01-07
+last_modified_at: 2024-02-12
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -23,9 +23,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/dig.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# dig
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dig
 
 Utilidad de consulta para DNS.
 Más información: <https://manned.org/dig>.

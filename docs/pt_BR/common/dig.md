@@ -3,7 +3,7 @@ layout: page
 title: common/dig (português (Brasil))
 description: "Utilitário de pesquisa de DNS."
 content_hash: 750c4f0185c078101b518d383845ab3b46bcd8be
-last_modified_at: 2023-12-20
+last_modified_at: 2024-02-12
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -23,9 +23,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/dig.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# dig
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dig
 
 Utilitário de pesquisa de DNS.
 Mais informações: <https://manned.org/dig>.
