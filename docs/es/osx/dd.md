@@ -2,8 +2,8 @@
 layout: page
 title: osx/dd (español)
 description: "Convierte y copia un archivo."
-content_hash: 63d72fe8a7eeadcab67a52ed0540073697536f2e
-last_modified_at: 2023-11-12
+content_hash: 8164add0b7f696b4032be3a0d3afc9a7742f6db0
+last_modified_at: 2024-02-13
 related_topics:
   - title: English version
     url: /en/osx/dd.html
@@ -47,4 +47,4 @@ Más información: <https://keith.github.io/xcode-man-pages/dd.1.html>.
 
 - Comprueba el progreso de una operación dd en curso (ejecuta este comando desde otro shell):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill -USR1 $(pgrep -x dd)`

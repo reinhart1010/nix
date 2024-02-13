@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (Deutsch)
 description: "Konvertiere und kopiere eine Datei."
-content_hash: 3f78f8c5733f5805fa782c10f5f3656a0cab7919
-last_modified_at: 2023-11-12
+content_hash: 6ada731755eb1789d09874556cae78e235e52c66
+last_modified_at: 2024-02-13
 related_topics:
   - title: English version
     url: /en/common/dd.html
@@ -53,4 +53,4 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/dd>.
 
 - Überprüfe den Fortschritt eines laufenden dd-Prozesses (Führe diesen Befehl von einer anderen Shell aus):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill -USR1 $(pgrep -x dd)`

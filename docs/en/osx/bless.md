@@ -2,8 +2,8 @@
 layout: page
 title: osx/bless (English)
 description: "Set volume boot capability and startup disk options."
-content_hash: 1780bd5ee431f18a6616a9b3e29fc8facef3fb23
-last_modified_at: 2024-01-31
+content_hash: 259cea4b9ce5a5a34e6239be90c082f60d745336
+last_modified_at: 2024-02-13
 related_topics:
   - title: español version
     url: /es/osx/bless.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # bless
 
 Set volume boot capability and startup disk options.
-More information: <https://keith.github.io/xcode-man-pages/bless.1.html>.
+More information: <https://keith.github.io/xcode-man-pages/bless.8.html>.
 
 - Bless a volume with only Mac OS X or Darwin, and create the BootX and `boot.efi` files as needed:
 

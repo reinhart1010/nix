@@ -2,8 +2,8 @@
 layout: page
 title: linux/dd (한국어)
 description: "파일 변환 및 복사."
-content_hash: ba247226efb875f53dd55376c006bb5d7348caad
-last_modified_at: 2023-11-12
+content_hash: 3c57dc6050bf6bb0971569e6b41276491c5d159f
+last_modified_at: 2024-02-13
 related_topics:
   - title: English version
     url: /en/linux/dd.html
@@ -41,4 +41,4 @@ tldri18n_status: 2
 
 - 진행 중인 dd 작업의 진행 상황을 확인 (다른 셸에서 이 명령어 실행):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill -USR1 $(pgrep -x dd)`

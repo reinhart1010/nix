@@ -2,11 +2,14 @@
 layout: page
 title: common/aria2c (English)
 description: "Fast download utility."
-content_hash: 276a1ea57c307903984b7a011ff532d3ce1bc920
-last_modified_at: 2023-11-12
+content_hash: e5a2564d10d7f981e19b6db82a9f41b4dac5de39
+last_modified_at: 2024-02-13
 related_topics:
   - title: español version
     url: /es/common/aria2c.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/aria2c.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/aria2c.html
@@ -43,9 +46,9 @@ More information: <https://aria2.github.io>.
 
 `aria2c --force-sequential `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">false</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1 url2 ...</span>`"`
 
-- Download from multiple sources with each URI pointing to the same file:
+- Download the same file from different mirrors and verify the checksum of the downloaded file:
 
-`aria2c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1 url2 ...</span>`"`
+`aria2c --checksum=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha-256</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url2</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">urlN</span>`"`
 
 - Download the URIs listed in a file with a specific number of parallel downloads:
 

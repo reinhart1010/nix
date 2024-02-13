@@ -2,8 +2,8 @@
 layout: page
 title: linux/dd (English)
 description: "Convert and copy a file."
-content_hash: e67121df71a17100ea66b8672ac1f36c6d50b2c8
-last_modified_at: 2023-11-12
+content_hash: 8ed6e52a9c5257df1711d35158e294efe4d4b46a
+last_modified_at: 2024-02-13
 related_topics:
   - title: 한국어 version
     url: /ko/linux/dd.html
@@ -41,4 +41,4 @@ More information: <https://www.gnu.org/software/coreutils/dd>.
 
 - Check the progress of an ongoing dd operation (run this command from another shell):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill -USR1 $(pgrep -x dd)`
