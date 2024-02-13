@@ -2,8 +2,8 @@
 layout: page
 title: osx/yabai (English)
 description: "A tiling window manager for macOS based on binary space partitioning."
-content_hash: f6301448c1e61bedd70ea082b705290110213ec4
-last_modified_at: 2023-11-12
+content_hash: a588fc460c8a46933695c2ed028f16de850a5023
+last_modified_at: 2024-02-13
 related_topics:
   - title: español version
     url: /es/osx/yabai.html
@@ -13,13 +13,13 @@ tldri18n_status: 2
 # yabai
 
 A tiling window manager for macOS based on binary space partitioning.
-More information: <https://github.com/koekeishiya/yabai>.
+More information: <https://github.com/koekeishiya/yabai/wiki>.
 
-- Set the layout to bsp:
+- Send a config [m]essage for setting the layout:
 
-`yabai -m config layout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bsp</span>
+`yabai -m config layout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bsp|stack|float</span>
 
-- Set the window gap to 10pt:
+- Set the window gap in pt:
 
 `yabai -m config window_gap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>
 
