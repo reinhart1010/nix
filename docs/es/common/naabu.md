@@ -3,14 +3,17 @@ layout: page
 title: common/naabu (español)
 description: "Un rápido escáner de puertos escrito en Go con un enfoque en la fiabilidad y la simplicidad."
 content_hash: ac4174cd841f53fdc05c6e92b292c4469b4b75e7
-last_modified_at: 2024-02-09
+last_modified_at: 2024-02-13
 related_topics:
   - title: English version
     url: /en/common/naabu.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# naabu
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># naabu
 
 Un rápido escáner de puertos escrito en Go con un enfoque en la fiabilidad y la simplicidad.
 Nota: Algunas características solo se activan cuando `naabu` se ejecuta con privilegios del superusuario, como el escaneo SYN.

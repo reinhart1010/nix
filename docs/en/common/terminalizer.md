@@ -1,14 +1,15 @@
 ---
 layout: page
 title: common/terminalizer (English)
-description: "Utility program which records the terminal and generate animated GIFs or share a video."
-content_hash: e2bf2fc0e6313f5f868edc7e5877692e3f9bcb37
-last_modified_at: 2024-01-25
+description: "Record the terminal, generate animated GIFs and a web player, and optionally upload to <https://terminalizer.com>."
+content_hash: dcfbaa92985d4687255702487c629383213c4bff
+last_modified_at: 2024-02-13
 tldri18n_status: 2
 ---
 # terminalizer
 
-Utility program which records the terminal and generate animated GIFs or share a video.
+Record the terminal, generate animated GIFs and a web player, and optionally upload to <https://terminalizer.com>.
+See also: `asciinema`.
 More information: <https://terminalizer.com>.
 
 - Create the global configuration directory:
@@ -17,16 +18,16 @@ More information: <https://terminalizer.com>.
 
 - Record the terminal and create a recording file:
 
-`terminalizer record `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`terminalizer record `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/recording.gif</span>
 
 - Play a recorded file on the terminal:
 
-`terminalizer play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`terminalizer play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/recording.gif</span>
 
 - Render a recording file as an animated GIF image:
 
-`terminalizer render `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`terminalizer render `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/recording.gif</span>
 
-- Upload a video to terminalizer.com:
+- Upload a video to <https://terminalizer.com>:
 
-`terminalizer share `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`terminalizer share `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/recording.gif</span>

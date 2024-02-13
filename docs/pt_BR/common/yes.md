@@ -3,7 +3,7 @@ layout: page
 title: common/yes (português (Brasil))
 description: "Exibe algo repetidamente."
 content_hash: a02e2bede58cef35dbcd348233dea684a62b4978
-last_modified_at: 2023-12-28
+last_modified_at: 2024-02-13
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -23,9 +23,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# yes
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># yes
 
 Exibe algo repetidamente.
 Mais informações: <https://www.gnu.org/software/coreutils/yes>.

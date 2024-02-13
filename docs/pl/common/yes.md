@@ -3,7 +3,7 @@ layout: page
 title: common/yes (polski)
 description: "Wypisuje coś wielokrotnie."
 content_hash: 5a960ecb34f028a746ca223e8e793573d8d6b972
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-13
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -23,9 +23,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# yes
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># yes
 
 Wypisuje coś wielokrotnie.
 Komenda używana często aby potwierdzić pytania zadawane przez komendy instalujące takie jak apt-get.

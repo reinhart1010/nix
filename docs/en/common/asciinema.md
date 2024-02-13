@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/asciinema (English)
-description: "Record and replay terminal sessions, and optionally share them on asciinema.org."
-content_hash: 5f7a70b8e7fd5c28874f16772d6f8a6c9684390c
-last_modified_at: 2024-02-09
+description: "Record and replay terminal sessions, and optionally share them on <https://asciinema.org>."
+content_hash: 95e23595b09ab89ddc0d81546d8b415930ad6c8d
+last_modified_at: 2024-02-13
 related_topics:
   - title: español version
     url: /es/common/asciinema.html
@@ -27,26 +27,27 @@ tldri18n_status: 2
 ---
 # asciinema
 
-Record and replay terminal sessions, and optionally share them on asciinema.org.
-More information: <https://asciinema.org/docs/usage>.
+Record and replay terminal sessions, and optionally share them on <https://asciinema.org>.
+See also: `terminalizer`.
+More information: <https://docs.asciinema.org/manual/cli/usage>.
 
 - Associate the local install of `asciinema` with an asciinema.org account:
 
 `asciinema auth`
 
-- Make a new recording (once finished, user will be prompted to upload it or save it locally):
+- Make a new recording (finish it with `Ctrl+D` or type `exit`, and then choose to upload it or save it locally):
 
 `asciinema rec`
 
 - Make a new recording and save it to a local file:
 
-`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cast</span>
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/recording.cast</span>
 
 - Replay a terminal recording from a local file:
 
-`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cast</span>
+`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/recording.cast</span>
 
-- Replay a terminal recording hosted on asciinema.org:
+- Replay a terminal recording hosted on <https://asciinema.org>:
 
 `asciinema play https://asciinema.org/a/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cast_id</span>
 
@@ -56,8 +57,8 @@ More information: <https://asciinema.org/docs/usage>.
 
 - Print the full output of a locally saved recording:
 
-`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cast</span>
+`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/recording.cast</span>
 
 - Upload a locally saved terminal session to asciinema.org:
 
-`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cast</span>
+`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/recording.cast</span>
