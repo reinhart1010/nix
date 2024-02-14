@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/aws-quicksight (English)
-description: "CLI for AWS QuickSight."
-content_hash: 1e251529cc26b5aba73d2af9f0fdf527ef631113
-last_modified_at: 2023-11-12
+description: "Create, delete, list, search and update AWS QuickSight entities."
+content_hash: 98a844e95f244e6c4222684303b8912584f4f7ee
+last_modified_at: 2024-02-14
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-quicksight.html
@@ -15,8 +15,7 @@ tldri18n_status: 2
 ---
 # aws quicksight
 
-CLI for AWS QuickSight.
-Access QuickSight entities.
+Create, delete, list, search and update AWS QuickSight entities.
 More information: <https://docs.aws.amazon.com/cli/latest/reference/quicksight/>.
 
 - List datasets:
