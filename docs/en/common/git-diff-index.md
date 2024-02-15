@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/git-diff-index (English)
-description: "Compare the working directory with a specific commit or tree object."
-content_hash: 8747f7c9cdca3cee9eddbf24db9097e35c4b10e6
-last_modified_at: 2023-11-12
+description: "Compare the working directory with a commit or tree object."
+content_hash: fd5c02940c47835f1a36eb3ef933090bfeae78bc
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # git diff-index
 
-Compare the working directory with a specific commit or tree object.
+Compare the working directory with a commit or tree object.
 More information: <https://git-scm.com/docs/git-diff-index>.
 
 - Compare the working directory with a specific commit:

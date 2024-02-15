@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/crystal (English)
-description: "Tool for managing Crystal source code."
-content_hash: b12cbb31c1837d01465dd775ef604247132fd136
-last_modified_at: 2023-11-12
+description: "Manage Crystal source code."
+content_hash: 8f8c7bc81ed6fdfef3586b6ffd9e986a28210e82
+last_modified_at: 2024-02-15
 related_topics:
   - title: français version
     url: /fr/common/crystal.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # crystal
 
-Tool for managing Crystal source code.
+Manage Crystal source code.
 More information: <https://crystal-lang.org/reference/using_the_compiler>.
 
 - Run a Crystal file:

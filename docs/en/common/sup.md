@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/sup (English)
-description: "A tool for managing an RSS feed contained in the current directory."
-content_hash: f571cd812a544cb4c44490066daff7c0190de3e2
-last_modified_at: 2023-11-12
+description: "Manage a RSS feed in the current directory."
+content_hash: 37a473367d75e778a9e0936933dd29b94a306f7e
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # sup
 
-A tool for managing an RSS feed contained in the current directory.
+Manage a RSS feed in the current directory.
 See also: `lb`.
 More information: <https://github.com/LukeSmithxyz/lb>.
 

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/sdk (English)
-description: "Tool for managing parallel versions of multiple Software Development Kits."
-content_hash: 730153e9e8990fba675bffe355291a2196b3ba9e
-last_modified_at: 2023-11-12
+description: "Manage parallel versions of multiple Software Development Kits."
+content_hash: f725d62ddca5fae0de7111d0dbc3d8d2af057cee
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # sdk
 
-Tool for managing parallel versions of multiple Software Development Kits.
+Manage parallel versions of multiple Software Development Kits.
 Supports Java, Groovy, Scala, Kotlin, Gradle, Maven, Vert.x and many others.
 More information: <https://sdkman.io/usage>.
 

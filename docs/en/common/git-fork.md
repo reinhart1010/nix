@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/git-fork (English)
-description: "Fork the given GitHub repo. Like `git clone` but forks first."
-content_hash: 172f98df90ce64ace374ffbae930096e21a783dc
-last_modified_at: 2023-11-12
+description: "Fork a GitHub repo. Like `git clone` but forks first."
+content_hash: 90ad7a735c7852e9a6b6d0280eb1f65b0ce902c0
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # git fork
 
-Fork the given GitHub repo. Like `git clone` but forks first.
+Fork a GitHub repo. Like `git clone` but forks first.
 Part of `git-extras`.
 More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-fork>.
 

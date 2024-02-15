@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/bpftool (English)
-description: "Tool for inspection and simple manipulation of eBPF programs and maps."
-content_hash: d57daa97e7ff1b1b30a087ce184b3be1b4c4363f
-last_modified_at: 2023-11-12
+description: "Inspect and manipulate eBPF programs and maps in a simple way."
+content_hash: 5d12beafa407eac7d4ffb8a94ba63697c49cdcec
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # bpftool
 
-Tool for inspection and simple manipulation of eBPF programs and maps.
+Inspect and manipulate eBPF programs and maps in a simple way.
 Some subcommands such as `bpftool prog` have their own usage documentation.
 More information: <https://manned.org/bpftool>.
 

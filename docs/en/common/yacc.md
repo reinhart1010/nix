@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/yacc (English)
-description: "Generate an LALR parser (in C) with a given formal grammar specification file."
-content_hash: 7a2fce8a2de1d4eb216c5b437a66f983b8f3c643
-last_modified_at: 2023-11-12
+description: "Generate an LALR parser (in C) with a formal grammar specification file."
+content_hash: d57facd114bd3ac6eb02d444fbd6b6e136eec6d0
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # yacc
 
-Generate an LALR parser (in C) with a given formal grammar specification file.
+Generate an LALR parser (in C) with a formal grammar specification file.
 See also: `bison`.
 More information: <https://manned.org/man/yacc.1p>.
 

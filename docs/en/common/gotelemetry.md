@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/gotelemetry (English)
-description: "A tool for managing Go telemetry data and settings."
-content_hash: 725385f3d49a739c096333727708358efea49c88
-last_modified_at: 2024-01-30
+description: "Manage Go telemetry data and settings."
+content_hash: b316573eb26e6ecfee8410735dae310154b18b8e
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # gotelemetry
 
-A tool for managing Go telemetry data and settings.
+Manage Go telemetry data and settings.
 More information: <https://telemetry.go.dev/privacy#collection>.
 
 - Enable telemetry uploading:

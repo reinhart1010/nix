@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/wuzz (English)
-description: "Tool to interactively inspect HTTP requests and responses."
-content_hash: 73016df2b4c46e0ae0020c58559dbe2abffbfe67
-last_modified_at: 2024-01-30
+description: "Interactively inspect HTTP requests and responses."
+content_hash: b265bafd026ffcae1d0fcc0de907b60e3a5e2953
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # wuzz
 
-Tool to interactively inspect HTTP requests and responses.
+Interactively inspect HTTP requests and responses.
 More information: <https://github.com/asciimoo/wuzz>.
 
 - Start `wuzz`:

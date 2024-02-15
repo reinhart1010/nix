@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/pueue-start (English)
-description: "Resume operation of specific tasks or groups of tasks."
-content_hash: e05902a6ef945a22ae68db192e3bda36cd0b9320
-last_modified_at: 2023-11-12
+description: "Resume operation of tasks or groups of tasks."
+content_hash: ee945f4b791add93330190dd6a2ff7afb7526037
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # pueue start
 
-Resume operation of specific tasks or groups of tasks.
+Resume operation of tasks or groups of tasks.
 See also: `pueue pause`.
 More information: <https://github.com/Nukesor/pueue>.
 

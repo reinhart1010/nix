@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/debuild (English)
-description: "Tool to build a Debian package from source."
-content_hash: 5751b6454bc841b490734147e4ca47be6b551b9c
-last_modified_at: 2023-11-12
+description: "Build a Debian package from source."
+content_hash: 0fb0938ac0e47cd12cf22bf06159b2fa827f383c
+last_modified_at: 2024-02-15
 related_topics:
   - title: 中文 version
     url: /zh/linux/debuild.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # debuild
 
-Tool to build a Debian package from source.
+Build a Debian package from source.
 More information: <https://manpages.debian.org/latest/devscripts/debuild.1.en.html>.
 
 - Build the package in the current directory:

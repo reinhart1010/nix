@@ -3,7 +3,7 @@ layout: page
 title: linux/cal (català)
 description: "Mostra el calendari, amb el dia actual ressaltat."
 content_hash: 47c1967697c842c6b4571aa43b2ef2da8adda3d5
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-15
 related_topics:
   - title: Deutsch version
     url: /de/linux/cal.html
@@ -14,11 +14,17 @@ related_topics:
   - title: español version
     url: /es/linux/cal.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/cal.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/cal.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/cal.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cal.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cal.html
@@ -29,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/cal.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cal
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cal
 
 Mostra el calendari, amb el dia actual ressaltat.
 Més informació: <https://manned.org/cal>.

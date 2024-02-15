@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/parallel-lint (English)
-description: "A tool to check the syntax of PHP files in parallel."
-content_hash: f0266072231f62cabaabc284b04467bd735c8b35
-last_modified_at: 2023-11-12
+description: "Check the syntax of PHP files in parallel."
+content_hash: 9ecc1e82b6dd1a3ce42006bf4e73909690734633
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # parallel-lint
 
-A tool to check the syntax of PHP files in parallel.
+Check the syntax of PHP files in parallel.
 More information: <https://github.com/JakubOnderka/PHP-Parallel-Lint>.
 
 - Lint a specific directory:

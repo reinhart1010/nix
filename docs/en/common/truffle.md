@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/truffle (English)
-description: "A tool for developing smart contracts for running services on the Ethereum blockchain."
-content_hash: 96bcb65d7892a08320a2bbc4cae817b6aaee1e52
-last_modified_at: 2023-11-12
+description: "Develop smart contracts for running services on the Ethereum blockchain."
+content_hash: dc965afa177af5868140d3eeb2c8090da06d7b7d
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # truffle
 
-A tool for developing smart contracts for running services on the Ethereum blockchain.
+Develop smart contracts for running services on the Ethereum blockchain.
 More information: <https://www.trufflesuite.com/docs/truffle/reference/truffle-commands>.
 
 - Download a pre-built Truffle project (Truffle Box):

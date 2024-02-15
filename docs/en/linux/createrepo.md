@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/createrepo (English)
-description: "Initializes an RPM repository in the given directory, including all XML and SQLite files."
-content_hash: 1c180c11b66d189826dbfe236cb8aa71fa8d72fe
-last_modified_at: 2023-11-12
+description: "Initializes an RPM repository in a directory, including all XML and SQLite files."
+content_hash: b3025903b5fb283a6db0b2b5d0c34c1384827ddb
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # createrepo
 
-Initializes an RPM repository in the given directory, including all XML and SQLite files.
+Initializes an RPM repository in a directory, including all XML and SQLite files.
 More information: <https://manned.org/createrepo>.
 
 - Initialize a basic repository in a directory:

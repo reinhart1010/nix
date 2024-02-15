@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/stack (English)
-description: "Tool for managing Haskell projects."
-content_hash: 55e471a72c5b41a87795265bf7b5c3ff55b18c4a
-last_modified_at: 2023-11-12
+description: "Manage Haskell projects."
+content_hash: 5ff6bf126c5d42cc16aeae1abf9dd162a0a9656a
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # stack
 
-Tool for managing Haskell projects.
+Manage Haskell projects.
 More information: <https://github.com/commercialhaskell/stack>.
 
 - Create a new package:

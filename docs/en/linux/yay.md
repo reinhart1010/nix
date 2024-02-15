@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/yay (English)
-description: "Yet Another Yogurt: A utility for Arch Linux to build and install packages from the Arch User Repository."
-content_hash: 3c9f00d078d14245a43fdeba8905bb30e00797ef
-last_modified_at: 2023-11-12
+description: "Yet Another Yogurt: build and install packages from the Arch User Repository."
+content_hash: cfa6513e503af854e2b820853cbf95c6213b6fb9
+last_modified_at: 2024-02-15
 related_topics:
   - title: Deutsch version
     url: /de/linux/yay.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # yay
 
-Yet Another Yogurt: A utility for Arch Linux to build and install packages from the Arch User Repository.
+Yet Another Yogurt: build and install packages from the Arch User Repository.
 Also see `pacman`.
 More information: <https://github.com/Jguer/yay>.
 

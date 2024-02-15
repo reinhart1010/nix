@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/git-obliterate (English)
-description: "Delete specific files and erase their history from a Git repository."
-content_hash: eb5f6a7e9b58d54788ef92a0be504ce63065003c
-last_modified_at: 2023-11-12
+description: "Delete files and erase their history from a Git repository."
+content_hash: 8339ccff7ca5d61d617f2653ea9d0b29bc48d75e
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # git obliterate
 
-Delete specific files and erase their history from a Git repository.
+Delete files and erase their history from a Git repository.
 Part of `git-extras`.
 More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-obliterate>.
 

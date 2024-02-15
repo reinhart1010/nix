@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/subfinder (English)
-description: "A subdomain discovery tool that discovers valid subdomains for websites."
-content_hash: d40da4f0a9bb687d129aae0c17ff44c267e315ff
-last_modified_at: 2024-01-31
+description: "Discover valid subdomains for websites."
+content_hash: 7cd2841e88b6e2f9ff770efc65b5e7306155c392
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # subfinder
 
-A subdomain discovery tool that discovers valid subdomains for websites.
+Discover valid subdomains for websites.
 Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
 More information: <https://github.com/subfinder/subfinder>.
 

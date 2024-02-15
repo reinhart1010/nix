@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gcalcli (English)
-description: "Command-line tool to interact with Google Calendar."
-content_hash: c64ea1a4aa4047167454efce235a1b15dd949575
-last_modified_at: 2023-11-12
+description: "Interact with Google Calendar."
+content_hash: 3ae1c45f2484db84999824bddacc17de1f5a9470
+last_modified_at: 2024-02-15
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gcalcli.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # gcalcli
 
-Command-line tool to interact with Google Calendar.
+Interact with Google Calendar.
 Requests Google API authorization upon first launch.
 More information: <https://github.com/insanum/gcalcli>.
 

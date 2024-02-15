@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/nextflow (English)
-description: "Tool for running computational pipelines. Mostly used for bioinformatics workflows."
-content_hash: b3ae5824070d002bd668936c1a82b02d9b18b41a
-last_modified_at: 2023-11-12
+description: "Run computational pipelines. Mostly used for bioinformatics workflows."
+content_hash: 12451f79acddf39da5335adba6b7d6246e6bd388
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # nextflow
 
-Tool for running computational pipelines. Mostly used for bioinformatics workflows.
+Run computational pipelines. Mostly used for bioinformatics workflows.
 More information: <https://www.nextflow.io>.
 
 - Run a pipeline, use cached results from previous runs:

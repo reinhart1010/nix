@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/nload (English)
-description: "A tool for visualizing network usage in the terminal."
-content_hash: 422d2719e95fddc32affb4a39b580ef2aa11ee9c
-last_modified_at: 2023-11-12
+description: "Visualize network usage in the terminal."
+content_hash: 1917f6a275e33de6037d29bf5b2fe9a4156a5646
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # nload
 
-A tool for visualizing network usage in the terminal.
+Visualize network usage in the terminal.
 More information: <https://github.com/rolandriegel/nload>.
 
 - View all network traffic (use the arrow keys to switch interfaces):

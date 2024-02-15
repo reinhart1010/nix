@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/aws-codeartifact (English)
-description: "CLI for AWS CodeArtifact."
-content_hash: 377f688f3d4e6bff62645f4e7d950f396f43bca6
-last_modified_at: 2023-12-27
+description: "Manage CodeArtifact repositories, domains, packages, package versions and assets."
+content_hash: 221f2a1a21afc32c85d6c6c7711c19013c599e8c
+last_modified_at: 2024-02-15
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-codeartifact.html
@@ -12,26 +12,26 @@ tldri18n_status: 2
 ---
 # aws codeartifact
 
-CLI for AWS CodeArtifact.
-CodeArtifact allows you to store artifacts using popular package managers and build tools like Maven, Gradle, npm, Yarn, Twine, pip, NuGet, and SwiftPM.
+Manage CodeArtifact repositories, domains, packages, package versions and assets.
+CodeArtifact is an artifact repository compatible with popular package managers and build tools like Maven, Gradle, npm, Yarn, Twine, pip, NuGet, and SwiftPM.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/codeartifact/index.html>.
 
 - List available domains for your AWS account:
 
 `aws codeartifact list-domains`
 
-- Generate credentials for a specific package manager (e.g.: npm, pip):
+- Generate credentials for a specific package manager:
 
-`aws codeartifact login --tool `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_manager</span>` --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">your_domain</span>` --repository `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span>
+`aws codeartifact login --tool `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm|pip|twine</span>` --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">your_domain</span>` --repository `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span>
 
 - Get the endpoint URL of a CodeArtifact repository:
 
 `aws codeartifact get-repository-endpoint --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">your_domain</span>` --repository `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span>` --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm|pypi|maven|nuget|generic</span>
 
-- Show list of all available CodeArtifact commands:
+- Display help:
 
 `aws codeartifact help`
 
-- Display help for specific EC2 subcommand:
+- Display help for a specific subcommand:
 
-`aws ec2 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` help`
+`aws codeartifact `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` help`

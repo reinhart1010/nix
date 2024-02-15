@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/kpackagetool5 (English)
-description: "KPackage Manager: Install, list, remove Plasma packages."
-content_hash: 4d68fd4161d6e1eb4db33d31650739ff3f41aa30
-last_modified_at: 2023-11-12
+description: "KPackage Manager: install, list, remove Plasma packages."
+content_hash: 749774f3da45ff8d4adf992741286906bebe00b3
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # kpackagetool5
 
-KPackage Manager: Install, list, remove Plasma packages.
+KPackage Manager: install, list, remove Plasma packages.
 More information: <https://techbase.kde.org/Development/Tutorials/Plasma5/QML2/GettingStarted#Kpackagetool5>.
 
 - List all known package types that can be installed:

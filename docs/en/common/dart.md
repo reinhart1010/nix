@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/dart (English)
-description: "The tool for managing Dart projects."
-content_hash: d4f64d217f26238d27399c0bd1de5ec808a7f1ca
-last_modified_at: 2023-11-12
+description: "Manage Dart projects."
+content_hash: a83e09d5d391549d9ecddfc37c461d1a10c947dd
+last_modified_at: 2024-02-15
 related_topics:
   - title: Deutsch version
     url: /de/common/dart.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # dart
 
-The tool for managing Dart projects.
+Manage Dart projects.
 More information: <https://dart.dev/tools/dart-tool>.
 
 - Initialize a new Dart project in a directory of the same name:

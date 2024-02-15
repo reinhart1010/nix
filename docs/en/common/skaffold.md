@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/skaffold (English)
-description: "A tool that facilitates continuous development for Kubernetes applications."
-content_hash: befe2857fdcc9e83084e898362eab5ebfe2b1795
-last_modified_at: 2023-11-12
+description: "Facilitate continuous development for Kubernetes applications."
+content_hash: d2631d0e617fc9ffb3f68f96f4ccf14907e889b0
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # skaffold
 
-A tool that facilitates continuous development for Kubernetes applications.
+Facilitate continuous development for Kubernetes applications.
 More information: <https://skaffold.dev>.
 
 - Build the artifacts:

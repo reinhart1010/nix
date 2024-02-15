@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/bundletool-validate (English)
-description: "Command-line tool to manipulate Android Application Bundles."
-content_hash: 2bbc1136b2d0e6115169472b0d933ae8e6a9f2ec
-last_modified_at: 2023-11-12
+description: "Manipulate Android Application Bundles."
+content_hash: 6e88db589815b1d845d111b2977d00d0850980b9
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # bundletool validate
 
-Command-line tool to manipulate Android Application Bundles.
+Manipulate Android Application Bundles.
 More information: <https://developer.android.com/studio/command-line/bundletool>.
 
 - Verify a bundle and display detailed information about it:

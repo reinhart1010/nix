@@ -1,15 +1,14 @@
 ---
 layout: page
 title: common/sops (English)
-description: "SOPS: Secrets OPerationS."
-content_hash: dbe25572744918f65a5cb1fdd0c42f80ee910e8d
-last_modified_at: 2023-11-12
+description: "SOPS (Secrets OPerationS): manage secrets."
+content_hash: 5c4a7ac8bb5ac23c33127d69dcdc240a479f63cf
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # sops
 
-SOPS: Secrets OPerationS.
-Tool for managing secrets.
+SOPS (Secrets OPerationS): manage secrets.
 More information: <https://github.com/mozilla/sops>.
 
 - Encrypt a file:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/go-tool (English)
-description: "Run a specific Go tool or command."
-content_hash: 5de3d0911a52804851aa119f2d213ba85106c5d2
-last_modified_at: 2024-01-31
+description: "Run a Go tool or command."
+content_hash: 780ee890ff098b869f9b876fa700865012da45ad
+last_modified_at: 2024-02-15
 related_topics:
   - title: Türkçe version
     url: /tr/common/go-tool.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # go tool
 
-Run a specific Go tool or command.
+Run a Go tool or command.
 Execute a Go command as a stand-alone binary, typically for debugging.
 More information: <https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool>.
 

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/mkcert (English)
-description: "Tool for making locally-trusted development certificates."
-content_hash: 9e9b94cace7f7a7e384ddde48088029175bf92cd
-last_modified_at: 2023-11-12
+description: "Make locally-trusted development certificates."
+content_hash: 27b42d3ca6da54cf6d85d09c19d15475224c259a
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # mkcert
 
-Tool for making locally-trusted development certificates.
+Make locally-trusted development certificates.
 More information: <https://github.com/FiloSottile/mkcert>.
 
 - Install the local CA in the system trust store:

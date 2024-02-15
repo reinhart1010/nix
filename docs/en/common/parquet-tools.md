@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/parquet-tools (English)
-description: "A tool to show, inspect and manipulate Parquet file."
-content_hash: d29cffffa7225b73e9f44d03d9edf825d57e4b88
-last_modified_at: 2023-11-20
+description: "Show, inspect and manipulate Parquet file."
+content_hash: 6a4030838f8f0fe98f4de8255997567b797bcfa7
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # parquet-tools
 
-A tool to show, inspect and manipulate Parquet file.
+Show, inspect and manipulate Parquet file.
 More information: <https://github.com/apache/parquet-mr>.
 
 - Display the content of a Parquet file:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/redis-benchmark (English)
-description: "A tool to benchmark a Redis server."
-content_hash: b6b07a48fdf5b56f443d841cfd890c7f4233377a
-last_modified_at: 2023-11-12
+description: "Benchmark a Redis server."
+content_hash: dc37b1a66e964a6eca085a71f1dfa0f20b346cc6
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # redis-benchmark
 
-A tool to benchmark a Redis server.
+Benchmark a Redis server.
 More information: <https://redis.io/docs/reference/optimization/benchmarks/>.
 
 - Run full benchmark:

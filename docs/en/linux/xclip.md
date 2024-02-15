@@ -2,11 +2,14 @@
 layout: page
 title: linux/xclip (English)
 description: "X11 clipboard manipulation tool, similar to `xsel`."
-content_hash: c31ef64924868855b52c8bfecc6d8ec01f61ec07
-last_modified_at: 2023-11-12
+content_hash: 196837b80067bf9093ddfff88a4a43fcf74fc3a6
+last_modified_at: 2024-02-15
 related_topics:
   - title: العربية version
     url: /ar/linux/xclip.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/xclip.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/xclip.html
@@ -17,6 +20,7 @@ tldri18n_status: 2
 
 X11 clipboard manipulation tool, similar to `xsel`.
 Handles the X primary and secondary selections, plus the system clipboard (`Ctrl + C`/`Ctrl + V`).
+See also: `wl-copy`.
 More information: <https://manned.org/xclip>.
 
 - Copy the output from a command to the X11 primary selection area (clipboard):

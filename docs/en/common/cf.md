@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/cf (English)
-description: "Command-line tool to manage apps and services on Cloud Foundry."
-content_hash: 95a0087798855f3babcdd06755bebcc94ef04182
-last_modified_at: 2023-11-12
+description: "Manage apps and services on Cloud Foundry."
+content_hash: a05de7095dd61ab6ca72294db1673d84ed1ab88c
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # cf
 
-Command-line tool to manage apps and services on Cloud Foundry.
+Manage apps and services on Cloud Foundry.
 More information: <https://docs.cloudfoundry.org>.
 
 - Log in to the Cloud Foundry API:

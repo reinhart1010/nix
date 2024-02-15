@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/trust (English)
-description: "Tool for operating on the trust policy store."
-content_hash: bc708f609283ee724962835b06398371e603d381
-last_modified_at: 2023-11-12
+description: "Operate on the trust policy store."
+content_hash: e4b2cf8e668d13c5b2115221b85a934b23038a82
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # trust
 
-Tool for operating on the trust policy store.
+Operate on the trust policy store.
 More information: <https://manned.org/trust>.
 
 - List trust policy store items:

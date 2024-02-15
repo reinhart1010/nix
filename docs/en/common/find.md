@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/find (English)
-description: "Find files or directories under the given directory tree, recursively."
-content_hash: fcb237cf19d21dc997e3ab0a1c34f0588ea3d3f9
-last_modified_at: 2024-01-25
+description: "Find files or directories under a directory tree, recursively."
+content_hash: 25346805b42425dedc9615b3a4cca52d0bea3d93
+last_modified_at: 2024-02-15
 related_topics:
   - title: français version
     url: /fr/common/find.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # find
 
-Find files or directories under the given directory tree, recursively.
+Find files or directories under a directory tree, recursively.
 More information: <https://manned.org/find>.
 
 - Find files by extension:

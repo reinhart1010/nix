@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ember (English)
-description: "The Ember.js command-line utility."
-content_hash: 9e744adfdd99d782d39a8e81c1012c5b46fa83d4
-last_modified_at: 2023-11-12
+description: "Ember CLI: create and manage Ember.js applications."
+content_hash: 3dc4b90256ff7aafb7e1434c3d91c16017ecd904
+last_modified_at: 2024-02-15
 related_topics:
   - title: italiano version
     url: /it/common/ember.html
@@ -12,8 +12,7 @@ tldri18n_status: 2
 ---
 # ember
 
-The Ember.js command-line utility.
-Used for creating and maintaining Ember.js applications.
+Ember CLI: create and manage Ember.js applications.
 More information: <https://cli.emberjs.com>.
 
 - Create a new Ember application:

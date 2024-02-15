@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ant (English)
-description: "Apache Ant."
-content_hash: a0d53afc0f986c53db4f300d1d7c3fbb9c7da70a
-last_modified_at: 2024-02-09
+description: "Apache Ant: build and manage Java-based projects."
+content_hash: 1cf191a745f910e6258e1d6c96a8840a368348bd
+last_modified_at: 2024-02-15
 related_topics:
   - title: Deutsch version
     url: /de/common/ant.html
@@ -21,8 +21,7 @@ tldri18n_status: 2
 ---
 # ant
 
-Apache Ant.
-Tool for building and managing Java-based projects.
+Apache Ant: build and manage Java-based projects.
 More information: <https://ant.apache.org>.
 
 - Build a project with default build file `build.xml`:

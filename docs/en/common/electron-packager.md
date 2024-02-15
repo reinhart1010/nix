@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/electron-packager (English)
-description: "A tool used to build Electron app executables for Windows, Linux and macOS."
-content_hash: e0981087fc8f689558b9473d817a728867bc1c4a
-last_modified_at: 2023-11-12
+description: "Build Electron app executables for Windows, Linux and macOS."
+content_hash: 68cbd838e2e915e2a0cf358a9a9b82cd4dca5202
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # electron-packager
 
-A tool used to build Electron app executables for Windows, Linux and macOS.
+Build Electron app executables for Windows, Linux and macOS.
 Requires a valid package.json in the application directory.
 More information: <https://github.com/electron/electron-packager>.
 

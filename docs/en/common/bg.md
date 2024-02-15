@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/bg (English)
-description: "Resumes jobs that have been suspended (e.g. using `Ctrl + Z`), and keeps them running in the background."
-content_hash: d34a2bc40c4c3e0a29facaa515555a4f44d9face
-last_modified_at: 2023-11-12
+description: "Resume suspended jobs (e.g. using `Ctrl + Z`), and keeps them running in the background."
+content_hash: a894640427def31145459a2474d69f80ead71965
+last_modified_at: 2024-02-15
 related_topics:
   - title: français version
     url: /fr/common/bg.html
@@ -39,7 +39,7 @@ tldri18n_status: 2
 ---
 # bg
 
-Resumes jobs that have been suspended (e.g. using `Ctrl + Z`), and keeps them running in the background.
+Resume suspended jobs (e.g. using `Ctrl + Z`), and keeps them running in the background.
 More information: <https://manned.org/bg>.
 
 - Resume the most recently suspended job and run it in the background:

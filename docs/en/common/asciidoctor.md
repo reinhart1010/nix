@@ -1,15 +1,18 @@
 ---
 layout: page
 title: common/asciidoctor (English)
-description: "A processor that converts AsciiDoc files to a publishable format."
-content_hash: 3a65f20c750dbb24f5ef8ada3067f50cd064ed80
-last_modified_at: 2023-11-12
+description: "Convert AsciiDoc files to a publishable format."
+content_hash: 5108739fcdbe9a91e58e2d32aa4971467460746b
+last_modified_at: 2024-02-15
 related_topics:
   - title: español version
     url: /es/common/asciidoctor.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/asciidoctor.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/asciidoctor.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/asciidoctor.html
@@ -21,7 +24,7 @@ tldri18n_status: 2
 ---
 # asciidoctor
 
-A processor that converts AsciiDoc files to a publishable format.
+Convert AsciiDoc files to a publishable format.
 More information: <https://docs.asciidoctor.org>.
 
 - Convert a specific `.adoc` file to HTML (the default output format):

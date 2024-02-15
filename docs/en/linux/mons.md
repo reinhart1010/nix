@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/mons (English)
-description: "A tool to quickly manage two displays."
-content_hash: dfd2ce6a9959bbe6622ba0bdad35429b987fcd66
-last_modified_at: 2023-11-12
+description: "Quickly manage two displays."
+content_hash: d8c308615634526494a88755ca10b48379ba69aa
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # mons
 
-A tool to quickly manage two displays.
+Quickly manage two displays.
 More information: <https://github.com/Ventto/mons>.
 
 - Enable only the primary monitor:

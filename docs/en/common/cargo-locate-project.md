@@ -1,25 +1,29 @@
 ---
 layout: page
 title: common/cargo-locate-project (English)
-description: "Print the full path to the `Cargo.toml` manifest of the current project."
-content_hash: 907f7941315954d40ad1029f5be56a0f88f77e19
-last_modified_at: 2023-11-12
+description: "Print the full path to the `Cargo.toml` manifest of a project."
+content_hash: 2095d45cfff64eac42ec5a4adfd964d4fee8eebf
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # cargo locate-project
 
-Print the full path to the `Cargo.toml` manifest of the current project.
+Print the full path to the `Cargo.toml` manifest of a project.
 If the project is part of a workspace, the manifest of the project is shown, rather than that of the workspace.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-locate-project.html>.
 
-- Print the JSON object to `stdout` with full path to the `Cargo.toml` manifest:
+- Display the JSON object with full path to the `Cargo.toml` manifest:
 
 `cargo locate-project`
 
-- Print the project path in the specified format:
+- Display the project path in the specified format:
 
 `cargo locate-project --message-format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plain|json</span>
 
-- Print the `Cargo.toml` manifest located at the root of the workspace as opposed to the current workspace member:
+- Display the `Cargo.toml` manifest located at the root of the workspace as opposed to the current workspace member:
 
 `cargo locate-project --workspace`
+
+- Display the `Cargo.toml` manifest of a specific directory:
+
+`cargo locate-project --manifest-path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Cargo.toml</span>

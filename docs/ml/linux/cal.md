@@ -3,7 +3,7 @@ layout: page
 title: linux/cal (മലയാളം)
 description: "ഇന്നത്തെ ദിവസം അടയാളപ്പെടുത്തിയുള്ള കലണ്ടർ വിവരം കാണിക്കുക ."
 content_hash: 1c145347b9e19fcb21452d96dd074f1d5316fa77
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-15
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -17,8 +17,14 @@ related_topics:
   - title: español version
     url: /es/linux/cal.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/cal.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/cal.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cal.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cal.html
@@ -29,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/cal.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cal
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cal
 
 ഇന്നത്തെ ദിവസം അടയാളപ്പെടുത്തിയുള്ള കലണ്ടർ വിവരം കാണിക്കുക .
 കൂടുതൽ വിവരങ്ങൾ: <https://manned.org/cal>.

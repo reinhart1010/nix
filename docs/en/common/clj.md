@@ -1,10 +1,13 @@
 ---
 layout: page
 title: common/clj (English)
-description: "Clojure tool to start a REPL or invoke a specific function with data."
-content_hash: 111ff95f4ad6611b96d20401040ec8bcccd0056e
-last_modified_at: 2023-11-12
+description: "Clojure tool to start a REPL or invoke a function with data."
+content_hash: ab67b26823b69002825ae9d5e949071ac18f1c75
+last_modified_at: 2024-02-15
 related_topics:
+  - title: Nederlands version
+    url: /nl/common/clj.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/clj.html
     icon: bi bi-globe
@@ -12,7 +15,7 @@ tldri18n_status: 2
 ---
 # clj
 
-Clojure tool to start a REPL or invoke a specific function with data.
+Clojure tool to start a REPL or invoke a function with data.
 All options can be defined in a `deps.edn` file.
 More information: <https://clojure.org/guides/deps_and_cli>.
 

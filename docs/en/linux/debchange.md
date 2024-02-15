@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/debchange (English)
-description: "Tool for maintenance of the debian/changelog file in a Debian source package."
-content_hash: f4fece26ddae31309509141c25f2111d6dff9d2e
-last_modified_at: 2023-11-12
+description: "Mantain the debian/changelog file of a Debian source package."
+content_hash: 8b275ccf2a9ff4c9f8e8bbf3005eefb27f62e402
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # debchange
 
-Tool for maintenance of the debian/changelog file in a Debian source package.
+Mantain the debian/changelog file of a Debian source package.
 More information: <https://manpages.debian.org/latest/devscripts/debchange.1.en.html>.
 
 - Add a new version for a non-maintainer upload to the changelog:

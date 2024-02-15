@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/pass (English)
-description: "Tool for storing and reading passwords or other sensitive data."
-content_hash: 6708e0e83f154b0e4ed1f00f65fc6343ebcb8f54
-last_modified_at: 2023-11-12
+description: "Store and read passwords or other sensitive data."
+content_hash: 1e50b2465ccb1670e5fb569073d6f45727bc5ed6
+last_modified_at: 2024-02-15
 related_topics:
   - title: Deutsch version
     url: /de/common/pass.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # pass
 
-Tool for storing and reading passwords or other sensitive data.
+Store and read passwords or other sensitive data.
 All data is GPG-encrypted, and managed with a Git repository.
 More information: <https://www.passwordstore.org>.
 

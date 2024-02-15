@@ -1,15 +1,18 @@
 ---
 layout: page
 title: common/alex (English)
-description: "A tool that catches insensitive, inconsiderate writing."
-content_hash: 72ed48c30570c481b42b4a9737520089a05d7421
-last_modified_at: 2023-12-03
+description: "Catch insensitive, inconsiderate writing."
+content_hash: e5744177836fccbcb9d6bed196e88ca792568be0
+last_modified_at: 2024-02-15
 related_topics:
   - title: español version
     url: /es/common/alex.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/alex.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/alex.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/alex.html
@@ -27,7 +30,7 @@ tldri18n_status: 2
 ---
 # alex
 
-A tool that catches insensitive, inconsiderate writing.
+Catch insensitive, inconsiderate writing.
 It helps you find gender favouring, polarising, race related, religion inconsiderate, or other unequal phrasing in text.
 More information: <https://github.com/get-alex/alex>.
 

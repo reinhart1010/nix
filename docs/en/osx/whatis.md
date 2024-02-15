@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/whatis (English)
-description: "Tool that searches a set of database files containing short descriptions of system commands for keywords."
-content_hash: 76311948f9d5b79cd123de236e22b402ce2dc702
-last_modified_at: 2023-11-12
+description: "Search a set of database files for short descriptions of system commands for keywords."
+content_hash: 9d8b84841359d40a01486572d12c48da02dc5541
+last_modified_at: 2024-02-15
 related_topics:
   - title: español version
     url: /es/osx/whatis.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # whatis
 
-Tool that searches a set of database files containing short descriptions of system commands for keywords.
+Search a set of database files for short descriptions of system commands for keywords.
 More information: <http://www.linfo.org/whatis.html>.
 
 - Search for information about keyword:

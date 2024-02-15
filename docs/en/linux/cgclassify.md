@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/cgclassify (English)
-description: "Move running task(s) to given `cgroups`."
-content_hash: 7c20f5f0b9d174d97719b62b3efc618596dafca3
-last_modified_at: 2023-11-26
+description: "Move running tasks to `cgroups`."
+content_hash: 52d0225f1ecdf3932d8521c15e40fabba78c76a3
+last_modified_at: 2024-02-15
 related_topics:
   - title: Nederlands version
     url: /nl/linux/cgclassify.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # cgclassify
 
-Move running task(s) to given `cgroups`.
+Move running tasks to `cgroups`.
 More information: <https://manned.org/cgclassify>.
 
 - Move the process with a specific PID to the control group student in the CPU hierarchy:

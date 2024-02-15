@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/minikube (English)
-description: "Tool to run Kubernetes locally."
-content_hash: 754b22126c053d528742f832047997c40dc66d2a
-last_modified_at: 2024-02-08
+description: "Run Kubernetes locally."
+content_hash: 7b3d96d89854a9c2f5da5d6dc48d023c5e0dcafe
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # minikube
 
-Tool to run Kubernetes locally.
+Run Kubernetes locally.
 More information: <https://minikube.sigs.k8s.io/docs/>.
 
 - Start the cluster:

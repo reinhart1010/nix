@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/mdfind (English)
-description: "List files matching a given query."
-content_hash: bdacdf440b4b44cf72a7454414aa37ead1fbd80e
-last_modified_at: 2024-01-31
+description: "List files matching a query."
+content_hash: 64a46a0c4103b7318d24dc5f82b8eb27089aed4a
+last_modified_at: 2024-02-15
 related_topics:
   - title: español version
     url: /es/osx/mdfind.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # mdfind
 
-List files matching a given query.
+List files matching a query.
 More information: <https://keith.github.io/xcode-man-pages/mdfind.1.html>.
 
 - Find a file by its name:

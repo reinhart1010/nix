@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/cloudflared (English)
-description: "Command-line tool to create a persistent connection to the Cloudflare network."
-content_hash: de277bd20189084c767c09b5fbf4ec0ab61b3f7c
-last_modified_at: 2024-01-25
+description: "Create a persistent connection to the Cloudflare network."
+content_hash: 4092ed7ead280c51f5a23288fccc5f8d7cdac6a1
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # cloudflared
 
-Command-line tool to create a persistent connection to the Cloudflare network.
+Create a persistent connection to the Cloudflare network.
 More information: <https://developers.cloudflare.com/argo-tunnel/>.
 
 - Authenticate and associate the connection to a domain in the Cloudflare account:

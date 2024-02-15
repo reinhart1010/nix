@@ -1,10 +1,13 @@
 ---
 layout: page
 title: common/dive (English)
-description: "A tool for exploring a Docker image, layer contents, and discovering ways to shrink it."
-content_hash: da89b268a57d377de291d0188708cc8acac582e4
-last_modified_at: 2023-11-12
+description: "Explore a Docker image, layer contents, and discover ways to shrink it."
+content_hash: 142816f2968740a2209110b75c7b29cd4588641b
+last_modified_at: 2024-02-15
 related_topics:
+  - title: فارسی version
+    url: /fa/common/dive.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/dive.html
     icon: bi bi-globe
@@ -15,7 +18,7 @@ tldri18n_status: 2
 ---
 # dive
 
-A tool for exploring a Docker image, layer contents, and discovering ways to shrink it.
+Explore a Docker image, layer contents, and discover ways to shrink it.
 More information: <https://github.com/wagoodman/dive>.
 
 - Analyze a Docker image:

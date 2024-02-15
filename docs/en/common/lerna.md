@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/lerna (English)
-description: "A tool for managing JavaScript projects with multiple packages."
-content_hash: 98751c6914c8a341e33abde5c6b4a73f9a3790a5
-last_modified_at: 2023-11-12
+description: "Manage JavaScript projects with multiple packages."
+content_hash: d5ff8e5ab5640501753ac8d4c20b1377d537b91a
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # lerna
 
-A tool for managing JavaScript projects with multiple packages.
+Manage JavaScript projects with multiple packages.
 More information: <https://lerna.js.org>.
 
 - Initialize project files (`lerna.json`, `package.json`, `.git`, etc.):

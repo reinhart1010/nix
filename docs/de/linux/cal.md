@@ -3,7 +3,7 @@ layout: page
 title: linux/cal (Deutsch)
 description: "Zeigt einen Kalender an, in dem der aktuelle Tag markiert ist."
 content_hash: f609571b0f782bfc3298a7cdbe1275f3ae0a80e7
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-15
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -14,11 +14,17 @@ related_topics:
   - title: español version
     url: /es/linux/cal.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/cal.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/cal.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/cal.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cal.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cal.html
@@ -29,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/cal.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cal
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cal
 
 Zeigt einen Kalender an, in dem der aktuelle Tag markiert ist.
 Weitere Informationen: <https://manned.org/cal>.

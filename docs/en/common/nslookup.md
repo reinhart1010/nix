@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/nslookup (English)
-description: "Query name server(s) for various domain records."
-content_hash: 46add078390a3bf29b523dc9c9bd10cb7a74c1e5
-last_modified_at: 2023-12-27
+description: "Query name servers for various domain records."
+content_hash: b9e008a3f6a61e580d44c106627c34be0b6d05a9
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # nslookup
 
-Query name server(s) for various domain records.
+Query name servers for various domain records.
 More information: <https://manned.org/nslookup>.
 
 - Query your system's default name server for an IP address (A record) of the domain:

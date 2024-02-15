@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/bq (English)
-description: "A Python-based tool for BigQuery."
-content_hash: ed27f398a96156a6aa59162f490780ee53b75ab6
-last_modified_at: 2024-01-22
+description: "A Python-based tool for BigQuery, Google Cloud's fully managed and completely serverless enterprise data warehouse."
+content_hash: 0a28f62de06f38cc3edcb0d4b1c1e272537672ea
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # bq
 
-A Python-based tool for BigQuery.
+A Python-based tool for BigQuery, Google Cloud's fully managed and completely serverless enterprise data warehouse.
 More information: <https://cloud.google.com/bigquery/docs/reference/bq-cli-reference>.
 
 - Run query against a BigQuery table using standard SQL, add `--dry_run` flag to estimate the number of bytes read by the query:

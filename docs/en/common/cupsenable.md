@@ -2,8 +2,8 @@
 layout: page
 title: common/cupsenable (English)
 description: "Start printers and classes."
-content_hash: 4b0b3d3dc9bb3b786cbe76f768213079eea9b626
-last_modified_at: 2023-12-30
+content_hash: e3011e88ec78e1554a6f700633375c7fd4f72264
+last_modified_at: 2024-02-15
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cupsenable.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # cupsenable
 
 Start printers and classes.
-NOTE: destination is referred as a printer or a class of printers.
+Note: destination is referred as a printer or a class of printers.
 See also: `cupsdisable`, `cupsaccept`, `cupsreject`, `lpstat`.
 More information: <https://www.cups.org/doc/man-cupsenable.html>.
 

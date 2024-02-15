@@ -3,7 +3,7 @@ layout: page
 title: linux/cal (中文)
 description: "打印日历信息，高亮显示当前日期。"
 content_hash: 8519554d0a49a28ffe1f6bbb2c2a439b19ceeefc
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-15
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -17,11 +17,17 @@ related_topics:
   - title: español version
     url: /es/linux/cal.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/cal.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/cal.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/cal.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cal.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cal.html
@@ -29,9 +35,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/cal.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cal
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cal
 
 打印日历信息，高亮显示当前日期。
 更多信息：<https://manned.org/cal>.

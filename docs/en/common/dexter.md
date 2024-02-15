@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/dexter (English)
-description: "Tool for authenticating the kubectl users with OpenId Connect."
-content_hash: aec0ba79e7d0e41bd3ef28d633e7ac8cbd642467
-last_modified_at: 2024-01-25
+description: "Authenticate the `kubectl` users with OpenId Connect."
+content_hash: 2deab6a5be9ccb7c42d0756d2556c0d435b92fc6
+last_modified_at: 2024-02-15
 related_topics:
   - title: italiano version
     url: /it/common/dexter.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # dexter
 
-Tool for authenticating the kubectl users with OpenId Connect.
+Authenticate the `kubectl` users with OpenId Connect.
 More information: <https://github.com/gini/dexter>.
 
 - Create and authenticate a user with Google OIDC:

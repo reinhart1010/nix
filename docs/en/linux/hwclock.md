@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/hwclock (English)
-description: "Used for reading or changing the hardware clock. Usually requires root."
-content_hash: 17982af4c8ac48ad503cdbc64b206e43f7ecd2c2
-last_modified_at: 2023-11-12
+description: "Read or change the hardware clock. Usually requires root."
+content_hash: 3aa5bb027e629f768dddd8cb58c5a5e5cc931a95
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # hwclock
 
-Used for reading or changing the hardware clock. Usually requires root.
+Read or change the hardware clock. Usually requires root.
 More information: <https://manned.org/hwclock>.
 
 - Display the current time as reported by the hardware clock:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/reflex (English)
-description: "Tool to watch a directory and rerun a command when certain files change."
-content_hash: 00d25f74b9a8a6bc3570a524051aa450990d2af3
-last_modified_at: 2023-11-12
+description: "Watch a directory and rerun a command when certain files change."
+content_hash: 3ad8a11d55531600cb8b7777730f4e4995420187
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # reflex
 
-Tool to watch a directory and rerun a command when certain files change.
+Watch a directory and rerun a command when certain files change.
 More information: <https://github.com/cespare/reflex>.
 
 - Rebuild with `make` if any file changes:

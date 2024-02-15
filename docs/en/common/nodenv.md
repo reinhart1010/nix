@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/nodenv (English)
-description: "A tool to manage Node.js versions."
-content_hash: 653caedf73ce9364b1e25b3043e094480b5891c6
-last_modified_at: 2023-11-12
+description: "Manage Node.js versions."
+content_hash: 1cffbe4c4397a5d3b46bdc2c62fbee5aa6752525
+last_modified_at: 2024-02-15
 related_topics:
   - title: Deutsch version
     url: /de/common/nodenv.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # nodenv
 
-A tool to manage Node.js versions.
+Manage Node.js versions.
 More information: <https://github.com/nodenv/nodenv>.
 
 - Install a specific version of Node.js:

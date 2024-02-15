@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mvn (English)
-description: "Apache Maven."
-content_hash: 79500822961acf40b3b7bf5ac2ed6925ff1fdfe4
-last_modified_at: 2023-11-12
+description: "Apache Maven: build and manage Java-based projects."
+content_hash: c0a9d5f9fda89347d7eb4fc7ef29f753fea041c7
+last_modified_at: 2024-02-15
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mvn.html
@@ -15,8 +15,7 @@ tldri18n_status: 2
 ---
 # mvn
 
-Apache Maven.
-Tool for building and managing Java-based projects.
+Apache Maven: build and manage Java-based projects.
 More information: <https://maven.apache.org>.
 
 - Compile a project:

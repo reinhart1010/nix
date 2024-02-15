@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-rev-parse (English)
-description: "Display metadata related to specific revisions."
-content_hash: d9b05cfb845e59c44b6728cd9124d72aaee060e2
-last_modified_at: 2023-11-12
+description: "Display metadata related to revisions."
+content_hash: 142691ab1ecdfb4058455f465e3de3448b4592d5
+last_modified_at: 2024-02-15
 related_topics:
   - title: español version
     url: /es/common/git-rev-parse.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # git rev-parse
 
-Display metadata related to specific revisions.
+Display metadata related to revisions.
 More information: <https://git-scm.com/docs/git-rev-parse>.
 
 - Get the commit hash of a branch:

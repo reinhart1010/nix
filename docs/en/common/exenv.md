@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/exenv (English)
-description: "A tool to easily install Elixir versions and manage application environments."
-content_hash: 4d569285b02feaa46b82b25c67ebe7ba5ce9153d
-last_modified_at: 2023-11-20
+description: "Easily install Elixir versions and manage application environments."
+content_hash: bb39534ea1d122ba85c7e9b34108347d4b5dc6ae
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # exenv
 
-A tool to easily install Elixir versions and manage application environments.
+Easily install Elixir versions and manage application environments.
 More information: <https://github.com/mururu/exenv>.
 
 - Display a list of installed versions:

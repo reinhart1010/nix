@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/bosh (English)
-description: "Command-line tool to deploy and manage the bosh director."
-content_hash: 4309446d34ad6129a8bb62c1e1aafcf684158c85
-last_modified_at: 2023-12-27
+description: "Deploy and manage the BOSH director."
+content_hash: daf771e313bec33c123cd9355857cdbe7b25e7e1
+last_modified_at: 2024-02-15
 related_topics:
   - title: italiano version
     url: /it/common/bosh.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # bosh
 
-Command-line tool to deploy and manage the bosh director.
+Deploy and manage the BOSH director.
 More information: <https://bosh.io/docs/cli-v2/>.
 
 - Create local alias for director:

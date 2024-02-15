@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/rvm (English)
-description: "A tool for easily installing, managing, and working with multiple ruby environments."
-content_hash: 181aae6d40930b558d7c793f03b7162a987b3855
-last_modified_at: 2024-01-31
+description: "Easily installing, managing, and working with multiple ruby environments."
+content_hash: 0b1aa238f40f94e0ed0a165c17465eeac5430cf7
+last_modified_at: 2024-02-15
 related_topics:
   - title: Indonesia version
     url: /id/common/rvm.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # rvm
 
-A tool for easily installing, managing, and working with multiple ruby environments.
+Easily installing, managing, and working with multiple ruby environments.
 More information: <https://rvm.io>.
 
 - Install one or more versions of Ruby:

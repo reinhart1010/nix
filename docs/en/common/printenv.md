@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/printenv (English)
-description: "Print values of all or specific environment variables."
-content_hash: d6faaa1e569751f3fe8536556671b188da18cdd3
-last_modified_at: 2023-11-12
+description: "Print values of all or environment variables."
+content_hash: 9e16721f16e3e65b90ee024d3d0eadd7e23f80b1
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # printenv
 
-Print values of all or specific environment variables.
+Print values of all or environment variables.
 More information: <https://www.gnu.org/software/coreutils/printenv>.
 
 - Display key-value pairs of all environment variables:

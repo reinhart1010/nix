@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/qemu-img (English)
-description: "Tool for Quick Emulator Virtual HDD image creation and manipulation."
-content_hash: 5a91997ae494235d57bd5ff0daaa0954a473ba77
-last_modified_at: 2023-11-12
+description: "Create and manipulate Quick Emulator Virtual HDD images."
+content_hash: 342624a5a7fba1529aa443754436d95ddd9e84f6
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # qemu-img
 
-Tool for Quick Emulator Virtual HDD image creation and manipulation.
+Create and manipulate Quick Emulator Virtual HDD images.
 More information: <https://qemu.readthedocs.io/en/latest/tools/qemu-img.html>.
 
 - Create disk image with a specific size (in gigabytes):

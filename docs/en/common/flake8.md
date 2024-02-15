@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/flake8 (English)
-description: "Tool to check the style and quality of Python code."
-content_hash: 6a7f91619b6545f01dac65d74800231f0cde0310
-last_modified_at: 2023-11-12
+description: "Check the style and quality of Python code."
+content_hash: 589959ee27fd91d3c57670ff7309f55969c87f66
+last_modified_at: 2024-02-15
 related_topics:
   - title: italiano version
     url: /it/common/flake8.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # flake8
 
-Tool to check the style and quality of Python code.
+Check the style and quality of Python code.
 More information: <https://flake8.pycqa.org/>.
 
 - Lint a file or directory recursively:

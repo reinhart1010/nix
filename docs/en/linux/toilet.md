@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/toilet (English)
-description: "A tool to display ASCII-art fonts."
-content_hash: b90b0783bc90a3af2b052225898da1db03101ea6
-last_modified_at: 2023-12-27
+description: "Display ASCII-art fonts."
+content_hash: 8ad56b593aed510845416e6952da51045e88fbd8
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # toilet
 
-A tool to display ASCII-art fonts.
+Display ASCII-art fonts.
 More information: <http://caca.zoy.org/wiki/toilet>.
 
 - Generate ASCII art for a given text:

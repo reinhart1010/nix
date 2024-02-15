@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/uniq (English)
-description: "Output the unique lines from the given input or file."
-content_hash: ab042deb55d50de3bf4d66f50893ff4972db2718
-last_modified_at: 2023-11-12
+description: "Output the unique lines from a input or file."
+content_hash: ad58f549452e3dc89a082784ce493fbcb50d9099
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # uniq
 
-Output the unique lines from the given input or file.
+Output the unique lines from a input or file.
 Since it does not detect repeated lines unless they are adjacent, we need to sort them first.
 More information: <https://www.gnu.org/software/coreutils/uniq>.
 

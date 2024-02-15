@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/enum4linux (English)
-description: "Tool for enumerating Windows and Samba information from remote systems."
-content_hash: 576499d242b98705cf7eebab317c82f749dffe7e
-last_modified_at: 2023-11-12
+description: "Enumerate Windows and Samba information from remote systems."
+content_hash: 72f3ade81f7e73257b13a3dee4461ada5882d947
+last_modified_at: 2024-02-15
 related_topics:
   - title: italiano version
     url: /it/linux/enum4linux.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # enum4linux
 
-Tool for enumerating Windows and Samba information from remote systems.
+Enumerate Windows and Samba information from remote systems.
 More information: <https://labs.portcullis.co.uk/tools/enum4linux/>.
 
 - Try to enumerate using all methods:

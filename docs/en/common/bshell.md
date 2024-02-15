@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/bshell (English)
-description: "A GUI tool for browsing for SSH/VNC servers on the local network."
-content_hash: 1599e4835f91cec9630b5858671f509fcde4eda3
-last_modified_at: 2024-01-20
+description: "A GUI for browsing for SSH/VNC servers on the local network."
+content_hash: 421f0e287e778e85bc1f86834ac1c388eed0e2fe
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # bshell
 
-A GUI tool for browsing for SSH/VNC servers on the local network.
+A GUI for browsing for SSH/VNC servers on the local network.
 See also: `bssh` and `bvnc`.
 More information: <https://manned.org/bshell>.
 

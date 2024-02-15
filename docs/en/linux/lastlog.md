@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/lastlog (English)
-description: "Show the most recent login of all users or of a given user."
-content_hash: 4b9db0b78d672d81bd019e4e93a405ecbaf44e2a
-last_modified_at: 2023-12-30
+description: "Show the most recent login of all users or of a user."
+content_hash: 9c983c8144aba186043d7f7af510d7c161e2f731
+last_modified_at: 2024-02-15
 related_topics:
   - title: Deutsch version
     url: /de/linux/lastlog.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # lastlog
 
-Show the most recent login of all users or of a given user.
+Show the most recent login of all users or of a user.
 More information: <https://manned.org/lastlog>.
 
 - Display the most recent login of all users:

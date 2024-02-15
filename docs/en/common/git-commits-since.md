@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-commits-since (English)
-description: "Display commits since a specific time or date."
-content_hash: ed9d3a23fd6caca8b30075f41f0d703814852d11
-last_modified_at: 2023-11-12
+description: "Display commits since a time or date."
+content_hash: 8fdfab77eb55b84e8efeae56d9da54c45717145a
+last_modified_at: 2024-02-15
 related_topics:
   - title: українська version
     url: /uk/common/git-commits-since.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # git commits-since
 
-Display commits since a specific time or date.
+Display commits since a time or date.
 Part of `git-extras`.
 More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-commits-since>.
 

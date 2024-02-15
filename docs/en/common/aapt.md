@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/aapt (English)
-description: "Android Asset Packaging Tool."
-content_hash: e2e28e34455acffb5eee57d96ca35958eb4f0fe9
-last_modified_at: 2023-11-12
+description: "Android Asset Packaging Tool: compile and package an Android app's resources."
+content_hash: 03fe2602b1c37acf88dea17216383cfce25247a5
+last_modified_at: 2024-02-15
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -45,8 +45,7 @@ tldri18n_status: 2
 ---
 # aapt
 
-Android Asset Packaging Tool.
-Compile and package an Android app's resources.
+Android Asset Packaging Tool: compile and package an Android app's resources.
 More information: <https://elinux.org/Android_aapt>.
 
 - List files contained in an APK archive:

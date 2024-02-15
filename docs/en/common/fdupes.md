@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fdupes (English)
-description: "Finds duplicate files in a given set of directories."
-content_hash: f29be034e89fbc575fbad862e15d343fe573a2c1
-last_modified_at: 2023-11-12
+description: "Finds duplicate files in a set of directories."
+content_hash: 31c44f7fa25ad6030048860a42dc5a6fe27a1e39
+last_modified_at: 2024-02-15
 related_topics:
   - title: français version
     url: /fr/common/fdupes.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # fdupes
 
-Finds duplicate files in a given set of directories.
+Finds duplicate files in a set of directories.
 More information: <https://github.com/adrianlopezroche/fdupes>.
 
 - Search a single directory:

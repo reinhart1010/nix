@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/bundletool-dump (English)
-description: "Command-line tool to manipulate Android Application Bundles."
-content_hash: 1adfe9798bc4aaffe07b665cbf2cf286c3003e7f
-last_modified_at: 2023-11-12
+description: "Manipulate Android Application Bundles."
+content_hash: fae6508b2fc323f61ed7532ac3c2d54bb11bfd6a
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # bundletool dump
 
-Command-line tool to manipulate Android Application Bundles.
+Manipulate Android Application Bundles.
 More information: <https://developer.android.com/studio/command-line/bundletool>.
 
 - Display the `AndroidManifest.xml` of the base module:

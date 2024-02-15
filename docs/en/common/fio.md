@@ -1,15 +1,14 @@
 ---
 layout: page
 title: common/fio (English)
-description: "Flexible I/O tester."
-content_hash: 00d98026299b9f02dba00775483ebd16dc2f5b2a
-last_modified_at: 2023-11-12
+description: "Flexible I/O tester: do an I/O action spawning multiple threads or processes."
+content_hash: 4edf4035d0707db47b404d6dfeedcf2ad7a0ce71
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # fio
 
-Flexible I/O tester.
-Tool that will spawn a number of threads or processes doing a particular type of I/O action.
+Flexible I/O tester: do an I/O action spawning multiple threads or processes.
 More information: <https://fio.readthedocs.io/en/latest/fio_doc.html>.
 
 - Test random reads:

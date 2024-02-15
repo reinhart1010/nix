@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/mp4box (English)
-description: "MPEG-4 Systems Toolbox - Muxes streams into MP4 container."
-content_hash: c99391ed98a8874422bfb3479f726e74c038b1ff
-last_modified_at: 2023-11-12
+description: "MPEG-4 Systems Toolbox: muxe streams into MP4 container."
+content_hash: 44335c552150347068e8f36cfa3cd67f4c3782e5
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # mp4box
 
-MPEG-4 Systems Toolbox - Muxes streams into MP4 container.
+MPEG-4 Systems Toolbox: muxe streams into MP4 container.
 More information: <https://gpac.wp.imt.fr/mp4box>.
 
 - Display information about an existing MP4 file:

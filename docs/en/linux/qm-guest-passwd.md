@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/qm-guest-passwd (English)
-description: "Set the password for a specific user on QEMU/KVM Virtual Machine Manager."
-content_hash: 43e648ec58727c697366346688c7f6d62c4eea4c
-last_modified_at: 2023-11-12
+description: "Set the password for a user on QEMU/KVM Virtual Machine Manager."
+content_hash: 117fe75a86adefd1884afeda71c1e8e222927a0e
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # qm guest passwd
 
-Set the password for a specific user on QEMU/KVM Virtual Machine Manager.
+Set the password for a user on QEMU/KVM Virtual Machine Manager.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Set a password for a specific user in a virtual machine interactively:

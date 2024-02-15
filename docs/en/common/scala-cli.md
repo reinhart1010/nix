@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/scala-cli (English)
-description: "Tool to interact with the Scala programming language."
-content_hash: 1913153a246cf12ceba5d7864c6c453a8bf6c14a
-last_modified_at: 2023-11-12
+description: "Interact with the Scala programming language."
+content_hash: 9310b3d0ce423ea61160f4b1612a692d29a36fbf
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # scala-cli
 
-Tool to interact with the Scala programming language.
+Interact with the Scala programming language.
 More information: <https://scala-cli.virtuslab.org/docs/overview/>.
 
 - Start a REPL (interactive shell) using a specific Scala and JVM version:

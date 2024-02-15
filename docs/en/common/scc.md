@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/scc (English)
-description: "Tool written in Go that counts lines of code."
-content_hash: ac153fa6e8d612602e98c9528f3d9b0f19683b3d
-last_modified_at: 2024-01-30
+description: "Count lines of code. Written in Go."
+content_hash: 259e59ee8d6612f8ca083eb1e2f03add9b9ee830
+last_modified_at: 2024-02-15
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/scc.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # scc
 
-Tool written in Go that counts lines of code.
+Count lines of code. Written in Go.
 More information: <https://github.com/boyter/scc>.
 
 - Print lines of code in the current directory:

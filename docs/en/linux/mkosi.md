@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/mkosi (English)
-description: "Tool for building modern, legacy-free Linux images."
-content_hash: 6b5ffbcfa7cf462eb1606deb6d1ed706ed3f03e2
-last_modified_at: 2023-11-12
+description: "Build modern, legacy-free Linux images."
+content_hash: 826b3cd5b65a0f47d95798e283427ffc232db6d4
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # mkosi
 
-Tool for building modern, legacy-free Linux images.
+Build modern, legacy-free Linux images.
 Part of `systemd`.
 More information: <https://manned.org/mkosi>.
 

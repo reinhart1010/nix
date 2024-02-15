@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/wami (English)
-description: "An open-source and easy-to-use tool that recommends suitable programs for specific tasks."
-content_hash: cbd1ded1cf57e77e5719585bd41003441bf40a3d
-last_modified_at: 2024-01-07
+description: "An open-source and easy-to-use tool that recommends suitable programs for tasks."
+content_hash: e88f54b55d5895c8619ab8b2d95e89565662bcf3
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # wami
 
-An open-source and easy-to-use tool that recommends suitable programs for specific tasks.
+An open-source and easy-to-use tool that recommends suitable programs for tasks.
 More information: <https://github.com/evait-security/wami>.
 
 - Find expanded results in all categories from the lake and [S]ort them in the specified order:

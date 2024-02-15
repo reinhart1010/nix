@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/diff-pdf (English)
-description: "Tool for comparing two PDFs."
-content_hash: cbb75c15fbd13d393bf31e06c8291a5cc94d79f4
-last_modified_at: 2023-11-12
+description: "Compare two PDFs."
+content_hash: aa210a8aaa937e8048a7ec59d0615219f270aa19
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # diff-pdf
 
-Tool for comparing two PDFs.
+Compare two PDFs.
 More information: <https://github.com/vslavik/diff-pdf>.
 
 - Compare PDFs, indicating changes using return codes (`0` = no difference, `1` = PDFs differ):

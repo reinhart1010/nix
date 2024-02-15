@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/astronomer (English)
-description: "Tool that detects illegitimate stars from bot accounts on GitHub projects."
-content_hash: 1917e3ba45ce85be07fec88b3201bdb3663f2047
-last_modified_at: 2023-11-12
+description: "Detect illegitimate stars from bot accounts on GitHub projects."
+content_hash: 28282509d1c2c605e9fde5d4cd60e7c0a559cea5
+last_modified_at: 2024-02-15
 related_topics:
   - title: español version
     url: /es/common/astronomer.html
@@ -24,7 +24,7 @@ tldri18n_status: 2
 ---
 # astronomer
 
-Tool that detects illegitimate stars from bot accounts on GitHub projects.
+Detect illegitimate stars from bot accounts on GitHub projects.
 More information: <https://github.com/Ullaakut/astronomer>.
 
 - Scan a repository:

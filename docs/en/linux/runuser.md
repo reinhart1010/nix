@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/runuser (English)
-description: "Run commands as a specific user and group without asking for password (needs root privileges)."
-content_hash: 7279cf7b36e5c06a8ee744de42afc1c397c51a20
-last_modified_at: 2023-11-12
+description: "Run commands as a user and group without asking for password (needs root privileges)."
+content_hash: 80a518275d0845c2826b7011e5834b01fa65927c
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # runuser
 
-Run commands as a specific user and group without asking for password (needs root privileges).
+Run commands as a user and group without asking for password (needs root privileges).
 More information: <https://manned.org/runuser>.
 
 - Run command as a different user:

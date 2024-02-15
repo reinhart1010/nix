@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/hub-fork (English)
-description: "Fork the given GitHub repo. Like `git fork` from `git-extras`."
-content_hash: 1859fc9f2ec51a0edf4f8825b983e7df289d3eea
-last_modified_at: 2023-11-12
+description: "Fork a GitHub repo. Like `git fork` from `git-extras`."
+content_hash: 2db7d2e1f60d1cae67be3a31bfbe9f7d599ea322
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # hub fork
 
-Fork the given GitHub repo. Like `git fork` from `git-extras`.
+Fork a GitHub repo. Like `git fork` from `git-extras`.
 More information: <https://hub.github.com/hub-fork.1.html>.
 
 - Fork a GitHub repository by its slug:

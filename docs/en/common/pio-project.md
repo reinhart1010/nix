@@ -1,14 +1,18 @@
 ---
 layout: page
 title: common/pio-project (English)
-description: "Tool to manage PlatformIO projects."
-content_hash: 3a7ac1ee37fe67376ded3cd59a2c4778e9a92832
-last_modified_at: 2023-11-12
+description: "Manage PlatformIO projects."
+content_hash: 102fafc5fa4eb9303ff1a31ac3e135448fbaa9fc
+last_modified_at: 2024-02-15
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/pio-project.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pio project
 
-Tool to manage PlatformIO projects.
+Manage PlatformIO projects.
 More information: <https://docs.platformio.org/en/latest/core/userguide/project/>.
 
 - Initialize a new PlatformIO project:

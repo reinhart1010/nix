@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/gdaldem (English)
-description: "Tool to analyze and visualize digital elevation models (DEM)."
-content_hash: e6dbc16f47b35220e1997462a5e15edae8735991
-last_modified_at: 2023-11-12
+description: "Analyze and visualize digital elevation models (DEM)."
+content_hash: 7cbb798cf689d72f702f5e565f7f37e27f3c831d
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # gdaldem
 
-Tool to analyze and visualize digital elevation models (DEM).
+Analyze and visualize digital elevation models (DEM).
 More information: <https://gdal.org/programs/gdaldem>.
 
 - Compute the hillshade of a DEM:

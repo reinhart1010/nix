@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/libtoolize (English)
-description: "A tool used in the autotools build system to prepare a package for using `libtool`."
-content_hash: 3709b62e671e3b573cfec0c214e24fffe55b820d
-last_modified_at: 2024-01-31
+description: "An `autotools` tool to prepare a package for using `libtool`."
+content_hash: abb1978eda4f09458a0da692305182c2a2e52192
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # libtoolize
 
-A tool used in the autotools build system to prepare a package for using `libtool`.
+An `autotools` tool to prepare a package for using `libtool`.
 It performs various tasks, including generating necessary files and directories to integrate `libtool` seamlessly into a project.
 More information: <https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtoolize>.
 

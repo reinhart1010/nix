@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/lb (English)
-description: "A tool for managing a blog contained in the current directory."
-content_hash: 7eceaaab5ead197bf4bb137a04ea745e9c93fbb4
-last_modified_at: 2023-11-12
+description: "Manage a blog contained in the current directory."
+content_hash: c41c60789deef7ae7d3b8965d96ef18683567684
+last_modified_at: 2024-02-15
 related_topics:
   - title: norsk version
     url: /no/common/lb.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # lb
 
-A tool for managing a blog contained in the current directory.
+Manage a blog contained in the current directory.
 Drafts and posts to operate on are selected interactively when running the commands.
 More information: <https://github.com/LukeSmithxyz/lb>.
 

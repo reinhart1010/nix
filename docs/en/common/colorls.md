@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/colorls (English)
-description: "A Ruby gem that beautifies the terminal's `ls` command, with color and font-awesome icons."
-content_hash: c611493d0f4a68bd0e5e79b6fd48fadb529a7f00
-last_modified_at: 2024-01-30
+description: "Beautify `ls` command output, with color and font-awesome icons. Available as a Ruby gem."
+content_hash: 4c2761c4b58e2fe13e9cd3b1324e5a223f1aec56
+last_modified_at: 2024-02-15
 related_topics:
   - title: 日本語 version
     url: /ja/common/colorls.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # colorls
 
-A Ruby gem that beautifies the terminal's `ls` command, with color and font-awesome icons.
+Beautify `ls` command output, with color and font-awesome icons. Available as a Ruby gem.
 More information: <https://github.com/athityakumar/colorls>.
 
 - List files one per line:

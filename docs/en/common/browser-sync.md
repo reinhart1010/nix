@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/browser-sync (English)
-description: "Starts local web server that updates browser on file changes."
-content_hash: b9d2a95aa22f81087bce138046a77b6510d5f55e
-last_modified_at: 2024-01-25
+description: "A local web server that updates browser on file changes."
+content_hash: cbf5cea98bb8887146e08d8446d83e8c38086277
+last_modified_at: 2024-02-15
 related_topics:
   - title: italiano version
     url: /it/common/browser-sync.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # browser-sync
 
-Starts local web server that updates browser on file changes.
+A local web server that updates browser on file changes.
 More information: <https://browsersync.io/docs/command-line>.
 
 - Start a server from a specific directory:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/autoflake (English)
-description: "A tool to remove unused imports and variables from Python code."
-content_hash: 322ad02151b3cd483c18fc6176d2f919cabdccd8
-last_modified_at: 2023-11-12
+description: "Remove unused imports and variables from Python code."
+content_hash: 5dbb2ce7c98724b4472e68c1886a7cf1967eef10
+last_modified_at: 2024-02-15
 related_topics:
   - title: español version
     url: /es/common/autoflake.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/autoflake.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/autoflake.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/autoflake.html
@@ -24,7 +27,7 @@ tldri18n_status: 2
 ---
 # autoflake
 
-A tool to remove unused imports and variables from Python code.
+Remove unused imports and variables from Python code.
 More information: <https://github.com/myint/autoflake>.
 
 - Remove unused variables from a single file and display the diff:

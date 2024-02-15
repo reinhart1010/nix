@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/opensnoop (English)
-description: "Tool that tracks file opens on your system."
-content_hash: 2cc47a8032275e07b0eb14a084910e21e988666c
-last_modified_at: 2024-01-31
+description: "Track file opens on your system."
+content_hash: 0181f3e9547be96197540254741901c263e33894
+last_modified_at: 2024-02-15
 related_topics:
   - title: español version
     url: /es/osx/opensnoop.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # opensnoop
 
-Tool that tracks file opens on your system.
+Track file opens on your system.
 More information: <https://keith.github.io/xcode-man-pages/opensnoop.1m.html>.
 
 - Print all file opens as they occur:

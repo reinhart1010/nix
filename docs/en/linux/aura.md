@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/aura (English)
-description: "The Aura Package Manager: A secure, multilingual package manager for Arch Linux and the AUR."
-content_hash: c4c610d27a4ffdb86105ea14f8bdeccd81377796
-last_modified_at: 2023-11-12
+description: "The Aura Package Manager: a secure, multilingual package manager for Arch Linux and the AUR."
+content_hash: a731c18e19a7e5622df49bc52dad5781d4a52df5
+last_modified_at: 2024-02-15
 related_topics:
   - title: 中文 version
     url: /zh/linux/aura.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # aura
 
-The Aura Package Manager: A secure, multilingual package manager for Arch Linux and the AUR.
+The Aura Package Manager: a secure, multilingual package manager for Arch Linux and the AUR.
 More information: <https://github.com/fosskers/aura>.
 
 - Search for packages from the official repositories and AUR:

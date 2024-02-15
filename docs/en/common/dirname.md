@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/dirname (English)
-description: "Calculates the parent directory of a given file or directory path."
-content_hash: f98578a63ec26c7010a236d4eed8eb9df3d6009b
-last_modified_at: 2024-01-31
+description: "Calculates the parent directory of a file or directory path."
+content_hash: 426bf0653f48d2ea10317000903a9b3bca7e0aa3
+last_modified_at: 2024-02-15
 related_topics:
   - title: italiano version
     url: /it/common/dirname.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # dirname
 
-Calculates the parent directory of a given file or directory path.
+Calculates the parent directory of a file or directory path.
 More information: <https://www.gnu.org/software/coreutils/dirname>.
 
 - Calculate the parent directory of a given path:

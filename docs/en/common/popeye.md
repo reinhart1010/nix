@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/popeye (English)
-description: "Utility that reports potential issues with Kubernetes deployment manifests."
-content_hash: 3562e0f4284b41b639dd237a368d5d9a8d71b310
-last_modified_at: 2023-11-12
+description: "Report potential issues with Kubernetes deployment manifests."
+content_hash: 1c4aaf2c3cc2b44bbb6cd2d37f4c06af1f110f78
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # popeye
 
-Utility that reports potential issues with Kubernetes deployment manifests.
+Report potential issues with Kubernetes deployment manifests.
 More information: <https://github.com/derailed/popeye>.
 
 - Scan the current Kubernetes cluster:

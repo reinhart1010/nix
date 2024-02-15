@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/einfo (English)
-description: "Provides the number of records indexed in each field of a given database, the date of the last update of the database, and the available links from the database to other Entrez databases."
-content_hash: bb75f562fe42701e6c34c402d6406bbe496ee4e1
-last_modified_at: 2023-11-12
+description: "Provides the number of records indexed in each database field, the last update date of the database, and the available links from the database to other Entrez databases."
+content_hash: fbbfc268bb1ef72fe5f67422abef2bcb02e09d7b
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # einfo
 
-Provides the number of records indexed in each field of a given database, the date of the last update of the database, and the available links from the database to other Entrez databases.
+Provides the number of records indexed in each database field, the last update date of the database, and the available links from the database to other Entrez databases.
 More information: <https://www.ncbi.nlm.nih.gov/books/NBK179288/>.
 
 - Print all database names:

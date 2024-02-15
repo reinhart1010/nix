@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/gox (English)
-description: "A tool for cross-compiling Go programs."
-content_hash: 4ea10e809aa24be4d7ead5c3cadcf8c0697ec8fc
-last_modified_at: 2023-11-12
+description: "Cross-compile Go programs."
+content_hash: 47423006cd53757c4ba188a885f0af67703e0d71
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # gox
 
-A tool for cross-compiling Go programs.
+Cross-compile Go programs.
 More information: <https://github.com/mitchellh/gox>.
 
 - Compile Go program in the current directory for all operating systems and architecture combinations:

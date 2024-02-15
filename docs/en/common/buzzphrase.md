@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/buzzphrase (English)
-description: "Node.js command-line tool to output a random buzzphrase."
-content_hash: c3307399e35e7733c030dd78c5e918b53ee6f6c2
-last_modified_at: 2024-01-31
+description: "Output a random buzzphrase. Written in Node.js."
+content_hash: 76aad78b9d0da64d4d96395344a021f372962a39
+last_modified_at: 2024-02-15
 related_topics:
   - title: 한국어 version
     url: /ko/common/buzzphrase.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # buzzphrase
 
-Node.js command-line tool to output a random buzzphrase.
+Output a random buzzphrase. Written in Node.js.
 More information: <https://github.com/atomantic/buzzphrase>.
 
 - Generate a string of three random phrases containing an adjective, a past tense verb and a plural noun:

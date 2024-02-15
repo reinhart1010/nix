@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/doctl-apps (English)
-description: "Used to manage digitalocean apps."
-content_hash: 5619fdcc5efe1de0a18987db8b5404479aeb0963
-last_modified_at: 2023-11-12
+description: "Manage DigitalOcean apps."
+content_hash: 1afefa870d9bd78b6c188bbde47fece34e3b1804
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # doctl apps
 
-Used to manage digitalocean apps.
+Manage DigitalOcean apps.
 More information: <https://docs.digitalocean.com/reference/doctl/reference/apps>.
 
 - Create an app:

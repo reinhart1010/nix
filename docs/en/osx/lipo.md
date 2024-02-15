@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/lipo (English)
-description: "Tool for handling Mach-O Universal Binaries."
-content_hash: 73ac5c0fd0e852ecc649629e3494fa1c082e98d1
-last_modified_at: 2024-01-31
+description: "Handle Mach-O Universal Binaries."
+content_hash: 8ab7174c24803212ac42b899636d1b585395f50e
+last_modified_at: 2024-02-15
 related_topics:
   - title: español version
     url: /es/osx/lipo.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # lipo
 
-Tool for handling Mach-O Universal Binaries.
+Handle Mach-O Universal Binaries.
 More information: <https://keith.github.io/xcode-man-pages/lipo.1.html>.
 
 - Create a universal file from two single-architecture files:

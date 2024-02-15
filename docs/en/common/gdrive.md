@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/gdrive (English)
-description: "Command-line tool to interact with Google Drive."
-content_hash: 6da28896a31031dd455a3e16c1783a472243a03a
-last_modified_at: 2023-11-12
+description: "Interact with Google Drive."
+content_hash: f388a38782e8e70af221f5a5dcebfe2b5e1222db
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # gdrive
 
-Command-line tool to interact with Google Drive.
+Interact with Google Drive.
 Folder/file ID can be obtained from the Google Drive folder or ID URL.
 More information: <https://github.com/gdrive-org/gdrive>.
 

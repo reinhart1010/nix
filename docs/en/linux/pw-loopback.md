@@ -1,10 +1,13 @@
 ---
 layout: page
 title: linux/pw-loopback (English)
-description: "Tool for creating loopback devices in pipewire."
-content_hash: 42caeb878d139bd6e36c86ba1c91acbb020fd2ea
-last_modified_at: 2023-11-12
+description: "Create loopback devices in PipeWire."
+content_hash: f6d4a26696f0bac3c7a42151c8c406b1db9e610d
+last_modified_at: 2024-02-15
 related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/pw-loopback.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pw-loopback.html
     icon: bi bi-globe
@@ -12,7 +15,7 @@ tldri18n_status: 2
 ---
 # pw-loopback
 
-Tool for creating loopback devices in pipewire.
+Create loopback devices in PipeWire.
 More information: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
 
 - Create a loopback device with the default loopback behavior:

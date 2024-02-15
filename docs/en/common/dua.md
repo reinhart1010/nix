@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/dua (English)
-description: "Dua (Disk Usage Analyzer) is a tool to conveniently learn about the usage of disk space of a given directory."
-content_hash: c65515680b32296f95c3e7f58154b1e4b16a9a0c
-last_modified_at: 2024-02-09
+description: "Dua (Disk Usage Analyzer): get the disk space usage of a directory."
+content_hash: d84fa33a7edda72d1d9cc81b32889e17b0645e54
+last_modified_at: 2024-02-15
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dua.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # dua
 
-Dua (Disk Usage Analyzer) is a tool to conveniently learn about the usage of disk space of a given directory.
+Dua (Disk Usage Analyzer): get the disk space usage of a directory.
 More information: <https://github.com/Byron/dua-cli>.
 
 - Analyze specific directory:

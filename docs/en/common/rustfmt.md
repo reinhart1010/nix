@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/rustfmt (English)
-description: "Tool for formatting Rust source code."
-content_hash: 863b34adeca4233a380fd99f524eaf0a924b5f8e
-last_modified_at: 2023-11-12
+description: "Format Rust source code."
+content_hash: ec76be8ef6dc5e8da72a283c236063b091c66f7d
+last_modified_at: 2024-02-15
 related_topics:
   - title: தமிழ் version
     url: /ta/common/rustfmt.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # rustfmt
 
-Tool for formatting Rust source code.
+Format Rust source code.
 More information: <https://github.com/rust-lang/rustfmt>.
 
 - Format a file, overwriting the original file in-place:

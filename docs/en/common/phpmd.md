@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/phpmd (English)
-description: "A PHP mess detector that checks for common potential problems."
-content_hash: 9145565273bad50d6557f85f2d7359ab919b2507
-last_modified_at: 2024-01-31
+description: "PHP mess detector: check for common potential problems."
+content_hash: f67d65106602e618a096efd865c54ced3c2ffaba
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # phpmd
 
-A PHP mess detector that checks for common potential problems.
+PHP mess detector: check for common potential problems.
 More information: <https://github.com/phpmd/phpmd>.
 
 - Display a list of available rulesets and formats:

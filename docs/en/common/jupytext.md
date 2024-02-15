@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/jupytext (English)
-description: "Tool to convert Jupyter notebooks to plain text documents, and back again."
-content_hash: aa81eba5b0d78601aa8a60eea5e82cb0558e2364
-last_modified_at: 2023-11-12
+description: "Convert Jupyter notebooks to plain text documents, and back again."
+content_hash: 9223d3f6ff1788661a4f1e6fdd68574e7485b35c
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # jupytext
 
-Tool to convert Jupyter notebooks to plain text documents, and back again.
+Convert Jupyter notebooks to plain text documents, and back again.
 More information: <https://jupytext.readthedocs.io>.
 
 - Turn a notebook into a paired `.ipynb`/`.py` notebook:

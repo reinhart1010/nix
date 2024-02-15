@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/rss2email (English)
-description: "Tool for delivering news from RSS feeds to an email program."
-content_hash: cdef3d6b4488b80e2933d3792e774eee7784605b
-last_modified_at: 2023-11-12
+description: "Deliver news from RSS feeds to an email program."
+content_hash: 4893425911d7c3194979acb9a877a80cc1345859
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # rss2email
 
-Tool for delivering news from RSS feeds to an email program.
+Deliver news from RSS feeds to an email program.
 More information: <https://github.com/rss2email/rss2email>.
 
 - List all feeds:

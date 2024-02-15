@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/wl-copy (English)
-description: "Wayland clipboard manipulation tool."
-content_hash: 42a9b5c0a967dbce00620fc7517e0feff98ff4c6
-last_modified_at: 2023-11-12
+description: "Clear and copy to Wayland clipboard."
+content_hash: 8e5736e7d4f7ce7a9ca813eab2123a3cdd5fa286
+last_modified_at: 2024-02-15
 related_topics:
   - title: Türkçe version
     url: /tr/linux/wl-copy.html
@@ -12,8 +12,8 @@ tldri18n_status: 2
 ---
 # wl-copy
 
-Wayland clipboard manipulation tool.
-See also: `wl-paste`.
+Clear and copy to Wayland clipboard.
+See also: `wl-paste`, `xclip`.
 More information: <https://github.com/bugaevc/wl-clipboard>.
 
 - Copy the text to the clipboard:

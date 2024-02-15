@@ -1,12 +1,18 @@
 ---
 layout: page
 title: common/androguard (English)
-description: "Reverse engineering tool for Android applications. Written in Python."
-content_hash: 0d1525a973b521b3205d21b8d373e6182998aaa3
-last_modified_at: 2023-11-12
+description: "Reverse engineer Android applications. Written in Python."
+content_hash: 32b1c4631257510070209bcdc73184b7121a1d0b
+last_modified_at: 2024-02-15
 related_topics:
   - title: français version
     url: /fr/common/androguard.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/androguard.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/androguard.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/androguard.html
@@ -15,7 +21,7 @@ tldri18n_status: 2
 ---
 # androguard
 
-Reverse engineering tool for Android applications. Written in Python.
+Reverse engineer Android applications. Written in Python.
 More information: <https://github.com/androguard/androguard>.
 
 - Display Android app manifest:

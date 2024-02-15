@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/restic (English)
-description: "A backup program that aims to be fast, secure and efficient."
-content_hash: bd727b35cecaf78d28a0a66386b975abdcda8c8f
-last_modified_at: 2023-11-12
+description: "A fast, secure and secure backup program."
+content_hash: 6a6c3b8838d02a569e30a37b2ac652a33b9f6ec6
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # restic
 
-A backup program that aims to be fast, secure and efficient.
+A fast, secure and secure backup program.
 More information: <https://restic.net>.
 
 - Initialize a backup repository in the specified local directory:

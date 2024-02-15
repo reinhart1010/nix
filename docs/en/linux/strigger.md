@@ -2,14 +2,14 @@
 layout: page
 title: linux/strigger (English)
 description: "View or modify Slurm trigger information."
-content_hash: 95ae2da580943372d183196cd280c0364f9938f7
-last_modified_at: 2023-12-19
+content_hash: 8444d7579740d055aabb07685aa5768c46407383
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # strigger
 
 View or modify Slurm trigger information.
-Triggers are actions that are automatically run when a given event occurs on a Slurm cluster.
+Triggers are actions that are automatically run when an event occurs on a Slurm cluster.
 More information: <https://slurm.schedmd.com/strigger.html>.
 
 - Register a new trigger. Execute the specified program when the specified event occurs:

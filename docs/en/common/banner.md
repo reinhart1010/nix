@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/banner (English)
-description: "Print the given argument as a large ASCII art."
-content_hash: 02076fc82f19598af7e2051c8585e3cba6db3642
-last_modified_at: 2023-11-12
+description: "Print the argument as a large ASCII art."
+content_hash: a5f51fa82c116c4c1874e2297ac56b514ad2428e
+last_modified_at: 2024-02-15
 related_topics:
   - title: हिन्दी version
     url: /hi/common/banner.html
@@ -24,7 +24,7 @@ tldri18n_status: 2
 ---
 # banner
 
-Print the given argument as a large ASCII art.
+Print the argument as a large ASCII art.
 More information: <https://manned.org/banner>.
 
 - Print the text message as a large banner (quotes are optional):

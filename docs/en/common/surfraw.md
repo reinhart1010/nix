@@ -2,14 +2,14 @@
 layout: page
 title: common/surfraw (English)
 description: "Query a variety of web search engines."
-content_hash: 13a88be57c463757c09eef62d77f3f193f558ec4
-last_modified_at: 2023-11-12
+content_hash: 5cf61b423247f3043d141d96d787f08a69236539
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # surfraw
 
 Query a variety of web search engines.
-Consists of a collection of elvi, each of which knows how to search a specific website.
+Consists of a collection of elvi, each of which knows how to search a website.
 More information: <http://surfraw.org>.
 
 - Display the list of supported website search scripts (elvi):

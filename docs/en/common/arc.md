@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/arc (English)
-description: "Arcanist: A CLI for Phabricator."
-content_hash: ea5baf6fb7724e27a17f31fbd7ec8c3e9409cbd6
-last_modified_at: 2023-11-12
+description: "Arcanist: a CLI for Phabricator."
+content_hash: 160cbfe9568c38cb786429dfc65b96398303b42c
+last_modified_at: 2024-02-15
 related_topics:
   - title: français version
     url: /fr/common/arc.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # arc
 
-Arcanist: A CLI for Phabricator.
+Arcanist: a CLI for Phabricator.
 More information: <https://secure.phabricator.com/book/phabricator/article/arcanist/>.
 
 - Send the changes to Differential for review:

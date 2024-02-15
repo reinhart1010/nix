@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/whence (English)
-description: "A zsh builtin to indicate how a given command would be interpreted."
-content_hash: 969154fca163023aa7bc68792caecc96bca5bb90
-last_modified_at: 2024-01-31
+description: "A zsh builtin to indicate how a command would be interpreted."
+content_hash: 593c2e7549c315aaa503c7979053c371348afa13
+last_modified_at: 2024-02-15
 related_topics:
   - title: español version
     url: /es/osx/whence.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # whence
 
-A zsh builtin to indicate how a given command would be interpreted.
+A zsh builtin to indicate how a command would be interpreted.
 More information: <https://keith.github.io/xcode-man-pages/whence.1.html>.
 
 - Interpret `command`, with expansion if defined as an `alias` (similar to the `command -v` builtin):

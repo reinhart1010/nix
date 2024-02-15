@@ -1,15 +1,15 @@
 ---
 layout: page
 title: linux/pkgfile (English)
-description: "Tool for searching files from packages in the official repositories on arch-based systems."
-content_hash: 971eab98f87f15dbd7ae45d4ce6ad2a9a099f994
-last_modified_at: 2023-11-12
+description: "Search files from packages in the official repositories on Arch-based systems."
+content_hash: fdaa0257cfeae3682bf30af06a2181fe7e9f321a
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # pkgfile
 
-Tool for searching files from packages in the official repositories on arch-based systems.
-See also `pacman files`, describing the usage of `pacman --files`.
+Search files from packages in the official repositories on Arch-based systems.
+See also: `pacman files`, describing the usage of `pacman --files`.
 More information: <https://man.archlinux.org/man/extra/pkgfile/pkgfile.1>.
 
 - Synchronize the pkgfile database:

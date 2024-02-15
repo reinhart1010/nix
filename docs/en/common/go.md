@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/go (English)
-description: "Tool for managing go source code."
-content_hash: 0ccb141dc6f3431b8261a2ba5412c74d9f21999c
-last_modified_at: 2023-11-12
+description: "Manage Go source code."
+content_hash: 56e5bac4000fd36f665df194954283c430eb73e3
+last_modified_at: 2024-02-15
 related_topics:
   - title: français version
     url: /fr/common/go.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # go
 
-Tool for managing go source code.
+Manage Go source code.
 Some subcommands such as `go build` have their own usage documentation.
 More information: <https://golang.org>.
 

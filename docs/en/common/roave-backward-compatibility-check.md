@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/roave-backward-compatibility-check (English)
-description: "A tool that can be used to verify backward compatibility breaks between two versions of a PHP library."
-content_hash: 121800fe39efc665bc8abad50494504e56d761f7
-last_modified_at: 2023-11-12
+description: "Verify backward compatibility breaks between two versions of a PHP library."
+content_hash: 5d605daa4a257ead35042666ce7f2f40e221da13
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # roave-backward-compatibility-check
 
-A tool that can be used to verify backward compatibility breaks between two versions of a PHP library.
+Verify backward compatibility breaks between two versions of a PHP library.
 More information: <https://github.com/Roave/BackwardCompatibilityCheck>.
 
 - Check for breaking changes since the last tag:

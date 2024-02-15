@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gitmoji (English)
-description: "An interactive command-line tool for using emojis on commits."
-content_hash: 01ec30ab9d131477e5f22508258708756f91613d
-last_modified_at: 2024-01-30
+description: "Interactively insert emojis on commits."
+content_hash: 299d9db1eb80aa585e985378e4cece79c25cb670
+last_modified_at: 2024-02-15
 related_topics:
   - title: 한국어 version
     url: /ko/common/gitmoji.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # gitmoji
 
-An interactive command-line tool for using emojis on commits.
+Interactively insert emojis on commits.
 More information: <https://github.com/carloscuesta/gitmoji-cli>.
 
 - Start the commit wizard:

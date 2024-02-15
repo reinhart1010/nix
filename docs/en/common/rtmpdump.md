@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/rtmpdump (English)
-description: "A tool to dump media content streamed over the RTMP protocol."
-content_hash: ac24c277a2fcc1e6a87323bc6a185963024d52ea
-last_modified_at: 2023-11-12
+description: "Dump media content streamed over the RTMP protocol."
+content_hash: 2d60a0040ecf9bdb05b1c9c1eabd32e5db0731a5
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # rtmpdump
 
-A tool to dump media content streamed over the RTMP protocol.
+Dump media content streamed over the RTMP protocol.
 More information: <http://rtmpdump.mplayerhq.hu/>.
 
 - Download a file:

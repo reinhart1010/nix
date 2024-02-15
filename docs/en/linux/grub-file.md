@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/grub-file (English)
-description: "Check if a file is of a specific bootable image type."
-content_hash: 87e3a0a85cef1a1538b5d3201acea6a92f53cbe3
-last_modified_at: 2024-02-02
+description: "Check if a file is of a bootable image type."
+content_hash: f988d780d9a7bda0eb406a2ef5ca7ec464b20bcc
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # grub-file
 
-Check if a file is of a specific bootable image type.
+Check if a file is of a bootable image type.
 More information: <https://manned.org/grub-file>.
 
 - Check if a file is an ARM EFI image:

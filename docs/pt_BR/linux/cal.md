@@ -3,7 +3,7 @@ layout: page
 title: linux/cal (português (Brasil))
 description: "Exibe as informações do calendário, destacando o dia atual."
 content_hash: 4183d4199f8cb26665142c40226ea1740ce72bb7
-last_modified_at: 2023-12-28
+last_modified_at: 2024-02-15
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/cal.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/cal.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/cal.html
@@ -32,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/cal.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cal
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cal
 
 Exibe as informações do calendário, destacando o dia atual.
 Mais informações: <https://manned.org/cal>.

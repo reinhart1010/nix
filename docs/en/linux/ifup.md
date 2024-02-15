@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ifup (English)
-description: "Tool used to enable network interfaces."
-content_hash: 1eefad094f7da8675474f0da214ea1785a58493c
-last_modified_at: 2023-11-12
+description: "Enable network interfaces."
+content_hash: 5865ca07b8be5434da5ecf8904f37e911a65dab8
+last_modified_at: 2024-02-15
 related_topics:
   - title: français version
     url: /fr/linux/ifup.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # ifup
 
-Tool used to enable network interfaces.
+Enable network interfaces.
 More information: <https://manpages.debian.org/latest/ifupdown/ifup.8.html>.
 
 - Enable interface eth0:

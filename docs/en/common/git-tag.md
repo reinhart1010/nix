@@ -2,8 +2,8 @@
 layout: page
 title: common/git-tag (English)
 description: "Create, list, delete or verify tags."
-content_hash: b8fbcb60c7a90f4ed3f3e9f903b6e61b5dfb73ce
-last_modified_at: 2023-11-12
+content_hash: 409e15460b3df08465d3d1d6afe2efaf7f001310
+last_modified_at: 2024-02-15
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # git tag
 
 Create, list, delete or verify tags.
-A tag is a static reference to a specific commit.
+A tag is a static reference to a commit.
 More information: <https://git-scm.com/docs/git-tag>.
 
 - List all tags:

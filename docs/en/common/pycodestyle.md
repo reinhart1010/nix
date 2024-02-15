@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/pycodestyle (English)
-description: "A tool to check Python code against PEP 8 style conventions."
-content_hash: 026db9937431d570d696b3f0db51f544520a7d81
-last_modified_at: 2024-01-31
+description: "Check Python code against PEP 8 style conventions."
+content_hash: 13a892122038d41ecbd6c62ced9ca3d4fb135893
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # pycodestyle
 
-A tool to check Python code against PEP 8 style conventions.
+Check Python code against PEP 8 style conventions.
 More information: <https://pycodestyle.readthedocs.io>.
 
 - Check the style of a single file:

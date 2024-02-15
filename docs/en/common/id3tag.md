@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/id3tag (English)
-description: "Tool for reading, writing, and manipulating ID3v1 and ID3v2 tags of MP3 files."
-content_hash: 1a8f1a2e9ed2301df46962cfd12c791aaba4e8dd
-last_modified_at: 2024-01-30
+description: "Read, write, and manipulate ID3v1 and ID3v2 tags of MP3 files."
+content_hash: 1a66eca7173c236b0f03c62c7d9a50e2eacea3fc
+last_modified_at: 2024-02-15
 related_topics:
   - title: italiano version
     url: /it/common/id3tag.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # id3tag
 
-Tool for reading, writing, and manipulating ID3v1 and ID3v2 tags of MP3 files.
+Read, write, and manipulate ID3v1 and ID3v2 tags of MP3 files.
 More information: <https://manned.org/id3tag>.
 
 - Set artist and song title tag of an MP3 file:

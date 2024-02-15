@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/mocha (English)
-description: "Execute Mocha JavaScript test runner."
-content_hash: 406c5e035fdc91d15beed9586a6b1094a4731ea5
-last_modified_at: 2024-01-30
+description: "A feature-rich JavaScript test framework."
+content_hash: c6976a9bc63c5cd403cb54c62fda82ef6b16f213
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # mocha
 
-Execute Mocha JavaScript test runner.
+A feature-rich JavaScript test framework.
 More information: <https://mochajs.org>.
 
 - Run tests with default configuration or as configured in `mocha.opts`:

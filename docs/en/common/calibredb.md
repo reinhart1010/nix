@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/calibredb (English)
-description: "Tool to manipulate the your e-book database."
-content_hash: 2fbd04234019861d0379a0f7f7d9deb17916ca1f
-last_modified_at: 2023-11-12
+description: "Manipulate an e-book database."
+content_hash: b17331f8fcf80b8103a085317c309204f9c0cd6f
+last_modified_at: 2024-02-15
 related_topics:
   - title: italiano version
     url: /it/common/calibredb.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # calibredb
 
-Tool to manipulate the your e-book database.
+Manipulate an e-book database.
 Part of the Calibre e-book library.
 More information: <https://manual.calibre-ebook.com/generated/en/calibredb.html>.
 

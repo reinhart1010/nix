@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/tlp-stat (English)
-description: "A tool to generate TLP status reports."
-content_hash: 30ed85dcc1a7e115dcf78811226dc7885497d2fc
-last_modified_at: 2023-11-12
+description: "Generate TLP status reports."
+content_hash: 68b07b4dc5178ca13b73af6a927c3aaf41f70982
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # tlp-stat
 
-A tool to generate TLP status reports.
+Generate TLP status reports.
 See also `tlp`.
 More information: <https://linrunner.de/tlp/usage/tlp-stat>.
 

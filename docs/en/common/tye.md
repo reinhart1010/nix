@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/tye (English)
-description: "Developer tool that makes developing, testing, and deploying microservices and distributed applications easier."
-content_hash: 537e32c88c04da2bf17387b98fdffe498f27c0ab
-last_modified_at: 2023-11-12
+description: "Develop, test, and deploy microservices and distributed applications easily."
+content_hash: e04a97c4d5b569d504ea901977d2956639656042
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # tye
 
-Developer tool that makes developing, testing, and deploying microservices and distributed applications easier.
+Develop, test, and deploy microservices and distributed applications easily.
 More information: <https://github.com/dotnet/tye>.
 
 - Scaffold a `tye.yaml` file representing the application:

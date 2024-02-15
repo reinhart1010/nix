@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/rustup-which (English)
-description: "Display which binary will be run for a given command managed by `rustup`."
-content_hash: 14371dc6987db2d0635274a65addcbf54abb5f58
-last_modified_at: 2023-11-12
+description: "Display which binary will be run for a command managed by `rustup`."
+content_hash: 352c4e7c091fe67b7b1f1709214148e0c48bc93b
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # rustup which
 
-Display which binary will be run for a given command managed by `rustup`.
+Display which binary will be run for a command managed by `rustup`.
 Like `which`, but searches a Rust toolchain instead of `$PATH`.
 More information: <https://rust-lang.github.io/rustup>.
 

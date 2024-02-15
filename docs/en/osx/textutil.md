@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/textutil (English)
-description: "Used to manipulate text files of various formats."
-content_hash: feab9855860b8bf99c7f8ae9f1d3f7bdc4ae1bc9
-last_modified_at: 2024-01-31
+description: "Manipulate text files of various formats."
+content_hash: 1b9e41366a4c7fc62650753aacedf7ca5bdee045
+last_modified_at: 2024-02-15
 related_topics:
   - title: español version
     url: /es/osx/textutil.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # textutil
 
-Used to manipulate text files of various formats.
+Manipulate text files of various formats.
 More information: <https://keith.github.io/xcode-man-pages/textutil.1.html>.
 
 - Display information about `foo.rtf`:

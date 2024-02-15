@@ -2,14 +2,14 @@
 layout: page
 title: linux/tcpick (English)
 description: "Packet sniffing and network traffic analysis tool."
-content_hash: de0f1737badf56d9c1773b1e066e51d754c5ae68
-last_modified_at: 2023-11-12
+content_hash: c298e9d81db65f254c50b96156c51459a1e7a06b
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # tcpick
 
 Packet sniffing and network traffic analysis tool.
-It can capture and display TCP connections and data. It can also monitor network traffic on a specific interface, host, or port.
+It can capture and display TCP connections and data. It can also monitor network traffic on a interface, host, or port.
 More information: <https://manned.org/tcpick.8>.
 
 - Capture traffic on a specific [i]nterface, port and host::

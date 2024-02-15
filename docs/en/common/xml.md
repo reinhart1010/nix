@@ -1,15 +1,15 @@
 ---
 layout: page
 title: common/xml (English)
-description: "XMLStarlet Toolkit: Query, edit, check, convert and transform XML documents."
-content_hash: 58bbe4109f2fa30b5b53a2168a90509c20e8b198
-last_modified_at: 2024-01-30
+description: "XMLStarlet Toolkit: query, edit, check, convert and transform XML documents."
+content_hash: 085fef8b34753a8ca41eaf1bb6506c2cb0191b6b
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # xml
 
-XMLStarlet Toolkit: Query, edit, check, convert and transform XML documents.
-This command also has documentation about its subcommands, e.g. `xml validate`.
+XMLStarlet Toolkit: query, edit, check, convert and transform XML documents.
+Some subcommands such as `xml validate` have their own usage documentation.
 More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 - Display general help, including the list of subcommands:

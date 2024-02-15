@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fmt (English)
-description: "Reformat a text file by joining its paragraphs and limiting the line width to given number of characters (75 by default)."
-content_hash: ef21f095733f08b23dd446f5655747d4eed44a32
-last_modified_at: 2023-11-12
+description: "Reformat a text file by joining its paragraphs and limiting the line width to a number of characters (75 by default)."
+content_hash: 6bc37b9279cece967d4b2f64d2f71efb0e152687
+last_modified_at: 2024-02-15
 related_topics:
   - title: italiano version
     url: /it/common/fmt.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # fmt
 
-Reformat a text file by joining its paragraphs and limiting the line width to given number of characters (75 by default).
+Reformat a text file by joining its paragraphs and limiting the line width to a number of characters (75 by default).
 More information: <https://www.gnu.org/software/coreutils/fmt>.
 
 - Reformat a file:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/xprop (English)
-description: "A tool for displaying window and font properties in an X server."
-content_hash: 19de8f16b7fe54ec526cd4fb3e017f3b72e054ae
-last_modified_at: 2023-11-12
+description: "Display window and font properties in an X server."
+content_hash: a8d2663944c57dfd99aa61ed172e82ead3635495
+last_modified_at: 2024-02-15
 tldri18n_status: 2
 ---
 # xprop
 
-A tool for displaying window and font properties in an X server.
+Display window and font properties in an X server.
 More information: <https://manned.org/xprop>.
 
 - Display the name of the root window:

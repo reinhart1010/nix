@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/n (English)
-description: "Tool to manage multiple node versions."
-content_hash: 374d0e9e9bf418db06d59500f6b0158c28f54ed1
-last_modified_at: 2023-11-12
+description: "Manage multiple node versions."
+content_hash: 6f172a15ab62117c9f2040a8503aad2c1f1080f7
+last_modified_at: 2024-02-15
 related_topics:
   - title: ไทย version
     url: /th/common/n.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # n
 
-Tool to manage multiple node versions.
+Manage multiple node versions.
 More information: <https://github.com/tj/n>.
 
 - Install a given version of node. If the version is already installed, it will be activated:

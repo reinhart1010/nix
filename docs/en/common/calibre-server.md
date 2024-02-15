@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/calibre-server (English)
-description: "A server application that can be used to distribute e-books over a network."
-content_hash: 37cf454534d4fec82825b4cf0e05a73a03e41383
-last_modified_at: 2023-11-12
+description: "A server application to distribute e-books over a network."
+content_hash: 8bf7b39a2df2d0c25e5d08d673e238f11083c8a7
+last_modified_at: 2024-02-15
 related_topics:
   - title: italiano version
     url: /it/common/calibre-server.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # calibre-server
 
-A server application that can be used to distribute e-books over a network.
+A server application to distribute e-books over a network.
 Note: e-books must already be imported into the library using the GUI or the `calibredb` CLI.
 More information: <https://manual.calibre-ebook.com/generated/en/calibre-server.html>.
 

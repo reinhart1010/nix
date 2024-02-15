@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/choco-pin (English)
-description: "Pin a package at a specific version with Chocolatey."
-content_hash: 7b34dfe48db72ae801a01ed3680f686bda427d85
-last_modified_at: 2023-11-12
+description: "Pin a package at a version with Chocolatey."
+content_hash: 6cb0ccb128a6ee7f82f9d2b4676aa92c9c876cca
+last_modified_at: 2024-02-15
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-pin.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # choco pin
 
-Pin a package at a specific version with Chocolatey.
+Pin a package at a version with Chocolatey.
 Pinned packages are skipped automatically when upgrading.
 More information: <https://chocolatey.org/docs/commands-pin>.
 
