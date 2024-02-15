@@ -2,8 +2,8 @@
 layout: page
 title: common/yes (Nederlands)
 description: "Iets herhaaldelijk uitvoeren."
-content_hash: 79fcec2b6da72de1361898da5b86c82136552271
-last_modified_at: 2024-02-13
+content_hash: 9eb1cafe51233b7bbc01b57dc79f9c560a848826
+last_modified_at: 2024-02-15
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -45,3 +45,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/yes>.
 - Accepteer alles wat wordt gevraagd door het commando `apt-get`:
 
 `yes | sudo apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programma</span>
+
+- Print herhaaldelijk een nieuwe regel om altijd de standaard optie van een vraag te accepteren:
+
+`yes ''`

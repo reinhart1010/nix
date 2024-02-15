@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (Nederlands)
 description: "Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org."
-content_hash: 63eff7c29d661f8d83e054961f2e949bcb442362
-last_modified_at: 2024-02-01
+content_hash: 17d1d5584e2499a4fe84eb6f9c966b6207411360
+last_modified_at: 2024-02-15
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -28,7 +28,8 @@ tldri18n_status: 2
 # asciinema
 
 Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org.
-Meer informatie: <https://asciinema.org/docs/usage>.
+Bekijk ook: `terminalizer`.
+Meer informatie: <https://docs.asciinema.org/manual/cli/usage>.
 
 - Associeer de lokale installatie van `asciinema` met het asciinema.org account:
 
@@ -40,24 +41,24 @@ Meer informatie: <https://asciinema.org/docs/usage>.
 
 - Maak een nieuwe opname en sla het op in een lokaal bestand:
 
-`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.cast</span>
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/opname.cast</span>
 
-- Speelt een terminal opname of vanaf een lokaal bestand:
+- Speel een terminal opname af vanaf een lokaal bestand:
 
-`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.cast</span>
+`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/opname.cast</span>
 
-- Speelt een terminal opname of vanaf asciinema.org:
+- Speel een terminal opname af vanaf asciinema.org:
 
 `asciinema play https://asciinema.org/a/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cast_id</span>
 
-- Maakt een nieuwe opname met een inactieve tijd van maximaal 2,5 seconden:
+- Maak een nieuwe opname met een [i]nactieve tijd van maximaal 2,5 seconden:
 
-`asciinema rec -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.5</span>
+`asciinema rec -i 2.5`
 
 - Laat de volledige inhoud zien van een lokaal opgeslagen opname:
 
-`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.cast</span>
+`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/opname.cast</span>
 
-- Slaat een lokaal opgeslagen terminal sessie op bij asciinema.org:
+- Sla een lokaal opgeslagen terminal sessie op bij asciinema.org:
 
-`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.cast</span>
+`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/opname.cast</span>

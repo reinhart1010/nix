@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (italiano)
 description: "Registra e riproduci sessioni di terminale, condividendole opzionalmente su asciiname.org."
-content_hash: 624868d4fda61367e8e7bed395456c9c9f36412c
-last_modified_at: 2023-11-12
+content_hash: 96ce8717de350f085ae0a4e25d53ad8f363ce69b
+last_modified_at: 2024-02-15
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # asciinema
 
 Registra e riproduci sessioni di terminale, condividendole opzionalmente su asciiname.org.
-Maggiori informazioni: <https://asciinema.org/docs/usage>.
+Maggiori informazioni: <https://docs.asciinema.org/manual/cli/usage>.
 
 - Associa l'installazione locale di `asciiname` ad un account di asciiname.org:
 
@@ -40,24 +40,24 @@ Maggiori informazioni: <https://asciinema.org/docs/usage>.
 
 - Avvia una nuova registrazione e salvala come file locale:
 
-`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_registrazione</span>`.cast`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/registrazione.cast</span>
 
 - Riproduci una sessione da un file locale:
 
-`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>`.cast`
+`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/registrazione.cast</span>
 
 - Riproducei una sessione da asciinema.org:
 
 `asciinema play https://asciinema.org/a/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_registrazione</span>
 
-- Avvia una nuova registrazione, limitando qualsiasi periodo di inattività a 2.5 secondi:
+- Avvia una nuova registrazione, limitando qualsiasi periodo di [i]nattività a 2.5 secondi:
 
-`asciinema rec -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.5</span>
+`asciinema rec -i 2.5`
 
 - Stampa l'output completo di una sessione locale:
 
-`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>`.cast`
+`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/registrazione.cast</span>
 
 - Carica una sessione locale su asciinama.org:
 
-`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>`.cast`
+`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/registrazione.cast</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (español)
 description: "Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org."
-content_hash: 7c2559a031aba09f65c7aec276e7d2f26603ac54
-last_modified_at: 2023-11-12
+content_hash: 8f3a86e3000e5d06378f81290a8930c08385332c
+last_modified_at: 2024-02-15
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # asciinema
 
 Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org.
-Más información: <https://asciinema.org/docs/usage>.
+Más información: <https://docs.asciinema.org/manual/cli/usage>.
 
 - Asocia el programa local de `asciinema` con una cuenta de asciinema.org:
 
@@ -40,24 +40,24 @@ Más información: <https://asciinema.org/docs/usage>.
 
 - Crea una nueva grabación y la guarda en un archivo local:
 
-`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/archivo</span>`.cast`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/grabación.cast</span>
 
 - Reproduce una grabación desde un archivo local:
 
-`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/archivo</span>`.cast`
+`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/grabación.cast</span>
 
 - Reproduce una grabación desde asciinema.org:
 
-`asciinema play https://asciinema.org/a/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cast_id</span>
+`asciinema play https://asciinema.org/a/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grabación_id</span>
 
 - Crea una nueva grabación, limitando el tiempo de espera máximo a 2.5 segundos:
 
-`asciinema rec -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.5</span>
+`asciinema rec -i 2.5`
 
 - Imprime la salida completa de un archivo local de grabación:
 
-`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/archivo</span>`.cast`
+`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/grabación.cast</span>
 
 - Sube un archivo local de grabación a asciinema.org:
 
-`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/archivo</span>`.cast`
+`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/grabación.cast</span>
