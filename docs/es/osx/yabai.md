@@ -2,8 +2,8 @@
 layout: page
 title: osx/yabai (español)
 description: "Un administrador de ventanas en mosaico para macOS basado en la partición de espacio binario."
-content_hash: 79d74c5fd436e8a1a9ed67413370a8215e8f463e
-last_modified_at: 2023-11-12
+content_hash: c5fe85e52745bbd26bc8df3d7d447c77de445de6
+last_modified_at: 2024-02-15
 related_topics:
   - title: English version
     url: /en/osx/yabai.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # yabai
 
 Un administrador de ventanas en mosaico para macOS basado en la partición de espacio binario.
-Más información: <https://github.com/koekeishiya/yabai>.
+Más información: <https://github.com/koekeishiya/yabai/wiki>.
 
 - Establece la disposición a bsp:
 

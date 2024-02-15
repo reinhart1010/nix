@@ -2,8 +2,8 @@
 layout: page
 title: common/more (italiano)
 description: "Aprire un file per la lettura interattiva, con scorrimento e ricerca."
-content_hash: fa152610e087f0f8dd1c6ec2e4736ea35bf45628
-last_modified_at: 2023-11-12
+content_hash: e78d920e8b0c1bbf5bb476e9eaa7a3d75ba833c8
+last_modified_at: 2024-02-15
 related_topics:
   - title: English version
     url: /en/common/more.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # more
 
 Aprire un file per la lettura interattiva, con scorrimento e ricerca.
-Maggiori informazioni: <https://manned.org/more>.
+Maggiori informazioni: <https://manned.org/more.1p>.
 
 - Apri un file:
 

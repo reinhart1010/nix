@@ -2,8 +2,8 @@
 layout: page
 title: common/more (español)
 description: "Abre un archivo para lectura interactiva, permitiendo navegar y buscar."
-content_hash: 42814d248fbac6d54e1a3e5a99cc2e11287345e7
-last_modified_at: 2024-01-02
+content_hash: 1f5eda8eae1e2c97ca6bd1515e8c7a65438e1b74
+last_modified_at: 2024-02-15
 related_topics:
   - title: English version
     url: /en/common/more.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # more
 
 Abre un archivo para lectura interactiva, permitiendo navegar y buscar.
-Más información: <https://manned.org/more>.
+Más información: <https://manned.org/more.1p>.
 
 - Abre un archivo:
 
