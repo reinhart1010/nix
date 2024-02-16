@@ -3,7 +3,7 @@ layout: page
 title: common/chsh (Nederlands)
 description: "Wijzig de login-shell van de gebruiker."
 content_hash: effc76fbb1a710c6f5c2737e0d307f7c61f96593
-last_modified_at: 2024-02-15
+last_modified_at: 2024-02-16
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -41,12 +41,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/chsh.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chsh
+# chsh
 
 Wijzig de login-shell van de gebruiker.
 Bekijk platform-specifieke pagina's voor meer opties.

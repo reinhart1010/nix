@@ -3,7 +3,7 @@ layout: page
 title: common/yes (Nederlands)
 description: "Iets herhaaldelijk uitvoeren."
 content_hash: 9eb1cafe51233b7bbc01b57dc79f9c560a848826
-last_modified_at: 2024-02-15
+last_modified_at: 2024-02-16
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -23,12 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yes
+# yes
 
 Iets herhaaldelijk uitvoeren.
 Deze opdracht wordt vaak gebruikt om ja te beantwoorden op elke prompt door installatieopdrachten (zoals apt-get).

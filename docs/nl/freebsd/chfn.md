@@ -3,23 +3,14 @@ layout: page
 title: freebsd/chfn (Nederlands)
 description: "Dit commando is een alias van `chpass`."
 content_hash: 7dd247c4c25387f12d73cc0e40ec2220222da484
-last_modified_at: 2024-02-15
+last_modified_at: 2024-02-16
 related_topics:
   - title: English version
     url: /en/freebsd/chfn.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/chfn.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chfn
+# chfn
 
 Dit commando is een alias van `chpass`.
 

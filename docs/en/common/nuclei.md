@@ -3,19 +3,10 @@ layout: page
 title: common/nuclei (English)
 description: "Fast and customizable vulnerability scanner based on a simple YAML based DSL."
 content_hash: bd4fe35c388efbce956d6d17a02c1c1d23687dc6
-last_modified_at: 2024-02-15
-tldri18n_status: 0
+last_modified_at: 2024-02-16
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nuclei.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nuclei
+# nuclei
 
 Fast and customizable vulnerability scanner based on a simple YAML based DSL.
 More information: <https://github.com/projectdiscovery/nuclei>.
