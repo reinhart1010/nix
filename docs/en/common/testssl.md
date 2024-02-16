@@ -2,8 +2,8 @@
 layout: page
 title: common/testssl (English)
 description: "Check SSL/TLS protocols and ciphers supported by a server."
-content_hash: 397d4c5ea5d4af29b3208bd264f794a8a4c825ff
-last_modified_at: 2023-11-12
+content_hash: 6762c7305d2094075f8d7e2df3ac4d4360ab9c44
+last_modified_at: 2024-02-16
 tldri18n_status: 2
 ---
 # testssl
@@ -30,3 +30,7 @@ More information: <https://testssl.sh/>.
 - Only check HTTP security headers:
 
 `testssl --headers `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+
+- Test other STARTTLS enabled protocols:
+
+`testssl --starttls `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp|smtp|pop3|imap|xmpp|sieve|xmpp-server|telnet|ldap|irc|lmtp|nntp|postgres|mysql</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>

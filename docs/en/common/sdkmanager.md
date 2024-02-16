@@ -2,14 +2,14 @@
 layout: page
 title: common/sdkmanager (English)
 description: "Install packages for the Android SDK."
-content_hash: f44ba45fe9022b09c3283c00117787cf00aa15f6
-last_modified_at: 2024-02-15
+content_hash: 50ff63c13d21917932bef1c7ef5000acaddf151e
+last_modified_at: 2024-02-16
 tldri18n_status: 2
 ---
 # sdkmanager
 
 Install packages for the Android SDK.
-More information: <https://developer.android.com/studio/command-line/sdkmanager>.
+More information: <https://developer.android.com/tools/sdkmanager>.
 
 - List available packages:
 

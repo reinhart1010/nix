@@ -2,8 +2,8 @@
 layout: page
 title: android/am (English)
 description: "Android activity manager."
-content_hash: 3f4fbd72d07e798b2a700d0c3aaec0236735b0a5
-last_modified_at: 2023-11-12
+content_hash: 6be0e76db9faf9c7352cf4ad907633b100e91001
+last_modified_at: 2024-02-16
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 Android activity manager.
-More information: <https://developer.android.com/studio/command-line/adb#am>.
+More information: <https://developer.android.com/tools/adb#am>.
 
 - Start a specific activity:
 

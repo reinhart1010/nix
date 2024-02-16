@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-logcat (English)
 description: "Dump a log of system messages."
-content_hash: db2bcfd59bed3ba202ec9e85250945ce08de9554
-last_modified_at: 2024-02-09
+content_hash: 044290e3b2b463e3820f2ce3348fdb453808b1e9
+last_modified_at: 2024-02-16
 related_topics:
   - title: español version
     url: /es/common/adb-logcat.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # adb logcat
 
 Dump a log of system messages.
-More information: <https://developer.android.com/studio/command-line/logcat>.
+More information: <https://developer.android.com/tools/logcat>.
 
 - Display system logs:
 

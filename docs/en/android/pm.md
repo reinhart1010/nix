@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (English)
 description: "Display information about apps on an Android device."
-content_hash: 58472e9c28b655049a463564856a029eb9b8c273
-last_modified_at: 2024-02-09
+content_hash: c572210b82b52497044db90de7356724ff909c6e
+last_modified_at: 2024-02-16
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -64,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 Display information about apps on an Android device.
-More information: <https://developer.android.com/studio/command-line/adb#pm>.
+More information: <https://developer.android.com/tools/adb#pm>.
 
 - List all installed apps:
 

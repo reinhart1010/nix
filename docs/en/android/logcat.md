@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (English)
 description: "Dump a log of system messages, including stack traces when an error occurred, and information messages logged by applications."
-content_hash: 348fa09d11c3cd289a56fd1ec1421cec29ba83a4
-last_modified_at: 2024-02-09
+content_hash: 1e8a26dc5a445e0ed4fb5fd777e5e353eda84e75
+last_modified_at: 2024-02-16
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -67,7 +67,7 @@ tldri18n_status: 2
 # logcat
 
 Dump a log of system messages, including stack traces when an error occurred, and information messages logged by applications.
-More information: <https://developer.android.com/studio/command-line/logcat>.
+More information: <https://developer.android.com/tools/logcat>.
 
 - Display system logs:
 

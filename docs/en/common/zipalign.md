@@ -2,15 +2,15 @@
 layout: page
 title: common/zipalign (English)
 description: "Zip archive alignment tool."
-content_hash: 6197a0be3d299e52d07efbdee1b59135a1305aee
-last_modified_at: 2023-11-12
+content_hash: 7ab8c9cc095ad9276e3c3f6dbe929e8c63ed6617
+last_modified_at: 2024-02-16
 tldri18n_status: 2
 ---
 # zipalign
 
 Zip archive alignment tool.
 Part of the Android SDK build tools.
-More information: <https://developer.android.com/studio/command-line/zipalign>.
+More information: <https://developer.android.com/tools/zipalign>.
 
 - Align the data of a ZIP file on 4-byte boundaries:
 
