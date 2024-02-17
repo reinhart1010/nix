@@ -2,8 +2,8 @@
 layout: page
 title: linux/cal (Nederlands)
 description: "Toon kalenderinformatie, met de huidige dag gemarkeerd."
-content_hash: e18e303b42b1c36401426fd5fce80e81348bf74e
-last_modified_at: 2024-02-15
+content_hash: 5c8ee158a92e7fc42206366e2a7f283648f99181
+last_modified_at: 2024-02-17
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -49,9 +49,17 @@ Meer informatie: <https://manned.org/cal>.
 
 `cal`
 
-- Toon vorige, huidige en volgende maand:
+- Toon [3] maanden (vorige, huidige en volgende):
 
 `cal -3`
+
+- Toon de volledige kalender voor het huidige jaar:
+
+`cal --year`
+
+- Toon de volgende twaalf maanden:
+
+`cal --twelve`
 
 - Gebruik maandag als de eerste dag van de week:
 
