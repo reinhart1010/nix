@@ -3,7 +3,7 @@ layout: page
 title: linux/cal (Nederlands)
 description: "Toon kalenderinformatie, met de huidige dag gemarkeerd."
 content_hash: 5c8ee158a92e7fc42206366e2a7f283648f99181
-last_modified_at: 2024-02-17
+last_modified_at: 2024-02-18
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/cal.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cal
+# cal
 
 Toon kalenderinformatie, met de huidige dag gemarkeerd.
 Meer informatie: <https://manned.org/cal>.

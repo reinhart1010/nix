@@ -3,19 +3,10 @@ layout: page
 title: common/httpx (English)
 description: "A fast and multi-purpose HTTP toolkit written in Go to run multiple probes at once."
 content_hash: 581a3449b1c6ca14075ab9937a3b6afa80b77655
-last_modified_at: 2024-02-17
-tldri18n_status: 0
+last_modified_at: 2024-02-18
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/httpx.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># httpx
+# httpx
 
 A fast and multi-purpose HTTP toolkit written in Go to run multiple probes at once.
 Note: not to be confused with the unrelated Python's HTTPX which has the same command name.
