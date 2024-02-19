@@ -2,8 +2,8 @@
 layout: page
 title: common/bmaptool (English)
 description: "Create or copy block maps intelligently (designed to be faster than `cp` or `dd`)."
-content_hash: 5ff3e97b1fd8c2f21123798364372cf4db1e2d64
-last_modified_at: 2023-11-12
+content_hash: 3b06fd07bf42b7594ca946c012c1214c3f375936
+last_modified_at: 2024-02-19
 related_topics:
   - title: italiano version
     url: /it/common/bmaptool.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 Create or copy block maps intelligently (designed to be faster than `cp` or `dd`).
 More information: <https://source.tizen.org/documentation/reference/bmaptool>.
 
-- Create a blockmap from image file:
+- [o]utput a blockmap file from image file:
 
 `bmaptool create -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blockmap.bmap</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.img</span>
 

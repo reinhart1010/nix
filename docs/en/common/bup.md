@@ -2,8 +2,8 @@
 layout: page
 title: common/bup (English)
 description: "Backup system based on the Git packfile format, providing incremental saves and global deduplication."
-content_hash: 6f2511e810dd1609b0859fde7258610b47cd950d
-last_modified_at: 2023-11-12
+content_hash: c70afd88d733aabd566e8a5b1177607413526427
+last_modified_at: 2024-02-19
 related_topics:
   - title: italiano version
     url: /it/common/bup.html
@@ -21,15 +21,15 @@ tldri18n_status: 2
 Backup system based on the Git packfile format, providing incremental saves and global deduplication.
 More information: <https://github.com/bup/bup>.
 
-- Initialize a backup repository in the specified local directory:
+- Initialize a backup repository in a given local [d]irectory:
 
 `bup -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span>` init`
 
-- Prepare a given directory before taking a backup:
+- Prepare a given [d]irectory before taking a backup:
 
 `bup -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span>` index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Backup a directory to the repository:
+- Backup a [d]irectory to the repository specifying its [n]ame:
 
 `bup -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span>` save -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">backup_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
@@ -37,6 +37,6 @@ More information: <https://github.com/bup/bup>.
 
 `bup -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span>` ls`
 
-- Restore a specific backup snapshot to a target directory:
+- Restore a specific backup snapshot to a target dire[C]tory:
 
 `bup -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span>` restore -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">backup_name</span>

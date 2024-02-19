@@ -2,15 +2,15 @@
 layout: page
 title: common/chafa (English)
 description: "Image printing in the terminal."
-content_hash: 59243002330d37514e487ab736345301e66749eb
-last_modified_at: 2023-11-12
+content_hash: 455e978f639e1ade3db93d7ca731ab21eb82b319
+last_modified_at: 2024-02-19
 tldri18n_status: 2
 ---
 # chafa
 
 Image printing in the terminal.
 See also: `catimg`, `pixterm`.
-More information: <https://hpjansson.org/chafa>.
+More information: <https://hpjansson.org/chafa/man>.
 
 - Render an image directly in the terminal:
 

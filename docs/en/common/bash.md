@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (English)
 description: "Bourne-Again SHell, an `sh`-compatible command-line interpreter."
-content_hash: c1a0f9599667b74bbeaadcefde3a19f78e07a96a
-last_modified_at: 2023-12-29
+content_hash: f929db37030767687b820a1075dcdf07dfa93727
+last_modified_at: 2024-02-19
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -56,7 +56,7 @@ More information: <https://www.gnu.org/software/bash/>.
 
 `bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
-- Execute a specific script while printing each command before executing it:
+- E[x]ecute a specific script, printing each command before executing it:
 
 `bash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 

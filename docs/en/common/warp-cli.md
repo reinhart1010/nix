@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/warp-cli (English)
-description: "Official command-line client for Cloudflare's WARP service."
-content_hash: 41b9627c2970858d3b8f04a6292a7378202bfd25
-last_modified_at: 2023-11-12
+description: "Connect, disconnect and switch modes of a connection to Cloudflare's WARP service."
+content_hash: fd6575517c0cc0e8553e76377e684410f78744cf
+last_modified_at: 2024-02-19
 related_topics:
   - title: Indonesia version
     url: /id/common/warp-cli.html
@@ -12,7 +12,9 @@ tldri18n_status: 2
 ---
 # warp-cli
 
-Official command-line client for Cloudflare's WARP service.
+Connect, disconnect and switch modes of a connection to Cloudflare's WARP service.
+WARP is a VPN that encrypts traffic for privacy, security, and speed.
+See also: `fastd`, `ivpn`, `mozzilavpn`, `mullvad`.
 More information: <https://developers.cloudflare.com/warp-client/>.
 
 - Register the current device to WARP (must be run before first connection):
@@ -30,6 +32,10 @@ More information: <https://developers.cloudflare.com/warp-client/>.
 - Display the WARP connection status:
 
 `warp-cli status`
+
+- Switch to a specific mode:
+
+`warp-cli set-mode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mode</span>
 
 - Display help:
 

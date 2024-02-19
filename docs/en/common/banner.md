@@ -2,8 +2,8 @@
 layout: page
 title: common/banner (English)
 description: "Print the argument as a large ASCII art."
-content_hash: a5f51fa82c116c4c1874e2297ac56b514ad2428e
-last_modified_at: 2024-02-15
+content_hash: 611aac0547b0f0af0141e0bf6680a02806bb1a60
+last_modified_at: 2024-02-19
 related_topics:
   - title: हिन्दी version
     url: /hi/common/banner.html
@@ -31,9 +31,9 @@ More information: <https://manned.org/banner>.
 
 `banner "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span>`"`
 
-- Print the text message as a banner with a width of 50 characters:
+- Use a banner [w]idth of 50 characters:
 
-`banner -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span>`"`
+`banner -w 50 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span>`"`
 
 - Read text from `stdin`:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/am (English)
 description: "Android activity manager."
-content_hash: 6be0e76db9faf9c7352cf4ad907633b100e91001
-last_modified_at: 2024-02-16
+content_hash: 00261ce655125765aadf182695f17706084788fa
+last_modified_at: 2024-02-19
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -75,11 +75,11 @@ tldri18n_status: 2
 Android activity manager.
 More information: <https://developer.android.com/tools/adb#am>.
 
-- Start a specific activity:
+- Start the activity with a specific component and package [n]ame:
 
 `am start -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.android.settings/.Settings</span>
 
-- Start an activity and pass [d]ata to it:
+- Start an intent [a]ction and pass [d]ata to it:
 
 `am start -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span>
 

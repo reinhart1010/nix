@@ -2,8 +2,8 @@
 layout: page
 title: common/black (English)
 description: "A Python auto code formatter."
-content_hash: ebc8682298a1fe3ec6e1b0c000c3fff134e4580a
-last_modified_at: 2024-01-31
+content_hash: bc24744b12b6d54aa38b8396530ece4d1b864578
+last_modified_at: 2024-02-19
 related_topics:
   - title: italiano version
     url: /it/common/black.html
@@ -22,7 +22,7 @@ More information: <https://black.readthedocs.io/en/stable/usage_and_configuratio
 
 `black `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
-- Format the code passed in as a string:
+- Format the [c]ode passed in as a string:
 
 `black -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span>`"`
 

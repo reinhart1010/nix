@@ -2,8 +2,8 @@
 layout: page
 title: common/boxes (English)
 description: "Draw, remove, and repair ASCII art boxes."
-content_hash: acc86b635d88a7090e9f9562556c5c683868371a
-last_modified_at: 2024-01-20
+content_hash: 237e0adb0eff631eeca6c7d906b337246c19e63b
+last_modified_at: 2024-02-19
 related_topics:
   - title: فارسی version
     url: /fa/common/boxes.html
@@ -22,18 +22,26 @@ More information: <https://boxes.thomasjensen.com/boxes-man-1.html>.
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" | boxes`
 
-- Remove a box from a string:
+- [r]emove a box from a string:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" | boxes -r`
 
-- Draw a box with a specific design around a string:
+- Specify the box [d]esign:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" | boxes -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parchment</span>
 
-- Draw a box with a width of 10 and a height of 5:
+- Specify the box [s]ize (in columns by lines):
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" | boxes -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>`x`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
 
-- Draw a box with centered text:
+- [a]lign the box text [h]orizonally (at [l]eft, [c]enter or [r]ight):
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" | boxes -a c`
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" | boxes -a h`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">l|c|r</span>
+
+- [a]lign the box text [v]ertically (at [t]op, [c]enter or [b]ottom):
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" | boxes -a v`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">t|c|b</span>
+
+- [j]ustify the box text (at [l]eft, [c]enter or [r]ight):
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" | boxes -a j`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">l|c|r</span><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vt</span>

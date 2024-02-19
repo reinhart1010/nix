@@ -2,8 +2,8 @@
 layout: page
 title: common/bosh (English)
 description: "Deploy and manage the BOSH director."
-content_hash: daf771e313bec33c123cd9355857cdbe7b25e7e1
-last_modified_at: 2024-02-15
+content_hash: 0221fc2646343465657720021aa672492befff0b
+last_modified_at: 2024-02-19
 related_topics:
   - title: italiano version
     url: /it/common/bosh.html
@@ -18,9 +18,9 @@ tldri18n_status: 2
 Deploy and manage the BOSH director.
 More information: <https://bosh.io/docs/cli-v2/>.
 
-- Create local alias for director:
+- Create local alias for director in a specific [e]nvironment:
 
-`bosh alias-env `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_name</span>` -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address|url</span>` --ca-cert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ca_certificate</span>
+`bosh alias-env `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_name</span>` -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address|URL</span>` --ca-cert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ca_certificate</span>
 
 - List environments:
 
@@ -34,11 +34,11 @@ More information: <https://bosh.io/docs/cli-v2/>.
 
 `bosh -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment</span>` deployments`
 
-- List environment virtual machines:
+- List environment virtual machines in a [d]eployment:
 
 `bosh -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment</span>` vms -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment</span>
 
-- Ssh into virtual machine:
+- SSH into virtual machine:
 
 `bosh -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment</span>` ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">virtual_machine</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment</span>
 

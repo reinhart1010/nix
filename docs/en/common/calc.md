@@ -2,8 +2,8 @@
 layout: page
 title: common/calc (English)
 description: "An interactive arbitrary-precision calculator in the terminal."
-content_hash: 53c419e379262cf74e3a7351e82b96f2f8cd06ff
-last_modified_at: 2023-11-12
+content_hash: 945ee6b2c7431acc9027c89b744ba2146b3eca3a
+last_modified_at: 2024-02-19
 related_topics:
   - title: català version
     url: /ca/common/calc.html
@@ -44,7 +44,7 @@ More information: <https://github.com/lcn2/calc>.
 
 `calc '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">85 * (36 / 4)</span>`'`
 
-- Perform a calculation without any output formatting (for use with pipes):
+- Don't format the output (for use with [p]ipes):
 
 `calc -p '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4/3 * pi() * 5^3</span>`'`
 

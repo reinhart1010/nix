@@ -2,8 +2,8 @@
 layout: page
 title: common/beanstalkd (English)
 description: "A simple and generic work-queue server."
-content_hash: 1a916aa45d70cae88b2955163af8fde7dfd3814b
-last_modified_at: 2023-11-12
+content_hash: 5aa5adc1e5b52d728f845b21bae2d1e093a46f42
+last_modified_at: 2024-02-19
 related_topics:
   - title: italiano version
     url: /it/common/beanstalkd.html
@@ -18,11 +18,11 @@ tldri18n_status: 2
 A simple and generic work-queue server.
 More information: <https://beanstalkd.github.io/>.
 
-- Start Beanstalk, listening on port 11300:
+- Start the server, listening on port 11300:
 
 `beanstalkd`
 
-- Start Beanstalk listening on a custom port and address:
+- Listen on a specific [p]ort and address:
 
 `beanstalkd -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span>
 

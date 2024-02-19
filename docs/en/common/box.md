@@ -2,8 +2,8 @@
 layout: page
 title: common/box (English)
 description: "A PHP application for building and managing Phars."
-content_hash: 3390967f54c9b2cbb004c1d8713c16ff802f58e3
-last_modified_at: 2024-01-30
+content_hash: 69df413026226493efecb6e9270ea7fad6360af8
+last_modified_at: 2024-02-19
 related_topics:
   - title: italiano version
     url: /it/common/box.html
@@ -22,7 +22,7 @@ More information: <https://github.com/box-project/box>.
 
 `box compile`
 
-- Compile a new Phar file using a specific configuration file:
+- Compile a new Phar file using a specific [c]onfiguration file:
 
 `box compile -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config</span>
 

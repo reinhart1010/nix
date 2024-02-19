@@ -2,8 +2,8 @@
 layout: page
 title: common/carbon-now (English)
 description: "Create beautiful images of code."
-content_hash: 66aebc1163ae87ebd8a862caa28bcfe48fb50060
-last_modified_at: 2023-11-12
+content_hash: 6d0eb155bfc7ed7a5a596bfae7098c20a61a8e90
+last_modified_at: 2024-02-19
 related_topics:
   - title: 中文 version
     url: /zh/common/carbon-now.html
@@ -23,23 +23,23 @@ More information: <https://github.com/mixn/carbon-now-cli>.
 
 `carbon-now --from-clipboard`
 
-- Create an image from `stdin` using default settings:
+- Create an image from `stdin` using default settings and copy to the clipboard:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span>` | carbon-now`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span>` | carbon-now --to-clipboard`
 
-- Create images interactively for custom settings and optionally save a preset:
+- Create images [i]nteractively for custom settings and optionally save a preset:
 
 `carbon-now -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Create images from previously saved preset:
+- Create images from a previously saved [p]reset:
 
 `carbon-now -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">preset</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Start at a specified line of text:
+- [s]tart at a specified line of text:
 
 `carbon-now -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- End at a specific line of text:
+- [e]nd at a specific line of text:
 
 `carbon-now -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

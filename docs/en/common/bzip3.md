@@ -2,8 +2,8 @@
 layout: page
 title: common/bzip3 (English)
 description: "An efficient statistical file compressor."
-content_hash: 686c81e48aee3c1ba2d4dec19e0b5f8a16ad5cc9
-last_modified_at: 2023-11-12
+content_hash: 64e498df5ad49dfae5816ea89b253832d43a712f
+last_modified_at: 2024-02-19
 tldri18n_status: 2
 ---
 # bzip3
@@ -15,11 +15,11 @@ More information: <https://github.com/kspalaiologos/bzip3>.
 
 `bzip3 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_to_compress</span>
 
-- Decompress a file:
+- [d]ecompress a file:
 
 `bzip3 -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz3</span>
 
-- Decompress a file to `stdout`:
+- Decompress a file to `stdout` ([c]):
 
 `bzip3 -dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz3</span>
 
@@ -33,7 +33,7 @@ More information: <https://github.com/kspalaiologos/bzip3>.
 
 - Decompress a file overwriting existing files:
 
-`bzip3 --force `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz3</span>
+`bzip3 -d --force `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz3</span>
 
 - Display help:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/batch (English)
 description: "Execute commands at a later time when the system load levels permit."
-content_hash: 1ff462dda84df85df3c05c981b8fa15d6193a679
-last_modified_at: 2023-11-12
+content_hash: fb49528253d59963c199192731f0984795c9fb45
+last_modified_at: 2024-02-19
 related_topics:
   - title: italiano version
     url: /it/common/batch.html
@@ -33,6 +33,6 @@ More information: <https://manned.org/batch>.
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span>`" | batch`
 
-- Execute commands from a given file:
+- Execute commands from a given [f]ile:
 
 `batch -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

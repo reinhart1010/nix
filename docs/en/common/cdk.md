@@ -2,8 +2,8 @@
 layout: page
 title: common/cdk (English)
 description: "A CLI for AWS Cloud Development Kit (CDK)."
-content_hash: 893188339d305ce9347d0ae23674baccf2a7e1e3
-last_modified_at: 2024-01-31
+content_hash: dcbaf827a920dd2ae97e83047329e3cf6d347fc6
+last_modified_at: 2024-02-19
 tldri18n_status: 2
 ---
 # cdk
@@ -31,7 +31,7 @@ More information: <https://docs.aws.amazon.com/cdk/latest/guide/cli.html>.
 
 `cdk diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name</span>
 
-- Create a new CDK project in the current directory for a specified language:
+- Create a new CDK project in the current directory for a specified [l]anguage:
 
 `cdk init -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language</span>
 
