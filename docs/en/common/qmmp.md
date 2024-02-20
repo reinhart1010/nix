@@ -1,17 +1,17 @@
 ---
 layout: page
 title: common/qmmp (English)
-description: "An audio player."
-content_hash: d74ce0e91330a6076a1b6d308fba3b577ee1d5d6
-last_modified_at: 2023-11-12
+description: "An audio player with an interface similar to Winamp or XMMS."
+content_hash: 58f7265f7a8ca3ba5508fe76295d59b2881dec3d
+last_modified_at: 2024-02-20
 tldri18n_status: 2
 ---
 # qmmp
 
-An audio player.
+An audio player with an interface similar to Winamp or XMMS.
 More information: <http://qmmp.ylsoftware.com>.
 
-- Launch qmmp:
+- Launch the GUI:
 
 `qmmp`
 
@@ -19,7 +19,7 @@ More information: <http://qmmp.ylsoftware.com>.
 
 `qmmp --play-pause`
 
-- Seek forwards or backward a specific amount of time in seconds:
+- Seek [f]or[w]ar[d]s or [b]ack[w]ar[d]s a specific amount of time in seconds:
 
 `qmmp --seek-`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fwd|bwd</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">time_in_seconds</span>
 
@@ -31,10 +31,10 @@ More information: <http://qmmp.ylsoftware.com>.
 
 `qmmp --previous`
 
-- Print the current volume:
+- Display the current volume:
 
 `qmmp --volume-status`
 
-- Increase or decrease the volume of the currently playing audio by 5 steps:
+- [inc]rease or [dec]rease the volume of the currently playing audio by 5%:
 
 `qmmp --volume-`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc|dec</span>
