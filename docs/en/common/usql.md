@@ -3,19 +3,10 @@ layout: page
 title: common/usql (English)
 description: "Universal CLI interface for SQL databases."
 content_hash: b05a8849fc553913121d57837bb47bf7da781db9
-last_modified_at: 2024-02-19
-tldri18n_status: 0
+last_modified_at: 2024-02-20
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/usql.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># usql
+# usql
 
 Universal CLI interface for SQL databases.
 More information: <https://github.com/xo/usql>.

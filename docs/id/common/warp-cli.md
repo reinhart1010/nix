@@ -3,14 +3,17 @@ layout: page
 title: common/warp-cli (Indonesia)
 description: "Program command-line resmi untuk layanan Cloudflare WARP."
 content_hash: 8cccf13b75444680bd0c097afa61f494c68a6ad5
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-20
 related_topics:
   - title: English version
     url: /en/common/warp-cli.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# warp-cli
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># warp-cli
 
 Program command-line resmi untuk layanan Cloudflare WARP.
 Informasi lebih lanjut: <https://developers.cloudflare.com/warp-client/>.

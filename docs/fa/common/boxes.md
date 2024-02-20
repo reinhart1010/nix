@@ -3,7 +3,7 @@ layout: page
 title: common/boxes (فارسی)
 description: "کشیدن، حذف و تعمیر جعبه های هنری اسکی."
 content_hash: 458ea0b0b563524ca22cada0c5f725148e3944e3
-last_modified_at: 2024-01-21
+last_modified_at: 2024-02-20
 related_topics:
   - title: English version
     url: /en/common/boxes.html
@@ -11,9 +11,12 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/boxes.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# boxes
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># boxes
 
 کشیدن، حذف و تعمیر جعبه های هنری اسکی.
 اطلاعات بیشتر: <https://boxes.thomasjensen.com/boxes-man-1.html>.
