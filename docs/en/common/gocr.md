@@ -3,19 +3,10 @@ layout: page
 title: common/gocr (English)
 description: "Optical Character Recognition tool."
 content_hash: 4088c3ce1187d1a2e2ece8512d08a89df0b56360
-last_modified_at: 2024-02-20
-tldri18n_status: 0
+last_modified_at: 2024-02-21
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gocr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gocr
+# gocr
 
 Optical Character Recognition tool.
 Recognize characters using its engine, and prompt the user for unknown patterns to store them in a database.
