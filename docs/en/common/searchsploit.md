@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/searchsploit (English)
-description: "Searchsploit searches exploit database's database for exploits, shellcodes and/or papers."
-content_hash: 6e4fdde03530fb10c6c0c1ea49f2b2899732bb33
-last_modified_at: 2023-11-12
+description: "Search Exploit Database for exploits, shellcodes and/or papers."
+content_hash: fade5599ea176658541d5b6fee8aa952cd8634db
+last_modified_at: 2024-02-21
 tldri18n_status: 2
 ---
 # searchsploit
 
-Searchsploit searches exploit database's database for exploits, shellcodes and/or papers.
+Search Exploit Database for exploits, shellcodes and/or papers.
 If known version numbers are used as search terms, exploits for both the exact version and others whose version range covers the one specified are shown.
 More information: <https://www.exploit-db.com/searchsploit>.
 
@@ -24,14 +24,22 @@ More information: <https://www.exploit-db.com/searchsploit>.
 
 `searchsploit --www `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_terms</span>
 
-- Make a copy of the resource to the current directory (requires the number of the exploit):
+- Copy ([m]irror) the resource to the current directory (requires the number of the exploit):
 
 `searchsploit --mirror `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exploit_number</span>
 
-- Open the resource to read with the pager defined in the `$PAGER` environment variable:
+- E[x]amine the resource, using the pager defined in the `$PAGER` environment variable:
 
-`searchsploit --explore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exploit_number</span>
+`searchsploit --examine `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exploit_number</span>
 
-- Update the local exploit database:
+- [u]pdate the local Exploit Database:
 
 `searchsploit --update`
+
+- Search for the [c]ommon [v]ulnerabilities and [e]xposures (CVE) value:
+
+`searchsploit --cve `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2021-44228</span>
+
+- Check results in `nmap`'s XML output with service version (`nmap -sV -oX nmap-output.xml`) for known exploits:
+
+`searchsploit --nmap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/nmap-output.xml</span>

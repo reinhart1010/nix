@@ -2,8 +2,8 @@
 layout: page
 title: common/clementine (English)
 description: "A modern music player and library organizer."
-content_hash: 1a8c4bbfae25e99777ec028288be8fd9ae62170c
-last_modified_at: 2023-11-12
+content_hash: f992fa12137a6179caa6665a9162bca8023e3ec3
+last_modified_at: 2024-02-21
 related_topics:
   - title: italiano version
     url: /it/common/clementine.html
@@ -16,15 +16,15 @@ tldri18n_status: 2
 # clementine
 
 A modern music player and library organizer.
-More information: <https://www.clementine-player.org>.
+More information: <https://github.com/clementine-player/Clementine/wiki>.
 
-- Open Clementine:
+- Start the GUI or bring it to front:
 
 `clementine`
 
-- Start playing a music file:
+- Start playing music:
 
-`clementine `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url/or/path/to/file.ext</span>
+`clementine `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|path/to/music.ext</span>
 
 - Toggle between pausing and playing:
 
@@ -34,18 +34,18 @@ More information: <https://www.clementine-player.org>.
 
 `clementine --stop`
 
-- Skip to the next track:
+- Skip to the next or previous track:
 
-`clementine --next`
+`clementine --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">next|previous</span>
 
-- Skip to the previous track:
+- Create a new playlist with one or more music files or URLs:
 
-`clementine --previous`
+`clementine --create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1 url2 ... | path/to/music1.ext path/to/music2.ext ...</span>
 
 - Load a playlist file:
 
 `clementine --load `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/playlist.ext</span>
 
-- Play the 5th track in the currently loaded playlist:
+- Play a specific track in the currently loaded playlist:
 
 `clementine --play-track `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
