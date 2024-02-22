@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (हिन्दी)
 description: "सिस्टम संदेशों का एक लॉग डंप करें, जिसमें त्रुटि होने पर स्टैक ट्रेस और एप्लिकेशन द्वारा लॉग किए गए सूचना संदेश शामिल हों।"
-content_hash: 8392a6f66cfca60ac179ecb2f0f7ce2937bd9231
-last_modified_at: 2023-11-12
+content_hash: 26a9b5ea6b4a8a9f91873478787ba6ff0f30f489
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -64,7 +67,7 @@ tldri18n_status: 2
 # logcat
 
 सिस्टम संदेशों का एक लॉग डंप करें, जिसमें त्रुटि होने पर स्टैक ट्रेस और एप्लिकेशन द्वारा लॉग किए गए सूचना संदेश शामिल हों।
-अधिक जानकारी: <https://developer.android.com/studio/command-line/logcat>।
+अधिक जानकारी: <https://developer.android.com/tools/logcat>।
 
 - सिस्टम लॉग प्रदर्शित करें:
 

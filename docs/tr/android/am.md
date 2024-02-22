@@ -2,8 +2,8 @@
 layout: page
 title: android/am (Türkçe)
 description: "Android aktivite yöneticisi."
-content_hash: 777b90f8d978d4a44c99a508cb4041c31e52340f
-last_modified_at: 2023-11-12
+content_hash: 0579ff1f1c980b788cfbdc7a4860d4f7f3dcd175
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 Android aktivite yöneticisi.
-Daha fazla bilgi için: <https://developer.android.com/studio/command-line/adb#am>.
+Daha fazla bilgi için: <https://developer.android.com/tools/adb#am>.
 
 - Belirtilmiş bir aktiviteyi başlat:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-logcat (Indonesia)
 description: "Dapatkan dan simpan log sistem pada perangkat Android."
-content_hash: ce7ee60657d5c74c5de47c611fc1ca88c64f6dce
-last_modified_at: 2023-11-26
+content_hash: fbfe8b8f83428832e49d164d46bc497c9f925ba6
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # adb-logcat
 
 Dapatkan dan simpan log sistem pada perangkat Android.
-Informasi lebih lanjut: <https://developer.android.com/studio/command-line/logcat>.
+Informasi lebih lanjut: <https://developer.android.com/tools/logcat>.
 
 - Tampilkan log sistem pada perangkat yang terhubung saat ini:
 

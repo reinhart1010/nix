@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-shell (français)
 description: "Android Debug Bridge Shell: Exécute une commande shell sur une instance d'émulateur Android ou un appareil Android."
-content_hash: f9bd40b8c86bfe85b04eee0418014b478a0d8b49
-last_modified_at: 2023-11-12
+content_hash: 9e227bcfe9e0463aa2685dc77ecae21197f07539
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-shell.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # adb shell
 
 Android Debug Bridge Shell: Exécute une commande shell sur une instance d'émulateur Android ou un appareil Android.
-Plus d'informations : <https://developer.android.com/studio/command-line/adb>.
+Plus d'informations : <https://developer.android.com/tools/adb>.
 
 - Démarre une session shell interactive sur l'émulateur/l'appareil :
 

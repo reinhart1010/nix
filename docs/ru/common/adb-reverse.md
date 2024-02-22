@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-reverse (русский)
 description: "Android Debug Bridge Reverse: обратное соединение от эмулятора Android или подключенного устройства Android."
-content_hash: cb212e86edc1c13798489a9e8b4506d84c36a473
-last_modified_at: 2023-11-12
+content_hash: 50ff274e31921a8e6324df8dbbfa6034ae910a54
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-reverse.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # adb reverse
 
 Android Debug Bridge Reverse: обратное соединение от эмулятора Android или подключенного устройства Android.
-Больше информации: <https://developer.android.com/studio/command-line/adb>.
+Больше информации: <https://developer.android.com/tools/adb>.
 
 - Вывести список всех обратных соединений от эмуляторов и устройств:
 

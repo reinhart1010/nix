@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (o‘zbek)
 description: "Android tizimi xizmatlari to'g'risida malumot berish."
-content_hash: 444cd58573e0b1ad25476a033d773462940afec3
-last_modified_at: 2023-11-12
+content_hash: 489c3061afa8a036f32423143ad76b1fad7a4969
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dumpsys.html
@@ -65,7 +68,7 @@ tldri18n_status: 2
 
 Android tizimi xizmatlari to'g'risida malumot berish.
 Bu buyruq faqatgina `adb shell` bilan ishlatiladi.
-Ko'proq malumot: <https://developer.android.com/studio/command-line/dumpsys>.
+Ko'proq malumot: <https://developer.android.com/tools/dumpsys>.
 
 - Tizimning barcha xizmatlari haqida tahliliy malumot:
 

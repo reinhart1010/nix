@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-shell (Indonesia)
 description: "Android Debug Bridge Shell: Menjalankan perintah shell jarak jauh pada emulator Android atau perangkat Android terhubung."
-content_hash: bd46ca4a1d80c2da39901a6882086a5321014629
-last_modified_at: 2023-11-12
+content_hash: 302b2b4d5957f7c5504b34fb284e3906872915d8
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-shell.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # adb shell
 
 Android Debug Bridge Shell: Menjalankan perintah shell jarak jauh pada emulator Android atau perangkat Android terhubung.
-Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb>.
+Informasi lebih lanjut: <https://developer.android.com/tools/adb>.
 
 - Mulaikan shell interaktif jarak jauh di emulator/perangkat:
 

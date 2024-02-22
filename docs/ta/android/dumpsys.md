@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (தமிழ்)
 description: "ஆண்ட்ராய்டு சிஸ்டம் சேவைகள் பற்றிய தகவலை வழங்கவும்."
-content_hash: 307f04c1de67cacded94ed6059180f7e83ae7bf8
-last_modified_at: 2023-11-12
+content_hash: 684014027e31cdd8374ec8b1000179307c3dc4c8
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dumpsys.html
@@ -65,7 +68,7 @@ tldri18n_status: 2
 
 ஆண்ட்ராய்டு சிஸ்டம் சேவைகள் பற்றிய தகவலை வழங்கவும்.
 இந்தக் கட்டளையை `adb shell` மூலம் மட்டுமே பயன்படுத்த முடியும்.
-மேலும் விவரத்திற்கு: <https://developer.android.com/studio/command-line/dumpsys>.
+மேலும் விவரத்திற்கு: <https://developer.android.com/tools/dumpsys>.
 
 - அனைத்து கணினி சேவைகளுக்கும் கண்டறியும் வெளியீட்டைப் பெறவும்:
 

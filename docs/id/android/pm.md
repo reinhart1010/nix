@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (Indonesia)
 description: "Tampilkan daftar pemasangan aplikasi di dalam sebuah perangkat Android."
-content_hash: cdb0a1dc3382931da31be40272c7353d9b7c9301
-last_modified_at: 2023-11-12
+content_hash: 549374dd9c64578050f7148e624401027c9c7e8b
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 Tampilkan daftar pemasangan aplikasi di dalam sebuah perangkat Android.
-Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb#pm>.
+Informasi lebih lanjut: <https://developer.android.com/tools/adb#pm>.
 
 - Tampilkan daftar seluruh aplikasi yang terpasang:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/am (हिन्दी)
 description: "एंड्रॉइड गतिविधि प्रबंधक।"
-content_hash: f4f9ce1ea3abb87eef8647f7ef610148b55f00cf
-last_modified_at: 2023-11-12
+content_hash: de94950615fccf56d0454624dcfed0129b289c62
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 एंड्रॉइड गतिविधि प्रबंधक।
-अधिक जानकारी: <https://developer.android.com/studio/command-line/adb#am>।
+अधिक जानकारी: <https://developer.android.com/tools/adb#am>।
 
 - एक विशिष्ट गतिविधि प्रारंभ करें:
 

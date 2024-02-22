@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-reverse (中文)
 description: "安卓调试桥-反射： 反向映射安卓模拟器实例或者已连接的实体设备的套接字连接。"
-content_hash: cea2da4adce90573bb7b4a0638d63f746eb45d3c
-last_modified_at: 2023-11-12
+content_hash: be7a0ee1bee1f7613b17afe8bc099ebf3c07a0a1
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-reverse.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # adb reverse
 
 安卓调试桥-反射： 反向映射安卓模拟器实例或者已连接的实体设备的套接字连接。
-更多信息：<https://developer.android.com/studio/command-line/adb>.
+更多信息：<https://developer.android.com/tools/adb>.
 
 - 列出所有来自模拟器和设备的映射连接：
 

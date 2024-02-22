@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (español)
 description: "Vuelca un registro de mensajes del sistema, incluyendo seguimientos de pila cuando ocurren errores, y mensajes informativos enviados por las aplicaciones."
-content_hash: bcad38726e239b5a989d82a820c113483b073a3e
-last_modified_at: 2023-11-12
+content_hash: ec8d67fb4547121d885b2b8b351c4df29454a9df
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -64,7 +67,7 @@ tldri18n_status: 2
 # logcat
 
 Vuelca un registro de mensajes del sistema, incluyendo seguimientos de pila cuando ocurren errores, y mensajes informativos enviados por las aplicaciones.
-Más información: <https://developer.android.com/studio/command-line/logcat>.
+Más información: <https://developer.android.com/tools/logcat>.
 
 - Muestra registros del sistema:
 

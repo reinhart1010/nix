@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (한국어)
 description: "안드로이드 자바 가상 머신."
-content_hash: ebd3fddfc7af1dababeaed5a42be9531bc05a98c
-last_modified_at: 2023-11-26
+content_hash: 57c0c7bfb644b1f976b9510fbf96ad6e43739d14
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # dalvikvm
 
 안드로이드 자바 가상 머신.
-더 많은 정보: <https://source.android.com/devices/tech/dalvik>.
+더 많은 정보: <https://source.android.com/docs/core/runtime>.
 
 - 특정 자바 프로그램 실행:
 

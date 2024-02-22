@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (Deutsch)
 description: "Stelle Informationen über Android-Systemservices bereit."
-content_hash: a051c3a9ee65614319d3ff530802cf4ed26fb22e
-last_modified_at: 2023-11-12
+content_hash: 1c0e157f43875d9b2956edeadfeefb2f88fbbe66
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dumpsys.html
@@ -65,7 +68,7 @@ tldri18n_status: 2
 
 Stelle Informationen über Android-Systemservices bereit.
 Dieser Befehl kann nur mit `adb shell` verwendet werden.
-Weitere Informationen: <https://developer.android.com/studio/command-line/dumpsys>.
+Weitere Informationen: <https://developer.android.com/tools/dumpsys>.
 
 - Erhalte diagnostische Informationen über alle Systemservices:
 

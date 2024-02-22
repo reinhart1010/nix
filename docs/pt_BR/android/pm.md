@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (português (Brasil))
 description: "Executa ações e consultas em pacotes de apps instalados no dispositivo."
-content_hash: 5b5e0381d98d37876f4dafccd855a58fd7d8e1f5
-last_modified_at: 2023-11-12
+content_hash: 4ddf7d29b7c3eeeb4e3be1b1227db1daa2dfa4f2
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 Executa ações e consultas em pacotes de apps instalados no dispositivo.
-Mais informações: <https://developer.android.com/studio/command-line/adb#pm>.
+Mais informações: <https://developer.android.com/tools/adb#pm>.
 
 - Exibe uma lista com todos os apps instalados:
 

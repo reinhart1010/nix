@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-shell (русский)
 description: "Android Debug Bridge Shell: Запуск удалённой командной оболочки на эмуляторе Android или подключенном устройстве Android."
-content_hash: 1490badecd737ab2a524895bb9a0779fb769510b
-last_modified_at: 2023-11-12
+content_hash: 9b79e937c9e24cc139f691dffcc25f69e73063f6
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-shell.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # adb shell
 
 Android Debug Bridge Shell: Запуск удалённой командной оболочки на эмуляторе Android или подключенном устройстве Android.
-Больше информации: <https://developer.android.com/studio/command-line/adb>.
+Больше информации: <https://developer.android.com/tools/adb>.
 
 - Запустить удалённую интерактивную оболочку на эмуляторе или устройстве:
 

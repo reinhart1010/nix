@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (українська)
 description: "Вивести інформацію про застосунки на Android девайсі."
-content_hash: 959c0e6103151848d546b057de1c3f2513b2183b
-last_modified_at: 2023-11-12
+content_hash: f851410639876bd09ac0ebcf5cf36a3dc26403d5
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 Вивести інформацію про застосунки на Android девайсі.
-Більше інформації: <https://developer.android.com/studio/command-line/adb#pm>.
+Більше інформації: <https://developer.android.com/tools/adb#pm>.
 
 - Вивести всі встановлені застосунки:
 

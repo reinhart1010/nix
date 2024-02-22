@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (বাংলা)
 description: "একটি Android ডিভাইসে অ্যাপ্লিকেশন সম্পর্কে তথ্য দেখান।"
-content_hash: 3abf2d447e63bc84a4e5e75da1905b4fe5329b38
-last_modified_at: 2023-11-12
+content_hash: 94f818a0ae7ab2cac90bef437a58bd37105a3249
+last_modified_at: 2024-02-22
 related_topics:
   - title: Deutsch version
     url: /de/android/pm.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 একটি Android ডিভাইসে অ্যাপ্লিকেশন সম্পর্কে তথ্য দেখান।
-আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/adb#pm>।
+আরও তথ্য পাবেন: <https://developer.android.com/tools/adb#pm>।
 
 - সমস্ত ইনস্টল করা অ্যাপের একটি তালিকা প্রিন্ট করুন:
 

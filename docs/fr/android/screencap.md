@@ -2,11 +2,14 @@
 layout: page
 title: android/screencap (français)
 description: "Prenez une capture d'écran d'un écran mobile."
-content_hash: 614529917dcc505cb262875f3d1c7533af7ed591
-last_modified_at: 2023-11-12
+content_hash: 7b32171f649215d4987a26b5e867db72032326da
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/android/screencap.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/screencap.html
@@ -22,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/screencap.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/screencap.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/screencap.html
@@ -50,7 +56,7 @@ tldri18n_status: 2
 
 Prenez une capture d'écran d'un écran mobile.
 Cette commande ne peut être utilisée que via `adb shell`.
-Plus d'informations : <https://developer.android.com/studio/command-line/adb#screencap>.
+Plus d'informations : <https://developer.android.com/tools/adb#screencap>.
 
 - Prendre une capture d'écran :
 

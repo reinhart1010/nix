@@ -2,11 +2,14 @@
 layout: page
 title: android/screencap (Indonesia)
 description: "Lakukan tangkapan (screenshot) layar perangkat Anda."
-content_hash: 518d4b49828206d6c8d8745997b1dd5c382b5c6e
-last_modified_at: 2023-11-12
+content_hash: dfe07922ef0fcbfe458e4914e1ed01d1791b899a
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/android/screencap.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/screencap.html
@@ -22,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/android/screencap.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/screencap.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/screencap.html
@@ -50,7 +56,7 @@ tldri18n_status: 2
 
 Lakukan tangkapan (screenshot) layar perangkat Anda.
 Perintah ini hanya dapat dijalankan melalui `adb shell`.
-Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb#screencap>.
+Informasi lebih lanjut: <https://developer.android.com/tools/adb#screencap>.
 
 - Lakukan tangkapan layar (screenshot):
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-shell (polski)
 description: "Android Debug Bridge Shell: uruchamiaj zdalne polecenia powłoki na instancji emulatora Androida lub podłączonych urządzeniach z Androidem."
-content_hash: 7bda118883be2dedddc4d0baaed1e559beedca11
-last_modified_at: 2023-11-12
+content_hash: 4ccdc4a92073416edb7bd013e69ef0552f6c743e
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-shell.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # adb shell
 
 Android Debug Bridge Shell: uruchamiaj zdalne polecenia powłoki na instancji emulatora Androida lub podłączonych urządzeniach z Androidem.
-Więcej informacji: <https://developer.android.com/studio/command-line/adb>.
+Więcej informacji: <https://developer.android.com/tools/adb>.
 
 - Uruchom interaktywną zdalną powłokę na emulatorze / urządzeniu:
 

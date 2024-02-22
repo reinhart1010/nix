@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-install (français)
 description: "Android Debug Bridge Install: Pousse des paquets vers une instance d'émulateur Android ou un appareil Android."
-content_hash: fadde8840d329eab57524b5f05ab0985796961d0
-last_modified_at: 2023-11-12
+content_hash: 0ed0bd3bbc199fd5f219a80a1aae2aa56d0c72d8
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # adb install
 
 Android Debug Bridge Install: Pousse des paquets vers une instance d'émulateur Android ou un appareil Android.
-Plus d'informations : <https://developer.android.com/studio/command-line/adb>.
+Plus d'informations : <https://developer.android.com/tools/adb>.
 
 - Pousse une application Android vers l'émulateur/l'appareil :
 

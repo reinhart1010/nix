@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (தமிழ்)
 description: "ஆண்ட்ராய்டு சாதனத்தில் பயன்பாடுகள் பற்றிய தகவலைக் காண்பி."
-content_hash: 96c07795724a8c19021977e9168ecfa22a5819e0
-last_modified_at: 2023-11-12
+content_hash: 292db09ddd9707909d0f1df1477dafcf2721e763
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 ஆண்ட்ராய்டு சாதனத்தில் பயன்பாடுகள் பற்றிய தகவலைக் காண்பி.
-மேலும் விவரத்திற்கு: <https://developer.android.com/studio/command-line/adb#pm>.
+மேலும் விவரத்திற்கு: <https://developer.android.com/tools/adb#pm>.
 
 - நிறுவப்பட்ட அனைத்து பயன்பாடுகளையும் பட்டியலிடுங்கள்:
 

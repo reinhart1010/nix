@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (தமிழ்)
 description: "கணினி செய்திகளின் பதிவை டம்ப் செய்யவும்."
-content_hash: 80c2f80afbd4e03c63bcd9d0bd41d5bb68e59707
-last_modified_at: 2023-11-13
+content_hash: 2fd14e5a139c57e31ffcba973985f61bf82ae696
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -64,7 +67,7 @@ tldri18n_status: 2
 # logcat
 
 கணினி செய்திகளின் பதிவை டம்ப் செய்யவும்.
-மேலும் விவரத்திற்கு: <https://developer.android.com/studio/command-line/logcat>.
+மேலும் விவரத்திற்கு: <https://developer.android.com/tools/logcat>.
 
 - கணினி பதிவுகளைக் காண்பி:
 

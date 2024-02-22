@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (Indonesia)
 description: "Mesin virtual Java untuk Android."
-content_hash: 797f2f8cca3532ecf2ef5c19c90bd591ea652164
-last_modified_at: 2023-11-12
+content_hash: 7e0d93853a3752f33136577d66c9ef0addeb7cf9
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/dalvikvm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dalvikvm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dalvikvm.html
@@ -67,7 +70,7 @@ tldri18n_status: 2
 # dalvikvm
 
 Mesin virtual Java untuk Android.
-Informasi lebih lanjut: <https://source.android.com/devices/tech/dalvik>.
+Informasi lebih lanjut: <https://source.android.com/docs/core/runtime>.
 
 - Jalankan sebuah program Java:
 

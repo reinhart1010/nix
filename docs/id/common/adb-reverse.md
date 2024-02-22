@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-reverse (Indonesia)
 description: "Android Debug Bridge Reverse: membalik koneksi socket dari emulator Android atau perangkat Android terhubung."
-content_hash: 6dbd0fdb139b08a5ae89444ec79b623bdbee9f98
-last_modified_at: 2023-11-12
+content_hash: 8c70637e7627abd4c37c306f82dd10e4beabbb04
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-reverse.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # adb reverse
 
 Android Debug Bridge Reverse: membalik koneksi socket dari emulator Android atau perangkat Android terhubung.
-Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb>.
+Informasi lebih lanjut: <https://developer.android.com/tools/adb>.
 
 - Daftar semua koneksi socket terbalik dari emulator dan perangkat:
 

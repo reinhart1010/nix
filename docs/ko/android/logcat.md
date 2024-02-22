@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (한국어)
 description: "오류 발생 시, 스택 추적을 포함한 시스템 메시지 로그와 애플리케이션에서 기록한 정보 메시지를 덤프합니다."
-content_hash: c1d164f6781b39a372a773c6d62bfb6e051c8dde
-last_modified_at: 2023-11-26
+content_hash: d8deb76dd0d7038521e530aefe5ecc88512e7dfd
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -67,7 +67,7 @@ tldri18n_status: 2
 # logcat
 
 오류 발생 시, 스택 추적을 포함한 시스템 메시지 로그와 애플리케이션에서 기록한 정보 메시지를 덤프합니다.
-더 많은 정보: <https://developer.android.com/studio/command-line/logcat>.
+더 많은 정보: <https://developer.android.com/tools/logcat>.
 
 - 시스템 로그 표시:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (فارسی)
 description: "ارائه اطلاعات درباره سیستم سرویس اندروید."
-content_hash: 1150ceec3b81844b93976797c461aeccb623b6b9
-last_modified_at: 2024-01-05
+content_hash: ab294022c02b1a7f77c60c3cfd1835ae17c5d5c5
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -68,7 +68,7 @@ tldri18n_status: 2
 
 ارائه اطلاعات درباره سیستم سرویس اندروید.
 این دستور فقط از طریق `adb shell` قابل اجراست.
-اطلاعات بیشتر: <https://developer.android.com/studio/command-line/dumpsys>.
+اطلاعات بیشتر: <https://developer.android.com/tools/dumpsys>.
 
 - دریافت اطلاعات عیب بای تمامی سرویس های سیستمی :
 

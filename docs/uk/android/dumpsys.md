@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (українська)
 description: "Отримати інформацію про системні сервіси Android."
-content_hash: 57fb604cd171ced994c6b034e1b1df98da6cc15f
-last_modified_at: 2023-11-12
+content_hash: 4767fc5e27c1f27f7480dbbabde358e78b5a6f7b
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dumpsys.html
@@ -65,7 +68,7 @@ tldri18n_status: 2
 
 Отримати інформацію про системні сервіси Android.
 Ця команда може бути виконана тільки за допомогою `adb shell`.
-Більше інформації: <https://developer.android.com/studio/command-line/dumpsys>.
+Більше інформації: <https://developer.android.com/tools/dumpsys>.
 
 - Отримати дані діагностики для всіх системних сервісів:
 

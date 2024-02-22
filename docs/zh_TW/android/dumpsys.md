@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (中文 (繁體, 台灣))
 description: "提供關於 Android 系統服務的資訊。"
-content_hash: 572a587fe20fe78d2a5f5014ab81928dff308806
-last_modified_at: 2023-11-12
+content_hash: dd3bb8aa1dc82423c65ab739af0c6fe32345094a
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dumpsys.html
@@ -65,7 +68,7 @@ tldri18n_status: 2
 
 提供關於 Android 系統服務的資訊。
 此命令只能透過 `adb shell` 使用。
-更多資訊：<https://developer.android.com/studio/command-line/dumpsys>.
+更多資訊：<https://developer.android.com/tools/dumpsys>.
 
 - 獲取所有系統服務的診斷輸出：
 

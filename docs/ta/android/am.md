@@ -2,8 +2,8 @@
 layout: page
 title: android/am (தமிழ்)
 description: "ஆண்ட்ராய்டு செயல்பாட்டு மேலாளர்."
-content_hash: d40fb66ded5a68ff19c15d7200245a730de041fc
-last_modified_at: 2023-11-12
+content_hash: ed10240a40f040d99eb93afac8888d4d3e18c153
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 ஆண்ட்ராய்டு செயல்பாட்டு மேலாளர்.
-மேலும் விவரத்திற்கு: <https://developer.android.com/studio/command-line/adb#am>.
+மேலும் விவரத்திற்கு: <https://developer.android.com/tools/adb#am>.
 
 - ஒரு குறிப்பிட்ட செயல்பாட்டைத் தொடங்கவும்:
 

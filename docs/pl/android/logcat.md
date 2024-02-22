@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (polski)
 description: "Zrzut dziennika komunikatów systemowych."
-content_hash: b6dc56cf4e29d1434e43b352619a77d1c846f9b6
-last_modified_at: 2023-11-12
+content_hash: 33aa7f4ea4550d34e18924f9e16b33eb35ffa08f
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -67,7 +70,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># logcat
 
 Zrzut dziennika komunikatów systemowych.
-Więcej informacji: <https://developer.android.com/studio/command-line/logcat>.
+Więcej informacji: <https://developer.android.com/tools/logcat>.
 
 - Wyświetl logi systemowe:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (português (Brasil))
 description: "Fornece informações sobre os serviços do sistema Android."
-content_hash: 6297006a44d8b8eb9c956f69b89036985398b873
-last_modified_at: 2023-11-12
+content_hash: dba9e343deb5fa627a65e7157e54eed40ae5da62
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dumpsys.html
@@ -65,7 +68,7 @@ tldri18n_status: 2
 
 Fornece informações sobre os serviços do sistema Android.
 Este comando só pode ser usado através de `adb shell`.
-Mais informações: <https://developer.android.com/studio/command-line/dumpsys>.
+Mais informações: <https://developer.android.com/tools/dumpsys>.
 
 - Gera um diagnóstico de todos os serviços do sistema:
 

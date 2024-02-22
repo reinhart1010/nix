@@ -2,9 +2,12 @@
 layout: page
 title: android/screencap (বাংলা)
 description: "একটি মোবাইল ডিসপ্লের স্ক্রিনশট নিন।"
-content_hash: 39f6daadb88c0bf9ee85e4631730da1db1f8c8e7
-last_modified_at: 2023-11-12
+content_hash: 5dcc5629dfad525fdf0135261066726dd09875dd
+last_modified_at: 2024-02-22
 related_topics:
+  - title: Deutsch version
+    url: /de/android/screencap.html
+    icon: bi bi-globe
   - title: English version
     url: /en/android/screencap.html
     icon: bi bi-globe
@@ -22,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/screencap.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/screencap.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/screencap.html
@@ -50,7 +56,7 @@ tldri18n_status: 2
 
 একটি মোবাইল ডিসপ্লের স্ক্রিনশট নিন।
 এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।
-আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/adb#screencap>।
+আরও তথ্য পাবেন: <https://developer.android.com/tools/adb#screencap>।
 
 - একটি স্ক্রিনশট নিন:
 

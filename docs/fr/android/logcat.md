@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (français)
 description: "Exporte une log depuis les messages système."
-content_hash: 858bedc81e61fbe1f0b91eab1c9bfd35a235837f
-last_modified_at: 2023-11-12
+content_hash: 27c5fa30120dd9c953964e548258068ed62afa73
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -67,7 +70,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># logcat
 
 Exporte une log depuis les messages système.
-Plus d'informations : <https://developer.android.com/studio/command-line/logcat>.
+Plus d'informations : <https://developer.android.com/tools/logcat>.
 
 - Affiche la journalisation système :
 

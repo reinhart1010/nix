@@ -2,8 +2,8 @@
 layout: page
 title: android/screencap (Deutsch)
 description: "Nimmt ein Bildschirmfoto von einem Handy-Display auf."
-content_hash: 23edc38c34f2f7bd72472f84ddb977602f2ee05e
-last_modified_at: 2023-11-26
+content_hash: 1652f31d3daadd603c6418bf39b9d481bcf3a618
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
@@ -56,7 +56,7 @@ tldri18n_status: 2
 
 Nimmt ein Bildschirmfoto von einem Handy-Display auf.
 Dieser Befehl kann nur über die 'adb shell' benutzt werden.
-Weitere Informationen: <https://developer.android.com/studio/command-line/adb#screencap>.
+Weitere Informationen: <https://developer.android.com/tools/adb#screencap>.
 
 - Nehme ein Bildschirmfoto auf:
 

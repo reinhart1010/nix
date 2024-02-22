@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (فارسی)
 description: "ماشین مجازی اندروید."
-content_hash: d559f8432cbdac95c744f903eea840d7f38d1d98
-last_modified_at: 2024-01-05
+content_hash: ba978e9232ef20b24dbb36a64782206eb53d1490
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # dalvikvm
 
 ماشین مجازی اندروید.
-اطلاعات بیشتر: <https://source.android.com/devices/tech/dalvik>.
+اطلاعات بیشتر: <https://source.android.com/docs/core/runtime>.
 
 - اجرای یک برنامه جاوا :
 

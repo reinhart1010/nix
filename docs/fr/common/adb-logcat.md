@@ -2,14 +2,17 @@
 layout: page
 title: common/adb-logcat (français)
 description: "Jeter une log des messages systèmes."
-content_hash: 01cd335b18755a0e923204ba7ecef231928c546e
-last_modified_at: 2023-11-12
+content_hash: 59e52f16a9991934c8359d7faa38c3ed174f4b40
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/adb-logcat.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/adb-logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/adb-logcat.html
@@ -25,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># adb-logcat
 
 Jeter une log des messages systèmes.
-Plus d'informations : <https://developer.android.com/studio/command-line/logcat>.
+Plus d'informations : <https://developer.android.com/tools/logcat>.
 
 - Affiche les logs systèmes :
 

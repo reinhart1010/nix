@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (español)
 description: "Muestra información sobre aplicaciones en un dispositivo Android."
-content_hash: a8140f87b35935c1164a13334d3d68d34d98a28d
-last_modified_at: 2023-11-12
+content_hash: 51efa57e1c4a54159035d1fa6325eefa95a620f5
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 Muestra información sobre aplicaciones en un dispositivo Android.
-Más información: <https://developer.android.com/studio/command-line/adb#pm>.
+Más información: <https://developer.android.com/tools/adb#pm>.
 
 - Genera una lista de todas las aplicaciones instaladas:
 

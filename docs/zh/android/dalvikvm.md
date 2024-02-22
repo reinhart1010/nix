@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (中文)
 description: "Android Java 虚拟机。"
-content_hash: 3bdb0010f963c4d013caaedbd7b90971677e7ed7
-last_modified_at: 2023-11-12
+content_hash: a7c94b41a9e6a20415c42b555a602ac17b711d65
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/dalvikvm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dalvikvm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dalvikvm.html
@@ -67,7 +70,7 @@ tldri18n_status: 2
 # dalvikvm
 
 Android Java 虚拟机。
-更多信息：<https://source.android.com/devices/tech/dalvik>.
+更多信息：<https://source.android.com/docs/core/runtime>.
 
 - 启动一个 Java 程序：
 

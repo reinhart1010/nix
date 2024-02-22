@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (中文)
 description: "显示关于 Android 设备上的应用程序的信息。"
-content_hash: 1c43fa8e97663984489d784e9bc92787170b5d40
-last_modified_at: 2023-11-12
+content_hash: 55b412499862639e355f8dee03b5f649e229c029
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 显示关于 Android 设备上的应用程序的信息。
-更多信息：<https://developer.android.com/studio/command-line/adb#pm>.
+更多信息：<https://developer.android.com/tools/adb#pm>.
 
 - 打印所有已安装应用程序的列表：
 

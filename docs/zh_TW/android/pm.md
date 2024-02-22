@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (中文 (繁體, 台灣))
 description: "顯示關於 Android 裝置上的應用程式的資訊。"
-content_hash: f4726e72ca52f673d1c13a2a98bcb7ba35dc9592
-last_modified_at: 2023-11-12
+content_hash: 922c753bf5774955caf59d11ace656db6f85f8f8
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 顯示關於 Android 裝置上的應用程式的資訊。
-更多資訊：<https://developer.android.com/studio/command-line/adb#pm>.
+更多資訊：<https://developer.android.com/tools/adb#pm>.
 
 - 印出所有已安裝應用程式的列表：
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (فارسی)
 description: "نمایش اطلاعات مربوط به برنامه های یک دستگاه اندروید."
-content_hash: ef5ea4d8482a926dbb1184bad77318301514a367
-last_modified_at: 2024-01-05
+content_hash: 956fc84aeedfca2334e3f274a8085070c247f760
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -64,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 نمایش اطلاعات مربوط به برنامه های یک دستگاه اندروید.
-اطلاعات بیشتر: <https://developer.android.com/studio/command-line/adb#pm>.
+اطلاعات بیشتر: <https://developer.android.com/tools/adb#pm>.
 
 - فهرست تمامی برنامه های نصب شده :
 

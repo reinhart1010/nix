@@ -2,8 +2,8 @@
 layout: page
 title: android/am (中文)
 description: "Android 活动管理器。"
-content_hash: 9fb68291522f9110b70b74b4ffd6ca084f574a41
-last_modified_at: 2023-11-12
+content_hash: 5060efcca67060bcb34e98c3fa4168ff6a17f9ad
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 Android 活动管理器。
-更多信息：<https://developer.android.com/studio/command-line/adb#am>.
+更多信息：<https://developer.android.com/tools/adb#am>.
 
 - 启动一个指定的活动：
 

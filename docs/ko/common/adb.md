@@ -2,8 +2,8 @@
 layout: page
 title: common/adb (한국어)
 description: "안드로이드 디버그 브릿지: 안드로이드 에뮬레이터 객체 또는 연결된 안드로이드 장치와 통신."
-content_hash: 1ed24de2558243951db11c4d5f41b74e38eeba55
-last_modified_at: 2023-11-12
+content_hash: eb0d72b1f36c00b94a8aa98bd307d0f3ec3e35d5
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # adb
 
 안드로이드 디버그 브릿지: 안드로이드 에뮬레이터 객체 또는 연결된 안드로이드 장치와 통신.
-더 많은 정보: <https://developer.android.com/studio/command-line/adb>.
+더 많은 정보: <https://developer.android.com/tools/adb>.
 
 - adb 서버 프로세스가 실행되고 있고, 시작하는지 확인:
 

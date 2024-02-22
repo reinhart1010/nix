@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (italiano)
 description: "Scarica il registro dei messaggi di sistema, comprese le stack traces quando si verifica un errore, e i messaggi di log delle applicazioni."
-content_hash: cff7dec9646373736342ce86aaa13c3b4a32dbe3
-last_modified_at: 2023-11-12
+content_hash: d6ca6bb4961d251416886c0155230e43ea8d651f
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -67,7 +70,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># logcat
 
 Scarica il registro dei messaggi di sistema, comprese le stack traces quando si verifica un errore, e i messaggi di log delle applicazioni.
-Maggiori informazioni: <https://developer.android.com/studio/command-line/logcat>.
+Maggiori informazioni: <https://developer.android.com/tools/logcat>.
 
 - Mostra il log di sistema:
 

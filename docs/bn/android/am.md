@@ -2,8 +2,8 @@
 layout: page
 title: android/am (বাংলা)
 description: "অ্যান্ড্রয়েড অ্যাক্টিভিটি ম্যানেজার।"
-content_hash: bc4419bf5713c30de5481ece525109e800ac4785
-last_modified_at: 2023-11-12
+content_hash: f25e249aedaf629fbaeeece60eb944515e3b9748
+last_modified_at: 2024-02-22
 related_topics:
   - title: Deutsch version
     url: /de/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 অ্যান্ড্রয়েড অ্যাক্টিভিটি ম্যানেজার।
-আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/adb#am>।
+আরও তথ্য পাবেন: <https://developer.android.com/tools/adb#am>।
 
 - একটি নির্দিষ্ট কার্যকলাপ শুরু করুন:
 

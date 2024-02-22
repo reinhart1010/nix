@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (中文)
 description: "转储系统消息日志。"
-content_hash: df176f76e4968806488abd160af3c550a6732b3b
-last_modified_at: 2023-11-12
+content_hash: 96f5a403125ca2b15ec8720373112319446cc86d
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -67,7 +70,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># logcat
 
 转储系统消息日志。
-更多信息：<https://developer.android.com/studio/command-line/logcat>.
+更多信息：<https://developer.android.com/tools/logcat>.
 
 - 显示系统日志：
 

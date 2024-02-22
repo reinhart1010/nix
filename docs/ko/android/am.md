@@ -2,8 +2,8 @@
 layout: page
 title: android/am (한국어)
 description: "Android 활동 관리자."
-content_hash: 4d5eaefcd31bf2f59ad5b990bbef95d01666a1bf
-last_modified_at: 2023-11-12
+content_hash: f5226ae773bc784c820f516c215df6572a0dba84
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 Android 활동 관리자.
-더 많은 정보: <https://developer.android.com/studio/command-line/adb#am>.
+더 많은 정보: <https://developer.android.com/tools/adb#am>.
 
 - 특정 활동 시작:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (español)
 description: "Máquina virtual Java en Android."
-content_hash: f62a0902f190b89a4827db15a6d385c611ed7808
-last_modified_at: 2023-11-12
+content_hash: 80435fb5c85aec5deaf48089865f0666c238b972
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/dalvikvm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dalvikvm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dalvikvm.html
@@ -67,7 +70,7 @@ tldri18n_status: 2
 # dalvikvm
 
 Máquina virtual Java en Android.
-Más información: <https://source.android.com/devices/tech/dalvik>.
+Más información: <https://source.android.com/docs/core/runtime>.
 
 - Inicia un programa Java:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (தமிழ்)
 description: "ஆண்ட்ராய்டு ஜாவா மெய்நிகர் இயந்திரம்."
-content_hash: 3121dac865bc4ac74d90e7695d4eb4c8fa2039cc
-last_modified_at: 2023-11-13
+content_hash: 5f92fb9d5f15c3b8ba6ea24c8d8a6bf60ba6217c
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/dalvikvm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dalvikvm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dalvikvm.html
@@ -67,7 +70,7 @@ tldri18n_status: 2
 # dalvikvm
 
 ஆண்ட்ராய்டு ஜாவா மெய்நிகர் இயந்திரம்.
-மேலும் விவரத்திற்கு: <https://source.android.com/devices/tech/dalvik>.
+மேலும் விவரத்திற்கு: <https://source.android.com/docs/core/runtime>.
 
 - ஒரு குறிப்பிட்ட ஜாவா நிரலைத் தொடங்கவும்:
 

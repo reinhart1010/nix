@@ -2,8 +2,8 @@
 layout: page
 title: common/adb (português (Brasil))
 description: "Android Debug Bridge: Comunica com uma instância do emulador Android emulator ou dispositivos conectados."
-content_hash: 2fdacb8fe9448944d77621f3b49baedb8297b173
-last_modified_at: 2024-01-02
+content_hash: 61d1fd963d32290fed0f3cee1714d27ff1271a0e
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -41,7 +41,7 @@ tldri18n_status: 2
 
 Android Debug Bridge: Comunica com uma instância do emulador Android emulator ou dispositivos conectados.
 Alguns subcomandos tais como `adb shell` possuem sua própria documentação de uso.
-Mais informações: <https://developer.android.com/studio/command-line/adb>.
+Mais informações: <https://developer.android.com/tools/adb>.
 
 - Checa se o servidor adb está em execução e o inicia:
 

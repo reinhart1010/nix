@@ -2,8 +2,8 @@
 layout: page
 title: android/screencap (한국어)
 description: "모바일 디스플레이의 스크린샷 찍기."
-content_hash: 390e3ac9be109763fa125a4a218e319d0430da6f
-last_modified_at: 2023-11-26
+content_hash: 218294f3e35cbea1bc51c85e1753a5699a20c508
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
@@ -56,7 +56,7 @@ tldri18n_status: 2
 
 모바일 디스플레이의 스크린샷 찍기.
 이 명령은 `adb shell`을 통해서만 사용할 수 있습니다.
-더 많은 정보: <https://developer.android.com/studio/command-line/adb#screencap>.
+더 많은 정보: <https://developer.android.com/tools/adb#screencap>.
 
 - 스크린샷 찍기:
 

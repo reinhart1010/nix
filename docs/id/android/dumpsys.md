@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (Indonesia)
 description: "Berikan informasi tentang layanan (daemon) sistem milik Android."
-content_hash: fb863396bfcd88d6772f31f124763a43f333ac31
-last_modified_at: 2023-11-12
+content_hash: 7d9501546bea53f23fcec8fbc7b154d321a541bd
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dumpsys.html
@@ -65,7 +68,7 @@ tldri18n_status: 2
 
 Berikan informasi tentang layanan (daemon) sistem milik Android.
 Perintah ini hanya dapat dijalankan melalui `adb shell`.
-Informasi lebih lanjut: <https://developer.android.com/studio/command-line/dumpsys>.
+Informasi lebih lanjut: <https://developer.android.com/tools/dumpsys>.
 
 - Tampilkan informasi diagnostik terhadap seluruh layanan sistem Android:
 

@@ -2,11 +2,14 @@
 layout: page
 title: android/screencap (português (Brasil))
 description: "Tira uma scrennshot do display mobile."
-content_hash: ec3f5a0ef4391e28fa07f3c4fc0afa81a185c375
-last_modified_at: 2023-11-12
+content_hash: 22617660512c4734e88a6aa7cb6a2591ad777e0a
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/android/screencap.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/screencap.html
@@ -25,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/screencap.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/screencap.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/screencap.html
@@ -50,7 +56,7 @@ tldri18n_status: 2
 
 Tira uma scrennshot do display mobile.
 Este comando apenas pode ser usado atraves de `adb shell`.
-Mais informações: <https://developer.android.com/studio/command-line/adb#screencap>.
+Mais informações: <https://developer.android.com/tools/adb#screencap>.
 
 - Tira uma screenshot:
 

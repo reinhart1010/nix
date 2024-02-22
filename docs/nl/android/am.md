@@ -2,8 +2,8 @@
 layout: page
 title: android/am (Nederlands)
 description: "Android-activiteitenmanager."
-content_hash: 6821791fbf6d87831a3ee0bfb352a9fb84434ead
-last_modified_at: 2023-11-12
+content_hash: 519e1d227bb5063bcf20f0133ea23628c1a914f0
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 Android-activiteitenmanager.
-Meer informatie: <https://developer.android.com/studio/command-line/adb#am>.
+Meer informatie: <https://developer.android.com/tools/adb#am>.
 
 - Start een specifieke activiteit:
 

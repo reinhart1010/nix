@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (русский)
 description: "Показать информацию о приложениях на устройстве Android."
-content_hash: 6853f755437e9f78621cbf0c0514c9786437d93e
-last_modified_at: 2023-11-12
+content_hash: 461b0bea83d6f2fda36782334235fdfe38fcd205
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 Показать информацию о приложениях на устройстве Android.
-Больше информации: <https://developer.android.com/studio/command-line/adb#pm>.
+Больше информации: <https://developer.android.com/tools/adb#pm>.
 
 - Показать список всех установленных приложений:
 

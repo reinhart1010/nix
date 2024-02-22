@@ -2,11 +2,14 @@
 layout: page
 title: android/screencap (українська)
 description: "Зробіть знімок мобільного екрану."
-content_hash: e597a3f3e2b55f2b1cc94e1b19a2782ce3ee7137
-last_modified_at: 2023-11-12
+content_hash: 802eaf7f3abcafabf13d4eefe9221fac461384e0
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/android/screencap.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/screencap.html
@@ -25,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/screencap.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/screencap.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/screencap.html
@@ -50,7 +56,7 @@ tldri18n_status: 2
 
 Зробіть знімок мобільного екрану.
 Ця команда може бути виконана тільки за допомогою `adb shell`.
-Більше інформації: <https://developer.android.com/studio/command-line/adb#screencap>.
+Більше інформації: <https://developer.android.com/tools/adb#screencap>.
 
 - Зробіть знімок мобільного екрану:
 

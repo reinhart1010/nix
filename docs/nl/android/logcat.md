@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (Nederlands)
 description: "Dump een logboek van systeemberichten, inclusief stacktraces wanneer er een fout is opgetreden, en informatieberichten die door applicaties zijn vastgelegd."
-content_hash: e5913dc57479fc5e69178060591a4c01c9ecae11
-last_modified_at: 2023-11-12
+content_hash: d0e4abdeddd442b3c93d00bf158f18a6d725a701
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/logcat.html
@@ -64,7 +67,7 @@ tldri18n_status: 2
 # logcat
 
 Dump een logboek van systeemberichten, inclusief stacktraces wanneer er een fout is opgetreden, en informatieberichten die door applicaties zijn vastgelegd.
-Meer informatie: <https://developer.android.com/studio/command-line/logcat>.
+Meer informatie: <https://developer.android.com/tools/logcat>.
 
 - Toon systeemlogs:
 

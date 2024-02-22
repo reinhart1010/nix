@@ -2,8 +2,8 @@
 layout: page
 title: common/adb (中文)
 description: "安卓调试桥：与 Android 模拟器或已连接的 Android 设备通信。"
-content_hash: 9a52615107796895628a701b3928f2005511bb94
-last_modified_at: 2023-11-12
+content_hash: 38a26adcb673a6d53628ec4e603467f2be18ae1a
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -41,7 +41,7 @@ tldri18n_status: 2
 
 安卓调试桥：与 Android 模拟器或已连接的 Android 设备通信。
 此命令也有关于其子命令的文件，例如：`adb shell`.
-更多信息：<https://developer.android.com/studio/command-line/adb>.
+更多信息：<https://developer.android.com/tools/adb>.
 
 - 检查 adb server 进程的是否在运行，并开启它：
 

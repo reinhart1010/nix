@@ -2,8 +2,8 @@
 layout: page
 title: common/adb (Nederlands)
 description: "Android Debug-Brug: communiceer met een Android-emulator of een aangesloten Android-apparaat."
-content_hash: 73b195806776e95f55b6a3ad2b3f4f98583af7b1
-last_modified_at: 2023-11-23
+content_hash: e53d28afd564af33e84cc2228a9eef6a8d4a6101
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -41,7 +41,7 @@ tldri18n_status: 2
 
 Android Debug-Brug: communiceer met een Android-emulator of een aangesloten Android-apparaat.
 Sommige subcommando's zoals `adb shell` hebben hun eigen documentatie.
-Meer informatie: <https://developer.android.com/studio/command-line/adb>.
+Meer informatie: <https://developer.android.com/tools/adb>.
 
 - Controleer of het adb serverproces draait en start het:
 

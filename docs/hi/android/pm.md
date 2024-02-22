@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (हिन्दी)
 description: "एंड्रॉइड डिवाइस पर ऐप्स के बारे में जानकारी प्रदर्शित करें।"
-content_hash: ecfcdf542a72de1b08e408492175723ad9d75288
-last_modified_at: 2023-11-12
+content_hash: aaf57c0d7fc41954236ad2c98a753b8dbba5f8b5
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 एंड्रॉइड डिवाइस पर ऐप्स के बारे में जानकारी प्रदर्शित करें।
-अधिक जानकारी: <https://developer.android.com/studio/command-line/adb#pm>।
+अधिक जानकारी: <https://developer.android.com/tools/adb#pm>।
 
 - सभी इंस्टॉल किए गए ऐप्स की सूची बनाएं:
 

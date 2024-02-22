@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (English)
 description: "Android Java virtual machine."
-content_hash: e0a794a10639b220c07a73ce781f661f53574305
-last_modified_at: 2024-02-16
+content_hash: 10b658e9448ce6968886d44977d838c0eb7fb1ca
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # dalvikvm
 
 Android Java virtual machine.
-More information: <https://developer.android.com/tools/#art_and_dalvik>.
+More information: <https://source.android.com/docs/core/runtime>.
 
 - Start a specific Java program:
 

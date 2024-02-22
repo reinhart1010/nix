@@ -2,8 +2,8 @@
 layout: page
 title: android/am (português (Portugal))
 description: "Gestor de atividades do Android (Activity Manager)."
-content_hash: b9e439f2c3f1f363ef106b9af40ce61f0189de97
-last_modified_at: 2023-12-28
+content_hash: 02d13cdfa357d796e9c8d26bcc8864a1450a30f2
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 Gestor de atividades do Android (Activity Manager).
-Mais informações: <https://developer.android.com/studio/command-line/adb#am>.
+Mais informações: <https://developer.android.com/tools/adb#am>.
 
 - Inicia uma atividade específica:
 

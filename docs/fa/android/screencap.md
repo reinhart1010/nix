@@ -2,8 +2,8 @@
 layout: page
 title: android/screencap (فارسی)
 description: "ضبط یک اسکرین شات از صفحه یک موبایل."
-content_hash: f479ce77af818fccaa34a9569e7330db3b991f61
-last_modified_at: 2024-01-05
+content_hash: 5a44d34fae0094f9699b31ea6297a26e607d6e77
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
@@ -56,7 +56,7 @@ tldri18n_status: 2
 
 ضبط یک اسکرین شات از صفحه یک موبایل.
 این دستور فقط از طریق `adb shell` قابل اجراست.
-اطلاعات بیشتر: <https://developer.android.com/studio/command-line/adb#screencap>.
+اطلاعات بیشتر: <https://developer.android.com/tools/adb#screencap>.
 
 - ضبط یک اسکرین شات :
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (Indonesia)
 description: "Tampilkan dan simpan log sistem."
-content_hash: c8b4e0b5261152981e2e6783c28edf0d4f79a203
-last_modified_at: 2023-11-12
+content_hash: 4e2c77ffeab4ece2fb0355cc347016292a11453c
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -64,7 +67,7 @@ tldri18n_status: 2
 # logcat
 
 Tampilkan dan simpan log sistem.
-Informasi lebih lanjut: <https://developer.android.com/studio/command-line/logcat>.
+Informasi lebih lanjut: <https://developer.android.com/tools/logcat>.
 
 - Tampilkan log sistem:
 

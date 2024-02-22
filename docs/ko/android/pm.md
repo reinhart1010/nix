@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (한국어)
 description: "Android 기기의 앱에 대한 정보 표시."
-content_hash: e2be6731a7951b4c9d95297be999b3771bece6b4
-last_modified_at: 2023-11-26
+content_hash: 3f0b7c5c117ff0fb7457a87802bc8427756de6f5
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -64,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 Android 기기의 앱에 대한 정보 표시.
-더 많은 정보: <https://developer.android.com/studio/command-line/adb#pm>.
+더 많은 정보: <https://developer.android.com/tools/adb#pm>.
 
 - 설치된 모든 앱 나열:
 

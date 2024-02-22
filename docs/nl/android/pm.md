@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (Nederlands)
 description: "Toon informatie over apps op een Android-apparaat."
-content_hash: 91c5a8153406032fab322507dec245055a4f6c9c
-last_modified_at: 2023-11-12
+content_hash: c802449ae3843734a4047ec00a19ec65698349df
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/pm.html
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # pm
 
 Toon informatie over apps op een Android-apparaat.
-Meer informatie: <https://developer.android.com/studio/command-line/adb#pm>.
+Meer informatie: <https://developer.android.com/tools/adb#pm>.
 
 - Maak een lijst van alle geïnstalleerde apps:
 

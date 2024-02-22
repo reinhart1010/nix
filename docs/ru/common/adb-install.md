@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-install (русский)
 description: "Android Debug Bridge Install: Установка пакетов на эмулятор Android или подключённое устройство Android."
-content_hash: 6234b21a59d0cb004506580a5548c1c710b04d45
-last_modified_at: 2023-11-12
+content_hash: b1cd740e881afcd1f9ecc7bfbf6e0856790350c1
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # adb install
 
 Android Debug Bridge Install: Установка пакетов на эмулятор Android или подключённое устройство Android.
-Больше информации: <https://developer.android.com/studio/command-line/adb>.
+Больше информации: <https://developer.android.com/tools/adb>.
 
 - Установить приложение Android на эмулятор/устройство:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (Türkçe)
 description: "Sistem mesajlarının kaydını görüntüle."
-content_hash: 84bdaee8a1c8306bbcec15352ba0841e05df5a4d
-last_modified_at: 2023-11-12
+content_hash: 57b60b2c5b71b72b845a24e4b0cfcea41ea0bca8
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -67,7 +70,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># logcat
 
 Sistem mesajlarının kaydını görüntüle.
-Daha fazla bilgi için: <https://developer.android.com/studio/command-line/logcat>.
+Daha fazla bilgi için: <https://developer.android.com/tools/logcat>.
 
 - Sistem kaydını görüntüle:
 

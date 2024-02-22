@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-install (Nederlands)
 description: "Android Debug Bridge-installatie: push pakketten naar een Android-emulatorinstantie of aangesloten Android-apparaten."
-content_hash: 6ac2cb74117aa26714cccb1d24ab31f22b62bb92
-last_modified_at: 2023-11-12
+content_hash: 31960f6c63f87454fc672731423ec57004815685
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # adb install
 
 Android Debug Bridge-installatie: push pakketten naar een Android-emulatorinstantie of aangesloten Android-apparaten.
-Meer informatie: <https://developer.android.com/studio/command-line/adb>.
+Meer informatie: <https://developer.android.com/tools/adb>.
 
 - Push een Android-applicatie naar een emulator/apparaat:
 

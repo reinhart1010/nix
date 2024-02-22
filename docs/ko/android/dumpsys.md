@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (한국어)
 description: "Android 시스템 서비스에 대한 제공."
-content_hash: ef01683a1397f9f56e1a97e68238080f64176a06
-last_modified_at: 2023-11-26
+content_hash: 828139832cad699ccaca4208af7088db16903e44
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -68,7 +68,7 @@ tldri18n_status: 2
 
 Android 시스템 서비스에 대한 제공.
 이 명령은 `adb shell`을 통해서만 사용할 수 있습니다.
-더 많은 정보: <https://developer.android.com/studio/command-line/dumpsys>.
+더 많은 정보: <https://developer.android.com/tools/dumpsys>.
 
 - 모든 시스템 서비스에 대한 진단 출력 가져오기:
 

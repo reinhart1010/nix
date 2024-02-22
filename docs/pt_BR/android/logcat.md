@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (português (Brasil))
 description: "Despeja um registro de mensagens do sistema."
-content_hash: 829689fe3b0cb8b2495b9a1466faa8994af685cc
-last_modified_at: 2023-11-12
+content_hash: 015b1497538c987a9e10ea86f6a6fa8c90b5f3e0
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -64,7 +67,7 @@ tldri18n_status: 2
 # logcat
 
 Despeja um registro de mensagens do sistema.
-Mais informações: <https://developer.android.com/studio/command-line/logcat>.
+Mais informações: <https://developer.android.com/tools/logcat>.
 
 - Exibe a saída do registro:
 

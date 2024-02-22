@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-install (polski)
 description: "Android Debug Bridge Install: wysyłaj pakiety do instancji emulatora Androida lub podłączonych urządzeń z systemem Android."
-content_hash: ab65ed6ab41bb95283cdfba43d73ec753e3c77b5
-last_modified_at: 2023-11-12
+content_hash: 705a36222e1d0c7d1c3d234240b68e4542687fd3
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># adb install
 
 Android Debug Bridge Install: wysyłaj pakiety do instancji emulatora Androida lub podłączonych urządzeń z systemem Android.
-Więcej informacji: <https://developer.android.com/studio/command-line/adb>.
+Więcej informacji: <https://developer.android.com/tools/adb>.
 
 - Wyślij aplikację na Androida do emulatora / urządzenia:
 

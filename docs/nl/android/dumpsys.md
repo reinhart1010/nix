@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (Nederlands)
 description: "Geef informatie over Android system services."
-content_hash: 8c1227f8f48d8a01e48e05cfc6f130526c3e9305
-last_modified_at: 2023-11-12
+content_hash: 6b8dc3243680ab80e52173490e7e0298ec71ab25
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/dumpsys.html
@@ -65,7 +68,7 @@ tldri18n_status: 2
 
 Geef informatie over Android system services.
 Dit commando kan alleen worden gebruikt via `adb shell`.
-Meer informatie: <https://developer.android.com/studio/command-line/dumpsys>.
+Meer informatie: <https://developer.android.com/tools/dumpsys>.
 
 - Krijg diagnostische output voor alle systeemservices:
 

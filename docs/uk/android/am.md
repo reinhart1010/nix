@@ -2,8 +2,8 @@
 layout: page
 title: android/am (українська)
 description: "Менеджер активності Android."
-content_hash: a6a0218923bfd99c892792c706426259f2a7fa37
-last_modified_at: 2023-11-12
+content_hash: f714727f2b09879c9480bd5d81675e98283d4cf3
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 Менеджер активності Android.
-Більше інформації: <https://developer.android.com/studio/command-line/adb#am>.
+Більше інформації: <https://developer.android.com/tools/adb#am>.
 
 - Почати специфічну активність:
 

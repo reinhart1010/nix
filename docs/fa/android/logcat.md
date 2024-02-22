@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (فارسی)
 description: "تخلیه یک لاگ از پیاهم های سیستمی، شامل پشته رهگیری زمان وقوع خطا، و اطلاعات پیام های لاگ شده توسط برنامه ها."
-content_hash: 365d7d441a16b24f54d712f389b8aca38c15420b
-last_modified_at: 2024-01-05
+content_hash: b9c7827b6e7a854a13f5d9961715ffe4da4e198d
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -67,7 +67,7 @@ tldri18n_status: 2
 # logcat
 
 تخلیه یک لاگ از پیاهم های سیستمی، شامل پشته رهگیری زمان وقوع خطا، و اطلاعات پیام های لاگ شده توسط برنامه ها.
-اطلاعات بیشتر: <https://developer.android.com/studio/command-line/logcat>.
+اطلاعات بیشتر: <https://developer.android.com/tools/logcat>.
 
 - نمایش لاگ سیستمی :
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (українська)
 description: "Дамп журналу системних повідомлень, включаючи стек викликів, коли трапилась помилка, і інформаційні повідомлення, залоговані застосунками."
-content_hash: ad55708a4aa47e89ac49bde546ab30bf4d92bed7
-last_modified_at: 2023-11-12
+content_hash: 06e9b56ba323e78ea3261f309db01a345cd67f2b
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -64,7 +67,7 @@ tldri18n_status: 2
 # logcat
 
 Дамп журналу системних повідомлень, включаючи стек викликів, коли трапилась помилка, і інформаційні повідомлення, залоговані застосунками.
-Більше інформації: <https://developer.android.com/studio/command-line/logcat>.
+Більше інформації: <https://developer.android.com/tools/logcat>.
 
 - Вивести системні логи:
 

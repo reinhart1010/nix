@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (हिन्दी)
 description: "एंड्रॉइड जावा वर्चुअल मशीन।"
-content_hash: 50407833375ecd315b132a9911333594114d71af
-last_modified_at: 2023-11-12
+content_hash: 0b85a15c331870f0f4bd8d31316e65afc5ebce0e
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/dalvikvm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dalvikvm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dalvikvm.html
@@ -67,7 +70,7 @@ tldri18n_status: 2
 # dalvikvm
 
 एंड्रॉइड जावा वर्चुअल मशीन।
-अधिक जानकारी: <https://source.android.com/devices/tech/dalvik>।
+अधिक जानकारी: <https://source.android.com/docs/core/runtime>।
 
 - एक विशिष्ट जावा प्रोग्राम प्रारंभ करें:
 

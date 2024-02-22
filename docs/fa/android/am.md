@@ -2,8 +2,8 @@
 layout: page
 title: android/am (فارسی)
 description: "مدیر فعالیت های اندروید"
-content_hash: b616b8f9cbbc19bab623842e5868d48e19b729d4
-last_modified_at: 2023-11-12
+content_hash: adc0daaf77ad25a1c2e993797eacb9a82f2e834d
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 مدیر فعالیت های اندروید
-اطلاعات بیشتر: <https://developer.android.com/studio/command-line/adb#am>.
+اطلاعات بیشتر: <https://developer.android.com/tools/adb#am>.
 
 - یک فعالیت خاص رو شروع کن :
 

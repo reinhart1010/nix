@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-shell (中文)
 description: "安卓调试桥-Shell: 运行安卓模拟器或者连接设备上的远程终端命令。"
-content_hash: d11ea87e19126cb808bbd316010e59e63e2478f4
-last_modified_at: 2023-11-12
+content_hash: 5054702efee603ced39e5ff6859c4de4f2a51ace
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-shell.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # adb shell
 
 安卓调试桥-Shell: 运行安卓模拟器或者连接设备上的远程终端命令。
-更多信息：<https://developer.android.com/studio/command-line/adb>.
+更多信息：<https://developer.android.com/tools/adb>.
 
 - 启动模拟器/设备上的远程终端：
 

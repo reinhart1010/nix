@@ -2,8 +2,8 @@
 layout: page
 title: android/am (o‘zbek)
 description: "Android faoliyat boshqaruvi."
-content_hash: 8e9bda222ea74d6aa035098667b9797a10ea61cb
-last_modified_at: 2023-11-12
+content_hash: a9440e8af15523773b8296e5a9de65b30fae9d57
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 Android faoliyat boshqaruvi.
-Ko'proq malumot: <https://developer.android.com/studio/command-line/adb#am>.
+Ko'proq malumot: <https://developer.android.com/tools/adb#am>.
 
 - Anniq bir faoliyatni boshlash:
 

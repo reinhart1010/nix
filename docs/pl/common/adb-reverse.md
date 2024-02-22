@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-reverse (polski)
 description: "Android Debug Bridge Reverse: zwrotne połączenie socketowe z emulowanego lub prawdziwego urządzenia Android."
-content_hash: abef47d970abee9b259ec5b454452fe96ebc5a97
-last_modified_at: 2023-11-12
+content_hash: dc659566654249d42fa9c3f62082a77a891614df
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-reverse.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # adb reverse
 
 Android Debug Bridge Reverse: zwrotne połączenie socketowe z emulowanego lub prawdziwego urządzenia Android.
-Więcej informacji: <https://developer.android.com/studio/command-line/adb>.
+Więcej informacji: <https://developer.android.com/tools/adb>.
 
 - Listuj wszystkie zwrotne połączenia socketowe z emulatorów i urządzeń:
 

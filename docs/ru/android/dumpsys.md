@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (русский)
 description: "Предоставляет информацию о системных службах Android."
-content_hash: 40a48e6ac6edf7e671f9091c29d5278135b6ecbd
-last_modified_at: 2023-11-12
+content_hash: 10dedf324e5c2801c773e0b9834d897a28352dd8
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dumpsys.html
@@ -65,7 +68,7 @@ tldri18n_status: 2
 
 Предоставляет информацию о системных службах Android.
 Эту команду можно использовать только через `adb shell`.
-Больше информации: <https://developer.android.com/studio/command-line/dumpsys>.
+Больше информации: <https://developer.android.com/tools/dumpsys>.
 
 - Получить диагностическу для всех системных сервисов:
 

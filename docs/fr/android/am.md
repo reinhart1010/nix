@@ -2,8 +2,8 @@
 layout: page
 title: android/am (français)
 description: "Manager d'activité Android."
-content_hash: 394134fe752f50b4f0441fe6608166fa1be2c3e0
-last_modified_at: 2023-11-12
+content_hash: a0c541ad0181737de1faae55ee0f307e665491c7
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 Manager d'activité Android.
-Plus d'informations : <https://developer.android.com/studio/command-line/adb#am>.
+Plus d'informations : <https://developer.android.com/tools/adb#am>.
 
 - Commence une activité spécifique :
 

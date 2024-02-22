@@ -2,8 +2,8 @@
 layout: page
 title: android/am (Indonesia)
 description: "Manajer aktivitas untuk Android."
-content_hash: 95d8d521c1187febf9a1468e61965d0dc323167b
-last_modified_at: 2023-11-12
+content_hash: 51b16fd8db6979cd467a706fef4fd50fd8eae042
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 # am
 
 Manajer aktivitas untuk Android.
-Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb#am>.
+Informasi lebih lanjut: <https://developer.android.com/tools/adb#am>.
 
 - Mulaikan aktivitas tertentu:
 

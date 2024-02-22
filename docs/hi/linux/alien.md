@@ -2,8 +2,8 @@
 layout: page
 title: linux/alien (हिन्दी)
 description: "विभिन्न इंस्टॉलेशन पैकेज को अन्य प्रारूपों में कनवर्ट करें।"
-content_hash: d75d4c0e46f5294728e9420d4ec08f2d1f0257e4
-last_modified_at: 2024-02-17
+content_hash: a4903994c5416015483d50849582fb6da5d46545
+last_modified_at: 2024-02-22
 related_topics:
   - title: Deutsch version
     url: /de/linux/alien.html
@@ -29,7 +29,7 @@ tldri18n_status: 2
 
 विभिन्न इंस्टॉलेशन पैकेज को अन्य प्रारूपों में कनवर्ट करें।
 यह भी देखें: Arch Linux पर `.deb` रूपांतरण के लिए `debtap`।
-अधिक जानकारी: <https://manned.org/alien>.
+अधिक जानकारी: <https://manned.org/alien>।
 
 - किसी खास इंस्टॉलेशन फ़ाइल को Debian फ़ॉर्मैट (`.deb` एक्सटेंशन) में बदलें:
 

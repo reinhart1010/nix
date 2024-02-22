@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (Deutsch)
 description: "Gib ein Protokoll aller Systemmeldungen aus."
-content_hash: f10fe1c5c3443107f5b7999b69293794fc0254b4
-last_modified_at: 2023-11-12
+content_hash: ffbe249f77ee9a68b121e588bb66c73c371cf98d
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -67,7 +70,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># logcat
 
 Gib ein Protokoll aller Systemmeldungen aus.
-Weitere Informationen: <https://developer.android.com/studio/command-line/logcat>.
+Weitere Informationen: <https://developer.android.com/tools/logcat>.
 
 - Gib ein Protokoll aller Systemmeldungen aus:
 

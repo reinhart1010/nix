@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-install (português (Brasil))
 description: "Android Debug Bridge Install: Instalar apps em uma instância do Android emulator ou dispositivos conectados."
-content_hash: 29a0e55c8a07dc0547d90a3e98bafdd8be4a9efd
-last_modified_at: 2023-12-28
+content_hash: f273dd0d44007a71c8ebcff0827a92b8fc45252c
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # adb install
 
 Android Debug Bridge Install: Instalar apps em uma instância do Android emulator ou dispositivos conectados.
-Mais informações: <https://developer.android.com/studio/command-line/adb>.
+Mais informações: <https://developer.android.com/tools/adb>.
 
 - Instala um app Android em um emulador/dispositivo:
 

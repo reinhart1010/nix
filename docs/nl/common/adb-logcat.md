@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-logcat (Nederlands)
 description: "Dump een logboek met systeemberichten."
-content_hash: c327b9389bb5c272c1b8d4946bc662378771f5d0
-last_modified_at: 2023-11-12
+content_hash: 42045c7e0f85f5b31c528db113202a0a55195433
+last_modified_at: 2024-02-22
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
@@ -14,6 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/adb-logcat.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/adb-logcat.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/adb-logcat.html
     icon: bi bi-globe
@@ -22,7 +25,7 @@ tldri18n_status: 2
 # adb logcat
 
 Dump een logboek met systeemberichten.
-Meer informatie: <https://developer.android.com/studio/command-line/logcat>.
+Meer informatie: <https://developer.android.com/tools/logcat>.
 
 - Geef systeemlogboeken weer:
 

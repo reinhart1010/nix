@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (русский)
 description: "Дамп лог (журнал) системных сообщений, включая трассировку стека при возникновении ошибки и информационные сообщения, регистрируемые приложениями."
-content_hash: d2bf16ab760d6039d57f1a9e62a12af295dc9cf9
-last_modified_at: 2023-11-12
+content_hash: 640fea5de67fde12bc7ed1b7c4f778a7db91651a
+last_modified_at: 2024-02-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -67,7 +70,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># logcat
 
 Дамп лог (журнал) системных сообщений, включая трассировку стека при возникновении ошибки и информационные сообщения, регистрируемые приложениями.
-Больше информации: <https://developer.android.com/studio/command-line/logcat>.
+Больше информации: <https://developer.android.com/tools/logcat>.
 
 - Показать системные логи:
 
