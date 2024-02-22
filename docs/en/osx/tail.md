@@ -2,8 +2,8 @@
 layout: page
 title: osx/tail (English)
 description: "Display the last part of a file."
-content_hash: 767ca434dc0a3fe1455b764936a7b08121075752
-last_modified_at: 2024-01-31
+content_hash: 5e61ef23224c31604956b691d7938e397f1cd7d2
+last_modified_at: 2024-02-22
 related_topics:
   - title: Nederlands version
     url: /nl/osx/tail.html
@@ -28,7 +28,7 @@ More information: <https://keith.github.io/tail.1.html>.
 
 `tail -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Print the last lines of a given file and keep reading file until `Ctrl + C`:
+- Print the last lines of a given file and keep reading it until `Ctrl + C`:
 
 `tail -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

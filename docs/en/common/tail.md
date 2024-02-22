@@ -2,14 +2,17 @@
 layout: page
 title: common/tail (English)
 description: "Display the last part of a file."
-content_hash: 4d217ebd9f6d1c61705a60e7b046979c89dfff9e
-last_modified_at: 2023-11-12
+content_hash: c6534045d907395b9e20baeda8f63cc7bfad16d1
+last_modified_at: 2024-02-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tail.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/tail.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/tail.html
     icon: bi bi-globe
   - title: sh version
     url: /sh/common/tail.html
@@ -34,7 +37,7 @@ More information: <https://www.gnu.org/software/coreutils/tail>.
 
 `tail --bytes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Print the last lines of a given file and keep reading file until `Ctrl + C`:
+- Print the last lines of a given file and keep reading it until `Ctrl + C`:
 
 `tail --follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
