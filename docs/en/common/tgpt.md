@@ -3,19 +3,10 @@ layout: page
 title: common/tgpt (English)
 description: "Talk to an AI chatbot without the need for API keys."
 content_hash: 8e30c4f0f81a79fc0017dd40d17eeeebd612705b
-last_modified_at: 2024-02-22
-tldri18n_status: 0
+last_modified_at: 2024-02-23
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tgpt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tgpt
+# tgpt
 
 Talk to an AI chatbot without the need for API keys.
 Available providers: `openai`, `opengpts`, `koboldai`, `phind`, `llama2`, `blackboxai`.
