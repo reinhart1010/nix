@@ -2,8 +2,8 @@
 layout: page
 title: common/dotnet-ef (English)
 description: "Perform design-time development tasks for Entity Framework Core."
-content_hash: 34fe34324395c32117b461ff5fc5408ae2fa260e
-last_modified_at: 2023-11-12
+content_hash: 0b4af19feeedb421f693ee8c2de5b12ce01f28bc
+last_modified_at: 2024-02-23
 related_topics:
   - title: polski version
     url: /pl/common/dotnet-ef.html
@@ -43,6 +43,6 @@ More information: <https://learn.microsoft.com/ef/core/cli/dotnet>.
 
 `dotnet ef migrations list`
 
-- Generate a SQL script from migrations range:
+- Generate an SQL script from migrations range:
 
 `dotnet ef migrations script `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from_migration</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_migration</span>

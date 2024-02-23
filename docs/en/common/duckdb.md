@@ -2,8 +2,8 @@
 layout: page
 title: common/duckdb (English)
 description: "Command-line client for DuckDB, an in-process analytical SQL engine."
-content_hash: 33e06a22653026c107c02b1b2f030a74e486e4ba
-last_modified_at: 2023-11-12
+content_hash: 6cb38b33faf44d20ed1a1f10e70509eff18d6686
+last_modified_at: 2024-02-23
 tldri18n_status: 2
 ---
 # duckdb
@@ -23,7 +23,7 @@ More information: <https://duckdb.org>.
 
 `duckdb -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SELECT * FROM 'data_source.[csv|csv.gz|json|json.gz|parquet]'</span>`"`
 
-- Run a SQL script:
+- Run an SQL script:
 
 `duckdb -c ".read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sql</span>`"`
 

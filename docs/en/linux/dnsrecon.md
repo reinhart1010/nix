@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnsrecon (English)
 description: "DNS enumeration tool."
-content_hash: b044d79dba4e9eb709866c51e3658d6d8d59ba86
-last_modified_at: 2023-11-12
+content_hash: d00681aa21479c55e925e20a0156f61db83d3f08
+last_modified_at: 2024-02-23
 tldri18n_status: 2
 ---
 # dnsrecon
@@ -11,7 +11,7 @@ tldri18n_status: 2
 DNS enumeration tool.
 More information: <https://github.com/darkoperator/dnsrecon>.
 
-- Scan a domain and save the results to a SQLite database:
+- Scan a domain and save the results to an SQLite database:
 
 `dnsrecon --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` --db `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.sqlite</span>
 

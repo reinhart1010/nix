@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fdroidcl (English)
-description: "F-Droid CLI client."
-content_hash: 4813d2f8fc2222b374d7e4b378f6507454349afb
-last_modified_at: 2023-11-12
+description: "Manage F-Droid apps of devices connected via ADB."
+content_hash: c5f7b96178a8444ead41321c9e4c39dbc3705649
+last_modified_at: 2024-02-23
 related_topics:
   - title: Deutsch version
     url: /de/common/fdroidcl.html
@@ -12,18 +12,18 @@ tldri18n_status: 2
 ---
 # fdroidcl
 
-F-Droid CLI client.
+Manage F-Droid apps of devices connected via ADB.
 More information: <https://github.com/mvdan/fdroidcl>.
 
 - Fetch the F-Droid index:
 
 `fdroidcl update`
 
-- Display info about an app:
+- Display information about an app:
 
 `fdroidcl show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span>
 
-- Download an APK file:
+- Download the APK file of an app:
 
 `fdroidcl download `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span>
 
@@ -34,3 +34,11 @@ More information: <https://github.com/mvdan/fdroidcl>.
 - Install an app on a connected device:
 
 `fdroidcl install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span>
+
+- Add a repository:
+
+`fdroidcl repo add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+
+- Remove, enable or disable a repository:
+
+`fdroidcl repo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remove|enable|disable</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_name</span>

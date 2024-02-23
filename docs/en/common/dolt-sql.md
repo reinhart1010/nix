@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/dolt-sql (English)
-description: "Run a SQL query. Multiple SQL statements must be separated by semicolons."
-content_hash: 8c012b32b886f553567b519b4d4b6868e0bea020
-last_modified_at: 2023-11-12
+description: "Run an SQL query. Multiple SQL statements must be separated by semicolons."
+content_hash: 575a56201d060088f118f72f723c1f4a0e944d65
+last_modified_at: 2024-02-23
 tldri18n_status: 2
 ---
 # dolt sql
 
-Run a SQL query. Multiple SQL statements must be separated by semicolons.
+Run an SQL query. Multiple SQL statements must be separated by semicolons.
 More information: <https://docs.dolthub.com/cli-reference/cli#dolt-sql>.
 
 - Run a single query:

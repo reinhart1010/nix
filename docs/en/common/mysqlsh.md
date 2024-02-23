@@ -2,8 +2,8 @@
 layout: page
 title: common/mysqlsh (English)
 description: "Advanced command-line client for MySQL, supporting SQL, JavaScript, and Python."
-content_hash: e34b470129b682215846f9694e99a81463485ed5
-last_modified_at: 2023-12-07
+content_hash: b262e7885633857129fc11ab547055a6d6d76714
+last_modified_at: 2024-02-23
 tldri18n_status: 2
 ---
 # mysqlsh
@@ -20,7 +20,7 @@ More information: <https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-comm
 
 `mysqlsh --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` --host `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span>` --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>
 
-- Execute a SQL statement on the server and exit:
+- Execute an SQL statement on the server and exit:
 
 `mysqlsh --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` --execute '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql_statement</span>`'`
 
