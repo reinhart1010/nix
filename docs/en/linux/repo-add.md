@@ -2,14 +2,18 @@
 layout: page
 title: linux/repo-add (English)
 description: "Package database maintenance utility which enables installation of said package via Pacman."
-content_hash: 4aa7c957c5f723a72b2f0b32929ab5175c4ba725
-last_modified_at: 2023-11-12
+content_hash: 8e5df5d67ab3f4cca833003f241e9c01a39ac943
+last_modified_at: 2024-02-24
 tldri18n_status: 2
 ---
 # repo-add
 
 Package database maintenance utility which enables installation of said package via Pacman.
 More information: <https://man.archlinux.org/man/repo-add>.
+
+- Create an empty repository:
+
+`repo-add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db.tar.gz</span>
 
 - Add all package binaries in the current directory and remove the old database file:
 
