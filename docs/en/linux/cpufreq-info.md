@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/cpufreq-info (English)
-description: "A tool to show CPU frequency information."
-content_hash: fa046eaa1bf7f4a2103d43c453956091e569deb1
-last_modified_at: 2023-11-12
+description: "Show CPU frequency information."
+content_hash: 886f16994b73f9610972118077836a3439103815
+last_modified_at: 2024-02-25
 tldri18n_status: 2
 ---
 # cpufreq-info
 
-A tool to show CPU frequency information.
+Show CPU frequency information.
 More information: <https://manned.org/cpufreq-info>.
 
 - Show CPU frequency information for all CPUs:

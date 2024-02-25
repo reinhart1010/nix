@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/ipset (English)
-description: "A tool to create IP sets for firewall rules."
-content_hash: 4660af40576663f02bfbaadd461d35718084ff4e
-last_modified_at: 2023-11-12
+description: "Create IP sets for firewall rules."
+content_hash: e12c9c2626963d97fe17f00533427724d4fc0735
+last_modified_at: 2024-02-25
 tldri18n_status: 2
 ---
 # ipset
 
-A tool to create IP sets for firewall rules.
+Create IP sets for firewall rules.
 More information: <https://manned.org/ipset>.
 
 - Create an empty IP set which will contain IP addresses:

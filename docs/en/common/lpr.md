@@ -1,18 +1,21 @@
 ---
 layout: page
 title: common/lpr (English)
-description: "CUPS tool for printing files."
-content_hash: 22fdead7261a673ba8b85ecaf9260b505960f6a0
-last_modified_at: 2023-12-28
+description: "Print files."
+content_hash: de10a83c9f8a3e35f1bd1908c95d929b4c995a77
+last_modified_at: 2024-02-25
 related_topics:
   - title: Deutsch version
     url: /de/common/lpr.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/lpr.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # lpr
 
-CUPS tool for printing files.
+Print files.
 See also: `lpstat` and `lpadmin`.
 More information: <https://openprinting.github.io/cups/doc/man-lpr.html>.
 

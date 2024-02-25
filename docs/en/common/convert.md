@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/convert (English)
-description: "Image conversion tool."
-content_hash: 51f5b4ef26470cedcf399af4912fc59e66d1bf80
-last_modified_at: 2023-11-12
+description: "Convert between image formats, scale, join, and create images, and much more."
+content_hash: 379eb6f832ea5689dc94d1a20e7b2cf0752e2e50
+last_modified_at: 2024-02-25
 related_topics:
   - title: Deutsch version
     url: /de/common/convert.html
@@ -24,7 +24,7 @@ tldri18n_status: 2
 ---
 # convert
 
-Image conversion tool.
+Convert between image formats, scale, join, and create images, and much more.
 Part of ImageMagick.
 More information: <https://imagemagick.org/script/convert.php>.
 

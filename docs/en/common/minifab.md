@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/minifab (English)
-description: "Utility tool that automates the setup and deployment of Hyperledger Fabric networks."
-content_hash: 34762c42ce688d7110fe960969f5149b250208b9
-last_modified_at: 2023-11-12
+description: "Automate the setup and deployment of Hyperledger Fabric networks."
+content_hash: 302719e05dfe3b525402d886f8d93a0b3af31da8
+last_modified_at: 2024-02-25
 related_topics:
   - title: italiano version
     url: /it/common/minifab.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # minifab
 
-Utility tool that automates the setup and deployment of Hyperledger Fabric networks.
+Automate the setup and deployment of Hyperledger Fabric networks.
 More information: <https://github.com/hyperledger-labs/minifabric>.
 
 - Bring up the default Hyperledger Fabric network:

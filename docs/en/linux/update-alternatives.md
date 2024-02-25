@@ -1,14 +1,18 @@
 ---
 layout: page
 title: linux/update-alternatives (English)
-description: "A convenient tool for maintaining symbolic links to determine default commands."
-content_hash: 43a49b88be22bdc9d6d0a6021571f2db150ad4b5
-last_modified_at: 2023-11-12
+description: "Convenientily maintain symbolic links to determine default commands."
+content_hash: 78b05f71938561e91765b5bd76e119d11869985b
+last_modified_at: 2024-02-25
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/update-alternatives.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # update-alternatives
 
-A convenient tool for maintaining symbolic links to determine default commands.
+Convenientily maintain symbolic links to determine default commands.
 More information: <https://manned.org/update-alternatives>.
 
 - Add a symbolic link:

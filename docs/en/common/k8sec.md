@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/k8sec (English)
-description: "Command-line interface tool to manage Kubernetes secrets."
-content_hash: beceb163d3d6da4f8bf1222aff9d2fdf6204b6f1
-last_modified_at: 2023-11-12
+description: "Manage Kubernetes secrets."
+content_hash: 15a0849db67fe8153b386bf89ea21543ae1dbd56
+last_modified_at: 2024-02-25
 tldri18n_status: 2
 ---
 # k8sec
 
-Command-line interface tool to manage Kubernetes secrets.
+Manage Kubernetes secrets.
 More information: <https://github.com/dtan4/k8sec>.
 
 - List all secrets:

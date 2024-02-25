@@ -2,8 +2,8 @@
 layout: page
 title: osx/shuf (English)
 description: "Generate random permutations."
-content_hash: 92816b1d38a2b4c8a255ab147eeef7a864ef5ae0
-last_modified_at: 2024-01-31
+content_hash: d4ab046dcf827b844edff013bcd0663ec7e3e3ef
+last_modified_at: 2024-02-25
 related_topics:
   - title: español version
     url: /es/osx/shuf.html
@@ -33,6 +33,6 @@ More information: <https://keith.github.io/xcode-man-pages/shuf.1.html>.
 
 `shuf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>` --output=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_filename</span>
 
-- Generate random numbers in range 1-10:
+- Generate random numbers in the range 1 to 10:
 
 `shuf --input-range=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-10</span>

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/cfdisk (English)
-description: "A program for managing partition tables and partitions on a hard disk using a curses UI."
-content_hash: 6790889e1653b9a927d6869909e63a31601abc78
-last_modified_at: 2023-11-12
+description: "Manage partition tables and partitions on a hard disk using a curses UI."
+content_hash: 43041692258b98d9b793837977296084306b52cb
+last_modified_at: 2024-02-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/cfdisk.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # cfdisk
 
-A program for managing partition tables and partitions on a hard disk using a curses UI.
+Manage partition tables and partitions on a hard disk using a curses UI.
 More information: <https://manned.org/cfdisk>.
 
 - Start the partition manipulator with a specific device:

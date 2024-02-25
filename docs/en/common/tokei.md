@@ -1,28 +1,28 @@
 ---
 layout: page
 title: common/tokei (English)
-description: "A program that prints out statistics about code."
-content_hash: dad4672b19d7a407de8840a7503f78fda200e7ef
-last_modified_at: 2023-11-12
+description: "Display statistics about code."
+content_hash: d3f3ffc88f3382e97bc1f20eb57a45127fa5d7b1
+last_modified_at: 2024-02-25
 tldri18n_status: 2
 ---
 # tokei
 
-A program that prints out statistics about code.
+Display statistics about code.
 More information: <https://github.com/XAMPPRocky/tokei>.
 
-- Get a report on the code in a directory and all subdirectories:
+- Display a report for the code in a directory and all subdirectories:
 
 `tokei `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Get a report for a directory excluding `.min.js` files:
+- Display a report for a directory excluding `.min.js` files:
 
 `tokei `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.min.js</span>
 
-- Print out statistics for individual files in a directory:
+- Display statistics for individual files in a directory:
 
 `tokei `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --files`
 
-- Get a report for all files of type Rust and Markdown:
+- Display a report for all files of type Rust and Markdown:
 
 `tokei `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` -t=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Rust</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Markdown</span>

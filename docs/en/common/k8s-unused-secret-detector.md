@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/k8s-unused-secret-detector (English)
-description: "Command-line interface tool for detecting unused Kubernetes secrets."
-content_hash: 07a1ca935db8fb6e9efe95104ed7f252f293112a
-last_modified_at: 2023-11-12
+description: "Detect unused Kubernetes secrets."
+content_hash: 37730e39b1abd0f57adb29a9825d5a0622c3d27b
+last_modified_at: 2024-02-25
 tldri18n_status: 2
 ---
 # k8s-unused-secret-detector
 
-Command-line interface tool for detecting unused Kubernetes secrets.
+Detect unused Kubernetes secrets.
 More information: <https://github.com/dtan4/k8s-unused-secret-detector>.
 
 - Detect unused secrets:

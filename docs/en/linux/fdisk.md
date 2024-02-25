@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/fdisk (English)
-description: "A program for managing partition tables and partitions on a hard disk."
-content_hash: 207bea12129277e2fb9d07a9537fe5f4e0401236
-last_modified_at: 2023-11-12
+description: "Manage partition tables and partitions on a hard disk."
+content_hash: f27ad4bfdf8380689f617fdb4d83942dd6adef7f
+last_modified_at: 2024-02-25
 related_topics:
   - title: हिन्दी version
     url: /hi/linux/fdisk.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # fdisk
 
-A program for managing partition tables and partitions on a hard disk.
+Manage partition tables and partitions on a hard disk.
 See also: `partprobe`.
 More information: <https://manned.org/fdisk>.
 

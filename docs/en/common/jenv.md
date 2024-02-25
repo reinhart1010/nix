@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/jenv (English)
-description: "Command-line tool to manage the \"JAVA_HOME\" environment variable."
-content_hash: 2a06a681879da363739e5e44afc7f797ddf6f361
-last_modified_at: 2023-11-12
+description: "Manage the \"JAVA_HOME\" environment variable."
+content_hash: 473f406d1ca65f66694efecf1558bf4661da6566
+last_modified_at: 2024-02-25
 related_topics:
   - title: 中文 version
     url: /zh/common/jenv.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # jenv
 
-Command-line tool to manage the "JAVA_HOME" environment variable.
+Manage the "JAVA_HOME" environment variable.
 More information: <https://www.jenv.be/>.
 
 - Add a Java version to jEnv:

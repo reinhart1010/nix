@@ -2,8 +2,8 @@
 layout: page
 title: linux/bspwm (English)
 description: "A tiling window manager based on binary space partitioning."
-content_hash: 5d74eae338cdada44d327364f902e71961156a4e
-last_modified_at: 2023-11-12
+content_hash: 73672d89f27af407995a2787b5ec28a540367ed7
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -94,12 +94,9 @@ tldri18n_status: 2
 # bspwm
 
 A tiling window manager based on binary space partitioning.
+See also: `bspc`, for controlling it.
 More information: <https://github.com/baskerville/bspwm>.
 
 - Start `bspwm` (note that a pre-existing window manager must not be open when this command is run):
 
 `bspwm -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config</span>
-
-- View documentation for `bspc`:
-
-`tldr bspc`

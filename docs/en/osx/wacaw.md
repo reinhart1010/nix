@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/wacaw (English)
-description: "Command-line tool for macOS to capture both still pictures and video from an attached camera."
-content_hash: 5ea521b0d46e8fac86d42d4f7d3f2abfa61e86d2
-last_modified_at: 2023-11-12
+description: "Capture both still pictures and video from an attached camera."
+content_hash: a3a3f4845c200b5ac3621d4c587e5a86dbcaf3fd
+last_modified_at: 2024-02-25
 related_topics:
   - title: español version
     url: /es/osx/wacaw.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # wacaw
 
-Command-line tool for macOS to capture both still pictures and video from an attached camera.
+Capture both still pictures and video from an attached camera.
 More information: <http://webcam-tools.sourceforge.net>.
 
 - Take a picture from webcam:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/gpupdate (English)
-description: "A tool to check and apply Windows Group Policy settings."
-content_hash: 1d94b8ac1f764b24bae5e4f6fdfcde0431374766
-last_modified_at: 2024-01-30
+description: "Check and apply Windows Group Policy settings."
+content_hash: 2dec2de27d9ef6b4b3682f080c53c5816281ae21
+last_modified_at: 2024-02-25
 related_topics:
   - title: svenska version
     url: /sv/windows/gpupdate.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # gpupdate
 
-A tool to check and apply Windows Group Policy settings.
+Check and apply Windows Group Policy settings.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/gpupdate>.
 
 - Check and apply updated Group Policy settings:

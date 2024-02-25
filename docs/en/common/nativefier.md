@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/nativefier (English)
-description: "Command-line tool to create a desktop app for any web site with minimal configuration."
-content_hash: d2ddc947b392a108a6e2484b9db63af886b061ea
-last_modified_at: 2023-11-12
+description: "Create a desktop app for any web site with minimal configuration."
+content_hash: 01357fbb10f19b4150094211bd02536be90ac6c7
+last_modified_at: 2024-02-25
 related_topics:
   - title: Deutsch version
     url: /de/common/nativefier.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # nativefier
 
-Command-line tool to create a desktop app for any web site with minimal configuration.
+Create a desktop app for any web site with minimal configuration.
 More information: <https://github.com/jiahaog/nativefier>.
 
 - Make a desktop app for a website:

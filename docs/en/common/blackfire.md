@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/blackfire (English)
-description: "A command-line profiling tool for PHP."
-content_hash: 58f58779cf9c8687dd450b786e4ef552f32d82d4
-last_modified_at: 2023-11-12
+description: "Monitor, profile and test a PHP application."
+content_hash: 477ab8ebfc56b75b8f953bab2e02652c0d4f9718
+last_modified_at: 2024-02-25
 related_topics:
   - title: italiano version
     url: /it/common/blackfire.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # blackfire
 
-A command-line profiling tool for PHP.
+Monitor, profile and test a PHP application.
 More information: <https://blackfire.io>.
 
 - Initialize and configure the Blackfire client:

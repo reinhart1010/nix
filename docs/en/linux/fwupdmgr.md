@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/fwupdmgr (English)
-description: "A tool for updating device firmware, including UEFI, using `fwupd`."
-content_hash: e6461e9c584f55b6dd8a267f115cbe5786a9c209
-last_modified_at: 2023-11-12
+description: "Update device firmware, including UEFI, using `fwupd`."
+content_hash: c55e5d56983bb847eb227fd1343b44762753bf40
+last_modified_at: 2024-02-25
 related_topics:
   - title: தமிழ் version
     url: /ta/linux/fwupdmgr.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # fwupdmgr
 
-A tool for updating device firmware, including UEFI, using `fwupd`.
+Update device firmware, including UEFI, using `fwupd`.
 More information: <https://fwupd.org/>.
 
 - Display all devices detected by fwupd:

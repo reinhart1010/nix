@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/nest (English)
-description: "Command-line tool to initialize, develop, and maintain Nest applications."
-content_hash: 5394f5c54412597735813f1832182293a7db1fff
-last_modified_at: 2023-11-12
+description: "Initialize, develop, and maintain Nest applications."
+content_hash: 1b4a26725580cea467aa69d4de8ab187389a4522
+last_modified_at: 2024-02-25
 related_topics:
   - title: español version
     url: /es/common/nest.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # nest
 
-Command-line tool to initialize, develop, and maintain Nest applications.
+Initialize, develop, and maintain Nest applications.
 More information: <https://docs.nestjs.com/cli/overview>.
 
 - Display information about installed nest version:

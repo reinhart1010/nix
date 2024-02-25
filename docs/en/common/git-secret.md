@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/git-secret (English)
-description: "Bash tool which stores private data inside a Git repository."
-content_hash: 779e778e8af8b0ac8ca09c2b2119f2ae4cdcc857
-last_modified_at: 2023-11-12
+description: "Stores private data inside a Git repository. Written in Bash."
+content_hash: 13bf13a1b3957e658ee9a609db27144620b29433
+last_modified_at: 2024-02-25
 tldri18n_status: 2
 ---
 # git secret
 
-Bash tool which stores private data inside a Git repository.
+Stores private data inside a Git repository. Written in Bash.
 More information: <https://github.com/sobolevn/git-secret>.
 
 - Initialize `git-secret` in a local repository:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/gdebi (English)
-description: "Simple tool to install `.deb` files."
-content_hash: 4fd3d340b98ad451871e485efec07365dfc25f52
-last_modified_at: 2024-01-30
+description: "Easily install `.deb` files."
+content_hash: 69c45630e2d6a5fbd60871658535f4f31e39dafa
+last_modified_at: 2024-02-25
 tldri18n_status: 2
 ---
 # gdebi
 
-Simple tool to install `.deb` files.
+Easily install `.deb` files.
 More information: <https://www.commandlinux.com/man-page/man1/gdebi.1.html>.
 
 - Install local `.deb` packages resolving and installing its dependencies:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/json5 (English)
-description: "A command-line tool for converting JSON5 files to JSON."
-content_hash: d093a567d7e9d5b7cae538b543ea4686a7561918
-last_modified_at: 2024-01-30
+description: "Convert JSON5 files to JSON."
+content_hash: 2adebb84c790b919698230223111760f80a71a50
+last_modified_at: 2024-02-25
 tldri18n_status: 2
 ---
 # json5
 
-A command-line tool for converting JSON5 files to JSON.
+Convert JSON5 files to JSON.
 More information: <https://json5.org>.
 
 - Convert JSON5 `stdin` to JSON `stdout`:

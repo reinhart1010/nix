@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/betterdiscordctl (English)
-description: "A program for managing BetterDiscord on Linux."
-content_hash: 8f69197523bc7ba56d6f69cbde477b5d50f7a8e4
-last_modified_at: 2023-11-12
+description: "Manage BetterDiscord on Linux."
+content_hash: 20830b4c9eedc84d07e9a19e9646d4e24178e4dd
+last_modified_at: 2024-02-25
 tldri18n_status: 2
 ---
 # betterdiscordctl
 
-A program for managing BetterDiscord on Linux.
+Manage BetterDiscord on Linux.
 More information: <https://github.com/bb010g/betterdiscordctl#manual>.
 
 - Install BetterDiscord on Discord Stable:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/archey (English)
-description: "Simple tool for stylishly displaying system information."
-content_hash: 17b5a555485f5060c8307ca376de5b3f2ead9e9f
-last_modified_at: 2023-11-12
+description: "Stylishly display system information."
+content_hash: d04c4048a0c1eeff775e6e801669d763e563ff71
+last_modified_at: 2024-02-25
 related_topics:
   - title: español version
     url: /es/osx/archey.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # archey
 
-Simple tool for stylishly displaying system information.
+Stylishly display system information.
 More information: <https://github.com/joshfinnie/archey-osx>.
 
 - Show system information:

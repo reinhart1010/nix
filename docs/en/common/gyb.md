@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/gyb (English)
-description: "Command line tool for locally backing up Gmail messages using Gmail's API over HTTPS."
-content_hash: 38742fcc500fc6fe7d6b3b06fe33fa0b25583a0e
-last_modified_at: 2023-11-12
+description: "Locally back up Gmail messages using Gmail's API over HTTPS."
+content_hash: 757d51ff3541f9ac92a418a7b84ee8fcb2f83415
+last_modified_at: 2024-02-25
 tldri18n_status: 2
 ---
 # gyb
 
-Command line tool for locally backing up Gmail messages using Gmail's API over HTTPS.
+Locally back up Gmail messages using Gmail's API over HTTPS.
 More information: <https://github.com/GAM-team/got-your-back>.
 
 - Estimate the number and the size of all emails on your Gmail account:
