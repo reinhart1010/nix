@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gbasename (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux basename`."
-content_hash: 4a8ea42cb736890e32d271f48535a55fe7c8293e
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux basename`."
+content_hash: 46692917ec38cf19a9806528502950e58b8d83fc
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gbasename.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gbasename
 
-Este comando é um pseudônimo de `-p linux basename`.
+Este comando é um apelido de `-p linux basename`.
 
 - Exibe documentação sobre o comando original:
 

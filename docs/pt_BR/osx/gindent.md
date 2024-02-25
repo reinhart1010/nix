@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gindent (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux indent`."
-content_hash: df572e148aba23ad63a216ff2eb2b125a0f1f196
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux indent`."
+content_hash: e5f9d5653a965017ca9e50371eba49a3568bf090
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gindent.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gindent
 
-Este comando é um pseudônimo de `-p linux indent`.
+Este comando é um apelido de `-p linux indent`.
 
 - Exibe documentação sobre o comando original:
 

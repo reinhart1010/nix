@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gtimeout (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux timeout`."
-content_hash: baa3243907829ebd40f4159a9d9ebba0a03ef8b6
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux timeout`."
+content_hash: 6c12a4fd526c004e213a36e0739a0cd5b919cc37
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gtimeout.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gtimeout
 
-Este comando é um pseudônimo de `-p linux timeout`.
+Este comando é um apelido de `-p linux timeout`.
 
 - Exibe documentação sobre o comando original:
 

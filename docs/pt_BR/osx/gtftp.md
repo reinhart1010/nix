@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gtftp (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux tftp`."
-content_hash: b7cdead33b335c44ec5b4155029f6ab3fa81a183
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux tftp`."
+content_hash: 610bc2cf7adfe1118aed28bffdd6c474b127bbf2
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gtftp.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gtftp
 
-Este comando é um pseudônimo de `-p linux tftp`.
+Este comando é um apelido de `-p linux tftp`.
 
 - Exibe documentação sobre o comando original:
 

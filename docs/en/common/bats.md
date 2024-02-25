@@ -3,19 +3,10 @@ layout: page
 title: common/bats (English)
 description: "Bash Automated Testing System: a TAP (<https://testanything.org/>) compliant testing framework for Bash."
 content_hash: 369209520c26e902bd24342b8e65bf554ecbdd46
-last_modified_at: 2024-02-24
-tldri18n_status: 0
+last_modified_at: 2024-02-25
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bats.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bats
+# bats
 
 Bash Automated Testing System: a TAP (<https://testanything.org/>) compliant testing framework for Bash.
 More information: <https://bats-core.readthedocs.io/en/stable/usage.html>.

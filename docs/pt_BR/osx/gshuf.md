@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gshuf (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux shuf`."
-content_hash: daed8e1e11524aee20dcc354672056d8b195bb6c
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux shuf`."
+content_hash: 7a63398aa5a1352071ac3cec0b9dc505d598ddf9
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gshuf.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gshuf
 
-Este comando é um pseudônimo de `-p linux shuf`.
+Este comando é um apelido de `-p linux shuf`.
 
 - Exibe documentação sobre o comando original:
 

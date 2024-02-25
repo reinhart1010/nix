@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/ggrep (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux grep`."
-content_hash: fc5a92cf2fb8e150ea51c365bd8970f5cc79c4c9
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux grep`."
+content_hash: 531075262f599046733b74a23608aac1a1148303
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/ggrep.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ggrep
 
-Este comando é um pseudônimo de `-p linux grep`.
+Este comando é um apelido de `-p linux grep`.
 
 - Exibe documentação sobre o comando original:
 

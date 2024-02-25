@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/alternatives (português (Brasil))
-description: "Este comando é um pseudônimo de `update-alternatives`."
-content_hash: 19aff7c2c3f428a50caa77a38fb028e22052704e
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `update-alternatives`."
+content_hash: f98f84b0b2171f929f5a335e7e10a4e41b4463eb
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/linux/alternatives.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # alternatives
 
-Este comando é um pseudônimo de `update-alternatives`.
+Este comando é um apelido de `update-alternatives`.
 Mais informações: <https://manned.org/alternatives>.
 
 - Exibe documentação sobre o comando original:

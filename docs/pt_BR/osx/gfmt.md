@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gfmt (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux fmt`."
-content_hash: d6c1bd90f15cbf3656ba35cf8355ac38e6b8daf3
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux fmt`."
+content_hash: 1bbf21429b04f8fc3a2b7304cb2b7a7bf2ec30ad
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gfmt.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gfmt
 
-Este comando é um pseudônimo de `-p linux fmt`.
+Este comando é um apelido de `-p linux fmt`.
 
 - Exibe documentação sobre o comando original:
 

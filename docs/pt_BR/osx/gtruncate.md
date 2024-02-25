@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gtruncate (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux truncate`."
-content_hash: 35c6070c4bbb1230ffc003f3bdf2ce1021ef5242
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux truncate`."
+content_hash: 546be5e04cc5d045785598f523b8b2f16be749b2
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gtruncate.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gtruncate
 
-Este comando é um pseudônimo de `-p linux truncate`.
+Este comando é um apelido de `-p linux truncate`.
 
 - Exibe documentação sobre o comando original:
 

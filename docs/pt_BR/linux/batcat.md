@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/batcat (português (Brasil))
-description: "Este comando é um pseudônimo de `bat`."
-content_hash: 8f1410daaa996cd002311c87e8c67d794324ba74
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `bat`."
+content_hash: 38ebe13f780fa8a73049f4685f6bc7b76a4ddff4
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/linux/batcat.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # batcat
 
-Este comando é um pseudônimo de `bat`.
+Este comando é um apelido de `bat`.
 Mais informações: <https://github.com/sharkdp/bat>.
 
 - Exibe documentação sobre o comando original:

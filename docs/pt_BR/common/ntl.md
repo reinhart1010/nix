@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ntl (português (Brasil))
-description: "Este comando é um pseudônimo de `netlify`."
-content_hash: 2f3a99ab98f8229b4219a052c4316c5bc7f617f2
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `netlify`."
+content_hash: ac2c5690feb75fb6e76a34c8faf21204a16e43dd
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/ntl.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ntl
 
-Este comando é um pseudônimo de `netlify`.
+Este comando é um apelido de `netlify`.
 Mais informações: <https://cli.netlify.com>.
 
 - Exibe documentação sobre o comando original:

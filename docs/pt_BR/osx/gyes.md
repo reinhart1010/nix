@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gyes (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux yes`."
-content_hash: 785c50bd06ed26080808c0aaf5c9871d82c2f76a
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux yes`."
+content_hash: 980961354aee663b6640082d3e3cf1f735130ee3
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gyes.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gyes
 
-Este comando é um pseudônimo de `-p linux yes`.
+Este comando é um apelido de `-p linux yes`.
 
 - Exibe documentação sobre o comando original:
 

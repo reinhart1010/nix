@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gtail (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux tail`."
-content_hash: 77a593163744b81f9ad9ba0f1793a60c9f0142fc
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux tail`."
+content_hash: a2038c8ec690d1f62490efd9ccea7201a34bb12e
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gtail.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gtail
 
-Este comando é um pseudônimo de `-p linux tail`.
+Este comando é um apelido de `-p linux tail`.
 
 - Exibe documentação sobre o comando original:
 

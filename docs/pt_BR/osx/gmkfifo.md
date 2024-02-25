@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gmkfifo (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux mkfifo`."
-content_hash: ba079f9879b3fedb469c672a7fa7134b411647b3
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux mkfifo`."
+content_hash: 2bcafe98eba52d7e72e2cb5058a23539a160c830
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gmkfifo.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gmkfifo
 
-Este comando é um pseudônimo de `-p linux mkfifo`.
+Este comando é um apelido de `-p linux mkfifo`.
 
 - Exibe documentação sobre o comando original:
 

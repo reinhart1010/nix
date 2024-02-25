@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/platformio (português (Brasil))
-description: "Este comando é um pseudônimo de `pio`."
-content_hash: 7de4a47cd6b97a963dc834dde2fe2c9728ab44a4
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `pio`."
+content_hash: 15298d716de9b105f592c804c15462581947fd6e
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/platformio.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # platformio
 
-Este comando é um pseudônimo de `pio`.
+Este comando é um apelido de `pio`.
 Mais informações: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Exibe documentação sobre o comando original:

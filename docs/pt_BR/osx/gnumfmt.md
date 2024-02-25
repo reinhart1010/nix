@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gnumfmt (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux numfmt`."
-content_hash: 93fd1c08084bceca3bbcea015c9dcdce0dc0fc0b
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux numfmt`."
+content_hash: 0fdae53a7b81eacbb9db113c4ab750337944947c
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gnumfmt.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gnumfmt
 
-Este comando é um pseudônimo de `-p linux numfmt`.
+Este comando é um apelido de `-p linux numfmt`.
 
 - Exibe documentação sobre o comando original:
 

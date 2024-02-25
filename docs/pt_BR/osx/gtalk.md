@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gtalk (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux talk`."
-content_hash: 2b87bbf1184bad62a0bfd38dc743560d407bc547
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux talk`."
+content_hash: 9ecdbd575dde193455db95df64127d9425a28dc9
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gtalk.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gtalk
 
-Este comando é um pseudônimo de `-p linux talk`.
+Este comando é um apelido de `-p linux talk`.
 
 - Exibe documentação sobre o comando original:
 

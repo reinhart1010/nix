@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ripgrep (português (Brasil))
-description: "Este comando é um pseudônimo de `rg`."
-content_hash: 9dbee81001ca9351062d7cd21447e52e6f577b56
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `rg`."
+content_hash: 637c53d732997d41d6144576b099a7b45b4a52dc
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/ripgrep.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ripgrep
 
-Este comando é um pseudônimo de `rg`.
+Este comando é um apelido de `rg`.
 
 - Exibe documentação sobre o comando original:
 

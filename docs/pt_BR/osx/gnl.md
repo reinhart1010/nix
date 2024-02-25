@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gnl (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux nl`."
-content_hash: 6fa4f554585e9e40fc477ab737f2fa6b98e2d7c8
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux nl`."
+content_hash: d594c1a95a7ceea96fab161fe97995ba8a16b006
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gnl.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gnl
 
-Este comando é um pseudônimo de `-p linux nl`.
+Este comando é um apelido de `-p linux nl`.
 
 - Exibe documentação sobre o comando original:
 

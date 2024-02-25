@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gln (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux ln`."
-content_hash: ea84c5a0c763cbddec8d20d52b2615ff4984aa26
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux ln`."
+content_hash: 21c027424d265a72eae14c7cc868abd4ef293f01
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gln.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gln
 
-Este comando é um pseudônimo de `-p linux ln`.
+Este comando é um apelido de `-p linux ln`.
 
 - Exibe documentação sobre o comando original:
 

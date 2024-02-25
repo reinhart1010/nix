@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gcut (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux cut`."
-content_hash: 0dc8d33c336cf6a4176ad35af6c21f9ed114837e
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux cut`."
+content_hash: 7a146028fe92a67b4bf3efa5628e73aae7776870
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gcut.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gcut
 
-Este comando é um pseudônimo de `-p linux cut`.
+Este comando é um apelido de `-p linux cut`.
 
 - Exibe documentação sobre o comando original:
 

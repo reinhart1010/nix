@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gchgrp (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux chgrp`."
-content_hash: 22bd9b8435050bd7b00e3e816d20bd86cf63a1f3
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux chgrp`."
+content_hash: 0d3edb88d1d4cbb2ba907f553a0524fab2aca18a
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gchgrp.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gchgrp
 
-Este comando é um pseudônimo de `-p linux chgrp`.
+Este comando é um apelido de `-p linux chgrp`.
 
 - Exibe documentação sobre o comando original:
 

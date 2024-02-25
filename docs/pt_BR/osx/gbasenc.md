@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gbasenc (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux basenc`."
-content_hash: f960077bd980278dd144bd0a37248ef6f3878bd5
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux basenc`."
+content_hash: f539fe3c81828675379b7b3e1a955bd63ba26daa
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gbasenc.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gbasenc
 
-Este comando é um pseudônimo de `-p linux basenc`.
+Este comando é um apelido de `-p linux basenc`.
 
 - Exibe documentação sobre o comando original:
 

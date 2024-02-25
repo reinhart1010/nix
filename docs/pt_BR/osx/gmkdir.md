@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gmkdir (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux mkdir`."
-content_hash: 8ae31b56962d4704f38ed38390f88b61ce01122b
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux mkdir`."
+content_hash: 39d1dd1c09dc1eef35156ebe63c892b740c2a625
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gmkdir.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gmkdir
 
-Este comando é um pseudônimo de `-p linux mkdir`.
+Este comando é um apelido de `-p linux mkdir`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/ghostname (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux hostname`."
-content_hash: 91934ba8442d81048ba2607076abadd9740160d8
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux hostname`."
+content_hash: c44015d5a16baaaed144624ee760ce2f9be38133
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/ghostname.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ghostname
 
-Este comando é um pseudônimo de `-p linux hostname`.
+Este comando é um apelido de `-p linux hostname`.
 
 - Exibe documentação sobre o comando original:
 

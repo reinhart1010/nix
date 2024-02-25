@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gtest (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux test`."
-content_hash: bc9d06f0e39b4747f1f82f8ca34c5f1475e4bb71
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux test`."
+content_hash: de78de98a0c60f8e647a8e971e8381260dfb3c1a
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gtest.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gtest
 
-Este comando é um pseudônimo de `-p linux test`.
+Este comando é um apelido de `-p linux test`.
 
 - Exibe documentação sobre o comando original:
 

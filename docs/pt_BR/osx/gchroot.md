@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gchroot (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux chroot`."
-content_hash: 0634b90510745f6314028adf165236b30107dc31
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux chroot`."
+content_hash: c592dd88b5802dbf8c70d08fa32bde608756f93b
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gchroot.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gchroot
 
-Este comando é um pseudônimo de `-p linux chroot`.
+Este comando é um apelido de `-p linux chroot`.
 
 - Exibe documentação sobre o comando original:
 

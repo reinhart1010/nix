@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/llvm-strings (português (Brasil))
-description: "Este comando é um pseudônimo de `strings`."
-content_hash: 8e61a0146b05373cf12622357edda3b1666e683e
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `strings`."
+content_hash: 5ca3360cd8c6c4a628ff1924c8d53d14dc62e249
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-strings.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # llvm-strings
 
-Este comando é um pseudônimo de `strings`.
+Este comando é um apelido de `strings`.
 
 - Exibe documentação sobre o comando original:
 

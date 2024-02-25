@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/grealpath (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux realpath`."
-content_hash: 89d9103807b9106fc1272f13266b0ae7ecd25093
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux realpath`."
+content_hash: a25632536f2bd19aef26fbf33caa465c74b6c897
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/grealpath.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # grealpath
 
-Este comando é um pseudônimo de `-p linux realpath`.
+Este comando é um apelido de `-p linux realpath`.
 
 - Exibe documentação sobre o comando original:
 

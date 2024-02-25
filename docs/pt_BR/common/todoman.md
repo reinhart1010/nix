@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/todoman (português (Brasil))
-description: "Este comando é um pseudônimo de `todo`."
-content_hash: b935d4732455bd61f7724a660211f28206dbbe80
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `todo`."
+content_hash: d662fbbf8ccbbe174439dcc012b2c84aaaaa5d74
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/todoman.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # todoman
 
-Este comando é um pseudônimo de `todo`.
+Este comando é um apelido de `todo`.
 Mais informações: <https://todoman.readthedocs.io/>.
 
 - Exibe documentação sobre o comando original:

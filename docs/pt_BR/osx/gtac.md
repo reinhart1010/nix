@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gtac (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux tac`."
-content_hash: cc19f5e467694b6e7cb4257c8e75b8964d6c552d
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux tac`."
+content_hash: dcca7bee2ec54e9f318e20471bc3ddc8c7048bce
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gtac.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gtac
 
-Este comando é um pseudônimo de `-p linux tac`.
+Este comando é um apelido de `-p linux tac`.
 
 - Exibe documentação sobre o comando original:
 

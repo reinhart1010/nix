@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gsha1sum (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux sha1sum`."
-content_hash: 961f59016e14c5c37624ffd6f9777e23ff90a859
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux sha1sum`."
+content_hash: 2de1e73f973c482af62db6eb9336af0fab83ea32
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha1sum.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gsha1sum
 
-Este comando é um pseudônimo de `-p linux sha1sum`.
+Este comando é um apelido de `-p linux sha1sum`.
 
 - Exibe documentação sobre o comando original:
 

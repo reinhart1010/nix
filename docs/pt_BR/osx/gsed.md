@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gsed (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux sed`."
-content_hash: 993c2d43fe7ffb8bb2f9038a623bc24bff7106db
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux sed`."
+content_hash: 04131753e028fe3e41c04f962defc5e9089e86d6
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gsed.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gsed
 
-Este comando é um pseudônimo de `-p linux sed`.
+Este comando é um apelido de `-p linux sed`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gwhois (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux whois`."
-content_hash: 7e09fa0d1e412baca6fc131034817bd550ff2912
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux whois`."
+content_hash: 0e64cceec58e3612f794bec10ee15f572821cfcf
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhois.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gwhois
 
-Este comando é um pseudônimo de `-p linux whois`.
+Este comando é um apelido de `-p linux whois`.
 
 - Exibe documentação sobre o comando original:
 

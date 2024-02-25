@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/llvm-g++ (português (Brasil))
-description: "Este comando é um pseudônimo de `clang++`."
-content_hash: 863e4ebc8df247bbd0e5b9b23370ddce2a410b28
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `clang++`."
+content_hash: 41b9cc2146ec2e5afbc887e7d662f09855096ab4
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-g++.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # llvm-g++
 
-Este comando é um pseudônimo de `clang++`.
+Este comando é um apelido de `clang++`.
 
 - Exibe documentação sobre o comando original:
 

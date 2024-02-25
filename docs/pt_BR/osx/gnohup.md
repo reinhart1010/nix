@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gnohup (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux nohup`."
-content_hash: 0d3beb6a04d522ffc94f8f068999951bb1aa8ea2
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux nohup`."
+content_hash: 0bf38f654082115d7322965adb7f7e4a8e7e264b
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gnohup.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gnohup
 
-Este comando é um pseudônimo de `-p linux nohup`.
+Este comando é um apelido de `-p linux nohup`.
 
 - Exibe documentação sobre o comando original:
 

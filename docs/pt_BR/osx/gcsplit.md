@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gcsplit (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux csplit`."
-content_hash: 83683672e6da61c623ec8e2a6e9c654e470400cb
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux csplit`."
+content_hash: d4bd6e98a9bc94aa5568cbec0381df37fa0f5c64
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gcsplit.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gcsplit
 
-Este comando é um pseudônimo de `-p linux csplit`.
+Este comando é um apelido de `-p linux csplit`.
 
 - Exibe documentação sobre o comando original:
 

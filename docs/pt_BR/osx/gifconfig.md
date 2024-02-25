@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gifconfig (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux ifconfig`."
-content_hash: 655b306279ac5fff36694d2f1ac061b8010f609d
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux ifconfig`."
+content_hash: 10dee3cd039dfa7d904efc550e391e49aff930ba
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gifconfig.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gifconfig
 
-Este comando é um pseudônimo de `-p linux ifconfig`.
+Este comando é um apelido de `-p linux ifconfig`.
 
 - Exibe documentação sobre o comando original:
 

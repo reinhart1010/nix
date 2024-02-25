@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gjoin (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux join`."
-content_hash: 6355b80af364a374d9c2538d2a0ec587ba7237a0
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux join`."
+content_hash: 68a93b323ca91ad781531d504ac29d8ff3fbd7ea
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gjoin.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gjoin
 
-Este comando é um pseudônimo de `-p linux join`.
+Este comando é um apelido de `-p linux join`.
 
 - Exibe documentação sobre o comando original:
 

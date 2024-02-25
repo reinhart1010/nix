@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/god (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux od`."
-content_hash: 7c0aac737b06a2f6f036f4f3a51aadf072cfc55b
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux od`."
+content_hash: 6d7d5a9c543d886ee65c9983102bc469befca1bc
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/god.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # god
 
-Este comando é um pseudônimo de `-p linux od`.
+Este comando é um apelido de `-p linux od`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/megadl (português (Brasil))
-description: "Este comando é um pseudônimo de `megatools-dl`."
-content_hash: e92aa043803af2f21e94bdab115f912cc86cb58d
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `megatools-dl`."
+content_hash: 20c33347a60d4d304494a529da7a4b7b4c9b4e4a
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/linux/megadl.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # megadl
 
-Este comando é um pseudônimo de `megatools-dl`.
+Este comando é um apelido de `megatools-dl`.
 Mais informações: <https://megatools.megous.com/man/megatools-dl.html>.
 
 - Exibe documentação sobre o comando original:

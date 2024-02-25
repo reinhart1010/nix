@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gwhoami (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux whoami`."
-content_hash: 0a0218ad899c009c7dfb8cb629c17acae4bb8c4c
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux whoami`."
+content_hash: 660570d3aed68022181b5aa7f320ab1acf53d5df
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhoami.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gwhoami
 
-Este comando é um pseudônimo de `-p linux whoami`.
+Este comando é um apelido de `-p linux whoami`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gsha256sum (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux sha256sum`."
-content_hash: 86184189e6956090afa26c912ac6bd4aa1da1d09
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux sha256sum`."
+content_hash: 0bf1e826704ac16afcd31c262d9356d535e49d6f
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha256sum.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gsha256sum
 
-Este comando é um pseudônimo de `-p linux sha256sum`.
+Este comando é um apelido de `-p linux sha256sum`.
 
 - Exibe documentação sobre o comando original:
 

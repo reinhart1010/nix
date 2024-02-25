@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/bspwm (português (Brasil))
-description: "Este comando é um pseudônimo de `bspc`."
-content_hash: 54b41ea66c0fd175788b80e9e04a31a1305e8635
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `bspc`."
+content_hash: d16fda9b7433033ff54f236e92b6dbeb7107462c
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -96,7 +96,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># bspwm
 
-Este comando é um pseudônimo de `bspc`.
+Este comando é um apelido de `bspc`.
 Mais informações: <https://github.com/baskerville/bspwm>.
 
 - Exibe documentação sobre o comando original:

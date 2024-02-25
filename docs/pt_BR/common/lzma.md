@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/lzma (português (Brasil))
-description: "Este comando é um pseudônimo de `xz`."
-content_hash: 307a5af1c1145174e47a13230db5600219a9b40f
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `xz`."
+content_hash: 8f13dd6d339bf82d16f9d5b04337721f935a50aa
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/lzma.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # lzma
 
-Este comando é um pseudônimo de `xz`.
+Este comando é um apelido de `xz`.
 Mais informações: <https://manned.org/lzma>.
 
 - Exibe documentação sobre o comando original:

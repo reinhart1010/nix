@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gpinky (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux pinky`."
-content_hash: ac2c1de00e3f06b508eb0a963f56e7f6bfedae71
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux pinky`."
+content_hash: 0c6caa7ddf53ed051d0e584fb9dbc993967598da
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gpinky.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gpinky
 
-Este comando é um pseudônimo de `-p linux pinky`.
+Este comando é um apelido de `-p linux pinky`.
 
 - Exibe documentação sobre o comando original:
 

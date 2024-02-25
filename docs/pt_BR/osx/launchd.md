@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/launchd (português (Brasil))
-description: "Este comando é um pseudônimo de `launchctl`."
-content_hash: 8a98cf6b729059e6d971f8244fc35c3874b4928b
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `launchctl`."
+content_hash: d055cb8a094fea04353ec6ae433c2532b3c822bc
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/launchd.html
@@ -96,7 +96,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># launchd
 
-Este comando é um pseudônimo de `launchctl`.
+Este comando é um apelido de `launchctl`.
 Mais informações: <https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html>.
 
 - Exibe documentação sobre o comando original:

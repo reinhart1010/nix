@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/clojure (português (Brasil))
-description: "Este comando é um pseudônimo de `clj`."
-content_hash: f345064f65e072b92c67784a97b55753375ff8c4
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `clj`."
+content_hash: 28846aad3d17d278590b314d015202cc40264e68
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/clojure.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # clojure
 
-Este comando é um pseudônimo de `clj`.
+Este comando é um apelido de `clj`.
 
 - Exibe documentação sobre o comando original:
 

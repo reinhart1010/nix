@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gtrue (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux true`."
-content_hash: dfc981a810d1cbd59cf17e4f525c6a8aac867ff5
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux true`."
+content_hash: 14011bd557034966437b5ca55452eeceb7170cf5
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gtrue.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gtrue
 
-Este comando é um pseudônimo de `-p linux true`.
+Este comando é um apelido de `-p linux true`.
 
 - Exibe documentação sobre o comando original:
 

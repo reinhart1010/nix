@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gnproc (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux nproc`."
-content_hash: 3e67d5a27654ab8bd76e2d9259a15665d01493a6
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux nproc`."
+content_hash: 4d393d2b78bd154ea69d0ea68177d6e138df8d9c
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gnproc.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gnproc
 
-Este comando é um pseudônimo de `-p linux nproc`.
+Este comando é um apelido de `-p linux nproc`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gmknod (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux mknod`."
-content_hash: 7638fddcdd0411f60f4512315bbb6ea5eafa04d0
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux mknod`."
+content_hash: 973a5099fcb83a1826e06f200d34cc4df183508f
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gmknod.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gmknod
 
-Este comando é um pseudônimo de `-p linux mknod`.
+Este comando é um apelido de `-p linux mknod`.
 
 - Exibe documentação sobre o comando original:
 

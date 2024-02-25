@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gsum (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux sum`."
-content_hash: 00ce0fd380dfb8a31aac2b6c69e4ffa05694431c
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux sum`."
+content_hash: c7b8d7fa9460c4d78078b63f163d02e3480bcb67
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gsum.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gsum
 
-Este comando é um pseudônimo de `-p linux sum`.
+Este comando é um apelido de `-p linux sum`.
 
 - Exibe documentação sobre o comando original:
 

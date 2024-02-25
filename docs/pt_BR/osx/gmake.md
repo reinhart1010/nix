@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gmake (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux make`."
-content_hash: a61fc6feef1416a607fb19beca727cc548f4accf
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux make`."
+content_hash: 3457cfee5b14801d987c9f4d3f8153a2d15ced5a
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gmake.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gmake
 
-Este comando é um pseudônimo de `-p linux make`.
+Este comando é um apelido de `-p linux make`.
 
 - Exibe documentação sobre o comando original:
 

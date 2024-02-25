@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gcomm (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux comm`."
-content_hash: 95602e1ab8cceca28a0f0d9745b6ff4a61e966f7
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux comm`."
+content_hash: 1ff0c66f952bacc0657ffb7649146b6d8efe9b2d
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gcomm.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gcomm
 
-Este comando é um pseudônimo de `-p linux comm`.
+Este comando é um apelido de `-p linux comm`.
 
 - Exibe documentação sobre o comando original:
 

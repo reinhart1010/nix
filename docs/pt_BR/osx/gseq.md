@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gseq (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux seq`."
-content_hash: 4237590c686594a7d4876b95c02d0a6dd0054b4c
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux seq`."
+content_hash: b7bc9d0da06be3003d0858caf52aeb9ce58a23f9
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gseq.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gseq
 
-Este comando é um pseudônimo de `-p linux seq`.
+Este comando é um apelido de `-p linux seq`.
 
 - Exibe documentação sobre o comando original:
 

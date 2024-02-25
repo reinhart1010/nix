@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/vi (português (Brasil))
-description: "Este comando é um pseudônimo de `vim`."
-content_hash: 9bd175cdb8a6f1fdc6dd021cc5572434e33b21b6
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `vim`."
+content_hash: dd51eafc96f01c236187650eed5d10de14ce9035
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/vi.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # vi
 
-Este comando é um pseudônimo de `vim`.
+Este comando é um apelido de `vim`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gvdir (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux vdir`."
-content_hash: e2615953d5a1e1f5fc214d6497b061ceca65bfc4
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux vdir`."
+content_hash: ce67070dbbc3275fb4709e924339b714192128d6
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gvdir.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gvdir
 
-Este comando é um pseudônimo de `-p linux vdir`.
+Este comando é um apelido de `-p linux vdir`.
 
 - Exibe documentação sobre o comando original:
 

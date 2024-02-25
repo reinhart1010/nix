@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/bundler (português (Brasil))
-description: "Este comando é um pseudônimo de `bundle`."
-content_hash: 73e59cb0bef36db5bc8797bd9f74add22065fc19
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `bundle`."
+content_hash: efeb2de637a3425dd52e6cdb8fed061be953404f
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/bundler.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # bundler
 
-Este comando é um pseudônimo de `bundle`.
+Este comando é um apelido de `bundle`.
 Mais informações: <https://bundler.io/man/bundle.1.html>.
 
 - Exibe documentação sobre o comando original:

@@ -2,8 +2,8 @@
 layout: page
 title: common/jq (English)
 description: "A command-line JSON processor that uses a domain-specific language (DSL)."
-content_hash: 26e3d0d40fccc2116f4c11e173fbe42af120b211
-last_modified_at: 2023-11-12
+content_hash: 08813faaabf4b812da9fb0cd41778701fce0f673
+last_modified_at: 2024-02-25
 related_topics:
   - title: Deutsch version
     url: /de/common/jq.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # jq
 
 A command-line JSON processor that uses a domain-specific language (DSL).
-More information: <https://stedolan.github.io/jq/manual/>.
+More information: <https://jqlang.github.io/jq/manual/>.
 
 - Execute a specific expression (print a colored and formatted JSON output):
 
@@ -41,7 +41,7 @@ More information: <https://stedolan.github.io/jq/manual/>.
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span>` | jq '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.[index1], .[index2], ...</span>`'`
 
-- Print all array items/object keys:
+- Print all array/object values:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span>` | jq '.[]'`
 

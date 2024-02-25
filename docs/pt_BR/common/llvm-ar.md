@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/llvm-ar (português (Brasil))
-description: "Este comando é um pseudônimo de `ar`."
-content_hash: 16a9a2b379ffa63a43da8f1745ac90c97a7c2d38
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `ar`."
+content_hash: 5d15db1ab23099c0b028e9918931fce59e08e377
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-ar.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # llvm-ar
 
-Este comando é um pseudônimo de `ar`.
+Este comando é um apelido de `ar`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gchown (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux chown`."
-content_hash: bbd3cf002bf83d7036c262a80f1bae2626cc2062
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux chown`."
+content_hash: 6998c531292a4ee122ac95f8652025c7405da175
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gchown.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gchown
 
-Este comando é um pseudônimo de `-p linux chown`.
+Este comando é um apelido de `-p linux chown`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/curl (português (Brasil))
-description: "Este comando é um pseudônimo de `curl -p common`."
-content_hash: b878a84e08bed8caa50b45e7233e9c3a11687423
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `curl -p common`."
+content_hash: abef070fd9f8bbcce52170988cfbdcf26e0c4777
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -99,7 +99,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># curl
 
-Este comando é um pseudônimo de `curl -p common`.
+Este comando é um apelido de `curl -p common`.
 Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Exibe documentação sobre o comando original:

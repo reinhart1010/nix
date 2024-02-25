@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/wget (português (Brasil))
-description: "Este comando é um pseudônimo de `wget -p common`."
-content_hash: cd75161da7c0d155b90c3e1fe20a7ab7c5017da8
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `wget -p common`."
+content_hash: e959c43150b0a8e443d1bf0fc0995b8b3a2bd641
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -96,7 +96,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># wget
 
-Este comando é um pseudônimo de `wget -p common`.
+Este comando é um apelido de `wget -p common`.
 Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Exibe documentação sobre o comando original:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/llvm-nm (português (Brasil))
-description: "Este comando é um pseudônimo de `nm`."
-content_hash: a7351902727c0519e42a645b77fa2e46301ba0b1
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `nm`."
+content_hash: 524309078889401c9e2393bfe5769a6c795bdc89
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-nm.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # llvm-nm
 
-Este comando é um pseudônimo de `nm`.
+Este comando é um apelido de `nm`.
 
 - Exibe documentação sobre o comando original:
 

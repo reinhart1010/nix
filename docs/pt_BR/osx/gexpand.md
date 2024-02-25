@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gexpand (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux expand`."
-content_hash: 69cd70f1dd5772d7c8773b5c7022db182fb22310
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux expand`."
+content_hash: 9e926564c5f6d0d10037ffa2c55616a0334859f2
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gexpand.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gexpand
 
-Este comando é um pseudônimo de `-p linux expand`.
+Este comando é um apelido de `-p linux expand`.
 
 - Exibe documentação sobre o comando original:
 

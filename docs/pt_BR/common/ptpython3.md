@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ptpython3 (português (Brasil))
-description: "Este comando é um pseudônimo de `ptpython`."
-content_hash: 1ed6155aa83f5f71974a95dffa1a49a7472f3efb
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `ptpython`."
+content_hash: 8e7a1a116e77a77624dab4de5e9236fdf46fed5d
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/ptpython3.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ptpython3
 
-Este comando é um pseudônimo de `ptpython`.
+Este comando é um apelido de `ptpython`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gunits (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux units`."
-content_hash: 77580335c65288812a0687b8d36843817e22889c
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux units`."
+content_hash: 1510cf95b508eaa240c4f8a54ad36e6fc28a9614
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gunits.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gunits
 
-Este comando é um pseudônimo de `-p linux units`.
+Este comando é um apelido de `-p linux units`.
 
 - Exibe documentação sobre o comando original:
 

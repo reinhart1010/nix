@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (português (Brasil))
-description: "Este comando é um pseudônimo de `fossil-commit`."
-content_hash: b3bd031d660477e84a10b4d812af8d9d194bc1e7
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `fossil-commit`."
+content_hash: 7bfad81b9a2a860fa97225b38c5b76586fb22c4c
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil-ci
 
-Este comando é um pseudônimo de `fossil-commit`.
+Este comando é um apelido de `fossil-commit`.
 Mais informações: <https://fossil-scm.org/home/help/commit>.
 
 - Exibe documentação sobre o comando original:

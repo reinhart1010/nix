@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/chrome (português (Brasil))
-description: "Este comando é um pseudônimo de `chromium`."
-content_hash: 9589ec782764e5baf4df6fcc0b6c3eef5feb3664
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `chromium`."
+content_hash: af105c0bee4cb0ff09d8842aa41f048c30f5ffed
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/windows/chrome.html
@@ -96,7 +96,7 @@ tldri18n_status: 2
 ---
 # chrome
 
-Este comando é um pseudônimo de `chromium`.
+Este comando é um apelido de `chromium`.
 Mais informações: <https://chrome.google.com>.
 
 - Exibe documentação sobre o comando original:

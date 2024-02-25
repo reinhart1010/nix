@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gstat (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux stat`."
-content_hash: 8b8c4ec0757917c36cac5f95870813e63135c699
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux stat`."
+content_hash: 25f54d2b25db201d6bf120bac7024f3d46b8e4db
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gstat.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gstat
 
-Este comando é um pseudônimo de `-p linux stat`.
+Este comando é um apelido de `-p linux stat`.
 
 - Exibe documentação sobre o comando original:
 

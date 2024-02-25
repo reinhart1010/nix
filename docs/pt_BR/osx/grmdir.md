@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/grmdir (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux rmdir`."
-content_hash: 893447414b46027da9621e0f43cafe4d15763a44
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux rmdir`."
+content_hash: bab045233174022e6cd118f213a166f470a12a39
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/grmdir.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # grmdir
 
-Este comando é um pseudônimo de `-p linux rmdir`.
+Este comando é um apelido de `-p linux rmdir`.
 
 - Exibe documentação sobre o comando original:
 

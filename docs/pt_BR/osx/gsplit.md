@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gsplit (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux split`."
-content_hash: 33bb1ab75768380571038d654861d1abbddb18df
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux split`."
+content_hash: 3fa8efc6afde67454a5ae50924e60cf4e9436469
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gsplit.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gsplit
 
-Este comando é um pseudônimo de `-p linux split`.
+Este comando é um apelido de `-p linux split`.
 
 - Exibe documentação sobre o comando original:
 

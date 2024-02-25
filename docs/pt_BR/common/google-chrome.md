@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/google-chrome (português (Brasil))
-description: "Este comando é um pseudônimo de `chromium`."
-content_hash: 4d4a711ec0027f1384afef7450992c35de84f107
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `chromium`."
+content_hash: 483795699ddc21cdce79509ae8cc6da18c2e2383
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/google-chrome.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # google-chrome
 
-Este comando é um pseudônimo de `chromium`.
+Este comando é um apelido de `chromium`.
 Mais informações: <https://chrome.google.com>.
 
 - Exibe documentação sobre o comando original:

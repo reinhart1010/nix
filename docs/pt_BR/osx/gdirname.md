@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gdirname (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux dirname`."
-content_hash: 71a9abdf1e10f4dc53a8da33d3cde5459f0aff64
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux dirname`."
+content_hash: b9791c0efc7c92143ce0d3159c0f415914d51300
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gdirname.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gdirname
 
-Este comando é um pseudônimo de `-p linux dirname`.
+Este comando é um apelido de `-p linux dirname`.
 
 - Exibe documentação sobre o comando original:
 

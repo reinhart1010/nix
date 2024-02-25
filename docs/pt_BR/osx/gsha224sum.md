@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gsha224sum (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux sha224sum`."
-content_hash: 150b86e3568a1a6dd401ea0728816f92f2311c34
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux sha224sum`."
+content_hash: 461428c55fd2069cbad4064dc8b7ff395558bba6
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha224sum.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gsha224sum
 
-Este comando é um pseudônimo de `-p linux sha224sum`.
+Este comando é um apelido de `-p linux sha224sum`.
 
 - Exibe documentação sobre o comando original:
 

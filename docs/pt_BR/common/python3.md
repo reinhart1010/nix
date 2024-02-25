@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/python3 (português (Brasil))
-description: "Este comando é um pseudônimo de `python`."
-content_hash: 6babaafef8e33483e86fea861dc72ec6b7db5c2e
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `python`."
+content_hash: abec95d4f10fe5a654649127f215e4cb2497c656
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/python3.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # python3
 
-Este comando é um pseudônimo de `python`.
+Este comando é um apelido de `python`.
 
 - Exibe documentação sobre o comando original:
 

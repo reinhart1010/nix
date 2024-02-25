@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/rd (português (Brasil))
-description: "Este comando é um pseudônimo de `rmdir`."
-content_hash: 2e43cd8f76e29ec37695b7396cf25f50a3044718
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `rmdir`."
+content_hash: 87b63efe8f7dde2901a27c288e21c017419372fa
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/windows/rd.html
@@ -96,7 +96,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># rd
 
-Este comando é um pseudônimo de `rmdir`.
+Este comando é um apelido de `rmdir`.
 Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.
 
 - Exibe documentação sobre o comando original:

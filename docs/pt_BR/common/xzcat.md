@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/xzcat (português (Brasil))
-description: "Este comando é um pseudônimo de `xz`."
-content_hash: e46620e1b8662db46de73f42e89ede920eeef0a1
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `xz`."
+content_hash: d0f3ecd41438505b10adfc083844b77ccb9edebe
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/xzcat.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # xzcat
 
-Este comando é um pseudônimo de `xz`.
+Este comando é um apelido de `xz`.
 Mais informações: <https://manned.org/xzcat>.
 
 - Exibe documentação sobre o comando original:

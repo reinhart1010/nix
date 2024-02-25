@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/grlogin (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux rlogin`."
-content_hash: 1ed87c5aefaac82d32e50ea8d9b93f51c55452ee
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux rlogin`."
+content_hash: 955f008912d97599a50219a5ec45737a689d4346
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/grlogin.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # grlogin
 
-Este comando é um pseudônimo de `-p linux rlogin`.
+Este comando é um apelido de `-p linux rlogin`.
 
 - Exibe documentação sobre o comando original:
 

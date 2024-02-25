@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/tldrl (português (Brasil))
-description: "Este comando é um pseudônimo de `tldr-lint`."
-content_hash: 105399d2d9cbc464be2e8296fa7608207a93bfd3
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `tldr-lint`."
+content_hash: 981425b229d00328e4b583f259445c8dafbc1c39
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/tldrl.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # tldrl
 
-Este comando é um pseudônimo de `tldr-lint`.
+Este comando é um apelido de `tldr-lint`.
 Mais informações: <https://github.com/tldr-pages/tldr-lint>.
 
 - Exibe documentação sobre o comando original:

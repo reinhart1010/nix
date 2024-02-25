@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/clist (português (Brasil))
-description: "Este comando é um pseudônimo de `choco list`."
-content_hash: 6bac708c07e954d644c7a411ef037b78d77506b7
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `choco list`."
+content_hash: f8b868593ed4dc73aa53ca02460f94bbbced3083
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/windows/clist.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # clist
 
-Este comando é um pseudônimo de `choco list`.
+Este comando é um apelido de `choco list`.
 Mais informações: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Exibe documentação sobre o comando original:

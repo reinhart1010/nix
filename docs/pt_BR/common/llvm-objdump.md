@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/llvm-objdump (português (Brasil))
-description: "Este comando é um pseudônimo de `objdump`."
-content_hash: a59736b28c21190d2e023def1da7a929000e498a
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `objdump`."
+content_hash: d289e013fc2fbf99b6215dc2b98ef1ebbdfef66b
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-objdump.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # llvm-objdump
 
-Este comando é um pseudônimo de `objdump`.
+Este comando é um apelido de `objdump`.
 
 - Exibe documentação sobre o comando original:
 

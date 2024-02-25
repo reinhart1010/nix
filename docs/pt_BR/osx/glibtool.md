@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/glibtool (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux libtool`."
-content_hash: f0fe712f6dad8d488cebd4c00b60eea405a396d6
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux libtool`."
+content_hash: cb59d0dc4cd9fc98c8e3468560c0488df596c3d2
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/glibtool.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # glibtool
 
-Este comando é um pseudônimo de `-p linux libtool`.
+Este comando é um apelido de `-p linux libtool`.
 
 - Exibe documentação sobre o comando original:
 

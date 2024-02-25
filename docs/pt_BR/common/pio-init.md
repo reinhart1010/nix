@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/pio-init (português (Brasil))
-description: "Este comando é um pseudônimo de `pio project`."
-content_hash: 08a516bad610878e121e21ecf77bbcc2fd5d75d3
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `pio project`."
+content_hash: c1e7ed7cd2f00ef8c3fb776bedc0aac68eb97684
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # pio-init
 
-Este comando é um pseudônimo de `pio project`.
+Este comando é um apelido de `pio project`.
 
 - Exibe documentação sobre o comando original:
 

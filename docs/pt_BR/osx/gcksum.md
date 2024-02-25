@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gcksum (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux cksum`."
-content_hash: 4900baa012902b61fce7e1d2c2bd35a9e0cefc7f
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux cksum`."
+content_hash: 9f619f516f94310960a0cde417b2bfdbe6a0cb57
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gcksum.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gcksum
 
-Este comando é um pseudônimo de `-p linux cksum`.
+Este comando é um apelido de `-p linux cksum`.
 
 - Exibe documentação sobre o comando original:
 

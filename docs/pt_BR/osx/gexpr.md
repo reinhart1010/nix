@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gexpr (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux expr`."
-content_hash: d30761e043c76f2de5d835946900c7f4e08cfb80
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux expr`."
+content_hash: 6f5401453d058daf5522b74240f54604451a5b1e
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gexpr.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gexpr
 
-Este comando é um pseudônimo de `-p linux expr`.
+Este comando é um apelido de `-p linux expr`.
 
 - Exibe documentação sobre o comando original:
 

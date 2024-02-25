@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gdnsdomainname (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux dnsdomainname`."
-content_hash: d225af2a23c2cb79d21c31c48aa85a2e44b46586
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux dnsdomainname`."
+content_hash: a8f2c7d83e56ad2e7ce0606a3ee428f2c3732338
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gdnsdomainname.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gdnsdomainname
 
-Este comando é um pseudônimo de `-p linux dnsdomainname`.
+Este comando é um apelido de `-p linux dnsdomainname`.
 
 - Exibe documentação sobre o comando original:
 

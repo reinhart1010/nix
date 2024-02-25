@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gxargs (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux xargs`."
-content_hash: ba03a109543d9d9dbb9f6163af7fb0f8c6e333a7
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux xargs`."
+content_hash: a4f3dd8bfe855fb65e25d85579aea89b2c606409
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gxargs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gxargs
 
-Este comando é um pseudônimo de `-p linux xargs`.
+Este comando é um apelido de `-p linux xargs`.
 
 - Exibe documentação sobre o comando original:
 

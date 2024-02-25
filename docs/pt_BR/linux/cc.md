@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/cc (português (Brasil))
-description: "Este comando é um pseudônimo de `gcc`."
-content_hash: 9d6c74a744560843f415995e51fb2c21f5f0da59
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `gcc`."
+content_hash: 8e95c25e6212331625a3976dad4a901cbc08c900
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/linux/cc.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # cc
 
-Este comando é um pseudônimo de `gcc`.
+Este comando é um apelido de `gcc`.
 Mais informações: <https://gcc.gnu.org>.
 
 - Exibe documentação sobre o comando original:

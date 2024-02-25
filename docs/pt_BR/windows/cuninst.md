@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cuninst (português (Brasil))
-description: "Este comando é um pseudônimo de `choco uninstall`."
-content_hash: 42ee55d1446e323df241e61bf1e8bd8d6ab29926
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `choco uninstall`."
+content_hash: fc4f5d67b174b9b073621b41ec6604db74b77530
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/windows/cuninst.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # cuninst
 
-Este comando é um pseudônimo de `choco uninstall`.
+Este comando é um apelido de `choco uninstall`.
 Mais informações: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Exibe documentação sobre o comando original:

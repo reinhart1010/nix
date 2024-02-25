@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/glink (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux link`."
-content_hash: 3c2a59c3a85864399e7d4064b7e3dc8117b4add6
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux link`."
+content_hash: 45afb650bdb2fbdffcee064254280f8e763861ca
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/glink.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # glink
 
-Este comando é um pseudônimo de `-p linux link`.
+Este comando é um apelido de `-p linux link`.
 
 - Exibe documentação sobre o comando original:
 

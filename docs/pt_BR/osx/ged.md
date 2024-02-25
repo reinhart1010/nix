@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/ged (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux ed`."
-content_hash: 8c538ac91ab5ace851470c903583f2cf8e0a7a41
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux ed`."
+content_hash: f85f749fb66427e1604d52d92e163161af03e3a8
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/ged.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ged
 
-Este comando é um pseudônimo de `-p linux ed`.
+Este comando é um apelido de `-p linux ed`.
 
 - Exibe documentação sobre o comando original:
 

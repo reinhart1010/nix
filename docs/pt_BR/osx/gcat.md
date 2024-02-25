@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gcat (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux cat`."
-content_hash: 20ecf3f1d480f66b553ad8823c1ab04832a70b6e
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux cat`."
+content_hash: 562bcfd30448723b55aae44c549674de72e647a3
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gcat.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gcat
 
-Este comando é um pseudônimo de `-p linux cat`.
+Este comando é um apelido de `-p linux cat`.
 
 - Exibe documentação sobre o comando original:
 

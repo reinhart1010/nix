@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gsha384sum (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux sha384sum`."
-content_hash: 8001ddcdad2db2268d9868c1064f7655347305eb
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux sha384sum`."
+content_hash: 1ff9344679395091814cb37407a57b695fec4cc6
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha384sum.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gsha384sum
 
-Este comando é um pseudônimo de `-p linux sha384sum`.
+Este comando é um apelido de `-p linux sha384sum`.
 
 - Exibe documentação sobre o comando original:
 

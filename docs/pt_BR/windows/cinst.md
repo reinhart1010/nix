@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cinst (português (Brasil))
-description: "Este comando é um pseudônimo de `choco install`."
-content_hash: 4a483d0fac20398441122f386d82714c830c6850
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `choco install`."
+content_hash: 354a9542e71e645b414c42d6cac3727312b17554
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/windows/cinst.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # cinst
 
-Este comando é um pseudônimo de `choco install`.
+Este comando é um apelido de `choco install`.
 Mais informações: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Exibe documentação sobre o comando original:

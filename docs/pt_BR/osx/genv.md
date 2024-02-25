@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/genv (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux env`."
-content_hash: a5f3907e3a3bd475960bc0f2fc0d3c9e1c95c34a
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux env`."
+content_hash: da71a8fa6659e06f8ec3926c7a169efbc7ec32d4
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/genv.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # genv
 
-Este comando é um pseudônimo de `-p linux env`.
+Este comando é um apelido de `-p linux env`.
 
 - Exibe documentação sobre o comando original:
 

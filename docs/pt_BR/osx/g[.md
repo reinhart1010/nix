@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/g[ (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux [`."
-content_hash: b9d04346971db4da5b36c46ef1f351ef7963ba34
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux [`."
+content_hash: ce3db68e8ac432b64837dccd84cf8fec9515d4c2
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/g[.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # g[
 
-Este comando é um pseudônimo de `-p linux [`.
+Este comando é um apelido de `-p linux [`.
 
 - Exibe documentação sobre o comando original:
 

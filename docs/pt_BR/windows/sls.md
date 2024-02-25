@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/sls (português (Brasil))
-description: "Este comando é um pseudônimo de `Select-String`."
-content_hash: 5b6e9fcd6931b1d70ca1256ce2430edada7ff43d
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `Select-String`."
+content_hash: 069b6dd193b67a6e55512e022f609c72ccd1d3c3
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # sls
 
-Este comando é um pseudônimo de `Select-String`.
+Este comando é um apelido de `Select-String`.
 Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Exibe documentação sobre o comando original:

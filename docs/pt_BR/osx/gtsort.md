@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gtsort (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux tsort`."
-content_hash: 6dc057da6b4f2914cc82ba2faff2fbe8f3df04ed
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux tsort`."
+content_hash: 37055ee381e0e08d57ba3d8a577949a25be7f954
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gtsort.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gtsort
 
-Este comando é um pseudônimo de `-p linux tsort`.
+Este comando é um apelido de `-p linux tsort`.
 
 - Exibe documentação sobre o comando original:
 

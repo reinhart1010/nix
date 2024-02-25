@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/ghostid (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux hostid`."
-content_hash: d34b91ec00552f16eaf844f88e48219c29a63722
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux hostid`."
+content_hash: 3f4f6a23be27850fcd36ce51d59c632b9e20b96d
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/ghostid.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ghostid
 
-Este comando é um pseudônimo de `-p linux hostid`.
+Este comando é um apelido de `-p linux hostid`.
 
 - Exibe documentação sobre o comando original:
 

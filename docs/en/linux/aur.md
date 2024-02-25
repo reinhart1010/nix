@@ -2,14 +2,14 @@
 layout: page
 title: linux/aur (English)
 description: "Build packages from the AUR and manage local repositories."
-content_hash: c23e51968091591b7d9eaec494f308e2a1f2bd37
-last_modified_at: 2024-02-24
+content_hash: 62ce334ce772535581dedc56b8c5e3e350ff3355
+last_modified_at: 2024-02-25
 tldri18n_status: 2
 ---
 # aur
 
 Build packages from the AUR and manage local repositories.
-Note: A local repository needs to be set in `/etc/pacman.conf` and `vifm` needs to be installed for this to fully function.
+Note: A local repository needs to be defined in `/etc/pacman.conf` and `vifm` needs to be installed for this to fully function.
 More information: <https://github.com/aurutils/aurutils>.
 
 - Search the AUR database for a package:

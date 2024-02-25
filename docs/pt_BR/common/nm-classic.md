@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/nm-classic (português (Brasil))
-description: "Este comando é um pseudônimo de `nm`."
-content_hash: 029c579d4af8828a12c5b482fbb0a63a14c5c4ea
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `nm`."
+content_hash: 84343b23cf13284f1ce5a51d9453f2b78bca7709
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/nm-classic.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # nm-classic
 
-Este comando é um pseudônimo de `nm`.
+Este comando é um apelido de `nm`.
 
 - Exibe documentação sobre o comando original:
 

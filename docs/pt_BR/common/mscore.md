@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mscore (português (Brasil))
-description: "Este comando é um pseudônimo de `musescore`."
-content_hash: 28c68262fe276ed188d382c67dcaae30564a43a9
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `musescore`."
+content_hash: 53c331f5fd5d71f3a76b8d4a101698e6ae429c8f
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/mscore.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # mscore
 
-Este comando é um pseudônimo de `musescore`.
+Este comando é um apelido de `musescore`.
 Mais informações: <https://musescore.org/handbook/command-line-options>.
 
 - Exibe documentação sobre o comando original:

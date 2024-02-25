@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gfold (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux fold`."
-content_hash: f0d8a36b5d14e41797af3ee8324a7236274d5eed
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux fold`."
+content_hash: 77818781adcf60ed881661b932e001f8b09d03a5
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gfold.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gfold
 
-Este comando é um pseudônimo de `-p linux fold`.
+Este comando é um apelido de `-p linux fold`.
 
 - Exibe documentação sobre o comando original:
 

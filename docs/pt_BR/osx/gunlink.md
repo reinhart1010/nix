@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gunlink (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux unlink`."
-content_hash: 6d7d870f7f4b60e042cfa977a1ddb6d421d513df
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux unlink`."
+content_hash: 075500e4f1b9ee6939f4f90bd62a82d6de2861df
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gunlink.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gunlink
 
-Este comando é um pseudônimo de `-p linux unlink`.
+Este comando é um apelido de `-p linux unlink`.
 
 - Exibe documentação sobre o comando original:
 

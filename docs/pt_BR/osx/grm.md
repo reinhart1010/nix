@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/grm (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux rm`."
-content_hash: 17a293a836d9c54c1d7c4300ce86efdec02d7a9e
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux rm`."
+content_hash: 4aa0604b854dbce4e6d05bce81a9537bb523cb2e
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/grm.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # grm
 
-Este comando é um pseudônimo de `-p linux rm`.
+Este comando é um apelido de `-p linux rm`.
 
 - Exibe documentação sobre o comando original:
 

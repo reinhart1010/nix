@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/hx (português (Brasil))
-description: "Este comando é um pseudônimo de `helix`."
-content_hash: 5ffa7ff43840690c4abe1d7ec855ab5fb1bdd537
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `helix`."
+content_hash: c1fa6748df44f2abd7d0b2903f56d90819ac9fb9
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/hx.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # hx
 
-Este comando é um pseudônimo de `helix`.
+Este comando é um apelido de `helix`.
 
 - Exibe documentação sobre o comando original:
 

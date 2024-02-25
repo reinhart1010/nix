@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gpr (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux pr`."
-content_hash: dd6dbf5bdf88ddb3d6a10d936da5b0643bae09b9
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux pr`."
+content_hash: 2ded11670fc573d2c61b5c8eed365d505ea905ca
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gpr.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gpr
 
-Este comando é um pseudônimo de `-p linux pr`.
+Este comando é um apelido de `-p linux pr`.
 
 - Exibe documentação sobre o comando original:
 

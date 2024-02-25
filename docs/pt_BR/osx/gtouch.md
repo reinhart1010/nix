@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gtouch (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux touch`."
-content_hash: c8254648ed75a1dbcf7b239ab84323635b2bb334
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux touch`."
+content_hash: 1f15fd8fba185ade291677c7d238f6b292736e9e
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gtouch.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gtouch
 
-Este comando é um pseudônimo de `-p linux touch`.
+Este comando é um apelido de `-p linux touch`.
 
 - Exibe documentação sobre o comando original:
 

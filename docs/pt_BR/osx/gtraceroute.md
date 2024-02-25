@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gtraceroute (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux traceroute`."
-content_hash: 3c25f0e60779a31b341ed8db85a3879b213c4a64
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux traceroute`."
+content_hash: 013dc1c5fdf3fc204d899010fcb9bed83bf16801
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gtraceroute.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gtraceroute
 
-Este comando é um pseudônimo de `-p linux traceroute`.
+Este comando é um apelido de `-p linux traceroute`.
 
 - Exibe documentação sobre o comando original:
 

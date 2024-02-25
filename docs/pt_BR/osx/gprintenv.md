@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gprintenv (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux printenv`."
-content_hash: 761d69f8369778af9bd3c2eed99aa9cffe8d8c9b
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux printenv`."
+content_hash: 74c64d4b6b9360789fd767f460e076af2f98075c
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gprintenv.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gprintenv
 
-Este comando é um pseudônimo de `-p linux printenv`.
+Este comando é um apelido de `-p linux printenv`.
 
 - Exibe documentação sobre o comando original:
 

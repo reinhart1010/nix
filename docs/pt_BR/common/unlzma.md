@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/unlzma (português (Brasil))
-description: "Este comando é um pseudônimo de `xz`."
-content_hash: 90728a3f86f15a727b4ba7796e7158f11975300f
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `xz`."
+content_hash: aa96876f9946c05b9ea1d2580b28b34abfa01225
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/unlzma.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # unlzma
 
-Este comando é um pseudônimo de `xz`.
+Este comando é um apelido de `xz`.
 Mais informações: <https://manned.org/unlzma>.
 
 - Exibe documentação sobre o comando original:

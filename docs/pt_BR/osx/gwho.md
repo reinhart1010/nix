@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gwho (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux who`."
-content_hash: 5aecb203946820740cf5c39a7ee82d771af25e55
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux who`."
+content_hash: d933db023e62de1aa2ed4c6e31764f4c22272145
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gwho.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gwho
 
-Este comando é um pseudônimo de `-p linux who`.
+Este comando é um apelido de `-p linux who`.
 
 - Exibe documentação sobre o comando original:
 

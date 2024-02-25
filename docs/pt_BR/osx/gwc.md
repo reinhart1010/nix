@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/gwc (português (Brasil))
-description: "Este comando é um pseudônimo de `-p linux wc`."
-content_hash: df7be0d0ef8e4780d9e5e71fef182e63d5049496
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `-p linux wc`."
+content_hash: 75c03a952d4abd1ac8064cb3f034cb8677e787e4
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/osx/gwc.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gwc
 
-Este comando é um pseudônimo de `-p linux wc`.
+Este comando é um apelido de `-p linux wc`.
 
 - Exibe documentação sobre o comando original:
 

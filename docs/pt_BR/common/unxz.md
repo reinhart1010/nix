@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/unxz (português (Brasil))
-description: "Este comando é um pseudônimo de `xz`."
-content_hash: 6339c98775db5d0d8a66e9cb5974dd81835e0396
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `xz`."
+content_hash: 55d9f97ea2539e2a41c423d843fb25699e453230
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/unxz.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # unxz
 
-Este comando é um pseudônimo de `xz`.
+Este comando é um apelido de `xz`.
 Mais informações: <https://manned.org/unxz>.
 
 - Exibe documentação sobre o comando original:

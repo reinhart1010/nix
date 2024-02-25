@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/rcat (português (Brasil))
-description: "Este comando é um pseudônimo de `rc`."
-content_hash: 9c93a1864124c91d95b225964cc7f7e61e91760a
-last_modified_at: 2023-12-28
+description: "Este comando é um apelido de `rc`."
+content_hash: 8d6822c1f8bc852dbab7d34e5aded50a39eb7568
+last_modified_at: 2024-02-25
 related_topics:
   - title: العربية version
     url: /ar/common/rcat.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # rcat
 
-Este comando é um pseudônimo de `rc`.
+Este comando é um apelido de `rc`.
 
 - Exibe documentação sobre o comando original:
 
