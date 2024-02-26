@@ -3,7 +3,7 @@ layout: page
 title: linux/bspwm (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `bspc`"
 content_hash: 63d6b5990e124a1f269a12172e3342595838c850
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-26
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -89,12 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/bspwm.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bspwm
+# bspwm
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `bspc`
 ข้อมูลเพิ่มเติม: <https://github.com/baskerville/bspwm>

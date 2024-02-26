@@ -3,19 +3,10 @@ layout: page
 title: common/trufflehog (English)
 description: "Find and verify credentials in files, Git repositories, S3 buckets, and Docker images."
 content_hash: fd4f2b38b9623191760f9aae7bf0862c447d8d11
-last_modified_at: 2024-02-25
-tldri18n_status: 0
+last_modified_at: 2024-02-26
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/trufflehog.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># trufflehog
+# trufflehog
 
 Find and verify credentials in files, Git repositories, S3 buckets, and Docker images.
 More information: <https://github.com/trufflesecurity/trufflehog>.

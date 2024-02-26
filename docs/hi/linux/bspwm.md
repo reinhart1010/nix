@@ -3,7 +3,7 @@ layout: page
 title: linux/bspwm (हिन्दी)
 description: "यह आदेश `bspc` का उपनाम है।"
 content_hash: 2d10f905b663f3cd7d4fea2ea485ab90d0fa89d4
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-26
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -89,12 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/bspwm.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bspwm
+# bspwm
 
 यह आदेश `bspc` का उपनाम है।
 अधिक जानकारी: <https://github.com/baskerville/bspwm>।

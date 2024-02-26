@@ -3,7 +3,7 @@ layout: page
 title: linux/bspwm (Türkçe)
 description: "Bu komut `bspc` için bir takma addır."
 content_hash: 9c1f816c9928ed0fe951bc382977cd70bf99f9f4
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-26
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -89,12 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/bspwm.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bspwm
+# bspwm
 
 Bu komut `bspc` için bir takma addır.
 Daha fazla bilgi için: <https://github.com/baskerville/bspwm>.

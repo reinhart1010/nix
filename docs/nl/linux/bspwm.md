@@ -3,7 +3,7 @@ layout: page
 title: linux/bspwm (Nederlands)
 description: "Een tegelvensterbeheerder gebaseerd op binaire ruimtepartitionering."
 content_hash: eac3ae18c4e8a6c4bb0edae40dd7171091861996
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-26
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -89,9 +89,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/bspwm.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bspwm
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bspwm
 
 Een tegelvensterbeheerder gebaseerd op binaire ruimtepartitionering.
 Meer informatie: <https://github.com/baskerville/bspwm>.

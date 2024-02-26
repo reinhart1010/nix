@@ -3,7 +3,7 @@ layout: page
 title: linux/bspwm (தமிழ்)
 description: "பைனரி ஸ்பேஸ் பார்டிஷனிங் அடிப்படையிலான டைலிங் சாளர மேலாளர்."
 content_hash: b74c9c71102ef2d11971d390ba5a2fb1231e8ea7
-last_modified_at: 2023-11-13
+last_modified_at: 2024-02-26
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -89,9 +89,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/bspwm.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bspwm
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bspwm
 
 பைனரி ஸ்பேஸ் பார்டிஷனிங் அடிப்படையிலான டைலிங் சாளர மேலாளர்.
 இக்கட்டளை `bspc` கட்டளையின் மற்றொருப் பெயர்.

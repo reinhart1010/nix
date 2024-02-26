@@ -3,7 +3,7 @@ layout: page
 title: linux/bspwm (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `bspc`."
 content_hash: c3f5a44e45543f2c871519c31a7cb21c1db5b5ea
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-26
 related_topics:
   - title: bosanski version
     url: /bs/linux/bspwm.html
@@ -89,12 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/bspwm.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bspwm
+# bspwm
 
 هذا الأمر هو اسم مستعار لـ `bspc`.
 لمزيد من التفاصيل: <https://github.com/baskerville/bspwm>.
