@@ -3,7 +3,7 @@ layout: page
 title: common/ncdu (português (Brasil))
 description: "Analisador de uso de disco com uma interface ncurses."
 content_hash: 9a691a0c0d251229bb9242650efea6f1a82cdba1
-last_modified_at: 2024-02-26
+last_modified_at: 2024-02-27
 related_topics:
   - title: dansk version
     url: /da/common/ncdu.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/ncdu.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ncdu.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ncdu
+# ncdu
 
 Analisador de uso de disco com uma interface ncurses.
 Mais informações: <https://manned.org/ncdu>.

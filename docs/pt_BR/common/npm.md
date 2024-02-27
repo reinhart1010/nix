@@ -3,7 +3,7 @@ layout: page
 title: common/npm (português (Brasil))
 description: "Gerenciador de pacotes JavaScript e Node.js."
 content_hash: b9111b7975e9941d4d0003d1c3883c6625d25b68
-last_modified_at: 2024-02-26
+last_modified_at: 2024-02-27
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/npm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/npm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># npm
+# npm
 
 Gerenciador de pacotes JavaScript e Node.js.
 Gerencia projetos Node.js e suas dependências de módulos.
