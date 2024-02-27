@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (English)
 description: "Debian and Ubuntu package management utility."
-content_hash: 74f3074531f19a0a4e7a744d88a93af5e594a3c7
-last_modified_at: 2023-11-12
+content_hash: 3a353094a3b0fe4c81d7e4fcb4ece0309b621821
+last_modified_at: 2024-02-27
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -50,6 +50,7 @@ tldri18n_status: 2
 
 Debian and Ubuntu package management utility.
 Search for packages using `apt-cache`.
+It is recommended to use `apt` when used interactively in Ubuntu versions 16.04 and later.
 More information: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
 - Update the list of available packages and versions (it's recommended to run this before other `apt-get` commands):

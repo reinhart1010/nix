@@ -2,8 +2,8 @@
 layout: page
 title: common/poetry (English)
 description: "Manage Python packages and dependencies."
-content_hash: dbb1e2beb6469134a568e8fb8c6aafcdc2e010c7
-last_modified_at: 2024-01-11
+content_hash: 4e5ddc89979e30c4a88530a021324c680bab7f78
+last_modified_at: 2024-02-27
 related_topics:
   - title: Deutsch version
     url: /de/common/poetry.html
@@ -43,6 +43,10 @@ More information: <https://python-poetry.org/docs/cli/>.
 
 `poetry run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Bump the minor version of the project in `pyproject.toml`:
+- Bump the version of the project in `pyproject.toml`:
 
-`poetry version minor`
+`poetry version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patch|minor|major|prepatch|preminor|premajor|prerelease</span>
+
+- Spawn a shell within the project's virtual environment:
+
+`poetry shell`

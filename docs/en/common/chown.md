@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (English)
 description: "Change user and group ownership of files and directories."
-content_hash: 552eb631d94f5b36b4028d9841c56eaa79f72889
-last_modified_at: 2023-11-12
+content_hash: 13ebf8db73aab9ca96a7e85294e0a19fcf67b4b1
+last_modified_at: 2024-02-27
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -49,6 +49,10 @@ More information: <https://www.gnu.org/software/coreutils/chown>.
 - Change the owner user and group of a file/directory:
 
 `chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+
+- Change the owner user and group to both have the name `user`:
+
+`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>`: `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
 - Recursively change the owner of a directory and its contents:
 
