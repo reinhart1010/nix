@@ -3,7 +3,7 @@ layout: page
 title: common/poetry (Deutsch)
 description: "Verwalte Python-Pakete und -Abhängigkeiten."
 content_hash: b2db894f28997cafc8f554b28ef6e5360269301f
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-28
 related_topics:
   - title: English version
     url: /en/common/poetry.html
@@ -11,12 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/common/poetry.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># poetry
+# poetry
 
 Verwalte Python-Pakete und -Abhängigkeiten.
 Weitere Informationen: <https://python-poetry.org/docs/cli/>.

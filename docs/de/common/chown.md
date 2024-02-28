@@ -3,7 +3,7 @@ layout: page
 title: common/chown (Deutsch)
 description: "Ändere den Besitzer und die Besitzergruppe von Dateien und Verzeichnissen."
 content_hash: fa439ed3aa13fade4d57546b31f0fe55b20a64f9
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-28
 related_topics:
   - title: English version
     url: /en/common/chown.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/chown.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# chown
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># chown
 
 Ändere den Besitzer und die Besitzergruppe von Dateien und Verzeichnissen.
 Weitere Informationen: <https://www.gnu.org/software/coreutils/chown>.

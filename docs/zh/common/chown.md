@@ -3,7 +3,7 @@ layout: page
 title: common/chown (中文)
 description: "修改用户和用户组对文件或目录的所有权。"
 content_hash: 331180363827e149e4f1ea9f15cdc1792b402cad
-last_modified_at: 2024-01-01
+last_modified_at: 2024-02-28
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -35,9 +35,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/chown.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# chown
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># chown
 
 修改用户和用户组对文件或目录的所有权。
 更多信息：<https://www.gnu.org/software/coreutils/chown>.

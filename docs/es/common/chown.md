@@ -3,7 +3,7 @@ layout: page
 title: common/chown (español)
 description: "Cambia la propiedad de usuario y grupo sobre archivos y directorios."
 content_hash: afa42b77d792f302449621076b662d58b1afd030
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-28
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/chown.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# chown
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># chown
 
 Cambia la propiedad de usuario y grupo sobre archivos y directorios.
 Más información: <https://www.gnu.org/software/coreutils/chown>.

@@ -3,23 +3,14 @@ layout: page
 title: common/tgpt (español)
 description: "Habla con un chatbot de IA sin necesidad de claves API."
 content_hash: ca200e89f6680a3c91122c1023321381e6a6536b
-last_modified_at: 2024-02-27
+last_modified_at: 2024-02-28
 related_topics:
   - title: English version
     url: /en/common/tgpt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tgpt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tgpt
+# tgpt
 
 Habla con un chatbot de IA sin necesidad de claves API.
 Proveedores disponibles: `openai`, `opengpts`, `koboldai`, `phind`, `llama2`, `blackboxai`.

@@ -3,7 +3,7 @@ layout: page
 title: common/chown (한국어)
 description: "파일과 디렉토리의 사용자 및 그룹 소유권을 변경."
 content_hash: a51cc35d60e016de5383c6341888465124de7925
-last_modified_at: 2023-11-12
+last_modified_at: 2024-02-28
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/chown.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# chown
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># chown
 
 파일과 디렉토리의 사용자 및 그룹 소유권을 변경.
 더 많은 정보: <https://www.gnu.org/software/coreutils/chown>.
