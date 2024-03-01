@@ -2,8 +2,8 @@
 layout: page
 title: linux/opkg (English)
 description: "A lightweight package manager used to install OpenWrt packages."
-content_hash: 693e04c8395a730535bd2f27f8a3ad35b4c8494a
-last_modified_at: 2023-11-12
+content_hash: 7b8158eafc72a3caf4c8c5182e1f30f449038a0e
+last_modified_at: 2024-03-01
 tldri18n_status: 2
 ---
 # opkg
@@ -22,10 +22,6 @@ More information: <https://openwrt.org/docs/guide-user/additional-software/opkg>
 - Update the list of available packages:
 
 `opkg update`
-
-- Upgrade all the installed packages:
-
-`opkg upgrade`
 
 - Upgrade one or more specific package(s):
 
