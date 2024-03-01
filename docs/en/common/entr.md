@@ -2,8 +2,8 @@
 layout: page
 title: common/entr (English)
 description: "Run arbitrary commands when files change."
-content_hash: 3adc1d47907c4eee78026631cdb81b9a6bf51179
-last_modified_at: 2023-11-12
+content_hash: 90ac4cd41dff4158ada8800353c420333866fae4
+last_modified_at: 2024-03-01
 related_topics:
   - title: italiano version
     url: /it/common/entr.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # entr
 
 Run arbitrary commands when files change.
-More information: <https://manned.org/entr>.
+More information: <http://eradman.com/entrproject/>.
 
 - Rebuild with `make` if any file in any subdirectory changes:
 
@@ -33,3 +33,15 @@ More information: <https://manned.org/entr>.
 - Run a command with the changed file (`/_`) as an argument:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls *.sql</span>` | entr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">psql -f</span>` /_`
+
+- [c]lear the screen and run a query after the SQL script is updated:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo my.sql</span>` | entr -cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">psql -f</span>` /_`
+
+- Rebuild the project if source files change, limiting output to the first few lines:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find src/</span>` | entr -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'make | sed 10q'</span>
+
+- Launch and auto-[r]eload a Node.js server:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls *.js</span>` | entr -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node app.js</span>
