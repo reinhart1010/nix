@@ -3,7 +3,7 @@ layout: page
 title: common/eza (português (Brasil))
 description: "Substituto moderno e mantido para o `ls`, construída sobre o `exa`."
 content_hash: 0edf94f7238a69a8a1f1142f77a9d8c9938d1ee5
-last_modified_at: 2024-03-01
+last_modified_at: 2024-03-02
 related_topics:
   - title: English version
     url: /en/common/eza.html
@@ -11,18 +11,9 @@ related_topics:
   - title: polski version
     url: /pl/common/eza.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/eza.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># eza
+# eza
 
 Substituto moderno e mantido para o `ls`, construída sobre o `exa`.
 Mais informações: <https://github.com/eza-community/eza>.

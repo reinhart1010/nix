@@ -3,7 +3,7 @@ layout: page
 title: common/entr (polski)
 description: "Uruchom dowolną komendę, gdy zmieni się plik."
 content_hash: a38ef0b28679a0ca1887179abbfdfee2688a5560
-last_modified_at: 2023-11-12
+last_modified_at: 2024-03-02
 related_topics:
   - title: English version
     url: /en/common/entr.html
@@ -11,9 +11,12 @@ related_topics:
   - title: italiano version
     url: /it/common/entr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# entr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># entr
 
 Uruchom dowolną komendę, gdy zmieni się plik.
 Więcej informacji: <https://manned.org/entr>.

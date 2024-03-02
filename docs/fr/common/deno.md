@@ -3,7 +3,7 @@ layout: page
 title: common/deno (français)
 description: "Un environnement d’exécution sécurisé pour JavaScript et TypeScript."
 content_hash: c0f81a69f7ca24ab9c180c6c4f16d1b66e2c787e
-last_modified_at: 2024-03-01
+last_modified_at: 2024-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/deno.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/deno.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/deno.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># deno
+# deno
 
 Un environnement d’exécution sécurisé pour JavaScript et TypeScript.
 Plus d'information : <https://deno.land>.

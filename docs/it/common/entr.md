@@ -3,7 +3,7 @@ layout: page
 title: common/entr (italiano)
 description: "Esegui comandi arbitrari al cambiamento di file."
 content_hash: 2133ab9ef8ddf505bee6ba361ee525a9c80edcae
-last_modified_at: 2023-11-12
+last_modified_at: 2024-03-02
 related_topics:
   - title: English version
     url: /en/common/entr.html
@@ -11,9 +11,12 @@ related_topics:
   - title: polski version
     url: /pl/common/entr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# entr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># entr
 
 Esegui comandi arbitrari al cambiamento di file.
 Maggiori informazioni: <https://manned.org/entr>.
