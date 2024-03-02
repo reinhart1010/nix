@@ -2,8 +2,8 @@
 layout: page
 title: common/sox (English)
 description: "Sound eXchange: play, record and convert audio files."
-content_hash: 34320191460a7c58ec3350331344503fd0479554
-last_modified_at: 2024-01-31
+content_hash: 9ad5601b93902385b64ef21ddba53c1f802f3674
+last_modified_at: 2024-03-02
 tldri18n_status: 2
 ---
 # sox
@@ -18,7 +18,7 @@ More information: <http://sox.sourceforge.net>.
 
 - Trim an audio file to the specified times:
 
-`sox `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_audio</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_audio</span>` trim `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">end</span>
+`sox `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_audio</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_audio</span>` trim `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">duration</span>
 
 - Normalize an audio file (adjust volume to the maximum peak level, without clipping):
 

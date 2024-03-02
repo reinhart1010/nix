@@ -2,8 +2,8 @@
 layout: page
 title: common/duf (English)
 description: "Disk Usage/Free Utility."
-content_hash: 80581b41a845644853ebd9f0fede4c4c616d2b3a
-last_modified_at: 2023-11-12
+content_hash: efde5e26ed54cc59180f846a5f707a009e38f635
+last_modified_at: 2024-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/duf.html
@@ -30,3 +30,15 @@ More information: <https://github.com/muesli/duf>.
 - Sort the output by a specified criteria:
 
 `duf --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size|used|avail|usage</span>
+
+- Show or hide specific filesystems:
+
+`duf --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">only-fs|hide-fs</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs|vfat|ext4|xfs</span>
+
+- Sort the output by key:
+
+`duf --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint|size|used|avail|usage|inodes|inodes_used|inodes_avail|inodes_usage|type|filesystem</span>
+
+- Change the theme (if `duf` fails to use the right theme):
+
+`duf --theme `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dark|light</span>
