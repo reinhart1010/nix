@@ -3,19 +3,10 @@ layout: page
 title: common/checkov (English)
 description: "Checkov is a static code analysis tool for Infrastructure as Code (IaC)."
 content_hash: 3d658081aba10831e002da71a2f1d95ecb2f20d8
-last_modified_at: 2024-03-02
-tldri18n_status: 0
+last_modified_at: 2024-03-03
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/checkov.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># checkov
+# checkov
 
 Checkov is a static code analysis tool for Infrastructure as Code (IaC).
 It is also a software composition analysis (SCA) tool for images and open source packages.
