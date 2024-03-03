@@ -2,8 +2,8 @@
 layout: page
 title: common/nmap (English)
 description: "Network exploration tool and security/port scanner."
-content_hash: 9b2f7651a19aa7300ee9ceaea87a3ae330f40e03
-last_modified_at: 2023-11-12
+content_hash: 49b97bdccf1f829fe5839544e0da278fb66dfc8f
+last_modified_at: 2024-03-03
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -25,37 +25,37 @@ tldri18n_status: 2
 # nmap
 
 Network exploration tool and security/port scanner.
-Some features only activate when Nmap is run with root privileges.
-More information: <https://nmap.org>.
+Some features (e.g. SYN scan) activate only when `nmap` is run with root privileges.
+More information: <https://nmap.org/book/man.html>.
 
-- Check if an IP address is up, and guess the remote host's operating system:
+- Scan the top 1000 ports of a remote host with various [v]erbosity levels:
 
-`nmap -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span>
+`nmap -v`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span>
 
-- Try to determine whether the specified hosts are up (ping scan) and what their names and MAC addresses are:
+- Run a ping sweep over an entire subnet or individual hosts very aggressively:
 
-`sudo nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_another_address</span>
+`nmap -T5 -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.0/24|ip_or_hostname1,ip_or_hostname2,...</span>
 
-- Also enable scripts, service detection, OS fingerprinting and traceroute:
+- Enable OS detection, version detection, script scanning, and traceroute:
 
-`nmap -A `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address_or_addresses</span>
+`sudo nmap -A `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname1,ip_or_hostname2,...</span>
 
-- Scan a specific list of ports (use '-p-' for all ports from 1 to 65535):
+- Scan a specific list of ports (use `-p-` for all ports from 1 to 65535):
 
-`nmap -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2,...,portN</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address_or_addresses</span>
+`nmap -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2,...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_host1,ip_or_host2,...</span>
 
-- Perform service and version detection of the top 1000 ports using default NSE scripts; writing results ('-oN') to output file:
+- Perform service and version detection of the top 1000 ports using default NSE scripts, writing results (`-oA`) to output files:
 
-`nmap -sC -sV -oN `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">top-1000-ports.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address_or_addresses</span>
+`nmap -sC -sV -oA `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">top-1000-ports</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_host1,ip_or_host2,...</span>
 
-- Scan target(s) carefully using 'default and safe' NSE scripts:
+- Scan target(s) carefully using `default and safe` NSE scripts:
 
-`nmap --script "default and safe" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address_or_addresses</span>
+`nmap --script "default and safe" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_host1,ip_or_host2,...</span>
 
-- Scan web server running on standard ports 80 and 443 using all available 'http-*' NSE scripts:
+- Scan for web servers running on standard ports 80 and 443 using all available `http-*` NSE scripts:
 
-`nmap --script "http-*" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address_or_addresses</span>` -p 80,443`
+`nmap --script "http-*" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_host1,ip_or_host2,...</span>` -p 80,443`
 
-- Perform a stealthy very slow scan ('-T0') trying to avoid detection by IDS/IPS and use decoy ('-D') source IP addresses:
+- Attempt evading IDS/IPS detection by using an extremely slow scan (`-T0`), decoy source addresses (`-D`), [f]ragmented packets, random data and other methods:
 
-`nmap -T0 -D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">decoy1_ipaddress,decoy2_ipaddress,...,decoyN_ipaddress</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address_or_addresses</span>
+`sudo nmap -T0 -D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">decoy_ip1,decoy_ip2,...</span>` --source-port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">53</span>` -f --data-length `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span>` -Pn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_host</span>
