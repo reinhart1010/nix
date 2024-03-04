@@ -3,7 +3,7 @@ layout: page
 title: common/dd (فارسی)
 description: "تبدیل و کپی یک فایل."
 content_hash: db938f885e9d356571818481cbe35afafd684a12
-last_modified_at: 2024-01-05
+last_modified_at: 2024-03-04
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -17,9 +17,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dd.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# dd
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dd
 
 تبدیل و کپی یک فایل.
 اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/dd>.

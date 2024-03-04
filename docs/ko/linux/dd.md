@@ -3,14 +3,17 @@ layout: page
 title: linux/dd (한국어)
 description: "파일 변환 및 복사."
 content_hash: 3c57dc6050bf6bb0971569e6b41276491c5d159f
-last_modified_at: 2024-02-13
+last_modified_at: 2024-03-04
 related_topics:
   - title: English version
     url: /en/linux/dd.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# dd
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dd
 
 파일 변환 및 복사.
 더 많은 정보: <https://www.gnu.org/software/coreutils/dd>.
