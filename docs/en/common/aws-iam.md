@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/aws-iam (English)
-description: "Intecract with the Identity and Access Management (IAM), a web service for securely controlling access to AWS services."
-content_hash: 8ab8df18b2991fba6e26e4539ddab971bb684029
+description: "Interact with Identity and Access Management (IAM), a web service for securely controlling access to AWS services."
+content_hash: f1b5823bc2284dd63f9c2b9638e75a15442cee98
 last_modified_at: 2024-03-04
 related_topics:
   - title: Deutsch version
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # aws iam
 
-Intecract with the Identity and Access Management (IAM), a web service for securely controlling access to AWS services.
+Interact with Identity and Access Management (IAM), a web service for securely controlling access to AWS services.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
 
 - List users:
