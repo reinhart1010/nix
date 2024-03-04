@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/aws-cognito-idp (English)
-description: "Manage Amazon Cognito user pool and its users and groups using the CLI."
-content_hash: cc9f5f8a453cf5fa13fdb8abe0b375d02a07992f
-last_modified_at: 2023-11-12
+description: "Configure an Amazon Cognito user pool and its users and groups and authenticate them."
+content_hash: 99c2560578803d1d87e05a0ca02f4f571d579135
+last_modified_at: 2024-03-04
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-cognito-idp.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # aws cognito-idp
 
-Manage Amazon Cognito user pool and its users and groups using the CLI.
+Configure an Amazon Cognito user pool and its users and groups and authenticate them.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html>.
 
 - Create a new Cognito user pool:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/aws-dynamodb (English)
-description: "CLI for AWS dynamodb."
-content_hash: 69b4a50a2d7cf6e15fb120c1a9595c3ba22d4e13
-last_modified_at: 2023-11-26
+description: "Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability."
+content_hash: 19c49cbc0c05a5b9477b06aeafdca556c16ed7e9
+last_modified_at: 2024-03-04
 tldri18n_status: 2
 ---
 # aws dynamodb
 
-CLI for AWS dynamodb.
+Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability.
 More information: <https://docs.aws.amazon.com/cli/latest/reference/dynamodb/>.
 
 - Create a table:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/aws-rds (English)
-description: "CLI for AWS Relational Database Service."
-content_hash: 15445df9f2b0d785ee217a40aeb1dd22601d28e1
-last_modified_at: 2024-01-30
+description: "Use AWS Relational Database Service, a web service for setting up, operating and scaling relational databases."
+content_hash: df7af7113730701b28a6598d74c560cc5ff596db
+last_modified_at: 2024-03-04
 related_topics:
   - title: español version
     url: /es/common/aws-rds.html
@@ -15,8 +15,7 @@ tldri18n_status: 2
 ---
 # aws rds
 
-CLI for AWS Relational Database Service.
-Create and manage relational databases.
+Use AWS Relational Database Service, a web service for setting up, operating and scaling relational databases.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html>.
 
 - Display help for a specific RDS subcommand:

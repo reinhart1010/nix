@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/aws-kinesis (English)
-description: "Official AWS CLI for Amazon Kinesis streaming data services."
-content_hash: b6d6bc45c448e176b51cbd3d35d848757d3980b1
-last_modified_at: 2023-11-12
+description: "Interact with the Amazon Kinesis Data Streams, a service that scales elastically for real-time processing of streaming big data."
+content_hash: 00e6de1e23df5e001bddae309d90a68bbdb4e5f8
+last_modified_at: 2024-03-04
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-kinesis.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # aws kinesis
 
-Official AWS CLI for Amazon Kinesis streaming data services.
+Interact with the Amazon Kinesis Data Streams, a service that scales elastically for real-time processing of streaming big data.
 More information: <https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis>.
 
 - Show all streams in the account:

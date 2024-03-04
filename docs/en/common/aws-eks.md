@@ -1,14 +1,15 @@
 ---
 layout: page
 title: common/aws-eks (English)
-description: "CLI for Amazon EKS (Elastic Kubernetes Service)."
-content_hash: 1fa5e12c71ecdecdafa043de838c579ab652964b
-last_modified_at: 2023-11-26
+description: "Manage Amazon Elastic Kubernetes Service (EKS) addons, clusters, and node groups."
+content_hash: becc41bbdcbfdac5595b228fa3bea0721769dd6f
+last_modified_at: 2024-03-04
 tldri18n_status: 2
 ---
 # aws eks
 
-CLI for Amazon EKS (Elastic Kubernetes Service).
+Manage Amazon Elastic Kubernetes Service (EKS) addons, clusters, and node groups.
+Amazon EKS is a service for easily running Kubernetes on AWS.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/eks/index.html>.
 
 - Create an EKS Cluster:

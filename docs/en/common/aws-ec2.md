@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/aws-ec2 (English)
-description: "CLI for AWS EC2."
-content_hash: 51178e196775efab0b5178bf6bd4e274cdf25cb4
-last_modified_at: 2023-12-27
+description: "Manage AWS EC2 instances and volumes."
+content_hash: a86c48fe4f1ae871d7d7492ffe94ea74cd6a63ff
+last_modified_at: 2024-03-04
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-ec2.html
@@ -21,8 +21,8 @@ tldri18n_status: 2
 ---
 # aws ec2
 
-CLI for AWS EC2.
-Provides secure and resizable computing capacity in the AWS cloud to enable faster development and deployment of applications.
+Manage AWS EC2 instances and volumes.
+AWS EC2 provides secure and resizable computing capacity in the AWS cloud for faster development and deployment of applications.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
 
 - Display information about a specific instance:

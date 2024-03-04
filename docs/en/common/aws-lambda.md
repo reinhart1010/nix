@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/aws-lambda (English)
-description: "CLI for AWS lambda."
-content_hash: a11162c4553dd0816ca7b51355c0d3948c794c29
-last_modified_at: 2024-01-31
+description: "Use AWS Lambda, a compute service for running code without provisioning or managing servers."
+content_hash: c0ae16c56252735e6e3bbcc50f6cb427c29e4867
+last_modified_at: 2024-03-04
 related_topics:
   - title: français version
     url: /fr/common/aws-lambda.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # aws lambda
 
-CLI for AWS lambda.
+Use AWS Lambda, a compute service for running code without provisioning or managing servers.
 More information: <https://docs.aws.amazon.com/cli/latest/reference/lambda/>.
 
 - Run a function:
