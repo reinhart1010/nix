@@ -3,7 +3,7 @@ layout: page
 title: linux/bootctl (中文)
 description: "控制EFI固件启动设置并管理启动加载器。"
 content_hash: 4edd82b3e504f3c12cf7498e5e0208293c7229bc
-last_modified_at: 2024-03-04
+last_modified_at: 2024-03-05
 related_topics:
   - title: English version
     url: /en/linux/bootctl.html
@@ -14,18 +14,9 @@ related_topics:
   - title: polski version
     url: /pl/linux/bootctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/bootctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bootctl
+# bootctl
 
 控制EFI固件启动设置并管理启动加载器。
 更多信息：<https://manned.org/bootctl>。
