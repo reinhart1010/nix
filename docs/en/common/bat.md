@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (English)
 description: "Print and concatenate files."
-content_hash: 979df9d998709a3a9e75cdca4ffdec53454651bf
-last_modified_at: 2024-01-31
+content_hash: 520bb15b231f70dcaaa4b32519558125370cfadc
+last_modified_at: 2024-03-06
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -49,7 +49,7 @@ Print and concatenate files.
 A `cat` clone with syntax highlighting and Git integration.
 More information: <https://github.com/sharkdp/bat>.
 
-- Print the contents of one or more files to `stdout`:
+- Pretty print the contents of one or more files to `stdout`:
 
 `bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
@@ -57,18 +57,26 @@ More information: <https://github.com/sharkdp/bat>.
 
 `bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_file</span>
 
-- Append several files into the target file:
+- Remove decorations and disable paging (`--style plain` can be replaced with `-p`, or both options with `-pp`):
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_file</span>
+`bat --style plain --pager never `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Number all output lines:
+- Highlight a specific line or a range of lines with a different background color:
 
-`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--highlight-line|-H</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10|5:10|:10|10:|10:+5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Syntax highlight a JSON file:
+- Show non-printable characters like space, tab or newline:
 
-`bat --language json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--show-all|-A</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Remove all decorations except line numbers in the output:
+
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--number|-n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Syntax highlight a JSON file by explicitly setting the language:
+
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--language|-l</span>` json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span>
 
 - Display all supported languages:
 
-`bat --list-languages`
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--list-languages|-L</span>
