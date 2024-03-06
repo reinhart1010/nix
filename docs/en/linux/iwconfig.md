@@ -2,8 +2,8 @@
 layout: page
 title: linux/iwconfig (English)
 description: "Configure and show the parameters of a wireless network interface."
-content_hash: 051e17d4e10abc0e8d0588cc1825edc51cf9e1c4
-last_modified_at: 2023-11-12
+content_hash: 736b81a7b9ee27072f668fc1d74a7a1b9cb7cd4a
+last_modified_at: 2024-03-06
 tldri18n_status: 2
 ---
 # iwconfig
@@ -25,4 +25,4 @@ More information: <https://manned.org/iwconfig>.
 
 - Set the operating mode of the specified interface:
 
-`iwconfig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>` mode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ad hoc|Managed|Master|Repeater|Secondary|Monitor|Auto</span>
+`iwconfig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>` mode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Ad-Hoc|Managed|Master|Repeater|Secondary|Monitor|Auto</span>
