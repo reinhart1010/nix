@@ -1,23 +1,30 @@
 ---
 layout: page
 title: common/audacious (English)
-description: "An open-source audio player."
-content_hash: c59a7d57e86a46144bc7d28fa929dee638df722d
-last_modified_at: 2023-11-12
+description: "An open-source audio player. Indirectly based on XMMS."
+content_hash: 349594bc55bb2c9b4dfe45045377c4ac0819f60d
+last_modified_at: 2024-03-07
 related_topics:
   - title: español version
     url: /es/common/audacious.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/audacious.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # audacious
 
-An open-source audio player.
+An open-source audio player. Indirectly based on XMMS.
 More information: <https://audacious-media-player.org>.
 
-- Launch the program:
+- Launch the GUI:
 
 `audacious`
+
+- Start a new instance and play an audio:
+
+`audacious --new-instance `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/audio</span>
 
 - Enqueue a specific directory of audio files:
 
@@ -27,7 +34,7 @@ More information: <https://audacious-media-player.org>.
 
 `audacious --play-pause`
 
-- Skip forwards or backwards in the playlist:
+- Skip forwards ([fwd]) or backwards ([rew]) in the playlist:
 
 `audacious --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fwd|rew</span>
 
@@ -35,7 +42,7 @@ More information: <https://audacious-media-player.org>.
 
 `audacious --stop`
 
-- Start a headless version:
+- Start in CLI mode (headless):
 
 `audacious --headless`
 

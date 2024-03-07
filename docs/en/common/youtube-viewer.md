@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/youtube-viewer (English)
-description: "Command-line application for searching and playing videos from YouTube."
-content_hash: 6830c1e57cabf6fe4fcdb469c24e9bf1d045aec6
-last_modified_at: 2023-11-12
+description: "Search and play videos from YouTube."
+content_hash: a27a73994a338b1651f746de712f1716bcb82c52
+last_modified_at: 2024-03-07
 tldri18n_status: 2
 ---
 # youtube-viewer
 
-Command-line application for searching and playing videos from YouTube.
+Search and play videos from YouTube.
 More information: <https://github.com/trizen/youtube-viewer>.
 
 - Search for a video:

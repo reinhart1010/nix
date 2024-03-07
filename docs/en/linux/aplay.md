@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/aplay (English)
-description: "Command-line sound player for ALSA soundcard driver."
-content_hash: 9d8b0dfd4ae5715c1d5faaaf575f54fd4535131a
-last_modified_at: 2023-11-12
+description: "Sound player for ALSA soundcard driver."
+content_hash: 193dd05acc44e6c0c32258d54b1f389c858107d3
+last_modified_at: 2024-03-07
 related_topics:
   - title: Deutsch version
     url: /de/linux/aplay.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # aplay
 
-Command-line sound player for ALSA soundcard driver.
+Sound player for ALSA soundcard driver.
 More information: <https://manned.org/aplay>.
 
 - Play a specific file (sampling rate, bit depth, etc. will be automatically determined for the file format):

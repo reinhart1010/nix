@@ -2,8 +2,8 @@
 layout: page
 title: windows/reg (English)
 description: "Manage keys and their values in the Windows registry."
-content_hash: d78273486300a47769f73787cab9f14407d8583d
-last_modified_at: 2024-01-30
+content_hash: ee23179b8cc27ed7df28e22efe127f8699968ac3
+last_modified_at: 2024-03-07
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg.html
@@ -20,7 +20,27 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `reg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Display general information and list all available commands:
+- View documentation for adding and copying subkeys:
+
+`tldr reg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">add|copy</span>
+
+- View documentation for deleting keys and subkeys:
+
+`tldr reg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delete|unload</span>
+
+- View documentation for searching, viewing, and comparing keys:
+
+`tldr reg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compare|flags|query</span>
+
+- View documentation for exporting and importing registry keys not preserving the key ownerships and ACLs:
+
+`tldr reg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">export|import</span>
+
+- View documentation for saving, restoring registry and unloading keys preserving the key ownerships and ACLs:
+
+`tldr reg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">save|restore|load|unload</span>
+
+- Display help:
 
 `reg /?`
 

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/ncmpcpp (English)
-description: "A command-line music player client for the Music Player Daemon."
-content_hash: e3e3dccc85c2bf3af32946cc2ae9ef5120fcbc54
-last_modified_at: 2023-11-12
+description: "A music player client for the Music Player Daemon."
+content_hash: d980f34366cf57568c20735919aee4eb36b00ba9
+last_modified_at: 2024-03-07
 tldri18n_status: 2
 ---
 # ncmpcpp
 
-A command-line music player client for the Music Player Daemon.
+A music player client for the Music Player Daemon.
 More information: <https://rybczak.net/ncmpcpp>.
 
 - Connect to a music player daemon on a given host and port:

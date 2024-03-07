@@ -2,8 +2,8 @@
 layout: page
 title: common/go-tool (English)
 description: "Run a Go tool or command."
-content_hash: 780ee890ff098b869f9b876fa700865012da45ad
-last_modified_at: 2024-02-15
+content_hash: af03b860d341b6f422d6e9a9f44defcaad4d50a9
+last_modified_at: 2024-03-07
 related_topics:
   - title: Türkçe version
     url: /tr/common/go-tool.html
@@ -31,3 +31,7 @@ More information: <https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool>.
 - View documentation for a specified tool:
 
 `go tool `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` --help`
+
+- List all available cross-compilation targets:
+
+`go tool dist list`

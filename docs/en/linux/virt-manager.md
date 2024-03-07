@@ -1,17 +1,17 @@
 ---
 layout: page
 title: linux/virt-manager (English)
-description: "CLI launcher for virt-manager, a desktop user interface for managing KVM and Xen virtual machines and LXC containers."
-content_hash: dab2544bd2719c89edb8d3c616097fecc842f51b
-last_modified_at: 2023-11-12
+description: "A desktop user interface for managing KVM and Xen virtual machines and LXC containers."
+content_hash: 3a2f34b5069cbcdbf115f4838d2de175ff806c22
+last_modified_at: 2024-03-07
 tldri18n_status: 2
 ---
 # virt-manager
 
-CLI launcher for virt-manager, a desktop user interface for managing KVM and Xen virtual machines and LXC containers.
+A desktop user interface for managing KVM and Xen virtual machines and LXC containers.
 More information: <https://manpages.ubuntu.com/manpages/man1/virt-manager.1.html>.
 
-- Launch virt-manager:
+- Launch the GUI:
 
 `virt-manager`
 
@@ -31,11 +31,11 @@ More information: <https://manpages.ubuntu.com/manpages/man1/virt-manager.1.html
 
 `virt-manager --show-domain-creator`
 
-- Show domain details window:
+- Show domain details window for a specific virtual machine/container:
 
 `virt-manager --show-domain-editor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|id|uuid</span>
 
-- Show domain performance window:
+- Show domain performance window for a specific virtual machine/container:
 
 `virt-manager --show-domain-performance `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|id|uuid</span>
 
