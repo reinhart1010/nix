@@ -3,7 +3,7 @@ layout: page
 title: common/bat (français)
 description: "Affiche et concatène le contenu d'un ou plusieurs fichiers."
 content_hash: 936f68e0da673d3af87c5279261f38f4aab8d72e
-last_modified_at: 2023-12-28
+last_modified_at: 2024-03-07
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -41,9 +41,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bat.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bat
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bat
 
 Affiche et concatène le contenu d'un ou plusieurs fichiers.
 Un clone de `cat` avec mise en valeur de la syntaxe et intégration avec Git.

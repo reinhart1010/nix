@@ -3,7 +3,7 @@ layout: page
 title: common/bat (Nederlands)
 description: "Bestanden tonen en samenvoegen."
 content_hash: 279be7c74193b373acbc667088a9c453b58cbcef
-last_modified_at: 2024-02-01
+last_modified_at: 2024-03-07
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -41,9 +41,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bat.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bat
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bat
 
 Bestanden tonen en samenvoegen.
 Een `cat` kopie met syntax highlighting en Git integratie.

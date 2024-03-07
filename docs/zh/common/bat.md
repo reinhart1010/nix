@@ -3,7 +3,7 @@ layout: page
 title: common/bat (中文)
 description: "可以打印并且合并文件的命令。"
 content_hash: a86e0c0138815de56d4ef66d92f14016de805b70
-last_modified_at: 2023-12-28
+last_modified_at: 2024-03-07
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -41,9 +41,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/bat.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bat
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bat
 
 可以打印并且合并文件的命令。
 `cat` 的复制品，外加语法高亮和 Git 集成。

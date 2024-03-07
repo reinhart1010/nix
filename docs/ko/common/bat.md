@@ -3,7 +3,7 @@ layout: page
 title: common/bat (한국어)
 description: "파일들을 출력하고 연결. 구문 강조와 Git 통합을 가진`cat`클론."
 content_hash: 2421d8121fd5ec991d83d1e90fe7736bd1747fca
-last_modified_at: 2023-12-28
+last_modified_at: 2024-03-07
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -41,9 +41,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bat.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bat
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bat
 
 파일들을 출력하고 연결. 구문 강조와 Git 통합을 가진`cat`클론.
 더 많은 정보: <https://github.com/sharkdp/bat>.

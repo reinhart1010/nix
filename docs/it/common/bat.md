@@ -3,7 +3,7 @@ layout: page
 title: common/bat (italiano)
 description: "Stampa e concatena file."
 content_hash: bd472459e5a32cfbf982b5c738ffb9af86d34bcf
-last_modified_at: 2023-12-28
+last_modified_at: 2024-03-07
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -41,9 +41,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bat.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bat
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bat
 
 Stampa e concatena file.
 Un clone di `cat` con syntax highlighting e integrazione Git.

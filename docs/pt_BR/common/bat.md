@@ -3,7 +3,7 @@ layout: page
 title: common/bat (português (Brasil))
 description: "Imprime e concatena arquivos."
 content_hash: c40ef8f4c5d27dabd48cacbd29b82b59edb61589
-last_modified_at: 2023-12-28
+last_modified_at: 2024-03-07
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -41,9 +41,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bat.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bat
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bat
 
 Imprime e concatena arquivos.
 Um clone do `cat` com realce de sintaxe e integração com Git.
