@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (Nederlands)
 description: "Bestanden tonen en samenvoegen."
-content_hash: 279be7c74193b373acbc667088a9c453b58cbcef
-last_modified_at: 2024-03-07
+content_hash: c5a15bd472b142e35ae1555d3a37cb9cbad9bce5
+last_modified_at: 2024-03-08
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -58,20 +58,28 @@ Meer informatie: <https://github.com/sharkdp/bat>.
 
 - Voeg verschillende bestanden samen in het doelbestand:
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doelbestand</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doelbestand</span>
 
-- Voeg verschillende bestanden toe aan het doelbestand:
+- Verwijder decoraties en schakel paging uit (`--style plain` kan vervangen worden met `-p` of beide opties met `-pp`):
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doelbestand</span>
+`bat --style plain --pager never `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+
+- Highlight een specifieke regel of een reeks van regels met een andere achtergrondkleur:
+
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--highlight-line|-H</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10|5:10|:10|10:|10:+5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+
+- Toon niet-printbare karakters zoals spatie, tab of witregel:
+
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--show-all|-A</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
 - Nummer alle uitvoerregels:
 
-`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--number|-n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
 - Highlight de syntax van een JSON-bestand:
 
-`bat --language json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.json</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--language|-l</span>` json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.json</span>
 
 - Toon alle ondersteunde talen:
 
-`bat --list-languages`
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--list-languages|-L</span>

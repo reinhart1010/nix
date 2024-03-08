@@ -2,8 +2,8 @@
 layout: page
 title: linux/bspc (Nederlands)
 description: "Een tool om `bspwm` te besturen."
-content_hash: 5bee8413cd24f9ba045acaea266dab83c542cfb2
-last_modified_at: 2024-02-26
+content_hash: 64cba35b11c93f383fee8fe87160e55675216464
+last_modified_at: 2024-03-08
 related_topics:
   - title: English version
     url: /en/linux/bspc.html
@@ -37,3 +37,7 @@ Meer informatie: <https://github.com/baskerville/bspwm>.
 - Schakel de modus volledig scherm in voor het geselecteerde knooppunt:
 
 `bspc node --state ~fullscreen`
+
+- Zet de waarde van een specifieke instelling:
+
+`bspc config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instelling</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">waarde</span>

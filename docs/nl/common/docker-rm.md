@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-rm (Nederlands)
 description: "Verwijder een of meer containers."
-content_hash: 59abb4c12898b3cffae6b7367531c69b07db6456
-last_modified_at: 2024-02-01
+content_hash: e0147b1abe0a6e9e3e7b18c22bfcc0eeffd689f3
+last_modified_at: 2024-03-08
 related_topics:
   - title: English version
     url: /en/common/docker-rm.html
@@ -32,4 +32,4 @@ Meer informatie: <https://docs.docker.com/engine/reference/commandline/rm>.
 
 - Toon de help:
 
-`docker rm`
+`docker rm --help`

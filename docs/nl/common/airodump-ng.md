@@ -2,7 +2,7 @@
 layout: page
 title: common/airodump-ng (Nederlands)
 description: "Leg pakketten vast en geef informatie over draadloze netwerken weer."
-content_hash: 82abd4458705d4532c3824eab752285384ba651b
+content_hash: 15e7d187cfa047e43fad8d317ec7b4cf41d63f38
 last_modified_at: 2024-03-08
 related_topics:
   - title: Deutsch version
@@ -31,9 +31,17 @@ Leg pakketten vast en geef informatie over draadloze netwerken weer.
 Deel van `aircrack-ng`.
 Meer informatie: <https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
 
-- Leg pakketten vast en geef informatie weer over een draadloos netwerk:
+- Leg pakketten vast en geef informatie weer over draadloze netwerken op de 2.4GHz band:
 
 `sudo airodump-ng `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>
+
+- Leg pakketten vast en geef informatie weer over draadloze netwerken op de 5GHz band:
+
+`sudo airodump-ng `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>` --band a`
+
+- Leg pakketten vast en geef informatie weer over draadloze netwerken op de 2.4GHz en de 5GHz band:
+
+`sudo airodump-ng `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>` --band abg`
 
 - Leg pakketten vast en geef informatie weer over een draadloos netwerk met het MAC-adres en kanaal, en sla de uitvoer op in een bestand:
 

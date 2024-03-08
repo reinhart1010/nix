@@ -2,8 +2,8 @@
 layout: page
 title: linux/bspwm (Nederlands)
 description: "Een tegelvensterbeheerder gebaseerd op binaire ruimtepartitionering."
-content_hash: eac3ae18c4e8a6c4bb0edae40dd7171091861996
-last_modified_at: 2024-02-26
+content_hash: 78e08b23c770c13062ee2ee13e343850d4f403e1
+last_modified_at: 2024-03-08
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -97,12 +97,9 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># bspwm
 
 Een tegelvensterbeheerder gebaseerd op binaire ruimtepartitionering.
+Bekijk ook: `bspc`, voor het aansturen.
 Meer informatie: <https://github.com/baskerville/bspwm>.
 
 - Start `bspwm` (houd er rekening mee dat een reeds bestaande vensterbeheerder niet geopend mag zijn wanneer dit commando wordt uitgevoerd):
 
 `bspwm -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/config</span>
-
-- Bekijk de documentatie van `bspc`:
-
-`tldr bspc`

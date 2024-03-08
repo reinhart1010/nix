@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (Nederlands)
 description: "Toon en voeg bestanden samen."
-content_hash: 1f3807f88072021fbf6f8af3bb46ce3a6ada2071
-last_modified_at: 2024-01-10
+content_hash: 38ff9a67faebec7186ba8b536e0c1bf8d6ec0dbb
+last_modified_at: 2024-03-08
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -61,7 +61,7 @@ tldri18n_status: 2
 # cat
 
 Toon en voeg bestanden samen.
-Meer informatie: <https://www.gnu.org/software/coreutils/cat>.
+Meer informatie: <https://manned.org/cat.1posix>.
 
 - Toon de inhoud van een bestand in `stdout`:
 

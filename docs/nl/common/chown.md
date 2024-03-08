@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (Nederlands)
 description: "Verander gebruiker- en groepsbeheer van bestanden en mappen."
-content_hash: 675ab4b45663391307f5f7fbda29a46cfbebd0ef
-last_modified_at: 2024-02-28
+content_hash: 204a5cdf8801f41f4ee380a18090801ef8ddf072
+last_modified_at: 2024-03-08
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -52,6 +52,10 @@ Meer informatie: <https://www.gnu.org/software/coreutils/chown>.
 - Verander de gebruikersbeheerder en -groep van een bestand of map:
 
 `chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruiker</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groep</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>
+
+- Verander de gebruikersbeheerder en -groep zodat beiden de naam `user` krijgen:
+
+`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>`: `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>
 
 - Verander recursief de beheerder van een map en alle inhoud:
 

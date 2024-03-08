@@ -2,8 +2,8 @@
 layout: page
 title: common/traefik (English)
 description: "An HTTP reverse proxy and load balancer."
-content_hash: 5296e82991ef9356cc2847393be32c251461074f
-last_modified_at: 2024-01-31
+content_hash: c70fa360245551e11fdd82795137190e923066cb
+last_modified_at: 2024-03-08
 tldri18n_status: 2
 ---
 # traefik
@@ -11,15 +11,15 @@ tldri18n_status: 2
 An HTTP reverse proxy and load balancer.
 More information: <https://traefik.io>.
 
-- Start server with default config:
+- Start the server with the default configuration:
 
 `traefik`
 
-- Start server with a custom configuration file:
+- Start the server with a custom configuration file:
 
-`traefik --c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config_file.toml</span>
+`traefik --ConfigFile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config_file.toml</span>
 
-- Start server with cluster mode enabled:
+- Start the server with cluster mode enabled:
 
 `traefik --cluster`
 
