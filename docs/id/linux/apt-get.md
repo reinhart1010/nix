@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-get (Indonesia)
 description: "Manajemen paket untuk Debian dan Ubuntu."
 content_hash: 10163987217236c18f5ffb853209433f2187cd2c
-last_modified_at: 2024-03-07
+last_modified_at: 2024-03-08
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -47,18 +47,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-get.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/apt-get.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># apt-get
+# apt-get
 
 Manajemen paket untuk Debian dan Ubuntu.
 Cari paket menggunakan `apt-cache`.

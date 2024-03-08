@@ -3,19 +3,10 @@ layout: page
 title: osx/diskutil-partitiondisk (English)
 description: "Utility to manage partitions inside disks and volumes."
 content_hash: d8bc7ca711867478ebf7a486cd13c38f0d0d1323
-last_modified_at: 2024-03-07
-tldri18n_status: 0
+last_modified_at: 2024-03-08
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/osx/diskutil-partitiondisk.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># diskutil partitionDisk
+# diskutil partitionDisk
 
 Utility to manage partitions inside disks and volumes.
 Part of `diskutil`.

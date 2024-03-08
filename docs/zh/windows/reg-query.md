@@ -3,14 +3,17 @@ layout: page
 title: windows/reg-query (中文)
 description: "显示注册表中键和子键的值。"
 content_hash: 48f1434a606b7f2056c038a0e7a437886def10c8
-last_modified_at: 2023-11-12
+last_modified_at: 2024-03-08
 related_topics:
   - title: English version
     url: /en/windows/reg-query.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# reg query
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># reg query
 
 显示注册表中键和子键的值。
 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query>.

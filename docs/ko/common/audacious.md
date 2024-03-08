@@ -3,7 +3,7 @@ layout: page
 title: common/audacious (한국어)
 description: "오픈 소스 오디오 플레이어."
 content_hash: dd75ba2275373a606ec9e648043bd4040b58522f
-last_modified_at: 2023-12-17
+last_modified_at: 2024-03-08
 related_topics:
   - title: English version
     url: /en/common/audacious.html
@@ -11,9 +11,12 @@ related_topics:
   - title: español version
     url: /es/common/audacious.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# audacious
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># audacious
 
 오픈 소스 오디오 플레이어.
 더 많은 정보: <https://audacious-media-player.org>.

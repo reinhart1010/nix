@@ -3,14 +3,20 @@ layout: page
 title: common/audacious (español)
 description: "Un reproductor de audio de código abierto."
 content_hash: 3e8da64c324d8127e5668a31bea3499d2a413d74
-last_modified_at: 2023-11-12
+last_modified_at: 2024-03-08
 related_topics:
   - title: English version
     url: /en/common/audacious.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/common/audacious.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# audacious
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># audacious
 
 Un reproductor de audio de código abierto.
 Más información: <https://audacious-media-player.org>.

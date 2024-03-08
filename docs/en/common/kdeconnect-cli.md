@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/kdeconnect-cli (English)
-description: "KDE's Connect CLI."
-content_hash: 4481fef6c5985bf3f2f4337702d75d1b3b085bf9
-last_modified_at: 2023-11-12
+description: "Use KDE Connect for sharing files or text to a device, ringing it, unlocking it, and much more."
+content_hash: b6809876f2962bd7250fa1243835a804b28979d9
+last_modified_at: 2024-03-08
 tldri18n_status: 2
 ---
 # kdeconnect-cli
 
-KDE's Connect CLI.
+Use KDE Connect for sharing files or text to a device, ringing it, unlocking it, and much more.
 More information: <https://kdeconnect.kde.org>.
 
 - List all devices:
