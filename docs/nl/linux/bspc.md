@@ -3,17 +3,14 @@ layout: page
 title: linux/bspc (Nederlands)
 description: "Een tool om `bspwm` te besturen."
 content_hash: 64cba35b11c93f383fee8fe87160e55675216464
-last_modified_at: 2024-03-08
+last_modified_at: 2024-03-09
 related_topics:
   - title: English version
     url: /en/linux/bspc.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bspc
+# bspc
 
 Een tool om `bspwm` te besturen.
 Meer informatie: <https://github.com/baskerville/bspwm>.

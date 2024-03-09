@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-file (Indonesia)
 description: "Cari kumpulan berkas di dalam paket `apt`, termasuk yang belum dipasang."
 content_hash: 71c8ce1cd0b776f2ae0105d6f75f238090785e44
-last_modified_at: 2024-03-08
+last_modified_at: 2024-03-09
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -32,18 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-file.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/apt-file.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># apt-file
+# apt-file
 
 Cari kumpulan berkas di dalam paket `apt`, termasuk yang belum dipasang.
 Informasi lebih lanjut: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
