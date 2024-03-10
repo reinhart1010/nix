@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-exec (Türkçe)
 description: "Halihazırda çalışan bir Docker konteyneri üstünde komut çalıştır."
-content_hash: d3b133fe5c0ddd3cab1084219fa6fc6f32668762
-last_modified_at: 2023-12-30
+content_hash: cc268d0bf2d47e0d9609a51252c5305a0d60d845
+last_modified_at: 2024-03-10
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -43,7 +43,7 @@ Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/ex
 
 `docker exec --interactive --detach `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komut</span>
 
-- Çalışmakta olan bir bash oturumu içinde bir çevre değişkeni belirle:
+- Çalışmakta olan bir Bash oturumu içinde bir çevre değişkeni belirle:
 
 `docker exec --interactive --tty --env `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">değişken_ismi</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/bash</span>
 

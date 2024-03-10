@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (Deutsch)
 description: "Bourne-Again SHell."
-content_hash: 009b32ff5ffa459e40fee7b222c5812e2c6f1a86
-last_modified_at: 2023-12-29
+content_hash: c4c056025d7cc54dcafd890d138357eaf9d675fa
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/bash.html
@@ -67,6 +67,6 @@ Weitere Informationen: <https://www.gnu.org/software/bash/>.
 
 `bash -s`
 
-- Gib die Version von bash aus (verwende `echo $BASH_VERSION`, um nur die Versionszeichenkette anzuzeigen):
+- Gib die Version von Bash aus (verwende `echo $BASH_VERSION`, um nur die Versionszeichenkette anzuzeigen):
 
 `bash --version`

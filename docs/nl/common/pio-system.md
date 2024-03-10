@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-system (Nederlands)
 description: "Gemengde systeem commando's voor PlatformIO."
-content_hash: 0e8daa3c615269269eee87425e1ae514bdd31c34
-last_modified_at: 2023-12-21
+content_hash: 06104c4b9b4941cba581073d95eefcf7a3f5bcc5
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/pio-system.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 Gemengde systeem commando's voor PlatformIO.
 Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/system/>.
 
-- Installeer shell completion voor de huidige shell (ondersteund Bash, Fish, Zsh en PowerShell):
+- Installeer shell completion voor de huidige shell (ondersteund Bash, fish, Zsh en PowerShell):
 
 `pio system completion install`
 

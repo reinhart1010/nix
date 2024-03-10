@@ -2,8 +2,8 @@
 layout: page
 title: common/procs (English)
 description: "Display information about the active processes."
-content_hash: 9b95edd105fa6da9f6acef427e46c46b38fc6dc7
-last_modified_at: 2023-11-12
+content_hash: 07a7d7c63e6165ae3720d5bf3018ebac255273ac
+last_modified_at: 2024-03-10
 tldri18n_status: 2
 ---
 # procs
@@ -19,7 +19,7 @@ More information: <https://github.com/dalance/procs>.
 
 `procs --tree`
 
-- List information about processes, if the commands which started them contain `zsh`:
+- List information about processes, if the commands which started them contain Zsh:
 
 `procs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span>
 

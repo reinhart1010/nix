@@ -2,8 +2,8 @@
 layout: page
 title: common/history (Indonesia)
 description: "Sejarah command-line."
-content_hash: edac73f21730e4d0b3caf35699f3da01f293ad9a
-last_modified_at: 2023-12-15
+content_hash: b0ce93541fd0cd1f17a8de4083c4e4b6e59c976d
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -34,15 +34,15 @@ Informasi lebih lanjut: <https://www.gnu.org/software/bash/manual/html_node/Bash
 
 `history`
 
-- Tampilkan 20 perintah-perintah terakhir (di `zsh` perintah ini menampilkan semua perintah-perintah sejak dari baris ke-20):
+- Tampilkan 20 perintah-perintah terakhir (di Zsh perintah ini menampilkan semua perintah-perintah sejak dari baris ke-20):
 
 `history `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>
 
-- Hapus sejarah perintah-perintah (hanya untuk sesi shell `bash` saat ini):
+- Hapus sejarah perintah-perintah (hanya untuk sesi shell Bash saat ini):
 
 `history -c`
 
-- Tulis ulang file sejarah dengan sejarah sesi shell `bash` saat ini (seringkali dikombinasikan dengan `history -c` untuk menghapus sejarah):
+- Tulis ulang file sejarah dengan sejarah sesi shell Bash saat ini (seringkali dikombinasikan dengan `history -c` untuk menghapus sejarah):
 
 `history -w`
 

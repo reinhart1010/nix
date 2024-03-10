@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/nvm.fish (English)
-description: "Install, uninstall, or switch between Node.js versions under the `fish` shell."
-content_hash: 020432b4f994089ff33d5cd953c4064f6031eb5a
-last_modified_at: 2023-11-12
+description: "Install, uninstall, or switch between Node.js versions under the fish shell."
+content_hash: e8c0e84373c89efb61e3b65871e20be2d25dec3c
+last_modified_at: 2024-03-10
 tldri18n_status: 2
 ---
 # nvm
 
-Install, uninstall, or switch between Node.js versions under the `fish` shell.
+Install, uninstall, or switch between Node.js versions under the fish shell.
 Supports version numbers like "12.8" or "v16.13.1", and labels like "stable", "system", etc.
 More information: <https://github.com/jorgebucaran/nvm.fish>.
 

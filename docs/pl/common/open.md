@@ -2,8 +2,8 @@
 layout: page
 title: common/open (polski)
 description: "`open` może odnosić się do kilku komend o tej samej nazwie."
-content_hash: 1be7afc52e2cbee656970acba360f730f4229afd
-last_modified_at: 2023-11-26
+content_hash: f0e5b9b28cb2a918ada93581ed067916e4f4b694
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/open.html
@@ -24,6 +24,6 @@ tldri18n_status: 2
 
 `tldr open -p osx`
 
-- Zobacz dokumentację komendy dostępnej w `fish`:
+- Zobacz dokumentację komendy dostępnej w fish:
 
 `tldr open.fish`

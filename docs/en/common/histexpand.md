@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/histexpand (English)
-description: "Reuse and expand the shell history in `sh`, `bash`, `zsh`, `rbash` and `ksh`."
-content_hash: ccc656074ab846980ea9cc941e9f46ce71fbf53e
-last_modified_at: 2023-11-12
+description: "Reuse and expand the shell history in `sh`, Bash, Zsh, `rbash` and `ksh`."
+content_hash: 8abb4fcac082fb41bcf724db890ecaec7a93fe6f
+last_modified_at: 2024-03-10
 related_topics:
   - title: español version
     url: /es/common/histexpand.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # history expansion
 
-Reuse and expand the shell history in `sh`, `bash`, `zsh`, `rbash` and `ksh`.
+Reuse and expand the shell history in `sh`, Bash, Zsh, `rbash` and `ksh`.
 More information: <https://www.gnu.org/software/bash/manual/html_node/History-Interaction>.
 
 - Run the previous command as root (`!!` is replaced by the previous command):

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/abbr (français)
-description: "Gère les abréviations pour le shell Fish."
-content_hash: bbef4e2de4e31d9f1a6c4f2d1ec858b0113aa685
-last_modified_at: 2023-11-12
+description: "Gère les abréviations pour le shell fish."
+content_hash: 1462d59bbc1fa0c0d48bc81731154a0478eff01d
+last_modified_at: 2024-03-10
 related_topics:
   - title: català version
     url: /ca/linux/abbr.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/abbr.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/abbr.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/abbr.html
@@ -30,7 +33,7 @@ tldri18n_status: 2
 ---
 # abbr
 
-Gère les abréviations pour le shell Fish.
+Gère les abréviations pour le shell fish.
 Les mots définis par l'utilisateur sont remplacés par des phrases plus longues après leur saisie.
 Plus d'informations : <https://fishshell.com/docs/current/cmds/abbr.html>.
 

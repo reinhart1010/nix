@@ -2,8 +2,8 @@
 layout: page
 title: common/zsh (Deutsch)
 description: "Z SHell."
-content_hash: b70fbb929ac0e2d5149f4063fee230d2d17ed5eb
-last_modified_at: 2023-11-12
+content_hash: 033badbec4c13d8bb295fc23fe09909fd11717a9
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/zsh.html
@@ -57,6 +57,6 @@ Weitere Informationen: <https://www.zsh.org>.
 
 `zsh --verbose`
 
-- Führe einen Befehl innerhalb von `zsh` mit ausgeschalteten Glob-Mustern aus:
+- Führe einen Befehl innerhalb von Zsh mit ausgeschalteten Glob-Mustern aus:
 
 `noglob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>

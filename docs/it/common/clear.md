@@ -2,8 +2,8 @@
 layout: page
 title: common/clear (italiano)
 description: "Pulisce lo schermo del terminale."
-content_hash: 019278a00def75bfb698c9912a40a4578b334377
-last_modified_at: 2023-11-12
+content_hash: f2c56b3628ba84b7df05f6a3ff2b87e71ce79829
+last_modified_at: 2024-03-10
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -42,6 +42,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Pulisce lo schermo del terminale.
 Maggiori informazioni: <https://manned.org/clear>.
 
-- Pulisci lo schermo (equivalente a Control+L se si utilizza la shell bash):
+- Pulisci lo schermo (equivalente a Control+L se si utilizza la shell Bash):
 
 `clear`

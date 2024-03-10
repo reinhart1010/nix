@@ -2,8 +2,8 @@
 layout: page
 title: common/sudo (polski)
 description: "Wykonuje pojedyncze polecenie jako superuser lub inny użytkownik."
-content_hash: 2e2606ac42a19a4fe11beecd6482fcd1c06cf689
-last_modified_at: 2023-11-12
+content_hash: 84227531f5ce5f86007156d6dca33894a8cb044f
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/sudo.html
@@ -39,7 +39,7 @@ Więcej informacji: <https://www.sudo.ws/sudo.html>.
 
 `sudo -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uzytkownik</span>` -g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupa</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id -a</span>
 
-- Powtórz ostatnie polecenie poprzedzone `sudo` (tylko w `bash`, `zsh`, etc.):
+- Powtórz ostatnie polecenie poprzedzone `sudo` (tylko w Bash, Zsh, etc.):
 
 `sudo !!`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/sudo (français)
 description: "Exécute une commande unique en tant que super-utilisateur (super-user) ou un autre utilisateur."
-content_hash: e1018046c443a058c4dac9be0bc5bc8cdc949d57
-last_modified_at: 2023-11-12
+content_hash: 5de28d934d603888c834ad0a1157527b6a3dcb22
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/sudo.html
@@ -36,7 +36,7 @@ Plus d'informations : <https://www.sudo.ws/sudo.html>.
 
 `sudo --user=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span>` --group=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groupe</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id -a</span>
 
-- Répéte la dernière commande préfixée de `sudo` (uniquement dans `bash`, `zsh`, etc.) :
+- Répéte la dernière commande préfixée de `sudo` (uniquement dans Bash, Zsh, etc.) :
 
 `sudo !!`
 

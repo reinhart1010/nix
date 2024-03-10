@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (italiano)
 description: "Bourne-Again SHell."
-content_hash: cfc253da14478450c1379f1d39feebc187805b96
-last_modified_at: 2023-12-29
+content_hash: 8cc340ef4d3a78a771aff876eef82fa30f1b3dbe
+last_modified_at: 2024-03-10
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -63,6 +63,6 @@ Maggiori informazioni: <https://www.gnu.org/software/bash/>.
 
 `bash -s`
 
-- Stampa informazioni sulla versione di bash (usa `echo $BASH_VERSION` per mostrare solo la versione):
+- Stampa informazioni sulla versione di Bash (usa `echo $BASH_VERSION` per mostrare solo la versione):
 
 `bash --version`

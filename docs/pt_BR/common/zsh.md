@@ -2,8 +2,8 @@
 layout: page
 title: common/zsh (português (Brasil))
 description: "Z SHell, um interpretador de linha de comando compatível com o Bash."
-content_hash: 5535312339139346662af513009489e59e909f15
-last_modified_at: 2023-11-12
+content_hash: d03c5201834e8affbdd55505925e4ea6b766b4ed
+last_modified_at: 2024-03-10
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -62,6 +62,6 @@ Mais informações: <https://www.zsh.org>.
 
 `zsh --verbose`
 
-- Executa um comando específico dentro do `zsh` com padrões glob desativados:
+- Executa um comando específico dentro do Zsh com padrões glob desativados:
 
 `noglob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>

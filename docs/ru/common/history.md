@@ -2,8 +2,8 @@
 layout: page
 title: common/history (русский)
 description: "История командной строки."
-content_hash: aa7d78f2cb5c6f9519ee99528d387f62b9cf43b4
-last_modified_at: 2023-11-12
+content_hash: 269704d3287130c6cba065b98af111d1b809270f
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -34,15 +34,15 @@ tldri18n_status: 2
 
 `history`
 
-- Отобразить последние 20 команд (в `zsh` отображает все команды, начиная с 20-й):
+- Отобразить последние 20 команд (в Zsh отображает все команды, начиная с 20-й):
 
 `history `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>
 
-- Очистить список истории команд (только для текущей оболочки `bash`):
+- Очистить список истории команд (только для текущей оболочки Bash):
 
 `history -c`
 
-- Перезаписать файл истории историей текущей оболочки `bash` (часто комбинируется с `history -c` для очистки истории):
+- Перезаписать файл истории историей текущей оболочки Bash (часто комбинируется с `history -c` для очистки истории):
 
 `history -w`
 

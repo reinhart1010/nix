@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (한국어)
 description: "Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터."
-content_hash: 8812ee75bf4b07787dc38cdbc753754ca4607530
-last_modified_at: 2023-12-29
+content_hash: faf06b73c069985f29710e5a2a24aebb3553b2d6
+last_modified_at: 2024-03-10
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -67,6 +67,6 @@ Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터.
 
 `bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/script.sh</span>
 
-- `stdin`에서 bash 실행하기:
+- `stdin`에서 Bash 실행하기:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'bash가 실행되었습니다'"</span>` | bash`

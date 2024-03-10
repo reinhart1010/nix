@@ -2,8 +2,8 @@
 layout: page
 title: common/history (日本語)
 description: "コマンドラインの履歴です。"
-content_hash: 6d340509f20e3399fdf0c84d07b73fbcf7136a4c
-last_modified_at: 2023-11-12
+content_hash: f5557d190942a15ca1010a045effd6fe728eb149
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -34,15 +34,15 @@ tldri18n_status: 2
 
 `history`
 
-- 直近の20個のコマンドを表示する (`zsh` では20個目から始まるすべてのコマンドを表示する):
+- 直近の20個のコマンドを表示する (Zsh では20個目から始まるすべてのコマンドを表示する):
 
 `history `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>
 
-- コマンド履歴のリストを消去する (現在の `bash` シェルに対してのみ):
+- コマンド履歴のリストを消去する (現在の Bash シェルに対してのみ):
 
 `history -c`
 
-- コマンド履歴ファイルを現在の `bash` シェルのコマンド履歴で上書きする (履歴を削除するために `history -c` と組み合わせることがよくあります):
+- コマンド履歴ファイルを現在の Bash シェルのコマンド履歴で上書きする (履歴を削除するために `history -c` と組み合わせることがよくあります):
 
 `history -w`
 

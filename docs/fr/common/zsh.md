@@ -2,8 +2,8 @@
 layout: page
 title: common/zsh (français)
 description: "Z SHell, un interpréteur de ligne de commande compatible avec Bash."
-content_hash: fe9b6dcd06a10d85d69c49b3b039e08e2f49e2fe
-last_modified_at: 2023-11-12
+content_hash: a5f6e95e26c60e8fb2d0411c04a6fabbce8cafc0
+last_modified_at: 2024-03-10
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -57,6 +57,6 @@ Plus d'informations : <https://www.zsh.org>.
 
 `zsh --verbose`
 
-- Exécute une commande spécifique dans `zsh` sans motifs génériques d'expansion des noms de fichier :
+- Exécute une commande spécifique dans Zsh sans motifs génériques d'expansion des noms de fichier :
 
 `noglob "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`

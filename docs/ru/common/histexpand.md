@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/histexpand (русский)
-description: "Повторное использование и подстановка команд из списка истории в `sh`, `bash`, `zsh`, `rbash` and `ksh`."
-content_hash: e40fcbe7f84d126c34935c225701e76410db162c
-last_modified_at: 2023-11-12
+description: "Повторное использование и подстановка команд из списка истории в `sh`, Bash, Zsh, `rbash` and `ksh`."
+content_hash: a8015151c89d6a0d6cb6dcd0845f314ede79c6a1
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/histexpand.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # history expansion
 
-Повторное использование и подстановка команд из списка истории в `sh`, `bash`, `zsh`, `rbash` and `ksh`.
+Повторное использование и подстановка команд из списка истории в `sh`, Bash, Zsh, `rbash` and `ksh`.
 Больше информации: <https://www.gnu.org/software/bash/manual/html_node/History-Interaction>.
 
 - Запустить предыдущую команду от имени суперпользователя (`!!` заменяется на предыдущую команду):

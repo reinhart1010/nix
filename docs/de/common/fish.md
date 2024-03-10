@@ -2,14 +2,17 @@
 layout: page
 title: common/fish (Deutsch)
 description: "The Friendly Interactive SHell."
-content_hash: 36f1f4993439a07073c2690231546c01ddd2f816
-last_modified_at: 2023-11-12
+content_hash: b1b68caeccd3fff65138c4cecdd167efaaa4af46
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/fish.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/fish.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/fish.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -42,7 +45,7 @@ Weitere Informationen: <https://fishshell.com>.
 
 `fish --no-execute `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/skript.fish</span>
 
-- Starte eine private, interaktive Shell-Sitzung, in der `fish` weder auf die Shell-History zugreift, noch diese verändert:
+- Starte eine private, interaktive Shell-Sitzung, in der fish weder auf die Shell-History zugreift, noch diese verändert:
 
 `fish --private`
 

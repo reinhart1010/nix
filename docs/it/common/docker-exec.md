@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-exec (italiano)
 description: "Esegui un comando su un Docker container in esecuzione."
-content_hash: e813bd291dc22664358390d2100c2c6c841b8d86
-last_modified_at: 2023-12-30
+content_hash: 24ce2c66b868f1916308619a5e1b25c292a7b783
+last_modified_at: 2024-03-10
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -43,7 +43,7 @@ Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/exe
 
 `docker exec --interactive --detach `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Imposta una variabile d'ambiente in una sessione bash in esecuzione:
+- Imposta una variabile d'ambiente in una sessione Bash in esecuzione:
 
 `docker exec --interactive --tty --env `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_variabile</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valore</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/bash</span>
 

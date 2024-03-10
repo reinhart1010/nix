@@ -2,8 +2,8 @@
 layout: page
 title: common/omz (Deutsch)
 description: "Oh My Zsh Kommandozeilenwerkzeug."
-content_hash: 25a2861fe9d405bb0316a43450df9d539e4ebbe0
-last_modified_at: 2023-11-12
+content_hash: 4e892d38bba6464e45e51242a4c34315cdf72bd3
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/omz.html
@@ -23,7 +23,7 @@ Weitere Informationen: <https://github.com/ohmyzsh/ohmyzsh>.
 
 `omz changelog`
 
-- Starte die aktuelle zsh-Sitzung und Oh My Zsh neu:
+- Starte die aktuelle Zsh-Sitzung und Oh My Zsh neu:
 
 `omz reload`
 

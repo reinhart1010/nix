@@ -2,8 +2,8 @@
 layout: page
 title: common/open.fish (Nederlands)
 description: "Opent bestanden, mappen en URI's met standaardtoepassingen."
-content_hash: c9bacf79b118b02817279d8198bd5d5ecbe63e01
-last_modified_at: 2023-11-12
+content_hash: 02d2e631011ac9c708271ace62b69675a426d6d9
+last_modified_at: 2024-03-10
 related_topics:
   - title: English version
     url: /en/common/open.fish.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # open
 
 Opent bestanden, mappen en URI's met standaardtoepassingen.
-Deze commando is beschikbaar via `fish` op besturingssystemen zonder het ingebouwde `open`-commando (bijv. Haiku en macOS).
+Deze commando is beschikbaar via fish op besturingssystemen zonder het ingebouwde `open`-commando (bijv. Haiku en macOS).
 Meer informatie: <https://fishshell.com/docs/current/cmds/open.html>.
 
 - Open een bestand met de bijbehorende applicatie:

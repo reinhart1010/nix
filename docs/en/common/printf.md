@@ -2,8 +2,8 @@
 layout: page
 title: common/printf (English)
 description: "Format and print text."
-content_hash: 1b1ffdf31524df68b77130430db7bcbbcdb8f223
-last_modified_at: 2024-03-03
+content_hash: ce823fdfeafde894fca676d59130c6505583ac1c
+last_modified_at: 2024-03-10
 tldri18n_status: 2
 ---
 # printf
@@ -27,7 +27,7 @@ More information: <https://www.gnu.org/software/coreutils/printf>.
 
 `printf "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">var1: %s\tvar2: %s\n</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$VAR1</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$VAR2</span>`"`
 
-- Store a formatted message in a variable (does not work on zsh):
+- Store a formatted message in a variable (does not work on Zsh):
 
 `printf -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myvar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"This is %s = %d\n" "a year" 2016</span>
 

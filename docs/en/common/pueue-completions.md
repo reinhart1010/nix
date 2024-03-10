@@ -2,8 +2,8 @@
 layout: page
 title: common/pueue-completions (English)
 description: "Generates shell completion files for Bash, Elvish, Fish, PowerShell, and Zsh."
-content_hash: 0d56f04d2c7df2856f8444c4be2c12d6ed913d28
-last_modified_at: 2023-11-12
+content_hash: 04f4eb6e9576bd2859acf9286b3276fd8bc721f5
+last_modified_at: 2024-03-10
 tldri18n_status: 2
 ---
 # pueue completions
@@ -15,7 +15,7 @@ More information: <https://github.com/Nukesor/pueue>.
 
 `sudo pueue completions bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/share/bash-completion/completions/pueue.bash</span>
 
-- Generate completions for zsh:
+- Generate completions for Zsh:
 
 `sudo pueue completions zsh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/share/zsh/site-functions</span>
 

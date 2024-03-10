@@ -2,8 +2,8 @@
 layout: page
 title: common/sudo (English)
 description: "Executes a single command as the superuser or another user."
-content_hash: 46d0db7b5395698d0b70c407a3f9128941db5927
-last_modified_at: 2023-11-12
+content_hash: 049cbb774286f9e35a6c39b0406a168f8caa157f
+last_modified_at: 2024-03-10
 related_topics:
   - title: français version
     url: /fr/common/sudo.html
@@ -36,7 +36,7 @@ More information: <https://www.sudo.ws/sudo.html>.
 
 `sudo --user=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>` --group=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id -a</span>
 
-- Repeat the last command prefixed with `sudo` (only in `bash`, `zsh`, etc.):
+- Repeat the last command prefixed with `sudo` (only in Bash, Zsh, etc.):
 
 `sudo !!`
 

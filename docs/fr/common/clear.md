@@ -2,8 +2,8 @@
 layout: page
 title: common/clear (français)
 description: "Efface l'écran du terminal."
-content_hash: 52b7c6a757d903dbe6c80a89f851f6c5b0ada7b4
-last_modified_at: 2023-11-12
+content_hash: 22581236f1ecf8e4ea895590903aa1b2a1ca6b7c
+last_modified_at: 2024-03-10
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -39,7 +39,7 @@ tldri18n_status: 2
 Efface l'écran du terminal.
 Plus d'informations : <https://manned.org/clear>.
 
-- Effacer l'écran (identique à la séquence Contrôle-L sur une interface bash) :
+- Effacer l'écran (identique à la séquence Contrôle-L sur une interface Bash) :
 
 `clear`
 

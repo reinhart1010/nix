@@ -2,8 +2,8 @@
 layout: page
 title: common/zsh (русский)
 description: "Z SHell — командный интерпретатор, совместимый с Bash."
-content_hash: 1e586e1808999f059fdcc8f37dbf0b6d538cc773
-last_modified_at: 2023-11-12
+content_hash: 13e8e8d789dd85ba377c85ad86ff160ae8b80178
+last_modified_at: 2024-03-10
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -57,6 +57,6 @@ Z SHell — командный интерпретатор, совместимы�
 
 `zsh --verbose`
 
-- Выполнить определённую команду внутри `zsh` с отключёнными glob-шаблонами:
+- Выполнить определённую команду внутри Zsh с отключёнными glob-шаблонами:
 
 `noglob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">команда</span>
