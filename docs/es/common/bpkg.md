@@ -3,23 +3,14 @@ layout: page
 title: common/bpkg (español)
 description: "Un gestor de paquetes para scripts Bash."
 content_hash: f7aacda475fe8e0626139e84310da8dd49d5f001
-last_modified_at: 2024-03-11
+last_modified_at: 2024-03-12
 related_topics:
   - title: English version
     url: /en/common/bpkg.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bpkg.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bpkg
+# bpkg
 
 Un gestor de paquetes para scripts Bash.
 Más información: <https://github.com/bpkg/bpkg>.

@@ -2,8 +2,8 @@
 layout: page
 title: common/expand (italiano)
 description: "Converti caratteri tab in spazi."
-content_hash: e83e0b2f4097a652cad6b76723eb6562692ec548
-last_modified_at: 2023-11-12
+content_hash: b25bd0757279cba7d8d96eb832d96a3f822c03bc
+last_modified_at: 2024-03-12
 related_topics:
   - title: English version
     url: /en/common/expand.html
@@ -29,8 +29,8 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/expand>.
 
 - Sostituisci i tab con un determinato numero di spazi, non 8 (default):
 
-`expand -t=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_spazi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`expand -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_spazi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
 
 - Utilizza una lista separata da virgole di posizioni esplicite di tab:
 
-`expand -t=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,4,6</span>
+`expand -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,4,6</span>
