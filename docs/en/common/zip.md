@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/zip (English)
-description: "Package and compress (archive) files into `zip` archive."
-content_hash: 7753e00b72541c542760f186df14c65df96bc1fb
-last_modified_at: 2024-02-09
+description: "Package and compress (archive) files into a Zip archive."
+content_hash: 9f02d30924d313d072f982032f41a9a325bbf26f
+last_modified_at: 2024-03-14
 related_topics:
   - title: français version
     url: /fr/common/zip.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # zip
 
-Package and compress (archive) files into `zip` archive.
+Package and compress (archive) files into a Zip archive.
 See also: `unzip`.
 More information: <https://manned.org/zip>.
 
@@ -45,7 +45,7 @@ More information: <https://manned.org/zip>.
 
 `zip -r -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 
-- Archive files/directories to a multi-part [s]plit `zip` archive (e.g. 3 GB parts):
+- Archive files/directories to a multi-part [s]plit Zip archive (e.g. 3 GB parts):
 
 `zip -r -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3g</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 

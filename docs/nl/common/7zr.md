@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (Nederlands)
 description: "Bestandsarchiver met een hoge compressieverhouding."
-content_hash: 5128ac94dc64693d0705345467b54d44de74446d
-last_modified_at: 2023-12-01
+content_hash: 602b1b0374cb87492bbea41ed8e587e6265bf68e
+last_modified_at: 2024-03-14
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # 7zr
 
 Bestandsarchiver met een hoge compressieverhouding.
-Vergelijkbaar met `7z`, behalve dat het alleen `.7z`-bestanden ondersteunt.
+Vergelijkbaar met `7z`, behalve dat het alleen 7z-bestanden ondersteunt.
 Meer informatie: <https://manned.org/7zr>.
 
 - Archiveer een bestand of map:

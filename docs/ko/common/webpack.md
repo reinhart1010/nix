@@ -2,8 +2,8 @@
 layout: page
 title: common/webpack (한국어)
 description: "웹 프로젝트의 자바스크립트 파일과 기타 리소스를 단일 출력 파일로 묶어줍니다."
-content_hash: 31cdc8b00760b27172e44e2510a4ce406d3a6179
-last_modified_at: 2023-11-12
+content_hash: 42e2d38d14d537067f930f4d5b90b6ce9e6acba2
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/webpack.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 
 `webpack `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app.js</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bundle.js</span>
 
-- 자바스크립트 파일에서도 CSS 파일을 로드 (이 경우 `.css` 파일에 CSS 로더를 사용합니다):
+- 자바스크립트 파일에서도 CSS 파일을 로드 (이 경우 CSS 파일에 CSS 로더를 사용합니다):
 
 `webpack `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app.js</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bundle.js</span>` --module-bind '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">css=css</span>`'`
 

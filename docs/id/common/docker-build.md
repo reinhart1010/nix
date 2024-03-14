@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (Indonesia)
 description: "Bangun sebuah image dari Dockerfile."
-content_hash: e0fdbd3c100231d251a0dfb6130dc390770ae462
-last_modified_at: 2023-11-12
+content_hash: 6374a7c8553a57c9c8e8ef5e9a43a3816efda601
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -39,19 +39,19 @@ tldri18n_status: 2
 Bangun sebuah image dari Dockerfile.
 Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/build/>.
 
-- Bangun sebuah image docker meggunakan Dockerfile dalam direktori saat ini:
+- Bangun sebuah image Docker meggunakan Dockerfile dalam direktori saat ini:
 
 `docker build .`
 
-- Bangun sebuah docker image dari Dockerfile dengan menggunakan URL yang spesifik:
+- Bangun sebuah Docker image dari Dockerfile dengan menggunakan URL yang spesifik:
 
 `docker build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github.com/creack/docker-firefox</span>
 
-- Bangun sebuah docker image dengan tag tertentu:
+- Bangun sebuah Docker image dengan tag tertentu:
 
 `docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama:tag</span>` .`
 
-- Bangun sebuah docker image tanpa konteks pembangunan:
+- Bangun sebuah Docker image tanpa konteks pembangunan:
 
 `docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama:tag</span>` - < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span>
 
@@ -59,10 +59,10 @@ Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/bu
 
 `docker build --no-cache --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama:tag</span>` .`
 
-- Bangun sebuah docker image dengan Dockerfile tertentu:
+- Bangun sebuah Docker image dengan Dockerfile tertentu:
 
 `docker build --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span>` .`
 
-- Bangun sebuah docker image dengan variabel lingkungan tertentu:
+- Bangun sebuah Docker image dengan variabel lingkungan tertentu:
 
 `docker build --build-arg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HTTP_PROXY=http://10.20.30.2:1234</span>` --build-arg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FTP_PROXY=http://40.50.60.5:4567</span>` .`

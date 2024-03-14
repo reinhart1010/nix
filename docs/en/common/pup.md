@@ -2,8 +2,8 @@
 layout: page
 title: common/pup (English)
 description: "Command-line HTML parsing tool."
-content_hash: 64328a228c0a8a3816da3d7200ad520488d10ab5
-last_modified_at: 2023-11-12
+content_hash: e70cc14ab06b51c6be5e8a7f89347d89ca7849e9
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # pup
@@ -19,7 +19,7 @@ More information: <https://github.com/ericchiang/pup>.
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index.html</span>` | pup '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span>`'`
 
-- Filter HTML by id:
+- Filter HTML by ID:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index.html</span>` | pup '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">div#id</span>`'`
 

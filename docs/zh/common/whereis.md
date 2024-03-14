@@ -2,8 +2,8 @@
 layout: page
 title: common/whereis (中文)
 description: "找到命令的二进制，源文件和手册文件。"
-content_hash: f36d236f2f68d85d3ac4541e4d39caa22e0da8a6
-last_modified_at: 2023-11-12
+content_hash: 723ad7540f8631e4610e17fedca32455b9e3237d
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/whereis.html
@@ -21,7 +21,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 找到命令的二进制，源文件和手册文件。
 更多信息：<https://manned.org/whereis>.
 
-- 找到 `ssh` 命令的二进制、源文件和手册页：
+- 找到 SSH 命令的二进制、源文件和手册页：
 
 `whereis `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh</span>
 

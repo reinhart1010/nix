@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (English)
 description: "File archiver with a high compression ratio."
-content_hash: aff444345ecbac8b147ab7408c764e52830c615b
-last_modified_at: 2023-11-30
+content_hash: 4f59a4b856994a7477b03f4d919d55aa7063dd93
+last_modified_at: 2024-03-14
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # 7zr
 
 File archiver with a high compression ratio.
-Similar to `7z` except that it only supports `.7z` files.
+Similar to `7z` except that it only supports 7z files.
 More information: <https://manned.org/7zr>.
 
 - [a]rchive a file or directory:

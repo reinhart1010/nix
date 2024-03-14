@@ -2,8 +2,8 @@
 layout: page
 title: linux/dolphin (português (Brasil))
 description: "Gerenciador de arquivos do KDE."
-content_hash: 05d13d7266c60a58836c370f121b169581315658
-last_modified_at: 2024-01-10
+content_hash: c714f16be9c8f608c725097da5aaabd9cee47f8a
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/linux/dolphin.html
@@ -35,7 +35,7 @@ Mais informações: <https://apps.kde.org/dolphin/>.
 
 `dolphin --split `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio2</span>
 
-- Inicializa o daemon do Dolphin (necessário apenas para usar a interface do DBus):
+- Inicializa o daemon do Dolphin (necessário apenas para usar a interface do D-Bus):
 
 `dolphin --daemon`
 

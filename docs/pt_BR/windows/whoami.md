@@ -2,8 +2,8 @@
 layout: page
 title: windows/whoami (português (Brasil))
 description: "Mostra detalhes sobre o usuário atual."
-content_hash: e3f8b29c8ada1a752d36cc3d3d74ba97dea76cac
-last_modified_at: 2023-11-12
+content_hash: 74137155df36040bf7ad7ae11501363a447d5145
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/windows/whoami.html
@@ -52,6 +52,6 @@ Mais informações: <https://learn.microsoft.com/windows-server/administration/w
 
 `whoami /upn`
 
-- Mostra o id de logon do usuário atual:
+- Mostra o ID de logon do usuário atual:
 
 `whoami /logonid`

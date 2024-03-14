@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/sshuttle (中文)
-description: "通过 ssh 连接传输流量的透明代理服务器。"
-content_hash: 478ebaeaf8f30763af34741ba4bafe0c53944f7f
-last_modified_at: 2023-11-12
+description: "通过 SSH 连接传输流量的透明代理服务器。"
+content_hash: 0e3c2f83eda08cca10268854d16b625aa1732beb
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/sshuttle.html
@@ -15,11 +15,11 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># sshuttle
 
-通过 ssh 连接传输流量的透明代理服务器。
-不需要管理员或远程 ssh 服务器上的任何特殊设置。
+通过 SSH 连接传输流量的透明代理服务器。
+不需要管理员或远程 SSH 服务器上的任何特殊设置。
 更多信息：<https://manned.org/sshuttle>.
 
-- 通过远程 ssh 服务器转发所有 IPv4 TCP 流量：
+- 通过远程 SSH 服务器转发所有 IPv4 TCP 流量：
 
 `sshuttle --remote=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">服务器名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0.0.0/0</span>
 

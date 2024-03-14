@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh-add (中文)
 description: "在 ssh 代理中管理加载的 ssh 密钥。"
-content_hash: 4aed6481e0efe0ce17fdab6df66683cf8a103667
-last_modified_at: 2023-11-12
+content_hash: a4d93692125b7afb7024ccf2380175118b80ab01
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/ssh-add.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 需要确保 ssh 代理已启动并正在运行以加载其中的密钥。
 更多信息：<https://man.openbsd.org/ssh-add>.
 
-- 将 `~/.ssh` 中的默认 ssh 密钥添加到 `ssh` 代理：
+- 将 `~/.ssh` 中的默认 SSH 密钥添加到 SSH 代理：
 
 `ssh-add`
 

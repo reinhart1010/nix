@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-ecr (français)
 description: "Pousse, récupère et gère les images de conteneur."
-content_hash: 862acc94d45c55d233b24e5731f9df03a95e0843
-last_modified_at: 2023-11-12
+content_hash: ccfb59d3dce488aea96531fcc5bd220da2b80ef8
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/aws-ecr.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 Pousse, récupère et gère les images de conteneur.
 Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html>.
 
-- Connecte docker avec le registre par défaut (le nom d'utilisateur est AWS) :
+- Connecte Docker avec le registre par défaut (le nom d'utilisateur est AWS) :
 
 `aws ecr get-login-password --region `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">région</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker login</span>` --username AWS --password-stdin `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_de_compte_aws</span>`.dkr.ecr.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">région</span>`.amazonaws.com`
 

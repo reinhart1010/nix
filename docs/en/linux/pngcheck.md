@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/pngcheck (English)
-description: "Forensics tool for validating the integrity of PNG based (`.png`, `.jng`, `.mng`) image files."
-content_hash: 44e8c426ea561fff99e233fee3f3d75f1157f6ae
-last_modified_at: 2023-11-12
+description: "Forensics tool for validating the integrity of PNG based (PNG, JNG, MNG) image files."
+content_hash: eba569cad0701958a7c6e1e586b2bf0d5b2dc7b1
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # pngcheck
 
-Forensics tool for validating the integrity of PNG based (`.png`, `.jng`, `.mng`) image files.
+Forensics tool for validating the integrity of PNG based (PNG, JNG, MNG) image files.
 Can also extract embedded images and text from a file.
 More information: <http://www.libpng.org/pub/png/apps/pngcheck.html>.
 

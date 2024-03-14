@@ -2,8 +2,8 @@
 layout: page
 title: common/autossh (português (Brasil))
 description: "Executa, monitora e reinicia conexões SSH."
-content_hash: efc17410535ece2c3ad06f6114bfdd155b1ad66c
-last_modified_at: 2023-12-28
+content_hash: b4f23e309861f20841add9338ab791e317bed869
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/autossh.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # autossh
 
 Executa, monitora e reinicia conexões SSH.
-Reconecta automaticamente para manter os túneis de redirecionamento de porta ativos. Aceita todas as flags do `ssh`.
+Reconecta automaticamente para manter os túneis de redirecionamento de porta ativos. Aceita todas as flags do SSH.
 Mais informações: <https://www.harding.motd.ca/autossh>.
 
 - Inicia uma sessão SSH, reiniciando quando uma porta de monitoramento falhar em retornar dados:
@@ -36,7 +36,7 @@ Mais informações: <https://www.harding.motd.ca/autossh>.
 
 `autossh -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_de_monitoramento</span>` -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_local</span>`:localhost:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_remota</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Executa o `autossh` em segundo plano antes de executar o `ssh` e não abrir um shell remoto:
+- Executa o `autossh` em segundo plano antes de executar o SSH e não abrir um shell remoto:
 
 `autossh -f -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_de_monitoramento</span>` -N "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span>`"`
 
@@ -48,6 +48,6 @@ Mais informações: <https://www.harding.motd.ca/autossh>.
 
 `autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_local</span>`:localhost:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_remota</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Executa em segundo plano, registrando a saída de depuração do `autossh` e a saída detalhada do `ssh` em arquivos:
+- Executa em segundo plano, registrando a saída de depuração do `autossh` e a saída detalhada do SSH em arquivos:
 
 `AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_log_do_autossh.log</span>` autossh -f -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_de_monitoramento</span>` -v -E `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_log_do_ssh.log</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span>

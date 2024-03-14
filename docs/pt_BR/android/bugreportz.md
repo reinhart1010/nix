@@ -1,9 +1,9 @@
 ---
 layout: page
 title: android/bugreportz (português (Brasil))
-description: "Gera um relatório de bugs do Android em formato .zip."
-content_hash: caaa1a4c8b364ee921fb414ea7d5d5579d2ee9ba
-last_modified_at: 2023-11-12
+description: "Gera um relatório de bugs do Android em formato Zip."
+content_hash: 6d89a51424f0426737d5b255d81308fcefa868cb
+last_modified_at: 2024-03-14
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -66,11 +69,11 @@ tldri18n_status: 2
 ---
 # bugreportz
 
-Gera um relatório de bugs do Android em formato .zip.
+Gera um relatório de bugs do Android em formato Zip.
 Esse comando só pode ser utilizado por meio de  `adb shell`.
 Mais informações: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
-- Mostra um relatório completo de bugs de um dispositivo Android em formato .zip:
+- Mostra um relatório completo de bugs de um dispositivo Android em formato Zip:
 
 `bugreportz`
 

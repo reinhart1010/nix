@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (Türkçe)
 description: "Bir Dockerfile'dan imge yaratın."
-content_hash: 247fd84aafebc11a5a985e1300793390897aa31b
-last_modified_at: 2023-11-12
+content_hash: 9cd898cf36c25ebeb1c046b47ae4d9338753591b
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -42,15 +42,15 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Bir Dockerfile'dan imge yaratın.
 Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/build/>.
 
-- Mevcut dizindeki Dockerfile'dan bir docker imgesi oluşturun:
+- Mevcut dizindeki Dockerfile'dan bir Docker imgesi oluşturun:
 
 `docker build .`
 
-- Belirtilen URL'deki Dockerfile'dan bir docker imgesi oluşturun:
+- Belirtilen URL'deki Dockerfile'dan bir Docker imgesi oluşturun:
 
 `docker build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ornekadres.com/ornek-dizin/ornek-docker-projesi</span>
 
-- Bir docker imgesi oluşturun ve etiketleyin:
+- Bir Docker imgesi oluşturun ve etiketleyin:
 
 `docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">isim:etiket</span>` .`
 
@@ -58,7 +58,7 @@ Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/bu
 
 `docker build --no-cache --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">isim:etiket</span>` .`
 
-- Belirtilen Dockerfile ile bir docker imgesi oluşturun:
+- Belirtilen Dockerfile ile bir Docker imgesi oluşturun:
 
 `docker build --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span>` .`
 

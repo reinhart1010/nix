@@ -2,8 +2,8 @@
 layout: page
 title: common/qcp (English)
 description: "Copy files using the default text editor to define the filenames."
-content_hash: 550a63155e7431accc63a5a860700f28a9166968
-last_modified_at: 2023-11-12
+content_hash: d7f5a62f89bebacac0ce3abf8939e8e3f92af3aa
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # qcp
@@ -15,7 +15,7 @@ More information: <https://www.nongnu.org/renameutils/>.
 
 `qcp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file</span>
 
-- Copy multiple JPG files:
+- Copy multiple JPEG files:
 
 `qcp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span>
 

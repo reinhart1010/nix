@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/az-sshkey (English)
-description: "Manage ssh public keys with virtual machines."
-content_hash: b1e0145a2aadad129ead0865a456b54027dbbc31
-last_modified_at: 2023-11-12
+description: "Manage SSH public keys with virtual machines."
+content_hash: e5fbf2d92b3585446b8457946bcc070bc0b5ed25
+last_modified_at: 2024-03-14
 related_topics:
   - title: español version
     url: /es/common/az-sshkey.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # az sshkey
 
-Manage ssh public keys with virtual machines.
+Manage SSH public keys with virtual machines.
 Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/sshkey>.
 

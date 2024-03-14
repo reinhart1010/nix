@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-container (English)
 description: "Manage Docker containers."
-content_hash: 065eec51fc1732a534e6968be525277f97b1c1bd
-last_modified_at: 2024-01-30
+content_hash: 8d6544ac4adcb467bab9127f00321d0ecc072b08
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-container.html
@@ -51,7 +51,7 @@ More information: <https://docs.docker.com/engine/reference/commandline/containe
 
 `docker container inspect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
 
-- Export a container's filesystem as a `tar` archive:
+- Export a container's filesystem as a tar archive:
 
 `docker container export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
 

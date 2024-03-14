@@ -2,14 +2,14 @@
 layout: page
 title: linux/rexec (English)
 description: "Execute a command on a remote host."
-content_hash: 5c90c1a07b37f1679ae25754d02ea13be6264c07
-last_modified_at: 2023-11-26
+content_hash: 726c724248e6a4a4869530f2dea8fba78ef75fdc
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # rexec
 
 Execute a command on a remote host.
-Note: Use `rexec` with caution, as it transmits data in plain text. Consider secure alternatives like `ssh` for encrypted communication.
+Note: Use `rexec` with caution, as it transmits data in plain text. Consider secure alternatives like SSH for encrypted communication.
 More information: <https://www.gnu.org/software/inetutils/manual/html_node/rexec-invocation.html>.
 
 - Execute a command on a remote [h]ost:

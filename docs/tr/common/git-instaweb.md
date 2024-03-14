@@ -2,8 +2,8 @@
 layout: page
 title: common/git-instaweb (Türkçe)
 description: "gitweb sunucusu başlatmak için yardımcı araç."
-content_hash: e0665b5a9ada15eecb52bd0efe91807cee2b1904
-last_modified_at: 2023-11-12
+content_hash: 61d520295909812e31a0a60bb8715da540666801
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/git-instaweb.html
@@ -33,7 +33,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-instaweb>.
 
 `git instaweb --start --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span>
 
-- Belirtilmiş bir http daemon'u kullan:
+- Belirtilmiş bir HTTP daemon'u kullan:
 
 `git instaweb --start --httpd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lighttpd|apache2|mongoose|plackup|webrick</span>
 

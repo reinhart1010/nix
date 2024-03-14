@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/pw-cat (português (Brasil))
-description: "Toca e grava arquivos de áudio através do pipewire."
-content_hash: 5baaa679fffb96494594fa26e6cd947dc0e0a0b9
-last_modified_at: 2023-12-22
+description: "Toca e grava arquivos de áudio através do PipeWire."
+content_hash: 3b763646896ece3dc799a59c2b5088d06cb7352a
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/linux/pw-cat.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # pw-cat
 
-Toca e grava arquivos de áudio através do pipewire.
+Toca e grava arquivos de áudio através do PipeWire.
 Mais informações: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 
 - Toca um arquivo WAV no alvo padrão:

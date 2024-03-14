@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apt-file (português (Brasil))
-description: "Buscador de arquivos nos pacotes apt, incluindo os não instalados."
-content_hash: 68f8e03f6c2376c465ab85ccfc9d7d935e9073a6
-last_modified_at: 2023-12-28
+description: "Buscador de arquivos nos pacotes APT, incluindo os não instalados."
+content_hash: 0b54211ae47913321b297484cefa8fa633f5cc30
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-file.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-file.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-file.html
@@ -36,7 +39,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># apt-file
 
-Buscador de arquivos nos pacotes apt, incluindo os não instalados.
+Buscador de arquivos nos pacotes APT, incluindo os não instalados.
 Mais informações: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
 - Atualiza as informações dos pacotes a partir de todos os repositórios remotos:

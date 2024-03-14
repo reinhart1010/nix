@@ -2,8 +2,8 @@
 layout: page
 title: linux/lsusb (italiano)
 description: "Visualizza le informazioni su i bus USB e i dispositivi a loro connessi."
-content_hash: 3182bdbc91adc953b7f7656446f0ce2c0299ae28
-last_modified_at: 2023-12-30
+content_hash: ea206c75f7aed2afa07cfe71d3698c2640aa5125
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/lsusb.html
@@ -39,6 +39,6 @@ Maggiori informazioni: <https://manned.org/lsusb>.
 
 `lsusb --verbose`
 
-- Elenca solamente i dispositivi con un certo id fornitore e id prodotto:
+- Elenca solamente i dispositivi con un certo id fornitore e ID prodotto:
 
 `lsusb -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fornitore</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prodotto</span>

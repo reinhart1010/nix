@@ -2,8 +2,8 @@
 layout: page
 title: common/podman-ps (English)
 description: "List Podman containers."
-content_hash: 449474979530f5533e8ba1dfebec77e49b2915b6
-last_modified_at: 2023-11-12
+content_hash: 5b15dee3db27cb2aa565e4ce05d233c69bef340d
+last_modified_at: 2024-03-14
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/podman-ps.html
@@ -15,11 +15,11 @@ tldri18n_status: 2
 List Podman containers.
 More information: <https://docs.podman.io/en/latest/markdown/podman-ps.1.html>.
 
-- List currently running podman containers:
+- List currently running Podman containers:
 
 `podman ps`
 
-- List all podman containers (running and stopped):
+- List all Podman containers (running and stopped):
 
 `podman ps --all`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/httpflow (English)
 description: "A command-line utility to capture and dump HTTP streams."
-content_hash: 0a23cf1250902c2385693ac75300177105f7acbc
-last_modified_at: 2023-11-12
+content_hash: 2325b19b881fe9927bca16a35393f7b195e5b849
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # httpflow
@@ -23,7 +23,7 @@ More information: <https://github.com/six-ddc/httpflow>.
 
 `httpflow -u '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span>`'`
 
-- Read packets from pcap format binary file:
+- Read packets from PCAP format binary file:
 
 `httpflow -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">out.cap</span>
 

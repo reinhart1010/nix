@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apt-file (polski)
-description: "Wyszukaj pliki w pakietach apt, w tym jeszcze nie zainstalowanych."
-content_hash: 048d8cf55a949f95e7e3c09c73838eab6590bd12
-last_modified_at: 2023-11-12
+description: "Wyszukaj pliki w pakietach APT, w tym jeszcze nie zainstalowanych."
+content_hash: d3627efe6de2de73801c9bacb7f8026e16b13f98
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -20,6 +20,9 @@ related_topics:
   - title: français version
     url: /fr/linux/apt-file.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-file.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-file.html
     icon: bi bi-globe
@@ -33,7 +36,7 @@ tldri18n_status: 2
 ---
 # apt-file
 
-Wyszukaj pliki w pakietach apt, w tym jeszcze nie zainstalowanych.
+Wyszukaj pliki w pakietach APT, w tym jeszcze nie zainstalowanych.
 Więcej informacji: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
 - Zaktualizuj bazę metadanych:

@@ -2,8 +2,8 @@
 layout: page
 title: linux/tftp (English)
 description: "Trivial File Transfer Protocol client."
-content_hash: db777116d12f3c32a248f4288a463e56b1639352
-last_modified_at: 2023-11-12
+content_hash: fc1b2a969a80da874bdfb1a93046a47e0c7885d1
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # tftp
@@ -23,7 +23,7 @@ More information: <https://manned.org/tftp.1>.
 
 `tftp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span>` -6 -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>
 
-- Set the transfer mode to binary or ascii through the tftp client:
+- Set the transfer mode to binary or ASCIi through the tftp client:
 
 `mode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">binary|ascii</span>
 

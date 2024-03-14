@@ -2,8 +2,8 @@
 layout: page
 title: common/git-init (English)
 description: "Initializes a new local Git repository."
-content_hash: 71969f6fe395e0ff7b9a3f68f16b716ffc09c01f
-last_modified_at: 2023-11-12
+content_hash: 301d9ca44b346b10b47655ef42599f867db7b193
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/git-init.html
@@ -45,6 +45,6 @@ More information: <https://git-scm.com/docs/git-init>.
 
 `git init --object-format=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha256</span>
 
-- Initialize a barebones repository, suitable for use as a remote over ssh:
+- Initialize a barebones repository, suitable for use as a remote over SSH:
 
 `git init --bare`

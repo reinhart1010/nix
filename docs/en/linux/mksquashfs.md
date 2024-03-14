@@ -2,8 +2,8 @@
 layout: page
 title: linux/mksquashfs (English)
 description: "Create or append files and directories to squashfs filesystems."
-content_hash: 8fbdd379cafe1d27b35692031251902fd256838b
-last_modified_at: 2023-11-12
+content_hash: 4c4b9955950005dad2ea5173480bc2064d4d042f
+last_modified_at: 2024-03-14
 related_topics:
   - title: polski version
     url: /pl/linux/mksquashfs.html
@@ -27,7 +27,7 @@ More information: <https://manned.org/mksquashfs>.
 
 `mksquashfs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem.squashfs</span>` -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file|directory1 file|directory2 ...</span>
 
-- Create or append files and directories to a squashfs filesystem, [e]xcluding those ending with `.gz`:
+- Create or append files and directories to a squashfs filesystem, [e]xcluding those ending with gzip:
 
 `mksquashfs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem.squashfs</span>` -wildcards -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.gz</span>`"`
 

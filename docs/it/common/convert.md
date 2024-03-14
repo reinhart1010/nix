@@ -2,8 +2,8 @@
 layout: page
 title: common/convert (italiano)
 description: "Strumento della suite immagineMagick per la conversione di immagini."
-content_hash: 98141928c00475cae4cd559433c1db197c5609bb
-last_modified_at: 2023-11-12
+content_hash: 83ea7c1390fd3af0dbea122863f7085e2126b5a4
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/convert.html
@@ -30,7 +30,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Strumento della suite immagineMagick per la conversione di immagini.
 Maggiori informazioni: <https://imagemagick.org/script/convert.php>.
 
-- Converti un'immagine da JPG a PNG:
+- Converti un'immagine da JPEG a PNG:
 
 `convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">immagine.jpg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">immagine.png</span>
 

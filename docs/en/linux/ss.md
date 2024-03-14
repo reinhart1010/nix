@@ -2,8 +2,8 @@
 layout: page
 title: linux/ss (English)
 description: "Utility to investigate sockets."
-content_hash: ba83e866442e1bbe2e89e8a37d5b37c26e8d4ed3
-last_modified_at: 2023-11-12
+content_hash: a633913a6a826c736b552601606372f91a15f3f8
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # ss
@@ -27,7 +27,7 @@ More information: <https://manned.org/ss.8>.
 
 `ss -lt src :`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span>
 
-- Show all TCP sockets along with processes connected to a remote ssh port:
+- Show all TCP sockets along with processes connected to a remote SSH port:
 
 `ss -pt dst :`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh</span>
 

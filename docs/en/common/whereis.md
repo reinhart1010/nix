@@ -2,8 +2,8 @@
 layout: page
 title: common/whereis (English)
 description: "Locate the binary, source, and manual page files for a command."
-content_hash: 6dd5ce2ede6ce161921e72bd311c4ab6c1365a27
-last_modified_at: 2023-11-12
+content_hash: 1694fdd2c9ce8be859dc3de107cd86cd1a72965b
+last_modified_at: 2024-03-14
 related_topics:
   - title: فارسی version
     url: /fa/common/whereis.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 Locate the binary, source, and manual page files for a command.
 More information: <https://manned.org/whereis>.
 
-- Locate binary, source and man pages for ssh:
+- Locate binary, source and man pages for SSH:
 
 `whereis `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh</span>
 

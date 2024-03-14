@@ -2,8 +2,8 @@
 layout: page
 title: linux/groupmod (English)
 description: "Modify existing user groups in the system."
-content_hash: 5ae8a480fde61d6251dc8c2032b4c4960422baaa
-last_modified_at: 2023-11-12
+content_hash: cf2238eb685939df1d6768ec6df67e5cad6c1882
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # groupmod
@@ -16,6 +16,6 @@ More information: <https://manned.org/groupmod>.
 
 `sudo groupmod --new-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_group</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span>
 
-- Change the group id:
+- Change the group ID:
 
 `sudo groupmod --gid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_id</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span>

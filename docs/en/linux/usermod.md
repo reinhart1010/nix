@@ -2,8 +2,8 @@
 layout: page
 title: linux/usermod (English)
 description: "Modifies a user account."
-content_hash: d61ebca4c9ef20e00e6a64934d46ddcfe5653838
-last_modified_at: 2023-11-12
+content_hash: daaaa8995960740e0314237b68a8a2f7bdaeeb8e
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/usermod.html
@@ -26,7 +26,7 @@ More information: <https://manned.org/usermod>.
 
 `sudo usermod --login `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_username</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
-- Change a user id:
+- Change a user ID:
 
 `sudo usermod --uid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 

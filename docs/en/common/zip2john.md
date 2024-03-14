@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/zip2john (English)
-description: "Extract password hashes from `zip` archives for use with John the Ripper password cracker."
-content_hash: 00b57e53b3bfc24a89188306f7789c924ad9e024
-last_modified_at: 2024-02-25
+description: "Extract password hashes from Zip archives for use with John the Ripper password cracker."
+content_hash: 89cbc071da13d7fdd121b26f205d7fada0bb360d
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # zip2john
 
-Extract password hashes from `zip` archives for use with John the Ripper password cracker.
+Extract password hashes from Zip archives for use with John the Ripper password cracker.
 This is a utility tool usually installed as part of the John the Ripper installation.
 More information: <https://www.openwall.com/john/>.
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apt-file (中文)
-description: "在 apt 软件包中查找文件，其中也包括未安装的软件。"
-content_hash: 72047e15784a70f87498ebfee5b1c4f0defa1622
-last_modified_at: 2023-11-12
+description: "在 APT 软件包中查找文件，其中也包括未安装的软件。"
+content_hash: 9c76ebf60dde448fe49bed11ded69947c5885d1f
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -20,6 +20,9 @@ related_topics:
   - title: français version
     url: /fr/linux/apt-file.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-file.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-file.html
     icon: bi bi-globe
@@ -33,7 +36,7 @@ tldri18n_status: 2
 ---
 # apt-file
 
-在 apt 软件包中查找文件，其中也包括未安装的软件。
+在 APT 软件包中查找文件，其中也包括未安装的软件。
 更多信息：<https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
 - 更新元数据的数据库：

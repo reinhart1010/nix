@@ -2,8 +2,8 @@
 layout: page
 title: common/whereis (فارسی)
 description: "پیداکردن فایل اجرایی، سورس، صفحه راهنما برای یک دستور."
-content_hash: 9863d960137787399ba4ba32bf49a13ee1c33993
-last_modified_at: 2023-11-12
+content_hash: a9807a79c2113f5cbd8ee72fdd66b88c13694e98
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/whereis.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 پیداکردن فایل اجرایی، سورس، صفحه راهنما برای یک دستور.
 اطلاعات بیشتر: <https://manned.org/whereis>.
 
-- پیداکردن فایل اجرایی، سورس و صفحه راهنما برای ssh:
+- پیداکردن فایل اجرایی، سورس و صفحه راهنما برای SSH:
 
 `whereis `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh</span>
 

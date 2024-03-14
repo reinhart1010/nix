@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (Nederlands)
 description: "Beheer Docker containers en images."
-content_hash: 390cff7ef3327695233773b6409f6a94ccbb5326
-last_modified_at: 2023-11-26
+content_hash: bfe1eccbc69a629b6553ff6180090a43b4cba0a3
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -49,7 +49,7 @@ Beheer Docker containers en images.
 Sommige subcommando's zoals `docker run` hebben hun eigen documentatie.
 Meer informatie: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Toon alle docker containers (actief en gestopte):
+- Toon alle Docker containers (actief en gestopte):
 
 `docker ps --all`
 
@@ -61,7 +61,7 @@ Meer informatie: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 `docker `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_naam</span>
 
-- Download een image uit een docker register:
+- Download een image uit een Docker register:
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-ps (Türkçe)
 description: "Docker konteynerlerini sırala."
-content_hash: d67cb2d4baf89d1ad9dd698ff034adbfe5c6a2fe
-last_modified_at: 2023-11-12
+content_hash: 323d429a40194e3f9ed4bc7340c96d936fa43dd9
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-ps.html
@@ -30,11 +30,11 @@ tldri18n_status: 2
 Docker konteynerlerini sırala.
 Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/ps/>.
 
-- Halihazırda çalışan docker konteynerlerini listele:
+- Halihazırda çalışan Docker konteynerlerini listele:
 
 `docker ps`
 
-- Tüm (durmuş veya çalışan) docker konteynerlerini listele:
+- Tüm (durmuş veya çalışan) Docker konteynerlerini listele:
 
 `docker ps --all`
 

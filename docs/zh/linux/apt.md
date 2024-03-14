@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (中文)
 description: "基于 Debian 的发行版上的软件包管理工具。"
-content_hash: 36732ab2bb89d640a58119ffa5f4f51dc02f9edc
-last_modified_at: 2023-11-12
+content_hash: 923273da572ec0e58d12d0667a8bb322ea2d2dae
+last_modified_at: 2024-03-14
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 在 Ubuntu 16.04 及之后版本推荐用它代替 `apt-get` 。
 更多信息：<https://manpages.debian.org/latest/apt/apt.8.html>.
 
-- 更新可用软件包及其版本列表（推荐在运行其他 apt 命令前首先运行该命令）：
+- 更新可用软件包及其版本列表（推荐在运行其他 APT 命令前首先运行该命令）：
 
 `sudo apt update`
 

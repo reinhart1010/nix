@@ -2,8 +2,8 @@
 layout: page
 title: linux/useradd (English)
 description: "Create a new user."
-content_hash: ca4959633d81bbbf6b0854bf9014cbe0bd1af989
-last_modified_at: 2023-11-12
+content_hash: 8804231ad37e2409daa4d13ac8db759ce14ae502
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/useradd.html
@@ -26,7 +26,7 @@ More information: <https://manned.org/useradd>.
 
 `sudo useradd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
-- Create a new user with the specified user id:
+- Create a new user with the specified user ID:
 
 `sudo useradd --uid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 

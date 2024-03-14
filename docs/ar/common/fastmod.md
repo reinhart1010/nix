@@ -2,8 +2,8 @@
 layout: page
 title: common/fastmod (العربية)
 description: "أداة للاستبدال الجزئي للنصوص في قاعدة الأكواد لديك."
-content_hash: 73cf2a4a12a208f73c5678a6b9e7a27b13da376d
-last_modified_at: 2024-01-05
+content_hash: 206728261943b34540687216f8594da686c12445
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/fastmod.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 
 `fastmod `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span>` --dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --iglob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'**/*.{js,json}'</span>
 
-- استبدال بالنص مُطابقةً (وليس التعبيرات النمطية)، في ملفات امتداداتهم إما js أو json فحسب:
+- استبدال بالنص مُطابقةً (وليس التعبيرات النمطية)، في ملفات امتداداتهم إما js أو JSON فحسب:
 
 `fastmod --fixed-strings `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exact_string</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span>` --extensions `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json,js</span>
 

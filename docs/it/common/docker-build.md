@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/docker-build (italiano)
-description: "Crea un'immagine a partire da un Dockerfile. La creazione di un'immagine docker è chiamata build."
-content_hash: 37dc484fd07a9cd40e02d036567db9ea41868b69
-last_modified_at: 2023-11-12
+description: "Crea un'immagine a partire da un Dockerfile. La creazione di un'immagine Docker è chiamata build."
+content_hash: b92c3db156e2d4c3d9bd75f6d4938074a3e77ab2
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -39,29 +39,29 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># docker build
 
-Crea un'immagine a partire da un Dockerfile. La creazione di un'immagine docker è chiamata build.
+Crea un'immagine a partire da un Dockerfile. La creazione di un'immagine Docker è chiamata build.
 Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/build/>.
 
-- Crea un'immagine docker usando il Dockerfile nella directory corrente:
+- Crea un'immagine Docker usando il Dockerfile nella directory corrente:
 
 `docker build .`
 
-- Crea un'immagine docker usando il Dockerfile disponibile a un dato URL:
+- Crea un'immagine Docker usando il Dockerfile disponibile a un dato URL:
 
 `docker build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github.com/creack/docker-firefox</span>
 
-- Crea e tagga un'immagine docker:
+- Crea e tagga un'immagine Docker:
 
 `docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome:tag</span>` .`
 
-- Non usare la cache per la creazione di un'immagine docker:
+- Non usare la cache per la creazione di un'immagine Docker:
 
 `docker build --no-cache --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome:tag</span>` .`
 
-- Crea un'immagine docker usando un dato Dockerfile:
+- Crea un'immagine Docker usando un dato Dockerfile:
 
 `docker build --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span>` .`
 
-- Crea un'immagine docker usando variabili fornite in fase di build:
+- Crea un'immagine Docker usando variabili fornite in fase di build:
 
 `docker build --build-arg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HTTP_PROXY=http://10.20.30.2:1234</span>` --build-arg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FTP_PROXY=http://40.50.60.5:4567</span>` .`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/pw-play (português (Brasil))
-description: "Grava arquivos de áudio através do pipewire."
-content_hash: 11130e94c86ffdf77758dacaef354d7e93c85a96
-last_modified_at: 2023-12-20
+description: "Grava arquivos de áudio através do PipeWire."
+content_hash: 4b509f1cafcc503eb1dd74072d0743c06264cd80
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/linux/pw-play.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # pw-play
 
-Grava arquivos de áudio através do pipewire.
+Grava arquivos de áudio através do PipeWire.
 Atalho para pw-cat --playback.
 Mais informações: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 

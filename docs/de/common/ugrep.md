@@ -2,8 +2,8 @@
 layout: page
 title: common/ugrep (Deutsch)
 description: "Ultraschnelles Suchtool mit Abfrage-TUI."
-content_hash: c3515065925fe92dc4fc09d728165be811656daf
-last_modified_at: 2023-11-12
+content_hash: 54e983101232735a99e9ea7da9fbfae4d92c2f78
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/ugrep.html
@@ -38,7 +38,7 @@ Weitere Informationen: <https://github.com/Genivia/ugrep>.
 
 `ugrep --fuzzy=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suchmuster</span>`"`
 
-- Suche auch in allen komprimierten Dateien und `zip`- und `tar`-Archive:
+- Suche auch in allen komprimierten Dateien und Zip- und tar-Archive:
 
 `ugrep --decompress "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suchmuster</span>`"`
 

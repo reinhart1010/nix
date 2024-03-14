@@ -2,8 +2,8 @@
 layout: page
 title: common/autossh (italiano)
 description: "Esegue, monitora e riavvia connessioni SSH."
-content_hash: 86b54d68d0fb96750edd43e1c620695eefbbe565
-last_modified_at: 2023-12-29
+content_hash: 9f9d8efc807504d935942187273d58e33b85ad74
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/autossh.html
@@ -25,18 +25,18 @@ tldri18n_status: 2
 # autossh
 
 Esegue, monitora e riavvia connessioni SSH.
-Si riconnette automaticamente per tenere attivi tunnel di port forwarding. Accetta tutte le flag di ssh.
+Si riconnette automaticamente per tenere attivi tunnel di port forwarding. Accetta tutte le flag di SSH.
 Maggiori informazioni: <https://www.harding.motd.ca/autossh>.
 
 - Apri una sessione SSH, riavviandola quando una porta monitorata smette di rispondere:
 
 `autossh -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_monitorata</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span>`"`
 
-- Apri una sessione ssh che forwarda una porta locale verso una remota, riavviandola se necessario:
+- Apri una sessione SSH che forwarda una porta locale verso una remota, riavviandola se necessario:
 
 `autossh -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_monitorata</span>` -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_locale</span>`:localhost:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_remota</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utente</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Forka prima di eseguire il comando ssh (si avvia in background) e non aprire una shell remota:
+- Forka prima di eseguire il comando SSH (si avvia in background) e non aprire una shell remota:
 
 `autossh -f -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_monitorata</span>` -N "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span>`"`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (Indonesia)
 description: "Atur kontainer Docker dan image."
-content_hash: 955b1df946c2fb27c23c312dcf3f61666d3ccc20
-last_modified_at: 2024-01-31
+content_hash: 256873fb02028355771af3be61cc711e800468fb
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -49,7 +49,7 @@ Atur kontainer Docker dan image.
 Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `docker run`.
 Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Tampilkan semua daftar kontainer docker (yang sedang berjalan dan berhenti):
+- Tampilkan semua daftar kontainer Docker (yang sedang berjalan dan berhenti):
 
 `docker ps --all`
 
@@ -61,7 +61,7 @@ Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/cl
 
 `docker `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span>
 
-- Tarik citra dari registri docker:
+- Tarik citra dari registri Docker:
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">citra</span>
 

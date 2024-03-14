@@ -2,8 +2,8 @@
 layout: page
 title: linux/add-apt-repository (한국어)
 description: "적절한 저장소 정의를 관리합니다."
-content_hash: 78e3b6491c0c2e097de22a7d9a84c95bb0b19d99
-last_modified_at: 2023-11-12
+content_hash: 3465c1de97cad573912a443a99f5405fa0dbea56
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/add-apt-repository.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/linux/add-apt-repository.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/add-apt-repository.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/add-apt-repository.html
@@ -30,7 +33,7 @@ tldri18n_status: 2
 적절한 저장소 정의를 관리합니다.
 더 많은 정보: <https://manned.org/apt-add-repository>.
 
-- 새로운 apt 레포지토리 추가:
+- 새로운 APT 레포지토리 추가:
 
 `add-apt-repository `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레포지토리_스펙</span>
 

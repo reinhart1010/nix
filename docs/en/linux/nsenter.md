@@ -2,14 +2,14 @@
 layout: page
 title: linux/nsenter (English)
 description: "Run a new command in a running process' namespace."
-content_hash: 0a344e98499ccb349dc22ebe4dd8bac8881cc9f3
-last_modified_at: 2023-11-12
+content_hash: 942e747884fc13d5a7d488a96c8f77d2810ee2e7
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # nsenter
 
 Run a new command in a running process' namespace.
-Particularly useful for docker images or chroot jails.
+Particularly useful for Docker images or chroot jails.
 More information: <https://manned.org/nsenter>.
 
 - Run a specific command using the same namespaces as an existing process:

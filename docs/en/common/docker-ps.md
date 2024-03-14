@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-ps (English)
 description: "List Docker containers."
-content_hash: 33e4df340aeb534697f48f3715a7b3e98ca260e0
-last_modified_at: 2023-11-12
+content_hash: ba942149492ee3b884fd766de9de20553faa9b6f
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-ps.html
@@ -30,11 +30,11 @@ tldri18n_status: 2
 List Docker containers.
 More information: <https://docs.docker.com/engine/reference/commandline/ps/>.
 
-- List currently running docker containers:
+- List currently running Docker containers:
 
 `docker ps`
 
-- List all docker containers (running and stopped):
+- List all Docker containers (running and stopped):
 
 `docker ps --all`
 

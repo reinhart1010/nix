@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (français)
 description: "Construit une image à partir d'un Dockerfile."
-content_hash: 88f38d9de5c905fa24d215f6b917da3cea3d6115
-last_modified_at: 2023-11-12
+content_hash: d76b366521ba16909e61005813dc0beef337a778
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -51,7 +51,7 @@ Plus d'informations : <https://docs.docker.com/engine/reference/commandline/buil
 
 `docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom:etiquette</span>` .`
 
-- Construit une image docker sans contexte de construction :
+- Construit une image Docker sans contexte de construction :
 
 `docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom:etiquette</span>` - < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span>
 

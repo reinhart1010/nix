@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apt-add-repository (français)
-description: "Gère la définition des dépôts apt."
-content_hash: 09ec5bb92c878d332807ecd2235f20729554c0b9
-last_modified_at: 2023-11-12
+description: "Gère la définition des dépôts APT."
+content_hash: 827a21bc9d84ae3fa2ecb4107b343741c0db70df
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/apt-add-repository.html
@@ -33,7 +33,7 @@ tldri18n_status: 2
 ---
 # apt-add-repository
 
-Gère la définition des dépôts apt.
+Gère la définition des dépôts APT.
 Plus d'informations : <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
 
 - Ajout d'un nouveau dépôt :

@@ -2,8 +2,8 @@
 layout: page
 title: common/virsh-connect (English)
 description: "Connect to a virtual machine hypervisor."
-content_hash: 9cf9fc654be59434ebe693955832dfc047ec2ce4
-last_modified_at: 2023-11-12
+content_hash: 7f993852268657b5dd678e4671e7e0d0a4facc00
+last_modified_at: 2024-03-14
 related_topics:
   - title: 한국어 version
     url: /ko/common/virsh-connect.html
@@ -31,6 +31,6 @@ More information: <https://manned.org/virsh>.
 
 `virsh connect qemu:///session`
 
-- Connect as root to a remote hypervisor using ssh:
+- Connect as root to a remote hypervisor using SSH:
 
 `virsh connect qemu+ssh://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name@host_name</span>`/system`

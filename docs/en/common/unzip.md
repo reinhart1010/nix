@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/unzip (English)
-description: "Extract files/directories from ZIP archives."
-content_hash: fd9d3e3d2cb194a37a8aca8039f1ad58b0862df4
-last_modified_at: 2023-11-12
+description: "Extract files/directories from Zip archives."
+content_hash: 6934091bc327094aa655b57f07376f193a7f9e6d
+last_modified_at: 2024-03-14
 related_topics:
   - title: 한국어 version
     url: /ko/common/unzip.html
@@ -14,11 +14,14 @@ related_topics:
   - title: русский version
     url: /ru/common/unzip.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/unzip.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # unzip
 
-Extract files/directories from ZIP archives.
+Extract files/directories from Zip archives.
 See also: `zip`.
 More information: <https://manned.org/unzip>.
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/pw-record (português (Brasil))
-description: "Grava arquivos de áudio através do pipewire."
-content_hash: 53c2f7c23e74da7027a458c3ba2e524f252e3042
-last_modified_at: 2023-12-20
+description: "Grava arquivos de áudio através do PipeWire."
+content_hash: 43bc3ff12fefda332e5ad9dccbe78c1d8399c6bf
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/linux/pw-record.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # pw-record
 
-Grava arquivos de áudio através do pipewire.
+Grava arquivos de áudio através do PipeWire.
 Atalho para pw-cat --record.
 Mais informações: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/add-apt-repository (italiano)
-description: "Gestisce le definizioni di repository apt."
-content_hash: c62c122974110d52b81d2e1b6724a34dd89555fe
-last_modified_at: 2023-11-12
+description: "Gestisce le definizioni di repository APT."
+content_hash: 3ea2cfbcaf86626c70b060b33c4b9f0663e924bc
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/add-apt-repository.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/linux/add-apt-repository.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/add-apt-repository.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/add-apt-repository.html
@@ -27,14 +30,14 @@ tldri18n_status: 2
 ---
 # add-apt-repository
 
-Gestisce le definizioni di repository apt.
+Gestisce le definizioni di repository APT.
 Maggiori informazioni: <https://manned.org/apt-add-repository>.
 
-- Aggiunge un nuovo repository apt:
+- Aggiunge un nuovo repository APT:
 
 `add-apt-repository `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificativo_del_repository</span>
 
-- Rimuove un repository apt:
+- Rimuove un repository APT:
 
 `add-apt-repository --remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificativo_del_repository</span>
 

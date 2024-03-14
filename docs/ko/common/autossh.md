@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/autossh (한국어)
-description: "SSH 연결을 실행, 모니터링 및 재시작. port 재전송 tunnel을 유지하기 위해 자동 재연결. 모든 ssh 플래그 허용."
-content_hash: 7a883d7cffadcb00d5e1ad382542104f4ca27478
-last_modified_at: 2024-01-13
+description: "SSH 연결을 실행, 모니터링 및 재시작. port 재전송 tunnel을 유지하기 위해 자동 재연결. 모든 SSH 플래그 허용."
+content_hash: 8dc695b53a4930699ad1482ee58c80f60bf3e747
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/autossh.html
@@ -24,7 +24,7 @@ tldri18n_status: 2
 ---
 # autossh
 
-SSH 연결을 실행, 모니터링 및 재시작. port 재전송 tunnel을 유지하기 위해 자동 재연결. 모든 ssh 플래그 허용.
+SSH 연결을 실행, 모니터링 및 재시작. port 재전송 tunnel을 유지하기 위해 자동 재연결. 모든 SSH 플래그 허용.
 더 많은 정보: <https://www.harding.motd.ca/autossh>.
 
 - SSH session을 열고, 모니터링 포트가 데이터를 리턴하지 못하면 다시 시작:

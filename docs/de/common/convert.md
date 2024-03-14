@@ -2,8 +2,8 @@
 layout: page
 title: common/convert (Deutsch)
 description: "ImageMagick Bildkonvertierungswerkzeug."
-content_hash: 862da217937f3051eaee0863e952c6a5f7ae92fd
-last_modified_at: 2023-12-28
+content_hash: 21e72d292f975229bdcaec35caceedf0e912d693
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/convert.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 ImageMagick Bildkonvertierungswerkzeug.
 Weitere Informationen: <https://imagemagick.org/script/convert.php>.
 
-- Konvertiere ein Bild von JPG nach PNG:
+- Konvertiere ein Bild von JPEG nach PNG:
 
 `convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.jpg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span>
 

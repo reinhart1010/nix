@@ -2,8 +2,8 @@
 layout: page
 title: common/ect (English)
 description: "Efficient Compression Tool."
-content_hash: 9351a00a5a2d542f4872e5a2d579592d06f6225b
-last_modified_at: 2023-11-12
+content_hash: 6ebce245f25a27b3a8edb66e0c15263c524b158b
+last_modified_at: 2024-03-14
 related_topics:
   - title: italiano version
     url: /it/common/ect.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # ect
 
 Efficient Compression Tool.
-File optimizer written in C++. It supports `.png`, `.jpg`, `.gzip` and `.zip` files.
+File optimizer written in C++. It supports PNG, JPEG, gzip and Zip files.
 More information: <https://github.com/fhanau/Efficient-Compression-Tool>.
 
 - Compress a file:

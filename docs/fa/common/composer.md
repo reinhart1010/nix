@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/composer (فارسی)
-description: "ابزاری بسته محور برای مدیریت وابستگی های پروژه های php."
-content_hash: baafe82be1f7c92b1c898409bb66425c456de4c0
-last_modified_at: 2024-01-08
+description: "ابزاری بسته محور برای مدیریت وابستگی های پروژه های PHP."
+content_hash: d64d0e7cf4ed3a3d47f24cee8d89e6b870f2f4cf
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/composer.html
@@ -24,7 +24,7 @@ tldri18n_status: 2
 ---
 # composer
 
-ابزاری بسته محور برای مدیریت وابستگی های پروژه های php.
+ابزاری بسته محور برای مدیریت وابستگی های پروژه های PHP.
 اطلاعات بیشتر: <https://getcomposer.org/>.
 
 - ساخت یک فایل `composer.json` به صورت کنشگرا:

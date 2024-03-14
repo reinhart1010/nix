@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-ecr (português (Brasil))
 description: "Enviar, buscar, e gerenciar imagens de container."
-content_hash: dc79900078af318ab828afbb21a3f3aec4495390
-last_modified_at: 2024-01-10
+content_hash: 930d635462edfd9aa9c5e47906193ebd5ee0b3f1
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/aws-ecr.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 Enviar, buscar, e gerenciar imagens de container.
 Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html>.
 
-- Autentica o docker com o registro default (nome do usuário na AWS):
+- Autentica o Docker com o registro default (nome do usuário na AWS):
 
 `aws ecr get-login-password --region `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker login</span>` --username AWS --password-stdin `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_account_id</span>`.dkr.ecr.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span>`.amazonaws.com`
 

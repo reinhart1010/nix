@@ -2,8 +2,8 @@
 layout: page
 title: common/column (한국어)
 description: "표준 입력 또는 파일을 여러 열로 포맷 설정."
-content_hash: 337911422e28322374e21f3f9bad905c1537163b
-last_modified_at: 2023-11-12
+content_hash: f60d2a67b2d04d1e7f292b50f735467337a0d7a6
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/column.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 
 `printf "header1 header2\nbar foo\n" | column --table`
 
-- -t 옵션(예: "", csv)에 대한 열 구분 기호 문자를 지정; 기본값은 공백입니다:
+- -t 옵션(예: "", CSV)에 대한 열 구분 기호 문자를 지정; 기본값은 공백입니다:
 
 `printf "header1,header2\nbar,foo\n" | column --table --separator `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>
 

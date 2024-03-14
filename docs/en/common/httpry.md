@@ -2,8 +2,8 @@
 layout: page
 title: common/httpry (English)
 description: "A lightweight packet sniffer for displaying and logging HTTP traffic."
-content_hash: 1044d0ab8d21b5995d6e3e759df36ee3a13594be
-last_modified_at: 2023-11-12
+content_hash: 458173f1ed3f0157b70fc22f3296cb73af31d0c7
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # httpry
@@ -16,7 +16,7 @@ More information: <http://dumpsterventures.com/jason/httpry/>.
 
 `httpry -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.log</span>
 
-- Listen on a specific interface and save output to a binary pcap format file:
+- Listen on a specific interface and save output to a binary PCAP format file:
 
 `httpry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span>` -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span>
 

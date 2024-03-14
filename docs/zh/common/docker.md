@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (中文)
 description: "管理 Docker 容器和镜像。"
-content_hash: bc3dc03a5e8695d3d275b143303fde20a602bb22
-last_modified_at: 2024-01-02
+content_hash: a58330c9838b26ac2ffdb92e02e8b031fea65ed2
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -52,7 +52,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 此命令也有关于其子命令的文件，例如：`docker run`.
 更多信息：<https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- 列出所有 docker 容器（包括停止的容器）：
+- 列出所有 Docker 容器（包括停止的容器）：
 
 `docker ps --all`
 
@@ -64,7 +64,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `docker `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">容器名称</span>
 
-- 从 docker registry 中拉取镜像：
+- 从 Docker registry 中拉取镜像：
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">镜像</span>
 

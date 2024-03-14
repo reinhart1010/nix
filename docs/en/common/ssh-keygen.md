@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ssh-keygen (English)
-description: "Generate ssh keys used for authentication, password-less logins, and other things."
-content_hash: 102e0161fd6a4a8fdc4da8c0242edc8f38ed8a0c
-last_modified_at: 2023-11-12
+description: "Generate SSH keys used for authentication, password-less logins, and other things."
+content_hash: 9778dcb028de0a574c9dbb31050267c2bedec8a4
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-keygen.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # ssh-keygen
 
-Generate ssh keys used for authentication, password-less logins, and other things.
+Generate SSH keys used for authentication, password-less logins, and other things.
 More information: <https://man.openbsd.org/ssh-keygen>.
 
 - Generate a key interactively:

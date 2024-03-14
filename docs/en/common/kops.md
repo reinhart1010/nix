@@ -2,8 +2,8 @@
 layout: page
 title: common/kops (English)
 description: "Create, destroy, upgrade and maintain Kubernetes clusters."
-content_hash: d42d761c5f14cb7a9d377813846976226df1496a
-last_modified_at: 2023-11-12
+content_hash: aeff9340457c56d9afc8766296b97d90b2ca23c3
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # kops
@@ -15,7 +15,7 @@ More information: <https://github.com/kubernetes/kops/>.
 
 `kops create cluster -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name.yaml</span>
 
-- Create a new ssh public key:
+- Create a new SSH public key:
 
 `kops create secret sshpublickey `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/id_rsa.pub</span>
 

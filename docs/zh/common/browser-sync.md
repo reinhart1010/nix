@@ -2,8 +2,8 @@
 layout: page
 title: common/browser-sync (中文)
 description: "启动一个本地的服务，可以监听文件改动，刷新浏览器。"
-content_hash: 142ffceb495b4791bfa7de93631ddbfc6fbbee0c
-last_modified_at: 2023-11-12
+content_hash: cc1d65829c01ea23ec7472c52a3f318b473a1673
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/browser-sync.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 
 `browser-sync start --server `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>` --files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>
 
-- 启动当前目录服务，同时监听指定目录下 `css` 文件的变动：
+- 启动当前目录服务，同时监听指定目录下 CSS 文件的变动：
 
 `browser-sync start --server --files '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录/*.css</span>`'`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo-report (English)
 description: "Display various kinds of reports."
-content_hash: 4faa876674c05bda18ad2f348dda590c49f4be2a
-last_modified_at: 2023-11-12
+content_hash: ca7f47f7021b7ad08da3a9c6d96fbca940d8d0b2
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # cargo report
@@ -15,7 +15,7 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-report.html>.
 
 `cargo report `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">future-incompatibilities|...</span>
 
-- Display a report with the specified Cargo-generated id:
+- Display a report with the specified Cargo-generated ID:
 
 `cargo report `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">future-incompatibilities|...</span>` --id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/column (italiano)
 description: "Formatta standard input o un file in più colonne."
-content_hash: dca57e5fd9f97485caaf35b1be902eae0fb909af
-last_modified_at: 2023-12-29
+content_hash: fa88817e5c5c59459458a87587ffecfcf6684438
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/column.html
@@ -27,7 +27,7 @@ Maggiori informazioni: <https://manned.org/column>.
 
 `printf "intestazione1 intestazione2\nbar foo\n" | column --table`
 
-- Specifica un diverso separatore di colonna (e.g. "," per csv) (il predefinito è lo spazio):
+- Specifica un diverso separatore di colonna (e.g. "," per CSV) (il predefinito è lo spazio):
 
 `printf "intestazione1 intestazione2\nbar foo\n" | column --table --separator `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-key (italiano)
 description: "Servizio di gestione delle chiavi per il gestore di pacchetti APT su Debian ed Ubuntu."
-content_hash: d63140f658d86b4c5a154b0b1cc148985054b4d8
-last_modified_at: 2023-11-12
+content_hash: 46705bbab66a17263af6ea6294207449a5c4aae2
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -49,6 +49,6 @@ Maggiori informazioni: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 `wget -qO - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://indirizzo.tld/filename.key</span>` | apt-key add -`
 
-- Aggiunge una chiave da un server di chiavi con il solo id della chiave:
+- Aggiunge una chiave da un server di chiavi con il solo ID della chiave:
 
 `apt-key adv --keyserver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span>` --recv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ID_DELLA_CHIAVE</span>

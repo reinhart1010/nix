@@ -2,8 +2,8 @@
 layout: page
 title: common/git-instaweb (italiano)
 description: "Helper per avviare un server gitweb."
-content_hash: 7259c81e551248f218bb2b31435f12ccfd8d056e
-last_modified_at: 2023-11-12
+content_hash: 882cdc689fca8ce9dc2685e74a9c3d6c52ec0964
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/git-instaweb.html
@@ -33,7 +33,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-instaweb>.
 
 `git instaweb --start --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span>
 
-- Usa un http daemon specifico:
+- Usa un HTTP daemon specifico:
 
 `git instaweb --start --httpd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lighttpd|apache2|mongoose|plackup|webrick</span>
 

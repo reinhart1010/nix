@@ -2,8 +2,8 @@
 layout: page
 title: linux/abbr (فارسی)
 description: "fish shell مدیریت مخفف های"
-content_hash: db11693871866ebcd079106075a2f88cb5fc7e14
-last_modified_at: 2024-01-05
+content_hash: 3f466bd7e3fd7513de1b7931bfdb992b10553025
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/abbr.html
@@ -49,6 +49,6 @@ fish shell مدیریت مخفف های
 
 `abbr --erase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">abbreviation_name</span>
 
-- وارد کردن یک مخفف وارد شده در یک میزبان دیگر از طریق ssh:
+- وارد کردن یک مخفف وارد شده در یک میزبان دیگر از طریق SSH:
 
 `ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_name</span>` abbr --show | source`

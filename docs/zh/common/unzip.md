@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/unzip (中文)
-description: "从 ZIP 压缩包中提取文件或目录。"
-content_hash: 996b0d8cb064c4969d9b8c7402aa2f1dfde45290
-last_modified_at: 2024-01-09
+description: "从 Zip 压缩包中提取文件或目录。"
+content_hash: 252c9b5d4412153b4e4bb44634b53f19442def1e
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/unzip.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # unzip
 
-从 ZIP 压缩包中提取文件或目录。
+从 Zip 压缩包中提取文件或目录。
 参见：`zip`.
 更多信息：<https://manned.org/unzip>.
 

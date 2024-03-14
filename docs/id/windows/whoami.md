@@ -2,8 +2,8 @@
 layout: page
 title: windows/whoami (Indonesia)
 description: "Menampilkan detail informasi pengguna saat ini."
-content_hash: aa52944e8842987acdd3ed555191f9c27869502a
-last_modified_at: 2023-11-12
+content_hash: a3238939dd8c40618c9a28273c65cd01b0ccb3f7
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/windows/whoami.html
@@ -52,6 +52,6 @@ Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administrati
 
 `whoami /upn`
 
-- Menampilkan id logon dari pengguna saat ini:
+- Menampilkan ID logon dari pengguna saat ini:
 
 `whoami /logonid`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/pmap (English)
 description: "Report memory map of a process or processes."
-content_hash: 83f3368627ff52a517245bdd949242540c8f3f84
-last_modified_at: 2023-11-12
+content_hash: 14a4d0a515e57a9ddf6486decd02ee90ff01eab7
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # pmap
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Report memory map of a process or processes.
 More information: <https://manned.org/pmap>.
 
-- Print memory map for a specific process id (PID):
+- Print memory map for a specific process ID (PID):
 
 `pmap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 

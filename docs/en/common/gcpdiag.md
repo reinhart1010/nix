@@ -2,14 +2,14 @@
 layout: page
 title: common/gcpdiag (English)
 description: "Google Cloud Platform troubleshooting and diagnostics tool."
-content_hash: 7a55f1f142ffc51e16f1703a0fc057eb5a80ab60
-last_modified_at: 2023-11-12
+content_hash: 057dc96a5775e8360f2ce05faf784790268e9004
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # gcpdiag
 
 Google Cloud Platform troubleshooting and diagnostics tool.
-Run in a docker container or in GCP Cloudshell.
+Run in a Docker container or in GCP Cloudshell.
 More information: <https://github.com/GoogleCloudPlatform/gcpdiag>.
 
 - Run `gcpdiag` on your project, returning all rules:

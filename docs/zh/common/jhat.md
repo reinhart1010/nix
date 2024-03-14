@@ -2,8 +2,8 @@
 layout: page
 title: common/jhat (中文)
 description: "Java 堆分析工具。"
-content_hash: bff72c49b6ad8746d4f6ed3a83f5277dc65c5c18
-last_modified_at: 2023-11-12
+content_hash: 3281966c83d836b26b9b47e434303f03156b66e9
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/jhat.html
@@ -15,11 +15,11 @@ tldri18n_status: 2
 Java 堆分析工具。
 更多信息：<https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jhat.html>.
 
-- 分析堆转储文件（来自 jmap），通过 http 端口 7000 进行查看：
+- 分析堆转储文件（来自 jmap），通过 HTTP 端口 7000 进行查看：
 
 `jhat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/堆转储文件</span>
 
-- 分析堆转储文件，为 http 服务指定备用端口：
+- 分析堆转储文件，为 HTTP 服务指定备用端口：
 
 `jhat -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/堆转储文件</span>
 

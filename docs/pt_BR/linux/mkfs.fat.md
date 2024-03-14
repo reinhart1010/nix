@@ -2,8 +2,8 @@
 layout: page
 title: linux/mkfs.fat (português (Brasil))
 description: "Cria um sistema de arquivos MS-DOS dentro de uma partição."
-content_hash: 8eab7c72c41fa58a8aedb5119f3f6c1b7673f9f2
-last_modified_at: 2023-11-12
+content_hash: 723cb4a248c0499e4e828e86b31427e267fd7774
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/linux/mkfs.fat.html
@@ -23,7 +23,7 @@ Mais informações: <https://manned.org/mkfs.fat>.
 
 `mkfs.fat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_de_volume</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span>
 
-- Cria um sistema de arquivos com um id de volume:
+- Cria um sistema de arquivos com um ID de volume:
 
 `mkfs.fat -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_de_volume</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span>
 

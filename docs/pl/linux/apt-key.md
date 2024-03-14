@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-key (polski)
 description: "Narzędzie do zarządzania kluczami menedżera pakietów APT dla Debiana i Ubuntu."
-content_hash: 199ee0f687a5d8edbdad8a4ec6bc14e155b9ece4
-last_modified_at: 2023-11-12
+content_hash: 788e664003014b95ad20c37cd28bad0d3d979507
+last_modified_at: 2024-03-14
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -50,6 +50,6 @@ Więcej informacji: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 `wget -qO - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://host.tld/nazwa_pliku.key</span>` | apt-key add -`
 
-- Dodaj klucz z serwera kluczy na podstawie id klucza:
+- Dodaj klucz z serwera kluczy na podstawie ID klucza:
 
 `apt-key adv --keyserver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span>` --recv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_klucza</span>

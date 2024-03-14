@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/virsh (English)
-description: "Manage virsh guest domains. (Note: 'guest_id' can be the id, name or UUID of the guest)."
-content_hash: ca0915ca23cfae518cfa2e91ea3d03c06ad95f9f
-last_modified_at: 2024-02-05
+description: "Manage virsh guest domains. (Note: 'guest_id' can be the ID, name or UUID of the guest)."
+content_hash: 241e5468000f05277f0859fb0f65078a801f3a6e
+last_modified_at: 2024-03-14
 related_topics:
   - title: 한국어 version
     url: /ko/common/virsh.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # virsh
 
-Manage virsh guest domains. (Note: 'guest_id' can be the id, name or UUID of the guest).
+Manage virsh guest domains. (Note: 'guest_id' can be the ID, name or UUID of the guest).
 Some subcommands such as `virsh list` have their own usage documentation.
 More information: <https://libvirt.org/virshcmdref.html>.
 

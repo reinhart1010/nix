@@ -2,8 +2,8 @@
 layout: page
 title: windows/logoff (italiano)
 description: "Termina una sessione di accesso."
-content_hash: 318eeedd3d769a1047055c6679bdff4022c378ce
-last_modified_at: 2023-11-12
+content_hash: dd05308ea658c67c95da95cadeb82f2a9f04e5f8
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/windows/logoff.html
@@ -28,7 +28,7 @@ Maggiori informazioni: <https://learn.microsoft.com/windows-server/administratio
 
 `logoff`
 
-- Termina una sessione con il suo nome o id:
+- Termina una sessione con il suo nome o ID:
 
 `logoff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_sessione|id_sessione</span>
 

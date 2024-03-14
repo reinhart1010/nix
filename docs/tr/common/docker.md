@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (Türkçe)
 description: "Docker konteyner ve imgelerini yönetir."
-content_hash: 49ee69939f42a8c73e64c449e276917fe04292bb
-last_modified_at: 2024-01-03
+content_hash: ce52416c02c53ed28f4df8e24873cae22f9b4fb1
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -52,7 +52,7 @@ Docker konteyner ve imgelerini yönetir.
 `docker run` gibi bazı alt komutların kendi dökümantasyonu bulunmaktadır.
 Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Tüm (çalışan veya duran) docker konteynerlerini listele:
+- Tüm (çalışan veya duran) Docker konteynerlerini listele:
 
 `docker ps --all`
 
@@ -64,7 +64,7 @@ Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/cl
 
 `docker `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span>
 
-- Bir docker kaydından imge çek:
+- Bir Docker kaydından imge çek:
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imge</span>
 

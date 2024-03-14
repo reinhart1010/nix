@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-start (français)
 description: "Lancer un ou plusieurs conteneurs arrêtés."
-content_hash: a1df41fa3042017fd967649f26ef2e150d3052ce
-last_modified_at: 2023-11-12
+content_hash: 49541bf12daf2f1b311f11477f519466b2d47c7d
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -31,7 +31,7 @@ Plus d'informations : <https://docs.docker.com/engine/reference/commandline/star
 
 `docker start`
 
-- Lancer un conteneur docker :
+- Lancer un conteneur Docker :
 
 `docker start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">conteneur</span>
 

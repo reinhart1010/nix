@@ -1,21 +1,21 @@
 ---
 layout: page
 title: common/q (English)
-description: "Execute SQL-like queries on .csv and .tsv files."
-content_hash: d75bf1807e9b0c29b4eb0feb75ed7dcdd43cc8e3
-last_modified_at: 2024-02-05
+description: "Execute SQL-like queries on CSV and TSV files."
+content_hash: c754a774545846d832cce5718246ca7c49b79a08
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # q
 
-Execute SQL-like queries on .csv and .tsv files.
+Execute SQL-like queries on CSV and TSV files.
 More information: <https://harelba.github.io/q>.
 
-- Query `.csv` file by specifying the delimiter as ',':
+- Query a CSV file by specifying the delimiter as ',':
 
 `q -d',' "SELECT * from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`"`
 
-- Query `.tsv` file:
+- Query a TSV file:
 
 `q -t "SELECT * from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`"`
 

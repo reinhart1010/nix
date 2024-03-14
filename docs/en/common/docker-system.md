@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (English)
 description: "Manage Docker data and display system-wide information."
-content_hash: 87ad9da00ea9dd04bbe3df5485b0182682e52a6a
-last_modified_at: 2023-12-27
+content_hash: df91943e536ba829358ef826da98752a7080880b
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -31,7 +31,7 @@ More information: <https://docs.docker.com/engine/reference/commandline/system/>
 
 `docker system`
 
-- Show docker disk usage:
+- Show Docker disk usage:
 
 `docker system df`
 

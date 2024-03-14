@@ -2,8 +2,8 @@
 layout: page
 title: common/jhat (English)
 description: "Java heap analysis tool."
-content_hash: e63b46913abfb1ae0df0bdd02bca526b55167ed1
-last_modified_at: 2023-11-12
+content_hash: edb041198a1d7ded6842fec32e6c0e29b569486e
+last_modified_at: 2024-03-14
 related_topics:
   - title: 中文 version
     url: /zh/common/jhat.html
@@ -19,7 +19,7 @@ More information: <https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jh
 
 `jhat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dump_file.bin</span>
 
-- Analyze a heap dump, specifying an alternate port for the http server:
+- Analyze a heap dump, specifying an alternate port for the HTTP server:
 
 `jhat -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dump_file.bin</span>
 

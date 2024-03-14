@@ -2,8 +2,8 @@
 layout: page
 title: common/duplicity (English)
 description: "Creates incremental, compressed, encrypted and versioned backups."
-content_hash: 01e8fc05cbbe35248a2b67ef95bf52a3335bbac7
-last_modified_at: 2024-01-11
+content_hash: a7a68e88921db858dc7d0874a9dbcaf2c527458f
+last_modified_at: 2024-03-14
 related_topics:
   - title: italiano version
     url: /it/common/duplicity.html
@@ -32,7 +32,7 @@ More information: <http://duplicity.nongnu.org>.
 
 `duplicity collection-status "file://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">absolute/path/to/backup/directory</span>`"`
 
-- List the files in a backup stored on a remote machine, via ssh:
+- List the files in a backup stored on a remote machine, via SSH:
 
 `duplicity list-current-files --time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span>` scp://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@hostname</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/backup/dir</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (English)
 description: "Manage Docker containers and images."
-content_hash: fed4ba50b6dcce2e88de8ab8162ff811860a0f8f
-last_modified_at: 2023-11-12
+content_hash: dadc591e0b317da2d0772c4e8c1483a56dd8d8e8
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
     icon: bi bi-globe
@@ -46,7 +49,7 @@ Manage Docker containers and images.
 Some subcommands such as `docker run` have their own usage documentation.
 More information: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- List all docker containers (running and stopped):
+- List all Docker containers (running and stopped):
 
 `docker ps --all`
 
@@ -58,7 +61,7 @@ More information: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 `docker `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
 
-- Pull an image from a docker registry:
+- Pull an image from a Docker registry:
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
 

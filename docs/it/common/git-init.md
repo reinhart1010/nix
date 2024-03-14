@@ -2,8 +2,8 @@
 layout: page
 title: common/git-init (italiano)
 description: "Inizializza un nuovo repository Git locale."
-content_hash: 2dd71d2e71db4a412b6b658d58934fbb875a06be
-last_modified_at: 2023-11-12
+content_hash: a364050fa8cc07c0e47f0a23b3e73d34007d671e
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/git-init.html
@@ -45,6 +45,6 @@ Maggiori informazioni: <https://git-scm.com/docs/git-init>.
 
 `git init --object-format=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha256</span>
 
-- Inizializza un repository di soli dati, adatto per essere usato come server remoto accessibile via ssh:
+- Inizializza un repository di soli dati, adatto per essere usato come server remoto accessibile via SSH:
 
 `git init --bare`

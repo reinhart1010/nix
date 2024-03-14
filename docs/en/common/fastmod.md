@@ -2,8 +2,8 @@
 layout: page
 title: common/fastmod (English)
 description: "A fast partial replacement for the codemod tool, replace and replace all in the whole codebase."
-content_hash: 8ab3b321548bd752063b1cf81603791950d59cfe
-last_modified_at: 2023-11-12
+content_hash: ae78b2a470cca39797cd8b305bea126e77f988d6
+last_modified_at: 2024-03-14
 related_topics:
   - title: العربية version
     url: /ar/common/fastmod.html
@@ -28,7 +28,7 @@ More information: <https://github.com/facebookincubator/fastmod>.
 
 `fastmod `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span>` --dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --iglob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'**/*.{js,json}'</span>
 
-- Replace for an exact string in .js or .json files:
+- Replace for an exact string in `.js` or JSON files:
 
 `fastmod --fixed-strings `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exact_string</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span>` --extensions `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json,js</span>
 

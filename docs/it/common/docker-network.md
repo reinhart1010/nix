@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-network (italiano)
 description: "Crea e gestisci reti docker."
-content_hash: 6380bd8193d8834871d8d8f363a3a006ecd0a355
-last_modified_at: 2023-11-12
+content_hash: 9c5933bfdade873d1ee9b583e52b7d2a42e3ad1c
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-network.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 Crea e gestisci reti docker.
 Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/network/>.
 
-- Elenca le reti disponibili configurate sul docker daemon:
+- Elenca le reti disponibili configurate sul Docker daemon:
 
 `docker network ls`
 

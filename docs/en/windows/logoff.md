@@ -2,8 +2,8 @@
 layout: page
 title: windows/logoff (English)
 description: "Terminate a login session."
-content_hash: 7b89883743861f66dc7cd1e82e2caefebb16f0cc
-last_modified_at: 2023-11-12
+content_hash: e44ae925adec9d3d1c6430b4831966dc19bce6f6
+last_modified_at: 2024-03-14
 related_topics:
   - title: Indonesia version
     url: /id/windows/logoff.html
@@ -28,7 +28,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `logoff`
 
-- Terminate a session by its name or id:
+- Terminate a session by its name or ID:
 
 `logoff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_name|session_id</span>
 

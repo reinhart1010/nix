@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-list (English)
 description: "List all Distrobox containers. See also: `tldr distrobox`."
-content_hash: 7de0ee6a2241337fca3e6d7107ed2f7251d32339
-last_modified_at: 2023-11-26
+content_hash: bbde93b3969ae91460dcceb2a728dc2477c4ce5f
+last_modified_at: 2024-03-14
 related_topics:
   - title: Nederlands version
     url: /nl/linux/distrobox-list.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # distrobox-list
 
 List all Distrobox containers. See also: `tldr distrobox`.
-Distrobox containers are listed separately from the rest of normal podman or Docker containers.
+Distrobox containers are listed separately from the rest of normal Podman or Docker containers.
 More information: <https://distrobox.it/usage/distrobox-list>.
 
 - List all Distrobox containers:

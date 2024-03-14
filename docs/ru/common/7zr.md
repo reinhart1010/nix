@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (русский)
 description: "Архиватор файлов с высокой степенью сжатия."
-content_hash: 3396e3d92fb27a2b0426e3fb126a6e63ff753632
-last_modified_at: 2023-11-30
+content_hash: 077b996aeb6bcb9ae09c2556e2fade443c40fe86
+last_modified_at: 2024-03-14
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -58,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># 7zr
 
 Архиватор файлов с высокой степенью сжатия.
-То же, что и `7z`, но поддерживает только файлы `.7z`.
+То же, что и `7z`, но поддерживает только файлы 7z.
 Больше информации: <https://manned.org/7zr>.
 
 - Архивировать ([a]rchive) файл или папку:

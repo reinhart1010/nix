@@ -2,8 +2,8 @@
 layout: page
 title: common/bosh (한국어)
 description: "bosh 디렉터를 배치 및 관리하기 위한 커맨드라인 도구."
-content_hash: a007971cf4f3a31d6d79d95bc1fd305e7bd76e23
-last_modified_at: 2023-11-12
+content_hash: 26bbacd16810d4dcecf76d45b86c16f64c09a716
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/bosh.html
@@ -38,7 +38,7 @@ bosh 디렉터를 배치 및 관리하기 위한 커맨드라인 도구.
 
 `bosh -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">환경</span>` vms -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">전개</span>
 
-- 가상 머신의 ssh:
+- 가상 머신의 SSH:
 
 `bosh -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">환경</span>` ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상머신</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">전개</span>
 

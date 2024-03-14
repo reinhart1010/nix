@@ -2,14 +2,17 @@
 layout: page
 title: common/git-archive (français)
 description: "Crée une archive de fichiers depuis un branche donnée."
-content_hash: b8f096129bbac3b227daf4720d8b7e168b4bbf81
-last_modified_at: 2024-01-03
+content_hash: 4b7d051ec8095bcd8d234118745b4c553f432285
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/git-archive.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/git-archive.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-archive.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-archive.html
@@ -31,7 +34,7 @@ Plus d'informations : <https://git-scm.com/docs/git-archive>.
 
 `git archive --verbose HEAD`
 
-- Crée une archive `.zip` avec le contenu de la HEAD et l'affiche sur la sortie standard :
+- Crée une archive Zip avec le contenu de la HEAD et l'affiche sur la sortie standard :
 
 `git archive --verbose --format zip HEAD`
 

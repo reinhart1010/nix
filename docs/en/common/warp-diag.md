@@ -2,8 +2,8 @@
 layout: page
 title: common/warp-diag (English)
 description: "Diagnostic and feedback tool for Cloudflare's WARP service."
-content_hash: 8f75795e79abf809cd5d01b1cad5f2a996a19567
-last_modified_at: 2024-01-30
+content_hash: 72c1a6211fa36add66663cf2e404c8dafa5d3174
+last_modified_at: 2024-03-14
 related_topics:
   - title: Indonesia version
     url: /id/common/warp-diag.html
@@ -16,11 +16,11 @@ Diagnostic and feedback tool for Cloudflare's WARP service.
 See also: `warp-cli`.
 More information: <https://developers.cloudflare.com/warp-client/>.
 
-- Generate a `zip` file with information about the system configuration and the WARP connection:
+- Generate a Zip file with information about the system configuration and the WARP connection:
 
 `warp-diag`
 
-- Generate a `zip` file with debug information including a timestamp to the output filename:
+- Generate a Zip file with debug information including a timestamp to the output filename:
 
 `warp-diag --add-ts`
 

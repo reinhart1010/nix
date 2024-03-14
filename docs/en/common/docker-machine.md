@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-machine (English)
 description: "Create and manage machines running Docker."
-content_hash: a1ef240b457da1793f3ecee6cd510cc5326aac74
-last_modified_at: 2023-11-12
+content_hash: f0cdfd0f2f91cb1874bf43ea5a3322c7e4de37bb
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-machine.html
@@ -30,11 +30,11 @@ tldri18n_status: 2
 Create and manage machines running Docker.
 More information: <https://docs.docker.com/machine/reference/>.
 
-- List currently running docker machines:
+- List currently running Docker machines:
 
 `docker-machine ls`
 
-- Create a new docker machine with specific name:
+- Create a new Docker machine with specific name:
 
 `docker-machine create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
 

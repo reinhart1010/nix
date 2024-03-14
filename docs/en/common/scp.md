@@ -2,8 +2,8 @@
 layout: page
 title: common/scp (English)
 description: "Secure copy."
-content_hash: 759c9044c1b312213161cfc43231b8237300db5a
-last_modified_at: 2023-11-25
+content_hash: e0b778072b2de98504b8502334e915ba7fbb52c3
+last_modified_at: 2024-03-14
 related_topics:
   - title: हिन्दी version
     url: /hi/common/scp.html
@@ -43,7 +43,7 @@ More information: <https://man.openbsd.org/scp>.
 
 `scp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_username</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_directory</span>
 
-- Use a specific ssh private key for authentication with the remote host:
+- Use a specific SSH private key for authentication with the remote host:
 
 `scp -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/private_key</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span>
 

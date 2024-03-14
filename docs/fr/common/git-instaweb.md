@@ -2,8 +2,8 @@
 layout: page
 title: common/git-instaweb (français)
 description: "Outil pour le lancement d'un serveur gitweb."
-content_hash: f8ae8f0fde7686d312b85bb258577702b2a5cb4e
-last_modified_at: 2023-11-12
+content_hash: bfa3df25f4a459886fd9b9784bb18c5b63cc170a
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/git-instaweb.html
@@ -33,7 +33,7 @@ Plus d'informations : <https://git-scm.com/docs/git-instaweb>.
 
 `git instaweb --start --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span>
 
-- Utiliser un daemon http spécifique :
+- Utiliser un daemon HTTP spécifique :
 
 `git instaweb --start --httpd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lighttpd|apache2|mongoose|plackup|webrick</span>
 

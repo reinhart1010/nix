@@ -2,8 +2,8 @@
 layout: page
 title: linux/pulseaudio (Türkçe)
 description: "Ses sistem arkaplan uygulaması ve yöneticisi."
-content_hash: 4e381af4a3abf66d9b38896afdc93ccdbd15ef0d
-last_modified_at: 2023-11-12
+content_hash: c83d62483feebcd6f0a38869d5ec0ae770f0cf93
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/linux/pulseaudio.html
@@ -26,7 +26,7 @@ Daha fazla bilgi için: <https://www.freedesktop.org/wiki/Software/PulseAudio/>.
 
 `pulseaudio --start`
 
-- Arkaplanda çalışan tüm pulseaudio uygulamalarını öldür:
+- Arkaplanda çalışan tüm PulseAudio uygulamalarını öldür:
 
 `pulseaudio --kill`
 

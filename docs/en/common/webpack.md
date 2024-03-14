@@ -2,8 +2,8 @@
 layout: page
 title: common/webpack (English)
 description: "Bundle a web project's js files and other assets into a single output file."
-content_hash: 2a66b780acdc7f351f21f115f444712fcbe3615b
-last_modified_at: 2024-01-25
+content_hash: 59e16ac4e96ee3175c5697f99bec780b293df9c4
+last_modified_at: 2024-03-14
 related_topics:
   - title: 한국어 version
     url: /ko/common/webpack.html
@@ -19,7 +19,7 @@ More information: <https://webpack.js.org>.
 
 `webpack `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app.js</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bundle.js</span>
 
-- Load CSS files too from the JavaScript file (this uses the CSS loader for `.css` files):
+- Load CSS files too from the JavaScript file (this uses the CSS loader for CSS files):
 
 `webpack `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app.js</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bundle.js</span>` --module-bind '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">css=css</span>`'`
 

@@ -1,10 +1,13 @@
 ---
 layout: page
 title: linux/pw-record (English)
-description: "Record audio files through pipewire."
-content_hash: 88ea4b9454c46fc0299eb4567d903c25e6d2c454
-last_modified_at: 2023-11-12
+description: "Record audio files through PipeWire."
+content_hash: 763843c1532f8fc0e25eeb475ebb75b8e6aab743
+last_modified_at: 2024-03-14
 related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/pw-record.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pw-record.html
     icon: bi bi-globe
@@ -12,7 +15,7 @@ tldri18n_status: 2
 ---
 # pw-record
 
-Record audio files through pipewire.
+Record audio files through PipeWire.
 Shorthand for pw-cat --record.
 More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 

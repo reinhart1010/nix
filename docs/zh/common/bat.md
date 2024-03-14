@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (中文)
 description: "可以打印并且合并文件的命令。"
-content_hash: a86e0c0138815de56d4ef66d92f14016de805b70
-last_modified_at: 2024-03-07
+content_hash: dfdef09ef50001d09f28f9f75f7251986604ab7a
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -68,7 +68,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span>
 
-- 高亮一个 `json` 文件：
+- 高亮一个 JSON 文件：
 
 `bat --language json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件.json</span>
 

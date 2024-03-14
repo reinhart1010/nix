@@ -2,8 +2,8 @@
 layout: page
 title: common/vt (தமிழ்)
 description: "வைரஸ் டோட்டலுக்கான கட்டளை-வரி இடைமுகம்."
-content_hash: 5255229246205500c1d2efd30ca4579b160c7f4b
-last_modified_at: 2023-11-13
+content_hash: 6c392d342ad21f2f01f593cb2d3aab8217755510
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/vt.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 
 `vt analysis `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_ஐடி|பகுப்பாய்வு_ஐடி</span>
 
-- என்க்ரிப்ட் செய்யப்பட்ட `.zip` வடிவத்தில் கோப்புகளைப் பதிவிறக்கவும் (பிரீமியம் கணக்கு தேவை):
+- என்க்ரிப்ட் செய்யப்பட்ட Zip வடிவத்தில் கோப்புகளைப் பதிவிறக்கவும் (பிரீமியம் கணக்கு தேவை):
 
 `vt download `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_ஐடி</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>` --zip --zip-password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கடவுச்சொல்</span>
 

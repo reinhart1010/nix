@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (Deutsch)
 description: "Ein Dateiarchivierer mit hoher Kompressionsrate."
-content_hash: b8919feb1bace5c8358a929241565e5b9d525b4f
-last_modified_at: 2023-11-30
+content_hash: d8daf94d2ae002f6013e5742ecb69519635de47b
+last_modified_at: 2024-03-14
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -58,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># 7zr
 
 Ein Dateiarchivierer mit hoher Kompressionsrate.
-Eine alleinstehende Version von `7z`, die nur `.7z` Dateien unterstützt.
+Eine alleinstehende Version von `7z`, die nur 7z Dateien unterstützt.
 Weitere Informationen: <https://manned.org/7zr>.
 
 - [a]rchiviere eine Datei oder ein Verzeichnis:

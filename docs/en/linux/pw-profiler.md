@@ -2,8 +2,8 @@
 layout: page
 title: linux/pw-profiler (English)
 description: "Profile a local or remote instance."
-content_hash: e9da9e5154e7986cc3609a661791f88d0f378094
-last_modified_at: 2023-12-28
+content_hash: 43f7d03fcbc9f6ad188cd051ab436f1022d78590
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # pw-profiler
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Profile a local or remote instance.
 More information: <https://docs.pipewire.org/page_man_pw-profiler_1.html>.
 
-- Profile the default instance, logging to `profile.log` (`gnuplot` files and a `.html` file for result visualizing are also generated):
+- Profile the default instance, logging to `profile.log` (`gnuplot` files and a HTML file for result visualizing are also generated):
 
 `pw-profiler`
 

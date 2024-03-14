@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (中文)
 description: "一个高压缩率的文件归档器。"
-content_hash: 28efd6e2987bf3a9fd8ed6108326c4290c832d6d
-last_modified_at: 2023-11-30
+content_hash: 1ff16b401a6a43478fa5c06569b6ba2c13f31490
+last_modified_at: 2024-03-14
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -58,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># 7zr
 
 一个高压缩率的文件归档器。
-类似于 `7z`，只支持 `.7z` 文件。
+类似于 `7z`，只支持 7z 文件。
 更多信息：<https://manned.org/7zr>.
 
 - 归档一个文件或目录：

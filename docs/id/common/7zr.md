@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (Indonesia)
 description: "Pengarsip file dengan rasio kompresi yang tinggi."
-content_hash: 94c951b780b0a6ba0955f3ebc677e4c36070609b
-last_modified_at: 2023-12-16
+content_hash: 49c0b8115a5ffabc1177e6d35fd357b2677cb322
+last_modified_at: 2024-03-14
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # 7zr
 
 Pengarsip file dengan rasio kompresi yang tinggi.
-Serupa dengan `7z` namun mendukung format file arsip `.7z` saja.
+Serupa dengan `7z` namun mendukung format file arsip 7z saja.
 Informasi lebih lanjut: <https://manned.org/7zr>.
 
 - T[a]mbahkan sebuah file atau direktori ke dalam arsip baru atau saat ini:

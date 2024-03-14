@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (français)
 description: "Un archiveur de fichiers avec un haut taux de compression."
-content_hash: 9e740a00e938ceb331538191afa26949103734dd
-last_modified_at: 2023-11-30
+content_hash: c93f9f2db03e76f5cdebb1dfc5ee9abaf27f8244
+last_modified_at: 2024-03-14
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -58,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># 7zr
 
 Un archiveur de fichiers avec un haut taux de compression.
-Similaire à `7z` sauf qu'il supporte que les fichiers `.7z`.
+Similaire à `7z` sauf qu'il supporte que les fichiers 7z.
 Plus d'informations : <https://manned.org/7zr>.
 
 - Compresse un fichier ou un dossier :

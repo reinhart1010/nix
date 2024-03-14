@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (中文)
 description: "从 Dockerfile 打包镜像。"
-content_hash: f9e6dfd3d634f48a6c42230311e078abf3292352
-last_modified_at: 2023-11-12
+content_hash: 235ec44245c72bffc901076424047b1d07811164
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -39,19 +39,19 @@ tldri18n_status: 2
 从 Dockerfile 打包镜像。
 更多信息：<https://docs.docker.com/engine/reference/commandline/build/>.
 
-- 使用当前目录下的 Dockerfile 打包一个 docker 镜像：
+- 使用当前目录下的 Dockerfile 打包一个 Docker 镜像：
 
 `docker build .`
 
-- 从指定 URL 的 Dockerfile 打包 docker 镜像：
+- 从指定 URL 的 Dockerfile 打包 Docker 镜像：
 
 `docker build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github.com/creack/docker-firefox</span>
 
-- 打包一个 docker 镜像并指定镜像的标签：
+- 打包一个 Docker 镜像并指定镜像的标签：
 
 `docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name:tag</span>` .`
 
-- 打包一个没有上下文的 docker 镜像：
+- 打包一个没有上下文的 Docker 镜像：
 
 `docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name:tag</span>` - < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span>
 
@@ -59,7 +59,7 @@ tldri18n_status: 2
 
 `docker build --no-cache --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name:tag</span>` .`
 
-- 使用指定的 Dockerfile 打包一个 docker 镜像：
+- 使用指定的 Dockerfile 打包一个 Docker 镜像：
 
 `docker build --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span>` .`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/az-vm (English)
 description: "Manage virtual machines in Azure."
-content_hash: e014d5df22007723bc83ca15b3e229968830ff43
-last_modified_at: 2023-11-12
+content_hash: c2cb3500b49fbd667e1c768a5e4572ac24b0ab4e
+last_modified_at: 2024-03-14
 related_topics:
   - title: español version
     url: /es/common/az-vm.html
@@ -20,7 +20,7 @@ More information: <https://learn.microsoft.com/cli/azure/vm>.
 
 `az vm list`
 
-- Create a virtual machine using the default Ubuntu image and generate ssh keys:
+- Create a virtual machine using the default Ubuntu image and generate SSH keys:
 
 `az vm create --resource-group `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rg</span>` --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span>` --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UbuntuLTS</span>` --admin-user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">azureuser</span>` --generate-ssh-keys`
 

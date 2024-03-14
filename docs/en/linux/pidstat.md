@@ -2,8 +2,8 @@
 layout: page
 title: linux/pidstat (English)
 description: "Show system resource usage, including CPU, memory, IO etc."
-content_hash: ef865c4325acfc496aceededb3a3f53c7e4fa9d7
-last_modified_at: 2023-11-12
+content_hash: ffc01d82a8fee148be2cfcfb1375483bfa648d0d
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # pidstat
@@ -19,7 +19,7 @@ More information: <https://manned.org/pidstat>.
 
 `pidstat -r`
 
-- Show input/output usage per process id:
+- Show input/output usage per process ID:
 
 `pidstat -d`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (español)
 description: "Archivador de ficheros con un alto ratio de compresión."
-content_hash: 09a0f4aa03f2734605982f4097bb259b0134dd71
-last_modified_at: 2023-11-30
+content_hash: 193994c485377932dc14c39d479dfa25413a9224
+last_modified_at: 2024-03-14
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -58,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># 7zr
 
 Archivador de ficheros con un alto ratio de compresión.
-Similar a `7z` excepto que sólo soporta ficheros `.7z`.
+Similar a `7z` excepto que sólo soporta ficheros 7z.
 Más información: <https://manned.org/7zr>.
 
 - [a]rchiva un archivo o directorio:

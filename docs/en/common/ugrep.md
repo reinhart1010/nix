@@ -2,8 +2,8 @@
 layout: page
 title: common/ugrep (English)
 description: "Ultra fast search tool with query TUI."
-content_hash: 7b571f3ef7357cce5582b2e654beaa5e4de4e351
-last_modified_at: 2023-11-12
+content_hash: 3c46f88e2cf20f0f7a2ddddea286600586aadf37
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/ugrep.html
@@ -38,7 +38,7 @@ More information: <https://github.com/Genivia/ugrep>.
 
 `ugrep --fuzzy=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
 
-- Also search compressed files, `zip` and `tar` archives recursively:
+- Also search compressed files, Zip and tar archives recursively:
 
 `ugrep --decompress "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
 

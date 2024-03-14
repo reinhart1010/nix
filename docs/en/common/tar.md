@@ -2,8 +2,8 @@
 layout: page
 title: common/tar (English)
 description: "Archiving utility."
-content_hash: 83b0c5caa0f2eab59526d04e77fd2ce0f2141727
-last_modified_at: 2024-01-30
+content_hash: ca0b49fe0f1882393caf5e30280afeb542f34e45
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -61,7 +61,7 @@ More information: <https://www.gnu.org/software/tar>.
 
 `tar caf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target.tar.xz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Lis[t] the contents of a `tar` [f]ile [v]erbosely:
+- Lis[t] the contents of a tar [f]ile [v]erbosely:
 
 `tar tvf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.tar</span>
 

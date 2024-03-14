@@ -2,8 +2,8 @@
 layout: page
 title: common/parallel (English)
 description: "Run commands on multiple CPU cores."
-content_hash: cffa96d78452ec16a395907fa6e78c57d3072d78
-last_modified_at: 2024-02-08
+content_hash: cc5286d5aa83fbc552812c693a078d8e24a2cbaf
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # parallel
@@ -19,7 +19,7 @@ More information: <https://www.gnu.org/software/parallel>.
 
 `ls *.txt | parallel -j4 gzip`
 
-- Convert JPG images to PNG using replacement strings:
+- Convert JPEG images to PNG using replacement strings:
 
 `parallel convert {} {.}.png ::: *.jpg`
 

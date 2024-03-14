@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-save (English)
 description: "Export Docker images to archive."
-content_hash: b55ea472f4f55b6b835833c3d65928aabfad9f1e
-last_modified_at: 2024-01-30
+content_hash: 217b2ffeac426c27e423262dfa9b11ef9d581d7c
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-save.html
@@ -24,11 +24,11 @@ tldri18n_status: 2
 Export Docker images to archive.
 More information: <https://docs.docker.com/engine/reference/commandline/save/>.
 
-- Save an image by redirecting `stdout` to a `tar` archive:
+- Save an image by redirecting `stdout` to a tar archive:
 
 `docker save `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tar</span>
 
-- Save an image to a `tar` archive:
+- Save an image to a tar archive:
 
 `docker save --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span>
 

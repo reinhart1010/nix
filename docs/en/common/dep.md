@@ -2,8 +2,8 @@
 layout: page
 title: common/dep (English)
 description: "Deploy PHP applications."
-content_hash: 9cc724f30b0db3e208ddf3a66f0fd0875691a79a
-last_modified_at: 2023-11-12
+content_hash: c91521273bf973ad6afb63f9cf28d7d39a581ca7
+last_modified_at: 2024-03-14
 related_topics:
   - title: italiano version
     url: /it/common/dep.html
@@ -31,7 +31,7 @@ More information: <https://deployer.org>.
 
 `dep rollback`
 
-- Connect to a remote host via ssh:
+- Connect to a remote host via SSH:
 
 `dep ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/bzgrep (English)
 description: "Find patterns in `bzip2` compressed files using `grep`."
-content_hash: 514759a4ed11ccb7630c2d3fce69bb33f1c843ac
-last_modified_at: 2024-01-30
+content_hash: 119a278d67abcfe3c829a5fd2a7b99489212db15
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # bzgrep
@@ -31,7 +31,7 @@ More information: <https://manned.org/bzgrep>.
 
 `bzgrep --only-matching "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Recursively search files in a `bzip2` compressed `tar` archive for a pattern:
+- Recursively search files in a bzip2 compressed tar archive for a pattern:
 
 `bzgrep --recursive "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/tar/file</span>
 

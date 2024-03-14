@@ -2,8 +2,8 @@
 layout: page
 title: common/git-init (français)
 description: "Initialise un nouveau registre Git."
-content_hash: 5054aed8f71684c60c66b9bfd6ca17b87a44d58e
-last_modified_at: 2023-11-12
+content_hash: 7aa059ba90de135a4aea64ad20ab5a5869e98570
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/git-init.html
@@ -40,6 +40,6 @@ Plus d'informations : <https://git-scm.com/docs/git-init>.
 
 `git init`
 
-- Initialiser un référentiel barebones, adapté à une utilisation distante via ssh :
+- Initialiser un référentiel barebones, adapté à une utilisation distante via SSH :
 
 `git init --bare`

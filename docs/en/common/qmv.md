@@ -2,8 +2,8 @@
 layout: page
 title: common/qmv (English)
 description: "Move files and directories using the default text editor to define the filenames."
-content_hash: 9aa810354cdc9954f55914986309a082f51d1695
-last_modified_at: 2023-11-12
+content_hash: bc18a489a7b7f9d8947519a1911cbd76db178372
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # qmv
@@ -15,7 +15,7 @@ More information: <https://www.nongnu.org/renameutils/>.
 
 `qmv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file</span>
 
-- Move multiple JPG files:
+- Move multiple JPEG files:
 
 `qmv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span>
 

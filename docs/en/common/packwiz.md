@@ -2,8 +2,8 @@
 layout: page
 title: common/packwiz (English)
 description: "Create, edit and manage Minecraft modpacks."
-content_hash: e002519f8343324e7c27a33a7b8ce8f89a7a2be6
-last_modified_at: 2023-11-12
+content_hash: a32a7d68629cda770149d7892cf143c06ce8b5b1
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # packwiz
@@ -27,6 +27,6 @@ More information: <https://packwiz.infra.link/reference/commands/packwiz/>.
 
 `packwiz refresh`
 
-- Export as a Modrinth (`.mrpack`) or Curseforge (`.zip`) file:
+- Export as a Modrinth (`.mrpack`) or Curseforge (Zip) file:
 
 `packwiz `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modrinth|curseforge</span>` export`

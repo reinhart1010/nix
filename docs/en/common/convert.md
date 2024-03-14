@@ -2,8 +2,8 @@
 layout: page
 title: common/convert (English)
 description: "Convert between image formats, scale, join, and create images, and much more."
-content_hash: 379eb6f832ea5689dc94d1a20e7b2cf0752e2e50
-last_modified_at: 2024-02-25
+content_hash: fe62b54fe2b6a03279b100a5d2583cf863fea33e
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/convert.html
@@ -28,7 +28,7 @@ Convert between image formats, scale, join, and create images, and much more.
 Part of ImageMagick.
 More information: <https://imagemagick.org/script/convert.php>.
 
-- Convert an image from JPG to PNG:
+- Convert an image from JPEG to PNG:
 
 `convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_image.jpg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_image.png</span>
 

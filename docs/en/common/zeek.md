@@ -2,8 +2,8 @@
 layout: page
 title: common/zeek (English)
 description: "Passive network traffic analyzer."
-content_hash: 46e7d7de315618310d40ac2800a8903787c8e29d
-last_modified_at: 2023-11-12
+content_hash: b573674d0293eabd584e4958f489166b34ec47c4
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # zeek
@@ -32,6 +32,6 @@ More information: <https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-comman
 
 `sudo zeek --watchdog --iface `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>
 
-- Analyze traffic from a `pcap` file:
+- Analyze traffic from a PCAP file:
 
 `zeek --readfile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.trace</span>

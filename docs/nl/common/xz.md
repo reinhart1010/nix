@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/xz (Nederlands)
-description: "Comprimeren of decomprimeren van `.xz` en `.lzma` bestanden."
-content_hash: 8e432da1a3c263157aecbcdd665576438d335806
-last_modified_at: 2023-12-30
+description: "Comprimeren of decomprimeren van XZ en LZMA bestanden."
+content_hash: 784cdc682e0833438effa7e483777d39b26ba6aa
+last_modified_at: 2024-03-14
 related_topics:
   - title: English version
     url: /en/common/xz.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # xz
 
-Comprimeren of decomprimeren van `.xz` en `.lzma` bestanden.
+Comprimeren of decomprimeren van XZ en LZMA bestanden.
 Meer informatie: <https://manned.org/xz>.
 
 - Comprimeer een bestand gebruik makend van xz file:
@@ -30,7 +30,7 @@ Meer informatie: <https://manned.org/xz>.
 
 `xz --format=lzma `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Decomprimer een lzma bestand:
+- Decomprimer een LZMA bestand:
 
 `xz --decompress --format=lzma `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.lzma</span>
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apt-add-repository (català)
-description: "Gestiona les definicions del repositori apt."
-content_hash: a00f118e21f3e267331c7d083d09d62f59c1b0f3
-last_modified_at: 2023-11-12
+description: "Gestiona les definicions del repositori APT."
+content_hash: f9d4941d7da950f17d538c36cc3f1c196876632e
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/apt-add-repository.html
@@ -33,14 +33,14 @@ tldri18n_status: 2
 ---
 # apt-add-repository
 
-Gestiona les definicions del repositori apt.
+Gestiona les definicions del repositori APT.
 Més informació: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
 
-- Afegeix un nou repositori apt:
+- Afegeix un nou repositori APT:
 
 `apt-add-repository `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repositori</span>
 
-- Elimina un repositori apt:
+- Elimina un repositori APT:
 
 `apt-add-repository --remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repositori</span>
 

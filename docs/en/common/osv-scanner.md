@@ -2,8 +2,8 @@
 layout: page
 title: common/osv-scanner (English)
 description: "Scan various mediums for dependencies and matches them against the OSV database."
-content_hash: 1a9fb2407311f1689b0145aa8f3ee84068e327b4
-last_modified_at: 2024-01-30
+content_hash: 7168265eea010d5b0756b280241254b320ec286d
+last_modified_at: 2024-03-14
 tldri18n_status: 2
 ---
 # osv-scanner
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Scan various mediums for dependencies and matches them against the OSV database.
 More information: <https://osv.dev/about>.
 
-- Scan a docker image:
+- Scan a Docker image:
 
 `osv-scanner -D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker_image_name</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (日本語)
 description: "圧縮率の高いファイルアーカイバです。"
-content_hash: 982bc326ef65913e962f8f42a36355a2a80c81a4
-last_modified_at: 2023-11-12
+content_hash: 66bbcefae617f4b09ca9474209aaa081bda9835d
+last_modified_at: 2024-03-14
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -58,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># 7zr
 
 圧縮率の高いファイルアーカイバです。
-`7z` と似ていますが、 `7zr` は `.7z` 形式のみをサポートしています。
+`7z` と似ていますが、 `7zr` は 7z 形式のみをサポートしています。
 詳しくはこちら: <https://manned.org/7zr>
 
 - ファイルまたはディレクトリを圧縮する:

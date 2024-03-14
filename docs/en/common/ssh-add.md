@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh-add (English)
 description: "Manage loaded SSH keys in the `ssh-agent`."
-content_hash: 197751db50505779469e1959e1376a10214390c9
-last_modified_at: 2024-02-15
+content_hash: 41177bcba3b3b34ff70b9400f315371e3d03f843
+last_modified_at: 2024-03-14
 related_topics:
   - title: français version
     url: /fr/common/ssh-add.html
@@ -22,7 +22,7 @@ Manage loaded SSH keys in the `ssh-agent`.
 Ensure that `ssh-agent` is up and running for the keys to be loaded in it.
 More information: <https://man.openbsd.org/ssh-add>.
 
-- Add the default ssh keys in `~/.ssh` to the ssh-agent:
+- Add the default SSH keys in `~/.ssh` to the ssh-agent:
 
 `ssh-add`
 

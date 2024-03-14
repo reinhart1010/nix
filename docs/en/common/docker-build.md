@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (English)
 description: "Build an image from a Dockerfile."
-content_hash: d645b23c54d2411e5786445bcb3973d624e75077
-last_modified_at: 2023-11-12
+content_hash: 5e069ecf5031a0a83211aaf3ba93da183b41586c
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -39,19 +39,19 @@ tldri18n_status: 2
 Build an image from a Dockerfile.
 More information: <https://docs.docker.com/engine/reference/commandline/build/>.
 
-- Build a docker image using the Dockerfile in the current directory:
+- Build a Docker image using the Dockerfile in the current directory:
 
 `docker build .`
 
-- Build a docker image from a Dockerfile at a specified URL:
+- Build a Docker image from a Dockerfile at a specified URL:
 
 `docker build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github.com/creack/docker-firefox</span>
 
-- Build a docker image and tag it:
+- Build a Docker image and tag it:
 
 `docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name:tag</span>` .`
 
-- Build a docker image with no build context:
+- Build a Docker image with no build context:
 
 `docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name:tag</span>` - < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span>
 
@@ -59,7 +59,7 @@ More information: <https://docs.docker.com/engine/reference/commandline/build/>.
 
 `docker build --no-cache --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name:tag</span>` .`
 
-- Build a docker image using a specific Dockerfile:
+- Build a Docker image using a specific Dockerfile:
 
 `docker build --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span>` .`
 

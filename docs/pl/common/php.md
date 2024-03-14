@@ -2,8 +2,8 @@
 layout: page
 title: common/php (polski)
 description: "Interfejs wiersza poleceń PHP."
-content_hash: 3b3960de571b8cb06dab5131f3de9b961100d98e
-last_modified_at: 2023-11-12
+content_hash: 0f6d98456484ccb1b80c25c39b2d23d9ae3dee31
+last_modified_at: 2024-03-14
 related_topics:
   - title: Deutsch version
     url: /de/common/php.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 Interfejs wiersza poleceń PHP.
 Więcej informacji: <https://php.net>.
 
-- Parsuj i uruchom skrypt php:
+- Parsuj i uruchom skrypt PHP:
 
 `php `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik</span>
 
