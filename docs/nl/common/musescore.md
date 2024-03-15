@@ -2,8 +2,8 @@
 layout: page
 title: common/musescore (Nederlands)
 description: "MuseScore 3 bladmuziek bewerker."
-content_hash: 05c93d1a40f8947bf4fe8a3a0acc84f52b45266c
-last_modified_at: 2023-11-12
+content_hash: f8c7e17d9862860e472ad05976cfac88e948e424
+last_modified_at: 2024-03-15
 related_topics:
   - title: Deutsch version
     url: /de/common/musescore.html
@@ -22,7 +22,7 @@ Meer informatie: <https://musescore.org/en/handbook/3/command-line-options>.
 
 `musescore --audio-driver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jack|alsa|portaudio|pulse</span>
 
-- Stel de MP3 uitvoer bitsnelheid in in kbit/s:
+- Stel de MP3 uitvoer bitsnelheid in kbit/s:
 
 `musescore --bitrate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bitsnelheid</span>
 

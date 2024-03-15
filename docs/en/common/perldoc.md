@@ -2,8 +2,8 @@
 layout: page
 title: common/perldoc (English)
 description: "Look up Perl documentation in `.pod` format."
-content_hash: b9f1d2fbade7e7507c4265fef7cae266a68d4c90
-last_modified_at: 2024-01-10
+content_hash: 5ddf3e6d3d0cec74dda1ea6d7649a5fa535d9c40
+last_modified_at: 2024-03-15
 tldri18n_status: 2
 ---
 # perldoc
@@ -15,7 +15,7 @@ More information: <https://perldoc.perl.org/perldoc>.
 
 `perldoc -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f|v|a</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
 
-- Search in the the question headings of Perl FAQ:
+- Search in the question headings of Perl FAQ:
 
 `perldoc -q `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex</span>
 
