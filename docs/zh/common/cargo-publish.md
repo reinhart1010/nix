@@ -3,23 +3,14 @@ layout: page
 title: common/cargo-publish (中文)
 description: "将包上传到注册表。"
 content_hash: a7a2942e3d77579874b1a1ab5a758b740210275a
-last_modified_at: 2024-03-14
+last_modified_at: 2024-03-15
 related_topics:
   - title: English version
     url: /en/common/cargo-publish.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-publish.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo publish
+# cargo publish
 
 将包上传到注册表。
 注意：在发布包之前，您必须使用 `cargo login` 添加身份验证令牌。

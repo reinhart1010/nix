@@ -3,23 +3,14 @@ layout: page
 title: common/cargo-run (中文)
 description: "运行当前的 Cargo 包。"
 content_hash: 611bfe3b64fad201fccaed2adba9f05de095ad80
-last_modified_at: 2024-03-14
+last_modified_at: 2024-03-15
 related_topics:
   - title: English version
     url: /en/common/cargo-run.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-run.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo run
+# cargo run
 
 运行当前的 Cargo 包。
 注意: 执行的二进制文件的工作目录将设置为当前工作目录。

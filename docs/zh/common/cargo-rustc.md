@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-rustc (中文)
 description: "编译一个 Rust 包。类似于 `cargo build`，但您可以向编译器传递额外的选项。"
 content_hash: 84d18131aca54d4fbedd6a3b8996aa62832f2c23
-last_modified_at: 2024-03-14
+last_modified_at: 2024-03-15
 related_topics:
   - title: English version
     url: /en/common/cargo-rustc.html
@@ -14,18 +14,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo-rustc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-rustc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo rustc
+# cargo rustc
 
 编译一个 Rust 包。类似于 `cargo build`，但您可以向编译器传递额外的选项。
 查看 `rustc --help` 获取所有可用选项。

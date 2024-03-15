@@ -3,23 +3,14 @@ layout: page
 title: common/cargo-login (中文)
 description: "将 API 令牌保存到本地的凭据存储中。"
 content_hash: 5ea1c3712a3306649610b6a40758b8b79ed0689a
-last_modified_at: 2024-03-14
+last_modified_at: 2024-03-15
 related_topics:
   - title: English version
     url: /en/common/cargo-login.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-login.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo login
+# cargo login
 
 将 API 令牌保存到本地的凭据存储中。
 该令牌用于对包注册表进行身份验证。您可以使用 `cargo logout` 来删除它。

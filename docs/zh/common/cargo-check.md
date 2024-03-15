@@ -3,23 +3,14 @@ layout: page
 title: common/cargo-check (中文)
 description: "检查本地软件包及其所有依赖包是否有错误。"
 content_hash: cd1d1d9b15a5e4edaf9c39354856e34e788f0e7d
-last_modified_at: 2024-03-14
+last_modified_at: 2024-03-15
 related_topics:
   - title: English version
     url: /en/common/cargo-check.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-check.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo check
+# cargo check
 
 检查本地软件包及其所有依赖包是否有错误。
 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-check.html>.

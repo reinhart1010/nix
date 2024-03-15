@@ -3,23 +3,14 @@ layout: page
 title: common/cargo-fmt (中文)
 description: "在 Rust 项目中对所有源文件运行 `rustfmt`。"
 content_hash: e178f93b6fd88c85ab8809e26275c5dee5603b07
-last_modified_at: 2024-03-14
+last_modified_at: 2024-03-15
 related_topics:
   - title: English version
     url: /en/common/cargo-fmt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-fmt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo fmt
+# cargo fmt
 
 在 Rust 项目中对所有源文件运行 `rustfmt`。
 更多信息：<https://github.com/rust-lang/rustfmt>.

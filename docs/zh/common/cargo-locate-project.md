@@ -3,23 +3,14 @@ layout: page
 title: common/cargo-locate-project (中文)
 description: "打印项目的 `Cargo.toml` 清单文件的完整路径。"
 content_hash: 3fb7315ec6f22a18c3680d138f73d5789dfd40f6
-last_modified_at: 2024-03-14
+last_modified_at: 2024-03-15
 related_topics:
   - title: English version
     url: /en/common/cargo-locate-project.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-locate-project.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo locate-project
+# cargo locate-project
 
 打印项目的 `Cargo.toml` 清单文件的完整路径。
 如果项目是工作区的一部分，则显示项目的清单文件，而不是工作区的清单文件。

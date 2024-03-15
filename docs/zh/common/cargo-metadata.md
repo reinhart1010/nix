@@ -3,23 +3,14 @@ layout: page
 title: common/cargo-metadata (中文)
 description: "以 JSON 格式输出当前包的工作空间成员和已解析的依赖关系。"
 content_hash: b0f15784d882a44eafea60dd5034b1873b83e29e
-last_modified_at: 2024-03-14
+last_modified_at: 2024-03-15
 related_topics:
   - title: English version
     url: /en/common/cargo-metadata.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-metadata.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo metadata
+# cargo metadata
 
 以 JSON 格式输出当前包的工作空间成员和已解析的依赖关系。
 注意：输出格式可能在未来的 Cargo 版本中发生变化。
