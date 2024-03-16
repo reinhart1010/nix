@@ -2,8 +2,8 @@
 layout: page
 title: windows/reg-query (English)
 description: "Display the values of keys and subkeys in the registry."
-content_hash: 0214c99baddbb11fa372cb8c0659adb5ea655437
-last_modified_at: 2024-03-07
+content_hash: 69d68a1820856e48c36ee62934b8e10e90d32c60
+last_modified_at: 2024-03-16
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-query.html
@@ -41,7 +41,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Only search in [k]ey names:
 
-`reg query `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` /f /k`
+`reg query `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` /f "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query_pattern</span>`" /k`
 
 - [c]ase-sensitively search for an [e]xact match:
 

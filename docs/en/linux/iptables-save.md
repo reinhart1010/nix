@@ -2,8 +2,8 @@
 layout: page
 title: linux/iptables-save (English)
 description: "Save the `iptables` IPv4 configuration."
-content_hash: 45b70241e91087ddd4511c1d47fbb4e0dcf5255d
-last_modified_at: 2024-03-15
+content_hash: ece0b41e50daab5b6515ff6fbf655bdca26c9749
+last_modified_at: 2024-03-16
 related_topics:
   - title: Nederlands version
     url: /nl/linux/iptables-save.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # iptables-save
 
 Save the `iptables` IPv4 configuration.
-Use `ip6tables-save` to the same for IPv6.
+Use `ip6tables-save` to do the same for IPv6.
 More information: <https://manned.org/iptables-save>.
 
 - Print the `iptables` configuration:
