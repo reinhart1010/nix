@@ -2,8 +2,8 @@
 layout: page
 title: common/base32 (English)
 description: "Encode or decode file or `stdin` to/from Base32, to `stdout`."
-content_hash: d84e0049b6eb61b83d81da08bda1dcbb71f07295
-last_modified_at: 2023-11-12
+content_hash: 4ab56ea5e1d542acd2705c24fd0c357f543bf977
+last_modified_at: 2024-03-16
 related_topics:
   - title: français version
     url: /fr/common/base32.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/base32.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/base32.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/base32.html
@@ -36,6 +39,10 @@ More information: <https://www.gnu.org/software/coreutils/base32>.
 - Encode a file:
 
 `base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Wrap encoded output at a specific width (`0` disables wrapping):
+
+`base32 --wrap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Decode a file:
 

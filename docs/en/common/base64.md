@@ -2,8 +2,8 @@
 layout: page
 title: common/base64 (English)
 description: "Encode or decode file or `stdin` to/from Base64, to `stdout`."
-content_hash: 4584ca846577114040a4c8f1c7f7e7ec7437b591
-last_modified_at: 2023-11-12
+content_hash: 9179101d28bbb964269be382895c70f905dbd899
+last_modified_at: 2024-03-16
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -45,6 +45,10 @@ More information: <https://www.gnu.org/software/coreutils/base64>.
 - Encode the contents of a file as base64 and write the result to `stdout`:
 
 `base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Wrap encoded output at a specific width (`0` disables wrapping):
+
+`base64 --wrap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Decode the base64 contents of a file and write the result to `stdout`:
 
