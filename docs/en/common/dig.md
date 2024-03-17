@@ -2,8 +2,8 @@
 layout: page
 title: common/dig (English)
 description: "DNS lookup utility."
-content_hash: 09adaf1026a5e772f4d677509063b3fe3ad7fd6c
-last_modified_at: 2024-02-11
+content_hash: cce2224b57aac6c80350eaad3cc5f8b578b22d67
+last_modified_at: 2024-03-17
 related_topics:
   - title: español version
     url: /es/common/dig.html
@@ -42,9 +42,9 @@ More information: <https://manned.org/dig>.
 
 `dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|MX|TXT|CNAME|NS</span>
 
-- Specify an alternate DNS server to query:
+- Specify an alternate DNS server to query and optionally use DNS over TLS (DoT):
 
-`dig @`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+`dig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+tls</span>` @`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1|8.8.8.8|9.9.9.9|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
 - Perform a reverse DNS lookup on an IP address (PTR record):
 
