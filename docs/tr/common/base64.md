@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (Türkçe)
 description: "Bir dosya veya standart veriyi Base64 formatında şifrele veya yalın veri çıktısı olarak deşifre et."
 content_hash: dc0cc82dde0880eb6111fa813c9b05a6e64ddab3
-last_modified_at: 2023-11-12
+last_modified_at: 2024-03-17
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# base64
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># base64
 
 Bir dosya veya standart veriyi Base64 formatında şifrele veya yalın veri çıktısı olarak deşifre et.
 Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/base64>.

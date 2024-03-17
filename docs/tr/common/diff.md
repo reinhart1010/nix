@@ -3,7 +3,7 @@ layout: page
 title: common/diff (Türkçe)
 description: "Dosyaları ve dizinleri karşılaştırın."
 content_hash: 11a1ead44bbb763fbb7616d6ccec0c33117d2306
-last_modified_at: 2023-11-12
+last_modified_at: 2024-03-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -32,9 +32,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/diff.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# diff
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># diff
 
 Dosyaları ve dizinleri karşılaştırın.
 Daha fazla bilgi için: <https://man7.org/linux/man-pages/man1/diff.1.html>.

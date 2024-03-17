@@ -3,7 +3,7 @@ layout: page
 title: common/amass-enum (Nederlands)
 description: "Vind subdomeinen van een domein."
 content_hash: 6c9716d701c2b212a72453a365d8f7c5b71cb7e1
-last_modified_at: 2023-11-26
+last_modified_at: 2024-03-17
 related_topics:
   - title: English version
     url: /en/common/amass-enum.html
@@ -14,9 +14,12 @@ related_topics:
   - title: français version
     url: /fr/common/amass-enum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# amass enum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># amass enum
 
 Vind subdomeinen van een domein.
 Meer informatie: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-enum-subcommand>.

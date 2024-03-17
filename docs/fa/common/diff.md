@@ -3,7 +3,7 @@ layout: page
 title: common/diff (فارسی)
 description: "مقایسه فایل(ها) و پوشه(ها)."
 content_hash: 632c4de15b88c793e2c71124030c193cd85e481f
-last_modified_at: 2024-01-05
+last_modified_at: 2024-03-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -32,9 +32,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/diff.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# diff
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># diff
 
 مقایسه فایل(ها) و پوشه(ها).
 اطلاعات بیشتر: <https://man7.org/linux/man-pages/man1/diff.1.html>.

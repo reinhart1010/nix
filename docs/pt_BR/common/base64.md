@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (português (Brasil))
 description: "Codifica ou decodifica um arquivo ou uma entrada padrão (`stdin`) de/para Base64, para uma saída padrão (`stdout`)."
 content_hash: 0692ac03c5095b2da73ef1a5d75d2bb6b0a92707
-last_modified_at: 2023-11-12
+last_modified_at: 2024-03-17
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# base64
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># base64
 
 Codifica ou decodifica um arquivo ou uma entrada padrão (`stdin`) de/para Base64, para uma saída padrão (`stdout`).
 Mais informações: <https://www.gnu.org/software/coreutils/base64>.

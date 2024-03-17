@@ -3,7 +3,7 @@ layout: page
 title: common/diff (中文 (繁體, 台灣))
 description: "比較兩個檔案或目錄間的差異。"
 content_hash: 7759329be39841d3268f8809c1cb02e074ce768d
-last_modified_at: 2023-11-12
+last_modified_at: 2024-03-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -32,9 +32,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/diff.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# diff
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># diff
 
 比較兩個檔案或目錄間的差異。
 更多資訊：<https://man7.org/linux/man-pages/man1/diff.1.html>.

@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (italiano)
 description: "Codifica o decodifica file o standard input in Base64 su standard output."
 content_hash: 3b43de144f0939dd5e186c9fcaf97abc35371db8
-last_modified_at: 2023-11-12
+last_modified_at: 2024-03-17
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# base64
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># base64
 
 Codifica o decodifica file o standard input in Base64 su standard output.
 Maggiori informazioni: <https://www.gnu.org/software/coreutils/base64>.

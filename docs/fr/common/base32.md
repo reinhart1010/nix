@@ -3,7 +3,7 @@ layout: page
 title: common/base32 (français)
 description: "Encode ou décode un fichier ou l'entrée standard vers ou depuis la base 32, et retourne le résultat à la sortie standard."
 content_hash: 3aef394a69a04929b94446b7e9cb1dc31b089a2d
-last_modified_at: 2023-11-12
+last_modified_at: 2024-03-17
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/base32.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/base32.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/base32.html
@@ -26,9 +29,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base32.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# base32
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># base32
 
 Encode ou décode un fichier ou l'entrée standard vers ou depuis la base 32, et retourne le résultat à la sortie standard.
 Plus d'informations : <https://www.gnu.org/software/coreutils/base32>.

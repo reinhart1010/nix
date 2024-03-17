@@ -2,8 +2,8 @@
 layout: page
 title: common/amass-intel (English)
 description: "Collect open source intel on an organisation like root domains and ASNs."
-content_hash: 0e80c347abfcfe2cd77e6e0ad582b5b4f98b29ea
-last_modified_at: 2024-02-09
+content_hash: 88d59b5ebd778ba48b1d5fb384f364297ee3c4ea
+last_modified_at: 2024-03-17
 related_topics:
   - title: español version
     url: /es/common/amass-intel.html
@@ -19,9 +19,9 @@ tldri18n_status: 2
 # amass intel
 
 Collect open source intel on an organisation like root domains and ASNs.
-More information: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
+More information: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
 
-- Find root domains in an IP address range:
+- Find root domains in an IP [addr]ess range:
 
 `amass intel -addr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1-254</span>
 
@@ -33,7 +33,7 @@ More information: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#
 
 `amass intel -whois -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span>
 
-- Find ASNs belonging to an organisation:
+- Find ASNs belonging to an [org]anisation:
 
 `amass intel -org `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organisation_name</span>
 
@@ -44,3 +44,7 @@ More information: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#
 - Save results to a text file:
 
 `amass intel -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span>` -whois -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span>
+
+- List all available data sources:
+
+`amass intel -list`

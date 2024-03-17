@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (Nederlands)
 description: "Encodeer of decodeer een bestand of `stdin` van/naar Base64 naar `stdout`."
 content_hash: c1e525837d8a759c1de6534eacbac6cd1456a8fb
-last_modified_at: 2024-01-04
+last_modified_at: 2024-03-17
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# base64
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># base64
 
 Encodeer of decodeer een bestand of `stdin` van/naar Base64 naar `stdout`.
 Meer informatie: <https://www.gnu.org/software/coreutils/base64>.

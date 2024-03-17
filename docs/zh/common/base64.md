@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (中文)
 description: "将文件或标准输入编码到 Base64 或从 Base64 解码为标准输出。"
 content_hash: f454663de2e72b5efd047d22e9ba0777d518a5c2
-last_modified_at: 2023-11-12
+last_modified_at: 2024-03-17
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -35,9 +35,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/base64.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# base64
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># base64
 
 将文件或标准输入编码到 Base64 或从 Base64 解码为标准输出。
 更多信息：<https://www.gnu.org/software/coreutils/base64>.
