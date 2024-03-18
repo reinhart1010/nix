@@ -2,8 +2,8 @@
 layout: page
 title: common/amass-intel (français)
 description: "Collecte des renseignements open source sur une organisation comme les noms de domaines racine et les ASNs."
-content_hash: 9128122d382466f0d75bb4b4e5101e19bcfd7dfc
-last_modified_at: 2024-03-17
+content_hash: 41165ccb53f9d32b78252812cf4bad6125c2bd07
+last_modified_at: 2024-03-18
 related_topics:
   - title: English version
     url: /en/common/amass-intel.html
@@ -22,7 +22,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># amass intel
 
 Collecte des renseignements open source sur une organisation comme les noms de domaines racine et les ASNs.
-Plus d'informations : <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
+Plus d'informations : <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
 
 - Recherche les domaines racines inclus dans une plage d'adresse IP :
 

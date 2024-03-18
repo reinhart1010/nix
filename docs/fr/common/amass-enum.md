@@ -2,8 +2,8 @@
 layout: page
 title: common/amass-enum (français)
 description: "Trouve les sous-domaines d'un domaine."
-content_hash: 53b17b94d96d4661307d1eb8a7e9d9c39724ae6d
-last_modified_at: 2024-03-17
+content_hash: eb7365fc9c64cdd0f51121bd287bfb3d441cfd03
+last_modified_at: 2024-03-18
 related_topics:
   - title: English version
     url: /en/common/amass-enum.html
@@ -22,7 +22,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># amass enum
 
 Trouve les sous-domaines d'un domaine.
-Plus d'informations : <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-enum-subcommand>.
+Plus d'informations : <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand>.
 
 - Trouve les sous-domaines d'un domaine passivement :
 

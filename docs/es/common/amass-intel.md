@@ -2,8 +2,8 @@
 layout: page
 title: common/amass-intel (español)
 description: "Recopila información de código abierto sobre una organización, como dominios raíz y ASNs."
-content_hash: c72bb59cdd785d68f0828d886516a88d48e3c553
-last_modified_at: 2024-03-17
+content_hash: 3d54db11aa180f95cce79f30a0ada6574aa42b24
+last_modified_at: 2024-03-18
 related_topics:
   - title: English version
     url: /en/common/amass-intel.html
@@ -22,7 +22,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># amass intel
 
 Recopila información de código abierto sobre una organización, como dominios raíz y ASNs.
-Más información: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
+Más información: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
 
 - Encuentra dominios raíz en un rango de direcciones IP específico:
 

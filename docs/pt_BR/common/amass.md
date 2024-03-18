@@ -2,8 +2,8 @@
 layout: page
 title: common/amass (português (Brasil))
 description: "Ferramenta de Attack Surface Mapping (mapeamento de superfície de ataque) e Asset Discovery (descoberta de asset) em profundidade."
-content_hash: 3f8d67d81e9ec14bcd56ab07893ab6ce6e921527
-last_modified_at: 2023-11-12
+content_hash: dc3c4b73ea146069c1db4d5b086c0f902ea830a2
+last_modified_at: 2024-03-18
 related_topics:
   - title: English version
     url: /en/common/amass.html
@@ -14,6 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/amass.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/amass.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/amass.html
     icon: bi bi-globe
@@ -22,20 +25,20 @@ tldri18n_status: 2
 # amass
 
 Ferramenta de Attack Surface Mapping (mapeamento de superfície de ataque) e Asset Discovery (descoberta de asset) em profundidade.
-Alguns subcomandos como `amass db` tem sua propria documentacao de uso.
-Mais informações: <https://github.com/OWASP/Amass>.
+Alguns subcomandos como `amass intel` tem sua propria documentacao de uso.
+Mais informações: <https://github.com/owasp-amass/amass>.
 
 - Executa um subcomando Amass:
 
-`amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
+`amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intel|enum</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">options</span>
 
 - Mostra ajuda geral:
 
 `amass -help`
 
-- Mostra ajuda de um subcomando Amass (como `intel`, `enum`, etc.):
+- Mostra ajuda de um subcomando Amass:
 
-`amass -help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
+`amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intel|enum</span>` -help`
 
 - Mostra a versão:
 
