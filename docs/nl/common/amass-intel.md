@@ -3,7 +3,7 @@ layout: page
 title: common/amass-intel (Nederlands)
 description: "Verzamel open source informatie over een organisatie, zoals hoofddomeinen en ASN's."
 content_hash: 07a6f9d32243a09b200d43c2c5936fa4c212bd38
-last_modified_at: 2024-03-18
+last_modified_at: 2024-03-19
 related_topics:
   - title: English version
     url: /en/common/amass-intel.html
@@ -14,12 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/amass-intel.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># amass intel
+# amass intel
 
 Verzamel open source informatie over een organisatie, zoals hoofddomeinen en ASN's.
 Meer informatie: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.

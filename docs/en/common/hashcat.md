@@ -2,8 +2,8 @@
 layout: page
 title: common/hashcat (English)
 description: "Fast and advanced password recovery tool."
-content_hash: 9129b5360ae10e8918b1aab2b991949425f92b74
-last_modified_at: 2023-11-12
+content_hash: 1c0807d1f7be83f5f617b388ead8fd9e3decc55d
+last_modified_at: 2024-03-19
 related_topics:
   - title: français version
     url: /fr/common/hashcat.html
@@ -42,3 +42,7 @@ More information: <https://hashcat.net/wiki/doku.php?id=hashcat>.
 - Show result of an already cracked hash:
 
 `hashcat --show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_value</span>
+
+- Show all example hashes:
+
+`hashcat --example-hashes`
