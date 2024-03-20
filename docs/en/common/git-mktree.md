@@ -3,19 +3,10 @@ layout: page
 title: common/git-mktree (English)
 description: "Build a tree object using `ls-tree` formatted text."
 content_hash: 6c51d21e4e579f9ee9c9257b4b43ecebe7c536db
-last_modified_at: 2024-03-19
-tldri18n_status: 0
+last_modified_at: 2024-03-20
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-mktree.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git mktree
+# git mktree
 
 Build a tree object using `ls-tree` formatted text.
 More information: <https://git-scm.com/docs/git-mktree>.
