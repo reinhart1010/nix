@@ -2,8 +2,8 @@
 layout: page
 title: common/pcapfix (English)
 description: "Repair damaged or corrupted PCAP and PcapNG files."
-content_hash: 65c999d049516ef96d0d49d90d71ed92b63dc837
-last_modified_at: 2024-03-14
+content_hash: 2263af2b0a0921911945b126225592f5205d1aeb
+last_modified_at: 2024-03-20
 related_topics:
   - title: español version
     url: /es/common/pcapfix.html
@@ -27,7 +27,7 @@ More information: <https://f00l.de/pcapfix/>.
 
 `pcapfix --outfile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repaired.pcap</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span>
 
-- Repair a PcapNG file and treat it as a PcapNG file, ignoring the automatic recognition:
+- Treat the specified file as a PcapNG file, ignoring automatic recognition:
 
 `pcapfix --pcapng `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcapng</span>
 
