@@ -2,14 +2,18 @@
 layout: page
 title: common/cargo-init (English)
 description: "Create a new Cargo package."
-content_hash: 220036df4da0f154f5abb18d55213e60ab1892f5
-last_modified_at: 2023-11-12
+content_hash: 7e3e0698e1e1882ea9bdaa29788870ac85fe15da
+last_modified_at: 2024-03-20
+related_topics:
+  - title: 中文 version
+    url: /zh/common/cargo-init.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # cargo init
 
 Create a new Cargo package.
-Equivalent of `cargo new`, but specifiying a directory is optional.
+Equivalent of `cargo new`, but specifying a directory is optional.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-init.html>.
 
 - Initialize a Rust project with a binary target in the current directory:
