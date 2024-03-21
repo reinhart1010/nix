@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/chisel (English)
-description: "Create TCP tunnels. Includes both client and server."
-content_hash: 75b7d0ac9052985f1a7b2420becd0da25ffa0505
-last_modified_at: 2023-11-12
+description: "Create TCP/UDP tunnels, transported over HTTP, secured via SSH."
+content_hash: 5dc33342a38a458650d48b462f19fc6d6f10491d
+last_modified_at: 2024-03-21
 related_topics:
   - title: 한국어 version
     url: /ko/common/chisel.html
@@ -12,7 +12,8 @@ tldri18n_status: 2
 ---
 # chisel
 
-Create TCP tunnels. Includes both client and server.
+Create TCP/UDP tunnels, transported over HTTP, secured via SSH.
+Includes both client and server in the same `chisel` executable.
 More information: <https://github.com/jpillora/chisel>.
 
 - Run a Chisel server:
@@ -38,3 +39,11 @@ More information: <https://github.com/jpillora/chisel>.
 - Connect to a Chisel server using username and password authentication:
 
 `chisel client --auth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_server</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span>
+
+- Initialize a Chisel server in reverse mode on a specific port, also enabling SOCKS5 proxy (on port 1080) functionality:
+
+`chisel server -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_port</span>` --reverse --socks5`
+
+- Connect to a Chisel server at specific IP and port, creating a reverse tunnel mapped to a local SOCKS proxy:
+
+`chisel client `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_port</span>` R:socks`
