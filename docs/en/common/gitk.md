@@ -2,8 +2,8 @@
 layout: page
 title: common/gitk (English)
 description: "A graphical Git repository browser."
-content_hash: 92a5621f1511ae15b6bef4cb700b211102b615cb
-last_modified_at: 2023-11-12
+content_hash: 133fa7ec57d18b365cab7706a3e22a14869f9c28
+last_modified_at: 2024-03-22
 related_topics:
   - title: Türkçe version
     url: /tr/common/gitk.html
@@ -33,4 +33,4 @@ More information: <https://git-scm.com/docs/gitk>.
 
 - Show at most 100 changes in all branches:
 
-` gitk --max-count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` --all`
+`gitk --max-count=100 --all`

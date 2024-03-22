@@ -2,8 +2,8 @@
 layout: page
 title: common/rclone (English)
 description: "Copy, synchronize or move files and directories to and from many cloud services."
-content_hash: a15388d52ed76fbedda327fa5f38f6e5fb4ff8d1
-last_modified_at: 2024-02-13
+content_hash: a8e9f031b29523c6eff8b1e87b965c32c1af0d87
+last_modified_at: 2024-03-22
 tldri18n_status: 2
 ---
 # rclone
@@ -25,7 +25,7 @@ More information: <https://rclone.org>.
 
 - Copy files changed within the past 24 hours to a remote from the local machine, asking the user to confirm each file:
 
-`rclone copy --interactive --max-age 24h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_directory</span>` `
+`rclone copy --interactive --max-age 24h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_directory</span>
 
 - Mirror a specific file or directory (Note: Unlike copy, sync removes files from the remote if it does not exist locally):
 

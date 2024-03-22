@@ -2,8 +2,8 @@
 layout: page
 title: common/kitex (English)
 description: "Code generation tool provided by the Go RPC framework Kitex."
-content_hash: 8cb68df462e761a3a6b223f6b61041b59702c301
-last_modified_at: 2023-11-12
+content_hash: ff6b7cd5b155ea0f1fbb6c511f781a5f25e3c960
+last_modified_at: 2024-03-22
 related_topics:
   - title: 中文 version
     url: /zh/common/kitex.html
@@ -22,7 +22,7 @@ More information: <https://www.cloudwego.io>.
 
 - Generate client codes when a project is not in `$GOPATH`:
 
-` kitex -module `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github.com/xx-org/xx-name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/IDL_file.thrift</span>
+`kitex -module `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github.com/xx-org/xx-name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/IDL_file.thrift</span>
 
 - Generate client codes with protobuf IDL:
 
