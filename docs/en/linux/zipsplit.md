@@ -1,24 +1,28 @@
 ---
 layout: page
 title: linux/zipsplit (English)
-description: "Read a zipfile and split it into smaller zipfiles."
-content_hash: 6b6329931596f1441e345036ce5d3dc433e1a83b
-last_modified_at: 2023-11-12
+description: "Split a Zip archive into smaller Zip archives."
+content_hash: ae70363bd1e5e9a1748ec153da02c0ba8b0be2ee
+last_modified_at: 2024-03-24
 tldri18n_status: 2
 ---
 # zipsplit
 
-Read a zipfile and split it into smaller zipfiles.
+Split a Zip archive into smaller Zip archives.
 More information: <https://manned.org/zipsplit>.
 
-- Split zipfile into pieces that are no larger than a particular size [n]:
+- Split Zip archive into parts that are no larger than 36000 bytes (36 MB):
+
+`zipsplit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zip</span>
+
+- Use a given [n]umber of bytes as the part limit:
 
 `zipsplit -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zip</span>
 
-- [p]ause between the creation of each split zipfile:
+- [p]ause between the creation of each part:
 
 `zipsplit -p -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zip</span>
 
-- Output the split zipfiles into the `archive` directory:
+- Output the smaller Zip archives into a given directory:
 
-`zipsplit -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive</span>` -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zip</span>
+`zipsplit -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span>` -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zip</span>
