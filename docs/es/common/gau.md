@@ -2,8 +2,8 @@
 layout: page
 title: common/gau (español)
 description: "Obtén todas las URLs: obtén las URLs conocidas de Open Threat Exchange de AlienVault, Wayback Machine y Common Crawl para cualquier dominio."
-content_hash: e77d80010de5692c47160bd581151c2b8a9d5b9a
-last_modified_at: 2024-03-25
+content_hash: bb2f5f0e095aae83b810acbc5ac23dac3a55aaa0
+last_modified_at: 2024-03-27
 related_topics:
   - title: English version
     url: /en/common/gau.html
@@ -25,7 +25,7 @@ Más información: <https://github.com/lc/gau>.
 
 - Obtén todas las URLs de varios dominios en un archivo de entrada, ejecutando varios subprocesos:
 
-`gau --threads `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/dominios.txt}</span>
+`gau --threads `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/dominios.txt</span>
 
 - Escribe los resultados en un archivo:
 
