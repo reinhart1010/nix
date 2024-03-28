@@ -1,0 +1,40 @@
+<h1 id="gzip">gzip</h1>
+
+<p>Compacta/descompacta arquivos com compressão gzip (LZ77).
+Mais informações: <a href="https://www.gnu.org/software/gzip/manual/gzip.html">https://www.gnu.org/software/gzip/manual/gzip.html</a>.</p>
+
+<ul>
+  <li>Compacta um arquivo, substituindo-o por uma versão compactada gzip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span></p>
+
+<ul>
+  <li>Descompacta um arquivo, substituindo-o pela versão não compactada original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span><code class="language-plaintext highlighter-rouge">.gz</code></p>
+
+<ul>
+  <li>Compacta um arquivo, mantendo o arquivo original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip --keep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span></p>
+
+<ul>
+  <li>Compacta um arquivo definindo o nome do arquivo de saída:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_compactado.ext.gz</span></p>
+
+<ul>
+  <li>Descompacta um arquivo gzip definindo o nome do arquivo de saída:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip -c -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span><code class="language-plaintext highlighter-rouge">.gz &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_descompactado.ext</span></p>
+
+<ul>
+  <li>Especifica o nível de compactação. 1=mais rápido (pior), 9=mais lendo 9melhor, o nível padrão é 6:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip -9 -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_compactado.ext.gz</span></p>

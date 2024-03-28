@@ -1,0 +1,22 @@
+<h1 id="sendmail">sendmail</h1>
+
+<p>Send email.
+More information: <a href="https://manned.org/sendmail">https://manned.org/sendmail</a>.</p>
+
+<ul>
+  <li>Send a message with the content of <code class="language-plaintext highlighter-rouge">message.txt</code> to the mail directory of local user <code class="language-plaintext highlighter-rouge">username</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sendmail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message.txt</span></p>
+
+<ul>
+  <li>Send an email from you@yourdomain.com (assuming the mail server is configured for this) to test@gmail.com containing the message in <code class="language-plaintext highlighter-rouge">message.txt</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sendmail -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">you@yourdomain.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test@gmail.com</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message.txt</span></p>
+
+<ul>
+  <li>Send an email from you@yourdomain.com (assuming the mail server is configured for this) to test@gmail.com containing the file <code class="language-plaintext highlighter-rouge">file.zip</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sendmail -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">you@yourdomain.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test@gmail.com</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.zip</span></p>

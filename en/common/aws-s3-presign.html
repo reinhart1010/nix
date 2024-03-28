@@ -1,0 +1,22 @@
+<h1 id="aws-s3-presign">aws s3 presign</h1>
+
+<p>Generate pre-signed URLs for Amazon S3 objects.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/presign.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/presign.html</a>.</p>
+
+<ul>
+  <li>Generate a pre-signed URL for a specific S3 object that is valid for one hour:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 presign s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Generate a pre-signed URL valid for a specific lifetime:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 presign s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --expires-in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">duration_in_seconds</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 presign help</code></p>

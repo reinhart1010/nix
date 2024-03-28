@@ -1,0 +1,35 @@
+<h1 id="dokku">dokku</h1>
+
+<p>Docker powered mini-Heroku (PaaS).
+Easily deploy multiple apps to your server in different languages using a single <code class="language-plaintext highlighter-rouge">git-push</code> command.
+More information: <a href="https://github.com/dokku/dokku">https://github.com/dokku/dokku</a>.</p>
+
+<ul>
+  <li>List running apps:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku apps</code></p>
+
+<ul>
+  <li>Create an app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku apps:create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>
+
+<ul>
+  <li>Remove an app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku apps:destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>
+
+<ul>
+  <li>Install plugin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku plugin:install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">full_repo_url</span></p>
+
+<ul>
+  <li>Link database to an app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db</span><code class="language-plaintext highlighter-rouge">:link </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>

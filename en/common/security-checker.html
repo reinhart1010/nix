@@ -1,0 +1,22 @@
+<h1 id="security-checker">security-checker</h1>
+
+<p>Check if a PHP application uses dependencies with known security vulnerabilities.
+More information: <a href="https://github.com/sensiolabs/security-checker">https://github.com/sensiolabs/security-checker</a>.</p>
+
+<ul>
+  <li>Look for security issues in the project dependencies (based on the <code class="language-plaintext highlighter-rouge">composer.lock</code> file in the current directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security-checker security:check</code></p>
+
+<ul>
+  <li>Use a specific <code class="language-plaintext highlighter-rouge">composer.lock</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security-checker security:check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/composer.lock</span></p>
+
+<ul>
+  <li>Return results as a JSON object:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security-checker security:check --format=json</code></p>

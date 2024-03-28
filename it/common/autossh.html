@@ -1,0 +1,41 @@
+<h1 id="autossh">autossh</h1>
+
+<p>Esegue, monitora e riavvia connessioni SSH.
+Si riconnette automaticamente per tenere attivi tunnel di port forwarding. Accetta tutte le flag di SSH.
+Maggiori informazioni: <a href="https://www.harding.motd.ca/autossh">https://www.harding.motd.ca/autossh</a>.</p>
+
+<ul>
+  <li>Apri una sessione SSH, riavviandola quando una porta monitorata smette di rispondere:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_monitorata</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Apri una sessione SSH che forwarda una porta locale verso una remota, riavviandola se necessario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_monitorata</span><code class="language-plaintext highlighter-rouge"> -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_locale</span><code class="language-plaintext highlighter-rouge">:localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_remota</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utente</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Forka prima di eseguire il comando SSH (si avvia in background) e non aprire una shell remota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_monitorata</span><code class="language-plaintext highlighter-rouge"> -N "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Esegui autossh in background, senza una porta da monitorare, utilizzando i keep-alive di SSH ogni 10 secondi per rilevare una disconnessione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Esegui autossh in background, senza una porta da monitorare, senza una shell remota, uscendo se il port forwarding fallisce:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_locale</span><code class="language-plaintext highlighter-rouge">:localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_remota</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utente</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Esegui autossh in background con output di debug su un file e output verboso di ssh su un altro file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_log</span><code class="language-plaintext highlighter-rouge"> autossh -f -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_monitorata</span><code class="language-plaintext highlighter-rouge"> -v -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_log_ssh</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span></p>

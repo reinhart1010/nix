@@ -1,0 +1,17 @@
+<h1 id="git-paste">git paste</h1>
+
+<p>Send commits to a pastebin site using <code class="language-plaintext highlighter-rouge">pastebinit</code>.
+Part of <code class="language-plaintext highlighter-rouge">git-extras</code>.
+More information: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-paste">https://github.com/tj/git-extras/blob/master/Commands.md#git-paste</a>.</p>
+
+<ul>
+  <li>Send the patches between the current branch and its upstream to a pastebin using <code class="language-plaintext highlighter-rouge">pastebinit</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git paste</code></p>
+
+<ul>
+  <li>Pass options to <code class="language-plaintext highlighter-rouge">git format-patch</code> in order to select a different set of commits (<code class="language-plaintext highlighter-rouge">@^</code> selects the parent of HEAD, and so the currently checked out commit is sent):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git paste </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@^</span></p>

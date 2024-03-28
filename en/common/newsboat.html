@@ -1,0 +1,34 @@
+<h1 id="newsboat">newsboat</h1>
+
+<p>An RSS/Atom feed reader for text terminals.
+More information: <a href="https://newsboat.org/">https://newsboat.org/</a>.</p>
+
+<ul>
+  <li>First import feed URLs from an OPML file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">newsboat -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my-feeds.xml</span></p>
+
+<ul>
+  <li>Alternatively, add feeds manually:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/path/to/feed</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; "${HOME}/.newsboat/urls"</code></p>
+
+<ul>
+  <li>Start Newsboat and refresh all feeds on startup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">newsboat -r</code></p>
+
+<ul>
+  <li>Execute one or more commands in non-interactive mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">newsboat -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reload print-unread …</span></p>
+
+<ul>
+  <li>See keyboard shortcuts (the most relevant are visible in the status line):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">?</code></p>

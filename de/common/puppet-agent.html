@@ -1,0 +1,46 @@
+<h1 id="puppet-agent">puppet agent</h1>
+
+<p>Ruft die Client-Konfiguration eines Puppetservers ab und setzt diese auf dem System um.
+Weitere Informationen: <a href="https://puppet.com/docs/puppet/7/man/agent.html">https://puppet.com/docs/puppet/7/man/agent.html</a>.</p>
+
+<ul>
+  <li>Registriere die Node bei einem Puppetserver und wende den empfangenen Katalog an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --test --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puppetserver_fqdn</span><code class="language-plaintext highlighter-rouge"> --serverport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> --waitforcert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poll_zeit</span></p>
+
+<ul>
+  <li>Führe den Agenten im Hintergrund aus (nutzt die Einstellungen von <code class="language-plaintext highlighter-rouge">/opt/puppetlabs/puppet/puppet.conf</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent</code></p>
+
+<ul>
+  <li>Führe den Agenten einmal im Vordergrund aus und beende:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --test</code></p>
+
+<ul>
+  <li>Führe den Agenten im Dry-Modus aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --test --noop</code></p>
+
+<ul>
+  <li>Protokolliere jede ausgewertete Ressource (selbst wenn sich nichts geändert hat):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --test --evaltrace</code></p>
+
+<ul>
+  <li>Deaktiviere den Agenten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --disable "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Aktiviere den Agenten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --enable</code></p>

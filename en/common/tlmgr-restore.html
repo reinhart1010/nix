@@ -1,0 +1,41 @@
+<h1 id="tlmgr-restore">tlmgr restore</h1>
+
+<p>Restore package backups created with <code class="language-plaintext highlighter-rouge">tlmgr backup</code>.
+The default backup directory is specified by the <code class="language-plaintext highlighter-rouge">backupdir</code> option, and can be obtained with <code class="language-plaintext highlighter-rouge">tlmgr option</code>.
+More information: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>List all available backup revisions for all packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr restore</code></p>
+
+<ul>
+  <li>List all available backup revisions for a specific package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Restore a specific revision of a specific package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision</span></p>
+
+<ul>
+  <li>Restore the latest revision of all backed-up packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr restore --all</code></p>
+
+<ul>
+  <li>Restore a package from a custom backup directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision</span><code class="language-plaintext highlighter-rouge"> --backupdir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/backup_directory</span></p>
+
+<ul>
+  <li>Perform a dry-run and print all taken actions without making them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr restore --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision</span></p>

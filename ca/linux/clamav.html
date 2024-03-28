@@ -1,0 +1,29 @@
+<h1 id="clamav">clamav</h1>
+
+<p>Antivirus de codi obert.
+Dissenyat especialment per escanejar correus electrònics, però pot ser emprat en altres contextos.
+Més informació: <a href="https://www.clamav.net">https://www.clamav.net</a>.</p>
+
+<ul>
+  <li>Actualitza definicions de virus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">freshclam</code></p>
+
+<ul>
+  <li>Escaneja un arxiu en busca de virus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/arxiu</span></p>
+
+<ul>
+  <li>Escaneja directoris recursivament i mostra els arxius infectats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --recursive --infected </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directori</span></p>
+
+<ul>
+  <li>Escaneja directoris recursivament y posa els arxius infectats en quarantena:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --recursive --move=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directori</span></p>

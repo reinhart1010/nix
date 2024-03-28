@@ -1,0 +1,28 @@
+<h1 id="decaffeinate">decaffeinate</h1>
+
+<p>Move your CoffeeScript source to modern JavaScript.
+More information: <a href="https://decaffeinate-project.org">https://decaffeinate-project.org</a>.</p>
+
+<ul>
+  <li>Convert a CoffeeScript file to JavaScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">decaffeinate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.coffee</span></p>
+
+<ul>
+  <li>Convert a CoffeeScript v2 file to JavaScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">decaffeinate --use-cs2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.coffee</span></p>
+
+<ul>
+  <li>Convert require and <code class="language-plaintext highlighter-rouge">module.exports</code> to import and export:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">decaffeinate --use-js-modules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.coffee</span></p>
+
+<ul>
+  <li>Convert a CoffeeScript, allowing named exports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">decaffeinate --loose-js-modules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.coffee</span></p>

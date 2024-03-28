@@ -1,0 +1,22 @@
+<h1 id="git-cat-file">git cat-file</h1>
+
+<p>Git depo cisimlerine dair içerik, tür ve boyut bilgisini sağla.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-cat-file">https://git-scm.com/docs/git-cat-file</a>.</p>
+
+<ul>
+  <li>HEAD commit'inin byte bazında boyutunu öğren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -s HEAD</code></p>
+
+<ul>
+  <li>Belirtilen Git cisminin türünü (blob, ağaç, commit, etiket) öğren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8c442dc3</span></p>
+
+<ul>
+  <li>Git objesinin içeriğini, türüne uygun olarak hoş şekilde yansıt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~2</span></p>

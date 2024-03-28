@@ -1,0 +1,40 @@
+<h1 id="nix-profile">nix profile</h1>
+
+<p>Install, update and remove packages from Nix profiles.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-profile.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-profile.html</a>.</p>
+
+<ul>
+  <li>Install some packages from nixpkgs into the default profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg1 nixpkgs#pkg2 …</span></p>
+
+<ul>
+  <li>Install a package from a flake on GitHub into a custom profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github:owner/repo/pkg</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./path/to/directory</span></p>
+
+<ul>
+  <li>List packages currently installed in the default profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile list</code></p>
+
+<ul>
+  <li>Remove a package installed from nixpkgs from the default profile, by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">legacyPackages.x86_64-linux.pkg</span></p>
+
+<ul>
+  <li>Upgrade packages in the default to the latest available versions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile upgrade</code></p>
+
+<ul>
+  <li>Rollback (cancel) the latest action on the default profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile rollback</code></p>

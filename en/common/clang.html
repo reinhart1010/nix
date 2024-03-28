@@ -1,0 +1,40 @@
+<h1 id="clang">clang</h1>
+
+<p>Compiler for C, C++, and Objective-C source files. Can be used as a drop-in replacement for GCC.
+More information: <a href="https://clang.llvm.org/docs/ClangCommandLineReference.html">https://clang.llvm.org/docs/ClangCommandLineReference.html</a>.</p>
+
+<ul>
+  <li>Compile a source code file into an executable binary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_source.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_executable</span></p>
+
+<ul>
+  <li>Activate output of all errors and warnings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_source.c</span><code class="language-plaintext highlighter-rouge"> -Wall -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_executable</span></p>
+
+<ul>
+  <li>Include libraries located at a different path than the source file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_source.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_executable</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">header_path</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">library_path</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">library_name</span></p>
+
+<ul>
+  <li>Compile source code into LLVM Intermediate Representation (IR):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang -S -emit-llvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ll</span></p>
+
+<ul>
+  <li>Compile source code without linking:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_source.c</span></p>
+
+<ul>
+  <li>Optimize the compiled program for performance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.c</span><code class="language-plaintext highlighter-rouge"> -O</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span></p>

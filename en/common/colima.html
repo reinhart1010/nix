@@ -1,0 +1,52 @@
+<h1 id="colima">colima</h1>
+
+<p>Container runtimes for macOS and Linux with minimal setup.
+More information: <a href="https://github.com/abiosoft/colima">https://github.com/abiosoft/colima</a>.</p>
+
+<ul>
+  <li>Start the daemon in the background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start</code></p>
+
+<ul>
+  <li>Create a configuration file and use it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start --edit</code></p>
+
+<ul>
+  <li>Start and setup containerd (install <code class="language-plaintext highlighter-rouge">nerdctl</code> to use containerd via <code class="language-plaintext highlighter-rouge">nerdctl</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start --runtime containerd</code></p>
+
+<ul>
+  <li>Start with Kubernetes (<code class="language-plaintext highlighter-rouge">kubectl</code> is required):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start --kubernetes</code></p>
+
+<ul>
+  <li>Customize CPU count, RAM memory and disk space (in GiB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start --cpu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span><code class="language-plaintext highlighter-rouge"> --memory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memory</span><code class="language-plaintext highlighter-rouge"> --disk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_space</span></p>
+
+<ul>
+  <li>Use Docker via Colima (Docker is required):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start</code></p>
+
+<ul>
+  <li>List containers with their information and status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima list</code></p>
+
+<ul>
+  <li>Show runtime status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima status</code></p>

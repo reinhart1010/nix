@@ -1,0 +1,35 @@
+<h1 id="transmission-create">transmission-create</h1>
+
+<p>Maak BitTorrent <code class="language-plaintext highlighter-rouge">.torrent</code> bestanden.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">transmission</code>.
+Meer informatie: <a href="https://manned.org/transmission-create">https://manned.org/transmission-create</a>.</p>
+
+<ul>
+  <li>Maak een torrent met een stukgrootte van 2048 KB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/voorbeeld.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aankondigings-url_van_tracker</span><code class="language-plaintext highlighter-rouge"> --piecesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Maak een privé torrent met een stukgrootte van 2048 KB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -p -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/voorbeeld.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aankondigings-url_van_tracker</span><code class="language-plaintext highlighter-rouge"> --piecesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Maak een torrent met een opmerking:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/voorbeeld.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracker_url1</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opmerking</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Maak een torrent met meerdere trackers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/voorbeeld.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracker_url1</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracker_url2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Toon de help-pagina:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create --help</code></p>

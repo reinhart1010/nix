@@ -1,0 +1,28 @@
+<h1 id="atool">atool</h1>
+
+<p>Çeşitli biçimlerdeki arşivleri yönetin.
+Daha fazla bilgi için: <a href="https://www.nongnu.org/atool/">https://www.nongnu.org/atool/</a>.</p>
+
+<ul>
+  <li>Bir zip arşivindeki dosyaları listele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atool --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arşiv.zip/dosyasının/yolu</span></p>
+
+<ul>
+  <li>Bir tar.gz arşivini yeni bir alt dizine (veya yalnızca bir dosya içeriyorsa geçerli dizine) çıkart:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atool --extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arşiv.tar.gz/dosyasının/yolu</span></p>
+
+<ul>
+  <li>İki dosyaya sahip yeni bir 7zip arşivi oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atool --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arşiv.7z/dosyasının/yolu</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya1/yolu dosya2/yolu …</span></p>
+
+<ul>
+  <li>Geçerli dizindeki tüm zip ve rar arşivlerini çıkart:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atool --each --extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip *.rar</span></p>

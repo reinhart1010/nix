@@ -1,0 +1,28 @@
+<h1 id="chrt">chrt</h1>
+
+<p>Manipulate the real-time attributes of a process.
+More information: <a href="https://man7.org/linux/man-pages/man1/chrt.1.html">https://man7.org/linux/man-pages/man1/chrt.1.html</a>.</p>
+
+<ul>
+  <li>Display attributes of a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chrt --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Display attributes of all threads of a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chrt --all-tasks --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Display the min/max priority values that can be used with <code class="language-plaintext highlighter-rouge">chrt</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chrt --max</code></p>
+
+<ul>
+  <li>Set the scheduling policy for a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chrt --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deadline|idle|batch|rr|fifo|other</span></p>

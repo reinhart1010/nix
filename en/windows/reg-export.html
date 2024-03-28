@@ -1,0 +1,16 @@
+<h1 id="reg-export">reg export</h1>
+
+<p>Export the specified subkeys and values to a <code class="language-plaintext highlighter-rouge">.reg</code> file.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-export">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-export</a>.</p>
+
+<ul>
+  <li>Export all subkeys and values of a specific key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file.reg</span></p>
+
+<ul>
+  <li>Forcefully (assuming [y]es) overwrite of an existing file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file.reg</span><code class="language-plaintext highlighter-rouge"> /y</code></p>

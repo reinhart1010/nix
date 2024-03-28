@@ -1,0 +1,34 @@
+<h1 id="cpupower">cpupower</h1>
+
+<p>Tools regarding CPU power and tuning options.
+More information: <a href="https://manned.org/cpupower">https://manned.org/cpupower</a>.</p>
+
+<ul>
+  <li>List CPUs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpupower --cpu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">all</span><code class="language-plaintext highlighter-rouge"> info</code></p>
+
+<ul>
+  <li>Print information about all cores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpupower --cpu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">all</span><code class="language-plaintext highlighter-rouge"> info</code></p>
+
+<ul>
+  <li>Set all CPUs to a power-saving frequency governor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpupower --cpu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">all</span><code class="language-plaintext highlighter-rouge"> frequency-set --governor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">powersave</span></p>
+
+<ul>
+  <li>Print CPU 0's available frequency [g]overnors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpupower --cpu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> frequency-info g | grep "analyzing\|governors"</code></p>
+
+<ul>
+  <li>Print CPU 4's frequency from the hardware, in a human-readable format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpupower --cpu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> frequency-info --hwfreq --human</code></p>

@@ -1,0 +1,34 @@
+<h1 id="semanage">semanage</h1>
+
+<p>SELinux Policy Management tool.
+More information: <a href="https://manned.org/semanage">https://manned.org/semanage</a>.</p>
+
+<ul>
+  <li>Output local customizations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">semanage -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Take a set of commands from a specified file and load them in a single transaction:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">semanage -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span></p>
+
+<ul>
+  <li>Manage booleans. Booleans allow the administrator to modify the confinement of processes based on the current configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">semanage boolean -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–delete|–modify|–list|–noheading|–deleteall</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-on|-off</span><code class="language-plaintext highlighter-rouge"> -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">boolean|boolean_file</span></p>
+
+<ul>
+  <li>Manage policy modules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">semanage module -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–add|–delete|–list|–modify</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–enable|–disable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>
+
+<ul>
+  <li>Disable/Enable dontaudit rules in policy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">semanage dontaudit -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span></p>

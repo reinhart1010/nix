@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="dd">dd</h1>
+
+<p>Konvertiere und kopiere eine Datei.
+Weitere Informationen: <a href="https://www.gnu.org/software/coreutils/dd">https://www.gnu.org/software/coreutils/dd</a>.</p>
+
+<ul>
+  <li>Erstelle ein bootbares USB-Laufwerk von einer isohybriden Datei (wie <code class="language-plaintext highlighter-rouge">archlinux-xxxx.iso</code>) und zeige den Fortschritt an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.iso</span><code class="language-plaintext highlighter-rouge"> of=/dev/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">laufwerk</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>Klone ein USB-Laufwerk in ein anderes in 4MiB Blöcken, ignoriere Fehler und zeige den Fortschritt an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=/dev/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quell_laufwerk</span><code class="language-plaintext highlighter-rouge"> of=/dev/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ziel_laufwerk</span><code class="language-plaintext highlighter-rouge"> bs=4M conv=noerror status=progress</code></p>
+
+<ul>
+  <li>Erstelle eine Datei mit 100 zufälligen Bytes mithilfe des Zufall-Treibers des Kernels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=/dev/urandom of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> bs=100 count=1</code></p>
+
+<ul>
+  <li>Teste die Schreibgeschwindigkeit eines Laufwerks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=/dev/zero of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/1GB_datei</span><code class="language-plaintext highlighter-rouge"> bs=1024 count=1000000</code></p>
+
+<ul>
+  <li>Erstelle ein System-Backup als IMG Datei und zeige den Fortschritt an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=/dev/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">laufwerk</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.img</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>Stelle ein Laufwerk aus einer IMG Datei wieder her und zeige den Fortschritt an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.img</span><code class="language-plaintext highlighter-rouge"> of=/dev/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">laufwerk</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>Überprüfe den Fortschritt eines laufenden dd-Prozesses (Führe diesen Befehl von einer anderen Shell aus):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -USR1 $(pgrep -x dd)</code></p>

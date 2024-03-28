@@ -1,0 +1,34 @@
+<h1 id="uvicorn">uvicorn</h1>
+
+<p>Python ASGI HTTP Server, for asynchronous projects.
+More information: <a href="https://www.uvicorn.org/">https://www.uvicorn.org/</a>.</p>
+
+<ul>
+  <li>Run Python web app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvicorn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path:app_object</span></p>
+
+<ul>
+  <li>Listen on port 8080 on localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvicorn --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path:app_object</span></p>
+
+<ul>
+  <li>Turn on live reload:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvicorn --reload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path:app_object</span></p>
+
+<ul>
+  <li>Use 4 worker processes for handling requests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvicorn --workers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path:app_object</span></p>
+
+<ul>
+  <li>Run app over HTTPS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvicorn --ssl-certfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cert.pem</span><code class="language-plaintext highlighter-rouge"> --ssl-keyfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key.pem</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path:app_object</span></p>

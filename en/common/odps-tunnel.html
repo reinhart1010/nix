@@ -1,0 +1,29 @@
+<h1 id="odps-tunnel">odps tunnel</h1>
+
+<p>Data tunnel in ODPS (Open Data Processing Service).
+See also <code class="language-plaintext highlighter-rouge">odps</code>.
+More information: <a href="https://www.alibabacloud.com/help/doc-detail/27971.htm">https://www.alibabacloud.com/help/doc-detail/27971.htm</a>.</p>
+
+<ul>
+  <li>Download table to local file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tunnel download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Upload local file to a table partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tunnel upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partition_spec</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Upload table specifying field and record delimiters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tunnel upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> -fd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field_delim</span><code class="language-plaintext highlighter-rouge"> -rd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">record_delim</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Upload table using multiple threads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tunnel upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> -threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num</span><code class="language-plaintext highlighter-rouge">;</code></p>

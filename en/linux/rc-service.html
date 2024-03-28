@@ -1,0 +1,47 @@
+<h1 id="rc-service">rc-service</h1>
+
+<p>Locate and run OpenRC services with arguments.
+See also <code class="language-plaintext highlighter-rouge">openrc</code>.
+More information: <a href="https://manned.org/rc-service">https://manned.org/rc-service</a>.</p>
+
+<ul>
+  <li>Show a service's status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rc-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> status</code></p>
+
+<ul>
+  <li>Start a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> start</code></p>
+
+<ul>
+  <li>Stop a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> stop</code></p>
+
+<ul>
+  <li>Restart a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> restart</code></p>
+
+<ul>
+  <li>Simulate running a service's custom command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_name</span></p>
+
+<ul>
+  <li>Actually run a service's custom command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_name</span></p>
+
+<ul>
+  <li>Resolve the location of a service definition on disk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service --resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span></p>

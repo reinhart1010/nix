@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="ffmpeg">ffmpeg</h1>
+
+<p>Programm zum konvertieren von Videos.
+Weitere Informationen: <a href="https://ffmpeg.org">https://ffmpeg.org</a>.</p>
+
+<ul>
+  <li>Extrahiere den Ton eines Videos und speichere ihn als MP3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/video.mp4</span><code class="language-plaintext highlighter-rouge"> -vn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/audio</span><code class="language-plaintext highlighter-rouge">.mp3</code></p>
+
+<ul>
+  <li>Kombiniere nummerierte Bilder (<code class="language-plaintext highlighter-rouge">frame_1.jpg</code>, <code class="language-plaintext highlighter-rouge">frame_2.jpg</code>, etc) in ein Video oder Gif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/frame_%d.jpg</span><code class="language-plaintext highlighter-rouge"> -f image2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video.mpg|video.gif</span></p>
+
+<ul>
+  <li>Extrahiere einen einzelnen Frame von einem Video bei mm:ss and speichere als 128x128 Bild:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -ss </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm:ss</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/video.mp4</span><code class="language-plaintext highlighter-rouge"> -frames 1 -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">128x128</span><code class="language-plaintext highlighter-rouge"> -f image2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span></p>
+
+<ul>
+  <li>Trimme ein Video von mm:ss bis mm2:ss2 (Ohne -to bis zum Ende des Videos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -ss </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm:ss</span><code class="language-plaintext highlighter-rouge"> -to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm2:ss2</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/video/video.mp4</span><code class="language-plaintext highlighter-rouge"> -codec copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/output.mp4</span></p>
+
+<ul>
+  <li>Konvertiere ein AVI Video zu MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/input_video</span><code class="language-plaintext highlighter-rouge">.avi -codec:a aac -b:a 128k -codec:v libx264 -crf 23 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/output_video</span><code class="language-plaintext highlighter-rouge">.mp4</code></p>
+
+<ul>
+  <li>Remuxe ein MKV Video zu MP4 ohne Audio oder Video streams neu zu codieren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/input_video</span><code class="language-plaintext highlighter-rouge">.mkv -codec copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/output_video</span><code class="language-plaintext highlighter-rouge">.mp4</code></p>
+
+<ul>
+  <li>Konvertiere ein MP4 video zu VP9. Für beste Qualität, nutze einen CRF Wert von 15 bis 35 und -b:v MUSS 0 sein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/input_video</span><code class="language-plaintext highlighter-rouge">.mp4 -codec:v libvpx-vp9 -crf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span><code class="language-plaintext highlighter-rouge"> -b:v 0 -codec:a libopus -vbr on -threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">thread_anzahl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/output_video</span><code class="language-plaintext highlighter-rouge">.webm</code></p>

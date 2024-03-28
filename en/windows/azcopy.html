@@ -1,0 +1,40 @@
+<h1 id="azcopy">azcopy</h1>
+
+<p>A file transfer tool for uploading to Azure Cloud Storage Accounts.
+More information: <a href="https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10">https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10</a>.</p>
+
+<ul>
+  <li>Log in to an Azure Tenant:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azopy login</code></p>
+
+<ul>
+  <li>Upload a local file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azcopy copy '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_file</span><code class="language-plaintext highlighter-rouge">' 'https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge">.blob.core.windows.net/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blob_name</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Upload files with <code class="language-plaintext highlighter-rouge">.txt</code> and <code class="language-plaintext highlighter-rouge">.jpg</code> extensions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azcopy copy '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_directory</span><code class="language-plaintext highlighter-rouge">' 'https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge">.blob.core.windows.net/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">' --include-pattern '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>.txt;</em>.jpg</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Copy a container directly between two Azure storage accounts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azcopy copy 'https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_storage_account_name</span><code class="language-plaintext highlighter-rouge">.blob.core.windows.net/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">' 'https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_storage_account_name</span><code class="language-plaintext highlighter-rouge">.blob.core.windows.net/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Synchronize a local directory and delete files in the destination if they no longer exist in the source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azcopy sync '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_directory</span><code class="language-plaintext highlighter-rouge">' 'https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge">.blob.core.windows.net/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">' --recursive --delete-destination=true</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azcopy --help</code></p>

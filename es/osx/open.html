@@ -1,0 +1,46 @@
+<h1 id="open">open</h1>
+
+<p>Abre archivos, directorios y aplicaciones.
+Más información: <a href="https://keith.github.io/xcode-man-pages/open.1.html">https://keith.github.io/xcode-man-pages/open.1.html</a>.</p>
+
+<ul>
+  <li>Abre un archivo con la aplicación asociada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.ext</span></p>
+
+<ul>
+  <li>Ejecuta una [a]plicación gráfica de macOS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -a "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aplicacion</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ejecuta una aplicación gráfica de macOS basada en el identificador [b]undle (consulta <code class="language-plaintext highlighter-rouge">osascript</code> para obtenerlo fácilmente):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.domain.application</span></p>
+
+<ul>
+  <li>Abre el directorio actual en Finder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open .</code></p>
+
+<ul>
+  <li>Abre un archivo en Finder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Abre todos los archivos de una extensión determinada en el directorio actual con la aplicación asociada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span></p>
+
+<ul>
+  <li>Abre una [n]ueva instancia de una aplicación especificada mediante un identificador [b]undle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -n -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.domain.application</span></p>

@@ -1,0 +1,41 @@
+<h1 id="ncat">ncat</h1>
+
+<p>Read, write, redirect, and encrypt data across a network.
+An alternative implementation of a similar utility called <code class="language-plaintext highlighter-rouge">netcat</code>/<code class="language-plaintext highlighter-rouge">nc</code>.
+More information: <a href="https://nmap.org/ncat/guide/index.html">https://nmap.org/ncat/guide/index.html</a>.</p>
+
+<ul>
+  <li>Listen for input on the specified port and write it to the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncat -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Accept multiple connections and keep ncat open after they have been closed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncat -lk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Write output of specified file to the specified host on the specified port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Accept multiple incoming connections on an encrypted channel evading detection of traffic content:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncat --ssl -k -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Connect to an open <code class="language-plaintext highlighter-rouge">ncat</code> connection over SSL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncat --ssl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Check connectivity to a remote host on a particular port with timeout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncat -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span><code class="language-plaintext highlighter-rouge"> -vz </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>

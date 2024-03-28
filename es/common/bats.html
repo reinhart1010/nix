@@ -1,0 +1,28 @@
+<h1 id="bats">bats</h1>
+
+<p>Bash Automated Testing System: un marco de pruebas compatible con TAP (<a href="https://testanything.org/">https://testanything.org/</a>) para Bash.
+Más información: <a href="https://bats-core.readthedocs.io/en/stable/usage.html">https://bats-core.readthedocs.io/en/stable/usage.html</a>.</p>
+
+<ul>
+  <li>Ejecuta un guión de prueba BATS y emite los resultados en el formato TAP (Test Anything Protocol):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bats --tap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span></p>
+
+<ul>
+  <li>Cuenta los casos de prueba de un guión de prueba sin ejecutar ninguna prueba:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bats --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span></p>
+
+<ul>
+  <li>Ejecuta casos de prueba BATS en un directorio y sus subdirectorios (archivos con extensión <code class="language-plaintext highlighter-rouge">.bats</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bats --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Obtén resultados en un formato específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bats --formatter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pretty|tap|junit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span></p>

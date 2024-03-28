@@ -1,0 +1,23 @@
+<h1 id="systemd-sysusers">systemd-sysusers</h1>
+
+<p>Create system users and groups.
+If the config file is not specified, files in the <code class="language-plaintext highlighter-rouge">sysusers.d</code> directories are used.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-sysusers.html">https://www.freedesktop.org/software/systemd/man/systemd-sysusers.html</a>.</p>
+
+<ul>
+  <li>Create users and groups from a specific configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-sysusers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Process configuration files and print what would be done without actually doing anything:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-sysusers --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print the contents of all configuration files (before each file, its name is printed as a comment):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-sysusers --cat-config</code></p>

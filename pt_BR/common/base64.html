@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="base64">base64</h1>
+
+<p>Codifica ou decodifica um arquivo ou uma entrada padrão (<code class="language-plaintext highlighter-rouge">stdin</code>) de/para Base64, para uma saída padrão (<code class="language-plaintext highlighter-rouge">stdout</code>).
+Mais informações: <a href="https://www.gnu.org/software/coreutils/base64">https://www.gnu.org/software/coreutils/base64</a>.</p>
+
+<ul>
+  <li>Codifica o conteúdo de um arquivo para base64 e grava o resultado em <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_arquivo</span></p>
+
+<ul>
+  <li>Decodifica o conteúdo de um arquivo em base64 e grava o resultado em <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 --decode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_arquivo</span></p>
+
+<ul>
+  <li>Codifica a partir de <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algum_comando</span><code class="language-plaintext highlighter-rouge"> | base64</code></p>
+
+<ul>
+  <li>Decodifica a partir de <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algum_comando</span><code class="language-plaintext highlighter-rouge"> | base64 --decode</code></p>

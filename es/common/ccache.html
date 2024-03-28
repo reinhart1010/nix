@@ -1,0 +1,29 @@
+<h1 id="ccache">ccache</h1>
+
+<p>Caché del compilador C/C++.
+Nota: los paquetes suelen proporcionar enlaces simbólicos para los compiladores en <code class="language-plaintext highlighter-rouge">/usr/lib/ccache/bin</code>. Anteponga este directorio en <code class="language-plaintext highlighter-rouge">$PATH</code> para utilizar automáticamente <code class="language-plaintext highlighter-rouge">ccache</code> con los compiladores.
+Más información: <a href="https://ccache.dev/manual/latest.html">https://ccache.dev/manual/latest.html</a>.</p>
+
+<ul>
+  <li>Muestra las e[s]tadísticas de la caché actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ccache --show-stats</code></p>
+
+<ul>
+  <li>Borra toda la caché:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ccache --clear</code></p>
+
+<ul>
+  <li>Restablece ([z]ero) las estadísticas (pero no la propia caché):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ccache --zero-stats</code></p>
+
+<ul>
+  <li>Compila código C y almacena la salida compilada en la caché (para usar <code class="language-plaintext highlighter-rouge">ccache</code> en todas las invocaciones de <code class="language-plaintext highlighter-rouge">gcc</code>, lea la nota anterior):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ccache gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.c</span></p>

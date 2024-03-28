@@ -1,0 +1,40 @@
+<h1 id="dirsearch">dirsearch</h1>
+
+<p>Web path scanner.
+More information: <a href="https://github.com/maurosoria/dirsearch">https://github.com/maurosoria/dirsearch</a>.</p>
+
+<ul>
+  <li>Scan a web server for common paths with common extensions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dirsearch --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --extensions-list</code></p>
+
+<ul>
+  <li>Scan a list of web servers for common paths with the <code class="language-plaintext highlighter-rouge">.php</code> extension:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dirsearch --url-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/url-list.txt</span><code class="language-plaintext highlighter-rouge"> --extensions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php</span></p>
+
+<ul>
+  <li>Scan a web server for user-defined paths with common extensions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dirsearch --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --extensions-list --wordlist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/url-paths.txt</span></p>
+
+<ul>
+  <li>Scan a web server using a cookie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dirsearch --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --extensions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php</span><code class="language-plaintext highlighter-rouge"> --cookie </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cookie</span></p>
+
+<ul>
+  <li>Scan a web server using the <code class="language-plaintext highlighter-rouge">HEAD</code> HTTP method:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dirsearch --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --extensions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php</span><code class="language-plaintext highlighter-rouge"> --http-method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Scan a web server, saving the results to a <code class="language-plaintext highlighter-rouge">.json</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dirsearch --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --extensions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php</span><code class="language-plaintext highlighter-rouge"> --json-report </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/report.json</span></p>

@@ -1,0 +1,46 @@
+<h1 id="kate">kate</h1>
+
+<p>KDE's advanced text editor.
+More information: <a href="https://kate-editor.org/">https://kate-editor.org/</a>.</p>
+
+<ul>
+  <li>Open specific files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Open specific remote files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/path/to/file1 https://example.com/path/to/file2 …</span></p>
+
+<ul>
+  <li>Create a new editor instance even if one is already open:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate --new</code></p>
+
+<ul>
+  <li>Open a file with the cursor at the specific line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line_number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Open a file with the cursor at the specific line and column:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line_number</span><code class="language-plaintext highlighter-rouge"> --column </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column_number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Create a file from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | kate --stdin</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate --help</code></p>

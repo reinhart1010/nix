@@ -1,0 +1,47 @@
+<h1 id="limactl">limactl</h1>
+
+<p>Virtual machine manager voor Linux gasten, met meerdere VM templates beschikbaar.
+Kan worden gebruikt om containers op macOS uit te voeren, maar ook voor generieke virtuele machine use cases op macOS en Linux hosts.
+Meer informatie: <a href="https://github.com/lima-vm/lima">https://github.com/lima-vm/lima</a>.</p>
+
+<ul>
+  <li>Toon VMs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl list</code></p>
+
+<ul>
+  <li>Maak een VM met standaard instellingen en voorzie optioneel van een naam en/of template (zie <code class="language-plaintext highlighter-rouge">limactl create --list-templates</code> voor beschikbare templates):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> template://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debian|fedora|ubuntu|…</span></p>
+
+<ul>
+  <li>Start een VM (dit kan enkele afhankelijkheden erin installeren en een paar minuten duren):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>Open een externe shell in een VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>Voer een commando uit in een VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span></p>
+
+<ul>
+  <li>Stop/sluit een VM af:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>Verwijder een VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>

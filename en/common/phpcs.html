@@ -1,0 +1,52 @@
+<h1 id="phpcs">phpcs</h1>
+
+<p>Tokenize PHP, JavaScript and CSS files to detect violations of a defined set of coding standards.
+More information: <a href="https://github.com/squizlabs/PHP_CodeSniffer">https://github.com/squizlabs/PHP_CodeSniffer</a>.</p>
+
+<ul>
+  <li>Sniff the specified directory for issues (defaults to the PEAR standard):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Display a list of installed coding standards:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcs -i</code></p>
+
+<ul>
+  <li>Specify a coding standard to validate against:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --standard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">standard</span></p>
+
+<ul>
+  <li>Specify comma-separated file extensions to include when sniffing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --extensions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_extension1,file_extension2,…</span></p>
+
+<ul>
+  <li>Specify the format of the output report (e.g. <code class="language-plaintext highlighter-rouge">full</code>, <code class="language-plaintext highlighter-rouge">xml</code>, <code class="language-plaintext highlighter-rouge">json</code>, <code class="language-plaintext highlighter-rouge">summary</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --report </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span></p>
+
+<ul>
+  <li>Set configuration variables to be used during the process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --config-set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>A comma-separated list of files to load before processing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --bootstrap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1,path/to/file2,…</span></p>
+
+<ul>
+  <li>Don't recurse into subdirectories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> -l</code></p>

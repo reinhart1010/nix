@@ -1,0 +1,41 @@
+<h1 id="git-switch">git switch</h1>
+
+<p>切换 Git 分支。要求 Git 版本在 2.23 以上。
+另请参阅 <code class="language-plaintext highlighter-rouge">git checkout</code>。
+更多信息：<a href="https://git-scm.com/docs/git-switch">https://git-scm.com/docs/git-switch</a>.</p>
+
+<ul>
+  <li>切换到一个已有的分支：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分支名字</span></p>
+
+<ul>
+  <li>创建并切换到一个新分支：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分支名字</span></p>
+
+<ul>
+  <li>创建并切换到基于某个提交的新分支：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分支名字</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指定提交</span></p>
+
+<ul>
+  <li>切换到之前的分支：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch -</code></p>
+
+<ul>
+  <li>切换到一个分支，并更新所有匹配的子模块：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --recurse-submodules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分支名字</span></p>
+
+<ul>
+  <li>切换到一个分支，并和当前分支以及暂未提交的修改进行三方合并：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分支名字</span></p>

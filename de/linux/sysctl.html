@@ -1,0 +1,34 @@
+<h1 id="sysctl">sysctl</h1>
+
+<p>Laufzeit-Kernelparameter auflisten und ändern.
+Weitere Informationen: <a href="https://manned.org/sysctl.8">https://manned.org/sysctl.8</a>.</p>
+
+<ul>
+  <li>Liste alle verfügbaren Kernelparameter mit ihren Werten auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysctl -a</code></p>
+
+<ul>
+  <li>Setze einen veränderbaren Kernelparameter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysctl -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sektion.tunable</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wert</span></p>
+
+<ul>
+  <li>Frage aktuell geöffnete Datei-Handler ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysctl fs.file-nr</code></p>
+
+<ul>
+  <li>Frage die maximale Anzahl geöffneter Dateien ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysctl fs.file-max</code></p>
+
+<ul>
+  <li>Übernimm Änderungen aus der <code class="language-plaintext highlighter-rouge">/etc/sysctl.conf</code> Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysctl -p</code></p>

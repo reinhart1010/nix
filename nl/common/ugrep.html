@@ -1,0 +1,52 @@
+<h1 id="ugrep">ugrep</h1>
+
+<p>Ultrasnelle bestandszoeker met interactive UI.
+Meer informatie: <a href="https://github.com/Genivia/ugrep">https://github.com/Genivia/ugrep</a>.</p>
+
+<ul>
+  <li>Open een interactieve TUI om recursief bestanden te zoeken (CTRL-Z voor hulp):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --query</code></p>
+
+<ul>
+  <li>Zoek recursief met een regex zoekpatroon in de huidige map naar passende bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Zoek een gegeven bestand of bestanden in een gegeven map en laat de passende regelnummers zien:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --line-number "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Zoek recursief in de huidige map en geef een lijst met passende bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --files-with-matches "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Zoek "fuzzy" met maximaal 3 extra, missende of verwisselende karakters in het patroon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --fuzzy=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Zoek passende gecomprimeerde bestanden, zip en tar archieven recursief in de huidige map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --decompress "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Zoek alleen naar bestanden met namen die overeenkomen met een passende <code class="language-plaintext highlighter-rouge">foo*.???</code> glob patroon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --glob="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo*.???</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Zoek alleen passende bestanden van het type C++ (gebruik <code class="language-plaintext highlighter-rouge">--type=list</code> voor een lijst van typenamen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --file-type=cpp "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">"</code></p>

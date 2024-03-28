@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="findstr">findstr</h1>
+
+<p>在一个或多个文件中查找指定的文本。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/findstr">https://learn.microsoft.com/windows-server/administration/windows-commands/findstr</a>.</p>
+
+<ul>
+  <li>在所有文件中查找以空格分隔的字符串：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查询语句 查询语句 ..</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>以递归方式在所有文件中查找以空格分隔的字符串：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查询语句 查询语句 ..</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>查找时不区分大小写：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /i "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查询语句</span><code class="language-plaintext highlighter-rouge">" *"</code></p>
+
+<ul>
+  <li>使用正则表达式搜索：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /r "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">正则表达式</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>在所有文本文件中查找文字字符串（包含空格）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /c:"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查询语句</span><code class="language-plaintext highlighter-rouge">" *.txt</code></p>
+
+<ul>
+  <li>显示匹配的行的行数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查询语句</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>只显示匹配的文件名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查询语句</span><code class="language-plaintext highlighter-rouge">" *</code></p>

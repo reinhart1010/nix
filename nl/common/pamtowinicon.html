@@ -1,0 +1,22 @@
+<h1 id="pamtowinicon">pamtowinicon</h1>
+
+<p>Converteer een PAM afbeelding naar een Windows ICO bestand.
+Meer informatie: <a href="https://netpbm.sourceforge.net/doc/pamtowinicon.html">https://netpbm.sourceforge.net/doc/pamtowinicon.html</a>.</p>
+
+<ul>
+  <li>Converteer een PAM afbeelding naar een ICO bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtowinicon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer_bestand.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.ico</span></p>
+
+<ul>
+  <li>Encodeer afbeeldingen met resoluties kleiner dan t in het BMP formaat en alle andere afbeeldingen in het PNG formaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtowinicon -pngthreshold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">t</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer_bestand.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.ico</span></p>
+
+<ul>
+  <li>Maak alle pixels buiten het doorzichtige vlak zwart:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtowinicon -truetransparent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer_bestand.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.ico</span></p>

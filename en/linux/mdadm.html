@@ -1,0 +1,46 @@
+<h1 id="mdadm">mdadm</h1>
+
+<p>RAID management utility.
+More information: <a href="https://manned.org/mdadm">https://manned.org/mdadm</a>.</p>
+
+<ul>
+  <li>Create array:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md/MyRAID</span><code class="language-plaintext highlighter-rouge"> --level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raid_level</span><code class="language-plaintext highlighter-rouge"> --raid-devices </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_disks</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Stop array:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md0</span></p>
+
+<ul>
+  <li>Mark disk as failed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --fail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Remove disk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Add disk to array:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --assemble </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Show RAID info:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --detail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md0</span></p>
+
+<ul>
+  <li>Reset disk by deleting RAID metadata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --zero-superblock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>

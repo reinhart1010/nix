@@ -1,0 +1,35 @@
+<h1 id="xzdiff">xzdiff</h1>
+
+<p>Invokes <code class="language-plaintext highlighter-rouge">diff</code> on files compressed with <code class="language-plaintext highlighter-rouge">xz</code>, <code class="language-plaintext highlighter-rouge">lzma</code>, <code class="language-plaintext highlighter-rouge">gzip</code>, <code class="language-plaintext highlighter-rouge">bzip2</code>, <code class="language-plaintext highlighter-rouge">lzop</code>, or <code class="language-plaintext highlighter-rouge">zstd</code>.
+All options specified are passed directly to <code class="language-plaintext highlighter-rouge">diff</code>.
+More information: <a href="https://manned.org/xzdiff">https://manned.org/xzdiff</a>.</p>
+
+<ul>
+  <li>Compare two files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzdiff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare two files, showing the differences side by side:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzdiff --side-by-side </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare two files and report only that they differ (no details on what is different):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzdiff --brief </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare two files and report when the files are the same:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzdiff --report-identical-files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare two files using paginated results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzdiff --paginate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>

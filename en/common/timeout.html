@@ -1,0 +1,16 @@
+<h1 id="timeout">timeout</h1>
+
+<p>Run a command with a time limit.
+More information: <a href="https://www.gnu.org/software/coreutils/timeout">https://www.gnu.org/software/coreutils/timeout</a>.</p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">sleep 10</code> and terminate it after 3 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timeout 3s sleep 10</code></p>
+
+<ul>
+  <li>Send a signal to the command after the time limit expires (SIGTERM by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timeout --signal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">INT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5s</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sleep 10</span></p>

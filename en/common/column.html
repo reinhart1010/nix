@@ -1,0 +1,29 @@
+<h1 id="column">column</h1>
+
+<p>Format <code class="language-plaintext highlighter-rouge">stdin</code> or a file into multiple columns.
+Columns are filled before rows; the default separator is a whitespace.
+More information: <a href="https://manned.org/column">https://manned.org/column</a>.</p>
+
+<ul>
+  <li>Format the output of a command for a 30 characters wide display:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "header1 header2\nbar foo\n" | column --output-width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span></p>
+
+<ul>
+  <li>Split columns automatically and auto-align them in a tabular format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "header1 header2\nbar foo\n" | column --table</code></p>
+
+<ul>
+  <li>Specify the column delimiter character for the <code class="language-plaintext highlighter-rouge">--table</code> option (e.g. "," for CSV) (defaults to whitespace):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "header1,header2\nbar,foo\n" | column --table --separator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span></p>
+
+<ul>
+  <li>Fill rows before filling columns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "header1\nbar\nfoobar\n" | column --output-width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span><code class="language-plaintext highlighter-rouge"> --fillrows</code></p>

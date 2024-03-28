@@ -1,0 +1,52 @@
+<h1 id="bundle">bundle</h1>
+
+<p>Gestionnaire de dépendances pour le langage de programmation Ruby.
+Plus d'informations : <a href="https://bundler.io/man/bundle.1.html">https://bundler.io/man/bundle.1.html</a>.</p>
+
+<ul>
+  <li>Installe toutes les gems définies dans le <code class="language-plaintext highlighter-rouge">Gemfile</code> attendu dans le répertoire de travail :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle install</code></p>
+
+<ul>
+  <li>Exécute une commande dans le contexte du bundle actuel :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span></p>
+
+<ul>
+  <li>Mets à jour toutes les gems selon les règles définies dans le <code class="language-plaintext highlighter-rouge">Gemfile</code> et régénére le fichier <code class="language-plaintext highlighter-rouge">Gemfile.lock</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update</code></p>
+
+<ul>
+  <li>Mets à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le <code class="language-plaintext highlighter-rouge">Gemfile</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_gem</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_gem</span></p>
+
+<ul>
+  <li>Mets à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le <code class="language-plaintext highlighter-rouge">Gemfile</code> mais seulement vers la prochaine version de patch :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update --patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_gem</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_gem</span></p>
+
+<ul>
+  <li>Mets à jour toutes les gem(s) du groupe donné dans le <code class="language-plaintext highlighter-rouge">Gemfile</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_groupe</span></p>
+
+<ul>
+  <li>Liste les gem(s) installée(s) dans le <code class="language-plaintext highlighter-rouge">Gemfile</code> avec les nouvelles versions disponibles :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle outdated</code></p>
+
+<ul>
+  <li>Crée un nouveau squelette de gem :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle gem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_gem</span></p>

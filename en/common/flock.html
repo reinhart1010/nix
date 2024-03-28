@@ -1,0 +1,23 @@
+<h1 id="flock">flock</h1>
+
+<p>Manage locks from shell scripts.
+It can be used to ensure that only one process of a command is running.
+More information: <a href="https://manned.org/flock">https://manned.org/flock</a>.</p>
+
+<ul>
+  <li>Run a command with a file lock as soon as the lock is not required by others:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/lock.lock</span><code class="language-plaintext highlighter-rouge"> --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run a command with a file lock, and exit if the lock doesn't exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/lock.lock</span><code class="language-plaintext highlighter-rouge"> --nonblock --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run a command with a file lock, and exit with a specific error code if the lock doesn't exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/lock.lock</span><code class="language-plaintext highlighter-rouge"> --nonblock --conflict-exit-code </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error_code</span><code class="language-plaintext highlighter-rouge"> -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>

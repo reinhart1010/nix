@@ -1,0 +1,46 @@
+<h1 id="gh-auth">gh auth</h1>
+
+<p>Authenticate with a GitHub host.
+More information: <a href="https://cli.github.com/manual/gh_auth">https://cli.github.com/manual/gh_auth</a>.</p>
+
+<ul>
+  <li>Log in with interactive prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh auth login</code></p>
+
+<ul>
+  <li>Log in with a token from <code class="language-plaintext highlighter-rouge">stdin</code> (created in <a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">your_token</span><code class="language-plaintext highlighter-rouge"> | gh auth login --with-token</code></p>
+
+<ul>
+  <li>Check if you are logged in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh auth status</code></p>
+
+<ul>
+  <li>Log out:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh auth logout</code></p>
+
+<ul>
+  <li>Log in with a specific GitHub Enterprise Server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh auth login --hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github.example.com</span></p>
+
+<ul>
+  <li>Refresh the session to ensure authentication credentials have the correct minimum scopes (removes additional scopes requested previously):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh auth refresh</code></p>
+
+<ul>
+  <li>Expand the permission scopes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh auth refresh --scopes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,…</span></p>

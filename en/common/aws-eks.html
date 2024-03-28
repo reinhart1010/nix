@@ -1,0 +1,47 @@
+<h1 id="aws-eks">aws eks</h1>
+
+<p>Manage Amazon Elastic Kubernetes Service (EKS) addons, clusters, and node groups.
+Amazon EKS is a service for easily running Kubernetes on AWS.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/eks/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/eks/index.html</a>.</p>
+
+<ul>
+  <li>Create an EKS Cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks create-cluster --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span><code class="language-plaintext highlighter-rouge"> --role-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eks_service_role_arn</span><code class="language-plaintext highlighter-rouge"> --resources-vpc-config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subnetIds=<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;subnet_ids&lt;/span&gt;</code>,securityGroupIds=<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;security_group_ids}&lt;/span&gt;</code>}`</span></p>
+
+<ul>
+  <li>Update kubeconfig to connect to the EKS Cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks update-kubeconfig --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>
+
+<ul>
+  <li>List available EKS clusters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks list-clusters</code></p>
+
+<ul>
+  <li>Describe EKS cluster details:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks describe-cluster --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>
+
+<ul>
+  <li>Delete an EKS Cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks delete-cluster --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>
+
+<ul>
+  <li>List nodegroups in an EKS cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks list-nodegroups --cluster-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>
+
+<ul>
+  <li>Describe nodegroup details:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks describe-nodegroup --cluster-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span><code class="language-plaintext highlighter-rouge"> --nodegroup-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodegroup_name</span></p>

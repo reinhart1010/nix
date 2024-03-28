@@ -1,0 +1,47 @@
+<h1 id="trace-cmd">trace-cmd</h1>
+
+<p>Utility to interact with the Ftrace Linux kernel internal tracer.
+This utility only runs as root.
+More information: <a href="https://manned.org/trace-cmd">https://manned.org/trace-cmd</a>.</p>
+
+<ul>
+  <li>Display the status of tracing system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trace-cmd stat</code></p>
+
+<ul>
+  <li>List available tracers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trace-cmd list -t</code></p>
+
+<ul>
+  <li>Start tracing with a specific plugin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trace-cmd start -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">timerlat|osnoise|hwlat|blk|mmiotrace|function_graph|wakeup_dl|wakeup_rt|wakeup|function|nop</span></p>
+
+<ul>
+  <li>View the trace output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trace-cmd show</code></p>
+
+<ul>
+  <li>Stop the tracing but retain the buffers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trace-cmd stop</code></p>
+
+<ul>
+  <li>Clear the trace buffers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trace-cmd clear</code></p>
+
+<ul>
+  <li>Clear the trace buffers and stop tracing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trace-cmd reset</code></p>

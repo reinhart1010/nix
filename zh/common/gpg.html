@@ -1,0 +1,53 @@
+<h1 id="gpg">gpg</h1>
+
+<p>GNU Privacy Guard.
+请参阅 <code class="language-plaintext highlighter-rouge">gpg2</code> 了解 GNU Privacy Guard 2.
+更多信息：<a href="https://gnupg.org">https://gnupg.org</a>.</p>
+
+<ul>
+  <li>交互地创建 GPG 公钥和私钥：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --full-generate-key</code></p>
+
+<ul>
+  <li>不加密，仅对 <code class="language-plaintext highlighter-rouge">doc.txt</code> 进行签名（生成 <code class="language-plaintext highlighter-rouge">doc.txt.asc</code>，格式为 ASCII 码形式）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --clearsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>为接收者 alice@example.com 和 bob@example.com 签名并加密 <code class="language-plaintext highlighter-rouge">doc.txt</code>（生成 <code class="language-plaintext highlighter-rouge">doc.txt.gpg</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --encrypt --sign --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span><code class="language-plaintext highlighter-rouge"> --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bob@example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>只用密码加密 <code class="language-plaintext highlighter-rouge">doc.txt</code>（生成 <code class="language-plaintext highlighter-rouge">doc.txt.gpg</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --symmetric </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>解密 <code class="language-plaintext highlighter-rouge">doc.txt.gpg</code>（输出到标准输出）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --decrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt.gpg</span></p>
+
+<ul>
+  <li>导入一个公钥：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public.gpg</span></p>
+
+<ul>
+  <li>导出 alice@example.com 的公钥（输出到标准输出）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --export --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span></p>
+
+<ul>
+  <li>导出 alice@example.com 的私钥（输出到标准输出）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --export-secret-keys --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span></p>

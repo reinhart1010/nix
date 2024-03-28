@@ -1,0 +1,52 @@
+<h1 id="rpcclient">rpcclient</h1>
+
+<p>MS-RPC client tool (part of the samba suite).
+More information: <a href="https://www.samba.org/samba/docs/current/man-html/rpcclient.1.html">https://www.samba.org/samba/docs/current/man-html/rpcclient.1.html</a>.</p>
+
+<ul>
+  <li>Connect to a remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">%</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span></p>
+
+<ul>
+  <li>Connect to a remote host on a domain without a password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --workgroup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge"> --no-pass </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span></p>
+
+<ul>
+  <li>Connect to a remote host, passing the password hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --pw-nt-hash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span></p>
+
+<ul>
+  <li>Execute shell commands on a remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">%</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --command </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">semicolon_separated_commands</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span></p>
+
+<ul>
+  <li>Display domain users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient $&gt; enumdomusers</code></p>
+
+<ul>
+  <li>Display privileges:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient $&gt; enumprivs</code></p>
+
+<ul>
+  <li>Display information about a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient $&gt; queryuser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username|rid</span></p>
+
+<ul>
+  <li>Create a new user in the domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient $&gt; createdomuser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>

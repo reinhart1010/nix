@@ -1,0 +1,46 @@
+<h1 id="btrfs-balance">btrfs balance</h1>
+
+<p>Balance block groups on a btrfs filesystem.
+More information: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-balance.html">https://btrfs.readthedocs.io/en/latest/btrfs-balance.html</a>.</p>
+
+<ul>
+  <li>Show the status of a running or paused balance operation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_filesystem</span></p>
+
+<ul>
+  <li>Balance all block groups (slow; rewrites all blocks in filesystem):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_filesystem</span></p>
+
+<ul>
+  <li>Balance data block groups which are less than 15% utilized, running the operation in the background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance start --bg -dusage=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">15</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_filesystem</span></p>
+
+<ul>
+  <li>Balance a max of 10 metadata chunks with less than 20% utilization and at least 1 chunk on a given device <code class="language-plaintext highlighter-rouge">devid</code> (see <code class="language-plaintext highlighter-rouge">btrfs filesystem show</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance start -musage=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span><code class="language-plaintext highlighter-rouge">,limit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">,devid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">devid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_filesystem</span></p>
+
+<ul>
+  <li>Convert data blocks to the raid6 and metadata to raid1c3 (see mkfs.btrfs(8) for profiles):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance start -dconvert=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raid6</span><code class="language-plaintext highlighter-rouge"> -mconvert=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raid1c3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_filesystem</span></p>
+
+<ul>
+  <li>Convert data blocks to raid1, skipping already converted chunks (e.g. after a previous cancelled conversion operation):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance start -dconvert=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raid1</span><code class="language-plaintext highlighter-rouge">,soft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_filesystem</span></p>
+
+<ul>
+  <li>Cancel, pause, or resume a running or paused balance operation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cancel|pause|resume</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_filesystem</span></p>

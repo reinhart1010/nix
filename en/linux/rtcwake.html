@@ -1,0 +1,40 @@
+<h1 id="rtcwake">rtcwake</h1>
+
+<p>Enter a system sleep state until specified wakeup time relative to your BIOS clock.
+More information: <a href="https://manned.org/rtcwake">https://manned.org/rtcwake</a>.</p>
+
+<ul>
+  <li>Show whether an alarm is set or not:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rtcwake -m show -v</code></p>
+
+<ul>
+  <li>Suspend to RAM and wakeup after 10 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rtcwake -m mem -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Suspend to disk (higher power saving) and wakeup 15 minutes later:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rtcwake -m disk --date +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">15</span><code class="language-plaintext highlighter-rouge">min</code></p>
+
+<ul>
+  <li>Freeze the system (more efficient than suspend-to-RAM but version 3.9 or newer of the Linux kernel is required) and wakeup at a given date and time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rtcwake -m freeze --date </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDhhmm</span></p>
+
+<ul>
+  <li>Disable a previously set alarm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rtcwake -m disable</code></p>
+
+<ul>
+  <li>Perform a dry run to wakeup the computer at a given time. (Press Ctrl + C to abort):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rtcwake -m on --date </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:ss</span></p>

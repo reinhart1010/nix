@@ -1,0 +1,46 @@
+<h1 id="nc">nc</h1>
+
+<p>Netcat es una utilidad versátil para trabajar con datos TCP o UDP.
+Más información: <a href="https://manned.org/man/nc.1">https://manned.org/man/nc.1</a>.</p>
+
+<ul>
+  <li>Escucha en un puerto determinado e imprime cualquier dato recibido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span></p>
+
+<ul>
+  <li>Conecta a un puerto determinado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_ip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span></p>
+
+<ul>
+  <li>Configura un tiempo máximo de respuesta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tiempo_en_segundos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_ip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span></p>
+
+<ul>
+  <li>Mantiene el servidor activo hasta que el cliente se desconecte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -k -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span></p>
+
+<ul>
+  <li>Mantiene el cliente activo durante un tiempo después de recibir EOF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tiempo_en_segundos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_ip</span></p>
+
+<ul>
+  <li>Escanea puertos abiertos en un determinado host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -v -z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_ip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto1 puerto2 …</span></p>
+
+<ul>
+  <li>Actúa como un proxy y redirige los datos desde un puerto TCP local a un host remoto específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_local</span><code class="language-plaintext highlighter-rouge"> | nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_remoto</span></p>

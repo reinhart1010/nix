@@ -1,0 +1,22 @@
+<h1 id="fold">fold</h1>
+
+<p>Wrap each line in an input file to fit a specified width and print it to <code class="language-plaintext highlighter-rouge">stdout</code>.
+More information: <a href="https://manned.org/fold.1p">https://manned.org/fold.1p</a>.</p>
+
+<ul>
+  <li>Wrap each line to default width (80 characters):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Wrap each line to width "30":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fold -w30 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Wrap each line to width "5" and break the line at spaces (puts each space separated word in a new line, words with length &gt; 5 are wrapped):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fold -w5 -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

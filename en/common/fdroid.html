@@ -1,0 +1,41 @@
+<h1 id="fdroid">fdroid</h1>
+
+<p>F-Droid build tool.
+F-Droid is an installable catalog of FOSS (Free and Open Source Software) applications for the Android platform.
+More information: <a href="https://f-droid.org/">https://f-droid.org/</a>.</p>
+
+<ul>
+  <li>Build a specific app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdroid build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span></p>
+
+<ul>
+  <li>Build a specific app in a build server VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdroid build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span><code class="language-plaintext highlighter-rouge"> --server</code></p>
+
+<ul>
+  <li>Publish the app to the local repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdroid publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span></p>
+
+<ul>
+  <li>Install the app on every connected device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdroid install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span></p>
+
+<ul>
+  <li>Check if the metadata is formatted correctly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdroid lint --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span></p>
+
+<ul>
+  <li>Fix the formatting automatically (if possible):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdroid rewritemeta </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span></p>

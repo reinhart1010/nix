@@ -1,0 +1,28 @@
+<h1 id="autopep8">autopep8</h1>
+
+<p>Formatea el código Python según la guía de estilo PEP 8.
+Más información: <a href="https://github.com/hhatto/autopep8">https://github.com/hhatto/autopep8</a>.</p>
+
+<ul>
+  <li>Formatea un archivo a <code class="language-plaintext highlighter-rouge">stdout</code>, con una longitud de línea máxima personalizada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autopep8 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.py</span><code class="language-plaintext highlighter-rouge"> --max-line-length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">length</span></p>
+
+<ul>
+  <li>Formatea un fichero, mostrando un diff de los cambios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autopep8 --diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Formatea un fichero en su lugar y guarda los cambios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autopep8 --in-place </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.py</span></p>
+
+<ul>
+  <li>Formatea recursivamente todos los archivos de un directorio y guarda los cambios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autopep8 --in-place --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>

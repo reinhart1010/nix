@@ -1,0 +1,46 @@
+<h1 id="netstat">netstat</h1>
+
+<p>열린 연결 및 소켓 포트 등과 같은 네트워크 관련 정보를 표시합니다.
+더 많은 정보: <a href="https://man7.org/linux/man-pages/man8/netstat.8.html">https://man7.org/linux/man-pages/man8/netstat.8.html</a>.</p>
+
+<ul>
+  <li>모든 포트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --all</code></p>
+
+<ul>
+  <li>모든 수신 포트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --listening</code></p>
+
+<ul>
+  <li>수신 중인 TCP 포트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --tcp</code></p>
+
+<ul>
+  <li>PID 및 프로그램 이름 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --program</code></p>
+
+<ul>
+  <li>정보를 지속적으로 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --continuous</code></p>
+
+<ul>
+  <li>경로를 나열하고 IP 주소를 호스트 이름으로 확인하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --route --numeric</code></p>
+
+<ul>
+  <li>수신 TCP 및 UDP 포트 나열 (+ 루트인 경우 사용자 및 프로세스까지 포함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --listening --program --numeric --tcp --udp --extend</code></p>

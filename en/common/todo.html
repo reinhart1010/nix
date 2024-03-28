@@ -1,0 +1,46 @@
+<h1 id="todo">todo</h1>
+
+<p>A simple, standards-based, cli todo manager.
+More information: <a href="https://todoman.readthedocs.io">https://todoman.readthedocs.io</a>.</p>
+
+<ul>
+  <li>List startable tasks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo list --startable</code></p>
+
+<ul>
+  <li>Add a new task to the work list:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">thing_to_do</span><code class="language-plaintext highlighter-rouge"> --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">work</span></p>
+
+<ul>
+  <li>Add a location to a task with a given ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo edit --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">location_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Show details about a task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Mark tasks with the specified IDs as completed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo done </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id1 task_id2 …</span></p>
+
+<ul>
+  <li>Delete a task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Delete done tasks and reset the IDs of the remaining tasks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo flush</code></p>

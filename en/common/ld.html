@@ -1,0 +1,22 @@
+<h1 id="ld">ld</h1>
+
+<p>Link object files together.
+More information: <a href="https://sourceware.org/binutils/docs-2.38/ld.html">https://sourceware.org/binutils/docs-2.38/ld.html</a>.</p>
+
+<ul>
+  <li>Link a specific object file with no dependencies into an executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ld </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.o</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span></p>
+
+<ul>
+  <li>Link two object files together:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ld </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.o</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span></p>
+
+<ul>
+  <li>Dynamically link an x86_64 program to glibc (file paths change depending on the system):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ld --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span><code class="language-plaintext highlighter-rouge"> --dynamic-linker /lib/ld-linux-x86-64.so.2 /lib/crt1.o /lib/crti.o -lc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.o</span><code class="language-plaintext highlighter-rouge"> /lib/crtn.o</code></p>

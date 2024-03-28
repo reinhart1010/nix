@@ -1,0 +1,22 @@
+<h1 id="read">read</h1>
+
+<p>Shell builtin for retrieving data from <code class="language-plaintext highlighter-rouge">stdin</code>.
+More information: <a href="https://manned.org/read.1p">https://manned.org/read.1p</a>.</p>
+
+<ul>
+  <li>Store data that you type from the keyboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Do not let backslash (\) act as an escape character:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Read <code class="language-plaintext highlighter-rouge">stdin</code> and perform an action on every line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while read line; do echo "$line"; done</code></p>

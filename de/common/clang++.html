@@ -1,0 +1,38 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="clang">clang++</h1>
+
+<p>Kompiliert C++ Quelldateien.
+Teil von LLVM.
+Weitere Informationen: <a href="https://clang.llvm.org">https://clang.llvm.org</a>.</p>
+
+<ul>
+  <li>Kompiliere eine Quelldatei in eine ausführbare Binärdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span></p>
+
+<ul>
+  <li>Zeige geläufige Fehler und Warnungen an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -Wall -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span></p>
+
+<ul>
+  <li>Wähle einen Sprachstandard für die Kompilation aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -std=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c++20</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span></p>
+
+<ul>
+  <li>Binde Bibliotheken, die sich an einem anderen Pfad als die Quelldatei befinden, ein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/qelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/headerdatei</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bibliothek</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bibliotheksname</span></p>
+
+<ul>
+  <li>Kompiliere eine Quelldatei zu LLVM Intermediate Representation (IR):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang++ -S -emit-llvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ir_datei.ll</span></p>

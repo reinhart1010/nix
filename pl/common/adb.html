@@ -1,0 +1,46 @@
+<h1 id="adb">adb</h1>
+
+<p>Android Debug Bridge: komunikuj się z instancją emulatora Androida lub podłączonym urządzeniem z Androidem.
+Więcej informacji: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Sprawdź czy proces serwera adb działa, jeśli nie, uruchom go:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb start-server</code></p>
+
+<ul>
+  <li>Zakończ proces serwera adb:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb kill-server</code></p>
+
+<ul>
+  <li>Uruchom powłokę w instancji emulatora lub urządzeniu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell</code></p>
+
+<ul>
+  <li>Wypchnij aplikację Androidową do instancji emulatora lub urządzenia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span></p>
+
+<ul>
+  <li>Skopiuj plik/katalog do urządzenia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu_na_urządzeniu</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/lokalnego_katalogu</span></p>
+
+<ul>
+  <li>Skopiuj plik/katalog z urządzenia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu_na_urządzeniu</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/lokalnego_katalogu</span></p>
+
+<ul>
+  <li>Listuj połączone lub emulowane urządzenia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb devices</code></p>

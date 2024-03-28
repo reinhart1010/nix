@@ -1,0 +1,53 @@
+<h1 id="cargo">cargo</h1>
+
+<p>Beheer Rust projecten en hun afhankelijkheden (crates).
+Sommige subcommando's zoals <code class="language-plaintext highlighter-rouge">build</code> hebben een eigen documentatie pagina.
+Meer informatie: <a href="https://doc.rust-lang.org/cargo">https://doc.rust-lang.org/cargo</a>.</p>
+
+<ul>
+  <li>Zoek naar crates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekopdracht</span></p>
+
+<ul>
+  <li>Installeer een crate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crate-naam</span></p>
+
+<ul>
+  <li>Geef een lijst van geïnstalleerde crates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install --list</code></p>
+
+<ul>
+  <li>Maak een nieuwe Rust-binary (bin) of -bibliotheek (lib) in de gegeven map. (Standaard is de huidige map):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>
+
+<ul>
+  <li>Voeg een afhankelijkheid toe aan <code class="language-plaintext highlighter-rouge">Cargo.toml</code> in de huidge map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">afhankelijkheid</span></p>
+
+<ul>
+  <li>Bouw het Rust-project in de huidige map door gebruik te maken van het release-profiel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --release</code></p>
+
+<ul>
+  <li>Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijkse compiler (vereist <code class="language-plaintext highlighter-rouge">rustup</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo +nightly build</code></p>
+
+<ul>
+  <li>Bouw met een gegeven aantal taken. (Standaard is het aantal CPU-kernen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal_taken</span></p>

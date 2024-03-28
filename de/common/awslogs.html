@@ -1,0 +1,34 @@
+<h1 id="awslogs">awslogs</h1>
+
+<p>CLI um Log-Gruppen, Streams und Events von Amazon CloudWatch Logs abzurufen.
+Weitere Informationen: <a href="https://github.com/jorgebastida/awslogs">https://github.com/jorgebastida/awslogs</a>.</p>
+
+<ul>
+  <li>Liste alle Log-Gruppen auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awslogs groups</code></p>
+
+<ul>
+  <li>Liste alle bestehenden Streams einer angegebenen Loggruppe auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awslogs streams </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/log/syslog</span></p>
+
+<ul>
+  <li>Rufe alle Logs für jegliche Streams in der angegebenen Log-Gruppe für die letzten 1 bis 2 Stunden ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awslogs get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/log/syslog</span><code class="language-plaintext highlighter-rouge"> --start='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2h ago</span><code class="language-plaintext highlighter-rouge">' --end='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1h ago</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Rufe alle Logs für einen bestimmten CloudWatch-Logs Filter-Ausdruck ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awslogs get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/aws/lambda/meine_lambda_gruppe</span><code class="language-plaintext highlighter-rouge"> --filter-pattern='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ERROR</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Beobachte Logs für jegliche Streams in der angegebenen Log-Gruppe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awslogs get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/log/syslog</span><code class="language-plaintext highlighter-rouge"> ALL --watch</code></p>

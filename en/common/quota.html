@@ -1,0 +1,34 @@
+<h1 id="quota">quota</h1>
+
+<p>Display users' disk space usage and allocated limits.
+More information: <a href="https://manned.org/quota">https://manned.org/quota</a>.</p>
+
+<ul>
+  <li>Show disk quotas in human-readable units for the current user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quota -s</code></p>
+
+<ul>
+  <li>Verbose output (also display quotas on filesystems where no storage is allocated):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quota -v</code></p>
+
+<ul>
+  <li>Quiet output (only display quotas on filesystems where usage is over quota):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quota -q</code></p>
+
+<ul>
+  <li>Print quotas for the groups of which the current user is a member:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quota -g</code></p>
+
+<ul>
+  <li>Show disk quotas for another user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quota -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>

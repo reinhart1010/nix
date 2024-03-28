@@ -1,0 +1,47 @@
+<h1 id="vgrep">vgrep</h1>
+
+<p>A user friendly pager for grep.
+See also: <code class="language-plaintext highlighter-rouge">ugrep</code>, <code class="language-plaintext highlighter-rouge">rg</code>.
+More information: <a href="https://github.com/vrothberg/vgrep">https://github.com/vrothberg/vgrep</a>.</p>
+
+<ul>
+  <li>Recursively search the current directory for a pattern and cache it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span></p>
+
+<ul>
+  <li>Display the contents of the cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep</code></p>
+
+<ul>
+  <li>Open the "4th" match from the cache in the default editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Display a context of "3" lines for each match in the cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep --show=context</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Display the number of matches for each directory in the tree:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep --show=tree</code></p>
+
+<ul>
+  <li>Display the number of matches for each file in the tree:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep --show=files</code></p>
+
+<ul>
+  <li>Start an interactive shell with cached matches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep --interactive</code></p>

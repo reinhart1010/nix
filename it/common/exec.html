@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="exec">exec</h1>
+
+<p>Sostituisci il processo corrente con un altro.
+Maggiori informazioni: <a href="https://manned.org/exec.1posix">https://manned.org/exec.1posix</a>.</p>
+
+<ul>
+  <li>Sostituisci con il comando specificato utilizzando le variabili di ambiente correnti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando -con -flag</span></p>
+
+<ul>
+  <li>Sostituisci con il comando specificato utilizzando un ambiente vuoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando -con -flag</span></p>
+
+<ul>
+  <li>Sostituisci con il comando specificato ed esegui il login con la shell predefinita:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando -con -flag</span></p>
+
+<ul>
+  <li>Sostituisci con il comando specificato e cambia il nome del processo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuovo_nome_processo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando -con -flag</span></p>

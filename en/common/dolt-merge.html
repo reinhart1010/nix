@@ -1,0 +1,34 @@
+<h1 id="dolt-merge">dolt merge</h1>
+
+<p>Join two or more development histories together.
+More information: <a href="https://docs.dolthub.com/cli-reference/cli#dolt-merge">https://docs.dolthub.com/cli-reference/cli#dolt-merge</a>.</p>
+
+<ul>
+  <li>Incorporate changes from the named commits into the current branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Incorporate changes from the named commits into the current branch without updating the commit history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt merge --squash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Merge a branch and create a merge commit even when the merge resolves as a fast-forward:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt merge --no-ff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Merge a branch and create a merge commit with a specific commit message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt merge --no-ff -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Abort the current conflict resolution process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt merge --abort</code></p>

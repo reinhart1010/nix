@@ -1,0 +1,16 @@
+<h1 id="pgmtoppm">pgmtoppm</h1>
+
+<p>Colorize a PGM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/pgmtoppm.html">https://netpbm.sourceforge.net/doc/pgmtoppm.html</a>.</p>
+
+<ul>
+  <li>Map all greyscale values of the input image to all colors between the two specified colors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pgmtoppm -black </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">red</span><code class="language-plaintext highlighter-rouge"> --white </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pgm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Map all greyscale values of the input image to colors according to the specified colormap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pgmtoppm -map </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/colormap.ppm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pgm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>

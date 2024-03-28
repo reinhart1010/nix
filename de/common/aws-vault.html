@@ -1,0 +1,40 @@
+<h1 id="aws-vault">aws-vault</h1>
+
+<p>Ein Tresor für Entwicklungsumgebungen, um AWS Sicherheitsschlüssel sicher speichern und abrufen zu können.
+Weitere Informationen: <a href="https://github.com/99designs/aws-vault">https://github.com/99designs/aws-vault</a>.</p>
+
+<ul>
+  <li>Füge einen Sicherheitsschlüssel als Profil zu einem Tresor hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws-vault add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profil</span></p>
+
+<ul>
+  <li>Führe einen Befehl mit AWS Sicherheitsschlüsseln aus dem angegebenen Profil aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws-vault exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profil</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws s3 ls</span></p>
+
+<ul>
+  <li>Öffne ein Browserfenster für den Login in die AWS Konsole:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws-vault login </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profil</span></p>
+
+<ul>
+  <li>Liste alle Profile zusammen mit deren Sicherheitsschlüsseln und Sitzungen auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws-vault list</code></p>
+
+<ul>
+  <li>Rotiere die AWS Sicherheitsschlüssel für ein Profil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws-vault rotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profil</span></p>
+
+<ul>
+  <li>Entferne Sicherheitsschlüsseln eines Profils aus dem Tresor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws-vault remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profil</span></p>

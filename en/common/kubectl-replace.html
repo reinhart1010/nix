@@ -1,0 +1,22 @@
+<h1 id="kubectl-replace">kubectl replace</h1>
+
+<p>Replace a resource by file or <code class="language-plaintext highlighter-rouge">stdin</code>.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#replace">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#replace</a>.</p>
+
+<ul>
+  <li>Replace the resource using the resource definition file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl replace -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yml</span></p>
+
+<ul>
+  <li>Replace the resource using the input passed into <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl replace -f -</code></p>
+
+<ul>
+  <li>Force replace, delete and then re-create the resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl replace --force -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yml</span></p>

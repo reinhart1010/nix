@@ -1,0 +1,53 @@
+<h1 id="git-config">git config</h1>
+
+<p>Gestiona opciones de configuración personalizadas para repositorios Git.
+Estas configuraciones pueden ser locales (para el repositorio actual) o globales (para el usuario actual).
+Más información: <a href="https://git-scm.com/docs/git-config">https://git-scm.com/docs/git-config</a>.</p>
+
+<ul>
+  <li>Lista sólo las entradas de configuración local (almacenadas en <code class="language-plaintext highlighter-rouge">.git/config</code> en el repositorio actual):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --local</code></p>
+
+<ul>
+  <li>Lista sólo las entradas de configuración global (almacenadas en <code class="language-plaintext highlighter-rouge">~/.gitconfig</code> por defecto o en <code class="language-plaintext highlighter-rouge">$XDG_CONFIG_HOME/git/config</code> si existe tal archivo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --global</code></p>
+
+<ul>
+  <li>Lista sólo las entradas de configuración del sistema (almacenadas en <code class="language-plaintext highlighter-rouge">/etc/gitconfig</code>), y muestra su ubicación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --system --show-origin</code></p>
+
+<ul>
+  <li>Obtén el valor de una entrada de configuración dada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config alias.unstage</code></p>
+
+<ul>
+  <li>Establece el valor global de una entrada de configuración dada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global alias.unstage "reset HEAD --"</code></p>
+
+<ul>
+  <li>Revierte una entrada de configuración global a su valor por defecto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --unset alias.unstage</code></p>
+
+<ul>
+  <li>Edita la configuración de Git para el repositorio actual en el editor por defecto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --edit</code></p>
+
+<ul>
+  <li>Edita la configuración global de Git en el editor por defecto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --edit</code></p>

@@ -1,0 +1,46 @@
+<h1 id="traceroute">traceroute</h1>
+
+<p>Print the route packets trace to network host.
+More information: <a href="https://manned.org/traceroute">https://manned.org/traceroute</a>.</p>
+
+<ul>
+  <li>Traceroute to a host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Disable IP address and host name mapping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Specify wait time in seconds for response:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --wait=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Specify number of queries per hop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --queries=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Specify size in bytes of probing packet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">42</span></p>
+
+<ul>
+  <li>Determine the MTU to the destination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --mtu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Use ICMP instead of UDP for tracerouting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --icmp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

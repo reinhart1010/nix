@@ -1,0 +1,28 @@
+<h1 id="ts">ts</h1>
+
+<p>Add timestamps to every line from <code class="language-plaintext highlighter-rouge">stdin</code>.
+More information: <a href="https://joeyh.name/code/moreutils/">https://joeyh.name/code/moreutils/</a>.</p>
+
+<ul>
+  <li>Add a timestamp to the beginning of each line:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | ts</code></p>
+
+<ul>
+  <li>Add timestamps with microsecond precision:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | ts "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%b %d %H:%M:%.S</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Add [i]ncremental timestamps with microsecond precision, starting from zero:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | ts -i "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%H:%M:%.S</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Convert existing timestamps in a text file (eg. a log file) into [r]elative format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | ts -r</code></p>
