@@ -3,23 +3,14 @@ layout: page
 title: linux/waypipe (español)
 description: "Ejecuta remotamente aplicaciones gráficas bajo un compositor para Wayland."
 content_hash: cb1e2903629f0b1414406cabca56cc32f469722d
-last_modified_at: 2024-03-27
+last_modified_at: 2024-03-28
 related_topics:
   - title: English version
     url: /en/linux/waypipe.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/waypipe.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># waypipe
+# waypipe
 
 Ejecuta remotamente aplicaciones gráficas bajo un compositor para Wayland.
 Más información: <https://gitlab.freedesktop.org/mstoeckl/waypipe>.

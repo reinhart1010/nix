@@ -3,23 +3,14 @@ layout: page
 title: linux/agetty (español)
 description: "Alternativa a `getty`: Abre un puerto `tty`, pide un nombre de usuario, e invoca el comando `/bin/login`."
 content_hash: 4a962e051d7d2528ec039cc6e51e47c418057589
-last_modified_at: 2024-03-27
+last_modified_at: 2024-03-28
 related_topics:
   - title: English version
     url: /en/linux/agetty.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/agetty.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># agetty
+# agetty
 
 Alternativa a `getty`: Abre un puerto `tty`, pide un nombre de usuario, e invoca el comando `/bin/login`.
 Normalmente es invocado por `init`.
