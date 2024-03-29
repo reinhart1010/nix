@@ -2,8 +2,8 @@
 layout: page
 title: common/vboxmanage-cloud (English)
 description: "VirtualBox command-line interface for managing cloud instances and images."
-content_hash: 26726e5a0ebb0d6394cdfa72626e3ffbb8dcbdab
-last_modified_at: 2024-01-08
+content_hash: 27c1c5d25b5cffcb4a80a32cabd9b4a3967f4a90
+last_modified_at: 2024-03-29
 tldri18n_status: 2
 ---
 # vboxmanage-cloud
@@ -33,7 +33,7 @@ More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-cloud>
 
 - Create a new image:
 
-`VBoxManage cloud --provider=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">provider_name</span>` --profile=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span>` image create --instance-id=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_id</span>` --display-name=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">display_name</span>` --compartment-id=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compartmet_id</span>
+`VBoxManage cloud --provider=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">provider_name</span>` --profile=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span>` image create --instance-id=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_id</span>` --display-name=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">display_name</span>` --compartment-id=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compartment_id</span>
 
 - Retrieve information about a particular image:
 

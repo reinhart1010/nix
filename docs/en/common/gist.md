@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gist (English)
-description: "Upload code to https://gist.github.com."
-content_hash: 7b6d293662ab8a7a8f6fbe7998bbe36aae72f19a
-last_modified_at: 2023-12-27
+description: "Upload code to <https://gist.github.com>."
+content_hash: 887d036da142a81116d57d6c495b5d996c46611a
+last_modified_at: 2024-03-29
 related_topics:
   - title: українська version
     url: /uk/common/gist.html
@@ -12,10 +12,10 @@ tldri18n_status: 2
 ---
 # gist
 
-Upload code to https://gist.github.com.
+Upload code to <https://gist.github.com>.
 More information: <https://github.com/defunkt/gist>.
 
-- Log in in gist on this computer:
+- Log in to gist on this computer:
 
 `gist --login`
 
