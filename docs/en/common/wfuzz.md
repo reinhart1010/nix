@@ -2,8 +2,8 @@
 layout: page
 title: common/wfuzz (English)
 description: "A web application bruteforcer."
-content_hash: 2a3481d1ff97630086c6b99aedfb77780ca15c89
-last_modified_at: 2024-03-20
+content_hash: d285b7d406682ff4bfd043f6f3caf8f07a54d22c
+last_modified_at: 2024-04-01
 tldri18n_status: 2
 ---
 # wfuzz
@@ -13,7 +13,7 @@ More information: <https://wfuzz.readthedocs.io/en/latest/user/basicusage.html>.
 
 - Directory and file bruteforce using the specified [w]ordlist and also [p]roxying the traffic:
 
-`wfuzz -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1:8080</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/FUZZ</span>
+`wfuzz -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1:8080:HTTP</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/FUZZ</span>
 
 - Save the results to a [f]ile:
 
@@ -30,3 +30,15 @@ More information: <https://wfuzz.readthedocs.io/en/latest/user/basicusage.html>.
 - Brute force Basic Authentication using a list of usernames and passwords from files for each FUZ[z] keyword, [h]iding response [c]odes of unsuccessful attempts:
 
 `wfuzz -c --hc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">401</span>` -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delay_between_requests_in_seconds</span>` -z file,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/usernames</span>` -z file,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/passwords</span>` --basic 'FUZZ:FUZ2Z' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
+
+- Provide wordlist directly from the command line and use POST request for fuzzing:
+
+`wfuzz -z list,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">word1-word2-...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://api.example.com</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"id=FUZZ&showwallet=true"</span>
+
+- Provide wordlists from a file applying base64 and md5 encoding on them (`wfuzz -e encoders` lists all available encoders):
+
+`wfuzz -z file,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`,none-base64-md5 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/FUZZ</span>
+
+- List available encoders/payloads/iterators/printers/scripts:
+
+`wfuzz -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encoders|payloads|iterators|printers|scripts</span>
