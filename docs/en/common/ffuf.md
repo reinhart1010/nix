@@ -2,8 +2,12 @@
 layout: page
 title: common/ffuf (English)
 description: "A fast web fuzzer written in Go."
-content_hash: ffbadf338e7d8f7f1d0f91fdbe44a391ee2a44a8
-last_modified_at: 2024-02-24
+content_hash: be8f069ca6c7b826d02a0ab044bb9f6e01469e04
+last_modified_at: 2024-04-02
+related_topics:
+  - title: français version
+    url: /fr/common/ffuf.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # ffuf
@@ -16,7 +20,7 @@ More information: <https://github.com/ffuf/ffuf#usage>.
 
 `ffuf -c -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist.txt</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://target/FUZZ</span>
 
-- Enumerate subdomains by changing the position of the keyword:
+- Enumerate webservers of subdomains by changing the position of the keyword:
 
 `ffuf -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/subdomains.txt</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://FUZZ.target.com</span>
 
@@ -31,3 +35,11 @@ More information: <https://github.com/ffuf/ffuf#usage>.
 - Fuzz with specified HTTP method and [d]ata, while [f]iltering out comma separated status [c]odes:
 
 `ffuf -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/postdata.txt</span>` -X `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POST</span>` -d "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username=admin\&password=FUZZ</span>`" -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://target/login.php</span>` -fc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">401,403</span>
+
+- Fuzz multiple positions with multiple wordlists using different modes:
+
+`ffuf -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/keys:KEY</span>` -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/values:VALUE</span>` -mode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pitchfork|clusterbomb</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://target.com/id?KEY=VALUE</span>
+
+- Proxy requests through a HTTP MITM pro[x]y (such as Burp Suite or `mitmproxy`):
+
+`ffuf -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist</span>` -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:8080</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://target.com/FUZZ</span>
