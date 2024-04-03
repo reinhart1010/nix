@@ -1,14 +1,15 @@
 ---
 layout: page
 title: common/gitui (English)
-description: "Terminal UI for Git."
-content_hash: 36f3740898598e6a53449fc74a55ec9d18981cc6
-last_modified_at: 2024-02-09
+description: "A lightweight keyboard-only TUI for Git."
+content_hash: 3a05c6490ac7df6c96dfaee8fc66c2351669bcee
+last_modified_at: 2024-04-03
 tldri18n_status: 2
 ---
 # gitui
 
-Terminal UI for Git.
+A lightweight keyboard-only TUI for Git.
+See also: `tig`, `git-gui`.
 More information: <https://github.com/extrawurst/gitui>.
 
 - Specify the color theme (defaults to `theme.ron`):

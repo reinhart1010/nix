@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/tig (English)
-description: "A text-mode interface for Git."
-content_hash: 6381236c0f1a5313d6f41034cc2a80a91276efd3
-last_modified_at: 2023-11-12
+description: "A configurable `ncurses`-based TUI for Git."
+content_hash: e2b1b5d151b71e5b52e1f683c9b5de8eafce1c27
+last_modified_at: 2024-04-03
 related_topics:
   - title: Deutsch version
     url: /de/common/tig.html
@@ -15,8 +15,9 @@ tldri18n_status: 2
 ---
 # tig
 
-A text-mode interface for Git.
-More information: <https://github.com/jonas/tig>.
+A configurable `ncurses`-based TUI for Git.
+See also: `gitui`, `git-gui`.
+More information: <https://jonas.github.io/tig/doc/manual.html>.
 
 - Show the sequence of commits starting from the current one in reverse chronological order:
 
@@ -41,3 +42,7 @@ More information: <https://github.com/jonas/tig>.
 - Start in stash view, displaying all saved stashes:
 
 `tig stash`
+
+- Display help in TUI:
+
+`h`
