@@ -3,14 +3,17 @@ layout: page
 title: common/ffuf (français)
 description: "Un outil d'énumération web rapide écrit en Go."
 content_hash: a88484eb3e56e762a06da7bf94631a2dbcb15e00
-last_modified_at: 2024-02-25
+last_modified_at: 2024-04-03
 related_topics:
   - title: English version
     url: /en/common/ffuf.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ffuf
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ffuf
 
 Un outil d'énumération web rapide écrit en Go.
 Le mot-clé `FUZZ` est utilisé comme substitut. `ffuf` essaiera d'atteindre l'URL en remplaçant le mot `FUZZ` par tous les mots de la liste donnée.
