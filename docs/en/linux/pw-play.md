@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/pw-play (English)
-description: "Play audio files through `pipewire`."
-content_hash: f48b59e23bdcdf2ffb1847f9c41319fbcc5f2ce4
-last_modified_at: 2024-01-08
+description: "Play audio files through PipeWire."
+content_hash: 5931ba44fae6f960f4598a237396aa9155aa9f3d
+last_modified_at: 2024-04-04
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/pw-play.html
@@ -15,8 +15,9 @@ tldri18n_status: 2
 ---
 # pw-play
 
-Play audio files through `pipewire`.
+Play audio files through PipeWire.
 Shorthand for `pw-cat --playback`.
+See also: `play`.
 More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 
 - Play a WAV sound file over the default target:

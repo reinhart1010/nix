@@ -2,8 +2,8 @@
 layout: page
 title: common/gitk (English)
 description: "A graphical Git repository browser."
-content_hash: 133fa7ec57d18b365cab7706a3e22a14869f9c28
-last_modified_at: 2024-03-22
+content_hash: 4be8e13f3869bb95c8f3de9f1c86e4af60675f1d
+last_modified_at: 2024-04-04
 related_topics:
   - title: Türkçe version
     url: /tr/common/gitk.html
@@ -13,6 +13,7 @@ tldri18n_status: 2
 # gitk
 
 A graphical Git repository browser.
+See also: `git-gui`, `git-cola`, `tig`.
 More information: <https://git-scm.com/docs/gitk>.
 
 - Show the repository browser for the current Git repository:

@@ -2,14 +2,15 @@
 layout: page
 title: common/lmms (English)
 description: "Free, open source, cross-platform digital audio workstation."
-content_hash: 6bdb953b85c60b636cdbf1a8a3169bc088254b62
-last_modified_at: 2023-11-12
+content_hash: 3c44088ce8e71dd22aef9cb7c014b7ef7c41512e
+last_modified_at: 2024-04-04
 tldri18n_status: 2
 ---
 # lmms
 
 Free, open source, cross-platform digital audio workstation.
 Render a `.mmp` or `.mmpz` project file, dump a `.mmpz` as XML, or start the GUI.
+See also: `mixxx`.
 More information: <https://lmms.io>.
 
 - Start the GUI:

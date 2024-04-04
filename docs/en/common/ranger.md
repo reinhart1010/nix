@@ -2,8 +2,8 @@
 layout: page
 title: common/ranger (English)
 description: "Console file manager with VI key bindings."
-content_hash: aaf63093fdc7b495fc4d69224dae5e25382c4dab
-last_modified_at: 2023-11-12
+content_hash: 76be94ddbd50a0fb8d0ed78d554e8e37b0cc72be
+last_modified_at: 2024-04-04
 related_topics:
   - title: 日本語 version
     url: /ja/common/ranger.html
@@ -13,6 +13,7 @@ tldri18n_status: 2
 # ranger
 
 Console file manager with VI key bindings.
+See also: `clifm`, `vifm`, `mc`, `dolphin`.
 More information: <https://github.com/ranger/ranger>.
 
 - Launch ranger:

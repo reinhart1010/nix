@@ -2,13 +2,14 @@
 layout: page
 title: linux/homeshick (English)
 description: "Synchronize Git dotfiles."
-content_hash: 3e826c702481b019d9c33e025733360e8c47403b
-last_modified_at: 2023-11-12
+content_hash: a99cabd817f114c28bb05164cd3c14a32fc68042
+last_modified_at: 2024-04-04
 tldri18n_status: 2
 ---
 # homeshick
 
 Synchronize Git dotfiles.
+See also: `chezmoi`, `stow`, `tuckr`, `vcsh`.
 More information: <https://github.com/andsens/homeshick/wiki>.
 
 - Create a new castle:

@@ -2,13 +2,14 @@
 layout: page
 title: common/vcsh (English)
 description: "Version Control System for the home directory using Git repositories."
-content_hash: 51e912520c45e0c6b68bd39dc846e90791527fba
-last_modified_at: 2023-11-12
+content_hash: b0eff1cabda737d106c8e8b8597ddb29a64aa092
+last_modified_at: 2024-04-04
 tldri18n_status: 2
 ---
 # vcsh
 
 Version Control System for the home directory using Git repositories.
+See also: `chezmoi`, `stow`, `tuckr`, `homeshick`.
 More information: <https://github.com/RichiH/vcsh>.
 
 - Initialize an (empty) repository:

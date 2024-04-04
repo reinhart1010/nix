@@ -2,13 +2,14 @@
 layout: page
 title: common/lilypond (English)
 description: "Typeset music and/or produce MIDI from file."
-content_hash: 146522a83e98c9597909656fe35fd87c2ca25d3c
-last_modified_at: 2023-11-12
+content_hash: 918313fa0381c01ecb0b67c9f308fcb430f79f73
+last_modified_at: 2024-04-04
 tldri18n_status: 2
 ---
 # lilypond
 
 Typeset music and/or produce MIDI from file.
+See also: `musescore`.
 More information: <https://lilypond.org>.
 
 - Compile a lilypond file into a PDF:

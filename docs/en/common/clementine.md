@@ -2,8 +2,8 @@
 layout: page
 title: common/clementine (English)
 description: "A modern music player and library organizer."
-content_hash: f992fa12137a6179caa6665a9162bca8023e3ec3
-last_modified_at: 2024-02-21
+content_hash: 432666080ad9d31e9ae3464faf1534db6552de9a
+last_modified_at: 2024-04-04
 related_topics:
   - title: italiano version
     url: /it/common/clementine.html
@@ -16,6 +16,7 @@ tldri18n_status: 2
 # clementine
 
 A modern music player and library organizer.
+See also: `audacious`, `qmmp`, `cmus`, `mpv`.
 More information: <https://github.com/clementine-player/Clementine/wiki>.
 
 - Start the GUI or bring it to front:

@@ -2,13 +2,14 @@
 layout: page
 title: common/cal (English)
 description: "Display a calendar with the current day highlighted."
-content_hash: 41286992d97db7ac3143dae7863464478a2fb4ff
-last_modified_at: 2024-02-15
+content_hash: 1c16f6855a2a36a4cab36c8654cf1e872561114f
+last_modified_at: 2024-04-04
 tldri18n_status: 2
 ---
 # cal
 
 Display a calendar with the current day highlighted.
+See also: `gcal`.
 More information: <https://manned.org/cal.1p>.
 
 - Display a calendar for the current month:

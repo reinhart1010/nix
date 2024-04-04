@@ -2,13 +2,14 @@
 layout: page
 title: linux/termusic (English)
 description: "A terminal music player written in Rust that uses vim-like key bindings."
-content_hash: ce5225d8336b2c3ca4287ff069071d7662f20078
-last_modified_at: 2024-01-30
+content_hash: 82a581a8c2275bcc19b11f8105ed0dec22caa74b
+last_modified_at: 2024-04-04
 tldri18n_status: 2
 ---
 # termusic
 
 A terminal music player written in Rust that uses vim-like key bindings.
+See also: `cmus`, `ncmpcpp`, `audacious`.
 More information: <https://github.com/tramhao/termusic>.
 
 - Open termusic to a specific directory. (It can be set permanently in `~/.config/termusic/config.toml`):

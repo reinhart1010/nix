@@ -2,13 +2,14 @@
 layout: page
 title: common/youtube-viewer (English)
 description: "Search and play videos from YouTube."
-content_hash: a27a73994a338b1651f746de712f1716bcb82c52
-last_modified_at: 2024-03-07
+content_hash: c1426b449235795ef8013d5aaba18aa632387b38
+last_modified_at: 2024-04-04
 tldri18n_status: 2
 ---
 # youtube-viewer
 
 Search and play videos from YouTube.
+See also: `you-get`, `ytfzf`, `yt-dlp`.
 More information: <https://github.com/trizen/youtube-viewer>.
 
 - Search for a video:

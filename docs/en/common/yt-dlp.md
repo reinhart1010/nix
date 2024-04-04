@@ -2,8 +2,8 @@
 layout: page
 title: common/yt-dlp (English)
 description: "A youtube-dl fork with additional features and fixes."
-content_hash: b3c4bcf3394b8916894625e6632b34fafd2c4936
-last_modified_at: 2023-11-12
+content_hash: 8ed688d857d2424655255f1243d402824c71735a
+last_modified_at: 2024-04-04
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/yt-dlp.html
@@ -14,6 +14,7 @@ tldri18n_status: 2
 
 A youtube-dl fork with additional features and fixes.
 Download videos from YouTube and other websites.
+See also: `yt-dlp`, `ytfzf`.
 More information: <https://github.com/yt-dlp/yt-dlp>.
 
 - Download a video or playlist (with the default options from command below):

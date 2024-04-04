@@ -2,13 +2,14 @@
 layout: page
 title: common/tuckr (English)
 description: "Dotfile manager written in Rust."
-content_hash: 79b46a7cabf73e3ffc50857759cf507005847174
-last_modified_at: 2023-11-12
+content_hash: 72ba1c86151adbb306eb1a9707cbb296ca908317
+last_modified_at: 2024-04-04
 tldri18n_status: 2
 ---
 # tuckr
 
 Dotfile manager written in Rust.
+See also: `chezmoi`, `vcsh`, `homeshick`, `stow`.
 More information: <https://github.com/RaphGL/Tuckr>.
 
 - Check dotfile status:

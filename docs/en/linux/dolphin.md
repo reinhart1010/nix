@@ -2,8 +2,8 @@
 layout: page
 title: linux/dolphin (English)
 description: "KDE's file manager to manage files and directories."
-content_hash: 20d76a7523f9c14e91f3b160c5690f58a335fd42
-last_modified_at: 2024-03-14
+content_hash: 88fb50d0d9aa8f166c5701a49c17bb1938550137
+last_modified_at: 2024-04-04
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dolphin.html
@@ -13,6 +13,7 @@ tldri18n_status: 2
 # dolphin
 
 KDE's file manager to manage files and directories.
+See also: `nautilus`, `caja`, `thunar`, `ranger`.
 More information: <https://apps.kde.org/dolphin/>.
 
 - Launch the file manager:

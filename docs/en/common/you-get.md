@@ -2,13 +2,18 @@
 layout: page
 title: common/you-get (English)
 description: "Download media contents (videos, audios, images) from the Web."
-content_hash: 2b3578496fe997bf57c620178a1de7b130a5823d
-last_modified_at: 2023-11-12
+content_hash: 3bffb4d531c52483dbf3f744a69a135ee029a85b
+last_modified_at: 2024-04-04
+related_topics:
+  - title: فارسی version
+    url: /fa/common/you-get.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # you-get
 
 Download media contents (videos, audios, images) from the Web.
+See also: `yt-dlp`, `youtube-viewer`, `instaloader`.
 More information: <https://you-get.org>.
 
 - Print media information about a specific media on the web:

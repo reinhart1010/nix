@@ -2,8 +2,8 @@
 layout: page
 title: linux/cmus (English)
 description: "Command-line Music Player."
-content_hash: 7b6d98928f9e9a6954dad34b034f3c77d259a2c2
-last_modified_at: 2023-11-12
+content_hash: 0e44cd1a7e55d0b4167a407752987d05893559ee
+last_modified_at: 2024-04-04
 related_topics:
   - title: català version
     url: /ca/linux/cmus.html
@@ -26,6 +26,7 @@ tldri18n_status: 2
 
 Command-line Music Player.
 Use arrow keys to navigate, `<enter/return>` to select, and numbers 1-8 switch between different views.
+See also: `ncmpcpp`, `clementine`, `qmmp`.
 More information: <https://cmus.github.io>.
 
 - Open cmus into the specified directory (this will become your new working directory):

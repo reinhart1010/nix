@@ -2,8 +2,8 @@
 layout: page
 title: common/vlc (English)
 description: "Cross-platform multimedia player."
-content_hash: 9525dc65be7dfe60de84dc7e5ea8a887cae8bcd6
-last_modified_at: 2023-11-12
+content_hash: 38b249bf356028a7a130fe5fdb51e7f09d9c9dbe
+last_modified_at: 2024-04-04
 related_topics:
   - title: italiano version
     url: /it/common/vlc.html
@@ -22,6 +22,7 @@ tldri18n_status: 2
 # vlc
 
 Cross-platform multimedia player.
+See also: `mpv`, `mplayer`, `ytfzf`.
 More information: <https://wiki.videolan.org/Documentation:Command_line/>.
 
 - Play a file:

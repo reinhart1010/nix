@@ -2,8 +2,8 @@
 layout: page
 title: linux/nautilus (English)
 description: "Default file explorer for GNOME desktop environment."
-content_hash: 2bcdc5e667c459096f5f707296bd035898be368c
-last_modified_at: 2023-11-12
+content_hash: 70632361d8caf5ffbabe20754630ba21367f7dbd
+last_modified_at: 2024-04-04
 related_topics:
   - title: català version
     url: /ca/linux/nautilus.html
@@ -17,6 +17,7 @@ tldri18n_status: 2
 
 Default file explorer for GNOME desktop environment.
 Also known as GNOME Files.
+See also: `dolphin`, `caja`, `thunar`, `vifm`.
 More information: <https://manned.org/nautilus>.
 
 - Launch Nautilus:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mc (English)
-description: "Midnight Commander, a terminal based file manager."
-content_hash: bb94ca6a68b71f0ca32fdc64e17db3a9b9fbb47f
-last_modified_at: 2023-11-12
+description: "Midnight Commander, a TUI file manager."
+content_hash: 00adcc57e70ed128aead01847b9ed2d3ccac7968
+last_modified_at: 2024-04-04
 related_topics:
   - title: français version
     url: /fr/common/mc.html
@@ -12,8 +12,9 @@ tldri18n_status: 2
 ---
 # mc
 
-Midnight Commander, a terminal based file manager.
+Midnight Commander, a TUI file manager.
 Navigate the directory structure using the arrow keys, the mouse or by typing the commands into the terminal.
+See also: `ranger`, `clifm`, `vifm`, `nautilus`.
 More information: <https://midnight-commander.org>.
 
 - Start Midnight Commander:

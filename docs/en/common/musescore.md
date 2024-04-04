@@ -2,8 +2,8 @@
 layout: page
 title: common/musescore (English)
 description: "MuseScore 3 sheet music editor."
-content_hash: 1dc43002ce74cd8088e1e703c71ed402e4010a07
-last_modified_at: 2023-11-12
+content_hash: 73e5e6771b8a680467b2daedafbacdf54f1695bd
+last_modified_at: 2024-04-04
 related_topics:
   - title: Deutsch version
     url: /de/common/musescore.html
@@ -16,6 +16,7 @@ tldri18n_status: 2
 # musescore
 
 MuseScore 3 sheet music editor.
+See also: `lilypond`.
 More information: <https://musescore.org/en/handbook/3/command-line-options>.
 
 - Use a specific audio driver:

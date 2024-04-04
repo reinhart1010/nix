@@ -2,11 +2,14 @@
 layout: page
 title: common/mpv (English)
 description: "A audio/video player based on MPlayer."
-content_hash: 3f452b7356be256a16ede3348f5f787d5d28d3b3
-last_modified_at: 2023-12-17
+content_hash: 1bede55f5df12eb9bbaaf3cfe8a6d3890b4f6659
+last_modified_at: 2024-04-04
 related_topics:
   - title: italiano version
     url: /it/common/mpv.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/mpv.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/mpv.html
@@ -16,6 +19,7 @@ tldri18n_status: 2
 # mpv
 
 A audio/video player based on MPlayer.
+See also: `mplayer`, `vlc`.
 More information: <https://mpv.io>.
 
 - Play a video or audio from a URL or file:

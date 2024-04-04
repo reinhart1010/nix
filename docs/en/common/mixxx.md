@@ -2,13 +2,14 @@
 layout: page
 title: common/mixxx (English)
 description: "Free and open source cross-platform DJ software."
-content_hash: 80302e19434b9bb853425fa55497f6228c91a118
-last_modified_at: 2024-01-30
+content_hash: f9b413e1d16f82bd00cc64863ff4916cc1fd5d44
+last_modified_at: 2024-04-04
 tldri18n_status: 2
 ---
 # mixxx
 
 Free and open source cross-platform DJ software.
+See also: `lmms`.
 More information: <https://mixxx.org/manual/latest/chapters/appendix.html#command-line-options>.
 
 - Start the Mixxx GUI in fullscreen:

@@ -2,8 +2,8 @@
 layout: page
 title: linux/thunar (English)
 description: "Graphical file manager for XFCE desktop environments."
-content_hash: af07d1a7e8e0539765c42c1ab752282a0557a4ba
-last_modified_at: 2023-11-12
+content_hash: a6c27d856498d4d07db8a6230cc2ee328785749d
+last_modified_at: 2024-04-04
 related_topics:
   - title: español version
     url: /es/linux/thunar.html
@@ -16,6 +16,7 @@ tldri18n_status: 2
 # thunar
 
 Graphical file manager for XFCE desktop environments.
+See also: `caja`, `dolphin`, `nautilus`, `mc`.
 More information: <https://docs.xfce.org/xfce/thunar/start>.
 
 - Open a new window showing the current directory:

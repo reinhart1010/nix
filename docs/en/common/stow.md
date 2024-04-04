@@ -2,14 +2,15 @@
 layout: page
 title: common/stow (English)
 description: "Symlink manager."
-content_hash: 540cfed23e5e73dd916acb197325cd3781f56ecd
-last_modified_at: 2023-11-12
+content_hash: c04de3e52779741e160a39b457ae7e57b1a8c6b5
+last_modified_at: 2024-04-04
 tldri18n_status: 2
 ---
 # stow
 
 Symlink manager.
 Often used to manage dotfiles.
+See also: `chezmoi`, `tuckr`, `vcsh`, `homeshick`.
 More information: <https://www.gnu.org/software/stow>.
 
 - Symlink all files recursively to a given directory:
