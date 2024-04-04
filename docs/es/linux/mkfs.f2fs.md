@@ -3,23 +3,14 @@ layout: page
 title: linux/mkfs.f2fs (español)
 description: "Crea un sistema de archivos F2FS en una partición."
 content_hash: e6caf2b24188fbfb6f65b07ccacd498dc0fe1383
-last_modified_at: 2024-04-03
+last_modified_at: 2024-04-04
 related_topics:
   - title: English version
     url: /en/linux/mkfs.f2fs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mkfs.f2fs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mkfs.f2fs
+# mkfs.f2fs
 
 Crea un sistema de archivos F2FS en una partición.
 Más información: <https://manned.org/mkfs.f2fs>.

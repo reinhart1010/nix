@@ -3,19 +3,10 @@ layout: page
 title: linux/ydotool (English)
 description: "Control keyboard and mouse inputs via commands in a way that is display server agnostic."
 content_hash: 103e4d2ceab5133284641ffa2e4c3c936baa1bff
-last_modified_at: 2024-04-03
-tldri18n_status: 0
+last_modified_at: 2024-04-04
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ydotool.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ydotool
+# ydotool
 
 Control keyboard and mouse inputs via commands in a way that is display server agnostic.
 More information: <https://github.com/ReimuNotMoe/ydotool>.
