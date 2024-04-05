@@ -1,15 +1,18 @@
 ---
 layout: page
 title: common/git-archive (English)
-description: "Create an archive of files from a named tree."
-content_hash: 4886e5f503552c9da4d93afc90b1d72e3710d9dc
-last_modified_at: 2024-01-03
+description: "Create an archive of files from a tree."
+content_hash: bebdeba3a2515f8263a7ad0071d555a0011f270a
+last_modified_at: 2024-04-05
 related_topics:
   - title: Deutsch version
     url: /de/common/git-archive.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-archive.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-archive.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-archive.html
@@ -24,29 +27,29 @@ tldri18n_status: 2
 ---
 # git archive
 
-Create an archive of files from a named tree.
+Create an archive of files from a tree.
 More information: <https://git-scm.com/docs/git-archive>.
 
 - Create a tar archive from the contents of the current HEAD and print it to `stdout`:
 
 `git archive --verbose HEAD`
 
-- Create a zip archive from the current HEAD and print it to `stdout`:
+- Use the Zip format and report progress [v]erbosely:
 
-`git archive --verbose --format zip HEAD`
+`git archive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>` --format zip HEAD`
 
-- Same as above, but write the zip archive to file:
+- [o]utput the Zip archive to a specific file:
 
-`git archive --verbose --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zip</span>` HEAD`
+`git archive -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zip</span>` HEAD`
 
-- Create a tar archive from the contents of the latest commit on a specific branch:
+- Create a tar archive from the contents of the latest commit of a specific branch:
 
-`git archive --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
+`git archive -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
 
-- Create a tar archive from the contents of a specific directory:
+- Use the contents of a specific directory:
 
-`git archive --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tar</span>` HEAD:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`git archive -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tar</span>` HEAD:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - Prepend a path to each file to archive it inside a specific directory:
 
-`git archive --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tar</span>` --prefix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/prepend</span>`/ HEAD`
+`git archive -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tar</span>` --prefix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/prepend</span>`/ HEAD`
