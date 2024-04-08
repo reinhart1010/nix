@@ -2,8 +2,8 @@
 layout: page
 title: common/rsync (polski)
 description: "Przesyłaj pliki do lub ze zdalnego hosta (ale nie pomiędzy dwoma zdalnymi hostami), domyślnie używając SSH."
-content_hash: db171d6c631a616b477fe830aa23b99bf948c0e1
-last_modified_at: 2024-01-02
+content_hash: 80fbdbb14b1dba38ff0b582a6ed49a5c938b431e
+last_modified_at: 2024-04-08
 related_topics:
   - title: English version
     url: /en/common/rsync.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # rsync
 
 Przesyłaj pliki do lub ze zdalnego hosta (ale nie pomiędzy dwoma zdalnymi hostami), domyślnie używając SSH.
-Aby wskazać na ścieżkę zdalną, użyj `host:ścieżka/do/pliku_lub_katalogu`.
+Aby wskazać na ścieżkę zdalną, użyj `user@host:ścieżka/do/pliku_lub_katalogu`.
 Więcej informacji: <https://download.samba.org/pub/rsync/rsync.1>.
 
 - Prześlij plik:
@@ -55,7 +55,7 @@ Więcej informacji: <https://download.samba.org/pub/rsync/rsync.1>.
 
 `rsync --archive --update --copy-links `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/źródła</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/miejsca_docelowego</span>
 
-- Prześlij katalog do zdalnego hosta, na którym działa `rsyncd` i usuń pliki w miejscu docelowym które nie istnieją w źródle:
+- Prześlij katalog ze zdalnego hosta, na którym działa `rsyncd` i usuń pliki w miejscu docelowym, które nie istnieją w źródle:
 
 `rsync --recursive --delete rsync://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/źródła</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/miejsca_docelowego</span>
 

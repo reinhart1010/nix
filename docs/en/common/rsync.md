@@ -2,8 +2,8 @@
 layout: page
 title: common/rsync (English)
 description: "Transfer files either to or from a remote host (but not between two remote hosts), by default using SSH."
-content_hash: 2cf94743e9dad0112fcfe28be525d8f76fbb599e
-last_modified_at: 2023-11-12
+content_hash: 59cc265f7dd2bf68d750a7d813bfd9fe5f118dd9
+last_modified_at: 2024-04-08
 related_topics:
   - title: français version
     url: /fr/common/rsync.html
@@ -55,7 +55,7 @@ More information: <https://download.samba.org/pub/rsync/rsync.1>.
 
 `rsync --archive --update --copy-links `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span>
 
-- Transfer a directory to a remote host running `rsyncd` and delete files on the destination that do not exist on the source:
+- Transfer a directory from a remote host running `rsyncd` and delete files on the destination that do not exist on the source:
 
 `rsync --recursive --delete rsync://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span>
 
