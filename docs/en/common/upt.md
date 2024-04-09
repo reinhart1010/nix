@@ -3,19 +3,10 @@ layout: page
 title: common/upt (English)
 description: "Unified interface for managing packages across various operating systems, like Windows, many Linux distributions, macOS, FreeBSD and even Haiku."
 content_hash: 4c3644912c3c9227da319c729d87f6cc7bc4cd3c
-last_modified_at: 2024-04-08
-tldri18n_status: 0
+last_modified_at: 2024-04-09
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/upt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># upt
+# upt
 
 Unified interface for managing packages across various operating systems, like Windows, many Linux distributions, macOS, FreeBSD and even Haiku.
 It requires the native OS package manager to be installed.
