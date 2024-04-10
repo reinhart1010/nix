@@ -2,8 +2,8 @@
 layout: page
 title: common/history (English)
 description: "Command-line history."
-content_hash: 7f72465757a83947762ca5fdef8e1292408b8896
-last_modified_at: 2024-03-10
+content_hash: 22835345e4a94fe9ae1901ad32b6dbb932b20be2
+last_modified_at: 2024-04-10
 related_topics:
   - title: español version
     url: /es/common/history.html
@@ -37,6 +37,10 @@ More information: <https://www.gnu.org/software/bash/manual/html_node/Bash-Histo
 - Display the last 20 commands (in Zsh it displays all commands starting from the 20th):
 
 `history `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>
+
+- Display history with timestamps in different formats (only available in Zsh):
+
+`history -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">d|f|i|E</span>
 
 - Clear the commands history list (only for current Bash shell):
 
