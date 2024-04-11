@@ -2,7 +2,7 @@
 layout: page
 title: common/dnsx (English)
 description: "A fast and multi-purpose DNS toolkit to run multiple DNS queries."
-content_hash: a27a85aae9ebd7a941aac17e8466ab6c43cd4448
+content_hash: e0728d80bba84acfb2d04acd97a53a666cb8773e
 last_modified_at: 2024-04-11
 tldri18n_status: 0
 ---
@@ -46,7 +46,7 @@ More information: <https://github.com/projectdiscovery/dnsx>.
 
 `dnsx -domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FUZZ.example.com</span>` -wordlist `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist.txt</span>` -re`
 
-- Brute force DNS records from a list of [d]omains and wordlists, appending [o]utput to a file wih [n]o [c]olor codes:
+- Brute force DNS records from a list of [d]omains and wordlists, appending [o]utput to a file with [n]o [c]olor codes:
 
 `dnsx -domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/domain.txt</span>` -wordlist `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist.txt</span>` -re -output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.txt</span>` -no-color`
 
