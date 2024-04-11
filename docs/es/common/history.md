@@ -3,7 +3,7 @@ layout: page
 title: common/history (español)
 description: "Historial de la línea de comandos."
 content_hash: f9b922ced0f05c5009dddbdc5eb71938edde1601
-last_modified_at: 2023-11-12
+last_modified_at: 2024-04-11
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -23,9 +23,12 @@ related_topics:
   - title: русский version
     url: /ru/common/history.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# history
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># history
 
 Historial de la línea de comandos.
 Más información: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.

@@ -3,7 +3,7 @@ layout: page
 title: common/history (русский)
 description: "История командной строки."
 content_hash: 269704d3287130c6cba065b98af111d1b809270f
-last_modified_at: 2024-03-10
+last_modified_at: 2024-04-11
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -23,9 +23,12 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/history.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# history
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># history
 
 История командной строки.
 Больше информации: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.

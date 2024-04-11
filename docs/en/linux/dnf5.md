@@ -3,19 +3,10 @@ layout: page
 title: linux/dnf5 (English)
 description: "Package management utility for RHEL, Fedora, and CentOS (it replaces dnf, which in turn replaced yum)."
 content_hash: 5be33c513977c2dab9c7bb2280379a8aac8b22c7
-last_modified_at: 2024-04-10
-tldri18n_status: 0
+last_modified_at: 2024-04-11
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dnf5.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dnf5
+# dnf5
 
 Package management utility for RHEL, Fedora, and CentOS (it replaces dnf, which in turn replaced yum).
 DNF5 is a C++ rewrite of the DNF package manager featuring improved performance and a smaller size.

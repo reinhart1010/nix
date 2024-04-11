@@ -3,7 +3,7 @@ layout: page
 title: common/history (日本語)
 description: "コマンドラインの履歴です。"
 content_hash: f5557d190942a15ca1010a045effd6fe728eb149
-last_modified_at: 2024-03-10
+last_modified_at: 2024-04-11
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -23,9 +23,12 @@ related_topics:
   - title: русский version
     url: /ru/common/history.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# history
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># history
 
 コマンドラインの履歴です。
 詳しくはこちら: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>
