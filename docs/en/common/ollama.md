@@ -2,8 +2,8 @@
 layout: page
 title: common/ollama (English)
 description: "A large language model runner."
-content_hash: 2ba55a3f170e46abd6db6fd5890308d150a8ecd1
-last_modified_at: 2023-11-28
+content_hash: c2a27f4b126db0467620cf34ca076bdb6470633d
+last_modified_at: 2024-04-12
 tldri18n_status: 2
 ---
 # ollama
@@ -26,6 +26,14 @@ More information: <https://github.com/jmorganca/ollama>.
 - List downloaded models:
 
 `ollama list`
+
+- Pull/Update a specific model:
+
+`ollama pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">model</span>
+
+- Upgrade Ollama on Linux:
+
+`curl -fsSL https://ollama.com/install.sh | sh`
 
 - Delete a model:
 

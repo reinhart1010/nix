@@ -3,19 +3,10 @@ layout: page
 title: common/par2 (English)
 description: "File verification and repair using PAR 2.0 compatible parity archives (.par2 files)."
 content_hash: 93e19e1cbdd96e1ac9cb72b376ded0bbf28fdcd9
-last_modified_at: 2024-04-11
-tldri18n_status: 0
+last_modified_at: 2024-04-12
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/par2.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># par2
+# par2
 
 File verification and repair using PAR 2.0 compatible parity archives (.par2 files).
 More information: <https://github.com/Parchive/par2cmdline/>.

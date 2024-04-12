@@ -3,19 +3,10 @@ layout: page
 title: common/dnsx (English)
 description: "A fast and multi-purpose DNS toolkit to run multiple DNS queries."
 content_hash: e0728d80bba84acfb2d04acd97a53a666cb8773e
-last_modified_at: 2024-04-11
-tldri18n_status: 0
+last_modified_at: 2024-04-12
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dnsx.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dnsx
+# dnsx
 
 A fast and multi-purpose DNS toolkit to run multiple DNS queries.
 Note: input to `dnsx` needs to be passed through `stdin` (pipe `|`) in some cases.
