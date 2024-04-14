@@ -2,8 +2,8 @@
 layout: page
 title: common/dnsx (English)
 description: "A fast and multi-purpose DNS toolkit to run multiple DNS queries."
-content_hash: e0728d80bba84acfb2d04acd97a53a666cb8773e
-last_modified_at: 2024-04-12
+content_hash: 10a95be8d40210c70f3aab4f72f44dee65224923
+last_modified_at: 2024-04-14
 tldri18n_status: 2
 ---
 # dnsx
@@ -17,7 +17,7 @@ More information: <https://github.com/projectdiscovery/dnsx>.
 
 `echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` | dnsx -a -re`
 
-- Query all the DNS records (A,AAAA,CNAME,NS,TXT,SRV,PTR,MX,SOA,AXFR,CAA):
+- Query all the DNS records (A, AAAA, CNAME, NS, TXT, SRV, PTR, MX, SOA, AXFR, CAA):
 
 `dnsx -recon -re <<< `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
