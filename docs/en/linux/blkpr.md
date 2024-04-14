@@ -3,19 +3,10 @@ layout: page
 title: linux/blkpr (English)
 description: "Register, reserve, release, preempt, and clear persistent reservations on a block device that supports Persistent Reservations."
 content_hash: 3afb2ddf4e4f6d0508a2ce8a1353ffb150d33769
-last_modified_at: 2024-04-13
-tldri18n_status: 0
+last_modified_at: 2024-04-14
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/blkpr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># blkpr
+# blkpr
 
 Register, reserve, release, preempt, and clear persistent reservations on a block device that supports Persistent Reservations.
 More information: <https://manned.org/blkpr>.
