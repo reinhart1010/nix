@@ -3,14 +3,17 @@ layout: page
 title: common/masscan (polski)
 description: "Bardzo efektywny skaner sieci."
 content_hash: 28fa826c9a6b1d2d2445024d67d94a510ce5db17
-last_modified_at: 2023-11-12
+last_modified_at: 2024-04-16
 related_topics:
   - title: English version
     url: /en/common/masscan.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# masscan
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># masscan
 
 Bardzo efektywny skaner sieci.
 Najlepiej używać z podwyższonymi uprawnieniami. Żeby sprawdzić kompatybilność z Nmap'em, użyj komendy `masscan --nmap`.
