@@ -2,8 +2,8 @@
 layout: page
 title: common/julia (English)
 description: "A high-level, high-performance dynamic programming language for technical computing."
-content_hash: 74ef029ff191bdf514381799244f3eadef607539
-last_modified_at: 2023-11-12
+content_hash: 85ec35870fae9ff391715752f251f8c330925d67
+last_modified_at: 2024-04-16
 tldri18n_status: 2
 ---
 # julia
@@ -35,6 +35,6 @@ More information: <https://docs.julialang.org/en/v1/manual/getting-started/>.
 
 `julia -E '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(1 - cos(pi/4))/2</span>`'`
 
-- Start Julia in parallel mode, using N worker processes:
+- Start Julia in multithreaded mode, using N threads:
 
-`julia -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span>
+`julia -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span>
