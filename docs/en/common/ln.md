@@ -1,12 +1,15 @@
 ---
 layout: page
 title: common/ln (English)
-description: "Creates links to files and directories."
-content_hash: 9049e66790d3fa4163d196494623c67fdd5e8b25
-last_modified_at: 2023-11-12
+description: "Create links to files and directories."
+content_hash: 096b4d7a35b7e94cf16a0a8a47756361628a5b85
+last_modified_at: 2024-04-18
 related_topics:
   - title: español version
     url: /es/common/ln.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/ln.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ln.html
@@ -30,7 +33,7 @@ tldri18n_status: 2
 ---
 # ln
 
-Creates links to files and directories.
+Create links to files and directories.
 More information: <https://www.gnu.org/software/coreutils/ln>.
 
 - Create a symbolic link to a file or directory:

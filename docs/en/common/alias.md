@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/alias (English)
-description: "Creates aliases -- words that are replaced by a command string."
-content_hash: dfc7bb2ae28fe5e508da0edaedf940e6e4adba9f
-last_modified_at: 2023-11-12
+description: "Create aliases - words that are replaced by a command string."
+content_hash: 5e2af76d2f17163d84974570c0a202a4ca1a24b7
+last_modified_at: 2024-04-18
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -63,7 +63,7 @@ tldri18n_status: 2
 ---
 # alias
 
-Creates aliases -- words that are replaced by a command string.
+Create aliases - words that are replaced by a command string.
 Aliases expire with the current shell session unless defined in the shell's configuration file, e.g. `~/.bashrc`.
 More information: <https://tldp.org/LDP/abs/html/aliases.html>.
 

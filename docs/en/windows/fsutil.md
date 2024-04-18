@@ -1,14 +1,14 @@
 ---
 layout: page
 title: windows/fsutil (English)
-description: "Displays information about file system volumes."
-content_hash: c8b1fea4e64824952f130d7db89bb3bb47206b15
-last_modified_at: 2023-11-12
+description: "Display information about file system volumes."
+content_hash: e430bbf9a88d1cc79aa01d6288010cd23df37340
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # fsutil
 
-Displays information about file system volumes.
+Display information about file system volumes.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/fsutil>.
 
 - Display a list of volumes:

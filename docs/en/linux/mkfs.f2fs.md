@@ -1,14 +1,18 @@
 ---
 layout: page
 title: linux/mkfs.f2fs (English)
-description: "Creates an F2FS filesystem inside a partition."
-content_hash: 86c561cc362298de992510b2ed31343c879d4721
-last_modified_at: 2024-03-30
+description: "Create an F2FS filesystem inside a partition."
+content_hash: 0b2aa4817d832d4bdc08291f11099c097967d156
+last_modified_at: 2024-04-18
+related_topics:
+  - title: español version
+    url: /es/linux/mkfs.f2fs.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # mkfs.f2fs
 
-Creates an F2FS filesystem inside a partition.
+Create an F2FS filesystem inside a partition.
 More information: <https://manned.org/mkfs.f2fs>.
 
 - Create an F2FS filesystem inside partition 1 on device b (`sdb1`):

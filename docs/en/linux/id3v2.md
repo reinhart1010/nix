@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/id3v2 (English)
-description: "Manages id3v2 tags, converts and lists id3v1."
-content_hash: 4b98fb1f85f4deb2987cb71a7109a0a974b59883
-last_modified_at: 2024-02-19
+description: "Manage id3v2 tags, converts and lists id3v1."
+content_hash: b88d1fe92367baf3750f15ef1465982722b41f71
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # id3v2
 
-Manages id3v2 tags, converts and lists id3v1.
+Manage id3v2 tags, converts and lists id3v1.
 More information: <https://manned.org/id3v2.1>.
 
 - List all genres:

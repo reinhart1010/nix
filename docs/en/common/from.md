@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/from (English)
-description: "Prints mail header lines from the current user's mailbox."
-content_hash: a0ecf77e9f08a449ca5fa7379c78210650d6af41
-last_modified_at: 2023-11-12
+description: "Print mail header lines from the current user's mailbox."
+content_hash: de5754d809553c43412ff02abf8a94e2bf9f6631
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # from
 
-Prints mail header lines from the current user's mailbox.
+Print mail header lines from the current user's mailbox.
 More information: <https://mailutils.org/manual/html_chapter/Programs.html#frm-and-from>.
 
 - List mail:

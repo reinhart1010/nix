@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/salt-key (English)
-description: "Manages salt minion keys on the salt master."
-content_hash: 6eb2c22c217fb72cb0d001e2d50e203079ef19d7
-last_modified_at: 2023-11-20
+description: "Manage salt minion keys on the salt master."
+content_hash: e3d494e5500d317df3c40ffb36677cab4020bd8a
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # salt-key
 
-Manages salt minion keys on the salt master.
+Manage salt minion keys on the salt master.
 Needs to be run on the salt master, likely as root or with sudo.
 More information: <https://docs.saltproject.io/en/latest/ref/cli/salt-key.html>.
 

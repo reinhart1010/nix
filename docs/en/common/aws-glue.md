@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-glue (English)
 description: "CLI for AWS Glue."
-content_hash: 4d4b1b5e40058b00fdfbb3a0e3b98c2acbe91d14
-last_modified_at: 2023-11-12
+content_hash: f0a6e618da225cb6e28731f82fd4bf5d4ffdba86
+last_modified_at: 2024-04-18
 related_topics:
   - title: español version
     url: /es/common/aws-glue.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # aws glue
 
 CLI for AWS Glue.
-Defines the public endpoint for the AWS Glue service.
+Define the public endpoint for the AWS Glue service.
 More information: <https://docs.aws.amazon.com/cli/latest/reference/glue/>.
 
 - List jobs:

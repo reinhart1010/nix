@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/usermod (English)
-description: "Modifies a user account."
-content_hash: daaaa8995960740e0314237b68a8a2f7bdaeeb8e
-last_modified_at: 2024-03-14
+description: "Modify a user account."
+content_hash: 8bcf7db12544959575bffdaf2452866ee61dee63
+last_modified_at: 2024-04-18
 related_topics:
   - title: català version
     url: /ca/linux/usermod.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # usermod
 
-Modifies a user account.
+Modify a user account.
 See also: `users`, `useradd`, `userdel`.
 More information: <https://manned.org/usermod>.
 

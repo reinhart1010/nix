@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/readpe (English)
-description: "Displays information about PE files."
-content_hash: 5cb57dc2160f716626d2c20dadec8a8fad3e1db4
-last_modified_at: 2023-11-12
+description: "Display information about PE files."
+content_hash: bb4ad84797d7be2d8a12849ea7e12774f0ed3c4b
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # readpe
 
-Displays information about PE files.
+Display information about PE files.
 More information: <https://manned.org/readpe>.
 
 - Display all information about a PE file:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/sm (English)
-description: "Displays a short message fullscreen."
-content_hash: 94074639ebae9329bd42fbda1f477f0e2eb72d29
-last_modified_at: 2023-11-12
+description: "Display a short message fullscreen."
+content_hash: 223540121268ac71b7c78fbd94cee14535298528
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # sm
 
-Displays a short message fullscreen.
+Display a short message fullscreen.
 More information: <https://github.com/nomeata/screen-message>.
 
 - Display a message in full-screen:

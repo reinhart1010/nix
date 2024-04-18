@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/mkfs.ext4 (English)
-description: "Creates an ext4 filesystem inside a partition."
-content_hash: 045f29bb528e6146d0ac77baf387c36d26cf22f0
-last_modified_at: 2023-11-12
+description: "Create an ext4 filesystem inside a partition."
+content_hash: 93a9fb5b03a501b52e1e4a985cd0f44ff1b8d98c
+last_modified_at: 2024-04-18
 related_topics:
   - title: Indonesia version
     url: /id/linux/mkfs.ext4.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # mkfs.ext4
 
-Creates an ext4 filesystem inside a partition.
+Create an ext4 filesystem inside a partition.
 More information: <https://manned.org/mkfs.ext4>.
 
 - Create an ext4 filesystem inside partition 1 on device b (`sdb1`):

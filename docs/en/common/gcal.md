@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gcal (English)
-description: "Displays calendar."
-content_hash: b9109e6f7fc27bc81f3e0b20c0aac5c5fb5808ec
-last_modified_at: 2023-11-12
+description: "Display calendar."
+content_hash: 90fd529f768bc6bda46f0a29a58654b7fd9a60d7
+last_modified_at: 2024-04-18
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gcal.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # gcal
 
-Displays calendar.
+Display calendar.
 More information: <https://www.gnu.org/software/gcal>.
 
 - Display calendar for the current month:

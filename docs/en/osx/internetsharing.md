@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/internetsharing (English)
-description: "Sets up Internet Sharing."
-content_hash: 6ffbcdb32729c2fa3fa4382babfa2560217ea903
-last_modified_at: 2023-11-12
+description: "Set up Internet Sharing."
+content_hash: 787f42c3daaf360660602777cfc53e44cf752c9d
+last_modified_at: 2024-04-18
 related_topics:
   - title: español version
     url: /es/osx/internetsharing.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # InternetSharing
 
-Sets up Internet Sharing.
+Set up Internet Sharing.
 It should not be invoked manually.
 More information: <https://www.manpagez.com/man/8/InternetSharing/>.
 

@@ -2,14 +2,14 @@
 layout: page
 title: linux/xmount (English)
 description: "Convert on-the-fly between multiple input and output hard disk image types with optional write cache support."
-content_hash: 4d42a0376ea6584826faf2ffc3efef5e4f30af82
-last_modified_at: 2023-11-12
+content_hash: 1620267c403696247e36cfa7b5945b68e46e093b
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # xmount
 
 Convert on-the-fly between multiple input and output hard disk image types with optional write cache support.
-Creates a virtual file system using FUSE (Filesystem in Userspace) that contains a virtual representation of the input image.
+Create a virtual file system using FUSE (Filesystem in Userspace) that contains a virtual representation of the input image.
 More information: <https://manned.org/xmount>.
 
 - Mount a `.raw` image file into a DMG container file:

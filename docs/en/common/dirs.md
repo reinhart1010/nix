@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/dirs (English)
-description: "Displays or manipulates the directory stack."
-content_hash: b1635620e68c51fd4b8444a40e241eb8f502fe79
-last_modified_at: 2023-11-12
+description: "Display or manipulate the directory stack."
+content_hash: 4a8cdde1b435b4e3343cf1800b540b684d7d245d
+last_modified_at: 2024-04-18
 related_topics:
   - title: Deutsch version
     url: /de/common/dirs.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # dirs
 
-Displays or manipulates the directory stack.
+Display or manipulate the directory stack.
 The directory stack is a list of recently visited directories that can be manipulated with the `pushd` and `popd` commands.
 More information: <https://www.gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
 

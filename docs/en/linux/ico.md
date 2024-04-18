@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/ico (English)
-description: "Displays an animation of a polyhedron."
-content_hash: 08b2b4c67671b20b3f8a3beaa188080f808658ef
-last_modified_at: 2023-11-12
+description: "Display an animation of a polyhedron."
+content_hash: 29cc6bc9e8cf436e436ee9b81850f8f1ea29bceb
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # ico
 
-Displays an animation of a polyhedron.
+Display an animation of a polyhedron.
 More information: <https://manned.org/ico.1>.
 
 - Display the wireframe of an icosahedron that changes its position every 0.1 seconds:

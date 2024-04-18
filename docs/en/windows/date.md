@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/date (English)
-description: "Displays or sets the system date."
-content_hash: 4ce8a38fd9dcdc05e394b93508c3f7e10e7f9b96
-last_modified_at: 2023-11-12
+description: "Display or set the system date."
+content_hash: 621164f4ba55403150b4d733244af093e38e718f
+last_modified_at: 2024-04-18
 related_topics:
   - title: বাংলা version
     url: /bn/windows/date.html
@@ -17,11 +17,14 @@ related_topics:
   - title: italiano version
     url: /it/windows/date.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/date.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # date
 
-Displays or sets the system date.
+Display or set the system date.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>.
 
 - Display the current system date and prompt to enter a new date (leave empty to keep unchanged):

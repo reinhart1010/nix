@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/mkfs.fat (English)
-description: "Creates an MS-DOS filesystem inside a partition."
-content_hash: 45291653ac2dc0e0342c5211962063352dc40eb6
-last_modified_at: 2023-11-12
+description: "Create an MS-DOS filesystem inside a partition."
+content_hash: c08dbd9dad27f3c3ac80997a5185297963b574ad
+last_modified_at: 2024-04-18
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/mkfs.fat.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # mkfs.fat
 
-Creates an MS-DOS filesystem inside a partition.
+Create an MS-DOS filesystem inside a partition.
 More information: <https://manned.org/mkfs.fat>.
 
 - Create a fat filesystem inside partition 1 on device b (`sdb1`):

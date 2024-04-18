@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-var (English)
-description: "Prints a Git logical variable's value."
-content_hash: 044a50c45d1df7cddca6d841248581f500ec010e
-last_modified_at: 2023-11-12
+description: "Print a Git logical variable's value."
+content_hash: 0252174a17337ee475d594b377962a50d3efbe81
+last_modified_at: 2024-04-18
 related_topics:
   - title: Türkçe version
     url: /tr/common/git-var.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # git var
 
-Prints a Git logical variable's value.
+Print a Git logical variable's value.
 See `git config`, which is preferred over `git var`.
 More information: <https://git-scm.com/docs/git-var>.
 

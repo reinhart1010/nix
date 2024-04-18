@@ -1,14 +1,14 @@
 ---
 layout: page
 title: windows/setx (English)
-description: "Sets persistent environment variables."
-content_hash: dec0347570905047c854753126441c78e0df088a
-last_modified_at: 2023-11-12
+description: "Set persistent environment variables."
+content_hash: be82b150da7b1695dc86e12126b908e68f42b083
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # setx
 
-Sets persistent environment variables.
+Set persistent environment variables.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/setx>.
 
 - Set an environment variable for the current user:

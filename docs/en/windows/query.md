@@ -1,14 +1,14 @@
 ---
 layout: page
 title: windows/query (English)
-description: "Displays information about user sessions and process."
-content_hash: 0005171270fca65bd062467d8d6fc8d71e15374c
-last_modified_at: 2023-11-12
+description: "Display information about user sessions and process."
+content_hash: dc58cadf6a728e3ca74137e6a80b8e2801ee3dcf
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # query
 
-Displays information about user sessions and process.
+Display information about user sessions and process.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/query>.
 
 - Display all user sessions:

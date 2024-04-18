@@ -1,14 +1,14 @@
 ---
 layout: page
 title: osx/setfile (English)
-description: "Sets file attributes on files in an HFS+ directory."
-content_hash: a198b0a19868d80560b35ce2cb48a74e8408667f
-last_modified_at: 2023-11-12
+description: "Set file attributes on files in an HFS+ directory."
+content_hash: 1616a08b44b492b5efe58c12b99ff461be887523
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # setfile
 
-Sets file attributes on files in an HFS+ directory.
+Set file attributes on files in an HFS+ directory.
 More information: <https://ss64.com/osx/setfile.html>.
 
 - Set creation date for specific files:

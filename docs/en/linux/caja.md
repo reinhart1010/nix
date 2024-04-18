@@ -1,14 +1,18 @@
 ---
 layout: page
 title: linux/caja (English)
-description: "Manages files and directories in MATE desktop environment."
-content_hash: 32d6b249bf14577583daa586929cb4ddbdf43c59
-last_modified_at: 2024-04-04
+description: "Manage files and directories in the MATE desktop environment."
+content_hash: 926dc639af41f95d5cef5a24374047422df3db4c
+last_modified_at: 2024-04-18
+related_topics:
+  - title: فارسی version
+    url: /fa/linux/caja.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # caja
 
-Manages files and directories in MATE desktop environment.
+Manage files and directories in the MATE desktop environment.
 See also: `nautilus`, `dolphin`, `thunar`, `ranger`.
 More information: <https://manned.org/caja>.
 

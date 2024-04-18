@@ -1,14 +1,14 @@
 ---
 layout: page
 title: windows/get-date (English)
-description: "Gets the current date and time."
-content_hash: dbc7937704dcbb9e53ed7643eae5c50b1411779b
-last_modified_at: 2023-11-12
+description: "Get the current date and time."
+content_hash: 67c18d01b7c5c9e47bbe2bbd851705b0f85642de
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # Get-Date
 
-Gets the current date and time.
+Get the current date and time.
 This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-date>.
 

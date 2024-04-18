@@ -1,14 +1,14 @@
 ---
 layout: page
 title: windows/netstat (English)
-description: "Displays active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics."
-content_hash: a51c1b8b66aebac7513019af1cd488bcf18cf5d1
-last_modified_at: 2023-11-12
+description: "Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics."
+content_hash: 903a2819c1283a560463d9a62532c8e828bdd486
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # netstat
 
-Displays active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics.
+Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/netstat>.
 
 - Display active TCP connections:

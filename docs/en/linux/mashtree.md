@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/mashtree (English)
-description: "Makes a fast tree from genomes."
-content_hash: a164be50f75c1a7d722f1fc37348549f6511b582
-last_modified_at: 2023-11-12
+description: "Make a fast tree from genomes."
+content_hash: f9b96e702b0d71ff3be3ade89a87529bc01173cc
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # mashtree
 
-Makes a fast tree from genomes.
+Make a fast tree from genomes.
 Does not make a phylogeny.
 More information: <https://github.com/lskatz/mashtree>.
 

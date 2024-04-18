@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/apg (English)
-description: "Creates arbitrarily complex random passwords."
-content_hash: 55e432f6e18a6d43c3aa367eae5468775c531f4e
-last_modified_at: 2023-11-12
+description: "Create arbitrarily complex random passwords."
+content_hash: 84cb675414a51567521280f59d631099b03fe195
+last_modified_at: 2024-04-18
 related_topics:
   - title: español version
     url: /es/common/apg.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 ---
 # apg
 
-Creates arbitrarily complex random passwords.
+Create arbitrarily complex random passwords.
 More information: <https://manned.org/apg>.
 
 - Create random passwords (default password length is 8):

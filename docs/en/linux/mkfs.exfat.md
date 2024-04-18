@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/mkfs.exfat (English)
-description: "Creates an exfat filesystem inside a partition."
-content_hash: c175bd5d46c49d9b1ebecf39c47312a7de91bcf9
-last_modified_at: 2023-11-12
+description: "Create an exfat filesystem inside a partition."
+content_hash: 00155e1db324c434c3712b6e43677b5b850b306d
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # mkfs.exfat
 
-Creates an exfat filesystem inside a partition.
+Create an exfat filesystem inside a partition.
 More information: <https://manned.org/mkfs.exfat>.
 
 - Create an exfat filesystem inside partition 1 on device b (`sdb1`):

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/trawl (English)
-description: "Prints out network interface information to the console, much like ifconfig/ipconfig/ip/ifdata."
-content_hash: ffb521d4775620638e02996b7102d40e1a50980f
-last_modified_at: 2024-01-31
+description: "Print out network interface information to the console, much like ifconfig/ipconfig/ip/ifdata."
+content_hash: d1e518a3b0d1914645f4b5bea292fb8dfb373521
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # trawl
 
-Prints out network interface information to the console, much like ifconfig/ipconfig/ip/ifdata.
+Print out network interface information to the console, much like ifconfig/ipconfig/ip/ifdata.
 More information: <https://github.com/robphoenix/trawl>.
 
 - Show column names:

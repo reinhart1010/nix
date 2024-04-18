@@ -2,8 +2,8 @@
 layout: page
 title: linux/dmenu (English)
 description: "Dynamic menu."
-content_hash: 455c89abc393199682fc299b9f47c92258c7361f
-last_modified_at: 2023-11-12
+content_hash: 958f476d88f41d2ceb4f51e0f804bb3e3d466687
+last_modified_at: 2024-04-18
 related_topics:
   - title: 中文 version
     url: /zh/linux/dmenu.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # dmenu
 
 Dynamic menu.
-Creates a menu from a text input with each item on a new line.
+Create a menu from a text input with each item on a new line.
 More information: <https://manned.org/dmenu>.
 
 - Display a menu of the output of the `ls` command:

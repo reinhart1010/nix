@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/lscpu (English)
-description: "Displays information about the CPU architecture."
-content_hash: 792c329df6fe99b6cae840f7fe23e9a94471ec13
-last_modified_at: 2023-11-12
+description: "Display information about the CPU architecture."
+content_hash: 00e26cc7add03c0af157cd0ad82023eb13cbfe64
+last_modified_at: 2024-04-18
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/lscpu.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # lscpu
 
-Displays information about the CPU architecture.
+Display information about the CPU architecture.
 More information: <https://manned.org/lscpu>.
 
 - Display information about all CPUs:

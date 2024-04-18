@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/netstat (English)
-description: "Displays network-related information such as open connections, open socket ports, etc."
-content_hash: 60028e5f42890a4f8e5af2601594563ba0d8b593
-last_modified_at: 2023-11-12
+description: "Display network-related information such as open connections, open socket ports, etc."
+content_hash: a7569e59328a8d04899c0c8ad11a53475c7c564b
+last_modified_at: 2024-04-18
 related_topics:
   - title: 한국어 version
     url: /ko/common/netstat.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # netstat
 
-Displays network-related information such as open connections, open socket ports, etc.
+Display network-related information such as open connections, open socket ports, etc.
 More information: <https://man7.org/linux/man-pages/man8/netstat.8.html>.
 
 - List all ports:

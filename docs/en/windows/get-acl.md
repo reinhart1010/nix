@@ -1,14 +1,14 @@
 ---
 layout: page
 title: windows/get-acl (English)
-description: "Gets the security descriptor for a resource, such as a file or registry key."
-content_hash: 6fe63e598013b3ca8af0a724b81f1a81f17b1f3e
-last_modified_at: 2023-11-12
+description: "Get the security descriptor for a resource, such as a file or registry key."
+content_hash: 12fa1bbfc21e24a52ca319a1f17e176f3943803b
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # Get-Acl
 
-Gets the security descriptor for a resource, such as a file or registry key.
+Get the security descriptor for a resource, such as a file or registry key.
 This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.security/get-acl>.
 

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/gh-api (English)
-description: "Makes authenticated HTTP requests to the GitHub API and prints the response."
-content_hash: dce73bd356ffc8f9f9d9208f84214f6eace66f21
-last_modified_at: 2024-01-30
+description: "Make authenticated HTTP requests to the GitHub API and print the response."
+content_hash: ac0de8e6963cfdb440e13096f4d5d8369b4734fb
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # gh api
 
-Makes authenticated HTTP requests to the GitHub API and prints the response.
+Make authenticated HTTP requests to the GitHub API and print the response.
 More information: <https://cli.github.com/manual/gh_api>.
 
 - Display the releases for the current repository in JSON format:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/size (English)
-description: "Displays the sizes of sections inside binary files."
-content_hash: 72d98096033d6b8ea9cfeeae3d8e1883b2a0eead
-last_modified_at: 2023-11-12
+description: "Display the sizes of sections inside binary files."
+content_hash: 63ed847251f95cae1665e7f5070b6100c5f9a640
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # size
 
-Displays the sizes of sections inside binary files.
+Display the sizes of sections inside binary files.
 More information: <https://sourceware.org/binutils/docs/binutils/size.html>.
 
 - Display the size of sections in a given object or executable file:

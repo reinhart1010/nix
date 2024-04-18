@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/nemo (English)
-description: "Manages files and directories in Cinnamon desktop environment."
-content_hash: d3671075141e98b967969af7a9b130774a5dd9e6
-last_modified_at: 2023-11-12
+description: "Manage files and directories in Cinnamon desktop environment."
+content_hash: 58de558e28850f0c8d255e8e520a692b31f2ee94
+last_modified_at: 2024-04-18
 related_topics:
   - title: മലയാളം version
     url: /ml/linux/nemo.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # nemo
 
-Manages files and directories in Cinnamon desktop environment.
+Manage files and directories in Cinnamon desktop environment.
 More information: <https://manned.org/nemo>.
 
 - Open the current user home directory:

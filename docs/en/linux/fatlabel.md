@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/fatlabel (English)
-description: "Sets or gets the label of a FAT32 partition."
-content_hash: 857ca48f93848bf3ecec4e1e044e840dec39ba53
-last_modified_at: 2023-11-12
+description: "Get or set the label of a FAT32 partition."
+content_hash: 77221bf3d39066977d6e94fc7c254d0d61f74c26
+last_modified_at: 2024-04-18
 related_topics:
   - title: polski version
     url: /pl/linux/fatlabel.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # fatlabel
 
-Sets or gets the label of a FAT32 partition.
+Get or set the label of a FAT32 partition.
 More information: <https://manned.org/fatlabel>.
 
 - Get the label of a FAT32 partition:

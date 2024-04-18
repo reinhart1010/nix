@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/mkdir (English)
-description: "Creates a directory."
-content_hash: 9183fa8346da304418d9a6269523ee33d340267e
-last_modified_at: 2023-11-12
+description: "Create a directory."
+content_hash: b4542623ce2f497ca4d49da78326303ecf56c76d
+last_modified_at: 2024-04-18
 related_topics:
   - title: বাংলা version
     url: /bn/windows/mkdir.html
@@ -33,7 +33,7 @@ tldri18n_status: 2
 ---
 # mkdir
 
-Creates a directory.
+Create a directory.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
 
 - Create a directory:

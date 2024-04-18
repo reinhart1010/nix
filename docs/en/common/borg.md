@@ -2,8 +2,8 @@
 layout: page
 title: common/borg (English)
 description: "Deduplicating backup tool."
-content_hash: ff40c8cd6e4ab70919928dad341d075ad09ed465
-last_modified_at: 2023-11-12
+content_hash: fe5f07e79d495a7537de23be11fe7473559ae00a
+last_modified_at: 2024-04-18
 related_topics:
   - title: Deutsch version
     url: /de/common/borg.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # borg
 
 Deduplicating backup tool.
-Creates local or remote backups that are mountable as filesystems.
+Create local or remote backups that are mountable as filesystems.
 More information: <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
 
 - Initialize a (local) repository:

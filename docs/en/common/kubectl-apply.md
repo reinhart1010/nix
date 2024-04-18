@@ -1,14 +1,15 @@
 ---
 layout: page
 title: common/kubectl-apply (English)
-description: "Manages applications through files defining Kubernetes resources. It creates and updates resources in a cluster."
-content_hash: 5bd24846e9a31d312100b5e88e82412563dd78b1
-last_modified_at: 2023-11-12
+description: "Manage applications through files defining Kubernetes resources."
+content_hash: 63f88a695ef1bb6215f407c7d1be24a9085d997b
+last_modified_at: 2024-04-18
 tldri18n_status: 2
 ---
 # kubectl apply
 
-Manages applications through files defining Kubernetes resources. It creates and updates resources in a cluster.
+Manage applications through files defining Kubernetes resources.
+Create and update resources in a cluster.
 More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#apply>.
 
 - Apply a configuration to a resource by file name or `stdin`:

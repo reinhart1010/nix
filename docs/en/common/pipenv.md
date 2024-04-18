@@ -2,8 +2,8 @@
 layout: page
 title: common/pipenv (English)
 description: "Simple and unified Python development workflow."
-content_hash: b4255a2be430935670cb5019e044e36dda430b46
-last_modified_at: 2023-11-12
+content_hash: 708c770f0151ffcaad83730381e3e2ebafb84ceb
+last_modified_at: 2024-04-18
 related_topics:
   - title: français version
     url: /fr/common/pipenv.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # pipenv
 
 Simple and unified Python development workflow.
-Manages packages and the virtual environment for a project.
+Manage packages and the virtual environment for a project.
 More information: <https://pypi.org/project/pipenv>.
 
 - Create a new project:

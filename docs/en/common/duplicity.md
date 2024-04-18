@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/duplicity (English)
-description: "Creates incremental, compressed, encrypted and versioned backups."
-content_hash: a7a68e88921db858dc7d0874a9dbcaf2c527458f
-last_modified_at: 2024-03-14
+description: "Create incremental, compressed, encrypted and versioned backups."
+content_hash: 4590e747badc7739bb2dc473b9b5e776c59446f0
+last_modified_at: 2024-04-18
 related_topics:
   - title: italiano version
     url: /it/common/duplicity.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # duplicity
 
-Creates incremental, compressed, encrypted and versioned backups.
+Create incremental, compressed, encrypted and versioned backups.
 Can also upload the backups to a variety of backend services.
 More information: <http://duplicity.nongnu.org>.
 

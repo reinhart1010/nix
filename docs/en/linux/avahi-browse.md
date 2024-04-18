@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/avahi-browse (English)
-description: "Displays services and hosts exposed on the local network via mDNS/DNS-SD."
-content_hash: 1d7e18a9f1e1efcc2128930b79651b4d6ac3ef48
-last_modified_at: 2023-11-12
+description: "Display services and hosts exposed on the local network via mDNS/DNS-SD."
+content_hash: 0586f77d829a7fa49a4f6351894b9ce78df36965
+last_modified_at: 2024-04-18
 related_topics:
   - title: 中文 version
     url: /zh/linux/avahi-browse.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # avahi-browse
 
-Displays services and hosts exposed on the local network via mDNS/DNS-SD.
+Display services and hosts exposed on the local network via mDNS/DNS-SD.
 Avahi is compatible with Bonjour (Zeroconf) found in Apple devices.
 More information: <https://www.avahi.org/>.
 
