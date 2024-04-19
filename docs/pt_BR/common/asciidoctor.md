@@ -2,8 +2,8 @@
 layout: page
 title: common/asciidoctor (português (Brasil))
 description: "Um processador que converte AsciiDoc em formatos publicáveis."
-content_hash: 48f5995237f4b0e3da82876c950615a28d104314
-last_modified_at: 2024-01-10
+content_hash: ef8c18c74368ea8e5b7aa3566c44cd3414f416a0
+last_modified_at: 2024-04-19
 related_topics:
   - title: English version
     url: /en/common/asciidoctor.html
@@ -33,7 +33,7 @@ Mais informações: <https://docs.asciidoctor.org>.
 
 - Converte um arquivo `.adoc` em HTML e liga a uma folha de estilos CSS:
 
-`asciidoctor -a stylesheet=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/estilos.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.adoc</span>
+`asciidoctor -a stylesheet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/estilos.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.adoc</span>
 
 - Converte um arquivo `.adoc` em um HTML embutível, removendo tudo exceto o corpo:
 
@@ -41,4 +41,4 @@ Mais informações: <https://docs.asciidoctor.org>.
 
 - Converte um arquivo `.adoc` em PDF usando a biblioteca `asciidoctor-pdf`:
 
-`asciidoctor --backend=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span>` --require=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asciidoctor-pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.adoc</span>
+`asciidoctor --backend `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span>` --require `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asciidoctor-pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.adoc</span>

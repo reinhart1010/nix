@@ -2,8 +2,8 @@
 layout: page
 title: common/chromium (português (Brasil))
 description: "Navegador código aberto desenvolvido principalmente e mantido pela Google."
-content_hash: ffe0ffbe28eed12d4131b4d856eaf1c0d93396b2
-last_modified_at: 2023-12-18
+content_hash: 13ecace443bbb0ea30cc28cf92bc38670d16b16a
+last_modified_at: 2024-04-19
 related_topics:
   - title: Deutsch version
     url: /de/common/chromium.html
@@ -44,7 +44,7 @@ Mais informações: <https://www.chromium.org/developers/how-tos/run-chromium-wi
 
 - Abre no modo aplicativo (Sem barra de tarefas, barra de URL, botões, etc.):
 
-`chromium --app=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://exemplo.com</span>
+`chromium --app `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://exemplo.com</span>
 
 - Usa um servidor proxy:
 
@@ -52,11 +52,11 @@ Mais informações: <https://www.chromium.org/developers/how-tos/run-chromium-wi
 
 - Abre com um diretório de perfil customizado:
 
-`chromium --user-data-dir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+`chromium --user-data-dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
 - Abre sem validação CORS (útil para testar uma API):
 
-`chromium --user-data-dir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>` --disable-web-security`
+`chromium --user-data-dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>` --disable-web-security`
 
 - Abre com uma janela DevTools para cada aba aberta:
 

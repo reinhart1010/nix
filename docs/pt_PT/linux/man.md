@@ -2,8 +2,8 @@
 layout: page
 title: linux/man (português (Portugal))
 description: "Formata e exibe páginas do manual."
-content_hash: e4f7c461cb1937ddf7f051a7103597d0b6b9dcbb
-last_modified_at: 2024-02-07
+content_hash: f91df59fd2049d5bc2bd39e6823db8723365a23c
+last_modified_at: 2024-04-19
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -61,7 +61,7 @@ Mais informações: <https://manned.org/man>.
 
 - Exibe a página do manual usando uma localização específica:
 
-`man --locale=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localização</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
+`man --locale `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localização</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
 - Procura por páginas do manual que contenham uma certa string:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-logcat (English)
 description: "Dump a log of system messages."
-content_hash: 044290e3b2b463e3820f2ce3348fdb453808b1e9
-last_modified_at: 2024-02-16
+content_hash: 5b1059c0995e75d13f1ce5c37f87a7fd0b6c2c61
+last_modified_at: 2024-04-19
 related_topics:
   - title: español version
     url: /es/common/adb-logcat.html
@@ -49,11 +49,11 @@ More information: <https://developer.android.com/tools/logcat>.
 
 - Display logs for a specific PID:
 
-`adb logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`adb logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - Display logs for the process of a specific package:
 
-`adb logcat --pid=$(adb shell pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`)`
+`adb logcat --pid $(adb shell pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`)`
 
 - Color the log (usually use with filters):
 

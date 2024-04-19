@@ -2,8 +2,8 @@
 layout: page
 title: common/date (português (Brasil))
 description: "Define ou exibe a data do sistema."
-content_hash: 1e0b6bde0153d87e0ae65f92d24cbab8b4afd871
-last_modified_at: 2023-11-12
+content_hash: a89e6002f61a7890432861e56cc1117e8a37ed0c
+last_modified_at: 2024-04-19
 related_topics:
   - title: Deutsch version
     url: /de/common/date.html
@@ -49,7 +49,7 @@ Mais informações: <https://www.gnu.org/software/coreutils/date>.
 
 - Exibe a data atual usando o formato RFC-3339 (`YYYY-MM-DD hh:mm:ss TZ`):
 
-`date --rfc-3339=s`
+`date --rfc-3339 s`
 
 - Define a data atual usando o formato `MMDDhhmmYYYY.ss` (`YYYY` e `.ss` são opcionais):
 

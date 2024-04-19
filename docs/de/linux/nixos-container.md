@@ -3,23 +3,14 @@ layout: page
 title: linux/nixos-container (Deutsch)
 description: "Startet NixOS Container basierend auf Linux Containern."
 content_hash: 2079caa3eb940df2cebd49c44c1b097cfca37fb4
-last_modified_at: 2024-04-18
+last_modified_at: 2024-04-19
 related_topics:
   - title: English version
     url: /en/linux/nixos-container.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/nixos-container.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nixos-container
+# nixos-container
 
 Startet NixOS Container basierend auf Linux Containern.
 Mehr Informationen: <https://nixos.org/manual/nixos/stable/#ch-containers>.

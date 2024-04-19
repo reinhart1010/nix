@@ -2,8 +2,8 @@
 layout: page
 title: common/chgrp (English)
 description: "Change group ownership of files and directories."
-content_hash: 9ba75f415fb63f360c02eddbff149961614ed20c
-last_modified_at: 2023-11-12
+content_hash: d7f27c29bbb3b50a1a81f355ff9ff61d52e942d2
+last_modified_at: 2024-04-19
 related_topics:
   - title: français version
     url: /fr/common/chgrp.html
@@ -38,4 +38,4 @@ More information: <https://www.gnu.org/software/coreutils/chgrp>.
 
 - Change the owner group of a file/directory to match a reference file:
 
-`chgrp --reference=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/reference_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+`chgrp --reference `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/reference_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>

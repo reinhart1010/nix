@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (English)
 description: "Find patterns in files using regular expressions."
-content_hash: e6ec82b48feaa6c5215e3e080d8c4c9db35c13a3
-last_modified_at: 2023-11-12
+content_hash: 0b8b38c6db7f1c96b33e4776249aec0b4477b3cf
+last_modified_at: 2024-04-19
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -35,6 +35,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/grep.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/grep.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # grep
@@ -52,7 +55,7 @@ More information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Search for a pattern in all files recursively in a directory, showing line numbers of matches, ignoring binary files:
 
-`grep --recursive --line-number --binary-files=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`grep --recursive --line-number --binary-files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
 
@@ -60,7 +63,7 @@ More information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Print 3 lines of context around, before, or after each match:
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Print file name and line number for each match with color output:
 

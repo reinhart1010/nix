@@ -2,8 +2,8 @@
 layout: page
 title: common/date (English)
 description: "Set or display the system date."
-content_hash: 88340709aed9d77322d57eb598f577aa39cc0369
-last_modified_at: 2023-11-12
+content_hash: 5bf5092cae7a6441ab624879b77fa05474a946b4
+last_modified_at: 2024-04-19
 related_topics:
   - title: Deutsch version
     url: /de/common/date.html
@@ -49,7 +49,7 @@ More information: <https://www.gnu.org/software/coreutils/date>.
 
 - Display the current date using the RFC-3339 format (`YYYY-MM-DD hh:mm:ss TZ`):
 
-`date --rfc-3339=s`
+`date --rfc-3339 s`
 
 - Set the current date using the format `MMDDhhmmYYYY.ss` (`YYYY` and `.ss` are optional):
 

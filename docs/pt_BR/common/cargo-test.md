@@ -2,14 +2,17 @@
 layout: page
 title: common/cargo-test (português (Brasil))
 description: "Executa os testes unitários e de integração de um pacote Rust."
-content_hash: c405be0ff31c740cb78a36ccc074ac84d2b705f1
-last_modified_at: 2023-12-28
+content_hash: f8d92c2875b734d604ede88a8b4356010fcc16d1
+last_modified_at: 2024-04-19
 related_topics:
   - title: English version
     url: /en/common/cargo-test.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cargo-test.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/cargo-test.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -27,7 +30,7 @@ Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-test.html>.
 
 - Define o número de casos de teste para execução simultânea:
 
-`cargo test -- --test-threads=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quantidade</span>
+`cargo test -- --test-threads `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quantidade</span>
 
 - Executa os testes garantindo que o `Cargo.lock` esteja atualizado:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/chroot (Deutsch)
 description: "Führe einen Befehl oder eine interaktive Shell mit einem speziellen root-Verzeichnis aus."
-content_hash: 58450b5173ce9355d0935156084b18ced51d201c
-last_modified_at: 2023-11-12
+content_hash: 940045fa9c188831523d3ecf9b1f87675f93fb34
+last_modified_at: 2024-04-19
 related_topics:
   - title: English version
     url: /en/common/chroot.html
@@ -36,4 +36,4 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/chroot>.
 
 - Lege einen Benutzer und eine Gruppe (ID oder Name) fest, der benutzt werden soll:
 
-`chroot --userspec=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer:gruppe</span>
+`chroot --userspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer:gruppe</span>

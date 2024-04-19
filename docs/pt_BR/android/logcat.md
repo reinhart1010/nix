@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (português (Brasil))
 description: "Despeja um registro de mensagens do sistema."
-content_hash: 015b1497538c987a9e10ea86f6a6fa8c90b5f3e0
-last_modified_at: 2024-02-22
+content_hash: 66d6b02e9dc74913c4cc9f7c6e2749d2132274c3
+last_modified_at: 2024-04-19
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -83,8 +83,8 @@ Mais informações: <https://developer.android.com/tools/logcat>.
 
 - Exibe logs para um PID específico:
 
-`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - Exibe logs de processo de um pacote específico:
 
-`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>`)`
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>`)`

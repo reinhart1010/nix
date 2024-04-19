@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (dansk)
 description: "Find mønstre i filer via regulære udtryk (regular expressions)."
-content_hash: 5453e1099cd700705bceb851de0b743af0c19480
-last_modified_at: 2023-11-12
+content_hash: 68bf510cdaab787cdce213bdf69361c764b45af6
+last_modified_at: 2024-04-19
 related_topics:
   - title: Deutsch version
     url: /de/common/grep.html
@@ -35,6 +35,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/grep.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/grep.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # grep
@@ -52,7 +55,7 @@ Mere information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Søg efter et mønster i alle filer, pånær binære, rekursivt i en mappe. Vis linjenumre der matcher til mønstret:
 
-`grep --recursive --line-number --binary-files=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">søgemønster</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sti/til/mappe</span>
+`grep --recursive --line-number --binary-files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">søgemønster</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sti/til/mappe</span>
 
 - Brug udvidede regulære udtryk (understøtter `?`, `+`, `{}`, `()` og `|`), i case-insensitive modus:
 
@@ -60,7 +63,7 @@ Mere information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Print 3 linjer af kontekst omkring, før eller efter hvert match:
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">søgemønster</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sti/til/fil</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">søgemønster</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sti/til/fil</span>
 
 - Print, filnavn og linjenummer for hvert match, med farveoutput:
 

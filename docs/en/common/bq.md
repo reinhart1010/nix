@@ -2,8 +2,8 @@
 layout: page
 title: common/bq (English)
 description: "A Python-based tool for BigQuery, Google Cloud's fully managed and completely serverless enterprise data warehouse."
-content_hash: 0a28f62de06f38cc3edcb0d4b1c1e272537672ea
-last_modified_at: 2024-02-15
+content_hash: d25e1630970ad9e88c1a6d77b9ae68d6cb97f53a
+last_modified_at: 2024-04-19
 tldri18n_status: 2
 ---
 # bq
@@ -29,7 +29,7 @@ More information: <https://cloud.google.com/bigquery/docs/reference/bq-cli-refer
 
 - Batch load data from a specific file in formats such as CSV, JSON, Parquet, and Avro to a table:
 
-`bq load --location=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">location</span>` --source_format=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CSV|JSON|PARQUET|AVRO</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dataset</span>`.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path_to_source</span>
+`bq load --location `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">location</span>` --source_format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CSV|JSON|PARQUET|AVRO</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dataset</span>`.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path_to_source</span>
 
 - Copy one table to another:
 

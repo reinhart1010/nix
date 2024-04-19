@@ -2,8 +2,8 @@
 layout: page
 title: linux/gedit (português (Portugal))
 description: "Editor de texto para Desktop do GNOME."
-content_hash: d15397c81cc2963675bd120b5ec4420b54f0d5af
-last_modified_at: 2024-01-14
+content_hash: e629acf29373fc0f8632c10264ebef7decc8b65a
+last_modified_at: 2024-04-19
 related_topics:
   - title: English version
     url: /en/linux/gedit.html
@@ -34,7 +34,7 @@ Mais informações: <https://help.gnome.org/users/gedit/stable/>.
 
 - Abre um ficheiro de texto com uma formatação específica:
 
-`gedit --encoding=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>
+`gedit --encoding `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>
 
 - Mostra a lista de formatações de texto disponíveis:
 

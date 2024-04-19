@@ -2,8 +2,8 @@
 layout: page
 title: linux/man (English)
 description: "Format and display manual pages."
-content_hash: ff5260836139c23ee434d2a575b854feee47e958
-last_modified_at: 2024-02-06
+content_hash: 203cc9c9ff54e9f9e1598a30b1ae0743eac31677
+last_modified_at: 2024-04-19
 related_topics:
   - title: español version
     url: /es/linux/man.html
@@ -62,7 +62,7 @@ More information: <https://manned.org/man>.
 
 - Display the man page using a specific locale:
 
-`man --locale=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">locale</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`man --locale `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">locale</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - Search for manpages containing a search string:
 

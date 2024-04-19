@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (français)
 description: "Gérer les données Docker et afficher des informations sur l'ensemble du système."
-content_hash: e283c3e6f417cf6fb775382612be26ea9b3ac8f3
-last_modified_at: 2024-03-14
+content_hash: 2e3206aba4bd56d4e70db82d6b86545476c3ecf3
+last_modified_at: 2024-04-19
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -45,7 +45,7 @@ Plus d'informations : <https://docs.docker.com/engine/reference/commandline/syst
 
 - Supprimer les données non utilisées de plus d'un temps donné dans le passé :
 
-`docker system prune --filter="until=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">heures</span>`h`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minutes</span>`m"`
+`docker system prune --filter "until=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">heures</span>`h`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minutes</span>`m"`
 
 - Afficher les événements du démon Docker en temps réel :
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/brew-bundle (Deutsch)
 description: "Bundler für Homebrew, Homebrew Cask und den Mac App Store."
-content_hash: 6c968f01c85817538eb4bc3dff490d0fa82d633f
-last_modified_at: 2023-11-12
+content_hash: c86ea7e11101bfc0ad0267fead06a49b97b54943
+last_modified_at: 2024-04-19
 related_topics:
   - title: English version
     url: /en/common/brew-bundle.html
@@ -27,7 +27,7 @@ Weitere Informationen: <https://github.com/Homebrew/homebrew-bundle>.
 
 - Installiere Pakete aus einer bestimmten Brewfile:
 
-`brew bundle --file=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/brewfile</span>
+`brew bundle --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/brewfile</span>
 
 - Gib eine Liste mit allen installierten Paketen aus:
 

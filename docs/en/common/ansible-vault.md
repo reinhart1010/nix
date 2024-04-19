@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible-vault (English)
 description: "Encrypts & decrypts values, data structures and files within Ansible projects."
-content_hash: c894bebdbc34e8e27b316a2a08d6a2f7d87c93bd
-last_modified_at: 2023-11-12
+content_hash: 75baa45a980b702cc67f7b168ae675ef76fbd058
+last_modified_at: 2024-04-19
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-vault.html
@@ -24,11 +24,11 @@ More information: <https://docs.ansible.com/ansible/latest/user_guide/vault.html
 
 - Create a new encrypted vault file using a vault key file to encrypt it:
 
-`ansible-vault create --vault-password-file=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_file</span>
+`ansible-vault create --vault-password-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_file</span>
 
 - Encrypt an existing file using an optional password file:
 
-`ansible-vault encrypt --vault-password-file=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_file</span>
+`ansible-vault encrypt --vault-password-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_file</span>
 
 - Encrypt a string using Ansible's encrypted string format, displaying interactive prompts:
 
@@ -36,8 +36,8 @@ More information: <https://docs.ansible.com/ansible/latest/user_guide/vault.html
 
 - View an encrypted file, using a password file to decrypt:
 
-`ansible-vault view --vault-password-file=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_file</span>
+`ansible-vault view --vault-password-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_file</span>
 
 - Re-key already encrypted vault file with a new password file:
 
-`ansible-vault rekey --vault-password-file=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_password_file</span>` --new-vault-password-file=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_password_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_file</span>
+`ansible-vault rekey --vault-password-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_password_file</span>` --new-vault-password-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_password_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_file</span>

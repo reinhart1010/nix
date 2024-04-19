@@ -2,8 +2,8 @@
 layout: page
 title: common/cppcheck (English)
 description: "A static analysis tool for C/C++ code."
-content_hash: e5ce98972481c41dd4d5ec887d114acb2832644f
-last_modified_at: 2023-11-12
+content_hash: 52c8afe4ae6d17632dd84d459b03230a187a8b76
+last_modified_at: 2024-04-19
 related_topics:
   - title: italiano version
     url: /it/common/cppcheck.html
@@ -29,7 +29,7 @@ More information: <http://cppcheck.sourceforge.net>.
 
 - Check a given file, specifying which tests to perform (by default only errors are shown):
 
-`cppcheck --enable=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error|warning|style|performance|portability|information|all</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span>
+`cppcheck --enable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error|warning|style|performance|portability|information|all</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span>
 
 - List available tests:
 
@@ -37,7 +37,7 @@ More information: <http://cppcheck.sourceforge.net>.
 
 - Check a given file, ignoring specific tests:
 
-`cppcheck --suppress=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test_id1</span>` --suppress=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test_id2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span>
+`cppcheck --suppress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test_id1</span>` --suppress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test_id2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span>
 
 - Check the current directory, providing paths for include files located outside it (e.g. external libraries):
 
@@ -45,4 +45,4 @@ More information: <http://cppcheck.sourceforge.net>.
 
 - Check a Microsoft Visual Studio project (`*.vcxproj`) or solution (`*.sln`):
 
-`cppcheck --project=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project.sln</span>
+`cppcheck --project `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project.sln</span>

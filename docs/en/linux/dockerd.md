@@ -2,8 +2,8 @@
 layout: page
 title: linux/dockerd (English)
 description: "A persistent process to start and manage Docker containers."
-content_hash: 139588c6ad58b60f886c449feeb03fd0498d1142
-last_modified_at: 2024-03-14
+content_hash: 993284606bf592bfc2c5147f972c12b5cfeacd34
+last_modified_at: 2024-04-19
 related_topics:
   - title: العربية version
     url: /ar/linux/dockerd.html
@@ -36,4 +36,4 @@ More information: <https://docs.docker.com/engine/reference/commandline/dockerd/
 
 - Run and set a specific log level:
 
-`dockerd --log-level=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debug|info|warn|error|fatal</span>
+`dockerd --log-level `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debug|info|warn|error|fatal</span>

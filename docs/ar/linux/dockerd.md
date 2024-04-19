@@ -2,8 +2,8 @@
 layout: page
 title: linux/dockerd (العربية)
 description: "هي عملية مستمرة تعمل في الخلفية تبدأها لتتحكم في حاويات الدوكر."
-content_hash: 71230215b78da791f1bfc0574306a99725a57dda
-last_modified_at: 2024-01-05
+content_hash: 02d05ea39792bd326438a5182e1fa199949989cc
+last_modified_at: 2024-04-19
 related_topics:
   - title: English version
     url: /en/linux/dockerd.html
@@ -36,4 +36,4 @@ tldri18n_status: 2
 
 - قم بتشغيل دوكر وحدد له مستوي سجل معين:
 
-`dockerd --log-level=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debug|info|warn|error|fatal</span>
+`dockerd --log-level `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debug|info|warn|error|fatal</span>

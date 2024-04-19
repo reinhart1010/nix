@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (English)
 description: "Change user and group ownership of files and directories."
-content_hash: 13ebf8db73aab9ca96a7e85294e0a19fcf67b4b1
-last_modified_at: 2024-02-27
+content_hash: e7a520ef0fa0ccbc9337f87fec334f420504ba52
+last_modified_at: 2024-04-19
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -64,4 +64,4 @@ More information: <https://www.gnu.org/software/coreutils/chown>.
 
 - Change the owner of a file/directory to match a reference file:
 
-`chown --reference=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/reference_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+`chown --reference `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/reference_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>

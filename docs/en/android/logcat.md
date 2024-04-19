@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (English)
 description: "Dump a log of system messages, including stack traces when an error occurred, and information messages logged by applications."
-content_hash: 1e8a26dc5a445e0ed4fb5fd777e5e353eda84e75
-last_modified_at: 2024-02-16
+content_hash: 2f398c942e26f116d645fe75712fd3c46fdf93fd
+last_modified_at: 2024-04-19
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -83,8 +83,8 @@ More information: <https://developer.android.com/tools/logcat>.
 
 - Display logs for a specific PID:
 
-`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - Display logs for the process of a specific package:
 
-`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`)`
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`)`

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (日本語)
 description: "Dockerのデータ管理とシステム全体に関わる情報の表示をします。"
-content_hash: e9ece56253bfa82808e549e93ff1505877366a17
-last_modified_at: 2023-11-12
+content_hash: c133b11ac3828499dfecb6b9e189c8524104d913
+last_modified_at: 2024-04-19
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -45,7 +45,7 @@ Dockerのデータ管理とシステム全体に関わる情報の表示をし�
 
 - 不使用データのうち指定時間より前に作成されたものを削除する:
 
-`docker system prune --filter="until=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">時</span>`h`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分</span>`m"`
+`docker system prune --filter "until=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">時</span>`h`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分</span>`m"`
 
 - Dockerデーモンからのリアルタイムイベントを表示する:
 

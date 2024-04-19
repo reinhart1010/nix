@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (English)
 description: "Manage Docker data and display system-wide information."
-content_hash: df91943e536ba829358ef826da98752a7080880b
-last_modified_at: 2024-03-14
+content_hash: a2bda1cedd00d995f80c6bd35895a76938db4206
+last_modified_at: 2024-04-19
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -45,7 +45,7 @@ More information: <https://docs.docker.com/engine/reference/commandline/system/>
 
 - Remove unused data created more than a specified amount of time in the past:
 
-`docker system prune --filter="until=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hours</span>`h`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minutes</span>`m"`
+`docker system prune --filter "until=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hours</span>`h`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minutes</span>`m"`
 
 - Display real-time events from the Docker daemon:
 

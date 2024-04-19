@@ -2,8 +2,8 @@
 layout: page
 title: common/behat (English)
 description: "A PHP framework for Behaviour-Driven Development."
-content_hash: 503ac3df89d3418d0a72e5e2d93a814bce051f40
-last_modified_at: 2024-01-31
+content_hash: c83025ef19dcd4d969851969a732dd5b0ad61fbf
+last_modified_at: 2024-04-19
 related_topics:
   - title: italiano version
     url: /it/common/behat.html
@@ -31,7 +31,7 @@ More information: <https://behat.org>.
 
 - Run all tests from the specified suite:
 
-`behat --suite=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suite_name</span>
+`behat --suite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suite_name</span>
 
 - Run tests with a specific output formatter:
 

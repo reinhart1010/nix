@@ -2,8 +2,8 @@
 layout: page
 title: common/date (Deutsch)
 description: "Setze die Systemzeit oder zeige sie an."
-content_hash: 452703e414acc4987f60cb8f0a4e4808f902efaf
-last_modified_at: 2023-11-12
+content_hash: e535112f0eccfeb375786a28e868bec604108918
+last_modified_at: 2024-04-19
 related_topics:
   - title: English version
     url: /en/common/date.html
@@ -49,7 +49,7 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/date>.
 
 - Zeige das aktuelle Datum im RFC-3339 Format (`YYYY-MM-DD hh:mm:ss TZ`) an:
 
-`date --rfc-3339=s`
+`date --rfc-3339 s`
 
 - Setze das aktuelle Datum im Format `MMDDhhmmYYYY.ss` (`YYYY` und `.ss` sind optional):
 

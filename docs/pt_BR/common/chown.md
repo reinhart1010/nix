@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (português (Brasil))
 description: "Muda o usuário e grupo donos de arquivos e diretórios."
-content_hash: de405de54cb7b48d533efcaf629c6629e0df34d9
-last_modified_at: 2024-02-28
+content_hash: 7eb76dec9e3cac5200f2a307f6f1ede688001609
+last_modified_at: 2024-04-19
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -63,4 +63,4 @@ Mais informações: <https://www.gnu.org/software/coreutils/chown>.
 
 - Muda o dono de um arquivo/diretório para ficar igual a um arquivo de referência:
 
-`chown --reference=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_referencia</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretorio</span>
+`chown --reference `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_referencia</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretorio</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (Türkçe)
 description: "Docker verilerini yönet ve sistem bilgisi görüntüle."
-content_hash: 44a87dac3c14c8a090970d4efb282dfd4d6b2462
-last_modified_at: 2023-11-12
+content_hash: 5aa428908150e16655c0449b56eda9c157e4eddb
+last_modified_at: 2024-04-19
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -45,7 +45,7 @@ Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/sy
 
 - Kullanılmayan ve geçmişte birden çok kez oluşturulan veriyi sil:
 
-`docker system prune --filter="until=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">saat</span>`h`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dakika</span>`m"`
+`docker system prune --filter "until=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">saat</span>`h`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dakika</span>`m"`
 
 - Docker deamon'dan tam-zamanlı eylemleri görüntüle:
 

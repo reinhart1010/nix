@@ -3,23 +3,14 @@ layout: page
 title: linux/nixos-option (Deutsch)
 description: "Prüfe eine NixOS Konfiguration."
 content_hash: f9241e3e11e63cf34089f00e76e629c8bd1009a4
-last_modified_at: 2024-04-18
+last_modified_at: 2024-04-19
 related_topics:
   - title: English version
     url: /en/linux/nixos-option.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/nixos-option.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nixos-option
+# nixos-option
 
 Prüfe eine NixOS Konfiguration.
 Mehr Informationen: <https://nixos.org/manual/nixos/stable/index.html#sec-modularity>.
