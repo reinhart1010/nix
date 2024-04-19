@@ -2,8 +2,8 @@
 layout: page
 title: common/mid3v2 (español)
 description: "Edita etiquetas de audio."
-content_hash: 5f9656ffa8dcfaaaa954b9990d03ea1f465a5d9b
-last_modified_at: 2024-01-24
+content_hash: 76d389920419227a6f070d70d5a918d035ba1882
+last_modified_at: 2024-04-19
 related_topics:
   - title: English version
     url: /en/common/mid3v2.html
@@ -30,16 +30,16 @@ Más información: <https://mutagen.readthedocs.io/en/latest/man/mid3v2.html>.
 
 - Establece información específica sobre artistas, álbumes o canciones:
 
-`id3v2 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--artist|--album|--song</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...</span>
+`id3v2 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--artist|--album|--song</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...</span>
 
 - Establece información específica de la imagen:
 
-`id3v2 --picture `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename:description:image_type:mime_type</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...</span>
+`id3v2 --picture=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename:description:image_type:mime_type</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...</span>
 
 - Establece información específica del año:
 
-`id3v2 --year `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...</span>
+`id3v2 --year=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...</span>
 
 - Establece información de fecha específica:
 
-`id3v2 --date `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...</span>
+`id3v2 --date=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...</span>
