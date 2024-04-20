@@ -2,8 +2,8 @@
 layout: page
 title: common/duplicity (English)
 description: "Create incremental, compressed, encrypted and versioned backups."
-content_hash: 4590e747badc7739bb2dc473b9b5e776c59446f0
-last_modified_at: 2024-04-18
+content_hash: bda6af5f28270455e5e178241cabadb821eaa741
+last_modified_at: 2024-04-20
 related_topics:
   - title: italiano version
     url: /it/common/duplicity.html
@@ -14,6 +14,7 @@ tldri18n_status: 2
 
 Create incremental, compressed, encrypted and versioned backups.
 Can also upload the backups to a variety of backend services.
+It is worth mentioning that depending on the version, some options may not be available (e.g. `--gio` in 2.0.0).
 More information: <http://duplicity.nongnu.org>.
 
 - Backup a directory via FTPS to a remote machine, encrypting it with a password:
