@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-key (українська)
 description: "Утиліта керування ключами для диспетчера пакетів APT в Debian та Ubuntu."
 content_hash: 8b27a9a39591a0d376dc834644756d6c0be93634
-last_modified_at: 2024-04-20
+last_modified_at: 2024-04-21
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -29,18 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-key.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/apt-key.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># apt-key
+# apt-key
 
 Утиліта керування ключами для диспетчера пакетів APT в Debian та Ubuntu.
 Примітка: `apt-key` застарілий (за винятком використання `apt-key del` у сценаріях підтримки).

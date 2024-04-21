@@ -3,23 +3,14 @@ layout: page
 title: linux/sleep (українська)
 description: "Затримка на певний час."
 content_hash: ea54b7c75e32350d8fac9ad365a6cdb184239eb0
-last_modified_at: 2024-04-20
+last_modified_at: 2024-04-21
 related_topics:
   - title: English version
     url: /en/linux/sleep.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/sleep.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sleep
+# sleep
 
 Затримка на певний час.
 Більше інформації: <https://www.gnu.org/software/coreutils/sleep>.

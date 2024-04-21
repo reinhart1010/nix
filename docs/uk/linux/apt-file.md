@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-file (українська)
 description: "Пошук файлів в пакетах `apt`, включно з тими, що ще не встановлені."
 content_hash: 06e96987c5a106ca9c27dd9135bc920545648a0c
-last_modified_at: 2024-04-20
+last_modified_at: 2024-04-21
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -35,18 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-file.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/apt-file.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># apt-file
+# apt-file
 
 Пошук файлів в пакетах `apt`, включно з тими, що ще не встановлені.
 Більше інформації: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.

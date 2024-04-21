@@ -3,23 +3,14 @@ layout: page
 title: linux/nala (українська)
 description: "Утиліта керування пакетами з кращим форматуванням."
 content_hash: ec5947478335c7bc6c10879d338cfad3c44305d7
-last_modified_at: 2024-04-20
+last_modified_at: 2024-04-21
 related_topics:
   - title: English version
     url: /en/linux/nala.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/nala.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nala
+# nala
 
 Утиліта керування пакетами з кращим форматуванням.
 Фронтенд для API `python-apt`.
