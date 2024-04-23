@@ -3,23 +3,14 @@ layout: page
 title: linux/mkfs.cramfs (中文)
 description: "创建一个 ROM 文件系统，放置在分区内。"
 content_hash: 1a010e5cb254bfc00dbc72cc25cc9f8c5e5e1913
-last_modified_at: 2024-04-22
+last_modified_at: 2024-04-23
 related_topics:
   - title: English version
     url: /en/linux/mkfs.cramfs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mkfs.cramfs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mkfs.cramfs
+# mkfs.cramfs
 
 创建一个 ROM 文件系统，放置在分区内。
 更多信息：<https://manned.org/mkfs.cramfs>.

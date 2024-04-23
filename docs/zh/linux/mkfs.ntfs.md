@@ -3,23 +3,14 @@ layout: page
 title: linux/mkfs.ntfs (中文)
 description: "在分区内创建一个 NTFS 文件系统。"
 content_hash: a8e673371004f438ad82624414fe037e8c6fff85
-last_modified_at: 2024-04-22
+last_modified_at: 2024-04-23
 related_topics:
   - title: English version
     url: /en/linux/mkfs.ntfs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mkfs.ntfs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mkfs.ntfs
+# mkfs.ntfs
 
 在分区内创建一个 NTFS 文件系统。
 更多信息：<https://manned.org/mkfs.ntfs>.
