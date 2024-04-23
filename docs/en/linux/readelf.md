@@ -2,8 +2,8 @@
 layout: page
 title: linux/readelf (English)
 description: "Display information about ELF files."
-content_hash: d1a60498452112781fdc8a46eedcd0f8e69b2117
-last_modified_at: 2024-04-18
+content_hash: 6fb9eb0f94075590842bd2021a9fb0185f3d6dd8
+last_modified_at: 2024-04-23
 related_topics:
   - title: 中文 version
     url: /zh/linux/readelf.html
@@ -27,6 +27,10 @@ More information: <http://man7.org/linux/man-pages/man1/readelf.1.html>.
 
 `readelf --symbols `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span>
 
-- Display the information contained in the ELF header at the start of the file:
+- Display ELF header information:
 
 `readelf --file-header `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span>
+
+- Display ELF section header information:
+
+`readelf --section-headers `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span>

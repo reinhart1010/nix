@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/z (English)
-description: "Tracks the most used (by frecency) directories and enables quickly navigating to them using string patterns or regular expressions."
-content_hash: 780752d24a89e462d71bae1fcb65338564b25b01
-last_modified_at: 2023-11-12
+description: "Tracks the most used (by frequency) directories and enables quickly navigating to them using string patterns or regular expressions."
+content_hash: 70f3dd697744105629e75421ac4a223093dad125
+last_modified_at: 2024-04-23
 related_topics:
   - title: français version
     url: /fr/common/z.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # z
 
-Tracks the most used (by frecency) directories and enables quickly navigating to them using string patterns or regular expressions.
+Tracks the most used (by frequency) directories and enables quickly navigating to them using string patterns or regular expressions.
 More information: <https://github.com/rupa/z>.
 
 - Go to a directory that contains "foo" in the name:
