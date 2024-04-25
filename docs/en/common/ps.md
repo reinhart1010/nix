@@ -2,8 +2,8 @@
 layout: page
 title: common/ps (English)
 description: "Information about running processes."
-content_hash: 008ce7bfb84b46cf04ac19eff815514a43a0c715
-last_modified_at: 2023-11-12
+content_hash: e4411259fee0575731faea1e672aa15ffc02a859
+last_modified_at: 2024-04-25
 related_topics:
   - title: español version
     url: /es/common/ps.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ps.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ps.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -32,9 +35,9 @@ More information: <https://manned.org/ps>.
 
 `ps auxww`
 
-- Search for a process that matches a string:
+- Search for a process that matches a string (the brackets will prevent `grep` from matching itself):
 
-`ps aux | grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>
+`ps aux | grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[s]tring</span>
 
 - List all processes of the current user in extra full format:
 
