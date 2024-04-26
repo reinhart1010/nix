@@ -2,8 +2,8 @@
 layout: page
 title: common/git-bulk (English)
 description: "Execute operations on multiple Git repositories."
-content_hash: 29bfcc3557ba7ed72a5b860b9ad748b4d32b65c7
-last_modified_at: 2024-01-31
+content_hash: 45106c31d03b115ad1208c945263821ad76a988b
+last_modified_at: 2024-04-26
 related_topics:
   - title: Indonesia version
     url: /id/common/git-bulk.html
@@ -24,13 +24,13 @@ More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-
 
 `git bulk --addworkspace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/absolute/path/to/repository</span>
 
-- Clone a repository inside a specific directory then register the repository as a workspace:
+- Clone a repository inside a specific directory, then register the repository as a workspace:
 
 `git bulk --addworkspace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/absolute/path/to/parent_directory</span>` --from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span>
 
-- Clone repositories from a newline-separated list of remote locations then register them as workspaces:
+- Clone repositories from a newline-separated list of remote locations, then register them as workspaces:
 
-`git bulk --addworkspace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace-name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/root/directory</span>` --from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file</span>
+`git bulk --addworkspace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/root/directory</span>` --from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file</span>
 
 - List all registered workspaces:
 

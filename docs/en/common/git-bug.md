@@ -2,8 +2,8 @@
 layout: page
 title: common/git-bug (English)
 description: "A distributed bug tracker that uses Git's internal storage, so no files are added in your project."
-content_hash: 806dd07a88424754a641384a47a6c8c33babc21f
-last_modified_at: 2024-01-30
+content_hash: f5e78c7d80864abe4c596cc5ed9a04b2eaa6ce07
+last_modified_at: 2024-04-26
 related_topics:
   - title: Indonesia version
     url: /id/common/git-bug.html
@@ -24,11 +24,11 @@ More information: <https://github.com/MichaelMure/git-bug/blob/master/doc/md/git
 
 `git bug add`
 
-- You can push your new entry to a remote:
+- Push a new bug entry to a remote:
 
 `git bug push`
 
-- You can pull for updates:
+- Pull for updates:
 
 `git bug pull`
 
