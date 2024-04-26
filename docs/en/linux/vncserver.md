@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/vncserver (English)
-description: "Launches a VNC (Virtual Network Computing) desktop."
-content_hash: 87119361e28ee6e348a2a814505ab68b86589e42
-last_modified_at: 2023-11-12
+description: "Launch a VNC (Virtual Network Computing) desktop."
+content_hash: 2ab527ef9da68fd3545edd74fb80e406f16798d6
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # vncserver
 
-Launches a VNC (Virtual Network Computing) desktop.
+Launch a VNC (Virtual Network Computing) desktop.
 More information: <https://manned.org/vncserver.1x>.
 
 - Launch a VNC Server on next available display:

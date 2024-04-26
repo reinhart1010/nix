@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/sass (English)
-description: "Converts SCSS or Sass files to CSS."
-content_hash: 42c96eb4e25de6258f44183e3e5bac551a75fa83
-last_modified_at: 2023-11-12
+description: "Convert SCSS or Sass files to CSS."
+content_hash: afb57b58d138635924fa6ee37b67442041fb947c
+last_modified_at: 2024-04-26
 related_topics:
   - title: polski version
     url: /pl/common/sass.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # sass
 
-Converts SCSS or Sass files to CSS.
+Convert SCSS or Sass files to CSS.
 More information: <https://sass-lang.com/documentation/cli/dart-sass>.
 
 - Convert a SCSS or Sass file to CSS and print out the result:

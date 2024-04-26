@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/iconv (English)
-description: "Converts text from one encoding to another."
-content_hash: 405ec57752b7d9c5e61b645955fa81cbffe09764
-last_modified_at: 2023-11-12
+description: "Convert text from one encoding to another."
+content_hash: 7cfc910e94b63b9e01b6f58e67de091985545fdc
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # iconv
 
-Converts text from one encoding to another.
+Convert text from one encoding to another.
 More information: <https://manned.org/iconv>.
 
 - Convert file to a specific encoding, and print to `stdout`:

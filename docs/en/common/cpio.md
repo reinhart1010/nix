@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/cpio (English)
-description: "Copies files in and out of archives."
-content_hash: bdce538240701b0c93f8f280cd4288d4f0d82226
-last_modified_at: 2024-01-31
+description: "Copy files in and out of archives."
+content_hash: 393d535c8ad142a8548328f54a047a5fadc916cf
+last_modified_at: 2024-04-26
 related_topics:
   - title: italiano version
     url: /it/common/cpio.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # cpio
 
-Copies files in and out of archives.
+Copy files in and out of archives.
 Supports the following archive formats: cpio's custom binary, old ASCII, new ASCII, crc, HPUX binary, HPUX old ASCII, old tar, and POSIX.1 tar.
 More information: <https://www.gnu.org/software/cpio>.
 

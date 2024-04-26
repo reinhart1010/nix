@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/pnmtopng (English)
-description: "Converts a PNM image file to PNG image format."
-content_hash: f1279b3d71b9937a0246e6baa184ab9d835c6248
-last_modified_at: 2023-11-12
+description: "Convert a PNM image file to PNG image format."
+content_hash: 2d99c6ae50478e4d85c388ae60edb67726fd1a56
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # pnmtopng
 
-Converts a PNM image file to PNG image format.
+Convert a PNM image file to PNG image format.
 More information: <https://netpbm.sourceforge.net/doc/pnmtopng.html>.
 
 - Read a PNM image as input and produce a PNG image as output:

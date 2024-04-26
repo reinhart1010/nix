@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/csvsort (English)
-description: "Sorts CSV files."
-content_hash: 09f867efcdad4ebf1f0f4e5b3c7e4b6062b2a395
-last_modified_at: 2023-11-12
+description: "Sort CSV files."
+content_hash: 8f1b164997532798a65f4bd66546803a5494487f
+last_modified_at: 2024-04-26
 related_topics:
   - title: italiano version
     url: /it/common/csvsort.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # csvsort
 
-Sorts CSV files.
+Sort CSV files.
 Included in csvkit.
 More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvsort.html>.
 

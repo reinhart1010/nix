@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/in2csv (English)
-description: "Converts various tabular data formats into CSV."
-content_hash: fec6b126e416fe9ed772f6c864031961d0cf5d98
-last_modified_at: 2023-11-12
+description: "Convert various tabular data formats to CSV."
+content_hash: 04e05a22d9b4309c1892658422b3c1abb94a7765
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # in2csv
 
-Converts various tabular data formats into CSV.
+Convert various tabular data formats to CSV.
 Included in csvkit.
 More information: <https://csvkit.readthedocs.io/en/latest/scripts/in2csv.html>.
 

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/arpaname (English)
-description: "Provides corresponding ARPA name for IP addresses."
-content_hash: 5ee37ccb2cd43e57e96bfa3731d2652d997a1e40
-last_modified_at: 2023-11-12
+description: "Get the corresponding ARPA name for a IP addresses."
+content_hash: 276eaf6dba6685e4731e601367b086b715a880be
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # arpaname
 
-Provides corresponding ARPA name for IP addresses.
+Get the corresponding ARPA name for a IP addresses.
 More information: <https://manned.org/arpaname>.
 
 - Translate IP addresses (IPv4 and IPv6) to the corresponding ARPA name:

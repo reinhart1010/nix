@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/slurmdbd (English)
-description: "Provides a secure enterprise-wide interface to a database for Slurm."
-content_hash: daae23c0574176f3f7956c897ebdc05f823f63e0
-last_modified_at: 2023-11-12
+description: "A secure enterprise-wide interface to a database for Slurm."
+content_hash: f6df681c160a244215ff683eae06247f35cf2c40
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # slurmdbd
 
-Provides a secure enterprise-wide interface to a database for Slurm.
+A secure enterprise-wide interface to a database for Slurm.
 More information: <https://slurm.schedmd.com/slurmdbd.html>.
 
 - Set the daemon's nice value to the specified value, typically a negative number:

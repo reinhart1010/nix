@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/csslint (English)
-description: "A linter for CSS code."
-content_hash: 7d2fcaf0a395f36ec548ec5d97d0268feca5c027
-last_modified_at: 2024-02-09
+description: "Lint CSS code."
+content_hash: f197d647df17756395578791974b70f23c4a1089
+last_modified_at: 2024-04-26
 related_topics:
   - title: italiano version
     url: /it/common/csslint.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # csslint
 
-A linter for CSS code.
+Lint CSS code.
 More information: <https://github.com/CSSLint/csslint/wiki/Command-line-interface>.
 
 - Lint a single CSS file:

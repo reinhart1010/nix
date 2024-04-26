@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/complete (English)
-description: "Provides argument autocompletion to shell commands."
-content_hash: e283d60d47eb34b2f654621f750728825bfd3a85
-last_modified_at: 2023-11-12
+description: "Get argument autocompletion to shell commands."
+content_hash: 48f6573b3737d08641ff0999bdfa7ddbca784a9a
+last_modified_at: 2024-04-26
 related_topics:
   - title: italiano version
     url: /it/common/complete.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # complete
 
-Provides argument autocompletion to shell commands.
+Get argument autocompletion to shell commands.
 More information: <https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html>.
 
 - Apply a function that performs autocompletion to a command:

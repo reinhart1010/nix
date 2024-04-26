@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/pdftocairo (English)
-description: "Converts PDF files to PNG/JPEG/TIFF/PDF/PS/EPS/SVG using cairo."
-content_hash: 71e2901aca0a25e772216ac50887b2a63de88f8b
-last_modified_at: 2023-11-12
+description: "Convert PDF files to PNG/JPEG/TIFF/PDF/PS/EPS/SVG using cairo."
+content_hash: fa284d233a0ca1e66372ebf6f7c4d396e5eeba7f
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # pdftocairo
 
-Converts PDF files to PNG/JPEG/TIFF/PDF/PS/EPS/SVG using cairo.
+Convert PDF files to PNG/JPEG/TIFF/PDF/PS/EPS/SVG using cairo.
 More information: <https://poppler.freedesktop.org>.
 
 - Convert a PDF file to JPEG:

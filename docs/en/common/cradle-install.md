@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/cradle-install (English)
-description: "Installs the Cradle PHP framework components."
-content_hash: 54fec2ac9a16e5fc7d6fd659a8ffcc7ee1ae40ec
-last_modified_at: 2023-11-12
+description: "Install the Cradle PHP framework components."
+content_hash: b0cd10a12b935dc500f4a6d0a45c11d836cbb257
+last_modified_at: 2024-04-26
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle-install.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # cradle install
 
-Installs the Cradle PHP framework components.
+Install the Cradle PHP framework components.
 More information: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#install>.
 
 - Install Cradle's components (User will be prompted for further details):

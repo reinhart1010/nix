@@ -1,9 +1,9 @@
 ---
 layout: page
 title: android/dumpsys (English)
-description: "Provide information about Android system services."
-content_hash: e46d5e2fb11e576117a0abe97ee05e756b69b380
-last_modified_at: 2024-02-16
+description: "Get information about Android system services."
+content_hash: 70ce830030a3ef3b5d5c51d5f3873fdd75b3bb92
+last_modified_at: 2024-04-26
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -66,7 +66,7 @@ tldri18n_status: 2
 ---
 # dumpsys
 
-Provide information about Android system services.
+Get information about Android system services.
 This command can only be used through `adb shell`.
 More information: <https://developer.android.com/tools/dumpsys>.
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ansible-vault (English)
-description: "Encrypts & decrypts values, data structures and files within Ansible projects."
-content_hash: 75baa45a980b702cc67f7b168ae675ef76fbd058
-last_modified_at: 2024-04-19
+description: "Encrypt and decrypt values, data structures and files within Ansible projects."
+content_hash: a68e92096a705afe7840db0b6bb3f8b97dad3452
+last_modified_at: 2024-04-26
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-vault.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # ansible-vault
 
-Encrypts & decrypts values, data structures and files within Ansible projects.
+Encrypt and decrypt values, data structures and files within Ansible projects.
 More information: <https://docs.ansible.com/ansible/latest/user_guide/vault.html#id17>.
 
 - Create a new encrypted vault file with a prompt for a password:

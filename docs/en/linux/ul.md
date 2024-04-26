@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ul (English)
-description: "Performs the underlining of a text."
-content_hash: e5f25ecf8b67781327ef93f32929f00fa5f0c180
-last_modified_at: 2024-02-15
+description: "Underline a text."
+content_hash: d910867eb327e800fd5cb825b416f383b2627573
+last_modified_at: 2024-04-26
 related_topics:
   - title: 中文 version
     url: /zh/linux/ul.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # ul
 
-Performs the underlining of a text.
+Underline a text.
 Each character in a string must be underlined separately.
 More information: <https://manned.org/ul>.
 

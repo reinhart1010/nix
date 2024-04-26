@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/clang++ (English)
-description: "Compiles C++ source files."
-content_hash: 729d3dac52243cb121c4fbe77d0e55ef2a046a88
-last_modified_at: 2023-12-02
+description: "Compile C++ source files."
+content_hash: dd89fe1f32c3a097ae7b2d907202b5662c3f3160
+last_modified_at: 2024-04-26
 related_topics:
   - title: Deutsch version
     url: /de/common/clang++.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # clang++
 
-Compiles C++ source files.
+Compile C++ source files.
 Part of LLVM.
 More information: <https://clang.llvm.org>.
 

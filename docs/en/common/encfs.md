@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/encfs (English)
-description: "Mounts or creates encrypted virtual filesystems."
-content_hash: 66c624867cf83521bab8e8917a8db32f5d0f0aad
-last_modified_at: 2023-11-12
+description: "Mount or create encrypted virtual filesystems."
+content_hash: 4b4ab27b2399a546a5e7d78c530ac3ad5db71ba6
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # encfs
 
-Mounts or creates encrypted virtual filesystems.
+Mount or create encrypted virtual filesystems.
 See also `fusermount`, which can unmount filesystems mounted by this command.
 More information: <https://github.com/vgough/encfs>.
 

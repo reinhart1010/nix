@@ -1,15 +1,14 @@
 ---
 layout: page
 title: common/nkf (English)
-description: "Network kanji filter."
-content_hash: 02cb186d3b88cdc1dfa591dab15b925b1478496f
-last_modified_at: 2024-02-09
+description: "Network kanji filter: convert kanji code from one encoding to another."
+content_hash: 0a2d2d619416a06cee25c149f73fb266fb3cce50
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # nkf
 
-Network kanji filter.
-Converts kanji code from one encoding to another.
+Network kanji filter: convert kanji code from one encoding to another.
 More information: <https://manned.org/nkf>.
 
 - Convert to UTF-8 encoding:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/doctum (English)
-description: "A PHP API documentation generator."
-content_hash: 2ba5670a2e9c9c3830328b6ae0d40aac7d6a74ba
-last_modified_at: 2023-11-12
+description: "Generate documentation for a PHP API."
+content_hash: ca2bb73b8f9e9b7be4b9053e41883b1bbe1a65c4
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # doctum
 
-A PHP API documentation generator.
+Generate documentation for a PHP API.
 More information: <https://github.com/code-lts/doctum>.
 
 - Parse a project:

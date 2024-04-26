@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/lsb_release (English)
-description: "Provides certain LSB (Linux Standard Base) and distribution-specific information."
-content_hash: aff3b95e1913f81dc165c9e4f1b50a836507fefb
-last_modified_at: 2023-11-12
+description: "Get LSB (Linux Standard Base) and distribution-specific information."
+content_hash: b7a67fe36a0d05b7a27414de87464b22e851fcca
+last_modified_at: 2024-04-26
 related_topics:
   - title: català version
     url: /ca/linux/lsb_release.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # lsb_release
 
-Provides certain LSB (Linux Standard Base) and distribution-specific information.
+Get LSB (Linux Standard Base) and distribution-specific information.
 More information: <https://manned.org/lsb_release>.
 
 - Print all available information:

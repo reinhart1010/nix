@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mount (English)
-description: "Provides access to an entire filesystem in one directory."
-content_hash: ad12f0e635ff5855c1d1ee236afda4fa09419c06
-last_modified_at: 2023-11-12
+description: "Get access to an entire filesystem in one directory."
+content_hash: 3db4a3e9b8058d235ffc69ea726e35d739b10cc7
+last_modified_at: 2024-04-26
 related_topics:
   - title: Deutsch version
     url: /de/common/mount.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # mount
 
-Provides access to an entire filesystem in one directory.
+Get access to an entire filesystem in one directory.
 More information: <https://manned.org/mount.8>.
 
 - Show all mounted filesystems:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/units (English)
-description: "Provide the conversion between two units of measure."
-content_hash: b6e1e688c38ee61ba21d938a505df22a56e64bf8
-last_modified_at: 2023-11-12
+description: "Convert between two units of measure."
+content_hash: d8e7b777174accbbaa8218c636c7e8486a20b01d
+last_modified_at: 2024-04-26
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/units.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # units
 
-Provide the conversion between two units of measure.
+Convert between two units of measure.
 More information: <https://www.gnu.org/software/units/>.
 
 - Run in interactive mode:

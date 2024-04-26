@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/ned (English)
-description: "Is like `grep` but with powerful replace capabilities."
-content_hash: ac73f29146230c675ad48256b61a56ce74d0063f
-last_modified_at: 2023-11-12
+description: "Like `grep` but with powerful replace capabilities."
+content_hash: 4ac900433a91a33ae43a665c0a04faa342aabcd5
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # ned
 
-Is like `grep` but with powerful replace capabilities.
+Like `grep` but with powerful replace capabilities.
 Unlike `sed`, as it isn't restricted to line oriented editing.
 More information: <https://github.com/nevdelap/ned>.
 

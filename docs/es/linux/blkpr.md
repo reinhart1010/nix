@@ -3,23 +3,14 @@ layout: page
 title: linux/blkpr (español)
 description: "Registra, reserva, libera, anticipa y borra reservas persistentes en un dispositivo de bloque que soporte \"Persistent Reservations\"."
 content_hash: 8391d7886dd936b1f5922e35ff7ce6e8ee78a86e
-last_modified_at: 2024-04-25
+last_modified_at: 2024-04-26
 related_topics:
   - title: English version
     url: /en/linux/blkpr.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/blkpr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># blkpr
+# blkpr
 
 Registra, reserva, libera, anticipa y borra reservas persistentes en un dispositivo de bloque que soporte "Persistent Reservations".
 Más información: <https://manned.org/blkpr>.

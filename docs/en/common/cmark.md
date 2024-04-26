@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/cmark (English)
-description: "Converts CommonMark Markdown formatted text to other formats."
-content_hash: 9e22c86e73e8ecc8e81817d5987d6dece48a36e3
-last_modified_at: 2023-11-12
+description: "Convert CommonMark Markdown formatted text to other formats."
+content_hash: 688aed8adf7f79aedb942d6e161f5dd7f255a9d8
+last_modified_at: 2024-04-26
 related_topics:
   - title: italiano version
     url: /it/common/cmark.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # cmark
 
-Converts CommonMark Markdown formatted text to other formats.
+Convert CommonMark Markdown formatted text to other formats.
 More information: <https://github.com/commonmark/cmark>.
 
 - Render a CommonMark Markdown file to HTML:

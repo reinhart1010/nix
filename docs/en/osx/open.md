@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/open (English)
-description: "Opens files, directories and applications."
-content_hash: d390dc12fb40b1f885b8ce3d88134e0b8e0faddf
-last_modified_at: 2024-01-31
+description: "Open files, directories and applications."
+content_hash: 0b1db2c4915bfc5e38d11fcd76a2b6d61d2df8a2
+last_modified_at: 2024-04-26
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # open
 
-Opens files, directories and applications.
+Open files, directories and applications.
 More information: <https://keith.github.io/xcode-man-pages/open.1.html>.
 
 - Open a file with the associated application:

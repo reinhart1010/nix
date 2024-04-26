@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ical (English)
-description: "A Hirji/Islamic calendar and converter for the terminal."
-content_hash: 1625c1ffac3c79f9aebbf606ef8d4ed87a2b8123
-last_modified_at: 2023-11-12
+description: "View Hirji/Islamic and Gregorian calendars and convert their dates."
+content_hash: 8b71d208c3ae64665369696ec352b59a9d32de39
+last_modified_at: 2024-04-26
 related_topics:
   - title: Deutsch version
     url: /de/common/ical.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # ical
 
-A Hirji/Islamic calendar and converter for the terminal.
+View Hirji/Islamic and Gregorian calendars and convert their dates.
 More information: <https://manned.org/ical>.
 
 - Display the current month's calendar:

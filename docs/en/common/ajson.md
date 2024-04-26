@@ -1,15 +1,21 @@
 ---
 layout: page
 title: common/ajson (English)
-description: "Executes JSONPath on JSON objects."
-content_hash: a4b505842ebff252501ad3c2ff202488a71f7a14
-last_modified_at: 2023-11-12
+description: "Execute JSONPath on JSON objects."
+content_hash: 02fc5e2a4754a059a1136d612fd8146a94558188
+last_modified_at: 2024-04-26
 related_topics:
   - title: español version
     url: /es/common/ajson.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ajson.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ajson.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ajson.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/ajson.html
@@ -21,7 +27,7 @@ tldri18n_status: 2
 ---
 # ajson
 
-Executes JSONPath on JSON objects.
+Execute JSONPath on JSON objects.
 More information: <https://github.com/spyzhov/ajson>.
 
 - Read JSON from a file and execute a specified JSONPath expression:

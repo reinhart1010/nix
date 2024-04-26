@@ -2,8 +2,8 @@
 layout: page
 title: osx/route (English)
 description: "Manually manipulate the routing tables."
-content_hash: 21c1627f0c701bf86ba76db50b68dc8b12341695
-last_modified_at: 2024-01-31
+content_hash: 6982aaf13734df184ccc73d6f45bd37dfc75e09b
+last_modified_at: 2024-04-26
 related_topics:
   - title: español version
     url: /es/osx/route.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # route
 
 Manually manipulate the routing tables.
-Necessitates to be root.
+Requires root privileges.
 More information: <https://keith.github.io/xcode-man-pages/route.8.html>.
 
 - Add a route to a destination through a gateway:

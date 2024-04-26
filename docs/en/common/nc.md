@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/nc (English)
-description: "A versatile utility for redirecting IO into a network stream."
-content_hash: b6ef095130cd32a272c2a7a55bdfd83db7f51f8d
-last_modified_at: 2023-11-15
+description: "Redirect I/O into a network stream through this versatile tool."
+content_hash: 74968189e870a6287e66df664638431e076019a7
+last_modified_at: 2024-04-26
 related_topics:
   - title: español version
     url: /es/common/nc.html
@@ -11,11 +11,14 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/nc.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/nc.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # nc
 
-A versatile utility for redirecting IO into a network stream.
+Redirect I/O into a network stream through this versatile tool.
 More information: <https://manned.org/man/nc.1>.
 
 - Start a listener on the specified TCP port and send a file into it:

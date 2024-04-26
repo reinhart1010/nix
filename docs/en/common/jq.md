@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/jq (English)
-description: "A command-line JSON processor that uses a domain-specific language (DSL)."
-content_hash: 08813faaabf4b812da9fb0cd41778701fce0f673
-last_modified_at: 2024-02-25
+description: "A JSON processor that uses a domain-specific language (DSL)."
+content_hash: 2ad32154a799875a19103753cf8883c39d45a590
+last_modified_at: 2024-04-26
 related_topics:
   - title: Deutsch version
     url: /de/common/jq.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # jq
 
-A command-line JSON processor that uses a domain-specific language (DSL).
+A JSON processor that uses a domain-specific language (DSL).
 More information: <https://jqlang.github.io/jq/manual/>.
 
 - Execute a specific expression (print a colored and formatted JSON output):

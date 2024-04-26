@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/coffee (English)
-description: "Executes CoffeeScript scripts or compiles them into JavaScript."
-content_hash: 26c985922ea95f2dd9c54d2d3243dbb956b128a5
-last_modified_at: 2023-11-12
+description: "Execute CoffeeScript scripts or compiles them into JavaScript."
+content_hash: e9ed6985461dc1ece6542c404585e1da77fa5f7e
+last_modified_at: 2024-04-26
 related_topics:
   - title: italiano version
     url: /it/common/coffee.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # coffee
 
-Executes CoffeeScript scripts or compiles them into JavaScript.
+Execute CoffeeScript scripts or compiles them into JavaScript.
 More information: <https://coffeescript.org#cli>.
 
 - Run a script:

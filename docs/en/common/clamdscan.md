@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/clamdscan (English)
-description: "A command-line virus scanner using the ClamAV Daemon."
-content_hash: 8cac9c03804a6db80373217b7052bad9b443e6da
-last_modified_at: 2024-01-31
+description: "Scan for viruses using the ClamAV Daemon."
+content_hash: ab162de6546b4c3f924a3e689f43fa3a77aea286
+last_modified_at: 2024-04-26
 related_topics:
   - title: Indonesia version
     url: /id/common/clamdscan.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # clamdscan
 
-A command-line virus scanner using the ClamAV Daemon.
+Scan for viruses using the ClamAV Daemon.
 More information: <https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan>.
 
 - Scan a file or directory for vulnerabilities:

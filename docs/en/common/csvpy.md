@@ -1,10 +1,13 @@
 ---
 layout: page
 title: common/csvpy (English)
-description: "Loads a CSV file into a Python shell."
-content_hash: e596108ba47cdb61a5cc5be4ade3f2ea87441a36
-last_modified_at: 2023-11-12
+description: "Load a CSV file into a Python shell."
+content_hash: 8aa0e1f6358bfbe2dcda9ece7881996b8e90bd72
+last_modified_at: 2024-04-26
 related_topics:
+  - title: فارسی version
+    url: /fa/common/csvpy.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/csvpy.html
     icon: bi bi-globe
@@ -15,7 +18,7 @@ tldri18n_status: 2
 ---
 # csvpy
 
-Loads a CSV file into a Python shell.
+Load a CSV file into a Python shell.
 Included in csvkit.
 More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvpy.html>.
 

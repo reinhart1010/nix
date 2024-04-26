@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/csvclean (English)
-description: "Finds and cleans common syntax errors in CSV files."
-content_hash: a6b9004c4062e8ecee5bbd25e4496e7a671b8c6a
-last_modified_at: 2023-11-12
+description: "Find and clean common syntax errors in CSV files."
+content_hash: 89773c169220d026e83ece6dc9884813677d573f
+last_modified_at: 2024-04-26
 related_topics:
   - title: italiano version
     url: /it/common/csvclean.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # csvclean
 
-Finds and cleans common syntax errors in CSV files.
+Find and clean common syntax errors in CSV files.
 Included in csvkit.
 More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvclean.html>.
 

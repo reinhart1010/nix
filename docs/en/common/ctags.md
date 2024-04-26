@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/ctags (English)
-description: "Generates an index (or tag) file of language objects found in source files for many popular programming languages."
-content_hash: ed1f336eef3c5cc1da20593ad038b853ae7fa3f4
-last_modified_at: 2023-11-12
+description: "Generate an index (or tag) file of language objects found in source files for many popular programming languages."
+content_hash: 61efdc7478eeea3f8b15f988c1d16480cf4b7d66
+last_modified_at: 2024-04-26
 tldri18n_status: 2
 ---
 # ctags
 
-Generates an index (or tag) file of language objects found in source files for many popular programming languages.
+Generate an index (or tag) file of language objects found in source files for many popular programming languages.
 More information: <https://ctags.io/>.
 
 - Generate tags for a single file, and output them to a file named "tags" in the current directory, overwriting the file if it exists:

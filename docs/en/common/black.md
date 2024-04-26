@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/black (English)
-description: "A Python auto code formatter."
-content_hash: bc24744b12b6d54aa38b8396530ece4d1b864578
-last_modified_at: 2024-02-19
+description: "Format Python code automatically."
+content_hash: 29ad910d8e338717704830cf6584d9e77ed9c9af
+last_modified_at: 2024-04-26
 related_topics:
   - title: italiano version
     url: /it/common/black.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # black
 
-A Python auto code formatter.
+Format Python code automatically.
 More information: <https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html>.
 
 - Auto-format a file or entire directory:
