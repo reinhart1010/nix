@@ -3,19 +3,10 @@ layout: page
 title: windows/ospp.vbs (English)
 description: "Install, activate, and manage volume licensed versions of Microsoft Office products."
 content_hash: 05ea871b5f11a866356351dfef3afbce43eba4bf
-last_modified_at: 2024-04-26
-tldri18n_status: 0
+last_modified_at: 2024-04-27
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/ospp.vbs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ospp.vbs
+# ospp.vbs
 
 Install, activate, and manage volume licensed versions of Microsoft Office products.
 Note: this command may override, deactivate, and/or remove your current volume of licensed Office product versions, so please proceed cautiously.
