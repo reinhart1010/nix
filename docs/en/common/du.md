@@ -2,8 +2,8 @@
 layout: page
 title: common/du (English)
 description: "Disk usage: estimate and summarize file and directory space usage."
-content_hash: 235af121c546d76a361de570ed9fba3816029416
-last_modified_at: 2023-11-12
+content_hash: d33f8bea17d088b0c33664f5f3612f47a6274ddf
+last_modified_at: 2024-04-28
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -56,3 +56,7 @@ More information: <https://www.gnu.org/software/coreutils/du>.
 - List the human-readable size of all `.jpg` files in subdirectories of the current directory, and show a cumulative total at the end:
 
 `du -ch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*/*.jpg</span>
+
+- List all files and directories (including hidden ones) above a certain [t]hreshold size (useful for investigating what is actually taking up the space):
+
+`du --all --human-readable --threshold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1G|1024M|1048576K</span>` .[^.]* *`
