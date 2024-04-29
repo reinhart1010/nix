@@ -3,7 +3,7 @@ layout: page
 title: common/du (Deutsch)
 description: "Disk usage: Plattenplatzverbrauch von Dateien und Verzeichnissen ermitteln."
 content_hash: dfbd26058ad259248f70f825e33e661751ed77ba
-last_modified_at: 2023-12-28
+last_modified_at: 2024-04-29
 related_topics:
   - title: English version
     url: /en/common/du.html
@@ -26,9 +26,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# du
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># du
 
 Disk usage: Plattenplatzverbrauch von Dateien und Verzeichnissen ermitteln.
 Weitere Informationen: <https://www.gnu.org/software/coreutils/du>.

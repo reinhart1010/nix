@@ -3,7 +3,7 @@ layout: page
 title: common/du (español)
 description: "Uso de disco: estima y resume el uso de espacio en disco de archivos y directorios."
 content_hash: 28c984c5d46d4279ba0aabe8985fcb7be47587a7
-last_modified_at: 2023-11-12
+last_modified_at: 2024-04-29
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -26,9 +26,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# du
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># du
 
 Uso de disco: estima y resume el uso de espacio en disco de archivos y directorios.
 Más información: <https://www.gnu.org/software/coreutils/du>.
