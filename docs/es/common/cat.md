@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (español)
 description: "Imprime y concatena archivos."
-content_hash: e1c64ff3355397590dc0fbe719cf944e326c7e9c
-last_modified_at: 2023-12-29
+content_hash: 2f3879d028c9116160fdbc116f818e4eb667d470
+last_modified_at: 2024-04-29
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -35,6 +35,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -61,16 +64,24 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cat
 
 Imprime y concatena archivos.
-Más información: <https://www.gnu.org/software/coreutils/cat>.
+Más información: <https://manned.org/cat.1posix>.
 
-- Imprime el contenido de un archivo por la salida estándar:
+- Imprime el contenido de un fichero a `stdout`:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Concatena múltiples archivos dentro de un archivo determinado:
+- Concatena varios archivos en un archivo de salida:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo1 archivo2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_final</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_salida</span>
 
-- Añade múltiples archivos dentro de un archivo determinado:
+- Añade el contenido de varios archivos a un archivo de salida:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo1 archivo2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_final</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_salida</span>
+
+- Copia el contenido de un archivo en un archivo de salida sin almacenamiento en el búfer:
+
+`cat -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty12</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty13</span>
+
+- Copia `stdin` en un archivo:
+
+`cat - > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
