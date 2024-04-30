@@ -3,7 +3,7 @@ layout: page
 title: common/cat (español)
 description: "Imprime y concatena archivos."
 content_hash: 2f3879d028c9116160fdbc116f818e4eb667d470
-last_modified_at: 2024-04-29
+last_modified_at: 2024-04-30
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -56,12 +56,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cat
+# cat
 
 Imprime y concatena archivos.
 Más información: <https://manned.org/cat.1posix>.
