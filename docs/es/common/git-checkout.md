@@ -2,8 +2,8 @@
 layout: page
 title: common/git-checkout (español)
 description: "Comprueba una rama o rutas con el árbol de trabajo."
-content_hash: 4199241d6a6b8ecee94701e87d5b02a0909397f0
-last_modified_at: 2024-01-10
+content_hash: 85bf78c249333c1e2c7ebee2e049c99cf05a67e5
+last_modified_at: 2024-05-02
 related_topics:
   - title: English version
     url: /en/common/git-checkout.html
@@ -56,7 +56,7 @@ Más información: <https://git-scm.com/docs/git-checkout>.
 
 `git checkout --track `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
 
-- Descarta todos los cambios sin marcar en el directorio actual (véase `git reset` para más comandos para deshacer):
+- Descarta todos los cambios sin marcar en el directorio actual (vea `git reset` para más comandos para deshacer):
 
 `git checkout .`
 

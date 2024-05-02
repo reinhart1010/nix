@@ -2,8 +2,8 @@
 layout: page
 title: common/git-switch (español)
 description: "Alterna entre ramas Git. Requiere una versión 2.23+ de Git."
-content_hash: f5ee315c66c5e1171a8acef5fc783f82007e3aff
-last_modified_at: 2024-01-10
+content_hash: 8f7b44aa27db8679f645645aa249c7212d07937d
+last_modified_at: 2024-05-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-switch.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # git switch
 
 Alterna entre ramas Git. Requiere una versión 2.23+ de Git.
-Véase también `git checkout`.
+Vea también `git checkout`.
 Más información: <https://git-scm.com/docs/git-switch>.
 
 - Cambia a una rama existente:

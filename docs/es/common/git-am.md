@@ -2,8 +2,8 @@
 layout: page
 title: common/git-am (español)
 description: "Aplica archivos de parche. Útil cuando se reciben commits por correo electrónico."
-content_hash: 13c8605eab4b60110f22fde5a3beca8ab601977c
-last_modified_at: 2023-11-12
+content_hash: d34cf041a477ef9ae67d9be8af7c6acbabe14e08
+last_modified_at: 2024-05-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-am.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-am.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-am.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-am.html
@@ -34,12 +37,16 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># git am
 
 Aplica archivos de parche. Útil cuando se reciben commits por correo electrónico.
-Véase también `git format-patch`, comando que genera archivo de parche.
+Vea también `git format-patch`, comando que genera archivos de parche.
 Más información: <https://git-scm.com/docs/git-am>.
 
 - Aplica un archivo de parche:
 
 `git am `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.patch</span>
+
+- Aplica un archivo de parche remoto:
+
+`curl -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://ejemplo.com/file.patch</span>` | git apply`
 
 - Aborta el proceso de aplicar un archivo de parche:
 

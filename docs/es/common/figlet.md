@@ -2,8 +2,8 @@
 layout: page
 title: common/figlet (español)
 description: "Genera encabezados usando caracteres ASCII desde la entrada del usuario."
-content_hash: 469467b625abe57603243aa28aa43dbb8f180b6d
-last_modified_at: 2024-03-16
+content_hash: e79e5f3ed822e8cbea473993cd9ddabc5c41b316
+last_modified_at: 2024-05-02
 related_topics:
   - title: English version
     url: /en/common/figlet.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # figlet
 
 Genera encabezados usando caracteres ASCII desde la entrada del usuario.
-Véase también `showfigfonts`.
+Vea también `showfigfonts`.
 Más información: <http://www.figlet.org/figlet-man.html>.
 
 - Genera el encabezado directamente introduciendo el texto:

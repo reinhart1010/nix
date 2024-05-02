@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/zsh (español)
-description: "Z SHell, un intérprete para la línea de comandos compatible con Bash."
-content_hash: 47685ab416aae1993e3d9000bd2fc6c793993066
-last_modified_at: 2023-11-12
+description: "Z SHell, un intérprete de línea de comandos compatible con Bash."
+content_hash: df495302a4056f814bf452a7094b8ac5b3f48458
+last_modified_at: 2024-05-02
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -33,11 +33,11 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># zsh
 
-Z SHell, un intérprete para la línea de comandos compatible con Bash.
-Véase también `histexpand` para la expansión del historial.
+Z SHell, un intérprete de línea de comandos compatible con Bash.
+Vea también `histexpand` para la expansión del historial.
 Más información: <https://www.zsh.org>.
 
-- Comienza una sesión interactiva en la shell:
+- Comienza una sesión interactiva en el intérprete de comandos:
 
 `zsh`
 
@@ -49,10 +49,22 @@ Más información: <https://www.zsh.org>.
 
 `zsh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.zsh</span>
 
+- Comprueba si hay errores de sintaxis en un script sin ejecutarlo:
+
+`zsh --no-exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.zsh</span>
+
+- Ejecuta comandos desde `stdin`:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | zsh`
+
 - Ejecuta un script, mostrando cada comando antes de ejecutarlo:
 
 `zsh --xtrace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.zsh</span>
 
-- Comienza una sesión interactiva en la shell en modo detallado, mostrando cada comando antes de ejecutarlo:
+- Comienza una sesión interactiva en el intérprete de comandos en modo detallado, mostrando cada comando antes de ejecutarlo:
 
 `zsh --verbose`
+
+- Ejecuta un comando dentro de `zsh` con patrones glob desactivados:
+
+`noglob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>

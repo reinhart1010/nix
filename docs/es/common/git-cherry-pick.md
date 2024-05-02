@@ -2,8 +2,8 @@
 layout: page
 title: common/git-cherry-pick (español)
 description: "Aplica los cambios introducidos por confirmaciones existentes a la rama actual."
-content_hash: bd422aa71ace34da70ad3daaef7d24e604075cea
-last_modified_at: 2024-01-10
+content_hash: 6cd7de7ec4a546c312fa997f447939c4f592c5c6
+last_modified_at: 2024-05-02
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -38,13 +38,13 @@ Más información: <https://git-scm.com/docs/git-cherry-pick>.
 
 `git cherry-pick `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span>
 
-- Aplica un rango de confirmaciones de la rama actual (véase también `git rebase --onto`):
+- Aplica un rango de confirmaciones de la rama actual (vea también `git rebase --onto`):
 
 `git cherry-pick `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación_inicial</span>`~..`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación_final</span>
 
 - Aplica múltiples confirmaciones no secuenciales a la rama actual:
 
-`git cherry-pick `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación_2</span>
+`git cherry-pick `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación_1 confirmación_2 ...</span>
 
 - Añade los cambios de una confirmación al directorio de trabajo, sin crear una confirmación:
 
