@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/cp (Indonesia)
-description: "Membuat salinan file dan direktori."
-content_hash: 14c45b9763787b57b3db326e53dc263f10a3380e
-last_modified_at: 2023-11-12
+description: "Salin berkas dan direktori."
+content_hash: c5b3dfdfc40518a86ac2964ddcf0d7260d7059db
+last_modified_at: 2024-05-03
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -63,29 +63,37 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># cp
 
-Membuat salinan file dan direktori.
+Salin berkas dan direktori.
 Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/cp>.
 
-- Membuat salinan file ke lokasi lain:
+- Salin berkas ke lokasi lain:
 
-`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_sumber.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_tujuan.ext</span>
+`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_sumber.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_tujuan.ext</span>
 
-- Menyalin file ke direktori lain, dengan nama yang sama:
+- Salin berkas ke direktori lain, dengan nama yang sama:
 
-`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_sumber.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>
+`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_sumber.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>
 
-- Menyalin sebuah direktori secara beserta isinya ke lokasi lain (jika tujuan sudah ada, direktori tersebut disalin ke dalamnya):
+- Salin sebuah direktori secara rekursif beserta isinya ke lokasi lain (jika tujuan sudah ada, direktori tersebut disalin ke dalamnya):
 
 `cp -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>
 
-- Menyalin sebuah direktori secara beserta isinya, dalam mode `verbose` (menampilkan file-file ketika disalin):
+- Salin sebuah direktori secara rekursif beserta isinya, dengan menampilkan berkas-berkas ketika disalin (mode verbose):
 
 `cp -vR `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>
 
-- Menyalin file-file teks ke lokasi lain, dalam mode interaktif (menampilkan pertanyaan sebelum menimpa):
+- Salin lebih dari satu berkas menuju suatu direktori:
+
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/direktori_tujuan</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>
+
+- Salin berkas-berkas teks ke lokasi lain, dalam mode interaktif (menampilkan pertanyaan sebelum menimpa):
 
 `cp -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>
 
-- Melepaskan tautan simbolis sebelum menyalin:
+- Salin tautan simbolis sebelum menyalin:
 
 `cp -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tautan</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>
+
+- Gunakan argumen pertama sebagai direktori tujuan (berguna untuk perintah seperti `xargs ... | cp -t <DIR_TUJUAN>`):
+
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/direktori_tujuan</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...</span>
