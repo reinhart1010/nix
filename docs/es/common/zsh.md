@@ -3,7 +3,7 @@ layout: page
 title: common/zsh (español)
 description: "Z SHell, un intérprete de línea de comandos compatible con Bash."
 content_hash: df495302a4056f814bf452a7094b8ac5b3f48458
-last_modified_at: 2024-05-02
+last_modified_at: 2024-05-03
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/zsh.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zsh
+# zsh
 
 Z SHell, un intérprete de línea de comandos compatible con Bash.
 Vea también `histexpand` para la expansión del historial.

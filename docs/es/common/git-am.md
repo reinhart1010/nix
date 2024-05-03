@@ -3,7 +3,7 @@ layout: page
 title: common/git-am (español)
 description: "Aplica archivos de parche. Útil cuando se reciben commits por correo electrónico."
 content_hash: d34cf041a477ef9ae67d9be8af7c6acbabe14e08
-last_modified_at: 2024-05-02
+last_modified_at: 2024-05-03
 related_topics:
   - title: Deutsch version
     url: /de/common/git-am.html
@@ -29,12 +29,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-am.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git am
+# git am
 
 Aplica archivos de parche. Útil cuando se reciben commits por correo electrónico.
 Vea también `git format-patch`, comando que genera archivos de parche.

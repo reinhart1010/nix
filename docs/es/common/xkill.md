@@ -3,7 +3,7 @@ layout: page
 title: common/xkill (español)
 description: "Cierra de manera forzosa una ventana interactivamente en una sesión gráfica."
 content_hash: 87ba5e0a67ee4e4b8f77d397ab344c737f1338f7
-last_modified_at: 2024-05-02
+last_modified_at: 2024-05-03
 related_topics:
   - title: English version
     url: /en/common/xkill.html
@@ -20,12 +20,9 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/xkill.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xkill
+# xkill
 
 Cierra de manera forzosa una ventana interactivamente en una sesión gráfica.
 Vea también `kill` y `killall`.
