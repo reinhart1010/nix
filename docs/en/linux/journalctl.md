@@ -2,8 +2,8 @@
 layout: page
 title: linux/journalctl (English)
 description: "Query the systemd journal."
-content_hash: 48f7f6ea45366840653ea130e4162620327f3e19
-last_modified_at: 2023-12-29
+content_hash: 9198753cb91e90987483ba9884a4695df9ea9b24
+last_modified_at: 2024-05-03
 related_topics:
   - title: polski version
     url: /pl/linux/journalctl.html
@@ -26,9 +26,9 @@ More information: <https://manned.org/journalctl>.
 
 `journalctl --vacuum-time=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2d</span>
 
-- [f]ollow new messages (like `tail -f` for traditional syslog):
+- Show only the last N li[n]es and [f]ollow new messages (like `tail -f` for traditional syslog):
 
-`journalctl -f`
+`journalctl --lines `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span>` --follow`
 
 - Show all messages by a specific [u]nit:
 
