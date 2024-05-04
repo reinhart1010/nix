@@ -1,9 +1,9 @@
 ---
 layout: page
 title: android/logcat (polski)
-description: "Zrzut dziennika komunikatów systemowych."
-content_hash: 33aa7f4ea4550d34e18924f9e16b33eb35ffa08f
-last_modified_at: 2024-02-22
+description: "Zrzut dziennika komunikatów systemowych, w tym śladów stosu po wystąpieniu błędu i komunikatów informacyjnych rejestrowanych przez aplikacje."
+content_hash: 3cf988fceaf670ef12b12a9da16c9a8160415259
+last_modified_at: 2024-05-04
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -69,7 +69,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># logcat
 
-Zrzut dziennika komunikatów systemowych.
+Zrzut dziennika komunikatów systemowych, w tym śladów stosu po wystąpieniu błędu i komunikatów informacyjnych rejestrowanych przez aplikacje.
 Więcej informacji: <https://developer.android.com/tools/logcat>.
 
 - Wyświetl logi systemowe:
@@ -83,3 +83,11 @@ Więcej informacji: <https://developer.android.com/tools/logcat>.
 - Wyświetl linie pasujące do wyrażenia regularnego:
 
 `logcat --regex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wyrażenie_regularne</span>
+
+- Wyświetl logi dla określonego PID:
+
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+
+- Wyświetl logi dla procesu określonego pakietu:
+
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>`)`
