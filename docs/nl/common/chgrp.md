@@ -2,8 +2,8 @@
 layout: page
 title: common/chgrp (Nederlands)
 description: "Verander beheerdersgroep van bestanden en mappen."
-content_hash: 9141bb4b7e9a4d14bb69c4151f40d43f5a7f5046
-last_modified_at: 2023-11-12
+content_hash: c5914d76a5d54253f98c5200a69ec53501ea00f3
+last_modified_at: 2024-05-04
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
@@ -38,4 +38,4 @@ Meer informatie: <https://www.gnu.org/software/coreutils/chgrp>.
 
 - Verander de beheerdersgroep van een bestand/map naar de permissies van een referentiebestand:
 
-`chgrp --reference=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/referentiebestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>
+`chgrp --reference `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/referentiebestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>

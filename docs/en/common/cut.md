@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (English)
 description: "Cut out fields from `stdin` or files."
-content_hash: 5b706c03dfa39147974d118646932061e46b0abb
-last_modified_at: 2024-04-19
+content_hash: 5368d368cfd7a48fae242d144b72ef53a32ad6f0
+last_modified_at: 2024-05-04
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -39,7 +39,7 @@ More information: <https://www.gnu.org/software/coreutils/cut>.
 
 - Print a field range of each line with a specific delimiter:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | cut --delimiter="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>`" --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | cut --delimiter "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>`" --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
 - Print a character range of each line of the specific file:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (Nederlands)
 description: "Dump een logboek van systeemberichten, inclusief stacktraces wanneer er een fout is opgetreden, en informatieberichten die door applicaties zijn vastgelegd."
-content_hash: d0e4abdeddd442b3c93d00bf158f18a6d725a701
-last_modified_at: 2024-02-22
+content_hash: 61cb2fed9be6794b91c617d96d38cc8be00d1494
+last_modified_at: 2024-05-04
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -83,8 +83,8 @@ Meer informatie: <https://developer.android.com/tools/logcat>.
 
 - Toon logs voor een specifieke PID:
 
-`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - Toon logs voor een proces van een specifiek pakket:
 
-`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span>`)`
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span>`)`

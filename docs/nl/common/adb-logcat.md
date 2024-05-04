@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-logcat (Nederlands)
 description: "Dump een logboek met systeemberichten."
-content_hash: 42045c7e0f85f5b31c528db113202a0a55195433
-last_modified_at: 2024-02-22
+content_hash: 9dfddd0505e1b38dbceb7828ccb4c8e4d0cd78cc
+last_modified_at: 2024-05-04
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
@@ -49,11 +49,11 @@ Meer informatie: <https://developer.android.com/tools/logcat>.
 
 - Geef logboeken weer voor een specifiek proces:
 
-`adb logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`adb logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - Logboeken weergeven voor het proces van een specifiek pakket:
 
-`adb logcat --pid=$(adb shell pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span>`)`
+`adb logcat --pid $(adb shell pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span>`)`
 
 - Kleur de log in (gebruik meestal met filters):
 

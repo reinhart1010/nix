@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (Nederlands)
 description: "Verander gebruiker- en groepsbeheer van bestanden en mappen."
-content_hash: 204a5cdf8801f41f4ee380a18090801ef8ddf072
-last_modified_at: 2024-03-09
+content_hash: 33dc8e92eabf4bf3831a2ce7b180f80e2acc1daf
+last_modified_at: 2024-05-04
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -64,4 +64,4 @@ Meer informatie: <https://www.gnu.org/software/coreutils/chown>.
 
 - Verander de beheerder van een bestand of map naar dezelfde als een referentiebestand:
 
-`chown --reference=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/referentiebestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>
+`chown --reference `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/referentiebestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>
