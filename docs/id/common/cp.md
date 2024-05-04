@@ -3,7 +3,7 @@ layout: page
 title: common/cp (Indonesia)
 description: "Salin berkas dan direktori."
 content_hash: c5b3dfdfc40518a86ac2964ddcf0d7260d7059db
-last_modified_at: 2024-05-03
+last_modified_at: 2024-05-04
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -56,12 +56,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cp.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cp
+# cp
 
 Salin berkas dan direktori.
 Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/cp>.

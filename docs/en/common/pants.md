@@ -3,19 +3,10 @@ layout: page
 title: common/pants (English)
 description: "Fast, scalable, user-friendly, open-source build and developer workflow tool."
 content_hash: 2b7c3efa7843e7ede7ad791108bc03d859d660b7
-last_modified_at: 2024-05-03
-tldri18n_status: 0
+last_modified_at: 2024-05-04
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pants.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pants
+# pants
 
 Fast, scalable, user-friendly, open-source build and developer workflow tool.
 More information: <https://www.pantsbuild.org/2.20/docs/using-pants/command-line-help>.
