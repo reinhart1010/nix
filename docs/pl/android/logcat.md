@@ -3,7 +3,7 @@ layout: page
 title: android/logcat (polski)
 description: "Zrzut dziennika komunikatów systemowych, w tym śladów stosu po wystąpieniu błędu i komunikatów informacyjnych rejestrowanych przez aplikacje."
 content_hash: 3cf988fceaf670ef12b12a9da16c9a8160415259
-last_modified_at: 2024-05-04
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -62,12 +62,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/logcat.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># logcat
+# logcat
 
 Zrzut dziennika komunikatów systemowych, w tym śladów stosu po wystąpieniu błędu i komunikatów informacyjnych rejestrowanych przez aplikacje.
 Więcej informacji: <https://developer.android.com/tools/logcat>.
