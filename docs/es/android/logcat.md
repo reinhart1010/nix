@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (español)
 description: "Vuelca un registro de mensajes del sistema, incluyendo seguimientos de pila cuando ocurren errores, y mensajes informativos enviados por las aplicaciones."
-content_hash: ec8d67fb4547121d885b2b8b351c4df29454a9df
-last_modified_at: 2024-02-22
+content_hash: 15d4a15d908d52923179e00734579214e246e398
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -83,8 +83,8 @@ Más información: <https://developer.android.com/tools/logcat>.
 
 - Muestra registros de un proceso específico:
 
-`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - Muestra registros del proceso de un paquete específico:
 
-`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>`)`
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>`)`

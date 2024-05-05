@@ -2,8 +2,8 @@
 layout: page
 title: common/asciidoctor (русский)
 description: "Преобразователь AsciiDoc файлов в другие форматы для публикации."
-content_hash: 0ba057a72a67944c40af519736b5d32737f3e814
-last_modified_at: 2023-12-29
+content_hash: 29515aec444b6fcb099db40aac94e46b9ab1285f
+last_modified_at: 2024-05-05
 related_topics:
   - title: English version
     url: /en/common/asciidoctor.html
@@ -33,7 +33,7 @@ tldri18n_status: 2
 
 - Преобразовать данный `.adoc` файл в HTML и привязать к таблице стилей CSS:
 
-`asciidoctor -a stylesheet=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/таблицы-стилей.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.adoc</span>
+`asciidoctor -a stylesheet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/таблицы-стилей.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.adoc</span>
 
 - Преобразовать данный `.adoc` файл во встраиваемый HTML, убрав всё кроме самого текста:
 
@@ -41,4 +41,4 @@ tldri18n_status: 2
 
 - Преобразовать данный `.adoc` файл в PDF с помощью библиотеки `asciidoctor-pdf`:
 
-`asciidoctor --backend=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span>` --require=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asciidoctor-pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.adoc</span>
+`asciidoctor --backend `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span>` --require `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asciidoctor-pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.adoc</span>

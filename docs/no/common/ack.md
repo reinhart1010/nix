@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (norsk)
 description: "Et søkeverktøy som grep, optimalisert for utviklere."
-content_hash: ecc6631ee39b4325a737d16bac89820fa355b790
-last_modified_at: 2023-11-12
+content_hash: b75afc915e14ef687a45178f0d40ee7f90f8ae94
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ack.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
@@ -63,11 +66,11 @@ Mer informasjon: <https://beyondgrep.com/documentation>.
 
 - Begrens søket til filer av en bestemt type:
 
-`ack --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">søkemønster</span>`"`
+`ack --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">søkemønster</span>`"`
 
 - Ikke søk i filer av en bestemt type:
 
-`ack --type=no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">søkemønster</span>`"`
+`ack --type no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">søkemønster</span>`"`
 
 - Tell totalt antall treff funnet:
 

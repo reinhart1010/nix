@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (Deutsch)
 description: "Schneide Felder von `stdin` oder einer Datei aus."
-content_hash: 2374ca2dd25247735663b35c60a328454555736c
-last_modified_at: 2024-04-19
+content_hash: 70df3dfe324bb7828f5982f56d3a9914ca8935c5
+last_modified_at: 2024-05-05
 related_topics:
   - title: English version
     url: /en/common/cut.html
@@ -39,7 +39,7 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/cut>.
 
 - Schneide einen bestimmten Bereich von Feldern jeder Zeile mit einem bestimmten Trennzeichen aus:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>` | cut --delimiter="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>`" --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>` | cut --delimiter "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>`" --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
 - Schneide einen bestimmten Bereich von Zeichen jeder Zeile einer bestimmten Datei aus:
 

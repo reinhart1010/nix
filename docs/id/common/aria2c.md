@@ -2,14 +2,17 @@
 layout: page
 title: common/aria2c (Indonesia)
 description: "Utilitas unduhan cepat."
-content_hash: f9581a4c378343b5425f0113fa5bb081a39447de
-last_modified_at: 2023-12-29
+content_hash: 679dd5afeff209e082375773ff1331678795380d
+last_modified_at: 2024-05-05
 related_topics:
   - title: English version
     url: /en/common/aria2c.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/aria2c.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/aria2c.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/aria2c.html
@@ -37,7 +40,7 @@ Informasi lebih lanjut: <https://aria2.github.io>.
 
 - Unduh file yang ditunjuk oleh URI yang ditentukan dengan nama keluaran yang ditentukan:
 
-`aria2c --out=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_file</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
+`aria2c --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_file</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
 
 - Unduh beberapa file (berbeda) secara paralel:
 
@@ -53,7 +56,7 @@ Informasi lebih lanjut: <https://aria2.github.io>.
 
 - Unduh dengan banyak koneksi:
 
-`aria2c --split=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jumlah_koneksi</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
+`aria2c --split `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jumlah_koneksi</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
 
 - Unduhan FTP dengan nama pengguna dan kata sandi:
 

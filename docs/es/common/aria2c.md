@@ -2,11 +2,14 @@
 layout: page
 title: common/aria2c (español)
 description: "Utilidad de descarga rápida."
-content_hash: 9f419a3356c79488664381464b7c69c7108feb26
-last_modified_at: 2023-11-12
+content_hash: 9464cc8ffdd9af34ccb158fdb05526d68e341f9b
+last_modified_at: 2024-05-05
 related_topics:
   - title: English version
     url: /en/common/aria2c.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/aria2c.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/aria2c.html
@@ -37,7 +40,7 @@ Más información: <https://aria2.github.io>.
 
 - Descarga un archivo de una URI con un nombre de salida específico:
 
-`aria2c --out=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
+`aria2c --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
 
 - Descarga varios archivos diferentes en paralelo:
 
@@ -53,7 +56,7 @@ Más información: <https://aria2.github.io>.
 
 - Descarga con varias conexiones:
 
-`aria2c --split=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_de_conexiones</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
+`aria2c --split `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_de_conexiones</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
 
 - Descarga FTP con nombre de usuario y contraseña:
 

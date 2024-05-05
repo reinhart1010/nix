@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (polski)
 description: "Narzędzie wyszukiwania, takie jak grep, zoptymalizowane dla programistów."
-content_hash: 4063005f0575a0ea0042073f0569122c529716c1
-last_modified_at: 2023-11-12
+content_hash: c373a0c1666ebad37aa50ad7ff22e3b7bfed9ef2
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ack.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
@@ -63,11 +66,11 @@ Więcej informacji: <https://beyondgrep.com/documentation>.
 
 - Ogranicz wyszukiwanie do plików wyłącznie określonego typu:
 
-`ack --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wzorzec</span>`"`
+`ack --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wzorzec</span>`"`
 
 - Wyszukaj z pominięciem plików określonego typu:
 
-`ack --type=no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wzorzec</span>`"`
+`ack --type no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wzorzec</span>`"`
 
 - Policz całkowitą liczbę dopasowań:
 

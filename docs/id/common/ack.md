@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (Indonesia)
 description: "Sebuah alat pencari teks seperti `grep` yang dikhususkan bagi para pengembang perangkat lunak."
-content_hash: c379b588f9c582164507c75c3a8b82e0f4815a30
-last_modified_at: 2023-12-16
+content_hash: 0bb9c3d8017df1ba4db9d927cbb2048381d2b4d0
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -66,11 +66,11 @@ Informasi lebih lanjut: <https://beyondgrep.com/documentation>.
 
 - Hanya cari file dengan tipe tertentu (seperti `ruby` untuk mencari file `.rb`,`.erb`, `.rake`, `Rakefile` dan sebagainya):
 
-`ack --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span>`"`
+`ack --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span>`"`
 
 - Jangan cari file dengan tipe tertentu:
 
-`ack --type=no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span>`"`
+`ack --type no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span>`"`
 
 - Hitung total teks/string yang ditemukan:
 

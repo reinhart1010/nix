@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (தமிழ்)
 description: "டெவலப்பர்களுக்காக உகந்ததாக `grep` போன்ற ஒரு தேடல் கருவி."
-content_hash: 9c33bbd00059486e071cb6939f754d0728912711
-last_modified_at: 2023-11-12
+content_hash: 9440ac54baed220f00ea409b46e72340166cd801
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ack.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
@@ -63,11 +66,11 @@ tldri18n_status: 2
 
 - ஒரு குறிப்பிட்ட வகை கோப்புகளுக்கான தேடலை வரம்பிடவும்:
 
-`ack --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span>`"`
+`ack --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span>`"`
 
 - ஒரு குறிப்பிட்ட வகை கோப்புகளில் தேட வேண்டாம்:
 
-`ack --type=no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span>`"`
+`ack --type no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span>`"`
 
 - காணப்பட்ட மொத்த பொருத்தங்களின் எண்ணிக்கையை எண்ணுங்கள்:
 

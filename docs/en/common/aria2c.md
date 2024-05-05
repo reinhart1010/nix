@@ -2,8 +2,8 @@
 layout: page
 title: common/aria2c (English)
 description: "Fast download utility."
-content_hash: b200d9085f35aac09009c51d22dfc5056fd4ee22
-last_modified_at: 2024-04-19
+content_hash: ee693fb7220dc9f6916e9b3f571e0b4316a60490
+last_modified_at: 2024-05-05
 related_topics:
   - title: español version
     url: /es/common/aria2c.html
@@ -48,7 +48,7 @@ More information: <https://aria2.github.io>.
 
 - Download the same file from different mirrors and verify the checksum of the downloaded file:
 
-`aria2c --checksum=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha-256</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url2</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">urlN</span>`"`
+`aria2c --checksum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha-256</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url2</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">urlN</span>`"`
 
 - Download the URIs listed in a file with a specific number of parallel downloads:
 

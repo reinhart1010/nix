@@ -2,8 +2,8 @@
 layout: page
 title: common/aria2c (فارسی)
 description: "ابزاری برای دانلود سریع."
-content_hash: c8ddccafbc80a756777bb220ec7fd23c3c006dca
-last_modified_at: 2024-01-08
+content_hash: dfa3ffcee6671de2823cfd16093a952e1584f6c7
+last_modified_at: 2024-05-05
 related_topics:
   - title: English version
     url: /en/common/aria2c.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 
 - دانلود یک فایل از لینک موردنظر با اسم خروجی دلخواه:
 
-`aria2c --out=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
+`aria2c --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
 
 - دانلود چند فایل مختلف به صورت همزمان:
 
@@ -56,7 +56,7 @@ tldri18n_status: 2
 
 - دانلود با چندین اتصال مختلف:
 
-`aria2c --split=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_connections</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
+`aria2c --split `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_connections</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
 
 - دانلود از FTP با نام کاربری و رمزعبور:
 

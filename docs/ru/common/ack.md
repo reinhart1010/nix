@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (русский)
 description: "Утилита для поиска, подобная grep, оптимизировання для программистов."
-content_hash: 0ceb8dc8819465c760e7db8b4d4d108780b004b5
-last_modified_at: 2023-11-12
+content_hash: 67219fd876278ef6f54b0e7d0ddbe2c5e25a1be3
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ack.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
@@ -63,11 +66,11 @@ tldri18n_status: 2
 
 - Ограничить поиск только файлами определённого типа:
 
-`ack --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_поиска</span>`"`
+`ack --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_поиска</span>`"`
 
 - Не искать в файлах определённого типа:
 
-`ack --type=no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_поиска</span>`"`
+`ack --type no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_поиска</span>`"`
 
 - Подсчитать общее количество найденных совпадений:
 

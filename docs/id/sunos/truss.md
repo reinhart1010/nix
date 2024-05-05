@@ -2,8 +2,8 @@
 layout: page
 title: sunos/truss (Indonesia)
 description: "Alat pemecah masalah untuk menelusuri panggilan sistem."
-content_hash: 7667ad27792484ade6978938a98d5a99aaa05f1d
-last_modified_at: 2024-04-10
+content_hash: 8cba872e9591c40e4d9ea7bb196dde0cbbb8514e
+last_modified_at: 2024-05-05
 related_topics:
   - title: English version
     url: /en/sunos/truss.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # truss
 
 Alat pemecah masalah untuk menelusuri panggilan sistem.
-strace untuk SunOS.
+Perintah setara strace untuk SunOS.
 Informasi lebih lanjut: <https://www.unix.com/man-page/linux/1/truss>.
 
 - Telusuri sebuah program dengan mengeksekusinya dan mengawasi semua proses turunan:

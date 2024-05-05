@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (o‘zbek)
 description: "Arxivlangan Android xatolik xisoboti."
-content_hash: cba51a94a0bb1cc8393ed612b61fa28cc370e75f
-last_modified_at: 2023-11-12
+content_hash: 9664234a1e20e32d910a25124ea426520fd19377
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ Ko'proq malumot: <https://cs.android.com/android/platform/superproject/+/main:fr
 
 `bugreportz -p`
 
-- `bugreportz` ni versiyasini ko'rsatish:
-
-`bugreportz -v`
-
 - Yordam ko'rsatish:
 
 `bugreportz -h`
+
+- Ni versiyasini ko'rsatish `bugreportz`:
+
+`bugreportz -v`

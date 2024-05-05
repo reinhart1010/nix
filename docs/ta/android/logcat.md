@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (தமிழ்)
 description: "கணினி செய்திகளின் பதிவை டம்ப் செய்யவும்."
-content_hash: 2fd14e5a139c57e31ffcba973985f61bf82ae696
-last_modified_at: 2024-02-22
+content_hash: 7033b9712f0f5cdff26b14ee8ac54d536cf0011a
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -83,8 +83,8 @@ tldri18n_status: 2
 
 - ஒரு குறிப்பிட்ட PIDக்கான பதிவுகளை காண்பி:
 
-`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - ஒரு குறிப்பிட்ட தொகுப்பின் செயல்முறைக்கான பதிவுகளை காண்பி:
 
-`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`)`
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`)`

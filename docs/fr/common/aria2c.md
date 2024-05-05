@@ -2,14 +2,17 @@
 layout: page
 title: common/aria2c (français)
 description: "Utilitaire de téléchargement."
-content_hash: 59d1d55f416c245aef45f6a43d0fce36bf204f73
-last_modified_at: 2023-12-20
+content_hash: 7c51fdd8d02bd7e3e50d908d405ec4a6589f6e78
+last_modified_at: 2024-05-05
 related_topics:
   - title: English version
     url: /en/common/aria2c.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/aria2c.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/aria2c.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/aria2c.html
@@ -37,7 +40,7 @@ Plus d'informations : <https://aria2.github.io>.
 
 - Télécharge un fichier via l'url spécifié en choisissant le nom de ce dernier :
 
-`aria2c --out=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_fichier</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
+`aria2c --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_fichier</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
 
 - Télécharge plusieurs fichiers (différents) en parallèle :
 
@@ -53,7 +56,7 @@ Plus d'informations : <https://aria2.github.io>.
 
 - Télécharge avec plusieurs connections :
 
-`aria2c --split=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_connections</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
+`aria2c --split `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_connections</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
 
 - Téléchargement FTP avec nom d'utilisateur et mot de passe :
 

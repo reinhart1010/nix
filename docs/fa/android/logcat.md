@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (فارسی)
 description: "تخلیه یک لاگ از پیاهم های سیستمی، شامل پشته رهگیری زمان وقوع خطا، و اطلاعات پیام های لاگ شده توسط برنامه ها."
-content_hash: b9c7827b6e7a854a13f5d9961715ffe4da4e198d
-last_modified_at: 2024-02-22
+content_hash: 943d267471835d1b6c654cd2ef9ed3f41a3220f9
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -83,8 +83,8 @@ tldri18n_status: 2
 
 - نمایش لاگ های مربوط به یک PID مشخص :
 
-`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - نمایش لاگ های پروسه های مربوط به یک بسته مشخص :
 
-`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`)`
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`)`

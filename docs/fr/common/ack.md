@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (français)
 description: "Un outil de recherche comme grep, optimisé pour les développeurs."
-content_hash: b4218d43e06887ca87542a2a13cebbb4e152c978
-last_modified_at: 2023-11-12
+content_hash: 55aa195f181a26a3c35aa9fdcccceded5d299f1a
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/ack.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
@@ -63,11 +66,11 @@ Plus d'informations : <https://beyondgrep.com/documentation>.
 
 - Limite la recherche aux fichiers d'un certain type :
 
-`ack --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">motif_de_recherche</span>`"`
+`ack --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">motif_de_recherche</span>`"`
 
 - Exlcus un certain type de fichier de la recherche :
 
-`ack --type=no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">motif_de_recherche</span>`"`
+`ack --type no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">motif_de_recherche</span>`"`
 
 - Compte le nombre total de correspondances :
 

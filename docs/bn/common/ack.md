@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (বাংলা)
 description: "একটি গ্রেপের মত খোঁজ টুল, ডেভেলপারদের জন্য অপটিমাইজড করা."
-content_hash: 6a53d74666cf6360c2ae382b1845544635d42fd4
-last_modified_at: 2023-11-12
+content_hash: 7bc17cfd0d4dc5cf8bda88041cc802ec3df9269c
+last_modified_at: 2024-05-05
 related_topics:
   - title: English version
     url: /en/common/ack.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ack.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
@@ -63,11 +66,11 @@ tldri18n_status: 2
 
 - নির্দিষ্ট প্রকারের ফাইলগুলিতে সীমাবদ্ধ খোঁজ করুন:
 
-`ack --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">খোঁজের_প্যাটার্ন</span>`"`
+`ack --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">খোঁজের_প্যাটার্ন</span>`"`
 
 - নির্দিষ্ট প্রকারের ফাইলগুলিতে খোঁজুন না:
 
-`ack --type=no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">খোঁজের_প্যাটার্ন</span>`"`
+`ack --type no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">খোঁজের_প্যাটার্ন</span>`"`
 
 - পাওয়া মিলে সম্পূর্ণ ম্যাচের সম্পূর্ণ সংখ্যা গণনা করুন:
 

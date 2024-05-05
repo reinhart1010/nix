@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (हिन्दी)
 description: "सिस्टम संदेशों का एक लॉग डंप करें, जिसमें त्रुटि होने पर स्टैक ट्रेस और एप्लिकेशन द्वारा लॉग किए गए सूचना संदेश शामिल हों।"
-content_hash: 26a9b5ea6b4a8a9f91873478787ba6ff0f30f489
-last_modified_at: 2024-02-22
+content_hash: 640a316ec46662712dd3adb2529e7760b3dc9e64
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -83,8 +83,8 @@ tldri18n_status: 2
 
 - किसी विशिष्ट पीआईडी के लिए लॉग प्रदर्शित करें:
 
-`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पीआईडी</span>
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पीआईडी</span>
 
 - किसी विशिष्ट पैकेज की प्रक्रिया के लिए लॉग प्रदर्शित करें:
 
-`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span>`)`
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span>`)`

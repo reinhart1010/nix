@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (українська)
 description: "Дамп журналу системних повідомлень, включаючи стек викликів, коли трапилась помилка, і інформаційні повідомлення, залоговані застосунками."
-content_hash: 06e9b56ba323e78ea3261f309db01a345cd67f2b
-last_modified_at: 2024-02-22
+content_hash: 439255e35875d690d5680b7cca12fc30d240c124
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -83,8 +83,8 @@ tldri18n_status: 2
 
 - Вивести логи для специфічного процесу (PID):
 
-`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - Вивести логи для процесу специфічного пакету:
 
-`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пакет</span>`)`
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пакет</span>`)`

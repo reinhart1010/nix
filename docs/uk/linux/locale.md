@@ -2,8 +2,8 @@
 layout: page
 title: linux/locale (українська)
 description: "Отримайте інформацію, що стосується локалізації."
-content_hash: ed0de6923f74db63d93610bec545f9e7704f8a07
-last_modified_at: 2024-04-21
+content_hash: aa6c25f861b4df1e14289843a0e8a2e95f55f1ad
+last_modified_at: 2024-05-05
 related_topics:
   - title: English version
     url: /en/linux/locale.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 
 `locale`
 
-- список всії наявних локалізацій:
+- Список всії наявних локалізацій:
 
 `locale --all-locales`
 

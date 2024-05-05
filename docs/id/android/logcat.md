@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (Indonesia)
 description: "Tampilkan dan simpan log sistem."
-content_hash: 4e2c77ffeab4ece2fb0355cc347016292a11453c
-last_modified_at: 2024-02-22
+content_hash: 0e4d07623a1588b24268a3743065d4ae4bd69375
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -83,8 +83,8 @@ Informasi lebih lanjut: <https://developer.android.com/tools/logcat>.
 
 - Tampilkan log untuk nomor induk (PID) program yang sedang dijalankan:
 
-`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - Tampilkan log untuk (kemasan) aplikasi yang sedang dijalankan:
 
-`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kemasan_aplikasi</span>`)`
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kemasan_aplikasi</span>`)`

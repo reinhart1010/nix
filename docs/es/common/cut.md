@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (español)
 description: "Corta campos de `stdin` o archivos."
-content_hash: d65f70c5e340f1be885f62a86b5498275314e19b
-last_modified_at: 2024-04-19
+content_hash: 2ffc0cf757c8ec8af0b065f81e62a00676762ae7
+last_modified_at: 2024-05-05
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -39,7 +39,7 @@ Más información: <https://www.gnu.org/software/coreutils/cut>.
 
 - Imprime un rango de campos de cada línea con un delimitador específico:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | cut --delimiter="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>`" --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | cut --delimiter "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>`" --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
 - Imprime un rango de caracteres de cada línea de un archivo específico:
 

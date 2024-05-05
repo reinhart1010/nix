@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (한국어)
 description: "오류 발생 시, 스택 추적을 포함한 시스템 메시지 로그와 애플리케이션에서 기록한 정보 메시지를 덤프합니다."
-content_hash: d8deb76dd0d7038521e530aefe5ecc88512e7dfd
-last_modified_at: 2024-02-22
+content_hash: 9403e0f71d51ac9a98ba2ceef7c99921feb06eee
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -83,8 +83,8 @@ tldri18n_status: 2
 
 - 특정 PID에 대한 로그 표시:
 
-`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_id</span>
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_id</span>
 
 - 특정 패키지의 프로세스에 대한 로그 표시:
 
-`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span>`)`
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span>`)`

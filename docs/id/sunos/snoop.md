@@ -2,8 +2,8 @@
 layout: page
 title: sunos/snoop (Indonesia)
 description: "Pengendus paket jaringan."
-content_hash: 13064f35d48ab88edeb092091c25d0e1ce0e2bec
-last_modified_at: 2024-04-10
+content_hash: 08a5b596e667dde781e6a5db8659fddd7c8a1335
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/sunos/snoop.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # snoop
 
 Pengendus paket jaringan.
-tcpdump untuk SunOS.
+Perintah setara tcpdump untuk SunOS.
 Informasi lebih lanjut: <https://www.unix.com/man-page/sunos/1m/snoop>.
 
 - Tangkap paket pada antarmuka jaringan tertentu:

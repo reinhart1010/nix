@@ -2,14 +2,17 @@
 layout: page
 title: common/asciidoctor (français)
 description: "Un processeur qui convertit des fichiers AsciiDoc vers un format publiable."
-content_hash: b16485047335f96837e4371878a2397d2ceac685
-last_modified_at: 2023-11-12
+content_hash: b2a63c2d3e03ee3552ec38230dcf3c179af37411
+last_modified_at: 2024-05-05
 related_topics:
   - title: English version
     url: /en/common/asciidoctor.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/asciidoctor.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/asciidoctor.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/asciidoctor.html
@@ -30,7 +33,7 @@ Plus d'informations : <https://docs.asciidoctor.org>.
 
 - Convertis un fichier `.adoc` vers un fichier HTML et lie une feuille de style CSS :
 
-`asciidoctor -a stylesheet=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/feuille_de_style.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.adoc</span>
+`asciidoctor -a stylesheet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/feuille_de_style.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.adoc</span>
 
 - Convertis un fichier `.adoc` vers un fichier HTML embarqué, en enlevant tout sauf le body :
 
@@ -38,4 +41,4 @@ Plus d'informations : <https://docs.asciidoctor.org>.
 
 - Convertis un fichier `.adoc` vers un PDF en utilisant la librairie `asciidoctor-pdf` :
 
-`asciidoctor --backend=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span>` --require=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asciidoctor-pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.adoc</span>
+`asciidoctor --backend `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span>` --require `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asciidoctor-pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.adoc</span>

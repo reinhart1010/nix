@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (o‘zbek)
 description: "Android tizimi xizmatlari to'g'risida malumot berish."
-content_hash: 489c3061afa8a036f32423143ad76b1fad7a4969
-last_modified_at: 2024-02-22
+content_hash: 178d8b2e2989c4ea14fafcee8e5d3393ce8d0b0d
+last_modified_at: 2024-05-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -78,7 +78,7 @@ Ko'proq malumot: <https://developer.android.com/tools/dumpsys>.
 
 `dumpsys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span>
 
-- `dumpsys` buyrug'idagi barcha xizmatlarni chiqaradi:
+- Buyrug'idagi barcha xizmatlarni chiqaradi `dumpsys`:
 
 `dumpsys -l`
 

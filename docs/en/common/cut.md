@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (English)
 description: "Cut out fields from `stdin` or files."
-content_hash: 5368d368cfd7a48fae242d144b72ef53a32ad6f0
-last_modified_at: 2024-05-04
+content_hash: eed88b0fd417e80d7a9aba643560d03c9604d147
+last_modified_at: 2024-05-05
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -33,14 +33,18 @@ tldri18n_status: 2
 Cut out fields from `stdin` or files.
 More information: <https://www.gnu.org/software/coreutils/cut>.
 
-- Print a specific character/field range of each line:
+- Print a specific [c]haracter/[f]ield range of each line:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | cut --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">characters|fields</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span>
 
-- Print a field range of each line with a specific delimiter:
+- Print a [f]ield range of each line with a specific [d]elimiter:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | cut --delimiter "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>`" --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
-- Print a character range of each line of the specific file:
+- Print a [c]haracter range of each line of the specific file:
 
 `cut --characters `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Print specific [f]ields of `NUL` terminated lines (e.g. as in `find . -print0`) instead of newlines:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | cut --zero-terminated --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
