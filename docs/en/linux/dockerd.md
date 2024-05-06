@@ -2,8 +2,8 @@
 layout: page
 title: linux/dockerd (English)
 description: "A persistent process to start and manage Docker containers."
-content_hash: 993284606bf592bfc2c5147f972c12b5cfeacd34
-last_modified_at: 2024-04-19
+content_hash: d9856ffc8880b12956dc23ca682bef427246de0c
+last_modified_at: 2024-05-06
 related_topics:
   - title: العربية version
     url: /ar/linux/dockerd.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # dockerd
 
 A persistent process to start and manage Docker containers.
-More information: <https://docs.docker.com/engine/reference/commandline/dockerd/>.
+More information: <https://docs.docker.com/reference/cli/dockerd/>.
 
 - Run Docker daemon:
 

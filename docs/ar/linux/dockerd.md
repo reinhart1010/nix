@@ -2,8 +2,8 @@
 layout: page
 title: linux/dockerd (العربية)
 description: "هي عملية مستمرة تعمل في الخلفية تبدأها لتتحكم في حاويات الدوكر."
-content_hash: 02d05ea39792bd326438a5182e1fa199949989cc
-last_modified_at: 2024-04-19
+content_hash: 681929975d94b1eb6a4ead5118a62a4141196081
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/linux/dockerd.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # dockerd
 
 هي عملية مستمرة تعمل في الخلفية تبدأها لتتحكم في حاويات الدوكر.
-لمزيد من التفاصيل: <https://docs.docker.com/engine/reference/commandline/dockerd/>.
+لمزيد من التفاصيل: <https://docs.docker.com/reference/cli/dockerd/>.
 
 - قم بتشغيل دوكر في الخلفية:
 
