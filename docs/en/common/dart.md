@@ -2,8 +2,8 @@
 layout: page
 title: common/dart (English)
 description: "Manage Dart projects."
-content_hash: a83e09d5d391549d9ecddfc37c461d1a10c947dd
-last_modified_at: 2024-02-15
+content_hash: 038d010437df8366f0b7319d98424520202ac64b
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/dart.html
@@ -44,3 +44,7 @@ More information: <https://dart.dev/tools/dart-tool>.
 - Compile a Dart file to a native binary:
 
 `dart compile exe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.dart</span>
+
+- Apply automated fixes to the current project:
+
+`dart fix --apply`
