@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (italiano)
 description: "Converti e copia un file."
-content_hash: 39e8c0f1fe31284285c5da5a84015f4e5980e8bc
-last_modified_at: 2024-03-04
+content_hash: c0ce3673687d965cdebebcac0e2dbf9e11023aa1
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # dd
 
 Converti e copia un file.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/dd>.
+Maggiori informazioni: <https://manned.org/man/dd.1p>.
 
 - Crea un disco USB avviabile da un file ISO e mostra il progresso:
 

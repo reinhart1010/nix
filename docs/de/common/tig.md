@@ -2,8 +2,8 @@
 layout: page
 title: common/tig (Deutsch)
 description: "Eine interaktive Kommandozeilenoberfläche für Git."
-content_hash: e5afb72e0c62a60b0dfbf81bcc5d294ec6b120a3
-last_modified_at: 2024-04-04
+content_hash: eb6efa974d54fb14f44e32a023d9b1aa276014fd
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/common/tig.html
@@ -19,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># tig
 
 Eine interaktive Kommandozeilenoberfläche für Git.
-Weitere Informationen: <https://github.com/jonas/tig>.
+Weitere Informationen: <https://jonas.github.io/tig/doc/manual.html>.
 
 - Zeige die Commits des aktuellen Branches:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (中文)
 description: "打印和拼接文件的工具。"
-content_hash: f7b7d3d7acf3aa9f9514ca73c7e7c0ff6e00c6a0
-last_modified_at: 2023-12-29
+content_hash: 00efd1f29f2e6895085b72135ace38e36d4b80a8
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cat
 
 打印和拼接文件的工具。
-更多信息：<https://www.gnu.org/software/coreutils/cat>.
+更多信息：<https://manned.org/cat.1posix>.
 
 - 以标准输出，打印文件内容：
 

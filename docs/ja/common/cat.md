@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (日本語)
 description: "ファイルの出力と連結を行います。"
-content_hash: 0cea9d31e74785689242bac768e798c42bf1c748
-last_modified_at: 2023-11-12
+content_hash: fa9b8f499645aa1b8887d3b661b0d79f4d5739f2
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -35,6 +35,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -58,7 +61,7 @@ tldri18n_status: 2
 # cat
 
 ファイルの出力と連結を行います。
-詳しくはこちら: <https://www.gnu.org/software/coreutils/cat>
+詳しくはこちら: <https://manned.org/cat.1posix>
 
 - ファイルの内容を標準出力に出力する:
 

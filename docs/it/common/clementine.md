@@ -2,8 +2,8 @@
 layout: page
 title: common/clementine (italiano)
 description: "Un moderno player e gestore di librerie musicali."
-content_hash: 9050a0bd5f166fcb270a988cc1c490a79f11bbd1
-last_modified_at: 2023-11-12
+content_hash: 110afdf417e73a2e21a2ac5e8e1ccbbac060bfed
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/common/clementine.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # clementine
 
 Un moderno player e gestore di librerie musicali.
-Maggiori informazioni: <https://www.clementine-player.org>.
+Maggiori informazioni: <https://github.com/clementine-player/Clementine/wiki>.
 
 - Apri Clementine:
 

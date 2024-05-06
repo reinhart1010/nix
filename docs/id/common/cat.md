@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (Indonesia)
 description: "Cetak dan menggabungkan berkas."
-content_hash: 18dd84525cc14992f5980b362a44559a1c0aa1c5
-last_modified_at: 2024-01-31
+content_hash: 1af7ddae29d8d50aea896096a12439ddd236a71f
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -61,7 +61,7 @@ tldri18n_status: 2
 # cat
 
 Cetak dan menggabungkan berkas.
-Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/cat>.
+Informasi lebih lanjut: <https://manned.org/cat.1posix>.
 
 - Cetak konten berkas menuju `stdout`:
 

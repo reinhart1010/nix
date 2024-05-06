@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (português (Brasil))
 description: "Converte e copia um arquivo."
-content_hash: c72989e341b46a88a51239f6beeb7e4d4ac35e76
-last_modified_at: 2024-02-13
+content_hash: 1a1fa5cf7456b3f5a8e3697dd4738f0ff3f24f44
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -25,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># dd
 
 Converte e copia um arquivo.
-Mais informações: <https://www.gnu.org/software/coreutils/dd>.
+Mais informações: <https://manned.org/man/dd.1p>.
 
 - Cria um USB drive bootável a partir de um arquivo isohybrid (como uma archlinux-xxx.iso) e mostra o progresso:
 

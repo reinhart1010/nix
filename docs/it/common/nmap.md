@@ -2,8 +2,8 @@
 layout: page
 title: common/nmap (italiano)
 description: "Nmap è un tool per port scanning ed esplorazione di rete."
-content_hash: a1e62e8a1a71ded98fef27bf82837ac989cac490
-last_modified_at: 2023-12-30
+content_hash: 523c4514eb5952caf58694e3c934c08b6f7c1336
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -29,7 +29,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Nmap è un tool per port scanning ed esplorazione di rete.
 Alcune funzionalità diventano attive solamente con privilegi d'amministratore.
-Maggiori informazioni: <https://nmap.org>.
+Maggiori informazioni: <https://nmap.org/book/man.html>.
 
 - Controlla se un indirizzo IP è attivo, e indovina il suo sistema operativo:
 

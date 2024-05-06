@@ -2,8 +2,8 @@
 layout: page
 title: common/jq (русский)
 description: "Процессор JSON командной строки, использующий доменный язык."
-content_hash: c8065c6d6b24472f0b6ff96d81b91dfa5a960f0e
-last_modified_at: 2024-03-14
+content_hash: 65d51527be3b47d60a168e9d4a610e4f42d3b927
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/jq.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # jq
 
 Процессор JSON командной строки, использующий доменный язык.
-Больше информации: <https://stedolan.github.io/jq/manual/>.
+Больше информации: <https://jqlang.github.io/jq/manual/>.
 
 - Выполнить указанное выражение (вывести цветной и отформатированный JSON):
 

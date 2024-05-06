@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (Deutsch)
 description: "Verkette und gib einzelne oder mehrere Dateien aus."
-content_hash: 0b156725b1918c6caaed8a94c0485bcd1d8c5e97
-last_modified_at: 2023-12-28
+content_hash: 4491f824ef4122137b9d9239889cd17b60d5d4c3
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/common/cat.html
@@ -35,6 +35,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -58,7 +61,7 @@ tldri18n_status: 2
 # cat
 
 Verkette und gib einzelne oder mehrere Dateien aus.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/cat>.
+Weitere Informationen: <https://manned.org/cat.1posix>.
 
 - Gib den Inhalt einer Datei aus:
 

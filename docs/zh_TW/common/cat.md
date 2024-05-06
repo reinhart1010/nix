@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (中文 (繁體, 台灣))
 description: "連接檔案並印出檔案的內容。"
-content_hash: 6baf96c1f52d1a70811dff40504d7236fc7fd42d
-last_modified_at: 2023-12-29
+content_hash: d552bbca5b7095bfbf079f1709e006c7cfb99512
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cat
 
 連接檔案並印出檔案的內容。
-更多資訊：<https://www.gnu.org/software/coreutils/cat>.
+更多資訊：<https://manned.org/cat.1posix>.
 
 - 將檔案的內容印在標準輸出：
 

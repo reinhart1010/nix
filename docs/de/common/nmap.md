@@ -2,8 +2,8 @@
 layout: page
 title: common/nmap (Deutsch)
 description: "Netzwerk-Erkundungs-Werkzeug und Security / Port Scanner."
-content_hash: 9527a4f9ff3c40334fa6632f2c3cb1399cd9cf81
-last_modified_at: 2024-01-08
+content_hash: d370d6ecacc4d227fcc7a29253240252c95d793e
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/common/nmap.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Netzwerk-Erkundungs-Werkzeug und Security / Port Scanner.
 Manche Funktionen können nur benutzt werden, wenn Nmap mit Root Rechten ausgeführt wird.
-Weitere Informationen: <https://nmap.org>.
+Weitere Informationen: <https://nmap.org/book/man.html>.
 
 - Überprüfe ob eine IP-Adresse online ist und versuche, das Betriebssystem herauszufinden:
 

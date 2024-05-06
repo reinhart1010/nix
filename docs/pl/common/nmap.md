@@ -2,8 +2,8 @@
 layout: page
 title: common/nmap (polski)
 description: "Narzędzie do enumeracji sieci oraz skanowania portów."
-content_hash: 9a0602748ff3ff3678d482fcf0139776b49e2ea3
-last_modified_at: 2024-01-02
+content_hash: de888bb6ac91d23e1d9e6f5849ca6e80219578b1
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Narzędzie do enumeracji sieci oraz skanowania portów.
 Niektóre funkcję są tylko aktywne gdy Nmap uruchamiany jest z przywilejami root'a.
-Więcej informacji: <https://nmap.org>.
+Więcej informacji: <https://nmap.org/book/man.html>.
 
 - Sprawdź czy host odpowiada na skanowanie oraz zgadnij system operacyjny:
 

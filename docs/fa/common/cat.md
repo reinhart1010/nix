@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (فارسی)
 description: "چاپ و ترکیب کردن فایل ها."
-content_hash: a7c23beb4087bb156db3dc75af45fc140f14daa8
-last_modified_at: 2023-12-29
+content_hash: 1467c5dbcdbad33ffd35d3a408ed355e331bd615
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -35,6 +35,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cat
 
 چاپ و ترکیب کردن فایل ها.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/cat>.
+اطلاعات بیشتر: <https://manned.org/cat.1posix>.
 
 - چاپ محتویات فایل بر روی صفحه نمایش:
 

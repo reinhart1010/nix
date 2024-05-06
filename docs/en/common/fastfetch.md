@@ -2,8 +2,8 @@
 layout: page
 title: common/fastfetch (English)
 description: "Display information about your operating system, software and hardware."
-content_hash: 730f8645051f20e864a4833a3e1cb89db61a8dfd
-last_modified_at: 2024-02-09
+content_hash: 3edb7e62494aeffd2b44595ff1c6b998687911ef
+last_modified_at: 2024-05-06
 tldri18n_status: 2
 ---
 # fastfetch
@@ -14,6 +14,10 @@ More information: <https://github.com/LinusDierheimer/fastfetch>.
 - Display system information:
 
 `fastfetch`
+
+- Display system information without a logo and escape sequences:
+
+`fastfetch --pipe`
 
 - Fetch a specific structure:
 

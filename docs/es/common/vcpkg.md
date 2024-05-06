@@ -2,8 +2,8 @@
 layout: page
 title: common/vcpkg (español)
 description: "Gestor de paquetes para librerías C/C++."
-content_hash: 650e1340fcbb2b0cd4a61dd0dc19b0c84990b732
-last_modified_at: 2024-03-04
+content_hash: cb3bc10ef3f2ac34940bef72415756460ab1eaea
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/common/vcpkg.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Gestor de paquetes para librerías C/C++.
 Nota: los paquetes no se instalan en el sistema. Para usarlos, necesitas decirle a tu sistema de compilación (por ejemplo CMake) que use `vcpkg`.
-Más información: <https://learn.microsoft.com/vcpkg/>.
+Más información: <https://learn.microsoft.com/en-us/vcpkg/>.
 
 - Construye y añade el paquete `libcurl` al entorno de `vcpkg`:
 

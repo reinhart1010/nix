@@ -2,8 +2,8 @@
 layout: page
 title: linux/nixos-rebuild (Deutsch)
 description: "Rekonfiguriere eine NixOS-Maschine."
-content_hash: 253a2b535f25582752d8cf5aec2590350b1110f1
-last_modified_at: 2024-04-19
+content_hash: 7c74affc40078a01c93894d8d64aecafa955e96e
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/linux/nixos-rebuild.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # nixos-rebuild
 
 Rekonfiguriere eine NixOS-Maschine.
-Mehr Information: <https://nixos.org/nixos/manual/#sec-changing-config>.
+Weitere Informationen: <https://nixos.org/nixos/manual/#sec-changing-config>.
 
 - Erstelle und wechsle zu einer neuen Konfiguration und nutze diese künftig als Standardkonfiguration:
 

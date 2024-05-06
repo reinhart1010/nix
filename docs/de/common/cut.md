@@ -3,7 +3,7 @@ layout: page
 title: common/cut (Deutsch)
 description: "Schneide Felder von `stdin` oder einer Datei aus."
 content_hash: 70df3dfe324bb7828f5982f56d3a9914ca8935c5
-last_modified_at: 2024-05-05
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/common/cut.html
@@ -26,9 +26,12 @@ related_topics:
   - title: русский version
     url: /ru/common/cut.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cut
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cut
 
 Schneide Felder von `stdin` oder einer Datei aus.
 Weitere Informationen: <https://www.gnu.org/software/coreutils/cut>.

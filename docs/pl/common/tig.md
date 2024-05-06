@@ -2,8 +2,8 @@
 layout: page
 title: common/tig (polski)
 description: "Interfejs tekstowy dla Gita."
-content_hash: 710c6afd2c137fcf17ae1cdf02c804a36f1c56f3
-last_modified_at: 2024-04-04
+content_hash: fc81cee4f61a422a9f491f4fecab09c24ea2ae3c
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/tig.html
@@ -19,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># tig
 
 Interfejs tekstowy dla Gita.
-Więcej informacji: <https://github.com/jonas/tig>.
+Więcej informacji: <https://jonas.github.io/tig/doc/manual.html>.
 
 - Pokaż listę commitów w odwrotnej kolejności chronologicznej, zaczynając od najnowszego:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (नेपाली)
 description: "फाइलहरू देखाउनुहोस् र जोड्नुहोस्।"
-content_hash: 04d6c901b9aab2af04c269148c6313caceaccf12
-last_modified_at: 2023-12-29
+content_hash: 05ebf12dc50a5796506fd416d549bafbbfdeef5f
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -35,6 +35,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cat
 
 फाइलहरू देखाउनुहोस् र जोड्नुहोस्।
-थप जानकारी: <https://www.gnu.org/software/coreutils/cat>।
+थप जानकारी: <https://manned.org/cat.1posix>।
 
 - फाइल भित्रका कुराहरुलाई मानक आउटपुटमा देखाउनुहोस्:
 

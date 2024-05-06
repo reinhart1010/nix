@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (português (Brasil))
 description: "Exibe e concatena o conteúdo de arquivos."
-content_hash: 21eb9509996978a3a6d1b649ad430c396651dcf8
-last_modified_at: 2023-11-12
+content_hash: b00b308c3f671eb09cad46c73cdbac5c4ec9f9c6
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -58,7 +61,7 @@ tldri18n_status: 2
 # cat
 
 Exibe e concatena o conteúdo de arquivos.
-Mais informações: <https://www.gnu.org/software/coreutils/cat>.
+Mais informações: <https://manned.org/cat.1posix>.
 
 - Exibe o conteúdo de um arquivo na `stdout`:
 

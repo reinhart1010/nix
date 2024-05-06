@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (français)
 description: "Affiche et concatène le contenu d'un ou plusieurs fichiers."
-content_hash: e4360c8e05346dcd3eee2c894750291c55c8b731
-last_modified_at: 2023-12-29
+content_hash: dfb7c9da894198a435436ad868220be503c36a71
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -35,6 +35,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cat
 
 Affiche et concatène le contenu d'un ou plusieurs fichiers.
-Plus d'informations : <https://www.gnu.org/software/coreutils/cat>.
+Plus d'informations : <https://manned.org/cat.1posix>.
 
 - Affiche le contenu d'un fichier sur la sortie standard :
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/bootctl (中文)
 description: "控制EFI固件启动设置并管理启动加载器。"
-content_hash: 4edd82b3e504f3c12cf7498e5e0208293c7229bc
-last_modified_at: 2024-03-05
+content_hash: cf7ae307839e89b1cc13d1bb2a75e151d1f1c880
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/linux/bootctl.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # bootctl
 
 控制EFI固件启动设置并管理启动加载器。
-更多信息：<https://manned.org/bootctl>。
+更多信息：<https://manned.org/bootctl>.
 
 - 显示系统固件和启动加载器的信息：
 

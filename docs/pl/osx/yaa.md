@@ -3,7 +3,7 @@ layout: page
 title: osx/yaa (polski)
 description: "Tworzenie archiwów YAA i manipulowanie nimi."
 content_hash: a9eaae5a06bb20191461b206a9a0a842c8d07646
-last_modified_at: 2024-05-05
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/osx/yaa.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/osx/yaa.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/osx/yaa.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># yaa
+# yaa
 
 Tworzenie archiwów YAA i manipulowanie nimi.
 Więcej informacji: <https://keith.github.io/xcode-man-pages/yaa.1.html>.

@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (한국어)
 description: "파일 출력 및 연결."
-content_hash: 1b89789e7d4a4b02ce4f8ac2ac9a759d44d6ae28
-last_modified_at: 2023-12-29
+content_hash: fbe3e29d63a549fcf97e15d6984069d5efcb15cd
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -35,6 +35,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cat
 
 파일 출력 및 연결.
-더 많은 정보: <https://www.gnu.org/software/coreutils/cat>.
+더 많은 정보: <https://manned.org/cat.1posix>.
 
 - 표준출력으로 파일 내용 출력:
 

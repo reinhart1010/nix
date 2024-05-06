@@ -2,8 +2,8 @@
 layout: page
 title: linux/nixos-container (Deutsch)
 description: "Startet NixOS Container basierend auf Linux Containern."
-content_hash: 2079caa3eb940df2cebd49c44c1b097cfca37fb4
-last_modified_at: 2024-04-19
+content_hash: 249dd71b04c3d905a828f0bf37f366eeef52a43f
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/linux/nixos-container.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # nixos-container
 
 Startet NixOS Container basierend auf Linux Containern.
-Mehr Informationen: <https://nixos.org/manual/nixos/stable/#ch-containers>.
+Weitere Informationen: <https://nixos.org/manual/nixos/stable/#ch-containers>.
 
 - Gibt eine Liste der gestarteten Container aus:
 

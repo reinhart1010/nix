@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (فارسی)
 description: "تبدیل و کپی یک فایل."
-content_hash: db938f885e9d356571818481cbe35afafd684a12
-last_modified_at: 2024-03-04
+content_hash: 22a738da423ff86135857ca0905d6683d5e8ff87
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -25,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># dd
 
 تبدیل و کپی یک فایل.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/dd>.
+اطلاعات بیشتر: <https://manned.org/man/dd.1p>.
 
 - یک حافظه قابل حمل با قابلیت بوت شدن میسازد، برای مثال `archlinux-xxx.iso` :
 

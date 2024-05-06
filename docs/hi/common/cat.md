@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (हिन्दी)
 description: "फ़ाइलों को प्रिंट और संक्षिप्त करें।"
-content_hash: ce6e43bad5c32615984427c6c8c7b24f094b80ff
-last_modified_at: 2023-12-29
+content_hash: 8670333bfc00ab2eccf09215f8511f9cf2cc0838
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -35,6 +35,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cat
 
 फ़ाइलों को प्रिंट और संक्षिप्त करें।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/cat>।
+अधिक जानकारी: <https://manned.org/cat.1posix>।
 
 - मानक आउटपुट में फ़ाइल की सामग्री प्रिंट करें:
 

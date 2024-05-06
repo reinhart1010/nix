@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (italiano)
 description: "Stampa e concatena file."
-content_hash: 1431747025ff1533da60544f184fa7e0cdc807e8
-last_modified_at: 2023-11-12
+content_hash: 919f5cb4e8da8148973e9aee0a8aefe5e44a373f
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -35,6 +35,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cat
 
 Stampa e concatena file.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/cat>.
+Maggiori informazioni: <https://manned.org/cat.1posix>.
 
 - Stampa i contenuti di un file su standard output:
 

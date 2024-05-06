@@ -2,8 +2,8 @@
 layout: page
 title: common/jq (Deutsch)
 description: "Ein JSON-Verarbeiter für die Kommandozeile mit einer domänenspezifischen Sprache."
-content_hash: 808d8950717bef856aa67501c00db57351701b67
-last_modified_at: 2023-11-12
+content_hash: e8ad17dca5e9478126e9606ebcb94fe7a0c3cde9
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/common/jq.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # jq
 
 Ein JSON-Verarbeiter für die Kommandozeile mit einer domänenspezifischen Sprache.
-Weitere Informationen: <https://stedolan.github.io/jq/manual/>.
+Weitere Informationen: <https://jqlang.github.io/jq/manual/>.
 
 - Führe den angegebenen Ausdruck aus (gib farbiges und formatiertes JSON aus):
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/deno (français)
 description: "Un environnement d’exécution sécurisé pour JavaScript et TypeScript."
-content_hash: c0f81a69f7ca24ab9c180c6c4f16d1b66e2c787e
-last_modified_at: 2024-03-02
+content_hash: 86f7f5c09c854b3791b04813ef1c4ec8e5b91410
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/deno.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # deno
 
 Un environnement d’exécution sécurisé pour JavaScript et TypeScript.
-Plus d'information : <https://deno.land>.
+Plus d'informations : <https://deno.land>.
 
 - Exécute un fichier JavaScript ou TypeScript :
 

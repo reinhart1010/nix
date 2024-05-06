@@ -2,8 +2,8 @@
 layout: page
 title: linux/nixos-option (Deutsch)
 description: "Prüfe eine NixOS Konfiguration."
-content_hash: f9241e3e11e63cf34089f00e76e629c8bd1009a4
-last_modified_at: 2024-04-19
+content_hash: 90f578aaef320ccf192c05cfd6002b703bc55de3
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/linux/nixos-option.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # nixos-option
 
 Prüfe eine NixOS Konfiguration.
-Mehr Informationen: <https://nixos.org/manual/nixos/stable/index.html#sec-modularity>.
+Weitere Informationen: <https://nixos.org/manual/nixos/stable/index.html#sec-modularity>.
 
 - Liste alle Unterschlüssel eines angegebenen Options-Schlüssels:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/nmap (español)
 description: "Herramienta de exploración de redes y escáner de seguridad/puertos."
-content_hash: 99ec88278fa9b0c1d094bc5c8b19ed06e9ebfd5b
-last_modified_at: 2023-12-28
+content_hash: b6c9ba49fa75c293cbb865a86d70341c129dda7d
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Herramienta de exploración de redes y escáner de seguridad/puertos.
 Algunas funciones sólo se activan cuando Nmap se ejecuta con privilegios de root.
-Más información: <https://nmap.org>.
+Más información: <https://nmap.org/book/man.html>.
 
 - Comprueba si una dirección IP está activa y adivina el sistema operativo del host remoto:
 

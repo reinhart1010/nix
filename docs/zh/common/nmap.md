@@ -2,8 +2,8 @@
 layout: page
 title: common/nmap (中文)
 description: "网络探索工具和安全/端口扫描程序。"
-content_hash: 7452262950039e47eb6e0d29d56fd9b531cd57bd
-last_modified_at: 2024-01-02
+content_hash: 3e2a10adc458b02949b2873370fc05b0b0043fd8
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -29,7 +29,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 网络探索工具和安全/端口扫描程序。
 仅当以特权运行 Nmap 时，某些功能才激活。
-更多信息：<https://nmap.org>.
+更多信息：<https://nmap.org/book/man.html>.
 
 - 检查 IP 地址是否可用，并猜测远程主机的操作系统：
 

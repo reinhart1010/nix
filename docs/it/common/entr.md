@@ -2,8 +2,8 @@
 layout: page
 title: common/entr (italiano)
 description: "Esegui comandi arbitrari al cambiamento di file."
-content_hash: 2133ab9ef8ddf505bee6ba361ee525a9c80edcae
-last_modified_at: 2024-03-02
+content_hash: e210c0b243b7fb26fe1bfd7a5f0f79ab54ee7d53
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/common/entr.html
@@ -19,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># entr
 
 Esegui comandi arbitrari al cambiamento di file.
-Maggiori informazioni: <https://manned.org/entr>.
+Maggiori informazioni: <http://eradman.com/entrproject/>.
 
 - Ricompila con `make` se qualsiasi file in quasiasi sottodirectory cambia:
 

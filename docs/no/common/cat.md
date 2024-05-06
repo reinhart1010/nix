@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (norsk)
 description: "Skriv ut og sammenføy filer."
-content_hash: a595df968e0b98c593a7879741519ae95d01e3c1
-last_modified_at: 2023-12-30
+content_hash: bc82808f0ea1301f4b7148cfd1d6ac404c6bb42a
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cat.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/cat.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cat
 
 Skriv ut og sammenføy filer.
-Mer informasjon: <https://www.gnu.org/software/coreutils/cat>.
+Mer informasjon: <https://manned.org/cat.1posix>.
 
 - Skriv ut innholdet i en fil til standard utgang:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/exa (français)
 description: "Une alternative moderne à `ls` (pour lister le contenu de répertoires)."
-content_hash: 02de303bd393339cf224f2990d4e9a84e2581c5e
-last_modified_at: 2024-03-03
+content_hash: 0abddbb0294fac78fb2d3e1bb13e11d5c9b241c3
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/exa.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # exa
 
 Une alternative moderne à `ls` (pour lister le contenu de répertoires).
-Plus d'information : <https://the.exa.website>.
+Plus d'informations : <https://the.exa.website>.
 
 - Liste les fichiers, un par ligne :
 

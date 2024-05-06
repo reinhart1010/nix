@@ -2,8 +2,8 @@
 layout: page
 title: common/jq (français)
 description: "Un processeur JSON en ligne de commande qui utilise un langage dédié (DSL)."
-content_hash: fc8a2051f92e4ddf30d6f67279f8ef01a7d368f0
-last_modified_at: 2023-11-12
+content_hash: a60cda26bce08a2f2a20d50f43dafadd1cb99230
+last_modified_at: 2024-05-06
 related_topics:
   - title: Deutsch version
     url: /de/common/jq.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # jq
 
 Un processeur JSON en ligne de commande qui utilise un langage dédié (DSL).
-Plus d'informations : <https://stedolan.github.io/jq/manual/>.
+Plus d'informations : <https://jqlang.github.io/jq/manual/>.
 
 - Exécute une expression spécifique (affiche une sortie JSON coloré et formaté) :
 

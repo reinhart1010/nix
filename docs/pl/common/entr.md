@@ -2,8 +2,8 @@
 layout: page
 title: common/entr (polski)
 description: "Uruchom dowolną komendę, gdy zmieni się plik."
-content_hash: a38ef0b28679a0ca1887179abbfdfee2688a5560
-last_modified_at: 2024-03-02
+content_hash: f891441df3df4ba5db2a2ac9373b47c2209af23e
+last_modified_at: 2024-05-06
 related_topics:
   - title: English version
     url: /en/common/entr.html
@@ -19,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># entr
 
 Uruchom dowolną komendę, gdy zmieni się plik.
-Więcej informacji: <https://manned.org/entr>.
+Więcej informacji: <http://eradman.com/entrproject/>.
 
 - Przebuduj projekt używając `make`, jeżeli zmiemi się którykolwiek z plików w podkatalogu:
 
