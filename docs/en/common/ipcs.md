@@ -1,20 +1,40 @@
 ---
 layout: page
 title: common/ipcs (English)
-description: "Display information about resources used in IPC (Inter-process Communication)."
-content_hash: ee1fd9c8ca565865295af8ec7e46af751db7aac7
-last_modified_at: 2023-11-12
+description: "Show information about the usage of XSI IPC facilities: shared memory segments, message queues, and semaphore arrays."
+content_hash: 6de8720caff8c2778d8e7acbf3c76084f197f07d
+last_modified_at: 2024-05-07
 tldri18n_status: 2
 ---
 # ipcs
 
-Display information about resources used in IPC (Inter-process Communication).
-More information: <https://manned.org/ipcs>.
+Show information about the usage of XSI IPC facilities: shared memory segments, message queues, and semaphore arrays.
+More information: <https://manned.org/ipcs.1p>.
 
-- Specific information about the Message Queue which has the ID 32768:
-
-`ipcs -qi 32768`
-
-- General information about all the IPC:
+- Show information about all the IPC:
 
 `ipcs -a`
+
+- Show information about active shared [m]emory segments, message [q]ueues or [s]empahore sets:
+
+`ipcs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|-q|-s</span>
+
+- Show information on maximum allowable size in [b]ytes:
+
+`ipcs -b`
+
+- Show [c]reator’s user name and group name for all IPC facilities:
+
+`ipcs -c`
+
+- Show the [p]ID of the last operators for all IPC facilities:
+
+`ipcs -p`
+
+- Show access [t]imes for all IPC facilities:
+
+`ipcs -t`
+
+- Show [o]utstanding usage for active message queues, and shared memory segments:
+
+`ipcs -o`
