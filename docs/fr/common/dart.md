@@ -3,7 +3,7 @@ layout: page
 title: common/dart (français)
 description: "Ligne de commande pour gérer un projet Dart."
 content_hash: 4b100ce3e81554c4567ba650e0ad0cd712acfff0
-last_modified_at: 2023-12-28
+last_modified_at: 2024-05-07
 related_topics:
   - title: Deutsch version
     url: /de/common/dart.html
@@ -14,9 +14,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dart.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# dart
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dart
 
 Ligne de commande pour gérer un projet Dart.
 Plus d'informations : <https://dart.dev/tools/dart-tool>.

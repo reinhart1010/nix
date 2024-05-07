@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/yaa (polski)
-description: "Tworzenie archiwów YAA i manipulowanie nimi."
-content_hash: a9eaae5a06bb20191461b206a9a0a842c8d07646
-last_modified_at: 2024-05-06
+description: "Twórz i manipuluj archiwami YAA."
+content_hash: a6c3cfa8d51c16ca90556511b0bd96e0616307b1
+last_modified_at: 2024-05-07
 related_topics:
   - title: English version
     url: /en/osx/yaa.html
@@ -15,29 +15,29 @@ tldri18n_status: 2
 ---
 # yaa
 
-Tworzenie archiwów YAA i manipulowanie nimi.
+Twórz i manipuluj archiwami YAA.
 Więcej informacji: <https://keith.github.io/xcode-man-pages/yaa.1.html>.
 
-- Tworzenie archiwum z katalogu:
+- Utwórz archiwum z katalogu:
 
-`yaa archive -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/katalogu</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_wyjscia.yaa</span>
+`yaa archive -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/katalogu</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_wyjścia.yaa</span>
 
-- Tworzenie archiwum z pliku:
+- Utwórz archiwum z pliku:
 
-`yaa archive -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_wyjscia.yaa</span>
+`yaa archive -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_wyjścia.yaa</span>
 
-- Wypakowanie archiwum do obecnego folderu:
+- Wypakuj archiwum do obecnego folderu:
 
-`yaa extract -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_archiwum.yaa</span>
+`yaa extract -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_archiwum.yaa</span>
 
-- Lista zawartości archiwum:
+- Wyświetl zawartość archiwum:
 
-`yaa list -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_archiwum.yaa</span>
+`yaa list -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_archiwum.yaa</span>
 
-- Tworzenie archiwum z określonym algorytmem kompresji:
+- Utwórz archiwum z określonym algorytmem kompresji:
 
-`yaa archive -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algorytm</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/folderu</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_wyjscia.yaa</span>
+`yaa archive -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algorytm</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/folderu</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_wyjścia.yaa</span>
 
 - Utwórz archiwum o rozmiarze bloku 8 MB:
 
-`yaa archive -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8m</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/folderu</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_wyjscia.yaa</span>
+`yaa archive -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8m</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/folderu</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_wyjścia.yaa</span>
