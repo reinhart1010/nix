@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `fossil rm`."
-content_hash: c9129d271061808a37aee6a912065607f574afb2
-last_modified_at: 2023-11-12
+content_hash: 16284729cafbbccc710b20371c523b665b758989
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-delete
+# fossil delete
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `fossil rm`.
 ຂໍ້ມູນເພີ່ມເຕີມ: <https://fossil-scm.org/home/help/delete>.

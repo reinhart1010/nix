@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (Türkçe)
 description: "Bu komut `tlmgr platform` için bir takma addır."
-content_hash: 402439d009739009a9d299a10d0affa0a6d1b2d9
-last_modified_at: 2023-11-12
+content_hash: 88a5ad963e7010fc5910cc1781f128f4748c0eaa
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 Bu komut `tlmgr platform` için bir takma addır.
 Daha fazla bilgi için: <https://www.tug.org/texlive/tlmgr.html>.

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (bosanski)
-description: "Ova komanda je pseudonim za `fossil-init`."
-content_hash: 27fb14337733ad6a18e92848bb32bdfbfeb278aa
-last_modified_at: 2023-11-12
+description: "Ova komanda je pseudonim za  `fossil init`."
+content_hash: f96e6de84b433df98f846612d05b082c7d7d677d
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-Ova komanda je pseudonim za `fossil-init`.
+Ova komanda je pseudonim za  `fossil init`.
 Više informacija: <https://fossil-scm.org/home/help/new>.
 
 - Pogledaj dokumentaciju za izvornu komandu:

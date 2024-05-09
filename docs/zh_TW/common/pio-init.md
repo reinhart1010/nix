@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (中文 (繁體, 台灣))
 description: "這是 `pio project` 命令的一個別名。"
-content_hash: b16fbd5fc4c7517203cbd59e637d3bfa2408cb95
-last_modified_at: 2023-11-12
+content_hash: 2558679c6857b74ade121ed1c11dd1c1f198b218
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 這是 `pio project` 命令的一個別名。
 

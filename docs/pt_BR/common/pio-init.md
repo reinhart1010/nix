@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (português (Brasil))
 description: "Este comando é um apelido de `pio project`."
-content_hash: c1e7ed7cd2f00ef8c3fb776bedc0aac68eb97684
-last_modified_at: 2024-02-25
+content_hash: a6e5e9be672a40baa414d51416ee8a18ed2c6ee0
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 Este comando é um apelido de `pio project`.
 

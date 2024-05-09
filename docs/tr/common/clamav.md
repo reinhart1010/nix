@@ -2,8 +2,8 @@
 layout: page
 title: common/clamav (Türkçe)
 description: "Bu komut `clamdscan` için bir takma addır."
-content_hash: 5c498648decdf243db79ba33fb4a286c82eb3d18
-last_modified_at: 2023-11-12
+content_hash: f3970247afe72a2ec1896344b41657780f631643
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -94,7 +94,7 @@ tldri18n_status: 1
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-<hr># clamav
+<hr># ClamAV
 
 Bu komut `clamdscan` için bir takma addır.
 Daha fazla bilgi için: <https://www.clamav.net>.

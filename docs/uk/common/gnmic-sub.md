@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (українська)
 description: "Ця команда є псевдонімом для `gnmic subscribe`."
-content_hash: cb43465ddceec879d4bbcb98f865b811eb7056ee
-last_modified_at: 2023-11-12
+content_hash: af1573a45c27b2a6c8cd105710358ea2877f7498
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 Ця команда є псевдонімом для `gnmic subscribe`.
 Більше інформації: <https://gnmic.kmrd.dev/cmd/subscribe>.

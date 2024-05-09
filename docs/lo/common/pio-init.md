@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `pio project`."
-content_hash: 3d6985212ab54c5d6871650b366be18bff0eaa1e
-last_modified_at: 2023-11-12
+content_hash: 156838c4ecd1aeb322952b3603d4f6b321f97205
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `pio project`.
 

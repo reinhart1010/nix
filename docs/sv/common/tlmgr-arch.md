@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (svenska)
 description: "Det här kommandot är ett alias för `tlmgr platform`."
-content_hash: 664f7a1e455788f6319d9cbafc89bcfc0d698ec4
-last_modified_at: 2023-11-12
+content_hash: d1f9e3dcc1c1f07d827ad0d6e6202ba5bef5a91c
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 Det här kommandot är ett alias för `tlmgr platform`.
 Mer information: <https://www.tug.org/texlive/tlmgr.html>.

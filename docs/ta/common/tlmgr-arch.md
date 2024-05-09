@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (தமிழ்)
 description: "இக்கட்டளை `tlmgr platform` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: e5716c2ae188b4a4c342dec83ff9318f4a90c345
-last_modified_at: 2023-11-12
+content_hash: 0b4b73a45a72d30a54db2000ac5006858c93fea3
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 இக்கட்டளை `tlmgr platform` கட்டளையின் மற்றொருப் பெயர்.
 மேலும் விவரத்திற்கு: <https://www.tug.org/texlive/tlmgr.html>.

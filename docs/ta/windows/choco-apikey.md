@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-apikey (தமிழ்)
 description: "சாக்லேட்டி மூலங்களுக்கான API விசைகளை நிர்வகிக்கவும்."
-content_hash: 5859a34ebc0763e2ccd3a202f21abefbfba992f6
-last_modified_at: 2023-11-12
+content_hash: 2b3a787104caee5c19af5da9c2109e411322648c
+last_modified_at: 2024-05-09
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-apikey.html
@@ -22,7 +22,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# choco-apikey
+# choco apikey
 
 சாக்லேட்டி மூலங்களுக்கான API விசைகளை நிர்வகிக்கவும்.
 மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-apikey>.

@@ -2,8 +2,8 @@
 layout: page
 title: common/clamav (한국어)
 description: "이 명령은 `clamdscan` 의 에일리어스 (별칭) 입니다."
-content_hash: 4bf7c1c4d7fed3d59337c94df8fbe27c3fe8810b
-last_modified_at: 2023-11-12
+content_hash: a67cc9a8a43bf1c50236b2e19ce43e9436e358b3
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -94,7 +94,7 @@ tldri18n_status: 1
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-<hr># clamav
+<hr># ClamAV
 
 이 명령은 `clamdscan` 의 에일리어스 (별칭) 입니다.
 더 많은 정보: <https://www.clamav.net>.

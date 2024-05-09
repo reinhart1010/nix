@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (हिन्दी)
-description: "यह आदेश `gh-codespace` का उपनाम है।"
-content_hash: a0f3bb648941dc78ea3ae78c0a6a9ffe90f74dec
-last_modified_at: 2023-11-12
+description: "यह आदेश  `gh codespace`.का उपनाम है।"
+content_hash: 1f7af1a70a74f3ccc1257b5ab419483fb67b1d22
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gh-cs
+# gh cs
 
-यह आदेश `gh-codespace` का उपनाम है।
+यह आदेश  `gh codespace`.का उपनाम है।
 अधिक जानकारी: <https://cli.github.com/manual/gh_codespace>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:

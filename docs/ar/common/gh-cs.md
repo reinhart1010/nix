@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (العربية)
-description: "هذا الأمر هو اسم مستعار لـ `gh-codespace`."
-content_hash: 335522916c43a4b44050b99df4cb0c737bc52cb7
-last_modified_at: 2023-11-12
+description: "هذا الأمر هو اسم مستعار لـ  `gh codespace`."
+content_hash: 88408f1ce79ff155034ccb9c2d1d7344cf452699
+last_modified_at: 2024-05-09
 related_topics:
   - title: bosanski version
     url: /bs/common/gh-cs.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gh-cs
+# gh cs
 
-هذا الأمر هو اسم مستعار لـ `gh-codespace`.
+هذا الأمر هو اسم مستعار لـ  `gh codespace`.
 لمزيد من التفاصيل: <https://cli.github.com/manual/gh_codespace>.
 
 - إعرض التوثيقات للأمر الأصلي:

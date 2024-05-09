@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (português (Brasil))
 description: "Este comando é um apelido de `tlmgr platform`."
-content_hash: 2998b7134dc51718a07ae5b6200645909f02de51
-last_modified_at: 2024-02-25
+content_hash: 1b147ebbb782bfa4c824e960e25641fb2f04b67b
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 Este comando é um apelido de `tlmgr platform`.
 Mais informações: <https://www.tug.org/texlive/tlmgr.html>.

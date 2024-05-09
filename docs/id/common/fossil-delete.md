@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (Indonesia)
 description: "Perintah ini merupakan alias dari `fossil rm`."
-content_hash: da60855650e76276f80b79582a30e5bac6f19caa
-last_modified_at: 2024-01-03
+content_hash: fd366a32f286463ed9bc3257404e067300072455
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-delete
+# fossil delete
 
 Perintah ini merupakan alias dari `fossil rm`.
 Informasi lebih lanjut: <https://fossil-scm.org/home/help/delete>.

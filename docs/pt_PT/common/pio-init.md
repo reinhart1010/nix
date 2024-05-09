@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (português (Portugal))
 description: "Este comando é um alias de `pio project`."
-content_hash: d9e87f7620c316157797cddde5381971a78e6496
-last_modified_at: 2023-12-28
+content_hash: 1f73cd69f4b3507fde8d94786d1b96945bd79f2e
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 Este comando é um alias de `pio project`.
 

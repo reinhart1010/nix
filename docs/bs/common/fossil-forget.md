@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (bosanski)
 description: "Ova komanda je pseudonim za `fossil rm`."
-content_hash: 96e6e32eb4941d42f184e8b7e5ecf3180dffd578
-last_modified_at: 2023-11-12
+content_hash: 8f96b705722428bbc4ec7fdaa8dc82e111772032
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 Ova komanda je pseudonim za `fossil rm`.
 Više informacija: <https://fossil-scm.org/home/help/forget>.

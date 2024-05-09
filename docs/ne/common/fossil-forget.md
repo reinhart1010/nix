@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (नेपाली)
 description: "यो आदेश `fossil rm` को उपनाम हो |"
-content_hash: 88d6bf2fe91b10ca81c133051d37c2549cd4e4be
-last_modified_at: 2023-11-12
+content_hash: 1d2de128b49775e2de414a23d88e712076cf7154
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 यो आदेश `fossil rm` को उपनाम हो |
 थप जानकारी: <https://fossil-scm.org/home/help/forget>।

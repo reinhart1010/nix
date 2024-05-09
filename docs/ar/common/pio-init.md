@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `pio project`."
-content_hash: b1aea1f0ee23cb17f202507921f7bcc0fd1fa844
-last_modified_at: 2023-11-12
+content_hash: c5e1abe2752880ad36b4cac10db28c3ecb637f58
+last_modified_at: 2024-05-09
 related_topics:
   - title: bosanski version
     url: /bs/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 هذا الأمر هو اسم مستعار لـ `pio project`.
 

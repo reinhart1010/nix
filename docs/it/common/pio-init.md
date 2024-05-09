@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (italiano)
 description: "Questo comando è un alias per `pio project`."
-content_hash: 612c5454b8a13f7aaa4a86368c24772a3662397b
-last_modified_at: 2023-11-12
+content_hash: ef9ea892be7c2f5bce5838f7b3d4c9677ca63958
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 Questo comando è un alias per `pio project`.
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (Nederlands)
 description: "Dit commando is een alias van `gnmic subscribe`."
-content_hash: 0652da1285b9fa3e8e91ebc9f62933aa7eee5045
-last_modified_at: 2023-11-12
+content_hash: 161d6d58d43870410eca9689532ac48595092bec
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 Dit commando is een alias van `gnmic subscribe`.
 Meer informatie: <https://gnmic.kmrd.dev/cmd/subscribe>.

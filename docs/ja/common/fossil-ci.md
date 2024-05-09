@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (日本語)
-description: "このコマンドは `fossil-commit` のエイリアスです。"
-content_hash: 90aa64a51291e8172cc152eb0c9ad7d5cfb916a3
-last_modified_at: 2023-11-12
+description: "このコマンドは  `fossil commit`.のエイリアスです。"
+content_hash: 84f2e105002ccd60eac460a350aa3a0473c021c2
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-ci
+# fossil ci
 
-このコマンドは `fossil-commit` のエイリアスです。
+このコマンドは  `fossil commit`.のエイリアスです。
 詳しくはこちら: <https://fossil-scm.org/home/help/commit>
 
 - オリジナルのコマンドのドキュメントを表示する:

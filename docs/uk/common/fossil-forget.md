@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (українська)
 description: "Ця команда є псевдонімом для `fossil rm`."
-content_hash: 29712bd7fbeeda409a04a912ff6fb2add1081e3c
-last_modified_at: 2023-11-12
+content_hash: 03f9a6b9d57724bd632197bdfeade8e4cb27674d
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 Ця команда є псевдонімом для `fossil rm`.
 Більше інформації: <https://fossil-scm.org/home/help/forget>.

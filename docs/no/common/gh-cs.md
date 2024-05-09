@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (norsk)
-description: "Denne kommandoen er et alias for `gh-codespace`."
-content_hash: 5b1ed1da8ade102f2382aaeeaab9f8b249d59248
-last_modified_at: 2023-11-12
+description: "Denne kommandoen er et alias for  `gh codespace`."
+content_hash: d10e0d89141868ca46bd4fbf3def28fb4078bc28
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gh-cs
+# gh cs
 
-Denne kommandoen er et alias for `gh-codespace`.
+Denne kommandoen er et alias for  `gh codespace`.
 Mer informasjon: <https://cli.github.com/manual/gh_codespace>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:

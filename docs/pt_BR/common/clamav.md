@@ -2,8 +2,8 @@
 layout: page
 title: common/clamav (português (Brasil))
 description: "Programa antivírus de código aberto."
-content_hash: c8a1f24efb438bf2a2af556333ee81781d908d8f
-last_modified_at: 2023-12-28
+content_hash: a82b69119cf81af7c0431aa7cd3e8743d0329988
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# clamav
+# ClamAV
 
 Programa antivírus de código aberto.
 O ClamAV não é um comando, mas um conjunto de comandos.

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (हिन्दी)
-description: "यह आदेश `fossil-init` का उपनाम है।"
-content_hash: 495c4ae761d328ef02242d2c90f393519d0c4f6e
-last_modified_at: 2023-11-12
+description: "यह आदेश  `fossil init`.का उपनाम है।"
+content_hash: 3c2199ceb63cc3bde9dd7a6325082a3d788c31a6
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-यह आदेश `fossil-init` का उपनाम है।
+यह आदेश  `fossil init`.का उपनाम है।
 अधिक जानकारी: <https://fossil-scm.org/home/help/new>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:

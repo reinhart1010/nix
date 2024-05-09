@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `fossil rm`."
-content_hash: 7f4a324250e4ab5db0c61d5fcb9c03438d11c11d
-last_modified_at: 2023-11-12
+content_hash: cf48b505f808c1c5b76dacdc5a66c4f07bcde570
+last_modified_at: 2024-05-09
 related_topics:
   - title: bosanski version
     url: /bs/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 هذا الأمر هو اسم مستعار لـ `fossil rm`.
 لمزيد من التفاصيل: <https://fossil-scm.org/home/help/forget>.

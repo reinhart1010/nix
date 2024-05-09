@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (Nederlands)
 description: "Dit commando is een alias van `fossil rm`."
-content_hash: 28cdd7ce4d3ed0e2fdf01cb4452bd1d0bb6a39f0
-last_modified_at: 2023-11-12
+content_hash: 415e28b0f6999341fc249bbea1a41f41021d4373
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 Dit commando is een alias van `fossil rm`.
 Meer informatie: <https://fossil-scm.org/home/help/forget>.

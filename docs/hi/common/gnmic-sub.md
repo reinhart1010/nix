@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (हिन्दी)
 description: "यह आदेश `gnmic subscribe` का उपनाम है।"
-content_hash: 8881fc80081fa354521e4ae5e9d0cb6e9081a4b1
-last_modified_at: 2023-11-12
+content_hash: 009753cd3772af81f2937580f0c534cd52c198ce
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 यह आदेश `gnmic subscribe` का उपनाम है।
 अधिक जानकारी: <https://gnmic.kmrd.dev/cmd/subscribe>।

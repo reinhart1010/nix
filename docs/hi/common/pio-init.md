@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (हिन्दी)
 description: "यह आदेश `pio project` का उपनाम है।"
-content_hash: f52682b452c2d7fe7b37f27a7232def164d843cc
-last_modified_at: 2023-11-12
+content_hash: bf5a5d652e9edc9badc957911fe4e56c446a8c91
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 यह आदेश `pio project` का उपनाम है।
 

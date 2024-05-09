@@ -2,8 +2,8 @@
 layout: page
 title: common/clamav (polski)
 description: "To polecenie jest aliasem `clamdscan`."
-content_hash: d2b9c016d6980a8913dbb0129e866f5cba569a4a
-last_modified_at: 2023-11-12
+content_hash: 71d6219553732d5e77e790d2f2d2b65113e0a49a
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -94,7 +94,7 @@ tldri18n_status: 1
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-<hr># clamav
+<hr># ClamAV
 
 To polecenie jest aliasem `clamdscan`.
 Więcej informacji: <https://www.clamav.net>.

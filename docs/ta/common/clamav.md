@@ -2,8 +2,8 @@
 layout: page
 title: common/clamav (தமிழ்)
 description: "திறந்த மூல வைரஸ் எதிர்ப்பு நிரல்."
-content_hash: c895e9985a4e3c5b3a16958172c939949f155d81
-last_modified_at: 2023-11-13
+content_hash: 683c5003f9e98e529fa1c23dbb4d76081e053b57
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# clamav
+# ClamAV
 
 திறந்த மூல வைரஸ் எதிர்ப்பு நிரல்.
 ClamAV ஒரு கட்டளை அல்ல, ஆனால் கட்டளைகளின் தொகுப்பு.

@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (日本語)
 description: "このコマンドは `gnmic subscribe` のエイリアスです。"
-content_hash: b49beb294f6dc208dcd1ca2675e56e2ae7a5fa73
-last_modified_at: 2023-11-12
+content_hash: aa4d8fe59fa99d6f5361e6f5a50a10490a777451
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 このコマンドは `gnmic subscribe` のエイリアスです。
 詳しくはこちら: <https://gnmic.kmrd.dev/cmd/subscribe>

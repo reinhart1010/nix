@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (தமிழ்)
 description: "இக்கட்டளை `pio project` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: cc1c738dee9b3572eb5d7311acb602884d7ca7b9
-last_modified_at: 2023-11-12
+content_hash: d19cae75bc8f0a840fa21e138d1fa3ab21b82761
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 இக்கட்டளை `pio project` கட்டளையின் மற்றொருப் பெயர்.
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (Indonesia)
-description: "Perintah ini merupakan alias dari `gh-codespace`."
-content_hash: c8adf4bb3c04f33944b950e1e0c2e96dab8b955c
-last_modified_at: 2024-01-03
+description: "Perintah ini merupakan alias dari  `gh codespace`."
+content_hash: 5f7439604d883d24a87245de51f97ae5672f4871
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gh-cs
+# gh cs
 
-Perintah ini merupakan alias dari `gh-codespace`.
+Perintah ini merupakan alias dari  `gh codespace`.
 Informasi lebih lanjut: <https://cli.github.com/manual/gh_codespace>.
 
 - Tampilkan dokumentasi untuk perintah asli:

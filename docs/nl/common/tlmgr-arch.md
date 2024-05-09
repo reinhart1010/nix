@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (Nederlands)
 description: "Dit commando is een alias van `tlmgr platform`."
-content_hash: eb8a00d94d82cdd10069b0fa41309b44a4b7affa
-last_modified_at: 2023-11-12
+content_hash: 127dd997a218ffb7b34495b1865aa6130b5dc68d
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 Dit commando is een alias van `tlmgr platform`.
 Meer informatie: <https://www.tug.org/texlive/tlmgr.html>.

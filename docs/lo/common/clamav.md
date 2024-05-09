@@ -2,8 +2,8 @@
 layout: page
 title: common/clamav (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `clamdscan`."
-content_hash: 0681866349841cecdaaeccc0b5c90a874bf8e224
-last_modified_at: 2023-11-12
+content_hash: d9f0f9479a16e2fb770c1e2ae9fe550a66becfcd
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -94,7 +94,7 @@ tldri18n_status: 1
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-<hr># clamav
+<hr># ClamAV
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `clamdscan`.
 ຂໍ້ມູນເພີ່ມເຕີມ: <https://www.clamav.net>.

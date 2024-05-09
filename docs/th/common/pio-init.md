@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `pio project`"
-content_hash: 8d365b157cd4aa40b4329ce9a7a888e8efc16a69
-last_modified_at: 2023-11-12
+content_hash: babbb9bf847845cfbcb2755f813a6aa13f65fbe6
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `pio project`
 

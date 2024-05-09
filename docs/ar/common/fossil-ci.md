@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (العربية)
-description: "هذا الأمر هو اسم مستعار لـ `fossil-commit`."
-content_hash: ecbc979184a468560a5c5ef60378393bd6fd72ca
-last_modified_at: 2023-11-12
+description: "هذا الأمر هو اسم مستعار لـ  `fossil commit`."
+content_hash: 369f03447017932274e89076671ba4271f494c34
+last_modified_at: 2024-05-09
 related_topics:
   - title: bosanski version
     url: /bs/common/fossil-ci.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-ci
+# fossil ci
 
-هذا الأمر هو اسم مستعار لـ `fossil-commit`.
+هذا الأمر هو اسم مستعار لـ  `fossil commit`.
 لمزيد من التفاصيل: <https://fossil-scm.org/home/help/commit>.
 
 - إعرض التوثيقات للأمر الأصلي:

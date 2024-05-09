@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (한국어)
 description: "이 명령은 `pio project` 의 에일리어스 (별칭) 입니다."
-content_hash: 68e1198fb968a1ae3973343af3ff3c599fe4c7c8
-last_modified_at: 2023-11-12
+content_hash: fea60de1d9c1a8f546eef5637f3e58b25015b70d
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 이 명령은 `pio project` 의 에일리어스 (별칭) 입니다.
 

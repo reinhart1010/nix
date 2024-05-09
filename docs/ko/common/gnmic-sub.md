@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (한국어)
 description: "이 명령은 `gnmic subscribe` 의 에일리어스 (별칭) 입니다."
-content_hash: 35f8da34e8d8b0297638b490c21baf70d8754146
-last_modified_at: 2023-11-12
+content_hash: e1771ab56e9b9f01fe3dcc7bf6e10a9e4232d366
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 이 명령은 `gnmic subscribe` 의 에일리어스 (별칭) 입니다.
 더 많은 정보: <https://gnmic.kmrd.dev/cmd/subscribe>.

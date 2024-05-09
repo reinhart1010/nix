@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (മലയാളം)
 description: "ഈ കമാൻഡ് `fossil rm` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 4210d09da4e8c6d03285609b7089b565ff8559e1
-last_modified_at: 2023-11-12
+content_hash: 668f116ef054ed8fc8c1fe955e31aa2e4f43d970
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 ഈ കമാൻഡ് `fossil rm` എന്നത്തിന്റെ അപരനാമമാണ്.
 കൂടുതൽ വിവരങ്ങൾ: <https://fossil-scm.org/home/help/forget>.

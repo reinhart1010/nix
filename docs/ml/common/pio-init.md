@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (മലയാളം)
 description: "ഈ കമാൻഡ് `pio project` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: a8eaec44f4a6e9ca59489a4e853d33545563c7cc
-last_modified_at: 2023-11-12
+content_hash: d221bfc7da43223b456ad517e12cae21496cdb9f
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 ഈ കമാൻഡ് `pio project` എന്നത്തിന്റെ അപരനാമമാണ്.
 

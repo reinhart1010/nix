@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (Türkçe)
-description: "Bu komut `fossil-init` için bir takma addır."
-content_hash: 2b02d670e553e65e824addf2ffb8133ff79810ce
-last_modified_at: 2023-11-12
+description: "Bu komut  `fossil init`.için bir takma addır."
+content_hash: 1baba43294808778101bbaa8258103673265fe6e
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-Bu komut `fossil-init` için bir takma addır.
+Bu komut  `fossil init`.için bir takma addır.
 Daha fazla bilgi için: <https://fossil-scm.org/home/help/new>.
 
 - Asıl komutun belgelerini görüntüleyin:

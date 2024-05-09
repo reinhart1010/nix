@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (português (Portugal))
-description: "Este comando é um alias de `fossil-commit`."
-content_hash: 719d088cc0f6099602c239c4ff00f0ce6ba9314a
-last_modified_at: 2023-12-28
+description: "Este comando é um alias de  `fossil commit`."
+content_hash: 7af5c4d9b6a111b724263482ce84657be99d3ded
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-ci
+# fossil ci
 
-Este comando é um alias de `fossil-commit`.
+Este comando é um alias de  `fossil commit`.
 Mais informações: <https://fossil-scm.org/home/help/commit>.
 
 - Exibe documentação do comando original:

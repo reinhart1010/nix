@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (русский)
-description: "Эта команда — псевдоним для `fossil-commit`."
-content_hash: 6ffc130ff39e3ab598cbe58911c5aa1609e72cab
-last_modified_at: 2023-11-12
+description: "Эта команда — псевдоним для  `fossil commit`."
+content_hash: 108919331d8fe50652b31ca11651e9f35a797eba
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-ci
+# fossil ci
 
-Эта команда — псевдоним для `fossil-commit`.
+Эта команда — псевдоним для  `fossil commit`.
 Больше информации: <https://fossil-scm.org/home/help/commit>.
 
 - Смотри документацию для оригинальной команды:

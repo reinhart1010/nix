@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (українська)
 description: "Ця команда є псевдонімом для `pio project`."
-content_hash: a9ebf2acae5b2dc8bde2dfc81606bf0a6573c1ba
-last_modified_at: 2023-11-12
+content_hash: 45390e65dec09ba21a7dc16ee774cf34c4333e11
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 Ця команда є псевдонімом для `pio project`.
 

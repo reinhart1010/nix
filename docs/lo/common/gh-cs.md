@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (ລາວ)
-description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `gh-codespace`."
-content_hash: b0f2f75d1a862b269c96b9eac6fd5b17a1151ebc
-last_modified_at: 2023-11-12
+description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ  `gh codespace`."
+content_hash: 5f2ce1435d757e1a4ed179319c78ee8298b43e6d
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gh-cs
+# gh cs
 
-ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `gh-codespace`.
+ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ  `gh codespace`.
 ຂໍ້ມູນເພີ່ມເຕີມ: <https://cli.github.com/manual/gh_codespace>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:

@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `fossil rm`."
-content_hash: 124481ca8598d10e75c446bf0be1abe78f34edd2
-last_modified_at: 2023-11-12
+content_hash: 6b9caa573cf795506d6d46aa4e5e7719822a368a
+last_modified_at: 2024-05-09
 related_topics:
   - title: bosanski version
     url: /bs/common/fossil-delete.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-delete
+# fossil delete
 
 هذا الأمر هو اسم مستعار لـ `fossil rm`.
 لمزيد من التفاصيل: <https://fossil-scm.org/home/help/delete>.

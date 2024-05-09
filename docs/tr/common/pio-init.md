@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (Türkçe)
 description: "Bu komut `pio project` için bir takma addır."
-content_hash: 6ca04a2d755c5ad60f96578decb7f9155a9fe821
-last_modified_at: 2023-11-12
+content_hash: 6d85f1cd113641d955b6f5bf97ac4e499da225b7
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 Bu komut `pio project` için bir takma addır.
 

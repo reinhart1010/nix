@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (bosanski)
 description: "Ova komanda je pseudonim za `gnmic subscribe`."
-content_hash: de9cef3863e5534d40149a854f68d8b585d8fbd7
-last_modified_at: 2023-11-12
+content_hash: dbfaf689f86e3c485a13453467415584cf21ea50
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 Ova komanda je pseudonim za `gnmic subscribe`.
 Više informacija: <https://gnmic.kmrd.dev/cmd/subscribe>.

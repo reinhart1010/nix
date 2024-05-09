@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (español)
 description: "Este comando es un alias de `tlmgr platform`."
-content_hash: 619e18b7f925bf1e2572eec8b4f11f05e9e49535
-last_modified_at: 2024-01-07
+content_hash: ef970924379b59c489aa11cb697e40b3e15eba10
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 Este comando es un alias de `tlmgr platform`.
 Más información: <https://www.tug.org/texlive/tlmgr.html>.

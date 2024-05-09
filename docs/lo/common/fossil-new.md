@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (ລາວ)
-description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `fossil-init`."
-content_hash: 5df5d49a4c45c87781128f0a7addbb55a735a63f
-last_modified_at: 2023-11-12
+description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ  `fossil init`."
+content_hash: ebd251cf121cf5c85f1de15e8e7ff5933e33eea9
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `fossil-init`.
+ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ  `fossil init`.
 ຂໍ້ມູນເພີ່ມເຕີມ: <https://fossil-scm.org/home/help/new>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:

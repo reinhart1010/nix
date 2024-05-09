@@ -2,8 +2,8 @@
 layout: page
 title: common/podman (தமிழ்)
 description: "காய்கள், கொள்கலன்கள் மற்றும் படங்களுக்கான எளிய மேலாண்மை கருவி."
-content_hash: 3333e5c3e656d664024d2cea1f4266f032c80d37
-last_modified_at: 2023-11-14
+content_hash: 8e48299c37b1a8764e31c8fc5acfc74f68b23f83
+last_modified_at: 2024-05-09
 related_topics:
   - title: English version
     url: /en/common/podman.html
@@ -13,7 +13,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# Podman
+# podman
 
 காய்கள், கொள்கலன்கள் மற்றும் படங்களுக்கான எளிய மேலாண்மை கருவி.
 போட்மேன் ஒரு Docker-CLI ஒப்பிடக்கூடிய கட்டளை வரியை வழங்குகிறது. எளிமையாகச் சொன்னால்: `alias docker=podman`.

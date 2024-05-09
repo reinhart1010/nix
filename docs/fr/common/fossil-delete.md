@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (français)
 description: "Cette commande est un alias de `fossil rm`."
-content_hash: ae047151211d0af2d6d3ea5bc1fb11f9a51cc2b4
-last_modified_at: 2023-11-12
+content_hash: 7da4fbddaef58179103a10586b139fe62d2883d7
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-delete
+# fossil delete
 
 Cette commande est un alias de `fossil rm`.
 Plus d'informations : <https://fossil-scm.org/home/help/delete>.

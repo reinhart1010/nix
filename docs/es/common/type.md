@@ -2,8 +2,8 @@
 layout: page
 title: common/type (español)
 description: "Muestra el tipo de comando que ejecutará el intérprete de comandos."
-content_hash: a5f91b44eb7df3ecbaf2c407330ec3a73cc5e01d
-last_modified_at: 2024-05-06
+content_hash: 859d5774a447511e6330c3ce583c8140302b08df
+last_modified_at: 2024-05-09
 related_topics:
   - title: English version
     url: /en/common/type.html
@@ -13,7 +13,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# Type
+# type
 
 Muestra el tipo de comando que ejecutará el intérprete de comandos.
 Nota: todos los ejemplos no son compatibles con POSIX.

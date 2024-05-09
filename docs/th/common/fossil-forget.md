@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil rm`"
-content_hash: daef3a042db2a902e154019db3e708eb5393173d
-last_modified_at: 2023-11-12
+content_hash: 1e589a13fae0bcde0371b564230e56f7c68b95fd
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil rm`
 ข้อมูลเพิ่มเติม: <https://fossil-scm.org/home/help/forget>

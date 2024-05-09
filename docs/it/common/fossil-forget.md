@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (italiano)
 description: "Questo comando è un alias per `fossil rm`."
-content_hash: 24010a095a7dab5646c6f3e57138a06f75f637b2
-last_modified_at: 2023-11-12
+content_hash: adecbfb8ac7201c67f4470d8686311b7910cdcbb
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 Questo comando è un alias per `fossil rm`.
 Maggiori informazioni: <https://fossil-scm.org/home/help/forget>.

@@ -2,8 +2,8 @@
 layout: page
 title: common/clamav (português (Portugal))
 description: "Este comando é um alias de `clamdscan`."
-content_hash: b05c84719d7bb31a3a29134cd71fb383a9d2baa6
-last_modified_at: 2023-12-28
+content_hash: b97b2a6aed20f5d89d403a6126636e5cb975c44d
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -94,7 +94,7 @@ tldri18n_status: 1
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-<hr># clamav
+<hr># ClamAV
 
 Este comando é um alias de `clamdscan`.
 Mais informações: <https://www.clamav.net>.

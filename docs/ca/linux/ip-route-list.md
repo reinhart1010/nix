@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (català)
-description: "Aquest comandament és un àlies de `ip-route-show`."
-content_hash: 742a534df8ce7324c0911a81af909ffe7d97681c
-last_modified_at: 2023-11-12
+description: "Aquest comandament és un àlies de  `ip route show`."
+content_hash: 3e917d0b73a615fd0da4334bb439f53216673d0b
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# ip-route-list
+# ip route list
 
-Aquest comandament és un àlies de `ip-route-show`.
+Aquest comandament és un àlies de  `ip route show`.
 
 - Veure documentació pel comandament original:
 

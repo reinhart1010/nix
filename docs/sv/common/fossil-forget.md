@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (svenska)
 description: "Det här kommandot är ett alias för `fossil rm`."
-content_hash: 0e42d847b0a6d201b860d5e5e3fb4e1ffe52dc05
-last_modified_at: 2023-11-12
+content_hash: 1c3175aeeb08ec5958049ab63907da4f5bd8bdb0
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 Det här kommandot är ett alias för `fossil rm`.
 Mer information: <https://fossil-scm.org/home/help/forget>.

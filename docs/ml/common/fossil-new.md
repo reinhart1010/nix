@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (മലയാളം)
-description: "ഈ കമാൻഡ് `fossil-init` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: f2da9f07caa071683c8f37557816b479bc836b71
-last_modified_at: 2023-11-12
+description: "ഈ കമാൻഡ്  `fossil init`.എന്നത്തിന്റെ അപരനാമമാണ്."
+content_hash: 7e4178bca5e716bb15ab171bbf7e8e5ef9dbf310
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-ഈ കമാൻഡ് `fossil-init` എന്നത്തിന്റെ അപരനാമമാണ്.
+ഈ കമാൻഡ്  `fossil init`.എന്നത്തിന്റെ അപരനാമമാണ്.
 കൂടുതൽ വിവരങ്ങൾ: <https://fossil-scm.org/home/help/new>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:

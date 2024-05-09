@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (中文 (繁體, 台灣))
 description: "這是 `fossil rm` 命令的一個別名。"
-content_hash: 38178dc9591614a76cf4c73cbf33b3611419003b
-last_modified_at: 2023-11-12
+content_hash: 66ad4b2865462fd59c9a0cd7d0f580438250c79f
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 這是 `fossil rm` 命令的一個別名。
 更多資訊：<https://fossil-scm.org/home/help/forget>.

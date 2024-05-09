@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (日本語)
 description: "このコマンドは `tlmgr platform` のエイリアスです。"
-content_hash: e561d9912c8ef8ca2d6417ceeba2749fa29b88cb
-last_modified_at: 2023-11-12
+content_hash: 16c0cfa99646fad81fab0cbe19307e95518d6b23
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 このコマンドは `tlmgr platform` のエイリアスです。
 詳しくはこちら: <https://www.tug.org/texlive/tlmgr.html>

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (français)
-description: "Cette commande est un alias de `gh-codespace`."
-content_hash: eb906c4a84ce0995cb2697927e76d19398f30dab
-last_modified_at: 2023-11-12
+description: "Cette commande est un alias de  `gh codespace`."
+content_hash: 1831029c6a194c3b9d71da3c091ab241af2329be
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gh-cs
+# gh cs
 
-Cette commande est un alias de `gh-codespace`.
+Cette commande est un alias de  `gh codespace`.
 Plus d'informations : <https://cli.github.com/manual/gh_codespace>.
 
 - Voir la documentation de la commande originale :

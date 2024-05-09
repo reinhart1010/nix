@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (dansk)
 description: "Denne kommando er et alias af `gnmic subscribe`."
-content_hash: 46f9ef2aa6cfa5a38f70e1e8f51869f736c75bc5
-last_modified_at: 2023-11-12
+content_hash: 60b0382c50165f31d699748574c87a0c849f2aba
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 Denne kommando er et alias af `gnmic subscribe`.
 Mere information: <https://gnmic.kmrd.dev/cmd/subscribe>.

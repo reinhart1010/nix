@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (中文 (繁體, 台灣))
-description: "這是 `gh-codespace` 命令的一個別名。"
-content_hash: c1da6bd00fa61a285e86d15c36a0092f568ea056
-last_modified_at: 2023-11-12
+description: "這是  `gh codespace`.命令的一個別名。"
+content_hash: 1f0a986a9cc07f5be02b5a2236996c34007dceef
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gh-cs
+# gh cs
 
-這是 `gh-codespace` 命令的一個別名。
+這是  `gh codespace`.命令的一個別名。
 更多資訊：<https://cli.github.com/manual/gh_codespace>.
 
 - 原命令的文件在：

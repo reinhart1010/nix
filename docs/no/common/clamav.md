@@ -2,8 +2,8 @@
 layout: page
 title: common/clamav (norsk)
 description: "Denne kommandoen er et alias for `clamdscan`."
-content_hash: f5af17a29faf2f97536a1d181e9eb8d3447f63b1
-last_modified_at: 2023-11-12
+content_hash: d06f36aab4bdb9b86037e28938b3fa7f501f71c6
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -94,7 +94,7 @@ tldri18n_status: 1
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-<hr># clamav
+<hr># ClamAV
 
 Denne kommandoen er et alias for `clamdscan`.
 Mer informasjon: <https://www.clamav.net>.

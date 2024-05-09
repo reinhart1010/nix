@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (українська)
-description: "Ця команда є псевдонімом для `gh-codespace`."
-content_hash: 27bb46992657e9f6fb0e60a7789b0448f890882c
-last_modified_at: 2023-11-12
+description: "Ця команда є псевдонімом для  `gh codespace`."
+content_hash: 97a8f714a62328fe92995b83626ef3def349623f
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gh-cs
+# gh cs
 
-Ця команда є псевдонімом для `gh-codespace`.
+Ця команда є псевдонімом для  `gh codespace`.
 Більше інформації: <https://cli.github.com/manual/gh_codespace>.
 
 - Дивись документацію для оригінальної команди:

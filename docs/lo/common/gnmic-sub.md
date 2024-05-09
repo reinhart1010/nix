@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `gnmic subscribe`."
-content_hash: 3d10e9838ea6ba9d6b0e95fd0eb109b89b668cb9
-last_modified_at: 2023-11-12
+content_hash: d302c335043c4202d20598f1ce5cc79dfad368d8
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `gnmic subscribe`.
 ຂໍ້ມູນເພີ່ມເຕີມ: <https://gnmic.kmrd.dev/cmd/subscribe>.

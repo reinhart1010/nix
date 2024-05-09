@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (italiano)
 description: "Questo comando è un alias per `gnmic subscribe`."
-content_hash: 64ded756e223029eff267b065ce3d007763132ba
-last_modified_at: 2023-11-12
+content_hash: 20967aab64ef13fb1cd313890f5d23cb1f2d5e20
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 Questo comando è un alias per `gnmic subscribe`.
 Maggiori informazioni: <https://gnmic.kmrd.dev/cmd/subscribe>.

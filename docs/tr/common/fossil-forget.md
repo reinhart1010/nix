@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (Türkçe)
 description: "Bu komut `fossil rm` için bir takma addır."
-content_hash: 9dd24fff04d0c09f9795a03edf5dde7ef03d567d
-last_modified_at: 2023-11-12
+content_hash: a9f6f3f221fc174180d5571cba559f3d83dcf82e
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 Bu komut `fossil rm` için bir takma addır.
 Daha fazla bilgi için: <https://fossil-scm.org/home/help/forget>.

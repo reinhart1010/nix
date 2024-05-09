@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (한국어)
-description: "이 명령은 `fossil-init` 의 에일리어스 (별칭) 입니다."
-content_hash: 63e5a2d03181546e157467826504b3655938bb55
-last_modified_at: 2023-11-12
+description: "이 명령은  `fossil init`.의 에일리어스 (별칭) 입니다."
+content_hash: 6c4bda81d7209a5ab72ce11663edd5fb599b04f4
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-이 명령은 `fossil-init` 의 에일리어스 (별칭) 입니다.
+이 명령은  `fossil init`.의 에일리어스 (별칭) 입니다.
 더 많은 정보: <https://fossil-scm.org/home/help/new>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:

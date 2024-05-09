@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (Deutsch)
 description: "Dieser Befehl ist ein Alias von `pio project`."
-content_hash: 548431b85522b110562c9198855e8e78edb38a14
-last_modified_at: 2023-11-12
+content_hash: fb271b1962348c32f801b1b5fd7d0184f44df72f
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 Dieser Befehl ist ein Alias von `pio project`.
 

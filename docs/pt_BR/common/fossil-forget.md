@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (português (Brasil))
 description: "Este comando é um apelido de `fossil rm`."
-content_hash: 9b8e6e099aa9d1bffb41ad78f4ed18310bb03bc5
-last_modified_at: 2024-02-25
+content_hash: a757081b53497e9955aa57e7e1ac4c58c29ab721
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 Este comando é um apelido de `fossil rm`.
 Mais informações: <https://fossil-scm.org/home/help/forget>.

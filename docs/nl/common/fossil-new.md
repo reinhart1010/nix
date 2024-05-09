@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (Nederlands)
-description: "Dit commando is een alias van `fossil-init`."
-content_hash: d3bb399ac320b796f40c42701b28582790a94a43
-last_modified_at: 2023-11-12
+description: "Dit commando is een alias van  `fossil init`."
+content_hash: 42df7c3270eae80bf69c7597e80a98d26acad8d9
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-Dit commando is een alias van `fossil-init`.
+Dit commando is een alias van  `fossil init`.
 Meer informatie: <https://fossil-scm.org/home/help/new>.
 
 - Bekijk de documentatie van het originele commando:

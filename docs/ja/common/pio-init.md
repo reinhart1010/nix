@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (日本語)
 description: "このコマンドは `pio project` のエイリアスです。"
-content_hash: 1c9dd42ad3f9a9fcdde49ede48f684073fd2f4de
-last_modified_at: 2023-11-12
+content_hash: b56f441dc3274abe82f1e6e6466cb76083bf2ad8
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 このコマンドは `pio project` のエイリアスです。
 

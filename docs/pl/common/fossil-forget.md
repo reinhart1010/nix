@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (polski)
 description: "To polecenie jest aliasem `fossil rm`."
-content_hash: a7729e6554e1a98c12f28931f1e9ae2994d746da
-last_modified_at: 2023-11-12
+content_hash: b80132cf110eea2d8b1615d633ad54b436b1300d
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 To polecenie jest aliasem `fossil rm`.
 Więcej informacji: <https://fossil-scm.org/home/help/forget>.

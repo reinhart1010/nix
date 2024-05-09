@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (català)
 description: "Aquest comandament és un àlies de `pio project`."
-content_hash: ddb57067f57e8bbf14c411ef5f5556ad52731d94
-last_modified_at: 2023-11-12
+content_hash: a54334e5f5b6d2eede6c2b758e8fd93e15cdd454
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 Aquest comandament és un àlies de `pio project`.
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (polski)
 description: "To polecenie jest aliasem `fossil rm`."
-content_hash: 13fa3fd8821e988295d6473ed656d5d9567bc786
-last_modified_at: 2023-11-12
+content_hash: bd1d997eb86d11217354726cc08e9ae03fb5198e
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-delete
+# fossil delete
 
 To polecenie jest aliasem `fossil rm`.
 Więcej informacji: <https://fossil-scm.org/home/help/delete>.

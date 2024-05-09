@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (português (Brasil))
-description: "Este comando é um apelido de `ip-route-show`."
-content_hash: 010306197955616a021f9dda4178024b4604206b
-last_modified_at: 2024-02-25
+description: "Este comando é um apelido de  `ip route show`."
+content_hash: e396bf498155edf1ee7007d453f7b3c6f4d562e5
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# ip-route-list
+# ip route list
 
-Este comando é um apelido de `ip-route-show`.
+Este comando é um apelido de  `ip route show`.
 
 - Exibe documentação sobre o comando original:
 

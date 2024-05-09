@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (Indonesia)
 description: "Perintah ini merupakan alias dari `pio project`."
-content_hash: eb1e575973fad991c2280a8610affb48e78f96ec
-last_modified_at: 2024-01-03
+content_hash: 6463f14723eb611996df8f36bb296841bab88c84
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 Perintah ini merupakan alias dari `pio project`.
 

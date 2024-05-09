@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (polski)
 description: "To polecenie jest aliasem `tlmgr platform`."
-content_hash: a8fa493aa4bdeed8901f3dfc1e95cc5a06a1e4f7
-last_modified_at: 2023-11-12
+content_hash: 112f0fa1123184f1fb8ecba59d866b5f20198e3b
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 To polecenie jest aliasem `tlmgr platform`.
 Więcej informacji: <https://www.tug.org/texlive/tlmgr.html>.

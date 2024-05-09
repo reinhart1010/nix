@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (中文)
 description: "这是 `fossil rm` 命令的一个别名。"
-content_hash: 861d615823da10dc0709ef3f249bbf164908d6fd
-last_modified_at: 2023-11-12
+content_hash: 370e21315740fc7e35209956b2a8b0e5bb9016f2
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-delete
+# fossil delete
 
 这是 `fossil rm` 命令的一个别名。
 更多信息：<https://fossil-scm.org/home/help/delete>.

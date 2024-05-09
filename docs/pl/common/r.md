@@ -2,8 +2,8 @@
 layout: page
 title: common/r (polski)
 description: "Interpreter języka R."
-content_hash: df96a071824d8853e5612cf21b630ef8e5311129
-last_modified_at: 2023-11-12
+content_hash: 65ca94be7cfef2ac61ac0ad485fe16c14a56af83
+last_modified_at: 2024-05-09
 related_topics:
   - title: English version
     url: /en/common/r.html
@@ -16,7 +16,7 @@ tldri18n_status: 1
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-<hr># r
+<hr># R
 
 Interpreter języka R.
 Więcej informacji: <https://www.r-project.org>.

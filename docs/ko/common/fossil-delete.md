@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (한국어)
 description: "이 명령은 `fossil rm` 의 에일리어스 (별칭) 입니다."
-content_hash: 2a22b26c9712a4f5bc8c81d867715a2f9e03a3d0
-last_modified_at: 2023-11-12
+content_hash: 738b68112e978fe781ff827349debe16765f529f
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-delete
+# fossil delete
 
 이 명령은 `fossil rm` 의 에일리어스 (별칭) 입니다.
 더 많은 정보: <https://fossil-scm.org/home/help/delete>.

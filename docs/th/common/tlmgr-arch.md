@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tlmgr platform`"
-content_hash: b78647b9e5df909ca8d8b4d921a11548e9c5c5dd
-last_modified_at: 2023-11-12
+content_hash: 9b3f22e5641a9a847caeb358e686eff40c7c4a02
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tlmgr platform`
 ข้อมูลเพิ่มเติม: <https://www.tug.org/texlive/tlmgr.html>

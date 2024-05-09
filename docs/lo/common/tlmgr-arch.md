@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `tlmgr platform`."
-content_hash: def435bff88bd8b165b50a9dec93f7a0e8c47eeb
-last_modified_at: 2023-11-12
+content_hash: 8750259a18e2dc5862c1bb011f944da7c22cc278
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `tlmgr platform`.
 ຂໍ້ມູນເພີ່ມເຕີມ: <https://www.tug.org/texlive/tlmgr.html>.

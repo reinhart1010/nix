@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (polski)
 description: "To polecenie jest aliasem `pio project`."
-content_hash: d41c0abb4ee74455f8e679185494496f3be53838
-last_modified_at: 2023-11-12
+content_hash: eca5c37dde711bc68c142618613de9fcb10cb20c
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 To polecenie jest aliasem `pio project`.
 

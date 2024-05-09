@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (norsk)
-description: "Denne kommandoen er et alias for `ip-route-show`."
-content_hash: 78ac4963230f12662ae0851a117516111c43bcfc
-last_modified_at: 2023-11-12
+description: "Denne kommandoen er et alias for  `ip route show`."
+content_hash: b039df125f3727be8f7dee4bb5e4f6e74ff7a95e
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# ip-route-list
+# ip route list
 
-Denne kommandoen er et alias for `ip-route-show`.
+Denne kommandoen er et alias for  `ip route show`.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (português (Brasil))
 description: "Este comando é um apelido de `gnmic subscribe`."
-content_hash: fef1ce319dc472041d6ef21f447b99927ce3689f
-last_modified_at: 2024-02-25
+content_hash: 2f461f3798c8715352c7d6b030df95cc88a85d49
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 Este comando é um apelido de `gnmic subscribe`.
 Mais informações: <https://gnmic.kmrd.dev/cmd/subscribe>.

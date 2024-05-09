@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (العربية)
-description: "هذا الأمر هو اسم مستعار لـ `fossil-init`."
-content_hash: dd005ea1962660b4550a10ada8b06e6cdb7a4090
-last_modified_at: 2023-11-12
+description: "هذا الأمر هو اسم مستعار لـ  `fossil init`."
+content_hash: a11a0e6322847b926718dfe975af43a358920f56
+last_modified_at: 2024-05-09
 related_topics:
   - title: bosanski version
     url: /bs/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-هذا الأمر هو اسم مستعار لـ `fossil-init`.
+هذا الأمر هو اسم مستعار لـ  `fossil init`.
 لمزيد من التفاصيل: <https://fossil-scm.org/home/help/new>.
 
 - إعرض التوثيقات للأمر الأصلي:

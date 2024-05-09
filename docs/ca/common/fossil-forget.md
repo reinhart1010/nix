@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (català)
 description: "Aquest comandament és un àlies de `fossil rm`."
-content_hash: 1fa638a7e162eba86c9fc578ec59dc518f7f69d1
-last_modified_at: 2023-11-12
+content_hash: f1fc0d23e36966a303b5eda738afab8c4f3075d2
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 Aquest comandament és un àlies de `fossil rm`.
 Més informació: <https://fossil-scm.org/home/help/forget>.

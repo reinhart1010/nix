@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `fossil rm`."
-content_hash: bb7457686296fa7ab24118f2b69a93c82247d4e0
-last_modified_at: 2023-11-12
+content_hash: c13f2e43b63432a7c1664dbf862cbe81e25ed4e2
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `fossil rm`.
 ຂໍ້ມູນເພີ່ມເຕີມ: <https://fossil-scm.org/home/help/forget>.

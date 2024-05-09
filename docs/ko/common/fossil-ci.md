@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (한국어)
-description: "이 명령은 `fossil-commit` 의 에일리어스 (별칭) 입니다."
-content_hash: a2d08e6330f9f005b41036f47ea8706065b3be7d
-last_modified_at: 2023-11-12
+description: "이 명령은  `fossil commit`.의 에일리어스 (별칭) 입니다."
+content_hash: 354e1fa10fd97232676bd2e1895ea3cc918e5ea4
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-ci
+# fossil ci
 
-이 명령은 `fossil-commit` 의 에일리어스 (별칭) 입니다.
+이 명령은  `fossil commit`.의 에일리어스 (별칭) 입니다.
 더 많은 정보: <https://fossil-scm.org/home/help/commit>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:

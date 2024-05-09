@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-logcat (中文)
 description: "转储系统消息日志。"
-content_hash: 838d1d87225de4867151b7f7345510ebc211dfa8
-last_modified_at: 2024-02-22
+content_hash: fcbc0b9d9b826dbfe561321d1c8875c5dfeb4ff9
+last_modified_at: 2024-05-09
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
@@ -22,7 +22,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# adb-logcat
+# adb logcat
 
 转储系统消息日志。
 更多信息：<https://developer.android.com/tools/logcat>.

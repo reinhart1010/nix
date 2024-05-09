@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (Indonesia)
 description: "Perintah ini merupakan alias dari `gnmic subscribe`."
-content_hash: 11f51677c6eb850072d083a520cf909b2846c0fc
-last_modified_at: 2024-01-03
+content_hash: b98a2ac9ad32be78f29b6641b45a9e9086dcfad4
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 Perintah ini merupakan alias dari `gnmic subscribe`.
 Informasi lebih lanjut: <https://gnmic.kmrd.dev/cmd/subscribe>.

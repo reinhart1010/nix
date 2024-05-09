@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (Türkçe)
 description: "Bu komut `gnmic subscribe` için bir takma addır."
-content_hash: 91787488ae101517daa33e5c0c93deb683ad7d4c
-last_modified_at: 2023-11-12
+content_hash: d35154fbcbeb85a64832568233a4567e7f66bfeb
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 Bu komut `gnmic subscribe` için bir takma addır.
 Daha fazla bilgi için: <https://gnmic.kmrd.dev/cmd/subscribe>.

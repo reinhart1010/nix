@@ -2,8 +2,8 @@
 layout: page
 title: common/clamav (മലയാളം)
 description: "ഈ കമാൻഡ് `clamdscan` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: da9b809d4c255eef86d49f878496035122196680
-last_modified_at: 2023-11-12
+content_hash: 76d44dd283577749e301f003af50603b7c62a142
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -94,7 +94,7 @@ tldri18n_status: 1
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-<hr># clamav
+<hr># ClamAV
 
 ഈ കമാൻഡ് `clamdscan` എന്നത്തിന്റെ അപരനാമമാണ്.
 കൂടുതൽ വിവരങ്ങൾ: <https://www.clamav.net>.

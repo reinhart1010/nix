@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil-init`"
-content_hash: 04dab3a94ca920e408b75ef7259552f14f2cf8e1
-last_modified_at: 2023-11-12
+content_hash: e4907093cb87988e5ba00eebbacd77888b5d107a
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil-init`
 ข้อมูลเพิ่มเติม: <https://fossil-scm.org/home/help/new>

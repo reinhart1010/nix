@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (català)
 description: "Aquest comandament és un àlies de `tlmgr platform`."
-content_hash: 6d20572f754e956bfd042a6a1fa14f7badd6995f
-last_modified_at: 2023-11-12
+content_hash: 17a14d9acfdadd2b3eea9c889d1d4e4f17bd3432
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 Aquest comandament és un àlies de `tlmgr platform`.
 Més informació: <https://www.tug.org/texlive/tlmgr.html>.

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (Deutsch)
-description: "Dieser Befehl ist ein Alias von `fossil-init`."
-content_hash: a70095401feb072d85df1f825945ec3b28b98381
-last_modified_at: 2023-11-12
+description: "Dieser Befehl ist ein Alias von  `fossil init`."
+content_hash: e01311402c174d805510ed55e5d9b40393989d96
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-Dieser Befehl ist ein Alias von `fossil-init`.
+Dieser Befehl ist ein Alias von  `fossil init`.
 Weitere Informationen: <https://fossil-scm.org/home/help/new>.
 
 - Zeige die Dokumentation für den originalen Befehl an:

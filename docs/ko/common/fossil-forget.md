@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (한국어)
 description: "이 명령은 `fossil rm` 의 에일리어스 (별칭) 입니다."
-content_hash: 04ce1bfbad0e56140bd8faea64716e58ed6731a1
-last_modified_at: 2023-11-12
+content_hash: 745e98cf62c4237c60d8ad83fe2b25da481e5e99
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-forget
+# fossil forget
 
 이 명령은 `fossil rm` 의 에일리어스 (별칭) 입니다.
 더 많은 정보: <https://fossil-scm.org/home/help/forget>.

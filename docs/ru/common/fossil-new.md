@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (русский)
-description: "Эта команда — псевдоним для `fossil-init`."
-content_hash: fb575471be90380cac1a88163d8a106ce6648d99
-last_modified_at: 2023-11-12
+description: "Эта команда — псевдоним для  `fossil init`."
+content_hash: 8f6f0e18302ff433f402ca36aa03daaf0b75f202
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-Эта команда — псевдоним для `fossil-init`.
+Эта команда — псевдоним для  `fossil init`.
 Больше информации: <https://fossil-scm.org/home/help/new>.
 
 - Смотри документацию для оригинальной команды:

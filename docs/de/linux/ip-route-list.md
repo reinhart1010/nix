@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (Deutsch)
-description: "Dieser Befehl ist ein Alias von `ip-route-show`."
-content_hash: e07c155ee74e68f196ee341a1b2a1370497d6546
-last_modified_at: 2023-11-12
+description: "Dieser Befehl ist ein Alias von  `ip route show`."
+content_hash: 40d1bc7fcab3e278a31f071dc47dcfe49c94bc9c
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# ip-route-list
+# ip route list
 
-Dieser Befehl ist ein Alias von `ip-route-show`.
+Dieser Befehl ist ein Alias von  `ip route show`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

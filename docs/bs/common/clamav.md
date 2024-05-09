@@ -2,8 +2,8 @@
 layout: page
 title: common/clamav (bosanski)
 description: "Ova komanda je pseudonim za `clamdscan`."
-content_hash: 999d97add6b9f9147f97f3bc62ed3f3c089a4600
-last_modified_at: 2023-11-12
+content_hash: c51970f73d6b049734b4fda584bdfbc19851a4b9
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -94,7 +94,7 @@ tldri18n_status: 1
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-<hr># clamav
+<hr># ClamAV
 
 Ova komanda je pseudonim za `clamdscan`.
 Više informacija: <https://www.clamav.net>.

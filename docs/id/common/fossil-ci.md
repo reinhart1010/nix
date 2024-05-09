@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (Indonesia)
-description: "Perintah ini merupakan alias dari `fossil-commit`."
-content_hash: 5d38eb249eff859e183821937605809b950c28c8
-last_modified_at: 2024-01-03
+description: "Perintah ini merupakan alias dari  `fossil commit`."
+content_hash: fa10714e6df2f2ade89749832b5414ebce2069b5
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-ci
+# fossil ci
 
-Perintah ini merupakan alias dari `fossil-commit`.
+Perintah ini merupakan alias dari  `fossil commit`.
 Informasi lebih lanjut: <https://fossil-scm.org/home/help/commit>.
 
 - Tampilkan dokumentasi untuk perintah asli:

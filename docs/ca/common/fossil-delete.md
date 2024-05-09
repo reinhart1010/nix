@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (català)
 description: "Aquest comandament és un àlies de `fossil rm`."
-content_hash: d976439be4e3bb154af4cedf9ababcb15eba98bb
-last_modified_at: 2023-11-12
+content_hash: ae978bfb07e956594cf60ec26197e76d940834a9
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-delete
+# fossil delete
 
 Aquest comandament és un àlies de `fossil rm`.
 Més informació: <https://fossil-scm.org/home/help/delete>.

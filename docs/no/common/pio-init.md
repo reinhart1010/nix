@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (norsk)
 description: "Denne kommandoen er et alias for `pio project`."
-content_hash: 5e11ea2ef91170201674c09fad541d4c15c676a7
-last_modified_at: 2023-11-12
+content_hash: c8b58033d873e80af0b5667c5638cb5389b8286b
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pio-init
+# pio init
 
 Denne kommandoen er et alias for `pio project`.
 

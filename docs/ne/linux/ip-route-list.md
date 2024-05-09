@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (नेपाली)
-description: "यो आदेश `ip-route-show` को उपनाम हो |"
-content_hash: d3d8a336a0ef27236da9705685a705fc5c47b066
-last_modified_at: 2023-11-12
+description: "यो आदेश  `ip route show`.को उपनाम हो |"
+content_hash: 071ca3ce436cdbffc3b864d0271e82d0df29d580
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# ip-route-list
+# ip route list
 
-यो आदेश `ip-route-show` को उपनाम हो |
+यो आदेश  `ip route show`.को उपनाम हो |
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

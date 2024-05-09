@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil rm`"
-content_hash: 134fc93e87f529dac13325e4c0a182ae68ff661c
-last_modified_at: 2023-11-12
+content_hash: d41e44334c71e4c094edf9438759ef9ec54d0e6a
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-delete
+# fossil delete
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil rm`
 ข้อมูลเพิ่มเติม: <https://fossil-scm.org/home/help/delete>

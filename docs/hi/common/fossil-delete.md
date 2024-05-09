@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (हिन्दी)
 description: "यह आदेश `fossil rm` का उपनाम है।"
-content_hash: 9edcd3f9fbd84d5c497156edb7973ebda5cf383e
-last_modified_at: 2023-11-12
+content_hash: 3c5af18223cf41c50a0c1496c4b04921add64127
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-delete
+# fossil delete
 
 यह आदेश `fossil rm` का उपनाम है।
 अधिक जानकारी: <https://fossil-scm.org/home/help/delete>।

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (Türkçe)
-description: "Bu komut `fossil-commit` için bir takma addır."
-content_hash: 35c9639ca7d1b6cdf282ff030835f1c181f61198
-last_modified_at: 2023-11-12
+description: "Bu komut  `fossil commit`.için bir takma addır."
+content_hash: d1e653475401d8b09d97e4ccc30df3b64bf6d9d3
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-ci
+# fossil ci
 
-Bu komut `fossil-commit` için bir takma addır.
+Bu komut  `fossil commit`.için bir takma addır.
 Daha fazla bilgi için: <https://fossil-scm.org/home/help/commit>.
 
 - Asıl komutun belgelerini görüntüleyin:

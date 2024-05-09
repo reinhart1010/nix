@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (한국어)
 description: "이 명령은 `tlmgr platform` 의 에일리어스 (별칭) 입니다."
-content_hash: d477d43c1c702deb280ee79ed5d329b729e379c6
-last_modified_at: 2023-11-12
+content_hash: 233d80f3f10f38b84e48c6f19d9d28da5ee1b3f8
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 이 명령은 `tlmgr platform` 의 에일리어스 (별칭) 입니다.
 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.

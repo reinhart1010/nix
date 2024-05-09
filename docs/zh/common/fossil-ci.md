@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (中文)
-description: "这是 `fossil-commit` 命令的一个别名。"
-content_hash: 4a5605251672cd8a988106b441403ad2a956b60b
-last_modified_at: 2023-11-12
+description: "这是  `fossil commit`.命令的一个别名。"
+content_hash: bd1118b28438a78d39403dfae95da969fc00e31e
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-ci
+# fossil ci
 
-这是 `fossil-commit` 命令的一个别名。
+这是  `fossil commit`.命令的一个别名。
 更多信息：<https://fossil-scm.org/home/help/commit>.
 
 - 原命令的文档在：

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (català)
-description: "Aquest comandament és un àlies de `fossil-init`."
-content_hash: 0b236ac72d476e26387b0c1e33b6cbe83eae88c8
-last_modified_at: 2023-11-12
+description: "Aquest comandament és un àlies de  `fossil init`."
+content_hash: d347317a71ada61dae5a7b26b90efaf865dc593a
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-Aquest comandament és un àlies de `fossil-init`.
+Aquest comandament és un àlies de  `fossil init`.
 Més informació: <https://fossil-scm.org/home/help/new>.
 
 - Veure documentació pel comandament original:

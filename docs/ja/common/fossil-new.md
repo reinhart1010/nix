@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (日本語)
-description: "このコマンドは `fossil-init` のエイリアスです。"
-content_hash: 58a5a31c6f675b1975f55c4130e2b6cb56103167
-last_modified_at: 2023-11-12
+description: "このコマンドは  `fossil init`.のエイリアスです。"
+content_hash: e12e1718678f6508ca0adf98602e1747b5f294d0
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# fossil-new
+# fossil new
 
-このコマンドは `fossil-init` のエイリアスです。
+このコマンドは  `fossil init`.のエイリアスです。
 詳しくはこちら: <https://fossil-scm.org/home/help/new>
 
 - オリジナルのコマンドのドキュメントを表示する:

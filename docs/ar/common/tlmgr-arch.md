@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `tlmgr platform`."
-content_hash: 46de561929b8b051a88d9dfa8c1b6d52bb3a66b4
-last_modified_at: 2023-11-12
+content_hash: dfb588b281aba41499432b3c249cc8d0cf439e74
+last_modified_at: 2024-05-09
 related_topics:
   - title: bosanski version
     url: /bs/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 هذا الأمر هو اسم مستعار لـ `tlmgr platform`.
 لمزيد من التفاصيل: <https://www.tug.org/texlive/tlmgr.html>.

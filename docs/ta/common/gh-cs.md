@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (தமிழ்)
-description: "இக்கட்டளை `gh-codespace` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: af42a265458c383a7f8f7f115b7d7423cda2ced0
-last_modified_at: 2023-11-12
+description: "இக்கட்டளை  `gh codespace`.கட்டளையின் மற்றொருப் பெயர்."
+content_hash: d2b9169b8d5343ef3f12f1e4c831dad7fe822ecc
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -91,9 +91,9 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gh-cs
+# gh cs
 
-இக்கட்டளை `gh-codespace` கட்டளையின் மற்றொருப் பெயர்.
+இக்கட்டளை  `gh codespace`.கட்டளையின் மற்றொருப் பெயர்.
 மேலும் விவரத்திற்கு: <https://cli.github.com/manual/gh_codespace>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:

@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (русский)
 description: "Эта команда — псевдоним для `tlmgr platform`."
-content_hash: 64c37f7ba52976861b34a981eef3618a140ea7bd
-last_modified_at: 2023-11-12
+content_hash: 9846b6ca1772c86998f2a98102b7ad4306b97fc9
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 Эта команда — псевдоним для `tlmgr platform`.
 Больше информации: <https://www.tug.org/texlive/tlmgr.html>.

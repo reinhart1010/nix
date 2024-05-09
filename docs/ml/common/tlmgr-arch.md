@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (മലയാളം)
 description: "ഈ കമാൻഡ് `tlmgr platform` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: fc510b4982da7b2ea0f76084848a9ecee4a3368e
-last_modified_at: 2023-11-12
+content_hash: 96d0dbda148358e3fac68f1091c5758a9ba3f635
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 ഈ കമാൻഡ് `tlmgr platform` എന്നത്തിന്റെ അപരനാമമാണ്.
 കൂടുതൽ വിവരങ്ങൾ: <https://www.tug.org/texlive/tlmgr.html>.

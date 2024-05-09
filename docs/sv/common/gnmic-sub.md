@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (svenska)
 description: "Det här kommandot är ett alias för `gnmic subscribe`."
-content_hash: 9d0520a0ae5c1d2b271304ba76ce95d18fab9bd6
-last_modified_at: 2023-11-12
+content_hash: 2346ac4af136aa1d385ac4139547be2139e26969
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# gnmic-sub
+# gnmic sub
 
 Det här kommandot är ett alias för `gnmic subscribe`.
 Mer information: <https://gnmic.kmrd.dev/cmd/subscribe>.

@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (Indonesia)
 description: "Perintah ini merupakan alias dari `tlmgr platform`."
-content_hash: 1770f24d424794cdfbfd6169503a2bce8cf8ccf8
-last_modified_at: 2024-01-03
+content_hash: 54893eae908d6888f5d436709208c5790d859a64
+last_modified_at: 2024-05-09
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# tlmgr-arch
+# tlmgr arch
 
 Perintah ini merupakan alias dari `tlmgr platform`.
 Informasi lebih lanjut: <https://www.tug.org/texlive/tlmgr.html>.
