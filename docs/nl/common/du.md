@@ -2,8 +2,8 @@
 layout: page
 title: common/du (Nederlands)
 description: "Disk gebruik: schat en groepeer bestand en map ruimte gebruik."
-content_hash: cd9f7aff181ab41c5a66559c8fb6a825b28c14ac
-last_modified_at: 2024-04-29
+content_hash: b05e91a65f04c18443a2f734d3ac5171d3252243
+last_modified_at: 2024-05-09
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -59,3 +59,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/du>.
 - Toont de grootte in leesbare vorm van alle `.jpg` bestanden in sub-mappen van de huidige map en laat een cumulatief totaal zien op het eind:
 
 `du -ch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*/*.jpg</span>
+
+- Toont alle bestanden en mappen (inclusief verborgen) boven een bepaalde drempelwaarde ([t]hreshold) (bruikbaar om te onderzoeken wat veel ruimte in neemt):
+
+`du --all --human-readable --threshold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1G|1024M|1048576K</span>` .[^.]* *`

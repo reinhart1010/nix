@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (Nederlands)
 description: "Snij velden eruit vanuit `stdin` of bestanden."
-content_hash: 22537b4f815717f42f8c16926463844f3a05f210
-last_modified_at: 2024-05-06
+content_hash: 480f10905022cf47652d2c89900bdf58e1f92a66
+last_modified_at: 2024-05-09
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -47,3 +47,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/cut>.
 - Toon een bereik van iedere regel voor een specifiek bestand:
 
 `cut --characters `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+
+- Toon specifieke velden van `NUL` afgesloten regels (bijv. zoals in `find . -print0`) in plaats van nieuwe regels:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | cut --zero-terminated --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>

@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-list (Nederlands)
 description: "Toon een lijst van pakketten met Chocolatey."
-content_hash: 621eb07b1b7d3f0f15ec072d48a6e013e3caff55
-last_modified_at: 2023-11-26
+content_hash: 620549c0b30da9d742da49c52ad7ffb5f4570bc9
+last_modified_at: 2024-05-09
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-list.html
@@ -48,8 +48,8 @@ Meer informatie: <https://chocolatey.org/docs/commands-list>.
 
 - Geef een aangepaste bron op om pakketten van weer te geven:
 
-`choco list --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_url|alias</span>
+`choco list --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bron_url|alias</span>
 
 - Geef een gebruikersnaam en wachtwoord voor authenticatie op:
 
-`choco list --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span>
+`choco list --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wachtwoord</span>
