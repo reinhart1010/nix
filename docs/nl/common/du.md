@@ -3,7 +3,7 @@ layout: page
 title: common/du (Nederlands)
 description: "Disk gebruik: schat en groepeer bestand en map ruimte gebruik."
 content_hash: b05e91a65f04c18443a2f734d3ac5171d3252243
-last_modified_at: 2024-05-09
+last_modified_at: 2024-05-10
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># du
+# du
 
 Disk gebruik: schat en groepeer bestand en map ruimte gebruik.
 Meer informatie: <https://www.gnu.org/software/coreutils/du>.

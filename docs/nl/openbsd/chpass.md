@@ -3,7 +3,7 @@ layout: page
 title: openbsd/chpass (Nederlands)
 description: "Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord."
 content_hash: b0102fd958b85fee157ee298b94dca1a029cecec
-last_modified_at: 2024-05-09
+last_modified_at: 2024-05-10
 related_topics:
   - title: English version
     url: /en/openbsd/chpass.html
@@ -11,18 +11,9 @@ related_topics:
   - title: polski version
     url: /pl/openbsd/chpass.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/openbsd/chpass.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chpass
+# chpass
 
 Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
 Bekijk ook: `passwd`.

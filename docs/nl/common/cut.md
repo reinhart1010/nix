@@ -3,7 +3,7 @@ layout: page
 title: common/cut (Nederlands)
 description: "Snij velden eruit vanuit `stdin` of bestanden."
 content_hash: 480f10905022cf47652d2c89900bdf58e1f92a66
-last_modified_at: 2024-05-09
+last_modified_at: 2024-05-10
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -26,12 +26,9 @@ related_topics:
   - title: русский version
     url: /ru/common/cut.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cut
+# cut
 
 Snij velden eruit vanuit `stdin` of bestanden.
 Meer informatie: <https://www.gnu.org/software/coreutils/cut>.
