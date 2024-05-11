@@ -2,8 +2,8 @@
 layout: page
 title: linux/aur (English)
 description: "Build packages from the AUR and manage local repositories."
-content_hash: 90b4198a70ad3d015f94f69dc3a7326ced2581e5
-last_modified_at: 2024-04-30
+content_hash: 8df3e4e7a5f1a1e2ffee944b0df7352c23773518
+last_modified_at: 2024-05-11
 related_topics:
   - title: español version
     url: /es/linux/aur.html
@@ -32,6 +32,6 @@ More information: <https://github.com/aurutils/aurutils>.
 
 `aur sync --upgrades`
 
-- Install a package without viewing changes in Vim:
+- Install a package without viewing changes in Vim and do not confirm dependency installation:
 
-`aur sync --noview `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`aur sync --noview --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

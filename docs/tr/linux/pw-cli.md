@@ -2,18 +2,21 @@
 layout: page
 title: linux/pw-cli (Türkçe)
 description: "Pipewire komut satır arayüzü."
-content_hash: 52628eda551f85897598ee211df7d8cc630ced07
-last_modified_at: 2023-11-12
+content_hash: a331d9778456a040ce7ec34b826b748a8ca77620
+last_modified_at: 2024-05-11
 related_topics:
   - title: English version
     url: /en/linux/pw-cli.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/pw-cli.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pw-cli
 
 Pipewire komut satır arayüzü.
-Daha fazla bilgi için: <https://docs.pipewire.org/page_man_pw_cli_1.html>.
+Daha fazla bilgi için: <https://docs.pipewire.org/page_man_pw-cli_1.html>.
 
 - Tüm düğümleri (taban ve kaynakları) ID'leri ile birlikte yazdır:
 
