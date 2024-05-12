@@ -3,23 +3,14 @@ layout: page
 title: linux/objcopy (español)
 description: "Copia el contenido de un archivo de objetos a otro archivo."
 content_hash: 5af453f0c39b04b4ed4f31a2fc6f2c50d57f6143
-last_modified_at: 2024-05-11
+last_modified_at: 2024-05-12
 related_topics:
   - title: English version
     url: /en/linux/objcopy.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/objcopy.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># objcopy
+# objcopy
 
 Copia el contenido de un archivo de objetos a otro archivo.
 Más información: <https://manned.org/objcopy>.

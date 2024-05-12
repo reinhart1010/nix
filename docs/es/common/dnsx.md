@@ -3,23 +3,14 @@ layout: page
 title: common/dnsx (español)
 description: "Un equipo de herramientas de DNS rápido y multipropósito para ejecutar múltiples consultas DNS."
 content_hash: 06fee9a47d817b2e3c40a6e185f05c500fa99dc3
-last_modified_at: 2024-05-11
+last_modified_at: 2024-05-12
 related_topics:
   - title: English version
     url: /en/common/dnsx.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dnsx.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dnsx
+# dnsx
 
 Un equipo de herramientas de DNS rápido y multipropósito para ejecutar múltiples consultas DNS.
 Nota: la entrada a `dnsx` necesita ser pasada a través de `stdin` (tubería `|`) en algunos casos.
