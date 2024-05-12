@@ -2,8 +2,8 @@
 layout: page
 title: common/texcount (English)
 description: "Count words in TeX documents omitting macros."
-content_hash: 69dae3f05aaded4e8e027bd6c03848083e85cce7
-last_modified_at: 2023-11-12
+content_hash: 001a8359cbebdd94975ebcc82ee853cb417f7280
+last_modified_at: 2024-05-12
 tldri18n_status: 2
 ---
 # texcount
@@ -23,6 +23,10 @@ More information: <https://app.uio.no/ifi/texcount/howto.html>.
 - Count words in a document and subdocuments, listing each file separately (and a total count):
 
 `texcount -inc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.tex</span>
+
+- Count words in a document and subdocuments, producing subcounts by chapter (instead of subsection):
+
+`texcount -merge -sub=chapter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.tex</span>
 
 - Count words with verbose output:
 
