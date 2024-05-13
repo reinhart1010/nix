@@ -2,8 +2,8 @@
 layout: page
 title: linux/vnstati (English)
 description: "PNG image output support for vnStat."
-content_hash: 1e920b5ef944a5687899c71037cd7139ffe14ca5
-last_modified_at: 2023-11-12
+content_hash: 41e36c41fe8940b1ebf86ea3e1f8995e694208dd
+last_modified_at: 2024-05-13
 tldri18n_status: 2
 ---
 # vnstati
@@ -17,7 +17,7 @@ More information: <https://manned.org/vnstati>.
 
 - Output the 10 most traffic-intensive days of all time:
 
-`vnstati --top10 --iface `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_interface</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span>
+`vnstati --top 10 --iface `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_interface</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span>
 
 - Output monthly traffic statistics from the last 12 months:
 
