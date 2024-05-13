@@ -2,8 +2,8 @@
 layout: page
 title: linux/readelf (English)
 description: "Display information about ELF files."
-content_hash: 6fb9eb0f94075590842bd2021a9fb0185f3d6dd8
-last_modified_at: 2024-04-23
+content_hash: a1eba4a0b9b968a2dc10d158802de591ca5630c6
+last_modified_at: 2024-05-13
 related_topics:
   - title: 中文 version
     url: /zh/linux/readelf.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # readelf
 
 Display information about ELF files.
-More information: <http://man7.org/linux/man-pages/man1/readelf.1.html>.
+More information: <https://manned.org/readelf.1>.
 
 - Display all information about the ELF file:
 
