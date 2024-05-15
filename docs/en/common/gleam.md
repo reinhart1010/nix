@@ -3,19 +3,10 @@ layout: page
 title: common/gleam (English)
 description: "The compiler, build tool, package manager and code formatter for Gleam, \"a friendly language for building type-safe systems that scale!\"."
 content_hash: ec51e1611ed0337ce313927074ca411f0f0cf133
-last_modified_at: 2024-05-14
-tldri18n_status: 0
+last_modified_at: 2024-05-15
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gleam.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gleam
+# gleam
 
 The compiler, build tool, package manager and code formatter for Gleam, "a friendly language for building type-safe systems that scale!".
 More information: <https://gleam.run/writing-gleam/command-line-reference/>.
