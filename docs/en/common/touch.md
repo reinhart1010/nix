@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (English)
 description: "Create files and set access/modification times."
-content_hash: 530c8cedbf62f052269f89bc4bef74b5db164ecf
-last_modified_at: 2023-11-12
+content_hash: 19d1f065c5a8b95ec5cc977892800c2a0dbc3e62
+last_modified_at: 2024-05-15
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -45,6 +45,6 @@ More information: <https://manned.org/man/freebsd-13.1/touch>.
 
 `touch -c -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Set the file time of a specific file to the time of anothe[r] file and don't [c]reate file if it doesn't exist:
+- Set the files' timestamp to the [r]eference file's timestamp, and do not [c]reate the file if it does not exist:
 
-`touch -c -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.emacs</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
+`touch -c -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/reference_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
