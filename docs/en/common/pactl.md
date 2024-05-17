@@ -2,14 +2,18 @@
 layout: page
 title: common/pactl (English)
 description: "Control a running PulseAudio sound server."
-content_hash: f33507ce10190a33dba04160761b3317eff08557
-last_modified_at: 2023-11-12
+content_hash: 1cdbf59d117b6523da421900973141514930cfbf
+last_modified_at: 2024-05-17
 tldri18n_status: 2
 ---
 # pactl
 
 Control a running PulseAudio sound server.
 More information: <https://manned.org/pactl>.
+
+- Show information about the sound server:
+
+`pactl info`
 
 - List all sinks (or other types - sinks are outputs and sink-inputs are active audio streams):
 
