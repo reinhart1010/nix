@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (Nederlands)
 description: "Cross-platform, GPU-versnelde terminalemulator."
-content_hash: cf95f83dfc11414bc6a28eef8c2774a380401aed
-last_modified_at: 2023-11-12
+content_hash: b3def790de296a3b7b864587b7fa8902e6482078
+last_modified_at: 2024-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -54,10 +54,10 @@ Meer informatie: <https://github.com/alacritty/alacritty>.
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bevel</span>
 
-- Geef een alternatief configuratiebestand op (standaard ingesteld op `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Geef een alternatief configuratiebestand op (standaard ingesteld op `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/config.yml</span>
+`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/config.toml</span>
 
-- Uitvoeren met live config reload ingeschakeld (kan ook standaard worden ingeschakeld in `alacritty.yml`):
+- Uitvoeren met live config reload ingeschakeld (kan ook standaard worden ingeschakeld in `alacritty.toml`):
 
-`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/config.yml</span>
+`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/config.toml</span>

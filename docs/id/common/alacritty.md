@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (Indonesia)
 description: "Lintas platform, terakselerasi GPU terminal emulator."
-content_hash: ad9c6f241a36d8bf814171dcc0a2374bebb4143b
-last_modified_at: 2023-11-12
+content_hash: c279a235d1fc89979ba0ecb095052d71e52da438
+last_modified_at: 2024-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -54,10 +54,10 @@ Informasi lebih lanjut: <https://github.com/alacritty/alacritty>.
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span>
 
-- Menentukan berkas konfigurasi alternatif (nilai default `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Menentukan berkas konfigurasi alternatif (nilai default `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/konfigurasi.yml</span>
+`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/konfigurasi.toml</span>
 
-- Menjalankan dengan mengaktifkan pemuatan ulang konfigurasi secara langsung/otomatis (dapat juga diaktifkan secara default di `alacritty.yml`):
+- Menjalankan dengan mengaktifkan pemuatan ulang konfigurasi secara langsung/otomatis (dapat juga diaktifkan secara default di `alacritty.toml`):
 
-`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/konfigurasi.yml</span>
+`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/konfigurasi.toml</span>

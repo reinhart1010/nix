@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (English)
 description: "Cross-platform, GPU-accelerated terminal emulator."
-content_hash: 21f46a7d9ef4367a36087ac0f2bef9f945c4b387
-last_modified_at: 2024-02-09
+content_hash: fbaa84b576ae3e75931a3ec2c7152a435b459ddd
+last_modified_at: 2024-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -54,10 +54,10 @@ More information: <https://github.com/alacritty/alacritty>.
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Use an alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Use an alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.yml</span>
+`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span>
 
-- Run with live configuration reload enabled (can also be enabled by default in `alacritty.yml`):
+- Run with live configuration reload enabled (can also be enabled by default in `alacritty.toml`):
 
-`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.yml</span>
+`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span>

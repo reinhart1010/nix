@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (español)
 description: "Emulador de terminal acelerado por GPU y multiplataforma."
-content_hash: c8e7ac528dc17cb53a2c7a925794c54379ce1034
-last_modified_at: 2023-11-12
+content_hash: 866b39ac519707fb77c9097cbebcd3bac463bc45
+last_modified_at: 2024-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -54,10 +54,10 @@ Más información: <https://github.com/alacritty/alacritty>.
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Especifica un archivo de configuración alternativo (por defecto es `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Especifica un archivo de configuración alternativo (por defecto es `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/config.yml</span>
+`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/config.toml</span>
 
-- Ejecuta con recarga automática de la configuración activada (puede activarse por defecto en `alacritty.yml`):
+- Ejecuta con recarga automática de la configuración activada (puede activarse por defecto en `alacritty.toml`):
 
-`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/config.yml</span>
+`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/config.toml</span>

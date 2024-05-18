@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (中文)
 description: "跨平台，GPU 加速的终端模拟器。"
-content_hash: 2d20fdbb554530be4bcdba8010912d1cc9ba9a8d
-last_modified_at: 2023-11-12
+content_hash: 0b3256452e5d1512e1299eac894c78f5c29178dc
+last_modified_at: 2024-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -54,10 +54,10 @@ tldri18n_status: 2
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>
 
-- 指定备用配置文件（默认在 `$XDG_CONFIG_HOME/alacritty/alacritty.yml`）：
+- 指定备用配置文件（默认在 `$XDG_CONFIG_HOME/alacritty/alacritty.toml`）：
 
-`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/config.yml</span>
+`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/config.toml</span>
 
-- 在启用实时配置重新加载的情况下运行（默认情况下也可以在 `alacritty.yml` 中启用）：
+- 在启用实时配置重新加载的情况下运行（默认情况下也可以在 `alacritty.toml` 中启用）：
 
-`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/config.yml</span>
+`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/config.toml</span>

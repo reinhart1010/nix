@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (한국어)
 description: "교차 플랫폼으로, GPU-가속 터미널 에뮬레이터."
-content_hash: 89651ba385fde6dbaa38fef5b5f0a486cb460daa
-last_modified_at: 2023-11-12
+content_hash: 59689ee3008f5d1331024ad3ffc8ef3b5629eadd
+last_modified_at: 2024-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -54,10 +54,10 @@ tldri18n_status: 2
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
 
-- 대체 구성파일 지정 (기본값 : `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- 대체 구성파일 지정 (기본값 : `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/config.yml</span>
+`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/config.toml</span>
 
-- 재배치가 가능한 라이브 구성 설정으로 실행 (기본적으로 `alacritty.yml` 에서도 활성화 가능):
+- 재배치가 가능한 라이브 구성 설정으로 실행 (기본적으로 `alacritty.toml` 에서도 활성화 가능):
 
-`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/config.yml</span>
+`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/config.toml</span>

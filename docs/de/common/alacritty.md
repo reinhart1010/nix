@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (Deutsch)
 description: "Plattformübergreifender, GPU-beschleunigter Terminalemulator."
-content_hash: 66c3c64d30d07921506ab199c93b30b735c08cea
-last_modified_at: 2023-11-12
+content_hash: 0c753d483b70c313b7235074076edbb9fe109ecc
+last_modified_at: 2024-05-18
 related_topics:
   - title: English version
     url: /en/common/alacritty.html
@@ -54,10 +54,10 @@ Weitere Informationen: <https://github.com/alacritty/alacritty>.
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>
 
-- Gib eine alternative Konfigurations-Datei an (ist standardmäßig `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Gib eine alternative Konfigurations-Datei an (ist standardmäßig `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/konfiguration.yml</span>
+`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/konfiguration.toml</span>
 
-- Starte mit aktiviertem Live-Konfigurations-Neuladen (kann auch standardmäßig in `alacritty.yml` eingestellt werden):
+- Starte mit aktiviertem Live-Konfigurations-Neuladen (kann auch standardmäßig in `alacritty.toml` eingestellt werden):
 
-`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/konfiguration.yml</span>
+`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/konfiguration.toml</span>
