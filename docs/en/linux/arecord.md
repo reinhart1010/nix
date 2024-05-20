@@ -2,8 +2,8 @@
 layout: page
 title: linux/arecord (English)
 description: "Sound recorder for ALSA soundcard driver."
-content_hash: 7117ccc5fe1d7a7352e2db1cb2ab56d30c1b3209
-last_modified_at: 2023-11-12
+content_hash: 9a7a9e96c2d2c15e7678dc1f1ac48ac671408d27
+last_modified_at: 2024-05-20
 related_topics:
   - title: Deutsch version
     url: /de/linux/arecord.html
@@ -37,3 +37,7 @@ More information: <https://manned.org/arecord>.
 - Allow interactive interface (e.g. use space-bar or enter to play or pause):
 
 `arecord --interactive`
+
+- Test your microphone by recording a 5 second sample and playing it back:
+
+`arecord -d 5 test-mic.wav && aplay test-mic.wav && rm test-mic.wav`
