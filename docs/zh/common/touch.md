@@ -1,0 +1,62 @@
+---
+layout: page
+title: common/touch (中文)
+description: "创建文件并设置访问/修改时间。"
+content_hash: af16b98aff6cece73e27d646a6773b5d0a818c35
+last_modified_at: 2024-05-21
+related_topics:
+  - title: català version
+    url: /ca/common/touch.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/touch.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/touch.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/touch.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/touch.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/touch.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/touch.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/touch.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/touch.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># touch
+
+创建文件并设置访问/修改时间。
+更多信息：<https://manned.org/man/freebsd-13.1/touch>.
+
+- 创建指定的文件：
+
+`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件名1 路径/到/文件名2 ...</span>
+
+- 将文件的访问(a)或修改时间(m)设置为当前时间，如果文件不存在则不创建(-c)：
+
+`touch -c -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|m</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 ...</span>
+
+- 将文件时间(-t)设置为指定值，如果文件不存在则不创建(-c)：
+
+`touch -c -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件名1 路径/到/文件名2 ...</span>
+
+- 将文件时间设置为另一文件(-r,即文件3)的时间，如果文件不存在则不创建(-c)：
+
+`touch -c -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件名1 路径/到/文件名2 ...</span>
