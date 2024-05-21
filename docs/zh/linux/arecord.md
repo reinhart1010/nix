@@ -3,7 +3,7 @@ layout: page
 title: linux/arecord (中文)
 description: "ALSA 声卡驱动的声音录制器。"
 content_hash: 0b6939fb241f6e0dcc88c681d860cb57f903a1c8
-last_modified_at: 2023-12-14
+last_modified_at: 2024-05-21
 related_topics:
   - title: Deutsch version
     url: /de/linux/arecord.html
@@ -11,9 +11,12 @@ related_topics:
   - title: English version
     url: /en/linux/arecord.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# arecord
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># arecord
 
 ALSA 声卡驱动的声音录制器。
 更多信息：<https://manned.org/arecord>.

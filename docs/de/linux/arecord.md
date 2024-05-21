@@ -3,7 +3,7 @@ layout: page
 title: linux/arecord (Deutsch)
 description: "Sound Recorder für den ALSA-Soundkarten-Treiber."
 content_hash: efe2b411dd0a93e0662fe86c83c8ed1e4d19649e
-last_modified_at: 2023-11-12
+last_modified_at: 2024-05-21
 related_topics:
   - title: English version
     url: /en/linux/arecord.html
@@ -11,9 +11,12 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/arecord.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# arecord
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># arecord
 
 Sound Recorder für den ALSA-Soundkarten-Treiber.
 Weitere Informationen: <https://manned.org/arecord>.
