@@ -2,8 +2,8 @@
 layout: page
 title: common/argocd-app (español)
 description: "Interfaz de línea de comandos para gestionar aplicaciones por CD Argo."
-content_hash: 7ca86dd8de62642f1777c195c701bea49b891320
-last_modified_at: 2024-01-07
+content_hash: e9a0007fd07d855b2230b3cdd6e4993f264fb119
+last_modified_at: 2024-05-22
 related_topics:
   - title: English version
     url: /en/common/argocd-app.html
@@ -48,4 +48,4 @@ Más información: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands
 
 - Retrocede la aplicación a una versión anterior desplegada por ID de historial (eliminando recursos inesperados):
 
-`argocd app rollback `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_aplicacion</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">history_id</span>` --prune`
+`argocd app rollback `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_aplicacion</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_historial</span>` --prune`

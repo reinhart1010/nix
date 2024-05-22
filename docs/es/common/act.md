@@ -2,8 +2,8 @@
 layout: page
 title: common/act (español)
 description: "Ejecuta acciones de GitHub localmente mediante Docker."
-content_hash: a968f698c63ff441d0434a20c7bb618fe6309283
-last_modified_at: 2024-01-07
+content_hash: 0a9eb3f8f2ec5c4558e9e4e95e365e7347c1be4f
+last_modified_at: 2024-05-22
 related_topics:
   - title: English version
     url: /en/common/act.html
@@ -53,7 +53,7 @@ Más información: <https://github.com/nektos/act>.
 
 - Ejecuta una acción específica:
 
-`act -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">action_id</span>
+`act -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_acción</span>
 
 - Simula una acción:
 

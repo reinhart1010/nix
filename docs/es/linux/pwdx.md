@@ -2,8 +2,8 @@
 layout: page
 title: linux/pwdx (español)
 description: "Muestra el directorio de trabajo de un proceso."
-content_hash: 6ad72156b105489f7f3c56e9c3513e0d7e64737e
-last_modified_at: 2023-11-12
+content_hash: 5392b7b95e1c558832200bcd839f6d16bba646df
+last_modified_at: 2024-05-22
 related_topics:
   - title: català version
     url: /ca/linux/pwdx.html
@@ -26,4 +26,4 @@ Más información: <https://manned.org/pwdx>.
 
 - Muestra el directorio de trabajo actual de un proceso:
 
-`pwdx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span>
+`pwdx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_proceso</span>

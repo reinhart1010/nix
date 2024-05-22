@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-key (español)
 description: "Herramienta para la gestión de claves para el Gestor de Paquetes APT (APT Package Manager) en Debian y Ubuntu."
-content_hash: 47362af765c80034d8d0e85818f32aaba66cc46b
-last_modified_at: 2023-11-12
+content_hash: 4f9627eb9110d82f28196a9416a09ef30e3f88d2
+last_modified_at: 2024-05-22
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-key.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-key.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-key.html
@@ -43,7 +46,7 @@ Más información: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 - Borra una clave del almacén de claves de confianza:
 
-`apt-key del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_clave</span>
+`apt-key del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_clave</span>
 
 - Añade un clave remota al almacén de claves de confianza:
 
@@ -51,4 +54,4 @@ Más información: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 - Añade una clave de un servidor de claves con el identificador de la clave:
 
-`apt-key adv --keyserver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span>` --recv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_clave</span>
+`apt-key adv --keyserver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span>` --recv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_clave</span>

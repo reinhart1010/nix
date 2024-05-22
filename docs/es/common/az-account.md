@@ -2,8 +2,8 @@
 layout: page
 title: common/az-account (español)
 description: "Administra la información de una suscripción de Azure."
-content_hash: b08f57501a1e513424d142f448df717db7ae2d8c
-last_modified_at: 2023-11-12
+content_hash: a6c5ed0c381771ef56b55e9c679ca078d15188ca
+last_modified_at: 2024-05-22
 related_topics:
   - title: English version
     url: /en/common/az-account.html
@@ -22,7 +22,7 @@ Más información: <https://learn.microsoft.com/cli/azure/account>.
 
 - Establece una `subscription` como la suscripción activa:
 
-`az account set --subscription `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_de_suscripción</span>
+`az account set --subscription `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_suscripción</span>
 
 - Lista las regiones admitidas para la suscripción activa:
 

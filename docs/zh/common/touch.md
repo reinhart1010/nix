@@ -3,7 +3,7 @@ layout: page
 title: common/touch (中文)
 description: "创建文件并设置访问/修改时间。"
 content_hash: af16b98aff6cece73e27d646a6773b5d0a818c35
-last_modified_at: 2024-05-21
+last_modified_at: 2024-05-22
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -29,18 +29,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/touch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/touch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># touch
+# touch
 
 创建文件并设置访问/修改时间。
 更多信息：<https://manned.org/man/freebsd-13.1/touch>.

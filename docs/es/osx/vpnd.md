@@ -2,8 +2,8 @@
 layout: page
 title: osx/vpnd (español)
 description: "Escucha las conexiones VPN entrantes."
-content_hash: 36d6103e2202bd29be2780eb43026b6e99bf0680
-last_modified_at: 2024-01-31
+content_hash: 149cc5a22ec80b8ebd48f5910c4e7c75354c1088
+last_modified_at: 2024-05-22
 related_topics:
   - title: English version
     url: /en/osx/vpnd.html
@@ -38,4 +38,4 @@ Más información: <https://keith.github.io/xcode-man-pages/vpnd.8.html>.
 
 - Ejecuta el daemon para una configuración de servidor específica:
 
-`vpnd -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_id</span>
+`vpnd -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_servidor</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/az-tag (español)
 description: "Administra etiquetas en un recurso de Azure."
-content_hash: 14d02c7dd6c4e1e82597e5a90e3b1d613c6bbad5
-last_modified_at: 2023-11-12
+content_hash: 7ed1ad025e956da3b14402b060cf0552f119b3b8
+last_modified_at: 2024-05-22
 related_topics:
   - title: English version
     url: /en/common/az-tag.html
@@ -30,7 +30,7 @@ Más información: <https://learn.microsoft.com/cli/azure/tag>.
 
 - Enumera todas las etiquetas de una suscripción:
 
-`az tag list --resource-id /subscriptions/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subscription_id</span>
+`az tag list --resource-id /subscriptions/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_subscripción</span>
 
 - Elimina un valor de etiqueta para un nombre de etiqueta específico:
 

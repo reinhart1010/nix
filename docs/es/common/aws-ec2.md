@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-ec2 (español)
 description: "Interfaz de línea de comandos (CLI) para AWS EC2."
-content_hash: 8d8fcba75c3679d7755c8ac834b4125be4af9a5a
-last_modified_at: 2023-12-11
+content_hash: 24441b13137cdfe9a46a43e01dccb00e039341e6
+last_modified_at: 2024-05-22
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-ec2.html
@@ -27,7 +27,7 @@ Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/ref
 
 - Muestra información acerca de una instancia específica:
 
-`aws ec2 describe-instances --instance-ids `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_instancia</span>
+`aws ec2 describe-instances --instance-ids `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_instancia</span>
 
 - Muestra información sobre todas las instancias:
 
@@ -39,11 +39,11 @@ Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/ref
 
 - Elimina un volumen EC2:
 
-`aws ec2 delete-volume --volume-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_volumen</span>
+`aws ec2 delete-volume --volume-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_volumen</span>
 
 - Crea una instantánea a partir de un volumen EC2:
 
-`aws ec2 create-snapshot --volume-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_volumen</span>
+`aws ec2 create-snapshot --volume-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_volumen</span>
 
 - Lista las imágenes de máquina de Amazon disponibles (AMI):
 
