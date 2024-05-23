@@ -2,11 +2,14 @@
 layout: page
 title: linux/readelf (中文)
 description: "显示 EFI 文件信息。"
-content_hash: de6371bcbc76964f65be72cc06a20fdf2ee47b2d
-last_modified_at: 2024-04-24
+content_hash: 2dbf2756bb67a6a24cfffa5c6b6b8aeeadbf7762
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/linux/readelf.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/readelf.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -16,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># readelf
 
 显示 EFI 文件信息。
-更多信息：<http://man7.org/linux/man-pages/man1/readelf.1.html>.
+更多信息：<https://manned.org/readelf.1>.
 
 - 显示 ELF 所有文件信息：
 

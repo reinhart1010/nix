@@ -2,8 +2,8 @@
 layout: page
 title: common/git-lfs (español)
 description: "Trabaja con archivos grandes en repositorios de Git."
-content_hash: 48447ac56dcc985197b40a0e38694ba20c1c63a0
-last_modified_at: 2023-11-12
+content_hash: 5036ceda06613d1f9c4e3c8dd2b2a297fa049c36
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/common/git-lfs.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # git lfs
 
 Trabaja con archivos grandes en repositorios de Git.
-Más información: <https://git-lfs.github.com>.
+Más información: <https://git-lfs.com>.
 
 - Inicializa Git LFS:
 

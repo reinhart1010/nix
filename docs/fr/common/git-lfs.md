@@ -2,8 +2,8 @@
 layout: page
 title: common/git-lfs (français)
 description: "Travailler dans un registre Git avec des fichiers volumineux."
-content_hash: d4f4132a0bf6393df99fe75b6e91c2588101d1b3
-last_modified_at: 2023-11-12
+content_hash: 69521f5b68eb0da9145cc55d38897622bab5b84e
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/common/git-lfs.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # git lfs
 
 Travailler dans un registre Git avec des fichiers volumineux.
-Plus d'informations : <https://git-lfs.github.com>.
+Plus d'informations : <https://git-lfs.com>.
 
 - Initialise le Git LFS :
 
