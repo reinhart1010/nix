@@ -2,15 +2,15 @@
 layout: page
 title: common/wireplumber (English)
 description: "A modular session/policy manager for PipeWire and a GObject-based high-level library that wraps PipeWire’s API."
-content_hash: ba8c87e2d87d7e61f0b68984f2a35f48af70d48c
-last_modified_at: 2023-12-31
+content_hash: 64df8c3a1dd6df1e967b1f30620ebe0456210d60
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # wireplumber
 
 A modular session/policy manager for PipeWire and a GObject-based high-level library that wraps PipeWire’s API.
 See also: `wpctl`, `pipewire`.
-More information: <https://pipewire.pages.freedesktop.org/wireplumber/running-wireplumber-daemon.html>.
+More information: <https://pipewire.pages.freedesktop.org/wireplumber/>.
 
 - Make WirePlumber start with the user session immediately (for systemd systems):
 

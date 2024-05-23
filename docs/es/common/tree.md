@@ -2,8 +2,8 @@
 layout: page
 title: common/tree (español)
 description: "Muestra los contenidos del directorio actual en forma de árbol."
-content_hash: c553a1d5910787c4795e893c470f3d0bc0602999
-last_modified_at: 2023-12-06
+content_hash: a45da82e6fa1c033e8d7bfc6a42e8c99580fe1bc
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/common/tree.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # tree
 
 Muestra los contenidos del directorio actual en forma de árbol.
-Más información: <http://mama.indstate.edu/users/ice/tree/>.
+Más información: <https://manned.org/man/tree>.
 
 - Imprime archivos y directorios hasta `num` niveles de profundidad (donde 1 significa el directorio actual):
 

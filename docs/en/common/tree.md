@@ -2,8 +2,8 @@
 layout: page
 title: common/tree (English)
 description: "Show the contents of the current directory as a tree."
-content_hash: 6d4b71d518eaa7abe47bc3c3eabab679045c3dbd
-last_modified_at: 2023-11-12
+content_hash: ebc51e753ee98feb3c0e2ee5acb515f7f8ea2514
+last_modified_at: 2024-05-23
 related_topics:
   - title: español version
     url: /es/common/tree.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # tree
 
 Show the contents of the current directory as a tree.
-More information: <http://mama.indstate.edu/users/ice/tree/>.
+More information: <https://manned.org/man/tree>.
 
 - Print files and directories up to 'num' levels of depth (where 1 means the current directory):
 

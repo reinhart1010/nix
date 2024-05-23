@@ -2,8 +2,8 @@
 layout: page
 title: common/tree (italiano)
 description: "Mostra i contenuti della directory corrente come un albero."
-content_hash: 32a26b5ec2806ad5d84e7fb54a1e6fcd2275fc8d
-last_modified_at: 2023-11-12
+content_hash: 7780ccd8d2a2101036cad362c9ffa0c24df0952c
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/common/tree.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # tree
 
 Mostra i contenuti della directory corrente come un albero.
-Maggiori informazioni: <http://mama.indstate.edu/users/ice/tree/>.
+Maggiori informazioni: <https://manned.org/man/tree>.
 
 - Stampa file e directory fino al 'num'-esimo livello di profondità (dove 1 significa la directory corrente):
 

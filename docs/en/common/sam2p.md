@@ -2,14 +2,14 @@
 layout: page
 title: common/sam2p (English)
 description: "Raster (bitmap) image converter with smart PDF and PostScript (EPS) output."
-content_hash: 94fb4a002c23af543f9375004985bd88c509f4ca
-last_modified_at: 2023-11-12
+content_hash: bec22b73727cc8442b8f9806a4bf180b68843659
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # sam2p
 
 Raster (bitmap) image converter with smart PDF and PostScript (EPS) output.
-More information: <http://pts.50.hu/sam2p/>.
+More information: <https://github.com/pts/sam2p>.
 
 - Concatenate all PDF files into one:
 

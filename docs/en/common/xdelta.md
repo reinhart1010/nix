@@ -2,15 +2,15 @@
 layout: page
 title: common/xdelta (English)
 description: "Delta encoding utility."
-content_hash: 79d85fea5945b4dcb6ff3f7fa792d658c25751dd
-last_modified_at: 2023-11-12
+content_hash: 03af6b2fb57355923ee67e811bdf6ddb9d840788
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # xdelta
 
 Delta encoding utility.
 Often used for applying patches to binary files.
-More information: <http://xdelta.org>.
+More information: <https://github.com/jmacd/xdelta>.
 
 - Apply a patch:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/virsh (한국어)
 description: "virsh 게스트 도메인을 관리합니다. (Note: 'guest_id'는 게스트의 아이디, 이름 또는 UUID일 수 있습니다)."
-content_hash: d9660f1ae5de676aa749b33a9ac058a55b74d5d9
-last_modified_at: 2024-02-05
+content_hash: b06930dfd02e4d55a48718cdc1d307d1aeff85e3
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/common/virsh.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 virsh 게스트 도메인을 관리합니다. (Note: 'guest_id'는 게스트의 아이디, 이름 또는 UUID일 수 있습니다).
 `virsh list`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-더 많은 정보: <https://libvirt.org/virshcmdref.html>.
+더 많은 정보: <https://libvirt.org/manpages/virsh.html>.
 
 - 하이퍼아비저 세션에 연결:
 

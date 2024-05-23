@@ -2,14 +2,14 @@
 layout: page
 title: common/spfquery (English)
 description: "Query Sender Policy Framework records to validate e-mail senders."
-content_hash: ffb7180d027a8bad509f76a535f2ec94cd97a6d2
-last_modified_at: 2023-11-12
+content_hash: 56f76c53c50428335afa072048130c96a6f86f4c
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # spfquery
 
 Query Sender Policy Framework records to validate e-mail senders.
-More information: <https://www.libspf2.org/>.
+More information: <https://manned.org/spfquery>.
 
 - Check if an IP address is allowed to send an e-mail from the specified e-mail address:
 

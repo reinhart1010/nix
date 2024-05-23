@@ -2,14 +2,14 @@
 layout: page
 title: common/secrethub (English)
 description: "Keep secrets out of config files."
-content_hash: faed5d15e0ed8fdbe3c4d996c98355bef452c4fd
-last_modified_at: 2024-02-15
+content_hash: df58cf337b8baf1bfb4790da557acb8bdd68d6c8
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # secrethub
 
 Keep secrets out of config files.
-More information: <https://secrethub.io>.
+More information: <https://github.com/secrethub/secrethub-cli>.
 
 - Print a secret to `stdout`:
 

@@ -2,14 +2,14 @@
 layout: page
 title: common/unison (English)
 description: "Bidirectional file synchronisation tool."
-content_hash: db51095565abda4b60fda303d1f77dc664a67833
-last_modified_at: 2024-01-31
+content_hash: 0ae9fcd8121d8a682b73435bff68d9e904edeccf
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # unison
 
 Bidirectional file synchronisation tool.
-More information: <https://www.cis.upenn.edu/~bcpierce/unison/download/releases/stable/unison-manual.html>.
+More information: <https://github.com/bcpierce00/unison>.
 
 - Sync two directories (creates log first time these two directories are synchronized):
 
