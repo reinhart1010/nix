@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-machine (Deutsch)
 description: "Erstelle und verwalte Maschinen, die Docker ausführen."
-content_hash: bd98b04b3da42426ece0174196487fa679d49219
-last_modified_at: 2023-11-12
+content_hash: f128fc71ec7c7f3a16694bafe201a3c8f88929bb
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/common/docker-machine.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker-machine
 
 Erstelle und verwalte Maschinen, die Docker ausführen.
-Weitere Informationen: <https://docs.docker.com/machine/reference/>.
+Weitere Informationen: <https://github.com/docker/machine>.
 
 - Liste zur Zeit laufende Docker Maschinen auf:
 

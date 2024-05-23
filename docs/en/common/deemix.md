@@ -2,15 +2,15 @@
 layout: page
 title: common/deemix (English)
 description: "A barebone deezer downloader library built from the ashes of Deezloader Remix."
-content_hash: 9fcc7e690c49a0150b68a9939cacc51370619750
-last_modified_at: 2024-01-25
+content_hash: 4dabe08959cde3fd661a42adb636d31d26b57864
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # deemix
 
 A barebone deezer downloader library built from the ashes of Deezloader Remix.
 It can be used as a standalone CLI app or implemented in a UI using the API.
-More information: <https://deemix.app>.
+More information: <https://gitlab.com/RemixDev/deemix-py>.
 
 - Download a track or playlist:
 

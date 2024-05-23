@@ -2,8 +2,8 @@
 layout: page
 title: common/cabal (italiano)
 description: "Interfaccia da linea di comando per l'infrastruttura di compilazione di Haskell (Cabal)."
-content_hash: 1d72b9e16766b3316e7be952d3380f766c230dca
-last_modified_at: 2023-11-12
+content_hash: a0d4565a69cef55e5c65ecdb22c0e3ee59ea40b0
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/common/cabal.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Interfaccia da linea di comando per l'infrastruttura di compilazione di Haskell (Cabal).
 Gestisce progetti Haskell e pacchetti Cabal dal repository di pacchetti Hackage.
-Maggiori informazioni: <https://cabal.readthedocs.io/en/latest/intro.html>.
+Maggiori informazioni: <https://cabal.readthedocs.io/en/latest/getting-started.html>.
 
 - Cerca ed elenca pacchetti da Hackage:
 

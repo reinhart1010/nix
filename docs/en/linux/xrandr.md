@@ -2,11 +2,14 @@
 layout: page
 title: linux/xrandr (English)
 description: "Set the size, orientation and/or reflection of the outputs for a screen."
-content_hash: 61c68dca6d6ed991e9976e34ffb953ac751ea3b0
-last_modified_at: 2023-11-12
+content_hash: ebfa54b297b351e54be3af1ea3c7f972a67816af
+last_modified_at: 2024-05-23
 related_topics:
   - title: Deutsch version
     url: /de/linux/xrandr.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/xrandr.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/xrandr.html
@@ -41,3 +44,7 @@ More information: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtm
 - Set the brightness for LVDS1 to 50%:
 
 `xrandr --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LVDS1</span>` --brightness `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5</span>
+
+- Display the current state of any X server:
+
+`xrandr --display :`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>` --query`

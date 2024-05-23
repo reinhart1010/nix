@@ -2,8 +2,8 @@
 layout: page
 title: common/bru (español)
 description: "CLI para Bruno, un IDE de código abierto para explorar y probar APIs."
-content_hash: 55451a8412a061127334f84ac90ca9f4b4b63f9a
-last_modified_at: 2024-02-12
+content_hash: bd1fde0091f5b7590a804e54fe368b74bd1af489
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/common/bru.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # bru
 
 CLI para Bruno, un IDE de código abierto para explorar y probar APIs.
-Más información: <https://docs.usebruno.com/cli/overview.html>.
+Más información: <https://docs.usebruno.com/bru-cli/overview>.
 
 - Ejecuta todos los archivos de petición en el directorio actual:
 

@@ -2,14 +2,14 @@
 layout: page
 title: common/gcloud-info (English)
 description: "Display information about the current `gcloud` environment."
-content_hash: 284b9a09f33682ffa3d024b8b1358d21243c94a8
-last_modified_at: 2023-12-08
+content_hash: 507e2017f0f35afaaa63b89291b238d1087081a9
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # gcloud info
 
 Display information about the current `gcloud` environment.
-More information: <https://cloud.google.com/sdk/gcloud/reference/topic/info>.
+More information: <https://cloud.google.com/sdk/gcloud/reference/info>.
 
 - Display `gcloud` environment information:
 

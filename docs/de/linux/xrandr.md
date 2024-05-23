@@ -3,17 +3,23 @@ layout: page
 title: linux/xrandr (Deutsch)
 description: "Setzt die Auflösung, Orientierung und/oder Reflektion eines Bildschirmausgangs."
 content_hash: eebcce4fd088e99a5db30f253a85b5f89f6e31c4
-last_modified_at: 2023-11-12
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/linux/xrandr.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/xrandr.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/xrandr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# xrandr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># xrandr
 
 Setzt die Auflösung, Orientierung und/oder Reflektion eines Bildschirmausgangs.
 Weitere Informationen: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.

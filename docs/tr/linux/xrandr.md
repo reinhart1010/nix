@@ -3,7 +3,7 @@ layout: page
 title: linux/xrandr (Türkçe)
 description: "Bir ekran için boyut, yön ve/veya çıkış yansımasını ayarla."
 content_hash: 383050965ab79dca6768bd783807da1aa455eddc
-last_modified_at: 2023-11-12
+last_modified_at: 2024-05-23
 related_topics:
   - title: Deutsch version
     url: /de/linux/xrandr.html
@@ -11,9 +11,15 @@ related_topics:
   - title: English version
     url: /en/linux/xrandr.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: português (Brasil) version
+    url: /pt_BR/linux/xrandr.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# xrandr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># xrandr
 
 Bir ekran için boyut, yön ve/veya çıkış yansımasını ayarla.
 Daha fazla bilgi için: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.

@@ -2,14 +2,14 @@
 layout: page
 title: common/nf-core (English)
 description: "The nf-core framework tools, to create, check and develop best-practice guidelines for Nextflow."
-content_hash: faaa6735ba3cc519c8a5455dc1898ea65eaedd6c
-last_modified_at: 2023-11-12
+content_hash: 90ccd68a55e269369e56333ead433c481fd020d5
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # nf-core
 
 The nf-core framework tools, to create, check and develop best-practice guidelines for Nextflow.
-More information: <https://nf-co.re/tools>.
+More information: <https://nf-co.re/docs/nf-core-tools>.
 
 - List existing pipelines on nf-core:
 

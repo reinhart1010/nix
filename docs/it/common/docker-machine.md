@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-machine (italiano)
 description: "Crea e gestisci macchine che utilizzano Docker."
-content_hash: 547e3c16370a7a2e659e5baa8fd69a649f3765e4
-last_modified_at: 2023-11-12
+content_hash: 84edebd7299bea4e4be5fc1400c554355f9692c5
+last_modified_at: 2024-05-23
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-machine.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker-machine
 
 Crea e gestisci macchine che utilizzano Docker.
-Maggiori informazioni: <https://docs.docker.com/machine/reference/>.
+Maggiori informazioni: <https://github.com/docker/machine>.
 
 - Elenca macchine Docker in esecuzione:
 

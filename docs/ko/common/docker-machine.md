@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-machine (한국어)
 description: "도커를 실행하는 머신들을 생성하고 관리한다."
-content_hash: 3a2bccfcac047f2d7e0071f01c5e1b5ae7ba73e3
-last_modified_at: 2023-11-12
+content_hash: 5e42633c2f3f5a1cecd53a7909b3313cc5142733
+last_modified_at: 2024-05-23
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-machine.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker-machine
 
 도커를 실행하는 머신들을 생성하고 관리한다.
-더 많은 정보: <https://docs.docker.com/machine/reference/>.
+더 많은 정보: <https://github.com/docker/machine>.
 
 - 현재 실행중인 도커 머신들 목록보기:
 

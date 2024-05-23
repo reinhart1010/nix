@@ -2,14 +2,14 @@
 layout: page
 title: common/jdupes (English)
 description: "A powerful duplicate file finder and an enhanced fork of fdupes."
-content_hash: ad92d7dbffb6d7868185824f73f0227179577281
-last_modified_at: 2023-11-12
+content_hash: 0e7b5a032494ff5f2fe1c922d0649330729bb7fd
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # jdupes
 
 A powerful duplicate file finder and an enhanced fork of fdupes.
-More information: <https://github.com/jbruchon/jdupes>.
+More information: <https://codeberg.org/jbruchon/jdupes>.
 
 - Search a single directory:
 

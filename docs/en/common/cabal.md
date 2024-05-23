@@ -2,8 +2,8 @@
 layout: page
 title: common/cabal (English)
 description: "Command-line interface to the Haskell package infrastructure (Cabal)."
-content_hash: 9a17b55870f6b73ee42504a21ab7160d1a39bb3c
-last_modified_at: 2023-11-12
+content_hash: 1dab5b7a4debc267fc8adc6d37243aec4dac3341
+last_modified_at: 2024-05-23
 related_topics:
   - title: italiano version
     url: /it/common/cabal.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Command-line interface to the Haskell package infrastructure (Cabal).
 Manage Haskell projects and Cabal packages from the Hackage package repository.
-More information: <https://cabal.readthedocs.io/en/latest/intro.html>.
+More information: <https://cabal.readthedocs.io/en/latest/getting-started.html>.
 
 - Search and list packages from Hackage:
 

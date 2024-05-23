@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-machine (Türkçe)
 description: "Docker çalıştıran makineler oluştur ve onları yönet."
-content_hash: b5a2f1a4fd3ff49d4256208dc890573587c80489
-last_modified_at: 2024-03-14
+content_hash: 649a550f12ffc23383850b15948b76b244b85d6a
+last_modified_at: 2024-05-23
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-machine.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker-machine
 
 Docker çalıştıran makineler oluştur ve onları yönet.
-Daha fazla bilgi için: <https://docs.docker.com/machine/reference/>.
+Daha fazla bilgi için: <https://github.com/docker/machine>.
 
 - Halihazırda çalışan Docker makinelerini sırala:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cabal (한국어)
 description: "Haskell 패키지 인프라 (Cabal)에 대한 명령어 라인 인터페이스."
-content_hash: b16ca0b1a88d3cbe29a8874da901f1e4474e6f9b
-last_modified_at: 2023-11-12
+content_hash: 02f09d607b6fd96463bd1516c12e9f2f248af0c2
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/common/cabal.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Haskell 패키지 인프라 (Cabal)에 대한 명령어 라인 인터페이스.
 Hackage 패키지 저장소에서 Haskell 프로젝트 및 Cabal패키지 관리.
-더 많은 정보: <https://cabal.readthedocs.io/en/latest/intro.html>.
+더 많은 정보: <https://cabal.readthedocs.io/en/latest/getting-started.html>.
 
 - Hackage에서 패키지 검색 및 리스트:
 

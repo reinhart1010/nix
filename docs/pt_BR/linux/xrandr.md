@@ -3,7 +3,7 @@ layout: page
 title: linux/xrandr (português (Brasil))
 description: "Define o tamanho, orientação e/ou espelhamento das saídas para uma tela."
 content_hash: 358c8e4308817a9aa5899072aa984ed0b79a7392
-last_modified_at: 2024-03-02
+last_modified_at: 2024-05-23
 related_topics:
   - title: Deutsch version
     url: /de/linux/xrandr.html
@@ -14,9 +14,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/xrandr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# xrandr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># xrandr
 
 Define o tamanho, orientação e/ou espelhamento das saídas para uma tela.
 Mais informações: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.

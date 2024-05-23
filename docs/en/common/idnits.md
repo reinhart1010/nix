@@ -2,15 +2,15 @@
 layout: page
 title: common/idnits (English)
 description: "Check internet-drafts for submission nits."
-content_hash: 74ebcee38856fb7dfbc04077a1a467c43b0f1f18
-last_modified_at: 2023-11-12
+content_hash: 3e115e6f022992492b2336cee22b080a5a3eac95
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # idnits
 
 Check internet-drafts for submission nits.
 Looks for violations of Section 2.1 and 2.2 of the requirements listed on <https://www.ietf.org/id-info/checklist>.
-More information: <https://tools.ietf.org/tools/idnits/>.
+More information: <https://github.com/ietf-tools/idnits>.
 
 - Check a file for nits:
 

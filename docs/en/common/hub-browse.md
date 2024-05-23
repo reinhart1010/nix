@@ -2,14 +2,14 @@
 layout: page
 title: common/hub-browse (English)
 description: "Open a GitHub repository in the browser or print the URL."
-content_hash: d8be764eb8dc1cc8a500d5eb907db189fcc64238
-last_modified_at: 2023-11-12
+content_hash: dcb4805f977c4a6ea19110e332762aa1ba69924d
+last_modified_at: 2024-05-23
 tldri18n_status: 2
 ---
 # hub browse
 
 Open a GitHub repository in the browser or print the URL.
-More information: <https://cli.github.com/manual/hub_browse>.
+More information: <https://hub.github.com/hub-browse.1.html>.
 
 - Open the homepage of the current repository in the default web browser:
 

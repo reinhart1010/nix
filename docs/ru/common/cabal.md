@@ -2,8 +2,8 @@
 layout: page
 title: common/cabal (русский)
 description: "Интерфейс командной строки для инфраструктуры пакетов Haskell (Cabal)."
-content_hash: aa64587e169c48deeabafff3fffd76217f40cebb
-last_modified_at: 2023-11-12
+content_hash: 05b587ce362fb50a59ad731d614b567e8ee7711e
+last_modified_at: 2024-05-23
 related_topics:
   - title: English version
     url: /en/common/cabal.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Интерфейс командной строки для инфраструктуры пакетов Haskell (Cabal).
 Управление Haskell-проектами и Cabal-пакетами из репозитория Hackage.
-Больше информации: <https://cabal.readthedocs.io/en/latest/intro.html>.
+Больше информации: <https://cabal.readthedocs.io/en/latest/getting-started.html>.
 
 - Искать и вывести список пакетов из Hackage:
 

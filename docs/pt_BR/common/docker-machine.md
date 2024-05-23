@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-machine (português (Brasil))
 description: "Criar e gerenciar máquinas que executam o Docker."
-content_hash: 2a55627db270e823fc254e07d53061df946ff2d7
-last_modified_at: 2023-12-28
+content_hash: b63cf95f2c63a24a3a8dbb55376d3537727c6c8f
+last_modified_at: 2024-05-23
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-machine.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker-machine
 
 Criar e gerenciar máquinas que executam o Docker.
-Mais informações: <https://docs.docker.com/machine/reference/>.
+Mais informações: <https://github.com/docker/machine>.
 
 - Lista as máquinas Docker em execução no momento:
 
