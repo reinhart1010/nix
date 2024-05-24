@@ -2,7 +2,7 @@
 layout: page
 title: common/arp (español)
 description: "Muestra y manipula la caché ARP del sistema."
-content_hash: b682899580c9401fad0288c657817b6c11302d37
+content_hash: 0b4d858f93d4104939c30b106ee993d59c29d4ce
 last_modified_at: 2024-05-24
 related_topics:
   - title: Deutsch version
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # arp
 
 Muestra y manipula la caché ARP del sistema.
-Más information: <https://manned.org/arp>.
+Más información: <https://manned.org/arp>.
 
 - Muestra la tabla ARP actual:
 
