@@ -1,0 +1,28 @@
+---
+layout: page
+title: common/hledger-incomestatement (English)
+description: "Show revenue inflows and expense outflows during the report period."
+content_hash: f87d82c823e179fd16e66fa62665bbe207827a52
+last_modified_at: 2024-05-25
+tldri18n_status: 2
+---
+# hledger incomestatement
+
+Show revenue inflows and expense outflows during the report period.
+More information: <https://hledger.org/hledger.html#incomestatement>.
+
+- Show revenues and expenses (changes in Revenue and Expense accounts):
+
+`hledger incomestatement`
+
+- Show revenues and expenses each month:
+
+`hledger incomestatement --monthly`
+
+- Show monthly revenues/expenses/totals, largest first, summarised to 2 levels:
+
+`hledger incomestatement --monthly --row-total --average --sort --depth 2`
+
+- Short form of the above, and generate HTML output in `is.html`:
+
+`hledger is -MTAS -2 -o is.html`

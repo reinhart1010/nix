@@ -3,19 +3,10 @@ layout: page
 title: common/hledger-ui (English)
 description: "Terminal UI (TUI) to `hledger`."
 content_hash: 69151749f9d7587a9821429ee116531a8fa35ad5
-last_modified_at: 2024-05-24
-tldri18n_status: 0
+last_modified_at: 2024-05-25
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hledger-ui.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hledger-ui
+# hledger-ui
 
 Terminal UI (TUI) to `hledger`.
 A robust, friendly plain text accounting app.
