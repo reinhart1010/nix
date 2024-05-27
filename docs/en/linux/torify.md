@@ -2,13 +2,14 @@
 layout: page
 title: linux/torify (English)
 description: "Route network traffic through the Tor network."
-content_hash: ec402350395e7ce5cc2e1874bfcd58da76fa2081
-last_modified_at: 2024-05-22
+content_hash: 40a161895a375396248b249ca992015ec82e3125
+last_modified_at: 2024-05-27
 tldri18n_status: 2
 ---
 # torify
 
 Route network traffic through the Tor network.
+Note: This command has been deprecated, and is now a backwards-compatible wrapper of `torsocks`.
 More information: <https://manned.org/man/torify>.
 
 - Route traffic via Tor:
