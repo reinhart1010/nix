@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (English)
 description: "Manage Docker containers and images."
-content_hash: dadc591e0b317da2d0772c4e8c1483a56dd8d8e8
-last_modified_at: 2024-03-14
+content_hash: 4e7588cacaf7c4073c9cb9e2d944505fd65ab077
+last_modified_at: 2024-05-27
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -69,7 +69,7 @@ More information: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 `docker images`
 
-- Open a shell inside a running container:
+- Open an [i]nteractive [t]ty with Bourne shell (`sh`) inside a running container:
 
 `docker exec -it `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span>
 

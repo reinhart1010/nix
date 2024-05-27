@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (English)
 description: "Display simple help pages for command-line tools from the tldr-pages project."
-content_hash: 0cd2a63f573aa033384ea3477c918421004f9d33
-last_modified_at: 2023-11-19
+content_hash: 9bd5cf3c5b20f706072f49f645d697a3b16ea493
+last_modified_at: 2024-05-27
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -34,6 +34,9 @@ related_topics:
     icon: bi bi-globe
   - title: sh version
     url: /sh/common/tldr.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/tldr.html
     icon: bi bi-globe
   - title: ไทย version
     url: /th/common/tldr.html
@@ -78,6 +81,6 @@ More information: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICA
 
 `tldr --update`
 
-- List all pages for the current platform and `common`:
+- [l]ist all pages for the current platform and `common`:
 
 `tldr --list`

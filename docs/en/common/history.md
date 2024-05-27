@@ -2,8 +2,8 @@
 layout: page
 title: common/history (English)
 description: "Command-line history."
-content_hash: 22835345e4a94fe9ae1901ad32b6dbb932b20be2
-last_modified_at: 2024-04-10
+content_hash: c56a5342d980c50ddaf9e3a89200ee8b8c470ca1
+last_modified_at: 2024-05-27
 related_topics:
   - title: español version
     url: /es/common/history.html
@@ -42,14 +42,14 @@ More information: <https://www.gnu.org/software/bash/manual/html_node/Bash-Histo
 
 `history -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">d|f|i|E</span>
 
-- Clear the commands history list (only for current Bash shell):
+- [c]lear the commands history list (only for current Bash shell):
 
 `history -c`
 
-- Overwrite history file with history of current Bash shell (often combined with `history -c` to purge history):
+- Over[w]rite history file with history of current Bash shell (often combined with `history -c` to purge history):
 
 `history -w`
 
-- Delete the history entry at the specified offset:
+- [d]elete the history entry at the specified offset:
 
 `history -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">offset</span>
