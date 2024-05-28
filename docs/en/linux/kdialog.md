@@ -2,14 +2,14 @@
 layout: page
 title: linux/kdialog (English)
 description: "Show KDE dialog boxes from within shell scripts."
-content_hash: 111fc1b93b5622733dfe090720033ebd49bf758f
-last_modified_at: 2024-03-14
+content_hash: 7e7235953024bfedfe6b0d9631b3f3b7fa992c21
+last_modified_at: 2024-05-28
 tldri18n_status: 2
 ---
 # kdialog
 
 Show KDE dialog boxes from within shell scripts.
-More information: <https://develop.kde.org/deploy/kdialog/>.
+More information: <https://develop.kde.org/docs/administration/kdialog/>.
 
 - Open a dialog box displaying a specific message:
 

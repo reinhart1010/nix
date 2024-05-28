@@ -2,14 +2,14 @@
 layout: page
 title: linux/lxterminal (English)
 description: "Terminal emulator for LXDE."
-content_hash: 11a1a5219566f58dcf708e42c7a658053cf86bbc
-last_modified_at: 2023-11-12
+content_hash: c63f59caf32570945a6cf5b6781a736c7f456c8b
+last_modified_at: 2024-05-28
 tldri18n_status: 2
 ---
 # lxterminal
 
 Terminal emulator for LXDE.
-More information: <https://wiki.lxde.org/en/LXTerminal>.
+More information: <https://github.com/lxde/lxterminal>.
 
 - Open an LXTerminal window:
 

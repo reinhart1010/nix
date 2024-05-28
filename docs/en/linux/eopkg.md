@@ -2,14 +2,14 @@
 layout: page
 title: linux/eopkg (English)
 description: "Package manager for Solus."
-content_hash: 2f6b555e38f160d32c0c2c4d11f0b1ee5b410496
-last_modified_at: 2023-11-12
+content_hash: 3a02e383971c857bc92f295b3246809d1a96e048
+last_modified_at: 2024-05-28
 tldri18n_status: 2
 ---
 # eopkg
 
 Package manager for Solus.
-More information: <https://getsol.us/articles/package-management/basics/en/>.
+More information: <https://help.getsol.us/docs/user/package-management/basics>.
 
 - Install a specific package:
 

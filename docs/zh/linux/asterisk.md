@@ -2,8 +2,8 @@
 layout: page
 title: linux/asterisk (中文)
 description: "电话和交换（手机）服务器。"
-content_hash: 363980bfd1d34903eef220651d1384f88745db53
-last_modified_at: 2023-11-12
+content_hash: b1a13a936dc54aa5a069eb3b33a3cf9be108f2d4
+last_modified_at: 2024-05-28
 related_topics:
   - title: English version
     url: /en/linux/asterisk.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 电话和交换（手机）服务器。
 用于管理服务器自身和管理已经在运行的实例。
-更多信息：<https://wiki.asterisk.org/wiki/display/AST/Home>.
+更多信息：<https://docs.asterisk.org>.
 
 - 重新连接一个正在运行的服务器，并打开 3 级的日志详细度：
 

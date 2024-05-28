@@ -2,8 +2,8 @@
 layout: page
 title: linux/asterisk (English)
 description: "Run and manage telephone and exchange (phone) server instances."
-content_hash: 3bde7e6263d6ad8d12f52dc3d3b6ca164f8aa1bb
-last_modified_at: 2024-02-15
+content_hash: 699590841aa6ca98ce7bcc1125341d181062c5c8
+last_modified_at: 2024-05-28
 related_topics:
   - title: 中文 version
     url: /zh/linux/asterisk.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # asterisk
 
 Run and manage telephone and exchange (phone) server instances.
-More information: <https://wiki.asterisk.org/wiki/display/AST/Home>.
+More information: <https://docs.asterisk.org>.
 
 - [R]econnect to a running server, and turn on logging 3 levels of [v]erbosity:
 

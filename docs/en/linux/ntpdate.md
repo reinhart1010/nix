@@ -2,14 +2,14 @@
 layout: page
 title: linux/ntpdate (English)
 description: "Synchronize and set the date and time via NTP."
-content_hash: a5ac08395a6bc0e5c39a0c562b5954cb40163fad
-last_modified_at: 2023-11-12
+content_hash: 6bf9d430ed224b6b34d8e3ac6acc9f7ee2919e24
+last_modified_at: 2024-05-28
 tldri18n_status: 2
 ---
 # ntpdate
 
 Synchronize and set the date and time via NTP.
-More information: <http://support.ntp.org/documentation>.
+More information: <https://manned.org/ntpdate>.
 
 - Synchronize and set date and time:
 

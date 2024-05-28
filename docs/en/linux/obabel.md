@@ -2,14 +2,14 @@
 layout: page
 title: linux/obabel (English)
 description: "Translate chemistry-related data."
-content_hash: 5c9f2676c34583bfec98de03fd7a11eb7e0775ce
-last_modified_at: 2024-01-31
+content_hash: 76a85f27b121a40cc20c476e22dced475119d558
+last_modified_at: 2024-05-28
 tldri18n_status: 2
 ---
 # obabel
 
 Translate chemistry-related data.
-More information: <https://openbabel.org/wiki/Main_Page>.
+More information: <https://open-babel.readthedocs.io/en/latest/Command-line_tools/babel.html>.
 
 - Convert a .mol file to XYZ coordinates:
 

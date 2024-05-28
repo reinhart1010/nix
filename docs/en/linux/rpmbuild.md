@@ -2,14 +2,14 @@
 layout: page
 title: linux/rpmbuild (English)
 description: "RPM Package Build tool."
-content_hash: ae75fca1325515acc4d1eab8865a5c5d90616a04
-last_modified_at: 2023-11-12
+content_hash: cc357eadfad90792de2e6b8f3a2f3d6648df757f
+last_modified_at: 2024-05-28
 tldri18n_status: 2
 ---
 # rpmbuild
 
 RPM Package Build tool.
-More information: <https://docs.fedoraproject.org/en-US/quick-docs/creating-rpm-packages/>.
+More information: <https://manned.org/man/rpmbuild>.
 
 - Build binary and source packages:
 
