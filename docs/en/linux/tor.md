@@ -2,22 +2,18 @@
 layout: page
 title: linux/tor (English)
 description: "Enable anonymous communication through the Tor network."
-content_hash: ba5e0f76725cf3c4418e31558a959e7e0b92df2d
-last_modified_at: 2024-05-22
+content_hash: b999ff3feb4c76536ff7fae863f87ef10229ea1b
+last_modified_at: 2024-05-29
 tldri18n_status: 2
 ---
 # tor
 
 Enable anonymous communication through the Tor network.
-More information: <https://manned.org/man/tor>.
+More information: <https://manned.org/tor>.
 
 - Connect to the Tor network:
 
 `tor`
-
-- Start a Tor relay:
-
-`tor --relay`
 
 - View Tor configuration:
 
