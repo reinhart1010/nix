@@ -2,7 +2,7 @@
 layout: page
 title: common/hledger-balance (English)
 description: "A flexible, general purpose \"summing\" report that shows accounts with some kind of numeric data."
-content_hash: 90752b584aaf0948ceb46ce7bc7ef5a95a9a905c
+content_hash: 788afda4a6dca1d4063c2aaf17d6521167520d52
 last_modified_at: 2024-05-30
 tldri18n_status: 2
 ---
@@ -24,7 +24,7 @@ More information: <https://hledger.org/hledger.html#balance>.
 
 `hledger balance `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expenses</span>` --monthly --row-total --average --sort-amount --budget`
 
-- Similar to the above, shorter form, matching accounts by Expense type and summarising to two levels, without compression:
+- Similar to the above, shorter form, matching accounts by `Expense` type, as a two level tree without squashing boring accounts:
 
 `hledger bal type:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">X</span>` -MTAS --budget -t -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>` --no-elide`
 
@@ -36,10 +36,10 @@ More information: <https://hledger.org/hledger.html#balance>.
 
 `hledger bal -HQ date:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2024</span>` type:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AL</span>` -ES -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
 
-- Show investment assets' market value in home currency at the end of each quarter:
+- Show investment assets' market value in base currency at the end of each quarter:
 
 `hledger bal -HVQ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assets:investments</span>
 
-- Show unrealised capital gain/loss from market price changes each quarter, in non-cryptocurrency investment assets:
+- Show unrealised capital gains/losses from market price changes in each quarter, for non-cryptocurrency investment assets:
 
 `hledger bal --gain -Q `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assets:investments</span>` not:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cryptocurrency</span>

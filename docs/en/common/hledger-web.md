@@ -1,15 +1,14 @@
 ---
 layout: page
 title: common/hledger-web (English)
-description: "Web interface and API to `hledger`."
-content_hash: 3cd26ff9b9b4c93ef2ae7f5bb02b9c30abf83873
-last_modified_at: 2024-05-25
+description: "A web interface and API for `hledger`, a robust, friendly plain text accounting app."
+content_hash: 31bffd12f49e5884ac556c5021f215a08246a757
+last_modified_at: 2024-05-30
 tldri18n_status: 2
 ---
 # hledger-web
 
-Web interface and API to `hledger`.
-A robust, friendly plain text accounting app.
+A web interface and API for `hledger`, a robust, friendly plain text accounting app.
 More information: <https://hledger.org/hledger-web.html>.
 
 - Start the web app, and a browser if possible, for local viewing and adding only:

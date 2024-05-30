@@ -2,16 +2,17 @@
 layout: page
 title: common/hledger-incomestatement (English)
 description: "Show revenue inflows and expense outflows during the report period."
-content_hash: f87d82c823e179fd16e66fa62665bbe207827a52
-last_modified_at: 2024-05-25
+content_hash: 8ea235041e1d500bb3bd37e343e9b920caf6372a
+last_modified_at: 2024-05-30
 tldri18n_status: 2
 ---
 # hledger incomestatement
 
 Show revenue inflows and expense outflows during the report period.
+Amounts are shown with normal positive sign, as in conventional financial statements.
 More information: <https://hledger.org/hledger.html#incomestatement>.
 
-- Show revenues and expenses (changes in Revenue and Expense accounts):
+- Show revenues and expenses (changes in `Revenue` and `Expense` accounts):
 
 `hledger incomestatement`
 

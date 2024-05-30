@@ -2,8 +2,8 @@
 layout: page
 title: common/hledger-accounts (English)
 description: "List account names."
-content_hash: eec1592a0730b94a4e597021cbd76b18e5865080
-last_modified_at: 2024-05-25
+content_hash: 8e5a9cb8307c44020bd113755ff4acc2a7a7952b
+last_modified_at: 2024-05-30
 tldri18n_status: 2
 ---
 # hledger accounts
@@ -31,9 +31,9 @@ More information: <https://hledger.org/hledger.html#accounts>.
 
 `hledger accounts asset --types`
 
-- Show accounts of the Asset type:
+- Show accounts of the `Asset` type:
 
-`hledger accounts type:a`
+`hledger accounts type:A`
 
 - Show the first two levels of the accounts hierarchy:
 

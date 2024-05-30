@@ -1,15 +1,14 @@
 ---
 layout: page
 title: common/hledger-ui (English)
-description: "Terminal UI (TUI) to `hledger`."
-content_hash: 69151749f9d7587a9821429ee116531a8fa35ad5
-last_modified_at: 2024-05-25
+description: "A terminal interface (TUI) for `hledger`, a robust, friendly plain text accounting app."
+content_hash: 9faf97f66be8784ef40299166a045f2696599c64
+last_modified_at: 2024-05-30
 tldri18n_status: 2
 ---
 # hledger-ui
 
-Terminal UI (TUI) to `hledger`.
-A robust, friendly plain text accounting app.
+A terminal interface (TUI) for `hledger`, a robust, friendly plain text accounting app.
 More information: <https://hledger.org/hledger-ui.html>.
 
 - Start in the main menu screen, reading from the default journal file:
