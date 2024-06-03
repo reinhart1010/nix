@@ -2,8 +2,12 @@
 layout: page
 title: common/usql (English)
 description: "Universal CLI interface for SQL databases."
-content_hash: b05a8849fc553913121d57837bb47bf7da781db9
-last_modified_at: 2024-02-20
+content_hash: bcd5a5bb2742d0982e195e41701cf1a6292b8ef9
+last_modified_at: 2024-06-03
+related_topics:
+  - title: español version
+    url: /es/common/usql.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # usql
@@ -22,10 +26,6 @@ More information: <https://github.com/xo/usql>.
 - Execute a specific SQL command:
 
 `usql --command="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql_command</span>`"`
-
-- List databases available on the server:
-
-`usql --list-databases`
 
 - Run an SQL command in the `usql` prompt:
 

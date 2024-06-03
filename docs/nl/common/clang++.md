@@ -2,8 +2,8 @@
 layout: page
 title: common/clang++ (Nederlands)
 description: "Compileert C++ bronbestanden."
-content_hash: cd98be4f9579865b27770acba45609d2c2743249
-last_modified_at: 2023-12-05
+content_hash: 5fbefab8561ee2d12bd20f2c00cc53bb56005870
+last_modified_at: 2024-06-03
 related_topics:
   - title: Deutsch version
     url: /de/common/clang++.html
@@ -40,7 +40,7 @@ Meer informatie: <https://clang.llvm.org>.
 
 - Compileer broncode naar LLVM Intermediate Representation (IR):
 
-`clang++ -S -emit-llvm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.cpp</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/output.ll</span>
+`clang++ -S -emit-llvm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.cpp</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.ll</span>
 
 - Optimaliseer het gecompileerde programma voor prestaties:
 

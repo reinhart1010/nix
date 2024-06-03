@@ -2,8 +2,8 @@
 layout: page
 title: common/usql (español)
 description: "Interfaz de línea de comandos universal para bases de datos SQL."
-content_hash: 7b9e9a76d43c77846a9d8775191eba355dc6d0eb
-last_modified_at: 2024-03-05
+content_hash: 25d918d82ffb4a78847f5cb896b9cfa6ad03286e
+last_modified_at: 2024-06-03
 related_topics:
   - title: English version
     url: /en/common/usql.html
@@ -26,10 +26,6 @@ Más información: <https://github.com/xo/usql>.
 - Ejecuta un comando SQL específico:
 
 `usql --command="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_sql</span>`"`
-
-- Lista las bases de datos disponibles en el servidor:
-
-`usql --list-databases`
 
 - Ejecuta un comando SQL en el indicador `usql`:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/pcdovtoppm (español)
 description: "Crea una imagen índice para un CD de fotos basándose en su archivo de resumen."
-content_hash: 51e7abbae4d876ddc286f435f91b6346dc603895
-last_modified_at: 2024-04-09
+content_hash: a7e5fde49578f60669e01ed68b30e0e492cb7208
+last_modified_at: 2024-06-03
 related_topics:
   - title: English version
     url: /en/common/pcdovtoppm.html
@@ -29,4 +29,4 @@ Más información: <https://netpbm.sourceforge.net/doc/pcdovtoppm.html>.
 
 - Utiliza la [f]uente especificada para las anotaciones y pinta el fondo blanco:
 
-`pcdovtoppm -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span>` -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pcd</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.ppm</span>
+`pcdovtoppm -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fuente</span>` -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pcd</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.ppm</span>

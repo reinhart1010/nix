@@ -1,12 +1,15 @@
 ---
 layout: page
 title: common/compare (English)
-description: "Create a comparison image to visually annotate the difference between two images."
-content_hash: ffd78e7a8fcc375c9ca50665f2a606c48cd421d8
-last_modified_at: 2023-11-12
+description: "This command is an alias of `magick compare`."
+content_hash: ae56db226e5da1026b1bdc8f46327b3dd7507ada
+last_modified_at: 2024-06-03
 related_topics:
   - title: Deutsch version
     url: /de/common/compare.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/compare.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/compare.html
@@ -15,14 +18,8 @@ tldri18n_status: 2
 ---
 # compare
 
-Create a comparison image to visually annotate the difference between two images.
-Part of ImageMagick.
-More information: <https://imagemagick.org/script/compare.php>.
+This command is an alias of `magick compare`.
 
-- Compare two images:
+- View documentation for the original command:
 
-`compare `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image2.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/diff.png</span>
-
-- Compare two images using the specified metric:
-
-`compare -verbose -metric `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PSNR</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image2.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/diff.png</span>
+`tldr magick compare`

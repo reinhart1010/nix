@@ -2,8 +2,8 @@
 layout: page
 title: osx/sed (Nederlands)
 description: "Pas tekst aan in een op een scriptbare manier."
-content_hash: 1d434dfa1700abc6ba2e42297a3b7944a30a9a1f
-last_modified_at: 2024-01-09
+content_hash: cfd2de52042fbe3317d13990473fd999fac0c261
+last_modified_at: 2024-06-03
 related_topics:
   - title: English version
     url: /en/osx/sed.html
@@ -28,7 +28,7 @@ Meer informatie: <https://keith.github.io/xcode-man-pages/sed.1.html>.
 
 - Voer een specifiek script bestand uit en toon het resultaat in `stdout`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>` | sed -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script_file.sed</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>` | sed -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script_bestand.sed</span>
 
 - Vervang alle `apple` (uitgebreide regex) met `APPLE` (uitgebreide regex) in alle invoerregels en toon het resultaat in `stdout`:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/pamtopnm (Nederlands)
 description: "Converteer een PAM afbeelding naar een equivalente PNM afbeelding."
-content_hash: 237b7a23a4a6d9ce6d73c692435279511d73b21a
-last_modified_at: 2023-12-19
+content_hash: 51cd6b073d85113179c71c4580142ee7b86f965c
+last_modified_at: 2024-06-03
 related_topics:
   - title: English version
     url: /en/common/pamtopnm.html
@@ -19,6 +19,6 @@ Meer informatie: <https://netpbm.sourceforge.net/doc/pamtopnm.html>.
 
 `pamtopnm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pam</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pbm|pgm|ppm</span>
 
-- Toon versie:
+- Toon de versie:
 
 `pamtopnm -version`

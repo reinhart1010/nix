@@ -2,8 +2,8 @@
 layout: page
 title: common/visudo (Nederlands)
 description: "Bewerk veilig het sudoers-bestand."
-content_hash: c70e757d1076dcf2c74a400992ce7b30cc4e1a87
-last_modified_at: 2023-11-12
+content_hash: 7e1dd54ddb73fb806862f06841f89d63a8015736
+last_modified_at: 2024-06-03
 related_topics:
   - title: English version
     url: /en/common/visudo.html
@@ -30,6 +30,6 @@ Meer informatie: <https://www.sudo.ws/docs/man/visudo.man>.
 
 `sudo EDITOR=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">editor</span>` visudo`
 
-- Toon versie informatie:
+- Toon de versie:
 
 `visudo --version`

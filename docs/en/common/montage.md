@@ -1,33 +1,15 @@
 ---
 layout: page
 title: common/montage (English)
-description: "Tiles images into a customizable grid."
-content_hash: 0d4e804008e150838c9fc3d4ec7a122bd003a0be
-last_modified_at: 2024-02-09
+description: "This command is an alias of `magick montage`."
+content_hash: e997776b539f542a46957639f2b9a4a84f581286
+last_modified_at: 2024-06-03
 tldri18n_status: 2
 ---
 # montage
 
-Tiles images into a customizable grid.
-Part of ImageMagick.
-More information: <https://imagemagick.org/script/montage.php>.
+This command is an alias of `magick montage`.
 
-- Tile images into a grid, automatically resizing images larger than the grid cell size:
+- View documentation for the original command:
 
-`montage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/montage.jpg</span>
-
-- Tile images into a grid, automatically calculating the grid cell size from the largest image:
-
-`montage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg ...</span>` -geometry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/montage.jpg</span>
-
-- Specify the grid cell size and resize images to fit it before tiling:
-
-`montage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg ...</span>` -geometry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480+0+0</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/montage.jpg</span>
-
-- Limit the number of rows and columns in the grid, causing input images to overflow into multiple output montages:
-
-`montage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg ...</span>` -geometry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span>` -tile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2x3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">montage_%d.jpg</span>
-
-- Resize and crop images to fill their grid cells before tiling:
-
-`montage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg ...</span>` -geometry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span>` -resize `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480^</span>` -gravity `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">center</span>` -crop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480+0+0</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/montage.jpg</span>
+`tldr magick montage`

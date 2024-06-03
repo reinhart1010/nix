@@ -2,8 +2,8 @@
 layout: page
 title: common/base32 (Nederlands)
 description: "Codeer of decodeer een bestand of `stdin` van/naar Base32 naar `stdout`."
-content_hash: 4d3b38d09b0d2a771bd207a627604215edc45a87
-last_modified_at: 2024-03-19
+content_hash: 9d5781425f76ebc033abe117b3a2406aef9e3476
+last_modified_at: 2024-06-03
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -42,7 +42,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/base32>.
 
 - Zet gecodeerde uitvoer naar een specifieke breedte (`0` schakelt het uit):
 
-`base32 --wrap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`base32 --wrap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
 - Decodeer een bestand:
 

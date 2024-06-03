@@ -1,25 +1,15 @@
 ---
 layout: page
 title: common/import (English)
-description: "Capture some or all of an X server screen, and save the image to a file."
-content_hash: 152602a8b52b55ca32896f858e6b7a5c5c2c8cd0
-last_modified_at: 2023-11-12
+description: "This command is an alias of `magick import`."
+content_hash: 88e68bcf70f90978eeb4394a7c71946c41baf87e
+last_modified_at: 2024-06-03
 tldri18n_status: 2
 ---
 # import
 
-Capture some or all of an X server screen, and save the image to a file.
-Part of ImageMagick.
-More information: <https://imagemagick.org/script/import.php>.
+This command is an alias of `magick import`.
 
-- Capture the entire X server screen into a PostScript file:
+- View documentation for the original command:
 
-`import -window root `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ps</span>
-
-- Capture contents of a remote X server screen into a PNG image:
-
-`import -window root -display `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screen</span>`.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">display</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span>
-
-- Capture a specific window given its ID as displayed by `xwininfo` into a JPEG image:
-
-`import -window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">window_id</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.jpg</span>
+`tldr magick import`

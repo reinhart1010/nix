@@ -2,8 +2,8 @@
 layout: page
 title: common/magick (English)
 description: "Create, edit, compose, or convert between image formats."
-content_hash: f5cb952d75b2c037d7d5ec56e6d749596cb30e88
-last_modified_at: 2024-03-14
+content_hash: 2e3f8492cda2dedd95191c3bbd3bfad55d1e688e
+last_modified_at: 2024-06-03
 related_topics:
   - title: Nederlands version
     url: /nl/common/magick.html
@@ -13,8 +13,9 @@ tldri18n_status: 2
 # magick
 
 Create, edit, compose, or convert between image formats.
-ImageMagick version 7+. See `convert` for versions 6 and below.
-More information: <https://imagemagick.org/>.
+This tool replaces `convert` in ImageMagick 7+. See `magick convert` to use the old tool in versions 7+.
+Some subcommands, such as `mogrify` have their own usage documentation.
+More information: <https://imagemagick.org>.
 
 - Convert between image formats:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/convert (English)
-description: "Convert between image formats, scale, join, and create images, and much more."
-content_hash: 69c03eefc353d0687044886f3c3fd21c809fde3d
-last_modified_at: 2024-05-20
+description: "This command is an alias of `magick convert`."
+content_hash: b9ff8410bc180eff0ec02c28cc609fc5eaae46f8
+last_modified_at: 2024-06-03
 related_topics:
   - title: Deutsch version
     url: /de/common/convert.html
@@ -24,38 +24,10 @@ tldri18n_status: 2
 ---
 # convert
 
-Convert between image formats, scale, join, and create images, and much more.
-Part of ImageMagick.
-More information: <https://imagemagick.org/script/convert.php>.
+This command is an alias of `magick convert`.
+Note: this alias is deprecated since ImageMagick 7. It has been replaced by `magick`.
+Use `magick convert` if you need to use the old tool in versions 7+.
 
-- Convert an image from JPEG to PNG:
+- View documentation for the original command:
 
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_image.jpg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_image.png</span>
-
-- Scale an image to 50% of its original size:
-
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_image.png</span>` -resize 50% `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_image.png</span>
-
-- Scale an image keeping the original aspect ratio to a maximum dimension of 640x480:
-
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_image.png</span>` -resize 640x480 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_image.png</span>
-
-- Scale an image to have a specified file size:
-
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_image.png</span>` -define jpeg:extent=512kb `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_image.jpg</span>
-
-- Vertically/Horizontally append images:
-
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.png path/to/image2.png ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-append|+append</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_image.png</span>
-
-- Create a GIF from a series of images with 100ms delay between them:
-
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.png path/to/image2.png ...</span>` -delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/animation.gif</span>
-
-- Create an image with nothing but a solid red background:
-
-`convert -size `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">800x600</span>` "xc:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">#ff0000</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.png</span>
-
-- Create a favicon from several images of different sizes:
-
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.png path/to/image2.png ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/favicon.ico</span>
+`tldr magick convert`

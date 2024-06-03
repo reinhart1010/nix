@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/pamscale (Nederlands)
-description: "Schaal een Netpbm image."
-content_hash: 9cfa9c0131dc5944be9f3038283ab8e3631878d8
-last_modified_at: 2023-12-22
+description: "Schaal een Netpbm afbeelding."
+content_hash: 23926b029304f6721e3cd2d1cc7e6e5e9bec453b
+last_modified_at: 2024-06-03
 related_topics:
   - title: English version
     url: /en/common/pamscale.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # pamscale
 
-Schaal een Netpbm image.
+Schaal een Netpbm afbeelding.
 Meer informatie: <https://netpbm.sourceforge.net/doc/pamscale.html>.
 
 - Schaal een afbeelding zodat het resultaat de gespecificeerde verhoudingen heeft:

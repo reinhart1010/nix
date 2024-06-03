@@ -2,8 +2,12 @@
 layout: page
 title: common/pcdovtoppm (English)
 description: "Create an index image for a photo CD based on its overview file."
-content_hash: eedabd439f3ce90e6660569cb5abfeb5c03f0dba
-last_modified_at: 2024-03-05
+content_hash: 7984a8cc8cff3fd372262dfe45d141a9191e5946
+last_modified_at: 2024-06-03
+related_topics:
+  - title: español version
+    url: /es/common/pcdovtoppm.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pcdovtoppm
@@ -25,4 +29,4 @@ More information: <https://netpbm.sourceforge.net/doc/pcdovtoppm.html>.
 
 - Use the specified [f]ont for annotations and paint the background [w]hite:
 
-`pcdovtoppm -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span>` -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcd</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span>
+`pcdovtoppm -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">font</span>` -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcd</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span>
