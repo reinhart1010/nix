@@ -3,23 +3,14 @@ layout: page
 title: common/pnmquantall (Nederlands)
 description: "Voer `pnmquant` tegelijk uit op meerdere bestanden zodat deze een kleurkaart delen."
 content_hash: f0c84e5e952fbd9d3ade757cb852225dd757e96f
-last_modified_at: 2024-06-03
+last_modified_at: 2024-06-04
 related_topics:
   - title: English version
     url: /en/common/pnmquantall.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pnmquantall.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pnmquantall
+# pnmquantall
 
 Voer `pnmquant` tegelijk uit op meerdere bestanden zodat deze een kleurkaart delen.
 Bekijk ook: `pnmquant`.

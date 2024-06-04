@@ -2,14 +2,14 @@
 layout: page
 title: common/nix3-registry (English)
 description: "Manage a Nix flake registry."
-content_hash: bcb5a744d84c47c0e8a5474957a68abc0304d640
-last_modified_at: 2024-03-14
+content_hash: d4638ba5e995258078003210206f2b3d3c433173
+last_modified_at: 2024-06-04
 tldri18n_status: 2
 ---
 # nix registry
 
 Manage a Nix flake registry.
-See `tldr nix3 flake` for information about flakes.
+See also: `nix3 flake` for information about flakes.
 More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-registry.html>.
 
 - Pin the `nixpkgs` revision to the current version of the upstream repository:

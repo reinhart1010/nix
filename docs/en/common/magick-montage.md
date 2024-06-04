@@ -3,19 +3,10 @@ layout: page
 title: common/magick-montage (English)
 description: "Tile images into a customizable grid."
 content_hash: beeff885cff9d4aa752512ab3fd4a9f02e090f4c
-last_modified_at: 2024-06-03
-tldri18n_status: 0
+last_modified_at: 2024-06-04
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/magick-montage.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># magick montage
+# magick montage
 
 Tile images into a customizable grid.
 See also: `magick`.

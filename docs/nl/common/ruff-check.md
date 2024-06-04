@@ -3,23 +3,14 @@ layout: page
 title: common/ruff-check (Nederlands)
 description: "Een extreem snelle Python linter. `check` is het standaard commando - het kan overal weggelaten worden."
 content_hash: 9baa34e5b3cd38a072e9effce5c4dcf1bcccb393
-last_modified_at: 2024-06-03
+last_modified_at: 2024-06-04
 related_topics:
   - title: English version
     url: /en/common/ruff-check.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ruff-check.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ruff check
+# ruff check
 
 Een extreem snelle Python linter. `check` is het standaard commando - het kan overal weggelaten worden.
 Als geen bestanden of mappen zijn gespecificeerd, wordt de huidige map gebruikt.

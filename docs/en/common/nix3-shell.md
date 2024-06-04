@@ -2,14 +2,14 @@
 layout: page
 title: common/nix3-shell (English)
 description: "Start a shell in which the specified packages are available."
-content_hash: af21f2c3f0fe6f90b5df2b6d4713ce057db54161
-last_modified_at: 2023-11-12
+content_hash: cb070fb3d3f98cc81f1ea52d22837accf4027ed8
+last_modified_at: 2024-06-04
 tldri18n_status: 2
 ---
 # nix shell
 
 Start a shell in which the specified packages are available.
-See also: `tldr nix-shell`. See `tldr nix3 flake` for information about flakes.
+See also: `nix-shell` for setting up development environments, `nix3 flake` for information about flakes.
 More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-shell.html>.
 
 - Start an interactive shell with some packages from `nixpkgs`:

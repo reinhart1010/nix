@@ -3,19 +3,10 @@ layout: page
 title: common/magick-import (English)
 description: "Capture some or all of an X server screen and save the image to a file."
 content_hash: 72d3c39a3980b38687900c6dc17e98028a22257a
-last_modified_at: 2024-06-03
-tldri18n_status: 0
+last_modified_at: 2024-06-04
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/magick-import.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># magick import
+# magick import
 
 Capture some or all of an X server screen and save the image to a file.
 See also: `magick`.

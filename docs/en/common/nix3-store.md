@@ -2,14 +2,14 @@
 layout: page
 title: common/nix3-store (English)
 description: "Manipulate the Nix store."
-content_hash: 1ae1b168a6437e4d503fc827a22277f7f868c74a
-last_modified_at: 2023-11-12
+content_hash: 6b89daead8f5b33e865120690222119fa5975683
+last_modified_at: 2024-06-04
 tldri18n_status: 2
 ---
 # nix store
 
 Manipulate the Nix store.
-See also: `tldr nix-store`.
+See also: `nix-store`.
 More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-store.html>.
 
 - Collect garbage, i.e. remove unused paths to reduce space usage:

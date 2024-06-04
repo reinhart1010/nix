@@ -2,14 +2,14 @@
 layout: page
 title: common/nix3-run (English)
 description: "Run an application from a Nix flake."
-content_hash: 8169a8973d0544489a64756c753eca3167a4b05e
-last_modified_at: 2023-11-12
+content_hash: 82029fc5f67617d0dee1889460ecf940f1b2ca8f
+last_modified_at: 2024-06-04
 tldri18n_status: 2
 ---
 # nix run
 
 Run an application from a Nix flake.
-See `tldr nix3 flake` for information about flakes.
+See also: `nix3 flake` for information about flakes.
 More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-run.html>.
 
 - Run the default application in the flake in the current directory:

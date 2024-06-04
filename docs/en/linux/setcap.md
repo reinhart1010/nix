@@ -2,14 +2,14 @@
 layout: page
 title: linux/setcap (English)
 description: "Set capabilities of specified file."
-content_hash: ea21d5ceee07d848fabb9d2381f30b5ba3f21c17
-last_modified_at: 2023-11-12
+content_hash: ce40024b3f502ada599eefc9dccd55ed45550c0f
+last_modified_at: 2024-06-04
 tldri18n_status: 2
 ---
 # setcap
 
 Set capabilities of specified file.
-See also: `tldr getcap`.
+See also: `getcap`.
 More information: <https://manned.org/setcap>.
 
 - Set capability `cap_net_raw` (to use RAW and PACKET sockets) for a given file:

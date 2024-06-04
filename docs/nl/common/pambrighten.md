@@ -3,7 +3,7 @@ layout: page
 title: common/pambrighten (Nederlands)
 description: "Verander de saturatie en waarde van een PAM afbeelding."
 content_hash: 43b9518352931ea3f8d2071a99532a77321fa1b2
-last_modified_at: 2024-06-03
+last_modified_at: 2024-06-04
 related_topics:
   - title: English version
     url: /en/common/pambrighten.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/pambrighten.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pambrighten.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pambrighten
+# pambrighten
 
 Verander de saturatie en waarde van een PAM afbeelding.
 Meer informatie: <https://netpbm.sourceforge.net/doc/pambrighten.html>.

@@ -3,19 +3,10 @@ layout: page
 title: common/magick-compare (English)
 description: "Create a comparison image to visually annotate the difference between two images."
 content_hash: e71b6034a24acc459c0fb7ff997fee3a3b8af218
-last_modified_at: 2024-06-03
-tldri18n_status: 0
+last_modified_at: 2024-06-04
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/magick-compare.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># magick compare
+# magick compare
 
 Create a comparison image to visually annotate the difference between two images.
 See also: `magick`.

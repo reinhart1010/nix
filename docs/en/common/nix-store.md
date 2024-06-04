@@ -2,14 +2,14 @@
 layout: page
 title: common/nix-store (English)
 description: "Manipulate or query the Nix store."
-content_hash: 90cb13f0a82e395986f784eb5148422491c942ed
-last_modified_at: 2023-11-12
+content_hash: 89f69c73ba7ef4c448999bfd1d5296af0e50510c
+last_modified_at: 2024-06-04
 tldri18n_status: 2
 ---
 # nix-store
 
 Manipulate or query the Nix store.
-See also: `tldr nix3 store`.
+See also: `nix3 store`.
 More information: <https://nixos.org/manual/nix/stable/command-ref/nix-store.html>.
 
 - Collect garbage, such as removing unused paths:

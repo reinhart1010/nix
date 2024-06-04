@@ -3,7 +3,7 @@ layout: page
 title: common/pcdovtoppm (Nederlands)
 description: "Maak een indexafbeelding voor een fotocd op basis van het overzichtsbestand."
 content_hash: f0a29e74774748b1334dc1f382986c51b4c8dfa4
-last_modified_at: 2024-06-03
+last_modified_at: 2024-06-04
 related_topics:
   - title: English version
     url: /en/common/pcdovtoppm.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/pcdovtoppm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pcdovtoppm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pcdovtoppm
+# pcdovtoppm
 
 Maak een indexafbeelding voor een fotocd op basis van het overzichtsbestand.
 Meer informatie: <https://netpbm.sourceforge.net/doc/pcdovtoppm.html>.

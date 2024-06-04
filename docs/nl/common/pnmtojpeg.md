@@ -3,7 +3,7 @@ layout: page
 title: common/pnmtojpeg (Nederlands)
 description: "Converteer een PNM afbeelding naar het JPEG/JFIF/EXIF afbeeldingsformaat."
 content_hash: c905f4c377fc9d91bbcf8bd2f1bb60693db4e18f
-last_modified_at: 2024-06-03
+last_modified_at: 2024-06-04
 related_topics:
   - title: English version
     url: /en/common/pnmtojpeg.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/pnmtojpeg.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pnmtojpeg.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pnmtojpeg
+# pnmtojpeg
 
 Converteer een PNM afbeelding naar het JPEG/JFIF/EXIF afbeeldingsformaat.
 Meer informatie: <https://netpbm.sourceforge.net/doc/pnmtojpeg.html>.

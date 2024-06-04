@@ -2,8 +2,8 @@
 layout: page
 title: common/age (English)
 description: "A simple, modern and secure file encryption tool."
-content_hash: b6848572f27310ef8963f32a6869d86e69999880
-last_modified_at: 2023-11-12
+content_hash: b41c269558ddea1c8ecc607a6d1015cc1c169bc0
+last_modified_at: 2024-06-04
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/age.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/age.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/age.html
@@ -31,7 +34,7 @@ tldri18n_status: 2
 # age
 
 A simple, modern and secure file encryption tool.
-See `age-keygen` for how to generate key pairs.
+See also: `age-keygen` for generating key pairs.
 More information: <https://github.com/FiloSottile/age>.
 
 - Generate an encrypted file that can be decrypted with a passphrase:

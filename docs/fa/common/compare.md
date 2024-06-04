@@ -3,7 +3,7 @@ layout: page
 title: common/compare (فارسی)
 description: "ایجاد یک تصویر مقایسه ای برای مشخص کردن تفاوتهای دو عکس به صورت بصری."
 content_hash: fbb4b94c186ceb8da2129086f39e20ed509d1c56
-last_modified_at: 2024-01-10
+last_modified_at: 2024-06-04
 related_topics:
   - title: Deutsch version
     url: /de/common/compare.html
@@ -14,9 +14,12 @@ related_topics:
   - title: हिन्दी version
     url: /hi/common/compare.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# compare
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># compare
 
 ایجاد یک تصویر مقایسه ای برای مشخص کردن تفاوتهای دو عکس به صورت بصری.
 بخشی از ImageMagick است.

@@ -2,14 +2,14 @@
 layout: page
 title: common/nix3-search (English)
 description: "Search for packages in a Nix flake."
-content_hash: cf0e78fa875b470b9a74b5bf7ac383aa6e5ac3cc
-last_modified_at: 2023-11-12
+content_hash: 8f8a83711e8b9438821fba18b62f51585dbb6910
+last_modified_at: 2024-06-04
 tldri18n_status: 2
 ---
 # nix search
 
 Search for packages in a Nix flake.
-See `tldr nix3 flake` for information about flakes.
+See also: `nix3 flake` for information about flakes.
 More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-search.html>.
 
 - Search `nixpkgs` for a package based on its name or description:
