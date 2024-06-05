@@ -2,8 +2,8 @@
 layout: page
 title: common/gzip (English)
 description: "Compress/uncompress files with `gzip` compression (LZ77)."
-content_hash: 7da45408845a90145eeafa41f0f93eea5f996406
-last_modified_at: 2024-01-30
+content_hash: 4ef8423a0beb5f2065664791452e72912956a438
+last_modified_at: 2024-06-05
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gzip.html
@@ -17,24 +17,28 @@ More information: <https://www.gnu.org/software/gzip/manual/gzip.html>.
 
 - Compress a file, replacing it with a `gzip` archive:
 
-`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span>
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Decompress a file, replacing it with the original uncompressed version:
 
-`gzip -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span>`.gz`
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decompress path/to/file.gz</span>
 
 - Compress a file, keeping the original file:
 
-`gzip --keep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span>
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-k|--keep path/to/file</span>
 
-- Compress a file specifying the output filename:
+- Compress a file, specifying the output filename:
 
-`gzip -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compressed_file.ext.gz</span>
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|--stdout path/to/file</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.gz</span>
 
 - Decompress a `gzip` archive specifying the output filename:
 
-`gzip -c -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span>`.gz > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uncompressed_file.ext</span>
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|--stdout -d|--decompress path/to/file.gz</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/uncompressed_file</span>
 
-- Specify the compression level. 1=Fastest (Worst), 9=Slowest (Best), Default level is 6:
+- Specify the compression level. 1 is the fastest (low compression), 9 is the slowest (high compression), 6 is the default:
 
-`gzip -9 -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compressed_file.ext.gz</span>
+`gzip -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..9 -c|--stdout path/to/file</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.gz</span>
+
+- Display the name and reduction percentage for each file compressed or decompressed:
+
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose -d|--decompress path/to/file.gz</span>
