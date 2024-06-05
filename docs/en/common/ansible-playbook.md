@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible-playbook (English)
 description: "Execute tasks defined in playbook on remote machines over SSH."
-content_hash: fff3a94859757f433429afa3c930bebb1d038dea
-last_modified_at: 2024-02-09
+content_hash: 7a232cddb68f37999aac916fe166c35a46bb9ec8
+last_modified_at: 2024-06-05
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-playbook.html
@@ -50,3 +50,7 @@ More information: <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.
 - Run tasks in a playbook starting at a specific task:
 
 `ansible-playbook `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span>` --start-at `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span>
+
+- Run tasks in a playbook without making any changes (dry-run):
+
+`ansible-playbook `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span>` --check --diff`
