@@ -2,7 +2,7 @@
 layout: page
 title: common/audtool (English)
 description: "Control Audacious using commands."
-content_hash: ff19eec54826fa5e20912144c1be4b014fe47e6c
+content_hash: e71b6a0b79ea1dc46fd3616751cfa172edc6bbd9
 last_modified_at: 2024-06-05
 tldri18n_status: 0
 ---
@@ -40,7 +40,7 @@ More information: <https://manned.org/audtool>.
 
 `audtool current-song-bitrate-kbps`
 
-- Open audacious in full-screen if hidden:
+- Open Audacious in full-screen if hidden:
 
 `audtool mainwin-show`
 
