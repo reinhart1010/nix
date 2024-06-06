@@ -3,7 +3,7 @@ layout: page
 title: common/ansible-playbook (Deutsch)
 description: "In Playbook definierte Aufgaben auf entfernten Rechnern über SSH ausführen."
 content_hash: 9b8441483e3d37a77148c30f32c1bf772a887f20
-last_modified_at: 2023-11-12
+last_modified_at: 2024-06-06
 related_topics:
   - title: English version
     url: /en/common/ansible-playbook.html
@@ -20,9 +20,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansible-playbook.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ansible-playbook
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ansible-playbook
 
 In Playbook definierte Aufgaben auf entfernten Rechnern über SSH ausführen.
 Weitere Informationen: <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.

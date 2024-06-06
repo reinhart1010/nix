@@ -3,7 +3,7 @@ layout: page
 title: common/ansible-playbook (français)
 description: "Exécute les tâches définies dans le playbook sur les machines distantes via SSH."
 content_hash: 7c9a55430743a482c955d4056abebffc5fc657e7
-last_modified_at: 2023-11-12
+last_modified_at: 2024-06-06
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-playbook.html
@@ -20,9 +20,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansible-playbook.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ansible-playbook
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ansible-playbook
 
 Exécute les tâches définies dans le playbook sur les machines distantes via SSH.
 Plus d'informations : <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.

@@ -3,14 +3,17 @@ layout: page
 title: common/gzip (português (Brasil))
 description: "Compacta/descompacta arquivos com compressão gzip (LZ77)."
 content_hash: ad61a4251313587ca9c7aeb5a7a877f48bd84e67
-last_modified_at: 2023-11-12
+last_modified_at: 2024-06-06
 related_topics:
   - title: English version
     url: /en/common/gzip.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# gzip
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gzip
 
 Compacta/descompacta arquivos com compressão gzip (LZ77).
 Mais informações: <https://www.gnu.org/software/gzip/manual/gzip.html>.
