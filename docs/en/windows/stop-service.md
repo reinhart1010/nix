@@ -2,14 +2,14 @@
 layout: page
 title: windows/stop-service (English)
 description: "Stops running services."
-content_hash: c4ba9650e334543217dd55f1fbc700fed3ad3e04
-last_modified_at: 2024-01-25
+content_hash: 52fcb6434125c1cf21804b91aa9c89997c9df980
+last_modified_at: 2024-06-07
 tldri18n_status: 2
 ---
 # Stop-Service
 
 Stops running services.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/stop-service>.
 
 - Stop a service on the local computer:

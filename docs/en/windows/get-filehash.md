@@ -2,8 +2,8 @@
 layout: page
 title: windows/get-filehash (English)
 description: "Calculate a hash for a file."
-content_hash: 8330556ba65ccedc961f74a6c498722714ce1041
-last_modified_at: 2023-11-12
+content_hash: c82feb00cf30105835592bc43609890af2056762
+last_modified_at: 2024-06-07
 related_topics:
   - title: 中文 version
     url: /zh/windows/get-filehash.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # Get-FileHash
 
 Calculate a hash for a file.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-filehash>.
 
 - Calculate a hash for a specified file using the SHA256 algorithm:

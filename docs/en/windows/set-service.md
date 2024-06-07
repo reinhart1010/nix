@@ -2,14 +2,14 @@
 layout: page
 title: windows/set-service (English)
 description: "Starts, stops, and suspends a service, and changes its properties."
-content_hash: 9ac4233411221ea05108f20bafb44b8eafa8aace
-last_modified_at: 2023-11-12
+content_hash: c418e2830a897098e0d93a4b65a13b8eb01564d8
+last_modified_at: 2024-06-07
 tldri18n_status: 2
 ---
 # Set-Service
 
 Starts, stops, and suspends a service, and changes its properties.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-service>.
 
 - Change a display name:

@@ -2,14 +2,18 @@
 layout: page
 title: windows/test-netconnection (English)
 description: "Display diagnostic information for a connection."
-content_hash: 557486458d9de0e4547c11bcbab9cb4f16edb90b
-last_modified_at: 2024-04-22
+content_hash: 82eb821536aac28ba2b0548a84468eb5019da8db
+last_modified_at: 2024-06-07
+related_topics:
+  - title: español version
+    url: /es/windows/test-netconnection.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # Test-NetConnection
 
 Display diagnostic information for a connection.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/nettcpip/test-netconnection>.
 
 - Test a connection and display detailed results:

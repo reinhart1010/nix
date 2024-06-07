@@ -2,14 +2,14 @@
 layout: page
 title: windows/show-markdown (English)
 description: "Shows a Markdown file or string in the console in a friendly way using VT100 escape sequences or in a browser using HTML."
-content_hash: 1f0b68fd0e14311c13892ef1f87e0fd03c38c997
-last_modified_at: 2023-11-12
+content_hash: 6c8b1e312e4dca8a2a628e45ce9d40fe662d016a
+last_modified_at: 2024-06-07
 tldri18n_status: 2
 ---
 # Show-Markdown
 
 Shows a Markdown file or string in the console in a friendly way using VT100 escape sequences or in a browser using HTML.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/show-markdown>.
 
 - Render markdown to console from a file:

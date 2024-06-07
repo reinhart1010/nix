@@ -2,14 +2,14 @@
 layout: page
 title: windows/start-service (English)
 description: "Starts stopped services."
-content_hash: 85499da60bbfe650dd444d98ace96e5e923b387a
-last_modified_at: 2024-01-25
+content_hash: f15846315b58ebf93bfc0f2b4e1566d6769bbed8
+last_modified_at: 2024-06-07
 tldri18n_status: 2
 ---
 # Start-Service
 
 Starts stopped services.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/start-service>.
 
 - Start a service by using its name:

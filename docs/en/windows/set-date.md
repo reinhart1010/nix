@@ -2,14 +2,14 @@
 layout: page
 title: windows/set-date (English)
 description: "Changes the system time on the computer to a time that you specify."
-content_hash: 8113049de48014cb8fc9d2dc5f83d0d98be996d8
-last_modified_at: 2023-11-12
+content_hash: 8fd8ec6ff2139f3816f551051eb26450d7972698
+last_modified_at: 2024-06-07
 tldri18n_status: 2
 ---
 # Set-Date
 
 Changes the system time on the computer to a time that you specify.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/set-date>.
 
 - Add three days to the system date:

@@ -2,14 +2,18 @@
 layout: page
 title: windows/new-item (English)
 description: "Create a new file, directory, symbolic link, or a registry entry."
-content_hash: 18a66b3b3e7f057f35eed681065c2bcea3d4ffad
-last_modified_at: 2023-11-12
+content_hash: 4d147d37841342f2eef94649b70c9cb5fc7f5278
+last_modified_at: 2024-06-07
+related_topics:
+  - title: Nederlands version
+    url: /nl/windows/new-item.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # New-Item
 
 Create a new file, directory, symbolic link, or a registry entry.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
 
 - Create a new blank file (equivalent to `touch`):

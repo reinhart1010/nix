@@ -2,14 +2,14 @@
 layout: page
 title: windows/sort-object (English)
 description: "Sorts objects by property values."
-content_hash: 67b9a434a86833c4ae2c17247761a3f1732cc4f6
-last_modified_at: 2023-11-12
+content_hash: 1d52666e1d4bb57d44b7698326020271325f1964
+last_modified_at: 2024-06-07
 tldri18n_status: 2
 ---
 # Sort-Object
 
 Sorts objects by property values.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/sort-object>.
 
 - Sort the current directory by name:

@@ -2,8 +2,8 @@
 layout: page
 title: windows/select-string (English)
 description: "Finds text in strings and files in PowerShell."
-content_hash: 6975da7d2eb21f47c99e1ca1505bdeccf2931652
-last_modified_at: 2024-01-30
+content_hash: c92e762eeffadbcb80bdc9f8b2236e5432c18d38
+last_modified_at: 2024-06-07
 related_topics:
   - title: Nederlands version
     url: /nl/windows/select-string.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # Select-String
 
 Finds text in strings and files in PowerShell.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 

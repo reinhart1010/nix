@@ -2,14 +2,14 @@
 layout: page
 title: windows/test-json (English)
 description: "Test whether a string is a valid JSON document."
-content_hash: 44b745be58ed1c425ccf0532cb44f6c9d6d259cd
-last_modified_at: 2023-11-15
+content_hash: 83dfa06ac2c79c45f99b103ee73f5dfd503ebca9
+last_modified_at: 2024-06-07
 tldri18n_status: 2
 ---
 # Test-Json
 
 Test whether a string is a valid JSON document.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/test-json>.
 
 - Test if a string from `stdin` is in JSON format:

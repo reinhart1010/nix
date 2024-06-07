@@ -2,14 +2,14 @@
 layout: page
 title: windows/resolve-path (English)
 description: "Resolves the wildcard characters in a path, and displays the path contents."
-content_hash: 4077957fb39228a728134809beff6ef570c9b442
-last_modified_at: 2023-11-12
+content_hash: 997b8df4bb9a4ffd0574f390cc541ee886d559ea
+last_modified_at: 2024-06-07
 tldri18n_status: 2
 ---
 # Resolve-Path
 
 Resolves the wildcard characters in a path, and displays the path contents.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/resolve-path>.
 
 - Resolve the home folder path:

@@ -2,14 +2,14 @@
 layout: page
 title: windows/get-childitem (English)
 description: "List items in a directory."
-content_hash: 6d92c1a397056a175b5779f829f93a8bc99e18a7
-last_modified_at: 2023-11-12
+content_hash: 35dcf75426e920435d81d7f6d7ebf297c4a52dc1
+last_modified_at: 2024-06-07
 tldri18n_status: 2
 ---
 # Get-ChildItem
 
 List items in a directory.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-childitem>.
 
 - List all non-hidden items in the current directory:

@@ -2,18 +2,21 @@
 layout: page
 title: windows/invoke-webrequest (English)
 description: "Performs a HTTP/HTTPS request to the Web."
-content_hash: c3d24b605eb8a81c7d8d0f09bc9fd2cb02dee081
-last_modified_at: 2023-11-12
+content_hash: e3d8728be6b903d4f4871cfd2f18dc9051eaa362
+last_modified_at: 2024-06-07
 related_topics:
   - title: Indonesia version
     url: /id/windows/invoke-webrequest.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/invoke-webrequest.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # Invoke-WebRequest
 
 Performs a HTTP/HTTPS request to the Web.
-This command can only be used through PowerShell.
+Note: This command can only be used through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Download the contents of a URL to a file:
