@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (español)
 description: "Encuentra patrones en archivos usando expresiones regulares."
-content_hash: 98b3db9e630918830d17c5267a344dd0e98b3cad
-last_modified_at: 2023-12-29
+content_hash: cb24b78fe868d215f83eed758f7dae0924773c89
+last_modified_at: 2024-06-08
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -34,6 +34,9 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/grep.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/grep.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -66,7 +69,7 @@ Más información: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 `grep --with-filename --line-number --color=always "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón_de_búsqueda</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Busca líneas que coincidan con un patrón e imprime sólo el texto coincidente:
+- Busca líneas que coincidan con un patrón e imprime solo el texto coincidente:
 
 `grep --only-matching "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón_de_búsqueda</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
