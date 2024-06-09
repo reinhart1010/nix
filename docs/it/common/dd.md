@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (italiano)
 description: "Converti e copia un file."
-content_hash: c0ce3673687d965cdebebcac0e2dbf9e11023aa1
-last_modified_at: 2024-05-06
+content_hash: 356eb9cbccc1c69c6d452295cc99aa10d76f99e9
+last_modified_at: 2024-06-09
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -40,6 +40,6 @@ Maggiori informazioni: <https://manned.org/man/dd.1p>.
 
 `dd if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_1GB</span>` bs=1024 count=1000000`
 
-- Mostra il progresso di un'operazione dd in corso (comando da eseguire in un'altra shell):
+- Mostra il progresso di un'operazione `dd` in corso (comando da eseguire in un'altra shell):
 
 `kill -USR1 $(pgrep -x dd)`

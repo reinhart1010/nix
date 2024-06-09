@@ -2,8 +2,8 @@
 layout: page
 title: osx/dd (español)
 description: "Convierte y copia un archivo."
-content_hash: 8164add0b7f696b4032be3a0d3afc9a7742f6db0
-last_modified_at: 2024-02-13
+content_hash: 79a8afc5f8327d34a7ece510a3edae599fcb30eb
+last_modified_at: 2024-06-09
 related_topics:
   - title: English version
     url: /en/osx/dd.html
@@ -27,11 +27,11 @@ Más información: <https://keith.github.io/xcode-man-pages/dd.1.html>.
 
 - Clona una unidad a otra unidad con un bloque de 4 MB, ignora el error y muestra el progreso:
 
-`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_de origen</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_de destino</span>` bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4m</span>` conv=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">noerror</span>` status=progress`
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_de origen</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_de destino</span>` bs=4m conv=noerror status=progress`
 
 - Genera un fichero de 100 bytes aleatorios utilizando el controlador aleatorio del kernel:
 
-`dd if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_aleatorio</span>` bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`dd if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_aleatorio</span>` bs=100 count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
 - Compara el rendimiento de escritura de un disco:
 
@@ -45,6 +45,6 @@ Más información: <https://keith.github.io/xcode-man-pages/dd.1.html>.
 
 `dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.img</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/unidad_dispositivo</span>` status=progress`
 
-- Comprueba el progreso de una operación dd en curso (ejecuta este comando desde otro shell):
+- Comprueba el progreso de una operación `dd` en curso (ejecuta este comando desde otro shell):
 
 `kill -USR1 $(pgrep -x dd)`

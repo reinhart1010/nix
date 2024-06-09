@@ -2,11 +2,14 @@
 layout: page
 title: linux/dd (한국어)
 description: "파일 변환 및 복사."
-content_hash: 3c57dc6050bf6bb0971569e6b41276491c5d159f
-last_modified_at: 2024-03-04
+content_hash: a154b13913266d51c7d349fb01b6fb7d74dde1de
+last_modified_at: 2024-06-09
 related_topics:
   - title: English version
     url: /en/linux/dd.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/dd.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -24,11 +27,11 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - 4 MiB 블록이 있는 다른 드라이브에 드라이브를 복제하고, 오류를 무시하고 진행 상황을 표시:
 
-`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/소스_드라이브</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/목적지_드라이브</span>` bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4M</span>` conv=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">noerror</span>` status=progress`
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/소스_드라이브</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/목적지_드라이브</span>` bs=4m conv=noerror status=progress`
 
 - 커널 랜덤 드라이버를 사용하여 랜덤 100바이트의 파일 생성:
 
-`dd if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/랜덤_파일</span>` bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`dd if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/랜덤_파일</span>` bs=100 count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
 - 디스크의 쓰기 성능 벤치마크:
 
@@ -42,6 +45,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.img</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/드라이브_장치</span>` status=progress`
 
-- 진행 중인 dd 작업의 진행 상황을 확인 (다른 셸에서 이 명령어 실행):
+- 진행 중인 `dd` 작업의 진행 상황을 확인 (다른 셸에서 이 명령어 실행):
 
 `kill -USR1 $(pgrep -x dd)`

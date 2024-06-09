@@ -2,9 +2,12 @@
 layout: page
 title: linux/dd (English)
 description: "Convert and copy a file."
-content_hash: 20d9f874920986420aa1ff0c198c9120b00d0e7b
-last_modified_at: 2024-03-04
+content_hash: 1aa8a5362bcea0e4bf2b5c4be91cca6a03f7e6fa
+last_modified_at: 2024-06-09
 related_topics:
+  - title: فارسی version
+    url: /fa/linux/dd.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/dd.html
     icon: bi bi-globe
@@ -21,7 +24,7 @@ More information: <https://www.gnu.org/software/coreutils/dd>.
 
 - Clone a drive to another drive with 4 MiB block size and flush writes before the command terminates:
 
-`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4M</span>` conv=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fsync</span>` if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/source_drive</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dest_drive</span>
+`dd bs=4M conv=fsync if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/source_drive</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dest_drive</span>
 
 - Generate a file with a specific number of random bytes by using kernel random driver:
 
@@ -35,6 +38,6 @@ More information: <https://www.gnu.org/software/coreutils/dd>.
 
 `dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/drive_device</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span>
 
-- Check the progress of an ongoing dd operation (run this command from another shell):
+- Check the progress of an ongoing `dd` operation (run this command from another shell):
 
 `kill -USR1 $(pgrep -x dd)`

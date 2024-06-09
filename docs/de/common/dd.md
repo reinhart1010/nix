@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (Deutsch)
 description: "Konvertiere und kopiere eine Datei."
-content_hash: 6e438d5ae0a399e1b1cf26d684a6fa83f8025ed6
-last_modified_at: 2024-05-06
+content_hash: 26fc600cf23af8829c83d6f7e484f07044195608
+last_modified_at: 2024-06-09
 related_topics:
   - title: English version
     url: /en/common/dd.html
@@ -51,6 +51,6 @@ Weitere Informationen: <https://manned.org/man/dd.1p>.
 
 `dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.img</span>` of=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">laufwerk</span>` status=progress`
 
-- Überprüfe den Fortschritt eines laufenden dd-Prozesses (Führe diesen Befehl von einer anderen Shell aus):
+- Überprüfe den Fortschritt eines laufenden `dd`-Prozesses (Führe diesen Befehl von einer anderen Shell aus):
 
 `kill -USR1 $(pgrep -x dd)`

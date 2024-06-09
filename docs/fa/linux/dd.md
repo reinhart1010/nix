@@ -2,8 +2,8 @@
 layout: page
 title: linux/dd (فارسی)
 description: "تبدیل و کپی یک فایل."
-content_hash: 75418fc54ee0c7733fee44694d109d21adf92404
-last_modified_at: 2024-03-13
+content_hash: 8d78bc9632be17a1fe02529d24bca9447f448143
+last_modified_at: 2024-06-09
 related_topics:
   - title: English version
     url: /en/linux/dd.html
@@ -24,7 +24,7 @@ tldri18n_status: 2
 
 - کلون کردن یک درایو به یک درایو دیگر با اندازهٔ بلوک ۴ مگابایت و اعمال چیزهای نوشته شده پیش از خاتمهٔ دستور:
 
-`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4M</span>` conv=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fsync</span>` if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/source_drive</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dest_drive</span>
+`dd bs=4M conv=fsync if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/source_drive</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dest_drive</span>
 
 - ایجاد یک فایل با تعداد مشخصی بایت تصادفی با استفاده از درایور random کرنل:
 
@@ -38,6 +38,6 @@ tldri18n_status: 2
 
 `dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/drive_device</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span>
 
-- بررسی پیشرفت یک عملکرد در حال اجرای dd (این دستور را از یک پوستهٔ دیگر اجرا کنید):
+- بررسی پیشرفت یک عملکرد در حال اجرای `dd` (این دستور را از یک پوستهٔ دیگر اجرا کنید):
 
 `kill -USR1 $(pgrep -x dd)`

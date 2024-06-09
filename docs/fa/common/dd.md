@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (فارسی)
 description: "تبدیل و کپی یک فایل."
-content_hash: 22a738da423ff86135857ca0905d6683d5e8ff87
-last_modified_at: 2024-05-06
+content_hash: d9e0fa47f6bf01c03ed669c57f5bb965458474ce
+last_modified_at: 2024-06-09
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -33,11 +33,11 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - محتویات یک درایو را در مکانی دیگر با بلوک های 4 مگابایتی کپی و همچنین از خطاها صرف نظر میکند:
 
-`dd if=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_drive</span>` of=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dest_drive</span>` bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4194304</span>` conv=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">noerror</span>
+`dd if=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_drive</span>` of=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dest_drive</span>` bs=4194304 conv=noerror`
 
 - یک فایل ۱۰۰ بایتی تصادفی با استفاده از درایور تصادفی هسته بسازید:
 
-`dd if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/random_file</span>` bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`dd if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/random_file</span>` bs=100 count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
 - عملکرد نوشتن دیسک را بسنجید:
 
