@@ -3,23 +3,14 @@ layout: page
 title: common/hledger-balance (español)
 description: "Un informe \"sumatorio\" flexible y de propósito general que muestra cuentas con algún tipo de dato numérico."
 content_hash: 76ac06e8bad0429d59dfc63e5aee9fe7f417600c
-last_modified_at: 2024-06-08
+last_modified_at: 2024-06-09
 related_topics:
   - title: English version
     url: /en/common/hledger-balance.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hledger-balance.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hledger balance
+# hledger balance
 
 Un informe "sumatorio" flexible y de propósito general que muestra cuentas con algún tipo de dato numérico.
 Puede tratarse de cambios de saldo por periodo, saldos finales, rendimiento presupuestario, plusvalías latentes, etc.

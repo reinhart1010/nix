@@ -2,8 +2,8 @@
 layout: page
 title: common/audtool (English)
 description: "Control Audacious using commands."
-content_hash: e71b6a0b79ea1dc46fd3616751cfa172edc6bbd9
-last_modified_at: 2024-06-06
+content_hash: 41769450f771c41a29d8e9a4a31789b03d838c25
+last_modified_at: 2024-06-09
 related_topics:
   - title: español version
     url: /es/common/audtool.html
@@ -13,6 +13,7 @@ tldri18n_status: 2
 # audtool
 
 Control Audacious using commands.
+See also: `audacious`.
 More information: <https://manned.org/audtool>.
 
 - Play/pause audio playback:

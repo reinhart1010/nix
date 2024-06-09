@@ -2,8 +2,8 @@
 layout: page
 title: common/audacious (English)
 description: "An open-source audio player. Indirectly based on XMMS."
-content_hash: 3e95bf2f8894ca53f290782deeccb2695de0309f
-last_modified_at: 2024-04-04
+content_hash: 9ec17c190411d0b000eb01580d553633200fa094
+last_modified_at: 2024-06-09
 related_topics:
   - title: español version
     url: /es/common/audacious.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # audacious
 
 An open-source audio player. Indirectly based on XMMS.
-See also: `clementine`, `mpc`, `ncmpcpp`.
+See also: `audtool`, `clementine`, `mpc`, `ncmpcpp`.
 More information: <https://audacious-media-player.org>.
 
 - Launch the GUI:
