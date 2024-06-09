@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/typeinc (English)
-description: "An `ncurses` based terminal typing speed test program, written in python."
-content_hash: f1acfe6c98be60f025301c307b5dc857a6d41735
-last_modified_at: 2024-06-05
+description: "An `ncurses` based terminal typing speed test program, written in Python."
+content_hash: 5725b282e36783f2532908cb2c3890f512229ce3
+last_modified_at: 2024-06-09
 tldri18n_status: 2
 ---
 # typeinc
 
-An `ncurses` based terminal typing speed test program, written in python.
+An `ncurses` based terminal typing speed test program, written in Python.
 Try out different difficulty levels and improve your typing speed.
 More information: <https://github.com/AnirudhG07/Typeinc>.
 
@@ -16,14 +16,14 @@ More information: <https://github.com/AnirudhG07/Typeinc>.
 
 `typeinc`
 
-- Display the top 10 [r]anklist for input difficulty level:
+- Display the top 10 rank list for input difficulty level:
 
-`typeinc --ranklist `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">difficulty_level</span>
+`typeinc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--ranklist</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">difficulty_level</span>
 
-- Get random English [w]ords present in our wordlist:
+- Get random English words present in our wordlist:
 
-`typeinc --words `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">word_count</span>
+`typeinc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|--words</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">word_count</span>
 
-- Calculate hypothetical Typeinc [s]core:
+- Calculate hypothetical Typeinc score:
 
-`typeinc --score`
+`typeinc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|--score</span>

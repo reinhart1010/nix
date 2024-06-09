@@ -2,8 +2,8 @@
 layout: page
 title: osx/date (中文)
 description: "设置或显示系统日期。"
-content_hash: a8155f35e1ae1f03ac7f0e1ea583f6d82b7f26e3
-last_modified_at: 2024-01-31
+content_hash: 8abd3693301d4c8584d1d12225af258994abafa4
+last_modified_at: 2024-06-09
 related_topics:
   - title: English version
     url: /en/osx/date.html
@@ -41,4 +41,4 @@ tldri18n_status: 2
 
 - 使用默认格式显示特定日期（格式化指定 UNIX 时间戳）：
 
-`date -r 1473305798`
+`date -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1473305798</span>

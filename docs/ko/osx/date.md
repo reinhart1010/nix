@@ -2,8 +2,8 @@
 layout: page
 title: osx/date (한국어)
 description: "시스템 날짜 설정 또는 표시."
-content_hash: 6d7c37a207fd581b7619780068aa467a0cd56e73
-last_modified_at: 2024-01-31
+content_hash: e29319fb47bf82ab812d30fc67efce2a5b512969
+last_modified_at: 2024-06-09
 related_topics:
   - title: English version
     url: /en/osx/date.html
@@ -41,4 +41,4 @@ tldri18n_status: 2
 
 - 기본 형식을 사용하여 특정 날짜(Unix 타임스탬프로 표시) 표시:
 
-`date -r 1473305798`
+`date -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1473305798</span>

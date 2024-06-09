@@ -2,8 +2,8 @@
 layout: page
 title: osx/date (Indonesia)
 description: "Mengatur atau menampilkan tanggal sistem."
-content_hash: 0087134d1a681c0d04204644ee6391e080277aab
-last_modified_at: 2024-01-31
+content_hash: 63484776378d3d3186766aeaee788d6c4f816f51
+last_modified_at: 2024-06-09
 related_topics:
   - title: English version
     url: /en/osx/date.html
@@ -41,4 +41,4 @@ Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/date.1.html>.
 
 - Menampilkan tanggal tertentu (diwakili sebagai _Unix timestamp_) menggunakan format bawaan:
 
-`date -r 1473305798`
+`date -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1473305798</span>

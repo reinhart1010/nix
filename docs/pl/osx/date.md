@@ -2,8 +2,8 @@
 layout: page
 title: osx/date (polski)
 description: "Ustaw bądź wyświetl datę systemową."
-content_hash: 60bb73a57acdbc3a8d1568493811774047c2108a
-last_modified_at: 2024-01-31
+content_hash: ae6bec9d64b8e51c3beb026f18a405f4f34b7cc9
+last_modified_at: 2024-06-09
 related_topics:
   - title: English version
     url: /en/osx/date.html
@@ -41,4 +41,4 @@ Więcej informacji: <https://keith.github.io/xcode-man-pages/date.1.html>.
 
 - Wyświetl określoną datę jako znacznik czasu Unix w domyślnym formacie:
 
-`date -r 1473305798`
+`date -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1473305798</span>

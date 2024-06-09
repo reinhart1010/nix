@@ -2,8 +2,8 @@
 layout: page
 title: osx/date (English)
 description: "Set or display the system date."
-content_hash: eb7e8f28d2702845ada7749e3926ce1914fa0287
-last_modified_at: 2024-01-31
+content_hash: d896ba0eae4ff89b54960ce3dc62222f1a94c62d
+last_modified_at: 2024-06-09
 related_topics:
   - title: Indonesia version
     url: /id/osx/date.html
@@ -41,4 +41,4 @@ More information: <https://keith.github.io/xcode-man-pages/date.1.html>.
 
 - Display a specific date (represented as a Unix timestamp) using the default format:
 
-`date -r 1473305798`
+`date -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1473305798</span>

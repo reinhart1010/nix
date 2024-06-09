@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (한국어)
 description: "파일 출력 및 연결."
-content_hash: fbe3e29d63a549fcf97e15d6984069d5efcb15cd
-last_modified_at: 2024-05-06
+content_hash: c73f9c216ce5d2a1b61350587a6a59f6642e46dc
+last_modified_at: 2024-06-09
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -66,14 +66,22 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 파일 출력 및 연결.
 더 많은 정보: <https://manned.org/cat.1posix>.
 
-- 표준출력으로 파일 내용 출력:
+- 파일 내용을 `stdout`으로 출력:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
 
-- 여러 파일을 대상 파일에 연결:
+- 여러 파일을 출력 파일로 연결:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명1 파일명2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_파일명</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일</span>
 
-- 대상 파일에 여러 파일 내용 추가:
+- 여러 파일을 출력 파일에 추가:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명1 파일명2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_파일명</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일</span>
+
+- 버퍼링 없이 파일 내용을 출력 파일로 복사:
+
+`cat -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty12</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty13</span>
+
+- `stdin`을 파일로 쓰기:
+
+`cat - > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>

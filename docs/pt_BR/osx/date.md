@@ -2,8 +2,8 @@
 layout: page
 title: osx/date (português (Brasil))
 description: "Define ou exibe a data do sistema."
-content_hash: 07801b4417b80245d8f58e295d7a03d6f78c2393
-last_modified_at: 2024-01-31
+content_hash: 33bbe9fcb209cc9047a6c6f6d2d88417505a62b7
+last_modified_at: 2024-06-09
 related_topics:
   - title: English version
     url: /en/osx/date.html
@@ -41,4 +41,4 @@ Mais informações: <https://keith.github.io/xcode-man-pages/date.1.html>.
 
 - Exibe uma data específica (representada como um timestamp Unix) usando o formato padrão:
 
-`date -r 1473305798`
+`date -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1473305798</span>
