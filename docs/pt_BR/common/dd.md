@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (português (Brasil))
 description: "Converte e copia um arquivo."
-content_hash: 24c02422a0668aff3dcc777dd40ad96f2ebab0d7
-last_modified_at: 2024-06-09
+content_hash: 1cfd54f550fdcecac7fd72d7e0d1602e6248418f
+last_modified_at: 2024-06-10
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -17,6 +17,9 @@ related_topics:
   - title: italiano version
     url: /it/common/dd.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/dd.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -27,30 +30,22 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Converte e copia um arquivo.
 Mais informações: <https://manned.org/man/dd.1p>.
 
-- Cria um USB drive bootável a partir de um arquivo isohybrid (como uma archlinux-xxx.iso) e mostra o progresso:
+- Cria um USB drive bootável a partir de um arquivo isohybrid (como uma `archlinux-xxx.iso`):
 
-`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.iso</span>` of=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usb_drive</span>` status=progress`
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.iso</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/usb_drive</span>
 
-- Clona um drive para outro drive com 4 MiB block, ignora erros e mostra o progresso:
+- Clona um drive para outro drive com 4 MiB block e ignora erros:
 
-`dd if=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">drive_fonte</span>` of=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">drive_destino</span>` bs=4M conv=noerror status=progress`
+`dd bs=4194304 conv=noerror if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/drive_fonte</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/drive_destino</span>
 
-- Gera um arquivo com 100 bytes aleatórios utilizando o kernel random driver:
+- Gera um arquivo com um número específico de bytes aleatórios utilizando o kernel random driver:
 
-`dd if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_random</span>` bs=100 count=1`
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_random</span>
 
 - Faz o benchmark da performance de escrita de um disco:
 
-`dd if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_1GB</span>` bs=1024 count=1000000`
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_1GB</span>
 
 - Gera um backup do sistema em um arquivo IMG e mostra o progresso:
 
-`dd if=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dispositivo_drive</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.img</span>` status=progress`
-
-- Restaura um drive a partir de um arquivo IMG e mostra o progresso:
-
-`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.img</span>` of=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dispositivo_drive</span>` status=progress`
-
-- Checa o progresso de um processo `dd` rodando (rode esse comando de outro shell):
-
-`kill -USR1 $(pgrep -x dd)`
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_drive</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.img</span>` status=progress`

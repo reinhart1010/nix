@@ -2,14 +2,17 @@
 layout: page
 title: linux/dd (فارسی)
 description: "تبدیل و کپی یک فایل."
-content_hash: 8d78bc9632be17a1fe02529d24bca9447f448143
-last_modified_at: 2024-06-09
+content_hash: 6507ce8dbfbafac3a02cbdc348abee7b924fbdd0
+last_modified_at: 2024-06-10
 related_topics:
   - title: English version
     url: /en/linux/dd.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/dd.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/dd.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -20,7 +23,7 @@ tldri18n_status: 2
 
 - ساخت یک درایو USB قابل بوت از یک فایل iso (مثل `archlinux-xxx.iso`) و نمایش پیشرفت:
 
-`dd status=progress if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.iso</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/usb_drive</span>
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.iso</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/usb_drive</span>` status=progress`
 
 - کلون کردن یک درایو به یک درایو دیگر با اندازهٔ بلوک ۴ مگابایت و اعمال چیزهای نوشته شده پیش از خاتمهٔ دستور:
 
@@ -36,7 +39,7 @@ tldri18n_status: 2
 
 - ساخت یک پشتیبان از سامانه و ذخیرهٔ آن در یک فایل IMG (می‌توان بعداً با تغییر `if` به `of` آن را بازسازی کرد):
 
-`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/drive_device</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span>
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/drive_device</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span>` status=progress`
 
 - بررسی پیشرفت یک عملکرد در حال اجرای `dd` (این دستور را از یک پوستهٔ دیگر اجرا کنید):
 

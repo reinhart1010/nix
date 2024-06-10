@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (English)
 description: "Convert and copy a file."
-content_hash: 3977806f0d3c0d7f15248fa6380e4960ac765ca4
-last_modified_at: 2024-06-09
+content_hash: 2f1d9ae5025b06939df43eb9cddc3d29aca03664
+last_modified_at: 2024-06-10
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/dd.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/dd.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/dd.html
@@ -26,11 +29,11 @@ More information: <https://manned.org/man/dd.1p>.
 
 - Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`):
 
-`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.iso</span>` of=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usb_drive</span>
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.iso</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/usb_drive</span>
 
 - Clone a drive to another drive with 4 MiB block size and flush writes before the command terminates:
 
-`dd bs=4194304 conv=fsync if=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_drive</span>` of=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dest_drive</span>
+`dd bs=4194304 conv=fsync if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/source_drive</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dest_drive</span>
 
 - Generate a file with a specific number of random bytes by using kernel random driver:
 
@@ -40,6 +43,6 @@ More information: <https://manned.org/man/dd.1p>.
 
 `dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_1GB</span>
 
-- Create a system backup and save it into an IMG file (can be restored later by swapping `if` and `of`):
+- Create a system backup, save it into an IMG file (can be restored later by swapping `if` and `of`), and show the progress:
 
-`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/drive_device</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span>
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/drive_device</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span>` status=progress`

@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (italiano)
 description: "Converti e copia un file."
-content_hash: 356eb9cbccc1c69c6d452295cc99aa10d76f99e9
-last_modified_at: 2024-06-09
+content_hash: ff1eca4546c909bdaeb24f0ba6fb2522a0ee0b3c
+last_modified_at: 2024-06-10
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/common/dd.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/dd.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/dd.html
@@ -26,20 +29,16 @@ Maggiori informazioni: <https://manned.org/man/dd.1p>.
 
 - Crea un disco USB avviabile da un file ISO e mostra il progresso:
 
-`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.iso</span>` of=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disco_usb</span>` status=progress`
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.iso</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disco_usb</span>` status=progress`
 
 - Clona un disco in un altro a blocchi di 4MB, ignora gli errori e mostra il progresso:
 
-`dd if=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disco_sorgente</span>` of=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disco_destinazione</span>` bs=4M conv=noerror status=progress`
+`dd bs=4M conv=noerror status=progress if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disco_sorgente</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disco_destinazione</span>
 
 - Genera un file di 100 byte randomici utilizzando il driver random del kernel:
 
-`dd if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_random</span>` bs=100 count=1`
+`dd bs=100 count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_random</span>
 
 - Testa la performance in scrittura di un disco:
 
-`dd if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_1GB</span>` bs=1024 count=1000000`
-
-- Mostra il progresso di un'operazione `dd` in corso (comando da eseguire in un'altra shell):
-
-`kill -USR1 $(pgrep -x dd)`
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_1GB</span>
