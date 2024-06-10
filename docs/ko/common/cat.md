@@ -3,7 +3,7 @@ layout: page
 title: common/cat (한국어)
 description: "파일 출력 및 연결."
 content_hash: c73f9c216ce5d2a1b61350587a6a59f6642e46dc
-last_modified_at: 2024-06-09
+last_modified_at: 2024-06-10
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -56,12 +56,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cat
+# cat
 
 파일 출력 및 연결.
 더 많은 정보: <https://manned.org/cat.1posix>.

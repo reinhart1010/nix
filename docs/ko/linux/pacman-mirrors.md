@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-mirrors (한국어)
 description: "Manjaro Linux용 `pacman` 미러 리스트 생성."
 content_hash: 771645299a95ac644b680722bc652b4d1f1538e4
-last_modified_at: 2024-06-09
+last_modified_at: 2024-06-10
 related_topics:
   - title: English version
     url: /en/linux/pacman-mirrors.html
@@ -23,18 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman-mirrors.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pacman-mirrors.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pacman-mirrors
+# pacman-mirrors
 
 Manjaro Linux용 `pacman` 미러 리스트 생성.
 `pacman-mirrors`를 실행할 때마다 데이터베이스를 동기화하고 `sudo pacman -Syyu`를 사용하여 시스템을 업데이트해야 합니다.

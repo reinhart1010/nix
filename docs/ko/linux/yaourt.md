@@ -3,7 +3,7 @@ layout: page
 title: linux/yaourt (한국어)
 description: "Arch Linux 유틸리티로 Arch User Repository(AUR)에서 패키지를 빌드합니다."
 content_hash: b671b131b585284a3d215873a40f2486ab9415f0
-last_modified_at: 2024-06-09
+last_modified_at: 2024-06-10
 related_topics:
   - title: English version
     url: /en/linux/yaourt.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/yaourt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/yaourt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># yaourt
+# yaourt
 
 Arch Linux 유틸리티로 Arch User Repository(AUR)에서 패키지를 빌드합니다.
 더 많은 정보: <https://linuxcommandlibrary.com/man/yaourt>.

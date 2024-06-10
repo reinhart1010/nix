@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-sync (한국어)
 description: "Arch Linux 패키지 관리 도구."
 content_hash: a1ca3855b50ecdae398860ff747552f65ec8703c
-last_modified_at: 2024-06-09
+last_modified_at: 2024-06-10
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -26,18 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman-sync.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pacman-sync.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pacman --sync
+# pacman --sync
 
 Arch Linux 패키지 관리 도구.
 같이 보기: `pacman`.

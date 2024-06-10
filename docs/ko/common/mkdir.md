@@ -3,7 +3,7 @@ layout: page
 title: common/mkdir (한국어)
 description: "디렉토리를 생성하고 해당 권한을 설정합니다."
 content_hash: 5c359d57aad6e57382c863c849016ee0e12616c7
-last_modified_at: 2024-06-09
+last_modified_at: 2024-06-10
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -38,18 +38,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mkdir.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mkdir
+# mkdir
 
 디렉토리를 생성하고 해당 권한을 설정합니다.
 더 많은 정보: <https://www.gnu.org/software/coreutils/mkdir>.
