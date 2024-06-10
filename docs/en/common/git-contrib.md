@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/git-contrib (English)
-description: "Display commits from a author."
-content_hash: 05a765a2d1476022560407e4c5c853a73a12241a
-last_modified_at: 2024-02-15
+description: "Display commits from an author."
+content_hash: d30cc40711f913a7a89aa3bc0d28c6484655dd8e
+last_modified_at: 2024-06-10
 tldri18n_status: 2
 ---
 # git contrib
 
-Display commits from a author.
+Display commits from an author.
 Part of `git-extras`.
 More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-contrib>.
 
