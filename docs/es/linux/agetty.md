@@ -2,8 +2,8 @@
 layout: page
 title: linux/agetty (español)
 description: "Alternativa a `getty`: Abre un puerto `tty`, pide un nombre de usuario, e invoca el comando `/bin/login`."
-content_hash: 707bec22f0b08c307f83cf7e50210206a9c9a177
-last_modified_at: 2024-05-28
+content_hash: 36f26cba26a45965598cea7804c6d93afc793f1d
+last_modified_at: 2024-06-11
 related_topics:
   - title: English version
     url: /en/linux/agetty.html
@@ -17,7 +17,7 @@ Normalmente es invocado por `init`.
 Nota: la tasa de baudios es la velocidad de transferencia de datos entre una terminal y un dispositivo a través de una conexión serie.
 Más información: <https://manned.org/agetty>.
 
-- Conecta `stdin` a un puerto (relativo a `/dev`) y especifica opcionalmente una tasa de baudios (por predeterminado 9600):
+- Conecta `stdin` a un puerto (relativo a `/dev`) y especifica opcionalmente una tasa de baudios (cuyo valor predeterminado es 9600):
 
 `agetty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span>
 
