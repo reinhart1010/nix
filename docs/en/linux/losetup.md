@@ -2,8 +2,8 @@
 layout: page
 title: linux/losetup (English)
 description: "Set up and control loop devices."
-content_hash: edf5e51e362e33513ef5b8c2ca41b42ce049b733
-last_modified_at: 2023-11-12
+content_hash: 7cdb6824b57adc34c78a553b23c045f3756b9753
+last_modified_at: 2024-06-11
 tldri18n_status: 2
 ---
 # losetup
@@ -17,7 +17,7 @@ More information: <https://manned.org/losetup>.
 
 - Attach a file to a given loop device:
 
-`sudo losetup /dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">loop</span>` /`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`sudo losetup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/loop</span>` /`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Attach a file to a new free loop device and scan the device for partitions:
 
@@ -25,7 +25,7 @@ More information: <https://manned.org/losetup>.
 
 - Attach a file to a read-only loop device:
 
-`sudo losetup --read-only /dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">loop</span>` /`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`sudo losetup --read-only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/loop</span>` /`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Detach all loop devices:
 
@@ -33,4 +33,4 @@ More information: <https://manned.org/losetup>.
 
 - Detach a given loop device:
 
-`sudo losetup -d /dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">loop</span>
+`sudo losetup -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/loop</span>

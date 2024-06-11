@@ -2,8 +2,8 @@
 layout: page
 title: common/mpv (português (Brasil))
 description: "Um tocador de vídeo/audio baseado no MPlayer."
-content_hash: f18da1bd86fa5009a5476a33a51e91ca4ae0250f
-last_modified_at: 2023-12-18
+content_hash: 8ea78fabb82dfb944811c7b15456464b144de94f
+last_modified_at: 2024-06-11
 related_topics:
   - title: English version
     url: /en/common/mpv.html
@@ -51,4 +51,4 @@ Mais informações: <https://mpv.io>.
 
 - Mostra a saída da webcam ou de outro dispositivo de entrada de vídeo:
 
-`mpv /dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video0</span>
+`mpv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/video0</span>

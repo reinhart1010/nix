@@ -2,8 +2,8 @@
 layout: page
 title: common/qemu (English)
 description: "Generic machine emulator and virtualizer."
-content_hash: c9667f46a29b736f15ea45d83427115387730855
-last_modified_at: 2023-11-12
+content_hash: ae6dd8a2b72e4690542ee232fc969187a54111e4
+last_modified_at: 2024-06-11
 tldri18n_status: 2
 ---
 # qemu
@@ -30,4 +30,4 @@ More information: <https://www.qemu.org>.
 
 - Boot from physical device (e.g. from USB to test bootable medium):
 
-`qemu-system-i386 -hda /dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_device</span>
+`qemu-system-i386 -hda `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/storage_device</span>

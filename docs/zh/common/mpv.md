@@ -2,14 +2,17 @@
 layout: page
 title: common/mpv (中文)
 description: "一个基于 MPlayer 的音频/视频播放器。"
-content_hash: 62c7effd3fac439365456b32d7a8eff2af9d02e3
-last_modified_at: 2023-11-12
+content_hash: 2139a0a7e4b9ce93fe71e227d87cf5fd2e290f71
+last_modified_at: 2024-06-11
 related_topics:
   - title: English version
     url: /en/common/mpv.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/mpv.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/mpv.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -47,4 +50,4 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - 播放摄像头或其他设备的输出：
 
-`mpv /dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video0</span>
+`mpv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/video0</span>
