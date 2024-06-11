@@ -3,7 +3,7 @@ layout: page
 title: common/git-count-objects (Indonesia)
 description: "Hitung jumlah objek komit yang telah dibuka beserta pemakaian ruang penyimpanan dalam direktori repositori saat ini."
 content_hash: bd0ecc36bd2674bff1a76d7a7739e44baa0c5223
-last_modified_at: 2024-06-10
+last_modified_at: 2024-06-11
 related_topics:
   - title: English version
     url: /en/common/git-count-objects.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-count-objects.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-count-objects.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git count-objects
+# git count-objects
 
 Hitung jumlah objek komit yang telah dibuka beserta pemakaian ruang penyimpanan dalam direktori repositori saat ini.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-count-objects>.

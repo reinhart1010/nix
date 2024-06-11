@@ -3,23 +3,14 @@ layout: page
 title: common/calligrastage (Indonesia)
 description: "Aplikasi presentasi, bagian dari Calligra."
 content_hash: d17664996363c4a75aef19174f8d91d1aa56ecf6
-last_modified_at: 2024-06-10
+last_modified_at: 2024-06-11
 related_topics:
   - title: English version
     url: /en/common/calligrastage.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/calligrastage.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># calligrastage
+# calligrastage
 
 Aplikasi presentasi, bagian dari Calligra.
 Lihat juga: `calligraflow`, `calligrawords`, `calligrasheets`.

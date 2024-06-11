@@ -3,23 +3,14 @@ layout: page
 title: common/calligrasheets (Indonesia)
 description: "Aplikasi pengolah lembar kerja (spreadsheet), bagian dari Calligra."
 content_hash: 695b91780e8340aa8f1cd37769c831572eebf4f3
-last_modified_at: 2024-06-10
+last_modified_at: 2024-06-11
 related_topics:
   - title: English version
     url: /en/common/calligrasheets.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/calligrasheets.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># calligrasheets
+# calligrasheets
 
 Aplikasi pengolah lembar kerja (spreadsheet), bagian dari Calligra.
 Lihat juga: `calligraflow`, `calligrastage`, `calligrawords`.

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/abbr (español)
-description: "Administra abreviaturas para el shell fish."
-content_hash: f48597cd7405472273ebf741bb649907c1f250df
-last_modified_at: 2023-11-12
+description: "Administra abreviaturas del intérprete de comandos fish."
+content_hash: 22fd78105ffb3d973f7065ae303106d4ba218ac8
+last_modified_at: 2024-06-11
 related_topics:
   - title: català version
     url: /ca/linux/abbr.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/linux/abbr.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/abbr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/abbr.html
@@ -30,7 +33,7 @@ tldri18n_status: 2
 ---
 # abbr
 
-Administra abreviaturas para el shell fish.
+Administra abreviaturas del intérprete de comandos fish.
 Las palabras definidas por el usuario se reemplazan con frases más largas después de ingresarlas.
 Más información: <https://fishshell.com/docs/current/cmds/abbr.html>.
 

@@ -3,7 +3,7 @@ layout: page
 title: common/git-config (Indonesia)
 description: "Ubah pengaturan Git untuk repositori-repositori tertentu."
 content_hash: ee1eb14e5c03b9efeb50c2319f3aaaaff4d277af
-last_modified_at: 2024-06-10
+last_modified_at: 2024-06-11
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -32,18 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-config.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-config.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git config
+# git config
 
 Ubah pengaturan Git untuk repositori-repositori tertentu.
 Konfigurasi ini dapat diatur hanya untuk repositori saat ini (lokal/local) atau untuk pengguna sistem operasi saat ini (global).
