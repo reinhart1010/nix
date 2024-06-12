@@ -2,8 +2,8 @@
 layout: page
 title: common/git-archive (English)
 description: "Create an archive of files from a tree."
-content_hash: bebdeba3a2515f8263a7ad0071d555a0011f270a
-last_modified_at: 2024-04-05
+content_hash: ebf0dff7ad0af5e49d33148477c5d1b5d2c111c5
+last_modified_at: 2024-06-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-archive.html
@@ -34,11 +34,11 @@ More information: <https://git-scm.com/docs/git-archive>.
 
 `git archive --verbose HEAD`
 
-- Use the Zip format and report progress [v]erbosely:
+- Use the Zip format and report progress verbosely:
 
 `git archive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>` --format zip HEAD`
 
-- [o]utput the Zip archive to a specific file:
+- Output the Zip archive to a specific file:
 
 `git archive -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zip</span>` HEAD`
 

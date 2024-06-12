@@ -2,8 +2,8 @@
 layout: page
 title: common/gcal (português (Brasil))
 description: "Exibe o calendário."
-content_hash: 1d07ac233d47a7e713fb1a008df3d7f2781385a1
-last_modified_at: 2023-11-12
+content_hash: dc105cf9511e148dffeb3850ee50f48ff90b8890
+last_modified_at: 2024-06-12
 related_topics:
   - title: English version
     url: /en/common/gcal.html
@@ -21,7 +21,7 @@ Mais informações: <https://www.gnu.org/software/gcal>.
 
 - Exibe o calendário para o mês de Fevereiro do ano de 2010:
 
-`gcal `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2010</span>
+`gcal 2 2010`
 
 - Fornece folha de calendário com números da semana:
 
@@ -29,7 +29,7 @@ Mais informações: <https://www.gnu.org/software/gcal>.
 
 - Altera o dia da semana de início para o 1º dia da semana (segunda-feira):
 
-`gcal --starting-day=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`gcal --starting-day=1`
 
 - Exibe o mês anterior, atual e seguinte em torno de hoje:
 

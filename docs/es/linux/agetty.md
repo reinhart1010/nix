@@ -2,8 +2,8 @@
 layout: page
 title: linux/agetty (español)
 description: "Alternativa a `getty`: Abre un puerto `tty`, pide un nombre de usuario, e invoca el comando `/bin/login`."
-content_hash: 36f26cba26a45965598cea7804c6d93afc793f1d
-last_modified_at: 2024-06-11
+content_hash: 282d55ae6d77078f4d069c0f931622c6ffbfd969
+last_modified_at: 2024-06-12
 related_topics:
   - title: English version
     url: /en/linux/agetty.html
@@ -21,7 +21,7 @@ Más información: <https://manned.org/agetty>.
 
 `agetty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span>
 
-- Asume que `stdin` ya está conectado a una `tty` y establece un [t]iempo de espera para el inicio de sesión:
+- Asume que `stdin` ya está conectado a una `tty` y establece un tiempo de espera para el inicio de sesión:
 
 `agetty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|--timeout</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tiempo_de_espera_en_segundos</span>` -`
 
@@ -37,6 +37,6 @@ Más información: <https://manned.org/agetty>.
 
 `agetty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--noissue</span>` -`
 
-- Cambia el directorio [r]aíz y escribe un [H]ost falso en el archivo `utmp`:
+- Cambia el directorio raíz y escribe un host falso en el archivo `utmp`:
 
 `agetty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--chroot</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/raíz_directorio</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|--host</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_falso</span>` -`

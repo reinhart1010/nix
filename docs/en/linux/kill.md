@@ -2,8 +2,8 @@
 layout: page
 title: linux/kill (English)
 description: "Sends a signal to a process, usually related to stopping the process."
-content_hash: a4f96d067d06f8a37dab037828e637d1ad1fa5ee
-last_modified_at: 2024-01-10
+content_hash: 8e6a01a483d16ffce7288f5bceab02ec24f524d8
+last_modified_at: 2024-06-12
 tldri18n_status: 2
 ---
 # kill
@@ -18,7 +18,7 @@ More information: <https://manned.org/kill>.
 
 - List signal values and their corresponding names (to be used without the `SIG` prefix):
 
-`kill -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">L|-table</span>
+`kill `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-L|--table</span>
 
 - Terminate a background job:
 

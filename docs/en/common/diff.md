@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (English)
 description: "Compare files and directories."
-content_hash: 39608b49394b4ed597cecae3d45532cb5e797ffc
-last_modified_at: 2024-03-16
+content_hash: f1dfb077d22fc2f73766f3fa48f90db04993bd15
+last_modified_at: 2024-06-12
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -43,7 +43,7 @@ More information: <https://man7.org/linux/man-pages/man1/diff.1.html>.
 
 `diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_file</span>
 
-- Compare files, ignoring [w]hite spaces:
+- Compare files, ignoring white spaces:
 
 `diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|--ignore-all-space</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_file</span>
 
@@ -51,11 +51,11 @@ More information: <https://man7.org/linux/man-pages/man1/diff.1.html>.
 
 `diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-y|--side-by-side</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_file</span>
 
-- Compare files, showing the differences in [u]nified format (as used by `git diff`):
+- Compare files, showing the differences in unified format (as used by `git diff`):
 
 `diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|--unified</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_file</span>
 
-- Compare directories [r]ecursively (shows names for differing files/directories as well as changes made to files):
+- Compare directories recursively (shows names for differing files/directories as well as changes made to files):
 
 `diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_directory</span>
 

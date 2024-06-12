@@ -2,8 +2,8 @@
 layout: page
 title: common/pydocstyle (español)
 description: "Comprueba estáticamente que los scripts de Python cumplen con las convenciones de documentación de Python."
-content_hash: 5fd306ac72490be2fb447c124277c7a5f535dc1c
-last_modified_at: 2024-04-03
+content_hash: 911984d4e49ef84d7bd744005da0928c9e37d0cb
+last_modified_at: 2024-06-12
 related_topics:
   - title: English version
     url: /en/common/pydocstyle.html
@@ -19,11 +19,11 @@ Más información: <https://www.pydocstyle.org/en/latest/>.
 
 `pydocstyle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.py|ruta/al/directorio</span>
 
-- Muestra una [e]xplicación de cada error:
+- Muestra una explicación de cada error:
 
 `pydocstyle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--explain</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.py|ruta/al/directorio</span>
 
-- Muestra información de [d]epuración:
+- Muestra información de depuración:
 
 `pydocstyle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--debug</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.py|ruta/al/directorio</span>
 

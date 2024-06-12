@@ -2,8 +2,8 @@
 layout: page
 title: common/gcal (English)
 description: "Display calendar."
-content_hash: 90fd529f768bc6bda46f0a29a58654b7fd9a60d7
-last_modified_at: 2024-04-18
+content_hash: 359c729d785c3e3f36fb1ce20ca589917b692ee4
+last_modified_at: 2024-06-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gcal.html
@@ -21,7 +21,7 @@ More information: <https://www.gnu.org/software/gcal>.
 
 - Display calendar for the month of February of the year 2010:
 
-`gcal `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2010</span>
+`gcal 2 2010`
 
 - Provide calendar sheet with week numbers:
 
@@ -29,7 +29,7 @@ More information: <https://www.gnu.org/software/gcal>.
 
 - Change starting day of week to 1st day of the week (Monday):
 
-`gcal --starting-day=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`gcal --starting-day=1`
 
 - Display the previous, current and next month surrounding today:
 
