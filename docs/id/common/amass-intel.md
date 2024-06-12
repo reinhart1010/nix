@@ -3,7 +3,7 @@ layout: page
 title: common/amass-intel (Indonesia)
 description: "Kumpulkan data pendukung pengintaian bersumber terbuka (OSI) terhadap suatu organisasi, seperti domain pangkal dan informasi Nomor Sistem Otonom (ASN)."
 content_hash: 2120a671cfe8937e43d9ea8f9a8deaf103a11c4e
-last_modified_at: 2024-06-11
+last_modified_at: 2024-06-12
 related_topics:
   - title: English version
     url: /en/common/amass-intel.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/amass-intel.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/amass-intel.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># amass intel
+# amass intel
 
 Kumpulkan data pendukung pengintaian bersumber terbuka (OSI) terhadap suatu organisasi, seperti domain pangkal dan informasi Nomor Sistem Otonom (ASN).
 Informasi lebih lanjut: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.

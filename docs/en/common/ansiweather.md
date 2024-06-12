@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ansiweather (English)
-description: "A shell script for displaying the current weather conditions in your terminal."
-content_hash: 1b698c812a0165a3430159b7ffff5e0c9efc642b
-last_modified_at: 2024-02-06
+description: "Display the current weather conditions in your terminal."
+content_hash: fac4271fbb32d06bebe1159fb7a226ca64d25c91
+last_modified_at: 2024-06-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansiweather.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 ---
 # ansiweather
 
-A shell script for displaying the current weather conditions in your terminal.
+Display the current weather conditions in your terminal.
 More information: <https://github.com/fcambus/ansiweather>.
 
 - Display a [f]orecast using metric [u]nits for the next seven days for a specific [l]ocation:

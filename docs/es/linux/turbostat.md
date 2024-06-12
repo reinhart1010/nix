@@ -3,23 +3,14 @@ layout: page
 title: linux/turbostat (español)
 description: "Informa de la topología del procesador, frecuencia, temperatura, potencia y estadísticas de inactividad."
 content_hash: c2e03acace142e71d567a237a4a988d2d524afb6
-last_modified_at: 2024-06-11
+last_modified_at: 2024-06-12
 related_topics:
   - title: English version
     url: /en/linux/turbostat.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/turbostat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># turbostat
+# turbostat
 
 Informa de la topología del procesador, frecuencia, temperatura, potencia y estadísticas de inactividad.
 Más información: <https://manned.org/turbostat.8>.

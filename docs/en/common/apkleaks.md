@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/apkleaks (English)
-description: "An APK file scanner for exposing URIs, endpoints, and secrets."
-content_hash: 77ba849f8db56d57c3e1c3f3e04150fe248cb107
-last_modified_at: 2024-05-18
+description: "Expose URIs, endpoints, and secrets from APK files."
+content_hash: 17519e5584e156b416b32a05e8869b0770bdb97f
+last_modified_at: 2024-06-12
 tldri18n_status: 2
 ---
 # apkleaks
 
-An APK file scanner for exposing URIs, endpoints, and secrets.
+Expose URIs, endpoints, and secrets from APK files.
 Note: APKLeaks utilizes the `jadx` disassembler to decompile APK files.
 More information: <https://github.com/dwisiswant0/apkleaks>.
 
