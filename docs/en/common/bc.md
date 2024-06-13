@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (English)
 description: "An arbitrary precision calculator language."
-content_hash: 3e1f3cbe068cc70807a3568f5c2653aedce7c0b6
-last_modified_at: 2023-11-12
+content_hash: 778dbc3b3f1f8b384c984b72b65463896a5ca1fd
+last_modified_at: 2024-06-13
 related_topics:
   - title: español version
     url: /es/common/bc.html
@@ -20,6 +20,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bc.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/bc.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bc.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ tldri18n_status: 2
 
 An arbitrary precision calculator language.
 See also: `dc`.
-More information: <https://manned.org/man/bc.1>.
+More information: <https://manned.org/bc.1>.
 
 - Start an interactive session:
 

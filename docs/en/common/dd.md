@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (English)
 description: "Convert and copy a file."
-content_hash: 2f1d9ae5025b06939df43eb9cddc3d29aca03664
-last_modified_at: 2024-06-10
+content_hash: 366f5c181d10e3c3e7bc337d0c1cb9a445398e71
+last_modified_at: 2024-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # dd
 
 Convert and copy a file.
-More information: <https://manned.org/man/dd.1p>.
+More information: <https://manned.org/dd.1p>.
 
 - Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`):
 

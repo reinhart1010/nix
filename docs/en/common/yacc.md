@@ -2,15 +2,15 @@
 layout: page
 title: common/yacc (English)
 description: "Generate an LALR parser (in C) with a formal grammar specification file."
-content_hash: d57facd114bd3ac6eb02d444fbd6b6e136eec6d0
-last_modified_at: 2024-02-15
+content_hash: 9c764a5edd0a56d335ad337a47b62e90e8e07772
+last_modified_at: 2024-06-13
 tldri18n_status: 2
 ---
 # yacc
 
 Generate an LALR parser (in C) with a formal grammar specification file.
 See also: `bison`.
-More information: <https://manned.org/man/yacc.1p>.
+More information: <https://manned.org/yacc.1p>.
 
 - Create a file `y.tab.c` containing the C parser code and compile the grammar file with all necessary constant declarations for values. (Constant declarations file `y.tab.h` is created only when the `-d` flag is used):
 
