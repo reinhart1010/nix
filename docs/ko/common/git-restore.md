@@ -3,7 +3,7 @@ layout: page
 title: common/git-restore (한국어)
 description: "작업 트리 파일을 복원합니다. Git 버전 2.23+ 이상이 필요합니다."
 content_hash: 8f42e9d49b32ca6b92056b20ab1b81073b5b23a5
-last_modified_at: 2024-06-12
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/common/git-restore.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-restore.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-restore.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git restore
+# git restore
 
 작업 트리 파일을 복원합니다. Git 버전 2.23+ 이상이 필요합니다.
 같이 보기: `git checkout` 및 `git reset`.

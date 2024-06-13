@@ -3,7 +3,7 @@ layout: page
 title: common/git-rebase (한국어)
 description: "다른 브랜치 위에 있는 커밋을 다시 적용합니다."
 content_hash: ebb3857983bdb8cc86596d7b22275a48f0373e0a
-last_modified_at: 2024-06-12
+last_modified_at: 2024-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -29,18 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-rebase.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-rebase.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git rebase
+# git rebase
 
 다른 브랜치 위에 있는 커밋을 다시 적용합니다.
 주로 전체 브랜치를 다른 기저로 "이동"하여 새 위치에 커밋의 복사본을 만들 때 사용됩니다.

@@ -3,7 +3,7 @@ layout: page
 title: common/ansible-playbook (Indonesia)
 description: "Jalankan kumpulan tugas yang didefinisikan di dalam buku aturan main (playbook), kepada para mesin secara jarak jauh melalui SSH."
 content_hash: bc75071b7fe1fa6ae30607b84fdd9ad09f503b3b
-last_modified_at: 2024-06-12
+last_modified_at: 2024-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-playbook.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansible-playbook.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ansible-playbook.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ansible-playbook
+# ansible-playbook
 
 Jalankan kumpulan tugas yang didefinisikan di dalam buku aturan main (playbook), kepada para mesin secara jarak jauh melalui SSH.
 Informasi lebih lanjut: <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.

@@ -3,7 +3,7 @@ layout: page
 title: common/git-branch (한국어)
 description: "브랜치 작업을 위한 주요 Git 명령어."
 content_hash: 53d80fadec61a91b04d95dbf95f3c582f8a9210d
-last_modified_at: 2024-06-12
+last_modified_at: 2024-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -32,18 +32,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-branch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-branch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git branch
+# git branch
 
 브랜치 작업을 위한 주요 Git 명령어.
 더 많은 정보: <https://git-scm.com/docs/git-branch>.

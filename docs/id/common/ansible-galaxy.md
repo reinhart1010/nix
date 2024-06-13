@@ -3,7 +3,7 @@ layout: page
 title: common/ansible-galaxy (Indonesia)
 description: "Buat dan atur peran pengguna (role) Ansible."
 content_hash: e3d2eb8ec2ed518043f26ed5c4fa0414c22e1773
-last_modified_at: 2024-06-12
+last_modified_at: 2024-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-galaxy.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansible-galaxy.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ansible-galaxy.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ansible-galaxy
+# ansible-galaxy
 
 Buat dan atur peran pengguna (role) Ansible.
 Informasi lebih lanjut: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.

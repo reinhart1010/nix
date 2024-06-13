@@ -3,23 +3,14 @@ layout: page
 title: freebsd/cal (Nederlands)
 description: "Toon een kalender met de huidige dag gemarkeerd."
 content_hash: 3d0c4d97b0781b10b63301449a3cd8f59d03915f
-last_modified_at: 2024-06-12
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/freebsd/cal.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/cal.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cal
+# cal
 
 Toon een kalender met de huidige dag gemarkeerd.
 Meer informatie: <https://man.freebsd.org/cgi/man.cgi?cal>.

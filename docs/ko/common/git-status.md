@@ -3,7 +3,7 @@ layout: page
 title: common/git-status (한국어)
 description: "Git 저장소의 파일 변경 사항을 표시합니다."
 content_hash: 8b1cf70cdb38855807698a8c1c618b4a6939b3ed
-last_modified_at: 2024-06-12
+last_modified_at: 2024-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-status.html
@@ -35,18 +35,9 @@ related_topics:
   - title: українська version
     url: /uk/common/git-status.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-status.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git status
+# git status
 
 Git 저장소의 파일 변경 사항을 표시합니다.
 현재 체크아웃된 커밋과 비교하여 변경된, 추가된 및 삭제된 파일을 나열합니다.

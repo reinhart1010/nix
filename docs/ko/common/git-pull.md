@@ -3,7 +3,7 @@ layout: page
 title: common/git-pull (한국어)
 description: "원격 저장소에서 브랜치를 가져와 로컬 저장소에 병합합니다."
 content_hash: c056d68a1461b7cf9c311c831dd5a901490dd968
-last_modified_at: 2024-06-12
+last_modified_at: 2024-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-pull.html
@@ -35,18 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-pull.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-pull.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git pull
+# git pull
 
 원격 저장소에서 브랜치를 가져와 로컬 저장소에 병합합니다.
 더 많은 정보: <https://git-scm.com/docs/git-pull>.

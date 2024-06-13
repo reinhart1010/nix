@@ -3,7 +3,7 @@ layout: page
 title: common/git-bisect (한국어)
 description: "버그를 도입한 커밋을 찾기 위해 이진 탐색을 사용합니다."
 content_hash: c4eacf9c5291a5be4389e2558db880bbcbaab9c9
-last_modified_at: 2024-06-12
+last_modified_at: 2024-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-bisect.html
@@ -29,18 +29,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-bisect.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-bisect.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git bisect
+# git bisect
 
 버그를 도입한 커밋을 찾기 위해 이진 탐색을 사용합니다.
 Git은 자동적으로 커밋 그래프를 왔다갔다하면서 결함이 있는 커밋을 점차적으로 좁힙니다.

@@ -2,8 +2,8 @@
 layout: page
 title: common/gcal (Nederlands)
 description: "Toon een kalender."
-content_hash: dc179d8f7acec595518b38e685329090d9c4e0a6
-last_modified_at: 2024-06-12
+content_hash: 2727525c5a8db4e789cd801faa28248d73081695
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/common/gcal.html
@@ -11,21 +11,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gcal.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gcal.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcal
+# gcal
 
 Toon een kalender.
-More information: <https://www.gnu.org/software/gcal>.
+Meer informatie: <https://www.gnu.org/software/gcal>.
 
 - Toon een kalender voor de huidige maand:
 

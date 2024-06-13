@@ -3,14 +3,17 @@ layout: page
 title: common/kubectx (ไทย)
 description: "คำสั่งอรรถประโยชน์สำหรับสลับบริบทของคำสั่ง `kubectl`"
 content_hash: f5b4953976a34941873e595fbaf93b1a75597ee1
-last_modified_at: 2023-11-12
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/common/kubectx.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# kubectx
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># kubectx
 
 คำสั่งอรรถประโยชน์สำหรับสลับบริบทของคำสั่ง `kubectl`
 ข้อมูลเพิ่มเติม: <https://github.com/ahmetb/kubectx>
