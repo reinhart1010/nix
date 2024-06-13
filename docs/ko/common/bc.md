@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (한국어)
 description: "계산기의 기능을 수행합니다."
-content_hash: 4e3537c1df00346ca03d064f1dd14c7b8913d08a
-last_modified_at: 2023-11-12
+content_hash: c763c3a081085d520c19a65be6c0105d763e894e
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -20,6 +20,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/bc.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/bc.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bc.html
     icon: bi bi-globe
@@ -31,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># bc
 
 계산기의 기능을 수행합니다.
-더 많은 정보: <https://manned.org/man/bc.1>.
+더 많은 정보: <https://manned.org/bc.1>.
 
 - 표준 Math 라이브러리를 사용한 대화형 모드에서 계산기 실행하기:
 

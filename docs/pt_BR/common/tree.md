@@ -2,8 +2,8 @@
 layout: page
 title: common/tree (português (Brasil))
 description: "Exibe o conteúdo do diretório atual em formato de árvore."
-content_hash: 8c974b4f3c3e313e54b397a41d7671677066bee0
-last_modified_at: 2024-05-24
+content_hash: 0b1a953fa8332094930d95a702acf2a1c58896a0
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/common/tree.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # tree
 
 Exibe o conteúdo do diretório atual em formato de árvore.
-Mais informações: <https://manned.org/man/tree>.
+Mais informações: <https://manned.org/tree>.
 
 - Exibe os arquivos e diretórios de acordo com o nível de profundidade 'num' informado (onde 1 significa o diretório atual):
 

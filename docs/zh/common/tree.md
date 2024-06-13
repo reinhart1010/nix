@@ -2,8 +2,8 @@
 layout: page
 title: common/tree (中文)
 description: "以树的形式显示当前目录的内容。"
-content_hash: 66cd8bd8128013292f786d9ecafa6224db37d029
-last_modified_at: 2024-05-23
+content_hash: 754242b90ae7844000257ef1e09c7690e7b97e80
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/common/tree.html
@@ -28,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># tree
 
 以树的形式显示当前目录的内容。
-更多信息：<https://manned.org/man/tree>.
+更多信息：<https://manned.org/tree>.
 
 - 显示深度达到 “级数” 级的文件和目录（其中 1 表示当前目录）：
 

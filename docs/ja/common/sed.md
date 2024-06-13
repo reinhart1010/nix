@@ -2,8 +2,8 @@
 layout: page
 title: common/sed (日本語)
 description: "スクリプトによるテキスト編集。"
-content_hash: 6eff98b696035883eb50277a72526836e779df32
-last_modified_at: 2023-12-31
+content_hash: fb0ccca7c84d990d2e7301b24ce645e23b098598
+last_modified_at: 2024-06-13
 related_topics:
   - title: dansk version
     url: /da/common/sed.html
@@ -14,6 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/sed.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/sed.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -22,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># sed
 
 スクリプトによるテキスト編集。
-詳しくはこちら: <https://manned.org/man/sed.1posix>
+詳しくはこちら: <https://manned.org/sed.1posix>
 
 - ファイルの各行で正規表現の最初の出現箇所を置換し、その結果を表示する:
 

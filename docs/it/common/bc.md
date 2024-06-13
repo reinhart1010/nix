@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (italiano)
 description: "Calcolatore."
-content_hash: 79d7b93146d8c8791f27a5a9e5894a541210be36
-last_modified_at: 2023-11-12
+content_hash: 2289603a348d90805694ed831cc73afd4579aec8
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -20,6 +20,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bc.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/bc.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bc.html
     icon: bi bi-globe
@@ -31,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># bc
 
 Calcolatore.
-Maggiori informazioni: <https://manned.org/man/bc.1>.
+Maggiori informazioni: <https://manned.org/bc.1>.
 
 - Esegui in modalità interattiva utilizzando la libreria math della standard library:
 

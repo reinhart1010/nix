@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (português (Brasil))
 description: "Uma linguagem de calculadora de precisão arbitrária."
-content_hash: 7dd589858a7df80b92cc9bfa1e5a26bca8a1f16c
-last_modified_at: 2023-12-28
+content_hash: a50df7a0e328626762eabcb533a45eccde5ee3fe
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -32,7 +32,7 @@ tldri18n_status: 2
 
 Uma linguagem de calculadora de precisão arbitrária.
 Veja também: `dc`.
-Mais informações: <https://manned.org/man/bc.1>.
+Mais informações: <https://manned.org/bc.1>.
 
 - Inicia uma sessão interativa:
 

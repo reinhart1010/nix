@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (Nederlands)
 description: "Converteer en kopieer een bestand."
-content_hash: 4c57b0e7824534439f8e10bd4db423d20e224546
-last_modified_at: 2024-06-10
+content_hash: 85e3797e27efe8c0a5bb55c7f7ca090569102add
+last_modified_at: 2024-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # dd
 
 Converteer en kopieer een bestand.
-Meer informatie: <https://manned.org/man/dd.1p>.
+Meer informatie: <https://manned.org/dd.1p>.
 
 - Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`):
 

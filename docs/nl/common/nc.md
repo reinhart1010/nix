@@ -2,8 +2,8 @@
 layout: page
 title: common/nc (Nederlands)
 description: "Netcat is een veelzijdig hulpprogramma voor het omleiden van IO naar een netwerkstream."
-content_hash: 5df06cb7c1309786a0bd53056536a3bf45b6fcd3
-last_modified_at: 2023-11-26
+content_hash: 59d076b3439c94d51a62324482b9fffc430c297d
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/common/nc.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # nc
 
 Netcat is een veelzijdig hulpprogramma voor het omleiden van IO naar een netwerkstream.
-Meer informatie: <https://manned.org/man/nc.1>.
+Meer informatie: <https://manned.org/nc.1>.
 
 - Start een luisteraar op de opgegeven TCP poort en stuur er een bestand in:
 

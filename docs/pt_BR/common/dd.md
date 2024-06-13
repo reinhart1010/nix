@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (português (Brasil))
 description: "Converte e copia um arquivo."
-content_hash: 1cfd54f550fdcecac7fd72d7e0d1602e6248418f
-last_modified_at: 2024-06-11
+content_hash: 40f889f53e316caf8b9a19217936a988d2944768
+last_modified_at: 2024-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # dd
 
 Converte e copia um arquivo.
-Mais informações: <https://manned.org/man/dd.1p>.
+Mais informações: <https://manned.org/dd.1p>.
 
 - Cria um USB drive bootável a partir de um arquivo isohybrid (como uma `archlinux-xxx.iso`):
 

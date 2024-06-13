@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (italiano)
 description: "Converti e copia un file."
-content_hash: ff1eca4546c909bdaeb24f0ba6fb2522a0ee0b3c
-last_modified_at: 2024-06-11
+content_hash: 56bc53b9748d2a94502786d58c108e9fddfc4932
+last_modified_at: 2024-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -28,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># dd
 
 Converti e copia un file.
-Maggiori informazioni: <https://manned.org/man/dd.1p>.
+Maggiori informazioni: <https://manned.org/dd.1p>.
 
 - Crea un disco USB avviabile da un file ISO e mostra il progresso:
 
@@ -38,9 +38,9 @@ Maggiori informazioni: <https://manned.org/man/dd.1p>.
 
 `dd bs=4M conv=noerror status=progress if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disco_sorgente</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disco_destinazione</span>
 
-- Genera un file di 100 byte randomici utilizzando il driver random del kernel:
+- Genera un file con un numero specifico di byte randomici utilizzando il driver random del kernel:
 
-`dd bs=100 count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_random</span>
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_random</span>
 
 - Testa la performance in scrittura di un disco:
 

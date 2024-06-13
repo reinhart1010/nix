@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (Deutsch)
 description: "Konvertiere und kopiere eine Datei."
-content_hash: 1934142aa4649caad31cea08a2cb101564106768
-last_modified_at: 2024-06-10
+content_hash: b6374c36308c85794e96e836648c4499c3084c43
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/common/dd.html
@@ -28,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># dd
 
 Konvertiere und kopiere eine Datei.
-Weitere Informationen: <https://manned.org/man/dd.1p>.
+Weitere Informationen: <https://manned.org/dd.1p>.
 
 - Erstelle ein bootbares USB-Laufwerk von einer isohybriden Datei (wie `archlinux-xxxx.iso`) und zeige den Fortschritt an:
 
@@ -38,9 +38,9 @@ Weitere Informationen: <https://manned.org/man/dd.1p>.
 
 `dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/quell_laufwerk</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ziel_laufwerk</span>` bs=4M conv=noerror status=progress`
 
-- Erstelle eine Datei mit 100 zufälligen Bytes mithilfe des Zufall-Treibers des Kernels:
+- Erstelle eine Datei mit spezifizierte zufälligen Bytes mithilfe des Zufall-Treibers des Kernels:
 
-`dd bs=100 count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
 - Teste die Schreibgeschwindigkeit eines Laufwerks:
 

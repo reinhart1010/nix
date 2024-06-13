@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (Deutsch)
 description: "Findet Ausdrücke in einem Eingabetext."
-content_hash: c06cdd5a04f72143fc7ec0ee5272c106e650ed63
-last_modified_at: 2023-12-29
+content_hash: 148ceb171c81cff35ba143502a5778b21d00ca51
+last_modified_at: 2024-06-13
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -35,6 +35,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/grep.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/grep.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -52,11 +55,11 @@ Weitere Informationen: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Suche nach einem exakten Ausdruck:
 
-`grep --fixed-strings "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exakter_ausdruck</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
+`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-F|--fixed-strings</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exakter_ausdruck</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
 - Benutze erweiterte reguläre Ausdrücke (unterstützt `?`, `+`, `{}`, `()` und `|`) ohne Beachtung der Groß-, Kleinschreibung:
 
-`grep --extended-regexp --ignore-case "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ausdruck</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
+`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-E|--extended-regexp</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--ignore-case</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ausdruck</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
 - Zeige 3 Zeilen Kontext um [C], vor [B] oder nach [A] jedem Ergebnis:
 

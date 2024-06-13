@@ -2,8 +2,8 @@
 layout: page
 title: osx/dd (中文)
 description: "转换并复制文件。"
-content_hash: bc3681aab8c260ecf079e5fa4e39eba79fe97457
-last_modified_at: 2024-06-10
+content_hash: 3914cb0ab4fa4cd8a674a0df8d571002ad00dca9
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/osx/dd.html
@@ -35,9 +35,9 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `dd bs=4m conv=noerror if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/源设备</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/目标设备</span>
 
-- 使用内核随机驱动程序生成 100 个随机字节的文件：
+- 使用内核随机驱动程序生成指定数量个随机字节的文件：
 
-`dd bs=100 count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标驱动器，接收随机数据文件名</span>
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标驱动器，接收随机数据文件名</span>
 
 - 对磁盘的写入性能进行基准测试：
 

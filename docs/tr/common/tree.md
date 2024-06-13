@@ -2,8 +2,8 @@
 layout: page
 title: common/tree (Türkçe)
 description: "Mevcut dizinin içeriğini ağaç biçiminde göster."
-content_hash: dc30c29ad7af1e6e012b7335c266c98879efb1f7
-last_modified_at: 2024-05-23
+content_hash: 61c80d2e8f4ac1ba9ded6bc04ec405ba39d0b2ef
+last_modified_at: 2024-06-13
 related_topics:
   - title: English version
     url: /en/common/tree.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # tree
 
 Mevcut dizinin içeriğini ağaç biçiminde göster.
-Daha fazla bilgi için: <https://manned.org/man/tree>.
+Daha fazla bilgi için: <https://manned.org/tree>.
 
 - Dosya ve dizinleri `num` değeri kadar derinlikte göster (1 olması durumunda mevcut dizin gösterilir):
 

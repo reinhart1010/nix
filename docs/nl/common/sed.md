@@ -2,8 +2,8 @@
 layout: page
 title: common/sed (Nederlands)
 description: "Pas tekst aan in een op een scriptbare manier."
-content_hash: 80768eb9d334366980907a7adedfbc8b82354068
-last_modified_at: 2024-01-09
+content_hash: ff0e1b25e186b9984dc94999baebf6af841d7fe2
+last_modified_at: 2024-06-13
 related_topics:
   - title: dansk version
     url: /da/common/sed.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Pas tekst aan in een op een scriptbare manier.
 Bekijk ook: `awk`, `ed`.
-Meer informatie: <https://manned.org/man/sed.1posix>.
+Meer informatie: <https://manned.org/sed.1posix>.
 
 - Vervang alle `apple` (basis regex) met `mango` (basis regex) in alle invoerregels en toon het resultaat in `stdout`:
 
