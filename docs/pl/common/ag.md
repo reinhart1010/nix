@@ -2,8 +2,8 @@
 layout: page
 title: common/ag (polski)
 description: "The Silver Searcher. Podobny do `ack`, ale ma być szybszy."
-content_hash: 714d09d1ccbabb279f1fb3e481ac0cbf73e79f0c
-last_modified_at: 2023-12-03
+content_hash: 507e006c7624f521193b0799a32e45f0f65d4db5
+last_modified_at: 2024-06-14
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ag.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ag.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ag.html
@@ -48,7 +51,7 @@ Więcej informacji: <https://github.com/ggreer/the_silver_searcher>.
 
 - Znajdź pliki zawierające „foo” w określonym katalogu:
 
-`ag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scieżka/do/katalogu</span>
+`ag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/katalogu</span>
 
 - Znajdź pliki zawierające „foo”, ale podaj tylko nazwy plików:
 

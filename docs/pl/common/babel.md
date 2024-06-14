@@ -2,8 +2,8 @@
 layout: page
 title: common/babel (polski)
 description: "Transpiler, który konwertuje kod ze składni JavaScript ES6 / ES7 na składnię ES5."
-content_hash: 1804ded7288561bca72cb6b685557e839a93cf74
-last_modified_at: 2023-11-12
+content_hash: 4e2506d34b9bf4c6d1a528da73f7c0bd8befb761
+last_modified_at: 2024-06-14
 related_topics:
   - title: English version
     url: /en/common/babel.html
@@ -30,33 +30,33 @@ tldri18n_status: 2
 Transpiler, który konwertuje kod ze składni JavaScript ES6 / ES7 na składnię ES5.
 Więcej informacji: <https://babeljs.io/>.
 
-- Transpiluj określony plik wejściowy i dane wyjściowe do `stdout`:
+- Transpiluj określony plik wejściowy i wypisz dane wyjściowe do `stdout`:
 
-`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">siezka/do/pliku</span>
+`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>
 
-- Transpiluj określony plik wejściowy i wyjście do określonego pliku:
+- Transpiluj określony plik wejściowy i zapisz wyjście do określonego pliku:
 
-`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_wejsciowego</span>` --out-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_wyjsciowego</span>
+`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_wejściowego</span>` --out-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_wyjściowego</span>
 
 - Transpiluj plik wejściowy przy każdej zmianie:
 
-`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_wejsciowego</span>` --watch`
+`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_wejściowego</span>` --watch`
 
 - Transpiluj cały katalog plików:
 
-`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/katalogu_wejsciowego</span>
+`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/katalogu_wejściowego</span>
 
 - Zignoruj określone pliki oddzielone przecinkami w katalogu:
 
-`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/katalogu_wejsciowego</span>` --ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ignorowane_pliki</span>
+`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/katalogu_wejściowego</span>` --ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ignorowany_plik1,ignorowany_plik2,...</span>
 
 - Transpiluj i wypisz jako zminimalizowany JavaScript:
 
-`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_wejsciowego</span>` --minified`
+`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_wejściowego</span>` --minified`
 
 - Wybierz zestaw ustawień dla formatowania wyjściowego:
 
-`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_wejsciowego</span>` --presets `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">presets</span>
+`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_wejściowego</span>` --presets `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">preset1,preset2,...</span>
 
 - Wyświetl wszystkie dostępne opcje:
 

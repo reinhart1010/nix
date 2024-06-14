@@ -2,8 +2,8 @@
 layout: page
 title: common/atom (polski)
 description: "Wieloplatformowy edytor tekstu z obsługą wtyczek."
-content_hash: 18bc0cfc84bd78359267919b771a88aa99d5f7e0
-last_modified_at: 2023-11-12
+content_hash: 125b5f23f18c86302398e3e8f788685437a5c722
+last_modified_at: 2024-06-14
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -36,15 +36,15 @@ Więcej informacji: <https://atom.io/>.
 
 - Otwórz plik lub katalog:
 
-`atom `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_lub_katalogu</span>
+`atom `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu</span>
 
-- Otwórz plik lub katalog w nowym oknie:
+- Otwórz plik lub katalog w [n]owym oknie:
 
-`atom -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_lub_katalogu</span>
+`atom -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu</span>
 
 - Otwórz plik lub katalog w istniejącym oknie:
 
-`atom --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_lub_katalogu</span>
+`atom --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu</span>
 
 - Otwórz Atom w trybie bezpiecznym (nie ładuje żadnych dodatkowych pakietów):
 

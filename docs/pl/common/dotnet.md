@@ -2,8 +2,8 @@
 layout: page
 title: common/dotnet (polski)
 description: "Wieloplatformowe narzędzia wiersza polecenia .NET dla platformy .NET Core."
-content_hash: 0885bdccb6dc94a297392e246ec704e646c06c83
-last_modified_at: 2023-11-12
+content_hash: 7bdec5f46252137ca7709bf4020859df64e27745
+last_modified_at: 2024-06-14
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -31,13 +31,14 @@ tldri18n_status: 2
 # dotnet
 
 Wieloplatformowe narzędzia wiersza polecenia .NET dla platformy .NET Core.
+Niektóre podkomendy takie jak `dotnet build` mają osobną dokumentację.
 Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Zainicjuj nowy projekt .NET:
 
-`dotnet new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">szablon_krotka_nazwa</span>
+`dotnet new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">krótka_nazwa_szablonu</span>
 
-- Przywróć pakiety nuget:
+- Przywróć pakiety NuGet:
 
 `dotnet restore`
 
@@ -45,6 +46,6 @@ Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools>.
 
 `dotnet run`
 
-- Uruchom pakietową aplikację dotnet (wymaga tylko środowiska wykonawczego, pozostałe polecenia wymagają zainstalowanego zestawu .NET Core SDK):
+- Uruchom spakowaną aplikację dotnet (wymaga tylko środowiska wykonawczego, pozostałe polecenia wymagają zainstalowanego zestawu .NET Core SDK):
 
-`dotnet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/aplikacji.dll</span>
+`dotnet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/aplikacji.dll</span>

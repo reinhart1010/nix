@@ -3,23 +3,14 @@ layout: page
 title: freebsd/sockstat (Nederlands)
 description: "Toon open Internet- of UNIX-domeinsockets."
 content_hash: 2eaa43a8ecde837b034ce127625804f3ed5935b3
-last_modified_at: 2024-06-13
+last_modified_at: 2024-06-14
 related_topics:
   - title: English version
     url: /en/freebsd/sockstat.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/sockstat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sockstat
+# sockstat
 
 Toon open Internet- of UNIX-domeinsockets.
 Meer informatie: <https://man.freebsd.org/cgi/man.cgi?sockstat>.

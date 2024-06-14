@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (polski)
 description: "Bourne-Again SHell, interpreter komend powłoki systemowej kompatybilny z `sh`."
-content_hash: a7a0fcdeafcea16c1e0994d4094a5a99b65817e7
-last_modified_at: 2024-04-19
+content_hash: e723f4f327cb7d433aba2eea3e64160c6adc8be9
+last_modified_at: 2024-06-14
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -57,15 +57,15 @@ Więcej informacji: <https://www.gnu.org/software/bash/>.
 
 - Uruchom podany skrypt:
 
-`bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scieżka/do/skryptu.sh</span>
+`bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/skryptu.sh</span>
 
 - Wykonaj podany skrypt, wypisując wszystkie komendy przed ich wykonaniem:
 
-`bash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scieżka/do/skryptu.sh</span>
+`bash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/skryptu.sh</span>
 
 - Wykonaj podany skrypt do wystąpienia pierwszego błędu:
 
-`bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scieżka/do/skryptu.sh</span>
+`bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/skryptu.sh</span>
 
 - Wykonaj komendy ze `stdin`:
 

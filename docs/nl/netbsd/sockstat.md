@@ -3,7 +3,7 @@ layout: page
 title: netbsd/sockstat (Nederlands)
 description: "Toon open Internet- of UNIX-domeinsockets."
 content_hash: 3cfd7b8e21c146aa91f322060cca2aee8c5fda2e
-last_modified_at: 2024-06-13
+last_modified_at: 2024-06-14
 related_topics:
   - title: English version
     url: /en/netbsd/sockstat.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/netbsd/sockstat.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/netbsd/sockstat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sockstat
+# sockstat
 
 Toon open Internet- of UNIX-domeinsockets.
 Let op: dit programma is hergeschreven voor NetBSD 3.0 van FreeBSD's `sockstat`.

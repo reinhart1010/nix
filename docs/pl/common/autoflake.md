@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/autoflake (polski)
-description: "Narzędzie do usuwania nieużywanych importów i zmiennych z kodu Python."
-content_hash: a156b37b666fc54cfa56b1e50ba47fdad4ab67bf
-last_modified_at: 2023-11-12
+description: "Usuń nieużywane importy i zmienne z kodu Python."
+content_hash: 4d37eac2a5d418d6aa207b6dfc79cb96b1af4989
+last_modified_at: 2024-06-14
 related_topics:
   - title: English version
     url: /en/common/autoflake.html
@@ -17,6 +17,9 @@ related_topics:
   - title: italiano version
     url: /it/common/autoflake.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/autoflake.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/autoflake.html
     icon: bi bi-globe
@@ -24,7 +27,7 @@ tldri18n_status: 2
 ---
 # autoflake
 
-Narzędzie do usuwania nieużywanych importów i zmiennych z kodu Python.
+Usuń nieużywane importy i zmienne z kodu Python.
 Więcej informacji: <https://github.com/myint/autoflake>.
 
 - Usuń nieużywane zmienne z jednego pliku i wyświetl różnicę:
@@ -41,4 +44,4 @@ Więcej informacji: <https://github.com/myint/autoflake>.
 
 - Usuń nieużywane zmienne rekurencyjnie ze wszystkich plików w katalogu, nadpisując każdy plik:
 
-`autoflake --remove-unused-variables --in-place --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/katalogu</span>
+`autoflake --remove-unused-variables --in-place --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/katalogu</span>
