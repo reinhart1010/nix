@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (English)
 description: "Convert and copy a file."
-content_hash: 366f5c181d10e3c3e7bc337d0c1cb9a445398e71
-last_modified_at: 2024-06-13
+content_hash: e7a3cc3d86b12cfd2b01d6e293028a7be0106ffb
+last_modified_at: 2024-06-14
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -27,9 +27,9 @@ tldri18n_status: 2
 Convert and copy a file.
 More information: <https://manned.org/dd.1p>.
 
-- Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`):
+- Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`) and show the progress:
 
-`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.iso</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/usb_drive</span>
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.iso</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/usb_drive</span>` status=progress`
 
 - Clone a drive to another drive with 4 MiB block size and flush writes before the command terminates:
 

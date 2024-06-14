@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (Nederlands)
 description: "Converteer en kopieer een bestand."
-content_hash: 85e3797e27efe8c0a5bb55c7f7ca090569102add
-last_modified_at: 2024-06-13
+content_hash: 012452aad85c5441896342ac1320038295516b4f
+last_modified_at: 2024-06-14
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -27,9 +27,9 @@ tldri18n_status: 2
 Converteer en kopieer een bestand.
 Meer informatie: <https://manned.org/dd.1p>.
 
-- Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`):
+- Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`) en toon de voortgang:
 
-`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.iso</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/usb_schijf</span>
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.iso</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/usb_schijf</span>` status=progress`
 
 - Kopieer een schijf naar een andere schijf met een blokgrootte van 4 MiB en schrijf alle gegevens voordat het commando eindigt:
 
