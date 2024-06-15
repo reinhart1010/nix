@@ -3,7 +3,7 @@ layout: page
 title: common/archwiki-rs (Indonesia)
 description: "Baca, cari, dan unduh artikel dari situs ArchWiki."
 content_hash: 321ad1f158bfee2ce355222d795c5382c972a5af
-last_modified_at: 2024-06-14
+last_modified_at: 2024-06-15
 related_topics:
   - title: English version
     url: /en/common/archwiki-rs.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/archwiki-rs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/archwiki-rs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># archwiki-rs
+# archwiki-rs
 
 Baca, cari, dan unduh artikel dari situs ArchWiki.
 Informasi lebih lanjut: <https://gitlab.com/lucifayr/archwiki-rs>.

@@ -3,7 +3,7 @@ layout: page
 title: common/arc (Indonesia)
 description: "Arcanist: program CLI untuk Phabricator."
 content_hash: 5db6748daafe891affab503fb8ad1687756f794e
-last_modified_at: 2024-06-14
+last_modified_at: 2024-06-15
 related_topics:
   - title: English version
     url: /en/common/arc.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/arc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/arc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># arc
+# arc
 
 Arcanist: program CLI untuk Phabricator.
 Informasi lebih lanjut: <https://secure.phabricator.com/book/phabricator/article/arcanist>.

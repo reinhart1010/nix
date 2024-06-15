@@ -3,7 +3,7 @@ layout: page
 title: common/ar (Indonesia)
 description: "Buat, olah, dan ekstrak berkas dalam format arsip Unix. Biasanya dimanfaatkan untuk pustaka statis (`.a`) dan paket piranti lunak Debian (`.deb`)."
 content_hash: 1a59d5ea417142aa940c9d9b61f82a8c310a1f73
-last_modified_at: 2024-06-14
+last_modified_at: 2024-06-15
 related_topics:
   - title: English version
     url: /en/common/ar.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ar.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ar.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ar
+# ar
 
 Buat, olah, dan ekstrak berkas dalam format arsip Unix. Biasanya dimanfaatkan untuk pustaka statis (`.a`) dan paket piranti lunak Debian (`.deb`).
 Lihat juga: `tar`.

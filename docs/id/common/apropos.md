@@ -3,7 +3,7 @@ layout: page
 title: common/apropos (Indonesia)
 description: "Lakukan pencarian nama dan deskripsi perintah dalam buku panduan program baris perintah (`manpages`)."
 content_hash: 463b1ff17e83fa8580124eaa2f2d2cbf9ca1711b
-last_modified_at: 2024-06-14
+last_modified_at: 2024-06-15
 related_topics:
   - title: Deutsch version
     url: /de/common/apropos.html
@@ -26,18 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apropos.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/apropos.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># apropos
+# apropos
 
 Lakukan pencarian nama dan deskripsi perintah dalam buku panduan program baris perintah (`manpages`).
 Informasi lebih lanjut: <https://manned.org/apropos>.

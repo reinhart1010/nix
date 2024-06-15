@@ -3,7 +3,7 @@ layout: page
 title: common/dd (italiano)
 description: "Converti e copia un file."
 content_hash: 59ca648928ca0970981e0cec424204b71308a8bd
-last_modified_at: 2024-06-14
+last_modified_at: 2024-06-15
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -20,12 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dd
+# dd
 
 Converti e copia un file.
 Maggiori informazioni: <https://manned.org/dd.1p>.
