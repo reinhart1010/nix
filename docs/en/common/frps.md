@@ -2,8 +2,8 @@
 layout: page
 title: common/frps (English)
 description: "Quickly set up a reverse proxy service."
-content_hash: 3aaa8b439079a2d47016bbfe1d931059918f20a9
-last_modified_at: 2024-06-14
+content_hash: 4284ad56f90b2abd309f7ae4096102ea23fa6173
+last_modified_at: 2024-06-16
 tldri18n_status: 2
 ---
 # frps
@@ -28,7 +28,7 @@ More information: <https://github.com/fatedier/frp>.
 
 `frps verify `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|--config</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Print autocompletion setup script for Bash, Fish, PowerShell, or Zsh:
+- Print autocompletion setup script for Bash, fish, PowerShell, or Zsh:
 
 `frps completion `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|fish|powershell|zsh</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/frpc (English)
 description: "Connect to a `frps` server to start proxying connections on the current host."
-content_hash: 391dff75499a2be4e1cf5d9668099620a53d8665
-last_modified_at: 2024-06-14
+content_hash: 7aceac88c18b4e04dab5e6fd3c31dd72bcf881e9
+last_modified_at: 2024-06-16
 tldri18n_status: 2
 ---
 # frpc
@@ -28,7 +28,7 @@ More information: <https://github.com/fatedier/frp>.
 
 `frpc verify `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|--config</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Print autocompletion setup script for Bash, Fish, PowerShell, or Zsh:
+- Print autocompletion setup script for Bash, fish, PowerShell, or Zsh:
 
 `frpc completion `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|fish|powershell|zsh</span>
 
