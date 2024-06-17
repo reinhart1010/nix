@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (中文 (繁體, 台灣))
 description: "比較兩個檔案或目錄間的差異。"
-content_hash: 7759329be39841d3268f8809c1cb02e074ce768d
-last_modified_at: 2024-03-17
+content_hash: 14b2675e357fb867b661e06bce6f86bde5ab6936
+last_modified_at: 2024-06-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># diff
 
 比較兩個檔案或目錄間的差異。
-更多資訊：<https://man7.org/linux/man-pages/man1/diff.1.html>.
+更多資訊：<https://manned.org/diff>.
 
 - 比較兩檔案，列出 `舊檔案` 相異於 `新檔案` 而需更改之處，以讓兩者相同：
 

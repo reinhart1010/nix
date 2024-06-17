@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (Deutsch)
 description: "Vergleiche Dateien und Verzeichnisse."
-content_hash: 9255b47c5b30bff7c9ba268de0ff75e5ed32c951
-last_modified_at: 2024-03-17
+content_hash: 5993777cb6f6ab7d1c3c4c8018b3b326ed589bfb
+last_modified_at: 2024-06-17
 related_topics:
   - title: English version
     url: /en/common/diff.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># diff
 
 Vergleiche Dateien und Verzeichnisse.
-Weitere Informationen: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+Weitere Informationen: <https://manned.org/diff>.
 
 - Vergleiche Dateien (Listet jene Veränderungen auf, mit denen `datei1` zu `datei2` wird):
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/arc (Indonesia)
 description: "Arcanist: program CLI untuk Phabricator."
-content_hash: 5db6748daafe891affab503fb8ad1687756f794e
-last_modified_at: 2024-06-15
+content_hash: fecca5da8b23ab2b5cd2984d63c89240eb02d98a
+last_modified_at: 2024-06-17
 related_topics:
   - title: English version
     url: /en/common/arc.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # arc
 
 Arcanist: program CLI untuk Phabricator.
-Informasi lebih lanjut: <https://secure.phabricator.com/book/phabricator/article/arcanist>.
+Informasi lebih lanjut: <https://secure.phabricator.com/book/phabricator/article/arcanist/>.
 
 - Kirim semua perubahan untuk ditinjau melalui alat Differential:
 

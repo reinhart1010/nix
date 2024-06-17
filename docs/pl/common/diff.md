@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (polski)
 description: "Porównaj pliki i foldery."
-content_hash: 14d104fc7de28c185e504cb96950f30ce6b2e316
-last_modified_at: 2023-11-12
+content_hash: 02e86ea2321026b05001145d67383716850904c2
+last_modified_at: 2024-06-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># diff
 
 Porównaj pliki i foldery.
-Więcej informacji: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+Więcej informacji: <https://manned.org/diff>.
 
 - Porównaj pliki (lista zmian między `stary_plik` a `nowy_plik`):
 

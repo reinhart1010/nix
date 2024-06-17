@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (português (Brasil))
 description: "Compara diretórios e arquivos."
-content_hash: 2a845e4df02808971ff850188bc60e3391090642
-last_modified_at: 2024-03-17
+content_hash: 83f85a677c33a1243398fae14b313594057589ea
+last_modified_at: 2024-06-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># diff
 
 Compara diretórios e arquivos.
-Mais informações: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+Mais informações: <https://manned.org/diff>.
 
 - Compara arquivos (mostra as mudanças necessárias para transformar `arquivo_antigo` em `arquivo_novo`):
 

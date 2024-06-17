@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (한국어)
 description: "파일들과 디렉토리들을 비교한다."
-content_hash: 0dc1d97a871230697e7bed15ee8ffba42211cc13
-last_modified_at: 2023-11-12
+content_hash: 6cc3ef130944121a092d4cc29ae07c5be06a13f9
+last_modified_at: 2024-06-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># diff
 
 파일들과 디렉토리들을 비교한다.
-더 많은 정보: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+더 많은 정보: <https://manned.org/diff>.
 
 - 파일들 비교하기 (`이전_파일명`을 `새_파일명`으로 바꾸는 변경점들 목록):
 

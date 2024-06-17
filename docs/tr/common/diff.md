@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (Türkçe)
 description: "Dosyaları ve dizinleri karşılaştırın."
-content_hash: 11a1ead44bbb763fbb7616d6ccec0c33117d2306
-last_modified_at: 2024-03-17
+content_hash: 9d5cfb3d7e170c7a8d7eed4f6a5fe2a22eaf841e
+last_modified_at: 2024-06-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># diff
 
 Dosyaları ve dizinleri karşılaştırın.
-Daha fazla bilgi için: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+Daha fazla bilgi için: <https://manned.org/diff>.
 
 - Dosyaları karşılaştır (`eski_dosya`'yı `yeni_dosya`'ya dönüştürmek için yapılan değişiklikleri listeler):
 

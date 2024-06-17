@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (italiano)
 description: "Confronta file e directory."
-content_hash: 05c59df1cfce57e9d8dfda2610dc4a1a2de8fa4d
-last_modified_at: 2023-11-12
+content_hash: 40e755e9aa6d23233311ddc54e804068b90053b2
+last_modified_at: 2024-06-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># diff
 
 Confronta file e directory.
-Maggiori informazioni: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+Maggiori informazioni: <https://manned.org/diff>.
 
 - Confronta due file (elenca cambiamenti necessari per trasformare `vecchio_file` in `nuovo_file`):
 

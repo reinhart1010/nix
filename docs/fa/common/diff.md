@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (فارسی)
 description: "مقایسه فایل(ها) و پوشه(ها)."
-content_hash: 632c4de15b88c793e2c71124030c193cd85e481f
-last_modified_at: 2024-03-17
+content_hash: 5c3a51266027fbfdf2329d4ee7d281ed30e8e7ba
+last_modified_at: 2024-06-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># diff
 
 مقایسه فایل(ها) و پوشه(ها).
-اطلاعات بیشتر: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+اطلاعات بیشتر: <https://manned.org/diff>.
 
 - مقایسه فایل ها (فهرست تغییرات فایل های قدیمی به جدید) :
 

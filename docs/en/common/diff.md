@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (English)
 description: "Compare files and directories."
-content_hash: f1dfb077d22fc2f73766f3fa48f90db04993bd15
-last_modified_at: 2024-06-12
+content_hash: d6cfe68703b2c1c0a39c7a65ec7dabb90a87c916
+last_modified_at: 2024-06-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # diff
 
 Compare files and directories.
-More information: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+More information: <https://manned.org/diff>.
 
 - Compare files (lists changes to turn `old_file` into `new_file`):
 

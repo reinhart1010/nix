@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (français)
 description: "Compare deux fichiers ou répertoires."
-content_hash: 70714d9d75f392c67224acc3b00d369ba274ea95
-last_modified_at: 2024-03-17
+content_hash: e6e1cb8402eafefdc53be56382097643445e6c27
+last_modified_at: 2024-06-17
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># diff
 
 Compare deux fichiers ou répertoires.
-Plus d'informations : <https://man7.org/linux/man-pages/man1/diff.1.html>.
+Plus d'informations : <https://manned.org/diff>.
 
 - Compare deux fichiers (liste les changements pour transformer `ancien_fichier` en `nouveau_fichier`) :
 
