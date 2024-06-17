@@ -2,8 +2,8 @@
 layout: page
 title: linux/dd (English)
 description: "Convert and copy a file."
-content_hash: 299e4f33f19aa0f949f3109ef54edd37baebcf05
-last_modified_at: 2024-06-10
+content_hash: 042cff69be2edeed57bf307bb4d2f239fba71707
+last_modified_at: 2024-06-17
 related_topics:
   - title: فارسی version
     url: /fa/linux/dd.html
@@ -35,7 +35,7 @@ More information: <https://www.gnu.org/software/coreutils/dd>.
 
 - Benchmark the write performance of a disk:
 
-`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_1GB</span>
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_1GB</span>
 
 - Create a system backup, save it into an IMG file (can be restored later by swapping `if` and `of`), and show the progress:
 

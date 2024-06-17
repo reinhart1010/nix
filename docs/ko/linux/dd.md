@@ -2,8 +2,8 @@
 layout: page
 title: linux/dd (한국어)
 description: "파일 변환 및 복사."
-content_hash: 67e11289b5823f6984bb37a4f5ac0f81b2ef4e9a
-last_modified_at: 2024-06-11
+content_hash: 94b6784362f938a44e47a664ba0d720d535fb253
+last_modified_at: 2024-06-17
 related_topics:
   - title: English version
     url: /en/linux/dd.html
@@ -35,7 +35,7 @@ tldri18n_status: 2
 
 - 디스크의 쓰기 성능 벤치마크:
 
-`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/1GB_파일</span>
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/1GB_파일</span>
 
 - IMG 파일로 시스템 백업을 생성하고 진행 상황 표시:
 

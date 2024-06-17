@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/wikit (English)
-description: "A command line program for getting Wikipedia summaries easily."
-content_hash: 7f97c5da3f44d44f5af100b7f73f14628b253c65
-last_modified_at: 2024-01-03
+description: "A command-line program for getting Wikipedia summaries easily."
+content_hash: 952061f2fb2ae873b0d11f8b98bdc9d5637ae3ca
+last_modified_at: 2024-06-17
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/wikit.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # wikit
 
-A command line program for getting Wikipedia summaries easily.
+A command-line program for getting Wikipedia summaries easily.
 More information: <https://github.com/KorySchneider/wikit>.
 
 - Show a short summary of a specific topic on Wikipedia:

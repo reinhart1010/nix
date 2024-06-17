@@ -2,8 +2,8 @@
 layout: page
 title: linux/grub-editenv (English)
 description: "Edit GRUB environment variables."
-content_hash: 8676fb136a1719c283119eb848fc09f3872b1de9
-last_modified_at: 2023-11-12
+content_hash: 10434f22fc7443c945912fb468d6cdf843009713
+last_modified_at: 2024-06-17
 tldri18n_status: 2
 ---
 # grub-editenv
@@ -23,6 +23,6 @@ More information: <https://www.gnu.org/software/grub/manual/grub/grub.html>.
 
 `grub-editenv /boot/grub/grubenv unset saved_entry`
 
-- Append "quiet splash" to the kernel command line:
+- Append "quiet splash" to the kernel command-line:
 
 `grub-editenv /boot/grub/grubenv list kernel_cmdline`

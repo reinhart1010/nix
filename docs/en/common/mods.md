@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/mods (English)
-description: "AI for the command line, built for pipelines."
-content_hash: 95c2480b469fd9999ce8a21d292fa1848633b4ae
-last_modified_at: 2024-01-30
+description: "AI for the command-line, built for pipelines."
+content_hash: bd834d031b6da6719e365990b189f52a3fbe43c0
+last_modified_at: 2024-06-17
 tldri18n_status: 2
 ---
 # mods
 
-AI for the command line, built for pipelines.
+AI for the command-line, built for pipelines.
 More information: <https://github.com/charmbracelet/mods>.
 
 - Ask a generic question:

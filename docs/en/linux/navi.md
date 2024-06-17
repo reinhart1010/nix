@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/navi (English)
-description: "An interactive cheatsheet tool for the command line and application launchers."
-content_hash: 06e5d7a71bcb2271fe617a790cdf0f50e038fb08
-last_modified_at: 2024-02-26
+description: "An interactive cheatsheet tool for the command-line and application launchers."
+content_hash: 59e465653bc0998cc43f9023adbae753a3410579
+last_modified_at: 2024-06-17
 tldri18n_status: 2
 ---
 # navi
 
-An interactive cheatsheet tool for the command line and application launchers.
+An interactive cheatsheet tool for the command-line and application launchers.
 More information: <https://github.com/denisidoro/navi>.
 
 - Browse through all available cheatsheets:

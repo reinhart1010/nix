@@ -2,8 +2,8 @@
 layout: page
 title: common/crystal (English)
 description: "Manage Crystal source code."
-content_hash: 8f8c7bc81ed6fdfef3586b6ffd9e986a28210e82
-last_modified_at: 2024-02-15
+content_hash: 58c79aeb993620408d63bc29feddc7a6ff0fde4f
+last_modified_at: 2024-06-17
 related_topics:
   - title: français version
     url: /fr/common/crystal.html
@@ -29,7 +29,7 @@ More information: <https://crystal-lang.org/reference/using_the_compiler>.
 
 `crystal build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cr</span>
 
-- Read Crystal source code from the command line or `stdin`, and execute it:
+- Read Crystal source code from the command-line or `stdin`, and execute it:
 
 `crystal eval '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span>`'`
 

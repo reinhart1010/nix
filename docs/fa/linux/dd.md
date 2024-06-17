@@ -2,8 +2,8 @@
 layout: page
 title: linux/dd (فارسی)
 description: "تبدیل و کپی یک فایل."
-content_hash: 6507ce8dbfbafac3a02cbdc348abee7b924fbdd0
-last_modified_at: 2024-06-10
+content_hash: 67e34809ebe61b6b6bfbcdb64b3bfcef9b7d5f9f
+last_modified_at: 2024-06-17
 related_topics:
   - title: English version
     url: /en/linux/dd.html
@@ -35,7 +35,7 @@ tldri18n_status: 2
 
 - ارزیابی عملکرد نوشتن روی یک دیسک:
 
-`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_1GB</span>
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_1GB</span>
 
 - ساخت یک پشتیبان از سامانه و ذخیرهٔ آن در یک فایل IMG (می‌توان بعداً با تغییر `if` به `of` آن را بازسازی کرد):
 

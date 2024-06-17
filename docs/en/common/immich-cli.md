@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/immich-cli (English)
-description: "Immich has a command line interface (CLI) that allows you to perform certain actions from the command line."
-content_hash: 3de64a1bd867879444c21644780dbbc8eba956b7
-last_modified_at: 2024-05-07
+description: "Immich has a command-line interface (CLI) that allows you to perform certain actions from the command-line."
+content_hash: 63f1df8f9f19bb50f8397a7712eec7e23ee0dffa
+last_modified_at: 2024-06-17
 related_topics:
   - title: español version
     url: /es/common/immich-cli.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # immich-cli
 
-Immich has a command line interface (CLI) that allows you to perform certain actions from the command line.
+Immich has a command-line interface (CLI) that allows you to perform certain actions from the command-line.
 See also: `immich-go`.
 More information: <https://immich.app/docs/features/command-line-interface/>.
 

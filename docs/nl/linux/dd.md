@@ -2,8 +2,8 @@
 layout: page
 title: linux/dd (Nederlands)
 description: "Converteer en kopieer een bestand."
-content_hash: 41bde07a2cc7f63b82f17dd9c972cfca59830190
-last_modified_at: 2024-06-10
+content_hash: 98b27b06aa360396a4be69219ba79d7b905513f1
+last_modified_at: 2024-06-17
 related_topics:
   - title: English version
     url: /en/linux/dd.html
@@ -35,7 +35,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/dd>.
 
 - Benchmark de sequentiële schrijfsnelheid van een schijf:
 
-`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_1GB</span>
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_1GB</span>
 
 - Maak een systeemback-up, sla deze op in een IMG bestand (kan later worden hersteld door `if` en `of` om te wisselen) en toon de voortgang:
 

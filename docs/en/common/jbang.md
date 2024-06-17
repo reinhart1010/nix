@@ -2,8 +2,12 @@
 layout: page
 title: common/jbang (English)
 description: "Easily create, edit and run self-contained source-only Java programs."
-content_hash: 83060ca07a4fa410b019a23342503078e5955529
-last_modified_at: 2024-01-11
+content_hash: e066b06cd13cf61307de2b1fa4f38a632161380c
+last_modified_at: 2024-06-17
+related_topics:
+  - title: español version
+    url: /es/common/jbang.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # jbang
@@ -32,7 +36,7 @@ More information: <https://www.jbang.dev/documentation/guide/latest/cli/jbang.ht
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'Files.list(Paths.get("/etc")).forEach(System.out::println);'</span>` | jbang -`
 
-- Run command line application:
+- Run command-line application:
 
 `jbang `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.java</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg1 arg2 ...</span>
 
