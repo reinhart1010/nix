@@ -2,13 +2,14 @@
 layout: page
 title: common/neo4j-admin (English)
 description: "Manage and administer a Neo4j DBMS (Database Management System)."
-content_hash: d93a179bea24a744b27960978b2296af9e86366f
-last_modified_at: 2024-06-11
+content_hash: 8f7932fc4d520f45e08920a98e23ced217bba94e
+last_modified_at: 2024-06-18
 tldri18n_status: 2
 ---
 # neo4j-admin
 
 Manage and administer a Neo4j DBMS (Database Management System).
+See also: `cypher-shell`, `mysqld`.
 More information: <https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/>.
 
 - Start the DBMS:
