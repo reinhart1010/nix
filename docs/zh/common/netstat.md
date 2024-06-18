@@ -2,8 +2,8 @@
 layout: page
 title: common/netstat (中文)
 description: "显示与网络相关的信息，如打开的连接、打开的套接字端口等。"
-content_hash: 614f6127cbc5aaf9c64796b2ef7675afb7dc88b9
-last_modified_at: 2023-11-12
+content_hash: ec5fd03a404f09611e74600c288d20a60c4bcd19
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/common/netstat.html
@@ -19,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># netstat
 
 显示与网络相关的信息，如打开的连接、打开的套接字端口等。
-更多信息：<https://man7.org/linux/man-pages/man8/netstat.8.html>.
+更多信息：<https://manned.org/netstat>.
 
 - 列出所有端口：
 

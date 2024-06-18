@@ -2,8 +2,8 @@
 layout: page
 title: common/netstat (한국어)
 description: "열린 연결 및 소켓 포트 등과 같은 네트워크 관련 정보를 표시합니다."
-content_hash: 647894ad1ad93547216655e5728cfc7440a30ac2
-last_modified_at: 2023-11-12
+content_hash: c53633fd27f27294a82baad1895da915da1f07d6
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/common/netstat.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # netstat
 
 열린 연결 및 소켓 포트 등과 같은 네트워크 관련 정보를 표시합니다.
-더 많은 정보: <https://man7.org/linux/man-pages/man8/netstat.8.html>.
+더 많은 정보: <https://manned.org/netstat>.
 
 - 모든 포트 나열:
 

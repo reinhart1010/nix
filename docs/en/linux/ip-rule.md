@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-rule (English)
 description: "IP routing policy database management."
-content_hash: 733fcf247bd68611c1b34a5b8e3be748f8233bd3
-last_modified_at: 2023-11-12
+content_hash: 06fe3da04c07e9042b30a75a515d031bd638ff4f
+last_modified_at: 2024-06-18
 related_topics:
   - title: Türkçe version
     url: /tr/linux/ip-rule.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # ip rule
 
 IP routing policy database management.
-More information: <https://man7.org/linux/man-pages/man8/ip-rule.8.html>.
+More information: <https://manned.org/ip-rule>.
 
 - Display the routing policy:
 

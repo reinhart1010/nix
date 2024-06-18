@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-rule (Türkçe)
 description: "IP yönlendirme politikası veri tabanı yönetimi."
-content_hash: f15a479a14b6d7aaad11e236be21a858629f6c30
-last_modified_at: 2023-11-12
+content_hash: 9c4deb9eed075c6dff2cfb1cd677e0b7f668abfd
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/linux/ip-rule.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # ip rule
 
 IP yönlendirme politikası veri tabanı yönetimi.
-Daha fazla bilgi için: <https://man7.org/linux/man-pages/man8/ip-rule.8.html>.
+Daha fazla bilgi için: <https://manned.org/ip-rule>.
 
 - Yönlendirme politikasını göster:
 

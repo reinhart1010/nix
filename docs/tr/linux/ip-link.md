@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-link (Türkçe)
 description: "Ağ arayüzlerini yönet."
-content_hash: d9b3fdf3234a4ca41ad840820971d81fdf4148b1
-last_modified_at: 2023-11-12
+content_hash: fb2b96bfcee45dac629de8b3384c59253d640ecf
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/linux/ip-link.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # ip link
 
 Ağ arayüzlerini yönet.
-Daha fazla bilgi için: <https://man7.org/linux/man-pages/man8/ip-link.8.html>.
+Daha fazla bilgi için: <https://manned.org/ip-link>.
 
 - Tüm ağ arayüzleriyle ilgili bilgileri göster:
 
