@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/new-item (Nederlands)
-description: "Maak een nieuw bestand, directory, symbolische link of een registerinvoer."
-content_hash: 78eac4d6df9d654c96f327a97f99705d1633fa9f
-last_modified_at: 2023-11-26
+description: "Maak een nieuw bestand, map, symbolische link of een registerinvoer."
+content_hash: 65e418c0d219a6c9b53468da544c9e443cdf0431
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/windows/new-item.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # New-Item
 
-Maak een nieuw bestand, directory, symbolische link of een registerinvoer.
+Maak een nieuw bestand, map, symbolische link of een registerinvoer.
 Dit commando kan alleen worden uitgevoerd onder PowerShell.
 Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
 

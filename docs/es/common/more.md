@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/more (español)
-description: "Abre un archivo para lectura interactiva, permitiendo navegar y buscar."
-content_hash: 1f5eda8eae1e2c97ca6bd1515e8c7a65438e1b74
-last_modified_at: 2024-02-15
+description: "Interactivamente muestra el contenido un archivo, permitiendo desplazamiento y búsqueda."
+content_hash: 92313f993e36dd4f484c68535f50d865dc5e7719
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/common/more.html
@@ -18,33 +18,30 @@ tldri18n_status: 2
 ---
 # more
 
-Abre un archivo para lectura interactiva, permitiendo navegar y buscar.
+Interactivamente muestra el contenido un archivo, permitiendo desplazamiento y búsqueda.
+Vea también: `less`.
 Más información: <https://manned.org/more.1p>.
 
 - Abre un archivo:
 
 `more `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Abre un archivo mostrando desde una línea específica:
+- Abre un archivo y muestra su contenido desde una línea específica:
 
-`more +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_linea</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
+`more +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_línea</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Muestra la ayuda:
+- Avanza a la siguiente página:
 
-`more --help`
+`<Espacio>`
 
-- Avanza hacia la siguiente página:
-
-`<Space>`
-
-- Busca una cadena (presione `n` para ir a la siguiente coincidencia):
+- Busca una cadena de caracteres (presione `n` para ir a la siguiente coincidencia):
 
 `/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span>
 
-- Salir:
+- Sal del programa:
 
 `q`
 
-- Muestra la ayuda sobre comandos interactivos:
+- Muestra ayuda sobre comandos interactivos:
 
 `h`

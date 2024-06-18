@@ -2,15 +2,15 @@
 layout: page
 title: linux/lvreduce (English)
 description: "Reduce the size of a logical volume."
-content_hash: e408aa97a9eb98628652cc1edc42a91eabec96cf
-last_modified_at: 2023-11-12
+content_hash: 25b2e3620d8eb6746fe1845173a2a4c1fb336b25
+last_modified_at: 2024-06-18
 tldri18n_status: 2
 ---
 # lvreduce
 
 Reduce the size of a logical volume.
 See also: `lvm`.
-More information: <https://man7.org/linux/man-pages/man8/lvreduce.8.html>.
+More information: <https://manned.org/lvreduce>.
 
 - Reduce a volume's size to 120 GB:
 

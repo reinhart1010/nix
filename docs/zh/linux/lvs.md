@@ -2,8 +2,8 @@
 layout: page
 title: linux/lvs (中文)
 description: "显示逻辑卷信息。"
-content_hash: 1225af5e64614761fc26aa4cb735f2f0d97080f2
-last_modified_at: 2023-11-12
+content_hash: 5f58a979c227701d7c9783d54fe4270f8993e1b2
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/linux/lvs.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 显示逻辑卷信息。
 另见：`lvm`.
-更多信息：<https://man7.org/linux/man-pages/man8/lvs.8.html>.
+更多信息：<https://manned.org/lvs>.
 
 - 显示逻辑卷信息：
 

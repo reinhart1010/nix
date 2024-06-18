@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (español)
 description: "Genera un informe comprimido de errores de Android."
-content_hash: 343b5f38eed5c677cce698e497c440c9244efb6a
-last_modified_at: 2023-11-12
+content_hash: 2a96c94ae8d0a1991cd803b8849d59892508ee1c
+last_modified_at: 2024-06-18
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ Más información: <https://cs.android.com/android/platform/superproject/+/main:
 
 `bugreportz -p`
 
-- Muestra la versión de `bugreportz`:
-
-`bugreportz -v`
-
 - Muestra ayuda:
 
 `bugreportz -h`
+
+- Muestra la versión de `bugreportz`:
+
+`bugreportz -v`

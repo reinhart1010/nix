@@ -2,8 +2,8 @@
 layout: page
 title: common/pkill (한국어)
 description: "프로세스 이름에 따라 시그널을 전송합니다."
-content_hash: 9ba7099241517b6c699177b5ee21ef1d09cb9b64
-last_modified_at: 2023-11-12
+content_hash: 1fe20322536ce17acee2c39be85bcf7c555cbc31
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/common/pkill.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 프로세스 이름에 따라 시그널을 전송합니다.
 주로 프로세스를 종료하는데 사용합니다.
-더 많은 정보: <https://www.man7.org/linux/man-pages/man1/pkill.1.html>.
+더 많은 정보: <https://www.manned.org/pkill>.
 
 - 일치하는 모든 프로세스 종료:
 

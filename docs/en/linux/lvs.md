@@ -2,8 +2,8 @@
 layout: page
 title: linux/lvs (English)
 description: "Display information about logical volumes."
-content_hash: ee398243cb9d6603bf2cc5ea53de18f034a2f7b3
-last_modified_at: 2023-11-12
+content_hash: 34517a8f83ad8dcc79d90ecad8250d597bdf4ba7
+last_modified_at: 2024-06-18
 related_topics:
   - title: 中文 version
     url: /zh/linux/lvs.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Display information about logical volumes.
 See also: `lvm`.
-More information: <https://man7.org/linux/man-pages/man8/lvs.8.html>.
+More information: <https://manned.org/lvs>.
 
 - Display information about logical volumes:
 

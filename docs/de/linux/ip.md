@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip (Deutsch)
 description: "Zeige und manipuliere routing, Geräte, Policy routing und Tunnel."
-content_hash: 7b47ea3bbae24ff37234fdbc253de000e08d9e8a
-last_modified_at: 2023-11-12
+content_hash: 565f2976d901d3246814e1fc5717c781ef24394f
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/linux/ip.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # ip
 
 Zeige und manipuliere routing, Geräte, Policy routing und Tunnel.
-Weitere Informationen: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
+Weitere Informationen: <https://www.manned.org/ip.8>.
 
 - Zeige Interfaces mit detaillierten Informationen:
 

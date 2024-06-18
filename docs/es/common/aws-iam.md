@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/aws-iam (español)
-description: "CLI para AWS IAM."
-content_hash: b3141ca576cc6c3ae8d8cbb89fdd0c1d91f010d5
-last_modified_at: 2024-01-07
+description: "Interactúa con el Manejo de Identidad y Acceso (o \"IAM\" en inglés), un servicio web para controlar seguramente el acceso a servicios de AWS."
+content_hash: 564b59be73dff78f00784b9c950a58177424c55d
+last_modified_at: 2024-06-18
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-iam.html
@@ -21,12 +21,8 @@ tldri18n_status: 2
 ---
 # aws iam
 
-CLI para AWS IAM.
+Interactúa con el Manejo de Identidad y Acceso (o "IAM" en inglés), un servicio web para controlar seguramente el acceso a servicios de AWS.
 Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
-
-- Muestra la página de ayuda de `aws iam` (incluyendo todos los comandos iam disponibles):
-
-`aws iam help`
 
 - Lista usuarios:
 
@@ -40,13 +36,13 @@ Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/ref
 
 `aws iam list-groups`
 
-- Obtén los usuarios de un grupo:
+- Obtén los usuarios en un grupo:
 
-`aws iam get-group --group-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_grupo</span>
+`aws iam get-group --group-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_grupo</span>
 
 - Describe una política IAM:
 
-`aws iam get-policy --policy-arn arn:aws:iam::aws:policy/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_politica</span>
+`aws iam get-policy --policy-arn arn:aws:iam::aws:policy/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_política</span>
 
 - Lista claves de acceso:
 
@@ -54,4 +50,8 @@ Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/ref
 
 - Lista claves de acceso para un usuario específico:
 
-`aws iam list-access-keys --user-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_usuario</span>
+`aws iam list-access-keys --user-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>
+
+- Muestra ayuda:
+
+`aws iam help`

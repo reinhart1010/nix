@@ -2,11 +2,14 @@
 layout: page
 title: common/man (italiano)
 description: "Formatta e mostra pagine manuale."
-content_hash: 2f3d1764cfe3bc6292100094ddf9509bc551670c
-last_modified_at: 2023-11-12
+content_hash: e9d5c69010c0843a1776b16b1c9819854de97041
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/common/man.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/man.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/man.html
@@ -25,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># man
 
 Formatta e mostra pagine manuale.
-Maggiori informazioni: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
+Maggiori informazioni: <https://www.manned.org/man>.
 
 - Mostra la pagina di manuale di un comando:
 

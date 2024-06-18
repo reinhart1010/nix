@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip (Türkçe)
 description: "Yönlendirmeyi, aygıtları, kural yönlendirmesini ve tünelleri görüntüle / değiştir."
-content_hash: 1d70d79534df75a457249fdbe16a44fb51763d02
-last_modified_at: 2024-01-02
+content_hash: b97c0ad50c0015215930c50bb49a91734848048e
+last_modified_at: 2024-06-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Yönlendirmeyi, aygıtları, kural yönlendirmesini ve tünelleri görüntüle / değiştir.
 `ip address` gibi bazı alt komutların kendi kullanım belgeleri vardır.
-Daha fazla bilgi için: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
+Daha fazla bilgi için: <https://www.manned.org/ip.8>.
 
 - Arayüzlerin bilgilerini ayrıntılı bir şekilde listele:
 

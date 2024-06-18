@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (español)
 description: "Lista los contenidos de directorios."
-content_hash: 9e58a8b7723472563e178f47150e315a9aeed1e7
-last_modified_at: 2023-11-12
+content_hash: 7750dced917f35f8480737a4204e4582b1621018
+last_modified_at: 2024-06-18
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -78,19 +78,19 @@ Más información: <https://www.gnu.org/software/coreutils/ls>.
 
 `ls -F`
 
-- Lista todos los archivos con formato largo (permisos, propietario, tamaño y fecha de modificación):
+- Lista todos los archivos en formato largo (permisos, propietarios, tamaño y fecha de última modificación):
 
 `ls -la`
 
-- Lista con formato largo y tamaño legible por humanos (KiB, MiB, GiB):
+- Lista en formato largo y tamaño legible por humanos (i.e., KiB, MiB, GiB, etc.):
 
 `ls -lh`
 
-- Lista con formato largo y tamaño en orden descendente:
+- Lista recursivamente en formato largo y ordena los tamaños de mayor a menor:
 
-`ls -lS`
+`ls -lSR`
 
-- Lista todos los archivos con formato largo, ordenado por fecha de modificación (archivos más viejos en primer lugar):
+- Lista todos los archivos en formato largo y ordenados por fecha de modificación (archivos más viejos en primer lugar):
 
 `ls -ltr`
 

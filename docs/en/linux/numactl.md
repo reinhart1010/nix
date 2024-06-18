@@ -2,14 +2,14 @@
 layout: page
 title: linux/numactl (English)
 description: "Control NUMA policy for processes or shared memory."
-content_hash: 770299b7ac8954a8e045bd8ca48985c75cc0f4d5
-last_modified_at: 2023-11-12
+content_hash: 124a58f424ad3a5cfc24a5122ffd3853484602f5
+last_modified_at: 2024-06-18
 tldri18n_status: 2
 ---
 # numactl
 
 Control NUMA policy for processes or shared memory.
-More information: <https://man7.org/linux/man-pages/man8/numactl.8.html>.
+More information: <https://manned.org/numactl>.
 
 - Run a command on node 0 with memory allocated on node 0 and 1:
 

@@ -2,14 +2,14 @@
 layout: page
 title: linux/lvm (English)
 description: "Manage physical volumes, volume groups, and logical volumes using the Logical Volume Manager (LVM) interactive shell."
-content_hash: c95ab4a46915321dd83f674cb4b83d326998483e
-last_modified_at: 2024-01-30
+content_hash: ee3c6487b660cc0271052d9ae569d82b9189c5ce
+last_modified_at: 2024-06-18
 tldri18n_status: 2
 ---
 # lvm
 
 Manage physical volumes, volume groups, and logical volumes using the Logical Volume Manager (LVM) interactive shell.
-More information: <https://man7.org/linux/man-pages/man8/lvm.8.html>.
+More information: <https://manned.org/lvm>.
 
 - Start the Logical Volume Manager interactive shell:
 

@@ -2,14 +2,14 @@
 layout: page
 title: common/pgrep (English)
 description: "Find or signal processes by name."
-content_hash: f0e0b68511db392be2eae0ac746f5beced596c2b
-last_modified_at: 2023-11-12
+content_hash: b48c9235af58186dde690b33e38ff686765c17f5
+last_modified_at: 2024-06-18
 tldri18n_status: 2
 ---
 # pgrep
 
 Find or signal processes by name.
-More information: <https://www.man7.org/linux/man-pages/man1/pkill.1.html>.
+More information: <https://www.manned.org/pgrep>.
 
 - Return PIDs of any running processes with a matching command string:
 

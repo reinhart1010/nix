@@ -2,8 +2,8 @@
 layout: page
 title: common/pkill (English)
 description: "Signal process by name."
-content_hash: 15ff110b04bc464b9d9973016e0d9ee8aa163a57
-last_modified_at: 2023-11-12
+content_hash: 695378962304644cd343a35900b5ccda2142e1d4
+last_modified_at: 2024-06-18
 related_topics:
   - title: 한국어 version
     url: /ko/common/pkill.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Signal process by name.
 Mostly used for stopping processes.
-More information: <https://www.man7.org/linux/man-pages/man1/pkill.1.html>.
+More information: <https://www.manned.org/pkill>.
 
 - Kill all processes which match:
 

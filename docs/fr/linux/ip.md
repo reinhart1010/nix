@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip (français)
 description: "Affiche / manipule l'adressage, le routage, les interfaces et périphériques réseau, les règles de routage et les tunnels."
-content_hash: 643b552b6ba4f72f833be11b3583d3da4c94e3ef
-last_modified_at: 2024-01-15
+content_hash: 0656a2657216f7d9c158b72b1c226aabc7a8b6f2
+last_modified_at: 2024-06-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Affiche / manipule l'adressage, le routage, les interfaces et périphériques réseau, les règles de routage et les tunnels.
 Certaines commandes comme `ip address` ont leur propre documentation.
-Plus d'informations : <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
+Plus d'informations : <https://www.manned.org/ip.8>.
 
 - Liste les interfaces avec des infos détaillées :
 

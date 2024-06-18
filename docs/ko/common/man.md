@@ -2,8 +2,8 @@
 layout: page
 title: common/man (한국어)
 description: "설명서 페이지 형식 지정 및 표시."
-content_hash: f0c85cd81ba080f84a74331c551c13da363efd95
-last_modified_at: 2024-01-16
+content_hash: 10974cf4f201ddaa9b6f389ef2151ca520039c08
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/common/man.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # man
 
 설명서 페이지 형식 지정 및 표시.
-더 많은 정보: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
+더 많은 정보: <https://www.manned.org/man>.
 
 - 명령에 대한 설명서 페이지를 표시:
 

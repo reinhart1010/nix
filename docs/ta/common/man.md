@@ -2,14 +2,17 @@
 layout: page
 title: common/man (தமிழ்)
 description: "கையேடு பக்கங்களை வடிவமைத்து காட்டவும்."
-content_hash: e2b23e209455ec71764056ec561d4b1a62602efb
-last_modified_at: 2023-11-12
+content_hash: 559fe4eed8c09ee0e0c95a4ca4d7dce87378f6fa
+last_modified_at: 2024-06-18
 related_topics:
   - title: English version
     url: /en/common/man.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/man.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/man.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/man.html
@@ -22,7 +25,7 @@ tldri18n_status: 2
 # man
 
 கையேடு பக்கங்களை வடிவமைத்து காட்டவும்.
-மேலும் விவரத்திற்கு: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
+மேலும் விவரத்திற்கு: <https://www.manned.org/man>.
 
 - ஒரு கட்டளைக்கான மேன் பக்கத்தைக் காண்பி:
 

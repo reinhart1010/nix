@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/bspwm (español)
-description: "Este comando es un alias de `bspc`."
-content_hash: 3e1075f1192390878475a63bba78e06c4dd2f33c
-last_modified_at: 2024-02-26
+description: "Un gestor de ventanas embaldosado basado en particionado de espacio binario."
+content_hash: c795c9831d0ed641cebd613c5c017c1f36500690
+last_modified_at: 2024-06-18
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -93,9 +93,10 @@ tldri18n_status: 2
 ---
 # bspwm
 
-Este comando es un alias de `bspc`.
+Un gestor de ventanas embaldosado basado en particionado de espacio binario.
+Vea también: `bspc`, para controlar el gestor.
 Más información: <https://github.com/baskerville/bspwm>.
 
-- Muestra la documentación del comando original:
+- Inicia `bspwm` (cabe recalcar que no debe haber otro gestor de ventanas al ejecutar este comando):
 
-`tldr bspc`
+`bspwm -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_de_configuración</span>

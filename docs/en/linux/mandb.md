@@ -2,14 +2,14 @@
 layout: page
 title: linux/mandb (English)
 description: "Manage the pre-formatted manual page database."
-content_hash: 3ee1708a3eb9db8378ef42d941d04e91358662bf
-last_modified_at: 2023-11-12
+content_hash: 52ebc1cc3f5dfc12f8957de592b8a0af2072bf71
+last_modified_at: 2024-06-18
 tldri18n_status: 2
 ---
 # mandb
 
 Manage the pre-formatted manual page database.
-More information: <https://man7.org/linux/man-pages/man8/mandb.8.html>.
+More information: <https://manned.org/mandb>.
 
 - Purge and process manual pages:
 

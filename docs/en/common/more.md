@@ -2,8 +2,8 @@
 layout: page
 title: common/more (English)
 description: "Interactively display a file, allowing scrolling and searching."
-content_hash: a2ae61d2c7e5bad686b279988abbbca25b8a0a9c
-last_modified_at: 2024-02-13
+content_hash: 73e51adb73686d64e009ac32a355e577777c499b
+last_modified_at: 2024-06-18
 related_topics:
   - title: español version
     url: /es/common/more.html
@@ -25,10 +25,6 @@ More information: <https://manned.org/more.1p>.
 - Open a file:
 
 `more `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
-
-- Search case-[i]nsensitively when pressing "/":
-
-`more -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Display a specific line:
 

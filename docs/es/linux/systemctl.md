@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/systemctl (español)
-description: "Controla el sistema systemd y el gestor de servicios."
-content_hash: 40c4ae3a7f97de2c2af103429b21b34d1389d021
-last_modified_at: 2023-11-12
+description: "Controla el gestor de sistemas y servicios systemd."
+content_hash: 953c364735d4cda1737839ebf0e785570a1e7708
+last_modified_at: 2024-06-18
 related_topics:
   - title: català version
     url: /ca/linux/systemctl.html
@@ -33,7 +33,7 @@ tldri18n_status: 2
 ---
 # systemctl
 
-Controla el sistema systemd y el gestor de servicios.
+Controla el gestor de sistemas y servicios systemd.
 Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
 
 - Muestra todos los servicios en ejecución:
@@ -44,26 +44,26 @@ Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.h
 
 `systemctl --failed`
 
-- Inicia/Para/Reinicia/Recarga un servicio:
+- Inicia, para, reinicia, recarga o muestra el estado de una unidad:
 
-`systemctl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|reload</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span>
+`systemctl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|reload|status</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span>
 
-- Muestra el estado de una unidad:
+- Habilita o deshabilita una unidad para iniciarla al arrancar:
 
-`systemctl status `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span>
+`systemctl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span>
 
-- Habilita/Deshabilita una unidad para que se inicie en el arranque:
-
-`systemctl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable/disable</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span>
-
-- Enmascara/Desenmascara una unidad para evitar su habilitación y activación manual:
-
-`systemctl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mask|unmask</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span>
-
-- Recarga systemd, buscando unidades nuevas o modificadas:
+- Reinicia systemd, lee unidades nuevas o modificadas:
 
 `systemctl daemon-reload`
 
-- Comprueba si una unidad está habilitada:
+- Checa si una unidad está activa, habilitada, o en estado fallido:
 
-`systemctl is-enabled `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span>
+`systemctl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">is-active|is-enabled|is-failed</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span>
+
+- Lista todos los servicios, sockets, unidades auto-montadas filtradas por estado en ejecución o fallido:
+
+`systemctl list-units --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service|socket|automount</span>` --state=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">failed|running</span>
+
+- Muestra los contenidos y la ruta absoluta del archivo de una unidad:
+
+`systemctl cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span>

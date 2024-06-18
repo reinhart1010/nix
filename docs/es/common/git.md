@@ -2,8 +2,8 @@
 layout: page
 title: common/git (español)
 description: "Sistema de control de versiones distribuido."
-content_hash: ab46d7e2c69f58c0f6c6396ca53304e657173410
-last_modified_at: 2023-11-12
+content_hash: 67a800671c8bac7fdcd4e63fd6b94e6e074abed5
+last_modified_at: 2024-06-18
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -55,20 +55,8 @@ tldri18n_status: 2
 # git
 
 Sistema de control de versiones distribuido.
-Algunos subcomandos, como `commit`, `add`, `branch`, `checkout`, `push`, etc., tienen su propia documentación de uso, accessible a través de `tldr git subcomando`.
+Algunos subcomandos como `commit`, `add`, `branch`, `checkout`, `push`, etc., tienen su propia documentación de uso.
 Más información: <https://git-scm.com/>.
-
-- Muestra la versión de Git:
-
-`git --version`
-
-- Muestra ayuda general:
-
-`git --help`
-
-- Muestra ayuda sobre un subcomando de Git (como `clone`, `add`, `push`, `log`, etc.):
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
 
 - Ejecuta un subcomando de Git:
 
@@ -78,6 +66,18 @@ Más información: <https://git-scm.com/>.
 
 `git -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/repositorio</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
 
-- Ejecuta un subcomando de Git con la configuración definida:
+- Ejecuta un subcomando de Git con configuración personalizada:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.clave</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
+
+- Muestra ayuda general:
+
+`git --help`
+
+- Muestra ayuda sobre un subcomando de Git (p. ej., `clone`, `add`, `push`, `log`, etc.):
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
+
+- Muestra la versión:
+
+`git --version`

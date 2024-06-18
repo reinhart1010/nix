@@ -2,14 +2,14 @@
 layout: page
 title: linux/partx (English)
 description: "Parse a partition table and tell the kernel about it."
-content_hash: 8d526d8f9b2651ae8812ac8681011632a3e33388
-last_modified_at: 2023-11-12
+content_hash: 43ad6a763c8b056060bdd0c4039097dfb7ca4e9e
+last_modified_at: 2024-06-18
 tldri18n_status: 2
 ---
 # partx
 
 Parse a partition table and tell the kernel about it.
-More information: <https://man7.org/linux/man-pages/man8/partx.8.html>.
+More information: <https://manned.org/partx>.
 
 - List the partitions on a block device or disk image:
 

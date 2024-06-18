@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip (italiano)
 description: "Mostra / manipola routing, dispositivi, criteri di routing e tunnel."
-content_hash: 0f6063c8176860f997078694d48d32222373206f
-last_modified_at: 2023-12-29
+content_hash: a203564c040cb32cdd657ef60bd327c15a61d189
+last_modified_at: 2024-06-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Mostra / manipola routing, dispositivi, criteri di routing e tunnel.
 Alcuni sottocomandi, come `ip address`, hanno una propria documentazione d'uso.
-Maggiori informazioni: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
+Maggiori informazioni: <https://www.manned.org/ip.8>.
 
 - Elenca le interfacce con informazioni dettagliate:
 
