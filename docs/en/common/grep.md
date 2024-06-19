@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (English)
 description: "Find patterns in files using regular expressions."
-content_hash: 3e3749aef2870db6c5e123eb34f87570adf15ceb
-last_modified_at: 2024-06-07
+content_hash: 9ab98cbad93bad4c9f067bc93b3e9ef2d2b741c9
+last_modified_at: 2024-06-19
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -63,7 +63,7 @@ More information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Print 3 lines of context around, before, or after each match:
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` 3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Print file name and line number for each match with color output:
 

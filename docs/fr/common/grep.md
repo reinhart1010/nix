@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (français)
 description: "Recherche des motifs dans un texte."
-content_hash: 4a577c479a158a0ed5ab3f5d64343a31c0c68092
-last_modified_at: 2024-06-13
+content_hash: f37340ffdaf67d44684c06b7ad9833b76eeaae5c
+last_modified_at: 2024-06-19
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -67,7 +67,7 @@ Plus d'informations : <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Affiche 3 lignes de [C]ontexte, avant ([B]efore), ou [A]près chaque concordance :
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaîne_recherchée</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` 3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaîne_recherchée</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
 - Affiche le nom du fichier avec la ligne correspondante pour chaque concordance :
 

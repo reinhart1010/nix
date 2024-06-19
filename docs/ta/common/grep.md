@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (தமிழ்)
 description: "கோப்பில் தேடுகுறித்தொடர்களுடன் தேடு."
-content_hash: 34941ab29c48d255ab990f2a2a6d5ce34793c0ba
-last_modified_at: 2024-06-13
+content_hash: 3dc8551a754997a77ccf134f500e5362b01ed6b1
+last_modified_at: 2024-06-19
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -63,7 +63,7 @@ tldri18n_status: 2
 
 - ஒவ்வொருப் பொருத்தத்திற்கும் சூழ்ந்த, முந்தைய அல்லது பிந்தைய 3 வரிகளைக் காட்டு:
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடுதொடர்</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` 3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடுதொடர்</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - வண்ண வெளியீட்டில் ஒவ்வொரு பொருத்தத்திற்கும் கோப்பு பெயர் மற்றும் வரி எண்ணை அச்சிடவும்:
 

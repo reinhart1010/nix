@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (中文)
 description: "使用正则表达式查找文件中的模式。"
-content_hash: 4c2645a06e6551e977aa178ddb680ad6cbc269cc
-last_modified_at: 2024-06-13
+content_hash: a51fec8b382364387e1865a7465ae6d6aca897c8
+last_modified_at: 2024-06-19
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -63,7 +63,7 @@ tldri18n_status: 2
 
 - 在每个匹配前后、之前或之后打印 3 行上下文：
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式字符串</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` 3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式字符串</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
 
 - 以带有颜色的方式，打印每个匹配的文件名和行号：
 

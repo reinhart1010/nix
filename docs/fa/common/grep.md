@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (فارسی)
 description: "یافتن الگو در فایل ها به کمک عبارات با قاعده."
-content_hash: 844df26ff3f67bb3298192495163d27dd80e8808
-last_modified_at: 2024-06-13
+content_hash: a9ccf4c6db3b34b35bf5bd3c4093b57ddd3fce4f
+last_modified_at: 2024-06-19
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -63,7 +63,7 @@ tldri18n_status: 2
 
 - چاپ 3 خط از قبل و بعد محل انطباق:
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` 3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - چاپ نام فایل و شماره خط برای هر انطباق با رنگبندی :
 

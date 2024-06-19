@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (português (Brasil))
 description: "Acha padrões em arquivos usando expressões regulares."
-content_hash: 35573a3f49ea5d611aab28f808a0e592afb05719
-last_modified_at: 2024-06-13
+content_hash: 024efce57b6c2c8a7de1c1242a954063ac4600ba
+last_modified_at: 2024-06-19
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -63,7 +63,7 @@ Mais informações: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Imprime 3 linhas de contexto em volta, antes ou depois de cada correspondência:
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_pesquisado</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` 3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_pesquisado</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
 - Imprime o nome do arquivo e o número da linha para cada correspondência:
 

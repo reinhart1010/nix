@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (Türkçe)
 description: "Düzenli ifadeler (Regex) kullanarak dosyalardaki kalıpları bul."
-content_hash: 3447b851c86b436baf63813f881a100ef6ce14cd
-last_modified_at: 2024-06-13
+content_hash: fe2475dd5e7bf0285e634a1fe5d530ead15823f9
+last_modified_at: 2024-06-19
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -63,7 +63,7 @@ Daha fazla bilgi için: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Her eşleşmenin etrafında, öncesinde veya sonrasında 3 satır içerik yazdır:
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aranan_kalıp</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` 3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aranan_kalıp</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
 
 - Renkli çıktı ile her eşleşme için dosya adını ve satır numarasını yazdır:
 

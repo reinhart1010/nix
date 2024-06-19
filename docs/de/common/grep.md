@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (Deutsch)
 description: "Findet Ausdrücke in einem Eingabetext."
-content_hash: 148ceb171c81cff35ba143502a5778b21d00ca51
-last_modified_at: 2024-06-13
+content_hash: c451a2fea7b35e772e8181622f045ec0252b0703
+last_modified_at: 2024-06-19
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -63,4 +63,4 @@ Weitere Informationen: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Zeige 3 Zeilen Kontext um [C], vor [B] oder nach [A] jedem Ergebnis:
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ausdruck</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` 3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ausdruck</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>

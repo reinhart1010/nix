@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (한국어)
 description: "정규표현식으로 파일에서 패턴을 찾습니다."
-content_hash: 3033878d9addb1b4f5fcbd59de6f363e693c24dd
-last_modified_at: 2024-06-13
+content_hash: ea54ee64f6577264dae7e5e5498a30b582568743
+last_modified_at: 2024-06-19
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -63,7 +63,7 @@ tldri18n_status: 2
 
 - 일치하는 문자열 주변, 이전 혹은 이후의 3줄을 출력:
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일/의/경로</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` 3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일/의/경로</span>
 
 - 각각의 일치하는 문자열의 파일 이름과 줄 번호 출력:
 

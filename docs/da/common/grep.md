@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (dansk)
 description: "Find mønstre i filer via regulære udtryk (regular expressions)."
-content_hash: a204d5ecb5689c458cd4bfec423147eb79486714
-last_modified_at: 2024-06-13
+content_hash: 7446c608906ea1eedb842842c4cc05f0e61f9744
+last_modified_at: 2024-06-19
 related_topics:
   - title: Deutsch version
     url: /de/common/grep.html
@@ -63,7 +63,7 @@ Mere information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Print 3 linjer af kontekst omkring, før eller efter hvert match:
 
-`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">søgemønster</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sti/til/fil</span>
+`grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>` 3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">søgemønster</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sti/til/fil</span>
 
 - Print, filnavn og linjenummer for hvert match, med farveoutput:
 
