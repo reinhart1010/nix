@@ -3,7 +3,7 @@ layout: page
 title: common/make (Nederlands)
 description: "Taakuitvoerder voor doelen beschreven in Makefile."
 content_hash: 09258694b3a44446d83a5c5e7d774c161fd28252
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/make.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/make.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/make.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># make
+# make
 
 Taakuitvoerder voor doelen beschreven in Makefile.
 Wordt meestal gebruikt om de compilatie van een uitvoerbaar bestand uit broncode te beheren.

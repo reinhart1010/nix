@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (Nederlands)
 description: "Een zoektool zoals grep, geoptimaliseerd voor ontwikkelaars."
-content_hash: c672e42f887c5bbd08b7cd012f73fcd2cdb44cc6
-last_modified_at: 2024-05-04
+content_hash: b567132b1cf17b8e7f0520f6ed1599cd08b596e9
+last_modified_at: 2024-06-19
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -49,7 +49,7 @@ tldri18n_status: 2
 # ack
 
 Een zoektool zoals grep, geoptimaliseerd voor ontwikkelaars.
-Zie ook: `rg`, dat is veel sneller.
+Bekijk ook: `rg`, dat is veel sneller.
 Meer informatie: <https://beyondgrep.com/documentation>.
 
 - Zoek recursief naar bestanden met een tekenreeks of reguliere expressie in de huidige map:
@@ -76,7 +76,7 @@ Meer informatie: <https://beyondgrep.com/documentation>.
 
 `ack --count --no-filename "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`"`
 
-- Druk alleen voor elk bestand de bestandsnamen en het aantal overeenkomsten af:
+- Toon alleen voor elk bestand de bestandsnamen en het aantal overeenkomsten:
 
 `ack --count --files-with-matches "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`"`
 

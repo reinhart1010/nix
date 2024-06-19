@@ -3,7 +3,7 @@ layout: page
 title: common/split (Nederlands)
 description: "Split een bestand in stukken."
 content_hash: 6204dce4709e1ebcffb783829eabe6ee832c11a2
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/split.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/split.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/split.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># split
+# split
 
 Split een bestand in stukken.
 Meer informatie: <https://www.gnu.org/software/coreutils/split>.

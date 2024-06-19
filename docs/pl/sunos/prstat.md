@@ -2,8 +2,8 @@
 layout: page
 title: sunos/prstat (polski)
 description: "Raportuj statystyki aktywnego procesu."
-content_hash: f19360a82c475b2eaa9f157cede813475c2f3614
-last_modified_at: 2024-05-10
+content_hash: a56e00cc1435e25c3defce40074267b48b31316d
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/sunos/prstat.html
@@ -48,4 +48,4 @@ Więcej informacji: <https://www.unix.com/man-page/sunos/1m/prstat>.
 
 - Wypisz 5 najbardziej obciążających procesor procesów co sekundę:
 
-`prstat -c -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` -s cpu `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`prstat -c -n 5 -s cpu 1`

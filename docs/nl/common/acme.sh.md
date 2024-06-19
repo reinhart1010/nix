@@ -2,8 +2,8 @@
 layout: page
 title: common/acme.sh (Nederlands)
 description: "Shell-script dat het ACME-clientprotocol implementeert, een alternatief voor `certbot`."
-content_hash: ffe2e1ef749c9ae3117e575e73243e8b455aaad0
-last_modified_at: 2023-12-03
+content_hash: db3ac6fd29f0836cf8bb7a8cac096a8570619cad
+last_modified_at: 2024-06-19
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh.html
@@ -17,6 +17,9 @@ related_topics:
   - title: français version
     url: /fr/common/acme.sh.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/acme.sh.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/acme.sh.html
     icon: bi bi-globe
@@ -28,7 +31,7 @@ tldri18n_status: 2
 # acme.sh
 
 Shell-script dat het ACME-clientprotocol implementeert, een alternatief voor `certbot`.
-Zie ook `acme.sh dns`.
+Bekijk ook `acme.sh dns`.
 Meer informatie: <https://github.com/acmesh-official/acme.sh>.
 
 - Geef een certificaat uit met behulp van de webroot-modus:

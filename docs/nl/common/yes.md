@@ -2,8 +2,8 @@
 layout: page
 title: common/yes (Nederlands)
 description: "Iets herhaaldelijk uitvoeren."
-content_hash: 9eb1cafe51233b7bbc01b57dc79f9c560a848826
-last_modified_at: 2024-02-16
+content_hash: be9c6846926834c25fb67e99549a25033e5d7055
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -31,11 +31,11 @@ Iets herhaaldelijk uitvoeren.
 Deze opdracht wordt vaak gebruikt om ja te beantwoorden op elke prompt door installatieopdrachten (zoals apt-get).
 Meer informatie: <https://www.gnu.org/software/coreutils/yes>.
 
-- Print herhaaldelijk "bericht":
+- Toon herhaaldelijk "bericht":
 
 `yes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bericht</span>
 
-- Print herhaaldelijk "y":
+- Toon herhaaldelijk "y":
 
 `yes`
 
@@ -43,6 +43,6 @@ Meer informatie: <https://www.gnu.org/software/coreutils/yes>.
 
 `yes | sudo apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programma</span>
 
-- Print herhaaldelijk een nieuwe regel om altijd de standaard optie van een vraag te accepteren:
+- Toon herhaaldelijk een nieuwe regel om altijd de standaard optie van een vraag te accepteren:
 
 `yes ''`

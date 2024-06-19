@@ -3,7 +3,7 @@ layout: page
 title: common/more (中文)
 description: "打开一个文件进行交互式阅读，允许滚动和搜索。"
 content_hash: e7a2deb9049129b15c385d87dbbb3b3a48d542e5
-last_modified_at: 2024-02-15
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/more.html
@@ -14,9 +14,12 @@ related_topics:
   - title: italiano version
     url: /it/common/more.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# more
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># more
 
 打开一个文件进行交互式阅读，允许滚动和搜索。
 更多信息：<https://manned.org/more.1p>.

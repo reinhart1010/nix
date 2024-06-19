@@ -3,7 +3,7 @@ layout: page
 title: common/ls (Nederlands)
 description: "Toon de inhoud van een map."
 content_hash: 32b3f5530a8bccf26aa1df6577bd9980b7ecc06b
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -62,18 +62,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ls.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ls
+# ls
 
 Toon de inhoud van een map.
 Meer informatie: <https://www.gnu.org/software/coreutils/ls>.

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/echo (Nederlands)
-description: "Drukt gegeven argumenten af."
-content_hash: 84bd8514810a458c6ba112a8227128ffa892a73c
-last_modified_at: 2023-11-12
+description: "Toont gegeven argumenten."
+content_hash: a3e01c905c1ae6ad86412f45f11ec732f7a5979f
+last_modified_at: 2024-06-19
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -45,18 +45,18 @@ tldri18n_status: 2
 ---
 # echo
 
-Drukt gegeven argumenten af.
+Toont gegeven argumenten.
 Meer informatie: <https://www.gnu.org/software/coreutils/echo>.
 
-- Druk een tekstbericht af. Let op: aanhalingstekens zijn optimaal:
+- Toon een tekstbericht. Let op: aanhalingstekens zijn optioneel:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hallo Wereld</span>`"`
 
-- Druk een bericht af met omgevingsvariabelen:
+- Toon een bericht met omgevingsvariabelen:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Mijn pad is $PATH</span>`"`
 
-- Drukt een bericht af zonder te volgen met een nieuwe regel:
+- Toont een bericht zonder te volgen met een nieuwe regel:
 
 `echo -n "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hallo Wereld</span>`"`
 
@@ -68,6 +68,6 @@ Meer informatie: <https://www.gnu.org/software/coreutils/echo>.
 
 `echo -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kolom 1\kolom 2</span>`"`
 
-- Druk de afsluitstatus van de laatst uitgevoerde opdracht af (Opmerking: in Windows Command Prompt en PowerShell zijn de equivalente opdrachten respectievelijk `echo %errorlevel%` en `$lastexitcode`):
+- Toon de afsluitstatus van de laatst uitgevoerde opdracht (Let op: in Windows Command Prompt en PowerShell zijn de equivalente opdrachten respectievelijk `echo %errorlevel%` en `$lastexitcode`):
 
 `echo $?`

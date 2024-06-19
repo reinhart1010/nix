@@ -3,7 +3,7 @@ layout: page
 title: common/install (Nederlands)
 description: "Kopieer bestanden en stel attributen in."
 content_hash: 3737e1124f475760735c514ff61fc2d651e0945a
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/install.html
@@ -11,18 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/install.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/install.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># install
+# install
 
 Kopieer bestanden en stel attributen in.
 Kopieer bestanden (vaak uitvoerbare) naar een systeemlocatie zoals `/usr/local/bin` en geef ze de juiste permissies/eigendom.

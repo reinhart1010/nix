@@ -3,7 +3,7 @@ layout: page
 title: common/arping (Indonesia)
 description: "Cari dan selidiki para host jaringan melalui protokol ARP."
 content_hash: 60501a0b5563cac91dd132ef2b588a912df1bc8c
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: Deutsch version
     url: /de/common/arping.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/arping.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/arping.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># arping
+# arping
 
 Cari dan selidiki para host jaringan melalui protokol ARP.
 Bermanfaat untuk mencari alamat MAC dalam jaringan.

@@ -2,8 +2,8 @@
 layout: page
 title: common/time (Nederlands)
 description: "Meet hoe lang het uitvoeren van een commando duurt."
-content_hash: bc9bba0d245d8cab1f8fcb95eb770f366c33e208
-last_modified_at: 2023-11-12
+content_hash: 22446cd1226a6ecf427e0974de105d89e7732a77
+last_modified_at: 2024-06-19
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # time
 
 Meet hoe lang het uitvoeren van een commando duurt.
-Opmerking: `time` kan ofwel bestaan als een shell builtin, een op zichzelf staand programma of beide.
+Let op: `time` kan ofwel bestaan als een shell builtin, een op zichzelf staand programma of beide.
 Meer informatie: <https://manned.org/time>.
 
 - Voer het `commando` uit en print de tijdmetingen naar `stdout`::

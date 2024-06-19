@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-nodebalancers (Nederlands)
 description: "Beheer Linode NodeBalancers."
-content_hash: 3cb8b2cdf525fc40a501d7494f3ff8b132de138c
-last_modified_at: 2023-11-12
+content_hash: b9a454683ff5786ed62bcda904e1e33ca02edca6
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/linode-cli-nodebalancers.html
@@ -22,7 +22,7 @@ Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/nodebala
 
 - Maak een nieuwe NodeBalancer:
 
-`linode-cli nodebalancers create --region `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span>
+`linode-cli nodebalancers create --region `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regio</span>
 
 - Toon details van een specifieke NodeBalancer:
 
@@ -30,7 +30,7 @@ Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/nodebala
 
 - Update een bestaande NodeBalancer:
 
-`linode-cli nodebalancers update `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodebalancer_id</span>` --label `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_label</span>
+`linode-cli nodebalancers update `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodebalancer_id</span>` --label `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nieuw_label</span>
 
 - Verwijder een NodeBalancer:
 
@@ -42,4 +42,4 @@ Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/nodebala
 
 - Voeg een nieuwe configuratie toe aan een NodeBalancer:
 
-`linode-cli nodebalancers configs create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodebalancer_id</span>` --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>` --protocol `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol</span>
+`linode-cli nodebalancers configs create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodebalancer_id</span>` --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort</span>` --protocol `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol</span>

@@ -3,7 +3,7 @@ layout: page
 title: common/more (italiano)
 description: "Aprire un file per la lettura interattiva, con scorrimento e ricerca."
 content_hash: e78d920e8b0c1bbf5bb476e9eaa7a3d75ba833c8
-last_modified_at: 2024-02-15
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/more.html
@@ -14,9 +14,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/more.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# more
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># more
 
 Aprire un file per la lettura interattiva, con scorrimento e ricerca.
 Maggiori informazioni: <https://manned.org/more.1p>.

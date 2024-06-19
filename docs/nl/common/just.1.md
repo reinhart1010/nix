@@ -2,8 +2,8 @@
 layout: page
 title: common/just.1 (Nederlands)
 description: "Sla op en run project-specifieke commands uit."
-content_hash: 70ba8f318c694b183ca6c9dbc6f0a1f44fe6c250
-last_modified_at: 2023-11-12
+content_hash: 213fbb8b00aee977264de51280426a9b65114bcc
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/just.1.html
@@ -31,6 +31,6 @@ Meer informatie: <https://github.com/casey/just>.
 
 `just -l`
 
-- Print de justfile:
+- Toon de justfile:
 
 `just --dump`

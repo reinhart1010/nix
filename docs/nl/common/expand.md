@@ -3,7 +3,7 @@ layout: page
 title: common/expand (Nederlands)
 description: "Vervang tabs met spaties."
 content_hash: 5319dde4e6820e8108ae95dc616816972d3ece20
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/expand.html
@@ -11,18 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/common/expand.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/expand.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># expand
+# expand
 
 Vervang tabs met spaties.
 Meer informatie: <https://www.gnu.org/software/coreutils/expand>.

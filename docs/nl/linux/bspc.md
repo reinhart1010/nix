@@ -2,8 +2,8 @@
 layout: page
 title: linux/bspc (Nederlands)
 description: "Een tool om `bspwm` te besturen."
-content_hash: 64cba35b11c93f383fee8fe87160e55675216464
-last_modified_at: 2024-03-09
+content_hash: bedca1ea3d1602508bb4f5993522ebed89b5f1f6
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/linux/bspc.html
@@ -21,17 +21,17 @@ Meer informatie: <https://github.com/baskerville/bspwm>.
 
 - Focus op het gegeven bureaublad:
 
-`bspc desktop --focus `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span>
+`bspc desktop --focus `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nummer</span>
 
-- Sluit de vensters die afgetakt zijn van het geselecteerde knooppunt:
+- Sluit de vensters die afgetakt zijn van de geselecteerde node:
 
 `bspc node --close`
 
-- Stuur het geselecteerde knooppunt naar het opgegeven bureaublad:
+- Stuur de geselecteerde node naar het opgegeven bureaublad:
 
-`bspc node --to-desktop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span>
+`bspc node --to-desktop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nummer</span>
 
-- Schakel de modus volledig scherm in voor het geselecteerde knooppunt:
+- Schakel de modus volledig scherm in voor de geselecteerde node:
 
 `bspc node --state ~fullscreen`
 

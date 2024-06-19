@@ -2,8 +2,8 @@
 layout: page
 title: osx/dd (Nederlands)
 description: "Converteer en kopieer een bestand."
-content_hash: 17f13c96fd833d3b0b34583ab884f9b25782d4e9
-last_modified_at: 2024-06-10
+content_hash: e697ef12768626a05162d8b5f9aa64d3e2e9fe20
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/osx/dd.html
@@ -34,7 +34,7 @@ Meer informatie: <https://keith.github.io/xcode-man-pages/dd.1.html>.
 
 - Genereer een bestand met een specifiek aantal willekeurige bytes met behulp van de kernel random driver:
 
-`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/random_file</span>
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/random_bestand</span>
 
 - Benchmark de schrijfsnelheid van een schijf:
 

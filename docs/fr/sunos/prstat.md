@@ -2,14 +2,20 @@
 layout: page
 title: sunos/prstat (français)
 description: "Signaler les statistiques de processus actifs."
-content_hash: a39e97718cd4613e23ba066a24a5f400e936eb00
-last_modified_at: 2023-12-28
+content_hash: 4f26c6757057650230ee55972e11b079f251dd4b
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/sunos/prstat.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/sunos/prstat.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/sunos/prstat.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/sunos/prstat.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/sunos/prstat.html
@@ -42,4 +48,4 @@ Plus d'informations : <https://www.unix.com/man-page/sunos/1m/prstat>.
 
 - Imprimez une liste des 5 meilleurs processeurs utilisant des processus chaque seconde :
 
-`prstat -c -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` -s cpu `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`prstat -c -n 5 -s cpu 1`

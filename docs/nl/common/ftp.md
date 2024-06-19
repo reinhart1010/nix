@@ -3,7 +3,7 @@ layout: page
 title: common/ftp (Nederlands)
 description: "Hulpmiddelen om via het File Transfer Protocol met een server te communiceren."
 content_hash: 1e5a7e42b443309ca33ee64589993f016bc1e3f6
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/ftp.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ftp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ftp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ftp
+# ftp
 
 Hulpmiddelen om via het File Transfer Protocol met een server te communiceren.
 Meer informatie: <https://manned.org/ftp>.

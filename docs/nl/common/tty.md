@@ -2,8 +2,8 @@
 layout: page
 title: common/tty (Nederlands)
 description: "Geeft de naam van de terminal terug."
-content_hash: 13eeaa30235713b93906712d0db8025aee5c2b66
-last_modified_at: 2023-11-12
+content_hash: b0de1a952c70d792ea39c67f73120d62ed0fd0c5
+last_modified_at: 2024-06-19
 related_topics:
   - title: bosanski version
     url: /bs/common/tty.html
@@ -30,6 +30,6 @@ tldri18n_status: 2
 Geeft de naam van de terminal terug.
 Meer informatie: <https://www.gnu.org/software/coreutils/tty>.
 
-- Druk de bestandsnaam van deze terminal af:
+- Toon de bestandsnaam van deze terminal:
 
 `tty`

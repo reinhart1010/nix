@@ -2,8 +2,8 @@
 layout: page
 title: common/xzless (Nederlands)
 description: "Tekst weergeven van `xz` en `lzma` gecomprimeerde bestanden."
-content_hash: 88dd6ca50debb97e50e132c9bebd2a45c2a9c41b
-last_modified_at: 2023-11-26
+content_hash: 73f0503ade81310d7da68e3c5735f1fc430c31b2
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/xzless.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # xzless
 
 Tekst weergeven van `xz` en `lzma` gecomprimeerde bestanden.
-Zie ook: `less`.
+Bekijk ook: `less`.
 Meer informatie: <https://manned.org/xzless>.
 
 - Bekijk een gecomprimeerd bestand:

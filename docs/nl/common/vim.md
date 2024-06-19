@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (Nederlands)
 description: "Vim (Vi IMproved), een command-line tekst bewerker, geeft toegang tot verschillende manieren van tekst manipulatie."
-content_hash: 8f56a0ba193cd67475441229a92aabacc975312a
-last_modified_at: 2023-12-29
+content_hash: 601856a4de6e6053f5843fe215e5d26ca1a9e3c8
+last_modified_at: 2024-06-19
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -56,7 +56,7 @@ Meer informatie: <https://www.vim.org>.
 
 - Open een bestand bij een bepaald regelnummer:
 
-`vim +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regel_nummer</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+`vim +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regelnummer</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
 - Bekijk de handleiding van Vim:
 

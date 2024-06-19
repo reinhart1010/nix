@@ -2,8 +2,8 @@
 layout: page
 title: osx/launchctl (Nederlands)
 description: "Beheer Apple's `launchd` manager voor launch daemons (systeembrede diensten) en launch agents (programma's per gebruiker)."
-content_hash: 890275973097bbb9f5cbf5828b38db95d4574940
-last_modified_at: 2024-01-31
+content_hash: cc341107477b09d036d3581ae7965f1acd71382b
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/osx/launchctl.html
@@ -35,11 +35,11 @@ Meer informatie: <https://keith.github.io/xcode-man-pages/launchctl.1.html>.
 
 `launchctl list`
 
-- Een momenteel geladen agent ontladen, b.v. om wijzigingen aan te brengen (let op: het plist-bestand wordt automatisch in `launchd` geladen na een herstart en/of inloggen):
+- Een momenteel geladen agent ontladen, b.v. om wijzigingen aan te brengen (Let op: het plist-bestand wordt automatisch in `launchd` geladen na een herstart en/of inloggen):
 
 `launchctl unload ~/Library/LaunchAgents/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_script</span>`.plist`
 
-- Voer handmatig een bekende (geladen) agent/daemon uit, zelfs als dit niet het juiste moment is (opmerking: deze opdracht gebruikt het label van de agent, in plaats van de bestandsnaam):
+- Voer handmatig een bekende (geladen) agent/daemon uit, zelfs als dit niet het juiste moment is (Let op: deze opdracht gebruikt het label van de agent, in plaats van de bestandsnaam):
 
 `launchctl start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script_bestand</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/ykman-openpgp (Nederlands)
 description: "Beheer de OpenPGP YubiKey applicatie."
-content_hash: 0d166fef6ce2773f3f58422bae5483c75118e2c3
-last_modified_at: 2023-12-11
+content_hash: a6e8073f6ee9b4709f1ecf29b62ad06404a82b68
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/ykman-openpgp.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # ykman openpgp
 
 Beheer de OpenPGP YubiKey applicatie.
-Opmerking: je dient `gpg --card-edit` te gebruiken voor sommige instellingen.
+Let op: je dient `gpg --card-edit` te gebruiken voor sommige instellingen.
 Meer informatie: <https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html>.
 
 - Toon algemene informatie over de OpenPGP applicatie:

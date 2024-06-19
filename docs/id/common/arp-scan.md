@@ -3,7 +3,7 @@ layout: page
 title: common/arp-scan (Indonesia)
 description: "Kirim paket ARP menuju kumpulan alamat IP atau host untuk memindai suatu jaringan komputer lokal."
 content_hash: c8f1d08c06d69c1e5c2d11f5c4f18b3bf6278e14
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: Deutsch version
     url: /de/common/arp-scan.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/arp-scan.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/arp-scan.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># arp-scan
+# arp-scan
 
 Kirim paket ARP menuju kumpulan alamat IP atau host untuk memindai suatu jaringan komputer lokal.
 Informasi lebih lanjut: <https://github.com/royhills/arp-scan>.

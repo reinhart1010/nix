@@ -2,8 +2,8 @@
 layout: page
 title: linux/mount.cifs (Nederlands)
 description: "Mount SMB (Server Message Block) of CIFS (Common Internet File System) shares."
-content_hash: d89c1da91afb2198f06e6db5f40faafeaaee583e
-last_modified_at: 2023-11-26
+content_hash: 24e0520b0222a1d1eff6eec17dcbc88b1881193d
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/linux/mount.cifs.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # mount.cifs
 
 Mount SMB (Server Message Block) of CIFS (Common Internet File System) shares.
-Opmerking: u kunt ook hetzelfde doen door de optie `-t cifs` door te geven aan `mount`.
+Let op: u kunt ook hetzelfde doen door de optie `-t cifs` door te geven aan `mount`.
 Meer informatie: <https://manned.org/mount.cifs>.
 
 - Verbinding maken met de opgegeven gebruikersnaam of `$USER` als standaard (U wordt gevraagd om een wachtwoord):

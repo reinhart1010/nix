@@ -2,11 +2,17 @@
 layout: page
 title: osx/yaa (English)
 description: "Create and manipulate YAA archives."
-content_hash: 17989613e53b3d98a733953b99b6835f3ce1bdb1
-last_modified_at: 2024-01-31
+content_hash: 7fbccbfe9b7d2c27277da82932400dcc31ef1c92
+last_modified_at: 2024-06-19
 related_topics:
   - title: español version
     url: /es/osx/yaa.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/yaa.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/osx/yaa.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -37,4 +43,4 @@ More information: <https://keith.github.io/xcode-man-pages/yaa.1.html>.
 
 - Create an archive with an 8 MB block size:
 
-`yaa archive -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8m</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.yaa</span>
+`yaa archive -b 8m -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.yaa</span>

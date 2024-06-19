@@ -2,8 +2,8 @@
 layout: page
 title: common/a2ping (Nederlands)
 description: "Converteer afbeeldingen in EPS- of PDF-bestanden."
-content_hash: dd13f5b605282da9b75af13ee82e52db7f06dc57
-last_modified_at: 2024-02-01
+content_hash: 571067aaeea8960dc5e78085b555535f8b3e549b
+last_modified_at: 2024-06-19
 related_topics:
   - title: বাংলা version
     url: /bn/common/a2ping.html
@@ -30,7 +30,7 @@ tldri18n_status: 2
 Converteer afbeeldingen in EPS- of PDF-bestanden.
 Meer informatie: <https://manned.org/a2ping>.
 
-- Converteer een afbeelding naar PDF (Opmerking: het opgeven van een uitvoerbestandsnaam is optioneel):
+- Converteer een afbeelding naar PDF (Let op: het opgeven van een uitvoerbestandsnaam is optioneel):
 
 `a2ping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pdf</span>
 
@@ -38,11 +38,11 @@ Meer informatie: <https://manned.org/a2ping>.
 
 `a2ping --nocompress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|zip|best|flate</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Scan HiResBoundingBox indien aanwezig (Opmerking: de standaard is yes):
+- Scan HiResBoundingBox indien aanwezig (Let op: de standaard is yes):
 
 `a2ping --nohires `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Sta pagina-inhoud onder en links van de oorsprong toe (Opmerking: de standaard is no):
+- Sta pagina-inhoud onder en links van de oorsprong toe (Let op: de standaard is no):
 
 `a2ping --below `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 

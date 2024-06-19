@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (Nederlands)
 description: "Kopieer bestanden en mappen."
-content_hash: a32fcd14d25b5b29a545821f1551d3fedfadfb41
-last_modified_at: 2023-11-12
+content_hash: 67c46776b3d1d34f011d38b45825cf43dc454a3c
+last_modified_at: 2024-06-19
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -50,11 +50,11 @@ Meer informatie: <https://www.gnu.org/software/coreutils/cp>.
 
 - Kopieer een bestand naar een andere locatie:
 
-`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron_bestand.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doel_bestand.ext</span>
+`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bronbestand.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doel_bestand.ext</span>
 
 - Kopieer een bestand naar een andere map, maar behoud de bestandsnaam:
 
-`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron_bestand.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doel_map</span>
+`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bronbestand.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doel_map</span>
 
 - Kopieer de inhoud van een map recursief naar een andere locatie (als de doelmap bestaat, dan wordt de map hierin gekopieerd):
 
@@ -78,4 +78,4 @@ Meer informatie: <https://www.gnu.org/software/coreutils/cp>.
 
 - Gebruik het volledige pad van de bron bestanden, creëer missende tussenliggende mappen tijdens het kopieëren:
 
-`cp --parents `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron_bestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doel_bestand</span>
+`cp --parents `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bronbestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doel_bestand</span>

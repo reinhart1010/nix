@@ -3,7 +3,7 @@ layout: page
 title: osx/split (Nederlands)
 description: "Split een bestand in stukken."
 content_hash: 90612d7c9f989e0143ff29ada9806d45876cdba0
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/osx/split.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/split.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/osx/split.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># split
+# split
 
 Split een bestand in stukken.
 Meer informatie: <https://keith.github.io/xcode-man-pages/split.1.html>.

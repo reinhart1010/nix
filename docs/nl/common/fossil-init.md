@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-init (Nederlands)
 description: "Initialiseer een nieuwe repository voor een project."
-content_hash: c21f25759d5a9af14a4b043b011db9069d7c84f3
-last_modified_at: 2023-11-26
+content_hash: 49babdde3d89c0d752b03a6d657d6849a583cd4c
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/fossil-init.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # fossil init
 
 Initialiseer een nieuwe repository voor een project.
-Zie ook: `fossil clone`.
+Bekijk ook: `fossil clone`.
 Meer informatie: <https://fossil-scm.org/home/help/init>.
 
 - Maak een nieuwe repository in een opgegeven bestand:

@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-rm (Nederlands)
 description: "Verwijder bestanden of mappen uit Fossil versiebeheer."
-content_hash: 69d41dd3b5161ef7c161b0b4da65b3cef72785f7
-last_modified_at: 2023-11-26
+content_hash: 83e43e59e007509605f43c48803ccfe93872c9ee
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/fossil-rm.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # fossil rm
 
 Verwijder bestanden of mappen uit Fossil versiebeheer.
-Zie ook: `fossil forget`.
+Bekijk ook: `fossil forget`.
 Meer informatie: <https://fossil-scm.org/home/help/rm>.
 
 - Verwijder een bestand of map uit Fossil versiebeheer:

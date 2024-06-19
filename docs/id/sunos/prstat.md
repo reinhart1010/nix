@@ -2,8 +2,8 @@
 layout: page
 title: sunos/prstat (Indonesia)
 description: "Laporkan statistik proses aktif."
-content_hash: 6a06a7ad19a465f6888a8813af096cf6f71878f7
-last_modified_at: 2024-04-10
+content_hash: b57d202a2ce71f50278a43f08f0bb0c03be5fb17
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/sunos/prstat.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/sunos/prstat.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/sunos/prstat.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/sunos/prstat.html
@@ -45,4 +48,4 @@ Informasi lebih lanjut: <https://www.unix.com/man-page/sunos/1m/prstat>.
 
 - Cetak daftar penggunaan CPU 5 proses teratas tiap 1 detik:
 
-`prstat -c -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` -s cpu `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`prstat -c -n 5 -s cpu 1`

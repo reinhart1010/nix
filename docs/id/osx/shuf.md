@@ -2,14 +2,17 @@
 layout: page
 title: osx/shuf (Indonesia)
 description: "Generate permutasi acak."
-content_hash: b795e36cfeb012aeb0343bd263441e5621c14445
-last_modified_at: 2024-01-31
+content_hash: f1e63440baf36228865ffd2f75912094f4fc817a
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/osx/shuf.html
     icon: bi bi-globe
   - title: español version
     url: /es/osx/shuf.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/shuf.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/shuf.html
@@ -27,7 +30,7 @@ Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/shuf.1.html>.
 
 - Hanya mengoutputkan 5 entri dari hasil:
 
-`shuf --head-count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_file</span>
+`shuf --head-count=5 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_file</span>
 
 - Menuliskan output ke file lain:
 
@@ -35,4 +38,4 @@ Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/shuf.1.html>.
 
 - Men-generate angka acak dari 1-10:
 
-`shuf --input-range=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-10</span>
+`shuf --input-range=1-10`

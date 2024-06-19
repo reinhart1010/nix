@@ -3,7 +3,7 @@ layout: page
 title: common/argon2 (Indonesia)
 description: "Hitung kode hash menggunakan algoritma kriptografi Argon2."
 content_hash: bfe224ab42102f637e515e30419f3fbdc0a77638
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/argon2.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/argon2.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/argon2.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># argon2
+# argon2
 
 Hitung kode hash menggunakan algoritma kriptografi Argon2.
 Informasi lebih lanjut: <https://github.com/P-H-C/phc-winner-argon2#command-line-utility>.

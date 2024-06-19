@@ -2,8 +2,8 @@
 layout: page
 title: common/xzgrep (Nederlands)
 description: "Zoek bestanden die mogelijk worden gecomprimeerd met `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, of `zstd` met behulp van reguliere expressies."
-content_hash: 69f9f48c7894cad1f86d134ebeff3b08f537aeba
-last_modified_at: 2023-11-26
+content_hash: 338c3b8c4938e98ab3c16e865463904a2edb4b88
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/xzgrep.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # xzgrep
 
 Zoek bestanden die mogelijk worden gecomprimeerd met `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, of `zstd` met behulp van reguliere expressies.
-Zie ook: `grep`.
+Bekijk ook: `grep`.
 Meer informatie: <https://manned.org/xzgrep>.
 
 - Zoek naar een patroon in een bestand:

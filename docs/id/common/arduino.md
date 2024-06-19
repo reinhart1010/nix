@@ -3,7 +3,7 @@ layout: page
 title: common/arduino (Indonesia)
 description: "Arduino Studio - Sebuah alat pengembangan piranti lunak (IDE) bagi platform Arduino."
 content_hash: 89ce22b57a19a260f2233d49d7eaed551304c93e
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/arduino.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/arduino.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/arduino.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># arduino
+# arduino
 
 Arduino Studio - Sebuah alat pengembangan piranti lunak (IDE) bagi platform Arduino.
 Informasi lebih lanjut: <https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>.

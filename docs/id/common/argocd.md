@@ -3,7 +3,7 @@ layout: page
 title: common/argocd (Indonesia)
 description: "Program baris perintah untuk mengatur suatu peladen (server) Argo CD."
 content_hash: 34bcd5fa788249a6a34ce5d3058e3ac36d96112f
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/argocd.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/argocd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/argocd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># argocd
+# argocd
 
 Program baris perintah untuk mengatur suatu peladen (server) Argo CD.
 Beberapa subperintah seperti `argocd app` memiliki dokumentasi terpisah.

@@ -2,8 +2,8 @@
 layout: page
 title: common/arch (Nederlands)
 description: "Geef de naam van de systeemarchitectuur weer."
-content_hash: c21a41daa97cfecfb8b7be892a8c7c359fa5613e
-last_modified_at: 2023-11-12
+content_hash: d0a50993c1a701f34c5ffb662ae84f905bdf24b6
+last_modified_at: 2024-06-19
 related_topics:
   - title: বাংলা version
     url: /bn/common/arch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/arch.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/arch.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arch.html
@@ -49,7 +52,7 @@ tldri18n_status: 2
 # arch
 
 Geef de naam van de systeemarchitectuur weer.
-Zie ook `uname`.
+Bekijk ook `uname`.
 Meer informatie: <https://www.gnu.org/software/coreutils/arch>.
 
 - Geef de architectuur van het systeem weer:

@@ -3,7 +3,7 @@ layout: page
 title: windows/ftp (Nederlands)
 description: "Interactief bestanden overzetten tussen een lokale en een externe FTP-server."
 content_hash: 00926057e05bba1c9442160ac8bdec9601e3c5fe
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: Deutsch version
     url: /de/windows/ftp.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/ftp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/ftp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ftp
+# ftp
 
 Interactief bestanden overzetten tussen een lokale en een externe FTP-server.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/ftp>.

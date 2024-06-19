@@ -2,8 +2,8 @@
 layout: page
 title: common/transmission-cli (Nederlands)
 description: "Een lichtgewicht, command-line BitTorrent client."
-content_hash: 50738fc03fd6c63b619492e5166c39b5e14473cd
-last_modified_at: 2023-12-03
+content_hash: 704ac85d4e5a776e81d0276486ea8d2d8cbfd5c7
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/common/transmission-cli.html
@@ -26,7 +26,7 @@ Meer informatie: <https://transmissionbt.com>.
 
 - Maak een torrent bestand van een specifiek bestand of map:
 
-`transmission-cli --new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron_bestand_of_map</span>
+`transmission-cli --new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bronbestand_of_map</span>
 
 - Zet de download snelheid limiet naar 50 KB/s:
 

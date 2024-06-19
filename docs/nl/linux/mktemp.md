@@ -3,23 +3,14 @@ layout: page
 title: linux/mktemp (Nederlands)
 description: "Maak een tijdelijk bestand of een tijdelijke map aan."
 content_hash: 47b375e22633b157ae38fce4b99ba21699def03b
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/linux/mktemp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mktemp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mktemp
+# mktemp
 
 Maak een tijdelijk bestand of een tijdelijke map aan.
 Meer informatie: <https://www.gnu.org/software/coreutils/mktemp>.

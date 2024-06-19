@@ -2,8 +2,8 @@
 layout: page
 title: sunos/prstat (தமிழ்)
 description: "செயலில் உள்ள செயல்முறை புள்ளிவிவரங்களைப் புகாரளிக்கவும்."
-content_hash: 1060aee55acb1225337ff66ae4c3d1edf7fb32cc
-last_modified_at: 2023-11-14
+content_hash: 0f5bd2d0fc87a8794e60d30e78b9fba83a073658
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/sunos/prstat.html
@@ -11,8 +11,14 @@ related_topics:
   - title: français version
     url: /fr/sunos/prstat.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/sunos/prstat.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/sunos/prstat.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/sunos/prstat.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/sunos/prstat.html
@@ -42,4 +48,4 @@ tldri18n_status: 2
 
 - ஒவ்வொரு நொடியும் செயல்முறைகளைப் பயன்படுத்தி முதல் 5 CPU இன் பட்டியலை அச்சிடவும்:
 
-`prstat -c -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` -s cpu `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`prstat -c -n 5 -s cpu 1`
