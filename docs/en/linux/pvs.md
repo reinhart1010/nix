@@ -2,15 +2,15 @@
 layout: page
 title: linux/pvs (English)
 description: "Display information about physical volumes."
-content_hash: d4c2c6434ee28c03c243a39ab08a6e9cf383e73e
-last_modified_at: 2023-11-12
+content_hash: 0a9a54e9fcb23e6a0ae0be84324a99570b25ee82
+last_modified_at: 2024-06-19
 tldri18n_status: 2
 ---
 # pvs
 
 Display information about physical volumes.
 See also: `lvm`.
-More information: <https://man7.org/linux/man-pages/man8/pvs.8.html>.
+More information: <https://manned.org/pvs>.
 
 - Display information about physical volumes:
 

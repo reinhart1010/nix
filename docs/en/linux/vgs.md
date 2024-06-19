@@ -2,15 +2,15 @@
 layout: page
 title: linux/vgs (English)
 description: "Display information about volume groups."
-content_hash: 06a4a09b69a145070f27193e7bfc0e1c965de897
-last_modified_at: 2023-11-12
+content_hash: 854c52433e6bb93cf215babe4ddb2a4df0485908
+last_modified_at: 2024-06-19
 tldri18n_status: 2
 ---
 # vgs
 
 Display information about volume groups.
 See also: `lvm`.
-More information: <https://man7.org/linux/man-pages/man8/vgs.8.html>.
+More information: <https://manned.org/vgs>.
 
 - Display information about volume groups:
 

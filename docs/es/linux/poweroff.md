@@ -2,8 +2,8 @@
 layout: page
 title: linux/poweroff (español)
 description: "Apaga la máquina."
-content_hash: 82d8ac75610f56514088a384670ab8af8c96e684
-last_modified_at: 2023-11-12
+content_hash: 51478e15b4b9a7d7a2924a81446485b9becf3105
+last_modified_at: 2024-06-19
 related_topics:
   - title: català version
     url: /ca/linux/poweroff.html
@@ -31,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># poweroff
 
 Apaga la máquina.
-Más información: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+Más información: <https://www.manned.org/poweroff>.
 
 - Apaga la máquina:
 

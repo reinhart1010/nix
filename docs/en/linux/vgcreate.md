@@ -2,15 +2,15 @@
 layout: page
 title: linux/vgcreate (English)
 description: "Create volume groups combining multiple mass-storage devices."
-content_hash: d819028d284f72e03960378d9f7756d523507106
-last_modified_at: 2023-11-12
+content_hash: c1995303b40b5c37c8b2546d3896de5327023ec8
+last_modified_at: 2024-06-19
 tldri18n_status: 2
 ---
 # vgcreate
 
 Create volume groups combining multiple mass-storage devices.
 See also: `lvm`.
-More information: <https://man7.org/linux/man-pages/man8/vgcreate.8.html>.
+More information: <https://manned.org/vgcreate>.
 
 - Create a new volume group called vg1 using the `/dev/sda1` device:
 

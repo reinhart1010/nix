@@ -2,8 +2,8 @@
 layout: page
 title: linux/poweroff (català)
 description: "Apaga la màquina."
-content_hash: 5979587eebd396f9fee34c2a8e0d74bac7311211
-last_modified_at: 2023-11-12
+content_hash: 3fe2fa48232187b88484177bbe171cf91370f109
+last_modified_at: 2024-06-19
 related_topics:
   - title: English version
     url: /en/linux/poweroff.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # poweroff
 
 Apaga la màquina.
-Més informació: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+Més informació: <https://www.manned.org/poweroff>.
 
 - Apaga la màquina:
 

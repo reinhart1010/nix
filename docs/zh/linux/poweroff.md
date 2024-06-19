@@ -2,8 +2,8 @@
 layout: page
 title: linux/poweroff (中文)
 description: "关闭系统。"
-content_hash: 662de161ba91497412df952a4539e6fe2bda0f43
-last_modified_at: 2023-11-12
+content_hash: 250ffba38a44e630a5579ff1873296ffa87334e3
+last_modified_at: 2024-06-19
 related_topics:
   - title: català version
     url: /ca/linux/poweroff.html
@@ -31,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># poweroff
 
 关闭系统。
-更多信息：<https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+更多信息：<https://www.manned.org/poweroff>.
 
 - 关闭系统电源：
 

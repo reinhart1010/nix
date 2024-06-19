@@ -2,8 +2,8 @@
 layout: page
 title: linux/poweroff (português (Brasil))
 description: "Desliga o sistema."
-content_hash: 220a5d1ef7c129dcecf7d44c63dc9fb9bfaafbef
-last_modified_at: 2023-11-12
+content_hash: 129e49016c98be872f8df1e7a150ef4f313400ac
+last_modified_at: 2024-06-19
 related_topics:
   - title: català version
     url: /ca/linux/poweroff.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # poweroff
 
 Desliga o sistema.
-Mais informações: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+Mais informações: <https://www.manned.org/poweroff>.
 
 - Desliga o sistema:
 

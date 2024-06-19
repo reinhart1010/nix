@@ -2,8 +2,8 @@
 layout: page
 title: linux/poweroff (English)
 description: "Power off the system."
-content_hash: e3198b15af48821e183405a09a27224764a46c60
-last_modified_at: 2023-11-12
+content_hash: 6ac259eee72e7d2d7d1038ce370823391769b80a
+last_modified_at: 2024-06-19
 related_topics:
   - title: català version
     url: /ca/linux/poweroff.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # poweroff
 
 Power off the system.
-More information: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+More information: <https://www.manned.org/poweroff>.
 
 - Power off the system:
 

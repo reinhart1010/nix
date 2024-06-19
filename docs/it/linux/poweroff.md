@@ -2,8 +2,8 @@
 layout: page
 title: linux/poweroff (italiano)
 description: "Chiude il sistema."
-content_hash: a062f7acac695c4d886fc766a96e523bc7a2b6c5
-last_modified_at: 2023-11-12
+content_hash: 4396eb6809f6e1743082a5158a72b49932f62532
+last_modified_at: 2024-06-19
 related_topics:
   - title: català version
     url: /ca/linux/poweroff.html
@@ -31,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># poweroff
 
 Chiude il sistema.
-Maggiori informazioni: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+Maggiori informazioni: <https://www.manned.org/poweroff>.
 
 - Spegne il sistema:
 

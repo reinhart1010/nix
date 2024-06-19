@@ -2,15 +2,15 @@
 layout: page
 title: linux/pvcreate (English)
 description: "Initialize a disk or partition for use as a physical volume."
-content_hash: 7465ed586b1a85896afb73e2de39cdfad3a7ef56
-last_modified_at: 2023-11-12
+content_hash: 6698e2dff5757fafc8e3e28c02345324df69538f
+last_modified_at: 2024-06-19
 tldri18n_status: 2
 ---
 # pvcreate
 
 Initialize a disk or partition for use as a physical volume.
 See also: `lvm`.
-More information: <https://man7.org/linux/man-pages/man8/pvcreate.8.html>.
+More information: <https://manned.org/pvcreate>.
 
 - Initialize the `/dev/sda1` volume for use by LVM:
 

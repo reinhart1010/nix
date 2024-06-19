@@ -1,0 +1,58 @@
+---
+layout: page
+title: linux/dd (español)
+description: "Convierte y copia un archivo."
+content_hash: b58492c6253f782050d6ebd394fa227d68382d01
+last_modified_at: 2024-06-19
+related_topics:
+  - title: English version
+    url: /en/linux/dd.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/dd.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/dd.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/dd.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/dd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># dd
+
+Convierte y copia un archivo.
+Más información: <https://www.gnu.org/software/coreutils/dd>.
+
+- Crea una unidad USB de arranque a partir de un archivo isohybrid (como `archlinux-xxx.iso`) y muestra el progreso:
+
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.iso</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/unidad_usb</span>` status=progress`
+
+- Clona una unidad a otra con un tamaño de bloque de 4 MiB y descarga las escrituras antes de que el comando termine:
+
+`dd bs=4M conv=fsync if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/unidad_de_origen</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/unidad_de_descarga</span>
+
+- Genera un archivo con un número específico de bytes aleatorios utilizando el controlador aleatorio del kernel:
+
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` if=/dev/urandom of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_aleatorio</span>
+
+- Compara el rendimiento de escritura de un disco:
+
+`dd bs=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span>` if=/dev/zero of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/fichero_1GB</span>
+
+- Crea una copia de seguridad del sistema en un archivo IMG (puede restaurarla más tarde intercambiando `if` y `of`), y muestra el progreso:
+
+`dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/unidad_dispositivo</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.img</span>` status=progress`
+
+- Comprueba el progreso de una operación `dd` en curso (ejecute este comando desde otro intérprete de comandos):
+
+`kill -USR1 $(pgrep -x dd)`
