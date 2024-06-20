@@ -2,15 +2,15 @@
 layout: page
 title: linux/lvremove (English)
 description: "Remove logical volumes."
-content_hash: 9b77f8b4b7dfb40eb3e77d90d9a300af1f0f797b
-last_modified_at: 2024-01-25
+content_hash: 8bb62d7708da17f8ae4314a5ae900c2b10468a38
+last_modified_at: 2024-06-20
 tldri18n_status: 2
 ---
 # lvremove
 
 Remove logical volumes.
 See also: `lvm`.
-More information: <https://man7.org/linux/man-pages/man8/lvremove.8.html>.
+More information: <https://manned.org/lvremove>.
 
 - Remove a logical volume in a volume group:
 

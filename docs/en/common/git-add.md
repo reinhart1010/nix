@@ -2,8 +2,8 @@
 layout: page
 title: common/git-add (English)
 description: "Adds changed files to the index."
-content_hash: be401f914e52693131eb449cabc0b32dc47c9e7d
-last_modified_at: 2023-11-12
+content_hash: 328b15ccec45516f8548f18851115e29cfc32199
+last_modified_at: 2024-06-20
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/git-add.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/git-add.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-add.html
@@ -49,6 +52,10 @@ More information: <https://git-scm.com/docs/git-add>.
 - Add all files (tracked and untracked):
 
 `git add -A`
+
+- Add all files in the current folder:
+
+`git add .`
 
 - Only add already tracked files:
 

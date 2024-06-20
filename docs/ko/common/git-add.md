@@ -3,7 +3,7 @@ layout: page
 title: common/git-add (한국어)
 description: "변경된 파일을 색인에 추가합니다."
 content_hash: 2ad4dbc334e15d72a4ff7d7a64432d68442851ad
-last_modified_at: 2024-06-12
+last_modified_at: 2024-06-20
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -38,9 +38,12 @@ related_topics:
   - title: українська version
     url: /uk/common/git-add.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git add
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git add
 
 변경된 파일을 색인에 추가합니다.
 더 많은 정보: <https://git-scm.com/docs/git-add>.

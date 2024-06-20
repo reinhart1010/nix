@@ -3,7 +3,7 @@ layout: page
 title: common/git-add (português (Brasil))
 description: "Adiciona arquivos modificados na área de preparação."
 content_hash: dbe616abbfd2836bbe7329e0b34710da8b1a8441
-last_modified_at: 2023-11-12
+last_modified_at: 2024-06-20
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/git-add.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/git-add.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-add.html
     icon: bi bi-globe
@@ -35,9 +38,12 @@ related_topics:
   - title: українська version
     url: /uk/common/git-add.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git add
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git add
 
 Adiciona arquivos modificados na área de preparação.
 Mais informações: <https://git-scm.com/docs/git-add>.

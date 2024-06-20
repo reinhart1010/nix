@@ -3,7 +3,7 @@ layout: page
 title: common/git-add (Deutsch)
 description: "Füge Dateien zum Index/Stage hinzu."
 content_hash: 9025180f6e5c2a5a2dc9b5d2126bdd30599b3a0a
-last_modified_at: 2023-11-12
+last_modified_at: 2024-06-20
 related_topics:
   - title: English version
     url: /en/common/git-add.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/git-add.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/git-add.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-add.html
     icon: bi bi-globe
@@ -35,9 +38,12 @@ related_topics:
   - title: українська version
     url: /uk/common/git-add.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git add
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git add
 
 Füge Dateien zum Index/Stage hinzu.
 Weitere Informationen: <https://git-scm.com/docs/git-add>.
