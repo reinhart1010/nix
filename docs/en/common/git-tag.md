@@ -2,8 +2,8 @@
 layout: page
 title: common/git-tag (English)
 description: "Create, list, delete or verify tags."
-content_hash: 409e15460b3df08465d3d1d6afe2efaf7f001310
-last_modified_at: 2024-02-15
+content_hash: 7ae8067602f249b1ad25b0609d8f533f4626ea42
+last_modified_at: 2024-06-20
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-tag.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-tag.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-tag.html
@@ -51,9 +54,13 @@ More information: <https://git-scm.com/docs/git-tag>.
 
 `git tag -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span>
 
-- Get updated tags from upstream:
+- Get updated tags from remote:
 
 `git fetch --tags`
+
+- Push a tag to remote:
+
+`git push origin tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span>
 
 - List all tags whose ancestors include a given commit:
 
