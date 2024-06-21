@@ -3,7 +3,7 @@ layout: page
 title: common/git-tag (italiano)
 description: "Crea, elenca, cancella o verifica tag."
 content_hash: 98ab37e3d1e3320e10e3fb52de8a8f1cc0ca0ae9
-last_modified_at: 2023-11-12
+last_modified_at: 2024-06-21
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -17,15 +17,21 @@ related_topics:
   - title: français version
     url: /fr/common/git-tag.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-tag.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-tag.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-tag.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git tag
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git tag
 
 Crea, elenca, cancella o verifica tag.
 Un tag è un riferimento statico a uno specifico commit.

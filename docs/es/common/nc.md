@@ -2,8 +2,8 @@
 layout: page
 title: common/nc (español)
 description: "Redirige datos de entrada o salida a un flujo de red a través de esta versátil herramienta."
-content_hash: 02398c6179f95f9452e6fbb056e86e8eba41e90c
-last_modified_at: 2024-06-18
+content_hash: 28f57cad7951a7302dc0f4361cd64ff1c8294179
+last_modified_at: 2024-06-21
 related_topics:
   - title: English version
     url: /en/common/nc.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # nc
 
 Redirige datos de entrada o salida a un flujo de red a través de esta versátil herramienta.
-Más información: <https://manned.org/man/nc.1>.
+Más información: <https://manned.org/nc.1>.
 
 - Inicia un escuchador en un puerto TCP y le envía un archivo:
 

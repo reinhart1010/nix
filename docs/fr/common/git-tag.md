@@ -3,7 +3,7 @@ layout: page
 title: common/git-tag (français)
 description: "Créer, lister, vérifier et supprimer des tags."
 content_hash: ebd3ad0db76fa8971c98e91766e08e83e5ad1810
-last_modified_at: 2023-11-12
+last_modified_at: 2024-06-21
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -17,15 +17,21 @@ related_topics:
   - title: italiano version
     url: /it/common/git-tag.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-tag.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-tag.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-tag.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git tag
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git tag
 
 Créer, lister, vérifier et supprimer des tags.
 Un tag est une référence statique vers un commit.

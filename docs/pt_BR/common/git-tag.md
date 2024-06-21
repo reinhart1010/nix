@@ -3,7 +3,7 @@ layout: page
 title: common/git-tag (português (Brasil))
 description: "Cria, exibe, exclui ou verifica tags."
 content_hash: 0b7b3af20f998a9d294baa6ad5acb8617db2701f
-last_modified_at: 2023-11-12
+last_modified_at: 2024-06-21
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -20,12 +20,18 @@ related_topics:
   - title: italiano version
     url: /it/common/git-tag.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-tag.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-tag.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git tag
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git tag
 
 Cria, exibe, exclui ou verifica tags.
 Uma tag é uma referência estática para um commit específico.

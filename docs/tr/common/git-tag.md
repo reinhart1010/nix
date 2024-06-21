@@ -3,7 +3,7 @@ layout: page
 title: common/git-tag (Türkçe)
 description: "Etiketleri oluştur, sırala, sil veya doğrula."
 content_hash: 590b8dbb90fe6270e324f0a852d481acf51dd1f4
-last_modified_at: 2023-11-12
+last_modified_at: 2024-06-21
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -20,12 +20,18 @@ related_topics:
   - title: italiano version
     url: /it/common/git-tag.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-tag.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-tag.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git tag
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git tag
 
 Etiketleri oluştur, sırala, sil veya doğrula.
 Bir etiket, belirtilmiş bir commit'e bağlı statik bir referanstır.
