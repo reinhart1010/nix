@@ -2,8 +2,8 @@
 layout: page
 title: linux/obabel (English)
 description: "Translate chemistry-related data."
-content_hash: 76a85f27b121a40cc20c476e22dced475119d558
-last_modified_at: 2024-05-28
+content_hash: 9108ab3f5bab1b70922fea5313f9af6e77e94598
+last_modified_at: 2024-06-23
 tldri18n_status: 2
 ---
 # obabel
@@ -17,7 +17,7 @@ More information: <https://open-babel.readthedocs.io/en/latest/Command-line_tool
 
 - Convert a SMILES string to a 500x500 picture:
 
-`obabel -:"`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SMILES</span>` -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.png</span>` -xp 500`
+`obabel -:"`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SMILES</span>`" -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.png</span>` -xp 500`
 
 - Convert a file of SMILES string to separate 3D .mol files:
 

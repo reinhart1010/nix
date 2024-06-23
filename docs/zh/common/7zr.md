@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (中文)
 description: "一个高压缩率的文件归档器。"
-content_hash: 1ff16b401a6a43478fa5c06569b6ba2c13f31490
-last_modified_at: 2024-03-14
+content_hash: a583ed25cb787f5497485e39cb5931ca254ecb1a
+last_modified_at: 2024-06-23
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -84,3 +84,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 - 列出一个归档文件的内容：
 
 `7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">归档文件.7z</span>
+
+- 设置压缩级别（数字越高表示压缩越多，但速度更慢）：
+
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">归档文件.7z</span>` -mx=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件或目录</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (中文)
 description: "Apache 基准测试工具。"
-content_hash: 7b282fdece64edae7fc875c10e3a0f821dc20e9c
-last_modified_at: 2024-01-01
+content_hash: 34399cea5247e4507028d892f059f0d764582d1e
+last_modified_at: 2024-06-23
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -76,3 +76,7 @@ Apache 基准测试工具。
 - 为基准测试设置最大的测试时间（单位：秒）：
 
 `ab -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+
+- 将结果写入到一个 CSV 文件中：
+
+`ab -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.csv</span>
