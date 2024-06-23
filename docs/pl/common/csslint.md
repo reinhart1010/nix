@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/csslint (polski)
-description: "Linter dla kodu CSS."
-content_hash: ef15a2e8b46f452f39d6d9aa9f1f8e491c9b82d2
-last_modified_at: 2023-11-12
+description: "Lintuj kod CSS."
+content_hash: 810e9ea5e517e11d0af5985e22787f6c4dc95c79
+last_modified_at: 2024-06-23
 related_topics:
   - title: English version
     url: /en/common/csslint.html
@@ -18,16 +18,16 @@ tldri18n_status: 2
 ---
 # csslint
 
-Linter dla kodu CSS.
+Lintuj kod CSS.
 Więcej informacji: <https://github.com/CSSLint/csslint/wiki/Command-line-interface>.
 
-- Lintowanie pojedynczego pliku CSS:
+- Lintuj pojedyńczy plik CSS:
 
 `csslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik.css</span>
 
-- Lintowanie wiele plików CSS:
+- Lintuj wiele plików CSS:
 
-`csslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik1.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik2.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik3.css</span>
+`csslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik1.css plik2.css ...</span>
 
 - Wymień wszystkie możliwe reguły stylu:
 
@@ -35,12 +35,12 @@ Więcej informacji: <https://github.com/CSSLint/csslint/wiki/Command-line-interf
 
 - Określ pewne reguły jako błędy (które powodują niezerowy kod wyjścia):
 
-`csslint --errors=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bledy,universal-selector,imports</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik.css</span>
+`csslint --errors=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">errors,universal-selector,imports</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik.css</span>
 
 - Określ pewne reguły jako ostrzeżenia:
 
 `csslint --warnings=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">box-sizing,selector-max,floats</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik.css</span>
 
-- Określ pewne reguły, które będą całkowicie ignorowane:
+- Ignoruj określone reguły:
 
 `csslint --ignore=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ids,rules-count,shorthand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik.css</span>

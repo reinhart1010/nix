@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (polski)
 description: "Wypisz zawartość katalogu."
-content_hash: 4c9d690f5742f1d28f97d981da8835cc81c01237
-last_modified_at: 2023-11-12
+content_hash: 6da6b6f06e90398ebf168e958987aec402350c1e
+last_modified_at: 2024-06-23
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -40,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ls.html
@@ -78,19 +81,19 @@ Więcej informacji: <https://www.gnu.org/software/coreutils/ls>.
 
 `ls -F`
 
-- Lista w długim formacie (uprawnienia, właściciel/ka, rozmiar i data modyfikacji) wszystkich plików:
+- Wypisz listę w długim formacie (uprawnienia, własność, rozmiar i data modyfikacji) wszystkich plików:
 
 `ls -la`
 
-- Lista w długim formacie z rozmiarem w jednostkach z przedrostkami dwójkowymi (KiB, MiB, GiB):
+- Wypisz listę w długim formacie z rozmiarem w jednostkach z przedrostkami dwójkowymi (KiB, MiB, GiB):
 
 `ls -lh`
 
-- Lista w długim formacie posortowana rozmiarem (malejąco):
+- Wypisz listę rekurencyjnie w długim formacie, posortowaną po rozmiarze (malejąco):
 
-`ls -lS`
+`ls -lSR`
 
-- Lista wszystkich plików w długim formacie posortowanych według daty modyfikacji (od najstarszych):
+- Wypisz listę wszystkich plików w długim formacie posortowaną według daty modyfikacji (od najstarszych):
 
 `ls -ltr`
 

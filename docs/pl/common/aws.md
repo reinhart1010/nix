@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (polski)
 description: "Oficjalne narzędzie CLI dla Amazon Web Services."
-content_hash: 640259ef7198095a61a4eef26b7d532e9811abc7
-last_modified_at: 2023-11-12
+content_hash: c3f84268366eca256a656238b0c4d94be649bea7
+last_modified_at: 2024-06-23
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # aws
 
 Oficjalne narzędzie CLI dla Amazon Web Services.
-Wizard, SSO, Resource Autocompletion, i opcje YAML są tylko v2.
+Niektóre podkomendy takie jak `aws s3` mają osobną dokumentację.
 Więcej informacji: <https://aws.amazon.com/cli>.
 
 - Konfiguruj AWS Command-line:
@@ -45,15 +45,11 @@ Więcej informacji: <https://aws.amazon.com/cli>.
 
 `aws configure sso`
 
-- Zobacz tekst pomocy dla polecenia AWS:
-
-`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span>` help`
-
 - Uzyskaj tożsamość wywołującego (służy do rozwiązywania problemów z uprawnieniami):
 
 `aws sts get-caller-identity`
 
-- Wyświetla listę zasobów AWS w regionie i wyświetla w yaml:
+- Uzyskaj listę zasobów AWS w regionie i wyświetl ją w YAML:
 
 `aws dynamodb list-tables --region `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span>` --output yaml`
 
@@ -68,3 +64,7 @@ Więcej informacji: <https://aws.amazon.com/cli>.
 - Generuj JSON CLI Skeleton (przydatne dla infrastruktury jako kodu):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- Wyświetl pomoc dla określonej komendy:
+
+`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span>` help`
