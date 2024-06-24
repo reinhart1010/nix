@@ -2,7 +2,7 @@
 layout: page
 title: common/alex (中文)
 description: "捕捉文本中的不敏感、不考虑他人的写作风格。它帮助您找出文本中的性别偏向、极端化、种族相关、宗教考虑不周等不平等表达。"
-content_hash: 8bab0ef456ca6389b51d9741bdff2dba24e68e30
+content_hash: d58e0ea6ee2527f57f560770e921e6e2c4614e22
 last_modified_at: 2024-06-24
 related_topics:
   - title: English version
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # alex
 
 捕捉文本中的不敏感、不考虑他人的写作风格。它帮助您找出文本中的性别偏向、极端化、种族相关、宗教考虑不周等不平等表达。
-更多信息： <https://github.com/get-alex/alex>.
+更多信息：<https://github.com/get-alex/alex>.
 
 - 从标准输入分析文本：
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/accelerate (中文)
 description: "一个使得可以在任何分布式配置中运行相同的 PyTorch 代码的库。"
-content_hash: 95439aabd005ceb858fe12f59b53b76b984022a8
+content_hash: 7cee220504163771cd9bc4c6272b1a6b0c1b82c4
 last_modified_at: 2024-06-24
 related_topics:
   - title: English version
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # Accelerate
 
 一个使得可以在任何分布式配置中运行相同的 PyTorch 代码的库。
-更多信息： <https://huggingface.co/docs/accelerate/index>.
+更多信息：<https://huggingface.co/docs/accelerate/index>.
 
 - 打印环境信息：
 

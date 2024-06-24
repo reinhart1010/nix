@@ -2,7 +2,7 @@
 layout: page
 title: common/age-keygen (中文)
 description: "生成 `age` 密钥对。"
-content_hash: 9532339c303da550ed15e3b5ec3564575d552193
+content_hash: 3cbd0a61e286cc48ecea951be76fe52243fc3925
 last_modified_at: 2024-06-24
 related_topics:
   - title: English version
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 生成 `age` 密钥对。
 参见：`age` 用于加密/解密文件。
-更多信息： <https://manned.org/age-keygen>.
+更多信息：<https://manned.org/age-keygen>.
 
 - 生成密钥对，将其保存到未加密文件，并将公钥打印到标准输出：
 

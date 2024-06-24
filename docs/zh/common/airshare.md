@@ -2,7 +2,7 @@
 layout: page
 title: common/airshare (中文)
 description: "在本地网络中传输数据的工具。"
-content_hash: caae922db29eaee40f0d3ff5116996154e6efe2c
+content_hash: 4758c845a1820fbdde5b868bdd3463525ddb418b
 last_modified_at: 2024-06-24
 related_topics:
   - title: English version
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # airshare
 
 在本地网络中传输数据的工具。
-更多信息： <https://airshare.rtfd.io/en/latest/cli.html>.
+更多信息：<https://airshare.rtfd.io/en/latest/cli.html>.
 
 - 共享文件或目录：
 

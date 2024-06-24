@@ -2,8 +2,8 @@
 layout: page
 title: common/git-add (Nederlands)
 description: "Voegt gewijzigde bestanden toe aan de index."
-content_hash: 1c82e72f6282e3d0729f5620e06ffb509da9253f
-last_modified_at: 2024-06-20
+content_hash: 7d8f6e1c7e7a443662620f642114e70e464bb676
+last_modified_at: 2024-06-24
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -55,6 +55,10 @@ Meer informatie: <https://git-scm.com/docs/git-add>.
 - Voeg alle bestanden toe (bijgehouden en niet bijgehouden):
 
 `git add -A`
+
+- Voeg alle bestanden toe in de huidige map:
+
+`git add .`
 
 - Voeg alleen al bijgehouden bestanden toe:
 
