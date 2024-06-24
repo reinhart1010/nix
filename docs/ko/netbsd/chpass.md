@@ -3,7 +3,7 @@ layout: page
 title: netbsd/chpass (한국어)
 description: "사용자 데이터베이스 정보, 로그인 셸 및 비밀번호를 추가하거나 변경합니다."
 content_hash: f99248f4194894bb64ddc1d5be803ea0d85243e0
-last_modified_at: 2024-06-23
+last_modified_at: 2024-06-24
 related_topics:
   - title: English version
     url: /en/netbsd/chpass.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/netbsd/chpass.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/netbsd/chpass.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chpass
+# chpass
 
 사용자 데이터베이스 정보, 로그인 셸 및 비밀번호를 추가하거나 변경합니다.
 같이 보기: `passwd`.

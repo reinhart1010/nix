@@ -3,7 +3,7 @@ layout: page
 title: freebsd/sockstat (한국어)
 description: "오픈된 인터넷 또는 UNIX 도메인 소켓을 나열합니다."
 content_hash: 651d3e4b5c8b339b397371a02c50a51755b0f129
-last_modified_at: 2024-06-23
+last_modified_at: 2024-06-24
 related_topics:
   - title: English version
     url: /en/freebsd/sockstat.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/freebsd/sockstat.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/sockstat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sockstat
+# sockstat
 
 오픈된 인터넷 또는 UNIX 도메인 소켓을 나열합니다.
 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?sockstat>.

@@ -3,7 +3,7 @@ layout: page
 title: common/airodump-ng (中文)
 description: "捕获数据包并显示有关无线网络的信息。"
 content_hash: 679ba03d575fc111fd7f7b6cec1964ad84eaa508
-last_modified_at: 2024-06-23
+last_modified_at: 2024-06-24
 related_topics:
   - title: Deutsch version
     url: /de/common/airodump-ng.html
@@ -20,12 +20,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/airodump-ng.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># airodump-ng
+# airodump-ng
 
 捕获数据包并显示有关无线网络的信息。
 `aircrack-ng` 的一部分。

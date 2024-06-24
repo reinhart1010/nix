@@ -3,7 +3,7 @@ layout: page
 title: common/age (中文)
 description: "一个简单、现代、安全的文件加密工具。"
 content_hash: 6f720f1632213df625331d34e8718f0a80518377
-last_modified_at: 2024-06-23
+last_modified_at: 2024-06-24
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -29,12 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/age.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># age
+# age
 
 一个简单、现代、安全的文件加密工具。
 参见：`age-keygen` 用于生成密钥对。

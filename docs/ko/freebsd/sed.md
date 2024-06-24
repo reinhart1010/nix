@@ -3,7 +3,7 @@ layout: page
 title: freebsd/sed (한국어)
 description: "스크립트로 텍스트를 편집합니다."
 content_hash: a0ced5191f2a68a36a780f343226fbcdc337f700
-last_modified_at: 2024-06-23
+last_modified_at: 2024-06-24
 related_topics:
   - title: English version
     url: /en/freebsd/sed.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/freebsd/sed.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/sed.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sed
+# sed
 
 스크립트로 텍스트를 편집합니다.
 같이 보기: `awk`, `ed`.

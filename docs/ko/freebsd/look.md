@@ -3,7 +3,7 @@ layout: page
 title: freebsd/look (한국어)
 description: "정렬된 파일에서 접두사로 시작하는 줄을 표시합니다."
 content_hash: 550db176582acb4baa9a60789874138105bc5626
-last_modified_at: 2024-06-23
+last_modified_at: 2024-06-24
 related_topics:
   - title: English version
     url: /en/freebsd/look.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/freebsd/look.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/look.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># look
+# look
 
 정렬된 파일에서 접두사로 시작하는 줄을 표시합니다.
 같이 보기: `grep`, `sort`.

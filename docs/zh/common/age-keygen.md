@@ -3,7 +3,7 @@ layout: page
 title: common/age-keygen (中文)
 description: "生成 `age` 密钥对。"
 content_hash: 9532339c303da550ed15e3b5ec3564575d552193
-last_modified_at: 2024-06-23
+last_modified_at: 2024-06-24
 related_topics:
   - title: English version
     url: /en/common/age-keygen.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/age-keygen.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/age-keygen.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># age-keygen
+# age-keygen
 
 生成 `age` 密钥对。
 参见：`age` 用于加密/解密文件。

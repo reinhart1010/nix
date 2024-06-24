@@ -3,23 +3,14 @@ layout: page
 title: common/toipe (español)
 description: "Otra prueba de tipeo, pero con sabor a cangrejo."
 content_hash: 9f8b923aadb672c380fbd7bd51a3f6b79c3cc6a8
-last_modified_at: 2024-06-23
+last_modified_at: 2024-06-24
 related_topics:
   - title: English version
     url: /en/common/toipe.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/toipe.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># toipe
+# toipe
 
 Otra prueba de tipeo, pero con sabor a cangrejo.
 Un confiable evaluador de tipeo de terminal.

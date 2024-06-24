@@ -3,7 +3,7 @@ layout: page
 title: sunos/prctl (한국어)
 description: "실행 중인 프로세스, 작업 및 프로젝트의 리소스 제어를 가져오거나 설정합니다."
 content_hash: f4f5eb6b5a0b4a19d4f7aa76d266dcfe50af42fd
-last_modified_at: 2024-06-23
+last_modified_at: 2024-06-24
 related_topics:
   - title: English version
     url: /en/sunos/prctl.html
@@ -26,18 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/sunos/prctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/sunos/prctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># prctl
+# prctl
 
 실행 중인 프로세스, 작업 및 프로젝트의 리소스 제어를 가져오거나 설정합니다.
 더 많은 정보: <https://www.unix.com/man-page/sunos/1/prctl>.

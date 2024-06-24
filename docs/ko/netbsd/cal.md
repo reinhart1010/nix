@@ -3,7 +3,7 @@ layout: page
 title: netbsd/cal (한국어)
 description: "달력을 표시합니다."
 content_hash: 0a0d386341252c90f0486f6c0a4a7624ca715358
-last_modified_at: 2024-06-23
+last_modified_at: 2024-06-24
 related_topics:
   - title: English version
     url: /en/netbsd/cal.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/netbsd/cal.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/netbsd/cal.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cal
+# cal
 
 달력을 표시합니다.
 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?cal>.
