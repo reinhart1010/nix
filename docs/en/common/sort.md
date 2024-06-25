@@ -2,8 +2,8 @@
 layout: page
 title: common/sort (English)
 description: "Sort lines of text files."
-content_hash: 2dfb7989664c0fe2b5ee8d4b70633cc2d39d2b2c
-last_modified_at: 2023-11-12
+content_hash: d1e76faa4b66a18187f2bf37c3570ab0a37b4a69
+last_modified_at: 2024-06-25
 related_topics:
   - title: 中文 version
     url: /zh/common/sort.html
@@ -35,6 +35,10 @@ More information: <https://www.gnu.org/software/coreutils/sort>.
 
 `sort --field-separator=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span>` --key=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/passwd</span>
 
+- As above, but when items in the 3rd field are equal, sort by the 4th field by numbers with exponents:
+
+`sort -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span>` -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3,3n</span>` -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4,4g</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/passwd</span>
+
 - Sort a file preserving only unique lines:
 
 `sort --unique `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
@@ -42,7 +46,3 @@ More information: <https://www.gnu.org/software/coreutils/sort>.
 - Sort a file, printing the output to the specified output file (can be used to sort a file in-place):
 
 `sort --output=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
-
-- Sort numbers with exponents:
-
-`sort --general-numeric-sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
