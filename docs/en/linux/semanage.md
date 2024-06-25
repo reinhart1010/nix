@@ -2,8 +2,8 @@
 layout: page
 title: linux/semanage (English)
 description: "SELinux persistent policy management tool."
-content_hash: ac25afce6607e556ba424394cdf86fa63844cf53
-last_modified_at: 2024-05-27
+content_hash: 192fbf0911963924dc848c4372756223b8f4ccb8
+last_modified_at: 2024-06-25
 tldri18n_status: 2
 ---
 # semanage
@@ -26,7 +26,7 @@ More information: <https://manned.org/semanage>.
 
 - Set or unset permissive mode for a confined domain. Per-domain permissive mode allows more granular control compared to `setenforce`:
 
-`sudo semenage permissive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|--add|-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpd_t</span>
+`sudo semanage permissive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|--add|-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpd_t</span>
 
 - Output local customizations in the default store:
 
