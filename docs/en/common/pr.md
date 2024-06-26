@@ -2,8 +2,8 @@
 layout: page
 title: common/pr (English)
 description: "Paginate or columnate files for printing."
-content_hash: 7c34a0595540e68839f3a6bf6bd5d4f736916d9d
-last_modified_at: 2024-01-31
+content_hash: 5bf5de8eabe71af62d5db942e66303df11f943a3
+last_modified_at: 2024-06-26
 tldri18n_status: 2
 ---
 # pr
@@ -29,7 +29,7 @@ More information: <https://www.gnu.org/software/coreutils/pr>.
 
 - Print, beginning at page 2 up to page 5, with a given page length (including header and footer):
 
-`pr +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page_length</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
+`pr +2:5 -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page_length</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Print with an offset for each line and a truncating custom page width:
 

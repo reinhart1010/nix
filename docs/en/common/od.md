@@ -2,8 +2,8 @@
 layout: page
 title: common/od (English)
 description: "Display file contents in octal, decimal or hexadecimal format."
-content_hash: ff0b844d3ab733bd53d0befdfd5a17ab43647a77
-last_modified_at: 2023-11-12
+content_hash: 258593c58b14f02369a2da38dffa9b5e9d2c7562
+last_modified_at: 2024-06-26
 tldri18n_status: 2
 ---
 # od
@@ -34,4 +34,4 @@ More information: <https://www.gnu.org/software/coreutils/od>.
 
 - Read only 100 bytes of a file starting from the 500th byte:
 
-`od --read-bytes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` --skip-bytes=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span>` -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`od --read-bytes 100 --skip-bytes=500 -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
