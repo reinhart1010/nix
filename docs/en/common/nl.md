@@ -2,8 +2,8 @@
 layout: page
 title: common/nl (English)
 description: "Number lines from a file or from `stdin`."
-content_hash: 798429aa8ab1d7e8d1c43059f282d9f46717c027
-last_modified_at: 2024-02-09
+content_hash: a1f93858387e9a3b7d37368309ee1250394180cf
+last_modified_at: 2024-06-26
 tldri18n_status: 2
 ---
 # nl
@@ -19,7 +19,7 @@ More information: <https://manned.org/nl.1p>.
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | nl -`
 
-- Number [a]ll [b]ody lines including blank lines or do [n]ot number body lines:
+- Number [a]ll [b]ody lines including blank lines or do [n]ot number [b]ody lines:
 
 `nl -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
