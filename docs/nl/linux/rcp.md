@@ -3,23 +3,14 @@ layout: page
 title: linux/rcp (Nederlands)
 description: "Kopieer bestanden tussen lokale en externe systemen."
 content_hash: 00facb51e8c0e38505a4800380fdec84753714e1
-last_modified_at: 2024-06-25
+last_modified_at: 2024-06-26
 related_topics:
   - title: English version
     url: /en/linux/rcp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/rcp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rcp
+# rcp
 
 Kopieer bestanden tussen lokale en externe systemen.
 Het imiteert het gedrag van het `cp`-commando, maar werkt tussen verschillende machines.

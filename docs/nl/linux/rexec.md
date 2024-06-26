@@ -3,23 +3,14 @@ layout: page
 title: linux/rexec (Nederlands)
 description: "Voer een commando uit op een externe host."
 content_hash: 039402d853c5fbeda9c277bbf5c748caa3a67bbd
-last_modified_at: 2024-06-25
+last_modified_at: 2024-06-26
 related_topics:
   - title: English version
     url: /en/linux/rexec.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/rexec.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rexec
+# rexec
 
 Voer een commando uit op een externe host.
 Let op: Gebruik `rexec` met voorzichtigheid, omdat het gegevens in platte tekst verzendt. Overweeg veilige alternatieven zoals SSH voor versleutelde communicatie.

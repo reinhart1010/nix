@@ -3,23 +3,14 @@ layout: page
 title: linux/semanage (Nederlands)
 description: "SELinux persistent beleid beheertool."
 content_hash: 5102399c0e883b5809fc3f26510965d4d8bcbb64
-last_modified_at: 2024-06-25
+last_modified_at: 2024-06-26
 related_topics:
   - title: English version
     url: /en/linux/semanage.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/semanage.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># semanage
+# semanage
 
 SELinux persistent beleid beheertool.
 Sommige subcommando's zoals `boolean`, `fcontext`, `port`, etc. hebben hun eigen gebruiksdocumentatie.
