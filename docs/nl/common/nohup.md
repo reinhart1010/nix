@@ -3,7 +3,7 @@ layout: page
 title: common/nohup (Nederlands)
 description: "Laat een proces doorgaan wanneer de terminal wordt beëindigd."
 content_hash: a942e32cd90f02ff6c6195c193283e2595077111
-last_modified_at: 2024-06-26
+last_modified_at: 2024-06-27
 related_topics:
   - title: English version
     url: /en/common/nohup.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/nohup.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nohup.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nohup
+# nohup
 
 Laat een proces doorgaan wanneer de terminal wordt beëindigd.
 Meer informatie: <https://www.gnu.org/software/coreutils/nohup>.

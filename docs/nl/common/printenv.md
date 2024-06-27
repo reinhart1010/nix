@@ -3,23 +3,14 @@ layout: page
 title: common/printenv (Nederlands)
 description: "Toon waarden van alle of specifieke omgevingsvariabelen."
 content_hash: d299d66c77794c5d856e3c701f1a24902b395e3b
-last_modified_at: 2024-06-26
+last_modified_at: 2024-06-27
 related_topics:
   - title: English version
     url: /en/common/printenv.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/printenv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># printenv
+# printenv
 
 Toon waarden van alle of specifieke omgevingsvariabelen.
 Meer informatie: <https://www.gnu.org/software/coreutils/printenv>.

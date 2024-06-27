@@ -3,7 +3,7 @@ layout: page
 title: linux/usermod (Nederlands)
 description: "Wijzig een gebruikersaccount."
 content_hash: f0271c4d24cbf5ed0b5d5564f6201f079df794a9
-last_modified_at: 2024-06-26
+last_modified_at: 2024-06-27
 related_topics:
   - title: català version
     url: /ca/linux/usermod.html
@@ -17,18 +17,9 @@ related_topics:
   - title: français version
     url: /fr/linux/usermod.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/usermod.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># usermod
+# usermod
 
 Wijzig een gebruikersaccount.
 Bekijk ook: `users`, `useradd`, `userdel`.
