@@ -2,8 +2,8 @@
 layout: page
 title: common/stdbuf (English)
 description: "Run a command with modified buffering operations for its standard streams."
-content_hash: a4ae9ee8a023fcb397627fe26538c4dce695f899
-last_modified_at: 2023-11-12
+content_hash: 3858ae3704f1a9b0aa18f01febe49edbb0aaf1a5
+last_modified_at: 2024-06-28
 tldri18n_status: 2
 ---
 # stdbuf
@@ -13,12 +13,12 @@ More information: <https://www.gnu.org/software/coreutils/stdbuf>.
 
 - Change `stdin` buffer size to 512 KiB:
 
-`stdbuf --input=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512K</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`stdbuf --input=512K `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - Change `stdout` buffer to line-buffered:
 
-`stdbuf --output=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">L</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`stdbuf --output=L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - Change `stderr` buffer to unbuffered:
 
-`stdbuf --error=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`stdbuf --error=0 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
