@@ -3,19 +3,10 @@ layout: page
 title: osx/iostat (English)
 description: "Report statistics for devices."
 content_hash: 1b3cdd9374516f5445c2c23d9f4b3b830a205ecd
-last_modified_at: 2024-06-27
-tldri18n_status: 0
+last_modified_at: 2024-06-28
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/osx/iostat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># iostat
+# iostat
 
 Report statistics for devices.
 More information: <https://ss64.com/mac/iostat.html>.
