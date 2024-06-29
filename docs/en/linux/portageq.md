@@ -3,19 +3,10 @@ layout: page
 title: linux/portageq (English)
 description: "Query for information about Portage, the Gentoo Linux package manager."
 content_hash: 4f374970b7d8339237558fc729b564a7f482b028
-last_modified_at: 2024-06-28
-tldri18n_status: 0
+last_modified_at: 2024-06-29
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/portageq.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># portageq
+# portageq
 
 Query for information about Portage, the Gentoo Linux package manager.
 Queryable Portage-specific environment variables are listed in `/var/db/repos/gentoo/profiles/info_vars`.

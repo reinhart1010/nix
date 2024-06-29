@@ -3,7 +3,7 @@ layout: page
 title: common/tar (Nederlands)
 description: "Archiveringsprogramma."
 content_hash: b2c592bf7357ef41873db4b828fc20761dbc2ae2
-last_modified_at: 2024-06-28
+last_modified_at: 2024-06-29
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -32,18 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/tar.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tar.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tar
+# tar
 
 Archiveringsprogramma.
 Vaak gecombineerd met een compressiemethode, zoals `gzip` of `bzip2`.
