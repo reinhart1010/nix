@@ -2,8 +2,8 @@
 layout: page
 title: linux/zramctl (polski)
 description: "Tworzenie i kontrola urządzeń zram."
-content_hash: 16d013a4363a9f6af2ed028ca44506b1d665cafb
-last_modified_at: 2023-11-12
+content_hash: f48b3fc37b50d56d1f7a6cb6dae4ffd057f49cf2
+last_modified_at: 2024-06-29
 related_topics:
   - title: English version
     url: /en/linux/zramctl.html
@@ -37,4 +37,4 @@ Więcej informacji: <https://manned.org/zramctl>.
 
 - Wyświetlenie aktualnie zainicjalizowanych urządzeń:
 
-`zramctl`
+`sudo zramctl`

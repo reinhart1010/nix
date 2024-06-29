@@ -2,8 +2,8 @@
 layout: page
 title: linux/zramctl (português (Brasil))
 description: "Configura e controla dispositivos zram."
-content_hash: 8c07a44e94c62a6ab517730b57178edef668fa2d
-last_modified_at: 2023-11-12
+content_hash: 6251e595a71bc0094474272ecf390356f9bf5d01
+last_modified_at: 2024-06-29
 related_topics:
   - title: English version
     url: /en/linux/zramctl.html
@@ -37,4 +37,4 @@ Mais informações: <https://manned.org/zramctl>.
 
 - Lista dispositivos atualmente inicializados:
 
-`zramctl`
+`sudo zramctl`
