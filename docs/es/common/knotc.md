@@ -3,23 +3,14 @@ layout: page
 title: common/knotc (español)
 description: "Controla el servidor DNS knot."
 content_hash: 8d9290bf9dbde0a820f29b427cd567dbc5c38152
-last_modified_at: 2024-07-01
+last_modified_at: 2024-07-02
 related_topics:
   - title: English version
     url: /en/common/knotc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/knotc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># knotc
+# knotc
 
 Controla el servidor DNS knot.
 Más información: <https://www.knot-dns.cz/docs/latest/html/man_knotc.html>.
