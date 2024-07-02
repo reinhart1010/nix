@@ -1,0 +1,28 @@
+<h1 id="browser-sync">browser-sync</h1>
+
+<p>Avvia un web-server locale che si aggiorna al cambiamento dei file.
+Maggiori informazioni: <a href="https://browsersync.io/docs/command-line">https://browsersync.io/docs/command-line</a>.</p>
+
+<ul>
+  <li>Avvia un server da una specifica directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync start --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span><code class="language-plaintext highlighter-rouge"> --files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span></p>
+
+<ul>
+  <li>Avvia un server da una directory locale, monitorando tutti i file CSS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync start --server --files '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory/*.css</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Crea un file di configurazione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync init</code></p>
+
+<ul>
+  <li>Avvia bower-sync da un file di configurazione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync start --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_configurazione</span></p>

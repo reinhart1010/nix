@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="clang">clang</h1>
+
+<p>Compiler für C, C++ und Objective-C Quelldateien. Kann als Ersatz für GCC genutzt werden.
+Weitere Informationen: <a href="https://clang.llvm.org/docs/ClangCommandLineReference.html">https://clang.llvm.org/docs/ClangCommandLineReference.html</a>.</p>
+
+<ul>
+  <li>Kompiliere eine Quelldatei in eine ausführbare Binärdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span></p>
+
+<ul>
+  <li>Zeige geläufige Fehler und Warnungen an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.c</span><code class="language-plaintext highlighter-rouge"> -Wall -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span></p>
+
+<ul>
+  <li>Binde Bibliotheken, die sich an einem anderen Pfad als die Quelldatei befinden, ein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/headerdatei</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bibliothek</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bibliotheks_name</span></p>
+
+<ul>
+  <li>Kompiliere eine Quelldatei zu LLVM Intermediate Representation (IR):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang -S -emit-llvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ir_datei.ll</span></p>
+
+<ul>
+  <li>Kompiliere eine Quelldatei, ohne zu Linken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.c</span></p>

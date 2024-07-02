@@ -1,0 +1,40 @@
+<h1 id="blastn">blastn</h1>
+
+<p>Nucleotide-Nucleotide BLAST.
+More information: <a href="https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastn_application_options/">https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastn_application_options/</a>.</p>
+
+<ul>
+  <li>Align two or more sequences using megablast (default), with the e-value threshold of 1e-9, pairwise output format (default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject.fa</span><code class="language-plaintext highlighter-rouge"> -evalue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1e-9</span></p>
+
+<ul>
+  <li>Align two or more sequences using blastn:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -task blastn -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject.fa</span></p>
+
+<ul>
+  <li>Align two or more sequences, custom tabular output format, output to file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject.fa</span><code class="language-plaintext highlighter-rouge"> -outfmt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'6 qseqid qlen qstart qend sseqid slen sstart send bitscore evalue pident'</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.tsv</span></p>
+
+<ul>
+  <li>Search nucleotide databases using a nucleotide query, 16 threads (CPUs) to use in the BLAST search, with a maximum number of 10 aligned sequences to keep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/blast_db</span><code class="language-plaintext highlighter-rouge"> -num_threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span><code class="language-plaintext highlighter-rouge"> -max_target_seqs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Search the remote non-redundant nucleotide database using a nucleotide query:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nt</span><code class="language-plaintext highlighter-rouge"> -remote</code></p>
+
+<ul>
+  <li>Display help (use <code class="language-plaintext highlighter-rouge">-help</code> for detailed help):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -h</code></p>

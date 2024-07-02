@@ -1,0 +1,28 @@
+<h1 id="archwiki-rs">archwiki-rs</h1>
+
+<p>Baca, cari, dan unduh artikel dari situs ArchWiki.
+Informasi lebih lanjut: <a href="https://gitlab.com/lucifayr/archwiki-rs">https://gitlab.com/lucifayr/archwiki-rs</a>.</p>
+
+<ul>
+  <li>Baca suatu artikel dari situs ArchWiki:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">archwiki-rs read-page </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">judul_artikel</span></p>
+
+<ul>
+  <li>Baca suatu artikel dari ArchWiki dengan format tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">archwiki-rs read-page </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">judul_artikel</span><code class="language-plaintext highlighter-rouge"> --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plain-text|markdown|html</span></p>
+
+<ul>
+  <li>Cari artikel dalam ArchWiki yang mengandung teks tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">archwiki-rs search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">teks_yang_dicari</span><code class="language-plaintext highlighter-rouge">" --text-search</code></p>
+
+<ul>
+  <li>Unduh seluruh artikel dari situs ArchWiki ke dalam suatu direktori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">archwiki-rs local-wiki </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/jalan/menuju/wiki_lokal</span><code class="language-plaintext highlighter-rouge"> --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plain-text|markdown|html</span></p>

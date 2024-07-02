@@ -1,0 +1,40 @@
+<h1 id="timedatectl">timedatectl</h1>
+
+<p>Kontroluj datę i czas systemowy.
+Więcej informacji: <a href="https://manned.org/timedatectl">https://manned.org/timedatectl</a>.</p>
+
+<ul>
+  <li>Sprawdź aktualny czas zegara systemowego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timedatectl</code></p>
+
+<ul>
+  <li>Bezpośrednio ustaw czas lokalny zegara systemowego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timedatectl set-time "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yyyy-MM-dd hh:mm:ss</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Wyświetl dostępne strefy czasowe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timedatectl list-timezones</code></p>
+
+<ul>
+  <li>Ustaw systemową strefę czasową:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timedatectl set-timezone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">strefa_czasowa</span></p>
+
+<ul>
+  <li>Włącz synchronizację czasu poprzez Network Time Protocol (NTP):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timedatectl set-ntp on</code></p>
+
+<ul>
+  <li>Zmień standard czasu zegara sprzętowego na czas lokalny:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timedatectl set-local-rtc 1</code></p>

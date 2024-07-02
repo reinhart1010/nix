@@ -1,0 +1,28 @@
+<h1 id="git-checkout-index">git checkout-index</h1>
+
+<p>Копіює файли з індексу до робочої директорії.
+Більше інформації: <a href="https://git-scm.com/docs/git-checkout-index">https://git-scm.com/docs/git-checkout-index</a>.</p>
+
+<ul>
+  <li>Відновлює усі файли, що були видалені з часу останнього коміту:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout-index --all</code></p>
+
+<ul>
+  <li>Відновлює усі файли, що були видалені чи змінені з часу останнього коміту:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout-index --all --force</code></p>
+
+<ul>
+  <li>Відновлює усі файли, що були змінені з часу останнього коміту, ігноруючи файли, що були видалені:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout-index --all --force --no-create</code></p>
+
+<ul>
+  <li>Експортує копію робочої директорії, у стані останнього коміту, до вказаного каталогу (слеш наприкінці обов'язковий):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout-index --all --force --prefix=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/директорії_експорту/</span></p>

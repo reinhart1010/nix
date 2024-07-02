@@ -1,0 +1,22 @@
+<h1 id="prctl">prctl</h1>
+
+<p>Ambil atau atur sumber daya dari proses, tugas dan projek yang berjalan.
+Informasi lebih lanjut: <a href="https://www.unix.com/man-page/sunos/1/prctl">https://www.unix.com/man-page/sunos/1/prctl</a>.</p>
+
+<ul>
+  <li>Periksa batas dan perizinan proses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Periksa batas dan perizinan proses dalam format yang dapat diurai mesin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Ambil batas spesifik dari sebuah proses yang berjalan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl -n process.max-file-descriptor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>

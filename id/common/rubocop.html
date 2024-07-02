@@ -1,0 +1,46 @@
+<h1 id="rubocop">rubocop</h1>
+
+<p>Analisa file Ruby.
+Informasi lebih lanjut: <a href="https://docs.rubocop.org/rubocop/usage/basic_usage.html">https://docs.rubocop.org/rubocop/usage/basic_usage.html</a>.</p>
+
+<ul>
+  <li>Periksa semua file dalam direktori saat ini (termasuk direktori-direktori di dalamnya):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop</code></p>
+
+<ul>
+  <li>Periksa satu atau lebih file atau direktori secara khusus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Tulis output ke file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Melihat daftar cop (aturan-aturan dalam menganalisa):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --show-cops</code></p>
+
+<ul>
+  <li>Mengecualikan cop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --except </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_2</span></p>
+
+<ul>
+  <li>Menjalankan hanya beberapa cop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_2</span></p>
+
+<ul>
+  <li>Memperbaiki file secara otomatis (fitur percobaan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --auto-correct</code></p>

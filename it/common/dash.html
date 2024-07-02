@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="dash">dash</h1>
+
+<p>Debian Almquist Shell, una implementazione di <code class="language-plaintext highlighter-rouge">sh</code> moderna, che conforme a POSIX, (non compatibile con Bash).
+Maggiori informazioni: <a href="https://manned.org/dash">https://manned.org/dash</a>.</p>
+
+<ul>
+  <li>Avvia una sessione shell interattiva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash</code></p>
+
+<ul>
+  <li>Esegui un comando, ed esci subito:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Esegui un script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/dello/script.sh</span></p>
+
+<ul>
+  <li>Esegui comandi da un script, stampando ogni comando prima di eseguirlo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/dello/script.sh</span></p>
+
+<ul>
+  <li>Esegui comandi da un script, fermandosi al primo errore:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/dello/script.sh</span></p>
+
+<ul>
+  <li>Leggi ed esegui commandi dal <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -s</code></p>

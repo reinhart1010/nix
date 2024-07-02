@@ -1,0 +1,34 @@
+<h1 id="openconnect">openconnect</h1>
+
+<p>A VPN client, for Cisco AnyConnect VPNs and others.
+More information: <a href="https://www.infradead.org/openconnect/manual.html">https://www.infradead.org/openconnect/manual.html</a>.</p>
+
+<ul>
+  <li>Connect to a server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openconnect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vpn.example.org</span></p>
+
+<ul>
+  <li>Connect to a server, forking into the background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openconnect --background </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vpn.example.org</span></p>
+
+<ul>
+  <li>Terminate the connection that is running in the background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -SIGINT openconnect</code></p>
+
+<ul>
+  <li>Connect to a server, reading options from a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openconnect --config=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vpn.example.org</span></p>
+
+<ul>
+  <li>Connect to a server and authenticate with a specific SSL client certificate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openconnect --certificate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vpn.example.org</span></p>

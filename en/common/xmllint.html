@@ -1,0 +1,40 @@
+<h1 id="xmllint">xmllint</h1>
+
+<p>XML parser and linter that supports XPath, a syntax for navigating XML trees.
+More information: <a href="https://manned.org/xmllint">https://manned.org/xmllint</a>.</p>
+
+<ul>
+  <li>Return all nodes (tags) named "foo":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmllint --xpath "//</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file.xml</span></p>
+
+<ul>
+  <li>Return the contents of the first node named "foo" as a string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmllint --xpath "string(//</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge">)" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file.xml</span></p>
+
+<ul>
+  <li>Return the href attribute of the second anchor element in an HTML file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmllint --html --xpath "string(//a[2]/@href)" webpage.xhtml</code></p>
+
+<ul>
+  <li>Return human-readable (indented) XML from file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmllint --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file.xml</span></p>
+
+<ul>
+  <li>Check that an XML file meets the requirements of its DOCTYPE declaration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmllint --valid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file.xml</span></p>
+
+<ul>
+  <li>Validate XML against DTD schema hosted online:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmllint --dtdvalid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file.xml</span></p>

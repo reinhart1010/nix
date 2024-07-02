@@ -1,0 +1,28 @@
+<h1 id="adb-reverse">adb reverse</h1>
+
+<p>Android Debug Bridge Reverse: membalik koneksi socket dari emulator Android atau perangkat Android terhubung.
+Informasi lebih lanjut: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Daftar semua koneksi socket terbalik dari emulator dan perangkat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --list</code></p>
+
+<ul>
+  <li>Balikkan port TCP dari emulator/perangkat ke localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_jarak_jauh</span><code class="language-plaintext highlighter-rouge"> tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_lokal</span></p>
+
+<ul>
+  <li>Lepaskan koneksi socket terbalik dari emulator/perangkat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --remove tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_jarak_jauh</span></p>
+
+<ul>
+  <li>Lepaskan semua koneksi socket terbalik dari semua emulator dan perangkat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --remove-all</code></p>

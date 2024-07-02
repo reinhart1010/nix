@@ -1,0 +1,29 @@
+<h1 id="transmission-daemon">transmission-daemon</h1>
+
+<p>Daemon controlled with <code class="language-plaintext highlighter-rouge">transmission-remote</code> or its web interface.
+See also: <code class="language-plaintext highlighter-rouge">transmission</code>.
+More information: <a href="https://manned.org/transmission-daemon">https://manned.org/transmission-daemon</a>.</p>
+
+<ul>
+  <li>Start a headless <code class="language-plaintext highlighter-rouge">transmission</code> session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon</code></p>
+
+<ul>
+  <li>Start and watch a specific directory for new torrents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon --watch-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Dump daemon settings in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon --dump-settings &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span></p>
+
+<ul>
+  <li>Start with specific settings for the web interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon --auth --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9091</span><code class="language-plaintext highlighter-rouge"> --allowed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span></p>

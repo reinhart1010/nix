@@ -1,0 +1,28 @@
+<h1 id="lchage">lchage</h1>
+
+<p>Display or change user password policy.
+More information: <a href="https://manned.org/lchage">https://manned.org/lchage</a>.</p>
+
+<ul>
+  <li>Disable password expiration for the user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lchage --date -1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Display the password policy for the user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lchage --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Require password change for the user a certain number of days after the last password change:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lchage --maxdays </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_days</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Start warning the user a certain number of days before the password expires:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lchage --warndays </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_days</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>

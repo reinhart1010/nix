@@ -1,0 +1,34 @@
+<h1 id="git-mktree">git mktree</h1>
+
+<p>Build a tree object using <code class="language-plaintext highlighter-rouge">ls-tree</code> formatted text.
+More information: <a href="https://git-scm.com/docs/git-mktree">https://git-scm.com/docs/git-mktree</a>.</p>
+
+<ul>
+  <li>Build a tree object and verify that each tree entry’s hash identifies an existing object:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git mktree</code></p>
+
+<ul>
+  <li>Allow missing objects:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git mktree --missing</code></p>
+
+<ul>
+  <li>Read the NUL ([z]ero character) terminated output of the tree object (<code class="language-plaintext highlighter-rouge">ls-tree -z</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git mktree -z</code></p>
+
+<ul>
+  <li>Allow the creation of multiple tree objects:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git mktree --batch</code></p>
+
+<ul>
+  <li>Sort and build a tree from <code class="language-plaintext highlighter-rouge">stdin</code> (non-recursive <code class="language-plaintext highlighter-rouge">git ls-tree</code> output format is required):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git mktree &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/tree.txt</span></p>

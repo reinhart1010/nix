@@ -1,0 +1,40 @@
+<h1 id="ping">ping</h1>
+
+<p>Mengirim paket-paket ICMP ECHO_REQUEST ke host dalam jaringan.
+Informasi lebih lanjut: <a href="https://manned.org/ping">https://manned.org/ping</a>.</p>
+
+<ul>
+  <li>Ping host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping host dalam jumlah kali tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jumlah</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping host, dengan menentukan interval dalam sekian detik di antara request (asalnya 1 detik):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jumlah-detik</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping host tanpa mencoba untuk melihat alamat dari nama-nama simbolis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping host dan membunyikan bel saat paket diterima (jika terminal anda mendukungnya):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Menampilkan juga pesan jika tidak ada respon yang diterima:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>

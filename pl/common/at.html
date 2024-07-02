@@ -1,0 +1,23 @@
+<h1 id="at">at</h1>
+
+<p>Wykonuje polecenia o zadanym czasie.
+Aby działać poprawnie wymaga działającego serwisu atd (lub atrun).
+Więcej informacji: <a href="https://manned.org/at">https://manned.org/at</a>.</p>
+
+<ul>
+  <li>Wykonaj za 5 minut polecenie wprowadzone przy użyciu wejścia standardowego (aby zakończyć naciśnij <code class="language-plaintext highlighter-rouge">Ctrl + D</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at now + 5 minutes</code></p>
+
+<ul>
+  <li>Wykonaj o 10:00 rano polecenie podane z wejścia standardowego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./zrób_backup.sh</span><code class="language-plaintext highlighter-rouge">" | at 1000</code></p>
+
+<ul>
+  <li>Wykonaj polecenia z podanego pliku w najbliższy wtorek o 21:30:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span><code class="language-plaintext highlighter-rouge"> 9:30 PM Tue</code></p>

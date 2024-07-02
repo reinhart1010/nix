@@ -1,0 +1,40 @@
+<h1 id="chkconfig">chkconfig</h1>
+
+<p>Manage the runlevel of services on CentOS 6.
+More information: <a href="https://manned.org/chkconfig">https://manned.org/chkconfig</a>.</p>
+
+<ul>
+  <li>List services with runlevel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --list</code></p>
+
+<ul>
+  <li>Show a service's runlevel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntpd</span></p>
+
+<ul>
+  <li>Enable service at boot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sshd</span><code class="language-plaintext highlighter-rouge"> on</code></p>
+
+<ul>
+  <li>Enable service at boot for runlevels 2, 3, 4, and 5:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2345</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sshd</span><code class="language-plaintext highlighter-rouge"> on</code></p>
+
+<ul>
+  <li>Disable service at boot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntpd</span><code class="language-plaintext highlighter-rouge"> off</code></p>
+
+<ul>
+  <li>Disable service at boot for runlevel 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntpd</span><code class="language-plaintext highlighter-rouge"> off</code></p>

@@ -1,0 +1,22 @@
+<h1 id="cut">cut</h1>
+
+<p>Recorta campos de <code class="language-plaintext highlighter-rouge">stdin</code> ou arquivos.
+Mais informações: <a href="https://keith.github.io/xcode-man-pages/cut.1.html">https://keith.github.io/xcode-man-pages/cut.1.html</a>.</p>
+
+<ul>
+  <li>Imprime um intervalo específico de caracteres/campos de cada linha:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | cut -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c|f</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span></p>
+
+<ul>
+  <li>Imprime um intervalo de campos de cada linha com um delimitador específico:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | cut -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span><code class="language-plaintext highlighter-rouge">" -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Imprime um intervalo de caracteres de cada linha de um arquivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>

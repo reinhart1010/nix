@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="age">age</h1>
+
+<p>Un outil de cryptage de fichiers simple, moderne et sécurisé.
+Plus d'informations : <a href="https://github.com/FiloSottile/age">https://github.com/FiloSottile/age</a>.</p>
+
+<ul>
+  <li>Générez un fichier crypté qui peut être décrypté avec une mot de passe :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --passphrase --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_crypté</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_non_crypté</span></p>
+
+<ul>
+  <li>Générer une paire de clés, en enregistrant la clé privée dans un fichier non crypté et en imprimant la clé publique sur <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age-keygen --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Cryptage d'un fichier avec une ou plusieurs clés publiques qui sont entrées comme des littéraux :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clé_publique_1</span><code class="language-plaintext highlighter-rouge"> --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clé_publique_2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_non_crypté</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_crypté</span></p>
+
+<ul>
+  <li>Cryptez un fichier avec une ou plusieurs clés publiques spécifiées dans un fichier de destinataires :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --recipients-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_destinataire</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_non_crypté</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_crypté</span></p>
+
+<ul>
+  <li>Déchiffrer un fichier avec un mot de passe :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --decrypt --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_décrypté</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_crypté</span></p>
+
+<ul>
+  <li>Decrypt a file with a private key file :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --decrypt --identity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_clé_privée</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_décrypté</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_crypté</span></p>

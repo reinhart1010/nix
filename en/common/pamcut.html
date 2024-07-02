@@ -1,0 +1,23 @@
+<h1 id="pamcut">pamcut</h1>
+
+<p>Cut out a rectangular region from a Netpbm image.
+See also: <code class="language-plaintext highlighter-rouge">pamcrop</code>, <code class="language-plaintext highlighter-rouge">pamdice</code>, <code class="language-plaintext highlighter-rouge">pamcomp</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pamcut.html">https://netpbm.sourceforge.net/doc/pamcut.html</a>.</p>
+
+<ul>
+  <li>Discard the specified number of columns/rows on each side of the image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcut -cropleft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -cropright </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -croptop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -cropbottom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Keep only the columns between the specified columns (inclusively):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcut -left </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -right </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Fill missing areas with black pixels if the specified rectangle does not entirely lie within the input image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcut -top </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -bottom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -pad </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>

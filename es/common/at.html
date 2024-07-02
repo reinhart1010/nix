@@ -1,0 +1,23 @@
+<h1 id="at">at</h1>
+
+<p>Ejecuta comandos una vez en un momento posterior.
+El servicio atd (o atrun) debe estar ejecutándose para las ejecuciones reales.
+Más información: <a href="https://manned.org/at">https://manned.org/at</a>.</p>
+
+<ul>
+  <li>Ejecuta comandos desde la entrada estándar en 5 minutos (pulsa <code class="language-plaintext highlighter-rouge">Ctrl + D</code> cuando termines):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at now + 5 minutes</code></p>
+
+<ul>
+  <li>Ejecuta un comando desde la entrada estándar a las 10:00 AM de hoy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span><code class="language-plaintext highlighter-rouge">" | at 1000</code></p>
+
+<ul>
+  <li>Ejecuta comandos desde un archivo dado el próximo martes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> 9:30 PM Tue</code></p>

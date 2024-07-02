@@ -1,0 +1,40 @@
+<h1 id="dot_clean">dot_clean</h1>
+
+<p>Merge ._* files with corresponding native files.
+More information: <a href="https://keith.github.io/xcode-man-pages/dot_clean.1.html">https://keith.github.io/xcode-man-pages/dot_clean.1.html</a>.</p>
+
+<ul>
+  <li>Merge all <code class="language-plaintext highlighter-rouge">._*</code> files recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Don't recursively merge all <code class="language-plaintext highlighter-rouge">._*</code> in a directory (flat merge):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Merge and delete all <code class="language-plaintext highlighter-rouge">._*</code> files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Only delete <code class="language-plaintext highlighter-rouge">._*</code> files if there's a matching native file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Follow symlinks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Print verbose output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

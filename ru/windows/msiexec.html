@@ -1,0 +1,28 @@
+<h1 id="msiexec">msiexec</h1>
+
+<p>Установка, обновление, восстановление или удаление программ Windows через пакеты установки MSI и MSP.
+Больше информации: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/msiexec">https://learn.microsoft.com/windows-server/administration/windows-commands/msiexec</a>.</p>
+
+<ul>
+  <li>Установить программу из MSI-пакета:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.msi</span></p>
+
+<ul>
+  <li>Установить MSI-пакет с веб-сайта:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/installer.msi</span></p>
+
+<ul>
+  <li>Установить MSP-пакет с обновлением (патчем):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.msp</span></p>
+
+<ul>
+  <li>Удалить программу или обновление, используя соответствующий пакет MSI или MSP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>

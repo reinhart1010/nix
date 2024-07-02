@@ -1,0 +1,52 @@
+<h1 id="ip-rule">ip rule</h1>
+
+<p>IP routing policy database management.
+More information: <a href="https://manned.org/ip-rule">https://manned.org/ip-rule</a>.</p>
+
+<ul>
+  <li>Display the routing policy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span></p>
+
+<ul>
+  <li>Add a new rule based on packet source addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule add from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Add a new rule based on packet destination addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule add to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Delete a rule based on packet source addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule delete from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Delete a rule based on packet destination addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule delete to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Flush all deleted rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule flush</code></p>
+
+<ul>
+  <li>Save all rules to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule save &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ip_rules.dat</span></p>
+
+<ul>
+  <li>Restore all rules from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule restore &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ip_rules.dat</span></p>

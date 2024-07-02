@@ -1,0 +1,52 @@
+<h1 id="plantuml">plantuml</h1>
+
+<p>Create UML diagrams from a plain text language and render them in different formats.
+More information: <a href="https://plantuml.com/en/command-line">https://plantuml.com/en/command-line</a>.</p>
+
+<ul>
+  <li>Render diagrams to default format (PNG):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagram1.puml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagram2.puml</span></p>
+
+<ul>
+  <li>Render a diagram in given format (e.g. <code class="language-plaintext highlighter-rouge">png</code>, <code class="language-plaintext highlighter-rouge">pdf</code>, <code class="language-plaintext highlighter-rouge">svg</code>, <code class="language-plaintext highlighter-rouge">txt</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagram.puml</span></p>
+
+<ul>
+  <li>Render all diagrams of a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/diagrams</span></p>
+
+<ul>
+  <li>Render a diagram to the output directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagram.puml</span></p>
+
+<ul>
+  <li>Render a diagram without storing the diagram's source code (Note: It's stored by default when the <code class="language-plaintext highlighter-rouge">-nometadata</code> option isn't specified):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -nometadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagram.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagram.puml</span></p>
+
+<ul>
+  <li>Retrieve source from a <code class="language-plaintext highlighter-rouge">plantuml</code> diagram's metadata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -metadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagram.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagram.puml</span></p>
+
+<ul>
+  <li>Render a diagram with the configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.cfg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagram.puml</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -help</code></p>

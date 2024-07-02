@@ -1,0 +1,16 @@
+<h1 id="mkfsf2fs">mkfs.f2fs</h1>
+
+<p>Crea un sistema de archivos F2FS en una partición.
+Más información: <a href="https://manned.org/mkfs.f2fs">https://manned.org/mkfs.f2fs</a>.</p>
+
+<ul>
+  <li>Crea un sistema de archivos F2FS en la primera partición del dispositivo b (<code class="language-plaintext highlighter-rouge">sdb1</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.f2fs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Crea un sistema de archivos F2FS con una etiqueta de volumen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.f2fs -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiqueta_volumen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

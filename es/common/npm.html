@@ -1,0 +1,53 @@
+<h1 id="npm">npm</h1>
+
+<p>Gestor de paquetes JavaScript y Node.js.
+Gestiona proyectos de Node.js y sus módulos de dependencias.
+Más información: <a href="https://www.npmjs.com">https://www.npmjs.com</a>.</p>
+
+<ul>
+  <li>Creación interactiva de un archivo <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm init</code></p>
+
+<ul>
+  <li>Descarga todos los paquetes listados como dependencias en <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install</code></p>
+
+<ul>
+  <li>Descarga una versión específica de un paquete y lo añade a la lista de dependencias en <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_paquete</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versión</span></p>
+
+<ul>
+  <li>Descarga la última versión de un paquete y lo añade a la lista de dependencias de desarrollo en <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_paquete</span><code class="language-plaintext highlighter-rouge"> --save-dev</code></p>
+
+<ul>
+  <li>Descarga la última versión de un paquete y lo instala globalmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_paquete</span></p>
+
+<ul>
+  <li>Desinstala un paquete y lo remueve de la lista de dependencias en <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_paquete</span></p>
+
+<ul>
+  <li>Lista de dependencias instaladas localmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm list</code></p>
+
+<ul>
+  <li>Lista de paquetes instalados globalmente de nivel superior:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm list --global --depth=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span></p>

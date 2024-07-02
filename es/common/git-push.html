@@ -1,0 +1,52 @@
+<h1 id="git-push">git push</h1>
+
+<p>Envía (<em>push</em>) los commits al repositorio remoto.
+Más información: <a href="https://git-scm.com/docs/git-push">https://git-scm.com/docs/git-push</a>.</p>
+
+<ul>
+  <li>Envía los cambios locales en la rama actual a la misma rama en el remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push</code></p>
+
+<ul>
+  <li>Envía los cambios locales de una rama específica a la misma rama en el remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_local</span></p>
+
+<ul>
+  <li>Publica la rama actual en el repositorio remoto y establece el nombre remoto de la rama:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_remota</span></p>
+
+<ul>
+  <li>Envía los cambios locales de una rama específica a una rama específica en el remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_local</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_remota</span></p>
+
+<ul>
+  <li>Envía los cambios de todas las ramas locales a sus respectivas ramas en el repositorio remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span></p>
+
+<ul>
+  <li>Elimina una rama en el repositorio remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_remota</span></p>
+
+<ul>
+  <li>Elimina las ramas remotas que no están en el repositorio local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --prune </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span></p>
+
+<ul>
+  <li>Publica las etiquetas que aún no están en el repositorio remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --tags</code></p>

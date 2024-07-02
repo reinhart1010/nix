@@ -1,0 +1,40 @@
+<h1 id="gcc">gcc</h1>
+
+<p>Preprocess en compileer C en C++ bronbestanden, monteer en koppel ze vervolgens samen.
+Meer informatie: <a href="https://gcc.gnu.org">https://gcc.gnu.org</a>.</p>
+
+<ul>
+  <li>Meerdere bronbestanden compileren in een uitvoerbaar bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/source1.c pad/naar/source2.c …</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_executable</span></p>
+
+<ul>
+  <li>Toon gemeenschappelijke waarschuwingen, foutopsporingssymbolen in output en optimaliseer zonder debuggen te beïnvloeden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span><code class="language-plaintext highlighter-rouge"> -Wall -g -Og -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_executable</span></p>
+
+<ul>
+  <li>Neem bibliotheken op vanuit een ander pad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_executable</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/header</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/library</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">library_name</span></p>
+
+<ul>
+  <li>Compileer broncode naar Assembler instructies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span></p>
+
+<ul>
+  <li>Compileer broncode naar een objectbestand zonder te koppelen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span></p>
+
+<ul>
+  <li>Optimaliseer het gecompileerde programma voor prestaties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span><code class="language-plaintext highlighter-rouge"> -O</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoerbaar_bestand</span></p>

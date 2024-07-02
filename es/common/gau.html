@@ -1,0 +1,46 @@
+<h1 id="gau">gau</h1>
+
+<p>Obtén todas las URLs: obtén las URLs conocidas de Open Threat Exchange de AlienVault, Wayback Machine y Common Crawl para cualquier dominio.
+Más información: <a href="https://github.com/lc/gau">https://github.com/lc/gau</a>.</p>
+
+<ul>
+  <li>Obtén todas las URLs de un dominio de Open Threat Exchange de AlienVault, Wayback Machine, Common Crawl y URLScan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gau </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span></p>
+
+<ul>
+  <li>Obtén URLs de varios dominios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gau </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dominio1 dominio2 …</span></p>
+
+<ul>
+  <li>Obtén todas las URLs de varios dominios en un archivo de entrada, ejecutando varios subprocesos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gau --threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/dominios.txt</span></p>
+
+<ul>
+  <li>Escribe los resultados en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gau </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span><code class="language-plaintext highlighter-rouge"> --o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/urls_encontradas.txt</span></p>
+
+<ul>
+  <li>Busca las URLs de un solo proveedor específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gau --providers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wayback|commoncrawl|otx|urlscan</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span></p>
+
+<ul>
+  <li>Busca las URLs de varios proveedores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gau --providers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wayback,otx,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span></p>
+
+<ul>
+  <li>Busca las URLs dentro de un intervalo de fechas específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gau --from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AAAAMM</span><code class="language-plaintext highlighter-rouge"> --to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMM</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span></p>

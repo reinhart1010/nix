@@ -1,0 +1,46 @@
+<h1 id="a2ping">a2ping</h1>
+
+<p>Ubah file gambar menjadi EPS atau PDF.
+Informasi lebih lanjut: <a href="https://manned.org/a2ping">https://manned.org/a2ping</a>.</p>
+
+<ul>
+  <li>Ubah sebuah gambar menjadi PDF (Catatan: Nama file output bersifat opsional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/gambar.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/output.pdf</span></p>
+
+<ul>
+  <li>Kompres dokumen EPS atau PDF menggunakan metode tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --nocompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|zip|best|flate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Pindai HiResBoundingBox jika ditemukan (akan dipindai secara default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --nohires </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Izinkan konten halaman berada melewati batas bawah dan kiri (tidak diizinkan secara default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --below </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Berikan opsi/argumen tambahan untuk <code class="language-plaintext highlighter-rouge">gs</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --gsextra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumen_tambahan_gs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Berikan opsi/argumen tambahan untuk program lainnya (seperti <code class="language-plaintext highlighter-rouge">pdftops</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --extra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Tampilkan informasi bantuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping -h</code></p>

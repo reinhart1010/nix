@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="abroot">abroot</h1>
+
+<p>O utilitário ABRoot fornece total imutabiliodade e atomicidade ao transacionar entre 2 estados da partição raíz (A⟺B).
+Isso também permite transações sob demanda via um shell transacional.
+Mais informações: <a href="https://github.com/Vanilla-OS/ABRoot">https://github.com/Vanilla-OS/ABRoot</a>.</p>
+
+<ul>
+  <li>Saída do estado da partição raiz atual ou futuro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">present|future</span></p>
+
+<ul>
+  <li>Insira um shell transacional na futura partição raiz e alterne o root na próxima inicialização:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot shell</code></p>
+
+<ul>
+  <li>Executa um comando específico no shell transacional na partição raíz futura e troca para ela na próxima inicialização:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot exec "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Instala pacotes específicos no servidor dentro do shell transacional na partição raíz futura e troca para ela na próxima inicialização:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot exec apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote1 pacote2 …</span></p>
+
+<ul>
+  <li>Atualiza a partição de inicialização (apenas para usuários avançados):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot _update-boot</code></p>
+
+<ul>
+  <li>Exibe ajuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abroot --help</code></p>
+
+<ul>
+  <li>Exibe versão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abroot --version</code></p>

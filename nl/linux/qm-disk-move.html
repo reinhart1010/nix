@@ -1,0 +1,16 @@
+<h1 id="qm-disk-move">qm disk move</h1>
+
+<p>Verplaats een virtuele schijf van de ene opslag naar de andere binnen hetzelfde Proxmox cluster.
+Meer informatie: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Verplaats een virtuele schijf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm disk move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestemming</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index</span></p>
+
+<ul>
+  <li>Verwijder de vorige kopie van de virtuele schijf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm disk move -delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestemming</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index</span></p>

@@ -1,0 +1,28 @@
+<h1 id="go-install">go install</h1>
+
+<p>Compile and install packages named by the import paths.
+More information: <a href="https://pkg.go.dev/cmd/go#hdr-Compile_and_install_packages_and_dependencies">https://pkg.go.dev/cmd/go#hdr-Compile_and_install_packages_and_dependencies</a>.</p>
+
+<ul>
+  <li>Compile and install the current package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go install</code></p>
+
+<ul>
+  <li>Compile and install a specific local package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package</span></p>
+
+<ul>
+  <li>Install the latest version of a program, ignoring <code class="language-plaintext highlighter-rouge">go.mod</code> in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">golang.org/x/tools/gopls</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest</span></p>
+
+<ul>
+  <li>Install a program at the version selected by <code class="language-plaintext highlighter-rouge">go.mod</code> in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">golang.org/x/tools/gopls</span></p>

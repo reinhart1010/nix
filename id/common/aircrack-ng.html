@@ -1,0 +1,23 @@
+<h1 id="aircrack-ng">aircrack-ng</h1>
+
+<p>Retas dan dapatkan kunci WEP dan WPA/WPA2 dari proses handshake dalam paket jaringan yang ditangkap.
+Bagian dari paket perangkat lunak jaringan Aircrack-ng.
+Informasi lebih lanjut: <a href="https://www.aircrack-ng.org/doku.php?id=aircrack-ng">https://www.aircrack-ng.org/doku.php?id=aircrack-ng</a>.</p>
+
+<ul>
+  <li>Retas dan dapatkan kunci dari file tangkapan jaringan dan file daftar kata sandi ([w]ordlist):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tangkapan_jaringan.cap</span></p>
+
+<ul>
+  <li>Retas dan dapatkan kunci dari file tangkapan jaringan, [w]ordlist, dan [e]ssid milik perangkat titik akses Wi-Fi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tangkapan_jaringan.cap</span></p>
+
+<ul>
+  <li>Retas dan dapatkan kunci dari file tangkapan jaringan, [w]ordlist, dan alamat MAC milik perangkat titik akses Wi-Fi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> --bssid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tangkapan_jaringan.cap</span></p>

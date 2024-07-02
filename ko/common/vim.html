@@ -1,0 +1,53 @@
+<h1 id="vim">vim</h1>
+
+<p>Vim (Vi IMproved)는 커맨드 라인 텍스트 에디터로 다양한 종류의 텍스트 조작을 위해 여러 모드를 지원합니다.
+<code class="language-plaintext highlighter-rouge">i</code> 를 눌러 입력 모드로 들어가고, <code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> 를 눌러 Vim 명령어를 입력할 수 있는 일반 모드로 들어갑니다.
+더 많은 정보: <a href="https://www.vim.org">https://www.vim.org</a>.</p>
+
+<ul>
+  <li>파일 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일/의/경로</span></p>
+
+<ul>
+  <li>지정된 줄 번호에서 파일 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">줄 번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일/의/경로</span></p>
+
+<ul>
+  <li>Vim 메뉴얼 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:help&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>저장하고 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:wq&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>실행취소:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">u</code></p>
+
+<ul>
+  <li>파일에서 패턴 검색 (<code class="language-plaintext highlighter-rouge">n</code>/<code class="language-plaintext highlighter-rouge">N</code> 을 눌러 다음/이전 항목으로 이동):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색할_패턴</span><code class="language-plaintext highlighter-rouge">&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>전체 파일에서 정규식 대체 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규식_표현</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">바꿀_문자열</span><code class="language-plaintext highlighter-rouge">/g&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>줄 번호 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:set nu&lt;Enter&gt;</code></p>

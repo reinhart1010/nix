@@ -1,0 +1,52 @@
+<h1 id="awk">awk</h1>
+
+<p>Uma linguagem de programação versátil para trabalhar com arquivos.
+Mais informações: <a href="https://github.com/onetrueawk/awk">https://github.com/onetrueawk/awk</a>.</p>
+
+<ul>
+  <li>Imprime a quinta coluna (também chamada de campo) em um arquivo separado por espaços:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{print $5}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span></p>
+
+<ul>
+  <li>Imprime a segunda coluna das linhas contendo "foo" em um arquivo separado por espaços:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge">/ {print $2}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span></p>
+
+<ul>
+  <li>Imprime a última coluna de cada linha em um arquivo, usando vírgula (ao invés de espaço) como separador de campo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk -F ',' '{print $NF}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span></p>
+
+<ul>
+  <li>Soma os valores da primeira coluna de um arquivo e imprime o total:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{s+=$1} END {print s}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span></p>
+
+<ul>
+  <li>Imprime de três em três linhas a partir da primeira:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk 'NR%3==1' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span></p>
+
+<ul>
+  <li>Imprime diferentes valores baseado em condições:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{if ($1 == "foo") print "Correspondência completa foo"; else if ($1 ~ "bar") print "Correspondência parcial bar"; else print "Baz"}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span></p>
+
+<ul>
+  <li>Imprime todas as linhas em que a 10ª coluna é igual a um dado valor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '($10 == valor)'</code></p>
+
+<ul>
+  <li>Imprime todas as linhas em que o valor da décima coluna está entre um mínimo e um máximo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '($10 &gt;= valor_minimo &amp;&amp; $10 &lt;= valor_maximo)'</code></p>

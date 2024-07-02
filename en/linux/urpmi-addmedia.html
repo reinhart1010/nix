@@ -1,0 +1,30 @@
+<h1 id="urpmiaddmedia">urpmi.addmedia</h1>
+
+<p>Add media in Mageia.
+Note: Mageia documentation uses medium and repository as synonymous.
+See also: <code class="language-plaintext highlighter-rouge">urpmi</code>, <code class="language-plaintext highlighter-rouge">urpmi.update</code>, <code class="language-plaintext highlighter-rouge">urpme</code>, <code class="language-plaintext highlighter-rouge">urpmi.removemedia</code>, <code class="language-plaintext highlighter-rouge">urpmf</code>, <code class="language-plaintext highlighter-rouge">urpmq</code>.
+More information: <a href="https://wiki.mageia.org/en/URPMI#urpme">https://wiki.mageia.org/en/URPMI#urpme</a>.</p>
+
+<ul>
+  <li>Add a medium:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi.addmedia </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">medium</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp://ftp.site.com/path/to/Mageia/RPMS</span></p>
+
+<ul>
+  <li>Add a medium from a hard drive (run <code class="language-plaintext highlighter-rouge">genhdlist2</code> in the directory first):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi.addmedia --distrib HD file:/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/repo</span></p>
+
+<ul>
+  <li>Add important media from a chosen mirror:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi.addmedia --distrib ftp://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mirror_website}/mirror/mageia/distrib/<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;version&lt;/span&gt;</code>/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arch</span></span></p>
+
+<ul>
+  <li>Automatically select mirrors from a mirror list:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi.addmedia --distrib --mirrorlist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mirrorlist</span></p>

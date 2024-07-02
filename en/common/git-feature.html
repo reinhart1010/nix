@@ -1,0 +1,29 @@
+<h1 id="git-feature">git feature</h1>
+
+<p>Create or merge feature branches.
+Feature branches obey the format feature/<name>.
+More information: &lt;https://github.com/tj/git-extras/blob/master/Commands.md#git-feature&gt;.</name></p>
+
+<ul>
+  <li>Create and switch to a new feature branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git feature </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">feature_branch</span></p>
+
+<ul>
+  <li>Merge a feature branch into the current branch creating a merge commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git feature finish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">feature_branch</span></p>
+
+<ul>
+  <li>Merge a feature branch into the current branch squashing the changes into one commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git feature finish --squash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">feature_branch</span></p>
+
+<ul>
+  <li>Send changes from a specific feature branch to its remote counterpart:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git feature </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">feature_branch</span><code class="language-plaintext highlighter-rouge"> --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span></p>

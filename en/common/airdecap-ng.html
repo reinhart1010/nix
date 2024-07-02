@@ -1,0 +1,35 @@
+<h1 id="airdecap-ng">airdecap-ng</h1>
+
+<p>Decrypt a WEP, WPA, or WPA2 encrypted capture file.
+Part of Aircrack-ng network software suite.
+More information: <a href="https://www.aircrack-ng.org/doku.php?id=airdecap-ng">https://www.aircrack-ng.org/doku.php?id=airdecap-ng</a>.</p>
+
+<ul>
+  <li>Remove wireless headers from an open network capture file and use the access point's MAC address to filter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ap_mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/capture.cap</span></p>
+
+<ul>
+  <li>Decrypt a [w]EP encrypted capture file using the key in hex format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hex_key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/capture.cap</span></p>
+
+<ul>
+  <li>Decrypt a WPA/WPA2 encrypted capture file using the access point's [e]ssid and [p]assword:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/capture.cap</span></p>
+
+<ul>
+  <li>Decrypt a WPA/WPA2 encrypted capture file preserving the headers using the access point's [e]ssid and [p]assword:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -l -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/capture.cap</span></p>
+
+<ul>
+  <li>Decrypt a WPA/WPA2 encrypted capture file using the access point's [e]ssid and [p]assword and use its MAC address to filter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ap_mac</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/capture.cap</span></p>

@@ -1,0 +1,34 @@
+<h1 id="for">for</h1>
+
+<p>Conditionally execute a command several times.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/for">https://learn.microsoft.com/windows-server/administration/windows-commands/for</a>.</p>
+
+<ul>
+  <li>Execute given commands for the specified set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_a item_b item_c</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop is executed</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Iterate over a given range of numbers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for /l %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from</span><code class="language-plaintext highlighter-rouge">, </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">step</span><code class="language-plaintext highlighter-rouge">, </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop is executed</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Iterate over a given list of files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1.ext path\to\file2.ext …</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop is executed</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Iterate over a given list of directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for /d %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory1.ext path\to\directory2.ext …</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop is executed</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Perform a given command in every directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for /d %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> in (*) do (if exist %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop is executed</span><code class="language-plaintext highlighter-rouge">)</code></p>

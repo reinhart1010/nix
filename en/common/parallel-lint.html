@@ -1,0 +1,40 @@
+<h1 id="parallel-lint">parallel-lint</h1>
+
+<p>Check the syntax of PHP files in parallel.
+More information: <a href="https://github.com/JakubOnderka/PHP-Parallel-Lint">https://github.com/JakubOnderka/PHP-Parallel-Lint</a>.</p>
+
+<ul>
+  <li>Lint a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel-lint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Lint a directory using the specified number of parallel processes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel-lint -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">processes</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Lint a directory, excluding the specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel-lint --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/excluded_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Lint a directory of files using a comma-separated list of extension(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel-lint -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php,html,phpt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Lint a directory and output the results as JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel-lint --json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Lint a directory and show Git Blame results for rows containing errors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel-lint --blame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

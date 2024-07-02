@@ -1,0 +1,40 @@
+<h1 id="fuser">fuser</h1>
+
+<p>Display process IDs currently using files or sockets.
+More information: <a href="https://manned.org/fuser">https://manned.org/fuser</a>.</p>
+
+<ul>
+  <li>Find which processes are accessing a file or directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Show more fields (<code class="language-plaintext highlighter-rouge">USER</code>, <code class="language-plaintext highlighter-rouge">PID</code>, <code class="language-plaintext highlighter-rouge">ACCESS</code> and <code class="language-plaintext highlighter-rouge">COMMAND</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Identify processes using a TCP socket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser --namespace tcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Kill all processes accessing a file or directory (sends the <code class="language-plaintext highlighter-rouge">SIGKILL</code> signal):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser --kill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Find which processes are accessing the filesystem containing a specific file or directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser --mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Kill all processes with a TCP connection on a specific port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser --kill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge">/tcp</code></p>

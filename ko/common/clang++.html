@@ -1,0 +1,38 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="clang">clang++</h1>
+
+<p>C++ 소스 파일을 컴파일합니다.
+LLVM의 일부.
+더 많은 정보: <a href="https://clang.llvm.org">https://clang.llvm.org</a>.</p>
+
+<ul>
+  <li>소스 코드를 실행 가능한 바이너리 파일로 컴파일합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력/파일/경로.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력/파일/경로</span></p>
+
+<ul>
+  <li>(거의) 모든 에러와 경고 메시지를 표시합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력/파일/경로.cpp</span><code class="language-plaintext highlighter-rouge"> -Wall -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력/파일/경로</span></p>
+
+<ul>
+  <li>컴파일할 때 사용할 언어 표준을 지정합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력/파일/경로.cpp</span><code class="language-plaintext highlighter-rouge"> -std=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c++20</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력/파일/경로</span></p>
+
+<ul>
+  <li>소스 파일과 다른 경로에 있는 라이브러리를 포함합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력/파일/경로.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력/파일/경로</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">헤더/경로</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라이브러리/경로</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라이브러리/이름</span></p>
+
+<ul>
+  <li>소스 코드를 LLVM Intermediate Representation(IR)로 컴파일 합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang++ -S -emit-llvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력/파일/경로.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력/파일/경로.ll</span></p>

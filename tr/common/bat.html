@@ -1,0 +1,44 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="bat">bat</h1>
+
+<p>Dosyaları yazdır ve birleştir.
+Sözdizimi vurgulama ve Git entegrasyonuna sahip bir <code class="language-plaintext highlighter-rouge">cat</code> klonu.
+Daha fazla bilgi için: <a href="https://github.com/sharkdp/bat">https://github.com/sharkdp/bat</a>.</p>
+
+<ul>
+  <li>Bir dosyanın içeriğini standart çıktıya yazdır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya</span></p>
+
+<ul>
+  <li>Birkaç dosyayı hedef dosyada birleştir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya2</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hedef_dosya</span></p>
+
+<ul>
+  <li>Birkaç dosyayı hedef dosyaya ekle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya2</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hedef_dosya</span></p>
+
+<ul>
+  <li>Tüm çıktı satırlarını numaralandır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --number </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya</span></p>
+
+<ul>
+  <li>Bir JSON dosyasının sözdizimini vurgula:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --language json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya.json</span></p>
+
+<ul>
+  <li>Desteklenen tüm dilleri görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --list-languages</code></p>

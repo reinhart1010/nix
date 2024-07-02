@@ -1,0 +1,35 @@
+<h1 id="age">age</h1>
+
+<p>A simple, modern and secure file encryption tool.
+See also: <code class="language-plaintext highlighter-rouge">age-keygen</code> for generating key pairs.
+More information: <a href="https://github.com/FiloSottile/age">https://github.com/FiloSottile/age</a>.</p>
+
+<ul>
+  <li>Generate an encrypted file that can be decrypted with a passphrase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --passphrase --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/unencrypted_file</span></p>
+
+<ul>
+  <li>Encrypt a file with one or more public keys entered as literals (repeat the <code class="language-plaintext highlighter-rouge">--recipient</code> flag to specify multiple public keys):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public_key</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/unencrypted_file</span></p>
+
+<ul>
+  <li>Encrypt a file to one or more recipients with their public keys specified in a file (one per line):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --recipients-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/recipients_file</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/unencrypted_file</span></p>
+
+<ul>
+  <li>Decrypt a file with a passphrase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --decrypt --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/decrypted_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_file</span></p>
+
+<ul>
+  <li>Decrypt a file with a private key file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --decrypt --identity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/private_key_file</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/decrypted_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_file</span></p>

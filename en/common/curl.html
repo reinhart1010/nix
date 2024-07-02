@@ -1,0 +1,53 @@
+<h1 id="curl">curl</h1>
+
+<p>Transfers data from or to a server.
+Supports most protocols, including HTTP, FTP, and POP3.
+More information: <a href="https://curl.se/docs/manpage.html">https://curl.se/docs/manpage.html</a>.</p>
+
+<ul>
+  <li>Download the contents of a URL to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Download a file, saving the output under the filename indicated by the URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --remote-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span></p>
+
+<ul>
+  <li>Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return an error on server error:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --fail --remote-name --location --continue-at - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span></p>
+
+<ul>
+  <li>Send form-encoded data (POST request of type <code class="language-plaintext highlighter-rouge">application/x-www-form-urlencoded</code>). Use <code class="language-plaintext highlighter-rouge">--data @file_name</code> or <code class="language-plaintext highlighter-rouge">--data @'-'</code> to read from STDIN:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'name=bob'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/form</span></p>
+
+<ul>
+  <li>Send a request with an extra header, using a custom HTTP method:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'X-My-Header: 123'</span><code class="language-plaintext highlighter-rouge"> --request </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PUT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>
+
+<ul>
+  <li>Send data in JSON format, specifying the appropriate content-type header:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span><code class="language-plaintext highlighter-rouge"> --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Content-Type: application/json'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/users/1234</span></p>
+
+<ul>
+  <li>Pass a username and prompt for a password to authenticate to the server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>
+
+<ul>
+  <li>Pass client certificate and key for a resource, skipping certificate validation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client.pem</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key.pem</span><code class="language-plaintext highlighter-rouge"> --insecure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>

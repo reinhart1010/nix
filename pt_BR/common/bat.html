@@ -1,0 +1,44 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="bat">bat</h1>
+
+<p>Imprime e concatena arquivos.
+Um clone do <code class="language-plaintext highlighter-rouge">cat</code> com realce de sintaxe e integração com Git.
+Mais informações: <a href="https://github.com/sharkdp/bat">https://github.com/sharkdp/bat</a>.</p>
+
+<ul>
+  <li>Imprime o conteúdo de um arquivo para a saída padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span></p>
+
+<ul>
+  <li>Concatena o conteúdo de vários arquivos em um arquivo destino:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo2</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_destino</span></p>
+
+<ul>
+  <li>Acrescenta o conteúdo de vários arquivos ao final de um arquivo destino:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo2</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_destino</span></p>
+
+<ul>
+  <li>Numera todas as linhas de saída:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --number </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span></p>
+
+<ul>
+  <li>Realça a sintaxe de um arquivo JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --language json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.json</span></p>
+
+<ul>
+  <li>Mostra todas as linguagens suportadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --list-languages</code></p>

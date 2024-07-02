@@ -1,0 +1,29 @@
+<h1 id="eventcreate">eventcreate</h1>
+
+<p>在事件日志中创建自定义条目。
+事件 ID 可以是 1 到 1000 之间的任意数值。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate">https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate</a>.</p>
+
+<ul>
+  <li>在日志中创建一个具有给定 id（1-1000）的新事件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eventcreate /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">success|error|warning|information</span><code class="language-plaintext highlighter-rouge"> /id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> /d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">消息</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>在特定事件日志中创建事件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eventcreate /l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">日志名</span><code class="language-plaintext highlighter-rouge"> /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">类型</span><code class="language-plaintext highlighter-rouge"> /id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> /d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">消息</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>为新创建的事件指定来源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eventcreate /so </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">来源名</span><code class="language-plaintext highlighter-rouge"> /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">类型</span><code class="language-plaintext highlighter-rouge"> /id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> /d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">消息</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>在远程计算机的事件日志中创建事件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eventcreate /s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主机名</span><code class="language-plaintext highlighter-rouge"> /u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge"> /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span><code class="language-plaintext highlighter-rouge"> /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">类型</span><code class="language-plaintext highlighter-rouge"> /id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> /d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">消息</span><code class="language-plaintext highlighter-rouge">"</code></p>

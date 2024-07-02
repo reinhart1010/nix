@@ -1,0 +1,34 @@
+<h1 id="jdeps">jdeps</h1>
+
+<p>Java class dependency analyzer.
+More information: <a href="https://docs.oracle.com/en/java/javase/20/docs/specs/man/jdeps.html">https://docs.oracle.com/en/java/javase/20/docs/specs/man/jdeps.html</a>.</p>
+
+<ul>
+  <li>Analyze the dependencies of a <code class="language-plaintext highlighter-rouge">.jar</code> or <code class="language-plaintext highlighter-rouge">.class</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.class</span></p>
+
+<ul>
+  <li>Print a summary of all dependencies of a specific <code class="language-plaintext highlighter-rouge">.jar</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.jar</span><code class="language-plaintext highlighter-rouge"> -summary</code></p>
+
+<ul>
+  <li>Print all class-level dependencies of a <code class="language-plaintext highlighter-rouge">.jar</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.jar</span><code class="language-plaintext highlighter-rouge"> -verbose</code></p>
+
+<ul>
+  <li>Output the results of the analysis in a DOT file into a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.jar</span><code class="language-plaintext highlighter-rouge"> -dotoutput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdeps --help</code></p>

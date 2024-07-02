@@ -1,0 +1,28 @@
+<h1 id="paccache">paccache</h1>
+
+<p>A <code class="language-plaintext highlighter-rouge">pacman</code> cache cleaning utility.
+More information: <a href="https://manned.org/paccache">https://manned.org/paccache</a>.</p>
+
+<ul>
+  <li>Remove all but the 3 most recent package versions from the <code class="language-plaintext highlighter-rouge">pacman</code> cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">paccache -r</code></p>
+
+<ul>
+  <li>Set the number of package versions to keep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">paccache -rk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num_versions</span></p>
+
+<ul>
+  <li>Perform a dry-run and show the number of candidate packages for deletion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">paccache -d</code></p>
+
+<ul>
+  <li>Move candidate packages to a directory instead of deleting them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">paccache -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

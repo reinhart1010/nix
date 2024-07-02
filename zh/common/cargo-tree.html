@@ -1,0 +1,35 @@
+<h1 id="cargo-tree">cargo tree</h1>
+
+<p>显示依赖图的树形可视化。
+注意：在树中，标有 <code class="language-plaintext highlighter-rouge">(*)</code> 的包的依赖已在图的其他位置显示过，因此不会重复显示。
+更多信息：<a href="https://doc.rust-lang.org/cargo/commands/cargo-tree.html">https://doc.rust-lang.org/cargo/commands/cargo-tree.html</a>.</p>
+
+<ul>
+  <li>显示当前项目的依赖树：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo tree</code></p>
+
+<ul>
+  <li>仅显示到指定深度的依赖 (例如，当 <code class="language-plaintext highlighter-rouge">n</code> 为 1 时，仅显示直接依赖)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo tree --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li>在树中不显示给定的包（及其依赖)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo tree --prune </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_spec</span></p>
+
+<ul>
+  <li>显示重复依赖的所有出现：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo tree --no-dedupe</code></p>
+
+<ul>
+  <li>仅显示 normal/build/dev 依赖：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo tree --edges </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">normal|build|dev</span></p>

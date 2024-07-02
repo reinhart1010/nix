@@ -1,0 +1,28 @@
+<h1 id="hostess">hostess</h1>
+
+<p>Manage the <code class="language-plaintext highlighter-rouge">/etc/hosts</code> file.
+More information: <a href="https://github.com/cbednarski/hostess">https://github.com/cbednarski/hostess</a>.</p>
+
+<ul>
+  <li>List domains, target IP addresses and on/off status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hostess list</code></p>
+
+<ul>
+  <li>Add a domain pointing to your machine to your hosts file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hostess add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local.example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span></p>
+
+<ul>
+  <li>Remove a domain from your hosts file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hostess del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local.example.com</span></p>
+
+<ul>
+  <li>Disable a domain (but don't remove it):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hostess off </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local.example.com</span></p>

@@ -1,0 +1,41 @@
+<h1 id="git-imerge">git-imerge</h1>
+
+<p>İki git dalı arasında aşamalı olarak birleştirme veya taban değiştirme işlemlerini uygula.
+Dallar arasındaki uyuşmazlıklar özel commitler ile bölüşülerek uyuşmazlıkları çözmek kolaylaştırılır.
+Daha fazla bilgi için: <a href="https://github.com/mhagger/git-imerge">https://github.com/mhagger/git-imerge</a>.</p>
+
+<ul>
+  <li>imerge bazlı taban değiştirme işlemini başlat (işlemden önce tabanı değiştirilmek istenen dalı kontrol et):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yerine_geçilecek_dal</span></p>
+
+<ul>
+  <li>imerge bazlı birleştirme işlemini başlat (işlemden önce birleştirilmek istenen dalı kontrol et):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">birleştirilecek_dal</span></p>
+
+<ul>
+  <li>Devam eden birleştirme ve taban değiştirme işlemlerinin ASCII diagramını göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge diagram</code></p>
+
+<ul>
+  <li>Uyuşmazlıkları çözdükten sonra imerge işlemine devam et (önce <code class="language-plaintext highlighter-rouge">git add</code> komutu ile uyuşmayan dosyaları ekle):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge continue --no-edit</code></p>
+
+<ul>
+  <li>Tüm uyuşmazlıklar çözüldükten sonra imerge işlemini sonlandır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge finish</code></p>
+
+<ul>
+  <li>imerge işlemini sonlandır ve belirtilen eski bir dala geri dön:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git-imerge remove &amp;&amp; git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eski_dal</span></p>

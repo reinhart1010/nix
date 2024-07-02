@@ -1,0 +1,34 @@
+<h1 id="nginx">nginx</h1>
+
+<p>Servidor web Nginx.
+Más información: <a href="https://nginx.org/en/">https://nginx.org/en/</a>.</p>
+
+<ul>
+  <li>Inicia el servidor con el archivo de configuración por defecto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nginx</code></p>
+
+<ul>
+  <li>Inicia el servidor con un archivo de configuración personalizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nginx -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_de_configuración</span></p>
+
+<ul>
+  <li>Inicia el servidor con un prefijo para todas las rutas relativas en el archivo de configuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nginx -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_de_configuración</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefijo/para/rutas/relativas</span></p>
+
+<ul>
+  <li>Prueba la configuración sin afectar al servidor en ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nginx -t</code></p>
+
+<ul>
+  <li>Recarga la configuración enviando una señal sin tiempo de inactividad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nginx -s reload</code></p>

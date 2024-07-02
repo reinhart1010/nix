@@ -1,0 +1,17 @@
+<h1 id="virsh-domblklist">virsh-domblklist</h1>
+
+<p>List information about block devices associated with a virtual machine.
+See also: <code class="language-plaintext highlighter-rouge">virsh</code>.
+More information: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>List the target name and source path of the block devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh domblklist --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>List the disk type and device value as well as the target name and source path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh domblklist --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --details</code></p>

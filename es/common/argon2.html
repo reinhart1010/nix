@@ -1,0 +1,28 @@
+<h1 id="argon2">argon2</h1>
+
+<p>Calcula hashes criptográficos Argon2.
+Más información: <a href="https://github.com/P-H-C/phc-winner-argon2#command-line-utility">https://github.com/P-H-C/phc-winner-argon2#command-line-utility</a>.</p>
+
+<ul>
+  <li>Calcula un hash con una contraseña y un salt con los parámetros por defecto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto_salt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Calcula un hash con el algoritmo especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto_sal</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">d|i|id</span></p>
+
+<ul>
+  <li>Muestra el hash de salida sin información adicional:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto_sal</span><code class="language-plaintext highlighter-rouge">" -e</code></p>
+
+<ul>
+  <li>Calcula un hash con una cantidad de i[t]eraciones dada, uso de [m]emoria y parámetros de [p]aralelismo dados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto_sal</span><code class="language-plaintext highlighter-rouge">" -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span></p>

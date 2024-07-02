@@ -1,0 +1,53 @@
+<h1 id="scp">scp</h1>
+
+<p>Secure copy.
+Copy files between hosts using Secure Copy Protocol over SSH.
+More information: <a href="https://man.openbsd.org/scp">https://man.openbsd.org/scp</a>.</p>
+
+<ul>
+  <li>Copy a local file to a remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span></p>
+
+<ul>
+  <li>Use a specific port when connecting to the remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scp -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span></p>
+
+<ul>
+  <li>Copy a file from a remote host to a local directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_directory</span></p>
+
+<ul>
+  <li>Recursively copy the contents of a directory from a remote host to a local directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scp -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_directory</span></p>
+
+<ul>
+  <li>Copy a file between two remote hosts transferring through the local host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scp -3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host2</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_directory</span></p>
+
+<ul>
+  <li>Use a specific username when connecting to the remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_directory</span></p>
+
+<ul>
+  <li>Use a specific SSH private key for authentication with the remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scp -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/private_key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span></p>
+
+<ul>
+  <li>Use a specific proxy when connecting to the remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scp -J </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proxy_username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proxy_host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span></p>

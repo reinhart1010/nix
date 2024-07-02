@@ -1,0 +1,46 @@
+<h1 id="aws-cloud9">aws cloud9</h1>
+
+<p>Manage Cloud9 - a collection of tools to code, build, run, test, debug, and release software in the cloud.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloud9/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloud9/index.html</a>.</p>
+
+<ul>
+  <li>List all Cloud9 development environment identifiers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 list-environments</code></p>
+
+<ul>
+  <li>Create a Cloud9 development environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 create-environment-ec2 --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --instance-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_type</span></p>
+
+<ul>
+  <li>Display information about Cloud9 development environments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 describe-environments --environment-ids </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_ids</span></p>
+
+<ul>
+  <li>Add an environment member to a Cloud9 development environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 create-environment-membership --environment-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_id</span><code class="language-plaintext highlighter-rouge"> --user-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_arn</span><code class="language-plaintext highlighter-rouge"> --permissions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">permissions</span></p>
+
+<ul>
+  <li>Display status information for a Cloud9 development environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 describe-environment-status --environment-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_id</span></p>
+
+<ul>
+  <li>Delete a Cloud9 environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 delete-environment --environment-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_id</span></p>
+
+<ul>
+  <li>Delete an environment member from a development environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 delete-environment-membership --environment-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_id</span><code class="language-plaintext highlighter-rouge"> --user-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_arn</span></p>

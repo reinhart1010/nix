@@ -1,0 +1,40 @@
+<h1 id="fpsync">fpsync</h1>
+
+<p>Ejecuta varios procesos de sincronización localmente o en varios trabajadores remotos a través de SSH.
+Más información: <a href="https://www.fpart.org/fpsync/">https://www.fpart.org/fpsync/</a>.</p>
+
+<ul>
+  <li>Sincroniza recursivamente un directorio a otra ubicación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/origen/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/destino/</span></p>
+
+<ul>
+  <li>Sincroniza recursivamente un directorio con la última pasada (activa la opción <code class="language-plaintext highlighter-rouge">--delete</code> de rsync con cada trabajo de sincronización):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/origen/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/destino/</span></p>
+
+<ul>
+  <li>Sincroniza recursivamente un directorio a un destino utilizando 8 trabajos de sincronización simultáneos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v -n 8 -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/origen/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/destino/</span></p>
+
+<ul>
+  <li>Sincroniza recursivamente un directorio a un destino utilizando 8 trabajos de sincronización concurrentes repartidos entre dos trabajadores remotos (máquina1 y máquina2):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v -n 8 -E -w login@machine1 -w login@machine2 -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/directorio/compartido</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/origen/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/destino/</span></p>
+
+<ul>
+  <li>Sincroniza recursivamente un directorio a un destino utilizando cuatro trabajadores locales, cada uno transfiriendo como máximo 1000 archivos y 100 MB por trabajo de sincronización:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v -n 4 -f 1000 -s $((100 * 1024 * 1024)) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/origen/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/destino/</span></p>
+
+<ul>
+  <li>Sincroniza de forma recursiva cualquier directorio pero excluye archivos <code class="language-plaintext highlighter-rouge">.snapshot*</code> específicos (Nota: las opciones y los valores deben estar separados por un carácter de tubería):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v -O "-x|.snapshot*" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/origen/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/destino/</span></p>

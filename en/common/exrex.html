@@ -1,0 +1,53 @@
+<h1 id="exrex">exrex</h1>
+
+<p>Generate all/random matching strings for a regular expression.
+It can also simplify regular expressions.
+More information: <a href="https://github.com/asciimoo/exrex">https://github.com/asciimoo/exrex</a>.</p>
+
+<ul>
+  <li>Generate all possible strings that match a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exrex '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Generate a random string that matches a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exrex --random '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Generate at most 100 strings that match a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exrex --max-number </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Generate all possible strings that match a regular expression, joined by a custom delimiter string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exrex --delimiter "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">, </span><code class="language-plaintext highlighter-rouge">" '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Print count of all possible strings that match a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exrex --count '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Simplify a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exrex --simplify '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ab|ac</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Print eyes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exrex '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><a href="_">oO0</a>[oO0]</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Print a boat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exrex '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">( {20}(| *\|-{22}||)|.={50}| ( ){0,5}\.| {12}~{39})</span><code class="language-plaintext highlighter-rouge">'</code></p>

@@ -1,0 +1,53 @@
+<h1 id="poetry">poetry</h1>
+
+<p>Manage Python packages and dependencies.
+See also: <code class="language-plaintext highlighter-rouge">asdf</code>.
+More information: <a href="https://python-poetry.org/docs/cli/">https://python-poetry.org/docs/cli/</a>.</p>
+
+<ul>
+  <li>Create a new Poetry project in the directory with a specific name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">poetry new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span></p>
+
+<ul>
+  <li>Install and add a dependency and its sub-dependencies to the <code class="language-plaintext highlighter-rouge">pyproject.toml</code> file in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">poetry add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency</span></p>
+
+<ul>
+  <li>Install the project dependencies using the <code class="language-plaintext highlighter-rouge">pyproject.toml</code> file in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">poetry install</code></p>
+
+<ul>
+  <li>Interactively initialize the current directory as a new Poetry project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">poetry init</code></p>
+
+<ul>
+  <li>Get the latest version of all dependencies and update <code class="language-plaintext highlighter-rouge">poetry.lock</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">poetry update</code></p>
+
+<ul>
+  <li>Execute a command inside the project's virtual environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">poetry run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Bump the version of the project in <code class="language-plaintext highlighter-rouge">pyproject.toml</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">poetry version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patch|minor|major|prepatch|preminor|premajor|prerelease</span></p>
+
+<ul>
+  <li>Spawn a shell within the project's virtual environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">poetry shell</code></p>

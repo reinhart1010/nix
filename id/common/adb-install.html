@@ -1,0 +1,40 @@
+<h1 id="adb-install">adb install</h1>
+
+<p>Android Debug Bridge Install: Memasang paket ke emulator Android atau perangkat Android terhubung.
+Informasi lebih lanjut: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Pasang aplikasi Android ke emulator/perangkat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span></p>
+
+<ul>
+  <li>Pasang aplikasi Android menuju emulator/perangkat tertentu (berdasarkan nomor serial yang didapatkan dari <code class="language-plaintext highlighter-rouge">adb devices</code>, mengesampingkan nilai <code class="language-plaintext highlighter-rouge">$ANDROID_SERIAL</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nomor_serial</span><code class="language-plaintext highlighter-rouge"> install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.apk</span></p>
+
+<ul>
+  <li>Pasang ulang aplikasi yang sudah ada, menjaga datanya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span></p>
+
+<ul>
+  <li>Pasang aplikasi Android versi lawas dari aplikasi Android yang sudah terpasang pada perangkat (khusus aplikasi debug):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span></p>
+
+<ul>
+  <li>Berikan semua izin yang terdaftar di manifest aplikasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span></p>
+
+<ul>
+  <li>Perbarui langsung paket terinstal dengan hanya memperbarui bagian dari APK yang berubah:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install --fastdeploy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span></p>

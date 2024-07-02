@@ -1,0 +1,41 @@
+<h1 id="dumpsys">dumpsys</h1>
+
+<p>Dostarczanie informacji o usługach systemu Android.
+Ta komenda może być używana tylko poprzez <code class="language-plaintext highlighter-rouge">adb shell</code>.
+Więcej informacji: <a href="https://developer.android.com/tools/dumpsys">https://developer.android.com/tools/dumpsys</a>.</p>
+
+<ul>
+  <li>Uzyskaj dane diagnostyczne dla wszystkich usług systemowych:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys</code></p>
+
+<ul>
+  <li>Uzyskaj dane diagnostyczne dla określonej usługi systemowej:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usługa</span></p>
+
+<ul>
+  <li>Lista wszystkich usług, o których <code class="language-plaintext highlighter-rouge">dumpsys</code> może dać informacje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -l</code></p>
+
+<ul>
+  <li>Lista argumentów specyficznych dla usługi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usługa</span><code class="language-plaintext highlighter-rouge"> -h</code></p>
+
+<ul>
+  <li>Wykluczenie określonej usługi z wyjścia diagnostycznego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys --skip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usługa</span></p>
+
+<ul>
+  <li>Określenie czasu oczekiwania w sekundach (domyślnie 10s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sekundy</span></p>

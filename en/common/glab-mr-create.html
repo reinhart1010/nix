@@ -1,0 +1,34 @@
+<h1 id="glab-mr-create">glab mr create</h1>
+
+<p>Manage GitLab merge requests.
+More information: <a href="https://glab.readthedocs.io/en/latest/mr/create.html">https://glab.readthedocs.io/en/latest/mr/create.html</a>.</p>
+
+<ul>
+  <li>Interactively create a merge request:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr create</code></p>
+
+<ul>
+  <li>Create a merge request, determining the title and description from the commit messages of the current branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr create --fill</code></p>
+
+<ul>
+  <li>Create a draft merge request:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr create --draft</code></p>
+
+<ul>
+  <li>Create a merge request specifying the target branch, title, and description:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr create --target-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_branch</span><code class="language-plaintext highlighter-rouge"> --title "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title</span><code class="language-plaintext highlighter-rouge">" --description "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">description</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Start opening a merge request in the default web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr create --web</code></p>

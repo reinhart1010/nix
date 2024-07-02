@@ -1,0 +1,35 @@
+<h1 id="xwininfo">xwininfo</h1>
+
+<p>Display information about windows.
+See also: <code class="language-plaintext highlighter-rouge">xprop</code>, <code class="language-plaintext highlighter-rouge">xkill</code>.
+More information: <a href="https://www.x.org/releases/current/doc/man/man1/xwininfo.1.xhtml">https://www.x.org/releases/current/doc/man/man1/xwininfo.1.xhtml</a>.</p>
+
+<ul>
+  <li>Display a cursor to select a window to display its attributes (id, name, size, position, …):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xwininfo</code></p>
+
+<ul>
+  <li>Display the tree of all windows:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xwininfo -tree -root</code></p>
+
+<ul>
+  <li>Display the attributes of a window with a specific ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xwininfo -id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>Display the attributes of a window with a specific name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xwininfo -name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Display the ID of a window searching by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xwininfo -tree -root | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span><code class="language-plaintext highlighter-rouge"> | head -1 | perl -ne 'print $1 if /(0x[\da-f]+)/ig;'</code></p>

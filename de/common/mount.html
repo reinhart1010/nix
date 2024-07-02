@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="mount">mount</h1>
+
+<p>Ermöglicht den Zugriff auf ein gesamtes Dateisystem in einem Verzeichnis.
+Weitere Informationen: <a href="https://manned.org/mount.8">https://manned.org/mount.8</a>.</p>
+
+<ul>
+  <li>Zeige alle eingehängten Dateisysteme:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount</code></p>
+
+<ul>
+  <li>Hänge ein Gerät in ein Verzeichnis ein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dateisystemtyp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/gerätedatei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/zielverzeichnis</span></p>
+
+<ul>
+  <li>Hänge ein CD-ROM-Gerät (Dateisystemtyp ISO9660) in das Verzeichnis <code class="language-plaintext highlighter-rouge">/cdrom</code> schreibgeschützt ein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iso9660</span><code class="language-plaintext highlighter-rouge"> -o ro </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/cdrom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/cdrom</span></p>
+
+<ul>
+  <li>Hänge alle Dateisysteme ein, die in <code class="language-plaintext highlighter-rouge">/etc/fstab</code> definiert sind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -a</code></p>
+
+<ul>
+  <li>Hänge ein Dateisystem ein, das in <code class="language-plaintext highlighter-rouge">/etc/fstab</code> beschrieben ist (z. B. <code class="language-plaintext highlighter-rouge">/dev/sda1 /meine_platte ext2 defaults 0 2</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/meine_platte</span></p>
+
+<ul>
+  <li>Hänge ein Verzeichnis in ein anderes Verzeichnis ein (danach sind die Inhalte über beide Pfade verfügbar):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount --bind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/altem_verzeichnis</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/neuem_verzeichnis</span></p>

@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="dd">dd</h1>
+
+<p>Converte e copia um arquivo.
+Mais informações: <a href="https://keith.github.io/xcode-man-pages/dd.1.html">https://keith.github.io/xcode-man-pages/dd.1.html</a>.</p>
+
+<ul>
+  <li>Cria uma unidade USB inicializável a partir de um arquivo isohybrid (tal como <code class="language-plaintext highlighter-rouge">archlinux-xxx.iso</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.iso</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/unidade_usb</span></p>
+
+<ul>
+  <li>Clona uma unidade para outra unidade com bloco de 4 MB e ignora qualquer erro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=4m conv=noerror if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/unidade_origem</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/unidade_destino</span></p>
+
+<ul>
+  <li>Gera um arquivo de número específico de bytes aleatórios usando o driver aleatório do kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> if=/dev/urandom of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_aleatório</span></p>
+
+<ul>
+  <li>Compara o desempenho de gravação de um disco:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span><code class="language-plaintext highlighter-rouge"> if=/dev/zero of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_1GB</span></p>

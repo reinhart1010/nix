@@ -1,0 +1,34 @@
+<h1 id="sfill">sfill</h1>
+
+<p>Securely overwrite the free space and inodes of the partition where the specified directory resides.
+More information: <a href="https://manned.org/sfill">https://manned.org/sfill</a>.</p>
+
+<ul>
+  <li>Overwrite free space and inodes of a disk with 38 writes (slow but secure):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/mounted_disk_directory</span></p>
+
+<ul>
+  <li>Overwrite free space and inodes of a disk with 6 writes (fast but less secure) and show status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfill -l -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/mounted_disk_directory</span></p>
+
+<ul>
+  <li>Overwrite free space and inodes of a disk with 1 write (very fast but insecure) and show status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfill -ll -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/mounted_disk_directory</span></p>
+
+<ul>
+  <li>Overwrite only free space of a disk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfill -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/mounted_disk_directory</span></p>
+
+<ul>
+  <li>Overwrite only free inodes of a disk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfill -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/mounted_disk_directory</span></p>

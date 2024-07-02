@@ -1,0 +1,46 @@
+<h1 id="firewall-cmd">firewall-cmd</h1>
+
+<p>The firewalld command-line client.
+More information: <a href="https://firewalld.org/documentation/man-pages/firewall-cmd">https://firewalld.org/documentation/man-pages/firewall-cmd</a>.</p>
+
+<ul>
+  <li>View the available firewall zones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --get-active-zones</code></p>
+
+<ul>
+  <li>View the rules which are currently applied:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --list-all</code></p>
+
+<ul>
+  <li>Permanently move the interface into the block zone, effectively blocking all communication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">block</span><code class="language-plaintext highlighter-rouge"> --change-interface=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enp1s0</span></p>
+
+<ul>
+  <li>Permanently open the port for a service in the specified zone (like port 443 when in the <code class="language-plaintext highlighter-rouge">public</code> zone):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public</span><code class="language-plaintext highlighter-rouge"> --add-service=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https</span></p>
+
+<ul>
+  <li>Permanently close the port for a service in the specified zone (like port 80 when in the <code class="language-plaintext highlighter-rouge">public</code> zone):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public</span><code class="language-plaintext highlighter-rouge"> --remove-service=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http</span></p>
+
+<ul>
+  <li>Permanently open two arbitrary ports in the specified zone:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public</span><code class="language-plaintext highlighter-rouge"> --add-port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25565/tcp</span><code class="language-plaintext highlighter-rouge"> --add-port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">19132/udp</span></p>
+
+<ul>
+  <li>Reload firewalld to force rule changes to take effect:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --reload</code></p>

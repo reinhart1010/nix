@@ -1,0 +1,35 @@
+<h1 id="git-grep">git-grep</h1>
+
+<p>Rechercher une occurrence de texte n'importe où dans l'historique d'un dépôt git.
+Comprend la plupart des arguments du <code class="language-plaintext highlighter-rouge">grep</code> classique.
+Plus d'informations : <a href="https://git-scm.com/docs/git-grep">https://git-scm.com/docs/git-grep</a>.</p>
+
+<ul>
+  <li>Rechercher une occurrence dans les fichiers suivis :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaine_recherché</span></p>
+
+<ul>
+  <li>Rechercher une occurrence dans les fichiers suivis d'après un pattern de fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaine_recherché</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_glob_pattern</span></p>
+
+<ul>
+  <li>Rechercher une occurrence dans les fichiers suivis et les sous-modules :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep --recurse-submodules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaine_recherché</span></p>
+
+<ul>
+  <li>Rechercher une occurrence à partir d'un point spécifique dans l'historique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaine_recherché</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~2</span></p>
+
+<ul>
+  <li>Rechercher une occurrence dans toutes les branches :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaine_recherché</span><code class="language-plaintext highlighter-rouge"> $(git rev-list --all)</code></p>

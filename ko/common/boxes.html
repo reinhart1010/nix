@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="boxes">boxes</h1>
+
+<p>ASCII 아트 상자 그리기, 제거 및 복구
+더 많은 정보: <a href="https://boxes.thomasjensen.com/boxes-man-1.html">https://boxes.thomasjensen.com/boxes-man-1.html</a>.</p>
+
+<ul>
+  <li>문자열 주위에 상자 그리기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">" | boxes</code></p>
+
+<ul>
+  <li>문자열에서 상자를 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">" | boxes -r</code></p>
+
+<ul>
+  <li>문자열 주위에 특정 디자인의 상자 그리기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">" | boxes -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parchment</span></p>
+
+<ul>
+  <li>너비가 10이고 높이가 5인 상자를 그리기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">" | boxes -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>중앙에 텍스트가 있는 상자 그리기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">" | boxes -a c</code></p>

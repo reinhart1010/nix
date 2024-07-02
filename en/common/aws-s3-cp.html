@@ -1,0 +1,34 @@
+<h1 id="aws-s3-cp">aws s3 cp</h1>
+
+<p>Copy local files or S3 objects to another location locally or in S3.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html</a>.</p>
+
+<ul>
+  <li>Copy a file from local to a specific bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span></p>
+
+<ul>
+  <li>Copy a specific S3 object into another bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 cp s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name1</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name2</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target</span></p>
+
+<ul>
+  <li>Copy a specific S3 object into another bucket keeping the original name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 cp s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name1</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name2</span></p>
+
+<ul>
+  <li>Copy S3 objects to a local directory recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 cp s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> . --recursive</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 cp help</code></p>

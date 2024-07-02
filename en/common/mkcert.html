@@ -1,0 +1,34 @@
+<h1 id="mkcert">mkcert</h1>
+
+<p>Make locally-trusted development certificates.
+More information: <a href="https://github.com/FiloSottile/mkcert">https://github.com/FiloSottile/mkcert</a>.</p>
+
+<ul>
+  <li>Install the local CA in the system trust store:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkcert -install</code></p>
+
+<ul>
+  <li>Generate certificate and private key for a given domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkcert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span></p>
+
+<ul>
+  <li>Generate certificate and private key for multiple domains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkcert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myapp.dev</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span></p>
+
+<ul>
+  <li>Generate wildcard certificate and private key for a given domain and its subdomains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkcert "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.example.it</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Uninstall the local CA:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkcert -uninstall</code></p>

@@ -1,0 +1,46 @@
+<h1 id="cargo-build">cargo build</h1>
+
+<p>Compila um projeto Rust em um pacote local incluindo todas as suas dependências.
+Mais informações: <a href="https://doc.rust-lang.org/cargo/commands/cargo-build.html">https://doc.rust-lang.org/cargo/commands/cargo-build.html</a>.</p>
+
+<ul>
+  <li>Compila o pacote ou pacotes definidos pelo arquivo <code class="language-plaintext highlighter-rouge">Cargo.toml</code> no diretório local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build</code></p>
+
+<ul>
+  <li>Compila os artefatos em modo de publicação (release), com otimizações:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --release</code></p>
+
+<ul>
+  <li>Compila um pacote garantindo que o <code class="language-plaintext highlighter-rouge">Cargo.lock</code> esteja atualizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --locked</code></p>
+
+<ul>
+  <li>Compila todos os pacotes no workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --workspace</code></p>
+
+<ul>
+  <li>Compila um pacote específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Compila apenas o binário especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span></p>
+
+<ul>
+  <li>Compila apenas um teste específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_teste</span></p>

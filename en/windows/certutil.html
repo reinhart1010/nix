@@ -1,0 +1,34 @@
+<h1 id="certutil">certutil</h1>
+
+<p>A tool to manage and configure certificate information.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/certutil">https://learn.microsoft.com/windows-server/administration/windows-commands/certutil</a>.</p>
+
+<ul>
+  <li>Dump the configuration information or files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Encode a file in hexadecimal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -encodehex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\output_file</span></p>
+
+<ul>
+  <li>Encode a file to Base64:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -encode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\output_file</span></p>
+
+<ul>
+  <li>Decode a Base64-encoded file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -decode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\output_file</span></p>
+
+<ul>
+  <li>Generate and display a cryptographic hash over a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -hashfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">md2|md4|md5|sha1|sha256|sha384|sha512</span></p>

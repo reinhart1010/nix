@@ -1,0 +1,28 @@
+<h1 id="chkdsk">chkdsk</h1>
+
+<p>Check file system and volume metadata for errors.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk">https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk</a>.</p>
+
+<ul>
+  <li>Specify the drive letter (followed by a colon), mount point, or volume name to check:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume</span></p>
+
+<ul>
+  <li>Fix errors on a specific volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume</span><code class="language-plaintext highlighter-rouge"> /f</code></p>
+
+<ul>
+  <li>Dismount a specific volume before checking:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume</span><code class="language-plaintext highlighter-rouge"> /x</code></p>
+
+<ul>
+  <li>Change the log file size to the specified size (only for NTFS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk /l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span></p>

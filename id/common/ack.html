@@ -1,0 +1,53 @@
+<h1 id="ack">ack</h1>
+
+<p>Sebuah alat pencari teks seperti <code class="language-plaintext highlighter-rouge">grep</code> yang dikhususkan bagi para pengembang perangkat lunak.
+Lihat juga: <code class="language-plaintext highlighter-rouge">rg</code>, yang dapat mencari dengan lebih cepat.
+Informasi lebih lanjut: <a href="https://beyondgrep.com/documentation">https://beyondgrep.com/documentation</a>.</p>
+
+<ul>
+  <li>Cari file dalam direktori saat ini yang mengandung string atau kriteria dalam ekspresi reguler:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Cari tanpa mementingkan perbedaan huruf besar-kecil dalam kriteria (case-insensitive):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --ignore-case "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Cari untuk baris-baris dalam file yang memenuhi kriteria, namun hanya cetak teks yang memenuhinya saja (jangan cetak kata-kata lainnya meskipun dalam baris yang sama):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Hanya cari file dengan tipe tertentu (seperti <code class="language-plaintext highlighter-rouge">ruby</code> untuk mencari file <code class="language-plaintext highlighter-rouge">.rb</code>,<code class="language-plaintext highlighter-rouge">.erb</code>, <code class="language-plaintext highlighter-rouge">.rake</code>, <code class="language-plaintext highlighter-rouge">Rakefile</code> dan sebagainya):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Jangan cari file dengan tipe tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --type no</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Hitung total teks/string yang ditemukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --count --no-filename "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Hanya cetak nama file dan total penemuan dalam file tersebut saja:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --count --files-with-matches "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Tampilkan daftar kombinasi nilai yang dapat dipakai dalam atribut <code class="language-plaintext highlighter-rouge">--type</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --help-types</code></p>

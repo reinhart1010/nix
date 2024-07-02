@@ -1,0 +1,52 @@
+<h1 id="tmutil">tmutil</h1>
+
+<p>Utilidad para gestionar las copias de seguridad de Time Machine. La mayoría de las acciones requieren privilegios de root.
+Más información: <a href="https://keith.github.io/xcode-man-pages/tmutil.8.html">https://keith.github.io/xcode-man-pages/tmutil.8.html</a>.</p>
+
+<ul>
+  <li>Establece una unidad HFS+ como destino de la copia de seguridad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil setdestination </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/punto_montaje_disco</span></p>
+
+<ul>
+  <li>Establece un recurso compartido APF o SMB como destino de la copia de seguridad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil setdestination "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocolo://usuario[:contraseña]@host/compartir</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Añade el destino indicado a la lista de destinos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil setdestination -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span></p>
+
+<ul>
+  <li>Activa copias de seguridad automáticas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil enable</code></p>
+
+<ul>
+  <li>Desactiva las copias de seguridad automáticas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil disable</code></p>
+
+<ul>
+  <li>Inicia una copia de seguridad, si ya no se está ejecutando, y libera el control del intérprete de comandos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil startbackup</code></p>
+
+<ul>
+  <li>Inicia una copia de seguridad y bloquearla hasta que termine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil startbackup -b</code></p>
+
+<ul>
+  <li>Detiene una copia de seguridad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil stopbackup</code></p>

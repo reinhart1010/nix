@@ -1,0 +1,53 @@
+<h1 id="nmap">nmap</h1>
+
+<p>Narzędzie do enumeracji sieci oraz skanowania portów.
+Niektóre funkcję są tylko aktywne gdy Nmap uruchamiany jest z przywilejami root'a.
+Więcej informacji: <a href="https://nmap.org/book/man.html">https://nmap.org/book/man.html</a>.</p>
+
+<ul>
+  <li>Sprawdź czy host odpowiada na skanowanie oraz zgadnij system operacyjny:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_nazwa_hosta</span></p>
+
+<ul>
+  <li>Sprawdź czy podane hosty odpowiadają na skanowanie i zgadnij ich nazwy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nmap -sn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_nazwa_hosta</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opcjonalny_kolejny_adres_ip</span></p>
+
+<ul>
+  <li>Poza tym, uruchom domyśle skrypty, wykrywanie działających serwisów, OS fingerprinting oraz komendę traceroute:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span></p>
+
+<ul>
+  <li>Skanuj podaną listę portów (użyj '-p-' dla wszystkich portów od 1 do 65535):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2,…,portN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span></p>
+
+<ul>
+  <li>Przeprowadź wykrywanie serwisów i ich wersji dla 1000 najczęstrzych portów używając domyślich skryptów NSE; Zapisz rezultat ('-oN') do pliku wyjściowego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -sC -sV -oN </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">top-1000-ports.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span></p>
+
+<ul>
+  <li>Skanuj cel lub cele używając skryptów NSE 'default and safe':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap --script "default and safe" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span></p>
+
+<ul>
+  <li>Skanuj serwer webowy uruchomiony na standardowych portach 80 i 443 używając wszystkich dostępnych skryptów NSE 'http-*':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap --script "http-*" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span><code class="language-plaintext highlighter-rouge"> -p 80,443</code></p>
+
+<ul>
+  <li>Wykonaj skryty i bardzo wolny skan ('-T0') próbując uniknąć wykrycia przez IDS/IPS i użyj adresu IP wabika ('-D'):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -T0 -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_ip_wabika1,adres_ip_wabika2,…,adres_ip_wabikaN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span></p>

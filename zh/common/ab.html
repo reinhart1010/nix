@@ -1,0 +1,40 @@
+<h1 id="ab">ab</h1>
+
+<p>Apache 基准测试工具。
+更多信息：<a href="https://httpd.apache.org/docs/current/programs/ab.html">https://httpd.apache.org/docs/current/programs/ab.html</a>.</p>
+
+<ul>
+  <li>向目标 URL 执行 100 次 HTTP GET 请求：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>使用 10 个并发请求，同时向目标 URL 执行 100 次 HTTP GET 请求：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 -c 10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>使用来自文件的 JSON 负载对 URL 执行 100 个 HTTP POST 请求：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>使用 HTTP [K]eep Alive，即在一个 HTTP 会话中执行多个请求：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>为基准测试设置最大的测试时间（单位：秒）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>将结果写入到一个 CSV 文件中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.csv</span></p>

@@ -1,0 +1,40 @@
+<h1 id="gobuster">gobuster</h1>
+
+<p>Findet versteckte Pfade auf Webservern und mehr.
+Weitere Informationen: <a href="https://github.com/OJ/gobuster">https://github.com/OJ/gobuster</a>.</p>
+
+<ul>
+  <li>Finde Verzeichnisse und Dateien, die den Wörtern der Wortliste entsprechen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gobuster dir --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com/</span><code class="language-plaintext highlighter-rouge"> --wordlist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Finde Subdomains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gobuster dns --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">beispiel.com</span><code class="language-plaintext highlighter-rouge"> --wordlist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Finde Amazon S3-Buckets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gobuster s3 --wordlist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Finde andere virtuelle Hosts eines Servers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gobuster vhost --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com/</span><code class="language-plaintext highlighter-rouge"> --wordlist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Fuzze den Wert eines URL-Parameters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gobuster fuzz --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com/?parameter=FUZZ</span><code class="language-plaintext highlighter-rouge"> --wordlist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Fuzze den Namen eines URL-Parameters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gobuster fuzz --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com/?FUZZ=wert</span><code class="language-plaintext highlighter-rouge"> --wordlist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>

@@ -1,0 +1,40 @@
+<h1 id="clang">clang</h1>
+
+<p>Compiler voor C, C++, en Objective-C bronbestanden. Kan gebruikt worden als een vervanger van GCC.
+Meer informatie: <a href="https://clang.llvm.org/docs/ClangCommandLineReference.html">https://clang.llvm.org/docs/ClangCommandLineReference.html</a>.</p>
+
+<ul>
+  <li>Compileer een broncodebestand naar een uitvoerbaar binair bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">invoer_bron.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uitvoerbaar_bestand</span></p>
+
+<ul>
+  <li>Toon alle fouten en waarschuwingen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">invoer_bron.c</span><code class="language-plaintext highlighter-rouge"> -Wall -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uitvoerbaar_bestand</span></p>
+
+<ul>
+  <li>Voeg bibliotheken toe die zich op een ander pad bevinden dan het bronbestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">invoer_bron.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uitvoerbaarbestand</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">header_pad</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bibliotheek_ad</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bibliotheek_naam</span></p>
+
+<ul>
+  <li>Compileer broncode naar LLVM Intermediate Representation (IR):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang -S -emit-llvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.ll</span></p>
+
+<ul>
+  <li>Compileer broncode zonder deze te linken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">invoer_bron.c</span></p>
+
+<ul>
+  <li>Optimaliseer het gecompileerde programma voor prestaties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span><code class="language-plaintext highlighter-rouge"> -O</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span></p>

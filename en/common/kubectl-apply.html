@@ -1,0 +1,29 @@
+<h1 id="kubectl-apply">kubectl apply</h1>
+
+<p>Manage applications through files defining Kubernetes resources.
+Create and update resources in a cluster.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#apply">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#apply</a>.</p>
+
+<ul>
+  <li>Apply a configuration to a resource by file name or <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl apply -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_filename</span></p>
+
+<ul>
+  <li>Edit the latest last-applied-configuration annotations of resources from the default editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl apply edit-last-applied -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_filename</span></p>
+
+<ul>
+  <li>Set the latest last-applied-configuration annotations by setting it to match the contents of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl apply set-last-applied -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_filename</span></p>
+
+<ul>
+  <li>View the latest last-applied-configuration annotations by type/name or file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl apply view-last-applied -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_filename</span></p>
