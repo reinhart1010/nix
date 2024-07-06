@@ -2,11 +2,14 @@
 layout: page
 title: common/id (English)
 description: "Display current user and group identity."
-content_hash: 74176aa9f0356087caa7803c03da4d86cba22e48
-last_modified_at: 2023-11-12
+content_hash: 435d422d8c16ed4b7b84c4115d70a821e5479123
+last_modified_at: 2024-07-06
 related_topics:
   - title: Deutsch version
     url: /de/common/id.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/id.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/id.html
@@ -22,11 +25,19 @@ More information: <https://www.gnu.org/software/coreutils/id>.
 
 `id`
 
+- Display the current user identity:
+
+`id -un`
+
 - Display the current user identity as a number:
 
 `id -u`
 
-- Display the current group identity as a number:
+- Display the current primary group identity:
+
+`id -gn`
+
+- Display the current primary group identity as a number:
 
 `id -g`
 
