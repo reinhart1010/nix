@@ -3,7 +3,7 @@ layout: page
 title: common/id (Nederlands)
 description: "Toon de huidige gebruikers- en groepsidentiteit."
 content_hash: da7da50f1d40ccca0bee4810d0f8e52c92dfb18e
-last_modified_at: 2024-06-19
+last_modified_at: 2024-07-07
 related_topics:
   - title: Deutsch version
     url: /de/common/id.html
@@ -14,9 +14,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/id.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# id
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># id
 
 Toon de huidige gebruikers- en groepsidentiteit.
 Meer informatie: <https://www.gnu.org/software/coreutils/id>.
