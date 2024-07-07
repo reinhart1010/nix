@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/poweroff (español)
-description: "Apaga la máquina."
-content_hash: 51478e15b4b9a7d7a2924a81446485b9becf3105
-last_modified_at: 2024-06-19
+description: "Apaga el sistema."
+content_hash: 3a2b6d02d5f1d67c37a7ec9a5ac394c9ef03e027
+last_modified_at: 2024-07-07
 related_topics:
   - title: català version
     url: /ca/linux/poweroff.html
@@ -30,9 +30,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># poweroff
 
-Apaga la máquina.
+Apaga el sistema.
 Más información: <https://www.manned.org/poweroff>.
 
-- Apaga la máquina:
+- Apaga el sistema:
 
-`sudo poweroff`
+`poweroff`
+
+- Detén el sistema (igual que `halt`):
+
+`poweroff --halt`
+
+- Reinicia el sistema (igual que `reboot`):
+
+`poweroff --reboot`
+
+- Apaga inmediatamente el sistema sin contactar al administrador:
+
+`poweroff --force --force`
+
+- Escribe una entrada en el archivo wtmp sin apagar el sistema:
+
+`poweroff --wtmp-only`
