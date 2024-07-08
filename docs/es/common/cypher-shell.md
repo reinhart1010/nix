@@ -3,23 +3,14 @@ layout: page
 title: common/cypher-shell (español)
 description: "Abre una sesión interactiva y ejecuta consultas Cypher contra una instancia Neo4j."
 content_hash: f6889dde40002f721db2b3beacf572fce2334683
-last_modified_at: 2024-07-07
+last_modified_at: 2024-07-08
 related_topics:
   - title: English version
     url: /en/common/cypher-shell.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cypher-shell.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cypher-shell
+# cypher-shell
 
 Abre una sesión interactiva y ejecuta consultas Cypher contra una instancia Neo4j.
 Vea también: `neo4j-admin`, `mysql`.

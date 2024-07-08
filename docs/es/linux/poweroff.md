@@ -3,7 +3,7 @@ layout: page
 title: linux/poweroff (español)
 description: "Apaga el sistema."
 content_hash: 3a2b6d02d5f1d67c37a7ec9a5ac394c9ef03e027
-last_modified_at: 2024-07-07
+last_modified_at: 2024-07-08
 related_topics:
   - title: català version
     url: /ca/linux/poweroff.html
@@ -23,12 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/poweroff.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># poweroff
+# poweroff
 
 Apaga el sistema.
 Más información: <https://www.manned.org/poweroff>.
