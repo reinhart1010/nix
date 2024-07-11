@@ -3,14 +3,17 @@ layout: page
 title: common/bats (español)
 description: "Bash Automated Testing System: un marco de pruebas compatible con TAP (<https://testanything.org/>) para Bash."
 content_hash: 4dbf5716476e9699d1b739556c9999f96dbb1639
-last_modified_at: 2024-03-01
+last_modified_at: 2024-07-11
 related_topics:
   - title: English version
     url: /en/common/bats.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bats
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bats
 
 Bash Automated Testing System: un marco de pruebas compatible con TAP (<https://testanything.org/>) para Bash.
 Más información: <https://bats-core.readthedocs.io/en/stable/usage.html>.
