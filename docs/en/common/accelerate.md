@@ -2,8 +2,8 @@
 layout: page
 title: common/accelerate (English)
 description: "A library that enables the same PyTorch code to be run across any distributed configuration."
-content_hash: 7948ab5b7273d3e29531a32dac635819ca95bb8a
-last_modified_at: 2023-12-31
+content_hash: 86d1e1be4f4eac737a4f0769d8166dd810ddbe06
+last_modified_at: 2024-07-11
 related_topics:
   - title: Indonesia version
     url: /id/common/accelerate.html
@@ -14,9 +14,12 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/accelerate.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/accelerate.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
-# Accelerate
+# accelerate
 
 A library that enables the same PyTorch code to be run across any distributed configuration.
 More information: <https://huggingface.co/docs/accelerate/index>.
