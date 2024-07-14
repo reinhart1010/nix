@@ -3,7 +3,7 @@ layout: page
 title: common/jq (Deutsch)
 description: "Ein JSON-Verarbeiter für die Kommandozeile mit einer domänenspezifischen Sprache."
 content_hash: e8ad17dca5e9478126e9606ebcb94fe7a0c3cde9
-last_modified_at: 2024-05-06
+last_modified_at: 2024-07-14
 related_topics:
   - title: English version
     url: /en/common/jq.html
@@ -14,9 +14,12 @@ related_topics:
   - title: русский version
     url: /ru/common/jq.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# jq
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># jq
 
 Ein JSON-Verarbeiter für die Kommandozeile mit einer domänenspezifischen Sprache.
 Weitere Informationen: <https://jqlang.github.io/jq/manual/>.

@@ -3,23 +3,14 @@ layout: page
 title: common/virt-qemu-run (español)
 description: "Herramienta experimental para ejecutar una Guest VM QEMU independiente de `libvirtd`."
 content_hash: a0ea4c74e1fdf14fefa682da85242c1a698356bb
-last_modified_at: 2024-07-13
+last_modified_at: 2024-07-14
 related_topics:
   - title: English version
     url: /en/common/virt-qemu-run.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/virt-qemu-run.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># virt-qemu-run
+# virt-qemu-run
 
 Herramienta experimental para ejecutar una Guest VM QEMU independiente de `libvirtd`.
 Más información: <https://libvirt.org/manpages/virt-qemu-run.html>.

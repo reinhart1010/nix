@@ -3,7 +3,7 @@ layout: page
 title: common/frpc (español)
 description: "Conéctate a un servidor `frps` para iniciar conexiones proxy en el host actual."
 content_hash: 0cb666c5831b04736ed98674a5252bee21400e39
-last_modified_at: 2024-07-13
+last_modified_at: 2024-07-14
 related_topics:
   - title: English version
     url: /en/common/frpc.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/frpc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/frpc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># frpc
+# frpc
 
 Conéctate a un servidor `frps` para iniciar conexiones proxy en el host actual.
 Parte de `frp`.

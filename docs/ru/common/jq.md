@@ -3,7 +3,7 @@ layout: page
 title: common/jq (русский)
 description: "Процессор JSON командной строки, использующий доменный язык."
 content_hash: 65d51527be3b47d60a168e9d4a610e4f42d3b927
-last_modified_at: 2024-05-06
+last_modified_at: 2024-07-14
 related_topics:
   - title: Deutsch version
     url: /de/common/jq.html
@@ -14,9 +14,12 @@ related_topics:
   - title: français version
     url: /fr/common/jq.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# jq
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># jq
 
 Процессор JSON командной строки, использующий доменный язык.
 Больше информации: <https://jqlang.github.io/jq/manual/>.

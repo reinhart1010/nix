@@ -2,8 +2,8 @@
 layout: page
 title: common/jq (English)
 description: "A JSON processor that uses a domain-specific language (DSL)."
-content_hash: 2ad32154a799875a19103753cf8883c39d45a590
-last_modified_at: 2024-04-26
+content_hash: 7435bc40e6ddfe634b1b539751e3b98c1b960870
+last_modified_at: 2024-07-14
 related_topics:
   - title: Deutsch version
     url: /de/common/jq.html
@@ -24,6 +24,10 @@ More information: <https://jqlang.github.io/jq/manual/>.
 - Execute a specific expression (print a colored and formatted JSON output):
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span>` | jq '.'`
+
+- Execute a specific expression only using the `jq` binary (print a colored and formatted JSON output):
+
+`jq '.' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file.json</span>
 
 - Execute a specific script:
 
