@@ -2,8 +2,8 @@
 layout: page
 title: common/nload (English)
 description: "Visualize network usage in the terminal."
-content_hash: 1917f6a275e33de6037d29bf5b2fe9a4156a5646
-last_modified_at: 2024-02-15
+content_hash: 1221c7062c5a9bdae2b633c294a6b29b2ae90860
+last_modified_at: 2024-07-14
 tldri18n_status: 2
 ---
 # nload
@@ -17,4 +17,4 @@ More information: <https://github.com/rolandriegel/nload>.
 
 - View network traffic on specific interfaces (use the arrow keys to switch interfaces):
 
-`nload device `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface_one</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface_two</span>
+`nload devices `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface_one</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface_two</span>
