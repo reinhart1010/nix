@@ -2,8 +2,8 @@
 layout: page
 title: linux/nautilus (English)
 description: "Default file explorer for GNOME desktop environment."
-content_hash: 70632361d8caf5ffbabe20754630ba21367f7dbd
-last_modified_at: 2024-04-04
+content_hash: ba82a3fea6e2d7deb0bb94adc0d2eea953412030
+last_modified_at: 2024-07-15
 related_topics:
   - title: català version
     url: /ca/linux/nautilus.html
@@ -26,7 +26,7 @@ More information: <https://manned.org/nautilus>.
 
 - Launch Nautilus as root user:
 
-`sudo nautilus`
+`nautilus admin:/`
 
 - Launch Nautilus and display a specific directory:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/nautilus (español)
 description: "Explorador de archivos por defecto para el entorno de escritorio GNOME."
-content_hash: bfdc5c485609bc2eeb8a2e7fac91173a12c4a23a
-last_modified_at: 2023-11-12
+content_hash: c7a72a6be9d88532fe1e4e7ffdbd0187a6974154
+last_modified_at: 2024-07-15
 related_topics:
   - title: català version
     url: /ca/linux/nautilus.html
@@ -25,7 +25,7 @@ Más información: <https://manned.org/nautilus>.
 
 - Inicia Nautilus como usuario root:
 
-`sudo nautilus`
+`nautilus admin:/`
 
 - Inicia Nautilus y muestra un directorio específico:
 

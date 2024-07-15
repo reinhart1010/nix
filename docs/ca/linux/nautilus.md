@@ -2,8 +2,8 @@
 layout: page
 title: linux/nautilus (català)
 description: "Explorador de fitxers per defecte en l'escriptori GNOME."
-content_hash: 89dc41a78b75ed08552c075b4ed35319d45f5d63
-last_modified_at: 2023-11-12
+content_hash: d6eadf64f97d309f6f6ea123d89ab6cb28e4096e
+last_modified_at: 2024-07-15
 related_topics:
   - title: English version
     url: /en/linux/nautilus.html
@@ -25,7 +25,7 @@ Més informació: <https://manned.org/nautilus>.
 
 - Obre Nautilus com a root:
 
-`sudo nautilus`
+`nautilus admin:/`
 
 - Obre Nautilus en un directori específic:
 
