@@ -3,19 +3,10 @@ layout: page
 title: linux/run0 (English)
 description: "Elevate privileges interactively."
 content_hash: b3264f2cfde86b1fa935568ab77e2b6d41f584af
-last_modified_at: 2024-07-15
-tldri18n_status: 0
+last_modified_at: 2024-07-16
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/run0.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># run0
+# run0
 
 Elevate privileges interactively.
 Similar to `sudo`, but it's not a SUID binary, authentication takes place via polkit, and commands are invoked from a `systemd` service.
