@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (English)
 description: "Display simple help pages for command-line tools from the tldr-pages project."
-content_hash: 9bd5cf3c5b20f706072f49f645d697a3b16ea493
-last_modified_at: 2024-05-27
+content_hash: e9523e259073dc06109e4855821e78561cdb3182
+last_modified_at: 2024-07-19
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -84,3 +84,7 @@ More information: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICA
 - [l]ist all pages for the current platform and `common`:
 
 `tldr --list`
+
+- [l]ist all available subcommand pages for a command:
+
+`tldr --list | grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | column`

@@ -2,14 +2,17 @@
 layout: page
 title: common/cargo-clippy (English)
 description: "A collection of lints to catch common mistakes and improve your Rust code."
-content_hash: c26e91822ab6a678d86168b0f1f1fc25b8f647d1
-last_modified_at: 2023-11-12
+content_hash: 03cadf01253ae71f7457ec72f47f0601a118c030
+last_modified_at: 2024-07-19
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cargo-clippy.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cargo-clippy.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/cargo-clippy.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -33,6 +36,10 @@ More information: <https://github.com/rust-lang/rust-clippy>.
 - Run checks for a package:
 
 `cargo clippy --package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+
+- Run checks for a lint group (see <https://rust-lang.github.io/rust-clippy/stable/index.html#?groups=cargo,complexity,correctness,deprecated,nursery,pedantic,perf,restriction,style,suspicious>):
+
+`cargo clippy -- --warn clippy::`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lint_group</span>
 
 - Treat warnings as errors:
 
