@@ -2,8 +2,8 @@
 layout: page
 title: common/accelerate (Indonesia)
 description: "Sebuah pustaka/library yang memungkinkan kode PyTorch yang sama dapat dijalankan secara menyebar."
-content_hash: 4c2e710b9ed2d7065f18ed9cb60866f3958afc03
-last_modified_at: 2023-12-31
+content_hash: 5a89a61f6ce49a09b63327de1ddcdbbc9c79a852
+last_modified_at: 2024-07-20
 related_topics:
   - title: English version
     url: /en/common/accelerate.html
@@ -14,9 +14,12 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/accelerate.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/accelerate.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
-# Accelerate
+# accelerate
 
 Sebuah pustaka/library yang memungkinkan kode PyTorch yang sama dapat dijalankan secara menyebar.
 Informasi lebih lanjut: <https://huggingface.co/docs/accelerate/index>.

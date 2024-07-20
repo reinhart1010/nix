@@ -2,8 +2,8 @@
 layout: page
 title: common/accelerate (한국어)
 description: "Accelerate는 동일한 PyTorch 코드를 모든 분산 환경 구성에서 실행할 수 있게 해주는 라이브러리입니다."
-content_hash: 684b35c510d316f7a8c7e36878ae3224efd8439b
-last_modified_at: 2023-12-31
+content_hash: c172a0722fbd216df03641e3032f0e5e89962eb8
+last_modified_at: 2024-07-20
 related_topics:
   - title: English version
     url: /en/common/accelerate.html
@@ -14,9 +14,12 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/accelerate.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/accelerate.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
-# Accelerate
+# accelerate
 
 Accelerate는 동일한 PyTorch 코드를 모든 분산 환경 구성에서 실행할 수 있게 해주는 라이브러리입니다.
 더 많은 정보: <https://huggingface.co/docs/accelerate/index>.

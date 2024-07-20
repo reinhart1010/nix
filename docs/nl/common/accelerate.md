@@ -2,8 +2,8 @@
 layout: page
 title: common/accelerate (Nederlands)
 description: "Accelerate is een bibliotheek waarmee dezelfde PyTorch-code kan worden uitgevoerd op elke gedistribueerde configuratie."
-content_hash: 8230d66a6ad42f2c1e47aaf5baee7f2ac38b1359
-last_modified_at: 2024-06-19
+content_hash: fd8db32eeda164ab1ca2037be39f179aff5cb686
+last_modified_at: 2024-07-20
 related_topics:
   - title: English version
     url: /en/common/accelerate.html
@@ -14,9 +14,12 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/accelerate.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/accelerate.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
-# Accelerate
+# accelerate
 
 Accelerate is een bibliotheek waarmee dezelfde PyTorch-code kan worden uitgevoerd op elke gedistribueerde configuratie.
 Meer informatie: <https://huggingface.co/docs/accelerate/index>.
