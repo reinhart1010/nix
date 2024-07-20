@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-clippy (中文)
 description: "一系列 lint 工具，用于捕获常见错误并改进 Rust 代码。"
 content_hash: 8ac4471b54c90e23348369e7bb1ed47e56797233
-last_modified_at: 2024-03-15
+last_modified_at: 2024-07-20
 related_topics:
   - title: English version
     url: /en/common/cargo-clippy.html
@@ -14,9 +14,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo-clippy.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cargo clippy
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cargo clippy
 
 一系列 lint 工具，用于捕获常见错误并改进 Rust 代码。
 更多信息：<https://github.com/rust-lang/rust-clippy>.

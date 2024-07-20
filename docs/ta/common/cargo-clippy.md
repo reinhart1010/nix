@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-clippy (தமிழ்)
 description: "பொதுவான தவறுகளைப் பிடிக்கவும் உங்கள் ரஸ்ட் குறியீட்டை மேம்படுத்தவும் லிண்ட்களின் தொகுப்பு."
 content_hash: 73b0bde9fe6e081126cf31ce71b441a4595721dc
-last_modified_at: 2023-11-12
+last_modified_at: 2024-07-20
 related_topics:
   - title: English version
     url: /en/common/cargo-clippy.html
@@ -11,9 +11,15 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cargo-clippy.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 中文 version
+    url: /zh/common/cargo-clippy.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cargo clippy
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cargo clippy
 
 பொதுவான தவறுகளைப் பிடிக்கவும் உங்கள் ரஸ்ட் குறியீட்டை மேம்படுத்தவும் லிண்ட்களின் தொகுப்பு.
 மேலும் விவரத்திற்கு: <https://github.com/rust-lang/rust-clippy>.

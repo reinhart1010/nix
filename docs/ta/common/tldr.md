@@ -3,7 +3,7 @@ layout: page
 title: common/tldr (தமிழ்)
 description: "tldr-pages திட்டத்தில் இருந்து கட்டளை வரி கருவிகளுக்கான எளிய உதவிப் பக்கங்களைக் காண்பிக்கவும்."
 content_hash: 2ace7efa2983695f5badc7c3c109dded43557ea9
-last_modified_at: 2023-11-26
+last_modified_at: 2024-07-20
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -53,9 +53,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tldr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# tldr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># tldr
 
 tldr-pages திட்டத்தில் இருந்து கட்டளை வரி கருவிகளுக்கான எளிய உதவிப் பக்கங்களைக் காண்பிக்கவும்.
 குறிப்பு: வாடிக்கையாளர் விவரக்குறிப்பிற்கு `--language` மற்றும் `--list` விருப்பங்கள் தேவையில்லை, ஆனால் பெரும்பாலான வாடிக்கையாளர்கள் அவற்றைச் செயல்படுத்துகிறார்கள்.
