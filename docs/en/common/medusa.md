@@ -2,14 +2,22 @@
 layout: page
 title: common/medusa (English)
 description: "A modular and parallel login brute-forcer for a variety of protocols."
-content_hash: a6ccf89ed53d6f55257f9ca85e408f9668be95c9
-last_modified_at: 2024-04-22
+content_hash: 4871c76ddce7d5a7ac3cfe2aa072a5fc9f04729f
+last_modified_at: 2024-07-21
 tldri18n_status: 2
 ---
-# Medusa
+# medusa
 
 A modular and parallel login brute-forcer for a variety of protocols.
 More information: <https://jmk-foofus.github.io/medusa/medusa.html>.
+
+- List all installed modules:
+
+`medusa -d`
+
+- Show usage example of a specific module (use `medusa -d` for listing all installed modules):
+
+`medusa -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh|http|web-form|postgres|ftp|mysql|...</span>` -q`
 
 - Execute brute force against an FTP server using a file containing usernames and a file containing passwords:
 

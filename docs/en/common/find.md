@@ -2,11 +2,17 @@
 layout: page
 title: common/find (English)
 description: "Find files or directories under a directory tree, recursively."
-content_hash: 25346805b42425dedc9615b3a4cca52d0bea3d93
-last_modified_at: 2024-02-15
+content_hash: 38f53264c1f5e4a069b862fd0d2f0a09a7f21fa0
+last_modified_at: 2024-07-21
 related_topics:
   - title: français version
     url: /fr/common/find.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/find.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/find.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/find.html
@@ -46,6 +52,6 @@ More information: <https://manned.org/find>.
 
 `find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -daystart -mtime `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1</span>` -exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar -cvf archive.tar</span>` {} \+`
 
-- Find empty (0 byte) files and delete them:
+- Find empty files (0 byte) or directories and delete them verbosely:
 
-`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f</span>` -empty -delete`
+`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f|d</span>` -empty -delete -print`
