@@ -2,8 +2,8 @@
 layout: page
 title: common/fdupes (English)
 description: "Finds duplicate files in a set of directories."
-content_hash: 31c44f7fa25ad6030048860a42dc5a6fe27a1e39
-last_modified_at: 2024-02-15
+content_hash: 9af0b72e11d0e49e94b0128240175ee5d6c53c40
+last_modified_at: 2024-07-21
 related_topics:
   - title: français version
     url: /fr/common/fdupes.html
@@ -31,7 +31,7 @@ More information: <https://github.com/adrianlopezroche/fdupes>.
 
 `fdupes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory1</span>` -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory2</span>
 
-- Search recursively and replace duplicates with hardlinks:
+- Search recursively, considering hardlinks as duplicates:
 
 `fdupes -rH `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
