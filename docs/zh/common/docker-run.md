@@ -3,7 +3,7 @@ layout: page
 title: common/docker-run (中文)
 description: "创建一个新的容器并运行命令。"
 content_hash: ce4e3594435a8a01f1e31e70a28169a9cbbaecfd
-last_modified_at: 2024-07-22
+last_modified_at: 2024-07-23
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-run.html
@@ -23,18 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-run.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-run.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker run
+# docker run
 
 创建一个新的容器并运行命令。
 更多信息：<https://docs.docker.com/engine/reference/commandline/run/>.

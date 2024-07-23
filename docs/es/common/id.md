@@ -3,7 +3,7 @@ layout: page
 title: common/id (español)
 description: "Muestra la identidad actual del usuario y del grupo."
 content_hash: 523c38274e0c39147de91d9540625ab501c5a73b
-last_modified_at: 2024-07-22
+last_modified_at: 2024-07-23
 related_topics:
   - title: Deutsch version
     url: /de/common/id.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/id.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/id.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># id
+# id
 
 Muestra la identidad actual del usuario y del grupo.
 Más información: <https://www.gnu.org/software/coreutils/id>.
