@@ -2,8 +2,8 @@
 layout: page
 title: common/htop (English)
 description: "Display dynamic real-time information about running processes. An enhanced version of `top`."
-content_hash: 5d2c83cae44e569599ed9541066c1d6b12334675
-last_modified_at: 2023-11-12
+content_hash: 41b4700e6b35c316adff4887c4371ab6583e398f
+last_modified_at: 2024-07-25
 related_topics:
   - title: español version
     url: /es/common/htop.html
@@ -23,6 +23,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/htop.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/htop.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # htop
@@ -37,6 +40,10 @@ More information: <https://htop.dev/>.
 - Start `htop` displaying processes owned by a specific user:
 
 `htop --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
+
+- Display processes hierarchically in a tree view to show the parent-child relationships:
+
+`htop --tree`
 
 - Sort processes by a specified `sort_item` (use `htop --sort help` for available options):
 
