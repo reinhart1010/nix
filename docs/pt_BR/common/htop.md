@@ -3,7 +3,7 @@ layout: page
 title: common/htop (português (Brasil))
 description: "Exibe informação dinâmica em tempo real acerca de processos em execução. Uma versão melhorada do comando `top`."
 content_hash: 18042afe0af3b44224cbad4b16c7c5c72022ec31
-last_modified_at: 2023-12-28
+last_modified_at: 2024-07-26
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -23,9 +23,15 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/htop.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 中文 version
+    url: /zh/common/htop.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# htop
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># htop
 
 Exibe informação dinâmica em tempo real acerca de processos em execução. Uma versão melhorada do comando `top`.
 Mais informações: <https://htop.dev/>.

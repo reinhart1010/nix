@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/bitcoin-cli (English)
-description: "Command-line client to interact with the Bitcoin daemon via RPC calls."
-content_hash: 9871b45402f71d548631a23db7f15ed53ba34d9b
-last_modified_at: 2023-11-12
+description: "Command-line client to interact with the Bitcoin Core daemon via RPC calls."
+content_hash: e732554a9574b021f4b80e201348d9441d9bbbf4
+last_modified_at: 2024-07-26
 related_topics:
   - title: italiano version
     url: /it/common/bitcoin-cli.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # bitcoin-cli
 
-Command-line client to interact with the Bitcoin daemon via RPC calls.
+Command-line client to interact with the Bitcoin Core daemon via RPC calls.
 Uses the configuration defined in `bitcoin.conf`.
 More information: <https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments>.
 
@@ -41,3 +41,15 @@ More information: <https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_argum
 - Export the wallet information to a text file:
 
 `bitcoin-cli dumpwallet "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`"`
+
+- Get blockchain information:
+
+`bitcoin-cli getblockchaininfo`
+
+- Get network information:
+
+`bitcoin-cli getnetworkinfo`
+
+- Stop the Bitcoin Core daemon:
+
+`bitcoin-cli stop`

@@ -3,7 +3,7 @@ layout: page
 title: common/bitcoin-cli (italiano)
 description: "Client da linea di comando per interagire con il demone Bitcoin tramite chiamate RPC."
 content_hash: d5271b0f56bed41cbad4742f52617b010168d3c7
-last_modified_at: 2023-11-12
+last_modified_at: 2024-07-26
 related_topics:
   - title: English version
     url: /en/common/bitcoin-cli.html
@@ -14,9 +14,12 @@ related_topics:
   - title: polski version
     url: /pl/common/bitcoin-cli.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bitcoin-cli
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bitcoin-cli
 
 Client da linea di comando per interagire con il demone Bitcoin tramite chiamate RPC.
 Utilizza la configurazione definita in `bitcoin.conf`.

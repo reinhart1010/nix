@@ -3,7 +3,7 @@ layout: page
 title: common/htop (中文)
 description: "显示正在运行的进程的动态实时信息。`top` 的增强版。"
 content_hash: e22ac4dc030b7e50646789a43ab9bcf4345013e9
-last_modified_at: 2024-06-16
+last_modified_at: 2024-07-26
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -26,9 +26,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/htop.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# htop
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># htop
 
 显示正在运行的进程的动态实时信息。`top` 的增强版。
 更多信息：<https://htop.dev/>.

@@ -3,7 +3,7 @@ layout: page
 title: common/htop (한국어)
 description: "실행 중인 프로세스에 대한 동적 실시간 정보를 표시합니다. `top`의 향상된 버전입니다."
 content_hash: b0be2219e51f104441cd91b86e51c81f56f0b5d6
-last_modified_at: 2023-11-12
+last_modified_at: 2024-07-26
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -23,9 +23,15 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/htop.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 中文 version
+    url: /zh/common/htop.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# htop
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># htop
 
 실행 중인 프로세스에 대한 동적 실시간 정보를 표시합니다. `top`의 향상된 버전입니다.
 더 많은 정보: <https://htop.dev/>.

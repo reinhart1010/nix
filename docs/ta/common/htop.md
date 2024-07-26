@@ -3,7 +3,7 @@ layout: page
 title: common/htop (தமிழ்)
 description: "இயங்கும் செயல்முறைகளைப் பற்றிய டைனமிக் நிகழ்நேர தகவலைக் காண்பி. `top` இன் மேம்படுத்தப்பட்ட பதிப்பு."
 content_hash: 037dbb1934bb1204815363449579466bb7b619ac
-last_modified_at: 2023-11-26
+last_modified_at: 2024-07-26
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -23,9 +23,15 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/htop.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 中文 version
+    url: /zh/common/htop.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# htop
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># htop
 
 இயங்கும் செயல்முறைகளைப் பற்றிய டைனமிக் நிகழ்நேர தகவலைக் காண்பி. `top` இன் மேம்படுத்தப்பட்ட பதிப்பு.
 மேலும் விவரத்திற்கு: <https://htop.dev/>.
