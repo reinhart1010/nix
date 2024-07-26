@@ -2,8 +2,8 @@
 layout: page
 title: linux/filefrag (English)
 description: "Report how badly fragmented a particular file might be."
-content_hash: 0e14d2518eba6f73e72b3be9cf1ed8011ba38b2c
-last_modified_at: 2024-01-31
+content_hash: dbf3f1976f11266bc866a8d8ba3853894890a841
+last_modified_at: 2024-07-26
 tldri18n_status: 2
 ---
 # filefrag
@@ -17,7 +17,11 @@ More information: <https://manned.org/filefrag>.
 
 - Display a report using a 1024 byte blocksize:
 
-`filefrag -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`filefrag -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Display a report using a certain blocksize:
+
+`filefrag -b`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024|1K|1M|1G|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Sync the file before requesting the mapping:
 
