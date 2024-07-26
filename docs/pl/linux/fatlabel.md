@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/fatlabel (polski)
-description: "Ustawia lub pobiera informację o nazwie partycji FAT32."
-content_hash: d86041575d7b7ae0458b7f379df7a812fefc8407
-last_modified_at: 2023-11-12
+description: "Uzyskaj lub ustaw etykietę partycji FAT32."
+content_hash: 01d93dbdd965868446fefbf94605c5fa73e40983
+last_modified_at: 2024-07-26
 related_topics:
   - title: English version
     url: /en/linux/fatlabel.html
@@ -15,13 +15,13 @@ tldri18n_status: 2
 ---
 # fatlabel
 
-Ustawia lub pobiera informację o nazwie partycji FAT32.
+Uzyskaj lub ustaw etykietę partycji FAT32.
 Więcej informacji: <https://manned.org/fatlabel>.
 
-- Pobranie informacji o nazwie partycji FAT32:
+- Uzyskaj etykietę partycji FAT32:
 
 `fatlabel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span>
 
-- Ustawienie nazwy partycji FAT32:
+- Ustaw etykietę partycji FAT32:
 
 `fatlabel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdc3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nowa_etykieta</span>`"`

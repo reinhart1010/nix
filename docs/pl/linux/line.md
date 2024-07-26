@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/line (polski)
-description: "Wczytuje pojedynczą linię wejścia."
-content_hash: adcd91d8394b94a1740a2af1863f899b687aa6ea
-last_modified_at: 2023-11-12
+description: "Wczytaj pojedynczą linię wejścia."
+content_hash: 17e06e91648621a70595758b88997ea33f2fcd56
+last_modified_at: 2024-07-26
 related_topics:
   - title: català version
     url: /ca/linux/line.html
@@ -24,9 +24,9 @@ tldri18n_status: 2
 ---
 # line
 
-Wczytuje pojedynczą linię wejścia.
+Wczytaj pojedynczą linię wejścia.
 Więcej informacji: <https://manned.org/line.1>.
 
-- Wczytanie wejścia:
+- Wczytaj wejście:
 
 `line`
