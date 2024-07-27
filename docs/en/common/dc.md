@@ -2,8 +2,8 @@
 layout: page
 title: common/dc (English)
 description: "An arbitrary precision calculator. Uses reverse polish notation (RPN)."
-content_hash: f5d6d0e9ec638c938999293b2c513b2026a9e544
-last_modified_at: 2024-02-09
+content_hash: 9d0e045fa6e8d50e42d8e55c04ea541aba023416
+last_modified_at: 2024-07-27
 related_topics:
   - title: italiano version
     url: /it/common/dc.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # dc
 
 An arbitrary precision calculator. Uses reverse polish notation (RPN).
-See also: `bc`.
+See also: `bc`, `qalc`.
 More information: <https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html>.
 
 - Start an interactive session:

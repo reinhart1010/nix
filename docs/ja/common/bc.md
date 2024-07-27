@@ -3,7 +3,7 @@ layout: page
 title: common/bc (日本語)
 description: "任意の精度で計算を行える言語です。"
 content_hash: 762a224f46eb1c1bc76884b4b18dd62a616830d8
-last_modified_at: 2024-06-13
+last_modified_at: 2024-07-27
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -26,9 +26,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bc.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bc
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bc
 
 任意の精度で計算を行える言語です。
 `dc`も参照してください。

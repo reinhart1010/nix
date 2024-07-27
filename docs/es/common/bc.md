@@ -3,7 +3,7 @@ layout: page
 title: common/bc (español)
 description: "Un lenguaje de calculadora de precisión arbitraria."
 content_hash: 4ecbe51297163c303df1a8e6494c390d9c867fd6
-last_modified_at: 2024-06-13
+last_modified_at: 2024-07-27
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -26,9 +26,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bc.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bc
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bc
 
 Un lenguaje de calculadora de precisión arbitraria.
 Vea también: `dc`.

@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (English)
 description: "An arbitrary precision calculator language."
-content_hash: 778dbc3b3f1f8b384c984b72b65463896a5ca1fd
-last_modified_at: 2024-06-13
+content_hash: 5c5e33c720f2e1b0758b8ea754d548de4f3bf978
+last_modified_at: 2024-07-27
 related_topics:
   - title: español version
     url: /es/common/bc.html
@@ -31,16 +31,16 @@ tldri18n_status: 2
 # bc
 
 An arbitrary precision calculator language.
-See also: `dc`.
+See also: `dc`, `qalc`.
 More information: <https://manned.org/bc.1>.
 
 - Start an interactive session:
 
 `bc`
 
-- Start an interactive session with the standard math library enabled:
+- Start an [i]nteractive session with the standard math [l]ibrary enabled:
 
-`bc --mathlib`
+`bc --interactive --mathlib`
 
 - Calculate an expression:
 
@@ -57,3 +57,7 @@ More information: <https://manned.org/bc.1>.
 - Calculate a sine/cosine/arctangent/natural logarithm/exponential function using `mathlib`:
 
 `echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span>`(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>`)' | bc --mathlib`
+
+- Execute an inline factorial script:
+
+`echo "define factorial(n) { if (n <= 1) return 1; return n*factorial(n-1); }; factorial(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>`)" | bc`

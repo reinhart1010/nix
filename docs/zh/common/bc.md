@@ -3,7 +3,7 @@ layout: page
 title: common/bc (中文)
 description: "一个任意精度计算器语言。"
 content_hash: 84cbe21e6acad7db7e4c04521a15b0303a052b28
-last_modified_at: 2024-06-13
+last_modified_at: 2024-07-27
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -26,9 +26,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/bc.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bc
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bc
 
 一个任意精度计算器语言。
 另请参阅：`dc`.
