@@ -3,19 +3,10 @@ layout: page
 title: common/aws-kendra (English)
 description: "CLI for AWS Kendra."
 content_hash: fca95f0e0b8e9c31b6523ff9b166e085abf31130
-last_modified_at: 2024-07-29
-tldri18n_status: 0
+last_modified_at: 2024-07-30
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-kendra.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws kendra
+# aws kendra
 
 CLI for AWS Kendra.
 More information: <https://docs.aws.amazon.com/cli/latest/reference/kendra/index.html>.
