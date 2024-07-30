@@ -2,8 +2,8 @@
 layout: page
 title: linux/journalctl (English)
 description: "Query the systemd journal."
-content_hash: 9198753cb91e90987483ba9884a4695df9ea9b24
-last_modified_at: 2024-05-03
+content_hash: 8bea8db9817d448d4457d8bfd3e3372040540411
+last_modified_at: 2024-07-30
 related_topics:
   - title: polski version
     url: /pl/linux/journalctl.html
@@ -32,7 +32,7 @@ More information: <https://manned.org/journalctl>.
 
 - Show all messages by a specific [u]nit:
 
-`journalctl -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unit</span>
+`journalctl --unit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unit</span>
 
 - Show logs for a given unit since the last time it started:
 

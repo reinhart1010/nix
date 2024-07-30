@@ -2,13 +2,14 @@
 layout: page
 title: osx/netstat (English)
 description: "Display network-related information such as open connections, open socket ports, etc."
-content_hash: 1d4dfa153f4b116f9363fb3133b94a884c66a141
-last_modified_at: 2024-05-17
+content_hash: c13545b9b1cc9b54e6b51a31b8b9be2d0cd1741d
+last_modified_at: 2024-07-30
 tldri18n_status: 2
 ---
 # netstat
 
 Display network-related information such as open connections, open socket ports, etc.
+See also: `lsof` for listing network connections, including listening ports.
 More information: <https://keith.github.io/xcode-man-pages/netstat.1.html>.
 
 - Display the PID and program name listening on a specific protocol:
