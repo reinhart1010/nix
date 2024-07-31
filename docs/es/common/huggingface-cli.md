@@ -3,23 +3,14 @@ layout: page
 title: common/huggingface-cli (español)
 description: "Interactúa con Hugging Face Hub."
 content_hash: 05ef00b78a33926e6f24198cf3068ea3b1f19fbf
-last_modified_at: 2024-07-30
+last_modified_at: 2024-07-31
 related_topics:
   - title: English version
     url: /en/common/huggingface-cli.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/huggingface-cli.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># huggingface-cli
+# huggingface-cli
 
 Interactúa con Hugging Face Hub.
 Inicia sesión, gestiona la caché local, carga o descarga archivos.
