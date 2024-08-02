@@ -2,8 +2,12 @@
 layout: page
 title: common/xargs (English)
 description: "Execute a command with piped arguments coming from another command, a file, etc."
-content_hash: cfe731366607536e34f4f98a6bf78b00c0db4084
-last_modified_at: 2024-06-26
+content_hash: 4dd7c1286757049882ad3963aa1b5e8285d896d6
+last_modified_at: 2024-08-02
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/xargs.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # xargs
@@ -23,6 +27,10 @@ More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/xa
 - Delete all files with a `.backup` extension (`-print0` uses a null character to split file names, and `-0` uses it as delimiter):
 
 `find . -name '*.backup' -print0 | xargs -0 rm -v`
+
+- Execute the command once per argument:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_source</span>` | xargs -n1 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
