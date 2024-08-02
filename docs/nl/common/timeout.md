@@ -3,14 +3,17 @@ layout: page
 title: common/timeout (Nederlands)
 description: "Voer een commando uit met een tijdslimiet."
 content_hash: 7547480a64795586bec0d22429d578def4005c3e
-last_modified_at: 2024-06-29
+last_modified_at: 2024-08-02
 related_topics:
   - title: English version
     url: /en/common/timeout.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# timeout
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># timeout
 
 Voer een commando uit met een tijdslimiet.
 Meer informatie: <https://www.gnu.org/software/coreutils/timeout>.

@@ -3,19 +3,10 @@ layout: page
 title: common/octez-client (English)
 description: "Interact with the Tezos blockchain."
 content_hash: a3c1893b98ff0eab5eefebb0c0f0387c07aa7f65
-last_modified_at: 2024-08-01
-tldri18n_status: 0
+last_modified_at: 2024-08-02
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/octez-client.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># octez-client
+# octez-client
 
 Interact with the Tezos blockchain.
 More information: <https://tezos.gitlab.io/introduction/howtouse.html#client>.
