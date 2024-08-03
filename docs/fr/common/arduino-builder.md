@@ -2,11 +2,14 @@
 layout: page
 title: common/arduino-builder (français)
 description: "Un outil en ligne de commande pour compiler des croquis arduino."
-content_hash: fcf5aa6a61396dcbcf661ce8d37c28827e8df66a
-last_modified_at: 2023-11-12
+content_hash: 1cf7ebe037e3a84a5f2d07339012cd48d54c8573
+last_modified_at: 2024-08-03
 related_topics:
   - title: English version
     url: /en/common/arduino-builder.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/arduino-builder.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/arduino-builder.html
@@ -31,7 +34,7 @@ Plus d'informations : <https://github.com/arduino/arduino-builder>.
 
 `arduino-builder -build-path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier/de/construction</span>
 
-- Utilise un fichier d'option de construction, au lieu de spécifier `--hardware`, `--tools`, etc. Manuellement à chaque fois :
+- Utilise un fichier d'option de construction, au lieu de spécifier `-hardware`, `-tools`, etc. Manuellement à chaque fois :
 
 `arduino-builder -build-options-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/construction.options.json</span>
 

@@ -2,14 +2,17 @@
 layout: page
 title: common/arduino-builder (português (Brasil))
 description: "Uma ferramenta de linha de comando para compilar sketches do arduino."
-content_hash: c495eac6fd996f99bc4ad4dc1b965fc9b8473c2b
-last_modified_at: 2023-12-28
+content_hash: 8746e9fee19fde79708228c43c657bf7ba43116e
+last_modified_at: 2024-08-03
 related_topics:
   - title: English version
     url: /en/common/arduino-builder.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/arduino-builder.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/arduino-builder.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -31,7 +34,7 @@ Mais informações: <https://github.com/arduino/arduino-builder>.
 
 `arduino-builder -build-path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio</span>
 
-- Usa um arquivo com as opções de compilação, em vez de especificar `--hardware`, `--tools`, etc. manualmente toda hora:
+- Usa um arquivo com as opções de compilação, em vez de especificar `-hardware`, `-tools`, etc. manualmente toda hora:
 
 `arduino-builder -build-options-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/build.options.json</span>
 

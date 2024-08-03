@@ -2,11 +2,14 @@
 layout: page
 title: common/arduino-builder (English)
 description: "Compile arduino sketches."
-content_hash: 813c67cc331fc51c694d07821a3bc41173c9a0a5
-last_modified_at: 2024-02-15
+content_hash: d87dae56b7ef66d14e87faa31e3964818a44c2c1
+last_modified_at: 2024-08-03
 related_topics:
   - title: français version
     url: /fr/common/arduino-builder.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/arduino-builder.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/arduino-builder.html
@@ -31,7 +34,7 @@ More information: <https://github.com/arduino/arduino-builder>.
 
 `arduino-builder -build-path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_directory</span>
 
-- Use a build option file, instead of specifying `--hardware`, `--tools`, etc. manually every time:
+- Use a build option file, instead of specifying `-hardware`, `-tools`, etc. manually every time:
 
 `arduino-builder -build-options-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build.options.json</span>
 
