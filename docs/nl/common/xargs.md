@@ -3,14 +3,17 @@ layout: page
 title: common/xargs (Nederlands)
 description: "Voer een commando uit met doorgegeven argumenten van een ander commando, een bestand, etc."
 content_hash: 928003ffe231eb58d2ee515a4d705fa5627ce48e
-last_modified_at: 2024-06-27
+last_modified_at: 2024-08-03
 related_topics:
   - title: English version
     url: /en/common/xargs.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# xargs
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># xargs
 
 Voer een commando uit met doorgegeven argumenten van een ander commando, een bestand, etc.
 De invoer wordt behandeld als een enkel tekstblok en gesplitst in afzonderlijke stukken op spaties, tabbladen, nieuwe regels en einde-van-bestand.

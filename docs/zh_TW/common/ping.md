@@ -3,7 +3,7 @@ layout: page
 title: common/ping (中文 (繁體, 台灣))
 description: "向網路主機發送 ICMP ECHO_REQUEST 封包。"
 content_hash: 4bb0599e0d4d5deeeab2efdb875e93883d96620a
-last_modified_at: 2023-11-12
+last_modified_at: 2024-08-03
 related_topics:
   - title: Deutsch version
     url: /de/common/ping.html
@@ -17,9 +17,15 @@ related_topics:
   - title: Indonesia version
     url: /id/common/ping.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: Nederlands version
+    url: /nl/common/ping.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# ping
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ping
 
 向網路主機發送 ICMP ECHO_REQUEST 封包。
 更多資訊：<https://manned.org/ping>.

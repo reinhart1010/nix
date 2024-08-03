@@ -2,8 +2,8 @@
 layout: page
 title: common/ping (English)
 description: "Send ICMP ECHO_REQUEST packets to network hosts."
-content_hash: 5fb8ed399c505a0a2962b34560700243a4be5a68
-last_modified_at: 2023-11-12
+content_hash: 6d45d6c6fea7799f7706196f0c0e08071b9e6f74
+last_modified_at: 2024-08-03
 related_topics:
   - title: Deutsch version
     url: /de/common/ping.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/ping.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ping.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ping.html
@@ -47,3 +50,7 @@ More information: <https://manned.org/ping>.
 - Also display a message if no response was received:
 
 `ping -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
+
+- Ping a host with specific number of pings, timeout (`-W`) for each reply, and total time limit (`-w`) of the entire ping run:
+
+`ping -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>` -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span>` -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>

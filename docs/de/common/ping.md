@@ -3,7 +3,7 @@ layout: page
 title: common/ping (Deutsch)
 description: "Sendet ICMP ECHO_REQUEST Pakete an andere Geräte im Netzwerk."
 content_hash: d2a1a64ba6d703a4a6d5fb7ebe40a92380944e25
-last_modified_at: 2023-11-12
+last_modified_at: 2024-08-03
 related_topics:
   - title: English version
     url: /en/common/ping.html
@@ -14,12 +14,18 @@ related_topics:
   - title: Indonesia version
     url: /id/common/ping.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ping.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ping.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ping
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ping
 
 Sendet ICMP ECHO_REQUEST Pakete an andere Geräte im Netzwerk.
 Weitere Informationen: <https://manned.org/ping>.
