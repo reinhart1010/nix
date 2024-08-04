@@ -2,8 +2,8 @@
 layout: page
 title: common/read (English)
 description: "Shell builtin for retrieving data from `stdin`."
-content_hash: c69af816601dfeac20a55623c4fe6544a9dfcd20
-last_modified_at: 2023-11-12
+content_hash: 213c591852c75d2de0ac217e70bf5266b977a4e6
+last_modified_at: 2024-08-04
 tldri18n_status: 2
 ---
 # read
@@ -19,6 +19,6 @@ More information: <https://manned.org/read.1p>.
 
 `read -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>
 
-- Read `stdin` and perform an action on every line:
+- Read `stdin` or file and perform an action on every line:
 
-`while read line; do echo "$line"; done`
+`while read line; do `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo|ls|rm|...</span>` "$line"; done < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/stdin|path/to/file|...</span>

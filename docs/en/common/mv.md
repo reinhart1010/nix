@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (English)
 description: "Move or rename files and directories."
-content_hash: 82306a4773ddb9b60784778e19feea31ac5a3935
-last_modified_at: 2023-11-12
+content_hash: 06adb41e4f3f8945f42fde0b361c5b6d811e58be
+last_modified_at: 2024-08-04
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -20,6 +20,9 @@ related_topics:
   - title: italiano version
     url: /it/common/mv.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mv.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mv.html
     icon: bi bi-globe
@@ -28,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/mv.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/mv.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -63,3 +69,7 @@ More information: <https://www.gnu.org/software/coreutils/mv>.
 - Move files in verbose mode, showing files after they are moved:
 
 `mv -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target</span>
+
+- Specify target directory (convenient in situations when the target directory has to be the first argument):
+
+`ls | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parallel|xargs</span>` mv -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>

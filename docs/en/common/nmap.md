@@ -2,8 +2,8 @@
 layout: page
 title: common/nmap (English)
 description: "Network exploration tool and security/port scanner."
-content_hash: 49b97bdccf1f829fe5839544e0da278fb66dfc8f
-last_modified_at: 2024-03-03
+content_hash: 06cc334440626a92d05a60f39cc59cf2e06b7449
+last_modified_at: 2024-08-04
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -36,9 +36,9 @@ More information: <https://nmap.org/book/man.html>.
 
 `nmap -T5 -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.0/24|ip_or_hostname1,ip_or_hostname2,...</span>
 
-- Enable OS detection, version detection, script scanning, and traceroute:
+- Enable OS detection, version detection, script scanning, and traceroute of hosts from a file:
 
-`sudo nmap -A `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname1,ip_or_hostname2,...</span>
+`sudo nmap -A -iL `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span>
 
 - Scan a specific list of ports (use `-p-` for all ports from 1 to 65535):
 
