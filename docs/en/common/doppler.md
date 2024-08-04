@@ -2,7 +2,7 @@
 layout: page
 title: common/doppler (English)
 description: "Manage environment variables across different environments using Doppler."
-content_hash: d28f7c2125111221ecae0eef229e1ff567a43269
+content_hash: 21414f0fdb158369770f5f8f1043192345321103
 last_modified_at: 2024-08-04
 tldri18n_status: 2
 ---
@@ -32,6 +32,6 @@ More information: <https://docs.doppler.com/docs/cli>.
 
 `doppler secrets`
 
-- Open doppler dashboard in browser:
+- Open Doppler dashboard in browser:
 
 `doppler open`
