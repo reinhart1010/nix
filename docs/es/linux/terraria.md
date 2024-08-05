@@ -3,23 +3,14 @@ layout: page
 title: linux/terraria (español)
 description: "Crea e inicia un servidor Terraria sin interfaz gráfica."
 content_hash: 888a8547b3d284d5659cc7648e55c8ac149a4b6b
-last_modified_at: 2024-08-04
+last_modified_at: 2024-08-05
 related_topics:
   - title: English version
     url: /en/linux/terraria.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/terraria.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># terraria
+# terraria
 
 Crea e inicia un servidor Terraria sin interfaz gráfica.
 Más información: <https://terraria.wiki.gg/wiki/Server>.
