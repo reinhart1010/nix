@@ -2,8 +2,8 @@
 layout: page
 title: common/pip (中文)
 description: "Python 主流的包安装管理工具。"
-content_hash: a97dffd21ab57bd5e2b6a87907c0ac81604918b7
-last_modified_at: 2024-07-14
+content_hash: a9f043eb146112508069960b8fff24cf8cdb06a9
+last_modified_at: 2024-08-05
 related_topics:
   - title: Deutsch version
     url: /de/common/pip.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # pip
 
 Python 主流的包安装管理工具。
-更多信息：<https://pip.pypa.io/>.
+更多信息：<https://pip.pypa.io>.
 
 - 安装包（通过 `pip install` 查看更多安装示例）：
 

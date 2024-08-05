@@ -2,8 +2,8 @@
 layout: page
 title: common/aircrack-ng (中文)
 description: "破解捕获数据包中的握手时段的 WEP 和 WPA/WPA2 密钥。"
-content_hash: f1868c207d4d43e5f4426e5ed970079db95a0678
-last_modified_at: 2024-07-08
+content_hash: 956969b036390460658fa8dc2ff821afea572d72
+last_modified_at: 2024-08-05
 related_topics:
   - title: Deutsch version
     url: /de/common/aircrack-ng.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 破解捕获数据包中的握手时段的 WEP 和 WPA/WPA2 密钥。
 是 Aircrack-ng 网络软件套件的一部分。
-更多信息： <https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
+更多信息：<https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
 
 - 使用字典文件破解捕获文件中的密钥：
 

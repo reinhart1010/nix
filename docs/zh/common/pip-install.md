@@ -2,8 +2,8 @@
 layout: page
 title: common/pip-install (中文)
 description: "用于安装 Python 包。"
-content_hash: 16bb7aa9ed141da5665e9fec52b8384790720e35
-last_modified_at: 2024-07-14
+content_hash: ab9c84b114e8c62e9382e03247a29e6361f2461b
+last_modified_at: 2024-08-05
 related_topics:
   - title: Deutsch version
     url: /de/common/pip-install.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # pip install
 
 用于安装 Python 包。
-更多信息：<https://pip.pypa.io/>.
+更多信息：<https://pip.pypa.io>.
 
 - 安装包：
 
