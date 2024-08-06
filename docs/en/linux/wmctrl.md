@@ -2,8 +2,8 @@
 layout: page
 title: linux/wmctrl (English)
 description: "CLI for X Window Manager."
-content_hash: 21744e928c2d30490b2624fa59e3a5dcab9d6c24
-last_modified_at: 2023-11-12
+content_hash: 009ba1bcb49f31cda719da98e3b03d02c0362add
+last_modified_at: 2024-08-06
 tldri18n_status: 2
 ---
 # wmctrl
@@ -31,6 +31,6 @@ More information: <https://manned.org/wmctrl>.
 
 `wmctrl -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">window_title</span>` -b toggle,fullscreen`
 
-- Select a window a move it to a workspace:
+- Select a window and move it to a workspace:
 
 `wmctrl -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">window_title</span>` -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace_number</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/read (English)
 description: "Shell builtin for retrieving data from `stdin`."
-content_hash: 449db186876dbb4ad9b88d4d59aea265dcc01f9b
-last_modified_at: 2024-08-05
+content_hash: 236712518c71808ea9ae854d36f218542bf081b4
+last_modified_at: 2024-08-06
 tldri18n_status: 2
 ---
 # read
@@ -25,7 +25,7 @@ More information: <https://manned.org/read.1p>.
 
 - Assign multiple values to multiple variables:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "The name is Bond"</span>` | read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ variable1 _ variable2</span>
+`read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ variable1 _ variable2</span>` <<< `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"The surname is Bond"</span>
 
 - Do not let backslash (\\) act as an escape character:
 
