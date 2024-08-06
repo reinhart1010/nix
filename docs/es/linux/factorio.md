@@ -2,15 +2,15 @@
 layout: page
 title: linux/factorio (español)
 description: "Crea e inicia un servidor Factorio sin interfaz gráfica."
-content_hash: bfe1e064b7e51526262dd8252fefe9493e44e3e8
-last_modified_at: 2024-08-05
+content_hash: beab29076977e3c88a45f1c01a02a190ae032fe3
+last_modified_at: 2024-08-06
 related_topics:
   - title: English version
     url: /en/linux/factorio.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# Factorio
+# factorio
 
 Crea e inicia un servidor Factorio sin interfaz gráfica.
 Más información: <https://wiki.factorio.com/Multiplayer>.
