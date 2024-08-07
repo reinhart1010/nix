@@ -3,23 +3,14 @@ layout: page
 title: linux/mkfs.erofs (español)
 description: "Crea un sistema de archivos EROFS en una imagen."
 content_hash: 488d724c39d8c38de6cf8af05d930f77ad6a0699
-last_modified_at: 2024-08-06
+last_modified_at: 2024-08-07
 related_topics:
   - title: English version
     url: /en/linux/mkfs.erofs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mkfs.erofs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mkfs.erofs
+# mkfs.erofs
 
 Crea un sistema de archivos EROFS en una imagen.
 Más información: <https://erofs.docs.kernel.org/en/latest/>.

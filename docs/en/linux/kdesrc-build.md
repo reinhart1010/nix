@@ -2,14 +2,14 @@
 layout: page
 title: linux/kdesrc-build (English)
 description: "Easily build KDE components from its source repositories."
-content_hash: b6e6db2afff04a89224f6cbea796df7842a8ce70
-last_modified_at: 2024-02-19
+content_hash: 3803de769d0ed942aeff4fe9cad495766b3cdac9
+last_modified_at: 2024-08-07
 tldri18n_status: 2
 ---
 # kdesrc-build
 
 Easily build KDE components from its source repositories.
-More information: <https://invent.kde.org/sdk/kdesrc-build>.
+More information: <https://docs.kde.org/trunk5/en/kdesrc-build/kdesrc-build/index.html>.
 
 - Initialize `kdesrc-build`:
 
@@ -31,9 +31,9 @@ More information: <https://invent.kde.org/sdk/kdesrc-build>.
 
 `kdesrc-build --resume-from=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency_component</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_name</span>
 
-- Print full compilation info:
+- Run a component with a specified executable name:
 
-`kdesrc-build --debug `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_name</span>
+`kdesrc-build --run --exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_name</span>
 
 - Build all configured components:
 

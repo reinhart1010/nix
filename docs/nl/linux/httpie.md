@@ -3,7 +3,7 @@ layout: page
 title: linux/httpie (Nederlands)
 description: "Een gebruiksvriendelijke HTTP-tool."
 content_hash: 765ca0574c4f5e98eee75338484dc853cd81d01d
-last_modified_at: 2024-08-06
+last_modified_at: 2024-08-07
 related_topics:
   - title: Deutsch version
     url: /de/linux/httpie.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/linux/httpie.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/httpie.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># httpie
+# httpie
 
 Een gebruiksvriendelijke HTTP-tool.
 Meer informatie: <https://github.com/httpie/httpie>.
