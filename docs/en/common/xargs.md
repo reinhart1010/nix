@@ -2,8 +2,8 @@
 layout: page
 title: common/xargs (English)
 description: "Execute a command with piped arguments coming from another command, a file, etc."
-content_hash: 4dd7c1286757049882ad3963aa1b5e8285d896d6
-last_modified_at: 2024-08-02
+content_hash: 8ebb9324c69e51789ffb36204d4fcbe52dc2e38e
+last_modified_at: 2024-08-07
 related_topics:
   - title: Nederlands version
     url: /nl/common/xargs.html
@@ -24,9 +24,9 @@ More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/xa
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_source</span>` | xargs sh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1</span>` && `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command2</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command3</span>`"`
 
-- Delete all files with a `.backup` extension (`-print0` uses a null character to split file names, and `-0` uses it as delimiter):
+- Gzip all files with `.log` extension taking advantage of multiple threads (`-print0` uses a null character to split file names, and `-0` uses it as delimiter):
 
-`find . -name '*.backup' -print0 | xargs -0 rm -v`
+`find . -name '*.log' -print0 | xargs -0 -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>` -n 1 gzip`
 
 - Execute the command once per argument:
 
