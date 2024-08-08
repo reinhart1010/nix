@@ -3,19 +3,10 @@ layout: page
 title: common/ntfyme (English)
 description: "A notification tool to track and notify you about your long-running termination process."
 content_hash: 9dcbbe20de38d9522b6ee02e21d0167cead4cddd
-last_modified_at: 2024-08-07
-tldri18n_status: 0
+last_modified_at: 2024-08-08
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ntfyme.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ntfyme
+# ntfyme
 
 A notification tool to track and notify you about your long-running termination process.
 Send notifications with success/error messages with Gmail, Telegram, and more.
