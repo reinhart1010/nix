@@ -1,0 +1,35 @@
+<h1 id="tox">tox</h1>
+
+<p>Automate Python testing across multiple Python versions.
+Use tox.ini to configure environments and test command.
+More information: <a href="https://github.com/tox-dev/tox">https://github.com/tox-dev/tox</a>.</p>
+
+<ul>
+  <li>Run tests on all test environments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tox</code></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">tox.ini</code> configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tox-quickstart</code></p>
+
+<ul>
+  <li>List the available environments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tox --listenvs-all</code></p>
+
+<ul>
+  <li>Run tests on a specific environment (e.g. Python 3.6):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tox -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py36</span></p>
+
+<ul>
+  <li>Force the virtual environment to be recreated:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tox --recreate -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py27</span></p>

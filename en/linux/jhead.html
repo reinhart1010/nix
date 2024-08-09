@@ -1,0 +1,46 @@
+<h1 id="jhead">jhead</h1>
+
+<p>Image timestamp and EXIF data manipulation.
+More information: <a href="https://www.sentex.net/~mwandel/jhead/usage.html">https://www.sentex.net/~mwandel/jhead/usage.html</a>.</p>
+
+<ul>
+  <li>Show all EXIF data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span></p>
+
+<ul>
+  <li>Set the file's date and time to the EXIF create date (file creation date will be changed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -ft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span></p>
+
+<ul>
+  <li>Set the EXIF time to the file's date and time (EXIF data will be changed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -dsft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span></p>
+
+<ul>
+  <li>Rename all JPEG files based on the EXIF create date to <code class="language-plaintext highlighter-rouge">YYYY_MM_DD-HH_MM_SS.jpg</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -n%Y_%m_%d-%H_%M_%S *.jpg</code></p>
+
+<ul>
+  <li>Rotate losslessly all JPEG images by 90, 180 or 270 based on the EXIF orientation tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -autorot *.jpg</code></p>
+
+<ul>
+  <li>Update all EXIF timestamps (Format: +- hour:minute:seconds) (example: forgot to change the camera's time zone - removing 1 hour from timestamps):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -ta-1:00:00 *.jpg</code></p>
+
+<ul>
+  <li>Remove all EXIF data (including thumbnails):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -purejpg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span></p>

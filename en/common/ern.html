@@ -1,0 +1,46 @@
+<h1 id="ern">ern</h1>
+
+<p>Electrode Native platform command-line client.
+More information: <a href="https://native.electrode.io/reference/index-6">https://native.electrode.io/reference/index-6</a>.</p>
+
+<ul>
+  <li>Create a new <code class="language-plaintext highlighter-rouge">ern</code> application (<code class="language-plaintext highlighter-rouge">MiniApp</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern create-miniapp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_name</span></p>
+
+<ul>
+  <li>Run one or more <code class="language-plaintext highlighter-rouge">MiniApps</code> in the iOS/Android Runner application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern run-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ios|android</span></p>
+
+<ul>
+  <li>Create an Electrode Native container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern create-container --miniapps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/miniapp_directory</span><code class="language-plaintext highlighter-rouge"> --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ios|android</span></p>
+
+<ul>
+  <li>Publish an Electrode Native container to a local Maven repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern publish-container --publisher </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">maven</span><code class="language-plaintext highlighter-rouge"> --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android</span><code class="language-plaintext highlighter-rouge"> --extra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"groupId":"com.walmart.ern","artifactId":"quickstart"}'</span></p>
+
+<ul>
+  <li>Transform an iOS container into a pre-compiled binary framework:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern transform-container --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ios</span><code class="language-plaintext highlighter-rouge"> --transformer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xcframework</span></p>
+
+<ul>
+  <li>List all installed versions of Electrode Native:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern platform versions</code></p>
+
+<ul>
+  <li>Set a logging level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern platform config set logLevel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trace|debug</span></p>

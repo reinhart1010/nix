@@ -1,0 +1,52 @@
+<h1 id="ip-route-show">ip route show</h1>
+
+<p>Toon subcommando voor IP routeringstabel management.
+Meer informatie: <a href="https://manned.org/ip-route">https://manned.org/ip-route</a>.</p>
+
+<ul>
+  <li>Toon de routingtabel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show</code></p>
+
+<ul>
+  <li>Toon de hoofdrouteringstabel (hetzelfde als eerste voorbeeld):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">main|254</span></p>
+
+<ul>
+  <li>Toon de lokale routingtabel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local|255</span></p>
+
+<ul>
+  <li>Toon Alle routetafels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">all|unspec|0</span></p>
+
+<ul>
+  <li>Toon alleen routes van een bepaald apparaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Toon routes binnen een bepaalde scope:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show scope link</code></p>
+
+<ul>
+  <li>Toon de routeringscache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show cache</code></p>
+
+<ul>
+  <li>Toon alleen IPv6 of IPv4 routes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-6|-4</span><code class="language-plaintext highlighter-rouge"> route show</code></p>

@@ -1,0 +1,34 @@
+<h1 id="pw-link">pw-link</h1>
+
+<p>Gerenciar conexões entre portas no PipeWire.
+Mais informações: <a href="https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices">https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices</a>.</p>
+
+<ul>
+  <li>Lista todos as saídas e entradas de áudio com seus IDs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-link --output --input --ids</code></p>
+
+<ul>
+  <li>Cria uma conexão entre uma porta de entrada e uma porta de saída:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-link </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_port_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_port_name</span></p>
+
+<ul>
+  <li>Desconecta duas portas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-link --disconnect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_port_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_port_name</span></p>
+
+<ul>
+  <li>Lista todas as conexões com seus IDs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-link --links --ids</code></p>
+
+<ul>
+  <li>Exibe ajuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-link -h</code></p>

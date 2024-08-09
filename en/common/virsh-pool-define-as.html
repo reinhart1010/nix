@@ -1,0 +1,11 @@
+<h1 id="virsh-pool-define-as">virsh pool-define-as</h1>
+
+<p>Create a configuration file in <code class="language-plaintext highlighter-rouge">/etc/libvirt/storage</code> for a persistent virtual machine storage pool from the provided arguments.
+See also: <code class="language-plaintext highlighter-rouge">virsh</code>, <code class="language-plaintext highlighter-rouge">virsh-pool-build</code>, <code class="language-plaintext highlighter-rouge">virsh-pool-start</code>.
+More information: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>Create the configuration file for a storage pool called pool_name using <code class="language-plaintext highlighter-rouge">/var/vms</code> as the underlying storage system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-define-as --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/vms</span></p>

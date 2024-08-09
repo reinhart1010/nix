@@ -1,0 +1,28 @@
+<h1 id="diskutil">diskutil</h1>
+
+<p>用于管理本地磁盘和卷的实用程序。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/diskutil.8.html">https://keith.github.io/xcode-man-pages/diskutil.8.html</a>.</p>
+
+<ul>
+  <li>列出所有当前可用的磁盘、分区和已装入的卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil list</code></p>
+
+<ul>
+  <li>修复卷的文件系统数据结构：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil repairVolume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标卷文件</span></p>
+
+<ul>
+  <li>卸载卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil unmountDisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标卷文件</span></p>
+
+<ul>
+  <li>弹出 CD/DVD（先卸载）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil eject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ 光驱文件名</span></p>

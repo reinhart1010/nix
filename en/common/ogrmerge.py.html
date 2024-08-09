@@ -1,0 +1,22 @@
+<h1 id="ogrmergepy">ogrmerge.py</h1>
+
+<p>Merge several vector datasets into a single one.
+More information: <a href="https://gdal.org/programs/ogrmerge.html">https://gdal.org/programs/ogrmerge.html</a>.</p>
+
+<ul>
+  <li>Create a GeoPackage with a layer for each input Shapefile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrmerge.py -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GPKG</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gpkg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.shp path/to/input2.shp …</span></p>
+
+<ul>
+  <li>Create a virtual datasource (VRT) with a layer for each input GeoJSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrmerge.py -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VRT</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.vrt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.geojson path/to/input2.geojson …</span></p>
+
+<ul>
+  <li>Concatenate two vector datasets and store source name of dataset in attribute 'source_name':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrmerge.py -single -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GeoJSON</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.geojson</span><code class="language-plaintext highlighter-rouge"> -src_layer_field_name country </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.shp path/to/input2.shp …</span></p>

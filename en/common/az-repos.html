@@ -1,0 +1,29 @@
+<h1 id="az-repos">az repos</h1>
+
+<p>Manage Azure DevOps repos.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/repos">https://learn.microsoft.com/cli/azure/repos</a>.</p>
+
+<ul>
+  <li>List all repos in a specific project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az repos list --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span></p>
+
+<ul>
+  <li>Add policy on a specific branch of a specific repository to restrict basic merge:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az repos policy merge-strategy create --repository-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_id_in_repos_list</span><code class="language-plaintext highlighter-rouge"> --branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span><code class="language-plaintext highlighter-rouge"> --blocking --enabled --allow-no-fast-forward false --allow-rebase true --allow-rebase-merge true --allow-squash true</code></p>
+
+<ul>
+  <li>Add build validation on a specific repository, using an existing build pipeline, to be triggered automatically on source update:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az repos policy build create --repository-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_id</span><code class="language-plaintext highlighter-rouge"> --build-definition-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">build_pipeline_id</span><code class="language-plaintext highlighter-rouge"> --branch main --blocking --enabled --queue-on-source-update-only true --display-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --valid-duration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minutes</span></p>
+
+<ul>
+  <li>List all active Pull Requests on a specific repository within a specific project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az repos pr list --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span><code class="language-plaintext highlighter-rouge"> --repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge"> --status active</code></p>

@@ -1,0 +1,28 @@
+<h1 id="go-env">go env</h1>
+
+<p>Manage environment variables used by the Go toolchain.
+More information: <a href="https://golang.org/cmd/go/#hdr-Print_Go_environment_information">https://golang.org/cmd/go/#hdr-Print_Go_environment_information</a>.</p>
+
+<ul>
+  <li>Show all environment variables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go env</code></p>
+
+<ul>
+  <li>Show a specific environment variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GOPATH</span></p>
+
+<ul>
+  <li>Set an environment variable to a value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go env -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GOBIN</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Reset an environment variable's value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go env -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GOBIN</span></p>

@@ -1,0 +1,46 @@
+<h1 id="kubectl-delete">kubectl delete</h1>
+
+<p>Lösche Kubernetes-Ressourcen.
+Weitere Informationen: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#delete">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#delete</a>.</p>
+
+<ul>
+  <li>Lösche einen bestimmten Pod:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete pod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span></p>
+
+<ul>
+  <li>Lösche ein bestimmtes Deployment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete deployment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment_name</span></p>
+
+<ul>
+  <li>Lösche eine bestimmte Node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete node </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_name</span></p>
+
+<ul>
+  <li>Lösche alle Pods in einem bestimmten Namespaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete pods --all --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Lösche alle Deployments und Services in einem bestimmten Namespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete deployments,services --all --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Lösche alle Nodes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete nodes --all</code></p>
+
+<ul>
+  <li>Lösche Resourcen, die in einer YAML Datei definiert sind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete --filename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/manifest.yaml</span></p>

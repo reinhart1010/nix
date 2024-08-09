@@ -1,0 +1,23 @@
+<h1 id="xmount">xmount</h1>
+
+<p>Convert on-the-fly between multiple input and output hard disk image types with optional write cache support.
+Create a virtual file system using FUSE (Filesystem in Userspace) that contains a virtual representation of the input image.
+More information: <a href="https://manned.org/xmount">https://manned.org/xmount</a>.</p>
+
+<ul>
+  <li>Mount a <code class="language-plaintext highlighter-rouge">.raw</code> image file into a DMG container file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmount --in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.dd</span><code class="language-plaintext highlighter-rouge"> --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dmg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>
+
+<ul>
+  <li>Mount an EWF image file with write-cache support into a VHD file to boot from:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmount --cache </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cache.ovl</span><code class="language-plaintext highlighter-rouge"> --in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ewf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.E??</span><code class="language-plaintext highlighter-rouge"> --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vhd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>
+
+<ul>
+  <li>Mount the first partition at sector 2048 into a new <code class="language-plaintext highlighter-rouge">.raw</code> image file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmount --offset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> --in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.dd</span><code class="language-plaintext highlighter-rouge"> --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>

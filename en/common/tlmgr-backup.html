@@ -1,0 +1,35 @@
+<h1 id="tlmgr-backup">tlmgr backup</h1>
+
+<p>Manage backups of TeX Live packages.
+The default backup directory is specified by the <code class="language-plaintext highlighter-rouge">backupdir</code> option, and can be obtained with <code class="language-plaintext highlighter-rouge">tlmgr option</code>.
+More information: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>Make a backup of one or more packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr backup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>Make a backup of all packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr backup --all</code></p>
+
+<ul>
+  <li>Make a backup to a custom directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr backup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> --backupdir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/backup_directory</span></p>
+
+<ul>
+  <li>Remove a backup of one or more packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr backup clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>Remove all backups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr backup clean --all</code></p>

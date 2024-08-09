@@ -1,0 +1,47 @@
+<h1 id="cypher-shell">cypher-shell</h1>
+
+<p>Open an interactive session and run Cypher queries against a Neo4j instance.
+See also: <code class="language-plaintext highlighter-rouge">neo4j-admin</code>, <code class="language-plaintext highlighter-rouge">mysql</code>.
+More information: <a href="https://neo4j.com/docs/operations-manual/current/tools/cypher-shell/">https://neo4j.com/docs/operations-manual/current/tools/cypher-shell/</a>.</p>
+
+<ul>
+  <li>Connect to a local instance on the default port (<code class="language-plaintext highlighter-rouge">neo4j://localhost:7687</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell</code></p>
+
+<ul>
+  <li>Connect to a remote instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --address neo4j://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Connect and supply security credentials:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Connect to a specific database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span></p>
+
+<ul>
+  <li>Execute Cypher statements in a file and close:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cypher</span></p>
+
+<ul>
+  <li>Enable logging to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.log</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --help</code></p>

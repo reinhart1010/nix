@@ -1,0 +1,26 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="mysqldump">mysqldump</h1>
+
+<p>Crea una copia de seguridad de bases de datos MySQL.
+Vea también <code class="language-plaintext highlighter-rouge">mysql</code> para restaurar bases de datos.
+Más información: <a href="https://dev.mysql.com/doc/refman/en/mysqldump.html">https://dev.mysql.com/doc/refman/en/mysqldump.html</a>.</p>
+
+<ul>
+  <li>Crea un backup (se le pedirá la contraseña al usuario):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqldump --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.sql</span></p>
+
+<ul>
+  <li>Crea un backup de todas las bases de datos y redirige la salida a un archivo (se le pedirá la contraseña al usuario):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqldump --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --password --all-databases &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.sql</span></p>
+
+<ul>
+  <li>Crea un backup de una única tabla de una base de datos (se le pedirá la contraseña al usuario):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqldump --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_tabla</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.sql</span></p>

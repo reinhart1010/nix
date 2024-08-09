@@ -1,0 +1,28 @@
+<h1 id="adscript">adscript</h1>
+
+<p>Adscript 파일용 컴파일러.
+더 많은 정보: <a href="https://github.com/Amplus2/Adscript">https://github.com/Amplus2/Adscript</a>.</p>
+
+<ul>
+  <li>파일을 객체 파일로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.adscript</span></p>
+
+<ul>
+  <li>파일을 컴파일하고 독립 실행형 실행 파일에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --executable --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.adscript</span></p>
+
+<ul>
+  <li>기본 기계어 코드 대신 LLVM IR로 파일 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --llvm-ir --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.adscript</span></p>
+
+<ul>
+  <li>파일을 외부 CPU 아키텍처 또는 운영 체제용 객체 파일로 크로스 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --target-triple </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">i386-linux-elf</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.adscript</span></p>

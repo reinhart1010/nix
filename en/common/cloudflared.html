@@ -1,0 +1,40 @@
+<h1 id="cloudflared">cloudflared</h1>
+
+<p>Create a persistent connection to the Cloudflare network.
+More information: <a href="https://developers.cloudflare.com/argo-tunnel/">https://developers.cloudflare.com/argo-tunnel/</a>.</p>
+
+<ul>
+  <li>Authenticate and associate the connection to a domain in the Cloudflare account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared tunnel login</code></p>
+
+<ul>
+  <li>Create a tunnel with a specific name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared tunnel create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Establish a tunnel to a host in Cloudflare from the local server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared tunnel --hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span></p>
+
+<ul>
+  <li>Establish a tunnel to a host in Cloudflare from the local server, without verifying the local server's certificate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared tunnel --hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span><code class="language-plaintext highlighter-rouge"> --no-tls-verify</code></p>
+
+<ul>
+  <li>Save logs to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared tunnel --hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> http://localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span><code class="language-plaintext highlighter-rouge"> --loglevel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">panic|fatal|error|warn|info|debug</span><code class="language-plaintext highlighter-rouge"> --logfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Install cloudflared as a system service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared service install</code></p>

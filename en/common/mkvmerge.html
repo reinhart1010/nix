@@ -1,0 +1,28 @@
+<h1 id="mkvmerge">mkvmerge</h1>
+
+<p>Merge and extract multimedia streams.
+More information: <a href="https://mkvtoolnix.download/doc/mkvmerge.html">https://mkvtoolnix.download/doc/mkvmerge.html</a>.</p>
+
+<ul>
+  <li>Display information about a Matroska file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkvmerge --identify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mkv</span></p>
+
+<ul>
+  <li>Extract the audio from track 1 of a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkvextract tracks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mkv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.webm</span></p>
+
+<ul>
+  <li>Extract the subtitle from track 3 of a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkvextract tracks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mkv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/subs.srt</span></p>
+
+<ul>
+  <li>Add a subtitle track to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkvmerge --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.mkv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mkv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/subs.srt</span></p>

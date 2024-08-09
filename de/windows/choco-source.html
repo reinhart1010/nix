@@ -1,0 +1,46 @@
+<h1 id="choco-source">choco source</h1>
+
+<p>Verwalte die Paketquellen mit Chocolatey.
+Weitere Informationen: <a href="https://chocolatey.org/docs/commands-source">https://chocolatey.org/docs/commands-source</a>.</p>
+
+<ul>
+  <li>Gib alle momentan verfügbaren Quellen aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source list</code></p>
+
+<ul>
+  <li>Füge eine neue Paketquelle hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Füge eine neue Paketquelle mit Zugangsdaten hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">passwort</span></p>
+
+<ul>
+  <li>Füge eine neue Paketquelle mit Client-Zertifikat hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/zertifikat</span></p>
+
+<ul>
+  <li>Aktiviere eine Paketquelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source enable --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Deaktiviere eine Paketquelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source disable --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Entferne eine Paketquelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source remove --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

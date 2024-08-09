@@ -1,0 +1,29 @@
+<h1 id="git-am">git am</h1>
+
+<p>Patch-Dateien integrieren. Nützlich beim Empfang von Commits per E-Mail.
+Siehe auch <code class="language-plaintext highlighter-rouge">git format-patch</code> zur Erzeugung von Patch-Dateien.
+Weitere Informationen: <a href="https://git-scm.com/docs/git-am">https://git-scm.com/docs/git-am</a>.</p>
+
+<ul>
+  <li>Integriere eine Patch-Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.patch</span></p>
+
+<ul>
+  <li>Herunterladen und Integrieren einer Patch-Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.de/datei.patch</span><code class="language-plaintext highlighter-rouge"> | git apply</code></p>
+
+<ul>
+  <li>Brich das Integrieren einer Patch-Datei ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --abort</code></p>
+
+<ul>
+  <li>Integriere so viele Patch-Dateien wie möglich und speichere fehlgeschlagene Teile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --reject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.patch</span></p>

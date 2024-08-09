@@ -1,0 +1,34 @@
+<h1 id="varnishlog">varnishlog</h1>
+
+<p>Display Varnish logs.
+More information: <a href="https://varnish-cache.org/docs/trunk/reference/varnishlog.html">https://varnish-cache.org/docs/trunk/reference/varnishlog.html</a>.</p>
+
+<ul>
+  <li>Display logs in real time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">varnishlog</code></p>
+
+<ul>
+  <li>Only display requests to a specific domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">varnishlog -q 'ReqHeader eq "Host: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge">"'</code></p>
+
+<ul>
+  <li>Only display POST requests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">varnishlog -q 'ReqMethod eq "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POST</span><code class="language-plaintext highlighter-rouge">"'</code></p>
+
+<ul>
+  <li>Only display requests to a specific path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">varnishlog -q 'ReqURL eq "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path</span><code class="language-plaintext highlighter-rouge">"'</code></p>
+
+<ul>
+  <li>Only display requests to paths matching a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">varnishlog -q 'ReqURL ~ "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex</span><code class="language-plaintext highlighter-rouge">"'</code></p>

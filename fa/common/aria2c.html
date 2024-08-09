@@ -1,0 +1,53 @@
+<h1 id="aria2c">aria2c</h1>
+
+<p>ابزاری برای دانلود سریع.
+قابلیت پشتیبانی از Http(s), FTP, SFTP, BitTorrent, Metalink.
+اطلاعات بیشتر: <a href="https://aria2.github.io">https://aria2.github.io</a>.</p>
+
+<ul>
+  <li>دانلود لینک موردنظر و ذخیره در فایل:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>دانلود یک فایل از لینک موردنظر با اسم خروجی دلخواه:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>دانلود چند فایل مختلف به صورت همزمان:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --force-sequential </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">false</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1 url2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>دانلود از چند لینک مختلف:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1 url2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>دانلود لینک های لیست شده در یک فایل همراه با تنظیم تعداد دانلود های همزمان:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --input-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --max-concurrent-downloads=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_downloads</span></p>
+
+<ul>
+  <li>دانلود با چندین اتصال مختلف:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --split </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_connections</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>دانلود از FTP با نام کاربری و رمزعبور:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --ftp-user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --ftp-passwd=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>محدود کردن سرعت دانلود با واحد بایت بر ثانیه:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --max-download-limit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">speed</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,28 @@
+<h1 id="clip">clip</h1>
+
+<p>將輸入的內容複製到 Windows 剪貼簿中。
+更多資訊：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/clip">https://learn.microsoft.com/windows-server/administration/windows-commands/clip</a>.</p>
+
+<ul>
+  <li>使用管道將命令輸出的內容複製到 Windows 剪貼簿中：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>將文件內容複製到 Windows 剪貼簿中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clip &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>
+
+<ul>
+  <li>將帶有換行符的內容複製到 Windows 剪貼簿中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文字</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>將不帶換行符的內容複製到 Windows 剪貼簿中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo | set /p="文字" | clip</code></p>

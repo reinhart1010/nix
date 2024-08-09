@@ -1,0 +1,52 @@
+<h1 id="repair-bde">repair-bde</h1>
+
+<p>尝试修复或解密损坏的 BitLocker 加密卷。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/repair-bde">https://learn.microsoft.com/windows-server/administration/windows-commands/repair-bde</a>.</p>
+
+<ul>
+  <li>尝试修复一个指定的卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span></p>
+
+<ul>
+  <li>尝试修复指定的卷并输出到另一个卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">D:</span></p>
+
+<ul>
+  <li>尝试使用提供的恢复密钥文件修复指定的卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -RecoveryKey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bek 文件的路径</span></p>
+
+<ul>
+  <li>尝试使用提供的数字恢复密码修复指定的卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -RecoveryPassword </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span></p>
+
+<ul>
+  <li>尝试使用提供的密码修复指定的卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -Password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span></p>
+
+<ul>
+  <li>尝试使用提供的密钥包修复指定的卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -KeyPackage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录的路径</span></p>
+
+<ul>
+  <li>将日志输出到指定的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -LogFile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件的路径</span></p>
+
+<ul>
+  <li>显示所有可用的选项：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde /?</code></p>

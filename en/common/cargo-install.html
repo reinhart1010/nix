@@ -1,0 +1,28 @@
+<h1 id="cargo-install">cargo install</h1>
+
+<p>Build and install a Rust binary.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-install.html">https://doc.rust-lang.org/cargo/commands/cargo-install.html</a>.</p>
+
+<ul>
+  <li>Install a package from <a href="https://crates.io">https://crates.io</a> (the version is optional - latest by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Install a package from the specified Git repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install --git </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_url</span></p>
+
+<ul>
+  <li>Build from the specified branch/tag/commit when installing from a Git repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install --git </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_url</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch|tag|rev</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name|tag|commit_hash</span></p>
+
+<ul>
+  <li>List all installed packages and their versions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install --list</code></p>

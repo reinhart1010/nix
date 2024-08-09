@@ -1,0 +1,28 @@
+<h1 id="fluxctl">fluxctl</h1>
+
+<p>Command-line tool for Flux v1.
+More information: <a href="https://fluxcd.io/legacy/flux/references/fluxctl">https://fluxcd.io/legacy/flux/references/fluxctl</a>.</p>
+
+<ul>
+  <li>List workloads currently running in the cluster on specific namespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fluxctl --k8s-fwd-ns=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span><code class="language-plaintext highlighter-rouge"> list-workloads</code></p>
+
+<ul>
+  <li>Show deployed and available images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fluxctl list-images</code></p>
+
+<ul>
+  <li>Synchronize the cluster with the Git repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fluxctl sync</code></p>
+
+<ul>
+  <li>Turn on automatic deployment for a workload:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fluxctl automate</code></p>

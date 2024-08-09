@@ -1,0 +1,28 @@
+<h1 id="doctl-databases-firewalls">doctl databases firewalls</h1>
+
+<p>Manage firewalls for database clusters.
+More information: <a href="https://docs.digitalocean.com/reference/doctl/reference/databases/firewalls">https://docs.digitalocean.com/reference/doctl/reference/databases/firewalls</a>.</p>
+
+<ul>
+  <li>Run a <code class="language-plaintext highlighter-rouge">doctl databases firewalls</code> command with an access token:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases firewalls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access_token</span></p>
+
+<ul>
+  <li>Retrieve a list of firewall rules for a given database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases firewalls list</code></p>
+
+<ul>
+  <li>Add a database firewall rule to a given database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases firewalls append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span><code class="language-plaintext highlighter-rouge"> --rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">droplet|k8s|ip_addr|tag|app</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Remove a firewall rule for a given database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases firewalls remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_uuid</span></p>

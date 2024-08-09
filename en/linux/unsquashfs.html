@@ -1,0 +1,40 @@
+<h1 id="unsquashfs">unsquashfs</h1>
+
+<p>Uncompress, extract and list files in squashfs filesystems.
+More information: <a href="https://manned.org/unsquashfs">https://manned.org/unsquashfs</a>.</p>
+
+<ul>
+  <li>Extract a squashfs filesystem to <code class="language-plaintext highlighter-rouge">squashfs-root</code> in the current working directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unsquashfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem.squashfs</span></p>
+
+<ul>
+  <li>Extract a squashfs filesystem to the specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unsquashfs -dest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem.squashfs</span></p>
+
+<ul>
+  <li>Display the names of files as they are extracted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unsquashfs -info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem.squashfs</span></p>
+
+<ul>
+  <li>Display the names of files and their attributes as they are extracted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unsquashfs -linfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem.squashfs</span></p>
+
+<ul>
+  <li>List files inside the squashfs filesystem (without extracting):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unsquashfs -ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem.squashfs</span></p>
+
+<ul>
+  <li>List files and their attributes inside the squashfs filesystem (without extracting):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unsquashfs -lls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem.squashfs</span></p>

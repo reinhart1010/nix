@@ -1,0 +1,29 @@
+<h1 id="pbmtext">pbmtext</h1>
+
+<p>Render text as a PBM image.
+See also: <code class="language-plaintext highlighter-rouge">pbmtextps</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pbmtext.html">https://netpbm.sourceforge.net/doc/pbmtext.html</a>.</p>
+
+<ul>
+  <li>Render a single line of text as a PBM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtext "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World!</span><code class="language-plaintext highlighter-rouge">" &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Render multiple lines of text as a PBM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello\nWorld!</span><code class="language-plaintext highlighter-rouge">" | pbmtext &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Render text using a custom font supplied as a PBM file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtext -font </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/font.pbm</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World!</span><code class="language-plaintext highlighter-rouge">" &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Specify the number of pixels between characters and lines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello\nWorld!</span><code class="language-plaintext highlighter-rouge">" | pbmtext -space </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> -lspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>

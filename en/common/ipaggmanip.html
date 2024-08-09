@@ -1,0 +1,22 @@
+<h1 id="ipaggmanip">ipaggmanip</h1>
+
+<p>Manipulate aggregate statistics produced by <code class="language-plaintext highlighter-rouge">ipaggcreate</code>.
+More information: <a href="https://manned.org/ipaggmanip">https://manned.org/ipaggmanip</a>.</p>
+
+<ul>
+  <li>Combine labels equal in their high-order bits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipaggmanip --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Remove labels with a count smaller than a given number of bytes and output a random sample of such labels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipaggmanip --cut-smaller </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --cull-labels </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Replace each label's count with 1 if it is non-zero:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipaggmanip --posterize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

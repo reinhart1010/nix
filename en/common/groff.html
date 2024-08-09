@@ -1,0 +1,34 @@
+<h1 id="groff">groff</h1>
+
+<p>GNU replacement for the <code class="language-plaintext highlighter-rouge">troff</code> and <code class="language-plaintext highlighter-rouge">nroff</code> typesetting utilities.
+More information: <a href="https://www.gnu.org/software/groff">https://www.gnu.org/software/groff</a>.</p>
+
+<ul>
+  <li>Format output for a PostScript printer, saving the output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">groff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.roff</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ps</span></p>
+
+<ul>
+  <li>Render a man page using the ASCII output device, and display it using a pager:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">groff -man -T ascii </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manpage.1</span><code class="language-plaintext highlighter-rouge"> | less --RAW-CONTROL-CHARS</code></p>
+
+<ul>
+  <li>Render a man page into an HTML file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">groff -man -T html </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manpage.1</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manpage.html</span></p>
+
+<ul>
+  <li>Typeset a roff file containing [t]ables and [p]ictures, using the [me] macro set, to PDF, saving the output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">groff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">me</span><code class="language-plaintext highlighter-rouge"> -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.me</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span></p>
+
+<ul>
+  <li>Run a <code class="language-plaintext highlighter-rouge">groff</code> command with preprocessor and macro options guessed by the <code class="language-plaintext highlighter-rouge">grog</code> utility:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eval "$(grog -T utf8 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.me</span><code class="language-plaintext highlighter-rouge">)"</code></p>

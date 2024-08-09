@@ -1,0 +1,52 @@
+<h1 id="composer">composer</h1>
+
+<p>Manajer paket untuk proyek PHP.
+Informasi lebih lanjut: <a href="https://getcomposer.org/">https://getcomposer.org/</a>.</p>
+
+<ul>
+  <li>Membuat file <code class="language-plaintext highlighter-rouge">composer.json</code> secara interaktif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer init</code></p>
+
+<ul>
+  <li>Menambahkan paket sebagai dependensi untuk proyek ini, menambahkan ke <code class="language-plaintext highlighter-rouge">composer.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer require </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/nama_paket</span></p>
+
+<ul>
+  <li>Menginstal semua dependensi dalam <code class="language-plaintext highlighter-rouge">composer.json</code> proyek ini dan membuat <code class="language-plaintext highlighter-rouge">composer.lock</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer install</code></p>
+
+<ul>
+  <li>Menghapus sebuah paket dari proyek ini, menghapus paket tersebut sebagai ketergantungan dari <code class="language-plaintext highlighter-rouge">composer.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/nama_paket</span></p>
+
+<ul>
+  <li>Memperbarui semua dependensi dalam <code class="language-plaintext highlighter-rouge">composer.json</code> proyek ini dan memperbarui versi di file <code class="language-plaintext highlighter-rouge">composer.lock</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer update</code></p>
+
+<ul>
+  <li>Memperbarui <code class="language-plaintext highlighter-rouge">composer.lock</code> setelah mengubah <code class="language-plaintext highlighter-rouge">composer.json</code> secara manual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer update --lock</code></p>
+
+<ul>
+  <li>Memcari tahu mengapa sebuah dependensi tidak dapat diinstal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer why-not </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/nama_paket</span></p>
+
+<ul>
+  <li>Memperbarui composer ke versi terbaru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer self-update</code></p>

@@ -1,0 +1,22 @@
+<h1 id="virsh-undefine">virsh-undefine</h1>
+
+<p>Delete a virtual machine.
+More information: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>Delete only the virtual machine configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh undefine --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>Delete the configuration file and all associated storage volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh undefine --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --remove-all-storage</code></p>
+
+<ul>
+  <li>Delete the configuration file and the specified storage volumes using the target name or the source name (as obtained from the <code class="language-plaintext highlighter-rouge">virsh domblklist</code> command):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh undefine --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --storage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sda,path/to/source</span></p>

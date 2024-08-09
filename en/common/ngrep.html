@@ -1,0 +1,34 @@
+<h1 id="ngrep">ngrep</h1>
+
+<p>Filter network traffic packets using regular expressions.
+More information: <a href="https://github.com/jpr5/ngrep">https://github.com/jpr5/ngrep</a>.</p>
+
+<ul>
+  <li>Capture traffic of all interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrep -d any</code></p>
+
+<ul>
+  <li>Capture traffic of a specific interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrep -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Capture traffic crossing port 22 of interface eth0:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrep -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span></p>
+
+<ul>
+  <li>Capture traffic from or to a host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrep host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.example.com</span></p>
+
+<ul>
+  <li>Filter keyword 'User-Agent:' of interface eth0:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrep -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">User-Agent:</span><code class="language-plaintext highlighter-rouge">'</code></p>

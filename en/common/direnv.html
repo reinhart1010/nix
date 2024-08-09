@@ -1,0 +1,34 @@
+<h1 id="direnv">direnv</h1>
+
+<p>Shell extension to load and unload environment variables depending on the current directory.
+More information: <a href="https://github.com/direnv/direnv">https://github.com/direnv/direnv</a>.</p>
+
+<ul>
+  <li>Grant direnv permission to load the <code class="language-plaintext highlighter-rouge">.envrc</code> present in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">direnv allow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>
+
+<ul>
+  <li>Revoke the authorization to load the <code class="language-plaintext highlighter-rouge">.envrc</code> present in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">direnv deny </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>
+
+<ul>
+  <li>Edit the <code class="language-plaintext highlighter-rouge">.envrc</code> file in the default text editor and reload the environment on exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">direnv edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>
+
+<ul>
+  <li>Trigger a reload of the environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">direnv reload</code></p>
+
+<ul>
+  <li>Print some debug status information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">direnv status</code></p>

@@ -1,0 +1,52 @@
+<h1 id="chromium">chromium</h1>
+
+<p>Navigateur Web open source principalement développé et maintenu par Google.
+Plus d'informations : <a href="https://www.chromium.org/developers/how-tos/run-chromium-with-flags/">https://www.chromium.org/developers/how-tos/run-chromium-with-flags/</a>.</p>
+
+<ul>
+  <li>Ouvre une URL ou un fichier spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://exemple.com|chemin/vers/fichier.html</span></p>
+
+<ul>
+  <li>Ouvre en mode navigation privée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --incognito </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemple.com</span></p>
+
+<ul>
+  <li>Ouvre dans une nouvelle fenêtre :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --new-window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemple.com</span></p>
+
+<ul>
+  <li>Ouvre en mode application (sans barres d'outils, barre d'URL, boutons, etc) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --app=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://exemple.com</span></p>
+
+<ul>
+  <li>Utilise un serveur proxy :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --proxy-server="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">://hostname:66</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemple.com</span></p>
+
+<ul>
+  <li>Ouvre dans un répertoire de profil personnalisé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/répertoire</span></p>
+
+<ul>
+  <li>Ouvre sans validation CORS (utile pour tester une API) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/répertoire</span><code class="language-plaintext highlighter-rouge"> --disable-web-security</code></p>
+
+<ul>
+  <li>Ouvre avec une fenêtre outils de développement pour chaque onglet ouvert :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --auto-open-devtools-for-tabs</code></p>

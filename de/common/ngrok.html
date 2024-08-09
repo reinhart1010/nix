@@ -1,0 +1,34 @@
+<h1 id="ngrok">ngrok</h1>
+
+<p>Reverse-Proxy, welcher einen sicheren Tunnel von einem öffentlichen Endpunkt zu einem lokal verfügbaren Webservice erstellt.
+Weitere Informationen: <a href="https://ngrok.com">https://ngrok.com</a>.</p>
+
+<ul>
+  <li>Veröffentliche einen lokalen HTTP-Service auf dem angegebenen Port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>Veröffentliche einen lokalen HTTP-Service auf einem bestimmten Host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">beispiel.dev</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>Veröffentliche einen lokalen HTTPS-Server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok http https://localhost</code></p>
+
+<ul>
+  <li>Veröffentliche den TCP-Traffic auf dem angegebenen Port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok tcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span></p>
+
+<ul>
+  <li>Veröffentliche den TLS-Traffic für einen bestimmten Host und Port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok tls -hostname=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">beispiel.de</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">443</span></p>

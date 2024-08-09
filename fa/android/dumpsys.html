@@ -1,0 +1,41 @@
+<h1 id="dumpsys">dumpsys</h1>
+
+<p>ارائه اطلاعات درباره سیستم سرویس اندروید.
+این دستور فقط از طریق <code class="language-plaintext highlighter-rouge">adb shell</code> قابل اجراست.
+اطلاعات بیشتر: <a href="https://developer.android.com/tools/dumpsys">https://developer.android.com/tools/dumpsys</a>.</p>
+
+<ul>
+  <li>دریافت اطلاعات عیب بای تمامی سرویس های سیستمی :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys</code></p>
+
+<ul>
+  <li>دریافت اطلاعات عیب یابی یک سرویس سیستمی مشخص :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span></p>
+
+<ul>
+  <li>فهرستی از تمامی سرویس هایی که <code class="language-plaintext highlighter-rouge">dumpsys</code> میتواند اطلاعات بدهد :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -l</code></p>
+
+<ul>
+  <li>ورودی های یک سرویس مشخص را فهرست میکند :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span><code class="language-plaintext highlighter-rouge"> -h</code></p>
+
+<ul>
+  <li>حذف یک سرویس مشخص از خروجی عیب یابی :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys --skip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span></p>
+
+<ul>
+  <li>تعیین فرصت زمانی بر مبنای ثانیه (پیش فرض 10ثانیه) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span></p>

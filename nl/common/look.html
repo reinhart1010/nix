@@ -1,0 +1,30 @@
+<h1 id="look">look</h1>
+
+<p>Toon regels die beginnen met een prefix in een gesorteerd bestand.
+Let op: de regels in het bestand moeten gesorteerd zijn.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">grep</code>, <code class="language-plaintext highlighter-rouge">sort</code>.
+Meer informatie: <a href="https://man.openbsd.org/look">https://man.openbsd.org/look</a>.</p>
+
+<ul>
+  <li>Zoek naar regels die beginnen met een specifieke prefix in een specifiek bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Zoek hoofdletterongevoelig ([f]) alleen op alfanumerieke tekens ([d]):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look -f -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Specificeer een string-[t]erminatiekarakter (standaard is spatie):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span></p>
+
+<ul>
+  <li>Zoek in <code class="language-plaintext highlighter-rouge">/usr/share/dict/words</code> (<code class="language-plaintext highlighter-rouge">--ignore-case</code> en <code class="language-plaintext highlighter-rouge">--alphanum</code> worden aangenomen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span></p>

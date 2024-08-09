@@ -1,0 +1,40 @@
+<h1 id="btrfs-subvolume">btrfs subvolume</h1>
+
+<p>Gerencia subvolumes e snapshots btrfs.
+Mais informações: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html">https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html</a>.</p>
+
+<ul>
+  <li>Cria um novo subvolume vazio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/novo_subvolume</span></p>
+
+<ul>
+  <li>Lista todos os subvolumes e snapshots no sistema de arquivos especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/sistema_de_arquivos_btrfs</span></p>
+
+<ul>
+  <li>Exclui um subvolume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/subvolume</span></p>
+
+<ul>
+  <li>Cria um snapshot somente leitura de um subvolume existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume snapshot -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/subvolume_de_origem</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/destino</span></p>
+
+<ul>
+  <li>Cria um snapshot de leitura/gravação de um subvolume existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume snapshot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/subvolume_de_origem</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/destino</span></p>
+
+<ul>
+  <li>Mostra informações detalhadas sobre um subvolume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/subvolume</span></p>

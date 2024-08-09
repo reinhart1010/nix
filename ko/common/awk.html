@@ -1,0 +1,52 @@
+<h1 id="awk">awk</h1>
+
+<p>파일 작업을 위한 다목적 프로그래밍 언어.
+더 많은 정보: <a href="https://github.com/onetrueawk/awk">https://github.com/onetrueawk/awk</a>.</p>
+
+<ul>
+  <li>공백으로 구분 된 파일의 다섯 번째 열 (일명 필드)를 출력하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{print $5}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>공백으로 구분 된 파일에서 <code class="language-plaintext highlighter-rouge">foo</code>을 포함한 두 번째 열 출력하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge">/ {print $2}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>공백이 아닌 쉼표를 필드 구분 기호로 사용한 파일에서 각 줄의 마지막 열을 출력하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk -F ',' '{print $NF}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>파일의 첫 번째 열에 있는 값을 더하고 합계를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{s+=$1} END {print s}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>첫 번째 열에 있는 값을 더하고 값들을 출력하고 합계를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{s+=$1; print $1} END {print "--------"; print s}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>첫 번째 줄부터 시작하여 세 번째 줄까지 모두 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk 'NR%3==1' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>세 번째 열부터 시작하여 모든 값을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{ s = ""; for (i=3; i &lt;= NF; i++) s = s $i " "; print s }'</code></p>
+
+<ul>
+  <li>조건에 따라 다른 값을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}'</code></p>

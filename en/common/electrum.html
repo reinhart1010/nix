@@ -1,0 +1,46 @@
+<h1 id="electrum">electrum</h1>
+
+<p>Ergonomic Bitcoin wallet and private key management.
+More information: <a href="https://electrum.org">https://electrum.org</a>.</p>
+
+<ul>
+  <li>Create a new wallet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_wallet.dat</span><code class="language-plaintext highlighter-rouge"> create</code></p>
+
+<ul>
+  <li>Restore an existing wallet from seed offline:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recovery_wallet.dat</span><code class="language-plaintext highlighter-rouge"> restore -o</code></p>
+
+<ul>
+  <li>Create a signed transaction offline:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum mktx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recipient</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amount</span><code class="language-plaintext highlighter-rouge"> -f 0.0000001 -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from</span><code class="language-plaintext highlighter-rouge"> -o</code></p>
+
+<ul>
+  <li>Display all wallet receiving addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum listaddresses -a</code></p>
+
+<ul>
+  <li>Sign a message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum signmessage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span></p>
+
+<ul>
+  <li>Verify a message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum verifymessage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">signature</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span></p>
+
+<ul>
+  <li>Connect only to a specific electrum-server instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum -p socks5:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span><code class="language-plaintext highlighter-rouge">:9050 -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">56ckl5obj37gypcu.onion</span><code class="language-plaintext highlighter-rouge">:50001:t -1</code></p>

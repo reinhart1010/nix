@@ -1,0 +1,40 @@
+<h1 id="rgpt">rgpt</h1>
+
+<p>An automated code review tool that uses GPT you can use straight from your terminal.
+More information: <a href="https://github.com/vibovenkat123/review-gpt">https://github.com/vibovenkat123/review-gpt</a>.</p>
+
+<ul>
+  <li>Ask GPT to improve the code with no extra options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>Get a more detailed verbose output from <code class="language-plaintext highlighter-rouge">rgpt</code> while reviewing the code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --v --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>Ask GPT to improve the code and limit it to a certain amount of GPT3 tokens:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --max </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span><code class="language-plaintext highlighter-rouge"> --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>Ask GPT for a more unique result using a float value between 0 and 2. (higher = more unique):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --pres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2</span><code class="language-plaintext highlighter-rouge"> --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>Ask GPT to review your code using a specific model:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">davinci</span><code class="language-plaintext highlighter-rouge"> --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>Make <code class="language-plaintext highlighter-rouge">rgpt</code> use a JSON output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --json --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">)"</code></p>

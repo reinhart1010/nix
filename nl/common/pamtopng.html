@@ -1,0 +1,29 @@
+<h1 id="pamtopng">pamtopng</h1>
+
+<p>Converteer een PAM afbeelding naar PNG.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">pnmtopng</code>, <code class="language-plaintext highlighter-rouge">pngtopam</code>.
+Meer informatie: <a href="https://netpbm.sourceforge.net/doc/pamtopng.html">https://netpbm.sourceforge.net/doc/pamtopng.html</a>.</p>
+
+<ul>
+  <li>Converteer de gespecificeerde PAM afbeelding naar PNG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtopng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.png</span></p>
+
+<ul>
+  <li>Markeer de gespecificeerde kleur als transparent in de uitvoer-afbeelding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtopng -transparent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kleur</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.png</span></p>
+
+<ul>
+  <li>Voeg de tekst in gespecificeerde bestand toe als tEXt chunks in de uitvoer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtopng -text </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.png</span></p>
+
+<ul>
+  <li>Zorg ervoor dat het uitvoerbestand geïnterlaced is in Adam7-formaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtopng -interlace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.png</span></p>

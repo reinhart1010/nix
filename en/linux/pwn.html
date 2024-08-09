@@ -1,0 +1,52 @@
+<h1 id="pwn">pwn</h1>
+
+<p>Exploit Development Library designed for rapid prototyping.
+More information: <a href="https://docs.pwntools.com/en/stable/commandline.html">https://docs.pwntools.com/en/stable/commandline.html</a>.</p>
+
+<ul>
+  <li>Convert the given assembly code to <code class="language-plaintext highlighter-rouge">bytes</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn asm "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xor edi, edi</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create a cyclic pattern of the specific number of characters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn cyclic </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span></p>
+
+<ul>
+  <li>Encode the given data into the hexadecimal system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn hex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deafbeef</span></p>
+
+<ul>
+  <li>Decode the given data from hexadecimal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn unhex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6c4f7645</span></p>
+
+<ul>
+  <li>Print a x64 Linux shellcode for running a shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn shellcraft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amd64.linux.sh</span></p>
+
+<ul>
+  <li>Check the binary security settings for the given ELF file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn checksec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check for Pwntools updates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn update</code></p>
+
+<ul>
+  <li>Display version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn version</code></p>

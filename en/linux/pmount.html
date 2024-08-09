@@ -1,0 +1,34 @@
+<h1 id="pmount">pmount</h1>
+
+<p>Mount arbitrary hotpluggable devices as a normal user.
+More information: <a href="https://manned.org/pmount">https://manned.org/pmount</a>.</p>
+
+<ul>
+  <li>Mount a device below <code class="language-plaintext highlighter-rouge">/media/</code> (using device as mount point):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/to/block/device</span></p>
+
+<ul>
+  <li>Mount a device with a specific filesystem type to <code class="language-plaintext highlighter-rouge">/media/label</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmount --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/to/block/device</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label</span></p>
+
+<ul>
+  <li>Mount a CD-ROM (filesystem type ISO9660) in read-only mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmount --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iso9660</span><code class="language-plaintext highlighter-rouge"> --read-only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/cdrom</span></p>
+
+<ul>
+  <li>Mount an NTFS-formatted disk, forcing read-write access:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmount --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntfs</span><code class="language-plaintext highlighter-rouge"> --read-write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Display all mounted removable devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmount</code></p>

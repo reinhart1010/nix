@@ -1,0 +1,28 @@
+<h1 id="log">log</h1>
+
+<p>Visualizza, esporta e configura i sistemi di log.
+Maggiori informazioni: <a href="https://keith.github.io/xcode-man-pages/log.1.html">https://keith.github.io/xcode-man-pages/log.1.html</a>.</p>
+
+<ul>
+  <li>Mostra i log di sistema in diretta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">log stream</code></p>
+
+<ul>
+  <li>Mostra i log mandati a <code class="language-plaintext highlighter-rouge">syslog</code> da processi con un PID specifico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">log stream --process </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ID_processo</span></p>
+
+<ul>
+  <li>Mostra i log mandati a <code class="language-plaintext highlighter-rouge">syslog</code> da processi con un nome specifico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">log show --predicate "process == '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge">'"</code></p>
+
+<ul>
+  <li>Esporta sul disco tutti i log dell'ultima ora:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo log collect --last </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1h</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.logarchive</span></p>

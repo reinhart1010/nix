@@ -1,0 +1,53 @@
+<h1 id="mist">mist</h1>
+
+<p>MIST - macOS Installer Super Tool.
+Automatically download macOS Firmwares/Installers.
+More information: <a href="https://github.com/ninxsoft/mist-cli">https://github.com/ninxsoft/mist-cli</a>.</p>
+
+<ul>
+  <li>List all available macOS Firmwares for Apple Silicon Macs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mist list firmware</code></p>
+
+<ul>
+  <li>List all available macOS Installers for Intel Macs, including Universal Installers for macOS Big Sur and later:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mist list installer</code></p>
+
+<ul>
+  <li>List all macOS Installers that are compatible with this Mac, including Universal Installers for macOS Big Sur and later:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mist list installer --compatible</code></p>
+
+<ul>
+  <li>List all available macOS Installers for Intel Macs, including betas, also including Universal Installers for macOS Big Sur and later:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mist list installer --include-betas</code></p>
+
+<ul>
+  <li>List only the latest macOS Sonoma Installer for Intel Macs, including Universal Installers for macOS Big Sur and later:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mist list installer --latest "macOS Sonoma"</code></p>
+
+<ul>
+  <li>List and export macOS Installers to a CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mist list installer --export "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/export.csv</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download the latest macOS Sonoma Firmware for Apple Silicon Macs, with a custom name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mist download firmware "macOS Sonoma" --firmware-name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Install %NAME% %VERSION%-%BUILD%.ipsw</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download a specific macOS Installer version for Intel Macs, including Universal Installers for macOS Big Sur and later:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mist download installer "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">13.5.2</span><code class="language-plaintext highlighter-rouge">" application</code></p>

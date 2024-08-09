@@ -1,0 +1,22 @@
+<h1 id="cut">cut</h1>
+
+<p>Snij velden eruit vanuit <code class="language-plaintext highlighter-rouge">stdin</code> of bestanden.
+Meer informatie: <a href="https://keith.github.io/xcode-man-pages/cut.1.html">https://keith.github.io/xcode-man-pages/cut.1.html</a>.</p>
+
+<ul>
+  <li>Toon een specifiek karakter/veldbereik voor iedere regel:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | cut -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c|f</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span></p>
+
+<ul>
+  <li>Toon een bereik voor iedere regel met een specifieke scheiding:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | cut -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span><code class="language-plaintext highlighter-rouge">" -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Toon een bereik van iedere regel voor een specifiek bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

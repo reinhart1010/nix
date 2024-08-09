@@ -1,0 +1,40 @@
+<h1 id="taskkill">taskkill</h1>
+
+<p>Terminate a process by its process ID or name.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill">https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill</a>.</p>
+
+<ul>
+  <li>Terminate a process by its ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span></p>
+
+<ul>
+  <li>Terminate a process by its name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /im </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span></p>
+
+<ul>
+  <li>Forcefully terminate a specified process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span><code class="language-plaintext highlighter-rouge"> /f</code></p>
+
+<ul>
+  <li>Terminate a process and its child processes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /im </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge"> /t</code></p>
+
+<ul>
+  <li>Terminate a process on a remote machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span><code class="language-plaintext highlighter-rouge"> /s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span></p>
+
+<ul>
+  <li>Display information about the usage of the command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /?</code></p>

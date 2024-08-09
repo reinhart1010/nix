@@ -1,0 +1,47 @@
+<h1 id="chpass">chpass</h1>
+
+<p>사용자 데이터베이스 정보, 로그인 쉘 및 비밀번호를 추가하거나 변경합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">passwd</code>.
+더 많은 정보: <a href="https://man.freebsd.org/cgi/man.cgi?chpass">https://man.freebsd.org/cgi/man.cgi?chpass</a>.</p>
+
+<ul>
+  <li>현재 사용자의 사용자 데이터베이스 정보를 대화식으로 추가하거나 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>현재 사용자의 로그인 쉘 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/쉘</span></p>
+
+<ul>
+  <li>특정 사용자의 로그인 쉘 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/쉘</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>계정 만료 시간 변경 (에포크로부터 초 단위, UTC):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시간</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>사용자 비밀번호 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호화된_비밀번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>조회할 NIS 서버의 호스트명 또는 주소 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>특정 NIS 도메인 지정 (기본값은 시스템 도메인 이름):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge">'</code></p>

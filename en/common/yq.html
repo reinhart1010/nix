@@ -1,0 +1,52 @@
+<h1 id="yq">yq</h1>
+
+<p>A lightweight and portable command-line YAML processor.
+More information: <a href="https://mikefarah.gitbook.io/yq/">https://mikefarah.gitbook.io/yq/</a>.</p>
+
+<ul>
+  <li>Output a YAML file, in pretty-print format (v4+):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq eval </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yaml</span></p>
+
+<ul>
+  <li>Output a YAML file, in pretty-print format (v3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yaml</span><code class="language-plaintext highlighter-rouge"> --colors</code></p>
+
+<ul>
+  <li>Output the first element in a YAML file that contains only an array (v4+):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq eval '.[0]' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yaml</span></p>
+
+<ul>
+  <li>Output the first element in a YAML file that contains only an array (v3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yaml</span><code class="language-plaintext highlighter-rouge"> '[0]'</code></p>
+
+<ul>
+  <li>Set (or overwrite) a key to a value in a file (v4+):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq eval '.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge"> = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">"' --inplace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yaml</span></p>
+
+<ul>
+  <li>Set (or overwrite) a key to a value in a file (v3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq write --inplace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yaml</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Merge two files and print to <code class="language-plaintext highlighter-rouge">stdout</code> (v4+):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq eval-all 'select(filename == "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.yaml</span><code class="language-plaintext highlighter-rouge">") * select(filename == "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.yaml</span><code class="language-plaintext highlighter-rouge">")' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.yaml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.yaml</span></p>
+
+<ul>
+  <li>Merge two files and print to <code class="language-plaintext highlighter-rouge">stdout</code> (v3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.yaml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.yaml</span><code class="language-plaintext highlighter-rouge"> --colors</code></p>

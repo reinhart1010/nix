@@ -1,0 +1,42 @@
+<h1 id="resolvconf">resolvconf</h1>
+
+<p>Manage nameserver information.
+Acts as an intermediary between programs that supply nameserver information and applications that use this information.
+This page documents Debian's implementation of <code class="language-plaintext highlighter-rouge">resolvconf</code>.
+More information: <a href="https://manned.org/resolvconf.8">https://manned.org/resolvconf.8</a>.</p>
+
+<ul>
+  <li>Add or override the IFACE.PROG record and run the update scripts if updating is enabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvconf -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IFACE.PROG</span></p>
+
+<ul>
+  <li>Delete the IFACE.PROG record and run the update scripts if updating is enabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvconf -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IFACR.PROG</span></p>
+
+<ul>
+  <li>Just run the update scripts if updating is enabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvconf -u</code></p>
+
+<ul>
+  <li>Set the flag indicating whether <code class="language-plaintext highlighter-rouge">resolvconf</code> should run update scripts when invoked with <code class="language-plaintext highlighter-rouge">-a</code>, <code class="language-plaintext highlighter-rouge">-d</code> or <code class="language-plaintext highlighter-rouge">-u</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvconf --enable-updates</code></p>
+
+<ul>
+  <li>Clear the flag indicating whether to run updates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvconf --disable-updates</code></p>
+
+<ul>
+  <li>Check whether updates are enabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvconf --updates-are-enabled</code></p>

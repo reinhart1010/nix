@@ -1,0 +1,29 @@
+<h1 id="cavif">cavif</h1>
+
+<p>Convert PNG/JPEG images to AVIF. Written in Rust.
+See also: <code class="language-plaintext highlighter-rouge">convert</code>.
+More information: <a href="https://github.com/kornelski/cavif-rs">https://github.com/kornelski/cavif-rs</a>.</p>
+
+<ul>
+  <li>Convert a JPEG file to AVIF, saving it to <code class="language-plaintext highlighter-rouge">file.avif</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cavif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span></p>
+
+<ul>
+  <li>Adjust the image quality and convert a PNG file to AVIF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cavif --quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.png</span></p>
+
+<ul>
+  <li>Specify the output location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cavif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.avif</span></p>
+
+<ul>
+  <li>Overwrite the destination file if it already exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cavif --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span></p>

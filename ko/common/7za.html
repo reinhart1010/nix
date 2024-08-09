@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="7za">7za</h1>
+
+<p>높은 파일 압축률을 보여주는 파일 압축 프로그램.
+더 적은 압축 타입을 지원하지만, 크로스플랫폼인 점을 제외하면 <code class="language-plaintext highlighter-rouge">7z</code>과 유사합니다.
+더 많은 정보: <a href="https://manned.org/7za">https://manned.org/7za</a>.</p>
+
+<ul>
+  <li>파일이나 디렉토리 압축하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/archived.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_혹은_디렉토리/의/경로</span></p>
+
+<ul>
+  <li>압축파일 암호화 (including file names):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/encrypted.7z</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -mhe=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/archive.7z</span></p>
+
+<ul>
+  <li>기존 디렉토리 경로에 존재하는 7z 파일 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.7z</span></p>
+
+<ul>
+  <li>특정 디렉토리에 압축파일 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/archive.7z</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아웃풋/의/경로</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdout</code>에 압축파일 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/archive.7z</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>특정 압축 타입을 이용하여 추출하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zip|gzip|bzip2|tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archived</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>압축 파일의 내용 리스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/archive.7z</span></p>

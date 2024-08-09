@@ -1,0 +1,52 @@
+<h1 id="git-notes">git notes</h1>
+
+<p>Add or inspect object notes.
+More information: <a href="https://git-scm.com/docs/git-notes">https://git-scm.com/docs/git-notes</a>.</p>
+
+<ul>
+  <li>List all notes and the objects they are attached to:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes list</code></p>
+
+<ul>
+  <li>List all notes attached to a given object (defaults to HEAD):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes list [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>Show the notes attached to a given object (defaults to HEAD):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes show [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>Append a note to a specified object (opens the default text editor):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object</span></p>
+
+<ul>
+  <li>Append a note to a specified object, specifying the message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes append --message="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message_text</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Edit an existing note (defaults to HEAD):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes edit [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>Copy a note from one object to another:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_object</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_object</span></p>
+
+<ul>
+  <li>Remove all the notes added to a specified object:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object</span></p>

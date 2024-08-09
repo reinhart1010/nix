@@ -1,0 +1,34 @@
+<h1 id="dvc-diff">dvc diff</h1>
+
+<p>Show changes in DVC tracked file and directories.
+More information: <a href="https://dvc.org/doc/command-reference/diff">https://dvc.org/doc/command-reference/diff</a>.</p>
+
+<ul>
+  <li>Compare DVC tracked files from different Git commits, tags, and branches w.r.t the current workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash/tag/branch</span></p>
+
+<ul>
+  <li>Compare the changes in DVC tracked files from 1 Git commit to another:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision2</span></p>
+
+<ul>
+  <li>Compare DVC tracked files, along with their latest hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc diff --show-hash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Compare DVC tracked files, displaying the output as JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc diff --show-json --show-hash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Compare DVC tracked files, displaying the output as Markdown:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc diff --show-md --show-hash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

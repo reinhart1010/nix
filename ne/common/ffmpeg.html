@@ -1,0 +1,52 @@
+<h1 id="ffmpeg">ffmpeg</h1>
+
+<p>भिडियो रूपान्तरण उपकरण।
+थप जानकारी: <a href="https://ffmpeg.org">https://ffmpeg.org</a>।</p>
+
+<ul>
+  <li>भिडियोबाट ध्वनि निकाल्नुहोस् र MP3 को रूपमा सेभ गर्नुहोस:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">भिडियो.mp4</span><code class="language-plaintext highlighter-rouge"> -vn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ध्वनि</span><code class="language-plaintext highlighter-rouge">.mp3</code></p>
+
+<ul>
+  <li>भिडियोको उचाइ 1000px मा स्केल गर्दै र फ्रेमरेटलाई 15 राखेर GIF को रूपमा सेभ गर्नुहोस:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">भिडियो.mp4</span><code class="language-plaintext highlighter-rouge"> -vf 'scale=-1:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000</span><code class="language-plaintext highlighter-rouge">' -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">15</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट.gif</span></p>
+
+<ul>
+  <li>अंकित छविहरूलाइ(<code class="language-plaintext highlighter-rouge">फ्रेम_1.jpg</code>, <code class="language-plaintext highlighter-rouge">फ्रेम_2.jpg</code>, आदि) भिडियो वा GIF मा जोड्नुहोस:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ्रेम_%d.jpg</span><code class="language-plaintext highlighter-rouge"> -f image2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">भिडियो.mpg|भिडियो.gif</span></p>
+
+<ul>
+  <li>भिडियोको mm:ss बाट एकल फ्रेम निकाल्नुहोस् र यसलाई 128x128 रिजोल्युसनको छविको रूपमा सेभ गर्नुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -ss </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm:ss</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">भिडियो.mp4</span><code class="language-plaintext highlighter-rouge"> -frames 1 -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">128x128</span><code class="language-plaintext highlighter-rouge"> -f image2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">छवि.png</span></p>
+
+<ul>
+  <li>दिइएको सुरु समय mm:ss देखि अन्त्यसमय mm2:ss2 सम्म भिडियोलाइ काट्नुहोस (अन्त्य सम्म नै काट्नलाई -to फ्ल्याग हटाउनुहोस्):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -ss </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm:ss</span><code class="language-plaintext highlighter-rouge"> -to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm2:ss2</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">भिडियो.mp4</span><code class="language-plaintext highlighter-rouge"> -codec copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट.mp4</span></p>
+
+<ul>
+  <li>AVI भिडियोलाई MP4 मा रूपान्तरण गर्नुहोस्। अडियोको 128kbit बिटरेट राखेर AAC मा, भिडियोको CRF 23 राखेर h264 मा:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_भिडियो</span><code class="language-plaintext highlighter-rouge">.avi -codec:a aac -b:a 128k -codec:v libx264 -crf 23 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_भिडियो</span><code class="language-plaintext highlighter-rouge">.mp4</code></p>
+
+<ul>
+  <li>MKV भिडियोको अडियो वा भिडियो स्ट्रिमहरू पुन: एन्कोडिङ नगरी हानिरहित ढाँचामा MP4 मा बदल्नुहोस:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_भिडियो</span><code class="language-plaintext highlighter-rouge">.mkv -codec copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_भिडियो</span><code class="language-plaintext highlighter-rouge">.mp4</code></p>
+
+<ul>
+  <li>MP4 भिडियोलाई VP9 कोडेकमा रूपान्तरण गर्नुहोस्। उत्कृष्ट गुणस्तरको लागि, CRF फ्ल्यागको प्रयोग गर्नुहोस् (सिफारिस गरिएको दायरा 15-35) र <code class="language-plaintext highlighter-rouge">-b:v 0</code> पनि प्रयोग गर्नुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_भिडियो</span><code class="language-plaintext highlighter-rouge">.mp4 -codec:v libvpx-vp9 -crf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span><code class="language-plaintext highlighter-rouge"> -b:v 0 -codec:a libopus -vbr on -threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">थ्रेड_संख्या</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_भिडियो</span><code class="language-plaintext highlighter-rouge">.webm</code></p>

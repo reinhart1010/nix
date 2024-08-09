@@ -1,0 +1,53 @@
+<h1 id="hledger-balance">hledger balance</h1>
+
+<p>Un informe "sumatorio" flexible y de propósito general que muestra cuentas con algún tipo de dato numérico.
+Puede tratarse de cambios de saldo por periodo, saldos finales, rendimiento presupuestario, plusvalías latentes, etc.
+Más información: <a href="https://hledger.org/hledger.html#balance">https://hledger.org/hledger.html#balance</a>.</p>
+
+<ul>
+  <li>Muestra el cambio de saldo en todas las cuentas de todas las contabilizaciones a lo largo de todo el tiempo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger balance</code></p>
+
+<ul>
+  <li>Muestra el cambio de saldo en las cuentas denominadas <code class="language-plaintext highlighter-rouge">*gastos*</code>, como un árbol, resumiendo solo los dos niveles superiores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger balance </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gastos</span><code class="language-plaintext highlighter-rouge"> --tree --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Muestra los gastos de cada mes, y sus totales y medias, ordenados por total; y sus objetivos presupuestarios mensuales:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger balance </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gastos</span><code class="language-plaintext highlighter-rouge"> --monthly --row-total --average --sort-amount --budget</code></p>
+
+<ul>
+  <li>Similar a la anterior, de forma más corta, comparando las cuentas por tipo de <code class="language-plaintext highlighter-rouge">Gastos</code>, como un árbol de dos niveles sin aplastar las cuentas aburridas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger bal type:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">X</span><code class="language-plaintext highlighter-rouge"> -MTAS --budget -t -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --no-elide</code></p>
+
+<ul>
+  <li>Muestra saldos finales (incluidos los de contabilizaciones anteriores a la fecha de inicio), trimestrales en 2024, en cuentas denominadas <code class="language-plaintext highlighter-rouge">*activos*</code> o <code class="language-plaintext highlighter-rouge">*pasivos*</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger balance --historical --period '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trimestral en 2024</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">activos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pasivos</span></p>
+
+<ul>
+  <li>Similar al anterior, de un modo más breve; también muestra saldos en cero, ordena por total y resume a tres niveles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger bal -HQ date:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2024</span><code class="language-plaintext highlighter-rouge"> type:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AL</span><code class="language-plaintext highlighter-rouge"> -ES -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Muestra el valor de mercado de los activos de inversión en moneda base al final de cada trimestre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger bal -HVQ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">activos:inversiones</span></p>
+
+<ul>
+  <li>Muestra las ganancias/pérdidas de capital no realizadas por cambios en el precio de mercado en cada trimestre, para activos de inversión que no sean criptomonedas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger bal --gain -Q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">activos:inversiones</span><code class="language-plaintext highlighter-rouge"> not:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">criptomoneda</span></p>

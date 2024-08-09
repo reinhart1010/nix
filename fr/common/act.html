@@ -1,0 +1,46 @@
+<h1 id="act">act</h1>
+
+<p>Execute des GitHub Actions en local avec Docker.
+Plus d'informations : <a href="https://github.com/nektos/act">https://github.com/nektos/act</a>.</p>
+
+<ul>
+  <li>[l]iste les jobs disponibles :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -l</code></p>
+
+<ul>
+  <li>Execute l'événement par défault :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act</code></p>
+
+<ul>
+  <li>Execute un événement spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type_d_événement</span></p>
+
+<ul>
+  <li>Execute un [j]ob spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_job</span></p>
+
+<ul>
+  <li>Ne pas lancer les actions maintenant (e.g un essai) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -n</code></p>
+
+<ul>
+  <li>Affiche le journal en mode verbeux :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -v</code></p>
+
+<ul>
+  <li>Execute un [W]orkflow en particulier, avec l'événement push :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act push -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/workflow</span></p>

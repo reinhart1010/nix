@@ -1,0 +1,40 @@
+<h1 id="gum">gum</h1>
+
+<p>Make glamorous shell scripts.
+More information: <a href="https://github.com/charmbracelet/gum">https://github.com/charmbracelet/gum</a>.</p>
+
+<ul>
+  <li>Interactively pick a specific option to print to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum choose "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option_1</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option_2</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option_3</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Open an interactive prompt for the user to input a string with a specific placeholder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum input --placeholder "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Open an interactive confirmation prompt and exit with either <code class="language-plaintext highlighter-rouge">0</code> or <code class="language-plaintext highlighter-rouge">1</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum confirm "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Continue?</span><code class="language-plaintext highlighter-rouge">" --default=false --affirmative "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Yes</span><code class="language-plaintext highlighter-rouge">" --negative "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">No</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">&amp;&amp; echo "Yes selected" || echo "No selected"</span></p>
+
+<ul>
+  <li>Show a spinner while a command is taking place with text alongside:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum spin --spinner </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger</span><code class="language-plaintext highlighter-rouge"> --title "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">loading…</span><code class="language-plaintext highlighter-rouge">" -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Format text to include emojis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum format -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emoji</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:smile: :heart: hello</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Interactively prompt for multi-line text (CTRL + D to save) and write to <code class="language-plaintext highlighter-rouge">data.txt</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum write &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.txt</span></p>

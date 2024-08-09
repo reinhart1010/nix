@@ -1,0 +1,28 @@
+<h1 id="hledger-aregister">hledger aregister</h1>
+
+<p>Show the transactions and running balances in one account, with each transaction on one line.
+More information: <a href="https://hledger.org/hledger.html#aregister">https://hledger.org/hledger.html#aregister</a>.</p>
+
+<ul>
+  <li>Show transactions and running balance in the <code class="language-plaintext highlighter-rouge">assets:bank:checking</code> account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger aregister assets:bank:checking</code></p>
+
+<ul>
+  <li>Show transactions and running balance in the first account named <code class="language-plaintext highlighter-rouge">*savings*</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger aregister savings</code></p>
+
+<ul>
+  <li>Show the checking account's cleared transactions, with a specified width:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger aregister checking --cleared --width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">120</span></p>
+
+<ul>
+  <li>Show the checking register, including transactions from forecast rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger aregister checking --forecast</code></p>

@@ -1,0 +1,52 @@
+<h1 id="read">read</h1>
+
+<p>Shell builtin for retrieving data from <code class="language-plaintext highlighter-rouge">stdin</code>.
+More information: <a href="https://manned.org/read.1p">https://manned.org/read.1p</a>.</p>
+
+<ul>
+  <li>Store data that you type from the keyboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Store each of the next lines you enter as values of an array:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">array</span></p>
+
+<ul>
+  <li>Specify the number of maximum characters to be read:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">character_count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Use a specific character as a delimiter instead of a new line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_delimiter</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Do not let backslash (\) act as an escape character:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Display a prompt before the input:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -p "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Enter your input here: </span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Do not echo typed characters (silent mode):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Read <code class="language-plaintext highlighter-rouge">stdin</code> and perform an action on every line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while read line; do echo "$line"; done</code></p>

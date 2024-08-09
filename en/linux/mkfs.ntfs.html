@@ -1,0 +1,22 @@
+<h1 id="mkfsntfs">mkfs.ntfs</h1>
+
+<p>Create a NTFS filesystem inside a partition.
+More information: <a href="https://manned.org/mkfs.ntfs">https://manned.org/mkfs.ntfs</a>.</p>
+
+<ul>
+  <li>Create a NTFS filesystem inside partition 1 on device b (<code class="language-plaintext highlighter-rouge">sdb1</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.ntfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Create filesystem with a volume-label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.ntfs -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_label</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Create filesystem with specific UUID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.ntfs -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UUID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

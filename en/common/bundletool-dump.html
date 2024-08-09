@@ -1,0 +1,46 @@
+<h1 id="bundletool-dump">bundletool dump</h1>
+
+<p>Manipulate Android Application Bundles.
+More information: <a href="https://developer.android.com/tools/bundletool">https://developer.android.com/tools/bundletool</a>.</p>
+
+<ul>
+  <li>Display the <code class="language-plaintext highlighter-rouge">AndroidManifest.xml</code> of the base module:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump manifest --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bundle.aab</span></p>
+
+<ul>
+  <li>Display a specific value from the <code class="language-plaintext highlighter-rouge">AndroidManifest.xml</code> using XPath:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump manifest --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --xpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/manifest/@android:versionCode</span></p>
+
+<ul>
+  <li>Display the <code class="language-plaintext highlighter-rouge">AndroidManifest.xml</code> of a specific module:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump manifest --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Display all the resources in the application bundle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump resources --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bundle.aab</span></p>
+
+<ul>
+  <li>Display the configuration for a specific resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump resources --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --resource </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type/name</span></p>
+
+<ul>
+  <li>Display the configuration and values for a specific resource using the ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump resources --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --resource </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0x7f0e013a</span><code class="language-plaintext highlighter-rouge"> --values</code></p>
+
+<ul>
+  <li>Display the contents of the bundle configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump config --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bundle.aab</span></p>

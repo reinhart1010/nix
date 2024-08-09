@@ -1,0 +1,52 @@
+<h1 id="awk">awk</h1>
+
+<p>一种用于文件处理的通用编程语言。
+更多信息：<a href="https://github.com/onetrueawk/awk">https://github.com/onetrueawk/awk</a>.</p>
+
+<ul>
+  <li>以空格为分隔符，打印文件每行第五列（也称作字段）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{print $5}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>以空格为分隔符，打印文件包含“foo” 的所有行的第二列：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge">/ {print $2}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>以逗号而不是空格作为分隔符，打印文件每行的最后一列：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk -F ',' '{print $NF}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>计算文件的第一列数值之和并打印：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{s+=$1} END {print s}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>从第一行开始，每三行打印一行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk 'NR%3==1' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>根据条件不同，打印不同内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>打印第 10 列等于指定值的所有行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '($10 == 指定值)'</code></p>
+
+<ul>
+  <li>打印第 10 列介于最小值和最大值之间的所有行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '($10 &gt;= 最小值 &amp;&amp; $10 &lt;= 最大值)'</code></p>

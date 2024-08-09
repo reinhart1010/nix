@@ -1,0 +1,47 @@
+<h1 id="cargo-rustdoc">cargo rustdoc</h1>
+
+<p>Build the documentation of Rust packages.
+Similar to <code class="language-plaintext highlighter-rouge">cargo doc</code>, but you can pass options to <code class="language-plaintext highlighter-rouge">rustdoc</code>. See <code class="language-plaintext highlighter-rouge">rustdoc --help</code> for all available options.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html">https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html</a>.</p>
+
+<ul>
+  <li>Pass options to <code class="language-plaintext highlighter-rouge">rustdoc</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rustdoc_options</span></p>
+
+<ul>
+  <li>Warn about a documentation lint:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc -- --warn rustdoc::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lint_name</span></p>
+
+<ul>
+  <li>Ignore a documentation lint:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc -- --allow rustdoc::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lint_name</span></p>
+
+<ul>
+  <li>Document the package's library:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --lib</code></p>
+
+<ul>
+  <li>Document the specified binary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Document the specified example:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --example </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Document the specified integration test:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

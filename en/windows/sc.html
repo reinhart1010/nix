@@ -1,0 +1,28 @@
+<h1 id="sc">sc</h1>
+
+<p>Communicate with the Service Control Manager and services.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/sc-query">https://learn.microsoft.com/windows-server/administration/windows-commands/sc-query</a>.</p>
+
+<ul>
+  <li>Show the status of a service (no service name will list all services):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span></p>
+
+<ul>
+  <li>Start a service asynchronously:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> binpath= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\service_binary_file</span></p>
+
+<ul>
+  <li>Stop a service asynchronously:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span></p>
+
+<ul>
+  <li>Set the type of a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> type= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_type</span></p>

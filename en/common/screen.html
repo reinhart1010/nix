@@ -1,0 +1,53 @@
+<h1 id="screen">screen</h1>
+
+<p>Hold a session open on a remote server. Manage multiple windows with a single SSH connection.
+See also <code class="language-plaintext highlighter-rouge">tmux</code> and <code class="language-plaintext highlighter-rouge">zellij</code>.
+More information: <a href="https://manned.org/screen">https://manned.org/screen</a>.</p>
+
+<ul>
+  <li>Start a new screen session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen</code></p>
+
+<ul>
+  <li>Start a new named screen session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_name</span></p>
+
+<ul>
+  <li>Start a new daemon and log the output to <code class="language-plaintext highlighter-rouge">screenlog.x</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen -dmLS </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Show open screen sessions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen -ls</code></p>
+
+<ul>
+  <li>Reattach to an open screen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_name</span></p>
+
+<ul>
+  <li>Detach from inside a screen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + A, D</code></p>
+
+<ul>
+  <li>Kill the current screen session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + A, K</code></p>
+
+<ul>
+  <li>Kill a detached screen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen -X -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_name</span><code class="language-plaintext highlighter-rouge"> quit</code></p>

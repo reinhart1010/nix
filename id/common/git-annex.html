@@ -1,0 +1,41 @@
+<h1 id="git-annex">git annex</h1>
+
+<p>Kelola file dengan Git, tanpa memeriksa isi kontennya.
+Saat file dianeksasi, kontennya dipindahkan ke penyimpanan key-value, dan symlink dibuat yang mengarah ke konten tersebut.
+Informasi lebih lanjut: <a href="https://git-annex.branchable.com">https://git-annex.branchable.com</a>.</p>
+
+<ul>
+  <li>Inisialisasi sebuah repositori dengan Git annex:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex init</code></p>
+
+<ul>
+  <li>Tambahkan file ke dalam repositori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span></p>
+
+<ul>
+  <li>Tampilkan status file atau direktori saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span></p>
+
+<ul>
+  <li>Sinkronisasikan repositori lokal dengan sumber remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote</span></p>
+
+<ul>
+  <li>Dapatkan isi file atau direktori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span></p>
+
+<ul>
+  <li>Tampilkan informasi bantuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex help</code></p>

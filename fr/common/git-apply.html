@@ -1,0 +1,40 @@
+<h1 id="git-apply">git apply</h1>
+
+<p>Applique un correctif à un fichier et/ou à l index.
+Plus d'informations : <a href="https://git-scm.com/docs/git-apply">https://git-scm.com/docs/git-apply</a>.</p>
+
+<ul>
+  <li>Afficher les messages à propos des fichiers corrigés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Applique le correctif et ajoute les fichiers à l index :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Applique un correctif depuis une source distante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/file.patch</span><code class="language-plaintext highlighter-rouge"> | git apply</code></p>
+
+<ul>
+  <li>Affiche les différences résultantes et applique le correctif :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --stat --apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Applique le correctif en ordre inverse :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --reverse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Stocke le résultat du correctif dans l'index sans modifier la branche courante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --cache </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>

@@ -1,0 +1,40 @@
+<h1 id="pageres">pageres</h1>
+
+<p>Capture screenshots of websites in various resolutions.
+More information: <a href="https://github.com/sindresorhus/pageres-cli">https://github.com/sindresorhus/pageres-cli</a>.</p>
+
+<ul>
+  <li>Take multiple screenshots of multiple URLs at different resolutions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example2.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1366x768</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1600x900</span></p>
+
+<ul>
+  <li>Provide specific options for a URL, overriding global options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1366x768</span><code class="language-plaintext highlighter-rouge"> --no-crop] [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example2.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024x768</span><code class="language-plaintext highlighter-rouge">] --crop</code></p>
+
+<ul>
+  <li>Provide a custom filename template:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024x768</span><code class="language-plaintext highlighter-rouge"> --filename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'&lt;%= date %&gt; - &lt;%= url %&gt;'</span></p>
+
+<ul>
+  <li>Capture a specific element on a page:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1366x768</span><code class="language-plaintext highlighter-rouge"> --selector='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.page-header</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Hide a specific element:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1366x768</span><code class="language-plaintext highlighter-rouge"> --hide='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.page-header</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Capture a screenshot of a local file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_file_path.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1366x768</span></p>

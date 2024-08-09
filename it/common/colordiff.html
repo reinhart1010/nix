@@ -1,0 +1,35 @@
+<h1 id="colordiff">colordiff</h1>
+
+<p>Un'utilità per aggiungere colore all'output diff.
+Colordiff è un wrapper scritto in Perl per <code class="language-plaintext highlighter-rouge">diff</code> e produce lo stesso output, ma con una bella evidenziazione della sintassi. I colori possono essere personalizzati.
+Maggiori informazioni: <a href="https://github.com/kimmel/colordiff">https://github.com/kimmel/colordiff</a>.</p>
+
+<ul>
+  <li>Analisi di due file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colordiff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span></p>
+
+<ul>
+  <li>Output in due colonne:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colordiff -y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span></p>
+
+<ul>
+  <li>Ignora differenze di maiuscole in file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colordiff -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span></p>
+
+<ul>
+  <li>Notifica se file identici:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colordiff -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span></p>
+
+<ul>
+  <li>Ignora spazio vuoto (white space):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colordiff -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span></p>

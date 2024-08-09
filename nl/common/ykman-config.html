@@ -1,0 +1,23 @@
+<h1 id="ykman-config">ykman config</h1>
+
+<p>In- of uitschakelen van YubiKey applicaties.
+Let op: je kan <code class="language-plaintext highlighter-rouge">ykman info</code> gebruiken om de huidige ingeschakelde applicaties te zien.
+Meer informatie: <a href="https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html#ykman-config-options-command-args">https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html#ykman-config-options-command-args</a>.</p>
+
+<ul>
+  <li>Schakel een applicatie in via USB of NFC (<code class="language-plaintext highlighter-rouge">--enable</code> kan meerdere keren gebruikt worden om meerdere applicaties te specificeren):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usb|nfc</span><code class="language-plaintext highlighter-rouge"> --enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">otp|u2f|fido2|oath|piv|openpgp|hsmauth</span></p>
+
+<ul>
+  <li>Schakel een applicatie uit via USB of NFC (<code class="language-plaintext highlighter-rouge">--disable</code> kan meerdere keren gebruikt worden om meerdere applicaties te specificeren):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usb|nfc</span><code class="language-plaintext highlighter-rouge"> --disable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">otp|u2f|fido2|oath|piv|openpgp|hsmauth</span></p>
+
+<ul>
+  <li>Schakel alle applicaties uit via NFC:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config nfc --disable-all</code></p>

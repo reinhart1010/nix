@@ -1,0 +1,40 @@
+<h1 id="hashid">hashid</h1>
+
+<p>Python3 program that identifies data and password hashes.
+More information: <a href="https://github.com/psypanda/hashID">https://github.com/psypanda/hashID</a>.</p>
+
+<ul>
+  <li>Identify hashes from <code class="language-plaintext highlighter-rouge">stdin</code> (through typing, copying and pasting, or piping the hash into the program):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashid</code></p>
+
+<ul>
+  <li>Identify one or more hashes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash1 hash2 …</span></p>
+
+<ul>
+  <li>Identify hashes on a file (one hash per line):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hashes.txt</span></p>
+
+<ul>
+  <li>Show all possible hash types (including salted hashes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashid --extended </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span></p>
+
+<ul>
+  <li>Show <code class="language-plaintext highlighter-rouge">hashcat</code>'s mode number and <code class="language-plaintext highlighter-rouge">john</code>'s format string of the hash types:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashid --mode --john </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span></p>
+
+<ul>
+  <li>Save output to a file instead of printing to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashid --outfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span></p>

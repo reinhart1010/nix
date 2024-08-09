@@ -1,0 +1,52 @@
+<h1 id="duplicacy">duplicacy</h1>
+
+<p>A lock-free deduplication cloud backup tool.
+More information: <a href="https://github.com/gilbertchen/duplicacy/wiki">https://github.com/gilbertchen/duplicacy/wiki</a>.</p>
+
+<ul>
+  <li>Use current directory as the repository, initialize a SFTP storage and encrypt the storage with a password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicacy init -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sftp://user@192.168.2.100/path/to/storage/</span></p>
+
+<ul>
+  <li>Save a snapshot of the repository to the default storage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicacy backup</code></p>
+
+<ul>
+  <li>List snapshots of current repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicacy list</code></p>
+
+<ul>
+  <li>Restore the repository to a previously saved snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicacy restore -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision</span></p>
+
+<ul>
+  <li>Check the integrity of snapshots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicacy check</code></p>
+
+<ul>
+  <li>Add another storage to be used for the existing repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicacy add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_url</span></p>
+
+<ul>
+  <li>Prune a specific revision of snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicacy prune -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision</span></p>
+
+<ul>
+  <li>Prune revisions, keeping one revision every <code class="language-plaintext highlighter-rouge">n</code> days for all revisions older than <code class="language-plaintext highlighter-rouge">m</code> days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicacy prune -keep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n:m</span></p>

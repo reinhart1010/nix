@@ -1,0 +1,46 @@
+<h1 id="2to3">2to3</h1>
+
+<p>Conversión automatizada de código Python 2 a 3.
+Más información: <a href="https://docs.python.org/3/library/2to3.html">https://docs.python.org/3/library/2to3.html</a>.</p>
+
+<ul>
+  <li>Muestra los cambios que se realizarían sin realizarlos (simulacro):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo.py.py</span></p>
+
+<ul>
+  <li>Convierte un archivo Python 2 a Python 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo.py</span></p>
+
+<ul>
+  <li>Convierte funciones específicas del lenguaje Python 2 a Python 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo.py</span><code class="language-plaintext highlighter-rouge"> --fix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw_input</span><code class="language-plaintext highlighter-rouge"> --fix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">print</span></p>
+
+<ul>
+  <li>Convierte todas las funciones del lenguaje Python 2 excepto las especificadas a Python 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo.py</span><code class="language-plaintext highlighter-rouge"> --nofix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">has_key</span><code class="language-plaintext highlighter-rouge"> --nofix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">isinstance</span></p>
+
+<ul>
+  <li>Muestra una lista de todas las características disponibles del lenguaje que se pueden convertir de Python 2 a Python 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --list-fixes</code></p>
+
+<ul>
+  <li>Convierte todos los archivos Python 2 en un directorio a Python 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --output-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_python3</span><code class="language-plaintext highlighter-rouge"> --write-unchanged-files --nobackups </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_python2</span></p>
+
+<ul>
+  <li>Ejecuta 2to3 con varios subprocesos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --processes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..infinity</span><code class="language-plaintext highlighter-rouge"> --output-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_python3</span><code class="language-plaintext highlighter-rouge"> --write --nobackups --no-diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_python2</span></p>

@@ -1,0 +1,52 @@
+<h1 id="git-show">git show</h1>
+
+<p>Çeşitli Git nesnelerini (commit'ler, etiketler vs.) görüntüle.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-show">https://git-scm.com/docs/git-show</a>.</p>
+
+<ul>
+  <li>Son commit'e dair bilgi (değer, mesaj, değişimler ve öbür metaveriler) göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show</code></p>
+
+<ul>
+  <li>Belirtilen commit'e dair bilgi göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Belirtilen etiket ile özleşen commit'e dair bilgi göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Dalın HEAD'indeki 3. commit'e dair bilgi göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal</span><code class="language-plaintext highlighter-rouge">~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Commit'in mesajını diff çıktısını önleyerek tek satırda göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show --oneline -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Yalnızca değiştirilen dosyalarla ilgili istatistik (eklenen/silinen karakterler) göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show --stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Yalnızca eklenen, yeniden adlandırılan veya silinen dosyaların listesini göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show --summary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Bir dosyanın belirtilen sürümdeki (örneğin dal, etiket veya commit) içeriğini göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sürüm</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/konumu</span></p>
