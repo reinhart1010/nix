@@ -2,8 +2,8 @@
 layout: page
 title: linux/sbctl (español)
 description: "Un gestor de claves de arranque seguro fácil de usar."
-content_hash: 30aa2788c7d56bcda83ab72ab504747424fa338a
-last_modified_at: 2024-08-05
+content_hash: 97edef85460fb263ffbbc5cbb179badd19bbe8e9
+last_modified_at: 2024-08-09
 related_topics:
   - title: English version
     url: /en/linux/sbctl.html
@@ -20,7 +20,7 @@ Más información: <https://github.com/Foxboron/sbctl#usage>.
 
 `sbctl status`
 
-- Crea claves de arranque seguro personalizadas (todo se almacena en `/usr/share/secureboot`):
+- Crea claves de arranque seguro personalizadas (todo se almacena en `/var/lib/sbctl`):
 
 `sbctl create-keys`
 
