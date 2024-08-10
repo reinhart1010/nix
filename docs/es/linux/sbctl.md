@@ -3,14 +3,17 @@ layout: page
 title: linux/sbctl (español)
 description: "Un gestor de claves de arranque seguro fácil de usar."
 content_hash: 97edef85460fb263ffbbc5cbb179badd19bbe8e9
-last_modified_at: 2024-08-09
+last_modified_at: 2024-08-10
 related_topics:
   - title: English version
     url: /en/linux/sbctl.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sbctl
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sbctl
 
 Un gestor de claves de arranque seguro fácil de usar.
 Nota: no registrar los certificados de Microsoft puede bloquear su sistema. Vea <https://github.com/Foxboron/sbctl/wiki/FAQ#option-rom>.
