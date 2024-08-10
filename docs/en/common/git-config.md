@@ -2,8 +2,8 @@
 layout: page
 title: common/git-config (English)
 description: "Manage custom configuration options for Git repositories."
-content_hash: 13fb8b1d3cbfa8a161706fb91e53312ca77995f5
-last_modified_at: 2023-11-12
+content_hash: ceba6062b2a23bbcd8051c1f9f1f2248081627f9
+last_modified_at: 2024-08-10
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-config.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-config.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-config.html
@@ -37,13 +40,13 @@ Manage custom configuration options for Git repositories.
 These configurations can be local (for the current repository) or global (for the current user).
 More information: <https://git-scm.com/docs/git-config>.
 
-- List only local configuration entries (stored in `.git/config` in the current repository):
+- Globally set your name or email (this information is required to commit to a repository and will be included in all commits):
 
-`git config --list --local`
+`git config --global `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user.name|user.email</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Your Name|email@example.com</span>`"`
 
-- List only global configuration entries (stored in `~/.gitconfig` by default or in `$XDG_CONFIG_HOME/git/config` if such a file exists):
+- List local or global configuration entries:
 
-`git config --list --global`
+`git config --list --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local|global</span>
 
 - List only system configuration entries (stored in `/etc/gitconfig`), and show their file location:
 
@@ -61,10 +64,10 @@ More information: <https://git-scm.com/docs/git-config>.
 
 `git config --global --unset alias.unstage`
 
-- Edit the Git configuration for the current repository in the default editor:
+- Edit the local Git configuration (`.git/config`) in the default editor:
 
 `git config --edit`
 
-- Edit the global Git configuration in the default editor:
+- Edit the global Git configuration (`~/.gitconfig` by default or `$XDG_CONFIG_HOME/git/config` if such a file exists) in the default editor:
 
 `git config --global --edit`
