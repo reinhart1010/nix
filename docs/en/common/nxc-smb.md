@@ -3,19 +3,10 @@ layout: page
 title: common/nxc-smb (English)
 description: "Pentest and exploit SMB servers."
 content_hash: 8c98e3718cfc76e256ce4f791555a405a11ad2c4
-last_modified_at: 2024-08-10
-tldri18n_status: 0
+last_modified_at: 2024-08-11
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nxc-smb.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nxc smb
+# nxc smb
 
 Pentest and exploit SMB servers.
 More information: <https://www.netexec.wiki/smb-protocol>.

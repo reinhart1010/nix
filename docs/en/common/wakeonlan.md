@@ -3,19 +3,10 @@ layout: page
 title: common/wakeonlan (English)
 description: "Send packets to wake-on-LAN (WOL) enabled PCs."
 content_hash: 655f345a292e56a60b10f821d05b4af1f0c8a780
-last_modified_at: 2024-08-10
-tldri18n_status: 0
+last_modified_at: 2024-08-11
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/wakeonlan.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wakeonlan
+# wakeonlan
 
 Send packets to wake-on-LAN (WOL) enabled PCs.
 More information: <https://github.com/jpoliv/wakeonlan>.
