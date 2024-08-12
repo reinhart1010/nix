@@ -2,8 +2,8 @@
 layout: page
 title: common/git-stash (English)
 description: "Stash local Git changes in a temporary area."
-content_hash: e97ba912ea8be6a9a5582f928f299b9b74ac338d
-last_modified_at: 2023-12-31
+content_hash: afe5833a45b3e05b6b108c61677e6fb7b8bda431
+last_modified_at: 2024-08-12
 related_topics:
   - title: español version
     url: /es/common/git-stash.html
@@ -24,25 +24,25 @@ tldri18n_status: 2
 Stash local Git changes in a temporary area.
 More information: <https://git-scm.com/docs/git-stash>.
 
-- Stash current changes, except new (untracked) files:
+- Stash current changes with a [m]essage, except new (untracked) files:
 
-`git stash push -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_message</span>
+`git stash push --message `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_message</span>
 
-- Stash current changes, including new (untracked) files:
+- Stash current changes, including new ([u]ntracked) files:
 
-`git stash -u`
+`git stash --include-untracked`
 
-- Interactively select parts of changed files for stashing:
+- Interactively select [p]arts of changed files for stashing:
 
-`git stash -p`
+`git stash --patch`
 
 - List all stashes (shows stash name, related branch and message):
 
 `git stash list`
 
-- Show the changes as a patch between the stash (default is `stash@{0}`) and the commit back when stash entry was first created:
+- Show the changes as a [p]atch between the stash (default is `stash@{0}`) and the commit back when stash entry was first created:
 
-`git stash show -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stash@{0}</span>
+`git stash show --patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stash@{0}</span>
 
 - Apply a stash (default is the latest, named stash@{0}):
 
