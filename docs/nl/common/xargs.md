@@ -2,18 +2,15 @@
 layout: page
 title: common/xargs (Nederlands)
 description: "Voer een commando uit met doorgegeven argumenten van een ander commando, een bestand, etc."
-content_hash: 928003ffe231eb58d2ee515a4d705fa5627ce48e
-last_modified_at: 2024-08-03
+content_hash: ee530f5709dc53e0cb801f3c213572f3417193a4
+last_modified_at: 2024-08-13
 related_topics:
   - title: English version
     url: /en/common/xargs.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xargs
+# xargs
 
 Voer een commando uit met doorgegeven argumenten van een ander commando, een bestand, etc.
 De invoer wordt behandeld als een enkel tekstblok en gesplitst in afzonderlijke stukken op spaties, tabbladen, nieuwe regels en einde-van-bestand.
@@ -30,6 +27,10 @@ Meer informatie: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/xar
 - Verwijder alle bestanden met een `.backup` extensie (`-print0` gebruikt een nul-teken om bestandsnamen te splitsen en `-0` gebruikt het als scheidingsteken):
 
 `find . -name '*.backup' -print0 | xargs -0 rm -v`
+
+- Voer het commando eenmaal per argument uit:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumenten_bron</span>` | xargs -n1 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>
 
 - Voer het commando één keer uit voor elke invoerregel, waarbij elke plaatsaanduiding (hier gemarkeerd als `_`) wordt vervangen door de invoerregel:
 

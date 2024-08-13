@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/duc (English)
-description: "Duc is a collection of tools for indexing, inspecting and visualizing disk usage. Duc maintains a database of accumulated sizes of directories of the file system, allowing queries this database, or create fancy graphs to show where data is."
-content_hash: 462d28cb408e0737c435d7c7d87cce232cca8bb3
-last_modified_at: 2023-11-12
+description: "A collection of tools for indexing, inspecting, and visualizing disk usage."
+content_hash: abfab7fc166280eb69be58fe5d9833a50377efff
+last_modified_at: 2024-08-13
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/duc.html
@@ -12,7 +12,8 @@ tldri18n_status: 2
 ---
 # duc
 
-Duc is a collection of tools for indexing, inspecting and visualizing disk usage. Duc maintains a database of accumulated sizes of directories of the file system, allowing queries this database, or create fancy graphs to show where data is.
+A collection of tools for indexing, inspecting, and visualizing disk usage.
+Duc maintains a database of accumulated sizes of directories of the file system, allowing queries in this database, or creating fancy graphs to show where data is.
 More information: <https://duc.zevv.nl/>.
 
 - Index the /usr directory, writing to the default database location ~/.duc.db:
