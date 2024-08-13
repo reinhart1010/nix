@@ -2,11 +2,11 @@
 layout: page
 title: common/aws-ce (English)
 description: "Analyze and manage access controls and security settings within your Cloud Environment."
-content_hash: e977d97e8447bf4c4d2498ef2ced1331084fcb3b
-last_modified_at: 2024-08-06
+content_hash: 66a9374607c5bcc33fdee3a05199f041e42e2450
+last_modified_at: 2024-08-13
 tldri18n_status: 2
 ---
-# awe-ce
+# aws-ce
 
 Analyze and manage access controls and security settings within your Cloud Environment.
 More information: <https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html>.
