@@ -2,8 +2,8 @@
 layout: page
 title: common/ping (Nederlands)
 description: "Verstuur ICMP ECHO_REQUEST-pakketten naar netwerkhosts."
-content_hash: e9b1f1d9e213dbcc1c02ce45b830fe6513cdc134
-last_modified_at: 2024-08-03
+content_hash: 01f4d05e4cc08c0e1e223d02fc419cbe0be87f3c
+last_modified_at: 2024-08-13
 related_topics:
   - title: Deutsch version
     url: /de/common/ping.html
@@ -53,3 +53,7 @@ Meer informatie: <https://manned.org/ping>.
 - Toon ook een bericht als er geen reactie is ontvangen:
 
 `ping -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
+
+- Ping een host met een specifiek aantal pings, timeout (`-W`) voor elk antwoord, en totale tijdslimiet (`-w`) voor de gehele ping-uitvoering:
+
+`ping -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal</span>` -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconden</span>` -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconden</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>

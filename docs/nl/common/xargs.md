@@ -2,7 +2,7 @@
 layout: page
 title: common/xargs (Nederlands)
 description: "Voer een commando uit met doorgegeven argumenten van een ander commando, een bestand, etc."
-content_hash: ee530f5709dc53e0cb801f3c213572f3417193a4
+content_hash: 41adb6c4030664da7e2b9b771857e8d3aef8723b
 last_modified_at: 2024-08-13
 related_topics:
   - title: English version
@@ -24,9 +24,9 @@ Meer informatie: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/xar
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumenten_bron</span>` | xargs sh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando1</span>` && `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando2</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando3</span>`"`
 
-- Verwijder alle bestanden met een `.backup` extensie (`-print0` gebruikt een nul-teken om bestandsnamen te splitsen en `-0` gebruikt het als scheidingsteken):
+- Gzip alle bestanden met een `.log` extensie en profiteer van het voordeel van meerdere threads (`-print0` gebruikt een nul-teken om bestandsnamen te splitsen en `-0` gebruikt het als scheidingsteken):
 
-`find . -name '*.backup' -print0 | xargs -0 rm -v`
+`find . -name '*.log' -print0 | xargs -0 -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>` -n 1 gzip`
 
 - Voer het commando eenmaal per argument uit:
 
