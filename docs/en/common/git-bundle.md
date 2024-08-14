@@ -2,11 +2,14 @@
 layout: page
 title: common/git-bundle (English)
 description: "Package objects and references into an archive."
-content_hash: d4c3310bff89b37d3f1c52f02e3f571ab07be2ab
-last_modified_at: 2023-11-12
+content_hash: 9ece1b86477bd54a66429364359494746359db84
+last_modified_at: 2024-08-14
 related_topics:
   - title: français version
     url: /fr/common/git-bundle.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-bundle.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-bundle.html
@@ -51,3 +54,7 @@ More information: <https://git-scm.com/docs/git-bundle>.
 - Unbundle a specific branch from a bundle file into the current repository:
 
 `git pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.bundle</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
+
+- Create a new repository from a bundle:
+
+`git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.bundle</span>

@@ -2,11 +2,14 @@
 layout: page
 title: common/git-bundle (français)
 description: "Empaquetez des objets et des références dans une archive."
-content_hash: 1a698725f12e40c017d21bd1686463d0f34deb82
-last_modified_at: 2023-11-12
+content_hash: c4dc8656d69437438f3e11e8f9d2ef818f7ae0fa
+last_modified_at: 2024-08-14
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-bundle.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-bundle.html
@@ -51,3 +54,7 @@ Plus d'informations : <https://git-scm.com/docs/git-bundle>.
 - Extraire une branche spécifique d'un fichier de bundle dans le référentiel actuel :
 
 `git pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche</span>
+
+- Créer un nouveau dépôt depuis un empaquetage :
+
+`git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span>
