@@ -3,19 +3,26 @@ layout: page
 title: common/aspell (മലയാളം)
 description: "ഒരു ഇന്ററാക്ടിവ് സ്പെൽ ചെക്കർ."
 content_hash: c551c70bb243f8e48c5c95912309ab3ef8b96a1d
-last_modified_at: 2024-08-13
-tldri18n_status: 0
+last_modified_at: 2024-08-14
+related_topics:
+  - title: Deutsch version
+    url: /de/common/aspell.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/aspell.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aspell.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/aspell.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/aspell.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aspell.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aspell
+# aspell
 
 ഒരു ഇന്ററാക്ടിവ് സ്പെൽ ചെക്കർ.
 കൂടുതൽ വിവരങ്ങൾ: <http://aspell.net/>.

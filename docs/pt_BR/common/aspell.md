@@ -3,19 +3,26 @@ layout: page
 title: common/aspell (português (Brasil))
 description: "Verificador ortográfico interativo."
 content_hash: 743eecbb3c73f3fe3d0247b39afe5e3bf61f6a4c
-last_modified_at: 2024-08-13
-tldri18n_status: 0
+last_modified_at: 2024-08-14
+related_topics:
+  - title: Deutsch version
+    url: /de/common/aspell.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/aspell.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/aspell.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/aspell.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/aspell.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aspell.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aspell
+# aspell
 
 Verificador ortográfico interativo.
 Mais informações: <http://aspell.net/>.

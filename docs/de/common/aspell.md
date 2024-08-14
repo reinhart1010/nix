@@ -3,19 +3,26 @@ layout: page
 title: common/aspell (Deutsch)
 description: "Interaktiver Korrekturleser."
 content_hash: de1b5cddd4b2e0dce97e78a5ad449b6357460c21
-last_modified_at: 2024-08-13
-tldri18n_status: 0
+last_modified_at: 2024-08-14
+related_topics:
+  - title: English version
+    url: /en/common/aspell.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/aspell.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aspell.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/aspell.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/aspell.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aspell.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aspell
+# aspell
 
 Interaktiver Korrekturleser.
 Weitere Informationen: <http://aspell.net/>.

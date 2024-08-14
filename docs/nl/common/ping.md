@@ -3,7 +3,7 @@ layout: page
 title: common/ping (Nederlands)
 description: "Verstuur ICMP ECHO_REQUEST-pakketten naar netwerkhosts."
 content_hash: 01f4d05e4cc08c0e1e223d02fc419cbe0be87f3c
-last_modified_at: 2024-08-13
+last_modified_at: 2024-08-14
 related_topics:
   - title: Deutsch version
     url: /de/common/ping.html
@@ -20,12 +20,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ping.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ping
+# ping
 
 Verstuur ICMP ECHO_REQUEST-pakketten naar netwerkhosts.
 Meer informatie: <https://manned.org/ping>.

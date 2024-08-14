@@ -3,19 +3,26 @@ layout: page
 title: common/aspell (中文)
 description: "交互式拼写检查工具。"
 content_hash: 66daa95afb2bb844ac85f66d0fbe939aa44017a4
-last_modified_at: 2024-08-13
-tldri18n_status: 0
+last_modified_at: 2024-08-14
+related_topics:
+  - title: Deutsch version
+    url: /de/common/aspell.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/aspell.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/aspell.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aspell.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/aspell.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aspell.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aspell
+# aspell
 
 交互式拼写检查工具。
 更多信息：<http://aspell.net/>.

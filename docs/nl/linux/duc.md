@@ -3,23 +3,14 @@ layout: page
 title: linux/duc (Nederlands)
 description: "Een verzameling tools voor het indexeren, inspecteren en visualiseren van schijfgebruik."
 content_hash: ae5c71ed7368650260f9233f9cd1e3a98f33c74c
-last_modified_at: 2024-08-13
+last_modified_at: 2024-08-14
 related_topics:
   - title: English version
     url: /en/linux/duc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/duc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># duc
+# duc
 
 Een verzameling tools voor het indexeren, inspecteren en visualiseren van schijfgebruik.
 Duc onderhoudt een database van geaccumuleerde groottes van directories in het bestandssysteem, waardoor je deze database kunt raadplegen of mooie grafieken kunt maken om te laten zien waar de data zich bevindt.

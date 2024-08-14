@@ -3,23 +3,14 @@ layout: page
 title: linux/zip (Nederlands)
 description: "Verpak en comprimeer (archiveer) bestanden in een Zip-archief."
 content_hash: 5ebd0bc3476de6b035bf690cab0a7db57849b850
-last_modified_at: 2024-08-13
+last_modified_at: 2024-08-14
 related_topics:
   - title: English version
     url: /en/linux/zip.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/zip.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zip
+# zip
 
 Verpak en comprimeer (archiveer) bestanden in een Zip-archief.
 Bekijk ook: `unzip`.

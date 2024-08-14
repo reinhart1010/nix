@@ -3,7 +3,7 @@ layout: page
 title: linux/cat (Nederlands)
 description: "Print en concateneer bestanden."
 content_hash: 3c97b2e8edeb0827214c16f80255a1acd725bfdd
-last_modified_at: 2024-08-13
+last_modified_at: 2024-08-14
 related_topics:
   - title: English version
     url: /en/linux/cat.html
@@ -20,18 +20,9 @@ related_topics:
   - title: українська version
     url: /uk/linux/cat.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/cat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cat
+# cat
 
 Print en concateneer bestanden.
 Meer informatie: <https://www.gnu.org/software/coreutils/cat>.

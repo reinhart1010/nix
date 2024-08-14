@@ -3,7 +3,7 @@ layout: page
 title: linux/ac (Nederlands)
 description: "Toon statistieken over hoe lang gebruikers verbonden zijn geweest."
 content_hash: 82adeaac2cb34c5d89da5a3131fff4936bae56d1
-last_modified_at: 2024-08-13
+last_modified_at: 2024-08-14
 related_topics:
   - title: català version
     url: /ca/linux/ac.html
@@ -35,18 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/ac.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ac.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ac
+# ac
 
 Toon statistieken over hoe lang gebruikers verbonden zijn geweest.
 Meer informatie: <https://www.gnu.org/software/acct/manual/accounting.html#ac>.

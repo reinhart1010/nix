@@ -2,8 +2,8 @@
 layout: page
 title: linux/poweroff (English)
 description: "Power off the system."
-content_hash: 6ac259eee72e7d2d7d1038ce370823391769b80a
-last_modified_at: 2024-06-19
+content_hash: 9ec914d2bd157f3664eb38241383ed29f30c66a8
+last_modified_at: 2024-08-14
 related_topics:
   - title: català version
     url: /ca/linux/poweroff.html
@@ -44,7 +44,7 @@ More information: <https://www.manned.org/poweroff>.
 
 - Shut down immediately without contacting the system manager:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Write the wtmp shutdown entry without shutting down the system:
 

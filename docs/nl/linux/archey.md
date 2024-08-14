@@ -3,7 +3,7 @@ layout: page
 title: linux/archey (Nederlands)
 description: "Eenvoudige tool voor het stijlvol weergeven van systeeminformatie."
 content_hash: bfb93d0b3170d3e43256010dea7549c0ddd8dd6c
-last_modified_at: 2024-08-13
+last_modified_at: 2024-08-14
 related_topics:
   - title: català version
     url: /ca/linux/archey.html
@@ -26,18 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/archey.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/archey.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># archey
+# archey
 
 Eenvoudige tool voor het stijlvol weergeven van systeeminformatie.
 Meer informatie: <https://lclarkmichalek.github.io/archey3/>.
