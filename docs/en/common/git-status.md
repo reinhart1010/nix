@@ -2,8 +2,8 @@
 layout: page
 title: common/git-status (English)
 description: "Show the changes to files in a Git repository."
-content_hash: 8205c2b612def105e6c50ede0e5dd7fba60a8cc5
-last_modified_at: 2023-11-12
+content_hash: 08f2d499a360400fd3c25f5c380c141035549b0b
+last_modified_at: 2024-08-15
 related_topics:
   - title: Deutsch version
     url: /de/common/git-status.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-status.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-status.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-status.html
@@ -47,6 +50,10 @@ More information: <https://git-scm.com/docs/git-status>.
 - Give output in [s]hort format:
 
 `git status --short`
+
+- Show [v]erbose information on changes in both the staging area and working directory:
+
+`git status --verbose --verbose`
 
 - Show the [b]ranch and tracking info:
 
