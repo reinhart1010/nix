@@ -3,7 +3,7 @@ layout: page
 title: common/git-bundle (தமிழ்)
 description: "ஒரு காப்பக கோப்பில் பொருள்கள் மற்றும் குறிப்புகளை தொகுக்கவும்."
 content_hash: b075455a139fea61aeb0b0356e266709c10efcb5
-last_modified_at: 2023-11-13
+last_modified_at: 2024-08-15
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
@@ -11,15 +11,21 @@ related_topics:
   - title: français version
     url: /fr/common/git-bundle.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-bundle.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-bundle.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-bundle.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git bundle
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git bundle
 
 ஒரு காப்பக கோப்பில் பொருள்கள் மற்றும் குறிப்புகளை தொகுக்கவும்.
 மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-bundle>.

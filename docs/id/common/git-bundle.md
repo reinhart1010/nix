@@ -3,7 +3,7 @@ layout: page
 title: common/git-bundle (Indonesia)
 description: "Bungkus seluruh objek dan referensi internal Git ke dalam suatu berkas arsip."
 content_hash: 22d1f06dd00e4678f9e334714206a2e1092aa249
-last_modified_at: 2024-01-07
+last_modified_at: 2024-08-15
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
@@ -20,9 +20,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-bundle.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git bundle
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git bundle
 
 Bungkus seluruh objek dan referensi internal Git ke dalam suatu berkas arsip.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-bundle>.

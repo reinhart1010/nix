@@ -3,7 +3,7 @@ layout: page
 title: common/git-bundle (Türkçe)
 description: "Cisim ve referansları bir arşive paketle."
 content_hash: 112e3c4775c6c2861ee9de3fdf98b66a00380fb5
-last_modified_at: 2023-11-12
+last_modified_at: 2024-08-15
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
@@ -11,15 +11,21 @@ related_topics:
   - title: français version
     url: /fr/common/git-bundle.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-bundle.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-bundle.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-bundle.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git bundle
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git bundle
 
 Cisim ve referansları bir arşive paketle.
 Daha fazla bilgi için: <https://git-scm.com/docs/git-bundle>.
