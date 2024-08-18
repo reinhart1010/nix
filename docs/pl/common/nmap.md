@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/nmap (polski)
-description: "Narzędzie do enumeracji sieci oraz skanowania portów."
-content_hash: de888bb6ac91d23e1d9e6f5849ca6e80219578b1
-last_modified_at: 2024-05-06
+description: "Narzędzie do eksploracji sieci oraz skaner bezpieczeństwa/portów."
+content_hash: 94f372723995879aa051c66db855868033078b48
+last_modified_at: 2024-08-18
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -24,38 +24,38 @@ tldri18n_status: 2
 ---
 # nmap
 
-Narzędzie do enumeracji sieci oraz skanowania portów.
-Niektóre funkcję są tylko aktywne gdy Nmap uruchamiany jest z przywilejami root'a.
+Narzędzie do eksploracji sieci oraz skaner bezpieczeństwa/portów.
+Niektóre funkcje (np. skan SYN) aktywują się tylko gdy `nmap` jest uruchamiany z przywilejami root'a.
 Więcej informacji: <https://nmap.org/book/man.html>.
 
-- Sprawdź czy host odpowiada na skanowanie oraz zgadnij system operacyjny:
+- Skanuj 1000 najpopularniejszych portów zdalnego hosta z różnymi poziomami szczegółowości ([v]erbosity):
 
-`nmap -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_nazwa_hosta</span>
+`nmap -v`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_nazwa_hosta</span>
 
-- Sprawdź czy podane hosty odpowiadają na skanowanie i zgadnij ich nazwy:
+- Wykonaj bardzo agresywnie ping sweep w całej podsieci lub na poszczególnych hostach:
 
-`sudo nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_nazwa_hosta</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opcjonalny_kolejny_adres_ip</span>
+`nmap -T5 -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.0/24|ip_lub_nazwa_hosta1,ip_lub_nazwa_hosta2,...</span>
 
-- Poza tym, uruchom domyśle skrypty, wykrywanie działających serwisów, OS fingerprinting oraz komendę traceroute:
+- Włącz wykrywanie systemu operacyjnego, wykrywanie wersji, skanowanie skryptów i traceroute hostów z pliku:
 
-`nmap -A `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span>
+`sudo nmap -A -iL `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.txt</span>
 
-- Skanuj podaną listę portów (użyj '-p-' dla wszystkich portów od 1 do 65535):
+- Skanuj podaną listę portów (użyj `-p-` dla wszystkich portów od 1 do 65535):
 
-`nmap -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2,...,portN</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span>
+`nmap -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2,...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_host1,ip_lub_host2,...</span>
 
-- Przeprowadź wykrywanie serwisów i ich wersji dla 1000 najczęstrzych portów używając domyślich skryptów NSE; Zapisz rezultat ('-oN') do pliku wyjściowego:
+- Przeprowadź wykrywanie usług i wersji dla 1000 najpopularniejszych portów używając domyślnych skryptów NSE, zapisując wynik (`-oA`) do plików wyjściowych:
 
-`nmap -sC -sV -oN `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">top-1000-ports.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span>
+`nmap -sC -sV -oA `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">top-1000-ports</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_host1,ip_lub_host2,...</span>
 
-- Skanuj cel lub cele używając skryptów NSE 'default and safe':
+- Skanuj cel(e) ostrożnie używając skryptów NSE `default and safe`:
 
-`nmap --script "default and safe" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span>
+`nmap --script "default and safe" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_host1,ip_lub_host2,...</span>
 
-- Skanuj serwer webowy uruchomiony na standardowych portach 80 i 443 używając wszystkich dostępnych skryptów NSE 'http-*':
+- Skanuj w poszukiwaniu serwerów internetowych działających na standardowych portach 80 i 443 przy użyciu wszystkich dostępnych skryptów NSE `http-*`:
 
-`nmap --script "http-*" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span>` -p 80,443`
+`nmap --script "http-*" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_host1,ip_lub_host2,...</span>` -p 80,443`
 
-- Wykonaj skryty i bardzo wolny skan ('-T0') próbując uniknąć wykrycia przez IDS/IPS i użyj adresu IP wabika ('-D'):
+- Spróbuj uniknąć wykrycia przez IDS/IPS, używając bardzo powolnego skanowania (`-T0`), fałszywych adresów źródłowych - wabików (`-D`), [f]ragmentowanych pakietów, losowych danych i innych metod:
 
-`nmap -T0 -D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_ip_wabika1,adres_ip_wabika2,...,adres_ip_wabikaN</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_lub_adresy_ip</span>
+`sudo nmap -T0 -D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_wabika1,ip_wabika2,...</span>` --source-port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">53</span>` -f --data-length `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span>` -Pn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_host</span>
