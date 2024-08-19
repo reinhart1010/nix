@@ -3,23 +3,14 @@ layout: page
 title: common/b2-tools (español)
 description: "Accede fácilmente a todas las funciones de Backblaze B2 Cloud Storage."
 content_hash: b7befd91aa4b8812cc441b2e7db99d0f5e8d6e07
-last_modified_at: 2024-08-18
+last_modified_at: 2024-08-19
 related_topics:
   - title: English version
     url: /en/common/b2-tools.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/b2-tools.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># b2-tools
+# b2-tools
 
 Accede fácilmente a todas las funciones de Backblaze B2 Cloud Storage.
 Más información: <https://www.backblaze.com/docs/cloud-storage-command-line-tools>.

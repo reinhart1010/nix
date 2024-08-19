@@ -3,23 +3,14 @@ layout: page
 title: linux/dysk (español)
 description: "Muestra información del sistema de archivos en una tabla."
 content_hash: b105e82df20c55ae1fefd5927cde854d0925bdb0
-last_modified_at: 2024-08-18
+last_modified_at: 2024-08-19
 related_topics:
   - title: English version
     url: /en/linux/dysk.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dysk.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dysk
+# dysk
 
 Muestra información del sistema de archivos en una tabla.
 Más información: <https://dystroy.org/dysk>.
