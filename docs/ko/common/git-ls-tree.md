@@ -2,8 +2,8 @@
 layout: page
 title: common/git-ls-tree (한국어)
 description: "트리 객체의 파일과 디렉토리 목록을 보여줍니다."
-content_hash: 4a0f20a8147edbf1ad2a0b33df55fb01985e89d7
-last_modified_at: 2024-08-12
+content_hash: eaf3a073452e6dad07b32d11f3017be4eeff3149
+last_modified_at: 2024-08-19
 related_topics:
   - title: English version
     url: /en/common/git-ls-tree.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # git ls-tree
 
 트리 객체의 파일과 디렉토리 목록을 보여줍니다.
-더 자세한 정보: <https://git-scm.com/docs/git-ls-tree>.
+더 많은 정보: <https://git-scm.com/docs/git-ls-tree>.
 
 - 특정 브랜치의 파일과 디렉토리 목록 보기:
 

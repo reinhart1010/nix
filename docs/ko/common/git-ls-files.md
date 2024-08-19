@@ -2,8 +2,8 @@
 layout: page
 title: common/git-ls-files (한국어)
 description: "색인과 작업 트리의 파일 정보를 보여줍니다."
-content_hash: 4ae6d9ff4635905cc7d92ed87f985e9aa51b36b4
-last_modified_at: 2024-08-12
+content_hash: 132a7770bfe56517a9f772a99c1632769fe612d6
+last_modified_at: 2024-08-19
 related_topics:
   - title: English version
     url: /en/common/git-ls-files.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # git ls-files
 
 색인과 작업 트리의 파일 정보를 보여줍니다.
-더 자세한 정보: <https://git-scm.com/docs/git-ls-files>.
+더 많은 정보: <https://git-scm.com/docs/git-ls-files>.
 
 - 삭제된 파일 보기:
 

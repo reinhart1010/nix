@@ -2,8 +2,8 @@
 layout: page
 title: common/git-ls-remote (한국어)
 description: "원격 저장소의 브랜치, 태그 등의 정보를 나열하는 Git 명령어입니다."
-content_hash: a87532fdec7d51d30d7b0dc2befe8c82f0112eb5
-last_modified_at: 2024-08-12
+content_hash: 6c090c0f3230ac0a1b6fece34345cafd93f17b56
+last_modified_at: 2024-08-19
 related_topics:
   - title: English version
     url: /en/common/git-ls-remote.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 원격 저장소의 브랜치, 태그 등의 정보를 나열하는 Git 명령어입니다.
 이름이나 URL이 주어지지 않으면 설정된 업스트림 브랜치를 사용하며, 업스트림이 설정되지 않은 경우 원격 origin을 사용합니다.
-더 자세한 정보: <https://git-scm.com/docs/git-ls-remote>.
+더 많은 정보: <https://git-scm.com/docs/git-ls-remote>.
 
 - 기본 원격 저장소의 모든 브랜치와 태그 정보 보기:
 

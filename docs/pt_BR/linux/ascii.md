@@ -2,8 +2,8 @@
 layout: page
 title: linux/ascii (português (Brasil))
 description: "Mostra pseudónimos de caractéres ASCII."
-content_hash: f08367eb2e2175eb8b1a205d437a79a5a64d6f55
-last_modified_at: 2024-08-11
+content_hash: f914a51b3753454ffced0037d0f768520983a182
+last_modified_at: 2024-08-19
 related_topics:
   - title: Deutsch version
     url: /de/linux/ascii.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # ascii
 
 Mostra pseudónimos de caractéres ASCII.
-Mais informações em: <http://www.catb.org/~esr/ascii/>.
+Mais informações: <http://www.catb.org/~esr/ascii/>.
 
 - Mostra pseudónimos ASCII de um carácter:
 

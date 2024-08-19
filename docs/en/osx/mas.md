@@ -2,8 +2,8 @@
 layout: page
 title: osx/mas (English)
 description: "Command-line interface for the Mac App Store."
-content_hash: 16f04ca0ae727890097118c83fc261941181f09f
-last_modified_at: 2023-11-12
+content_hash: 10837f7188b010175c9edcdb6b8ecd2237815de4
+last_modified_at: 2024-08-19
 related_topics:
   - title: español version
     url: /es/osx/mas.html
@@ -30,10 +30,22 @@ More information: <https://github.com/mas-cli/mas>.
 
 `mas search "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application</span>`" --price`
 
-- Install or update an application:
+- Install or update an application using exact numeric id:
 
-`mas install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">product_identifier</span>
+`mas install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numeric_product_id</span>
+
+- Install the first application that would be returned by the respective search:
+
+`mas lucky "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span>`"`
+
+- List all outdated apps with pending updates:
+
+`mas outdated`
 
 - Install all pending updates:
 
 `mas upgrade`
+
+- Upgrade a specific application:
+
+`mas upgrade "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numeric_product_id</span>`"`
