@@ -3,7 +3,7 @@ layout: page
 title: osx/mas (中文)
 description: "Mac 应用商店的命令行界面。"
 content_hash: a3730ec7c13d13f538ce176c8199c4cd4e0a7b41
-last_modified_at: 2024-01-01
+last_modified_at: 2024-08-20
 related_topics:
   - title: English version
     url: /en/osx/mas.html
@@ -11,9 +11,12 @@ related_topics:
   - title: español version
     url: /es/osx/mas.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# mas
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># mas
 
 Mac 应用商店的命令行界面。
 更多信息：<https://github.com/mas-cli/mas>.

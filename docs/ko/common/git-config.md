@@ -3,7 +3,7 @@ layout: page
 title: common/git-config (한국어)
 description: "Git 저장소의 사용자 지정 설정 옵션을 관리합니다."
 content_hash: 51deb94264e16e8e1f5c821f7895dbf8e89b2674
-last_modified_at: 2024-08-19
+last_modified_at: 2024-08-20
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -35,18 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-config.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-config.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git config
+# git config
 
 Git 저장소의 사용자 지정 설정 옵션을 관리합니다.
 이러한 설정은 개별 (현재 저장소) 또는 전역 (현재 사용자)용일 수 있습니다.

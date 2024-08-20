@@ -3,7 +3,7 @@ layout: page
 title: common/git-stash (한국어)
 description: "로컬 Git 변경사항을 임시 영역에 저장합니다."
 content_hash: f4c6ecc81bf7d4e1b6ed8942f0ef565f397b854c
-last_modified_at: 2024-08-19
+last_modified_at: 2024-08-20
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-stash.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-stash.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git stash
+# git stash
 
 로컬 Git 변경사항을 임시 영역에 저장합니다.
 더 자세한 정보: <https://git-scm.com/docs/git-stash>.

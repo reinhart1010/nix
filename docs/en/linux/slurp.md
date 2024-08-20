@@ -3,19 +3,10 @@ layout: page
 title: linux/slurp (English)
 description: "Select a region in a Wayland compositor."
 content_hash: 3d808a57150d9b1accdae35289a23efa6ff34fce
-last_modified_at: 2024-08-19
-tldri18n_status: 0
+last_modified_at: 2024-08-20
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/slurp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># slurp
+# slurp
 
 Select a region in a Wayland compositor.
 More information: <https://github.com/emersion/slurp>.

@@ -2,15 +2,15 @@
 layout: page
 title: common/aws-ce (español)
 description: "Analiza y gestiona los controles de acceso y la configuración de seguridad en su entorno de nube."
-content_hash: 0f64f514d896ae76bc07b6089962105d28626f23
-last_modified_at: 2024-08-19
+content_hash: 02e9455f067e8ce553549662a51911613f17ba4b
+last_modified_at: 2024-08-20
 related_topics:
   - title: English version
     url: /en/common/aws-ce.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# awe-ce
+# aws-ce
 
 Analiza y gestiona los controles de acceso y la configuración de seguridad en su entorno de nube.
 Más información: <https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html>.

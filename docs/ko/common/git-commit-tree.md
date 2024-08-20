@@ -3,7 +3,7 @@ layout: page
 title: common/git-commit-tree (한국어)
 description: "Git의 내부 동작을 직접 다루는 명령어로, 커밋 객체를 직접 생성합니다."
 content_hash: 1ba558b4bab22db93e6f7d13c88839e6311790d9
-last_modified_at: 2024-08-19
+last_modified_at: 2024-08-20
 related_topics:
   - title: English version
     url: /en/common/git-commit-tree.html
@@ -17,18 +17,9 @@ related_topics:
   - title: українська version
     url: /uk/common/git-commit-tree.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-commit-tree.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git commit-tree
+# git commit-tree
 
 Git의 내부 동작을 직접 다루는 명령어로, 커밋 객체를 직접 생성합니다.
 참조: `git commit`.
