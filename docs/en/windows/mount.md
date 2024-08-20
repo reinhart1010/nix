@@ -2,8 +2,8 @@
 layout: page
 title: windows/mount (English)
 description: "Mount Network File System (NFS) network shares."
-content_hash: 0df643efa4b257050e26ebff91b624597f09931a
-last_modified_at: 2023-11-12
+content_hash: 3ca83190a45e7e379020a7a0a9a23b5ec3629ffd
+last_modified_at: 2024-08-20
 related_topics:
   - title: italiano version
     url: /it/windows/mount.html
@@ -29,7 +29,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Mount a share and retry up to 10 times if it fails:
 
-`mount -o retry=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">retries</span>` \\`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_name</span>`\`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Z:</span>
+`mount -o retry=10 \\`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_name</span>`\`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Z:</span>
 
 - Mount a share with forced case sensitivity:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/mount (italiano)
 description: "Montare le condivisioni di rete del Network File System (NFS)."
-content_hash: d665fb26dc86ff80a980eb126b353a6256b383b9
-last_modified_at: 2023-11-12
+content_hash: 82777c1e0847f157c55d73dd78864ac8864434d9
+last_modified_at: 2024-08-20
 related_topics:
   - title: English version
     url: /en/windows/mount.html
@@ -29,7 +29,7 @@ Maggiori informazioni: <https://learn.microsoft.com/windows-server/administratio
 
 - Monta una share e riprova fino a 10 volte se fallisce:
 
-`mount -o retry=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_di_ripetizioni</span>` \\`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_computer</span>`\`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_della_share</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Z:</span>
+`mount -o retry=10 \\`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_computer</span>`\`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_della_share</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Z:</span>
 
 - Monta una share forzando la distinzione tra maiuscole e minuscole:
 
