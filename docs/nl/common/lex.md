@@ -3,23 +3,14 @@ layout: page
 title: common/lex (Nederlands)
 description: "Generator voor lexicale analyzers."
 content_hash: bf13f31919f8cee08ce97bcf5b50de786db220d2
-last_modified_at: 2024-08-20
+last_modified_at: 2024-08-21
 related_topics:
   - title: English version
     url: /en/common/lex.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lex.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lex
+# lex
 
 Generator voor lexicale analyzers.
 Gegeven de specificatie voor een lexicale analyzer, genereert C-code die deze implementeert.

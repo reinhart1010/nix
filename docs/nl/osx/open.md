@@ -3,7 +3,7 @@ layout: page
 title: osx/open (Nederlands)
 description: "Open bestanden, mappen en applicaties."
 content_hash: 909611920d48e5c42c73a274e2c9a5abdf32269d
-last_modified_at: 2024-08-20
+last_modified_at: 2024-08-21
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/open.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/osx/open.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># open
+# open
 
 Open bestanden, mappen en applicaties.
 Meer informatie: <https://keith.github.io/xcode-man-pages/open.1.html>.

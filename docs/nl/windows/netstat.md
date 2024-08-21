@@ -3,23 +3,14 @@ layout: page
 title: windows/netstat (Nederlands)
 description: "Toon actieve TCP-verbindingen, poorten waarop de computer luistert, netwerkadapterstatistieken, de IP-routeringstabel, IPv4- en IPv6-statistieken."
 content_hash: ac63374370422166ee8bb12cc505d3bfb417fb67
-last_modified_at: 2024-08-20
+last_modified_at: 2024-08-21
 related_topics:
   - title: English version
     url: /en/windows/netstat.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/netstat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># netstat
+# netstat
 
 Toon actieve TCP-verbindingen, poorten waarop de computer luistert, netwerkadapterstatistieken, de IP-routeringstabel, IPv4- en IPv6-statistieken.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/netstat>.
