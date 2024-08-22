@@ -2,8 +2,8 @@
 layout: page
 title: linux/man (English)
 description: "Format and display manual pages."
-content_hash: 203cc9c9ff54e9f9e1598a30b1ae0743eac31677
-last_modified_at: 2024-04-19
+content_hash: b1e8045488a50a8fd31c155d09d9fd79e9723b75
+last_modified_at: 2024-08-22
 related_topics:
   - title: español version
     url: /es/linux/man.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/man.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/man.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/man.html
@@ -40,7 +43,7 @@ More information: <https://manned.org/man>.
 
 `man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Open the man page for a command in a browser:
+- Open the man page for a command in a browser (requires the `BROWSER` variable to be set):
 
 `man --html `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 

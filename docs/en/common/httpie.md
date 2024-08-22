@@ -1,12 +1,12 @@
 ---
 layout: page
-title: common/httpie (Deutsch)
-description: "Ein benutzerfreundliches HTTP-Tool."
-content_hash: f5a485aca3d429499e038f12d2bd644e72d4a069
+title: common/httpie (English)
+description: "A user friendly HTTP tool."
+content_hash: 17eb43fcf109fee2735d33e79084aeb27076778e
 last_modified_at: 2024-08-22
 related_topics:
-  - title: English version
-    url: /en/common/httpie.html
+  - title: Deutsch version
+    url: /de/common/httpie.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/httpie.html
@@ -15,37 +15,37 @@ tldri18n_status: 2
 ---
 # httpie
 
-Ein benutzerfreundliches HTTP-Tool.
-Weitere Informationen: <https://github.com/httpie/httpie>.
+A user friendly HTTP tool.
+More information: <https://github.com/httpie/httpie>.
 
-- Sende eine GET-Anfrage (Standardmethode ohne Anfragedaten):
+- Send a GET request (default method with no request data):
 
 `http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Sende eine POST-Anfrage (Standardmethode mit Anfragedaten):
+- Send a POST request (default method with request data):
 
 `http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=World</span>
 
-- Sende eine POST-Anfrage mit einer Datei als Eingabe:
+- Send a POST request with redirected input:
 
 `http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span>
 
-- Sende eine PUT-Anfrage mit einem bestimmten JSON-Body:
+- Send a PUT request with a given JSON body:
 
 `http PUT `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=world</span>
 
-- Sende eine DELETE-Anfrage mit einem bestimmten Anfrage-Header:
+- Send a DELETE request with a given request header:
 
 `http DELETE `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">API-Key:foo</span>
 
-- Zeige den gesamten HTTP-Austausch (sowohl Anfrage als auch Antwort):
+- Show the whole HTTP exchange (both request and response):
 
 `http -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Lade eine Datei herunter:
+- Download a file:
 
 `http --download `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Folge Umleitungen und zeige Zwischenanfragen und -antworten:
+- Follow redirects and show intermediary requests and responses:
 
 `http --follow --all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>

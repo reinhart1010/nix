@@ -1,51 +1,51 @@
 ---
 layout: page
-title: common/httpie (Deutsch)
-description: "Ein benutzerfreundliches HTTP-Tool."
-content_hash: f5a485aca3d429499e038f12d2bd644e72d4a069
+title: common/httpie (Nederlands)
+description: "Een gebruiksvriendelijke HTTP-tool."
+content_hash: 765ca0574c4f5e98eee75338484dc853cd81d01d
 last_modified_at: 2024-08-22
 related_topics:
+  - title: Deutsch version
+    url: /de/common/httpie.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/httpie.html
-    icon: bi bi-globe
-  - title: Nederlands version
-    url: /nl/common/httpie.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # httpie
 
-Ein benutzerfreundliches HTTP-Tool.
-Weitere Informationen: <https://github.com/httpie/httpie>.
+Een gebruiksvriendelijke HTTP-tool.
+Meer informatie: <https://github.com/httpie/httpie>.
 
-- Sende eine GET-Anfrage (Standardmethode ohne Anfragedaten):
+- Verstuur een GET-verzoek (standaardmethode zonder verzoekgegevens):
 
 `http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Sende eine POST-Anfrage (Standardmethode mit Anfragedaten):
+- Verstuur een POST-verzoek (standaardmethode met verzoekgegevens):
 
 `http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=World</span>
 
-- Sende eine POST-Anfrage mit einer Datei als Eingabe:
+- Verstuur een POST-verzoek met omgeleide invoer:
 
-`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span>
+`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.json</span>
 
-- Sende eine PUT-Anfrage mit einem bestimmten JSON-Body:
+- Verstuur een PUT-verzoek met een opgegeven JSON-body:
 
 `http PUT `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=world</span>
 
-- Sende eine DELETE-Anfrage mit einem bestimmten Anfrage-Header:
+- Verstuur een DELETE-verzoek met een opgegeven verzoekheader:
 
 `http DELETE `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">API-Key:foo</span>
 
-- Zeige den gesamten HTTP-Austausch (sowohl Anfrage als auch Antwort):
+- Toon de hele HTTP-uitwisseling (zowel verzoek als antwoord):
 
 `http -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Lade eine Datei herunter:
+- Download een bestand:
 
 `http --download `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Folge Umleitungen und zeige Zwischenanfragen und -antworten:
+- Volg redirects en toon tussenliggende verzoeken en antwoorden:
 
 `http --follow --all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>

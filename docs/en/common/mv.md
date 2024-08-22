@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (English)
 description: "Move or rename files and directories."
-content_hash: 70d9f85da1ac3cd93829987eaf1fa17828f40e0b
-last_modified_at: 2024-08-16
+content_hash: de080ba6620d52e86cbf574ff21eb466056007d2
+last_modified_at: 2024-08-22
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/mv.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mv.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mv.html
@@ -70,6 +73,6 @@ More information: <https://www.gnu.org/software/coreutils/mv>.
 
 `mv --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target</span>
 
-- Specify target directory (convenient in situations when the target directory has to be the first argument):
+- Specify [t]arget directory so that you can use external tools to gather movable files:
 
-`ls | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parallel|xargs</span>` mv -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find /var/log -type f -name '*.log' -print0</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xargs -0</span>` mv --target-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>
