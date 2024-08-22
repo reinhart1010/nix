@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (Nederlands)
 description: "Verplaats of hernoem bestanden en mappen."
-content_hash: 15d41d7300cd51b502c4bd09f90d270dd8183a55
-last_modified_at: 2024-08-21
+content_hash: 75d2647104b7662e5e24a17ddfc31d9fffc51af4
+last_modified_at: 2024-08-22
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -73,6 +73,6 @@ Meer informatie: <https://www.gnu.org/software/coreutils/mv>.
 
 `mv --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doel</span>
 
-- Specificeer de doelmap (handig in situaties waarin de doelmap het eerste argument moet zijn):
+- Specificeer de doelmap ([t]) (handig in situaties waarin de doelmap het eerste argument moet zijn):
 
-`ls | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parallel|xargs</span>` mv -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doel_map</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find /var/log -type f -name '*.log' -print0</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xargs -0</span>` mv --target-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doel_map</span>
