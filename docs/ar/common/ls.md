@@ -3,7 +3,7 @@ layout: page
 title: common/ls (العربية)
 description: "إدراج محتويات مجلد."
 content_hash: 0d952bb00bb569a0a31765a4917c183e31c133df
-last_modified_at: 2024-08-22
+last_modified_at: 2024-08-23
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -65,18 +65,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ls.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ls
+# ls
 
 إدراج محتويات مجلد.
 لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/ls>.
