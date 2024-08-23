@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit-tree (한국어)
 description: "Git의 내부 동작을 직접 다루는 명령어로, 커밋 객체를 직접 생성합니다."
-content_hash: 1ba558b4bab22db93e6f7d13c88839e6311790d9
-last_modified_at: 2024-08-20
+content_hash: 50a86f7db7efd61a4344304b3ceadc42a3df3be4
+last_modified_at: 2024-08-23
 related_topics:
   - title: English version
     url: /en/common/git-commit-tree.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Git의 내부 동작을 직접 다루는 명령어로, 커밋 객체를 직접 생성합니다.
 참조: `git commit`.
-더 자세한 정보: <https://git-scm.com/docs/git-commit-tree>.
+더 많은 정보: <https://git-scm.com/docs/git-commit-tree>.
 
 - 지정된 메시지로 커밋 객체 생성:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-stash (한국어)
 description: "로컬 Git 변경사항을 임시 영역에 저장합니다."
-content_hash: f4c6ecc81bf7d4e1b6ed8942f0ef565f397b854c
-last_modified_at: 2024-08-20
+content_hash: c77f577d102ea2ef56673ef25b291a9eae620f84
+last_modified_at: 2024-08-23
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # git stash
 
 로컬 Git 변경사항을 임시 영역에 저장합니다.
-더 자세한 정보: <https://git-scm.com/docs/git-stash>.
+더 많은 정보: <https://git-scm.com/docs/git-stash>.
 
 - 새롭게 생성한 (Git에서 관리하지 않는) 파일을 제외하고 현재 변경사항을 메시지와 함께 임시 저장:
 

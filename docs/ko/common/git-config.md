@@ -2,8 +2,8 @@
 layout: page
 title: common/git-config (한국어)
 description: "Git 저장소의 사용자 지정 설정 옵션을 관리합니다."
-content_hash: 51deb94264e16e8e1f5c821f7895dbf8e89b2674
-last_modified_at: 2024-08-20
+content_hash: a2bff522702823570ae7a6b1c10d2fad83954ef6
+last_modified_at: 2024-08-23
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -41,7 +41,7 @@ tldri18n_status: 2
 
 Git 저장소의 사용자 지정 설정 옵션을 관리합니다.
 이러한 설정은 개별 (현재 저장소) 또는 전역 (현재 사용자)용일 수 있습니다.
-더 자세한 정보: <https://git-scm.com/docs/git-config>.
+더 많은 정보: <https://git-scm.com/docs/git-config>.
 
 - 전역으로 이름이나 이메일을 설정 (이 정보는 저장소에 커밋하는 데 필요하며 모든 커밋에 포함):
 

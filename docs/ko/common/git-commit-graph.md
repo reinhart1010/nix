@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit-graph (한국어)
 description: "Git commit-graph 파일을 작성하고 검증합니다."
-content_hash: 955ca6251e4efc3c4070a0830ab8f53012c3e672
-last_modified_at: 2024-08-20
+content_hash: 4b96f4ed265a951a286bbd90c9755d08ddf1531d
+last_modified_at: 2024-08-23
 related_topics:
   - title: English version
     url: /en/common/git-commit-graph.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # git commit-graph
 
 Git commit-graph 파일을 작성하고 검증합니다.
-더 자세한 정보: <https://git-scm.com/docs/git-commit-graph>.
+더 많은 정보: <https://git-scm.com/docs/git-commit-graph>.
 
 - 저장소의 로컬 `.git` 디렉토리에 있는 모든 커밋들에 대한 commit-graph 파일 작성:
 
