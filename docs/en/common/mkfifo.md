@@ -2,11 +2,14 @@
 layout: page
 title: common/mkfifo (English)
 description: "Make FIFOs (named pipes)."
-content_hash: 3a96dfc4122940c59a77d8e876f4fb875ae376a6
-last_modified_at: 2024-04-18
+content_hash: f8b22fe5cfe7ee0a7f570c936597add1b4b552f7
+last_modified_at: 2024-08-23
 related_topics:
   - title: bosanski version
     url: /bs/common/mkfifo.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mkfifo.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -18,3 +21,11 @@ More information: <https://www.gnu.org/software/coreutils/mkfifo>.
 - Create a named pipe at a given path:
 
 `mkfifo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipe</span>
+
+- Send data through a named pipe and send the command to the background:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"Hello World"</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipe</span>` &`
+
+- Receive data through a named pipe:
+
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipe</span>
