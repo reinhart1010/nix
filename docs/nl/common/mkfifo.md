@@ -2,7 +2,7 @@
 layout: page
 title: common/mkfifo (Nederlands)
 description: "Maak FIFOs (benoemde pipes)."
-content_hash: 1af95f88a37ca0611d888c6c2cd1bb84dead2c04
+content_hash: 9e29c0e9c2cd6fc56d2c898acac03f74585f2b56
 last_modified_at: 2024-08-24
 related_topics:
   - title: bosanski version
@@ -24,3 +24,11 @@ Meer informatie: <https://www.gnu.org/software/coreutils/mkfifo>.
 - Maak een benoemde pipe op een opgegeven pad:
 
 `mkfifo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span>
+
+- Stuur data naar een benoemde pipe en stuur het commando naar de achtergrond:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"Hello World"</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span>` &`
+
+- Ontvang data van benoemde pipe:
+
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span>

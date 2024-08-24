@@ -2,8 +2,8 @@
 layout: page
 title: common/git-diff (English)
 description: "Show changes to tracked files."
-content_hash: c079da4a8a913c4fcb2383e1278378c2cdb35268
-last_modified_at: 2024-02-12
+content_hash: 259adc750bb92de56bc0ba0b0c544d51a7cc13a2
+last_modified_at: 2024-08-24
 related_topics:
   - title: español version
     url: /es/common/git-diff.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-diff.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-diff.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-diff.html
@@ -43,9 +46,9 @@ More information: <https://git-scm.com/docs/git-diff>.
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
-- Show only names of changed files since a given commit:
+- Show diff statistics, like files changed, histogram, and total line insertions/deletions:
 
-`git diff --name-only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
+`git diff --stat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
 
 - Output a summary of file creations, renames and mode changes since a given commit:
 

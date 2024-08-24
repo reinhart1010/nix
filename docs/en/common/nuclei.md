@@ -2,16 +2,16 @@
 layout: page
 title: common/nuclei (English)
 description: "Fast and customizable vulnerability scanner based on a simple YAML based DSL."
-content_hash: bd4fe35c388efbce956d6d17a02c1c1d23687dc6
-last_modified_at: 2024-02-16
+content_hash: 053c18aeea32af366533021a74ebc25dd49e40df
+last_modified_at: 2024-08-24
 tldri18n_status: 2
 ---
 # nuclei
 
 Fast and customizable vulnerability scanner based on a simple YAML based DSL.
-More information: <https://github.com/projectdiscovery/nuclei>.
+More information: <https://docs.projectdiscovery.io/tools/nuclei/overview>.
 
-- [u]pdate `nuclei` [t]emplates to the latest released version:
+- [u]pdate `nuclei` [t]emplates to the latest released version (will be downloaded to `~/nuclei-templates`):
 
 `nuclei -ut`
 
