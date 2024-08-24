@@ -3,7 +3,7 @@ layout: page
 title: common/btop (中文)
 description: "显示有关 CPU、内存、磁盘、网络和进程的信息的资源监视器。"
 content_hash: 582f5bd8387073640e9b5af1dd73ecd9d12fdd7e
-last_modified_at: 2024-08-23
+last_modified_at: 2024-08-24
 related_topics:
   - title: English version
     url: /en/common/btop.html
@@ -14,18 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/btop.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/btop.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># btop
+# btop
 
 显示有关 CPU、内存、磁盘、网络和进程的信息的资源监视器。
 `bpytop` 的 C++ 版本。
