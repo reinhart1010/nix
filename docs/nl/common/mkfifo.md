@@ -3,7 +3,7 @@ layout: page
 title: common/mkfifo (Nederlands)
 description: "Maak FIFOs (benoemde pipes)."
 content_hash: 9e29c0e9c2cd6fc56d2c898acac03f74585f2b56
-last_modified_at: 2024-08-24
+last_modified_at: 2024-08-25
 related_topics:
   - title: bosanski version
     url: /bs/common/mkfifo.html
@@ -11,12 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/mkfifo.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkfifo
+# mkfifo
 
 Maak FIFOs (benoemde pipes).
 Meer informatie: <https://www.gnu.org/software/coreutils/mkfifo>.
