@@ -2,8 +2,8 @@
 layout: page
 title: common/awk (English)
 description: "A versatile programming language for working on files."
-content_hash: d0c59d9bedd4d73e7ee8abfc4c9ebb7c506b659b
-last_modified_at: 2024-01-02
+content_hash: fd05106cfe57e923e52bb842a66998632ced5210
+last_modified_at: 2024-08-25
 related_topics:
   - title: español version
     url: /es/common/awk.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/awk.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/awk.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/awk.html
@@ -60,10 +63,10 @@ More information: <https://github.com/onetrueawk/awk>.
 
 `awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Print all lines where the 10th column value equals the specified value:
-
-`awk '($10 == `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>`)'`
-
 - Print all the lines which the 10th column value is between a min and a max:
 
 `awk '($10 >= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">min_value</span>` && $10 <= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_value</span>`)'`
+
+- Print table of users with UID >=1000 with header and formatted output, using colon as separator (`%-20s` mean: 20 left-align string characters, `%6s` means: 6 right-align string characters):
+
+`awk 'BEGIN {FS=":";printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $4 >= 1000 {printf "%-20s %6d %25s\n", $1, $4, $7}' /etc/passwd`
