@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/httpie (Nederlands)
-description: "Een gebruiksvriendelijke HTTP-tool."
-content_hash: 765ca0574c4f5e98eee75338484dc853cd81d01d
+description: "Beheersinterface voor HTTPie."
+content_hash: 1f341f12c7a279d17c3e4a8f0a7e309d344c395f
 last_modified_at: 2024-08-26
 related_topics:
   - title: Deutsch version
@@ -18,37 +18,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># httpie
 
-Een gebruiksvriendelijke HTTP-tool.
-Meer informatie: <https://github.com/httpie/httpie>.
+Beheersinterface voor HTTPie.
+Zie ook: `http`, de tool zelf.
+Meer informatie: <https://httpie.io/docs/cli/plugin-manager>.
 
-- Verstuur een GET-verzoek (standaardmethode zonder verzoekgegevens):
+- Controleer op updates voor `http`:
 
-`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
+`httpie cli check-updates`
 
-- Verstuur een POST-verzoek (standaardmethode met verzoekgegevens):
+- Toon geïnstalleerde `http` plugins:
 
-`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=World</span>
+`httpie cli plugins list`
 
-- Verstuur een POST-verzoek met omgeleide invoer:
+- Installeer/upgrade/installeer plugins:
 
-`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.json</span>
-
-- Verstuur een PUT-verzoek met een opgegeven JSON-body:
-
-`http PUT `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=world</span>
-
-- Verstuur een DELETE-verzoek met een opgegeven verzoekheader:
-
-`http DELETE `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">API-Key:foo</span>
-
-- Toon de hele HTTP-uitwisseling (zowel verzoek als antwoord):
-
-`http -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
-
-- Download een bestand:
-
-`http --download `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
-
-- Volg redirects en toon tussenliggende verzoeken en antwoorden:
-
-`http --follow --all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
+`httpie cli plugins `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">install|upgrade|uninstall</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_naam</span>

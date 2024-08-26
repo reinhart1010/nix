@@ -2,8 +2,8 @@
 layout: page
 title: common/awk (Nederlands)
 description: "Een veelzijdige programmeertaal voor het werken met bestanden."
-content_hash: 119de132a94d0e0f0b2f69e52d2b5aaec6f793b9
-last_modified_at: 2024-01-05
+content_hash: b0c1bcc650cf69fca8fa740012f1d765c6246d41
+last_modified_at: 2024-08-26
 related_topics:
   - title: English version
     url: /en/common/awk.html
@@ -67,6 +67,6 @@ Meer informatie: <https://github.com/onetrueawk/awk>.
 
 `awk '($10 == `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>`)'`
 
-- Toon alle regels waarbij de waarde van de 10e kolom tussen een min en een max zit:
+- Print een tabel van gebruikers met UID >= 1000 met header en opgemaakte uitvoer, gebruikmakend van een dubbele punt als scheidingsteken (`%-20s` betekent: 20 links uitgelijnde tekens, `%6s` betekent: 6 rechts uitgelijnde tekens):
 
-`awk '($10 >= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">min_value</span>` && $10 <= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_value</span>`)'`
+`awk 'BEGIN {FS=":"; printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $3 >= 1000 {printf "%-20s %6d %25s\n", $1, $3, $7}' /etc/passwd`
