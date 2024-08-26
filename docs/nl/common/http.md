@@ -3,7 +3,7 @@ layout: page
 title: common/http (Nederlands)
 description: "HTTPie: HTTP client, bedoeld om gebruiksvriendelijker te zijn dan cURL."
 content_hash: 8d1fe50f35ac95a67fa10bf50590e58e9d83b7cb
-last_modified_at: 2024-08-23
+last_modified_at: 2024-08-26
 related_topics:
   - title: English version
     url: /en/common/http.html
@@ -11,9 +11,12 @@ related_topics:
   - title: polski version
     url: /pl/common/http.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# http
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># http
 
 HTTPie: HTTP client, bedoeld om gebruiksvriendelijker te zijn dan cURL.
 Meer informatie: <https://httpie.org>.
