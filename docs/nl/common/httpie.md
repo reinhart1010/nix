@@ -3,7 +3,7 @@ layout: page
 title: common/httpie (Nederlands)
 description: "Beheersinterface voor HTTPie."
 content_hash: 1f341f12c7a279d17c3e4a8f0a7e309d344c395f
-last_modified_at: 2024-08-26
+last_modified_at: 2024-08-27
 related_topics:
   - title: Deutsch version
     url: /de/common/httpie.html
@@ -11,12 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/httpie.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># httpie
+# httpie
 
 Beheersinterface voor HTTPie.
 Zie ook: `http`, de tool zelf.
