@@ -3,7 +3,7 @@ layout: page
 title: common/fastboot (中文)
 description: "在引导加载程序模式下与连接的 Android 设备通信（在这里无法使用 ADB）。"
 content_hash: 3f68412b0706ef44409d0b9bc282d8d0dc1209f8
-last_modified_at: 2024-08-30
+last_modified_at: 2024-08-31
 related_topics:
   - title: English version
     url: /en/common/fastboot.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fastboot.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fastboot.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fastboot
+# fastboot
 
 在引导加载程序模式下与连接的 Android 设备通信（在这里无法使用 ADB）。
 更多信息：<https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>.

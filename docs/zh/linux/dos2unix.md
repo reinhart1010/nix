@@ -3,7 +3,7 @@ layout: page
 title: linux/dos2unix (中文)
 description: "将 DOS 样式的行尾更改为 Unix 样式。"
 content_hash: 87fcfe8490ad7a0ffa5ea3ebbaf45b59dc31b652
-last_modified_at: 2023-11-12
+last_modified_at: 2024-08-31
 related_topics:
   - title: català version
     url: /ca/linux/dos2unix.html
@@ -14,9 +14,12 @@ related_topics:
   - title: español version
     url: /es/linux/dos2unix.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# dos2unix
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dos2unix
 
 将 DOS 样式的行尾更改为 Unix 样式。
 用 LF 替换 CRLF.

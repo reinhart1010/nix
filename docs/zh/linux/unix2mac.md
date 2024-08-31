@@ -3,14 +3,17 @@ layout: page
 title: linux/unix2mac (中文)
 description: "将 Unix 样式的行尾更改为 macOS 样式。"
 content_hash: 6398559257529a1d2763b9af01b8d885ceb5fdc8
-last_modified_at: 2023-11-12
+last_modified_at: 2024-08-31
 related_topics:
   - title: English version
     url: /en/linux/unix2mac.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# unix2mac
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># unix2mac
 
 将 Unix 样式的行尾更改为 macOS 样式。
 用 CR 替换 LF.
