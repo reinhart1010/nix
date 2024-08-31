@@ -2,8 +2,8 @@
 layout: page
 title: common/git-tag (English)
 description: "Create, list, delete or verify tags."
-content_hash: 7ae8067602f249b1ad25b0609d8f533f4626ea42
-last_modified_at: 2024-06-20
+content_hash: ed84a2be7a9d5de405291b059d43d8b93bbec8b2
+last_modified_at: 2024-08-31
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -52,7 +52,7 @@ More information: <https://git-scm.com/docs/git-tag>.
 
 - Delete the tag with the given name:
 
-`git tag -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span>
+`git tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--delete|-d</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span>
 
 - Get updated tags from remote:
 

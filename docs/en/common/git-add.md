@@ -2,8 +2,8 @@
 layout: page
 title: common/git-add (English)
 description: "Adds changed files to the index."
-content_hash: 328b15ccec45516f8548f18851115e29cfc32199
-last_modified_at: 2024-06-20
+content_hash: 0e6f574e979abc6168421205dd77a0c0ae72fc6e
+last_modified_at: 2024-08-31
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -51,7 +51,7 @@ More information: <https://git-scm.com/docs/git-add>.
 
 - Add all files (tracked and untracked):
 
-`git add -A`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--all|-A</span>
 
 - Add all files in the current folder:
 
@@ -59,20 +59,20 @@ More information: <https://git-scm.com/docs/git-add>.
 
 - Only add already tracked files:
 
-`git add -u`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--update|-u</span>
 
 - Also add ignored files:
 
-`git add -f`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--force|-f</span>
 
 - Interactively stage parts of files:
 
-`git add -p`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--patch|-p</span>
 
 - Interactively stage parts of a given file:
 
-`git add -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--patch|-p</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Interactively stage a file:
 
-`git add -i`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--interactive|-i</span>

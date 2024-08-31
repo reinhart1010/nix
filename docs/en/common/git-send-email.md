@@ -2,9 +2,12 @@
 layout: page
 title: common/git-send-email (English)
 description: "Send a collection of patches as emails."
-content_hash: 78455f58958d457c0941584d06c3d75a0d44e749
-last_modified_at: 2023-11-12
+content_hash: 880942dca13c60323ab5ebcd502dab26959f4875
+last_modified_at: 2024-08-31
 related_topics:
+  - title: Deutsch version
+    url: /de/common/git-send-email.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/git-send-email.html
     icon: bi bi-globe
@@ -22,7 +25,7 @@ Send a collection of patches as emails.
 Patches can be specified as files, directions, or a revision list.
 More information: <https://git-scm.com/docs/git-send-email>.
 
-- Send the last commit in the current branch:
+- Send the last commit in the current branch interactively:
 
 `git send-email -1`
 

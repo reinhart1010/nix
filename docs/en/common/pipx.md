@@ -2,8 +2,8 @@
 layout: page
 title: common/pipx (English)
 description: "Install and run Python applications in isolated environments."
-content_hash: 48032e4525db17c1d4b84f70b33a5970792edc73
-last_modified_at: 2023-11-12
+content_hash: dc8b0809fbb73ea8773a1b2941c1fac89b45c6df
+last_modified_at: 2024-08-31
 tldri18n_status: 2
 ---
 # pipx
@@ -34,3 +34,7 @@ More information: <https://github.com/pypa/pipx>.
 - Install a package in a virtual environment with pip arguments:
 
 `pipx install --pip-args='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pip-args</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+
+- Upgrade/reinstall/uninstall all installed packages:
+
+`pipx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">upgrade-all|uninstall-all|reinstall-all</span>

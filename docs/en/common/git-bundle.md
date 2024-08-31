@@ -2,9 +2,12 @@
 layout: page
 title: common/git-bundle (English)
 description: "Package objects and references into an archive."
-content_hash: 9ece1b86477bd54a66429364359494746359db84
-last_modified_at: 2024-08-14
+content_hash: 02f6af7ad4929d7a19015897c5be5fde38136b98
+last_modified_at: 2024-08-31
 related_topics:
+  - title: español version
+    url: /es/common/git-bundle.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/git-bundle.html
     icon: bi bi-globe
@@ -41,7 +44,7 @@ More information: <https://git-scm.com/docs/git-bundle>.
 
 - Create a bundle file of the latest 7 days:
 
-`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.bundle</span>` --since=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.days</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
+`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.bundle</span>` --since `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.days</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
 
 - Verify that a bundle file is valid and can be applied to the current repository:
 

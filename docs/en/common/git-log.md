@@ -2,8 +2,8 @@
 layout: page
 title: common/git-log (English)
 description: "Show a history of commits."
-content_hash: 1dfbffb667affe02d2bdb7899b58c0c049ed6d15
-last_modified_at: 2023-11-12
+content_hash: 16b34cbcc0efa12ff04e2e16715785eb7f3fa0a2
+last_modified_at: 2024-08-31
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-log.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-log.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-log.html
@@ -39,7 +42,7 @@ More information: <https://git-scm.com/docs/git-log>.
 
 - Show the history of a particular file or directory, including differences:
 
-`git log -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--patch|-p|-u</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
 - Show an overview of which file(s) changed in each commit:
 
@@ -53,14 +56,14 @@ More information: <https://git-scm.com/docs/git-log>.
 
 `git log --oneline --decorate --all --graph`
 
-- Show only commits whose messages include a given string (case-insensitively):
+- Show only commits with messages that include a specific string, ignoring case:
 
-`git log -i --grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_string</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--regexp-ignore-case|-i</span>` --grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_string</span>
 
-- Show the last N commits from a certain author:
+- Show the last N number of commits from a certain author:
 
-`git log -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span>` --author=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">author</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--max-count|-n} `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">author</span>`"`
 
 - Show commits between two dates (yyyy-mm-dd):
 
-`git log --before="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-29</span>`" --after="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-17</span>`"`
+`git log --before "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-29</span>`" --after "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-17</span>`"`

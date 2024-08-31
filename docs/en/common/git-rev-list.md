@@ -2,8 +2,8 @@
 layout: page
 title: common/git-rev-list (English)
 description: "List revisions (commits) in reverse chronological order."
-content_hash: a822e98e89fd9628a54d306a4b14445baa36a74b
-last_modified_at: 2023-11-12
+content_hash: 356bac9e12855ce48dcaf11e7dbc941e3edf3354
+last_modified_at: 2024-08-31
 related_topics:
   - title: español version
     url: /es/common/git-rev-list.html
@@ -30,11 +30,11 @@ More information: <https://git-scm.com/docs/git-rev-list>.
 
 - Print the latest commit that changed (add/edit/remove) a specific file on the current branch:
 
-`git rev-list -n 1 HEAD -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`git rev-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--max-count|-n</span>` 1 HEAD -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - List commits more recent than a specific date, on a specific branch:
 
-`git rev-list --since=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'2019-12-01 00:00:00'</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
+`git rev-list --since "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2019-12-01 00:00:00</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
 
 - List all merge commits on a specific commit:
 

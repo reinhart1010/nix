@@ -2,11 +2,14 @@
 layout: page
 title: common/git-cherry (English)
 description: "Find commits that have yet to be applied upstream."
-content_hash: 1d520afcc19b9b95a18b64ba7761ba5b09d1cbff
-last_modified_at: 2023-11-12
+content_hash: 6f3adf6d36845d117bff1b670cf1c73d699d3d73
+last_modified_at: 2024-08-31
 related_topics:
   - title: français version
     url: /fr/common/git-cherry.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-cherry.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-cherry.html
@@ -23,7 +26,7 @@ More information: <https://git-scm.com/docs/git-cherry>.
 
 - Show commits (and their messages) with equivalent commits upstream:
 
-`git cherry -v`
+`git cherry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--verbose|-v</span>
 
 - Specify a different upstream and topic branch:
 

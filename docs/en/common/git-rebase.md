@@ -2,8 +2,8 @@
 layout: page
 title: common/git-rebase (English)
 description: "Reapply commits from one branch on top of another branch."
-content_hash: 6823293f97657038a907c6c975b73a1a813a7522
-last_modified_at: 2023-11-12
+content_hash: 0bf224ca8c5933cc908b07863496425f7e1a605a
+last_modified_at: 2024-08-31
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-rebase.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-rebase.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-rebase.html
@@ -40,7 +43,7 @@ More information: <https://git-scm.com/docs/git-rebase>.
 
 - Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
 
-`git rebase -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_base_branch_or_commit_hash</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--interactive|-i</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_base_branch_or_commit_hash</span>
 
 - Continue a rebase that was interrupted by a merge failure, after editing conflicting files:
 
@@ -60,8 +63,8 @@ More information: <https://git-scm.com/docs/git-rebase>.
 
 - Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined or modified:
 
-`git rebase -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--interactive|-i</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span>
 
 - Auto-resolve any conflicts by favoring the working branch version (`theirs` keyword has reversed meaning in this case):
 
-`git rebase -X theirs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--strategy-option|-X</span>` theirs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
