@@ -2,8 +2,8 @@
 layout: page
 title: common/pulumi (English)
 description: "Define infrastructure on any cloud using familiar programming languages."
-content_hash: 13e416a6b68178a6758e3c733d4d86405d327218
-last_modified_at: 2024-08-30
+content_hash: 650b9218e40a5a3ce19518dc2676c36dc6c19ad8
+last_modified_at: 2024-09-01
 tldri18n_status: 2
 ---
 # pulumi
@@ -35,3 +35,7 @@ More information: <https://www.pulumi.com/docs/cli>.
 - Destroy a program and its infrastructure:
 
 `pulumi destroy`
+
+- Use Pulumi locally, independent of a Pulumi Cloud:
+
+`pulumi login `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|--local</span>

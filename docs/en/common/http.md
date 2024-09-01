@@ -2,8 +2,8 @@
 layout: page
 title: common/http (English)
 description: "HTTPie: an HTTP client designed for testing, debugging, and generally interacting with APIs & HTTP servers."
-content_hash: 629236f55f828569b7b8f8b4ca38df133ef1bae7
-last_modified_at: 2024-08-26
+content_hash: efde08218baf4bfc5eea635fd45d104bfa319479
+last_modified_at: 2024-09-01
 related_topics:
   - title: Nederlands version
     url: /nl/common/http.html
@@ -26,9 +26,9 @@ More information: <https://httpie.io/docs/cli/usage>.
 
 `http --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H|B|h|b|m|Hh|Hhb|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Specify the HTTP method when sending a request:
+- Specify the HTTP method when sending a request and use a proxy to intercept the request:
 
-`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|POST|HEAD|PUT|PATCH|DELETE|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
+`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|POST|HEAD|PUT|PATCH|DELETE|...</span>` --proxy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http|https</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://localhost:8080|socks5://localhost:9050|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
 - Follow any `3xx` redirects and specify additional headers in a request:
 
