@@ -2,8 +2,8 @@
 layout: page
 title: common/git-shortlog (English)
 description: "Summarizes the `git log` output."
-content_hash: 7bc6ae32792dfdab98377525a5a547273112272b
-last_modified_at: 2024-08-31
+content_hash: 6869e607d4b5e3334a794a222f0b26229b48b3e6
+last_modified_at: 2024-09-03
 related_topics:
   - title: español version
     url: /es/common/git-shortlog.html
@@ -30,11 +30,11 @@ More information: <https://git-scm.com/docs/git-shortlog>.
 
 - View a summary of all the commits made, sorted by the number of commits made:
 
-`git shortlog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--numbered|-n</span>
+`git shortlog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--numbered</span>
 
 - View a summary of all the commits made, grouped by the committer identities (name and email):
 
-`git shortlog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--committer|-c</span>
+`git shortlog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|--committer</span>
 
 - View a summary of the last 5 commits (i.e. specify a revision range):
 
@@ -42,8 +42,8 @@ More information: <https://git-scm.com/docs/git-shortlog>.
 
 - View all users, emails and the number of commits in the current branch:
 
-`git shortlog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--summary|-s</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--numbered|-n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--email|-e</span>
+`git shortlog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|--summary</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--numbered</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--email</span>
 
 - View all users, emails and the number of commits in all branches:
 
-`git shortlog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--summary|-s</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--numbered|-n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--email|-e</span>` --all`
+`git shortlog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|--summary</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--numbered</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--email</span>` --all`

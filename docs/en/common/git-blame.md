@@ -2,8 +2,8 @@
 layout: page
 title: common/git-blame (English)
 description: "Show commit hash and last author on each line of a file."
-content_hash: 15b3c8a1e5972cc9a0986e45658c156a0c5ca56b
-last_modified_at: 2024-08-31
+content_hash: 12aacb0de1533eff1f000f8c6153a059436f329a
+last_modified_at: 2024-09-03
 related_topics:
   - title: Deutsch version
     url: /de/common/git-blame.html
@@ -42,7 +42,7 @@ More information: <https://git-scm.com/docs/git-blame>.
 
 - Print file with author email and commit hash on each line:
 
-`git blame `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--show-email|-e</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`git blame `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--show-email</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Print file with author name and commit hash on each line at a specific commit:
 

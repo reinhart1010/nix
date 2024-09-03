@@ -2,8 +2,8 @@
 layout: page
 title: common/git-annotate (English)
 description: "Show commit hash and last author on each line of a file."
-content_hash: 6601c5d3d39956af4bee80ce4415e1fcf99688bd
-last_modified_at: 2024-08-31
+content_hash: 5618b9110db254b44e786d9447421a144ae34639
+last_modified_at: 2024-09-03
 related_topics:
   - title: Indonesia version
     url: /id/common/git-annotate.html
@@ -27,9 +27,9 @@ More information: <https://git-scm.com/docs/git-annotate>.
 
 `git annotate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Print a file with the author [e]mail and commit hash prepended to each line:
+- Print a file with the author email and commit hash prepended to each line:
 
-`git annotate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--show-email|-e</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`git annotate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--show-email</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Print only rows that match a regular expression:
 

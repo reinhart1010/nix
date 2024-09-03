@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (English)
 description: "Main Git command for working with branches."
-content_hash: 18cff74f0cd1491b7aaf67cef05be0004263b89a
-last_modified_at: 2024-08-31
+content_hash: 9e15324402c3fcb5e718813c22afe47aeacf6464
+last_modified_at: 2024-09-03
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -61,11 +61,11 @@ More information: <https://git-scm.com/docs/git-branch>.
 
 - Rename a branch (must not have it checked out to do this):
 
-`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--move|-m</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_branch_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_branch_name</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--move</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_branch_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_branch_name</span>
 
 - Delete a local branch (must not have it checked out to do this):
 
-`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--delete|-d</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
 
 - Delete a remote branch:
 

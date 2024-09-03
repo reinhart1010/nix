@@ -2,8 +2,8 @@
 layout: page
 title: common/git-remote (English)
 description: "Manage set of tracked repositories (\"remotes\")."
-content_hash: 1cf6fb9c7f6f78c866ae9f9a3307930d7bf4b1eb
-last_modified_at: 2024-08-31
+content_hash: 62aa17c9d8287ee5db2c12322c5b7f4608af01e1
+last_modified_at: 2024-09-03
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -41,7 +41,7 @@ More information: <https://git-scm.com/docs/git-remote>.
 
 - List existing remotes with their names and URLs:
 
-`git remote `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--verbose|-v</span>
+`git remote `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>
 
 - Show information about a remote:
 

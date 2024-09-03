@@ -2,8 +2,8 @@
 layout: page
 title: common/git-clean (English)
 description: "Remove files not tracked by Git from the working tree."
-content_hash: 210182eaf322ad4ced9198fec813bdc20ff618a0
-last_modified_at: 2024-08-31
+content_hash: f2ad5edf74a4bf49c367cdb2385ebde6a3270f12
+last_modified_at: 2024-09-03
 related_topics:
   - title: español version
     url: /es/common/git-clean.html
@@ -34,9 +34,9 @@ More information: <https://git-scm.com/docs/git-clean>.
 
 `git clean`
 
-- [i]nteractively delete untracked files:
+- Interactively delete untracked files:
 
-`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--interactive|-i</span>
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>
 
 - Show which files would be deleted without actually deleting them:
 
@@ -44,11 +44,11 @@ More information: <https://git-scm.com/docs/git-clean>.
 
 - Forcefully delete untracked files:
 
-`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--force|-f</span>
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--force</span>
 
 - Forcefully delete untracked [d]irectories:
 
-`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--force|-f</span>` -d`
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--force</span>` -d`
 
 - Delete untracked files, including e[x]cluded files (files ignored in `.gitignore` and `.git/info/exclude`):
 

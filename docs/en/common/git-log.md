@@ -2,8 +2,8 @@
 layout: page
 title: common/git-log (English)
 description: "Show a history of commits."
-content_hash: 16b34cbcc0efa12ff04e2e16715785eb7f3fa0a2
-last_modified_at: 2024-08-31
+content_hash: e245b550963738dcb38b7256cd82aaba2e0f1a07
+last_modified_at: 2024-09-03
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -58,7 +58,7 @@ More information: <https://git-scm.com/docs/git-log>.
 
 - Show only commits with messages that include a specific string, ignoring case:
 
-`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--regexp-ignore-case|-i</span>` --grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_string</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--regexp-ignore-case</span>` --grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_string</span>
 
 - Show the last N number of commits from a certain author:
 

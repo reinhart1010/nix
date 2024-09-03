@@ -2,8 +2,8 @@
 layout: page
 title: common/git-lfs (English)
 description: "Work with large files in Git repositories."
-content_hash: 8834874d43df377027396d77058cd3a5543dfa68
-last_modified_at: 2024-08-31
+content_hash: ff5bec9cab949018b5267981ce09cee4950d634b
+last_modified_at: 2024-09-03
 related_topics:
   - title: español version
     url: /es/common/git-lfs.html
@@ -34,7 +34,7 @@ More information: <https://git-lfs.com>.
 
 - Change the Git LFS endpoint URL (useful if the LFS server is separate from the Git server):
 
-`git config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--file|-f</span>` .lfsconfig lfs.url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lfs_endpoint_url</span>
+`git config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--file</span>` .lfsconfig lfs.url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lfs_endpoint_url</span>
 
 - List tracked patterns:
 

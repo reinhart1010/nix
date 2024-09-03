@@ -2,8 +2,8 @@
 layout: page
 title: common/git-rebase (English)
 description: "Reapply commits from one branch on top of another branch."
-content_hash: 0bf224ca8c5933cc908b07863496425f7e1a605a
-last_modified_at: 2024-08-31
+content_hash: 676dd2c9c6becb2e61ef15bfe657e5b5f5d9987b
+last_modified_at: 2024-09-03
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -43,7 +43,7 @@ More information: <https://git-scm.com/docs/git-rebase>.
 
 - Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
 
-`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--interactive|-i</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_base_branch_or_commit_hash</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_base_branch_or_commit_hash</span>
 
 - Continue a rebase that was interrupted by a merge failure, after editing conflicting files:
 
@@ -63,8 +63,8 @@ More information: <https://git-scm.com/docs/git-rebase>.
 
 - Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined or modified:
 
-`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--interactive|-i</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span>
 
 - Auto-resolve any conflicts by favoring the working branch version (`theirs` keyword has reversed meaning in this case):
 
-`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--strategy-option|-X</span>` theirs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-X|--strategy-option</span>` theirs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>

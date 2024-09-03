@@ -2,8 +2,8 @@
 layout: page
 title: common/git-svn (English)
 description: "Bidirectional operation between a Subversion repository and Git."
-content_hash: d6bff911499b819a47c6d57da73475b5695859a5
-last_modified_at: 2024-08-31
+content_hash: 843d6d2c7271ef47831a351ce23decba6ac2700f
+last_modified_at: 2024-09-03
 related_topics:
   - title: español version
     url: /es/common/git-svn.html
@@ -30,7 +30,7 @@ More information: <https://git-scm.com/docs/git-svn>.
 
 - Clone an SVN repository starting at a given revision number:
 
-`git svn clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--revision|-r</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span>`:HEAD `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://svn.example.net/subversion/repo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_dir</span>
+`git svn clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--revision</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span>`:HEAD `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://svn.example.net/subversion/repo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_dir</span>
 
 - Update local clone from the remote SVN repository:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/http (English)
 description: "HTTPie: an HTTP client designed for testing, debugging, and generally interacting with APIs & HTTP servers."
-content_hash: efde08218baf4bfc5eea635fd45d104bfa319479
-last_modified_at: 2024-09-01
+content_hash: e6b35e5b61b2d9604b909667028875a015fc4d82
+last_modified_at: 2024-09-03
 related_topics:
   - title: Nederlands version
     url: /nl/common/http.html
@@ -32,7 +32,7 @@ More information: <https://httpie.io/docs/cli/usage>.
 
 - Follow any `3xx` redirects and specify additional headers in a request:
 
-`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--follow|-F</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'</span>
+`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-F|--follow</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'</span>
 
 - Authenticate to a server using different authentication methods:
 
