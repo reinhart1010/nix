@@ -2,8 +2,8 @@
 layout: page
 title: android/am (polski)
 description: "Menedżer aktywności Android."
-content_hash: b89844a0030af2375b4712e3722e1667e0587dae
-last_modified_at: 2024-02-22
+content_hash: 846fe020d09b06498363e8c5456ffbbc517365ef
+last_modified_at: 2024-09-03
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -75,18 +75,18 @@ tldri18n_status: 2
 Menedżer aktywności Android.
 Więcej informacji: <https://developer.android.com/tools/adb#am>.
 
-- Rozpocznij konkretną aktywność:
+- Rozpocznij aktywność z określoną [n]azwą komponentu i pakietu:
 
 `am start -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.android.settings/.Settings</span>
 
-- Rozpocznij aktywność i przekaż do niej dane:
+- Rozpocznij [a]kcję intencji i przekaż do niej [d]ane:
 
 `am start -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span>
 
-- Rozpocznij aktywność dopasowaną do konkretnej akcji i kategorii:
+- Rozpocznij aktywność dopasowaną do konkretnej akcji i kategorii ([c]ategory):
 
 `am start -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.MAIN</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.category.HOME</span>
 
-- Konwertuj zamiar w URI:
+- Konwertuj intencję na URI:
 
 `am to-uri -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span>

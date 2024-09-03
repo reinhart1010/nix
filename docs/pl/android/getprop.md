@@ -2,8 +2,8 @@
 layout: page
 title: android/getprop (polski)
 description: "Pokaż informacje o właściwościach systemu Android."
-content_hash: 26f67484cd92174ce2199be596d0342d6c8437d1
-last_modified_at: 2023-11-12
+content_hash: aa032f7d398f16bcc880e5a308bb7ed9a2d83a06
+last_modified_at: 2024-09-03
 related_topics:
   - title: বাংলা version
     url: /bn/android/getprop.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/getprop.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/getprop.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/getprop.html
@@ -72,13 +75,13 @@ Więcej informacji: <https://manned.org/getprop>.
 
 - Wyświetl informację o konkretnej właściwości:
 
-`getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prop</span>
+`getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">właściwość</span>
 
-- Wyświetl wersję SDK API:
+- Wyświetl wersję API SDK:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.build.version.sdk</span>
 
-- Wyświetl wersję Android:
+- Wyświetl wersję Androida:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.build.version.release</span>
 
@@ -86,7 +89,7 @@ Więcej informacji: <https://manned.org/getprop>.
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.vendor.product.model</span>
 
-- Wyświetl status odblokowania OEM:
+- Wyświetl status odblokowania OEMu:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.oem_unlock_supported</span>
 
