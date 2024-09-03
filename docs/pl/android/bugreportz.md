@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (polski)
 description: "Wygeneruj skompresowany raport błędów Android."
-content_hash: 5b5ea11b675886720443534757b83338fcf0ad87
-last_modified_at: 2024-06-19
+content_hash: 25ed1c0c83ee325e030dcfdbe21d56d02ef64337
+last_modified_at: 2024-09-03
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -73,7 +73,7 @@ Wygeneruj skompresowany raport błędów Android.
 Ta komenda może być używana tylko poprzez `adb shell`.
 Więcej informacji: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
-- Wygeneruj pełny i skompresowany raport błędów dla urządzenia Android:
+- Wygeneruj pełny i skompresowany raport błędów urządzenia Android:
 
 `bugreportz`
 

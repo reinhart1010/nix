@@ -2,8 +2,8 @@
 layout: page
 title: common/adb (polski)
 description: "Android Debug Bridge: komunikuj się z instancją emulatora Androida lub podłączonym urządzeniem z Androidem."
-content_hash: d24a038371d4e78cd8da6ace16e4ba9645986831
-last_modified_at: 2024-02-22
+content_hash: 671779ea0434ce6da423a3485bcde5f3bea5e7e2
+last_modified_at: 2024-09-03
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -40,6 +40,7 @@ tldri18n_status: 2
 # adb
 
 Android Debug Bridge: komunikuj się z instancją emulatora Androida lub podłączonym urządzeniem z Androidem.
+Niektóre podkomendy takie jak `adb shell` mają osobną dokumentację.
 Więcej informacji: <https://developer.android.com/tools/adb>.
 
 - Sprawdź czy proces serwera adb działa, jeśli nie, uruchom go:
@@ -50,22 +51,22 @@ Więcej informacji: <https://developer.android.com/tools/adb>.
 
 `adb kill-server`
 
-- Uruchom powłokę w instancji emulatora lub urządzeniu:
+- Uruchom powłokę w docelowej instancji emulatora/urządzenia:
 
 `adb shell`
 
-- Wypchnij aplikację Androidową do instancji emulatora lub urządzenia:
+- Wyślij aplikację Android do emulatora/urządzenia:
 
 `adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span>
 
-- Skopiuj plik/katalog do urządzenia:
+- Skopiuj plik/katalog z urządzenia docelowego:
 
-`adb pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu_na_urządzeniu</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/lokalnego_katalogu</span>
+`adb pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu_na_urządzeniu</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/lokalnego_katalogu_docelowego</span>
 
-- Skopiuj plik/katalog z urządzenia:
+- Skopiuj plik/katalog do urządzenia docelowego:
 
-`adb push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu_na_urządzeniu</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/lokalnego_katalogu</span>
+`adb push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/lokalnego_pliku_lub_katalogu</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/docelowego_katalogu_na_urządzeniu</span>
 
-- Listuj połączone lub emulowane urządzenia:
+- Wypisz wszystkie połączone urządzenia:
 
 `adb devices`

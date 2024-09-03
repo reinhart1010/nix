@@ -2,8 +2,8 @@
 layout: page
 title: common/git-add (Nederlands)
 description: "Voegt gewijzigde bestanden toe aan de index."
-content_hash: 7d8f6e1c7e7a443662620f642114e70e464bb676
-last_modified_at: 2024-06-25
+content_hash: 82a4676701e44e666ef375421907b58e1daf66ad
+last_modified_at: 2024-09-03
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -51,7 +51,7 @@ Meer informatie: <https://git-scm.com/docs/git-add>.
 
 - Voeg alle bestanden toe (bijgehouden en niet bijgehouden):
 
-`git add -A`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-A|--all</span>
 
 - Voeg alle bestanden toe in de huidige map:
 
@@ -59,20 +59,20 @@ Meer informatie: <https://git-scm.com/docs/git-add>.
 
 - Voeg alleen al bijgehouden bestanden toe:
 
-`git add -u`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|--update</span>
 
 - Voeg ook genegeerde bestanden toe:
 
-`git add -f`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--force</span>
 
 - Interactief delen van bestanden toevoegen:
 
-`git add -p`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--patch</span>
 
 - Interactief delen van een opgegeven bestand toevoegen:
 
-`git add -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--patch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
 - Interactief een bestand toevoegen:
 
-`git add -i`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>

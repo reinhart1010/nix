@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (polski)
 description: "Archiwizator plików o wysokim współczynniku kompresji."
-content_hash: 8ce04d365a9469547b2ef7b1ac0597937a70004f
-last_modified_at: 2024-06-14
+content_hash: 4ecda5d12568c161da4953cf35cea94d2093fa89
+last_modified_at: 2024-09-03
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -61,19 +61,19 @@ Archiwizator plików o wysokim współczynniku kompresji.
 Podobny do `7z` z wyjątkiem tego, że obsługuje mniej typów plików, ale jest wieloplatformowy.
 Więcej informacji: <https://manned.org/7za>.
 
-- Zarchiwizuj plik lub katalog:
+- Z[a]rchiwizuj plik lub katalog:
 
 `7za a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/archiwum.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu</span>
 
-- Zaszyfruj istniejące archiwum (w tym nagłówki):
+- Zaszyfruj istniejące archiwum (w tym nazwy plików):
 
 `7za a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/zaszyfrowanego.7z</span>` -p`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hasło</span>` -mhe=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/archiwum.7z</span>
 
-- Wyodrębnij archiwum, zachowując oryginalną strukturę katalogów:
+- Wypakuj archiwum, zachowując oryginalną strukturę katalogów:
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/archiwum.7z</span>
 
-- Wyodrębnij archiwum do określonego katalogu:
+- Wypakuj archiwum do określonego katalogu:
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/archiwum.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/wyjścia</span>
 

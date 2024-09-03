@@ -2,8 +2,8 @@
 layout: page
 title: android/settings (polski)
 description: "Uzyskaj informacje o systemie operacyjnym Android."
-content_hash: adebb66da1170207997d6bb594b564a60a5c1ae7
-last_modified_at: 2023-11-12
+content_hash: 7c3f5116e3ea7cce1a2531404cb9c0c128aaecd5
+last_modified_at: 2024-09-03
 related_topics:
   - title: বাংলা version
     url: /bn/android/settings.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/settings.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/settings.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/settings.html
@@ -66,7 +69,7 @@ tldri18n_status: 2
 Uzyskaj informacje o systemie operacyjnym Android.
 Więcej informacji: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
-- Listuj ustawienia w przestrzeni `global`:
+- Wypisz ustawienia w przestrzeni `global`:
 
 `settings list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span>
 
@@ -74,10 +77,10 @@ Więcej informacji: <https://adbinstaller.com/commands/adb-shell-settings-5b670d
 
 `settings get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">airplane_mode_on</span>
 
-- Ustaw wartość dla określonego ustawienia:
+- Ustaw wartość określonego ustawienia:
 
 `settings put `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screen_brightness</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">42</span>
 
-- Delete a specific setting:
+- Usuń określone ustawienie:
 
 `settings delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secure</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screensaver_enabled</span>

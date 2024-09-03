@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-install (polski)
 description: "Android Debug Bridge Install: wysyłaj pakiety do instancji emulatora Androida lub podłączonych urządzeń z systemem Android."
-content_hash: 705a36222e1d0c7d1c3d234240b68e4542687fd3
-last_modified_at: 2024-02-22
+content_hash: 33dbbd887387100a875239a30179155d0f9cddee
+last_modified_at: 2024-09-03
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -42,18 +42,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Android Debug Bridge Install: wysyłaj pakiety do instancji emulatora Androida lub podłączonych urządzeń z systemem Android.
 Więcej informacji: <https://developer.android.com/tools/adb>.
 
-- Wyślij aplikację na Androida do emulatora / urządzenia:
+- Wyślij aplikację na Androida do emulatora/urządzenia:
 
-`adb install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scieżka/do/pliku.apk</span>
+`adb install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span>
 
-- Zainstaluj ponownie istniejącą aplikację, zachowując jej dane:
+- Wyślij aplikację Android do określonego emulatora/urządzenia (nadpisuje `$ANDROID_SERIAL`):
 
-`adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scieżka/do/pliku.apk</span>
+`adb -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numer_seryjny</span>` install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span>
 
-- Przyznaj wszystkie uprawnienia wymienione w pliku manifestu aplikacji:
+- Zainstaluj ponownie ([r]einstall) istniejącą aplikację, zachowując jej dane:
 
-`adb install -g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scieżka/do/pliku.apk</span>
+`adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span>
+
+- Wyślij aplikację na Androida, umożliwiając obniżenie ([d]owngrade) wersji kodu (tylko pakiety debugowalne):
+
+`adb install -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span>
+
+- Przyznaj ([g]rant) wszystkie uprawnienia wymienione w pliku manifestu aplikacji:
+
+`adb install -g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span>
 
 - Szybko zaktualizuj zainstalowany pakiet, aktualizując tylko te części APK, które się zmieniły:
 
-`adb install --fastdeploy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scieżka/do/pliku.apk</span>
+`adb install --fastdeploy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span>

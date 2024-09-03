@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (polski)
 description: "Zrzut dziennika komunikatów systemowych, w tym śladów stosu po wystąpieniu błędu i komunikatów informacyjnych rejestrowanych przez aplikacje."
-content_hash: 3cf988fceaf670ef12b12a9da16c9a8160415259
-last_modified_at: 2024-05-05
+content_hash: 2897ad8be163342d5cb9251160257f33d113aa87
+last_modified_at: 2024-09-03
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -73,7 +73,7 @@ Więcej informacji: <https://developer.android.com/tools/logcat>.
 
 `logcat`
 
-- Zapisz logi systemowe do pliku:
+- Zapisz logi systemowe do pliku ([f]ile):
 
 `logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>
 

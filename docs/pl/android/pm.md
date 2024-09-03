@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (polski)
 description: "Pokaż informacje o aplikacjach na urządzeniu z systemem Android."
-content_hash: 2a5f43e433a038949f595f8c4c80abac1c533a82
-last_modified_at: 2024-02-22
+content_hash: b09922f70223b1badb824fe89a58f4b27a35d8fb
+last_modified_at: 2024-09-03
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -66,21 +66,21 @@ tldri18n_status: 2
 Pokaż informacje o aplikacjach na urządzeniu z systemem Android.
 Więcej informacji: <https://developer.android.com/tools/adb#pm>.
 
-- Listuj wszystkie zainstalowane aplikacje:
+- Wypisz wszystkie zainstalowane aplikacje:
 
 `pm list packages`
 
-- Listuj wszystkie zainstalowane aplikacje systemowych:
+- Wypisz wszystkie zainstalowane aplikacje [s]ystemowe:
 
 `pm list packages -s`
 
-- Listuj wszystkie zainstalowane aplikacje firm trzecich:
+- Wypisz wszystkie zainstalowane aplikacje firm trzecich ([3]):
 
 `pm list packages -3`
 
-- Listuj aplikacje pasujące do określonych słów kluczowych:
+- Wypisz aplikacje pasujące do określonych słów kluczowych:
 
-`pm list packages `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">słowo_kluczowe</span>
+`pm list packages `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">słowo_kluczowe1 słowo_kluczowe2 ...</span>
 
 - Pokaż ścieżkę APK konkretnej aplikacji:
 

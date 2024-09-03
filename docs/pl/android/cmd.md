@@ -2,8 +2,8 @@
 layout: page
 title: android/cmd (polski)
 description: "Menedżer usług Android."
-content_hash: eb2fb00d5c27fb886ecad1f190c122eec72b1878
-last_modified_at: 2023-11-12
+content_hash: adf5179b28457e121ef03304db126d0dc5aa87e1
+last_modified_at: 2024-09-03
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/cmd.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/cmd.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/cmd.html
@@ -78,8 +81,8 @@ Więcej informacji: <https://cs.android.com/android/platform/superproject/+/main
 
 - Uruchom konkretną usługę:
 
-`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alarm</span>
+`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usługa</span>
 
-- Uruchom usługę z argumentami:
+- Uruchom usługę z określonymi argumentami:
 
-`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wibrator</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wibruj 300</span>
+`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usługa</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 ...</span>

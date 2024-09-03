@@ -1,9 +1,9 @@
 ---
 layout: page
 title: android/dumpsys (polski)
-description: "Dostarczanie informacji o usługach systemu Android."
-content_hash: ecfe12543158baf09fe80fb5a45b32f3cc6323c5
-last_modified_at: 2024-02-22
+description: "Uzyskaj informacje o usługach systemu Android."
+content_hash: 3af3df91d31a9179aec66ceaef6d00cf6666ac8e
+last_modified_at: 2024-09-03
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -66,7 +66,7 @@ tldri18n_status: 2
 ---
 # dumpsys
 
-Dostarczanie informacji o usługach systemu Android.
+Uzyskaj informacje o usługach systemu Android.
 Ta komenda może być używana tylko poprzez `adb shell`.
 Więcej informacji: <https://developer.android.com/tools/dumpsys>.
 
@@ -78,18 +78,18 @@ Więcej informacji: <https://developer.android.com/tools/dumpsys>.
 
 `dumpsys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usługa</span>
 
-- Lista wszystkich usług, o których `dumpsys` może dać informacje:
+- Wypisz wszystkie usługi, o których `dumpsys` może podać informacje:
 
 `dumpsys -l`
 
-- Lista argumentów specyficznych dla usługi:
+- Wypisz argumenty specyficzne dla danej usługi:
 
 `dumpsys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usługa</span>` -h`
 
-- Wykluczenie określonej usługi z wyjścia diagnostycznego:
+- Wyklucz określoną usługę z wyjścia diagnostycznego:
 
 `dumpsys --skip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usługa</span>
 
-- Określenie czasu oczekiwania w sekundach (domyślnie 10s):
+- Określ czas oczekiwania w sekundach (domyślnie 10s):
 
-`dumpsys -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sekundy</span>
+`dumpsys -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span>

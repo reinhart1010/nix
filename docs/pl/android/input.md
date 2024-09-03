@@ -1,9 +1,9 @@
 ---
 layout: page
 title: android/input (polski)
-description: "Wysyłanie kodów zdarzeń lub gestów na ekranie dotykowym do urządzenia Android."
-content_hash: c3cce89b2344db548097860c31ab93985947afba
-last_modified_at: 2023-11-12
+description: "Wysyłaj kody zdarzeń lub gestów na ekranie dotykowym do urządzenia Android."
+content_hash: 042209d44fc065cb61d9cca562f29368081095d7
+last_modified_at: 2024-09-03
 related_topics:
   - title: বাংলা version
     url: /bn/android/input.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/input.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/input.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/input.html
@@ -63,13 +66,13 @@ tldri18n_status: 2
 ---
 # input
 
-Wysyłanie kodów zdarzeń lub gestów na ekranie dotykowym do urządzenia Android.
+Wysyłaj kody zdarzeń lub gestów na ekranie dotykowym do urządzenia Android.
 Ta komenda może być używana tylko poprzez `adb shell`.
 Więcej informacji: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
 - Wyślij kod zdarzenia dla pojedynczego znaku do urządzenia Android:
 
-`input keyevent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kod_eventu</span>
+`input keyevent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kod_zdarzenia</span>
 
 - Wyślij tekst do urządzenia z systemem Android (`%s` reprezentuje spacje):
 
@@ -77,12 +80,12 @@ Więcej informacji: <https://developer.android.com/reference/android/view/KeyEve
 
 - Wyślij pojedyncze stuknięcie do urządzenia Android:
 
-`input tap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_pos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_pos</span>
+`input tap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pozycja_x</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pozycja_y</span>
 
-- Wyślij gest machnięcia do urządzenia Android:
+- Wyślij gest przesunięcia do urządzenia Android:
 
 `input swipe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_start</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_start</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_koniec</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_koniec</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">czas_trwania_w_ms</span>
 
-- Wyślij długie naciśnięcie do urządzenia Android za pomocą gestu machnięcia:
+- Wyślij długie naciśnięcie do urządzenia Android za pomocą gestu przesunięcia:
 
-`input swipe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_pos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_pos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_pos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_pos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">czas_trwania_w_ms</span>
+`input swipe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pozycja_x</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pozycja_y</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pozycja_x</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pozycja_y</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">czas_trwania_w_ms</span>
