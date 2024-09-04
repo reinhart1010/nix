@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/at (polski)
-description: "Wykonuje polecenia o zadanym czasie."
-content_hash: 0441c063484b3bd683a572cf5143b503c3b1e8d3
-last_modified_at: 2023-11-12
+description: "Jednokrotnie wykonaj polecenia w późniejszym czasie."
+content_hash: 35c6fc11aebb19dc2d186fc5600f74d93c0d65d6
+last_modified_at: 2024-09-04
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -23,6 +23,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/at.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/at.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/at.html
     icon: bi bi-globe
@@ -33,18 +36,18 @@ tldri18n_status: 2
 ---
 # at
 
-Wykonuje polecenia o zadanym czasie.
-Aby działać poprawnie wymaga działającego serwisu atd (lub atrun).
+Jednokrotnie wykonaj polecenia w późniejszym czasie.
+Usługa atd (lub atrun) powinna być uruchomiona dla rzeczywistych wykonań.
 Więcej informacji: <https://manned.org/at>.
 
-- Wykonaj za 5 minut polecenie wprowadzone przy użyciu wejścia standardowego (aby zakończyć naciśnij `Ctrl + D`):
+- Wykonaj polecenia z `stdin` po upływie 5 minut (naciśnij `Ctrl + D` po zakończeniu):
 
 `at now + 5 minutes`
 
-- Wykonaj o 10:00 rano polecenie podane z wejścia standardowego:
+- Wykonaj polecenie z `stdin` dziś o 10:00:
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./zrób_backup.sh</span>`" | at 1000`
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./zrób_kopię_zapasową_bazy_danych.sh</span>`" | at 1000`
 
-- Wykonaj polecenia z podanego pliku w najbliższy wtorek o 21:30:
+- Wykonaj polecenia z danego pliku w następny wtorek:
 
 `at -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>` 9:30 PM Tue`

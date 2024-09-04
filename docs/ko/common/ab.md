@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (한국어)
 description: "아파치 벤치마킹 도구."
-content_hash: 7ace43532910457fa3b922e9744a871909c438cc
-last_modified_at: 2024-01-01
+content_hash: 361d055fbbc29cc34451543bdc14391333328d48
+last_modified_at: 2024-09-04
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -74,6 +74,10 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `ab -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- 벤치마킹에 사용될 최대 시간(초) 설정:
+- 벤치마킹에 사용될 최대 시간(초) 설정(기본 30초):
 
 `ab -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+
+- 결과를 CSV에 작성:
+
+`ab -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.csv</span>
