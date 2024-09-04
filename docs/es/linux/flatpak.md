@@ -3,7 +3,7 @@ layout: page
 title: linux/flatpak (español)
 description: "Construye, instala y ejecuta aplicaciones y tiempos de ejecución flatpak."
 content_hash: fcd87139687a5115e814d6cdb36cdd661e38c6f5
-last_modified_at: 2024-09-03
+last_modified_at: 2024-09-04
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/flatpak.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/flatpak.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># flatpak
+# flatpak
 
 Construye, instala y ejecuta aplicaciones y tiempos de ejecución flatpak.
 Más información: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.

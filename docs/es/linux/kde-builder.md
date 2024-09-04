@@ -3,23 +3,14 @@ layout: page
 title: linux/kde-builder (español)
 description: "Construye fácilmente componentes de KDE desde tus repositorios fuente."
 content_hash: cf7a98b231638e21113b9ad46dbb087429a95289
-last_modified_at: 2024-09-03
+last_modified_at: 2024-09-04
 related_topics:
   - title: English version
     url: /en/linux/kde-builder.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/kde-builder.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kde-builder
+# kde-builder
 
 Construye fácilmente componentes de KDE desde tus repositorios fuente.
 Sustituye a `kdesrc-build`.

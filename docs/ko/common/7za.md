@@ -3,7 +3,7 @@ layout: page
 title: common/7za (한국어)
 description: "높은 파일 압축률을 보여주는 파일 압축 프로그램."
 content_hash: 8e2b94179672030e26948aa65c5ef624c774b284
-last_modified_at: 2024-09-03
+last_modified_at: 2024-09-04
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -53,12 +53,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># 7za
+# 7za
 
 높은 파일 압축률을 보여주는 파일 압축 프로그램.
 더 적은 압축 타입을 지원하지만, 크로스플랫폼인 점을 제외하면 `7z`과 유사합니다.
