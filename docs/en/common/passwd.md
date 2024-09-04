@@ -2,8 +2,8 @@
 layout: page
 title: common/passwd (English)
 description: "Change a user's password."
-content_hash: c4290adeafea716d48301774cf639fd7216d8ad3
-last_modified_at: 2023-11-15
+content_hash: 689e38c78e3adf2a10625cdf12bb30d5e8a2a924
+last_modified_at: 2024-09-04
 related_topics:
   - title: français version
     url: /fr/common/passwd.html
@@ -28,8 +28,8 @@ More information: <https://manned.org/passwd>.
 
 - Get the current status of the user:
 
-`passwd -S`
+`passwd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-S|--status</span>
 
 - Make the password of the account blank (it will set the named account passwordless):
 
-`passwd -d`
+`passwd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>

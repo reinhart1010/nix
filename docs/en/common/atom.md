@@ -2,8 +2,8 @@
 layout: page
 title: common/atom (English)
 description: "A cross-platform pluggable text editor."
-content_hash: ef80afa169ec3c3ae84060948acee927e85ec8db
-last_modified_at: 2024-02-09
+content_hash: 730c27e94834ed61445c09916de3ac47d246e6e4
+last_modified_at: 2024-09-04
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -32,6 +32,7 @@ tldri18n_status: 2
 
 A cross-platform pluggable text editor.
 Plugins are managed by `apm`.
+Note: Atom has been sunsetted and is no longer actively maintained.
 More information: <https://atom.io/>.
 
 - Open a file or directory:

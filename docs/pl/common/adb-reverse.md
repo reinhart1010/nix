@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-reverse (polski)
 description: "Android Debug Bridge Reverse: zwrotne połączenie socketowe z emulowanego lub prawdziwego urządzenia Android."
-content_hash: dc659566654249d42fa9c3f62082a77a891614df
-last_modified_at: 2024-02-22
+content_hash: ec86dd2e8447baa15fffa8ccfb872bd82f077e2e
+last_modified_at: 2024-09-04
 related_topics:
   - title: English version
     url: /en/common/adb-reverse.html
@@ -33,18 +33,18 @@ tldri18n_status: 2
 Android Debug Bridge Reverse: zwrotne połączenie socketowe z emulowanego lub prawdziwego urządzenia Android.
 Więcej informacji: <https://developer.android.com/tools/adb>.
 
-- Listuj wszystkie zwrotne połączenia socketowe z emulatorów i urządzeń:
+- Wypisz wszystkie zwrotne połączenia socketowe z emulatorów i urządzeń:
 
 `adb reverse --list`
 
 - Przekieruj port TCP z emulatora lub urządzenia do localhost:
 
-`adb reverse tcp:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span>` tcp:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span>
+`adb reverse tcp:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zdalny_port</span>` tcp:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokalny_port</span>
 
 - Usuń wybrane zwrotne połączenie z emulatora lub urządzenia:
 
-`adb reverse --remove tcp:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span>
+`adb reverse --remove tcp:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zdalny_port</span>
 
-- Usuń wszystkie zwrotne połączenie z emulatorów lub urządzeń:
+- Usuń wszystkie zwrotne połączenia z wszystkich emulatorów lub urządzeń:
 
 `adb reverse --remove-all`

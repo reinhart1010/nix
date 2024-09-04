@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-shell (polski)
 description: "Android Debug Bridge Shell: uruchamiaj zdalne polecenia powłoki na instancji emulatora Androida lub podłączonych urządzeniach z Androidem."
-content_hash: 4ccdc4a92073416edb7bd013e69ef0552f6c743e
-last_modified_at: 2024-02-22
+content_hash: 915fafddfd51e2fa2acdbefd67e0623d1c942079
+last_modified_at: 2024-09-04
 related_topics:
   - title: English version
     url: /en/common/adb-shell.html
@@ -42,7 +42,7 @@ tldri18n_status: 2
 Android Debug Bridge Shell: uruchamiaj zdalne polecenia powłoki na instancji emulatora Androida lub podłączonych urządzeniach z Androidem.
 Więcej informacji: <https://developer.android.com/tools/adb>.
 
-- Uruchom interaktywną zdalną powłokę na emulatorze / urządzeniu:
+- Uruchom interaktywną zdalną powłokę na emulatorze lub urządzeniu:
 
 `adb shell`
 
@@ -50,25 +50,25 @@ Więcej informacji: <https://developer.android.com/tools/adb>.
 
 `adb shell getprop`
 
-- Przywróć wszystkie uprawnienia wykonawcze do ich wartości domyślnych:
+- Przywróć domyślne ustawienia wszystkich uprawnień uruchamiania:
 
 `adb shell pm reset-permissions`
 
 - Odwołaj niebezpieczne pozwolenie dla aplikacji:
 
-`adb shell pm revoke `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paczka</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pozwolenie</span>
+`adb shell pm revoke `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pozwolenie</span>
 
 - Wywołaj zdarzenie klawisza:
 
-`adb shell input keyevent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kod_klucza</span>
+`adb shell input keyevent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kod_klawisza</span>
 
 - Wyczyść dane aplikacji na emulatorze lub urządzeniu:
 
-`adb shell pm clear `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paczka</span>
+`adb shell pm clear `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
 
-- Rozpocznij aktywność na emulatorze / urządzeniu:
+- Rozpocznij aktywność na emulatorze lub urządzeniu:
 
-`adb shell am start -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paczka</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aktywność</span>
+`adb shell am start -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aktywność</span>
 
 - Rozpocznij aktywność domową na emulatorze lub urządzeniu:
 

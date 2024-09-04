@@ -2,8 +2,8 @@
 layout: page
 title: common/ag (polski)
 description: "The Silver Searcher. Podobny do `ack`, ale ma być szybszy."
-content_hash: 507e006c7624f521193b0799a32e45f0f65d4db5
-last_modified_at: 2024-06-14
+content_hash: 7233027d2e06f37c1997b33e1e7b9e3eca1d9026
+last_modified_at: 2024-09-04
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -45,23 +45,23 @@ tldri18n_status: 2
 The Silver Searcher. Podobny do `ack`, ale ma być szybszy.
 Więcej informacji: <https://github.com/ggreer/the_silver_searcher>.
 
-- Znajdź pliki zawierające „foo” i wypisz dopasowane linie:
+- Znajdź pliki zawierające "foo" i wypisz dopasowane linie:
 
 `ag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>
 
-- Znajdź pliki zawierające „foo” w określonym katalogu:
+- Znajdź pliki zawierające "foo" w określonym katalogu:
 
 `ag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/katalogu</span>
 
-- Znajdź pliki zawierające „foo”, ale podaj tylko nazwy plików:
+- Znajdź pliki zawierające "foo", ale wypisz tylko nazwy plików:
 
 `ag -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>
 
-- Znajdź pliki zawierające „FOO” bez rozróżniania wielkości liter i wypisz tylko dopasowanie, a nie całą linię:
+- Znajdź pliki zawierające "FOO" bez rozróżniania wielkości liter i wypisz tylko dopasowanie, a nie całą linię:
 
 `ag -i -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FOO</span>
 
-- Znajdź „foo” w plikach o nazwie pasującej do „bar”:
+- Znajdź "foo" w plikach o nazwie pasującej do "bar":
 
 `ag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>` -G `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span>
 
@@ -69,6 +69,6 @@ Więcej informacji: <https://github.com/ggreer/the_silver_searcher>.
 
 `ag '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^ba(r|z)$</span>`'`
 
-- Znajdź pliki o nazwie pasującej do „foo”:
+- Znajdź pliki o nazwie pasującej do "foo":
 
 `ag -g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>

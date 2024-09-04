@@ -2,8 +2,8 @@
 layout: page
 title: common/atom (polski)
 description: "Wieloplatformowy edytor tekstu z obsługą wtyczek."
-content_hash: 125b5f23f18c86302398e3e8f788685437a5c722
-last_modified_at: 2024-06-14
+content_hash: 568e4b46e6eba07003c9401bcb658e36dfc69bb0
+last_modified_at: 2024-09-04
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -32,6 +32,7 @@ tldri18n_status: 2
 
 Wieloplatformowy edytor tekstu z obsługą wtyczek.
 Wtyczkami zarządza się poprzez `apm`.
+Uwaga: Atom został wycofany i nie jest już aktywnie rozwijany.
 Więcej informacji: <https://atom.io/>.
 
 - Otwórz plik lub katalog:
@@ -50,7 +51,7 @@ Więcej informacji: <https://atom.io/>.
 
 `atom --safe`
 
-- Zapobiega rozwidlaniu się w tle, utrzymuje Atom podłączony do terminala:
+- Zapobiegaj rozwidlaniu się w tle, utrzymując Atoma podłączonego do terminala:
 
 `atom --foreground`
 
