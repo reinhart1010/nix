@@ -3,7 +3,7 @@ layout: page
 title: linux/rm (한국어)
 description: "파일 또는 디렉터리 삭제."
 content_hash: 4dfd72f6f7cc9fc75cb83dc4fff3d17ee820274a
-last_modified_at: 2023-11-12
+last_modified_at: 2024-09-05
 related_topics:
   - title: English version
     url: /en/linux/rm.html
@@ -11,9 +11,15 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/rm.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: українська version
+    url: /uk/linux/rm.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# rm
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># rm
 
 파일 또는 디렉터리 삭제.
 같이 보기: `rmdir`.

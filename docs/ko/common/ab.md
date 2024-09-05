@@ -3,7 +3,7 @@ layout: page
 title: common/ab (한국어)
 description: "아파치 벤치마킹 도구."
 content_hash: 361d055fbbc29cc34451543bdc14391333328d48
-last_modified_at: 2024-09-04
+last_modified_at: 2024-09-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -47,12 +47,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ab.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ab
+# ab
 
 아파치 벤치마킹 도구.
 로드 테스트를 수행하는 가장 간단한 도구.

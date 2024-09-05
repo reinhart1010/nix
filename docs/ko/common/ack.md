@@ -3,7 +3,7 @@ layout: page
 title: common/ack (한국어)
 description: "프로그래머에게 최적화된 grep과 같은 검색 도구."
 content_hash: aaf34ec347f33557ae944b7b47ca69d7f078f814
-last_modified_at: 2024-09-04
+last_modified_at: 2024-09-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -44,12 +44,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ack.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ack
+# ack
 
 프로그래머에게 최적화된 grep과 같은 검색 도구.
 추가 정보: 훨씬 빠른 rg 명령어도 참고.
