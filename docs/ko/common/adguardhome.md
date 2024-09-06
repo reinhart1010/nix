@@ -3,7 +3,7 @@ layout: page
 title: common/adguardhome (한국어)
 description: "광고 및 추적을 차단하는 네트워크 소프트웨어."
 content_hash: 4f4ae1c766573f8fe09dadcc7fc790425ecf0e67
-last_modified_at: 2024-09-05
+last_modified_at: 2024-09-06
 related_topics:
   - title: English version
     url: /en/common/adguardhome.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adguardhome.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/adguardhome.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># AdGuardHome
+# AdGuardHome
 
 광고 및 추적을 차단하는 네트워크 소프트웨어.
 더 많은 정보: <https://github.com/AdguardTeam/AdGuardHome>.
