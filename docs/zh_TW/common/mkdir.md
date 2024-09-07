@@ -2,14 +2,17 @@
 layout: page
 title: common/mkdir (中文 (繁體, 台灣))
 description: "建立目錄。"
-content_hash: cf33423fe4514b120e4a99ee5b98b09f86cbc38b
-last_modified_at: 2023-11-12
+content_hash: a84e66976292eb789d15e656ee6dc6650afa8c46
+last_modified_at: 2024-09-07
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/mkdir.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/mkdir.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/mkdir.html
@@ -22,6 +25,12 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/mkdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mkdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mkdir.html
     icon: bi bi-globe
   - title: српски version
     url: /sr/common/mkdir.html
@@ -48,8 +57,8 @@ tldri18n_status: 2
 
 - 遞迴建立目錄，若上層目錄尚未被建立則會一併建立：
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/路徑</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents} `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/路徑</span>
 
 - 使用指定的權限建立新目錄：
 
-`mkdir -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/路徑</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--mode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/路徑</span>

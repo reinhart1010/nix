@@ -2,11 +2,14 @@
 layout: page
 title: common/mkdir (español)
 description: "Crea un directorio."
-content_hash: d138c0b0e94a20d4f3bee0c06236522d20a00274
-last_modified_at: 2023-11-12
+content_hash: a55b8bbd9737cc1afa52dce10beb7b681908faa9
+last_modified_at: 2024-09-07
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/mkdir.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/mkdir.html
@@ -19,6 +22,12 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/mkdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mkdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mkdir.html
     icon: bi bi-globe
   - title: српски version
     url: /sr/common/mkdir.html
@@ -51,4 +60,4 @@ Más información: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Crea directorios recursivamente (útil para crear directorios anidados):
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>

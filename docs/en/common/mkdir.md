@@ -2,11 +2,14 @@
 layout: page
 title: common/mkdir (English)
 description: "Create directories and set their permissions."
-content_hash: 62b237dedefcfd85b23fed742d35d48e2abe9026
-last_modified_at: 2023-11-12
+content_hash: 2fe5759ba7e6418862f27027e963edab42d4d4a1
+last_modified_at: 2024-09-07
 related_topics:
   - title: español version
     url: /es/common/mkdir.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/mkdir.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/mkdir.html
@@ -19,6 +22,12 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/mkdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mkdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mkdir.html
     icon: bi bi-globe
   - title: српски version
     url: /sr/common/mkdir.html
@@ -46,10 +55,10 @@ More information: <https://www.gnu.org/software/coreutils/mkdir>.
 
 `mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
 
-- Create specific directories and their [p]arents if needed:
+- Create specific directories and their parents if needed:
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
 
 - Create directories with specific permissions:
 
-`mkdir -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--mode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>

@@ -2,14 +2,17 @@
 layout: page
 title: common/mkdir (Türkçe)
 description: "Yeni bir dizin oluştur."
-content_hash: 496228acdcf2177f7a3906211b170bfb9de0e3b9
-last_modified_at: 2024-01-03
+content_hash: b8a04e0fdc50e6468c803a5185e4641f9e22b5db
+last_modified_at: 2024-09-07
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/mkdir.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/mkdir.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/mkdir.html
@@ -22,6 +25,12 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/mkdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mkdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mkdir.html
     icon: bi bi-globe
   - title: српски version
     url: /sr/common/mkdir.html
@@ -51,4 +60,4 @@ Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Özyinelemeli şekilde dizin oluştur (iç içe klasörler oluşturmak için kullanışlıdır):
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin/yolu1 dizin/yolu2 ...</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin/yolu1 dizin/yolu2 ...</span>

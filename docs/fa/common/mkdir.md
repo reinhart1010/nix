@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (فارسی)
 description: "ساخت پوشه ها و تنظیم مجوز آنها."
-content_hash: c78eec253d917692c8384477ad249d166566ae82
-last_modified_at: 2024-06-15
+content_hash: 53403478e79052b498fcb3fac2da36b570083fb3
+last_modified_at: 2024-09-07
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/mkdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mkdir.html
     icon: bi bi-globe
   - title: српски version
     url: /sr/common/mkdir.html
@@ -54,8 +57,8 @@ tldri18n_status: 2
 
 - ساخت پوشه های مشخص به همراه پوشه های والد در صورت نیاز:
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
 
 - ساخت پوشه با مجوز های خاص:
 
-`mkdir -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--mode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>

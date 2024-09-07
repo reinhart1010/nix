@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (Nederlands)
 description: "Maak mappen aan en stel hun permissies in."
-content_hash: a9bdbc5c12ce3880dc4d5a860b5391276cfb0fbd
-last_modified_at: 2024-06-19
+content_hash: 21d1a581b66a06d6a9584c63588253bea2799242
+last_modified_at: 2024-09-07
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -57,8 +57,8 @@ Meer informatie: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Maak specifieke mappen en hun ouders ([p]) aan indien nodig:
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map1 pad/naar/map2 ...</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map1 pad/naar/map2 ...</span>
 
 - Maak mappen aan met specifieke permissies:
 
-`mkdir -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map1 pad/naar/map2 ...</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--mode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map1 pad/naar/map2 ...</span>

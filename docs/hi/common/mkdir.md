@@ -2,14 +2,17 @@
 layout: page
 title: common/mkdir (हिन्दी)
 description: "एक निर्देशिका बनाता है।"
-content_hash: 65e3f8818ee0cf272c034d7eca182e98a3be1927
-last_modified_at: 2023-11-12
+content_hash: dab43d4056448d418625ce4ab368018a4e0c31d3
+last_modified_at: 2024-09-07
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/mkdir.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/mkdir.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/mkdir.html
@@ -19,6 +22,12 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/mkdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mkdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mkdir.html
     icon: bi bi-globe
   - title: српски version
     url: /sr/common/mkdir.html
@@ -51,4 +60,4 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - निर्देशिका बनाएँ पुनरावर्ती (अंतर प्रविष्ट निर्देशिका बनाने के लिए उपयोगी):
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निर्देशिका / का / पथ</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निर्देशिका / का / पथ</span>

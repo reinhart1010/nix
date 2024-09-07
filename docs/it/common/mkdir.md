@@ -2,14 +2,17 @@
 layout: page
 title: common/mkdir (italiano)
 description: "Crea directory."
-content_hash: 5ad04b11a31cef70ef69a37140212ff0fcade96f
-last_modified_at: 2023-11-12
+content_hash: def6d8f023f240a70d8dd1d7a31db56cbb12137d
+last_modified_at: 2024-09-07
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/mkdir.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/mkdir.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/mkdir.html
@@ -19,6 +22,12 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/mkdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mkdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mkdir.html
     icon: bi bi-globe
   - title: српски version
     url: /sr/common/mkdir.html
@@ -51,4 +60,4 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Crea directory ricorsivamente (utile per creare directory annidate):
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>

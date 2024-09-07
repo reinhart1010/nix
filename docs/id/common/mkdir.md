@@ -2,14 +2,17 @@
 layout: page
 title: common/mkdir (Indonesia)
 description: "Membuat sebuah direktori."
-content_hash: d5a1df36f80d70cc3a2aa2895bb29f9fa04efa5e
-last_modified_at: 2023-11-12
+content_hash: 1142ebfcdb1ffef6e1f5d5f50f79479f811c21de
+last_modified_at: 2024-09-07
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/mkdir.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/mkdir.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/mkdir.html
@@ -19,6 +22,12 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/mkdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mkdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mkdir.html
     icon: bi bi-globe
   - title: српски version
     url: /sr/common/mkdir.html
@@ -51,4 +60,4 @@ Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Membuat sejumlah direktori secara rekursif (berguna untuk membuat direktori bersarang):
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>

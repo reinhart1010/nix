@@ -2,14 +2,17 @@
 layout: page
 title: common/mkdir (српски)
 description: "Kreira direktorijum."
-content_hash: eaf1fb505733b946e4a96dcd77774a9087c706f9
-last_modified_at: 2023-12-31
+content_hash: 73281cc33b53f1b4bdfb776c0273b7865c01c11e
+last_modified_at: 2024-09-07
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/mkdir.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/mkdir.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/mkdir.html
@@ -22,6 +25,12 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/mkdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mkdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mkdir.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/mkdir.html
@@ -51,4 +60,4 @@ Više informacija na: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Kreira direktorijum koristeći rekurziju:
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">putanja/do/direktorijuma1 putanja/do/direktorijuma2 ...</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">putanja/do/direktorijuma1 putanja/do/direktorijuma2 ...</span>
