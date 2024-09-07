@@ -3,19 +3,10 @@ layout: page
 title: common/pulumi-login (English)
 description: "Log in to the Pulumi cloud."
 content_hash: 95eb85e573b1272e8ea6c9b4be20213a2105ccf5
-last_modified_at: 2024-09-06
-tldri18n_status: 0
+last_modified_at: 2024-09-07
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pulumi-login.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pulumi login
+# pulumi login
 
 Log in to the Pulumi cloud.
 More information: <https://www.pulumi.com/docs/cli/commands/pulumi_login/>.

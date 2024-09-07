@@ -3,7 +3,7 @@ layout: page
 title: common/chown (français)
 description: "Modifie l'utilisateur et le groupe propriétaire des fichiers et dossiers."
 content_hash: 5b57e8e4392839ac7d98b3b857d56cecbc619691
-last_modified_at: 2024-09-06
+last_modified_at: 2024-09-07
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/chown.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chown
+# chown
 
 Modifie l'utilisateur et le groupe propriétaire des fichiers et dossiers.
 Plus d'informations : <https://www.gnu.org/software/coreutils/chown>.
