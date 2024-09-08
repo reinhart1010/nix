@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-ps (Deutsch)
 description: "Liste Docker Container."
-content_hash: cc3e70a7d76a4c569fc35a530113609038722a97
-last_modified_at: 2024-04-19
+content_hash: b9d59c02514981a8da0b499db0ae2b310b84dba2
+last_modified_at: 2024-09-08
 related_topics:
   - title: English version
     url: /en/common/docker-ps.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker ps
 
 Liste Docker Container.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/ps/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/ls/>.
 
 - Liste zur Zeit laufende Container auf:
 

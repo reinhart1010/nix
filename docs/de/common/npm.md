@@ -2,8 +2,8 @@
 layout: page
 title: common/npm (Deutsch)
 description: "Ein Kommandozeilenwerkzeug für die Verwaltung von JavaScript und Node.js Paketen (Packages)."
-content_hash: 0d36fec28253a9d45184f476a85379880a431da9
-last_modified_at: 2023-11-12
+content_hash: 516109ee43d5c05d3c47850a6dd35ab1d9800829
+last_modified_at: 2024-09-08
 related_topics:
   - title: English version
     url: /en/common/npm.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/npm.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/npm.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -38,11 +41,11 @@ Weitere Informationen: <https://www.npmjs.com>.
 
 - Installiere ein Package und füge es als Entwicklungs-Abhängigkeit der `package.json` Datei hinzu:
 
-`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>` --save-dev`
+`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-D|--save-dev</span>
 
 - Installiere ein Package global:
 
-`npm install --global `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
 
 - Deinstalliere ein Package und entferne es automatisch aus der `package.json` Datei:
 
@@ -54,4 +57,4 @@ Weitere Informationen: <https://www.npmjs.com>.
 
 - Gib eine Liste aller global installierten Packages aus:
 
-`npm list --global --depth=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>
+`npm list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/npm (Indonesia)
 description: "Manajer paket JavaScript dan Node.js."
-content_hash: 9b715d154ead08e7b0bed0cf5f9933b98fa96959
-last_modified_at: 2023-11-12
+content_hash: e60d378ee78ee32f9a502a3cc9dd11a5daaf9b78
+last_modified_at: 2024-09-08
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/npm.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/npm.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -39,11 +42,11 @@ Informasi lebih lanjut: <https://www.npmjs.com>.
 
 - Unduh paket dan menambahkan ke daftar dependensi dev di package.json:
 
-`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span>` --save-dev`
+`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-D|--save-dev</span>
 
 - Unduh paket dan instal secara global:
 
-`npm install --global `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span>
+`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span>
 
 - Copot pemasangan paket dan hapus dari daftar dependensi di `package.json`:
 
@@ -55,4 +58,4 @@ Informasi lebih lanjut: <https://www.npmjs.com>.
 
 - Buat daftar modul tingkat atas yang diinstal secara global:
 
-`npm list --global --depth=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>
+`npm list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>

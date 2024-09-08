@@ -2,8 +2,8 @@
 layout: page
 title: linux/trash (English)
 description: "Manage the trashcan/recycling bin."
-content_hash: 82035475b664197ee4ca038635a5915156e87f44
-last_modified_at: 2023-11-12
+content_hash: fdd2ae135b76e8f483a2c357d32dc8a40959b493
+last_modified_at: 2024-09-08
 related_topics:
   - title: Türkçe version
     url: /tr/linux/trash.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 Manage the trashcan/recycling bin.
 More information: <https://github.com/andreafrancia/trash-cli>.
 
-- Delete a file and send it to the trash:
+- Send a file to the trash:
 
 `trash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/npm (português (Brasil))
 description: "Gerenciador de pacotes JavaScript e Node.js."
-content_hash: b9111b7975e9941d4d0003d1c3883c6625d25b68
-last_modified_at: 2024-02-27
+content_hash: cfcda531e0fb5f19225ebab71e9bf7815178c17d
+last_modified_at: 2024-09-08
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -42,11 +42,11 @@ Mais informações: <https://www.npmjs.com>.
 
 - Baixa a última versão de um pacote e o adiciona à lista de dependências de desenvolvimento em `package.json`:
 
-`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>` --save-dev`
+`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-D|--save-dev</span>
 
 - Baixa a última versão de um pacote e o instala globalmente:
 
-`npm install --global `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
+`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
 - Desinstala um pacote e o remove da lista de dependências em `package.json`:
 
@@ -58,4 +58,4 @@ Mais informações: <https://www.npmjs.com>.
 
 - Lista os pacotes de nível superior instalados globalmente:
 
-`npm list --global --depth=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>
+`npm list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>

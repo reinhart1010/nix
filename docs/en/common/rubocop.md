@@ -2,8 +2,8 @@
 layout: page
 title: common/rubocop (English)
 description: "Lint Ruby files."
-content_hash: a10f768d0c96cfe05b963693266fa734401df2f8
-last_modified_at: 2023-11-12
+content_hash: b88992433d587fb4257d37557883a82eebaa5cb9
+last_modified_at: 2024-09-08
 related_topics:
   - title: español version
     url: /es/common/rubocop.html
@@ -30,7 +30,7 @@ More information: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
 
 - Check one or more specific files or directories:
 
-`rubocop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`rubocop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 
 - Write output to file:
 
@@ -42,11 +42,11 @@ More information: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
 
 - Exclude a cop:
 
-`rubocop --except `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_2</span>
+`rubocop --except `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop1 cop2 ...</span>
 
 - Run only specified cops:
 
-`rubocop --only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_2</span>
+`rubocop --only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop1 cop2 ...</span>
 
 - Auto-correct files (experimental):
 

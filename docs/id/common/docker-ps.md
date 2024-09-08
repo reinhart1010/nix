@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-ps (Indonesia)
 description: "Tampilkan daftar kontainer Docker."
-content_hash: 5a8798a72b24ff5660216409cde03a673d314e96
-last_modified_at: 2024-04-19
+content_hash: 5fd9da24c4ce5c0b7649b4c26b4a0521288d0801
+last_modified_at: 2024-09-08
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-ps.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker ps
 
 Tampilkan daftar kontainer Docker.
-Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/ps/>.
+Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/container/ls/>.
 
 - Tampilkan kontainer Docker yang sedang berjalan saat ini:
 

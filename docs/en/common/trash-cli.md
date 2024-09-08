@@ -1,32 +1,16 @@
 ---
 layout: page
 title: common/trash-cli (English)
-description: "A command-line interface to the trashcan APIs."
-content_hash: f0aaa5c7e3312ee87947b897ff14d478a3fff4bc
-last_modified_at: 2023-11-12
+description: "This command is an alias of `trash`."
+content_hash: 684fe5e724a0a5e674047557aa5b3c05d728e9f2
+last_modified_at: 2024-09-08
 tldri18n_status: 2
 ---
 # trash-cli
 
-A command-line interface to the trashcan APIs.
+This command is an alias of `trash`.
 More information: <https://github.com/andreafrancia/trash-cli>.
 
-- Trash specific files and directories into the current trashcan:
+- View documentation for the original command:
 
-`trash-put `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
-
-- Remove specific files from the current trashcan:
-
-`trash-rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
-
-- Empty the current trashcan:
-
-`trash-empty`
-
-- List trashed files and directories in the current trashcan:
-
-`trash-list`
-
-- Restore a specific file or directory by a number from the displayed list from the current trashcan:
-
-`trash-restore`
+`tldr trash`

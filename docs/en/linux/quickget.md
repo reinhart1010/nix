@@ -2,8 +2,8 @@
 layout: page
 title: linux/quickget (English)
 description: "Download and prepare materials for building a Quickemu virtual machine."
-content_hash: a81ea804a6b374944d8bed6eb3978ceac882e373
-last_modified_at: 2024-02-05
+content_hash: 2d88644a31161379c07b84b3954865bf89430455
+last_modified_at: 2024-09-08
 tldri18n_status: 2
 ---
 # quickget
@@ -27,16 +27,20 @@ More information: <https://github.com/quickemu-project/quickemu>.
 
 - Download a macOS recovery image and creates a virtual machine configuration:
 
-`quickget macos `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">high-sierra|mojave|catalina|big-sur|monterey|ventura</span>
+`quickget macos `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mojave|catalina|big-sur|monterey|ventura|sonoma</span>
 
-- Show an ISO URL for an operating system (Note: it does not work for Windows):
+- Show an ISO URL for an operating system:
 
-`quickget --show-iso-url fedora `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">edition</span>
+`quickget --url fedora `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">edition</span>
 
 - Test if an ISO file is available for an operating system:
 
-`quickget --test-iso-url nixos `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">edition</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plasma5</span>
+`quickget --check nixos `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">edition</span>
 
-- Open an operating system distribution's homepage in a browser (Note: it does not work for Windows):
+- Download an image without building any VM configuration:
 
-`quickget --open-distro-homepage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">os</span>
+`quickget --download `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">os</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">edition</span>
+
+- Create a VM configuration for an OS image:
+
+`quickget --create-config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">os</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/iso</span>

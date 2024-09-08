@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (English)
 description: "Commit files to the repository."
-content_hash: 03015682dc9eb11bb9c968398cff9a07194b194a
-last_modified_at: 2024-01-25
+content_hash: d3e957abd024a1a79bfb812635c0988db17cd162
+last_modified_at: 2024-09-08
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/git-commit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-commit.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-commit.html
@@ -64,7 +67,7 @@ More information: <https://git-scm.com/docs/git-commit>.
 
 - Commit only specific (already staged) files:
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Create a commit, even if there are no staged files:
 
