@@ -3,7 +3,7 @@ layout: page
 title: common/aircrack-ng (한국어)
 description: "수집된 패킷의 핸드셰이크 과정 중, WEP 및 WPA/WPA2 키를 크랙."
 content_hash: eab64dbfefd0658e3e21bd61790e7d7d4e3a8192
-last_modified_at: 2024-09-07
+last_modified_at: 2024-09-08
 related_topics:
   - title: Deutsch version
     url: /de/common/aircrack-ng.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aircrack-ng.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aircrack-ng.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aircrack-ng
+# aircrack-ng
 
 수집된 패킷의 핸드셰이크 과정 중, WEP 및 WPA/WPA2 키를 크랙.
 Aircrack-ng 네트워크 소프트웨어 제품군의 일부.

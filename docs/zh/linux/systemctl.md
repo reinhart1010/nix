@@ -3,7 +3,7 @@ layout: page
 title: linux/systemctl (中文)
 description: "控制 systemd 系统和服务管理器。"
 content_hash: b7237f63e80c1bfca24bec901c1a4c03ad414f93
-last_modified_at: 2024-09-07
+last_modified_at: 2024-09-08
 related_topics:
   - title: català version
     url: /ca/linux/systemctl.html
@@ -32,18 +32,9 @@ related_topics:
   - title: українська version
     url: /uk/linux/systemctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systemctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systemctl
+# systemctl
 
 控制 systemd 系统和服务管理器。
 更多信息：<https://www.freedesktop.org/software/systemd/man/systemctl.html>.
