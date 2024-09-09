@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (español)
 description: "Cambia el tiempo de accesso y modificación de un archivo (atime, mtime)."
-content_hash: 852e254a091d1f59c1d9504f366ccd700a29c4eb
-last_modified_at: 2023-11-12
+content_hash: 6b763404c8812d809e635b0b54bcbd987fd098ee
+last_modified_at: 2024-09-09
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -17,11 +17,20 @@ related_topics:
   - title: Indonesia version
     url: /id/common/touch.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/touch.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/touch.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/touch.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/touch.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/touch.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/touch.html
@@ -34,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># touch
 
 Cambia el tiempo de accesso y modificación de un archivo (atime, mtime).
-Más información: <https://manned.org/man/freebsd-13.1/touch>.
+Más información: <https://manned.org/touch>.
 
 - Crea un archivo nuevo o cambia los tiempos de archivos existentes al tiempo actual:
 

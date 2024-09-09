@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (Indonesia)
 description: "Bangun sebuah image dari Dockerfile."
-content_hash: 6374a7c8553a57c9c8e8ef5e9a43a3816efda601
-last_modified_at: 2024-03-14
+content_hash: e4d2a9ba61e63a464efe9cab0d709b881ce43d13
+last_modified_at: 2024-09-09
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # docker build
 
 Bangun sebuah image dari Dockerfile.
-Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/build/>.
+Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/buildx/build/>.
 
 - Bangun sebuah image Docker meggunakan Dockerfile dalam direktori saat ini:
 

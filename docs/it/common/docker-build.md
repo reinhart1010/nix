@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (italiano)
 description: "Crea un'immagine a partire da un Dockerfile. La creazione di un'immagine Docker è chiamata build."
-content_hash: b92c3db156e2d4c3d9bd75f6d4938074a3e77ab2
-last_modified_at: 2024-03-14
+content_hash: 12a8c8a76fa6b2e387c9a0110cffb83db45c4143
+last_modified_at: 2024-09-09
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker build
 
 Crea un'immagine a partire da un Dockerfile. La creazione di un'immagine Docker è chiamata build.
-Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/build/>.
+Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/buildx/build/>.
 
 - Crea un'immagine Docker usando il Dockerfile nella directory corrente:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (português (Brasil))
 description: "Uma linguagem de calculadora de precisão arbitrária."
-content_hash: a50df7a0e328626762eabcb533a45eccde5ee3fe
-last_modified_at: 2024-07-27
+content_hash: a64fd926c3efb725f2ec7104def22356d17afc57
+last_modified_at: 2024-09-09
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bc.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/bc.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bc.html
     icon: bi bi-globe
@@ -35,7 +38,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Uma linguagem de calculadora de precisão arbitrária.
 Veja também: `dc`.
-Mais informações: <https://manned.org/bc.1>.
+Mais informações: <https://manned.org/bc>.
 
 - Inicia uma sessão interativa:
 

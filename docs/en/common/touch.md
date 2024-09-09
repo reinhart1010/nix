@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (English)
 description: "Create files and set access/modification times."
-content_hash: 19d1f065c5a8b95ec5cc977892800c2a0dbc3e62
-last_modified_at: 2024-05-15
+content_hash: 80b406a9d5844e14a715338f2bd1dfc0c9b7a09d
+last_modified_at: 2024-09-09
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -17,11 +17,20 @@ related_topics:
   - title: Indonesia version
     url: /id/common/touch.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/touch.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/touch.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/touch.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/touch.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/touch.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/touch.html
@@ -31,7 +40,7 @@ tldri18n_status: 2
 # touch
 
 Create files and set access/modification times.
-More information: <https://manned.org/man/freebsd-13.1/touch>.
+More information: <https://manned.org/touch>.
 
 - Create specific files:
 

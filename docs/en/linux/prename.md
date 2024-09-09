@@ -2,15 +2,15 @@
 layout: page
 title: linux/prename (English)
 description: "Rename multiple files."
-content_hash: af6c884055ecd966ddd4ae18a33c1a02afcd1e94
-last_modified_at: 2024-02-05
+content_hash: 51143ce7abbbae8dbe7c0e8c3b6041a9d8048f51
+last_modified_at: 2024-09-09
 tldri18n_status: 2
 ---
 # rename
 
 Rename multiple files.
 Note: this page refers to the command from the `prename` Fedora package.
-More information: <https://manned.org/man/prename>.
+More information: <https://manned.org/prename>.
 
 - Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):
 

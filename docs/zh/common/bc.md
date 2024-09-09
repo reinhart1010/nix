@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (中文)
 description: "一个任意精度计算器语言。"
-content_hash: 84cbe21e6acad7db7e4c04521a15b0303a052b28
-last_modified_at: 2024-07-27
+content_hash: 5473dc861bf3209db9e53d52ef601acd171e32a9
+last_modified_at: 2024-09-09
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bc.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/bc.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/bc.html
     icon: bi bi-globe
@@ -35,7 +38,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 一个任意精度计算器语言。
 另请参阅：`dc`.
-更多信息：<https://manned.org/bc.1>.
+更多信息：<https://manned.org/bc>.
 
 - 启动交互式会话：
 

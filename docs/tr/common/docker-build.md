@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (Türkçe)
 description: "Bir Dockerfile'dan imge yaratın."
-content_hash: 9cd898cf36c25ebeb1c046b47ae4d9338753591b
-last_modified_at: 2024-03-14
+content_hash: 0aa199dc8b81715c326509fd3de274502663457a
+last_modified_at: 2024-09-09
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker build
 
 Bir Dockerfile'dan imge yaratın.
-Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/build/>.
+Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/buildx/build/>.
 
 - Mevcut dizindeki Dockerfile'dan bir Docker imgesi oluşturun:
 

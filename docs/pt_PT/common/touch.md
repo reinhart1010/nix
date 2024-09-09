@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (português (Portugal))
 description: "Atualizar as timestamps de um ficheiro para a hora atual."
-content_hash: 0d1b3c6324979229c05b34867f997e1e0ee4ae28
-last_modified_at: 2024-01-14
+content_hash: 9968e7ec704200facdca37e38401b01d0d88cfc4
+last_modified_at: 2024-09-09
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -20,8 +20,17 @@ related_topics:
   - title: Indonesia version
     url: /id/common/touch.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/touch.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/touch.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/touch.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/touch.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/touch.html
@@ -35,7 +44,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Atualizar as timestamps de um ficheiro para a hora atual.
 Se o ficheiro não existir, cria um ficheiro vazio, a menos que seja passado o parâmetro -c ou -h.
-Mais informações: <https://manned.org/man/freebsd-13.1/touch>.
+Mais informações: <https://manned.org/touch>.
 
 - Cria um novo ficheiro vazio, ou atualizar as timestamps para a hora atual:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (한국어)
 description: "도커파일로부터 이미지 빌드."
-content_hash: c4af4c2b2fdcd89f34f707982f59cf8cc7225776
-last_modified_at: 2023-11-12
+content_hash: 73e6d3a74763cfdc70fa975cbfdc42ffeab72d89
+last_modified_at: 2024-09-09
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # docker build
 
 도커파일로부터 이미지 빌드.
-더 많은 정보: <https://docs.docker.com/engine/reference/commandline/build/>.
+더 많은 정보: <https://docs.docker.com/reference/cli/docker/buildx/build/>.
 
 - 현재 디렉토리 안의 도커파일을 이용해 도커 이미지 빌드:
 

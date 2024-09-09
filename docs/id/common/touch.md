@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (Indonesia)
 description: "Mengubah waktu akses (atime) dan waktu modifikasi (mtime) dari sebuah file."
-content_hash: 9d0c936559f54938343f722ae5d0ad0930e14c1b
-last_modified_at: 2023-11-12
+content_hash: 1c932619bc99a892e434bbc3a9a466c6fef29815
+last_modified_at: 2024-09-09
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -17,11 +17,20 @@ related_topics:
   - title: हिन्दी version
     url: /hi/common/touch.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/touch.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/touch.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/touch.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/touch.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/touch.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/touch.html
@@ -34,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># touch
 
 Mengubah waktu akses (atime) dan waktu modifikasi (mtime) dari sebuah file.
-Informasi lebih lanjut: <https://manned.org/man/freebsd-13.1/touch>.
+Informasi lebih lanjut: <https://manned.org/touch>.
 
 - Membuat file baru yang kosong atau mengubah waktu file yang telahj ada ke waktu sekarang:
 

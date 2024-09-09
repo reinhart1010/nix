@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (中文 (繁體, 台灣))
 description: "改變檔案的存取與修改時間。"
-content_hash: 0cbc074ece9622abbfc29b55be33f64222018eac
-last_modified_at: 2023-11-12
+content_hash: cdcd8ae6931db99736cf219bb00fdccf804d3430
+last_modified_at: 2024-09-09
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -20,11 +20,20 @@ related_topics:
   - title: Indonesia version
     url: /id/common/touch.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/touch.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/touch.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/touch.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/touch.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/touch.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -34,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># touch
 
 改變檔案的存取與修改時間。
-更多資訊：<https://manned.org/man/freebsd-13.1/touch>.
+更多資訊：<https://manned.org/touch>.
 
 - 建立新檔案，或更新現存檔案的存取與修改時間：
 

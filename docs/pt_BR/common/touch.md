@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (português (Brasil))
 description: "Cria arquivos e define tempo de acesso/modificação."
-content_hash: 344375dbeec1ac7905b925bb4d4a179ccce3b11f
-last_modified_at: 2023-11-12
+content_hash: 0c66edabfa81fe65ff3974e83e4f2a0ed218971e
+last_modified_at: 2024-09-09
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -20,8 +20,17 @@ related_topics:
   - title: Indonesia version
     url: /id/common/touch.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/touch.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/touch.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/touch.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/touch.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/touch.html
@@ -31,7 +40,7 @@ tldri18n_status: 2
 # touch
 
 Cria arquivos e define tempo de acesso/modificação.
-Mais informações: <https://manned.org/man/freebsd-13.1/touch>.
+Mais informações: <https://manned.org/touch>.
 
 - Cria arquivos especificados:
 

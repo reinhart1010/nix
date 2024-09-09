@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (português (Brasil))
 description: "Cria uma imagem a partir de um Dockerfile."
-content_hash: 3367b1c6302126d17bf3078240a669b96b548129
-last_modified_at: 2024-03-14
+content_hash: e30fac42e12354b62adf5cc9d6e0b02025411075
+last_modified_at: 2024-09-09
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # docker build
 
 Cria uma imagem a partir de um Dockerfile.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/build/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/buildx/build/>.
 
 - Cria uma imagem Docker usando o Dockerfile no diretório atual:
 

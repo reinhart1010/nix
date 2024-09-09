@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (हिन्दी)
 description: "एक फ़ाइल का उपयोग और संशोधन समय (atime, mtime) बदलें।"
-content_hash: e3b372727176ed1e5541122cd2ff2f96b1da2e41
-last_modified_at: 2023-11-12
+content_hash: 5b7b4dce98fe66006708a388eff4455ec064c645
+last_modified_at: 2024-09-09
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -17,11 +17,20 @@ related_topics:
   - title: Indonesia version
     url: /id/common/touch.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/touch.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/touch.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/touch.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/touch.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/touch.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/touch.html
@@ -34,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># touch
 
 एक फ़ाइल का उपयोग और संशोधन समय (atime, mtime) बदलें।
-अधिक जानकारी: <https://manned.org/man/freebsd-13.1/touch>।
+अधिक जानकारी: <https://manned.org/touch>।
 
 - एक नई खाली फ़ाइल बनाएं (मौजूदा फ़ाइल के लिए समय बदल दें):
 

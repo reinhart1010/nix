@@ -2,8 +2,8 @@
 layout: page
 title: common/nc (한국어)
 description: "Netcat은 TCP 또는 UDP 데이터 작업을 위한 다목적 유틸리티입니다."
-content_hash: bfecab0dd2c57a59b3cb7ce5be90d40b92799b08
-last_modified_at: 2024-06-13
+content_hash: f40b06540995f21ee0615cb914491c6f51bb4f90
+last_modified_at: 2024-09-09
 related_topics:
   - title: English version
     url: /en/common/nc.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # nc
 
 Netcat은 TCP 또는 UDP 데이터 작업을 위한 다목적 유틸리티입니다.
-더 많은 정보: <https://manned.org/nc.1>.
+더 많은 정보: <https://manned.org/nc>.
 
 - 특정 포트에서 수신대기 및 수신한 데이터 출력:
 

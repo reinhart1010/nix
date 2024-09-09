@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (日本語)
 description: "Dockerfileからイメージを構築します。"
-content_hash: fd1496be1e4dab1cd96068ea9244ae8fcadaf8f8
-last_modified_at: 2023-11-12
+content_hash: 4eacf4ab83f8d0c24a0b933537080031936d562c
+last_modified_at: 2024-09-09
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # docker build
 
 Dockerfileからイメージを構築します。
-詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/build/>
+詳しくはこちら: <https://docs.docker.com/reference/cli/docker/buildx/build/>
 
 - カレントディレクトリ内のDockerfileを使ってDockerイメージを構築する:
 

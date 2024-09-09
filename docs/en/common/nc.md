@@ -2,8 +2,8 @@
 layout: page
 title: common/nc (English)
 description: "Redirect I/O into a network stream through this versatile tool."
-content_hash: 4b827aa7a41836b104e66fe8a6384b83e25a5466
-last_modified_at: 2024-06-13
+content_hash: ac0476c52db6a6330072afefe0a471d252d4fa1a
+last_modified_at: 2024-09-09
 related_topics:
   - title: español version
     url: /es/common/nc.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # nc
 
 Redirect I/O into a network stream through this versatile tool.
-More information: <https://manned.org/nc.1>.
+More information: <https://manned.org/nc>.
 
 - Start a listener on the specified TCP port and send a file into it:
 

@@ -2,15 +2,15 @@
 layout: page
 title: linux/sa (English)
 description: "Summarize accounting information about commands called by users, including basic information on CPU time spent processing and I/O rates."
-content_hash: 7ea5b484cd241fe405aff822b61d49d05f58124b
-last_modified_at: 2024-04-26
+content_hash: b396e06c0119a8bbf83b24632e84cfbb1f7c691d
+last_modified_at: 2024-09-09
 tldri18n_status: 2
 ---
 # sa
 
 Summarize accounting information about commands called by users, including basic information on CPU time spent processing and I/O rates.
 Part of the `acct` package.
-More information: <https://manned.org/man/sa.8>.
+More information: <https://manned.org/sa.8>.
 
 - Display executable invocations per user (username not displayed):
 

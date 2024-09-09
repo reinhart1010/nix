@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (中文)
 description: "从 Dockerfile 打包镜像。"
-content_hash: 235ec44245c72bffc901076424047b1d07811164
-last_modified_at: 2024-03-14
+content_hash: 8bbbc86f404fccd2912536ed58eda128f61deee9
+last_modified_at: 2024-09-09
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # docker build
 
 从 Dockerfile 打包镜像。
-更多信息：<https://docs.docker.com/engine/reference/commandline/build/>.
+更多信息：<https://docs.docker.com/reference/cli/docker/buildx/build/>.
 
 - 使用当前目录下的 Dockerfile 打包一个 Docker 镜像：
 

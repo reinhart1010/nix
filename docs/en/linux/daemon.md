@@ -2,8 +2,8 @@
 layout: page
 title: linux/daemon (English)
 description: "Run processes into daemons."
-content_hash: 10b57a3743a06b7c625925fd67fdea70fa86b697
-last_modified_at: 2023-11-12
+content_hash: 8b7161b9799407b007c19ccd1686688e12398564
+last_modified_at: 2024-09-09
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/daemon.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # daemon
 
 Run processes into daemons.
-More information: <https://manned.org/man/daemon.1>.
+More information: <https://manned.org/daemon>.
 
 - Run a command as a daemon:
 

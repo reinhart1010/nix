@@ -2,8 +2,8 @@
 layout: page
 title: linux/daemon (português (Brasil))
 description: "Roda processos em daemons."
-content_hash: b5175c261818ca974791a79346d3cb4ce464e2c4
-last_modified_at: 2023-11-12
+content_hash: bd1819e44141fb197bb28ff88f96cbb9809cd67f
+last_modified_at: 2024-09-09
 related_topics:
   - title: English version
     url: /en/linux/daemon.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # daemon
 
 Roda processos em daemons.
-Mais informações: <https://manned.org/man/daemon.1>.
+Mais informações: <https://manned.org/daemon>.
 
 - Roda um comando como um daemon:
 
