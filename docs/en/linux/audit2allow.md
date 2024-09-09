@@ -3,19 +3,10 @@ layout: page
 title: linux/audit2allow (English)
 description: "Create an SELinux local policy module to allow rules based on denied operations found in logs."
 content_hash: 64b14ebb714a4ef4fa744be258cb6aa888bf789c
-last_modified_at: 2024-09-08
-tldri18n_status: 0
+last_modified_at: 2024-09-09
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/audit2allow.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># audit2allow
+# audit2allow
 
 Create an SELinux local policy module to allow rules based on denied operations found in logs.
 Note: Use audit2allow with caution—always review the generated policy before applying it, as it may allow excessive access.

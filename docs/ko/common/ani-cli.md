@@ -3,7 +3,7 @@ layout: page
 title: common/ani-cli (한국어)
 description: "애니메이션을 탐색하고 시청할 수 있는 커멘드라인 인터페이스."
 content_hash: 44b4de36d876a9b8f54af4399a27e1a8482b17ae
-last_modified_at: 2024-09-08
+last_modified_at: 2024-09-09
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html
@@ -32,18 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ani-cli.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ani-cli.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ani-cli
+# ani-cli
 
 애니메이션을 탐색하고 시청할 수 있는 커멘드라인 인터페이스.
 더 많은 정보: <https://github.com/pystardust/ani-cli>.

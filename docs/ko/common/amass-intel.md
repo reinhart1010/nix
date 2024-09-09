@@ -3,7 +3,7 @@ layout: page
 title: common/amass-intel (한국어)
 description: "루트 도메인 및 ASN과 같은 조직에 대한 오픈 소스 정보 수집."
 content_hash: f305d5639f76f05f62478fa30bb16ce33893f245
-last_modified_at: 2024-09-08
+last_modified_at: 2024-09-09
 related_topics:
   - title: English version
     url: /en/common/amass-intel.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/amass-intel.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/amass-intel.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># amass intel
+# amass intel
 
 루트 도메인 및 ASN과 같은 조직에 대한 오픈 소스 정보 수집.
 더 많은 정보: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
