@@ -3,7 +3,7 @@ layout: page
 title: common/aws-ce (한국어)
 description: "클라우드 환경에서 액세스 제어 및 보안 설정 분석 및 관리."
 content_hash: d5147e57e367b9c58b9dbdd9ee122ba6bc33b407
-last_modified_at: 2024-09-09
+last_modified_at: 2024-09-10
 related_topics:
   - title: English version
     url: /en/common/aws-ce.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/aws-ce.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-ce.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws-ce
+# aws-ce
 
 클라우드 환경에서 액세스 제어 및 보안 설정 분석 및 관리.
 더 많은 정보: <https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html>.

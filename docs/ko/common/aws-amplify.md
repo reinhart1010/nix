@@ -3,7 +3,7 @@ layout: page
 title: common/aws-amplify (한국어)
 description: "안전하고, 확장 가능한 모바일 및 웹 애플리케이션을 구축하기 위한 개발 플랫폼."
 content_hash: 0c5c6aa1a199f3204782d999b116b55214688e75
-last_modified_at: 2024-09-09
+last_modified_at: 2024-09-10
 related_topics:
   - title: English version
     url: /en/common/aws-amplify.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/aws-amplify.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-amplify.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws amplify
+# aws amplify
 
 안전하고, 확장 가능한 모바일 및 웹 애플리케이션을 구축하기 위한 개발 플랫폼.
 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/amplify/index.html>.

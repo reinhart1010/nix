@@ -3,7 +3,7 @@ layout: page
 title: common/apkleaks (한국어)
 description: "APK 파일에서 URI, 엔드포인트, 비밀을 노출."
 content_hash: f884e8749138d3e8db7f291c06689fa81c373420
-last_modified_at: 2024-09-09
+last_modified_at: 2024-09-10
 related_topics:
   - title: English version
     url: /en/common/apkleaks.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/apkleaks.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/apkleaks.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># apkleaks
+# apkleaks
 
 APK 파일에서 URI, 엔드포인트, 비밀을 노출.
 참고: APKLeaks는 `jadx` 디스어셈블러를 사용하여 APK 파일을 디컴파일.

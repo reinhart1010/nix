@@ -3,7 +3,7 @@ layout: page
 title: common/arduino-builder (한국어)
 description: "아두이노 스케치 컴파일."
 content_hash: c673fd9c0d4c4d705b53dc92419f6383ad1cadf4
-last_modified_at: 2024-09-09
+last_modified_at: 2024-09-10
 related_topics:
   - title: English version
     url: /en/common/arduino-builder.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/arduino-builder.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/arduino-builder.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># arduino-builder
+# arduino-builder
 
 아두이노 스케치 컴파일.
 사용 중단 경고: 이 도구는 `arduino`로 인해 단계적으로 중단.
