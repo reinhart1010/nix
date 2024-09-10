@@ -2,11 +2,14 @@
 layout: page
 title: common/git-bundle (Indonesia)
 description: "Bungkus seluruh objek dan referensi internal Git ke dalam suatu berkas arsip."
-content_hash: 22d1f06dd00e4678f9e334714206a2e1092aa249
-last_modified_at: 2024-08-15
+content_hash: 0a288bebaefccb709a61db7ebb1eef11844a5188
+last_modified_at: 2024-09-10
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/git-bundle.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-bundle.html
@@ -44,7 +47,7 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-bundle>.
 
 - Bungkus objek dan referensi untuk perubahan sejak 7 hari terakhir:
 
-`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.bundle</span>` --since=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.days</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
+`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.bundle</span>` --since `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.days</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
 
 - Cek apakah suatu berkas bundle bersifat valid dan dapat diaplikasikan ke dalam repositori saat ini:
 
@@ -57,3 +60,7 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-bundle>.
 - Buka dan pakai isi bungkusan untuk suatu cabang pada repositori saat ini:
 
 `git pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.bundle</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang</span>
+
+- Buat sebuah repositori baru dari suatu berkas bundle:
+
+`git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.bundle</span>

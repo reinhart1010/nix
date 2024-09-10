@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-status (Indonesia)
-description: "Menampilkan perubahan pada file dalam repositori Git."
-content_hash: fa25fe2069b7c64bfaf574365e1a99a9265b259f
-last_modified_at: 2023-11-12
+description: "Tampilkan perubahan pada berkas dalam repositori Git."
+content_hash: 798cce025dc9e8d774d6ddc022c7ac4f1cb60330
+last_modified_at: 2024-09-10
 related_topics:
   - title: Deutsch version
     url: /de/common/git-status.html
@@ -23,6 +23,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-status.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-status.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-status.html
     icon: bi bi-globe
@@ -39,22 +42,34 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># git status
 
-Menampilkan perubahan pada file dalam repositori Git.
-Menmapilkan daftar perubahan , menambahkan dan menghapus file dibandingkan dengan komit yang saat ini di check-out.
+Tampilkan perubahan pada berkas dalam repositori Git.
+Menampilkan daftar perubahan, menambahkan dan menghapus berkas dibandingkan dengan komit yang saat ini diperiksa (checkout).
 Informasi lebih lanjut: <https://git-scm.com/docs/git-status>.
 
-- Tampilkan file yang diubah yang belum ditambahkan untuk komit:
+- Tampilkan daftar berkas yang diubah yang belum ditambahkan untuk komit:
 
 `git status`
 
-- Berikan keluaran dalam format [s]hort (pendek):
+- Tampilkan informasi dalam format [s]ingkat:
 
-`git status -s`
+`git status --short`
 
-- Jangan tampilkan file yang tidak terlacak di output:
+- Tampilkan informasi secara terperinci ([v]erbose) baik dalam panggung rencana perubahan (staging) dan direktori kerja saat ini:
+
+`git status --verbose --verbose`
+
+- Tampilkan informasi mengenai cabang ([b]ranch) dan status pelacakan dari remote:
+
+`git status --branch`
+
+- Tampilkan daftar berkas beserta informasi cabang ([b]ranch) dalam format [s]ingkat:
+
+`git status --short --branch`
+
+- Tampilkan jumlah entri yang disimpan ke dalam kumpulan stash:
+
+`git status --show-stash`
+
+- Jangan tampilkan berkas yang tidak terlacak:
 
 `git status --untracked-files=no`
-
-- Tampilkan keluaran dalam format [s]hort (pendek) bersama dengan [b] info cabangnya:
-
-`git status -sb`

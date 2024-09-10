@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-add (Indonesia)
-description: "Tambahkan file yang diubah ke indeks."
-content_hash: 135a89b57ddeab23f5a7b47b388066e9a81ef00a
-last_modified_at: 2024-06-20
+description: "Tambahkan berkas yang diubah ke indeks."
+content_hash: 2907e8f8469984e47ad5d1b6fbe5f36da13a7f4c
+last_modified_at: 2024-09-10
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -45,33 +45,37 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># git add
 
-Tambahkan file yang diubah ke indeks.
+Tambahkan berkas yang diubah ke indeks.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-add>.
 
-- Tambahkan file ke indeks:
+- Tambahkan suatu berkas ke dalam indeks:
 
-`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/file</span>
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span>
 
-- Tambahkan semua file (yang terlacak dan tidak terlacak):
+- Tambahkan seluruh berkas (baik yang terlacak maupun tidak terlacak):
 
-`git add -A`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-A|--all</span>
 
-- Hanya tambahkan file yang sudah terlacak:
+- Tambahkan seluruh berkas pada folder saat ini:
 
-`git add -u`
+`git add .`
 
-- Tambahkan juga file yang diabaikan:
+- Hanya tambahkan berkas yang sudah terlacak:
 
-`git add -f`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|--update</span>
 
-- Menambahkan file ke status stage secara interaktif:
+- Tambahkan juga berkas yang diabaikan:
 
-`git add -p`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--force</span>
 
-- Menambahkan file tertentu ke status stage secara interaktif:
+- Tambahkan berkas ke status stage secara interaktif:
 
-`git add -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/file</span>
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--patch</span>
+
+- Tambahkan berkas tertentu ke status stage secara interaktif:
+
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--patch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span>
 
 - Stage file secara interaktif:
 
-`git add -i`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>

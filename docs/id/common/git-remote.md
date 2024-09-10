@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-remote (Indonesia)
-description: "Mengelola kumpulan repositori yang dilacak/diikuti (\"remotes\")."
-content_hash: c81b2208d191b47624e52e61949b62a8de993cc8
-last_modified_at: 2023-11-12
+description: "Kelola kumpulan repositori yang dilacak/diikuti dari sumber jarak jauh (\"remotes\")."
+content_hash: b24b8ceff7eb61ebd265236e2341a3f33c906301
+last_modified_at: 2024-09-10
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-remote.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-remote.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-remote.html
@@ -36,29 +39,33 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># git remote
 
-Mengelola kumpulan repositori yang dilacak/diikuti ("remotes").
+Kelola kumpulan repositori yang dilacak/diikuti dari sumber jarak jauh ("remotes").
 Informasi lebih lanjut: <https://git-scm.com/docs/git-remote>.
 
-- Menampilkan daftar remote, namanya dan URL:
+- Tampilkan daftar remote, namanya dan URL:
 
-`git remote -v`
+`git remote `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>
 
-- Menampilkan informasi tentang remote:
+- Tampilkan informasi tentang suatu remote:
 
 `git remote show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_remote</span>
 
-- Menambahkan remote:
+- Tambahkan suatu remote untuk diikuti pada repositori saat ini:
 
 `git remote add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_remote</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_remote</span>
 
-- Mengubah URL dari remote (gunakan `--add` untuk tetap menyimpan URL lama):
+- Ubah alamat URL dari remote (gunakan `--add` untuk tetap menyimpan URL lama):
 
 `git remote set-url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_remote</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_baru</span>
 
-- Menghapus remote:
+- Tampilkan alamat URL dari suatu remote:
+
+`git remote get-url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_remote</span>
+
+- Hapus remote dari daftar remote yang dilacak pada repositori saat ini:
 
 `git remote remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_remote</span>
 
-- Mengubah nama remote:
+- Ubah nama remote untuk dikelola dalam repositori saat ini:
 
 `git remote rename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_lama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_baru</span>
