@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (Nederlands)
 description: "Een rekenmachinetaal met willekeurige precisie."
-content_hash: 6c6682994de307b1874bf1761930445d330ccd3e
-last_modified_at: 2024-08-14
+content_hash: 6225ffb05d9d64df43ede6df003d8350ff2df540
+last_modified_at: 2024-09-10
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -35,7 +35,7 @@ tldri18n_status: 2
 
 Een rekenmachinetaal met willekeurige precisie.
 Zie ook: `dc`, `qalc`.
-Meer informatie: <https://manned.org/bc.1>.
+Meer informatie: <https://manned.org/bc>.
 
 - Start een interactieve sessie:
 

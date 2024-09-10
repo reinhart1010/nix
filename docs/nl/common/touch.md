@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (Nederlands)
 description: "Maak bestanden aan en stel toegang-/wijzigingstijden in."
-content_hash: 60cb262b0757044d976ed2331f4ccedb9bd3906a
-last_modified_at: 2024-06-29
+content_hash: 8b6c6155402e3a23d13dc67c3d641fff6874169b
+last_modified_at: 2024-09-10
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # touch
 
 Maak bestanden aan en stel toegang-/wijzigingstijden in.
-Meer informatie: <https://manned.org/man/freebsd-13.1/touch>.
+Meer informatie: <https://manned.org/touch>.
 
 - Maak specifieke bestanden aan:
 
