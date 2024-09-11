@@ -3,7 +3,7 @@ layout: page
 title: common/git-remote (Indonesia)
 description: "Kelola kumpulan repositori yang dilacak/diikuti dari sumber jarak jauh (\"remotes\")."
 content_hash: b24b8ceff7eb61ebd265236e2341a3f33c906301
-last_modified_at: 2024-09-10
+last_modified_at: 2024-09-11
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-remote.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git remote
+# git remote
 
 Kelola kumpulan repositori yang dilacak/diikuti dari sumber jarak jauh ("remotes").
 Informasi lebih lanjut: <https://git-scm.com/docs/git-remote>.

@@ -3,23 +3,14 @@ layout: page
 title: common/git-create-branch (Indonesia)
 description: "Buat suatu cabang (branch) baru dalam suatu repositori Git."
 content_hash: 267b8f219354eb3f2cd6e13ab9d07eec88e1d0fb
-last_modified_at: 2024-09-10
+last_modified_at: 2024-09-11
 related_topics:
   - title: English version
     url: /en/common/git-create-branch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-create-branch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git create-branch
+# git create-branch
 
 Buat suatu cabang (branch) baru dalam suatu repositori Git.
 Bagian dari `git-extras`.

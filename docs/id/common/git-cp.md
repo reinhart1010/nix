@@ -3,23 +3,14 @@ layout: page
 title: common/git-cp (Indonesia)
 description: "Salin suatu berkas menuju lokasi baru dengan menyimpan riwayat perubahan atas berkas tersebut."
 content_hash: cef618ccec5af9223d3a962dc26a8f9ab57af149
-last_modified_at: 2024-09-10
+last_modified_at: 2024-09-11
 related_topics:
   - title: English version
     url: /en/common/git-cp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-cp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git cp
+# git cp
 
 Salin suatu berkas menuju lokasi baru dengan menyimpan riwayat perubahan atas berkas tersebut.
 Bagian dari `git-extras`.

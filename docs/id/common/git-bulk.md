@@ -3,17 +3,14 @@ layout: page
 title: common/git-bulk (Indonesia)
 description: "Lakukan operasi yang sama dalam lebih dari satu repositori Git."
 content_hash: 114dab85a0f7bedd600dc9d673fe0b8d97e5bfb2
-last_modified_at: 2024-09-10
+last_modified_at: 2024-09-11
 related_topics:
   - title: English version
     url: /en/common/git-bulk.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git bulk
+# git bulk
 
 Lakukan operasi yang sama dalam lebih dari satu repositori Git.
 Bagian dari `git-extras`.

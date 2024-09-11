@@ -3,7 +3,7 @@ layout: page
 title: common/git-status (Indonesia)
 description: "Tampilkan perubahan pada berkas dalam repositori Git."
 content_hash: 798cce025dc9e8d774d6ddc022c7ac4f1cb60330
-last_modified_at: 2024-09-10
+last_modified_at: 2024-09-11
 related_topics:
   - title: Deutsch version
     url: /de/common/git-status.html
@@ -35,12 +35,9 @@ related_topics:
   - title: українська version
     url: /uk/common/git-status.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git status
+# git status
 
 Tampilkan perubahan pada berkas dalam repositori Git.
 Menampilkan daftar perubahan, menambahkan dan menghapus berkas dibandingkan dengan komit yang saat ini diperiksa (checkout).

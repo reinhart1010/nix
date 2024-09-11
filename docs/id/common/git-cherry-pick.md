@@ -3,7 +3,7 @@ layout: page
 title: common/git-cherry-pick (Indonesia)
 description: "Lakukan perubahan yang tercatat pada komit-komit saat ini menuju cabang saat ini."
 content_hash: 6dc09d6a6c2f472750d8c5ae004b446386ab0a8c
-last_modified_at: 2024-09-10
+last_modified_at: 2024-09-11
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -29,18 +29,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-cherry-pick.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-cherry-pick.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git cherry-pick
+# git cherry-pick
 
 Lakukan perubahan yang tercatat pada komit-komit saat ini menuju cabang saat ini.
 Gunakan `git checkout` terlebih dahulu jika hendak melakukan perubahan pada cabang lainnya.

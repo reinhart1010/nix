@@ -3,7 +3,7 @@ layout: page
 title: common/git-add (Indonesia)
 description: "Tambahkan berkas yang diubah ke indeks."
 content_hash: 2907e8f8469984e47ad5d1b6fbe5f36da13a7f4c
-last_modified_at: 2024-09-10
+last_modified_at: 2024-09-11
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -38,12 +38,9 @@ related_topics:
   - title: українська version
     url: /uk/common/git-add.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git add
+# git add
 
 Tambahkan berkas yang diubah ke indeks.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-add>.
