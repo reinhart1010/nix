@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mkdir (中文)
-description: "创建目录。"
-content_hash: bf8c2cd3178992a72ba8fd11a2f258189a31d93d
-last_modified_at: 2024-09-07
+description: "创建目录并设置其权限。"
+content_hash: 09a5053c3bfa68cffbe1457e566af7ce4585504f
+last_modified_at: 2024-09-12
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -44,20 +44,21 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# mkdir
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkdir
-
-创建目录。
+创建目录并设置其权限。
 更多信息：<https://www.gnu.org/software/coreutils/mkdir>.
 
-- 在当前目录下创建多个目录：
+- 创建特定目录：
 
 `mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录1 路径/到/目录2 ...</span>
 
-- 递归地创建目录（对创建嵌套目录很有用）：
+- 根据需要创建特定目录及其父目录：
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents} `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录1 路径/到/目录2 ...</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录1 路径/到/目录2 ...</span>
+
+- 创建具有特定权限的目录：
+
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--mode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录1 路径/到/目录2 ...</span>
