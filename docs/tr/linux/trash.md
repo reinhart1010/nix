@@ -2,8 +2,8 @@
 layout: page
 title: linux/trash (Türkçe)
 description: "Çöp / geri dönüşüm kutusunu yönetmek için bir komut satırı arayüzü."
-content_hash: fb94865a3863d33f168aed7e330802cff8ed579d
-last_modified_at: 2024-01-02
+content_hash: f6e2cf3c89c8112d5f452195ddf3695e132b0ae2
+last_modified_at: 2024-09-12
 related_topics:
   - title: English version
     url: /en/linux/trash.html
@@ -33,7 +33,7 @@ Daha fazla bilgi için: <https://github.com/andreafrancia/trash-cli>.
 
 - Çöpü 10 gün öncesinden daha yeni atılan dosyalar hariç boşalt:
 
-`trash-empty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>
+`trash-empty 10`
 
 - Çöpte 'foo' ismini taşıyan tüm dosyaları sil:
 
