@@ -1,9 +1,9 @@
 ---
 layout: page
 title: android/logcat (Deutsch)
-description: "Gib ein Protokoll aller Systemmeldungen aus."
-content_hash: ffbe249f77ee9a68b121e588bb66c73c371cf98d
-last_modified_at: 2024-02-22
+description: "Gib ein Protokoll aller System-Logs aus."
+content_hash: b0c19442e8c14c3d0cb53d1aa4cdc8a846104859
+last_modified_at: 2024-09-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -69,17 +69,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># logcat
 
-Gib ein Protokoll aller Systemmeldungen aus.
+Gib ein Protokoll aller System-Logs aus.
 Weitere Informationen: <https://developer.android.com/tools/logcat>.
 
-- Gib ein Protokoll aller Systemmeldungen aus:
+- Gib ein Protokoll aller System-Logs aus:
 
 `logcat`
 
-- Schreibe alle Systemmeldungen in eine Datei:
+- Schreibe alle System-Logs in eine Datei:
 
 `logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
 - Gib Zeilen aus, die einem regulären Ausdruck entsprechen:
 
 `logcat --regex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex</span>
+
+- Gib System-Logs für die spezifizierte PID aus:
+
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+
+- Gib System-Logs für den Prozess eines bestimmten Packets aus:
+
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">packet</span>`)`

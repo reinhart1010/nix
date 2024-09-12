@@ -1,51 +1,63 @@
 ---
 layout: page
-title: common/http (English)
-description: "HTTPie: an HTTP client designed for testing, debugging, and generally interacting with APIs & HTTP servers."
-content_hash: cb4bad65a69aae41f19d9cc49ba6d7bf6e15e5d6
+title: common/http (Deutsch)
+description: "HTTPie: ein benutzerfreundliches HTTP-Tool."
+content_hash: 2add21fbd7a5ed61274a1d299103a6c580ae60f6
 last_modified_at: 2024-09-12
 related_topics:
+  - title: English version
+    url: /en/common/http.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/http.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/http.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 0
 ---
-# http
 
-HTTPie: an HTTP client designed for testing, debugging, and generally interacting with APIs & HTTP servers.
-More information: <https://httpie.io/docs/cli/usage>.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
 
-- Make a simple GET request (shows response header and content):
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
 
-`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span>
+<a class="btn btn-primary" href="{{ site.url }}/en/common/http.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
-- Print specific output content (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata):
+<hr># http
+
+HTTPie: ein benutzerfreundliches HTTP-Tool.
+Weitere Informationen: <https://httpie.io/docs/cli/usage>.
+
+- Sende eine GET-Anfrage (Zeigt ddie Header und den Body der Antwort):
+
+`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
+
+- Zeige nur den angegebenen Teil der Anfrage und der Antwort (`H`: Header der Anfrage, `B`: Body der Anfrage, `h`: Header der Antwort, `b`: Body der Antwort, `m`: Metadaten der Antwort):
 
 `http --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H|B|h|b|m|Hh|Hhb|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Specify the HTTP method when sending a request and use a proxy to intercept the request:
+- Spezifiziere die zu nutzende HTTP-Methode und nutze den angegebenen Proxy:
 
 `http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|POST|HEAD|PUT|PATCH|DELETE|...</span>` --proxy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http|https</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://localhost:8080|socks5://localhost:9050|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Follow any `3xx` redirects and specify additional headers in a request:
+- Folge `3xx`-Umleitungen und spezifiziere zusätzliche Header für die Anfrage:
 
 `http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-F|--follow</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'</span>
 
-- Authenticate to a server using different authentication methods:
+- Authentisiere gegenüber einem Server mithilfe unterschiedlicher Anthentisierungsmethoden:
 
 `http --auth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username:password|token</span>` --auth-type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">basic|digest|bearer</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|POST|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/auth</span>
 
-- Construct a request but do not send it (similar to a dry-run):
+- Erstelle eine Anfrage ohne diese zu senden (ähnlich zu dry-run):
 
 `http --offline `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|DELETE|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Use named sessions for persistent custom headers, auth credentials and cookies:
+- Nutze die angegebene Session für persistente benutzerdefinierte Header, Credentials für die Authentisierung und Cookies:
 
 `http --session `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_name|path/to/session.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--auth username:password https://example.com/auth API-KEY:xxx</span>
 
-- Upload a file to a form (the example below assumes that the form field is `<input type="file" name="cv" />`):
+- Lade eine Datei in ein Formular hoch (das folgende Beispiel geht davon aus, dass das Formularfeld als `<input type="file" name="cv" />` definiert ist):
 
 `http --form `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POST</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/upload</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cv@path/to/file</span>

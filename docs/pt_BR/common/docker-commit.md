@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-commit (português (Brasil))
 description: "Criar uma nova imagem a partir das alterações em um contêiner."
-content_hash: cb88c4369c240bd71d539078fb797ad48f8d88c6
-last_modified_at: 2024-04-19
+content_hash: b34b88a80af8d577b469f9182edb9b64a0581119
+last_modified_at: 2024-09-12
 related_topics:
   - title: English version
     url: /en/common/docker-commit.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # docker commit
 
 Criar uma nova imagem a partir das alterações em um contêiner.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/commit/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/container/commit/>.
 
 - Cria uma imagem a partir de um contêiner específico:
 

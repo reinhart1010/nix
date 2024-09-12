@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/httpie (Deutsch)
-description: "Ein benutzerfreundliches HTTP-Tool."
-content_hash: f5a485aca3d429499e038f12d2bd644e72d4a069
-last_modified_at: 2024-08-26
+description: "Managementschnittstelle für HTTPie."
+content_hash: 24418d217203e760fe6231833059442c10c9c9c4
+last_modified_at: 2024-09-12
 related_topics:
   - title: English version
     url: /en/common/httpie.html
@@ -18,37 +18,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># httpie
 
-Ein benutzerfreundliches HTTP-Tool.
-Weitere Informationen: <https://github.com/httpie/httpie>.
+Managementschnittstelle für HTTPie.
+Siehe auch: `http`, das eigentliche Tool.
+Weitere Informationen: <https://httpie.io/docs/cli/plugin-manager>.
 
-- Sende eine GET-Anfrage (Standardmethode ohne Anfragedaten):
+- Suche nach Aktualisierungen für `httpie`:
 
-`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
+`httpie cli check-updates`
 
-- Sende eine POST-Anfrage (Standardmethode mit Anfragedaten):
+- Zeige die installierten Plugins für `httpie`:
 
-`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=World</span>
+`httpie cli plugins list`
 
-- Sende eine POST-Anfrage mit einer Datei als Eingabe:
+- Installiere/aktualisiere/deinstalliere Plugins:
 
-`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span>
-
-- Sende eine PUT-Anfrage mit einem bestimmten JSON-Body:
-
-`http PUT `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=world</span>
-
-- Sende eine DELETE-Anfrage mit einem bestimmten Anfrage-Header:
-
-`http DELETE `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">API-Key:foo</span>
-
-- Zeige den gesamten HTTP-Austausch (sowohl Anfrage als auch Antwort):
-
-`http -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
-
-- Lade eine Datei herunter:
-
-`http --download `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
-
-- Folge Umleitungen und zeige Zwischenanfragen und -antworten:
-
-`http --follow --all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
+`httpie cli plugins `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">install|upgrade|uninstall</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_name</span>
