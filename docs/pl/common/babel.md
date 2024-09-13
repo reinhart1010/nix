@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/babel (polski)
-description: "Transpiler, który konwertuje kod ze składni JavaScript ES6 / ES7 na składnię ES5."
-content_hash: 4e2506d34b9bf4c6d1a528da73f7c0bd8befb761
-last_modified_at: 2024-06-14
+description: "Transpiler, który konwertuje kod ze składni JavaScript ES6/ES7 na składnię ES5."
+content_hash: af85a6f24a93b8e970002a55a930240da9761573
+last_modified_at: 2024-09-13
 related_topics:
   - title: English version
     url: /en/common/babel.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 ---
 # babel
 
-Transpiler, który konwertuje kod ze składni JavaScript ES6 / ES7 na składnię ES5.
+Transpiler, który konwertuje kod ze składni JavaScript ES6/ES7 na składnię ES5.
 Więcej informacji: <https://babeljs.io/>.
 
 - Transpiluj określony plik wejściowy i wypisz dane wyjściowe do `stdout`:
@@ -58,6 +58,6 @@ Więcej informacji: <https://babeljs.io/>.
 
 `babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_wejściowego</span>` --presets `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">preset1,preset2,...</span>
 
-- Wyświetl wszystkie dostępne opcje:
+- Wyświetl pomoc:
 
 `babel --help`
