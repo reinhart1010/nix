@@ -3,7 +3,7 @@ layout: page
 title: common/httpie (Deutsch)
 description: "Managementschnittstelle für HTTPie."
 content_hash: 24418d217203e760fe6231833059442c10c9c9c4
-last_modified_at: 2024-09-12
+last_modified_at: 2024-09-13
 related_topics:
   - title: English version
     url: /en/common/httpie.html
@@ -11,12 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/httpie.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># httpie
+# httpie
 
 Managementschnittstelle für HTTPie.
 Siehe auch: `http`, das eigentliche Tool.

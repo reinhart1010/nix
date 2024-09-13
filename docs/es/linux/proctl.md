@@ -3,23 +3,14 @@ layout: page
 title: linux/proctl (español)
 description: "Gestiona licencias de proyectos e idiomas, cambiar entre licencias de plantillas."
 content_hash: f0116679ca9fac2ec23f8c8aaf7aa4c6a1da466a
-last_modified_at: 2024-09-12
+last_modified_at: 2024-09-13
 related_topics:
   - title: English version
     url: /en/linux/proctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/proctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># proctl
+# proctl
 
 Gestiona licencias de proyectos e idiomas, cambiar entre licencias de plantillas.
 Más información: <https://github.com/HeCodes2Much/proctl>.

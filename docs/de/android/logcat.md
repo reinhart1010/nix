@@ -3,7 +3,7 @@ layout: page
 title: android/logcat (Deutsch)
 description: "Gib ein Protokoll aller System-Logs aus."
 content_hash: b0c19442e8c14c3d0cb53d1aa4cdc8a846104859
-last_modified_at: 2024-09-12
+last_modified_at: 2024-09-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -62,12 +62,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/logcat.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># logcat
+# logcat
 
 Gib ein Protokoll aller System-Logs aus.
 Weitere Informationen: <https://developer.android.com/tools/logcat>.
