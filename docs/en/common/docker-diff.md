@@ -2,14 +2,21 @@
 layout: page
 title: common/docker-diff (English)
 description: "Inspect changes to files or directories on a container's filesystem."
-content_hash: 26b36e1ec2df4897013ec0b791d0dead44eb7466
-last_modified_at: 2023-11-12
+content_hash: 4ec5d84b6710e6239b0ca70ca55f083b0794ff2c
+last_modified_at: 2024-09-14
+related_topics:
+  - title: français version
+    url: /fr/common/docker-diff.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker-diff.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # docker diff
 
 Inspect changes to files or directories on a container's filesystem.
-More information: <https://docs.docker.com/engine/reference/commandline/diff>.
+More information: <https://docs.docker.com/reference/cli/docker/container/diff/>.
 
 - Inspect the changes to a container since it was created:
 
