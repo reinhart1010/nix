@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (한국어)
 description: "다중 컨테이너 도커 어플리케이션 실행 및 관리."
-content_hash: 303642116998075fefd47e4739a9a16440a9ca5d
-last_modified_at: 2024-01-13
+content_hash: c786d3633946127dec7c0dc948848a92594a7cc7
+last_modified_at: 2024-09-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # docker compose
 
 다중 컨테이너 도커 어플리케이션 실행 및 관리.
-더 많은 정보: <https://docs.docker.com/compose/reference/>.
+더 많은 정보: <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - 실행 중인 모든 컨테이너 목록 보기:
 

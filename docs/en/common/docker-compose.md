@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (English)
 description: "Run and manage multi container Docker applications."
-content_hash: 0b97338643ba6527355a4d95513e14239d14a6b7
-last_modified_at: 2024-03-14
+content_hash: 9e287b4c8320d59d2587527526d782229e639f21
+last_modified_at: 2024-09-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # docker compose
 
 Run and manage multi container Docker applications.
-More information: <https://docs.docker.com/compose/reference/>.
+More information: <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - List all running containers:
 

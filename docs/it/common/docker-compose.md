@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (italiano)
 description: "Esegui e gestisci applicazioni Docker composte da più container."
-content_hash: 44a519048b84b0d8ebe2ccbdd5e4cfb30c6f08b1
-last_modified_at: 2023-12-29
+content_hash: cff1226ab6ab9d8347bdcdc8b4136dee298df0de
+last_modified_at: 2024-09-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # docker compose
 
 Esegui e gestisci applicazioni Docker composte da più container.
-Maggiori informazioni: <https://docs.docker.com/compose/reference/>.
+Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Elenca i container in esecuzione:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/az (English)
 description: "The official CLI tool for Microsoft Azure."
-content_hash: e695431c47f0aa9259a443da598e69b76c0f1479
-last_modified_at: 2023-11-12
+content_hash: 48f2568d43540639da6ed41120741f788fb3e88c
+last_modified_at: 2024-09-14
 related_topics:
   - title: español version
     url: /es/common/az.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/az.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/az.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/az.html
@@ -54,3 +57,11 @@ More information: <https://learn.microsoft.com/cli/azure>.
 - Manage Azure Network resources:
 
 `az network`
+
+- Start in interactive mode:
+
+`az interactive`
+
+- Display help:
+
+`az --help`

@@ -3,7 +3,7 @@ layout: page
 title: common/az (中文 (繁體, 台灣))
 description: "Microsoft Azure 的官方客戶端工具。"
 content_hash: a76503ef41f617a16d5a2c05307c1e58f25619c1
-last_modified_at: 2023-11-12
+last_modified_at: 2024-09-14
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -20,12 +20,18 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/az.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/az.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/az.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# az
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># az
 
 Microsoft Azure 的官方客戶端工具。
 此命令也有關於其子命令的文件，例如：`az login`.

@@ -3,7 +3,7 @@ layout: page
 title: common/az (português (Brasil))
 description: "A interface de linha de comando oficial do Microsoft Azure."
 content_hash: f9beaf87577623f9b96eb6adf39793898f04956e
-last_modified_at: 2023-12-28
+last_modified_at: 2024-09-14
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -26,9 +26,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/az.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# az
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># az
 
 A interface de linha de comando oficial do Microsoft Azure.
 Mais informações: <https://learn.microsoft.com/cli/azure>.

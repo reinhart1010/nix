@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (Deutsch)
 description: "Starte und verwalte Anwendungen, welche aus mehreren Docker Containern bestehen."
-content_hash: 4bb506e2f4b215eeeb26bbe7378a223f77279728
-last_modified_at: 2023-12-28
+content_hash: 00458a1b5c3ca8fb44e18758cf2271f166b8dc4a
+last_modified_at: 2024-09-14
 related_topics:
   - title: English version
     url: /en/common/docker-compose.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # docker compose
 
 Starte und verwalte Anwendungen, welche aus mehreren Docker Containern bestehen.
-Weitere Informationen: <https://docs.docker.com/compose/reference/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Liste alle laufenden Container auf:
 

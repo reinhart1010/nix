@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (Indonesia)
 description: "Jalankan dan kelola aplikasi Docker dengan beberapa kontainer."
-content_hash: 39b1b621a46b6ad26f813432086bf0fa383a43c3
-last_modified_at: 2023-11-12
+content_hash: 8a14f9a494d29b03e3a788e78c9bff3117638b06
+last_modified_at: 2024-09-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # docker compose
 
 Jalankan dan kelola aplikasi Docker dengan beberapa kontainer.
-Informasi lebih lanjut: <https://docs.docker.com/compose/reference/>.
+Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Tampilkan semua kontainer yang sedang berjalan:
 

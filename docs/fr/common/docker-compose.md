@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (français)
 description: "Exécute et gère des applications au travers de plusieurs conteneurs Docker."
-content_hash: e094aaff41b5361b5c9a18e000ff94ccebd048a2
-last_modified_at: 2023-12-28
+content_hash: 64d84323c462fd5ba46f6f53a50cb5e1d9509eab
+last_modified_at: 2024-09-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # docker compose
 
 Exécute et gère des applications au travers de plusieurs conteneurs Docker.
-Plus d'informations : <https://docs.docker.com/compose/reference/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Liste tous les conteneurs en cours d'exécution :
 

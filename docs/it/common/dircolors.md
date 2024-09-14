@@ -3,7 +3,7 @@ layout: page
 title: common/dircolors (italiano)
 description: "Stampa comandi necessari per settare la variabile d'ambiente LS_COLOR per stilizzare `ls`, `dir`, etc."
 content_hash: 949506bf245f05a1279d1b2f954a0c095175a01f
-last_modified_at: 2023-11-12
+last_modified_at: 2024-09-14
 related_topics:
   - title: English version
     url: /en/common/dircolors.html
@@ -11,9 +11,15 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dircolors.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: Nederlands version
+    url: /nl/common/dircolors.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# dircolors
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dircolors
 
 Stampa comandi necessari per settare la variabile d'ambiente LS_COLOR per stilizzare `ls`, `dir`, etc.
 Maggiori informazioni: <https://www.gnu.org/software/coreutils/dircolors>.

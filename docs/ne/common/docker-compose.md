@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (नेपाली)
 description: "बहु कन्टेनर डकर अनुप्रयोगहरू चलाउनुहोस् र व्यवस्थापन गर्नुहोस्।"
-content_hash: eeb20c3602c7d25394042b68aede2f95c0dd2351
-last_modified_at: 2023-11-12
+content_hash: 5f8b159a9fb995b71c6bf10189edfb2f10b9fd55
+last_modified_at: 2024-09-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # docker compose
 
 बहु कन्टेनर डकर अनुप्रयोगहरू चलाउनुहोस् र व्यवस्थापन गर्नुहोस्।
-थप जानकारी: <https://docs.docker.com/compose/reference/>।
+थप जानकारी: <https://docs.docker.com/reference/cli/docker/compose/>।
 
 - सबै चलिरहेको कन्टेनरहरू सूचीबद्ध गर्नुहोस्:
 

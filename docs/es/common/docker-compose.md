@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (español)
 description: "Ejecuta y gestiona aplicaciones Docker multicontenedor."
-content_hash: bca2c4b1c71f8b4ad160415cd100d9d70ccf204b
-last_modified_at: 2024-03-14
+content_hash: 768dfa8e1f4d9655445111135cdf29b63d74b25c
+last_modified_at: 2024-09-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # docker compose
 
 Ejecuta y gestiona aplicaciones Docker multicontenedor.
-Más información: <https://docs.docker.com/compose/reference/>.
+Más información: <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Lista todos los contenedores en ejecución:
 

@@ -2,14 +2,17 @@
 layout: page
 title: common/dircolors (English)
 description: "Output commands to set the LS_COLOR environment variable and style `ls`, `dir`, etc."
-content_hash: 330e1be2c2d0f4923337f3b4f26ae5fb24c0f222
-last_modified_at: 2023-11-12
+content_hash: e1e56809ab3a8b7cbec455b5636f05de481d6b7e
+last_modified_at: 2024-09-14
 related_topics:
   - title: italiano version
     url: /it/common/dircolors.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/dircolors.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/dircolors.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -21,6 +24,10 @@ More information: <https://www.gnu.org/software/coreutils/dircolors>.
 - Output commands to set LS_COLOR using default colors:
 
 `dircolors`
+
+- Display each filetype with the color they would appear in `ls`:
+
+`dircolors --print-ls-colors`
 
 - Output commands to set LS_COLOR using colors from a file:
 

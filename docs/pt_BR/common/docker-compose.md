@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (português (Brasil))
 description: "Executa e gerencia multi-containers de aplicações Docker."
-content_hash: 78743b7189c092ba907d8ede93b5641f8cf74c1e
-last_modified_at: 2024-01-10
+content_hash: ae25ad230ac215dd09e333e533fd2234ceda1cf0
+last_modified_at: 2024-09-14
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # docker compose
 
 Executa e gerencia multi-containers de aplicações Docker.
-Mais informações: <https://docs.docker.com/compose/reference/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Lista todos os containers em execução:
 
