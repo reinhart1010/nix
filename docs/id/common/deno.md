@@ -2,8 +2,8 @@
 layout: page
 title: common/deno (Indonesia)
 description: "Runtime aman untuk JavaScript dan TypeScript."
-content_hash: 74747efe7405e1c44f2e429c37ce07afd59ee2fa
-last_modified_at: 2023-11-12
+content_hash: 158ccb329e4819f5f7c5b365d3acbb0b0f58856e
+last_modified_at: 2024-09-15
 related_topics:
   - title: Deutsch version
     url: /de/common/deno.html
@@ -14,8 +14,14 @@ related_topics:
   - title: español version
     url: /es/common/deno.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/deno.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/deno.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/deno.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -24,22 +30,22 @@ tldri18n_status: 2
 Runtime aman untuk JavaScript dan TypeScript.
 Informasi lebih lanjut: <https://deno.land>.
 
-- Menjalankan berkas JavaScript atau TypeScript:
+- Jalankan program dari suatu berkas JavaScript atau TypeScript:
 
-`deno run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas.ts</span>
+`deno run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.ts</span>
 
-- Menjalankan REPL (shell interaktif):
+- Jalankan REPL (shell interaktif):
 
 `deno`
 
-- Menjalankan berkas dengan memperbolehkan akses jaringan:
+- Jalankan berkas dengan memperbolehkan akses jaringan:
 
-`deno run --allow-net `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas.ts</span>
+`deno run --allow-net `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.ts</span>
 
-- Menjalankan berkas dari URL:
+- Jalankan berkas dari URL:
 
 `deno run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://deno.land/std/examples/welcome.ts</span>
 
-- Memasang skrip yang dapat dieksekusi dari URL:
+- Pasang skrip yang dapat dieksekusi dari URL:
 
 `deno install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://deno.land/std/examples/colors.ts</span>

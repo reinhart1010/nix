@@ -2,8 +2,8 @@
 layout: page
 title: common/adb (Indonesia)
 description: "Android Debug Bridge: berkomunikasi dengan emulator Android atau perangkat Android terhubung."
-content_hash: a37d56bace4e2a3311678c0d2e60fbc4197d2421
-last_modified_at: 2024-02-22
+content_hash: 7565fb5ec7548e8cf76291b3a3cfae812e87fe72
+last_modified_at: 2024-09-15
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -43,7 +43,7 @@ Android Debug Bridge: berkomunikasi dengan emulator Android atau perangkat Andro
 Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `adb shell`.
 Informasi lebih lanjut: <https://developer.android.com/tools/adb>.
 
-- Cek apakah proses server adb telah dimulai dan memulainya:
+- Periksa apakah proses server adb telah dimulai dan memulainya:
 
 `adb start-server`
 
@@ -55,18 +55,18 @@ Informasi lebih lanjut: <https://developer.android.com/tools/adb>.
 
 `adb shell`
 
-- Instal aplikasi Android ke emulator/perangkat tujuan:
+- Pasang suatu aplikasi Android menuju emulator/perangkat tujuan:
 
-`adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas.apk</span>
+`adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span>
 
 - Salin berkas/direktori dari perangkat tujuan:
 
-`adb pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas_atau_direktori_perangkat</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/direktori_lokal_tujuan</span>
+`adb pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_perangkat</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_lokal_tujuan</span>
 
-- Salin berkas/direktori ke perangkat tujuan:
+- Salin berkas/direktori menuju perangkat tujuan:
 
-`adb push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas_atau_direktori_lokal</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/direktori_perangkat_tujuan</span>
+`adb push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_lokal</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_perangkat_tujuan</span>
 
-- Dapatkan daftar perangkat yang terhubung:
+- Tampilkan daftar perangkat yang terhubung:
 
 `adb devices`

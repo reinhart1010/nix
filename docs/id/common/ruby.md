@@ -2,8 +2,8 @@
 layout: page
 title: common/ruby (Indonesia)
 description: "Interpreter bahasa pemrograman Ruby."
-content_hash: 2e52892f54c6926f17abe5bfa9a71a176b4fdf3b
-last_modified_at: 2023-11-12
+content_hash: 6e5f163c46c2caaee7c20e38bb68d577cda6dd1a
+last_modified_at: 2024-09-15
 related_topics:
   - title: English version
     url: /en/common/ruby.html
@@ -24,22 +24,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Interpreter bahasa pemrograman Ruby.
 Informasi lebih lanjut: <https://www.ruby-lang.org>.
 
-- Memulai REPL (_shell_ interaktif):
+- Jalankan suatu berkas skrip atau program Ruby:
 
-`irb`
+`ruby `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/skrip.rb</span>
 
-- Menjalankan skrip Ruby:
+- Jalankan suatu perintah Ruby dalam command-line:
 
-`ruby `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi/ke/script.rb</span>
+`ruby -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span>
 
-- Menjalankan sebuah perintah Ruby dalam _command-line_:
+- Periksa kesalahan sintaks dari suatu berkas skrip Ruby:
 
-`ruby -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`ruby -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/skrip.rb</span>
 
-- Memeriksa kesalahan sintaks dari skrip Ruby:
+- Jalankan program peladen (server) HTTP bawaan terrhadap direktori saat ini menuju port 8080:
 
-`ruby -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi/ke/script.rb</span>
+`ruby -run -e httpd`
 
-- Menampilkan versi Ruby yang anda gunakan:
+- Jalankan suatu berkas biner program Ruby tanpa memasang suatu pustaka (library) pendukung yang diwajibkan:
+
+`ruby -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_pustaka</span>` -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_pustaka_yang_dikecualikan</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_bin/nama_berkas_bin</span>
+
+- Tampilkan [v]ersi Ruby saat ini:
 
 `ruby -v`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/hugo (Indonesia)
-description: "Penghasil website statis berbasis template. Menggunakan modul, komponen dan tema."
-content_hash: 1e0239dd8feee0a63bc3636d0093112a6272dad1
-last_modified_at: 2023-11-12
+description: "Penghasil situs web statis berbasis template. Menggunakan modul, komponen dan tema."
+content_hash: 9d3e1cef1c90367c6e2a5b375a0d17bf2307a27d
+last_modified_at: 2024-09-15
 related_topics:
   - title: English version
     url: /en/common/hugo.html
@@ -15,33 +15,37 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># hugo
 
-Penghasil website statis berbasis template. Menggunakan modul, komponen dan tema.
+Penghasil situs web statis berbasis template. Menggunakan modul, komponen dan tema.
 Informasi lebih lanjut: <https://gohugo.io>.
 
-- Membuat website Hugo baru:
+- Buat sebuah proyek situs web Hugo baru:
 
-`hugo new site `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/website</span>
+`hugo new site `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/website</span>
 
-- Membuat tema Hugo baru (tema juga dapat diunduh dari <https://themes.gohugo.io/>):
+- Buat sebuah proyek tema Hugo baru (tema juga dapat diunduh dari <https://themes.gohugo.io/>):
 
 `hugo new theme `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_tema</span>
 
-- Membuat halaman baru:
+- Buat sebuah halaman situs web baru:
 
-`hugo new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_bagian</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_berkas</span>
+`hugo new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_bagian</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_halaman</span>
 
-- Menbuild website ke direktori `./public`:
+- Bangun situs web dari direktori sumber menuju direktori `./public`:
 
 `hugo`
 
-- Menbuild website termasuk halaman yang ditandai sebagai "draft":
+- Bangun situs web termasuk halaman yang ditandai sebagai "draft":
 
 `hugo --buildDrafts`
 
-- Menbuild website ke direktori yang ditentukan:
+- Bangun situs web dengan untuk dijalankan pada alamat IP lokal:
+
+`hugo server --bind `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip-lokal</span>` --baseURL `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://ip-lokal</span>
+
+- Bangun situs web menuju direktori yang ditentukan:
 
 `hugo --destination `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/tujuan</span>
 
-- Menbuild website, memulai webserver untuk menyajikannya, dan secara otomatis memuat ulang jika ada halaman yang berubah:
+- Bangun situs web dan jalankan peladen (server) untuk menyajikannya, dengan memuat ulang saat terdapat halaman yang berubah:
 
 `hugo server`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (Indonesia)
 description: "Manajer paket untuk distribusi Linux berbasis Debian."
-content_hash: 806fc6f1a0fe5aaf3ee62d9fa0221b6ff338ebe4
-last_modified_at: 2023-11-12
+content_hash: 02bfa050b1ec2cb778b5d1c3a0c034f6ae3f400a
+last_modified_at: 2024-09-15
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -68,36 +68,37 @@ tldri18n_status: 2
 
 Manajer paket untuk distribusi Linux berbasis Debian.
 Pengganti `apt-get` yang direkomendasikan ketika digunakan secara interaktif di Ubuntu versi 16.04 atau yang lebih baru.
+Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `apt`.
 Informasi lebih lanjut: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
-- Memperbarui daftar paket yang tersedia dan versinya (direkomendasikan untuk menggunakan perintah ini sebelum perintah `apt` lainnya.):
+- Perbarui daftar paket yang tersedia dan versinya (direkomendasikan untuk menggunakan perintah ini sebelum perintah `apt` lainnya.):
 
 `sudo apt update`
 
-- Mencari paket yang tersedia dengan nama atau deskripsi tertentu:
+- Cari paket yang tersedia dengan nama atau deskripsi tertentu:
 
 `apt search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_atau_deskripsi_paket</span>
 
-- Memperlihatkan informasi tentang suatu paket:
+- Tampilkan informasi tentang suatu paket:
 
 `apt show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
 
-- Menginstal sebuah paket, atau memperbarui paket ke versi terbaru:
+- Pasang atau perbarui sebuah paket menuju versi terbaru:
 
 `sudo apt install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
 
-- Menghapus sebuah paket (gunakan `sudo apt purge` untuk menghapus paket beserta file konfigurasinya):
+- Hapus paket yang terpasang sebelumnya (gunakan `sudo apt purge` untuk sekaligus menghapus file konfigurasi yang dibuat oleh paket tersebut):
 
 `sudo apt remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
 
-- Memperbarui seluruh paket yang terpasang ke versi terbaru:
+- Perbarui seluruh paket yang terpasang ke versi terbaru:
 
 `sudo apt upgrade`
 
-- Memperlihatkan daftar semua paket yang tersedia di dalam repositori:
+- Tampilkan daftar semua paket yang tersedia di dalam repositori:
 
 `apt list`
 
-- Memperlihatkan daftar paket yang telah terpasang:
+- Tampilkan daftar paket yang telah terpasang:
 
 `apt list --installed`

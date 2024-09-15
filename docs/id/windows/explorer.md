@@ -2,8 +2,8 @@
 layout: page
 title: windows/explorer (Indonesia)
 description: "Windows File Explorer: penjelajah file pada Windows."
-content_hash: 3b9240dda030aa37cb337a3985128ec9f3404b1d
-last_modified_at: 2023-11-12
+content_hash: 2d6a4fb4b60a62bd0e1c5454c0c55cd310e2cc0c
+last_modified_at: 2024-09-15
 related_topics:
   - title: English version
     url: /en/windows/explorer.html
@@ -40,4 +40,4 @@ Informasi lebih lanjut: <https://ss64.com/nt/explorer.html>.
 
 - Membuka Windows Explorer di direktori tertentu:
 
-`explorer `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/direktori</span>
+`explorer `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>

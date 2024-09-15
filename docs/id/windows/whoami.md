@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/whoami (Indonesia)
-description: "Menampilkan detail informasi pengguna saat ini."
-content_hash: a3238939dd8c40618c9a28273c65cd01b0ccb3f7
-last_modified_at: 2024-03-14
+description: "Tampilkan informasi identitas pengguna saat ini secara rinci."
+content_hash: 9d9925610f66b038230a7c0608903f0a370ae25c
+last_modified_at: 2024-09-15
 related_topics:
   - title: English version
     url: /en/windows/whoami.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/whoami.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/whoami.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/whoami.html
@@ -33,25 +36,29 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># whoami
 
-Menampilkan detail informasi pengguna saat ini.
+Tampilkan informasi identitas pengguna saat ini secara rinci.
 Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.
 
-- Menampilkan username pengguna saat ini:
+- Tampilkan username pengguna saat ini:
 
 `whoami`
 
-- Menampilkan daftar grup dari pengguna saat ini:
+- Tampilkan daftar grup dari pengguna saat ini:
 
 `whoami /groups`
 
-- Menampilkan hak (privileges) pengguna saat ini:
+- Tampilkan hak (privileges) pengguna saat ini:
 
 `whoami /priv`
 
-- Menampilkan nama utama pengguna (UPN) saat ini:
+- Tampilkan nama utama pengguna (UPN) saat ini:
 
 `whoami /upn`
 
-- Menampilkan ID logon dari pengguna saat ini:
+- Tampilkan ID logon dari pengguna saat ini:
 
 `whoami /logonid`
+
+- Tampilkan seluruh informasi identitas pengguna saat ini:
+
+`whoami /all`

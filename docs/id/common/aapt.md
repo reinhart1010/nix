@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (Indonesia)
 description: "Alat Pemaketan Android Asset."
-content_hash: 1d98db8157a36ba57c46a2804106239d1b683d65
-last_modified_at: 2023-11-12
+content_hash: ee47d73d9cb7c46c688281f9659df2627d9a220e
+last_modified_at: 2024-09-15
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -46,17 +46,17 @@ tldri18n_status: 2
 # aapt
 
 Alat Pemaketan Android Asset.
-Menyusun dan memaketkan resource aplikasi Android.
+Susun dan buat paket resource aplikasi Android.
 Informasi lebih lanjut: <https://elinux.org/Android_aapt>.
 
-- Daftar berkas-berkas yang termuat dalam arsip APK:
+- Tampilkan daftar berkas yang termuat dalam suatu arsip APK:
 
-`aapt list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/aplikasi.apk</span>
+`aapt list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/aplikasi.apk</span>
 
-- Menampilkan metadata aplikasi (versi, izin, dsb.):
+- Tampilkan metadata aplikasi (versi, izin, dsb.):
 
-`aapt dump badging `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/aplikasi.apk</span>
+`aapt dump badging `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/aplikasi.apk</span>
 
-- Membuat arsip APK baru dengan berkas dari direktory yang ditentukan:
+- Buat suatu arsip APK baru dengan berkas dari direktori yang ditentukan:
 
-`aapt package -F `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/aplikasi.apk</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/direktori</span>
+`aapt package -F `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/aplikasi.apk</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>

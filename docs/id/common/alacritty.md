@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (Indonesia)
 description: "Lintas platform, terakselerasi GPU terminal emulator."
-content_hash: c279a235d1fc89979ba0ecb095052d71e52da438
-last_modified_at: 2024-05-18
+content_hash: 2ed5e7d40fc10479b32afc69500fe529d6161fde
+last_modified_at: 2024-09-15
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -42,22 +42,22 @@ tldri18n_status: 2
 Lintas platform, terakselerasi GPU terminal emulator.
 Informasi lebih lanjut: <https://github.com/alacritty/alacritty>.
 
-- Membuka jendela Alacritty baru:
+- Buka jendela Alacritty baru:
 
 `alacritty`
 
-- Menjalankan Alacritty pada direktori tertentu:
+- Jalankan Alacritty pada direktori tertentu:
 
-`alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/direktori</span>
+`alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
 
-- Menjalankan perintah di jendela Alacritty baru:
+- Jalankan perintah di jendela Alacritty baru:
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span>
 
-- Menentukan berkas konfigurasi alternatif (nilai default `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
+- Gunakan berkas konfigurasi alternatif untuk memuat program (nilai default `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/konfigurasi.toml</span>
+`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/konfigurasi.toml</span>
 
-- Menjalankan dengan mengaktifkan pemuatan ulang konfigurasi secara langsung/otomatis (dapat juga diaktifkan secara default di `alacritty.toml`):
+- Jalankan dan aktifkan fitur muat ulang konfigurasi secara langsung/otomatis (dapat juga diaktifkan secara default di `alacritty.toml`):
 
-`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/konfigurasi.toml</span>
+`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/konfigurasi.toml</span>

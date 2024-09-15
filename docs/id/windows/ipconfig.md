@@ -1,10 +1,13 @@
 ---
 layout: page
 title: windows/ipconfig (Indonesia)
-description: "Menampilkan dan mengatur konfigurasi jaringan dalam sistem operasi Windows."
-content_hash: 38c6708fa21ba016b4db3734299aef9b6e7b1154
-last_modified_at: 2023-11-12
+description: "Tampilkan dan atur konfigurasi jaringan dalam sistem operasi Windows."
+content_hash: bfa7fc6b0f212129c0ac650d99705dfad04387d3
+last_modified_at: 2024-09-15
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/ipconfig.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/ipconfig.html
     icon: bi bi-globe
@@ -16,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/ipconfig.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/ipconfig.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/windows/ipconfig.html
@@ -33,25 +39,29 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># ipconfig
 
-Menampilkan dan mengatur konfigurasi jaringan dalam sistem operasi Windows.
+Tampilkan dan atur konfigurasi jaringan dalam sistem operasi Windows.
 Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
-- Menunjukkan daftar adaptor jaringan:
+- Tampilkan daftar seluruh adaptor jaringan yang terpasang:
 
 `ipconfig`
 
-- Menunjukkan daftar adaptor jaringan secara lengkap:
+- Tampilkan daftar adaptor jaringan secara rinci:
 
 `ipconfig /all`
 
-- Memperbarui alamat IP sebuah adaptor jaringan:
+- Perbarui alamat IP suatu adaptor jaringan:
 
 `ipconfig /renew `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adaptor</span>
 
-- Mengosongkan alamat-alamat IP yang disetel dalam sebuah adaptor jaringan:
+- Kosongkan alamat-alamat IP yang disetel dalam suatu adaptor jaringan:
 
 `ipconfig /release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adaptor</span>
 
-- Mengosongkan cache DNS:
+- Tampilkan dafter informasi DNS yang disimpan dalam cache:
+
+`ipconfig /displaydns`
+
+- Kosongkan cache DNS:
 
 `ipconfig /flushdns`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gdb (Indonesia)
-description: "GNU Debugger."
-content_hash: b7d08ca5b9fb29da37fae3b70cbdfa7829ed5427
-last_modified_at: 2023-11-12
+description: "GNU Debugger, alat pengawakutu program komputer."
+content_hash: 24a6e03e1871458a1b71d560042ae6a82b9bb274
+last_modified_at: 2024-09-15
 related_topics:
   - title: Deutsch version
     url: /de/common/gdb.html
@@ -24,25 +24,25 @@ tldri18n_status: 2
 ---
 # gdb
 
-GNU Debugger.
+GNU Debugger, alat pengawakutu program komputer.
 Informasi lebih lanjut: <https://www.gnu.org/software/gdb>.
 
-- Menjalankan debug pada sebuah berkas yang dapat dieksekusi:
+- Jalankan pengawakutu pada sebuah berkas program yang dapat dieksekusi:
 
 `gdb `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_exe</span>
 
-- Menambahkan sebuah proses pada gdb:
+- Tambahkan suatu proses untuk diawasi oleh gdb:
 
 `gdb -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_exe</span>
 
-- Menjalankan debug dengan berkas core:
+- Jalankan pengawakutu dengan berkas core:
 
 `gdb -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">core</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_exe</span>
 
-- Mengeksekusi perintah GDB pada saat dijanlakan:
+- Kirim perintah menuju pengawakutu pada saat dijalankan:
 
 `gdb -ex "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_exe</span>
 
-- Menjalankan gdb dan melemparkan argumen pada berkas yang dieksekusi:
+- Lemparkan argumen terhadap berkas program yang dieksekusi saat hendak diawasi oleh GDB:
 
 `gdb --args `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_exe</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumen1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumen2</span>

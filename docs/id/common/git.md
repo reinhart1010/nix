@@ -2,8 +2,8 @@
 layout: page
 title: common/git (Indonesia)
 description: "Sistem kontrol versi terdistribusi."
-content_hash: b035f8c31c0d835e1d487c1f0e1546e6a48d5e72
-last_modified_at: 2024-01-06
+content_hash: 2a2fe9dde872ae18c2dea747d60e970f917c5a25
+last_modified_at: 2024-09-15
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,26 +58,26 @@ Sistem kontrol versi terdistribusi.
 Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `commit`, `add`, `branch`, `checkout`, `push`, dsb.
 Informasi lebih lanjut: <https://git-scm.com/>.
 
-- Periksa versi Git:
+- Jalankan suatu subperintah Git:
 
-`git --version`
+`git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subperintah</span>
+
+- Jalankan suatu subperintah terhadap suatu direktori repositori:
+
+`git -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/repo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subperintah</span>
+
+- Jalankan suatu subperintah dengan set konfigurasi/pengaturan tertentu:
+
+`git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kunci.config</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nilai</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subperintah</span>
 
 - Tampilkan bantuan umum:
 
 `git --help`
 
-- Tampilkan bantuan pada sub perintah Git (seperti `commit`,` log`, dll.):
+- Tampilkan bantuan pada subperintah Git (seperti `clone`,` add`, `push`, `log`, dll.):
 
 `git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Jalankan subperintah Git:
+- Periksa versi Git:
 
-`git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
-
-- Jalankan subperintah Git di jalur root repositori kustom:
-
-`git -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/repositori</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
-
-- Jalankan subperintah Git dengan set konfigurasi yang diberikan:
-
-`git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.key</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
+`git --version`

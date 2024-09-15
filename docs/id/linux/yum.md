@@ -2,8 +2,8 @@
 layout: page
 title: linux/yum (Indonesia)
 description: "Utilitas manajemen paket untuk RHEL, Fedora, dan CentOS (untuk versi-versi yang lebih lama)."
-content_hash: 47ce879fa642a69422e04a7366fca58192572dac
-last_modified_at: 2023-11-12
+content_hash: f98c6ee447c36831552be4c415c4f236a1c3011f
+last_modified_at: 2024-09-15
 related_topics:
   - title: català version
     url: /ca/linux/yum.html
@@ -25,14 +25,14 @@ tldri18n_status: 2
 # yum
 
 Utilitas manajemen paket untuk RHEL, Fedora, dan CentOS (untuk versi-versi yang lebih lama).
-Untuk perintah-perintah setara dalam pengelola paket lainnya, lihat <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `yum`.
 Informasi lebih lanjut: <https://manned.org/yum>.
 
-- Instal sebuah paket baru:
+- Pasang suatu paket:
 
 `yum install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
 
-- Instal sebuah paket baru dan mengasumsikan jawaban [y]a untuk semua pertanyaan (juga berfungsi dengan perintah pembaruan, sangat berguna untuk pembaruan otomatis):
+- Pasang paket dengan mengasumsikan jawaban [y]a untuk semua pertanyaan (juga berfungsi dengan perintah pembaruan, sangat berguna untuk pembaruan otomatis):
 
 `yum -y install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
 

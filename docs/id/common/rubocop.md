@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/rubocop (Indonesia)
-description: "Analisa file Ruby."
-content_hash: 824df65b55b5217bb3de5af939a08de3fd904394
-last_modified_at: 2023-12-15
+description: "Analisa berkas Ruby."
+content_hash: 153b97d4f75825a00ad4c5c6f8365a7088d5e4d9
+last_modified_at: 2024-09-15
 related_topics:
   - title: English version
     url: /en/common/rubocop.html
@@ -21,33 +21,33 @@ tldri18n_status: 2
 ---
 # rubocop
 
-Analisa file Ruby.
+Analisa berkas Ruby.
 Informasi lebih lanjut: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
 
-- Periksa semua file dalam direktori saat ini (termasuk direktori-direktori di dalamnya):
+- Periksa semua berkas dalam direktori saat ini (termasuk direktori-direktori di dalamnya):
 
 `rubocop`
 
-- Periksa satu atau lebih file atau direktori secara khusus:
+- Periksa satu atau lebih berkas atau direktori secara khusus:
 
-`rubocop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
+`rubocop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...</span>
 
-- Tulis output ke file:
+- Tulis output ke berkas:
 
-`rubocop --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span>
+`rubocop --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span>
 
-- Melihat daftar cop (aturan-aturan dalam menganalisa):
+- Lihat daftar cop (aturan-aturan dalam menganalisa):
 
 `rubocop --show-cops`
 
-- Mengecualikan cop:
+- Kecualikan kumpulan cop dalam proses analisa:
 
-`rubocop --except `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_2</span>
+`rubocop --except `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop1 cop2 ...</span>
 
-- Menjalankan hanya beberapa cop:
+- Jalankan hanya beberapa cop:
 
-`rubocop --only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_2</span>
+`rubocop --only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop1 cop2 ...</span>
 
-- Memperbaiki file secara otomatis (fitur percobaan):
+- Perbaiki berkas secara otomatis (fitur percobaan):
 
 `rubocop --auto-correct`

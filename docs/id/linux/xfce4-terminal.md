@@ -2,8 +2,8 @@
 layout: page
 title: linux/xfce4-terminal (Indonesia)
 description: "Emulator terminal XFCE4."
-content_hash: 79bbe722d060c2605e2dfd682fb1e902e410767e
-last_modified_at: 2023-11-12
+content_hash: b9073a77d560dd7933ce6a90370756f0ae488050
+last_modified_at: 2024-09-15
 related_topics:
   - title: English version
     url: /en/linux/xfce4-terminal.html
@@ -30,7 +30,7 @@ Informasi lebih lanjut: <https://docs.xfce.org/apps/xfce4-terminal/start>.
 
 `xfce4-terminal --tab`
 
-- Menjalankan sebuah perintah di jendela terminal baru:
+- Jalankan sebuah perintah di jendela terminal baru:
 
 `xfce4-terminal --command "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah_dengan_argumen</span>`"`
 

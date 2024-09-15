@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-commit (Indonesia)
-description: "Komit file ke dalam sebuah repositori."
-content_hash: 793845e219fe398969c5042d4cc3dc03c4dfb0d0
-last_modified_at: 2023-12-16
+description: "Komit berkas ke dalam sebuah repositori."
+content_hash: 9d8a50758139e2e3b80ac2fdd804c3c358473b6c
+last_modified_at: 2024-09-15
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/git-commit.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-commit.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-commit.html
     icon: bi bi-globe
@@ -39,22 +42,22 @@ tldri18n_status: 2
 ---
 # git commit
 
-Komit file ke dalam sebuah repositori.
+Komit berkas ke dalam sebuah repositori.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-commit>.
 
-- Komit file bertahap ke repositori dengan sebuah pesan:
+- Komit berkas bertahap ke repositori dengan sebuah pesan:
 
 `git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span>`"`
 
-- Komit file bertahap dengan pesan yang disimpan dalam suatu file:
+- Komit berkas bertahap dengan pesan yang disimpan dalam suatu berkas:
 
-`git commit --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_pesan_komit</span>
+`git commit --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_pesan_komit</span>
 
-- Ubah secara otomatis semua file yang dimodifikasi menjadi ke status stage dan menambahkan sebuah pesan:
+- Ubah secara otomatis semua berkas yang dimodifikasi menjadi ke status stage dan menambahkan sebuah pesan:
 
 `git commit --all --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span>`"`
 
-- Komit file bertahap kemudian tandatangani komit tersebut menggunakan kunci GPG (atau kunci yang didefinisikan dalam file konfigurasi jika tidak didefinisikan):
+- Komit berkas bertahap kemudian tandatangani komit tersebut menggunakan kunci GPG (atau kunci yang didefinisikan dalam berkas konfigurasi jika tidak didefinisikan):
 
 `git commit --gpg-sign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_kunci_gpg</span>` --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span>`"`
 
@@ -62,10 +65,10 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-commit>.
 
 `git commit --amend`
 
-- Komit file tertentu (yang sudah di status stage):
+- Komit berkas tertentu (yang sudah di status stage):
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/file2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>
 
-- Buat komit kosong, tanpa file bertahap:
+- Buat komit kosong, tanpa berkas bertahap:
 
 `git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span>`" --allow-empty`

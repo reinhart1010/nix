@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/rspec (Indonesia)
-description: "Kerangka pengujian dalam Behavior-driven development yang ditulis dalam bahasa Ruby untuk menguji kode Ruby."
-content_hash: f8949488bc3db6e6867a1e11701052628e3e4a71
-last_modified_at: 2024-02-01
+description: "Kerangka pengujian kode Ruby berbasis Ruby dan pola pengembangan berbasis kebiasaan (behavior-driven development)."
+content_hash: d07dc079a94d0bfc6e63451356adeab48e80c410
+last_modified_at: 2024-09-15
 related_topics:
   - title: English version
     url: /en/common/rspec.html
@@ -15,33 +15,29 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># rspec
 
-Kerangka pengujian dalam Behavior-driven development yang ditulis dalam bahasa Ruby untuk menguji kode Ruby.
+Kerangka pengujian kode Ruby berbasis Ruby dan pola pengembangan berbasis kebiasaan (behavior-driven development).
 Informasi lebih lanjut: <https://rspec.info>.
 
-- Menginisiasi file konfigurasi `.rspec` dan spec helper:
+- Buat suatu berkas konfigurasi `.rspec` dan berkas pendukung spesifikasi pengujian (spec helper):
 
 `rspec --init`
 
-- Menjalankan semua file tes:
+- Jalankan semua pengujian menurut berkas-berkas spesifikasi:
 
 `rspec`
 
-- Menjalankan file tes dalam direktori khusus:
+- Jalankan pengujian menurut berkas-berkas spesifikasi dalam direktori khusus:
 
-`rspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/directory</span>
+`rspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
 
-- Menjalankan file tes khusus:
+- Jalankan beberapa pengujian menurut kumpulan berkas spesifikasi:
 
-`rspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span>
+`rspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>
 
-- Menjalankan beberapa file tes:
+- Jalankan kasus khusus dalam pengujian menurut berkas-berkas spesifikasi (misalnya tes yang ada di baris 83):
 
-`rspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file2</span>
+`rspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">83</span>
 
-- Menjalankan kasus khusus dalam file tes (misalnya tes yang ada di baris 83):
-
-`rspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">83</span>
-
-- Menjalankan tes dengan seed khusus:
+- Jalankan tes dengan seed khusus (untuk pengujian berbasis randomisasi):
 
 `rspec --seed `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">angka_seed</span>

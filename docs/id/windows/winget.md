@@ -2,8 +2,8 @@
 layout: page
 title: windows/winget (Indonesia)
 description: "Manajer Paket Antarmuka Baris Perintah Windows."
-content_hash: 3177e853fa25a36038cace072293e06b706039cb
-last_modified_at: 2023-11-12
+content_hash: 60f81df17df9261f88594c17672f6a9b3ec2ea05
+last_modified_at: 2024-09-15
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
@@ -36,9 +36,13 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Manajer Paket Antarmuka Baris Perintah Windows.
 Informasi lebih lanjut: <https://learn.microsoft.com/windows/package-manager/winget>.
 
-- Instal paket:
+- Pasang suatu paket:
 
 `winget install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
+
+- Hapus paket yang terpasang sebelumnya (Catatan: subperintah `uninstall` juga dapat digantikan dengan `remove`):
+
+`winget uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
 
 - Tampilkan informasi tentang paket:
 
@@ -48,18 +52,18 @@ Informasi lebih lanjut: <https://learn.microsoft.com/windows/package-manager/win
 
 `winget search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
 
-- Perbarui paket:
+- Perbarui seluruh paket menuju versi terkini:
 
-`winget upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
+`winget upgrade --all`
 
-- Tampilkan paket:
+- Tampilkan paket terpasang yang dapat dikelola oleh `winget`:
 
-`winget list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
+`winget list --source winget`
 
-- Hapus paket:
+- Impor atau ekspor daftar paket terpasang ke dalam suatu file:
 
-`winget uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
+`winget `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import|export</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--import-file|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span>
 
-- Bantuan daftar lengkap perintah:
+- Lakukan uji validasi manifes pemaketan winget sebelum mengirimkan rencana perubahan (Pull Request) menuju repositori winget-pkgs:
 
-`winget --help`
+`winget validate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/manifes</span>

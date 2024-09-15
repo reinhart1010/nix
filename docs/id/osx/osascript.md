@@ -2,8 +2,8 @@
 layout: page
 title: osx/osascript (Indonesia)
 description: "Jalankan AppleScript atau JavaScript for Automation (JXA) dari command-line."
-content_hash: 31fb94b821c35349f397bfd7837a3a9c5b0364dc
-last_modified_at: 2024-01-31
+content_hash: 29390f48a48fc0a9fe1fdcac1642e71473c48847
+last_modified_at: 2024-09-15
 related_topics:
   - title: English version
     url: /en/osx/osascript.html
@@ -21,11 +21,11 @@ tldri18n_status: 2
 Jalankan AppleScript atau JavaScript for Automation (JXA) dari command-line.
 Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/osascript.1.html>.
 
-- Menjalankan sebuah perintah AppleScript:
+- Jalankan sebuah perintah AppleScript:
 
 `osascript -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'Halo dunia'</span>`"`
 
-- Menjalankan beberapa perintah AppleScript:
+- Jalankan beberapa perintah AppleScript:
 
 `osascript -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'Halo'</span>`" -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'dunia'</span>`"`
 
@@ -37,7 +37,7 @@ Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/osascript.1.htm
 
 `osascript -e 'id of app "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Aplikasi</span>`"'`
 
-- Menjalankan sebuah perintah JavaScript:
+- Jalankan sebuah perintah JavaScript:
 
 `osascript -l JavaScript -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">console.log('Halo dunia');</span>`"`
 

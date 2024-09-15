@@ -2,8 +2,8 @@
 layout: page
 title: common/asar (Indonesia)
 description: "Pengarsip berkas untuk platform Electron."
-content_hash: 9ef347f48a116ee9117d2b300284ee55b6f965ea
-last_modified_at: 2023-12-29
+content_hash: 7b2f514e8c838d47f2bded5d2561d12cede5cb58
+last_modified_at: 2024-09-15
 related_topics:
   - title: English version
     url: /en/common/asar.html
@@ -32,16 +32,16 @@ Informasi lebih lanjut: <https://github.com/electron/asar>.
 
 - Arsipkan sebuah berkas atau direktori:
 
-`asar pack `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas_atau_direktori</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arsip.asar</span>
+`asar pack `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arsip.asar</span>
 
-- Mengekstrak sebuah arsip:
+- Bongkar isi suatu arsip:
 
 `asar extract `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arsip.asar</span>
 
-- Mengekstrak berkas tertentu dari sebuah arsip:
+- Bongkar isi berkas tertentu dari suatu arsip:
 
 `asar extract-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arsip.asar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas</span>
 
-- Mendapatkan daftar konten dari berkas arsip:
+- Tampilkan daftar isi dari suatu berkas arsip:
 
 `asar list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arsip.asar</span>

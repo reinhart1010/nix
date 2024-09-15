@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-add (Indonesia)
-description: "Tambahkan berkas yang diubah ke indeks."
-content_hash: 2907e8f8469984e47ad5d1b6fbe5f36da13a7f4c
-last_modified_at: 2024-09-11
+description: "Tambahkan berkas yang diubah ke dalam indeks."
+content_hash: 200dc73ab1f09a50935e991986516b8d42905d55
+last_modified_at: 2024-09-15
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -42,10 +42,10 @@ tldri18n_status: 2
 ---
 # git add
 
-Tambahkan berkas yang diubah ke indeks.
+Tambahkan berkas yang diubah ke dalam indeks.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-add>.
 
-- Tambahkan suatu berkas ke dalam indeks:
+- Tambahkan berkas ke dalam indeks:
 
 `git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span>
 
@@ -73,6 +73,6 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-add>.
 
 `git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--patch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span>
 
-- Stage file secara interaktif:
+- Stage berkas secara interaktif:
 
 `git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>
