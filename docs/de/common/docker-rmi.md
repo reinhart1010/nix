@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-rmi (Deutsch)
 description: "Lösche eines oder mehrere Docker Images."
-content_hash: 10ce7f1f08f53380f21be377b96c37f757db8803
-last_modified_at: 2023-11-12
+content_hash: 1671a884e7d2d8c8e751d07fdb032dbb3a7d1478
+last_modified_at: 2024-09-15
 related_topics:
   - title: English version
     url: /en/common/docker-rmi.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker rmi
 
 Lösche eines oder mehrere Docker Images.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/rmi/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/image/rm/>.
 
 - Zeige Hilfe:
 

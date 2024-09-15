@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-rmi (français)
 description: "Supprimer une ou plusieurs images Docker."
-content_hash: ed351d8a199ef1252460675ad45637b50ca3a8bb
-last_modified_at: 2023-11-12
+content_hash: bdf4a5ac2965bec97d642dd0238580bdb43aa1ca
+last_modified_at: 2024-09-15
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-rmi.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker rmi
 
 Supprimer une ou plusieurs images Docker.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/rmi/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/image/rm/>.
 
 - Afficher l'aide :
 

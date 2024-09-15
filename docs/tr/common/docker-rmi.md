@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-rmi (Türkçe)
 description: "Bir veya daha fazla Docker imgesini sil."
-content_hash: 6d3c181c751d486c68e9e000b33ca17bcdb38c44
-last_modified_at: 2023-11-12
+content_hash: 77a295ef74b64e0b9e8e356dd6b2614c63f70ba9
+last_modified_at: 2024-09-15
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-rmi.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker rmi
 
 Bir veya daha fazla Docker imgesini sil.
-Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/rmi/>.
+Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/image/rm/>.
 
 - Yardım göster:
 
