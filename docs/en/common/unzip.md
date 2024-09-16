@@ -2,8 +2,8 @@
 layout: page
 title: common/unzip (English)
 description: "Extract files/directories from Zip archives."
-content_hash: 6934091bc327094aa655b57f07376f193a7f9e6d
-last_modified_at: 2024-03-14
+content_hash: 21440b5469571f244b68e657712fcad71af64879
+last_modified_at: 2024-09-16
 related_topics:
   - title: 한국어 version
     url: /ko/common/unzip.html
@@ -47,4 +47,4 @@ More information: <https://manned.org/unzip>.
 
 - Extract a specific file from an archive:
 
-`unzip -j `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_in_archive1 path/to/file_in_archive2 ...</span>
+`unzip -j `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1_in_archive path/to/file2_in_archive ...</span>
