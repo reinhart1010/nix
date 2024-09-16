@@ -3,7 +3,7 @@ layout: page
 title: common/ruby (Indonesia)
 description: "Interpreter bahasa pemrograman Ruby."
 content_hash: 6e5f163c46c2caaee7c20e38bb68d577cda6dd1a
-last_modified_at: 2024-09-15
+last_modified_at: 2024-09-16
 related_topics:
   - title: English version
     url: /en/common/ruby.html
@@ -14,12 +14,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/ruby.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ruby
+# ruby
 
 Interpreter bahasa pemrograman Ruby.
 Informasi lebih lanjut: <https://www.ruby-lang.org>.

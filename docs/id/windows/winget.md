@@ -3,7 +3,7 @@ layout: page
 title: windows/winget (Indonesia)
 description: "Manajer Paket Antarmuka Baris Perintah Windows."
 content_hash: 60f81df17df9261f88594c17672f6a9b3ec2ea05
-last_modified_at: 2024-09-15
+last_modified_at: 2024-09-16
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/winget.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># winget
+# winget
 
 Manajer Paket Antarmuka Baris Perintah Windows.
 Informasi lebih lanjut: <https://learn.microsoft.com/windows/package-manager/winget>.

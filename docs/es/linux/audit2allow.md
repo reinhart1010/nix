@@ -3,23 +3,14 @@ layout: page
 title: linux/audit2allow (español)
 description: "Crea un módulo de política local SELinux para permitir reglas basadas en operaciones denegadas encontradas en los logs."
 content_hash: 8f79196c87ac6187f808331f8ccd21a46112ea25
-last_modified_at: 2024-09-15
+last_modified_at: 2024-09-16
 related_topics:
   - title: English version
     url: /en/linux/audit2allow.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/audit2allow.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># audit2allow
+# audit2allow
 
 Crea un módulo de política local SELinux para permitir reglas basadas en operaciones denegadas encontradas en los logs.
 Nota: Utiliza audit2allow con precaución - revisa siempre la directiva generada antes de aplicarla, ya que puede permitir un acceso excesivo.

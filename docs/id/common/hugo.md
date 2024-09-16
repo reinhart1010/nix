@@ -3,17 +3,14 @@ layout: page
 title: common/hugo (Indonesia)
 description: "Penghasil situs web statis berbasis template. Menggunakan modul, komponen dan tema."
 content_hash: 9d3e1cef1c90367c6e2a5b375a0d17bf2307a27d
-last_modified_at: 2024-09-15
+last_modified_at: 2024-09-16
 related_topics:
   - title: English version
     url: /en/common/hugo.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hugo
+# hugo
 
 Penghasil situs web statis berbasis template. Menggunakan modul, komponen dan tema.
 Informasi lebih lanjut: <https://gohugo.io>.

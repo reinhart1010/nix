@@ -3,7 +3,7 @@ layout: page
 title: common/node (Indonesia)
 description: "Platform JavaScript sisi server (Node.js)."
 content_hash: 63610a708fcc76b0994a45a2a69bf5aa30b084f4
-last_modified_at: 2024-09-15
+last_modified_at: 2024-09-16
 related_topics:
   - title: Deutsch version
     url: /de/common/node.html
@@ -23,12 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/node.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># node
+# node
 
 Platform JavaScript sisi server (Node.js).
 Informasi lebih lanjut: <https://nodejs.org>.

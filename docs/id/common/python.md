@@ -3,7 +3,7 @@ layout: page
 title: common/python (Indonesia)
 description: "Penerjemah bahasa Python."
 content_hash: 5e53792d686c9b419cd5382457e39d3632699994
-last_modified_at: 2024-09-15
+last_modified_at: 2024-09-16
 related_topics:
   - title: English version
     url: /en/common/python.html
@@ -23,12 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/python.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># python
+# python
 
 Penerjemah bahasa Python.
 Informasi lebih lanjut: <https://www.python.org>.

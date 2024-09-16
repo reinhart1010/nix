@@ -3,7 +3,7 @@ layout: page
 title: windows/cls (Indonesia)
 description: "Bersihkan layar terminal."
 content_hash: cef2db88a046b0c26b031d4296e8d86df01143e4
-last_modified_at: 2024-09-15
+last_modified_at: 2024-09-16
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -41,12 +41,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cls.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cls
+# cls
 
 Bersihkan layar terminal.
 Dalam PowerShell, perintah ini merupakan alias dari `Clear-Host`. Dokumentasi ini ditulis menurut perintah `cd` versi Command Prompt (`cls`).
