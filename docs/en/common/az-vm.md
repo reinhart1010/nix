@@ -2,8 +2,8 @@
 layout: page
 title: common/az-vm (English)
 description: "Manage virtual machines in Azure."
-content_hash: c2cb3500b49fbd667e1c768a5e4572ac24b0ab4e
-last_modified_at: 2024-03-14
+content_hash: 6e405031e353d296247282d680be6116fab284a2
+last_modified_at: 2024-09-16
 related_topics:
   - title: español version
     url: /es/common/az-vm.html
@@ -16,9 +16,9 @@ Manage virtual machines in Azure.
 Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/vm>.
 
-- List details of available Virtual Machines:
+- Display a table of available Virtual Machines:
 
-`az vm list`
+`az vm list --output table`
 
 - Create a virtual machine using the default Ubuntu image and generate SSH keys:
 
