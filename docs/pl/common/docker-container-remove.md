@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-container-remove (polski)
 description: "To polecenie jest aliasem `docker rm`."
-content_hash: e328bee17749a65411275ff842886a5df203e450
-last_modified_at: 2023-11-26
+content_hash: 46f30002f658d5cacb5c56aaf01dce5d4837e5e8
+last_modified_at: 2024-09-17
 related_topics:
   - title: English version
     url: /en/common/docker-container-remove.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # docker container remove
 
 To polecenie jest aliasem `docker rm`.
-Więcej informacji: <https://docs.docker.com/engine/reference/commandline/rm>.
+Więcej informacji: <https://docs.docker.com/reference/cli/docker/container/rm/>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

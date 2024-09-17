@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-container-rm (polski)
 description: "To polecenie jest aliasem `docker rm`."
-content_hash: 9ed517b46fb6b4692864503e05f4f47e3ba4c86b
-last_modified_at: 2023-11-26
+content_hash: 03a9262a19d9b86ff8fc8d430d04356220171977
+last_modified_at: 2024-09-17
 related_topics:
   - title: English version
     url: /en/common/docker-container-rm.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # docker container rm
 
 To polecenie jest aliasem `docker rm`.
-Więcej informacji: <https://docs.docker.com/engine/reference/commandline/rm>.
+Więcej informacji: <https://docs.docker.com/reference/cli/docker/container/rm/>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

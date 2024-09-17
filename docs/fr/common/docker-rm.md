@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-rm (français)
 description: "Supprime un ou plusieurs conteneurs."
-content_hash: 6d795d2be3a6fdc63e9ed0e9b1d67a79542f466c
-last_modified_at: 2023-11-26
+content_hash: 4f99ad9c7448140f447cf910aff84fdec5ac7851
+last_modified_at: 2024-09-17
 related_topics:
   - title: English version
     url: /en/common/docker-rm.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # docker rm
 
 Supprime un ou plusieurs conteneurs.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/rm>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/rm/>.
 
 - Supprimer des conteneurs :
 
@@ -32,4 +32,4 @@ Plus d'informations : <https://docs.docker.com/engine/reference/commandline/rm>.
 
 - Affiche l'aide :
 
-`docker rm`
+`docker rm --help`

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-rm (English)
 description: "Remove containers."
-content_hash: 840a0a75a51bb12c0c268bc24c4dc19fc2db5573
-last_modified_at: 2024-02-25
+content_hash: 8b9f834b20cba9105481c8fc95e1a0e8332d2927
+last_modified_at: 2024-09-17
 related_topics:
   - title: français version
     url: /fr/common/docker-rm.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # docker rm
 
 Remove containers.
-More information: <https://docs.docker.com/engine/reference/commandline/rm>.
+More information: <https://docs.docker.com/reference/cli/docker/container/rm/>.
 
 - Remove containers:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/npm (English)
 description: "JavaScript and Node.js package manager."
-content_hash: 84b50e1e6c99666632685bcb77291dc098424bbf
-last_modified_at: 2024-09-08
+content_hash: 1e98aa10f3b796280ade8a45c3f3e393e5ec3f0c
+last_modified_at: 2024-09-17
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -46,7 +46,7 @@ More information: <https://www.npmjs.com>.
 
 - Download the latest version of a package and install it globally:
 
-`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>`0`
+`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 

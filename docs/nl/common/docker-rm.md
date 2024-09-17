@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-rm (Nederlands)
 description: "Verwijder een of meer containers."
-content_hash: e0147b1abe0a6e9e3e7b18c22bfcc0eeffd689f3
-last_modified_at: 2024-03-08
+content_hash: 04740a7e83a806bd3973b4c9398499a5e9c38652
+last_modified_at: 2024-09-17
 related_topics:
   - title: English version
     url: /en/common/docker-rm.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # docker rm
 
 Verwijder een of meer containers.
-Meer informatie: <https://docs.docker.com/engine/reference/commandline/rm>.
+Meer informatie: <https://docs.docker.com/reference/cli/docker/container/rm/>.
 
 - Verwijder containers:
 
