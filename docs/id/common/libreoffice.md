@@ -3,19 +3,14 @@ layout: page
 title: common/libreoffice (Indonesia)
 description: "Antarmuka baris perintah untuk LibreOffice, aplikasi perkantoran mahir dan gratis."
 content_hash: abc8f8dbb38044d6bba2730cda7743779faf159d
-last_modified_at: 2024-09-17
-tldri18n_status: 0
+last_modified_at: 2024-09-18
+related_topics:
+  - title: English version
+    url: /en/common/libreoffice.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/libreoffice.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># libreoffice
+# libreoffice
 
 Antarmuka baris perintah untuk LibreOffice, aplikasi perkantoran mahir dan gratis.
 Informasi lebih lanjut: <https://www.libreoffice.org/>.
