@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-key (中文)
 description: "Debian 和 Ubuntu 上的 APT 软件包管理器的密钥管理工具。"
-content_hash: cbca97e17fdc318f1f5aa801ae3e82d0e10da05c
-last_modified_at: 2023-11-12
+content_hash: 381262f93de4f6077455e5f7bb6a6f813448d3cc
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -26,12 +26,15 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-key.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-key.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # apt-key
 
 Debian 和 Ubuntu 上的 APT 软件包管理器的密钥管理工具。
-更多信息：<https://manpages.debian.org/latest/apt/apt-key.8.html>.
+更多信息：<https://manned.org/apt-key.8>.
 
 - 列出可信密钥：
 

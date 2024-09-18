@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dissite (español)
 description: "Deshabilita un servidor virtual Apache en sistemas operativos basados en Debian."
-content_hash: 0bbe115b884213cbe666f0cee040d0bcb6c070ad
-last_modified_at: 2024-01-07
+content_hash: 4faa5155eef9c16c09c479665f2698471c658549
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2dissite.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dissite
 
 Deshabilita un servidor virtual Apache en sistemas operativos basados en Debian.
-Más información: <https://manpages.debian.org/latest/apache2/a2dissite.8.en.html>.
+Más información: <https://manned.org/a2dissite.8>.
 
 - Deshabilita un host virtual:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-file (українська)
 description: "Пошук файлів в пакетах `apt`, включно з тими, що ще не встановлені."
-content_hash: 06e96987c5a106ca9c27dd9135bc920545648a0c
-last_modified_at: 2024-04-21
+content_hash: 15c0216c4ecce0ec5b12224bdf2d210848e62d37
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # apt-file
 
 Пошук файлів в пакетах `apt`, включно з тими, що ще не встановлені.
-Більше інформації: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+Більше інформації: <https://manned.org/apt-file.1>.
 
 - Оновити базу метаданих:
 

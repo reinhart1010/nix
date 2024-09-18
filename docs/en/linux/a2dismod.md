@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dismod (English)
 description: "Disable an Apache module on Debian-based OSes."
-content_hash: 1feb0f4b286074d5763481c3962e1b48e9505bd9
-last_modified_at: 2023-11-12
+content_hash: d2e30066faa07dd8622eb5a3878f4c4ded7db965
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2dismod.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dismod
 
 Disable an Apache module on Debian-based OSes.
-More information: <https://manpages.debian.org/latest/apache2/a2dismod.8.en.html>.
+More information: <https://manned.org/a2dismod.8>.
 
 - Disable a module:
 

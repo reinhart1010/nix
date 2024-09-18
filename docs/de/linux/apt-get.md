@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (Deutsch)
 description: "Debian und Ubuntu Paket Management Tool."
-content_hash: 61cf3c85f4f2c39bf70c2e2136f3b963cfeb9c81
-last_modified_at: 2023-11-12
+content_hash: 0bc437491e69480a192fac8aa5f74ab2667c29c4
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 Debian und Ubuntu Paket Management Tool.
 Suche mit `apt-cache` nach Paketen.
-Weitere Informationen: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+Weitere Informationen: <https://manned.org/apt-get.8>.
 
 - Aktualisiere die Liste der Paketquellen (es wird empfohlen diesen Befehl zu Beginn auszuführen):
 

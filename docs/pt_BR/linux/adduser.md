@@ -2,8 +2,8 @@
 layout: page
 title: linux/adduser (português (Brasil))
 description: "Utilitário para criação de novos usuários."
-content_hash: 3bb56d538c20fd37007bbb0c91c394c99bd42894
-last_modified_at: 2023-12-28
+content_hash: 19a8c5b4ce975b7fdc56c1fe807dd11fd41a55a3
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -23,8 +23,14 @@ related_topics:
   - title: हिन्दी version
     url: /hi/linux/adduser.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/adduser.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/adduser.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/adduser.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/adduser.html
@@ -34,7 +40,7 @@ tldri18n_status: 2
 # adduser
 
 Utilitário para criação de novos usuários.
-Mais informações: <https://manpages.debian.org/latest/adduser/adduser.html>.
+Mais informações: <https://manned.org/adduser>.
 
 - Cria um novo usuário, o seu diretório na pasta home e solicita o preenchimento da sua senha:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2ensite (français)
 description: "Active un hôte virtuel Apache sur des systèmes d'exploitation (SE) basés sur Debian."
-content_hash: 4856e6b901f0081df07a737eedfc0383dfbf8c07
-last_modified_at: 2023-11-12
+content_hash: 075c9921765b2e2e9bf6cc3f2f7fdf477f35bdcc
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2ensite.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/a2ensite.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/a2ensite.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/a2ensite.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # a2ensite
 
 Active un hôte virtuel Apache sur des systèmes d'exploitation (SE) basés sur Debian.
-Plus d'informations : <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
+Plus d'informations : <https://manned.org/a2ensite.8>.
 
 - Active un hôte virtuel :
 

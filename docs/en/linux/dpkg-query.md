@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg-query (English)
 description: "Display information about installed packages."
-content_hash: 81167ad8f26f4eb17b80bcbdb21deb3f3d38a564
-last_modified_at: 2024-02-25
+content_hash: 839522585b2bd4a49884b7b71f63c3b649ab4d78
+last_modified_at: 2024-09-18
 related_topics:
   - title: italiano version
     url: /it/linux/dpkg-query.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # dpkg-query
 
 Display information about installed packages.
-More information: <https://manpages.debian.org/latest/dpkg/dpkg-query.1.html>.
+More information: <https://manned.org/dpkg-query.1>.
 
 - List all installed packages:
 

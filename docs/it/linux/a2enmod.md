@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enmod (italiano)
 description: "Attiva un modulo Apache su sistemi operativi basati su Debian."
-content_hash: edb5dc447add3e64c254a5c831aec50915a961a4
-last_modified_at: 2023-11-12
+content_hash: bd4727d8b5374621ca8fb97df756b6f4fc3f0caf
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2enmod.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2enmod
 
 Attiva un modulo Apache su sistemi operativi basati su Debian.
-Maggiori informazioni: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
+Maggiori informazioni: <https://manned.org/a2enmod.8>.
 
 - Attiva un modulo:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dissite (Türkçe)
 description: "Debian tabanlı işletim sistemlerinde bir Apache sanal hostunu devre dışı bırak."
-content_hash: e3e02ffa310abfaaa28028e316761e1c0e1671a8
-last_modified_at: 2023-11-12
+content_hash: a431e901afe6121a3f783a57778210a936abd232
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2dissite.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dissite
 
 Debian tabanlı işletim sistemlerinde bir Apache sanal hostunu devre dışı bırak.
-Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2dissite.8.en.html>.
+Daha fazla bilgi için: <https://manned.org/a2dissite.8>.
 
 - Uzak hostu devre dışı bırak:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dissite (français)
 description: "Désactive un hôte virtuel Apache sur une distribution Debian."
-content_hash: 7236cbeecf4394a031599a77f51808bb532d2c80
-last_modified_at: 2023-11-12
+content_hash: 2a267c1343638aa117444ca8471660d9023dacfb
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2dissite.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dissite
 
 Désactive un hôte virtuel Apache sur une distribution Debian.
-Plus d'informations : <https://manpages.debian.org/latest/apache2/a2dissite.8.en.html>.
+Plus d'informations : <https://manned.org/a2dissite.8>.
 
 - Désactive un hôte virtuel :
 

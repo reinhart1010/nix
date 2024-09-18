@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2disconf (português (Brasil))
 description: "Desativar um arquivo de configuração em sistemas operacionais baseados no Debian."
-content_hash: 9e7b30bfaf2a1cc5d40786b2a9e2bd257b41eab0
-last_modified_at: 2023-11-12
+content_hash: 59d9648c9af8eda0b6642a1b39ae884a1feb5870
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2disconf.html
@@ -23,6 +23,9 @@ related_topics:
   - title: italiano version
     url: /it/linux/a2disconf.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/a2disconf.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/linux/a2disconf.html
     icon: bi bi-globe
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # a2disconf
 
 Desativar um arquivo de configuração em sistemas operacionais baseados no Debian.
-Mais informações: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.
+Mais informações: <https://manned.org/a2disconf.8>.
 
 - Desativa um arquivo de configuração:
 

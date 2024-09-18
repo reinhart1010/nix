@@ -2,8 +2,8 @@
 layout: page
 title: linux/aptitude (українська)
 description: "Утиліта керування пакетами Debian і Ubuntu."
-content_hash: 18f0835ef22577ace53dd450f7ca18d30a248451
-last_modified_at: 2023-11-12
+content_hash: 25efb4823545da4b05153a690fe804027ef28f1a
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # aptitude
 
 Утиліта керування пакетами Debian і Ubuntu.
-Більше інформації: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+Більше інформації: <https://manned.org/aptitude.8>.
 
 - Синхронізувати список доступних пакетів і версій. Це слід запустити спочатку, перш ніж запускати наступні команди aptitude:
 

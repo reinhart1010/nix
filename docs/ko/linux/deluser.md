@@ -2,8 +2,8 @@
 layout: page
 title: linux/deluser (한국어)
 description: "유저 계정 제거 또는 그룹으로부터 사용자 제거."
-content_hash: b6ee3a3f47788133172a44b724d8f5c82942b24f
-last_modified_at: 2023-11-12
+content_hash: 8664985a1bbf4ab364fce69e386308e5791ce8f2
+last_modified_at: 2024-09-18
 related_topics:
   - title: English version
     url: /en/linux/deluser.html
@@ -22,7 +22,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># deluser
 
 유저 계정 제거 또는 그룹으로부터 사용자 제거.
-더 많은 정보: <https://manpages.debian.org/latest/adduser/deluser.html>.
+더 많은 정보: <https://manned.org/deluser>.
 
 - 유저 삭제:
 

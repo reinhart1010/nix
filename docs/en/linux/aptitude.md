@@ -2,8 +2,8 @@
 layout: page
 title: linux/aptitude (English)
 description: "Debian and Ubuntu package management utility."
-content_hash: a63eb5dd2186fbacd8c4a244d66a0bff0fff71b8
-last_modified_at: 2023-11-12
+content_hash: 07daa5314584566a8300b90abbaeefdb45b54d24
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # aptitude
 
 Debian and Ubuntu package management utility.
-More information: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+More information: <https://manned.org/aptitude.8>.
 
 - Synchronize list of packages and versions available. This should be run first, before running subsequent `aptitude` commands:
 

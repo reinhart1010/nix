@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (português (Brasil))
 description: "Gerenciador de pacotes das distribuições baseadas em Debian."
-content_hash: 298977710ea39eacc2f7ba8572a9b4f155030dc6
-last_modified_at: 2023-12-28
+content_hash: 44ad930cdeddcdbd1f9ee14fb05908367b18c5c9
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -70,7 +70,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># apt
 
 Gerenciador de pacotes das distribuições baseadas em Debian.
-Mais informações: <https://manpages.debian.org/latest/apt/apt.8.html>.
+Mais informações: <https://manned.org/apt.8>.
 
 - Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt`):
 

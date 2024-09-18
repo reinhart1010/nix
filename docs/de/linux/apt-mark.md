@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-mark (Deutsch)
 description: "Tool um den Status eines installierten Paketes zu verändern."
-content_hash: 7791c2f1f7d2cda696d49c260794916236525d78
-last_modified_at: 2023-11-12
+content_hash: 43be68e708b5a815f06349c547c3d6fe5bce95c1
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-mark.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # apt-mark
 
 Tool um den Status eines installierten Paketes zu verändern.
-Weitere Informationen: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
+Weitere Informationen: <https://manned.org/apt-mark.8>.
 
 - Markiere ein Paket als automatisch installiert:
 

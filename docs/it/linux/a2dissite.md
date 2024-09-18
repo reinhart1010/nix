@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dissite (italiano)
 description: "Disattiva un virtual host Apache su sistemi operativi basati su Debian."
-content_hash: 0bb13f1fc98312a7ad85f6475074e88fa1d355fa
-last_modified_at: 2023-11-12
+content_hash: 22596891ab99b16cf3a5a6e692620e4aac5ec39f
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2dissite.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dissite
 
 Disattiva un virtual host Apache su sistemi operativi basati su Debian.
-Maggiori informazioni: <https://manpages.debian.org/latest/apache2/a2dissite.8.en.html>.
+Maggiori informazioni: <https://manned.org/a2dissite.8>.
 
 - Disattiva un virtual host:
 

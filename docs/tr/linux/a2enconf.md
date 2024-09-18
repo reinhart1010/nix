@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enconf (Türkçe)
 description: "Debian tabanlı işletim sistemlerinde Apache konfigürasyon dosyasını etkinleştir."
-content_hash: 69e25c2bbd1623592cdfb829e1cc2782a6a0d970
-last_modified_at: 2023-11-12
+content_hash: 7cf062ffbfc36cc14240c32a5ccfe47a3fb90374
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2enconf.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2enconf
 
 Debian tabanlı işletim sistemlerinde Apache konfigürasyon dosyasını etkinleştir.
-Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
+Daha fazla bilgi için: <https://manned.org/a2enconf.8>.
 
 - Bir konfigürasyon dosyasını etkinleştir:
 

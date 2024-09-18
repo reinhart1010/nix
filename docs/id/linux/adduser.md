@@ -2,8 +2,8 @@
 layout: page
 title: linux/adduser (Indonesia)
 description: "Utilitas penambahan pengguna."
-content_hash: 8b64988949750ddd5579fcb0d63ae9d3e860afbd
-last_modified_at: 2024-03-14
+content_hash: 6c5931c8fb4442c7926c9ec33fed203133dcf2d5
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -29,6 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/adduser.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/adduser.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/adduser.html
     icon: bi bi-globe
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # adduser
 
 Utilitas penambahan pengguna.
-Informasi lebih lanjut: <https://manpages.debian.org/latest/adduser/adduser.html>.
+Informasi lebih lanjut: <https://manned.org/adduser>.
 
 - Buat seorang pengguna baru dengan sebuah direktori pangkal/home bawaan dan mendesak pengguna untuk mengatur sebuah kata sandi:
 

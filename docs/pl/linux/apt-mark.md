@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-mark (polski)
 description: "Narzędzie do zmiany statusu zainstalowanych pakietów."
-content_hash: d14b181ecd438c62bd15ce75b2d5de7ca2e89a64
-last_modified_at: 2023-11-12
+content_hash: d86822d22cb16759206ab12a87a749a3713deb31
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-mark.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # apt-mark
 
 Narzędzie do zmiany statusu zainstalowanych pakietów.
-Więcej informacji: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
+Więcej informacji: <https://manned.org/apt-mark.8>.
 
 - Oznacz pakiet jako zainstalowany automatycznie:
 

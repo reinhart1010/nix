@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-mark (中文)
 description: "修改已安装软件包状态的工具。"
-content_hash: 592abc98b8d6f417e8f74686eec7f3a07eb1a37e
-last_modified_at: 2023-11-12
+content_hash: 1af9fc2038f5d81b6106745986008705d0889cb6
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-mark.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # apt-mark
 
 修改已安装软件包状态的工具。
-更多信息：<https://manpages.debian.org/latest/apt/apt-mark.8.html>.
+更多信息：<https://manned.org/apt-mark.8>.
 
 - 将一个软件包标记为自动安装：
 

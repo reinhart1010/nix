@@ -2,8 +2,8 @@
 layout: page
 title: linux/adduser (українська)
 description: "Утиліта додавання користувачів."
-content_hash: 1133201df4ec5d8d4e361348c09eae359c2fc999
-last_modified_at: 2024-04-21
+content_hash: 17e9cf5d5b440365ec88728731da09295a199a4a
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # adduser
 
 Утиліта додавання користувачів.
-Більше інформації: <https://manpages.debian.org/latest/adduser/adduser.html>.
+Більше інформації: <https://manned.org/adduser>.
 
 - Створити нового користувача з домашнім каталогом за замовчуванням і попросити користувача встановити пароль:
 

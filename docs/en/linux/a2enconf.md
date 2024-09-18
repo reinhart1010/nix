@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enconf (English)
 description: "Enable an Apache configuration file on Debian-based OSes."
-content_hash: b96ca5865cb1abc670dbe248465204c01b677bb8
-last_modified_at: 2023-11-12
+content_hash: 7c9d1dce8e27d8eceff9355ec6ada275229e8e15
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2enconf.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2enconf
 
 Enable an Apache configuration file on Debian-based OSes.
-More information: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
+More information: <https://manned.org/a2enconf.8>.
 
 - Enable a configuration file:
 

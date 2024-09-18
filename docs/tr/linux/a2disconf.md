@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2disconf (Türkçe)
 description: "Debian tabanlı işletim sistemlerinde Apache konfigürasyon dosyasını devre dışı bırak."
-content_hash: a14bfa4823beab34436af082b189999230352dac
-last_modified_at: 2023-11-12
+content_hash: 3d0099afd22727f50198e0ce45aea085d3199633
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2disconf.html
@@ -23,6 +23,9 @@ related_topics:
   - title: italiano version
     url: /it/linux/a2disconf.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/a2disconf.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/a2disconf.html
     icon: bi bi-globe
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # a2disconf
 
 Debian tabanlı işletim sistemlerinde Apache konfigürasyon dosyasını devre dışı bırak.
-Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.
+Daha fazla bilgi için: <https://manned.org/a2disconf.8>.
 
 - Bir konfigürasyon dosyasını devre dışı bırak:
 

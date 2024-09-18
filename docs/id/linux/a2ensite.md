@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2ensite (Indonesia)
 description: "Izinkan sebuah host maya (virtual host) Apache pada OS berbasis Debian."
-content_hash: 3c03bd70d7c7eb4fb836a2fa8b53ff2d88fc5124
-last_modified_at: 2024-03-14
+content_hash: a2566c624a57a7b0041d156fa9a697434c685f0b
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2ensite.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # a2ensite
 
 Izinkan sebuah host maya (virtual host) Apache pada OS berbasis Debian.
-Informasi lebih lanjut: <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
+Informasi lebih lanjut: <https://manned.org/a2ensite.8>.
 
 - Izinkan sebuah host maya:
 

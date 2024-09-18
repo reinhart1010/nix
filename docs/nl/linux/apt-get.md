@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (Nederlands)
 description: "Hulpprogramma voor pakketbeheer van Debian en Ubuntu."
-content_hash: c80ad79ee2b43676f816fb67891c2dc7ca947186
-last_modified_at: 2023-11-12
+content_hash: 62aab1463213565662ef34fb81b0bbf68d79a45b
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 Hulpprogramma voor pakketbeheer van Debian en Ubuntu.
 Zoek naar pakketten met `apt-cache`.
-Meer informatie: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+Meer informatie: <https://manned.org/apt-get.8>.
 
 - Werk de lijst van beschikbare pakketten en versies bij (het wordt aanbevolen dit uit te voeren voor elk ander `apt-get` commando):
 

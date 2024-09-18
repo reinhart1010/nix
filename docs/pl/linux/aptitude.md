@@ -2,8 +2,8 @@
 layout: page
 title: linux/aptitude (polski)
 description: "Narzędzie zarządzania pakietami dla Debiana i Ubuntu."
-content_hash: b07abe07804e8c1b18f90d4312b6cb5abc9e11d7
-last_modified_at: 2023-11-12
+content_hash: 0a6c68c5d3f5a8da2fdaa0700e7c045764412ce9
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # aptitude
 
 Narzędzie zarządzania pakietami dla Debiana i Ubuntu.
-Więcej informacji: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+Więcej informacji: <https://manned.org/aptitude.8>.
 
 - Zaktualizuj listę dostępnych pakietów oraz wersji. Zalecane jest uruchomienie tego polecenia przed innymi poleceniami `aptitude`:
 

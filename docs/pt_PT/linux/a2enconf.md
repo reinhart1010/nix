@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enconf (português (Portugal))
 description: "Activa um ficheiro de configuração do Apache em distribuições baseadas em Debian."
-content_hash: 1b06d957b1c392c981e48d86e77c1b2de424a911
-last_modified_at: 2023-11-12
+content_hash: 71a2eeba2f7836ab0efefaaa347e92c470097d18
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2enconf.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2enconf
 
 Activa um ficheiro de configuração do Apache em distribuições baseadas em Debian.
-Mais informações: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
+Mais informações: <https://manned.org/a2enconf.8>.
 
 - Activa um ficheiro de configuração:
 

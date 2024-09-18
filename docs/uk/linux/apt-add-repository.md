@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-add-repository (українська)
 description: "Керує взаємодією з репозиторіями `apt`."
-content_hash: d2539210942c31474a38b42d545fd452d5f5c927
-last_modified_at: 2024-04-21
+content_hash: 7293b5fc354263cfe04da4ecb9030852e704879c
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-add-repository.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # apt-add-repository
 
 Керує взаємодією з репозиторіями `apt`.
-Більше інформації: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
+Більше інформації: <https://manned.org/apt-add-repository.1>.
 
 - Додайте новий репозиторій `apt`:
 

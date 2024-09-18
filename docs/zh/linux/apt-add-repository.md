@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-add-repository (中文)
 description: "管理 APT 仓库。"
-content_hash: 8f65cbd8d326d7016ab66251abdb666eb3d82277
-last_modified_at: 2024-03-14
+content_hash: 58ee3796feb2de1986b7ad21917c23bb0a0c545e
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-add-repository.html
@@ -29,12 +29,15 @@ related_topics:
   - title: ไทย version
     url: /th/linux/apt-add-repository.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-add-repository.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # apt-add-repository
 
 管理 APT 仓库。
-更多信息：<https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
+更多信息：<https://manned.org/apt-add-repository.1>.
 
 - 添加一个 APT 仓库：
 

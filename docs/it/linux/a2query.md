@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2query (italiano)
 description: "Recupera la configurazione di runtime da Apache su sistemi operativi basati su Debian."
-content_hash: 4e568bcd56e90c704fb06afe0896f12f93008441
-last_modified_at: 2023-11-12
+content_hash: 312f0af1907a82e3526f16883dae020bbd53b7d9
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2query.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2query
 
 Recupera la configurazione di runtime da Apache su sistemi operativi basati su Debian.
-Maggiori informazioni: <https://manpages.debian.org/latest/apache2/a2query.html>.
+Maggiori informazioni: <https://manned.org/a2query>.
 
 - Lista i moduli Apache attivi:
 

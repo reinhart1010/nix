@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2query (中文)
 description: "在基于 Debian 的操作系统上查看 Apache 运行配置。"
-content_hash: 372a492dc4c4a24c2838a8478515249520a4e8cc
-last_modified_at: 2023-11-12
+content_hash: e89573c160a42acfecc7e10a8dabe082d384b591
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2query.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2query
 
 在基于 Debian 的操作系统上查看 Apache 运行配置。
-更多信息：<https://manpages.debian.org/latest/apache2/a2query.html>.
+更多信息：<https://manned.org/a2query>.
 
 - 列出启用的 Apache 模块：
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/ifup (English)
 description: "Enable network interfaces."
-content_hash: 5865ca07b8be5434da5ecf8904f37e911a65dab8
-last_modified_at: 2024-02-15
+content_hash: a3cd13b824f827c8d870c9ecf8f208fb29899d67
+last_modified_at: 2024-09-18
 related_topics:
   - title: français version
     url: /fr/linux/ifup.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # ifup
 
 Enable network interfaces.
-More information: <https://manpages.debian.org/latest/ifupdown/ifup.8.html>.
+More information: <https://manned.org/ifup.8>.
 
 - Enable interface eth0:
 

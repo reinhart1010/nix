@@ -2,8 +2,8 @@
 layout: page
 title: linux/aptitude (português (Brasil))
 description: "Gerenciador de pacotes das distribuições baseadas em Debian."
-content_hash: f135ccebbedbbb994cd10c1d591a98a349b8f691
-last_modified_at: 2023-12-28
+content_hash: 01a8f81820436995344141b0f4c8b4a8805b140a
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># aptitude
 
 Gerenciador de pacotes das distribuições baseadas em Debian.
-Mais informações: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+Mais informações: <https://manned.org/aptitude.8>.
 
 - Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `aptitude`):
 

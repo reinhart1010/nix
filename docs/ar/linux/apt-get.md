@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (العربية)
 description: "أداة إدارة الحزم لديبيان وأوبونتو."
-content_hash: a87d18d91d96b3874dd46b533dd137a12d1b6a83
-last_modified_at: 2024-01-05
+content_hash: e217c8b3df8545cc24ec41fbcdd48c8ede43f471
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-get.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 أداة إدارة الحزم لديبيان وأوبونتو.
 ابحث عن الحزم باستخدام `apt-cache`.
-لمزيد من التفاصيل: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+لمزيد من التفاصيل: <https://manned.org/apt-get.8>.
 
 - تحديث قائمة الحزم الموجودة وإصداراتها (يوصى بتشغيله قبل أي أمر `apt-get` آخر):
 

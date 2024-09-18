@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (Nederlands)
 description: "Hulpprogramma voor pakketbeheer voor op Debian gebaseerde distributies."
-content_hash: 12ecc6af2c2d8e96ba58fe91514b257a34ce0d6a
-last_modified_at: 2023-11-12
+content_hash: e409b538f54a9ea962e47372c2e405afa33418b7
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -69,7 +69,7 @@ tldri18n_status: 2
 Hulpprogramma voor pakketbeheer voor op Debian gebaseerde distributies.
 Aanbevolen vervanging voor `apt-get` bij interactief gebruik in Ubuntu versie 16.04 en later.
 Voor gelijkwaardige commando's in andere pakket managers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-Meer informatie: <https://manpages.debian.org/latest/apt/apt.8.html>.
+Meer informatie: <https://manned.org/apt.8>.
 
 - Werk de lijst van beschikbare pakketten en versies bij (het wordt aanbevolen dit uit te voeren voor elk ander `apt` commando):
 

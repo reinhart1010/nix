@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dissite (português (Portugal))
 description: "Desactiva um host virtual do Apache em distribuições baseadas em Debian."
-content_hash: 9bda469e5ab81753ea5a1f7a1981b4610a4d3ede
-last_modified_at: 2023-11-12
+content_hash: e8ec4f3fa061d9478a5847e2b0f1661b3bdfd196
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2dissite.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dissite
 
 Desactiva um host virtual do Apache em distribuições baseadas em Debian.
-Mais informações: <https://manpages.debian.org/latest/apache2/a2dissite.8.en.html>.
+Mais informações: <https://manned.org/a2dissite.8>.
 
 - Desactiva um host virtual:
 

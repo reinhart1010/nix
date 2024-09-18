@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg (Indonesia)
 description: "Manajer paket Debian."
-content_hash: f8cbe3b4441a3a45502dc100840ce5b5e98f57e9
-last_modified_at: 2023-11-12
+content_hash: 3b767a004df34a3c1690b7847c198d12434d9d39
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Manajer paket Debian.
 Beberapa subperintah seperti `dpkg deb` memiliki dokumentasi penggunaannya sendiri.
-Informasi lebih lanjut: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
+Informasi lebih lanjut: <https://manned.org/dpkg>.
 
 - Memasang paket dari sebuah file DEB:
 

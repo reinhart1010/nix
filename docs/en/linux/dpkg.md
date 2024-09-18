@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg (English)
 description: "Debian package manager."
-content_hash: 73e0c056d0b371b494495220acfc4f2b6efb16bd
-last_modified_at: 2023-11-12
+content_hash: 7357f180faa1f7bb91eada1ce59d60f784543902
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 Debian package manager.
 Some subcommands such as `dpkg deb` have their own usage documentation.
 For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-More information: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
+More information: <https://manned.org/dpkg>.
 
 - Install a package:
 

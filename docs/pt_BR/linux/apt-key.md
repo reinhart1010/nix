@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-key (português (Brasil))
 description: "Gerenciador de chaves utilizado pelo gerenciador de pacotes APT nas distribuições baseadas em Debian."
-content_hash: f5395b8b9ef843d53ddae6c9523ef24a6e0374f5
-last_modified_at: 2023-12-28
+content_hash: 0a91f08ea7ac602d0452cd1acc2992088c525772
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -23,6 +23,9 @@ related_topics:
   - title: polski version
     url: /pl/linux/apt-key.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-key.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-key.html
     icon: bi bi-globe
@@ -31,7 +34,7 @@ tldri18n_status: 2
 # apt-key
 
 Gerenciador de chaves utilizado pelo gerenciador de pacotes APT nas distribuições baseadas em Debian.
-Mais informações: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
+Mais informações: <https://manned.org/apt-key.8>.
 
 - Exibe as chaves confiáveis:
 

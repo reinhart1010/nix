@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2ensite (español)
 description: "Habilita un servidor virtual Apache en sistemas operativos basados en Debian."
-content_hash: 7f9ce70c2535a2317f801b512b10708aa533961e
-last_modified_at: 2024-01-07
+content_hash: 24091713685bc62e1672c3260dbfa6d1bfd66e95
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2ensite.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2ensite.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/a2ensite.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/a2ensite.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # a2ensite
 
 Habilita un servidor virtual Apache en sistemas operativos basados en Debian.
-Más información: <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
+Más información: <https://manned.org/a2ensite.8>.
 
 - Habilita un host virtual:
 

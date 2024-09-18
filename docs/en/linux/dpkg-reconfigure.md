@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg-reconfigure (English)
 description: "Reconfigure an already installed package."
-content_hash: 69477ee106691d1e040a77c59469a6935dcd8f9d
-last_modified_at: 2023-11-12
+content_hash: 9a50ea99d57a7e79fd321a7cf666595a32e1aab0
+last_modified_at: 2024-09-18
 related_topics:
   - title: українська version
     url: /uk/linux/dpkg-reconfigure.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # dpkg-reconfigure
 
 Reconfigure an already installed package.
-More information: <https://manpages.debian.org/latest/debconf/dpkg-reconfigure.8.html>.
+More information: <https://manned.org/dpkg-reconfigure.8>.
 
 - Reconfigure one or more packages:
 

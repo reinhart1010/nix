@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2disconf (català)
 description: "Desactiva un fitxer de configuració d'Apache en sistemes operatius basats en Debian."
-content_hash: c9eaa8eccc8bec593e6824ef6c167c4334704299
-last_modified_at: 2023-11-12
+content_hash: 47eece766920501a1c01cba200ec9734fcb266d6
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/a2disconf.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/a2disconf.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/a2disconf.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/a2disconf.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # a2disconf
 
 Desactiva un fitxer de configuració d'Apache en sistemes operatius basats en Debian.
-Més informació: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.
+Més informació: <https://manned.org/a2disconf.8>.
 
 - Desactiva un fitxer de configuració:
 

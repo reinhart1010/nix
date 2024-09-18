@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-file (italiano)
 description: "Cerca un file dentro un pacchetto APT, includendo quelli non ancora installati."
-content_hash: f0d7d513fcc03fd2c0b5d6b4d7dc9fe0443cba57
-last_modified_at: 2024-03-14
+content_hash: b8b892a46e5320e68d0e0c0b8eba9779555f4f1f
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -29,6 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-file.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-file.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-file.html
     icon: bi bi-globe
@@ -40,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># apt-file
 
 Cerca un file dentro un pacchetto APT, includendo quelli non ancora installati.
-Maggiori informazioni: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+Maggiori informazioni: <https://manned.org/apt-file.1>.
 
 - Aggiorna il database dei metadati:
 

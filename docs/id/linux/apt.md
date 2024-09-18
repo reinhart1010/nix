@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (Indonesia)
 description: "Manajer paket untuk distribusi Linux berbasis Debian."
-content_hash: 02bfa050b1ec2cb778b5d1c3a0c034f6ae3f400a
-last_modified_at: 2024-09-15
+content_hash: 0373ab87df17dc6c339a9fc46ab7a6ccaf06b190
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -69,7 +69,7 @@ tldri18n_status: 2
 Manajer paket untuk distribusi Linux berbasis Debian.
 Pengganti `apt-get` yang direkomendasikan ketika digunakan secara interaktif di Ubuntu versi 16.04 atau yang lebih baru.
 Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `apt`.
-Informasi lebih lanjut: <https://manpages.debian.org/latest/apt/apt.8.html>.
+Informasi lebih lanjut: <https://manned.org/apt.8>.
 
 - Perbarui daftar paket yang tersedia dan versinya (direkomendasikan untuk menggunakan perintah ini sebelum perintah `apt` lainnya.):
 

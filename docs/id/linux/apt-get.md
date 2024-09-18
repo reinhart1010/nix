@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (Indonesia)
 description: "Manajemen paket untuk Debian dan Ubuntu."
-content_hash: 10163987217236c18f5ffb853209433f2187cd2c
-last_modified_at: 2024-03-08
+content_hash: 0dcab17f668e5a96dacf6dd668d36145bf0f56ab
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -53,7 +53,7 @@ tldri18n_status: 2
 
 Manajemen paket untuk Debian dan Ubuntu.
 Cari paket menggunakan `apt-cache`.
-Informasi lebih lanjut: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+Informasi lebih lanjut: <https://manned.org/apt-get.8>.
 
 - Perbarui daftar paket yang tersedia beserta versinya (hal ini direkomendasikan untuk dijalankan sebelum menjalankan perintah `apt-get` yang lain):
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2query (Türkçe)
 description: "Apache ve Debian tabanlı işletim sistemlerinde çalışma süresi yapılandırmasını kurtar."
-content_hash: 5795b802d83777c925397294b50161b3eb322d53
-last_modified_at: 2023-11-12
+content_hash: 8307f79477d06d8ed8432dee914d15dcfd861813
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2query.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2query
 
 Apache ve Debian tabanlı işletim sistemlerinde çalışma süresi yapılandırmasını kurtar.
-Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2query.html>.
+Daha fazla bilgi için: <https://manned.org/a2query>.
 
 - Etkinleştirilmiş Apache modüllerini sırala:
 

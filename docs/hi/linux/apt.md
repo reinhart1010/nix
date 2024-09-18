@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (हिन्दी)
 description: "डेबियन आधारित वितरणों के लिए पैकेज प्रबंधन उपयोगिता।"
-content_hash: 3b571ee753eb5e94bcdd94ec46d7d10a3f5598bd
-last_modified_at: 2023-11-12
+content_hash: 249fa2e23fdc2ada9013491f9dd7150e56578971
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -69,7 +69,7 @@ tldri18n_status: 2
 डेबियन आधारित वितरणों के लिए पैकेज प्रबंधन उपयोगिता।
 उबंटू संस्करण १६.०४ और बाद में इंटरैक्टिव रूप से उपयोग किए जाने पर `apt-get` के लिए अनुशंसित प्रतिस्थापन।
 अन्य पैकेज प्रबंधकों में समतुल्य कमांड के लिए, देखें <https://wiki.archlinux.org/title/Pacman/Rosetta>।
-अधिक जानकारी: <https://manpages.debian.org/latest/apt/apt.8.html>।
+अधिक जानकारी: <https://manned.org/apt.8>।
 
 - उपलब्ध पैकेजों और संस्करणों की सूची को अपडेट करें (इसे अन्य `apt` कमांड से पहले चलाने की अनुशंसा की जाती है):
 

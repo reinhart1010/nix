@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-cache (中文)
 description: "Debian 和 Ubuntu 的包查询工具。"
-content_hash: 65b489af7900c47f233bc09a2ad1d6f7ac8e64c2
-last_modified_at: 2023-11-12
+content_hash: baa2d838fef1d889068a85cdf2fedbf670a5dba5
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-cache.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-cache.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-cache.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-cache.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # apt-cache
 
 Debian 和 Ubuntu 的包查询工具。
-更多信息：<https://manpages.debian.org/latest/apt/apt-cache.8.html>.
+更多信息：<https://manned.org/apt-cache.8>.
 
 - 在当前的软件源中查找一个软件包：
 

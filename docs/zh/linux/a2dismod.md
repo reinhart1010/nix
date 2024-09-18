@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dismod (中文)
 description: "在基于 Debian 的操作系统上禁用 Apache 模块。"
-content_hash: 6ebaef7deeb43c0afbc75576adce23f59403d276
-last_modified_at: 2023-11-12
+content_hash: 0768cd2742e616d0248fa5472da6ba57b8fe472f
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2dismod.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dismod
 
 在基于 Debian 的操作系统上禁用 Apache 模块。
-更多信息：<https://manpages.debian.org/latest/apache2/a2dismod.8.en.html>.
+更多信息：<https://manned.org/a2dismod.8>.
 
 - 禁用模块：
 

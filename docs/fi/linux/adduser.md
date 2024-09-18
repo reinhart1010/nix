@@ -2,8 +2,8 @@
 layout: page
 title: linux/adduser (suomi)
 description: "Käyttäjän lisäysapuohjelma."
-content_hash: fe682fe9be32e4f191a1c513f4367be168b704db
-last_modified_at: 2023-11-12
+content_hash: 67c2b8f251ea991e349bdee52748ad4f87533fb4
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -20,11 +20,17 @@ related_topics:
   - title: हिन्दी version
     url: /hi/linux/adduser.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/adduser.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/adduser.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/adduser.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/adduser.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/adduser.html
@@ -34,7 +40,7 @@ tldri18n_status: 2
 # adduser
 
 Käyttäjän lisäysapuohjelma.
-Lisätietoja: <https://manpages.debian.org/latest/adduser/adduser.html>.
+Lisätietoja: <https://manned.org/adduser>.
 
 - Luo uusi käyttäjä oletuskotihakemistolla ja pyydä käyttäjää asettamaan salasana:
 

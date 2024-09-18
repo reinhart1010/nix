@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (français)
 description: "Utilitaire de gestion des paquets pour les distributions basées sur Debian."
-content_hash: 0bc7f44fcefa97887f2788d826be6be58b84b535
-last_modified_at: 2023-11-12
+content_hash: d8ecde01c59935acac30b11fa750f258a8c472db
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -68,7 +68,7 @@ tldri18n_status: 2
 
 Utilitaire de gestion des paquets pour les distributions basées sur Debian.
 Remplacement recommandé pour `apt-get` lorsqu'il est utilisé de manière interactive dans les versions 16.04 et ultérieures d'Ubuntu.
-Plus d'informations : <https://manpages.debian.org/latest/apt/apt.8.html>.
+Plus d'informations : <https://manned.org/apt.8>.
 
 - Mettre à jour la liste des paquets et des versions disponibles (il est recommandé de l'exécuter avant les autres commandes `apt`) :
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2ensite (English)
 description: "Enable an Apache virtual host on Debian-based OSes."
-content_hash: f162a4543069ba054125b05c5381c0807c17fc60
-last_modified_at: 2023-11-12
+content_hash: 9bf9d1eaddeb6b38a847b69822d0e8e9cec90e95
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2ensite.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2ensite.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/a2ensite.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/a2ensite.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # a2ensite
 
 Enable an Apache virtual host on Debian-based OSes.
-More information: <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
+More information: <https://manned.org/a2ensite.8>.
 
 - Enable a virtual host:
 

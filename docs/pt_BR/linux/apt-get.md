@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (português (Brasil))
 description: "Gerenciador de pacotes das distribuições baseadas em Debian."
-content_hash: d07fd7710be2e04b96ec81d6b6db71d0dbe5478e
-last_modified_at: 2023-12-28
+content_hash: 98fc56926591d7ce6626cc2cf3358f1cad4ce0cf
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 Gerenciador de pacotes das distribuições baseadas em Debian.
 Procure por pacotes utilizando o `apt-cache`.
-Mais informações: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+Mais informações: <https://manned.org/apt-get.8>.
 
 - Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt-get`):
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (English)
 description: "Package management utility for Debian based distributions."
-content_hash: 7c03a184ac273090d1477b5c62637de159a1cd5a
-last_modified_at: 2023-11-12
+content_hash: 18fab96cce6f7697bbdf472a052d4786c089f8d9
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -69,7 +69,7 @@ tldri18n_status: 2
 Package management utility for Debian based distributions.
 Recommended replacement for `apt-get` when used interactively in Ubuntu versions 16.04 and later.
 For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-More information: <https://manpages.debian.org/latest/apt/apt.8.html>.
+More information: <https://manned.org/apt.8>.
 
 - Update the list of available packages and versions (it's recommended to run this before other `apt` commands):
 

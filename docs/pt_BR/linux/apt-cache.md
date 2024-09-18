@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-cache (português (Brasil))
 description: "Buscador de pacotes para distribuições baseadas no Debian."
-content_hash: dce8480c8cf72c6f23ce04137949f1a4588a86a5
-last_modified_at: 2023-12-28
+content_hash: 555ded6e22fd596bb8d611fe9541621669342ba5
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-cache.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-cache.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-cache.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-cache.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # apt-cache
 
 Buscador de pacotes para distribuições baseadas no Debian.
-Mais informações: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
+Mais informações: <https://manned.org/apt-cache.8>.
 
 - Busca pacotes, no cache de pacotes APT, correspondentes ao critério de busca:
 

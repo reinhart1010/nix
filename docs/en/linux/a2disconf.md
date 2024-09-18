@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2disconf (English)
 description: "Disable an Apache configuration file on Debian-based OSes."
-content_hash: 2052a0fe2a1759ae5a30df0f8146f686ee7dfd80
-last_modified_at: 2023-11-12
+content_hash: 9f20d2a0073f9d9ef2251585881974f60e065283
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2disconf.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/a2disconf.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/a2disconf.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/a2disconf.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # a2disconf
 
 Disable an Apache configuration file on Debian-based OSes.
-More information: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.
+More information: <https://manned.org/a2disconf.8>.
 
 - Disable a configuration file:
 

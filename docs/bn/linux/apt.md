@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (বাংলা)
 description: "ডেবিয়ান ভিত্তিক ডিস্ট্রিবিউশনের জন্য প্যাকেজ ম্যানেজমেন্ট ইউটিলিটি।"
-content_hash: bc82bab12200863c2dcd02ab8987d286c5515e3a
-last_modified_at: 2023-11-12
+content_hash: f015d3496909257a54268fdce19d7ebe6e653c00
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -68,7 +68,7 @@ tldri18n_status: 2
 
 ডেবিয়ান ভিত্তিক ডিস্ট্রিবিউশনের জন্য প্যাকেজ ম্যানেজমেন্ট ইউটিলিটি।
 ইন্টারেক্টিভভাবে ব্যবহৃত হলে উবুন্টু সংস্করণ 16.04 এবং তার পরবর্তী সংস্করনের জন্য `apt-get` এর পরিবরতে রেকোমেন্ডেড প্রতিস্থাপন।
-আরও তথ্য পাবেন: <https://manpages.debian.org/latest/apt/apt.8.html>।
+আরও তথ্য পাবেন: <https://manned.org/apt.8>।
 
 - উপলভ্য প্যাকেজ এবং সংস্করণের তালিকা আপডেট করুন (অন্যান্য `apt` কমান্ডের আগে এটি চালানোর পরামর্শ দেওয়া হচ্ছে):
 

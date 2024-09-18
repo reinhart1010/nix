@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enmod (English)
 description: "Enable an Apache module on Debian-based OSes."
-content_hash: f8dc32c4609869715935aec4eabad2d9a100c354
-last_modified_at: 2023-11-12
+content_hash: bdff525f68de86d6127701afc69b699f73da06d4
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2enmod.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2enmod
 
 Enable an Apache module on Debian-based OSes.
-More information: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
+More information: <https://manned.org/a2enmod.8>.
 
 - Enable a module:
 

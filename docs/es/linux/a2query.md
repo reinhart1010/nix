@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2query (español)
 description: "Recupera la configuración en tiempo de ejecución de Apache en sistemas operativos basados en Debian."
-content_hash: c25469b8693f0b8596baa3e6858edeb1d3aefe6e
-last_modified_at: 2023-11-12
+content_hash: 171a59d555ba446bb1fb68a0512c7476b2eab724
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2query.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2query
 
 Recupera la configuración en tiempo de ejecución de Apache en sistemas operativos basados en Debian.
-Más información: <https://manpages.debian.org/latest/apache2/a2query.html>.
+Más información: <https://manned.org/a2query>.
 
 - Lista módulos de Apache habilitados:
 

@@ -2,14 +2,14 @@
 layout: page
 title: linux/reportbug (English)
 description: "Bug report tool of Debian distribution."
-content_hash: 7886fcbe943f5c24813b72df837b50bd0c6ce545
-last_modified_at: 2023-11-12
+content_hash: ec797700666d81aac3ffcc04eea4fcedb8ceaa88
+last_modified_at: 2024-09-18
 tldri18n_status: 2
 ---
 # reportbug
 
 Bug report tool of Debian distribution.
-More information: <https://manpages.debian.org/latest/reportbug/reportbug.html>.
+More information: <https://manned.org/reportbug>.
 
 - Generate a bug report about a specific package, then send it by e-mail:
 

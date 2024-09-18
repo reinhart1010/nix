@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (Türkçe)
 description: "Debian tabanlı dağıtımlar için paket yönetim aracı."
-content_hash: c62f86dfedc2233a42502b7841a0204ed4721723
-last_modified_at: 2024-01-02
+content_hash: b257e26321512f466123f932965517696a8b1466
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -68,7 +68,7 @@ tldri18n_status: 2
 
 Debian tabanlı dağıtımlar için paket yönetim aracı.
 Ubuntu 16.04 ve sonraki sürümlerde interaktif kullanıldığında `apt-get` için önerilen değiştirme.
-Daha fazla bilgi için: <https://manpages.debian.org/latest/apt/apt.8.html>.
+Daha fazla bilgi için: <https://manned.org/apt.8>.
 
 - Kullanılabilir paket ve versiyonların listesini yenile (Bu komutu diğer `apt` komutlarından önce kullanmanız önerilir):
 

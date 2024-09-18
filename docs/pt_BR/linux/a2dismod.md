@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dismod (português (Brasil))
 description: "Desativa um módulo do Apache em sistemas operacionais baseados no Debian."
-content_hash: 8b6e12492a21b892dc4730bfec42aa42be927b8b
-last_modified_at: 2023-11-12
+content_hash: f6a3b42a11208806178940e420da60bc2317dd17
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2dismod.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dismod
 
 Desativa um módulo do Apache em sistemas operacionais baseados no Debian.
-Mais informações: <https://manpages.debian.org/latest/apache2/a2dismod.8.en.html>.
+Mais informações: <https://manned.org/a2dismod.8>.
 
 - Desativa um módulo:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dissite (English)
 description: "Disable an Apache virtual host on Debian-based OSes."
-content_hash: fb9f2770882609d707f2d3601b25b0bcdf37549b
-last_modified_at: 2023-11-12
+content_hash: 88fdfadf3e355d6beb259452853edf4c03173aae
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2dissite.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dissite
 
 Disable an Apache virtual host on Debian-based OSes.
-More information: <https://manpages.debian.org/latest/apache2/a2dissite.8.en.html>.
+More information: <https://manned.org/a2dissite.8>.
 
 - Disable a virtual host:
 

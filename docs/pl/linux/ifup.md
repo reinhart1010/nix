@@ -2,8 +2,8 @@
 layout: page
 title: linux/ifup (polski)
 description: "Narzędzie używane do włączania interfejsów sieciowych."
-content_hash: 7dc5be67f3eeae1e57dc6eaef32b4227d906b2f9
-last_modified_at: 2023-11-12
+content_hash: 2b549b14d03b4feff8c2eb6184a9e0be95421ebc
+last_modified_at: 2024-09-18
 related_topics:
   - title: English version
     url: /en/linux/ifup.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # ifup
 
 Narzędzie używane do włączania interfejsów sieciowych.
-Więcej informacji: <https://manpages.debian.org/latest/ifupdown/ifup.8.html>.
+Więcej informacji: <https://manned.org/ifup.8>.
 
 - Włączenie interfejsu eth0:
 

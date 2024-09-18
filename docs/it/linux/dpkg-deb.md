@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg-deb (italiano)
 description: "Impacchetta, spacchetta e fornisce informazioni su archivi Debian."
-content_hash: d341b596d653c486b4c0151085fb98446f1a97a9
-last_modified_at: 2023-11-12
+content_hash: d8447e1248abc04b0f79db7369ce8880ddf3648b
+last_modified_at: 2024-09-18
 related_topics:
   - title: English version
     url: /en/linux/dpkg-deb.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # dpkg-deb
 
 Impacchetta, spacchetta e fornisce informazioni su archivi Debian.
-Maggiori informazioni: <https://manpages.debian.org/latest/dpkg/dpkg-deb.html>.
+Maggiori informazioni: <https://manned.org/dpkg-deb>.
 
 - Mostra le informazioni riguardo ad un pacchetto:
 

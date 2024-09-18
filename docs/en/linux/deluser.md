@@ -2,8 +2,8 @@
 layout: page
 title: linux/deluser (English)
 description: "Delete a user from the system."
-content_hash: e40c17967b090a377675b88048f485a8054d58d1
-last_modified_at: 2023-11-12
+content_hash: e733d9479b377157e01a77bfbe91694fed57a15a
+last_modified_at: 2024-09-18
 related_topics:
   - title: français version
     url: /fr/linux/deluser.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # deluser
 
 Delete a user from the system.
-More information: <https://manpages.debian.org/latest/adduser/deluser.html>.
+More information: <https://manned.org/deluser>.
 
 - Remove a user:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apache2ctl (français)
 description: "L'outil d'Interface en Lignes de Commandes (ILC) pour administrer le serveur web HTTP Apache."
-content_hash: 6342864c1d9267bf9449ab3513f1a95cafb1abee
-last_modified_at: 2023-11-12
+content_hash: 2906462cfb10a67fad2030d882bb5023618ac613
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/apache2ctl.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 L'outil d'Interface en Lignes de Commandes (ILC) pour administrer le serveur web HTTP Apache.
 Cette commande est disponible sur une distribution Debian. Pour les distributions basées Red Hat, voir `httpd`.
-Plus d'informations : <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
+Plus d'informations : <https://manned.org/apache2ctl.8>.
 
 - Démarre le démon Apache. Envoie un message s'il est déjà actif :
 

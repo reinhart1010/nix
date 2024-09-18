@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2query (català)
 description: "Recupera la configuració del temps d'execució d'Apache en sistemes operatius basats en Debian."
-content_hash: 9ee6559386d4b436aa0cc90beb0ba1c1284833f7
-last_modified_at: 2023-11-12
+content_hash: c4232ff1b9ec7990926a76aa4bb02aaf9477b89b
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/a2query.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2query
 
 Recupera la configuració del temps d'execució d'Apache en sistemes operatius basats en Debian.
-Més informació: <https://manpages.debian.org/latest/apache2/a2query.html>.
+Més informació: <https://manned.org/a2query>.
 
 - Llista mòduls Apache activats:
 

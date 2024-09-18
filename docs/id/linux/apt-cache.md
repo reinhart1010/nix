@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-cache (Indonesia)
 description: "Pencari paket untuk Debian dan Ubuntu."
-content_hash: 84451ef61e0a031d156bdd4d04a689f64cd563d6
-last_modified_at: 2024-03-08
+content_hash: 2eb2ddd6f790ac8e5b9a209e31db314590b00bb1
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-cache.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # apt-cache
 
 Pencari paket untuk Debian dan Ubuntu.
-Informasi lebih lanjut: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
+Informasi lebih lanjut: <https://manned.org/apt-cache.8>.
 
 - Cari paket di sumber yang sudah dimiliki:
 

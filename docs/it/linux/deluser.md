@@ -2,8 +2,8 @@
 layout: page
 title: linux/deluser (italiano)
 description: "Rimuovi un account utente o un utente da un gruppo."
-content_hash: 30ead89fdc7f5e4c912202e9cccbbd2aba355c97
-last_modified_at: 2023-11-12
+content_hash: ee5264e020d67e173367a7f436ac12d00ef716b4
+last_modified_at: 2024-09-18
 related_topics:
   - title: English version
     url: /en/linux/deluser.html
@@ -22,7 +22,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># deluser
 
 Rimuovi un account utente o un utente da un gruppo.
-Maggiori informazioni: <https://manpages.debian.org/latest/adduser/deluser.html>.
+Maggiori informazioni: <https://manned.org/deluser>.
 
 - Rimuovi un utente:
 

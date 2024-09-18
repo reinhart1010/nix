@@ -2,8 +2,8 @@
 layout: page
 title: linux/adduser (فارسی)
 description: "ابزار اضافه‌ کردن کاربر."
-content_hash: aaaeaf12192b29e0c373f84cd4c707a6d9eaca10
-last_modified_at: 2024-01-05
+content_hash: 472069d2e9feefd7d99d9a20ddcc2d730ae86193
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -20,11 +20,17 @@ related_topics:
   - title: हिन्दी version
     url: /hi/linux/adduser.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/adduser.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/adduser.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/adduser.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/adduser.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/adduser.html
@@ -34,7 +40,7 @@ tldri18n_status: 2
 # adduser
 
 ابزار اضافه‌ کردن کاربر.
-اطلاعات بیشتر: <https://manpages.debian.org/latest/adduser/adduser.html>.
+اطلاعات بیشتر: <https://manned.org/adduser>.
 
 - ایجاد یک کاربر جدید با دایرکتوری خانگی پیش‌فرض و درخواست از کاربر برای تنظیم رمز عبور:
 

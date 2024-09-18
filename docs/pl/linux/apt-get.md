@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (polski)
 description: "Narzędzie do zarządzania pakietami Debiana i Ubuntu."
-content_hash: b2a907df7ae04d28712716a2ee256bf18950c059
-last_modified_at: 2023-11-12
+content_hash: d21dc7664c72e121e2f8e49ad69024532ce1bada
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 Narzędzie do zarządzania pakietami Debiana i Ubuntu.
 Szukaj pakietów używając `apt-cache`.
-Więcej informacji: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+Więcej informacji: <https://manned.org/apt-get.8>.
 
 - Zaktualizuj listę dostępnych pakietów oraz wersji (zalecane jest uruchomienie tego polecenia przed innymi poleceniami `apt-get`):
 

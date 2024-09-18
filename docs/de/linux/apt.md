@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (Deutsch)
 description: "Debian und Ubuntu Paket Management Tool."
-content_hash: bfa0600ee058b601a6717112c4be35e861366dc2
-last_modified_at: 2023-11-12
+content_hash: 8a3674df45ea6bb5b591499a58ca41ac505e328f
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -68,7 +68,7 @@ tldri18n_status: 2
 
 Debian und Ubuntu Paket Management Tool.
 Empfohlene Alternative zu `apt-get` seit Ubuntu 16.04.
-Weitere Informationen: <https://manpages.debian.org/latest/apt/apt.8.html>.
+Weitere Informationen: <https://manned.org/apt.8>.
 
 - Aktualisiere die Liste der Paketquellen (es wird empfohlen, diesen Befehl zu Beginn auszuführen):
 

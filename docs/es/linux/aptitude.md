@@ -2,8 +2,8 @@
 layout: page
 title: linux/aptitude (español)
 description: "Herramienta de gestión de paquetes para Debian y Ubuntu."
-content_hash: b46b3fbbcf9b6d467e7d4efdda58df95a509846e
-last_modified_at: 2024-01-07
+content_hash: 34bc15b45b4cd31f42c55718484f8b8a45d78182
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # aptitude
 
 Herramienta de gestión de paquetes para Debian y Ubuntu.
-Más información: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+Más información: <https://manned.org/aptitude.8>.
 
 - Sincroniza la lista de paquetes y versiones disponible (se recomienda ejecutar este comando antes que cualquier otro comando `aptitude`):
 

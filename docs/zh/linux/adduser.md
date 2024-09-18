@@ -2,8 +2,8 @@
 layout: page
 title: linux/adduser (中文)
 description: "添加用户的工具。"
-content_hash: 131a5dd31254ca865f8e88b9a876175ba29e6639
-last_modified_at: 2023-11-12
+content_hash: fd69aa2e695058bba9480b8a1c80317fb259d477
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -23,18 +23,24 @@ related_topics:
   - title: हिन्दी version
     url: /hi/linux/adduser.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/adduser.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/adduser.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/adduser.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/adduser.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # adduser
 
 添加用户的工具。
-更多信息：<https://manpages.debian.org/latest/adduser/adduser.html>.
+更多信息：<https://manned.org/adduser>.
 
 - 创建一个新用户，在默认路径创建 home 目录，并提示用户设置密码：
 

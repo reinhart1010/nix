@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (українська)
 description: "Утиліта керування пакетами для дистрибутивів на основі Debian."
-content_hash: 3719e962f5687d9378d6781e3ae5ab3f45836401
-last_modified_at: 2023-11-12
+content_hash: 39688113d070babe6332e5dd768b0e66789e078c
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -69,7 +69,7 @@ tldri18n_status: 2
 Утиліта керування пакетами для дистрибутивів на основі Debian.
 Рекомендована заміна для `apt-get` при інтерактивному використанні в Ubuntu версії 16.04 і пізніших.
 Еквівалентні команди в інших менеджерах пакунків дивитися <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-Більше інформації: <https://manpages.debian.org/latest/apt/apt.8.html>.
+Більше інформації: <https://manned.org/apt.8>.
 
 - Оновити список доступних пакетів і версій (рекомендується запускати це перед іншими командами `apt`):
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-cache (українська)
 description: "Інструмент запиту пакетів Debian і Ubuntu."
-content_hash: a3277f388151d8090973ff5a5291bba3256a8c78
-last_modified_at: 2023-11-12
+content_hash: 34cc4b9b4bd502d55c4a85f1d33a51d10ff1ef2e
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-cache.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-cache.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-cache.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-cache.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # apt-cache
 
 Інструмент запиту пакетів Debian і Ubuntu.
-Більше інформації: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
+Більше інформації: <https://manned.org/apt-cache.8>.
 
 - Шукати пакет у ваших поточних джерелах:
 

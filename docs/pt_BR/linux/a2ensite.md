@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2ensite (português (Brasil))
 description: "Ativa um host virtual do Apache em sistemas operacionais baseados no Debian."
-content_hash: a9f2bf9e566d9d4dbbb7881b777d65037a1a5fe9
-last_modified_at: 2023-11-12
+content_hash: f4df9c9d68f572dbb70e23d43acad296ced87303
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2ensite.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2ensite.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/a2ensite.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/a2ensite.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # a2ensite
 
 Ativa um host virtual do Apache em sistemas operacionais baseados no Debian.
-Mais informações: <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
+Mais informações: <https://manned.org/a2ensite.8>.
 
 - Ativa um host virtual:
 

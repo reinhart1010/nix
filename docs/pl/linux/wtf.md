@@ -2,8 +2,8 @@
 layout: page
 title: linux/wtf (polski)
 description: "Pokazuje rozwinięcia akronimów."
-content_hash: 7ab9f17e87a8a8b734e76c5dc4a17ba53182ea0a
-last_modified_at: 2023-11-12
+content_hash: 05b328fa648f26e75a246d817fcf678647aa8e33
+last_modified_at: 2024-09-18
 related_topics:
   - title: English version
     url: /en/linux/wtf.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # wtf
 
 Pokazuje rozwinięcia akronimów.
-Więcej informacji: <https://manpages.debian.org/latest/bsdgames/wtf.6.en.html>.
+Więcej informacji: <https://manned.org/wtf.6>.
 
 - Rozwinięcie podanego akronimu:
 

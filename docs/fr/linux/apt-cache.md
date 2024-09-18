@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-cache (français)
 description: "Outil de recherche de paquets Debian et Ubuntu."
-content_hash: 0b918b55edc72dded0afc96478156bdd932e1705
-last_modified_at: 2023-11-12
+content_hash: 298c1d93efbaa9d7a11ba7db0d01e2a78519c8c4
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-cache.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/apt-cache.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-cache.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-cache.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # apt-cache
 
 Outil de recherche de paquets Debian et Ubuntu.
-Plus d'informations : <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
+Plus d'informations : <https://manned.org/apt-cache.8>.
 
 - Recherche un paquet dans vos sources actuelles :
 

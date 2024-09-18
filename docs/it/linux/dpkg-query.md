@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg-query (italiano)
 description: "Uno strumento che mostra informazioni sui pacchetti installati."
-content_hash: 22e54dab59bbe4aef2abb4b88aec23f5b0baa81f
-last_modified_at: 2023-11-12
+content_hash: cc5d151e1bbb15e4df021864759972fd353c27b9
+last_modified_at: 2024-09-18
 related_topics:
   - title: English version
     url: /en/linux/dpkg-query.html
@@ -19,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># dpkg-query
 
 Uno strumento che mostra informazioni sui pacchetti installati.
-Maggiori informazioni: <https://manpages.debian.org/latest/dpkg/dpkg-query.1.html>.
+Maggiori informazioni: <https://manned.org/dpkg-query.1>.
 
 - Elenca tutti i pacchetti installati:
 

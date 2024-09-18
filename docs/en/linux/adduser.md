@@ -2,8 +2,8 @@
 layout: page
 title: linux/adduser (English)
 description: "User addition utility."
-content_hash: 5135379d5878851982469f3869fc37d8bfd0a571
-last_modified_at: 2023-11-12
+content_hash: ce711a6b023016f8628a60841b49391643ceb77b
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -20,11 +20,17 @@ related_topics:
   - title: हिन्दी version
     url: /hi/linux/adduser.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/adduser.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/adduser.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/adduser.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/adduser.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/adduser.html
@@ -34,7 +40,7 @@ tldri18n_status: 2
 # adduser
 
 User addition utility.
-More information: <https://manpages.debian.org/latest/adduser/adduser.html>.
+More information: <https://manned.org/adduser>.
 
 - Create a new user with a default home directory and prompt the user to set a password:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enmod (中文)
 description: "在基于 Debian 的操作系统上启用 Apache 模块。"
-content_hash: bdb1fc89b13ebddd3e322560fe950acdd9193e92
-last_modified_at: 2023-11-12
+content_hash: 3fe8bb58ea7d97d9b64973c9ce0a53d6f15b5a49
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2enmod.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2enmod
 
 在基于 Debian 的操作系统上启用 Apache 模块。
-更多信息：<https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
+更多信息：<https://manned.org/a2enmod.8>.
 
 - 启用模块：
 

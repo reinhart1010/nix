@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dismod (català)
 description: "Desactiva un mòdul Apache en sistemes operatius basats en Debian."
-content_hash: 9092f8a5fc47d0c6eb0608237dd6fce56277b9c7
-last_modified_at: 2023-11-12
+content_hash: e26ce9d46f8519ed4f03019ac2d188be3121342c
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/a2dismod.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dismod
 
 Desactiva un mòdul Apache en sistemes operatius basats en Debian.
-Més informació: <https://manpages.debian.org/latest/apache2/a2dismod.8.en.html>.
+Més informació: <https://manned.org/a2dismod.8>.
 
 - Desactiva un mòdul:
 

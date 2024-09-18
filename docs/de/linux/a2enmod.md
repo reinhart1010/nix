@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enmod (Deutsch)
 description: "Aktiviert ein Apache-Modul auf Debian-basierten Betriebssystemen."
-content_hash: 03393e55cfc34799fd129b53c36af31aaffd4626
-last_modified_at: 2023-11-12
+content_hash: 808ea68b589915d2e60788bf3aee9e08e76f9577
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2enmod.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2enmod
 
 Aktiviert ein Apache-Modul auf Debian-basierten Betriebssystemen.
-Weitere Informationen: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
+Weitere Informationen: <https://manned.org/a2enmod.8>.
 
 - Aktiviere ein Modul:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-mark (português (Brasil))
 description: "Utilitário que altera as configurações dos pacotes instalados."
-content_hash: b341f356a153fece0c9a2493c9e190ce600ab333
-last_modified_at: 2023-12-28
+content_hash: f4495e37cd1de84efe54c2ce601c5753a2dcbe6a
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-mark.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # apt-mark
 
 Utilitário que altera as configurações dos pacotes instalados.
-Mais informações: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
+Mais informações: <https://manned.org/apt-mark.8>.
 
 - Marca um pacote como instalado automaticamente:
 

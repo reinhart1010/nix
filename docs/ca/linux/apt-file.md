@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-file (català)
 description: "Busca arxius en paquets APT, incloent els que encara no s'han instal·lat."
-content_hash: f3d4c438b860d501b7080edef45ff5ff03fd0683
-last_modified_at: 2024-03-14
+content_hash: a8038f8cc1bd5ffc4630a8cb862a62d2f5fff308
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/apt-file.html
@@ -29,6 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-file.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-file.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-file.html
     icon: bi bi-globe
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # apt-file
 
 Busca arxius en paquets APT, incloent els que encara no s'han instal·lat.
-Més informació: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+Més informació: <https://manned.org/apt-file.1>.
 
 - Actualita les metadades de la base de dades:
 

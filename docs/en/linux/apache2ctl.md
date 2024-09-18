@@ -2,8 +2,8 @@
 layout: page
 title: linux/apache2ctl (English)
 description: "Administrate the Apache HTTP web server."
-content_hash: 7b6c10fbb63fce21ae02f6ad74288c460932a43a
-last_modified_at: 2023-11-12
+content_hash: c07a7d4681f7efe31432af200c1a7fd8c71deb99
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/apache2ctl.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Administrate the Apache HTTP web server.
 This command comes with Debian based OSes, for RHEL based ones see `httpd`.
-More information: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
+More information: <https://manned.org/apache2ctl.8>.
 
 - Start the Apache daemon. Throw a message if it is already running:
 

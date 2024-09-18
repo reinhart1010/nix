@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (català)
 description: "Eina de gestió de paquets per a distribucions basades en Debian."
-content_hash: ce0fc33be8010f92ca001d238d0cf5e214082fc2
-last_modified_at: 2023-11-12
+content_hash: eeefc30c58a39e06751f507df5b5b2d07a9e0fb8
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 Eina de gestió de paquets per a distribucions basades en Debian.
 Busca paquets utilizant `apt-cache`.
-Més informació: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+Més informació: <https://manned.org/apt-get.8>.
 
 - Actualitza la llista de paquets i versions disponibles (es recomana executar aquest comandament abans que qualsevol altre `apt-get`):
 

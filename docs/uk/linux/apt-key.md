@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-key (українська)
 description: "Утиліта керування ключами для диспетчера пакетів APT в Debian та Ubuntu."
-content_hash: 8b27a9a39591a0d376dc834644756d6c0be93634
-last_modified_at: 2024-04-21
+content_hash: 638cd9f6e71173a54867b8f881e49907c8e0798a
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -35,7 +35,7 @@ tldri18n_status: 2
 
 Утиліта керування ключами для диспетчера пакетів APT в Debian та Ubuntu.
 Примітка: `apt-key` застарілий (за винятком використання `apt-key del` у сценаріях підтримки).
-Більше інформації: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
+Більше інформації: <https://manned.org/apt-key.8>.
 
 - Список довірених ключів:
 

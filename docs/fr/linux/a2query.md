@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2query (français)
 description: "Retourne la configuration d'exécution d'Apache sur une distribution Debian."
-content_hash: 695cc9a7b5a367ede4bab327041b762f7771d97b
-last_modified_at: 2023-11-12
+content_hash: e44b906c9c3e710751ead1b03a3fbcdf1428e8f7
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2query.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2query
 
 Retourne la configuration d'exécution d'Apache sur une distribution Debian.
-Plus d'informations : <https://manpages.debian.org/latest/apache2/a2query.html>.
+Plus d'informations : <https://manned.org/a2query>.
 
 - Liste les [m]odules Apache actifs :
 

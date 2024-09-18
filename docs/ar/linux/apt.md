@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (العربية)
 description: "أداة إدارة الحزم للتوزيعات القائمة على ديبيان."
-content_hash: dba3551c680243ef97352261b05e9f77ac179f77
-last_modified_at: 2024-01-05
+content_hash: 4f092763a2280ed0584956be7187f4b424236b7e
+last_modified_at: 2024-09-18
 related_topics:
   - title: বাংলা version
     url: /bn/linux/apt.html
@@ -68,7 +68,7 @@ tldri18n_status: 2
 
 أداة إدارة الحزم للتوزيعات القائمة على ديبيان.
 بديل لـ `apt-get` عند الاستخدام الفعال في إصدارات أوبونتو 16.04 وما بعده.
-لمزيد من التفاصيل: <https://manpages.debian.org/latest/apt/apt.8.html>.
+لمزيد من التفاصيل: <https://manned.org/apt.8>.
 
 - تحديث قائمة الحزم الموجودة وإصداراتها (يوصى بتشغيله قبل أي أمر `apt` آخر):
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-add-repository (ไทย)
 description: "ควบคุมและจัดการที่อยู่ของคลัง APT."
-content_hash: eb8e3ac05ab68a0ef5c4e69314fcfa10bfb91604
-last_modified_at: 2024-03-14
+content_hash: aa513d76d013786458d1350dc1c670572ffdc5ad
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-add-repository.html
@@ -26,6 +26,9 @@ related_topics:
   - title: polski version
     url: /pl/linux/apt-add-repository.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-add-repository.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-add-repository.html
     icon: bi bi-globe
@@ -34,7 +37,7 @@ tldri18n_status: 2
 # apt-add-repository
 
 ควบคุมและจัดการที่อยู่ของคลัง APT.
-ข้อมูลเพิ่มเติม: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>
+ข้อมูลเพิ่มเติม: <https://manned.org/apt-add-repository.1>
 
 - เพิ่มที่หมายของคลัง APT:
 

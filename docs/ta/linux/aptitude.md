@@ -2,8 +2,8 @@
 layout: page
 title: linux/aptitude (தமிழ்)
 description: "டெபியன் மற்றும் உபுண்டு தொகுப்பு மேலாண்மை பயன்பாடு."
-content_hash: 20792ecd236167c52d9ecc2de3a40c89ef21a202
-last_modified_at: 2023-11-12
+content_hash: 7cc756e55c1779cef013e4a51e6d47449d33ec54
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # aptitude
 
 டெபியன் மற்றும் உபுண்டு தொகுப்பு மேலாண்மை பயன்பாடு.
-மேலும் விவரத்திற்கு: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+மேலும் விவரத்திற்கு: <https://manned.org/aptitude.8>.
 
 - கிடைக்கும் தொகுப்புகள் மற்றும் பதிப்புகளின் பட்டியலை ஒத்திசைக்கவும். அடுத்தடுத்த `aptitude` கட்டளைகளை இயக்கும் முன், இதை முதலில் இயக்க வேண்டும்:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enmod (català)
 description: "Activa un mòdul d'Apache en sistemes operatius basats en Debian."
-content_hash: ab64c66a764f3298cbed12e903ba663f17a3fcfa
-last_modified_at: 2023-11-12
+content_hash: 85d8a48f6b97de3edb0311e9baf999cea84a4b56
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/a2enmod.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2enmod
 
 Activa un mòdul d'Apache en sistemes operatius basats en Debian.
-Més informació: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
+Més informació: <https://manned.org/a2enmod.8>.
 
 - Activa un mòdul:
 

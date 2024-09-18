@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg (हिन्दी)
 description: "डेबियन पैकेज प्रबंधक।"
-content_hash: ce806187e85c4209c21a1c1cd179647df12691f9
-last_modified_at: 2023-11-12
+content_hash: 2753a2a54fbb34daa72dbc970edd66c385f3df32
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 डेबियन पैकेज प्रबंधक।
 कुछ उपकमांड जैसे `dpkg deb` के अपने स्वयं के उपयोग दस्तावेज़ हैं।
 अन्य पैकेज प्रबंधकों में समकक्ष कमांड के लिए, देखें <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-अधिक जानकारी: <https://manpages.debian.org/latest/dpkg/dpkg.html>।
+अधिक जानकारी: <https://manned.org/dpkg>।
 
 - एक पैकेज इनस्टॉल करें:
 

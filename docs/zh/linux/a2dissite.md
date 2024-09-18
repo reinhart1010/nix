@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dissite (中文)
 description: "在基于 Debian 的操作系统上禁用 Apache 虚拟主机。"
-content_hash: 55c05d59823da126f6750687a9fd1d00bdd592cf
-last_modified_at: 2023-11-12
+content_hash: 0912b46285dcfe776eca26d3c59f6c0ac9433703
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2dissite.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dissite
 
 在基于 Debian 的操作系统上禁用 Apache 虚拟主机。
-更多信息：<https://manpages.debian.org/latest/apache2/a2dissite.8.en.html>.
+更多信息：<https://manned.org/a2dissite.8>.
 
 - 禁用虚拟主机：
 

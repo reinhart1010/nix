@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2disconf (polski)
 description: "Wyłącz plik konfiguracyjny Apache w systemach opartych na Debianie."
-content_hash: a1cba871a5713395e2eed54be385f5006d382798
-last_modified_at: 2024-05-16
+content_hash: e65ec1c7ca2dad773698b6d4795a67ab2056bd17
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2disconf.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # a2disconf
 
 Wyłącz plik konfiguracyjny Apache w systemach opartych na Debianie.
-Więcej informacji: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.
+Więcej informacji: <https://manned.org/a2disconf.8>.
 
 - Wyłącz plik konfiguracyjny:
 

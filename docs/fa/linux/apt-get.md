@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (فارسی)
 description: "ابزار مدیریت بسته‌های دبیان و اوبونتو."
-content_hash: a092fda3c6a7e13ed6fbe078c91be9a67ff20027
-last_modified_at: 2024-01-05
+content_hash: 9759301058cdb16e3f1a1d3eb953796ebc724be9
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 ابزار مدیریت بسته‌های دبیان و اوبونتو.
 جستجو در بسته‌ها با استفاده از `apt-cache`.
-اطلاعات بیشتر: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+اطلاعات بیشتر: <https://manned.org/apt-get.8>.
 
 - به‌روز‌رسانی لیست بسته‌ها و نسخه‌های موجود (توصیه می‌شود که این دستور را قبل از دیگر دستورات `apt-get` اجرا کنید):
 

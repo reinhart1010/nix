@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-add-repository (English)
 description: "Manage `apt` repository definitions."
-content_hash: 2aae09333c7b9cb29a72a7a45dd1bcc3dea53422
-last_modified_at: 2024-04-18
+content_hash: 85e09ac4af0df3c42f5bc2d0d8d24f78bfd3c5a7
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-add-repository.html
@@ -26,6 +26,9 @@ related_topics:
   - title: ไทย version
     url: /th/linux/apt-add-repository.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-add-repository.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-add-repository.html
     icon: bi bi-globe
@@ -34,7 +37,7 @@ tldri18n_status: 2
 # apt-add-repository
 
 Manage `apt` repository definitions.
-More information: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
+More information: <https://manned.org/apt-add-repository.1>.
 
 - Add a new `apt` repository:
 

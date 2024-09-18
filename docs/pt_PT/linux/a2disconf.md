@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2disconf (português (Portugal))
 description: "Desactiva um ficheiro de configuração do Apache em distribuições baseadas em Debian."
-content_hash: a4dbd96139b4c36fb2ae8dc2df9e9ce28fa42ab4
-last_modified_at: 2023-11-12
+content_hash: 9d18c9ea0bd1f22a90a0b8659feeb878ad0ff4df
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2disconf.html
@@ -23,6 +23,9 @@ related_topics:
   - title: italiano version
     url: /it/linux/a2disconf.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/a2disconf.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/a2disconf.html
     icon: bi bi-globe
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # a2disconf
 
 Desactiva um ficheiro de configuração do Apache em distribuições baseadas em Debian.
-Mais informações: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.
+Mais informações: <https://manned.org/a2disconf.8>.
 
 - Desactiva um ficheiro de configuração:
 

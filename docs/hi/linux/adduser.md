@@ -2,8 +2,8 @@
 layout: page
 title: linux/adduser (हिन्दी)
 description: "उपयोगकर्ता जोड़ने की उपयोगिता।"
-content_hash: f191fdbfaaa946e900434b815cc268db9b8ed638
-last_modified_at: 2023-11-12
+content_hash: 0c913d4ee9612c52761c1ff72905d05f9a37b392
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -20,11 +20,17 @@ related_topics:
   - title: français version
     url: /fr/linux/adduser.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/adduser.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/adduser.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/adduser.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/adduser.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/adduser.html
@@ -34,7 +40,7 @@ tldri18n_status: 2
 # adduser
 
 उपयोगकर्ता जोड़ने की उपयोगिता।
-अधिक जानकारी: <https://manpages.debian.org/latest/adduser/adduser.html>।
+अधिक जानकारी: <https://manned.org/adduser>।
 
 - डिफ़ॉल्ट होम निर्देशिका के साथ एक नया उपयोगकर्ता बनाएं और उपयोगकर्ता को पासवर्ड सेट करने के लिए संकेत दें:
 

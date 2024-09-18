@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2ensite (Türkçe)
 description: "Debian tabanlı işletim sistemlerinde Apache sanal hostu etkinleştir."
-content_hash: 96d5c1ce1487e9ed614e25761927b83ae82df079
-last_modified_at: 2023-11-12
+content_hash: c0ad61b2f49646a6be8e61214d2262fa3a631708
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2ensite.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2ensite.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/a2ensite.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/a2ensite.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # a2ensite
 
 Debian tabanlı işletim sistemlerinde Apache sanal hostu etkinleştir.
-Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
+Daha fazla bilgi için: <https://manned.org/a2ensite.8>.
 
 - Bir sanal hostu etkinleştir:
 

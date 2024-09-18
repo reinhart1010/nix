@@ -2,8 +2,8 @@
 layout: page
 title: linux/aptitude (中文)
 description: "Debian 和 Ubuntu 上的软件包管理工具。"
-content_hash: fda94468c39290eb6e733bbdb6ea222f3009815d
-last_modified_at: 2023-11-12
+content_hash: f8073fa8a05bf06e02c3f38c11f746cf39fba388
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # aptitude
 
 Debian 和 Ubuntu 上的软件包管理工具。
-更多信息：<https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+更多信息：<https://manned.org/aptitude.8>.
 
 - 同步可用软件包及其版本列表，在运行后续 aptitude 命令前，应该首先运行该命令：
 

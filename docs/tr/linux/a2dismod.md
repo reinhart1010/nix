@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dismod (Türkçe)
 description: "Debian tabanlı işletim sistemlerinde bir Apache modülünü devre dışı bırak."
-content_hash: 1c3714f340611e16f2a79c0910bf2f4c1f8160ce
-last_modified_at: 2023-11-12
+content_hash: 0cbacdbef77429f33c002038621a7f8a9961c1b1
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2dismod.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2dismod
 
 Debian tabanlı işletim sistemlerinde bir Apache modülünü devre dışı bırak.
-Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2dismod.8.en.html>.
+Daha fazla bilgi için: <https://manned.org/a2dismod.8>.
 
 - Bir modülü devre dışı bırak:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg-reconfigure (українська)
 description: "Змінює конфігурацію вже встановленого пакету."
-content_hash: 98386b2a5cc32fb6040206a900647aee1303be4c
-last_modified_at: 2023-11-12
+content_hash: 2b355de2b711bf3d88a98e94a6847522f4693335
+last_modified_at: 2024-09-18
 related_topics:
   - title: English version
     url: /en/linux/dpkg-reconfigure.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # dpkg-reconfigure
 
 Змінює конфігурацію вже встановленого пакету.
-Більше інформації: <https://manpages.debian.org/latest/debconf/dpkg-reconfigure.8.html>.
+Більше інформації: <https://manned.org/dpkg-reconfigure.8>.
 
 - Змінити конфігурацію одного або декількох пакетів:
 

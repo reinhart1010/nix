@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (italiano)
 description: "Servizio di gestione dei pacchetti per distribuzioni basate su Debian."
-content_hash: d9c64711fe5430b662327ea3ad66366195c36a2d
-last_modified_at: 2023-11-12
+content_hash: 5b7717d500f8590b06244cfc118f4f53611f4838
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -68,7 +68,7 @@ tldri18n_status: 2
 
 Servizio di gestione dei pacchetti per distribuzioni basate su Debian.
 Rimpiazzo raccomandato di `apt-get` quando usato interattivamente su Ubuntu 16.04 e versioni successive.
-Maggiori informazioni: <https://manpages.debian.org/latest/apt/apt.8.html>.
+Maggiori informazioni: <https://manned.org/apt.8>.
 
 - Aggiorna la lista dei pacchetti e delle loro versioni disponibili (è consigliato eseguire questo comando prima di altri comandi `apt`):
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-cache (italiano)
 description: "Strumenti di Debian e Ubuntu per richiedere informazioni sui pacchetti."
-content_hash: aa72e6e28cc9fd314505c66adb160dc87d7afc22
-last_modified_at: 2023-11-12
+content_hash: 4314310b72eade4d381ccaf63cc4f2ab47a8d8cd
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-cache.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-cache.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-cache.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/apt-cache.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # apt-cache
 
 Strumenti di Debian e Ubuntu per richiedere informazioni sui pacchetti.
-Maggiori informazioni: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
+Maggiori informazioni: <https://manned.org/apt-cache.8>.
 
 - Cerca un pacchetto nelle sorgenti attuali:
 

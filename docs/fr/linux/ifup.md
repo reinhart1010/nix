@@ -2,8 +2,8 @@
 layout: page
 title: linux/ifup (français)
 description: "Outil utilisé pour activer des interfaces réseau."
-content_hash: de414808fd6188a6aaacd2917c062a130877ac3c
-last_modified_at: 2023-11-12
+content_hash: 189545db1274b60536083d66bde422cf0fa53b41
+last_modified_at: 2024-09-18
 related_topics:
   - title: English version
     url: /en/linux/ifup.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # ifup
 
 Outil utilisé pour activer des interfaces réseau.
-Plus d'informations : <https://manpages.debian.org/latest/ifupdown/ifup.8.html>.
+Plus d'informations : <https://manned.org/ifup.8>.
 
 - Active l'interface eth0 :
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-mark (italiano)
 description: "Servizio per cambiare lo stato di un pacchetto installato."
-content_hash: ed80bda94cf1e923db97104440fb5dafa300068d
-last_modified_at: 2023-11-12
+content_hash: 9bb5c7f5e578717079b3bb53c8b8c0354959fe53
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-mark.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # apt-mark
 
 Servizio per cambiare lo stato di un pacchetto installato.
-Maggiori informazioni: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
+Maggiori informazioni: <https://manned.org/apt-mark.8>.
 
 - Contrassegna un pacchetto come installato automaticamente:
 

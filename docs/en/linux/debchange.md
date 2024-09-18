@@ -2,14 +2,14 @@
 layout: page
 title: linux/debchange (English)
 description: "Mantain the debian/changelog file of a Debian source package."
-content_hash: 8b275ccf2a9ff4c9f8e8bbf3005eefb27f62e402
-last_modified_at: 2024-02-15
+content_hash: 698319134fc860d6e6d6375f17f83bcff8a9544d
+last_modified_at: 2024-09-18
 tldri18n_status: 2
 ---
 # debchange
 
 Mantain the debian/changelog file of a Debian source package.
-More information: <https://manpages.debian.org/latest/devscripts/debchange.1.en.html>.
+More information: <https://manned.org/debchange.1>.
 
 - Add a new version for a non-maintainer upload to the changelog:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enconf (中文)
 description: "在基于 Debian 的操作系统上启用 Apache 配置文件。"
-content_hash: e0151e1c329ad200348e20c238c1ca1a510940d3
-last_modified_at: 2023-11-12
+content_hash: 297a3be8b873ebaa72d75ce129807d1eee50afa6
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2enconf.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2enconf
 
 在基于 Debian 的操作系统上启用 Apache 配置文件。
-更多信息：<https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
+更多信息：<https://manned.org/a2enconf.8>.
 
 - 启用配置文件：
 

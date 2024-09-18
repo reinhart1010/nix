@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-mark (español)
 description: "Herramienta para cambiar el estado de los paquetes instalados."
-content_hash: 7bad554403d238c832345e22e7d79aa62d09e0e5
-last_modified_at: 2023-11-12
+content_hash: 1271d64c5ce324ce25c3776cb62ff9fb09c303f3
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-mark.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # apt-mark
 
 Herramienta para cambiar el estado de los paquetes instalados.
-Más información: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
+Más información: <https://manned.org/apt-mark.8>.
 
 - Marca un paquete como instalado automáticamente:
 

@@ -2,14 +2,14 @@
 layout: page
 title: linux/dphys-swapfile (English)
 description: "Manage the swap file on Debian-based Linux systems."
-content_hash: 7834d3bc462582abeffb18345ebb5fd005454e2c
-last_modified_at: 2023-11-12
+content_hash: 07938194dabed2ecf495c17ecb4b5d765e558b84
+last_modified_at: 2024-09-18
 tldri18n_status: 2
 ---
 # dphys-swapfile
 
 Manage the swap file on Debian-based Linux systems.
-More information: <https://manpages.debian.org/latest/dphys-swapfile/dphys-swapfile.html>.
+More information: <https://manned.org/dphys-swapfile>.
 
 - Disable the swap file:
 

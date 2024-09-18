@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (українська)
 description: "Утиліта керування пакетами Debian і Ubuntu."
-content_hash: 795d9b61c17a7845a28568ba2050c3f0faa592c2
-last_modified_at: 2023-11-12
+content_hash: 4ee9895213b4db7471e23235d872c2556bb873b9
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 Утиліта керування пакетами Debian і Ubuntu.
 Шукати пакети за допомогою `apt-cache`.
-Більше інформації: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+Більше інформації: <https://manned.org/apt-get.8>.
 
 - Оновити список доступних пакетів і версій (рекомендується запускати це перед іншими командами `apt-get`):
 

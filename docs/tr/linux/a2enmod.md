@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enmod (Türkçe)
 description: "Debian tabanlı işletim sistemlerinde Apache modülünü etkinleştir."
-content_hash: 17bcf3528920b26a3349031f7d269ed8c81a282e
-last_modified_at: 2023-11-12
+content_hash: 7525dbd37a711dc44241ce9e8470908fbf778b74
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/a2enmod.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # a2enmod
 
 Debian tabanlı işletim sistemlerinde Apache modülünü etkinleştir.
-Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
+Daha fazla bilgi için: <https://manned.org/a2enmod.8>.
 
 - Bir modülü etkinleştir:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-key (polski)
 description: "Narzędzie do zarządzania kluczami menedżera pakietów APT dla Debiana i Ubuntu."
-content_hash: 788e664003014b95ad20c37cd28bad0d3d979507
-last_modified_at: 2024-03-14
+content_hash: 047eae4c02a93b58f6b30e405abbcb1bfe998042
+last_modified_at: 2024-09-18
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -23,6 +23,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-key.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-key.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-key.html
     icon: bi bi-globe
@@ -32,7 +35,7 @@ tldri18n_status: 2
 
 Narzędzie do zarządzania kluczami menedżera pakietów APT dla Debiana i Ubuntu.
 Notatka: `apt-key` jest aktualnie przestarzały (za wyjątkiem użycia `apt-key del` w skryptach opiekunów).
-Więcej informacji: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
+Więcej informacji: <https://manned.org/apt-key.8>.
 
 - Wyświetl zaufane klucze:
 

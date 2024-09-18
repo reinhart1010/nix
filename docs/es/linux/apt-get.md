@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (español)
 description: "Utilidad de gestión de paquetes para Debian y Ubuntu."
-content_hash: 8f0998f9a1efb09b81fb157284a706269cf694d6
-last_modified_at: 2023-12-25
+content_hash: 8551f1d5809e3dabeec42dfb6cebf05995a81657
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 Utilidad de gestión de paquetes para Debian y Ubuntu.
 Búsqueda de paquetes mediante `apt-cache`.
-Más información: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+Más información: <https://manned.org/apt-get.8>.
 
 - Actualiza la lista de paquetes y versiones disponibles (se recomienda ejecutar esto antes de otros comandos `apt-get`):
 

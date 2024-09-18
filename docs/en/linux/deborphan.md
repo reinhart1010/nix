@@ -2,14 +2,14 @@
 layout: page
 title: linux/deborphan (English)
 description: "Display orphan packages on operating systems using the APT package manager."
-content_hash: 53300da01e426beb732e693bf5fab558a201f054
-last_modified_at: 2023-11-12
+content_hash: 420810b3e85146a3f883a72668e6e064c154cabd
+last_modified_at: 2024-09-18
 tldri18n_status: 2
 ---
 # deborphan
 
 Display orphan packages on operating systems using the APT package manager.
-More information: <https://manpages.debian.org/latest/deborphan/deborphan.html>.
+More information: <https://manned.org/deborphan>.
 
 - Display library packages (from the "libs" section of the package repository) which are not required by another package:
 

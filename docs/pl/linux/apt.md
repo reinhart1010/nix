@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (polski)
 description: "Narzędzie do zarządzania pakietami dla dystrybucji bazujących na Debianie."
-content_hash: 10653c2a07c4e208b25fbae9e5ec67979d7c1988
-last_modified_at: 2023-11-12
+content_hash: 0f9046ff49ff89d19d403105eeeb67077685fbc5
+last_modified_at: 2024-09-18
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -69,7 +69,7 @@ tldri18n_status: 2
 Narzędzie do zarządzania pakietami dla dystrybucji bazujących na Debianie.
 Zalecany zamiennik `apt-get` przy użyciu interaktywnym w Ubuntu w wersjach 16.04 i wyższych.
 Odpowiednie polecenia dla innych menedżerów pakietów: <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-Więcej informacji: <https://manpages.debian.org/latest/apt/apt.8.html>.
+Więcej informacji: <https://manned.org/apt.8>.
 
 - Zaktualizuj listę dostępnych pakietów i ich wersji (zaleca się uruchomienie tego przed innymi poleceniami `apt`):
 
