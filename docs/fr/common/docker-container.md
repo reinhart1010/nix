@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-container (français)
 description: "Gère les conteneurs Docker."
-content_hash: b8310fb9c3d4f4ba2563f1bce0da99f58cc4ed9d
-last_modified_at: 2023-11-12
+content_hash: eb3bf0415d029855e488d3d0a19bb4e6977f091e
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-container.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker container
 
 Gère les conteneurs Docker.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/container/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/>.
 
 - Liste les conteneurs Dockers en cours d'exécution :
 

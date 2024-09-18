@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-container (português (Brasil))
 description: "Gerenciar contêineres Docker."
-content_hash: 73990d499a92de41e24c569379ce54234ce56986
-last_modified_at: 2023-12-28
+content_hash: 6c978d7130c4e596cd38a8b75d3ce37f14838c3a
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-container.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker container
 
 Gerenciar contêineres Docker.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/container/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/container/>.
 
 - Lista os contêineres Docker em execução:
 

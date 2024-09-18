@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-container (Deutsch)
 description: "Verwalte Docker Container."
-content_hash: 80cf6c2db9f567e966be5183047ec587249e872b
-last_modified_at: 2023-11-12
+content_hash: 155a84b292f708d2072c8ad7b7037bf3848eb98b
+last_modified_at: 2024-09-18
 related_topics:
   - title: English version
     url: /en/common/docker-container.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker container
 
 Verwalte Docker Container.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/container/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/>.
 
 - Liste zur Zeit laufende Container auf:
 

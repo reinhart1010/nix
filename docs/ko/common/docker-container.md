@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-container (한국어)
 description: "도커 컨테이너들을 관리한다."
-content_hash: 2b0b2201efb3476b4343be28a2ad4aef96651010
-last_modified_at: 2023-11-12
+content_hash: bf77995fb791182fc0285dada4912aca5ef2f2d6
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-container.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker container
 
 도커 컨테이너들을 관리한다.
-더 많은 정보: <https://docs.docker.com/engine/reference/commandline/container/>.
+더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/>.
 
 - 현재 실행중인 도커 컨테이너들의 목록:
 

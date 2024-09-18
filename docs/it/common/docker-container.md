@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-container (italiano)
 description: "Gestisci container Docker."
-content_hash: 3efb972f8fd43f153828421e9cf8f88eac519535
-last_modified_at: 2023-11-12
+content_hash: 723e9ec74513e9ea25643c125ab16d89d43eb8c1
+last_modified_at: 2024-09-18
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-container.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker container
 
 Gestisci container Docker.
-Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/container/>.
+Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/container/>.
 
 - Elenca i container Docker attualmente in esecuzione:
 
