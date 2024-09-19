@@ -2,14 +2,24 @@
 layout: page
 title: netbsd/df (English)
 description: "Display an overview of the filesystem disk space usage."
-content_hash: a808bff675772d0ff725ceadf4a080487d4c2dab
-last_modified_at: 2024-01-08
+content_hash: 784cd27116d0ba12547bf3c3b6e687ff06a22388
+last_modified_at: 2024-09-19
+related_topics:
+  - title: español version
+    url: /es/netbsd/df.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/netbsd/df.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/netbsd/df.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # df
 
 Display an overview of the filesystem disk space usage.
-More information: <https://man.netbsd.org/NetBSD-9.3/df.1>.
+More information: <https://man.netbsd.org/df.1>.
 
 - Display all filesystems and their disk usage using 512-byte units:
 

@@ -2,18 +2,24 @@
 layout: page
 title: netbsd/df (Nederlands)
 description: "Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte."
-content_hash: b62c9820cf897f60b2efaf9ebd023269fa246a21
-last_modified_at: 2024-01-09
+content_hash: 9f16db59dd17c9228e4abf9597db1973bedb1653
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/netbsd/df.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/netbsd/df.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/netbsd/df.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # df
 
 Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte.
-Meer informatie: <https://man.netbsd.org/NetBSD-9.3/df.1>.
+Meer informatie: <https://man.netbsd.org/df.1>.
 
 - Toon alle bestandssystemen en hun schijfgebruik met behulp van 512-byte eenheden:
 

@@ -2,11 +2,14 @@
 layout: page
 title: netbsd/chpass (Nederlands)
 description: "Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord."
-content_hash: 9b3c966d94158a55934df84eeba860abc31795d6
-last_modified_at: 2024-05-10
+content_hash: 1ad22cf13daf388b9cfdecb278822984874b75ab
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/netbsd/chpass.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/netbsd/chpass.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +17,7 @@ tldri18n_status: 2
 
 Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
 Bekijk ook: `passwd`.
-Meer informatie: <https://man.openbsd.org/chsh>.
+Meer informatie: <https://man.netbsd.org/chsh>.
 
 - Stel interactief een specifieke login shell in voor de huidige gebruiker:
 

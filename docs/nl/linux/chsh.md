@@ -2,8 +2,8 @@
 layout: page
 title: linux/chsh (Nederlands)
 description: "Verander de login shell van een gebruiker."
-content_hash: aa218566de6d39210f92534b7b17f203ba2f9c54
-last_modified_at: 2024-08-14
+content_hash: 3c1f44b562d6ef106e0fb9d1755bec8767302ae2
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/linux/chsh.html
@@ -18,11 +18,11 @@ Meer informatie: <https://manned.org/chsh>.
 
 - Stel een specifieke login shell interactief in voor de huidige gebruiker:
 
-`sudo chsh`
+`chsh`
 
 - Stel een specifieke login[s]hell in voor de huidige gebruiker:
 
-`sudo chsh --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span>
+`chsh --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span>
 
 - Stel een login[s]hell in voor een specifieke gebruiker:
 
@@ -30,4 +30,4 @@ Meer informatie: <https://manned.org/chsh>.
 
 - Toon ([l]) beschikbare shells:
 
-`sudo chsh --list-shells`
+`chsh --list-shells`

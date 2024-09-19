@@ -2,15 +2,22 @@
 layout: page
 title: netbsd/chpass (English)
 description: "Add or change user database information, including login shell and password."
-content_hash: 2adec823fdeddc2b5bf2c351a3848e0491850f98
-last_modified_at: 2024-02-05
+content_hash: bc68941bed6a9f92c4a52d8d6f3adf68ce164de1
+last_modified_at: 2024-09-19
+related_topics:
+  - title: 한국어 version
+    url: /ko/netbsd/chpass.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/netbsd/chpass.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # chpass
 
 Add or change user database information, including login shell and password.
 See also: `passwd`.
-More information: <https://man.openbsd.org/chsh>.
+More information: <https://man.netbsd.org/chsh>.
 
 - Set a specific login shell for the current user interactively:
 

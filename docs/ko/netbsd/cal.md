@@ -2,8 +2,8 @@
 layout: page
 title: netbsd/cal (한국어)
 description: "달력을 표시합니다."
-content_hash: 0a0d386341252c90f0486f6c0a4a7624ca715358
-last_modified_at: 2024-06-24
+content_hash: 613e45779f5b30cb419d66c321d4261c50566b0b
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/netbsd/cal.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # cal
 
 달력을 표시합니다.
-더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?cal>.
+더 많은 정보: <https://man.netbsd.org/cal.1>.
 
 - 현재 월의 달력 표시:
 

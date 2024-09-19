@@ -2,21 +2,30 @@
 layout: page
 title: freebsd/pkg (Indonesia)
 description: "Manajer paket untuk FreeBSD."
-content_hash: 0283d029134d987349793f4cf8101e134f731c06
-last_modified_at: 2023-11-26
+content_hash: 0f10a78366911d3a9d18684d381eeaf4b4596806
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/freebsd/pkg.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/freebsd/pkg.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/freebsd/pkg.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/freebsd/pkg.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/freebsd/pkg.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pkg
 
 Manajer paket untuk FreeBSD.
-Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?query=pkg&sektion=8>.
+Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?pkg>.
 
 - Pasang sebuah paket:
 

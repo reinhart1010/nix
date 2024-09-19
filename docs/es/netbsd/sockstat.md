@@ -2,11 +2,17 @@
 layout: page
 title: netbsd/sockstat (español)
 description: "Lista sockets abiertos de Internet o dominios UNIX."
-content_hash: aa4176a21a15fdaceb55ad3eeae5fc95fdc5ad92
-last_modified_at: 2024-02-04
+content_hash: fedb1cf4e3c618406cca5fb9b07954af2b3509f8
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/netbsd/sockstat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/netbsd/sockstat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/netbsd/sockstat.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -15,7 +21,7 @@ tldri18n_status: 2
 Lista sockets abiertos de Internet o dominios UNIX.
 Nota: este programa es una reescritura para NetBSD 3.0 de `sockstat` de FreeBSD.
 Vea también: `netstat`.
-Más información: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
+Más información: <https://man.netbsd.org/sockstat.1>.
 
 - Muestra información de sockets IPv4, IPv6 y Unix que estén escuchando y conectados:
 

@@ -2,14 +2,21 @@
 layout: page
 title: netbsd/cal (English)
 description: "Display a calendar."
-content_hash: 6f3776d89fb72068ad8d67e26cf4a001d6775899
-last_modified_at: 2024-02-15
+content_hash: e9738d6042c142687e86416a74cc0649c031e72f
+last_modified_at: 2024-09-19
+related_topics:
+  - title: 한국어 version
+    url: /ko/netbsd/cal.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/netbsd/cal.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # cal
 
 Display a calendar.
-More information: <https://man.freebsd.org/cgi/man.cgi?cal>.
+More information: <https://man.netbsd.org/cal.1>.
 
 - Display a calendar for the current month:
 

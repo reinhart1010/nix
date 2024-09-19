@@ -2,8 +2,8 @@
 layout: page
 title: freebsd/pkg (한국어)
 description: "FreeBSD 패키지 관리자입니다."
-content_hash: 21215836348e8b35ea52066677fd324dc72658ae
-last_modified_at: 2024-06-24
+content_hash: e5ba5095a7f1bd9b07865b8bdc1069d03e2772c9
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/freebsd/pkg.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # pkg
 
 FreeBSD 패키지 관리자입니다.
-더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?query=pkg&sektion=8>.
+더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?pkg>.
 
 - 새 패키지 설치:
 

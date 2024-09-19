@@ -2,18 +2,21 @@
 layout: page
 title: netbsd/cal (Nederlands)
 description: "Toon een kalender."
-content_hash: 7ea8be9ee11f03997afe4af44dbabd943f0321f7
-last_modified_at: 2024-06-13
+content_hash: 1946c2b48276a5b4bb788a694fa177f63fee5311
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/netbsd/cal.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/netbsd/cal.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # cal
 
 Toon een kalender.
-Meer informatie: <https://man.freebsd.org/cgi/man.cgi?cal>.
+Meer informatie: <https://man.netbsd.org/cal.1>.
 
 - Toon een kalender voor de huidige maand:
 

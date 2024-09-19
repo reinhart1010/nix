@@ -2,14 +2,17 @@
 layout: page
 title: freebsd/pkg (español)
 description: "Gestor de paquetes de FreeBSD."
-content_hash: 3a785498e6b2804191fcf1720a9222efee56721d
-last_modified_at: 2024-02-07
+content_hash: 94f30ebe0cb5bc8e9e6703a724aa6726051d166a
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/freebsd/pkg.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/freebsd/pkg.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/freebsd/pkg.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/freebsd/pkg.html
@@ -22,7 +25,7 @@ tldri18n_status: 2
 # pkg
 
 Gestor de paquetes de FreeBSD.
-Más información: <https://man.freebsd.org/cgi/man.cgi?query=pkg&sektion=8>.
+Más información: <https://man.freebsd.org/cgi/man.cgi?pkg>.
 
 - Instala un nuevo paquete:
 

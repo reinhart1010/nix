@@ -2,8 +2,8 @@
 layout: page
 title: netbsd/chpass (한국어)
 description: "사용자 데이터베이스 정보, 로그인 셸 및 비밀번호를 추가하거나 변경합니다."
-content_hash: f99248f4194894bb64ddc1d5be803ea0d85243e0
-last_modified_at: 2024-06-24
+content_hash: a5bc65bb79608bdbffb97c9c7b8b8256f54b54fc
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/netbsd/chpass.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 사용자 데이터베이스 정보, 로그인 셸 및 비밀번호를 추가하거나 변경합니다.
 같이 보기: `passwd`.
-더 많은 정보: <https://man.openbsd.org/chsh>.
+더 많은 정보: <https://man.netbsd.org/chsh>.
 
 - 현재 사용자에게 특정 로그인 셸을 대화식으로 설정:
 

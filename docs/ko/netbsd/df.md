@@ -2,8 +2,8 @@
 layout: page
 title: netbsd/df (한국어)
 description: "파일 시스템 디스크 공간 사용량 개요를 표시합니다."
-content_hash: 9d6c6f41723693ad0a5e5498c24544c98eaecfa9
-last_modified_at: 2024-06-24
+content_hash: cef30488e8ba4e8b0d5f3929b891216aa823341a
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/netbsd/df.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # df
 
 파일 시스템 디스크 공간 사용량 개요를 표시합니다.
-더 많은 정보: <https://man.netbsd.org/NetBSD-9.3/df.1>.
+더 많은 정보: <https://man.netbsd.org/df.1>.
 
 - 512바이트 단위로 모든 파일 시스템과 디스크 사용량 표시:
 

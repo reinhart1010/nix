@@ -2,11 +2,14 @@
 layout: page
 title: netbsd/df (español)
 description: "Muestra una visión general del uso del espacio en disco del sistema de archivos."
-content_hash: d00a626b211175faff70388dbeba9a899b8014b3
-last_modified_at: 2024-02-26
+content_hash: 55b5800887367388e069a49697ebe0088288feba
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/netbsd/df.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/netbsd/df.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/netbsd/df.html
@@ -16,7 +19,7 @@ tldri18n_status: 2
 # df
 
 Muestra una visión general del uso del espacio en disco del sistema de archivos.
-Más información: <https://man.netbsd.org/NetBSD-9.3/df.1>.
+Más información: <https://man.netbsd.org/df.1>.
 
 - Muestra todos los sistemas de ficheros y su uso de disco usando unidades de 512 bytes:
 

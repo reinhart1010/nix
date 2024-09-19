@@ -2,14 +2,17 @@
 layout: page
 title: netbsd/sockstat (Nederlands)
 description: "Toon open Internet- of UNIX-domeinsockets."
-content_hash: 3cfd7b8e21c146aa91f322060cca2aee8c5fda2e
-last_modified_at: 2024-06-14
+content_hash: f34daff4c142c948138599be4ea45481d2fdd35a
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/netbsd/sockstat.html
     icon: bi bi-globe
   - title: español version
     url: /es/netbsd/sockstat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/netbsd/sockstat.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -18,7 +21,7 @@ tldri18n_status: 2
 Toon open Internet- of UNIX-domeinsockets.
 Let op: dit programma is hergeschreven voor NetBSD 3.0 van FreeBSD's `sockstat`.
 Bekijk ook: `netstat`.
-Meer informatie: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
+Meer informatie: <https://man.netbsd.org/sockstat.1>.
 
 - Toon informatie voor IPv4- en IPv6-sockets voor zowel luister- als verbonden sockets:
 
