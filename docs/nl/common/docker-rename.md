@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-rename (Nederlands)
 description: "Hernoem een container."
-content_hash: 875e64ca6d28b3f4992fd3ed5b674b65ecc61fd7
-last_modified_at: 2024-02-01
+content_hash: 03a3e80217a497fc7e4e7d806f280ff9098171e4
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/common/docker-rename.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # docker rename
 
 Hernoem een container.
-Meer informatie: <https://docs.docker.com/engine/reference/commandline/rename>.
+Meer informatie: <https://docs.docker.com/reference/cli/docker/container/rename/>.
 
 - Hernoem een container:
 

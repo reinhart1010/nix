@@ -2,15 +2,15 @@
 layout: page
 title: linux/setsebool (English)
 description: "Set SELinux boolean value."
-content_hash: 45343d73c957bab7e23d0375ca49ec3b9fd6194e
-last_modified_at: 2024-05-27
+content_hash: ad3ae83049057eb23875650cae823a0473bde40e
+last_modified_at: 2024-09-19
 tldri18n_status: 2
 ---
 # setsebool
 
 Set SELinux boolean value.
 See also: `semanage-boolean`, `getsebool`.
-More information: <https://manned.org/man/setsebool>.
+More information: <https://manned.org/setsebool>.
 
 - Show the current setting of [a]ll booleans:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/torify (español)
 description: "Enruta el tráfico de red a través de la red Tor."
-content_hash: 1935a6dad86dcae39806c82fa796eb7e97ccde24
-last_modified_at: 2024-05-30
+content_hash: 60091c0f2675b095f7cc78f179d6c983f8d7d226
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/linux/torify.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Enruta el tráfico de red a través de la red Tor.
 Nota: Este comando está desfasado, y ahora es un empaquetador compatible con versiones anteriores de `torsocks`.
-Más información: <https://manned.org/man/torify>.
+Más información: <https://manned.org/torify>.
 
 - Enruta el tráfico a través de Tor:
 

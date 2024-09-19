@@ -2,15 +2,19 @@
 layout: page
 title: linux/semanage-port (English)
 description: "Manage persistent SELinux port definitions."
-content_hash: d35455ce9f2539f2bb47628cfe7344185a3129ed
-last_modified_at: 2024-05-27
+content_hash: 090ed7e0c3b087fa30954f1119194929c7a62584
+last_modified_at: 2024-09-19
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/semanage-port.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # semanage port
 
 Manage persistent SELinux port definitions.
 See also: `semanage`.
-More information: <https://manned.org/man/semanage-port>.
+More information: <https://manned.org/semanage-port>.
 
 - List all port labeling rules:
 

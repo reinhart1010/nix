@@ -2,8 +2,12 @@
 layout: page
 title: linux/semanage-permissive (English)
 description: "Manage persistent SELinux permissive domains."
-content_hash: 14f799aba45f6a2aed3bdb94fdaaa19b22da0f2f
-last_modified_at: 2024-05-27
+content_hash: 58630fa1de07837aafd2239cc326d1d6d531f0e2
+last_modified_at: 2024-09-19
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/semanage-permissive.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # semanage permissive
@@ -11,7 +15,7 @@ tldri18n_status: 2
 Manage persistent SELinux permissive domains.
 Note that this effectively makes the process unconfined. For long-term use, it is recommended to configure SELiunx properly.
 See also: `semanage`, `getenforce`, `setenforce`.
-More information: <https://manned.org/man/semanage-permissive>.
+More information: <https://manned.org/semanage-permissive>.
 
 - List all process types (a.k.a domains) that are in permissive mode:
 

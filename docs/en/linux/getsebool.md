@@ -2,15 +2,15 @@
 layout: page
 title: linux/getsebool (English)
 description: "Get SELinux boolean value."
-content_hash: 95a3c0afbbda2119c5e7fd4d0d09f6ffefdfa15b
-last_modified_at: 2024-05-27
+content_hash: 70638540077b7b3cc2d752d426f837ac0eeb1c9c
+last_modified_at: 2024-09-19
 tldri18n_status: 2
 ---
 # getsebool
 
 Get SELinux boolean value.
 See also: `semanage-boolean`, `setsebool`.
-More information: <https://manned.org/man/getsebool>.
+More information: <https://manned.org/getsebool>.
 
 - Show the current setting of a boolean:
 

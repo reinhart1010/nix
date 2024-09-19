@@ -2,14 +2,21 @@
 layout: page
 title: common/docker-rename (English)
 description: "Rename a container."
-content_hash: f7b4f3218a7fea1139fbcc0bb9768dddaa8f9c4f
-last_modified_at: 2023-11-12
+content_hash: 14430c0b2041e15e2057ad6aa23a389dee4792b2
+last_modified_at: 2024-09-19
+related_topics:
+  - title: français version
+    url: /fr/common/docker-rename.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker-rename.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # docker rename
 
 Rename a container.
-More information: <https://docs.docker.com/engine/reference/commandline/rename>.
+More information: <https://docs.docker.com/reference/cli/docker/container/rename/>.
 
 - Rename a container:
 

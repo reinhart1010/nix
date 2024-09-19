@@ -2,8 +2,8 @@
 layout: page
 title: linux/semanage-permissive (Nederlands)
 description: "Beheer persistente SELinux permissieve domeinen."
-content_hash: 613f2984bd2d433b941f5a891166a454712670a0
-last_modified_at: 2024-06-26
+content_hash: fb2c087fe1b56960f078c1e5558864c7a432241f
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/linux/semanage-permissive.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 Beheer persistente SELinux permissieve domeinen.
 Let op dat dit het proces effectief onbeperkt maakt. Voor langdurig gebruik wordt aanbevolen om SELinux correct te configureren.
 Zie ook: `semanage`, `getenforce`, `setenforce`.
-Meer informatie: <https://manned.org/man/semanage-permissive>.
+Meer informatie: <https://manned.org/semanage-permissive>.
 
 - Toon alle procestypen (ook wel domeinen genoemd) die in permissieve modus zijn:
 

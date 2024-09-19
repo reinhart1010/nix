@@ -2,15 +2,15 @@
 layout: page
 title: linux/matchpathcon (English)
 description: "Lookup the persistent SELinux security context setting of a path."
-content_hash: 2662096d1f9af4d2e9d340b2f7619d4a6a8815bc
-last_modified_at: 2024-05-28
+content_hash: 4d43c7ecb6602fbf0bce5819a51d02652ed103b7
+last_modified_at: 2024-09-19
 tldri18n_status: 2
 ---
 # matchpathcon
 
 Lookup the persistent SELinux security context setting of a path.
 See also: `semanage-fcontext`, `secon`, `chcon`, `restorecon`.
-More information: <https://manned.org/man/matchpathcon.8>.
+More information: <https://manned.org/matchpathcon.8>.
 
 - Lookup the persistent security context setting of an absolute path:
 

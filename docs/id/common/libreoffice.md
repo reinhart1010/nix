@@ -2,8 +2,8 @@
 layout: page
 title: common/libreoffice (Indonesia)
 description: "Antarmuka baris perintah untuk LibreOffice, aplikasi perkantoran mahir dan gratis."
-content_hash: abc8f8dbb38044d6bba2730cda7743779faf159d
-last_modified_at: 2024-09-18
+content_hash: ef1f1e33570981d1b7eade63db52b47e32691764
+last_modified_at: 2024-09-19
 related_topics:
   - title: English version
     url: /en/common/libreoffice.html
@@ -29,4 +29,4 @@ Informasi lebih lanjut: <https://www.libreoffice.org/>.
 
 - Konversi semua berkas `.doc` dalam direktori saat ini menuju PDF:
 
-`libreoffice --convert-to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.doc</span>
+`libreoffice --convert-to pdf *.doc`

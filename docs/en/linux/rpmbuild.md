@@ -2,14 +2,14 @@
 layout: page
 title: linux/rpmbuild (English)
 description: "RPM Package Build tool."
-content_hash: cc357eadfad90792de2e6b8f3a2f3d6648df757f
-last_modified_at: 2024-05-28
+content_hash: 1d2a091131337de9c2fbd849ef781823fb2293d7
+last_modified_at: 2024-09-19
 tldri18n_status: 2
 ---
 # rpmbuild
 
 RPM Package Build tool.
-More information: <https://manned.org/man/rpmbuild>.
+More information: <https://manned.org/rpmbuild>.
 
 - Build binary and source packages:
 

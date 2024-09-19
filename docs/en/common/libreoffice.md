@@ -2,8 +2,8 @@
 layout: page
 title: common/libreoffice (English)
 description: "CLI for the powerful and free office suite LibreOffice."
-content_hash: 0c5ac762e8a6e4a6e584fbba6ccc839f23130a17
-last_modified_at: 2024-09-18
+content_hash: ee5312004ac64f4d3deebc871df4fecb5145d4dd
+last_modified_at: 2024-09-19
 related_topics:
   - title: Indonesia version
     url: /id/common/libreoffice.html
@@ -29,4 +29,4 @@ More information: <https://www.libreoffice.org/>.
 
 - Convert all `.doc` files in current directory to PDF:
 
-`libreoffice --convert-to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.doc</span>
+`libreoffice --convert-to pdf *.doc`
