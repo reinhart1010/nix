@@ -1,44 +1,51 @@
 ---
 layout: page
 title: common/aws-ce (English)
-description: "Analyze and manage access controls and security settings within your Cloud Environment."
-content_hash: 66a9374607c5bcc33fdee3a05199f041e42e2450
-last_modified_at: 2024-08-13
+description: "Run cost management operations through the AWS Cost Explorer service."
+content_hash: 36cd514b55dc1db287725daa5aeff7fe4d5e287f
+last_modified_at: 2024-09-19
+related_topics:
+  - title: español version
+    url: /es/common/aws-ce.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/aws-ce.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
-# aws-ce
+# aws ce
 
-Analyze and manage access controls and security settings within your Cloud Environment.
-More information: <https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html>.
+Run cost management operations through the AWS Cost Explorer service.
+More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html>.
 
-- Create a new Access Control Analyzer:
+- Create anomaly monitor:
 
-`awe-ce create-analyzer --analyzer-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_name</span>` --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span>` --tags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tags</span>
+`aws ce create-anomaly-monitor --monitor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_name</span>` --monitor-type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_type</span>
 
-- Delete an existing Access Control Analyzer:
+- Create anomaly subscription:
 
-`awe-ce delete-analyzer --analyzer-arn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span>
+`aws ce create-anomaly-subscription --subscription `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subscription_name</span>` --monitor-arn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_arn</span>` --subscribers `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subscribers</span>
 
-- Get details of a specific Access Control Analyzer:
+- Get anomalies:
 
-`awe-ce get-analyzer --analyzer-arn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span>
+`aws ce get-anomalies --monitor-arn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_arn</span>` --start-time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start_time</span>` --end-time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">end_time</span>
 
-- List all Access Control Analyzers:
+- Get cost and usage:
 
-`awe-ce list-analyzers`
+`aws ce get-cost-and-usage --time-period `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start_date</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">end_date</span>` --granularity `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">granularity</span>` --metrics `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">metrics</span>
 
-- Update settings of an Access Control Analyzer:
+- Get cost forecast:
 
-`awe-ce update-analyzer --analyzer-arn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span>` --tags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_tags</span>
+`aws ce get-cost-forecast --time-period `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start_date</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">end_date</span>` --granularity `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">granularity</span>` --metric `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">metric</span>
 
-- Create a new Access Control Analyzer archive rule:
+- Get reservation utilization:
 
-`awe-ce create-archive-rule --analyzer-arn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span>` --rule-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_name</span>` --filter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span>
+`aws ce get-reservation-utilization --time-period `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start_date</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">end_date</span>` --granularity `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">granularity</span>
 
-- Delete an Access Control Analyzer archive rule:
+- List cost category definitions:
 
-`awe-ce delete-archive-rule --analyzer-arn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span>` --rule-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_name</span>
+`aws ce list-cost-category-definitions`
 
-- List all Access Control Analyzer archive rules:
+- Tag resource:
 
-`awe-ce list-archive-rules --analyzer-arn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span>
+`aws ce tag-resource --resource-arn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_arn</span>` --tags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tags</span>
