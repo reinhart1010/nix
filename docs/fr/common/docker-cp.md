@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-cp (français)
 description: "Copier des fichiers ou des répertoires entre les systèmes de fichiers hôte et conteneur."
-content_hash: e4257862d8ad4e7c24c04e297cc072d4d4bf6d58
-last_modified_at: 2023-11-12
+content_hash: fe87dd54f0c5953f582172fb147981bc25a10c17
+last_modified_at: 2024-09-20
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-cp.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker cp
 
 Copier des fichiers ou des répertoires entre les systèmes de fichiers hôte et conteneur.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/cp>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/cp/>.
 
 - Copier un fichier ou un répertoire de l'hôte vers un conteneur :
 

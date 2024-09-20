@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-cp (italiano)
 description: "Copia file o directory tra il filesystem di un container e quello locale (host)."
-content_hash: 70af51da6aff6b1418d44800645f19720598aff2
-last_modified_at: 2023-11-12
+content_hash: da39a0e3c9b45793e7b882e44d09d5922df67770
+last_modified_at: 2024-09-20
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-cp.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker cp
 
 Copia file o directory tra il filesystem di un container e quello locale (host).
-Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/cp>.
+Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/container/cp/>.
 
 - Copia un file o una directory dall'host a un container:
 

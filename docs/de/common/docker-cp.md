@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-cp (Deutsch)
 description: "Kopiere Dateien oder Verzeichnisse zwischen Host- und Container-Dateisystem."
-content_hash: e67e0405cda4841fadf500b9e0aad3fa78a13bab
-last_modified_at: 2023-11-12
+content_hash: a074365ad517b5ac9e6edd2ecc640e9f80db3ad5
+last_modified_at: 2024-09-20
 related_topics:
   - title: English version
     url: /en/common/docker-cp.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker cp
 
 Kopiere Dateien oder Verzeichnisse zwischen Host- und Container-Dateisystem.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/cp>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/cp/>.
 
 - Kopiere eine Datei oder ein Verzeichnis vom Host in einen Container:
 

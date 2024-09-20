@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-exec (français)
 description: "Exécute une commande dans un conteneur déjà en cours d'exécution."
-content_hash: 19ecad6ebdea6cd9e1fb1c72caed32b2cd172d52
-last_modified_at: 2023-12-30
+content_hash: 1111c4e87be86864f27fc7ad91bd8696e227c7c8
+last_modified_at: 2024-09-20
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker exec
 
 Exécute une commande dans un conteneur déjà en cours d'exécution.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/exec/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/exec/>.
 
 - Entrer dans un shell interactif dans un conteneur en cours d'exécution :
 

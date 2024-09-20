@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-exec (Deutsch)
 description: "Führe Befehle in einem bereits laufenden Docker Container aus."
-content_hash: 6d836b803c728a6dc9b398d651a7e7b3e6a57fc8
-last_modified_at: 2023-12-30
+content_hash: 1ecccec13784e027e117e0e4b22eefd5f716ce61
+last_modified_at: 2024-09-20
 related_topics:
   - title: English version
     url: /en/common/docker-exec.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker exec
 
 Führe Befehle in einem bereits laufenden Docker Container aus.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/exec/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/exec/>.
 
 - Öffne eine Shell innerhalb eines bereits laufenden Containers:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-exec (English)
 description: "Execute a command on an already running Docker container."
-content_hash: 1ca1d5e3fe0762334abadbb3474a385be2b09deb
-last_modified_at: 2023-12-30
+content_hash: 60385626f99043ee7667e7010b3b2179ab0f5719
+last_modified_at: 2024-09-20
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker exec
 
 Execute a command on an already running Docker container.
-More information: <https://docs.docker.com/engine/reference/commandline/exec/>.
+More information: <https://docs.docker.com/reference/cli/docker/container/exec/>.
 
 - Enter an interactive shell session on an already-running container:
 

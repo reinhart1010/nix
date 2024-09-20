@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-exec (italiano)
 description: "Esegui un comando su un Docker container in esecuzione."
-content_hash: 24ce2c66b868f1916308619a5e1b25c292a7b783
-last_modified_at: 2024-03-10
+content_hash: 5d4759cc0a5d61cfa1b9d46dcfb2c47a45234f6c
+last_modified_at: 2024-09-20
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker exec
 
 Esegui un comando su un Docker container in esecuzione.
-Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/exec/>.
+Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/container/exec/>.
 
 - Avvia una shell interattiva all'interno di un container in esecuzione:
 
