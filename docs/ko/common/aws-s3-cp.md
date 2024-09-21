@@ -1,0 +1,48 @@
+---
+layout: page
+title: common/aws-s3-cp (한국어)
+description: "로컬 파일 또는 S3 객체를 로컬로 또는 S3의 다른 위치로 복사."
+content_hash: 1b46a351475796314926576684ac33bd6696e16c
+last_modified_at: 2024-09-21
+related_topics:
+  - title: English version
+    url: /en/common/aws-s3-cp.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-s3-cp.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-s3-cp.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># aws s3 cp
+
+로컬 파일 또는 S3 객체를 로컬로 또는 S3의 다른 위치로 복사.
+더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html>.
+
+- 로컬에서 특정 버킷으로 파일 복사:
+
+`aws s3 cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>` s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원격_파일</span>
+
+- 특정 S3 객체를 다른 버킷에 복사:
+
+`aws s3 cp s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>` s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름2</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표</span>
+
+- 특정 S3 객체를 원래 이름을 유지하면서, 다른 버킷에 복사:
+
+`aws s3 cp s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름1</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>` s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름2</span>
+
+- S3 객체를 로컬 디렉터리에 재귀적으로 복사:
+
+`aws s3 cp s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span>` . --recursive`
+
+- 도움말 표시:
+
+`aws s3 cp help`

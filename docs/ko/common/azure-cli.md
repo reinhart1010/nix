@@ -1,22 +1,38 @@
 ---
 layout: page
 title: common/azure-cli (한국어)
-description: "이 명령은 `az` 의 에일리어스 (별칭) 입니다."
-content_hash: ee5bdf96276937d6e7d65a22be95017fe81b38c4
-last_modified_at: 2023-11-02
+description: "이 명령은 `az`의 별칭."
+content_hash: 4b99670ce4992c5da796561a41bcc36822b09f0e
+last_modified_at: 2024-09-21
 related_topics:
   - title: English version
     url: /en/common/azure-cli.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/azure-cli.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/azure-cli.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/azure-cli.html
+    icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/azure-cli.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># azure-cli
 
-이 명령은 `az` 의 에일리어스 (별칭) 입니다.
+이 명령은 `az`의 별칭.
 더 많은 정보: <https://learn.microsoft.com/cli/azure>.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- 원래 명령에 대한 문서를 보기:
 
 `tldr az`

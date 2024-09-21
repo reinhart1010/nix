@@ -2,14 +2,14 @@
 layout: page
 title: linux/ceph (English)
 description: "A unified storage system."
-content_hash: eaebc0c93c8e0657ab9ac1c34799eaef9d58bdac
-last_modified_at: 2023-11-12
+content_hash: e4a8017d0df5254f43c9bfeba991e5dd69f17e33
+last_modified_at: 2024-09-21
 tldri18n_status: 2
 ---
 # ceph
 
 A unified storage system.
-More information: <https://ceph.io>.
+More information: <https://ceph.io/en>.
 
 - Check cluster health status:
 

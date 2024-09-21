@@ -1,0 +1,53 @@
+---
+layout: page
+title: common/bash-it (한국어)
+description: "커뮤니티에서 제공한 Bash 3.2+용 Bash 명령 및 스크립트 모음."
+content_hash: 6e651d912fddfd910255a236335ea0f9b991b9b1
+last_modified_at: 2024-09-21
+related_topics:
+  - title: English version
+    url: /en/common/bash-it.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/bash-it.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># bash-it
+
+커뮤니티에서 제공한 Bash 3.2+용 Bash 명령 및 스크립트 모음.
+더 많은 정보: <https://bash-it.readthedocs.io/en/latest/>.
+
+- Bash-it을 최신 안정/개발 버전으로 업데이트:
+
+`bash-it update `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stable|dev</span>
+
+- Bash 프로필 다시 로드 (자동 다시 로드를 위해 `BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE`를 비어있지 않은 값으로 설정):
+
+`bash-it reload`
+
+- Bash 재시작:
+
+`bash-it restart`
+
+- 오류 및 경고 로깅이 활성화된 Bash 프로필을 다시 로드:
+
+`bash-it doctor`
+
+- 오류/경고/전체 로깅이 활성화된 Bash 프로필을 다시 로드:
+
+`bash-it doctor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">errors|warnings|all</span>
+
+- Bash-it 별칭/플러그인/완성 검색:
+
+`bash-it search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alias|plugin|completion</span>
+
+- Bash-it 별칭/플러그인/완성을 검색하고 발견된 모든 항목을 활성화/비활성화:
+
+`bash-it search --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alias|plugin|completion</span>

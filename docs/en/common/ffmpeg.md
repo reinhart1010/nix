@@ -2,8 +2,8 @@
 layout: page
 title: common/ffmpeg (English)
 description: "Video conversion tool."
-content_hash: e5ce0b8c3d29157bfccbc411d2f40874cb8eb427
-last_modified_at: 2024-03-20
+content_hash: 062e507f10e886ac2540b4b203ba4f841ab21b15
+last_modified_at: 2024-09-21
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -42,7 +42,7 @@ More information: <https://ffmpeg.org>.
 
 - Trim a video from a given start time mm:ss to an end time mm2:ss2 (omit the -to flag to trim till the end):
 
-`ffmpeg -ss `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm:ss</span>` -to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm2:ss2</span>` -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_video.mp4</span>` -codec copy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_video.mp4</span>
+`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_video.mp4</span>` -ss `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm:ss</span>` -to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm2:ss2</span>` -codec copy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_video.mp4</span>
 
 - Convert AVI video to MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
 

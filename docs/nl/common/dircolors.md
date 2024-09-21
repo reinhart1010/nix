@@ -2,8 +2,8 @@
 layout: page
 title: common/dircolors (Nederlands)
 description: "Geef commando's weer om de LS_COLOR-omgevingsvariabele in te stellen en style `ls`, `dir` enz."
-content_hash: 0f4599638bd749709e1fee2708520bb99343f35d
-last_modified_at: 2024-09-14
+content_hash: cbbd1e872272fae5bf4f874bcb511d790bb39b60
+last_modified_at: 2024-09-21
 related_topics:
   - title: English version
     url: /en/common/dircolors.html
@@ -27,6 +27,10 @@ Meer informatie: <https://www.gnu.org/software/coreutils/dircolors>.
 - Geef commando's weer om LS_COLOR in te stellen met standaardkleuren:
 
 `dircolors`
+
+- Toon ieder bestandstype met de kleur zoals deze in `ls` getoond zou worden:
+
+`dircolors --print-ls-colors`
 
 - Geef commando's weer om LS_COLOR in te stellen met kleuren uit een bestand:
 

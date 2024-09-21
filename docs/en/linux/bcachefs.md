@@ -2,14 +2,15 @@
 layout: page
 title: linux/bcachefs (English)
 description: "Manage `bcachefs` filesystems/devices."
-content_hash: 555746bdcf4e743066d6ef14c034f0b9b149f06b
-last_modified_at: 2024-08-21
+content_hash: 31160fe2daa010426c686411ace5891375bc7f55
+last_modified_at: 2024-09-21
 tldri18n_status: 2
 ---
 # bcachefs
 
 Manage `bcachefs` filesystems/devices.
-More information: <https://bcachefs.org/bcachefs-principles-of-operation.pdf>.
+Some subcommands such as `device` have their own usage documentation.
+More information: <https://bcachefs-docs.readthedocs.io/en/latest/index.html>.
 
 - Format a partition with `bcachefs`:
 

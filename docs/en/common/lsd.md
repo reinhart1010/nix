@@ -2,8 +2,8 @@
 layout: page
 title: common/lsd (English)
 description: "List directory contents."
-content_hash: ac1b0a0276565439edc11cb478f1e8dc5ca49ff6
-last_modified_at: 2023-11-12
+content_hash: 6841745311b2d5a0e1d2cb8d8612e88512eb5774
+last_modified_at: 2024-09-21
 tldri18n_status: 2
 ---
 # lsd
@@ -20,26 +20,26 @@ More information: <https://github.com/Peltoche/lsd>.
 
 `lsd -a`
 
-- List all files and directories with trailing `/` added to directory names:
+- List files and directories with trailing `/` added to directory names:
 
 `lsd -F`
 
-- List all files and directories in long format (permissions, ownership, size, and modification date):
+- List all files and directories in long format (permissions, ownership, size in human-readable format, and modification date):
 
-`lsd -la`
+`lsd -lha`
 
-- List all files and directories in long format with size displayed using human-readable units (KiB, MiB, GiB):
-
-`lsd -lh`
-
-- List all files and directories in long format, sorted by size (descending):
+- List files and directories in long format, sorted by size (descending):
 
 `lsd -lS`
 
-- List all files and directories in long format, sorted by modification date (oldest first):
+- List files and directories in long format, sorted by modification date (oldest first):
 
 `lsd -ltr`
 
 - Only list directories:
 
 `lsd -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*/</span>
+
+- Recursively list all directories in a tree format:
+
+`lsd --tree -d`

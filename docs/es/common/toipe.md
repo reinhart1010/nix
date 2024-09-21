@@ -2,8 +2,8 @@
 layout: page
 title: common/toipe (español)
 description: "Otra prueba de tipeo, pero con sabor a cangrejo."
-content_hash: 9f8b923aadb672c380fbd7bd51a3f6b79c3cc6a8
-last_modified_at: 2024-06-24
+content_hash: 2f5d96925d4d9a21f481a36013d1a9c38399cd27
+last_modified_at: 2024-09-21
 related_topics:
   - title: English version
     url: /en/common/toipe.html
@@ -28,10 +28,10 @@ Más información: <https://github.com/Samyak2/toipe>.
 
 `toipe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Especifique el número de palabras de cada prueba:
+- Especifica el número de palabras de cada prueba:
 
 `toipe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--num</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_palabras</span>
 
-- Incluya signos de puntuación:
+- Incluye signos de puntuación:
 
 `toipe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--punctuation</span>

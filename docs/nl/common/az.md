@@ -2,8 +2,8 @@
 layout: page
 title: common/az (Nederlands)
 description: "De officiële CLI tool voor Microsoft Azure."
-content_hash: 45a1557df07bfd9b5d461c71a250f12b37c74600
-last_modified_at: 2024-09-14
+content_hash: 289fa94f68e00af5c8c37081820013d5eee71f9f
+last_modified_at: 2024-09-21
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -60,3 +60,11 @@ Meer informatie: <https://learn.microsoft.com/cli/azure>.
 - Beheer Azure Network resources:
 
 `az network`
+
+- Start in interactieve modus:
+
+`az interactive`
+
+- Toon de help:
+
+`az --help`
