@@ -3,23 +3,14 @@ layout: page
 title: common/az-storage-blob (한국어)
 description: "Azure에서 blob 저장소 컨테이너 및 개체를 관리."
 content_hash: 57a2feea92bbd88c8adc1c340046afccf80dcfd9
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/az-storage-blob.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/az-storage-blob.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># az storage blob
+# az storage blob
 
 Azure에서 blob 저장소 컨테이너 및 개체를 관리.
 `azure-cli`의 일부 (`az`라고도 함).

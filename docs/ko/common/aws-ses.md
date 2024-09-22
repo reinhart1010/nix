@@ -3,7 +3,7 @@ layout: page
 title: common/aws-ses (한국어)
 description: "AWS Simple Email Service용 CLI."
 content_hash: 4ce3ab6013dfd4f59868fbca9624753a15b542f5
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/aws-ses.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-ses.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-ses.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws ses
+# aws ses
 
 AWS Simple Email Service용 CLI.
 대규모 인바운드 및 아운바운드 클라우드 이메일 서비스.

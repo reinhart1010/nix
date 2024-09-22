@@ -3,23 +3,14 @@ layout: page
 title: common/brew-upgrade (한국어)
 description: "오래된 formulae 및 casks를 업그레이드."
 content_hash: 58fa7b38d91ecc64b7623e86773c229264821bef
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/brew-upgrade.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/brew-upgrade.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># brew upgrade
+# brew upgrade
 
 오래된 formulae 및 casks를 업그레이드.
 더 많은 정보: <https://docs.brew.sh/Manpage#upgrade-options-outdated_formulaoutdated_cask->.

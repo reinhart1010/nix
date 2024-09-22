@@ -3,23 +3,14 @@ layout: page
 title: common/bison (한국어)
 description: "GNU 파서 생성기."
 content_hash: f03e5cb93f3a69954a5fe462ecad674d0f507d6d
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/bison.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bison.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bison
+# bison
 
 GNU 파서 생성기.
 더 많은 정보: <https://www.gnu.org/software/bison/>.

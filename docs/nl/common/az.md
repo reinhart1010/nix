@@ -3,7 +3,7 @@ layout: page
 title: common/az (Nederlands)
 description: "De officiële CLI tool voor Microsoft Azure."
 content_hash: 289fa94f68e00af5c8c37081820013d5eee71f9f
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/az.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az
+# az
 
 De officiële CLI tool voor Microsoft Azure.
 Sommige subcommando's zoals `az login` hebben hun eigen documentatie.

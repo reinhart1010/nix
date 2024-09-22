@@ -3,7 +3,7 @@ layout: page
 title: common/aws-ec2 (한국어)
 description: "AWS EC2 인스턴스 및 볼륨 관리."
 content_hash: f6ca038f44dc90e7db196b76801765e84bc0c28a
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-ec2.html
@@ -20,18 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-ec2.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-ec2.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws ec2
+# aws ec2
 
 AWS EC2 인스턴스 및 볼륨 관리.
 AWS EC2는 더 빠른 애플리케이션 개발과 배포를 위해 AWS 클라우드에서 안전하고 크기 조정이 가능한 컴퓨팅 용량을 제공.

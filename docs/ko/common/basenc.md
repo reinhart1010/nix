@@ -3,7 +3,7 @@ layout: page
 title: common/basenc (한국어)
 description: "지정된 인코딩을 사용하여 파일 또는 `stdin`을 `stdout`으로 인코딩하거나 디코딩함."
 content_hash: 2b0bf4a2698a2619730e0a54d0d1f8d1ebd93131
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/basenc.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/basenc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/basenc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># basenc
+# basenc
 
 지정된 인코딩을 사용하여 파일 또는 `stdin`을 `stdout`으로 인코딩하거나 디코딩함.
 더 많은 정보: <https://www.gnu.org/software/coreutils/basenc>.

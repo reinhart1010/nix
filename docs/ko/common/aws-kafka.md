@@ -3,23 +3,14 @@ layout: page
 title: common/aws-kafka (한국어)
 description: "Amazon MSK (Apache Kafka용 관리형 스트리밍) 클러스터 관리."
 content_hash: aa2f1cb30a2f4d9fef165fb17855bbbf887b0f80
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/aws-kafka.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-kafka.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws kafka
+# aws kafka
 
 Amazon MSK (Apache Kafka용 관리형 스트리밍) 클러스터 관리.
 추가 정보: `aws`.

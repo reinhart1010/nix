@@ -3,7 +3,7 @@ layout: page
 title: common/btm (한국어)
 description: "`top`에 대한 대안."
 content_hash: 44a752688f7ce0ee271b4a74981a19e384faaeba
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/btm.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/btm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/btm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># btm
+# btm
 
 `top`에 대한 대안.
 `top`보다 가볍고 크로스 플랫폼이며 그래픽이 더 많이 존재하는 것을 목표로 함.

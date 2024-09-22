@@ -3,7 +3,7 @@ layout: page
 title: common/dircolors (Nederlands)
 description: "Geef commando's weer om de LS_COLOR-omgevingsvariabele in te stellen en style `ls`, `dir` enz."
 content_hash: cbbd1e872272fae5bf4f874bcb511d790bb39b60
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/dircolors.html
@@ -14,12 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dircolors.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dircolors
+# dircolors
 
 Geef commando's weer om de LS_COLOR-omgevingsvariabele in te stellen en style `ls`, `dir` enz.
 Meer informatie: <https://www.gnu.org/software/coreutils/dircolors>.

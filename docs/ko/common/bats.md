@@ -3,7 +3,7 @@ layout: page
 title: common/bats (한국어)
 description: "Bash 자동 테스트 시스템: Bash용 TAP (<https://testanything.org/>) 호환 테스트 프레임워크."
 content_hash: b1ba2684ab65a8f59f12ab729380190b182000ae
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/bats.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/bats.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bats.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bats
+# bats
 
 Bash 자동 테스트 시스템: Bash용 TAP (<https://testanything.org/>) 호환 테스트 프레임워크.
 더 많은 정보: <https://bats-core.readthedocs.io/en/stable/usage.html>.

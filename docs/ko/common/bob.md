@@ -3,7 +3,7 @@ layout: page
 title: common/bob (한국어)
 description: "Neovim 버전을 관리하고 전환."
 content_hash: 5b96527a2e3e1bf9567d294c85bd1eaecd693104
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/bob.html
@@ -11,18 +11,9 @@ related_topics:
   - title: فارسی version
     url: /fa/common/bob.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bob.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bob
+# bob
 
 Neovim 버전을 관리하고 전환.
 더 많은 정보: <https://github.com/MordechaiHadad/bob>.

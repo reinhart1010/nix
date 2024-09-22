@@ -3,7 +3,7 @@ layout: page
 title: common/awslogs (한국어)
 description: "Amazon CloudWatch 로그에서 그룹, 스트림 및 이벤트를 쿼리."
 content_hash: 15de1e7b5c8193d0b7d77df352ad063576cf0e72
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: Deutsch version
     url: /de/common/awslogs.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/awslogs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/awslogs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># awslogs
+# awslogs
 
 Amazon CloudWatch 로그에서 그룹, 스트림 및 이벤트를 쿼리.
 더 많은 정보: <https://github.com/jorgebastida/awslogs>.

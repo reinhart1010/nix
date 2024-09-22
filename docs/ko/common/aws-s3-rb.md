@@ -3,23 +3,14 @@ layout: page
 title: common/aws-s3-rb (한국어)
 description: "비어있는 S3 버킷 삭제."
 content_hash: 1e4d1f5079505bea2e1a6f04f2f90862109e3e77
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/aws-s3-rb.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-s3-rb.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws s3 rb
+# aws s3 rb
 
 비어있는 S3 버킷 삭제.
 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/s3/rb.html>.

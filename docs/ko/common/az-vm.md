@@ -3,7 +3,7 @@ layout: page
 title: common/az-vm (한국어)
 description: "Azure에서 가상 머신을 관리."
 content_hash: bc14c2d2ec32a04e088f5a7823b5cb2f992e17a6
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/az-vm.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/az-vm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/az-vm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># az vm
+# az vm
 
 Azure에서 가상 머신을 관리.
 `azure-cli`의 일부 (`az`라고도 함).

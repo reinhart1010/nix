@@ -3,23 +3,14 @@ layout: page
 title: common/brushtopbm (한국어)
 description: "Xerox 낙서 브러시 파일을 PBM 이미지로 변환."
 content_hash: dc934217e5c451832d98155747bbf97c3622c642
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/brushtopbm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/brushtopbm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># brushtopbm
+# brushtopbm
 
 Xerox 낙서 브러시 파일을 PBM 이미지로 변환.
 더 많은 정보: <https://netpbm.sourceforge.net/doc/brushtopbm.html>.

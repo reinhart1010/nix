@@ -3,7 +3,7 @@ layout: page
 title: common/aws-history (한국어)
 description: "AWS CLI 명령어 대한 명령어 입력 기록을 인쇄 (AWS CLI 명령어 입력 기록 권한이 활성화되어야 함)."
 content_hash: 47c004474c6feb76566e56b94bad34d84260c079
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/aws-history.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-history.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-history.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws history
+# aws history
 
 AWS CLI 명령어 대한 명령어 입력 기록을 인쇄 (AWS CLI 명령어 입력 기록 권한이 활성화되어야 함).
 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/history/>.

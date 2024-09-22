@@ -3,7 +3,7 @@ layout: page
 title: common/bcomps (한국어)
 description: "그래프를 이중 연결 구성 요소로 분해."
 content_hash: 45a53755aa2cc333299a13fc1e03e802426e0df9
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/bcomps.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bcomps.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bcomps.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bcomps
+# bcomps
 
 그래프를 이중 연결 구성 요소로 분해.
 그래프비즈 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.

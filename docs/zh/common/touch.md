@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (中文)
 description: "创建文件并设置访问/修改时间。"
-content_hash: af16b98aff6cece73e27d646a6773b5d0a818c35
-last_modified_at: 2024-05-22
+content_hash: 475ae6c24b870f42689484c075fdfd6e13020e45
+last_modified_at: 2024-09-22
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -20,6 +20,12 @@ related_topics:
   - title: Indonesia version
     url: /id/common/touch.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/touch.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/touch.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/touch.html
     icon: bi bi-globe
@@ -34,7 +40,7 @@ tldri18n_status: 2
 # touch
 
 创建文件并设置访问/修改时间。
-更多信息：<https://manned.org/man/freebsd-13.1/touch>.
+更多信息：<https://manned.org/touch>.
 
 - 创建指定的文件：
 

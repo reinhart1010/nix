@@ -3,23 +3,17 @@ layout: page
 title: common/read (Nederlands)
 description: "Shell builtin voor het ophalen van data van `stdin`."
 content_hash: 10f729ee04ff99a66ad243efa4137cc9a1f7e3e9
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/read.html
     icon: bi bi-globe
-tldri18n_status: 0
+  - title: español version
+    url: /es/common/read.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/read.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># read
+# read
 
 Shell builtin voor het ophalen van data van `stdin`.
 Meer informatie: <https://manned.org/read.1p>.

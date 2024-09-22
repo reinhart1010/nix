@@ -3,7 +3,7 @@ layout: page
 title: common/birdc (한국어)
 description: "BIRD 원격 제어."
 content_hash: 014a74f7854fad9fcd9ad35ad3063e5955c2be53
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: Deutsch version
     url: /de/common/birdc.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/birdc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/birdc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># birdc
+# birdc
 
 BIRD 원격 제어.
 bird로부터 경로와 같은 정보를 검색하고 런타임 중에 구성을 수행.

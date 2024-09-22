@@ -3,23 +3,14 @@ layout: page
 title: common/brotli (한국어)
 description: "Brotli 압축을 사용하여 파일을 압축/압축 해제."
 content_hash: b13e58309c8d3ffa6be83c077567a1f54d9f21da
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/brotli.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/brotli.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># brotli
+# brotli
 
 Brotli 압축을 사용하여 파일을 압축/압축 해제.
 더 많은 정보: <https://github.com/google/brotli>.

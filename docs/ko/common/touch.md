@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (한국어)
 description: "파일을 생성하고 접근/수정 시간을 설정합니다."
-content_hash: 4362df5042c94f6a17bb6630d0dc55c8a7fa86ca
-last_modified_at: 2024-06-10
+content_hash: c6253f9c79130e886eb740f966b25bd258f94db5
+last_modified_at: 2024-09-22
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/touch.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/touch.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/touch.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # touch
 
 파일을 생성하고 접근/수정 시간을 설정합니다.
-더 많은 정보: <https://manned.org/man/freebsd-13.1/touch>.
+더 많은 정보: <https://manned.org/touch>.
 
 - 특정 파일 생성:
 

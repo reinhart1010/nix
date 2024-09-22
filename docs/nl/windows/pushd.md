@@ -3,7 +3,7 @@ layout: page
 title: windows/pushd (Nederlands)
 description: "Plaats een map op de stapel zodat deze later kan worden benaderd."
 content_hash: 9d027f96d5921e11a4abf5a1531cd8ea5b37fb04
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/windows/pushd.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/pushd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/pushd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pushd
+# pushd
 
 Plaats een map op de stapel zodat deze later kan worden benaderd.
 Zie ook `popd` om terug te schakelen naar de originele map.

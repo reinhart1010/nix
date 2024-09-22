@@ -3,7 +3,7 @@ layout: page
 title: common/aws-iam (한국어)
 description: "AWS 서비스에 대한 접근을 안전하게 제어하기 위한 웹 서비스인 IAM(Identity and Access Management)과 상호작용."
 content_hash: 2281160a5601e341753b9605811bfceaaa919130
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-iam.html
@@ -20,18 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-iam.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-iam.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws iam
+# aws iam
 
 AWS 서비스에 대한 접근을 안전하게 제어하기 위한 웹 서비스인 IAM(Identity and Access Management)과 상호작용.
 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.

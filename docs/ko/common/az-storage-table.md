@@ -3,23 +3,14 @@ layout: page
 title: common/az-storage-table (한국어)
 description: "Azure에서 NoSQL 키-값 스토리지를 관리."
 content_hash: 78446854fdea245a6d2cbb0f280e35ee6eed4717
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/az-storage-table.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/az-storage-table.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># az storage table
+# az storage table
 
 Azure에서 NoSQL 키-값 스토리지를 관리.
 `azure-cli`의 일부 (`az`라고도 함).

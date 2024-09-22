@@ -3,7 +3,7 @@ layout: page
 title: common/rmdir (Nederlands)
 description: "Verwijder directories zonder bestanden."
 content_hash: 0c2b12b24185c51e95d1ef0dc740b3251ce0f7a4
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: العربية version
     url: /ar/common/rmdir.html
@@ -26,18 +26,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/rmdir.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rmdir.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rmdir
+# rmdir
 
 Verwijder directories zonder bestanden.
 Zie ook: `rm`.

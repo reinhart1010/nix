@@ -3,23 +3,14 @@ layout: page
 title: common/aws-s3-ls (한국어)
 description: "AWS S3 버킷, 폴더 (접두사) 및 파일 (객체) 나열."
 content_hash: c9bb73fe1a9486b7941ba5e4f67fde80a03e8727
-last_modified_at: 2024-09-21
+last_modified_at: 2024-09-22
 related_topics:
   - title: English version
     url: /en/common/aws-s3-ls.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-s3-ls.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws s3 ls
+# aws s3 ls
 
 AWS S3 버킷, 폴더 (접두사) 및 파일 (객체) 나열.
 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/ls.html>.
