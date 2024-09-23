@@ -2,8 +2,8 @@
 layout: page
 title: common/podman-compose (English)
 description: "Run and manage Compose Specification container definition."
-content_hash: e7470f361a36f2f5267b7d52d47a6897bf670451
-last_modified_at: 2023-11-12
+content_hash: 253c8115ab40281abce38d8ab93be902ac3a9931
+last_modified_at: 2024-09-23
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/podman-compose.html
@@ -29,7 +29,7 @@ More information: <https://github.com/containers/podman-compose>.
 
 - Start all containers using an alternate compose file:
 
-`podman-compose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` up`
+`podman-compose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yaml</span>` up`
 
 - Stop all running containers:
 
