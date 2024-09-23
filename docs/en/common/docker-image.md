@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-image (English)
 description: "Manage Docker images."
-content_hash: b5048b6d09f609ddc988f090672852408693cc7a
-last_modified_at: 2023-11-23
+content_hash: cffc17623bbf5b343a44e5fcce985b5c25b2545a
+last_modified_at: 2024-09-23
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-image.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Manage Docker images.
 See also: `docker build`, `docker import`, and `docker pull`.
-More information: <https://docs.docker.com/engine/reference/commandline/image/>.
+More information: <https://docs.docker.com/reference/cli/docker/image/>.
 
 - List local Docker images:
 

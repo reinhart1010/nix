@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-image (português (Brasil))
 description: "Gerencia imagens do Docker."
-content_hash: 479f286ed57ac976365cc961233a75636c0d67e5
-last_modified_at: 2023-11-12
+content_hash: f5b82cd045942c744ea9cf3df2185e9052c2d28c
+last_modified_at: 2024-09-23
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-image.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Gerencia imagens do Docker.
 Veja também `docker build`, `docker import` e `docker pull`.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/image/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/image/>.
 
 - Lista imagens Docker locais:
 

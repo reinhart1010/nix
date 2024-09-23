@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-image (한국어)
 description: "도커 이미지 관리."
-content_hash: a6002b2fbb1c016ed49b7e6208c57122a5464822
-last_modified_at: 2023-11-12
+content_hash: 7f6d10da5e1a61be8ad6f2caec6412338fbf8fe8
+last_modified_at: 2024-09-23
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-image.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 도커 이미지 관리.
 `docker build`, `docker import`, `docker pull` 도 확인하세요.
-더 많은 정보: <https://docs.docker.com/engine/reference/commandline/image/>.
+더 많은 정보: <https://docs.docker.com/reference/cli/docker/image/>.
 
 - 로컬 도커 이미지 목록 보기:
 
