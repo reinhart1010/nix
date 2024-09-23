@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (中文 (繁體, 台灣))
 description: "建立目錄。"
-content_hash: a84e66976292eb789d15e656ee6dc6650afa8c46
-last_modified_at: 2024-09-07
+content_hash: 17172d7bdab08f43913047c720f117ee322bfb77
+last_modified_at: 2024-09-23
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -57,7 +57,7 @@ tldri18n_status: 2
 
 - 遞迴建立目錄，若上層目錄尚未被建立則會一併建立：
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents} `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/路徑</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/路徑</span>
 
 - 使用指定的權限建立新目錄：
 

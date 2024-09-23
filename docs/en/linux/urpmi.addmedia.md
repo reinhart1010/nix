@@ -2,8 +2,8 @@
 layout: page
 title: linux/urpmi.addmedia (English)
 description: "Add media in Mageia."
-content_hash: 1c2643310faa09ea041caafa95dfd37d6a2edac4
-last_modified_at: 2024-05-28
+content_hash: b997d989cdea7fbda2cc558c19b07e213a3e6f0c
+last_modified_at: 2024-09-23
 tldri18n_status: 2
 ---
 # urpmi.addmedia
@@ -23,7 +23,7 @@ More information: <https://wiki.mageia.org/en/URPMI#urpme>.
 
 - Add important media from a chosen mirror:
 
-`sudo urpmi.addmedia --distrib ftp://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mirror_website}/mirror/mageia/distrib/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arch</span>
+`sudo urpmi.addmedia --distrib ftp://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mirror_website</span>`/mirror/mageia/distrib/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arch</span>
 
 - Automatically select mirrors from a mirror list:
 

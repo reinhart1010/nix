@@ -2,8 +2,8 @@
 layout: page
 title: linux/mt (English)
 description: "Control magnetic tape drive operation (commonly LTO tape)."
-content_hash: 8490f8a359af2112dd8df6e76f33e45e02b32379
-last_modified_at: 2023-11-12
+content_hash: 7c196337a9b92cc300892f3107809596c7f6f7e9
+last_modified_at: 2024-09-23
 tldri18n_status: 2
 ---
 # mt
@@ -37,4 +37,4 @@ More information: <https://manned.org/mt>.
 
 - Write EOF (End-of-file) mark at the current position:
 
-`mt -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/nstX} eof`
+`mt -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/nstX</span>` eof`

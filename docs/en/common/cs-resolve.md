@@ -2,8 +2,8 @@
 layout: page
 title: common/cs-resolve (English)
 description: "Resolve lists the transitive dependencies of other dependencies."
-content_hash: 875e44583786076932007296882c3b8cd7fdae29
-last_modified_at: 2024-01-25
+content_hash: 8ab44577b6d307dac5eecdb7a92e798184f3fb45
+last_modified_at: 2024-09-23
 tldri18n_status: 2
 ---
 # cs resolve
@@ -21,7 +21,7 @@ More information: <https://get-coursier.io/docs/cli-resolve>.
 
 - Resolve dependency tree in a reverse order (from a dependency to its dependencies):
 
-`cs resolve --reverse-tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_id</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_version}`
+`cs resolve --reverse-tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_id</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_version</span>
 
 - Print all the libraries that depends on a specific library:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-log (English)
 description: "Show a history of commits."
-content_hash: e245b550963738dcb38b7256cd82aaba2e0f1a07
-last_modified_at: 2024-09-03
+content_hash: a5c9a0872b65558f9580a18b871c0ed04fd6607d
+last_modified_at: 2024-09-23
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -62,7 +62,7 @@ More information: <https://git-scm.com/docs/git-log>.
 
 - Show the last N number of commits from a certain author:
 
-`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--max-count|-n} `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">author</span>`"`
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--max-count|-n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">author</span>`"`
 
 - Show commits between two dates (yyyy-mm-dd):
 
