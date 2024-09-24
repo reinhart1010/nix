@@ -3,7 +3,7 @@ layout: page
 title: linux/bspc (português (Brasil))
 description: "Configura e controla `bspwm`, gerenciando nós, áreas de trabalho, monitores, e outros."
 content_hash: 24406c9aab0b4f7fb93712b9916a86530d3b9a0d
-last_modified_at: 2024-09-23
+last_modified_at: 2024-09-24
 related_topics:
   - title: English version
     url: /en/linux/bspc.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/bspc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/bspc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bspc
+# bspc
 
 Configura e controla `bspwm`, gerenciando nós, áreas de trabalho, monitores, e outros.
 Veja também: `bspwm`.

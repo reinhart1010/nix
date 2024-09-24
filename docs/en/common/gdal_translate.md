@@ -2,14 +2,14 @@
 layout: page
 title: common/gdal_translate (English)
 description: "Convert raster data between different formats."
-content_hash: e81f2816ef895fe7d818dc3d5a25bead72420829
-last_modified_at: 2023-11-12
+content_hash: f1ce5d65c5d3f3503184704780c15306c998a72d
+last_modified_at: 2024-09-24
 tldri18n_status: 2
 ---
 # gdal_translate
 
 Convert raster data between different formats.
-More information: <https://gdal.org/programs/gdal_translate>.
+More information: <https://gdal.org/programs/gdal_translate.html>.
 
 - Convert a raster dataset to JPEG format:
 

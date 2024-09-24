@@ -3,23 +3,14 @@ layout: page
 title: linux/dunstify (português (Brasil))
 description: "Uma ferramenta de notificação que é uma extensão do `notify-send`, mas com mais funcionalidades baseadas em `dunst`."
 content_hash: aea144f9d40811290835c278b4a987925876a997
-last_modified_at: 2024-09-23
+last_modified_at: 2024-09-24
 related_topics:
   - title: English version
     url: /en/linux/dunstify.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dunstify.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dunstify
+# dunstify
 
 Uma ferramenta de notificação que é uma extensão do `notify-send`, mas com mais funcionalidades baseadas em `dunst`.
 Aceita todas as opções do `notify-send`.

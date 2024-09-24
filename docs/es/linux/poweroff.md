@@ -2,8 +2,8 @@
 layout: page
 title: linux/poweroff (español)
 description: "Apaga el sistema."
-content_hash: 3a2b6d02d5f1d67c37a7ec9a5ac394c9ef03e027
-last_modified_at: 2024-07-08
+content_hash: 1d469dbf3fa5838a463ebabd299e6721903e2739
+last_modified_at: 2024-09-24
 related_topics:
   - title: català version
     url: /ca/linux/poweroff.html
@@ -44,7 +44,7 @@ Más información: <https://www.manned.org/poweroff>.
 
 - Apaga inmediatamente el sistema sin contactar al administrador:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Escribe una entrada en el archivo wtmp sin apagar el sistema:
 

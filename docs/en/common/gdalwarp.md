@@ -2,14 +2,14 @@
 layout: page
 title: common/gdalwarp (English)
 description: "Image reprojection and warping utility."
-content_hash: 0ea9abf39b14f4d2d18b5d3d9d1ccf339d22e085
-last_modified_at: 2023-11-12
+content_hash: 9bcff7a6c9b6ca6a3a77ee2b2bf511b6c0be29c2
+last_modified_at: 2024-09-24
 tldri18n_status: 2
 ---
 # gdalwarp
 
 Image reprojection and warping utility.
-More information: <https://gdal.org/programs/gdalwarp>.
+More information: <https://gdal.org/programs/gdalwarp.html>.
 
 - Reproject a raster dataset:
 

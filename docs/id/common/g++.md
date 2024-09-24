@@ -3,7 +3,7 @@ layout: page
 title: common/g++ (Indonesia)
 description: "Susun kode sumber C++."
 content_hash: c93ca7fa659dfa39116fbb8c3337431cb7562ddd
-last_modified_at: 2024-09-23
+last_modified_at: 2024-09-24
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -20,12 +20,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/g++.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># g++
+# g++
 
 Susun kode sumber C++.
 Bagian dari GCC (GNU Compiler Collection).

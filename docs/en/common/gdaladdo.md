@@ -2,14 +2,14 @@
 layout: page
 title: common/gdaladdo (English)
 description: "Build overview images of raster datasets."
-content_hash: fa1f52b01395ff9cf81c7b4fb1b3ff3eb7c9c495
-last_modified_at: 2023-11-12
+content_hash: 269a15a46c21b9f9507e7d70d97429fc4333caad
+last_modified_at: 2024-09-24
 tldri18n_status: 2
 ---
 # gdaladdo
 
 Build overview images of raster datasets.
-More information: <https://gdal.org/programs/gdaladdo>.
+More information: <https://gdal.org/programs/gdaladdo.html>.
 
 - Build overview images of a raster dataset using the "average" [r]esampling method:
 

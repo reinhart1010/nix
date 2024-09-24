@@ -3,23 +3,14 @@ layout: page
 title: linux/dkms (português (Brasil))
 description: "Um framework que permite recompilação dinâmica de modulos do kernel."
 content_hash: daea538473b0f55116108029db621b085813ac8a
-last_modified_at: 2024-09-23
+last_modified_at: 2024-09-24
 related_topics:
   - title: English version
     url: /en/linux/dkms.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dkms.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dkms
+# dkms
 
 Um framework que permite recompilação dinâmica de modulos do kernel.
 Mais informações: <https://github.com/dell/dkms>.
