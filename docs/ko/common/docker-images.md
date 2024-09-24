@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-images (한국어)
 description: "도커 이미지 관리."
-content_hash: 0a750c8c5d7329755a2053aa550e8128aabc137a
-last_modified_at: 2023-11-12
+content_hash: a9577dad7b67152ec2edd5cbce1e2c0adf5c0611
+last_modified_at: 2024-09-24
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-images.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker images
 
 도커 이미지 관리.
-더 많은 정보: <https://docs.docker.com/engine/reference/commandline/images/>.
+더 많은 정보: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - 모든 도커 이미지 목록 보기:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-images (português (Brasil))
 description: "Gerencia imagens Docker."
-content_hash: caca88d805b362f84d9aa4e5e6aa1303fc05a343
-last_modified_at: 2023-11-12
+content_hash: 99bf7d83afd1fc19c4926c26547e2ea96eca5354
+last_modified_at: 2024-09-24
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-images.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker images
 
 Gerencia imagens Docker.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/images/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - Lista todas as imagens Docker:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-images (polski)
 description: "Zarządzaj obrazami Dockera."
-content_hash: 8c1f54e2c9eda7d9ae0ca248a4ff7bc897fa79d8
-last_modified_at: 2023-11-12
+content_hash: 2dc9e29b7b16af1a5f10b60d0882f1bbdbdc77dd
+last_modified_at: 2024-09-24
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-images.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker images
 
 Zarządzaj obrazami Dockera.
-Więcej informacji: <https://docs.docker.com/engine/reference/commandline/images/>.
+Więcej informacji: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - Wyświetl wszystkie obrazy Docker:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-inspect (Deutsch)
 description: "Erhalte tiefgehende Informationen zu Docker Objekten."
-content_hash: fdebdcd1e0f2237698294027ca7c603dfe55364a
-last_modified_at: 2023-12-14
+content_hash: d7040545d2ba3a0981dccca5ab1df65a058fea2b
+last_modified_at: 2024-09-24
 related_topics:
   - title: English version
     url: /en/common/docker-inspect.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker inspect
 
 Erhalte tiefgehende Informationen zu Docker Objekten.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/inspect/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/inspect/>.
 
 - Zeige Hilfeseite:
 

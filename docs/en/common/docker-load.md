@@ -2,9 +2,12 @@
 layout: page
 title: common/docker-load (English)
 description: "Load Docker images from files or `stdin`."
-content_hash: 97144afb960cfb33cafe160103e664add2958fc4
-last_modified_at: 2023-11-12
+content_hash: a5852470fc50a380c9d445b59df3b9ace3d738b3
+last_modified_at: 2024-09-24
 related_topics:
+  - title: français version
+    url: /fr/common/docker-load.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-load.html
     icon: bi bi-globe
@@ -13,7 +16,7 @@ tldri18n_status: 2
 # docker load
 
 Load Docker images from files or `stdin`.
-More information: <https://docs.docker.com/engine/reference/commandline/load/>.
+More information: <https://docs.docker.com/reference/cli/docker/image/load/>.
 
 - Load a Docker image from `stdin`:
 

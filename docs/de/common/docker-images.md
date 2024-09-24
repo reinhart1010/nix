@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-images (Deutsch)
 description: "Verwalte Docker Images."
-content_hash: 0a2bd0fa3ea47b86121fa5d43ff19e2f3dc1050c
-last_modified_at: 2023-11-12
+content_hash: ce0f2fb029888771409f080ea270478276b755f1
+last_modified_at: 2024-09-24
 related_topics:
   - title: English version
     url: /en/common/docker-images.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker images
 
 Verwalte Docker Images.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/images/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - Liste alle Docker Images auf:
 

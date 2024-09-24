@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-load (français)
 description: "Charge des images Docker depuis des fichiers ou `stdin`."
-content_hash: 34b2315eca2aa677834ef720bb3f9c03fde57ff0
-last_modified_at: 2023-12-09
+content_hash: f42a25c02c530a023a264c05a3c46b7cffe0a2a9
+last_modified_at: 2024-09-24
 related_topics:
   - title: English version
     url: /en/common/docker-load.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # docker load
 
 Charge des images Docker depuis des fichiers ou `stdin`.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/load/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/image/load/>.
 
 - Charge une image Docker depuis `stdin` :
 

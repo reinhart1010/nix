@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-inspect (português (Brasil))
 description: "Retorna informações de baixo nível sobre objetos do Docker."
-content_hash: 313e9f66c4cb646ec2d9ad2f856c8bbf0d3232d1
-last_modified_at: 2023-12-28
+content_hash: 8da77c84067fe99b40894212f0f1905358c25324
+last_modified_at: 2024-09-24
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-inspect.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker inspect
 
 Retorna informações de baixo nível sobre objetos do Docker.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/inspect/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/inspect/>.
 
 - Exibe ajuda:
 

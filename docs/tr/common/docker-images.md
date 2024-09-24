@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-images (Türkçe)
 description: "Docker imgelerini yönet."
-content_hash: 52946c95b855c1af82299d77033fdf807d0114c2
-last_modified_at: 2023-11-12
+content_hash: 63b4897df83e890133d02f852e2456a62f645e64
+last_modified_at: 2024-09-24
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-images.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker images
 
 Docker imgelerini yönet.
-Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/images/>.
+Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - Tüm Docker imgelerini listele:
 
