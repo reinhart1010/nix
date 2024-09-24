@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/base64 (français)
-description: "Encoder ou décoder un fichier ou l'entrée standard en utilisant le codage Base64 à destination de la sortie standard."
-content_hash: f7a55646ca4a489ceb7c180e6e9f52c776fb2c90
-last_modified_at: 2024-03-17
+description: "Encode ou décode un fichier ou l'entrée standard vers ou depuis la base 64, et retourne le résultat à la sortie standard."
+content_hash: 32dff5bd690f93a98753e6f1c9c68c50598de20a
+last_modified_at: 2024-09-24
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -42,21 +42,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># base64
 
-Encoder ou décoder un fichier ou l'entrée standard en utilisant le codage Base64 à destination de la sortie standard.
-Plus d'informations : <https://www.gnu.org/software/coreutils/base64>.
+Encode ou décode un fichier ou l'entrée standard vers ou depuis la base 64, et retourne le résultat à la sortie standard.
+Plus d'informations : <https://manned.org/base64>.
 
 - Encode un fichier :
 
-`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
+
+- Envelopper la sortie codée à une largeur spécifique (`0` désactive l'enveloppement) :
+
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|--wrap</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
 - Décode un fichier :
 
-`base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
 - Encode depuis `stdin` :
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">une_commande</span>` | base64`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span>` | base64`
 
 - Décode depuis `stdin` :
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">une_commande</span>` | base64 --decode`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span>` | base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>

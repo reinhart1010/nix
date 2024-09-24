@@ -2,8 +2,8 @@
 layout: page
 title: common/base32 (italiano)
 description: "Codifica o decodifica file o standard input in Base32 su standard output."
-content_hash: 3900fadfcac930c1c8b8face3afe8f6cbe461892
-last_modified_at: 2024-03-17
+content_hash: 8ef40e4de2d21fd7137efb8fcddbb34aaab69ab0
+last_modified_at: 2024-09-24
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -37,15 +37,19 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># base32
 
 Codifica o decodifica file o standard input in Base32 su standard output.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/base32>.
+Maggiori informazioni: <https://manned.org/base32>.
 
 - Codifica un file:
 
-`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span>
+`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percoso/del/file</span>
+
+- Avvolgi l'output codificato a una larghezza specifica (`0` disabilita l'avvolgimento):
+
+`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|--wrap</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percoso/del/file</span>
 
 - Decodifica un file:
 
-`base32 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span>
+`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percoso/del/file</span>
 
 - Codifica da `stdin`:
 
@@ -53,4 +57,4 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/base32>.
 
 - Decodifica da `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | base32 --decode`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>

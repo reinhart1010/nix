@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/base64 (português (Brasil))
-description: "Codifica ou decodifica um arquivo ou uma entrada padrão (`stdin`) de/para Base64, para uma saída padrão (`stdout`)."
-content_hash: 0692ac03c5095b2da73ef1a5d75d2bb6b0a92707
-last_modified_at: 2024-03-17
+description: "Codifica ou decodifica um arquivo ou a entrada padrão (`stdin`) de/para Base64, para a saída padrão (`stdout`)."
+content_hash: f552d64c2cfb6c8ab91a46ec4e08fe8487d074ce
+last_modified_at: 2024-09-24
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -42,16 +42,20 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># base64
 
-Codifica ou decodifica um arquivo ou uma entrada padrão (`stdin`) de/para Base64, para uma saída padrão (`stdout`).
-Mais informações: <https://www.gnu.org/software/coreutils/base64>.
+Codifica ou decodifica um arquivo ou a entrada padrão (`stdin`) de/para Base64, para a saída padrão (`stdout`).
+Mais informações: <https://manned.org/base64>.
 
-- Codifica o conteúdo de um arquivo para base64 e grava o resultado em `stdout`:
+- Codifica um arquivo:
 
-`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_arquivo</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Decodifica o conteúdo de um arquivo em base64 e grava o resultado em `stdout`:
+- Envolve a saída codificada em uma largura específica (`0` desabilita o encapsulamento):
 
-`base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_arquivo</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|--wrap</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+
+- Decodifica um arquivo:
+
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
 - Codifica a partir de `stdin`:
 
@@ -59,4 +63,4 @@ Mais informações: <https://www.gnu.org/software/coreutils/base64>.
 
 - Decodifica a partir de `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algum_comando</span>` | base64 --decode`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algum_comando</span>` | base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/base64 (Türkçe)
 description: "Bir dosya veya standart veriyi Base64 formatında şifrele veya yalın veri çıktısı olarak deşifre et."
-content_hash: dc0cc82dde0880eb6111fa813c9b05a6e64ddab3
-last_modified_at: 2024-03-17
+content_hash: 897101c17fe557ea79240a8339e59493bc52bd4a
+last_modified_at: 2024-09-24
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -43,15 +43,19 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># base64
 
 Bir dosya veya standart veriyi Base64 formatında şifrele veya yalın veri çıktısı olarak deşifre et.
-Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/base64>.
+Daha fazla bilgi için: <https://manned.org/base64>.
 
 - Bir dosyayı şifrele:
 
-`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosyaismi</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
+
+- Kodlanmış çıktıyı belirli bir genişlikte sar (`0` sarmayı devre dışı bırakır):
+
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|--wrap</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
 
 - Bir dosyayı deşifre et:
 
-`base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosyaismi</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
 
 - `stdin`'den şifrele:
 
@@ -59,4 +63,4 @@ Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/base64>.
 
 - `stdin`'den deşifre et:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">herhangibirkomut</span>` | base64 --decode`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">herhangibirkomut</span>` | base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/base32 (Nederlands)
-description: "Codeer of decodeer een bestand of `stdin` van/naar Base32 naar `stdout`."
-content_hash: 9d5781425f76ebc033abe117b3a2406aef9e3476
-last_modified_at: 2024-06-03
+description: "Encodeer of decodeer een bestand of `stdin` van/naar Base32 naar `stdout`."
+content_hash: f3696500f59d9b430f2764cf3244474327ecf0d2
+last_modified_at: 2024-09-24
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -33,8 +33,8 @@ tldri18n_status: 2
 ---
 # base32
 
-Codeer of decodeer een bestand of `stdin` van/naar Base32 naar `stdout`.
-Meer informatie: <https://www.gnu.org/software/coreutils/base32>.
+Encodeer of decodeer een bestand of `stdin` van/naar Base32 naar `stdout`.
+Meer informatie: <https://manned.org/base32>.
 
 - Encodeer een bestand:
 
@@ -42,16 +42,16 @@ Meer informatie: <https://www.gnu.org/software/coreutils/base32>.
 
 - Zet gecodeerde uitvoer naar een specifieke breedte (`0` schakelt het uit):
 
-`base32 --wrap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|--wrap</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
 - Decodeer een bestand:
 
-`base32 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
 - Encodeer `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">somecommand</span>` | base32`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>` | base32`
 
-- Decodeeer `stdin`:
+- Decodeer `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">somecommand</span>` | base32 --decode`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>` | base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>

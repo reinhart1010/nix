@@ -2,8 +2,8 @@
 layout: page
 title: common/base64 (Deutsch)
 description: "Kodieren oder Dekodieren von Dateien oder Standardeingaben in/aus Base64, zur Standardausgabe."
-content_hash: 565974dcc37c4d6058c18c878cd49c8e5b05d873
-last_modified_at: 2024-03-17
+content_hash: 6597e3146f63587468590b75b528cf260c36ad06
+last_modified_at: 2024-09-24
 related_topics:
   - title: English version
     url: /en/common/base64.html
@@ -43,15 +43,19 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># base64
 
 Kodieren oder Dekodieren von Dateien oder Standardeingaben in/aus Base64, zur Standardausgabe.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/base64>.
+Weitere Informationen: <https://manned.org/base64>.
 
 - Kodiere den Inhalt einer Datei als base64 und schreibe das Ergebnis nach `stdout`:
 
-`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datei_name</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
+
+- Wikkel gecodeerde uitvoer in op een specifieke breedte (`0` schakelt inpakken uit):
+
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|--wrap</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
 - Dekodiere den Inhalt einer Datei als base64 und schreibe das Ergebnis nach `stdout`:
 
-`base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datei_name</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
 - Kodiere von `stdin`:
 
@@ -59,4 +63,4 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/base64>.
 
 - Dekodiere von `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>` | base64 --decode`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>` | base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>

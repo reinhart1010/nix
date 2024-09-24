@@ -2,8 +2,8 @@
 layout: page
 title: common/base64 (polski)
 description: "Enkoduj lub dekoduj plik lub standardowe wejście do/z Base64, na standardowe wyjście."
-content_hash: f9fe9a0d85a2bf106a9b707aba9aa11771dbe4ab
-last_modified_at: 2024-03-17
+content_hash: 9a4542fb1f64c4d60041fb9ad7c2e0cb68f6f307
+last_modified_at: 2024-09-24
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -43,15 +43,19 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># base64
 
 Enkoduj lub dekoduj plik lub standardowe wejście do/z Base64, na standardowe wyjście.
-Więcej informacji: <https://www.gnu.org/software/coreutils/base64>.
+Więcej informacji: <https://manned.org/base64>.
 
 - Enkoduj plik:
 
-`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>
+
+- Zawijaj zakodowane wyjście na określonej szerokości (`0` wyłącza zawijanie):
+
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|--wrap</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>
 
 - Dekoduj plik:
 
-`base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>
 
 - Enkoduj z `stdin`:
 
@@ -59,4 +63,4 @@ Więcej informacji: <https://www.gnu.org/software/coreutils/base64>.
 
 - Dekoduj z `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jakiespolecenie</span>` | base64 --decode`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jakiespolecenie</span>` | base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>

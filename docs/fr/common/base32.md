@@ -2,8 +2,8 @@
 layout: page
 title: common/base32 (français)
 description: "Encode ou décode un fichier ou l'entrée standard vers ou depuis la base 32, et retourne le résultat à la sortie standard."
-content_hash: 3aef394a69a04929b94446b7e9cb1dc31b089a2d
-last_modified_at: 2024-03-17
+content_hash: abcfcc4fee9fa6606c32b13df7d321df8ae4e2a2
+last_modified_at: 2024-09-24
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -37,15 +37,19 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># base32
 
 Encode ou décode un fichier ou l'entrée standard vers ou depuis la base 32, et retourne le résultat à la sortie standard.
-Plus d'informations : <https://www.gnu.org/software/coreutils/base32>.
+Plus d'informations : <https://manned.org/base32>.
 
 - Encode un fichier :
 
-`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
+`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
+
+- Envelopper la sortie codée à une largeur spécifique (`0` désactive l'enveloppement) :
+
+`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|--wrap</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
 - Décode un fichier :
 
-`base32 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
+`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
 - Encode depuis `stdin` :
 
@@ -53,4 +57,4 @@ Plus d'informations : <https://www.gnu.org/software/coreutils/base32>.
 
 - Décode depuis `stdin` :
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span>` | base32 --decode`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span>` | base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>
