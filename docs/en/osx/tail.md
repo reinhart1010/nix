@@ -2,8 +2,8 @@
 layout: page
 title: osx/tail (English)
 description: "Display the last part of a file."
-content_hash: 5e61ef23224c31604956b691d7938e397f1cd7d2
-last_modified_at: 2024-02-22
+content_hash: a8cd2f9d6de3d711ce2d14da29cb066b4dd7671a
+last_modified_at: 2024-09-25
 related_topics:
   - title: Nederlands version
     url: /nl/osx/tail.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Display the last part of a file.
 See also: `head`.
-More information: <https://keith.github.io/tail.1.html>.
+More information: <https://keith.github.io/xcode-man-pages/tail.1.html>.
 
 - Show last 'count' lines in file:
 

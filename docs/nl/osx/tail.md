@@ -2,8 +2,8 @@
 layout: page
 title: osx/tail (Nederlands)
 description: "Toon het laatste deel van een bestand."
-content_hash: 68e4f1f395f2f2d03b35a78256f57cc736c3579e
-last_modified_at: 2024-02-04
+content_hash: 14882877e7459b75c06973f242f0e22937734128
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/osx/tail.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Toon het laatste deel van een bestand.
 Bekijk ook: `head`.
-Meer informatie: <https://keith.github.io/tail.1.html>.
+Meer informatie: <https://keith.github.io/xcode-man-pages/tail.1.html>.
 
 - Toon laatste aantal regels in een bestand:
 

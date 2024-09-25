@@ -2,15 +2,19 @@
 layout: page
 title: common/doggo (English)
 description: "DNS client for Humans."
-content_hash: 1822a2f52baf0fb60bd744f3e979582088dfbccf
-last_modified_at: 2024-07-15
+content_hash: a27aa6b0511be6102a5805e1449e8edbeaa27f4d
+last_modified_at: 2024-09-25
+related_topics:
+  - title: español version
+    url: /es/common/doggo.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # doggo
 
 DNS client for Humans.
 Written in Golang.
-More information: <https://doggo.mrkaran.dev>.
+More information: <https://github.com/mr-karan/doggo>.
 
 - Perform a simple DNS lookup:
 

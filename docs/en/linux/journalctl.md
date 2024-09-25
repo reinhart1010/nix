@@ -2,8 +2,8 @@
 layout: page
 title: linux/journalctl (English)
 description: "Query the systemd journal."
-content_hash: 8bea8db9817d448d4457d8bfd3e3372040540411
-last_modified_at: 2024-07-30
+content_hash: ce4516f925797863cbed2f3660e0cbe45e9df4ba
+last_modified_at: 2024-09-25
 related_topics:
   - title: polski version
     url: /pl/linux/journalctl.html
@@ -40,7 +40,7 @@ More information: <https://manned.org/journalctl>.
 
 - Filter messages within a time range (either timestamp or placeholders like "yesterday"):
 
-`journalctl --since `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">now|today|yesterday|tomorrow</span>` --until `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD HH:MM:SS</span>
+`journalctl --since `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">now|today|yesterday|tomorrow</span>` --until "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD HH:MM:SS</span>`"`
 
 - Show all messages by a specific process:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/journalctl (polski)
 description: "Przeszukaj dziennik systemd."
-content_hash: aae26f3ff94d86ef34cc7e0f7a87257b43cab361
-last_modified_at: 2024-01-02
+content_hash: 2b8973cf02655791c4eee2fb6bae75364c69e17b
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/journalctl.html
@@ -40,7 +40,7 @@ Więcej informacji: <https://manned.org/journalctl>.
 
 - Filtruj wiadomości w zakresie czasu (znacznik czasu lub symbol zastępczy, np. "yesterday"):
 
-`journalctl --since `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">now|today|yesterday|tomorrow</span>` --until `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD HH:MM:SS</span>
+`journalctl --since `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">now|today|yesterday|tomorrow</span>` --until "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD HH:MM:SS</span>`"`
 
 - Wyświetl wszystkie wiadomości podanego procesu:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/doggo (español)
 description: "Cliente DNS para Humanos."
-content_hash: a3d3a7020848bae1cc51e32e9386397c51bd9da4
-last_modified_at: 2024-08-05
+content_hash: 46b95471cfaa7d4baf39d892ba70c9f59b1f9779
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/doggo.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Cliente DNS para Humanos.
 Escrito en Golang.
-Más información: <https://doggo.mrkaran.dev>.
+Más información: <https://github.com/mr-karan/doggo>.
 
 - Realiza una simple búsqueda DNS:
 

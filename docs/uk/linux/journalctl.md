@@ -2,8 +2,8 @@
 layout: page
 title: linux/journalctl (українська)
 description: "Запити до журналу systemd."
-content_hash: 05028aeb8cd0f4b96f6b813909829350b1c7dea9
-last_modified_at: 2024-01-13
+content_hash: ed95b6b28de0f675c4442b951507b7ee27a6d148
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/journalctl.html
@@ -39,7 +39,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - Фільтрувати повідомлення в межах діапазону часу (мітка часу або покажчики місця заповнення, як-от «вчора»):
 
-`journalctl --since `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">now|today|yesterday|tomorrow</span>` --until `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD HH:MM:SS</span>
+`journalctl --since `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">now|today|yesterday|tomorrow</span>` --until "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD HH:MM:SS</span>`"`
 
 - Показати всі повідомлення за певним процесом:
 
