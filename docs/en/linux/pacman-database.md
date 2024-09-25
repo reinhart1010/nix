@@ -2,14 +2,17 @@
 layout: page
 title: linux/pacman-database (English)
 description: "Operate on the Arch Linux package database."
-content_hash: 8d7fb4ca97c2897541ea965d14d9eb54291ae5a3
-last_modified_at: 2023-11-12
+content_hash: 4339467e2b921ca9f61329cf2ee61b8475cd4d46
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-database.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-database.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-database.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-database.html
@@ -24,7 +27,7 @@ tldri18n_status: 2
 Operate on the Arch Linux package database.
 Modify certain attributes of the installed packages.
 See also: `pacman`.
-More information: <https://man.archlinux.org/man/pacman.8>.
+More information: <https://manned.org/pacman.8>.
 
 - Mark a package as implicitly installed:
 

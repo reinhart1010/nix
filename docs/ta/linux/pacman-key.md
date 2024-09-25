@@ -2,14 +2,17 @@
 layout: page
 title: linux/pacman-key (தமிழ்)
 description: "பேக்மேனின் கீரிங்கை நிர்வகிக்க GnuPGக்கான ரேப்பர் ஸ்கிரிப்ட் பயன்படுத்தப்படுகிறது."
-content_hash: 276ee270fde335696bcf65a5dd04d927bdb7e312
-last_modified_at: 2023-11-14
+content_hash: aa2f6b4ae9aaf991748bb42e0aece67749337564
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/pacman-key.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-key.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-key.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-key.html
@@ -20,7 +23,7 @@ tldri18n_status: 2
 
 பேக்மேனின் கீரிங்கை நிர்வகிக்க GnuPGக்கான ரேப்பர் ஸ்கிரிப்ட் பயன்படுத்தப்படுகிறது.
 இதையும் பார்க்கவும்: `pacman`.
-மேலும் விவரத்திற்கு: <https://man.archlinux.org/man/pacman-key>.
+மேலும் விவரத்திற்கு: <https://manned.org/pacman-key>.
 
 - பேக்மேன் கீரிங்கை துவக்கவும்:
 

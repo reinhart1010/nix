@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-query (polski)
 description: "Narzędzie do zarządzania pakietami w Arch Linuksie."
-content_hash: 67935301acc75645aeef4e587bcf12209a3fbe92
-last_modified_at: 2023-11-12
+content_hash: 64844d4ec99d1adf446b1427d4d30edb8330ac4f
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
@@ -17,6 +17,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/pacman-query.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-query.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-query.html
     icon: bi bi-globe
@@ -26,7 +29,7 @@ tldri18n_status: 2
 
 Narzędzie do zarządzania pakietami w Arch Linuksie.
 Zobacz także: `pacman`.
-Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
+Więcej informacji: <https://manned.org/pacman.8>.
 
 - Wyświetl zainstalowane pakiety i ich wersje:
 

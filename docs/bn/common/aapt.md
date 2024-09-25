@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (বাংলা)
 description: "এন্ড্রয়েড এসেট প্যাকেজিং টুল।"
-content_hash: ca3b95c3074e17430daf7537a24aca473eeffb3a
-last_modified_at: 2023-11-12
+content_hash: 63b42cfd636695a77169e0f10af9015a8cb5d540
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/aapt.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 এন্ড্রয়েড এসেট প্যাকেজিং টুল।
 এন্ড্রয়েড অ্যাপের সম্পদগুলি সংকলিত এবং প্যাকেজ করুন।
-আরও তথ্য পাবেন: <https://elinux.org/Android_aapt>।
+আরও তথ্য পাবেন: <https://manned.org/aapt>।
 
 - APK সংগ্রহে অন্তর্ভুক্ত ফাইলের তালিকা তৈরি করুন:
 

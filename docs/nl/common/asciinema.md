@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (Nederlands)
 description: "Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org."
-content_hash: 17d1d5584e2499a4fe84eb6f9c966b6207411360
-last_modified_at: 2024-02-15
+content_hash: 3b39365c81fc5fdee9ba7b4aa9d7c857c20f5ef3
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/asciinema.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/asciinema.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asciinema.html
@@ -53,7 +56,7 @@ Meer informatie: <https://docs.asciinema.org/manual/cli/usage>.
 
 - Maak een nieuwe opname met een [i]nactieve tijd van maximaal 2,5 seconden:
 
-`asciinema rec -i 2.5`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--idle-time-limit</span>` 2.5`
 
 - Laat de volledige inhoud zien van een lokaal opgeslagen opname:
 

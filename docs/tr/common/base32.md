@@ -3,13 +3,22 @@ layout: page
 title: common/base32 (Türkçe)
 description: "Bir dosya veya standart veriyi Base32 formatında şifrele veya yalın veri çıktısı olarak deşifre et."
 content_hash: 176912dbd4108e4d20c1154fbed59a31dfd8d11c
-last_modified_at: 2024-09-24
+last_modified_at: 2024-09-25
 related_topics:
+  - title: Deutsch version
+    url: /de/common/base32.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/base32.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/base32.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/base32.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/base32.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/base32.html
@@ -29,12 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base32.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># base32
+# base32
 
 Bir dosya veya standart veriyi Base32 formatında şifrele veya yalın veri çıktısı olarak deşifre et.
 Daha fazla bilgi için: <https://manned.org/base32>.

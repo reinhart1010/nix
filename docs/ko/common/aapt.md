@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (한국어)
 description: "Android Asset Packaging Tool."
-content_hash: 2f9c192ef1d77e5b955577fb9a0908f9eae7621b
-last_modified_at: 2023-11-12
+content_hash: 943d4e5ce7a957289fde8679b1f41efa297f3f69
+last_modified_at: 2024-09-25
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 Android Asset Packaging Tool.
 안드로이드 앱의 소스를 컴파일하고 패키징합니다.
-더 많은 정보: <https://elinux.org/Android_aapt>.
+더 많은 정보: <https://manned.org/aapt>.
 
 - APK 아카이브에 포함된 파일 나열:
 

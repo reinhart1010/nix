@@ -2,8 +2,8 @@
 layout: page
 title: linux/arch-chroot (中文)
 description: "辅助 Arch Linux 安装流程的更强 `chroot` 命令。"
-content_hash: 8f818073070f2371566750a667e93238c2aaa38c
-last_modified_at: 2024-03-10
+content_hash: 0ad579c8a56f895773c960cdf599afa2bf6c437c
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/arch-chroot.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # arch-chroot
 
 辅助 Arch Linux 安装流程的更强 `chroot` 命令。
-更多信息：<https://man.archlinux.org/man/arch-chroot.8>.
+更多信息：<https://manned.org/arch-chroot.8>.
 
 - 在新的根目录下开启一个交互外壳程序（默认是 Bash）：
 

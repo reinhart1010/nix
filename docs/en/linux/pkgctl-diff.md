@@ -2,8 +2,8 @@
 layout: page
 title: linux/pkgctl-diff (English)
 description: "Compare package files using different modes."
-content_hash: d76b1b893694b6da5ef8d09fdb946987f0f1f6ad
-last_modified_at: 2023-11-12
+content_hash: 3d49ef9b4d5955287ad57ccbf9a70990857f3bb1
+last_modified_at: 2024-09-25
 related_topics:
   - title: Nederlands version
     url: /nl/linux/pkgctl-diff.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Compare package files using different modes.
 See also: `pkgctl`.
-More information: <https://man.archlinux.org/man/pkgctl-diff.1>.
+More information: <https://manned.org/pkgctl-diff.1>.
 
 - Compare package files in tar content [l]ist different mode (default):
 

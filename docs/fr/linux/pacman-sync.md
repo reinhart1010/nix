@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-sync (français)
 description: "Synchronise les paquets."
-content_hash: 9469551d3d92b88017cd95f8ad01d11a85eae2e0
-last_modified_at: 2023-11-12
+content_hash: 2d0a421f8f45821fe0e7552164de13229516a6de
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman-sync.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-sync.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-sync.html
@@ -29,7 +32,7 @@ tldri18n_status: 2
 
 Synchronise les paquets.
 Voir aussi: `pacman`.
-Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
+Plus d'informations : <https://manned.org/pacman.8>.
 
 - Installe un nouveau paquet :
 

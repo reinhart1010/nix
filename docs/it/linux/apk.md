@@ -2,8 +2,8 @@
 layout: page
 title: linux/apk (italiano)
 description: "Gestore pacchetti di Alpine Linux."
-content_hash: d1df9daef7ee4cf39f21b6efb54903715a6fc3af
-last_modified_at: 2023-11-12
+content_hash: 14b3ca616e3bb61f0f6bb7086e5f287db5a95319
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/apk.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/apk.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apk.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # apk
 
 Gestore pacchetti di Alpine Linux.
-Maggiori informazioni: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
+Maggiori informazioni: <https://manned.org/apk>.
 
 - Aggiorna gli indici di tutti i repository remoti:
 

@@ -2,14 +2,17 @@
 layout: page
 title: linux/pacman-deptest (English)
 description: "Check each dependency specified and return a list of dependencies that are not currently satisfied on the system."
-content_hash: ee4e0b7e913e402a50d155af7fcfaec12fba80a3
-last_modified_at: 2023-11-12
+content_hash: 99e45ee9d8da1d693853e88879446f77b7ad2c59
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-deptest.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-deptest.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-deptest.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-deptest.html
@@ -23,7 +26,7 @@ tldri18n_status: 2
 
 Check each dependency specified and return a list of dependencies that are not currently satisfied on the system.
 See also: `pacman`.
-More information: <https://man.archlinux.org/man/pacman.8>.
+More information: <https://manned.org/pacman.8>.
 
 - Print the package names of the dependencies that aren't installed:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-files (한국어)
 description: "Arch Linux 패키지 관리 도구."
-content_hash: 19d2ff57ffcc58e6a4a0c1e08766152caaec0ea3
-last_modified_at: 2024-06-10
+content_hash: f5dbd8e4f83cdd820c2c64d81e38dd3b5d92eaab
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-files.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Arch Linux 패키지 관리 도구.
 같이 보기: `pacman`, `pkgfile`.
-더 많은 정보: <https://man.archlinux.org/man/pacman.8>.
+더 많은 정보: <https://manned.org/pacman.8>.
 
 - 패키지 데이터베이스 업데이트:
 

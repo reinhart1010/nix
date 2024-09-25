@@ -2,14 +2,18 @@
 layout: page
 title: linux/repo-remove (English)
 description: "Package database maintenance utility which removes packages from a local repository."
-content_hash: 013fe6b15b5fe45a8dbd2be5e27d00f9d25641e3
-last_modified_at: 2024-02-28
+content_hash: 1d7aaad752eceaaf7cbf468ce979150b736d8543
+last_modified_at: 2024-09-25
+related_topics:
+  - title: español version
+    url: /es/linux/repo-remove.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # repo-remove
 
 Package database maintenance utility which removes packages from a local repository.
-More information: <https://man.archlinux.org/man/repo-add>.
+More information: <https://manned.org/repo-add>.
 
 - Remove a package from a local repository:
 

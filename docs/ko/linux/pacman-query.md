@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-query (한국어)
 description: "Arch Linux 패키지 관리 도구."
-content_hash: e66700bbd8562cb1ee9d64f7eb0666eb19790d6a
-last_modified_at: 2024-06-10
+content_hash: 2d3eacc93b2a4d3318fed9abab59a0c680993e4a
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
@@ -29,7 +29,7 @@ tldri18n_status: 2
 
 Arch Linux 패키지 관리 도구.
 같이 보기: `pacman`.
-더 많은 정보: <https://man.archlinux.org/man/pacman.8>.
+더 많은 정보: <https://manned.org/pacman.8>.
 
 - 설치된 패키지와 버전 나열:
 

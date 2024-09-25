@@ -2,8 +2,8 @@
 layout: page
 title: linux/apk (தமிழ்)
 description: "ஆல்பைன் லினக்ஸ் தொகுப்பு மேலாண்மை கருவி."
-content_hash: c3318212a83d311da93d0e0dd2fd2a963154c54b
-last_modified_at: 2023-11-12
+content_hash: c4d1fab09b38a79ef95ed49598a267c662b9195c
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/apk.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/apk.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apk.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # apk
 
 ஆல்பைன் லினக்ஸ் தொகுப்பு மேலாண்மை கருவி.
-மேலும் விவரத்திற்கு: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
+மேலும் விவரத்திற்கு: <https://manned.org/apk>.
 
 - அனைத்து தொலை களஞ்சியங்களிலிருந்தும் களஞ்சியக் குறியீடுகளைப் புதுப்பிக்கவும்:
 

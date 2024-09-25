@@ -2,14 +2,17 @@
 layout: page
 title: linux/pacman-deptest (Deutsch)
 description: "Überprüfe alle angegebenen Abhängigkeiten und gib eine Liste von Abhängigkeiten zurück, welche auf dem System nicht erfüllt sind."
-content_hash: e6510e64f4a24e3076dbdf4ba83e59d4801ecba6
-last_modified_at: 2023-12-28
+content_hash: 3a0d32ac90c849c4855ead57adca04dc71d276f2
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/pacman-deptest.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-deptest.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-deptest.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-deptest.html
@@ -23,7 +26,7 @@ tldri18n_status: 2
 
 Überprüfe alle angegebenen Abhängigkeiten und gib eine Liste von Abhängigkeiten zurück, welche auf dem System nicht erfüllt sind.
 Siehe auch: `pacman`.
-Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
+Weitere Informationen: <https://manned.org/pacman.8>.
 
 - Zeige Paketnamen von Abhängigkeiten an, welche nicht installiert sind:
 

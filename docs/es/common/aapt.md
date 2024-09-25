@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (español)
 description: "Herramienta para empaquetado de activos de Android."
-content_hash: dd91bea5e4a7a7f837764eee6330b1ecc7a198fe
-last_modified_at: 2023-11-12
+content_hash: b450cc7ce4c47de633d00bbf37734f82aaaac799
+last_modified_at: 2024-09-25
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 Herramienta para empaquetado de activos de Android.
 Compila y empaqueta recursos de una app de Android.
-Más información: <https://elinux.org/Android_aapt>.
+Más información: <https://manned.org/aapt>.
 
 - Lista los archivos contenidos en un archivo APK:
 

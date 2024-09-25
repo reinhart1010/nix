@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (فارسی)
 description: "واحد مدیریت پکیج آرچ لینوکس"
-content_hash: 6f6a704cc2a4400a5764c7d56f68c17878c01e0a
-last_modified_at: 2024-05-06
+content_hash: 53323b9fc3b6e31cde4b570596fe918251173404
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/pacman.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/pacman.html
@@ -51,7 +54,7 @@ tldri18n_status: 2
 واحد مدیریت پکیج آرچ لینوکس
 همچنین : `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 برای دیدن دستور های معادل در سایر پکیج منیجر ها <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-اطلاعات بیشتر: <https://man.archlinux.org/man/pacman.8>.
+اطلاعات بیشتر: <https://manned.org/pacman.8>.
 
 - همگام سازی و بروز رسانی تمام پکیج ها:
 

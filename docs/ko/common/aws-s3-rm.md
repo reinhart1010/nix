@@ -3,23 +3,14 @@ layout: page
 title: common/aws-s3-rm (한국어)
 description: "S3 객체 삭제."
 content_hash: 06957601f49334acdcba35abacadbdbc3b2a500d
-last_modified_at: 2024-09-24
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/aws-s3-rm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-s3-rm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws s3 rm
+# aws s3 rm
 
 S3 객체 삭제.
 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/rm.html>.

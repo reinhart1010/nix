@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (português (Brasil))
 description: "Ferramenta Android de empacotamento de recursos."
-content_hash: ec6ffc3549f8ec982d1b9aeb1917ad38c3fe59db
-last_modified_at: 2023-11-12
+content_hash: 178e8c370755483a826bbc5cc237ef19dab134ed
+last_modified_at: 2024-09-25
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 Ferramenta Android de empacotamento de recursos.
 Compila e empacota recursos de um aplicativo Android.
-Mais informações: <https://elinux.org/Android_aapt>.
+Mais informações: <https://manned.org/aapt>.
 
 - Lista os arquivos contigos em um arquivo APK:
 

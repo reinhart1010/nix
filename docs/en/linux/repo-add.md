@@ -2,14 +2,14 @@
 layout: page
 title: linux/repo-add (English)
 description: "Package database maintenance utility which enables installation of said package via Pacman."
-content_hash: 8e5df5d67ab3f4cca833003f241e9c01a39ac943
-last_modified_at: 2024-02-24
+content_hash: ebb5c71dfbbf80f8c948bc7d5e73a3b38bd9c279
+last_modified_at: 2024-09-25
 tldri18n_status: 2
 ---
 # repo-add
 
 Package database maintenance utility which enables installation of said package via Pacman.
-More information: <https://man.archlinux.org/man/repo-add>.
+More information: <https://manned.org/repo-add>.
 
 - Create an empty repository:
 

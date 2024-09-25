@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு."
-content_hash: 61cd86da4b82cb5178ee97a599d668af1493cb10
-last_modified_at: 2023-11-14
+content_hash: 32c1ffb30db2316306c8449020fec18b65e99263
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -11,11 +11,20 @@ related_topics:
   - title: English version
     url: /en/linux/pacman.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/pacman.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/pacman.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/pacman.html
@@ -44,7 +53,7 @@ tldri18n_status: 2
 
 ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
 இதையும் பார்க்கவும்: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
-மேலும் விவரத்திற்கு: <https://man.archlinux.org/man/pacman.8>.
+மேலும் விவரத்திற்கு: <https://manned.org/pacman.8>.
 
 - அனைத்து தொகுப்புகளையும் ஒத்திசைத்து புதுப்பிக்கவும்:
 

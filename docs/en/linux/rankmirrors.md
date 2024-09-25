@@ -2,15 +2,15 @@
 layout: page
 title: linux/rankmirrors (English)
 description: "Rank a list of Pacman mirrors by connection and opening speed."
-content_hash: 3dd63783ecfdca91f2b9e3ac5c9d3b4a8e5d824b
-last_modified_at: 2023-11-12
+content_hash: 67be4f1dd37a6aa010e2b960757e8f40b86c9e65
+last_modified_at: 2024-09-25
 tldri18n_status: 2
 ---
 # rankmirrors
 
 Rank a list of Pacman mirrors by connection and opening speed.
 Writes the new mirrorlist to `stdout`.
-More information: <https://wiki.archlinux.org/index.php/mirrors>.
+More information: <https://manned.org/rankmirrors>.
 
 - Rank a mirror list:
 

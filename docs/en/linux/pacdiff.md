@@ -2,14 +2,14 @@
 layout: page
 title: linux/pacdiff (English)
 description: "Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`."
-content_hash: c8dff6b80f9d9d66a92f9fb2ebaa5f7868c8a6f9
-last_modified_at: 2024-01-30
+content_hash: d5ae055a6f1c1733c7e97b85b099f5a414de01c5
+last_modified_at: 2024-09-25
 tldri18n_status: 2
 ---
 # pacdiff
 
 Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`.
-More information: <https://man.archlinux.org/man/pacdiff>.
+More information: <https://manned.org/pacdiff>.
 
 - Review files that need maintenance in interactive mode:
 

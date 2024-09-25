@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-deptest (polski)
 description: "Sprawdź każdą podaną zależność i zwróć listę zależności, które nie są aktualnie spełnione."
-content_hash: 9cd4e7fad7ada1a78f334bf57a1e9a551417a8f2
-last_modified_at: 2024-01-02
+content_hash: ff7b5a29183f3c393601db2662a6581c7c256d98
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-deptest.html
@@ -14,6 +14,9 @@ related_topics:
   - title: français version
     url: /fr/linux/pacman-deptest.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-deptest.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-deptest.html
     icon: bi bi-globe
@@ -23,7 +26,7 @@ tldri18n_status: 2
 
 Sprawdź każdą podaną zależność i zwróć listę zależności, które nie są aktualnie spełnione.
 Zobacz także: `pacman`.
-Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
+Więcej informacji: <https://manned.org/pacman.8>.
 
 - Wyświetl nazwy zależności, które nie są zainstalowane:
 

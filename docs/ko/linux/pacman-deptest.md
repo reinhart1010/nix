@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-deptest (한국어)
 description: "지정된 각 의존성을 확인하고 시스템에 현재 충족되지 않은 의존성 목록을 반환합니다."
-content_hash: b1c9517fcf78274916e2d5215b1c47d1ab3d0980
-last_modified_at: 2024-06-10
+content_hash: 384c2e3363b91529d20bd02604299875dc118815
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-deptest.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 지정된 각 의존성을 확인하고 시스템에 현재 충족되지 않은 의존성 목록을 반환합니다.
 같이 보기: `pacman`.
-더 많은 정보: <https://man.archlinux.org/man/pacman.8>.
+더 많은 정보: <https://manned.org/pacman.8>.
 
 - 설치되지 않은 의존성의 패키지 이름을 출력:
 

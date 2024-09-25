@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-sync (English)
 description: "Arch Linux package manager utility."
-content_hash: a7183cf5decaa231d6f53ab4baddf8998612f7fa
-last_modified_at: 2023-11-12
+content_hash: f6cb1edc489bf669a789b73776f65f0140f4cd06
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman-sync.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-sync.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-sync.html
@@ -29,7 +32,7 @@ tldri18n_status: 2
 
 Arch Linux package manager utility.
 See also: `pacman`.
-More information: <https://man.archlinux.org/man/pacman.8>.
+More information: <https://manned.org/pacman.8>.
 
 - Install a new package:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (русский)
 description: "Утилита для упаковки ресурсов для Android."
-content_hash: 0342d7896f588b54604eed85744437b27398c6d6
-last_modified_at: 2023-11-12
+content_hash: 371bcbaf754998988f8c1014bb3fe9c4089cf214
+last_modified_at: 2024-09-25
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 Утилита для упаковки ресурсов для Android.
 Компилирует и упаковывает ресурсы приложений Android.
-Больше информации: <https://elinux.org/Android_aapt>.
+Больше информации: <https://manned.org/aapt>.
 
 - Вывести список файлов содержащихся в APK-архиве:
 

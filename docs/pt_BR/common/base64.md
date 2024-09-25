@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (português (Brasil))
 description: "Codifica ou decodifica um arquivo ou a entrada padrão (`stdin`) de/para Base64, para a saída padrão (`stdout`)."
 content_hash: f552d64c2cfb6c8ab91a46ec4e08fe8487d074ce
-last_modified_at: 2024-09-24
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/base64.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/base64.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/base64.html
@@ -35,12 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># base64
+# base64
 
 Codifica ou decodifica um arquivo ou a entrada padrão (`stdin`) de/para Base64, para a saída padrão (`stdout`).
 Mais informações: <https://manned.org/base64>.

@@ -3,13 +3,19 @@ layout: page
 title: common/base32 (Deutsch)
 description: "Kodieren oder Dekodieren von Dateien oder Standardeingaben in/aus Base32, zur Standardausgabe."
 content_hash: e51afb23c90667ed9ab0eee190538f64d440774b
-last_modified_at: 2024-09-24
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/base32.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/base32.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/base32.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/base32.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/base32.html
@@ -32,18 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base32.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/base32.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># base32
+# base32
 
 Kodieren oder Dekodieren von Dateien oder Standardeingaben in/aus Base32, zur Standardausgabe.
 Weitere Informationen: <https://manned.org/base32>.

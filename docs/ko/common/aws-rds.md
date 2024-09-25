@@ -3,7 +3,7 @@ layout: page
 title: common/aws-rds (한국어)
 description: "관계형 데이터베이스를 설정, 운영 및 확장하기 위한 웹 서비스인 AWS Relational Database Service를 사용."
 content_hash: 7beaa791303d1265576ac36490b14cd27fb81db3
-last_modified_at: 2024-09-24
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/aws-rds.html
@@ -14,18 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/aws-rds.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-rds.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws rds
+# aws rds
 
 관계형 데이터베이스를 설정, 운영 및 확장하기 위한 웹 서비스인 AWS Relational Database Service를 사용.
 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html>.

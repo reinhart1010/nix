@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (中文)
 description: "将文件或标准输入编码到 Base64 或从 Base64 解码为标准输出。"
 content_hash: 9f658f49630e0c5c6dbfcc0a9e6f7c354e2ae944
-last_modified_at: 2024-09-24
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/base64.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/base64.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/base64.html
@@ -35,12 +38,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/base64.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># base64
+# base64
 
 将文件或标准输入编码到 Base64 或从 Base64 解码为标准输出。
 更多信息：<https://manned.org/base64>.

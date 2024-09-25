@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-upgrade (한국어)
 description: "Arch Linux 패키지 관리 도구."
-content_hash: c4d972596033352c06bbee95405ee6ba5325125b
-last_modified_at: 2024-06-10
+content_hash: 06e65f3ac175e02870d2874d9915fc53455e9221
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -29,7 +29,7 @@ tldri18n_status: 2
 
 Arch Linux 패키지 관리 도구.
 같이 보기: `pacman`.
-더 많은 정보: <https://man.archlinux.org/man/pacman.8>.
+더 많은 정보: <https://manned.org/pacman.8>.
 
 - 파일에서 하나 이상의 패키지 설치:
 

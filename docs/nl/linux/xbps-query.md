@@ -2,8 +2,8 @@
 layout: page
 title: linux/xbps-query (Nederlands)
 description: "XBPS hulpprogramma om te zoeken naar een pakket en repository informatie."
-content_hash: 5101f2781a5ba4111cbb61ae182b6edacefcd5ec
-last_modified_at: 2023-11-12
+content_hash: af6b71cb32292cac42532d8d840e3f781c0b1da8
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/xbps-query.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 XBPS hulpprogramma om te zoeken naar een pakket en repository informatie.
 Bekijk ook: `xbps`.
-Meer informatie: <https://man.voidlinux.org/xbps-query.1>.
+Meer informatie: <https://manned.org/xbps-query.1>.
 
 - Zoek naar een pakket in externe repositories met behulp van een reguliere expressie of een trefwoord (als `--regex` wordt weggelaten):
 

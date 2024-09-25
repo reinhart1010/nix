@@ -2,8 +2,8 @@
 layout: page
 title: linux/pkgctl-repo (English)
 description: "Manage Git packaging repositories and their configuration for Arch Linux."
-content_hash: db825038fc5f0bde2c02f00666b4d5ce20db205d
-last_modified_at: 2023-11-12
+content_hash: d8408b0336a852e44db5a7e79a1ac55e6681a0a8
+last_modified_at: 2024-09-25
 related_topics:
   - title: Nederlands version
     url: /nl/linux/pkgctl-repo.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Manage Git packaging repositories and their configuration for Arch Linux.
 See also: `pkgctl`.
-More information: <https://man.archlinux.org/man/pkgctl-repo.1>.
+More information: <https://manned.org/pkgctl-repo.1>.
 
 - Clone a package repository (requires setting an SSH key in your Arch Linux GitLab account):
 

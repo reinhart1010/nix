@@ -2,11 +2,14 @@
 layout: page
 title: common/calendar (فارسی)
 description: "نمایش رویداد های پیش رو با استفاده از یک فایل تقویم."
-content_hash: acd235ff1fe6a3ecfaaa4c058627f2e5324d6022
-last_modified_at: 2024-01-06
+content_hash: fa098846d2f8d31d180b50d75baee8f40d0c6177
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/calendar.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/calendar.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/calendar.html
@@ -16,7 +19,7 @@ tldri18n_status: 2
 # calendar
 
 نمایش رویداد های پیش رو با استفاده از یک فایل تقویم.
-اطلاعات بیشتر: <https://www.commandlinux.com/man-page/man1/calendar.1.html>.
+اطلاعات بیشتر: <https://manned.org/calendar>.
 
 - نمایش رویداد های امروز و فردا (یا آخر هفته یعنی روز جمعه) با استفاده از تقویم پیشفرض:
 

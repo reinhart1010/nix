@@ -3,7 +3,7 @@ layout: page
 title: common/aws-quicksight (한국어)
 description: "AWS QuickSight 엔터티를 생성, 삭제, 나열, 검색 및 업데이트."
 content_hash: 5d597893005c80bc2fae95c3d11d4e3593f5e064
-last_modified_at: 2024-09-24
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-quicksight.html
@@ -14,18 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/aws-quicksight.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-quicksight.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws quicksight
+# aws quicksight
 
 AWS QuickSight 엔터티를 생성, 삭제, 나열, 검색 및 업데이트.
 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/quicksight/>.

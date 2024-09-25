@@ -2,8 +2,8 @@
 layout: page
 title: linux/makepkg (English)
 description: "Create a package which can be used with `pacman`."
-content_hash: 616ba4f317c18fcbb0fe9e9c32eed2208d6a534b
-last_modified_at: 2023-11-12
+content_hash: 80708944e698ade88bdaa5a1f857e6dfa1154413
+last_modified_at: 2024-09-25
 related_topics:
   - title: हिन्दी version
     url: /hi/linux/makepkg.html
@@ -11,13 +11,16 @@ related_topics:
   - title: polski version
     url: /pl/linux/makepkg.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/makepkg.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # makepkg
 
 Create a package which can be used with `pacman`.
 Uses the `PKGBUILD` file in the current working directory by default.
-More information: <https://man.archlinux.org/man/makepkg.8>.
+More information: <https://manned.org/makepkg.8>.
 
 - Make a package:
 

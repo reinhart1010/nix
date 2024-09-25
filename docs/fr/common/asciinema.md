@@ -2,14 +2,17 @@
 layout: page
 title: common/asciinema (français)
 description: "Enregistre et rejoue les sessions de terminal, et également partageable sur asciinema.org."
-content_hash: a39e0b66f358424c05c3878b77ccbc99b8bf7858
-last_modified_at: 2024-02-15
+content_hash: 227dd701eea308eb6c495f801767fc3d4979bd59
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/asciinema.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/asciinema.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asciinema.html
@@ -52,7 +55,7 @@ Plus d'informations : <https://docs.asciinema.org/manual/cli/usage>.
 
 - Crée un nouvel enregistrement, en limitant le temps d’[i]nactivité au maximum à 2.5 secondes :
 
-`asciinema rec -i 2.5`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--idle-time-limit</span>` 2.5`
 
 - Affiche la sortie complète d'un enregistrement local :
 

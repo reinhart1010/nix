@@ -2,14 +2,14 @@
 layout: page
 title: linux/mkinitcpio (English)
 description: "Generates initial ramdisk environments for booting the Linux kernel based on the specified preset(s)."
-content_hash: d67f64f9743332d62970350b2fdfc1fe80238eca
-last_modified_at: 2023-11-12
+content_hash: daabeaa84f2cbfb4f2be8461a334d48c2a73f9ea
+last_modified_at: 2024-09-25
 tldri18n_status: 2
 ---
 # mkinitcpio
 
 Generates initial ramdisk environments for booting the Linux kernel based on the specified preset(s).
-More information: <https://man.archlinux.org/man/mkinitcpio.8>.
+More information: <https://manned.org/mkinitcpio.8>.
 
 - Perform a dry run (print what would be done without actually doing it):
 

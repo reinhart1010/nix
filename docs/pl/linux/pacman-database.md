@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-database (polski)
 description: "Operuj na bazie danych pakietów Arch Linuksa."
-content_hash: 986aa8a94da91e465d73dce12036d5db5b3c7105
-last_modified_at: 2023-11-12
+content_hash: d1abd2d30b40a8660583737e600acd8da0ecec5f
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-database.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-database.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-database.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-database.html
@@ -24,7 +27,7 @@ tldri18n_status: 2
 Operuj na bazie danych pakietów Arch Linuksa.
 Modyfikuj niektóre atrybuty zainstalowanych pakietów.
 Zobacz także: `pacman`.
-Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
+Więcej informacji: <https://manned.org/pacman.8>.
 
 - Oznacz pakiet jako pośrednio zainstalowany (zależność):
 

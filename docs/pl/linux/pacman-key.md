@@ -2,14 +2,17 @@
 layout: page
 title: linux/pacman-key (polski)
 description: "Skrypt opakowujący dla GnuPG używany do zarządzania pękiem kluczy pacmana."
-content_hash: 018b5e02aa1e275e11dd8347018268098d74151d
-last_modified_at: 2023-11-12
+content_hash: 1753bfb2fc46455d8dbf95cf56b18c1d09153acb
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/pacman-key.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-key.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-key.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-key.html
@@ -20,7 +23,7 @@ tldri18n_status: 2
 
 Skrypt opakowujący dla GnuPG używany do zarządzania pękiem kluczy pacmana.
 Zobacz także: `pacman`.
-Więcej informacji: <https://man.archlinux.org/man/pacman-key>.
+Więcej informacji: <https://manned.org/pacman-key>.
 
 - Zainicjalizuj pęk kluczy pacmana:
 

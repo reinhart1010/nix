@@ -2,14 +2,14 @@
 layout: page
 title: linux/rkhunter (English)
 description: "Searches for rootkits and malware."
-content_hash: 2f3b1eb2e24c4b86c5f39702e795b764f0d612d2
-last_modified_at: 2023-11-12
+content_hash: 5d0e50020d6af6c05e76bb5001b76c8a68a02bc1
+last_modified_at: 2024-09-25
 tldri18n_status: 2
 ---
 # rkhunter
 
 Searches for rootkits and malware.
-More information: <https://wiki.archlinux.org/title/Rkhunter>.
+More information: <https://manned.org/rkhunter>.
 
 - Check a system for rootkits and malware:
 

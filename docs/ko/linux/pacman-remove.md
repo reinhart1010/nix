@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-remove (한국어)
 description: "Arch Linux 패키지 관리 도구."
-content_hash: 4c678e0e25b300f2324f3771f5916ef0ea7699cb
-last_modified_at: 2024-06-10
+content_hash: cbee75a6d71a5efddd52c476d111caba0e242a66
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -32,7 +32,7 @@ tldri18n_status: 2
 
 Arch Linux 패키지 관리 도구.
 같이 보기: `pacman`.
-더 많은 정보: <https://man.archlinux.org/man/pacman.8>.
+더 많은 정보: <https://manned.org/pacman.8>.
 
 - 패키지와 그 의존성 제거:
 

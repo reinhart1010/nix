@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (Indonesia)
 description: "Lakukan pengodean dan pendekodean terhadap suatu berkas atau `stdin` dari/menuju format Base64, menuju `stdout`."
 content_hash: 3fbdd0ab64b78257aed1b840d0c1113f3f57b690
-last_modified_at: 2024-09-24
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -38,18 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/base64.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># base64
+# base64
 
 Lakukan pengodean dan pendekodean terhadap suatu berkas atau `stdin` dari/menuju format Base64, menuju `stdout`.
 Informasi lebih lanjut: <https://manned.org/base64>.

@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-upgrade (polski)
 description: "Narzędzie do zarządzania pakietami w Arch Linuksie."
-content_hash: 7843e14cf62c32aa5e24d8a85a1147e352ae2096
-last_modified_at: 2023-11-12
+content_hash: e77c8471062d987e6b8200fede87073122b91141
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -17,6 +17,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/pacman-upgrade.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-upgrade.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-upgrade.html
     icon: bi bi-globe
@@ -26,7 +29,7 @@ tldri18n_status: 2
 
 Narzędzie do zarządzania pakietami w Arch Linuksie.
 Zobacz także: `pacman`.
-Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
+Więcej informacji: <https://manned.org/pacman.8>.
 
 - Zainstaluj jeden lub więcej pakietów z plików:
 

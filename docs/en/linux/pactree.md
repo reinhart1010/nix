@@ -2,14 +2,14 @@
 layout: page
 title: linux/pactree (English)
 description: "Package dependency tree viewer for pacman."
-content_hash: ff572b853933a2db63158042c2795af7930a99c2
-last_modified_at: 2023-11-12
+content_hash: cf225c358c1842493719f269286c2c673aab6976
+last_modified_at: 2024-09-25
 tldri18n_status: 2
 ---
 # pactree
 
 Package dependency tree viewer for pacman.
-More information: <https://man.archlinux.org/man/pactree.8>.
+More information: <https://manned.org/pactree.8>.
 
 - Print the dependency tree of a specific package:
 

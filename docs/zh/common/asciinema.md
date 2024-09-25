@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (中文)
 description: "录制和播放终端会话，也可以把他们分享到 asciinema.org."
-content_hash: fe31acb589de65945d8c1b0db6b360a8c7d53e6d
-last_modified_at: 2024-02-15
+content_hash: c187b17f34e73580205e0ab901a8b6c8580d8230
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/asciinema.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/asciinema.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asciinema.html
@@ -52,7 +55,7 @@ tldri18n_status: 2
 
 - 进行新的录制，将闲置时间设置为最多 2.5 秒：
 
-`asciinema rec -i 2.5`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--idle-time-limit</span>` 2.5`
 
 - 打印本地保存的录像的完整输出：
 

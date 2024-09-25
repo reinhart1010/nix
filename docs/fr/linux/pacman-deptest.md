@@ -2,14 +2,17 @@
 layout: page
 title: linux/pacman-deptest (français)
 description: "Vérifie la satisfaction des dépendances et renvoie celles qui ne le sont pas."
-content_hash: 24c4de7fd8d9384ff50bf55d99bb9afcde27d25b
-last_modified_at: 2023-12-28
+content_hash: 1017521d4ff3ba9fde15222ef7635b8886839bdf
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-deptest.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/pacman-deptest.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-deptest.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-deptest.html
@@ -23,7 +26,7 @@ tldri18n_status: 2
 
 Vérifie la satisfaction des dépendances et renvoie celles qui ne le sont pas.
 Voir aussi: `pacman`.
-Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
+Plus d'informations : <https://manned.org/pacman.8>.
 
 - Affiche les noms des paquets qui ne sont pas installés dans la liste :
 

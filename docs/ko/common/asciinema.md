@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (한국어)
 description: "터미널 세션을 녹음하고 재생하며 선택적으로 asciinema.org에서 공유합니다."
-content_hash: c8f32aacbb12c260117fc97f6c019e02584f0662
-last_modified_at: 2024-02-15
+content_hash: 469cfd83b89801b8e1121e3e6093eede0314f87b
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/asciinema.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/asciinema.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asciinema.html
@@ -52,7 +55,7 @@ tldri18n_status: 2
 
 - 새로운 녹음을 만들어 유휴 시간을 최대 2.5초로 제한:
 
-`asciinema rec -i 2.5`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--idle-time-limit</span>` 2.5`
 
 - 로컬 저장 기록의 전체 출력을 인쇄:
 

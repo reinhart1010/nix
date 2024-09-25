@@ -2,14 +2,14 @@
 layout: page
 title: linux/pacstrap (English)
 description: "Arch Linux install script to install packages to the specified new root directory."
-content_hash: 745ecdde1cef9839001a2c02f2527ec404df7c9e
-last_modified_at: 2024-02-05
+content_hash: c5806b7f075774cf2f282b89f0e2b93b914008aa
+last_modified_at: 2024-09-25
 tldri18n_status: 2
 ---
 # pacstrap
 
 Arch Linux install script to install packages to the specified new root directory.
-More information: <https://man.archlinux.org/man/pacstrap.8>.
+More information: <https://manned.org/pacstrap.8>.
 
 - Install the `base` package, Linux kernel and firmware for common hardware:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/pkgctl-diff (Nederlands)
 description: "Vergelijk pakketbestanden met behulp van verschillende modi."
-content_hash: 21bd7d33d26089d53ae4f2aa77a117e22934712b
-last_modified_at: 2023-11-12
+content_hash: 4d87aef524f3a38541059a95a7c92e29f9555ddc
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/pkgctl-diff.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Vergelijk pakketbestanden met behulp van verschillende modi.
 Bekijk ook: `pkgctl`.
-Meer informatie: <https://man.archlinux.org/man/pkgctl-diff.1>.
+Meer informatie: <https://manned.org/pkgctl-diff.1>.
 
 - Vergelijk pakketbestanden in tar-inhoud [l]ijst verschillende modus (standaard):
 

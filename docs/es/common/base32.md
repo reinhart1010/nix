@@ -3,13 +3,19 @@ layout: page
 title: common/base32 (español)
 description: "Codifica o decodifica un archivo o la entrada estandar hacia/desde Base32, a la salida estandar."
 content_hash: d5930e719057f8a10e3d62c2f9892785076e8586
-last_modified_at: 2024-09-24
+last_modified_at: 2024-09-25
 related_topics:
+  - title: Deutsch version
+    url: /de/common/base32.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/base32.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/base32.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/base32.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/base32.html
@@ -32,18 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base32.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/base32.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># base32
+# base32
 
 Codifica o decodifica un archivo o la entrada estandar hacia/desde Base32, a la salida estandar.
 Más información: <https://manned.org/base32>.

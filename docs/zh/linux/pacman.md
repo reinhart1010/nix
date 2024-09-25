@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (中文)
 description: "Arch Linux 的软件包管理器工具。"
-content_hash: 8fe68de4a6d0ddbd5b9d630858080d42fd57452b
-last_modified_at: 2024-01-02
+content_hash: 4904cd1c81f6dd9115d2634e4733ff4a3ccbef25
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -11,11 +11,20 @@ related_topics:
   - title: English version
     url: /en/linux/pacman.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/pacman.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/pacman.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/pacman.html
@@ -47,7 +56,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Arch Linux 的软件包管理器工具。
 也可以看看：`pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
-更多信息：<https://man.archlinux.org/man/pacman.8>.
+更多信息：<https://manned.org/pacman.8>.
 
 - 同步并更新所有软件包：
 

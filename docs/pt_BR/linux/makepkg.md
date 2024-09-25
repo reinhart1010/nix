@@ -2,8 +2,8 @@
 layout: page
 title: linux/makepkg (português (Brasil))
 description: "Monta um pacote que pode ser usado junto ao `pacman`."
-content_hash: 7836defb09f06ad643996c008cbd37bf1513e67b
-last_modified_at: 2024-03-01
+content_hash: 4973f31a8887d85c1ac7ce678610ed2ef93d42ee
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/makepkg.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Monta um pacote que pode ser usado junto ao `pacman`.
 Utiliza por padrão o arquivo `PKGBUILD` no diretório de trabalho atual.
-Mais informações: <https://man.archlinux.org/man/makepkg.8>.
+Mais informações: <https://manned.org/makepkg.8>.
 
 - Monta um pacote:
 

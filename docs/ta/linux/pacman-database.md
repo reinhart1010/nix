@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-database (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு தரவுத்தளத்தில் செயல்படவும்."
-content_hash: 14f94bb690b41c71805cdc8128df8d32620e0b17
-last_modified_at: 2023-11-13
+content_hash: d0136619276dc26ce179017463a8aee3ccb29bcc
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-database.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-database.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-database.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-database.html
@@ -24,7 +27,7 @@ tldri18n_status: 2
 ஆர்ச் லினக்ஸ் தொகுப்பு தரவுத்தளத்தில் செயல்படவும்.
 நிறுவப்பட்ட தொகுப்புகளின் சில பண்புகளை மாற்றவும்.
 இதையும் பார்க்கவும்: `pacman`.
-மேலும் விவரத்திற்கு: <https://man.archlinux.org/man/pacman.8>.
+மேலும் விவரத்திற்கு: <https://manned.org/pacman.8>.
 
 - ஒரு தொகுப்பை மறைமுகமாக நிறுவியதாகக் குறிக்கவும்:
 

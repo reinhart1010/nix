@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-remove (polski)
 description: "Narzędzie do zarządzania pakietami w Arch Linuksie."
-content_hash: 5883a4a39e7c1b119a1308909d97c1525a33b8ef
-last_modified_at: 2023-11-12
+content_hash: 6f9a7b4b2732d52302553ebb41ee032861b4c4c4
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -17,6 +17,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/pacman-remove.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-remove.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-remove.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ tldri18n_status: 2
 
 Narzędzie do zarządzania pakietami w Arch Linuksie.
 Zobacz także: `pacman`.
-Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
+Więcej informacji: <https://manned.org/pacman.8>.
 
 - Usuń pakiet i jego zależności:
 

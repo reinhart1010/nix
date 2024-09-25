@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-remove (français)
 description: "Supprimes des paquets."
-content_hash: 4dc3e64a5a8b48dd075de7f39668eca95697fb8b
-last_modified_at: 2023-11-12
+content_hash: 80834c5c50e31009002332dc4323b19ea1f91e31
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman-remove.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-remove.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-remove.html
@@ -29,7 +32,7 @@ tldri18n_status: 2
 
 Supprimes des paquets.
 Voir aussi: `pacman`.
-Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
+Plus d'informations : <https://manned.org/pacman.8>.
 
 - Supprime un paquet et ses dépendances :
 

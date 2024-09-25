@@ -2,8 +2,8 @@
 layout: page
 title: linux/checkupdates (English)
 description: "Check pending updates in Arch Linux."
-content_hash: 143912fe941720a924248af2fe1931456dfa6cd6
-last_modified_at: 2024-02-15
+content_hash: 24dc420f8adbfe95b1e744aa1d4355b4e726a323
+last_modified_at: 2024-09-25
 related_topics:
   - title: हिन्दी version
     url: /hi/linux/checkupdates.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # checkupdates
 
 Check pending updates in Arch Linux.
-More information: <https://man.archlinux.org/man/checkupdates.8>.
+More information: <https://manned.org/checkupdates.8>.
 
 - List pending updates:
 

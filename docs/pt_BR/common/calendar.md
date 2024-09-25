@@ -2,18 +2,24 @@
 layout: page
 title: common/calendar (português (Brasil))
 description: "Mostra eventos de um arquivo calendar."
-content_hash: 98fba375647f74ed42bc5d99309c2d77f17046ea
-last_modified_at: 2023-11-12
+content_hash: cd082f4d982d3f475dab9d48ec0e3030ed72585f
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/calendar.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/calendar.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/calendar.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # calendar
 
 Mostra eventos de um arquivo calendar.
-Mais informações: <https://www.commandlinux.com/man-page/man1/calendar.1.html>.
+Mais informações: <https://manned.org/calendar>.
 
 - Mostra eventos para hoje e amanhã (ou para o final de semana na sexta-feira) do calendário padrão:
 

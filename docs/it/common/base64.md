@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (italiano)
 description: "Codifica o decodifica file o standard input in Base64 su standard output."
 content_hash: 41744f41e9c673ca8898af84be85bd6d61260e44
-last_modified_at: 2024-09-24
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/base64.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/base64.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/base64.html
@@ -35,12 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># base64
+# base64
 
 Codifica o decodifica file o standard input in Base64 su standard output.
 Maggiori informazioni: <https://manned.org/base64>.

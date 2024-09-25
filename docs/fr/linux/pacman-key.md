@@ -2,11 +2,14 @@
 layout: page
 title: linux/pacman-key (français)
 description: "Script enrobeur pour GnuPG utilisé pour gérer le trousseau de clés de pacman."
-content_hash: e956aa264910ed61943c92d8523387d02c3f5f8c
-last_modified_at: 2023-11-12
+content_hash: b7b97e08dbc6886231f2a83aee884bd7e9d3294a
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/pacman-key.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-key.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-key.html
@@ -20,7 +23,7 @@ tldri18n_status: 2
 
 Script enrobeur pour GnuPG utilisé pour gérer le trousseau de clés de pacman.
 Voir aussi: `pacman`.
-Plus d'informations : <https://man.archlinux.org/man/pacman-key>.
+Plus d'informations : <https://manned.org/pacman-key>.
 
 - Initialise le trousseau de clés de pacman :
 

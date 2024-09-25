@@ -2,8 +2,8 @@
 layout: page
 title: linux/at (Nederlands)
 description: "Voert commando's uit op een gespecificeerd tijdstip."
-content_hash: aad6de4c4ab67c7fb9139c20eb626fa41149bae5
-last_modified_at: 2024-08-13
+content_hash: 9a5edffaa30a1efb4a8b92a4dce9c2bb46b8dc51
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/at.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # at
 
 Voert commando's uit op een gespecificeerd tijdstip.
-Meer informatie: <https://man.archlinux.org/man/at.1>.
+Meer informatie: <https://manned.org/at.1>.
 
 - Open een `at`-prompt om een nieuwe reeks geplande commando's te maken, druk op `Ctrl + D` om op te slaan en af te sluiten:
 

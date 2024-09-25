@@ -2,8 +2,8 @@
 layout: page
 title: linux/apk (فارسی)
 description: "ابزار مدیریت بسته آلپاین لینوکس."
-content_hash: 3f39364afd46d8a00189c32ed7bc2ed7696a5c90
-last_modified_at: 2024-01-05
+content_hash: 62907a2afa8122cc5ec820f79a489ba8c12823b4
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # apk
 
 ابزار مدیریت بسته آلپاین لینوکس.
-اطلاعات بیشتر: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
+اطلاعات بیشتر: <https://manned.org/apk>.
 
 - آپدیت فهرست مخزن ها از تمام مخازن ریموت:
 

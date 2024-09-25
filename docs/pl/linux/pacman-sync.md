@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-sync (polski)
 description: "Narzędzie do zarządzania pakietami w Arch Linuksie."
-content_hash: bca5d8e223151bc6bf79ef4bcfec11868e1c680f
-last_modified_at: 2024-01-02
+content_hash: 1379b960bcca3e7bd78a6ab9c296306b58c1ffda
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -17,6 +17,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/pacman-sync.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-sync.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-sync.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ tldri18n_status: 2
 
 Narzędzie do zarządzania pakietami w Arch Linuksie.
 Zobacz także: `pacman`.
-Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
+Więcej informacji: <https://manned.org/pacman.8>.
 
 - Zainstaluj nowy pakiet:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/apk (中文)
 description: "Alpine Linux 的包管理工具。"
-content_hash: 93eb542a8dc23c27c83bd0f91ffaa5b793e23ff2
-last_modified_at: 2023-11-12
+content_hash: 6d2ce729a1803882ea5f1abddc6e448d40f42ba2
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/apk.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/apk.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apk.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # apk
 
 Alpine Linux 的包管理工具。
-更多信息：<https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
+更多信息：<https://manned.org/apk>.
 
 - 从所有的远程仓库中更新仓库索引：
 

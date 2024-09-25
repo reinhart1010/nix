@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (മലയാളം)
 description: "ആർച്ച് ലിന്ക്സിന്റെ പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി."
-content_hash: 42e40b86a605d3a8fc1ca5986e5618ebed658db2
-last_modified_at: 2023-12-30
+content_hash: 3e48ddf09352ae78202a43302c5f59a068ce8b88
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -11,11 +11,20 @@ related_topics:
   - title: English version
     url: /en/linux/pacman.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/pacman.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/pacman.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman.html
@@ -47,7 +56,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 ആർച്ച് ലിന്ക്സിന്റെ പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി.
 ഇതും കാണുക: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
-കൂടുതൽ വിവരങ്ങൾ: <https://man.archlinux.org/man/pacman.8>.
+കൂടുതൽ വിവരങ്ങൾ: <https://manned.org/pacman.8>.
 
 - ഇൻസ്റ്റാൾ ചെയ്‌ത എല്ലാ പാക്കേജും അപ്‌ഡേറ്റു ചെയ്യുക:
 

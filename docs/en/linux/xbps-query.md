@@ -2,8 +2,8 @@
 layout: page
 title: linux/xbps-query (English)
 description: "XBPS utility to query for package and repository information."
-content_hash: a0e8e4ffbfaa9dd0c7c9f1fc4585b48ae25febd9
-last_modified_at: 2023-11-12
+content_hash: 739d40d2b2816e4c94217b11af353834d4a76d0a
+last_modified_at: 2024-09-25
 related_topics:
   - title: Nederlands version
     url: /nl/linux/xbps-query.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 XBPS utility to query for package and repository information.
 See also: `xbps`.
-More information: <https://man.voidlinux.org/xbps-query.1>.
+More information: <https://manned.org/xbps-query.1>.
 
 - Search for a package in remote repositories using a regular expression or a keyword (if `--regex` is omitted):
 

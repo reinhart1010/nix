@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (français)
 description: "Android Asset Packaging Tool."
-content_hash: 0a6b71eb67ebf5f0c8326d13177d230f9b701a89
-last_modified_at: 2023-11-12
+content_hash: ad6d4b4bff6bb063cfa8c014b935111f464b3bb5
+last_modified_at: 2024-09-25
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 Android Asset Packaging Tool.
 Compile et empaquette les ressources d'une application Android.
-Plus d'informations : <https://elinux.org/Android_aapt>.
+Plus d'informations : <https://manned.org/aapt>.
 
 - Liste les fichiers contenus une archive APK :
 

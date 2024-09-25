@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-query (Türkçe)
 description: "Arch Linux paket yönetim aracı."
-content_hash: 29aa2b2950b248aaae73f604b4484a0d981e96df
-last_modified_at: 2023-11-12
+content_hash: c0686552def4d76879b6fdba6532c55fe5595df9
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
@@ -17,6 +17,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/pacman-query.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-query.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-query.html
     icon: bi bi-globe
@@ -26,7 +29,7 @@ tldri18n_status: 2
 
 Arch Linux paket yönetim aracı.
 Ayrıca bakınız: `pacman`.
-Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
+Daha fazla bilgi için: <https://manned.org/pacman.8>.
 
 - Yüklenmiş paket ve sürümleri sırala:
 

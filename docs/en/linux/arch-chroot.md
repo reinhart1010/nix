@@ -2,8 +2,8 @@
 layout: page
 title: linux/arch-chroot (English)
 description: "Enhanced `chroot` command to help in the Arch Linux installation process."
-content_hash: 8a6567d2fc2be94a37c541bc2ed061848691b4fc
-last_modified_at: 2024-03-10
+content_hash: 3eee587b29b8d579a6fa5975b560cb330524fe7f
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/arch-chroot.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # arch-chroot
 
 Enhanced `chroot` command to help in the Arch Linux installation process.
-More information: <https://man.archlinux.org/man/arch-chroot.8>.
+More information: <https://manned.org/arch-chroot.8>.
 
 - Start an interactive shell (Bash, by default) in a new root directory:
 

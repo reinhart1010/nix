@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (中文)
 description: "安卓资源包工具（Android Asset Packaging Tools）。"
-content_hash: ea13b485c3a2c54242c40096f33ad8595706b52f
-last_modified_at: 2023-11-12
+content_hash: 0b732a82afb23f375b4b75c0f0324a9b3edcb10a
+last_modified_at: 2024-09-25
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 安卓资源包工具（Android Asset Packaging Tools）。
 该工具可以查看，创建，更新资源压缩包（zip, jar, apk）。
-更多信息：<https://elinux.org/Android_aapt>.
+更多信息：<https://manned.org/aapt>.
 
 - 列出资源压缩包里的内容：
 

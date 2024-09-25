@@ -2,8 +2,8 @@
 layout: page
 title: linux/xbps-install (русский)
 description: "XBPS утилита по (пере)установке и обновлению пакетов."
-content_hash: 343e731c3e451e3d935ee972464f0027f8de81a3
-last_modified_at: 2023-11-12
+content_hash: cd773b5201c9a73814601e9dbda6c660274bf76d
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/xbps-install.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 XBPS утилита по (пере)установке и обновлению пакетов.
 Смотрите также: `xbps`.
-Больше информации: <https://man.voidlinux.org/xbps-install.1>.
+Больше информации: <https://manned.org/xbps-install.1>.
 
 - Установить новый пакет:
 

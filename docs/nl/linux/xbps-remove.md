@@ -2,8 +2,8 @@
 layout: page
 title: linux/xbps-remove (Nederlands)
 description: "XBPS hulpprogramma voor het verwijderen van pakketten."
-content_hash: f52297c01d4a2b9c8ecc31a29e62890e529c6be4
-last_modified_at: 2023-11-12
+content_hash: ca95538a30a68d614acc1f04d9a92841e49153de
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/xbps-remove.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 XBPS hulpprogramma voor het verwijderen van pakketten.
 Bekijk ook: `xbps`.
-Meer informatie: <https://man.voidlinux.org/xbps-remove.1>.
+Meer informatie: <https://manned.org/xbps-remove.1>.
 
 - Verwijder een pakket:
 

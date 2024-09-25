@@ -2,14 +2,17 @@
 layout: page
 title: linux/apk (English)
 description: "Alpine Linux package management tool."
-content_hash: b96acb524cf3edda570c66799bb271eae13b3946
-last_modified_at: 2023-11-12
+content_hash: a9ebd52fff98f6ec9c1396cb2ca287ed351f2c9a
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/apk.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/apk.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apk.html
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # apk
 
 Alpine Linux package management tool.
-More information: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
+More information: <https://manned.org/apk>.
 
 - Update repository indexes from all remote repositories:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (italiano)
 description: "Registra e riproduci sessioni di terminale, condividendole opzionalmente su asciiname.org."
-content_hash: 96ce8717de350f085ae0a4e25d53ad8f363ce69b
-last_modified_at: 2024-02-15
+content_hash: f3e39e6dd87fafe612de5cda056f2d0438e51aed
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/asciinema.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/asciinema.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/asciinema.html
@@ -52,7 +55,7 @@ Maggiori informazioni: <https://docs.asciinema.org/manual/cli/usage>.
 
 - Avvia una nuova registrazione, limitando qualsiasi periodo di [i]nattività a 2.5 secondi:
 
-`asciinema rec -i 2.5`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--idle-time-limit</span>` 2.5`
 
 - Stampa l'output completo di una sessione locale:
 

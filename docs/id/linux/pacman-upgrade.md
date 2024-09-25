@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-upgrade (Indonesia)
 description: "Kegunaan manajer paket Arch Linux."
-content_hash: 89f1cad797a5c12f7c251da53fba8982957e3ab2
-last_modified_at: 2023-11-12
+content_hash: 7ecb32a3490b0e47f255a4b4e3449a560d6d71d0
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-upgrade.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-upgrade.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-upgrade.html
@@ -26,7 +29,7 @@ tldri18n_status: 2
 
 Kegunaan manajer paket Arch Linux.
 Guarda anche: `pacman`.
-Informasi lebih lanjut: <https://man.archlinux.org/man/pacman.8>.
+Informasi lebih lanjut: <https://manned.org/pacman.8>.
 
 - Instal satu paket atau lebih dari file:
 

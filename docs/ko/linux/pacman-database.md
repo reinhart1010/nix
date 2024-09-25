@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-database (한국어)
 description: "Arch Linux 패키지 데이터베이스를 조작합니다."
-content_hash: 30c4fd26c1e5c33b12e88e36ae5547acd5a8841c
-last_modified_at: 2024-06-10
+content_hash: cbd14980ca10a663f8cc05a19695ffc8d5d5e09e
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-database.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 Arch Linux 패키지 데이터베이스를 조작합니다.
 설치된 패키지의 특정 속성을 수정합니다.
 같이 보기: `pacman`.
-더 많은 정보: <https://man.archlinux.org/man/pacman.8>.
+더 많은 정보: <https://manned.org/pacman.8>.
 
 - 패키지를 암묵적으로 설치된 것으로 표시:
 

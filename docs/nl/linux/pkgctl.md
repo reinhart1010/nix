@@ -2,8 +2,8 @@
 layout: page
 title: linux/pkgctl (Nederlands)
 description: "Verenigde command-line frontend voor Arch Linux devtools."
-content_hash: 39dae78363a54f5af6a79688156978b718075183
-last_modified_at: 2023-11-12
+content_hash: b3d780241f074b46c1b15f5912f558a37206f462
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/pkgctl.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # pkgctl
 
 Verenigde command-line frontend voor Arch Linux devtools.
-Meer informatie: <https://man.archlinux.org/man/pkgctl.1>.
+Meer informatie: <https://manned.org/pkgctl.1>.
 
 - Bekijk de documentatie voor het authenticeren van `pkgctl` met diensten zoals GitLab:
 

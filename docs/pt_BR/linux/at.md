@@ -2,14 +2,17 @@
 layout: page
 title: linux/at (português (Brasil))
 description: "Executa comandos em um determinado momento."
-content_hash: 2aeb660c285969344ceb119ff39140fddf20f0ba
-last_modified_at: 2023-12-28
+content_hash: 7a2ea82658ea533ab5063fea7e3f56b6edaf47fa
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/at.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/at.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/at.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/at.html
@@ -22,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># at
 
 Executa comandos em um determinado momento.
-Mais informações: <https://man.archlinux.org/man/at.1>.
+Mais informações: <https://manned.org/at.1>.
 
 - Inicia o prompt `at` para que um novo conjunto de comandos seja agendado, pressione `Ctrl + D` para salvar e sair:
 

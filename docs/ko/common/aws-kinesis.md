@@ -3,7 +3,7 @@ layout: page
 title: common/aws-kinesis (한국어)
 description: "빅데이터를 스트리밍하는 실시간 처리를 위해 탄력적으로 확장되는 서비스인, Amazon Kinesis Data Streams와 상호작용함."
 content_hash: fe8db7119be4032390caa56531cb92c8f7bf45f8
-last_modified_at: 2024-09-24
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-kinesis.html
@@ -20,18 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-kinesis.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-kinesis.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws kinesis
+# aws kinesis
 
 빅데이터를 스트리밍하는 실시간 처리를 위해 탄력적으로 확장되는 서비스인, Amazon Kinesis Data Streams와 상호작용함.
 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis>.

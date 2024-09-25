@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (Indonesia)
 description: "Alat Pemaketan Android Asset."
-content_hash: ee47d73d9cb7c46c688281f9659df2627d9a220e
-last_modified_at: 2024-09-15
+content_hash: 8a37f0f38de020375f5ddc0e7ec0fffc886a6754
+last_modified_at: 2024-09-25
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 Alat Pemaketan Android Asset.
 Susun dan buat paket resource aplikasi Android.
-Informasi lebih lanjut: <https://elinux.org/Android_aapt>.
+Informasi lebih lanjut: <https://manned.org/aapt>.
 
 - Tampilkan daftar berkas yang termuat dalam suatu arsip APK:
 

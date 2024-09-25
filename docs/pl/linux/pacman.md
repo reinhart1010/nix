@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (polski)
 description: "Narzędzie do zarządzania pakietami w Arch Linuksie."
-content_hash: 96220e9d75a10ae0e639c5f1fa6b96013d3ccf55
-last_modified_at: 2024-01-02
+content_hash: 7912d972b9d4bdfad0da917510eeb7e5fb2ba902
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -11,11 +11,20 @@ related_topics:
   - title: English version
     url: /en/linux/pacman.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/pacman.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/pacman.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/pacman.html
@@ -45,7 +54,7 @@ tldri18n_status: 2
 Narzędzie do zarządzania pakietami w Arch Linuksie.
 Zobacz także: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 Odpowiednie polecenia dla innych menedżerów pakietów: <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
+Więcej informacji: <https://manned.org/pacman.8>.
 
 - Zsynchronizuj i zaktualizuj wszystkie pakiety:
 

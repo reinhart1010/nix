@@ -2,11 +2,14 @@
 layout: page
 title: linux/at (français)
 description: "Exécute des commandes à des temps détermintés."
-content_hash: 19ae50e572dc1357ed9a20377c204a9e27282134
-last_modified_at: 2023-11-12
+content_hash: 028d7e5b56d2b4c08c7cb80a07b6e3ee986bb9a0
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/at.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/at.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/at.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # at
 
 Exécute des commandes à des temps détermintés.
-Plus d'informations : <https://man.archlinux.org/man/at.1>.
+Plus d'informations : <https://manned.org/at.1>.
 
 - Ouvre une invite `at` afin de créer un nouvel ensemble de commandes programmées, presser `Ctrl + D` pour sauvegarder et quitter :
 

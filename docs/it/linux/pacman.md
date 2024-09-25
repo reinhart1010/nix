@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (italiano)
 description: "Gestore pacchetti di Arch Linux."
-content_hash: 9b0da902f9bace023a7c8467b30116ad23870127
-last_modified_at: 2024-02-16
+content_hash: 882172c316191c278e8a1c567191d56b3aa0eede
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -11,11 +11,17 @@ related_topics:
   - title: English version
     url: /en/linux/pacman.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/pacman.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/pacman.html
@@ -48,7 +54,7 @@ tldri18n_status: 2
 Gestore pacchetti di Arch Linux.
 Vedi anche: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 Per comandi equivalenti in altri gestori pacchetti, vedi <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-Maggiori informazioni: <https://man.archlinux.org/man/pacman.8>.
+Maggiori informazioni: <https://manned.org/pacman.8>.
 
 - Sincronizza e aggiorna tutti i pacchetti:
 

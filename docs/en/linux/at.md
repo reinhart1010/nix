@@ -2,11 +2,14 @@
 layout: page
 title: linux/at (English)
 description: "Executes commands at a specified time."
-content_hash: 3d130aa9b383b023f0fad11bae70b6f62d26f0f7
-last_modified_at: 2023-11-12
+content_hash: 3cb4d78ce573c8a8e79791a1d35dcfe41acffec1
+last_modified_at: 2024-09-25
 related_topics:
   - title: français version
     url: /fr/linux/at.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/at.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/at.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # at
 
 Executes commands at a specified time.
-More information: <https://man.archlinux.org/man/at.1>.
+More information: <https://manned.org/at.1>.
 
 - Open an `at` prompt to create a new set of scheduled commands, press `Ctrl + D` to save and exit:
 

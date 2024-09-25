@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-key (한국어)
 description: "GnuPG를 사용하여 pacman의 키링을 관리하는 래퍼 스크립트."
-content_hash: ae1cf7391819be7ef46df891b803b114ef6a3797
-last_modified_at: 2024-06-10
+content_hash: ab2e55005ec02442b92606710fc2404db7c47d5e
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/pacman-key.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 GnuPG를 사용하여 pacman의 키링을 관리하는 래퍼 스크립트.
 같이 보기: `pacman`.
-더 많은 정보: <https://man.archlinux.org/man/pacman-key>.
+더 많은 정보: <https://manned.org/pacman-key>.
 
 - `pacman` 키링 초기화:
 

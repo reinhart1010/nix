@@ -2,9 +2,15 @@
 layout: page
 title: common/calendar (English)
 description: "Display upcoming events from a calendar file."
-content_hash: d4d87a9c4bb312c4e02ec631ea98129dc5ea6a6f
-last_modified_at: 2023-11-12
+content_hash: 0dd9676688b01ccc54a56779703109cfad883abc
+last_modified_at: 2024-09-25
 related_topics:
+  - title: فارسی version
+    url: /fa/common/calendar.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/calendar.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/calendar.html
     icon: bi bi-globe
@@ -13,7 +19,7 @@ tldri18n_status: 2
 # calendar
 
 Display upcoming events from a calendar file.
-More information: <https://www.commandlinux.com/man-page/man1/calendar.1.html>.
+More information: <https://manned.org/calendar>.
 
 - Show events for today and tomorrow (or the weekend on Friday) from the default calendar:
 

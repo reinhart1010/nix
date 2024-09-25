@@ -2,14 +2,17 @@
 layout: page
 title: common/asciinema (español)
 description: "Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org."
-content_hash: 8d330c5d2d7f0c2bfdfee43a2726fce2d1efecf1
-last_modified_at: 2024-05-22
+content_hash: 1094728396611e0e7a3a26b3dbd329ea0ad83036
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/asciinema.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/asciinema.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asciinema.html
@@ -52,7 +55,7 @@ Más información: <https://docs.asciinema.org/manual/cli/usage>.
 
 - Crea una nueva grabación, limitando el tiempo de espera máximo a 2.5 segundos:
 
-`asciinema rec -i 2.5`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--idle-time-limit</span>` 2.5`
 
 - Imprime la salida completa de un archivo local de grabación:
 

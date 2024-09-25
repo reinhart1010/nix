@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (français)
 description: "Outil de gestion de paquets sur Arch Linux."
-content_hash: 01e9fbca51ce454cbf8b4f92beafc580520d2d11
-last_modified_at: 2023-12-29
+content_hash: 7feef1114bb8144b7f374a7cfe75cf41901e81a0
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -11,8 +11,17 @@ related_topics:
   - title: English version
     url: /en/linux/pacman.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/pacman.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/pacman.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/pacman.html
@@ -47,7 +56,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Outil de gestion de paquets sur Arch Linux.
 Voir aussi: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
-Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
+Plus d'informations : <https://manned.org/pacman.8>.
 
 - Synchronise et mets à jour tous les paquets :
 

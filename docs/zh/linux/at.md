@@ -2,14 +2,17 @@
 layout: page
 title: linux/at (中文)
 description: "在指定时间执行命令。"
-content_hash: 54d0fb10b25fc5bbaffbf055bcd42eeb231367d8
-last_modified_at: 2023-11-12
+content_hash: f86764181851c1e68550bba8d927a384fc1d5b1b
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/linux/at.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/at.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/at.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/at.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # at
 
 在指定时间执行命令。
-更多信息：<https://man.archlinux.org/man/at.1>.
+更多信息：<https://manned.org/at.1>.
 
 - 打开 `at` 提示符创建一组新的定时命令，按 `Ctrl + D` 保存并退出：
 

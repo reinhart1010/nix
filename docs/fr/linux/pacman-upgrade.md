@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-upgrade (français)
 description: "Mets à jour ou ajoute des paquets au système."
-content_hash: 94fc837e019ebf0cdc2ae78582a3ca55ac67cd2d
-last_modified_at: 2023-11-12
+content_hash: 3540cc6cb926b5112f45f84d43497d408366f4b0
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman-upgrade.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman-upgrade.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-upgrade.html
@@ -26,7 +29,7 @@ tldri18n_status: 2
 
 Mets à jour ou ajoute des paquets au système.
 Voir aussi: `pacman`.
-Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
+Plus d'informations : <https://manned.org/pacman.8>.
 
 - Installe un ou des paquets depuis le système de fichiers :
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (українська)
 description: "Утиліта для керування пакетами Arch Linux."
-content_hash: b9f0e0479a9627f589ee4d37356d2eea08ba388d
-last_modified_at: 2023-11-12
+content_hash: 6fdc28fa3eb9dced22fab8b2fd90324db83104d0
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -11,11 +11,20 @@ related_topics:
   - title: English version
     url: /en/linux/pacman.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/pacman.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/pacman.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pacman.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/pacman.html
@@ -45,7 +54,7 @@ tldri18n_status: 2
 Утиліта для керування пакетами Arch Linux.
 Дивіться також: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 Для еквівалентних команд в інших менеджерах пакетів дивіться <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-Більше інформації: <https://man.archlinux.org/man/pacman.8>.
+Більше інформації: <https://manned.org/pacman.8>.
 
 - Синхронізувати та оновити всі пакети:
 
