@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-login (português (Brasil))
 description: "Fazer login em um registro do Docker."
-content_hash: bcc723cc54629d71bcca2da1bb33427853c0ecec
-last_modified_at: 2023-12-28
+content_hash: 15f66eff3c8229f5b5e609306546e26d210b6562
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-login.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # docker login
 
 Fazer login em um registro do Docker.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/login/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/login/>.
 
 - Faz login interativamente em um registro:
 

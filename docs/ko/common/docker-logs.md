@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-logs (한국어)
 description: "컨테이너 로그들을 출력한다."
-content_hash: f4c7c7bce9bf5689c191d484b0148af446521b2b
-last_modified_at: 2023-11-12
+content_hash: feaab73d2775edf84f2ab5b22277100050f40ad6
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-logs.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker logs
 
 컨테이너 로그들을 출력한다.
-더 많은 정보: <https://docs.docker.com/engine/reference/commandline/logs>.
+더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/logs/>.
 
 - 컨테이너로부터 로그들을 출력하기:
 

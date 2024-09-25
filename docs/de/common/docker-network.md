@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-network (Deutsch)
 description: "Erzeuge und verwalte Docker Netzwerke."
-content_hash: ddc30f2bc8c0467e89805ba6f9c8d856f959488a
-last_modified_at: 2023-11-12
+content_hash: 991c2d3b8dec02687dd584be6eac0a99791261ae
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/docker-network.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker network
 
 Erzeuge und verwalte Docker Netzwerke.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/network/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/network/>.
 
 - Liste alle verfügbaren und konfigurierten Docker Netzwerke auf:
 

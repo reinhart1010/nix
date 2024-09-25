@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-login (English)
 description: "Log into a Docker registry."
-content_hash: abfb68935da648028602374121a22fe7fdcbf916
-last_modified_at: 2024-03-14
+content_hash: 882a060f3058dc4c3ecb8bbf32f3e56e11b4fe87
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-login.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # docker login
 
 Log into a Docker registry.
-More information: <https://docs.docker.com/engine/reference/commandline/login/>.
+More information: <https://docs.docker.com/reference/cli/docker/login/>.
 
 - Interactively log into a registry:
 

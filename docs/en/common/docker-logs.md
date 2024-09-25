@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-logs (English)
 description: "Print container logs."
-content_hash: c497cfadeebe03f47c7dcb3434c7f98462663b67
-last_modified_at: 2023-11-12
+content_hash: 9160437b7fdaa9d66a4179b8f564bf2650f348dc
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-logs.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker logs
 
 Print container logs.
-More information: <https://docs.docker.com/engine/reference/commandline/logs>.
+More information: <https://docs.docker.com/reference/cli/docker/container/logs/>.
 
 - Print logs from a container:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-network (français)
 description: "Créer et gérer des réseaux Docker."
-content_hash: b29a3e3facd4070fc85c39ec235c67d3defc3ad1
-last_modified_at: 2023-11-12
+content_hash: ae1ed3b1950f1f914f8943c6e4786c1c4f358436
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-network.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker network
 
 Créer et gérer des réseaux Docker.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/network/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/network/>.
 
 - Lister tous les réseaux disponible et configuré du service Docker :
 

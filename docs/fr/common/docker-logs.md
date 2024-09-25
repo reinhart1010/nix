@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-logs (français)
 description: "Affiche les journaux d'un conteneur."
-content_hash: 58131884eb22293bbf738b888b9f7cdd2e000ec8
-last_modified_at: 2023-11-12
+content_hash: 8e2c5f169f20100ca3ed31ad91bbead683ae1248
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-logs.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker logs
 
 Affiche les journaux d'un conteneur.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/logs>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/logs/>.
 
 - Afficher les journaux d'un conteneur :
 

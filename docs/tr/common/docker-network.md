@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-network (Türkçe)
 description: "Docker ağları oluştur ve yönet."
-content_hash: 39ad621c891bc2d853b66bb24f69c66c06836ce4
-last_modified_at: 2023-11-12
+content_hash: 9b5aff34bf7c73c17b21f255b4487ec57f1cb9c3
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-network.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker network
 
 Docker ağları oluştur ve yönet.
-Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/network/>.
+Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/network/>.
 
 - docker daemon'daki tüm müsait ve düzenlenmiş ağları sırala:
 

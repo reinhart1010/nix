@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-login (français)
 description: "Se connecter à un registre Docker."
-content_hash: 664fde5d93f11aa7691c0dd8f9af0fe2983ba70b
-last_modified_at: 2023-11-12
+content_hash: 43292b021d6d7ed909bc01f76e71626eeadeb300
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-login.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # docker login
 
 Se connecter à un registre Docker.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/login/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/login/>.
 
 - Se connecter de manière interactive à un registre :
 

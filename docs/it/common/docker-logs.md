@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-logs (italiano)
 description: "Mostra i log di un container."
-content_hash: b2733f6293277b30fb06b37fdf43e25d8aa199a6
-last_modified_at: 2023-11-12
+content_hash: 467d1d042a5e8e918a3c7fff6356bb8af3af9fa0
+last_modified_at: 2024-09-25
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-logs.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker logs
 
 Mostra i log di un container.
-Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/logs>.
+Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/container/logs/>.
 
 - Mostra i log di un container:
 

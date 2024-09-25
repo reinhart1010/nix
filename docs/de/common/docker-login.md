@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-login (Deutsch)
 description: "Bei einer Docker Registry einloggen."
-content_hash: 564a2066634748eb4d29969c4c1559c8c8c99ced
-last_modified_at: 2023-11-12
+content_hash: 4bdea8bb97b36ace29d617917e6b8fbd1840eae3
+last_modified_at: 2024-09-25
 related_topics:
   - title: English version
     url: /en/common/docker-login.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # docker login
 
 Bei einer Docker Registry einloggen.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/login/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/login/>.
 
 - Interaktives Einloggen bei einer Registry:
 
