@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-secret (English)
 description: "Manage Docker swarm secrets."
-content_hash: 7b77eeef2ea67c8d71c237401afaac63b57fbfa7
-last_modified_at: 2023-11-12
+content_hash: d4a0d3bd4f41e9c520c63f2c7f29530ddbc914c1
+last_modified_at: 2024-09-26
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-secret.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker secret
 
 Manage Docker swarm secrets.
-More information: <https://docs.docker.com/engine/reference/commandline/secret/>.
+More information: <https://docs.docker.com/reference/cli/docker/secret/>.
 
 - Create a new secret from `stdin`:
 

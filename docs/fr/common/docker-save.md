@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-save (français)
 description: "Exporeter une ou plusieurs images Docker dans une archive."
-content_hash: da14fc60e89ac72cf1399d5e23745a3b3164c9f5
-last_modified_at: 2023-11-12
+content_hash: b69330aa7c8ba7ec04077fe4c2edc69075a6d32b
+last_modified_at: 2024-09-26
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-save.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker save
 
 Exporeter une ou plusieurs images Docker dans une archive.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/save/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/image/save/>.
 
 - Sauvegarder une image en redirigeant la sortie standard vers une archive tar :
 

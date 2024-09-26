@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-run (français)
 description: "Exécuter une commande dans un nouveau conteneur Docker."
-content_hash: a9e7c5d4864c365e727e7d0332ffcbe2ce9b72c2
-last_modified_at: 2023-11-12
+content_hash: 5c201aba4ee395608c46b78b5b5ade46cf4fa6c6
+last_modified_at: 2024-09-26
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-run.html
@@ -20,12 +20,15 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-run.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/docker-run.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # docker run
 
 Exécuter une commande dans un nouveau conteneur Docker.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/run/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/run/>.
 
 - Exécuter une commande dans un nouveau conteneur Docker avec une iamge étiquetée :
 

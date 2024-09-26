@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-run (English)
 description: "Run a command in a new Docker container."
-content_hash: 557dfcc60dca09d424480c6597d98016d43920f7
-last_modified_at: 2023-11-12
+content_hash: 9ec3df5e7df58b4e3a24929b295078adabb2e98f
+last_modified_at: 2024-09-26
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-run.html
@@ -20,12 +20,15 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-run.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/docker-run.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # docker run
 
 Run a command in a new Docker container.
-More information: <https://docs.docker.com/engine/reference/commandline/run/>.
+More information: <https://docs.docker.com/reference/cli/docker/container/run/>.
 
 - Run command in a new container from a tagged image:
 

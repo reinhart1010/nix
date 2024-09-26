@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-save (português (Brasil))
 description: "Exportar uma ou mais imagens do Docker para um arquivo de arquivamento."
-content_hash: f2636ddc871584941e866bb02b04e86bd3d5ef3f
-last_modified_at: 2023-12-28
+content_hash: 320d5a501fb3086adcf14321fc43f1e9b2f16527
+last_modified_at: 2024-09-26
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-save.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker save
 
 Exportar uma ou mais imagens do Docker para um arquivo de arquivamento.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/save/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/image/save/>.
 
 - Salva uma imagem redirecionando `stdout` para um arquivo tar:
 

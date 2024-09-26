@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-save (English)
 description: "Export Docker images to archive."
-content_hash: 217b2ffeac426c27e423262dfa9b11ef9d581d7c
-last_modified_at: 2024-03-14
+content_hash: 0897169de8e10c0451c7f1ee7f5a1f6a99fdee41
+last_modified_at: 2024-09-26
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-save.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker save
 
 Export Docker images to archive.
-More information: <https://docs.docker.com/engine/reference/commandline/save/>.
+More information: <https://docs.docker.com/reference/cli/docker/image/save/>.
 
 - Save an image by redirecting `stdout` to a tar archive:
 

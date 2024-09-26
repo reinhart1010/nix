@@ -2,8 +2,8 @@
 layout: page
 title: common/git-rev-list (español)
 description: "Muestra las revisiones (confirmaciones) en orden cronológico inverso."
-content_hash: 5a5c08edbf523addc566fbdfd33e174fbf71d59c
-last_modified_at: 2024-01-10
+content_hash: bdbed9ede4b151daaca54710ca3154557f7fba87
+last_modified_at: 2024-09-26
 related_topics:
   - title: English version
     url: /en/common/git-rev-list.html
@@ -30,11 +30,11 @@ Más información: <https://git-scm.com/docs/git-rev-list>.
 
 - Imprime la última confirmación que cambió (agregó/editó/eliminó) un archivo específico en la rama actual:
 
-`git rev-list -n 1 HEAD -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
+`git rev-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--max-count</span>` 1 HEAD -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
 - Muestra las confirmaciones más recientes a partir de una fecha y una rama específica:
 
-`git rev-list --since=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'2019-12-01 00:00:00'</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span>
+`git rev-list --since "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2019-12-01 00:00:00</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span>
 
 - Muestra todas las confirmaciones fusionadas en una confirmación específica:
 

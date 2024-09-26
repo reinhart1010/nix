@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-run (Deutsch)
 description: "Führe einen Befehl in einem neuen Docker Container aus."
-content_hash: c0c1285d8629f05a5c183f56b3ca529623b0edc8
-last_modified_at: 2023-11-12
+content_hash: 0a61621d60f79b3f9a02e9a3b6fe73f74c3601fe
+last_modified_at: 2024-09-26
 related_topics:
   - title: English version
     url: /en/common/docker-run.html
@@ -20,12 +20,15 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-run.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/docker-run.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # docker run
 
 Führe einen Befehl in einem neuen Docker Container aus.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/run/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/run/>.
 
 - Führe einen Befehl in einem neuen Docker Container aus und verwende dabei einen bestimmten Tag eines Docker Images:
 

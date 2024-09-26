@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-run (中文)
 description: "创建一个新的容器并运行命令。"
-content_hash: ce4e3594435a8a01f1e31e70a28169a9cbbaecfd
-last_modified_at: 2024-07-23
+content_hash: ad65fe9a60d138151a04009ce5ab23ab146e6bb9
+last_modified_at: 2024-09-26
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-run.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # docker run
 
 创建一个新的容器并运行命令。
-更多信息：<https://docs.docker.com/engine/reference/commandline/run/>.
+更多信息：<https://docs.docker.com/reference/cli/docker/container/run/>.
 
 - 使用打上标签的 Docker 镜像的新容器中执行命令：
 
