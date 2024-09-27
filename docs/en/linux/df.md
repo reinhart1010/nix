@@ -2,8 +2,15 @@
 layout: page
 title: linux/df (English)
 description: "Display an overview of the filesystem disk space usage."
-content_hash: 9828a6775e604a5c7908651f2106cf3b7fd96756
-last_modified_at: 2024-01-08
+content_hash: 75bbb6e392da867a036e71d6198dd1d54b07d779
+last_modified_at: 2024-09-27
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/df.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/df.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # df
@@ -30,3 +37,7 @@ More information: <https://www.gnu.org/software/coreutils/df>.
 - Display filesystems but exclude the specified types:
 
 `df -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">squashfs</span>` -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs</span>
+
+- Display filesystem types:
+
+`df -T`

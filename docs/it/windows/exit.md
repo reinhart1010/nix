@@ -2,8 +2,8 @@
 layout: page
 title: windows/exit (italiano)
 description: "Esci dall'istanza CMD corrente o dal file batch corrente."
-content_hash: dfc5a1febaf82f44e3bc218dc185e257562c3e18
-last_modified_at: 2023-11-12
+content_hash: f45dee8d9fb47bbd5c9ae3af55a25ab7d30fd8d9
+last_modified_at: 2024-09-27
 related_topics:
   - title: বাংলা version
     url: /bn/windows/exit.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/windows/exit.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/exit.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/exit.html
@@ -34,7 +37,7 @@ Maggiori informazioni: <https://learn.microsoft.com/windows-server/administratio
 
 `exit`
 
-- Esci dallo script batch corrente:
+- Esci dallo script [b]atch corrente:
 
 `exit /b`
 

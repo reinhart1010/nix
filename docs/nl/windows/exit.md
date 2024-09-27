@@ -2,8 +2,8 @@
 layout: page
 title: windows/exit (Nederlands)
 description: "Verlaat de huidige CMD-instantie of het huidige batchbestand."
-content_hash: f207369e102715de79fa0ab96ca74a92d52df390
-last_modified_at: 2024-08-13
+content_hash: 0b0d048c436dc2037fd6a01abc273dd9077c12ec
+last_modified_at: 2024-09-27
 related_topics:
   - title: বাংলা version
     url: /bn/windows/exit.html
@@ -37,7 +37,7 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 
 `exit`
 
-- Verlaat het huidige batchscript:
+- Verlaat het huidige [b]atchscript:
 
 `exit /b`
 

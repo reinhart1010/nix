@@ -2,8 +2,8 @@
 layout: page
 title: windows/exit (中文)
 description: "退出当前的命令行实例或 bat 脚本。"
-content_hash: 3498215a6b40ceaa422b27cc42af761ef4249a0e
-last_modified_at: 2023-11-12
+content_hash: d4a723a0b54c45b42fff0d8271b86d14075ebbd0
+last_modified_at: 2024-09-27
 related_topics:
   - title: বাংলা version
     url: /bn/windows/exit.html
@@ -20,6 +20,9 @@ related_topics:
   - title: italiano version
     url: /it/windows/exit.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/exit.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/exit.html
     icon: bi bi-globe
@@ -34,7 +37,7 @@ tldri18n_status: 2
 
 `exit`
 
-- 退出当前的 bat 脚本：
+- 退出当前的 [b]at 脚本：
 
 `exit /b`
 

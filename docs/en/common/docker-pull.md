@@ -2,9 +2,12 @@
 layout: page
 title: common/docker-pull (English)
 description: "Download Docker images from a registry."
-content_hash: 74744a5deff7610b82e4742a46d70ccbea7e0403
-last_modified_at: 2023-11-12
+content_hash: 2e940167ec8d97237347070fdd75e51e5d90f410
+last_modified_at: 2024-09-27
 related_topics:
+  - title: français version
+    url: /fr/common/docker-pull.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-pull.html
     icon: bi bi-globe
@@ -13,7 +16,7 @@ tldri18n_status: 2
 # docker pull
 
 Download Docker images from a registry.
-More information: <https://docs.docker.com/engine/reference/commandline/pull/>.
+More information: <https://docs.docker.com/reference/cli/docker/image/pull/>.
 
 - Download a specific Docker image:
 

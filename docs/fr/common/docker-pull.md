@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-pull (français)
 description: "Télécharge une image Docker depuis le registre."
-content_hash: 5b2885af443a04cfd2af0665c381327cc079fc5a
-last_modified_at: 2024-03-14
+content_hash: 20ac2fa8610921f56b1b43d2a0fb3ba891ef9d92
+last_modified_at: 2024-09-27
 related_topics:
   - title: English version
     url: /en/common/docker-pull.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # docker pull
 
 Télécharge une image Docker depuis le registre.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/pull/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/image/pull/>.
 
 - Télécharge une image Docker spécifique :
 
