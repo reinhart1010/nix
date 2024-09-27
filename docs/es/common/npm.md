@@ -2,8 +2,8 @@
 layout: page
 title: common/npm (español)
 description: "Gestor de paquetes JavaScript y Node.js."
-content_hash: 77f58f9ef116ac11fadef66325411cd7a22371a9
-last_modified_at: 2024-09-08
+content_hash: f98a1da1255e9d0ba534727b90ea7f954ebbfd2e
+last_modified_at: 2024-09-27
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -25,12 +25,12 @@ tldri18n_status: 2
 # npm
 
 Gestor de paquetes JavaScript y Node.js.
-Gestiona proyectos de Node.js y sus módulos de dependencias.
+Gestiona proyectos Node.js y sus dependencias de módulos.
 Más información: <https://www.npmjs.com>.
 
-- Creación interactiva de un archivo `package.json`:
+- Crea un archivo `package.json` con los valores por defecto (omite --yes para hacerlo de forma interactiva):
 
-`npm init`
+`npm init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-y|--yes</span>
 
 - Descarga todos los paquetes listados como dependencias en `package.json`:
 
@@ -48,7 +48,7 @@ Más información: <https://www.npmjs.com>.
 
 `npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_paquete</span>
 
-- Desinstala un paquete y lo remueve de la lista de dependencias en `package.json`:
+- Desinstala un paquete y lo elimina de la lista de dependencias en `package.json`:
 
 `npm uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_paquete</span>
 
@@ -56,6 +56,6 @@ Más información: <https://www.npmjs.com>.
 
 `npm list`
 
-- Lista de paquetes instalados globalmente de nivel superior:
+- Lista los paquetes instalados globalmente:
 
 `npm list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>

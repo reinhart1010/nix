@@ -2,8 +2,8 @@
 layout: page
 title: common/git-reflog (English)
 description: "Show a log of changes to local references like HEAD, branches or tags."
-content_hash: fb2522a7c2d878905ee7c80e82a4e9f461be338f
-last_modified_at: 2024-09-03
+content_hash: aa35ab10960479dcdd67ecbd6586b356e4eac23c
+last_modified_at: 2024-09-27
 related_topics:
   - title: español version
     url: /es/common/git-reflog.html
@@ -37,4 +37,4 @@ More information: <https://git-scm.com/docs/git-reflog>.
 
 - Show only the 5 latest entries in the reflog:
 
-`git reflog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--dry-run</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
+`git reflog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--max-count</span>` 5`

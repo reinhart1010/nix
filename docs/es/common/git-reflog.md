@@ -2,8 +2,8 @@
 layout: page
 title: common/git-reflog (español)
 description: "Muestra un registro de cambios de las referencias (*reflog*) locales como HEAD, ramas o etiquetas."
-content_hash: da091f229934145e6164481224f195af67d0c067
-last_modified_at: 2023-11-12
+content_hash: b99e6ed31315b375cbfbeec805e17c03feae3ca1
+last_modified_at: 2024-09-27
 related_topics:
   - title: English version
     url: /en/common/git-reflog.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-reflog.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-reflog.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-reflog.html
@@ -34,4 +37,4 @@ Más información: <https://git-scm.com/docs/git-reflog>.
 
 - Muestra solo las últimas 5 entradas en el registro de referencias:
 
-`git reflog -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
+`git reflog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--max-count</span>` 5`

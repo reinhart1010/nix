@@ -2,8 +2,8 @@
 layout: page
 title: common/git-revert (español)
 description: "Crea nuevas confirmaciones que revierten el efecto de los anteriores."
-content_hash: 73e6b64ccf926b8b2ac8b1ceed08d6c3b4ec4eff
-last_modified_at: 2024-01-13
+content_hash: 205b77af477d89af8ad4377025b4b89ee98fcf60
+last_modified_at: 2024-09-27
 related_topics:
   - title: English version
     url: /en/common/git-revert.html
@@ -38,8 +38,8 @@ Más información: <https://git-scm.com/docs/git-revert>.
 
 - Revierte múltiples confirmaciones:
 
-`git revert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama~5..rama~2</span>
+`git revert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_rama~5..nombre_rama~2</span>
 
 - Revierte confirmaciones sin crear nuevas confirmaciones:
 
-`git revert -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0c01a9..9a1743</span>
+`git revert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--no-commit</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0c01a9..9a1743</span>

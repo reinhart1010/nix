@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-log (español)
-description: "Muestra un historial de commits."
-content_hash: c3e84b8a9020b578bb427aae60900e3c902e569b
-last_modified_at: 2023-11-12
+description: "Muestra un historial de confirmaciones."
+content_hash: 51d6e0cbf450c3e9d504cac93102f50db9fc13b7
+last_modified_at: 2024-09-27
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-log.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-log.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-log.html
@@ -30,37 +33,37 @@ tldri18n_status: 2
 ---
 # git log
 
-Muestra un historial de commits.
+Muestra un historial de confirmaciones.
 Más información: <https://git-scm.com/docs/git-log>.
 
-- Muestra la secuencia de commits comenzando desde el actual, en orden cronológico inverso, del respositorio de Git en el directorio de trabajo actual:
+- Muestra la secuencia de confirmaciones comenzando desde el actual, en orden cronológico inverso, del respositorio de Git en el directorio de trabajo actual:
 
 `git log`
 
 - Muestra el historial de un archivo o directorio específico, incluyendo las diferencias:
 
-`git log -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--patch|-p|-u</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span>
 
-- Muestra un resumen de los archivos, o archivo, cambiados en cada commit:
+- Muestra un resumen de los archivos, o archivo, cambiados en cada confirmación:
 
 `git log --stat`
 
-- Muestra un gráfico de los commits en la rama actual, utilizando solo la primer línea del mensaje de cada uno:
+- Muestra un gráfico de las confirmaciones en la rama actual, utilizando solo la primer línea del mensaje de cada uno:
 
 `git log --oneline --graph`
 
-- Muestra un gráfico de todos los commits, etiquetas y ramas en todo el repositorio:
+- Muestra un gráfico de todos las confirmaciones, etiquetas y ramas en todo el repositorio:
 
 `git log --oneline --decorate --all --graph`
 
-- Muestra solo los commits cuyo mensaje incluye una cadena dada (no diferencia entre mayúsculas y minúsculas):
+- Muestra solo las confirmaciones cuyo mensaje incluye una cadena dada (no diferencia entre mayúsculas y minúsculas):
 
-`git log -i --grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_a_buscar</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--regexp-ignore-case</span>` --grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_a_buscar</span>
 
-- Muestra los últimos N commits de cierto autor:
+- Muestra las últimas N confirmaciones de determinado autor:
 
-`git log -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero</span>` --author=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">autor</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--max-count|-n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">autor</span>`"`
 
-- Muestra los commits entre dos fechas (yyyy-mm-dd):
+- Muestra las confirmaciones entre dos fechas (yyyy-mm-dd):
 
-`git log --before="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-29</span>`" --after="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-17</span>`"`
+`git log --before "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-29</span>`" --after "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-17</span>`"`

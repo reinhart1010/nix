@@ -2,13 +2,14 @@
 layout: page
 title: common/mozillavpn (English)
 description: "A Virtual Private Network from the makers of Firefox."
-content_hash: e64f26d21ac075b6adfabf49f8e18303bb0546f0
-last_modified_at: 2023-11-12
+content_hash: b56e041362a025717cad1ca21f72320226a7c273
+last_modified_at: 2024-09-27
 tldri18n_status: 2
 ---
 # mozillavpn
 
 A Virtual Private Network from the makers of Firefox.
+See also: `fastd`, `ivpn`, `mullvad`, `warp-cli`.
 More information: <https://github.com/mozilla-mobile/mozilla-vpn-client/wiki/Command-line-interface>.
 
 - Log in with an interactive prompt:

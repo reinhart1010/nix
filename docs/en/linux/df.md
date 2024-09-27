@@ -2,7 +2,7 @@
 layout: page
 title: linux/df (English)
 description: "Display an overview of the filesystem disk space usage."
-content_hash: 75bbb6e392da867a036e71d6198dd1d54b07d779
+content_hash: 07de681d3f6b8e7cb209fc95e586a037d97ed12e
 last_modified_at: 2024-09-27
 related_topics:
   - title: Nederlands version
@@ -24,7 +24,7 @@ More information: <https://www.gnu.org/software/coreutils/df>.
 
 - Display all filesystems and their disk usage in human-readable form:
 
-`df -h`
+`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--human-readable</span>
 
 - Display the filesystem and its disk usage containing the given file or directory:
 
@@ -32,12 +32,12 @@ More information: <https://www.gnu.org/software/coreutils/df>.
 
 - Include statistics on the number of free inodes:
 
-`df -i`
+`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--inodes</span>
 
 - Display filesystems but exclude the specified types:
 
-`df -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">squashfs</span>` -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs</span>
+`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-x|--exclude-type</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">squashfs</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-x|--exclude-type</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs</span>
 
 - Display filesystem types:
 
-`df -T`
+`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-T|--print-type</span>

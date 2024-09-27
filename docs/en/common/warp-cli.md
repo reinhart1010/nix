@@ -2,8 +2,8 @@
 layout: page
 title: common/warp-cli (English)
 description: "Connect, disconnect and switch modes of a connection to Cloudflare's WARP service."
-content_hash: fd6575517c0cc0e8553e76377e684410f78744cf
-last_modified_at: 2024-02-19
+content_hash: c649ad1dd54ae017239c5965bf30c8a2a55b741a
+last_modified_at: 2024-09-27
 related_topics:
   - title: Indonesia version
     url: /id/common/warp-cli.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Connect, disconnect and switch modes of a connection to Cloudflare's WARP service.
 WARP is a VPN that encrypts traffic for privacy, security, and speed.
-See also: `fastd`, `ivpn`, `mozzilavpn`, `mullvad`.
+See also: `fastd`, `ivpn`, `mozillavpn`, `mullvad`.
 More information: <https://developers.cloudflare.com/warp-client/>.
 
 - Register the current device to WARP (must be run before first connection):

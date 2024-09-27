@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (Indonesia)
 description: "Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum)."
-content_hash: bf7807acc4d6d1eb228763434ca57a813f5fde05
-last_modified_at: 2024-01-31
+content_hash: 38c9750aba27fd71e7a55c2561fff8b4bb9da57c
+last_modified_at: 2024-09-27
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -32,6 +32,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/dnf.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # dnf
@@ -44,7 +47,7 @@ Informasi lebih lanjut: <https://dnf.readthedocs.io>.
 
 `sudo dnf upgrade`
 
-- Cari paket yang tersedia dengan kata kunci tertentu:
+- Cari paket yang tersedia dengan kata-kata kunci tertentu:
 
 `dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_kunci1 kata_kunci2 ...</span>
 
@@ -52,11 +55,11 @@ Informasi lebih lanjut: <https://dnf.readthedocs.io>.
 
 `dnf info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
 
-- Pasang sebuah paket (gunakan `-y` jawab untuk ya semua pertanyaan):
+- Pasang kumpulan paket (gunakan `-y` jawab untuk ya semua pertanyaan):
 
 `sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1 paket2 ...</span>
 
-- Hapus sebuah paket:
+- Hapus kumpulan paket:
 
 `sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1 paket2 ...</span>
 
