@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/wget (polski)
-description: "To polecenie jest aliasem `wget -p common`."
-content_hash: 99465d72b95695de2748641bb7adbd1a21fbeda8
-last_modified_at: 2023-11-12
+description: "W PowerShell to polecenie może być aliasem `Invoke-WebRequest`, gdy oryginalny program `wget` (<https://www.gnu.org/software/wget>) nie jest poprawnie zainstalowany."
+content_hash: c14e7574fbe5820a48873c1c67fa939f9fd95460
+last_modified_at: 2024-09-28
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -96,9 +96,17 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># wget
 
-To polecenie jest aliasem `wget -p common`.
+W PowerShell to polecenie może być aliasem `Invoke-WebRequest`, gdy oryginalny program `wget` (<https://www.gnu.org/software/wget>) nie jest poprawnie zainstalowany.
 Więcej informacji: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia `wget`:
 
 `tldr wget -p common`
+
+- Zobacz dokumentację polecenia PowerShell `Invoke-WebRequest`:
+
+`tldr invoke-webrequest`
+
+- Zweryfikuj, czy `wget` jest poprawnie zainstalowany poprzez sprawdzenie jego wersji. Jeśli to polecenie zwraca błąd, PowerShell mógł je zastąpić poleceniem `Invoke-WebRequest`:
+
+`wget --version`

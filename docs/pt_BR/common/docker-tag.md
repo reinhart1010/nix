@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-tag (português (Brasil))
 description: "Atribuir tags a imagens Docker existentes."
-content_hash: bedcc6fffa6ef5b730859a7755bfc233389e0e9f
-last_modified_at: 2023-12-28
+content_hash: 374edec15eeea1118c96fe8180a30bd7912b6f7d
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/common/docker-tag.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # docker tag
 
 Atribuir tags a imagens Docker existentes.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/tag/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/image/tag/>.
 
 - Atribui um nome e tag a um ID de imagem específico:
 

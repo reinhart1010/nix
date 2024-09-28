@@ -2,8 +2,8 @@
 layout: page
 title: common/hugo (English)
 description: "Template-based static site generator. Uses modules, components, and themes."
-content_hash: f4f4f01ee17234eddfdef1d2b752271009d35aa8
-last_modified_at: 2023-11-12
+content_hash: 0b5cf67406477da01f73d974e61beb74a457cb1a
+last_modified_at: 2024-09-28
 related_topics:
   - title: Indonesia version
     url: /id/common/hugo.html
@@ -13,6 +13,7 @@ tldri18n_status: 2
 # hugo
 
 Template-based static site generator. Uses modules, components, and themes.
+Some subcommands such as `server` have their own usage documentation.
 More information: <https://gohugo.io>.
 
 - Create a new Hugo site:

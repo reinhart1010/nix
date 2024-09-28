@@ -2,8 +2,8 @@
 layout: page
 title: windows/wget (தமிழ்)
 description: "PowerShell இல், அசல் `wget` நிரல் (<https://www.gnu.org/software/wget>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப்பெயராக இருக்கலாம்."
-content_hash: 3e5cdf82597894b60706fc64f87051b1bbdae639
-last_modified_at: 2023-11-19
+content_hash: 268eb544da7258fd9e171a7dc28c301d736a0f6c
+last_modified_at: 2024-09-28
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -96,10 +96,6 @@ tldri18n_status: 2
 PowerShell இல், அசல் `wget` நிரல் (<https://www.gnu.org/software/wget>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப்பெயராக இருக்கலாம்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- அதன் பதிப்பு எண்ணை அச்சிட்டு `wget` சரியாக நிறுவப்பட்டுள்ளதா என்பதைச் சரிபார்க்கவும். இந்த கட்டளை பிழையாக மதிப்பிடப்பட்டால், PowerShell இந்த கட்டளையை `Invoke-WebRequest` உடன் மாற்றியிருக்கலாம்:
-
-`wget --version`
-
 - அசல் `wget` கட்டளைக்கான ஆவணங்களைக் காண்க:
 
 `tldr wget -p common`
@@ -107,3 +103,7 @@ PowerShell இல், அசல் `wget` நிரல் (<https://www.gnu.org/
 - PowerShell இன் `Invoke-WebRequest` கட்டளைக்கான ஆவணங்களைக் காண்க:
 
 `tldr invoke-webrequest`
+
+- அதன் பதிப்பு எண்ணை அச்சிட்டு `wget` சரியாக நிறுவப்பட்டுள்ளதா என்பதைச் சரிபார்க்கவும். இந்த கட்டளை பிழையாக மதிப்பிடப்பட்டால், PowerShell இந்த கட்டளையை `Invoke-WebRequest` உடன் மாற்றியிருக்கலாம்:
+
+`wget --version`

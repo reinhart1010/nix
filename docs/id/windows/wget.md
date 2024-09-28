@@ -2,8 +2,8 @@
 layout: page
 title: windows/wget (Indonesia)
 description: "Perintah ini dapat merupakan alias dari `Invoke-WebRequest` jika program `wget` (<https://www.gnu.org/software/wget>) tidak terpasang secara benar di PowerShell."
-content_hash: 9585843fdafa9adc7886ee9331dc7958822e5d25
-last_modified_at: 2023-12-29
+content_hash: abb5e09f29392c7bb47292771d54b59a10ffb62b
+last_modified_at: 2024-09-28
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -96,10 +96,6 @@ tldri18n_status: 2
 Perintah ini dapat merupakan alias dari `Invoke-WebRequest` jika program `wget` (<https://www.gnu.org/software/wget>) tidak terpasang secara benar di PowerShell.
 Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Cari tahu apakah `wget` sudah terpasang dengan benar dengan menampilkan versi program tersebut. Jika perintah ini memunculkan pesan galat/error, maka PowerShell berkemungkinan sedang menggantinya dengan `Invoke-WebRequest`:
-
-`wget --version`
-
 - Tampilkan dokumentasi untuk perintah `wget` yang asli:
 
 `tldr wget -p common`
@@ -107,3 +103,7 @@ Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft
 - Tampilkan dokumentasi untuk perintah `Invoke-WebRequest`:
 
 `tldr invoke-webrequest`
+
+- Cari tahu apakah `wget` sudah terpasang dengan benar dengan menampilkan versi program tersebut. Jika perintah ini memunculkan pesan galat/error, maka PowerShell berkemungkinan sedang menggantinya dengan `Invoke-WebRequest`:
+
+`wget --version`

@@ -2,11 +2,14 @@
 layout: page
 title: common/linode-cli (Nederlands)
 description: "Beheer Linode cloud-diensten."
-content_hash: ff3980890c7ac1ab4813b6559b65126e6231bb54
-last_modified_at: 2023-11-12
+content_hash: a348b0e7b16b59b52b4389b7f298687e6e121b6a
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/common/linode-cli.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/linode-cli.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +17,7 @@ tldri18n_status: 2
 
 Beheer Linode cloud-diensten.
 Sommige subcommando's zoals `events` hebben een eigen documentatie pagina.
-Meer informatie: <https://www.linode.com/docs/products/tools/cli/get-started/>.
+Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/getting-started-with-the-linode-cli>.
 
 - Toon alle Linodes:
 

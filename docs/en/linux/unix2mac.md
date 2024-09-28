@@ -2,9 +2,12 @@
 layout: page
 title: linux/unix2mac (English)
 description: "Change Unix-style line endings to macOS-style."
-content_hash: 5c771ac27bd2b22c5ce31c4cb7eb75fa95f9cf0a
-last_modified_at: 2024-09-27
+content_hash: 56797c575ef919f435c2bb7eb673af712709167a
+last_modified_at: 2024-09-28
 related_topics:
+  - title: Indonesia version
+    url: /id/linux/unix2mac.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/unix2mac.html
     icon: bi bi-globe
@@ -15,7 +18,7 @@ tldri18n_status: 2
 Change Unix-style line endings to macOS-style.
 Replaces LF with CR.
 See also `unix2dos`, `dos2unix`, and `mac2unix`.
-Informasi lebih lanjut: <https://manned.org/unix2mac>.
+More information: <https://manned.org/unix2mac>.
 
 - Change the line endings of a file:
 

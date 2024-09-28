@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/wget (Deutsch)
-description: "Dieser Befehl ist ein Alias von `wget -p common`."
-content_hash: acefc9812cb5bca32dcaaafbb40e46b74f469695
-last_modified_at: 2023-11-12
+description: "In PowerShell kann dieser Befehl ein Alias von `Invoke-WebRequest` sein, wenn das Originalprogramm `wget` (<https://www.gnu.org/software/wget>) nicht ordnungsgemäß installiert wurde."
+content_hash: 65aca9035544fbe06dfe0ed286e07945051f0129
+last_modified_at: 2024-09-28
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -96,9 +96,17 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># wget
 
-Dieser Befehl ist ein Alias von `wget -p common`.
+In PowerShell kann dieser Befehl ein Alias von `Invoke-WebRequest` sein, wenn das Originalprogramm `wget` (<https://www.gnu.org/software/wget>) nicht ordnungsgemäß installiert wurde.
 Weitere Informationen: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Zeige die Dokumentation für den originalen Befehl an:
+- Schaue dir hier die Dokumentation für den ursprünglichen `wget`-Befehl an:
 
 `tldr wget -p common`
+
+- Schaue dir hier die Dokumentation für den PowerShell-Befehl `Invoke-WebRequest` an:
+
+`tldr invoke-webrequest`
+
+- Überprüfen Sie, ob `wget` ordnungsgemäß installiert ist, indem Sie sich die Versionsnummer ausgeben lassen. Wenn nachfolgender Befehl einen Fehler ausgibt, hat PowerShell diesen Befehl möglicherweise durch `Invoke-WebRequest` ersetzt:
+
+`wget --version`

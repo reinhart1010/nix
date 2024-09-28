@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/wget (বাংলা)
-description: "এই কমান্ড একটি উপনাম `wget -p common`."
-content_hash: ba10c42e710502956107df64ff8320c7c6a65541
-last_modified_at: 2023-11-02
+description: "পাওয়ারশেলে, এই কমান্ডটি অরিজিনাল `wget` প্রোগ্রাম (<https://www.gnu.org/software/wget>) সঠিকভাবে ইনস্টল না থাকলে এটি `Invoke-WebRequest` এর এলিয়াস হতে পারে।"
+content_hash: c0b7bae4f65b19083bfc446fd54ebbd3f21e3a90
+last_modified_at: 2024-09-28
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -92,15 +92,30 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/wget.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/wget.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># wget
 
-এই কমান্ড একটি উপনাম `wget -p common`.
+পাওয়ারশেলে, এই কমান্ডটি অরিজিনাল `wget` প্রোগ্রাম (<https://www.gnu.org/software/wget>) সঠিকভাবে ইনস্টল না থাকলে এটি `Invoke-WebRequest` এর এলিয়াস হতে পারে।
 আরও তথ্য পাবেন: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>।
 
-- মূল কমান্ডের জন্য ডকুমেন্টেশন দেখুন:
+- মৌলিক `wget` কমান্ডের জন্য নথি:
 
 `tldr wget -p common`
+
+- পাওয়ারশেলের `Invoke-WebRequest` কমান্ডের জন্য নথি:
+
+`tldr invoke-webrequest`
+
+- চেষ্টা করুন যে কি `wget` সঠিকভাবে ইনস্টল করা হয়েছে কিনা, এর সংস্করণ নম্বর প্রিন্ট করে। যদি এই কমান্ডটি একটি ত্রুটির মধ্যে মূল `Invoke-WebRequest` দিয়ে বদলে যায়, তবে:
+
+`wget --version`

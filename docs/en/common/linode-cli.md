@@ -2,11 +2,14 @@
 layout: page
 title: common/linode-cli (English)
 description: "Manage Linode cloud services."
-content_hash: 300098e58acd22b8fda386e186e1f58796ade981
-last_modified_at: 2023-11-12
+content_hash: 6341e6c8a31649842276c1d42e310fac27d78e63
+last_modified_at: 2024-09-28
 related_topics:
   - title: Nederlands version
     url: /nl/common/linode-cli.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/linode-cli.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +17,7 @@ tldri18n_status: 2
 
 Manage Linode cloud services.
 Some subcommands such as `events` have their own usage documentation.
-More information: <https://www.linode.com/docs/products/tools/cli/get-started/>.
+More information: <https://techdocs.akamai.com/cloud-computing/docs/getting-started-with-the-linode-cli>.
 
 - List all Linodes:
 

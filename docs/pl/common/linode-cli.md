@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli (polski)
 description: "Zarządzaj usługami w chmurze Linode."
-content_hash: 025a5a0da55b3ed49621d3c7a43e93d6feb0f8b4
-last_modified_at: 2023-11-26
+content_hash: 0a58c7e40358aa7de7c851ca812a1f0b0fe6a025
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/common/linode-cli.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Zarządzaj usługami w chmurze Linode.
 Niektóre podkomendy, takie jak `events` mają osobną dokumentację.
-Więcej informacji: <https://www.linode.com/docs/products/tools/cli/get-started/>.
+Więcej informacji: <https://techdocs.akamai.com/cloud-computing/docs/getting-started-with-the-linode-cli>.
 
 - Wypisz wszystkie instancje Linode:
 
