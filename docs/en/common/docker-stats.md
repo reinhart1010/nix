@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-stats (English)
 description: "Display a live stream of resource usage statistics for containers."
-content_hash: a6e0981584e691bbcd66bb1b801d5494f9eb2fc0
-last_modified_at: 2024-01-31
+content_hash: 1899d5cf8304fa615e66b47e089e65c1a41c1aca
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-stats.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker stats
 
 Display a live stream of resource usage statistics for containers.
-More information: <https://docs.docker.com/engine/reference/commandline/stats/>.
+More information: <https://docs.docker.com/reference/cli/docker/container/stats/>.
 
 - Display a live stream for the statistics of all running containers:
 

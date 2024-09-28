@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-service (English)
 description: "Manage the services on a Docker daemon."
-content_hash: 2c340ab36dee5c64ffb8ea4156c6d18f5b73e860
-last_modified_at: 2024-03-14
+content_hash: 73373cf824b6aa96827b829f4907ad577b06c80c
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-service.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker service
 
 Manage the services on a Docker daemon.
-More information: <https://docs.docker.com/engine/reference/commandline/service/>.
+More information: <https://docs.docker.com/reference/cli/docker/service/>.
 
 - List the services on a Docker daemon:
 

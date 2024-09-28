@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (日本語)
 description: "Dockerのデータ管理とシステム全体に関わる情報の表示をします。"
-content_hash: c133b11ac3828499dfecb6b9e189c8524104d913
-last_modified_at: 2024-04-19
+content_hash: 7b88d3f7be2f888f7958c03bf9b787ad1eb65710
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker system
 
 Dockerのデータ管理とシステム全体に関わる情報の表示をします。
-詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/system/>
+詳しくはこちら: <https://docs.docker.com/reference/cli/docker/system/>
 
 - ヘルプの表示をする:
 

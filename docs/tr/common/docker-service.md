@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-service (Türkçe)
 description: "Bir Docker daemon'unun üzerindeki servisleri yönet."
-content_hash: a92cec6cf9395400b1f4b340242d38cfd9d9c320
-last_modified_at: 2024-03-14
+content_hash: 5647172bc0bbc107b8c15f38b113ede24108a786
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-service.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker service
 
 Bir Docker daemon'unun üzerindeki servisleri yönet.
-Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/service/>.
+Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/service/>.
 
 - Bir Docker daeomon'unun üzerindeki servisleri listele:
 

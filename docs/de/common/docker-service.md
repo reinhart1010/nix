@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-service (Deutsch)
 description: "Verwalte Docker Services."
-content_hash: a55c748a6fcc9cad0c84e4438e884d353fa7ab16
-last_modified_at: 2023-11-12
+content_hash: 13f9139bfcfb377224effc3c33f833398832ebf8
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/common/docker-service.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker service
 
 Verwalte Docker Services.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/service/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/service/>.
 
 - Liste alle Services auf:
 

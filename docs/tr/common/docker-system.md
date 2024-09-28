@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (Türkçe)
 description: "Docker verilerini yönet ve sistem bilgisi görüntüle."
-content_hash: 5aa428908150e16655c0449b56eda9c157e4eddb
-last_modified_at: 2024-04-19
+content_hash: ecd2997b7f5d24dcd529aaae470d194654da8513
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker system
 
 Docker verilerini yönet ve sistem bilgisi görüntüle.
-Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/system/>.
+Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/system/>.
 
 - Yardım göster:
 

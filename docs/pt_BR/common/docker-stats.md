@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-stats (português (Brasil))
 description: "Exibe estatísticas dinâmicas de uso de recursos dos containers."
-content_hash: 49c197d18027205435a968faffdd9bf220341e95
-last_modified_at: 2023-11-12
+content_hash: b002f618766f49e3a2e869407b7245265dcdb3a8
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-stats.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker stats
 
 Exibe estatísticas dinâmicas de uso de recursos dos containers.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/stats/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/container/stats/>.
 
 - Exibe estatísticas atualizadas de todos os containers em execução:
 

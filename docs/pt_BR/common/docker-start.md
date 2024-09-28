@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-start (português (Brasil))
 description: "Inicia um ou mais containers parados."
-content_hash: 8c68ac08ec050c2684b937b4de21f219914c946f
-last_modified_at: 2024-03-14
+content_hash: e9abb04e8030e4cd5a4c993cd496c5026a63dd7a
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker start
 
 Inicia um ou mais containers parados.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/start/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/container/start/>.
 
 - Exibe a ajuda:
 

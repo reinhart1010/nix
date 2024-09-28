@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-service (français)
 description: "Gérer les services sur un démon Docker."
-content_hash: 58c6b78c05957d16ee100aff9cd842325f5e4b5f
-last_modified_at: 2023-11-12
+content_hash: 5a4538d5d9b77812c1df31bc2944beef9892dba9
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-service.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker service
 
 Gérer les services sur un démon Docker.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/service/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/service/>.
 
 - Lister les services sur un démon Docker :
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-stats (français)
 description: "Affiché un flux en direct des statistiques d'utilisation des ressources pour les conteneurs."
-content_hash: d6fa0e05f8e009c5825cb4110dd667a574db825c
-last_modified_at: 2023-11-12
+content_hash: e04235258939f15e396760859764b0ecadf5040e
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-stats.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker stats
 
 Affiché un flux en direct des statistiques d'utilisation des ressources pour les conteneurs.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/stats/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/stats/>.
 
 - Afficher un flux en direct des statistiques d'utilisation des ressources pour tous les conteneurs :
 

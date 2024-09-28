@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-start (English)
 description: "Start stopped containers."
-content_hash: 8cfb986c8b7a4a0013d25a13bfbbb3ee94c9636b
-last_modified_at: 2024-03-14
+content_hash: c33ed4729cdfeab3de6186503551de29ad975605
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker start
 
 Start stopped containers.
-More information: <https://docs.docker.com/engine/reference/commandline/start/>.
+More information: <https://docs.docker.com/reference/cli/docker/container/start/>.
 
 - Display help:
 

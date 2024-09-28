@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-start (Deutsch)
 description: "Starte einen oder mehrere gestoppte Container."
-content_hash: cd58431a1660663f89583d7311ebb98956ef9f88
-last_modified_at: 2023-11-12
+content_hash: f312ef6e91308e354dbdafa392f087c538fc7212
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/common/docker-start.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker start
 
 Starte einen oder mehrere gestoppte Container.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/start/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/start/>.
 
 - Zeige Hilfe:
 

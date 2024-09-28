@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (português (Brasil))
 description: "Gerenciar dados do Docker e exibir informações do sistema em todo o sistema."
-content_hash: 1e3cdfe8eb30f5ceb15c5ff63f5e28a29ba3505d
-last_modified_at: 2024-04-19
+content_hash: b1a6d2b6905f07b23240564f2e042c09ac80576a
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker system
 
 Gerenciar dados do Docker e exibir informações do sistema em todo o sistema.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/system/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/system/>.
 
 - Mostra ajuda:
 

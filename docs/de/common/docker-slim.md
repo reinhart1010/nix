@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-slim (Deutsch)
 description: "Analysiere und optimiere Docker Images."
-content_hash: eef69c1a16a79860623f784c02d34a4224363f63
-last_modified_at: 2023-11-12
+content_hash: 6884ef6abb5861bdf422d63f27f3f6a7d24979d7
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/common/docker-slim.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # docker-slim
 
 Analysiere und optimiere Docker Images.
-Weitere Informationen: <https://github.com/docker-slim/docker-slim>.
+Weitere Informationen: <https://github.com/slimtoolkit/slim>.
 
 - Starte DockerSlim im interaktiven Modus:
 

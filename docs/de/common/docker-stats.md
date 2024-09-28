@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-stats (Deutsch)
 description: "Zeige den Ressourcen-Verbrauch von Containern in Echtzeit."
-content_hash: d1abb60f62c98a221848e26220e60a3079a8487f
-last_modified_at: 2023-11-12
+content_hash: 69b2f2638b5b1c1034e70d8a29733a63cd83b2c5
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/common/docker-stats.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker stats
 
 Zeige den Ressourcen-Verbrauch von Containern in Echtzeit.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/stats/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/stats/>.
 
 - Zeige sich stetig aktualisierende Statistiken von allen laufenden Containern:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (Deutsch)
 description: "Verwalte Docker Daten und zeige systemweite Informationen an."
-content_hash: 9ef5b7609f9430fd90e88d4e65dfb1316c61c8e2
-last_modified_at: 2024-04-19
+content_hash: ff36d91e2052cc36e79b989ae7c7aef583a560f1
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/common/docker-system.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # docker system
 
 Verwalte Docker Daten und zeige systemweite Informationen an.
-Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/system/>.
+Weitere Informationen: <https://docs.docker.com/reference/cli/docker/system/>.
 
 - Zeige Hilfe:
 

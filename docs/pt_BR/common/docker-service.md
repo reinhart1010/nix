@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-service (português (Brasil))
 description: "Gerenciar os serviços em um daemon do Docker."
-content_hash: 51b6c944164a37ace257e59064c2cd8458276866
-last_modified_at: 2023-12-28
+content_hash: e5b96f89ec5cd7dc36079ebc76d0a1acd09f5420
+last_modified_at: 2024-09-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-service.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # docker service
 
 Gerenciar os serviços em um daemon do Docker.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/service/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/service/>.
 
 - Lista os serviços em um daemon do Docker:
 
