@@ -2,8 +2,8 @@
 layout: page
 title: osx/safeejectgpu (English)
 description: "Eject a GPU safely."
-content_hash: a372c113ca34607ab7a21b3ff4fd2a5e7c94102b
-last_modified_at: 2024-01-31
+content_hash: 71c00d30a632b1224614a8994f01aa6e48189d2b
+last_modified_at: 2024-09-28
 related_topics:
   - title: español version
     url: /es/osx/safeejectgpu.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # SafeEjectGPU
 
 Eject a GPU safely.
-More information: <https://keith.github.io/xcode-man-pages/safeejectgpu.8.html>.
+More information: <https://keith.github.io/xcode-man-pages/SafeEjectGPU.8.html>.
 
 - Eject all GPUs:
 

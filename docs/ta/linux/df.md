@@ -3,7 +3,7 @@ layout: page
 title: linux/df (தமிழ்)
 description: "கோப்பு முறைமை வட்டு இட உபயோகத்தின் மேலோட்டத்தை அளிக்கிறது."
 content_hash: 70bff38005d38538a8c00220edfdc39e52b77d1f
-last_modified_at: 2024-01-25
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/linux/df.html
@@ -11,9 +11,12 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/df.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# df
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># df
 
 கோப்பு முறைமை வட்டு இட உபயோகத்தின் மேலோட்டத்தை அளிக்கிறது.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/df>.

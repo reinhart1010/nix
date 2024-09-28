@@ -3,7 +3,7 @@ layout: page
 title: linux/mac2unix (Indonesia)
 description: "Ubah format pengakhiran baris teks pada suatu berkas teks (plaintext) dari format DOS menuju Unix."
 content_hash: 9fb59550547aa87d98dbc302475312e4a923368a
-last_modified_at: 2024-09-27
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/linux/mac2unix.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/mac2unix.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mac2unix.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mac2unix
+# mac2unix
 
 Ubah format pengakhiran baris teks pada suatu berkas teks (plaintext) dari format DOS menuju Unix.
 Program ini menggantikan simbol CRLF menjadi LF.

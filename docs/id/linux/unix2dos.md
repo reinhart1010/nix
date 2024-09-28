@@ -3,7 +3,7 @@ layout: page
 title: linux/unix2dos (Indonesia)
 description: "Ubah format pengakhiran baris teks pada suatu berkas teks (plaintext) dari format Unix menuju DOS."
 content_hash: a92834f00854914dcc6a53641a2ba2d630f9f177
-last_modified_at: 2024-09-27
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/linux/unix2dos.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/unix2dos.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/unix2dos.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># unix2dos
+# unix2dos
 
 Ubah format pengakhiran baris teks pada suatu berkas teks (plaintext) dari format Unix menuju DOS.
 Program ini menggantikan simbol LF menjadi CRLF.

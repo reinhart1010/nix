@@ -3,23 +3,14 @@ layout: page
 title: common/gitstats (Indonesia)
 description: "Buat laporan statistika atas repositori Git."
 content_hash: 9ef28d9a4f8f31bce532f8b158bcb86b9d41e576
-last_modified_at: 2024-09-27
+last_modified_at: 2024-09-28
 related_topics:
   - title: English version
     url: /en/common/gitstats.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gitstats.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gitstats
+# gitstats
 
 Buat laporan statistika atas repositori Git.
 Informasi lebih lanjut: <https://gitstats.sourceforge.net>.
