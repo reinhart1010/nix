@@ -2,8 +2,8 @@
 layout: page
 title: common/subfinder (English)
 description: "Discover valid subdomains for websites."
-content_hash: 2061bfb4d6c9f20fb648154f157751ade93e3200
-last_modified_at: 2024-02-15
+content_hash: 7f2434f58c4eeef77e6bdc7704748915b3f5ee1d
+last_modified_at: 2024-09-29
 tldri18n_status: 2
 ---
 # subfinder
@@ -18,15 +18,15 @@ More information: <https://github.com/projectdiscovery/subfinder>.
 
 - Show only the subdomains found:
 
-`subfinder --silent -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+`subfinder -silent -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
-- Use a brute-force attack to find subdomains:
-
-`subfinder -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` -b`
-
-- Remove wildcard subdomains:
+- Show only active subdomains:
 
 `subfinder -nW -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+
+- Use all sources for enumeration:
+
+`subfinder -all -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
 - Use a given comma-separated list of [r]esolvers:
 

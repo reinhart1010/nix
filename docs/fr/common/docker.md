@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (français)
 description: "Gestion des conteneurs et des images Docker."
-content_hash: a8b1aa75877d8ad8f69b08bda035ad9c7ac1dcc0
-last_modified_at: 2023-11-12
+content_hash: d531d3d322dc48168e906228a7dab6de69356428
+last_modified_at: 2024-09-29
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
     icon: bi bi-globe
@@ -44,7 +47,7 @@ tldri18n_status: 2
 
 Gestion des conteneurs et des images Docker.
 Certaines commandes comme `docker run` ont leur propre documentation.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/cli/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/>.
 
 - Liste tous les conteneurs Docker (en cours d'exécution ou arrêtés) :
 

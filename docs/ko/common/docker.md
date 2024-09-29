@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (한국어)
 description: "도커 컨테이너들과 이미지들을 관리한다."
-content_hash: 4f8fb14344085cd688fb295aa412def5daffe7ca
-last_modified_at: 2024-01-16
+content_hash: fcd50a8f18d7291e5ecae5248b6cfdc685b34677
+last_modified_at: 2024-09-29
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # docker
 
 도커 컨테이너들과 이미지들을 관리한다.
-더 많은 정보: <https://docs.docker.com/engine/reference/commandline/cli/>.
+더 많은 정보: <https://docs.docker.com/reference/cli/docker/>.
 
 - 모든 도커 컨테이너들(실행 및 중지) 목록 보기:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (日本語)
 description: "Dockerコンテナ及びDockerイメージの管理を行います。"
-content_hash: ee8d1c540619cb0c8879ec37381ff0caf50bfb85
-last_modified_at: 2023-11-12
+content_hash: 61719fd72e678effa81d90a719b48ee9112a342d
+last_modified_at: 2024-09-29
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
     icon: bi bi-globe
@@ -44,7 +47,7 @@ tldri18n_status: 2
 
 Dockerコンテナ及びDockerイメージの管理を行います。
 `docker run` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/cli/>
+詳しくはこちら: <https://docs.docker.com/reference/cli/docker/>
 
 - 全てのDockerコンテナを表示する(実行中・停止中、両方のコンテナ):
 
