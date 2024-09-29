@@ -3,10 +3,13 @@ layout: page
 title: windows/wget (polski)
 description: "W PowerShell to polecenie może być aliasem `Invoke-WebRequest`, gdy oryginalny program `wget` (<https://www.gnu.org/software/wget>) nie jest poprawnie zainstalowany."
 content_hash: c14e7574fbe5820a48873c1c67fa939f9fd95460
-last_modified_at: 2024-09-28
+last_modified_at: 2024-09-29
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/wget.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/wget.html
@@ -89,12 +92,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/wget.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wget
+# wget
 
 W PowerShell to polecenie może być aliasem `Invoke-WebRequest`, gdy oryginalny program `wget` (<https://www.gnu.org/software/wget>) nie jest poprawnie zainstalowany.
 Więcej informacji: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.

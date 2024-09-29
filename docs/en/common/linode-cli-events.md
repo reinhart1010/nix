@@ -2,15 +2,15 @@
 layout: page
 title: common/linode-cli-events (English)
 description: "Manage Linode events."
-content_hash: 27364a0846d71066bd0571531b4839f79b7079d2
-last_modified_at: 2024-01-31
+content_hash: 4390639b1e34871c5b90a3fc73c084ddb6aacaee
+last_modified_at: 2024-09-29
 tldri18n_status: 2
 ---
 # linode-cli events
 
 Manage Linode events.
 See also: `linode-cli`.
-More information: <https://www.linode.com/docs/products/tools/cli/guides/events/>.
+More information: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-viewing-events>.
 
 - List the events on your account:
 

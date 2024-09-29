@@ -3,7 +3,7 @@ layout: page
 title: windows/wget (বাংলা)
 description: "পাওয়ারশেলে, এই কমান্ডটি অরিজিনাল `wget` প্রোগ্রাম (<https://www.gnu.org/software/wget>) সঠিকভাবে ইনস্টল না থাকলে এটি `Invoke-WebRequest` এর এলিয়াস হতে পারে।"
 content_hash: c0b7bae4f65b19083bfc446fd54ebbd3f21e3a90
-last_modified_at: 2024-09-28
+last_modified_at: 2024-09-29
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -92,18 +92,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/wget.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/wget.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wget
+# wget
 
 পাওয়ারশেলে, এই কমান্ডটি অরিজিনাল `wget` প্রোগ্রাম (<https://www.gnu.org/software/wget>) সঠিকভাবে ইনস্টল না থাকলে এটি `Invoke-WebRequest` এর এলিয়াস হতে পারে।
 আরও তথ্য পাবেন: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>।

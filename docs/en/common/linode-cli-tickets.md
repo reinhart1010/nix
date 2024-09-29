@@ -2,15 +2,15 @@
 layout: page
 title: common/linode-cli-tickets (English)
 description: "Manage Linode Support Tickets."
-content_hash: 86e0d415b2d2b9cd90151ce7d7e40510c258d558
-last_modified_at: 2023-11-12
+content_hash: 327721e7e2ccba16d0e22cb26b68cf61f190305a
+last_modified_at: 2024-09-29
 tldri18n_status: 2
 ---
 # linode-cli tickets
 
 Manage Linode Support Tickets.
 See also: `linode-cli`.
-More information: <https://www.linode.com/docs/products/tools/cli/guides/account/>.
+More information: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-account-management>.
 
 - List your Support Tickets:
 
