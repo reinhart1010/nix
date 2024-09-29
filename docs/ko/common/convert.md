@@ -1,59 +1,36 @@
 ---
 layout: page
 title: common/convert (한국어)
-description: "ImageMagick 이미지 변환 도구."
-content_hash: 8bd2e2fb375102c0d2295025d168f39c91133786
-last_modified_at: 2023-11-12
+description: "이 명령어는 `magick convert`의 별칭."
+content_hash: d38858ce3de2bd2424b5d30b746a79127607c766
+last_modified_at: 2024-09-29
 related_topics:
-  - title: Deutsch version
-    url: /de/common/convert.html
-    icon: bi bi-globe
   - title: English version
     url: /en/common/convert.html
     icon: bi bi-globe
-  - title: français version
-    url: /fr/common/convert.html
+  - title: Nederlands version
+    url: /nl/common/convert.html
     icon: bi bi-globe
-  - title: italiano version
-    url: /it/common/convert.html
+  - title: polski version
+    url: /pl/common/convert.html
     icon: bi bi-globe
-  - title: português (Brasil) version
-    url: /pt_BR/common/convert.html
-    icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/convert.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># convert
 
-ImageMagick 이미지 변환 도구.
-더 많은 정보: <https://imagemagick.org/script/convert.php>.
+이 명령어는 `magick convert`의 별칭.
+참고: ImageMagick 7부터 이 별칭은 사용되지 않음. `magick`으로 대체됨.
+7 이상 버전에서 이전 도구를 사용해야 하는 경우, `magick convert`를 사용해야 함.
 
-- JPG이미지를 PNG이미지로 변환:
+- 원래 명령에 대한 문서 보기:
 
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.jpg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.png</span>
-
-- 이미지를 원래 크기의 50%로 조정:
-
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.png</span>` -resize 50% `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지2.png</span>
-
-- 원래 종횡비를 유지하면서 이미지를 최대 640x480 크기로 조정:
-
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.png</span>` -resize 640x480 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지2.png</span>
-
-- 이미지를 가로로 추가:
-
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지1.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지2.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지3.png</span>` +append `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지123.png</span>
-
-- 이미지를 세로로 추가:
-
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지1.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지2.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지3.png</span>` -append `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지123.png</span>
-
-- 100ms 지연된 일련의 이미지에서 GIF 만들기:
-
-`convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지1.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지2.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지3.png</span>` -delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애니메이션.gif</span>
-
-- 단색 배경만으로 이미지 만들기:
-
-`convert -size `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">800x600</span>` "xc:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">#ff0000</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.png</span>
+`tldr magick convert`

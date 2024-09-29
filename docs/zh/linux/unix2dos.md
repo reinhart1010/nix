@@ -2,11 +2,14 @@
 layout: page
 title: linux/unix2dos (中文)
 description: "将 Unix 样式的行尾更改为 DOS 样式。"
-content_hash: c5fb2876a20c9135e650c024a12933f49537024c
-last_modified_at: 2024-08-31
+content_hash: 664cdc1ae0e353867e7be896673afe12b30424e4
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/linux/unix2dos.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/unix2dos.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -17,7 +20,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 将 Unix 样式的行尾更改为 DOS 样式。
 用 CRLF 替换 LF.
-更多信息：<https://waterlan.home.xs4all.nl/dos2unix.html>.
+更多信息：<https://manned.org/unix2dos>.
 
 - 更改文件的行尾：
 

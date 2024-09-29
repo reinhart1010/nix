@@ -2,11 +2,14 @@
 layout: page
 title: linux/dnf5 (español)
 description: "Programa de gestión de paquetes para RHEL, Fedora y CentOS (reemplaza a dnf, que a su vez reemplazó a yum)."
-content_hash: fb01a632e999461b3410f0fbefc5a857f087d478
-last_modified_at: 2024-04-18
+content_hash: a465c52a2c962d0b148eb5bc9f658084a02c0bca
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/linux/dnf5.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/dnf5.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -15,7 +18,7 @@ tldri18n_status: 2
 Programa de gestión de paquetes para RHEL, Fedora y CentOS (reemplaza a dnf, que a su vez reemplazó a yum).
 DNF5 es una reescritura en C++ del gestor de paquetes DNF con mejor rendimiento y menor tamaño.
 Para comandos equivalentes en otros gestores de paquetes, vea <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-Más información: <https://dnf5.readthedocs.io/>.
+Más información: <https://dnf5.readthedocs.io>.
 
 - Actualiza los paquetes instalados a las versiones más recientes disponibles:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-lfs (español)
 description: "Trabaja con archivos grandes en repositorios de Git."
-content_hash: 5036ceda06613d1f9c4e3c8dd2b2a297fa049c36
-last_modified_at: 2024-05-23
+content_hash: a63caa15387fe4fc41ffd9c6f6f1de4f4f7a6a08
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/common/git-lfs.html
@@ -34,7 +34,7 @@ Más información: <https://git-lfs.com>.
 
 - Cambia la URL a la que apunta Git LFS (útil si el servidor LFS está separado del servidor Git):
 
-`git config -f .lfsconfig lfs.url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_del_punto_de_acceso_LFS</span>
+`git config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--file</span>` .lfsconfig lfs.url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_del_punto_de_acceso_LFS</span>
 
 - Muestra los patrones rastreados:
 

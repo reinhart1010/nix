@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (español)
 description: "Comando principal de Git para trabajar con ramas."
-content_hash: a679223090d9ad17266459a4f3a5bce4778f4940
-last_modified_at: 2024-01-10
+content_hash: 9d16072e552c40fb20b87dd5855207cc67e9d48d
+last_modified_at: 2024-09-29
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-branch.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-branch.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-branch.html
@@ -58,11 +61,11 @@ Más información: <https://git-scm.com/docs/git-branch>.
 
 - Renombra una rama (para ello no debes tenerla controlada):
 
-`git branch -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama_antigua</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_nombre_rama</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--move</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama_antigua</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_nombre_rama</span>
 
 - Elimina una rama local (no debes tenerla controlada para hacerlo):
 
-`git branch -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span>
 
 - Elimina una rama remota:
 

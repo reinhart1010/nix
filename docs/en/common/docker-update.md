@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-update (English)
 description: "Update configuration of Docker containers."
-content_hash: d30f71aaebbdb32a63e80ae5e8cd07fa1d3589d5
-last_modified_at: 2023-11-12
+content_hash: 74d5b75ba4bb315d8dbbc9fb10541e66b108f906
+last_modified_at: 2024-09-29
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/docker-update.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Update configuration of Docker containers.
 This command is not supported for Windows containers.
-More information: <https://docs.docker.com/engine/reference/commandline/update/>.
+More information: <https://docs.docker.com/reference/cli/docker/container/update/>.
 
 - Update restart policy to apply when a specific container exits:
 

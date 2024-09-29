@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-volume (français)
 description: "Gérer les volumes de Docker."
-content_hash: 70c2e29730fa64d5332b705d97614a9db4e93f00
-last_modified_at: 2023-11-12
+content_hash: 12ee599c8fbc5d5cb338d9d51364fffca7204f6e
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/common/docker-volume.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # docker volume
 
 Gérer les volumes de Docker.
-Plus d'informations : <https://docs.docker.com/engine/reference/commandline/volume/>.
+Plus d'informations : <https://docs.docker.com/reference/cli/docker/volume/>.
 
 - Créer un volume :
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-bundle (español)
 description: "Empaqueta objetos y referencias en un archivo."
-content_hash: de8bb78d7bce1ae649ebf20f36a97ed16dd419a2
-last_modified_at: 2024-08-26
+content_hash: 31d52e5e2a28d726f3b6ef60b722db06dbe88374
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
@@ -44,7 +44,7 @@ Más información: <https://git-scm.com/docs/git-bundle>.
 
 - Crea un archivo bundle de los últimos 7 días:
 
-`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bundle</span>` --since=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.days</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
+`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bundle</span>` --since `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.days</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
 
 - Verifica que un archivo bundle es válido y puede aplicarse al repositorio actual:
 

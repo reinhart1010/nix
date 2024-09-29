@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (español)
 description: "Realiza confirmaciones de los archivos al repositorio."
-content_hash: 8d5637c55c1ce7992e1598a00b32e3190f68e9f9
-last_modified_at: 2024-01-13
+content_hash: ba113a7e5e8b8ecf644865b2e297f53e11a3e769
+last_modified_at: 2024-09-29
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/git-commit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-commit.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-commit.html
@@ -64,7 +67,7 @@ Más información: <https://git-scm.com/docs/git-commit>.
 
 - Realiza una confirmación para archivos específicos (marcados previamente):
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
 
 - Crea una confirmación, incluso si no hay archivos marcados:
 

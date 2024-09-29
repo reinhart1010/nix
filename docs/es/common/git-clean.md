@@ -2,14 +2,17 @@
 layout: page
 title: common/git-clean (español)
 description: "Elimina archivos sin rastrear del árbol de trabajo."
-content_hash: 50b16d51af3e705ff7c1cdc8cebd330bfa2b26e7
-last_modified_at: 2023-11-12
+content_hash: 3fccc42216ecadddb6cedcfbcc167526dfa7e139
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/common/git-clean.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-clean.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-clean.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-clean.html
@@ -36,7 +39,7 @@ Más información: <https://git-scm.com/docs/git-clean>.
 
 - Elimina interactivamente archivos que no son rastreados por Git:
 
-`git clean -i`
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--interactive|-i</span>
 
 - Muestra que archivos serían borrados sin llegar a borrarlos:
 
@@ -44,11 +47,11 @@ Más información: <https://git-scm.com/docs/git-clean>.
 
 - Elimina forzosamente los archivos que no son rastreados por Git:
 
-`git clean -f`
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--force|-f</span>
 
 - Elimina forzosamente los directorios que no son rastreados por Git:
 
-`git clean -fd`
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--force|-f</span>` -d`
 
 - Elimina archivos sin rastrear, incluyendo los archivos ignorados en `.gitignore` y los excluidos en `.git/info/exclude`:
 

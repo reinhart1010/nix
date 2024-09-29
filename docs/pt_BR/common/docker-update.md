@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-update (português (Brasil))
 description: "Atualizar a configuração de contêineres Docker."
-content_hash: 8fe69a95a92bb871f00a07b136e114b712326492
-last_modified_at: 2023-12-28
+content_hash: f5f338fa47512a2df813eefe7259c55600b49895
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/common/docker-update.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Atualizar a configuração de contêineres Docker.
 Este comando não é suportado para contêineres Windows.
-Mais informações: <https://docs.docker.com/engine/reference/commandline/update/>.
+Mais informações: <https://docs.docker.com/reference/cli/docker/container/update/>.
 
 - Atualiza a política de reinicialização a ser aplicada quando um contêiner específico for encerrado:
 

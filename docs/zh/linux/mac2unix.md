@@ -2,11 +2,14 @@
 layout: page
 title: linux/mac2unix (中文)
 description: "将 macOS 样式的行尾更改为 Unix 样式。"
-content_hash: 76d0e612f063346b3f6178b305871ca99d4f30e2
-last_modified_at: 2024-08-31
+content_hash: 658de9c81dc55e13611840cf600e8ae1f8152198
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/linux/mac2unix.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/mac2unix.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -17,7 +20,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 将 macOS 样式的行尾更改为 Unix 样式。
 用 LF 替换 CR.
-更多信息：<https://waterlan.home.xs4all.nl/dos2unix.html>.
+更多信息：<https://manned.org/mac2unix>.
 
 - 更改文件的行尾：
 

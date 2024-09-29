@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-volume (English)
 description: "Manage Docker volumes."
-content_hash: 5350fcfd62ecdf0c21c133b0f562f9d54f813cb8
-last_modified_at: 2023-11-12
+content_hash: e25ea3b95cfb86766b5731d44facd06c7aaea226
+last_modified_at: 2024-09-29
 related_topics:
   - title: français version
     url: /fr/common/docker-volume.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # docker volume
 
 Manage Docker volumes.
-More information: <https://docs.docker.com/engine/reference/commandline/volume/>.
+More information: <https://docs.docker.com/reference/cli/docker/volume/>.
 
 - Create a volume:
 

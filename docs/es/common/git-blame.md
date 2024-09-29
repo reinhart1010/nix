@@ -2,8 +2,8 @@
 layout: page
 title: common/git-blame (español)
 description: "Muestra el hash de la confirmación y el último autor de cada línea de un archivo."
-content_hash: f599ce7ff3ab2a39d25b98522d17975629b7f0d5
-last_modified_at: 2024-01-13
+content_hash: 839b416289c04fbf6e5990ac20b30e27730da780
+last_modified_at: 2024-09-29
 related_topics:
   - title: Deutsch version
     url: /de/common/git-blame.html
@@ -42,7 +42,7 @@ Más información: <https://git-scm.com/docs/git-blame>.
 
 - Muestra el archivo con correo electrónico del autor y hash de la confirmación en cada línea:
 
-`git blame -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`git blame `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--show-email</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
 
 - Muestra quien y que modificó de un archivo, a partir de una confirmación específica:
 

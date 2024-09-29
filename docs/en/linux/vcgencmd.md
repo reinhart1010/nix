@@ -2,14 +2,14 @@
 layout: page
 title: linux/vcgencmd (English)
 description: "Print system information for a Raspberry Pi."
-content_hash: d40c872d5867fd0693f432dcb4cd8615c1ce845f
-last_modified_at: 2024-01-30
+content_hash: afc34047c55574a91e6e68ca7139bb38a04e239e
+last_modified_at: 2024-09-29
 tldri18n_status: 2
 ---
 # vcgencmd
 
 Print system information for a Raspberry Pi.
-More information: <https://www.raspberrypi.org/documentation/computers/os.html#vcgencmd>.
+More information: <https://www.raspberrypi.com/documentation/computers/os.html#vcgencmd>.
 
 - List all available commands:
 
