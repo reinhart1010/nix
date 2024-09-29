@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-lke (Nederlands)
 description: "Beheer Linode Kubernetes Engine (LKE) clusters."
-content_hash: 806f6a831f27885d8ecd5a4a42e68e3a1fd07f45
-last_modified_at: 2023-11-12
+content_hash: 3160dd053814091a19e863eb93654284e7790965
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/common/linode-cli-lke.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Beheer Linode Kubernetes Engine (LKE) clusters.
 Bekijk ook: `linode-cli`.
-Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/linode-kubernetes-engine/>.
+Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-lke>.
 
 - Toon alle LKE clusters:
 

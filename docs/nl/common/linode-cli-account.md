@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-account (Nederlands)
 description: "Beheer Linode accounts."
-content_hash: 14396257f734d321d4de8a52f483a4314800933f
-last_modified_at: 2023-11-12
+content_hash: dda93008a31c300847ebc8cf5108b59fefbe57da
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/common/linode-cli-account.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Beheer Linode accounts.
 Bekijk ook: `linode-cli`.
-Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/account/>.
+Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-account-management>.
 
 - Bekijk account:
 

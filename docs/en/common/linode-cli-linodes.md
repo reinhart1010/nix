@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-linodes (English)
 description: "Manage Linode instances."
-content_hash: 6844e20d1ce38626ec8e8869f42478256e93924b
-last_modified_at: 2023-11-12
+content_hash: 8d52b5cdcd64d1c3d6dd4cdd079d7f4d3f61456e
+last_modified_at: 2024-09-29
 related_topics:
   - title: Nederlands version
     url: /nl/common/linode-cli-linodes.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Manage Linode instances.
 See also: `linode-cli`.
-More information: <https://www.linode.com/docs/products/tools/cli/guides/linode-instances/>.
+More information: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-compute-instances>.
 
 - List all Linodes:
 

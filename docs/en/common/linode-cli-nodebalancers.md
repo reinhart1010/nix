@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-nodebalancers (English)
 description: "Manage Linode NodeBalancers."
-content_hash: 424fbbc7edc3213c85f8aaeacd7772d2adf4d29b
-last_modified_at: 2023-11-12
+content_hash: e4e8e5e613c5f4dd607343ffbc3c6cb17832fb1a
+last_modified_at: 2024-09-29
 related_topics:
   - title: Nederlands version
     url: /nl/common/linode-cli-nodebalancers.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Manage Linode NodeBalancers.
 See also: `linode-cli`.
-More information: <https://www.linode.com/docs/products/tools/cli/guides/nodebalancers/>.
+More information: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-nodebalancers>.
 
 - List all NodeBalancers:
 

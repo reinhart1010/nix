@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-nodebalancers (Nederlands)
 description: "Beheer Linode NodeBalancers."
-content_hash: b9a454683ff5786ed62bcda904e1e33ca02edca6
-last_modified_at: 2024-06-19
+content_hash: 8f635e09b324a65b5c39b968c01f5bca59ca51c1
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/common/linode-cli-nodebalancers.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Beheer Linode NodeBalancers.
 Bekijk ook: `linode-cli`.
-Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/nodebalancers/>.
+Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-nodebalancers>.
 
 - Toon alle NodeBalancers:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-object-storage (English)
 description: "Manage Linode Object Storage."
-content_hash: 26e6a5cbcf360ae0dd8456d45b64323f6b278156
-last_modified_at: 2023-11-12
+content_hash: a45d4579266cbc490efdaf2fb027b8d418dd0dab
+last_modified_at: 2024-09-29
 related_topics:
   - title: Nederlands version
     url: /nl/common/linode-cli-object-storage.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Manage Linode Object Storage.
 See also: `linode-cli`.
-More information: <https://www.linode.com/docs/products/tools/cli/guides/object-storage/>.
+More information: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-object-storage>.
 
 - List all Object Storage buckets:
 

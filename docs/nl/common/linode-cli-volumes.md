@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-volumes (Nederlands)
 description: "Beheer Linode Volumes."
-content_hash: 0844174da65d2b6871cff222d2247ea2827c4417
-last_modified_at: 2023-11-12
+content_hash: 23de86d81bab46ee77baed997a9d8bae78a4553c
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/common/linode-cli-volumes.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Beheer Linode Volumes.
 Bekijk ook: `linode-cli`.
-Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/block-storage-volumes/>.
+Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-block-storage-volumes>.
 
 - Toon alle huidige Volumes:
 

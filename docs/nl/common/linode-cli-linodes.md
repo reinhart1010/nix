@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-linodes (Nederlands)
 description: "Beheer Linode instanties."
-content_hash: 6965a20e0b627d62bb63f5e5000f6944043365c7
-last_modified_at: 2023-11-12
+content_hash: a848bf1a22805f7a152293b1928358bdb7d35bd3
+last_modified_at: 2024-09-29
 related_topics:
   - title: English version
     url: /en/common/linode-cli-linodes.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Beheer Linode instanties.
 Bekijk ook: `linode-cli`.
-Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/linode-instances/>.
+Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-compute-instances>.
 
 - Toon alle Linodes:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-domains (English)
 description: "Manage Linode Domains and DNS configuration."
-content_hash: 97b77871ee2e24ac7b61ebe1028059e5767d2163
-last_modified_at: 2023-11-12
+content_hash: f5a143ce560ccd989b417e5d26412aad1982625e
+last_modified_at: 2024-09-29
 related_topics:
   - title: Nederlands version
     url: /nl/common/linode-cli-domains.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Manage Linode Domains and DNS configuration.
 See also: `linode-cli`.
-More information: <https://www.linode.com/docs/products/tools/cli/guides/domains/>.
+More information: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-the-dns-manager>.
 
 - List all managed domains:
 
