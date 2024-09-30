@@ -3,23 +3,14 @@ layout: page
 title: common/cdk (한국어)
 description: "AWS Cloud 개발 키트 (CDK)용 CLI."
 content_hash: 77bc7af585e246e98238b1438d34384a53ebb57d
-last_modified_at: 2024-09-29
+last_modified_at: 2024-09-30
 related_topics:
   - title: English version
     url: /en/common/cdk.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cdk.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cdk
+# cdk
 
 AWS Cloud 개발 키트 (CDK)용 CLI.
 더 많은 정보: <https://docs.aws.amazon.com/cdk/latest/guide/cli.html>.

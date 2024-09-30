@@ -3,23 +3,14 @@ layout: page
 title: common/carp (한국어)
 description: "Carp용 REPL 및 빌드 도구."
 content_hash: 1b1b1a7976fb7f6a0c5108ad98ae1d68f6ca09b0
-last_modified_at: 2024-09-29
+last_modified_at: 2024-09-30
 related_topics:
   - title: English version
     url: /en/common/carp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/carp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># carp
+# carp
 
 Carp용 REPL 및 빌드 도구.
 더 많은 정보: <https://carp-lang.github.io/carp-docs/Manual.html>.

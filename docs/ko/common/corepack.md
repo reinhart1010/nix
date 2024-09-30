@@ -3,23 +3,14 @@ layout: page
 title: common/corepack (한국어)
 description: "Node 프로젝트와 해당 패키지 관리자 사이의 브라지 역할을 하는 런타임 종속성이 없는 패키지."
 content_hash: c9c434a24eab610c4f9df80b5caae127165d6553
-last_modified_at: 2024-09-29
+last_modified_at: 2024-09-30
 related_topics:
   - title: English version
     url: /en/common/corepack.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/corepack.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># corepack
+# corepack
 
 Node 프로젝트와 해당 패키지 관리자 사이의 브라지 역할을 하는 런타임 종속성이 없는 패키지.
 더 많은 정보: <https://github.com/nodejs/corepack>.

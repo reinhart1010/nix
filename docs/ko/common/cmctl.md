@@ -3,23 +3,14 @@ layout: page
 title: common/cmctl (한국어)
 description: "클러스터 내부의 cert-manager 리소스를 관리."
 content_hash: dfaab0576a5096bd257a6a75faca89e181748c9e
-last_modified_at: 2024-09-29
+last_modified_at: 2024-09-30
 related_topics:
   - title: English version
     url: /en/common/cmctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cmctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cmctl
+# cmctl
 
 클러스터 내부의 cert-manager 리소스를 관리.
 인증서 서명 상태를 확인하고, 요청을 승인/거부하고, 새 인증서 요청을 발급.

@@ -3,7 +3,7 @@ layout: page
 title: common/ccache (한국어)
 description: "C/C++ 컴파일러 캐시."
 content_hash: 6d3ef2baec93664449b9ba5297066a7bac268ea1
-last_modified_at: 2024-09-29
+last_modified_at: 2024-09-30
 related_topics:
   - title: English version
     url: /en/common/ccache.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/ccache.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ccache.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ccache
+# ccache
 
 C/C++ 컴파일러 캐시.
 참고: 패키지는 일반적으로 `/usr/lib/ccache/bin`에 컴파일러에 대한 심볼릭 링크를 제공. 자동으로 `ccache`를 사용하려면 이 디렉토리를 `$PATH` 앞에 추가.

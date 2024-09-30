@@ -3,19 +3,10 @@ layout: page
 title: common/nettacker (English)
 description: "Automate information gathering, vulnerability scanning and eventually generate a report."
 content_hash: 924c82d9dce3f6bbba7e334f4d54be136804802a
-last_modified_at: 2024-09-29
-tldri18n_status: 0
+last_modified_at: 2024-09-30
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nettacker.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nettacker
+# nettacker
 
 Automate information gathering, vulnerability scanning and eventually generate a report.
 More information: <https://nettacker.readthedocs.io/en/latest/Home/>.

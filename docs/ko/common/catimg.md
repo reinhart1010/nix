@@ -3,7 +3,7 @@ layout: page
 title: common/catimg (한국어)
 description: "터미널에서 이미지 인쇄."
 content_hash: 2e505e4e2189e33dd31fe59578b143d396cb2bc9
-last_modified_at: 2024-09-29
+last_modified_at: 2024-09-30
 related_topics:
   - title: English version
     url: /en/common/catimg.html
@@ -11,18 +11,9 @@ related_topics:
   - title: فارسی version
     url: /fa/common/catimg.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/catimg.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># catimg
+# catimg
 
 터미널에서 이미지 인쇄.
 참고: `pixterm`, `chafa`.
