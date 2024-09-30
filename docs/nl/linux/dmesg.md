@@ -2,8 +2,8 @@
 layout: page
 title: linux/dmesg (Nederlands)
 description: "Schrijf de kernelberichten naar `stdout`."
-content_hash: 3bdd5b7e5c91d4d97fd9148767f7125d50d83def
-last_modified_at: 2024-08-13
+content_hash: caddcc2a6b1e58c095fb0fd954367776f5f1e5a5
+last_modified_at: 2024-09-30
 related_topics:
   - title: català version
     url: /ca/linux/dmesg.html
@@ -32,32 +32,32 @@ Meer informatie: <https://manned.org/dmesg>.
 
 - Toon kernelberichten:
 
-`dmesg`
+`sudo dmesg`
 
 - Toon kernel foutmeldingen:
 
-`dmesg --level err`
+`sudo dmesg --level err`
 
 - Toon kernelberichten en blijf nieuwe lezen, vergelijkbaar met `tail -f` (beschikbaar in kernels 3.5.0 en nieuwer):
 
-`dmesg -w`
+`sudo dmesg -w`
 
 - Toon hoeveel fysiek geheugen beschikbaar is op dit systeem:
 
-`dmesg | grep -i memory`
+`sudo dmesg | grep -i memory`
 
 - Toon kernelberichten 1 pagina per keer:
 
-`dmesg | less`
+`sudo dmesg | less`
 
 - Toon kernelberichten met een tijdstempel (beschikbaar in kernels 3.5.0 en nieuwer):
 
-`dmesg -T`
+`sudo dmesg -T`
 
 - Toon kernelberichten in een leesbare vorm (beschikbaar in kernels 3.5.0 en nieuwer):
 
-`dmesg -H`
+`sudo dmesg -H`
 
 - Kleur output (beschikbaar in kernels 3.5.0 en nieuwer):
 
-`dmesg -L`
+`sudo dmesg -L`

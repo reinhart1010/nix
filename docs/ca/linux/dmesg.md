@@ -2,14 +2,17 @@
 layout: page
 title: linux/dmesg (català)
 description: "Escriu els missatges del kernel a la sortida estàndar."
-content_hash: f5ea53eda6b903caa687ad038da55e4300622c37
-last_modified_at: 2023-11-12
+content_hash: 63bc46b6aafafa2c561099685c97c7160b1f5376
+last_modified_at: 2024-09-30
 related_topics:
   - title: English version
     url: /en/linux/dmesg.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/dmesg.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/dmesg.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dmesg.html
@@ -29,32 +32,32 @@ Més informació: <https://manned.org/dmesg>.
 
 - Mostra els missatges del kernel:
 
-`dmesg`
+`sudo dmesg`
 
 - Mostra els missatges d'error del kernel:
 
-`dmesg --level err`
+`sudo dmesg --level err`
 
 - Mostra els missatges del kernel i segueix llegint els nous, similar a `tail -f` (disponible en kernels 3.5.0 i posteriors):
 
-`dmesg -w`
+`sudo dmesg -w`
 
 - Mostra quanta memòria física hi ha disponible en el sistema:
 
-`dmesg | grep -i memory`
+`sudo dmesg | grep -i memory`
 
 - Mostra tots els missatges del kernel, pàgina a pàgina:
 
-`dmesg | less`
+`sudo dmesg | less`
 
 - Mostra els missatges del kernel amb una estampa temporal (disponible en kernels 3.5.0 i posteriors):
 
-`dmesg -T`
+`sudo dmesg -T`
 
 - Mostra els missatges del kernel de forma llegible per humans (disponible en kernels 3.5.0 i posteriors):
 
-`dmesg -H`
+`sudo dmesg -H`
 
 - Pinta la sortida (disponible en kernels 3.5.0 i posteriors):
 
-`dmesg -L`
+`sudo dmesg -L`

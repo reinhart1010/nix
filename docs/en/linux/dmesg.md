@@ -2,14 +2,17 @@
 layout: page
 title: linux/dmesg (English)
 description: "Write the kernel messages to `stdout`."
-content_hash: f4feb8c8b8bc1aa55a46ade12db5fe8c4e7e7ddd
-last_modified_at: 2023-11-12
+content_hash: 6d2c950042b21f1fe5f90b58d61c8c9da7b156d1
+last_modified_at: 2024-09-30
 related_topics:
   - title: català version
     url: /ca/linux/dmesg.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/dmesg.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/dmesg.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dmesg.html
@@ -29,32 +32,32 @@ More information: <https://manned.org/dmesg>.
 
 - Show kernel messages:
 
-`dmesg`
+`sudo dmesg`
 
 - Show kernel error messages:
 
-`dmesg --level err`
+`sudo dmesg --level err`
 
 - Show kernel messages and keep reading new ones, similar to `tail -f` (available in kernels 3.5.0 and newer):
 
-`dmesg -w`
+`sudo dmesg -w`
 
 - Show how much physical memory is available on this system:
 
-`dmesg | grep -i memory`
+`sudo dmesg | grep -i memory`
 
 - Show kernel messages 1 page at a time:
 
-`dmesg | less`
+`sudo dmesg | less`
 
 - Show kernel messages with a timestamp (available in kernels 3.5.0 and newer):
 
-`dmesg -T`
+`sudo dmesg -T`
 
 - Show kernel messages in human-readable form (available in kernels 3.5.0 and newer):
 
-`dmesg -H`
+`sudo dmesg -H`
 
 - Colorize output (available in kernels 3.5.0 and newer):
 
-`dmesg -L`
+`sudo dmesg -L`
