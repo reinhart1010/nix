@@ -2,8 +2,8 @@
 layout: page
 title: common/git-cherry-pick (தமிழ்)
 description: "தற்போதுள்ள கமிட்டுகளால் அறிமுகப்படுத்தப்பட்ட மாற்றங்களை தற்போதைய கிளையில் பயன்படுத்துங்கள்."
-content_hash: d7a78d8705589ab094bef5423b0feb7855f60cea
-last_modified_at: 2023-11-14
+content_hash: 186c6e2270a5627d7837b76e0f96d568f6ac8137
+last_modified_at: 2024-09-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-cherry-pick.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-cherry-pick.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-cherry-pick.html
@@ -44,7 +47,7 @@ tldri18n_status: 2
 
 - தற்போதைய கிளைக்கு பல (வரிசை அல்லாத) கமிட்டுகளைப் பயன்படுத்துங்கள்:
 
-`git cherry-pick `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்_2</span>
+`git cherry-pick `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்_1 கமிட்_2 ...</span>
 
 - ஒரு கமிட்டை உருவாக்காமல், பணிபுரியும் கோப்பகத்தில் ஒரு கமிட்டின் மாற்றங்களைச் சேர்க்கவும்:
 

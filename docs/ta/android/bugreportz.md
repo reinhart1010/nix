@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (தமிழ்)
 description: "ஜிப் செய்யப்பட்ட ஆண்ட்ராய்டு பிழை அறிக்கையை உருவாக்கவும்."
-content_hash: 7a469524606840ff49b1b660fb4d4dfef5f24fcf
-last_modified_at: 2023-11-12
+content_hash: 1eec5f13e893594e0a855232bbc5f98bbfaa9eca
+last_modified_at: 2024-09-30
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ tldri18n_status: 2
 
 `bugreportz -p`
 
-- `bugreportz` பதிப்பைக் காட்டு:
-
-`bugreportz -v`
-
 - உதவியைக் காட்டு:
 
 `bugreportz -h`
+
+- `bugreportz` பதிப்பைக் காட்டு:
+
+`bugreportz -v`

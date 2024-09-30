@@ -2,8 +2,8 @@
 layout: page
 title: common/git (தமிழ்)
 description: "விநியோகிக்கப்பட்ட பதிப்பு கட்டுப்பாட்டு அமைப்பு."
-content_hash: 33a9fd87f0d6ff470035817e99fd3c1fc2e7cb97
-last_modified_at: 2023-11-13
+content_hash: f4a99d37047bb8b2a1adf255ae361c478963b790
+last_modified_at: 2024-09-30
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,18 +58,6 @@ tldri18n_status: 2
 `commit`, `add`, `branch`, `checkout`, `push`போன்ற சில துணைக் கட்டளைகள் அவற்றின் சொந்த பயன்பாட்டு ஆவணங்களைக் கொண்டுள்ளன, அவை `tldr git subcommand` வழியாக அணுகலாம்.
 மேலும் விவரத்திற்கு: <https://git-scm.com/>.
 
-- Git பதிப்பைச் சரிபார்க்கவும்:
-
-`git --version`
-
-- பொதுவான உதவியைக் காட்டு:
-
-`git --help`
-
-- Git துணைக் கட்டளையில் உதவியைக் காட்டு (`clone`, `add`, `push`, `log` போன்றவை.):
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">துணை_கட்டளை</span>
-
 - ஒரு Git துணைக் கட்டளையை இயக்கவும்:
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">துணை_கட்டளை</span>
@@ -81,3 +69,15 @@ tldri18n_status: 2
 - கொடுக்கப்பட்ட உள்ளமைவு தொகுப்புடன் Git துணைக் கட்டளையை இயக்கவும்:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கட்டமைப்பு.சாவி</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மதிப்பு</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">துணை_கட்டளை</span>
+
+- பொதுவான உதவியைக் காட்டு:
+
+`git --help`
+
+- Git துணைக் கட்டளையில் உதவியைக் காட்டு (`clone`, `add`, `push`, `log` போன்றவை.):
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">துணை_கட்டளை</span>
+
+- Git பதிப்பைச் சரிபார்க்கவும்:
+
+`git --version`

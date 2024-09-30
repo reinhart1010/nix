@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (தமிழ்)
 description: "கோப்பில் தேடுகுறித்தொடர்களுடன் தேடு."
-content_hash: 3dc8551a754997a77ccf134f500e5362b01ed6b1
-last_modified_at: 2024-06-19
+content_hash: a003712b0aee65d86f8eb5c08017c48c8a8e8348
+last_modified_at: 2024-09-30
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/grep.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/grep.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/grep.html
@@ -55,7 +58,7 @@ tldri18n_status: 2
 
 - அடைவிலும் சேய் அடைவுகளிலுமுள்ள இருமக் கோப்பல்லா அனைத்துக் கோப்புகளையும் தேடு; பொருத்தங்களின் வரி எண்ணைக் காட்டு:
 
-`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடுதொடர்</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
+`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடுதொடர்</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
 
 - எழுத்துயர்நிலை கருதாது விரிவுபட்ட தேடுகுறித்தொடர்களுடன் (`?`, `+`, `{}`, `|` ஆகியவற்றைப் பயன்படுத்தலாம்) தேடு:
 

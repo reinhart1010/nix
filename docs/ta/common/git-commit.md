@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (தமிழ்)
 description: "கோப்புகளை களஞ்சியத்திற்கு கமிட்செய்ய."
-content_hash: f2b2f59b7f8cb60033241695d68a541c7b6ddb0c
-last_modified_at: 2023-11-14
+content_hash: 7e407e8f889f28db836d6504aa655ee7656bec6f
+last_modified_at: 2024-09-30
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/git-commit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-commit.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-commit.html
@@ -64,7 +67,7 @@ tldri18n_status: 2
 
 - குறிப்பிட்ட (ஏற்கனவே அரங்கேற்றப்பட்ட) கோப்புகளை மட்டுமே கமிட் செய்யுங்கள்:
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு2/பாதை</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை கோப்பு2/பாதை ...</span>
 
 - கட்டப்பட்ட கோப்புகள் இல்லாவிட்டாலும், கமிட்டை உருவாக்கவும்:
 

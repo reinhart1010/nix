@@ -2,8 +2,8 @@
 layout: page
 title: common/git-blame (தமிழ்)
 description: "ஒரு கோப்பின் ஒவ்வொரு வரியிலும் கமிட் ஹாஷ் மற்றும் கடைசி எழுத்தாளரைக் காட்டு."
-content_hash: 941caf201b45317e2e505123fe260093aa5e74da
-last_modified_at: 2023-11-13
+content_hash: 11e1aa9154837a418254e037aecf6a93e41f2bb2
+last_modified_at: 2024-09-30
 related_topics:
   - title: Deutsch version
     url: /de/common/git-blame.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-blame.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-blame.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-blame.html
@@ -39,7 +42,7 @@ tldri18n_status: 2
 
 - ஆசிரியர் மின்னஞ்சலுடன் கோப்பை அச்சிட்டு ஒவ்வொரு வரியிலும் ஹாஷ் செய்யுங்கள்:
 
-`git blame -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
+`git blame `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--show-email</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - ஆசிரியர் பெயருடன் கோப்பை அச்சிடவும் மற்றும் ஒவ்வொரு வரியிலும் ஒரு குறிப்பிட்ட கமிட்டில் ஹாஷ் கமிட் செய்யவும்:
 
