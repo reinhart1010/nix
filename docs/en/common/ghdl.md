@@ -2,8 +2,8 @@
 layout: page
 title: common/ghdl (English)
 description: "Open-source simulator for the VHDL language."
-content_hash: 0a60b9a8a81c3a65cfbc11d472cb71b4ce4e40cb
-last_modified_at: 2024-01-30
+content_hash: 295c58dd382a4cf71bac7e9ff31ad6add9b80371
+last_modified_at: 2024-10-01
 related_topics:
   - title: français version
     url: /fr/common/ghdl.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # ghdl
 
 Open-source simulator for the VHDL language.
-More information: <http://ghdl.free.fr>.
+More information: <https://ghdl.github.io/ghdl/>.
 
 - Analyze a VHDL source file and produce an object file:
 
