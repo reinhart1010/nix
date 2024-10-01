@@ -3,23 +3,14 @@ layout: page
 title: common/cheat (한국어)
 description: "대화형 치트 시트를 생성하고 봅니다."
 content_hash: 21c381591b30e514c11a5942a0b9ab6aeff65b97
-last_modified_at: 2024-09-30
+last_modified_at: 2024-10-01
 related_topics:
   - title: English version
     url: /en/common/cheat.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cheat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cheat
+# cheat
 
 대화형 치트 시트를 생성하고 봅니다.
 더 많은 정보: <https://github.com/cheat/cheat>.

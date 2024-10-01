@@ -3,19 +3,10 @@ layout: page
 title: common/msgunfmt (English)
 description: "Decompile message catalog from the binary format."
 content_hash: 0a9fe8c53b6f768c946904a617cccdb0e50a1380
-last_modified_at: 2024-09-30
-tldri18n_status: 0
+last_modified_at: 2024-10-01
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/msgunfmt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># msgunfmt
+# msgunfmt
 
 Decompile message catalog from the binary format.
 More information: <https://www.gnu.org/software/gettext/manual/html_node/msgunfmt-Invocation.html>.

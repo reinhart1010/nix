@@ -3,7 +3,7 @@ layout: page
 title: common/chatgpt (한국어)
 description: "터미널에서 OpenAI의 ChatGPT 및 DALL-E를 사용하기 위한 쉘 스크립트."
 content_hash: dbd3930754369c673a92e18e3a0331df1edbf112
-last_modified_at: 2024-09-30
+last_modified_at: 2024-10-01
 related_topics:
   - title: English version
     url: /en/common/chatgpt.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/chatgpt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/chatgpt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chatgpt
+# chatgpt
 
 터미널에서 OpenAI의 ChatGPT 및 DALL-E를 사용하기 위한 쉘 스크립트.
 더 많은 정보: <https://github.com/0xacx/chatGPT-shell-cli>.

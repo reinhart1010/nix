@@ -3,23 +3,14 @@ layout: page
 title: common/cheatshh (한국어)
 description: "참조할 수 있도록 사용자 정의된 설명, tldr 및 그룹이 포함된 CLI 치트시트."
 content_hash: 9ec2b8b968cc04fedc8801b155a066115cfa1e93
-last_modified_at: 2024-09-30
+last_modified_at: 2024-10-01
 related_topics:
   - title: English version
     url: /en/common/cheatshh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cheatshh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cheatshh
+# cheatshh
 
 참조할 수 있도록 사용자 정의된 설명, tldr 및 그룹이 포함된 CLI 치트시트.
 Enter 키를 눌러 명령을 클립보드에 복사하고 종료.
