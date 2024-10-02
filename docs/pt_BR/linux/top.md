@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/top (português (Brasil))
-description: "Utilitário para exibir informações, em tempo real, sobre os processos em execução."
-content_hash: 2c570f6d28dcf7a445c33748185e754e486256ef
-last_modified_at: 2023-12-28
+description: "Mostra informações, em tempo real, sobre os processos em execução."
+content_hash: 697cfb0ca5cfe9ef7f65a5a633da680e40ca9851
+last_modified_at: 2024-10-02
 related_topics:
   - title: català version
     url: /ca/linux/top.html
@@ -24,10 +24,10 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># top
 
-Utilitário para exibir informações, em tempo real, sobre os processos em execução.
+Mostra informações, em tempo real, sobre os processos em execução.
 Mais informações: <https://manned.org/top>.
 
-- Inicia o top:
+- Inicia o `top`:
 
 `top`
 
@@ -37,12 +37,20 @@ Mais informações: <https://manned.org/top>.
 
 - Exibe os processos de um usuário específico:
 
-`top -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
+`top -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>
 
-- Exibe o(s) processo(s) de um ou mais PID específico(s), separado(s) por vírgula:
+- Ordena os processos por campo:
 
-`top -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID1,PID2,PID3</span>
+`top -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_campo</span>
 
-- Mostra Ajuda sobre os comandos disponíveis:
+- Mostra todas as threads de um dado processo:
+
+`top -Hp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_do_processo</span>
+
+- Mostra apenas processos com determinados PID(s), informados em uma lista separada por vírgulas (Normalmente você não saberá os PIDs de cabeça. Este exemplo pega os PIDs a partir do nome de um processo):
+
+`top -p $(pgrep -d ',' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_processo</span>`)`
+
+- Mostra ajuda sobre comandos interativos:
 
 `?`

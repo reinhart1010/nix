@@ -2,8 +2,8 @@
 layout: page
 title: linux/xrandr (português (Brasil))
 description: "Define o tamanho, orientação e/ou espelhamento das saídas para uma tela."
-content_hash: 358c8e4308817a9aa5899072aa984ed0b79a7392
-last_modified_at: 2024-05-23
+content_hash: 509b6e677864a80a8c3e66533818fae37544c99b
+last_modified_at: 2024-10-02
 related_topics:
   - title: Deutsch version
     url: /de/linux/xrandr.html
@@ -47,3 +47,7 @@ Mais informações: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xh
 - Define o brilho de LVDS1 como 50%:
 
 `xrandr --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LVDS1</span>` --brightness `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5</span>
+
+- Mostra o estado atual de qualquer servidor X:
+
+`xrandr --display :`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>` --query`

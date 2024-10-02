@@ -2,8 +2,8 @@
 layout: page
 title: linux/pi (português (Brasil))
 description: "Calcula a constante decimal de Arquimedes Pi na linha de comando."
-content_hash: 6e00ca965ce623f809a7f104af7d51b6717748c3
-last_modified_at: 2023-11-12
+content_hash: ef84f2dd603f83cda5a630d69e5ee7d6db24d918
+last_modified_at: 2024-10-02
 related_topics:
   - title: English version
     url: /en/linux/pi.html
@@ -23,6 +23,10 @@ Mais informações: <https://manned.org/pi>.
 
 `pi `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span>
 
+- Exibe leituras recomendadas:
+
+`pi --bibliography`
+
 - Exibe ajuda:
 
 `pi --help`
@@ -30,7 +34,3 @@ Mais informações: <https://manned.org/pi>.
 - Exibe a versão:
 
 `pi --version`
-
-- Exibe leituras recomendadas:
-
-`pi --bibliography`

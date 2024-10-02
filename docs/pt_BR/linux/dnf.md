@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (português (Brasil))
 description: "Gerenciador de pacotes das distribuições baseadas em RHEL (substituto do yum)."
-content_hash: 3bf3fec6ca8a2710f3b1011364a9d34c459000b5
-last_modified_at: 2023-12-28
+content_hash: 9bed70bf3ec475fb2f9a42eb2d17d1c5e52d5218
+last_modified_at: 2024-10-02
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -32,6 +32,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/dnf.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -40,20 +43,37 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># dnf
 
 Gerenciador de pacotes das distribuições baseadas em RHEL (substituto do yum).
+Para comandos equivalentes em outros gerenciadores de pacotes, veja <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 Mais informações: <https://dnf.readthedocs.io>.
 
-- Instala um novo pacote:
+- Atualiza os pacotes instalados para suas versões mais atuais:
 
-`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`sudo dnf upgrade`
 
-- Instala um novo pacote e responde sim para todos os prompts:
+- Busca pacotes com palavras-chave:
 
-`sudo dnf -y install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palavra_chave1 palavra_chave2 ...</span>
+
+- Mostra detalhes sobre um determinado pacote:
+
+`dnf info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
+
+- Instala um novo pacote (use `-y` para responder sim à todos os prompts):
+
+`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote1 pacote2 ...</span>
 
 - Remove um pacote:
 
-`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote1 pacote2 ...</span>
 
-- Atualiza todos os pacotes instalados para as versões mais recentes:
+- Lista pacotes intalados:
 
-`sudo dnf upgrade`
+`dnf list --installed`
+
+- Busca por pacotes que fornecem um dado comando:
+
+`dnf provides `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
+
+- Mostra todas as operações passadas:
+
+`dnf history`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/aptitude (português (Brasil))
-description: "Gerenciador de pacotes das distribuições baseadas em Debian."
-content_hash: 01a8f81820436995344141b0f4c8b4a8805b140a
-last_modified_at: 2024-09-18
+description: "Utilitário de gerenciamento de pacotes de Debian e Ubuntu."
+content_hash: 5a7070f149b63b5b0ceb56215cbaa334e8a5a115
+last_modified_at: 2024-10-02
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -39,29 +39,37 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># aptitude
 
-Gerenciador de pacotes das distribuições baseadas em Debian.
+Utilitário de gerenciamento de pacotes de Debian e Ubuntu.
 Mais informações: <https://manned.org/aptitude.8>.
 
-- Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `aptitude`):
+- Sincroniza a lista de pacotes e versões disponíveis. Deve ser executado antes de outros comandos `aptitude`:
 
 `aptitude update`
 
 - Instala um novo pacote e suas dependências:
 
-`aptitude install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`aptitude install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Busca pacotes correspondentes ao critério de busca:
+- Busca por um determinado pacote:
 
-`aptitude search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">criterio_de_busca</span>
+`aptitude search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
+
+- Busca por uma determinado pacote instalado (`?installed` é um termo de busca `aptitude`):
+
+`aptitude search '?installed(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>`)'`
 
 - Remove um pacote e todos que dependam dele:
 
-`aptitude remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`aptitude remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Atualiza os pacotes instalados para as versões mais recentes:
+- Atualiza os pacotes instalados para suas versões mais recentes:
 
 `aptitude upgrade`
 
 - Atualiza os pacotes instalados (semelhante ao `upgrade`), porém removendo os obsoletos e instalando pacotes solicitados por novas dependências:
 
 `aptitude full-upgrade`
+
+- Coloca um pacote instalado em espera para prevenir atualizações automáticas:
+
+`aptitude hold '?installed(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>`)'`

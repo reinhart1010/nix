@@ -2,8 +2,12 @@
 layout: page
 title: linux/dunstify (English)
 description: "A notification tool that is an extension of `notify-send`, but has more features based around `dunst`."
-content_hash: 3421db5037ba70d04c13ccc0a463e8617cca63f9
-last_modified_at: 2023-11-15
+content_hash: e3b4e91e239695298fe22738ed73d92998c039eb
+last_modified_at: 2024-10-02
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/dunstify.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # dunstify
@@ -26,4 +30,4 @@ More information: <https://github.com/dunst-project/dunst/wiki/Guides>.
 
 - Display help:
 
-`notify-send --help`
+`dunstify --help`

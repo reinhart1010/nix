@@ -2,8 +2,8 @@
 layout: page
 title: linux/bluetoothd (português (Brasil))
 description: "Daemon para gerenciar dispositivos Bluetooth."
-content_hash: 3b8240ab0e9feecf24f18f422f00fa25e14ea76d
-last_modified_at: 2023-12-28
+content_hash: f9c6188dfe455ff5d03e44b7810dd10833392b71
+last_modified_at: 2024-10-02
 related_topics:
   - title: English version
     url: /en/linux/bluetoothd.html
@@ -36,4 +36,4 @@ Mais informações: <https://manned.org/bluetoothd>.
 
 - Inicia o daemon com saída verbosa proveniente de arquivos específicos na fonte bluetoothd ou plugins:
 
-`bluetoothd --debug=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo2</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo3</span>
+`bluetoothd --debug=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1:caminho/para/arquivo2:...</span>

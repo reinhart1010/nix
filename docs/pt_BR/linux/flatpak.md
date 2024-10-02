@@ -1,12 +1,15 @@
 ---
 layout: page
 title: linux/flatpak (português (Brasil))
-description: "Construa, instale e execute aplicações e plataformas flatpak."
-content_hash: a54599bb616928351067421564d83fd4ca9f4e87
-last_modified_at: 2024-01-07
+description: "Constrói, instala e executa aplicações e plataformas flatpak."
+content_hash: 29cec63d565776a3c793311b992b5d9fbc5c62a6
+last_modified_at: 2024-10-02
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/flatpak.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/linux/flatpak.html
@@ -21,20 +24,20 @@ tldri18n_status: 2
 ---
 # flatpak
 
-Construa, instale e execute aplicações e plataformas flatpak.
+Constrói, instala e executa aplicações e plataformas flatpak.
 Mais informações: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
 
 - Executa uma aplicação instalada:
 
-`flatpak run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
+`flatpak run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.exemplo.aplicacao</span>
 
 - Instala uma aplicação de uma fonte remota:
 
-`flatpak install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remoto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
+`flatpak install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_remoto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.exemplo.aplicacao</span>
 
-- Lista todas as aplicações e plataformas instaladas:
+- Lista aplicações instaladas, ignorando plataformas:
 
-`flatpak list`
+`flatpak list --app`
 
 - Atualiza todas as aplicações e plataformas instaladas:
 
@@ -46,7 +49,7 @@ Mais informações: <https://docs.flatpak.org/en/latest/flatpak-command-referenc
 
 - Remove uma aplicação instalada:
 
-`flatpak remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
+`flatpak remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.exemplo.aplicacao</span>
 
 - Remove todos as aplicações não usadas:
 
@@ -54,4 +57,4 @@ Mais informações: <https://docs.flatpak.org/en/latest/flatpak-command-referenc
 
 - Mostra informações sobre uma aplicação instalada:
 
-`flatpak info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
+`flatpak info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.exemplo.aplicacao</span>

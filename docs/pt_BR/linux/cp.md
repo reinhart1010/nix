@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (português (Brasil))
 description: "Copia arquivos e diretórios."
-content_hash: c2691a3f4c4288db7a1ccc75cc2f32afc3f5c3b1
-last_modified_at: 2023-12-28
+content_hash: ee41e98b14b71f6ecaf324dcba647b001949f83c
+last_modified_at: 2024-10-02
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -59,13 +59,17 @@ Mais informações: <https://www.gnu.org/software/coreutils/cp>.
 
 `cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
-- Recursivamente copiar os conteúdos de um diretório para outra localização (se a destinação existe, o diretório é copiado para dentro dela):
+- Copia recursivamente o conteúdo de um diretório para outra localização (se o destino existe, o diretório é copiado para dentro dele):
 
 `cp -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_fonte</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_alvo</span>
 
 - Copia um diretório recursivamente, em modo verboso (mostra os arquivos conforme eles são copiados):
 
 `cp -vr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_fonte</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_alvo</span>
+
+- Copia múltiplos arquivos de uma só vez para um diretório:
+
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio_fonte</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 ...</span>
 
 - Copia arquivos de texto para outra localização, em modo interativo (exige confirmação do usuário antes de sobrescrever):
 

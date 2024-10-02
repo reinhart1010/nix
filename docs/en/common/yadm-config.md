@@ -2,14 +2,14 @@
 layout: page
 title: common/yadm-config (English)
 description: "Pass options to `yadm`'s config file. Change the `.config` of the repository managed by `yadm`."
-content_hash: 1b99e812300cdaee3c494c080ea34a64d018d095
+content_hash: d50f358e63836680a4084297e0183f6b45e8b322
 last_modified_at: 2024-10-02
 tldri18n_status: 2
 ---
 # yadm-config
 
 Pass options to `yadm`'s config file. Change the `.config` of the repository managed by `yadm`.
-See also: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#configuration>.
+More information: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#configuration>.
 
 - Set or update a `yadm`'s Git configuration:
 

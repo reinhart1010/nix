@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/fdisk (português (Brasil))
-description: "Gerenciador de tabelas de partições e partições no disco rígido."
-content_hash: cf98e440104ac4502d6640f4527d777657650dbf
-last_modified_at: 2023-12-28
+description: "Gerencia de tabelas de partições e partições em um disco rígido."
+content_hash: e48a3aefec27dcfd60ae733567c49922b6b04db1
+last_modified_at: 2024-10-02
 related_topics:
   - title: English version
     url: /en/linux/fdisk.html
@@ -21,13 +21,38 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># fdisk
 
-Gerenciador de tabelas de partições e partições no disco rígido.
+Gerencia de tabelas de partições e partições em um disco rígido.
+Veja também: `partprobe`.
 Mais informações: <https://manned.org/fdisk>.
 
-- Exibe as partições:
+- Lista partições:
 
-`fdisk -l`
+`sudo fdisk -l`
 
 - Inicia o manipulador de partições:
 
-`fdisk `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span>
+`sudo fdisk `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span>
+
+- Uma vez particionando um disco, cria uma partição:
+
+`n`
+
+- Uma vez particionando um disco, seleciona uma partição para excluir:
+
+`d`
+
+- Uma vez particionando um disco, mostra uma tabela de partições:
+
+`p`
+
+- Uma vez particionando um disco, grava em disco as mudanças feitas:
+
+`w`
+
+- Uma vez particionando um disco, descarta as mudanças feitas:
+
+`q`
+
+- Uma vez particionando um disco, abre o menu de ajuda:
+
+`m`

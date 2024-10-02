@@ -1,22 +1,10 @@
 ---
 layout: page
 title: linux/cgroups (português (Brasil))
-description: "Este comando é um apelido de `cgclassify`."
-content_hash: 1fe16d96bdf76c1f868f65f16810d927661b3aea
-last_modified_at: 2024-02-25
+description: "Cgroups, também conhecido como control groups, é uma funcionalidade do kernel para limitar, mensurar, e controlar o uso de recursos por processos."
+content_hash: c0f313a439b221cabbb522f2b9b58ff589eaf057
+last_modified_at: 2024-10-02
 related_topics:
-  - title: العربية version
-    url: /ar/linux/cgroups.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/cgroups.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/cgroups.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/cgroups.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/cgroups.html
     icon: bi bi-globe
@@ -38,17 +26,8 @@ related_topics:
   - title: italiano version
     url: /it/linux/cgroups.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/cgroups.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/cgroups.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/cgroups.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/cgroups.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/linux/cgroups.html
@@ -56,20 +35,11 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/cgroups.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/cgroups.html
-    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/cgroups.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/linux/cgroups.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/cgroups.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/cgroups.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/cgroups.html
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/cgroups.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/cgroups.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/cgroups.html
@@ -96,9 +63,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># cgroups
 
-Este comando é um apelido de `cgclassify`.
+Cgroups, também conhecido como control groups, é uma funcionalidade do kernel para limitar, mensurar, e controlar o uso de recursos por processos.
+No entanto Cgroups não é um comando, mas sim uma coleção de comandos, veja páginas relevantes abaixo.
 Mais informações: <https://www.kernel.org/doc/Documentation/cgroup-v2.txt>.
 
-- Exibe documentação sobre o comando original:
+- Exibe documentação de `cgclassify`:
 
 `tldr cgclassify`
+
+- Exibe documentação de `cgcreate`:
+
+`tldr cgcreate`
+
+- Exibe documentação de `cgexec`:
+
+`tldr cgexec`

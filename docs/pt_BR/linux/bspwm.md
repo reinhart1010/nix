@@ -1,22 +1,10 @@
 ---
 layout: page
 title: linux/bspwm (português (Brasil))
-description: "Este comando é um apelido de `bspc`."
-content_hash: d16fda9b7433033ff54f236e92b6dbeb7107462c
-last_modified_at: 2024-02-26
+description: "Um gerenciador de janelas em mosaico baseado em um particionamento de espaço binário."
+content_hash: b0fa974d0346c65e5602b8e2b9c142fb8eadef02
+last_modified_at: 2024-10-02
 related_topics:
-  - title: العربية version
-    url: /ar/linux/bspwm.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/bspwm.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/bspwm.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/bspwm.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/bspwm.html
     icon: bi bi-globe
@@ -38,17 +26,8 @@ related_topics:
   - title: italiano version
     url: /it/linux/bspwm.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/bspwm.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/bspwm.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/bspwm.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/bspwm.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/linux/bspwm.html
@@ -56,20 +35,11 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/bspwm.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/bspwm.html
-    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/bspwm.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/linux/bspwm.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/bspwm.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/bspwm.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/bspwm.html
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/bspwm.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/bspwm.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/bspwm.html
@@ -93,9 +60,10 @@ tldri18n_status: 2
 ---
 # bspwm
 
-Este comando é um apelido de `bspc`.
+Um gerenciador de janelas em mosaico baseado em um particionamento de espaço binário.
+Veja também: `bspc`, para controlá-lo.
 Mais informações: <https://github.com/baskerville/bspwm>.
 
-- Exibe documentação sobre o comando original:
+- Inicia `bspwm` (um gerenciador de janelas pré existente não deve estar aberto quando esse comando for executado):
 
-`tldr bspc`
+`bspwm -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/configuracao</span>

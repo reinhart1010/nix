@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/cal (português (Brasil))
-description: "Exibe as informações do calendário, destacando o dia atual."
-content_hash: 4183d4199f8cb26665142c40226ea1740ce72bb7
-last_modified_at: 2024-02-15
+description: "Exibe um calendário com o dia atual destacado."
+content_hash: 2bd9992fc752ea76bab68b3182eaa4c7d720b19e
+last_modified_at: 2024-10-02
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -42,7 +42,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># cal
 
-Exibe as informações do calendário, destacando o dia atual.
+Exibe um calendário com o dia atual destacado.
 Mais informações: <https://manned.org/cal>.
 
 - Exibe o calendário do mês atual:
@@ -52,6 +52,14 @@ Mais informações: <https://manned.org/cal>.
 - Exibe o calendário do meses anterior, atual e seguinte:
 
 `cal -3`
+
+- Mostra o calendário completo para o ano atual:
+
+`cal --year`
+
+- Mostra os próximos doze meses:
+
+`cal --twelve`
 
 - Utiliza segunda-feira como o primeiro dia da semana:
 

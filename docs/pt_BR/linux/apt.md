@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apt (português (Brasil))
-description: "Gerenciador de pacotes das distribuições baseadas em Debian."
-content_hash: 44ad930cdeddcdbd1f9ee14fb05908367b18c5c9
-last_modified_at: 2024-09-18
+description: "Utilitário de gerenciamento de pacotes de distribuições baseadas em Debian."
+content_hash: e45bb42294cba33960af369a84489f28bd006c3b
+last_modified_at: 2024-10-02
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -69,29 +69,39 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># apt
 
-Gerenciador de pacotes das distribuições baseadas em Debian.
+Utilitário de gerenciamento de pacotes de distribuições baseadas em Debian.
+Substituto recomendado para `apt-get` quando usado de forma interativa em versões do Ubuntu mais novas que 16.04.
+Para comandos equivalentes em outros gerenciadores de pacotes, veja <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 Mais informações: <https://manned.org/apt.8>.
 
-- Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt`):
+- Atualiza a lista de pacotes e versões disponíveis (recomenda-se executá-lo antes de outros comandos `apt`):
 
 `sudo apt update`
 
-- Busca pacotes correspondentes ao critério de busca:
+- Busca por um determinado pacote:
 
-`apt search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">criterio_de_busca</span>
+`apt search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Exibe as informações de pacote:
+- Exibe as informações de um pacote:
 
-`apt show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`apt show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Instala um pacote ou atualizá-lo para a versão mais recente:
+- Instala um pacote ou atualiza-o para a versão mais recente:
 
-`sudo apt install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`sudo apt install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Remove um pacote (Para remover os arquivos de configuração deve-se usar a opção `purge` ao invés do `remove`):
+- Remove um pacote (para remover também os arquivos de configuração deve-se usar a opção `purge` ao invés do `remove`):
 
-`sudo apt remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`sudo apt remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Atualiza os pacotes instalados para as versões mais recentes:
+- Atualiza todos os pacotes instalados para suas versões mais recentes:
 
 `sudo apt upgrade`
+
+- Lista todos os pacotes:
+
+`apt list`
+
+- Lista todos os pacotes instalados:
+
+`apt list --installed`
