@@ -3,19 +3,10 @@ layout: page
 title: common/vinmap (English)
 description: "A multithreaded Nmap scanner that splits IP ranges into chunks, performs parallel scans, and merges XML or JSON results."
 content_hash: 3b07cb6ed1829af2cd13b8c6fc8b160b270341d7
-last_modified_at: 2024-10-01
-tldri18n_status: 0
+last_modified_at: 2024-10-02
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vinmap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vinmap
+# vinmap
 
 A multithreaded Nmap scanner that splits IP ranges into chunks, performs parallel scans, and merges XML or JSON results.
 More information: <https://pypi.org/project/vinmap>.
