@@ -2,8 +2,8 @@
 layout: page
 title: common/minetestserver (Türkçe)
 description: "Çok oyunculu sınırsız dünyalı bloklu sanbox sunucusu."
-content_hash: 9051285a6125cfda2f223672f182472c92faa003
-last_modified_at: 2023-11-12
+content_hash: 0d88baef5faf97d9581820a30ad199721eb38636
+last_modified_at: 2024-10-02
 related_topics:
   - title: English version
     url: /en/common/minetestserver.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Çok oyunculu sınırsız dünyalı bloklu sanbox sunucusu.
 Ayrıca `minetest` sayfasına bakılması önerilir.
-Daha fazla bilgi için: <https://wiki.minetest.net/Setting_up_a_server>.
+Daha fazla bilgi için: <https://wiki.minetest.org/Setting_up_a_server>.
 
 - Sunucuyu başlar:
 

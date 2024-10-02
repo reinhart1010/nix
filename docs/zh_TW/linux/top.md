@@ -2,8 +2,8 @@
 layout: page
 title: linux/top (中文 (繁體, 台灣))
 description: "即時顯示系統執行程序的資訊。"
-content_hash: e4c694dabe7423aaf0398ca3aa6a7a2b26c09c0a
-last_modified_at: 2023-11-12
+content_hash: 18060aa9cf88b22c401c5db5acdebb673d0e524b
+last_modified_at: 2024-10-02
 related_topics:
   - title: català version
     url: /ca/linux/top.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 
 `top`
 
-- 不顯示閒置以及殭屍行程：
+- 不顯示閒置以及殭屍程序：
 
 `top -i`
 
@@ -40,7 +40,7 @@ tldri18n_status: 2
 
 `top -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">領域名稱</span>
 
-- 查看程序底下的所有線程：
+- 查看程序底下的所有執行緒：
 
 `top -Hp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">程序 id</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/minetest (English)
 description: "Multiplayer infinite-world block sandbox."
-content_hash: eb36a208f384a8245e18b688d712a2fc5ae3863c
-last_modified_at: 2023-11-12
+content_hash: cd056263a7d6488d3074b967554f1484461c578a
+last_modified_at: 2024-10-02
 related_topics:
   - title: Türkçe version
     url: /tr/common/minetest.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Multiplayer infinite-world block sandbox.
 See also `minetestserver`, the server-only binary.
-More information: <https://wiki.minetest.net/Minetest>.
+More information: <https://wiki.minetest.org/Minetest>.
 
 - Start Minetest in client mode:
 

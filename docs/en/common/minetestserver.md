@@ -2,8 +2,8 @@
 layout: page
 title: common/minetestserver (English)
 description: "Multiplayer infinite-world block sandbox server."
-content_hash: 5f05f81f647c96f4ca707f1b912083f6f9cdca1e
-last_modified_at: 2024-01-24
+content_hash: d46270883a7f35aa09f19415f08c7a65bbbc9b2c
+last_modified_at: 2024-10-02
 related_topics:
   - title: Türkçe version
     url: /tr/common/minetestserver.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Multiplayer infinite-world block sandbox server.
 See also `minetest`, the graphical client.
-More information: <https://wiki.minetest.net/Setting_up_a_server>.
+More information: <https://wiki.minetest.org/Setting_up_a_server>.
 
 - Start the server:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/cat (中文)
-description: "打印和拼接文件的工具。"
-content_hash: 00efd1f29f2e6895085b72135ace38e36d4b80a8
-last_modified_at: 2024-05-06
+description: "打印和连接文件。"
+content_hash: 08820f4a6c26c1869e89f32e496832c58a87fc82
+last_modified_at: 2024-10-02
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -63,17 +63,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># cat
 
-打印和拼接文件的工具。
+打印和连接文件。
 更多信息：<https://manned.org/cat.1posix>.
 
-- 以标准输出，打印文件内容：
+- 将文件内容打印到 `标准输出`：
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
 
-- 多文件合并到目标文件：
+- 将多个文件连接成一个输出文件：
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_file</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出文件</span>
 
-- 多文件合并，并追加到目标文件：
+- 将多个文件追加到一个输出文件中：
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_file</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出文件</span>
+
+- 无缓冲地将文件内容复制到输出文件中：
+
+`cat -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty12</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty13</span>
+
+- 将 `标准输入` 写入文件：
+
+`cat - > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
