@@ -2,8 +2,8 @@
 layout: page
 title: common/man (Türkçe)
 description: "Kılavuz sayfalarını biçimlendir ve göster."
-content_hash: fea2553994faaa211a2bde670ccab2f77f6d0d48
-last_modified_at: 2024-06-18
+content_hash: be5249a3d2e9bb1db1a8e703c10e2325ea3031c1
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/common/man.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/man.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/man.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/man.html
@@ -28,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># man
 
 Kılavuz sayfalarını biçimlendir ve göster.
-Daha fazla bilgi için: <https://www.manned.org/man>.
+Daha fazla bilgi için: <https://manned.org/man>.
 
 - Bir komut için man sayfasını görüntüle:
 

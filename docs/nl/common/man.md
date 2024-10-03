@@ -2,8 +2,8 @@
 layout: page
 title: common/man (Nederlands)
 description: "Formatteer en toon handleidingen."
-content_hash: 40da290bea532befc874f39728ddaae83f765dd0
-last_modified_at: 2024-08-21
+content_hash: 55fcb37e48f9ce6b05e81d7d5eabf0b461cc0841
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/common/man.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # man
 
 Formatteer en toon handleidingen.
-Meer informatie: <https://www.manned.org/man>.
+Meer informatie: <https://manned.org/man>.
 
 - Toon de handleiding voor een commando:
 

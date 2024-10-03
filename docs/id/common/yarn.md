@@ -2,8 +2,8 @@
 layout: page
 title: common/yarn (Indonesia)
 description: "Pengelola paket alternatif untuk JavaScript dan Node.js."
-content_hash: ac29fa12f58a4b1ba0537ecef04800f7139601d6
-last_modified_at: 2023-11-12
+content_hash: bf4fb5fcaf13b26814be22a1cb8b69472678eb22
+last_modified_at: 2024-10-03
 related_topics:
   - title: Deutsch version
     url: /de/common/yarn.html
@@ -24,19 +24,19 @@ tldri18n_status: 2
 Pengelola paket alternatif untuk JavaScript dan Node.js.
 Informasi lebih lanjut: <https://yarnpkg.com>.
 
-- Memasang modul secara global:
+- Pasang suatu modul secara global:
 
 `yarn global add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span>
 
-- Memasang semua dependensi yang dirujuk di berkas `package.json` (`install` adalah opsional):
+- Pasang semua pustaka prasyarat (dependency) yang dirujuk dalam berkas `package.json` (perintah `install` adalah opsional):
 
 `yarn install`
 
-- Memasang modul dan menyimpannya sebagai dependensi ke berkas `package.json` (tambahkan `--dev` untuk menyimpannya sebagai dependensi pengembangan):
+- Pasang dan catat suatu modul sebagai prasyarat ke dalam berkas `package.json` (tambahkan `--dev` jika hendak menyimpannya sebagai prasyarat khusus tahap pengembangan):
 
 `yarn add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versi</span>
 
-- Mencopot modul dan menghapusnya dari berkas `package.json`:
+- Hapus pemasangan modul beserta entrinya dalam berkas `package.json`:
 
 `yarn remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span>
 
@@ -44,6 +44,6 @@ Informasi lebih lanjut: <https://yarnpkg.com>.
 
 `yarn init`
 
-- Mengidentifikasi apakah modul merupakan dependensi dan daftar modul lainnya yang bergantung padanya:
+- Periksa apakah suatu modul merupakan suatu prasyarat serta tampilkan daftar modul lainnya yang bergantung kepadanya:
 
-`yarn why `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span>
+`yarn why `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span>

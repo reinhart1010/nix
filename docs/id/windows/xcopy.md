@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/xcopy (Indonesia)
-description: "Membuat salinan file dan direktori."
-content_hash: a84b30c7f84953a7672e89c8ce356a0fab05ca45
-last_modified_at: 2023-11-12
+description: "Salin berkas dan direktori."
+content_hash: db57cf928a2aa7bb9594161b9243a14f1b47b378
+last_modified_at: 2024-10-03
 related_topics:
   - title: Deutsch version
     url: /de/windows/xcopy.html
@@ -24,37 +24,37 @@ tldri18n_status: 2
 ---
 # xcopy
 
-Membuat salinan file dan direktori.
+Salin berkas dan direktori.
 Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
-- Membuat salinan file atau direktori ke lokasi lain:
+- Salin berkas atau direktori ke lokasi lain:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_tujuan</span>
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_tujuan</span>
 
-- Melihat daftar file yang akan disalin sebelum proses salinan dimulai:
+- Lihat daftar berkas yang akan disalin sebelum proses salinan dimulai:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_tujuan</span>` /p`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_tujuan</span>` /p`
 
-- Membuat salinan struktur direktori saja (tanpa file di dalamnya):
+- Hanya buat salinan struktur direktori saja (tanpa memasukkan berkas apapun ke dalamnya):
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_tujuan</span>` /t`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_tujuan</span>` /t`
 
-- Membuat salinan direktori termasuk direktori-direktori kosong (tanpa file):
+- Salin termasuk direktori-direktori tanpa isi berkas:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_tujuan</span>` /e`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_tujuan</span>` /e`
 
-- Membuat salinan file atau direktori dengan daftar hak akses pengguna (ACL) yang sama:
+- Salin berkas dan direktori termasuk informasi hak akses pengguna (ACL) masing-masing:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_tujuan</span>` /o`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_tujuan</span>` /o`
 
-- Mempersilakan proses penyalinan file atau direktori saat koneksi jaringan komputer terputus:
+- Izinkan proses penyalinan berkas atau direktori untuk berlangsung saat koneksi jaringan komputer terputus:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_tujuan</span>` /z`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_tujuan</span>` /z`
 
-- Mempersilakan `xcopy` untuk tetap mengganti file yang sudah ada di lokasi tujuan dengan file yang berada di lokasi sumber:
+- Izinkan `xcopy` untuk tetap mengganti berkas yang sudah ada di lokasi tujuan dengan berkas yang berada di lokasi sumber (override):
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori_tujuan</span>` /y`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_tujuan</span>` /y`
 
-- Menampilkan cara penggunaan secara lengkap:
+- Tampilkan informasi bantuan:
 
 `xcopy /?`

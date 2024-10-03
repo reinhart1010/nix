@@ -2,14 +2,17 @@
 layout: page
 title: common/man (한국어)
 description: "설명서 페이지 형식 지정 및 표시."
-content_hash: 10974cf4f201ddaa9b6f389ef2151ca520039c08
-last_modified_at: 2024-06-18
+content_hash: f5d906300d79963bca9c7a299c2eca94e2f5de33
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/common/man.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/man.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/man.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/man.html
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # man
 
 설명서 페이지 형식 지정 및 표시.
-더 많은 정보: <https://www.manned.org/man>.
+더 많은 정보: <https://manned.org/man>.
 
 - 명령에 대한 설명서 페이지를 표시:
 

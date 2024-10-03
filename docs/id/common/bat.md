@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/bat (Indonesia)
-description: "Mencetak dan menggabungkan berkas."
-content_hash: 8a0894ae243a2a1a7a5c52dfa320f151264e8673
-last_modified_at: 2024-09-03
+description: "Cetak dan gabungkan berkas."
+content_hash: a185ea1a0cc54d6f942bedf6bab1e1b29e895d1d
+last_modified_at: 2024-10-03
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -45,8 +45,8 @@ tldri18n_status: 2
 ---
 # bat
 
-Mencetak dan menggabungkan berkas.
-Klon dari `cat` dengan sintaks berwarna dan integrasi Git.
+Cetak dan gabungkan berkas.
+Sebuah klon atas program `cat` dengan sintaks berwarna dan integrasi Git.
 Informasi lebih lanjut: <https://github.com/sharkdp/bat>.
 
 - Cetak rapi konten berkas ke `stdout`:
@@ -69,14 +69,14 @@ Informasi lebih lanjut: <https://github.com/sharkdp/bat>.
 
 `bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-A|--show-all</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span>
 
-- Memberi nomor pada setiap baris keluaran:
+- Hapus seluruh informasi dekoratif selain nomor baris pada luaran program:
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--number</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--number</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span>
 
-- Mencetak konten JSON dengan sintaks berwarna:
+- Tampilkan sintaks berwarna terhadap berkas JSON dengan mengatur bahasa sintaks berkas secara eksplisit:
 
 `bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|--language</span>` json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.json</span>
 
-- Menampilkan semua bahasa yang didukung:
+- Tampilka semua jenis bahasa sintaks berkas yang didukung:
 
 `bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-L|--list-languages</span>

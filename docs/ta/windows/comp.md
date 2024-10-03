@@ -2,8 +2,8 @@
 layout: page
 title: windows/comp (தமிழ்)
 description: "இரண்டு கோப்புகள் அல்லது கோப்புகளின் தொகுப்புகளின் உள்ளடக்கங்களை ஒப்பிடுக."
-content_hash: f5f242ffc492750a71d2f4b8afafee644bc0809d
-last_modified_at: 2023-11-13
+content_hash: d7e41c4e92a61d5bdcbe7789ecabdbf7a4884332
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/windows/comp.html
@@ -49,4 +49,4 @@ tldri18n_status: 2
 
 - ஒவ்வொரு கோப்பின் முதல் 5 வரிகளை மட்டும் ஒப்பிடுக:
 
-`comp /n=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_1\பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_2\பாதை</span>
+`comp /n=5 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_1\பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_2\பாதை</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/man (português (Brasil))
 description: "Formata e exibe páginas de manual."
-content_hash: 30d7111e2719e96b4a25d6b5b0236c24ca4a7296
-last_modified_at: 2024-06-18
+content_hash: dc7f2dd6c13207b4f0729ee71239bc5729a91bf8
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/common/man.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/man.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/man.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/man.html
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # man
 
 Formata e exibe páginas de manual.
-Mais informações: <https://www.manned.org/man>.
+Mais informações: <https://manned.org/man>.
 
 - Exibe a página de manual de um comando:
 

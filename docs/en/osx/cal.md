@@ -2,11 +2,14 @@
 layout: page
 title: osx/cal (English)
 description: "Print calendar information."
-content_hash: 6d02a2ee5876fc75e82b4938c24eb5752f037521
-last_modified_at: 2024-04-18
+content_hash: 4e0dca1472ee0a3b465d1498c7f30312f57c91cc
+last_modified_at: 2024-10-03
 related_topics:
   - title: Indonesia version
     url: /id/osx/cal.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/cal.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/cal.html
@@ -25,7 +28,7 @@ More information: <https://keith.github.io/xcode-man-pages/cal.1.html>.
 
 `cal`
 
-- Display previous, current and next month:
+- Display previous, current, and next month:
 
 `cal -3`
 

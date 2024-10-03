@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/msiexec (Indonesia)
-description: "Memasang, memperbarui, memperbaiki, atau menghapus program Windows melalui file MSI dan MSP yang tersedia."
-content_hash: 78f468ee48188607634e8407338da30439a5fbd1
-last_modified_at: 2023-11-12
+description: "Pasang, perbarui, perbaiki, atau hapus program Windows melalui berkas MSI dan MSP yang tersedia."
+content_hash: 09fc1668d2d4a87d91c7040a16f7e22f34b4dd2a
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/windows/msiexec.html
@@ -15,21 +15,21 @@ tldri18n_status: 2
 ---
 # msiexec
 
-Memasang, memperbarui, memperbaiki, atau menghapus program Windows melalui file MSI dan MSP yang tersedia.
+Pasang, perbarui, perbaiki, atau hapus program Windows melalui berkas MSI dan MSP yang tersedia.
 Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/msiexec>.
 
-- Memasang sebuah program melalui file MSI:
+- Pasang suatu program melalui berkas MSI:
 
-`msiexec /package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.msi</span>
+`msiexec /package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas.msi</span>
 
-- Memasang file MSI dari internet:
+- Pasang berkas MSI dari suatu situs web:
 
 `msiexec /package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/installer.msi</span>
 
-- Memasang pembaruan program melalui file MSP:
+- Pasang pembaruan suatu program melalui suatu berkas MSP:
 
-`msiexec /update `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.msp</span>
+`msiexec /update `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas.msp</span>
 
-- Menghapus pemasangan atau pembaruan program melalui file MSI atau MSP yang tersedia:
+- Menghapus pemasangan atau pembaruan suatu program melalui file MSI atau MSP yang tersedia:
 
-`msiexec /uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span>
+`msiexec /uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas</span>

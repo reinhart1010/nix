@@ -1,10 +1,13 @@
 ---
 layout: page
 title: common/ls (Indonesia)
-description: "Menampilkan daftar konten pada direktori."
-content_hash: 5d2f1b84c58a1a5effbd4e61448c11690a520c9f
-last_modified_at: 2023-11-12
+description: "Tampilkan daftar konten pada direktori."
+content_hash: 8c7f1349953843d7c7338ca9775be10b8f7b43eb
+last_modified_at: 2024-10-03
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -38,6 +41,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/ls.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
     icon: bi bi-globe
@@ -66,33 +72,37 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># ls
 
-Menampilkan daftar konten pada direktori.
+Tampilkan daftar konten pada direktori.
 Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/ls>.
 
-- Menampilkan daftar berkas dengan satu item tiap baris:
+- Tampilkan daftar isi berkas dengan satu item tiap baris:
 
 `ls -1`
 
-- Menampilkan daftar semua berkas, termasuk berkas tersembunyi:
+- Tampilkan daftar isi semua berkas, termasuk berkas tersembunyi:
 
 `ls -a`
 
-- Menampilkan daftar semua berkas, dengan akhiran `/` ditambahkan ke nama direktori:
+- Tampilkan daftar isi semua berkas, dengan akhiran `/` ditambahkan ke nama direktori:
 
 `ls -F`
 
-- Menampilkan daftar berformat panjang (menampilkan izin, kepemilikan, ukuran dan waktu modifikasi pada setiap berkas):
+- Tampilkan daftar isi berformat panjang (menampilkan izin, kepemilikan, ukuran dan waktu modifikasi pada setiap berkas):
 
 `ls -la`
 
-- Menampilkan daftar berformat panjang dan ukuran ditampilkan menggunakan unit yang mudah dibaca manusia (KiB, MiB, GiB):
+- Tampilkan daftar isi berformat panjang dan ukuran ditampilkan menggunakan unit yang mudah dibaca manusia (KiB, MiB, GiB):
 
 `ls -lh`
 
-- Menampilkan daftar berformat panjang dan diurutkan berdasarkan ukuran (menurun):
+- Tampilkan daftar isi seluruh berkas secara rekursif, berformat panjang dan diurutkan berdasarkan ukuran (menurun):
 
-`ls -lS`
+`ls -lSR`
 
-- Menampilkan daftar berformat panjang dari semua berkas dan diurutkan berdasarkan tanggal modifikasi (terlama dulu):
+- Tampilkan daftar isi berformat panjang dari semua berkas dan diurutkan berdasarkan tanggal modifikasi (terlama dulu):
 
 `ls -ltr`
+
+- Hanya tampilkan daftar [d]irektori:
+
+`ls -d */`

@@ -2,8 +2,8 @@
 layout: page
 title: common/rvm (Indonesia)
 description: "Alat untuk menginstal, mengatur dan bekerja dengan berbagai lingkungan Ruby."
-content_hash: dfccdf4c35ea5276d8d50ef24f64c32c480232ac
-last_modified_at: 2023-11-12
+content_hash: c09f267ba6be9c46435df4cf49b93bf23695d56f
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/common/rvm.html
@@ -18,34 +18,34 @@ tldri18n_status: 2
 Alat untuk menginstal, mengatur dan bekerja dengan berbagai lingkungan Ruby.
 Informasi lebih lanjut: <https://rvm.io>.
 
-- Instal satu atau lebih versi Ruby (dipisah dengan spasi):
+- Pasang suatu atau beberapa versi Ruby:
 
-`rvm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version(s)</span>
+`rvm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versi1 versi2 ...</span>
 
-- Menampilkan daftar versi-versi yang terinstal:
+- Tampilkan daftar versi-versi Ruby yang terinstal:
 
 `rvm list`
 
-- Menggunakan spesifik versi Ruby:
+- Gunakan suatu versi Ruby untuk sesi saat ini:
 
-`rvm use `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
+`rvm use `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versi</span>
 
-- Menyetel versi Ruby bawaan:
+- Tetapkan versi default Ruby yang akan dipakai:
 
-`rvm --default use `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
+`rvm --default use `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versi</span>
 
-- Memperbarui versi Ruby:
+- Perbarui suatu versi Ruby:
 
-`rvm upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">current_version</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_version</span>
+`rvm upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versi_saat_ini</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versi_baru</span>
 
-- Menghapus versi Ruby dan menyimpan kode sumbernya:
+- Hapus pemasangan versi Ruby namun simpan kode sumbernya:
 
-`rvm uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
+`rvm uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versi</span>
 
-- Menghapus versi Ruby sekaligus kode sumbernya:
+- Hapus pemasangan versi Ruby beserta kode sumbernya:
 
-`rvm remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
+`rvm remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versi</span>
 
-- Menampilkan spesifik _dependencies_ untuk sistem operasi anda:
+- Tampilkan prasyarat piranti lunak tambahan yang perlu dipasang untuk sistem operasi anda:
 
 `rvm requirements`

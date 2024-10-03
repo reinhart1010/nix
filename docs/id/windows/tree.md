@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/tree (Indonesia)
-description: "Menampilkan struktur direktori pada suatu lokasi dengan tampilan grafis pohon."
-content_hash: 14a8d572e99a35d96a65ddd36cc55e46b8618f3a
-last_modified_at: 2023-11-12
+description: "Tampilkan struktur direktori pada suatu lokasi dengan tampilan grafis pohon."
+content_hash: 199d7f9f750154a0f9a3abb73b8096398dd03f0f
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/windows/tree.html
@@ -24,21 +24,21 @@ tldri18n_status: 2
 ---
 # tree
 
-Menampilkan struktur direktori pada suatu lokasi dengan tampilan grafis pohon.
+Tampilkan struktur direktori pada suatu lokasi dengan tampilan grafis pohon.
 Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
-- Tampilkan pohon dari direktori saat ini:
+- Tampilkan pohon struktur direktori saat ini:
 
 `tree`
 
-- Tampilkan pohon dari direktori yang ditentukan:
+- Tampilkan pohon struktur direktori yang ditentukan:
 
-`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi/ke/direktori</span>
+`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\direktori</span>
 
-- Tampilkan pohon dari direktori termasuk file:
+- Tampilkan pohon struktur direktori termasuk daftar berkas ([f]ile) dalam setiap direktori:
 
-`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi/ke/direktori</span>` /f`
+`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\direktori</span>` /f`
 
-- Tampilkan pohon menggunakan karakter ASCII alih-alih karakter yang diperluas:
+- Tampilkan pohon hanya dengan menggunakan karakter [a]SCII daripada menggunakan set karakter yang lebih luas:
 
-`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi/ke/direktori</span>` /a`
+`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\direktori</span>` /a`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/alias (Indonesia)
-description: "Membuat alias -- kata-kata yang digantikan oleh utasan perintah (command)."
-content_hash: c69319e3aa1f04edd8df260a28ab86e1cb5c2a4a
-last_modified_at: 2023-11-12
+description: "Buat alias perintah -- kata-kata yang digantikan oleh utasan perintah (command)."
+content_hash: ccc00ae590f488b3564be1ed93904e36a0827b46
+last_modified_at: 2024-10-03
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -63,30 +63,30 @@ tldri18n_status: 2
 ---
 # alias
 
-Membuat alias -- kata-kata yang digantikan oleh utasan perintah (command).
+Buat alias perintah -- kata-kata yang digantikan oleh utasan perintah (command).
 Alias menjadi kadaluarsa sampai sesi shell saat ini berakhir, kecuali jika didefinisikan di file konfigurasi shell, misalnya `~/.bashrc`.
 Informasi lebih lanjut: <https://tldp.org/LDP/abs/html/aliases.html>.
 
-- Menampilkan daftar semua alias:
+- Tampilkan daftar seluruh alias yang terdaftar:
 
 `alias`
 
-- Membuat alias generik:
+- Buat suatu alias generik:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span>`"`
 
-- Melihat perintah yang dirujuk oleh alias yang diberikan:
+- Lihat perintah yang dirujuk oleh alias yang diberikan:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata</span>
 
-- Menghapus alias dari sebuah perintah:
+- Hapus suatu perintah alias:
 
 `unalias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata</span>
 
-- Mengubah `rm` menjadi perintah interaktif:
+- Ubah perintah `rm` menjadi perintah interaktif:
 
-`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm -i</span>`"`
+`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm --interactive</span>`"`
 
-- Membuat `la` menjadi pintasan untuk `ls -a`:
+- Buat perintah `la` menjadi pintasan untuk `ls --all`:
 
-`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -a</span>`"`
+`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls --all</span>`"`

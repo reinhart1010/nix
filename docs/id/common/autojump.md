@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/autojump (Indonesia)
-description: "Melompat secara cepat ke direktori-direktori yang paling sering anda kunjungi."
-content_hash: 41c42b45c723f5f6767f8f35ef148b35145b1c35
-last_modified_at: 2023-11-12
+description: "Lompat dengan cepat menuju direktori-direktori yang paling sering anda kunjungi."
+content_hash: 7933c9bad5752dc8e7f559b6f36ca793ef32fc37
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/common/autojump.html
@@ -14,6 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/common/autojump.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/autojump.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/autojump.html
     icon: bi bi-globe
@@ -21,26 +24,26 @@ tldri18n_status: 2
 ---
 # autojump
 
-Melompat secara cepat ke direktori-direktori yang paling sering anda kunjungi.
+Lompat dengan cepat menuju direktori-direktori yang paling sering anda kunjungi.
 Alias seperti j atau jc sudah disediakan untuk mengurangi pengetikan.
 Informasi lebih lanjut: <https://github.com/wting/autojump>.
 
-- Melompat ke direktori yang mengandung pola yang diberikan:
+- Lompat menuju direktori yang mengandung pola yang diberikan:
 
 `j `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola</span>
 
-- Melompat ke sub-direktori (anak) dari direktori saat ini yang mengandung pola yang diberikan:
+- Lompat menuju sub-direktori (anak) dari direktori saat ini yang mengandung pola yang diberikan:
 
 `jc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola</span>
 
-- Membuka direktori yang mengandung pola yang diberikan dalam file manager dari sistem operasi:
+- Buka direktori yang mengandung pola yang diberikan dalam aplikasi manajemen berkas sistem operasi:
 
 `jo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola</span>
 
-- Membuang direktori-direktori yang tidak lagi ada dari database autojump:
+- Buang direktori-direktori dalam pangkalan data (database) autojump yang telah sebelumnya dihapus:
 
 `j --purge`
 
-- Menampilkan entri yang ada di database autojump:
+- Tampilkan entri yang ada dalam pangkalan data autojump:
 
 `j -s`

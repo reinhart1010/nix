@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/dir (Indonesia)
-description: "Lis isi direktori."
-content_hash: d61d8969c17ea0714d5fde6ebb9da52ffbf2bd57
-last_modified_at: 2023-11-12
+description: "Tampilkan daftar isi direktori."
+content_hash: 9ee5e558efada72ec483fa2324be44e0a4095f52
+last_modified_at: 2024-10-03
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -51,21 +51,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># dir
 
-Lis isi direktori.
+Tampilkan daftar isi direktori.
 Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
-- Tampilkan isi direktori saat ini:
+- Tampilkan daftar isi direktori saat ini:
 
 `dir`
 
-- Tampilkan isi direktori yang ditentukan:
+- Tampilkan daftar isi direktori yang ditentukan:
 
-`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi/ke/direktori</span>
+`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
 
-- Tampilkan isi dari direktori saat ini, termasuk yang disembunyikan:
+- Tampilkan daftar isi dari direktori saat ini, termasuk yang disembunyikan:
 
-`dir /A`
+`dir /a`
 
-- Tampilkan isi direktori yang ditentukan, termasuk yang disembunyikan:
+- Tampilkan daftar isi direktori yang ditentukan, termasuk yang disembunyikan:
 
-`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi/ke/direktori</span>` /A`
+`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>` /a`
+
+- Hanya tampilkan daftar isi tanpa informasi tambahahan mengenai masing-masing berkas dan subdirektori:
+
+`dir /b`

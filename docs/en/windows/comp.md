@@ -2,8 +2,8 @@
 layout: page
 title: windows/comp (English)
 description: "Compare the contents of two files or sets of files."
-content_hash: 9ffae7982ea8523cfebf0975395ddb699e9c12a0
-last_modified_at: 2023-11-12
+content_hash: f796c0575a02cfbeaf2fb87a2f21ea4fdaf7293b
+last_modified_at: 2024-10-03
 related_topics:
   - title: தமிழ் version
     url: /ta/windows/comp.html
@@ -31,22 +31,22 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `comp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory1</span>`\* `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory2</span>`\*`
 
-- Display differences in decimal format:
+- Display differences in [d]ecimal format:
 
 `comp /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span>
 
-- Display differences in ASCII format:
+- Display differences in [a]SCII format:
 
 `comp /a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span>
 
-- Display line numbers for differences:
+- Display [l]ine numbers for differences:
 
 `comp /l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span>
 
-- Compare files case-insensitively:
+- Compare files [c]ase-insensitively:
 
 `comp /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span>
 
 - Compare only the first 5 lines of each file:
 
-`comp /n=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span>
+`comp /n=5 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span>
