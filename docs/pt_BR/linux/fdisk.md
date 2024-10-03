@@ -3,7 +3,7 @@ layout: page
 title: linux/fdisk (português (Brasil))
 description: "Gerencia de tabelas de partições e partições em um disco rígido."
 content_hash: e48a3aefec27dcfd60ae733567c49922b6b04db1
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/linux/fdisk.html
@@ -14,12 +14,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/fdisk.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fdisk
+# fdisk
 
 Gerencia de tabelas de partições e partições em um disco rígido.
 Veja também: `partprobe`.

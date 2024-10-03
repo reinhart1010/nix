@@ -3,7 +3,7 @@ layout: page
 title: linux/aptitude (português (Brasil))
 description: "Utilitário de gerenciamento de pacotes de Debian e Ubuntu."
 content_hash: 5a7070f149b63b5b0ceb56215cbaa334e8a5a115
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/aptitude.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aptitude
+# aptitude
 
 Utilitário de gerenciamento de pacotes de Debian e Ubuntu.
 Mais informações: <https://manned.org/aptitude.8>.

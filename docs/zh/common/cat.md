@@ -3,7 +3,7 @@ layout: page
 title: common/cat (中文)
 description: "打印和连接文件。"
 content_hash: 08820f4a6c26c1869e89f32e496832c58a87fc82
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -56,12 +56,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cat
+# cat
 
 打印和连接文件。
 更多信息：<https://manned.org/cat.1posix>.

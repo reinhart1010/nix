@@ -3,7 +3,7 @@ layout: page
 title: linux/sed (português (Brasil))
 description: "Edita texto de uma maneira programável."
 content_hash: 16207d6c6f284db51d96dd254b898bc9bcc72272
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/linux/sed.html
@@ -14,12 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/sed.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sed
+# sed
 
 Edita texto de uma maneira programável.
 Veja também: `awk`, `ed`.

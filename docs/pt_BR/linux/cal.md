@@ -3,7 +3,7 @@ layout: page
 title: linux/cal (português (Brasil))
 description: "Exibe um calendário com o dia atual destacado."
 content_hash: 2bd9992fc752ea76bab68b3182eaa4c7d720b19e
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/cal.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cal
+# cal
 
 Exibe um calendário com o dia atual destacado.
 Mais informações: <https://manned.org/cal>.

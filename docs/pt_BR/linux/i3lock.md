@@ -3,17 +3,14 @@ layout: page
 title: linux/i3lock (português (Brasil))
 description: "Bloqueador de tela simples para o gerenciador de janelas i3."
 content_hash: 66a0793e1f17604a4703bdacbfc9e49d92404cce
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/linux/i3lock.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># i3lock
+# i3lock
 
 Bloqueador de tela simples para o gerenciador de janelas i3.
 Mais informações: <https://i3wm.org/i3lock>.

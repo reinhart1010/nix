@@ -3,7 +3,7 @@ layout: page
 title: linux/dnf (português (Brasil))
 description: "Gerenciador de pacotes das distribuições baseadas em RHEL (substituto do yum)."
 content_hash: 9bed70bf3ec475fb2f9a42eb2d17d1c5e52d5218
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/dnf.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dnf
+# dnf
 
 Gerenciador de pacotes das distribuições baseadas em RHEL (substituto do yum).
 Para comandos equivalentes em outros gerenciadores de pacotes, veja <https://wiki.archlinux.org/title/Pacman/Rosetta>.

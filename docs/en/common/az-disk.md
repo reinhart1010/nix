@@ -3,19 +3,10 @@ layout: page
 title: common/az-disk (English)
 description: "Manage Azure Managed Disks."
 content_hash: 4d52c050c49e8024946f413333eed0e0b6eef776
-last_modified_at: 2024-10-02
-tldri18n_status: 0
+last_modified_at: 2024-10-03
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/az-disk.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># az disk
+# az disk
 
 Manage Azure Managed Disks.
 Part of `azure-cli` (also known as `az`).

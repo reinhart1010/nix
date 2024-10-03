@@ -3,7 +3,7 @@ layout: page
 title: linux/mkfs (हिन्दी)
 description: "एक हार्ड डिस्क पार्टीशन पर लिनक्स फाइल सिस्टम बनाएं।"
 content_hash: b38a9c2428037b0a41f693b9b5caeac52ed90413
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/linux/mkfs.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/mkfs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mkfs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mkfs
+# mkfs
 
 एक हार्ड डिस्क पार्टीशन पर लिनक्स फाइल सिस्टम बनाएं।
 यह कमांड अब अप्रचलित है, और इसके स्थान पर फाइल सिस्टम विशेष mkfs.<type> यूटिलिटीज़ का उपयोग करें।

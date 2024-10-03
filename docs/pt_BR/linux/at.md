@@ -3,7 +3,7 @@ layout: page
 title: linux/at (português (Brasil))
 description: "Executa comandos em um determinado momento."
 content_hash: 996386c3894075f0cc4eab1f24f4d7117e994615
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/linux/at.html
@@ -17,12 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/at.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># at
+# at
 
 Executa comandos em um determinado momento.
 Mais informações: <https://manned.org/at.1>.

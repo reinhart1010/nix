@@ -3,7 +3,7 @@ layout: page
 title: linux/cgroups (português (Brasil))
 description: "Cgroups, também conhecido como control groups, é uma funcionalidade do kernel para limitar, mensurar, e controlar o uso de recursos por processos."
 content_hash: c0f313a439b221cabbb522f2b9b58ff589eaf057
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: Deutsch version
     url: /de/linux/cgroups.html
@@ -56,12 +56,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/cgroups.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cgroups
+# cgroups
 
 Cgroups, também conhecido como control groups, é uma funcionalidade do kernel para limitar, mensurar, e controlar o uso de recursos por processos.
 No entanto Cgroups não é um comando, mas sim uma coleção de comandos, veja páginas relevantes abaixo.

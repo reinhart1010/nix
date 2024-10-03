@@ -3,7 +3,7 @@ layout: page
 title: linux/top (português (Brasil))
 description: "Mostra informações, em tempo real, sobre os processos em execução."
 content_hash: 697cfb0ca5cfe9ef7f65a5a633da680e40ca9851
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: català version
     url: /ca/linux/top.html
@@ -17,12 +17,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/top.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># top
+# top
 
 Mostra informações, em tempo real, sobre os processos em execução.
 Mais informações: <https://manned.org/top>.

@@ -3,7 +3,7 @@ layout: page
 title: linux/apt (português (Brasil))
 description: "Utilitário de gerenciamento de pacotes de distribuições baseadas em Debian."
 content_hash: e45bb42294cba33960af369a84489f28bd006c3b
-last_modified_at: 2024-10-02
+last_modified_at: 2024-10-03
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -62,12 +62,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt
+# apt
 
 Utilitário de gerenciamento de pacotes de distribuições baseadas em Debian.
 Substituto recomendado para `apt-get` quando usado de forma interativa em versões do Ubuntu mais novas que 16.04.
