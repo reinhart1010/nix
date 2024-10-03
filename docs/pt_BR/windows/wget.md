@@ -1,12 +1,15 @@
 ---
 layout: page
 title: windows/wget (português (Brasil))
-description: "Este comando é um apelido de `wget -p common`."
-content_hash: e959c43150b0a8e443d1bf0fc0995b8b3a2bd641
-last_modified_at: 2024-02-25
+description: "No PowerShell, este comando pode ser um apelido de `Invoke-WebRequest` quando o programa `wget` original (<https://www.gnu.org/software/wget>) não está instalado corretamente."
+content_hash: 64344bd052f408c6be830bd36699f47895bb3c2c
+last_modified_at: 2024-10-03
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/wget.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/wget.html
@@ -96,9 +99,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># wget
 
-Este comando é um apelido de `wget -p common`.
+No PowerShell, este comando pode ser um apelido de `Invoke-WebRequest` quando o programa `wget` original (<https://www.gnu.org/software/wget>) não está instalado corretamente.
+Nota: se o parâmetro version retornar um erro, o PowerShell pode ter substituído este comando por `Invoke-WebRequest`.
 Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Exibe documentação sobre o comando original:
+- Exibe documentação sobre o comando `wget` original:
 
 `tldr wget -p common`
+
+- Exibe documentação sobre o comando `Invoke-WebRequest` do PowerShell:
+
+`tldr invoke-webrequest`
+
+- Exibe a versão:
+
+`wget --version`

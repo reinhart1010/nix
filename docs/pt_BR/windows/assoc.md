@@ -2,8 +2,8 @@
 layout: page
 title: windows/assoc (português (Brasil))
 description: "Exibir ou alterar associações entre extensões de arquivo e tipos de arquivos."
-content_hash: 36ea6569f4ce2026d9e9a1169af673fc61d431f2
-last_modified_at: 2023-11-12
+content_hash: bc7241435f71211ebcafa8ff488a49e08c7a6453
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/windows/assoc.html
@@ -38,3 +38,7 @@ Mais informações: <https://learn.microsoft.com/windows-server/administration/w
 - Define o tipo de arquivo associado para uma extensão específica:
 
 `assoc .`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivotxt</span>
+
+- Exibe a saída de `assoc` uma tela por vez:
+
+`assoc | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">more</span>

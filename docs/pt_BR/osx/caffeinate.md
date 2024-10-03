@@ -2,8 +2,8 @@
 layout: page
 title: osx/caffeinate (português (Brasil))
 description: "Evita que o macOS entre em suspensão (repouso)."
-content_hash: 18da070a66dc39d958a30500f87c4d6dc6c52e91
-last_modified_at: 2024-01-31
+content_hash: 27c92df8855321605dc36ec8323b5f6cd1dfa99a
+last_modified_at: 2024-10-03
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/osx/caffeinate.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/caffeinate.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/osx/caffeinate.html
@@ -44,6 +47,14 @@ Mais informações: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 `caffeinate -s "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
 
-- Evita a suspensão até que você digite Ctrl-C:
+- Evita a suspensão até que um processo com o PID especificado seja concluído:
+
+`caffeinate -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+
+- Evita a suspensão (use `Ctrl + C` para sair):
 
 `caffeinate -i`
+
+- Evita a suspensão do disco (use `Ctrl + C` para sair):
+
+`caffeinate -m`

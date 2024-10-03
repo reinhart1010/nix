@@ -2,8 +2,8 @@
 layout: page
 title: windows/whoami (português (Brasil))
 description: "Mostra detalhes sobre o usuário atual."
-content_hash: 74137155df36040bf7ad7ae11501363a447d5145
-last_modified_at: 2024-03-14
+content_hash: 00e37ecfa4fb296017029d7cc11508041580bb6d
+last_modified_at: 2024-10-03
 related_topics:
   - title: English version
     url: /en/windows/whoami.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/whoami.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/whoami.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/whoami.html
@@ -55,3 +58,7 @@ Mais informações: <https://learn.microsoft.com/windows-server/administration/w
 - Mostra o ID de logon do usuário atual:
 
 `whoami /logonid`
+
+- Mostra todas as informações sobre o usuário atual:
+
+`whoami /all`

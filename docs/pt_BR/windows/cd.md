@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cd (português (Brasil))
-description: "Exibe o nome ou altera o diretório local atual."
-content_hash: c22d950c9903c8d4f73bcb4a872b89dfb0056d0c
-last_modified_at: 2023-11-12
+description: "Exibe o nome o diretório local atual ou altera para um diretório diferente."
+content_hash: 0924a720460c347750e1fc587735bd252b619dce
+last_modified_at: 2024-10-03
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -51,21 +51,34 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># cd
 
-Exibe o nome ou altera o diretório local atual.
+Exibe o nome o diretório local atual ou altera para um diretório diferente.
+No PowerShell, este comando é um apelido de `Set-Location`. Esta documentação é baseada na versão Prompt de Comando (`cmd`) do `cd`.
 Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Vá para um diretório na mesma unidade:
+- Exibe documentação sobre o comando equivalente do PowerShell:
 
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio</span>
+`tldr set-location`
 
 - Mostra o nome do diretório atual:
 
 `cd`
 
-- Vá até o pai do diretório atual:
+- Vai para um diretório específico na mesma unidade:
+
+`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho\para\diretorio</span>
+
+- Vai para um diretório específico em uma unidade diferente:
+
+`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho\para\diretório</span>
+
+- Vai até o pai do diretório atual:
 
 `cd ..`
 
-- Vá para um diretório em uma unidade diferente:
+- Vai para o diretório base do usuário atual:
 
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio</span>` /d`
+`cd %userprofile%`
+
+- Vai para a raiz da unidade atual:
+
+`cd \`

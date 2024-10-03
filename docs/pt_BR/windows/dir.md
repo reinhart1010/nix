@@ -2,8 +2,8 @@
 layout: page
 title: windows/dir (português (Brasil))
 description: "Listar os conteúdos de um diretório."
-content_hash: 32862a5c02d3165ba568c3f6fc8240daf48b578d
-last_modified_at: 2023-12-28
+content_hash: 51cd4ff066a7a6895511f813c2c78a0ebd64904e
+last_modified_at: 2024-10-03
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -60,12 +60,16 @@ Mais informações: <https://learn.microsoft.com/windows-server/administration/w
 
 - Mostra o conteúdo do diretório no caminho provido pelo usuário:
 
-`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
+`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho\para\diretório</span>
 
-- Mostra o conteúdo do diretório atual, incluindo arquivos e pastas escondidas:
+- Mostra o conteúdo do diretório atual, incluindo arquivos e pastas ocultas:
 
-`dir /A`
+`dir /a`
 
-- Mostra o conteúdo do diretório provido pelo usuário, incluindo arquivos e pastas escondidas:
+- Mostra o conteúdo do diretório provido pelo usuário, incluindo arquivos e pastas ocultas:
 
-`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>` /A`
+`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho\para\diretório</span>` /a`
+
+- Mostra uma lista simples de diretórios e arquivos, sem informações adicionais:
+
+`dir /b`

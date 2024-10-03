@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/curl (português (Brasil))
-description: "Este comando é um apelido de `curl -p common`."
-content_hash: abef070fd9f8bbcce52170988cfbdcf26e0c4777
-last_modified_at: 2024-02-25
+description: "No PowerShell, este comando pode ser um apelido de `Invoke-WebRequest` quando o programa `curl` original (<https://curl.se>) não está adequadamente instalado."
+content_hash: 0acbd672aaed98af92e2453469e1591e0a971128
+last_modified_at: 2024-10-03
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -99,9 +99,17 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># curl
 
-Este comando é um apelido de `curl -p common`.
+No PowerShell, este comando pode ser um apelido de `Invoke-WebRequest` quando o programa `curl` original (<https://curl.se>) não está adequadamente instalado.
 Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Exibe documentação sobre o comando original:
+- Exibe documentação sobre o comando `curl` original:
 
 `tldr curl -p common`
+
+- Exibe documentação sobre o comando `Invoke-WebRequest` do PowerShell:
+
+`tldr invoke-webrequest`
+
+- Verifica se `curl` está instalado corretamente imprimindo seu número de versão. Se esse comando for avaliado como um erro, o PowerShell pode ter substituído esse comando por `Invoke-WebRequest`:
+
+`curl --version`

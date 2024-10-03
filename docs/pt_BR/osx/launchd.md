@@ -1,22 +1,10 @@
 ---
 layout: page
 title: osx/launchd (português (Brasil))
-description: "Este comando é um apelido de `launchctl`."
-content_hash: d055cb8a094fea04353ec6ae433c2532b3c822bc
-last_modified_at: 2024-02-25
+description: "Este comando gerencia processo, tanto do sistema quanto de usuários."
+content_hash: ff7680168e1fb88c1acc579dabac695042cc2429
+last_modified_at: 2024-10-03
 related_topics:
-  - title: العربية version
-    url: /ar/osx/launchd.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/osx/launchd.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/osx/launchd.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/osx/launchd.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/osx/launchd.html
     icon: bi bi-globe
@@ -38,17 +26,8 @@ related_topics:
   - title: italiano version
     url: /it/osx/launchd.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/osx/launchd.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/osx/launchd.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/osx/launchd.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/osx/launchd.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/osx/launchd.html
@@ -56,20 +35,11 @@ related_topics:
   - title: Nederlands version
     url: /nl/osx/launchd.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/osx/launchd.html
-    icon: bi bi-globe
   - title: polski version
     url: /pl/osx/launchd.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/osx/launchd.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/osx/launchd.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/osx/launchd.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/osx/launchd.html
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/osx/launchd.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/osx/launchd.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/launchd.html
@@ -96,9 +63,14 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># launchd
 
-Este comando é um apelido de `launchctl`.
+Este comando gerencia processo, tanto do sistema quanto de usuários.
+Você não pode invocar launchd manualmente, use launchctl para interagir com ele.
 Mais informações: <https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html>.
 
-- Exibe documentação sobre o comando original:
+- Executa init:
+
+`/sbin/launchd`
+
+- Exibe documentação sobre a interação com launchd por meio do launchctl:
 
 `tldr launchctl`
