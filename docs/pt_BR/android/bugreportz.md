@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (português (Brasil))
 description: "Gera um relatório de bugs do Android em formato Zip."
-content_hash: 6d89a51424f0426737d5b255d81308fcefa868cb
-last_modified_at: 2024-03-14
+content_hash: fce50493764c79686d7c87eacca76f32a9172c48
+last_modified_at: 2024-10-03
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -81,10 +81,10 @@ Mais informações: <https://cs.android.com/android/platform/superproject/+/main
 
 `bugreportz -p`
 
-- Mostra a versão de `bugreportz`:
-
-`bugreportz -v`
-
 - Mostra a ajuda:
 
 `bugreportz -h`
+
+- Mostra a versão de `bugreportz`:
+
+`bugreportz -v`

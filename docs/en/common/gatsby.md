@@ -2,8 +2,8 @@
 layout: page
 title: common/gatsby (English)
 description: "Static site generator for React."
-content_hash: 97f149a57fb808376e1fb07f7cd48a5f9d60aeee
-last_modified_at: 2023-11-12
+content_hash: ce7cd6cc8c4f76f06408e4e77a56614601857b6b
+last_modified_at: 2024-10-03
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gatsby.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # gatsby
 
 Static site generator for React.
-More information: <https://gatsbyjs.org>.
+More information: <https://gatsbyjs.com>.
 
 - Create a new site:
 

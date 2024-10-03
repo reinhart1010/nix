@@ -2,8 +2,8 @@
 layout: page
 title: common/emacsclient (English)
 description: "Open files in an existing Emacs server."
-content_hash: e0759d65a466f988076df5c09f31b029c1463f5e
-last_modified_at: 2023-11-12
+content_hash: d8e10b79094ccca5416087ee34cef97ff4163320
+last_modified_at: 2024-10-03
 related_topics:
   - title: Deutsch version
     url: /de/common/emacsclient.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Open files in an existing Emacs server.
 See also `emacs`.
-More information: <https://www.emacswiki.org/emacs/EmacsClient>.
+More information: <https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html>.
 
 - Open a file in an existing Emacs server (using GUI if available):
 

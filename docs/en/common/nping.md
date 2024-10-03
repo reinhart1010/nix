@@ -2,8 +2,8 @@
 layout: page
 title: common/nping (English)
 description: "Network packet generation tool/ping utility."
-content_hash: 2dc1d8e328d31389a564b74ddadc4ab5538c642e
-last_modified_at: 2023-11-12
+content_hash: 9bd8d60d351b2022cd8c60cee408fd6427907600
+last_modified_at: 2024-10-03
 tldri18n_status: 2
 ---
 # nping
@@ -39,6 +39,6 @@ More information: <https://nmap.org/nping/>.
 
 `nping --interface `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
-- Set the Reserved/Evil bit in sent packets:
+- Ping an IP range:
 
-`nping --evil `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+`nping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.1-10</span>
