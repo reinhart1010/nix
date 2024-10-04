@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-login (한국어)
 description: "레지스트리에서 로컬로 API 토큰을 저장."
 content_hash: 556cd2171d78b43dc1de3f5078c842f2281a2ad1
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/cargo-login.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo-login.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-login.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo login
+# cargo login
 
 레지스트리에서 로컬로 API 토큰을 저장.
 토큰은 패키지 레지스트리를 인증하는 데 사용됨. `cargo logout`을 사용하여 제거할 수 있음 .

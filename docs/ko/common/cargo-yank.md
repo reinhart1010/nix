@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-yank (한국어)
 description: "색인에서 밀린 상자를 제거, 이 방법은 실수로 심하게 파손된 크레이트를 놓은 경우에만 사용해야 함."
 content_hash: 652b569b36d12f2c527004e5e57e3e9e2f1b7061
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/cargo-yank.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo-yank.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-yank.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo yank
+# cargo yank
 
 색인에서 밀린 상자를 제거, 이 방법은 실수로 심하게 파손된 크레이트를 놓은 경우에만 사용해야 함.
 참고: 데이터를 제거하지 않음. 크레이트는 가져온 후에도 여전히 존재, 새 프로젝트에서 상자를 사용하는 것을 방해할 뿐.

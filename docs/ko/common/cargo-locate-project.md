@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-locate-project (한국어)
 description: "프로젝트의 `Cargo.toml` 매니페스트에 대한 전체 경로를 인쇄."
 content_hash: ea333a72aef0945a18ca13f955812d6a1808b469
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/cargo-locate-project.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo-locate-project.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-locate-project.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo locate-project
+# cargo locate-project
 
 프로젝트의 `Cargo.toml` 매니페스트에 대한 전체 경로를 인쇄.
 프로젝트가 작업공간의 일부인 경우, 작업공간의 매니페스트가 아닌 프로젝트의 매니페스트가 표시됨.

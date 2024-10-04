@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-check (한국어)
 description: "로컬 패키지와 모든 종속 항목에 오류가 있는지 확인."
 content_hash: 40d257b0fbd439c8f51365c01650f9af3e48c20a
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/cargo-check.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo-check.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-check.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo check
+# cargo check
 
 로컬 패키지와 모든 종속 항목에 오류가 있는지 확인.
 더 많은 정보: <https://doc.rust-lang.org/cargo/commands/cargo-check.html>.

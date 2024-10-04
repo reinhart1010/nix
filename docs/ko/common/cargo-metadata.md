@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-metadata (한국어)
 description: "현재 패키지의 작업공간 멤버와 해결된 종속성을 JSON으로 출력."
 content_hash: f657c5294cc03c364af9e4169340564e5f663f79
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/cargo-metadata.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo-metadata.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-metadata.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo metadata
+# cargo metadata
 
 현재 패키지의 작업공간 멤버와 해결된 종속성을 JSON으로 출력.
 참고: 출력 형식은 Cargo의 향후 버전에서 변경될 수 있음.

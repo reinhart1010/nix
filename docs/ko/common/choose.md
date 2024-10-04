@@ -3,23 +3,14 @@ layout: page
 title: common/choose (한국어)
 description: "cut 및 (때떄로) awk에 대한 사람 친화적이고 빠른 대안."
 content_hash: 254fb94b90d28eb0b0c622afb8c97bd812a9458d
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/choose.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/choose.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># choose
+# choose
 
 cut 및 (때떄로) awk에 대한 사람 친화적이고 빠른 대안.
 더 많은 정보: <https://github.com/theryangeary/choose>.

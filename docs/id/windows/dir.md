@@ -3,7 +3,7 @@ layout: page
 title: windows/dir (Indonesia)
 description: "Tampilkan daftar isi direktori."
 content_hash: 9ee5e558efada72ec483fa2324be44e0a4095f52
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -44,12 +44,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/dir.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dir
+# dir
 
 Tampilkan daftar isi direktori.
 Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.

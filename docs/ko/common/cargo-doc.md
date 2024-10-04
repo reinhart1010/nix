@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-doc (한국어)
 description: "Rust 패키지의 문서를 작성."
 content_hash: 3baa698a3cd2acc8032ee386d1834ced1cf6ff45
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/cargo-doc.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo-doc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-doc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo doc
+# cargo doc
 
 Rust 패키지의 문서를 작성.
 더 많은 정보: <https://doc.rust-lang.org/cargo/commands/cargo-doc.html>.

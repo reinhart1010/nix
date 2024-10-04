@@ -3,19 +3,10 @@ layout: page
 title: common/crane-rebase (English)
 description: "Rebase an image onto a new base image."
 content_hash: 09503a55674633ad7d54854ae0880666c97e5c39
-last_modified_at: 2024-10-03
-tldri18n_status: 0
+last_modified_at: 2024-10-04
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/crane-rebase.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># crane rebase
+# crane rebase
 
 Rebase an image onto a new base image.
 More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_rebase.md>.

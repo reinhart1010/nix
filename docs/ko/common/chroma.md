@@ -3,23 +3,14 @@ layout: page
 title: common/chroma (한국어)
 description: "범용 구문 강조 표시기."
 content_hash: be5c1a81a1d471d7d45a9c773afb1bca60a29932
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/chroma.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/chroma.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chroma
+# chroma
 
 범용 구문 강조 표시기.
 `--lexer` 옵션은 파일 확장자에 따라 자동으로 결정되므로, 일반적으로 필요하지 않음.

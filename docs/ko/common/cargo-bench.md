@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-bench (한국어)
 description: "벤치마크를 컴파일하고 실행."
 content_hash: 4b6eef5130f0bd84e990dc8265cfc4e3c67ca29f
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/cargo-bench.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo-bench.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-bench.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo bench
+# cargo bench
 
 벤치마크를 컴파일하고 실행.
 더 많은 정보: <https://doc.rust-lang.org/cargo/commands/cargo-bench.html>.

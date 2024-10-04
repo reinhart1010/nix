@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-install (한국어)
 description: "Rust 바이너리를 빌드하고 설치."
 content_hash: 5295d0ec35a26a9d73a8633e1043472a84d8768c
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/cargo-install.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo-install.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-install.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo install
+# cargo install
 
 Rust 바이너리를 빌드하고 설치.
 더 많은 정보: <https://doc.rust-lang.org/cargo/commands/cargo-install.html>.

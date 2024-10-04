@@ -3,7 +3,7 @@ layout: page
 title: windows/cd (português (Brasil))
 description: "Exibe o nome o diretório local atual ou altera para um diretório diferente."
 content_hash: 0924a720460c347750e1fc587735bd252b619dce
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -44,12 +44,9 @@ related_topics:
   - title: ไทย version
     url: /th/windows/cd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cd
+# cd
 
 Exibe o nome o diretório local atual ou altera para um diretório diferente.
 No PowerShell, este comando é um apelido de `Set-Location`. Esta documentação é baseada na versão Prompt de Comando (`cmd`) do `cd`.

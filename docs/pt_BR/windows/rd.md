@@ -3,7 +3,7 @@ layout: page
 title: windows/rd (português (Brasil))
 description: "Este comando é um apelido de `rmdir` no Prompt de Comando e, subsequentemente, `Remove-Item` em PowerShell."
 content_hash: ea181456f4b6858be13e60e00b06e1888a020b3a
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: Deutsch version
     url: /de/windows/rd.html
@@ -56,12 +56,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rd
+# rd
 
 Este comando é um apelido de `rmdir` no Prompt de Comando e, subsequentemente, `Remove-Item` em PowerShell.
 Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.

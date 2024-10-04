@@ -3,7 +3,7 @@ layout: page
 title: windows/cls (português (Brasil))
 description: "Limpar a tela de saída."
 content_hash: fe5862f1b6bfbc2df3dfb8474a17b60f4179cc19
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -41,12 +41,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cls.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cls
+# cls
 
 Limpar a tela de saída.
 No PowerShell, este comando é um apelido de `Clear-Host`. Esta documentação é baseada na versão Prompt de Comando (`cmd`) do `cls`.

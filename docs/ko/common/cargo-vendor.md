@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-vendor (한국어)
 description: "프로젝트의 모든 종속성을 지정된 디렉터리에 공급 (기본값: `vendor`)."
 content_hash: 00169a482b0cfd4e6cf6140ba1ad38a05b641dae
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/cargo-vendor.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo-vendor.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-vendor.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo vendor
+# cargo vendor
 
 프로젝트의 모든 종속성을 지정된 디렉터리에 공급 (기본값: `vendor`).
 더 많은 정보: <https://doc.rust-lang.org/cargo/commands/cargo-vendor.html>.

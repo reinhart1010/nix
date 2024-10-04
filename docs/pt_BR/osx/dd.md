@@ -3,7 +3,7 @@ layout: page
 title: osx/dd (português (Brasil))
 description: "Converte e copia um arquivo."
 content_hash: 2bad76dd1c5e809bbe245540aa19c06549b4b02e
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/osx/dd.html
@@ -17,12 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/dd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dd
+# dd
 
 Converte e copia um arquivo.
 Mais informações: <https://keith.github.io/xcode-man-pages/dd.1.html>.

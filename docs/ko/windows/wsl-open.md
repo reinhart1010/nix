@@ -3,7 +3,7 @@ layout: page
 title: windows/wsl-open (한국어)
 description: "사용자의 기본 Windows GUI 애플리케이션에서 Windows Subsystem for Linux 내에서 파일이나 URL을 엽니다."
 content_hash: 5c84c5ab584be8078ed436fc558f3b3fe2c7f4c3
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/windows/wsl-open.html
@@ -11,18 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/wsl-open.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/wsl-open.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wsl-open
+# wsl-open
 
 사용자의 기본 Windows GUI 애플리케이션에서 Windows Subsystem for Linux 내에서 파일이나 URL을 엽니다.
 더 많은 정보: <https://gitlab.com/4U6U57/wsl-open>.

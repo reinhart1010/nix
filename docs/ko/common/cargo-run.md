@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-run (한국어)
 description: "현재 Cargo 패키지를 실행."
 content_hash: 81cfc270e16092ce8c0e1b48f16c9b0dca97faa3
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/cargo-run.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo-run.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-run.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo run
+# cargo run
 
 현재 Cargo 패키지를 실행.
 참고: 실행된 바이너리의 작업 디렉터리는 현재 작업 디렉터리로 설정됨.

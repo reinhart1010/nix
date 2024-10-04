@@ -3,7 +3,7 @@ layout: page
 title: windows/rd (Indonesia)
 description: "Perintah ini merupakan alias dari `rmdir` dalam Command Prompt, serta `Remove-Item` dalam PowerShell."
 content_hash: 5ad95cfdd2a59bd24c41a94662a574412fb4d1c1
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: Deutsch version
     url: /de/windows/rd.html
@@ -56,12 +56,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rd
+# rd
 
 Perintah ini merupakan alias dari `rmdir` dalam Command Prompt, serta `Remove-Item` dalam PowerShell.
 Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.

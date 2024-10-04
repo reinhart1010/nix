@@ -3,14 +3,17 @@ layout: page
 title: common/fping (Indonesia)
 description: "Utilitas ping lebih kuat yang dapat melakukan proses ping pada lebih dari satu host."
 content_hash: d194040acde99ecdd4d37935006ee5aa70a72ab6
-last_modified_at: 2024-09-28
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/common/fping.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# fping
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># fping
 
 Utilitas ping lebih kuat yang dapat melakukan proses ping pada lebih dari satu host.
 Informasi lebih lanjut: <https://fping.org>.

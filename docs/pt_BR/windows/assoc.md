@@ -3,7 +3,7 @@ layout: page
 title: windows/assoc (português (Brasil))
 description: "Exibir ou alterar associações entre extensões de arquivo e tipos de arquivos."
 content_hash: bc7241435f71211ebcafa8ff488a49e08c7a6453
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-04
 related_topics:
   - title: English version
     url: /en/windows/assoc.html
@@ -17,12 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/assoc.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># assoc
+# assoc
 
 Exibir ou alterar associações entre extensões de arquivo e tipos de arquivos.
 Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>.
