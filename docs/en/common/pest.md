@@ -2,8 +2,8 @@
 layout: page
 title: common/pest (English)
 description: "A PHP testing framework with a focus on simplicity."
-content_hash: 9b913412ff4a3e41e6e64baa2b307903fd7e2c08
-last_modified_at: 2023-11-12
+content_hash: 58bd1b70804f5678c381b247a47aaf4e1d6b1cd1
+last_modified_at: 2024-10-04
 tldri18n_status: 2
 ---
 # pest
@@ -30,3 +30,11 @@ More information: <https://pestphp.com>.
 - Run tests with coverage and fail if the coverage is less than the minimum percentage:
 
 `pest --coverage --min=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span>
+
+- Run tests in parallel:
+
+`pest --parallel`
+
+- Run tests with mutations:
+
+`pest --mutate`
