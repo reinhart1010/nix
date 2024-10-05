@@ -2,13 +2,14 @@
 layout: page
 title: linux/qm (English)
 description: "QEMU/KVM Virtual Machine Manager."
-content_hash: e21a974d99372729e6d18c863ad440fe440281e7
-last_modified_at: 2023-11-12
+content_hash: a7b9c95a72457efc2b85ec46a62f3d1dbc56b24a
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # qm
 
 QEMU/KVM Virtual Machine Manager.
+Some subcommands such as `list`, `start`, `stop`, `clone`, etc. have their own usage documentation.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - List all virtual machines:

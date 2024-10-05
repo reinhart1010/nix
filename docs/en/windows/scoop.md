@@ -2,8 +2,8 @@
 layout: page
 title: windows/scoop (English)
 description: "The Scoop package manager."
-content_hash: 1666db47f011f808861e0af5bdb3e30447b3c49f
-last_modified_at: 2023-11-12
+content_hash: f3a963f0a93b892fef2149680f2affa4ae87752c
+last_modified_at: 2024-10-05
 related_topics:
   - title: বাংলা version
     url: /bn/windows/scoop.html
@@ -25,6 +25,7 @@ tldri18n_status: 2
 # scoop
 
 The Scoop package manager.
+Some subcommands such as `bucket` have their own usage documentation.
 More information: <https://scoop.sh>.
 
 - Install a package:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/qmrestore (English)
-description: "Restore QemuServer vzdump backups."
-content_hash: cb84635b10dc824e4be09ec43d2b29dcb681ad6d
-last_modified_at: 2023-11-12
+description: "Restore QemuServer `vzdump` backups."
+content_hash: f12965bb382016b85a2380fff28d762b08fa0d7b
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/linux/qmrestore.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # qmrestore
 
-Restore QemuServer vzdump backups.
+Restore QemuServer `vzdump` backups.
 More information: <https://pve.proxmox.com/pve-docs/qmrestore.1.html>.
 
 - Restore virtual machine from given backup file on the original storage:
