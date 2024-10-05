@@ -2,8 +2,8 @@
 layout: page
 title: common/rails (English)
 description: "A server-side MVC framework written in Ruby."
-content_hash: d4d613ba653e12d35f65f567895f69fc6513a70c
-last_modified_at: 2023-11-12
+content_hash: 7094a52683932ca299c7823c69a6f22e6809cdef
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/rails.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # rails
 
 A server-side MVC framework written in Ruby.
-Some subcommands such as `rails generate` have their own usage documentation.
+Some subcommands such as `generate` have their own usage documentation.
 More information: <https://guides.rubyonrails.org/command_line.html>.
 
 - Create a new rails project:

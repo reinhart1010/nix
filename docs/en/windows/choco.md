@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco (English)
 description: "The Chocolatey package manager."
-content_hash: aa5f7c2047816cacf3ce5c08187e6a88f97152e9
-last_modified_at: 2024-01-30
+content_hash: f0dac17a4fb37ccd9e081c2bbf75557b42c3bd00
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # choco
 
 The Chocolatey package manager.
-Some subcommands such as `choco install` have their own usage documentation.
+Some subcommands such as `install` have their own usage documentation.
 More information: <https://chocolatey.org>.
 
 - Execute a Chocolatey command:

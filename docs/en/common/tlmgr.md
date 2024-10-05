@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr (English)
 description: "Manage packages and configuration options of an existing TeX Live installation."
-content_hash: 00f7275e39b1ffedbf640b9cc4572c6beace1ef8
-last_modified_at: 2024-04-18
+content_hash: 1565600df138a713391849fc012ca6fb55e9d165
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/tlmgr.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # tlmgr
 
 Manage packages and configuration options of an existing TeX Live installation.
-Some subcommands such as `tlmgr paper` have their own usage documentation.
+Some subcommands such as `paper` have their own usage documentation.
 More information: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Install a package and its dependencies:

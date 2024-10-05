@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-s3 (English)
 description: "CLI for AWS S3 - provides storage through web services interfaces."
-content_hash: 64d2415542ad9a84a2af7c0ea7618be61ca86598
-last_modified_at: 2024-01-31
+content_hash: 0028d8f5e84f3616a2408ee2187cfddb8f9c98b9
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-s3.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # aws s3
 
 CLI for AWS S3 - provides storage through web services interfaces.
-Some subcommands such as `aws s3 cp` have their own usage documentation.
+Some subcommands such as `cp` have their own usage documentation.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html>.
 
 - Show files in a bucket:

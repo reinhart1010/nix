@@ -2,9 +2,12 @@
 layout: page
 title: windows/reg (English)
 description: "Manage keys and their values in the Windows registry."
-content_hash: ee23179b8cc27ed7df28e22efe127f8699968ac3
-last_modified_at: 2024-03-07
+content_hash: db50061cfda5d4219842924dee41ea549a8c1a83
+last_modified_at: 2024-10-05
 related_topics:
+  - title: Nederlands version
+    url: /nl/windows/reg.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/reg.html
     icon: bi bi-globe
@@ -13,7 +16,7 @@ tldri18n_status: 2
 # reg
 
 Manage keys and their values in the Windows registry.
-Some subcommands such as `reg add` have their own usage documentation.
+Some subcommands such as `add` have their own usage documentation.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg>.
 
 - Execute a registry command:

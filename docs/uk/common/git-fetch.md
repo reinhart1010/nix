@@ -3,7 +3,7 @@ layout: page
 title: common/git-fetch (українська)
 description: "Завантажує об'єкти та посилання з віддаленого сховища."
 content_hash: 1408aa4e35c3e45933934862b09e1b59e95fadad
-last_modified_at: 2024-10-04
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/git-fetch.html
@@ -26,18 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-fetch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-fetch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git fetch
+# git fetch
 
 Завантажує об'єкти та посилання з віддаленого сховища.
 Більше інформації: <https://git-scm.com/docs/git-fetch>.

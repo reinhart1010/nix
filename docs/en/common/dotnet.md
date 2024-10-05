@@ -2,8 +2,8 @@
 layout: page
 title: common/dotnet (English)
 description: "Cross platform .NET command-line tools for .NET Core."
-content_hash: f7827da80e3efece84387c938350bff737a9f902
-last_modified_at: 2023-11-12
+content_hash: 9d329e820a7f326a904fb93443010cd358ae117e
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # dotnet
 
 Cross platform .NET command-line tools for .NET Core.
-Some subcommands such as `dotnet build` have their own usage documentation.
+Some subcommands such as `build` have their own usage documentation.
 More information: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Initialize a new .NET project:

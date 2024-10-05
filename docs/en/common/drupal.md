@@ -2,14 +2,14 @@
 layout: page
 title: common/drupal (English)
 description: "Generate boilerplate code, interact with and debug Drupal projects."
-content_hash: 15035a1573070b5d932a0c73cefd7dc3a628da53
-last_modified_at: 2023-11-12
+content_hash: 6a083b5751e45e30f92db0a8f8b48684e2a4e7fb
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # drupal
 
 Generate boilerplate code, interact with and debug Drupal projects.
-Some subcommands such as `drupal check` have their own usage documentation.
+Some subcommands such as `check` have their own usage documentation.
 More information: <https://drupalconsole.com/>.
 
 - Install a module:

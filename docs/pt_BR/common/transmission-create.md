@@ -3,7 +3,7 @@ layout: page
 title: common/transmission-create (português (Brasil))
 description: "Cria arquivos BitTorrent `.torrent`."
 content_hash: a2a4c813fc116cbd23b74db1f5e655289472e35d
-last_modified_at: 2024-10-04
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/transmission-create.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/transmission-create.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/transmission-create.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># transmission-create
+# transmission-create
 
 Cria arquivos BitTorrent `.torrent`.
 Veja também: `transmission`.

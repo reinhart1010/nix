@@ -3,7 +3,7 @@ layout: page
 title: common/strings (português (Brasil))
 description: "Procura strings imprimíveis em um arquivo objeto ou binário."
 content_hash: bad4bc3eb2cf7383558ec7e978b23afaedd9ef9f
-last_modified_at: 2024-10-04
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/strings.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/strings.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/strings.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># strings
+# strings
 
 Procura strings imprimíveis em um arquivo objeto ou binário.
 Mais informações: <https://manned.org/strings>.

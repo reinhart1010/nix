@@ -2,14 +2,14 @@
 layout: page
 title: common/conan (English)
 description: "The open source, decentralized and cross-platform package manager to create and share all your native binaries."
-content_hash: 706169a0ece85a895612a00a2603b2d6eac4d2f4
-last_modified_at: 2023-11-12
+content_hash: 9384604e257b9043f2b048055ee305d3eae30552
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # conan
 
 The open source, decentralized and cross-platform package manager to create and share all your native binaries.
-Some subcommands such as `conan frogarian` have their own usage documentation.
+Some subcommands such as `frogarian` have their own usage documentation.
 More information: <https://conan.io/>.
 
 - Install packages based on `conanfile.txt`:

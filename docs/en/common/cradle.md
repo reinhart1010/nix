@@ -2,8 +2,8 @@
 layout: page
 title: common/cradle (English)
 description: "The Cradle PHP framework."
-content_hash: 592aafdfb0b3ad2fb470aa1ae001f5eb5718dd94
-last_modified_at: 2024-01-30
+content_hash: a49877924bd69d6292b256ece26b50a7638557d8
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # cradle
 
 The Cradle PHP framework.
-Some subcommands such as `cradle install` have their own usage documentation.
+Some subcommands such as `install` have their own usage documentation.
 More information: <https://cradlephp.github.io>.
 
 - Connect to a server:

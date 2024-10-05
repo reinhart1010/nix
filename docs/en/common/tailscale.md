@@ -2,14 +2,14 @@
 layout: page
 title: common/tailscale (English)
 description: "A private WireGuard network service."
-content_hash: c5a60f3e6c7bdef853160e7e2a43978b900a179a
-last_modified_at: 2023-11-12
+content_hash: a262abcddf3b98c7445f93123f026da373c9b1f0
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # tailscale
 
 A private WireGuard network service.
-Some subcommands such as `tailscale up` have their own usage documentation.
+Some subcommands such as `up` have their own usage documentation.
 More information: <https://tailscale.com>.
 
 - Connect to Tailscale:

@@ -2,8 +2,8 @@
 layout: page
 title: common/dvc (English)
 description: "Data Version Control: like `git` for data."
-content_hash: 883214cec73acac8c4209f76c446631a4452a5c8
-last_modified_at: 2024-01-30
+content_hash: f7781e9d611d1d357197588a879ab6485608cbfb
+last_modified_at: 2024-10-05
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dvc.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # dvc
 
 Data Version Control: like `git` for data.
-Some subcommands such as `dvc commit` have their own usage documentation.
+Some subcommands such as `commit` have their own usage documentation.
 More information: <https://dvc.org/>.
 
 - Execute a DVC subcommand:

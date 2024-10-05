@@ -3,7 +3,7 @@ layout: page
 title: common/todo (português (Brasil))
 description: "Um gerenciador de tarefas simples, de interface de linha de comando e em conformidade com os padrões."
 content_hash: 4368a7b02150f5450272c94dfb0d4273a6d15dde
-last_modified_at: 2024-10-04
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/todo.html
@@ -20,18 +20,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/todo.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/todo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># todo
+# todo
 
 Um gerenciador de tarefas simples, de interface de linha de comando e em conformidade com os padrões.
 Mais informações: <https://todoman.readthedocs.io>.

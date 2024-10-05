@@ -2,8 +2,8 @@
 layout: page
 title: common/consul (English)
 description: "Distributed key-value store with health checking and service discovery."
-content_hash: 5014437b173ff1b006ef82eca7479d95756b926c
-last_modified_at: 2024-01-30
+content_hash: 449686f7685f81fcc8b1f784ac79d4185a5d33b1
+last_modified_at: 2024-10-05
 related_topics:
   - title: italiano version
     url: /it/common/consul.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # consul
 
 Distributed key-value store with health checking and service discovery.
-Some subcommands such as `consul kv` have their own usage documentation.
+Some subcommands such as `kv` have their own usage documentation.
 More information: <https://www.consul.io/commands>.
 
 - Display help:

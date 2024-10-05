@@ -2,14 +2,14 @@
 layout: page
 title: common/glab-mr (English)
 description: "Manage GitLab merge requests."
-content_hash: 6ee39ef28f2b805151772ddb42480c08c948af49
-last_modified_at: 2023-11-12
+content_hash: 9d7e48df83840731a0ea8517c138fd083143d093
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # glab mr
 
 Manage GitLab merge requests.
-Some subcommands such as `glab mr create` have their own usage documentation.
+Some subcommands such as `create` have their own usage documentation.
 More information: <https://glab.readthedocs.io/en/latest/mr>.
 
 - Create a merge request:

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (English)
 description: "Manage Docker containers and images."
-content_hash: 64af4de69b2a7a9a7d08f133e8e16b8b4e75b3da
-last_modified_at: 2024-09-29
+content_hash: 9acfb7ff7d9f62f5965fbfbe6112871614054d4a
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # docker
 
 Manage Docker containers and images.
-Some subcommands such as `docker run` have their own usage documentation.
+Some subcommands such as `run` have their own usage documentation.
 More information: <https://docs.docker.com/reference/cli/docker/>.
 
 - List all Docker containers (running and stopped):

@@ -2,8 +2,8 @@
 layout: page
 title: common/vue (English)
 description: "Multi-purpose CLI for Vue.js."
-content_hash: d1f4db58748523c37e41a8d13fc3c48cb3d0dcb2
-last_modified_at: 2023-11-12
+content_hash: ae9aa124669634f1bf153deb68728b8d3e529fd4
+last_modified_at: 2024-10-05
 related_topics:
   - title: Indonesia version
     url: /id/common/vue.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # vue
 
 Multi-purpose CLI for Vue.js.
-Some subcommands such as `vue build` have their own usage documentation.
+Some subcommands such as `build` have their own usage documentation.
 More information: <https://cli.vuejs.org>.
 
 - Create a new Vue project interactively:

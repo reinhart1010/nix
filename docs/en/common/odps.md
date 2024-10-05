@@ -2,14 +2,14 @@
 layout: page
 title: common/odps (English)
 description: "Aliyun ODPS (Open Data Processing Service) command-line tool."
-content_hash: be39e337cddf6d044f928ea54194b5cdb272a63e
-last_modified_at: 2023-11-12
+content_hash: c5ad8e9254a8cdf06d0bb8c6aaf18bbb3ddf787b
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # odps
 
 Aliyun ODPS (Open Data Processing Service) command-line tool.
-Some subcommands such as `odps inst` have their own usage documentation.
+Some subcommands such as `inst` have their own usage documentation.
 More information: <https://www.alibabacloud.com/help/doc-detail/27971.htm>.
 
 - Start the command-line with a custom configuration file:

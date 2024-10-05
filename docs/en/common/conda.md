@@ -2,8 +2,8 @@
 layout: page
 title: common/conda (English)
 description: "Package, dependency and environment management for any programming language."
-content_hash: 2ccaa9cdbd71c55362ab0a0509cb6e4eb7851621
-last_modified_at: 2023-11-12
+content_hash: 4861df877273618aff88570fbcd86d5b0ae0d083
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/conda.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # conda
 
 Package, dependency and environment management for any programming language.
-Some subcommands such as `conda create` have their own usage documentation.
+Some subcommands such as `create` have their own usage documentation.
 More information: <https://github.com/conda/conda>.
 
 - Create a new environment, installing named packages into it:

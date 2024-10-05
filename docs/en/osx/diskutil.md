@@ -2,8 +2,8 @@
 layout: page
 title: osx/diskutil (English)
 description: "Utility to manage local disks and volumes."
-content_hash: 321e7a585f5c2fb1ff78e994d9b257c0bf9f7cd2
-last_modified_at: 2024-03-07
+content_hash: edd12c853ed4199785f7cc46333038e0c4d367cf
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/osx/diskutil.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # diskutil
 
 Utility to manage local disks and volumes.
-Some subcommands such as `diskutil partitiondisk` have their own usage documentation.
+Some subcommands such as `partitiondisk` have their own usage documentation.
 More information: <https://keith.github.io/xcode-man-pages/diskutil.8.html>.
 
 - List all currently available disks, partitions and mounted volumes:

@@ -2,8 +2,8 @@
 layout: page
 title: common/go (English)
 description: "Manage Go source code."
-content_hash: 56e5bac4000fd36f665df194954283c430eb73e3
-last_modified_at: 2024-02-15
+content_hash: 85f6c7338e582a3d04697b2f6e0ec3524f69b6bf
+last_modified_at: 2024-10-05
 related_topics:
   - title: français version
     url: /fr/common/go.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # go
 
 Manage Go source code.
-Some subcommands such as `go build` have their own usage documentation.
+Some subcommands such as `build` have their own usage documentation.
 More information: <https://golang.org>.
 
 - Download and install a package, specified by its import path:

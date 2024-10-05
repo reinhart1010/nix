@@ -2,14 +2,14 @@
 layout: page
 title: common/glab (English)
 description: "Work seamlessly with GitLab."
-content_hash: ff0b6978a9f9c13e9197902545ae991d467c4267
-last_modified_at: 2023-11-12
+content_hash: 0ce6173533db7985215d53eddfa030aaf5479e5f
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # glab
 
 Work seamlessly with GitLab.
-Some subcommands such as `glab config` have their own usage documentation.
+Some subcommands such as `config` have their own usage documentation.
 More information: <https://github.com/profclems/glab>.
 
 - Clone a GitLab repository locally:

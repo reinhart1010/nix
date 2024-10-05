@@ -3,7 +3,7 @@ layout: page
 title: common/transmission-edit (português (Brasil))
 description: "Modifica URLs de anúncio a partir de arquivos de torrent."
 content_hash: bc46682a4269f1d4b2c412c4ceb999eafac9daa8
-last_modified_at: 2024-10-04
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/transmission-edit.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/transmission-edit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/transmission-edit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># transmission-edit
+# transmission-edit
 
 Modifica URLs de anúncio a partir de arquivos de torrent.
 Veja também: `transmission`.

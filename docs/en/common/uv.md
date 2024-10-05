@@ -2,14 +2,14 @@
 layout: page
 title: common/uv (English)
 description: "A fast Python package and project manager."
-content_hash: c941275c2ea9369fb0cb6f0b3ba7e0f0f00e55ac
-last_modified_at: 2024-08-22
+content_hash: 624f5817fcd85b284a86bcd11199e0f94c4fb7a0
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # uv
 
 A fast Python package and project manager.
-Some subcommands such as `uv tool` and `uv python` have their own usage documentation.
+Some subcommands such as `tool` and `python` have their own usage documentation.
 More information: <https://docs.astral.sh/uv/reference/cli>.
 
 - Create a new Python project in the current directory:

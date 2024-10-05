@@ -2,14 +2,18 @@
 layout: page
 title: common/nxc (English)
 description: "Network service enumeration and exploitation tool."
-content_hash: 2fcedced8ea5ced426349fdaaa35dbb863ffc61e
-last_modified_at: 2024-08-11
+content_hash: dc6359a889bd342fdfb1f2ad3141ac0d266540fe
+last_modified_at: 2024-10-05
+related_topics:
+  - title: español version
+    url: /es/common/nxc.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # nxc
 
 Network service enumeration and exploitation tool.
-Some subcommands such as `nxc smb` have their own usage documentation.
+Some subcommands such as `smb` have their own usage documentation.
 More information: <https://www.netexec.wiki/>.
 
 - [L]ist available modules for the specified protocol:

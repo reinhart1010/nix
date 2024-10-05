@@ -2,14 +2,14 @@
 layout: page
 title: common/starship (English)
 description: "The minimal, blazing-fast, and infinitely customizable prompt for any shell."
-content_hash: 69566cda4b31a2deb7d64ddffb4ed6d02baa8a8b
-last_modified_at: 2023-11-12
+content_hash: ac38d7b789f578dda7c01781868d5265911defe4
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # starship
 
 The minimal, blazing-fast, and infinitely customizable prompt for any shell.
-Some subcommands such as `starship init` have their own usage documentation.
+Some subcommands such as `init` have their own usage documentation.
 More information: <https://starship.rs>.
 
 - Print the starship integration code for the specified shell:

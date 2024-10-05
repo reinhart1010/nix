@@ -2,14 +2,18 @@
 layout: page
 title: common/bundletool (English)
 description: "Manipulate Android Application Bundles."
-content_hash: b46cbad734306d9eaf044ab77a8ab4af72f0fe01
-last_modified_at: 2024-04-19
+content_hash: 38034c674b6770cb745e92bd9a6e5bc07d241751
+last_modified_at: 2024-10-05
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/bundletool.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # bundletool
 
 Manipulate Android Application Bundles.
-Some subcommands such as `bundletool validate` have their own usage documentation.
+Some subcommands such as `validate` have their own usage documentation.
 More information: <https://developer.android.com/tools/bundletool>.
 
 - Display help for a subcommand:

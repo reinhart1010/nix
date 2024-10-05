@@ -2,14 +2,14 @@
 layout: page
 title: common/mamba (English)
 description: "Fast, cross-platform package manager, intended as a drop-in replacement for conda."
-content_hash: 19c2d481a971aac42700b54fdc6c1beb88d64bb4
-last_modified_at: 2023-11-12
+content_hash: 60bdd4c7f5e8b2630f9606bb5bc82051ac1bfad3
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # mamba
 
 Fast, cross-platform package manager, intended as a drop-in replacement for conda.
-Some subcommands such as `mamba repoquery` have their own usage documentation.
+Some subcommands such as `repoquery` have their own usage documentation.
 More information: <https://mamba.readthedocs.io/en/latest/user_guide/mamba.html>.
 
 - Create a new environment, installing the specified packages into it:

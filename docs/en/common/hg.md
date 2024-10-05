@@ -2,14 +2,14 @@
 layout: page
 title: common/hg (English)
 description: "Mercurial - a distributed source control management system."
-content_hash: 26fb2e0144aeb55d14f034f0f778ebd593e399f5
-last_modified_at: 2024-01-30
+content_hash: 5c3cea91249293ed93e7074dc6fa77fb365aa3a7
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # hg
 
 Mercurial - a distributed source control management system.
-Some subcommands such as `hg commit` have their own usage documentation.
+Some subcommands such as `commit` have their own usage documentation.
 More information: <https://www.mercurial-scm.org>.
 
 - Execute a Mercurial command:

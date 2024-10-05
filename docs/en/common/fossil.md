@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil (English)
 description: "Distributed version control system."
-content_hash: 1fefb1d93d5cda19549e0f4700cf10e5c0fcf155
-last_modified_at: 2024-01-30
+content_hash: 04a29928583a209d31e68f46dd67d5ea2e01689f
+last_modified_at: 2024-10-05
 related_topics:
   - title: Nederlands version
     url: /nl/common/fossil.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # fossil
 
 Distributed version control system.
-Some subcommands such as `fossil commit` have their own usage documentation.
+Some subcommands such as `commit` have their own usage documentation.
 More information: <https://fossil-scm.org/>.
 
 - Execute a Fossil subcommand:

@@ -2,8 +2,8 @@
 layout: page
 title: linux/btrfs (English)
 description: "A filesystem based on the copy-on-write (COW) principle for Linux."
-content_hash: d06f4352baf40f7e05c166fb19eaed71e243c008
-last_modified_at: 2023-11-12
+content_hash: 5dd5dea19638b86214215b225d3d50a1710e3a1d
+last_modified_at: 2024-10-05
 related_topics:
   - title: français version
     url: /fr/linux/btrfs.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # btrfs
 
 A filesystem based on the copy-on-write (COW) principle for Linux.
-Some subcommands such as `btrfs device` have their own usage documentation.
+Some subcommands such as `device` have their own usage documentation.
 More information: <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
 - Create subvolume:

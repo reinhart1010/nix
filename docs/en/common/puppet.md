@@ -2,8 +2,8 @@
 layout: page
 title: common/puppet (English)
 description: "Help to manage and automate the configuration of servers."
-content_hash: ec64bb08808541b0fa3f630f5d99b00ac2ff34ca
-last_modified_at: 2023-11-12
+content_hash: 94ed6b94fb394e98b06c189d9eba0a664e65d886
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/puppet.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # puppet
 
 Help to manage and automate the configuration of servers.
-Some subcommands such as `puppet agent` have their own usage documentation.
+Some subcommands such as `agent` have their own usage documentation.
 More information: <https://puppet.com/>.
 
 - Execute a Puppet subcommand:

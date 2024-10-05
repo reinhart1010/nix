@@ -2,8 +2,8 @@
 layout: page
 title: common/flutter (English)
 description: "Google's free, open source, and cross-platform mobile app SDK."
-content_hash: 538fe7ff62207bba53cb11d98937a1ceb3da4626
-last_modified_at: 2023-11-12
+content_hash: aaccfde282628873b954e12eaf60f1cbd2cad004
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/flutter.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # flutter
 
 Google's free, open source, and cross-platform mobile app SDK.
-Some subcommands such as `flutter pub` have their own usage documentation.
+Some subcommands such as `pub` have their own usage documentation.
 More information: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
 - Initialize a new Flutter project in a directory of the same name:
