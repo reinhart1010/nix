@@ -2,8 +2,8 @@
 layout: page
 title: common/bundletool (한국어)
 description: "Android 애플리케이션 번들을 조작."
-content_hash: 76a087dbb7c1ed20f024a168b37db68e820d2113
-last_modified_at: 2024-09-24
+content_hash: 3b926a5a0f4cd8b279832e80db19b4a4fbd3d780
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/bundletool.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # bundletool
 
 Android 애플리케이션 번들을 조작.
-`bundletool validate`와 같은 일부 하위 명0령에는 자체적인 사용법 문서가 존재.
+`validate`와 같은 일부 하위 명0령에는 자체적인 사용법 문서가 존재.
 더 많은 정보: <https://developer.android.com/tools/bundletool>.
 
 - 하위 명령어에 대한 도움말 표시:

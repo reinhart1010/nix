@@ -2,8 +2,8 @@
 layout: page
 title: common/consul (italiano)
 description: "Rete distribuita per gestire e configurare servizi tramite database chiave-valore."
-content_hash: 9bfbeee6b17a375a8be021419b5f63a65404bebb
-last_modified_at: 2023-11-12
+content_hash: e5c6462e72a8ad1d03e7fc430e01ae9b9041b8fb
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/consul.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # consul
 
 Rete distribuita per gestire e configurare servizi tramite database chiave-valore.
-Alcuni comandi aggiuntivi, come `consul kv`, hanno la propria documentazione.
+Alcuni comandi aggiuntivi, come `kv`, hanno la propria documentazione.
 Maggiori informazioni: <https://www.consul.io/commands>.
 
 - Controlla la versione di Consul:

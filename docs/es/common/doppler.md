@@ -2,8 +2,8 @@
 layout: page
 title: common/doppler (español)
 description: "Gestiona variables de entorno a través de diferentes entornos usando Doppler."
-content_hash: 71b475c3964e9a03db8e350aa902901456f29761
-last_modified_at: 2024-08-14
+content_hash: 6db55ca8d3cddddafe74f551e7e958d5039b5b1d
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/doppler.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # doppler
 
 Gestiona variables de entorno a través de diferentes entornos usando Doppler.
-Algunos subcomandos como `doppler run` y `doppler secrets` tienen su propia documentación de uso.
+Algunos subcomandos como `run` y `secrets` tienen su propia documentación de uso.
 Más información: <https://docs.doppler.com/docs/cli>.
 
 - Configura Doppler CLI en el directorio actual:

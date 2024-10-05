@@ -2,11 +2,14 @@
 layout: page
 title: windows/reg (中文)
 description: "用于在 Windows 注册表中管理键及其值的命令行界面。"
-content_hash: 40a03eaa3a4f0cd53b439ecc03c11cfe8f9ba269
-last_modified_at: 2024-03-08
+content_hash: 0ddf4550108348dac9b4e94828f268258d8e003e
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/windows/reg.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/reg.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -16,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># reg
 
 用于在 Windows 注册表中管理键及其值的命令行界面。
-此命令也有关于其子命令的文件，例如：`reg add`.
+此命令也有关于其子命令的文件，例如：`add`.
 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg>.
 
 - 执行注册表命令：

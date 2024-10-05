@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo (français)
 description: "Gestion d'un projet Rust et ses dependences (crates)."
-content_hash: e052e695528a1e0d6e7bb49d3ae873825f3ab3e0
-last_modified_at: 2024-01-16
+content_hash: bea5294a8f35aab51f42e6fbe43aa47a56ea1490
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -29,6 +29,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/cargo.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -37,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cargo
 
 Gestion d'un projet Rust et ses dependences (crates).
-Certaines sous-commandes comme `cargo build` ont leurs propres documentations.
+Certaines sous-commandes comme `build` ont leurs propres documentations.
 Plus d'informations : <https://doc.rust-lang.org/cargo>.
 
 - Rechercher des crates :

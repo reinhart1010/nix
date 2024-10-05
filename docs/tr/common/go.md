@@ -2,8 +2,8 @@
 layout: page
 title: common/go (Türkçe)
 description: "Go kaynak kodunu yönetmeye yarayan bir araç."
-content_hash: e25e1c1fdb16875eb0a6b9ef7c3d493bcf9d35f6
-last_modified_at: 2023-11-12
+content_hash: dcddf8c1bbf704746fc63ea59860a61744e9a192
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/go.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # go
 
 Go kaynak kodunu yönetmeye yarayan bir araç.
-`go build` gibi bazı alt komutların kendı kullanım dokümentasyonları mevcut.
+`build` gibi bazı alt komutların kendı kullanım dokümentasyonları mevcut.
 Daha fazla bilgi için: <https://golang.org>.
 
 - İçe aktarım yolunda belirtilen şekilde bir paketi indir ve yükle:

@@ -2,8 +2,8 @@
 layout: page
 title: common/amass (Nederlands)
 description: "Uitgebreide tool voor Attack Surface Mapping en Asset Discovery."
-content_hash: 9df78e5500cd92d2f2ede5fbea7f3d33d6e60456
-last_modified_at: 2024-03-18
+content_hash: f2d09ae5c38255fa1c597304f008bdcf0a19af54
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/amass.html
@@ -13,6 +13,12 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/amass.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/amass.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/amass.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/amass.html
@@ -25,7 +31,7 @@ tldri18n_status: 2
 # amass
 
 Uitgebreide tool voor Attack Surface Mapping en Asset Discovery.
-Sommige subcommando's zoals `amass intel` hebben hun eigen documentatie.
+Sommige subcommando's zoals `intel` hebben hun eigen documentatie.
 Meer informatie: <https://github.com/owasp-amass/amass>.
 
 - Voer een Amass subcommando uit:

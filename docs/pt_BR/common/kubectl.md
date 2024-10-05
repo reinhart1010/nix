@@ -2,8 +2,8 @@
 layout: page
 title: common/kubectl (português (Brasil))
 description: "Linha de comando para executar comando em clusters do Kubernetes."
-content_hash: b3c459fdb3ef1376f0782efe8da5d6291ca141de
-last_modified_at: 2023-11-12
+content_hash: 84337b424ad50a21fd1729bcf04c5c1082a1e8bf
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/kubectl.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # kubectl
 
 Linha de comando para executar comando em clusters do Kubernetes.
-Alguns subcomandos como `kubectl run` tem sua própia documentação de uso.
+Alguns subcomandos como `run` tem sua própia documentação de uso.
 Mais informações: <https://kubernetes.io/docs/reference/kubectl/>.
 
 - Lista toda a informação sobre um recurso em detalhes:

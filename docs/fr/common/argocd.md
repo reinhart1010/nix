@@ -2,11 +2,14 @@
 layout: page
 title: common/argocd (français)
 description: "Interface en ligne de commande pour controler un serveur Argo CD."
-content_hash: cfb50c239a554fd1f2c8904cdc4fee19ef0e4249
-last_modified_at: 2023-11-26
+content_hash: aae9d5dd3bc96459f3a9a95f44cf339acac91de7
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/argocd.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/argocd.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/argocd.html
@@ -16,7 +19,7 @@ tldri18n_status: 2
 # argocd
 
 Interface en ligne de commande pour controler un serveur Argo CD.
-Certaines sous-commandes comme `argocd app` ont leur propre documentation d'utilisation.
+Certaines sous-commandes comme `app` ont leur propre documentation d'utilisation.
 Plus d'informations : <https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd/>.
 
 - Se connecter à un serveur Argo CD :

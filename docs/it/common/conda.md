@@ -2,8 +2,8 @@
 layout: page
 title: common/conda (italiano)
 description: "Gestione pacchetti, dipendenze ed ambiente per qualsiasi linguaggio di programmazione."
-content_hash: 28fc53b3ffcb484b6f820a1da0f7163100ccbc26
-last_modified_at: 2023-12-29
+content_hash: c25ad6791abfb7bb7ba8e435846509d6eb16f45f
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/conda.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # conda
 
 Gestione pacchetti, dipendenze ed ambiente per qualsiasi linguaggio di programmazione.
-Alcuni comandi aggiuntivi, come `conda create`, hanno la propria documentazione.
+Alcuni comandi aggiuntivi, come `create`, hanno la propria documentazione.
 Maggiori informazioni: <https://github.com/conda/conda>.
 
 - Crea un nuovo ambiente, installandovi alcuni pacchetti:

@@ -2,8 +2,8 @@
 layout: page
 title: common/git (Deutsch)
 description: "Verteiltes Versionskontrollsystem."
-content_hash: 63322e194fc8d394bb8fd03525247d4a416afb53
-last_modified_at: 2023-11-12
+content_hash: 02ce41a157efa1acf8895e0f31abf319bb7f0ad5
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/git.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # git
 
 Verteiltes Versionskontrollsystem.
-Manche Unterbefehle wie `git commit` sind separat dokumentiert.
+Manche Unterbefehle wie `commit` sind separat dokumentiert.
 Weitere Informationen: <https://git-scm.com/>.
 
 - Gib die installierte Git Version aus:

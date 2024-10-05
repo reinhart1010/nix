@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (Türkçe)
 description: "Docker konteyner ve imgelerini yönetir."
-content_hash: c686a0e3ef8b5fbf9355b306a975ad4744c8771a
-last_modified_at: 2024-09-29
+content_hash: a6cebea75ca0e5b8d9d5d0d3afa3db448293656c
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker
 
 Docker konteyner ve imgelerini yönetir.
-`docker run` gibi bazı alt komutların kendi dökümantasyonu bulunmaktadır.
+`run` gibi bazı alt komutların kendi dökümantasyonu bulunmaktadır.
 Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/>.
 
 - Tüm (çalışan veya duran) Docker konteynerlerini listele:

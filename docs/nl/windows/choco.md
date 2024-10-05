@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco (Nederlands)
 description: "De Chocolatey pakket manager."
-content_hash: 572d64a30db63c4f32053febaf00014ce6b54f12
-last_modified_at: 2024-02-01
+content_hash: 47dab0b42af659f9d35e05ac3e048964025b666f
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # choco
 
 De Chocolatey pakket manager.
-Sommige subcommando's zoals `choco install` hebben hun eigen gebruiksdocumentatie.
+Sommige subcommando's zoals `install` hebben hun eigen gebruiksdocumentatie.
 Meer informatie: <https://chocolatey.org>.
 
 - Voer een Chocolatey commando uit:

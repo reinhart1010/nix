@@ -2,8 +2,8 @@
 layout: page
 title: common/dvc (português (Brasil))
 description: "Controle de Versão de Dados: como o `git` mas para dados."
-content_hash: 27a682327a3e2809f2a0f7324ec1c8972e5839b1
-last_modified_at: 2023-11-12
+content_hash: 3cc22c001fb7f496b0eb5e0f98e1bf5979d7cb2e
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/dvc.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # dvc
 
 Controle de Versão de Dados: como o `git` mas para dados.
-Alguns subcomandos tal como `dvc commit` tem suas próprias documentações de uso.
+Alguns subcomandos tal como `commit` tem suas próprias documentações de uso.
 Mais informações: <https://dvc.org/>.
 
 - Checa a versão do DVC:

@@ -2,8 +2,8 @@
 layout: page
 title: common/pip (Indonesia)
 description: "Pengelola paket Python."
-content_hash: fc9a143f296e7b8e258b0f8bb7ee85d603dfd66b
-last_modified_at: 2023-11-12
+content_hash: cb8d3a8849ca5a88afd854d967b7dcba7a8aadb9
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/pip.html
@@ -17,6 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/pip.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/pip.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -25,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># pip
 
 Pengelola paket Python.
-Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `pip install`.
+Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `install`.
 Informasi lebih lanjut: <https://pip.pypa.io>.
 
 - Memasang paket:

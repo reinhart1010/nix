@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (Indonesia)
 description: "Atur kontainer Docker dan image."
-content_hash: 55c7f55f04b760e936ed5be0b11eb9db8429482b
-last_modified_at: 2024-09-29
+content_hash: 525ee0600729e42071c906af0a8cb7a89c370b73
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # docker
 
 Atur kontainer Docker dan image.
-Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `docker run`.
+Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `run`.
 Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/>.
 
 - Tampilkan semua daftar kontainer Docker (yang sedang berjalan dan berhenti):

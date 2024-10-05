@@ -2,8 +2,8 @@
 layout: page
 title: common/rails (Deutsch)
 description: "Ein Server-seitiges MVC Webframework in Ruby."
-content_hash: 03a35a63d24e6ea0332cbb74abb6c1720fd8d7e4
-last_modified_at: 2023-11-12
+content_hash: e46d76f3ea139513e3da4cfe3e744879163a24bb
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/rails.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # rails
 
 Ein Server-seitiges MVC Webframework in Ruby.
-Manche Unterbefehle wie `rails generate` sind separat dokumentiert.
+Manche Unterbefehle wie `generate` sind separat dokumentiert.
 Weitere Informationen: <https://guides.rubyonrails.org/command_line.html>.
 
 - Erstelle ein neues Rails-Projekt:

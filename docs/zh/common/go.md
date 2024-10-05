@@ -2,8 +2,8 @@
 layout: page
 title: common/go (中文)
 description: "管理 Go 源代码的工具。"
-content_hash: 494f0a50eb5e1fc40d78268c5ed2b4b4264390e8
-last_modified_at: 2024-01-01
+content_hash: 30f9da5d51361a735e115286378e54526a34a5e3
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/go.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # go
 
 管理 Go 源代码的工具。
-此命令也有关于其子命令的文件，例如：`go build`.
+此命令也有关于其子命令的文件，例如：`build`.
 更多信息：<https://golang.org>.
 
 - 下载并安装由其路径指定的包：

@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (português (Brasil))
 description: "A interface de linha de comando oficial para o Amazon Web Services."
-content_hash: ec9f4e12956cca4fc11cb09951373797873ae53d
-last_modified_at: 2023-11-12
+content_hash: 27adff166cbb70988319141538b41b773fbe9ce6
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -35,7 +35,7 @@ tldri18n_status: 2
 
 A interface de linha de comando oficial para o Amazon Web Services.
 Passo-a-passo, Single Sign-On (SSO), autocompletar de recursos e opções de YAML somente na v2.
-Alguns subcomandos como `aws s3` tem sua própia documentação de uso.
+Alguns subcomandos como `s3` tem sua própia documentação de uso.
 Mais informações: <https://aws.amazon.com/cli>.
 
 - Configura a linha de comando da AWS:

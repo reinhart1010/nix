@@ -2,8 +2,8 @@
 layout: page
 title: common/dotnet (русский)
 description: "Кросс-платформенная утилита командной строки .NET для .NET Core."
-content_hash: b7a7a55c58f171a79cccec1d50367f0b90295748
-last_modified_at: 2023-11-12
+content_hash: 4b0aa87464529ce8c8c3111b21fb5ddcebf7730f
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # dotnet
 
 Кросс-платформенная утилита командной строки .NET для .NET Core.
-Некоторые подкоманды, такие как `dotnet build`, имеют собственную документацию по использованию.
+Некоторые подкоманды, такие как `build`, имеют собственную документацию по использованию.
 Больше информации: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Инициализировать новый проект .NET:

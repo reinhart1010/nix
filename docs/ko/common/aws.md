@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (한국어)
 description: "Amazon Web Services의 공식 CLI tool입니다."
-content_hash: acd713cc2d94ba12f8a97842e2a85d7296d31739
-last_modified_at: 2023-11-12
+content_hash: 8c122035ef3f36d4c25ee3b8de0e82af4e169243
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # aws
 
 Amazon Web Services의 공식 CLI tool입니다.
-`aws s3`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+`s3`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
 더 많은 정보: <https://aws.amazon.com/cli>.
 
 - AWS Command-line 설정:

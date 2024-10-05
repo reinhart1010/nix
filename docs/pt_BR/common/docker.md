@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (português (Brasil))
 description: "Gerenciador de containers e imagens Docker."
-content_hash: 1d831727e85c5005383da31f61de126d80430d14
-last_modified_at: 2024-09-29
+content_hash: 2721843c67721e08d5d7b0972e9179053b98366e
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # docker
 
 Gerenciador de containers e imagens Docker.
-Alguns subcomandos como `docker run` tem sua própia documentação de uso.
+Alguns subcomandos como `run` tem sua própia documentação de uso.
 Mais informações: <https://docs.docker.com/reference/cli/docker/>.
 
 - Lista todos os containers Docker (em execução e parados):

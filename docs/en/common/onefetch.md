@@ -2,14 +2,14 @@
 layout: page
 title: common/onefetch (English)
 description: "Display project information and code statistics for a local Git repository."
-content_hash: 942bfd1630cedc1c9c1045a07fd2d5e6360ba446
-last_modified_at: 2024-10-03
+content_hash: cb810098fbe0cf7fecee21b1dc0c603b1b616072
+last_modified_at: 2024-10-05
 tldri18n_status: 2
 ---
 # onefetch
 
 Display project information and code statistics for a local Git repository.
-More information: <https://github.com/o2sh/onefetch/wiki>.
+More information: <https://github.com/o2sh/onefetch/wiki/command-line-options>.
 
 - Display statistics for the Git repository in the current working directory:
 

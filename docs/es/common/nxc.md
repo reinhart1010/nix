@@ -2,8 +2,8 @@
 layout: page
 title: common/nxc (español)
 description: "Herramienta de enumeración y explotación de servicios de red."
-content_hash: bc8593c1a79c1e42222d44bd662a21637c440e77
-last_modified_at: 2024-08-21
+content_hash: f944989c73ce23d4b3773b617163d28d603a3cb3
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/nxc.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # nxc
 
 Herramienta de enumeración y explotación de servicios de red.
-Algunos subcomandos como `nxc smb` tienen su propia documentación de uso.
+Algunos subcomandos como `smb` tienen su propia documentación de uso.
 Más información: <https://www.netexec.wiki/>.
 
 - [L]ista módulos disponibles para el protocolo especificado:

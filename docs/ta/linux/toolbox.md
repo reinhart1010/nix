@@ -2,8 +2,8 @@
 layout: page
 title: linux/toolbox (தமிழ்)
 description: "லினக்ஸ் இல் கொள்கலன்கள் செய்யப்பட்ட கட்டளை வரி சூழல்களுக்கான கருவி."
-content_hash: c7d1cf4fa2b72e9abfb9495ae9e71fbf2abb90e6
-last_modified_at: 2023-11-12
+content_hash: bf444fec50162250fbe1201483bea56092baffd0
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/linux/toolbox.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # toolbox
 
 லினக்ஸ் இல் கொள்கலன்கள் செய்யப்பட்ட கட்டளை வரி சூழல்களுக்கான கருவி.
-`toolbox create` போன்ற சில துணைக் கட்டளைகள் அவற்றின் சொந்த பயன்பாட்டு ஆவணங்களைக் கொண்டுள்ளன.
+`create` போன்ற சில துணைக் கட்டளைகள் அவற்றின் சொந்த பயன்பாட்டு ஆவணங்களைக் கொண்டுள்ளன.
 மேலும் விவரத்திற்கு: <https://manned.org/toolbox.1>.
 
 - `toolbox` துணைக் கட்டளையை இயக்கவும்:

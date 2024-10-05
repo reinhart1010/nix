@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo (Deutsch)
 description: "Verwalte Rust-Projekte und deren Abhängigkeiten (crates)."
-content_hash: 50fce234c608afb8ef8f42122ff7c2b7d3c98e66
-last_modified_at: 2023-11-12
+content_hash: 5f555473a7a1014a3cbb8e4c6f8f6d9c1aa81506
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/cargo.html
@@ -29,6 +29,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/cargo.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -37,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cargo
 
 Verwalte Rust-Projekte und deren Abhängigkeiten (crates).
-Manche Unterbefehle wie `cargo build` sind separat dokumentiert.
+Manche Unterbefehle wie `build` sind separat dokumentiert.
 Weitere Informationen: <https://doc.rust-lang.org/cargo>.
 
 - Suche nach Abhängigkeiten (crates):

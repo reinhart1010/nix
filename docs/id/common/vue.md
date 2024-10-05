@@ -2,8 +2,8 @@
 layout: page
 title: common/vue (Indonesia)
 description: "CLI serba guna untuk Vue.js."
-content_hash: 2ff61010a1d3afe75299755e4fc14d5a8530a047
-last_modified_at: 2023-11-12
+content_hash: 784d0589686d338bef5e1da357bbacab483421b2
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/vue.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # vue
 
 CLI serba guna untuk Vue.js.
-Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `vue build`.
+Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `build`.
 Informasi lebih lanjut: <https://cli.vuejs.org>.
 
 - Buat proyek vue baru secara interaktif:

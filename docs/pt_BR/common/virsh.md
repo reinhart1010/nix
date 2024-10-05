@@ -2,8 +2,8 @@
 layout: page
 title: common/virsh (português (Brasil))
 description: "Gerenciar domínios de convidados do virsh. (NOTA: 'guest_id' pode ser o ID, nome ou UUID do convidado)."
-content_hash: ebdbaa83d10e37eb783f4c650323e8586c9de7e8
-last_modified_at: 2024-05-23
+content_hash: 91b401c902307425680176c76f9ae74f98ddbbc4
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/virsh.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # virsh
 
 Gerenciar domínios de convidados do virsh. (NOTA: 'guest_id' pode ser o ID, nome ou UUID do convidado).
-Alguns subcomandos, como `virsh list`, têm sua própria documentação de uso.
+Alguns subcomandos, como `list`, têm sua própria documentação de uso.
 Mais informações: <https://libvirt.org/manpages/virsh.html>.
 
 - Conecta a uma sessão do hipervisor:

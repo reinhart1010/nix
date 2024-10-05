@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (Deutsch)
 description: "Verwalte Docker Container und Images."
-content_hash: dbc5ca5c34faa4e60b421965be06f4d582581052
-last_modified_at: 2024-09-29
+content_hash: e32014710e5e749a423d71ea904d4585e2a61d72
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/docker.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # docker
 
 Verwalte Docker Container und Images.
-Manche Unterbefehle wie `docker run` sind separat dokumentiert.
+Manche Unterbefehle wie `run` sind separat dokumentiert.
 Weitere Informationen: <https://docs.docker.com/reference/cli/docker/>.
 
 - Liste laufende und gestoppte Container auf:

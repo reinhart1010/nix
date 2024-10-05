@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (中文 (繁體, 台灣))
 description: "Amazon Web Services 官方的命令列介面工具。"
-content_hash: 927192cd2b518a1464a3d661393bc90cf0b45edc
-last_modified_at: 2023-12-31
+content_hash: 5853e9d55b781789e00c9ccaaf73d5d375d0ae0e
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # aws
 
 Amazon Web Services 官方的命令列介面工具。
-此命令也有關於其子命令的文件，例如：`aws s3`.
+此命令也有關於其子命令的文件，例如：`s3`.
 更多資訊：<https://aws.amazon.com/cli>.
 
 - 設定 AWS 命令列：

@@ -2,20 +2,29 @@
 layout: page
 title: common/ansible (Deutsch)
 description: "Verwalte Computergruppen per Fernzugriff über SSH (Verwende die Datei `/etc/ansible/hosts`, um neue Gruppen/Hosts hinzuzufügen)."
-content_hash: ee4d76a7b01a470f7ccc0d50abcd6a89d1ab5916
-last_modified_at: 2023-11-12
+content_hash: 50d13398001832ecea0cc01005010a3aac05c4c3
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/ansible.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansible.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/ansible.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ansible.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ansible.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ansible.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ansible.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ansible.html
@@ -28,7 +37,7 @@ tldri18n_status: 2
 # ansible
 
 Verwalte Computergruppen per Fernzugriff über SSH (Verwende die Datei `/etc/ansible/hosts`, um neue Gruppen/Hosts hinzuzufügen).
-Manche Unterbefehle wie `ansible galaxy` sind separat dokumentiert.
+Manche Unterbefehle wie `galaxy` sind separat dokumentiert.
 Weitere Informationen: <https://www.ansible.com/>.
 
 - Liste Hosts auf, die zu einer Gruppe gehören:

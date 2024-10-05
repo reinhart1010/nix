@@ -2,8 +2,8 @@
 layout: page
 title: common/conda (Deutsch)
 description: "Eine Paket-, Abhängigkeits- und Umgebungsverwaltung für beliebige Programmiersprachen."
-content_hash: aecd91244e00988ada64215e3bbaaa9e2c314aa2
-last_modified_at: 2023-12-28
+content_hash: 6616499581e568a250d8ce63569afa7b65eb0172
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/conda.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # conda
 
 Eine Paket-, Abhängigkeits- und Umgebungsverwaltung für beliebige Programmiersprachen.
-Manche Unterbefehle wie `conda create` sind separat dokumentiert.
+Manche Unterbefehle wie `create` sind separat dokumentiert.
 Weitere Informationen: <https://github.com/conda/conda>.
 
 - Erstelle eine neue Umgebung mit den zu installierenden Paketen:

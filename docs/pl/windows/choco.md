@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco (polski)
 description: "Interfejs wiersza polecenia dla menadżera pakietów Chocolatey."
-content_hash: f555cf83a2024adc0f79eb9e93d29bac2b22f106
-last_modified_at: 2023-11-12
+content_hash: b967512a0e1bcdf3276b15bde6c3a2ecf1d891c6
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/windows/choco.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/choco.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco.html
     icon: bi bi-globe
@@ -40,7 +43,7 @@ tldri18n_status: 2
 # choco
 
 Interfejs wiersza polecenia dla menadżera pakietów Chocolatey.
-Niektóre podkomendy takie jak `choco install` posiadają osobną dokumentację.
+Niektóre podkomendy takie jak `install` posiadają osobną dokumentację.
 Więcej informacji: <https://chocolatey.org>.
 
 - Wykonanie podkomendy:

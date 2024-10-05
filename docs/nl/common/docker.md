@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (Nederlands)
 description: "Beheer Docker containers en images."
-content_hash: e67e219d2a69fd7e5e4208e43b766d19a1240154
-last_modified_at: 2024-09-29
+content_hash: cfe7988ea5d4af2b84128bbb206b0d8df9d66e3c
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # docker
 
 Beheer Docker containers en images.
-Sommige subcommando's zoals `docker run` hebben hun eigen documentatie.
+Sommige subcommando's zoals `run` hebben hun eigen documentatie.
 Meer informatie: <https://docs.docker.com/reference/cli/docker/>.
 
 - Toon alle Docker containers (actief en gestopte):

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (español)
 description: "Administra contenedores e imágenes de Docker."
-content_hash: c579aa767ea7aa6b055a51deafa3fe6e33b8e998
-last_modified_at: 2024-09-29
+content_hash: 5430b13908c03722618b9ca2a8e613d67c1b571b
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # docker
 
 Administra contenedores e imágenes de Docker.
-Algunos subcomandos, como `docker run`, tienen su propia documentación de uso.
+Algunos subcomandos, como `run`, tienen su propia documentación de uso.
 Más información: <https://docs.docker.com/reference/cli/docker/>.
 
 - Lista todos los contenedores de Docker (en ejecución y detenidos):

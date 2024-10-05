@@ -2,8 +2,8 @@
 layout: page
 title: common/dotnet (polski)
 description: "Wieloplatformowe narzędzia wiersza polecenia .NET dla platformy .NET Core."
-content_hash: 7bdec5f46252137ca7709bf4020859df64e27745
-last_modified_at: 2024-06-14
+content_hash: bef5118614823a5e72826668559d047749780ede
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # dotnet
 
 Wieloplatformowe narzędzia wiersza polecenia .NET dla platformy .NET Core.
-Niektóre podkomendy takie jak `dotnet build` mają osobną dokumentację.
+Niektóre podkomendy takie jak `build` mają osobną dokumentację.
 Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Zainicjuj nowy projekt .NET:

@@ -2,8 +2,8 @@
 layout: page
 title: common/gh (Deutsch)
 description: "Arbeite mit GitHub von der Konsole aus."
-content_hash: 73c98c32a766df4b4275df0297b7ce2aae84d144
-last_modified_at: 2023-11-12
+content_hash: 41c0076623a08d36fbc0ba7c8d389d608c80b90c
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/gh.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # gh
 
 Arbeite mit GitHub von der Konsole aus.
-Manche Unterbefehle wie `gh config` sind separat dokumentiert.
+Manche Unterbefehle wie `config` sind separat dokumentiert.
 Weitere Informationen: <https://cli.github.com/>.
 
 - Klone ein GitHub Repository lokal:

@@ -2,8 +2,8 @@
 layout: page
 title: common/dotnet (italiano)
 description: "Strumenti .NET da linea di comando multipiattaforma per .NET Core."
-content_hash: b34776b0668f527063d8e828d8b2a44c0559b22e
-last_modified_at: 2023-11-12
+content_hash: 693441d2749d27c115b5e9f83da66cc2aafb3a75
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # dotnet
 
 Strumenti .NET da linea di comando multipiattaforma per .NET Core.
-Alcuni comandi aggiuntivi, come `dotnet build`, hanno la propria documentazione.
+Alcuni comandi aggiuntivi, come `build`, hanno la propria documentazione.
 Maggiori informazioni: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Inizializza un nuovo progetto .NET:

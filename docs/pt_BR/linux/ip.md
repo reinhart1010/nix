@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip (português (Brasil))
 description: "Mostra / manipula roteamento, dispositivos, roteamento baseado em póliticas e túneis."
-content_hash: d3d01291f808aa06b028d54bae05ea9e431f6f32
-last_modified_at: 2024-06-18
+content_hash: 8b02ab3a1d8f7335bb582bee2493590c5c6a970a
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # ip
 
 Mostra / manipula roteamento, dispositivos, roteamento baseado em póliticas e túneis.
-Alguns subcomandos como `ip address` têm suas pŕoprias documentações de uso.
+Alguns subcomandos como `address` têm suas pŕoprias documentações de uso.
 Mais informações: <https://www.manned.org/ip.8>.
 
 - Lista interfaces com informações detalhadas:

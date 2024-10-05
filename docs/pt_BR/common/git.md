@@ -2,8 +2,8 @@
 layout: page
 title: common/git (português (Brasil))
 description: "Sistema de versionamento distribuído."
-content_hash: a1d10bc004ba3a8bb6b36ca6d740c7a05c74dc55
-last_modified_at: 2023-11-12
+content_hash: 5ecc21d56d6090344f4cccce348ad0570e9cc86e
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # git
 
 Sistema de versionamento distribuído.
-Alguns subcomandos como `git commit` tem sua própia documentação de uso.
+Alguns subcomandos como `commit` tem sua própia documentação de uso.
 Mais informações: <https://git-scm.com/>.
 
 - Verifique a versão do Git:

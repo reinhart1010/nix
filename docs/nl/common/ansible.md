@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible (Nederlands)
 description: "Beheer een groep van computers op afstand over SSH. (Gebruik het `/etc/ansible/hosts` bestand om nieuwe groepen/hosts toe te voegen)."
-content_hash: 45740abe42f4f00fd65dd4312502f2ae0f7d9a89
-last_modified_at: 2023-11-26
+content_hash: b88f5965a055f7de5e07236147ecc82963f0e6f6
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html
@@ -11,8 +11,14 @@ related_topics:
   - title: English version
     url: /en/common/ansible.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansible.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/ansible.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ansible.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ansible.html
@@ -31,7 +37,7 @@ tldri18n_status: 2
 # ansible
 
 Beheer een groep van computers op afstand over SSH. (Gebruik het `/etc/ansible/hosts` bestand om nieuwe groepen/hosts toe te voegen).
-Sommige subcommando's zoals `ansible galaxy` hebben hun eigen documentatie.
+Sommige subcommando's zoals `galaxy` hebben hun eigen documentatie.
 Meer informatie: <https://www.ansible.com/>.
 
 - Toon de hosts die tot een groep behoren:

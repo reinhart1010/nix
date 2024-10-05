@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg (italiano)
 description: "Gestore di pacchetti Debian."
-content_hash: e298840c20470575780fa043ed91f74c28d72bf3
-last_modified_at: 2024-09-18
+content_hash: 03fb41ffd77adb80d0d0e388ae3c2fa140685a3e
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # dpkg
 
 Gestore di pacchetti Debian.
-Alcuni comandi aggiuntivi, come `dpkg deb`, hanno la propria documentazione.
+Alcuni comandi aggiuntivi, come `deb`, hanno la propria documentazione.
 Maggiori informazioni: <https://manned.org/dpkg>.
 
 - Installa un pacchetto:

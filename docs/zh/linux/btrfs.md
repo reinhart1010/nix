@@ -2,8 +2,8 @@
 layout: page
 title: linux/btrfs (中文)
 description: "一种基于写时复制（COW）原理的 Linux 文件系统。"
-content_hash: cd9062b6980862416063287d9d5a51e831d91644
-last_modified_at: 2023-11-12
+content_hash: e8af6f223f461c52578021a805e5810e0201ae03
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/linux/btrfs.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # btrfs
 
 一种基于写时复制（COW）原理的 Linux 文件系统。
-此命令也有关于其子命令的文件，例如：`btrfs device`.
+此命令也有关于其子命令的文件，例如：`device`.
 更多信息：<https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
 - 创建子卷：

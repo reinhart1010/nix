@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg (Deutsch)
 description: "Debian Paketmanager."
-content_hash: 2e046e52aed38d68842569b6fbce8ed34d122419
-last_modified_at: 2024-09-18
+content_hash: eef498d4b9c9fd111c99e17d2a4de58a539030bb
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/linux/dpkg.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # dpkg
 
 Debian Paketmanager.
-Manche Unterbefehle wie `dpkg deb` sind separat dokumentiert.
+Manche Unterbefehle wie `deb` sind separat dokumentiert.
 Weitere Informationen: <https://manned.org/dpkg>.
 
 - Installiere ein Paket:

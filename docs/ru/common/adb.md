@@ -2,8 +2,8 @@
 layout: page
 title: common/adb (русский)
 description: "Android Debug Bridge: управление запущенным эмулятором Android или подключенным устройством Android."
-content_hash: 4ad744d51264f27c99373d5c199a021184e2b4e0
-last_modified_at: 2024-02-22
+content_hash: 01b999b0330b3cecc2ed62e1cdfcd8e79baba024
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # adb
 
 Android Debug Bridge: управление запущенным эмулятором Android или подключенным устройством Android.
-Некоторые подкоманды, такие как `adb shell`, имеют собственную документацию по использованию.
+Некоторые подкоманды, такие как `shell`, имеют собственную документацию по использованию.
 Больше информации: <https://developer.android.com/tools/adb>.
 
 - Проверить, запущен ли процесс сервера adb и запустить его:

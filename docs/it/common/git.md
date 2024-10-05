@@ -2,8 +2,8 @@
 layout: page
 title: common/git (italiano)
 description: "Sistema di controllo versione distribuito."
-content_hash: d66189c408564c6ecd365d9f97aaa68d66c52933
-last_modified_at: 2023-11-12
+content_hash: adb19523c0c37f24933e32ca127e1a5899a65478
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># git
 
 Sistema di controllo versione distribuito.
-Alcuni comandi aggiuntivi, come `git commit`, hanno la propria documentazione.
+Alcuni comandi aggiuntivi, come `commit`, hanno la propria documentazione.
 Maggiori informazioni: <https://git-scm.com/>.
 
 - Controlla la versione di Git:

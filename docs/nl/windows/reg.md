@@ -2,8 +2,8 @@
 layout: page
 title: windows/reg (Nederlands)
 description: "Beheer sleutels en de waardes in een Windows registry."
-content_hash: 467b345a19cecf8aabebb27e5e2760a8209ba4a3
-last_modified_at: 2024-03-12
+content_hash: 0fb116bd508cc3fbf30dd8f05784c1d6a88977ac
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/windows/reg.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # reg
 
 Beheer sleutels en de waardes in een Windows registry.
-Sommige subcommando's zoals `reg add` hebben hun eigen documentatie.
+Sommige subcommando's zoals `add` hebben hun eigen documentatie.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg>.
 
 - Voer een registry commando uit:

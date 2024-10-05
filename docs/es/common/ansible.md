@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible (español)
 description: "Gestiona grupos de ordenadores de forma remota a través de SSH. (usa el fichero `/etc/ansible/hosts` para añadir nuevos grupos de hosts)."
-content_hash: 8555242eb6029b7bc52984e162dbdeebe1b33ef9
-last_modified_at: 2024-05-22
+content_hash: ec01476e0367245dc19ddea9334d74e8bf8b8a1e
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ansible.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ansible.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ansible.html
@@ -34,7 +37,7 @@ tldri18n_status: 2
 # ansible
 
 Gestiona grupos de ordenadores de forma remota a través de SSH. (usa el fichero `/etc/ansible/hosts` para añadir nuevos grupos de hosts).
-Algunos subcomandos como `ansible galaxy` tienen su propia documentación.
+Algunos subcomandos como `galaxy` tienen su propia documentación.
 Más información: <https://www.ansible.com/>.
 
 - Lista los hosts pertenecientes a un grupo:

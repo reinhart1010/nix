@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (Deutsch)
 description: "Das offizielle CLI für Amazon Web Services."
-content_hash: 2c8745953e94f491c1f882f291f98167dca14a71
-last_modified_at: 2023-11-12
+content_hash: fbb852c588b4c96ee1b41688045bb045884011b8
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/aws.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # aws
 
 Das offizielle CLI für Amazon Web Services.
-Manche Unterbefehle wie `aws s3` sind separat dokumentiert.
+Manche Unterbefehle wie `s3` sind separat dokumentiert.
 Weitere Informationen: <https://aws.amazon.com/cli>.
 
 - Konfiguriere die AWS Kommandozeile:

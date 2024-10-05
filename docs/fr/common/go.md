@@ -2,8 +2,8 @@
 layout: page
 title: common/go (français)
 description: "Outil de gestion du code source Go."
-content_hash: fc674df9a8e1dac46be91d36bc974e8dfda74bf5
-last_modified_at: 2023-11-12
+content_hash: 02c489c9bf3c6f4203db1aeb8d8d07bbb188f173
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/go.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # go
 
 Outil de gestion du code source Go.
-Certaines sous-commandes telles que `go build` ont leur propre documentation d'utilisation.
+Certaines sous-commandes telles que `build` ont leur propre documentation d'utilisation.
 Plus d'informations : <https://golang.org>.
 
 - Télécharger et installer un paquet, spécifié par son chemin d'importation :

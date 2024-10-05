@@ -2,8 +2,8 @@
 layout: page
 title: common/amass (中文)
 description: "深度攻击面探测与资产发现工具。"
-content_hash: 4008ae59d2c3fd3a754c0f14ef74c4ed49406a6d
-last_modified_at: 2024-03-18
+content_hash: 0069854029603d95b0de45514b61f92b90c55359
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/amass.html
@@ -13,6 +13,12 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/amass.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/amass.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/amass.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/amass.html
@@ -25,7 +31,7 @@ tldri18n_status: 2
 # amass
 
 深度攻击面探测与资产发现工具。
-此命令也有关于其子命令的文件，例如：`amass intel`.
+此命令也有关于其子命令的文件，例如：`intel`.
 更多信息：<https://github.com/owasp-amass/amass>.
 
 - 执行 Amass 子命令：

@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible (한국어)
 description: "SSH를 통해 컴퓨터 그룹을 원격으로 관리. (`/etc/ansible/hosts` 파일을 사용하여 새 그룹/호스트를 추가하십시오)."
-content_hash: 9355c4f483a51bafa48a9019a1f0d471ffb40db9
-last_modified_at: 2024-09-08
+content_hash: 3d72d48a0973363587affcb29164015eec68b6b8
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # ansible
 
 SSH를 통해 컴퓨터 그룹을 원격으로 관리. (`/etc/ansible/hosts` 파일을 사용하여 새 그룹/호스트를 추가하십시오).
-`ansible galaxy`와 같은 일부 하위 명령에는 자체 사용 설명서가 있음.
+`galaxy`와 같은 일부 하위 명령에는 자체 사용 설명서가 있음.
 더 많은 정보: <https://www.ansible.com/>.
 
 - 그룹에 속한 호스트 목록:

@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco (português (Brasil))
 description: "Uma interface de linha de comando para o gerenciador de pacotes Chocolatey."
-content_hash: 112f8909de7ecbc5b6470409701596f75bb89706
-last_modified_at: 2023-12-28
+content_hash: f03c4f2b2f7b46c5b4676da4a929592b695c1ad2
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # choco
 
 Uma interface de linha de comando para o gerenciador de pacotes Chocolatey.
-Alguns subcomandos como `choco install` tem sua própia documentação de uso.
+Alguns subcomandos como `install` tem sua própia documentação de uso.
 Mais informações: <https://chocolatey.org>.
 
 - Executa o comando Chocolatey:

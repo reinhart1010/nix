@@ -2,8 +2,8 @@
 layout: page
 title: common/helm (español)
 description: "Helm es un gestor de paquetes para Kubernetes."
-content_hash: 308b2f7a23990a377a80c64dacf95932f46e1fba
-last_modified_at: 2023-11-12
+content_hash: 1f1c299ee86367c29ddba06395ec8429e1c2da62
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/helm.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # helm
 
 Helm es un gestor de paquetes para Kubernetes.
-Algunos subcomandos como `helm install` tiene su propia documentación de uso.
+Algunos subcomandos como `install` tiene su propia documentación de uso.
 Más información: <https://helm.sh/>.
 
 - Crea un chart de helm:

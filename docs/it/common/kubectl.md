@@ -2,8 +2,8 @@
 layout: page
 title: common/kubectl (italiano)
 description: "Interfaccia interattiva da linea di comando per eseguire comandi sui clusters Kubernetes."
-content_hash: b5c9e736e55c221a56911b0e33996103510320c4
-last_modified_at: 2023-11-12
+content_hash: 0eeedf579d9cad1c739aee69b7430f2412542430
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/kubectl.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # kubectl
 
 Interfaccia interattiva da linea di comando per eseguire comandi sui clusters Kubernetes.
-Alcuni comandi aggiuntivi, come `kubectl run`, hanno la propria documentazione..
+Alcuni comandi aggiuntivi, come `run`, hanno la propria documentazione..
 Maggiori informazioni: <https://kubernetes.io/docs/reference/kubectl/>.
 
 - Elenca le informazioni su una risorsa in maniera dettagliata:

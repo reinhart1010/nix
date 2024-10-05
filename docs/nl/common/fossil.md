@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil (Nederlands)
 description: "Gedistribueerd versiebheer systeem."
-content_hash: 1750fae20eb07b493ab417f4899b76e6399d5b4a
-last_modified_at: 2024-02-01
+content_hash: dc09afbc2bb19e7b70e5ea35557a99b991fcd565
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/fossil.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # fossil
 
 Gedistribueerd versiebheer systeem.
-Sommige subcommando's zoals `fossil db` hebben hun eigen documentatie.
+Sommige subcommando's zoals `db` hebben hun eigen documentatie.
 Meer informatie: <https://fossil-scm.org/>.
 
 - Voer een Fossil subcommando uit:

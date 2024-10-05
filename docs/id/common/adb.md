@@ -2,8 +2,8 @@
 layout: page
 title: common/adb (Indonesia)
 description: "Android Debug Bridge: berkomunikasi dengan emulator Android atau perangkat Android terhubung."
-content_hash: 7565fb5ec7548e8cf76291b3a3cfae812e87fe72
-last_modified_at: 2024-09-15
+content_hash: edcb6bec62354fc4f315b8f7229e50f4a0016668
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # adb
 
 Android Debug Bridge: berkomunikasi dengan emulator Android atau perangkat Android terhubung.
-Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `adb shell`.
+Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `shell`.
 Informasi lebih lanjut: <https://developer.android.com/tools/adb>.
 
 - Periksa apakah proses server adb telah dimulai dan memulainya:

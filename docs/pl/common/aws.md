@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (polski)
 description: "Oficjalne narzędzie CLI dla Amazon Web Services."
-content_hash: c3f84268366eca256a656238b0c4d94be649bea7
-last_modified_at: 2024-06-23
+content_hash: b1e1497e7c56db3d1ae3a3ceee062c5444f8fd4f
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # aws
 
 Oficjalne narzędzie CLI dla Amazon Web Services.
-Niektóre podkomendy takie jak `aws s3` mają osobną dokumentację.
+Niektóre podkomendy takie jak `s3` mają osobną dokumentację.
 Więcej informacji: <https://aws.amazon.com/cli>.
 
 - Konfiguruj AWS Command-line:

@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible (中文)
 description: "通过 SSH 协议远程管理计算机组。使用 `/etc/ansible/hosts` 文件来添加组 / 主机。"
-content_hash: 56a448d1456d7f6f59cd72dccca2e2ff436e14ba
-last_modified_at: 2023-11-12
+content_hash: b08e1c593c8aaf3ee644cb1defa51b666f7f4c9d
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html
@@ -11,14 +11,23 @@ related_topics:
   - title: English version
     url: /en/common/ansible.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansible.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/ansible.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ansible.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ansible.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ansible.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ansible.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ansible.html
@@ -31,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># ansible
 
 通过 SSH 协议远程管理计算机组。使用 `/etc/ansible/hosts` 文件来添加组 / 主机。
-此命令也有关于其子命令的文件，例如：`ansible galaxy`.
+此命令也有关于其子命令的文件，例如：`galaxy`.
 更多信息：<https://www.ansible.com/>.
 
 - 列出给定组下的所有主机：

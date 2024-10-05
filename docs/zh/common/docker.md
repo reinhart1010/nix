@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (中文)
 description: "管理 Docker 容器和镜像。"
-content_hash: c4dd4be0363b42b6c4f42c9c8b6626e539337c78
-last_modified_at: 2024-09-29
+content_hash: ca16d465a29f4be40e22636bb8696468bbdf60ed
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker
 
 管理 Docker 容器和镜像。
-此命令也有关于其子命令的文件，例如：`docker run`.
+此命令也有关于其子命令的文件，例如：`run`.
 更多信息：<https://docs.docker.com/reference/cli/docker/>.
 
 - 列出所有 Docker 容器（包括停止的容器）：

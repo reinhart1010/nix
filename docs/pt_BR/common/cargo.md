@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo (português (Brasil))
 description: "Gerencia projetos Rust e as dependências dos modulos (crates)."
-content_hash: ab7c968df0955c4e5fe4439b8f980a517960f04c
-last_modified_at: 2024-01-07
+content_hash: ea508e23db16c441088782601096ee2ceb73cc44
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -29,12 +29,15 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/cargo.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # cargo
 
 Gerencia projetos Rust e as dependências dos modulos (crates).
-Alguns subcomandos como `cargo build` tem a sua própria documentação.
+Alguns subcomandos como `build` tem a sua própria documentação.
 Mais informações: <https://doc.rust-lang.org/cargo>.
 
 - Procura por crates:

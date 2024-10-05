@@ -2,8 +2,8 @@
 layout: page
 title: common/az (中文 (繁體, 台灣))
 description: "Microsoft Azure 的官方客戶端工具。"
-content_hash: a76503ef41f617a16d5a2c05307c1e58f25619c1
-last_modified_at: 2024-09-14
+content_hash: 74eb75a553310ab8e0c5dc94ba72e3f3c4f0bbab
+last_modified_at: 2024-10-05
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># az
 
 Microsoft Azure 的官方客戶端工具。
-此命令也有關於其子命令的文件，例如：`az login`.
+此命令也有關於其子命令的文件，例如：`login`.
 更多資訊：<https://learn.microsoft.com/cli/azure>.
 
 - 登錄到 Azure：

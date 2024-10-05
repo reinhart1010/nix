@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (italiano)
 description: "Il tool da linea di comando ufficiale per Amazon Web Services."
-content_hash: f0afb2a1d3f36a9e38cb7eddf19397c24ec17bab
-last_modified_at: 2023-11-12
+content_hash: 1cea7ba57d04639f2c146fef378b1c0ff75e9171
+last_modified_at: 2024-10-05
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -37,7 +37,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># aws
 
 Il tool da linea di comando ufficiale per Amazon Web Services.
-Alcuni comandi aggiuntivi, come `aws s3`, hanno la propria documentazione.
+Alcuni comandi aggiuntivi, come `s3`, hanno la propria documentazione.
 Maggiori informazioni: <https://aws.amazon.com/cli>.
 
 - Lista tutti gli utenti IAM (Identity and Access Management):
