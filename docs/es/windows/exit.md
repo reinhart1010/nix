@@ -3,7 +3,7 @@ layout: page
 title: windows/exit (español)
 description: "Sale de la instancia CMD actual o del archivo por lotes actual."
 content_hash: 3c61546ca7749448e1a768dc940920ea1176710b
-last_modified_at: 2024-10-05
+last_modified_at: 2024-10-06
 related_topics:
   - title: বাংলা version
     url: /bn/windows/exit.html
@@ -32,18 +32,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/exit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/exit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># exit
+# exit
 
 Sale de la instancia CMD actual o del archivo por lotes actual.
 Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>.

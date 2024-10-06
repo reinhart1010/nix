@@ -2,8 +2,8 @@
 layout: page
 title: linux/waydroid (English)
 description: "A container-based approach to boot a full Android system on a regular Linux system like Ubuntu."
-content_hash: 3c8c6b5d9e8a6c48d07e9b0c302cb3301a6b4d7e
-last_modified_at: 2024-04-14
+content_hash: bc344ad4d4075bd095237e35be65cfb85f115cec
+last_modified_at: 2024-10-06
 tldri18n_status: 2
 ---
 # waydroid
@@ -33,7 +33,11 @@ More information: <https://docs.waydro.id>.
 
 - Manage the Waydroid container:
 
-`waydroid container `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|freeze|unfreeze</span>
+`sudo waydroid container `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|freeze|unfreeze</span>
+
+- Open Waydroid shell:
+
+`sudo waydroid shell`
 
 - Adjust Waydroid window dimensions:
 
