@@ -2,8 +2,8 @@
 layout: page
 title: common/git-log (한국어)
 description: "커밋 이력을 보여줍니다."
-content_hash: 525290510abfea3fd3b6280ef583bafae8246218
-last_modified_at: 2024-06-13
+content_hash: a18fe71ec4e94af25dfe6a1e1d9a8c87f08fdb16
+last_modified_at: 2024-10-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -42,7 +42,7 @@ tldri18n_status: 2
 
 - 변경 사항을 포함해, 특정 파일 또는 디렉토리의 이력 보기:
 
-`git log -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_또는_디렉토리_경로</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--patch|-p|-u</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span>
 
 - 각 커밋에서 어떤 파일이 변경되었는지 개요 보기:
 
@@ -58,12 +58,12 @@ tldri18n_status: 2
 
 - 특정 문자열이 포함된 커밋 메시지만 보기 (대소문자 구분 없이):
 
-`git log -i --grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_문자열</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--regexp-ignore-case</span>` --grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_문자열</span>
 
 - 특정 작성자의 마지막 N개의 커밋 보기:
 
-`git log -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">개수</span>` --author=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작성자</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--max-count|-n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">개수</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작성자</span>`"`
 
 - 두 날짜(yyyy-mm-dd) 사이의 커밋 보기:
 
-`git log --before="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-29</span>`" --after="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-17</span>`"`
+`git log --before "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-29</span>`" --after "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-17</span>`"`

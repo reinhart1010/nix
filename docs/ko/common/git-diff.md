@@ -2,8 +2,8 @@
 layout: page
 title: common/git-diff (한국어)
 description: "추적된 파일의 변경 사항을 보여줍니다."
-content_hash: 81f88428f854e5c48e9468466a7169fca2092c85
-last_modified_at: 2024-06-13
+content_hash: b4e158b36742315cccf5920cb02e5f3415858b56
+last_modified_at: 2024-10-07
 related_topics:
   - title: English version
     url: /en/common/git-diff.html
@@ -46,11 +46,11 @@ tldri18n_status: 2
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
-- 특정 커밋 이후 변경된 파일 이름만 표시:
+- 변경된 파일, 히스토그램, 총 라인 삽입/삭제와 같은 diff 통계 표시:
 
-`git diff --name-only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span>
+`git diff --stat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span>
 
-- 특정 커밋 이후 파일 생성, 이름 변경 및 모드 변경 요약 표시:
+- 주어진 커밋 이후의 파일 생성, 이름 변경 및 모드 변경 요약 출력:
 
 `git diff --summary `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span>
 

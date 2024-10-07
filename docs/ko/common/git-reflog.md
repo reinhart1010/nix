@@ -2,8 +2,8 @@
 layout: page
 title: common/git-reflog (한국어)
 description: "로컬 Git 저장소의 브랜치, 태그, HEAD 등의 변경사항을 로그로 보여줍니다."
-content_hash: 9577f551b8cc4554d3ae1fd4426659ace29b004f
-last_modified_at: 2024-08-23
+content_hash: 783d1028d6c38249eb2256f2522e2e1a35f39dfd
+last_modified_at: 2024-10-07
 related_topics:
   - title: English version
     url: /en/common/git-reflog.html
@@ -37,4 +37,4 @@ tldri18n_status: 2
 
 - 변경된 기록의 최근 5개 항목만 표시:
 
-`git reflog -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
+`git reflog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--max-count</span>` 5`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-am (한국어)
-description: "패치 파일을 적용한다. 이메일로 커밋을 받을 때 유용함."
-content_hash: cbe6ec5ba6c7c275a1ffbbb1a201275c62f1f7e9
-last_modified_at: 2023-11-12
+description: "패치 파일을 적용하고 커밋 생성. 이메일을 통해 커밋을 받을 때 유용합니다."
+content_hash: 71198557dc0b9d1a4f85a05fb555d079096cb8f2
+last_modified_at: 2024-10-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-am.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-am.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-am.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-am.html
@@ -33,18 +36,22 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># git am
 
-패치 파일을 적용한다. 이메일로 커밋을 받을 때 유용함.
-패치 파일을 생성 할 수 있는 `git format-patch` 또한 참고.
+패치 파일을 적용하고 커밋 생성. 이메일을 통해 커밋을 받을 때 유용합니다.
+패치 파일을 생성할 수 있는 `git format-patch`도 같이 보세요.
 더 많은 정보: <https://git-scm.com/docs/git-am>.
 
-- 패치 파일 적용:
+- 로컬 패치 파일을 적용하고 커밋:
 
 `git am `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.patch</span>
 
-- 패치 파일 적용 프로세스 중단:
+- 원격 패치 파일을 적용하고 커밋:
+
+`curl -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/file.patch</span>` | git apply`
+
+- 패치 파일 적용 과정 중단:
 
 `git am --abort`
 
-- 가능한 많은 수의 패치 파일 적용, 실패한 파일은 거절 파일에 저장:
+- 가능한 한 많은 패치 파일을 적용하고, 실패한 부분을 거부 파일로 저장:
 
 `git am --reject `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.patch</span>

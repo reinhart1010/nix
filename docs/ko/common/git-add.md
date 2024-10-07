@@ -2,8 +2,8 @@
 layout: page
 title: common/git-add (한국어)
 description: "변경된 파일을 색인에 추가합니다."
-content_hash: 2ad4dbc334e15d72a4ff7d7a64432d68442851ad
-last_modified_at: 2024-06-20
+content_hash: 2a5d42b85976824a343f41c4c6ba48b577d2dc48
+last_modified_at: 2024-10-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -52,26 +52,30 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
 
-- 모든 파일 추가 (추적된 파일 및 추적되지 않은 파일 모두):
+- 모든 파일 추가 (추적된 파일 및 추적되지 않은 파일):
 
-`git add -A`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-A|--all</span>
 
-- 이미 추적 중인 파일만 추가:
+- 현재 폴더의 모든 파일 추가:
 
-`git add -u`
+`git add .`
+
+- 이미 추적된 파일만 추가:
+
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|--update</span>
 
 - 무시된 파일도 추가:
 
-`git add -f`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--force</span>
 
-- 파일 일부를 대화적으로 스테이징:
+- 파일의 일부를 대화식으로 스테이징:
 
-`git add -p`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--patch</span>
 
-- 특정 파일의 일부를 대화적으로 스테이징:
+- 지정된 파일의 일부를 대화식으로 스테이징:
 
-`git add -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--patch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
 
-- 파일을 대화적으로 스테이징:
+- 파일을 대화식으로 스테이징:
 
-`git add -i`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-status (한국어)
 description: "Git 저장소의 파일 변경 사항을 표시합니다."
-content_hash: 8b1cf70cdb38855807698a8c1c618b4a6939b3ed
-last_modified_at: 2024-08-16
+content_hash: b4092890c3c0bcc25839ed5cbbd69cd102d91618
+last_modified_at: 2024-10-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-status.html
@@ -53,6 +53,10 @@ Git 저장소의 파일 변경 사항을 표시합니다.
 - [s]hort 형식으로 출력:
 
 `git status --short`
+
+- 스테이징 영역과 작업 디렉토리의 변경 사항에 대한 [v]erbose 정보 표시:
+
+`git status --verbose --verbose`
 
 - [b]ranch 및 추적 정보 표시:
 

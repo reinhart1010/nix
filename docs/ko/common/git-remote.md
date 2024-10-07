@@ -2,8 +2,8 @@
 layout: page
 title: common/git-remote (한국어)
 description: "원격 저장소(remote repositories)를 관리하는 명령어입니다."
-content_hash: efc88efc01c66c330283bc0e74f86d494dbdafd7
-last_modified_at: 2024-08-19
+content_hash: 845ae57a4606c8cc50903af65dfb234c15d49ee3
+last_modified_at: 2024-10-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -41,7 +41,7 @@ tldri18n_status: 2
 
 - 이름과 URL을 포함한 기존 원격 저장소 목록 보기:
 
-`git remote -v`
+`git remote `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>
 
 - 특정 원격 저장소에 대한 정보 표시:
 
