@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-secret (Deutsch)
 description: "Verwalte Secrets für Docker Swarm."
-content_hash: e867a80755424a16a4adab20d221296eba36ac31
-last_modified_at: 2024-09-26
+content_hash: e213d3159e43096c6ef665def7e4c250ed65b71b
+last_modified_at: 2024-10-07
 related_topics:
   - title: English version
     url: /en/common/docker-secret.html
@@ -30,7 +30,7 @@ Weitere Informationen: <https://docs.docker.com/reference/cli/docker/secret/>.
 
 - Erstelle ein neues Secret aus einer Datei:
 
-`docker secret create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zur/datei</span>
+`docker secret create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
 - Liste alle Secrets auf:
 

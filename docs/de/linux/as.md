@@ -2,14 +2,17 @@
 layout: page
 title: linux/as (Deutsch)
 description: "Portabler GNU assembler."
-content_hash: 12825e33ebcfe9c17e26618e0f16bafe07109bb4
-last_modified_at: 2024-08-13
+content_hash: 16d17a4608618387580e4e26b3c9de2a2c97d59c
+last_modified_at: 2024-10-07
 related_topics:
   - title: English version
     url: /en/linux/as.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/as.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/as.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/as.html
@@ -39,4 +42,4 @@ Weitere Informationen: <https://manned.org/as>.
 
 - Inkludiere einen gegebenen Pfad in der Liste von Verzeichnissen für die Suche nach Dateien:
 
-`as -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.s</span>
+`as -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.s</span>

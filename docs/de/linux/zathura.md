@@ -2,8 +2,8 @@
 layout: page
 title: linux/zathura (Deutsch)
 description: "Ein vim-artiger, modaler Dokumentenbetrachter mit integrierter Kommandozeile."
-content_hash: 754495d5d0e1a95a2c276fa655c3d6da83f40e43
-last_modified_at: 2024-01-08
+content_hash: 258091c7755882ba42f1e7e2a7b4c9583257d470
+last_modified_at: 2024-10-07
 related_topics:
   - title: English version
     url: /en/linux/zathura.html
@@ -24,7 +24,7 @@ Weitere Informationen: <https://pwmt.org/projects/zathura/>.
 
 - Öffne eine Datei:
 
-`zathura `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zur/datei</span>
+`zathura `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
 - Navigiere nach links/oben/unten/rechts:
 

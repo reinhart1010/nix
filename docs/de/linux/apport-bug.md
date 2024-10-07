@@ -2,11 +2,17 @@
 layout: page
 title: linux/apport-bug (Deutsch)
 description: "Reiche einen Fehlerbericht über Ubuntu ein."
-content_hash: a7c571f6989ff913bc29fbf774f4d77fdc1ba568
-last_modified_at: 2023-11-12
+content_hash: a79e9c243215bbd52b768ece57035bb47dd0aca8
+last_modified_at: 2024-10-07
 related_topics:
   - title: English version
     url: /en/linux/apport-bug.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/apport-bug.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/apport-bug.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apport-bug.html
@@ -28,7 +34,7 @@ Weitere Informationen: <https://wiki.ubuntu.com/Apport>.
 
 - Reiche einen Fehlerbericht über eine bestimmte ausführbare Datei ein:
 
-`apport-bug `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/executable</span>
+`apport-bug `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span>
 
 - Reiche einen Fehlerbericht über einen bestimmten Prozess ein:
 

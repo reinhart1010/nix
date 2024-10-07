@@ -2,8 +2,8 @@
 layout: page
 title: common/dust (Deutsch)
 description: "Dust gib einen sofortigen Überblick, welche Verzeichnisse Festplatten Speicherplatz benutzen."
-content_hash: 1db886ed2093fa7a737e8cb65d2f6d27f5ab3443
-last_modified_at: 2023-11-12
+content_hash: 479301c97c2b74ba9c8036fecd0d03546e0c1737
+last_modified_at: 2024-10-07
 related_topics:
   - title: English version
     url: /en/common/dust.html
@@ -24,7 +24,7 @@ Weitere Informationen: <https://github.com/bootandy/dust>.
 
 - Informationen für eine durch Leerzeichen getrennte Liste von Verzeichnissen anzeigen:
 
-`dust `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/verzeichnis1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/verzeichnis2</span>
+`dust `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis2</span>
 
 - Zeige 30 Verzeichnisse an (Standardwert: 21):
 

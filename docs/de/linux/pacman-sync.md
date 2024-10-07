@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-sync (Deutsch)
 description: "Arch Linux Paketverwaltungs-Werkzeug."
-content_hash: 31ca514892083a1e1a2cc906266267648cfbc8bd
-last_modified_at: 2024-09-25
+content_hash: b2244c6826545f6978f412b423accc57c49bddb9
+last_modified_at: 2024-10-07
 related_topics:
   - title: English version
     url: /en/linux/pacman-sync.html
@@ -56,7 +56,7 @@ Weitere Informationen: <https://manned.org/pacman.8>.
 
 - Überschreibe widersprüchliche Dateien während einer Paketaktualisierung:
 
-`sudo pacman --sync --refresh --sysupgrade --overwrite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zur/datei</span>
+`sudo pacman --sync --refresh --sysupgrade --overwrite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
 - Synchronisiere und aktualisiere alle Pakete, ignoriere aber ein bestimmtes Paket (kann mehr als einmal angegeben werden):
 

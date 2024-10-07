@@ -2,14 +2,17 @@
 layout: page
 title: windows/ftp (Deutsch)
 description: "Interaktiver Dateitransfer zwischen einem lokalen und einem entfernten FTP-Server."
-content_hash: b117ea8068d2ce0ec1da4e78afa77d9a7ea34fd3
-last_modified_at: 2023-11-12
+content_hash: 2e3c0070193000c05e0e91dfae074b71767ca380
+last_modified_at: 2024-10-07
 related_topics:
   - title: English version
     url: /en/windows/ftp.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/ftp.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/ftp.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/ftp.html
@@ -35,7 +38,7 @@ Weitere Informationen: <https://learn.microsoft.com/windows-server/administratio
 
 - Ausführen einer Datei, die eine Liste von FTP-Befehlen enthält:
 
-`ftp -s:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Pfad/zur/Datei</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
+`ftp -s:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/Datei</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
 - Herunterladen von mehrerern Dateien (globaler Ausdruck):
 

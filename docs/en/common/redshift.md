@@ -2,8 +2,8 @@
 layout: page
 title: common/redshift (English)
 description: "Adjust the color temperature of your screen according to your surroundings."
-content_hash: a99c87785ff4ba459f2fec45927e9626a8eef3d7
-last_modified_at: 2024-02-08
+content_hash: 69d49edafbf8bc5c962468fcbba7b166ab75b95b
+last_modified_at: 2024-10-07
 tldri18n_status: 2
 ---
 # redshift
@@ -27,6 +27,6 @@ More information: <http://jonls.dk/redshift>.
 
 `redshift -g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">red</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">green</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blue</span>
 
-- Turn on Redshift with a constant unchanging color temperature:
+- [P]urge existing temperature changes and set a constant unchanging color temperature in [O]ne-shot mode:
 
-`redshift -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">temperature</span>
+`redshift -PO `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">temperature</span>

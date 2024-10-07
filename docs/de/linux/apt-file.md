@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-file (Deutsch)
 description: "Suche nach Dateien in apt-Paketen, auch in den nicht-installierten."
-content_hash: a69b436c7500a340db0185e1675bd6fe0e6b8df1
-last_modified_at: 2024-09-18
+content_hash: 326379400ed2aa10c5e68eaf1745c6cf604f96d9
+last_modified_at: 2024-10-07
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -48,7 +48,7 @@ Weitere Informationen: <https://manned.org/apt-file.1>.
 
 - Suche nach Paketen, die die/den spezifizierten Pfad/Datei enthalten:
 
-`apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zur/datei</span>
+`apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
 - Liste die Inhalte eines bestimmten Pakets auf:
 
