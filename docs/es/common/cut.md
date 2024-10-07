@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (español)
 description: "Corta campos de `stdin` o archivos."
-content_hash: 2ffc0cf757c8ec8af0b065f81e62a00676762ae7
-last_modified_at: 2024-05-06
+content_hash: 76af7b7c4cb3ece7a51503d741852e8d54d4bbc7
+last_modified_at: 2024-10-07
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -40,10 +40,14 @@ Más información: <https://www.gnu.org/software/coreutils/cut>.
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | cut --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">characters|field</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span>
 
-- Imprime un rango de campos de cada línea con un delimitador específico:
+- Imprime un rango de campos de cada línea con un [d]elimitador específico:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | cut --delimiter "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>`" --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
-- Imprime un rango de caracteres de cada línea de un archivo específico:
+- Imprime un rango de [c]aracteres de cada línea del archivo específico:
 
 `cut --characters `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
+
+- Imprime [c]ampos específicos de líneas terminadas en `NUL` (por ejemplo, como en `find . -print0`) en lugar de nuevas líneas:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | cut --zero-terminated --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/awk (español)
 description: "Un versátil lenguaje de programación para trabajar con archivos."
-content_hash: 1beada4674e78d33cafe1604bc76315974a3cd68
-last_modified_at: 2023-12-28
+content_hash: aa3f0ede0547247fcd1f6de432d1df9d74777dce
+last_modified_at: 2024-10-07
 related_topics:
   - title: English version
     url: /en/common/awk.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/awk.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/awk.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/awk.html
@@ -60,10 +63,10 @@ Más información: <https://github.com/onetrueawk/awk>.
 
 `awk '{if ($1 == "foo") print "Coincidencia exacta foo"; else if ($1 ~ "bar") print "Coincidencia parcial bar"; else print "Baz"}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Imprime todas las líneas en las que el valor de la 10ª columna sea igual al valor especificado:
+- Imprime todas las líneas en las que el valor de la 10ª columna está entre un mínimo y un máximo:
 
-`awk '($10 == valor)'`
+`awk '($10 >= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor_mínimo</span>` && $10 <= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor_máximo</span>`)'`
 
-- Imprime todas las líneas en las que el valor de la 10ª columna esté entre un mínimo y un máximo:
+- Imprime tabla de usuarios con UID >=1000 con cabecera y salida formateada, usando dos puntos como separador (`%-20s` significa: 20 caracteres de cadena alineados a la izquierda, `%6s` significa: 6 caracteres de cadena alineados a la derecha):
 
-`awk '($10 >= valor_mín && $10 <= valor_máx)'`
+`awk 'BEGIN {FS=":";printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $4 >= 1000 {printf "%-20s %6d %25s\n", $1, $4, $7}' /etc/passwd`
