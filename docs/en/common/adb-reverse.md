@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/adb-reverse (English)
-description: "Android Debug Bridge Reverse: reverse socket connections from an Android emulator instance or connected Android devices."
-content_hash: 40a79426fefe29c7d87e47032d6498a1eb66a552
-last_modified_at: 2024-02-16
+description: "Reverse socket connections from a connected Android device or emulator."
+content_hash: 81947dc63d1e23bac27b51bc826d6649503a07d6
+last_modified_at: 2024-10-08
 related_topics:
   - title: español version
     url: /es/common/adb-reverse.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-reverse.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/adb-reverse.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/adb-reverse.html
@@ -30,7 +33,7 @@ tldri18n_status: 2
 ---
 # adb reverse
 
-Android Debug Bridge Reverse: reverse socket connections from an Android emulator instance or connected Android devices.
+Reverse socket connections from a connected Android device or emulator.
 More information: <https://developer.android.com/tools/adb>.
 
 - List all reverse socket connections from emulators and devices:

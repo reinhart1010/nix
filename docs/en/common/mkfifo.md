@@ -2,11 +2,14 @@
 layout: page
 title: common/mkfifo (English)
 description: "Make FIFOs (named pipes)."
-content_hash: f8b22fe5cfe7ee0a7f570c936597add1b4b552f7
-last_modified_at: 2024-08-23
+content_hash: 24e89214f86b25d911a83ea2d22c50d234ffe3d0
+last_modified_at: 2024-10-08
 related_topics:
   - title: bosanski version
     url: /bs/common/mkfifo.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/mkfifo.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/mkfifo.html
@@ -29,3 +32,7 @@ More information: <https://www.gnu.org/software/coreutils/mkfifo>.
 - Receive data through a named pipe:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipe</span>
+
+- Share your terminal session in real-time:
+
+`mkfifo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipe</span>`; script -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipe</span>
