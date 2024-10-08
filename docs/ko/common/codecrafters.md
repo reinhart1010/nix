@@ -1,0 +1,40 @@
+---
+layout: page
+title: common/codecrafters (한국어)
+description: "복잡한 소프트웨어 구현을 연습."
+content_hash: d872d912441fc36f9dad916e9446def840eceaf9
+last_modified_at: 2024-10-08
+related_topics:
+  - title: English version
+    url: /en/common/codecrafters.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/codecrafters.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/codecrafters.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># codecrafters
+
+복잡한 소프트웨어 구현을 연습.
+더 많은 정보: <https://codecrafters.io/>.
+
+- 변경 사항을 적용하지 않고, 테스트를 실행:
+
+`codecrafters test`
+
+- 변경 사항을 적용하지 않고 모든 이전 단계와 현재 단계에 대해 테스트를 실행:
+
+`codecrafters test --previous`
+
+- 변경 사항을 커밋하고 제출하여, 다음 단계로 이동함:
+
+`codecrafters submit`

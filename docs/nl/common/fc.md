@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/fc (Nederlands)
-description: "Open het meest recente commando en bewerk het."
-content_hash: 67e41bbeb883e7b8d050a38f8cfedf5fbfdd7b2d
+description: "Open het meest recente commando voor bewerking en voer het uit."
+content_hash: 2797568703df369ca75a9ca06fb6f0be5b628a06
 last_modified_at: 2024-10-08
 related_topics:
   - title: English version
@@ -21,10 +21,10 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># fc
 
-Open het meest recente commando en bewerk het.
+Open het meest recente commando voor bewerking en voer het uit.
 Meer informatie: <https://manned.org/fc>.
 
-- Open in de standaard systeemeditor:
+- Open het laatste commando in de standaard systeemeditor en voer het uit na het aanpassen:
 
 `fc`
 
@@ -40,6 +40,14 @@ Meer informatie: <https://manned.org/fc>.
 
 `fc -l -r`
 
-- Toon commando's in een gegeven interval:
+- Pas een commando uit de geschiedenis aan en voer het uit:
+
+`fc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nummer</span>
+
+- Pas commando's in een gegeven interval aan en voer ze uit:
 
 `fc '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">416</span>`' '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">420</span>`'`
+
+- Toon help:
+
+`fc --help`

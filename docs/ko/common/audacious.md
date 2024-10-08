@@ -2,8 +2,8 @@
 layout: page
 title: common/audacious (한국어)
 description: "오픈 소스 오디오 플레이어."
-content_hash: dd75ba2275373a606ec9e648043bd4040b58522f
-last_modified_at: 2024-03-08
+content_hash: 4d0397770b4f7b59e017170b99decc177a4ae2d2
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/audacious.html
@@ -24,6 +24,10 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 - 프로그램 실행:
 
 `audacious`
+
+- 새로운 인스턴스를 시작하고 오디오를 재생:
+
+`audacious --new-instance `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/오디오</span>
 
 - 오디오 파일의 특정 디렉터리를 대기열에 삽입:
 
