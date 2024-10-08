@@ -2,8 +2,8 @@
 layout: page
 title: common/sv (English)
 description: "Control a running runsv service."
-content_hash: 341f4f695dcb9b5a2f96a3207f95d6a86f8f9266
-last_modified_at: 2023-11-12
+content_hash: 2d5ac7c481228f924f774cbc6e1f7ac3612e3b51
+last_modified_at: 2024-10-08
 related_topics:
   - title: 中文 version
     url: /zh/common/sv.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # sv
 
 Control a running runsv service.
-More information: <https://manpages.ubuntu.com/manpages/latest/man8/sv.8.html>.
+More information: <https://manned.org/sv.8>.
 
 - Start a service:
 

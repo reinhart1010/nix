@@ -2,8 +2,8 @@
 layout: page
 title: common/runsvdir (中文)
 description: "运行整个目录下的服务。"
-content_hash: 79f147e1056ce66c7538c189fbfd0308212b5570
-last_modified_at: 2023-11-12
+content_hash: ea0bccfab901fa6a5479a2150f9ac49b672aab34
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/runsvdir.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # runsvdir
 
 运行整个目录下的服务。
-更多信息：<https://manpages.ubuntu.com/manpages/latest/man8/runsvdir.8.html>.
+更多信息：<https://manned.org/runsvdir.8>.
 
 - 以当前用户身份启动和管理目录中的所有服务：
 

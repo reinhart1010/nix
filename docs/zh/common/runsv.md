@@ -2,8 +2,8 @@
 layout: page
 title: common/runsv (中文)
 description: "启动和管理 runit 服务。"
-content_hash: f781dd8971b4c02445a6d62fbf51207560bf7cae
-last_modified_at: 2023-11-12
+content_hash: 643201e623f887b39de93fbffc1a72532b92a6d1
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/runsv.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # runsv
 
 启动和管理 runit 服务。
-更多信息：<https://manpages.ubuntu.com/manpages/latest/man8/runsv.8.html>.
+更多信息：<https://manned.org/runsv.8>.
 
 - 以当前用户身份启动 runit 服务：
 

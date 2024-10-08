@@ -2,8 +2,8 @@
 layout: page
 title: common/runsvchdir (中文)
 description: "更改默认使用的 `runsvdir` 目录。"
-content_hash: 9eb3da310c0acb6041d38c54c042f2feb2c6446d
-last_modified_at: 2023-11-12
+content_hash: e59be83804d31c9183817c121408ff5bcadace79
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/runsvchdir.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # runsvchdir
 
 更改默认使用的 `runsvdir` 目录。
-更多信息：<https://manpages.ubuntu.com/manpages/latest/man8/runsvchdir.8.html>.
+更多信息：<https://manned.org/runsvchdir.8>.
 
 - 切换 `runsvdir` 目录：
 

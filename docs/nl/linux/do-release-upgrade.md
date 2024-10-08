@@ -2,8 +2,8 @@
 layout: page
 title: linux/do-release-upgrade (Nederlands)
 description: "De Ubuntu release upgrader."
-content_hash: ca9de6601753c3b14bc21f1d33421ac015bdb7d3
-last_modified_at: 2023-11-12
+content_hash: 7208ff902f2332f9cccb982de1de86f6bc877eeb
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/linux/do-release-upgrade.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # do-release-upgrade
 
 De Ubuntu release upgrader.
-Meer informatie: <https://ubuntu.com/server/docs/upgrade-introduction>.
+Meer informatie: <https://manned.org/do-release-upgrade.8>.
 
 - Upgrade naar de laatste release:
 

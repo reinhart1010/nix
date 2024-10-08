@@ -2,14 +2,14 @@
 layout: page
 title: linux/virt-manager (English)
 description: "A desktop user interface for managing KVM and Xen virtual machines and LXC containers."
-content_hash: 3a2f34b5069cbcdbf115f4838d2de175ff806c22
-last_modified_at: 2024-03-07
+content_hash: bb2dd539bc88f08f5a97bf3ea239b6e0cf7b9828
+last_modified_at: 2024-10-08
 tldri18n_status: 2
 ---
 # virt-manager
 
 A desktop user interface for managing KVM and Xen virtual machines and LXC containers.
-More information: <https://manpages.ubuntu.com/manpages/man1/virt-manager.1.html>.
+More information: <https://manned.org/virt-manager.1>.
 
 - Launch the GUI:
 
