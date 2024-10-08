@@ -3,23 +3,14 @@ layout: page
 title: common/git-guilt (한국어)
 description: "스테이지되지 않은 변경 사항이 있는 파일에 대한 전체 블레임 수를 표시하거나 두 개의 리비전 간 블레임 변경을 계산."
 content_hash: eb3befaa61f27768c485662f72c941e1639ee3a1
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-guilt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-guilt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git guilt
+# git guilt
 
 스테이지되지 않은 변경 사항이 있는 파일에 대한 전체 블레임 수를 표시하거나 두 개의 리비전 간 블레임 변경을 계산.
 `git-extras`의 일부.

@@ -3,23 +3,14 @@ layout: page
 title: common/git-sync (한국어)
 description: "로컬 브랜치를 원격 브랜치와 동기화."
 content_hash: f933d434e1d4d2cea681d1ab429f1a857fe72be8
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-sync.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-sync.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git sync
+# git sync
 
 로컬 브랜치를 원격 브랜치와 동기화.
 `git-extras`의 일부.

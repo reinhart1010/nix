@@ -3,23 +3,14 @@ layout: page
 title: common/git-mr (한국어)
 description: "GitLab 병합 요청을 로컬에서 체크아웃."
 content_hash: 732d3aa2264a145290aeb98bea3617500039aed6
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-mr.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-mr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git mr
+# git mr
 
 GitLab 병합 요청을 로컬에서 체크아웃.
 `git-extras`의 일부.

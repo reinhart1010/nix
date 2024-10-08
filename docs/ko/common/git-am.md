@@ -3,7 +3,7 @@ layout: page
 title: common/git-am (한국어)
 description: "패치 파일을 적용하고 커밋 생성. 이메일을 통해 커밋을 받을 때 유용합니다."
 content_hash: 71198557dc0b9d1a4f85a05fb555d079096cb8f2
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: Deutsch version
     url: /de/common/git-am.html
@@ -29,12 +29,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-am.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git am
+# git am
 
 패치 파일을 적용하고 커밋 생성. 이메일을 통해 커밋을 받을 때 유용합니다.
 패치 파일을 생성할 수 있는 `git format-patch`도 같이 보세요.

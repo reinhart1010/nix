@@ -3,23 +3,14 @@ layout: page
 title: common/git-secret (한국어)
 description: "Git 리포지토리에 개인 데이터를 저장. Bash로 작성됨."
 content_hash: 6ad658e158f25728dfb873068d89f3d4f351fd39
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-secret.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-secret.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git secret
+# git secret
 
 Git 리포지토리에 개인 데이터를 저장. Bash로 작성됨.
 더 많은 정보: <https://github.com/sobolevn/git-secret>.

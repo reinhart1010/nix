@@ -3,19 +3,14 @@ layout: page
 title: common/disown (हिन्दी)
 description: "उप-प्रक्रियाओं को उस शेल से परे रहने की अनुमति दें जिससे वे जुड़े हुए हैं।"
 content_hash: 5e0188e7a72d4bae831aa32b453e239a8209757c
-last_modified_at: 2024-10-07
-tldri18n_status: 0
+last_modified_at: 2024-10-08
+related_topics:
+  - title: English version
+    url: /en/common/disown.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/disown.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># disown
+# disown
 
 उप-प्रक्रियाओं को उस शेल से परे रहने की अनुमति दें जिससे वे जुड़े हुए हैं।
 `jobs` कमांड भी देखें।

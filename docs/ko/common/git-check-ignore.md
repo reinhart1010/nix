@@ -3,7 +3,7 @@ layout: page
 title: common/git-check-ignore (한국어)
 description: "Git ignore/exclude (\".gitignore\") 파일을 분석하고 디버깅."
 content_hash: e851176a1aacd0582be564cd86dc4ee65bcbafa9
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -26,18 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-check-ignore.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-check-ignore.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git check-ignore
+# git check-ignore
 
 Git ignore/exclude (".gitignore") 파일을 분석하고 디버깅.
 더 많은 정보: <https://git-scm.com/docs/git-check-ignore>.

@@ -3,23 +3,14 @@ layout: page
 title: linux/systemd-inhibit (한국어)
 description: "특정 전원 상태로의 진입을 금지."
 content_hash: 66fc4c386d45fde8ab272e6d9f3e51183dc29389
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/linux/systemd-inhibit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systemd-inhibit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systemd-inhibit
+# systemd-inhibit
 
 특정 전원 상태로의 진입을 금지.
 인히비터 잠금을 사용하여 시스템의 절전 및 종료 요청을 차단하거나 지연시키고 자동 유휴 처리를 방지할 수 있습니다.

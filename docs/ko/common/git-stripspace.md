@@ -3,7 +3,7 @@ layout: page
 title: common/git-stripspace (한국어)
 description: "텍스트(예: 커밋 메시지, 노트, 태그 및 브랜치 설명)를 `stdin`에서 읽고 Git에서 사용하는 방식으로 정리합니다."
 content_hash: 740324c1e814832e5f58e15520f7ad581619b3cf
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-stripspace.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-stripspace.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-stripspace.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git stripspace
+# git stripspace
 
 텍스트(예: 커밋 메시지, 노트, 태그 및 브랜치 설명)를 `stdin`에서 읽고 Git에서 사용하는 방식으로 정리합니다.
 더 많은 정보: <https://git-scm.com/docs/git-stripspace>.

@@ -3,7 +3,7 @@ layout: page
 title: common/git-tag (한국어)
 description: "태그를 생성하거나 나열하거나 삭제하거나 확인합니다."
 content_hash: 6fa5fc244d6c77ee2b4f9259b067b78570196f3b
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -26,12 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-tag.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git tag
+# git tag
 
 태그를 생성하거나 나열하거나 삭제하거나 확인합니다.
 태그는 커밋에 대한 정적 참조입니다.

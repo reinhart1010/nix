@@ -3,23 +3,14 @@ layout: page
 title: common/git-feature (한국어)
 description: "기능 브랜치를 생성하거나 병합."
 content_hash: 789210121514c6a7512643423eff2146d5f777bc
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-feature.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-feature.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git feature
+# git feature
 
 기능 브랜치를 생성하거나 병합.
 기능 브랜치는 feature/<이름> 형식을 따릅니다.

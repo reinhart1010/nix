@@ -3,23 +3,14 @@ layout: page
 title: linux/systemd-stdio-bridge (한국어)
 description: "`stdin`/`stdout`와 D-Bus 사이에 프록시를 구현합니다."
 content_hash: 9d608fe354668bb9b6dbd2d72b6ad3aba18a4ae6
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/linux/systemd-stdio-bridge.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systemd-stdio-bridge.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systemd-stdio-bridge
+# systemd-stdio-bridge
 
 `stdin`/`stdout`와 D-Bus 사이에 프록시를 구현합니다.
 참고: 시작 시 `stdin`/`stdout`을 통해 열린 연결을 수신하도록 되어 있으며, 지정된 버스로 새로운 연결을 생성합니다.

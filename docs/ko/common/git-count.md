@@ -3,7 +3,7 @@ layout: page
 title: common/git-count (한국어)
 description: "커밋의 총 개수를 출력합니다."
 content_hash: 3538a5d22850769b24fe1b5512b80d6ec430ad06
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-count.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/git-count.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-count.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git count
+# git count
 
 커밋의 총 개수를 출력합니다.
 `git-extras`의 일부입니다.

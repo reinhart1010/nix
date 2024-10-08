@@ -3,23 +3,14 @@ layout: page
 title: common/git-hash-object (한국어)
 description: "콘텐츠의 고유 해시 키를 계산하고, 선택적으로 지정된 유형의 객체를 생성."
 content_hash: 5855578ef3c65a4c9083e172adb61595c38e1d06
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-hash-object.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-hash-object.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git hash-object
+# git hash-object
 
 콘텐츠의 고유 해시 키를 계산하고, 선택적으로 지정된 유형의 객체를 생성.
 더 많은 정보: <https://git-scm.com/docs/git-hash-object>.

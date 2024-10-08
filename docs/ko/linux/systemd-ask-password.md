@@ -3,23 +3,14 @@ layout: page
 title: linux/systemd-ask-password (한국어)
 description: "시스템 비밀번호를 사용자에게 요청."
 content_hash: 429ad14c1663a9858a336a453fc373377bb53f8e
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/linux/systemd-ask-password.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systemd-ask-password.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systemd-ask-password
+# systemd-ask-password
 
 시스템 비밀번호를 사용자에게 요청.
 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-ask-password.html>.

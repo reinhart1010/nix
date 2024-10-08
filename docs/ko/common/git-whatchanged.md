@@ -3,23 +3,14 @@ layout: page
 title: common/git-whatchanged (한국어)
 description: "최근 커밋 또는 파일의 변경 사항을 보여줍니다."
 content_hash: 78f690c5bfc86ded9b34e05cdc3aae928b581182
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-whatchanged.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-whatchanged.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git whatchanged
+# git whatchanged
 
 최근 커밋 또는 파일의 변경 사항을 보여줍니다.
 같이 보기: `git log`.

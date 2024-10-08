@@ -3,23 +3,14 @@ layout: page
 title: linux/systemd-repart (한국어)
 description: "자동으로 파티션을 확장하고 추가."
 content_hash: 7c136fb8217b6b9bf37c3e8355be427f9cf09409
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/linux/systemd-repart.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systemd-repart.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systemd-repart
+# systemd-repart
 
 자동으로 파티션을 확장하고 추가.
 repart.d에 설명된 구성 파일을 기반으로 파티션을 확장하고 추가합니다.

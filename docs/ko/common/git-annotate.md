@@ -3,7 +3,7 @@ layout: page
 title: common/git-annotate (한국어)
 description: "파일의 각 줄에 커밋 해시와 마지막 작성자를 표시합니다."
 content_hash: 3d29660ede24deb1fbeb7beecce6817539cf7451
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-annotate.html
@@ -14,12 +14,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-annotate.html
     icon: bi bi-globe
-tldri18n_status: 1
+  - title: українська version
+    url: /uk/common/git-annotate.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git annotate
+# git annotate
 
 파일의 각 줄에 커밋 해시와 마지막 작성자를 표시합니다.
 `git blame`을 참조하세요, `git annotate`보다 선호됩니다.

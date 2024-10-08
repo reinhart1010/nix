@@ -3,23 +3,14 @@ layout: page
 title: linux/systemd-delta (한국어)
 description: "재정의된 systemd 관련 설정 파일을 찾습니다."
 content_hash: 13e6b8c9cb45c602251f768c15dc67c886656961
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/linux/systemd-delta.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systemd-delta.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systemd-delta
+# systemd-delta
 
 재정의된 systemd 관련 설정 파일을 찾습니다.
 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-delta.html>.

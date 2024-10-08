@@ -3,23 +3,14 @@ layout: page
 title: linux/systemd-cgtop (한국어)
 description: "로컬 Linux 제어 그룹 계층의 최상위 제어 그룹을 CPU, 메모리, 디스크 I/O 부하에 따라 정렬하여 표시."
 content_hash: c3190a24ec41b2e64b1688b8d2f0195c4b0a0b5d
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/linux/systemd-cgtop.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systemd-cgtop.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systemd-cgtop
+# systemd-cgtop
 
 로컬 Linux 제어 그룹 계층의 최상위 제어 그룹을 CPU, 메모리, 디스크 I/O 부하에 따라 정렬하여 표시.
 같이 보기: `top`.

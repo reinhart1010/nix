@@ -3,7 +3,7 @@ layout: page
 title: common/git-svn (한국어)
 description: "Subversion 저장소와 Git 간의 양방향 작업."
 content_hash: 2240b016396f3bb007b19f7b384dca489784a25d
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-svn.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-svn.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-svn.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git svn
+# git svn
 
 Subversion 저장소와 Git 간의 양방향 작업.
 더 많은 정보: <https://git-scm.com/docs/git-svn>.

@@ -3,7 +3,7 @@ layout: page
 title: common/git-mktree (한국어)
 description: "`ls-tree` 형식의 텍스트를 사용하여 트리 객체를 생성합니다."
 content_hash: 1b08da263334c5787cc71490ae26679b3972ff03
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-mktree.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/git-mktree.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-mktree.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git mktree
+# git mktree
 
 `ls-tree` 형식의 텍스트를 사용하여 트리 객체를 생성합니다.
 더 많은 정보: <https://git-scm.com/docs/git-mktree>.

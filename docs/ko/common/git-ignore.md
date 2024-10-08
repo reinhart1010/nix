@@ -3,7 +3,7 @@ layout: page
 title: common/git-ignore (한국어)
 description: "`.gitignore` 파일을 표시/업데이트."
 content_hash: 2d69871d255b8e2870298249778e9a355d9b998a
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-ignore.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-ignore.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-ignore.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git ignore
+# git ignore
 
 `.gitignore` 파일을 표시/업데이트.
 `git-extras`의 일부. 같이 보기: `git ignore-io`.

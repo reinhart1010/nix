@@ -3,7 +3,7 @@ layout: page
 title: common/git-rev-parse (한국어)
 description: "리비전에 관련된 메타데이터를 표시."
 content_hash: a3bc09586d69033e18f475d6957645f0205fd927
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-rev-parse.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-rev-parse.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-rev-parse.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git rev-parse
+# git rev-parse
 
 리비전에 관련된 메타데이터를 표시.
 더 많은 정보: <https://git-scm.com/docs/git-rev-parse>.

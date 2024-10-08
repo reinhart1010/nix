@@ -3,7 +3,7 @@ layout: page
 title: common/git-rev-list (한국어)
 description: "리비전(커밋)을 역순으로 나열합니다."
 content_hash: 4533e1a1b9f54ad9332a8186ae0732928e2e482b
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-rev-list.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-rev-list.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-rev-list.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git rev-list
+# git rev-list
 
 리비전(커밋)을 역순으로 나열합니다.
 더 많은 정보: <https://git-scm.com/docs/git-rev-list>.

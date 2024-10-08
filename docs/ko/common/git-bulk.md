@@ -3,7 +3,7 @@ layout: page
 title: common/git-bulk (한국어)
 description: "여러 Git 저장소에서 작업을 실행."
 content_hash: db2b71e0543ebf7e1288ebd01bdfee40279d9bc4
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-bulk.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/git-bulk.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-bulk.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git bulk
+# git bulk
 
 여러 Git 저장소에서 작업을 실행.
 `git-extras`의 일부.

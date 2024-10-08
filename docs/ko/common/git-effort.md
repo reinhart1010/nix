@@ -3,23 +3,14 @@ layout: page
 title: common/git-effort (한국어)
 description: "파일의 활동량을 표시하며, 파일별 커밋 수와 \"활성 일수\" 즉, 파일에 기여한 총 일수를 보여줍니다."
 content_hash: 71b51ba96d060e328eda0b4ca76b749cb57f61c1
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-effort.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-effort.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git effort
+# git effort
 
 파일의 활동량을 표시하며, 파일별 커밋 수와 "활성 일수" 즉, 파일에 기여한 총 일수를 보여줍니다.
 `git-extras`의 일부입니다.

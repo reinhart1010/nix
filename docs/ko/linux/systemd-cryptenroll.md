@@ -3,23 +3,14 @@ layout: page
 title: linux/systemd-cryptenroll (한국어)
 description: "LUKS2로 암호화된 장치를 잠금 해제하는 데 사용되는 방법을 대화식으로 등록하거나 제거합니다. 별도로 지정하지 않으면 암호를 사용하여 장치를 잠금 해제합니다."
 content_hash: e6565ff8b0798c485c63345c9b1512fd6ee12c20
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/linux/systemd-cryptenroll.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systemd-cryptenroll.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systemd-cryptenroll
+# systemd-cryptenroll
 
 LUKS2로 암호화된 장치를 잠금 해제하는 데 사용되는 방법을 대화식으로 등록하거나 제거합니다. 별도로 지정하지 않으면 암호를 사용하여 장치를 잠금 해제합니다.
 시스템 부팅 시 파티션을 잠금 해제하려면 `/etc/crypttab` 파일이나 initramfs를 업데이트해야 합니다.

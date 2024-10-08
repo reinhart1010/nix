@@ -3,7 +3,7 @@ layout: page
 title: common/git-mergetool (한국어)
 description: "병합 충돌을 해결하기 위해 병합 충돌 해결 도구를 실행."
 content_hash: 002de74cc765e6837d7ad5569b3c8cc5685314d9
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-mergetool.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-mergetool.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-mergetool.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git mergetool
+# git mergetool
 
 병합 충돌을 해결하기 위해 병합 충돌 해결 도구를 실행.
 더 많은 정보: <https://git-scm.com/docs/git-mergetool>.

@@ -3,7 +3,7 @@ layout: page
 title: common/git-checkout-index (한국어)
 description: "색인에서 작업 트리로 파일 복사."
 content_hash: f400718e3b5a3c2bb82afcd378c55938bc2c5bea
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-checkout-index.html
@@ -17,18 +17,9 @@ related_topics:
   - title: українська version
     url: /uk/common/git-checkout-index.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-checkout-index.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git checkout-index
+# git checkout-index
 
 색인에서 작업 트리로 파일 복사.
 더 많은 정보: <https://git-scm.com/docs/git-checkout-index>.

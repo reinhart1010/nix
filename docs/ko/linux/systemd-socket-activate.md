@@ -3,23 +3,14 @@ layout: page
 title: linux/systemd-socket-activate (한국어)
 description: "systemd 서비스의 소켓 활성화."
 content_hash: 8310c6a4e15b2800716b6270c07ecd0245b7ec7a
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/linux/systemd-socket-activate.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systemd-socket-activate.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systemd-socket-activate
+# systemd-socket-activate
 
 systemd 서비스의 소켓 활성화.
 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-socket-activate.html>.

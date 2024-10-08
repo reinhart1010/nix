@@ -3,23 +3,14 @@ layout: page
 title: common/git-for-each-repo (한국어)
 description: "여러 저장소에서 Git 명령을 실행."
 content_hash: b6bb29822a8e8837087f74889458be4101993f22
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-for-each-repo.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-for-each-repo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git for-each-repo
+# git for-each-repo
 
 여러 저장소에서 Git 명령을 실행.
 참고: 이 명령은 실험적이며 변경될 수 있습니다.

@@ -3,7 +3,7 @@ layout: page
 title: common/cut (español)
 description: "Corta campos de `stdin` o archivos."
 content_hash: 76af7b7c4cb3ece7a51503d741852e8d54d4bbc7
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -26,12 +26,9 @@ related_topics:
   - title: русский version
     url: /ru/common/cut.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cut
+# cut
 
 Corta campos de `stdin` o archivos.
 Más información: <https://www.gnu.org/software/coreutils/cut>.

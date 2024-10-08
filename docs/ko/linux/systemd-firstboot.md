@@ -3,23 +3,14 @@ layout: page
 title: linux/systemd-firstboot (한국어)
 description: "시스템의 첫 부팅 시 또는 부팅 전에 기본 시스템 설정 초기화."
 content_hash: 00f596844f5fa37492f596adbeac6c17eed30f6c
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/linux/systemd-firstboot.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systemd-firstboot.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systemd-firstboot
+# systemd-firstboot
 
 시스템의 첫 부팅 시 또는 부팅 전에 기본 시스템 설정 초기화.
 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-firstboot.html>.

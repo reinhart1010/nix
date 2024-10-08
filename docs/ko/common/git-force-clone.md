@@ -3,23 +3,14 @@ layout: page
 title: common/git-force-clone (한국어)
 description: "`git clone`의 기본 기능을 제공하지만, 대상 Git 저장소가 이미 존재하는 경우 원격의 클론으로 강제 리셋합니다."
 content_hash: 0f5b127e4c5cfd385f8c661f7bf34e454b53b234
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-force-clone.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-force-clone.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git force-clone
+# git force-clone
 
 `git clone`의 기본 기능을 제공하지만, 대상 Git 저장소가 이미 존재하는 경우 원격의 클론으로 강제 리셋합니다.
 `git-extras`의 일부입니다.

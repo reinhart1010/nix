@@ -3,7 +3,7 @@ layout: page
 title: common/git-annex (한국어)
 description: "Git을 사용하여 파일을 관리하지만, 파일의 내용을 체크인하지 않습니다."
 content_hash: 16f1bcbaaf909bf65893e917026c552e0d9eb6fe
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-annex.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-annex.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-annex.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git annex
+# git annex
 
 Git을 사용하여 파일을 관리하지만, 파일의 내용을 체크인하지 않습니다.
 파일이 annexed되면, 해당 내용이 키-값 저장소로 이동되고, 내용을 가리키는 심볼릭 링크가 생성됩니다.

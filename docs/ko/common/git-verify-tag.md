@@ -3,23 +3,14 @@ layout: page
 title: common/git-verify-tag (한국어)
 description: "태그의 GPG 서명을 검증."
 content_hash: f57a99fee31d770588cbbee3228fcda4d9492664
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-verify-tag.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-verify-tag.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git verify-tag
+# git verify-tag
 
 태그의 GPG 서명을 검증.
 태그가 서명되지 않은 경우 오류가 발생합니다.

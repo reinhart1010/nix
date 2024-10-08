@@ -3,19 +3,10 @@ layout: page
 title: common/wget2 (English)
 description: "An improved version of `wget` for downloading files from the web."
 content_hash: 0d0a5e27ed65e09565af0e39f92c72486dc6e48c
-last_modified_at: 2024-10-07
-tldri18n_status: 0
+last_modified_at: 2024-10-08
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/wget2.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wget2
+# wget2
 
 An improved version of `wget` for downloading files from the web.
 Supports HTTP, HTTPS, and HTTP/2 protocols with enhanced performance.

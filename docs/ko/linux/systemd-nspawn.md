@@ -3,23 +3,14 @@ layout: page
 title: linux/systemd-nspawn (한국어)
 description: "경량 컨테이너에서 명령이나 운영 체제를 실행."
 content_hash: a3a0a1cd7a58a14ab4ef6ce1c4efa998f7fc7877
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/linux/systemd-nspawn.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systemd-nspawn.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systemd-nspawn
+# systemd-nspawn
 
 경량 컨테이너에서 명령이나 운영 체제를 실행.
 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-nspawn.html>.

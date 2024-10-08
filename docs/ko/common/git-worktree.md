@@ -3,7 +3,7 @@ layout: page
 title: common/git-worktree (한국어)
 description: "동일한 저장소에 연결된 여러 작업 트리를 관리."
 content_hash: 6056a6a9a68332bd2a9e3e9d9ff8f99648103626
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-worktree.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-worktree.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-worktree.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git worktree
+# git worktree
 
 동일한 저장소에 연결된 여러 작업 트리를 관리.
 더 많은 정보: <https://git-scm.com/docs/git-worktree>.

@@ -3,7 +3,7 @@ layout: page
 title: common/git-imerge (한국어)
 description: "두 Git 브랜치 간의 병합 또는 리베이스를 점진적으로 수행."
 content_hash: 684d7b00d25b717a20cd300ef551806df3f28345
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-imerge.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-imerge.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-imerge.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git-imerge
+# git-imerge
 
 두 Git 브랜치 간의 병합 또는 리베이스를 점진적으로 수행.
 브랜치 간의 충돌은 개별 커밋 쌍으로 추적되어 충돌 해결을 단순화.

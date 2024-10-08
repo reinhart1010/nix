@@ -3,23 +3,14 @@ layout: page
 title: common/git-magic (한국어)
 description: "추가, 커밋 및 푸시 루틴 자동화."
 content_hash: 96f0ca6eb289f9e85281238b5245417f6c90eef9
-last_modified_at: 2024-10-07
+last_modified_at: 2024-10-08
 related_topics:
   - title: English version
     url: /en/common/git-magic.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-magic.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git magic
+# git magic
 
 추가, 커밋 및 푸시 루틴 자동화.
 `git-extras`의 일부.
