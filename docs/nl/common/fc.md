@@ -3,7 +3,7 @@ layout: page
 title: common/fc (Nederlands)
 description: "Open het meest recente commando voor bewerking en voer het uit."
 content_hash: 2797568703df369ca75a9ca06fb6f0be5b628a06
-last_modified_at: 2024-10-08
+last_modified_at: 2024-10-09
 related_topics:
   - title: English version
     url: /en/common/fc.html
@@ -14,12 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/fc.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fc
+# fc
 
 Open het meest recente commando voor bewerking en voer het uit.
 Meer informatie: <https://manned.org/fc>.

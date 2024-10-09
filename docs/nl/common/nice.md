@@ -3,14 +3,17 @@ layout: page
 title: common/nice (Nederlands)
 description: "Voer een programma uit met een aangepaste planningsprioriteit (niceness)."
 content_hash: 057b3e9b57ed49d8f1a7b91e9ce4d91734598924
-last_modified_at: 2024-06-27
+last_modified_at: 2024-10-09
 related_topics:
   - title: English version
     url: /en/common/nice.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# nice
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># nice
 
 Voer een programma uit met een aangepaste planningsprioriteit (niceness).
 Niceness-waarden variëren van -20 (de hoogste prioriteit) tot 19 (de laagste).

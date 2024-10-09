@@ -3,7 +3,7 @@ layout: page
 title: common/aria2c (한국어)
 description: "빠른 다운로드 유틸리티."
 content_hash: db27832114b3ada992a5a482b4dd418b20c2ee71
-last_modified_at: 2024-10-08
+last_modified_at: 2024-10-09
 related_topics:
   - title: English version
     url: /en/common/aria2c.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aria2c.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aria2c
+# aria2c
 
 빠른 다운로드 유틸리티.
 HTTP(S), FTP, SFTP, BitTorrent 및 Metalink를 지원합니다.

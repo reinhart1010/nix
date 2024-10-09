@@ -3,7 +3,7 @@ layout: page
 title: common/colima (한국어)
 description: "최소한의 설정으로 macOS 및 Linux용 컨테이너 런타임을 제공."
 content_hash: a08f95ae1da3ab3bc4156d17ce7c4d20370ca895
-last_modified_at: 2024-10-08
+last_modified_at: 2024-10-09
 related_topics:
   - title: English version
     url: /en/common/colima.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/colima.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/colima.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># colima
+# colima
 
 최소한의 설정으로 macOS 및 Linux용 컨테이너 런타임을 제공.
 더 많은 정보: <https://github.com/abiosoft/colima>.

@@ -3,7 +3,7 @@ layout: page
 title: common/mkfifo (español)
 description: "Crea FIFOs (llamadas pipes)."
 content_hash: b7f8a00e00004ad939317459c5988d60d972abc8
-last_modified_at: 2024-09-02
+last_modified_at: 2024-10-09
 related_topics:
   - title: bosanski version
     url: /bs/common/mkfifo.html
@@ -14,9 +14,12 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/mkfifo.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# mkfifo
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># mkfifo
 
 Crea FIFOs (llamadas pipes).
 Más información: <https://www.gnu.org/software/coreutils/mkfifo>.

@@ -2,8 +2,8 @@
 layout: page
 title: linux/duc (Nederlands)
 description: "Een verzameling tools voor het indexeren, inspecteren en visualiseren van schijfgebruik."
-content_hash: ae5c71ed7368650260f9233f9cd1e3a98f33c74c
-last_modified_at: 2024-08-14
+content_hash: 3c20c23cfa8c3f4d9e262c2ca6d788548b046bb4
+last_modified_at: 2024-10-09
 related_topics:
   - title: English version
     url: /en/linux/duc.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Een verzameling tools voor het indexeren, inspecteren en visualiseren van schijfgebruik.
 Duc onderhoudt een database van geaccumuleerde groottes van directories in het bestandssysteem, waardoor je deze database kunt raadplegen of mooie grafieken kunt maken om te laten zien waar de data zich bevindt.
-Meer informatie: <https://duc.zevv.nl/>.
+Meer informatie: <http://duc.zevv.nl>.
 
 - Indexeer de `/usr` directory en schrijf naar de standaard database locatie `~/.duc.db`:
 
