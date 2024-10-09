@@ -2,8 +2,8 @@
 layout: page
 title: common/banner (português (Brasil))
 description: "Exibe o argumento inserido como um grande banner em arte ASCII."
-content_hash: e9d93e6edf0d8f7e43083e477066b9da88892168
-last_modified_at: 2023-11-12
+content_hash: e82358b78d6647192597109f324260e787e4bffd
+last_modified_at: 2024-10-09
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -27,14 +27,14 @@ tldri18n_status: 2
 Exibe o argumento inserido como um grande banner em arte ASCII.
 Mais informações: <https://manned.org/banner>.
 
-- Exibe uma mensagem como banner (aspas opcionais):
+- Exibe uma mensagem em texto como banner (aspas são opcionais):
 
-`banner "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Ola Mundo</span>`"`
+`banner "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Olá Mundo</span>`"`
 
 - Exibe um banner com a largura de 50 caracteres:
 
-`banner -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Ola Mundo</span>`"`
+`banner -w 50 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Olá Mundo</span>`"`
 
-- Exibe um banner com o texto inserido na entrada padrão:
+- Lê texto da `stdin`, isto é, da entrada padrão:
 
 `banner`

@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (português (Brasil))
 description: "Um compactador de arquivos com alta taxa de compressão."
-content_hash: be9185b7d62c41a048d6dc2dff3d406ac17c1365
-last_modified_at: 2024-04-19
+content_hash: 3cbef0d3d29fa1f5e17339ad34b5b7345b1e7d71
+last_modified_at: 2024-10-09
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # 7zr
 
 Um compactador de arquivos com alta taxa de compressão.
-Versão do `7z` com suporte apenas para o formato 7z.
+Similar ao `7z`, exceto que este suporta apenas arquivos no formato 7z.
 Mais informações: <https://manned.org/7zr>.
 
 - Compacta um arquivo ou diretório:
@@ -64,15 +64,15 @@ Mais informações: <https://manned.org/7zr>.
 
 - Criptografa um arquivo existente (incluindo cabeçalhos):
 
-`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_criptografado.7z</span>` -p`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha</span>` -mhe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_criptografado.7z</span>` -p`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha</span>` -mhe=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>
 
 - Descompacta um arquivo mantendo a estrutura de diretórios original:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_compactado.7z</span>
 
-- Descompacta um arquivo em um diretório específicado pelo usuário:
+- Descompacta um arquivo em um diretório especificado pelo usuário:
 
-`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
+`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio</span>
 
 - Descompacta um arquivo para a saída padrão:
 
@@ -84,4 +84,4 @@ Mais informações: <https://manned.org/7zr>.
 
 - Define o nível de compressão (maior significa mais compressão, porém mais lento):
 
-`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>` -mx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>` -mx=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio</span>

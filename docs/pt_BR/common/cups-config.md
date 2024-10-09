@@ -2,8 +2,8 @@
 layout: page
 title: common/cups-config (português (Brasil))
 description: "Mostra informação técnica sobre a instalação do seu servidor de impressão CUPS."
-content_hash: eeb7818bb9a56947dfd76231190fe7c5886b8629
-last_modified_at: 2024-01-01
+content_hash: 6d014a8393efd987f09c60e075c4e02d1072b137
+last_modified_at: 2024-10-09
 related_topics:
   - title: English version
     url: /en/common/cups-config.html
@@ -14,10 +14,6 @@ tldri18n_status: 2
 
 Mostra informação técnica sobre a instalação do seu servidor de impressão CUPS.
 Mais informações: <https://openprinting.github.io/cups/doc/man-cups-config.html>.
-
-- Mostra a versão do CUPS instalada atualmente:
-
-`cups-config --version`
 
 - Mostra onde o CUPS está instalado atualmente:
 
@@ -31,6 +27,10 @@ Mais informações: <https://openprinting.github.io/cups/doc/man-cups-config.htm
 
 `cups-config --datadir`
 
-- Mostra todos as opções disponíveis:
+- Exibe ajuda:
 
 `cups-config --help`
+
+- Exibe a versão do CUPS:
+
+`cups-config --version`
