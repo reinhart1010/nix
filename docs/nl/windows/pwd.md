@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwd (Nederlands)
 description: "In PowerShell, is dit commando een alias van `Get-Location`."
-content_hash: 26ba2e6123d68f6c2dee0150ec2119484b9835d6
-last_modified_at: 2023-12-05
+content_hash: 9845a17694f064b9260252248be95e403ceb0413
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/windows/pwd.html
@@ -16,10 +16,10 @@ In PowerShell, is dit commando een alias van `Get-Location`.
 Maar dit commando is niet beschikbaar op de Command Prompt (`cmd`). Gebruik `cd` voor soortgelijke functionaliteit.
 Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-location>.
 
-- Bekijk documentatie voor het equivalente Command Prompt commando:
+- Bekijk de documentatie van het equivalente Command Prompt commando:
 
 `tldr cd`
 
-- Bekijk documentatie voor het originele PowerShell commando:
+- Bekijk de documentatie van het originele PowerShell commando:
 
 `tldr get-location`

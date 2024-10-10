@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli-general (English)
 description: "Manage general settings of NetworkManager."
-content_hash: 6d625e7fba90183d17a93ddb72778dd3b13fd8ef
-last_modified_at: 2023-11-12
+content_hash: 8d4b0f342bd18591bb548a08fa373b0ab4cea67e
+last_modified_at: 2024-10-10
 related_topics:
   - title: Nederlands version
     url: /nl/linux/nmcli-general.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Manage general settings of NetworkManager.
 This subcommand can also be called with `nmcli g`.
-More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Show the general status of NetworkManager:
 

@@ -2,11 +2,14 @@
 layout: page
 title: common/lckdo (Nederlands)
 description: "Dit commando is verouderd en vervangen door `flock`."
-content_hash: 9289c210714ed2c54c736f16aafed4070d99ad27
-last_modified_at: 2024-01-26
+content_hash: f7980993c26296c35e4ca804c817d16e35391c9d
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/common/lckdo.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/lckdo.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -15,6 +18,6 @@ tldri18n_status: 2
 Dit commando is verouderd en vervangen door `flock`.
 Meer informatie: <https://joeyh.name/code/moreutils/>.
 
-- Bekijk documentatie voor de aanbevolen vervanging:
+- Bekijk de documentatie van de aanbevolen vervanging:
 
 `tldr flock`

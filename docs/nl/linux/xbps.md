@@ -2,8 +2,8 @@
 layout: page
 title: linux/xbps (Nederlands)
 description: "Het X Binary Package System is de pakketbeheerder die wordt gebruikt door Void Linux."
-content_hash: 08937aae6b784240d38117f13f30a1e001690787
-last_modified_at: 2023-11-12
+content_hash: 2d978ce00694539058a33ffa077a76e04ed3d5b2
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/linux/xbps.html
@@ -24,6 +24,6 @@ Meer informatie: <https://docs.voidlinux.org/xbps/index.html>.
 
 `tldr xbps-remove`
 
-- Bekijk documentatie om op zoek te gaan naar pakket- en repository-informatie:
+- Bekijk de documentatie om op zoek te gaan naar pakket- en repository-informatie:
 
 `tldr xbps-query`

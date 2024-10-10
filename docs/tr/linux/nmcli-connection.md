@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli-connection (Türkçe)
 description: "NetworkManager ile bağlantı yönetimi."
-content_hash: 379ea76aef45079954d8faa02aa081c1f803d334
-last_modified_at: 2023-11-12
+content_hash: 43689f1cc849661dd6b37dd60c3ff9bfbd156c14
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/linux/nmcli-connection.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # nmcli connection
 
 NetworkManager ile bağlantı yönetimi.
-Daha fazla bilgi için: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+Daha fazla bilgi için: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Tüm NetworkManager bağlantılarını listele (ad, UUID, tür ve aygıtı gösterir):
 

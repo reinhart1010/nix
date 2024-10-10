@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli-device (English)
 description: "Manage network interfaces and establish new Wi-Fi connections using NetworkManager."
-content_hash: 1cbdac62e952af639b52cb23cf5bfba8af594342
-last_modified_at: 2023-11-12
+content_hash: c0608e33d5cb0aa1ba5d324b3ae7ad48e5f6b94b
+last_modified_at: 2024-10-10
 related_topics:
   - title: Nederlands version
     url: /nl/linux/nmcli-device.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Manage network interfaces and establish new Wi-Fi connections using NetworkManager.
 This subcommand can also be called with `nmcli d`.
-More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Print the statuses of all network interfaces:
 

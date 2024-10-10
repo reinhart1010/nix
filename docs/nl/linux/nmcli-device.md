@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli-device (Nederlands)
 description: "Beheer netwerkinterfaces en zetten nieuwe Wi-Fi-verbindingen op via NetworkManager."
-content_hash: 4397d57d08ebda15283b7b093ea53ddb80307952
-last_modified_at: 2023-11-12
+content_hash: 7d0651a1cfed55d5e91f8420f1bff9910b6c57be
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/linux/nmcli-device.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Beheer netwerkinterfaces en zetten nieuwe Wi-Fi-verbindingen op via NetworkManager.
 Dit subcommando kan ook aangeroepen worden met `nmcli d`.
-Meer informatie: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Toon de statussen van alle netwerkinterfaces:
 

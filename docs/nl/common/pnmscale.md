@@ -2,8 +2,8 @@
 layout: page
 title: common/pnmscale (Nederlands)
 description: "Dit commando is vervangen door `pamscale`."
-content_hash: 24e8947f744e9c578a3330a271538ddac4f99c9d
-last_modified_at: 2023-12-22
+content_hash: 654ab3534a44dd592861298324f60375c58f8221
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/common/pnmscale.html
@@ -15,6 +15,6 @@ tldri18n_status: 2
 Dit commando is vervangen door `pamscale`.
 Meer informatie: <https://netpbm.sourceforge.net/doc/pnmscale.html>.
 
-- Bekijk documentatie voor `pamscale`:
+- Bekijk de documentatie voor `pamscale`:
 
 `tldr pamscale`

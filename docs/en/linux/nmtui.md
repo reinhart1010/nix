@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmtui (English)
 description: "Text user interface for controlling NetworkManager."
-content_hash: 8101dcbbda905f18d618bf0e7175aa35c810994a
-last_modified_at: 2024-01-31
+content_hash: 2d4f821e62643e58ddad8c74b5e79aa392d17eef
+last_modified_at: 2024-10-10
 related_topics:
   - title: italiano version
     url: /it/linux/nmtui.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Text user interface for controlling NetworkManager.
 Use arrow keys to navigate, enter to select an option.
-More information: <https://networkmanager.dev/docs/api/latest/nmtui.html>.
+More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmtui.html>.
 
 - Open the user interface:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli-networking (Nederlands)
 description: "Beheer de netwerk status of NetworkManager."
-content_hash: aa0cf11848d3a19bb628007e044ba3dcb40cc829
-last_modified_at: 2023-11-12
+content_hash: 9c9117dde999c9c812821b6a230b49c675629419
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/linux/nmcli-networking.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Beheer de netwerk status of NetworkManager.
 Dit subcommando kan ook aangeroepen worden met `nmcli n`.
-Meer informatie: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Toon de netwerk status of NetworkManager:
 

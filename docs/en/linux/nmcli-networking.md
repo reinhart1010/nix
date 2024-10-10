@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli-networking (English)
 description: "Manage the networking status of NetworkManager."
-content_hash: 4383e21006d502006615cd54254445b1b2c69650
-last_modified_at: 2023-11-12
+content_hash: af2dda54ee553d94909438a94d01496ae481feee
+last_modified_at: 2024-10-10
 related_topics:
   - title: Nederlands version
     url: /nl/linux/nmcli-networking.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Manage the networking status of NetworkManager.
 This subcommand can also be called with `nmcli n`.
-More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Show the networking status of NetworkManager:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli-connection (English)
 description: "Manage connections with NetworkManager."
-content_hash: 8c13f81a894074d681e08a73ea0b3f857bd454e9
-last_modified_at: 2023-11-12
+content_hash: 251a8a4a9a45b6f40440b44e013801c49c03a36f
+last_modified_at: 2024-10-10
 related_topics:
   - title: Nederlands version
     url: /nl/linux/nmcli-connection.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Manage connections with NetworkManager.
 This subcommand can also be called with `nmcli c`.
-More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - List all NetworkManager connections (shows name, UUID, type and device):
 

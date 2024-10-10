@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli-connection (Nederlands)
 description: "Beheer verbindingen met NetworkManager."
-content_hash: 1211e3136f1d6fecb92f617acb7dbcafb7954548
-last_modified_at: 2023-11-12
+content_hash: 3776aa0898c3719994199001926da2dacf351050
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/linux/nmcli-connection.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Beheer verbindingen met NetworkManager.
 Dit subcommando kan ook aangeroepen worden met `nmcli c`.
-Meer informatie: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Toon alle NetworkManager connecties (toont naam, UUID, type en apparaat):
 

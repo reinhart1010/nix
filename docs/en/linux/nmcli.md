@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli (English)
 description: "Manage the network configuration using NetworkManager."
-content_hash: 0679b81467ce5283305144c594c90fa6f38071d6
-last_modified_at: 2023-11-12
+content_hash: 48438f7ec55dd22be4afe71d194de8de0bd8d11e
+last_modified_at: 2024-10-10
 related_topics:
   - title: മലയാളം version
     url: /ml/linux/nmcli.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # nmcli
 
 Manage the network configuration using NetworkManager.
-More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - View documentation for running `nmcli` as a NetworkManager secret/polkit agent:
 

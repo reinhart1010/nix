@@ -2,8 +2,8 @@
 layout: page
 title: windows/rmdir (Nederlands)
 description: "Verwijdert een map en zijn inhoud."
-content_hash: 643dbc4a202f23a9d16307e9ea3cef7eec9361f4
-last_modified_at: 2023-11-12
+content_hash: 8ab66bd3f15c307ff774343be53e6e0d0c612197
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -25,7 +25,7 @@ Verwijdert een map en zijn inhoud.
 In PowerShell is deze opdracht een alias van `Remove-Item`. Deze documentatie is gebaseerd op de Command Prompt (`cmd`) versie van `rmdir`.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
-- Bekijk documentatie van het equivalente PowerShell-commando:
+- Bekijk de documentatie van het equivalente PowerShell-commando:
 
 `tldr remove-item`
 

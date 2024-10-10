@@ -2,20 +2,11 @@
 layout: page
 title: common/vi (Nederlands)
 description: "Dit commando is een alias van `vim`."
-content_hash: 0ab2c9a9efd54d2efc986b12953ed31506350992
-last_modified_at: 2023-11-12
+content_hash: b8995783828221ddd025bb20be7616d966033908
+last_modified_at: 2024-10-10
 related_topics:
-  - title: العربية version
-    url: /ar/common/vi.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/vi.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/vi.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/vi.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/vi.html
@@ -49,9 +40,6 @@ related_topics:
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/vi.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/common/vi.html
     icon: bi bi-globe
   - title: norsk version
     url: /no/common/vi.html
@@ -95,6 +83,6 @@ tldri18n_status: 2
 
 Dit commando is een alias van `vim`.
 
-- Bekijk de documentatie voor het originele commando:
+- Bekijk de documentatie van het originele commando:
 
 `tldr vim`

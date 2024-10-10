@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli-agent (English)
 description: "Run `nmcli` as a NetworkManager secret agent or polkit agent."
-content_hash: cda84b1b0af171c616ce7fab0ebb092988150c7a
-last_modified_at: 2023-11-12
+content_hash: 6941ac766cc5f17b58f53a4d1f8a901686b860f2
+last_modified_at: 2024-10-10
 related_topics:
   - title: Nederlands version
     url: /nl/linux/nmcli-agent.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Run `nmcli` as a NetworkManager secret agent or polkit agent.
 This subcommand can also be called with `nmcli a`.
-More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Register `nmcli` as a secret agent and listen for secret requests:
 

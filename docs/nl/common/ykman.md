@@ -2,8 +2,8 @@
 layout: page
 title: common/ykman (Nederlands)
 description: "YubiKey Manager - configureer YubiKeys."
-content_hash: 829262d5312007ef225c54c880ddb197fd1e502f
-last_modified_at: 2023-12-11
+content_hash: 721a6663d053ad0210a015af514302ed91d5ef47
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/common/ykman.html
@@ -16,7 +16,7 @@ YubiKey Manager - configureer YubiKeys.
 Als er meerdere YubiKeys zijn verbonden, dien je `--device serial_number` toe te voegen voor een subcommando.
 Meer informatie: <https://docs.yubico.com/software/yubikey/tools/ykman/index.html>.
 
-- Toon algemene informatie over een  YubiKey (serienummer, firmware versie, mogelijkheden etc.):
+- Toon algemene informatie over een YubiKey (serienummer, firmware versie, mogelijkheden etc.):
 
 `ykman info`
 

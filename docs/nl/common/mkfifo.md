@@ -2,8 +2,8 @@
 layout: page
 title: common/mkfifo (Nederlands)
 description: "Maak FIFOs (benoemde pipes)."
-content_hash: 9e29c0e9c2cd6fc56d2c898acac03f74585f2b56
-last_modified_at: 2024-10-09
+content_hash: 14acf6d3951c7e1dbce403b0a500439a78185387
+last_modified_at: 2024-10-10
 related_topics:
   - title: bosanski version
     url: /bs/common/mkfifo.html
@@ -35,3 +35,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/mkfifo>.
 - Ontvang data van benoemde pipe:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span>
+
+- Deel je terminal sessie in real-time:
+
+`mkfifo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span>`; script -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span>

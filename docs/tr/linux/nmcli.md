@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli (Türkçe)
 description: "NetworkManager'ı denetlemek için bir komut satırı aracı."
-content_hash: eab75b2480fa8813527e22960c50f5c022d229fb
-last_modified_at: 2024-10-05
+content_hash: c0d6ffc2afc745cdf0ccbdb595da099c70a32676
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/linux/nmcli.html
@@ -23,7 +23,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 NetworkManager'ı denetlemek için bir komut satırı aracı.
 `monitor` gibi bazı alt komutların kendi kullanım belgeleri vardır.
-Daha fazla bilgi için: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+Daha fazla bilgi için: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Bir `nmcli` alt komutunu çalıştır:
 

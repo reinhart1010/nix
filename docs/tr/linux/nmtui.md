@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmtui (Türkçe)
 description: "NetworkManager'ı denetlemek için metin tabanlı kullanıcı arayüzü."
-content_hash: aa68813f93326c5dfe17c80577c2d518fde0e385
-last_modified_at: 2023-11-12
+content_hash: 9c7e64d406104c84225543932255deb5fec2d174
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/linux/nmtui.html
@@ -11,13 +11,16 @@ related_topics:
   - title: italiano version
     url: /it/linux/nmtui.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/nmtui.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # nmtui
 
 NetworkManager'ı denetlemek için metin tabanlı kullanıcı arayüzü.
 Gezinmek için ok tuşlarını, seçmek için Enter tuşunu kullanın.
-Daha fazla bilgi için: <https://networkmanager.dev/docs/api/latest/nmtui.html>.
+Daha fazla bilgi için: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmtui.html>.
 
 - Kullanıcı arayüzünü aç:
 

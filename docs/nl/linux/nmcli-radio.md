@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli-radio (Nederlands)
 description: "Toon de status van radioschakelaars of schakel ze in/uit via NetworkManager."
-content_hash: 386cfff0f2a442a492caaf996fe08f7a0d60b0f7
-last_modified_at: 2023-11-12
+content_hash: 4baf8d96b439387cabc59a4436e823cfd120e554
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/linux/nmcli-radio.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Toon de status van radioschakelaars of schakel ze in/uit via NetworkManager.
 Dit subcommando kan ook aangeroepen worden met `nmcli r`.
-Meer informatie: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Toon de status van Wi-Fi:
 

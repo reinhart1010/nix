@@ -2,8 +2,8 @@
 layout: page
 title: linux/tailf (Nederlands)
 description: "Dit commando is vervangen door `tail -f`."
-content_hash: 688de13e13709d25852a71e25e57b300d21c0960
-last_modified_at: 2024-01-26
+content_hash: 63015b0b08453bdb2ae7084190885d73b420eb31
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/linux/tailf.html
@@ -15,6 +15,6 @@ tldri18n_status: 2
 Dit commando is vervangen door `tail -f`.
 Meer informatie: <https://manned.org/tailf.1>.
 
-- Bekijk documentatie voor de aanbevolen vervanging:
+- Bekijk de documentatie voor de aanbevolen vervanging:
 
 `tldr tail`

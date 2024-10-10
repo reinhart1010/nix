@@ -2,8 +2,8 @@
 layout: page
 title: windows/cd (Nederlands)
 description: "Geef de naam van de huidige werkmap weer of wijzig deze."
-content_hash: e1c3bc9d8709c562c37bc2e8d1d1fe1966479355
-last_modified_at: 2023-11-12
+content_hash: 2ace6a42ca02e31560472333be2c0406c7ddded4
+last_modified_at: 2024-10-10
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -52,7 +52,7 @@ Geef de naam van de huidige werkmap weer of wijzig deze.
 In PowerShell is deze opdracht een alias van `Set-Location`. Deze documentatie is gebaseerd op de Command Prompt (`cmd`) versie van `cd`.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Bekijk documentatie van het equivalente PowerShell-commando:
+- Bekijk de documentatie van het equivalente PowerShell-commando:
 
 `tldr set-location`
 

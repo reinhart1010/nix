@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli (Nederlands)
 description: "Beheer de netwerk configuratie via NetworkManager."
-content_hash: 4c45301838c4b960dce682f62f346fcbbba7d2be
-last_modified_at: 2023-11-12
+content_hash: 29e259a9fc74ed09314c89666d14c919813efe9b
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/linux/nmcli.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # nmcli
 
 Beheer de netwerk configuratie via NetworkManager.
-Meer informatie: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Bekijk de documentatie voor het draaien van `nmcli` als een NetworkManager secret/polkit agent:
 
