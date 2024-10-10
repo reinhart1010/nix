@@ -2,18 +2,21 @@
 layout: page
 title: common/npm-fund (한국어)
 description: "패키지에서 자금 정보를 검색합니다."
-content_hash: f1c8947ee2edd87f240fe52a483cf9702d2dc874
-last_modified_at: 2023-11-12
+content_hash: f54eb86155e62b98fdfed83170094a79b500e22e
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/common/npm-fund.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/npm-fund.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # npm fund
 
 패키지에서 자금 정보를 검색합니다.
-더 많은 정보: <https://docs.npmjs.com/cli/v8/commands/npm-fund>.
+더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-fund>.
 
 - 현재 폴더에 있는 프로젝트에 대한 자금 조달 URL로 의존성을 나열:
 
