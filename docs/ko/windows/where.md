@@ -3,7 +3,7 @@ layout: page
 title: windows/where (한국어)
 description: "검색 패턴과 일치하는 파일의 위치를 표시합니다."
 content_hash: d93316ca7743f61f89f2acdc2915cee3bbc541ae
-last_modified_at: 2024-10-09
+last_modified_at: 2024-10-10
 related_topics:
   - title: বাংলা version
     url: /bn/windows/where.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/where.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/where.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># where
+# where
 
 검색 패턴과 일치하는 파일의 위치를 표시합니다.
 기본적으로 현재 작업 디렉토리와 PATH 환경 변수의 경로를 폴더로 설정합니다.

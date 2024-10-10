@@ -3,23 +3,14 @@ layout: page
 title: windows/wmic (한국어)
 description: "실행 중인 프로세스에 대한 세부 정보를 보는 데 사용되는 대화형 쉘입니다."
 content_hash: 3df9a440078242392793325ee24d578ea7b5620d
-last_modified_at: 2024-10-09
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/windows/wmic.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/wmic.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wmic
+# wmic
 
 실행 중인 프로세스에 대한 세부 정보를 보는 데 사용되는 대화형 쉘입니다.
 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/wmic>.

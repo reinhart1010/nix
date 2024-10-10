@@ -3,7 +3,7 @@ layout: page
 title: windows/where-object (한국어)
 description: "속성 값에 따라 컬렉션에서 개체를 선택합니다."
 content_hash: 8bac48cd2b1150775f5ce9e5b7a6af258b3e5af0
-last_modified_at: 2024-10-09
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/windows/where-object.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/windows/where-object.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/where-object.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Where-Object
+# Where-Object
 
 속성 값에 따라 컬렉션에서 개체를 선택합니다.
 참고: 이 명령은 PowerShell을 통해서만 사용할 수 있습니다.

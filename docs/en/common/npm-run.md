@@ -2,14 +2,18 @@
 layout: page
 title: common/npm-run (English)
 description: "Run a script."
-content_hash: 84c970bf97021410412eb9c674ca7c56adb4d186
-last_modified_at: 2024-10-08
+content_hash: cfbf3ad8865b0059c6fec0b107952ff4c505536f
+last_modified_at: 2024-10-10
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/npm-run.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # npm run
 
 Run a script.
-More information: <https://www.npmjs.com>.
+More information: <https://docs.npmjs.com/cli/commands/npm-run-script>.
 
 - Run a script:
 

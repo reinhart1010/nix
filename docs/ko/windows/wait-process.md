@@ -3,23 +3,14 @@ layout: page
 title: windows/wait-process (한국어)
 description: "더 많은 입력을 수락하기 전에 프로세스가 중지될 때까지 기다립니다."
 content_hash: ea56fcc35ce189b1cd5e102c3cf93fd3098beebb
-last_modified_at: 2024-10-09
+last_modified_at: 2024-10-10
 related_topics:
   - title: English version
     url: /en/windows/wait-process.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/wait-process.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Wait-Process
+# Wait-Process
 
 더 많은 입력을 수락하기 전에 프로세스가 중지될 때까지 기다립니다.
 참고: 이 명령은 PowerShell을 통해서만 사용할 수 있습니다.
