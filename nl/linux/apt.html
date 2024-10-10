@@ -1,0 +1,54 @@
+<h1 id="apt">apt</h1>
+
+<p>Hulpprogramma voor pakketbeheer voor op Debian gebaseerde distributies.
+Aanbevolen vervanging voor <code class="language-plaintext highlighter-rouge">apt-get</code> bij interactief gebruik in Ubuntu versie 16.04 en later.
+Voor gelijkwaardige commando's in andere pakket managers, zie <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+Meer informatie: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>.</p>
+
+<ul>
+  <li>Werk de lijst van beschikbare pakketten en versies bij (het wordt aanbevolen dit uit te voeren voor elk ander <code class="language-plaintext highlighter-rouge">apt</code> commando):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Zoek naar een specifiek pakket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Toon informatie voor een specifiek pakket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket1 pakket2 …</span></p>
+
+<ul>
+  <li>Installeer specifieke pakketten of werk ze bij naar de nieuwste beschikbare versies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket1 pakket2 …</span></p>
+
+<ul>
+  <li>Verwijder specifieke pakketten (gebruik in plaats daarvan purge om ook hun configuratiebestanden te verwijderen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket1 pakket2 …</span></p>
+
+<ul>
+  <li>Upgrade alle geïnstalleerde pakketten naar hun nieuwste beschikbare versies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>Maak een lijst van alle pakketten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>Maak een lijst van alle geïnstalleerde pakketten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

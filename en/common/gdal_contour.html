@@ -1,0 +1,16 @@
+<h1 id="gdal_contour">gdal_contour</h1>
+
+<p>Create contour lines and polygons from a digital elevation model.
+More information: <a href="https://gdal.org/programs/gdal_contour.html">https://gdal.org/programs/gdal_contour.html</a>.</p>
+
+<ul>
+  <li>Create a vector dataset with contour lines spread over an 100-meter [i]nterval while [a]ttributing the elevation property as "ele":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_contour -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ele</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100.0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gpkg</span></p>
+
+<ul>
+  <li>Create a vector dataset with [p]olygons spread over an 100-meter [i]nterval:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_contour -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100.0</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gpkg</span></p>

@@ -1,0 +1,52 @@
+<h1 id="aws-rds">aws rds</h1>
+
+<p>관계형 데이터베이스를 설정, 운영 및 확장하기 위한 웹 서비스인 AWS Relational Database Service를 사용.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html</a>.</p>
+
+<ul>
+  <li>특정 RDS 하위 명령어에 대한 도움말을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위명령어</span><code class="language-plaintext highlighter-rouge"> help</code></p>
+
+<ul>
+  <li>인스턴스 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds stop-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인스턴스_구분자</span></p>
+
+<ul>
+  <li>인스턴스 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds start-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인스턴스_구분자</span></p>
+
+<ul>
+  <li>RDS 인스턴스 수정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds modify-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인스턴스_구분자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">매개변수</span><code class="language-plaintext highlighter-rouge"> --apply-immediately</code></p>
+
+<ul>
+  <li>RDS 인스턴스에 업데이트 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds apply-pending-maintenance-action --resource-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_arn</span><code class="language-plaintext highlighter-rouge"> --apply-action </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system-update</span><code class="language-plaintext highlighter-rouge"> --opt-in-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">immediate</span></p>
+
+<ul>
+  <li>인스턴스 구분자 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds modify-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오래된_인스턴스_구분자</span><code class="language-plaintext highlighter-rouge"> --new-db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새로운_인스턴스_구분자</span></p>
+
+<ul>
+  <li>인스턴스 재부팅:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds reboot-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인스턴스_구분자</span></p>
+
+<ul>
+  <li>인스턴스 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds delete-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인스턴스_구분자</span><code class="language-plaintext highlighter-rouge"> --final-db-snapshot-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스냅샷_구분자</span><code class="language-plaintext highlighter-rouge"> --delete-automated-backups</code></p>

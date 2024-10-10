@@ -1,0 +1,53 @@
+<h1 id="pacman">pacman</h1>
+
+<p>ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
+இதையும் பார்க்கவும்: <code class="language-plaintext highlighter-rouge">pacman-database</code>, <code class="language-plaintext highlighter-rouge">pacman-deptest</code>, <code class="language-plaintext highlighter-rouge">pacman-files</code>, <code class="language-plaintext highlighter-rouge">pacman-key</code>, <code class="language-plaintext highlighter-rouge">pacman-mirrors</code>, <code class="language-plaintext highlighter-rouge">pacman-query</code>, <code class="language-plaintext highlighter-rouge">pacman-remove</code>, <code class="language-plaintext highlighter-rouge">pacman-sync</code>, <code class="language-plaintext highlighter-rouge">pacman-upgrade</code>.
+மேலும் விவரத்திற்கு: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>அனைத்து தொகுப்புகளையும் ஒத்திசைத்து புதுப்பிக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Syu</code></p>
+
+<ul>
+  <li>ஒரு புதிய தொகுப்பை நிறுவவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>ஒரு தொகுப்பு மற்றும் அதன் சார்புகளை அகற்றவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>ஒரு குறிப்பிட்ட கோப்பைக் கொண்ட தொகுப்புகளுக்கான தரவுத்தளத்தில் தேடவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -F "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_பெயர்</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>நிறுவப்பட்ட தொகுப்புகள் மற்றும் பதிப்புகளை பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Q</code></p>
+
+<ul>
+  <li>வெளிப்படையாக நிறுவப்பட்ட தொகுப்புகள் மற்றும் பதிப்புகளை மட்டும் பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qe</code></p>
+
+<ul>
+  <li>அனாதை தொகுப்புகளை பட்டியலிடு (சார்புகளாக நிறுவப்பட்டது ஆனால் உண்மையில் எந்த தொகுப்பிற்கும் தேவையில்லை):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qtdq</code></p>
+
+<ul>
+  <li>முழு பேக்மேன் தற்காலிக சேமிப்பையும் காலி செய்யவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Scc</code></p>

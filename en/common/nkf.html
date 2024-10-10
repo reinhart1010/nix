@@ -1,0 +1,40 @@
+<h1 id="nkf">nkf</h1>
+
+<p>Network kanji filter: convert kanji code from one encoding to another.
+More information: <a href="https://manned.org/nkf">https://manned.org/nkf</a>.</p>
+
+<ul>
+  <li>Convert to UTF-8 encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nkf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Convert to SHIFT_JIS encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nkf -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Convert to UTF-8 encoding and overwrite the file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nkf -w --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Use LF as the new line code and overwrite (UNIX type):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nkf -d --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Use CRLF as the new line code and overwrite (windows type):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nkf -c --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Decrypt mime file and overwrite:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nkf -m --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>

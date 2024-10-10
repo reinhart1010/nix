@@ -1,0 +1,52 @@
+<h1 id="spatial">spatial</h1>
+
+<p>A set of commands for managing and developing SpatialOS projects.
+More information: <a href="https://ims.improbable.io/products/spatialos">https://ims.improbable.io/products/spatialos</a>.</p>
+
+<ul>
+  <li>Run this when you use a project for the first time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spatial worker build</code></p>
+
+<ul>
+  <li>Build workers for local deployment on Unity on macOS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spatial worker build --target=development --target=Osx</code></p>
+
+<ul>
+  <li>Build workers for local deployment on Unreal on Windows:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spatial worker build --target=local --target=Windows</code></p>
+
+<ul>
+  <li>Deploy locally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spatial local launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">launch_config</span><code class="language-plaintext highlighter-rouge"> --snapshot=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_file</span></p>
+
+<ul>
+  <li>Launch a local worker to connect to your local deployment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spatial local worker launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">worker_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">launch_config</span></p>
+
+<ul>
+  <li>Upload an assembly to use for cloud deployments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spatial cloud upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assembly_name</span></p>
+
+<ul>
+  <li>Launch a cloud deployment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spatial cloud launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assembly_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">launch_config</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment_name</span></p>
+
+<ul>
+  <li>Clean worker directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spatial worker clean</code></p>

@@ -1,0 +1,40 @@
+<h1 id="btrfs-subvolume">btrfs subvolume</h1>
+
+<p>管理 btrfs 子卷和快照。
+更多信息：<a href="https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html">https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html</a>.</p>
+
+<ul>
+  <li>创建一个新的空子卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向新子卷的路径</span></p>
+
+<ul>
+  <li>列出指定文件系统中的所有子卷和快照：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向 btrfs 文件系统的路径</span></p>
+
+<ul>
+  <li>删除一个子卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向子卷的路径</span></p>
+
+<ul>
+  <li>创建现有子卷的只读快照：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume snapshot -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向源子卷的路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向目标的路径</span></p>
+
+<ul>
+  <li>创建现有子卷的读写快照：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume snapshot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向源子卷的路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向目标的路径</span></p>
+
+<ul>
+  <li>显示有关子卷的详细信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向子卷的路径</span></p>

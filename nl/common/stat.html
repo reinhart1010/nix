@@ -1,0 +1,40 @@
+<h1 id="stat">stat</h1>
+
+<p>Toon bestands- en bestandssysteeminformatie.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html</a>.</p>
+
+<ul>
+  <li>Toon eigenschappen van een specifiek bestand zoals grootte, permissies, aanmaak- en toegangsdatums en meer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon eigenschappen van een specifiek bestand zoals grootte, permissies, aanmaak- en toegangsdatums en meer zonder labels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat --terse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon informatie over het bestandssysteem waar een specifiek bestand zich bevindt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat --file-system </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon alleen octale bestandspermissies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat --format="%a %n" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon de eigenaar en groep van een specifiek bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat --format="%U %G" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon de grootte van een specifiek bestand in bytes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat --format="%s %n" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

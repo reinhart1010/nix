@@ -1,0 +1,52 @@
+<h1 id="aptitude">aptitude</h1>
+
+<p>Narzędzie zarządzania pakietami dla Debiana i Ubuntu.
+Więcej informacji: <a href="https://manned.org/aptitude.8">https://manned.org/aptitude.8</a>.</p>
+
+<ul>
+  <li>Zaktualizuj listę dostępnych pakietów oraz wersji. Zalecane jest uruchomienie tego polecenia przed innymi poleceniami <code class="language-plaintext highlighter-rouge">aptitude</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude update</code></p>
+
+<ul>
+  <li>Zainstaluj nowy pakiet i jego zależności:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>
+
+<ul>
+  <li>Wyszukaj pakiet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>
+
+<ul>
+  <li>Wyszukaj zainstalowany pakiet (<code class="language-plaintext highlighter-rouge">?installed</code> jest terminem wyszukiwania w <code class="language-plaintext highlighter-rouge">aptitude</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude search '?installed(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span><code class="language-plaintext highlighter-rouge">)'</code></p>
+
+<ul>
+  <li>Usuń pakiet i wszystkie pakiety zależne od niego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>
+
+<ul>
+  <li>Zaktualizuj zainstalowane pakiety do najnowszej dostępnej wersji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude upgrade</code></p>
+
+<ul>
+  <li>Zaktualizuj zainstalowane pakiety (jak robi <code class="language-plaintext highlighter-rouge">aptitude upgrade</code>) włącznie z usunięciem przestarzałych pakietów i instalacją dodatkowych pakietów w celu spełnienia zależności:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude full-upgrade</code></p>
+
+<ul>
+  <li>Ustaw zainstalowany pakiet jako wstrzymany, aby zapobiec jego automatycznym aktualizacjom:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude hold '?installed(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span><code class="language-plaintext highlighter-rouge">)'</code></p>

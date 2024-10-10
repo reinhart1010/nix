@@ -1,0 +1,46 @@
+<h1 id="todo">todo</h1>
+
+<p>Un semplice gestore per i todo da linea di comando.
+Maggiori informazioni: <a href="https://todoman.readthedocs.io">https://todoman.readthedocs.io</a>.</p>
+
+<ul>
+  <li>Elenco dei task che possono essere inizializzati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo list --startable</code></p>
+
+<ul>
+  <li>Aggiungere un nuovo task alla lista delle cose da fare per lavoro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cose_da_fare</span><code class="language-plaintext highlighter-rouge"> --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lavoro</span></p>
+
+<ul>
+  <li>Aggiungere una località ad un task con un dato ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo edit --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_località</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Mostrare i dettagli di un task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Contrassegnare un task con un ID specifico come completato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo done </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id1 task_id2 …</span></p>
+
+<ul>
+  <li>Eliminare un task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Eliminare un task completato e ripristinare gli ID dei task rimanenti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo flush</code></p>

@@ -1,0 +1,22 @@
+<h1 id="xcodebuild">xcodebuild</h1>
+
+<p>Construye proyectos Xcode.
+Más información: <a href="https://developer.apple.com/library/archive/technotes/tn2339/_index.html">https://developer.apple.com/library/archive/technotes/tn2339/_index.html</a>.</p>
+
+<ul>
+  <li>Construye espacio de trabajo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodebuild -workspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_espacio_de_trabajo.workspace</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_scheme</span><code class="language-plaintext highlighter-rouge"> -configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_configuration</span><code class="language-plaintext highlighter-rouge"> clean build SYMROOT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_SYMROOT</span></p>
+
+<ul>
+  <li>Construye proyecto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodebuild -target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_target</span><code class="language-plaintext highlighter-rouge"> -configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_configuration</span><code class="language-plaintext highlighter-rouge"> clean build SYMROOT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_SYMROOT</span></p>
+
+<ul>
+  <li>Muestra los SDKs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodebuild -showsdks</code></p>

@@ -1,0 +1,34 @@
+<h1 id="dollar-sign">Dollar sign</h1>
+
+<p>Expand a bash variable.
+More information: <a href="https://gnu.org/software/bash/manual/bash.html#Shell-Variables">https://gnu.org/software/bash/manual/bash.html#Shell-Variables</a>.</p>
+
+<ul>
+  <li>Print a variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VARIABLE</span></p>
+
+<ul>
+  <li>Print the exit status of the previous command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $?</code></p>
+
+<ul>
+  <li>Print a random number between 0 and 32767:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $RANDOM</code></p>
+
+<ul>
+  <li>Print one of the prompt strings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PS1|PS2|PS3|PS4</span></p>
+
+<ul>
+  <li>Expand with the output of <code class="language-plaintext highlighter-rouge">command</code> and run it. Same as enclosing <code class="language-plaintext highlighter-rouge">command</code> in backtics:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">$(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">)</code></p>

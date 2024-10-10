@@ -1,0 +1,34 @@
+<h1 id="smartctl">smartctl</h1>
+
+<p>Monitor disk health including SMART data.
+More information: <a href="https://www.smartmontools.org">https://www.smartmontools.org</a>.</p>
+
+<ul>
+  <li>Display SMART health summary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo smartctl --health </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Display device information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo smartctl --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Start a short self-test in the background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo smartctl --test short </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Display current/last self-test status and other SMART capabilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo smartctl --capabilities </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Display exhaustive SMART data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo smartctl --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>

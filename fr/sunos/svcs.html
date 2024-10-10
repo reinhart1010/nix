@@ -1,0 +1,34 @@
+<h1 id="svcs">svcs</h1>
+
+<p>Répertorier les informations sur les services en cours d'exécution.
+Plus d'informations : <a href="https://www.unix.com/man-page/linux/1/svcs">https://www.unix.com/man-page/linux/1/svcs</a>.</p>
+
+<ul>
+  <li>Lister tous les services en cours d'exécution :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs</code></p>
+
+<ul>
+  <li>Lister les services qui ne fonctionnent pas :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -vx</code></p>
+
+<ul>
+  <li>Répertorier les informations sur un service :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs apache</code></p>
+
+<ul>
+  <li>Afficher l'emplacement du fichier journal de service :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -L apache</code></p>
+
+<ul>
+  <li>Afficher la fin d'un fichier journal de service :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail $(svcs -L apache)</code></p>

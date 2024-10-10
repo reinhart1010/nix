@@ -1,0 +1,28 @@
+<h1 id="xwinwrap">xwinwrap</h1>
+
+<p>Run a player or a program as desktop background.
+More information: <a href="https://github.com/ujjwal96/xwinwrap">https://github.com/ujjwal96/xwinwrap</a>.</p>
+
+<ul>
+  <li>Run a video using mpv:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xwinwrap -b -nf -ov -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mpv</span><code class="language-plaintext highlighter-rouge"> -wid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wid</span><code class="language-plaintext highlighter-rouge"> --loop --no-audio --no-resume-playback --panscan=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video.mp4</span></p>
+
+<ul>
+  <li>Run a video in fullscreen using mpv:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xwinwrap -b -nf -fs -ov -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mpv</span><code class="language-plaintext highlighter-rouge"> -wid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wid</span><code class="language-plaintext highlighter-rouge"> --loop --no-audio --no-resume-playback --panscan=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video.mp4</span></p>
+
+<ul>
+  <li>Run a video using mpv with 80% opacity:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xwinwrap -b -nf -ov -o 0.8 --- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mpv</span><code class="language-plaintext highlighter-rouge"> -wid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wid</span><code class="language-plaintext highlighter-rouge"> --loop --no-audio --no-resume-playback --panscan=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video.mp4</span></p>
+
+<ul>
+  <li>Run a video using mpv in a second monitor 1600x900 with 1920 offset on X-axis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xwinwrap -g 1600x900+1920 -b -nf -ov -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mpv</span><code class="language-plaintext highlighter-rouge"> -wid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wid</span><code class="language-plaintext highlighter-rouge"> --loop --no-audio --no-resume-playback --panscan=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video.mkv</span></p>

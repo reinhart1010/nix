@@ -1,0 +1,53 @@
+<h1 id="pacman-sync">pacman –sync</h1>
+
+<p>Arch Linux Paketverwaltungs-Werkzeug.
+Siehe auch: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Weitere Informationen: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Installiere ein neues Paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span></p>
+
+<ul>
+  <li>Synchronisiere und aktualisiere alle Pakete (füge <code class="language-plaintext highlighter-rouge">--downloadonly</code> hinzu um die Pakete nur herunterzuladen und nicht zu aktualisieren):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade</code></p>
+
+<ul>
+  <li>Aktualisiere alle Pakete und installiere ein neues ohne Bestätigungsaufforderung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span></p>
+
+<ul>
+  <li>Suche in der Paketdatenbank mit einem regulären Ausdruck oder Schlüsselwort:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suchmuster</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Zeige Informationen über ein Paket an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span></p>
+
+<ul>
+  <li>Überschreibe widersprüchliche Dateien während einer Paketaktualisierung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Synchronisiere und aktualisiere alle Pakete, ignoriere aber ein bestimmtes Paket (kann mehr als einmal angegeben werden):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span></p>
+
+<ul>
+  <li>Entferne nicht installierte Pakete und ungenutzte Repositorys vom Cache (nutze zwei <code class="language-plaintext highlighter-rouge">--clean</code> Operationen um alle Pakete aufzuräumen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --clean</code></p>

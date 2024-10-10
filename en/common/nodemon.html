@@ -1,0 +1,46 @@
+<h1 id="nodemon">nodemon</h1>
+
+<p>Watch files and automatically restart a node application when changes are detected.
+More information: <a href="https://nodemon.io">https://nodemon.io</a>.</p>
+
+<ul>
+  <li>Execute the specified file and watch a specific file for changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.js</span></p>
+
+<ul>
+  <li>Manually restart nodemon (note nodemon must already be active for this to work):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rs</code></p>
+
+<ul>
+  <li>Ignore specific files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Pass arguments to the node application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.js</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span></p>
+
+<ul>
+  <li>Pass arguments to node itself if they're not nodemon arguments already (e.g. <code class="language-plaintext highlighter-rouge">--inspect</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.js</span></p>
+
+<ul>
+  <li>Run an arbitrary non-node script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon --exec "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_to_run_script</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">options</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script</span></p>
+
+<ul>
+  <li>Run a Python script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon --exec "python </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">options</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span></p>

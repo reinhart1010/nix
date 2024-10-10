@@ -1,0 +1,47 @@
+<h1 id="hping3">hping3</h1>
+
+<p>Advanced ping utility which supports protocols such TCP, UDP, and raw IP.
+Best run with elevated privileges.
+More information: <a href="https://github.com/antirez/hping">https://github.com/antirez/hping</a>.</p>
+
+<ul>
+  <li>Ping a destination with 4 ICMP ping requests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --icmp --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span></p>
+
+<ul>
+  <li>Ping an IP address over UDP on port 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --udp --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span></p>
+
+<ul>
+  <li>Scan TCP port 80, scanning from the specific local source port 5090:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --verbose --syn --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --baseport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5090</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span></p>
+
+<ul>
+  <li>Traceroute using a TCP scan to a specific destination port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --traceroute --verbose --syn --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span></p>
+
+<ul>
+  <li>Scan a set of TCP ports on a specific IP address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,3000,9000</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span></p>
+
+<ul>
+  <li>Perform a TCP ACK scan to check if a given host is alive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --verbose --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --ack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span></p>
+
+<ul>
+  <li>Perform a charge test on port 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --flood --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span></p>

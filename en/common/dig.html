@@ -1,0 +1,52 @@
+<h1 id="dig">dig</h1>
+
+<p>DNS lookup utility.
+More information: <a href="https://manned.org/dig">https://manned.org/dig</a>.</p>
+
+<ul>
+  <li>Lookup the IP(s) associated with a hostname (A records):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +short </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Get a detailed answer for a given domain (A records):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +noall +answer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Query a specific DNS record type associated with a given domain name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +short </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|MX|TXT|CNAME|NS</span></p>
+
+<ul>
+  <li>Specify an alternate DNS server to query and optionally use DNS over TLS (DoT):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+tls</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1|8.8.8.8|9.9.9.9|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Perform a reverse DNS lookup on an IP address (PTR record):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span></p>
+
+<ul>
+  <li>Find authoritative name servers for the zone and display SOA records:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +nssearch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Perform iterative queries and display the entire trace path to resolve a domain name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +trace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Query a DNS server over a non-standard [p]ort using the TCP protocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +tcp -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dns_server_ip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

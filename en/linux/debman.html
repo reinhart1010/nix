@@ -1,0 +1,22 @@
+<h1 id="debman">debman</h1>
+
+<p>Read man pages from uninstalled packages.
+More information: <a href="https://manned.org/debman.1">https://manned.org/debman.1</a>.</p>
+
+<ul>
+  <li>Read a man page for a command that is provided by a specified package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debman -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Specify a package version to download:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debman -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Read a man page in a <code class="language-plaintext highlighter-rouge">.deb</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debman -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.deb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

@@ -1,0 +1,52 @@
+<h1 id="fixfiles">fixfiles</h1>
+
+<p>Fix file SELinux security contexts.
+More information: <a href="https://manned.org/fixfiles">https://manned.org/fixfiles</a>.</p>
+
+<ul>
+  <li>If specified with onboot, this fixfiles will record the current date in the <code class="language-plaintext highlighter-rouge">/.autorelabel</code> file, so that it can be used later to speed up labeling. If used with restore, the restore will only affect files that were modified today:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fixfiles -B</code></p>
+
+<ul>
+  <li>[F]orce reset of context to match <code class="language-plaintext highlighter-rouge">file_context</code> for customizable files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fixfiles -F</code></p>
+
+<ul>
+  <li>Clear <code class="language-plaintext highlighter-rouge">/tmp</code> directory without confirmation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fixfiles -f</code></p>
+
+<ul>
+  <li>Use the [R]pm database to discover all files within specific packages and restore the file contexts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fixfiles -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rpm_package1,rpm_package2 …</span></p>
+
+<ul>
+  <li>Run a diff on the <code class="language-plaintext highlighter-rouge">PREVIOUS_FILECONTEXT</code> file to the [C]urrently installed one, and restore the context of all affected files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fixfiles -C PREVIOUS_FILECONTEXT</code></p>
+
+<ul>
+  <li>Only act on files created after a specific date which will be passed to find <code class="language-plaintext highlighter-rouge">--newermt</code> command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fixfiles -N </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD HH:MM</span></p>
+
+<ul>
+  <li>Bind [M]ount filesystems before relabeling them, this allows fixing the context of files or directories that have been mounted over:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fixfiles -M</code></p>
+
+<ul>
+  <li>Modify [v]erbosity from progress to verbose and run <code class="language-plaintext highlighter-rouge">restorecon</code> with <code class="language-plaintext highlighter-rouge">-v</code> instead of <code class="language-plaintext highlighter-rouge">-p</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fixfiles -v</code></p>

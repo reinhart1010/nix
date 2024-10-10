@@ -1,0 +1,40 @@
+<h1 id="adb-install">adb install</h1>
+
+<p>Push packages to a connected Android device or emulator.
+More information: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Push an Android application to an emulator/device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span></p>
+
+<ul>
+  <li>Push an Android application to a specific emulator/device (overrides <code class="language-plaintext highlighter-rouge">$ANDROID_SERIAL</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">serial_number</span><code class="language-plaintext highlighter-rouge"> install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span></p>
+
+<ul>
+  <li>[r]einstall an existing app, keeping its data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span></p>
+
+<ul>
+  <li>Push an Android application allowing version code [d]owngrade (debuggable packages only):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span></p>
+
+<ul>
+  <li>[g]rant all permissions listed in the app manifest:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span></p>
+
+<ul>
+  <li>Quickly update an installed package by only updating the parts of the APK that changed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install --fastdeploy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span></p>

@@ -1,0 +1,41 @@
+<h1 id="yum">yum</h1>
+
+<p>Package management utility for RHEL, Fedora, and CentOS (for older versions).
+For equivalent commands in other package managers, see <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+More information: <a href="https://manned.org/yum">https://manned.org/yum</a>.</p>
+
+<ul>
+  <li>Install a new package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Install a new package and assume yes to all questions (also works with update, great for automated updates):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum -y install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Find the package that provides a particular command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum provides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Remove a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Display available updates for installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum check-update</code></p>
+
+<ul>
+  <li>Upgrade installed packages to the newest available versions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum upgrade</code></p>

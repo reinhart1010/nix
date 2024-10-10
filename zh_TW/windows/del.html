@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="del">del</h1>
+
+<p>刪除一個或多個檔案。
+更多資訊：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/del">https://learn.microsoft.com/windows-server/administration/windows-commands/del</a>.</p>
+
+<ul>
+  <li>刪除一個或多個以空格分隔的檔案：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案 檔案 ..</span></p>
+
+<ul>
+  <li>在刪除每個檔案之前提示確認：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案</span><code class="language-plaintext highlighter-rouge"> /p</code></p>
+
+<ul>
+  <li>強制刪除唯讀檔案：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案</span><code class="language-plaintext highlighter-rouge"> /f</code></p>
+
+<ul>
+  <li>遞歸刪除所有子目錄中的檔案：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>在使用全域萬用字元刪除檔案時不做提示確認：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案</span><code class="language-plaintext highlighter-rouge"> /q</code></p>
+
+<ul>
+  <li>顯示幫助訊息和列出所有可用屬性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del /?</code></p>
+
+<ul>
+  <li>刪除符合指定屬性的檔案：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案</span><code class="language-plaintext highlighter-rouge"> /a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">属性</span></p>

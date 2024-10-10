@@ -1,0 +1,28 @@
+<h1 id="watch">watch</h1>
+
+<p>Führe einen Befehl wiederholt aus und überwache die Ausgabe im Vollbildmodus.
+Weitere Informationen: <a href="https://manned.org/watch">https://manned.org/watch</a>.</p>
+
+<ul>
+  <li>Überwache die Dateien im aktuellen Verzeichnis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls</span></p>
+
+<ul>
+  <li>Überwache verfügbaren Festplatten-Speicherplatz und hebe die Änderungen hervor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watch -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">df</span></p>
+
+<ul>
+  <li>Überwache "node"-Prozesse und aktualisiere alle 3 Sekunden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watch -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ps aux | grep node</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Überwache, ob sich der Festplatten-Speicherplatz ändert und höre mit der Überwachung auf, sobald eine Änderung auftritt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watch -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">df</span></p>

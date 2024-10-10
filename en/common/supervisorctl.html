@@ -1,0 +1,41 @@
+<h1 id="supervisorctl">supervisorctl</h1>
+
+<p>Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems.
+Supervisorctl is the command-line client piece of the supervisor which provides a shell-like interface.
+More information: <a href="http://supervisord.org">http://supervisord.org</a>.</p>
+
+<ul>
+  <li>Show the status of a process (or all processes if <code class="language-plaintext highlighter-rouge">process_name</code> is not specified):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">supervisorctl status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span></p>
+
+<ul>
+  <li>Start/stop/restart a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">supervisorctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span></p>
+
+<ul>
+  <li>Start/stop/restart all processes in a group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">supervisorctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span><code class="language-plaintext highlighter-rouge">:*</code></p>
+
+<ul>
+  <li>Show last 100 bytes of process <code class="language-plaintext highlighter-rouge">stderr</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">supervisorctl tail -100 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge"> stderr</code></p>
+
+<ul>
+  <li>Keep displaying <code class="language-plaintext highlighter-rouge">stdout</code> of a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">supervisorctl tail -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge"> stdout</code></p>
+
+<ul>
+  <li>Reload process configuration file to add/remove processes as necessary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">supervisorctl update</code></p>

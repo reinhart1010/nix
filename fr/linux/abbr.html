@@ -1,0 +1,29 @@
+<h1 id="abbr">abbr</h1>
+
+<p>Gère les abréviations pour le shell fish.
+Les mots définis par l'utilisateur sont remplacés par des phrases plus longues après leur saisie.
+Plus d'informations : <a href="https://fishshell.com/docs/current/cmds/abbr.html">https://fishshell.com/docs/current/cmds/abbr.html</a>.</p>
+
+<ul>
+  <li>Ajoute une nouvelle abréviation :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_abrégé</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_de_la_commande</span></p>
+
+<ul>
+  <li>Renomme une abréviation existante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_nom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_nom</span></p>
+
+<ul>
+  <li>Supprime une abréviation existante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --erase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_abrégé</span></p>
+
+<ul>
+  <li>Importe les abréviations définies sur un autre hôte via SSH :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_l_hôte</span><code class="language-plaintext highlighter-rouge"> abbr --show | source</code></p>

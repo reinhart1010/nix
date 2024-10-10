@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="exclamation-mark">Exclamation mark</h1>
+
+<p>Polecenie wbudowane w Bash do zastępowania komendą znalezioną w historii.
+Więcej informacji: <a href="https://gnu.org/software/bash/manual/bash.html#Event-Designators">https://gnu.org/software/bash/manual/bash.html#Event-Designators</a>.</p>
+
+<ul>
+  <li>Zastąp poprzednią komendą i uruchom ją z <code class="language-plaintext highlighter-rouge">sudo</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>Zastąp komendą na podstawie jej numeru linii znalezionego za pomocą <code class="language-plaintext highlighter-rouge">history</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">liczba</span></p>
+
+<ul>
+  <li>Zastąp poleceniem, które zostało użyte określoną liczbę wierszy wstecz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">liczba</span></p>
+
+<ul>
+  <li>Zastąp ostatnim poleceniem zaczynającym się od ciągu znaków:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ciąg_znaków</span></p>
+
+<ul>
+  <li>Zastąp argumentami ostatniego polecenia:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">polecenie</span><code class="language-plaintext highlighter-rouge"> !*</code></p>
+
+<ul>
+  <li>Zastąp ostatnim argumentem ostatniego polecenia:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">polecenie</span><code class="language-plaintext highlighter-rouge"> !$</code></p>

@@ -1,0 +1,28 @@
+<h1 id="decaffeinate">decaffeinate</h1>
+
+<p>Converti script CoffeScript in JavaScript moderno.
+Maggiori informazioni: <a href="https://decaffeinate-project.org">https://decaffeinate-project.org</a>.</p>
+
+<ul>
+  <li>Converti un file CoffeeScript in JavaScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">decaffeinate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.coffee</span></p>
+
+<ul>
+  <li>Converti un file CoffeeScript v2 in JavaScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">decaffeinate --use-cs2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.coffee</span></p>
+
+<ul>
+  <li>Converti <code class="language-plaintext highlighter-rouge">require</code> e <code class="language-plaintext highlighter-rouge">module.exports</code> in <code class="language-plaintext highlighter-rouge">import</code> ed <code class="language-plaintext highlighter-rouge">export</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">decaffeinate --use-js-modules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.coffee</span></p>
+
+<ul>
+  <li>Converti un file CoffeeScript, permettendo di esportare nomi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">decaffeinate --loose-js-modules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.coffee</span></p>

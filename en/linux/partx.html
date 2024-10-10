@@ -1,0 +1,22 @@
+<h1 id="partx">partx</h1>
+
+<p>Parse a partition table and tell the kernel about it.
+More information: <a href="https://manned.org/partx">https://manned.org/partx</a>.</p>
+
+<ul>
+  <li>List the partitions on a block device or disk image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo partx --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_or_disk_image</span></p>
+
+<ul>
+  <li>Add all the partitions found in a given block device to the kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo partx --add --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_or_disk_image</span></p>
+
+<ul>
+  <li>Delete all the partitions found from the kernel (does not alter partitions on disk):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo partx --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_or_disk_image</span></p>

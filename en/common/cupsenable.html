@@ -1,0 +1,24 @@
+<h1 id="cupsenable">cupsenable</h1>
+
+<p>Start printers and classes.
+Note: destination is referred as a printer or a class of printers.
+See also: <code class="language-plaintext highlighter-rouge">cupsdisable</code>, <code class="language-plaintext highlighter-rouge">cupsaccept</code>, <code class="language-plaintext highlighter-rouge">cupsreject</code>, <code class="language-plaintext highlighter-rouge">lpstat</code>.
+More information: <a href="https://www.cups.org/doc/man-cupsenable.html">https://www.cups.org/doc/man-cupsenable.html</a>.</p>
+
+<ul>
+  <li>Start one or more destination(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsenable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination1 destination2 …</span></p>
+
+<ul>
+  <li>Resume printing of pending jobs of a destination (use after <code class="language-plaintext highlighter-rouge">cupsdisable</code> with <code class="language-plaintext highlighter-rouge">--hold</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsenable --release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination</span></p>
+
+<ul>
+  <li>Cancel all jobs of the specified destination(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsenable -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination1 destination2 …</span></p>

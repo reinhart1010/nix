@@ -1,0 +1,17 @@
+<h1 id="distrobox-create">distrobox-create</h1>
+
+<p>Create a Distrobox container. See also: <code class="language-plaintext highlighter-rouge">tldr distrobox</code>.
+The container created will be tightly integrated with the host, allowing sharing of the user's HOME directory, external storage, external USB devices, graphical apps (X11/Wayland), and audio.
+More information: <a href="https://distrobox.it/usage/distrobox-create">https://distrobox.it/usage/distrobox-create</a>.</p>
+
+<ul>
+  <li>Create a Distrobox container using the Ubuntu image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubuntu:latest</span></p>
+
+<ul>
+  <li>Clone a Distrobox container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-create --clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cloned_container_name</span></p>

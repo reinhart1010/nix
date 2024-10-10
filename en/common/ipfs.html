@@ -1,0 +1,47 @@
+<h1 id="ipfs">ipfs</h1>
+
+<p>Inter Planetary File System.
+A peer-to-peer hypermedia protocol. Aims to make the web more open.
+More information: <a href="https://ipfs.io">https://ipfs.io</a>.</p>
+
+<ul>
+  <li>Add a file from local to the filesystem, pin it and print the relative hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipfs add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Add a directory and its files recursively from local to the filesystem and print the relative hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipfs add -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Save a remote file and give it a name but not pin it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipfs get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Pin a remote file locally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipfs pin add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span></p>
+
+<ul>
+  <li>Display pinned files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipfs pin ls</code></p>
+
+<ul>
+  <li>Unpin a file from the local storage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipfs pin rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span></p>
+
+<ul>
+  <li>Remove unpinned files from local storage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipfs repo gc</code></p>

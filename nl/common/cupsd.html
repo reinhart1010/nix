@@ -1,0 +1,52 @@
+<h1 id="cupsd">cupsd</h1>
+
+<p>Server daemon voor de CUPS print server.
+Meer informatie: <a href="https://openprinting.github.io/cups/doc/man-cupsd.html">https://openprinting.github.io/cups/doc/man-cupsd.html</a>.</p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">cupsd</code> op de achterground, aka. als een daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd</code></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">cupsd</code> op de voorgrond:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -f</code></p>
+
+<ul>
+  <li>Draai <code class="language-plaintext highlighter-rouge">cupsd</code> op aanvraag (vaak gebruikt door <code class="language-plaintext highlighter-rouge">launchd</code> of <code class="language-plaintext highlighter-rouge">systemd</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -l</code></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">cupsd</code> met het gespecificeerde [<code class="language-plaintext highlighter-rouge">c</code>]<code class="language-plaintext highlighter-rouge">upsd.conf</code> configuratie bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/cupsd.conf</span></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">cupsd</code> met het gespecificeerde <code class="language-plaintext highlighter-rouge">cups-bestanden.conf</code> configuratie bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/cups-bestanden.conf</span></p>
+
+<ul>
+  <li>[t]est het [<code class="language-plaintext highlighter-rouge">c</code>]<code class="language-plaintext highlighter-rouge">upsd.conf</code> configuratie bestand voor fouten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -t -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/cupsd.conf</span></p>
+
+<ul>
+  <li>[t]est het <code class="language-plaintext highlighter-rouge">cups-bestanden.conf</code> configuratie bestand voor fouten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -t -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/cups-bestanden.conf</span></p>
+
+<ul>
+  <li>Toon alle beschikbare opties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -h</code></p>

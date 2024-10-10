@@ -1,0 +1,28 @@
+<h1 id="evtest">evtest</h1>
+
+<p>Muestra información de los controladores de dispositivos de entrada.
+Más información: <a href="https://manned.org/evtest">https://manned.org/evtest</a>.</p>
+
+<ul>
+  <li>Lista todos los dispositivos de entrada detectados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo evtest</code></p>
+
+<ul>
+  <li>Muestra los eventos de un dispositivo de entrada específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo evtest /dev/input/event</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span></p>
+
+<ul>
+  <li>Agarra el dispositivo exclusivamente, evitando que otros clientes reciban eventos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo evtest --grab /dev/input/event</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span></p>
+
+<ul>
+  <li>Consulta el estado de una tecla o botón específico en un dispositivo de entrada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo evtest --query /dev/input/event</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo_evento</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">código_evento</span></p>

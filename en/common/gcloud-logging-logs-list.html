@@ -1,0 +1,53 @@
+<h1 id="gcloud-logging-logs-list">gcloud logging logs list</h1>
+
+<p>List logs in a Google Cloud project.
+Useful for identifying available logs for monitoring and analysis. See also: <code class="language-plaintext highlighter-rouge">gcloud</code>.
+More information: <a href="https://cloud.google.com/sdk/gcloud/reference/logging/logs/list">https://cloud.google.com/sdk/gcloud/reference/logging/logs/list</a>.</p>
+
+<ul>
+  <li>List all logs in the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list</code></p>
+
+<ul>
+  <li>List all logs for a specific log bucket and location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --bucket=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_id</span><code class="language-plaintext highlighter-rouge"> --location=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">location</span></p>
+
+<ul>
+  <li>List all logs for a specific view in a log bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --bucket=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_id</span><code class="language-plaintext highlighter-rouge"> --location=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">location</span><code class="language-plaintext highlighter-rouge"> --view=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">view_id</span></p>
+
+<ul>
+  <li>List logs with a filter expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --filter="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List a specified number of logs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --limit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span></p>
+
+<ul>
+  <li>List logs sorted by a specific field in ascending or descending order (<code class="language-plaintext highlighter-rouge">~</code> for descending):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --sort-by="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List logs sorted by multiple fields:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --sort-by="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field1</span><code class="language-plaintext highlighter-rouge">,~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field2</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List logs with verbose output, showing additional details:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --verbosity=debug</code></p>

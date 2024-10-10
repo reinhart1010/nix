@@ -1,0 +1,53 @@
+<h1 id="bash">bash</h1>
+
+<p>Bourne-Again SHell, <code class="language-plaintext highlighter-rouge">sh</code>-ondersteunende commandoregel-interpreteerder.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">zsh</code>, <code class="language-plaintext highlighter-rouge">histexpand</code> (history expansion).
+Meer informatie: <a href="https://www.gnu.org/software/bash/">https://www.gnu.org/software/bash/</a>.</p>
+
+<ul>
+  <li>Start een interactieve shell sessie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash</code></p>
+
+<ul>
+  <li>Start een interactieve shell sessie zonder het laden van startup configuratie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash --norc</code></p>
+
+<ul>
+  <li>Voer een [c]ommando uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'bash is executed'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Voer commando's van bestand uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.sh</span></p>
+
+<ul>
+  <li>Voer commando's van bestand uit, en print alle uitgevoerde commando's naar de terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.sh</span></p>
+
+<ul>
+  <li>Voer commando's van bestand uit, en stop bij de eerste fout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.sh</span></p>
+
+<ul>
+  <li>Voer commando's van <code class="language-plaintext highlighter-rouge">stdin</code> uit:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'bash is executed'"</span><code class="language-plaintext highlighter-rouge"> | bash</code></p>
+
+<ul>
+  <li>Start een beperkte shell sessie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -r</code></p>

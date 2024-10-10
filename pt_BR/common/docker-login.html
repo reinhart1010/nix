@@ -1,0 +1,28 @@
+<h1 id="docker-login">docker login</h1>
+
+<p>Fazer login em um registro do Docker.
+Mais informações: <a href="https://docs.docker.com/reference/cli/docker/login/">https://docs.docker.com/reference/cli/docker/login/</a>.</p>
+
+<ul>
+  <li>Faz login interativamente em um registro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login</code></p>
+
+<ul>
+  <li>Faz login em um registro com um nome de usuário específico (será solicitada a senha):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_de_usuário</span></p>
+
+<ul>
+  <li>Faz login em um registro com nome de usuário e senha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_de_usuário</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span></p>
+
+<ul>
+  <li>Faz login em um registro com a senha vinda do <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha</span><code class="language-plaintext highlighter-rouge">" | docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_de_usuário</span><code class="language-plaintext highlighter-rouge"> --password-stdin</code></p>

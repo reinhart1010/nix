@@ -1,0 +1,34 @@
+<h1 id="brotli">brotli</h1>
+
+<p>Brotli 압축을 사용하여 파일을 압축/압축 해제.
+더 많은 정보: <a href="https://github.com/google/brotli">https://github.com/google/brotli</a>.</p>
+
+<ul>
+  <li>파일을 압축하여 파일 옆에 압축 버전을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brotli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일을 압축 해제([d]ecompress)하여, 파일 옆에 압축되지 않은 버전을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brotli -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.br</span></p>
+
+<ul>
+  <li>출력([o]utput) 파일 이름을 지정하여, 파일을 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brotli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축된_출력_파일.br</span></p>
+
+<ul>
+  <li>출력([o]utput) 파일 이름을 지정하여 Brotli 파일을 압축 해제([d]ecompress)ㄴ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brotli -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축된_파일.br</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일</span></p>
+
+<ul>
+  <li>압축 품질을 지정 (1=가장 빠름 (가장 안 좋은 품질), 11=가장 느림 (가장 좋은 품질)):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brotli -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">11</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축된_출력_파일.br</span></p>

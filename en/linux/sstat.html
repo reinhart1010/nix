@@ -1,0 +1,22 @@
+<h1 id="sstat">sstat</h1>
+
+<p>View information about running jobs.
+More information: <a href="https://slurm.schedmd.com/sstat.html">https://slurm.schedmd.com/sstat.html</a>.</p>
+
+<ul>
+  <li>Display status information of a comma-separated list of jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sstat --jobs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span></p>
+
+<ul>
+  <li>Display job ID, average CPU and average virtual memory size of a comma-separated list of jobs, with pipes as column delimiters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sstat --parsable --jobs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span><code class="language-plaintext highlighter-rouge"> --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">JobID,AveCPU,AveVMSize</span></p>
+
+<ul>
+  <li>Display list of fields available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sstat --helpformat</code></p>

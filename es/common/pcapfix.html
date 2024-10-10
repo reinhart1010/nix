@@ -1,0 +1,34 @@
+<h1 id="pcapfix">pcapfix</h1>
+
+<p>Repara archivos PCAP y PcapNG dañados o corruptos.
+Más información: <a href="https://f00l.de/pcapfix/">https://f00l.de/pcapfix/</a>.</p>
+
+<ul>
+  <li>Repara un archivo PCAP/PcapNG (Nota: para los archivos PCAP, sólo se escanean los primeros 262144 bytes de cada paquete):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcapfix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pcapng</span></p>
+
+<ul>
+  <li>Repara un archivo PCAP completo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcapfix --deep-scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pcap</span></p>
+
+<ul>
+  <li>Repara un archivo PCAP/PcapNG y escribe el archivo reparado en la ubicación especificada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcapfix --outfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_reparado.pcap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pcap</span></p>
+
+<ul>
+  <li>Repara un archivo PcapNG y lo trata como un archivo PcapNG, ignorando el reconocimiento automático:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcapfix --pcapng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pcapng</span></p>
+
+<ul>
+  <li>Repara un archivo y muestra el proceso en detalle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcapfix --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pcap</span></p>

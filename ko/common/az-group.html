@@ -1,0 +1,29 @@
+<h1 id="az-group">az group</h1>
+
+<p>리소스 그룹 및 템플릿 배포를 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/group">https://learn.microsoft.com/cli/azure/group</a>.</p>
+
+<ul>
+  <li>새로운 리소스 그룹 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az group create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">위치</span></p>
+
+<ul>
+  <li>리소스 그룹이 있는지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az group exists --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>리소스 그룹 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az group delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>리소스 그룹의 조건이 충족될 때까지 기다림:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az group wait --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">created|deleted|exists|updated</span></p>

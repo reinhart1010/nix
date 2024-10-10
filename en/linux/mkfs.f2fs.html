@@ -1,0 +1,16 @@
+<h1 id="mkfsf2fs">mkfs.f2fs</h1>
+
+<p>Create an F2FS filesystem inside a partition.
+More information: <a href="https://manned.org/mkfs.f2fs">https://manned.org/mkfs.f2fs</a>.</p>
+
+<ul>
+  <li>Create an F2FS filesystem inside partition 1 on device b (<code class="language-plaintext highlighter-rouge">sdb1</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.f2fs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Create an F2FS filesystem with a volume label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.f2fs -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_label</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

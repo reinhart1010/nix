@@ -1,0 +1,28 @@
+<h1 id="hdiutil">hdiutil</h1>
+
+<p>Utilitário para criar e gerenciar imagens de disco.
+Mais informações: <a href="https://keith.github.io/xcode-man-pages/hdiutil.1.html">https://keith.github.io/xcode-man-pages/hdiutil.1.html</a>.</p>
+
+<ul>
+  <li>Monta uma imagem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hdiutil attach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/aquivo_de_imagem</span></p>
+
+<ul>
+  <li>Desmonta uma imagem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hdiutil detach /Volumes/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_volume</span></p>
+
+<ul>
+  <li>Lista as imagens montadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hdiutil info</code></p>
+
+<ul>
+  <li>Cria uma imagem ISO a partir do conteúdo de um diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hdiutil makehybrid -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_saída</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>

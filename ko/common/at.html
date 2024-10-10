@@ -1,0 +1,23 @@
+<h1 id="at">at</h1>
+
+<p>명령 실행 후 한 번 실행합니다.
+서비스 AD(또는 ATRUN)는 실제 실행을 위해 실행되어야 합니다.
+더 많은 정보: <a href="https://manned.org/at">https://manned.org/at</a>.</p>
+
+<ul>
+  <li>표준 입력에서 명령을 5분 내에 실행(작업이 끝나면 <code class="language-plaintext highlighter-rouge">Ctrl + D</code> 를 누르세요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at now + 5 minutes</code></p>
+
+<ul>
+  <li>오전 10시에 표준 입력에서 명령을 실행하십시오:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span><code class="language-plaintext highlighter-rouge">" | at 1000</code></p>
+
+<ul>
+  <li>다음 주 화요일에 주어진 파일에서 명령을 실행하십시오:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명</span><code class="language-plaintext highlighter-rouge"> 9:30 PM Tue</code></p>

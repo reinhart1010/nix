@@ -1,0 +1,28 @@
+<h1 id="msiexec">msiexec</h1>
+
+<p>Pasang, perbarui, perbaiki, atau hapus program Windows melalui berkas MSI dan MSP yang tersedia.
+Informasi lebih lanjut: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/msiexec">https://learn.microsoft.com/windows-server/administration/windows-commands/msiexec</a>.</p>
+
+<ul>
+  <li>Pasang suatu program melalui berkas MSI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas.msi</span></p>
+
+<ul>
+  <li>Pasang berkas MSI dari suatu situs web:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/installer.msi</span></p>
+
+<ul>
+  <li>Pasang pembaruan suatu program melalui suatu berkas MSP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas.msp</span></p>
+
+<ul>
+  <li>Menghapus pemasangan atau pembaruan suatu program melalui file MSI atau MSP yang tersedia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas</span></p>

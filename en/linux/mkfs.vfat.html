@@ -1,0 +1,28 @@
+<h1 id="mkfsvfat">mkfs.vfat</h1>
+
+<p>Create an MS-DOS filesystem inside a partition.
+More information: <a href="https://manned.org/mkfs.vfat">https://manned.org/mkfs.vfat</a>.</p>
+
+<ul>
+  <li>Create a vfat filesystem inside partition 1 on device b (<code class="language-plaintext highlighter-rouge">sdb1</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.vfat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Create filesystem with a volume-name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.vfat -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Create filesystem with a volume-id:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.vfat -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Use 5 instead of 2 file allocation tables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.vfat -f 5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

@@ -1,0 +1,52 @@
+<h1 id="usbip">usbip</h1>
+
+<p>Use USB devices remotely.
+More information: <a href="https://usbip.sourceforge.net">https://usbip.sourceforge.net</a>.</p>
+
+<ul>
+  <li>List all local USB devices and their bus ID's:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usbip list --local</code></p>
+
+<ul>
+  <li>Start a <code class="language-plaintext highlighter-rouge">usbip</code> daemon on the server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl start usbipd</code></p>
+
+<ul>
+  <li>Bind a USB device to <code class="language-plaintext highlighter-rouge">usbip</code> on the server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usbip bind --busid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus_id</span></p>
+
+<ul>
+  <li>Load the kernel module required by <code class="language-plaintext highlighter-rouge">usbip</code> on the client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe vhci-hcd</code></p>
+
+<ul>
+  <li>Attach to the <code class="language-plaintext highlighter-rouge">usbip</code> device on the client (bus ID is the same as on the server):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usbip attach -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> --busid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus_id</span></p>
+
+<ul>
+  <li>List attached devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usbip port</code></p>
+
+<ul>
+  <li>Detach from a device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usbip detach --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Unbind a device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usbip unbind --busid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus_id</span></p>

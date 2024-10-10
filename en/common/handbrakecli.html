@@ -1,0 +1,40 @@
+<h1 id="handbrakecli">handbrakecli</h1>
+
+<p>Command-line interface to the HandBrake video conversion and DVD ripping tool.
+More information: <a href="https://handbrake.fr/">https://handbrake.fr/</a>.</p>
+
+<ul>
+  <li>Convert a video file to MKV (AAC 160kbit audio and x264 CRF20 video):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handbrakecli --input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.avi</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.mkv</span><code class="language-plaintext highlighter-rouge"> --encoder x264 --quality 20 --ab 160</code></p>
+
+<ul>
+  <li>Resize a video file to 320x240:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handbrakecli --input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mp4</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.mp4</span><code class="language-plaintext highlighter-rouge"> --width 320 --height 240</code></p>
+
+<ul>
+  <li>List available presets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handbrakecli --preset-list</code></p>
+
+<ul>
+  <li>Convert an AVI video to MP4 using the Android preset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handbrakecli --preset="Android" --input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.ext</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.mp4</span></p>
+
+<ul>
+  <li>Print the content of a DVD, getting the CSS keys in the process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handbrakecli --input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sr0</span><code class="language-plaintext highlighter-rouge"> --title 0</code></p>
+
+<ul>
+  <li>Rip the first track of a DVD in the specified device. Audiotracks and subtitle languages are specified as lists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handbrakecli --input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sr0</span><code class="language-plaintext highlighter-rouge"> --title 1 --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">out.mkv</span><code class="language-plaintext highlighter-rouge"> --format av_mkv --encoder x264 --subtitle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,4,5</span><code class="language-plaintext highlighter-rouge"> --audio </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,2</span><code class="language-plaintext highlighter-rouge"> --aencoder copy --quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">23</span></p>

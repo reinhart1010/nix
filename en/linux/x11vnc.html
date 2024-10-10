@@ -1,0 +1,35 @@
+<h1 id="x11vnc">x11vnc</h1>
+
+<p>A VNC server that will enable VNC on an existing display server.
+By default, the server will automatically terminate once all clients disconnect from it.
+More information: <a href="https://manned.org/x11vnc">https://manned.org/x11vnc</a>.</p>
+
+<ul>
+  <li>Launch a VNC server that allows multiple clients to connect:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11vnc -shared</code></p>
+
+<ul>
+  <li>Launch a VNC server in view-only mode, and which won't terminate once the last client disconnects:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11vnc -forever -viewonly</code></p>
+
+<ul>
+  <li>Launch a VNC server on a specific display and screen (both starting at index zero):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11vnc -display :</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">display</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screen</span></p>
+
+<ul>
+  <li>Launch a VNC server on the third display's default screen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11vnc -display :</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Launch a VNC server on the first display's second screen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11vnc -display :</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>

@@ -1,0 +1,40 @@
+<h1 id="exiqgrep">exiqgrep</h1>
+
+<p>Perl script offering possibilities to <code class="language-plaintext highlighter-rouge">grep</code> in the Exim queue output.
+More information: <a href="https://www.exim.org/exim-html-current/doc/html/spec_html/ch-exim_utilities.html">https://www.exim.org/exim-html-current/doc/html/spec_html/ch-exim_utilities.html</a>.</p>
+
+<ul>
+  <li>Match the sender address using a case-insensitive search:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiqgrep -f '&lt;</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@somedomain.com</span><code class="language-plaintext highlighter-rouge">&gt;'</code></p>
+
+<ul>
+  <li>Match the sender address and display message IDs only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiqgrep -i -f '&lt;</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@somedomain.com</span><code class="language-plaintext highlighter-rouge">&gt;'</code></p>
+
+<ul>
+  <li>Match the recipient address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiqgrep -r '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@somedomain.com</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Remove all messages matching the sender address from the queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiqgrep -i -f '&lt;</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@somedomain.com</span><code class="language-plaintext highlighter-rouge">&gt;' | xargs exim -Mrm</code></p>
+
+<ul>
+  <li>Test for bounced messages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiqgrep -f '^&lt;&gt;$'</code></p>
+
+<ul>
+  <li>Display the count of bounced messages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiqgrep -c -f '^&lt;&gt;$'</code></p>

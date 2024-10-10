@@ -1,0 +1,28 @@
+<h1 id="xmlto">xmlto</h1>
+
+<p>Apply an XSL stylesheet to an XML document.
+More information: <a href="https://pagure.io/xmlto">https://pagure.io/xmlto</a>.</p>
+
+<ul>
+  <li>Convert a DocBook XML document to PDF format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">document.xml</span></p>
+
+<ul>
+  <li>Convert a DocBook XML document to HTML format and store the resulting files in a separate directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlto -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/html_files</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">document.xml</span></p>
+
+<ul>
+  <li>Convert a DocBook XML document to a single HTML file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html-nochunks</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">document.xml</span></p>
+
+<ul>
+  <li>Specify a stylesheet to use while converting a DocBook XML document:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlto -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stylesheet.xsl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_format</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">document.xml</span></p>

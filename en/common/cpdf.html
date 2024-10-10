@@ -1,0 +1,52 @@
+<h1 id="cpdf">cpdf</h1>
+
+<p>Manipulate PDF files.
+More information: <a href="https://www.coherentpdf.com/cpdfmanual/cpdfmanual.html">https://www.coherentpdf.com/cpdfmanual/cpdfmanual.html</a>.</p>
+
+<ul>
+  <li>Select pages 1, 2, 3 and 6 from a source document and write those to a destination document:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_document.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-3,6</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination_document.pdf</span></p>
+
+<ul>
+  <li>Merge two documents into a new one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpdf -merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_document_one.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_document_two.pdf</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination_document.pdf</span></p>
+
+<ul>
+  <li>Show the bookmarks of a document:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpdf -list-bookmarks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/document.pdf</span></p>
+
+<ul>
+  <li>Split a document into ten-page chunks, writing them to <code class="language-plaintext highlighter-rouge">chunk001.pdf</code>, <code class="language-plaintext highlighter-rouge">chunk002.pdf</code>, etc:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpdf -split </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/document.pdf</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/chunk%%%.pdf</span><code class="language-plaintext highlighter-rouge"> -chunk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Encrypt a document using 128bit encryption, providing <code class="language-plaintext highlighter-rouge">fred</code> as owner password and <code class="language-plaintext highlighter-rouge">joe</code> as user password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpdf -encrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">128bit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fred</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">joe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_document.pdf</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_document.pdf</span></p>
+
+<ul>
+  <li>Decrypt a document using the owner password <code class="language-plaintext highlighter-rouge">fred</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpdf -decrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_document.pdf</span><code class="language-plaintext highlighter-rouge"> owner=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fred</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/decrypted_document.pdf</span></p>
+
+<ul>
+  <li>Show the annotations of a document:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpdf -list-annotations </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/document.pdf</span></p>
+
+<ul>
+  <li>Create a new document from an existing one with additional metadata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpdf -set-metadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/metadata.xml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_document.pdf</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination_document.pdf</span></p>

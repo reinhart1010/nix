@@ -1,0 +1,29 @@
+<h1 id="git-am">git am</h1>
+
+<p>패치 파일을 적용하고 커밋 생성. 이메일을 통해 커밋을 받을 때 유용합니다.
+패치 파일을 생성할 수 있는 <code class="language-plaintext highlighter-rouge">git format-patch</code>도 같이 보세요.
+더 많은 정보: <a href="https://git-scm.com/docs/git-am">https://git-scm.com/docs/git-am</a>.</p>
+
+<ul>
+  <li>로컬 패치 파일을 적용하고 커밋:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.patch</span></p>
+
+<ul>
+  <li>원격 패치 파일을 적용하고 커밋:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/file.patch</span><code class="language-plaintext highlighter-rouge"> | git apply</code></p>
+
+<ul>
+  <li>패치 파일 적용 과정 중단:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --abort</code></p>
+
+<ul>
+  <li>가능한 한 많은 패치 파일을 적용하고, 실패한 부분을 거부 파일로 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --reject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.patch</span></p>

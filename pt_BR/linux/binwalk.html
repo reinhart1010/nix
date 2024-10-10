@@ -1,0 +1,40 @@
+<h1 id="binwalk">binwalk</h1>
+
+<p>Ferramenta de análise de Firmware.
+Mais informações: <a href="https://github.com/ReFirmLabs/binwalk">https://github.com/ReFirmLabs/binwalk</a>.</p>
+
+<ul>
+  <li>Escaneia um arquivo binário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/binário</span></p>
+
+<ul>
+  <li>Extrai arquivos de um binário, especificando a saída do diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --extract --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diretório_do_destino</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/binário</span></p>
+
+<ul>
+  <li>Extrai recursivamente arquivos de um binário limitando a profundidade da recursão para 2:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --extract --matryoshka --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/binário</span></p>
+
+<ul>
+  <li>Extrai arquivos de um binário com uma assinatura específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --dd '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png image:png</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/binário</span></p>
+
+<ul>
+  <li>Analisa a entropia de um binário, salvando o gráfico com o mesmo nome que o binário e a extensão <code class="language-plaintext highlighter-rouge">.png</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --entropy --save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/binário</span></p>
+
+<ul>
+  <li>Combina entropia, assinatura e análise dos código de operações em um comando só:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --entropy --signature --opcodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/binário</span></p>

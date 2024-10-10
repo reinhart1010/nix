@@ -1,0 +1,52 @@
+<h1 id="b2-tools">b2-tools</h1>
+
+<p>Accede fácilmente a todas las funciones de Backblaze B2 Cloud Storage.
+Más información: <a href="https://www.backblaze.com/docs/cloud-storage-command-line-tools">https://www.backblaze.com/docs/cloud-storage-command-line-tools</a>.</p>
+
+<ul>
+  <li>Accede a tu cuenta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 authorize_account </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_id</span></p>
+
+<ul>
+  <li>Lista los buckets existentes en tu cuenta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 list_buckets</code></p>
+
+<ul>
+  <li>Crea un cubo, indica el nombre del cubo y el tipo de acceso (por ejemplo, allPublic o allPrivate):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 create_bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_cubo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">allPublic|allPrivate</span></p>
+
+<ul>
+  <li>Sube un archivo. Elige un archivo, un bucket y una carpeta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 upload_file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_cubo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_carpeta</span></p>
+
+<ul>
+  <li>Sube un directorio de origen a un destino de Backblaze B2 bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_cubo</span></p>
+
+<ul>
+  <li>Copia un archivo de un bucket a otro bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 copy-file-by-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_cubo_destino</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo/b2</span></p>
+
+<ul>
+  <li>Muestra los archivos de tu bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_bucket</span></p>
+
+<ul>
+  <li>Elimina una "carpeta" o un conjunto de archivos que coincidan con un patrón:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/carpeta|patrón</span></p>

@@ -1,0 +1,22 @@
+<h1 id="devfsadm">devfsadm</h1>
+
+<p>Komenda administracyjna dla <code class="language-plaintext highlighter-rouge">/dev</code>. Zarządza przestrzenią nazw <code class="language-plaintext highlighter-rouge">/dev</code>.
+Więcej informacji: <a href="https://www.unix.com/man-page/sunos/1m/devfsadm">https://www.unix.com/man-page/sunos/1m/devfsadm</a>.</p>
+
+<ul>
+  <li>Skanuj w poszukiwaniu nowych dysków:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devfsadm -c disk</code></p>
+
+<ul>
+  <li>Wyczyść wszystkie wiszące linki /dev i skanuj w poszukiwaniu nowego urządzenia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devfsadm -C -v</code></p>
+
+<ul>
+  <li>Próbne uruchomienie - wypisz to, co zostanie zmienione, ale bez wprowadzania modyfikacji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devfsadm -C -v -n</code></p>

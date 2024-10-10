@@ -1,0 +1,29 @@
+<h1 id="esearch">esearch</h1>
+
+<p>Perform a new Entrez search using terms in indexed fields.
+It is part of the <code class="language-plaintext highlighter-rouge">edirect</code> package.
+More information: <a href="https://www.ncbi.nlm.nih.gov/books/NBK179288/">https://www.ncbi.nlm.nih.gov/books/NBK179288/</a>.</p>
+
+<ul>
+  <li>Search the pubmed database for selective serotonin reuptake inhibitor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esearch -db pubmed -query "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">selective serotonin reuptake inhibitor</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Search the protein database using a query and regexp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esearch -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protein</span><code class="language-plaintext highlighter-rouge"> -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Escherichia*'</span></p>
+
+<ul>
+  <li>Search the nucleotide database for sequences whose metadata contain insulin and rodents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esearch -db nuccore -query "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">insulin [PROT] AND rodents [ORGN]</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display [h]elp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esearch -h</code></p>

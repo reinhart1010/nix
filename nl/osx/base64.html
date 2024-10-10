@@ -1,0 +1,28 @@
+<h1 id="base64">base64</h1>
+
+<p>Encodeer en decodeer met behulp van Base64-representatie.
+Meer informatie: <a href="https://keith.github.io/xcode-man-pages/base64.1.html">https://keith.github.io/xcode-man-pages/base64.1.html</a>.</p>
+
+<ul>
+  <li>Encodeer een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 --input=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gewoon_bestand</span></p>
+
+<ul>
+  <li>Decodeer een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 --decode --input=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base64_bestand</span></p>
+
+<ul>
+  <li>Encodeer vanaf <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">platte_tekst</span><code class="language-plaintext highlighter-rouge">" | base64</code></p>
+
+<ul>
+  <li>Decodeer vanaf <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base64_tekst</span><code class="language-plaintext highlighter-rouge"> | base64 --decode</code></p>

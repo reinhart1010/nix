@@ -1,0 +1,52 @@
+<h1 id="tree">tree</h1>
+
+<p>Mostra i contenuti della directory corrente come un albero.
+Maggiori informazioni: <a href="https://manned.org/tree">https://manned.org/tree</a>.</p>
+
+<ul>
+  <li>Stampa file e directory fino al 'num'-esimo livello di profondità (dove 1 significa la directory corrente):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num</span></p>
+
+<ul>
+  <li>Stampa solamente le directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -d</code></p>
+
+<ul>
+  <li>Stampa anche i file nascosti con la colorazione attiva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -a -C</code></p>
+
+<ul>
+  <li>Stampa l'albero senza linee di indentazione, mostrando invece il percorso completo (usa <code class="language-plaintext highlighter-rouge">-N</code> per non convertire caratteri non stampabili in sequenze di escape):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -i -f</code></p>
+
+<ul>
+  <li>Stampa la dimensione di ogni file e la dimensione totale di ogni directory, in formato leggibile dall'utente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -s -h --du</code></p>
+
+<ul>
+  <li>Stampa i file all'interno dell'albero gerarchico, utilizzando espressioni di metacaratteri (glob pattern) per escludere le directory che non contengono file corrispondenti alla ricerca:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -P '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span><code class="language-plaintext highlighter-rouge">' --prune</code></p>
+
+<ul>
+  <li>Stampa le directory all'interno dell'albero gerarchico, utilizzando espressioni di metacaratteri (glob pattern) per escludere le directory che non sono progenitori di quelle desiderate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nomi_di_directory</span><code class="language-plaintext highlighter-rouge"> --matchdirs --prune</code></p>
+
+<ul>
+  <li>Stampa l'albero ignorando le directory date:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -I '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_directory1|nome_directory2</span><code class="language-plaintext highlighter-rouge">'</code></p>

@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="adb-logcat">adb logcat</h1>
+
+<p>Jeter une log des messages systèmes.
+Plus d'informations : <a href="https://developer.android.com/tools/logcat">https://developer.android.com/tools/logcat</a>.</p>
+
+<ul>
+  <li>Affiche les logs systèmes :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat</code></p>
+
+<ul>
+  <li>Affiche les logs qui correspond à une expression régulière :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression_régulière</span></p>
+
+<ul>
+  <li>Affiche les logs pour un tag donné, dans un mode spécifique ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mode</span><code class="language-plaintext highlighter-rouge"> *:S</code></p>
+
+<ul>
+  <li>Affiche les logs pour des applications React Native en mode [V]erbose et mes sous [S]ilence les autres tags :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat ReactNative:V ReactNativeJS:V *:S</code></p>
+
+<ul>
+  <li>Affiche les logs avec un niveau de priorité supérieur à [W]arning :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat *:W</code></p>
+
+<ul>
+  <li>Colorie les logs (souvent utilisé avec des filtres) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat -v color</code></p>

@@ -1,0 +1,29 @@
+<h1 id="az-sshkey">az sshkey</h1>
+
+<p>Manage SSH public keys with virtual machines.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/sshkey">https://learn.microsoft.com/cli/azure/sshkey</a>.</p>
+
+<ul>
+  <li>Create a new SSH key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az sshkey create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span></p>
+
+<ul>
+  <li>Upload an existing SSH key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az sshkey create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --public-key "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@path/to/key.pub</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List all SSH public keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az sshkey list</code></p>
+
+<ul>
+  <li>Show information about an SSH public key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az sshkey show --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span></p>

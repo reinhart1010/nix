@@ -1,0 +1,52 @@
+<h1 id="winget">winget</h1>
+
+<p>윈도우 패키지 매니저.
+더 많은 정보: <a href="https://learn.microsoft.com/windows/package-manager/winget">https://learn.microsoft.com/windows/package-manager/winget</a>.</p>
+
+<ul>
+  <li>패키지 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>패키지 제거 (참고: <code class="language-plaintext highlighter-rouge">remove</code> 대신 <code class="language-plaintext highlighter-rouge">uninstall</code> 을 사용할 수 있음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>패키지에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>패키지 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>모든 패키지를 최신 버전으로 업그레이드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget upgrade --all</code></p>
+
+<ul>
+  <li>관리할 수 있는 모든 패키지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget list --source winget</code></p>
+
+<ul>
+  <li>파일에서 패키지 가져오기 또는 설치된 패키지를 파일로 내보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import|export</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–import-file|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>winget 매니페스트 패키지 저장소에 PR을 제출하기 전에 유효성 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/매니페스트</span></p>

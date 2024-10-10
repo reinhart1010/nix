@@ -1,0 +1,41 @@
+<h1 id="pio-ci">pio ci</h1>
+
+<p>Bouw PlatformIO projects met een arbitraire broncode structuur.
+Dit zal een tijdelijk project maken waar naartoe de broncode gekopieerd zal worden.
+Meer informatie: <a href="https://docs.platformio.org/en/latest/core/userguide/cmd_ci.html">https://docs.platformio.org/en/latest/core/userguide/cmd_ci.html</a>.</p>
+
+<ul>
+  <li>Bouw een PlatformIO project in de standaard systeem tijdelijke map en verwijder het naderhand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/project</span></p>
+
+<ul>
+  <li>Bouw een PlatformIO project en specificeer specifieke bibliotheken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --lib </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bibliotheek_map</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/project</span></p>
+
+<ul>
+  <li>Bouw een PlatformIO project en specificeer een specifiek board (<code class="language-plaintext highlighter-rouge">pio boards</code> toont ze allemaal):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --board </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">board</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/project</span></p>
+
+<ul>
+  <li>Bouw een PlatformIO project in een specifieke map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --build-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bouw_map</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/project</span></p>
+
+<ul>
+  <li>Bouw een PlatformIO project en verwijder de bouwmap niet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --keep-build-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/project</span></p>
+
+<ul>
+  <li>Bouw een PlatformIO project met een specifiek configuratiebestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --project-conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/platformio.ini</span></p>

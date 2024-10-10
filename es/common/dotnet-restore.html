@@ -1,0 +1,40 @@
+<h1 id="dotnet-restore">dotnet restore</h1>
+
+<p>Restaura las dependencias y herramientas de un proyecto .NET.
+Más información: <a href="https://learn.microsoft.com/dotnet/core/tools/dotnet-restore">https://learn.microsoft.com/dotnet/core/tools/dotnet-restore</a>.</p>
+
+<ul>
+  <li>Restaura dependencias para un proyecto o solución .NET en el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore</code></p>
+
+<ul>
+  <li>Restaura dependencias para un proyecto o solución .NET en una ubicación específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/proyecto_o_solución</span></p>
+
+<ul>
+  <li>Restaura dependencias sin almacenar las solicitudes HTTP en caché:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --no-cache</code></p>
+
+<ul>
+  <li>Obliga a todas las dependencias a ser resueltas incluso si la última restauración fue exitosa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --force</code></p>
+
+<ul>
+  <li>Restaura dependencias usando los orígenes con error como advertencias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --ignore-failed-sources</code></p>
+
+<ul>
+  <li>Restaura dependencias con un nivel específico de verbosidad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --verbosity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet|minimal|normal|detailed|diagnostic</span></p>

@@ -1,0 +1,52 @@
+<h1 id="systemctl">systemctl</h1>
+
+<p>Kontroluj systemd i menedżera usług.
+Więcej informacji: <a href="https://www.freedesktop.org/software/systemd/man/systemctl.html">https://www.freedesktop.org/software/systemd/man/systemctl.html</a>.</p>
+
+<ul>
+  <li>Wyświetl wszystkie działające usługi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl status</code></p>
+
+<ul>
+  <li>Wyświetl nieudane jednostki:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl --failed</code></p>
+
+<ul>
+  <li>Uruchom/Zatrzymaj/Zrestartuj/Przeładuj usługę:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|reload</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jednostka</span></p>
+
+<ul>
+  <li>Wyświetl status jednostki:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jednostka</span></p>
+
+<ul>
+  <li>Włącz/Wyłącz automatyczne uruchamianie jednostki przy starcie systemu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jednostka</span></p>
+
+<ul>
+  <li>Zamaskuj/Zdemaskuj jednostkę, aby uniemożliwić włączanie i ręczną aktywację:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mask|unmask</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jednostka</span></p>
+
+<ul>
+  <li>Przeładuj systemd, skanując w poszukiwaniu nowych lub zmienionych jednostek:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl daemon-reload</code></p>
+
+<ul>
+  <li>Sprawdź, czy jednostka jest włączona:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl is-enabled </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jednostka</span></p>

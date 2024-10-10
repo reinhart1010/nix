@@ -1,0 +1,53 @@
+<h1 id="pacman-query">pacman –query</h1>
+
+<p>Arch Linux package manager utility.
+See also: <code class="language-plaintext highlighter-rouge">pacman</code>.
+More information: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>List installed packages and versions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query</code></p>
+
+<ul>
+  <li>List only packages and versions that were explicitly installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --explicit</code></p>
+
+<ul>
+  <li>Find which package owns a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --owns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Display information about an installed package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>List files owned by a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>List orphan packages (installed as dependencies but not required by any package):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --unrequired --deps --quiet</code></p>
+
+<ul>
+  <li>List installed packages not found in the repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --foreign</code></p>
+
+<ul>
+  <li>List outdated packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --upgrades</code></p>

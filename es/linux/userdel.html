@@ -1,0 +1,32 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="userdel">userdel</h1>
+
+<p>Elimina una cuenta de usuario o elimina un usuario de un grupo.
+Nota: todos los comandos deben ser ejecutados como root.
+Más información: <a href="https://manned.org/userdel">https://manned.org/userdel</a>.</p>
+
+<ul>
+  <li>Elimina un usuario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">userdel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Elimina un usuario junto con su directorio home y mail spool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">userdel --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Elimina un usuario de un grupo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">userdel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span></p>
+
+<ul>
+  <li>Elimina un usuario en otro directorio root:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">userdel --root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/otro/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>

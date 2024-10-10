@@ -1,0 +1,22 @@
+<h1 id="xctool">xctool</h1>
+
+<p>用于构建 Xcode 项目的工具。
+更多信息：<a href="https://github.com/facebookarchive/xctool">https://github.com/facebookarchive/xctool</a>.</p>
+
+<ul>
+  <li>在没有任何工作区的情况下生成单个项目：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xctool -project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">你的项目.名称</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">方案</span><code class="language-plaintext highlighter-rouge"> build</code></p>
+
+<ul>
+  <li>构建属于工作区的项目：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xctool -workspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">你的工作区.名字</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">方案</span><code class="language-plaintext highlighter-rouge"> build</code></p>
+
+<ul>
+  <li>清理、构建和执行所有测试：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xctool -workspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">你的工作区.名字</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">方案</span><code class="language-plaintext highlighter-rouge"> clean build test</code></p>

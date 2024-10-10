@@ -1,0 +1,23 @@
+<h1 id="netstat">netstat</h1>
+
+<p>Display network-related information such as open connections, open socket ports, etc.
+See also: <code class="language-plaintext highlighter-rouge">lsof</code> for listing network connections, including listening ports.
+More information: <a href="https://keith.github.io/xcode-man-pages/netstat.1.html">https://keith.github.io/xcode-man-pages/netstat.1.html</a>.</p>
+
+<ul>
+  <li>Display the PID and program name listening on a specific protocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol</span></p>
+
+<ul>
+  <li>Print the routing table and do not resolve IP addresses to hostnames:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat -nr</code></p>
+
+<ul>
+  <li>Print the routing table of IPv4 addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat -nr -f inet</code></p>

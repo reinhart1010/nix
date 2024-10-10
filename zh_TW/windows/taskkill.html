@@ -1,0 +1,40 @@
+<h1 id="taskkill">taskkill</h1>
+
+<p>經由處理程序識別碼 (PID) 或映像名稱終止程序。
+更多資訊：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill">https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill</a>.</p>
+
+<ul>
+  <li>經由處理程序識別碼終止程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">處理程序識別碼</span></p>
+
+<ul>
+  <li>經由映像名稱終止程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /im </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">映像名稱</span></p>
+
+<ul>
+  <li>強制終止特定程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">處理程序識別碼</span><code class="language-plaintext highlighter-rouge"> /f</code></p>
+
+<ul>
+  <li>終止程序與其子程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /im </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">映像名稱</span><code class="language-plaintext highlighter-rouge"> /t</code></p>
+
+<ul>
+  <li>終止遠端電腦上的程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">處理程序識別碼</span><code class="language-plaintext highlighter-rouge"> /s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">遠端名稱</span></p>
+
+<ul>
+  <li>顯示此命令的使用資訊：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskkill /?</code></p>

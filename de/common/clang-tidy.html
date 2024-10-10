@@ -1,0 +1,28 @@
+<h1 id="clang-tidy">clang-tidy</h1>
+
+<p>Ein LLVM-basierter C/C++ Linter zum Finden von Stilverletzungen, Bugs und Sicherheitsmängeln durch statische Codeanalyse.
+Weitere Informationen: <a href="https://clang.llvm.org/extra/clang-tidy/">https://clang.llvm.org/extra/clang-tidy/</a>.</p>
+
+<ul>
+  <li>Führe die Standard-Checks für eine Quelldatei aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-tidy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span></p>
+
+<ul>
+  <li>Prüfe nur ob eine Datei den <code class="language-plaintext highlighter-rouge">cppcoreguidelines</code> Checks entspricht:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-tidy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -checks=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-<em>,cppcoreguidelines-</em></span></p>
+
+<ul>
+  <li>Liste alle verfügbaren Checks auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-tidy -checks=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span><code class="language-plaintext highlighter-rouge"> -list-checks</code></p>
+
+<ul>
+  <li>Lege defines und includes als Kompilierungsoptionen fest (nach <code class="language-plaintext highlighter-rouge">--</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-tidy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -- -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mein_projekt/include</span><code class="language-plaintext highlighter-rouge"> -D</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">definitions</span></p>

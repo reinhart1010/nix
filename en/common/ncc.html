@@ -1,0 +1,41 @@
+<h1 id="ncc">ncc</h1>
+
+<p>Compile a Node.js application into a single file.
+Supports TypeScript, binary addons and dynamic requires.
+More information: <a href="https://github.com/vercel/ncc">https://github.com/vercel/ncc</a>.</p>
+
+<ul>
+  <li>Bundle a Node.js application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncc build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.js</span></p>
+
+<ul>
+  <li>Bundle and minify a Node.js application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncc build --minify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.js</span></p>
+
+<ul>
+  <li>Bundle and minify a Node.js application and generate source maps:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncc build --source-map </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.js</span></p>
+
+<ul>
+  <li>Automatically recompile on changes to source files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncc build --watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.js</span></p>
+
+<ul>
+  <li>Bundle a Node.js application into a temporary directory and run it for testing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncc run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.js</span></p>
+
+<ul>
+  <li>Clean the <code class="language-plaintext highlighter-rouge">ncc</code> cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncc clean cache</code></p>

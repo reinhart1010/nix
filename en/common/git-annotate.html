@@ -1,0 +1,24 @@
+<h1 id="git-annotate">git annotate</h1>
+
+<p>Show commit hash and last author on each line of a file.
+See <code class="language-plaintext highlighter-rouge">git blame</code>, which is preferred over <code class="language-plaintext highlighter-rouge">git annotate</code>.
+<code class="language-plaintext highlighter-rouge">git annotate</code> is provided for those familiar with other version control systems.
+More information: <a href="https://git-scm.com/docs/git-annotate">https://git-scm.com/docs/git-annotate</a>.</p>
+
+<ul>
+  <li>Print a file with the author name and commit hash prepended to each line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print a file with the author email and commit hash prepended to each line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|–show-email</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print only rows that match a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annotate -L :</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regexp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

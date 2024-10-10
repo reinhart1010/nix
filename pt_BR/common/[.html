@@ -1,0 +1,47 @@
+<h1>[</h1>
+
+<p>Avalia condição.
+Retorna 0 se a condição for verdadeira, 1 se for falsa.
+Mais informações: <a href="https://gnu.org/software/bash/manual/bash.html#index-test">https://gnu.org/software/bash/manual/bash.html#index-test</a>.</p>
+
+<ul>
+  <li>Testa se uma determinada variável é igual a/diferente de uma determinada string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variavel</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">=|!=</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/string</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Testa se uma determinada variável é igual/diferente/maior que/menor que/maior ou igual/menor ou igual a um determinado inteiro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq|ne|gt|lt|ge|le</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">integer</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Testa se uma determinada variável tem um valor [n]ão vazio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -n "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variavel</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Testa se uma determinada variável é vazia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -z "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variavel</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Testa se um arquivo existe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Testa se um [d]iretório existe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Testa se um determinado arquivo ou diretório [e]xiste:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretorio</span><code class="language-plaintext highlighter-rouge"> ]</code></p>

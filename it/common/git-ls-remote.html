@@ -1,0 +1,35 @@
+<h1 id="git-ls-remote">git ls-remote</h1>
+
+<p>Elenca i riferimenti in un repository remoto dato un nome o un URL.
+Qualora né nome né URL siano specificati, il ramo predefinito è upstream - se configurato - oppure origin.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-ls-remote">https://git-scm.com/docs/git-ls-remote</a>.</p>
+
+<ul>
+  <li>Mostra tutti i riferimenti nel repository remoto predefinito:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-remote</code></p>
+
+<ul>
+  <li>Mostra solo i riferimenti HEAD nel repository remoto predefinito:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-remote --heads</code></p>
+
+<ul>
+  <li>Mostra solo i riferimenti a tag nel repository remoto predefinito:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-remote --tags</code></p>
+
+<ul>
+  <li>Mostra tutti i riferimenti da un repository remoto dato un nome o URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repository</span></p>
+
+<ul>
+  <li>Filtra i riferimenti da un repository remoto rispetto a un dato criterio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">criterio</span><code class="language-plaintext highlighter-rouge">"</code></p>

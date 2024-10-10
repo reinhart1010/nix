@@ -1,0 +1,44 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="naabu">naabu</h1>
+
+<p>Un rápido escáner de puertos escrito en Go con un enfoque en la fiabilidad y la simplicidad.
+Nota: Algunas características solo se activan cuando <code class="language-plaintext highlighter-rouge">naabu</code> se ejecuta con privilegios del superusuario, como el escaneo SYN.
+Más información: <a href="https://github.com/projectdiscovery/naabu">https://github.com/projectdiscovery/naabu</a>.</p>
+
+<ul>
+  <li>Ejecuta un escaneo SYN contra los puertos predeterminados (top 100) del host remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo naabu -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Muestra las interfaces de red disponibles y la dirección IP pública del host local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -interface-list</code></p>
+
+<ul>
+  <li>Escanea todos los puertos del host remoto (escaneo CONNECT sin <code class="language-plaintext highlighter-rouge">sudo</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -p - -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Escanea los top 1000 puertos del host remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -top-ports 1000 -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Escanea los puertos TCP 80, 443 y UDP 53 del host remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -p 80,443,u:53 -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Muestra el tipo de CDN que utiliza el host remoto, si existe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -p 80,443 -cdn -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>

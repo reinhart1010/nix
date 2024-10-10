@@ -1,0 +1,26 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="caret">Caret</h1>
+
+<p>在 Bash 中，有一个内建命令可以快速替换前一个命令中的字符串并执行结果。
+相当于 <code class="language-plaintext highlighter-rouge">!!:s^string1^string2</code>。
+更多信息：<a href="https://gnu.org/software/bash/manual/bash.html#Event-Designators">https://gnu.org/software/bash/manual/bash.html#Event-Designators</a>.</p>
+
+<ul>
+  <li>运行前一个命令，将<code class="language-plaintext highlighter-rouge">字符串1</code>替换为<code class="language-plaintext highlighter-rouge">字符串2</code>：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串2</span></p>
+
+<ul>
+  <li>从前一个命令中移除<code class="language-plaintext highlighter-rouge">字符串1</code>：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串1</span><code class="language-plaintext highlighter-rouge">^</code></p>
+
+<ul>
+  <li>在前一个命令中将<code class="language-plaintext highlighter-rouge">字符串1</code>替换为<code class="language-plaintext highlighter-rouge">字符串2</code>，并在末尾添加<code class="language-plaintext highlighter-rouge">字符串3</code>：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串2</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串3</span></p>

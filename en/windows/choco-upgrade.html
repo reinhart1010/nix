@@ -1,0 +1,46 @@
+<h1 id="choco-upgrade">choco upgrade</h1>
+
+<p>Upgrade one or more packages with Chocolatey.
+More information: <a href="https://chocolatey.org/docs/commands-upgrade">https://chocolatey.org/docs/commands-upgrade</a>.</p>
+
+<ul>
+  <li>Upgrade one or more packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>Upgrade to a specific version of a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> --version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Upgrade all packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade all</code></p>
+
+<ul>
+  <li>Upgrade all except specified comma-separated packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade all --except "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1,package2,…</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Confirm all prompts automatically:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> --yes</code></p>
+
+<ul>
+  <li>Specify a custom source to receive packages from:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_url|alias</span></p>
+
+<ul>
+  <li>Provide a username and password for authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>

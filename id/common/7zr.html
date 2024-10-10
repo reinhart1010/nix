@@ -1,0 +1,47 @@
+<h1 id="7zr">7zr</h1>
+
+<p>Pengarsip file dengan rasio kompresi yang tinggi.
+Serupa dengan <code class="language-plaintext highlighter-rouge">7z</code> namun mendukung format file arsip 7z saja.
+Informasi lebih lanjut: <a href="https://manned.org/7zr">https://manned.org/7zr</a>.</p>
+
+<ul>
+  <li>T[a]mbahkan sebuah file atau direktori ke dalam arsip baru atau saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span></p>
+
+<ul>
+  <li>Enkripsi file arsip saat ini (termasuk nama-nama file yang terkandung di dalamnya):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip_terenkripsi.7z</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata sandi</span><code class="language-plaintext highlighter-rouge"> -mhe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span></p>
+
+<ul>
+  <li>E[x]trak file arsip dengan mempertahankan struktur direktori asli:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span></p>
+
+<ul>
+  <li>E[x]trak file arsip ke dalam direktori yang ditentukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>E[x]trak file arsip menuju <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>[l]ihat daftar isi dari sebuah file arsip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span></p>
+
+<ul>
+  <li>Atur tingkat kompresi pada file arsip (tingkat lebih tinggi memproduksi file arsip lebih kecil dengan proses kompresi yang lebih lama):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span><code class="language-plaintext highlighter-rouge"> -mx=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span></p>

@@ -1,0 +1,34 @@
+<h1 id="xattr">xattr</h1>
+
+<p>Utility to work with extended filesystem attributes.
+More information: <a href="https://keith.github.io/xcode-man-pages/xattr.1.html">https://keith.github.io/xcode-man-pages/xattr.1.html</a>.</p>
+
+<ul>
+  <li>List key:value extended attributes for a given file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Write an attribute for a given file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">attribute_key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">attribute_value</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Delete an attribute from a given file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.quarantine</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Delete all extended attributes from a given file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Recursively delete an attribute in a given directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -rd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">attribute_key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span></p>

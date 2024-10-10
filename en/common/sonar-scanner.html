@@ -1,0 +1,28 @@
+<h1 id="sonar-scanner">sonar-scanner</h1>
+
+<p>A generic scanner for SonarQube projects that do not use build tools such as Maven, Gradle, or Ant.
+More information: <a href="https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/">https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/</a>.</p>
+
+<ul>
+  <li>Scan a project with configuration file in your project's root directory named <code class="language-plaintext highlighter-rouge">sonar-project.properties</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sonar-scanner</code></p>
+
+<ul>
+  <li>Scan a project using configuration file other than <code class="language-plaintext highlighter-rouge">sonar-project.properties</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sonar-scanner -D</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project.settings=myproject.properties</span></p>
+
+<ul>
+  <li>Print debugging information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sonar-scanner -X</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sonar-scanner -h</code></p>

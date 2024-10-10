@@ -1,0 +1,28 @@
+<h1 id="ltrace">ltrace</h1>
+
+<p>Display dynamic library calls of a process.
+More information: <a href="https://manned.org/ltrace">https://manned.org/ltrace</a>.</p>
+
+<ul>
+  <li>Print (trace) library calls of a program binary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ltrace ./</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Count library calls. Print a handy summary at the bottom:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ltrace -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/program</span></p>
+
+<ul>
+  <li>Trace calls to malloc and free, omit those done by libc:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ltrace -e malloc+free-@libc.so* </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/program</span></p>
+
+<ul>
+  <li>Write to file instead of terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ltrace -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/program</span></p>

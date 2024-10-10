@@ -1,0 +1,18 @@
+<h1 id="ssh-agent">ssh-agent</h1>
+
+<p>Iniciar um processo do Agente SSH.
+Um Agente SSH mantém as chaves SSH descriptografadas na memória até serem removidas ou o processo ser encerrado.
+Veja também <code class="language-plaintext highlighter-rouge">ssh-add</code>, que pode adicionar e gerenciar chaves mantidas por um Agente SSH.
+Mais informações: <a href="https://man.openbsd.org/ssh-agent">https://man.openbsd.org/ssh-agent</a>.</p>
+
+<ul>
+  <li>Inicia um Agente SSH para o shell atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eval $(ssh-agent)</code></p>
+
+<ul>
+  <li>Encerra o Agente em execução atualmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-agent -k</code></p>

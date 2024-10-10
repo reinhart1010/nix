@@ -1,0 +1,47 @@
+<h1 id="assimp">assimp</h1>
+
+<p>Client da linea di comando per la Open Asset Import Library.
+Supporta il caricamento di 40+ formati di file per modelli 3D, e l'espoerazione di diversi formati 3D popolari.
+Maggiori informazioni: <a href="https://assimp-docs.readthedocs.io/">https://assimp-docs.readthedocs.io/</a>.</p>
+
+<ul>
+  <li>Elenca tutti i formati supportati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp listext</code></p>
+
+<ul>
+  <li>Elenca tutti i formati supportati per l'esportazione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp listexport</code></p>
+
+<ul>
+  <li>Converti un file a uno dei tipi supportati, utilizzando i parametri predefiniti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_input.stl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_output.obj</span></p>
+
+<ul>
+  <li>Converti un file utilizzando parametri personalizzati (il file dox_cmd.h nel source code di assimp contiene una lista di parametri disponibili):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_input.stl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_output.obj</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parametri</span></p>
+
+<ul>
+  <li>Mostra un riepilogo del contenuto di un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Elenca tutti i sottocomandi disponibili (detti "verbs"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp help</code></p>
+
+<ul>
+  <li>Chiedi aiuto per uno specifico sottocomando (ad esempio riguardo i suoi parametri):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sottocomando</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

@@ -1,0 +1,34 @@
+<h1 id="nasm">nasm</h1>
+
+<p>The Netwide Assembler, a portable 80x86 assembler.
+More information: <a href="https://nasm.us">https://nasm.us</a>.</p>
+
+<ul>
+  <li>Assemble <code class="language-plaintext highlighter-rouge">source.asm</code> into a binary file <code class="language-plaintext highlighter-rouge">source</code>, in the (default) raw binary format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nasm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.asm</span></p>
+
+<ul>
+  <li>Assemble <code class="language-plaintext highlighter-rouge">source.asm</code> into a binary file <code class="language-plaintext highlighter-rouge">output_file</code>, in the specified format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nasm -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.asm</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span></p>
+
+<ul>
+  <li>List valid output formats (along with basic nasm help):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nasm -hf</code></p>
+
+<ul>
+  <li>Assemble and generate an assembly listing file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nasm -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">list_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.asm</span></p>
+
+<ul>
+  <li>Add a directory (must be written with trailing slash) to the include file search path before assembling:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nasm -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/include_dir/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.asm</span></p>

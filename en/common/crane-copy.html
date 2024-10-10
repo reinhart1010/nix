@@ -1,0 +1,34 @@
+<h1 id="crane-copy">crane copy</h1>
+
+<p>Efficiently copy a remote image from source to target while retaining the digest value.
+More information: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_copy.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_copy.md</a>.</p>
+
+<ul>
+  <li>Copy an image from source to target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span></p>
+
+<ul>
+  <li>Copy all tags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–all-tags</span></p>
+
+<ul>
+  <li>Set the maximum number of concurrent copies, defaults to GOMAXPROCS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-j|–jobs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">int</span></p>
+
+<ul>
+  <li>Avoid overwriting existing tags in target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–no-clobber</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

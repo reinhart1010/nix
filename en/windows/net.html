@@ -1,0 +1,52 @@
+<h1 id="net">net</h1>
+
+<p>System utility to view and modify network-related settings.
+More information: <a href="https://learn.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)">https://learn.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)</a>.</p>
+
+<ul>
+  <li>Start or stop a Windows service synchronously:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span></p>
+
+<ul>
+  <li>Make sure an SMB share is available in the current console:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net use </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\smb_shared_folder</span><code class="language-plaintext highlighter-rouge"> /USER:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Show the folders currently shared over SMB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net share</code></p>
+
+<ul>
+  <li>Show who is using your SMB shares (run in elevated console):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net session</code></p>
+
+<ul>
+  <li>Show users in a local security group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net localgroup "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Administrators</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Add a user to the local security group (run in elevated console):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net localgroup "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Administrators</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> /add</code></p>
+
+<ul>
+  <li>Display help for a subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net help</code></p>

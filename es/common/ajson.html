@@ -1,0 +1,28 @@
+<h1 id="ajson">ajson</h1>
+
+<p>Ejecuta JSONPath en objetos JSON.
+Más información: <a href="https://github.com/spyzhov/ajson">https://github.com/spyzhov/ajson</a>.</p>
+
+<ul>
+  <li>Lee JSON de un archivo y ejecuta una expresión JSONPath especificada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$..json[?(@.path)]</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.json</span></p>
+
+<ul>
+  <li>Lee JSON de <code class="language-plaintext highlighter-rouge">stdin</code> y ejecuta una expresión JSONPath especificada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.json</span><code class="language-plaintext highlighter-rouge"> | ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$..json[?(@.path)]</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Lee JSON de una URL y evalúa una expresión JSONPath especificada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">avg($..price)</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://ejemplo.com/api/</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Lee un simple cadena JSON y calcula un valor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge">' | ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2 * pi * $</span><code class="language-plaintext highlighter-rouge">'</code></p>

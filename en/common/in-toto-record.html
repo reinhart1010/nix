@@ -1,0 +1,16 @@
+<h1 id="in-toto-record">in-toto-record</h1>
+
+<p>Create a signed link metadata file to provide evidence for supply chain steps.
+More information: <a href="https://in-toto.readthedocs.io/en/latest/command-line-tools/in-toto-record.html">https://in-toto.readthedocs.io/en/latest/command-line-tools/in-toto-record.html</a>.</p>
+
+<ul>
+  <li>Start the record (creates a preliminary link file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in-toto-record start -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/edit_file1 path/to/edit_file2 …</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>
+
+<ul>
+  <li>Stop the record (expects a preliminary link file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in-toto-record stop -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/edit_file1 path/to/edit_file2 …</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>

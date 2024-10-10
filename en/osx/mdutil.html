@@ -1,0 +1,28 @@
+<h1 id="mdutil">mdutil</h1>
+
+<p>Manage the metadata stores used by Spotlight for indexing.
+More information: <a href="https://keith.github.io/xcode-man-pages/mdutil.1.html">https://keith.github.io/xcode-man-pages/mdutil.1.html</a>.</p>
+
+<ul>
+  <li>Show the indexing status of the startup volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdutil -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/</span></p>
+
+<ul>
+  <li>Turn on/off the Spotlight indexing for a given volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdutil -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/volume</span></p>
+
+<ul>
+  <li>Turn on/off indexing for all volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdutil -a -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span></p>
+
+<ul>
+  <li>Erase the metadata stores and restart the indexing process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdutil -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/volume</span></p>

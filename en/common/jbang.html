@@ -1,0 +1,53 @@
+<h1 id="jbang">jbang</h1>
+
+<p>Easily create, edit and run self-contained source-only Java programs.
+See also: <code class="language-plaintext highlighter-rouge">java</code>.
+More information: <a href="https://www.jbang.dev/documentation/guide/latest/cli/jbang.html">https://www.jbang.dev/documentation/guide/latest/cli/jbang.html</a>.</p>
+
+<ul>
+  <li>Initialize a simple Java class:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.java</span></p>
+
+<ul>
+  <li>Initialize a Java class (useful for scripting):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang init --template=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cli</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.java</span></p>
+
+<ul>
+  <li>Use <code class="language-plaintext highlighter-rouge">jshell</code> to explore and use a script and any dependencies in a REPL editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang run --interactive</code></p>
+
+<ul>
+  <li>Setup a temporary project to edit a script in an IDE:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang edit --open=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">codium|code|eclipse|idea|netbeans|gitpod</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.java</span></p>
+
+<ul>
+  <li>Run a Java code snippet (Java 9 and later):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'Files.list(Paths.get("/etc")).forEach(System.out::println);'</span><code class="language-plaintext highlighter-rouge"> | jbang -</code></p>
+
+<ul>
+  <li>Run command-line application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.java</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg1 arg2 …</span></p>
+
+<ul>
+  <li>Install a script on the user's <code class="language-plaintext highlighter-rouge">$PATH</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang app install --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.java</span></p>
+
+<ul>
+  <li>Install a specific version of JDK to be used with <code class="language-plaintext highlighter-rouge">jbang</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang jdk install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>

@@ -1,0 +1,34 @@
+<h1 id="kubectl-describe">kubectl describe</h1>
+
+<p>Details von Kubernetes-Objekten und -Ressourcen anzeigen.
+Weitere Informationen: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe</a>.</p>
+
+<ul>
+  <li>Zeige Details zu Pods in einem bestimmten [n]amespace an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe pods --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Zeige Details zu Nodes in einem bestimmten [n]amespace an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe nodes --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Zeige Details zu einem bestimmten Pod in einem bestimmten [n]amespace an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe pods </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span><code class="language-plaintext highlighter-rouge"> --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Zeige Details zu einer bestimmten Node in einem bestimmten [n]amespace an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe nodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_name</span><code class="language-plaintext highlighter-rouge"> --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Zeige Details zu Ressourcen, die in einer YAML Datei definiert sind, an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/manifest.yaml</span></p>

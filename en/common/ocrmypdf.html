@@ -1,0 +1,40 @@
+<h1 id="ocrmypdf">ocrmypdf</h1>
+
+<p>Generate a searchable PDF or PDF/A from a scanned PDF or an image of text.
+More information: <a href="https://ocrmypdf.readthedocs.io/en/latest/cookbook.html">https://ocrmypdf.readthedocs.io/en/latest/cookbook.html</a>.</p>
+
+<ul>
+  <li>Create a new searchable PDF/A file from a scanned PDF or image file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span></p>
+
+<ul>
+  <li>Replace a scanned PDF file with a searchable PDF file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>
+
+<ul>
+  <li>Skip pages of a mixed-format input PDF file that already contain text:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf --skip-text </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span></p>
+
+<ul>
+  <li>Clean, de-skew, and rotate pages of a poor scan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf --clean --deskew --rotate-pages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span></p>
+
+<ul>
+  <li>Set the metadata of the searchable PDF file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf --title "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title</span><code class="language-plaintext highlighter-rouge">" --author "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">author</span><code class="language-plaintext highlighter-rouge">" --subject "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject</span><code class="language-plaintext highlighter-rouge">" --keywords "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword; key phrase; …</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf --help</code></p>

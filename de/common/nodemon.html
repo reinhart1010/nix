@@ -1,0 +1,46 @@
+<h1 id="nodemon">nodemon</h1>
+
+<p>Beobachtet Dateien und startet Node Applikationen automatisch neu, wenn Änderungen erkannt wurden.
+Weitere Informationen: <a href="https://nodemon.io">https://nodemon.io</a>.</p>
+
+<ul>
+  <li>Führe die angegebene Datei aus und warte auf Änderungen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.js</span></p>
+
+<ul>
+  <li>Manueller Neustart von Nodemon (beachte, dass Nodemon dabei aktiv sein muss):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rs</code></p>
+
+<ul>
+  <li>Ignoriere bestimmte Dateien:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span></p>
+
+<ul>
+  <li>Übergib Argumente an die Node Applikation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.js</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumente</span></p>
+
+<ul>
+  <li>Übergib Argumente an node selbst, wenn sie nicht bereits Argumente von nodemon sind (z.B. <code class="language-plaintext highlighter-rouge">--inspect</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumente</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.js</span></p>
+
+<ul>
+  <li>Führe Nicht-Node Skripte aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon --exec "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl_um_skript_auszuführen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumente</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/skript</span></p>
+
+<ul>
+  <li>Führe ein Python-Skript aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon --exec "python </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumente</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.py</span></p>

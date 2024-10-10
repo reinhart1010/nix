@@ -1,0 +1,47 @@
+<h1 id="linode-cli-object-storage">linode-cli object-storage</h1>
+
+<p>Beheer Linode Object Storage.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">linode-cli</code>.
+Meer informatie: <a href="https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-object-storage">https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-object-storage</a>.</p>
+
+<ul>
+  <li>Toon alle Object Storage buckets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage buckets list</code></p>
+
+<ul>
+  <li>Maak een nieuwe Object Storage bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage buckets create --cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_id</span><code class="language-plaintext highlighter-rouge"> --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_label</span></p>
+
+<ul>
+  <li>Verwijder een Object Storage bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage buckets delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_label</span></p>
+
+<ul>
+  <li>Toon alle Object Storage cluster regio's:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage clusters list</code></p>
+
+<ul>
+  <li>Toon alle access keys voor Object Storage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage keys list</code></p>
+
+<ul>
+  <li>Maak een nieuw access key voor Object Storage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage keys create --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label</span></p>
+
+<ul>
+  <li>Trek een access key terug voor Object Storage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage keys revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access_key_id</span></p>

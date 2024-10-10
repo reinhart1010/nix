@@ -1,0 +1,16 @@
+<h1 id="scanimage">scanimage</h1>
+
+<p>Scan images with the Scanner Access Now Easy API.
+More information: <a href="http://sane-project.org/man/scanimage.1.html">http://sane-project.org/man/scanimage.1.html</a>.</p>
+
+<ul>
+  <li>List available scanners to ensure the target device is connected and recognized:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scanimage -L</code></p>
+
+<ul>
+  <li>Scan an image and save it to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scanimage --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pnm|tiff|png|jpeg</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_image</span></p>

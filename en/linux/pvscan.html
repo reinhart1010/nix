@@ -1,0 +1,37 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="https://nix.reinhart1010.id/en/linux/pvscan.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="pvscan">pvscan</h1>
+
+<p>List all physical volumes and manage their online status.
+More information: <a href="https://manned.org/pvscan">https://manned.org/pvscan</a>.</p>
+
+<ul>
+  <li>List all physical volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvscan</code></p>
+
+<ul>
+  <li>Show the volume group that uses a specific physical volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvscan --cache --listvg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Show logical volumes that use a specific physical volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvscan --cache --listlvs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Display detailed information in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvscan --reportformat json</code></p>
