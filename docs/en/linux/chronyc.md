@@ -2,14 +2,14 @@
 layout: page
 title: linux/chronyc (English)
 description: "Query the Chrony NTP daemon."
-content_hash: 4bf37a53ad739bebd629b3a628b94a3aa7bd3e9e
-last_modified_at: 2023-11-12
+content_hash: d7bb93d354ad52ee0a494f59c5b6461b2e69cc0f
+last_modified_at: 2024-10-10
 tldri18n_status: 2
 ---
 # chronyc
 
 Query the Chrony NTP daemon.
-More information: <https://chrony.tuxfamily.org/doc/4.0/chronyc.html>.
+More information: <https://chrony-project.org/doc/4.6.1/chronyc.html>.
 
 - Start `chronyc` in interactive mode:
 

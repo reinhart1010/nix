@@ -2,8 +2,8 @@
 layout: page
 title: android/wm (українська)
 description: "Показати інформацію про екран Android девайсу."
-content_hash: 6b667660e8c171e6b09f23a4595b141f7c61761e
-last_modified_at: 2023-11-12
+content_hash: 986b6aa46b769c77e03807285c84b6c04933cb62
+last_modified_at: 2024-10-10
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/wm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/wm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/wm.html
@@ -69,8 +72,8 @@ tldri18n_status: 2
 
 - Вивести фізичний розмір екрану Android девайсу:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">розмір</span>
+`wm size`
 
 - Вивести фізичну щільність екрану Android девайсу:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">щільність</span>
+`wm density`

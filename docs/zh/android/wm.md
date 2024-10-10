@@ -2,8 +2,8 @@
 layout: page
 title: android/wm (中文)
 description: "显示关于 Android 设备屏幕的信息。"
-content_hash: d12889d1380558e3e4fdb6dd621e24a8e7feaeb3
-last_modified_at: 2023-11-12
+content_hash: 129f765ee79a7eb75e51eed82eb6c5a82bca5ca6
+last_modified_at: 2024-10-10
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/wm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/wm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/wm.html
@@ -69,8 +72,8 @@ tldri18n_status: 2
 
 - 显示 Android 设备屏幕的物理尺寸：
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span>
+`wm size`
 
 - 显示 Android 设备屏幕的物理密度：
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">density</span>
+`wm density`

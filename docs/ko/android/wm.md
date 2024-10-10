@@ -2,8 +2,8 @@
 layout: page
 title: android/wm (한국어)
 description: "Android 기기 화면에 대한 정보 표시."
-content_hash: 67d54d75604f40815901a47974e5ee0d7bc40c6e
-last_modified_at: 2023-11-26
+content_hash: f7aa01670c6ccd02f32290cfc4477af912692d84
+last_modified_at: 2024-10-10
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html
@@ -72,8 +72,8 @@ Android 기기 화면에 대한 정보 표시.
 
 - Android 기기 화면의 물리적 크기를 표시:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">크기</span>
+`wm size`
 
 - Android 기기 화면의 물리적 밀도를 표시:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">밀도</span>
+`wm density`

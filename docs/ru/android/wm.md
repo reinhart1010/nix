@@ -2,8 +2,8 @@
 layout: page
 title: android/wm (русский)
 description: "Показать информацию об экране Android-устройства."
-content_hash: b3980c1795a36bea1dd71c75e392ee9f0ef76fdd
-last_modified_at: 2023-11-12
+content_hash: 01c54c05db2703165d501c38a11497d13903bf9c
+last_modified_at: 2024-10-10
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/wm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/wm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/wm.html
@@ -69,8 +72,8 @@ tldri18n_status: 2
 
 - Показать физический размер экрана Android-устройства:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span>
+`wm size`
 
 - Показать физическую плотность экрана Android-устройства:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">density</span>
+`wm density`

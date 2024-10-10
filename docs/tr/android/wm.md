@@ -2,8 +2,8 @@
 layout: page
 title: android/wm (Türkçe)
 description: "Bir Android cihazının ekranı ile ilgili bilgi göster."
-content_hash: 6d389d00cd6c3676be7faefe8f58f364cd1dbca2
-last_modified_at: 2023-11-12
+content_hash: 32c0e1eb3914922885c478e6de116bef2d9cbba2
+last_modified_at: 2024-10-10
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/wm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/wm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/wm.html
@@ -69,8 +72,8 @@ Daha fazla bilgi için: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17
 
 - Bir Android cihazının ekranının fiziksel boyutunu görüntüle:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span>
+`wm size`
 
 - Bir Android cihazının ekranının fiziksel derinliğini görüntüle:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">density</span>
+`wm density`

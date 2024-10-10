@@ -2,8 +2,8 @@
 layout: page
 title: android/wm (Deutsch)
 description: "Zeige Informationen über den Bildschirm eines Android-Geräts."
-content_hash: 7c5121461455820bb41c9ad45f568930106657c9
-last_modified_at: 2023-11-12
+content_hash: 503767ce9d17dbc33d67a339452b648a10352108
+last_modified_at: 2024-10-10
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/wm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/wm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/wm.html
@@ -69,8 +72,8 @@ Weitere Informationen: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e
 
 - Gib die physische Größe des Bildschirms eines Geräts aus:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span>
+`wm size`
 
 - Gib die physische Pixeldichte des Bildschirms eines Geräts aus:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">density</span>
+`wm density`

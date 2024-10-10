@@ -2,8 +2,8 @@
 layout: page
 title: android/wm (தமிழ்)
 description: "ஆண்ட்ராய்டு சாதனத்தின் திரை பற்றிய தகவலைக் காட்டு."
-content_hash: a631c2c96675a552b4c64735f65c4b386a747558
-last_modified_at: 2023-11-12
+content_hash: 34879f3589afbbfcc9ac3452869e49b6b1be3568
+last_modified_at: 2024-10-10
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/wm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/wm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/wm.html
@@ -69,8 +72,8 @@ tldri18n_status: 2
 
 - ஆண்ட்ராய்டு சாதனத்தின் திரையின் இயற்பியல் அளவைக் காட்டு:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அளவு</span>
+`wm size`
 
 - ஆண்ட்ராய்டு சாதனத்தின் திரையின் உடல் அடர்த்தியைக் காட்டவும்:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடர்த்தி</span>
+`wm density`

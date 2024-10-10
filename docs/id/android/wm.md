@@ -2,8 +2,8 @@
 layout: page
 title: android/wm (Indonesia)
 description: "Menunjukkan informasi layar sebuah perangkat Android."
-content_hash: a6691f91c1c270eea1c4c7a545ee40f2cdc01012
-last_modified_at: 2023-11-12
+content_hash: 922f660bf60e2763fee197ab4712024732ae45b9
+last_modified_at: 2024-10-10
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/wm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/wm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/wm.html
@@ -69,8 +72,8 @@ Informasi lebih lanjut: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17
 
 - Tampilkan ukuran fisik terhadap layar perangkat:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span>
+`wm size`
 
 - Tampilkan tingkat kepadatan resolusi terhadap layar perangkat:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">density</span>
+`wm density`

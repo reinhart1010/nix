@@ -2,8 +2,8 @@
 layout: page
 title: android/wm (português (Portugal))
 description: "Exibe informações da tela de um dispositivo Android."
-content_hash: ddf42fa0609353f917184756420009758ebce8cd
-last_modified_at: 2023-12-28
+content_hash: eb1a3af623fbf2db7449b876c5e4747d83f86686
+last_modified_at: 2024-10-10
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html
@@ -72,8 +72,8 @@ Mais informações: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e795
 
 - Mostra o tamanho da tela de um dispositivo Android:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span>
+`wm size`
 
 - Mostra a densidade de píxeis da tela de um dispositivo Android:
 
-`wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">density</span>
+`wm density`
