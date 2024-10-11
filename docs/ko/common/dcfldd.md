@@ -1,0 +1,33 @@
+---
+layout: page
+title: common/dcfldd (한국어)
+description: "법의학 및 보안을 위한 향상된 dd 버전."
+content_hash: 6c9495414c6552496d6dda80cc7f2d78dc1ae7dd
+last_modified_at: 2024-10-11
+related_topics:
+  - title: English version
+    url: /en/common/dcfldd.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/dcfldd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># dcfldd
+
+법의학 및 보안을 위한 향상된 dd 버전.
+더 많은 정보: <http://dcfldd.sourceforge.net/>.
+
+- 원시 이미지 파일에 디스크를 복사하고 SHA256을 사용해 이미지를 해시:
+
+`dcfldd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disk_device</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.img</span>` hash=sha256 hashlog=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.hash</span>
+
+- 디스크를 원시 이미지 파일에 복사하여, 각 1GB 청크를 해싱:
+
+`dcfldd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disk_device</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.img</span>` hash=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha512|sha384|sha256|sha1|md5</span>` hashlog=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.hash</span>` hashwindow=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1G</span>

@@ -1,0 +1,51 @@
+---
+layout: page
+title: common/cs (한국어)
+description: "Scala 언어용 애플리케이션 및 아티팩트 관리자."
+content_hash: 2deef1b7da61a151dd8b27d330b86296a69e0105
+last_modified_at: 2024-10-11
+related_topics:
+  - title: English version
+    url: /en/common/cs.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cs.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cs
+
+Scala 언어용 애플리케이션 및 아티팩트 관리자.
+Scala 애플리케이션을 설치하고 Scala 개발 환경을 설정.
+`install`, `launch`, `java`, `fetch`, `resolve`, `complete-dep` 등과 같은 일부 하위 명령에는 자체 사용 설명서가 있음.
+더 많은 정보: <https://get-coursier.io/docs/overview>.
+
+- 설치된 애플리케이션 목록:
+
+`cs list`
+
+- 특정 애플리케이션 설치:
+
+`cs install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션_이름</span>
+
+- 특정 애플리케이션 제거:
+
+`cs uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션_이름</span>
+
+- Scala 개발을 위한 설정 머신:
+
+`cs setup`
+
+- 설치된 모든 애플리케이션을 업데이트:
+
+`cs update`
+
+- 버전 표시:
+
+`cs version`

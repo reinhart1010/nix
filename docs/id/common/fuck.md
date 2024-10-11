@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fuck (Indonesia)
-description: "Mengoreksi perintah konsol sebelumnya."
-content_hash: e14349df9dedfa4ceb3725ac01a13665f1e0f020
-last_modified_at: 2023-11-12
+description: "Koreksi perintah konsol sebelumnya."
+content_hash: 59406c9db39b16f3e2e809b68df00d50a816ca0b
+last_modified_at: 2024-10-11
 related_topics:
   - title: Deutsch version
     url: /de/common/fuck.html
@@ -18,17 +18,17 @@ tldri18n_status: 2
 ---
 # fuck
 
-Mengoreksi perintah konsol sebelumnya.
+Koreksi perintah konsol sebelumnya.
 Informasi lebih lanjut: <https://github.com/nvbn/thefuck>.
 
-- Memasang `fuck` alias ke alat `thefuck`:
+- Pasang alias `fuck` ke alat `thefuck`:
 
 `eval "$(thefuck --alias)"`
 
-- Mencoba mencocokkan aturan untuk perintah sebelumnya:
+- Coba cocokkan aturan untuk perintah sebelumnya:
 
 `fuck`
 
-- Langsung memilih pilihan pertama (argumen yang benar tergantung dari tingkat kejengkelan):
+- Pilih pilihan pertama secara langsung (argumen yang benar tergantung dari tingkat kejengkelan):
 
 `fuck --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yes|yeah|hard</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/starship (English)
 description: "The minimal, blazing-fast, and infinitely customizable prompt for any shell."
-content_hash: ac38d7b789f578dda7c01781868d5265911defe4
-last_modified_at: 2024-10-05
+content_hash: d291448805e9dbfc61a898b79db751ff8f6676ff
+last_modified_at: 2024-10-11
 tldri18n_status: 2
 ---
 # starship
@@ -14,7 +14,7 @@ More information: <https://starship.rs>.
 
 - Print the starship integration code for the specified shell:
 
-`starship init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|elvish|fish|ion|powershell|tcsh|zsh</span>
+`starship init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|elvish|fish|ion|powershell|tcsh|zsh|nu|xonsh|cmd</span>
 
 - Explain each part of the current prompt and show the time taken to render them:
 

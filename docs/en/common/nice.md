@@ -2,8 +2,8 @@
 layout: page
 title: common/nice (English)
 description: "Execute a program with a custom scheduling priority (niceness)."
-content_hash: 73c3498e0b5a3b074a03a920a526e34047213145
-last_modified_at: 2024-10-08
+content_hash: 76e6d516daa63d5c01765716c2273945d391fb92
+last_modified_at: 2024-10-11
 related_topics:
   - title: Nederlands version
     url: /nl/common/nice.html
@@ -18,7 +18,7 @@ More information: <https://www.gnu.org/software/coreutils/nice>.
 
 - Launch a program with altered priority:
 
-`nice -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">niceness_value</span>`  `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`nice -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">niceness_value</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - Define the priority with an explicit option:
 

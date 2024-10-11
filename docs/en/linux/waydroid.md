@@ -2,8 +2,8 @@
 layout: page
 title: linux/waydroid (English)
 description: "A container-based approach to boot a full Android system on a regular Linux system like Ubuntu."
-content_hash: bc344ad4d4075bd095237e35be65cfb85f115cec
-last_modified_at: 2024-10-06
+content_hash: f1aaf66ac27f7e1119f6c409459bbed8240f0d49
+last_modified_at: 2024-10-11
 tldri18n_status: 2
 ---
 # waydroid
@@ -17,7 +17,7 @@ More information: <https://docs.waydro.id>.
 
 - Initialize Waydroid (required on first run or after reinstalling Android):
 
-`waydroid init`
+`sudo waydroid init`
 
 - Install a new Android app from a file:
 

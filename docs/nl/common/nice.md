@@ -2,8 +2,8 @@
 layout: page
 title: common/nice (Nederlands)
 description: "Voer een programma uit met een aangepaste planningsprioriteit (niceness)."
-content_hash: 057b3e9b57ed49d8f1a7b91e9ce4d91734598924
-last_modified_at: 2024-10-09
+content_hash: a77086f8b88383ace68bc9346afa2e11d9fb4d92
+last_modified_at: 2024-10-11
 related_topics:
   - title: English version
     url: /en/common/nice.html
@@ -21,4 +21,8 @@ Meer informatie: <https://www.gnu.org/software/coreutils/nice>.
 
 - Start een programma met een aangepaste prioriteit:
 
-`nice -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">niceness_waarde</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>
+`nice -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">niceness_waarde</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>
+
+- Definieer de prioriteit met een expliciete optie:
+
+`nice `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--adjustment</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">niceness_waarde</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>

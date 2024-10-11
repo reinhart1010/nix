@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh (English)
 description: "Secure Shell is a protocol used to securely log onto remote systems."
-content_hash: b31fa0abefa39f9807a16f549370f88674d9e114
-last_modified_at: 2024-03-14
+content_hash: 3b8d45a01d778ef19d65432e08909998378db4dc
+last_modified_at: 2024-10-11
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh.html
@@ -56,6 +56,6 @@ More information: <https://man.openbsd.org/ssh>.
 
 `ssh -J `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jump_host</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>
 
-- Agent forwarding: Forward the authentication information to the remote machine (see `man ssh_config` for available options):
+- Close a hanged session:
 
-`ssh -A `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>
+`<Enter> ~ .`
