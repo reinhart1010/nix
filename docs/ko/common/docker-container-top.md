@@ -1,22 +1,35 @@
 ---
 layout: page
 title: common/docker-container-top (한국어)
-description: "이 명령은 `docker top` 의 에일리어스 (별칭) 입니다."
-content_hash: a4352a1dca22582fc917bc80c7e7655c02938331
-last_modified_at: 2023-11-02
+description: "이 명령은 `docker top`의 별칭입니다."
+content_hash: 1f887fe4613a11b17035cba8db4bcbefca7188ac
+last_modified_at: 2024-10-11
 related_topics:
   - title: English version
     url: /en/common/docker-container-top.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker-container-top.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/docker-container-top.html
+    icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
 
-<hr># docker-container-top
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
 
-이 명령은 `docker top` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://docs.docker.com/engine/reference/commandline/top>.
+<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-container-top.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+<hr># docker container top
+
+이 명령은 `docker top`의 별칭입니다.
+더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/top/>.
+
+- 원본 명령에 대한 문서 보기:
 
 `tldr docker top`

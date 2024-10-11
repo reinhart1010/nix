@@ -2,14 +2,14 @@
 layout: page
 title: common/redis-benchmark (English)
 description: "Benchmark a Redis server."
-content_hash: dc37b1a66e964a6eca085a71f1dfa0f20b346cc6
-last_modified_at: 2024-02-15
+content_hash: 330b1e3187cad939148a04dedb4870c19ccb379b
+last_modified_at: 2024-10-11
 tldri18n_status: 2
 ---
 # redis-benchmark
 
 Benchmark a Redis server.
-More information: <https://redis.io/docs/reference/optimization/benchmarks/>.
+More information: <https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/>.
 
 - Run full benchmark:
 
