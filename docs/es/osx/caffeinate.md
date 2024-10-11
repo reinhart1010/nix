@@ -3,7 +3,7 @@ layout: page
 title: osx/caffeinate (español)
 description: "Evita que macOS se duerma."
 content_hash: 7c99c2dac7d39eabecd9e980851300f156c3b355
-last_modified_at: 2024-10-10
+last_modified_at: 2024-10-11
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -29,12 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/caffeinate.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># caffeinate
+# caffeinate
 
 Evita que macOS se duerma.
 Más información: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.

@@ -3,7 +3,7 @@ layout: page
 title: common/rev (svenska)
 description: "Omvänd en textrad."
 content_hash: 9573f1d6a489d9bbe67224cbc88ce7ce003e5303
-last_modified_at: 2023-11-12
+last_modified_at: 2024-10-11
 related_topics:
   - title: Deutsch version
     url: /de/common/rev.html
@@ -11,9 +11,12 @@ related_topics:
   - title: English version
     url: /en/common/rev.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# rev
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># rev
 
 Omvänd en textrad.
 Mer information: <https://manned.org/rev>.
