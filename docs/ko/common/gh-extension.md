@@ -3,23 +3,14 @@ layout: page
 title: common/gh-extension (한국어)
 description: "GitHub CLI 확장 관리."
 content_hash: 83cba0efbdead3644a9e9060866c46eac918f00d
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/gh-extension.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gh-extension.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gh extension
+# gh extension
 
 GitHub CLI 확장 관리.
 더 많은 정보: <https://cli.github.com/manual/gh_extension>.

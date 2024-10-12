@@ -3,23 +3,14 @@ layout: page
 title: common/clifm (한국어)
 description: "명령줄 파일 관리자."
 content_hash: 3f0753539e65e68795833ae321ce3f2b4cd10427
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/clifm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/clifm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># clifm
+# clifm
 
 명령줄 파일 관리자.
 참고: `vifm`, `ranger`, `mc`, `nautilus`.

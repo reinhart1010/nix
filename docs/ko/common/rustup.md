@@ -3,7 +3,7 @@ layout: page
 title: common/rustup (한국어)
 description: "Rust 툴체인을 설치, 관리 및 업데이트."
 content_hash: 3111df943270109f6ad897cec983ac09e2ec351e
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/rustup.html
@@ -11,18 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/rustup.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rustup.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rustup
+# rustup
 
 Rust 툴체인을 설치, 관리 및 업데이트.
 `toolchain`, `target`, `update` 등의 일부 하위 명령에는 자체 사용 설명서가 있습니다.

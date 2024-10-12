@@ -3,7 +3,7 @@ layout: page
 title: common/dnsx (한국어)
 description: "여러 DNS 쿼리를 실행하기 위한 빠르고 목적이 다양한 DNS 도구 키트."
 content_hash: 313c727404d1398b628821bc0ae8ebecf8b3c517
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/dnsx.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/dnsx.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dnsx.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dnsx
+# dnsx
 
 여러 DNS 쿼리를 실행하기 위한 빠르고 목적이 다양한 DNS 도구 키트.
 참고: 어떤 경우에는 `dnsx`에 대한 입력이 `stdin` (파이프 `|`)를 통해 전달되어야 함.

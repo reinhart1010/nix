@@ -3,7 +3,7 @@ layout: page
 title: common/docker-pull (한국어)
 description: "Docker 이미지를 레지스트리에서 다운로드."
 content_hash: 43f43e87145731917251124c981525c48fd51dff
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/docker-pull.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/docker-pull.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-pull.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker pull
+# docker pull
 
 Docker 이미지를 레지스트리에서 다운로드.
 더 많은 정보: <https://docs.docker.com/reference/cli/docker/image/pull/>.

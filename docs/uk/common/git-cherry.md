@@ -3,7 +3,7 @@ layout: page
 title: common/git-cherry (українська)
 description: "Виявляє коміти, які ще не були застосовані до першоджерела."
 content_hash: 66387c9c3edd4bad4a6b5e197507fb2a5a46cc84
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/git-cherry.html
@@ -23,18 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-cherry.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-cherry.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git cherry
+# git cherry
 
 Виявляє коміти, які ще не були застосовані до першоджерела.
 Більше інформації: <https://git-scm.com/docs/git-cherry>.

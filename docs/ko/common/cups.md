@@ -3,7 +3,7 @@ layout: page
 title: common/cups (한국어)
 description: "오픈 소스 인쇄 시스템."
 content_hash: 825e74d9c9cc8b2a4213f4c418ccba442c3bfee9
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/cups.html
@@ -14,18 +14,9 @@ related_topics:
   - title: polski version
     url: /pl/common/cups.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cups.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># CUPS
+# CUPS
 
 오픈 소스 인쇄 시스템.
 CUPS는 단일 명령이 아니라, 명령의 집합.

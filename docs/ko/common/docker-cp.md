@@ -3,7 +3,7 @@ layout: page
 title: common/docker-cp (한국어)
 description: "호스트와 컨테이너 파일 시스템 간에 파일이나 디렉토리를 복사."
 content_hash: 0716650fe43a83d56750e8fa3b4d9f90088fe109
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-cp.html
@@ -23,18 +23,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/docker-cp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-cp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker cp
+# docker cp
 
 호스트와 컨테이너 파일 시스템 간에 파일이나 디렉토리를 복사.
 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/cp/>.

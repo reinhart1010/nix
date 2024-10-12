@@ -3,23 +3,14 @@ layout: page
 title: common/dcode (한국어)
 description: "16진수, 10진수, 2진수, base64, URL, FromChar 인코딩, 카이사르 암호, MD5, SHA1 및 SHA2 해시를 지원하여 문자열을 반복적으로 감지하고 디코딩."
 content_hash: df2e1eadcb6a09199abb80f36013de9845c03974
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/dcode.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dcode.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dcode
+# dcode
 
 16진수, 10진수, 2진수, base64, URL, FromChar 인코딩, 카이사르 암호, MD5, SHA1 및 SHA2 해시를 지원하여 문자열을 반복적으로 감지하고 디코딩.
 경고: MD5, SHA1 및 SHA2 해시 조회를 위해 타사 웹 서비스를 사용. 민감한 데이터의 경우, `-s` 옵션을 사용하여 이러한 서비스 사용을 피해야 합니다.

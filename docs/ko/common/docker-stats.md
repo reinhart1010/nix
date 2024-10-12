@@ -3,7 +3,7 @@ layout: page
 title: common/docker-stats (한국어)
 description: "컨테이너의 리소스 사용 통계를 실시간 스트림으로 표시."
 content_hash: 822fc64e92a909b6410f4f4289a28d30def341e8
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-stats.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-stats.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-stats.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker stats
+# docker stats
 
 컨테이너의 리소스 사용 통계를 실시간 스트림으로 표시.
 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/stats/>.

@@ -3,7 +3,7 @@ layout: page
 title: common/time (فارسی)
 description: "نمایش زمان اجرای یک دستور."
 content_hash: fe5fb4b5f314ab5a28145b7a918de750f0658249
-last_modified_at: 2023-12-28
+last_modified_at: 2024-10-12
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -23,9 +23,12 @@ related_topics:
   - title: svenska version
     url: /sv/common/time.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# time
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># time
 
 نمایش زمان اجرای یک دستور.
 اطلاعات بیشتر: <https://manned.org/time>.

@@ -3,23 +3,14 @@ layout: page
 title: common/gcloud-components-install (한국어)
 description: "Google Cloud CLI의 구성 요소와 그 의존성을 설치."
 content_hash: aaacc4c035fa4e382ddf609d037c713828c71e75
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/gcloud-components-install.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gcloud-components-install.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcloud components install
+# gcloud components install
 
 Google Cloud CLI의 구성 요소와 그 의존성을 설치.
 기존 설치를 업그레이드하지 않고 현재 Google Cloud CLI 버전의 구성 요소를 설치.

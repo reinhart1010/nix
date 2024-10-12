@@ -3,23 +3,14 @@ layout: page
 title: common/croc (한국어)
 description: "모든 네트워크를 통해 쉽고 안전하게 파일을 보내고 받을 수 있음."
 content_hash: c661d66b850d17cd6a3644a8b265f75c723bf734
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/croc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/croc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># croc
+# croc
 
 모든 네트워크를 통해 쉽고 안전하게 파일을 보내고 받을 수 있음.
 더 많은 정보: <https://github.com/schollz/croc>.

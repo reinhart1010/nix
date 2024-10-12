@@ -3,23 +3,14 @@ layout: page
 title: common/animdl (한국어)
 description: "매우 효율적으로 강력하며, 빠른 애니메이션 스크레이퍼."
 content_hash: 67c8b955a306f9a5a3644c4d015e7d0493a8c853
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/animdl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/animdl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># animdl
+# animdl
 
 매우 효율적으로 강력하며, 빠른 애니메이션 스크레이퍼.
 참고: `ani-cli`.

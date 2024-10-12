@@ -3,23 +3,14 @@ layout: page
 title: common/gcloud-app (한국어)
 description: "관리형 서버리스 플랫폼에서 확장 가능한 애플리케이션 구축."
 content_hash: 93f0f85360dd9e84e39f2b9fa53c7e86b89e282a
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/gcloud-app.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gcloud-app.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcloud app
+# gcloud app
 
 관리형 서버리스 플랫폼에서 확장 가능한 애플리케이션 구축.
 같이 보기: `gcloud`.

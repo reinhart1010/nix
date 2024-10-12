@@ -3,7 +3,7 @@ layout: page
 title: common/time (norsk)
 description: "See hvor lang en kommand tar."
 content_hash: 7334545d08e4d76e2b07d5c4c5112bba95d79a75
-last_modified_at: 2023-12-28
+last_modified_at: 2024-10-12
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -23,9 +23,12 @@ related_topics:
   - title: svenska version
     url: /sv/common/time.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# time
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># time
 
 See hvor lang en kommand tar.
 Mer informasjon: <https://manned.org/time>.

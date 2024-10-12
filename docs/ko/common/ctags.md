@@ -3,23 +3,14 @@ layout: page
 title: common/ctags (한국어)
 description: "널리 사용되는 많은 프로그래밍 언어에 대해 소스 파일에 있는 언어 객체의 인덱스 (또는 태그) 파일을 생성."
 content_hash: d453b7d34c5bd5561f47c0188a9b2779f827dd19
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/ctags.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ctags.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ctags
+# ctags
 
 널리 사용되는 많은 프로그래밍 언어에 대해 소스 파일에 있는 언어 객체의 인덱스 (또는 태그) 파일을 생성.
 더 많은 정보: <https://ctags.io/>.

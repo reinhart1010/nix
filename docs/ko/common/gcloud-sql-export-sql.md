@@ -3,23 +3,14 @@ layout: page
 title: common/gcloud-sql-export-sql (한국어)
 description: "Cloud SQL 인스턴스에서 Google Cloud Storage의 SQL 파일로 데이터를 내보내기."
 content_hash: 781a386b4d90d43abaa0354e5e021ec6aed385c2
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/gcloud-sql-export-sql.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gcloud-sql-export-sql.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcloud sql export sql
+# gcloud sql export sql
 
 Cloud SQL 인스턴스에서 Google Cloud Storage의 SQL 파일로 데이터를 내보내기.
 백업 생성이나 데이터 마이그레이션에 유용합니다. 같이 보기: `gcloud`.

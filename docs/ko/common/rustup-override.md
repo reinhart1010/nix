@@ -3,23 +3,14 @@ layout: page
 title: common/rustup-override (한국어)
 description: "디렉터리 툴체인 오버라이드를 수정합니다."
 content_hash: f5b384751ee295e7bf3a84e2299423ceaa60a3e6
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/rustup-override.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rustup-override.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rustup override
+# rustup override
 
 디렉터리 툴체인 오버라이드를 수정합니다.
 툴체인에 대한 자세한 내용은 `rustup help toolchain`을 참조하세요.

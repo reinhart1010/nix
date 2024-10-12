@@ -3,23 +3,14 @@ layout: page
 title: common/rustup-target (한국어)
 description: "툴체인의 지원 대상 수정."
 content_hash: 52ecb2b332c6fc48077acb0915a6d726f0326c0c
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/rustup-target.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rustup-target.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rustup target
+# rustup target
 
 툴체인의 지원 대상 수정.
 `--toolchain` 옵션이 없으면 `rustup`은 기본 툴체인을 사용합니다. 툴체인에 대한 자세한 정보는 `rustup help toolchain`을 참조하세요.

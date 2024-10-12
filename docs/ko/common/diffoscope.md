@@ -3,23 +3,14 @@ layout: page
 title: common/diffoscope (한국어)
 description: "파일, 아카이브 및 디렉터리를 비교."
 content_hash: e4f7205a47e8505c3b179ce6165d7a1c6ff89b58
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/diffoscope.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/diffoscope.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># diffoscope
+# diffoscope
 
 파일, 아카이브 및 디렉터리를 비교.
 더 많은 정보: <https://diffoscope.org>.

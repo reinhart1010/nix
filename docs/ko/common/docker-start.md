@@ -3,7 +3,7 @@ layout: page
 title: common/docker-start (한국어)
 description: "중지된 컨테이너 시작."
 content_hash: c812fc42fd3211a1ac86dd4f31e95db43f98fee6
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -23,18 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-start.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-start.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker start
+# docker start
 
 중지된 컨테이너 시작.
 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/start/>.

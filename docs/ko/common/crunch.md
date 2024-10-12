@@ -3,23 +3,14 @@ layout: page
 title: common/crunch (한국어)
 description: "단어 목록 생성기."
 content_hash: 5534cb53c386db93318c9e690d42f78b5b22cdb8
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/crunch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/crunch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># crunch
+# crunch
 
 단어 목록 생성기.
 더 많은 정보: <https://sourceforge.net/projects/crunch-wordlist/>.

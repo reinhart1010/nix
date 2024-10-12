@@ -3,7 +3,7 @@ layout: page
 title: common/dc (한국어)
 description: "임의 정밀도 계산기. 역방향 폴란드어 표기법(RPN)을 사용."
 content_hash: 8a109001decb8d04d3ab8d3594f8e22f46520704
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/dc.html
@@ -11,18 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/common/dc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dc
+# dc
 
 임의 정밀도 계산기. 역방향 폴란드어 표기법(RPN)을 사용.
 참고: `bc`, `qalc`.

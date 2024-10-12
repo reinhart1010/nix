@@ -3,7 +3,7 @@ layout: page
 title: common/docker-exec (한국어)
 description: "이미 실행 중인 Docker 컨테이너에서 명령을 실행."
 content_hash: c84fe3b119c0cd231b7faa9d61643137e201feb0
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -23,18 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-exec.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-exec.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker exec
+# docker exec
 
 이미 실행 중인 Docker 컨테이너에서 명령을 실행.
 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/exec/>.

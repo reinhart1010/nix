@@ -3,7 +3,7 @@ layout: page
 title: common/docker-swarm (한국어)
 description: "컨테이너 오케스트레이션 도구."
 content_hash: 52af00a50743e7e3545b0fff28a7e4084fb95ec8
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-swarm.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-swarm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-swarm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker swarm
+# docker swarm
 
 컨테이너 오케스트레이션 도구.
 더 많은 정보: <https://docs.docker.com/engine/swarm/>.

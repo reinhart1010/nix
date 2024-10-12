@@ -3,7 +3,7 @@ layout: page
 title: common/time (bosanski)
 description: "Vidi koliko dugo traje komanda."
 content_hash: 207437c0c75b0b45646ed896287cfbdd60f2f433
-last_modified_at: 2023-12-28
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/time.html
@@ -23,9 +23,12 @@ related_topics:
   - title: svenska version
     url: /sv/common/time.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# time
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># time
 
 Vidi koliko dugo traje komanda.
 Više informacija: <https://manned.org/time>.

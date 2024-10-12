@@ -3,23 +3,14 @@ layout: page
 title: common/cs-install (한국어)
 description: "`cs`를 설치할 때 구성된 디렉터리에 애플리케이션 설치 (바이너리를 로드하려면 `.bash_profile`에 `$ eval \"$(cs install --env)\"` 명령을 추가)."
 content_hash: 50737e95f0296937e79fb1eb44998462e0fb3951
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/cs-install.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cs-install.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cs install
+# cs install
 
 `cs`를 설치할 때 구성된 디렉터리에 애플리케이션 설치 (바이너리를 로드하려면 `.bash_profile`에 `$ eval "$(cs install --env)"` 명령을 추가).
 더 많은 정보: <https://get-coursier.io/docs/cli-install>.

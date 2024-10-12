@@ -3,23 +3,14 @@ layout: page
 title: common/rustup-toolchain (한국어)
 description: "Rust 툴체인 관리."
 content_hash: b1ece09501fe788f9d79c9fa0ef934ac60bb81e1
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/rustup-toolchain.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rustup-toolchain.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rustup toolchain
+# rustup toolchain
 
 Rust 툴체인 관리.
 툴체인에 대한 자세한 정보는 `rustup help toolchain`을 참조.

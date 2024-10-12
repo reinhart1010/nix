@@ -3,23 +3,14 @@ layout: page
 title: common/devcontainer (한국어)
 description: "Docker 컨테이너를 개발 환경으로 사용."
 content_hash: 555db25836647786a8771181b7a541db2fb1ab29
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/devcontainer.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/devcontainer.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># devcontainer
+# devcontainer
 
 Docker 컨테이너를 개발 환경으로 사용.
 더 많은 정보: <https://containers.dev/>.

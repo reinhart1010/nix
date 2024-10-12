@@ -3,23 +3,14 @@ layout: page
 title: common/cs-fetch (한국어)
 description: "Fetch는 종속성의 JAR를 가져옴."
 content_hash: 019de7ef8974b32f26c792e2d69c6ce76984961e
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/cs-fetch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cs-fetch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cs fetch
+# cs fetch
 
 Fetch는 종속성의 JAR를 가져옴.
 더 많은 정보: <https://get-coursier.io/docs/cli-fetch>.

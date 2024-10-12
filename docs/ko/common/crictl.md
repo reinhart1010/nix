@@ -3,23 +3,14 @@ layout: page
 title: common/crictl (한국어)
 description: "CRI 호환 컨테이너 런타임을 위한 커멘드라인."
 content_hash: db7b8943fb54a4345bece1eec618d2f8500f4a36
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/crictl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/crictl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># crictl
+# crictl
 
 CRI 호환 컨테이너 런타임을 위한 커멘드라인.
 더 많은 정보: <https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md>.

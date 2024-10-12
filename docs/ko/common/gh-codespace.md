@@ -3,7 +3,7 @@ layout: page
 title: common/gh-codespace (한국어)
 description: "GitHub에서 코드스페이스를 연결하고 관리."
 content_hash: b2fd942504888c2548cb7a7164cce8c99a0083e9
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/gh-codespace.html
@@ -11,18 +11,12 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/gh-codespace.html
     icon: bi bi-globe
-tldri18n_status: 0
+  - title: português (Brasil) version
+    url: /pt_BR/common/gh-codespace.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gh-codespace.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gh codespace
+# gh codespace
 
 GitHub에서 코드스페이스를 연결하고 관리.
 더 많은 정보: <https://cli.github.com/manual/gh_codespace>.

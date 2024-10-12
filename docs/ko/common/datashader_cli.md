@@ -3,23 +3,14 @@ layout: page
 title: common/datashader_cli (한국어)
 description: "Datashader 기반의 CLI을 사용하여 대규모 데이터 세트를 빠르게 시각화."
 content_hash: bd4ab39c501f9d8db3d49803a47fa0f8a75b5468
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/datashader_cli.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/datashader_cli.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># datashader_cli
+# datashader_cli
 
 Datashader 기반의 CLI을 사용하여 대규모 데이터 세트를 빠르게 시각화.
 더 많은 정보: <https://github.com/wybert/datashader-cli>.

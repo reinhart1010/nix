@@ -3,7 +3,7 @@ layout: page
 title: common/dirsearch (한국어)
 description: "웹 경로 스캐너."
 content_hash: 7a1d450d28bf110f65935f29afb2c133b4ff596e
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/dirsearch.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/dirsearch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dirsearch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dirsearch
+# dirsearch
 
 웹 경로 스캐너.
 더 많은 정보: <https://github.com/maurosoria/dirsearch>.

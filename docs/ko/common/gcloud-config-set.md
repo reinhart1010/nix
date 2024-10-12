@@ -3,23 +3,14 @@ layout: page
 title: common/gcloud-config-set (한국어)
 description: "Google Cloud CLI 구성에서 속성을 설정."
 content_hash: 677699f1f74628762650d2238e5e97037e78908c
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/gcloud-config-set.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gcloud-config-set.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcloud config set
+# gcloud config set
 
 Google Cloud CLI 구성에서 속성을 설정.
 속성은 Google Cloud CLI 동작의 다양한 측면을 제어합니다.

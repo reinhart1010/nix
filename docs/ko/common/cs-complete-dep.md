@@ -3,23 +3,14 @@ layout: page
 title: common/cs-complete-dep (한국어)
 description: "웹에서 직접 검색하지 않고도 라이브러리를 검색할 수 있음."
 content_hash: 3be08e454c181da1ad2ed9eda3bfee68a8ab3dad
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/cs-complete-dep.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cs-complete-dep.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cs complete dep
+# cs complete dep
 
 웹에서 직접 검색하지 않고도 라이브러리를 검색할 수 있음.
 더 많은 정보: <https://get-coursier.io/docs/cli-complete>.

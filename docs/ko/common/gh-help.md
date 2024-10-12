@@ -3,23 +3,14 @@ layout: page
 title: common/gh-help (한국어)
 description: "GitHub CLI 명령에 대한 도움말 표시."
 content_hash: de9d5294836fa07326dd2ca435a4e0d84814a4a5
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/gh-help.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gh-help.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gh help
+# gh help
 
 GitHub CLI 명령에 대한 도움말 표시.
 더 많은 정보: <https://cli.github.com/manual/gh_help>.

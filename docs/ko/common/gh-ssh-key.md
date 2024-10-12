@@ -3,23 +3,14 @@ layout: page
 title: common/gh-ssh-key (한국어)
 description: "GitHub SSH 키 관리."
 content_hash: 4cdffcbc24dcb83b3d9545dd0a231f690a6350be
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/gh-ssh-key.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gh-ssh-key.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gh ssh-key
+# gh ssh-key
 
 GitHub SSH 키 관리.
 더 많은 정보: <https://cli.github.com/manual/gh_ssh-key>.

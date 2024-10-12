@@ -3,7 +3,7 @@ layout: page
 title: common/docker-commit (한국어)
 description: "컨테이너의 변경 사항으로부터 새로운 이미지를 생성합니다."
 content_hash: 55b93cf36dec2895edd195b2714e959841f8f08f
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/docker-commit.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/docker-commit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-commit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker commit
+# docker commit
 
 컨테이너의 변경 사항으로부터 새로운 이미지를 생성합니다.
 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/commit/>.

@@ -3,7 +3,7 @@ layout: page
 title: common/rustc (한국어)
 description: "Rust 컴파일러."
 content_hash: 2af972115e84f5237dfe0e17163e65bb4587f67c
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/rustc.html
@@ -14,18 +14,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/rustc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rustc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rustc
+# rustc
 
 Rust 컴파일러.
 Rust 프로젝트는 보통 `rustc`를 직접 호출하는 대신 `cargo`를 사용합니다.

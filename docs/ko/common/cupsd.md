@@ -3,7 +3,7 @@ layout: page
 title: common/cupsd (한국어)
 description: "CUPS 인쇄 서버용 서버 데몬."
 content_hash: 4b20f69370aebd00ceea8862ec6dce3121da27c3
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/cupsd.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cupsd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cupsd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cupsd
+# cupsd
 
 CUPS 인쇄 서버용 서버 데몬.
 더 많은 정보: <https://openprinting.github.io/cups/doc/man-cupsd.html>.

@@ -3,7 +3,7 @@ layout: page
 title: common/time (svenska)
 description: "Se hur lång tid ett kommando tar."
 content_hash: 2bf7e4eec778d0a3d4a190d064fde56bf1e53664
-last_modified_at: 2023-12-28
+last_modified_at: 2024-10-12
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -23,9 +23,12 @@ related_topics:
   - title: norsk version
     url: /no/common/time.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# time
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># time
 
 Se hur lång tid ett kommando tar.
 Mer information: <https://manned.org/time>.

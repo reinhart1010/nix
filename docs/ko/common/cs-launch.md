@@ -3,23 +3,14 @@ layout: page
 title: common/cs-launch (한국어)
 description: "설치할 필요 없이 Maven 종속성에서 직접 이름으로 애플리케이션을 실행."
 content_hash: b1a44a0d828f0fc4b08d22258d4b7d1ea5a74de3
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/cs-launch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cs-launch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cs launch
+# cs launch
 
 설치할 필요 없이 Maven 종속성에서 직접 이름으로 애플리케이션을 실행.
 더 많은 정보: <https://get-coursier.io/docs/cli-launch>.

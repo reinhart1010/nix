@@ -3,7 +3,7 @@ layout: page
 title: common/gh (한국어)
 description: "GitHub와 원활하게 작업."
 content_hash: 6a863f64bde7e1ab12f956033934b892330f11b3
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: Deutsch version
     url: /de/common/gh.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/gh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gh
+# gh
 
 GitHub와 원활하게 작업.
 `config`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.

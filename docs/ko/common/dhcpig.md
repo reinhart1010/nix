@@ -3,23 +3,14 @@ layout: page
 title: common/dhcpig (한국어)
 description: "고급 DHCP 자원 고갈 공격 및 스트레스 테스트를 시작."
 content_hash: a0a1210f76a77fd9a750e1e5189ece4f033344db
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/dhcpig.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dhcpig.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dhcpig
+# dhcpig
 
 고급 DHCP 자원 고갈 공격 및 스트레스 테스트를 시작.
 DHCPig은 루트 권한으로 실행해야 함.

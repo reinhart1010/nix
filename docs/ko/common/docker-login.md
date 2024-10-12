@@ -3,7 +3,7 @@ layout: page
 title: common/docker-login (한국어)
 description: "Docker 레지스트리에 로그인."
 content_hash: fa37f4a7aa4f0aefb2dac3787b5cdec8720376d2
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-login.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/docker-login.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-login.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker login
+# docker login
 
 Docker 레지스트리에 로그인.
 더 많은 정보: <https://docs.docker.com/reference/cli/docker/login/>.

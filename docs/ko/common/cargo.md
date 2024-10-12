@@ -3,7 +3,7 @@ layout: page
 title: common/cargo (한국어)
 description: "Rust 프로젝트 및 모듈 종속성(크레이트)을 관리."
 content_hash: 690edbfea53c1db5e78634d03dfb474e6580c8e7
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo
+# cargo
 
 Rust 프로젝트 및 모듈 종속성(크레이트)을 관리.
 `build`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.

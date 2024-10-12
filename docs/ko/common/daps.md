@@ -3,7 +3,7 @@ layout: page
 title: common/daps (한국어)
 description: "DocBook XML을 HTML 또는 PDF와 같은 출력 형식으로 변환하기 위한 오픈소스 프로그램."
 content_hash: ede5c143d02f4f053e990ec4f9a48f95e86ad8e3
-last_modified_at: 2024-10-11
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/daps.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/daps.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/daps.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># daps
+# daps
 
 DocBook XML을 HTML 또는 PDF와 같은 출력 형식으로 변환하기 위한 오픈소스 프로그램.
 더 많은 정보: <https://opensuse.github.io/daps/doc/index.html>.
