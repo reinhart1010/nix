@@ -2,8 +2,8 @@
 layout: page
 title: common/wait (English)
 description: "Wait for a process to complete before proceeding."
-content_hash: 2740d3783e354cfe32a46c10ae35f849e97fdc30
-last_modified_at: 2023-11-12
+content_hash: f57c8b21cc9baa4c0ea495b35bf2906f2d6db0f9
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # wait
@@ -18,3 +18,7 @@ More information: <https://manned.org/wait>.
 - Wait for all processes known to the invoking shell to finish:
 
 `wait`
+
+- Wait for a job to finish:
+
+`wait %`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span>
