@@ -2,8 +2,8 @@
 layout: page
 title: windows/pabcnetcclear (English)
 description: "Preprocess and compile PascalABC.NET source files."
-content_hash: 724ea6d43dc6c4cd1e0fe42def78f6f96da33469
-last_modified_at: 2023-11-12
+content_hash: d6fb10ca4102586b83a832c2018888378f39a52b
+last_modified_at: 2024-10-12
 related_topics:
   - title: русский version
     url: /ru/windows/pabcnetcclear.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # pabcnetcclear
 
 Preprocess and compile PascalABC.NET source files.
-More information: <http://pascalabc.net>.
+More information: <https://pascalabc.net>.
 
 - Compile the specified source file into an executable with the same name:
 

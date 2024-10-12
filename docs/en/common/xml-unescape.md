@@ -2,14 +2,14 @@
 layout: page
 title: common/xml-unescape (English)
 description: "Unescape special XML characters, e.g. `&lt;a1&gt;` → `<a1>`."
-content_hash: 5ce665a6c64b25c94261c8e7dfa095107f6211b1
-last_modified_at: 2024-01-30
+content_hash: 817651d59a5274c46ccae0a7df79d02f6228fad7
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # xml unescape
 
 Unescape special XML characters, e.g. `&lt;a1&gt;` → `<a1>`.
-More information: <http://xmlstar.sourceforge.net/docs.php>.
+More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Unescape special XML characters from a string:
 

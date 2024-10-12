@@ -2,14 +2,14 @@
 layout: page
 title: linux/datamash (English)
 description: "Perform basic numeric, textual and statistical operations on input textual data files."
-content_hash: ce16c77e6e567abea63a43946fe6f9d4c3fa2f5c
-last_modified_at: 2024-02-15
+content_hash: 99f3b7875f6ff1ac4025533de2baf6029b10e9ea
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # datamash
 
 Perform basic numeric, textual and statistical operations on input textual data files.
-More information: <http://www.gnu.org/software/datamash/>.
+More information: <https://www.gnu.org/software/datamash/>.
 
 - Get max, min, mean and median of a single column of numbers:
 

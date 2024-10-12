@@ -2,15 +2,15 @@
 layout: page
 title: common/xml (English)
 description: "XMLStarlet Toolkit: query, edit, check, convert and transform XML documents."
-content_hash: 04682e20d09664ae060053ead80cbcb0ed39acd1
-last_modified_at: 2024-10-05
+content_hash: 996ee123f286a29c56d3dfa14a1b0ad47d06c4c2
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # xml
 
 XMLStarlet Toolkit: query, edit, check, convert and transform XML documents.
-Some subcommands such as `validate` have their own usage documentation.
-More information: <http://xmlstar.sourceforge.net/docs.php>.
+Some subcommands such as `xml validate` have their own usage documentation.
+More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Display general help, including the list of subcommands:
 

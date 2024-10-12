@@ -2,15 +2,15 @@
 layout: page
 title: common/xml-select (English)
 description: "Select from XML documents using XPATHs."
-content_hash: 16611994007633cda77e5dbcf6c316bbfa4d8a74
-last_modified_at: 2024-01-30
+content_hash: b07616e712b2fc90d2e2478d16f1d1d8dff903cf
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # xml select
 
 Select from XML documents using XPATHs.
 Tip: use `xml elements` to display the XPATHs of an XML document.
-More information: <http://xmlstar.sourceforge.net/docs.php>.
+More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Select all elements matching "XPATH1" and print the value of their sub-element "XPATH2":
 

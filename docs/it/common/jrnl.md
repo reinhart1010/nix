@@ -2,8 +2,8 @@
 layout: page
 title: common/jrnl (italiano)
 description: "Una semplice applicazione da linea di comando per tenere un diario."
-content_hash: b40a318c1c29bd5d4e67bc6adf8988660e31db5e
-last_modified_at: 2023-11-12
+content_hash: a35c0b852acfd4460e66e7f6d24b240a74c27d2b
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/jrnl.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # jrnl
 
 Una semplice applicazione da linea di comando per tenere un diario.
-Maggiori informazioni: <http://jrnl.sh>.
+Maggiori informazioni: <https://jrnl.sh>.
 
 - Inserisci una nuova nota con il tuo editor:
 

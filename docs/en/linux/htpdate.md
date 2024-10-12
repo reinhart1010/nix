@@ -2,14 +2,14 @@
 layout: page
 title: linux/htpdate (English)
 description: "Synchronize local date and time via HTTP headers from web servers."
-content_hash: f20258de320b428bcda21d33a31394b080d69894
-last_modified_at: 2023-11-12
+content_hash: c1790644feffb1b0f87484f73bc1681927a159ac
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # htpdate
 
 Synchronize local date and time via HTTP headers from web servers.
-More information: <http://www.vervest.org/htp/>.
+More information: <https://www.vervest.org/htp/>.
 
 - Synchronize date and time:
 

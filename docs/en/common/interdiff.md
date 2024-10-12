@@ -2,14 +2,14 @@
 layout: page
 title: common/interdiff (English)
 description: "Show differences between two diff files."
-content_hash: 579c740b56348d6b478c7aec272193c4ee474631
-last_modified_at: 2023-11-12
+content_hash: 8c70434b999c5d0f079538f2abd10db70cd2b9fa
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # interdiff
 
 Show differences between two diff files.
-More information: <http://freshmeat.sourceforge.net/projects/patchutils>.
+More information: <https://freshmeat.sourceforge.net/projects/patchutils>.
 
 - Compare diff files:
 

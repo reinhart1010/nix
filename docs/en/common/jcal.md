@@ -2,14 +2,14 @@
 layout: page
 title: common/jcal (English)
 description: "Display calendar information in the Jalali format, with the current day highlighted."
-content_hash: 970949dbe3fbc1a96c308c8cdcc235b71022da4d
-last_modified_at: 2023-11-12
+content_hash: 90c3b89b2cfc46fcbfef64e481ce5bd81991e916
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # jcal
 
 Display calendar information in the Jalali format, with the current day highlighted.
-More information: <http://www.nongnu.org/jcal/>.
+More information: <https://www.nongnu.org/jcal/>.
 
 - Display a calendar for the current month:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/entr (English)
 description: "Run arbitrary commands when files change."
-content_hash: 90ac4cd41dff4158ada8800353c420333866fae4
-last_modified_at: 2024-03-01
+content_hash: b5d2ee7158880f100b77e4ea5773c484334d0618
+last_modified_at: 2024-10-12
 related_topics:
   - title: italiano version
     url: /it/common/entr.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # entr
 
 Run arbitrary commands when files change.
-More information: <http://eradman.com/entrproject/>.
+More information: <https://eradman.com/entrproject/>.
 
 - Rebuild with `make` if any file in any subdirectory changes:
 

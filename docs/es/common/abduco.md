@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (español)
 description: "Administrador de sesión de terminal."
-content_hash: 57fa19e4fc46a4f4bbe8aedde6c8949f83b5eaad
-last_modified_at: 2023-12-29
+content_hash: 80fbdab9f615e85c6c7b239c80d076af9def676e
+last_modified_at: 2024-10-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # abduco
 
 Administrador de sesión de terminal.
-Más información: <http://www.brain-dump.org/projects/abduco/>.
+Más información: <https://www.brain-dump.org/projects/abduco/>.
 
 - Lista sesiones:
 

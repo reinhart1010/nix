@@ -2,8 +2,8 @@
 layout: page
 title: common/kosmorro (English)
 description: "Compute the ephemerides and the events for a date at a position on Earth."
-content_hash: 258400630c5d4a6f218349302c062f19e7951490
-last_modified_at: 2024-02-15
+content_hash: f095c7ed09940788ce5849ed3ec6a96414916431
+last_modified_at: 2024-10-12
 related_topics:
   - title: français version
     url: /fr/common/kosmorro.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # kosmorro
 
 Compute the ephemerides and the events for a date at a position on Earth.
-More information: <http://kosmorro.space>.
+More information: <https://kosmorro.space>.
 
 - Get ephemerides for Paris, France:
 

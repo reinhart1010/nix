@@ -2,14 +2,18 @@
 layout: page
 title: common/blockout2 (English)
 description: "Tetris like game in 3D."
-content_hash: 76c2774408ffbc1bd8b393846164a10cf58a08b4
-last_modified_at: 2024-01-02
+content_hash: 58bbf7914eeeefa4a0e8198669dfde3ba2765969
+last_modified_at: 2024-10-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/blockout2.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # blockout2
 
 Tetris like game in 3D.
-More information: <http://www.blockout.net/blockout2/>.
+More information: <https://www.blockout.net/blockout2/>.
 
 - Start a new game:
 

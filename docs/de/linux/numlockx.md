@@ -2,8 +2,8 @@
 layout: page
 title: linux/numlockx (Deutsch)
 description: "Steuere den Num-Lock-Tasten-Status in X11-Sitzungen."
-content_hash: 2dc04139ba88ff1ac7ee82918751b7b7369e6cb9
-last_modified_at: 2023-11-12
+content_hash: f9216b7dd866f574a69de90e24ff83a3ee747026
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/linux/numlockx.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # numlockx
 
 Steuere den Num-Lock-Tasten-Status in X11-Sitzungen.
-Weitere Informationen: <http://www.mike-devlin.com/linux/README-numlockx.htm>.
+Weitere Informationen: <https://www.mike-devlin.com/linux/README-numlockx.htm>.
 
 - Zeige den aktuellen Status der Num-Lock-Taste an:
 

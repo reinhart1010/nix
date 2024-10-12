@@ -2,8 +2,8 @@
 layout: page
 title: common/cppcheck (English)
 description: "A static analysis tool for C/C++ code."
-content_hash: 52c8afe4ae6d17632dd84d459b03230a187a8b76
-last_modified_at: 2024-04-19
+content_hash: 4d88d60965ed08f1f9f842146d1849224517fb12
+last_modified_at: 2024-10-12
 related_topics:
   - title: italiano version
     url: /it/common/cppcheck.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 A static analysis tool for C/C++ code.
 Instead of syntax errors, it focuses on the types of bugs that compilers normally do not detect.
-More information: <http://cppcheck.sourceforge.net>.
+More information: <https://cppcheck.sourceforge.net>.
 
 - Recursively check the current directory, showing progress on the screen and logging error messages to a file:
 

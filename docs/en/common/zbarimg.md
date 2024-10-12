@@ -2,8 +2,8 @@
 layout: page
 title: common/zbarimg (English)
 description: "Scan and decode bar codes from image file(s)."
-content_hash: a049d33aca560537e51c623462ed706b87f424d5
-last_modified_at: 2023-11-12
+content_hash: 08a33bafdf454963cfc5733ccec9a5b4264d3dfd
+last_modified_at: 2024-10-12
 related_topics:
   - title: svenska version
     url: /sv/common/zbarimg.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # zbarimg
 
 Scan and decode bar codes from image file(s).
-More information: <http://zbar.sourceforge.net>.
+More information: <https://zbar.sourceforge.net>.
 
 - Process an image file:
 

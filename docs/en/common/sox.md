@@ -2,15 +2,15 @@
 layout: page
 title: common/sox (English)
 description: "Sound eXchange: play, record and convert audio files."
-content_hash: 9ad5601b93902385b64ef21ddba53c1f802f3674
-last_modified_at: 2024-03-02
+content_hash: 4f051a38a63ae4b3c997afbf8d465b25b2b62ac4
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # sox
 
 Sound eXchange: play, record and convert audio files.
 Audio formats are identified by the extension.
-More information: <http://sox.sourceforge.net>.
+More information: <https://sox.sourceforge.net>.
 
 - Merge two audio files into one:
 

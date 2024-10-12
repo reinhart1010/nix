@@ -2,8 +2,8 @@
 layout: page
 title: common/astyle (français)
 description: "Indente, formate, et embelli du code source pour des languages de programmation comme C, C++, C# et Java."
-content_hash: fe0d6813554227e4b582760784e78c56cb9ecab9
-last_modified_at: 2023-11-12
+content_hash: f0fcba68159adde2590c12c6e416e4ec4a5e32aa
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/astyle.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Indente, formate, et embelli du code source pour des languages de programmation comme C, C++, C# et Java.
 Pendant l'exécution, une copie du fichier original est créé avec un ".orig" suffixé au nom de fichier original.
-Plus d'informations : <http://astyle.sourceforge.net>.
+Plus d'informations : <https://astyle.sourceforge.net>.
 
 - Applique le style par défaut de 4 espaces pour l'indentation et pas de changement de formatage :
 

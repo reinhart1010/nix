@@ -2,8 +2,8 @@
 layout: page
 title: common/runit (中文)
 description: "三级初始化系统。"
-content_hash: c7591f03ef2f968526d542bd38575dfc3d2df6f1
-last_modified_at: 2023-11-12
+content_hash: 0e0d0e7524c45f770a510ff7b3b7c070a559a6d5
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/runit.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # runit
 
 三级初始化系统。
-更多信息：<http://smarden.org/runit/runit.8.html>.
+更多信息：<https://smarden.org/runit/runit.8.html>.
 
 - 启动 runit 的三阶段初始化方案：
 

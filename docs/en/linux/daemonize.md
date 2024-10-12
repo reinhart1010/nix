@@ -2,8 +2,8 @@
 layout: page
 title: linux/daemonize (English)
 description: "Run a command (that does not daemonize itself) as a Unix daemon."
-content_hash: 92c29201cfd1f9dcb02f1e109070370ef2c271a4
-last_modified_at: 2023-11-12
+content_hash: f92aceb038bf27e594d3b37262b70cab277f6dde
+last_modified_at: 2024-10-12
 related_topics:
   - title: français version
     url: /fr/linux/daemonize.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # daemonize
 
 Run a command (that does not daemonize itself) as a Unix daemon.
-More information: <http://software.clapper.org/daemonize/>.
+More information: <https://software.clapper.org/daemonize/>.
 
 - Run a command as a daemon:
 

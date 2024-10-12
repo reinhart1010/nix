@@ -2,8 +2,8 @@
 layout: page
 title: linux/cpuid (中文)
 description: "显示有关所有 CPU 的详细信息。"
-content_hash: fa005c4bf160e442dbd6f4f8fe20f290c5bc021d
-last_modified_at: 2023-11-12
+content_hash: 86dcdf69eec4e20a1070884bfea9be22d73b46ec
+last_modified_at: 2024-10-12
 related_topics:
   - title: català version
     url: /ca/linux/cpuid.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # cpuid
 
 显示有关所有 CPU 的详细信息。
-更多信息：<http://etallen.com/cpuid.html>.
+更多信息：<https://etallen.com/cpuid.html>.
 
 - 显示所有 CPU 的信息：
 

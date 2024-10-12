@@ -2,8 +2,8 @@
 layout: page
 title: osx/wacaw (中文)
 description: "一个用于 macOS 的小命令行工具，允许您从连接的摄像头捕获静止图片和视频。"
-content_hash: 63f0dc9f862cae93ef044e1a1791e88d540ff883
-last_modified_at: 2024-01-01
+content_hash: f7bd94d507482797864d867e3151cfaacdfc3425
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/osx/wacaw.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # wacaw
 
 一个用于 macOS 的小命令行工具，允许您从连接的摄像头捕获静止图片和视频。
-更多信息：<http://webcam-tools.sourceforge.net>.
+更多信息：<https://webcam-tools.sourceforge.net>.
 
 - 从网络摄像机拍照：
 

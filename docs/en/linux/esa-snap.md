@@ -2,8 +2,8 @@
 layout: page
 title: linux/esa-snap (English)
 description: "Sentinel Application Platform (SNAP) for processing satellite data from the European Space Agency (ESA)."
-content_hash: 7607469b21d2eb416c7703cad7eadd2e5ff764ca
-last_modified_at: 2023-12-22
+content_hash: 0e2e1e73d1a31594f7456629df03bb770d4c311c
+last_modified_at: 2024-10-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/esa-snap.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # esa snap
 
 Sentinel Application Platform (SNAP) for processing satellite data from the European Space Agency (ESA).
-More information: <http://step.esa.int/main/download/snap-download/>.
+More information: <https://step.esa.int/main/download/snap-download/>.
 
 - Display all updates:
 

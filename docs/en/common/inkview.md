@@ -2,15 +2,15 @@
 layout: page
 title: common/inkview (English)
 description: "Inkscape graphical SVG previewer."
-content_hash: 46238dd5606c605b17e29ce7b361fd8ffcf1ecbf
-last_modified_at: 2024-01-31
+content_hash: e05c78fa7dda5b8c7b6bdbe7b0819c9ce26216be
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # inkview
 
 Inkscape graphical SVG previewer.
 Also functions as a slideshow viewer.
-More information: <http://wiki.inkscape.org/wiki/index.php/Inkview>.
+More information: <https://wiki.inkscape.org/wiki/index.php/Inkview>.
 
 - Preview an SVG:
 

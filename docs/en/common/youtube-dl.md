@@ -2,8 +2,8 @@
 layout: page
 title: common/youtube-dl (English)
 description: "Download videos from YouTube and other websites."
-content_hash: 7d14ce513440370fb984d011ad91f024db45f021
-last_modified_at: 2024-04-04
+content_hash: 26042774eaed23edfbe13c151473ed958cf6ef29
+last_modified_at: 2024-10-12
 related_topics:
   - title: català version
     url: /ca/common/youtube-dl.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Download videos from YouTube and other websites.
 See also: `yt-dlp`, `ytfzf`, `you-get`.
-More information: <http://rg3.github.io/youtube-dl/>.
+More information: <https://rg3.github.io/youtube-dl/>.
 
 - Download a video or playlist:
 

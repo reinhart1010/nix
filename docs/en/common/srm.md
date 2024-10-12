@@ -2,15 +2,15 @@
 layout: page
 title: common/srm (English)
 description: "Securely remove files or directories."
-content_hash: f7b6c293b0ac6dd5978111a867575ada841a5b42
-last_modified_at: 2023-11-12
+content_hash: f612a8d4b5112f20b4f746afe7643a5f239f6c11
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # srm
 
 Securely remove files or directories.
 Overwrites the existing data one or multiple times. Drop in replacement for rm.
-More information: <http://srm.sourceforge.net/srm.html>.
+More information: <https://srm.sourceforge.net/srm.html>.
 
 - Remove a file after a single-pass overwriting with random data:
 

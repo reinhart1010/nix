@@ -2,7 +2,7 @@
 layout: page
 title: common/dcfldd (한국어)
 description: "법의학 및 보안을 위한 향상된 dd 버전."
-content_hash: 6c9495414c6552496d6dda80cc7f2d78dc1ae7dd
+content_hash: 9d9c7e2fb14e72b977adc35c9d798e6bc432af9c
 last_modified_at: 2024-10-12
 related_topics:
   - title: English version
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # dcfldd
 
 법의학 및 보안을 위한 향상된 dd 버전.
-더 많은 정보: <http://dcfldd.sourceforge.net/>.
+더 많은 정보: <https://dcfldd.sourceforge.net/>.
 
 - 원시 이미지 파일에 디스크를 복사하고 SHA256을 사용해 이미지를 해시:
 

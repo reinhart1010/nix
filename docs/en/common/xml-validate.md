@@ -2,14 +2,14 @@
 layout: page
 title: common/xml-validate (English)
 description: "Validate XML documents."
-content_hash: 7a18bf9269d535213c8cbbc4600eb04849b1938f
-last_modified_at: 2024-01-30
+content_hash: c36e866789dc4cabcb5938766d1057624915b133
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # xml validate
 
 Validate XML documents.
-More information: <http://xmlstar.sourceforge.net/docs.php>.
+More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Validate one or more XML documents for well-formedness only:
 

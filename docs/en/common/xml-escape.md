@@ -2,14 +2,14 @@
 layout: page
 title: common/xml-escape (English)
 description: "Escape special XML characters, e.g. `<a1>` → `&lt;a1&gt;`."
-content_hash: a5c10645bde427e8091dae67407f365e6ef884ba
-last_modified_at: 2024-01-30
+content_hash: 28939d2c48c5feb0e344add769851c9624a0b1af
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # xml escape
 
 Escape special XML characters, e.g. `<a1>` → `&lt;a1&gt;`.
-More information: <http://xmlstar.sourceforge.net/doc/xmlstarlet.pdf>.
+More information: <https://xmlstar.sourceforge.net/doc/xmlstarlet.pdf>.
 
 - Escape special XML characters in a string:
 

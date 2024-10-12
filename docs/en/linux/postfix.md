@@ -2,15 +2,15 @@
 layout: page
 title: linux/postfix (English)
 description: "Postfix mail transfer agent (MTA) control program."
-content_hash: efa8ae12ee72f8523f64f2d50739c53d5baffc52
-last_modified_at: 2023-11-12
+content_hash: d2c221b398628a86cec7faf3375669c0d9abb21d
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # postfix
 
 Postfix mail transfer agent (MTA) control program.
 See also `dovecot`, a mail delivery agent (MDA) that integrates with Postfix.
-More information: <http://www.postfix.org>.
+More information: <https://www.postfix.org>.
 
 - Check the configuration:
 

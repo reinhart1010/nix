@@ -2,14 +2,14 @@
 layout: page
 title: common/timidity (English)
 description: "Play and convert MIDI files."
-content_hash: 22e6fdce6651ce9c3cb6b6c381696c1449233db1
-last_modified_at: 2024-04-26
+content_hash: 64ca615f63de60edba5ac9c59afe6162740673f2
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # timidity
 
 Play and convert MIDI files.
-More information: <http://timidity.sourceforge.net>.
+More information: <https://timidity.sourceforge.net>.
 
 - Play a MIDI file:
 

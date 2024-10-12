@@ -2,14 +2,14 @@
 layout: page
 title: linux/gbp (English)
 description: "A system to integrate the Debian package build system with Git."
-content_hash: b91f118290b687a5edb0a6a279f572bfa1bea9db
-last_modified_at: 2023-11-12
+content_hash: a2a72d41458ccdaae0f4bf6470abfad33cb10548
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # gbp
 
 A system to integrate the Debian package build system with Git.
-More information: <http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html>.
+More information: <https://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html>.
 
 - Convert an existing Debian package to gbp:
 

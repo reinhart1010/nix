@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (русский)
 description: "Менеджер сессий терминала."
-content_hash: 61efebf83cebac1f981587665e6d4cd3f642b7ee
-last_modified_at: 2023-12-29
+content_hash: 829a4ef56ad232bf7e7aad8ea9527ff4448b4abc
+last_modified_at: 2024-10-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # abduco
 
 Менеджер сессий терминала.
-Больше информации: <http://www.brain-dump.org/projects/abduco/>.
+Больше информации: <https://www.brain-dump.org/projects/abduco/>.
 
 - Вывести список сеансов:
 

@@ -2,14 +2,14 @@
 layout: page
 title: common/xml-canonic (English)
 description: "Make XML documents canonical."
-content_hash: f1f29a076404f34938c5ae0822bd6071bac357d5
-last_modified_at: 2024-01-30
+content_hash: e6bf3754a1a3f655128ec010efd5e15ab2b705fe
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # xml canonic
 
 Make XML documents canonical.
-More information: <http://xmlstar.sourceforge.net/docs.php>.
+More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Make an XML document canonical, preserving comments:
 

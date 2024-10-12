@@ -2,14 +2,14 @@
 layout: page
 title: linux/hlint (English)
 description: "Suggest improvements to Haskell code."
-content_hash: f20d0a559ad265f15de542a4e97d843f92c9e53e
-last_modified_at: 2024-02-15
+content_hash: 79aeeafacdd1e599d65657236f8b0babf2a12484
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # hlint
 
 Suggest improvements to Haskell code.
-More information: <http://hackage.haskell.org/package/hlint>.
+More information: <https://hackage.haskell.org/package/hlint>.
 
 - Display suggestions for a given file:
 

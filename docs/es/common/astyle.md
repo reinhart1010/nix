@@ -2,8 +2,8 @@
 layout: page
 title: common/astyle (español)
 description: "Indentador, formateador y embellecedor de código fuente para los lenguajes de programación C, C++, C# y Java."
-content_hash: ebab5a73695870f0610d845152d4a0cb21ec1c19
-last_modified_at: 2024-01-02
+content_hash: 93c4f6b36b0279f60f45a85cd3250ed42157e874
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/astyle.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Indentador, formateador y embellecedor de código fuente para los lenguajes de programación C, C++, C# y Java.
 Al ejecutarse, se crea una copia del archivo original con un ".orig" añadido al nombre del archivo original.
-Más información: <http://astyle.sourceforge.net>.
+Más información: <https://astyle.sourceforge.net>.
 
 - Aplica el estilo por defecto de 4 espacios por sangría y sin cambios de formato:
 

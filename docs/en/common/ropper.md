@@ -2,14 +2,14 @@
 layout: page
 title: common/ropper (English)
 description: "Find ROP gadgets in binary files."
-content_hash: ebb74184ab8639d58277ddfbb4f3c17241c8a863
-last_modified_at: 2023-11-12
+content_hash: 0b66e37ab3d54df5ab35aba4fe3355a49e3cbd9d
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # ropper
 
 Find ROP gadgets in binary files.
-More information: <http://scoding.de/ropper/>.
+More information: <https://scoding.de/ropper/>.
 
 - List gadgets in the binary file:
 

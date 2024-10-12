@@ -2,8 +2,8 @@
 layout: page
 title: common/espeak (italiano)
 description: "Usa la sintesi vocale per parlare tramite il dispositivo audio di output predefinito."
-content_hash: df6c4be9e8de7b2e2151965027b2e1c77bc76469
-last_modified_at: 2023-11-12
+content_hash: a7bc1beae6eeab47dcacd972c2006c9d09a94da9
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/espeak.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # espeak
 
 Usa la sintesi vocale per parlare tramite il dispositivo audio di output predefinito.
-Maggiori informazioni: <http://espeak.sourceforge.net>.
+Maggiori informazioni: <https://espeak.sourceforge.net>.
 
 - Pronuncia una frase ad alta voce:
 

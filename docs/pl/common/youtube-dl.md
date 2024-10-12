@@ -2,8 +2,8 @@
 layout: page
 title: common/youtube-dl (polski)
 description: "Pobieraj wideo i audio z YouTube i podobnych portali."
-content_hash: d15810889f2e979a46414cbffcb1e3dd0a9a80a3
-last_modified_at: 2024-01-02
+content_hash: 4f7e31ad955afa79d1c73bd5d4740ddf719243f4
+last_modified_at: 2024-10-12
 related_topics:
   - title: català version
     url: /ca/common/youtube-dl.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # youtube-dl
 
 Pobieraj wideo i audio z YouTube i podobnych portali.
-Więcej informacji: <http://rg3.github.io/youtube-dl/>.
+Więcej informacji: <https://rg3.github.io/youtube-dl/>.
 
 - Pobierz plik wideo lub wszystkie pliki z playlisty:
 

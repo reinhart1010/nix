@@ -2,15 +2,15 @@
 layout: page
 title: linux/pivpn (English)
 description: "Easy security-hardened OpenVPN setup and manager."
-content_hash: 81961f2f189a621dcdf998d66e9a060643a7b1a7
-last_modified_at: 2023-11-12
+content_hash: 2d5d76bc426575e5a48aa36d16199e73e55b741c
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # pivpn
 
 Easy security-hardened OpenVPN setup and manager.
 Originally designed for the Raspberry Pi, but works on other Linux devices too.
-More information: <http://www.pivpn.io/>.
+More information: <https://www.pivpn.io/>.
 
 - Add a new client device:
 

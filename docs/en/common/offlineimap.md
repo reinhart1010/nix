@@ -2,14 +2,14 @@
 layout: page
 title: common/offlineimap (English)
 description: "Synchronize a remote IMAP server with local Maildir folders."
-content_hash: de227c598f37713da2dc6d7b345c271caed1aece
-last_modified_at: 2023-11-12
+content_hash: d59bdfb7bafce44ef92040f448f6cb765a4cb0c6
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # offlineimap
 
 Synchronize a remote IMAP server with local Maildir folders.
-More information: <http://www.offlineimap.org>.
+More information: <https://www.offlineimap.org>.
 
 - Synchronize once, without enabling autorefresh:
 

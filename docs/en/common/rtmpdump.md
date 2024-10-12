@@ -2,14 +2,14 @@
 layout: page
 title: common/rtmpdump (English)
 description: "Dump media content streamed over the RTMP protocol."
-content_hash: 2d60a0040ecf9bdb05b1c9c1eabd32e5db0731a5
-last_modified_at: 2024-02-15
+content_hash: 9c23e78fa36cec6ee568e65aecdc735d46073e9f
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # rtmpdump
 
 Dump media content streamed over the RTMP protocol.
-More information: <http://rtmpdump.mplayerhq.hu/>.
+More information: <https://rtmpdump.mplayerhq.hu/>.
 
 - Download a file:
 

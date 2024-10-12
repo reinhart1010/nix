@@ -2,14 +2,14 @@
 layout: page
 title: common/xml-depyx (English)
 description: "Convert a PYX (ESIS - ISO 8879) document to XML format."
-content_hash: dcc41cb546e6583f3e879ad968d5776d53cf7bc3
-last_modified_at: 2024-01-30
+content_hash: 4e010ed3b9395f5c2c96868e2c81654e3b41409f
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # xml depyx
 
 Convert a PYX (ESIS - ISO 8879) document to XML format.
-More information: <http://xmlstar.sourceforge.net/docs.php>.
+More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Convert a PYX (ESIS - ISO 8879) document to XML format:
 

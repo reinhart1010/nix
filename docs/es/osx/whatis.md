@@ -2,8 +2,8 @@
 layout: page
 title: osx/whatis (español)
 description: "Herramienta que busca palabras clave en un conjunto de archivos de base de datos que contienen descripciones breves de comandos del sistema."
-content_hash: d32cf602fb56e6eb05d66012fb3493cd6e8e1444
-last_modified_at: 2023-11-12
+content_hash: bd3caf26fe5a301699b081afe929d334b752c338
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/osx/whatis.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # whatis
 
 Herramienta que busca palabras clave en un conjunto de archivos de base de datos que contienen descripciones breves de comandos del sistema.
-Más información: <http://www.linfo.org/whatis.html>.
+Más información: <https://www.linfo.org/whatis.html>.
 
 - Busca información sobre palabra clave:
 

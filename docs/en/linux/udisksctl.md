@@ -2,14 +2,14 @@
 layout: page
 title: linux/udisksctl (English)
 description: "Interact with `udisksd` to query and manipulate storage devices."
-content_hash: b742ed9389acb4406e370fa1f896ce266a243ca4
-last_modified_at: 2023-11-12
+content_hash: 3fa52f76eedc2f8a151e2f2ac29fc82407939af9
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # udisksctl
 
 Interact with `udisksd` to query and manipulate storage devices.
-More information: <http://storaged.org/doc/udisks2-api/latest/udisksctl.1.html>.
+More information: <https://storaged.org/doc/udisks2-api/latest/udisksctl.1.html>.
 
 - Show high-level information about disk drives and block devices:
 

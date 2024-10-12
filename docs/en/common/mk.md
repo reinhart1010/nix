@@ -2,15 +2,15 @@
 layout: page
 title: common/mk (English)
 description: "Task runner for targets described in Mkfile."
-content_hash: ee2223af4ee6ca6b15c7edd7e88e90ea974a1e88
-last_modified_at: 2023-11-12
+content_hash: b392641b91e16b4596bcaa853174f1f482aa328b
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # mk
 
 Task runner for targets described in Mkfile.
 Mostly used to control the compilation of an executable from source code.
-More information: <http://doc.cat-v.org/plan_9/4th_edition/papers/mk>.
+More information: <https://doc.cat-v.org/plan_9/4th_edition/papers/mk>.
 
 - Call the first target specified in the Mkfile (usually named "all"):
 

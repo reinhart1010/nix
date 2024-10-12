@@ -2,15 +2,15 @@
 layout: page
 title: common/p7zip (English)
 description: "Wrapper of 7-Zip file archiver with high compression ratio."
-content_hash: fdbfb42844fc2c4b7eb8d78fae14479c309ec2e6
-last_modified_at: 2023-11-12
+content_hash: ee07845c7e6274d05dd8bcb95c7ad526423b69a2
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # p7zip
 
 Wrapper of 7-Zip file archiver with high compression ratio.
 Internally executes either 7za or 7zr command.
-More information: <http://p7zip.sourceforge.net>.
+More information: <https://p7zip.sourceforge.net>.
 
 - Archive a file, replacing it with a 7zipped compressed version:
 

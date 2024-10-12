@@ -2,8 +2,8 @@
 layout: page
 title: common/atoum (español)
 description: "Un framework de pruebas unitarias para PHP sencillo, moderno e intuitivo."
-content_hash: d22f9baefb6de4e39d4e947d62328fe223aef9ab
-last_modified_at: 2023-11-12
+content_hash: c282bcb51b0df474b9381d5b972b8d299cda7745
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/atoum.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # atoum
 
 Un framework de pruebas unitarias para PHP sencillo, moderno e intuitivo.
-Más información: <http://atoum.org>.
+Más información: <https://atoum.org>.
 
 - Inicializa un fichero de configuración:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/doxygen (English)
 description: "A documentation system for various programming languages."
-content_hash: e2046656fbc26aaa5166c23aee705148875fa6ef
-last_modified_at: 2023-11-12
+content_hash: 00b62b38e24f36664043dd5329a66ee1153402b6
+last_modified_at: 2024-10-12
 related_topics:
   - title: italiano version
     url: /it/common/doxygen.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # doxygen
 
 A documentation system for various programming languages.
-More information: <http://www.doxygen.nl>.
+More information: <https://www.doxygen.nl>.
 
 - Generate a default template configuration file `Doxyfile`:
 

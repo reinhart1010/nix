@@ -2,14 +2,14 @@
 layout: page
 title: common/xml-elements (English)
 description: "Extract elements and display the structure of an XML document."
-content_hash: 2ee9111b0fbc502d40720d3b1160ee8306a06db3
-last_modified_at: 2024-01-30
+content_hash: 36d7ec462d01a5d372434033d42329729a8d6089
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # xml elements
 
 Extract elements and display the structure of an XML document.
-More information: <http://xmlstar.sourceforge.net/docs.php>.
+More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Extract elements from an XML document (producing XPATH expressions):
 

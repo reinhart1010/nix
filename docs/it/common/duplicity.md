@@ -2,8 +2,8 @@
 layout: page
 title: common/duplicity (italiano)
 description: "Crea archivi incrementali, compressi, cifrati con controllo di versione."
-content_hash: 62ccfaba3640940050447663f2a3be0e549bec3b
-last_modified_at: 2024-01-11
+content_hash: fdf62d08688dbe34ae6fd079187a97172144484c
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/duplicity.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Crea archivi incrementali, compressi, cifrati con controllo di versione.
 Può caricare i backup su una varietà di servizi backend.
-Maggiori informazioni: <http://duplicity.nongnu.org>.
+Maggiori informazioni: <https://duplicity.gitlab.io>.
 
 - Esegui il backup di una directory via FTPS su una macchina remota, cifrandolo con una password:
 

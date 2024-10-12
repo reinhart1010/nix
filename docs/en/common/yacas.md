@@ -2,14 +2,14 @@
 layout: page
 title: common/yacas (English)
 description: "Yet Another Computer Algebra System."
-content_hash: 163a51629f70f49c879f81f319e2a3ca8ace5e62
-last_modified_at: 2023-11-12
+content_hash: b2f1d88357cd57b126e9184b6632e8f607532132
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # yacas
 
 Yet Another Computer Algebra System.
-More information: <http://www.yacas.org>.
+More information: <https://www.yacas.org>.
 
 - Start an interactive `yacas` session:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/youtube-dl (Indonesia)
 description: "Unduh video dari YouTube dan situs web lain."
-content_hash: b6d9a365c911f8e810f9ec8bf67580b913004dec
-last_modified_at: 2024-01-02
+content_hash: 922c4b652734cec0fd4d8d69b97abe7421dec6e1
+last_modified_at: 2024-10-12
 related_topics:
   - title: català version
     url: /ca/common/youtube-dl.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # youtube-dl
 
 Unduh video dari YouTube dan situs web lain.
-Informasi lebih lanjut: <http://rg3.github.io/youtube-dl/>.
+Informasi lebih lanjut: <https://rg3.github.io/youtube-dl/>.
 
 - Mengunduh sebuah video atau daftar putar:
 

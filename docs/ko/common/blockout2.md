@@ -2,8 +2,8 @@
 layout: page
 title: common/blockout2 (한국어)
 description: "3D 게임과 같은 테트리스."
-content_hash: b5e17e20ac8b2203b4dac3cbd86d9d35c1763433
-last_modified_at: 2024-01-17
+content_hash: e907fffcbbf6bd8b1cf4b138ee1d3cab16eba39c
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/blockout2.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # blockout2
 
 3D 게임과 같은 테트리스.
-더 많은 정보: <http://www.blockout.net/blockout2/>.
+더 많은 정보: <https://www.blockout.net/blockout2/>.
 
 - 새로운 게임 시작:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/pabcnetcclear (русский)
 description: "Препроцессор и компилятор для исходных файлов PascalABC.NET."
-content_hash: 80d9ac4f9b8955c874044c273a155f0554bc8483
-last_modified_at: 2023-11-12
+content_hash: 648227dcf2e976f416d7ce83a365f29606602825
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/windows/pabcnetcclear.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # pabcnetcclear
 
 Препроцессор и компилятор для исходных файлов PascalABC.NET.
-Больше информации: <http://pascalabc.net>.
+Больше информации: <https://pascalabc.net>.
 
 - Скомпилировать файл с исходным кодом в исполняемый файл с тем же именем:
 

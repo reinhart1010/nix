@@ -2,8 +2,8 @@
 layout: page
 title: common/astyle (italiano)
 description: "Indentatore, formattatore e beautifier di codice sorgente per i linguaggi C, C++, C# e Java."
-content_hash: 81e90931c6057d3b7ca236a0d17b1222449879dc
-last_modified_at: 2023-11-12
+content_hash: c47f2fa1c446b802a475c46cc13e516482f44b20
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/astyle.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Indentatore, formattatore e beautifier di codice sorgente per i linguaggi C, C++, C# e Java.
 Quando eseguito, una copia del file originale è creata con l'estensione ".orig" aggiunta come suffisso.
-Maggiori informazioni: <http://astyle.sourceforge.net>.
+Maggiori informazioni: <https://astyle.sourceforge.net>.
 
 - Applica lo stile di default di 4 spazi per livello di indentazione e nessun cambiamento alla formattazione:
 

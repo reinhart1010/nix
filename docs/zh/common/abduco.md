@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (中文)
 description: "终端会话管理器。"
-content_hash: 97058666d8167b3e5200a63534e420a9defda3df
-last_modified_at: 2023-12-29
+content_hash: 0e4392905a1bcd6883137cb7d42c56d409ceadb1
+last_modified_at: 2024-10-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # abduco
 
 终端会话管理器。
-更多信息：<http://www.brain-dump.org/projects/abduco/>.
+更多信息：<https://www.brain-dump.org/projects/abduco/>.
 
 - 列出会话：
 

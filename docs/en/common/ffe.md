@@ -2,15 +2,15 @@
 layout: page
 title: common/ffe (English)
 description: "Extract fields from a flat database file and write to another format."
-content_hash: ff61d332b2b2dc1305f859458f1d5f881bb2e4be
-last_modified_at: 2024-01-25
+content_hash: 95cc028ac3d6236b0a4d4df5a2c0398c9b967d39
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # ffe
 
 Extract fields from a flat database file and write to another format.
 A configuration file is required to interpret the input and format the output.
-More information: <http://ff-extractor.sourceforge.net/ffe.html>.
+More information: <https://ff-extractor.sourceforge.net/ffe.html>.
 
 - Display all input data using the specified data configuration:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (norsk)
 description: "Terminal økt behandler."
-content_hash: d9ad2528075107aa6eb0c1dde344c08f0cae7d7b
-last_modified_at: 2023-12-29
+content_hash: 3b55adbda7056e1ba085c5a06b2749eff46ad54d
+last_modified_at: 2024-10-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # abduco
 
 Terminal økt behandler.
-Mer informasjon: <http://www.brain-dump.org/projects/abduco/>.
+Mer informasjon: <https://www.brain-dump.org/projects/abduco/>.
 
 - List opp økter:
 

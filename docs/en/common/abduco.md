@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (English)
 description: "Terminal session manager."
-content_hash: b07f667cb829f005b007577889e880ee393d3ffc
-last_modified_at: 2023-12-29
+content_hash: 96a9d916c8ad692eefd8774ceb027ad74bb2bea7
+last_modified_at: 2024-10-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # abduco
 
 Terminal session manager.
-More information: <http://www.brain-dump.org/projects/abduco/>.
+More information: <https://www.brain-dump.org/projects/abduco/>.
 
 - List sessions:
 

@@ -2,15 +2,15 @@
 layout: page
 title: common/qmmp (English)
 description: "An audio player with an interface similar to Winamp or XMMS."
-content_hash: d904ccb76b9c894ee9c29cc3a4ba8a70946ce65e
-last_modified_at: 2024-04-04
+content_hash: c17a9159801159114f6267251b724d16870487bc
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # qmmp
 
 An audio player with an interface similar to Winamp or XMMS.
 See also: `clementine`, `ncmpcpp`, `cmus`.
-More information: <http://qmmp.ylsoftware.com>.
+More information: <https://qmmp.ylsoftware.com>.
 
 - Launch the GUI:
 

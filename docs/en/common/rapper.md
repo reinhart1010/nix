@@ -2,15 +2,15 @@
 layout: page
 title: common/rapper (English)
 description: "The Raptor RDF parsing utility."
-content_hash: 36ed288aa352d9f44c2e4edab041de4e9ecea871
-last_modified_at: 2023-11-12
+content_hash: af720428b1b37e0cbd07c7a9b171780cf60ce8dc
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # rapper
 
 The Raptor RDF parsing utility.
 Part of the Raptor RDF Syntax Library.
-More information: <http://librdf.org/raptor/rapper.html>.
+More information: <https://librdf.org/raptor/rapper.html>.
 
 - Convert an RDF/XML document to Turtle:
 

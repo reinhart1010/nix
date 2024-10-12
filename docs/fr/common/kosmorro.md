@@ -2,8 +2,8 @@
 layout: page
 title: common/kosmorro (français)
 description: "Calcule les éphémérides et les évènements pour une date donnée, à un emplacement donné sur Terre."
-content_hash: 0c3ff72a4dbf279571942103b71fcec95771b985
-last_modified_at: 2023-11-12
+content_hash: f09e0e29b4145971e704b5ecf62fc52fa3297a97
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/kosmorro.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # kosmorro
 
 Calcule les éphémérides et les évènements pour une date donnée, à un emplacement donné sur Terre.
-Plus d'informations : <http://kosmorro.space>.
+Plus d'informations : <https://kosmorro.space>.
 
 - Obtenir les éphémérides pour Paris (France) :
 

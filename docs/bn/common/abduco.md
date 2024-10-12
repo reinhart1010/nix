@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (বাংলা)
 description: "টার্মিনাল সেশন ম্যানেজার।"
-content_hash: 4dba2dc05a1a7bd2991f544ca2ec7f06ac58cdee
-last_modified_at: 2023-12-29
+content_hash: 3b1b615b2468566b783e260a5016c9cd11f6360c
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/abduco.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # abduco
 
 টার্মিনাল সেশন ম্যানেজার।
-আরও তথ্য পাবেন: <http://www.brain-dump.org/projects/abduco/>।
+আরও তথ্য পাবেন: <https://www.brain-dump.org/projects/abduco/>।
 
 - সেশনগুলির তালিকা:
 

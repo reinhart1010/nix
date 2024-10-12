@@ -2,14 +2,14 @@
 layout: page
 title: common/mytop (English)
 description: "Display MySQL server performance info like `top`."
-content_hash: c4d44141f1a53a52f2638576210112e150a45a25
-last_modified_at: 2023-11-12
+content_hash: b8674dbef5027ab60a693a4a745eb01895957be0
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # mytop
 
 Display MySQL server performance info like `top`.
-More information: <http://jeremy.zawodny.com/mysql/mytop/mytop.html>.
+More information: <https://jeremy.zawodny.com/mysql/mytop/mytop.html>.
 
 - Start `mytop`:
 

@@ -2,15 +2,15 @@
 layout: page
 title: common/f3fix (English)
 description: "Edit the partition table of a fake flash drive."
-content_hash: d9c31683be90e377e7fe1ea2810ad272dea8af5c
-last_modified_at: 2023-11-23
+content_hash: 8127161aec44b568ba09e19eb3a45d48f80c002f
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # f3fix
 
 Edit the partition table of a fake flash drive.
 See also: `f3probe`, `f3write`, `f3read`.
-More information: <http://oss.digirati.com.br/f3/>.
+More information: <https://oss.digirati.com.br/f3/>.
 
 - Fill a fake flash drive with a single partition that matches its real capacity:
 

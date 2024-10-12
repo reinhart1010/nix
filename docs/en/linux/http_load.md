@@ -2,15 +2,15 @@
 layout: page
 title: linux/http_load (English)
 description: "An HTTP benchmarking tool."
-content_hash: 5bdedf540af85c321ae6b3425217712bf1b6ab92
-last_modified_at: 2023-11-12
+content_hash: 777e65f3f37110e7c90454e5d43772d291c4201e
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # http_load
 
 An HTTP benchmarking tool.
 Runs multiple HTTP fetches in parallel to test the throughput of a web server.
-More information: <http://www.acme.com/software/http_load/>.
+More information: <https://www.acme.com/software/http_load/>.
 
 - Emulate 20 requests based on a given URL list file per second for 60 seconds:
 

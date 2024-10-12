@@ -2,8 +2,8 @@
 layout: page
 title: linux/cpulimit (español)
 description: "Una herramienta para limitar el uso del CPU de otros procesos."
-content_hash: 9cebe15a6e42bced9129fe88a4c052162c07cdc1
-last_modified_at: 2023-11-12
+content_hash: c8f38e115055a8784b86494245e9672e45985a0e
+last_modified_at: 2024-10-12
 related_topics:
   - title: català version
     url: /ca/linux/cpulimit.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # cpulimit
 
 Una herramienta para limitar el uso del CPU de otros procesos.
-Más información: <http://cpulimit.sourceforge.net/>.
+Más información: <https://cpulimit.sourceforge.net/>.
 
 - Limita un proceso existente con PID 1234 para que solo use el 25% del CPU:
 

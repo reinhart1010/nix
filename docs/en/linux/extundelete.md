@@ -2,15 +2,15 @@
 layout: page
 title: linux/extundelete (English)
 description: "Recover deleted files from ext3 or ext4 partitions by parsing the journal."
-content_hash: 3e811cdbbd765ae73231de51a668b711a8fd650f
-last_modified_at: 2023-11-12
+content_hash: 18d381ff4360691d9ad645252840655bb801ba61
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # extundelete
 
 Recover deleted files from ext3 or ext4 partitions by parsing the journal.
 See also `date` for Unix time information and `umount` for unmounting partitions.
-More information: <http://extundelete.sourceforge.net>.
+More information: <https://extundelete.sourceforge.net>.
 
 - Restore all deleted files inside partition N on device X:
 

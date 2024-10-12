@@ -2,8 +2,8 @@
 layout: page
 title: common/astyle (English)
 description: "Source code indenter, formatter, and beautifier for the C, C++, C# and Java programming languages."
-content_hash: 02e51112145dd8b256594592f9bde4c3d8658978
-last_modified_at: 2023-11-12
+content_hash: 5e6364d867154ec27cfa543964cc4e729ba24cc3
+last_modified_at: 2024-10-12
 related_topics:
   - title: español version
     url: /es/common/astyle.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Source code indenter, formatter, and beautifier for the C, C++, C# and Java programming languages.
 Upon running, a copy of the original file is created with an ".orig" appended to the original file name.
-More information: <http://astyle.sourceforge.net>.
+More information: <https://astyle.sourceforge.net>.
 
 - Apply the default style of 4 spaces per indent and no formatting changes:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/cpuid (português (Brasil))
 description: "Exibe informações detalhadas sobre todas as CPUs."
-content_hash: 8505def173b9a5011df2061e82309033cc1d4c33
-last_modified_at: 2023-12-28
+content_hash: 833d3cb725dbb9cb50c7810e2d532ee4818916a9
+last_modified_at: 2024-10-12
 related_topics:
   - title: català version
     url: /ca/linux/cpuid.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # cpuid
 
 Exibe informações detalhadas sobre todas as CPUs.
-Mais informações: <http://etallen.com/cpuid.html>.
+Mais informações: <https://etallen.com/cpuid.html>.
 
 - Exibe informações de todas as CPUs:
 

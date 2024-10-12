@@ -2,14 +2,14 @@
 layout: page
 title: common/optipng (English)
 description: "PNG file optimization utility."
-content_hash: 39df17d5b38ab85088f833e4ef7420fc13ad55c1
-last_modified_at: 2023-11-12
+content_hash: aefb69f10ad358e9726b29858218afb9dd021d5c
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # optipng
 
 PNG file optimization utility.
-More information: <http://optipng.sourceforge.net>.
+More information: <https://optipng.sourceforge.net>.
 
 - Compress a PNG with default settings:
 

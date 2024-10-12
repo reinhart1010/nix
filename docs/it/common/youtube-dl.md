@@ -2,8 +2,8 @@
 layout: page
 title: common/youtube-dl (italiano)
 description: "Scarica video da YouTube ed altri siti web."
-content_hash: 0ab8687daf31e8b1ae7cf05049a04bba8cac2851
-last_modified_at: 2023-12-29
+content_hash: 86da2407496553b949da683b70e26bbc1e7cf065
+last_modified_at: 2024-10-12
 related_topics:
   - title: català version
     url: /ca/common/youtube-dl.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # youtube-dl
 
 Scarica video da YouTube ed altri siti web.
-Maggiori informazioni: <http://rg3.github.io/youtube-dl/>.
+Maggiori informazioni: <https://rg3.github.io/youtube-dl/>.
 
 - Scarica un video od una playlist:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (한국어)
 description: "터미널 세션 관리자."
-content_hash: a54575d43dcf4b2704aafc96ac98fb28aaf33278
-last_modified_at: 2023-12-29
+content_hash: ba4952e65fa4b22b237d21ea258c4fa9845e7e71
+last_modified_at: 2024-10-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # abduco
 
 터미널 세션 관리자.
-더 많은 정보: <http://www.brain-dump.org/projects/abduco/>.
+더 많은 정보: <https://www.brain-dump.org/projects/abduco/>.
 
 - 세션 목록:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (italiano)
 description: "Gestore di sessioni di terminale."
-content_hash: 5d6181e274fe6daa0b9d89d5a392ec2bac2a7a2d
-last_modified_at: 2023-12-29
+content_hash: 81a6e7c476e0eccc27f745da975b7a6733ce4782
+last_modified_at: 2024-10-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # abduco
 
 Gestore di sessioni di terminale.
-Maggiori informazioni: <http://www.brain-dump.org/projects/abduco/>.
+Maggiori informazioni: <https://www.brain-dump.org/projects/abduco/>.
 
 - List sessioni:
 

@@ -2,15 +2,15 @@
 layout: page
 title: common/f3write (English)
 description: "Fill a drive out with .h2w files to test its real capacity."
-content_hash: b3771cfdb6e5986821977839a64c50a1d56cc9a7
-last_modified_at: 2023-11-23
+content_hash: 9a506ec55581ab8292b817c2f3c460c6f5a0da14
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # f3write
 
 Fill a drive out with .h2w files to test its real capacity.
 See also: `f3read`, `f3probe`, `f3fix`.
-More information: <http://oss.digirati.com.br/f3/>.
+More information: <https://oss.digirati.com.br/f3/>.
 
 - Write test files to a given directory, filling the drive:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cppcheck (한국어)
 description: "C/C++ 코드를 위한 정적 분석 도구."
-content_hash: 7424dced9d817ecd653c27757042a9892e46eff6
-last_modified_at: 2023-11-12
+content_hash: dc732a1203e26affe25922fe5a7d0738180a7c9e
+last_modified_at: 2024-10-12
 related_topics:
   - title: English version
     url: /en/common/cppcheck.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 C/C++ 코드를 위한 정적 분석 도구.
 구문 오류 대신 컴파일러가 일반적으로 감지하지 못하는 버그 유형에 중점을 둠.
-더 많은 정보: <http://cppcheck.sourceforge.net>.
+더 많은 정보: <https://cppcheck.sourceforge.net>.
 
 - 화면에 진행률을 표시하고 오류 메시지를 파일에 로깅하여 현재 디렉토리를 반복적으로 확인:
 

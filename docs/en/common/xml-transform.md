@@ -2,14 +2,14 @@
 layout: page
 title: common/xml-transform (English)
 description: "Transform XML documents using XSLT."
-content_hash: 367f9b10fbc8cd8f98b38ba7fdf03ef328e4093f
-last_modified_at: 2024-01-30
+content_hash: 5d5794bb858e1a3892352df37e954533016f6725
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # xml transform
 
 Transform XML documents using XSLT.
-More information: <http://xmlstar.sourceforge.net/docs.php>.
+More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Transform an XML document using an XSL stylesheet, passing one XPATH parameter and one literal string parameter:
 

@@ -2,15 +2,15 @@
 layout: page
 title: common/httpry (English)
 description: "A lightweight packet sniffer for displaying and logging HTTP traffic."
-content_hash: 458173f1ed3f0157b70fc22f3296cb73af31d0c7
-last_modified_at: 2024-03-14
+content_hash: 77328d6a7e3a38848b5c01e217b71b7980575746
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # httpry
 
 A lightweight packet sniffer for displaying and logging HTTP traffic.
 It can be run in real-time displaying the traffic as it is parsed, or as a daemon process that logs to an output file.
-More information: <http://dumpsterventures.com/jason/httpry/>.
+More information: <https://dumpsterventures.com/jason/httpry/>.
 
 - Save output to a file:
 

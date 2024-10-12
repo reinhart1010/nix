@@ -2,8 +2,8 @@
 layout: page
 title: linux/numlockx (English)
 description: "Control the number lock key status in X11 sessions."
-content_hash: 3351652ff9006c137d7ce7da94e932ca6a33215d
-last_modified_at: 2023-11-12
+content_hash: 3fc8b67da670b35d3a24c2d85829ee636331c137
+last_modified_at: 2024-10-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/numlockx.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # numlockx
 
 Control the number lock key status in X11 sessions.
-More information: <http://www.mike-devlin.com/linux/README-numlockx.htm>.
+More information: <https://www.mike-devlin.com/linux/README-numlockx.htm>.
 
 - Show the current number lock status:
 

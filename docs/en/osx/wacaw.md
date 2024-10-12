@@ -2,8 +2,8 @@
 layout: page
 title: osx/wacaw (English)
 description: "Capture both still pictures and video from an attached camera."
-content_hash: a3a3f4845c200b5ac3621d4c587e5a86dbcaf3fd
-last_modified_at: 2024-02-25
+content_hash: 7e8f0f936ece8e02f8be8b8b7b0decdf12b62e53
+last_modified_at: 2024-10-12
 related_topics:
   - title: español version
     url: /es/osx/wacaw.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # wacaw
 
 Capture both still pictures and video from an attached camera.
-More information: <http://webcam-tools.sourceforge.net>.
+More information: <https://webcam-tools.sourceforge.net>.
 
 - Take a picture from webcam:
 

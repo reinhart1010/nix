@@ -2,8 +2,8 @@
 layout: page
 title: common/espeak (English)
 description: "Uses text-to-speech to speak through the default sound device."
-content_hash: e0f63a73c7e27413b87843c21d20ad358c200764
-last_modified_at: 2023-11-12
+content_hash: 622858ea6ded44389f25fd383e3a8192a01d6a61
+last_modified_at: 2024-10-12
 related_topics:
   - title: italiano version
     url: /it/common/espeak.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # espeak
 
 Uses text-to-speech to speak through the default sound device.
-More information: <http://espeak.sourceforge.net>.
+More information: <https://espeak.sourceforge.net>.
 
 - Speak a phrase aloud:
 

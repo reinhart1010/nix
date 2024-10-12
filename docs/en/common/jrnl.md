@@ -2,8 +2,8 @@
 layout: page
 title: common/jrnl (English)
 description: "A simple journal application for your command-line."
-content_hash: 4ecabf575b9451271493131576865f229e4b30ca
-last_modified_at: 2023-11-12
+content_hash: f91a7428bcd587378a8ce403f8892eb8a904adab
+last_modified_at: 2024-10-12
 related_topics:
   - title: italiano version
     url: /it/common/jrnl.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # jrnl
 
 A simple journal application for your command-line.
-More information: <http://jrnl.sh>.
+More information: <https://jrnl.sh>.
 
 - Insert a new entry with your editor:
 

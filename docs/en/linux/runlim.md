@@ -2,14 +2,14 @@
 layout: page
 title: linux/runlim (English)
 description: "Sample and limit time and memory usage of a program and its child processes using the proc file system on Linux."
-content_hash: 471f7b0b5632e68bf616ff4a3bb5b1abca392eab
-last_modified_at: 2024-02-15
+content_hash: 57f3369784b0a7494918957558e72bcd881b03fd
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # runlim
 
 Sample and limit time and memory usage of a program and its child processes using the proc file system on Linux.
-More information: <http://fmv.jku.at/runlim>.
+More information: <https://fmv.jku.at/runlim>.
 
 - Print the time and memory usage of a command:
 

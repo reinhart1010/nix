@@ -2,15 +2,15 @@
 layout: page
 title: common/ocamlfind (English)
 description: "The findlib package manager for OCaml."
-content_hash: 1eb5d6968d6cd395c5523646ad9da76b02159912
-last_modified_at: 2023-11-12
+content_hash: d90f5ae4d4c54347885b9167ba26eb6ea0af4b56
+last_modified_at: 2024-10-12
 tldri18n_status: 2
 ---
 # ocamlfind
 
 The findlib package manager for OCaml.
 Simplifies linking executables with external libraries.
-More information: <http://projects.camlcity.org/projects/findlib.html>.
+More information: <https://projects.camlcity.org/projects/findlib.html>.
 
 - Compile a source file to a native binary and link with packages:
 
