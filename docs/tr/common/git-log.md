@@ -2,8 +2,8 @@
 layout: page
 title: common/git-log (Türkçe)
 description: "Commit geçmişini göster."
-content_hash: 24225d1d7b5e4ab9a7c09c66da1990848a3b9727
-last_modified_at: 2024-01-02
+content_hash: 5969fd77e5da000f7d13f21b53dc406345a22102
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-log.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-log.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-log.html
@@ -39,7 +42,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-log>.
 
 - Belirtilen dosya veya dizinin tarihini farklılıklarla beraber göster:
 
-`git log -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/veya/dizin/konumu</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|-u|--patch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/veya/dizin/konumu</span>
 
 - Her bir commit'de hangi dosya(lar)ın değiştiğinin önizlemesini göster:
 
@@ -55,12 +58,12 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-log>.
 
 - Mesajları yalnızca belirtilen ifadeleri içeren commit'leri göster (büyük-küçük harfe duyarsız):
 
-`git log -i --grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aranan_ifade</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--regexp-ignore-case</span>` --grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aranan_ifade</span>
 
 - Belirtilmiş yazardan gelen, belirtilen sayıda commit göster:
 
-`git log -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sayı</span>` --author=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yazar</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--max-count</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sayı</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yazar</span>`"`
 
 - İki tarih arasında yapılmış commit'leri göster:
 
-`git log --before="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tarih</span>`" --after="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tarih</span>`"`
+`git log --before "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tarih</span>`" --after "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tarih</span>`"`

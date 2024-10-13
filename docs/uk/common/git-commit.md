@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (українська)
 description: "Комітить файли до репозиторію."
-content_hash: ca7b217e281ffecd4b64d06dd1f5a4118fcb897b
-last_modified_at: 2023-12-30
+content_hash: cc941b202464947af1dc04f40e3e570a0492100c
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/git-commit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-commit.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-commit.html
@@ -63,7 +66,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - Комітить тільки певні (вже індексовані) файли:
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу1 шлях/до/файлу2 ...</span>
 
 - Створює коміт, навіть якщо немає жодного індексованого файлу:
 

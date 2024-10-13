@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (português (Brasil))
 description: "A interface de linha de comando oficial para o Amazon Web Services."
-content_hash: 27adff166cbb70988319141538b41b773fbe9ce6
-last_modified_at: 2024-10-05
+content_hash: d4859c7a5aa8af3d91f45146bd35ce1db43c4800
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -46,10 +46,6 @@ Mais informações: <https://aws.amazon.com/cli>.
 
 `aws configure sso`
 
-- Veja o texto de ajuda para o comando da AWS:
-
-`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` help`
-
 - Obtenha a informações da identidade usada (útil para analisar problemas de permissão):
 
 `aws sts get-caller-identity`
@@ -69,3 +65,7 @@ Mais informações: <https://aws.amazon.com/cli>.
 - Gera um arquivo esqueleo em JSON (útil para ser usado em infraestrutura como código):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- Veja o texto de ajuda para o comando da AWS:
+
+`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` help`

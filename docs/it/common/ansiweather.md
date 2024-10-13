@@ -2,8 +2,8 @@
 layout: page
 title: common/ansiweather (italiano)
 description: "Uno script per mostrare le attuali condizioni meteo nel tuo terminale."
-content_hash: 6b1695af6b7c50b483189b38ccef56c7800e9d85
-last_modified_at: 2023-11-12
+content_hash: a4534a47c306bdf3c5c59b5932d0422266cb60e7
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/ansiweather.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ansiweather.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ansiweather.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ansiweather.html
@@ -32,12 +35,12 @@ Maggiori informazioni: <https://github.com/fcambus/ansiweather>.
 
 - Mostra una previsione usando unità SI per i prossimi cinque giorni in Rzeszow (Polonia):
 
-`ansiweather -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">metric</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Rzeszow,PL</span>
+`ansiweather -u metric -f 7 -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Rzeszow,PL</span>
 
 - Mostra una previsione con simboli e informazioni sulla luce solare per la tua posizione attuale:
 
-`ansiweather -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>
+`ansiweather -F -s true -d true`
 
 - Mostra una previsione con informazioni su vento ed umidità per la tua posizione attuale:
 
-`ansiweather -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>` -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>
+`ansiweather -w true -h true`

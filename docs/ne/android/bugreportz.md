@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (नेपाली)
 description: "जिप गरिएको एन्ड्रोइड बग रिपोर्ट उत्पन्न गर्नुहोस्।"
-content_hash: c0b366ab424b6dbdc7da350c09a3da47d4f98d0b
-last_modified_at: 2023-12-14
+content_hash: 4fd1a5717018b8e85516dbeea7f24173c6a22dcb
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -81,10 +81,10 @@ tldri18n_status: 2
 
 `bugreportz -p`
 
-- `bugreportz` को संस्करण देखाउनुहोस्:
-
-`bugreportz -v`
-
 - प्रदर्शन मद्दत:
 
 `bugreportz -h`
+
+- `bugreportz` को संस्करण देखाउनुहोस्:
+
+`bugreportz -v`

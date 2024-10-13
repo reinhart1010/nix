@@ -2,14 +2,17 @@
 layout: page
 title: common/git-clean (français)
 description: "Supprimer les fichiers non-suivis d'un dépôt Git."
-content_hash: 9577b65135cd4923aeae806ecc4ad9ba7ad8704b
-last_modified_at: 2023-11-12
+content_hash: e2f192aa6de600ff5c968510b168384e3b9834e1
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-clean.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/git-clean.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-clean.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-clean.html
@@ -36,7 +39,7 @@ Plus d'informations : <https://git-scm.com/docs/git-clean>.
 
 - Supprimer les fichiers non-suivis de manière interactive :
 
-`git clean -i`
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>
 
 - Affiche les fichiers non-suivis qui peuvent être supprimés :
 
@@ -44,11 +47,11 @@ Plus d'informations : <https://git-scm.com/docs/git-clean>.
 
 - Nettoyage forcé des fichiers non-suivis :
 
-`git clean -f`
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--force</span>
 
 - Nettoyage forcé des répertoires non-suivis :
 
-`git clean -fd`
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--force</span>` -d`
 
 - Supprime tous les fichiers suivis, incluant ceux répertoriés par `.gitignore` et `.git/info/exclude` :
 

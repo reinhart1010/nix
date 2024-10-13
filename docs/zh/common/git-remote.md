@@ -2,8 +2,8 @@
 layout: page
 title: common/git-remote (中文)
 description: "管理跟踪的远程仓库（remotes）。"
-content_hash: 96e406de924bf8e8cdd9de514bd68eac29a134fc
-last_modified_at: 2023-11-12
+content_hash: 359a2497919d3ecdaa161bfe884ed7ecaf4974d4
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -23,6 +23,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-remote.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-remote.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-remote.html
     icon: bi bi-globe
@@ -38,7 +41,7 @@ tldri18n_status: 2
 
 - 列出已经存在的远程仓库，包括它们的名字和 URL：
 
-`git remote -v`
+`git remote `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>
 
 - 查看某个远程仓库的信息：
 

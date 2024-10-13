@@ -2,8 +2,8 @@
 layout: page
 title: common/ansiweather (français)
 description: "Un script Shell pour afficher les conditions météo actuelles dans votre terminal."
-content_hash: e0c2b5f9c5806ce7da3f3fa0602652044437aaed
-last_modified_at: 2023-11-12
+content_hash: 9721b9310fe20bb5231a059469952aeedc95cfaa
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/ansiweather.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/ansiweather.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ansiweather.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ansiweather.html
@@ -30,14 +33,14 @@ tldri18n_status: 2
 Un script Shell pour afficher les conditions météo actuelles dans votre terminal.
 Plus d'informations : <https://github.com/fcambus/ansiweather>.
 
-- Affiche une prévision avec le système métrique pour les 5 prochains jours dans la ville de Paris, France :
+- Affiche une prévision avec le système métrique pour les 7 prochains jours dans la ville de Paris, France :
 
-`ansiweather -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">metric</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Paris,FR</span>
+`ansiweather -u metric -f 7 -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Paris,FR</span>
 
 - Affiche une prévision avec des symboles et les données d'ensoleillement pour votre position actuelle :
 
-`ansiweather -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>
+`ansiweather -F -s true -d true`
 
 - Affiche une prévision avec les données sur le vent et l'humidité pour votre position actuelle :
 
-`ansiweather -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>` -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>
+`ansiweather -w true -h true`

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-shortlog (English)
 description: "Summarizes the `git log` output."
-content_hash: 6869e607d4b5e3334a794a222f0b26229b48b3e6
-last_modified_at: 2024-09-03
+content_hash: e349482a7935e50d8e33e63db7563032cf4bcfa6
+last_modified_at: 2024-10-13
 related_topics:
   - title: español version
     url: /es/common/git-shortlog.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-shortlog.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-shortlog.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-shortlog.html
@@ -38,7 +41,7 @@ More information: <https://git-scm.com/docs/git-shortlog>.
 
 - View a summary of the last 5 commits (i.e. specify a revision range):
 
-`git shortlog HEAD~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>`..HEAD`
+`git shortlog HEAD~5..HEAD`
 
 - View all users, emails and the number of commits in the current branch:
 

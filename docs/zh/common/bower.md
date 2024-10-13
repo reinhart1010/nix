@@ -2,8 +2,8 @@
 layout: page
 title: common/bower (中文)
 description: "前端 web 开发的包管理优化工具。"
-content_hash: 20463705f4aa2a7a82491f369bafba034ae172c8
-last_modified_at: 2023-11-12
+content_hash: 287072ca1c48c0ce93e6cc81d14525186a54bb14
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/bower.html
@@ -38,10 +38,6 @@ tldri18n_status: 2
 
 `bower list`
 
-- 显示 bower 指令的帮助信息：
-
-`bower help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指令</span>
-
 - 创建你的项目的 `bower.json`：
 
 `bower init`
@@ -49,3 +45,7 @@ tldri18n_status: 2
 - 安装时候指定依赖的版本号，并添加到 `bower.json`：
 
 `bower install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_name</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`#`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>` --save`
+
+- 显示 bower 指令的帮助信息：
+
+`bower help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指令</span>

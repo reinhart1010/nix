@@ -2,8 +2,8 @@
 layout: page
 title: common/bpytop (中文)
 description: "用图形显示有关正在运行的进程的动态实时信息。类似于 `gtop` 和 `htop`."
-content_hash: 956dfb839a2481dd619a6dbab6b8894d9b4a0a26
-last_modified_at: 2023-11-12
+content_hash: 46826c644174e0025489118bc3229c30560fa6e7
+last_modified_at: 2024-10-13
 related_topics:
   - title: català version
     url: /ca/common/bpytop.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/bpytop.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/bpytop.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -29,10 +32,6 @@ tldri18n_status: 2
 
 `bpytop -m`
 
-- 显示版本：
-
-`bpytop -v`
-
 - 切换最小模式：
 
 `m`
@@ -44,3 +43,7 @@ tldri18n_status: 2
 - 改变设置：
 
 `M`
+
+- 显示版本：
+
+`bpytop -v`

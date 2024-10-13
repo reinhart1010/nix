@@ -2,8 +2,8 @@
 layout: page
 title: common/git (മലയാളം)
 description: "പ്രോഗ്രാമുകളുടെ പല പതിപ്പുകൾ പലയിടങ്ങളിലായി സൂക്ഷിക്കുവാനും നിയന്ത്രിക്കുവാനും ഉള്ള വികേന്ദ്രീകൃത പതിപ്പ് നിയന്ത്രണ സംവിധാനം."
-content_hash: 30c357d7899b1f0b0208eff5b5eae2aa3d50db3d
-last_modified_at: 2023-11-12
+content_hash: 1c8040a8af9ff072fa6d9f412881040b88682489
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,18 +58,6 @@ tldri18n_status: 2
 `commit`, `add`, `branch`, `checkout`, `push` മുതലായ ചില ഉപകമാൻഡുകൾക്ക് അവരുടേതായ ഡോക്യുമെന്റേഷൻ ഉണ്ട്, `tldr git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഉപകമാൻഡ്</span> വഴി അവ കാണാൻ കഴിയും.
 കൂടുതൽ വിവരങ്ങൾ: <https://git-scm.com/>.
 
-- നിങ്ങൾ ഉപയോഗിക്കുന്ന ഗിറ്റിന്റെ പതിപ്പ് പരിശോധിക്കാൻ:
-
-`git --version`
-
-- സഹായ നിർദേശങ്ങൾ കാണുവാൻ:
-
-`git --help`
-
-- `clone`, `add`, `push`, `log` പോലുള്ള ഉപകമാൻഡുകളുടെ സഹായ നിർദേശങ്ങൾ കാണുവാൻ:
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഉപകമാൻഡ്</span>
-
 - ഗിറ്റ് ഉപകമാന്റുകൾ എക്സിക്യൂട്ട് ചെയ്യുവാൻ:
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഉപകമാൻഡ്</span>
@@ -81,3 +69,15 @@ tldri18n_status: 2
 - ഒരു കോൺഫിഗറേഷൻ സെറ്റ് ഉപയോഗിച്ച് Git ഉപകമാൻഡ് എക്സിക്യൂട്ട് ചെയ്യാൻ:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">കോൺഫിഗ്.പേര്</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">മൂല്യം</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഉപകമാൻഡ്</span>
+
+- സഹായ നിർദേശങ്ങൾ കാണുവാൻ:
+
+`git --help`
+
+- `clone`, `add`, `push`, `log` പോലുള്ള ഉപകമാൻഡുകളുടെ സഹായ നിർദേശങ്ങൾ കാണുവാൻ:
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഉപകമാൻഡ്</span>
+
+- നിങ്ങൾ ഉപയോഗിക്കുന്ന ഗിറ്റിന്റെ പതിപ്പ് പരിശോധിക്കാൻ:
+
+`git --version`

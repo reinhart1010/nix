@@ -2,8 +2,8 @@
 layout: page
 title: common/behat (中文)
 description: "基于 Behaviour-Driven Development 的自动化测试 PHP 框架。"
-content_hash: 89934e8fc2fc3b5dddf47be859c4e85e42812883
-last_modified_at: 2023-11-12
+content_hash: 7da6e89e549c78426acc3f3ed6bf4ad9174ed984
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/behat.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 
 - 运行指定组所有的测试用例：
 
-`behat --suite=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">组名</span>
+`behat --suite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">组名</span>
 
 - 运行所有测试，指定输入格式：
 

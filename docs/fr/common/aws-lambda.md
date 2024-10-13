@@ -2,11 +2,14 @@
 layout: page
 title: common/aws-lambda (français)
 description: "CLI pour AWS lambda."
-content_hash: 17947b34ca74f335b8a53c2c3884a48c5f69598c
-last_modified_at: 2023-11-12
+content_hash: 034f854e7e0004df5388c75391a4aebfb6a0a5c8
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/aws-lambda.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/aws-lambda.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/aws-lambda.html
@@ -20,11 +23,11 @@ Plus d'informations : <https://docs.aws.amazon.com/cli/latest/reference/lambda/>
 
 - Lance une fonction :
 
-`aws lambda invoke --function-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/la/réponse</span>`.json`
+`aws lambda invoke --function-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/la/réponse.json</span>
 
 - Lance une fonction avec pour donnée d'entrée, un document JSON :
 
-`aws lambda invoke --function-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span>` --payload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/la/réponse</span>`.json`
+`aws lambda invoke --function-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span>` --payload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/la/réponse.json</span>
 
 - Liste les fonctions :
 

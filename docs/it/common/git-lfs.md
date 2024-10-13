@@ -2,8 +2,8 @@
 layout: page
 title: common/git-lfs (italiano)
 description: "Lavora con file di grandi dimensioni in repository Git."
-content_hash: 73dc7c37824552ce8d28fe3316a2eadfb8293993
-last_modified_at: 2024-05-23
+content_hash: 38880ba697bbc4f2ddc1f2d67bb43222ca396cb8
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-lfs.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-lfs.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-lfs.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-lfs.html
@@ -34,7 +37,7 @@ Maggiori informazioni: <https://git-lfs.com>.
 
 - Cambia l'URL endpoint di Git LFS (utile quando server LFS e server Git sono separati):
 
-`git config -f .lfsconfig lfs.url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lfs_url_endpoint</span>
+`git config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--file</span>` .lfsconfig lfs.url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lfs_url_endpoint</span>
 
 - Elenca i criteri tracciati:
 

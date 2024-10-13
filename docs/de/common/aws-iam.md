@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-iam (Deutsch)
 description: "CLI für AWS IAM."
-content_hash: 2e67974aa743b8e9bc8d9d63319a3e7bd2630e2f
-last_modified_at: 2023-11-12
+content_hash: e0809d9373aeff265e0127a53f938777bc8e9202
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/aws-iam.html
@@ -14,6 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/aws-iam.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/aws-iam.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/aws-iam.html
     icon: bi bi-globe
@@ -23,10 +26,6 @@ tldri18n_status: 2
 
 CLI für AWS IAM.
 Weitere Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
-
-- Zeige die AWS IAM Hilfeseite (beinhaltet auch Hinweise für alle Unterbefehle):
-
-`aws iam help`
 
 - Liste aller Benutzer auf:
 
@@ -55,3 +54,7 @@ Weitere Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest
 - Liste alle Zugriffsschlüssel für einen Benutzer auf:
 
 `aws iam list-access-keys --user-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span>
+
+- Zeige die AWS IAM Hilfeseite (beinhaltet auch Hinweise für alle Unterbefehle):
+
+`aws iam help`

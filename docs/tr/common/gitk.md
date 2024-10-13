@@ -2,8 +2,8 @@
 layout: page
 title: common/gitk (Türkçe)
 description: "Görsel Git depo tarayıcısı."
-content_hash: f59ab0bd787ae7975ee4014d19d0676d451efc3e
-last_modified_at: 2024-04-04
+content_hash: 692ac800a8ab2772aa49bc505a03ba71a8ae6d9c
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/gitk.html
@@ -33,4 +33,4 @@ Daha fazla bilgi için: <https://git-scm.com/docs/gitk>.
 
 - Tüm dallarda en fazla 100 değişiklik göster:
 
-`gitk --max-count=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` --all`
+`gitk --max-count=100 --all`

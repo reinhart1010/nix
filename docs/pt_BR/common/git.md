@@ -2,8 +2,8 @@
 layout: page
 title: common/git (português (Brasil))
 description: "Sistema de versionamento distribuído."
-content_hash: 5ecc21d56d6090344f4cccce348ad0570e9cc86e
-last_modified_at: 2024-10-05
+content_hash: 3743aa2c076b570c6313dffe5e19d00a54e0d91f
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,18 +58,6 @@ Sistema de versionamento distribuído.
 Alguns subcomandos como `commit` tem sua própia documentação de uso.
 Mais informações: <https://git-scm.com/>.
 
-- Verifique a versão do Git:
-
-`git --version`
-
-- Mostre ajuda geral:
-
-`git --help`
-
-- Mostre ajuda de um subcomando do Git (como `commit`, `log`, etc.):
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
-
 - Execute um subcomando Git:
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
@@ -81,3 +69,15 @@ Mais informações: <https://git-scm.com/>.
 - Execute um subcomando Git com uma dada configuração:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.chave</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
+
+- Mostre ajuda geral:
+
+`git --help`
+
+- Mostre ajuda de um subcomando do Git (como `commit`, `log`, etc.):
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
+
+- Verifique a versão do Git:
+
+`git --version`

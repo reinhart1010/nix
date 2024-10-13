@@ -2,8 +2,8 @@
 layout: page
 title: common/blackfire (한국어)
 description: "PHP용 커맨드라인 프로파일링 도구."
-content_hash: d78591bcb5550505b72d100dbd200c50e8761f55
-last_modified_at: 2023-11-12
+content_hash: 96598dcffb32222b3786f2f964878d8f56f4806f
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/blackfire.html
@@ -36,7 +36,7 @@ PHP용 커맨드라인 프로파일링 도구.
 
 - 프로파일러 실행 및 샘플 10개 수집:
 
-`blackfire --samples=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.php/의/php 경로</span>
+`blackfire --samples 10 run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.php/의/php 경로</span>
 
 - 프로파일러 및 출력 결과를 JSON으로 실행:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/banner (हिन्दी)
 description: "दिए गए तर्क को एक बड़ी ASCII कला के रूप में प्रिंट करें।"
-content_hash: 371a5f5ee8f84f5d64739c0656951ef5c4185828
-last_modified_at: 2023-11-12
+content_hash: 7747a91c03f8272f97043c6b8468a3a6cbec08dc
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -33,7 +33,7 @@ tldri18n_status: 2
 
 - टेक्स्ट संदेश को 50 वर्णों की चौड़ाई वाले बैनर के रूप में प्रिंट करें:
 
-`banner -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नमस्ते दुनिया</span>`"`
+`banner -w 50 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नमस्ते दुनिया</span>`"`
 
 - स्टडिन से पाठ पढ़ें:
 

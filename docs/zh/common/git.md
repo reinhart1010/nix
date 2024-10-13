@@ -2,8 +2,8 @@
 layout: page
 title: common/git (中文)
 description: "分布式版本控制系统。"
-content_hash: d31bb6acaf250704b1c1d6c0c008ba7a049f4f32
-last_modified_at: 2023-11-12
+content_hash: a70f0e23b8a88b4921fc7e82825b15a86eb99a3e
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,18 +58,6 @@ tldri18n_status: 2
 类似如 `commit`、`add`、`branch`、`checkout`、`push` 等子命令都有自己的使用文档，可以通过 `tldr git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">子命令</span> 的形式查阅。
 更多信息：<https://git-scm.com/>.
 
-- 检查 git 的版本号：
-
-`git --version`
-
-- 显示帮助文档：
-
-`git --help`
-
-- 显示 git 子命令的详细帮助文档（如 `clone`, `add`, `push`, `log` 等子命令）：
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">子命令</span>
-
 - 执行 git 的子命令：
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">子命令</span>
@@ -81,3 +69,15 @@ tldri18n_status: 2
 - 在给定参数条件下，执行 git 的子命令：
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置项</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">子命令</span>
+
+- 显示帮助文档：
+
+`git --help`
+
+- 显示 git 子命令的详细帮助文档（如 `clone`, `add`, `push`, `log` 等子命令）：
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">子命令</span>
+
+- 检查 git 的版本号：
+
+`git --version`

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (português (Brasil))
 description: "Faz um commit dos arquivos no repositório."
-content_hash: 6dae5e88c5b5613c6662141bb88fffbc9420002e
-last_modified_at: 2023-11-12
+content_hash: 01b92b158c9ff778701365d30daf67cb540b90ba
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/git-commit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-commit.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-commit.html
@@ -64,7 +67,7 @@ Mais informações: <https://git-scm.com/docs/git-commit>.
 
 - Faz um commit apenas de arquivos específicos (já preparados):
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 ...</span>
 
 - Cria um commit, mesmo se não haja arquivos preparados:
 

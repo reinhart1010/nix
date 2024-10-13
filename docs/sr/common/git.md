@@ -2,8 +2,8 @@
 layout: page
 title: common/git (српски)
 description: "Distribuirani sistem kontrole verzija."
-content_hash: 844c9f7939655575da4010ccf4a7229b208cb990
-last_modified_at: 2023-11-12
+content_hash: 2fd2edb661d3ae6aa6cd875fa523b2c491cad9d4
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,18 +58,6 @@ Distribuirani sistem kontrole verzija.
 Neke podkomande kao što je `git commit` imaju svoj primer u dokumentaciji.
 Više informacija na: <https://git-scm.com/>.
 
-- Proverava Git verziju:
-
-`git --version`
-
-- Prikazuje opštu pomoć:
-
-`git --help`
-
-- Prikazuje pomoć o Git podkomandi (npr. `commit`, `log`, itd.):
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">podkomanda</span>
-
 - Izvršava Git podkomandu:
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">podkomanda</span>
@@ -81,3 +69,15 @@ Više informacija na: <https://git-scm.com/>.
 - Izvršava Git podkomandu sa zadatim setom konfiguracija:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.key</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">podkomanda</span>
+
+- Prikazuje opštu pomoć:
+
+`git --help`
+
+- Prikazuje pomoć o Git podkomandi (npr. `commit`, `log`, itd.):
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">podkomanda</span>
+
+- Proverava Git verziju:
+
+`git --version`

@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (русский)
 description: "Создать заархивированный отчет об ошибках Android."
-content_hash: 9b724918ffab9fe232d16890e66255360118f152
-last_modified_at: 2023-11-12
+content_hash: a009d02e07ee50bed911c270e713aaedc3b1cb65
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ tldri18n_status: 2
 
 `bugreportz -p`
 
-- Показать версию `bugreportz`:
-
-`bugreportz -v`
-
 - Показать справку:
 
 `bugreportz -h`
+
+- Показать версию `bugreportz`:
+
+`bugreportz -v`

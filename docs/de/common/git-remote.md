@@ -2,8 +2,8 @@
 layout: page
 title: common/git-remote (Deutsch)
 description: "Verwalte eine gewisse Anzahl an Repositories (remotes)."
-content_hash: 50ecea6640530fe6c39a3ed0a43c437a9b5ce4f0
-last_modified_at: 2023-11-12
+content_hash: 1988e587106353b130dd28d1050ffcfcec31b54c
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-remote.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-remote.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-remote.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-remote.html
@@ -41,7 +44,7 @@ Weitere Informationen: <https://git-scm.com/docs/git-remote>.
 
 - Liste alle existierenden Remotes, ihre Namen und ihre URLs auf:
 
-`git remote -v`
+`git remote `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>
 
 - Zeige Informationen über ein Remote an:
 

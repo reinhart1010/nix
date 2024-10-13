@@ -2,8 +2,8 @@
 layout: page
 title: common/git-cherry-pick (বাংলা)
 description: "বিদ্যমান কমিট দ্বারা প্রবর্তিত পরিবর্তনগুলি বর্তমান ব্র্যাঞ্চে প্রয়োগ করুন।"
-content_hash: 6aacd253884f94f43b5f05e27f7f4e28ed1d5658
-last_modified_at: 2023-12-28
+content_hash: 15746bad973ae9cbf0404f9afcbcaa090b5d264d
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-cherry-pick.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-cherry-pick.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-cherry-pick.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-cherry-pick.html
@@ -25,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-cherry-pick.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-cherry-pick.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -44,7 +50,7 @@ tldri18n_status: 2
 
 - বর্তমান ব্র্যাঞ্চে  একাধিক (অ-ক্রমিক) কমিট  করুন:
 
-`git cherry-pick `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">কমিট_১</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">কমিট_২</span>
+`git cherry-pick `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">কমিট_১ কমিট_২ ...</span>
 
 - কমিট তৈরি না করেই ওয়ার্কিং ডিরেক্টরিতে কমিটের পরিবর্তন যোগ করুন:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-rebase (中文)
 description: "将 commits 从一个分支合并到另一个分支上。"
-content_hash: 358415f13afc06da9ce30778defd84f809d4ea91
-last_modified_at: 2023-11-12
+content_hash: 9ecf0ba8c31996f3f2466a5fe4813caba70c972b
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -20,11 +20,17 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rebase.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-rebase.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-rebase.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-rebase.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-rebase.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -40,7 +46,7 @@ tldri18n_status: 2
 
 - 启动交互式的合并任务，允许对提交的内容进行重新排序、省略、合并或修改：
 
-`git rebase -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标分支或 commit 的 hash</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标分支或 commit 的 hash</span>
 
 - 处理完冲突文件后，继续执行合并任务：
 
@@ -60,8 +66,8 @@ tldri18n_status: 2
 
 - 启动交互式的合并任务，对最近提交的 5 个 commits 进行重新排序、省略、合并或修改：
 
-`git rebase -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span>
 
 - 以当前分支优先的策略，自动处理分支间的冲突，执行合并：
 
-`git rebase -X theirs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分支名称</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-X|--strategy-option</span>` theirs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分支名称</span>

@@ -2,11 +2,14 @@
 layout: page
 title: common/git-bundle (தமிழ்)
 description: "ஒரு காப்பக கோப்பில் பொருள்கள் மற்றும் குறிப்புகளை தொகுக்கவும்."
-content_hash: b075455a139fea61aeb0b0356e266709c10efcb5
-last_modified_at: 2024-08-15
+content_hash: 9c4670dca6d44437df60a290182c7af47dad4451
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/git-bundle.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-bundle.html
@@ -16,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-bundle.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-bundle.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-bundle.html
@@ -40,11 +46,11 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - தற்போதைய கிளையின் கடைசி 5 கமிட்டுகளின் மூட்டை கோப்பை உருவாக்கவும்:
 
-`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.bundle/பாதை</span>` -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
+`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.bundle/பாதை</span>` -5 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
 
 - சமீபத்திய 7 நாட்களின் மூட்டை கோப்பை உருவாக்கவும்:
 
-`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.bundle/பாதை</span>` --since=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.days</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
+`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.bundle/பாதை</span>` --since=7.days `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
 
 - ஒரு மூட்டை கோப்பு தற்போதைய களஞ்சியத்தில் செல்லுபடியாகும் மற்றும் பயன்படுத்தலாம் என்பதை சரிபார்க்கவும்:
 

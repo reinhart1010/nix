@@ -2,8 +2,8 @@
 layout: page
 title: common/git-log (español)
 description: "Muestra un historial de confirmaciones."
-content_hash: 51d6e0cbf450c3e9d504cac93102f50db9fc13b7
-last_modified_at: 2024-09-27
+content_hash: 12fb3a5ab5f237cac120af274df8881584d1b51f
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -42,7 +42,7 @@ Más información: <https://git-scm.com/docs/git-log>.
 
 - Muestra el historial de un archivo o directorio específico, incluyendo las diferencias:
 
-`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--patch|-p|-u</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|-u|--patch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span>
 
 - Muestra un resumen de los archivos, o archivo, cambiados en cada confirmación:
 
@@ -62,7 +62,7 @@ Más información: <https://git-scm.com/docs/git-log>.
 
 - Muestra las últimas N confirmaciones de determinado autor:
 
-`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--max-count|-n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">autor</span>`"`
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--max-count</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">autor</span>`"`
 
 - Muestra las confirmaciones entre dos fechas (yyyy-mm-dd):
 

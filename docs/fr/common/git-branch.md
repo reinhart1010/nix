@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (français)
 description: "Commande Git principale pour travailler avec des branches."
-content_hash: 0313f8c27b71d46204498bb0f2c89884a0ccc06a
-last_modified_at: 2024-01-16
+content_hash: ff0c58a3a67d87d95550549f7ad9034810162171
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-branch.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-branch.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-branch.html
@@ -57,11 +60,11 @@ Plus d'informations : <https://git-scm.com/docs/git-branch>.
 
 - Renommer une branche (ne pas se trouver sur la branche pour le faire) :
 
-`git branch -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_nom_de_branche</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_nom_de_branche</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--move</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_nom_de_branche</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_nom_de_branche</span>
 
 - Supprimer un branche locale (ne pas se trouver sur la branche pour le faire) :
 
-`git branch -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche</span>
 
 - Supprimer une branche distante :
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-shortlog (한국어)
 description: "`git log` 출력을 요약."
-content_hash: 6a7c05acf44c6f28a6588dbf27652379f392b223
-last_modified_at: 2024-10-08
+content_hash: a744e50af82d7e4fc280ec54bacac5c4b2570e30
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-shortlog.html
@@ -41,7 +41,7 @@ tldri18n_status: 2
 
 - 마지막 5개의 커밋 요약 보기(즉, 리비전 범위 지정):
 
-`git shortlog HEAD~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>`..HEAD`
+`git shortlog HEAD~5..HEAD`
 
 - 현재 브랜치에서 모든 사용자, 이메일 및 커밋 수 요약 보기:
 

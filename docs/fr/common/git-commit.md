@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (français)
 description: "Enregistrer (`commit`) les fichiers dans le dépôt."
-content_hash: f6717a6ef74a0159be083330d213dcfd8dc49bdc
-last_modified_at: 2023-11-12
+content_hash: 0759514b15e164dc4f23ba7a4e156c9ee790eb4c
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/git-commit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-commit.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-commit.html
@@ -59,4 +62,4 @@ Plus d'informations : <https://git-scm.com/docs/git-commit>.
 
 - Commit seulement les fichiers spécifiés (qui sont déjà en stage) :
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/mon/fichier1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/mon/fichier2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/mon/fichier1 chemin/vers/mon/fichier2 ...</span>

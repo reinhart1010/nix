@@ -2,8 +2,8 @@
 layout: page
 title: common/git (Deutsch)
 description: "Verteiltes Versionskontrollsystem."
-content_hash: 02ce41a157efa1acf8895e0f31abf319bb7f0ad5
-last_modified_at: 2024-10-05
+content_hash: f5aa0e24f8b3d6f42c715d8df12c7f93345daa8a
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git.html
@@ -58,18 +58,6 @@ Verteiltes Versionskontrollsystem.
 Manche Unterbefehle wie `commit` sind separat dokumentiert.
 Weitere Informationen: <https://git-scm.com/>.
 
-- Gib die installierte Git Version aus:
-
-`git --version`
-
-- Zeige die generelle Hilfeseite an:
-
-`git --help`
-
-- Zeige die Hilfeseite eines Unterbefehls an:
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unterbefehl</span>
-
 - Führe einen Git-Unterbefehl aus:
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unterbefehl</span>
@@ -81,3 +69,15 @@ Weitere Informationen: <https://git-scm.com/>.
 - Führe einen Git-Unterbefehl mit der angegebenen Konfiguration aus:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.key</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wert</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unterbefehl</span>
+
+- Zeige die generelle Hilfeseite an:
+
+`git --help`
+
+- Zeige die Hilfeseite eines Unterbefehls an:
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unterbefehl</span>
+
+- Gib die installierte Git Version aus:
+
+`git --version`

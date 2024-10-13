@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (italiano)
 description: "Salva file nell'area di stage in una nuova istantanea del tuo repository."
-content_hash: 98ce43f11d249f84f39b62e76234c4c8f388e6fb
-last_modified_at: 2023-11-12
+content_hash: 986b22f1e8c1e5b85a3a62ed0dc1bebbd04f1d12
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/git-commit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-commit.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-commit.html
@@ -59,4 +62,4 @@ Maggiori informazioni: <https://git-scm.com/docs/git-commit>.
 
 - Committa solo i file specificati (tra quelli presenti nell'area di stage):
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 ...</span>

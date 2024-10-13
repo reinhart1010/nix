@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (Deutsch)
 description: "Generiere einen gezippten Android-Fehlerbericht."
-content_hash: 4416e3b5bb1564f103545477e622eeff773009c4
-last_modified_at: 2023-11-12
+content_hash: 3220bd86d01696a884de2b27e23ded60f5d36a3a
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ Weitere Informationen: <https://cs.android.com/android/platform/superproject/+/m
 
 `bugreportz -p`
 
-- Zeige die Versionsnummer von `bugreportz` an:
-
-`bugreportz -v`
-
 - Zeige Hilfe an:
 
 `bugreportz -h`
+
+- Zeige die Versionsnummer von `bugreportz` an:
+
+`bugreportz -v`

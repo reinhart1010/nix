@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (Deutsch)
 description: "Committe Dateien in ein Repository."
-content_hash: 6c043ee4c8f8daca98e610cb0f40b5c6cd133284
-last_modified_at: 2023-12-28
+content_hash: cae462e04b6e2375636d49a4ba162eba53aedab3
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-commit.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/git-commit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-commit.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-commit.html
@@ -64,7 +67,7 @@ Weitere Informationen: <https://git-scm.com/docs/git-commit>.
 
 - Comitte nur spezifische Dateien (die Dateien müssen schon auf dem Stage liegen):
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1 pfad/zu/datei2 ...</span>
 
 - Erzeuge einen Commit, auch wenn keine Dateien auf dem Stage liegen:
 

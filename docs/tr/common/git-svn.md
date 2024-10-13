@@ -2,8 +2,8 @@
 layout: page
 title: common/git-svn (Türkçe)
 description: "Bir alt sürüm deposu ve Git arasında çift yönlü operasyon."
-content_hash: 073488745561b01b73feb54f1bc032a65ddb0d3b
-last_modified_at: 2024-01-02
+content_hash: ab349b70886213d385d54c1f9a587331dc422101
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-svn.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-svn.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-svn.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -30,7 +33,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-svn>.
 
 - Bir SVN deposunu belirtilen düzenleme numarasından başlayarak klonla:
 
-`git svn clone -r`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span>`:HEAD `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://svn.ornek.net/altsürüm/depo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yerel_dizin</span>
+`git svn clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--revision</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span>`:HEAD `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://svn.ornek.net/altsürüm/depo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yerel_dizin</span>
 
 - Uzak SVN deposundan yerel klonu güncelle:
 

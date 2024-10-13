@@ -2,8 +2,8 @@
 layout: page
 title: common/git-bugreport (한국어)
 description: "시스템 및 사용자로부터 디버그 정보를 수집하여 Git 버그 보고에 도움이 되는 텍스트 파일을 생성합니다."
-content_hash: 021acadd4c3304d5716a36e16247d28c4bb17fb0
-last_modified_at: 2024-10-08
+content_hash: 94936fb2cbca258fc7d009d76f792894a88c1917
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-bugreport.html
@@ -27,8 +27,8 @@ tldri18n_status: 2
 
 - 지정된 디렉토리에 새로운 버그 보고 파일 생성 (디렉토리가 없을 경우 생성됨):
 
-`git bugreport --output-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span>
+`git bugreport `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output-directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span>
 
 - `strftime` 형식의 지정된 파일명 접미사를 사용하여 새로운 버그 보고 파일 생성:
 
-`git bugreport --suffix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%m%d%y</span>
+`git bugreport `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|--suffix</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%m%d%y</span>

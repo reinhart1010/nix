@@ -2,8 +2,8 @@
 layout: page
 title: common/git (français)
 description: "Système de gestion de versions décentralisé."
-content_hash: 4d2699ad06afd57b909c6071b873988a8cc0cea8
-last_modified_at: 2023-11-12
+content_hash: 4229b654c62450eba2c82cbd871efb39732bc319
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,18 +58,6 @@ Système de gestion de versions décentralisé.
 Certaines commandes comme `git commit` ont leur propre documentation.
 Plus d'informations : <https://git-scm.com/>.
 
-- Obtenir la version de Git :
-
-`git --version`
-
-- Afficher l'aide générale :
-
-`git --help`
-
-- Afficher l'aide sur une sous-commande Git :
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sous_commande</span>
-
 - Exécuter une sous-commande Git :
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sous_commande</span>
@@ -81,3 +69,15 @@ Plus d'informations : <https://git-scm.com/>.
 - Exécuter une sous-commande Git avec un paramètre de configuration spécifique :
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cle_param_config</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valeur</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sous_commande</span>
+
+- Afficher l'aide générale :
+
+`git --help`
+
+- Afficher l'aide sur une sous-commande Git :
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sous_commande</span>
+
+- Obtenir la version de Git :
+
+`git --version`

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (português (Brasil))
 description: "Comando principal do Git para trabalhar com branches."
-content_hash: d7eb2213546cf3a5a508d1b9eb328ba7df9c5f44
-last_modified_at: 2023-11-12
+content_hash: 6c8d3fbfcc908a884d150560ea7b74b48f9e6bb3
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-branch.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-branch.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-branch.html
@@ -58,11 +61,11 @@ Mais informações: <https://git-scm.com/docs/git-branch>.
 
 - Renomeia uma branch (não precisa fazer checkout para isso):
 
-`git branch -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">antigo_nome_da_branch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">novo_nome_da_branch</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--move</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">antigo_nome_da_branch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">novo_nome_da_branch</span>
 
 - Exclui a branch local (não precisa fazer checkout para isso):
 
-`git branch -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_branch</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_branch</span>
 
 - Exclui uma branch remota:
 

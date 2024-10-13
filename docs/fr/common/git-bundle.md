@@ -2,17 +2,23 @@
 layout: page
 title: common/git-bundle (français)
 description: "Empaquetez des objets et des références dans une archive."
-content_hash: c4dc8656d69437438f3e11e8f9d2ef818f7ae0fa
-last_modified_at: 2024-08-14
+content_hash: f82def68ae1ee8edfb97d0e5506f6adbe9b45d25
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/git-bundle.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/git-bundle.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-bundle.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-bundle.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-bundle.html
@@ -37,11 +43,11 @@ Plus d'informations : <https://git-scm.com/docs/git-bundle>.
 
 - Crée un empaquetage des 5 derniers commits de la branche courante :
 
-`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span>` -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
+`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span>` -5 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
 
 - Crée un empaquetage des 7 derniers jours :
 
-`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span>` --since=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.days</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
+`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span>` --since 7.days `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
 
 - Vérifie qu'un empaquetage est valide et peut être appliqué à la branche courante :
 

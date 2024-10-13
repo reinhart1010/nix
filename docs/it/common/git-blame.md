@@ -2,8 +2,8 @@
 layout: page
 title: common/git-blame (italiano)
 description: "Mostra hash del commit ed ultimo autore per ogni riga di un file."
-content_hash: 49f65371dbde0f2488955e99491603c70545cb10
-last_modified_at: 2023-11-12
+content_hash: 17444d29db88630cf93f476dfa5c7dfdafcf3ac8
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-blame.html
@@ -17,6 +17,9 @@ related_topics:
   - title: français version
     url: /fr/common/git-blame.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-blame.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/git-blame.html
     icon: bi bi-globe
@@ -25,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-blame.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-blame.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -42,4 +48,4 @@ Maggiori informazioni: <https://git-scm.com/docs/git-blame>.
 
 - Stampa il contenuto di un file annotando ogni riga con l'hash del commit e l'indirizzo email dell'autore:
 
-`git blame -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`git blame `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--show-email</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>

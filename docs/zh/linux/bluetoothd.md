@@ -2,11 +2,14 @@
 layout: page
 title: linux/bluetoothd (中文)
 description: "管理蓝牙设备的守护进程。"
-content_hash: 00b1693a038bdc77e3da5a60cd4ec74948e7ffa7
-last_modified_at: 2023-11-12
+content_hash: c072e0b24940761283416a9513682e5e94ffa97b
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/linux/bluetoothd.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/bluetoothd.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -33,4 +36,4 @@ tldri18n_status: 2
 
 - 使用来自 bluetoothd 或插件源中特定文件启动守护进程并输出详细信息：
 
-`bluetoothd --debug=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件一</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件二</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件三</span>
+`bluetoothd --debug=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件一:文件二:...</span>

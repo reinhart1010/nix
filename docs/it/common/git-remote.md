@@ -2,8 +2,8 @@
 layout: page
 title: common/git-remote (italiano)
 description: "Gestisci i collegamenti remoti (\"remote\") di un repository locale."
-content_hash: f56557ab1e94614706b7d253a94ec2765bac44e0
-last_modified_at: 2023-11-12
+content_hash: a661c955523ce137c6a0ddcfd707db3c18a28791
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/git-remote.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-remote.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-remote.html
@@ -41,7 +44,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-remote>.
 
 - Mostra l'elenco dei collegamenti remoti, con il loro nome e URL:
 
-`git remote -v`
+`git remote `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>
 
 - Mostra informazioni su un remote:
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: android/logcat (中文 (繁體, 台灣))
-description: "轉存系統訊息日誌。"
-content_hash: 5255e3e77e9756ed46164ec843be9f39de5999a8
+description: "轉存系統訊息日誌，包括發生錯誤時的堆疊追蹤信息，以及應用程序記錄的信息消息。"
+content_hash: 47f3574812116d19c93e588e732a1bec43ebe3e4
 last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
@@ -69,17 +69,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># logcat
 
-轉存系統訊息日誌。
+轉存系統訊息日誌，包括發生錯誤時的堆疊追蹤信息，以及應用程序記錄的信息消息。
 更多資訊：<https://developer.android.com/tools/logcat>.
 
 - 顯示系統日誌：
 
 `logcat`
 
-- 將系統日誌寫入檔案：
+- 將系統日誌寫入檔案（[f]ile）：
 
-`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路徑</span>
+`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路徑/到/檔案</span>
 
-- 顯示與正規表示式匹配的列：
+- 顯示與正規表示式匹配的日誌列：
 
 `logcat --regex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">正規表示式</span>
+
+- 顯示特定 PID 的日誌：
+
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+
+- 顯示特定套件的程序日誌：
+
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">套件</span>`)`

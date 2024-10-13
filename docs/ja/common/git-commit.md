@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (日本語)
 description: "リポジトリにファイルをコミットします。"
-content_hash: d7bab903a3d2d640311de3299012bfa653ecf109
-last_modified_at: 2023-12-30
+content_hash: b8ad2ded49086d617b7b768cfdb0cb8df9dc4bae
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-commit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-commit.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-commit.html
@@ -63,7 +66,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - 特定のファイル(ステージ済)だけをコミットする:
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイルパス1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイルパス2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイルパス1 ファイルパス2 ...</span>
 
 - ステージ済のファイルが無くても、コミットを作る:
 

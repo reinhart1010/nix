@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (Indonesia)
 description: "Perintah Git utama untuk bekerja dengan cabang (_branch_)."
-content_hash: c526b7b31306779ebc28a633aab85d59ba1eca16
-last_modified_at: 2023-11-12
+content_hash: 9fa81cfe93fddadb8cbd35ca2c136787c7097cba
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-branch.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-branch.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-branch.html
@@ -58,11 +61,11 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-branch>.
 
 - Ubah nama cabang (harus bukan cabang saat ini untuk melakukannya):
 
-`git branch -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang_lama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang_baru</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--move</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang_lama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang_baru</span>
 
 - Hapus cabang lokal (harus bukan cabang saat ini untuk melakukannya):
 
-`git branch -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang</span>
 
 - Hapus cabang remote:
 

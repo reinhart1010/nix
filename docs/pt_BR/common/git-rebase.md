@@ -2,8 +2,8 @@
 layout: page
 title: common/git-rebase (português (Brasil))
 description: "Reaplica os commits de uma branch sobre outra branch."
-content_hash: a94e247f6b89d02553066498487428df37cc1528
-last_modified_at: 2023-11-12
+content_hash: 9f61df9ef13a53f3d4bdd2047ebdbd3ed838c320
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -20,8 +20,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rebase.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-rebase.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-rebase.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-rebase.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-rebase.html
@@ -40,7 +46,7 @@ Mais informações: <https://git-scm.com/docs/git-rebase>.
 
 - Inicia um rebase interativo, que permite os commits serem reordenados, omitidos, combinados ou modificados:
 
-`git rebase -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_base_alvo_ou_hash_do_commit</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_base_alvo_ou_hash_do_commit</span>
 
 - Continua um rebase que foi interrompido por uma falha de mesclagem, após a edição de arquivos conflitantes:
 
@@ -60,8 +66,8 @@ Mais informações: <https://git-scm.com/docs/git-rebase>.
 
 - Reaplica os últimos 5 commits no local, parando para permitir que eles sejam reordenados, omitidos, combinados ou modificados:
 
-`git rebase -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span>
 
 - Resolve automaticamente quaisquer conflitos favorecendo a versão da branch de trabalho (a palavra-chave `theirs` tem significado invertido nesse caso):
 
-`git rebase -X theirs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_branch</span>
+`git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-X|--strategy-option</span>` theirs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_branch</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (한국어)
 description: "Amazon Web Services의 공식 CLI tool입니다."
-content_hash: 8c122035ef3f36d4c25ee3b8de0e82af4e169243
-last_modified_at: 2024-10-05
+content_hash: 01750b246ac05964df9cf5223405fe6db0f2474b
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -45,10 +45,6 @@ Amazon Web Services의 공식 CLI tool입니다.
 
 `aws configure sso`
 
-- AWS 명령에 대한 도움말:
-
-`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` help`
-
 - 호출자 ID 가져오기 (권한 문제 해결에 사용됨):
 
 `aws sts get-caller-identity`
@@ -68,3 +64,7 @@ Amazon Web Services의 공식 CLI tool입니다.
 - JSON CLI 스켈레톤 생성 (인프라를 코드로 사용하는 데 유용):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- AWS 명령에 대한 도움말:
+
+`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` help`

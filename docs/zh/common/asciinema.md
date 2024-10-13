@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (中文)
 description: "录制和播放终端会话，也可以把他们分享到 asciinema.org."
-content_hash: c187b17f34e73580205e0ab901a8b6c8580d8230
-last_modified_at: 2024-09-25
+content_hash: faf4664943a32d5cc19061e9a641f8ec236d8819
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -43,11 +43,11 @@ tldri18n_status: 2
 
 - 进行新的录制，保存到本地的文件中：
 
-`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span>`.cast`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径.cast</span>
 
 - 从本地文件中播放终端录屏：
 
-`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span>`.cast`
+`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径.cast</span>
 
 - 在 asciinema.org 中播放终端录屏：
 
@@ -59,8 +59,8 @@ tldri18n_status: 2
 
 - 打印本地保存的录像的完整输出：
 
-`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span>`.cast`
+`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径.cast</span>
 
 - 从本地上传一个录屏到 asciinema.org：
 
-`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span>`.cast`
+`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径.cast</span>

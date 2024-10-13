@@ -2,8 +2,8 @@
 layout: page
 title: common/brew-bundle (italiano)
 description: "Bundler per Homebrew, Homebrew Cask e per il Mac App Store."
-content_hash: 91516a2e783a8986dcf8653bbdc466e494dd3f77
-last_modified_at: 2023-11-12
+content_hash: ead94077417fcf0ef7b8739a2afbd6fabbe95a82
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/brew-bundle.html
@@ -13,6 +13,12 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/brew-bundle.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/brew-bundle.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/brew-bundle.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -27,7 +33,7 @@ Maggiori informazioni: <https://github.com/Homebrew/homebrew-bundle>.
 
 - Installa pacchetti da un Brewfile specifico in un percorso specifico:
 
-`brew bundle --file=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
+`brew bundle --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Crea un Brewfile con tutti i pacchetti installati:
 

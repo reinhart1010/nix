@@ -2,8 +2,8 @@
 layout: page
 title: common/git (українська)
 description: "Розподілена система контролю версій."
-content_hash: e568050ecd72d9fa395e34dd3d160a9a029894d7
-last_modified_at: 2023-11-12
+content_hash: 9d08341fb429d3210857266dcad5ca0048152d9c
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,18 +58,6 @@ tldri18n_status: 2
 Деякі команди, як от `git commit`, мають свою власну документацію.
 Більше інформації: <https://git-scm.com/>.
 
-- Перевіряє версію Git:
-
-`git --version`
-
-- Показує базову допомогу:
-
-`git --help`
-
-- Показує допомогу з певної підкоманди Git (наприклад, `commit`, `log` чи іншої):
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">підкоманда</span>
-
 - Виконує підкоманду Git:
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">підкоманда</span>
@@ -81,3 +69,15 @@ tldri18n_status: 2
 - Виконує команду Git із вказаними параметрами:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.key</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">значення</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">підкоманда</span>
+
+- Показує базову допомогу:
+
+`git --help`
+
+- Показує допомогу з певної підкоманди Git (наприклад, `commit`, `log` чи іншої):
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">підкоманда</span>
+
+- Перевіряє версію Git:
+
+`git --version`

@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-logcat (Indonesia)
 description: "Dapatkan dan simpan log sistem pada perangkat Android."
-content_hash: 38d17f7647ce20ecd787d701855e58d131a5e7c2
-last_modified_at: 2024-05-09
+content_hash: 5875dd5e0051c6085e1939dc227beec824804f71
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/adb-logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/adb-logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/adb-logcat.html
@@ -49,11 +52,11 @@ Informasi lebih lanjut: <https://developer.android.com/tools/logcat>.
 
 - Tampilkan pesan-pesan log dari proses tertentu (menurut kode PID proses tersebut):
 
-`adb logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`adb logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - Tampilkan pesan-pesan log dari aplikasi tertentu (menurut package identifier seperti `com.example.myapp`):
 
-`adb logcat --pid=$(adb shell pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_pengenal_aplikasi</span>`)`
+`adb logcat --pid $(adb shell pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_pengenal_aplikasi</span>`)`
 
 - Tampilkan log sistem secara warna-warni (biasanya digunakan untuk menyaring pesan-pesan log):
 

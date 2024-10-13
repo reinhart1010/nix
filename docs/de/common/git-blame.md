@@ -2,8 +2,8 @@
 layout: page
 title: common/git-blame (Deutsch)
 description: "Zeige den Commit-Hash und den letzten Autor jeder Zeile einer Datei."
-content_hash: fc9f797d6f9c242299ed082fd19535a3c2d68d29
-last_modified_at: 2023-11-12
+content_hash: 8be17f55f14e5cd386d3a05e6a94002b0b7c9793
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-blame.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-blame.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-blame.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-blame.html
@@ -25,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-blame.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-blame.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -42,4 +48,4 @@ Weitere Informationen: <https://git-scm.com/docs/git-blame>.
 
 - Gib die Commit-Hashes und dem Autor (inklusive E-Mail) jeder Zeile einer Datei aus:
 
-`git blame -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
+`git blame `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--show-email</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>

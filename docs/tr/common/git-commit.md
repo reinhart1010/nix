@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (Türkçe)
 description: "Depoya dosya commit'le."
-content_hash: 9db35e7f067150d7b6638f19e9a7b9566aaf1a37
-last_modified_at: 2023-11-12
+content_hash: 6f296045d4655a757a702320a6af9634532ac9e0
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/git-commit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-commit.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-commit.html
@@ -59,4 +62,4 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-commit>.
 
 - Yalnızca belirtilmiş (halihazırda sahnelenmiş) dosyaları commit'le:
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya1 örnek/dosya2 ...</span>

@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (中文)
 description: "生成一个压缩的 Android 错误报告。"
-content_hash: 4b201decbf80a60aa0a969b6fa68bc7579f1885e
-last_modified_at: 2023-11-12
+content_hash: eaacbae8626f005473a692639652f3c6c7dd8295
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ tldri18n_status: 2
 
 `bugreportz -p`
 
-- 显示 `bugreportz` 的版本：
-
-`bugreportz -v`
-
 - 显示帮助信息：
 
 `bugreportz -h`
+
+- 显示 `bugreportz` 的版本：
+
+`bugreportz -v`

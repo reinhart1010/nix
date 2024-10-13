@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (فارسی)
 description: "تولید یک گزارش خطای اندروید فشرده شده."
-content_hash: 35ccef40c7fdf195784b9cc78b604c54c817e794
-last_modified_at: 2023-11-12
+content_hash: 57492cc6602f8da2bcbbd03c4b69852562290111
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ tldri18n_status: 2
 
 `bugreportz -p`
 
-- نمایش نسخه `bugreportz` :
-
-`bugreportz -v`
-
 - نمایش راهنمایی :
 
 `bugreportz -h`
+
+- نمایش نسخه `bugreportz` :
+
+`bugreportz -v`

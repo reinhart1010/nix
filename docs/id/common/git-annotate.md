@@ -2,8 +2,8 @@
 layout: page
 title: common/git-annotate (Indonesia)
 description: "Tampilkan kode hash serta pelaku komit terakhir pada setiap baris suatu file teks."
-content_hash: 5552139a36efe3f41ae21845d78c26ae58a537b8
-last_modified_at: 2024-01-07
+content_hash: 6d5990ac6d04f8bddf785ed72f2b2e31faceed44
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-annotate.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-annotate.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-annotate.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -29,7 +32,7 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-annotate>.
 
 - Tampilkan file dengan informasi komit menggunakan alamat surel/[e]mail daripada nama pelaku:
 
-`git annotate -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span>
+`git annotate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--show-email</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span>
 
 - Tampilkan hanya baris-baris teks yang memenuhi kriteria ekspresi reguler:
 

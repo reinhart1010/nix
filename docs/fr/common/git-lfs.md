@@ -2,8 +2,8 @@
 layout: page
 title: common/git-lfs (français)
 description: "Travailler dans un registre Git avec des fichiers volumineux."
-content_hash: 69521f5b68eb0da9145cc55d38897622bab5b84e
-last_modified_at: 2024-05-23
+content_hash: 855bc8e45eae2c9c6df00df1d2de48a1a214a406
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-lfs.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-lfs.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-lfs.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-lfs.html
@@ -34,7 +37,7 @@ Plus d'informations : <https://git-lfs.com>.
 
 - Changer l'URL du point de terminaison Git LFS (utile si le serveur LFS est séparé du serveur Git) :
 
-`git config -f .lfsconfig lfs.url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lfs_endpoint_url</span>
+`git config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--file</span>` .lfsconfig lfs.url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lfs_endpoint_url</span>
 
 - Lister les pattern de fichiers suivis :
 

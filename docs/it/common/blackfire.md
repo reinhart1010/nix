@@ -2,8 +2,8 @@
 layout: page
 title: common/blackfire (italiano)
 description: "Strumento di profilazione da linea di comando per PHP."
-content_hash: 07a5cf8490ddbe092035a7d59eb666832b15a422
-last_modified_at: 2023-11-12
+content_hash: ddfa39586ade74f64e59a65d88c4d42a080d7a94
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/blackfire.html
@@ -36,7 +36,7 @@ Maggiori informazioni: <https://blackfire.io>.
 
 - Lancia il profiler e raccogli 10 campioni:
 
-`blackfire --samples=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php percorso/del/file.php</span>
+`blackfire --samples 10 run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php percorso/del/file.php</span>
 
 - Lancia il profiler e mostra i risultati in output come JSON:
 

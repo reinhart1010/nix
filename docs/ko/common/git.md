@@ -2,8 +2,8 @@
 layout: page
 title: common/git (한국어)
 description: "분산 버전 관리 시스템."
-content_hash: 3ee3bb1d2da7fb453c5827eb9a61fdc5e6e4b4f0
-last_modified_at: 2023-11-12
+content_hash: 6c68acd256e2a38ae5ee764dee3122e51c2e7eef
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,18 +58,6 @@ tldri18n_status: 2
 `commit`, `add`, `branch`, `checkout`, `push` 등의 특정 하위 명령어는 고유의 문서가 따로 있습니다. `tldr git subcommand`를 통해 확인할 수 있습니다.
 더 많은 정보: <https://git-scm.com/>.
 
-- Git 버전 확인:
-
-`git --version`
-
-- 일반 도움말 출력:
-
-`git --help`
-
-- 하위 명령어 도움말 출력 (`clone`, `add`, `push`, `log`, 등등):
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명렁어</span>
-
 - 하위 명령어 실행:
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명령어</span>
@@ -81,3 +69,15 @@ tldri18n_status: 2
 - 주어진 설정으로 Git 하위 명령어 실행:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">설정.키</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">설정.값</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명령어</span>
+
+- 일반 도움말 출력:
+
+`git --help`
+
+- 하위 명령어 도움말 출력 (`clone`, `add`, `push`, `log`, 등등):
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명렁어</span>
+
+- Git 버전 확인:
+
+`git --version`

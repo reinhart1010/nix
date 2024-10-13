@@ -2,8 +2,8 @@
 layout: page
 title: common/git-log (한국어)
 description: "커밋 이력을 보여줍니다."
-content_hash: a18fe71ec4e94af25dfe6a1e1d9a8c87f08fdb16
-last_modified_at: 2024-10-07
+content_hash: cdccf296e418d73e6af80680a6815109a93accc8
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -42,7 +42,7 @@ tldri18n_status: 2
 
 - 변경 사항을 포함해, 특정 파일 또는 디렉토리의 이력 보기:
 
-`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--patch|-p|-u</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|-u|--patch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span>
 
 - 각 커밋에서 어떤 파일이 변경되었는지 개요 보기:
 
@@ -62,7 +62,7 @@ tldri18n_status: 2
 
 - 특정 작성자의 마지막 N개의 커밋 보기:
 
-`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--max-count|-n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">개수</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작성자</span>`"`
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--max-count</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">개수</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작성자</span>`"`
 
 - 두 날짜(yyyy-mm-dd) 사이의 커밋 보기:
 

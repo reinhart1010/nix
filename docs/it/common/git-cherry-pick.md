@@ -2,8 +2,8 @@
 layout: page
 title: common/git-cherry-pick (italiano)
 description: "Applica al ramo corrente le modifiche introdotte da commit esistenti."
-content_hash: a8a05f51cde1d13ce893e18240307846583e754a
-last_modified_at: 2023-11-12
+content_hash: df6462ed8981d15d2a58366e3a942fcb559c1b64
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -17,6 +17,9 @@ related_topics:
   - title: français version
     url: /fr/common/git-cherry-pick.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-cherry-pick.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/git-cherry-pick.html
     icon: bi bi-globe
@@ -25,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-cherry-pick.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-cherry-pick.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -44,7 +50,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-cherry-pick>.
 
 - Applica un insieme di commit non sequenziali al ramo corrente:
 
-`git cherry-pick `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_2</span>
+`git cherry-pick `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_1 commit_2 ...</span>
 
 - Aggiungi le modifiche introdotte da un commit alla directory di lavoro, ma senza creare un nuovo commit:
 

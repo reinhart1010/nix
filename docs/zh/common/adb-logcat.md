@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-logcat (中文)
 description: "转储系统消息日志。"
-content_hash: fcbc0b9d9b826dbfe561321d1c8875c5dfeb4ff9
-last_modified_at: 2024-05-09
+content_hash: 0292011b1921a8cbd4ef788ec9b6e63e4d3a39dd
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/adb-logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/adb-logcat.html
@@ -49,11 +52,11 @@ tldri18n_status: 2
 
 - 显示特定 PID 的日志：
 
-`adb logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+`adb logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - 显示某个特定软件包的进程日志：
 
-`adb logcat --pid=$(adb shell pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span>`)`
+`adb logcat --pid $(adb shell pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span>`)`
 
 - 给日志着色（通常与过滤器一起使用）:
 

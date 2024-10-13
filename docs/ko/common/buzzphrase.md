@@ -2,8 +2,8 @@
 layout: page
 title: common/buzzphrase (한국어)
 description: "임의의 buzzphrase를 출력하는 Node.js 명령 줄 도구."
-content_hash: f5563fb83050890b89166e633e709aa7e3c5187d
-last_modified_at: 2023-11-12
+content_hash: 080d48672bbda5f648421fd9f4b49b23d6b38d4d
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/buzzphrase.html
@@ -23,6 +23,6 @@ tldri18n_status: 2
 
 `buzzphrase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{i} {v} {a} {N}'</span>
 
-- 현재분사 동사[V] + 형용사[a] + 단수형 명사[n] + 마침[f] 형태로 포맷된 4개의 구문 출력:
+- 현재분사 동사[V] + 형용사[a] + 단수형 명사[n] + 마침[f] 형태로 포맷된 `k`개의 구문 출력:
 
-`buzzphrase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4 '{V} {a} {n} {f}'</span>
+`buzzphrase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">k</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{V} {a} {n} {f}'</span>

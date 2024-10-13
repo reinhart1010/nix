@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (українська)
 description: "Згенерувати зіпований звіт багів."
-content_hash: 6618809d1862743e846c8a3963be7868faa6bcf9
-last_modified_at: 2023-11-12
+content_hash: 69f460c3a2ac58445bebf80596301be6b9f9fca5
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ tldri18n_status: 2
 
 `bugreportz -p`
 
-- Вивести версію `bugreportz`:
-
-`bugreportz -v`
-
 - Показати допомогу:
 
 `bugreportz -h`
+
+- Вивести версію `bugreportz`:
+
+`bugreportz -v`

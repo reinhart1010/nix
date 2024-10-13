@@ -2,8 +2,8 @@
 layout: page
 title: common/git-remote (français)
 description: "Organisation des dépôts suivis (\"remotes\")."
-content_hash: a839dfce51a7d9aee9448f86d1cc8e63e4d6ab4a
-last_modified_at: 2023-11-12
+content_hash: b78cae414062ed83ab7ab7804b0238370e8ffb39
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-remote.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-remote.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-remote.html
@@ -41,7 +44,7 @@ Plus d'informations : <https://git-scm.com/docs/git-remote>.
 
 - Affiche les dépôts existants, leur nom et URL :
 
-`git remote -v`
+`git remote `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>
 
 - Affiche les informations à propos d'un dépôt :
 

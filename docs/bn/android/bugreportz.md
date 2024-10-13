@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (বাংলা)
 description: "একটি জিপ করা অ্যান্ড্রয়েড বাগ রিপোর্ট তৈরি করুন।"
-content_hash: e5c8cd95cf77daaba3943887b7cf9dc66ddea554
-last_modified_at: 2023-11-12
+content_hash: 831dda6f332e3678da4f8b30d3515a80b9ac3987
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreportz.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ tldri18n_status: 2
 
 `bugreportz -p`
 
-- সংস্করণ দেখুন:
-
-`bugreportz -v`
-
 - সাহায্য প্রদর্শন:
 
 `bugreportz -h`
+
+- সংস্করণ দেখুন:
+
+`bugreportz -v`

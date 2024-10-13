@@ -2,8 +2,8 @@
 layout: page
 title: common/git-log (English)
 description: "Show a history of commits."
-content_hash: a5c9a0872b65558f9580a18b871c0ed04fd6607d
-last_modified_at: 2024-09-23
+content_hash: 0fd84c8dd09f2cb92422846c72dd8f0ffd7ece89
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -42,7 +42,7 @@ More information: <https://git-scm.com/docs/git-log>.
 
 - Show the history of a particular file or directory, including differences:
 
-`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--patch|-p|-u</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|-u|--patch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
 - Show an overview of which file(s) changed in each commit:
 
@@ -62,7 +62,7 @@ More information: <https://git-scm.com/docs/git-log>.
 
 - Show the last N number of commits from a certain author:
 
-`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--max-count|-n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">author</span>`"`
+`git log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--max-count</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span>` --author "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">author</span>`"`
 
 - Show commits between two dates (yyyy-mm-dd):
 

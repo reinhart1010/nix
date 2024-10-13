@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (Türkçe)
 description: "Ziplenmiş bir Android bug raporu oluştur."
-content_hash: 5e2095c518e4629751e71df5f5bfd531d6792745
-last_modified_at: 2023-11-12
+content_hash: 5dae79d0399222063da4fc90d7f82805f5af6d69
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ Daha fazla bilgi için: <https://cs.android.com/android/platform/superproject/+/
 
 `bugreportz -p`
 
-- `bugreportz` sürümünü göster:
-
-`bugreportz -v`
-
 - Yardım görüntüle:
 
 `bugreportz -h`
+
+- `bugreportz` sürümünü göster:
+
+`bugreportz -v`

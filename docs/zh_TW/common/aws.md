@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (中文 (繁體, 台灣))
 description: "Amazon Web Services 官方的命令列介面工具。"
-content_hash: 5853e9d55b781789e00c9ccaaf73d5d375d0ae0e
-last_modified_at: 2024-10-05
+content_hash: ab299df4e461a4aeb34a37d3bdfb12308aa7adf0
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -45,10 +45,6 @@ Amazon Web Services 官方的命令列介面工具。
 
 `aws configure sso`
 
-- 查看 AWS 指令​​的說明：
-
-`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AWS指令</span>` help`
-
 - 取得呼叫者身分（用於排除權限問題）：
 
 `aws sts get-caller-identity`
@@ -68,3 +64,7 @@ Amazon Web Services 官方的命令列介面工具。
 - 產生 JSON CLI 骨架（對於基礎設施即程式碼有用）：
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- 查看 AWS 指令​​的說明：
+
+`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AWS指令</span>` help`

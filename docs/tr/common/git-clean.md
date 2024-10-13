@@ -2,8 +2,8 @@
 layout: page
 title: common/git-clean (Türkçe)
 description: "Takip edilmeyen dosyaları çalışma ağacından sil."
-content_hash: ba2811f42782447762b0e5180a9a628ff4ea3d25
-last_modified_at: 2023-11-12
+content_hash: c32814a90ba2e56210d4ae7f9c29270d7076a5cc
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-clean.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-clean.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-clean.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-clean.html
@@ -36,7 +39,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-clean>.
 
 - Git tarafından takip edilmeyen dosyaları etkileşimli bir nizamda sil:
 
-`git clean -i`
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>
 
 - Hangi dosyaların silinmeye aday olduğunu onları silmeden göster:
 
@@ -44,11 +47,11 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-clean>.
 
 - Git tarafından takip edilmeyen dosyaları zorla zil:
 
-`git clean -f`
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--force</span>
 
 - Git tarafından takip edilmeyen dizinleri zorla zil:
 
-`git clean -fd`
+`git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--force</span>` -d`
 
 - `.gitignore` ve `.git/info/exclude`'deki yoksayılan dosyalar dahiş olmak üzere takip edilmeyen dosyaları sil:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (Türkçe)
 description: "Dallar ile çalışmak için kullanılan ana Git komutu."
-content_hash: 0416511ff7251779618ca98c0c75bc6066bfb368
-last_modified_at: 2024-01-03
+content_hash: ce3c22c1fab6d98af4568e5dc49c523b4e185f0f
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-branch.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-branch.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-branch.html
@@ -57,11 +60,11 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-branch>.
 
 - Bir dalı yeniden adlandır:
 
-`git branch -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eski_dal_ismi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yeni_dal_ismi</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--move</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eski_dal_ismi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yeni_dal_ismi</span>
 
 - Yerel bir dalı sil:
 
-`git branch -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span>
 
 - Uzaktaki bir dalı sil:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (한국어)
 description: "터미널 세션을 녹음하고 재생하며 선택적으로 asciinema.org에서 공유합니다."
-content_hash: 469cfd83b89801b8e1121e3e6093eede0314f87b
-last_modified_at: 2024-09-25
+content_hash: 70890a941b2e6de87a58c28fa7bb94b3392aaa00
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -43,11 +43,11 @@ tldri18n_status: 2
 
 - 새 녹음을 만들고 로컬 파일에 저장:
 
-`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명</span>`.cast`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명.cast</span>
 
 - 로컬 파일에서 녹음한 터미널을 재생:
 
-`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명</span>`.cast`
+`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명.cast</span>
 
 - asciinema.org에서 호스트된 터미널 녹음을 재생:
 
@@ -59,8 +59,8 @@ tldri18n_status: 2
 
 - 로컬 저장 기록의 전체 출력을 인쇄:
 
-`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명</span>`.cast`
+`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명.cast</span>
 
 - 로컬로 저장된 터미널 세션을 asciinema.org에 업로드하기:
 
-`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명</span>`.cast`
+`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명.cast</span>

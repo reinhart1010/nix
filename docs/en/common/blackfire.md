@@ -2,8 +2,8 @@
 layout: page
 title: common/blackfire (English)
 description: "Monitor, profile and test a PHP application."
-content_hash: 5898845566378527e1d576d3b8e320c545ac65d5
-last_modified_at: 2024-04-19
+content_hash: df271f9c6a9e61d758344b58b3bedb3ba1067f59
+last_modified_at: 2024-10-13
 related_topics:
   - title: italiano version
     url: /it/common/blackfire.html
@@ -36,7 +36,7 @@ More information: <https://blackfire.io>.
 
 - Run the profiler and collect 10 samples:
 
-`blackfire --samples `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php path/to/file.php</span>
+`blackfire --samples 10 run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php path/to/file.php</span>
 
 - Run the profiler and output results as JSON:
 

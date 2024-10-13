@@ -2,8 +2,8 @@
 layout: page
 title: common/git (Türkçe)
 description: "Dağıtım sürüö kontrol sistemi."
-content_hash: 006212cdbb3e5a5a7345d6d53044599e9171c9f6
-last_modified_at: 2023-11-12
+content_hash: e64aabc3237d7ba9af7eb67d34e84f257a5debbd
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -57,18 +57,6 @@ tldri18n_status: 2
 Dağıtım sürüö kontrol sistemi.
 Daha fazla bilgi için: <https://git-scm.com/>.
 
-- Git sürümünü kontrol et:
-
-`git --version`
-
-- Genel yardım sayfasını görüntüle:
-
-`git --help`
-
-- Bir Git alt komutu (`commit`, `log` gibi) için yardım sayfasını görüntüle:
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alt_komut</span>
-
 - Bit Git alt komutunu çalıştır:
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alt_komut</span>
@@ -80,3 +68,15 @@ Daha fazla bilgi için: <https://git-scm.com/>.
 - Bir Git alt komutunu belirtilen biçimlendirmeye uygun olarak çalıştır:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.key</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">değer</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alt_komut</span>
+
+- Genel yardım sayfasını görüntüle:
+
+`git --help`
+
+- Bir Git alt komutu (`commit`, `log` gibi) için yardım sayfasını görüntüle:
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alt_komut</span>
+
+- Git sürümünü kontrol et:
+
+`git --version`

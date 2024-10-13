@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (한국어)
 description: "압축된 Android 버그 리포트 생성."
-content_hash: ea4eaddbb84f94eb0502c5295df25ba28f8c43b0
-last_modified_at: 2023-11-26
+content_hash: d51075456f70c0b2a0330e08374175711ec962a0
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -81,10 +81,10 @@ tldri18n_status: 2
 
 `bugreportz -p`
 
-- `bugreportz` 버전 표시:
-
-`bugreportz -v`
-
 - 도움말 표시:
 
 `bugreportz -h`
+
+- `bugreportz` 버전 표시:
+
+`bugreportz -v`

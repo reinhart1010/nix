@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (Deutsch)
 description: "Verwalte und Arbeite mit Git Branches."
-content_hash: 5cd3fd22c36fcba9948aeeca694d260f0dc22934
-last_modified_at: 2023-12-28
+content_hash: e359d11141e645bcb4696dde4889a796b816d6da
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-branch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-branch.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-branch.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-branch.html
@@ -58,11 +61,11 @@ Weitere Informationen: <https://git-scm.com/docs/git-branch>.
 
 - Benenne einen Branches um (der Branch muss nicht ausgecheckt sein):
 
-`git branch -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alter_branch_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">neuer_branch_name</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--move</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alter_branch_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">neuer_branch_name</span>
 
 - Lösche einen lokalen Branch (der Branch muss nicht ausgecheckt sein):
 
-`git branch -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
 
 - Lösche einen remote-Branch:
 

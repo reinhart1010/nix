@@ -2,7 +2,7 @@
 layout: page
 title: windows/del (中文 (繁體, 台灣))
 description: "刪除一個或多個檔案。"
-content_hash: ae501ec4bf069e666724248507218a8fd841fc4c
+content_hash: f709609a08812c8a00d0d163bb43bae10f338559
 last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
@@ -34,11 +34,16 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># del
 
 刪除一個或多個檔案。
+在 PowerShell 中，此命令為 `Remove-Item` 的別名。本頁的描述是基於命令提示字元 (`cmd`) 中的 `del`。
 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
-- 刪除一個或多個以空格分隔的檔案：
+- 查閱 PowerShell 的對應命令:
 
-`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案 檔案 ..</span>
+`tldr remove-item`
+
+- 刪除一個或多個檔案 (可使用萬用字元)：
+
+`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案1 檔案2 ...</span>
 
 - 在刪除每個檔案之前提示確認：
 

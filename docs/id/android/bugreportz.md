@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (Indonesia)
 description: "Buat sebuah laporan masalah Android dalam format file arsip (zip)."
-content_hash: d85e1ec9b42951ca21f8e49f0c47fba505319354
-last_modified_at: 2023-11-12
+content_hash: 1eddf0c52607791c861adb47d89677a1ca6deedf
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/android/bugreportz.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreportz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
@@ -78,10 +81,10 @@ Informasi lebih lanjut: <https://cs.android.com/android/platform/superproject/+/
 
 `bugreportz -p`
 
-- Tunjukkan versi program `bugreportz`:
-
-`bugreportz -v`
-
 - Tampilkan teks bantuan:
 
 `bugreportz -h`
+
+- Tunjukkan versi program `bugreportz`:
+
+`bugreportz -v`

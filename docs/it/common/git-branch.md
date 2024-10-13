@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (italiano)
 description: "Il principale comando Git per lavorare con i rami."
-content_hash: 84819b9f791e49afbf60106eeaa4b3a2fcf73710
-last_modified_at: 2023-11-12
+content_hash: 179259d36f7caf29e3cc8d69fd7b4b9393926f0c
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/git-branch.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-branch.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-branch.html
@@ -57,8 +60,8 @@ Maggiori informazioni: <https://git-scm.com/docs/git-branch>.
 
 - Rinomina un ramo (non applicabile sul ramo corrente):
 
-`git branch -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vecchio_nome</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuovo_nome</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--move</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vecchio_nome</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuovo_nome</span>
 
 - Cancella un ramo locale (non applicabile sul ramo corrente):
 
-`git branch -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span>

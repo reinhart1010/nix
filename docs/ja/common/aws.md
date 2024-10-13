@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (日本語)
 description: "アマゾンウェブサービスの公式 CLI ツールです。"
-content_hash: e741c903d5c72f4549c875281c728a4050035a36
-last_modified_at: 2024-10-05
+content_hash: 4636d8f5146aa75f9baa17a807748dcb17ad03fd
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -45,10 +45,6 @@ tldri18n_status: 2
 
 `aws configure sso`
 
-- AWS コマンドのヘルプを参照する:
-
-`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span>` help`
-
 - 操作呼び出しに使用した認証情報の取得（パーミッションのトラブルシューティングに使用します）:
 
 `aws sts get-caller-identity`
@@ -68,3 +64,7 @@ tldri18n_status: 2
 - JSON CLI スケルトンを生成する（Infrastructure as Code に役立ちます）:
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- AWS コマンドのヘルプを参照する:
+
+`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span>` help`

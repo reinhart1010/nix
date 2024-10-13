@@ -2,8 +2,8 @@
 layout: page
 title: common/git-merge (українська)
 description: "Злиття гілок разом."
-content_hash: e29635e86bdcfdaa91378ecbec6a22aaaa5d6eec
-last_modified_at: 2023-11-12
+content_hash: b348be5a77f819f138749d2342ba59215820794a
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-merge.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-merge.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-merge.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-merge.html
@@ -36,7 +39,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - Редагує повідомлення при злитті гілок:
 
-`git merge -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">назва_гілки</span>
+`git merge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--show-email</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">назва_гілки</span>
 
 - Зливає гілки і створює комміт злиття:
 

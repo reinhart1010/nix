@@ -2,8 +2,8 @@
 layout: page
 title: common/git-bundle (한국어)
 description: "객체와 참조를 아카이브로 패키징합니다."
-content_hash: d7d24e27f504c64f6a8d6dbd425b204960ac2757
-last_modified_at: 2024-10-08
+content_hash: 8ee6ddda3a412ae12c5d9f93639d7853e62a265f
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
@@ -43,11 +43,11 @@ tldri18n_status: 2
 
 - 현재 브랜치의 마지막 5개의 커밋을 포함하는 번들 파일 생성:
 
-`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.bundle</span>` -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
+`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.bundle</span>` -5 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
 
 - 최근 7일간의 커밋을 포함하는 번들 파일 생성:
 
-`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.bundle</span>` --since `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.days</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
+`git bundle create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.bundle</span>` --since 7.days `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
 
 - 번들 파일이 유효하고 현재 저장소에 적용될 수 있는지 확인:
 
