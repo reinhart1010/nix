@@ -3,23 +3,14 @@ layout: page
 title: common/bind (한국어)
 description: "bash 단축키 및 변수를 관리하기 위한 bash 내장."
 content_hash: f097b2cf6d62bbba216efeea8e2463b0a5f835a7
-last_modified_at: 2024-10-12
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/bind.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bind.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bind
+# bind
 
 bash 단축키 및 변수를 관리하기 위한 bash 내장.
 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.

@@ -2,8 +2,8 @@
 layout: page
 title: windows/del (中文 (繁體, 台灣))
 description: "刪除一個或多個檔案。"
-content_hash: 877c2ea1bc471877e347d2e40639772290c1b5a4
-last_modified_at: 2023-11-12
+content_hash: ae501ec4bf069e666724248507218a8fd841fc4c
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/windows/del.html
@@ -62,4 +62,4 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - 刪除符合指定屬性的檔案：
 
-`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案</span>` /a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">属性</span>
+`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案</span>` /a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">屬性</span>

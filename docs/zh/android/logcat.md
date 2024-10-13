@@ -1,9 +1,9 @@
 ---
 layout: page
 title: android/logcat (中文)
-description: "转储系统消息日志。"
-content_hash: 96f5a403125ca2b15ec8720373112319446cc86d
-last_modified_at: 2024-02-22
+description: "转储系统消息日志，包括发生错误时的堆栈跟踪信息，以及应用程序记录的信息消息。"
+content_hash: 27dd3e63323acc18328a1f37f8d29f549b24c3f9
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -62,24 +62,29 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/logcat.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# logcat
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># logcat
-
-转储系统消息日志。
+转储系统消息日志，包括发生错误时的堆栈跟踪信息，以及应用程序记录的信息消息。
 更多信息：<https://developer.android.com/tools/logcat>.
 
 - 显示系统日志：
 
 `logcat`
 
-- 将系统日志写入文件：
+- 将系统日志写入文件（[f]ile）：
 
-`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span>
+`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
 
-- 显示与正则表达式匹配的行：
+- 显示与正则表达式匹配的日志行：
 
 `logcat --regex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">正则表达式</span>
+
+- 显示特定 PID 的日志：
+
+`logcat --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+
+- 显示特定包的进程日志：
+
+`logcat --pid $(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包</span>`)`

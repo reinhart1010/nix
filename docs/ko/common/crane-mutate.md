@@ -3,23 +3,14 @@ layout: page
 title: common/crane-mutate (한국어)
 description: "이미지 라벨과 주석을 수정."
 content_hash: f179dbc379cf00f81208d492b7f5083a967e26c2
-last_modified_at: 2024-10-12
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/crane-mutate.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/crane-mutate.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># crane mutate
+# crane mutate
 
 이미지 라벨과 주석을 수정.
 컨테이너를 레지스트리에 푸시해야 하며, 매니페스트가 레지스트리에서 업데이트.

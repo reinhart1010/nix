@@ -2,8 +2,8 @@
 layout: page
 title: linux/betterlockscreen (English)
 description: "Simple, minimal lock screen."
-content_hash: 3dfc87218fcc7a506b1dd2f03d64249da84326e8
-last_modified_at: 2023-11-12
+content_hash: c62465c723a105c33331e509bfbf63074c95d877
+last_modified_at: 2024-10-13
 related_topics:
   - title: 中文 version
     url: /zh/linux/betterlockscreen.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # betterlockscreen
 
 Simple, minimal lock screen.
-More information: <https://github.com/pavanjadhaw/betterlockscreen>.
+More information: <https://github.com/betterlockscreen/betterlockscreen>.
 
 - Lock the screen:
 

@@ -3,7 +3,7 @@ layout: page
 title: freebsd/cal (Indonesia)
 description: "Tampilkan kalender dengan menyorot tanggal saat ini."
 content_hash: de7b7e61e4dbe970a00b528a78d9da2f57bc294e
-last_modified_at: 2024-10-12
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/freebsd/cal.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/freebsd/cal.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/cal.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cal
+# cal
 
 Tampilkan kalender dengan menyorot tanggal saat ini.
 Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?cal>.

@@ -3,23 +3,14 @@ layout: page
 title: common/crane-registry (한국어)
 description: "이 명령은 자동으로 선택된 포트(:0), $PORT 또는 --address에서 레지스트리 구현을 제공."
 content_hash: 37121812c3c110865308c9fcd0894e4ed27407fc
-last_modified_at: 2024-10-12
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/crane-registry.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/crane-registry.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># crane registry
+# crane registry
 
 이 명령은 자동으로 선택된 포트(:0), $PORT 또는 --address에서 레지스트리 구현을 제공.
 서버가 push 및 pull을 수락하는 동안 명령 블록과 내용을 메모리 및 디스크에 저장할 . 수 있음.

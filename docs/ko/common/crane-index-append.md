@@ -3,23 +3,14 @@ layout: page
 title: common/crane-index-append (한국어)
 description: "원격 인덱스에 매니페스트를 추가."
 content_hash: d5444027b43ffe4b9e6a9e7d7ecbc346ead9da24
-last_modified_at: 2024-10-12
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/crane-index-append.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/crane-index-append.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># crane index append
+# crane index append
 
 원격 인덱스에 매니페스트를 추가.
 하위 명령은 매니페스트가 추가된 (선택사항) 기본 인덱스를 기반으로 인덱스를 푸시.

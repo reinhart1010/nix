@@ -3,7 +3,7 @@ layout: page
 title: osx/base64 (Nederlands)
 description: "Encodeer en decodeer met behulp van Base64-representatie."
 content_hash: ab0513ccb6d0c4c6bfec165336396ea838ea88e4
-last_modified_at: 2024-08-14
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -14,6 +14,9 @@ related_topics:
   - title: हिन्दी version
     url: /hi/osx/base64.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/base64.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/osx/base64.html
     icon: bi bi-globe
@@ -23,9 +26,12 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/base64.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# base64
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># base64
 
 Encodeer en decodeer met behulp van Base64-representatie.
 Meer informatie: <https://keith.github.io/xcode-man-pages/base64.1.html>.

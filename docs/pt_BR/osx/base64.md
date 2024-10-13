@@ -3,7 +3,7 @@ layout: page
 title: osx/base64 (português (Brasil))
 description: "Codifica e decodifica usando a representação Base64."
 content_hash: 86b490466bf30d33b1a9f5a4913a01dcfe1bf1d1
-last_modified_at: 2024-01-31
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -14,15 +14,24 @@ related_topics:
   - title: हिन्दी version
     url: /hi/osx/base64.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/base64.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/osx/base64.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/base64.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/base64.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# base64
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># base64
 
 Codifica e decodifica usando a representação Base64.
 Mais informações: <https://keith.github.io/xcode-man-pages/base64.1.html>.

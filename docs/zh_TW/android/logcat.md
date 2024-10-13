@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (中文 (繁體, 台灣))
 description: "轉存系統訊息日誌。"
-content_hash: 564ab87c96fa9532c268998c0dd02d8ef7abacf5
-last_modified_at: 2024-02-22
+content_hash: 5255e3e77e9756ed46164ec843be9f39de5999a8
+last_modified_at: 2024-10-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -78,7 +78,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - 將系統日誌寫入檔案：
 
-`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span>
+`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路徑</span>
 
 - 顯示與正規表示式匹配的列：
 
