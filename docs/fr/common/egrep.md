@@ -2,11 +2,14 @@
 layout: page
 title: common/egrep (français)
 description: "Recherche de motifs dans un texte. Supporte la version étendues des expressions regulieres (`?`, `+`, `{}`, `()`, et `|`)."
-content_hash: ab4f39fbab98095c441bb95f6420055ec49909cd
-last_modified_at: 2023-11-12
+content_hash: 0a9c260f7ab458edff3dd7f0857f8da060f32524
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/egrep.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/egrep.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -21,7 +24,7 @@ Plus d'informations : <https://manned.org/egrep>.
 
 - Recherche une chaîne de caractères dans plusieurs fichiers :
 
-`egrep "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaîne_recherchée</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier3</span>
+`egrep "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaîne_recherchée</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1 chemin/vers/fichier2 ...</span>
 
 - Utilise l'entrée standard au lieu d'un fichier :
 

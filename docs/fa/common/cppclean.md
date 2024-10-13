@@ -2,8 +2,8 @@
 layout: page
 title: common/cppclean (فارسی)
 description: "پیدا کردن کد های بدون استفاده در پروژه های سی پلاس پلاس."
-content_hash: 3c6e6263e2d7c989d661480730946fe8016e9239
-last_modified_at: 2024-01-07
+content_hash: 97123102c6379e582fc4c44efa988aa5a61c3b30
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/cppclean.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 
 - اجرا روی پروژه درحالی که هدرها در پوشه های `inc1/` و `inc2/` قرار دارند:
 
-`cppclean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project</span>` --include-path=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc1</span>` --include-path=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc2</span>
+`cppclean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project</span>` --include-path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc1</span>` --include-path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc2</span>
 
 - اجرا روی فایل دلخواه مانند `main.cpp`:
 
@@ -35,4 +35,4 @@ tldri18n_status: 2
 
 - اجرا روی پوشه کنونی به استثنای پوشه "build":
 
-`cppclean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span>` --exclude=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">build</span>
+`cppclean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span>` --exclude `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">build</span>

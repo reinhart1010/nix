@@ -2,11 +2,14 @@
 layout: page
 title: linux/journalctl (polski)
 description: "Przeszukaj dziennik systemd."
-content_hash: 2b8973cf02655791c4eee2fb6bae75364c69e17b
-last_modified_at: 2024-09-25
+content_hash: 071421f7af38d83a31980564b826b470d21f1683
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/linux/journalctl.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/journalctl.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/linux/journalctl.html
@@ -20,19 +23,19 @@ Więcej informacji: <https://manned.org/journalctl>.
 
 - Wyświetl wszystkie wiadomości o priorytecie 3 (błędy) z tego rozruchu:
 
-`journalctl -b --priority=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
+`journalctl -b --priority=3`
 
 - Usuń dzienniki starsze niż 2 dni:
 
-`journalctl --vacuum-time=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2d</span>
+`journalctl --vacuum-time=2d`
 
 - Wyświetlaj nowe wiadomości (jak `tail -f` dla tradycyjnego sysloga):
 
-`journalctl -f`
+`journalctl --follow`
 
 - Wyświetl wszystkie wiadomości podanej jednostki:
 
-`journalctl -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jednostka</span>
+`journalctl --unit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jednostka</span>
 
 - Wyświetl wiadomości podanej jednostki od czasu jej ostatniego uruchomienia:
 

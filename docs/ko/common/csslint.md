@@ -2,8 +2,8 @@
 layout: page
 title: common/csslint (한국어)
 description: "CSS 코드용 린터."
-content_hash: 4ed6b83b3657166ebb0924b280afe2c7b9cbcf26
-last_modified_at: 2023-11-12
+content_hash: aaaaa1ee3be0a2b6e8660d4fda9c23225c59186e
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/csslint.html
@@ -27,7 +27,7 @@ CSS 코드용 린터.
 
 - 여러개의 CSS 파일을 린트:
 
-`csslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일1.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일2.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일3.css</span>
+`csslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일1.css 파일2.css ...</span>
 
 - 가능한 모든 스타일 규칙 나열:
 

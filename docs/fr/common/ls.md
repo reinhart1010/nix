@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (français)
 description: "Liste le contenu d'un répertoire."
-content_hash: 87305154512ea9bb0d1f17a45636ded0224eba11
-last_modified_at: 2023-11-12
+content_hash: 072444ac04b9e122376d222cba98a77887ba5601
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -37,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -88,7 +94,7 @@ Plus d'informations : <https://www.gnu.org/software/coreutils/ls>.
 
 - Liste les fichiers avec un format détaillé en triant par taille décroissante :
 
-`ls -lS`
+`ls -lSR`
 
 - Liste avec un format détaillé tous les fichiers en triant par date de modification (les plus anciennes en premier) :
 

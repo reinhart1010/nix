@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (русский)
 description: "Вывод содержимого каталога."
-content_hash: 5215e860585db76c3847ae646391e0ef6c3b71b8
-last_modified_at: 2023-11-12
+content_hash: f67ae39ff50586ed65ad41e93176ac98b8f56d1e
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -40,6 +43,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -88,7 +94,7 @@ tldri18n_status: 2
 
 - Подробный список, отсортированный по размеру файлов (по убыванию):
 
-`ls -lS`
+`ls -lSR`
 
 - Подробный список, отсортированный по дате изменения файла (сначала более старые):
 

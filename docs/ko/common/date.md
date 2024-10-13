@@ -2,8 +2,8 @@
 layout: page
 title: common/date (한국어)
 description: "시스템 날짜 설정 및 표시."
-content_hash: 0ea69cbc1f5cf0e064dac23ce5fb5b2d6a1bdd4a
-last_modified_at: 2024-01-13
+content_hash: fcafd51a0e20d308f7eb60bfa612a0885d1b8fa5
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/date.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/date.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/date.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/date.html
@@ -49,7 +52,7 @@ tldri18n_status: 2
 
 - 현재 날짜를 RFC-3339 형식으로 표시 (`YYYY-MM-DD hh:mm:ss TZ`):
 
-`date --rfc-3339=s`
+`date --rfc-3339 s`
 
 - `MMDDhhmmYYYY.ss` (`YYYY` 와 `.ss`는 선택 사항) 형식을 사용해 현재 날짜를 설정:
 

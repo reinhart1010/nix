@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (Türkçe)
 description: "Düzenli ifadeler (Regex) kullanarak dosyalardaki kalıpları bul."
-content_hash: fe2475dd5e7bf0285e634a1fe5d530ead15823f9
-last_modified_at: 2024-06-19
+content_hash: bec601d63f1f99256dfb0bd7ceeba7e711b3a081
+last_modified_at: 2024-10-13
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/grep.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/grep.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/grep.html
     icon: bi bi-globe
@@ -34,6 +37,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/grep.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/grep.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/grep.html
@@ -55,7 +61,7 @@ Daha fazla bilgi için: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Bir dizindeki tüm dosyalarda bir kalıbı tekrarlı olarak ara, eşleşmelerin satır numaralarını göster, binary dosyaları göz ardı et:
 
-`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aranan_kalıp</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
+`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aranan_kalıp</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
 
 - Büyük/küçük harfe duyarsız modda genişletilmiş düzenli ifadeleri (`?`, `+`, `{}`, `()` ve `|` destekler) kullan:
 

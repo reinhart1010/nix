@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (italiano)
 description: "Elenca i contenuti di una directory."
-content_hash: 171791524b0c48a9d9b9f9ab9ee88ba4faaf4692
-last_modified_at: 2023-11-12
+content_hash: 20ffda03fbb7de749dfb20ed186be485f21b2113
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -37,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -88,7 +94,7 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/ls>.
 
 - Elenca tutti i file e mostra informazioni, ordinandoli per dimensione decrescente:
 
-`ls -lS`
+`ls -lSR`
 
 - Elenca tutti i file e mostra informazioni, ordinandoli per data di ultima modifica (i più vecchi prima):
 

@@ -2,11 +2,14 @@
 layout: page
 title: common/passwd (português (Brasil))
 description: "Passwd é uma ferramenta usada para alterar a senha de um usuário."
-content_hash: 2814993806242a951c03713780519d37a6948543
-last_modified_at: 2023-11-12
+content_hash: 24c1ef8e5421039ce1a0bd67ae4e5718f08f0a5d
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/passwd.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/passwd.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/passwd.html
@@ -28,8 +31,8 @@ Mais informações: <https://manned.org/passwd>.
 
 - Obtém o status atual do usuário:
 
-`passwd -S`
+`passwd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-S|--status</span>
 
 - Deixa a senha da conta em branco (isso definirá a conta nomeada como sem senha):
 
-`passwd -d`
+`passwd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>

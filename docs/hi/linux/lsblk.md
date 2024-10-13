@@ -2,8 +2,8 @@
 layout: page
 title: linux/lsblk (हिन्दी)
 description: "उपकरणों के बारे में जानकारी सूचीबद्ध करता है।"
-content_hash: 54727a2d2f7b2816762ba2e0666b31f6e5e2711b
-last_modified_at: 2023-11-12
+content_hash: 1af722e5d8e03d9db890bfe87122e16cee2d29c4
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/linux/lsblk.html
@@ -53,8 +53,8 @@ tldri18n_status: 2
 
 - प्रमुख उपकरण संख्याओं की अल्पविराम से अलग की गई सूची द्वारा निर्दिष्ट उपकरणों को बाहर करें:
 
-`lsblk -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,7</span>
+`lsblk -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,7,...</span>
 
 - कॉलम की अल्पविराम से अलग की गई सूची का उपयोग करके एक अनुकूलित सारांश प्रदर्शित करें:
 
-`lsblk --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NAME</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SERIAL</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MODEL</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TRAN</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TYPE</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIZE</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FSTYPE</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MOUNTPOINT</span>
+`lsblk --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...</span>

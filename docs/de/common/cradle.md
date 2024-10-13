@@ -2,8 +2,8 @@
 layout: page
 title: common/cradle (Deutsch)
 description: "Das Cradle PHP Framework."
-content_hash: 5d9cc0e871a6302d1f5d53d19cfd3fd94fd5e382
-last_modified_at: 2024-10-05
+content_hash: cf30eb12c1b32a14497cd03c23cc31ea5ffa00dc
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/cradle.html
@@ -26,6 +26,10 @@ Weitere Informationen: <https://cradlephp.github.io>.
 
 `cradle connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span>
 
+- Führe einen Cradle-Befehl aus:
+
+`cradle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>
+
 - Zeige die Hilfe-Seite an:
 
 `cradle help`
@@ -33,7 +37,3 @@ Weitere Informationen: <https://cradlephp.github.io>.
 - Zeige die Hilfe-Seite für einen bestimmten Befehl:
 
 `cradle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>` help`
-
-- Führe einen Cradle-Befehl aus:
-
-`cradle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>

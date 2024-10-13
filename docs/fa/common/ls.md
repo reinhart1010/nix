@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (فارسی)
 description: "نمایش محتویات دایرکتوری."
-content_hash: b118730c06046cbf38cfd0181804a271ea2dd5c0
-last_modified_at: 2023-11-12
+content_hash: a721bf6136c5d3db89a3322fdb3b3267cd89ecdb
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -37,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -91,7 +97,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - نمایش فایل ها به همراه مجوزها، مالک، اندازه و تاریخ تغییرات، مرتب شده با اندازه فایل به صورت نزولی:
 
-`ls -lS`
+`ls -lSR`
 
 - نمایش فایل ها به همراه مجوزها، مالک، اندازه و تاریخ تغییرات، مرتب شده با تاریخ تغییر فایل به صورت صعودی:
 

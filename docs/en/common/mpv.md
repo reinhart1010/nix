@@ -2,8 +2,8 @@
 layout: page
 title: common/mpv (English)
 description: "A audio/video player based on MPlayer."
-content_hash: 5e5e2841a947396be32c9677329f5fe515dbf41c
-last_modified_at: 2024-06-11
+content_hash: 661f7ef800e2944756461dc2f8e83f72a03796c3
+last_modified_at: 2024-10-13
 related_topics:
   - title: italiano version
     url: /it/common/mpv.html
@@ -44,7 +44,7 @@ More information: <https://mpv.io>.
 
 - Play a file at a specified speed (1 by default):
 
-`mpv --speed=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.01..100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`mpv --speed `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.01..100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Play a file using a profile defined in the `mpv.conf` file:
 

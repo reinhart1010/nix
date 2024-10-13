@@ -2,8 +2,8 @@
 layout: page
 title: linux/gedit (മലയാളം)
 description: "ഗ്നോം ഡെസ്ക്ടോപ് പ്രോജക്ടിന്റെ ടെക്സ്റ്റ് എഡിറ്റർ."
-content_hash: 0e5cf3722314662b93f552eb3182663025c9e0ac
-last_modified_at: 2023-11-12
+content_hash: 415ea84570ff16edf46c4e0c21ede652bc0c8c41
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/linux/gedit.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 
 - ഒരു പ്രത്യേക എൻകോഡിങ്ങിൽ ഫയൽ ഓപ്പൺ ചെയ്യുവാൻ:
 
-`gedit --encoding=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിലേക്കുള്ള/പാത</span>
+`gedit --encoding `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിലേക്കുള്ള/പാത</span>
 
 - സപ്പോർട്ട് ചെയ്യപ്പെട്ട എല്ലാവിധ എൻകോഡിങ്ങും കാണുവാൻ:
 

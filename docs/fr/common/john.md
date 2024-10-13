@@ -2,8 +2,8 @@
 layout: page
 title: common/john (français)
 description: "Outil de cassage de mot de passe."
-content_hash: 7ff0b15931ea88fd958dc814746bf71c64c0fa1b
-last_modified_at: 2023-11-12
+content_hash: 00092dc75d6fa04407a1d9330c75d4dd5b13a404
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/john.html
@@ -25,7 +25,7 @@ Plus d'informations : <https://www.openwall.com/john/>.
 
 - Affiche les mots de passe cassés des utilisateurs par identifiant d'utilisateur à partir de plusieurs fichiers :
 
-`john --show --users=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ids_utilisateurs</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/hashs*</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/autres/hashs*</span>
+`john --show --users=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ids_utilisateurs</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/hashs1.txt chemin/vers/autres/hashs2.txt ...</span>
 
 - Craque des hashs de mots de passe, à l'aide d'une liste de mots personnalisée :
 

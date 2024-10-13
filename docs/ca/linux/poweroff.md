@@ -2,8 +2,8 @@
 layout: page
 title: linux/poweroff (català)
 description: "Apaga la màquina."
-content_hash: 3fe2fa48232187b88484177bbe171cf91370f109
-last_modified_at: 2024-06-19
+content_hash: 7a032ff838b19e3fb93ee6ccde35320bc03c20b3
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/linux/poweroff.html
@@ -44,7 +44,7 @@ Més informació: <https://www.manned.org/poweroff>.
 
 - Apaga el sistema sense contactar l'administrador del sistema:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Escriu l'entrada de wtpm shutdown sense apagar l'ordinador:
 

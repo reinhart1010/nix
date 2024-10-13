@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (हिन्दी)
 description: "डायरेक्टरी की सामग्री की सूची दिखाएं।"
-content_hash: efdb91e22a92bfdb24df57b42b7897c63be1ce7b
-last_modified_at: 2023-11-12
+content_hash: 748ceee0288ace7b0dd13155c42e512b0e4a3da4
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -37,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -88,7 +94,7 @@ tldri18n_status: 2
 
 - आकार के आधार पर क्रमबद्ध की गई लॉन्ग सूची (अवरोही):
 
-`ls -lS`
+`ls -lSR`
 
 - संशोधन तिथि के क्रम में क्रमबद्ध की गई सभी फ़ाइलों की लॉन्ग सूची (सबसे पुरानी पहले):
 

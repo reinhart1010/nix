@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (한국어)
 description: "폴더의 내용물을 리스팅합니다."
-content_hash: 543211116adc2cd9eb827eb46cd68dbfbedebf6f
-last_modified_at: 2024-01-13
+content_hash: 62da316c5379eb5b38442a4c699024e8a34840fb
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -37,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -88,7 +94,7 @@ tldri18n_status: 2
 
 - 파일의 모든 정보를 크기의 내림차순으로 정렬:
 
-`ls -lS`
+`ls -lSR`
 
 - 파일의 모든 정보를 수정날짜(오래된 순서)로 정렬:
 

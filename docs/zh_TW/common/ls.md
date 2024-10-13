@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (中文 (繁體, 台灣))
 description: "列出目錄內容。"
-content_hash: bcec8df3f8bc2c277cc3fa7ca3743baa49bb1ddf
-last_modified_at: 2023-11-12
+content_hash: 3cb289eaf5779970efc182ad62baaf2b8868360d
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -40,6 +43,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -91,7 +97,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - 列出完整檔案列表，並依檔案大小降序排序：
 
-`ls -lS`
+`ls -lSR`
 
 - 列出完整檔案列表，並依修改時間由舊到新排序：
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cppcheck (한국어)
 description: "C/C++ 코드를 위한 정적 분석 도구."
-content_hash: dc732a1203e26affe25922fe5a7d0738180a7c9e
-last_modified_at: 2024-10-12
+content_hash: 0edc96e9138768465ffd0f193fee544f62354f77
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/cppcheck.html
@@ -29,7 +29,7 @@ C/C++ 코드를 위한 정적 분석 도구.
 
 - 수행 할 테스트를 지정하여 주어진 파일을 확인(기본적으로 오류만 표시됨):
 
-`cppcheck --enable=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error|warning|style|performance|portability|information|all</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.cpp/의/경로</span>
+`cppcheck --enable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error|warning|style|performance|portability|information|all</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.cpp/의/경로</span>
 
 - 사용 가능한 테스트 목록:
 
@@ -37,7 +37,7 @@ C/C++ 코드를 위한 정적 분석 도구.
 
 - 특정 테스트를 무시하고 주어진 파일을 확인:
 
-`cppcheck --suppress=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test_id1</span>` --suppress=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test_id2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.cpp/의/경로</span>
+`cppcheck --suppress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test_id1</span>` --suppress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test_id2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.cpp/의/경로</span>
 
 - 현재 디렉토리를 확인하여 외부에 있는 include 파일의 경로를 제공(예 : 외부 라이브러리):
 
@@ -45,4 +45,4 @@ C/C++ 코드를 위한 정적 분석 도구.
 
 - Microsoft Visual Studio 프로젝트 (`*.vcxproj`) 또는 솔루션 (`*.sln`)을 확인:
 
-`cppcheck --project=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project.sln/의/경로</span>
+`cppcheck --project `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project.sln/의/경로</span>

@@ -2,11 +2,14 @@
 layout: page
 title: windows/comp (中文)
 description: "比较两个文件或文件集的内容。"
-content_hash: 47bd1275633529fab40860dc797340d37963efaf
-last_modified_at: 2024-01-01
+content_hash: 582f9539436948f1984f2e51b22d3a2e776615f0
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/windows/comp.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/windows/comp.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/comp.html
@@ -49,4 +52,4 @@ tldri18n_status: 2
 
 - 只比较每个文件前 5 行的内容：
 
-`comp /n=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件 1 的路径</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件 2 的路径</span>
+`comp /n=5 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件 1 的路径</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件 2 的路径</span>

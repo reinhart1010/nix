@@ -2,8 +2,8 @@
 layout: page
 title: common/cppcheck (italiano)
 description: "Strumento di analisi statica per codice C/C++."
-content_hash: 4a9e24dfa6b556582589baa717db69be6acb86df
-last_modified_at: 2024-10-12
+content_hash: cdea5985e3f76ead632443db030a09e3be246f6d
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/cppcheck.html
@@ -29,7 +29,7 @@ Maggiori informazioni: <https://cppcheck.sourceforge.net>.
 
 - Controlla un determinato file, specificando quali test eseguire (di default, solo gli errori sono mostrati):
 
-`cppcheck --enable=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error|warning|style|performance|portability|information|all</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.cpp</span>
+`cppcheck --enable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error|warning|style|performance|portability|information|all</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.cpp</span>
 
 - Elenca i test disponibili:
 
@@ -37,7 +37,7 @@ Maggiori informazioni: <https://cppcheck.sourceforge.net>.
 
 - Controlla un determinato file, ignorando specifici test:
 
-`cppcheck --suppress=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_test1</span>` --suppress=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">it_test2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.cpp</span>
+`cppcheck --suppress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_test1</span>` --suppress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">it_test2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.cpp</span>
 
 - Controlla la directory corrente, fornendo percorsi da includere per file esterni (e.g. librerie esterne):
 
@@ -45,4 +45,4 @@ Maggiori informazioni: <https://cppcheck.sourceforge.net>.
 
 - Controlla un progetto Microsoft Visual Studio (`*.vcxproj`) o file solution (`*.sln`):
 
-`cppcheck --project=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/progetto.sln</span>
+`cppcheck --project `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/progetto.sln</span>

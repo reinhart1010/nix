@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (català)
 description: "Llista els continguts d'un directori."
-content_hash: 8e3ad1d6638b74b39e16dc3f1b6b58d8f3244906
-last_modified_at: 2023-11-12
+content_hash: a4711d3fed2f6d6ed925f77c1ad21361f1a7ca0d
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/ls.html
     icon: bi bi-globe
@@ -37,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -88,7 +94,7 @@ Més informació: <https://www.gnu.org/software/coreutils/ls>.
 
 - Llista de format lalrg ordenat per mida (descendent):
 
-`ls -lS`
+`ls -lSR`
 
 - Llista de format llarg de tots els fitxers, organitzat per data de modificació (més antics primer):
 

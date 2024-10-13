@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (한국어)
 description: "정규표현식으로 파일에서 패턴을 찾습니다."
-content_hash: ea54ee64f6577264dae7e5e5498a30b582568743
-last_modified_at: 2024-06-19
+content_hash: 8792ed40f2a74f9ade2cfc9095c5f44110deb28f
+last_modified_at: 2024-10-13
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -23,6 +23,9 @@ related_topics:
   - title: français version
     url: /fr/common/grep.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/grep.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/grep.html
     icon: bi bi-globe
@@ -34,6 +37,9 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/grep.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/grep.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/grep.html
@@ -55,7 +61,7 @@ tldri18n_status: 2
 
 - 재귀적으로 디렉토리 안의 바이너리 파일을 제외한 모든 파일 안에서 패턴을 검색하고, 일치하는 줄의 번호를 보여줌:
 
-`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디렉토리/의/경로</span>
+`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디렉토리/의/경로</span>
 
 - 대소문자를 구분하지 않는 모드에서 확장된 정규표현식 사용 (`?`, `+`, `{}`, `()` 그리고 `|` 를 지원):
 

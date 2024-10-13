@@ -2,14 +2,17 @@
 layout: page
 title: common/cmatrix (italiano)
 description: "Genera lettere che cadono, come in Matrix."
-content_hash: 1c1bee243d7617302d6abc278a9ee2749abf0c80
-last_modified_at: 2023-11-12
+content_hash: e2852481a8861ec2e1dbf084afc8fd4f102efcd9
+last_modified_at: 2024-10-13
 related_topics:
   - title: català version
     url: /ca/common/cmatrix.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/cmatrix.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/cmatrix.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/cmatrix.html
@@ -33,6 +36,6 @@ Maggiori informazioni: <https://github.com/abishekvashok/cmatrix>.
 
 `cmatrix -r`
 
-- Imposta il dilazione di aggiornamento a 2 centisecondi (20 millisecondi):
+- Imposta il dilazione di aggiornamento a 100 centisecondi (10 secondi):
 
-`cmatrix -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>
+`cmatrix -u 100`

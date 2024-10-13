@@ -2,8 +2,8 @@
 layout: page
 title: common/javac (中文)
 description: "Java 程序编译器。"
-content_hash: 02d28e732bcb0b40a2c4a71d628cc8977e546c6e
-last_modified_at: 2023-11-12
+content_hash: 2959c315e10baa3141cbf942f0388b37ff7bb450
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/javac.html
@@ -30,7 +30,7 @@ Java 程序编译器。
 
 - 编译多个 `.java` 文件：
 
-`javac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名1.java</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名2.java</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名3.java</span>
+`javac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名1.java 文件名2.java 文件名3.java ...</span>
 
 - 编译当前目录内所有 `.java` 文件：
 

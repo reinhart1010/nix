@@ -2,8 +2,8 @@
 layout: page
 title: linux/gedit (தமிழ்)
 description: "க்னோம் டெஸ்க்டாப் திட்டத்தின் உரை திருத்தி."
-content_hash: d1cb1689be658edd5adc4ab8c85b8dc9edabed28
-last_modified_at: 2023-11-13
+content_hash: 6d89279d523da119c88b24b3ed8640d202ac67a6
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/linux/gedit.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 
 - ஒரு குறிப்பிட்ட குறியாக்கத்துடன் உரைக் கோப்பைத் திறக்கவும்:
 
-`gedit --encoding=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
+`gedit --encoding `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - ஆதரிக்கப்படும் குறியாக்கங்களின் பட்டியலைக் காண்பிக்கவும்:
 

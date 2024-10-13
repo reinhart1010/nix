@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (português (Brasil))
 description: "Lista o conteúdo de um diretório."
-content_hash: 6848a38d1c1eca26b83607e03915bd514d88a938
-last_modified_at: 2023-11-12
+content_hash: 86af90ba724baa1d539c705fadecdebf58a8c266
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -40,6 +43,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -88,7 +94,7 @@ Mais informações: <https://www.gnu.org/software/coreutils/ls>.
 
 - Lista em formato longo ordenados por tamanhos (decrescente):
 
-`ls -lS`
+`ls -lSR`
 
 - Lista todos os arquivos em formato longo, ordenados por data de modificação (mais antigo primeiro):
 

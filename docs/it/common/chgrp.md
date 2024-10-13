@@ -2,8 +2,8 @@
 layout: page
 title: common/chgrp (italiano)
 description: "Cambia il gruppo proprietario di file e directory."
-content_hash: 54923cafd9e35be91e7dd129600fed374f573b28
-last_modified_at: 2023-11-12
+content_hash: c7dc7eece7a23ccaa843add143c88b3a2d3b06d9
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
@@ -38,4 +38,4 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/chgrp>.
 
 - Cambia il gruppo proprietario di un file/directory rendendolo uguale a quello di un altro file di riferimento:
 
-`chgrp --reference=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_riferimento</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
+`chgrp --reference `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_riferimento</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>

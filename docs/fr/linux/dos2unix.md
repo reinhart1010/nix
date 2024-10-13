@@ -2,8 +2,8 @@
 layout: page
 title: linux/dos2unix (français)
 description: "Remplace les fins de lignes de style DOS par des fins de lignes de style Unix."
-content_hash: ca8bd8ff51ade10fcc45acda27cf9046fa443d99
-last_modified_at: 2024-09-09
+content_hash: e6e1c4589820796fb5088814458aaa71d116c14b
+last_modified_at: 2024-10-13
 related_topics:
   - title: català version
     url: /ca/linux/dos2unix.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/dos2unix.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/dos2unix.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/dos2unix.html
@@ -32,11 +35,11 @@ Plus d'informations : <https://manned.org/dos2unix>.
 
 - Crée une copie avec des fins de lignes de type Unix :
 
-`dos2unix -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/nouveau_fichier</span>
+`dos2unix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--newfile</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/nouveau_fichier</span>
 
 - Affiche les informations d'un fichier :
 
-`dos2unix -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
+`dos2unix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--info</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
 - Conserve/Ecrit/Supprime la marque d'ordre des octets (BOM) :
 

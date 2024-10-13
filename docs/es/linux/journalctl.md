@@ -2,8 +2,8 @@
 layout: page
 title: linux/journalctl (español)
 description: "Consulta el registro systemd."
-content_hash: a8ce5058e11377e1d8aa323643ec9a84e371ab46
-last_modified_at: 2024-10-04
+content_hash: aea371ce0b7460e3691e7887fd92723d7202a5a7
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/linux/journalctl.html
@@ -23,13 +23,13 @@ Más información: <https://manned.org/journalctl>.
 
 - Muestra todos los mensajes con nivel de prioridad 3 (errores) de este [b]oot:
 
-`journalctl -b --priority=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
+`journalctl -b --priority=3`
 
 - Elimina los registros diarios con más de 2 días de antigüedad:
 
-`journalctl --vacuum-time=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2d</span>
+`journalctl --vacuum-time=2d`
 
-- Muestra solo los últimos N líneas y sigue los mensajes nuevos (como `tail -f` de un syslog tradicional):
+- Muestra solo las últimas N líneas y sigue los mensajes nuevos (como `tail -f` de un syslog tradicional):
 
 `journalctl --lines `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span>` --follow`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/dust (English)
 description: "Dust gives an instant overview of which directories are using disk space."
-content_hash: 8549b3b5fe887d09d0cf06f5971c8564a7803c83
-last_modified_at: 2024-01-31
+content_hash: 03544e7a2bd1e5948a9973c8935fc7e4c505c933
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/dust.html
@@ -28,11 +28,11 @@ More information: <https://github.com/bootandy/dust>.
 
 - Display 30 directories (defaults to 21):
 
-`dust --number-of-lines `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span>
+`dust --number-of-lines 30`
 
 - Display information for the current directory, up to 3 levels deep:
 
-`dust --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
+`dust --depth 3`
 
 - Display the biggest directories at the top in descending order:
 

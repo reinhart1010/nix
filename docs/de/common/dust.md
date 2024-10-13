@@ -2,8 +2,8 @@
 layout: page
 title: common/dust (Deutsch)
 description: "Dust gib einen sofortigen Überblick, welche Verzeichnisse Festplatten Speicherplatz benutzen."
-content_hash: 479301c97c2b74ba9c8036fecd0d03546e0c1737
-last_modified_at: 2024-10-07
+content_hash: b23702cd2e5d8c113aedbc9e3c17c95e3ed7e997
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/dust.html
@@ -24,15 +24,15 @@ Weitere Informationen: <https://github.com/bootandy/dust>.
 
 - Informationen für eine durch Leerzeichen getrennte Liste von Verzeichnissen anzeigen:
 
-`dust `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis2</span>
+`dust `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis1 pfad/zu/verzeichnis2 ...</span>
 
 - Zeige 30 Verzeichnisse an (Standardwert: 21):
 
-`dust --number-of-lines `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span>
+`dust --number-of-lines 30`
 
 - Zeigt Informationen für das aktuelle Verzeichnis an, bis zu 3 Ebenen tief:
 
-`dust --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
+`dust --depth 3`
 
 - Die größten Verzeichnisse in absteigender Reihenfolge oben anzeigen:
 

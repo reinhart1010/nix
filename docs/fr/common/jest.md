@@ -2,8 +2,8 @@
 layout: page
 title: common/jest (français)
 description: "Une plateforme de test JavaScript sans configuration."
-content_hash: 2914de236508d7cf7817c031aae0e8854553db22
-last_modified_at: 2023-11-12
+content_hash: a32745c9dd0e1f47b44db4150d8a981a1f1982ae
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/jest.html
@@ -21,7 +21,7 @@ Plus d'informations : <https://jestjs.io>.
 
 - Exécuter les suites de test de fichiers donnés :
 
-`jest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier2</span>
+`jest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1 chemin/vers/fichier2 ...</span>
 
 - Exécuter les suites de test pour des fichiers, dans le répertoire courant et ses sous-répertoires, dont le chemin correspond à l'expression régulière indiquée :
 

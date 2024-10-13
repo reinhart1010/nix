@@ -2,8 +2,8 @@
 layout: page
 title: linux/gedit (español)
 description: "Editor de texto del proyecto GNOME."
-content_hash: 377b96aeac630637e5b8399ad23f33f1acbf5895
-last_modified_at: 2023-11-12
+content_hash: 9f740a772f051e4d91667ba10e437d82fdfc364f
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/linux/gedit.html
@@ -34,7 +34,7 @@ Más información: <https://help.gnome.org/users/gedit/stable/>.
 
 - Abre un archivo de texto con una codificación específica:
 
-`gedit --encoding=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
+`gedit --encoding `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
 - Muestra una lista de las codificaciones disponibles:
 

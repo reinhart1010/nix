@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (Deutsch)
 description: "Liste den Inhalt eines Verzeichnisses auf."
-content_hash: fccc1e5697a470d10caeace14e765a1e4315ae1a
-last_modified_at: 2023-12-28
+content_hash: cf0527d437608640c732364f6005deba3cad1103
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -37,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -88,7 +94,7 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/ls>.
 
 - Liste Dateien nach sortiert nach Dateigröße mit größter beginnend auf:
 
-`ls -lS`
+`ls -lSR`
 
 - Liste alle Dateien sortiert nach dem Änderungsdatum mit ältester beginnend auf:
 

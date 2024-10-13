@@ -2,8 +2,8 @@
 layout: page
 title: common/podman-compose (português (Brasil))
 description: "Executar e gerenciar definição de contêineres Compose Specification."
-content_hash: 24b7d7998d9fbc2ca99d396a6a1ea81a7cf61335
-last_modified_at: 2023-12-28
+content_hash: 123b5707c894886e58e2ca32a122ac3b79068935
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/podman-compose.html
@@ -29,7 +29,7 @@ Mais informações: <https://github.com/containers/podman-compose>.
 
 - Inicia todos os contêineres usando um arquivo de composição alternativo:
 
-`podman-compose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>` up`
+`podman-compose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>` up`
 
 - Para todos os contêineres em execução:
 

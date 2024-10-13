@@ -2,8 +2,8 @@
 layout: page
 title: linux/gedit (English)
 description: "Text editor of the GNOME Desktop project."
-content_hash: 5a088d385ba7fdcd6a4644c40e91778f57c9d5f3
-last_modified_at: 2023-11-12
+content_hash: b077b7f5750457255f2b276d98bf724f7ce645f6
+last_modified_at: 2024-10-13
 related_topics:
   - title: español version
     url: /es/linux/gedit.html
@@ -34,7 +34,7 @@ More information: <https://help.gnome.org/users/gedit/stable/>.
 
 - Open a text file with a specific encoding:
 
-`gedit --encoding=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`gedit --encoding `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Display a list of supported encodings:
 

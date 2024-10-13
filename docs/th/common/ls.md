@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (ไทย)
 description: "แสดงชื่อ ขนาด หรือข้อมูลเบื้องต้นของแต่ละไฟล์หรือโฟลเดอร์"
-content_hash: 04f0a11cce32bf3cb0ac48ba4cda313563ed19cd
-last_modified_at: 2023-11-12
+content_hash: 0696bcc3a9e6afefeb4c7d0431efb584e6234101
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -40,6 +43,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -88,7 +94,7 @@ tldri18n_status: 2
 
 - แสดงข้อมูลเบื้องต้นของไฟล์หรือโฟลเดอร์ (สิทธ์การเข้าถึง, ความเป็นเจ้าของ, ขนาด, และวันที่แก้ไขล่าสุด) โดยใช้ขนาดในการเรียงลำดับจากมากไปน้อย:
 
-`ls -lS`
+`ls -lSR`
 
 - แสดงข้อมูลเบื้องต้นของไฟล์หรือโฟลเดอร์ (สิทธ์การเข้าถึง, ความเป็นเจ้าของ, ขนาด, และวันที่แก้ไขล่าสุด) โดยใช้วันที่แก้ไขล่าสุดในการเรียงลำดับจากอายุมากไปน้อย:
 

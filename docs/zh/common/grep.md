@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (中文)
 description: "使用正则表达式查找文件中的模式。"
-content_hash: a51fec8b382364387e1865a7465ae6d6aca897c8
-last_modified_at: 2024-06-19
+content_hash: 923277649c02188e3c374ba669ef9c844791ff58
+last_modified_at: 2024-10-13
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/grep.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/grep.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/grep.html
     icon: bi bi-globe
@@ -37,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/grep.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/grep.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -55,7 +61,7 @@ tldri18n_status: 2
 
 - 在指定目录下的所有文件中递归地查找模式，显示匹配的行号并忽略二进制文件：
 
-`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式字符串</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>
+`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式字符串</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>
 
 - 使用大小写不敏感的扩展正则表达式（支持 `?`、`+`、`{}`、`()` 和 `|`）：
 

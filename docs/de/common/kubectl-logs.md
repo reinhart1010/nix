@@ -2,11 +2,14 @@
 layout: page
 title: common/kubectl-logs (Deutsch)
 description: "Logs für Container in einem Pod anzeigen."
-content_hash: 9b0ab5362ad52cbf6a5dd8a3cbbf32cc57c9a95b
-last_modified_at: 2023-11-12
+content_hash: b79638ae9b6e83abee7a1e4fd1a41c33a992497d
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/kubectl-logs.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/kubectl-logs.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -30,10 +33,6 @@ Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/k
 - Folge den Pod-Logs (stream):
 
 `kubectl logs --follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span>
-
-- Folge den Pod-Logs (stream) für einen bestimmten Container in einem Pod:
-
-`kubectl logs --follow --container `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span>
 
 - Zeige Pod-Logs die neuer einer relativen Zeit sind `10s`, `5m`, or `1h`:
 

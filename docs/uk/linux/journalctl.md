@@ -2,11 +2,14 @@
 layout: page
 title: linux/journalctl (українська)
 description: "Запити до журналу systemd."
-content_hash: ed95b6b28de0f675c4442b951507b7ee27a6d148
-last_modified_at: 2024-09-25
+content_hash: b591b461d2dd06470a46643f8870971568a6ef19
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/linux/journalctl.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/journalctl.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/journalctl.html
@@ -23,19 +26,19 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - Показати всі повідомлення з рівнем пріоритету 3 (помилки) від цього завантаження ([b]oot):
 
-`journalctl -b --priority=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
+`journalctl -b --priority=3`
 
 - Видалити записи журналу, які старіші за 2 дні:
 
-`journalctl --vacuum-time=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2d</span>
+`journalctl --vacuum-time=2d`
 
 - Слідкувати за новими повідомленнями (як `tail -f` для традиційного syslog):
 
-`journalctl -f`
+`journalctl --follow`
 
 - Показати всі повідомлення за конкретним блоком ([u]nit):
 
-`journalctl -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">блок</span>
+`journalctl --unit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">блок</span>
 
 - Фільтрувати повідомлення в межах діапазону часу (мітка часу або покажчики місця заповнення, як-от «вчора»):
 

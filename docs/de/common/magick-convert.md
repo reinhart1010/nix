@@ -2,8 +2,8 @@
 layout: page
 title: common/magick-convert (Deutsch)
 description: "ImageMagick Bildkonvertierungswerkzeug."
-content_hash: 24a1533b50cd9f90397af2b2563c0d127542354f
-last_modified_at: 2024-06-05
+content_hash: 07edb37d6ae7298fb280ad174dc88a4d26a12994
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/magick-convert.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/magick-convert.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/magick-convert.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/magick-convert.html
@@ -39,13 +42,9 @@ Weitere Informationen: <https://imagemagick.org/script/convert.php>.
 
 `magick convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span>` -resize 640x480 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild2.png</span>
 
-- Hänge Bilder horizontal aneinander:
+- Hänge Bilder vertikal/horizontal aneinander:
 
-`magick convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild1.png pfad/zu/bild2.png ...</span>` +append `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span>
-
-- Hänge Bilder vertikal aneinander:
-
-`magick convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild1.png pfad/zu/bild2.png ...</span>` -append `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span>
+`magick convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild1.png pfad/zu/bild2.png ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-append|+append</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span>
 
 - Erstelle ein animiertes GIF aus einer Serie von Bildern mit einer Verzögerung von 100 ms zwischen den Bildern:
 

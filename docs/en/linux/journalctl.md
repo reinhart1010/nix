@@ -2,9 +2,12 @@
 layout: page
 title: linux/journalctl (English)
 description: "Query the systemd journal."
-content_hash: ce4516f925797863cbed2f3660e0cbe45e9df4ba
-last_modified_at: 2024-09-25
+content_hash: 5a45cc09f1810e37beac68d12025873b9ca7ed3d
+last_modified_at: 2024-10-13
 related_topics:
+  - title: español version
+    url: /es/linux/journalctl.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/journalctl.html
     icon: bi bi-globe
@@ -20,11 +23,11 @@ More information: <https://manned.org/journalctl>.
 
 - Show all messages with priority level 3 (errors) from this [b]oot:
 
-`journalctl -b --priority=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
+`journalctl -b --priority=3`
 
 - Delete journal logs which are older than 2 days:
 
-`journalctl --vacuum-time=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2d</span>
+`journalctl --vacuum-time=2d`
 
 - Show only the last N li[n]es and [f]ollow new messages (like `tail -f` for traditional syslog):
 

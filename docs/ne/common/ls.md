@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (नेपाली)
 description: "एउटा डिरेक्टोरीमा भएका सबै वस्तुहरुको सुची देखाउँछ।"
-content_hash: 828d88c3e2ded815202fa552975e8df717477820
-last_modified_at: 2023-11-12
+content_hash: df5a28ec51bea543cd279f856b64e87c2284bd14
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -37,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -88,7 +94,7 @@ tldri18n_status: 2
 
 - लामो ढाँचामा फाइलहरू देखाउनुहोस् जुन साइज अनुसार क्रमबद्ध छन् (घट्दो क्रममा):
 
-`ls -lS`
+`ls -lSR`
 
 - सबै फाइलहरूलाई लामो ढाँचामा देखाउनुहोस् जुन परिमार्जन मितिद्वारा क्रमबद्ध गरिएको छ (सबैभन्दा पुरानो पहिलो):
 

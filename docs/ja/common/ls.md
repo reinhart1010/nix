@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (日本語)
 description: "ディレクトリの内容を一覧表示します。"
-content_hash: ab1e6678a3a88cc9852b726b5c6a66cbc1a81c0b
-last_modified_at: 2023-11-12
+content_hash: 4d7f42005dc6b8d1d3000f6f7509317c25969563
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -37,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -91,7 +97,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - サイズ順（降順）に並べた長い形式での一覧表示:
 
-`ls -lS`
+`ls -lSR`
 
 - すべてのファイルの長い形式でのリストで、更新日が古いものから順に表示されます:
 

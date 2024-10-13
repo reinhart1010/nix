@@ -2,8 +2,8 @@
 layout: page
 title: common/ghci (русский)
 description: "Интерактивная среда Glasgow Haskell Compiler."
-content_hash: b0aa0e41359ae1f0c9ebd4692850c9cad06cf7e4
-last_modified_at: 2023-11-12
+content_hash: abd59a08c406730e67e0bb51754463990cc310af
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/ghci.html
@@ -33,4 +33,4 @@ tldri18n_status: 2
 
 - Запустить REPL со списком папок, разделённых двоеточием, в которых нужно искать исходные файлы:
 
-`ghci -i`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки1</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки2</span>
+`ghci -i`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки1:путь/до/папки2:...</span>

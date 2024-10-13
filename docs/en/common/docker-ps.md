@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-ps (English)
 description: "List Docker containers."
-content_hash: d600e237bc5b23523b8f9b82cccff4c8dd86a6ca
-last_modified_at: 2024-09-08
+content_hash: 3d0b6854f313589776468efa07de0f8515240d6b
+last_modified_at: 2024-10-13
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-ps.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/docker-ps.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-ps.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-ps.html
@@ -52,7 +55,7 @@ More information: <https://docs.docker.com/reference/cli/docker/container/ls/>.
 
 - Filter containers by exit status code:
 
-`docker ps --all --filter="exited=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span>`"`
+`docker ps --all --filter "exited=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span>`"`
 
 - Filter containers by status (created, running, removing, paused, exited and dead):
 

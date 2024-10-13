@@ -2,14 +2,17 @@
 layout: page
 title: common/cmatrix (català)
 description: "Mostra una pantalla similar a la de Matrix en la terminal."
-content_hash: 2553bd65f0ded941341ff4b3a77bd41a76a48225
-last_modified_at: 2023-11-12
+content_hash: 9abcd9fe901ed3a1efcd19859a6f980aeac84b3f
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/cmatrix.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/cmatrix.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/cmatrix.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/cmatrix.html
@@ -33,6 +36,6 @@ Més informació: <https://github.com/abishekvashok/cmatrix>.
 
 `cmatrix -r`
 
-- Estableix el retràs d'actualització de la pantalla a 2 centrisegons (20 mil·lisegons):
+- Estableix el retràs d'actualització de la pantalla a 100 centrisegons (1 segons):
 
-`cmatrix -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>
+`cmatrix -u 100`

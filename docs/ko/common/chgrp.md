@@ -2,8 +2,8 @@
 layout: page
 title: common/chgrp (한국어)
 description: "파일 및 디렉토리의 그룹 소유권 변경."
-content_hash: fcf13d3ca2e44d7016f7b368d1ede1f4f8e02466
-last_modified_at: 2023-11-12
+content_hash: 2b16f24e4a93ad87dbdef798925e6e6215cb164f
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
@@ -38,4 +38,4 @@ tldri18n_status: 2
 
 - 참조 파일과 일치하도록 파일/디렉토리의 소유 그룹 변경:
 
-`chgrp --reference=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/참조_파일명</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명_또는_디렉토리명</span>
+`chgrp --reference `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/참조_파일명</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명_또는_디렉토리명</span>

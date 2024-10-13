@@ -2,8 +2,8 @@
 layout: page
 title: linux/poweroff (Indonesia)
 description: "Matikan sistem."
-content_hash: c1752a9a778403809fa6bb41bf2403b55406f12f
-last_modified_at: 2024-06-19
+content_hash: 125378dddcecc8bf6ba6f0648fedd38df8cdd07d
+last_modified_at: 2024-10-13
 related_topics:
   - title: català version
     url: /ca/linux/poweroff.html
@@ -44,7 +44,7 @@ Informasi lebih lanjut: <https://www.manned.org/poweroff>.
 
 - Matikan segera tanpa menghubungi manajer sistem:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Tulis entri wtmp shutdown tanpa mematikan sistem:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (português (Brasil))
 description: "Acha padrões em arquivos usando expressões regulares."
-content_hash: 024efce57b6c2c8a7de1c1242a954063ac4600ba
-last_modified_at: 2024-06-19
+content_hash: 152ae4eb902a60e0fd718f7016e69f46b5b81e6f
+last_modified_at: 2024-10-13
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/grep.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/grep.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/grep.html
     icon: bi bi-globe
@@ -34,6 +37,9 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/grep.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/grep.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/grep.html
@@ -55,7 +61,7 @@ Mais informações: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Pesquisa por um padrão em todos os arquivos recursivamente em um diretório, mostrando o número das linhas das correspondências, ignorando arquivos binários:
 
-`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_pesquisado</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
+`grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_pesquisado</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
 - Usa expressões regulares estendidas (suporta `?`, `+`, `{}`, `()` and `|`), no modo insensível a maiúsculas e minúsculas:
 

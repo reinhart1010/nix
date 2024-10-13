@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (中文)
 description: "列出目录中的内容。"
-content_hash: 534fd39c2255b6e501992bd47f18a5ceef63b078
-last_modified_at: 2023-11-12
+content_hash: c7a1327606ee9ab0a43a831ba5877335e8498852
+last_modified_at: 2024-10-13
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -40,6 +43,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
@@ -88,7 +94,7 @@ tldri18n_status: 2
 
 - 列出所有文件信息，按大小降序排序：
 
-`ls -lS`
+`ls -lSR`
 
 - 列出所有文件信息，按修改日期从旧到新排序：
 

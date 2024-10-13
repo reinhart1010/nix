@@ -2,8 +2,8 @@
 layout: page
 title: osx/softwareupdate (português (Portugal))
 description: "Ferramenta de atualização de aplicativos da App Store via linha de comandos."
-content_hash: abd621997a44fa7cdf3772e776c782317bcace1d
-last_modified_at: 2024-01-31
+content_hash: 33913aae9710a5d92ce484866f3ec96ec9b04831
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/osx/softwareupdate.html
@@ -28,7 +28,7 @@ Mais informações: <https://keith.github.io/xcode-man-pages/softwareupdate.8.ht
 
 - Descarrega e instala todas as atualizações recomendadas:
 
-`softwareupdate --install --req`
+`softwareupdate --install --recommended`
 
 - Descarrega e instala um aplicativo específico:
 
