@@ -1,14 +1,18 @@
 ---
 layout: page
 title: common/pnmtofits (English)
-description: "This command is superseded by `pamtofits`."
-content_hash: 0d74c88b8df863870b8209cd1492638944cb88a2
-last_modified_at: 2024-02-23
+description: "This command has been superseded by `pamtofits`."
+content_hash: 7182ae85fdf472c5ee077fd368b8cab004a2a83e
+last_modified_at: 2024-10-13
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/pnmtofits.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pnmtofits
 
-This command is superseded by `pamtofits`.
+This command has been superseded by `pamtofits`.
 More information: <https://netpbm.sourceforge.net/doc/pnmtofits.html>.
 
 - View documentation for the current command:

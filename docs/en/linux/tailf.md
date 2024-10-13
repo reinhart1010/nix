@@ -1,14 +1,21 @@
 ---
 layout: page
 title: linux/tailf (English)
-description: "This command is superseded by `tail -f`."
-content_hash: 7e3a1d3e188021bf80fb0d5c64fc6ee0c54529ab
-last_modified_at: 2024-01-24
+description: "This command has been superseded by `tail -f`."
+content_hash: 2e40c8e4dd46cca0986d6328e3ca9726c54100dc
+last_modified_at: 2024-10-13
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/tailf.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/tailf.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # tailf
 
-This command is superseded by `tail -f`.
+This command has been superseded by `tail -f`.
 More information: <https://manned.org/tailf.1>.
 
 - View documentation for the recommended replacement:

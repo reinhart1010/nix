@@ -2,8 +2,8 @@
 layout: page
 title: linux/betterlockscreen (中文)
 description: "简洁的锁屏程序。"
-content_hash: 8260a95178a1baba28e27dbb38f31bc43ef81b84
-last_modified_at: 2023-11-12
+content_hash: 74d157dabcc768eb4d3b1bc7cb398acce3b4c9a5
+last_modified_at: 2024-10-13
 related_topics:
   - title: English version
     url: /en/linux/betterlockscreen.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # betterlockscreen
 
 简洁的锁屏程序。
-更多信息：<https://github.com/pavanjadhaw/betterlockscreen>.
+更多信息：<https://github.com/betterlockscreen/betterlockscreen>.
 
 - 锁定屏幕：
 
