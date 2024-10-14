@@ -3,7 +3,7 @@ layout: page
 title: windows/del (中文)
 description: "删除一个或多个文件。"
 content_hash: 27cb7dad2966cca6b48de4e15f1f5a06fe5db900
-last_modified_at: 2024-10-13
+last_modified_at: 2024-10-14
 related_topics:
   - title: Deutsch version
     url: /de/windows/del.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/del.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># del
+# del
 
 删除一个或多个文件。
 在 PowerShell 中，此命令为 `Remove-Item` 的別名。本页的描述是基于命令提示符 (`cmd`) 中的 `del`。

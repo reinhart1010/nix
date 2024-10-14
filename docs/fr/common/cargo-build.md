@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-build (français)
 description: "Compile un paquet local et toutes ses dépendances."
 content_hash: 1f109a11c0b863ee1a5d6a34832a7f0acdd7fc62
-last_modified_at: 2024-10-13
+last_modified_at: 2024-10-14
 related_topics:
   - title: English version
     url: /en/common/cargo-build.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cargo-build.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo-build.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo build
+# cargo build
 
 Compile un paquet local et toutes ses dépendances.
 Plus d'informations : <https://doc.rust-lang.org/cargo/commands/cargo-build.html>.

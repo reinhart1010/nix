@@ -3,7 +3,7 @@ layout: page
 title: common/magick-convert (Deutsch)
 description: "ImageMagick Bildkonvertierungswerkzeug."
 content_hash: 07edb37d6ae7298fb280ad174dc88a4d26a12994
-last_modified_at: 2024-10-13
+last_modified_at: 2024-10-14
 related_topics:
   - title: English version
     url: /en/common/magick-convert.html
@@ -23,9 +23,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/magick-convert.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# magick convert
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># magick convert
 
 ImageMagick Bildkonvertierungswerkzeug.
 Weitere Informationen: <https://imagemagick.org/script/convert.php>.

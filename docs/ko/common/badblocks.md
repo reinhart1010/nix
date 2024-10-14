@@ -3,7 +3,7 @@ layout: page
 title: common/badblocks (한국어)
 description: "장치에서 불량 블록을 검색."
 content_hash: 18e3564a22e97bea3d1596db5a15ebb7532d5af0
-last_modified_at: 2024-10-13
+last_modified_at: 2024-10-14
 related_topics:
   - title: English version
     url: /en/common/badblocks.html
@@ -11,12 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/common/badblocks.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># badblocks
+# badblocks
 
 장치에서 불량 블록을 검색.
 일부 불량 블록 사용은 파티션 테이블을 포함해 디스크의 모든 데이터를 지우는 등 돌이킬 수 없는 작업 유발 가능.

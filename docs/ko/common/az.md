@@ -3,7 +3,7 @@ layout: page
 title: common/az (한국어)
 description: "Microsoft Azure의 공식 CLI tool입니다."
 content_hash: e7d8b18f967fbfce0487790039f22c44553aab7f
-last_modified_at: 2024-10-13
+last_modified_at: 2024-10-14
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/az.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az
+# az
 
 Microsoft Azure의 공식 CLI tool입니다.
 `login`과 같은 하위 명령어는 자체 사용법 문서가 존재.

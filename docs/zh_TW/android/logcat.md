@@ -3,7 +3,7 @@ layout: page
 title: android/logcat (中文 (繁體, 台灣))
 description: "轉存系統訊息日誌，包括發生錯誤時的堆疊追蹤信息，以及應用程序記錄的信息消息。"
 content_hash: 47f3574812116d19c93e588e732a1bec43ebe3e4
-last_modified_at: 2024-10-13
+last_modified_at: 2024-10-14
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -62,12 +62,9 @@ related_topics:
   - title: 中文 version
     url: /zh/android/logcat.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># logcat
+# logcat
 
 轉存系統訊息日誌，包括發生錯誤時的堆疊追蹤信息，以及應用程序記錄的信息消息。
 更多資訊：<https://developer.android.com/tools/logcat>.

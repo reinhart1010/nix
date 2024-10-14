@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (English)
 description: "Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation."
-content_hash: 769506df0e394064e9633bed3b34a43f37b73948
-last_modified_at: 2023-12-29
+content_hash: b48cd764cc7179bb82ecca5d271d61d41646b34e
+last_modified_at: 2024-10-14
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -64,7 +64,7 @@ More information: <https://www.vim.org>.
 
 - Save and quit the current buffer:
 
-`:wq<Enter>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter></span>
 
 - Enter normal mode and undo the last operation:
 
