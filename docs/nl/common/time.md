@@ -2,8 +2,8 @@
 layout: page
 title: common/time (Nederlands)
 description: "Meet hoe lang het uitvoeren van een commando duurt."
-content_hash: 22446cd1226a6ecf427e0974de105d89e7732a77
-last_modified_at: 2024-10-12
+content_hash: 8d08352fc13609167b54e4050ab2f7ce090c06e7
+last_modified_at: 2024-10-14
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -37,3 +37,7 @@ Meer informatie: <https://manned.org/time>.
 - Voer het `commando` uit en print de tijdmetingen naar `stdout`::
 
 `time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>
+
+- Maak een eenvoudige stopwatch (werkt alleen in Bash):
+
+`time read`

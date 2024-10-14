@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg (English)
 description: "Debian package manager."
-content_hash: 30374b35886e2e935da5001eda776a66fb2964e5
-last_modified_at: 2024-10-05
+content_hash: 45d70f78d1c9e593d1d5bede750fb2bfb9f28682
+last_modified_at: 2024-10-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
@@ -52,3 +52,7 @@ More information: <https://manned.org/dpkg>.
 - Find out which package owns a file:
 
 `dpkg -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Purge an installed or already removed package, including configuration:
+
+`dpkg -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

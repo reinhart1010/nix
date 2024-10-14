@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/base64 (Nederlands)
-description: "Encodeer en decodeer met behulp van Base64-representatie."
-content_hash: ab0513ccb6d0c4c6bfec165336396ea838ea88e4
-last_modified_at: 2024-10-13
+description: "Encodeer of decodeer een bestand of `stdin` van/naar base64, naar `stdout` of een ander bestand."
+content_hash: 4e95d53236610a3c09e22d0010ee589bca36d79a
+last_modified_at: 2024-10-14
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -33,21 +33,29 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># base64
 
-Encodeer en decodeer met behulp van Base64-representatie.
+Encodeer of decodeer een bestand of `stdin` van/naar base64, naar `stdout` of een ander bestand.
 Meer informatie: <https://keith.github.io/xcode-man-pages/base64.1.html>.
 
-- Encodeer een bestand:
+- Encodeer een bestand naar `stdout`:
 
-`base64 --input=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gewoon_bestand</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--input</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Decodeer een bestand:
+- Encodeer een bestand naar het opgegeven uitvoerbestand:
 
-`base64 --decode --input=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base64_bestand</span>
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--input</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer_bestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_bestand</span>
 
-- Encodeer vanaf `stdin`:
+- Wrap de uitvoer op een bepaalde breedte (`0` schakelt het uit):
 
-`echo -n "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">platte_tekst</span>`" | base64`
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-b|--break</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Decodeer vanaf `stdin`:
+- Decodeer een bestand naar `stdout`:
 
-`echo -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base64_tekst</span>` | base64 --decode`
+`base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--input</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+
+- Encodeer van `stdin` naar `stdout`:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>` | base64`
+
+- Decodeer vanaf `stdin` naar `stdout`:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>` | base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decode</span>

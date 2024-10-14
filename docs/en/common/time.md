@@ -2,8 +2,8 @@
 layout: page
 title: common/time (English)
 description: "Measure how long a command took to run."
-content_hash: 75f86bc837e21327b0c98324d5433b299e24d4a2
-last_modified_at: 2024-10-12
+content_hash: 4d2bbbe76afe36a446feae20bcb6dab3ea4973be
+last_modified_at: 2024-10-14
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -35,6 +35,6 @@ More information: <https://manned.org/time>.
 
 `time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Create a very simple stopwatch (only works in bash):
+- Create a very simple stopwatch (only works in Bash):
 
 `time read`
