@@ -3,7 +3,7 @@ layout: page
 title: linux/btrfs-device (한국어)
 description: "btrfs 파일 시스템에서 장치 관리."
 content_hash: ac0210a3adb8562a225d903bdd2ebe7d7408715f
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/linux/btrfs-device.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/btrfs-device.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/btrfs-device.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># btrfs device
+# btrfs device
 
 btrfs 파일 시스템에서 장치 관리.
 더 많은 정보: <https://btrfs.readthedocs.io/en/latest/btrfs-device.html>.

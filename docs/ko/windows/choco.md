@@ -3,7 +3,7 @@ layout: page
 title: windows/choco (한국어)
 description: "Chocolatey 패키지 관리자."
 content_hash: 6493ea68c0282b07dcbbb5a18664b4b64d7c6d30
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -41,18 +41,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/choco.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/choco.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># choco
+# choco
 
 Chocolatey 패키지 관리자.
 `install`과 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.

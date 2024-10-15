@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (polski)
 description: "Vim (Vi IMproved), edytor tekstu wiersza polecenia, oferuje kilka trybów dla różnych rodzajów manipulacji tekstem."
-content_hash: acf19561fecf60e51be30056bd806490d87bf98e
-last_modified_at: 2024-01-02
+content_hash: debbd7f35305b976fbb2163ccd1a639a094ed2de
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -63,7 +63,7 @@ Więcej informacji: <https://www.vim.org>.
 
 - Wyjdź bez zapisywania:
 
-`:wq<Enter>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter></span>
 
 - Cofnij ostatnią operację:
 

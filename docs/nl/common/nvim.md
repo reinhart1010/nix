@@ -2,8 +2,8 @@
 layout: page
 title: common/nvim (Nederlands)
 description: "Neovim, een programmeurs tekstbewerker gebaseerd op Vim, welke verschillende modi aanbied voor verschillende soorten text manipulatie."
-content_hash: a4111e09cd269f2e03309ea884a6a6385a9f3c9e
-last_modified_at: 2023-11-27
+content_hash: fd30399ab36fdd765d82778aed7da7cea93febcf
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/common/nvim.html
@@ -52,7 +52,7 @@ Meer informatie: <https://neovim.io>.
 
 - Ga naar de normale modus, sla (write) het bestand op en sluit af:
 
-`<Esc>:wq<Enter>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:wq<Enter></span>
 
 - Sluit af zonder op te slaan:
 

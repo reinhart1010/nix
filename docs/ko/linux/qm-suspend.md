@@ -3,23 +3,14 @@ layout: page
 title: linux/qm-suspend (한국어)
 description: "Proxmox Virtual Environment (PVE)에서 가상 머신(VM)을 일시 중단합니다."
 content_hash: fc1b5610d304e3775a6dc6fe0d9928756e0c9c50
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/linux/qm-suspend.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/qm-suspend.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qm suspend
+# qm suspend
 
 Proxmox Virtual Environment (PVE)에서 가상 머신(VM)을 일시 중단합니다.
 `--skiplock` 및 `--skiplockstorage` 플래그는 데이터 손상을 초래할 수 있으므로 주의해서 사용해야 합니다.

@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (한국어)
 description: "Vim (Vi IMproved)는 커맨드 라인 텍스트 에디터로 다양한 종류의 텍스트 조작을 위해 여러 모드를 지원합니다."
-content_hash: de80d1473b3046f4ccd5d38c98803a389286c65e
-last_modified_at: 2023-11-12
+content_hash: cf638d95cee80ca22ff3a068351f831d3748b51b
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -63,11 +63,11 @@ Vim (Vi IMproved)는 커맨드 라인 텍스트 에디터로 다양한 종류의
 
 - 저장하고 종료:
 
-`:wq<Enter>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter></span>
 
 - 실행취소:
 
-`u`
+`<Esc>u`
 
 - 파일에서 패턴 검색 (`n`/`N` 을 눌러 다음/이전 항목으로 이동):
 

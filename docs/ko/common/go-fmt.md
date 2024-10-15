@@ -3,7 +3,7 @@ layout: page
 title: common/go-fmt (한국어)
 description: "Go 소스 파일을 포맷하고 변경된 파일 이름을 출력합니다."
 content_hash: be5703495e1b846e14df0244cfed49b91ce0b62a
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/common/go-fmt.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/go-fmt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/go-fmt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># go fmt
+# go fmt
 
 Go 소스 파일을 포맷하고 변경된 파일 이름을 출력합니다.
 더 많은 정보: <https://pkg.go.dev/cmd/go#hdr-Gofmt__reformat__package_sources>.

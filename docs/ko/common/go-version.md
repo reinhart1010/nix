@@ -3,7 +3,7 @@ layout: page
 title: common/go-version (한국어)
 description: "Go 버전을 표시."
 content_hash: eef36ead33f3f1c3f0a9e8eb01c8768fbb63bd67
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/common/go-version.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/go-version.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/go-version.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># go version
+# go version
 
 Go 버전을 표시.
 더 많은 정보: <https://golang.org/cmd/go/#hdr-Print_Go_version>.

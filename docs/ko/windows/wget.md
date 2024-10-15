@@ -3,7 +3,7 @@ layout: page
 title: windows/wget (한국어)
 description: "원래 `wget` 프로그램 (<https://www.gnu.org/software/wget>)이 제대로 설치되지 않은 경우, PowerShell에서는 이 명령이 `Invoke-WebRequest`의 별칭일 수 있습니다."
 content_hash: 45d36e482300e37e52d0a9ef1aafc9b16ee909c6
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: বাংলা version
     url: /bn/windows/wget.html
@@ -29,18 +29,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/wget.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/wget.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wget
+# wget
 
 원래 `wget` 프로그램 (<https://www.gnu.org/software/wget>)이 제대로 설치되지 않은 경우, PowerShell에서는 이 명령이 `Invoke-WebRequest`의 별칭일 수 있습니다.
 참고: 버전 명령어가 오류를 반환하는 경우, PowerShell이 이 명령을 `Invoke-WebRequest`로 대체할 수 있습니다.

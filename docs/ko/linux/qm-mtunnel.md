@@ -3,23 +3,14 @@ layout: page
 title: linux/qm-mtunnel (한국어)
 description: "`qmigrate`에서 사용."
 content_hash: 21e10656d7ebe1e33f8afa21febcab79b04316ad
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/linux/qm-mtunnel.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/qm-mtunnel.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qm mtunnel
+# qm mtunnel
 
 `qmigrate`에서 사용.
 수동으로 호출해서는 안 됨.

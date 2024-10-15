@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacstall (English)
 description: "An AUR package manager for Ubuntu."
-content_hash: ba656d354a14ba0ac87a722d05142854888b8e4d
-last_modified_at: 2023-11-12
+content_hash: a8e1a83e942d1a406708002a1b5b0daac45e651e
+last_modified_at: 2024-10-15
 tldri18n_status: 2
 ---
 # pacstall
@@ -37,7 +37,7 @@ More information: <https://github.com/pacstall/pacstall>.
 
 - Display information about a package:
 
-`pacstall --query-info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`pacstall --cache-info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - List all installed packages:
 

@@ -3,7 +3,7 @@ layout: page
 title: common/go-doc (한국어)
 description: "패키지나 심볼에 대한 문서 보기."
 content_hash: 37733e3ffdd41827b76e09a1b9d0869ee515aef8
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/common/go-doc.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/go-doc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/go-doc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># go doc
+# go doc
 
 패키지나 심볼에 대한 문서 보기.
 더 많은 정보: <https://golang.org/cmd/go/#hdr-Show_documentation_for_package_or_symbol>.

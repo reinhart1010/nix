@@ -3,7 +3,7 @@ layout: page
 title: common/magick (한국어)
 description: "이미지 형식 간 변환, 편집, 합성 또는 변환."
 content_hash: ceca22c5e7434cf9a57b194d8cc1f1f9069d6f56
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/common/magick.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/magick.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/magick.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># magick
+# magick
 
 이미지 형식 간 변환, 편집, 합성 또는 변환.
 이 도구는 ImageMagick 7+에서 `convert`를 대체합니다. 7+ 버전에서 이전 도구를 사용하려면 `magick convert`를 참조하세요.

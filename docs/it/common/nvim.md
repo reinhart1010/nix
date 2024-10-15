@@ -2,8 +2,8 @@
 layout: page
 title: common/nvim (italiano)
 description: "Neovim, un editor di testo basato su Vim che offre molti diversi modi di manipolare e navigare il testo."
-content_hash: 3dc97fe29fdd963dc24c3d32597118b9c53dd9fd
-last_modified_at: 2023-12-29
+content_hash: 81862d5cacefee397ac62a5352523ef020b9df39
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/common/nvim.html
@@ -51,7 +51,7 @@ Maggiori informazioni: <https://neovim.io>.
 
 - Salvare (scrivere) il file per poi uscire:
 
-`<Esc>:wq<Enter>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:wq<Enter></span>
 
 - Uscire senza salvare:
 

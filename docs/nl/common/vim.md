@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (Nederlands)
 description: "Vim (Vi IMproved), een command-line tekst bewerker, geeft toegang tot verschillende manieren van tekst manipulatie."
-content_hash: 601856a4de6e6053f5843fe215e5d26ca1a9e3c8
-last_modified_at: 2024-06-19
+content_hash: 825393149eb635d8db3c12ce5106e898dbc3c322
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -64,7 +64,7 @@ Meer informatie: <https://www.vim.org>.
 
 - Opslaan en afsluiten:
 
-`:wq<Enter>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter></span>
 
 - Terug naar normale modues en maak de laatste verandering ongedaan:
 

@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-outdated (한국어)
 description: "Chocolatey를 사용하여 업데이트가 필요한 패키지 확인."
 content_hash: 3d31961b87b01a25e7acb759fc07afcf5813ee50
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-outdated.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-outdated.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/choco-outdated.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># choco outdated
+# choco outdated
 
 Chocolatey를 사용하여 업데이트가 필요한 패키지 확인.
 더 많은 정보: <https://chocolatey.org/docs/commands-outdated>.

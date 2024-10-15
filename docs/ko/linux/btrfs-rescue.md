@@ -3,7 +3,7 @@ layout: page
 title: linux/btrfs-rescue (한국어)
 description: "손상된 btrfs 파일 시스템 복구 시도."
 content_hash: 39676bac0b8fe68f7e37478fd10f651def3fe806
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/linux/btrfs-rescue.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/btrfs-rescue.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/btrfs-rescue.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># btrfs rescue
+# btrfs rescue
 
 손상된 btrfs 파일 시스템 복구 시도.
 더 많은 정보: <https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html>.

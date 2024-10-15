@@ -3,23 +3,14 @@ layout: page
 title: linux/qm (한국어)
 description: "QEMU/KVM 가상 머신 관리자."
 content_hash: 5ddf4f79a6ee0ac0f80a9020bac96a4cca6875c0
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/linux/qm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/qm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qm
+# qm
 
 QEMU/KVM 가상 머신 관리자.
 `list`, `start`, `stop`, `clone` 등의 일부 하위 명령에는 자체 사용 설명서가 있습니다.

@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (中文)
 description: "Vi IMproved，一个程序员的文本编辑器，提供为不同类型的文档修改设计的多种模式。"
-content_hash: 3a9a088cb41148c98d3a88e4ed19d7ce787152f8
-last_modified_at: 2023-11-12
+content_hash: ec312940fe94426539de797de767bef12a274ecb
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -63,11 +63,11 @@ Vi IMproved，一个程序员的文本编辑器，提供为不同类型的文档
 
 - 保存并退出：
 
-`:wq<Enter>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter></span>
 
 - 撤销上一个操作：
 
-`u`
+`<Esc>u`
 
 - 用特征（pattern）在文件中搜寻，按下 `n`/`N` 切换至上 / 下一个结果：
 

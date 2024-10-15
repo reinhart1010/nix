@@ -2,14 +2,17 @@
 layout: page
 title: common/nvim (Indonesia)
 description: "Neovim, teks editor programmer berbasis Vim, menyediakan beberapa mode untuk manipulasi teks berbeda jenis."
-content_hash: 0579d8e3a0aa2595c5dfec676b8ec2927913bbaf
-last_modified_at: 2023-11-12
+content_hash: 9e31579beb28547cf083d3cc19b8db28b53d8ce0
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/common/nvim.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/nvim.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/nvim.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/nvim.html
@@ -48,7 +51,7 @@ Informasi lebih lanjut: <https://neovim.io>.
 
 - Menyimpan (write) berkas, dan keluar:
 
-`<Esc>:wq<Enter>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:wq<Enter></span>
 
 - Keluar tanpa menyimpan:
 

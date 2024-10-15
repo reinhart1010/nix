@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (español)
 description: "Vim (Vi IMproved), un editor de texto para la línea de comandos, que proporciona varios modos para diferentes tipos de manipulación de texto."
-content_hash: 8a820e16d5d77fa06aef5588fbb93ec4e65b06bc
-last_modified_at: 2024-01-07
+content_hash: 994265ff9600eb4bfbf7b9cc329cae77f7e1f7ae
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -63,7 +63,7 @@ Más información: <https://www.vim.org>.
 
 - Guarda y sale:
 
-`:wq<Enter>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter></span>
 
 - Deshaz la última operación:
 

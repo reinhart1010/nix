@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-pack (한국어)
 description: "NuGet 사양을 `nupkg` 파일로 패키징."
 content_hash: 8b1a03d461f8ffdcbbdb7e3fec32318540fb3e8b
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-pack.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-pack.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/choco-pack.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># choco pack
+# choco pack
 
 NuGet 사양을 `nupkg` 파일로 패키징.
 더 많은 정보: <https://chocolatey.org/docs/commands-pack>.

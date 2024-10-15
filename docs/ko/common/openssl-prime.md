@@ -3,23 +3,14 @@ layout: page
 title: common/openssl-prime (한국어)
 description: "소수를 계산하기 위한 OpenSSL 명령어."
 content_hash: ac5a637eca4534f65c9c2aaf36571d03a035d986
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/common/openssl-prime.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/openssl-prime.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># openssl prime
+# openssl prime
 
 소수를 계산하기 위한 OpenSSL 명령어.
 더 많은 정보: <https://www.openssl.org/docs/manmaster/man1/openssl-prime.html>.

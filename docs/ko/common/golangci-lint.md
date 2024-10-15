@@ -3,7 +3,7 @@ layout: page
 title: common/golangci-lint (한국어)
 description: "병렬 처리, 스마트하고 빠른 Go 린터 실행 도구로 주요 IDE와 통합되며 YAML 구성을 지원합니다."
 content_hash: 62df22d2ca820afc326cebcab4ae611ab79cf9f8
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/common/golangci-lint.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/golangci-lint.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/golangci-lint.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># golangci-lint
+# golangci-lint
 
 병렬 처리, 스마트하고 빠른 Go 린터 실행 도구로 주요 IDE와 통합되며 YAML 구성을 지원합니다.
 더 많은 정보: <https://golangci-lint.run/welcome/quick-start/>.

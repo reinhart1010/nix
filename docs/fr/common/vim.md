@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (français)
 description: "Vim (Vi IMproved), un éditeur de texte en ligne de commandes, fournit plusieurs modes pour différentes manipulations de texte."
-content_hash: fd21fda67493d70f001b027ae76a96b0775b4708
-last_modified_at: 2023-11-12
+content_hash: c89e4dab4b95c5699652e39428af895331c75779
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -63,11 +63,11 @@ Plus d'informations : <https://www.vim.org>.
 
 - Sauvegarder et fermer :
 
-`:wq<Entrée>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Entrée></span>
 
 - Annuler la dernière opération :
 
-`u`
+`<Esc>u`
 
 - Rechercher un motif dans un fichier (appuyez `n`/`N` pour aller à la prochaine / précédente occurrence) :
 

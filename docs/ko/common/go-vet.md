@@ -3,7 +3,7 @@ layout: page
 title: common/go-vet (한국어)
 description: "Go 소스 코드를 검사하고 의심스러운 구조를 보고합니다 (예: Go 소스 파일을 린트)."
 content_hash: fdee91c82ba0fbdee3007a196812680c6c8081e6
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/common/go-vet.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/go-vet.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/go-vet.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># go vet
+# go vet
 
 Go 소스 코드를 검사하고 의심스러운 구조를 보고합니다 (예: Go 소스 파일을 린트).
 문제가 발견되면 go vet는 0이 아닌 종료 코드를 반환하고, 문제가 없으면 0 종료 코드를 반환합니다.

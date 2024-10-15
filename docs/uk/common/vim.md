@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (українська)
 description: "Vim (Vi IMproved), консольний текстовий редактор, надає різні режими для різних маніпуляцій над текстом."
-content_hash: c027d0ce4bdf35ccf006f60fa28d7edb1d20094b
-last_modified_at: 2023-11-12
+content_hash: 48b4413c55fb530abd60a318f8fbae8998a8cb7d
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -63,11 +63,11 @@ Vim (Vi IMproved), консольний текстовий редактор, н�
 
 - Зберегти і вийти:
 
-`:wq<Enter>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter></span>
 
 - Анулювати (undo) останню операцію:
 
-`u`
+`<Esc>u`
 
 - Знайти паттерн у файлі (натисніть `n`/`N` щоб перейти до наступного/попереднього збігу):
 

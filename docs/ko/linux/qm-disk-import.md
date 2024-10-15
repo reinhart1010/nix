@@ -3,7 +3,7 @@ layout: page
 title: linux/qm-disk-import (한국어)
 description: "디스크 이미지를 가상 머신에 비사용 디스크로 가져오기."
 content_hash: f71c36407937fdc6573bcc32398ec807b0e583b7
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/linux/qm-disk-import.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/qm-disk-import.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/qm-disk-import.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qm disk import
+# qm disk import
 
 디스크 이미지를 가상 머신에 비사용 디스크로 가져오기.
 `qemu-img`에서 지원하는 이미지 형식(raw, qcow2, qed, vdi, vmdk, vhd)을 사용해야 함.

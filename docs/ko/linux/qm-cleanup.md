@@ -3,23 +3,14 @@ layout: page
 title: linux/qm-cleanup (한국어)
 description: "QEMU/KVM 가상 머신 관리자에서 tap 장치, VGPU 등과 같은 리소스를 정리."
 content_hash: b3466f9e1be38ecefb6299de30fac2065848e5e4
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/linux/qm-cleanup.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/qm-cleanup.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qm cleanup
+# qm cleanup
 
 QEMU/KVM 가상 머신 관리자에서 tap 장치, VGPU 등과 같은 리소스를 정리.
 VM 종료, 충돌 후 호출됩니다.

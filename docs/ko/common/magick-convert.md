@@ -3,7 +3,7 @@ layout: page
 title: common/magick-convert (한국어)
 description: "이미지 형식 간 변환, 크기 조정, 병합, 생성 등을 수행."
 content_hash: 920adbfac6b64f4cc737bff7f85574364a00c5bc
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/magick-convert.html
@@ -23,12 +23,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/magick-convert.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># magick convert
+# magick convert
 
 이미지 형식 간 변환, 크기 조정, 병합, 생성 등을 수행.
 참고: 이 도구는 이전의 `convert`로, ImageMagick 7+에서 `magick`으로 대체되었습니다.

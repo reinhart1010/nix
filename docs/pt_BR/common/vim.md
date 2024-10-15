@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (português (Brasil))
 description: "Vim (Vi IMproved), é um editor de texto em linha de comando, que fornece muitos modos para diferentes tipos de manipulação de texto."
-content_hash: 47d8862adf579f2f468d54dce4aaf63c4c0ad9ff
-last_modified_at: 2023-12-29
+content_hash: ea4ed2b0873f169a731255a920f85499420dc1d4
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -63,7 +63,7 @@ Mais informações: <https://www.vim.org>.
 
 - Salva e sai do arquivo atual:
 
-`:wq<Enter>`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter></span>
 
 - Entra em modo normal e desfaz a última operação:
 

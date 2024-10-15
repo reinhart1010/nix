@@ -3,7 +3,7 @@ layout: page
 title: common/go-list (한국어)
 description: "패키지 또는 모듈 나열."
 content_hash: 5b6e6bed762f22d22d05512f519515714cbd3e17
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/common/go-list.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/go-list.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/go-list.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># go list
+# go list
 
 패키지 또는 모듈 나열.
 더 많은 정보: <https://golang.org/cmd/go/#hdr-List_packages_or_modules>.

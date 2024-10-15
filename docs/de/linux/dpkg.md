@@ -3,7 +3,7 @@ layout: page
 title: linux/dpkg (Deutsch)
 description: "Debian Paketmanager."
 content_hash: eef498d4b9c9fd111c99e17d2a4de58a539030bb
-last_modified_at: 2024-10-05
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/linux/dpkg.html
@@ -20,9 +20,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dpkg.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# dpkg
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dpkg
 
 Debian Paketmanager.
 Manche Unterbefehle wie `deb` sind separat dokumentiert.

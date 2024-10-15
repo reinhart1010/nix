@@ -3,7 +3,7 @@ layout: page
 title: common/time (Nederlands)
 description: "Meet hoe lang het uitvoeren van een commando duurt."
 content_hash: 8d08352fc13609167b54e4050ab2f7ce090c06e7
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -23,12 +23,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/time.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># time
+# time
 
 Meet hoe lang het uitvoeren van een commando duurt.
 Let op: `time` kan ofwel bestaan als een shell builtin, een op zichzelf staand programma of beide.

@@ -3,7 +3,7 @@ layout: page
 title: linux/dpkg (italiano)
 description: "Gestore di pacchetti Debian."
 content_hash: 03fb41ffd77adb80d0d0e388ae3c2fa140685a3e
-last_modified_at: 2024-10-05
+last_modified_at: 2024-10-15
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
@@ -20,9 +20,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dpkg.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# dpkg
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dpkg
 
 Gestore di pacchetti Debian.
 Alcuni comandi aggiuntivi, come `deb`, hanno la propria documentazione.

@@ -3,7 +3,7 @@ layout: page
 title: osx/base64 (Nederlands)
 description: "Encodeer of decodeer een bestand of `stdin` van/naar base64, naar `stdout` of een ander bestand."
 content_hash: 4e95d53236610a3c09e22d0010ee589bca36d79a
-last_modified_at: 2024-10-14
+last_modified_at: 2024-10-15
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/base64.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># base64
+# base64
 
 Encodeer of decodeer een bestand of `stdin` van/naar base64, naar `stdout` of een ander bestand.
 Meer informatie: <https://keith.github.io/xcode-man-pages/base64.1.html>.
