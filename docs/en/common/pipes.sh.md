@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/pipes.sh (English)
-description: "A bash script which draws randomly pathed pipes over the terminal."
-content_hash: f0b29639dc450704288f56384e6e62f2115f2007
-last_modified_at: 2024-03-07
+description: "A Bash script which draws randomly pathed pipes over the terminal."
+content_hash: 2823dcc7908edfcf219955b07cd41b9e54d4e0ca
+last_modified_at: 2024-10-15
 tldri18n_status: 2
 ---
 # pipes.sh
 
-A bash script which draws randomly pathed pipes over the terminal.
+A Bash script which draws randomly pathed pipes over the terminal.
 More information: <https://github.com/pipeseroni/pipes.sh>.
 
 - Change the pa[t]tern of the pipes:
