@@ -2,8 +2,8 @@
 layout: page
 title: common/gcrane (English)
 description: "Container images managing tool."
-content_hash: 9d38d4571a20a4e022cecdbe11159603f562e505
-last_modified_at: 2024-10-04
+content_hash: 9ed9d77a9c428801535e622a487583ed18d028f8
+last_modified_at: 2024-10-16
 tldri18n_status: 2
 ---
 # gcrane
@@ -32,7 +32,7 @@ More information: <https://github.com/google/go-containerregistry/blob/main/cmd/
 
 - Enable debug logs:
 
-`gcrane `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose} `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
+`gcrane `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
 - Display help:
 

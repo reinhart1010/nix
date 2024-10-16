@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (中文)
 description: "管理 Docker 容器和镜像。"
-content_hash: ca16d465a29f4be40e22636bb8696468bbdf60ed
-last_modified_at: 2024-10-05
+content_hash: 5bacf5960261082c5a56105ad92a18ff56e81eae
+last_modified_at: 2024-10-16
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -68,7 +68,11 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">镜像</span>
 
-- 从正在运行的容器内打开一个 shell：
+- 显示已下载的镜像清单：
+
+`docker images`
+
+- 从正在运行的容器内打开一个交互式 ([i]nteractive) 终端 ([t]ty) shell (`sh`)：
 
 `docker exec -it `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">容器名称</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span>
 

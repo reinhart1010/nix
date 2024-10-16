@@ -2,8 +2,8 @@
 layout: page
 title: common/warp-cli (Indonesia)
 description: "Program command-line resmi untuk layanan Cloudflare WARP."
-content_hash: 5f0bf0869a3b74ce21bf2dadfe544d28764c7327
-last_modified_at: 2024-09-28
+content_hash: 64874f1e9832e9c6b92aa0eaf6ce5621f7ce34b3
+last_modified_at: 2024-10-16
 related_topics:
   - title: English version
     url: /en/common/warp-cli.html
@@ -19,7 +19,7 @@ Informasi lebih lanjut: <https://developers.cloudflare.com/warp-client/>.
 
 - Daftarkan perangkat ini ke dalam jaringan WARP (harus dijalankan pada pertama kali):
 
-`warp-cli register`
+`warp-cli registration new`
 
 - Hubungkan perangkat ini ke dalam jaringan WARP:
 

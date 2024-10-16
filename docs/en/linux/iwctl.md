@@ -2,8 +2,8 @@
 layout: page
 title: linux/iwctl (English)
 description: "Control the `iwd` network supplicant."
-content_hash: bb0c2358cc72df42ec1e505b7ad740f621f2c8d7
-last_modified_at: 2023-11-12
+content_hash: 7688f16e3c697091dfde366bfaedf04787fceccc
+last_modified_at: 2024-10-16
 related_topics:
   - title: français version
     url: /fr/linux/iwctl.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # iwctl
 
 Control the `iwd` network supplicant.
-More information: <https://iwd.wiki.kernel.org/gettingstarted>.
+More information: <https://archive.kernel.org/oldwiki/iwd.wiki.kernel.org/gettingstarted.html>.
 
 - Start the interactive mode, in this mode you can enter the commands directly, with autocompletion:
 

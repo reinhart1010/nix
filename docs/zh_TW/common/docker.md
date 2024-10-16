@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (中文 (繁體, 台灣))
 description: "管理 Docker 容器和映像檔。"
-content_hash: 100ac89cba6560428e83f336ea78d3b2bfead85f
-last_modified_at: 2024-10-05
+content_hash: da3ed827bc48b226bb5823bcd4c33eb07032dcbe
+last_modified_at: 2024-10-16
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -68,7 +68,11 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">映像檔</span>
 
-- 從正在運行的容器內打開一個 shell：
+- 顯示已下載的映像檔清單：
+
+`docker images`
+
+- 從正在運行的容器內打開一個互動式 ([i]nteractive) 终端 ([t]ty) shell (`sh`)：
 
 `docker exec -it `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">容器名稱</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span>
 

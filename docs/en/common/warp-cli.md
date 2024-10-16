@@ -2,8 +2,8 @@
 layout: page
 title: common/warp-cli (English)
 description: "Connect, disconnect and switch modes of a connection to Cloudflare's WARP service."
-content_hash: c649ad1dd54ae017239c5965bf30c8a2a55b741a
-last_modified_at: 2024-09-27
+content_hash: 60dcfe3d3fcb7be2716d900151ff91adef4fd7b9
+last_modified_at: 2024-10-16
 related_topics:
   - title: Indonesia version
     url: /id/common/warp-cli.html
@@ -19,7 +19,7 @@ More information: <https://developers.cloudflare.com/warp-client/>.
 
 - Register the current device to WARP (must be run before first connection):
 
-`warp-cli register`
+`warp-cli registration new`
 
 - Connect to WARP:
 
