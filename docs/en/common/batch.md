@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/batch (English)
-description: "Execute commands at a later time when the system load levels permit."
-content_hash: fb49528253d59963c199192731f0984795c9fb45
-last_modified_at: 2024-02-19
+description: "This command is an alias of `at`."
+content_hash: dd3c11e06e2592646920d2df038493abbe2dd9e0
+last_modified_at: 2024-10-16
 related_topics:
   - title: italiano version
     url: /it/common/batch.html
@@ -21,18 +21,8 @@ tldri18n_status: 2
 ---
 # batch
 
-Execute commands at a later time when the system load levels permit.
-Service atd (or atrun) should be running for the actual executions.
-More information: <https://manned.org/batch>.
+This command is an alias of `at`.
 
-- Execute commands from `stdin` (press `Ctrl + D` when done):
+- View documentation for the original command:
 
-`batch`
-
-- Execute a command from `stdin`:
-
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span>`" | batch`
-
-- Execute commands from a given [f]ile:
-
-`batch -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`tldr at`

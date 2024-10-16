@@ -1,0 +1,59 @@
+---
+layout: page
+title: common/dust (한국어)
+description: "Dust는 어떤 디렉토리가 디스크 공간을 사용하고 있는지에 대한 즉각적인 개요를 제공."
+content_hash: 73a0203472cae09dd63e2e9f560db6df942f0f26
+last_modified_at: 2024-10-16
+related_topics:
+  - title: Deutsch version
+    url: /de/common/dust.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/dust.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/dust.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/dust.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># dust
+
+Dust는 어떤 디렉토리가 디스크 공간을 사용하고 있는지에 대한 즉각적인 개요를 제공.
+더 많은 정보: <https://github.com/bootandy/dust>.
+
+- 현재 디렉토리에 대한 정보 표시:
+
+`dust`
+
+- 하나 이상의 디렉토리에 대한 정보를 표시:
+
+`dust `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리1 경로/대상/디렉터리2 ...</span>
+
+- 30개 디렉터리 표시 (기본값은 21):
+
+`dust --number-of-lines `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span>
+
+- 현재 디렉토리에 대한 정보를, 최대 3단계까지 표시:
+
+`dust --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
+
+- 가장 큰 디렉토리를 내림차순으로 맨 위에 표시:
+
+`dust --reverse`
+
+- 특정 이름을 가진 모든 파일과 디렉터리를 무시:
+
+`dust --ignore-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_또는_디렉터리_이름</span>
+
+- 백분율 막대 및 백분율을 표시하지 않음:
+
+`dust --no-percent-bars`

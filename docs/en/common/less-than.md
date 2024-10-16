@@ -2,8 +2,8 @@
 layout: page
 title: common/less-than (English)
 description: "Redirect data to `stdin`."
-content_hash: 48c706545ccd584cfb5340b9258f4b7878301090
-last_modified_at: 2024-10-12
+content_hash: 83d5884d656f18e3f1b7464ba8dacba190924f0b
+last_modified_at: 2024-10-16
 tldri18n_status: 2
 ---
 # Less than
@@ -19,6 +19,6 @@ More information: <https://gnu.org/software/bash/manual/bash.html#Redirecting-In
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` << `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">EOF</span>` <Enter> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">multiline_data</span>` <Enter> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">EOF</span>
 
-- Create a here string and pass that into `stdin`:
+- Create a here string and pass that into `stdin` (achieves the same effect as `echo string |`):
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` <<< `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>

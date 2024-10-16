@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/cryptsetup (English)
-description: "Manage plain dm-crypt and LUKS (Linux Unified Key Setup) encrypted volumes."
-content_hash: 533f83f4fa2e2e3636b6cc525921840cbad6bc62
-last_modified_at: 2023-11-12
+description: "Manage plain `dm-crypt` and LUKS (Linux Unified Key Setup) encrypted volumes."
+content_hash: 44aded2f59282f5d5bfbe6c077691d6bad25df41
+last_modified_at: 2024-10-16
 related_topics:
   - title: 中文 version
     url: /zh/linux/cryptsetup.html
@@ -12,21 +12,26 @@ tldri18n_status: 2
 ---
 # cryptsetup
 
-Manage plain dm-crypt and LUKS (Linux Unified Key Setup) encrypted volumes.
-More information: <https://gitlab.com/cryptsetup/cryptsetup/>.
+Manage plain `dm-crypt` and LUKS (Linux Unified Key Setup) encrypted volumes.
+Some subcommands such as `luksFormat` have their own usage documentation.
+More information: <https://manned.org/cryptsetup>.
 
-- Initialize a LUKS volume (overwrites all data on the partition):
+- Initialize a LUKS volume with a passphrase (overwrites all data on the partition):
 
-`cryptsetup luksFormat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span>
+`cryptsetup luksFormat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span>
 
-- Open a LUKS volume and create a decrypted mapping at `/dev/mapper/target`:
+- Open a LUKS volume and create a decrypted mapping at `/dev/mapper/mapping_name`:
 
-`cryptsetup luksOpen `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span>
+`cryptsetup open `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span>
+
+- Display information about a mapping:
+
+`cryptsetup status `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span>
 
 - Remove an existing mapping:
 
-`cryptsetup luksClose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span>
+`cryptsetup close `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span>
 
-- Change the LUKS volume's passphrase:
+- Change a LUKS volume's passphrase:
 
-`cryptsetup luksChangeKey `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span>
+`cryptsetup luksChangeKey `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span>

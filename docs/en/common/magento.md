@@ -2,14 +2,14 @@
 layout: page
 title: common/magento (English)
 description: "Manage the Magento PHP framework."
-content_hash: 7161775611b790fe82b7c9208ff531b30c9df592
-last_modified_at: 2024-01-31
+content_hash: 0b6a314b80c3d1eef91897b4262ab1662addbe02
+last_modified_at: 2024-10-16
 tldri18n_status: 2
 ---
 # magento
 
 Manage the Magento PHP framework.
-More information: <https://magento.com>.
+More information: <https://experienceleague.adobe.com/en/docs/commerce-operations/tools/cli-reference/commerce-on-premises>.
 
 - Enable one or more modules:
 

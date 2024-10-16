@@ -2,8 +2,12 @@
 layout: page
 title: common/gcloud-container (English)
 description: "Manage containerized applications on Kubernetes and clusters."
-content_hash: e5240b03b7582d3e86d903f29b3e5400a9bd2079
-last_modified_at: 2024-01-09
+content_hash: 607ddcf94d2b222e43db94a2ca8eb5c77f959782
+last_modified_at: 2024-10-16
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/gcloud-container.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # gcloud container
@@ -31,3 +35,7 @@ More information: <https://cloud.google.com/sdk/gcloud/reference/container>.
 - List tag and digest metadata for a container image:
 
 `gcloud container images list-tags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
+
+- Describe an existing cluster for running containers:
+
+`gcloud container clusters describe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span>

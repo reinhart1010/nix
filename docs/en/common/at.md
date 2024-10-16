@@ -2,8 +2,8 @@
 layout: page
 title: common/at (English)
 description: "Execute commands once at a later time."
-content_hash: b1e026616f9935794214916a34b19bec8a7aea08
-last_modified_at: 2023-11-12
+content_hash: 03added1ebd0841cc635f79f917d918201799059
+last_modified_at: 2024-10-16
 related_topics:
   - title: español version
     url: /es/common/at.html
@@ -20,6 +20,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/at.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/at.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/at.html
     icon: bi bi-globe
@@ -34,16 +37,24 @@ tldri18n_status: 2
 # at
 
 Execute commands once at a later time.
-Service atd (or atrun) should be running for the actual executions.
+Results will be sent to the users mail.
 More information: <https://manned.org/at>.
 
-- Execute commands from `stdin` in 5 minutes (press `Ctrl + D` when done):
+- Start the `atd` daemon:
+
+`systemctl start atd`
+
+- Create commands interactively and execute them in 5 minutes (press `<Ctrl> + D` when done):
 
 `at now + 5 minutes`
 
+- Create commands interactively and execute them at a specific time:
+
+`at `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span>
+
 - Execute a command from `stdin` at 10:00 AM today:
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span>`" | at 1000`
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`" | at 1000`
 
 - Execute commands from a given file next Tuesday:
 

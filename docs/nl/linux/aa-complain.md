@@ -1,0 +1,40 @@
+---
+layout: page
+title: linux/aa-complain (Nederlands)
+description: "Stel een AppArmor-profiel in op klaagmodus."
+content_hash: 4ae9f0d6ef746aac1ba18b628a65a4144393a6b9
+last_modified_at: 2024-10-16
+related_topics:
+  - title: Deutsch version
+    url: /de/linux/aa-complain.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/linux/aa-complain.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/aa-complain.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/aa-complain.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># aa-complain
+
+Stel een AppArmor-profiel in op klaagmodus.
+Bekijk ook: `aa-disable`, `aa-enforce`, `aa-status`.
+Meer informatie: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-complain.8>.
+
+- Stel een profiel in op klaagmodus:
+
+`sudo aa-complain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/profiel1 pad/naar/profiel2 ...</span>
+
+- Stel profielen in op klaagmodus:
+
+`sudo aa-complain --dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/profielen</span>
