@@ -2,8 +2,8 @@
 layout: page
 title: common/git-bundle (Indonesia)
 description: "Bungkus seluruh objek dan referensi internal Git ke dalam suatu berkas arsip."
-content_hash: 0c1ab7813037f273877e558f15aff9d7019ca897
-last_modified_at: 2024-10-13
+content_hash: e6354d22953ce36f32ba003c4b48480bf21c0dc2
+last_modified_at: 2024-10-16
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
@@ -53,7 +53,7 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-bundle>.
 
 `git bundle verify `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.bundle</span>
 
-- Cetak daftar berkas referensi yang terkandung dalam berkas bundle menuju stdout:
+- Cetak daftar berkas referensi yang terkandung dalam berkas bundle menuju `stdout`:
 
 `git bundle unbundle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.bundle</span>
 

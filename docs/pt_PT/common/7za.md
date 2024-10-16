@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (português (Portugal))
 description: "Compactador de arquivos com uma alta taxa de compressão."
-content_hash: 845050def98dd55ad0e2e9e3e819d4ec44e474e6
-last_modified_at: 2024-04-19
+content_hash: 2c05bf83851932e28b59be16d838e9bc4320a5c7
+last_modified_at: 2024-10-16
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -50,6 +50,9 @@ related_topics:
   - title: русский version
     url: /ru/common/7za.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/7za.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
@@ -80,7 +83,7 @@ Mais informações: <https://manned.org/7za>.
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_compactado.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
-- Descompacta um arquivo para a saída padrão (stdout):
+- Descompacta um arquivo para a saída padrão (`stdout`):
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_compactado.7z</span>` -so`
 

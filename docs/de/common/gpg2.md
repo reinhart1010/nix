@@ -2,8 +2,8 @@
 layout: page
 title: common/gpg2 (Deutsch)
 description: "GNU Privacy Guard 2."
-content_hash: 0b853e1c18bce646c4b42be61676b18ff1481551
-last_modified_at: 2023-11-12
+content_hash: 7c28375c4d0444e98ed44457e16da04ff7bf9890
+last_modified_at: 2024-10-16
 related_topics:
   - title: English version
     url: /en/common/gpg2.html
@@ -31,7 +31,7 @@ Weitere Informationen: <https://docs.releng.linuxfoundation.org/en/latest/gpg.ht
 
 `gpg2 --symmetric `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.txt</span>
 
-- Verschlüssle eine bestimmte Datei und schreibe das Ergebnis auf STDOUT:
+- Verschlüssle eine bestimmte Datei und schreibe das Ergebnis auf `stdout`:
 
 `gpg2 --decrypt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.txt.gpg</span>
 

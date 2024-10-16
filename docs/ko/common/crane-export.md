@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-export (한국어)
 description: "컨테이너 이미지의 파일 시스템을 tarball로 내보냄."
-content_hash: 888aff2d17c00471288f6d0f2df5295be09b2f59
-last_modified_at: 2024-10-13
+content_hash: cae129c1231ff1f43fbdafed79f91e00111c4638
+last_modified_at: 2024-10-16
 related_topics:
   - title: English version
     url: /en/common/crane-export.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 컨테이너 이미지의 파일 시스템을 tarball로 내보냄.
 더 많은 정보: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_digest.md>.
 
-- stdout에 tarball을 작성 :
+- `stdout`에 tarball을 작성 :
 
 `crane export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span>` -`
 

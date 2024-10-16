@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (português (Portugal))
 description: "Compactador de arquivos com uma alta taxa de compressão."
-content_hash: 623525dbecca6bbb0aa2af8d2047b20397abb55f
-last_modified_at: 2023-12-28
+content_hash: 2b41d611c4aea759af8e0047fedd734e7fd489f2
+last_modified_at: 2024-10-16
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -77,7 +77,7 @@ Mais informações: <https://manned.org/7zr>.
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
-- Descompacta um arquivo para a saída padrão (stdout):
+- Descompacta um arquivo para a saída padrão (`stdout`):
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>` -so`
 
