@@ -2,15 +2,15 @@
 layout: page
 title: common/pnpx (English)
 description: "Directly execute binaries from npm packages, using `pnpm` instead of `npm`."
-content_hash: 29e19fd811de4c3f37d1f7dd2f67cce1f5ea54c4
-last_modified_at: 2024-05-23
+content_hash: 1286abd91b503c48b949f23ca3abe281e107dcc5
+last_modified_at: 2024-10-16
 tldri18n_status: 2
 ---
 # pnpx
 
 Directly execute binaries from npm packages, using `pnpm` instead of `npm`.
 Note: This command is deprecated! Use `pnpm exec` and `pnpm dlx` instead.
-More information: <https://web.archive.org/web/20220117192755/https://pnpm.io/pnpx-cli>.
+More information: <https://cuyl.github.io/pnpm.github.io/pnpx-cli>.
 
 - Execute the binary from a given npm module:
 

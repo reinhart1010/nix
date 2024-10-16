@@ -2,8 +2,8 @@
 layout: page
 title: common/unzip (English)
 description: "Extract files/directories from Zip archives."
-content_hash: 21440b5469571f244b68e657712fcad71af64879
-last_modified_at: 2024-09-16
+content_hash: ce110c25f7503df50725cb43fbde366ae088d6fc
+last_modified_at: 2024-10-16
 related_topics:
   - title: 한국어 version
     url: /ko/common/unzip.html
@@ -33,11 +33,11 @@ More information: <https://manned.org/unzip>.
 
 `unzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive1.zip path/to/archive2.zip ...</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span>
 
-- Extract files/directories from archives to `stdout`:
+- Extract files/directories from archives to `stdout` alongside the extracted file names:
 
 `unzip -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive1.zip path/to/archive2.zip ...</span>
 
-- Extract the contents of the file(s) to `stdout` alongside the extracted file names:
+- Extract an archive created on Windows, containing files with non-ASCII (e.g. Chinese or Japanese characters) filenames:
 
 `unzip -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gbk</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive1.zip path/to/archive2.zip ...</span>
 
