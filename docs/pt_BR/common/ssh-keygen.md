@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh-keygen (português (Brasil))
 description: "Gera chaves SSH usadas para autenticação, logins sem senha e outras finalidades."
-content_hash: edc56b647bb00776cf139f36c7266ec193af7b61
-last_modified_at: 2023-12-28
+content_hash: f2bef78efcf8cfc2d49709354aa6ebf846fcee23
+last_modified_at: 2024-10-17
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-keygen.html
@@ -33,9 +33,9 @@ Mais informações: <https://man.openbsd.org/ssh-keygen>.
 
 `ssh-keygen -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa</span>` -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span>` -C "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comentário|email</span>`"`
 
-- Remove as chaves de um host do arquivo known_hosts (útil quando um host conhecido tem uma nova chave):
+- Remove as chaves de um servidor do arquivo known_hosts (útil quando um servidor conhecido tem uma nova chave):
 
-`ssh-keygen -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_remoto</span>
+`ssh-keygen -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor_remoto</span>
 
 - Obtém a impressão digital de uma chave em MD5 Hex:
 

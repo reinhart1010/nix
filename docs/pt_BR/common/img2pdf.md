@@ -2,8 +2,8 @@
 layout: page
 title: common/img2pdf (português (Brasil))
 description: "Ferramenta de conversão sem perdas de imagens para PDF."
-content_hash: 7a81ac2190644ea2977ccafb691e46c875a1de85
-last_modified_at: 2024-10-13
+content_hash: 3f80fd19446d86d0bebe6afaf535d879bf9abcd1
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/img2pdf.html
@@ -23,11 +23,11 @@ Mais informações: <https://gitlab.mister-muffin.de/josch/img2pdf>.
 
 `img2pdf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/arquivo.gif</span>` --first-frame-only --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/arquivo.pdf</span>
 
-- Auto-orientar a imagem, usando uma página A4 em modo paisagem e uma borda de 2cm horizontalmente e 5.1cm verticalmente:
+- Auto-orienta a imagem, usando uma página A4 em modo paisagem, e borda horizontal e vertical de tamanho específico:
 
 `img2pdf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/arquivo.ext</span>` --auto-orient --pagesize `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A4^T</span>` --border `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2cm</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5.1cm</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/arquivo.pdf</span>
 
-- Encolhe apenas imagens maiores para um retângulo de 10cm por 15cm dentro de uma página de 30x20cm:
+- Encolhe apenas imagens maiores para um retângulo de dimensões específicas dentro de uma página de tamanho específico:
 
 `img2pdf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/arquivo.tiff</span>` --pagesize `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30cm</span>`x`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20cm</span>` --imgsize `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10cm</span>`x`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">15cm</span>` --fit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shrink</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/arquivo.pdf</span>
 

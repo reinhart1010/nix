@@ -2,8 +2,8 @@
 layout: page
 title: common/java (português (Brasil))
 description: "Inicializador de programas Java."
-content_hash: 39d4b2fee905a5b94b99bae41515ff31bff8caab
-last_modified_at: 2023-11-12
+content_hash: 8d12b0be9714c92b62e2de96a67c2cdceb290c8b
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -46,10 +46,10 @@ Mais informações: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/ja
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo.jar</span>
 
-- Exiba a versão do JDK, JRE e HotSpot:
+- Exibe a versão do JDK, JRE e HotSpot:
 
 `java -version`
 
-- Exiba os comandos disponíveis do Java:
+- Exibe os comandos disponíveis do Java:
 
 `java -help`
