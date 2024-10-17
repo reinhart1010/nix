@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (বাংলা)
 description: "একটি জিপ করা অ্যান্ড্রয়েড বাগ রিপোর্ট তৈরি করুন।"
 content_hash: 831dda6f332e3678da4f8b30d3515a80b9ac3987
-last_modified_at: 2024-10-13
+last_modified_at: 2024-10-17
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreportz.html
@@ -65,9 +65,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bugreportz
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bugreportz
 
 একটি জিপ করা অ্যান্ড্রয়েড বাগ রিপোর্ট তৈরি করুন।
 এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।

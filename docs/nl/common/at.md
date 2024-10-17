@@ -3,7 +3,7 @@ layout: page
 title: common/at (Nederlands)
 description: "Voer commando's eenmaal later uit."
 content_hash: 48b1dbd49d21a79a6dcb797d06752411e4bdd33e
-last_modified_at: 2024-08-13
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -32,9 +32,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# at
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># at
 
 Voer commando's eenmaal later uit.
 De service atd (of atrun) moet actief zijn voor de daadwerkelijke uitvoering.

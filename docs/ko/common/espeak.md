@@ -3,7 +3,7 @@ layout: page
 title: common/espeak (한국어)
 description: "텍스트 음성 변환을 사용하여, 기본 사운드 장치를 통해 이야기."
 content_hash: aafe6b6aaa7a8ec8ce51e35eddc8b45d03000efe
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/espeak.html
@@ -11,18 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/common/espeak.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/espeak.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># espeak
+# espeak
 
 텍스트 음성 변환을 사용하여, 기본 사운드 장치를 통해 이야기.
 더 많은 정보: <https://espeak.sourceforge.net>.

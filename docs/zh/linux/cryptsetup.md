@@ -3,14 +3,17 @@ layout: page
 title: linux/cryptsetup (中文)
 description: "管理普通 dm-crypt 和 LUKS（Linux 统一密钥设置）加密卷。"
 content_hash: 6a52dfb5b70805cf8e0ab6ab98efc60d60383170
-last_modified_at: 2023-11-12
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/linux/cryptsetup.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cryptsetup
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cryptsetup
 
 管理普通 dm-crypt 和 LUKS（Linux 统一密钥设置）加密卷。
 更多信息：<https://gitlab.com/cryptsetup/cryptsetup/>.

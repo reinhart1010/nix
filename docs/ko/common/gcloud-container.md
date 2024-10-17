@@ -3,14 +3,17 @@ layout: page
 title: common/gcloud-container (한국어)
 description: "Kubernetes 및 클러스터에서 컨테이너화된 애플리케이션 관리."
 content_hash: b7871e3f1e8a198ed4a860072c26078811079901
-last_modified_at: 2024-10-12
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/gcloud-container.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# gcloud container
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gcloud container
 
 Kubernetes 및 클러스터에서 컨테이너화된 애플리케이션 관리.
 같이 보기: `gcloud`.

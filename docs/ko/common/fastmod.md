@@ -3,7 +3,7 @@ layout: page
 title: common/fastmod (한국어)
 description: "codemod 도구에 대한 빠른 부분 교체, 전체 코드베이스에서 부분 및 모두 교체."
 content_hash: bd98c9a22047bdd82ed07849c051d30e967250ff
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: العربية version
     url: /ar/common/fastmod.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/fastmod.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fastmod.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fastmod
+# fastmod
 
 codemod 도구에 대한 빠른 부분 교체, 전체 코드베이스에서 부분 및 모두 교체.
 정규식은 Rust 정규식 상자와 일치.

@@ -3,23 +3,14 @@ layout: page
 title: common/doctl-auth (한국어)
 description: "API 토큰으로 `doctl`을 인증."
 content_hash: b8af088144e49016c79b22e472f9ef3870d4a05d
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/doctl-auth.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/doctl-auth.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># doctl auth
+# doctl auth
 
 API 토큰으로 `doctl`을 인증.
 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/auth/>.

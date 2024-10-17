@@ -2,8 +2,8 @@
 layout: page
 title: windows/cls (español)
 description: "Borra la pantalla."
-content_hash: 5ee2b0bde71392ee64a013a8d03310b274ad0ee0
-last_modified_at: 2023-11-12
+content_hash: b030505f47aefcf29d705d1e6b332818c5a0fd3c
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -41,16 +41,18 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cls.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cls
+# cls
 
 Borra la pantalla.
+En PowerShell, este comando es un alias de `Clear-Host`. Esta documentación está basada en la versión del símbolo del sistema (`cmd`) de `cls`.
 Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
-- Borra la pantalla:
+- Consulta la documentación del comando PowerShell equivalente:
+
+`tldr clear-host`
+
+- Limpia la pantalla:
 
 `cls`

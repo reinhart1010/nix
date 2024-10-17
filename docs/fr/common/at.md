@@ -3,7 +3,7 @@ layout: page
 title: common/at (français)
 description: "Planifie l'exécution d'une commande une fois à un moment donné."
 content_hash: dec31a7085c77ba969d49b9636e94c370b30fe1d
-last_modified_at: 2023-11-12
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -20,6 +20,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/at.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/at.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/at.html
     icon: bi bi-globe
@@ -29,9 +32,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# at
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># at
 
 Planifie l'exécution d'une commande une fois à un moment donné.
 Le service atd (ou atrun) doit être actif pour l'exécution des commandes planifiées.

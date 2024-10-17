@@ -1,22 +1,10 @@
 ---
 layout: page
 title: windows/rd (español)
-description: "Este comando es un alias de `rmdir`."
-content_hash: f51cb6e93fe67f5aea370177b9c8065b56f5627f
-last_modified_at: 2024-01-07
+description: "Este comando es un alias de `rmdir` en la consola de comandos, y subsecuentemente de `Remove-Item` en PowerShell."
+content_hash: 8eae801d40e9d60e4b942aeb1dd10a3aee08fc1c
+last_modified_at: 2024-10-17
 related_topics:
-  - title: العربية version
-    url: /ar/windows/rd.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/windows/rd.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/rd.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/rd.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/rd.html
     icon: bi bi-globe
@@ -35,26 +23,14 @@ related_topics:
   - title: italiano version
     url: /it/windows/rd.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/windows/rd.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/windows/rd.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/windows/rd.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/windows/rd.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/windows/rd.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/rd.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/windows/rd.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/rd.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/rd.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/windows/rd.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/windows/rd.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/rd.html
     icon: bi bi-globe
@@ -80,25 +50,23 @@ related_topics:
   - title: Türkçe version
     url: /tr/windows/rd.html
     icon: bi bi-globe
-  - title: українська version
-    url: /uk/windows/rd.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/rd.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# rd
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rd
-
-Este comando es un alias de `rmdir`.
+Este comando es un alias de `rmdir` en la consola de comandos, y subsecuentemente de `Remove-Item` en PowerShell.
 Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.
 
-- Muestra la documentación del comando original:
+- Vea documentación del comando original de la consola:
 
 `tldr rmdir`
+
+- Vea documentación del comando original de PowerShell:
+
+`tldr remove-item`

@@ -3,7 +3,7 @@ layout: page
 title: common/emacs (한국어)
 description: "확장 가능, 사용자 정의 가능, 자체 문서화가 되는 실시간 디스플레이 편집기."
 content_hash: fd4e850c68883390c29b588a6be4ba827aac4260
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: Deutsch version
     url: /de/common/emacs.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/emacs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/emacs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># emacs
+# emacs
 
 확장 가능, 사용자 정의 가능, 자체 문서화가 되는 실시간 디스플레이 편집기.
 참고: `emacsclient`.

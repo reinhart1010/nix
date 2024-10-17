@@ -3,7 +3,7 @@ layout: page
 title: common/at (中文)
 description: "在一段时间后，执行单次命令。"
 content_hash: 194d2853f3ec95e46be5645558eb0251817dac5c
-last_modified_at: 2024-01-01
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -23,15 +23,21 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/at.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/at.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/at.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/at.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# at
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># at
 
 在一段时间后，执行单次命令。
 atd 服务（或 atrun）需要处于运行状态，以保证命令成功执行。

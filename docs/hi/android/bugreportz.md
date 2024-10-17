@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (हिन्दी)
 description: "एक ज़िप्ड एंड्रॉइड बग रिपोर्ट तैयार करें।"
 content_hash: f18220eae87dc89b2709044c3242a93e405a9fa7
-last_modified_at: 2024-10-13
+last_modified_at: 2024-10-17
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -65,9 +65,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bugreportz
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bugreportz
 
 एक ज़िप्ड एंड्रॉइड बग रिपोर्ट तैयार करें।
 इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।

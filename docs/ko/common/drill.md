@@ -3,7 +3,7 @@ layout: page
 title: common/drill (한국어)
 description: "다양한 DNS 쿼리를 수행."
 content_hash: c1cacb6d797e87045e209c1934c9eb9feb50c300
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/drill.html
@@ -14,18 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/common/drill.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/drill.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># drill
+# drill
 
 다양한 DNS 쿼리를 수행.
 더 많은 정보: <https://manned.org/drill>.

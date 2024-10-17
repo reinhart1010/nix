@@ -3,23 +3,14 @@ layout: page
 title: common/eget (한국어)
 description: "GitHub에서 사전 구축된 바이너리를 쉽게 설치 가능."
 content_hash: c6140f0684ea7468a406005e0d088f1674b00704
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/eget.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/eget.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># eget
+# eget
 
 GitHub에서 사전 구축된 바이너리를 쉽게 설치 가능.
 더 많은 정보: <https://github.com/zyedidia/eget>.

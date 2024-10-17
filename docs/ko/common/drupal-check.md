@@ -3,23 +3,14 @@ layout: page
 title: common/drupal-check (한국어)
 description: "더 이상 사용되지 않는 Drupal PHP 코드를 확인."
 content_hash: 0466cfee556962413f8e8e870686640ec797b09c
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/drupal-check.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/drupal-check.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># drupal-check
+# drupal-check
 
 더 이상 사용되지 않는 Drupal PHP 코드를 확인.
 더 많은 정보: <https://github.com/mglaman/drupal-check>.

@@ -3,7 +3,7 @@ layout: page
 title: common/erl (한국어)
 description: "Erlang 프로그래밍 언어로 프로그램을 실행하고 관리."
 content_hash: a7794e7df688b1e4e8cd81e13c21f857a0d0dbb4
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/erl.html
@@ -11,18 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/common/erl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/erl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># erl
+# erl
 
 Erlang 프로그래밍 언어로 프로그램을 실행하고 관리.
 더 많은 정보: <https://www.erlang.org>.

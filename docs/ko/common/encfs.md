@@ -3,23 +3,14 @@ layout: page
 title: common/encfs (한국어)
 description: "암호화된 가상 파일 시스템을 마운트하거나 생성."
 content_hash: 773bcb2c2ab73ebd711267dbfdfe34fe06fa08ab
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/encfs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/encfs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># encfs
+# encfs
 
 암호화된 가상 파일 시스템을 마운트하거나 생성.
 마운트된 파일 시스템을 마운트 해제할 수 있는 `fusermount`도 참조.

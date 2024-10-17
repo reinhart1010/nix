@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (português (Brasil))
 description: "Gera um relatório de bugs do Android em formato Zip."
 content_hash: fce50493764c79686d7c87eacca76f32a9172c48
-last_modified_at: 2024-10-03
+last_modified_at: 2024-10-17
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -65,9 +65,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bugreportz
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bugreportz
 
 Gera um relatório de bugs do Android em formato Zip.
 Esse comando só pode ser utilizado por meio de  `adb shell`.

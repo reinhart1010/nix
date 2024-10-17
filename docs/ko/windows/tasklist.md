@@ -3,7 +3,7 @@ layout: page
 title: windows/tasklist (한국어)
 description: "로컬 또는 원격 머신에서 현재 실행 중인 프로세스 목록을 표시합니다."
 content_hash: 6cbb2af732329aa0fca498907f708bda76f77d14
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/windows/tasklist.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/tasklist.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/tasklist.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tasklist
+# tasklist
 
 로컬 또는 원격 머신에서 현재 실행 중인 프로세스 목록을 표시합니다.
 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist>.

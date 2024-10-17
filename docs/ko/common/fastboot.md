@@ -3,7 +3,7 @@ layout: page
 title: common/fastboot (한국어)
 description: "부트로더 모드에 있을 때 연결된 Android 장치와 통신 (ADB가 작동하지 않는 곳)."
 content_hash: dc232878993f98e88ab7b9bf85f7496cb62ce7d7
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/fastboot.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/fastboot.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fastboot.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fastboot
+# fastboot
 
 부트로더 모드에 있을 때 연결된 Android 장치와 통신 (ADB가 작동하지 않는 곳).
 더 많은 정보: <https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>.

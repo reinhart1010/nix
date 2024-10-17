@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (español)
 description: "Genera un informe comprimido de errores de Android."
 content_hash: 2a96c94ae8d0a1991cd803b8849d59892508ee1c
-last_modified_at: 2024-06-18
+last_modified_at: 2024-10-17
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -65,9 +65,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bugreportz
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bugreportz
 
 Genera un informe comprimido de errores de Android.
 Este comando solo se puede usar a través de `adb shell`.

@@ -3,7 +3,7 @@ layout: page
 title: common/dust (한국어)
 description: "Dust는 어떤 디렉토리가 디스크 공간을 사용하고 있는지에 대한 즉각적인 개요를 제공."
 content_hash: 73a0203472cae09dd63e2e9f560db6df942f0f26
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: Deutsch version
     url: /de/common/dust.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dust.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dust.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dust
+# dust
 
 Dust는 어떤 디렉토리가 디스크 공간을 사용하고 있는지에 대한 즉각적인 개요를 제공.
 더 많은 정보: <https://github.com/bootandy/dust>.

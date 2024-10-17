@@ -3,23 +3,14 @@ layout: page
 title: common/eqn (한국어)
 description: "groff (GNU Troff) 문서 형식화 시스템용 방정식 전처리."
 content_hash: c5eacb25836a120ea9e329058f2b599961b32e41
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/eqn.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/eqn.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># eqn
+# eqn
 
 groff (GNU Troff) 문서 형식화 시스템용 방정식 전처리.
 참고: `troff` 및 `groff`.

@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (Deutsch)
 description: "Generiere einen gezippten Android-Fehlerbericht."
-content_hash: 3220bd86d01696a884de2b27e23ded60f5d36a3a
-last_modified_at: 2024-10-13
+content_hash: 6e5d4698a3e7dcd211f5d67b329fa1874794c357
+last_modified_at: 2024-10-17
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -80,6 +80,10 @@ Weitere Informationen: <https://cs.android.com/android/platform/superproject/+/m
 - Zeige den Fortschritt eines laufenden `bugreportz` Prozesses an:
 
 `bugreportz -p`
+
+- Schreibe den Inhalt eines Android-Fehlerberichts nach `stdout`:
+
+`bugreportz -s`
 
 - Zeige Hilfe an:
 

@@ -3,7 +3,7 @@ layout: page
 title: common/batch (polski)
 description: "Wykonaj polecenia, gdy pozwoli na to poziom obciążenia systmu."
 content_hash: f5518094b9a94069dad9665288f51ff507c0cdee
-last_modified_at: 2023-11-12
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -17,9 +17,12 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/batch.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# batch
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># batch
 
 Wykonaj polecenia, gdy pozwoli na to poziom obciążenia systmu.
 Aby działać poprawnie wymaga działającego serwisu atd (lub atrun).

@@ -3,7 +3,7 @@ layout: page
 title: common/duc (한국어)
 description: "디스크 사용량을 인덱싱, 검사, 시각화하기 위한 도구 모음."
 content_hash: 70600f78369e9fc0b22e522f0c3707cf27164bd3
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/duc.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/duc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/duc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># duc
+# duc
 
 디스크 사용량을 인덱싱, 검사, 시각화하기 위한 도구 모음.
 Duc는 파일 시스템 디렉토리의 누적 크기에 대한 데이터베이스를 유지 및 관리하여, 데이터베이스에서 쿼리를 허용하거나, 데이터 위치를 보여주는 멋있는 그래프를 생성.

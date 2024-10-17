@@ -3,23 +3,14 @@ layout: page
 title: common/exrex (한국어)
 description: "정규식에 대해 모두/무작위로 일치하는 문자열을 생성."
 content_hash: 46af855a82393e1de79ea74c988b7874402ed606
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/exrex.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/exrex.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># exrex
+# exrex
 
 정규식에 대해 모두/무작위로 일치하는 문자열을 생성.
 정규식을 단순화할 수 있음.

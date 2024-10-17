@@ -3,23 +3,14 @@ layout: page
 title: common/eva (한국어)
 description: "구문 강조 및 지속적인 기록을 갖춘 `bc`와 유사한 간단한 계산기 REPL."
 content_hash: 614e07cedc53f4bb4fdc34240c8cd888f8849443
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/eva.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/eva.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># eva
+# eva
 
 구문 강조 및 지속적인 기록을 갖춘 `bc`와 유사한 간단한 계산기 REPL.
 더 많은 정보: <https://github.com/NerdyPepper/eva>.

@@ -3,23 +3,14 @@ layout: page
 title: common/evil-winrm (한국어)
 description: "침투 테스트를 위한 WinRM(Windows 원격 관리 쉘)."
 content_hash: 4b58ab2cd2c7f06a1e8f2f281151e2249837c6a8
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/evil-winrm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/evil-winrm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># evil-winrm
+# evil-winrm
 
 침투 테스트를 위한 WinRM(Windows 원격 관리 쉘).
 연결되면, 대상 호스트에 PowerShell 프롬프트가 표시됨.

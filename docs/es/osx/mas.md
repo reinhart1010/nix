@@ -2,8 +2,8 @@
 layout: page
 title: osx/mas (español)
 description: "Interfaz de línea de comandos para la Mac App Store."
-content_hash: 55ff1e573c176c44510e4f0fee6f64e9df9889c3
-last_modified_at: 2024-08-20
+content_hash: 92823ba4cd360e0e5d9c4dabc3c522c2d32d90d1
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/osx/mas.html
@@ -11,12 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/mas.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mas
+# mas
 
 Interfaz de línea de comandos para la Mac App Store.
 Más información: <https://github.com/mas-cli/mas>.
@@ -31,12 +28,24 @@ Más información: <https://github.com/mas-cli/mas>.
 
 - Busca una aplicación, mostrando el precio junto a los resultados:
 
-`mas search " `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aplicación</span>`" --price`
+`mas search "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aplicación</span>`" --price`
 
-- Instala o actualiza una aplicación:
+- Instala o actualiza una aplicación utilizando el identificador numérico exacto:
 
-`mas install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_producto</span>
+`mas install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_producto_numérico</span>
+
+- Instala la primera aplicación que devuelva la búsqueda correspondiente:
+
+`mas lucky "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">término_de_búsqueda</span>`"`
+
+- Lista todas las aplicaciones obsoletas con actualizaciones pendientes:
+
+`mas outdated`
 
 - Instala todas las actualizaciones pendientes:
 
 `mas upgrade`
+
+- Actualiza una aplicación específica:
+
+`mas upgrade "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_producto_numérico</span>`"`

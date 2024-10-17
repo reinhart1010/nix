@@ -3,7 +3,7 @@ layout: page
 title: windows/takeown (한국어)
 description: "파일 또는 디렉토리의 소유권을 가져옵니다."
 content_hash: 92b843ba00c7161c33c92d492cdf5f40bee0d082
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/windows/takeown.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/takeown.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/takeown.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># takeown
+# takeown
 
 파일 또는 디렉토리의 소유권을 가져옵니다.
 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/takeown>.

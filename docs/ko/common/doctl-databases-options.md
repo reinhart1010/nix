@@ -3,23 +3,14 @@ layout: page
 title: common/doctl-databases-options (한국어)
 description: "각 데이터베이스 엔진에서 사용 가능한 옵션 탐색을 활성화."
 content_hash: 1e3c151e4d765f4f61cf028e99758b09b38961bc
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/doctl-databases-options.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/doctl-databases-options.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># doctl databases options
+# doctl databases options
 
 각 데이터베이스 엔진에서 사용 가능한 옵션 탐색을 활성화.
 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases/options>.

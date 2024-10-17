@@ -3,23 +3,14 @@ layout: page
 title: linux/pihole (español)
 description: "Interfaz de terminal para el servidor DNS de bloqueo de anuncios Pi-hole."
 content_hash: 23997b502e5e0157ff6fde9f080bf7ce2745a72d
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/linux/pihole.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pihole.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pihole
+# pihole
 
 Interfaz de terminal para el servidor DNS de bloqueo de anuncios Pi-hole.
 Más información: <https://docs.pi-hole.net/core/pihole-command/>.

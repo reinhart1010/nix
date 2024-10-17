@@ -3,7 +3,7 @@ layout: page
 title: common/at (한국어)
 description: "명령 실행 후 한 번 실행합니다."
 content_hash: ff5b1135be7334a4319f719b646a5523d2d3b22f
-last_modified_at: 2023-11-12
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -20,6 +20,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/at.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/at.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/at.html
     icon: bi bi-globe
@@ -29,9 +32,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# at
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># at
 
 명령 실행 후 한 번 실행합니다.
 서비스 AD(또는 ATRUN)는 실제 실행을 위해 실행되어야 합니다.

@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (français)
 description: "Génère une archive d'un rapport de bug Android."
 content_hash: 9e43901724678c8b91bf9f69b432790b9d6dab5c
-last_modified_at: 2024-10-13
+last_modified_at: 2024-10-17
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -65,9 +65,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bugreportz
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bugreportz
 
 Génère une archive d'un rapport de bug Android.
 Cette commande peut être utilisée uniquement depuis `adb shell`.

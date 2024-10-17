@@ -3,7 +3,7 @@ layout: page
 title: common/env (한국어)
 description: "환경을 보여주거나 수정된 환경에서 프로그램을 실행."
 content_hash: 7dbd8fd941f41dddfb3184eafe3c6c39727b08b9
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/env.html
@@ -20,18 +20,9 @@ related_topics:
   - title: norsk version
     url: /no/common/env.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/env.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># env
+# env
 
 환경을 보여주거나 수정된 환경에서 프로그램을 실행.
 더 많은 정보: <https://www.gnu.org/software/coreutils/env>.

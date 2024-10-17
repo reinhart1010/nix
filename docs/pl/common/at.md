@@ -3,7 +3,7 @@ layout: page
 title: common/at (polski)
 description: "Jednokrotnie wykonaj polecenia w późniejszym czasie."
 content_hash: 35c6fc11aebb19dc2d186fc5600f74d93c0d65d6
-last_modified_at: 2024-09-04
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -32,9 +32,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# at
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># at
 
 Jednokrotnie wykonaj polecenia w późniejszym czasie.
 Usługa atd (lub atrun) powinna być uruchomiona dla rzeczywistych wykonań.

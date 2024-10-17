@@ -3,7 +3,7 @@ layout: page
 title: common/emacsclient (한국어)
 description: "기존 Emacs 서버에서 파일을 열기."
 content_hash: 754a80264bf72477f8ac404983ffdd6bf7b98332
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: Deutsch version
     url: /de/common/emacsclient.html
@@ -14,18 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/common/emacsclient.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/emacsclient.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># emacsclient
+# emacsclient
 
 기존 Emacs 서버에서 파일을 열기.
 참고: `emacs`.

@@ -3,23 +3,14 @@ layout: page
 title: common/doctl-databases-maintenance-window (한국어)
 description: "데이터베이스의 유지 관리 기간을 예약하고 일정을 확인."
 content_hash: 3e866cbcc8a014139353f20d31a50af9489d2e88
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/doctl-databases-maintenance-window.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/doctl-databases-maintenance-window.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># doctl databases maintenance-window
+# doctl databases maintenance-window
 
 데이터베이스의 유지 관리 기간을 예약하고 일정을 확인.
 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases/maintenance-window>.

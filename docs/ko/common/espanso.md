@@ -3,7 +3,7 @@ layout: page
 title: common/espanso (한국어)
 description: "Rust로 작성된 크로스 플랫폼 텍스트 확장기."
 content_hash: b3ce0f94254f6756556ea59ffc4f17638354b6d0
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/espanso.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/espanso.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/espanso.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># espanso
+# espanso
 
 Rust로 작성된 크로스 플랫폼 텍스트 확장기.
 더 많은 정보: <https://espanso.org>.

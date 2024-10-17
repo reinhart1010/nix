@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (नेपाली)
 description: "जिप गरिएको एन्ड्रोइड बग रिपोर्ट उत्पन्न गर्नुहोस्।"
 content_hash: 4fd1a5717018b8e85516dbeea7f24173c6a22dcb
-last_modified_at: 2024-10-13
+last_modified_at: 2024-10-17
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -65,9 +65,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# bugreportz
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># bugreportz
 
 जिप गरिएको एन्ड्रोइड बग रिपोर्ट उत्पन्न गर्नुहोस्।
 यो आदेश `adb shell` मार्फत मात्र प्रयोग गर्न सकिन्छ।

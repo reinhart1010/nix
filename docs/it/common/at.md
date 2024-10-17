@@ -3,7 +3,7 @@ layout: page
 title: common/at (italiano)
 description: "Programma l'esecuzione di comandi nel futuro."
 content_hash: c45ffd8023765e4ab6d8de81107740e4e23cc88e
-last_modified_at: 2023-11-12
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -20,6 +20,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/at.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/at.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/at.html
     icon: bi bi-globe
@@ -29,9 +32,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# at
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># at
 
 Programma l'esecuzione di comandi nel futuro.
 Il servizio atd (o atrun) deve essere attivo per eseguire i comandi.

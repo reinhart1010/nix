@@ -3,7 +3,7 @@ layout: page
 title: common/du (한국어)
 description: "디스크 사용량: 파일 및 디렉터리 공간 사용량을 추정하고 요약."
 content_hash: 85660be8c722428ce5978b1dd4e27704a6e2c5bd
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -29,18 +29,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/du.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># du
+# du
 
 디스크 사용량: 파일 및 디렉터리 공간 사용량을 추정하고 요약.
 더 많은 정보: <https://www.gnu.org/software/coreutils/du>.

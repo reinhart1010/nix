@@ -3,23 +3,14 @@ layout: page
 title: common/esptool.py (한국어)
 description: "Espressif 칩용 부트로더 유틸리티 (예: ESP8266)."
 content_hash: 02b87e92ca7cd4530af2546446699e4962fc95c3
-last_modified_at: 2024-10-16
+last_modified_at: 2024-10-17
 related_topics:
   - title: English version
     url: /en/common/esptool.py.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/esptool.py.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># esptool.py
+# esptool.py
 
 Espressif 칩용 부트로더 유틸리티 (예: ESP8266).
 더 많은 정보: <https://docs.espressif.com/projects/esptool/en/latest/esp32/>.
