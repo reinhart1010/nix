@@ -1,0 +1,35 @@
+<h1 id="prqlc">prqlc</h1>
+
+<p>PRQL compiler.
+PRQL is a modern language for transforming data - a simple, powerful, pipelined SQL replacement.
+More information: <a href="https://prql-lang.org">https://prql-lang.org</a>.</p>
+
+<ul>
+  <li>Run the compiler interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prqlc compile</code></p>
+
+<ul>
+  <li>Compile a specific <code class="language-plaintext highlighter-rouge">.prql</code> file to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prqlc compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.prql</span></p>
+
+<ul>
+  <li>Compile a <code class="language-plaintext highlighter-rouge">.prql</code> file to a <code class="language-plaintext highlighter-rouge">.sql</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prqlc compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.prql</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target.sql</span></p>
+
+<ul>
+  <li>Compile a query:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from employees | filter has_dog | select salary</span><code class="language-plaintext highlighter-rouge">" | prqlc compile</code></p>
+
+<ul>
+  <li>Watch a directory and compile on file modification:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prqlc watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

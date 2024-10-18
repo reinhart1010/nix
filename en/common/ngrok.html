@@ -1,0 +1,34 @@
+<h1 id="ngrok">ngrok</h1>
+
+<p>Reverse proxy that creates a secure tunnel from a public endpoint to a locally running web service.
+More information: <a href="https://ngrok.com">https://ngrok.com</a>.</p>
+
+<ul>
+  <li>Expose a local HTTP service on a given port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>Expose a local HTTP service on a specific host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo.dev</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>Expose a local HTTPS server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok http https://localhost</code></p>
+
+<ul>
+  <li>Expose TCP traffic on a given port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok tcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span></p>
+
+<ul>
+  <li>Expose TLS traffic for a specific host and port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok tls -hostname=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">443</span></p>

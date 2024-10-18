@@ -1,0 +1,44 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-config">git config</h1>
+
+<p>Configura le impostazioni di uno o piu repository Git.
+Le configurazioni possono essere sia locali (per il repository corrente) che globali (per l'utente corrente).
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-config">https://git-scm.com/docs/git-config</a>.</p>
+
+<ul>
+  <li>Elenca solo le opzioni di configurazione locali (salvate in <code class="language-plaintext highlighter-rouge">.git/config</code> nel repository corrente):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --local</code></p>
+
+<ul>
+  <li>Elenca solo le opzioni di configurazione globali (salvate in <code class="language-plaintext highlighter-rouge">~/.gitconfig</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --global</code></p>
+
+<ul>
+  <li>Elenca tutte le opzioni di configurazione impostate, sia locali che globali:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list</code></p>
+
+<ul>
+  <li>Mostra il valore di una data opzione di configurazione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config alias.unstage</code></p>
+
+<ul>
+  <li>Imposta il valore globale di una data opzione di configurazione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global alias.unstage "reset HEAD --"</code></p>
+
+<ul>
+  <li>Ripristina una opzione di configurazione globale al suo valore di default:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --unset alias.unstage</code></p>

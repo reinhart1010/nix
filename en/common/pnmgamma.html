@@ -1,0 +1,28 @@
+<h1 id="pnmgamma">pnmgamma</h1>
+
+<p>Perform gamma correction on PNM images.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmgamma.html">https://netpbm.sourceforge.net/doc/pnmgamma.html</a>.</p>
+
+<ul>
+  <li>Convert the image from BT.709 luminance to radiance or sRGB luminance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmgamma -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bt709tolinear|bt709tosrgb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Convert the image from radiance or sRGB luminance to BT.709 luminance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmgamma -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lineartobt709|srgbtobt709</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Specify the gamma value used for the gamma transfer function:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmgamma -gamma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Specify the gamma value used for the gamma transfer function per color component:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmgamma -rgamma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -ggamma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -bgamma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>

@@ -1,0 +1,40 @@
+<h1 id="xml-format">xml format</h1>
+
+<p>Format an XML document.
+More information: <a href="https://xmlstar.sourceforge.net/docs.php">https://xmlstar.sourceforge.net/docs.php</a>.</p>
+
+<ul>
+  <li>Format an XML document, indenting with tabs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml format --indent-tab </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.xml</span></p>
+
+<ul>
+  <li>Format an HTML document, indenting with 4 spaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml format --html --indent-spaces </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.html|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.html</span></p>
+
+<ul>
+  <li>Recover parsable parts of a malformed XML document, without indenting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml format --recover --noindent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/malformed.xml|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/recovered.xml</span></p>
+
+<ul>
+  <li>Format an XML document from <code class="language-plaintext highlighter-rouge">stdin</code>, removing the <code class="language-plaintext highlighter-rouge">DOCTYPE</code> declaration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\input.xml</span><code class="language-plaintext highlighter-rouge"> | xml format --dropdtd &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.xml</span></p>
+
+<ul>
+  <li>Format an XML document, omitting the XML declaration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml format --omit-decl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\input.xml|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.xml</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml format --help</code></p>

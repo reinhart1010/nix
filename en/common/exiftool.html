@@ -1,0 +1,52 @@
+<h1 id="exiftool">exiftool</h1>
+
+<p>Read and write meta information in files.
+More information: <a href="https://exiftool.org">https://exiftool.org</a>.</p>
+
+<ul>
+  <li>Print the EXIF metadata for a given file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Remove all EXIF metadata from the given files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool -All= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Remove GPS EXIF metadata from given image files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool "-gps*=" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1 path/to/image2 …</span></p>
+
+<ul>
+  <li>Remove all EXIF metadata from the given image files, then re-add metadata for color and orientation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool -All= -tagsfromfile @ -colorspacetags -orientation </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1 path/to/image2 …</span></p>
+
+<ul>
+  <li>Move the date at which all photos in a directory were taken 1 hour forward:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool "-AllDates+=0:0:0 1:0:0" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Move the date at which all JPEG photos in the current directory were taken 1 day and 2 hours backward:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool "-AllDates-=0:0:1 2:0:0" -ext jpg</code></p>
+
+<ul>
+  <li>Only change the <code class="language-plaintext highlighter-rouge">DateTimeOriginal</code> field subtracting 1.5 hours, without keeping backups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool -DateTimeOriginal-=1.5 -overwrite_original</code></p>
+
+<ul>
+  <li>Recursively rename all JPEG photos in a directory based on the <code class="language-plaintext highlighter-rouge">DateTimeOriginal</code> field:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool '-filename&lt;DateTimeOriginal' -d %Y-%m-%d_%H-%M-%S%%lc.%%e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> -r -ext jpg</code></p>

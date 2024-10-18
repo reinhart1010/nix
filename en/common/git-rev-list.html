@@ -1,0 +1,34 @@
+<h1 id="git-rev-list">git rev-list</h1>
+
+<p>List revisions (commits) in reverse chronological order.
+More information: <a href="https://git-scm.com/docs/git-rev-list">https://git-scm.com/docs/git-rev-list</a>.</p>
+
+<ul>
+  <li>List all commits on the current branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Print the latest commit that changed (add/edit/remove) a specific file on the current branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–max-count</span><code class="language-plaintext highlighter-rouge"> 1 HEAD -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>List commits more recent than a specific date, on a specific branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list --since "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2019-12-01 00:00:00</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>List all merge commits on a specific commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list --merges </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Print the number of commits since a specific tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span><code class="language-plaintext highlighter-rouge">..HEAD --count</code></p>

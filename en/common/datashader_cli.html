@@ -1,0 +1,22 @@
+<h1 id="datashader_cli">datashader_cli</h1>
+
+<p>Quick visualization of large datasets using CLI based on datashader.
+More information: <a href="https://github.com/wybert/datashader-cli">https://github.com/wybert/datashader-cli</a>.</p>
+
+<ul>
+  <li>Create a shaded scatter plot of points and save it to a PNG file and set the background color:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">datashader_cli points </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.parquet</span><code class="language-plaintext highlighter-rouge"> --x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pickup_x</span><code class="language-plaintext highlighter-rouge"> --y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pickup_y</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span><code class="language-plaintext highlighter-rouge"> --background </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">black|white|#rrggbb</span></p>
+
+<ul>
+  <li>Visualize the geospatial data (supports Geoparquet, shapefile, geojson, geopackage, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">datashader_cli points </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_data.geo.parquet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_data.png</span><code class="language-plaintext highlighter-rouge"> --geo true</code></p>
+
+<ul>
+  <li>Use matplotlib to render the image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">datashader_cli points </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_data.geo.parquet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_data.png</span><code class="language-plaintext highlighter-rouge"> --geo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span><code class="language-plaintext highlighter-rouge"> --matplotlib true</code></p>

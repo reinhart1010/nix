@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="7z">7z</h1>
+
+<p>Archiviatore di file con alto fattore di compressione.
+Maggiori informazioni: <a href="https://manned.org/7z">https://manned.org/7z</a>.</p>
+
+<ul>
+  <li>Archivia un file o una directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span></p>
+
+<ul>
+  <li>Cripta un archivio esistente (inclusi gli header):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio_criptato.7z</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -mhe=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span></p>
+
+<ul>
+  <li>Estrai un archivio mantenendo la gerarchia delle directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span></p>
+
+<ul>
+  <li>Estrai un archivio in una specifica directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span></p>
+
+<ul>
+  <li>Estrai un archivio sullo standard output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>Archivia utilizzando uno specifico tipo di archivio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7z|bzip2|gzip|lzip|tar|zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span></p>
+
+<ul>
+  <li>Elenca i contenuti in un archivio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span></p>

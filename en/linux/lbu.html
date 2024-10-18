@@ -1,0 +1,62 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="https://nix.reinhart1010.id/en/linux/lbu.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="lbu">lbu</h1>
+
+<p>Manage <code class="language-plaintext highlighter-rouge">apk</code> overlay files on a diskless Alpine Linux system.
+Note: subcommands like <code class="language-plaintext highlighter-rouge">include</code> write to <code class="language-plaintext highlighter-rouge">/etc</code>, which is stored in RAM. You need to run <code class="language-plaintext highlighter-rouge">lbu commit</code> to save the changes.
+More information: <a href="https://wiki.alpinelinux.org/wiki/Alpine_local_backup">https://wiki.alpinelinux.org/wiki/Alpine_local_backup</a>.</p>
+
+<ul>
+  <li>Commit changes to persistent storage (only files in <code class="language-plaintext highlighter-rouge">/etc</code> by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ci|commit</span></p>
+
+<ul>
+  <li>List files that would be saved using <code class="language-plaintext highlighter-rouge">commit</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">st|status</span></p>
+
+<ul>
+  <li>Display changes in tracked files that would be saved using <code class="language-plaintext highlighter-rouge">commit</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu diff</code></p>
+
+<ul>
+  <li>Include a specific file or directory in the <code class="language-plaintext highlighter-rouge">apk</code> overlay:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">add|inc|include</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Exclude a specific file or directory in <code class="language-plaintext highlighter-rouge">/etc</code> from the <code class="language-plaintext highlighter-rouge">apk</code> overlay:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ex|exclude|delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Display the list of manually included/excluded files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc|include|ex|exclude</span><code class="language-plaintext highlighter-rouge"> -l</code></p>
+
+<ul>
+  <li>List backups (previously created overlays):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lb|list-backup</span></p>
+
+<ul>
+  <li>Revert to a backup overlay:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">overlay_filename.tar.gz</span></p>

@@ -1,0 +1,34 @@
+<h1 id="base64">base64</h1>
+
+<p>Lakukan pengodean dan pendekodean terhadap suatu berkas atau <code class="language-plaintext highlighter-rouge">stdin</code> dari/menuju format Base64, menuju <code class="language-plaintext highlighter-rouge">stdout</code>.
+Informasi lebih lanjut: <a href="https://manned.org/base64">https://manned.org/base64</a>.</p>
+
+<ul>
+  <li>Kodekan isi suatu berkas menuju format Base64:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Bungkus luaran Base64 dalam panjang karakter yang tetap (nilai <code class="language-plaintext highlighter-rouge">0</code> akan menonaktifkan pembungkusan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|–wrap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Dekodekan kode Base64 yang tersimpan dalam suatu berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Kodekan isi dari <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge"> | base64</code></p>
+
+<ul>
+  <li>Dekodekan kode Base64 yang berasal dari <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge"> | base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span></p>

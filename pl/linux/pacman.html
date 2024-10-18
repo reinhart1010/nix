@@ -1,0 +1,54 @@
+<h1 id="pacman">pacman</h1>
+
+<p>Narzędzie do zarządzania pakietami w Arch Linuksie.
+Zobacz także: <code class="language-plaintext highlighter-rouge">pacman-database</code>, <code class="language-plaintext highlighter-rouge">pacman-deptest</code>, <code class="language-plaintext highlighter-rouge">pacman-files</code>, <code class="language-plaintext highlighter-rouge">pacman-key</code>, <code class="language-plaintext highlighter-rouge">pacman-mirrors</code>, <code class="language-plaintext highlighter-rouge">pacman-query</code>, <code class="language-plaintext highlighter-rouge">pacman-remove</code>, <code class="language-plaintext highlighter-rouge">pacman-sync</code>, <code class="language-plaintext highlighter-rouge">pacman-upgrade</code>.
+Odpowiednie polecenia dla innych menedżerów pakietów: <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+Więcej informacji: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Zsynchronizuj i zaktualizuj wszystkie pakiety:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Syu</code></p>
+
+<ul>
+  <li>Zainstaluj nowy pakiet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>
+
+<ul>
+  <li>Usuń pakiet i jego zależności:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>
+
+<ul>
+  <li>Poszukaj w bazie danych pakietów zawierających podany plik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -F "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pliku</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Wyświetl zainstalowane pakiety i ich wersje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Q</code></p>
+
+<ul>
+  <li>Wyświetl tylko pakiety niebędące zależnościami i ich wersje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qe</code></p>
+
+<ul>
+  <li>Wyświetl pakiety-sieroty (zainstalowane jako zależności ale nie są już wymagane przez żaden pakiet):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qtdq</code></p>
+
+<ul>
+  <li>Wyczyść całą pamięć podręczną pacmana:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Scc</code></p>

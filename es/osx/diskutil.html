@@ -1,0 +1,28 @@
+<h1 id="diskutil">diskutil</h1>
+
+<p>Utilidad para gestionar discos y volúmenes locales.
+Más información: <a href="https://keith.github.io/xcode-man-pages/diskutil.8.html">https://keith.github.io/xcode-man-pages/diskutil.8.html</a>.</p>
+
+<ul>
+  <li>Lista todos los discos, particiones y volúmenes montados actualmente disponibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil list</code></p>
+
+<ul>
+  <li>Repara las estructuras de datos del sistema de archivos de un volumen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil repairVolume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disk_device</span></p>
+
+<ul>
+  <li>Desmonta un volumen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil unmountDisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disk_device</span></p>
+
+<ul>
+  <li>Expulsa un CD/DVD (primero lo desmonta):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil eject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disk_device1</span></p>

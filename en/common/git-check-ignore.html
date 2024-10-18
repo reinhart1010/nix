@@ -1,0 +1,34 @@
+<h1 id="git-check-ignore">git check-ignore</h1>
+
+<p>Analyze and debug Git ignore/exclude (".gitignore") files.
+More information: <a href="https://git-scm.com/docs/git-check-ignore">https://git-scm.com/docs/git-check-ignore</a>.</p>
+
+<ul>
+  <li>Check whether a file or directory is ignored:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Check whether multiple files or directories are ignored:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>Use pathnames, one per line, from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --stdin &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_list</span></p>
+
+<ul>
+  <li>Do not check the index (used to debug why paths were tracked and not ignored):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --no-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>Include details about the matching pattern for each path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>

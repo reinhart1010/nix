@@ -1,0 +1,35 @@
+<h1 id="pkill">pkill</h1>
+
+<p>Signal process by name.
+Mostly used for stopping processes.
+More information: <a href="https://www.manned.org/pkill">https://www.manned.org/pkill</a>.</p>
+
+<ul>
+  <li>Kill all processes which match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Kill all processes which match their full command instead of just the process name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill -f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Force kill matching processes (can't be blocked):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill -9 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Send SIGUSR1 signal to processes which match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill -USR1 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Kill the main <code class="language-plaintext highlighter-rouge">firefox</code> process to close the browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill --oldest "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firefox</span><code class="language-plaintext highlighter-rouge">"</code></p>

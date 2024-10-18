@@ -1,0 +1,46 @@
+<h1 id="monodis">monodis</h1>
+
+<p>The Mono Common Intermediate Language (CIL) disassembler.
+More information: <a href="https://www.mono-project.com/docs/tools+libraries/tools/monodis/">https://www.mono-project.com/docs/tools+libraries/tools/monodis/</a>.</p>
+
+<ul>
+  <li>Disassemble an assembly to textual CIL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monodis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.exe</span></p>
+
+<ul>
+  <li>Save the output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monodis --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.il</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.exe</span></p>
+
+<ul>
+  <li>Show information about an assembly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monodis --assembly </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.dll</span></p>
+
+<ul>
+  <li>List the references of an assembly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monodis --assemblyref </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.exe</span></p>
+
+<ul>
+  <li>List all the methods in an assembly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monodis --method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.exe</span></p>
+
+<ul>
+  <li>List resources embedded within an assembly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monodis --manifest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.dll</span></p>
+
+<ul>
+  <li>Extract all the embedded resources to the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monodis --mresources </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.dll</span></p>

@@ -1,0 +1,52 @@
+<h1 id="babel">babel</h1>
+
+<p>Un transpiler che converte codice JavaScript da sintassi ES6/ES7 ad ES5.
+Maggiori informazioni: <a href="https://babeljs.io/">https://babeljs.io/</a>.</p>
+
+<ul>
+  <li>Transpila uno specifico file e stampa il risultato su <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Transpila un file e scrivi il risultato su uno specifico file di output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input</span><code class="language-plaintext highlighter-rouge"> --out-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_output</span></p>
+
+<ul>
+  <li>Transpila un file ogni volta che viene modificato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span><code class="language-plaintext highlighter-rouge"> --watch</code></p>
+
+<ul>
+  <li>Transpila un'intera directory di file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_input</span></p>
+
+<ul>
+  <li>Transpila un'intera directory ignorando specifici file separati da virgola:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_input</span><code class="language-plaintext highlighter-rouge"> --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_ignorati</span></p>
+
+<ul>
+  <li>Transpila minimizzando il codice JavaScript in output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input</span><code class="language-plaintext highlighter-rouge"> --minified</code></p>
+
+<ul>
+  <li>Scegli un insieme di preset per formattare l'output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input</span><code class="language-plaintext highlighter-rouge"> --presets </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">preset</span></p>
+
+<ul>
+  <li>Mostra tutte le opzioni disponibili:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel --help</code></p>

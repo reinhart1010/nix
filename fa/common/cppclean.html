@@ -1,0 +1,28 @@
+<h1 id="cppclean">cppclean</h1>
+
+<p>پیدا کردن کد های بدون استفاده در پروژه های سی پلاس پلاس.
+اطلاعات بیشتر: <a href="https://github.com/myint/cppclean">https://github.com/myint/cppclean</a>.</p>
+
+<ul>
+  <li>اجرا در پوشه ی پروژه:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppclean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project</span></p>
+
+<ul>
+  <li>اجرا روی پروژه درحالی که هدرها در پوشه های <code class="language-plaintext highlighter-rouge">inc1/</code> و <code class="language-plaintext highlighter-rouge">inc2/</code> قرار دارند:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppclean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project</span><code class="language-plaintext highlighter-rouge"> --include-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc1</span><code class="language-plaintext highlighter-rouge"> --include-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc2</span></p>
+
+<ul>
+  <li>اجرا روی فایل دلخواه مانند <code class="language-plaintext highlighter-rouge">main.cpp</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppclean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">main.cpp</span></p>
+
+<ul>
+  <li>اجرا روی پوشه کنونی به استثنای پوشه "build":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppclean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">build</span></p>

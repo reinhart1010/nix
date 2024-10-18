@@ -1,0 +1,46 @@
+<h1 id="mu">mu</h1>
+
+<p>Index and search emails from a local Maildir.
+More information: <a href="https://man.cx/mu">https://man.cx/mu</a>.</p>
+
+<ul>
+  <li>Initialize the email database, optionally specifying the Maildir directory and email addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu init --maildir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --my-address=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name@example.com</span></p>
+
+<ul>
+  <li>Index new emails:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu index</code></p>
+
+<ul>
+  <li>Find messages using a specific keyword (in message body, subject, sender, …):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span></p>
+
+<ul>
+  <li>Find messages to Alice with subject <code class="language-plaintext highlighter-rouge">jellyfish</code> containing the words <code class="language-plaintext highlighter-rouge">apples</code> or <code class="language-plaintext highlighter-rouge">oranges</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu find to:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice</span><code class="language-plaintext highlighter-rouge"> subject:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jellyfish</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apples</span><code class="language-plaintext highlighter-rouge"> OR </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">oranges</span></p>
+
+<ul>
+  <li>Find unread messages about words starting with <code class="language-plaintext highlighter-rouge">soc</code> (the <code class="language-plaintext highlighter-rouge">*</code> only works at the end of the search term) in the Sent Items folder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu find 'subject:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">soc</span><code class="language-plaintext highlighter-rouge">*' flag:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unread</span><code class="language-plaintext highlighter-rouge"> maildir:'/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Sent Items</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Find messages from Sam with attached images, between 2 KiB and 2 MiB, written in 2021:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu find 'mime:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image/*</span><code class="language-plaintext highlighter-rouge"> size:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2k..2m</span><code class="language-plaintext highlighter-rouge"> date:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20210101..20211231</span><code class="language-plaintext highlighter-rouge"> from:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sam</span></p>
+
+<ul>
+  <li>List contacts with <code class="language-plaintext highlighter-rouge">Bob</code> in either name or email address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu cfind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Bob</span></p>

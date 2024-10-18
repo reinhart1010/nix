@@ -1,0 +1,29 @@
+<h1 id="ifs">IFS</h1>
+
+<p>IFS (Internal Field Separator) is a special environment variable that defines the delimiter used for word splitting in Unix shells.
+The default value of IFS is a space, tab, and newline. The three characters serve as delimiters.
+More information: <a href="https://www.gnu.org/software/bash/manual/html_node/Word-Splitting.html">https://www.gnu.org/software/bash/manual/html_node/Word-Splitting.html</a>.</p>
+
+<ul>
+  <li>View the current IFS value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "$IFS"</code></p>
+
+<ul>
+  <li>Change the IFS value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">IFS="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Reset IFS to default:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">IFS=$' \t\n'</code></p>
+
+<ul>
+  <li>Temporarily change the IFS value in a subshell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">(IFS="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge">"; echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">one:two:three</span><code class="language-plaintext highlighter-rouge">")</code></p>

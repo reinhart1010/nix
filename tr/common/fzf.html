@@ -1,0 +1,41 @@
+<h1 id="fzf">fzf</h1>
+
+<p>Komut satırı belirsiz bulucu.
+Sk'ya benzer.
+Daha fazla bilgi için: <a href="https://github.com/junegunn/fzf">https://github.com/junegunn/fzf</a>.</p>
+
+<ul>
+  <li>Belirtilen dizindeki tüm dosyalarda FZF'yi başlat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu/dizin</span><code class="language-plaintext highlighter-rouge"> -type f | fzf</code></p>
+
+<ul>
+  <li>Çalışan süreçler için FZF'yi başlat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps aux | fzf</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Shift + Tab</code> ile birden çok dosya seç ve bir dosyaya yaz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu/dizin</span><code class="language-plaintext highlighter-rouge"> -type f | fzf --multi &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu/dosya</span></p>
+
+<ul>
+  <li>fzf'yi belirli bir sorgu ile başlat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fzf --query "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sorgu</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Core ile başlayan ve Go, RB veya PY ile biten girişlerde fzf'yi başlat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fzf --query "^core go$ | rb$ | py$"</code></p>
+
+<ul>
+  <li>PYC ile eşleşmeyen ve Travis'e tam olarak eşleşen girişlerde fzf'yi başlat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fzf --query "!pyc 'travis"</code></p>

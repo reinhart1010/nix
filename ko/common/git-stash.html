@@ -1,0 +1,52 @@
+<h1 id="git-stash">git stash</h1>
+
+<p>로컬 Git 변경사항을 임시 영역에 저장합니다.
+더 많은 정보: <a href="https://git-scm.com/docs/git-stash">https://git-scm.com/docs/git-stash</a>.</p>
+
+<ul>
+  <li>새롭게 생성한 (Git에서 관리하지 않는) 파일을 제외하고 현재 변경사항을 메시지와 함께 임시 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash push --message </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_message</span></p>
+
+<ul>
+  <li>새롭게 생성한 (Git에서 관리하지 않는) 파일을 포함하여 현재 변경사항을 임시 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash --include-untracked</code></p>
+
+<ul>
+  <li>변경된 파일들의 특정 부분만 선택하여 임시 저장 (대화형 프롬프트):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash --patch</code></p>
+
+<ul>
+  <li>모든 임시 저장 목록 표시 (임시 저장 이름, 관련 브랜치 및 메시지 표시):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash list</code></p>
+
+<ul>
+  <li>임시 저장(기본값은 <code class="language-plaintext highlighter-rouge">stash@{0}</code>)과 해당 임시 저장이 생성된 시점의 커밋 사이의 변경 사항을 터미널에 상세히 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash show --patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stash@{0}</span></p>
+
+<ul>
+  <li>임시 저장 적용 (기본값은 가장 최근 임시 저장인 stash@{0}):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_name_or_commit</span></p>
+
+<ul>
+  <li>임시 저장을 적용하고 (기본값은 stash@{0}), 적용 시 충돌이 없으면 임시 저장 목록에서 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash pop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_name</span></p>
+
+<ul>
+  <li>모든 임시 저장 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash clear</code></p>

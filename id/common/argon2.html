@@ -1,0 +1,28 @@
+<h1 id="argon2">argon2</h1>
+
+<p>Hitung kode hash menggunakan algoritma kriptografi Argon2.
+Informasi lebih lanjut: <a href="https://github.com/P-H-C/phc-winner-argon2#command-line-utility">https://github.com/P-H-C/phc-winner-argon2#command-line-utility</a>.</p>
+
+<ul>
+  <li>Hitung kode hash dari suatu kata kunci (password) dengan suatu kata garam (salt) menggunakan parameter kriptografi bawaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_sandi</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_garam</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Hitung kode hash dengan algoritma tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_sandi</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_garam</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">d|i|id</span></p>
+
+<ul>
+  <li>Jangan tampilkan informasi tambahan selain hasil kode hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_sandi</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_garam</span><code class="language-plaintext highlighter-rouge">" -e</code></p>
+
+<ul>
+  <li>Hitung kode hash dengan konfigurasi wak[t]u, pemanfaatan [m]emori (RAM), dan [p]aralelisme pada pemrosesan kriptografi secara tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_sandi</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_garam</span><code class="language-plaintext highlighter-rouge">" -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span></p>

@@ -1,0 +1,46 @@
+<h1 id="a2ping">a2ping</h1>
+
+<p>Converteer afbeeldingen in EPS- of PDF-bestanden.
+Meer informatie: <a href="https://manned.org/a2ping">https://manned.org/a2ping</a>.</p>
+
+<ul>
+  <li>Converteer een afbeelding naar PDF (Let op: het opgeven van een uitvoerbestandsnaam is optioneel):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pdf</span></p>
+
+<ul>
+  <li>Comprimeer het document met behulp van de opgegeven methode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --nocompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|zip|best|flate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Scan HiResBoundingBox indien aanwezig (Let op: de standaard is yes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --nohires </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Sta pagina-inhoud onder en links van de oorsprong toe (Let op: de standaard is no):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --below </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Geef extra argumenten door aan <code class="language-plaintext highlighter-rouge">gs</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --gsextra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Geef extra argumenten mee aan het externe programma (bijv. <code class="language-plaintext highlighter-rouge">pdftops</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --extra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon de help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping -h</code></p>

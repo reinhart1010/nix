@@ -1,0 +1,22 @@
+<h1 id="lzop">lzop</h1>
+
+<p>Compress or decompress files with LZO compression.
+More information: <a href="https://www.lzop.org/">https://www.lzop.org/</a>.</p>
+
+<ul>
+  <li>Compress a file into a new file with the <code class="language-plaintext highlighter-rouge">.lzo</code> suffix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lzop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Decompress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lzop -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.lzo</span></p>
+
+<ul>
+  <li>Compress a file, while specifying the compression level. 0 = Worst, 9 = Best (Default level is 3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lzop -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">level</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

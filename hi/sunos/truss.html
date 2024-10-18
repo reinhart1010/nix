@@ -1,0 +1,35 @@
+<h1 id="truss">truss</h1>
+
+<p>सिस्टम कॉल को ट्रेस करने के लिए समस्या निराकरण टूल।
+SunOS का संगत strace।
+अधिक जानकारी: <a href="https://www.unix.com/man-page/linux/1/truss">https://www.unix.com/man-page/linux/1/truss</a>।</p>
+
+<ul>
+  <li>एक प्रोग्राम को ट्रेस करने के लिए प्रायोगिकरण करके उसकी सभी उपक्रमों का पालन करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रोग्राम</span></p>
+
+<ul>
+  <li>उसके PID द्वारा एक विशिष्ट प्रक्रिया को ट्रेस करने का प्रारंभ करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>एक प्रोग्राम को ट्रेस करने के लिए प्रायोगिकरण करके उसके आर्ग्यूमेंट और पर्यावरण परियोजना दिखाने का प्रारंभ करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -a -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रोग्राम</span></p>
+
+<ul>
+  <li>प्रत्येक सिस्टम कॉल के लिए समय, कॉल्स, और त्रुटियों की गणना करें और प्रोग्राम बाहर निकलने पर एक संक्षेप रिपोर्ट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -c -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>सिस्टम कॉल के द्वारा आउटपुट को फ़िल्टर करते हुए एक प्रक्रिया को ट्रेस करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">सिस्टम_कॉल_नाम</span></p>

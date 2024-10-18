@@ -1,0 +1,23 @@
+<h1 id="pamtogif">pamtogif</h1>
+
+<p>Convert a Netpbm image into an unanimated GIF image.
+See also: <code class="language-plaintext highlighter-rouge">giftopnm</code>, <code class="language-plaintext highlighter-rouge">gifsicle</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pamtogif.html">https://netpbm.sourceforge.net/doc/pamtogif.html</a>.</p>
+
+<ul>
+  <li>Convert a Netpbm image into an unanimated GIF image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtogif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gif</span></p>
+
+<ul>
+  <li>Mark the specified color as transparent in the output GIF file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtogif -transparent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">color</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gif</span></p>
+
+<ul>
+  <li>Include the specified text as a comment in the output GIF file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtogif -comment "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World!</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gif</span></p>

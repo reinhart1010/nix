@@ -1,0 +1,22 @@
+<h1 id="doctl-databases-sql-mode">doctl databases sql-mode</h1>
+
+<p>View and configure a MySQL database cluster’s global SQL modes.
+More information: <a href="https://docs.digitalocean.com/reference/doctl/reference/databases/sql-mode/">https://docs.digitalocean.com/reference/doctl/reference/databases/sql-mode/</a>.</p>
+
+<ul>
+  <li>Run a <code class="language-plaintext highlighter-rouge">doctl databases sql-mode</code> command with an access token:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases sql-mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access_token</span></p>
+
+<ul>
+  <li>Get a MySQL database cluster's SQL modes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases sql-mode get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span></p>
+
+<ul>
+  <li>Overwrite a MySQL database cluster's SQL modes to the specified modes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases sql-mode set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql_mode_1 sql_mode_2 …</span></p>

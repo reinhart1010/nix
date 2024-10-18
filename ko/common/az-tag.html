@@ -1,0 +1,35 @@
+<h1 id="az-tag">az tag</h1>
+
+<p>리소스에 대한 태그를 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/tag">https://learn.microsoft.com/cli/azure/tag</a>.</p>
+
+<ul>
+  <li>태그 값 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag add-value --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그_이름</span><code class="language-plaintext highlighter-rouge"> --value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그_값</span></p>
+
+<ul>
+  <li>구독에서 태그를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그_이름</span></p>
+
+<ul>
+  <li>구독에서 태그를 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그_이름</span></p>
+
+<ul>
+  <li>구독의 모든 태그 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag list --resource-id /subscriptions/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구독_아이디</span></p>
+
+<ul>
+  <li>특정 태그 이름에 대한 태그 값 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag remove-value --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그_이름</span><code class="language-plaintext highlighter-rouge"> --value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그_값</span></p>

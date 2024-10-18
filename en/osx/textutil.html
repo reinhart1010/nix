@@ -1,0 +1,34 @@
+<h1 id="textutil">textutil</h1>
+
+<p>Manipulate text files of various formats.
+More information: <a href="https://keith.github.io/xcode-man-pages/textutil.1.html">https://keith.github.io/xcode-man-pages/textutil.1.html</a>.</p>
+
+<ul>
+  <li>Display information about <code class="language-plaintext highlighter-rouge">foo.rtf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/foo.rtf</span></p>
+
+<ul>
+  <li>Convert <code class="language-plaintext highlighter-rouge">foo.rtf</code> into <code class="language-plaintext highlighter-rouge">foo.html</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/foo.rtf</span></p>
+
+<ul>
+  <li>Convert rich text to normal text:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/foo.rtf</span><code class="language-plaintext highlighter-rouge"> -convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span></p>
+
+<ul>
+  <li>Convert <code class="language-plaintext highlighter-rouge">foo.txt</code> into <code class="language-plaintext highlighter-rouge">foo.rtf</code>, using Times 10 for the font:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rtf</span><code class="language-plaintext highlighter-rouge"> -font </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Times</span><code class="language-plaintext highlighter-rouge"> -fontsize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/foo.txt</span></p>
+
+<ul>
+  <li>Load all RTF files in the current directory, concatenates their contents, and writes the result out as <code class="language-plaintext highlighter-rouge">index.html</code> with the HTML title set to "Several Files":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> -title "Several Files" -output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/index.html</span><code class="language-plaintext highlighter-rouge"> *.rtf</code></p>

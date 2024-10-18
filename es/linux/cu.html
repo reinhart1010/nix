@@ -1,0 +1,34 @@
+<h1 id="cu">cu</h1>
+
+<p>Llama a otro sistema y actúa como terminal de marcado/serie o realiza transferencias de archivos sin comprobación de errores.
+Más información: <a href="https://manned.org/cu">https://manned.org/cu</a>.</p>
+
+<ul>
+  <li>Abre un puerto serie determinado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span></p>
+
+<ul>
+  <li>Abre un puerto serie determinado con una velocidad en baudios determinada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span><code class="language-plaintext highlighter-rouge"> --speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span></p>
+
+<ul>
+  <li>Abre un puerto serie determinado con una velocidad en baudios determinada y emite un eco de caracteres localmente (modo semidúplex):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span><code class="language-plaintext highlighter-rouge"> --speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span><code class="language-plaintext highlighter-rouge"> --halfduplex</code></p>
+
+<ul>
+  <li>Abre un puerto serie determinado con una velocidad en baudios, paridad y sin control de flujo por hardware o software:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span><code class="language-plaintext highlighter-rouge"> --speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span><code class="language-plaintext highlighter-rouge"> --parity=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">par|odd|none</span><code class="language-plaintext highlighter-rouge"> --nortscts --nostop</code></p>
+
+<ul>
+  <li>Sale de la sesión <code class="language-plaintext highlighter-rouge">cu</code> cuando está conectado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">~.</code></p>

@@ -1,0 +1,35 @@
+<h1 id="xbps-query">xbps-query</h1>
+
+<p>XBPS utility to query for package and repository information.
+See also: <code class="language-plaintext highlighter-rouge">xbps</code>.
+More information: <a href="https://manned.org/xbps-query.1">https://manned.org/xbps-query.1</a>.</p>
+
+<ul>
+  <li>Search for a package in remote repositories using a regular expression or a keyword (if <code class="language-plaintext highlighter-rouge">--regex</code> is omitted):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-query --search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression|keyword</span><code class="language-plaintext highlighter-rouge"> --repository --regex</code></p>
+
+<ul>
+  <li>Show information about an installed package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-query --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Show information about a package in remote repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-query --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> --repository</code></p>
+
+<ul>
+  <li>List packages registered in the package database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-query --list-pkgs</code></p>
+
+<ul>
+  <li>List explicitly installed packages (i.e. not automatically installed as dependencies):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-query --list-manual-pkgs</code></p>

@@ -1,0 +1,46 @@
+<h1 id="scrcpy">scrcpy</h1>
+
+<p>Display and control your Android device on a desktop.
+More information: <a href="https://github.com/Genymobile/scrcpy">https://github.com/Genymobile/scrcpy</a>.</p>
+
+<ul>
+  <li>Display a mirror of a connected device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy</code></p>
+
+<ul>
+  <li>Display a mirror of a specific device based on its ID or IP address (find it under the <code class="language-plaintext highlighter-rouge">adb devices</code> command):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --serial </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0123456789abcdef|192.168.0.1:5555</span></p>
+
+<ul>
+  <li>Start display in fullscreen mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --fullscreen</code></p>
+
+<ul>
+  <li>Rotate the display screen. Each incremental value adds a 90 degree counterclockwise rotation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --rotation </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|2|3</span></p>
+
+<ul>
+  <li>Show touches on physical device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --show-touches</code></p>
+
+<ul>
+  <li>Record display screen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --record </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mp4</span></p>
+
+<ul>
+  <li>Specify the target directory for pushing files to device by drag and drop (non-APK):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --push-target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

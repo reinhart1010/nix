@@ -1,0 +1,34 @@
+<h1 id="transcrypt">transcrypt</h1>
+
+<p>Transparently encrypt files within a Git repository.
+More information: <a href="https://github.com/elasticdog/transcrypt">https://github.com/elasticdog/transcrypt</a>.</p>
+
+<ul>
+  <li>Initialize an unconfigured repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transcrypt</code></p>
+
+<ul>
+  <li>List the currently encrypted files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-crypt</code></p>
+
+<ul>
+  <li>Display the credentials of a configured repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transcrypt --display</code></p>
+
+<ul>
+  <li>Initialize and decrypt a fresh clone of a configured repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transcrypt --cipher=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cipher</span></p>
+
+<ul>
+  <li>Rekey to change the encryption cipher or password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transcrypt --rekey</code></p>

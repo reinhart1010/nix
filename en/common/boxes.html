@@ -1,0 +1,46 @@
+<h1 id="boxes">boxes</h1>
+
+<p>Draw, remove, and repair ASCII art boxes.
+More information: <a href="https://boxes.thomasjensen.com/boxes-man-1.html">https://boxes.thomasjensen.com/boxes-man-1.html</a>.</p>
+
+<ul>
+  <li>Draw a box around a string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" | boxes</code></p>
+
+<ul>
+  <li>[r]emove a box from a string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" | boxes -r</code></p>
+
+<ul>
+  <li>Specify the box [d]esign:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" | boxes -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parchment</span></p>
+
+<ul>
+  <li>Specify the box [s]ize (in columns by lines):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" | boxes -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>[a]lign the box text [h]orizonally (at [l]eft, [c]enter or [r]ight):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" | boxes -a h</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">l|c|r</span></p>
+
+<ul>
+  <li>[a]lign the box text [v]ertically (at [t]op, [c]enter or [b]ottom):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" | boxes -a v</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">t|c|b</span></p>
+
+<ul>
+  <li>[j]ustify the box text (at [l]eft, [c]enter or [r]ight):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" | boxes -a j</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">l|c|r</span><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vt</span></p>

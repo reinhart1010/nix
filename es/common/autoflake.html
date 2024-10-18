@@ -1,0 +1,28 @@
+<h1 id="autoflake">autoflake</h1>
+
+<p>Una herramienta para eliminar importaciones y variables no utilizadas del código Python.
+Más información: <a href="https://github.com/myint/autoflake">https://github.com/myint/autoflake</a>.</p>
+
+<ul>
+  <li>Elimina las variables no utilizadas de un archivo y muestra la diferencia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.py</span></p>
+
+<ul>
+  <li>Elimina las importaciones no utilizadas de varios archivos y muestra las diferencias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-all-unused-imports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.py ruta/al/archivo2.py …</span></p>
+
+<ul>
+  <li>Elimina variables no utilizadas de un fichero, sobrescribiendo el fichero:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables --in-place </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.py</span></p>
+
+<ul>
+  <li>Elimina recursivamente las variables no utilizadas de todos los archivos de un directorio, sobrescribiendo cada archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables --in-place --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>

@@ -1,0 +1,46 @@
+<h1 id="bq">bq</h1>
+
+<p>A Python-based tool for BigQuery, Google Cloud's fully managed and completely serverless enterprise data warehouse.
+More information: <a href="https://cloud.google.com/bigquery/docs/reference/bq-cli-reference">https://cloud.google.com/bigquery/docs/reference/bq-cli-reference</a>.</p>
+
+<ul>
+  <li>Run query against a BigQuery table using standard SQL, add <code class="language-plaintext highlighter-rouge">--dry_run</code> flag to estimate the number of bytes read by the query:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq query --nouse_legacy_sql 'SELECT COUNT(*) FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DATASET_NAME</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TABLE_NAME</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Run a parameterized query:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq query --use_legacy_sql=false --parameter='ts_value:TIMESTAMP:2016-12-07 08:00:00' 'SELECT TIMESTAMP_ADD(@ts_value, INTERVAL 1 HOUR)'</code></p>
+
+<ul>
+  <li>Create a new dataset or table in the US location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq mk --location=US </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dataset_name</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span></p>
+
+<ul>
+  <li>List all datasets in a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq ls --filter labels.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> --max_results </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">integer</span><code class="language-plaintext highlighter-rouge"> --format=prettyjson --project_id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_id</span></p>
+
+<ul>
+  <li>Batch load data from a specific file in formats such as CSV, JSON, Parquet, and Avro to a table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq load --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">location</span><code class="language-plaintext highlighter-rouge"> --source_format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CSV|JSON|PARQUET|AVRO</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dataset</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path_to_source</span></p>
+
+<ul>
+  <li>Copy one table to another:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dataset</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">OLD_TABLE</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dataset</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_table</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq help</code></p>

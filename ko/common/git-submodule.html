@@ -1,0 +1,28 @@
+<h1 id="git-submodule">git submodule</h1>
+
+<p>서브모듈을 검사하고 업데이트하며 관리합니다.
+더 많은 정보: <a href="https://git-scm.com/docs/git-submodule">https://git-scm.com/docs/git-submodule</a>.</p>
+
+<ul>
+  <li>저장소의 지정된 서브모듈 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git submodule update --init --recursive</code></p>
+
+<ul>
+  <li>Git 저장소를 서브모듈로 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git submodule add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>
+
+<ul>
+  <li>Git 저장소를 지정된 폴더에 서브모듈로 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git submodule add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>모든 서브모듈을 최신 커밋으로 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git submodule foreach git pull</code></p>

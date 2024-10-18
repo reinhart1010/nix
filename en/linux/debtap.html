@@ -1,0 +1,29 @@
+<h1 id="debtap">debtap</h1>
+
+<p>Convert Debian packages into Arch Linux packages.
+See also: <code class="language-plaintext highlighter-rouge">pacman-upgrade</code>.
+More information: <a href="https://github.com/helixarch/debtap">https://github.com/helixarch/debtap</a>.</p>
+
+<ul>
+  <li>Update debtap database (before the first run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debtap --update</code></p>
+
+<ul>
+  <li>Convert the specified package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debtap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.deb</span></p>
+
+<ul>
+  <li>Convert the specified package bypassing all questions, except for editing metadata files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debtap --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.deb</span></p>
+
+<ul>
+  <li>Generate a PKGBUILD file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debtap --pkgbuild </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.deb</span></p>

@@ -1,0 +1,34 @@
+<h1 id="xbacklight">xbacklight</h1>
+
+<p>Outil pour ajuster la luminosité du rétroéclairage en utilisant l'extension RandR.
+Plus d'informations : <a href="https://gitlab.freedesktop.org/xorg/app/xbacklight">https://gitlab.freedesktop.org/xorg/app/xbacklight</a>.</p>
+
+<ul>
+  <li>Obtient le niveau de luminosité de l'écran actuel comme un pourcentage :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbacklight</code></p>
+
+<ul>
+  <li>Régle la luminosité de l'écran à 40% :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbacklight -set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">40</span></p>
+
+<ul>
+  <li>Augmente la luminosité de l'écran actuel de 25% :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbacklight -inc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span></p>
+
+<ul>
+  <li>Diminue la luminosité de l'écran actuel de 75% :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbacklight -dec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">75</span></p>
+
+<ul>
+  <li>Augment la luminosité de l'écran à 100%, étendu sur 60 secondes (valeur donnée en ms), en 60 pas :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbacklight -set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> -time </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60000</span><code class="language-plaintext highlighter-rouge"> -steps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span></p>

@@ -1,0 +1,40 @@
+<h1 id="daemon">daemon</h1>
+
+<p>Run processes into daemons.
+More information: <a href="https://manned.org/daemon">https://manned.org/daemon</a>.</p>
+
+<ul>
+  <li>Run a command as a daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run a command as a daemon which will restart if the command crashes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">" --respawn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run a command as a daemon which will restart if it crashes, with two attempts every 10 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">" --respawn --attempts=2 --delay=10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run a command as a daemon, writing logs to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">" --errlog=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.log</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Kill a daemon (SIGTERM):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">" --stop</code></p>
+
+<ul>
+  <li>List daemons:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --list</code></p>

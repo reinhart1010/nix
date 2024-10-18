@@ -1,0 +1,29 @@
+<h1 id="srm">srm</h1>
+
+<p>Securely remove files or directories.
+Overwrites the existing data one or multiple times. Drop in replacement for rm.
+More information: <a href="https://srm.sourceforge.net/srm.html">https://srm.sourceforge.net/srm.html</a>.</p>
+
+<ul>
+  <li>Remove a file after a single-pass overwriting with random data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">srm -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Remove a file after seven passes of overwriting with random data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">srm -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Recursively remove a directory and its contents overwriting each file with a single-pass of random data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">srm -r -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Prompt before every removal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">srm -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>

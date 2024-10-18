@@ -1,0 +1,34 @@
+<h1 id="genid">genid</h1>
+
+<p>Generate IDs, such as snowflakes, UUIDs, and a new GAID.
+More information: <a href="https://github.com/bleonard252/genid">https://github.com/bleonard252/genid</a>.</p>
+
+<ul>
+  <li>Generate a UUIDv4:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genid uuid</code></p>
+
+<ul>
+  <li>Generate a UUIDv5 using a namespace UUID and a specific name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genid uuidv5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ce598faa-8dd0-49ee-8525-9e24fff71dca</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Generate a Discord Snowflake, without a trailing newline (useful in shell scripts):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genid --script snowflake</code></p>
+
+<ul>
+  <li>Generate a Generic Anonymous ID with a specific "real ID":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genid gaid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">real_id</span></p>
+
+<ul>
+  <li>Generate a Snowflake with the epoch set to a specific date:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genid snowflake --epoch=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unix_epoch_time</span></p>

@@ -1,0 +1,40 @@
+<h1 id="yum">yum</h1>
+
+<p>Gerenciador de pacotes utilitário para RHEL, Fedora e CentOS (para outras versões).
+Mais informações: <a href="https://manned.org/yum">https://manned.org/yum</a>.</p>
+
+<ul>
+  <li>Instala um novo pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Instala um novo pacote assumindo sim para todas as perguntas (também funciona com atualizações, ótimo para atualizações automáticas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum -y install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Localiza o pacote que providência um comando particular:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum provides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Remove um pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Exibe atualizações disponíveis para pacotes instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum check-update</code></p>
+
+<ul>
+  <li>Atualiza pacotes instalados para as novas versões disponíveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yum upgrade</code></p>

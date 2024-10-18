@@ -1,0 +1,41 @@
+<h1 id="bspc">bspc</h1>
+
+<p>Configura e controla <code class="language-plaintext highlighter-rouge">bspwm</code>, gerenciando nós, áreas de trabalho, monitores, e outros.
+Veja também: <code class="language-plaintext highlighter-rouge">bspwm</code>.
+Mais informações: <a href="https://github.com/baskerville/bspwm">https://github.com/baskerville/bspwm</a>.</p>
+
+<ul>
+  <li>Define duas áreas de trabalho virtuais:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc monitor --reset-desktops </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_area_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_area_2</span></p>
+
+<ul>
+  <li>Foca em uma área de trabalho determinada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc desktop --focus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero</span></p>
+
+<ul>
+  <li>Fecha as janelas atreladas ao nó selecionado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --close</code></p>
+
+<ul>
+  <li>Envia o nó selecionado para uma área de trabalho determinada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --to-desktop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero</span></p>
+
+<ul>
+  <li>Alterna o nó selecionado para modo de tela cheia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --state ~fullscreen</code></p>
+
+<ul>
+  <li>Define o valor de uma configuração específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_configuracao</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span></p>

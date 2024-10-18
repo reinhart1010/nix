@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="fping">fping</h1>
+
+<p>Utilitas ping lebih kuat yang dapat melakukan proses ping pada lebih dari satu host.
+Informasi lebih lanjut: <a href="https://fping.org">https://fping.org</a>.</p>
+
+<ul>
+  <li>Tampilkan daftar seluruh host yang aktif dalam suatu subjaringan menurut definisi network mask (netmask):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–alive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–generate</span><code class="language-plaintext highlighter-rouge"> 192.168.1.0/24</code></p>
+
+<ul>
+  <li>Tampilkan daftar seluruh host yang aktif dalam suatu subjaringan berdasarkan rentang alamat IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–alive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–generate</span><code class="language-plaintext highlighter-rouge"> 192.168.1.1 192.168.1.254</code></p>
+
+<ul>
+  <li>Tampilkan daftar seluruh host yang tidak aktif dalam suatu subjaringan menurut definisi network mask (netmask):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–unreach</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–generate</span><code class="language-plaintext highlighter-rouge"> 192.168.1.0/24</code></p>

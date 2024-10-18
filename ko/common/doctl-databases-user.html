@@ -1,0 +1,46 @@
+<h1 id="doctl-databases-user">doctl databases user</h1>
+
+<p>데이터베이스 사용자에 대한 세부 정보를 보고 생성.
+더 많은 정보: <a href="https://docs.digitalocean.com/reference/doctl/reference/databases/user">https://docs.digitalocean.com/reference/doctl/reference/databases/user</a>.</p>
+
+<ul>
+  <li>액세스 토큰을 사용하여 <code class="language-plaintext highlighter-rouge">doctl databases user</code> 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access_token</span></p>
+
+<ul>
+  <li>데이터베이스 사용자에 대한 세부 정보를 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_이름</span></p>
+
+<ul>
+  <li>특정 데이터베이스에 대한 데이터베이스 사용자 목록을 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span></p>
+
+<ul>
+  <li>특정 사용자의 인증 비밀번호를 재설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_이름</span></p>
+
+<ul>
+  <li>특정 사용자에 대한 MySQL 인증 플러그인 재설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caching_sha2_password|mysql_native_password</span></p>
+
+<ul>
+  <li>주어진 사용자 이름으로 주어진 데이터베이스에 사용자를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_이름</span></p>
+
+<ul>
+  <li>주어진 사용자 이름을 가진 주어진 데이터베이스에서 사용자를 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_이름</span></p>

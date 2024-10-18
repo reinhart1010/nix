@@ -1,0 +1,47 @@
+<h1 id="quickemu">quickemu</h1>
+
+<p>Build and manage highly optimised desktop virtual machines quickly.
+See also: <code class="language-plaintext highlighter-rouge">quickget</code>, for preparing VM configurations.
+More information: <a href="https://github.com/quickemu-project/quickemu">https://github.com/quickemu-project/quickemu</a>.</p>
+
+<ul>
+  <li>Create and run a virtual machine from a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.conf</span></p>
+
+<ul>
+  <li>Do not commit any changes to disk/snapshot but write any changes to temporary files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --status-quo --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.conf</span></p>
+
+<ul>
+  <li>Start the virtual machine in full-screen mode (<Ctrl> + <Alt> + f to exit) and select the display backend (`sdl` by default):</Alt></Ctrl></li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --fullscreen --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdl|gtk|spice|spice-app|none</span><code class="language-plaintext highlighter-rouge"> --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.conf</span></p>
+
+<ul>
+  <li>Select a virtual audio device to emulate and create a desktop shortcut:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --sound-card </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intel-hda|ac97|es1370|sb16|none</span><code class="language-plaintext highlighter-rouge"> --shortcut --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.conf</span></p>
+
+<ul>
+  <li>Create a snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --snapshot create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge"> --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.conf</span></p>
+
+<ul>
+  <li>Restore a snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --snapshot apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge"> --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.conf</span></p>
+
+<ul>
+  <li>Delete a snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --snapshot delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge"> --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.conf</span></p>

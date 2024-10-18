@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-remote">git remote</h1>
+
+<p>Verwalte eine gewisse Anzahl an Repositories (remotes).
+Weitere Informationen: <a href="https://git-scm.com/docs/git-remote">https://git-scm.com/docs/git-remote</a>.</p>
+
+<ul>
+  <li>Liste alle existierenden Remotes, ihre Namen und ihre URLs auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span></p>
+
+<ul>
+  <li>Zeige Informationen über ein Remote an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span></p>
+
+<ul>
+  <li>Füge ein neues Remote hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_url</span></p>
+
+<ul>
+  <li>Ändere die URL eines Remotes (benutze <code class="language-plaintext highlighter-rouge">--add</code> um die existierende URL zu behalten):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote set-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_url</span></p>
+
+<ul>
+  <li>Entferne ein Remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span></p>
+
+<ul>
+  <li>Benenne ein Remote um:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alter_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">neuer_name</span></p>

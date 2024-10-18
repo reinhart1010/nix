@@ -1,0 +1,28 @@
+<h1 id="rekor-cli">rekor-cli</h1>
+
+<p>Immutable tamper resistant ledger of metadata generated within a software projects supply chain.
+More information: <a href="https://github.com/sigstore/rekor">https://github.com/sigstore/rekor</a>.</p>
+
+<ul>
+  <li>Upload an artifact to Rekor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rekor-cli upload --artifact </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ext</span><code class="language-plaintext highlighter-rouge"> --signature </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ext.sig</span><code class="language-plaintext highlighter-rouge"> --pki-format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x509</span><code class="language-plaintext highlighter-rouge"> --public-key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key.pub</span></p>
+
+<ul>
+  <li>Get information regarding entries in the Transparency Log:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rekor-cli get --uuid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0e81b4d9299e2609e45b5c453a4c0e7820ac74e02c4935a8b830d104632fd2d1</span></p>
+
+<ul>
+  <li>Search the Rekor index to find entries by Artifact:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rekor-cli search --artifact </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ext</span></p>
+
+<ul>
+  <li>Search the Rekor index to find entries by a specific hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rekor-cli search --sha </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b</span></p>

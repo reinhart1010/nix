@@ -1,0 +1,28 @@
+<h1 id="crane-index-filter">crane index filter</h1>
+
+<p>플랫폼 기반 필터링을 통해 원격 인덱스를 수정.
+더 많은 정보: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_index_filter.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_index_filter.md</a>.</p>
+
+<ul>
+  <li>원격 인덱스 수정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane index filter</code></p>
+
+<ul>
+  <li>os/arch<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;/variant&lt;/span&gt;&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;:osversion&lt;/span&gt;&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;,&lt;platform&gt;&lt;/span&gt;</code> 형식으로 기본에서 유지할 플랫폼을 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane index filter --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">플랫폼1 플랫폼2 …</span></p>
+
+<ul>
+  <li>결과 이미지에 적용할 태그 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane index filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–tags</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그_이름</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane index filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

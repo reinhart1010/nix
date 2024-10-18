@@ -1,0 +1,29 @@
+<h1 id="envsubst">envsubst</h1>
+
+<p>Sostituisci variabili di ambiente con il loro valore in stringhe di formato della shell.
+Le variabili da sostituire devono essere nella forma <code class="language-plaintext highlighter-rouge">${var}</code> oppure <code class="language-plaintext highlighter-rouge">$var</code>.
+Maggiori informazioni: <a href="https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html">https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html</a>.</p>
+
+<ul>
+  <li>Sostituisci variabili di ambiente in <code class="language-plaintext highlighter-rouge">stdin</code> e stampa l'output su <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$HOME</span><code class="language-plaintext highlighter-rouge">' | envsubst</code></p>
+
+<ul>
+  <li>Sostituisci variabili di ambiente in un file input e stampa l'output su <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envsubst &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input</span></p>
+
+<ul>
+  <li>Sostituisci variabili di ambiente in un file input e scrivi l'output su un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envsubst &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_output</span></p>
+
+<ul>
+  <li>Sostituisci in un file input le variabili di ambiente specificate in una lista separata da spazi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envsubst '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$USER $HOME $SHELL</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input</span></p>

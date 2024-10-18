@@ -1,0 +1,41 @@
+<h1 id="tcsh">tcsh</h1>
+
+<p>C shell with file name completion and command-line editing.
+See also: <code class="language-plaintext highlighter-rouge">csh</code>.
+More information: <a href="https://manned.org/tcsh">https://manned.org/tcsh</a>.</p>
+
+<ul>
+  <li>Start an interactive shell session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcsh</code></p>
+
+<ul>
+  <li>Start an interactive shell session without loading startup configs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcsh -f</code></p>
+
+<ul>
+  <li>Execute specific [c]ommands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcsh -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'tcsh is executed'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Execute a specific script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.tcsh</span></p>
+
+<ul>
+  <li>Check a specific script for syntax errors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcsh -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.tcsh</span></p>
+
+<ul>
+  <li>Execute specific commands from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'tcsh is executed'"</span><code class="language-plaintext highlighter-rouge"> | tcsh</code></p>

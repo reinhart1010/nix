@@ -1,0 +1,41 @@
+<h1 id="skopeo">skopeo</h1>
+
+<p>Container image management toolbox.
+Provides various utility commands to manage remote container images.
+More information: <a href="https://github.com/containers/skopeo">https://github.com/containers/skopeo</a>.</p>
+
+<ul>
+  <li>Inspect a remote image from a registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skopeo inspect docker://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_hostname</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image:tag</span></p>
+
+<ul>
+  <li>List available tags for a remote image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skopeo list-tags docker://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_hostname</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Download an image from a registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skopeo copy docker://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_hostname</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image:tag</span><code class="language-plaintext highlighter-rouge"> dir:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Copy an image from one registry to another:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skopeo copy docker://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_registry</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image:tag</span><code class="language-plaintext highlighter-rouge"> docker://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_registry</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image:tag</span></p>
+
+<ul>
+  <li>Delete an image from a registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skopeo delete docker://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_hostname</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image:tag</span></p>
+
+<ul>
+  <li>Log in to a registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skopeo login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_hostname</span></p>

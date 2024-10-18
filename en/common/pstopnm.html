@@ -1,0 +1,22 @@
+<h1 id="pstopnm">pstopnm</h1>
+
+<p>Convert a PostScript file to a PNM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/pstopnm.html">https://netpbm.sourceforge.net/doc/pstopnm.html</a>.</p>
+
+<ul>
+  <li>Convert a PS file to PNM images, storing page N of the input to <code class="language-plaintext highlighter-rouge">path/to/fileN.ppm</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pstopnm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ps</span></p>
+
+<ul>
+  <li>Explicitly specify the output format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pstopnm -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pbm|pgm|ppm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ps</span></p>
+
+<ul>
+  <li>Specify the resolution of the output in dots per inch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pstopnm -dpi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ps</span></p>

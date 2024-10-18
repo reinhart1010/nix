@@ -1,0 +1,34 @@
+<h1 id="rawtoppm">rawtoppm</h1>
+
+<p>Convert a raw RGB stream to a PPM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/rawtoppm.html">https://netpbm.sourceforge.net/doc/rawtoppm.html</a>.</p>
+
+<ul>
+  <li>Convert a raw RGB stream to a PPM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rawtoppm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.raw</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Convert a raw RGB stream in which the pixels come bottom-first instead of top-first to a PPM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rawtoppm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.raw</span><code class="language-plaintext highlighter-rouge"> | pamflip -tb &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Ignore the first n bytes of the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rawtoppm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span><code class="language-plaintext highlighter-rouge"> -headerskip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.raw</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Ignore the last m bytes of each row in the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rawtoppm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span><code class="language-plaintext highlighter-rouge"> -rowskip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.raw</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Specify the order of color components for each pixel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rawtoppm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rgb|rbg|grb|gbr|brg|bgr</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.raw</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>

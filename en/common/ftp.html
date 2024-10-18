@@ -1,0 +1,52 @@
+<h1 id="ftp">ftp</h1>
+
+<p>Tools to interact with a server via File Transfer Protocol.
+More information: <a href="https://manned.org/ftp">https://manned.org/ftp</a>.</p>
+
+<ul>
+  <li>Connect to an FTP server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp.example.com</span></p>
+
+<ul>
+  <li>Connect to an FTP server specifying its IP address and port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Switch to binary transfer mode (graphics, compressed files, etc):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binary</code></p>
+
+<ul>
+  <li>Transfer multiple files without prompting for confirmation on every file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prompt off</code></p>
+
+<ul>
+  <li>Download multiple files (glob expression):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.png</span></p>
+
+<ul>
+  <li>Upload multiple files (glob expression):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip</span></p>
+
+<ul>
+  <li>Delete multiple files on the remote server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span></p>
+
+<ul>
+  <li>Rename a file on the remote server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">original_filename</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_filename</span></p>

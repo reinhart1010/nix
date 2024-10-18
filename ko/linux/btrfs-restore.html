@@ -1,0 +1,34 @@
+<h1 id="btrfs-restore">btrfs restore</h1>
+
+<p>손상된 btrfs 파일 시스템에서 파일을 복구하려고 시도합니다.
+더 많은 정보: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-restore.html">https://btrfs.readthedocs.io/en/latest/btrfs-restore.html</a>.</p>
+
+<ul>
+  <li>btrfs 파일 시스템에서 모든 파일을 지정된 디렉토리로 복원:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_장치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상_폴더</span></p>
+
+<ul>
+  <li>btrfs 파일 시스템에서 복원할 파일 목록 표시 (복원하지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs restore --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_장치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상_폴더</span></p>
+
+<ul>
+  <li>주어진 정규 표현식과 일치하는 파일을 btrfs 파일 시스템에서 복원 ([대]소문자 구분 없음, 대상 파일의 모든 상위 디렉토리도 일치해야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs restore --path-regex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규식</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_장치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상_폴더</span></p>
+
+<ul>
+  <li>특정 루트 트리 <code class="language-plaintext highlighter-rouge">bytenr</code>를 사용하여 btrfs 파일 시스템에서 파일 복원 (<code class="language-plaintext highlighter-rouge">btrfs-find-root</code> 참조):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs restore -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bytenr</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_장치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상_폴더</span></p>
+
+<ul>
+  <li>btrfs 파일 시스템에서 메타데이터, 확장 속성, 심볼릭 링크와 함께 파일을 복원하여 대상의 파일을 덮어쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs restore --metadata --xattr --symlinks --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_장치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상_폴더</span></p>

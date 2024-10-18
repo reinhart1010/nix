@@ -1,0 +1,41 @@
+<h1 id="dumpsys">dumpsys</h1>
+
+<p>Android tizimi xizmatlari to'g'risida malumot berish.
+Bu buyruq faqatgina <code class="language-plaintext highlighter-rouge">adb shell</code> bilan ishlatiladi.
+Ko'proq malumot: <a href="https://developer.android.com/tools/dumpsys">https://developer.android.com/tools/dumpsys</a>.</p>
+
+<ul>
+  <li>Tizimning barcha xizmatlari haqida tahliliy malumot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys</code></p>
+
+<ul>
+  <li>Biron xizmat to'g'risida tahliliy malumot olish:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span></p>
+
+<ul>
+  <li>Buyrug'idagi barcha xizmatlarni chiqaradi <code class="language-plaintext highlighter-rouge">dumpsys</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -l</code></p>
+
+<ul>
+  <li>Xizmatning argumentlarini chiqaradi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span><code class="language-plaintext highlighter-rouge"> -h</code></p>
+
+<ul>
+  <li>Tahliliy malumotlar ro'yhatidan biron xizmatni qoldirish:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys --skip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span></p>
+
+<ul>
+  <li>Time out ni belgilash (sekundlarda):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sekund</span></p>

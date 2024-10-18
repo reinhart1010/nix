@@ -1,0 +1,34 @@
+<h1 id="docker-logs">docker logs</h1>
+
+<p>Zeige Container Logs.
+Weitere Informationen: <a href="https://docs.docker.com/reference/cli/docker/container/logs/">https://docs.docker.com/reference/cli/docker/container/logs/</a>.</p>
+
+<ul>
+  <li>Zeige die Logs eines Containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Zeige die Logs und aktualisiere sie automatisch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Zeige die letzten 5 Zeilen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> --tail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Zeige die Logs und füge ihnen Zeitstempel hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Zeige Logs vor einem bestimmten Zeitpunkt der Ausführung des Containers (bspw. 23m, 10s, 2013-01-02T13:23:37):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> --until </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">time</span></p>

@@ -1,0 +1,22 @@
+<h1 id="git-cherry">git cherry</h1>
+
+<p>Rechercher des commits qui n'ont pas encore été appliqués en amont.
+Plus d'informations : <a href="https://git-scm.com/docs/git-cherry">https://git-scm.com/docs/git-cherry</a>.</p>
+
+<ul>
+  <li>Afficher les commits (et leurs messages) avec des commits équivalents en amont :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span></p>
+
+<ul>
+  <li>Spécifiez une branche amont et une branche de rubrique différentes :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origin</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span></p>
+
+<ul>
+  <li>Limiter les commits à ceux dans la limite donnée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origin</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base</span></p>

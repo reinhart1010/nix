@@ -1,0 +1,36 @@
+<h1 id="diskutil-partitiondisk">diskutil partitionDisk</h1>
+
+<p>Utilidad para gestionar particiones en discos y volúmenes.
+Parte de <code class="language-plaintext highlighter-rouge">diskutil</code>.
+APM solo es compatible con macOS, MBR está optimizado para DOS, mientras que GPT es compatible con la mayoría de los sistemas operativos modernos.
+Más información: <a href="https://keith.github.io/xcode-man-pages/diskutil.8.html">https://keith.github.io/xcode-man-pages/diskutil.8.html</a>.</p>
+
+<ul>
+  <li>Reformatea un volumen usando el esquema de particionado APM/MBR/GPT, sin dejar particiones en su interior (esto borrará todos los datos del volumen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil partitionDisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_de_disco</span><code class="language-plaintext highlighter-rouge"> 0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">APM|MBR|GPT</span></p>
+
+<ul>
+  <li>Reformatea un volumen, luego crea una única partición usando un sistema de archivos específico llenando todo el espacio libre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil partitionDisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_de_disco</span><code class="language-plaintext highlighter-rouge"> 1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">APM|MBR|GPT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partición_con_sistema_de_archivos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_partición</span></p>
+
+<ul>
+  <li>Reformatea un volumen, luego crea una única partición con un sistema de archivos y tamaño específico (ej. <code class="language-plaintext highlighter-rouge">16G</code> para 16GB o <code class="language-plaintext highlighter-rouge">50%</code> para llenar la mitad del tamaño total del volumen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil partitionDisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_de_disco</span><code class="language-plaintext highlighter-rouge"> 1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">APM|MBR|GPT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partición_con_sistema_de_archivos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_partición</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tamaño_de_partición</span></p>
+
+<ul>
+  <li>Reformatea un volumen y crea múltiples particiones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil partitionDisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_disco</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_particiones</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">APM|MBR|GPT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partición_sistema_archivos1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_partición1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tamaño_partición1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partición_sistema_archivos2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_partición2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tamaño_partición2</span><code class="language-plaintext highlighter-rouge"> ...</code></p>
+
+<ul>
+  <li>Lista todos los sistemas de ficheros soportados para particionar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil listFilesystems</code></p>

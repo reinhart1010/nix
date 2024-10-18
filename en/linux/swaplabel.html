@@ -1,0 +1,23 @@
+<h1 id="swaplabel">swaplabel</h1>
+
+<p>Print or change the label or UUID of a swap area.
+Note: <code class="language-plaintext highlighter-rouge">path/to/file</code> can either point to a regular file or a swap partition.
+More information: <a href="https://manned.org/swaplabel">https://manned.org/swaplabel</a>.</p>
+
+<ul>
+  <li>Display the current label and UUID of a swap area:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swaplabel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Set the label of a swap area:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swaplabel --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_label</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Set the UUID of a swap area (you can generate a UUID using <code class="language-plaintext highlighter-rouge">uuidgen</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swaplabel --uuid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_uuid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

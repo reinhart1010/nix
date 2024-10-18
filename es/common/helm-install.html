@@ -1,0 +1,46 @@
+<h1 id="helm-install">helm install</h1>
+
+<p>Instala un chart de helm.
+Más información: <a href="https://helm.sh/docs/intro/using_helm/#helm-install-installing-a-package">https://helm.sh/docs/intro/using_helm/#helm-install-installing-a-package</a>.</p>
+
+<ul>
+  <li>Instala un chart de helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_repositorio</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_chart</span></p>
+
+<ul>
+  <li>Instala un chart de helm desde un directorio de chart desempaquetado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_de_origen</span></p>
+
+<ul>
+  <li>Instala un chart de helm desde una URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_paquete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/charts/packagename-1.2.3.tgz</span></p>
+
+<ul>
+  <li>Instala un chart de helm y genera un nombre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_repositorio</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_chart</span><code class="language-plaintext highlighter-rouge"> --generate-name</code></p>
+
+<ul>
+  <li>Realiza una simulación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_repositorio</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_chart</span><code class="language-plaintext highlighter-rouge"> --dry-run</code></p>
+
+<ul>
+  <li>Instala un chart de helm con valores personalizados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_repositorio</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_chart</span><code class="language-plaintext highlighter-rouge"> --set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parámetro1</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parámetro2</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor2</span></p>
+
+<ul>
+  <li>Instala un chart de helm pasando un archivo de valores personalizados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_repositorio</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_chart</span><code class="language-plaintext highlighter-rouge"> --values </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/valores.yaml</span></p>

@@ -1,0 +1,23 @@
+<h1 id="ocamlfind">ocamlfind</h1>
+
+<p>The findlib package manager for OCaml.
+Simplifies linking executables with external libraries.
+More information: <a href="https://projects.camlcity.org/projects/findlib.html">https://projects.camlcity.org/projects/findlib.html</a>.</p>
+
+<ul>
+  <li>Compile a source file to a native binary and link with packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocamlfind ocamlopt -package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package2</span><code class="language-plaintext highlighter-rouge"> -linkpkg -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.ml</span></p>
+
+<ul>
+  <li>Compile a source file to a bytecode binary and link with packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocamlfind ocamlc -package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package2</span><code class="language-plaintext highlighter-rouge"> -linkpkg -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.ml</span></p>
+
+<ul>
+  <li>Cross-compile for a different platform:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocamlfind -toolchain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cross-toolchain</span><code class="language-plaintext highlighter-rouge"> ocamlopt -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.ml</span></p>

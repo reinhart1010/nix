@@ -1,0 +1,53 @@
+<h1 id="vim">vim</h1>
+
+<p>Vi IMproved，一个程序员的文本编辑器，提供为不同类型的文档修改设计的多种模式。
+按 <code class="language-plaintext highlighter-rouge">i</code> 进入插入模式。<code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> 返回正常模式，正常模式允许使用 Vim 命令。
+更多信息：<a href="https://www.vim.org">https://www.vim.org</a>.</p>
+
+<ul>
+  <li>打开文档：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span></p>
+
+<ul>
+  <li>打开文件的指定行数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">行数</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span></p>
+
+<ul>
+  <li>查看 Vim 的使用说明：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:help&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>保存并退出：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter>&lt;/span&gt;</Enter></span></p>
+
+<ul>
+  <li>撤销上一个操作：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;u</code></p>
+
+<ul>
+  <li>用特征（pattern）在文件中搜寻，按下 <code class="language-plaintext highlighter-rouge">n</code>/<code class="language-plaintext highlighter-rouge">N</code> 切换至上 / 下一个结果：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">特征</span><code class="language-plaintext highlighter-rouge">&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>对整个文件使用正则表达式进行替换：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">正则表达式</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">替换字</span><code class="language-plaintext highlighter-rouge">/g&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>显示行号：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:set nu&lt;Enter&gt;</code></p>

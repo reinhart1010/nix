@@ -1,0 +1,46 @@
+<h1 id="wmic">wmic</h1>
+
+<p>Interactive shell for detailed information about running processes.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/wmic">https://learn.microsoft.com/windows-server/administration/windows-commands/wmic</a>.</p>
+
+<ul>
+  <li>Fundamental grammar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmic </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alias</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">where_clause</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">verb_clause</span></p>
+
+<ul>
+  <li>Show brief details about the currently running processes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmic process list brief</code></p>
+
+<ul>
+  <li>Show full details about the currently running processes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmic process list full</code></p>
+
+<ul>
+  <li>Access specific fields such as process name, process ID and parent process ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmic process get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name,processid,parentprocessid</span></p>
+
+<ul>
+  <li>Display information about a specific process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmic process where </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name="example.exe"</span><code class="language-plaintext highlighter-rouge"> list full</code></p>
+
+<ul>
+  <li>Display specific fields for a specific process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmic process where processid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name,commandline</span></p>
+
+<ul>
+  <li>Kill a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmic process </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> delete</code></p>

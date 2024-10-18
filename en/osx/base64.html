@@ -1,0 +1,40 @@
+<h1 id="base64">base64</h1>
+
+<p>Encode or decode file or <code class="language-plaintext highlighter-rouge">stdin</code> to/from base64, to <code class="language-plaintext highlighter-rouge">stdout</code> or another file.
+More information: <a href="https://keith.github.io/xcode-man-pages/base64.1.html">https://keith.github.io/xcode-man-pages/base64.1.html</a>.</p>
+
+<ul>
+  <li>Encode a file to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Encode a file to the specified output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Wrap encoded output at a specific width (<code class="language-plaintext highlighter-rouge">0</code> disables wrapping):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-b|–break</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Decode a file to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Encode from <code class="language-plaintext highlighter-rouge">stdin</code> to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | base64</code></p>
+
+<ul>
+  <li>Decode from <code class="language-plaintext highlighter-rouge">stdin</code> to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span></p>

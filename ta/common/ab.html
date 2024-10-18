@@ -1,0 +1,40 @@
+<h1 id="ab">ab</h1>
+
+<p>அப்பாச்சி HTTP சர்வர் தரப்படுத்தல் கருவி.
+மேலும் விவரத்திற்கு: <a href="https://httpd.apache.org/docs/current/programs/ab.html">https://httpd.apache.org/docs/current/programs/ab.html</a>.</p>
+
+<ul>
+  <li>கொடுக்கப்பட்ட முகவரிக்கு 100 HTTP GET கோரிக்கைகளை இயக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>
+
+<ul>
+  <li>100 HTTP GET கோரிக்கைகளை, ஒரே நேரத்தில் 10 தொகுதிகளில், URL முகவரிக்கு செயல்படுத்தவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 -c 10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>
+
+<ul>
+  <li>ஒரு கோப்பிலிருந்து JSON பேலோடைப் பயன்படுத்தி, 100 HTTP POST கோரிக்கைகளை URL க்கு செயல்படுத்தவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.json/பாதை</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>
+
+<ul>
+  <li>HTTP [K]eep Alive ஐப் பயன்படுத்தவும், அதாவது ஒரு HTTP அமர்வுக்குள் பல கோரிக்கைகளைச் செய்யவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>
+
+<ul>
+  <li>தரப்படுத்தலுக்கு செலவிட வேண்டிய அதிகபட்ச வினாடிகளை அமைக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>
+
+<ul>
+  <li>முடிவுகளை ஒரு CSV கோப்பில் எழுதவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.csv/பாதை</span></p>

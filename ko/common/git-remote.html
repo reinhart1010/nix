@@ -1,0 +1,46 @@
+<h1 id="git-remote">git remote</h1>
+
+<p>원격 저장소(remote repositories)를 관리하는 명령어입니다.
+더 많은 정보: <a href="https://git-scm.com/docs/git-remote">https://git-scm.com/docs/git-remote</a>.</p>
+
+<ul>
+  <li>이름과 URL을 포함한 기존 원격 저장소 목록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span></p>
+
+<ul>
+  <li>특정 원격 저장소에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_이름</span></p>
+
+<ul>
+  <li>원격 저장소 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_URL</span></p>
+
+<ul>
+  <li>원격 저장소의 URL 변경 (기존 URL을 유지하려면 –add 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote set-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_URL</span></p>
+
+<ul>
+  <li>원격 저장소의 URL 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote get-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_이름</span></p>
+
+<ul>
+  <li>원격 저장소 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_이름</span></p>
+
+<ul>
+  <li>원격 저장소 이름 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이전_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_이름</span></p>

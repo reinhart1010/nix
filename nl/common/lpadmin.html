@@ -1,0 +1,29 @@
+<h1 id="lpadmin">lpadmin</h1>
+
+<p>Configureer CUPS printers en klasses.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">lpoptions</code>.
+Meer informatie: <a href="https://openprinting.github.io/cups/doc/man-lpadmin.html">https://openprinting.github.io/cups/doc/man-lpadmin.html</a>.</p>
+
+<ul>
+  <li>Stel de standaard printer in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpadmin -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer</span></p>
+
+<ul>
+  <li>Verwijder een specifieke printer of klasse:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpadmin -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer|klasse</span></p>
+
+<ul>
+  <li>Voeg een printer toe aan een klasse:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpadmin -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">klasse</span></p>
+
+<ul>
+  <li>Verwijder een printer uit een klasse:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpadmin -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">klasse</span></p>

@@ -1,0 +1,28 @@
+<h1 id="virt-qemu-run">virt-qemu-run</h1>
+
+<p>Herramienta experimental para ejecutar una Guest VM QEMU independiente de <code class="language-plaintext highlighter-rouge">libvirtd</code>.
+Más información: <a href="https://libvirt.org/manpages/virt-qemu-run.html">https://libvirt.org/manpages/virt-qemu-run.html</a>.</p>
+
+<ul>
+  <li>Ejecuta una máquina virtual QEMU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-qemu-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/guest.xml</span></p>
+
+<ul>
+  <li>Ejecuta una máquina virtual QEMU y almacena el estado en un directorio específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-qemu-run --root=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/guest.xml</span></p>
+
+<ul>
+  <li>Ejecuta una máquina virtual QEMU y muestra información detallada sobre el inicio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-qemu-run --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/guest.xml</span></p>
+
+<ul>
+  <li>Muestra ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-qemu-run --help</code></p>

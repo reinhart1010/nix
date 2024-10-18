@@ -1,0 +1,40 @@
+<h1 id="xcodes-runtimes">xcodes runtimes</h1>
+
+<p>Gerencia runtimes do Simulador Xcode.
+Mais informações: <a href="https://github.com/xcodesorg/xcodes">https://github.com/xcodesorg/xcodes</a>.</p>
+
+<ul>
+  <li>Lista todos os runtimes do Simulador disponíveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes --include-betas</code></p>
+
+<ul>
+  <li>Baixa um runtime do Simulador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome-do-runtime</span></p>
+
+<ul>
+  <li>Baixa e instala um runtime do Simulador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome-do-runtime</span></p>
+
+<ul>
+  <li>Baixa/instala um runtime do Simulador para a versão iOS/watchOS/tvOS/visionOS especificada (diferencia maiúsculo de minúsculo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">download|install</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iOS|watchOS|tvOS|visionOS</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versão_runtime</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Define um local específico para onde o pacote do runtime será baixado primeiro (o padrão é <code class="language-plaintext highlighter-rouge">~/Downloads</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">download|install</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_runtime</span><code class="language-plaintext highlighter-rouge"> --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Não exclui o pacote baixado quando o Simulador é instalado com sucesso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_runtime</span><code class="language-plaintext highlighter-rouge"> --keep-archive</code></p>

@@ -1,0 +1,40 @@
+<h1 id="airshare">airshare</h1>
+
+<p>Transfer data between two machines in a local network.
+More information: <a href="https://airshare.rtfd.io/en/latest/cli.html">https://airshare.rtfd.io/en/latest/cli.html</a>.</p>
+
+<ul>
+  <li>Share files or directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airshare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>Receive a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airshare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span></p>
+
+<ul>
+  <li>Host a receiving server (use this to be able to upload files using the web interface):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airshare --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span></p>
+
+<ul>
+  <li>Send files or directories to a receiving server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airshare --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>Send files whose paths have been copied to the clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airshare --file-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span></p>
+
+<ul>
+  <li>Receive a file and copy it to the clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airshare --clip-receive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span></p>

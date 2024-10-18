@@ -1,0 +1,34 @@
+<h1 id="yaourt">yaourt</h1>
+
+<p>Arch Linux 中用于从 Arch User Repository 中构建软件包的工具。
+更多信息：<a href="https://linuxcommandlibrary.com/man/yaourt">https://linuxcommandlibrary.com/man/yaourt</a>.</p>
+
+<ul>
+  <li>同步并更新所有软件包（包括 AUR）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaourt -Syua</code></p>
+
+<ul>
+  <li>安装一个新的软件包（包括 AUR）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaourt -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span></p>
+
+<ul>
+  <li>移除一个软件包和它的依赖（包括 AUR 软件包）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaourt -Rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span></p>
+
+<ul>
+  <li>在软件包数据库中搜索一个关键字（包括 AUR）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaourt -Ss </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span></p>
+
+<ul>
+  <li>列出已安装的软件包、版本和仓库（AUR 软件包将被列在 'local' 仓库下）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaourt -Q</code></p>

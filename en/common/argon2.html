@@ -1,0 +1,28 @@
+<h1 id="argon2">argon2</h1>
+
+<p>Calculate Argon2 cryptographic hashes.
+More information: <a href="https://github.com/P-H-C/phc-winner-argon2#command-line-utility">https://github.com/P-H-C/phc-winner-argon2#command-line-utility</a>.</p>
+
+<ul>
+  <li>Calculate a hash with a password and a salt with the default parameters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">salt_text</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Calculate a hash with the specified algorithm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">salt_text</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">d|i|id</span></p>
+
+<ul>
+  <li>Display the output hash without additional information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">salt_text</span><code class="language-plaintext highlighter-rouge">" -e</code></p>
+
+<ul>
+  <li>Calculate a hash with given iteration [t]imes, [m]emory usage, and [p]arallelism parameters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">salt_text</span><code class="language-plaintext highlighter-rouge">" -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span></p>

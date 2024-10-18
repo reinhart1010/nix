@@ -1,0 +1,40 @@
+<h1 id="black">black</h1>
+
+<p>Format Python code automatically.
+More information: <a href="https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html">https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html</a>.</p>
+
+<ul>
+  <li>Auto-format a file or entire directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">black </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Format the [c]ode passed in as a string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">black -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Show whether a file or a directory would have changes made to them if they were to be formatted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">black --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Show changes that would be made to a file or a directory without performing them (dry-run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">black --diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Auto-format a file or directory, emitting exclusively error messages to <code class="language-plaintext highlighter-rouge">stderr</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">black --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Auto-format a file or directory without replacing single quotes with double quotes (adoption helper, avoid using this for new projects):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">black --skip-string-normalization </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>

@@ -1,0 +1,41 @@
+<h1 id="docker-update">docker update</h1>
+
+<p>Update configuration of Docker containers.
+This command is not supported for Windows containers.
+More information: <a href="https://docs.docker.com/reference/cli/docker/container/update/">https://docs.docker.com/reference/cli/docker/container/update/</a>.</p>
+
+<ul>
+  <li>Update restart policy to apply when a specific container exits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker update --restart=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">always|no|on-failure|unless-stopped</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Update the policy to restart up to three times a specific container when it exits with non-zero exit status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker update --restart=on-failure:3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Update the number of CPUs available to a specific container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker update --cpus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Update the memory limit in [M]egabytes for a specific container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker update --memory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">limit</span><code class="language-plaintext highlighter-rouge">M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Update the maximum number of process IDs allowed inside a specific container (use <code class="language-plaintext highlighter-rouge">-1</code> for unlimited):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker update --pids-limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Update the amount of memory in [M]egabytes a specific container can swap to disk (use <code class="language-plaintext highlighter-rouge">-1</code> for unlimited):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker update --memory-swap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">limit</span><code class="language-plaintext highlighter-rouge">M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>

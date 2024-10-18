@@ -1,0 +1,29 @@
+<h1 id="pkgctl-diff">pkgctl diff</h1>
+
+<p>Compare package files using different modes.
+See also: <code class="language-plaintext highlighter-rouge">pkgctl</code>.
+More information: <a href="https://manned.org/pkgctl-diff.1">https://manned.org/pkgctl-diff.1</a>.</p>
+
+<ul>
+  <li>Compare package files in tar content [l]ist different mode (default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl diff --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file|pkgname</span></p>
+
+<ul>
+  <li>Compare package files in [d]iffoscope different mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl diff --diffoscope </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file|pkgname</span></p>
+
+<ul>
+  <li>Compare package files in <code class="language-plaintext highlighter-rouge">.PKGINFO</code> different mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl diff --pkginfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file|pkgname</span></p>
+
+<ul>
+  <li>Compare package files in <code class="language-plaintext highlighter-rouge">.BUILDINFO</code> different mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl diff --buildinfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file|pkgname</span></p>

@@ -1,0 +1,38 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="aws">aws</h1>
+
+<p>Il tool da linea di comando ufficiale per Amazon Web Services.
+Alcuni comandi aggiuntivi, come <code class="language-plaintext highlighter-rouge">s3</code>, hanno la propria documentazione.
+Maggiori informazioni: <a href="https://aws.amazon.com/cli">https://aws.amazon.com/cli</a>.</p>
+
+<ul>
+  <li>Lista tutti gli utenti IAM (Identity and Access Management):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-users</code></p>
+
+<ul>
+  <li>Lista tutte le instanze EC2 per una specifica regione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 describe-instances --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span></p>
+
+<ul>
+  <li>Ricevi un messaggio da una specifica coda SQS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs receive-message --queue-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://queue.amazonaws.com/546123/Test</span></p>
+
+<ul>
+  <li>Pubblica un messaggio SNS su uno specifico argomento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns publish --topic-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn:aws:sns:us-east-1:54633:Agomento</span><code class="language-plaintext highlighter-rouge"> --message "Message"</code></p>
+
+<ul>
+  <li>Mostra la pagina di aiuto per uno specifico comando AWS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> help</code></p>

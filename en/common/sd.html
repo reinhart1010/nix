@@ -1,0 +1,28 @@
+<h1 id="sd">sd</h1>
+
+<p>Intuitive find and replace.
+More information: <a href="https://github.com/chmln/sd">https://github.com/chmln/sd</a>.</p>
+
+<ul>
+  <li>Trim some whitespace using a regular expression (output stream: <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'lorem ipsum 23   '</span><code class="language-plaintext highlighter-rouge"> | sd '\s+$' ''</code></p>
+
+<ul>
+  <li>Replace words using capture groups (output stream: <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'cargo +nightly watch'</span><code class="language-plaintext highlighter-rouge"> | sd '(\w+)\s+\+(\w+)\s+(\w+)' 'cmd: $1, channel: $2, subcmd: $3'</code></p>
+
+<ul>
+  <li>Find and replace in a specific file (output stream: <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sd -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'window.fetch'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'fetch'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.js</span></p>
+
+<ul>
+  <li>Find and replace in all files in the current project (output stream: <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'from "react"'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'from "preact"'</span><code class="language-plaintext highlighter-rouge"> "$(find . -type f)"</code></p>

@@ -1,0 +1,35 @@
+<h1 id="arduino-builder">arduino-builder</h1>
+
+<p>Uma ferramenta de linha de comando para compilar sketches do arduino.
+AVIDO DE OBSOLESCÊNCIA: Esta ferramenta está sendo descontinuada e substituida pelo <code class="language-plaintext highlighter-rouge">arduino</code>.
+Mais informações: <a href="https://github.com/arduino/arduino-builder">https://github.com/arduino/arduino-builder</a>.</p>
+
+<ul>
+  <li>Compila um sketch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/sketch.ino</span></p>
+
+<ul>
+  <li>Define o nível de debug (1 a 10, o padrão é 5):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -debug-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nivel</span></p>
+
+<ul>
+  <li>Define um diretório de compilação customizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -build-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio</span></p>
+
+<ul>
+  <li>Usa um arquivo com as opções de compilação, em vez de especificar <code class="language-plaintext highlighter-rouge">-hardware</code>, <code class="language-plaintext highlighter-rouge">-tools</code>, etc. manualmente toda hora:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -build-options-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/build.options.json</span></p>
+
+<ul>
+  <li>Habilita o modo verboso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span></p>

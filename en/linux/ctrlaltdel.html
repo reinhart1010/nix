@@ -1,0 +1,22 @@
+<h1 id="ctrlaltdel">ctrlaltdel</h1>
+
+<p>Utility to control what happens when CTRL+ALT+DEL is pressed.
+More information: <a href="https://manned.org/ctrlaltdel">https://manned.org/ctrlaltdel</a>.</p>
+
+<ul>
+  <li>Get current setting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ctrlaltdel</code></p>
+
+<ul>
+  <li>Set CTRL+ALT+DEL to reboot immediately, without any preparation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ctrlaltdel hard</code></p>
+
+<ul>
+  <li>Set CTRL+ALT+DEL to reboot "normally", giving processes a chance to exit first (send SIGINT to PID1):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ctrlaltdel soft</code></p>

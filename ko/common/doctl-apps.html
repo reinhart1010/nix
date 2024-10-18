@@ -1,0 +1,52 @@
+<h1 id="doctl-apps">doctl apps</h1>
+
+<p>DigitalOcean 앱 관리.
+더 많은 정보: <a href="https://docs.digitalocean.com/reference/doctl/reference/apps">https://docs.digitalocean.com/reference/doctl/reference/apps</a>.</p>
+
+<ul>
+  <li>애플리케이션 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps create</code></p>
+
+<ul>
+  <li>특정 애플리케이션에 대한 배포 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps create-deployment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">앱_아이디</span></p>
+
+<ul>
+  <li>대화형으로 앱 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">앱_아이디</span></p>
+
+<ul>
+  <li>앱 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps get</code></p>
+
+<ul>
+  <li>모든 앱 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps list</code></p>
+
+<ul>
+  <li>특정 앱의 모든 배포를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps list-deployments </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">앱_아이디</span></p>
+
+<ul>
+  <li>특정 앱에서 로그를 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">앱_아이디</span></p>
+
+<ul>
+  <li>특정 앱 사양으로 특정 앱을 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">앱_아이디</span><code class="language-plaintext highlighter-rouge"> --spec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/spec.yml</span></p>

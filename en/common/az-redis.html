@@ -1,0 +1,29 @@
+<h1 id="az-redis">az redis</h1>
+
+<p>Manage Redis caches.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/redis">https://learn.microsoft.com/cli/azure/redis</a>.</p>
+
+<ul>
+  <li>Create a new Redis cache instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az redis create --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">location</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --sku </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Basic|Premium|Standard</span><code class="language-plaintext highlighter-rouge"> --vm-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c0|c1|c2|c3|c4|c5|c6|p1|p2|p3|p4|p5</span></p>
+
+<ul>
+  <li>Update a Redis cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az redis update --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --sku </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Basic|Premium|Standard</span><code class="language-plaintext highlighter-rouge"> --vm-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c0|c1|c2|c3|c4|c5|c6|p1|p2|p3|p4|p5</span></p>
+
+<ul>
+  <li>Export data stored in a Redis cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az redis export --container </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span><code class="language-plaintext highlighter-rouge"> --file-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file-format</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span></p>
+
+<ul>
+  <li>Delete a Redis cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az redis delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --yes</code></p>

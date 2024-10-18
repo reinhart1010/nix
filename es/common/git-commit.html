@@ -1,0 +1,46 @@
+<h1 id="git-commit">git commit</h1>
+
+<p>Realiza confirmaciones de los archivos al repositorio.
+Más información: <a href="https://git-scm.com/docs/git-commit">https://git-scm.com/docs/git-commit</a>.</p>
+
+<ul>
+  <li>Realiza una confirmación de los archivos marcados al repositorio con un mensaje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Realiza una confirmación de los archivos marcados con un mensaje leído desde un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_con_mensaje_de_la_confirmación</span></p>
+
+<ul>
+  <li>Marca automáticamente todos los archivos modificados y realiza una confirmación con un mensaje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --all --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Confirma todos los archivos preparados y los firma con una llave de GPG (o la llave en el archivo de configuración si no se especifica un argumento):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --gpg-sign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_llave</span><code class="language-plaintext highlighter-rouge"> --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Sustituye la última confirmación con los cambios marcados actualmente, cambiando el hash de la confirmación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --amend</code></p>
+
+<ul>
+  <li>Realiza una confirmación para archivos específicos (marcados previamente):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Crea una confirmación, incluso si no hay archivos marcados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span><code class="language-plaintext highlighter-rouge">" --allow-empty</code></p>

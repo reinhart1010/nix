@@ -1,0 +1,52 @@
+<h1 id="systemctl">systemctl</h1>
+
+<p>Керуйте системою systemd і диспетчером служб.
+Більше інформації: <a href="https://www.freedesktop.org/software/systemd/man/systemctl.html">https://www.freedesktop.org/software/systemd/man/systemctl.html</a>.</p>
+
+<ul>
+  <li>Відобразити всі запущені служби:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl status</code></p>
+
+<ul>
+  <li>Відобразити список служб, які не запустилися через помилки:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl --failed</code></p>
+
+<ul>
+  <li>Запуск/зупинка/перезапуск/перезавантаження служби:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|reload</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">служба</span></p>
+
+<ul>
+  <li>Показати статус служби:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">служба</span></p>
+
+<ul>
+  <li>Увімкнути/вимкнути запуск служби під час завантаження:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">служба</span></p>
+
+<ul>
+  <li>Маскування/розкриття служби, щоб запобігти ввімкненню та ручній активації:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mask|unmask</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">служба</span></p>
+
+<ul>
+  <li>Перезавантажити systemd, шукати нові або змінені пристрої:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl daemon-reload</code></p>
+
+<ul>
+  <li>Перевірити, чи ввімкнено службу до автозавантаження:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl is-enabled </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">служба</span></p>

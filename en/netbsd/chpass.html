@@ -1,0 +1,41 @@
+<h1 id="chpass">chpass</h1>
+
+<p>Add or change user database information, including login shell and password.
+See also: <code class="language-plaintext highlighter-rouge">passwd</code>.
+More information: <a href="https://man.netbsd.org/chsh">https://man.netbsd.org/chsh</a>.</p>
+
+<ul>
+  <li>Set a specific login shell for the current user interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>Set a specific login [s]hell for the current user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span></p>
+
+<ul>
+  <li>Set a login [s]hell for a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Specify a user database entry in the <code class="language-plaintext highlighter-rouge">passwd</code> file format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username:encrypted_password:uid:gid:…</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Only update the [l]ocal password file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -l -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Forcedly change the database [y]P password database entry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -y -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>

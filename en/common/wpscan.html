@@ -1,0 +1,52 @@
+<h1 id="wpscan">wpscan</h1>
+
+<p>WordPress vulnerability scanner.
+More information: <a href="https://github.com/wpscanteam/wpscan">https://github.com/wpscanteam/wpscan</a>.</p>
+
+<ul>
+  <li>Update the vulnerability database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpscan --update</code></p>
+
+<ul>
+  <li>Scan a WordPress website:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpscan --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Scan a WordPress website, using random user agents and passive detection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpscan --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --stealthy</code></p>
+
+<ul>
+  <li>Scan a WordPress website, checking for vulnerable plugins and specifying the path to the <code class="language-plaintext highlighter-rouge">wp-content</code> directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpscan --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --enumerate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vp</span><code class="language-plaintext highlighter-rouge"> --wp-content-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote/path/to/wp-content</span></p>
+
+<ul>
+  <li>Scan a WordPress website through a proxy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpscan --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol://ip:port</span><code class="language-plaintext highlighter-rouge"> --proxy-auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username:password</span></p>
+
+<ul>
+  <li>Perform user identifiers enumeration on a WordPress website:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpscan --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --enumerate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">u</span></p>
+
+<ul>
+  <li>Execute a password guessing attack on a WordPress website:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpscan --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --usernames </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username|path/to/usernames.txt</span><code class="language-plaintext highlighter-rouge"> --passwords </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/passwords.txt</span><code class="language-plaintext highlighter-rouge"> threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span></p>
+
+<ul>
+  <li>Scan a WordPress website, collecting vulnerability data from the WPVulnDB (<a href="https://wpvulndb.com/">https://wpvulndb.com/</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpscan --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --api-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span></p>

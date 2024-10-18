@@ -1,0 +1,52 @@
+<h1 id="grep">grep</h1>
+
+<p>Zoek patronen in bestanden met behulp van reguliere expressies.
+Meer informatie: <a href="https://www.gnu.org/software/grep/manual/grep.html">https://www.gnu.org/software/grep/manual/grep.html</a>.</p>
+
+<ul>
+  <li>Zoek naar een patroon in een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Zoek naar een exacte string (schakelt reguliere expressies uit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-F|–fixed-strings</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exacte_string</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Zoek naar een patroon in alle bestanden in een map, recursief, toon regelnummers van overeenkomsten, negeer binaire bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–recursive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–line-number</span><code class="language-plaintext highlighter-rouge"> --binary-files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>
+
+<ul>
+  <li>Gebruik uitgebreide reguliere expressies (ondersteunt <code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code> en <code class="language-plaintext highlighter-rouge">|</code>), in hoofdletterongevoelige modus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-E|–extended-regexp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–ignore-case</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Print 3 regels context rondom, voor of na elke overeenkomst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span><code class="language-plaintext highlighter-rouge"> 3 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Print bestandsnaam en regelnummers voor elke overeenkomst met kleuruitvoer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|–with-filename</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–line-number</span><code class="language-plaintext highlighter-rouge"> --color=always "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Zoek naar regels die overeenkomen met een patroon en print alleen de overeenkomstige tekst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–only-matching</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Zoek in <code class="language-plaintext highlighter-rouge">stdin</code> naar regels die niet overeenkomen met een patroon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–invert-match</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,46 @@
+<h1 id="neo4j-admin">neo4j-admin</h1>
+
+<p>Gestiona y administra un Neo4j DBMS (Sistema de Gestión de Bases de Datos).
+Más información: <a href="https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/">https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/</a>.</p>
+
+<ul>
+  <li>Inicia el DBMS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin server start</code></p>
+
+<ul>
+  <li>Detén el DBMS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin server stop</code></p>
+
+<ul>
+  <li>Establece la contraseña inicial del usuario predeterminada <code class="language-plaintext highlighter-rouge">neo4j</code> (requisito para el primer arranque del DBMS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin dbms set-initial-password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span></p>
+
+<ul>
+  <li>Crea un archivo con una base de datos sin conexión llamado <code class="language-plaintext highlighter-rouge">nombre_base_de_datos.dump</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin database dump --to-path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_base_de_datos</span></p>
+
+<ul>
+  <li>Carga una base de datos desde un archivo llamado <code class="language-plaintext highlighter-rouge">nombre_base_de_datos.dump</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin database load --from-path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_base_de_datos</span><code class="language-plaintext highlighter-rouge"> --overwrite-destination=true</code></p>
+
+<ul>
+  <li>Carga una base de datos desde un archivo especificado a través de <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin database load --from-stdin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_base_de_datos</span><code class="language-plaintext highlighter-rouge"> --overwrite-destination=true &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/nombre_archivo.dump</span></p>
+
+<ul>
+  <li>Muestra ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin --help</code></p>

@@ -1,0 +1,22 @@
+<h1 id="po4a-gettextize">po4a-gettextize</h1>
+
+<p>Convert a file to a PO file.
+More information: <a href="https://po4a.org/man/man1/po4a-gettextize.1.php">https://po4a.org/man/man1/po4a-gettextize.1.php</a>.</p>
+
+<ul>
+  <li>Convert a text file to PO file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">po4a-gettextize --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span><code class="language-plaintext highlighter-rouge"> --master </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/master.txt</span><code class="language-plaintext highlighter-rouge"> --po </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/result.po</span></p>
+
+<ul>
+  <li>List all available formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">po4a-gettextize --help-format</code></p>
+
+<ul>
+  <li>Convert a text file along with a translated document to a PO file (<code class="language-plaintext highlighter-rouge">-l</code> option can be provided multiple times):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">po4a-gettextize --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span><code class="language-plaintext highlighter-rouge"> --master </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/master.txt</span><code class="language-plaintext highlighter-rouge"> --localized </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/translated.txt</span><code class="language-plaintext highlighter-rouge"> --po </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/result.po</span></p>

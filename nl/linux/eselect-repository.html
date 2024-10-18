@@ -1,0 +1,47 @@
+<h1 id="eselect-repository">eselect repository</h1>
+
+<p>Een <code class="language-plaintext highlighter-rouge">eselect</code>-module voor het configureren van ebuild-repositories voor Portage.
+Na het inschakelen van een repository moet je <code class="language-plaintext highlighter-rouge">emerge --sync repo_name</code> uitvoeren om ebuilds te downloaden.
+Meer informatie: <a href="https://wiki.gentoo.org/wiki/Eselect/Repository">https://wiki.gentoo.org/wiki/Eselect/Repository</a>.</p>
+
+<ul>
+  <li>Toon alle ebuild-repositories geregistreerd op <a href="https://repos.gentoo.org">https://repos.gentoo.org</a>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository list</code></p>
+
+<ul>
+  <li>Toon ingeschakelde repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository list -i</code></p>
+
+<ul>
+  <li>Schakel een repository uit de lijst in op naam of index van de <code class="language-plaintext highlighter-rouge">list</code>-opdracht:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">naam|index</span></p>
+
+<ul>
+  <li>Schakel een niet-geregistreerde repository in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsync|git|mercurial|svn|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sync_uri</span></p>
+
+<ul>
+  <li>Schakel repositories uit zonder hun inhoud te verwijderen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository disable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo1 repo2 …</span></p>
+
+<ul>
+  <li>Schakel repositories uit en verwijder hun inhoud:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo1 repo2 …</span></p>
+
+<ul>
+  <li>Maak een lokale repository aan en schakel deze in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/repo</span></p>

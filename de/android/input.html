@@ -1,0 +1,35 @@
+<h1 id="input">input</h1>
+
+<p>Sende Eventcodes oder Touchscreengesten an ein Android-Gerät.
+Dieser Befehl kann nur mit <code class="language-plaintext highlighter-rouge">adb shell</code> verwendet werden.
+Weitere Informationen: <a href="https://developer.android.com/reference/android/view/KeyEvent.html#constants_1">https://developer.android.com/reference/android/view/KeyEvent.html#constants_1</a>.</p>
+
+<ul>
+  <li>Sende einen Eventcode für die Eingabe eines einzelnen Zeichens an ein Gerät:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input keyevent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eventcode</span></p>
+
+<ul>
+  <li>Sende einen Text an ein Gerät (<code class="language-plaintext highlighter-rouge">%s</code> wird als Leerzeichen verwendet):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input text "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Sende ein einzelnes Tippen auf den Touchscreen an ein Gerät:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input tap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_pos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_pos</span></p>
+
+<ul>
+  <li>Sende ein Wischen über den Touchscreen an ein Gerät:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_start</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_start</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_ende</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_ende</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dauer_in_ms</span></p>
+
+<ul>
+  <li>Sende ein langes Tippen auf den Touchscreen an ein Gerät:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_pos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_pos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_pos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_pos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dauer_in_ms</span></p>

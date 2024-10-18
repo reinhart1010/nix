@@ -1,0 +1,22 @@
+<h1 id="deborphan">deborphan</h1>
+
+<p>Display orphan packages on operating systems using the APT package manager.
+More information: <a href="https://manned.org/deborphan">https://manned.org/deborphan</a>.</p>
+
+<ul>
+  <li>Display library packages (from the "libs" section of the package repository) which are not required by another package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">deborphan</code></p>
+
+<ul>
+  <li>List orphan packages from the "libs" section as well as orphan packages that have a name that looks like a library name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">deborphan --guess-all</code></p>
+
+<ul>
+  <li>Find packages which are only recommended or suggested (but not required) by another package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">deborphan --nice-mode</code></p>

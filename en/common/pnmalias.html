@@ -1,0 +1,28 @@
+<h1 id="pnmalias">pnmalias</h1>
+
+<p>Apply antialiasing onto a PNM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmalias.html">https://netpbm.sourceforge.net/doc/pnmalias.html</a>.</p>
+
+<ul>
+  <li>Perform antialiasing on a PNM image, taking black pixels as background and white pixels as foreground:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmalias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Explicitly specify the background and foreground color:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmalias -bcolor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">background_color</span><code class="language-plaintext highlighter-rouge"> -fcolor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foreground_color</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Apply altialiasing to foreground pixels only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmalias -fonly </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Apply antialiasing to all surrounding pixels of background pixels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmalias -balias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>

@@ -1,0 +1,34 @@
+<h1 id="doctl-databases-replica">doctl databases replica</h1>
+
+<p>데이터베이스 클러스터와 연결된 읽기 전용 복제본을 관리.
+더 많은 정보: <a href="https://docs.digitalocean.com/reference/doctl/reference/databases/replica/">https://docs.digitalocean.com/reference/doctl/reference/databases/replica/</a>.</p>
+
+<ul>
+  <li>액세스 토큰을 사용하여 <code class="language-plaintext highlighter-rouge">doctl databases replica</code> 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases pool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">액세스_토큰</span></p>
+
+<ul>
+  <li>읽기 전용 데이터베이스 복제본에 대한 정보를 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases replica get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">복제본_이름</span></p>
+
+<ul>
+  <li>읽기 전용 데이터베이스 복제본 목록 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases replica list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span></p>
+
+<ul>
+  <li>읽기 전용 데이터베이스 복제본 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases replica create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">복제본_이름</span></p>
+
+<ul>
+  <li>읽기 전용 데이터베이스 복제본 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases replica delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">복제본_이름</span></p>

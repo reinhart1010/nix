@@ -1,0 +1,29 @@
+<h1 id="bitcoind">bitcoind</h1>
+
+<p>Bitcoin Core daemon.
+Uses the configuration defined in <code class="language-plaintext highlighter-rouge">bitcoin.conf</code>.
+More information: <a href="https://manned.org/bitcoind">https://manned.org/bitcoind</a>.</p>
+
+<ul>
+  <li>Start the Bitcoin Core daemon (in the foreground):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoind</code></p>
+
+<ul>
+  <li>Start the Bitcoin Core daemon in the background (use <code class="language-plaintext highlighter-rouge">bitcoin-cli stop</code> to stop):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoind -daemon</code></p>
+
+<ul>
+  <li>Start the Bitcoin Core daemon on a specific network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoind -chain=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">main|test|signet|regtest</span></p>
+
+<ul>
+  <li>Start the Bitcoin Core daemon using specific config file and data directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoind -conf=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bitcoin.conf</span><code class="language-plaintext highlighter-rouge"> -datadir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

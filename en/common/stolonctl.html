@@ -1,0 +1,28 @@
+<h1 id="stolonctl">stolonctl</h1>
+
+<p>CLI for Stolon, a cloud native PostgreSQL manager for PostgreSQL high availability.
+More information: <a href="https://github.com/sorintlab/stolon">https://github.com/sorintlab/stolon</a>.</p>
+
+<ul>
+  <li>Get cluster status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stolonctl --cluster-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span><code class="language-plaintext highlighter-rouge"> --store-backend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store_backend</span><code class="language-plaintext highlighter-rouge"> --store-endpoints </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store_endpoints</span><code class="language-plaintext highlighter-rouge"> status</code></p>
+
+<ul>
+  <li>Get cluster data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stolonctl --cluster-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span><code class="language-plaintext highlighter-rouge"> --store-backend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store_backend</span><code class="language-plaintext highlighter-rouge"> --store-endpoints </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store_endpoints</span><code class="language-plaintext highlighter-rouge"> clusterdata</code></p>
+
+<ul>
+  <li>Get cluster specification:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stolonctl --cluster-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span><code class="language-plaintext highlighter-rouge"> --store-backend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store_backend</span><code class="language-plaintext highlighter-rouge"> --store-endpoints </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store_endpoints</span><code class="language-plaintext highlighter-rouge"> spec</code></p>
+
+<ul>
+  <li>Update cluster specification with a patch in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stolonctl --cluster-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span><code class="language-plaintext highlighter-rouge"> --store-backend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store_backend</span><code class="language-plaintext highlighter-rouge"> --store-endpoints </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store_endpoints</span><code class="language-plaintext highlighter-rouge"> update --patch '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_spec</span><code class="language-plaintext highlighter-rouge">'</code></p>

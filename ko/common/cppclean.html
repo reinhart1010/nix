@@ -1,0 +1,28 @@
+<h1 id="cppclean">cppclean</h1>
+
+<p>C++ 프로젝트에서 사용하지 않는 코드 찾기.
+더 많은 정보: <a href="https://github.com/myint/cppclean">https://github.com/myint/cppclean</a>.</p>
+
+<ul>
+  <li>프로젝트 디렉토리에서 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppclean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트/의/경로</span></p>
+
+<ul>
+  <li>헤더가 <code class="language-plaintext highlighter-rouge">inc1/</code> 및 <code class="language-plaintext highlighter-rouge">inc2/</code> 디렉토리에 있는 프로젝트에서 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppclean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트/의/경로</span><code class="language-plaintext highlighter-rouge"> --include-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc1</span><code class="language-plaintext highlighter-rouge"> --include-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc2</span></p>
+
+<ul>
+  <li>특정 팡리 <code class="language-plaintext highlighter-rouge">main.cpp</code>에서 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppclean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">main.cpp</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">build</code>디렉토리를 제외한 현재 디렉토리에서 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppclean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">build</span></p>

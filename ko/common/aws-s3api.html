@@ -1,0 +1,52 @@
+<h1 id="aws-s3api">aws s3api</h1>
+
+<p>Amazon S3 버킷을 생성 및 삭제하고 버킷 속성을 편집.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/index.html</a>.</p>
+
+<ul>
+  <li>특정 리전에 버킷 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api create-bucket --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge"> --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리전</span><code class="language-plaintext highlighter-rouge"> --create-bucket-configuration LocationConstraint=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리전</span></p>
+
+<ul>
+  <li>버킷 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api delete-bucket --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span></p>
+
+<ul>
+  <li>버킷 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api list-buckets</code></p>
+
+<ul>
+  <li>버킷 내부의 객체를 나열하고, 각 객체의 키와 크기만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api list-objects --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge"> --query '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Contents[].{Key: Key, Size: Size}</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>버킷에 객체를 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api put-object --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object_key</span><code class="language-plaintext highlighter-rouge"> --body </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>버킷에서 객체 다운로드 (출력 파일은 항상 마지막 인수로 와야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api get-object --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">객체_키</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일</span></p>
+
+<ul>
+  <li>지정된 버킷에 Amazon S3 버킷 정책 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api put-bucket-policy --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge"> --policy file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/버킷_정책.json</span></p>
+
+<ul>
+  <li>지정된 버킷에서 Amazon S3 버킷 정책 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api get-bucket-policy --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge"> --query Policy --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|table|text|yaml|yaml-stream</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/버킷_정책</span></p>

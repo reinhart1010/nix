@@ -1,0 +1,22 @@
+<h1 id="complete">complete</h1>
+
+<p>Fornisce autocompletamento per argomenti dei comandi della shell.
+Maggiori informazioni: <a href="https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html">https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html</a>.</p>
+
+<ul>
+  <li>Applica ad un comando una funzione per gestirne l'autocompletamento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">complete -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">funzione</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Applica ad un comando un altro comando per gestirne l'autocompletamento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">complete -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_per_autocompletamento</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Applica l'autocompletamento senza aggiungere uno spazio dopo la parola completata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">complete -o nospace -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">function</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>

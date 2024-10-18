@@ -1,0 +1,46 @@
+<h1 id="aws-cloud9">aws cloud9</h1>
+
+<p>AWS Cloud9은 클라우드에서 소프트웨어를 작성, 빌드, 실행, 테스트, 디버그 및 릴리스하는 도구 모음입니다.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloud9/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloud9/index.html</a>.</p>
+
+<ul>
+  <li>Cloud9 개발 환경 식별자 목록 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 list-environments</code></p>
+
+<ul>
+  <li>Cloud9 개발 환경 만들기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 create-environment-ec2 --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --instance-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_type</span></p>
+
+<ul>
+  <li>Cloud9 개발 환경에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 describe-environments --environment-ids </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_ids</span></p>
+
+<ul>
+  <li>Cloud9 개발 환경에 환경 멤버 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 create-environment-membership --environment-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_id</span><code class="language-plaintext highlighter-rouge"> --user-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_arn</span><code class="language-plaintext highlighter-rouge"> --permissions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">permissions</span></p>
+
+<ul>
+  <li>Cloud9 개발 환경에 대한 상태 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 describe-environment-status --environment-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_id</span></p>
+
+<ul>
+  <li>Cloud9 환경 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 delete-environment --environment-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_id</span></p>
+
+<ul>
+  <li>개발 환경에서 환경 멤버 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloud9 delete-environment-membership --environment-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_id</span><code class="language-plaintext highlighter-rouge"> --user-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_arn</span></p>

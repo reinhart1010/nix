@@ -1,0 +1,28 @@
+<h1 id="adb-reverse">adb reverse</h1>
+
+<p>Android Debug Bridge Reverse: omgekeerde socketverbindingen van een Android-emulatorinstantie of verbonden Android-apparaten.
+Meer informatie: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Maak een lijst van alle omgekeerde socketverbindingen van emulators en apparaten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --list</code></p>
+
+<ul>
+  <li>Keer een TCP-poort om van een emulator of apparaat naar localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externe_poort</span><code class="language-plaintext highlighter-rouge"> tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokale_poort</span></p>
+
+<ul>
+  <li>Verwijder omgekeerde socketverbindingen van een emulator of apparaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --remove tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externe_poort</span></p>
+
+<ul>
+  <li>Verwijder alle omgekeerde socketverbindingen van alle emulators en apparaten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --remove-all</code></p>

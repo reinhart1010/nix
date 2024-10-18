@@ -1,0 +1,34 @@
+<h1 id="svcs">svcs</h1>
+
+<p>Ambil atau atur sumber daya dari proses, tugas dan projek yang berjalan.
+Informasi lebih lanjut: <a href="https://www.unix.com/man-page/linux/1/svcs">https://www.unix.com/man-page/linux/1/svcs</a>.</p>
+
+<ul>
+  <li>Daftar semua servis yang berjalan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs</code></p>
+
+<ul>
+  <li>Daftar servis-servis yang tidak berjalan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -vx</code></p>
+
+<ul>
+  <li>Daftar informasi tentang sebuah servis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs apache</code></p>
+
+<ul>
+  <li>Tampilkan lokasi dari berkas catatan servis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -L apache</code></p>
+
+<ul>
+  <li>Display end of a service log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail $(svcs -L apache)</code></p>

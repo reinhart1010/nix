@@ -1,0 +1,52 @@
+<h1 id="gh-workflow">gh workflow</h1>
+
+<p>List, view, and run GitHub Actions workflows.
+More information: <a href="https://cli.github.com/manual/gh_workflow">https://cli.github.com/manual/gh_workflow</a>.</p>
+
+<ul>
+  <li>Interactively select a workflow to view the latest jobs for:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh workflow view</code></p>
+
+<ul>
+  <li>View a specific workflow in the default browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh workflow view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span><code class="language-plaintext highlighter-rouge"> --web</code></p>
+
+<ul>
+  <li>Display the YAML definition of a specific workflow:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh workflow view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span><code class="language-plaintext highlighter-rouge"> --yaml</code></p>
+
+<ul>
+  <li>Display the YAML definition for a specific Git branch or tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh workflow view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span><code class="language-plaintext highlighter-rouge"> --ref </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch|tag_name</span><code class="language-plaintext highlighter-rouge"> --yaml</code></p>
+
+<ul>
+  <li>List workflow files (use <code class="language-plaintext highlighter-rouge">--all</code> to include disabled workflows):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh workflow list</code></p>
+
+<ul>
+  <li>Run a manual workflow with parameters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh workflow run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–raw-field param1=value1 –raw-field param2=value2 …</span></p>
+
+<ul>
+  <li>Run a manual workflow using a specific branch or tag with JSON parameters from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"param1": "value1", "param2": "value2", …}</span><code class="language-plaintext highlighter-rouge">' | gh workflow run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span><code class="language-plaintext highlighter-rouge"> --ref </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch|tag_name</span></p>
+
+<ul>
+  <li>Enable or disable a specific workflow:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh workflow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span></p>

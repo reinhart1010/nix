@@ -1,0 +1,28 @@
+<h1 id="cipher">cipher</h1>
+
+<p>Display or alter the encryption of directories and files on NTFS volumes.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/cipher">https://learn.microsoft.com/windows-server/administration/windows-commands/cipher</a>.</p>
+
+<ul>
+  <li>Display information about a specific encrypted file or directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cipher /c:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span></p>
+
+<ul>
+  <li>[e]ncrypt a file or directory (files added later to the directory are also encrypted as the directory is marked):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cipher /e:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span></p>
+
+<ul>
+  <li>[d]ecrypt a file or directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cipher /d:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span></p>
+
+<ul>
+  <li>Securely remove a file or directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cipher /w:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span></p>

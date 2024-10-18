@@ -1,0 +1,46 @@
+<h1 id="ddev">ddev</h1>
+
+<p>Container based local development tool for PHP environments.
+More information: <a href="https://ddev.readthedocs.io">https://ddev.readthedocs.io</a>.</p>
+
+<ul>
+  <li>Start up a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ddev start</code></p>
+
+<ul>
+  <li>Configure a project's type and docroot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ddev config</code></p>
+
+<ul>
+  <li>[f]ollow the log trail:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ddev logs -f</code></p>
+
+<ul>
+  <li>Run composer within the container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ddev composer</code></p>
+
+<ul>
+  <li>Install a specific Node.js version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ddev nvm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Export a database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ddev export-db --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/tmp/db.sql.gz</span></p>
+
+<ul>
+  <li>Run a specific command within a container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ddev exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 1</span></p>

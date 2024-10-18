@@ -1,0 +1,29 @@
+<h1 id="git-commit-tree">git commit-tree</h1>
+
+<p>Low level utility to create commit objects.
+See also: <code class="language-plaintext highlighter-rouge">git commit</code>.
+More information: <a href="https://git-scm.com/docs/git-commit-tree">https://git-scm.com/docs/git-commit-tree</a>.</p>
+
+<ul>
+  <li>Create a commit object with the specified message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create a commit object reading the message from a file (use <code class="language-plaintext highlighter-rouge">-</code> for <code class="language-plaintext highlighter-rouge">stdin</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree</span><code class="language-plaintext highlighter-rouge"> -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Create a GPG-signed commit object:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">" --gpg-sign</code></p>
+
+<ul>
+  <li>Create a commit object with the specified parent commit object:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">" -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parent_commit_sha</span></p>

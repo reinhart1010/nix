@@ -1,0 +1,34 @@
+<h1 id="crane-pull">crane pull</h1>
+
+<p>참조를 통해 원격 이미지를 가져오고 해당 콘텐츠를 로컬에 저장.
+더 많은 정보: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_pull.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_pull.md</a>.</p>
+
+<ul>
+  <li>원격 이미지 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tarball</span></p>
+
+<ul>
+  <li>–format=oci와 함께 사용할 때 주석으로 가져오는 데 사용되는 이미지 참조를 유지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tarball</span><code class="language-plaintext highlighter-rouge"> --annotate-ref</code></p>
+
+<ul>
+  <li>캐시 이미지 레이어 경로:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tarball</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–cache_path</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/캐시</span></p>
+
+<ul>
+  <li>이미지를 저장할 형식 지정 (기본값 'tarball'):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tarball</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-format</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포맷_이름</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

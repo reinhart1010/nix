@@ -1,0 +1,48 @@
+<h1 id="nix">nix</h1>
+
+<p>A powerful package manager that makes package management reliable, reproducible, and declarative.
+<code class="language-plaintext highlighter-rouge">nix</code> is experimental and requires enabling experimental features. For a classic, stable interface, see <code class="language-plaintext highlighter-rouge">tldr nix classic</code>.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">build</code>, <code class="language-plaintext highlighter-rouge">develop</code>, <code class="language-plaintext highlighter-rouge">flake</code>, <code class="language-plaintext highlighter-rouge">registry</code>, <code class="language-plaintext highlighter-rouge">profile</code>, <code class="language-plaintext highlighter-rouge">search</code>, <code class="language-plaintext highlighter-rouge">repl</code>, <code class="language-plaintext highlighter-rouge">store</code>, <code class="language-plaintext highlighter-rouge">edit</code>, <code class="language-plaintext highlighter-rouge">why-depends</code>, etc. have their own usage documentation.
+More information: <a href="https://nixos.org/manual/nix">https://nixos.org/manual/nix</a>.</p>
+
+<ul>
+  <li>Enable the <code class="language-plaintext highlighter-rouge">nix</code> command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkdir -p ~/.config/nix; echo 'experimental-features = nix-command flakes' &gt; ~/.config/nix/nix.conf</code></p>
+
+<ul>
+  <li>Search for a package in nixpkgs via its name or description:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix search nixpkgs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span></p>
+
+<ul>
+  <li>Start a shell with the specified packages from nixpkgs available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 …</span></p>
+
+<ul>
+  <li>Install some packages from nixpkgs permanently:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 …</span></p>
+
+<ul>
+  <li>Remove unused paths from Nix store to free up space:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix store gc</code></p>
+
+<ul>
+  <li>Start an interactive environment for evaluating Nix expressions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix repl</code></p>
+
+<ul>
+  <li>Display help for a specific subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>

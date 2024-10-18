@@ -1,0 +1,35 @@
+<h1 id="yesod">yesod</h1>
+
+<p>Helper tool for Yesod, a Haskell-based web framework.
+All Yesod commands are invoked through the <code class="language-plaintext highlighter-rouge">stack</code> project manager.
+More information: <a href="https://github.com/yesodweb/yesod">https://github.com/yesodweb/yesod</a>.</p>
+
+<ul>
+  <li>Create a new scaffolded site, with SQLite as backend, in the <code class="language-plaintext highlighter-rouge">my-project</code> directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my-project</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yesod-sqlite</span></p>
+
+<ul>
+  <li>Install the Yesod CLI tool within a Yesod scaffolded site:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack build yesod-bin cabal-install --install-ghc</code></p>
+
+<ul>
+  <li>Start development server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack exec -- yesod devel</code></p>
+
+<ul>
+  <li>Touch files with altered Template Haskell dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack exec -- yesod touch</code></p>
+
+<ul>
+  <li>Deploy application using Keter (Yesod's deployment manager):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack exec -- yesod keter</code></p>

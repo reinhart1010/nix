@@ -1,0 +1,53 @@
+<h1 id="chezmoi">Chezmoi</h1>
+
+<p>A multi-machine dotfile manager, written in Go.
+See also: <code class="language-plaintext highlighter-rouge">stow</code>, <code class="language-plaintext highlighter-rouge">tuckr</code>, <code class="language-plaintext highlighter-rouge">vcsh</code>, <code class="language-plaintext highlighter-rouge">homeshick</code>.
+More information: <a href="https://chezmoi.io">https://chezmoi.io</a>.</p>
+
+<ul>
+  <li>Setup up <code class="language-plaintext highlighter-rouge">chezmoi</code>, creating a Git repository in <code class="language-plaintext highlighter-rouge">~/.local/share/chezmoi</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi init</code></p>
+
+<ul>
+  <li>Set up <code class="language-plaintext highlighter-rouge">chezmoi</code> from existing dotfiles of a Git repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>
+
+<ul>
+  <li>Start tracking one or more dotfiles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dotfile1 path/to/dotfile2 …</span></p>
+
+<ul>
+  <li>Update repository with local changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi re-add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dotfile1 path/to/dotfile2 …</span></p>
+
+<ul>
+  <li>Edit the source state of a tracked dotfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dotfile_or_symlink</span></p>
+
+<ul>
+  <li>See pending changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi diff</code></p>
+
+<ul>
+  <li>Apply the changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi -v apply</code></p>
+
+<ul>
+  <li>Pull changes from a remote repository and apply them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi update</code></p>

@@ -1,0 +1,22 @@
+<h1 id="reg-copy">reg copy</h1>
+
+<p>复制注册表中的键和值。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy</a>.</p>
+
+<ul>
+  <li>将注册表键复制到新的注册表位置：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">旧键名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新键名</span></p>
+
+<ul>
+  <li>递归将注册表键复制到新的注册表位置：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">旧键名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新键名</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>在没有提示的情况下强制复制注册表键：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">旧键名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新键名</span><code class="language-plaintext highlighter-rouge"> /f</code></p>

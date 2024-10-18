@@ -1,0 +1,29 @@
+<h1 id="get-alias">Get-Alias</h1>
+
+<p>List and get command aliases in the current PowerShell session.
+This command can only be run under PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-alias">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-alias</a>.</p>
+
+<ul>
+  <li>List all aliases in the current session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Alias</code></p>
+
+<ul>
+  <li>Get the aliased command name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_alias</span></p>
+
+<ul>
+  <li>List all aliases assigned to a specific command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Alias -Definition </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>List aliases that begins with <code class="language-plaintext highlighter-rouge">abc</code>, excluding those which ends at <code class="language-plaintext highlighter-rouge">def</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">abc</span><code class="language-plaintext highlighter-rouge">* -Exclude *</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">def</span></p>

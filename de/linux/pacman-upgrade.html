@@ -1,0 +1,41 @@
+<h1 id="pacman-upgrade">pacman –upgrade</h1>
+
+<p>Arch Linux Paketverwaltungs-Werkzeug.
+Siehe auch: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Weitere Informationen: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Installiere ein oder mehrere Pakete von Dateien:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/paket1.pkg.tar.zst</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/paket2.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Installiere ein Paket ohne Bestätigungsaufforderung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/paket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Überschreibe widersprüchliche Dateien während einer Paketinstallation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/paket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Installiere ein Paket und überspringe die Überprüfung von Abhängigkeitsversionen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade --nodeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/paket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Liste Pakete auf, welche betroffen sein würden (installiert keine Pakete):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --upgrade --print </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/paket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Zeige Hilfe an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --upgrade --help</code></p>
