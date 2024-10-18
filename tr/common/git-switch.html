@@ -1,0 +1,41 @@
+<h1 id="git-switch">git switch</h1>
+
+<p>Git dalları arasında geçiş yap. Gir sürümü 2.23+ olmalıdır.
+Ayrıca benzer işlev gören <code class="language-plaintext highlighter-rouge">git checkout</code> komutuna bakılması önerilir.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-switch">https://git-scm.com/docs/git-switch</a>.</p>
+
+<ul>
+  <li>Varolan bir dala geç:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>
+
+<ul>
+  <li>Yeni bir dal yarat ve ona geç:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>
+
+<ul>
+  <li>Varolan commit üzerine yeni bir dal yarat ve ona geç:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Önceki dala geç:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch -</code></p>
+
+<ul>
+  <li>Bir dala geç ve tüm alt modülleri uyum için güncelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --recurse-submodules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>
+
+<ul>
+  <li>Bir dala geç ve mevcut dal ile commit'lenmeyen değişiklikleri bu dal ile birleştir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>

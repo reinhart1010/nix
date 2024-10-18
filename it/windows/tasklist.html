@@ -1,0 +1,34 @@
+<h1 id="tasklist">tasklist</h1>
+
+<p>Mostra una lista dei processi in esecuzione su una macchina locale o remota.
+Maggiori informazioni: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist">https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist</a>.</p>
+
+<ul>
+  <li>Mostra i processi in esecuzione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tasklist</code></p>
+
+<ul>
+  <li>Mostra i processi in esecuzione in un formato specifico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tasklist /fo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table|list|csv</span></p>
+
+<ul>
+  <li>Mostra i processi in esecuzione utilizzando il nome del file <code class="language-plaintext highlighter-rouge">.exe</code> o <code class="language-plaintext highlighter-rouge">.dll</code> specificato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tasklist /m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_moduli</span></p>
+
+<ul>
+  <li>Mostra i processi in esecuzione su una macchina remota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tasklist /s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_macchina_remota</span><code class="language-plaintext highlighter-rouge"> /u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span><code class="language-plaintext highlighter-rouge"> /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Visualizzare i servizi utilizzando ogni processo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tasklist /svc</code></p>

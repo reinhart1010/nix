@@ -1,0 +1,53 @@
+<h1 id="gcloud-logging-logs-list">gcloud logging logs list</h1>
+
+<p>Google Cloud 프로젝트에서 로그 목록을 나열합니다.
+모니터링 및 분석을 위한 사용 가능한 로그 식별에 유용합니다. 같이 보기: <code class="language-plaintext highlighter-rouge">gcloud</code>.
+더 많은 정보: <a href="https://cloud.google.com/sdk/gcloud/reference/logging/logs/list">https://cloud.google.com/sdk/gcloud/reference/logging/logs/list</a>.</p>
+
+<ul>
+  <li>현재 프로젝트의 모든 로그 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list</code></p>
+
+<ul>
+  <li>특정 로그 버킷 및 위치의 모든 로그 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --bucket=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_아이디</span><code class="language-plaintext highlighter-rouge"> --location=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">위치</span></p>
+
+<ul>
+  <li>로그 버킷의 특정 뷰에 대한 모든 로그 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --bucket=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_아이디</span><code class="language-plaintext highlighter-rouge"> --location=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">위치</span><code class="language-plaintext highlighter-rouge"> --view=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">뷰_아이디</span></p>
+
+<ul>
+  <li>필터 표현식을 사용하여 로그 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --filter="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표현식</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>지정된 수의 로그 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --limit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span></p>
+
+<ul>
+  <li>특정 필드를 기준으로 오름차순 또는 내림차순(<code class="language-plaintext highlighter-rouge">~</code>는 내림차순)으로 정렬하여 로그 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --sort-by="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드_이름</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>여러 필드를 기준으로 정렬하여 로그 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --sort-by="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드1</span><code class="language-plaintext highlighter-rouge">,~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드2</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>추가 세부 정보를 보여주는 자세한 출력으로 로그 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud logging logs list --verbosity=debug</code></p>

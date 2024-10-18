@@ -1,0 +1,52 @@
+<h1 id="gh-run">gh run</h1>
+
+<p>View, run and watch recent GitHub Actions workflow runs.
+More information: <a href="https://cli.github.com/manual/gh_run">https://cli.github.com/manual/gh_run</a>.</p>
+
+<ul>
+  <li>Interactively select a run to see information about the jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh run view</code></p>
+
+<ul>
+  <li>Display information about a specific run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh run view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workflow_run_number</span></p>
+
+<ul>
+  <li>Display information about the steps of a job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh run view --job=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_number</span></p>
+
+<ul>
+  <li>Display the log of a job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh run view --job=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_number</span><code class="language-plaintext highlighter-rouge"> --log</code></p>
+
+<ul>
+  <li>Check a specific workflow and exit with a non-zero status if the run failed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh run view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workflow_run_number</span><code class="language-plaintext highlighter-rouge"> --exit-status &amp;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "run pending or passed"</span></p>
+
+<ul>
+  <li>Interactively select an active run and wait until it's done:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh run watch</code></p>
+
+<ul>
+  <li>Display the jobs for a run and wait until it's done:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh run watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workflow_run_number</span></p>
+
+<ul>
+  <li>Re-run a specific workflow:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh run rerun </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workflow_run_number</span></p>

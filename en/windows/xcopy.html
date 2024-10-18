@@ -1,0 +1,52 @@
+<h1 id="xcopy">xcopy</h1>
+
+<p>Copy files and directory trees.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy">https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy</a>.</p>
+
+<ul>
+  <li>Copy the file(s) to the specified destination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span></p>
+
+<ul>
+  <li>List files that will be copied before copying:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> /p</code></p>
+
+<ul>
+  <li>Copy the directory structure only, excluding files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> /t</code></p>
+
+<ul>
+  <li>Include empty directories when copying:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> /e</code></p>
+
+<ul>
+  <li>Keep the source ACL in the destination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> /o</code></p>
+
+<ul>
+  <li>Allow resuming when network connection is lost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> /z</code></p>
+
+<ul>
+  <li>Disable the prompt when the file exists in the destination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> /y</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy /?</code></p>

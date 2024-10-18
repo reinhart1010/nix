@@ -1,0 +1,40 @@
+<h1 id="ffuf">ffuf</h1>
+
+<p>Subdomain and directory discovery tool.
+More information: <a href="https://github.com/ffuf/ffuf">https://github.com/ffuf/ffuf</a>.</p>
+
+<ul>
+  <li>Discover directories using a [w]ordlist on a target [u]rl with [c]olorized and [v]erbose output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://target/FUZZ</span><code class="language-plaintext highlighter-rouge"> -c -v</code></p>
+
+<ul>
+  <li>Fuzz host-[H]eaders with a host file on a target website and [m]atch HTTP 200 [c]ode responses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hosts.txt</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span><code class="language-plaintext highlighter-rouge"> -H "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Host: FUZZ</span><code class="language-plaintext highlighter-rouge">" -mc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200</span></p>
+
+<ul>
+  <li>Discover directories using a [w]ordlist on a target website with a max individual job time of 60 seconds and recursion discovery depth of 2 levels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://target/FUZZ</span><code class="language-plaintext highlighter-rouge"> -maxtime-job </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span><code class="language-plaintext highlighter-rouge"> -recursion -recursion-depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Fuzz GET parameter on a target website and [f]ilter out message [s]ize response of 4242 bytes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/param_names.txt</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://target/script.php?FUZZ=test_value</span><code class="language-plaintext highlighter-rouge"> -fs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4242</span></p>
+
+<ul>
+  <li>Fuzz POST method with POST [d]ata of password on a target website and [f]ilter out HTTP response [c]ode 401:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/postdata.txt</span><code class="language-plaintext highlighter-rouge"> -X </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POST</span><code class="language-plaintext highlighter-rouge"> -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username=admin\&amp;password=FUZZ</span><code class="language-plaintext highlighter-rouge">" -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://target/login.php</span><code class="language-plaintext highlighter-rouge"> -fc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">401</span></p>
+
+<ul>
+  <li>Discover subdomains using a subdomain list on a target website:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subdomains.txt</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://website.com</span><code class="language-plaintext highlighter-rouge"> -H "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Host: FUZZ.website.com</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,41 @@
+<h1 id="git-annex">git annex</h1>
+
+<p>Git을 사용하여 파일을 관리하지만, 파일의 내용을 체크인하지 않습니다.
+파일이 annexed되면, 해당 내용이 키-값 저장소로 이동되고, 내용을 가리키는 심볼릭 링크가 생성됩니다.
+더 많은 정보: <a href="https://git-annex.branchable.com">https://git-annex.branchable.com</a>.</p>
+
+<ul>
+  <li>Git annex로 저장소 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex init</code></p>
+
+<ul>
+  <li>파일 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>파일 또는 디렉토리의 현재 상태 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>로컬 저장소를 원격과 동기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격</span></p>
+
+<ul>
+  <li>파일 또는 디렉토리 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex help</code></p>

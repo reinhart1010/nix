@@ -1,0 +1,22 @@
+<h1 id="svccfg">svccfg</h1>
+
+<p>சேவை உள்ளமைவுகளை இறக்குமதி செய்யவும், ஏற்றுமதி செய்யவும் மற்றும் மாற்றவும்.
+மேலும் விவரத்திற்கு: <a href="https://www.unix.com/man-page/linux/1m/svccfg">https://www.unix.com/man-page/linux/1m/svccfg</a>.</p>
+
+<ul>
+  <li>உள்ளமைவு கோப்பை சரிபார்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smf.xml</span></p>
+
+<ul>
+  <li>கோப்பிற்கு சேவை உள்ளமைவுகளை ஏற்றுமதி செய்யவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சேவை_பெயர்</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smf.xml</span></p>
+
+<ul>
+  <li>கோப்பிலிருந்து சேவை உள்ளமைவுகளை இறக்குமதி/புதுப்பித்தல்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smf.xml</span></p>

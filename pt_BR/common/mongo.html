@@ -1,0 +1,28 @@
+<h1 id="mongo">mongo</h1>
+
+<p>Cliente shell interativo de MongoDB.
+Mais informações: <a href="https://docs.mongodb.com/manual/reference/program/mongo">https://docs.mongodb.com/manual/reference/program/mongo</a>.</p>
+
+<ul>
+  <li>Conecta a uma base de dados local na porta padrão (mongodb://localhost:27017):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo</code></p>
+
+<ul>
+  <li>Conecta a uma base de dados em um servidor e porta específicos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_de_dados</span></p>
+
+<ul>
+  <li>Autentica usando, na base de dados especificada, o nome de usuário especificado (uma senha será solicitada):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span><code class="language-plaintext highlighter-rouge"> --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span><code class="language-plaintext highlighter-rouge"> --authenticationDatabase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">auth_base_de_dados</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_de_dados</span></p>
+
+<ul>
+  <li>Avalia JavaScript na base de dados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --eval '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">JSON.stringify(db.foo.findOne())</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_de_dados</span></p>

@@ -1,0 +1,22 @@
+<h1 id="xctool">xctool</h1>
+
+<p>Build Xcode projects.
+More information: <a href="https://github.com/facebookarchive/xctool">https://github.com/facebookarchive/xctool</a>.</p>
+
+<ul>
+  <li>Build a single project without any workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xctool -project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YourProject.xcodeproj</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YourScheme</span><code class="language-plaintext highlighter-rouge"> build</code></p>
+
+<ul>
+  <li>Build a project that is part of a workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xctool -workspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YourWorkspace.xcworkspace</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YourScheme</span><code class="language-plaintext highlighter-rouge"> build</code></p>
+
+<ul>
+  <li>Clean, build and execute all the tests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xctool -workspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YourWorkspace.xcworkspace</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YourScheme</span><code class="language-plaintext highlighter-rouge"> clean build test</code></p>

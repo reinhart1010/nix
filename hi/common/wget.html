@@ -1,0 +1,53 @@
+<h1 id="wget">wget</h1>
+
+<p>वेब से फ़ाइलें डाउनलोड करें।
+HTTP, HTTPS और FTP का समर्थन करता है।
+अधिक जानकारी: <a href="https://www.gnu.org/software/wget">https://www.gnu.org/software/wget</a>।</p>
+
+<ul>
+  <li>किसी फ़ाइल में URL की अंतर्वस्तु डाउनलोड करें (इस मामले में "foo" नाम दिया गया है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/foo</span></p>
+
+<ul>
+  <li>किसी फ़ाइल में URL की अंतर्वस्तु डाउनलोड करें (इस मामले में "bar" नाम दिया गया है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --output-document </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/foo</span></p>
+
+<ul>
+  <li>अनुरोधों के बीच 3-सेकंड अंतराल के साथ एक एकल वेब पेज और उसके सभी संसाधन डाउनलोड करें (स्क्रिप्ट्स, स्टाइलशीट, चित्र, आदि।):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --page-requisites --convert-links --wait=3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepage.html</span></p>
+
+<ul>
+  <li>एक निर्देशिका और उसकी उप-निर्देशिकाओं में सभी सूचीबद्ध फ़ाइलें डाउनलोड करें (अंतर्निहित पृष्ठ तत्व डाउनलोड नहीं करता):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --mirror --no-parent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepath/</span></p>
+
+<ul>
+  <li>डाउनलोड की गति और कनेक्शन के पुन: प्रयास की संख्या सीमित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --limit-rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300k</span><code class="language-plaintext highlighter-rouge"> --tries=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepath/</span></p>
+
+<ul>
+  <li>मूल प्रमाणीकरण का उपयोग करके किसी HTTP सर्वर से फ़ाइल डाउनलोड करें (FTP के लिए भी काम करता है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span><code class="language-plaintext highlighter-rouge"> --password=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पासवर्ड</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>अधूरा डाउनलोड जारी रखें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --continue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>टेक्स्ट फ़ाइल में संग्रहीत सभी URL को एक विशिष्ट निर्देशिका में डाउनलोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --directory-prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निर्देशिका/का/पथ</span><code class="language-plaintext highlighter-rouge"> --input-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URLs.txt</span></p>

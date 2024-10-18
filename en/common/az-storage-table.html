@@ -1,0 +1,29 @@
+<h1 id="az-storage-table">az storage table</h1>
+
+<p>Manage NoSQL key-value storage in Azure.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/storage/table">https://learn.microsoft.com/cli/azure/storage/table</a>.</p>
+
+<ul>
+  <li>Create a new table in the storage account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage table create --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> --fail-on-exist</code></p>
+
+<ul>
+  <li>Generate a shared access signature for the table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage table generate-sas --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> --permissions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sas_permissions</span><code class="language-plaintext highlighter-rouge"> --expiry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expiry_date</span><code class="language-plaintext highlighter-rouge"> --https-only</code></p>
+
+<ul>
+  <li>List tables in a storage account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage table list --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span></p>
+
+<ul>
+  <li>Delete the specified table and any data it contains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage table delete --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> --fail-not-exist</code></p>

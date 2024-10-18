@@ -1,0 +1,41 @@
+<h1 id="git-switch">git switch</h1>
+
+<p>Passa ad altri rami. Richiede versioni di Git successive alla 2.23.
+Vedi anche <code class="language-plaintext highlighter-rouge">git checkout</code>.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-switch">https://git-scm.com/docs/git-switch</a>.</p>
+
+<ul>
+  <li>Passa ad un altro ramo esistente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>
+
+<ul>
+  <li>Crea un nuovo ramo e passa a quel ramo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>
+
+<ul>
+  <li>Crea un nuovo ramo a partire da un commit esistente e passa a quel ramo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Torna al ramo precedente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch -</code></p>
+
+<ul>
+  <li>Passa ad un ramo ed aggiorna tutti i moduli secondari associati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --recurse-submodules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>
+
+<ul>
+  <li>Passa ad un ramo e uniscilo automaticamente al ramo corrente, include le modifiche non committate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>

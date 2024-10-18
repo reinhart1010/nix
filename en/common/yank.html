@@ -1,0 +1,28 @@
+<h1 id="yank">yank</h1>
+
+<p>Read input from <code class="language-plaintext highlighter-rouge">stdin</code> and display a selection interface that allows a field to be selected and copied to the clipboard.
+More information: <a href="https://manned.org/yank">https://manned.org/yank</a>.</p>
+
+<ul>
+  <li>Yank using the default delimiters (\f, \n, \r, \s, \t):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sudo dmesg</span><code class="language-plaintext highlighter-rouge"> | yank</code></p>
+
+<ul>
+  <li>Yank an entire line:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sudo dmesg</span><code class="language-plaintext highlighter-rouge"> | yank -l</code></p>
+
+<ul>
+  <li>Yank using a specific delimiter:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo hello=world</span><code class="language-plaintext highlighter-rouge"> | yank -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">=</span></p>
+
+<ul>
+  <li>Only yank fields matching a specific pattern:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ps ux</span><code class="language-plaintext highlighter-rouge"> | yank -g "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[0-9]+</span><code class="language-plaintext highlighter-rouge">"</code></p>

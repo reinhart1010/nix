@@ -1,0 +1,40 @@
+<h1 id="docker-service">docker service</h1>
+
+<p>Manage the services on a Docker daemon.
+More information: <a href="https://docs.docker.com/reference/cli/docker/service/">https://docs.docker.com/reference/cli/docker/service/</a>.</p>
+
+<ul>
+  <li>List the services on a Docker daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service ls</code></p>
+
+<ul>
+  <li>Create a new service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Display detailed information about one or more services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name_or_ID1 service_name_or_ID2</span></p>
+
+<ul>
+  <li>List the tasks of one or more services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service ps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name_or_ID1 service_name_or_ID2 …</span></p>
+
+<ul>
+  <li>Scale to a specific number of replicas for a space-separated list of services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service scale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count_of_replicas</span></p>
+
+<ul>
+  <li>Remove one or more services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name_or_ID1 service_name_or_ID2</span></p>

@@ -1,0 +1,40 @@
+<h1 id="docker-service">docker service</h1>
+
+<p>Verwalte Docker Services.
+Weitere Informationen: <a href="https://docs.docker.com/reference/cli/docker/service/">https://docs.docker.com/reference/cli/docker/service/</a>.</p>
+
+<ul>
+  <li>Liste alle Services auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service ls</code></p>
+
+<ul>
+  <li>Erstelle einen neuen Service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Zeige detaillierte Informationen der mit Leerzeichen separierten Services an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name|ID</span></p>
+
+<ul>
+  <li>Liste die Tasks der mit Leerzeichen separierten Services auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service ps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name|ID</span></p>
+
+<ul>
+  <li>Skaliere die angegebenen Services auf eine bestimmte Anzahl an Replikaten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service scale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anzahl_an_replikaten</span></p>
+
+<ul>
+  <li>Lösche die mit Leerzeichen separierten Services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name|ID</span></p>

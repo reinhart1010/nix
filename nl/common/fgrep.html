@@ -1,0 +1,41 @@
+<h1 id="fgrep">fgrep</h1>
+
+<p>Zoek naar strings in bestanden.
+Gelijk aan <code class="language-plaintext highlighter-rouge">grep -F</code>.
+Meer informatie: <a href="https://www.gnu.org/software/grep/manual/grep.html">https://www.gnu.org/software/grep/manual/grep.html</a>.</p>
+
+<ul>
+  <li>Zoek naar een string in een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Zoek in bestanden, maar alleen in regels die volledig overeenkomen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fgrep -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>
+
+<ul>
+  <li>Tel het aantal regels in een bestand die overeenkomen met de opgegeven string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fgrep -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon de regelnummers in het bestand samen met de regel die overeenkomt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fgrep -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon alle regels behalve de regels die de string bevatten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fgrep -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon bestandsnamen waarvan de inhoud minimaal één keer overeenkomt met de string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fgrep -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>

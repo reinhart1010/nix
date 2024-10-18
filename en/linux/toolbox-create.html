@@ -1,0 +1,34 @@
+<h1 id="toolbox-create">toolbox create</h1>
+
+<p>Create a new <code class="language-plaintext highlighter-rouge">toolbox</code> container.
+More information: <a href="https://manned.org/toolbox-create.1">https://manned.org/toolbox-create.1</a>.</p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">toolbox</code> container for a specific distribution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">toolbox create --distro </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">toolbox</code> container for a specific release of the current distribution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">toolbox create --release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release</span></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">toolbox</code> container with a custom image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">toolbox create --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">toolbox</code> container from a custom Fedora image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">toolbox create --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.fedoraproject.org/fedora-toolbox:39</span></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">toolbox</code> container using the default image for Fedora 39:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">toolbox create --distro </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span><code class="language-plaintext highlighter-rouge"> --release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f39</span></p>

@@ -1,0 +1,29 @@
+<h1 id="look">look</h1>
+
+<p>Muestra las líneas que empiezan por un prefijo en un archivo ordenado.
+Vea también: <code class="language-plaintext highlighter-rouge">grep</code>, <code class="language-plaintext highlighter-rouge">sort</code>.
+Más información: <a href="https://keith.github.io/xcode-man-pages/look.1.html">https://keith.github.io/xcode-man-pages/look.1.html</a>.</p>
+
+<ul>
+  <li>Busca líneas que comiencen con un prefijo específico en un archivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefijo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Búsqueda insensible a mayúsculas y minúsculas solo en caracteres alfanuméricos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–ignore-case</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–alphanum</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefijo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Especifica un carácter de terminación de cadena (espacio por defecto):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–terminate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span></p>
+
+<ul>
+  <li>Busca en <code class="language-plaintext highlighter-rouge">/usr/share/dict/words</code> (se asumen <code class="language-plaintext highlighter-rouge">--ignore-case</code> y <code class="language-plaintext highlighter-rouge">--alphanum</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefijo</span></p>

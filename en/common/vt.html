@@ -1,0 +1,53 @@
+<h1 id="vt">vt</h1>
+
+<p>Command-line interface for VirusTotal.
+API key from a VirusTotal account is required for this command.
+More information: <a href="https://github.com/VirusTotal/vt-cli">https://github.com/VirusTotal/vt-cli</a>.</p>
+
+<ul>
+  <li>Scan a specific file for viruses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt scan file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Scan a URL for viruses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt scan url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Display information from a specific analysis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt analysis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_id|analysis_id</span></p>
+
+<ul>
+  <li>Download files in encrypted Zip format (requires premium account):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_id</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --zip --zip-password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Initialize or re-initialize <code class="language-plaintext highlighter-rouge">vt</code> to enter API key interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt init</code></p>
+
+<ul>
+  <li>Display information about a domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Display information for a specific URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Display information for a specific IP address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span></p>

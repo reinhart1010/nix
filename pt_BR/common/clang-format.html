@@ -1,0 +1,34 @@
+<h1 id="clang-format">clang-format</h1>
+
+<p>Formata automaticamente código C/C++/Java/JavaScript/Objective-C/Protobuf/C#.
+Mais informações: <a href="https://clang.llvm.org/docs/ClangFormat.html">https://clang.llvm.org/docs/ClangFormat.html</a>.</p>
+
+<ul>
+  <li>Formata um arquivo e exibe o resultado para a <code class="language-plaintext highlighter-rouge">stdout</code> (saída padrão):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Formata um arquivo "in-place", ou seja, salvando nele mesmo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-format -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Formata um arquivo usando um estilo de código predefinido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-format --style </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Formata um arquivo usando o arquivo <code class="language-plaintext highlighter-rouge">.clang-format</code> em um dos diretórios pais do arquivo fonte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-format --style=file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Gera um arquivo <code class="language-plaintext highlighter-rouge">.clang-format</code> personalizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-format --style </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit</span><code class="language-plaintext highlighter-rouge"> --dump-config &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.clang-format</span></p>

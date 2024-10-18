@@ -1,0 +1,40 @@
+<h1 id="systemd-dissect">systemd-dissect</h1>
+
+<p>파일 시스템 OS 디스크 이미지, 특히 Discoverable Disk Images (DDIs)를 검사하고 상호작용.
+더 많은 정보: <a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-dissect.html">https://www.freedesktop.org/software/systemd/man/latest/systemd-dissect.html</a>.</p>
+
+<ul>
+  <li>OS 이미지에 대한 일반 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-dissect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/image.raw</span></p>
+
+<ul>
+  <li>OS 이미지 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-dissect --mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/image.raw</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/mnt/image</span></p>
+
+<ul>
+  <li>OS 이미지 언마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-dissect --umount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/mnt/image</span></p>
+
+<ul>
+  <li>이미지 내 파일 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-dissect --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/image.raw</span></p>
+
+<ul>
+  <li>OS 이미지를 자동으로 할당된 루프백 블록 장치에 연결하고 경로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-dissect --attach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/image.raw</span></p>
+
+<ul>
+  <li>루프백 블록 장치에서 OS 이미지 분리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-dissect --detach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/장치</span></p>

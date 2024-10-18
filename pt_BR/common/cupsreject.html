@@ -1,0 +1,24 @@
+<h1 id="cupsreject">cupsreject</h1>
+
+<p>Rejeita trabalhos enviados para uma ou mais impressoras.
+NOTA: destino se refere a uma impressora ou uma classe de impressoras.
+Veja também: <code class="language-plaintext highlighter-rouge">cupsaccept</code>, <code class="language-plaintext highlighter-rouge">cupsenable</code>, <code class="language-plaintext highlighter-rouge">cupsdisable</code>, <code class="language-plaintext highlighter-rouge">lpstat</code>.
+Mais informações: <a href="https://www.cups.org/doc/man-cupsaccept.html">https://www.cups.org/doc/man-cupsaccept.html</a>.</p>
+
+<ul>
+  <li>Rejeita trabalhos para os destinos especificados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsreject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino1 destino2 …</span></p>
+
+<ul>
+  <li>Especifica um servidor diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsreject -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino1 destino2 …</span></p>
+
+<ul>
+  <li>Especifica uma mensagem de motivo ("Reason Unknown" por padrão):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsreject -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">motivo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino1 destino2 …</span></p>

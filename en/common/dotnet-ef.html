@@ -1,0 +1,52 @@
+<h1 id="dotnet-ef">dotnet ef</h1>
+
+<p>Perform design-time development tasks for Entity Framework Core.
+More information: <a href="https://learn.microsoft.com/ef/core/cli/dotnet">https://learn.microsoft.com/ef/core/cli/dotnet</a>.</p>
+
+<ul>
+  <li>Update the database to a specified migration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef database update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">migration</span></p>
+
+<ul>
+  <li>Drop the database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef database drop</code></p>
+
+<ul>
+  <li>List available <code class="language-plaintext highlighter-rouge">DbContext</code> types:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef dbcontext list</code></p>
+
+<ul>
+  <li>Generate code for a <code class="language-plaintext highlighter-rouge">DbContext</code> and entity types for a database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef dbcontext scaffold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">connection_string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">provider</span></p>
+
+<ul>
+  <li>Add a new migration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Remove the last migration, rolling back the code changes that were done for the latest migration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations remove</code></p>
+
+<ul>
+  <li>List available migrations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations list</code></p>
+
+<ul>
+  <li>Generate an SQL script from migrations range:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations script </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from_migration</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_migration</span></p>

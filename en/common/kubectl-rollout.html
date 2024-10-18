@@ -1,0 +1,28 @@
+<h1 id="kubectl-rollout">kubectl rollout</h1>
+
+<p>Manage the rollout of a Kubernetes resource (deployments, daemonsets, and statefulsets).
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#rollout">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#rollout</a>.</p>
+
+<ul>
+  <li>Start a rolling restart of a resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout restart </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span></p>
+
+<ul>
+  <li>Watch the rolling update status of a resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span></p>
+
+<ul>
+  <li>Roll back a resource to the previous revision:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout undo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span></p>
+
+<ul>
+  <li>View the rollout history of a resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout history </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span></p>

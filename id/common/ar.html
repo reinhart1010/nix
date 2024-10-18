@@ -1,0 +1,35 @@
+<h1 id="ar">ar</h1>
+
+<p>Buat, olah, dan ekstrak berkas dalam format arsip Unix. Biasanya dimanfaatkan untuk pustaka statis (<code class="language-plaintext highlighter-rouge">.a</code>) dan paket piranti lunak Debian (<code class="language-plaintext highlighter-rouge">.deb</code>).
+Lihat juga: <code class="language-plaintext highlighter-rouge">tar</code>.
+Informasi lebih lanjut: <a href="https://manned.org/ar">https://manned.org/ar</a>.</p>
+
+<ul>
+  <li>E[x]trak seluruh berkas dalam suatu arsip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.a</span></p>
+
+<ul>
+  <li>Lihat daf[t]ar isi dari suatu arsip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.ar</span></p>
+
+<ul>
+  <li>Gantikan ([r]eplace) atau tambahkan suatu berkas ke dalam arsip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.deb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/debian-binary jalan/menuju/control.tar.gz jalan/menuju/data.tar.xz …</span></p>
+
+<ul>
+  <li>Ma[s]ukkan suatu berkas objek (setara dengan penggunaan <code class="language-plaintext highlighter-rouge">ranlib</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.a</span></p>
+
+<ul>
+  <li>Buat suatu arsip berisikan kumpulan berkas tertentu, dan suatu berkas daftar indeks para objek:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.a</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1.o jalan/menuju/berkas2.o …</span></p>

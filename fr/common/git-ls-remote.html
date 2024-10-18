@@ -1,0 +1,35 @@
+<h1 id="git-ls-remote">git ls-remote</h1>
+
+<p>Commande Git pour répertorier les références dans un dépôt distant en fonction du nom ou de l'URL.
+Si aucun nom ou URL n'est donné, alors la branche amont configurée sera utilisée, ou l'origine distante si la première n'est pas configurée.
+Plus d'informations : <a href="https://git-scm.com/docs/git-ls-remote">https://git-scm.com/docs/git-ls-remote</a>.</p>
+
+<ul>
+  <li>Afficher les références du dépôt configuré par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-remote</code></p>
+
+<ul>
+  <li>Afficher uniquement les références HEAD du dépôt configuré par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-remote --heads</code></p>
+
+<ul>
+  <li>Afficher uniquement les tags du dépôt configuré par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-remote --tags</code></p>
+
+<ul>
+  <li>Afficher les références du dépôt précisé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url-du-dépôt</span></p>
+
+<ul>
+  <li>Afficher les références du dépôt précisé filtrés par un motif :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom-du-dépôt</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">motif</span><code class="language-plaintext highlighter-rouge">"</code></p>

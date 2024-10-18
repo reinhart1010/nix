@@ -1,0 +1,52 @@
+<h1 id="find">find</h1>
+
+<p>Trouve récursivement des fichiers ou des dossiers dans l'arborescence spécifiée.
+Plus d'informations : <a href="https://manned.org/find">https://manned.org/find</a>.</p>
+
+<ul>
+  <li>Trouve des fichiers par extension :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">racine</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Trouve des fichiers correspondant à plusieurs chemins ou motifs :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">racine</span><code class="language-plaintext highlighter-rouge"> -path '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><strong>/chemin/</strong>/*.ext</span><code class="language-plaintext highlighter-rouge">' -or -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>motif</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Trouve des dossiers correspondant à un nom donné sans vérifier la casse :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">racine</span><code class="language-plaintext highlighter-rouge"> -type d -iname '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>lib</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Trouve des fichiers correspondant à un motif donné en excluant certains chemins de la recherche :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">racine</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.py</span><code class="language-plaintext highlighter-rouge">' -not -path '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>/site-packages/</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Trouve des fichiers dans une fourchette de tailles et limite la profondeur récursive à "1" :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">racine</span><code class="language-plaintext highlighter-rouge"> -maxdepth 1 -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+500k</span><code class="language-plaintext highlighter-rouge"> -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-10M</span></p>
+
+<ul>
+  <li>Exécute une commande pour chaque fichier (utiliser <code class="language-plaintext highlighter-rouge">{}</code> dans la commande pour utiliser le nom des fichiers) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">racine</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">' -exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l {} </span><code class="language-plaintext highlighter-rouge">\;</code></p>
+
+<ul>
+  <li>Trouve les fichiers modifiés dans les 7 derniers jours :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">racine</span><code class="language-plaintext highlighter-rouge"> -daystart -mtime -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span></p>
+
+<ul>
+  <li>Trouve les fichiers vides (de taille nulle) et les supprimer :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">racine</span><code class="language-plaintext highlighter-rouge"> -type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f</span><code class="language-plaintext highlighter-rouge"> -empty -delete</code></p>

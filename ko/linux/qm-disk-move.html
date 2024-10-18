@@ -1,0 +1,16 @@
+<h1 id="qm-disk-move">qm disk move</h1>
+
+<p>Proxmox 클러스터 내에서 가상 디스크를 한 스토리지에서 다른 스토리지로 이동.
+더 많은 정보: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>가상 디스크 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm disk move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">색인</span></p>
+
+<ul>
+  <li>이전 가상 디스크 복사본 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm disk move -delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">색인</span></p>

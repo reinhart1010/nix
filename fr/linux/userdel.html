@@ -1,0 +1,23 @@
+<h1 id="userdel">userdel</h1>
+
+<p>Supprime un compte utilisateur ou supprime un utilisateur d'un groupe.
+Voir aussi <code class="language-plaintext highlighter-rouge">users</code>, <code class="language-plaintext highlighter-rouge">useradd</code>, <code class="language-plaintext highlighter-rouge">usermod</code>.
+Plus d'informations : <a href="https://manned.org/userdel">https://manned.org/userdel</a>.</p>
+
+<ul>
+  <li>Supprime un utilisateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Supprime un utilisateur dans un autre répertoire racine :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel --root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/autre_racine</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Supprime un utilisateur, son répertoire personnel ainsi que son répertoire d'attente des courriels :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>

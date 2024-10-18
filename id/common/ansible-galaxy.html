@@ -1,0 +1,46 @@
+<h1 id="ansible-galaxy">ansible-galaxy</h1>
+
+<p>Buat dan atur peran pengguna (role) Ansible.
+Informasi lebih lanjut: <a href="https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html">https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html</a>.</p>
+
+<ul>
+  <li>Pasang sebuah peran kepada suatu pengguna:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span></p>
+
+<ul>
+  <li>Buang peran dari suatu pengguna:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span></p>
+
+<ul>
+  <li>Tampilkan daftar peran yang tersedia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy list</code></p>
+
+<ul>
+  <li>Cari peran berdasarkan nama:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span></p>
+
+<ul>
+  <li>Terbitkan sebuah peran baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span></p>
+
+<ul>
+  <li>Dapatkan informasi mengenai peran sebuah pengguna:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy role info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span></p>
+
+<ul>
+  <li>Dapatkan informasi mengenai suatu koleksi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy collection info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_koleksi</span></p>

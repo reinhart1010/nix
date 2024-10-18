@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-config">git config</h1>
+
+<p>Керує спеціальними параметрами конфігурації для репозиторію Git.
+Конфігурації можуть бути локальні (для поточного репозиторію) або глобальні (для поточного користувача).
+Більше інформації: <a href="https://git-scm.com/docs/git-config">https://git-scm.com/docs/git-config</a>.</p>
+
+<ul>
+  <li>Надає перелік лише локальних налаштувань (що зберігаються у <code class="language-plaintext highlighter-rouge">.git/config</code> поточного репозиторію):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --local</code></p>
+
+<ul>
+  <li>Надає перелік лише глобальних налаштувань (що зберігаються у <code class="language-plaintext highlighter-rouge">~/.gitconfig</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --global</code></p>
+
+<ul>
+  <li>Отримує значення для наданого параметру конфігурації:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config alias.unstage</code></p>
+
+<ul>
+  <li>Встановлює глобальне значення для наданого параметру конфігурації:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global alias.unstage "reset HEAD --"</code></p>
+
+<ul>
+  <li>Повертає значення по замовчанню для наданого глобального параметру конфігурації:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --unset alias.unstage</code></p>
+
+<ul>
+  <li>Відкриває для редагування файл конфігурацій поточного репозиторію у редакторі по замовчуванню:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --edit</code></p>
+
+<ul>
+  <li>Відкриває для редагування файл з глобальними конфігураціями у редакторі по замовчанню:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --edit</code></p>

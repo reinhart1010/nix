@@ -1,0 +1,46 @@
+<h1 id="electrum">electrum</h1>
+
+<p>Ergonomico wallet (portafogli) Bitcoin e gestore di chiavi private.
+Maggiori informazioni: <a href="https://electrum.org">https://electrum.org</a>.</p>
+
+<ul>
+  <li>Crea un nuovo wallet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuovo_wallet.dat</span><code class="language-plaintext highlighter-rouge"> create</code></p>
+
+<ul>
+  <li>Ripristina un wallet esistente da un seed offline:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wallet_ripristinato.dat</span><code class="language-plaintext highlighter-rouge"> restore -o</code></p>
+
+<ul>
+  <li>Crea una transazione firmata offline:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum mktx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destinatario</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ammontare</span><code class="language-plaintext highlighter-rouge"> -f 0.0000001 -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mittente</span><code class="language-plaintext highlighter-rouge"> -o</code></p>
+
+<ul>
+  <li>Mostra tutti gli indirizzi del wallet per la ricezione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum listaddresses -a</code></p>
+
+<ul>
+  <li>Firma un messaggio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum signmessage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indirizzo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">messaggio</span></p>
+
+<ul>
+  <li>Verifica un messaggio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum verifymessage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indirizzo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firma</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">messaggio</span></p>
+
+<ul>
+  <li>Connettiti solo ad una specifica istanza electrum-server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum -p socks5:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span><code class="language-plaintext highlighter-rouge">:9050 -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">56ckl5obj37gypcu.onion</span><code class="language-plaintext highlighter-rouge">:50001:t -1</code></p>

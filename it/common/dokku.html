@@ -1,0 +1,35 @@
+<h1 id="dokku">dokku</h1>
+
+<p>Mini-Heroku basato su Docker (PaaS, Platform As A Service).
+Distribuisci facilmente molteplici app sul tuo server in diversi linguaggi utilizzando un singolo comando <code class="language-plaintext highlighter-rouge">git-push</code>.
+Maggiori informazioni: <a href="https://github.com/dokku/dokku">https://github.com/dokku/dokku</a>.</p>
+
+<ul>
+  <li>Elenca app in esecuzione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku apps</code></p>
+
+<ul>
+  <li>Crea un'app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku apps:create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_app</span></p>
+
+<ul>
+  <li>Rimuovi un'app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku apps:destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_app</span></p>
+
+<ul>
+  <li>Installa un plugin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku plugin:install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_completo_repo</span></p>
+
+<ul>
+  <li>Collega un database ad un'app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db</span><code class="language-plaintext highlighter-rouge">:link </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_app</span></p>

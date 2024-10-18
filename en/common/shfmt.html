@@ -1,0 +1,28 @@
+<h1 id="shfmt">shfmt</h1>
+
+<p>Shell parser, formatter and interpreter.
+More information: <a href="https://pkg.go.dev/mvdan.cc/sh">https://pkg.go.dev/mvdan.cc/sh</a>.</p>
+
+<ul>
+  <li>Print a formatted version of a shell script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shfmt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>List unformatted files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shfmt --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Write the result to the file instead of printing it to the terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shfmt --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Simplify the code, removing redundant pieces of syntax (i.e. removing "$" from vars in expressions):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shfmt --simplify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

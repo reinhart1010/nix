@@ -1,0 +1,41 @@
+<h1 id="arping">arping</h1>
+
+<p>Cari dan selidiki para host jaringan melalui protokol ARP.
+Bermanfaat untuk mencari alamat MAC dalam jaringan.
+Informasi lebih lanjut: <a href="https://github.com/ThomasHabets/arping">https://github.com/ThomasHabets/arping</a>.</p>
+
+<ul>
+  <li>Ping suatu host dengan megirimkan paket permintaan ARP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat_ip_host</span></p>
+
+<ul>
+  <li>Ping suatu host melalui antarmuka jaringan tertentu (contoh: <code class="language-plaintext highlighter-rouge">eth0</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">antarmuka_jaringan</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat_ip_host</span></p>
+
+<ul>
+  <li>Ping suatu host dan hentikan jika sang host mulai membalasnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat_ip_host</span></p>
+
+<ul>
+  <li>Ping suatu host untuk jumlah kesempatan tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jumlah_kesempatan</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat_ip_host</span></p>
+
+<ul>
+  <li>Sebarluaskan paket permintaan ARP kepada host apapun untuk membantu memutakhirkan informasi ARP dalam host tetangga:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat_ip_untuk_disebarluaskan</span></p>
+
+<ul>
+  <li>[D]eteksi adanya alamat IP duplikat dalam jaringan ini dengan mengirimkan permintaan ARP dengan jangka waktu habis (timeout) sebanyak 3 detik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -D -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat_ip_untuk_diperiksa</span></p>

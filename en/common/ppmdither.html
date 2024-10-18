@@ -1,0 +1,22 @@
+<h1 id="ppmdither">ppmdither</h1>
+
+<p>Reduce the number of colors in an image by applying dithering.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmdither.html">https://netpbm.sourceforge.net/doc/ppmdither.html</a>.</p>
+
+<ul>
+  <li>Read a PPM image, apply dithering and save it to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmdither </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span></p>
+
+<ul>
+  <li>Specify the desired number of shades for each primary color:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmdither -red </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> -green </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> -blue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span></p>
+
+<ul>
+  <li>Specify the dimensions of the dithering matrix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmdither -dim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span></p>

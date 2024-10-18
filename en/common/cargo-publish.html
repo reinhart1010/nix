@@ -1,0 +1,23 @@
+<h1 id="cargo-publish">cargo publish</h1>
+
+<p>Upload a package to a registry.
+Note: you have to add an authentication token using <code class="language-plaintext highlighter-rouge">cargo login</code> before publishing a package.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-publish.html">https://doc.rust-lang.org/cargo/commands/cargo-publish.html</a>.</p>
+
+<ul>
+  <li>Perform checks, create a <code class="language-plaintext highlighter-rouge">.crate</code> file and upload it to the registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo publish</code></p>
+
+<ul>
+  <li>Perform checks, create a <code class="language-plaintext highlighter-rouge">.crate</code> file but don't upload it (equivalent of <code class="language-plaintext highlighter-rouge">cargo package</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo publish --dry-run</code></p>
+
+<ul>
+  <li>Use the specified registry (registry names can be defined in the configuration - the default is <a href="https://crates.io">https://crates.io</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo publish --registry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

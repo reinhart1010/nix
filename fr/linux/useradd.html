@@ -1,0 +1,47 @@
+<h1 id="useradd">useradd</h1>
+
+<p>Crée un nouvel utilisateur.
+Voir aussi <code class="language-plaintext highlighter-rouge">users</code>, <code class="language-plaintext highlighter-rouge">userdel</code>, <code class="language-plaintext highlighter-rouge">usermod</code>.
+Plus d'informations : <a href="https://manned.org/useradd">https://manned.org/useradd</a>.</p>
+
+<ul>
+  <li>Crée un nouvel utilisateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Crée un nouvel utilisateur en spéficiant un identifiant numérique particulier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd --uid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifiant</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Crée un nouvel utilisateur avec le shell spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd --shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Crée un nouvel utilisateur qui appartient aux groupes supplémentaires (attention à l'omission des espaces) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd --groups </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groupe1,groupe2,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Crée un nouvel utilisateur avec le répertoire personnel par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd --create-home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Crée un nouvel utilisateur avec un répertoire personnel rempli par les fichiers et répertoires d'un répertoire squelette :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd --skel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/repertoire_squelette</span><code class="language-plaintext highlighter-rouge"> --create-home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Crée un nouvel utilisateur système sans répertoire personnel :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd --system </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>

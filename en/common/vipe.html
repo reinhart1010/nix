@@ -1,0 +1,22 @@
+<h1 id="vipe">vipe</h1>
+
+<p>Run a text editor in the middle of a UNIX pipeline.
+More information: <a href="https://joeyh.name/code/moreutils/">https://joeyh.name/code/moreutils/</a>.</p>
+
+<ul>
+  <li>Edit the output of <code class="language-plaintext highlighter-rouge">command1</code> before piping it into <code class="language-plaintext highlighter-rouge">command2</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1</span><code class="language-plaintext highlighter-rouge"> | vipe | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command2</span></p>
+
+<ul>
+  <li>Buffer the output of <code class="language-plaintext highlighter-rouge">command1</code> in a temporary file with the specified file extension in order to aid syntax highlighting:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1</span><code class="language-plaintext highlighter-rouge"> | vipe --suffix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command2</span></p>
+
+<ul>
+  <li>Use the specified text editor:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1</span><code class="language-plaintext highlighter-rouge"> | EDITOR=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vim</span><code class="language-plaintext highlighter-rouge"> vipe | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command2</span></p>

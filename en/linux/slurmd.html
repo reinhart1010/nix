@@ -1,0 +1,34 @@
+<h1 id="slurmd">slurmd</h1>
+
+<p>Monitors all tasks running on the compute node, accepts tasks, launches tasks, and kills running tasks upon request.
+More information: <a href="https://slurm.schedmd.com/slurmd.html">https://slurm.schedmd.com/slurmd.html</a>.</p>
+
+<ul>
+  <li>Report node rebooted when daemon restarted (Used for testing purposes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurmd -b</code></p>
+
+<ul>
+  <li>Run the daemon with the given nodename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurmd -N </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodename</span></p>
+
+<ul>
+  <li>Write log messages to the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurmd -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Read configuration from the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurmd -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurmd -h</code></p>

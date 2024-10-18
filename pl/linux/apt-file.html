@@ -1,0 +1,28 @@
+<h1 id="apt-file">apt-file</h1>
+
+<p>Wyszukaj pliki w pakietach APT, w tym jeszcze nie zainstalowanych.
+Więcej informacji: <a href="https://manned.org/apt-file.1">https://manned.org/apt-file.1</a>.</p>
+
+<ul>
+  <li>Zaktualizuj bazę metadanych:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Wyszukaj pakiet, który zawiera określony plik lub ścieżkę:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">część/ścieżki/do/pliku</span></p>
+
+<ul>
+  <li>Wyświetl zawartośċ określonego pakietu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>
+
+<ul>
+  <li>Wyszukaj pakiety, które pasują do podanego <code class="language-plaintext highlighter-rouge">wyrażenia_regularnego</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span><code class="language-plaintext highlighter-rouge"> --regexp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wyrażenie_regularne</span></p>

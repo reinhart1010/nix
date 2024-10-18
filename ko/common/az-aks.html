@@ -1,0 +1,35 @@
+<h1 id="az-aks">az aks</h1>
+
+<p>Azure Kubernetes Service (AKS) 클러스터 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/aks">https://learn.microsoft.com/cli/azure/aks</a>.</p>
+
+<ul>
+  <li>AKS 클러스터 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az aks list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span></p>
+
+<ul>
+  <li>새로운 AKS 클러스터 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az aks create --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --node-count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">개수</span><code class="language-plaintext highlighter-rouge"> --node-vm-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">크기</span></p>
+
+<ul>
+  <li>AKS 클러스터 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az aks delete --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>AKS 클러스터에 대한 접근 자격 증명을 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az aks get-credentials --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>AKS 클러스터에 사용할 수 있는 업그레이드 버전 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az aks get-upgrades --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>

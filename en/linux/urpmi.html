@@ -1,0 +1,35 @@
+<h1 id="urpmi">urpmi</h1>
+
+<p>Install packages in Mageia.
+See also: <code class="language-plaintext highlighter-rouge">urpm.update</code>, <code class="language-plaintext highlighter-rouge">urpme</code>, <code class="language-plaintext highlighter-rouge">urpmi.addmedia</code>, <code class="language-plaintext highlighter-rouge">urpmi.removemedia</code>, <code class="language-plaintext highlighter-rouge">urpmf</code>, <code class="language-plaintext highlighter-rouge">urpmq</code>.
+More information: <a href="https://wiki.mageia.org/en/URPMI#urpmi">https://wiki.mageia.org/en/URPMI#urpmi</a>.</p>
+
+<ul>
+  <li>Install a package from the repository or from a local RPM file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package|path/to/file.rpm</span></p>
+
+<ul>
+  <li>Download a package without installing it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmi --no-install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Update all installed packages (run <code class="language-plaintext highlighter-rouge">urpmi.update -a</code> to get the available updates):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi --auto-select</code></p>
+
+<ul>
+  <li>Update a package of one or more machines on the network according to <code class="language-plaintext highlighter-rouge">/etc/urpmi/parallel.cfg</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi --parallel local </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Mark all orphaned packages as manually installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi $(urpmq --auto-orphans -f)</code></p>

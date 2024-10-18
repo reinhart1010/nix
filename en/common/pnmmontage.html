@@ -1,0 +1,28 @@
+<h1 id="pnmmontage">pnmmontage</h1>
+
+<p>Create a montage from multiple PNM images.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmmontage.html">https://netpbm.sourceforge.net/doc/pnmmontage.html</a>.</p>
+
+<ul>
+  <li>Produce a packing of the specified images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmmontage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.pnm path/to/image2.pnm …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Specify the quality of the packing (Note: larger values produce smaller packings but take longer to compute.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmmontage -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.pnm path/to/image2.pnm …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Produce a packing that is not larger than <code class="language-plaintext highlighter-rouge">p</code> percent of the optimal packing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmmontage -quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">p</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.pnm path/to/image2.pnm …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Write the positions of the input files within the packed image to a machine-readable file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmmontage -data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/datafile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.pnm path/to/image2.pnm …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>

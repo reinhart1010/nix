@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="readelf">readelf</h1>
+
+<p>显示 EFI 文件信息。
+更多信息：<a href="https://manned.org/readelf.1">https://manned.org/readelf.1</a>.</p>
+
+<ul>
+  <li>显示 ELF 所有文件信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readelf -all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>显示 ELF 文件的所有头信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readelf --headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>如果存在符号表项，则显示 ELF 文件内的符号表项：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readelf --symbols </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>显示 ELF 文件头信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readelf --file-header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>

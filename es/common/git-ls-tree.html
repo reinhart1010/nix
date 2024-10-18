@@ -1,0 +1,28 @@
+<h1 id="git-ls-tree">git ls-tree</h1>
+
+<p>Muestra los contenidos de un objeto árbol.
+Más información: <a href="https://git-scm.com/docs/git-ls-tree">https://git-scm.com/docs/git-ls-tree</a>.</p>
+
+<ul>
+  <li>Lista el contenido del árbol en una rama:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span></p>
+
+<ul>
+  <li>Lista el contenido del árbol en una confirmación (recursivo en subárboles):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-tree -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_de_la_confirmación</span></p>
+
+<ul>
+  <li>Lista solo los nombres de archivos del árbol en una confirmación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-tree --name-only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_de_la_confirmación</span></p>
+
+<ul>
+  <li>Lista el nombre de los archivos en la rama actual en forma de árbol (Nota: la opción <code class="language-plaintext highlighter-rouge">--fromfile</code> no está disponible en el comando <code class="language-plaintext highlighter-rouge">tree</code> de Windows):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-tree -r --name-only HEAD | tree --fromfile</code></p>

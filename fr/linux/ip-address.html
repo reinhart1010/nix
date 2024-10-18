@@ -1,0 +1,40 @@
+<h1 id="ip-address">ip address</h1>
+
+<p>Sous-commande de gestion des adresses IP.
+Plus d'informations : <a href="https://manned.org/ip-address">https://manned.org/ip-address</a>.</p>
+
+<ul>
+  <li>Liste les interfaces réseau et leurs adresses IP associées :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address</code></p>
+
+<ul>
+  <li>Filtre pour n'afficher que les interfaces réseau actives :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address show up</code></p>
+
+<ul>
+  <li>Affiche les informations relatives à une interface réseau spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address show dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Ajoute une adresse IP à une interface réseau :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Supprimer une adresse réseau d'une interface réseau :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Supprime l'ensemble des adresses IP sur une portée donnée (scope) depuis une interface réseau :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address flush dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> scope </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global|host|link</span></p>

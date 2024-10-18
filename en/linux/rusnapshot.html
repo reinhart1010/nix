@@ -1,0 +1,40 @@
+<h1 id="rusnapshot">rusnapshot</h1>
+
+<p>BTRFS snapshotting utility written in Rust.
+More information: <a href="https://github.com/Edu4rdSHL/rusnapshot">https://github.com/Edu4rdSHL/rusnapshot</a>.</p>
+
+<ul>
+  <li>Create a snapshot using a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span><code class="language-plaintext highlighter-rouge"> --cr</code></p>
+
+<ul>
+  <li>List created snapshots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span><code class="language-plaintext highlighter-rouge"> --list</code></p>
+
+<ul>
+  <li>Delete a snapshot by ID or the name of the snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span><code class="language-plaintext highlighter-rouge"> --del --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_id</span></p>
+
+<ul>
+  <li>Delete all <code class="language-plaintext highlighter-rouge">hourly</code> snapshots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span><code class="language-plaintext highlighter-rouge"> --list --keep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> --clean --kind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hourly</span></p>
+
+<ul>
+  <li>Create a read-write snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span><code class="language-plaintext highlighter-rouge"> --cr --rw</code></p>
+
+<ul>
+  <li>Restore a snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span><code class="language-plaintext highlighter-rouge"> --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_id</span><code class="language-plaintext highlighter-rouge"> --restore</code></p>

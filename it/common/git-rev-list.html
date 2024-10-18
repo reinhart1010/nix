@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-rev-list">git rev-list</h1>
+
+<p>Elenca le revisioni (commit) in ordine cronologico inverso.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-rev-list">https://git-scm.com/docs/git-rev-list</a>.</p>
+
+<ul>
+  <li>Mostra tutti i commit del ramo corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Mostra i commit più recenti di una certa data, su uno specifico ramo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list --since=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'2019-12-01 00:00:00'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>
+
+<ul>
+  <li>Mostra tutti i commit di unione (merge commit) associati a uno specifico commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list --merges </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

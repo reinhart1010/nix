@@ -1,0 +1,46 @@
+<h1 id="docker-inspect">docker inspect</h1>
+
+<p>Mostra informazioni a basso livello di oggetti Docker.
+Maggiori informazioni: <a href="https://docs.docker.com/reference/cli/docker/inspect/">https://docs.docker.com/reference/cli/docker/inspect/</a>.</p>
+
+<ul>
+  <li>Mostra aiuto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect</code></p>
+
+<ul>
+  <li>Mostra informazioni su un container, immagine o volume usando un nome o un identificativo (ID):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container|nome_immagine|ID</span></p>
+
+<ul>
+  <li>Mostra l'indirizzo IP di un container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span></p>
+
+<ul>
+  <li>Mostra il percorso dei file di log di un container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{.LogPath\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span></p>
+
+<ul>
+  <li>Mostra il nome dell'immagine di un container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{.Config.Image\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span></p>
+
+<ul>
+  <li>Mostra le informazioni di configurazione in formato JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{json .Config\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span></p>
+
+<ul>
+  <li>Mostra il binding di tutte le porte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -&gt; \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span></p>

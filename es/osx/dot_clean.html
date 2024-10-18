@@ -1,0 +1,40 @@
+<h1 id="dot_clean">dot_clean</h1>
+
+<p>Fusiona los archivos ._* con los archivos nativos correspondientes.
+Más información: <a href="https://keith.github.io/xcode-man-pages/dot_clean.1.html">https://keith.github.io/xcode-man-pages/dot_clean.1.html</a>.</p>
+
+<ul>
+  <li>Fusiona todos los ficheros <code class="language-plaintext highlighter-rouge">._*</code> recursivamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Fusiona todos los <code class="language-plaintext highlighter-rouge">._*</code> en un directorio sin leer subdirectorios (fusión plana):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Fusiona y elimina todos los archivos <code class="language-plaintext highlighter-rouge">._*</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Elimina sólo los archivos <code class="language-plaintext highlighter-rouge">._*</code> si hay un archivo nativo coincidente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Sigue los enlaces simbólicos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Muestra resultados detallados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot_clean -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>

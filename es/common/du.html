@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="du">du</h1>
+
+<p>Uso de disco: estima y resume el uso de espacio en disco de archivos y directorios.
+Más información: <a href="https://www.gnu.org/software/coreutils/du">https://www.gnu.org/software/coreutils/du</a>.</p>
+
+<ul>
+  <li>Lista los tamaños de un directorio y sus subdirectorios en las unidades dadas (B/KiB/MiB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">b|k|m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Lista los tamaños de un directorio y sus subdirectorios en formato legible para humanos (es decir, seleccionando automáticamente las unidades apropiadas para cada tamaño):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Muestra el tamaño de un solo directorio en formato legible para humanos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -sh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Lista los tamaños legibles para humanos de un directorio y de todos los archivos y directorios dentro del mismo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ah </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Lista los tamaños legibles para humanos de un directorio y sus subdirectorios hasta N niveles de profundidad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h --max-depth=N </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Lista el tamaño legible para humanos de todos los archivos <code class="language-plaintext highlighter-rouge">.jpg</code> en subdirectorios del directorio actual y muestra un total al final:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>/</em>.jpg</span></p>

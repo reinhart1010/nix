@@ -1,0 +1,35 @@
+<h1 id="az-storage">az storage</h1>
+
+<p>Administra los recursos de Azure Cloud Storage.
+Parte de <code class="language-plaintext highlighter-rouge">azure-cli</code> (también conocido como <code class="language-plaintext highlighter-rouge">az</code>).
+Más información: <a href="https://learn.microsoft.com/cli/azure/storage">https://learn.microsoft.com/cli/azure/storage</a>.</p>
+
+<ul>
+  <li>Crea una cuenta de almacenamiento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account create --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_de_recursos</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_cuenta</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación</span><code class="language-plaintext highlighter-rouge"> --sku </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_sku</span></p>
+
+<ul>
+  <li>Enumera todas las cuentas de almacenamiento de un grupo de recursos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_de_recursos</span></p>
+
+<ul>
+  <li>Enumera las claves de acceso de una cuenta de almacenamiento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account keys list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_de_recursos</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_cuenta</span></p>
+
+<ul>
+  <li>Elimina una cuenta de almacenamiento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account delete --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_de_recursos</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_cuenta</span></p>
+
+<ul>
+  <li>Actualiza la versión mínima de TLS para una cuenta de almacenamiento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account update --min-tls-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TLS1_0|TLS1_1|TLS1_2</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_de_recursos</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_cuenta</span></p>

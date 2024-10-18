@@ -1,0 +1,29 @@
+<h1 id="spctl">spctl</h1>
+
+<p>Manage the security assessment policy subsystem.
+Utility for managing Gatekeeper in macOS.
+More information: <a href="https://keith.github.io/xcode-man-pages/spctl.8.html">https://keith.github.io/xcode-man-pages/spctl.8.html</a>.</p>
+
+<ul>
+  <li>Turn off Gatekeeper:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spctl --master-disable</code></p>
+
+<ul>
+  <li>Add a rule to allow an application to run (labeling of rule is optional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spctl --add --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Turn on Gatekeeper:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spctl --master-enable</code></p>
+
+<ul>
+  <li>List all rules on the system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spctl --list</code></p>

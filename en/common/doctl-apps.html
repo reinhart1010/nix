@@ -1,0 +1,52 @@
+<h1 id="doctl-apps">doctl apps</h1>
+
+<p>Manage DigitalOcean apps.
+More information: <a href="https://docs.digitalocean.com/reference/doctl/reference/apps">https://docs.digitalocean.com/reference/doctl/reference/apps</a>.</p>
+
+<ul>
+  <li>Create an app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps create</code></p>
+
+<ul>
+  <li>Create a deployment for a specific app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps create-deployment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span></p>
+
+<ul>
+  <li>Delete an app interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span></p>
+
+<ul>
+  <li>Get an app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps get</code></p>
+
+<ul>
+  <li>List all apps:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps list</code></p>
+
+<ul>
+  <li>List all deployments from a specific app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps list-deployments </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span></p>
+
+<ul>
+  <li>Get logs from a specific app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span></p>
+
+<ul>
+  <li>Update a specific app with a given app spec:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl apps update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_id</span><code class="language-plaintext highlighter-rouge"> --spec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/spec.yml</span></p>

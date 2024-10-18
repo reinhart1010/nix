@@ -1,0 +1,53 @@
+<h1 id="pnpm-outdated">pnpm outdated</h1>
+
+<p>Check for outdated packages.
+The check can be limited to a subset of the installed packages by providing arguments (patterns are supported).
+More information: <a href="https://pnpm.io/cli/outdated">https://pnpm.io/cli/outdated</a>.</p>
+
+<ul>
+  <li>Check for outdated packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm outdated</code></p>
+
+<ul>
+  <li>Check for outdated dependencies found in every workspace package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm outdated -r</code></p>
+
+<ul>
+  <li>Filter outdated packages using a package selector:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm outdated --filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_selector</span></p>
+
+<ul>
+  <li>List outdated packages [g]lobally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm outdated --global</code></p>
+
+<ul>
+  <li>Print details of outdated packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm outdated --long</code></p>
+
+<ul>
+  <li>Print outdated dependencies in a specific format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm outdated --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span></p>
+
+<ul>
+  <li>Print only versions that satisfy specifications in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm outdated --compatible</code></p>
+
+<ul>
+  <li>Check only outdated [D]ev dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm outdated --dev</code></p>

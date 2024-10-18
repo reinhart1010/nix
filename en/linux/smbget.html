@@ -1,0 +1,28 @@
+<h1 id="smbget">smbget</h1>
+
+<p><code class="language-plaintext highlighter-rouge">wget</code>-like utility for downloading files from SMB servers.
+More information: <a href="https://www.samba.org/samba/docs/current/man-html/smbget.1.html">https://www.samba.org/samba/docs/current/man-html/smbget.1.html</a>.</p>
+
+<ul>
+  <li>Download a file from a server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb://server/share/file</span></p>
+
+<ul>
+  <li>Download a share or directory recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbget --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb://server/share</span></p>
+
+<ul>
+  <li>Connect with a username and password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb://server/share/file</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username%password</span></p>
+
+<ul>
+  <li>Require encrypted transfers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb://server/share/file</span><code class="language-plaintext highlighter-rouge"> --encrypt</code></p>

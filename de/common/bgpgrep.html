@@ -1,0 +1,41 @@
+<h1 id="bgpgrep">bgpgrep</h1>
+
+<p>Filtert und gibt BGP-Daten in einem MRT-Dump aus.
+Kann mit gzip, bzip2 und xz komprimierte Dateien lesen.
+Weitere Informationen: <a href="https://codeberg.org/1414codeforge/ubgpsuite">https://codeberg.org/1414codeforge/ubgpsuite</a>.</p>
+
+<ul>
+  <li>Gib alle Routen aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master6.mrt</span></p>
+
+<ul>
+  <li>Gib alle von einem bestimmten Peer empfangenen Routen aus, bestimmt durch die AS-Nummer des Peers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master4.mrt</span><code class="language-plaintext highlighter-rouge"> -peer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">64498</span></p>
+
+<ul>
+  <li>Gib alle von einem bestimmten Peer empfangenen Routen aus, bestimmt durch die IP-Adresse des Peers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master4.mrt.bz2</span><code class="language-plaintext highlighter-rouge"> -peer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8:dead:cafe:acd::19e</span></p>
+
+<ul>
+  <li>Gib alle Routen aus, die bestimmte ASNs in ihrem AS-Pfad haben:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master6.mrt.bz2</span><code class="language-plaintext highlighter-rouge"> -aspath '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">64498 64510</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Gib Routen aus, die zu einer bestimmten Adresse führen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master6.mrt.bz2</span><code class="language-plaintext highlighter-rouge"> -supernet '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8:dead:cafe:aef::5</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Gib alle Routen aus, die Communities von einem bestimmten AS haben:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master4.mrt</span><code class="language-plaintext highlighter-rouge"> -communities \( '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">64497</span><code class="language-plaintext highlighter-rouge">:*' \)</code></p>

@@ -1,0 +1,28 @@
+<h1 id="notify-send">notify-send</h1>
+
+<p>Uses the current desktop environment's notification system to create a notification.
+More information: <a href="https://manned.org/notify-send">https://manned.org/notify-send</a>.</p>
+
+<ul>
+  <li>Show a notification with the title "Test" and the content "This is a test":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notify-send "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Test</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">This is a test</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Show a notification with a custom icon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notify-send -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">icon.png</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Test</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">This is a test</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Show a notification for 5 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notify-send -t 5000 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Test</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">This is a test</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Show a notification with an app's icon and name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notify-send "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Test</span><code class="language-plaintext highlighter-rouge">" --icon=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">google-chrome</span><code class="language-plaintext highlighter-rouge"> --app-name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Google Chrome</span><code class="language-plaintext highlighter-rouge">"</code></p>

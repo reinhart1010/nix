@@ -1,0 +1,46 @@
+<h1 id="llm">llm</h1>
+
+<p>Interact with Large Language Models (LLMs) via remote APIs and models that can be installed and run on your machine.
+More information: <a href="https://llm.datasette.io/en/stable/help.html">https://llm.datasette.io/en/stable/help.html</a>.</p>
+
+<ul>
+  <li>Set up an OpenAI API Key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm keys set openai</code></p>
+
+<ul>
+  <li>Run a prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Ten fun names for a pet pelican</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run a [s]ystem prompt against a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span><code class="language-plaintext highlighter-rouge"> | llm --system "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Explain this code</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Install packages from PyPI into the same environment as LLM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>Download and run a prompt against a [m]odel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">orca-mini-3b-gguf2-q4_0</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">What is the capital of France?</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create a [s]ystem prompt and [s]ave it with a template name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm --system '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">You are a sentient cheesecake</span><code class="language-plaintext highlighter-rouge">' --save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sentient_cheesecake</span></p>
+
+<ul>
+  <li>Have an interactive chat with a specific [m]odel using a specific [t]emplate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm chat --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chatgpt</span><code class="language-plaintext highlighter-rouge"> --template </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sentient_cheesecake</span></p>

@@ -1,0 +1,46 @@
+<h1 id="driverquery">driverquery</h1>
+
+<p>Display information about installed device drivers.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/driverquery">https://learn.microsoft.com/windows-server/administration/windows-commands/driverquery</a>.</p>
+
+<ul>
+  <li>Display a list of all installed device drivers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery</code></p>
+
+<ul>
+  <li>Display a list of drivers in the specified format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /fo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table|list|csv</span></p>
+
+<ul>
+  <li>Display a list of drivers with a column to indicate if they are signed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /si</code></p>
+
+<ul>
+  <li>Exclude the header in the output list:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /nh</code></p>
+
+<ul>
+  <li>Display a list of drivers for a remote machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> /u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Display a list of drivers with verbose information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /v</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /?</code></p>

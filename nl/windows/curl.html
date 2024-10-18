@@ -1,0 +1,22 @@
+<h1 id="curl">curl</h1>
+
+<p>In PowerShell kan dit commando een alias zijn van <code class="language-plaintext highlighter-rouge">Invoke-WebRequest</code> als het originele <code class="language-plaintext highlighter-rouge">curl</code> programma (<a href="https://curl.se/">https://curl.se/</a>) niet correct is geïnstalleerd.
+Meer informatie: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest</a>.</p>
+
+<ul>
+  <li>Bekijk de documentatie van het originele <code class="language-plaintext highlighter-rouge">curl</code> commando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr curl -p common</code></p>
+
+<ul>
+  <li>Bekijk de documentatie van het PowerShell's <code class="language-plaintext highlighter-rouge">Invoke-WebRequest</code> commando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr invoke-webrequest</code></p>
+
+<ul>
+  <li>Controleer of <code class="language-plaintext highlighter-rouge">curl</code> correct is geïnstalleerd door het versienummer te printen. Als dit commando resulteert in een error, heeft PowerShell dit commando mogelijk vervangen met <code class="language-plaintext highlighter-rouge">Invoke-WebRequest</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --version</code></p>

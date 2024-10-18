@@ -1,0 +1,41 @@
+<h1 id="gcloud-auth">gcloud auth</h1>
+
+<p>Видача та скасування авторизації для <code class="language-plaintext highlighter-rouge">gcloud</code> і керування обліковими даними.
+Дивіться також: <code class="language-plaintext highlighter-rouge">gcloud</code>.
+Більше інформації: <a href="https://cloud.google.com/sdk/gcloud/reference/auth">https://cloud.google.com/sdk/gcloud/reference/auth</a>.</p>
+
+<ul>
+  <li>Авторизувати доступ до Google Cloud для <code class="language-plaintext highlighter-rouge">gcloud</code> CLI за допомогою облікових даних користувача Google Cloud і встановити поточний обліковий запис як активний:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud auth login</code></p>
+
+<ul>
+  <li>Авторизувати доступ до Google Cloud, подібно до <code class="language-plaintext highlighter-rouge">gcloud auth login</code>, але за допомогою облікових даних сервісного облікового запису:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud auth activate-service-account</code></p>
+
+<ul>
+  <li>Керувати Application Default Credentials (ADC) для хмарних клієнтських бібліотек:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud auth application-default</code></p>
+
+<ul>
+  <li>Вивести список облікових записів Google Cloud, які зараз автентифіковані у вашій системі:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud auth list</code></p>
+
+<ul>
+  <li>Вивести токен (token) доступу поточного облікового запису:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud auth print-access-token</code></p>
+
+<ul>
+  <li>Видалити облікові дані доступу до облікового запису:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud auth revoke</code></p>

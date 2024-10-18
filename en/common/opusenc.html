@@ -1,0 +1,28 @@
+<h1 id="opusenc">opusenc</h1>
+
+<p>Convert WAV or FLAC audio to Opus.
+More information: <a href="https://opus-codec.org/docs/opus-tools/opusenc.html">https://opus-codec.org/docs/opus-tools/opusenc.html</a>.</p>
+
+<ul>
+  <li>Convert WAV to Opus using default options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">opusenc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.wav</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.opus</span></p>
+
+<ul>
+  <li>Convert stereo audio at the highest quality level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">opusenc --bitrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.wav</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.opus</span></p>
+
+<ul>
+  <li>Convert 5.1 surround sound audio at the highest quality level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">opusenc --bitrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1536</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.flac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.opus</span></p>
+
+<ul>
+  <li>Convert speech audio at the lowest quality level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">opusenc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.wav</span><code class="language-plaintext highlighter-rouge"> --downmix-mono --bitrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/out.opus</span></p>

@@ -1,0 +1,52 @@
+<h1 id="clamscan">clamscan</h1>
+
+<p>โปรแกรมตรวจหาไวรัสบนคอมมานด์ไลน์
+ข้อมูลเพิ่มเติม: <a href="https://docs.clamav.net/manual/Usage/Scanning.html#clamscan">https://docs.clamav.net/manual/Usage/Scanning.html#clamscan</a></p>
+
+<ul>
+  <li>แสกนไฟล์หาช่องโหว่ทางความปลอดภัย:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">หนทาง/ไปยัง/ไฟล์</span></p>
+
+<ul>
+  <li>แสกนทุกไฟล์ภายใต้ไดเรคทอรีเพื่อหาช่องโหว่ทางความปลอดภัย:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">หนทาง/ไปยัง/ไดเรคทอรี</span></p>
+
+<ul>
+  <li>แสกนข้อมูลที่ส่งเข้ามายังอินพุทมาตรฐาน:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">คำสั่ง</span><code class="language-plaintext highlighter-rouge"> | clamscan -</code></p>
+
+<ul>
+  <li>เลือกไฟล์หรือไดเรคทอรีข้อมูลพื้นฐานของไวรัส:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">หนทาง/ไปยัง/ไฟล์ข้อมูลพื้นฐาน_หรือ_ไดเรคทอรี</span></p>
+
+<ul>
+  <li>ทำการแสกนบนไดเรคทอรีปัจจุบันแล้วแสดงข้อมูลของไฟล์ที่ติดไวัส:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --infected</code></p>
+
+<ul>
+  <li>เขียนผลการแสกนไปยังไฟล์ที่ระบุ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">หนทาง/ไปยัง/ไฟล์ที่ระบุ</span></p>
+
+<ul>
+  <li>ย้ายไฟล์ที่พบการติดไวรัสไปยังไดเรคทอรีที่ระบุ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">หนทาง/ไปยัง/ไดเรคทอรีสำหรับการกักกัน</span></p>
+
+<ul>
+  <li>ลบไฟล์ที่พบการติดไวรัส:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --remove yes</code></p>

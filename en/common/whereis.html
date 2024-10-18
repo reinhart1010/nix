@@ -1,0 +1,40 @@
+<h1 id="whereis">whereis</h1>
+
+<p>Locate the binary, source, and manual page files for a command.
+More information: <a href="https://manned.org/whereis">https://manned.org/whereis</a>.</p>
+
+<ul>
+  <li>Locate binary, source and man pages for SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh</span></p>
+
+<ul>
+  <li>Locate binary and man pages for ls:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -bm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls</span></p>
+
+<ul>
+  <li>Locate source of gcc and man pages for Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gcc</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git</span></p>
+
+<ul>
+  <li>Locate binaries for gcc in <code class="language-plaintext highlighter-rouge">/usr/bin/</code> only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -b -B </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/bin/</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gcc</span></p>
+
+<ul>
+  <li>Locate unusual binaries (those that have more or less than one binary on the system):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -u *</code></p>
+
+<ul>
+  <li>Locate binaries that have unusual manual entries (binaries that have more or less than one manual installed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -u -m *</code></p>

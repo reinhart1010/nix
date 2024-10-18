@@ -1,0 +1,34 @@
+<h1 id="fdesetup">fdesetup</h1>
+
+<p>Establece y recupera información relacionada con FileVault.
+Más información: <a href="https://keith.github.io/xcode-man-pages/fdesetup.8.html">https://keith.github.io/xcode-man-pages/fdesetup.8.html</a>.</p>
+
+<ul>
+  <li>Lista los usuarios actuales habilitados para FileVault:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fdesetup list</code></p>
+
+<ul>
+  <li>Obtén el estado actual de FileVault:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdesetup status</code></p>
+
+<ul>
+  <li>Añade un usuario habilitado para FileVault:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fdesetup add -usertoadd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario1</span></p>
+
+<ul>
+  <li>Habilita FileVault:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fdesetup enable</code></p>
+
+<ul>
+  <li>Desactiva FileVault:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fdesetup disable</code></p>

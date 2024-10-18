@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="pw-cat">pw-cat</h1>
+
+<p>Pipewire üzerinden ses dosyalarını çalın ve kaydedin.
+Daha fazla bilgi için: <a href="https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI">https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI</a>.</p>
+
+<ul>
+  <li>Varsayılan hedef üzerinden bir WAV dosyası oynat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-cat --playback </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/dosya.wav</span></p>
+
+<ul>
+  <li>Örnek bir kaydı farklı bir ses seviyesinde kayda al:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-cat --record --volume=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/dosya.wav</span></p>
+
+<ul>
+  <li>Örnek bir kaydı farklı bir örnek oran kullanarak kayda al:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-cat --record --rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6000</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/dosya.wav</span></p>

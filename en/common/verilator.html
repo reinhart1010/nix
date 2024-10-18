@@ -1,0 +1,28 @@
+<h1 id="verilator">verilator</h1>
+
+<p>Convert Verilog and SystemVerilog hardware description language (HDL) design into a C++ or SystemC model to be executed after compiling.
+More information: <a href="https://veripool.org/guide/latest/">https://veripool.org/guide/latest/</a>.</p>
+
+<ul>
+  <li>Build a specific C project in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">verilator --binary --build-jobs 0 -Wall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.v</span></p>
+
+<ul>
+  <li>Create a C++ executable in a specific folder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">verilator --cc --exe --build --build-jobs 0 -Wall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.cpp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.v</span></p>
+
+<ul>
+  <li>Perform linting over a code in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">verilator --lint-only -Wall</code></p>
+
+<ul>
+  <li>Create XML output about the design (files, modules, instance hierarchy, logic and data types) to feed into other tools:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">verilator --xml-output -Wall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.xml</span></p>

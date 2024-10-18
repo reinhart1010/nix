@@ -1,0 +1,35 @@
+<h1 id="prosodyctl">prosodyctl</h1>
+
+<p>The control tool for the Prosody XMPP server.
+Note: process management through <code class="language-plaintext highlighter-rouge">prosodyctl</code> is discouraged. Instead, use the tools provided by your system (e.g. <code class="language-plaintext highlighter-rouge">systemctl</code>).
+More information: <a href="https://prosody.im/doc/prosodyctl">https://prosody.im/doc/prosodyctl</a>.</p>
+
+<ul>
+  <li>Show the status of the Prosody server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo prosodyctl status</code></p>
+
+<ul>
+  <li>Reload the server's configuration files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo prosodyctl reload</code></p>
+
+<ul>
+  <li>Add a user to the Prosody XMPP server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo prosodyctl adduser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span></p>
+
+<ul>
+  <li>Set a user's password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo prosodyctl passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span></p>
+
+<ul>
+  <li>Permanently delete a user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo prosodyctl deluser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span></p>

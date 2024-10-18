@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="batch">batch</h1>
+
+<p>시스템 로드 레벨이 허가된 후, 명령을 실행하십시오. 실제로 실행하기 위해서는 atd (혹은 atrun) 를 실행해야합니다.
+더 많은 정보: <a href="https://manned.org/batch">https://manned.org/batch</a>.</p>
+
+<ul>
+  <li>표준 입력에서 명령 실행하기 (완료 시 <code class="language-plaintext highlighter-rouge">Ctrl + D</code> 를 누릅니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">batch</code></p>
+
+<ul>
+  <li>표준 입력에서의 명령 실행하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span><code class="language-plaintext highlighter-rouge">" | batch</code></p>
+
+<ul>
+  <li>특정 파일에서 명령 실행하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">batch -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

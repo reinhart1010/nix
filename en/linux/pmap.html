@@ -1,0 +1,34 @@
+<h1 id="pmap">pmap</h1>
+
+<p>Report memory map of a process or processes.
+More information: <a href="https://manned.org/pmap">https://manned.org/pmap</a>.</p>
+
+<ul>
+  <li>Print memory map for a specific process ID (PID):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Show the extended format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmap --extended </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Show the device format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmap --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Limit results to a memory address range specified by <code class="language-plaintext highlighter-rouge">low</code> and <code class="language-plaintext highlighter-rouge">high</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmap --range </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">low</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">high</span></p>
+
+<ul>
+  <li>Print memory maps for multiple processes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid1 pid2 …</span></p>

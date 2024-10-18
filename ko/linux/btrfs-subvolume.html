@@ -1,0 +1,40 @@
+<h1 id="btrfs-subvolume">btrfs subvolume</h1>
+
+<p>btrfs 서브볼륨과 스냅샷 관리.
+더 많은 정보: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html">https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html</a>.</p>
+
+<ul>
+  <li>새 빈 서브볼륨 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/새로운_서브볼륨</span></p>
+
+<ul>
+  <li>지정된 파일 시스템의 모든 서브볼륨과 스냅샷 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_파일시스템</span></p>
+
+<ul>
+  <li>서브볼륨 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/서브볼륨</span></p>
+
+<ul>
+  <li>기존 서브볼륨의 읽기 전용 스냅샷 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume snapshot -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스_서브볼륨</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상</span></p>
+
+<ul>
+  <li>기존 서브볼륨의 읽기-쓰기 스냅샷 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume snapshot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스_서브볼륨</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상</span></p>
+
+<ul>
+  <li>서브볼륨에 대한 자세한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/서브볼륨</span></p>

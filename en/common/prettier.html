@@ -1,0 +1,40 @@
+<h1 id="prettier">prettier</h1>
+
+<p>An opinionated code formatter for JavaScript, JSON, CSS, YAML, and more.
+More information: <a href="https://prettier.io/">https://prettier.io/</a>.</p>
+
+<ul>
+  <li>Format a file and print the result to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prettier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check if a specific file has been formatted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prettier --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Run with a specific configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prettier --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Format a file or directory, replacing the original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prettier --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Format files or directories recursively using single quotes and no trailing commas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prettier --single-quote --trailing-comma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none</span><code class="language-plaintext highlighter-rouge"> --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Format JavaScript and TypeScript files recursively, replacing the original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prettier --write "**/*.{js,jsx,ts,tsx}"</code></p>

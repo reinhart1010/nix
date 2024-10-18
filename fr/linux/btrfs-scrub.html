@@ -1,0 +1,41 @@
+<h1 id="btrfs-scrub">btrfs scrub</h1>
+
+<p>Éxaminer un système de fichiers btrfs pour vérifier l'intégrité de ses données.
+Il est recommandé de faire tourner une vérification tous les mois.
+Plus d'informations : <a href="https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html">https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html</a>.</p>
+
+<ul>
+  <li>Démarrer un examen :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/point_de_montage_btrfs</span></p>
+
+<ul>
+  <li>Afficher le statut d'un examen en cours, ou du dernier examen complété :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/point_de_montage_btrfs</span></p>
+
+<ul>
+  <li>Stopper un examen en cours :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub cancel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/point_de_montage_btrfs</span></p>
+
+<ul>
+  <li>Reprendre un examen précédemment stoppé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub resume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/point_de_montage_btrfs</span></p>
+
+<ul>
+  <li>Démarrer un examen, mais attendre qu'il termine avant de rendre la main :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub start -B </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/point_de_montage_btrfs</span></p>
+
+<ul>
+  <li>Démarrer un examen en mode silencieux (n'affiche ni erreurs ni statistiques) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub start -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/point_de_montage_btrfs</span></p>

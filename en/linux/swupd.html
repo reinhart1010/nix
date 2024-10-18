@@ -1,0 +1,46 @@
+<h1 id="swupd">swupd</h1>
+
+<p>Package management utility for Clear Linux.
+More information: <a href="https://www.clearlinux.org/clear-linux-documentation/guides/clear/swupd.html">https://www.clearlinux.org/clear-linux-documentation/guides/clear/swupd.html</a>.</p>
+
+<ul>
+  <li>Update to the latest version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo swupd update</code></p>
+
+<ul>
+  <li>Show current version, and check whether a newer one exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swupd check-update</code></p>
+
+<ul>
+  <li>List installed bundles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swupd bundle-list</code></p>
+
+<ul>
+  <li>Locate the bundle where a wanted package exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swupd search -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Install a new bundle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo swupd bundle-add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bundle</span></p>
+
+<ul>
+  <li>Remove a bundle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo swupd bundle-remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bundle</span></p>
+
+<ul>
+  <li>Correct broken or missing files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo swupd verify</code></p>

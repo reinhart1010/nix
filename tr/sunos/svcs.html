@@ -1,0 +1,34 @@
+<h1 id="svcs">svcs</h1>
+
+<p>Çalışan servislere dair bilgileri sırala.
+Daha fazla bilgi için: <a href="https://www.unix.com/man-page/linux/1/svcs">https://www.unix.com/man-page/linux/1/svcs</a>.</p>
+
+<ul>
+  <li>Tüm çalışan servisleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs</code></p>
+
+<ul>
+  <li>Çalışmayan servisleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -vx</code></p>
+
+<ul>
+  <li>Belirtilen servise dair bilgileri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs apache</code></p>
+
+<ul>
+  <li>Servis kayıt dosyasının yerini göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -L apache</code></p>
+
+<ul>
+  <li>Servis kayıt dosyasının sonunu görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail $(svcs -L apache)</code></p>

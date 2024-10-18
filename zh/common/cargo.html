@@ -1,0 +1,53 @@
+<h1 id="cargo">cargo</h1>
+
+<p>管理 Rust 项目及其模块依赖项（crates）。
+一些子命令，如 <code class="language-plaintext highlighter-rouge">build</code>，具有自己的用法文档。
+更多信息：<a href="https://doc.rust-lang.org/cargo">https://doc.rust-lang.org/cargo</a>.</p>
+
+<ul>
+  <li>搜索包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">搜索关键词</span></p>
+
+<ul>
+  <li>下载二进制包（crate)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包名</span></p>
+
+<ul>
+  <li>列出已安装的二进制包（crate)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install --list</code></p>
+
+<ul>
+  <li>在指定目录 （或默认情况下在当前工作目录) 中创建一个新的二进制或库 Rust项目：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>向当前目录的 <code class="language-plaintext highlighter-rouge">Cargo.toml</code> 添加一个依赖：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">依赖项目</span></p>
+
+<ul>
+  <li>使用 release 模式在当前目录中构建 Rust 项目：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --release</code></p>
+
+<ul>
+  <li>使用最新的编译器在当前目录中构建 Rust 项目 （需要 <code class="language-plaintext highlighter-rouge">rustup</code>)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo +nightly build</code></p>
+
+<ul>
+  <li>使用特定数量的线程构建 （默认为逻辑 CPU 的数量)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">线程数</span></p>

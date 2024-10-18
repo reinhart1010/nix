@@ -1,0 +1,17 @@
+<h1 id="cargo-logout">cargo logout</h1>
+
+<p>从本地注册表中删除 API 令牌。
+该令牌用于对包注册表进行身份验证。您可以使用 <code class="language-plaintext highlighter-rouge">cargo login</code> 将其添加回来。
+更多信息：<a href="https://doc.rust-lang.org/cargo/commands/cargo-logout.html">https://doc.rust-lang.org/cargo/commands/cargo-logout.html</a>.</p>
+
+<ul>
+  <li>从本地凭据存储中 (位于 <code class="language-plaintext highlighter-rouge">$CARGO_HOME/credentials.toml</code>) 移除 API 令牌：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo logout</code></p>
+
+<ul>
+  <li>使用指定的注册表 (注册表名称可以在配置中定义，默认为 <a href="https://crates.io">https://crates.io</a>)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo logout --registry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span></p>

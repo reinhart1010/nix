@@ -1,0 +1,40 @@
+<h1 id="pueue-add">pueue add</h1>
+
+<p>Enqueue a task for execution.
+More information: <a href="https://github.com/Nukesor/pueue">https://github.com/Nukesor/pueue</a>.</p>
+
+<ul>
+  <li>Add any command to the default queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Pass a list of flags or arguments to a command when enqueuing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue add -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command –arg -f</span></p>
+
+<ul>
+  <li>Add a command but do not start it if it's the first in a queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue add --stashed -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsync –archive –compress /local/directory /remote/directory</span></p>
+
+<ul>
+  <li>Add a command to a group and start it immediately, see <code class="language-plaintext highlighter-rouge">pueue group</code> to manage groups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue add --immediate --group "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CPU_intensive</span><code class="language-plaintext highlighter-rouge">" -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ffmpeg -i input.mp4 frame_%d.png</span></p>
+
+<ul>
+  <li>Add a command and start it after commands 9 and 12 finish successfully:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue add --after </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12</span><code class="language-plaintext highlighter-rouge"> --group "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">torrents</span><code class="language-plaintext highlighter-rouge">" -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">transmission-cli torrent_file.torrent</span></p>
+
+<ul>
+  <li>Add a command with a label after some delay has passed, see <code class="language-plaintext highlighter-rouge">pueue enqueue</code> for valid datetime formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue add --label "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compressing large file</span><code class="language-plaintext highlighter-rouge">" --delay "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wednesday 10:30pm</span><code class="language-plaintext highlighter-rouge">" -- "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7z a compressed_file.7z large_file.xml</span><code class="language-plaintext highlighter-rouge">"</code></p>

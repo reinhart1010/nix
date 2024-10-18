@@ -1,0 +1,29 @@
+<h1 id="abbr">abbr</h1>
+
+<p>管理 fish shell 的缩写。
+用户定义的词在输入后会被较长的短语替换。
+更多信息：<a href="https://fishshell.com/docs/current/cmds/abbr.html">https://fishshell.com/docs/current/cmds/abbr.html</a>.</p>
+
+<ul>
+  <li>添加一个新缩写：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">缩写名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令参数</span></p>
+
+<ul>
+  <li>重命名一个已有的缩写：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">旧缩写名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新缩写名</span></p>
+
+<ul>
+  <li>清除一个已有的缩写：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --erase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">缩写名</span></p>
+
+<ul>
+  <li>用 SSH 导入另一台主机上定义的缩写：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主机名</span><code class="language-plaintext highlighter-rouge"> abbr --show | source</code></p>

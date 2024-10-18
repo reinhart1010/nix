@@ -1,0 +1,29 @@
+<h1 id="salt-key">salt-key</h1>
+
+<p>Manage salt minion keys on the salt master.
+Needs to be run on the salt master, likely as root or with sudo.
+More information: <a href="https://docs.saltproject.io/en/latest/ref/cli/salt-key.html">https://docs.saltproject.io/en/latest/ref/cli/salt-key.html</a>.</p>
+
+<ul>
+  <li>List all accepted, unaccepted and rejected minion keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-key -L</code></p>
+
+<ul>
+  <li>Accept a minion key by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-key -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MINION_ID</span></p>
+
+<ul>
+  <li>Reject a minion key by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-key -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MINION_ID</span></p>
+
+<ul>
+  <li>Print fingerprints of all public keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-key -F</code></p>

@@ -1,0 +1,22 @@
+<h1 id="rsh">rsh</h1>
+
+<p>Voer commando's uit op een externe host.
+Meer informatie: <a href="https://www.gnu.org/software/inetutils/manual/html_node/rsh-invocation.html">https://www.gnu.org/software/inetutils/manual/html_node/rsh-invocation.html</a>.</p>
+
+<ul>
+  <li>Voer een commando uit op een externe host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>
+
+<ul>
+  <li>Voer een commando uit op een externe host met een specifieke gebruikersnaam:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>
+
+<ul>
+  <li>Redirect <code class="language-plaintext highlighter-rouge">stdin</code> naar <code class="language-plaintext highlighter-rouge">/dev/null</code> bij het uitvoeren van een commando op een externe host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> --no-err </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>

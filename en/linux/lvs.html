@@ -1,0 +1,47 @@
+<h1 id="lvs">lvs</h1>
+
+<p>Display information about logical volumes.
+See also: <code class="language-plaintext highlighter-rouge">lvm</code>.
+More information: <a href="https://manned.org/lvs">https://manned.org/lvs</a>.</p>
+
+<ul>
+  <li>Display information about logical volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvs</code></p>
+
+<ul>
+  <li>Display all logical volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvs -a</code></p>
+
+<ul>
+  <li>Change default display to show more details:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvs -v</code></p>
+
+<ul>
+  <li>Display only specific fields:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvs -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field_name_1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field_name_2</span></p>
+
+<ul>
+  <li>Append field to default display:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvs -o +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field_name</span></p>
+
+<ul>
+  <li>Suppress heading line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvs --noheadings</code></p>
+
+<ul>
+  <li>Use a separator to separate fields:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvs --separator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">=</span></p>

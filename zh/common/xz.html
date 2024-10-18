@@ -1,0 +1,52 @@
+<h1 id="xz">xz</h1>
+
+<p>解压缩 XZ 和 LZMA 文件。
+更多信息：<a href="https://manned.org/xz">https://manned.org/xz</a>.</p>
+
+<ul>
+  <li>使用 xz 压缩文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>解压 XZ 文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.xz</span></p>
+
+<ul>
+  <li>使用 lzma 压缩文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --format=lzma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>解压 LZMA 文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress --format=lzma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.lzma</span></p>
+
+<ul>
+  <li>解压文件并输出到 <code class="language-plaintext highlighter-rouge">stdout</code>（暗示 <code class="language-plaintext highlighter-rouge">--keep</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress --stdout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.xz</span></p>
+
+<ul>
+  <li>压缩文件但不删除原文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --keep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>使用最快方式压缩文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz -0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>使用最好方式压缩文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz -9 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>

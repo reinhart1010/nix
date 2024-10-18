@@ -1,0 +1,40 @@
+<h1 id="qm-clone">qm clone</h1>
+
+<p>QEMU/KVM 가상 머신 관리자의 가상 머신 복사 생성.
+더 많은 정보: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>가상 머신 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_가상_머신_ID</span></p>
+
+<ul>
+  <li>특정 이름을 사용하여 가상 머신 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>특정 설명을 사용하여 가상 머신 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> --description </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">설명</span></p>
+
+<ul>
+  <li>모든 디스크의 전체 복사본을 생성하여 가상 머신 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> --full</code></p>
+
+<ul>
+  <li>파일 저장소에 특정 형식을 사용하여 가상 머신 복사 (<code class="language-plaintext highlighter-rouge">--full</code> 필요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> --full --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">qcow2|raw|vmdk</span></p>
+
+<ul>
+  <li>특정 풀에 추가하여 가상 머신 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> --pool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">풀_이름</span></p>

@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-revert">git revert</h1>
+
+<p>Créer un nouveau commit qui efface les changements du précédent.
+Plus d'informations : <a href="https://git-scm.com/docs/git-revert">https://git-scm.com/docs/git-revert</a>.</p>
+
+<ul>
+  <li>Crée un commit qui annule les changements du dernier commit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Crée un commit qui annule les changements des 5 dernier commit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert HEAD~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Crée un commit qui annule les changements de plusieurs commit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master~5..master~2</span></p>
+
+<ul>
+  <li>Ne pas créer de nouveau commit, remplacer uniquement dans l'arbre courant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0c01a9..9a1743</span></p>

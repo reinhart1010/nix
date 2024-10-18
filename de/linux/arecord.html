@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="arecord">arecord</h1>
+
+<p>Sound Recorder für den ALSA-Soundkarten-Treiber.
+Weitere Informationen: <a href="https://manned.org/arecord">https://manned.org/arecord</a>.</p>
+
+<ul>
+  <li>Nehme einen Schnipsel in CD-Qualität auf (beende die Aufnahme mit CTRL-C):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord -vv --format=cd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.wav</span></p>
+
+<ul>
+  <li>Nehme einen Schnipsel in CD-Qualität auf mit einer festen Länge von 10 Sekunden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord -vv --format=cd --duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.wav</span></p>
+
+<ul>
+  <li>Nehme einen Schnipsel auf und speichere es als MP3 (beende die Aufnahme mit CTRL-C):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord -vv --format=cd --file-type raw | lame -r - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.mp3</span></p>
+
+<ul>
+  <li>Liste alle Soundkarten und digitalen Ausgabe Geräte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord --list-devices</code></p>
+
+<ul>
+  <li>Benutze das interaktive Interface (z.B. Space oder Enter für Play oder Pause):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord --interactive</code></p>

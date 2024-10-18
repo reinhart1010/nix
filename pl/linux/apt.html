@@ -1,0 +1,54 @@
+<h1 id="apt">apt</h1>
+
+<p>Narzędzie do zarządzania pakietami dla dystrybucji bazujących na Debianie.
+Zalecany zamiennik <code class="language-plaintext highlighter-rouge">apt-get</code> przy użyciu interaktywnym w Ubuntu w wersjach 16.04 i wyższych.
+Odpowiednie polecenia dla innych menedżerów pakietów: <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+Więcej informacji: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>.</p>
+
+<ul>
+  <li>Zaktualizuj listę dostępnych pakietów i ich wersji (zaleca się uruchomienie tego przed innymi poleceniami <code class="language-plaintext highlighter-rouge">apt</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Wyszukaj podany pakiet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>
+
+<ul>
+  <li>Wyświetl informacje o podanym pakiecie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>
+
+<ul>
+  <li>Zainstaluj pakiet lub zaktualizuj go do najnowszej dostępnej wersji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>
+
+<ul>
+  <li>Usuń pakiet (użyj <code class="language-plaintext highlighter-rouge">purge</code> aby usunąć także pliki konfiguracyjne):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>
+
+<ul>
+  <li>Zaktualizuj wszystkie zainstalowane pakiety do ich najnowszych wersji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>Wyświetl wszystkie pakiety:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>Wyświetl zainstalowane pakiety:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

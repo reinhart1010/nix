@@ -1,0 +1,34 @@
+<h1 id="docker-logs">docker logs</h1>
+
+<p>Exibe os logs dos containers.
+Mais informações: <a href="https://docs.docker.com/reference/cli/docker/container/logs/">https://docs.docker.com/reference/cli/docker/container/logs/</a>.</p>
+
+<ul>
+  <li>Exibe logs de um container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_container</span></p>
+
+<ul>
+  <li>Exibe logs de um container e segue exibindo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_container</span></p>
+
+<ul>
+  <li>Exibe as últimas 5 linhas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_container</span><code class="language-plaintext highlighter-rouge"> --tail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Exibe logs e adiciona a informação de hora ao log:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_container</span></p>
+
+<ul>
+  <li>Exibe logs até um certo ponto no tempo de execução do container (por exemplo: 23m, 10s, 2013-01-02T13:23:37):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_container</span><code class="language-plaintext highlighter-rouge"> --until </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tempo</span></p>

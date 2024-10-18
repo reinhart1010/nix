@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="ect">ect</h1>
+
+<p>Efficiente Tool di Compressione (o ECT) è un ottimizzatore di file scritto in C++. Supporta file PNG, JPEG, gzip e Zip.
+Maggiori informazioni: <a href="https://github.com/fhanau/Efficient-Compression-Tool">https://github.com/fhanau/Efficient-Compression-Tool</a>.</p>
+
+<ul>
+  <li>Comprimi un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.png</span></p>
+
+<ul>
+  <li>Comprimi un file con il massimo livello di compressione utilizzando più thread:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ect -9 --mt-deflate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.png</span></p>
+
+<ul>
+  <li>Comprimi tutti i file in una directory ricorsivamente, mantenendo la data di modifica originale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ect -keep -recurse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span></p>

@@ -1,0 +1,40 @@
+<h1 id="adb-install">adb install</h1>
+
+<p>Android Debug Bridge Install: wysyłaj pakiety do instancji emulatora Androida lub podłączonych urządzeń z systemem Android.
+Więcej informacji: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Wyślij aplikację na Androida do emulatora/urządzenia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span></p>
+
+<ul>
+  <li>Wyślij aplikację Android do określonego emulatora/urządzenia (nadpisuje <code class="language-plaintext highlighter-rouge">$ANDROID_SERIAL</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numer_seryjny</span><code class="language-plaintext highlighter-rouge"> install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span></p>
+
+<ul>
+  <li>Zainstaluj ponownie ([r]einstall) istniejącą aplikację, zachowując jej dane:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span></p>
+
+<ul>
+  <li>Wyślij aplikację na Androida, umożliwiając obniżenie ([d]owngrade) wersji kodu (tylko pakiety debugowalne):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span></p>
+
+<ul>
+  <li>Przyznaj ([g]rant) wszystkie uprawnienia wymienione w pliku manifestu aplikacji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span></p>
+
+<ul>
+  <li>Szybko zaktualizuj zainstalowany pakiet, aktualizując tylko te części APK, które się zmieniły:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install --fastdeploy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.apk</span></p>

@@ -1,0 +1,47 @@
+<h1 id="az-vm">az vm</h1>
+
+<p>Gestiona máquinas virtuales en Azure.
+Parte de <code class="language-plaintext highlighter-rouge">azure-cli</code> (también conocido como <code class="language-plaintext highlighter-rouge">az</code>).
+Más información: <a href="https://learn.microsoft.com/cli/azure/vm">https://learn.microsoft.com/cli/azure/vm</a>.</p>
+
+<ul>
+  <li>Muestra una tabla de Máquinas Virtuales disponibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az vm list --output table</code></p>
+
+<ul>
+  <li>Crea una máquina virtual usando la imagen por defecto de Ubuntu y genera las claves SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az vm create --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rg</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_vm</span><code class="language-plaintext highlighter-rouge"> --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UbuntuLTS</span><code class="language-plaintext highlighter-rouge"> --admin-user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuarioazure</span><code class="language-plaintext highlighter-rouge"> --generate-ssh-keys</code></p>
+
+<ul>
+  <li>Detiene una Máquina Virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az vm stop --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rg</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_máquina_virtual</span></p>
+
+<ul>
+  <li>Desasigna una máquina virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az vm deallocate --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rg</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_máquina virtual</span></p>
+
+<ul>
+  <li>Inicia una Máquina Virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az vm start --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rg</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_máquina_virtual</span></p>
+
+<ul>
+  <li>Reinicia una Máquina Virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az vm restart --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rg</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_máquina_virtual</span></p>
+
+<ul>
+  <li>Lista de imágenes de máquinas virtuales disponibles en Azure Marketplace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az vm image list</code></p>

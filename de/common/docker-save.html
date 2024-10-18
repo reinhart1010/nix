@@ -1,0 +1,28 @@
+<h1 id="docker-save">docker save</h1>
+
+<p>Exportiere eines oder mehrere Docker Images in ein Archiv.
+Weitere Informationen: <a href="https://docs.docker.com/reference/cli/docker/image/save/">https://docs.docker.com/reference/cli/docker/image/save/</a>.</p>
+
+<ul>
+  <li>Speichere ein Image über die Standardausgabe in ein Tar-Archiv:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.tar</span></p>
+
+<ul>
+  <li>Speichere ein Image in ein Tar-Archiv:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Speichere alle Tags eines Images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span></p>
+
+<ul>
+  <li>Speichere nur bestimmte Tags eines Images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name:tag1 image_name:tag2 …</span></p>

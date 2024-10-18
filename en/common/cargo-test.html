@@ -1,0 +1,40 @@
+<h1 id="cargo-test">cargo test</h1>
+
+<p>Execute the unit and integration tests of a Rust package.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-test.html">https://doc.rust-lang.org/cargo/commands/cargo-test.html</a>.</p>
+
+<ul>
+  <li>Only run tests containing a specific string in their names:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">testname</span></p>
+
+<ul>
+  <li>Set the number of simultaneous running test cases:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test -- --test-threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span></p>
+
+<ul>
+  <li>Test artifacts in release mode, with optimizations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test --release</code></p>
+
+<ul>
+  <li>Test all packages in the workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test --workspace</code></p>
+
+<ul>
+  <li>Run tests for a specific package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Run tests without hiding output from test executions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test -- --nocapture</code></p>

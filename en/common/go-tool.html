@@ -1,0 +1,35 @@
+<h1 id="go-tool">go tool</h1>
+
+<p>Run a Go tool or command.
+Execute a Go command as a stand-alone binary, typically for debugging.
+More information: <a href="https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool">https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool</a>.</p>
+
+<ul>
+  <li>List available tools:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go tool</code></p>
+
+<ul>
+  <li>Run the go link tool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go tool link </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/main.o</span></p>
+
+<ul>
+  <li>Print the command that would be executed, but do not execute it (similar to <code class="language-plaintext highlighter-rouge">whereis</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go tool -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span></p>
+
+<ul>
+  <li>View documentation for a specified tool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go tool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> --help</code></p>
+
+<ul>
+  <li>List all available cross-compilation targets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go tool dist list</code></p>

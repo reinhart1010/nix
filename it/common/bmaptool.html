@@ -1,0 +1,28 @@
+<h1 id="bmaptool">bmaptool</h1>
+
+<p>Crea o copia blockmap intelligentemente (e quindi più velocemente di <code class="language-plaintext highlighter-rouge">cp</code> o <code class="language-plaintext highlighter-rouge">dd</code>).
+Maggiori informazioni: <a href="https://source.tizen.org/documentation/reference/bmaptool">https://source.tizen.org/documentation/reference/bmaptool</a>.</p>
+
+<ul>
+  <li>Crea una blockmap da un file immagine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blockmap.bmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sorgente.img</span></p>
+
+<ul>
+  <li>Copia un file immagine su sdb:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool copy --bmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blockmap.bmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sorgente.img</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb</span></p>
+
+<ul>
+  <li>Copia un file immagine compresso su sdb:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool copy --bmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blockmap.bmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sorgente.img.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb</span></p>
+
+<ul>
+  <li>Copia un file immagine su sdb senza utilizzare una blockmap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool copy --nobmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sorgente.img</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb</span></p>

@@ -1,0 +1,40 @@
+<h1 id="flite">flite</h1>
+
+<p>Speech synthesis engine.
+More information: <a href="http://www.festvox.org/flite/doc/">http://www.festvox.org/flite/doc/</a>.</p>
+
+<ul>
+  <li>List all available voices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flite -lv</code></p>
+
+<ul>
+  <li>Convert a text string to speech:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flite -t "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Convert the contents of a file to speech:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flite -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Use the specified voice:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flite -voice </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file://path/to/filename.flitevox|url</span></p>
+
+<ul>
+  <li>Store output into a wav file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flite -voice </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file://path/to/filename.flitevox|url</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.wav</span></p>
+
+<ul>
+  <li>Display version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flite --version</code></p>

@@ -1,0 +1,41 @@
+<h1 id="gcloud-config">gcloud config</h1>
+
+<p>Manage different configurations of <code class="language-plaintext highlighter-rouge">gcloud</code>.
+See also: <code class="language-plaintext highlighter-rouge">gcloud</code>.
+More information: <a href="https://cloud.google.com/sdk/gcloud/reference/config">https://cloud.google.com/sdk/gcloud/reference/config</a>.</p>
+
+<ul>
+  <li>Define a property (like compute/zone) for the current configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">property</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Fetch the value of a <code class="language-plaintext highlighter-rouge">gcloud</code> property:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">property</span></p>
+
+<ul>
+  <li>Display all the properties for the current configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config list</code></p>
+
+<ul>
+  <li>Create a new configuration with a given name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config configurations create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_name</span></p>
+
+<ul>
+  <li>Display a list of all available configurations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config configurations list</code></p>
+
+<ul>
+  <li>Switch to an existing configuration with a given name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config configurations activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_name</span></p>

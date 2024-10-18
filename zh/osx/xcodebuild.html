@@ -1,0 +1,22 @@
+<h1 id="xcodebuild">xcodebuild</h1>
+
+<p>构建 Xcode 项目。
+更多信息：<a href="https://developer.apple.com/library/archive/technotes/tn2339/_index.html">https://developer.apple.com/library/archive/technotes/tn2339/_index.html</a>.</p>
+
+<ul>
+  <li>构建工作区：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodebuild -workspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">工作区名.工作区</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主题名</span><code class="language-plaintext highlighter-rouge"> -configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置名</span><code class="language-plaintext highlighter-rouge"> clean build SYMROOT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SYMROOT_路径</span></p>
+
+<ul>
+  <li>构建项目：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodebuild -target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标名</span><code class="language-plaintext highlighter-rouge"> -configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置名</span><code class="language-plaintext highlighter-rouge"> clean build SYMROOT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SYMROOT_路径</span></p>
+
+<ul>
+  <li>显示 SDK：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodebuild -showsdks</code></p>

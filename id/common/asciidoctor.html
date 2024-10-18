@@ -1,0 +1,28 @@
+<h1 id="asciidoctor">asciidoctor</h1>
+
+<p>Ubah isi berkas AsciiDoc ke dalam format berkas layak publikasi.
+Informasi lebih lanjut: <a href="https://docs.asciidoctor.org">https://docs.asciidoctor.org</a>.</p>
+
+<ul>
+  <li>Ubah suatu berkas <code class="language-plaintext highlighter-rouge">.adoc</code> ke dalam format HTML (format berkas luaran secara default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.adoc</span></p>
+
+<ul>
+  <li>Ubah suatu berkas <code class="language-plaintext highlighter-rouge">.adoc</code> ke dalam format HTML dengan menggunakan suatu berkas definisi penggayaan (stylesheet) CSS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor -a stylesheet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/stylesheet.css</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.adoc</span></p>
+
+<ul>
+  <li>Ubah suatu berkas <code class="language-plaintext highlighter-rouge">.adoc</code> menuju format HTML layak semat (embeddable), hanya bangunkan isi tag body HTML:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor --embedded </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.adoc</span></p>
+
+<ul>
+  <li>Ubah suatu berkas <code class="language-plaintext highlighter-rouge">.adoc</code> menuju PDF melalui pustaka pendukung <code class="language-plaintext highlighter-rouge">asciidoctor-pdf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor --backend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> --require </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asciidoctor-pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.adoc</span></p>

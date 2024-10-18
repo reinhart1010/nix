@@ -1,0 +1,46 @@
+<h1 id="usql">usql</h1>
+
+<p>Universal CLI interface for SQL databases.
+More information: <a href="https://github.com/xo/usql">https://github.com/xo/usql</a>.</p>
+
+<ul>
+  <li>Connect to a specific database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sqlserver|mysql|postgres|sqlite3|…</span><code class="language-plaintext highlighter-rouge">://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span></p>
+
+<ul>
+  <li>Execute commands from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/query.sql</span></p>
+
+<ul>
+  <li>Execute a specific SQL command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql --command="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql_command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run an SQL command in the <code class="language-plaintext highlighter-rouge">usql</code> prompt:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Display the database schema:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; \d</code></p>
+
+<ul>
+  <li>Export query results to a specific file:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; \g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_with_results</span></p>
+
+<ul>
+  <li>Import data from a CSV file into a specific table:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; \copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/data.csv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span></p>
