@@ -2,15 +2,15 @@
 layout: page
 title: common/zapier (English)
 description: "Create, automate, and manage zapier integrations."
-content_hash: 208c57873b86e81b2f95d964778d0a34f80cbbda
-last_modified_at: 2024-10-14
+content_hash: 9fc9cb88034c31931e75de91322a164b40f2d63a
+last_modified_at: 2024-10-18
 tldri18n_status: 2
 ---
 # zapier
 
 Create, automate, and manage zapier integrations.
 Some subcommands such as `build`, `init`, `scaffold`, `push`, `test`, etc. have their own usage documentation.
-More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md>.
+More information: <https://platform.zapier.com/reference/cli>.
 
 - Connect to a Zapier account:
 

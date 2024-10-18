@@ -2,14 +2,14 @@
 layout: page
 title: common/zapier-init (English)
 description: "Initialize a new Zapier integration."
-content_hash: 00f9c7b39116c2c06c300add1df9eabfe84b55f0
-last_modified_at: 2024-10-17
+content_hash: 53e9d24c7c5f1d5323f83e58c49f10a3a7f79333
+last_modified_at: 2024-10-18
 tldri18n_status: 2
 ---
 # zapier init
 
 Initialize a new Zapier integration.
-More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md#init>.
+More information: <https://platform.zapier.com/reference/cli#init>.
 
 - Initialize a new Zapier integration:
 
