@@ -1,43 +1,33 @@
 ---
 layout: page
-title: common/chromium (English)
+title: windows/chromium (English)
 description: "Open-source web browser principally developed and maintained by Google."
-content_hash: 4de2468a49ce199714e51656c551ccc19942b32a
+content_hash: b4f7bd07fa7d34b25ea53cf0451dbca8a3cfce62
 last_modified_at: 2024-10-19
-related_topics:
-  - title: Deutsch version
-    url: /de/common/chromium.html
-    icon: bi bi-globe
-  - title: français version
-    url: /fr/common/chromium.html
-    icon: bi bi-globe
-  - title: italiano version
-    url: /it/common/chromium.html
-    icon: bi bi-globe
-  - title: 한국어 version
-    url: /ko/common/chromium.html
-    icon: bi bi-globe
-  - title: Nederlands version
-    url: /nl/common/chromium.html
-    icon: bi bi-globe
-  - title: português (Brasil) version
-    url: /pt_BR/common/chromium.html
-    icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 0
 ---
-# chromium
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/chromium.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># chromium
 
 Open-source web browser principally developed and maintained by Google.
-Note: You may need to replace the `chromium` command with your desired web browser, such as `brave`, `google-chrome`, `opera`, or `vivaldi`.
+Note: You may need to replace the `chromium` command with your desired web browser, such as `brave`, `google-chrome`, `microsoft-edge`/`msedge`, `opera`, or `vivaldi`.
 More information: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - Open a specific URL or file:
 
 `chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com|path/to/file.html</span>
 
-- Open in incognito mode:
+- Open in incognito mode (use `--inprivate` for Microsoft Edge):
 
-`chromium --incognito `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chromium --incognito|msedge --inprivate</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
 - Open in a new window:
 
