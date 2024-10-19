@@ -3,19 +3,10 @@ layout: page
 title: linux/lbu (English)
 description: "Manage `apk` overlay files on a diskless Alpine Linux system."
 content_hash: 0f66ff5d8ac618853a338d4c34fecbd3792980f5
-last_modified_at: 2024-10-18
-tldri18n_status: 0
+last_modified_at: 2024-10-19
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/lbu.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lbu
+# lbu
 
 Manage `apk` overlay files on a diskless Alpine Linux system.
 Note: subcommands like `include` write to `/etc`, which is stored in RAM. You need to run `lbu commit` to save the changes.
