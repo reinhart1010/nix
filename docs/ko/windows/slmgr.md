@@ -1,22 +1,32 @@
 ---
 layout: page
 title: windows/slmgr (한국어)
-description: "이 명령은 `slmgr.vbs` 의 에일리어스 (별칭) 입니다."
-content_hash: f0b78c7da7ae4d744fa03d219f21fc0444843039
-last_modified_at: 2023-11-02
+description: "이 명령어는 `slmgr.vbs`의 별칭입니다."
+content_hash: 4f79815721288252129ec729afc23d94b2809b0e
+last_modified_at: 2024-10-19
 related_topics:
   - title: English version
     url: /en/windows/slmgr.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/slmgr.html
+    icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/slmgr.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># slmgr
 
-이 명령은 `slmgr.vbs` 의 에일리어스 (별칭) 입니다.
+이 명령어는 `slmgr.vbs`의 별칭입니다.
 더 많은 정보: <https://learn.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options>.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- 원래 명령어의 문서 보기:
 
 `tldr slmgr.vbs`
