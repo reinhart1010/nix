@@ -2,11 +2,14 @@
 layout: page
 title: common/duc (Nederlands)
 description: "Een verzameling van tools voor het indexeren, inspecteren en visualiseren van schijfgebruik."
-content_hash: 1672268e2ef51de810e9b07b459900262354dcc6
-last_modified_at: 2024-10-09
+content_hash: e9c140aef19c1a87493c3f7c7136fd9630aa042e
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/common/duc.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/duc.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/duc.html
@@ -23,11 +26,11 @@ Meer informatie: <http://duc.zevv.nl>.
 
 `duc index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr</span>
 
-- Lijst alle bestanden en directories onder /usr/local en toon relatieve bestandsgroottes in een [g]rafiek:
+- Toon alle bestanden en directories onder /usr/local en toon relatieve bestandsgroottes in een [g]rafiek:
 
 `duc ls -Fg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/local</span>
 
-- Lijst alle bestanden en directories onder /usr/local recursief met behulp van boomweergave:
+- Toon alle bestanden en directories onder /usr/local recursief met behulp van boomweergave:
 
 `duc ls -Fg -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/local</span>
 

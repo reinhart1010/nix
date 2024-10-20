@@ -2,8 +2,8 @@
 layout: page
 title: common/lambo-new (English)
 description: "A super-powered `laravel new` for Laravel and Valet."
-content_hash: ef490b92953d18c70252216086f819ddb08b4661
-last_modified_at: 2023-11-12
+content_hash: 427dbb17d39e8c023e96accac47b1f4893fa5265
+last_modified_at: 2024-10-20
 tldri18n_status: 2
 ---
 # lambo new
@@ -27,7 +27,7 @@ More information: <https://github.com/tighten/lambo>.
 
 `lambo new --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vue|bootstrap|react</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span>
 
-- Install npm dependencies after the project has been created:
+- Install `npm` dependencies after the project has been created:
 
 `lambo new --node `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span>
 

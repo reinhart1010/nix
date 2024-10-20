@@ -2,8 +2,8 @@
 layout: page
 title: common/tsc (English)
 description: "TypeScript compiler."
-content_hash: ac5dd7ef37b501755fc0d35f6b34612583402eff
-last_modified_at: 2023-11-12
+content_hash: f0b786e12c5586fd4a3f3cc4a941f7ef03b9cc71
+last_modified_at: 2024-10-20
 tldri18n_status: 2
 ---
 # tsc
@@ -34,3 +34,7 @@ More information: <https://www.typescriptlang.org/docs/handbook/compiler-options
 - Type-check multiple JavaScript files, and output only the errors:
 
 `tsc --allowJs --checkJs --noEmit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">src/**/*.js</span>
+
+- Run the compiler in watch mode, which automatically recompiles code when it changes:
+
+`tsc --watch`

@@ -2,8 +2,8 @@
 layout: page
 title: common/ncu (English)
 description: "Find newer versions of package dependencies and check outdated npm packages locally or globally."
-content_hash: 5745d4993965f3946ef49773c2de63767b79f200
-last_modified_at: 2023-11-23
+content_hash: 0c5f685b93b394895edeed8c368cf5d5e1f037ff
+last_modified_at: 2024-10-20
 tldri18n_status: 2
 ---
 # ncu
@@ -16,7 +16,7 @@ More information: <https://github.com/raineorshine/npm-check-updates>.
 
 `ncu`
 
-- List outdated global npm packages:
+- List outdated global `npm` packages:
 
 `ncu --global`
 

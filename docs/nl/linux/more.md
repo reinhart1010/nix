@@ -2,8 +2,8 @@
 layout: page
 title: linux/more (Nederlands)
 description: "Toon een bestand interactief, met de mogelijkheid om te scrollen en te zoeken."
-content_hash: 77526916e28c7c73dfaeb20acd36a526484b4827
-last_modified_at: 2024-08-21
+content_hash: c9fff0310c501336fb60053f54287dcbd64ad094
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/linux/more.html
@@ -36,6 +36,6 @@ Meer informatie: <https://manned.org/more>.
 
 `q`
 
-- Toon hulp over interactieve commando's:
+- Toon help over interactieve commando's:
 
 `h`

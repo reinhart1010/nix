@@ -2,8 +2,8 @@
 layout: page
 title: linux/dir (Nederlands)
 description: "Toon de inhoud van een directory met één regel per bestand, speciale tekens worden weergegeven met backslash-escape-sequenties."
-content_hash: 0dcc7f9fff0e7607b81460a71ac11e3f75b82d19
-last_modified_at: 2024-08-13
+content_hash: 549d80077407c5b0cc0aa3bf2cbccc5dfd3aa4d3
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/linux/dir.html
@@ -32,6 +32,6 @@ Meer informatie: <https://manned.org/dir>.
 
 `dir --recursive`
 
-- Toon hulp:
+- Toon help:
 
 `dir --help`

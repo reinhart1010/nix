@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/rpcinfo (Nederlands)
-description: "Lijst programma's via RPC op externe computers."
-content_hash: b08d6169eae33a432264505d649b4a175ad84de2
-last_modified_at: 2024-09-22
+description: "Toon programma's via RPC op externe computers."
+content_hash: 67a8e9a2c4852b41910272f9ede81f9f64c9e31f
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/windows/rpcinfo.html
@@ -12,14 +12,14 @@ tldri18n_status: 2
 ---
 # rpcinfo
 
-Lijst programma's via RPC op externe computers.
+Toon programma's via RPC op externe computers.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/rpcinfo>.
 
-- Lijst alle programma's geregistreerd op de lokale computer:
+- Toon alle programma's geregistreerd op de lokale computer:
 
 `rpcinfo`
 
-- Lijst alle programma's geregistreerd op een externe computer:
+- Toon alle programma's geregistreerd op een externe computer:
 
 `rpcinfo /p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_naam</span>
 

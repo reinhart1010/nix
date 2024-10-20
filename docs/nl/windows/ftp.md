@@ -2,8 +2,8 @@
 layout: page
 title: windows/ftp (Nederlands)
 description: "Interactief bestanden overzetten tussen een lokale en een externe FTP-server."
-content_hash: 00926057e05bba1c9442160ac8bdec9601e3c5fe
-last_modified_at: 2024-06-19
+content_hash: 6895e2f32f2422e9fa508808cdc99b4685e0598b
+last_modified_at: 2024-10-20
 related_topics:
   - title: Deutsch version
     url: /de/windows/ftp.html
@@ -52,6 +52,6 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 
 `mdelete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>
 
-- Toon hulp:
+- Toon help:
 
 `ftp --help`

@@ -2,8 +2,8 @@
 layout: page
 title: common/netstat (Nederlands)
 description: "Toon netwerkgerelateerde informatie zoals open verbindingen, open socketpoorten, enz."
-content_hash: 1c852e91dcd1d8704d15177795186fbc65c6b272
-last_modified_at: 2024-08-21
+content_hash: 24c9dd590ad496e64aa401ad65d44c88a6d7c8c8
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/common/netstat.html
@@ -21,15 +21,15 @@ tldri18n_status: 2
 Toon netwerkgerelateerde informatie zoals open verbindingen, open socketpoorten, enz.
 Meer informatie: <https://manned.org/netstat>.
 
-- Lijst alle poorten:
+- Toon alle poorten:
 
 `netstat --all`
 
-- Lijst alle luisterende poorten:
+- Toon alle luisterende poorten:
 
 `netstat --listening`
 
-- Lijst luisterende TCP-poorten:
+- Toon luisterende TCP-poorten:
 
 `netstat --tcp`
 
@@ -37,14 +37,14 @@ Meer informatie: <https://manned.org/netstat>.
 
 `netstat --program`
 
-- Lijst informatie continu:
+- Toon informatie continu:
 
 `netstat --continuous`
 
-- Lijst routes en los IP-adressen niet op naar hostnamen:
+- Toon routes en los IP-adressen niet op naar hostnamen:
 
 `netstat --route --numeric`
 
-- Lijst luisterende TCP- en UDP-poorten (+ gebruiker en proces als je root bent):
+- Toon luisterende TCP- en UDP-poorten (+ gebruiker en proces als je root bent):
 
 `netstat --listening --program --numeric --tcp --udp --extend`

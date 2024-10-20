@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/at (Nederlands)
-description: "Voer commando's eenmaal later uit."
-content_hash: 48b1dbd49d21a79a6dcb797d06752411e4bdd33e
-last_modified_at: 2024-10-17
+description: "Voer commando's één keer uit op een later tijdstip."
+content_hash: 98352049ab3549a5f25561e75d1f7c46c10a4670
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -39,18 +39,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># at
 
-Voer commando's eenmaal later uit.
-De service atd (of atrun) moet actief zijn voor de daadwerkelijke uitvoering.
+Voer commando's één keer uit op een later tijdstip.
+Resultaten worden naar de e-mail van de gebruiker gestuurd.
 Meer informatie: <https://manned.org/at>.
 
-- Voer commando's uit van `stdin` over 5 minuten (druk op `Ctrl + D` als je klaar bent):
+- Start de `atd`-daemon:
+
+`systemctl start atd`
+
+- Maak commando's interactief en voer ze over 5 minuten uit (druk op `<Ctrl> + D` wanneer klaar):
 
 `at now + 5 minutes`
 
-- Voer een commando uit van `stdin` om 10:00 AM vandaag:
+- Maak commando's interactief en voer ze uit op een specifiek tijdstip:
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span>`" | at 1000`
+`at `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uu:mm</span>
 
-- Voer commando's uit van een gegeven bestand volgende dinsdag:
+- Voer een commando uit vanuit `stdin` om 10:00 uur vandaag:
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>`" | at 1000`
+
+- Voer commando's uit vanuit een opgegeven bestand volgende dinsdag:
 
 `at -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>` 9:30 PM Tue`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/yaa (Nederlands)
 description: "Maak en beheer YAA-archieven."
-content_hash: e4573f3448c6977635118577fd9c605acc63bb30
-last_modified_at: 2024-06-19
+content_hash: 0c59399d3c2db27be4e9a6a3ab7eea9688001980
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/osx/yaa.html
@@ -33,7 +33,7 @@ Meer informatie: <https://keith.github.io/xcode-man-pages/yaa.1.html>.
 
 `yaa extract -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archive_file.yaa</span>
 
-- Lijst de inhoud van een archief op:
+- Toon de inhoud van een archief:
 
 `yaa list -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archive_file.yaa</span>
 

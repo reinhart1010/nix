@@ -1,9 +1,9 @@
 ---
 layout: page
 title: android/bugreportz (Nederlands)
-description: "Genereer een gezipt Android-bugrapport."
-content_hash: e7f86cd6c135d76a108617152e1c2569c85db695
-last_modified_at: 2024-10-17
+description: "Genereer een gezipt Android bugrapport."
+content_hash: 2d22e8028a3d3ea52e7d0f4c0581616cfd04cc89
+last_modified_at: 2024-10-20
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -72,7 +72,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># bugreportz
 
-Genereer een gezipt Android-bugrapport.
+Genereer een gezipt Android bugrapport.
 Dit commando kan alleen worden gebruikt via `adb shell`.
 Meer informatie: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
@@ -83,6 +83,10 @@ Meer informatie: <https://cs.android.com/android/platform/superproject/+/main:fr
 - Toon de voortgang van een lopende `bugreportz` actie:
 
 `bugreportz -p`
+
+- Schrijf de inhoud van een Android bugrapport naar `stdout`:
+
+`bugreportz -s`
 
 - Toon de help:
 

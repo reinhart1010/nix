@@ -2,8 +2,8 @@
 layout: page
 title: linux/eselect-locale (Nederlands)
 description: "Een `eselect`-module voor het beheren van de `LANG`-omgevingsvariabele, die de systeemtaal instelt."
-content_hash: 85e7c57f7ebeb61603c09420099651e7691ebcc0
-last_modified_at: 2024-07-21
+content_hash: 97392fd8f382eaa412fffae069e42556bfb5bea8
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/linux/eselect-locale.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 Een `eselect`-module voor het beheren van de `LANG`-omgevingsvariabele, die de systeemtaal instelt.
 Meer informatie: <https://wiki.gentoo.org/wiki/Eselect#Locale>.
 
-- Lijst van beschikbare locales:
+- Toon van beschikbare locales:
 
 `eselect locale list`
 

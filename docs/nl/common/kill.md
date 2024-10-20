@@ -2,8 +2,8 @@
 layout: page
 title: common/kill (Nederlands)
 description: "Stuurt een signaal naar een proces, meestal om het proces te stoppen."
-content_hash: d7d59115e703fe2a7741883d417e7ef0f615fa45
-last_modified_at: 2024-06-19
+content_hash: a62df9b34b3b5309f194fdf58de3ddd3ae43b294
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/common/kill.html
@@ -32,7 +32,7 @@ Meer informatie: <https://manned.org/kill.1posix>.
 
 `kill `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proces_id</span>
 
-- Lijst beschikbare signalen op (te gebruiken zonder het `SIG` voorvoegsel):
+- Toon beschikbare signalen (te gebruiken zonder het `SIG` voorvoegsel):
 
 `kill -l`
 

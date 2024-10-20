@@ -2,11 +2,14 @@
 layout: page
 title: common/npm-home (English)
 description: "Open the npm page, Yarn page, or GitHub repository of a package in the web browser."
-content_hash: 052bde769b6591f56ffc87da16a6a3590d874215
-last_modified_at: 2023-11-12
+content_hash: 532c2687da787e2ae4594f1faeb91e7f6d96bfcd
+last_modified_at: 2024-10-20
 related_topics:
   - title: 한국어 version
     url: /ko/common/npm-home.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/npm-home.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -15,7 +18,7 @@ tldri18n_status: 2
 Open the npm page, Yarn page, or GitHub repository of a package in the web browser.
 More information: <https://github.com/sindresorhus/npm-home>.
 
-- Open the npm page of a specific package in the web browser:
+- Open the `npm` page of a specific package in the web browser:
 
 `npm-home `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 

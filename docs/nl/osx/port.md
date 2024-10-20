@@ -2,8 +2,8 @@
 layout: page
 title: osx/port (Nederlands)
 description: "Pakketbeheerder voor macOS."
-content_hash: b0bb9a3129b3203394255cfe55a572c79bfb6c49
-last_modified_at: 2024-06-20
+content_hash: 9d06dbff11f5313849818c95e7b571dd1e6c1020
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/osx/port.html
@@ -29,7 +29,7 @@ Meer informatie: <https://www.macports.org>.
 
 `sudo port install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span>
 
-- Lijst geïnstalleerde pakketten:
+- Toon geïnstalleerde pakketten:
 
 `port installed`
 

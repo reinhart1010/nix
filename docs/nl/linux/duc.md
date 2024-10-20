@@ -2,8 +2,8 @@
 layout: page
 title: linux/duc (Nederlands)
 description: "Een verzameling tools voor het indexeren, inspecteren en visualiseren van schijfgebruik."
-content_hash: 3c20c23cfa8c3f4d9e262c2ca6d788548b046bb4
-last_modified_at: 2024-10-09
+content_hash: 6403544d08e4ec194bd760f04a385b42069aa4c4
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/linux/duc.html
@@ -20,11 +20,11 @@ Meer informatie: <http://duc.zevv.nl>.
 
 `duc index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr</span>
 
-- Lijst alle bestanden en directories onder `/usr/local` en toon relatieve bestandsgroottes in een [g]rafiek:
+- Toon alle bestanden en directories onder `/usr/local` en toon relatieve bestandsgroottes in een [g]rafiek:
 
 `duc ls --classify --graph `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/local</span>
 
-- Lijst alle bestanden en directories onder `/usr/local` recursief met behulp van boomweergave:
+- Toon alle bestanden en directories onder `/usr/local` recursief met behulp van boomweergave:
 
 `duc ls --classify --graph --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/local</span>
 

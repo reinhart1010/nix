@@ -2,8 +2,8 @@
 layout: page
 title: common/more (Nederlands)
 description: "Toon een bestand interactief, met de mogelijkheid om te scrollen en te zoeken."
-content_hash: ee48c0bb12e486d6affd38496712225f4c70c34b
-last_modified_at: 2024-08-21
+content_hash: 8429e70c7c523b184a17d4635b760df6f10c0357
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/common/more.html
@@ -45,6 +45,6 @@ Meer informatie: <https://manned.org/more.1p>.
 
 `q`
 
-- Toon hulp over interactieve commando's:
+- Toon help over interactieve commando's:
 
 `h`

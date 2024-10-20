@@ -2,11 +2,14 @@
 layout: page
 title: linux/kill (Nederlands)
 description: "Stuurt een signaal naar een proces, meestal om het proces te stoppen."
-content_hash: 9d3e5cdc351f032e24e646bc40c1c8e26625ad2e
-last_modified_at: 2024-08-13
+content_hash: 5283313d2caeed5126f597355048f43bbdbd48f9
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/linux/kill.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/kill.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -20,7 +23,7 @@ Meer informatie: <https://manned.org/kill>.
 
 `kill `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proces_id</span>
 
-- Lijst signaalwaarden en hun overeenkomstige namen op (te gebruiken zonder het `SIG` voorvoegsel):
+- Toon signaalwaarden en hun overeenkomstige namen (te gebruiken zonder het `SIG` voorvoegsel):
 
 `kill -L`
 

@@ -1,0 +1,38 @@
+---
+layout: page
+title: windows/set-date (한국어)
+description: "컴퓨터의 시스템 시간을 지정한 시간으로 변경합니다."
+content_hash: 7e40a74628d83a05b9a3d092369044c733922a05
+last_modified_at: 2024-10-20
+related_topics:
+  - title: English version
+    url: /en/windows/set-date.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/set-date.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># Set-Date
+
+컴퓨터의 시스템 시간을 지정한 시간으로 변경합니다.
+이 명령어는 PowerShell을 통해서만 사용할 수 있습니다.
+더 많은 정보: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/set-date>.
+
+- 시스템 날짜에 3일 추가:
+
+`Set-Date -Date (Get-Date).AddDays(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>`)`
+
+- 시스템 시계를 10분 되돌리기:
+
+`Set-Date -Adjust -0:10:0 -DisplayHint Time`
+
+- 시스템 시계에 90분 추가:
+
+`$90mins = New-TimeSpan -Minutes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">90</span>`; Set-Date -Adjust $90mins`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/jobs (Nederlands)
 description: "Shell ingebouwd commando om informatie te bekijken over processen die door de huidige shell zijn gestart."
-content_hash: 1e67c77a7829db394b0d4363860df1d4d5fe4715
-last_modified_at: 2024-08-13
+content_hash: f2500bbc0f93fa63f55b1df3e39c1b9ed4cbcf46
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/linux/jobs.html
@@ -20,7 +20,7 @@ Meer informatie: <https://manned.org/jobs>.
 
 `jobs`
 
-- Lijst jobs en hun proces-ID's:
+- Toon jobs en hun proces-ID's:
 
 `jobs -l`
 

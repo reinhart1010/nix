@@ -2,8 +2,8 @@
 layout: page
 title: linux/bleachbit (Nederlands)
 description: "Verwijder overbodige bestanden op het bestandssysteem."
-content_hash: 6d81bc71fd03f930137a18d757e34691693a243a
-last_modified_at: 2024-10-15
+content_hash: 42de21c6c160cc35897a42cfe93098430d303986
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/linux/bleachbit.html
@@ -23,7 +23,7 @@ Meer informatie: <https://docs.bleachbit.org/doc/command-line-interface.html>.
 
 `bleachbit --shred `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Lijst beschikbare schoonmaakopties:
+- Toon beschikbare schoonmaakopties:
 
 `bleachbit --list-cleaners`
 

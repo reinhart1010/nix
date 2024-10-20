@@ -2,8 +2,8 @@
 layout: page
 title: osx/ipconfig (Nederlands)
 description: "Bekijk en beheer de IP-configuratiestatus."
-content_hash: fcc0e4091d1d807fb0b55fe0272a97d5f43a8071
-last_modified_at: 2024-08-13
+content_hash: ea351d2401fb84a3965a92a39f9bfda7a3014961
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/osx/ipconfig.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 Bekijk en beheer de IP-configuratiestatus.
 Meer informatie: <https://keith.github.io/xcode-man-pages/ipconfig.8.html>.
 
-- Lijst alle netwerkinterfaces op:
+- Toon alle netwerkinterfaces:
 
 `ipconfig getiflist`
 

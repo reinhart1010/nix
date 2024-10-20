@@ -2,8 +2,8 @@
 layout: page
 title: common/npm (Nederlands)
 description: "JavaScript en Node.js pakketbeheerder."
-content_hash: b7fe5d52343c9e214054ebaf4963481efb487c5d
-last_modified_at: 2024-10-10
+content_hash: c23fe5aaaeadcfbb8b305dbb8d7786b2b1687955
+last_modified_at: 2024-10-20
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -55,10 +55,10 @@ Meer informatie: <https://www.npmjs.com>.
 
 `npm uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket_naam</span>
 
-- Lijst van lokaal geïnstalleerde afhankelijkheden:
+- Toon alle lokaal geïnstalleerde afhankelijkheden:
 
 `npm list`
 
-- Lijst van top-level globaal geïnstalleerde pakketten:
+- Toon alle top-level globaal geïnstalleerde pakketten:
 
 `npm list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>

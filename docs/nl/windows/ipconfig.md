@@ -2,8 +2,8 @@
 layout: page
 title: windows/ipconfig (Nederlands)
 description: "Toon en beheer de netwerkconfiguratie van Windows."
-content_hash: b6b15616e9a574b7c0c05e7337aa79d42e23d92d
-last_modified_at: 2024-08-13
+content_hash: 5f52240349706920c5878045ca09201254affb08
+last_modified_at: 2024-10-20
 related_topics:
   - title: Deutsch version
     url: /de/windows/ipconfig.html
@@ -39,7 +39,7 @@ tldri18n_status: 2
 Toon en beheer de netwerkconfiguratie van Windows.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
-- Lijst alle netwerkadapters op:
+- Toon alle netwerkadapters:
 
 `ipconfig`
 

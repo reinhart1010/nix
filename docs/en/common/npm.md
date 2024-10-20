@@ -2,7 +2,7 @@
 layout: page
 title: common/npm (English)
 description: "JavaScript and Node.js package manager."
-content_hash: 4e4f5165a4ec9b78d6930923c597f1fc586eec88
+content_hash: 930037ee17cf6ff08a45dba80a2c68d16fd405e9
 last_modified_at: 2024-10-20
 related_topics:
   - title: Deutsch version
@@ -55,10 +55,10 @@ More information: <https://www.npmjs.com>.
 
 `npm uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
 
-- List of locally installed dependencies:
+- List all locally installed dependencies:
 
 `npm list`
 
-- List top-level globally installed packages:
+- List all top-level globally installed packages:
 
 `npm list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--global</span>` --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>
