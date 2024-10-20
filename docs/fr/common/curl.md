@@ -2,14 +2,17 @@
 layout: page
 title: common/curl (français)
 description: "Transfère des données depuis ou vers un serveur."
-content_hash: 0ea8ea7117864a7c00d6a324ec4ccf00fd2a04bc
-last_modified_at: 2023-12-28
+content_hash: 9a75ac124c876dd9c2ca74a650445b770bd5bf73
+last_modified_at: 2024-10-20
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/curl.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/curl.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/curl.html
@@ -22,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/curl.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/curl.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/curl.html
@@ -52,7 +58,7 @@ Plus d'informations : <https://curl.se/docs/manpage.html>.
 
 `curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://exemple.fr/nom_fichier</span>
 
-- Envoyer des données de formulaire encodées (requête POST de type `application/x-www-form-urlencoded`). Utiliser `--data @file_name` ou `--data @'-'` pour lire depuis STDIN :
+- Envoyer des données de formulaire encodées (requête POST de type `application/x-www-form-urlencoded`). Utiliser `--data @file_name` ou `--data @'-'` pour lire depuis `stdin` :
 
 `curl --data `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'nom=bob'</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://exemple.fr/formulaire</span>
 

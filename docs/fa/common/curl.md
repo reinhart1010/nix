@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (فارسی)
 description: "انتقال داده از/به سرور."
-content_hash: 687f08ae41b522dc2eacecfb24f52386d8f7a5ec
-last_modified_at: 2024-03-21
+content_hash: 76be13b1d2831f48d7f40ce905e39ef11f8ab48b
+last_modified_at: 2024-10-20
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/curl.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/curl.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/curl.html
@@ -55,7 +58,7 @@ tldri18n_status: 2
 
 `curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span>
 
-- ارسال داده(فرم) رمزگذاری شده (درخواست POST از نوع application/x-www-form-urlencoded). برای خواندن از STDIN، از --data @file_name یا --data @'-' استفاده کنید:
+- ارسال داده(فرم) رمزگذاری شده (درخواست POST از نوع application/x-www-form-urlencoded). برای خواندن از `stdin`، از --data @file_name یا --data @'-' استفاده کنید:
 
 `curl --data `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'name=bob'</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/form</span>
 

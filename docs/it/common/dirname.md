@@ -2,14 +2,17 @@
 layout: page
 title: common/dirname (italiano)
 description: "Determina la directory genitore di un determinato file o percorso."
-content_hash: 56be5df5c1186db9540bd47165615465dd6be102
-last_modified_at: 2023-11-12
+content_hash: 0854be39443d925f18e71bf1b330d441c8c4f508
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/common/dirname.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/dirname.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/dirname.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/dirname.html
@@ -27,8 +30,8 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/dirname>.
 
 - Calcola la directory genitore di più percorsi:
 
-`dirname `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_a</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_b</span>
+`dirname `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_or_directory1 percorso/del/file_or_directory2 ...</span>
 
-- Delimita l'output con caratteri NUL invece di newline (utile in combinazione con `xargs`):
+- Delimita l'output utilizzando caratteri NUL invece di una nuova linea (utile in combinazione con `xargs`):
 
-`dirname --zero `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_a</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_b</span>
+`dirname --zero `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_or_directory1 percorso/del/file_or_directory2 ...</span>

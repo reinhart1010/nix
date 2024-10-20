@@ -2,8 +2,8 @@
 layout: page
 title: common/clementine (italiano)
 description: "Un moderno player e gestore di librerie musicali."
-content_hash: 110afdf417e73a2e21a2ac5e8e1ccbbac060bfed
-last_modified_at: 2024-05-06
+content_hash: 6bd785431e82feb44f668ca2d178ae13d5036462
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/common/clementine.html
@@ -18,15 +18,15 @@ tldri18n_status: 2
 Un moderno player e gestore di librerie musicali.
 Maggiori informazioni: <https://github.com/clementine-player/Clementine/wiki>.
 
-- Apri Clementine:
+- Avvia l'interfaccia grafica oppure lo mette in evidenza:
 
 `clementine`
 
 - Avvia la riproduzione di un file musicale:
 
-`clementine `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URL|percorso/del/file</span>
+`clementine `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|percorso/del/file/music.ext</span>
 
-- Pausa o riprendi la riproduzione:
+- Pausa o riprende la riproduzione:
 
 `clementine --play-pause`
 
@@ -34,18 +34,18 @@ Maggiori informazioni: <https://github.com/clementine-player/Clementine/wiki>.
 
 `clementine --stop`
 
-- Passa alla prossima traccia:
+- Passa alla traccia successiva o precedente:
 
-`clementine --next`
+`clementine --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">next|previous</span>
 
-- Passa alla traccia precedente:
+- Crea una nuova playlist con uno o più file musicali oppure URL:
 
-`clementine --previous`
+`clementine --create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1 url2 ... | percorso/del/file/music1.ext percorso/del/file/music2.ext ...</span>
 
-- Carica un file playlist:
+- Carica una playlist:
 
-`clementine --load `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_playlist</span>
+`clementine --load `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file/playlist.ext</span>
 
-- Riproduci la quinta traccia nella playlist attualmente caricata:
+- Riproduce una specifica traccia nella playlist caricata:
 
 `clementine --play-track `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>

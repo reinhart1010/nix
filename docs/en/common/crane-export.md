@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-export (English)
 description: "Export filesystem of a container image as a tarball."
-content_hash: a9c5bb0378d6981f7f9209ee96b185ed25651cac
-last_modified_at: 2024-10-16
+content_hash: a9f7f6d5b0df632a7359676791fe0d5e273a9815
+last_modified_at: 2024-10-20
 related_topics:
   - title: 한국어 version
     url: /ko/common/crane-export.html
@@ -23,6 +23,6 @@ More information: <https://github.com/google/go-containerregistry/blob/main/cmd/
 
 `crane export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/tarball</span>
 
-- Read image from stdin:
+- Read image from `stdin`:
 
 `crane export - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename</span>

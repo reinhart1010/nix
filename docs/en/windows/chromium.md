@@ -3,19 +3,14 @@ layout: page
 title: windows/chromium (English)
 description: "Open-source web browser principally developed and maintained by Google."
 content_hash: b4f7bd07fa7d34b25ea53cf0451dbca8a3cfce62
-last_modified_at: 2024-10-19
-tldri18n_status: 0
+last_modified_at: 2024-10-20
+related_topics:
+  - title: Indonesia version
+    url: /id/windows/chromium.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/chromium.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chromium
+# chromium
 
 Open-source web browser principally developed and maintained by Google.
 Note: You may need to replace the `chromium` command with your desired web browser, such as `brave`, `google-chrome`, `microsoft-edge`/`msedge`, `opera`, or `vivaldi`.

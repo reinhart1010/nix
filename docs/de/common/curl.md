@@ -2,11 +2,14 @@
 layout: page
 title: common/curl (Deutsch)
 description: "Überträgt Daten von oder zu einem Server."
-content_hash: c4d64ac3492f69fb7e3d19d89949f94e77d41598
-last_modified_at: 2023-12-28
+content_hash: 8a340f7d28d68ad22543837bc195d821c2fed330
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/common/curl.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/curl.html
@@ -22,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/curl.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/curl.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/curl.html
@@ -52,7 +58,7 @@ Weitere Informationen: <https://curl.se/docs/manpage.html>.
 
 `curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://beispiel.de/datei</span>
 
-- Sende formular-codierte Daten (POST Anfragen des Typs `application/x-www-form-urlencoded`). Benutze `--data @dateiname` oder `--data @'-'`, um von STDIN zu lesen:
+- Sende formular-codierte Daten (POST Anfragen des Typs `application/x-www-form-urlencoded`). Benutze `--data @dateiname` oder `--data @'-'`, um von `stdin` zu lesen:
 
 `curl --data `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'name=karl-dieter'</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://beispiel.de/formular</span>
 

@@ -3,19 +3,14 @@ layout: page
 title: common/microsoft-edge (Indonesia)
 description: "Aplikasi peramban web (web browser) dari Microsoft yang dibangun berdasarkan peramban Chromium yang dikembangkan oleh Google."
 content_hash: af64500efec6a99dde1369e367fbd64b7ae7c293
-last_modified_at: 2024-10-19
-tldri18n_status: 0
+last_modified_at: 2024-10-20
+related_topics:
+  - title: English version
+    url: /en/common/microsoft-edge.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/microsoft-edge.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># microsoft-edge
+# microsoft-edge
 
 Aplikasi peramban web (web browser) dari Microsoft yang dibangun berdasarkan peramban Chromium yang dikembangkan oleh Google.
 Perintah ini tersedia sebagai `msedge` dalam perangkat Windows.

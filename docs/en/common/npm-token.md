@@ -2,8 +2,8 @@
 layout: page
 title: common/npm-token (English)
 description: "Manage and generate authentication tokens for the npm registry."
-content_hash: 6d9264bfba4d69f35b1f80242d1faaf6be0f5cde
-last_modified_at: 2024-10-18
+content_hash: a2df98b53e472b7e4003591987d44f995e6555c9
+last_modified_at: 2024-10-20
 tldri18n_status: 2
 ---
 # npm token
@@ -31,7 +31,7 @@ More information: <https://docs.npmjs.com/cli/commands/npm-token>.
 
 `npm token create --publish`
 
-- Automatically configure an npm token in your global .npmrc file when you log in:
+- Automatically configure an npm token in your global `.npmrc` file when you log in:
 
 `npm login`
 

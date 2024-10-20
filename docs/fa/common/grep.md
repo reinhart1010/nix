@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (فارسی)
 description: "یافتن الگو در فایل ها به کمک عبارات با قاعده."
-content_hash: 7942c649ca937e0bd882f044fb1f59be2cb09035
-last_modified_at: 2024-10-13
+content_hash: 4aeac40d4f85e903cdeaf1e09e7ae1457b4bd162
+last_modified_at: 2024-10-20
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -79,6 +79,6 @@ tldri18n_status: 2
 
 `grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--only-matching</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- ورودی استاندارد (stdin) رو برای الگوهایی که منطبق نیستند جستجو میکند :
+- ورودی استاندارد (`stdin`) رو برای الگوهایی که منطبق نیستند جستجو میکند :
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--invert-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`

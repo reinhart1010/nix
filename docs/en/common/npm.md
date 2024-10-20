@@ -2,8 +2,8 @@
 layout: page
 title: common/npm (English)
 description: "JavaScript and Node.js package manager."
-content_hash: 1e98aa10f3b796280ade8a45c3f3e393e5ec3f0c
-last_modified_at: 2024-09-17
+content_hash: 4e4f5165a4ec9b78d6930923c597f1fc586eec88
+last_modified_at: 2024-10-20
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -17,6 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/npm.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/npm.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/npm.html
     icon: bi bi-globe
@@ -28,7 +31,7 @@ JavaScript and Node.js package manager.
 Manage Node.js projects and their module dependencies.
 More information: <https://www.npmjs.com>.
 
-- Create a `package.json` file with default values (omit --yes to do it interactively):
+- Create a `package.json` file with default values (omit `--yes` to do it interactively):
 
 `npm init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-y|--yes</span>
 

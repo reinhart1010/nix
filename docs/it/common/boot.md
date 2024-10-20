@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/boot (italiano)
-description: "Strumenti di build per il linguaggio di programmazione Clojure."
-content_hash: a337d349e71e7e57d3cb8bd2716baef187d26c1c
-last_modified_at: 2023-11-12
+description: "Strumenti di implementazione per il linguaggio di programmazione Clojure."
+content_hash: 9dc9dc01dbdf8f1f94e454d424d253307cf46466
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/common/boot.html
@@ -15,29 +15,29 @@ tldri18n_status: 2
 ---
 # boot
 
-Strumenti di build per il linguaggio di programmazione Clojure.
+Strumenti di implementazione per il linguaggio di programmazione Clojure.
 Maggiori informazioni: <https://github.com/boot-clj/boot>.
 
-- Avvia una sessione REPL con il progetto o da sola:
+- Avvia una sessione REPL con il progetto o autonomamente (standalone):
 
 `boot repl`
 
-- Builda un singolo `uberjar`:
+- Implementa un singolo `uberjar`:
 
 `boot jar`
 
-- Mostra aiuto per un comando:
+- Genera lo scheletro di un nuovo progetto basato su un modello di codice esistente:
 
-`boot cljs --help`
+`boot --dependencies boot/new new --template `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_modello</span>` --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_progetto</span>
 
-- Genera le fondamenta per un nuovo progetto basandoti su una template:
-
-`boot --dependencies boot/new new --template `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_template</span>` --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_progetto</span>
-
-- Builda per development (se si sta utilizzando il template boot/new):
+- Implementa l'ambiente di sviluppo (se si sta utilizzando il modello di codice boot/new):
 
 `boot dev`
 
-- BUilda per produzione (se si sta utilizzando il template boot/new):
+- Implementa l'ambiente di produzione (se si sta utilizzando il modello di codice boot/new):
 
 `boot prod`
+
+- Mostra la descrizione di uno specifico comando:
+
+`boot `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task</span>` --help`

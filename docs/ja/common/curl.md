@@ -2,14 +2,17 @@
 layout: page
 title: common/curl (日本語)
 description: "データをサーバーから転送、もしくはサーバーへ転送します。"
-content_hash: cacf05699a20d915d8098b676026e4c6da1b4c9a
-last_modified_at: 2023-12-28
+content_hash: ca2df858966c5ed2e292716af234aa58df8191a0
+last_modified_at: 2024-10-20
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/curl.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/curl.html
@@ -22,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/curl.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/curl.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/curl.html
@@ -52,7 +58,7 @@ HTTP、FTP、POP3を含むほとんどのプロトコルをサポートしてい
 
 `curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span>
 
-- フォームエンコードされたデータを送信する（`application/x-www-form-urlencoded`型のPOSTリクエスト）。STDIN(標準入力) から読み込むには、`--data @file_name` または `--data @'-'` を使用する:
+- フォームエンコードされたデータを送信する（`application/x-www-form-urlencoded`型のPOSTリクエスト）。`stdin`(標準入力) から読み込むには、`--data @file_name` または `--data @'-'` を使用する:
 
 `curl --data `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'name=bob'</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/form</span>
 

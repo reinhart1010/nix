@@ -2,8 +2,8 @@
 layout: page
 title: common/git-diff (italiano)
 description: "Mostra le modifiche ai file tracciati."
-content_hash: b6a4fe1cea0d2876a9be4ef1d974bd6063078c50
-last_modified_at: 2023-11-12
+content_hash: bf8c00da48eb4dfaa4e475a65061b910e050115a
+last_modified_at: 2024-10-20
 related_topics:
   - title: English version
     url: /en/common/git-diff.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-diff.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-diff.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-diff.html
@@ -35,19 +38,19 @@ Maggiori informazioni: <https://git-scm.com/docs/git-diff>.
 
 `git diff HEAD`
 
-- Mostra solo le modifiche nell'area di stage (aggiunte, ma non ancora committate):
+- Mostra solo le modifiche nell'area di stage (aggiunte, ma non ancora aggiunte ad un commit):
 
 `git diff --staged`
 
-- Mostra le modifiche di tutti i commit a partire da una certa data/ora (un'espressione temporale come "1 week 2 days" o una data ISO):
+- Mostra le modifiche di tutti i commit a partire da una certa data/ora (un'espressione temporale come ad esempio "1 week 2 days" o una data ISO):
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
-- Mostra solo i nomi dei file modificati a partire da un dato commit:
+- Mostra le differenze tramite delle statistiche come quali file modificati o l'istogramma e il totale delle righe inserite/cancellate:
 
-`git diff --name-only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
+`git diff --stat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
 
-- Stampa un riepilogo dei file creati, rinominati o la cui modalità è cambiata a partire da un dato commit:
+- Mostra un riepilogo dei file creati, rinominati o la cui modalità è cambiata a partire da un dato commit:
 
 `git diff --summary `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
 

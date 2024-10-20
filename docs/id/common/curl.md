@@ -2,14 +2,17 @@
 layout: page
 title: common/curl (Indonesia)
 description: "Mentransfer data dari atau ke server."
-content_hash: 7014b8eb30e2ca99b73d9cc8d06f031c294aa767
-last_modified_at: 2023-12-28
+content_hash: 8aff07a554e378007f40666fde338b49daad51f0
+last_modified_at: 2024-10-20
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/curl.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/curl.html
@@ -22,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/curl.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/curl.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/curl.html
@@ -52,7 +58,7 @@ Informasi lebih lanjut: <https://curl.se/docs/manpage.html>.
 
 `curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com/filename</span>
 
-- Mengirim data form yang telah di encode (permintaan POST atau tipe data `application/x-www-form-urlencoded`). Gunakan `--data @file_name` atau `--data @'-'` untuk membaca dari STDIN:
+- Mengirim data form yang telah di encode (permintaan POST atau tipe data `application/x-www-form-urlencoded`). Gunakan `--data @file_name` atau `--data @'-'` untuk membaca dari `stdin`:
 
 `curl --data `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'name=bob'</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com/form</span>
 

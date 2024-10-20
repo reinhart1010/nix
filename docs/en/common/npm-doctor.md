@@ -3,19 +3,10 @@ layout: page
 title: common/npm-doctor (English)
 description: "Check the health of the npm environment."
 content_hash: 77a68c297ffb9f0d376f1cec57909a8df94bd5a9
-last_modified_at: 2024-10-19
-tldri18n_status: 0
+last_modified_at: 2024-10-20
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/npm-doctor.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># npm doctor
+# npm doctor
 
 Check the health of the npm environment.
 More information: <https://docs.npmjs.com/cli/commands/npm-doctor>.

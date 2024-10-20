@@ -3,19 +3,14 @@ layout: page
 title: windows/chromium (Indonesia)
 description: "Aplikasi peramban web (web browser) bersumber terbuka yang terutama dikembangkan dan dikelola oleh Google."
 content_hash: 5d76c085700194f0b76a0898673a8244f1562c46
-last_modified_at: 2024-10-19
-tldri18n_status: 0
+last_modified_at: 2024-10-20
+related_topics:
+  - title: English version
+    url: /en/windows/chromium.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/chromium.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chromium
+# chromium
 
 Aplikasi peramban web (web browser) bersumber terbuka yang terutama dikembangkan dan dikelola oleh Google.
 Catatan: Anda mungkin perlu menggantikan perintah `chromium` dengan peramban tujuan Anda, seperti `brave`, `google-chrome`. `microsoft-edge`/`msedge`, `opera`, atau `vivaldi`.
