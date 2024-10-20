@@ -1,24 +1,12 @@
 ---
 layout: page
 title: windows/curl (español)
-description: "Este comando es un alias de `curl -p common`."
-content_hash: 0c1aae637a7b52b19ed89ad5482f4919e731a83b
-last_modified_at: 2024-01-07
+description: "En PowerShell, este comando puede ser un alias de `Invoke-WebRequest` cuando el programa original `curl` (<https://curl.se>) no está correctamente instalado."
+content_hash: 16f3a0c781f91757e9f8c130cf21780b2b52a5de
+last_modified_at: 2024-10-20
 related_topics:
-  - title: العربية version
-    url: /ar/windows/curl.html
-    icon: bi bi-globe
   - title: বাংলা version
     url: /bn/windows/curl.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/windows/curl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/curl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/curl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/curl.html
@@ -26,38 +14,11 @@ related_topics:
   - title: English version
     url: /en/windows/curl.html
     icon: bi bi-globe
-  - title: français version
-    url: /fr/windows/curl.html
-    icon: bi bi-globe
-  - title: हिन्दी version
-    url: /hi/windows/curl.html
-    icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/curl.html
     icon: bi bi-globe
-  - title: italiano version
-    url: /it/windows/curl.html
-    icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/windows/curl.html
-    icon: bi bi-globe
-  - title: 한국어 version
-    url: /ko/windows/curl.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/windows/curl.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/windows/curl.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/windows/curl.html
-    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/curl.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/windows/curl.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/curl.html
@@ -65,43 +26,33 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/curl.html
     icon: bi bi-globe
-  - title: português (Portugal) version
-    url: /pt_PT/windows/curl.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/windows/curl.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/windows/curl.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/curl.html
     icon: bi bi-globe
-  - title: ไทย version
-    url: /th/windows/curl.html
-    icon: bi bi-globe
-  - title: Türkçe version
-    url: /tr/windows/curl.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/windows/curl.html
-    icon: bi bi-globe
-  - title: 中文 version
-    url: /zh/windows/curl.html
-    icon: bi bi-globe
-  - title: 中文 (繁體, 台灣) version
-    url: /zh_TW/windows/curl.html
-    icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/curl.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># curl
 
-Este comando es un alias de `curl -p common`.
+En PowerShell, este comando puede ser un alias de `Invoke-WebRequest` cuando el programa original `curl` (<https://curl.se>) no está correctamente instalado.
 Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Muestra la documentación del comando original:
+- Consulta la documentación del comando original `curl`:
 
 `tldr curl -p common`
+
+- Vea la documentación del comando `Invoke-WebRequest` de PowerShell:
+
+`tldr invoke-webrequest`
+
+- Comprueba si `curl` está correctamente instalado imprimiendo su número de versión. Si este comando da error, PowerShell puede haber sustituido este comando por `Invoke-WebRequest`:
+
+`curl --version`
