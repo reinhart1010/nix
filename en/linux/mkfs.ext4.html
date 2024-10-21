@@ -1,0 +1,16 @@
+<h1 id="mkfsext4">mkfs.ext4</h1>
+
+<p>Create an ext4 filesystem inside a partition.
+More information: <a href="https://manned.org/mkfs.ext4">https://manned.org/mkfs.ext4</a>.</p>
+
+<ul>
+  <li>Create an ext4 filesystem inside partition 1 on device b (<code class="language-plaintext highlighter-rouge">sdb1</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.ext4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Create an ext4 filesystem with a volume-label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.ext4 -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_label</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

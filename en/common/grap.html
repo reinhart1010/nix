@@ -1,0 +1,17 @@
+<h1 id="grap">grap</h1>
+
+<p>A charting preprocessor for the groff (GNU Troff) document formatting system.
+See also <code class="language-plaintext highlighter-rouge">pic</code> and <code class="language-plaintext highlighter-rouge">groff</code>.
+More information: <a href="https://manned.org/grap">https://manned.org/grap</a>.</p>
+
+<ul>
+  <li>Process a <code class="language-plaintext highlighter-rouge">grap</code> file and save the output file for future processing with <code class="language-plaintext highlighter-rouge">pic</code> and <code class="language-plaintext highlighter-rouge">groff</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.grap</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pic</span></p>
+
+<ul>
+  <li>Typeset a <code class="language-plaintext highlighter-rouge">grap</code> file to PDF using the [me] macro package, saving the output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.grap</span><code class="language-plaintext highlighter-rouge"> | pic -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> | groff -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">me</span><code class="language-plaintext highlighter-rouge"> -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span></p>

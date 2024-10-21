@@ -1,0 +1,35 @@
+<h1 id="age">age</h1>
+
+<p>Een eenvoudige, moderne en veilige tool voor het versleutelen van bestanden.
+Bekijk <code class="language-plaintext highlighter-rouge">age-keygen</code> hoe je sleutelparen kan genereren.
+Meer informatie: <a href="https://github.com/FiloSottile/age">https://github.com/FiloSottile/age</a>.</p>
+
+<ul>
+  <li>Genereer een versleuteld bestand dat kan worden ontsleuteld met een wachtwoordzin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --passphrase --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/versleuteld_bestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/niet-versleuteld_bestand</span></p>
+
+<ul>
+  <li>Versleutel een bestand met een of meer openbare sleutels die als letterlijke waarden worden ingevoerd (herhaal de <code class="language-plaintext highlighter-rouge">--recipient</code> flag om meerdere openbare sleutels op te geven):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">openbare_sleutel</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/versleuteld_bestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/niet-versleuteld_bestand</span></p>
+
+<ul>
+  <li>Versleutel een bestand met een of meer openbare sleutels die zijn opgegeven in het bestand van een ontvanger:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --recipients-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/ontvangers_bestand</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/versleuteld_bestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/niet-versleuteld_bestand</span></p>
+
+<ul>
+  <li>Decodeer een bestand met een wachtwoordzin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --decrypt --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gedecodeerd_bestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/versleuteld_bestand</span></p>
+
+<ul>
+  <li>Ontsleutel een bestand met een privésleutelbestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">age --decrypt --identity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/privé_sleutel_bestand</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gedecodeerd_bestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/versleuteld_bestand</span></p>

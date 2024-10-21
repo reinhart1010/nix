@@ -1,0 +1,28 @@
+<h1 id="cargo-owner">cargo owner</h1>
+
+<p>Manage the owners of a crate on the registry.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-owner.html">https://doc.rust-lang.org/cargo/commands/cargo-owner.html</a>.</p>
+
+<ul>
+  <li>Invite the given user or team as an owner:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo owner --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username|github:org_name:team_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crate</span></p>
+
+<ul>
+  <li>Remove the given user or team as an owner:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo owner --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username|github:org_name:team_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crate</span></p>
+
+<ul>
+  <li>List owners of a crate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo owner --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crate</span></p>
+
+<ul>
+  <li>Use the specified registry (registry names can be defined in the configuration - the default is <a href="https://crates.io">https://crates.io</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo owner --registry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

@@ -1,0 +1,22 @@
+<h1 id="svccfg">svccfg</h1>
+
+<p>Import, export, and modify service configurations.
+More information: <a href="https://www.unix.com/man-page/linux/1m/svccfg">https://www.unix.com/man-page/linux/1m/svccfg</a>.</p>
+
+<ul>
+  <li>Validate configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/smf_file.xml</span></p>
+
+<ul>
+  <li>Export service configurations to file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servicename</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/smf_file.xml</span></p>
+
+<ul>
+  <li>Import/update service configurations from file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/smf_file.xml</span></p>

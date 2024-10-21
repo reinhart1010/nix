@@ -1,0 +1,34 @@
+<h1 id="snowsql">snowsql</h1>
+
+<p>Narzędzie wiersza SnowSQL serwisu bazodanowego Snowflake.
+Więcej informacji: <a href="https://docs.snowflake.com/en/user-guide/snowsql.html">https://docs.snowflake.com/en/user-guide/snowsql.html</a>.</p>
+
+<ul>
+  <li>Połącz z konkretną instancją pod adresem <a href="https://konto.snowflakecomputing.com">https://konto.snowflakecomputing.com</a> (hasło może być wprowadzone w wierszu polecenia lub pliku konfiguracyjnym):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snowsql --accountname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konto</span><code class="language-plaintext highlighter-rouge"> --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik</span><code class="language-plaintext highlighter-rouge"> --dbname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">baza_danych</span><code class="language-plaintext highlighter-rouge"> --schemaname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_schematu</span></p>
+
+<ul>
+  <li>Połącz się z instancją zdefiniowaną w pliku konfiguracyjnym (domyślnie w <code class="language-plaintext highlighter-rouge">~/.snowsql/config</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snowsql --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_konfiguracyjnego</span></p>
+
+<ul>
+  <li>Połącz się z domyślnie zdefiniowaną instancją, podając kod autentykacji drugiego poziomu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snowsql --mfa-passcode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kod_podwójnej_weryfikacji</span></p>
+
+<ul>
+  <li>Wykonaj pojedyncze zapytanie lub komendę SnowSQL na domyślnym połączeniu (użyteczne w skryptach powłoki):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snowsql --query '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zapytanie</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Wykonaj zapytania lub komendy z konkretnego pliku:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snowsql --filename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.sql</span></p>

@@ -1,0 +1,34 @@
+<h1 id="a2query">a2query</h1>
+
+<p>Retrieve runtime configuration from Apache on Debian-based OSes.
+More information: <a href="https://manned.org/a2query">https://manned.org/a2query</a>.</p>
+
+<ul>
+  <li>List enabled Apache modules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo a2query -m</code></p>
+
+<ul>
+  <li>Check if a specific module is installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo a2query -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>
+
+<ul>
+  <li>List enabled virtual hosts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo a2query -s</code></p>
+
+<ul>
+  <li>Display the currently enabled Multi Processing Module:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo a2query -M</code></p>
+
+<ul>
+  <li>Display Apache version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo a2query -v</code></p>

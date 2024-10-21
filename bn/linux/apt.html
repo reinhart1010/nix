@@ -1,0 +1,53 @@
+<h1 id="apt">apt</h1>
+
+<p>ডেবিয়ান ভিত্তিক ডিস্ট্রিবিউশনের জন্য প্যাকেজ ম্যানেজমেন্ট ইউটিলিটি।
+ইন্টারেক্টিভভাবে ব্যবহৃত হলে উবুন্টু সংস্করণ 16.04 এবং তার পরবর্তী সংস্করনের জন্য <code class="language-plaintext highlighter-rouge">apt-get</code> এর পরিবরতে রেকোমেন্ডেড প্রতিস্থাপন।
+আরও তথ্য পাবেন: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>।</p>
+
+<ul>
+  <li>উপলভ্য প্যাকেজ এবং সংস্করণের তালিকা আপডেট করুন (অন্যান্য <code class="language-plaintext highlighter-rouge">apt</code> কমান্ডের আগে এটি চালানোর পরামর্শ দেওয়া হচ্ছে):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>প্রদত্ত প্যাকেজ অনুসন্ধান করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">প্যাকেজ</span></p>
+
+<ul>
+  <li>একটি প্যাকেজের জন্য তথ্য দেখান:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">প্যাকেজ</span></p>
+
+<ul>
+  <li>একটি প্যাকেজ ইনস্টল করুন, অথবা সর্বশেষ উপলব্ধ সংস্করণে আপডেট করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">প্যাকেজ</span></p>
+
+<ul>
+  <li>একটি প্যাকেজ সরান (পরিবর্তে <code class="language-plaintext highlighter-rouge">purge</code> ব্যবহার করে এর কনফিগারেশন ফাইলও সরিয়ে দেয়):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">প্যাকেজ</span></p>
+
+<ul>
+  <li>সমস্ত ইনস্টল করা প্যাকেজগুলি তাদের নতুন উপলব্ধ সংস্করণগুলিতে আপগ্রেড করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>সমস্ত প্যাকেজের তালিকা করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>ইনস্টল করা প্যাকেজ সমূহ তালিকা করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

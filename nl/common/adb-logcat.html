@@ -1,0 +1,52 @@
+<h1 id="adb-logcat">adb logcat</h1>
+
+<p>Dump een logboek met systeemberichten.
+Meer informatie: <a href="https://developer.android.com/tools/logcat">https://developer.android.com/tools/logcat</a>.</p>
+
+<ul>
+  <li>Geef systeemlogboeken weer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat</code></p>
+
+<ul>
+  <li>Geef regels weer die overeenkomen met een reguliere expressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reguliere_expressie</span></p>
+
+<ul>
+  <li>Toon logs voor een tag in een specifieke modus ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent), andere tags filteren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modus</span><code class="language-plaintext highlighter-rouge"> *:S</code></p>
+
+<ul>
+  <li>Geef logs weer voor React Native-applicaties in [V]erbose mode [S]ilencing andere tags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat ReactNative:V ReactNativeJS:V *:S</code></p>
+
+<ul>
+  <li>Toon logboeken voor alle tags met prioriteitsniveau [W]arning en hoger:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat *:W</code></p>
+
+<ul>
+  <li>Geef logboeken weer voor een specifiek proces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Logboeken weergeven voor het proces van een specifiek pakket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat --pid $(adb shell pidof -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Kleur de log in (gebruik meestal met filters):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat -v color</code></p>

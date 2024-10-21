@@ -1,0 +1,34 @@
+<h1 id="logger">logger</h1>
+
+<p>Add messages to syslog (/var/log/syslog).
+More information: <a href="https://manned.org/logger">https://manned.org/logger</a>.</p>
+
+<ul>
+  <li>Log a message to syslog:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logger </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span></p>
+
+<ul>
+  <li>Take input from <code class="language-plaintext highlighter-rouge">stdin</code> and log to syslog:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">log_entry</span><code class="language-plaintext highlighter-rouge"> | logger</code></p>
+
+<ul>
+  <li>Send the output to a remote syslog server running at a given port. Default port is 514:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">log_entry</span><code class="language-plaintext highlighter-rouge"> | logger --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Use a specific tag for every line logged. Default is the name of logged in user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">log_entry</span><code class="language-plaintext highlighter-rouge"> | logger --tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Log messages with a given priority. Default is <code class="language-plaintext highlighter-rouge">user.notice</code>. See <code class="language-plaintext highlighter-rouge">man logger</code> for all priority options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">log_entry</span><code class="language-plaintext highlighter-rouge"> | logger --priority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user.warning</span></p>

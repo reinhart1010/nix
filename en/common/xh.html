@@ -1,0 +1,42 @@
+<h1 id="xh">xh</h1>
+
+<p>Friendly and fast tool for sending HTTP requests.
+Note: <code class="language-plaintext highlighter-rouge">xh</code>, written in rust, serves as an effective drop-in replacement for <code class="language-plaintext highlighter-rouge">http</code>.
+See also: <code class="language-plaintext highlighter-rouge">http</code>, <code class="language-plaintext highlighter-rouge">curl</code>.
+More information: <a href="https://github.com/ducaale/xh">https://github.com/ducaale/xh</a>.</p>
+
+<ul>
+  <li>Send a GET request:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpbin.org/get</span></p>
+
+<ul>
+  <li>Send a POST request with a JSON body (key-value pairs are added to a top-level JSON object - e.g. <code class="language-plaintext highlighter-rouge">{"name": "john", "age": 25}</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xh post </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpbin.org/post</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name=john</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">age:=25</span></p>
+
+<ul>
+  <li>Send a GET request with query parameters (e.g. <code class="language-plaintext highlighter-rouge">first_param=5&amp;second_param=true</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xh get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpbin.org/get</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">first_param==5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">second_param==true</span></p>
+
+<ul>
+  <li>Send a GET request with a custom header:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xh get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpbin.org/get</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">header-name:header-value</span></p>
+
+<ul>
+  <li>Make a GET request and save the response body to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xh --download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpbin.org/json</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Show equivalent <code class="language-plaintext highlighter-rouge">curl</code> command (this will not send any request):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xh --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">curl|curl-long</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–follow –verbose get http://example.com user-agent:curl</span></p>

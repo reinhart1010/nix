@@ -1,0 +1,40 @@
+<h1 id="ping">ping</h1>
+
+<p>Verstuur ICMP ECHO_REQUEST-pakketten naar netwerkhosts.
+Meer informatie: <a href="https://keith.github.io/xcode-man-pages/ping.8.html">https://keith.github.io/xcode-man-pages/ping.8.html</a>.</p>
+
+<ul>
+  <li>Ping een specifieke host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostnaam</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ping een host een specifiek aantal keren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ping een host, met een specifiek interval in seconden tussen de verzoeken (standaard is 1 seconde):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconden</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ping een host zonder te proberen symbolische namen voor adressen op te zoeken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ping een host en laat een bel afgaan wanneer een pakket wordt ontvangen (als je terminal dit ondersteunt):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -a "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ping een host en toon de tijd wanneer een pakket is ontvangen (deze optie is een Apple-toevoeging):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping --apple-time "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">"</code></p>

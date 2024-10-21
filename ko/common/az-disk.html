@@ -1,0 +1,35 @@
+<h1 id="az-disk">az disk</h1>
+
+<p>Azure 관리 디스크를 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부(<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/disk">https://learn.microsoft.com/cli/azure/disk</a>.</p>
+
+<ul>
+  <li>관리 디스크 만들기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az disk create --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디스크_이름</span><code class="language-plaintext highlighter-rouge"> --size-gb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">기가바이트_크기</span></p>
+
+<ul>
+  <li>리소스 그룹의 관리 디스크 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az disk list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span></p>
+
+<ul>
+  <li>관리 디스크 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az disk delete --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디스크_이름</span></p>
+
+<ul>
+  <li>관리 디스크에 대한 읽기 또는 쓰기 액세스 권한 부여 (내보내기 용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az disk grant-access --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디스크_이름</span><code class="language-plaintext highlighter-rouge"> --access-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Read|Write</span><code class="language-plaintext highlighter-rouge"> --duration-in-seconds </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초</span></p>
+
+<ul>
+  <li>디스크 사이즈 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az disk update --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디스크_이름</span><code class="language-plaintext highlighter-rouge"> --size-gb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새로운_기가바이트_크기</span></p>

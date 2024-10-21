@@ -1,0 +1,29 @@
+<h1 id="edgepaint">edgepaint</h1>
+
+<p>对图形布局的边缘进行着色，以澄清交叉边缘。
+Graphviz 过滤器：<code class="language-plaintext highlighter-rouge">acyclic</code>、<code class="language-plaintext highlighter-rouge">bcomps</code>、<code class="language-plaintext highlighter-rouge">comps</code>、<code class="language-plaintext highlighter-rouge">edgepaint</code>、<code class="language-plaintext highlighter-rouge">gvcolor</code>、<code class="language-plaintext highlighter-rouge">gvpack</code>、<code class="language-plaintext highlighter-rouge">mingle</code>、<code class="language-plaintext highlighter-rouge">nop</code>、<code class="language-plaintext highlighter-rouge">sccmap</code>、<code class="language-plaintext highlighter-rouge">tred</code> 和 <code class="language-plaintext highlighter-rouge">unflatten</code>。
+更多信息：<a href="https://graphviz.org/pdf/edgepaint.1.pdf">https://graphviz.org/pdf/edgepaint.1.pdf</a>.</p>
+
+<ul>
+  <li>对一个或多个已经有布局信息的图形布局的边缘进行着色，以澄清交叉边缘：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">edgepaint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/布局1.gv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/布局2.gv …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出.gv</span></p>
+
+<ul>
+  <li>使用颜色方案对边缘进行着色。（参见：<a href="https://graphviz.org/doc/info/colors.html#brewer">https://graphviz.org/doc/info/colors.html#brewer</a>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">edgepaint -color-scheme=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">accent7</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/布局.gv</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出.gv</span></p>
+
+<ul>
+  <li>对图形进行布局并对其边缘进行着色，然后将其转换为 PNG 图像：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输入.gv</span><code class="language-plaintext highlighter-rouge"> | edgepaint | dot -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出.png</span></p>
+
+<ul>
+  <li>显示 <code class="language-plaintext highlighter-rouge">edgepaint</code> 的帮助信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">edgepaint -?</code></p>

@@ -1,0 +1,28 @@
+<h1 id="adscript">adscript</h1>
+
+<p>Compiler for Adscript files.
+More information: <a href="https://github.com/Amplus2/Adscript">https://github.com/Amplus2/Adscript</a>.</p>
+
+<ul>
+  <li>Compile a file to an object file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.adscript</span></p>
+
+<ul>
+  <li>Compile and link a file to a standalone executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --executable --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.adscript</span></p>
+
+<ul>
+  <li>Compile a file to LLVM IR instead of native machine code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --llvm-ir --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.adscript</span></p>
+
+<ul>
+  <li>Cross-compile a file to an object file for a foreign CPU architecture or operating system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --target-triple </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">i386-linux-elf</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.adscript</span></p>

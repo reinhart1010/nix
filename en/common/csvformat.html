@@ -1,0 +1,35 @@
+<h1 id="csvformat">csvformat</h1>
+
+<p>Convert a CSV file to a custom output format.
+Included in csvkit.
+More information: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvformat.html">https://csvkit.readthedocs.io/en/latest/scripts/csvformat.html</a>.</p>
+
+<ul>
+  <li>Convert to a tab-delimited file (TSV):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvformat -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Convert delimiters to a custom character:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvformat -D "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">custom_character</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Convert line endings to carriage return (^M) + line feed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvformat -M "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\r\n</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Minimize use of quote characters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvformat -U 0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Maximize use of quote characters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvformat -U 1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>

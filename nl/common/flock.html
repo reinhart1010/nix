@@ -1,0 +1,23 @@
+<h1 id="flock">flock</h1>
+
+<p>Beheer sloten van shell scripts.
+Het kan worden gebruikt om ervoor te zorgen dat slechts één proces van een commando wordt uitgevoerd.
+Meer informatie: <a href="https://manned.org/flock">https://manned.org/flock</a>.</p>
+
+<ul>
+  <li>Voer een commando uit met een bestandslot zodra het slot niet vereist is door anderen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/lock.lock</span><code class="language-plaintext highlighter-rouge"> --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Voer een commando uit met een bestandslot en stop als het slot niet bestaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/lock.lock</span><code class="language-plaintext highlighter-rouge"> --nonblock --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Voer een commando uit met een bestandslot en stop met een specifieke error code als het slot niet bestaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/lock.lock</span><code class="language-plaintext highlighter-rouge"> --nonblock --conflict-exit-code </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error_code</span><code class="language-plaintext highlighter-rouge"> -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge">"</code></p>

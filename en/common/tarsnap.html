@@ -1,0 +1,48 @@
+<h1 id="tarsnap">tarsnap</h1>
+
+<p>Manipulate remote Tarsnap encrypted backups.
+Note: you don't need to specify the key file and the cache directory if you configure them in <code class="language-plaintext highlighter-rouge">/usr/local/etc/tarsnap.conf</code> or <code class="language-plaintext highlighter-rouge">~/.tarsnaprc</code>.
+See also: <code class="language-plaintext highlighter-rouge">tarsnap-keygen</code>.
+More information: <a href="https://www.tarsnap.com/man-tarsnap.1.html">https://www.tarsnap.com/man-tarsnap.1.html</a>.</p>
+
+<ul>
+  <li>[c]reate a backup archive of one or more files or directories, specifying the cryptographic key and the cache directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tarsnap -c --keyfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span><code class="language-plaintext highlighter-rouge"> --cachedir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cache_directory</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>Display how much data would be uploaded:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tarsnap -c --dry-run --print-stats --keyfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span><code class="language-plaintext highlighter-rouge"> --cachedir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cache_directory</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>List stored archives:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tarsnap --list-archives --keyfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span></p>
+
+<ul>
+  <li>[d]elete a specific archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tarsnap -d --keyfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span><code class="language-plaintext highlighter-rouge"> --cachedir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cache_directory</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive_name</span></p>
+
+<ul>
+  <li>Lis[t] the contents of a specific archive in [v]erbose mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tarsnap -tv --keyfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive_name</span></p>
+
+<ul>
+  <li>Restore one or more files or directories from a specific archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tarsnap -x --keyfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>Copy an archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tarsnap -c --keyfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_archive_name</span><code class="language-plaintext highlighter-rouge"> @@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_archive_name</span></p>

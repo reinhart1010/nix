@@ -1,0 +1,46 @@
+<h1 id="ganache-cli">ganache-cli</h1>
+
+<p>이더리움 개발을 위한 개인 블록체인 Ganache의 명령줄 버전.
+더 많은 정보: <a href="https://www.trufflesuite.com/ganache">https://www.trufflesuite.com/ganache</a>.</p>
+
+<ul>
+  <li>Ganache 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli</code></p>
+
+<ul>
+  <li>특정 수의 계정으로 Ganache를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --accounts=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">계정_의_수</span></p>
+
+<ul>
+  <li>Ganache를 실행하고 기본적으로 사용 가능한 계정을 잠금:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --secure</code></p>
+
+<ul>
+  <li>Ganache 서버를 실행하고 특정 계정을 잠금 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --secure --unlock "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">계정_개인_키1</span><code class="language-plaintext highlighter-rouge">" --unlock "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">계정_개인_키2</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 계정과 잔액으로 Ganache을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --account="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">계정_개인_키</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">계정_잔액</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>기본 잔액이 있는 계정으로 Ganache를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --defaultBalanceEther=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">기본_잔액</span></p>
+
+<ul>
+  <li>Ganache를 실행하고 모든 요청을 <code class="language-plaintext highlighter-rouge">stdout</code>에 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --verbose</code></p>

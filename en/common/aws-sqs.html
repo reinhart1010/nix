@@ -1,0 +1,52 @@
+<h1 id="aws-sqs">aws sqs</h1>
+
+<p>Create, delete, and send messages to queues for the AWS SQS service.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sqs/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sqs/index.html</a>.</p>
+
+<ul>
+  <li>List all availables queues:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs list-queues</code></p>
+
+<ul>
+  <li>Display the URL of a specific queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs get-queue-url --queue-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span></p>
+
+<ul>
+  <li>Create a queue with specific attributes from a file in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs create-queue --queue-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span><code class="language-plaintext highlighter-rouge"> --attributes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file://path/to/attributes_file.json</span></p>
+
+<ul>
+  <li>Send a specific message to a queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs send-message --queue-url https://sqs.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span><code class="language-plaintext highlighter-rouge"> --message-body "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message_body</span><code class="language-plaintext highlighter-rouge">" --delay-seconds </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delay</span><code class="language-plaintext highlighter-rouge"> --message-attributes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file://path/to/attributes_file.json</span></p>
+
+<ul>
+  <li>Delete the specified message from a queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs delete-message --queue-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://queue_url</span><code class="language-plaintext highlighter-rouge"> --receipt-handle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">receipt_handle</span></p>
+
+<ul>
+  <li>Delete a specific queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs delete-queue --queue-url https://sqs.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span></p>
+
+<ul>
+  <li>Delete all messages from the specified queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs purge-queue --queue-url https://sqs.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span></p>
+
+<ul>
+  <li>Enable a specific AWS account to send messages to queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs add-permission --queue-url https://sqs.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span><code class="language-plaintext highlighter-rouge"> --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">permission_name</span><code class="language-plaintext highlighter-rouge"> --aws-account-ids </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_id</span><code class="language-plaintext highlighter-rouge"> --actions SendMessage</code></p>

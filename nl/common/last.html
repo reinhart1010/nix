@@ -1,0 +1,40 @@
+<h1 id="last">last</h1>
+
+<p>Bekijk de laatst ingelogde gebruikers.
+Meer informatie: <a href="https://manned.org/last">https://manned.org/last</a>.</p>
+
+<ul>
+  <li>Bekijk de laatste logins, hun duur en andere informatie uit <code class="language-plaintext highlighter-rouge">/var/log/wtmp</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last</code></p>
+
+<ul>
+  <li>Geef aan hoeveel van de laatste logins moeten worden weergegeven:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal_logins</span></p>
+
+<ul>
+  <li>Toon de volledige datum en tijd voor vermeldingen en toon vervolgens de hostnaam-kolom als laatste om afkapping te voorkomen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last -F -a</code></p>
+
+<ul>
+  <li>Bekijk alle logins van een specifieke gebruiker en toon het IP-adres in plaats van de hostnaam:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span><code class="language-plaintext highlighter-rouge"> -i</code></p>
+
+<ul>
+  <li>Bekijk alle geregistreerde herstarts (d.w.z. de laatste logins van de pseudo-gebruiker "reboot"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last reboot</code></p>
+
+<ul>
+  <li>Bekijk alle geregistreerde uitschakelingen (d.w.z. de laatste logins van de pseudo-gebruiker "shutdown"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last shutdown</code></p>

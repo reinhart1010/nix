@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="7z">7z</h1>
+
+<p>উচ্চ স্পীড অনুপাতে ফাইল সংরক্ষণকর্তা।
+আরও তথ্য পাবেন: <a href="https://manned.org/7z">https://manned.org/7z</a>।</p>
+
+<ul>
+  <li>নতুন বা বিদ্যমান সংরক্ষণে একটি ফাইল বা ডিরেক্টরি যোগ করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">সংরক্ষণ.7z/এর/পথ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ফাইল_অথবা_ডিরেক্টরি/এর/পথ</span></p>
+
+<ul>
+  <li>বিদ্যমান সংরক্ষণকে এনক্রিপ্ট করুন (ফাইলের নাম সহ):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">এনক্রিপ্টেড.7z/এর/পথ</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাসওয়ার্ড</span><code class="language-plaintext highlighter-rouge"> -mhe=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">সংরক্ষণ.7z/এর/পথ</span></p>
+
+<ul>
+  <li>মৌলিক ডিরেক্টরি স্ট্রাকচার সংরক্ষণ করতে সংরক্ষণ থেকে বাহাতে:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">সংরক্ষণ.7z/এর/পথ</span></p>
+
+<ul>
+  <li>বিশেষ ডিরেক্টরি এইচআউটপুটের সাথে সংরক্ষণ থেকে নেওয়া:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">সংরক্ষণ.7z/এর/পথ</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">আউটপুট/এর/পথ</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdout</code> এর জন্য একটি সংরক্ষণ থেকে বাহাতে:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">সংরক্ষণ.7z/এর/পথ</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>একটি নির্দিষ্ট সংরক্ষণ প্রকার ব্যবহার করে সংরক্ষণ করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7z|bzip2|gzip|lzip|tar|zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">সংরক্ষণ/এর/পথ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ফাইল_অথবা_ডিরেক্টরি/এর/পথ</span></p>
+
+<ul>
+  <li>একটি সংরক্ষণের সামগ্রী তালিকা বদ্ধ করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">সংরক্ষণ.7z/এর/পথ</span></p>

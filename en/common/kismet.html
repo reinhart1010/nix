@@ -1,0 +1,52 @@
+<h1 id="kismet">kismet</h1>
+
+<p>A wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework.
+More information: <a href="https://www.kismetwireless.net/">https://www.kismetwireless.net/</a>.</p>
+
+<ul>
+  <li>Capture packets from a specific wireless interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span></p>
+
+<ul>
+  <li>Monitor multiple channels on a wireless interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0,wlan1</span><code class="language-plaintext highlighter-rouge"> -m</code></p>
+
+<ul>
+  <li>Capture packets and save them to a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span></p>
+
+<ul>
+  <li>Start Kismet with a specific configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.conf</span></p>
+
+<ul>
+  <li>Monitor and log data to an SQLite database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> --log-to-db</code></p>
+
+<ul>
+  <li>Monitor using a specific data source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> --data-source=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rtl433</span></p>
+
+<ul>
+  <li>Enable alerts for specific events:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> --enable-alert=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_ap</span></p>
+
+<ul>
+  <li>Display detailed information about a specific AP's packets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">BSSID</span></p>

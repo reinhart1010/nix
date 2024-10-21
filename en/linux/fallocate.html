@@ -1,0 +1,23 @@
+<h1 id="fallocate">fallocate</h1>
+
+<p>Reserve or deallocate disk space to files.
+The utility allocates space without zeroing.
+More information: <a href="https://manned.org/fallocate">https://manned.org/fallocate</a>.</p>
+
+<ul>
+  <li>Reserve a file taking up 700 MiB of disk space:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fallocate --length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">700M</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Shrink an already allocated file by 200 MiB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fallocate --collapse-range --length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200M</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Shrink 20 MB of space after 100 MiB in a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fallocate --collapse-range --offset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100M</span><code class="language-plaintext highlighter-rouge"> --length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20M</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

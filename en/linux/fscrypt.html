@@ -1,0 +1,28 @@
+<h1 id="fscrypt">fscrypt</h1>
+
+<p>Go tool for managing Linux filesystem encryption.
+More information: <a href="https://github.com/google/fscrypt">https://github.com/google/fscrypt</a>.</p>
+
+<ul>
+  <li>Prepare the root filesystem for use with fscrypt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fscrypt setup</code></p>
+
+<ul>
+  <li>Enable filesystem encryption for a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fscrypt encrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Unlock an encrypted directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fscrypt unlock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_directory</span></p>
+
+<ul>
+  <li>Lock an encrypted directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fscrypt lock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_directory</span></p>

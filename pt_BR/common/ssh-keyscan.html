@@ -1,0 +1,28 @@
+<h1 id="ssh-keyscan">ssh-keyscan</h1>
+
+<p>Obter as chaves públicas SSH de servidores remotos.
+Mais informações: <a href="https://man.openbsd.org/ssh-keyscan">https://man.openbsd.org/ssh-keyscan</a>.</p>
+
+<ul>
+  <li>Obtém todas as chaves públicas SSH de um servidor remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span></p>
+
+<ul>
+  <li>Obtém todas as chaves públicas SSH de um servidor remoto que esteja ouvindo em uma porta específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span></p>
+
+<ul>
+  <li>Obtém determinados tipos de chaves públicas SSH de um servidor remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa,dsa,ecdsa,ed25519</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span></p>
+
+<ul>
+  <li>Atualiza manualmente o arquivo known_hosts do SSH com a impressão digital de um determinado servidor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; ~/.ssh/known_hosts</code></p>

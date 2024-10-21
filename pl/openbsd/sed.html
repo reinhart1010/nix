@@ -1,0 +1,41 @@
+<h1 id="sed">sed</h1>
+
+<p>Edytuj tekst w sposób skryptowalny.
+Zobacz także: <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">ed</code>.
+Więcej informacji: <a href="https://man.openbsd.org/sed.1">https://man.openbsd.org/sed.1</a>.</p>
+
+<ul>
+  <li>Zastąp wszystkie wystąpienia <code class="language-plaintext highlighter-rouge">jabłko</code> (podstawowe wyrażenie regularne) przez <code class="language-plaintext highlighter-rouge">mango</code> (podstawowe wyrażenie regularne) we wszystkich liniach wejściowych i wypisz wynik do <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span><code class="language-plaintext highlighter-rouge"> | sed 's/jabłko/mango/g'</code></p>
+
+<ul>
+  <li>Wykonaj określony plik (z ang. [f]ile) skryptu i wypisz jego wynik do <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span><code class="language-plaintext highlighter-rouge"> | sed -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/skryptu.sed</span></p>
+
+<ul>
+  <li>Opóźnij otwarcie każdego pliku do momentu, gdy polecenie zawierające powiązaną funkcję lub flagę <code class="language-plaintext highlighter-rouge">w</code> zostanie zastosowane do linii wejścia:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span><code class="language-plaintext highlighter-rouge"> | sed -fa </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/skryptu.sed</span></p>
+
+<ul>
+  <li>Zastąp wszystkie wystąpienia <code class="language-plaintext highlighter-rouge">jabłko</code> (rozszerzone wyrażenie regularne) przez <code class="language-plaintext highlighter-rouge">JABŁKO</code> (rozszerzone wyrażenie regularne) we wszystkich liniach wejściowych i wypisz wynik do <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span><code class="language-plaintext highlighter-rouge"> | sed -E 's/(jabłko)/\U\1/g'</code></p>
+
+<ul>
+  <li>Wypisz tylko pierwszą linię do <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span><code class="language-plaintext highlighter-rouge"> | sed -n '1p'</code></p>
+
+<ul>
+  <li>Zastąp wszystkie wystąpienia <code class="language-plaintext highlighter-rouge">jabłko</code> (podstawowe wyrażenie regularne) przez <code class="language-plaintext highlighter-rouge">mango</code> (podstawowe wyrażenie regularne) w określonym pliku i nadpisz oryginalny plik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i 's/jabłko/mango/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>

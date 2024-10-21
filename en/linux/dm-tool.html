@@ -1,0 +1,28 @@
+<h1 id="dm-tool">dm-tool</h1>
+
+<p>A tool to communicate with the display manager.
+More information: <a href="https://manned.org/dm-tool">https://manned.org/dm-tool</a>.</p>
+
+<ul>
+  <li>Show the greeter while keeping current desktop session open and waiting to be restored upon authentication by logged in user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dm-tool switch-to-greeter</code></p>
+
+<ul>
+  <li>Lock the current session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dm-tool lock</code></p>
+
+<ul>
+  <li>Switch to a specific user, showing an authentication prompt if required:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dm-tool switch-to-user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session</span></p>
+
+<ul>
+  <li>Add a dynamic seat from within a running LightDM session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dm-tool add-seat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xlocal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>

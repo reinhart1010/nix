@@ -1,0 +1,40 @@
+<h1 id="yarn">yarn</h1>
+
+<p>JavaScript 和 Node.js package manager 的一个替代。
+更多信息：<a href="https://yarnpkg.com">https://yarnpkg.com</a>.</p>
+
+<ul>
+  <li>全局安装一个模块：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn global add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>
+
+<ul>
+  <li>安装 <code class="language-plaintext highlighter-rouge">package.json</code> 中指定的依赖（<code class="language-plaintext highlighter-rouge">install</code> 命令是可选的 – 你可以直接输入<code class="language-plaintext highlighter-rouge">yarn</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn install</code></p>
+
+<ul>
+  <li>安装一个模块并将其写入 <code class="language-plaintext highlighter-rouge">package.json</code> 中的依赖项（增加 <code class="language-plaintext highlighter-rouge">--dev</code> 来作为开发依赖写入）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>卸载一个模块并将其从 <code class="language-plaintext highlighter-rouge">package.json</code> 的依赖项中移除：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>
+
+<ul>
+  <li>交互式地创建一个 <code class="language-plaintext highlighter-rouge">package.json</code> 文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn init</code></p>
+
+<ul>
+  <li>确认一个模块是否是一个依赖项并且列出依赖其的模块：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn why </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>

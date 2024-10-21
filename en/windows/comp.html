@@ -1,0 +1,53 @@
+<h1 id="comp">comp</h1>
+
+<p>Compare the contents of two files or sets of files.
+Use wildcards (*) to compare sets of files.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/comp">https://learn.microsoft.com/windows-server/administration/windows-commands/comp</a>.</p>
+
+<ul>
+  <li>Compare files interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp</code></p>
+
+<ul>
+  <li>Compare two specified files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span></p>
+
+<ul>
+  <li>Compare two sets of files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory1</span><code class="language-plaintext highlighter-rouge">\* </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory2</span><code class="language-plaintext highlighter-rouge">\*</code></p>
+
+<ul>
+  <li>Display differences in [d]ecimal format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp /d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span></p>
+
+<ul>
+  <li>Display differences in [a]SCII format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp /a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span></p>
+
+<ul>
+  <li>Display [l]ine numbers for differences:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp /l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span></p>
+
+<ul>
+  <li>Compare files [c]ase-insensitively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp /c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span></p>
+
+<ul>
+  <li>Compare only the first 5 lines of each file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp /n=5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file2</span></p>

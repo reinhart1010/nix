@@ -1,0 +1,23 @@
+<h1 id="mkfsbtrfs">mkfs.btrfs</h1>
+
+<p>Crie um sistema de arquivos btrfs.
+O padrão é <code class="language-plaintext highlighter-rouge">raid1</code>, que especifica 2 cópias de um determinado bloco de dados espalhados por 2 dispositivos diferentes.
+Mais informações: <a href="https://btrfs.readthedocs.io/en/latest/mkfs.btrfs.html">https://btrfs.readthedocs.io/en/latest/mkfs.btrfs.html</a>.</p>
+
+<ul>
+  <li>Cria um sistema de arquivos btrfs em um único dispositivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.btrfs --metadata single --data single </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span></p>
+
+<ul>
+  <li>Cria um sistema de arquivos btrfs em vários dispositivos com raid1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.btrfs --metadata raid1 --data raid1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdN</span></p>
+
+<ul>
+  <li>Define um rótulo para o sistema de arquivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.btrfs --label "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rótulo</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span><code class="language-plaintext highlighter-rouge"> [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdN</span><code class="language-plaintext highlighter-rouge">]</code></p>

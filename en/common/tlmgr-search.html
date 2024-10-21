@@ -1,0 +1,34 @@
+<h1 id="tlmgr-search">tlmgr search</h1>
+
+<p>Search for TeX Live packages using (Perl) regular expressions.
+More information: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>Search for a package name and descriptions of all locally installed packages from a specific regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Search for all file names of all locally installed packages from a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr search --file "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Search for all file names, package names, and descriptions of all locally installed packages from a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr search --all "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Search the TeX Live database, instead of the local installation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr search --global "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Restrict the matches for package names and descriptions (but not for file names) to whole words:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr search --all --word "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">"</code></p>

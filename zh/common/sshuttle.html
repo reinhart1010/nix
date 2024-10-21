@@ -1,0 +1,26 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="sshuttle">sshuttle</h1>
+
+<p>通过 SSH 连接传输流量的透明代理服务器。
+不需要管理员或远程 SSH 服务器上的任何特殊设置。
+更多信息：<a href="https://manned.org/sshuttle">https://manned.org/sshuttle</a>.</p>
+
+<ul>
+  <li>通过远程 SSH 服务器转发所有 IPv4 TCP 流量：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshuttle --remote=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">服务器名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0.0.0/0</span></p>
+
+<ul>
+  <li>转发所有 IPv4 TCP 和 DNS 流量：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshuttle --dns --remote=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">服务器名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0.0.0/0</span></p>
+
+<ul>
+  <li>使用 tproxy 方法转发所有 IPv4 和 IPv6 流量：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo sshuttle --method=tproxy --remote=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">服务器名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0.0.0/0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">::/0</span><code class="language-plaintext highlighter-rouge"> --exclude=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">你本地 IP 地址</span><code class="language-plaintext highlighter-rouge"> --exclude=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SSH 服务器的 IP 地址</span></p>

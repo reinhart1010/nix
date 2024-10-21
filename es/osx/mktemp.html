@@ -1,0 +1,34 @@
+<h1 id="mktemp">mktemp</h1>
+
+<p>Crea un archivo o directorio temporal.
+Más información: <a href="https://keith.github.io/xcode-man-pages/mktemp.1.html">https://keith.github.io/xcode-man-pages/mktemp.1.html</a>.</p>
+
+<ul>
+  <li>Crea un archivo temporal vacío e imprime su ruta absoluta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp</code></p>
+
+<ul>
+  <li>Usa un directorio personalizado (por defecto la salida de <code class="language-plaintext highlighter-rouge">getconf DARWIN_USER_TEMP_DIR</code>, o <code class="language-plaintext highlighter-rouge">/tmp</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp --tmpdir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/tempdir</span></p>
+
+<ul>
+  <li>Usa una plantilla de ruta personalizada (las <code class="language-plaintext highlighter-rouge">X</code> se sustituyen por caracteres alfanuméricos aleatorios):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/tmp/ejemplo.XXXXXXXX</span></p>
+
+<ul>
+  <li>Usa un prefijo de nombre de archivo personalizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo</span></p>
+
+<ul>
+  <li>Crea un directorio temporal vacío e imprime su ruta absoluta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp --directory</code></p>

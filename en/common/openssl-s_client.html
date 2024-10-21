@@ -1,0 +1,28 @@
+<h1 id="openssl-s_client">openssl s_client</h1>
+
+<p>OpenSSL command to create TLS client connections.
+More information: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-s_client.html">https://www.openssl.org/docs/manmaster/man1/openssl-s_client.html</a>.</p>
+
+<ul>
+  <li>Display the start and expiry dates for a domain's certificate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl s_client -connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> 2&gt;/dev/null | openssl x509 -noout -dates</code></p>
+
+<ul>
+  <li>Display the certificate presented by an SSL/TLS server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl s_client -connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> &lt;/dev/null</code></p>
+
+<ul>
+  <li>Set the Server Name Indicator (SNI) when connecting to the SSL/TLS server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl s_client -connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> -servername </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span></p>
+
+<ul>
+  <li>Display the complete certificate chain of an HTTPS server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl s_client -connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:443 -showcerts &lt;/dev/null</code></p>

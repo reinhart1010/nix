@@ -1,0 +1,46 @@
+<h1 id="scrapy">scrapy</h1>
+
+<p>Web 爬取框架。
+更多信息：<a href="https://scrapy.org">https://scrapy.org</a>.</p>
+
+<ul>
+  <li>创建一个项目：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy startproject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">项目名</span></p>
+
+<ul>
+  <li>创建一个爬虫（在项目目录下）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy genspider </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">爬虫名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">站点域名</span></p>
+
+<ul>
+  <li>编辑爬虫（在项目目录下）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">爬虫名</span></p>
+
+<ul>
+  <li>运行爬虫（在项目目录下）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy crawl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">爬虫名</span></p>
+
+<ul>
+  <li>抓取一个网页并将它的网页源码打印至标准输出：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy fetch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>使用默认浏览器打开给定的 URL 来确认是否符合期望（为确保准确会禁用 JavaScript）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>通过给定的 URL 打开交互窗口，除此之外还支持 UNIX 风格的本地文件路径：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>

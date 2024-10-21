@@ -1,0 +1,35 @@
+<h1 id="cargo-init">cargo init</h1>
+
+<p>Crée un nouveau paquet Cargo.
+Équivalent de <code class="language-plaintext highlighter-rouge">cargo new</code>, mais où spécifier un dossier est optionnel.
+Plus d'informations : <a href="https://doc.rust-lang.org/cargo/commands/cargo-init.html">https://doc.rust-lang.org/cargo/commands/cargo-init.html</a>.</p>
+
+<ul>
+  <li>Initialise un projet Rust binaire dans le dossier courant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init</code></p>
+
+<ul>
+  <li>Initailise un projet de binaire Rust dans le dossier spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier</span></p>
+
+<ul>
+  <li>Initialise un projet de bibliothèque Rust dans le dossier spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init --lib</code></p>
+
+<ul>
+  <li>Initialise un dépôt de système de gestion de version dans le dossier du projet (défaut : <code class="language-plaintext highlighter-rouge">git</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init --vcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git|hg|pijul|fossil|none</span></p>
+
+<ul>
+  <li>Défini le nom du paquet (défaut : nom du dossier):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_paquet</span></p>

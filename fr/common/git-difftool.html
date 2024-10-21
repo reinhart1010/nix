@@ -1,0 +1,28 @@
+<h1 id="git-difftool">git difftool</h1>
+
+<p>Afficher les modifications apportées aux fichiers à l'aide d'outils de comparaison externes. Accepte les mêmes options et arguments que Git diff.
+Plus d'informations : <a href="https://git-scm.com/docs/git-difftool">https://git-scm.com/docs/git-difftool</a>.</p>
+
+<ul>
+  <li>Lister les outils de comparaison disponibles :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --tool-help</code></p>
+
+<ul>
+  <li>Configurer Meld comme outil de comparaison par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global diff.tool "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">meld</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Utiliser l'outil de comparaison par défaut pour afficher les fichiers modifiés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --staged</code></p>
+
+<ul>
+  <li>Utiliser un outil de comparaison spécifique (opendiff) pour afficher les changements depuis un commit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --tool=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opendiff</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

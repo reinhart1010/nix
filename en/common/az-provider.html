@@ -1,0 +1,35 @@
+<h1 id="az-provider">az provider</h1>
+
+<p>Manage resource providers.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/provider">https://learn.microsoft.com/cli/azure/provider</a>.</p>
+
+<ul>
+  <li>Register a provider:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az provider register --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Microsoft.PolicyInsights</span></p>
+
+<ul>
+  <li>Unregister a provider:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az provider unregister --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Microsoft.Automation</span></p>
+
+<ul>
+  <li>List all providers for a subscription:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az provider list</code></p>
+
+<ul>
+  <li>Show information about a specific provider:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az provider show --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Microsoft.Storage</span></p>
+
+<ul>
+  <li>List all resource types for a specific provider:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az provider list --query "[?namespace=='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Microsoft.Network</span><code class="language-plaintext highlighter-rouge">'].resourceTypes[].resourceType"</code></p>

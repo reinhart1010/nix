@@ -1,0 +1,52 @@
+<h1 id="compseq">compseq</h1>
+
+<p>Calcula la composición de palabras únicas en secuencias.
+Más información: <a href="https://www.bioinformatics.nl/cgi-bin/emboss/help/compseq/">https://www.bioinformatics.nl/cgi-bin/emboss/help/compseq/</a>.</p>
+
+<ul>
+  <li>Cuenta frecuencias observadas de palabras en un archivo FASTA, proporcionando valores de parámetros interactivamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compseq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.fasta</span></p>
+
+<ul>
+  <li>Cuenta frecuencias observadas de pares de aminoácidos en un archivo FASTA, y guarda el resultado en un archivo de texto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compseq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_proteina.fasta</span><code class="language-plaintext highlighter-rouge"> -word 2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_salida.comp</span></p>
+
+<ul>
+  <li>Cuenta las frecuencias observadas de hexanucleótidos en un archivo FASTA, luego guarda el resultado en un archivo de texto e ignora los recuentos cero:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compseq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_entrada.fasta</span><code class="language-plaintext highlighter-rouge"> -word 6 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_salida.comp</span><code class="language-plaintext highlighter-rouge"> -nozero</code></p>
+
+<ul>
+  <li>Cuenta las frecuencias observadas de codones en un marco de lectura concreto, ignorando cualquier recuento superpuesto (es decir, desplaza la ventana en longitud de palabra 3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compseq -sequence </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_ingreso_rna.fasta</span><code class="language-plaintext highlighter-rouge"> -word 3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_salida.comp</span><code class="language-plaintext highlighter-rouge"> -nozero -frame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Cuenta las frecuencias observadas de codones desplazados en 3 posiciones; ignorando los recuentos superpuestos (debería informar de todos los codones excepto el primero):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compseq -sequence </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_ingreso_rna.fasta</span><code class="language-plaintext highlighter-rouge"> -word 3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_salida.comp</span><code class="language-plaintext highlighter-rouge"> -nozero -frame 3</code></p>
+
+<ul>
+  <li>Cuenta tripletes de aminoácidos en un archivo FASTA y compara con una ejecución anterior de <code class="language-plaintext highlighter-rouge">compseq</code> para calcular los valores de frecuencia esperados y normalizados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compseq -sequence </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/proteoma_humano.fasta</span><code class="language-plaintext highlighter-rouge"> -word 3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_salida1.comp</span><code class="language-plaintext highlighter-rouge"> -nozero -infile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_salida2.comp</span></p>
+
+<ul>
+  <li>Aproxima el comando anterior sin un archivo previamente preparado, calculando las frecuencias esperadas usando las frecuencias de una sola base/residuo en la(s) secuencia(s) de entrada suministrada(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compseq -sequence </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/proteoma_humano.fasta</span><code class="language-plaintext highlighter-rouge"> -word 3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_salida.comp</span><code class="language-plaintext highlighter-rouge"> -nozero -calcfreq</code></p>
+
+<ul>
+  <li>Muestra ayuda (utiliza <code class="language-plaintext highlighter-rouge">-help -verbose</code> para obtener más información sobre los calificadores asociados y generales):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compseq -help</code></p>

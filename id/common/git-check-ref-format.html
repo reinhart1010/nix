@@ -1,0 +1,22 @@
+<h1 id="git-check-ref-format">git check-ref-format</h1>
+
+<p>Cek apakah nama suatu referensi (refname) sesuai syarat, dan keluar dengan nilai status di luar angka nol jika tidak.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-check-ref-format">https://git-scm.com/docs/git-check-ref-format</a>.</p>
+
+<ul>
+  <li>Cek kesesuaian format suatu nama referensi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ref-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">refs/head/refname</span></p>
+
+<ul>
+  <li>Cetak nama cabang yang terakhir kali diperiksa sebelum mengganti ke cabang saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ref-format --branch @{-1}</code></p>
+
+<ul>
+  <li>Lakukan normalisasi terhadap nama referensi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ref-format --normalize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">refs/head/refname</span></p>

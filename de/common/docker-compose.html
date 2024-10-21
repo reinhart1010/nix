@@ -1,0 +1,52 @@
+<h1 id="docker-compose">docker compose</h1>
+
+<p>Starte und verwalte Anwendungen, welche aus mehreren Docker Containern bestehen.
+Weitere Informationen: <a href="https://docs.docker.com/reference/cli/docker/compose/">https://docs.docker.com/reference/cli/docker/compose/</a>.</p>
+
+<ul>
+  <li>Liste alle laufenden Container auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose ps</code></p>
+
+<ul>
+  <li>Erzeuge und starte alle Container im Hintergrund unter der Verwendung der Datei <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> im aktuellen Verzeichnis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose up --detach</code></p>
+
+<ul>
+  <li>Starte alle Container. Erzeuge zugehörige Docker Images bei Bedarf neu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose up --build</code></p>
+
+<ul>
+  <li>Starte alle Container durch Angabe eines Projektnamens unter Verwendung einer alternativen Compose-Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Projektname</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span><code class="language-plaintext highlighter-rouge"> up</code></p>
+
+<ul>
+  <li>Stoppe alle laufenden Container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose stop</code></p>
+
+<ul>
+  <li>Stoppe und entferne alle Container inklusive zugehöriger Netzwerke, Volumes und Images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose down --rmi all --volumes</code></p>
+
+<ul>
+  <li>Zeige die Logs aller Container kontinuierlich an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose logs --follow</code></p>
+
+<ul>
+  <li>Zeige die Logs eines spezifischen Containers kontinuierlich an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose logs --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>

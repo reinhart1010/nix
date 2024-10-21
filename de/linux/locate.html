@@ -1,0 +1,22 @@
+<h1 id="locate">locate</h1>
+
+<p>Zum schnellen Finden von Dateinamen.
+Weitere Informationen: <a href="https://manned.org/locate">https://manned.org/locate</a>.</p>
+
+<ul>
+  <li>Suche nach Dateien in der Datenbank. Hinweis: Die Datenbank wird periodisch aktualisiert (für gewöhnlich täglich oder wöchentlich):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">locate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">muster</span></p>
+
+<ul>
+  <li>Suche nach Dateien mit dem exakten Dateinamen. (Ein Muster ohne Platzhalterzeichen wird als <code class="language-plaintext highlighter-rouge">*muster*</code> interpretiert):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">locate '*/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dateiname</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Aktualisiere die Datenbank. Dies ist nötig, falls kürzlich hinzugefügte Dateien gefunden werden sollen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo updatedb</code></p>

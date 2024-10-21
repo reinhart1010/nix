@@ -1,0 +1,46 @@
+<h1 id="security">security</h1>
+
+<p>Administruj pękami kluczy, kluczami, certyfikatami oraz framework'iem Security.
+Więcej informacji: <a href="https://keith.github.io/xcode-man-pages/security.1.html">https://keith.github.io/xcode-man-pages/security.1.html</a>.</p>
+
+<ul>
+  <li>Wypisz wszystkie dostępne pęki kluczy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security list-keychains</code></p>
+
+<ul>
+  <li>Usuń zadany pęk kluczy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security delete-keychain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.keychain</span></p>
+
+<ul>
+  <li>Utwórz pęk kluczy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security create-keychain -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hasło</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.keychain</span></p>
+
+<ul>
+  <li>Ustaw certyfikat który ma być używany przy stronie internetowej lub [s]erwisie używając nazwy własnej (ta komenda nie powiedzie się gdy więcej niż jeden certyfikat ma taką samą nazwę własną):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security set-identity-preference -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URL|hostname|serwis</span><code class="language-plaintext highlighter-rouge"> -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_własna</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.keychain</span></p>
+
+<ul>
+  <li>Dodaj certyfikat z pliku do pęku [k]luczy (Jeżeli parametr -k nie został podany, domyślny pęk kluczy zostanie wykorzystany):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security add-certificates -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik.keychain</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/certyfikatu.keychain.pem</span></p>
+
+<ul>
+  <li>Dodaj certyfikat CA do ustawień zaufania dla każdego użytkownika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security add-trusted-cert -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pęku_kluczy_użytkownika.keychain-db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/certyfikatu_ca.pem</span></p>
+
+<ul>
+  <li>Usuń certyfikat CA z ustawień zaufania dla każdego użytkownika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security remove-trusted-cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ściieżka/do/certyfikatu_ca.pem</span></p>

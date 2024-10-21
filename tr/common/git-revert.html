@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-revert">git revert</h1>
+
+<p>Öncekilerin etkilerini geri alan yeni bir commit oluştur.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-revert">https://git-scm.com/docs/git-revert</a>.</p>
+
+<ul>
+  <li>En son commit'leri geri al:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@</span></p>
+
+<ul>
+  <li>En son 5. commit'i geri al:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert HEAD~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Birden fazla commit'i geri al:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi~5..dal_ismi~2</span></p>
+
+<ul>
+  <li>Yeni commit'ler oluşturma, yalnızca çalışan ağacı değiştir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0c01a9..9a1743</span></p>

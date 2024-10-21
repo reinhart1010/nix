@@ -1,0 +1,47 @@
+<h1 id="git-bug">git bug</h1>
+
+<p>A distributed bug tracker that uses Git's internal storage, so no files are added in your project.
+You may submit your problems to the same Git remote you use to interact with others, much like commits and branches.
+More information: <a href="https://github.com/MichaelMure/git-bug/blob/master/doc/md/git-bug.md">https://github.com/MichaelMure/git-bug/blob/master/doc/md/git-bug.md</a>.</p>
+
+<ul>
+  <li>Create a new identity:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bug user create</code></p>
+
+<ul>
+  <li>Create a new bug:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bug add</code></p>
+
+<ul>
+  <li>Push a new bug entry to a remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bug push</code></p>
+
+<ul>
+  <li>Pull for updates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bug pull</code></p>
+
+<ul>
+  <li>List existing bugs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bug ls</code></p>
+
+<ul>
+  <li>Filter and sort bugs using a query:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bug ls "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">status</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">open</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sort</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">edit</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Search for bugs by text content:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bug ls "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_query</span><code class="language-plaintext highlighter-rouge">" baz</code></p>

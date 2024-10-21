@@ -1,0 +1,41 @@
+<h1 id="unzip">unzip</h1>
+
+<p>Утиліта розпакування файлів/каталогів з Zip архівів.
+Дивіться також: <code class="language-plaintext highlighter-rouge">zip</code>.
+Більше інформації: <a href="https://manned.org/unzip">https://manned.org/unzip</a>.</p>
+
+<ul>
+  <li>Розпакувати всі файли/каталоги з певних архівів у поточний каталог:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву1.zip шлях/до/архіву2.zip …</span></p>
+
+<ul>
+  <li>Розпакувати файли/каталоги з архівів у певний шлях:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву1.zip шлях/до/архіву2.zip …</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/виводу</span></p>
+
+<ul>
+  <li>Розпакувати файли/каталоги з архівів у <code class="language-plaintext highlighter-rouge">stdout</code> разом із виводом імен файлів:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву1.zip шлях/до/архіву2.zip …</span></p>
+
+<ul>
+  <li>Розпакувати архів, створений у Windows, який містить файли з назвами файлів, відмінними від ASCII (наприклад, китайськими чи японськими символами):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gbk</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву1.zip шлях/до/архіву2.zip …</span></p>
+
+<ul>
+  <li>Вивести ([l]ist) перелік вмісту певного архіву, не розпаковуючи його:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву.zip</span></p>
+
+<ul>
+  <li>Розпакувати певний файл з архіву:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу1_в_архіві шлях/до/файлу2_в_архіві …</span></p>

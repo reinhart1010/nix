@@ -1,0 +1,52 @@
+<h1 id="arduino">arduino</h1>
+
+<p>Arduino Studio - Ambiente de Desenvolvimento Integrado para a plataforma Arduino.
+Mais informações: <a href="https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc">https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc</a>.</p>
+
+<ul>
+  <li>Compila um sketch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.ino</span></p>
+
+<ul>
+  <li>Compila e envia sketch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.ino</span></p>
+
+<ul>
+  <li>Compila e envia sketch para um Arduino Nano com uma CPU Atmega328p, conectada na porta <code class="language-plaintext highlighter-rouge">/dev/ttyACM0</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --board </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arduino:avr:nano:cpu=atmega328p</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyACM0</span><code class="language-plaintext highlighter-rouge"> --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.ino</span></p>
+
+<ul>
+  <li>Define a preferência <code class="language-plaintext highlighter-rouge">nome</code> para um determinado <code class="language-plaintext highlighter-rouge">valor</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --pref </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span></p>
+
+<ul>
+  <li>Compila um sketch, coloca o resultado da compilação no diretório de compilação, e reutiliza qualquer resultado pre-existente neste diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --pref build.path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span><code class="language-plaintext highlighter-rouge"> --verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.ino</span></p>
+
+<ul>
+  <li>Salva todas as preferências (alteradas) para <code class="language-plaintext highlighter-rouge">preferences.txt</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --save-prefs</code></p>
+
+<ul>
+  <li>Instala a última placa SAM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --install-boards "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arduino:sam</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Instala bibliotecas Bridge e Servo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --install-library "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Bridge:1.0.0,Servo:1.2.0</span><code class="language-plaintext highlighter-rouge">"</code></p>

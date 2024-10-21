@@ -1,0 +1,22 @@
+<h1 id="addr2line">addr2line</h1>
+
+<p>Converte endereços de um binário em nomes de arquivos e números de linha.
+Mais informações: <a href="https://manned.org/addr2line">https://manned.org/addr2line</a>.</p>
+
+<ul>
+  <li>Exibe o nome do arquivo e o número da linha do código-fonte de um endereço de instrução de um executável:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">addr2line --exe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/executavel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endereco</span></p>
+
+<ul>
+  <li>Exibe o nome da função, nome do arquivo e número da linha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">addr2line --exe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/executavel</span><code class="language-plaintext highlighter-rouge"> --functions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endereco</span></p>
+
+<ul>
+  <li>Desembaraça o nome da função em código C++:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">addr2line --exe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/executavel</span><code class="language-plaintext highlighter-rouge"> --functions --demangle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endereco</span></p>

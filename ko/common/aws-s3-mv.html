@@ -1,0 +1,28 @@
+<h1 id="aws-s3-mv">aws s3 mv</h1>
+
+<p>로컬 파일이나 S3 객체를 로컬로 또는 S3의 다른 위치로 이동.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mv.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mv.html</a>.</p>
+
+<ul>
+  <li>로컬에서 지정된 버킷으로 파일 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 mv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로컬_파일</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원격_파일</span></p>
+
+<ul>
+  <li>특정 S3 객체를 다른 버킷으로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 mv s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름1</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름2</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표파일</span></p>
+
+<ul>
+  <li>특정 S3 객체를 원래 이름을 유지하는 다른 버킷으로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 mv s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름1</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름2</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 mv help</code></p>

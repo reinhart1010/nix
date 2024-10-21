@@ -1,0 +1,53 @@
+<h1 id="systemd-cryptenroll">systemd-cryptenroll</h1>
+
+<p>Interactively enroll or remove methods used to unlock LUKS2-encrypted devices. Uses a password to unlock the device unless otherwise specified.
+In order to allow a partition to be unlocked during system boot, update the <code class="language-plaintext highlighter-rouge">/etc/crypttab</code> file or the initramfs.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-cryptenroll.html">https://www.freedesktop.org/software/systemd/man/systemd-cryptenroll.html</a>.</p>
+
+<ul>
+  <li>Enroll a new password (similar to <code class="language-plaintext highlighter-rouge">cryptsetup luksAddKey</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptenroll --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/luks2_block_device</span></p>
+
+<ul>
+  <li>Enroll a new recovery key (i.e. a randomly generated passphrase that can be used as a fallback):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptenroll --recovery-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/luks2_block_device</span></p>
+
+<ul>
+  <li>List available tokens, or enroll a new PKCS#11 token:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptenroll --pkcs11-token-uri </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">list|auto|pkcs11_token_uri</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/luks2_block_device</span></p>
+
+<ul>
+  <li>List available FIDO2 devices, or enroll a new FIDO2 device (<code class="language-plaintext highlighter-rouge">auto</code> can be used as the device name when there is only one token plugged in):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptenroll --fido2-device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">list|auto|path/to/fido2_hidraw_device</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/luks2_block_device</span></p>
+
+<ul>
+  <li>Enroll a new FIDO2 device with user verification (biometrics):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptenroll --fido2-device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">auto|path/to/fido2_hidraw_device</span><code class="language-plaintext highlighter-rouge"> --fido2-with-user-verification yes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/luks2_block_device</span></p>
+
+<ul>
+  <li>Unlock using a FIDO2 device, and enroll a new FIDO2 device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptenroll --unlock-fido2-device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/fido2_hidraw_unlock_device</span><code class="language-plaintext highlighter-rouge"> --fido2-device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/fido2_hidraw_enroll_device</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/luks2_block_device</span></p>
+
+<ul>
+  <li>Enroll a TPM2 security chip (only secure-boot-policy PCR) and require an additional alphanumeric PIN:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptenroll --tpm2-device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">auto|path/to/tpm2_block_device</span><code class="language-plaintext highlighter-rouge"> --tpm2-with-pin yes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/luks2_block_device</span></p>
+
+<ul>
+  <li>Remove all empty passwords/all passwords/all FIDO2 devices/all PKCS#11 tokens/all TPM2 security chips/all recovery keys/all methods:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptenroll --wipe-slot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">empty|password|fido2|pkcs#11|tpm2|recovery|all</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/luks2_block_device</span></p>

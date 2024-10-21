@@ -1,0 +1,29 @@
+<h1 id="git-cherry-pick">git cherry-pick</h1>
+
+<p>Applica al ramo corrente le modifiche introdotte da commit esistenti.
+Per applicare le modifiche ad un altro ramo, usa prima <code class="language-plaintext highlighter-rouge">git checkout</code> per passare al ramo desiderato.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-cherry-pick">https://git-scm.com/docs/git-cherry-pick</a>.</p>
+
+<ul>
+  <li>Applica un commit al ramo corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Applica una sequenza di commit al ramo corrente (vedi anche <code class="language-plaintext highlighter-rouge">git rebase --onto</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_iniziale</span><code class="language-plaintext highlighter-rouge">~..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_finale</span></p>
+
+<ul>
+  <li>Applica un insieme di commit non sequenziali al ramo corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_1 commit_2 …</span></p>
+
+<ul>
+  <li>Aggiungi le modifiche introdotte da un commit alla directory di lavoro, ma senza creare un nuovo commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick --no-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

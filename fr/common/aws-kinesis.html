@@ -1,0 +1,40 @@
+<h1 id="aws-kinesis">aws kinesis</h1>
+
+<p>CLI officiel d'AWS pour les services de streaming d'Amazon Kinesis.
+Plus d'informations : <a href="https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis">https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis</a>.</p>
+
+<ul>
+  <li>Affiche tous les streams du compte :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis list-streams</code></p>
+
+<ul>
+  <li>Écris une entrée dans le stream Kinesis :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis put-record --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span><code class="language-plaintext highlighter-rouge"> --partition-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clé</span><code class="language-plaintext highlighter-rouge"> --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message_encodé_en_base64</span></p>
+
+<ul>
+  <li>Écris une entrée dans le stream Kinesis avec un encodage base64 inline :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis put-record --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span><code class="language-plaintext highlighter-rouge"> --partition-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clé</span><code class="language-plaintext highlighter-rouge"> --data "$( echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mon message</span><code class="language-plaintext highlighter-rouge">" | base64 )"</code></p>
+
+<ul>
+  <li>Liste tous les fragments disponible dans un stream :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis list-shards --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span></p>
+
+<ul>
+  <li>Récupère un fragment pour lire depuis le plus vieux message dans la stream de ce dernier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis get-shard-iterator --shard-iterator-type TRIM_HORIZON --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span><code class="language-plaintext highlighter-rouge"> --shard-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>Lis les entrées d'un fragment en utilisant un itérateur de fragment :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis get-records --shard-iterator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">itérateur</span></p>

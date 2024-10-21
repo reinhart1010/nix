@@ -1,0 +1,34 @@
+<h1 id="xattr">xattr</h1>
+
+<p>Utilidad para trabajar con atributos extendidos del sistema de ficheros.
+Más información: <a href="https://keith.github.io/xcode-man-pages/xattr.1.html">https://keith.github.io/xcode-man-pages/xattr.1.html</a>.</p>
+
+<ul>
+  <li>Lista atributos extendidos clave:valor para un archivo dado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Escribe un atributo para un archivo determinado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">atributo_clave</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">atributo_valor</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Elimina un atributo de un archivo determinado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.quarantine</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Elimina todos los atributos extendidos de un archivo determinado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Elimina recursivamente un atributo en un directorio determinado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -rd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_atributo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directorio</span></p>

@@ -1,0 +1,29 @@
+<h1 id="portageq">portageq</h1>
+
+<p>Query for information about Portage, the Gentoo Linux package manager.
+Queryable Portage-specific environment variables are listed in <code class="language-plaintext highlighter-rouge">/var/db/repos/gentoo/profiles/info_vars</code>.
+More information: <a href="https://wiki.gentoo.org/wiki/Portageq">https://wiki.gentoo.org/wiki/Portageq</a>.</p>
+
+<ul>
+  <li>Display the value of a Portage-specific environment variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">portageq envvar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Display a detailed list of repositories configured with Portage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">portageq repos_config /</code></p>
+
+<ul>
+  <li>Display a list of repositories sorted by priority (highest first):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">portageq get_repos /</code></p>
+
+<ul>
+  <li>Display a specific piece of metadata about an atom (i.e. package name including the version):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">portageq metadata / </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ebuild|porttree|binary|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">category</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">BDEPEND|DEFINED_PHASES|DEPEND|…</span></p>

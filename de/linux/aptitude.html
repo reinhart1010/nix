@@ -1,0 +1,52 @@
+<h1 id="aptitude">aptitude</h1>
+
+<p>Debian und Ubuntu Paket Management Tool.
+Weitere Informationen: <a href="https://manned.org/aptitude.8">https://manned.org/aptitude.8</a>.</p>
+
+<ul>
+  <li>Synchronisiere die Paketliste und verfügbaren Versionen. Dieser Command sollte zuerst ausgeführt werden bevor weitere aptitude Commands ausgeführt werden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude update</code></p>
+
+<ul>
+  <li>Installiere ein neues Paket und seine Abhängigkeiten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Suche nach einem Paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Suche nach einem installierten Paket (<code class="language-plaintext highlighter-rouge">?installed</code> ist ein aptitude Suchbegriff):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude search '?installed (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span><code class="language-plaintext highlighter-rouge">)'</code></p>
+
+<ul>
+  <li>Entferne ein Paket und alle Abhängigkeiten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Aktualisiere installierte Pakete auf die neusten Versionen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude upgrade</code></p>
+
+<ul>
+  <li>Aktualisiere installierte Pakete (wie <code class="language-plaintext highlighter-rouge">aptitude upgrade</code>), inklusive obsoleter Pakete und installiere zusätzliche Pakete um die neuen Paket-Abhängigkeiten zu erfüllen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude full-upgrade</code></p>
+
+<ul>
+  <li>Friere ein installiertes Paket ein und verhindere, dass es automatisch aktualisiert wird:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude hold '?installed(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span><code class="language-plaintext highlighter-rouge">)'</code></p>

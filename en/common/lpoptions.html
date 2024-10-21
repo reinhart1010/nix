@@ -1,0 +1,29 @@
+<h1 id="lpoptions">lpoptions</h1>
+
+<p>Display or set printer options and defaults.
+See also: <code class="language-plaintext highlighter-rouge">lpadmin</code>.
+More information: <a href="https://openprinting.github.io/cups/doc/man-lpoptions.html">https://openprinting.github.io/cups/doc/man-lpoptions.html</a>.</p>
+
+<ul>
+  <li>Set the default printer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpoptions -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer[/instance]</span></p>
+
+<ul>
+  <li>List printer-specific options of a specific printer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpoptions -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer</span><code class="language-plaintext highlighter-rouge"> -l</code></p>
+
+<ul>
+  <li>Set a new option on a specific printer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpoptions -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option</span></p>
+
+<ul>
+  <li>Remove the options of a specific printer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpoptions -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer</span><code class="language-plaintext highlighter-rouge"> -x</code></p>

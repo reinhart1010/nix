@@ -1,0 +1,46 @@
+<h1 id="aws-cloudwatch">aws cloudwatch</h1>
+
+<p>AWS 리소스를 모니터링하여 리소스 이용률, 애플리케이션 성능 및 운영 상태에 대한 시스템 전반적인 가시성 확보.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudwatch/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudwatch/index.html</a>.</p>
+
+<ul>
+  <li>대시보드 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch list-dashboards</code></p>
+
+<ul>
+  <li>지정한 대시보드의 세부 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch get-dashboard --dashboard-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대시보드_이름</span></p>
+
+<ul>
+  <li>메트릭 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch list-metrics</code></p>
+
+<ul>
+  <li>알람(경보) 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch describe-alarms</code></p>
+
+<ul>
+  <li>해당 매트릭과 연결된 알람 생성(또는 업데이트):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch put-metric-alarm --alarm-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">알람_이름</span><code class="language-plaintext highlighter-rouge"> --evaluation-periods </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">평가_주기</span><code class="language-plaintext highlighter-rouge"> --comparison-operator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비교_연산자</span></p>
+
+<ul>
+  <li>지정한 알람들 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch delete-alarms --alarm_names </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">알람_이름</span></p>
+
+<ul>
+  <li>지정한 대시보드들 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch delete-dashboards --dashboard-names </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대시보드_이름</span></p>

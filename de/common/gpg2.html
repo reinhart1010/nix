@@ -1,0 +1,47 @@
+<h1 id="gpg2">gpg2</h1>
+
+<p>GNU Privacy Guard 2.
+Siehe <code class="language-plaintext highlighter-rouge">gpg</code> für GNU Privacy Guard 1.
+Weitere Informationen: <a href="https://docs.releng.linuxfoundation.org/en/latest/gpg.html">https://docs.releng.linuxfoundation.org/en/latest/gpg.html</a>.</p>
+
+<ul>
+  <li>Liste alle importierten Schlüssel auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --list-keys</code></p>
+
+<ul>
+  <li>Verschlüssle eine bestimme Datei für einen bestimmten Empfänger und schreibe den Output in eine neue <code class="language-plaintext highlighter-rouge">.gpg</code> Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --encrypt --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hans@beispiel.de</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.txt</span></p>
+
+<ul>
+  <li>Verschlüssle eine bestimmte Datei nur mit einem Passwort und schreibe den Output in eine neue <code class="language-plaintext highlighter-rouge">.gpg</code> Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --symmetric </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.txt</span></p>
+
+<ul>
+  <li>Verschlüssle eine bestimmte Datei und schreibe das Ergebnis auf <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --decrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.txt.gpg</span></p>
+
+<ul>
+  <li>Importiere einen öffentlichen Schlüssel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/öffentlichem_schlüssel.gpg</span></p>
+
+<ul>
+  <li>Exportiere den öffentlichen Schlüssel einer bestimmten Email-Adresse nach STDOUT:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --export --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hans@beispiel.de</span></p>
+
+<ul>
+  <li>Exportiere den privaten Schlüssel einer bestimmten Email-Adresse nach STDOUT:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --export-secret-keys --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hans@beispiel.de</span></p>

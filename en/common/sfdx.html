@@ -1,0 +1,55 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="sfdx">sfdx</h1>
+
+<p>Command-line tool for development and build automation with a Salesforce organization.
+More information: <a href="https://developer.salesforce.com/tools/sfdxcli">https://developer.salesforce.com/tools/sfdxcli</a>.</p>
+
+<ul>
+  <li>Authorize a Salesforce Organization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfdx force:auth:web:login --setalias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization</span><code class="language-plaintext highlighter-rouge"> --instanceurl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization_url</span></p>
+
+<ul>
+  <li>List all authorized organizations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfdx force:org:list</code></p>
+
+<ul>
+  <li>Open a specific organization in the default web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfdx force:org:open --targetusername </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization</span></p>
+
+<ul>
+  <li>Display information about a specific organization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfdx force:org:display --targetusername </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization</span></p>
+
+<ul>
+  <li>Push source metadata to an Organization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfdx force:source:push --targetusername </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization</span></p>
+
+<ul>
+  <li>Pull source metadata from an Organization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfdx force:source:pull --targetusername </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization</span></p>
+
+<ul>
+  <li>Generate a password for the organization's logged-in user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfdx force:user:password:generate --targetusername </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization</span></p>
+
+<ul>
+  <li>Assign a permission set for the organization's logged-in user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfdx force:user:permset:assign --permsetname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">permission_set_name</span><code class="language-plaintext highlighter-rouge"> --targetusername </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization</span></p>

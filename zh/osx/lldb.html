@@ -1,0 +1,22 @@
+<h1 id="lldb">lldb</h1>
+
+<p>LLVM 低级调试器。
+更多信息：<a href="https://lldb.llvm.org/man/lldb.html">https://lldb.llvm.org/man/lldb.html</a>.</p>
+
+<ul>
+  <li>调试可执行文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lldb "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可执行的命令</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>将 <code class="language-plaintext highlighter-rouge">lldb</code> 附加到具有给定 PID 的正在运行的进程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lldb -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">进程号 PID</span></p>
+
+<ul>
+  <li>等待使用给定名称的进程启动，然后附加到该进程上：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lldb -w -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">进程名</span><code class="language-plaintext highlighter-rouge">"</code></p>

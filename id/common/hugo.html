@@ -1,0 +1,52 @@
+<h1 id="hugo">hugo</h1>
+
+<p>Penghasil situs web statis berbasis template. Menggunakan modul, komponen dan tema.
+Informasi lebih lanjut: <a href="https://gohugo.io">https://gohugo.io</a>.</p>
+
+<ul>
+  <li>Buat sebuah proyek situs web Hugo baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo new site </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/website</span></p>
+
+<ul>
+  <li>Buat sebuah proyek tema Hugo baru (tema juga dapat diunduh dari <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo new theme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_tema</span></p>
+
+<ul>
+  <li>Buat sebuah halaman situs web baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_bagian</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_halaman</span></p>
+
+<ul>
+  <li>Bangun situs web dari direktori sumber menuju direktori <code class="language-plaintext highlighter-rouge">./public</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo</code></p>
+
+<ul>
+  <li>Bangun situs web termasuk halaman yang ditandai sebagai "draft":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo --buildDrafts</code></p>
+
+<ul>
+  <li>Bangun situs web dengan untuk dijalankan pada alamat IP lokal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo server --bind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip-lokal</span><code class="language-plaintext highlighter-rouge"> --baseURL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://ip-lokal</span></p>
+
+<ul>
+  <li>Bangun situs web menuju direktori yang ditentukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo --destination </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/tujuan</span></p>
+
+<ul>
+  <li>Bangun situs web dan jalankan peladen (server) untuk menyajikannya, dengan memuat ulang saat terdapat halaman yang berubah:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo server</code></p>

@@ -1,0 +1,46 @@
+<h1 id="btrfs-check">btrfs check</h1>
+
+<p>Check or repair a btrfs filesystem.
+More information: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-check.html">https://btrfs.readthedocs.io/en/latest/btrfs-check.html</a>.</p>
+
+<ul>
+  <li>Check a btrfs filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Check and repair a btrfs filesystem (dangerous):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Show the progress of the check:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --progress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Verify the checksum of each data block (if the filesystem is good):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --check-data-csum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Use the <code class="language-plaintext highlighter-rouge">n</code>-th superblock (<code class="language-plaintext highlighter-rouge">n</code> can be 0, 1 or 2):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --super </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Rebuild the checksum tree:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair --init-csum-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Rebuild the extent tree:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair --init-extent-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>

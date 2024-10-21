@@ -1,0 +1,46 @@
+<h1 id="fclones">fclones</h1>
+
+<p>Eficaz buscador y eliminador de archivos duplicados.
+Más información: <a href="https://github.com/pkolaczk/fclones">https://github.com/pkolaczk/fclones</a>.</p>
+
+<ul>
+  <li>Busca ficheros duplicados en el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fclones group .</code></p>
+
+<ul>
+  <li>Busca archivos duplicados en varios directorios y almacena los resultados en la caché:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fclones group --cache </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio1 ruta/a/directorio2</span></p>
+
+<ul>
+  <li>Busca archivos duplicados solo en el directorio especificado, omitiendo los subdirectorios y guarda los resultados en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fclones group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span><code class="language-plaintext highlighter-rouge"> --depth 1 &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.txt</span></p>
+
+<ul>
+  <li>Mueve los archivos duplicados en un archivo de texto a un directorio diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fclones move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_objetivo</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.txt</span></p>
+
+<ul>
+  <li>Simula un enlace simbólico a un archivo de texto sin realmente enlazarlo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fclones link --soft &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.txt</span><code class="language-plaintext highlighter-rouge"> --dry-run 2&gt; /dev/null</code></p>
+
+<ul>
+  <li>Elimina los archivos duplicados más recientes en el directorio actual sin almacenarlos en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fclones group . | fclones remove --priority newest</code></p>
+
+<ul>
+  <li>Preprocesa los archivos JPEG en el directorio actual utilizando un comando externo para eliminar sus datos EXIF antes de buscar duplicados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fclones group . --name '*.jpg' -i --transform 'exiv2 -d a $IN' --in-place</code></p>

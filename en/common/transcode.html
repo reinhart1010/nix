@@ -1,0 +1,22 @@
+<h1 id="transcode">transcode</h1>
+
+<p>Transcode video and audio codecs, and convert between media formats.
+More information: <a href="https://manned.org/transcode">https://manned.org/transcode</a>.</p>
+
+<ul>
+  <li>Create stabilization file to be able to remove camera shakes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transcode -J stabilize -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>Remove camera shakes after creating stabilization file, transform video using XviD:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transcode -J transform -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span><code class="language-plaintext highlighter-rouge"> -y xvid -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span></p>
+
+<ul>
+  <li>Resize the video to 640x480 pixels and convert to MPEG4 codec using XviD:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transcode -Z 640x480 -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span><code class="language-plaintext highlighter-rouge"> -y xvid -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span></p>

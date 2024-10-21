@@ -1,0 +1,22 @@
+<h1 id="ssh-copy-id">ssh-copy-id</h1>
+
+<p>Install your public key in a remote machine's authorized_keys.
+More information: <a href="https://manned.org/ssh-copy-id">https://manned.org/ssh-copy-id</a>.</p>
+
+<ul>
+  <li>Copy your keys to the remote machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Copy the given public key to the remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/certificate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Copy the given public key to the remote with specific port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/certificate</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>

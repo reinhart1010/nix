@@ -1,0 +1,46 @@
+<h1 id="docker-swarm">docker swarm</h1>
+
+<p>Bir konteyner orkestrasyon aracı.
+Daha fazla bilgi için: <a href="https://docs.docker.com/engine/swarm/">https://docs.docker.com/engine/swarm/</a>.</p>
+
+<ul>
+  <li>Bir bataklık dizisi oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm init</code></p>
+
+<ul>
+  <li>Bir yönetici veya işçiye takılmak için token göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm join-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">işçi|yönetici</span></p>
+
+<ul>
+  <li>Diziye yeni bir düğüm ekle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm join --token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">manager_node_url:2377</span></p>
+
+<ul>
+  <li>Bir işçiyi bataklıktan sil (işçi düğümünün içinde çalıştır):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm leave</code></p>
+
+<ul>
+  <li>Mevcut CA sertifikasını PEM formatında görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm ca</code></p>
+
+<ul>
+  <li>Mevcut CA sertifikasını döndür ve yeni sertifikayı görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm ca --rotate</code></p>
+
+<ul>
+  <li>Düğüm sertifikaları için geçerli periyodu değiştir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm update --cert-expiry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">saat</span><code class="language-plaintext highlighter-rouge">h</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dakika</span><code class="language-plaintext highlighter-rouge">m</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">saniye</span><code class="language-plaintext highlighter-rouge">s</code></p>

@@ -1,0 +1,22 @@
+<h1 id="faketime">faketime</h1>
+
+<p>Fake the system time for a command.
+More information: <a href="https://manned.org/faketime">https://manned.org/faketime</a>.</p>
+
+<ul>
+  <li>Fake the time to this evening, before printing the result of <code class="language-plaintext highlighter-rouge">date</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">faketime '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">today 23:30</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">date</span></p>
+
+<ul>
+  <li>Open a new Bash shell, which uses yesterday as the current date:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">faketime '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yesterday</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash</span></p>
+
+<ul>
+  <li>Simulate how a program would act next Friday night:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">faketime '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">next Friday 1 am</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/program</span></p>

@@ -1,0 +1,34 @@
+<h1 id="for">for</h1>
+
+<p>Voer conditioneel een commando meerdere keren uit.
+Meer informatie: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/for">https://learn.microsoft.com/windows-server/administration/windows-commands/for</a>.</p>
+
+<ul>
+  <li>Voer de gegeven commando's uit voor de opgegeven set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_a item_b item_c</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop wordt uitgevoerd</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Itereer over een gegeven reeks nummers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for /l %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">van</span><code class="language-plaintext highlighter-rouge">, </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stap</span><code class="language-plaintext highlighter-rouge">, </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tot</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop wordt uitgevoerd</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Itereer over een gegeven lijst van bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand1.ext pad\naar\bestand2.ext …</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop wordt uitgevoerd</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Itereer over een gegeven lijst van directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for /d %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\directory1.ext pad\naar\directory2.ext …</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop wordt uitgevoerd</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Voer een gegeven commando uit in elke directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for /d %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge"> in (*) do (if exist %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop wordt uitgevoerd</span><code class="language-plaintext highlighter-rouge">)</code></p>

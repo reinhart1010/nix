@@ -1,0 +1,52 @@
+<h1 id="ftp">ftp</h1>
+
+<p>Outils permettant d'interagir avec un serveur avec le protocole FTP.
+Plus d'informations : <a href="https://manned.org/ftp">https://manned.org/ftp</a>.</p>
+
+<ul>
+  <li>Connexion à un serveur FTP :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp.exemple.com</span></p>
+
+<ul>
+  <li>Connexion à un serveur FTP en spécifiant son adresse IP et son port :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adresse_IP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Passe en mode de transfert binaire (médias, fichiers compressés, etc) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binary</code></p>
+
+<ul>
+  <li>Transfère plusieurs fichiers sans demander de confirmation pour chaque :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prompt off</code></p>
+
+<ul>
+  <li>Télécharge plusieurs fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.png</span></p>
+
+<ul>
+  <li>Téléverse plusieurs fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip</span></p>
+
+<ul>
+  <li>Supprime plusieurs fichiers sur le serveur distant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span></p>
+
+<ul>
+  <li>Renomme un fichier sur le serveur distant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_fichier</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_fichier</span></p>

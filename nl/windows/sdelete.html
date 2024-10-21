@@ -1,0 +1,28 @@
+<h1 id="sdelete">sdelete</h1>
+
+<p>Verwijder veilig een bestand/map van de schijf, of maak de vrije ruimte op een volume/fysieke schijf schoon.
+Meer informatie: <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete">https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete</a>.</p>
+
+<ul>
+  <li>Verwijder bestanden met 3 [p]asses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdelete -p 3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand1 pad\naar\bestand2 …</span></p>
+
+<ul>
+  <li>Verwijder mappen en de [s]ubmappen met 1 pass (default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdelete -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map1 pad\naar\map2 …</span></p>
+
+<ul>
+  <li>Maak de vrije ruimte schoon van volume D: met 3 [p]asses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdelete -p 3 D:</code></p>
+
+<ul>
+  <li>Maak de vrije ruimte schoon met nullen ([z]) van fysieke schijf 2, welke geen volumes meer mag bevatten die opgeschoond kunnen worden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdelete -z 2</code></p>

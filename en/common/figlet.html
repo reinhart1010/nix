@@ -1,0 +1,47 @@
+<h1 id="figlet">figlet</h1>
+
+<p>Generate ASCII banners from user input.
+See also: <code class="language-plaintext highlighter-rouge">showfigfonts</code>.
+More information: <a href="http://www.figlet.org/figlet-man.html">http://www.figlet.org/figlet-man.html</a>.</p>
+
+<ul>
+  <li>Generate by directly inputting text:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">figlet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_text</span></p>
+
+<ul>
+  <li>Use a custom [f]ont file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">figlet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_text</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/font_file.flf</span></p>
+
+<ul>
+  <li>Use a [f]ont from the default font directory (the extension can be omitted):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">figlet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_text</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">font_filename</span></p>
+
+<ul>
+  <li>Pipe command output through FIGlet:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | figlet</code></p>
+
+<ul>
+  <li>Show available FIGlet fonts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">showfigfonts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_string_to_display</span></p>
+
+<ul>
+  <li>Use the full width of the [t]erminal and [c]enter the input text:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">figlet -t -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_text</span></p>
+
+<ul>
+  <li>Display all characters at full [W]idth to avoid overlapping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">figlet -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_text</span></p>

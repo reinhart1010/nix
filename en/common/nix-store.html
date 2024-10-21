@@ -1,0 +1,41 @@
+<h1 id="nix-store">nix-store</h1>
+
+<p>Manipulate or query the Nix store.
+See also: <code class="language-plaintext highlighter-rouge">nix3 store</code>.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/nix-store.html">https://nixos.org/manual/nix/stable/command-ref/nix-store.html</a>.</p>
+
+<ul>
+  <li>Collect garbage, such as removing unused paths:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --gc</code></p>
+
+<ul>
+  <li>Hard-link identical files together to reduce space usage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --optimise</code></p>
+
+<ul>
+  <li>Delete a specific store path (must be unused):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span></p>
+
+<ul>
+  <li>Show all dependencies of a store path (package), in a tree format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --query --tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span></p>
+
+<ul>
+  <li>Calculate the total size of a certain store path with all the dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -cLsh $(nix-store --query --references </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Show all dependents of a particular store path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --query --referrers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span></p>

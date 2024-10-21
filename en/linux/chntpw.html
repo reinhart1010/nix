@@ -1,0 +1,23 @@
+<h1 id="chntpw">chntpw</h1>
+
+<p>A utility that can edit windows registry, reset user password, promote users to administrator by modifying the Windows SAM.
+Boot target machine with live cd like Kali Linux and run with elevated privileges.
+More information: <a href="https://pogostick.net/~pnh/ntpasswd">https://pogostick.net/~pnh/ntpasswd</a>.</p>
+
+<ul>
+  <li>List all users in the SAM file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chntpw -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/sam_file</span></p>
+
+<ul>
+  <li>Edit user interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chntpw -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/sam_file</span></p>
+
+<ul>
+  <li>Use chntpw interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chntpw -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/sam_file</span></p>

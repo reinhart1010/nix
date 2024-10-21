@@ -1,0 +1,41 @@
+<h1 id="fd">fd</h1>
+
+<p>Uma alternativa para <code class="language-plaintext highlighter-rouge">find</code>.
+Visa ser mais rápido e fácil de usar do que <code class="language-plaintext highlighter-rouge">find</code>.
+Mais informações: <a href="https://github.com/sharkdp/fd">https://github.com/sharkdp/fd</a>.</p>
+
+<ul>
+  <li>Encontra recursivamente arquivos que correspondam ao padrão fornecido no diretório atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão|regex</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Encontra arquivos que começam com <code class="language-plaintext highlighter-rouge">foo</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "^foo"</code></p>
+
+<ul>
+  <li>Encontra arquivos com uma extensão específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd --extension txt</code></p>
+
+<ul>
+  <li>Encontra arquivos em um diretório específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão|regex</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Inclui arquivos ignorados e ocultos na pesquisa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd --hidden --no-ignore "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão|regex</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Executa um comando em cada resultado de pesquisa retornado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão|regex</span><code class="language-plaintext highlighter-rouge">" --exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>

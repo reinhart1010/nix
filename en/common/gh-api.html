@@ -1,0 +1,52 @@
+<h1 id="gh-api">gh api</h1>
+
+<p>Make authenticated HTTP requests to the GitHub API and print the response.
+More information: <a href="https://cli.github.com/manual/gh_api">https://cli.github.com/manual/gh_api</a>.</p>
+
+<ul>
+  <li>Display the releases for the current repository in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh api repos/:owner/:repo/releases</code></p>
+
+<ul>
+  <li>Create a reaction for a specific issue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh api --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Accept:application/vnd.github.squirrel-girl-preview+json</span><code class="language-plaintext highlighter-rouge"> --raw-field '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">content=+1</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repos/:owner/:repo/issues/123/reactions</span></p>
+
+<ul>
+  <li>Display the result of a GraphQL query in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh api graphql --field </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name=':repo'</span><code class="language-plaintext highlighter-rouge"> --raw-field '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Send a request using a custom HTTP method:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh api --method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POST</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endpoint</span></p>
+
+<ul>
+  <li>Include the HTTP response headers in the output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh api --include </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endpoint</span></p>
+
+<ul>
+  <li>Do not print the response body:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh api --silent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endpoint</span></p>
+
+<ul>
+  <li>Send a request to a specific GitHub Enterprise Server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh api --hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github.example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endpoint</span></p>
+
+<ul>
+  <li>Display the subcommand help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh api --help</code></p>

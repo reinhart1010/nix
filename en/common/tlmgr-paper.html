@@ -1,0 +1,40 @@
+<h1 id="tlmgr-paper">tlmgr paper</h1>
+
+<p>Manage paper size options of an TeX Live installation.
+More information: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>Show the default paper size used by all TeX Live programs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr paper</code></p>
+
+<ul>
+  <li>Set the default paper size for all TeX Live programs to A4:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr paper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a4</span></p>
+
+<ul>
+  <li>Show the default paper size used by a specific TeX Live program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdftex</span><code class="language-plaintext highlighter-rouge"> paper</code></p>
+
+<ul>
+  <li>Set the default paper size for a specific TeX Live program to A4:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdftex</span><code class="language-plaintext highlighter-rouge"> paper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a4</span></p>
+
+<ul>
+  <li>List all available paper sizes for a specific TeX Live program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdftex</span><code class="language-plaintext highlighter-rouge"> paper --list</code></p>
+
+<ul>
+  <li>Dump the default paper size used by all TeX Live programs in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr paper --json</code></p>

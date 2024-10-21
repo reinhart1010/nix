@@ -1,0 +1,46 @@
+<h1 id="choco-source">choco source</h1>
+
+<p>Manage sources for packages with Chocolatey.
+More information: <a href="https://chocolatey.org/docs/commands-source">https://chocolatey.org/docs/commands-source</a>.</p>
+
+<ul>
+  <li>List currently available sources:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source list</code></p>
+
+<ul>
+  <li>Add a new package source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Add a new package source with credentials:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Add a new package source with a client certificate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\certificate_file</span></p>
+
+<ul>
+  <li>Enable a package source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source enable --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Disable a package source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source disable --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Remove a package source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source remove --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

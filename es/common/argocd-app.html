@@ -1,0 +1,52 @@
+<h1 id="argocd-app">argocd app</h1>
+
+<p>Interfaz de línea de comandos para gestionar aplicaciones por CD Argo.
+Más información: <a href="https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app/">https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app/</a>.</p>
+
+<ul>
+  <li>Lista aplicaciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app list --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|yaml|wide</span></p>
+
+<ul>
+  <li>Obtén los detalles de la aplicación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_aplicacion</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|yaml|wide</span></p>
+
+<ul>
+  <li>Despliega la aplicación internamente (en el mismo clúster en el que se ejecuta Argo CD):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_aplicación</span><code class="language-plaintext highlighter-rouge"> --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git_repo_url</span><code class="language-plaintext highlighter-rouge"> --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/repo</span><code class="language-plaintext highlighter-rouge"> --dest-server https://kubernetes.default.svc --dest-namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ns</span></p>
+
+<ul>
+  <li>Elimina una aplicación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_aplicación</span></p>
+
+<ul>
+  <li>Activa la sincronización automática de aplicaciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_aplicacion</span><code class="language-plaintext highlighter-rouge"> --sync-policy auto --auto-prune --self-heal</code></p>
+
+<ul>
+  <li>Previsualiza la sincronización de aplicaciones sin afectar al clúster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_aplicacion</span><code class="language-plaintext highlighter-rouge"> --dry-run --prune</code></p>
+
+<ul>
+  <li>Muestra el historial de despliegue de aplicaciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app history </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_aplicacion</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wide|id</span></p>
+
+<ul>
+  <li>Retrocede la aplicación a una versión anterior desplegada por ID de historial (eliminando recursos inesperados):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app rollback </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_aplicacion</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_historial</span><code class="language-plaintext highlighter-rouge"> --prune</code></p>

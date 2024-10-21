@@ -1,0 +1,34 @@
+<h1 id="whence">whence</h1>
+
+<p>A Zsh builtin to indicate how a command would be interpreted.
+More information: <a href="https://keith.github.io/xcode-man-pages/whence.1.html">https://keith.github.io/xcode-man-pages/whence.1.html</a>.</p>
+
+<ul>
+  <li>Interpret <code class="language-plaintext highlighter-rouge">command</code>, with expansion if defined as an <code class="language-plaintext highlighter-rouge">alias</code> (similar to the <code class="language-plaintext highlighter-rouge">command -v</code> builtin):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whence "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display type of <code class="language-plaintext highlighter-rouge">command</code>, with location if defined as a function, or binary (equivalent to the <code class="language-plaintext highlighter-rouge">type</code> and <code class="language-plaintext highlighter-rouge">command -V</code> builtins):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whence -v "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Same as above, except display content of shell functions instead of location (equivalent to <code class="language-plaintext highlighter-rouge">which</code> builtin):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whence -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Same as above, but show all occurrences on command path (equivalent to the <code class="language-plaintext highlighter-rouge">where</code> builtin):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whence -ca "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Search only the <code class="language-plaintext highlighter-rouge">PATH</code> for <code class="language-plaintext highlighter-rouge">command</code>, ignoring builtins, aliases or shell functions (equivalent to the <code class="language-plaintext highlighter-rouge">where</code> command):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whence -p "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="reg-flags">reg flags</h1>
+
+<p>显示或设置注册表键的标志。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-flags">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-flags</a>.</p>
+
+<ul>
+  <li>显示当前指定键的标志：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg flags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span><code class="language-plaintext highlighter-rouge"> query</code></p>
+
+<ul>
+  <li>显示帮助和可用的标志类型：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg flags /?</code></p>
+
+<ul>
+  <li>为特定键设置指定以空格分隔的标志，并取消设置未提及的标志：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg flags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span><code class="language-plaintext highlighter-rouge"> set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">标志 1 标志 2 ..</span></p>
+
+<ul>
+  <li>为指定的键和其子键设置标志：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg flags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span><code class="language-plaintext highlighter-rouge"> set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">标志</span><code class="language-plaintext highlighter-rouge"> /s</code></p>

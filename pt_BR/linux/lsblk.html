@@ -1,0 +1,52 @@
+<h1 id="lsblk">lsblk</h1>
+
+<p>Lista informações sobre dispositivos.
+Mais informações: <a href="https://manned.org/lsblk">https://manned.org/lsblk</a>.</p>
+
+<ul>
+  <li>Lista todos dispositivos de armazenamento no formato de árvore:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk</code></p>
+
+<ul>
+  <li>Também lista dispositivos vazios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -a</code></p>
+
+<ul>
+  <li>Mostra a coluna de tamanhos em bytes, em vez de um formato legível por humanos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -b</code></p>
+
+<ul>
+  <li>Mostra na saída padrão informações sobre os filesystems dos dispositivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -f</code></p>
+
+<ul>
+  <li>Utiliza caracteres ASCII para o formato de árvore:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -i</code></p>
+
+<ul>
+  <li>Mostra na saída padrão informações sobre block-device topology:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -t</code></p>
+
+<ul>
+  <li>Excluír da saída padrão os dispositivos específicados por seus repectivos números separados por vírgulas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,7,…</span></p>
+
+<ul>
+  <li>Mostra um resumo de forma customizada passando as colunas separadas por vírgulas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,…</span></p>

@@ -1,0 +1,28 @@
+<h1 id="ansible-pull">ansible-pull</h1>
+
+<p>Extrae playbooks ansible de un repositorio VCS y los ejecuta para el host local.
+Más información: <a href="https://docs.ansible.com/ansible/latest/cli/ansible-pull.html">https://docs.ansible.com/ansible/latest/cli/ansible-pull.html</a>.</p>
+
+<ul>
+  <li>Extrae un playbook de un VCS y ejecuta local.yml del playbook por defecto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repositorio</span></p>
+
+<ul>
+  <li>Extrae un playbook de un VCS y ejecuta un playbook específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repositorio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span></p>
+
+<ul>
+  <li>Extrae un playbook de un VCS en una rama determinada y ejecuta un playbook específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repositorio</span><code class="language-plaintext highlighter-rouge"> -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span></p>
+
+<ul>
+  <li>Extrae un playbook de un VCS, en tanto especificando un archivo hosts y ejecuta un playbook específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repositorio</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_hosts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span></p>

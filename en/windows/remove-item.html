@@ -1,0 +1,41 @@
+<h1 id="remove-item">Remove-Item</h1>
+
+<p>Delete files, folders, as well as registry keys and subkeys.
+This command can only be run through PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.management/remove-item">https://learn.microsoft.com/powershell/module/microsoft.powershell.management/remove-item</a>.</p>
+
+<ul>
+  <li>Remove specific files or registry keys (without subkeys):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_key1 , path\to\file_or_key2 …</span></p>
+
+<ul>
+  <li>Remove hidden or read-only files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1 , path\to\file2 …</span></p>
+
+<ul>
+  <li>Remove specific files or registry keys interactively prompting before each removal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Confirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_key1 , path\to\file_or_key2 …</span></p>
+
+<ul>
+  <li>Remove specific files and directories recursively (Windows 10 version 1909 or later):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Recurse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory1 , path\to\file_or_directory2 …</span></p>
+
+<ul>
+  <li>Remove specific Windows registry keys and all its subkeys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Recurse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\key1 , path\to\key2 …</span></p>
+
+<ul>
+  <li>Perform a dry run of the deletion process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -WhatIf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1 , path\to\file2 …</span></p>

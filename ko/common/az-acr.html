@@ -1,0 +1,53 @@
+<h1 id="az-acr">az acr</h1>
+
+<p>Azure Container Registries를 사용해 프라이빗 레지스트리를 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/acr">https://learn.microsoft.com/cli/azure/acr</a>.</p>
+
+<ul>
+  <li>관리형 컨테이너 레지스트리를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az acr create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레지스트리_이름</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --sku </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sku</span></p>
+
+<ul>
+  <li>레지스트리에 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az acr login --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레지스트리_이름</span></p>
+
+<ul>
+  <li>ACR용 로컬 이미지에 태그를 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레지스트리_이름</span><code class="language-plaintext highlighter-rouge">.azurecr.io/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span></p>
+
+<ul>
+  <li>이미지를 레지스트리에 푸시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레지스트리_이름</span><code class="language-plaintext highlighter-rouge">.azurecr.io/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span></p>
+
+<ul>
+  <li>레지스트리에서 이미지를 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레지스트리_이름</span><code class="language-plaintext highlighter-rouge">.azurecr.io/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span></p>
+
+<ul>
+  <li>레지스트리에서 이미지 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az acr repository delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레지스트리_이름</span><code class="language-plaintext highlighter-rouge"> --repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span></p>
+
+<ul>
+  <li>관리형 컨테이너 레지스트리를 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az acr delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레지스트리_이름</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --yes</code></p>
+
+<ul>
+  <li>레지스트리 내의 이미지 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az acr repository list --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레지스트리_이름</span><code class="language-plaintext highlighter-rouge"> --output table</code></p>

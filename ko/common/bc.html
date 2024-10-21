@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="bc">bc</h1>
+
+<p>계산기의 기능을 수행합니다.
+더 많은 정보: <a href="https://manned.org/bc">https://manned.org/bc</a>.</p>
+
+<ul>
+  <li>표준 Math 라이브러리를 사용한 대화형 모드에서 계산기 실행하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc -l</code></p>
+
+<ul>
+  <li>계산 결과 표현법:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc &lt;&lt;&lt; "(1 + 2) * 2 ^ 2"</code></p>
+
+<ul>
+  <li>계산 및 표현되는 소수 자릿수를 10으로 지정하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc &lt;&lt;&lt; "scale=10; 5 / 3"</code></p>
+
+<ul>
+  <li>mathlib를 사용하여 sin 및 cosine의 계산식 표현하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc -l &lt;&lt;&lt; "s(1) + c(1)"</code></p>

@@ -1,0 +1,34 @@
+<h1 id="doctl-databases-replica">doctl databases replica</h1>
+
+<p>Manage read-only replicas associated with a database cluster.
+More information: <a href="https://docs.digitalocean.com/reference/doctl/reference/databases/replica/">https://docs.digitalocean.com/reference/doctl/reference/databases/replica/</a>.</p>
+
+<ul>
+  <li>Run a <code class="language-plaintext highlighter-rouge">doctl databases replica</code> command with an access token:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases pool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access_token</span></p>
+
+<ul>
+  <li>Retrieve information about a read-only database replica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases replica get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replica_name</span></p>
+
+<ul>
+  <li>Retrieve list of read-only database replicas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases replica list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span></p>
+
+<ul>
+  <li>Create a read-only database replica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases replica create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replica_name</span></p>
+
+<ul>
+  <li>Delete a read-only database replica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases replica delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replica_name</span></p>

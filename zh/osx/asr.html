@@ -1,0 +1,29 @@
+<h1 id="asr">asr</h1>
+
+<p>将磁盘映像还原（复制）到卷上。
+命令名称是 Apple Software Restore 的缩写。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/asr.8.html">https://keith.github.io/xcode-man-pages/asr.8.html</a>.</p>
+
+<ul>
+  <li>将磁盘映像复制到目标卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">映像名.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">卷路径</span></p>
+
+<ul>
+  <li>在复制之前擦除目标卷：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">映像名.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">卷路径</span><code class="language-plaintext highlighter-rouge"> --erase</code></p>
+
+<ul>
+  <li>恢复后跳过验证步骤：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">映像名.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">卷路径</span><code class="language-plaintext highlighter-rouge"> --noverify</code></p>
+
+<ul>
+  <li>不使用中间磁盘映像直接复制卷中的数据：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">卷路径</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">复制卷路径</span></p>

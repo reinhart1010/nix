@@ -1,0 +1,52 @@
+<h1 id="docker-compose">docker compose</h1>
+
+<p>बहु कन्टेनर डकर अनुप्रयोगहरू चलाउनुहोस् र व्यवस्थापन गर्नुहोस्।
+थप जानकारी: <a href="https://docs.docker.com/reference/cli/docker/compose/">https://docs.docker.com/reference/cli/docker/compose/</a>।</p>
+
+<ul>
+  <li>सबै चलिरहेको कन्टेनरहरू सूचीबद्ध गर्नुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose ps</code></p>
+
+<ul>
+  <li>हालको डाइरेक्टरीबाट <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> फाइल प्रयोग गरेर पृष्ठभूमिमा सबै कन्टेनरहरू सिर्जना गर्नुहोस् र सुरु गर्नुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose up --detach</code></p>
+
+<ul>
+  <li>सबै कन्टेनरहरू सुरु गर्नुहोस्, आवश्यक भएमा पुन: निर्माण गर्नुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose up --build</code></p>
+
+<ul>
+  <li>प्रोजेक्तको नाम निर्दिष्ट गरेर र वैकल्पिक रचना फाइल प्रयोग गरेर सबै कन्टेनरहरू सुरु गर्नुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">परियोजनाको_नाम</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/को/पथ</span><code class="language-plaintext highlighter-rouge"> up</code></p>
+
+<ul>
+  <li>चलिरहेको सबै कन्टेनरहरू रोक्नुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose stop</code></p>
+
+<ul>
+  <li>सबै कन्टेनरहरू, नेटवर्कहरू, छविहरू, र भोल्युमहरू हटाउनुहोस् र रोक्नुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose down --rmi all --volumes</code></p>
+
+<ul>
+  <li>सबै कन्टेनरहरूको लागि लगहरू फलो गर्नुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose logs --follow</code></p>
+
+<ul>
+  <li>विशेष कन्टेनरको लागि लगहरू पछ्याउनुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose logs --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">कन्टेनर_नाम</span></p>

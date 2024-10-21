@@ -1,0 +1,22 @@
+<h1 id="git-cat-file">git cat-file</h1>
+
+<p>Dapatkan informasi konten atau jenis dan ukuran untuk objek repositori Git.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-cat-file">https://git-scm.com/docs/git-cat-file</a>.</p>
+
+<ul>
+  <li>Dapatkan ukuran ([s]ize) untuk komit terkini (HEAD), dalam hitungan bita/byte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -s HEAD</code></p>
+
+<ul>
+  <li>Dapatkan [t]ipe yang direferensikan dalam suatu objek Git (seperti blob, tree, komit, atau tag):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8c442dc3</span></p>
+
+<ul>
+  <li>Cetak isi objek Git yang diberikan berdasarkan jenisnya, dalam format yang mudah dibaca manusia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~2</span></p>

@@ -1,0 +1,16 @@
+<h1 id="spfquery">spfquery</h1>
+
+<p>Query Sender Policy Framework records to validate e-mail senders.
+More information: <a href="https://manned.org/spfquery">https://manned.org/spfquery</a>.</p>
+
+<ul>
+  <li>Check if an IP address is allowed to send an e-mail from the specified e-mail address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spfquery -ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span><code class="language-plaintext highlighter-rouge"> -sender </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sender@example.com</span></p>
+
+<ul>
+  <li>Turn on debugging output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spfquery -ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span><code class="language-plaintext highlighter-rouge"> -sender </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sender@example.com</span><code class="language-plaintext highlighter-rouge"> --debug</code></p>

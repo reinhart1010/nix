@@ -1,0 +1,52 @@
+<h1 id="aws-ce">aws ce</h1>
+
+<p>Ejecuta operaciones de gestión de costos a través del servicio AWS Cost Explorer.
+Más información: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html</a>.</p>
+
+<ul>
+  <li>Crea monitor de anomalías:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce create-anomaly-monitor --monitor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_monitor</span><code class="language-plaintext highlighter-rouge"> --monitor-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo_monitor</span></p>
+
+<ul>
+  <li>Crea suscripción de anomalías:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce create-anomaly-subscription --subscription </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_suscripción</span><code class="language-plaintext highlighter-rouge"> --monitor-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_arn</span><code class="language-plaintext highlighter-rouge"> --subscribers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suscriptores</span></p>
+
+<ul>
+  <li>Obtiene anomalías:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce get-anomalies --monitor-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_arn</span><code class="language-plaintext highlighter-rouge"> --start-time </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hora_de_inicio</span><code class="language-plaintext highlighter-rouge"> --end-time </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hora_final</span></p>
+
+<ul>
+  <li>Obtiene coste y uso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce get-cost-and-usage --time-period </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fecha_inicio</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fecha_final</span><code class="language-plaintext highlighter-rouge"> --granularity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">granularidad</span><code class="language-plaintext highlighter-rouge"> --metrics </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">métricas</span></p>
+
+<ul>
+  <li>Obtiene previsión de costes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce get-cost-forecast --time-period </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fecha_inicio</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fecha_final</span><code class="language-plaintext highlighter-rouge"> --granularity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">granularidad</span><code class="language-plaintext highlighter-rouge"> --metric </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">métrica</span></p>
+
+<ul>
+  <li>Obtiene la utilización de la reserva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce get-reservation-utilization --time-period </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fecha_inicio</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fecha_final</span><code class="language-plaintext highlighter-rouge"> --granularity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">granularidad</span></p>
+
+<ul>
+  <li>Lista de definiciones de categorías de costes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce list-cost-category-definitions</code></p>
+
+<ul>
+  <li>Recurso de etiquetas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce tag-resource --resource-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recurso_arn</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiquetas</span></p>

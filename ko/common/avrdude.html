@@ -1,0 +1,28 @@
+<h1 id="avrdude">avrdude</h1>
+
+<p>Atmel AVR 마이크로 컨트롤러 프로그래밍을 위한 드라이버 프로그램.
+더 많은 정보: <a href="https://www.nongnu.org/avrdude/">https://www.nongnu.org/avrdude/</a>.</p>
+
+<ul>
+  <li>AVR 마이크로 컨트롤러 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AVR_device</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmer</span><code class="language-plaintext highlighter-rouge"> -U flash:r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.hex</span><code class="language-plaintext highlighter-rouge">:i</code></p>
+
+<ul>
+  <li>AVR 마이크로 컨트롤러 쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AVR_device</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmer</span><code class="language-plaintext highlighter-rouge"> -U flash:w:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.hex</span></p>
+
+<ul>
+  <li>사용 가능한 AVR 장치 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p \?</code></p>
+
+<ul>
+  <li>사용 가능한 AVR 프로그래머 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -c \?</code></p>

@@ -1,0 +1,41 @@
+<h1 id="duc">duc</h1>
+
+<p>Een verzameling van tools voor het indexeren, inspecteren en visualiseren van schijfgebruik.
+Duc onderhoudt een database van geaccumuleerde groottes van directories van het bestandssysteem, waardoor je deze database kunt raadplegen of mooie grafieken kunt maken om te laten zien waar de data zich bevindt.
+Meer informatie: <a href="http://duc.zevv.nl">http://duc.zevv.nl</a>.</p>
+
+<ul>
+  <li>Indexeer de /usr directory en schrijf naar de standaard database locatie ~/.duc.db:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr</span></p>
+
+<ul>
+  <li>Toon alle bestanden en directories onder /usr/local en toon relatieve bestandsgroottes in een [g]rafiek:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc ls -Fg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/local</span></p>
+
+<ul>
+  <li>Toon alle bestanden en directories onder /usr/local recursief met behulp van boomweergave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc ls -Fg -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/local</span></p>
+
+<ul>
+  <li>Start de grafische interface om het bestandssysteem te verkennen met behulp van zonnestraalgrafieken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc gui </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr</span></p>
+
+<ul>
+  <li>Start de ncurses console interface om het bestandssysteem te verkennen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc ui </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr</span></p>
+
+<ul>
+  <li>Dump database-informatie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc info</code></p>

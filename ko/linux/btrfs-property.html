@@ -1,0 +1,34 @@
+<h1 id="btrfs-property">btrfs property</h1>
+
+<p>BTRFS 파일 시스템 객체(파일, 디렉터리, 서브볼륨, 파일 시스템 또는 장치)에 대한 속성을 가져오거나 설정하거나 나열합니다.
+더 많은 정보: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-property.html">https://btrfs.readthedocs.io/en/latest/btrfs-property.html</a>.</p>
+
+<ul>
+  <li>주어진 btrfs 객체에 대해 사용 가능한 속성(및 설명)을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs property list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_객체</span></p>
+
+<ul>
+  <li>주어진 btrfs 객체의 모든 속성을 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs property get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_객체</span></p>
+
+<ul>
+  <li>주어진 btrfs 파일 시스템 또는 장치의 <code class="language-plaintext highlighter-rouge">label</code> 속성을 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs property get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_파일시스템</span><code class="language-plaintext highlighter-rouge"> label</code></p>
+
+<ul>
+  <li>주어진 btrfs 파일 시스템 또는 장치의 모든 객체 유형별 속성을 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs property get -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subvol|filesystem|inode|device</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_파일시스템</span></p>
+
+<ul>
+  <li>주어진 btrfs inode(파일 또는 디렉터리)의 <code class="language-plaintext highlighter-rouge">compression</code> 속성을 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs property set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_inode</span><code class="language-plaintext highlighter-rouge"> compression </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zstd|zlib|lzo|none</span></p>

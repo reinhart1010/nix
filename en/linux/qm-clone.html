@@ -1,0 +1,40 @@
+<h1 id="qm-clone">qm clone</h1>
+
+<p>Create a copy of virtual machine on QEMU/KVM Virtual Machine Manager.
+More information: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Copy a virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_vm_id</span></p>
+
+<ul>
+  <li>Copy a virtual machine using a specific name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_vm_id</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Copy a virtual machine using a specific descriptionn:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_vm_id</span><code class="language-plaintext highlighter-rouge"> --description </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">description</span></p>
+
+<ul>
+  <li>Copy a virtual machine creating a full copy of all disks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_vm_id</span><code class="language-plaintext highlighter-rouge"> --full</code></p>
+
+<ul>
+  <li>Copy a virtual machine using a specific format for file storage (requires <code class="language-plaintext highlighter-rouge">--full</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_vm_id</span><code class="language-plaintext highlighter-rouge"> --full --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">qcow2|raw|vmdk</span></p>
+
+<ul>
+  <li>Copy a virtual machine then add it to a specific pool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_vm_id</span><code class="language-plaintext highlighter-rouge"> --pool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name</span></p>

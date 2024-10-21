@@ -1,0 +1,52 @@
+<h1 id="vboxmanage-controlvm">vboxmanage-controlvm</h1>
+
+<p>Change the state and the settings of a currently running virtual machine.
+More information: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-controlvm">https://www.virtualbox.org/manual/ch08.html#vboxmanage-controlvm</a>.</p>
+
+<ul>
+  <li>Temporarily stop the execution of a virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage controlvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid|vm_name</span><code class="language-plaintext highlighter-rouge"> pause</code></p>
+
+<ul>
+  <li>Resume the execution of a paused virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage controlvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid|vm_name</span><code class="language-plaintext highlighter-rouge"> resume</code></p>
+
+<ul>
+  <li>Perform a cold reset on the virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage controlvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid|vm_name</span><code class="language-plaintext highlighter-rouge"> reset</code></p>
+
+<ul>
+  <li>Poweroff a virtual machine with the same effect as pulling the power cable of a computer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage controlvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid|vm_name</span><code class="language-plaintext highlighter-rouge"> poweroff</code></p>
+
+<ul>
+  <li>Shutdown the virtual machine and save its current state:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage controlvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid|vm_name</span><code class="language-plaintext highlighter-rouge"> savestate</code></p>
+
+<ul>
+  <li>Send an ACPI (Advanced Configuration and Power Interface) shutdown signal to the virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage controlvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid|vm_name</span><code class="language-plaintext highlighter-rouge"> acpipowerbutton</code></p>
+
+<ul>
+  <li>Send command to reboot itself to the guest OS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage controlvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid|vm_name</span><code class="language-plaintext highlighter-rouge"> reboot</code></p>
+
+<ul>
+  <li>Shutdown down the virtual machine without saving its state:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage controlvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid|vm_name</span><code class="language-plaintext highlighter-rouge"> shutdown</code></p>

@@ -1,0 +1,23 @@
+<h1 id="grub-bios-setup">grub-bios-setup</h1>
+
+<p>Set up a device to use GRUB with a BIOS configuration.
+You should use <code class="language-plaintext highlighter-rouge">grub-install</code> instead of <code class="language-plaintext highlighter-rouge">grub-bios-setup</code> in most cases.
+More information: <a href="https://manned.org/grub-bios-setup.8">https://manned.org/grub-bios-setup.8</a>.</p>
+
+<ul>
+  <li>Set up a device to boot with GRUB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-bios-setup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Install even if problems are detected:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-bios-setup --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Install GRUB in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-bios-setup --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/boot/grub</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>

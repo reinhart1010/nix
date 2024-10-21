@@ -1,0 +1,35 @@
+<h1 id="astyle">astyle</h1>
+
+<p>Indentador, formateador y embellecedor de código fuente para los lenguajes de programación C, C++, C# y Java.
+Al ejecutarse, se crea una copia del archivo original con un ".orig" añadido al nombre del archivo original.
+Más información: <a href="https://astyle.sourceforge.net">https://astyle.sourceforge.net</a>.</p>
+
+<ul>
+  <li>Aplica el estilo por defecto de 4 espacios por sangría y sin cambios de formato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_de_origen</span></p>
+
+<ul>
+  <li>Aplica el estilo Java con llaves adjuntas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --style=java </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Aplica el estilo allman con llaves discontinuas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --style=allman </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Aplica una sangría personalizada utilizando espacios. Elige entre 2 y 20 espacios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --indent=spaces=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_espacios</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Aplica una sangría personalizada utilizando tabuladores. Elige entre 2 y 20 tabulaciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --indent=tab=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_pestañas</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

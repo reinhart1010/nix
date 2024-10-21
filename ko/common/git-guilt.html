@@ -1,0 +1,41 @@
+<h1 id="git-guilt">git guilt</h1>
+
+<p>스테이지되지 않은 변경 사항이 있는 파일에 대한 전체 블레임 수를 표시하거나 두 개의 리비전 간 블레임 변경을 계산.
+<code class="language-plaintext highlighter-rouge">git-extras</code>의 일부.
+더 많은 정보: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-guilt">https://github.com/tj/git-extras/blob/master/Commands.md#git-guilt</a>.</p>
+
+<ul>
+  <li>전체 블레임 수 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt</code></p>
+
+<ul>
+  <li>두 개의 리비전 간 블레임 변경 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">첫번째_리비전</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마지막_리비전</span></p>
+
+<ul>
+  <li>작성자 이메일을 이름 대신 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt --email</code></p>
+
+<ul>
+  <li>블레임을 할당할 때 공백만 변경된 부분 무시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt --ignore-whitespace</code></p>
+
+<ul>
+  <li>지난 3주 동안의 블레임 델타 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt 'git log --until="3 weeks ago" --format="%H" -n 1'</code></p>
+
+<ul>
+  <li>지난 3주 동안의 블레임 델타 찾기 (git 1.8.5+):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt @{3.weeks.ago}</code></p>

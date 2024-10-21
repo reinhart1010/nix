@@ -1,0 +1,16 @@
+<h1 id="systemd-cat">systemd-cat</h1>
+
+<p>Connect a pipeline or program's output streams with the systemd journal.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-cat.html">https://www.freedesktop.org/software/systemd/man/systemd-cat.html</a>.</p>
+
+<ul>
+  <li>Write the output of the specified command to the journal (both output streams are captured):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Write the output of a pipeline to the journal (<code class="language-plaintext highlighter-rouge">stderr</code> stays connected to the terminal):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | systemd-cat</code></p>

@@ -1,0 +1,22 @@
+<h1 id="cgclassify">cgclassify</h1>
+
+<p>Verplaats lopende taken naar opgegeven <code class="language-plaintext highlighter-rouge">cgroups</code>.
+Meer informatie: <a href="https://manned.org/cgclassify">https://manned.org/cgclassify</a>.</p>
+
+<ul>
+  <li>Verplaats het proces met een specifiek PID naar de controle groep student in de CPU hierarchie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cgclassify -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu:student</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span></p>
+
+<ul>
+  <li>Verplaats het proces met een specifiek PID naar de controle groepen gebaseerd op het <code class="language-plaintext highlighter-rouge">/etc/cgrules.conf</code> configuratie bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cgclassify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span></p>
+
+<ul>
+  <li>Verplaats het proces met een specifiek PID naar de controle groep student in de CPU hierarchy. Let op: de daemon van de service <code class="language-plaintext highlighter-rouge">cgred</code> veranderd <code class="language-plaintext highlighter-rouge">cgroups</code> van de specifieke PID en zijn onderliggende processen niet (gebaseerd op <code class="language-plaintext highlighter-rouge">/etc/cgrules.conf</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cgclassify --sticky -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu:/student</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span></p>

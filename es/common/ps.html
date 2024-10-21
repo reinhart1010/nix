@@ -1,0 +1,46 @@
+<h1 id="ps">ps</h1>
+
+<p>Información sobre procesos en ejecución.
+Más información: <a href="https://manned.org/ps">https://manned.org/ps</a>.</p>
+
+<ul>
+  <li>Lista todos los procesos en ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps aux</code></p>
+
+<ul>
+  <li>Lista todos los procesos en ejecución incluyendo el comando completo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps auxww</code></p>
+
+<ul>
+  <li>Busca un proceso que coincida con la cadena de texto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps aux | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span></p>
+
+<ul>
+  <li>Lista todos los procesos del usuario actual en formato supercompleto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps --user $(id -u) -F</code></p>
+
+<ul>
+  <li>Lista todos los procesos del usuario actual como un árbol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps --user $(id -u) f</code></p>
+
+<ul>
+  <li>Obtén el PID del proceso padre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps -o ppid= -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Ordena los procesos por consumo de memoria:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps --sort size</code></p>
