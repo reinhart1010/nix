@@ -2,8 +2,8 @@
 layout: page
 title: common/nvim (português (Brasil))
 description: "Neovim, um editor de texto para programadores baseado no Vim, oferece vários modos para diferentes tipos de manipulação de texto."
-content_hash: b138d49169c78d03e0c1f470d1e60c7925910376
-last_modified_at: 2024-10-15
+content_hash: c76aa5a81c3be9d68921716f7b9a36cc6fb3759f
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/nvim.html
@@ -52,7 +52,7 @@ Mais informações: <https://neovim.io>.
 
 - Entra no modo normal, salva (grava) o arquivo e sai:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:wq<Enter></span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter></span>
 
 - Sai sem salvar:
 

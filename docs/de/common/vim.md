@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (Deutsch)
 description: "Vim (Vi IMproved), ein Befehlszeilen-Texteditor, bietet mehrere Modi für verschiedene Arten der Textmanipulation an."
-content_hash: dccc93a72842ca73f0b3e78177e5b1e6a79ab978
-last_modified_at: 2024-10-15
+content_hash: 91afd4f009ad2df36c58145caefd237a6b688450
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/vim.html
@@ -63,7 +63,7 @@ Weitere Informationen: <https://www.vim.org>.
 
 - Speichere und schließe die aktuelle Datei:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter></span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter></span>
 
 - Mache die letzte Aktion rückgängig:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (日本語)
 description: "コマンドラインのテキストエディタである Vim（Vi IMproved）には、さまざまな種類のテキスト操作のためのモードが用意されています。"
-content_hash: 6ef8789da17bddd24d7c762ce7e5445947f11993
-last_modified_at: 2024-10-15
+content_hash: d0711a5e10b2f4bd4057af762e0465c12369bff9
+last_modified_at: 2024-10-21
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -63,7 +63,7 @@ tldri18n_status: 2
 
 - 保存と終了:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter></span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter></span>
 
 - 最後の操作を元に戻す:
 

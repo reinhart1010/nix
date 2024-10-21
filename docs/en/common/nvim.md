@@ -2,8 +2,8 @@
 layout: page
 title: common/nvim (English)
 description: "Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation."
-content_hash: 148810dcd12068ef6f1bed06b22125648a47b7e5
-last_modified_at: 2024-10-14
+content_hash: efb6025d5452d5adff0501b1f81da58642463393
+last_modified_at: 2024-10-21
 related_topics:
   - title: Indonesia version
     url: /id/common/nvim.html
@@ -52,7 +52,7 @@ More information: <https://neovim.io>.
 
 - Enter normal mode and save (write) the file, and quit:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:wq<Enter></span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter></span>
 
 - Quit without saving:
 
