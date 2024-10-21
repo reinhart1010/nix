@@ -3,7 +3,7 @@ layout: page
 title: common/ffuf (한국어)
 description: "Go로 작성된 빠른 웹 퍼저."
 content_hash: 7bf3c97624b76ad23a888a9b77457ca03e90c83d
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/ffuf.html
@@ -11,18 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/ffuf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ffuf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ffuf
+# ffuf
 
 Go로 작성된 빠른 웹 퍼저.
 `FUZZ` 키워드가 자리 표시자로 사용됨. `ffuf`는 `FUZZ`라는 단어를 단어 목록의 모든 단어로 변경해 URL에 접속하려 시도.

@@ -3,23 +3,14 @@ layout: page
 title: common/pactl (español)
 description: "Controla un servidor de sonido PulseAudio en ejecución."
 content_hash: cf22e8a3ca2b467b86246be7e11c98311ef3cfcd
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/pactl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pactl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pactl
+# pactl
 
 Controla un servidor de sonido PulseAudio en ejecución.
 Más información: <https://manned.org/pactl>.

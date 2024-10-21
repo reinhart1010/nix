@@ -3,19 +3,10 @@ layout: page
 title: common/bear (English)
 description: "A tool to generate compilation databases for `clang` tooling."
 content_hash: d89c348e87f6c4178c27f4f3cb15c72c919f007b
-last_modified_at: 2024-10-20
-tldri18n_status: 0
+last_modified_at: 2024-10-21
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bear.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bear
+# bear
 
 A tool to generate compilation databases for `clang` tooling.
 More information: <https://github.com/rizsotto/Bear>.

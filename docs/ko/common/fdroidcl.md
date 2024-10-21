@@ -3,7 +3,7 @@ layout: page
 title: common/fdroidcl (한국어)
 description: "ADB를 통해 연결된 장치의 F-Droid 앱을 관리."
 content_hash: 5b00a4c0354e00a823d7870a8e11c3853eddc7a0
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: Deutsch version
     url: /de/common/fdroidcl.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/fdroidcl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fdroidcl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fdroidcl
+# fdroidcl
 
 ADB를 통해 연결된 장치의 F-Droid 앱을 관리.
 더 많은 정보: <https://github.com/mvdan/fdroidcl>.

@@ -3,23 +3,14 @@ layout: page
 title: common/ffe (한국어)
 description: "플랫 데이터베이스 파일에서 필드를 추출하고 다른 형식으로 씀."
 content_hash: 859304edc9a56d80c08ddab3590ed51b5e244d02
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/ffe.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ffe.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ffe
+# ffe
 
 플랫 데이터베이스 파일에서 필드를 추출하고 다른 형식으로 씀.
 입력을 해석하고 출력 형식을 지정하려면 구성 파일이 필요.

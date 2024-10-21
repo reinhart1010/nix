@@ -3,7 +3,7 @@ layout: page
 title: common/frps (한국어)
 description: "리버스 프록스 서비스를 빠르게 설정."
 content_hash: c7e67128b0787e6705b8302878611ce888cb67f0
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/frps.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/frps.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/frps.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># frps
+# frps
 
 리버스 프록스 서비스를 빠르게 설정.
 `frp`의 부분.

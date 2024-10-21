@@ -3,7 +3,7 @@ layout: page
 title: common/magick (español)
 description: "Crea, edita, compone o convierte entre formatos de imagen."
 content_hash: 854ab44afafbad6c3b8104af924506536929ba76
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/magick.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/magick.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/magick.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># magick
+# magick
 
 Crea, edita, compone o convierte entre formatos de imagen.
 Esta herramienta reemplaza a `convert` en ImageMagick 7+. Usa `magick convert` para utilizar la herramienta antigua en versiones 7+.

@@ -3,23 +3,14 @@ layout: page
 title: common/fin (한국어)
 description: "Docksal 명령줄 유틸리티."
 content_hash: bd2e71cec44d7c719258aa2b9047217d1d1a6ff3
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/fin.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fin.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fin
+# fin
 
 Docksal 명령줄 유틸리티.
 더 많은 정보: <https://docs.docksal.io/fin/fin/>.

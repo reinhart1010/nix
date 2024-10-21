@@ -3,7 +3,7 @@ layout: page
 title: linux/xfreerdp (español)
 description: "Implementación del protocolo del Free Remote Desktop."
 content_hash: 0a4f7f9893de0cdfb0cedcf86b6d9d12cd44a8b5
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: català version
     url: /ca/linux/xfreerdp.html
@@ -11,12 +11,9 @@ related_topics:
   - title: English version
     url: /en/linux/xfreerdp.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xfreerdp
+# xfreerdp
 
 Implementación del protocolo del Free Remote Desktop.
 Más información: <https://www.freerdp.com>.

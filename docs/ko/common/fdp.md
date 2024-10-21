@@ -3,7 +3,7 @@ layout: page
 title: common/fdp (한국어)
 description: "`graphviz` 파일에서 `force-directed` 네트워크 그래프의 이미지를 렌더링."
 content_hash: 34b6632dd4a90fddbe399865ee23e045cb5e8118
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/fdp.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fdp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fdp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fdp
+# fdp
 
 `graphviz` 파일에서 `force-directed` 네트워크 그래프의 이미지를 렌더링.
 레이아웃: `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage` & `patchwork`.

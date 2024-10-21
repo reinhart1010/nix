@@ -3,23 +3,14 @@ layout: page
 title: common/fisher (한국어)
 description: "Fish-shell 플러그인 관리자인 Fisher."
 content_hash: 3ee1c16cc1b7137190b7e91fd6d9de0b80f918eb
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/fisher.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fisher.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fisher
+# fisher
 
 Fish-shell 플러그인 관리자인 Fisher.
 이름별로 플러그인을 설치하거나 번들 설치의 경우 관리되는 'fishfile'에서 플러그인을 설치.

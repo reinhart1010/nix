@@ -3,23 +3,14 @@ layout: page
 title: common/func (한국어)
 description: "Azure Functions 핵심 도구: Azure Functions를 로컬에서 개발하고 테스트."
 content_hash: f2d4b9438249d6f1ba5d34dfaabccd268245ad65
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/func.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/func.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># func
+# func
 
 Azure Functions 핵심 도구: Azure Functions를 로컬에서 개발하고 테스트.
 로컬 함수는 라이브 Azure 서비스에 연결할 수 있고, Azure 구독에 함수 앱을 배포할 수 있음.

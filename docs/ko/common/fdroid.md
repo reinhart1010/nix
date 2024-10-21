@@ -3,7 +3,7 @@ layout: page
 title: common/fdroid (한국어)
 description: "F-Droid 빌드 도구."
 content_hash: 12de480489157c528627d0141388043cb9b8043f
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: Deutsch version
     url: /de/common/fdroid.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/fdroid.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fdroid.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fdroid
+# fdroid
 
 F-Droid 빌드 도구.
 F-Droid는 Android 플랫폼용 FOSS (무료 및 오픈 소스 소프트웨어) 애플리케이션의 설치 가능한 카탈로그.

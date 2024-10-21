@@ -3,7 +3,7 @@ layout: page
 title: common/fvm (한국어)
 description: "Flutter 버전 관리."
 content_hash: eb016a77ff36e184b4fa0279e3aa63d33521cfef
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/fvm.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/fvm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fvm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fvm
+# fvm
 
 Flutter 버전 관리.
 더 많은 정보: <https://fvm.app/documentation/guides/basic-commands>.

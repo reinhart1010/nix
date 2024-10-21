@@ -3,7 +3,7 @@ layout: page
 title: common/at (Nederlands)
 description: "Voer commando's één keer uit op een later tijdstip."
 content_hash: 98352049ab3549a5f25561e75d1f7c46c10a4670
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># at
+# at
 
 Voer commando's één keer uit op een later tijdstip.
 Resultaten worden naar de e-mail van de gebruiker gestuurd.

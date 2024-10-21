@@ -3,7 +3,7 @@ layout: page
 title: common/fmt (한국어)
 description: "단락을 결합하고 줄 너비를 문자 수 (기본적으로 75자)로 제한하여 텍스트 파일의 서식을 다시 지정."
 content_hash: 1842b6a954282f44e5ff7a464b1196156370485d
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/fmt.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fmt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fmt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fmt
+# fmt
 
 단락을 결합하고 줄 너비를 문자 수 (기본적으로 75자)로 제한하여 텍스트 파일의 서식을 다시 지정.
 더 많은 정보: <https://www.gnu.org/software/coreutils/fmt>.

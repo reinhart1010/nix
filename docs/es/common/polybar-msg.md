@@ -3,23 +3,14 @@ layout: page
 title: common/polybar-msg (español)
 description: "Controla `polybar` utilizando mensajería entre procesos (IPC)."
 content_hash: 2402e1d034cc4477db1e244b0daaba9eb117ab23
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/polybar-msg.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/polybar-msg.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># polybar-msg
+# polybar-msg
 
 Controla `polybar` utilizando mensajería entre procesos (IPC).
 Nota: IPC está desactivado por defecto y se puede habilitar configurando `enable-ipc = true` en la configuación de Polybar.

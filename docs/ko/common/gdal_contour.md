@@ -3,23 +3,14 @@ layout: page
 title: common/gdal_contour (한국어)
 description: "디지털 표고 모델에서 등고선과 다각형을 생성."
 content_hash: 49fdb472b119070a673200fcb704ba8716098dbf
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/gdal_contour.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gdal_contour.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gdal_contour
+# gdal_contour
 
 디지털 표고 모델에서 등고선과 다각형을 생성.
 더 많은 정보: <https://gdal.org/programs/gdal_contour.html>.

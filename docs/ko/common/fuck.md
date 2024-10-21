@@ -3,7 +3,7 @@ layout: page
 title: common/fuck (한국어)
 description: "이전 콘솔 명령을 수정."
 content_hash: 68f64641ef5f27accf5d6c49884b04778c08b244
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: Deutsch version
     url: /de/common/fuck.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/fuck.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fuck.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fuck
+# fuck
 
 이전 콘솔 명령을 수정.
 더 많은 정보: <https://github.com/nvbn/thefuck>.

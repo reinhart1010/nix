@@ -3,7 +3,7 @@ layout: page
 title: common/flutter (한국어)
 description: "Google의 무료 오픈 소스 크로스 플랫폼 모바일 앱 SDK."
 content_hash: f80495c4e126583a78ddc3bd13fca034845a54aa
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: Deutsch version
     url: /de/common/flutter.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/flutter.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/flutter.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># flutter
+# flutter
 
 Google의 무료 오픈 소스 크로스 플랫폼 모바일 앱 SDK.
 `pub`과 같은 일부 하위 명령에는 자체 사용법 문서가 있음.

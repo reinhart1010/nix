@@ -3,23 +3,14 @@ layout: page
 title: common/az-image (한국어)
 description: "Azure에서 사용자 지정 가상 머신 이미지를 관리."
 content_hash: ac17a202b260f7f7721d940aeb95c776e309c5e1
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/az-image.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/az-image.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># az image
+# az image
 
 Azure에서 사용자 지정 가상 머신 이미지를 관리.
 `azure-cli` (`az`라고도 함)의 일부.

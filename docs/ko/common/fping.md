@@ -3,7 +3,7 @@ layout: page
 title: common/fping (한국어)
 description: "여러 호스트에 ping을 보낼 수 있는 더욱 강력한 ping."
 content_hash: 3a9a97a4d02b87c97be9c1f8ab9a494fbac2d86f
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/fping.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/fping.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fping.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fping
+# fping
 
 여러 호스트에 ping을 보낼 수 있는 더욱 강력한 ping.
 더 많은 정보: <https://fping.org>.

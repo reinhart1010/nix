@@ -3,7 +3,7 @@ layout: page
 title: osx/base64 (español)
 description: "Codifica o decodifica un archivo o `stdin` a/desde base64, a `stdout` o a otro archivo."
 content_hash: 6e35ac32b0e5da3e60fcbc234496bc7dd07eb4b4
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/base64.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># base64
+# base64
 
 Codifica o decodifica un archivo o `stdin` a/desde base64, a `stdout` o a otro archivo.
 Más información: <https://keith.github.io/xcode-man-pages/base64.1.html>.

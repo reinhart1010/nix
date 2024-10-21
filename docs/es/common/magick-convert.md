@@ -3,7 +3,7 @@ layout: page
 title: common/magick-convert (español)
 description: "Convierte entre formatos de imagen, escala, une y crea imágenes."
 content_hash: aab453826a7e3f02be561ea6cfa002bc11e8173b
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: Deutsch version
     url: /de/common/magick-convert.html
@@ -26,18 +26,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/magick-convert.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/magick-convert.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># magick convert
+# magick convert
 
 Convierte entre formatos de imagen, escala, une y crea imágenes.
 Nota: esta herramienta (anteriormente `convert`) ha sido reemplazada por `magick` en ImageMagick 7+.

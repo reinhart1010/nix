@@ -3,7 +3,7 @@ layout: page
 title: common/ffprobe (한국어)
 description: "멀티미디어 스트림 분석기."
 content_hash: e6f07721573a5f831919adf176ac972837d57591
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: Deutsch version
     url: /de/common/ffprobe.html
@@ -14,18 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/common/ffprobe.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ffprobe.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ffprobe
+# ffprobe
 
 멀티미디어 스트림 분석기.
 더 많은 정보: <https://ffmpeg.org/ffprobe.html>.

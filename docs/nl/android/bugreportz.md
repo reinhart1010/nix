@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (Nederlands)
 description: "Genereer een gezipt Android bugrapport."
 content_hash: 2d22e8028a3d3ea52e7d0f4c0581616cfd04cc89
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -65,12 +65,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreportz
+# bugreportz
 
 Genereer een gezipt Android bugrapport.
 Dit commando kan alleen worden gebruikt via `adb shell`.

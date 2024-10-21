@@ -3,23 +3,14 @@ layout: page
 title: common/gcrane-copy (한국어)
 description: "다이제스트 값을 유지하며 소스에서 대상으로 원격 이미지를 효율적으로 복사."
 content_hash: c69273402eab41ca8bf07d62082e811d2b84bf7d
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/gcrane-copy.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gcrane-copy.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcrane copy
+# gcrane copy
 
 다이제스트 값을 유지하며 소스에서 대상으로 원격 이미지를 효율적으로 복사.
 더 많은 정보: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.

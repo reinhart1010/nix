@@ -3,23 +3,14 @@ layout: page
 title: common/gcpdiag (한국어)
 description: "Google Cloud Platform 문제 해결 및 진단 도구."
 content_hash: ee0553ba7f6c369ed7bfdf4e23391b589d7fe6d5
-last_modified_at: 2024-10-20
+last_modified_at: 2024-10-21
 related_topics:
   - title: English version
     url: /en/common/gcpdiag.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gcpdiag.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcpdiag
+# gcpdiag
 
 Google Cloud Platform 문제 해결 및 진단 도구.
 Docker 컨테이너 또는 GCP Cloudshell에서 실행.
