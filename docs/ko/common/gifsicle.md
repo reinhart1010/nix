@@ -3,23 +3,14 @@ layout: page
 title: common/gifsicle (한국어)
 description: "GIF 파일에 대한 정보를 생성, 편집, 조작 및 가져옴."
 content_hash: 19a2c4ba6019589ff83cf7cc3f7727a7b237e910
-last_modified_at: 2024-10-21
+last_modified_at: 2024-10-22
 related_topics:
   - title: English version
     url: /en/common/gifsicle.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gifsicle.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gifsicle
+# gifsicle
 
 GIF 파일에 대한 정보를 생성, 편집, 조작 및 가져옴.
 더 많은 정보: <https://www.lcdf.org/gifsicle>.

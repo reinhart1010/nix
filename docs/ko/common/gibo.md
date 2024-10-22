@@ -3,23 +3,14 @@ layout: page
 title: common/gibo (한국어)
 description: "gitignore 상용구를 가져옴."
 content_hash: fddbbed922df132c3249e65e3d4383eab2c443f0
-last_modified_at: 2024-10-21
+last_modified_at: 2024-10-22
 related_topics:
   - title: English version
     url: /en/common/gibo.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gibo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gibo
+# gibo
 
 gitignore 상용구를 가져옴.
 더 많은 정보: <https://github.com/simonwhitaker/gibo>.

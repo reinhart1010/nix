@@ -3,7 +3,7 @@ layout: page
 title: common/gimp (한국어)
 description: "GNU 이미지 조작 프로그램."
 content_hash: 8f8fc111c556e5418086c590dec4eb84e2bcfe7d
-last_modified_at: 2024-10-21
+last_modified_at: 2024-10-22
 related_topics:
   - title: English version
     url: /en/common/gimp.html
@@ -14,18 +14,9 @@ related_topics:
   - title: русский version
     url: /ru/common/gimp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gimp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gimp
+# gimp
 
 GNU 이미지 조작 프로그램.
 참고: `krita`.

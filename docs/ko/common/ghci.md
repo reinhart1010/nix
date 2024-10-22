@@ -3,7 +3,7 @@ layout: page
 title: common/ghci (한국어)
 description: "Glasgow Haskell 컴파일러 대화형 환경."
 content_hash: 0c5bc83d0124e32dc52aa502bf49b1f4714f2ae3
-last_modified_at: 2024-10-21
+last_modified_at: 2024-10-22
 related_topics:
   - title: English version
     url: /en/common/ghci.html
@@ -11,18 +11,9 @@ related_topics:
   - title: русский version
     url: /ru/common/ghci.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ghci.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ghci
+# ghci
 
 Glasgow Haskell 컴파일러 대화형 환경.
 더 많은 정보: <https://downloads.haskell.org/ghc/latest/docs/html/users_guide/ghci.html>.
