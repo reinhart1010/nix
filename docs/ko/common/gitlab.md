@@ -1,0 +1,45 @@
+---
+layout: page
+title: common/gitlab (한국어)
+description: "GitLab API용 Ruby 래퍼."
+content_hash: 5203c57cd47e5bae2226e16a55fc5662559b43ed
+last_modified_at: 2024-10-23
+related_topics:
+  - title: English version
+    url: /en/common/gitlab.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/gitlab.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/gitlab.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># gitlab
+
+GitLab API용 Ruby 래퍼.
+`ctl`과 같은 일부 하위 명령에는 자체 사용법 문서가 존재.
+더 많은 정보: <https://narkoz.github.io/gitlab/>.
+
+- 새로운 프로젝트를 생성:
+
+`gitlab create_project `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span>
+
+- 특정 커밋에 대한 정보를 얻기:
+
+`gitlab commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해쉬</span>
+
+- CI 파이프라인의 작업에 대한 정보를 얻기:
+
+`gitlab pipeline_jobs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파이프라인_아이디</span>
+
+- 특정 CI 작업을 시작:
+
+`gitlab job_play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_아이디</span>
