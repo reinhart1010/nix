@@ -2,8 +2,8 @@
 layout: page
 title: common/git-diff (português (Brasil))
 description: "Mostra alterações nos arquivos rastreados."
-content_hash: 1519e2cbdd77ee69e3fb518accd04c3dd300ef24
-last_modified_at: 2023-11-12
+content_hash: bf4323931dea2d2714de9ce953e55763943cfb93
+last_modified_at: 2024-10-24
 related_topics:
   - title: English version
     url: /en/common/git-diff.html
@@ -17,6 +17,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-diff.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-diff.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-diff.html
     icon: bi bi-globe
@@ -27,7 +30,7 @@ tldri18n_status: 2
 Mostra alterações nos arquivos rastreados.
 Mais informações: <https://git-scm.com/docs/git-diff>.
 
-- Mostra as alterações não preparadas e sem commit:
+- Mostra as alterações não preparadas:
 
 `git diff`
 
@@ -43,9 +46,9 @@ Mais informações: <https://git-scm.com/docs/git-diff>.
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
-- Mostra apenas os nomes dos arquivos alterados desde um determinado commit:
+- Mostra estatísticas de comparação, como arquivos alterados, histogramas e número total de inserções/exclusões de linha:
 
-`git diff --name-only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
+`git diff --stat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
 
 - Emite um resumo das criações de arquivos, renomeações e alterações de modo desde um determinado commit:
 

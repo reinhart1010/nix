@@ -2,11 +2,14 @@
 layout: page
 title: common/az-login (English)
 description: "Log in to Azure."
-content_hash: 0d24611cb68a68caced49a3ab669fcc338e05f42
-last_modified_at: 2023-11-12
+content_hash: c55abd8a02976a1298db5a78a16c5462fbbf98bb
+last_modified_at: 2024-10-24
 related_topics:
   - title: Deutsch version
     url: /de/common/az-login.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/az-login.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +17,7 @@ tldri18n_status: 2
 
 Log in to Azure.
 Part of `azure-cli` (also known as `az`).
-More information: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
+More information: <https://learn.microsoft.com/cli/azure/reference-index#az-login>.
 
 - Log in interactively:
 

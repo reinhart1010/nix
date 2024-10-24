@@ -2,8 +2,8 @@
 layout: page
 title: common/git-add (português (Brasil))
 description: "Adiciona arquivos modificados na área de preparação."
-content_hash: dbe616abbfd2836bbe7329e0b34710da8b1a8441
-last_modified_at: 2024-06-20
+content_hash: 416bca75625ec152cc47ec85aab477a52cf1e962
+last_modified_at: 2024-10-24
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -54,24 +54,28 @@ Mais informações: <https://git-scm.com/docs/git-add>.
 
 - Adiciona todos arquivos (rastreados ou não):
 
-`git add -A`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-A|--all</span>
+
+- Adiciona todos arquivos na pasta atual:
+
+`git add .`
 
 - Adiciona apenas arquivos rastreados:
 
-`git add -u`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|--update</span>
 
 - Adiciona arquivos ignorados:
 
-`git add -f`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--force</span>
 
 - Interativamente adiciona partes dos arquivo:
 
-`git add -p`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--patch</span>
 
 - Interativamente adiciona partes de um dado arquivo:
 
-`git add -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--patch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
 - Interativamente adiciona arquivos ou partes modificadas:
 
-`git add -i`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>

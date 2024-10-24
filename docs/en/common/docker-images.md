@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-images (English)
 description: "Manage Docker images."
-content_hash: cc9a35e5299eff378167512b4e1f9572cb5762cb
-last_modified_at: 2024-09-24
+content_hash: 554da3b8be1853a90d086d4f9745fea2e3651a11
+last_modified_at: 2024-10-24
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-images.html
@@ -55,4 +55,4 @@ More information: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - Sort images by size:
 
-`docker images --format "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.ID</span>`\t`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Size</span>`\t`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Repository</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Tag</span>`" | sort -k 2 -h`
+`docker images --format "\{\{.ID\}\}\t\{\{.Size\}\}\t\{\{.Repository\}\}:\{\{.Tag\}\}" | sort -k 2 -h`

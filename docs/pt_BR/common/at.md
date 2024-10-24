@@ -2,8 +2,8 @@
 layout: page
 title: common/at (português (Brasil))
 description: "Ferramenta para o agendamento de comandos."
-content_hash: af201a8e0fb7b97a8d673a4fc0624a0457627231
-last_modified_at: 2024-10-17
+content_hash: fe5ec803489c8cc9cf18df8dc088f70d01697e34
+last_modified_at: 2024-10-24
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -40,16 +40,24 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># at
 
 Ferramenta para o agendamento de comandos.
-O serviço atd (ou atrun) deve estar sendo executado para as atuais execuções.
+Resultados serão enviados para o e-mail dos usuários.
 Mais informações: <https://manned.org/at>.
 
-- Executa comandos da standard input em 5 minutos (pressionar `Ctrl + D`quando acabar):
+- Inicia o daemon `atd`:
+
+`systemctl start atd`
+
+- Cria comandos interativamente e executa-os em 5 minutos (pressione `<Ctrl> + D` quando acabar):
 
 `at now + 5 minutes`
 
-- Executa um comando da standard input às 10:00 da manhã de hoje:
+- Cria comandos interativamente e executa-os no horário específico:
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./comando.sh</span>`" | at 1000`
+`at `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span>
+
+- Executa um comando da `stdin` (standard input) às 10:00 da manhã de hoje:
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`" | at 1000`
 
 - Executa comandos de um dado arquivo na próxima terça:
 

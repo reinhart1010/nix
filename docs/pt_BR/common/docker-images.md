@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-images (português (Brasil))
 description: "Gerencia imagens Docker."
-content_hash: 99bf7d83afd1fc19c4926c26547e2ea96eca5354
-last_modified_at: 2024-09-24
+content_hash: d52373f5ded92654b46c7930273530202e655424
+last_modified_at: 2024-10-24
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-images.html
@@ -40,7 +40,7 @@ Mais informações: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 `docker images`
 
-- Lista todas as imagens Docker incluíndo imagens intermedirárias:
+- Lista todas as imagens Docker incluindo imagens intermedirárias:
 
 `docker images --all`
 
@@ -55,3 +55,7 @@ Mais informações: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 - Lista imagens que contenham um substring no seu nome:
 
 `docker images "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*nome*</span>`"`
+
+- Classifica imagens pelo tamanho:
+
+`docker images --format "\{\{.ID\}\}\t\{\{.Size\}\}\t\{\{.Repository\}\}:\{\{.Tag\}\}" | sort -k 2 -h`

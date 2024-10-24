@@ -2,8 +2,8 @@
 layout: page
 title: common/git-remote (português (Brasil))
 description: "Gerencia repositórios monitorados (\"remotes\")."
-content_hash: 622ae2d2d9b9a6355572c4a69d3ebd1f128bd5a2
-last_modified_at: 2024-10-13
+content_hash: 107b574a36ab153c67129e6fb7a710d6b23760f9
+last_modified_at: 2024-10-24
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -42,7 +42,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Gerencia repositórios monitorados ("remotes").
 Mais informações: <https://git-scm.com/docs/git-remote>.
 
-- Mostre uma lista de remotes existentes, seus nomes e URL:
+- Lista remotes existentes com seus nomes e URLs:
 
 `git remote `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>
 
@@ -57,6 +57,10 @@ Mais informações: <https://git-scm.com/docs/git-remote>.
 - Muda a URL de um remote (use `--add` para manter a URL existente):
 
 `git remote set-url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_remote</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nova_url</span>
+
+- Mostra a URL de um remote:
+
+`git remote get-url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_remote</span>
 
 - Remove um remote:
 
