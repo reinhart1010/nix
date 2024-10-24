@@ -2,8 +2,8 @@
 layout: page
 title: linux/halt (español)
 description: "Detiene, apaga o reinicia la máquina."
-content_hash: 5e73d31ec971103280c68567466d040457664941
-last_modified_at: 2023-11-12
+content_hash: 5f0258aeba8eade45922b462520cac698e98c15e
+last_modified_at: 2024-10-24
 related_topics:
   - title: català version
     url: /ca/linux/halt.html
@@ -25,16 +25,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># halt
 
 Detiene, apaga o reinicia la máquina.
+Ver también: `poweroff`, `reboot`.
 Más información: <https://manned.org/halt.8>.
 
-- Detiene la máquina:
+- Detiene el sistema:
 
 `halt`
 
-- Apaga la máquina:
+- Apaga el sistema (igual que `poweroff`):
 
 `halt --poweroff`
 
-- Reinicia la máquina:
+- Reinicia el sistema (igual que `reboot`):
 
 `halt --reboot`
+
+- Apaga inmediatamente el sistema sin contactar al administrador:
+
+`halt --force`
+
+- Escribe la entrada de apagado en wtmp sin apagar el sistema:
+
+`halt --wtmp-only`

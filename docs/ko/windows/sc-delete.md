@@ -1,22 +1,32 @@
 ---
 layout: page
 title: windows/sc-delete (한국어)
-description: "이 명령은 `sc` 의 에일리어스 (별칭) 입니다."
-content_hash: cb2ef441dc1620a0fd8cdcae4d88d90d8cf09bd1
-last_modified_at: 2023-11-02
+description: "이 명령어는 `sc.exe delete`의 별칭입니다."
+content_hash: 9523ce8239e08339c10a7418f6c4e69250ebf0f6
+last_modified_at: 2024-10-24
 related_topics:
   - title: English version
     url: /en/windows/sc-delete.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/sc-delete.html
+    icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
 
-<hr># sc-delete
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
 
-이 명령은 `sc` 의 에일리어스 (별칭) 입니다.
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/sc-delete.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># sc delete
+
+이 명령어는 `sc.exe delete`의 별칭입니다.
 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/sc-delete>.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- 원본 명령어 문서 보기:
 
 `tldr sc`

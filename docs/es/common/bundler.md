@@ -1,99 +1,37 @@
 ---
 layout: page
 title: common/bundler (español)
-description: "Este comando es un alias de `bundle`."
-content_hash: 3b3e05beac3fbc5b4926fc66cf1e6625c29c8749
-last_modified_at: 2024-01-07
+description: "Gestor de dependencias para el lenguaje de programación Ruby."
+content_hash: 32d5c75d3c291f509c9d111e3c0ecd8393fd2141
+last_modified_at: 2024-10-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/bundler.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/bundler.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/bundler.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/bundler.html
-    icon: bi bi-globe
-  - title: Deutsch version
-    url: /de/common/bundler.html
-    icon: bi bi-globe
   - title: English version
     url: /en/common/bundler.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/bundler.html
     icon: bi bi-globe
-  - title: हिन्दी version
-    url: /hi/common/bundler.html
-    icon: bi bi-globe
-  - title: Indonesia version
-    url: /id/common/bundler.html
-    icon: bi bi-globe
-  - title: italiano version
-    url: /it/common/bundler.html
-    icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/bundler.html
-    icon: bi bi-globe
-  - title: 한국어 version
-    url: /ko/common/bundler.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/bundler.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/bundler.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/common/bundler.html
-    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/bundler.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/bundler.html
-    icon: bi bi-globe
-  - title: polski version
-    url: /pl/common/bundler.html
-    icon: bi bi-globe
-  - title: português (Brasil) version
-    url: /pt_BR/common/bundler.html
-    icon: bi bi-globe
-  - title: português (Portugal) version
-    url: /pt_PT/common/bundler.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/bundler.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/bundler.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/bundler.html
     icon: bi bi-globe
-  - title: ไทย version
-    url: /th/common/bundler.html
-    icon: bi bi-globe
-  - title: Türkçe version
-    url: /tr/common/bundler.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/bundler.html
-    icon: bi bi-globe
-  - title: 中文 version
-    url: /zh/common/bundler.html
-    icon: bi bi-globe
-  - title: 中文 (繁體, 台灣) version
-    url: /zh_TW/common/bundler.html
-    icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 0
 ---
-# bundler
 
-Este comando es un alias de `bundle`.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/bundler.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># bundler
+
+Gestor de dependencias para el lenguaje de programación Ruby.
+`bundler` es un nombre común para el comando `bundle`, pero no un comando en sí.
 Más información: <https://bundler.io/man/bundle.1.html>.
 
 - Muestra la documentación del comando original:

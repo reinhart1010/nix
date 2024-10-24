@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/rmdir (한국어)
-description: "이 명령은 `remove-item` 의 에일리어스 (별칭) 입니다."
-content_hash: 69c1607fc83454076a922877b9dacc6bae60ac1f
-last_modified_at: 2023-11-02
+description: "디렉토리와 그 내용을 삭제합니다."
+content_hash: 9d94f6f305400dcf5efe2d5e949721aa0bba8933
+last_modified_at: 2024-10-24
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -20,15 +20,35 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rmdir.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/rmdir.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># rmdir
 
-이 명령은 `remove-item` 의 에일리어스 (별칭) 입니다.
+디렉토리와 그 내용을 삭제합니다.
+PowerShell에서 이 명령어는 `Remove-Item`의 별칭입니다. 이 문서는 명령 프롬프트(`cmd`) 버전의 `rmdir`를 기반으로 합니다.
 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- 해당 PowerShell 명령어의 문서 보기:
 
 `tldr remove-item`
+
+- 빈 디렉토리 삭제:
+
+`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\디렉토리</span>
+
+- 디렉토리와 그 내용 재귀적으로 삭제:
+
+`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\디렉토리</span>` /s`
+
+- 디렉토리와 그 내용을 프롬프트 없이 재귀적으로 삭제:
+
+`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\디렉토리</span>` /s /q`

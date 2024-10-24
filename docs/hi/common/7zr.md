@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (हिन्दी)
 description: "उच्च संपीड़न अनुपात के साथ फ़ाइल संग्रहकर्ता।"
-content_hash: 2e6bd30d68cca0b242123b4e93df0227d7ef945f
-last_modified_at: 2024-10-23
+content_hash: 6c751bb863dbc87ae13bea74a1c1fa3a1bc2bc23
+last_modified_at: 2024-10-24
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -59,7 +59,7 @@ tldri18n_status: 2
 
 उच्च संपीड़न अनुपात के साथ फ़ाइल संग्रहकर्ता।
 `7z` के समान, सिवाय इसके कि यह केवल 7z फ़ाइलों का समर्थन करता है।
-अधिक जानकारी: <https://manned.org/7zr>.
+अधिक जानकारी: <https://manned.org/7zr>।
 
 - किसी फ़ाइल या निर्देशिका को संग्रहित करें:
 
