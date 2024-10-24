@@ -3,7 +3,7 @@ layout: page
 title: common/gitlab-ctl (한국어)
 description: "GitLab 옴니버스를 관리."
 content_hash: 45554d6ee25c7ca3e86d699e14fc1b6885decb8a
-last_modified_at: 2024-10-23
+last_modified_at: 2024-10-24
 related_topics:
   - title: English version
     url: /en/common/gitlab-ctl.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/gitlab-ctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gitlab-ctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gitlab-ctl
+# gitlab-ctl
 
 GitLab 옴니버스를 관리.
 더 많은 정보: <https://docs.gitlab.com/omnibus/maintenance/>.
