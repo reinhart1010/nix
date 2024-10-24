@@ -2,8 +2,8 @@
 layout: page
 title: common/pdfjoin (English)
 description: "PDF merging utility based on pdfjam."
-content_hash: 6298dd6db75f0a97113350a9fa59f679a818eff3
-last_modified_at: 2023-11-12
+content_hash: b89be1597d5685fd4b8b7126e9a3407d76638f8d
+last_modified_at: 2024-10-24
 tldri18n_status: 2
 ---
 # pdfjoin
@@ -25,4 +25,4 @@ More information: <https://github.com/rrthomas/pdfjam-extras>.
 
 - Merge page subranges from two PDFs:
 
-`pdfjoin {/path/to/file1.pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2-</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">last-3</span>` --outfile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span>
+`pdfjoin `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file1.pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2-</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">last-3</span>` --outfile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span>
