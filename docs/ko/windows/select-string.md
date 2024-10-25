@@ -3,7 +3,7 @@ layout: page
 title: windows/select-string (한국어)
 description: "PowerShell에서 문자열과 파일에서 텍스트를 찾습니다."
 content_hash: 4ffb68183d9cc58888bab2dd031cd54ae923f884
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: English version
     url: /en/windows/select-string.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/windows/select-string.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/select-string.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Select-String
+# Select-String
 
 PowerShell에서 문자열과 파일에서 텍스트를 찾습니다.
 참고: 이 명령어는 PowerShell을 통해서만 사용할 수 있습니다.

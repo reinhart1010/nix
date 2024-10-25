@@ -3,7 +3,7 @@ layout: page
 title: common/aws-lambda (Indonesia)
 description: "Gunakan AWS Lambda, suatu layanan komputasi untuk menjalankan kode perintah tanpa membuat atau mengatur infrastruktur peladen."
 content_hash: 123b8342201aa62192bd9509599fb4e5a092bed7
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: English version
     url: /en/common/aws-lambda.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-lambda.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-lambda.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws lambda
+# aws lambda
 
 Gunakan AWS Lambda, suatu layanan komputasi untuk menjalankan kode perintah tanpa membuat atau mengatur infrastruktur peladen.
 Informasi lebih lanjut: <https://docs.aws.amazon.com/cli/latest/reference/lambda/>.

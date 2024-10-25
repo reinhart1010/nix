@@ -3,7 +3,7 @@ layout: page
 title: windows/scoop-bucket (한국어)
 description: "버킷 관리: Git 저장소는 scoop이 애플리케이션을 설치하는 방법을 설명하는 파일을 포함합니다."
 content_hash: 0bf05861d402bf67def5c317c94d8bedfdba9c60
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: Deutsch version
     url: /de/windows/scoop-bucket.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/scoop-bucket.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/scoop-bucket.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># scoop bucket
+# scoop bucket
 
 버킷 관리: Git 저장소는 scoop이 애플리케이션을 설치하는 방법을 설명하는 파일을 포함합니다.
 Scoop이 버킷이 위치한 곳을 모르면 저장소 위치를 지정해야 합니다.

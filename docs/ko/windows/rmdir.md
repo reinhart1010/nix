@@ -3,7 +3,7 @@ layout: page
 title: windows/rmdir (한국어)
 description: "디렉토리와 그 내용을 삭제합니다."
 content_hash: 9d94f6f305400dcf5efe2d5e949721aa0bba8933
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rmdir.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/rmdir.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rmdir
+# rmdir
 
 디렉토리와 그 내용을 삭제합니다.
 PowerShell에서 이 명령어는 `Remove-Item`의 별칭입니다. 이 문서는 명령 프롬프트(`cmd`) 버전의 `rmdir`를 기반으로 합니다.

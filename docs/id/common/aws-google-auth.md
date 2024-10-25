@@ -3,7 +3,7 @@ layout: page
 title: common/aws-google-auth (Indonesia)
 description: "Dapatkan kredensial sementara (STS) bagi AWS menggunakan Google Apps sebagai penyedia akun layanan terfederasi (Single Sign-On)."
 content_hash: c248bdd5333f326b3c1e589c5782246fa726023f
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-google-auth.html
@@ -23,18 +23,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-google-auth.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-google-auth.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws-google-auth
+# aws-google-auth
 
 Dapatkan kredensial sementara (STS) bagi AWS menggunakan Google Apps sebagai penyedia akun layanan terfederasi (Single Sign-On).
 Informasi lebih lanjut: <https://github.com/cevoaustralia/aws-google-auth>.

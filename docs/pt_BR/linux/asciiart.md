@@ -2,8 +2,8 @@
 layout: page
 title: linux/asciiart (português (Brasil))
 description: "Converte imagens para ASCII."
-content_hash: 081f7ea1313475e4948c85afb1e5c865f389e596
-last_modified_at: 2023-12-28
+content_hash: 181b941e57865300454e064eb3201c6a5a0c7994
+last_modified_at: 2024-10-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/asciiart.html
@@ -33,7 +33,7 @@ Mais informações: <https://github.com/nodanaonlyzuul/asciiart>.
 
 - Lê uma imagem de uma URL e imprime em ASCII:
 
-`asciiart `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.exemplo.com/imagem.jpg</span>
+`asciiart `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.example.com/imagem.jpg</span>
 
 - Escolha a largura da saída (o padrão é 100):
 

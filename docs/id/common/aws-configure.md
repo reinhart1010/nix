@@ -3,7 +3,7 @@ layout: page
 title: common/aws-configure (Indonesia)
 description: "Atur konfigurasi penggunaan AWS CLI."
 content_hash: 72259e5de2fcac73dca8c47aa138e596b152cdf9
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: English version
     url: /en/common/aws-configure.html
@@ -20,18 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-configure.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-configure.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws configure
+# aws configure
 
 Atur konfigurasi penggunaan AWS CLI.
 Informasi lebih lanjut: <https://docs.aws.amazon.com/cli/latest/reference/configure/>.

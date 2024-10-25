@@ -3,7 +3,7 @@ layout: page
 title: common/aws-backup (Indonesia)
 description: "Layanan pencadangan untuk melindungi kumpulan layanan dan data terkait dalam Amazon Web Services."
 content_hash: f294eeff91526bd71a6207708692be447d2518cf
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-backup.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/aws-backup.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-backup.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws backup
+# aws backup
 
 Layanan pencadangan untuk melindungi kumpulan layanan dan data terkait dalam Amazon Web Services.
 Informasi lebih lanjut: <https://docs.aws.amazon.com/cli/latest/reference/backup/index.html>.

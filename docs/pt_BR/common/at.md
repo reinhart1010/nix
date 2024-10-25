@@ -3,7 +3,7 @@ layout: page
 title: common/at (português (Brasil))
 description: "Ferramenta para o agendamento de comandos."
 content_hash: fe5ec803489c8cc9cf18df8dc088f70d01697e34
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># at
+# at
 
 Ferramenta para o agendamento de comandos.
 Resultados serão enviados para o e-mail dos usuários.

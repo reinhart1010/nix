@@ -3,7 +3,7 @@ layout: page
 title: linux/halt (español)
 description: "Detiene, apaga o reinicia la máquina."
 content_hash: 5f0258aeba8eade45922b462520cac698e98c15e
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: català version
     url: /ca/linux/halt.html
@@ -17,12 +17,9 @@ related_topics:
   - title: italiano version
     url: /it/linux/halt.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># halt
+# halt
 
 Detiene, apaga o reinicia la máquina.
 Ver también: `poweroff`, `reboot`.

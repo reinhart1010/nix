@@ -3,7 +3,7 @@ layout: page
 title: common/git-remote (português (Brasil))
 description: "Gerencia repositórios monitorados (\"remotes\")."
 content_hash: 107b574a36ab153c67129e6fb7a710d6b23760f9
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-remote.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git remote
+# git remote
 
 Gerencia repositórios monitorados ("remotes").
 Mais informações: <https://git-scm.com/docs/git-remote>.

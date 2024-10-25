@@ -2,8 +2,8 @@
 layout: page
 title: common/dig (português (Brasil))
 description: "Utilitário de pesquisa de DNS."
-content_hash: 750c4f0185c078101b518d383845ab3b46bcd8be
-last_modified_at: 2024-02-12
+content_hash: ab0551a7c944d3b4624700470b4aa84f248945de
+last_modified_at: 2024-10-25
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -35,19 +35,19 @@ Mais informações: <https://manned.org/dig>.
 
 - Pesquisa o(s) IP(s) associados a um hostname (Registros A):
 
-`dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>
+`dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
 - Obtém uma resposta detalhada para um determinado domínio (Registros A):
 
-`dig +noall +answer `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>
+`dig +noall +answer `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
 - Consulta um tipo de registro DNS específico associado a um nome de domínio fornecido:
 
-`dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|MX|TXT|CNAME|NS</span>
+`dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|MX|TXT|CNAME|NS</span>
 
 - Especifica um servidor DNS alternativo para consultar:
 
-`dig @`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>
+`dig @`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
 - Performa uma busca reversa de DNS em um endereço de IP (Registro PTR):
 
@@ -55,8 +55,8 @@ Mais informações: <https://manned.org/dig>.
 
 - Encontra servidores de nomes autorizados para a região e exibe os registros SOA:
 
-`dig +nssearch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>
+`dig +nssearch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
 - Performa consultas iterativas e exibe o caminho de ratreio completo para resolver um nome de domínio:
 
-`dig +trace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>
+`dig +trace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>

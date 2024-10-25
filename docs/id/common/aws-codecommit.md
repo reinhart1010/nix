@@ -3,7 +3,7 @@ layout: page
 title: common/aws-codecommit (Indonesia)
 description: "Layanan kontrol sumber terkelola yang menghosting repositori Git pribadi."
 content_hash: 298e68fb107d0862fb57f56da774acc72c2193b9
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-codecommit.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/aws-codecommit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-codecommit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws codecommit
+# aws codecommit
 
 Layanan kontrol sumber terkelola yang menghosting repositori Git pribadi.
 Informasi lebih lanjut: <https://docs.aws.amazon.com/cli/latest/reference/codecommit/>.

@@ -3,7 +3,7 @@ layout: page
 title: common/aws-sts (Indonesia)
 description: "Security Token Service (STS), layanan manajemen token keamanan untuk meminta akses akun sementara bagi pengguna (IAM) atau pengguna dari federasi."
 content_hash: 6a82d2f6a34c9937d8d9741112d4f17522e87af4
-last_modified_at: 2024-10-24
+last_modified_at: 2024-10-25
 related_topics:
   - title: English version
     url: /en/common/aws-sts.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-sts.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-sts.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws sts
+# aws sts
 
 Security Token Service (STS), layanan manajemen token keamanan untuk meminta akses akun sementara bagi pengguna (IAM) atau pengguna dari federasi.
 Informasi lebih lanjut: <https://docs.aws.amazon.com/cli/latest/reference/sts/>.
