@@ -2,8 +2,8 @@
 layout: page
 title: common/yes (español)
 description: "Retorna algo repetidamente."
-content_hash: 12b6b0cdc7b52af11ac36b49c7412f777ec41098
-last_modified_at: 2024-02-13
+content_hash: b53b003489577c4780ef90cce33d0fee0e08aaf9
+last_modified_at: 2024-10-25
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -45,3 +45,7 @@ Más información: <https://www.gnu.org/software/coreutils/yes>.
 - Acepta todas las confirmaciones que muestre el comando `apt-get`:
 
 `yes | sudo apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span>
+
+- Retorna repetidamente una nueva línea para aceptar siempre la opción predeterminada de una pregunta (prompt):
+
+`yes ''`
