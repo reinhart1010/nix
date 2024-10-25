@@ -1,0 +1,22 @@
+<h1 id="pbmclean">pbmclean</h1>
+
+<p>Clean up a PBM image by erasing isolated black and white pixels.
+More information: <a href="https://netpbm.sourceforge.net/doc/pbmclean.html">https://netpbm.sourceforge.net/doc/pbmclean.html</a>.</p>
+
+<ul>
+  <li>Clean up a PBM image by erasing isolated black and white pixels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmclean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Clean up only black/white pixels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmclean -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">black|white</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Specify the minimum number of neighbouring pixels of the same color in order for a pixel not to be considered isolated:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmclean -minneighbours </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>

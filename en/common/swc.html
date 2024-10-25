@@ -1,0 +1,40 @@
+<h1 id="swc">swc</h1>
+
+<p>JavaScript and TypeScript compiler written in Rust.
+More information: <a href="https://swc.rs">https://swc.rs</a>.</p>
+
+<ul>
+  <li>Transpile a specified input file and output to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Transpile the input file every time it is changed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --watch</code></p>
+
+<ul>
+  <li>Transpile a specified input file and output to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> --out-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Transpile a specified input directory and output to a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span><code class="language-plaintext highlighter-rouge"> --out-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span></p>
+
+<ul>
+  <li>Transpile a specified input directory using a specific configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span><code class="language-plaintext highlighter-rouge"> --config-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/.swcrc</span></p>
+
+<ul>
+  <li>Ignore files in a directory specified using glob path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span><code class="language-plaintext highlighter-rouge"> --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ignored_file1 path/to/ignored_file2 …</span></p>

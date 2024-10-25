@@ -1,0 +1,30 @@
+<h1 id="look">look</h1>
+
+<p>Display lines beginning with a prefix in a sorted file.
+Note: the lines in the file must be sorted.
+See also: <code class="language-plaintext highlighter-rouge">grep</code>, <code class="language-plaintext highlighter-rouge">sort</code>.
+More information: <a href="https://man.openbsd.org/look">https://man.openbsd.org/look</a>.</p>
+
+<ul>
+  <li>Search for lines beginning with a specific prefix in a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Case-insensitively ([f]) search only on alphanumeric characters ([d]):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look -f -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Specify a string [t]ermination character (space by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span></p>
+
+<ul>
+  <li>Search in <code class="language-plaintext highlighter-rouge">/usr/share/dict/words</code> (<code class="language-plaintext highlighter-rouge">-d</code> and <code class="language-plaintext highlighter-rouge">-f</code> are assumed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span></p>

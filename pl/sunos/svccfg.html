@@ -1,0 +1,22 @@
+<h1 id="svccfg">svccfg</h1>
+
+<p>Importuj, eksportuj i modyfikuj konfigurację usług.
+Więcej informacji: <a href="https://www.unix.com/man-page/linux/1m/svccfg">https://www.unix.com/man-page/linux/1m/svccfg</a>.</p>
+
+<ul>
+  <li>Sprawdź poprawność pliku konfiguracyjnego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_smf.xml</span></p>
+
+<ul>
+  <li>Eksportuj konfigurację usług do pliku:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_usługi</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_smf.xml</span></p>
+
+<ul>
+  <li>Importuj/aktualizuj konfigurację usług z pliku:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_smf.xml</span></p>

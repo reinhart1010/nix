@@ -1,0 +1,41 @@
+<h1 id="nix-classic">nix classic</h1>
+
+<p>A classic, stable interface to a powerful package manager that makes package management reliable, reproducible, and declarative.
+Some Nix commands such as <code class="language-plaintext highlighter-rouge">nix-build</code>, <code class="language-plaintext highlighter-rouge">nix-shell</code>, <code class="language-plaintext highlighter-rouge">nix-env</code>, and <code class="language-plaintext highlighter-rouge">nix-store</code> have their own pages. See also: <code class="language-plaintext highlighter-rouge">tldr nix</code>.
+More information: <a href="https://nixos.org">https://nixos.org</a>.</p>
+
+<ul>
+  <li>Search for a package in nixpkgs via its name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -qaP </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term_regexp</span></p>
+
+<ul>
+  <li>Start a shell with the specified packages available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pkg1 pkg2 pkg3…</span></p>
+
+<ul>
+  <li>Install some packages permanently:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -iA </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs.pkg1 nixpkgs.pkg2…</span></p>
+
+<ul>
+  <li>Show all dependencies of a store path (package), in a tree format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --query --tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span></p>
+
+<ul>
+  <li>Update the channels (repositories):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-channel --update</code></p>
+
+<ul>
+  <li>Remove unused paths from Nix store:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-collect-garbage</code></p>

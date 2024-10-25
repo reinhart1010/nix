@@ -1,0 +1,53 @@
+<h1 id="pacman-query">pacman –query</h1>
+
+<p>Kegunaan manajer paket Arch Linux.
+Guarda anche: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Informasi lebih lanjut: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Tampilkan daftar paket yang diinstal beserta versinya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query</code></p>
+
+<ul>
+  <li>Tampilkan daftar paket yang diinstal beserta versinya secara eksplisit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --explicit</code></p>
+
+<ul>
+  <li>Temukan paket mana yang memiliki file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --owns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namafile</span></p>
+
+<ul>
+  <li>Tampilkan informasi paket yang diinstal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Tampilkan daftar file yang dimiliki oleh paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Tampilkan daftar paket yatim piatu (diinstal sebagai dependensi namun tidak dibutuhkan oleh paket apa pun):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --unrequired --deps --quiet</code></p>
+
+<ul>
+  <li>Tampilkan daftar paket yang diinstal tidak ditemukan di tempat penyimpanan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --foreign</code></p>
+
+<ul>
+  <li>Tampilkan daftar paket usang:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --upgrades</code></p>

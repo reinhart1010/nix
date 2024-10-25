@@ -1,0 +1,52 @@
+<h1 id="bfs">bfs</h1>
+
+<p>Breadth-first search for your files.
+More information: <a href="https://manned.org/bfs">https://manned.org/bfs</a>.</p>
+
+<ul>
+  <li>Find files by extension:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Find files matching multiple path/name patterns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span><code class="language-plaintext highlighter-rouge"> -path '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><strong>/path/</strong>/*.ext</span><code class="language-plaintext highlighter-rouge">' -or -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>pattern</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Find directories matching a given name, in case-insensitive mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span><code class="language-plaintext highlighter-rouge"> -type d -iname '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>lib</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Find files matching a given pattern, excluding specific paths:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.py</span><code class="language-plaintext highlighter-rouge">' -not -path '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>/site-packages/</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Find files matching a given size range, limiting the recursive depth to "1":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span><code class="language-plaintext highlighter-rouge"> -maxdepth 1 -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+500k</span><code class="language-plaintext highlighter-rouge"> -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-10M</span></p>
+
+<ul>
+  <li>Run a command for each file (use <code class="language-plaintext highlighter-rouge">{}</code> within the command to access the filename):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">' -exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l</span><code class="language-plaintext highlighter-rouge"> {} \;</code></p>
+
+<ul>
+  <li>Find all files modified today and pass the results to a single command as arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span><code class="language-plaintext highlighter-rouge"> -daystart -mtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1</span><code class="language-plaintext highlighter-rouge"> -exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar -cvf archive.tar</span><code class="language-plaintext highlighter-rouge"> {} \+</code></p>
+
+<ul>
+  <li>Find empty files (0 byte) or directories and delete them verbosely:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span><code class="language-plaintext highlighter-rouge"> -type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f|d</span><code class="language-plaintext highlighter-rouge"> -empty -delete -print</code></p>

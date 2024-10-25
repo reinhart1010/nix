@@ -1,0 +1,52 @@
+<h1 id="find">find</h1>
+
+<p>디렉토리 트리 아래에서 파일 또는 폴더를 재귀적으로 찾습니다.
+더 많은 정보: <a href="https://manned.org/find">https://manned.org/find</a>.</p>
+
+<ul>
+  <li>확장자로 파일 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">루트_경로</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>여러 경로/이름 패턴에 맞는 파일 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">루트_경로</span><code class="language-plaintext highlighter-rouge"> -path '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><strong>/경로/</strong>/*.ext</span><code class="language-plaintext highlighter-rouge">' -or -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>패턴</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>대소문자를 구분하지 않고 주어진 이름에 맞는 디렉토리 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">루트_경로</span><code class="language-plaintext highlighter-rouge"> -type d -iname '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>lib</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>주어진 패턴에 맞는 파일을 특정 경로를 제외하고 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">루트_경로</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.py</span><code class="language-plaintext highlighter-rouge">' -not -path '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>/site-packages/</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>주어진 크기 범위에 맞는 파일을 찾고 재귀 깊이를 "1"로 제한:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">루트_경로</span><code class="language-plaintext highlighter-rouge"> -maxdepth 1 -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+500k</span><code class="language-plaintext highlighter-rouge"> -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-10M</span></p>
+
+<ul>
+  <li>각 파일에 대해 명령 실행 (명령 내에서 파일명을 액세스하려면 <code class="language-plaintext highlighter-rouge">{}</code> 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">루트_경로</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">' -exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l</span><code class="language-plaintext highlighter-rouge"> {} \;</code></p>
+
+<ul>
+  <li>오늘 수정된 모든 파일을 찾아 결과를 단일 명령에 인수로 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">루트_경로</span><code class="language-plaintext highlighter-rouge"> -daystart -mtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1</span><code class="language-plaintext highlighter-rouge"> -exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar -cvf archive.tar</span><code class="language-plaintext highlighter-rouge"> {} \+</code></p>
+
+<ul>
+  <li>빈 (0 바이트) 파일을 찾아 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">루트_경로</span><code class="language-plaintext highlighter-rouge"> -type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f</span><code class="language-plaintext highlighter-rouge"> -empty -delete</code></p>

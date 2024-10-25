@@ -1,0 +1,34 @@
+<h1 id="svcs">svcs</h1>
+
+<p>இயங்கும் சேவைகள் பற்றிய தகவல்களை பட்டியலிடுங்கள்.
+மேலும் விவரத்திற்கு: <a href="https://www.unix.com/man-page/linux/1/svcs">https://www.unix.com/man-page/linux/1/svcs</a>.</p>
+
+<ul>
+  <li>இயங்கும் அனைத்து சேவைகளையும் பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs</code></p>
+
+<ul>
+  <li>இயங்காத சேவைகளை பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -vx</code></p>
+
+<ul>
+  <li>சேவையைப் பற்றிய தகவல்களைப் பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs apache</code></p>
+
+<ul>
+  <li>சேவை பதிவு கோப்பின் இருப்பிடத்தைக் காட்டு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -L apache</code></p>
+
+<ul>
+  <li>சேவை பதிவு கோப்பின் முடிவைக் காண்பி:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail $(svcs -L apache)</code></p>

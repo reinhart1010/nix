@@ -1,0 +1,52 @@
+<h1 id="lsblk">lsblk</h1>
+
+<p>Показує інформацію про пристрої.
+Більше інформації: <a href="https://manned.org/lsblk">https://manned.org/lsblk</a>.</p>
+
+<ul>
+  <li>Показати усі пристрої зберігання даних у деревоподібному форматі:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk</code></p>
+
+<ul>
+  <li>Також показати порожні пристрої:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -a</code></p>
+
+<ul>
+  <li>Показати стовпець SIZE у байтах, а не у форматі, зрозумілому людині:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -b</code></p>
+
+<ul>
+  <li>Вивести інформацію про файлові системи:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -f</code></p>
+
+<ul>
+  <li>Використати символи ASCII для форматування дерева:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -i</code></p>
+
+<ul>
+  <li>Вивести інформацію про топологію блочного пристрою:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -t</code></p>
+
+<ul>
+  <li>Виключити пристрої, указані в розділеному комами списку основних номерів пристроїв:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,7,…</span></p>
+
+<ul>
+  <li>Вивести налаштований підсумок за допомогою розділеного комами списку стовпців:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,…</span></p>

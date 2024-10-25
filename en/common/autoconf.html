@@ -1,0 +1,22 @@
+<h1 id="autoconf">autoconf</h1>
+
+<p>Generate configuration scripts to automatically configure software source code packages.
+More information: <a href="https://www.gnu.org/software/autoconf">https://www.gnu.org/software/autoconf</a>.</p>
+
+<ul>
+  <li>Generate a configuration script from <code class="language-plaintext highlighter-rouge">configure.ac</code> (if present) or <code class="language-plaintext highlighter-rouge">configure.in</code> and save this script to <code class="language-plaintext highlighter-rouge">configure</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoconf</code></p>
+
+<ul>
+  <li>Generate a configuration script from the specified template; output to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoconf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template-file</span></p>
+
+<ul>
+  <li>Generate a configuration script from the specified template (even if the input file has not changed) and write the output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoconf --force --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">outfile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template-file</span></p>

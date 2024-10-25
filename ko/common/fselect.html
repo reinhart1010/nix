@@ -1,0 +1,34 @@
+<h1 id="fselect">fselect</h1>
+
+<p>SQL과 유사한 쿼리로 파일을 찾음.
+더 많은 정보: <a href="https://github.com/jhspetersson/fselect">https://github.com/jhspetersson/fselect</a>.</p>
+
+<ul>
+  <li>특정 디렉터리의 임시 또는 구성 파일에서 전체 경로와 크기를 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fselect size, path from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span><code class="language-plaintext highlighter-rouge"> where name = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'*.cfg'</span><code class="language-plaintext highlighter-rouge"> or name = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'*.tmp'</span></p>
+
+<ul>
+  <li>정사각형 이미지 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fselect path from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span><code class="language-plaintext highlighter-rouge"> where width = height</code></p>
+
+<ul>
+  <li>옛날 랩 320kbps MP3 파일 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fselect path from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span><code class="language-plaintext highlighter-rouge"> where genre = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Rap</span><code class="language-plaintext highlighter-rouge"> and bitrate = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">320</span><code class="language-plaintext highlighter-rouge"> and mp3_year lt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2000</span></p>
+
+<ul>
+  <li>처음 5개 결과만 선택하고 JSON으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fselect size, path from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span><code class="language-plaintext highlighter-rouge"> limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> into json</code></p>
+
+<ul>
+  <li>SQL 집계 함수를 사용하여, 디렉터리에 있는 파일의 최소, 최대 및 평균 크기를 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fselect "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MIN(size), MAX(size), AVG(size), SUM(size), COUNT(*)</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span><code class="language-plaintext highlighter-rouge">"</code></p>

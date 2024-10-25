@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-rev-list">git rev-list</h1>
+
+<p>Liste les révisions (commits) dans l'ordre chronologique inverse.
+Plus d'informations : <a href="https://git-scm.com/docs/git-rev-list">https://git-scm.com/docs/git-rev-list</a>.</p>
+
+<ul>
+  <li>Lister tout les commits dans la branche courante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Lister tout les commits plus récents qu'une date spécifique, sur une branche spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list --since=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'2019-12-01 00:00:00'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master</span></p>
+
+<ul>
+  <li>Lister tout les commits de merge depuis un commit spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list --merges </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

@@ -1,0 +1,17 @@
+<h1 id="sbcast">sbcast</h1>
+
+<p>Send a file to a job's allocated nodes.
+This command should only be used from within a Slurm batch job.
+More information: <a href="https://slurm.schedmd.com/sbcast.html">https://slurm.schedmd.com/sbcast.html</a>.</p>
+
+<ul>
+  <li>Send a file to all nodes allocated to the current job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbcast </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span></p>
+
+<ul>
+  <li>Autodetect shared libraries the transmitted file depends upon and transmit them as well:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbcast --send-libs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yes</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span></p>

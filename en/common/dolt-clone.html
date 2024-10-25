@@ -1,0 +1,46 @@
+<h1 id="dolt-clone">dolt clone</h1>
+
+<p>Clone a repository into a new directory.
+More information: <a href="https://docs.dolthub.com/interfaces/cli#dolt-clone">https://docs.dolthub.com/interfaces/cli#dolt-clone</a>.</p>
+
+<ul>
+  <li>Clone an existing repository into a specific directory (defaults to the repository name):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Clone an existing repository and add a specific remote (defaults to origin):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt clone --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>
+
+<ul>
+  <li>Clone an existing repository only fetching a specific branch (defaults to all branches):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt clone --branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>
+
+<ul>
+  <li>Clone a repository, using an AWS region (uses the profile's default region if none is provided):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt clone --aws-region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>
+
+<ul>
+  <li>Clone a repository, using an AWS credentials file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt clone --aws-creds-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">credentials_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>
+
+<ul>
+  <li>Clone a repository, using an AWS credentials profile (uses the default profile if none is provided):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt clone --aws-creds-profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>
+
+<ul>
+  <li>Clone a repository, using an AWS credentials type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt clone --aws-creds-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">credentials_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>

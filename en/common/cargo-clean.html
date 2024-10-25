@@ -1,0 +1,28 @@
+<h1 id="cargo-clean">cargo clean</h1>
+
+<p>Remove generated artifacts in the <code class="language-plaintext highlighter-rouge">target</code> directory.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-clean.html">https://doc.rust-lang.org/cargo/commands/cargo-clean.html</a>.</p>
+
+<ul>
+  <li>Remove the entire <code class="language-plaintext highlighter-rouge">target</code> directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean</code></p>
+
+<ul>
+  <li>Remove documentation artifacts (the <code class="language-plaintext highlighter-rouge">target/doc</code> directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean --doc</code></p>
+
+<ul>
+  <li>Remove release artifacts (the <code class="language-plaintext highlighter-rouge">target/release</code> directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean --release</code></p>
+
+<ul>
+  <li>Remove artifacts in the directory of the given profile (in this case, <code class="language-plaintext highlighter-rouge">target/debug</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dev</span></p>

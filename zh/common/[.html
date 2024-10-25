@@ -1,0 +1,47 @@
+<h1>[</h1>
+
+<p>检查文件类型，比较数值。
+如果条件计算结果为真返回 0，如果计算结果为假返回 1。
+更多信息：<a href="https://gnu.org/software/bash/manual/bash.html#index-test">https://gnu.org/software/bash/manual/bash.html#index-test</a>.</p>
+
+<ul>
+  <li>测试一个给定的变量是否等于/不等于指定的字符串：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">变量</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">=|!=</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>测试一个给定的变量是否等于/不等于/大于/小于/大于等于/小于等于指定的数字：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">变量</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq|ne|gt|lt|ge|le</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数字</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>测试指定的变量的值是否非空：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -n "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">变量</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>测试指定变量的值是否为空：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -z "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">变量</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>测试指定文件是否存在：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>测试指定目录是否存在：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>测试指定文件或目录是否存在：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件或目录</span><code class="language-plaintext highlighter-rouge"> ]</code></p>

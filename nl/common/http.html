@@ -1,0 +1,52 @@
+<h1 id="http">http</h1>
+
+<p>HTTPie: een HTTP-client ontworpen voor het testen, debuggen en in het algemeen interactie met API's en HTTP-servers.
+Meer informatie: <a href="https://httpie.io/docs/cli/usage">https://httpie.io/docs/cli/usage</a>.</p>
+
+<ul>
+  <li>Maak een eenvoudige GET-aanvraag (toont response header en inhoud):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span></p>
+
+<ul>
+  <li>Print specifieke uitvoerinhoud (<code class="language-plaintext highlighter-rouge">H</code>: request headers, <code class="language-plaintext highlighter-rouge">B</code>: request body, <code class="language-plaintext highlighter-rouge">h</code>: response headers, <code class="language-plaintext highlighter-rouge">b</code>: response body, <code class="language-plaintext highlighter-rouge">m</code>: response metadata):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --print </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H|B|h|b|m|Hh|Hhb|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Specificeer de HTTP-methode bij het verzenden van een aanvraag en gebruik een proxy om de aanvraag te onderscheppen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|POST|HEAD|PUT|PATCH|DELETE|…</span><code class="language-plaintext highlighter-rouge"> --proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http|https</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://localhost:8080|socks5://localhost:9050|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Volg eventuele <code class="language-plaintext highlighter-rouge">3xx</code> redirects en specificeer extra headers in een verzoek:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-F|–follow</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'</span></p>
+
+<ul>
+  <li>Authenticeer bij een server met verschillende authenticatiemethoden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam:wachtwoord|token</span><code class="language-plaintext highlighter-rouge"> --auth-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">basic|digest|bearer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|POST|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/auth</span></p>
+
+<ul>
+  <li>Maak een verzoek maar verzend het niet (vergelijkbaar met een dry-run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --offline </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|DELETE|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Gebruik benoemde sessies voor aanhoudende aangepaste headers, auth-referenties en cookies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --session </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_naam|pad/naar/session.json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–auth gebruikersnaam:wachtwoord https://example.com/auth API-KEY:xxx</span></p>
+
+<ul>
+  <li>Upload een bestand naar een formulier (het onderstaande voorbeeld gaat ervan uit dat het formulier <code class="language-plaintext highlighter-rouge">&lt;input type="file" name="cv" /&gt;</code> is):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --form </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POST</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/upload</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cv@pad/naar/bestand</span></p>

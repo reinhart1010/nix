@@ -1,0 +1,28 @@
+<h1 id="docker-save">docker save</h1>
+
+<p>Exportar uma ou mais imagens do Docker para um arquivo de arquivamento.
+Mais informações: <a href="https://docs.docker.com/reference/cli/docker/image/save/">https://docs.docker.com/reference/cli/docker/image/save/</a>.</p>
+
+<ul>
+  <li>Salva uma imagem redirecionando <code class="language-plaintext highlighter-rouge">stdout</code> para um arquivo tar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.tar</span></p>
+
+<ul>
+  <li>Salva uma imagem em um arquivo tar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Salva todas as tags da imagem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_imagem</span></p>
+
+<ul>
+  <li>Seleciona tags específicas de uma imagem para salvar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_imagem:tag1 nome_da_imagem:tag2 …</span></p>

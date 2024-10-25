@@ -1,0 +1,40 @@
+<h1 id="aws-kendra">aws kendra</h1>
+
+<p>CLI para AWS Kendra.
+Más información: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/kendra/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/kendra/index.html</a>.</p>
+
+<ul>
+  <li>Crea un índice:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra create-index --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> --role-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rol_arn</span></p>
+
+<ul>
+  <li>Lista índices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra list-indexes</code></p>
+
+<ul>
+  <li>Describe un índice:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra describe-index --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_índice</span></p>
+
+<ul>
+  <li>Lista fuentes de datos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra list-data-sources</code></p>
+
+<ul>
+  <li>Describe una fuente de datos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra describe-data-source --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_fuente_datos</span></p>
+
+<ul>
+  <li>Lista consultas de búsqueda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra list-query-suggestions --index-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_índice</span><code class="language-plaintext highlighter-rouge"> --query-text </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto_consulta</span></p>

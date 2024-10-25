@@ -1,0 +1,34 @@
+<h1 id="git-check-ignore">git check-ignore</h1>
+
+<p>Analizza ed esegui il debug di ".gitignore" e dei file esclusi.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-check-ignore">https://git-scm.com/docs/git-check-ignore</a>.</p>
+
+<ul>
+  <li>Verifica se un file o una directory sono ignorati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span></p>
+
+<ul>
+  <li>Verifica se più file o directory sono ignorati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory1 percorso/del/file_o_directory2 …</span></p>
+
+<ul>
+  <li>Leggi i percorsi di file o directory da <code class="language-plaintext highlighter-rouge">stdin</code> (uno per riga) invece che dalla riga di comando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --stdin &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/lista_dei_file_o_directory</span></p>
+
+<ul>
+  <li>Non controllare nell'indice (usato per determinare il motivo per cui alcuni percorsi non sono ignorati):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --no-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory1 percorso/del/file_o_directory2 …</span></p>
+
+<ul>
+  <li>Includi dettagli sul pattern corrispondente per ogni percorso specificato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory1 percorso/del/file_o_directory2 …</span></p>

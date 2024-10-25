@@ -1,0 +1,40 @@
+<h1 id="cpulimit">cpulimit</h1>
+
+<p>A tool to throttle the CPU usage of other processes.
+More information: <a href="https://cpulimit.sourceforge.net/">https://cpulimit.sourceforge.net/</a>.</p>
+
+<ul>
+  <li>Limit an existing process with PID 1234 to only use 25% of the CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span><code class="language-plaintext highlighter-rouge"> --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25%</span></p>
+
+<ul>
+  <li>Limit an existing program by its executable name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --exe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span><code class="language-plaintext highlighter-rouge"> --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span></p>
+
+<ul>
+  <li>Launch a given program and limit it to only use 50% of the CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program argument1 argument2 …</span></p>
+
+<ul>
+  <li>Launch a program, limit its CPU usage to 50% and run cpulimit in the background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> --background -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Kill its process if the program's CPU usage goes over 50%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit 50 --kill -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Throttle both it and its child processes so that none go about 25% CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span><code class="language-plaintext highlighter-rouge"> --monitor-forks -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>

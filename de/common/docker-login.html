@@ -1,0 +1,28 @@
+<h1 id="docker-login">docker login</h1>
+
+<p>Bei einer Docker Registry einloggen.
+Weitere Informationen: <a href="https://docs.docker.com/reference/cli/docker/login/">https://docs.docker.com/reference/cli/docker/login/</a>.</p>
+
+<ul>
+  <li>Interaktives Einloggen bei einer Registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login</code></p>
+
+<ul>
+  <li>Einloggen mit einem angegebenen Benutzernamen (fragt nach dem Passwort):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span></p>
+
+<ul>
+  <li>Einloggen mit einem angegebenen Benutzernamen und Passwort:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">passwort</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span></p>
+
+<ul>
+  <li>Einloggen mit einem Passwort, welches von <code class="language-plaintext highlighter-rouge">stdin</code> gelesen wird:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">passwort</span><code class="language-plaintext highlighter-rouge">" | docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span><code class="language-plaintext highlighter-rouge"> --password-stdin</code></p>

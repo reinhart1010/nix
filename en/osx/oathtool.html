@@ -1,0 +1,21 @@
+<h1 id="oathtool">oathtool</h1>
+
+<p>OATH one-time password tool.</p>
+
+<ul>
+  <li>Generate TOTP token (behaves like Google Authenticator):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oathtool --totp --base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret</span></p>
+
+<ul>
+  <li>Generate a TOTP token for a specific time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oathtool --totp --now </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2004-02-29 16:21:42</span><code class="language-plaintext highlighter-rouge"> --base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret</span></p>
+
+<ul>
+  <li>Validate a TOTP token:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oathtool --totp --base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span></p>

@@ -1,0 +1,40 @@
+<h1 id="say">say</h1>
+
+<p>Convert text to speech.
+More information: <a href="https://keith.github.io/xcode-man-pages/say.1.html">https://keith.github.io/xcode-man-pages/say.1.html</a>.</p>
+
+<ul>
+  <li>Say a phrase aloud:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">I like to ride my bike.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Read a file aloud:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --input-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.txt</span></p>
+
+<ul>
+  <li>Say a phrase with a custom voice and speech rate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --voice=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voice</span><code class="language-plaintext highlighter-rouge"> --rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">words_per_minute</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">I'm sorry Dave, I can't let you do that.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List the available voices (different voices speak in different languages):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --voice="?"</code></p>
+
+<ul>
+  <li>Say something in Polish:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --voice=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Zosia</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Litwo, ojczyzno moja!</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create an audio file of the spoken text:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --output-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.aiff</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Here's to the Crazy Ones.</span><code class="language-plaintext highlighter-rouge">"</code></p>

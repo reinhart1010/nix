@@ -1,0 +1,52 @@
+<h1 id="shellcheck">shellcheck</h1>
+
+<p>Statically check shell scripts for errors, usage of deprecated/insecure features, and bad practices.
+More information: <a href="https://github.com/koalaman/shellcheck/wiki">https://github.com/koalaman/shellcheck/wiki</a>.</p>
+
+<ul>
+  <li>Check a shell script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shellcheck </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span></p>
+
+<ul>
+  <li>Check a shell script interpreting it as the specified [s]hell dialect (overrides the shebang at the top of the script):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shellcheck --shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh|bash|dash|ksh</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span></p>
+
+<ul>
+  <li>Ignor[e] one or more error types:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shellcheck --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SC1009,SC1073,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span></p>
+
+<ul>
+  <li>Also check any sourced shell scripts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shellcheck --check-sourced </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span></p>
+
+<ul>
+  <li>Display output in the specified [f]ormat (defaults to <code class="language-plaintext highlighter-rouge">tty</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shellcheck --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty|checkstyle|diff|gcc|json|json1|quiet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span></p>
+
+<ul>
+  <li>Enable one or more [o]ptional checks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shellcheck --enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">add-default-case,avoid-nullary-conditions,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span></p>
+
+<ul>
+  <li>List all available optional checks that are disabled by default:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shellcheck --list-optional</code></p>
+
+<ul>
+  <li>Adjust the level of [S]everity to consider (defaults to <code class="language-plaintext highlighter-rouge">style</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shellcheck --severity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error|warning|info|style</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span></p>

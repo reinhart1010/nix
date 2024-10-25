@@ -1,0 +1,53 @@
+<h1 id="hledger-balance">hledger balance</h1>
+
+<p>A flexible, general purpose "summing" report that shows accounts with some kind of numeric data.
+This can be balance changes per period, end balances, budget performance, unrealised capital gains, etc.
+More information: <a href="https://hledger.org/hledger.html#balance">https://hledger.org/hledger.html#balance</a>.</p>
+
+<ul>
+  <li>Show the balance change in all accounts from all postings over all time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger balance</code></p>
+
+<ul>
+  <li>Show the balance change in accounts named <code class="language-plaintext highlighter-rouge">*expenses*</code>, as a tree, summarising the top two levels only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger balance </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expenses</span><code class="language-plaintext highlighter-rouge"> --tree --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Show expenses each month, and their totals and averages, sorted by total; and their monthly budget goals:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger balance </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expenses</span><code class="language-plaintext highlighter-rouge"> --monthly --row-total --average --sort-amount --budget</code></p>
+
+<ul>
+  <li>Similar to the above, shorter form, matching accounts by <code class="language-plaintext highlighter-rouge">Expense</code> type, as a two level tree without squashing boring accounts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger bal type:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">X</span><code class="language-plaintext highlighter-rouge"> -MTAS --budget -t -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --no-elide</code></p>
+
+<ul>
+  <li>Show end balances (including from postings before the start date), quarterly in 2024, in accounts named <code class="language-plaintext highlighter-rouge">*assets*</code> or <code class="language-plaintext highlighter-rouge">*liabilities*</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger balance --historical --period '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quarterly in 2024</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assets</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">liabilities</span></p>
+
+<ul>
+  <li>Similar to the above, shorter form; also show zero balances, sort by total and summarise to three levels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger bal -HQ date:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2024</span><code class="language-plaintext highlighter-rouge"> type:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AL</span><code class="language-plaintext highlighter-rouge"> -ES -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Show investment assets' market value in base currency at the end of each quarter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger bal -HVQ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assets:investments</span></p>
+
+<ul>
+  <li>Show unrealised capital gains/losses from market price changes in each quarter, for non-cryptocurrency investment assets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger bal --gain -Q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assets:investments</span><code class="language-plaintext highlighter-rouge"> not:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cryptocurrency</span></p>

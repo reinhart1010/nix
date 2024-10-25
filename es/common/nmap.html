@@ -1,0 +1,53 @@
+<h1 id="nmap">nmap</h1>
+
+<p>Herramienta de exploración de redes y escáner de seguridad/puertos.
+Algunas funciones (p. ej. escaneo SYN) se activan solamente cuando <code class="language-plaintext highlighter-rouge">nmap</code> es ejecutado con los permisos del superusuario.
+Más información: <a href="https://nmap.org/book/man.html">https://nmap.org/book/man.html</a>.</p>
+
+<ul>
+  <li>Escanea los top 1000 puertos de un host remoto con varios niveles de [v]erbosidad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -v</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombre_de_host</span></p>
+
+<ul>
+  <li>Ejecuta un barrido de ping en toda una subred o en hosts individuales de forma muy agresiva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -T5 -sn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.0/24|ip_o_nombre_de_host1,ip_o_nombre_de_host2,…</span></p>
+
+<ul>
+  <li>Activa la detección de sistemas operativos, la detección de versión, el escaneo con secuencias de comandos y traceroute de hosts desde un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nmap -A -iL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.txt</span></p>
+
+<ul>
+  <li>Escanea una lista específica de puertos (usa -p- para todos los puertos de 1 a 65535):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto1,puerto2,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_host1,ip_o_host2,…</span></p>
+
+<ul>
+  <li>Detecta el servicio y versión de los top 1000 puertos usando las secuencias de comandos NSE por defecto y escribe los resultados (<code class="language-plaintext highlighter-rouge">-oA</code>) en archivos de salida:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -sC -sV -oA </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">top-1000-ports</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_host1,ip_o_host2,…</span></p>
+
+<ul>
+  <li>Escanea objetivo(s) cuidadosamente usando las secuencias de comandos NSE <code class="language-plaintext highlighter-rouge">default and safe</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap --script "default and safe" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_host1,ip_o_host2,…</span></p>
+
+<ul>
+  <li>Escanea servidores web ejecutándose en los puertos estándares 80 y 443 usando todas las secuencias de comando <code class="language-plaintext highlighter-rouge">http-*</code> NSE disponibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap --script "http-*" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_host1,ip_o_host2,…</span><code class="language-plaintext highlighter-rouge"> -p 80,443</code></p>
+
+<ul>
+  <li>Intentar evadi la detección IDS/IPS utilizando un escaneo extremadamente lento (<code class="language-plaintext highlighter-rouge">-T0</code>) y usando direcciones de origen de señuelo (<code class="language-plaintext highlighter-rouge">-D</code>), paquetes [f]ragmentados, datos aleatorios y otros métodos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nmap -T0 -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_de_señuelo1,ip_de_señuelo2,…</span><code class="language-plaintext highlighter-rouge"> --source-port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">53</span><code class="language-plaintext highlighter-rouge"> -f --data-length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span><code class="language-plaintext highlighter-rouge"> -Pn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_host</span></p>

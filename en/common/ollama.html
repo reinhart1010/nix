@@ -1,0 +1,53 @@
+<h1 id="ollama">ollama</h1>
+
+<p>A large language model runner.
+For a list of available models, see <a href="https://ollama.com/library">https://ollama.com/library</a>.
+More information: <a href="https://github.com/ollama/ollama">https://github.com/ollama/ollama</a>.</p>
+
+<ul>
+  <li>Start the daemon required to run other commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama serve</code></p>
+
+<ul>
+  <li>Run a model and chat with it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">model</span></p>
+
+<ul>
+  <li>Run a model with a single prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">model</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span></p>
+
+<ul>
+  <li>List downloaded models:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama list</code></p>
+
+<ul>
+  <li>Pull/Update a specific model:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">model</span></p>
+
+<ul>
+  <li>List running models:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama ps</code></p>
+
+<ul>
+  <li>Delete a model:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">model</span></p>
+
+<ul>
+  <li>Create a model from a <code class="language-plaintext highlighter-rouge">Modelfile</code> ([f]):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_model_name</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Modelfile</span></p>

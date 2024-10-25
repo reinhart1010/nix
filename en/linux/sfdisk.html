@@ -1,0 +1,34 @@
+<h1 id="sfdisk">sfdisk</h1>
+
+<p>Display or manipulate a disk partition table.
+More information: <a href="https://manned.org/sfdisk">https://manned.org/sfdisk</a>.</p>
+
+<ul>
+  <li>Back up the partition layout to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo sfdisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–dump</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.dump</span></p>
+
+<ul>
+  <li>Restore a partition layout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo sfdisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.dump</span></p>
+
+<ul>
+  <li>Set the type of a partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfdisk --part-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device}</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partition_number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">swap</span></p>
+
+<ul>
+  <li>Delete a partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfdisk --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partition_number</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfdisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

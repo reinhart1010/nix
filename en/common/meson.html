@@ -1,0 +1,40 @@
+<h1 id="meson">meson</h1>
+
+<p>SCons-like build system that uses Python as a front-end language and Ninja as a building backend.
+More information: <a href="https://mesonbuild.com">https://mesonbuild.com</a>.</p>
+
+<ul>
+  <li>Generate a C project with a given name and version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">meson init --language=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c</span><code class="language-plaintext highlighter-rouge"> --name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myproject</span><code class="language-plaintext highlighter-rouge"> --version=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.1</span></p>
+
+<ul>
+  <li>Configure the <code class="language-plaintext highlighter-rouge">builddir</code> with default values:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">meson setup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">build_dir</span></p>
+
+<ul>
+  <li>Build the project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">meson compile -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_dir</span></p>
+
+<ul>
+  <li>Run all tests in the project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">meson test</code></p>
+
+<ul>
+  <li>Show the help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">meson --help</code></p>
+
+<ul>
+  <li>Display version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">meson --version</code></p>

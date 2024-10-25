@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="base64">base64</h1>
+
+<p>使用 Base64 来进行编码和解码。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/base64.1.html">https://keith.github.io/xcode-man-pages/base64.1.html</a>.</p>
+
+<ul>
+  <li>编码目标文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 --input=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件</span></p>
+
+<ul>
+  <li>解码目标文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 --decode --input=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base64 编码文件</span></p>
+
+<ul>
+  <li>通过标准输入管道进行解码：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标字符串</span><code class="language-plaintext highlighter-rouge">" | base64</code></p>
+
+<ul>
+  <li>解码标准输入管道内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base64 字符串</span><code class="language-plaintext highlighter-rouge"> | base64 --decode</code></p>

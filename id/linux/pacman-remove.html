@@ -1,0 +1,47 @@
+<h1 id="pacman-remove">pacman –remove</h1>
+
+<p>Kegunaan manajer paket Arch Linux.
+Guarda anche: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Informasi lebih lanjut: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Hapus paket beserta dependensinya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Hapus paket beserta dependensi dan file konfigurasi-nya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive --nosave </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Hapus tanpa konfirmasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Hapus paket yatim piatu (diinstal sebagai dependensi namun tidak dibutuhkan oleh paket apa pun):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)</code></p>
+
+<ul>
+  <li>Hapus paket dan semua paket yang bergantung pada paket tersebut:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --cascade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Tampilkan daftar paket yang akan terpengaruh (tidak menghapus paket apa pun):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --remove --print </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Tampilkan bantuan untuk subperintah ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --remove --help</code></p>

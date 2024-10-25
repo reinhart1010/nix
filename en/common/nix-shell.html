@@ -1,0 +1,41 @@
+<h1 id="nix-shell">nix-shell</h1>
+
+<p>Start an interactive shell based on a Nix expression.
+See also: <code class="language-plaintext highlighter-rouge">nix3 shell</code>.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/nix-shell.html">https://nixos.org/manual/nix/stable/command-ref/nix-shell.html</a>.</p>
+
+<ul>
+  <li>Start with nix expression in <code class="language-plaintext highlighter-rouge">shell.nix</code> or <code class="language-plaintext highlighter-rouge">default.nix</code> in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell</code></p>
+
+<ul>
+  <li>Run shell command in non-interactive shell and exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell --run "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Start with expression in <code class="language-plaintext highlighter-rouge">default.nix</code> in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default.nix</span></p>
+
+<ul>
+  <li>Start with packages loaded from nixpkgs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell --packages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>Start with packages loaded from specific nixpkgs revision:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell --packages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span><code class="language-plaintext highlighter-rouge"> -I nixpkgs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz</span></p>
+
+<ul>
+  <li>Evaluate rest of file in specific interpreter, for use in <code class="language-plaintext highlighter-rouge">#!-scripts</code> (see <a href="https://nixos.org/manual/nix/stable/#use-as-a-interpreter">https://nixos.org/manual/nix/stable/#use-as-a-interpreter</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interpreter</span><code class="language-plaintext highlighter-rouge"> --packages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>

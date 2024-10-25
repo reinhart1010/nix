@@ -1,0 +1,53 @@
+<h1 id="aws">aws</h1>
+
+<p>Alat baris perintah (CLI) resmi untuk Amazon Web Services.
+Beberapa subperintah seperti <code class="language-plaintext highlighter-rouge">s3</code> mempunyai dokumentasi terpisah.
+Informasi lebih lanjut: <a href="https://aws.amazon.com/cli">https://aws.amazon.com/cli</a>.</p>
+
+<ul>
+  <li>Atur penggunaan AWS Command-line secara umum:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure wizard</code></p>
+
+<ul>
+  <li>Atur penggunaan AWS Command-line menggunakan SSO:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure sso</code></p>
+
+<ul>
+  <li>Dapatkan identitas pemanggil perintah (digunakan untuk menyelesaikan permasalahan yang berkaitan dengan hak akses):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sts get-caller-identity</code></p>
+
+<ul>
+  <li>Tampilkan daftar sumber daya AWS dalam suatu wilayah (region) ke dalam format YAML:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb list-tables --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span><code class="language-plaintext highlighter-rouge"> --output yaml</code></p>
+
+<ul>
+  <li>Gunakan fitur auto prompt untuk membantu melakukan suatu perintah:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam create-user --cli-auto-prompt</code></p>
+
+<ul>
+  <li>Jalankan perintah wizard terhadap suatu sumber daya AWS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb wizard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_table</span></p>
+
+<ul>
+  <li>Buat suatu berkas JSON CLI Skeleton (berguna untuk mengatur infrastruktur sebagai perintah kode):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb update-table --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>Tampilkan bantuan terhadap suatu perintah:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge"> help</code></p>

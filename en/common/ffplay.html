@@ -1,0 +1,34 @@
+<h1 id="ffplay">ffplay</h1>
+
+<p>A simple and portable media player using the FFmpeg libraries and the SDL library.
+More information: <a href="https://ffmpeg.org/ffplay-all.html">https://ffmpeg.org/ffplay-all.html</a>.</p>
+
+<ul>
+  <li>Play a media file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffplay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Play audio from a media file without a GUI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffplay -nodisp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Play media passed by <code class="language-plaintext highlighter-rouge">ffmpeg</code> through <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">copy</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media_format</span><code class="language-plaintext highlighter-rouge"> - | ffplay -</code></p>
+
+<ul>
+  <li>Play a video and show motion vectors in real time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffplay -flags2 +export_mvs -vf codecview=mv=pf+bf+bb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Show only video keyframes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffplay -vf select="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq(pict_type\,PICT_TYPE_I)</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="useradd">useradd</h1>
+
+<p>Crea un usuario nuevo.
+Más información: <a href="https://manned.org/useradd">https://manned.org/useradd</a>.</p>
+
+<ul>
+  <li>Crea un usuario nuevo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Crea un usuario nuevo con el directorio home predeterminado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">useradd --create-home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Crea un usuario nuevo con una shell específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">useradd --shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Crea un usuario nuevo perteneciente a grupos adicionales (tener en cuenta que no existen espacios en blanco):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">useradd --groups </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo1,grupo2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Crea un usuario nuevo del sistema sin directorio home:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">useradd --no-create-home --system </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>

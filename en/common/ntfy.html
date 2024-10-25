@@ -1,0 +1,40 @@
+<h1 id="ntfy">ntfy</h1>
+
+<p>Send and receive HTTP POST notifications.
+More information: <a href="https://github.com/binwiederhier/ntfy">https://github.com/binwiederhier/ntfy</a>.</p>
+
+<ul>
+  <li>Send a message to the <code class="language-plaintext highlighter-rouge">security</code> topic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy pub security "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Front door has been opened.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Send with a title, priority and tags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy publish --title="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Someone bought your item</span><code class="language-plaintext highlighter-rouge">" --priority=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">high</span><code class="language-plaintext highlighter-rouge"> --tags=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">duck</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ebay</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Someone just bought your item: Platypus Sculpture</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Send at 8:30am:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy pub --at=8:30am </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delayed_topic</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Time for school, sleepyhead…</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Trigger a webhook:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy trigger </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_webhook</span></p>
+
+<ul>
+  <li>Subscribe to a topic (Ctrl-C to stop listening):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy sub </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">home_automation</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy --help</code></p>

@@ -1,0 +1,40 @@
+<h1 id="glab-issue">glab issue</h1>
+
+<p>Manage GitLab issues.
+More information: <a href="https://glab.readthedocs.io/en/latest/issue">https://glab.readthedocs.io/en/latest/issue</a>.</p>
+
+<ul>
+  <li>Display a specific issue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_number</span></p>
+
+<ul>
+  <li>Display a specific issue in the default web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_number</span><code class="language-plaintext highlighter-rouge"> --web</code></p>
+
+<ul>
+  <li>Create a new issue in the default web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue create --web</code></p>
+
+<ul>
+  <li>List the last 10 issues with the <code class="language-plaintext highlighter-rouge">bug</code> label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue list --per-page </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --label "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bug</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List closed issues made by a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue list --closed --author </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Reopen a specific issue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue reopen </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_number</span></p>

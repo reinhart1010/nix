@@ -1,0 +1,52 @@
+<h1 id="babel">babel</h1>
+
+<p>A transpiler which converts code from JavaScript ES6/ES7 syntax to ES5 syntax.
+More information: <a href="https://babeljs.io/">https://babeljs.io/</a>.</p>
+
+<ul>
+  <li>Transpile a specified input file and output to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Transpile a specified input file and output to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> --out-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Transpile the input file every time it is changed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> --watch</code></p>
+
+<ul>
+  <li>Transpile a whole directory of files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span></p>
+
+<ul>
+  <li>Ignore specified comma-separated files in a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span><code class="language-plaintext highlighter-rouge"> --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ignored_file1,ignored_file2,…</span></p>
+
+<ul>
+  <li>Transpile and output as minified JavaScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> --minified</code></p>
+
+<ul>
+  <li>Choose a set of presets for output formatting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> --presets </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">preset1,preset2,…</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel --help</code></p>

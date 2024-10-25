@@ -1,0 +1,29 @@
+<h1 id="az-storage-queue">az storage queue</h1>
+
+<p>Manage storage queues in Azure.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/storage/queue">https://learn.microsoft.com/cli/azure/storage/queue</a>.</p>
+
+<ul>
+  <li>Create a queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage queue create --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span><code class="language-plaintext highlighter-rouge"> --metadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_metadata</span></p>
+
+<ul>
+  <li>Generate a shared access signature for the queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage queue generate-sas --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span><code class="language-plaintext highlighter-rouge"> --permissions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_permissions</span><code class="language-plaintext highlighter-rouge"> --expiry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expiry_date</span><code class="language-plaintext highlighter-rouge"> --https-only</code></p>
+
+<ul>
+  <li>List queues in a storage account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage queue list --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter_prefix</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span></p>
+
+<ul>
+  <li>Delete the specified queue and any messages it contains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage queue delete --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span><code class="language-plaintext highlighter-rouge"> --fail-not-exist</code></p>

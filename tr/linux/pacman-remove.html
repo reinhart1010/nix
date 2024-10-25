@@ -1,0 +1,47 @@
+<h1 id="pacman-remove">pacman –remove</h1>
+
+<p>Arch Linux paket yönetim aracı.
+Ayrıca bakınız: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Daha fazla bilgi için: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Bir paket ve bağlılıklarını sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span></p>
+
+<ul>
+  <li>Bir paketi ve onun hem bağlılıklarını, hem de konfigürasyon dosyalarını sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive --nosave </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span></p>
+
+<ul>
+  <li>Bir paketi telkin olmaksızın sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span></p>
+
+<ul>
+  <li>Yetim (başka bir pakete bağlılık olarak indirilmiş ancak herhangi bir paket tarafından gerektirilmeyen) paketleri sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)</code></p>
+
+<ul>
+  <li>Bir paketi ve ona bağlı olan tüm öbür paketleri sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --cascade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span></p>
+
+<ul>
+  <li>(Bir paketin silinme durumunda) Etkilenecek paketleri (silmeden) listele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --remove --print </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span></p>
+
+<ul>
+  <li>Bu alt komut için yardım göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --remove --help</code></p>

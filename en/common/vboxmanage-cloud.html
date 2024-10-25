@@ -1,0 +1,52 @@
+<h1 id="vboxmanage-cloud">vboxmanage-cloud</h1>
+
+<p>VirtualBox command-line interface for managing cloud instances and images.
+More information: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-cloud">https://www.virtualbox.org/manual/ch08.html#vboxmanage-cloud</a>.</p>
+
+<ul>
+  <li>List the instances in the specified state belonging to the specified compartment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">provider_name</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span><code class="language-plaintext highlighter-rouge"> list instances --state=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">running|terminated|paused</span><code class="language-plaintext highlighter-rouge"> --compartment-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compartment_id</span></p>
+
+<ul>
+  <li>Create a new instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">provider_name</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span><code class="language-plaintext highlighter-rouge"> instance create --domain-name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span><code class="language-plaintext highlighter-rouge"> --image-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_id</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–options…</span></p>
+
+<ul>
+  <li>Gather information about a particular instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">provider_name</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span><code class="language-plaintext highlighter-rouge"> instance info --id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unique_id</span></p>
+
+<ul>
+  <li>Terminate an instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">provider_name</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span><code class="language-plaintext highlighter-rouge"> instance terminate --id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unique_id</span></p>
+
+<ul>
+  <li>List images within a specific compartment and state:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">provider_name</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span><code class="language-plaintext highlighter-rouge"> list images --compartment-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compartment_id</span><code class="language-plaintext highlighter-rouge"> --state=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">state_name</span></p>
+
+<ul>
+  <li>Create a new image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">provider_name</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span><code class="language-plaintext highlighter-rouge"> image create --instance-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_id</span><code class="language-plaintext highlighter-rouge"> --display-name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">display_name</span><code class="language-plaintext highlighter-rouge"> --compartment-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compartment_id</span></p>
+
+<ul>
+  <li>Retrieve information about a particular image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">provider_name</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span><code class="language-plaintext highlighter-rouge"> image info --id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unique_id</span></p>
+
+<ul>
+  <li>Delete an image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">provider_name</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span><code class="language-plaintext highlighter-rouge"> image delete --id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unique_id</span></p>

@@ -1,0 +1,52 @@
+<h1 id="aws-ce">aws-ce</h1>
+
+<p>클라우드 환경에서 액세스 제어 및 보안 설정 분석 및 관리.
+더 많은 정보: <a href="https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html">https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html</a>.</p>
+
+<ul>
+  <li>새로운 접근 제어 분석기 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awe-ce create-analyzer --analyzer-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">분석기_이름</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타입</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span></p>
+
+<ul>
+  <li>존재하는 접근 제어 분석기 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awe-ce delete-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span></p>
+
+<ul>
+  <li>특정 접근 제어 분석기 세부 정보 얻기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awe-ce get-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span></p>
+
+<ul>
+  <li>모든 접근 제어 분석기 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awe-ce list-analyzers</code></p>
+
+<ul>
+  <li>접근 제어 분석기 설정 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awe-ce update-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새로운_태그</span></p>
+
+<ul>
+  <li>새로운 접근 제어 분석기 아카이브 규칙 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awe-ce create-archive-rule --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙_이름</span><code class="language-plaintext highlighter-rouge"> --filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필터</span></p>
+
+<ul>
+  <li>접근 제어 분석기 아카이브 규칙 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awe-ce delete-archive-rule --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙_이름</span></p>
+
+<ul>
+  <li>모든 접근 제어 분석기 아카이브 규칙 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awe-ce list-archive-rules --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span></p>

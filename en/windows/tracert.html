@@ -1,0 +1,40 @@
+<h1 id="tracert">tracert</h1>
+
+<p>Receive information about each step in the route between your PC and the target.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/tracert">https://learn.microsoft.com/windows-server/administration/windows-commands/tracert</a>.</p>
+
+<ul>
+  <li>Trace a route:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>Prevent <code class="language-plaintext highlighter-rouge">tracert</code> from resolving IP addresses to hostnames:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert /d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>Force <code class="language-plaintext highlighter-rouge">tracert</code> to use IPv4 only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert /4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>Force <code class="language-plaintext highlighter-rouge">tracert</code> to use IPv6 only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert /6 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>Specify the maximum number of hops in the search for the target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert /h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_hops</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert /?</code></p>

@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="xclip">xclip</h1>
+
+<p>Outil de manipulation de presse-papiers X11, semblable à <code class="language-plaintext highlighter-rouge">xsel</code>.
+Gère les sélections primaires et secondaires de X, en plus du presse-papier système (<code class="language-plaintext highlighter-rouge">Ctrl + C</code>/<code class="language-plaintext highlighter-rouge">Ctrl + V</code>).
+Plus d'informations : <a href="https://manned.org/xclip">https://manned.org/xclip</a>.</p>
+
+<ul>
+  <li>Copie la sortie d'une commande vers la zone de sélection primaire de X11 (presse-papiers) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xclip</code></p>
+
+<ul>
+  <li>Copie la sortie d'une commande vers une zone de sélection de X11 donnée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xclip -selection </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">primary|secondary|clipboard</span></p>
+
+<ul>
+  <li>Copie le contenu d'un fichier vers le presse-papiers système, avec la notation courte :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xclip -sel clip</code></p>
+
+<ul>
+  <li>Copie le contenu d'un fichier vers le presse-papiers système :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -sel clip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_entrée.txt</span></p>
+
+<ul>
+  <li>Copie le contenu d'une image PNG vers le presse-papiers système (peut être collé dans d'autres programmes correctement) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -sel clip -t image/png </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_entrée.png</span></p>
+
+<ul>
+  <li>Colle le contenu de la zone de sélection de X11 à la console :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -o</code></p>
+
+<ul>
+  <li>Colle le contenu du presse-papier système à la console :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -o -sel clip</code></p>

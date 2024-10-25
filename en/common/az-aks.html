@@ -1,0 +1,35 @@
+<h1 id="az-aks">az aks</h1>
+
+<p>Manage Azure Kubernetes Service (AKS) clusters.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/aks">https://learn.microsoft.com/cli/azure/aks</a>.</p>
+
+<ul>
+  <li>List AKS clusters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az aks list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span></p>
+
+<ul>
+  <li>Create a new AKS cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az aks create --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --node-count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span><code class="language-plaintext highlighter-rouge"> --node-vm-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span></p>
+
+<ul>
+  <li>Delete an AKS cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az aks delete --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Get the access credentials for an AKS cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az aks get-credentials --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Get the upgrade versions available for an AKS cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az aks get-upgrades --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

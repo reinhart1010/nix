@@ -1,0 +1,46 @@
+<h1 id="copyq">copyq</h1>
+
+<p>Clipboard manager with advanced features.
+More information: <a href="https://copyq.readthedocs.io/en/latest/command-line.html">https://copyq.readthedocs.io/en/latest/command-line.html</a>.</p>
+
+<ul>
+  <li>Launch CopyQ to store clipboard history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq</code></p>
+
+<ul>
+  <li>Show current clipboard content:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq clipboard</code></p>
+
+<ul>
+  <li>Insert raw text into the clipboard history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq add -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text3</span></p>
+
+<ul>
+  <li>Insert text containing escape sequences ('\n', '\t') into the clipboard history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firstline\nsecondline</span></p>
+
+<ul>
+  <li>Print the content of the first 3 items in the clipboard history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq read 0 1 2</code></p>
+
+<ul>
+  <li>Copy a file's contents into the clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq copy &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Copy a JPEG image into the clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq copy image/jpeg &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span></p>

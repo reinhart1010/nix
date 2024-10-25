@@ -1,0 +1,23 @@
+<h1 id="test-json">Test-Json</h1>
+
+<p>Test whether a string is a valid JSON document.
+Note: This command can only be used through PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/test-json">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/test-json</a>.</p>
+
+<ul>
+  <li>Test if a string from <code class="language-plaintext highlighter-rouge">stdin</code> is in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">' | Test-Json</code></p>
+
+<ul>
+  <li>Test if a string JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Test-Json -Json '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json_to_test</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Test if a string from <code class="language-plaintext highlighter-rouge">stdin</code> matches a specific schema file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">' | Test-Json -SchemaFile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\schema_file.json</span></p>

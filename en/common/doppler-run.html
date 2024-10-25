@@ -1,0 +1,34 @@
+<h1 id="doppler-run">doppler run</h1>
+
+<p>Run a command with Doppler secrets injected into the environment.
+More information: <a href="https://docs.doppler.com/docs/cli#run-a-command-with-secrets-populated-in-environment">https://docs.doppler.com/docs/cli#run-a-command-with-secrets-populated-in-environment</a>.</p>
+
+<ul>
+  <li>Run a command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doppler run --command </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run multiple commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doppler run --command </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1 &amp;&amp; command2</span></p>
+
+<ul>
+  <li>Run a script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doppler run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/command.sh</span></p>
+
+<ul>
+  <li>Run command with specified project and config:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doppler run -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config_name</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Automatically restart process when secrets change:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doppler run --watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

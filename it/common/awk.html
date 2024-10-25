@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="awk">awk</h1>
+
+<p>Un versatile linguaggio di programmazione per elaborare file.
+Maggiori informazioni: <a href="https://github.com/onetrueawk/awk">https://github.com/onetrueawk/awk</a>.</p>
+
+<ul>
+  <li>Stampa la quinta colonna (field) in un file di linee separate da spazi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{print $5}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span></p>
+
+<ul>
+  <li>Stampa la seconda colonna delle linee contenenti "qualcosa":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">qualcosa</span><code class="language-plaintext highlighter-rouge">/ {print $2}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span></p>
+
+<ul>
+  <li>Stampa l'ultima colonna di ogni linea di un file, utilizzando la virgola (invece dello spazio) come separatore di colonne:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk -F ',' '{print $NF}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span></p>
+
+<ul>
+  <li>Somma i valori nella prima colonna di un file e stampa il totale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{s+=$1} END {print s}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span></p>
+
+<ul>
+  <li>Somma i valori nella prima colonna e stampali seguiti dal totale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{s+=$1; print $1} END {print "--------"; print s}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span></p>
+
+<ul>
+  <li>Stampa una liena ogni tre iniziando dalla prima:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk 'NR%3==1' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span></p>

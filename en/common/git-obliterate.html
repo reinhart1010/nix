@@ -1,0 +1,17 @@
+<h1 id="git-obliterate">git obliterate</h1>
+
+<p>Delete files and erase their history from a Git repository.
+Part of <code class="language-plaintext highlighter-rouge">git-extras</code>.
+More information: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-obliterate">https://github.com/tj/git-extras/blob/master/Commands.md#git-obliterate</a>.</p>
+
+<ul>
+  <li>Erase the existence of specific files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git obliterate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_1 file_2 …</span></p>
+
+<ul>
+  <li>Erase the existence of specific files between 2 commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git obliterate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_1 file_2 …</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash_1</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash_2</span></p>

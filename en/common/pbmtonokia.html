@@ -1,0 +1,40 @@
+<h1 id="pbmtonokia">pbmtonokia</h1>
+
+<p>Convert a PBM image to one of Nokia's Smart Messaging Formats .
+More information: <a href="https://netpbm.sourceforge.net/doc/pbmtonokia.html">https://netpbm.sourceforge.net/doc/pbmtonokia.html</a>.</p>
+
+<ul>
+  <li>Convert a PBM image into a Nokia Operator Logo as hexcode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtonokia -fmt NEX_NOL -net </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_operator_code</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.hex</span></p>
+
+<ul>
+  <li>Convert a PBM image into a Nokia Group Graphic as hexcode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtonokia -fmt NEX_NGG </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.hex</span></p>
+
+<ul>
+  <li>Convert a PBM image into a Nokia Picture Message with the specified text as hexcode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtonokia -fmt NEX_NPM -txt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text_message</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.hex</span></p>
+
+<ul>
+  <li>Convert a PBM image into a Nokia Operator Logo as a NOL file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtonokia -fmt NOL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.nol</span></p>
+
+<ul>
+  <li>Convert a PBM image into a Nokia Group Graphic as an NGG file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtonokia -fmt NGG </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ngg</span></p>
+
+<ul>
+  <li>Convert a PBM image into a Nokia Picture Message as an NPM file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtonokia -fmt NPM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.npm</span></p>

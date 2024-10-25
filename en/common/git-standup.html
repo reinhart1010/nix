@@ -1,0 +1,29 @@
+<h1 id="git-standup">git standup</h1>
+
+<p>See commits from a specified user.
+Part of <code class="language-plaintext highlighter-rouge">git-extras</code>.
+More information: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-standup">https://github.com/tj/git-extras/blob/master/Commands.md#git-standup</a>.</p>
+
+<ul>
+  <li>Show a given author's commits from the last 10 days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git standup -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|email</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Show a given author's commits from the last 10 days and whether they are GPG signed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git standup -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|email</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> -g</code></p>
+
+<ul>
+  <li>Show all the commits from all contributors for the last 10 days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git standup -a all -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git standup -h</code></p>

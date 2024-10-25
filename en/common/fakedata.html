@@ -1,0 +1,34 @@
+<h1 id="fakedata">fakedata</h1>
+
+<p>Generate fake data using a large variety of generators.
+More information: <a href="https://github.com/lucapette/fakedata">https://github.com/lucapette/fakedata</a>.</p>
+
+<ul>
+  <li>List all valid generators:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakedata --generators</code></p>
+
+<ul>
+  <li>Generate data using one or more generators:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakedata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">generator1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">generator2</span></p>
+
+<ul>
+  <li>Generate data with a specific output format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakedata --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">csv|tab|sql</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">generator</span></p>
+
+<ul>
+  <li>Generate a given number of data items (defaults to 10):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakedata --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">generator</span></p>
+
+<ul>
+  <li>Generate data using a custom output template (the first letter of generator names must be capitalized):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{{Generator}}</span><code class="language-plaintext highlighter-rouge">" | fakedata</code></p>

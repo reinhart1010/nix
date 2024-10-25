@@ -1,0 +1,46 @@
+<h1 id="entr">entr</h1>
+
+<p>Run arbitrary commands when files change.
+More information: <a href="https://eradman.com/entrproject/">https://eradman.com/entrproject/</a>.</p>
+
+<ul>
+  <li>Rebuild with <code class="language-plaintext highlighter-rouge">make</code> if any file in any subdirectory changes:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ag -l</span><code class="language-plaintext highlighter-rouge"> | entr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span></p>
+
+<ul>
+  <li>Rebuild and test with <code class="language-plaintext highlighter-rouge">make</code> if any <code class="language-plaintext highlighter-rouge">.c</code> source files in the current directory change:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls *.c</span><code class="language-plaintext highlighter-rouge"> | entr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'make &amp;&amp; make test'</span></p>
+
+<ul>
+  <li>Send a <code class="language-plaintext highlighter-rouge">SIGTERM</code> to any previously spawned ruby subprocesses before executing <code class="language-plaintext highlighter-rouge">ruby main.rb</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls *.rb</span><code class="language-plaintext highlighter-rouge"> | entr -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby main.rb</span></p>
+
+<ul>
+  <li>Run a command with the changed file (<code class="language-plaintext highlighter-rouge">/_</code>) as an argument:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls *.sql</span><code class="language-plaintext highlighter-rouge"> | entr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">psql -f</span><code class="language-plaintext highlighter-rouge"> /_</code></p>
+
+<ul>
+  <li>[c]lear the screen and run a query after the SQL script is updated:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo my.sql</span><code class="language-plaintext highlighter-rouge"> | entr -cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">psql -f</span><code class="language-plaintext highlighter-rouge"> /_</code></p>
+
+<ul>
+  <li>Rebuild the project if source files change, limiting output to the first few lines:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find src/</span><code class="language-plaintext highlighter-rouge"> | entr -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'make | sed 10q'</span></p>
+
+<ul>
+  <li>Launch and auto-[r]eload a Node.js server:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls *.js</span><code class="language-plaintext highlighter-rouge"> | entr -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node app.js</span></p>

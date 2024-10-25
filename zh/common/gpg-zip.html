@@ -1,0 +1,22 @@
+<h1 id="gpg-zip">gpg-zip</h1>
+
+<p>使用<code class="language-plaintext highlighter-rouge">GPG</code>加密存档中的文件和目录。
+更多信息：<a href="https://www.gnupg.org/documentation/manuals/gnupg/gpg_002dzip.html">https://www.gnupg.org/documentation/manuals/gnupg/gpg_002dzip.html</a>.</p>
+
+<ul>
+  <li>使用密码将一个目录加密为<code class="language-plaintext highlighter-rouge">archive.gpg</code>：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-zip --symmetric --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.gpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>将<code class="language-plaintext highlighter-rouge">archive.gpg</code>解密到同名目录中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-zip --decrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.gpg</span></p>
+
+<ul>
+  <li>列出加密的<code class="language-plaintext highlighter-rouge">archive.gpg</code>的内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-zip --list-archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.gpg</span></p>

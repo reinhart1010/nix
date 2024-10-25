@@ -1,0 +1,29 @@
+<h1 id="netserver">netserver</h1>
+
+<p>Server-side command for <code class="language-plaintext highlighter-rouge">netperf</code>, the benchmarking application that measures network throughput.
+See also: <code class="language-plaintext highlighter-rouge">netperf</code>, for the client-side command.
+More information: <a href="https://manned.org/netserver.1">https://manned.org/netserver.1</a>.</p>
+
+<ul>
+  <li>Start a server on the default port (12865) and fork to background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netserver</code></p>
+
+<ul>
+  <li>Start server in foreground and do not fork:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netserver -D</code></p>
+
+<ul>
+  <li>Specify [p]ort:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netserver -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Force IPv[4] or IPv[6]:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netserver -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span></p>

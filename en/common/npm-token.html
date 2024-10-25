@@ -1,0 +1,46 @@
+<h1 id="npm-token">npm token</h1>
+
+<p>Manage and generate authentication tokens for the npm registry.
+More information: <a href="https://docs.npmjs.com/cli/commands/npm-token">https://docs.npmjs.com/cli/commands/npm-token</a>.</p>
+
+<ul>
+  <li>Create a new authentication token:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm token create</code></p>
+
+<ul>
+  <li>List all tokens associated with an account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm token list</code></p>
+
+<ul>
+  <li>Delete a specific token using its token ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm token revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token_id</span></p>
+
+<ul>
+  <li>Create a token with read-only access:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm token create --read-only</code></p>
+
+<ul>
+  <li>Create a token with publish access:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm token create --publish</code></p>
+
+<ul>
+  <li>Automatically configure an npm token in your global <code class="language-plaintext highlighter-rouge">.npmrc</code> file when you log in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm login</code></p>
+
+<ul>
+  <li>Remove a token from the global configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm token revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token_id</span></p>

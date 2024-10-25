@@ -1,0 +1,29 @@
+<h1 id="ippfind">ippfind</h1>
+
+<p>Find services registered with a DNS server or available through local devices.
+See also: <code class="language-plaintext highlighter-rouge">ipptool</code>, <code class="language-plaintext highlighter-rouge">ippeveprinter</code>.
+More information: <a href="https://openprinting.github.io/cups/doc/man-ippfind.html">https://openprinting.github.io/cups/doc/man-ippfind.html</a>.</p>
+
+<ul>
+  <li>List IPP printers registered on the network with their status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippfind --ls</code></p>
+
+<ul>
+  <li>Send a specific PostScript document to every PostScript printer on the network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippfind --txt-pdl application/postscript --exec ipptool -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/document.ps</span><code class="language-plaintext highlighter-rouge"> '{}' print-job.test \;</code></p>
+
+<ul>
+  <li>Send a PostScript test document to every PostScript printer on the network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippfind --txt-pdl application/postscript --exec ipptool -f onepage-letter.ps '{}' print-job.test \;</code></p>
+
+<ul>
+  <li>Send a PostScript test document to every PostScript printer on the network, whose name matches a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippfind --txt-pdl application/postscript --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex</span><code class="language-plaintext highlighter-rouge"> --exec ipptool -f onepage-letter.ps '{}' print-job.test \;</code></p>

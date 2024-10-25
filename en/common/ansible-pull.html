@@ -1,0 +1,28 @@
+<h1 id="ansible-pull">ansible-pull</h1>
+
+<p>Pull ansible playbooks from a VCS repo and executes them for the local host.
+More information: <a href="https://docs.ansible.com/ansible/latest/cli/ansible-pull.html">https://docs.ansible.com/ansible/latest/cli/ansible-pull.html</a>.</p>
+
+<ul>
+  <li>Pull a playbook from a VCS and execute a default local.yml playbook:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>
+
+<ul>
+  <li>Pull a playbook from a VCS and execute a specific playbook:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span></p>
+
+<ul>
+  <li>Pull a playbook from a VCS at a specific branch and execute a specific playbook:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span><code class="language-plaintext highlighter-rouge"> -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span></p>
+
+<ul>
+  <li>Pull a playbook from a VCS, specify hosts file and execute a specific playbook:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hosts_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span></p>

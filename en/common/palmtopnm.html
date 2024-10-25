@@ -1,0 +1,34 @@
+<h1 id="palmtopnm">palmtopnm</h1>
+
+<p>Convert a Palm bitmap file to a PNM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/palmtopnm.html">https://netpbm.sourceforge.net/doc/palmtopnm.html</a>.</p>
+
+<ul>
+  <li>Convert a Palm bitmap to a PNM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">palmtopnm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.palm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pnm</span></p>
+
+<ul>
+  <li>Display information about the input file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">palmtopnm -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.palm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pnm</span></p>
+
+<ul>
+  <li>Convert the n'th rendition of the image contained in the input file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">palmtopnm -rendition </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.palm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pnm</span></p>
+
+<ul>
+  <li>Write a histogram of the colors in the input file to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">palmtopnm -showhist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.palm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pnm</span></p>
+
+<ul>
+  <li>Output the transparent color of the input image if set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">palmtopnm -transparent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.palm</span></p>

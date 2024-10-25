@@ -1,0 +1,52 @@
+<h1 id="cli53">cli53</h1>
+
+<p>Amazon Route 53용 명령줄 도구.
+더 많은 정보: <a href="https://github.com/barnybug/cli53">https://github.com/barnybug/cli53</a>.</p>
+
+<ul>
+  <li>도메인 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 list</code></p>
+
+<ul>
+  <li>도메인 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인주소.com</span><code class="language-plaintext highlighter-rouge"> --comment "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">코멘트</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>바인드 존 파일을 <code class="language-plaintext highlighter-rouge">stdout</code>으로 내보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인주소.com</span></p>
+
+<ul>
+  <li>동일한 영역의 상대 레코드를 가리키는 <code class="language-plaintext highlighter-rouge">www</code> 하위 도메인을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rc|rrcreate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인주소.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'www 300 CNAME lb'</span></p>
+
+<ul>
+  <li>외부 주소를 가리키는 <code class="language-plaintext highlighter-rouge">www</code> 하위 도메인을 생성 (점으로 끝나야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rc|rrcreate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인주소.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'www 300 CNAME lb.externalhost.com.'</span></p>
+
+<ul>
+  <li>IP 주소를 가리키는 <code class="language-plaintext highlighter-rouge">www</code> 하위 도메인을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rc|rrcreate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인주소.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'www 300 A 150.130.110.1'</span></p>
+
+<ul>
+  <li>다른 IP를 가리키는 <code class="language-plaintext highlighter-rouge">www</code> 하위 도메인을 교체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rc|rrcreate</span><code class="language-plaintext highlighter-rouge"> --replace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'www 300 A 150.130.110.2'</span></p>
+
+<ul>
+  <li>A 레코드 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rd|rrdelete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인주소.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A</span></p>

@@ -1,0 +1,53 @@
+<h1 id="searchsploit">searchsploit</h1>
+
+<p>Search Exploit Database for exploits, shellcodes and/or papers.
+If known version numbers are used as search terms, exploits for both the exact version and others whose version range covers the one specified are shown.
+More information: <a href="https://www.exploit-db.com/searchsploit">https://www.exploit-db.com/searchsploit</a>.</p>
+
+<ul>
+  <li>Search for an exploit, shellcode, or paper:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_terms</span></p>
+
+<ul>
+  <li>Search for a known specific version, e.g. sudo version 1.8.27:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit sudo 1.8.27</code></p>
+
+<ul>
+  <li>Show the exploit-db link to the found resources:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit --www </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_terms</span></p>
+
+<ul>
+  <li>Copy ([m]irror) the resource to the current directory (requires the number of the exploit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit --mirror </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exploit_number</span></p>
+
+<ul>
+  <li>E[x]amine the resource, using the pager defined in the <code class="language-plaintext highlighter-rouge">$PAGER</code> environment variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit --examine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exploit_number</span></p>
+
+<ul>
+  <li>[u]pdate the local Exploit Database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit --update</code></p>
+
+<ul>
+  <li>Search for the [c]ommon [v]ulnerabilities and [e]xposures (CVE) value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit --cve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2021-44228</span></p>
+
+<ul>
+  <li>Check results in <code class="language-plaintext highlighter-rouge">nmap</code>'s XML output with service version (<code class="language-plaintext highlighter-rouge">nmap -sV -oX nmap-output.xml</code>) for known exploits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit --nmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/nmap-output.xml</span></p>

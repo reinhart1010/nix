@@ -1,0 +1,41 @@
+<h1 id="unzip">unzip</h1>
+
+<p>Extract files/directories from Zip archives.
+See also: <code class="language-plaintext highlighter-rouge">zip</code>.
+More information: <a href="https://manned.org/unzip">https://manned.org/unzip</a>.</p>
+
+<ul>
+  <li>Extract all files/directories from specific archives into the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive1.zip path/to/archive2.zip …</span></p>
+
+<ul>
+  <li>Extract files/directories from archives to a specific path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive1.zip path/to/archive2.zip …</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span></p>
+
+<ul>
+  <li>Extract files/directories from archives to <code class="language-plaintext highlighter-rouge">stdout</code> alongside the extracted file names:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive1.zip path/to/archive2.zip …</span></p>
+
+<ul>
+  <li>Extract an archive created on Windows, containing files with non-ASCII (e.g. Chinese or Japanese characters) filenames:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gbk</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive1.zip path/to/archive2.zip …</span></p>
+
+<ul>
+  <li>List the contents of a specific archive without extracting them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zip</span></p>
+
+<ul>
+  <li>Extract a specific file from an archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1_in_archive path/to/file2_in_archive …</span></p>

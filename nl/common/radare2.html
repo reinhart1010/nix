@@ -1,0 +1,40 @@
+<h1 id="radare2">radare2</h1>
+
+<p>Een set van reverse engineering tools.
+Meer informatie: <a href="https://www.radare.org/r/docs.html">https://www.radare.org/r/docs.html</a>.</p>
+
+<ul>
+  <li>Open een schrijfbaar bestand zonder het parsen van de bestandsformaat headers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">radare2 -nw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary</span></p>
+
+<ul>
+  <li>Debug een programma:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">radare2 -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary</span></p>
+
+<ul>
+  <li>Voer een script uit voordat de interactieve CLI start:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">radare2 -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.r2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary</span></p>
+
+<ul>
+  <li>Toon help tekst voor ieder commando in de interactieve CLI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">radare2_commando</span><code class="language-plaintext highlighter-rouge">?</code></p>
+
+<ul>
+  <li>Voer een shell commando uit vanuit de interactieve CLI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&gt; !</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_commando</span></p>
+
+<ul>
+  <li>Dump raw bytes van het huidige block naar een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&gt; pr &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.bin</span></p>

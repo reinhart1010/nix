@@ -1,0 +1,29 @@
+<h1 id="ykman-openpgp">ykman openpgp</h1>
+
+<p>Manage the OpenPGP YubiKey application.
+Note: you need to use <code class="language-plaintext highlighter-rouge">gpg --card-edit</code> for some settings.
+More information: <a href="https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html">https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html</a>.</p>
+
+<ul>
+  <li>Display general information about the OpenPGP application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp info</code></p>
+
+<ul>
+  <li>Set the number of retry attempts for the User PIN, Reset Code, and Admin PIN, respectively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp access set-retries </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Change the User PIN, Reset Code or Admin PIN:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp access change-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pin|reset-code|admin-pin</span></p>
+
+<ul>
+  <li>Factory reset the OpenPGP application (you have to do this after exceeding the number of Admin PIN retry attempts):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp reset</code></p>

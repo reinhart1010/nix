@@ -1,0 +1,28 @@
+<h1 id="sc">sc</h1>
+
+<p>Service Control Manager 및 서비스와 통신합니다.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/sc-query">https://learn.microsoft.com/windows-server/administration/windows-commands/sc-query</a>.</p>
+
+<ul>
+  <li>서비스 상태 표시 (서비스 이름이 없으면 모든 서비스 표시):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스명</span></p>
+
+<ul>
+  <li>서비스 비동기적으로 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스명</span><code class="language-plaintext highlighter-rouge"> binpath= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\서비스_이진_파일</span></p>
+
+<ul>
+  <li>서비스 비동기적으로 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스명</span></p>
+
+<ul>
+  <li>서비스 유형 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스명</span><code class="language-plaintext highlighter-rouge"> type= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스_유형</span></p>

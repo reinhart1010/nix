@@ -1,0 +1,41 @@
+<h1 id="aws-glue">aws glue</h1>
+
+<p>AWS Glue용 CLI.
+AWS Glue 서비스에 대한 퍼블릭 엔드포인트 정의.
+더 많은 정보: <a href="https://docs.aws.amazon.com/cli/latest/reference/glue/">https://docs.aws.amazon.com/cli/latest/reference/glue/</a>.</p>
+
+<ul>
+  <li>작업 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue list-jobs</code></p>
+
+<ul>
+  <li>작업 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue start-job-run --job-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_이름</span></p>
+
+<ul>
+  <li>워크플로우 실행 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue start-workflow-run --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">워크플로우_이름</span></p>
+
+<ul>
+  <li>트리거 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue list-triggers</code></p>
+
+<ul>
+  <li>트리거 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue start-trigger --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트리거_이름</span></p>
+
+<ul>
+  <li>개발 엔드포인트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue create-dev-endpoint --endpoint-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --role-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role_arn_used_by_endpoint</span></p>

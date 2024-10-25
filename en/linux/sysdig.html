@@ -1,0 +1,47 @@
+<h1 id="sysdig">sysdig</h1>
+
+<p>System troubleshooting, analysis and exploration.
+Capture, filter and store systemcalls.
+More information: <a href="https://github.com/draios/sysdig/wiki">https://github.com/draios/sysdig/wiki</a>.</p>
+
+<ul>
+  <li>Capture all the events from the live system and print them to screen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysdig</code></p>
+
+<ul>
+  <li>Capture all the events from the live system and save them to disk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysdig -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">.scap</code></p>
+
+<ul>
+  <li>Read events from a file and print them to screen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysdig -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">.scap</code></p>
+
+<ul>
+  <li>Filter and Print all the open system calls invoked by cat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysdig proc.name=cat and evt.type=open</code></p>
+
+<ul>
+  <li>Register any found plugin and use dummy as input source passing to it open params:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysdig -I dummy:'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parameter</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>List the available chisels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysdig -cl</code></p>
+
+<ul>
+  <li>Use the spy_ip chisel to look at the data exchanged with ip address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysdig -c spy_ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span></p>

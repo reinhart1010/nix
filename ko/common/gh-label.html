@@ -1,0 +1,46 @@
+<h1 id="gh-label">gh label</h1>
+
+<p>GitHub 레이블 작업.
+더 많은 정보: <a href="https://cli.github.com/manual/gh_label">https://cli.github.com/manual/gh_label</a>.</p>
+
+<ul>
+  <li>현재 디렉토리의 저장소에 대한 레이블 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh label list</code></p>
+
+<ul>
+  <li>현재 디렉토리의 저장소에 대한 레이블을 기본 웹 브라우저에서 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh label list --web</code></p>
+
+<ul>
+  <li>현재 디렉토리의 저장소에 특정 이름, 설명 및 16진수 형식 색상으로 레이블 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh label create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --description "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">설명</span><code class="language-plaintext highlighter-rouge">" --color </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">색상_16진수</span></p>
+
+<ul>
+  <li>현재 디렉토리의 저장소에 대한 레이블 삭제 (확인 요청):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh label delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>현재 디렉토리의 저장소에 특정 레이블의 이름과 설명 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh label edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_이름</span><code class="language-plaintext highlighter-rouge"> --description "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">설명</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 저장소의 레이블을 현재 디렉토리의 저장소로 복제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh label clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소유자</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소</span></p>
+
+<ul>
+  <li>하위 명령에 대한 도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명령</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

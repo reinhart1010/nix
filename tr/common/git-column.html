@@ -1,0 +1,22 @@
+<h1 id="git-column">git column</h1>
+
+<p>Kolonlarda veri görüntüle.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-column">https://git-scm.com/docs/git-column</a>.</p>
+
+<ul>
+  <li>Standart çıktıyı çoklu kolonlar olarak biçimlendir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls | git column --mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column</span></p>
+
+<ul>
+  <li>Standart çıktıyı maksimum <code class="language-plaintext highlighter-rouge">100</code> birim sütun genişliğinde biçimlendir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls | git column --mode=column --width=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Standart çıktıyı maksimum <code class="language-plaintext highlighter-rouge">30</code> birimlik boşluğa sahip situnlar olacak şekilde biçimlendir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls | git column --mode=column --padding=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span></p>

@@ -1,0 +1,54 @@
+<h1 id="nvim">nvim</h1>
+
+<p>Neovim, een programmeurs tekstbewerker gebaseerd op Vim, welke verschillende modi aanbied voor verschillende soorten text manipulatie.
+Op <code class="language-plaintext highlighter-rouge">i</code> drukken in de normale modus, gaat naar de invoer modus. <code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> gaat terug naar de normale modus, die geen reguliere tekst invoer accepteert.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">vim</code>, <code class="language-plaintext highlighter-rouge">vimtutor</code>, <code class="language-plaintext highlighter-rouge">vimdiff</code>.
+Meer informatie: <a href="https://neovim.io">https://neovim.io</a>.</p>
+
+<ul>
+  <li>Open een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Ga naar de modus om tekst aan te passen (insert mode):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;i</code></p>
+
+<ul>
+  <li>Kopieer ("yank") of knip ("delete") de huidige regel (plak het met <code class="language-plaintext highlighter-rouge">P</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yy|dd</span></p>
+
+<ul>
+  <li>Ga naar de normale modus en maak de laatste operatie ongedaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;u</code></p>
+
+<ul>
+  <li>Zoek voor een patroon in het bestand (druk op <code class="language-plaintext highlighter-rouge">n</code>/<code class="language-plaintext highlighter-rouge">N</code> om naar de volgende/vorige overeenkomst te gaan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_patroon</span><code class="language-plaintext highlighter-rouge">&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Voer een reguliere expressie vervanging uit in het volledige bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reguliere_expressie</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vervanging</span><code class="language-plaintext highlighter-rouge">/g&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Ga naar de normale modus, sla (write) het bestand op en sluit af:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>&lt;/span&gt;</Enter></Esc></Enter></Esc></Esc></span></p>
+
+<ul>
+  <li>Sluit af zonder op te slaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;:q!&lt;Enter&gt;</code></p>

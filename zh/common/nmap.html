@@ -1,0 +1,44 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="nmap">nmap</h1>
+
+<p>网络探索工具和安全/端口扫描程序。
+仅当以特权运行 Nmap 时，某些功能才激活。
+更多信息：<a href="https://nmap.org/book/man.html">https://nmap.org/book/man.html</a>.</p>
+
+<ul>
+  <li>检查 IP 地址是否可用，并猜测远程主机的操作系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP 或者 主机名</span></p>
+
+<ul>
+  <li>尝试确定指定的主机是否启动以及它们的名称是什么：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nmap -sn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP 或者 主机名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可选的其它地址</span></p>
+
+<ul>
+  <li>像上面一样，如果主机启动了，还可以运行默认的 1000 端口 TCP 扫描：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP 或者 主机名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可选的其它地址</span></p>
+
+<ul>
+  <li>也可以启用脚本，服务检测，操作系统指纹识别和跟踪路由：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">一个地址 或者 多个地址</span></p>
+
+<ul>
+  <li>扫描端口的特定列表（使用 <code class="language-plaintext highlighter-rouge">-p</code> 参数覆盖所有端口，如 <code class="language-plaintext highlighter-rouge">-p 1-65535</code>，也可以明确指定几个端口，如 <code class="language-plaintext highlighter-rouge">-p 3306,3307,3308</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口1, 端口2, …, 端口N</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">一个地址 或者 多个地址</span></p>
+
+<ul>
+  <li>使用默认 NSE 脚本执行针对该主机地址的完整端口、服务、版本检测扫描，以确定弱点和信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -sC -sV </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">一个地址 或者 多个地址</span></p>

@@ -1,0 +1,41 @@
+<h1 id="scutil">scutil</h1>
+
+<p>Gestiona los parámetros de configuración del sistema.
+Es necesario ser root para establecer la configuración.
+Más información: <a href="https://keith.github.io/xcode-man-pages/scutil.8.html">https://keith.github.io/xcode-man-pages/scutil.8.html</a>.</p>
+
+<ul>
+  <li>Muestra la configuración DNS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scutil --dns</code></p>
+
+<ul>
+  <li>Muestra la configuración del proxy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scutil --proxy</code></p>
+
+<ul>
+  <li>Obtén el nombre del equipo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scutil --get ComputerName</code></p>
+
+<ul>
+  <li>Establece el nombre del equipo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo scutil --set ComputerName </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_ordenador</span></p>
+
+<ul>
+  <li>Obtén el nombre del host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scutil --get HostName</code></p>
+
+<ul>
+  <li>Establece nombre del host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scutil --set HostName </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_host</span></p>

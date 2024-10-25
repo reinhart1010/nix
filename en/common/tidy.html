@@ -1,0 +1,23 @@
+<h1 id="tidy">tidy</h1>
+
+<p>Clean up and pretty print HTML, XHTML and XML files.
+Note: <code class="language-plaintext highlighter-rouge">tidy</code> cannot preserve original indentation.
+More information: <a href="https://api.html-tidy.org/tidy/tidylib_api_5.2.0/tidy_cmd.html">https://api.html-tidy.org/tidy/tidylib_api_5.2.0/tidy_cmd.html</a>.</p>
+
+<ul>
+  <li>Pretty print an HTML file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tidy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.html</span></p>
+
+<ul>
+  <li>Enable [i]ndentation, [w]rapping lines in 100, saving to <code class="language-plaintext highlighter-rouge">output.html</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tidy --indent y --wrap 100 -output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.html</span></p>
+
+<ul>
+  <li>Modify an HTML file in-place using a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tidy -config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/configuration</span><code class="language-plaintext highlighter-rouge"> -modify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.html</span></p>

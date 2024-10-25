@@ -1,0 +1,30 @@
+<h1 id="unix2dos">unix2dos</h1>
+
+<p>Change Unix-style line endings to DOS-style.
+Replaces LF with CRLF.
+See also <code class="language-plaintext highlighter-rouge">unix2mac</code>, <code class="language-plaintext highlighter-rouge">dos2unix</code>, and <code class="language-plaintext highlighter-rouge">mac2unix</code>.
+More information: <a href="https://manned.org/unix2dos">https://manned.org/unix2dos</a>.</p>
+
+<ul>
+  <li>Change the line endings of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unix2dos </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Create a copy with DOS-style line endings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unix2dos </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–newfile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_file</span></p>
+
+<ul>
+  <li>Display file information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unix2dos </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–info</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Keep/add/remove Byte Order Mark:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unix2dos --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keep-bom|add-bom|remove-bom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

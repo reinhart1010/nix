@@ -1,0 +1,28 @@
+<h1 id="docker-rmi">docker rmi</h1>
+
+<p>Supprimer une ou plusieurs images Docker.
+Plus d'informations : <a href="https://docs.docker.com/reference/cli/docker/image/rm/">https://docs.docker.com/reference/cli/docker/image/rm/</a>.</p>
+
+<ul>
+  <li>Afficher l'aide :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rmi</code></p>
+
+<ul>
+  <li>Supprimer une ou plusieurs images en fonction de leurs noms :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rmi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image1 image2 …</span></p>
+
+<ul>
+  <li>Supprimer une image en forçant la suppression :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rmi --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Supprimer une image sans supprimer les parents non étiquetés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rmi --no-prune </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>

@@ -1,0 +1,22 @@
+<h1 id="openssl-genrsa">openssl genrsa</h1>
+
+<p>RSA 개인 키를 생성하는 OpenSSL 명령어.
+더 많은 정보: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-genrsa.html">https://www.openssl.org/docs/manmaster/man1/openssl-genrsa.html</a>.</p>
+
+<ul>
+  <li>2048비트 RSA 개인 키를 <code class="language-plaintext highlighter-rouge">stdout</code>에 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl genrsa</code></p>
+
+<ul>
+  <li>임의 비트 수의 RSA 개인 키를 출력 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl genrsa -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력_파일.key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span></p>
+
+<ul>
+  <li>RSA 개인 키를 생성하고 AES256으로 암호화 (암호를 입력하라는 메시지가 표시됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl genrsa </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-aes256</span></p>

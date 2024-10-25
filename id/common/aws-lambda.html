@@ -1,0 +1,46 @@
+<h1 id="aws-lambda">aws lambda</h1>
+
+<p>Gunakan AWS Lambda, suatu layanan komputasi untuk menjalankan kode perintah tanpa membuat atau mengatur infrastruktur peladen.
+Informasi lebih lanjut: <a href="https://docs.aws.amazon.com/cli/latest/reference/lambda/">https://docs.aws.amazon.com/cli/latest/reference/lambda/</a>.</p>
+
+<ul>
+  <li>Jalankan suatu function:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda invoke --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/respons.json</span></p>
+
+<ul>
+  <li>Jalankan suatu function dengan payload masukan (input) dalam format JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda invoke --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama</span><code class="language-plaintext highlighter-rouge"> --payload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/respons.json</span></p>
+
+<ul>
+  <li>Tampilkan daftar function yang tersedia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda list-functions</code></p>
+
+<ul>
+  <li>Tampilkan informasi konfigurasi mengenai suatu function:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda get-function-configuration --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama</span></p>
+
+<ul>
+  <li>Tampilkan daftar alias yang didaftarkan terhadap suatu function:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda list-aliases --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama</span></p>
+
+<ul>
+  <li>Tampilkan informasi konfigurasi konkurensi yang dicadangkan (reserved concurrency) terhadap suatu function:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda get-function-concurrency --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama</span></p>
+
+<ul>
+  <li>Tampilkan daftar layanan AWS yang berhak memanggil suatu function:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda get-policy --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama</span></p>

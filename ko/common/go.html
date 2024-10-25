@@ -1,0 +1,47 @@
+<h1 id="go">go</h1>
+
+<p>Go 소스 코드를 관리.
+<code class="language-plaintext highlighter-rouge">build</code>와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+더 많은 정보: <a href="https://golang.org">https://golang.org</a>.</p>
+
+<ul>
+  <li>패키지 다운로드 및 설치 (import 경로로 지정):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_경로</span></p>
+
+<ul>
+  <li>소스 파일 컴파일 및 실행 (<code class="language-plaintext highlighter-rouge">main</code> 패키지를 포함해야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일</span><code class="language-plaintext highlighter-rouge">.go</code></p>
+
+<ul>
+  <li>소스 파일을 지정한 이름의 실행 파일로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">실행_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일</span><code class="language-plaintext highlighter-rouge">.go</code></p>
+
+<ul>
+  <li>현재 디렉토리에 있는 패키지 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build</code></p>
+
+<ul>
+  <li>현재 패키지의 모든 테스트 케이스 실행 (<code class="language-plaintext highlighter-rouge">_test.go</code>로 끝나야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test</code></p>
+
+<ul>
+  <li>현재 패키지 컴파일 및 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go install</code></p>
+
+<ul>
+  <li>현재 디렉토리에 새 모듈 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈_이름</span></p>

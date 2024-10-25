@@ -1,0 +1,29 @@
+<h1 id="gdrive">gdrive</h1>
+
+<p>Interact with Google Drive.
+Folder/file ID can be obtained from the Google Drive folder or ID URL.
+More information: <a href="https://github.com/gdrive-org/gdrive">https://github.com/gdrive-org/gdrive</a>.</p>
+
+<ul>
+  <li>Upload a local path to the parent folder with the specified ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdrive upload -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_folder</span></p>
+
+<ul>
+  <li>Download file or directory by ID to current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdrive download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>Download to a given local path by its ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdrive download --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>Create a new revision of an ID using a given file or folder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdrive update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_folder</span></p>

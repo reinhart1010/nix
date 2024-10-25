@@ -1,0 +1,46 @@
+<h1 id="drill">drill</h1>
+
+<p>다양한 DNS 쿼리를 수행.
+더 많은 정보: <a href="https://manned.org/drill">https://manned.org/drill</a>.</p>
+
+<ul>
+  <li>호스트 이름 (A 레코드)과 연결된 IP를 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>특정 도메인 이름 (MX 레코드)과 연결된 메일 서버를 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill mx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>특정 도메인 이름에 대한 모든 유형의 레코드를 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill any </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>쿼리할 대체 DNS 서버를 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span></p>
+
+<ul>
+  <li>IP 주소 (PTR 레코드)에 대해 역방향 DNS 조회를 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span></p>
+
+<ul>
+  <li>루트 서버부터 도메인 이름까지 DNSSEC 추적을 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill -TD </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>도메인 이름에 대한 DNSKEY 레코드 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill -s dnskey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

@@ -1,0 +1,41 @@
+<h1 id="zoxide">zoxide</h1>
+
+<p>Garde une trace des répertoires les plus utilisés.
+Utilise un algorithme de classement pour identifier le meilleur résultat.
+Plus d'informations : <a href="https://github.com/ajeetdsouza/zoxide">https://github.com/ajeetdsouza/zoxide</a>.</p>
+
+<ul>
+  <li>Aller au répertoire avec le meilleur classement qui contient "foo" dans son nom :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Aller au répertoire avec le meilleur classement qui contient "foo" et "bar" dans son nom :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>
+
+<ul>
+  <li>Démarre une recherche de répertoire interactive (nécessite <code class="language-plaintext highlighter-rouge">fzf</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query --interactive</code></p>
+
+<ul>
+  <li>Ajoute un répertoire ou incrémente son classement :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/du/répertoire</span></p>
+
+<ul>
+  <li>Supprime un répertoire interactive de la base de données de <code class="language-plaintext highlighter-rouge">zoxide</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/du/répertoire</span><code class="language-plaintext highlighter-rouge"> --interactive</code></p>
+
+<ul>
+  <li>Génère la configuration du shell pour la mise en place des alias de commandes (<code class="language-plaintext highlighter-rouge">z</code>, <code class="language-plaintext highlighter-rouge">za</code>, <code class="language-plaintext highlighter-rouge">zi</code>, <code class="language-plaintext highlighter-rouge">zq</code>, <code class="language-plaintext highlighter-rouge">zr</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|fish|zsh</span></p>

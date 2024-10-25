@@ -1,0 +1,46 @@
+<h1 id="tftp">tftp</h1>
+
+<p>Trivial File Transfer Protocol client.
+More information: <a href="https://manned.org/tftp.1">https://manned.org/tftp.1</a>.</p>
+
+<ul>
+  <li>Connect to a TFTP server specifying its IP address and port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Connect to a TFTP server and execute a TFTP [c]ommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Connect to a TFTP server using IPv6 and force originating port to be in [R]ange:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span><code class="language-plaintext highlighter-rouge"> -6 -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Set the transfer mode to binary or ASCIi through the tftp client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">binary|ascii</span></p>
+
+<ul>
+  <li>Download file from a server through the tftp client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Upload file to a server through the tftp client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">put </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Exit the tftp client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quit</code></p>

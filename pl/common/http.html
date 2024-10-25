@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="http">http</h1>
+
+<p>HTTPie: HTTP client, ma być łatwiejszy w użyciu niż cURL.
+Więcej informacji: <a href="https://httpie.org">https://httpie.org</a>.</p>
+
+<ul>
+  <li>Pobierz adres URL do pliku:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">przyklad.org</span></p>
+
+<ul>
+  <li>Wyślij dane zakodowane w formularzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --form </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">przyklad.org</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa='bob'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zdjecie_profilowe@'bob.png'</span></p>
+
+<ul>
+  <li>Wyślij obiekt JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">przyklad.org</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name='bob'</span></p>
+
+<ul>
+  <li>Określ metodę HTTP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">przyklad.org</span></p>
+
+<ul>
+  <li>Dołącz dodatkowy nagłówek:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">przyklad.org</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">X-MyHeader:123</span></p>
+
+<ul>
+  <li>Podaj nazwę użytkownika i hasło do uwierzytelnienia serwera:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwauzytkownika:haslo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">przyklad.org</span></p>
+
+<ul>
+  <li>Określ surowe ciało żądania za pośrednictwem <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dane.txt</span><code class="language-plaintext highlighter-rouge"> | http PUT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">przyklad.org</span></p>

@@ -1,0 +1,34 @@
+<h1 id="ipset">ipset</h1>
+
+<p>Create IP sets for firewall rules.
+More information: <a href="https://manned.org/ipset">https://manned.org/ipset</a>.</p>
+
+<ul>
+  <li>Create an empty IP set which will contain IP addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipset create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">set_name</span><code class="language-plaintext highlighter-rouge"> hash:ip</code></p>
+
+<ul>
+  <li>Destroy a specific IP set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipset destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">set_name</span></p>
+
+<ul>
+  <li>Add an IP address to a specific set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipset add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">set_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.25</span></p>
+
+<ul>
+  <li>Delete a specific IP address from a set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipset del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">set_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.25</span></p>
+
+<ul>
+  <li>Save an IP set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipset save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">set_name</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ip_set</span></p>

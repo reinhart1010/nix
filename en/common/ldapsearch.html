@@ -1,0 +1,52 @@
+<h1 id="ldapsearch">ldapsearch</h1>
+
+<p>Query an LDAP directory.
+More information: <a href="https://docs.ldap.com/ldap-sdk/docs/tool-usages/ldapsearch.html">https://docs.ldap.com/ldap-sdk/docs/tool-usages/ldapsearch.html</a>.</p>
+
+<ul>
+  <li>Query an LDAP server for all items that are a member of the given group and return the object's displayName value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldapsearch -D '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">admin_DN</span><code class="language-plaintext highlighter-rouge">' -w '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">' -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ldap_host</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_ou</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group1</span><code class="language-plaintext highlighter-rouge">' displayName</code></p>
+
+<ul>
+  <li>Query an LDAP server with a no-newline password file for all items that are a member of the given group and return the object's displayName value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldapsearch -D '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">admin_DN</span><code class="language-plaintext highlighter-rouge">' -y '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_file</span><code class="language-plaintext highlighter-rouge">' -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ldap_host</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_ou</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group1</span><code class="language-plaintext highlighter-rouge">' displayName</code></p>
+
+<ul>
+  <li>Return 5 items that match the given filter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldapsearch -D '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">admin_DN</span><code class="language-plaintext highlighter-rouge">' -w '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">' -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ldap_host</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_ou</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group1</span><code class="language-plaintext highlighter-rouge">' -z 5 displayName</code></p>
+
+<ul>
+  <li>Wait up to 7 seconds for a response:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldapsearch -D '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">admin_DN</span><code class="language-plaintext highlighter-rouge">' -w '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">' -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ldap_host</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_ou</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group1</span><code class="language-plaintext highlighter-rouge">' -l 7 displayName</code></p>
+
+<ul>
+  <li>Invert the filter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldapsearch -D '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">admin_DN</span><code class="language-plaintext highlighter-rouge">' -w '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">' -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ldap_host</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_ou</span><code class="language-plaintext highlighter-rouge"> '(!(memberOf=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group1</span><code class="language-plaintext highlighter-rouge">))' displayName</code></p>
+
+<ul>
+  <li>Return all items that are part of multiple groups, returning the display name for each item:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldapsearch -D '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">admin_DN</span><code class="language-plaintext highlighter-rouge">' -w '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">' -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ldap_host</span><code class="language-plaintext highlighter-rouge"> '(&amp;(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group1</span><code class="language-plaintext highlighter-rouge">)(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group2</span><code class="language-plaintext highlighter-rouge">)(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group3</span><code class="language-plaintext highlighter-rouge">))' "displayName"</code></p>
+
+<ul>
+  <li>Return all items that are members of at least 1 of the specified groups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldapsearch -D '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">admin_DN</span><code class="language-plaintext highlighter-rouge">' -w '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">' -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ldap_host</span><code class="language-plaintext highlighter-rouge"> '(|(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group1</span><code class="language-plaintext highlighter-rouge">)(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group1</span><code class="language-plaintext highlighter-rouge">)(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group3</span><code class="language-plaintext highlighter-rouge">))' displayName</code></p>
+
+<ul>
+  <li>Combine multiple boolean logic filters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldapsearch -D '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">admin_DN</span><code class="language-plaintext highlighter-rouge">' -w '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">' -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ldap_host</span><code class="language-plaintext highlighter-rouge"> '(&amp;(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group1</span><code class="language-plaintext highlighter-rouge">)(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group2</span><code class="language-plaintext highlighter-rouge">)(!(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memberOf=group3</span><code class="language-plaintext highlighter-rouge">)))' displayName</code></p>

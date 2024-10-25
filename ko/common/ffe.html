@@ -1,0 +1,41 @@
+<h1 id="ffe">ffe</h1>
+
+<p>플랫 데이터베이스 파일에서 필드를 추출하고 다른 형식으로 씀.
+입력을 해석하고 출력 형식을 지정하려면 구성 파일이 필요.
+더 많은 정보: <a href="https://ff-extractor.sourceforge.net/ffe.html">https://ff-extractor.sourceforge.net/ffe.html</a>.</p>
+
+<ul>
+  <li>지정된 데이터 구성을 사용하여 모든 입력 데이터를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffe --configuration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/구성.ffe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력</span></p>
+
+<ul>
+  <li>입력 파일을 새로운 형식의 출력 파일로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffe --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/구성.ffe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">~/.fferc</code> 구성 파일의 정의에서 입력 구조 및 출력 형식을 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffe --structure=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">structure</span><code class="language-plaintext highlighter-rouge"> --print=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력</span></p>
+
+<ul>
+  <li>선택한 필드만 작성하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffe --field-list="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FirstName,LastName,Age</span><code class="language-plaintext highlighter-rouge">" -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/구성.ffe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력</span></p>
+
+<ul>
+  <li>표현식과 일치하는 레코드만 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffe -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LastName=Smith</span><code class="language-plaintext highlighter-rouge">" -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/구성.ffe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffe --help</code></p>

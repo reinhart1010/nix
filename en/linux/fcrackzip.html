@@ -1,0 +1,40 @@
+<h1 id="fcrackzip">fcrackzip</h1>
+
+<p>ZIP archive password cracking utility.
+More information: <a href="https://manned.org/fcrackzip">https://manned.org/fcrackzip</a>.</p>
+
+<ul>
+  <li>Brute-force a password with a length of 4 to 8 characters, and contains only alphanumeric characters (order matters):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fcrackzip --brute-force --length 4-8 --charset aA1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive</span></p>
+
+<ul>
+  <li>Brute-force a password in verbose mode with a length of 3 characters that only contains lowercase characters, <code class="language-plaintext highlighter-rouge">$</code> and <code class="language-plaintext highlighter-rouge">%</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fcrackzip -v --brute-force --length 3 --charset a:$% </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive</span></p>
+
+<ul>
+  <li>Brute-force a password that contains only lowercase and special characters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fcrackzip --brute-force --length 4 --charset a! </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive</span></p>
+
+<ul>
+  <li>Brute-force a password containing only digits, starting from the password <code class="language-plaintext highlighter-rouge">12345</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fcrackzip --brute-force --length 5 --charset 1 --init-password 12345 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive</span></p>
+
+<ul>
+  <li>Crack a password using a wordlist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fcrackzip --use-unzip --dictionary --init-password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wordlist</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive</span></p>
+
+<ul>
+  <li>Benchmark cracking performance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fcrackzip --benchmark</code></p>

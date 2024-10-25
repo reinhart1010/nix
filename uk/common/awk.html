@@ -1,0 +1,52 @@
+<h1 id="awk">awk</h1>
+
+<p>Універсальна мова програмування для роботи з файлами.
+Більше інформації: <a href="https://github.com/onetrueawk/awk">https://github.com/onetrueawk/awk</a>.</p>
+
+<ul>
+  <li>Вивести п’ятий стовпець (він же поле) у файлі, розділеному пробілами:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{print $5}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Вивести другий стовпець рядків, що містять "foo", у файлі, розділеному пробілами:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge">/ {print $2}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Вивести останній стовпець кожного рядка у файлі, використовуючи кому (замість пробілу) як роздільник полів:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk -F ',' '{print $NF}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Підсумувати значення в першому стовпці файлу та надрукувати підсумок:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{s+=$1} END {print s}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Вивести кожен третій рядок, починаючи з першого:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk 'NR%3==1' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Вивести різні значення залежно від умов:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{if ($1 == "foo") print "Точний збіг foo"; else if ($1 ~ "bar") print "Частковий збіг bar"; else print "Baz"}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Вивести всі рядки, значення 10-го стовпця яких знаходиться між min і max:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '($10 &gt;= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">min_value</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; $10 &lt;= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_value</span><code class="language-plaintext highlighter-rouge">)'</code></p>
+
+<ul>
+  <li>Вивести таблицю користувачів із UID &gt;=1000 із заголовком і форматуванням, використовуючи двокрапку як роздільник («%-20s» означає: 20 символів рядка з вирівнюванням по лівому краю, «%6s» означає: 6 символів рядка з вирівнюванням по правому краю):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk 'BEGIN {FS=":";printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $4 &gt;= 1000 {printf "%-20s %6d %25s\n", $1, $4, $7}' /etc/passwd</code></p>

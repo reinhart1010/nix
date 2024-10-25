@@ -1,0 +1,22 @@
+<h1 id="grubby">grubby</h1>
+
+<p>Herramienta para configurar los gestores de arranque <code class="language-plaintext highlighter-rouge">grub</code> y <code class="language-plaintext highlighter-rouge">zipl</code>.
+Más información: <a href="https://manned.org/grubby.8">https://manned.org/grubby.8</a>.</p>
+
+<ul>
+  <li>Añade argumentos de arranque del núcleo a todas las entradas del menú del núcleo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo grubby --update-kernel=ALL --args '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet console=ttyS0</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Elimina los argumentos existentes de la entrada para el núcleo por defecto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo grubby --update-kernel=DEFAULT --remove-args </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet</span></p>
+
+<ul>
+  <li>Lista todas las entradas del menú del núcleo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo grubby --info=ALL</code></p>

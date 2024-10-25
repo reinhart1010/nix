@@ -1,0 +1,23 @@
+<h1 id="cgcreate">cgcreate</h1>
+
+<p>Maak cgroups, gebruikt om bronnen te beperken, te meten en te regelen die door processen worden gebruikt.
+<code class="language-plaintext highlighter-rouge">cgroups</code> types kunnen een van <code class="language-plaintext highlighter-rouge">memory</code>, <code class="language-plaintext highlighter-rouge">cpu</code>, <code class="language-plaintext highlighter-rouge">net_cls</code>, etc. zijn.
+Meer informatie: <a href="https://manned.org/cgcreate">https://manned.org/cgcreate</a>.</p>
+
+<ul>
+  <li>Maak een nieuwe groep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cgcreate -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groep_type</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groepsnaam</span></p>
+
+<ul>
+  <li>Maak een nieuwe groep met meerdere cgroep typen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cgcreate -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groep_type1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groep_type2</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groepsnaam</span></p>
+
+<ul>
+  <li>Maak een subgroep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkdir /sys/fs/cgroup/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groep_type</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groepsnaam</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subgroep_naam</span></p>

@@ -1,0 +1,41 @@
+<h1 id="bedtools">bedtools</h1>
+
+<p>A swiss-army knife of tools for genomic-analysis tasks.
+Used to intersect, group, convert and count data in BAM, BED, GFF/GTF, VCF format.
+More information: <a href="https://bedtools.readthedocs.io">https://bedtools.readthedocs.io</a>.</p>
+
+<ul>
+  <li>Intersect file [a] and file(s) [b] regarding the sequences' [s]trand and save the result to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bedtools intersect -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_A</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_B1 path/to/file_B2 …</span><code class="language-plaintext highlighter-rouge"> -s &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Intersect two files with a [l]eft [o]uter [j]oin, i.e. report each feature from <code class="language-plaintext highlighter-rouge">file1</code> and NULL if no overlap with <code class="language-plaintext highlighter-rouge">file2</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bedtools intersect -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span><code class="language-plaintext highlighter-rouge"> -loj &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Using more efficient algorithm to intersect two pre-sorted files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bedtools intersect -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span><code class="language-plaintext highlighter-rouge"> -sorted &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>[g]roup a file based on the first three and the fifth [c]olumn and apply the sum [o]peration on the sixth column:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bedtools groupby -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -c 1-3,5 -g 6 -o sum</code></p>
+
+<ul>
+  <li>Convert bam-formatted [i]nput file to a bed-formatted one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bedtools bamtobed -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.bam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.bed</span></p>
+
+<ul>
+  <li>Find for all features in <code class="language-plaintext highlighter-rouge">file1.bed</code> the closest one in <code class="language-plaintext highlighter-rouge">file2.bed</code> and write their [d]istance in an extra column (input files must be sorted):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bedtools closest -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.bed</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.bed</span><code class="language-plaintext highlighter-rouge"> -d</code></p>

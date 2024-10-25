@@ -1,0 +1,46 @@
+<h1 id="a2ping">a2ping</h1>
+
+<p>Convert images into EPS or PDF files.
+More information: <a href="https://manned.org/a2ping">https://manned.org/a2ping</a>.</p>
+
+<ul>
+  <li>Convert an image to PDF (Note: Specifying an output filename is optional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span></p>
+
+<ul>
+  <li>Compress the document using the specified method:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --nocompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|zip|best|flate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Scan HiResBoundingBox if present (defaults to yes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --nohires </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Allow page content below and left of the origin (defaults to no):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --below </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Pass extra arguments to <code class="language-plaintext highlighter-rouge">gs</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --gsextra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Pass extra arguments to external program (i.e <code class="language-plaintext highlighter-rouge">pdftops</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --extra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping -h</code></p>

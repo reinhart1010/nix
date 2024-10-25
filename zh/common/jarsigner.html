@@ -1,0 +1,22 @@
+<h1 id="jarsigner">jarsigner</h1>
+
+<p>签名并验证 Java 存档（JAR）文件。
+更多信息：<a href="https://docs.oracle.com/en/java/javase/20/docs/specs/man/jarsigner.html">https://docs.oracle.com/en/java/javase/20/docs/specs/man/jarsigner.html</a>.</p>
+
+<ul>
+  <li>签名一个 <code class="language-plaintext highlighter-rouge">JAR</code> 文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jarsigner </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keystore_alias</span></p>
+
+<ul>
+  <li>使用特定算法对 <code class="language-plaintext highlighter-rouge">JAR</code> 文件进行签名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jarsigner -sigalg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algorithm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keystore_alias</span></p>
+
+<ul>
+  <li>验证 <code class="language-plaintext highlighter-rouge">JAR</code> 文件的签名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jarsigner -verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jar</span></p>

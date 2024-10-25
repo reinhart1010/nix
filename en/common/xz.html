@@ -1,0 +1,52 @@
+<h1 id="xz">xz</h1>
+
+<p>Compress or decompress XZ and LZMA files.
+More information: <a href="https://manned.org/xz">https://manned.org/xz</a>.</p>
+
+<ul>
+  <li>Compress a file using xz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Decompress an XZ file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.xz</span></p>
+
+<ul>
+  <li>Compress a file using lzma:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --format=lzma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Decompress an LZMA file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress --format=lzma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.lzma</span></p>
+
+<ul>
+  <li>Decompress a file and write to <code class="language-plaintext highlighter-rouge">stdout</code> (implies <code class="language-plaintext highlighter-rouge">--keep</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress --stdout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.xz</span></p>
+
+<ul>
+  <li>Compress a file, but don't delete the original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --keep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Compress a file using the fastest compression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz -0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Compress a file using the best compression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz -9 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

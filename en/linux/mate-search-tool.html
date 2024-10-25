@@ -1,0 +1,40 @@
+<h1 id="mate-search-tool">mate-search-tool</h1>
+
+<p>Search files in MATE desktop environment.
+More information: <a href="https://manned.org/mate-search-tool">https://manned.org/mate-search-tool</a>.</p>
+
+<ul>
+  <li>Search files containing a specific string in their name in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --named=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Search files without waiting a user confirmation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --start --named=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Search files with name matching a specific regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --start --regex=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Set a sorting order in search results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --start --named=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --sortby=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|folder|size|type|date</span></p>
+
+<ul>
+  <li>Set a descending sorting order:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --start --named=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --descending</code></p>
+
+<ul>
+  <li>Search files owned by a specific user/group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --start --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user|group</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

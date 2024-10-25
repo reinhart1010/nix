@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-show">git show</h1>
+
+<p>Mostra vari tipi di oggetti Git (commit, tag, etc.).
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-show">https://git-scm.com/docs/git-show</a>.</p>
+
+<ul>
+  <li>Mostra informazioni sull'ultimo commit (hash, messaggio, modifiche, ed altri metadati):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show</code></p>
+
+<ul>
+  <li>Mostra informazioni su un dato commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Mostra informazioni sul commit associato ad un tag specifico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Mostra informazioni sul terzo commit dalla cima del ramo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ramo</span><code class="language-plaintext highlighter-rouge">~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Mostra il messaggio di commit su linea singola, senza mostrare il diff:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show --oneline -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Mostra solo la lista dei file modificati in un commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show --stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Mostra il contenuto di un file ad una data revisione (ad esempio, in un ramo, tag o commit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revisione</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>

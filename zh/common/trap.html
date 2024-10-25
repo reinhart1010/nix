@@ -1,0 +1,32 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="trap">trap</h1>
+
+<p>在进程或操作系统接收到信号后自动执行命令。
+可用于对用户中断或其他操作执行清理。
+更多信息：<a href="https://manned.org/trap.1posix">https://manned.org/trap.1posix</a>.</p>
+
+<ul>
+  <li>列出设置 trap 的可用信号：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap -l</code></p>
+
+<ul>
+  <li>列出当前 shell 程序的活动 trap 程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap -p</code></p>
+
+<ul>
+  <li>设置 trap 以在检测到一个或多个信号时执行命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap 'echo "检测到信号 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span><code class="language-plaintext highlighter-rouge">"' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span></p>
+
+<ul>
+  <li>移除活动 trap：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGINT</span></p>

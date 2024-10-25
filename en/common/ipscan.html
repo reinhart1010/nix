@@ -1,0 +1,41 @@
+<h1 id="ipscan">ipscan</h1>
+
+<p>A fast network scanner designed to be simple to use.
+Also known as Angry IP Scanner.
+More information: <a href="https://angryip.org/">https://angryip.org/</a>.</p>
+
+<ul>
+  <li>Scan a specific IP address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1</span></p>
+
+<ul>
+  <li>Scan a range of IP addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1-254</span></p>
+
+<ul>
+  <li>Scan a range of IP addresses and save the results to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1-254</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.txt</span></p>
+
+<ul>
+  <li>Scan IPs with a specific set of ports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1-254</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,443,22</span></p>
+
+<ul>
+  <li>Scan with a delay between requests to avoid network congestion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1-254</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipscan --help</code></p>

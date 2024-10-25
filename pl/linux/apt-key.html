@@ -1,0 +1,35 @@
+<h1 id="apt-key">apt-key</h1>
+
+<p>Narzędzie do zarządzania kluczami menedżera pakietów APT dla Debiana i Ubuntu.
+Notatka: <code class="language-plaintext highlighter-rouge">apt-key</code> jest aktualnie przestarzały (za wyjątkiem użycia <code class="language-plaintext highlighter-rouge">apt-key del</code> w skryptach opiekunów).
+Więcej informacji: <a href="https://manned.org/apt-key.8">https://manned.org/apt-key.8</a>.</p>
+
+<ul>
+  <li>Wyświetl zaufane klucze:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key list</code></p>
+
+<ul>
+  <li>Dodaj klucz do magazynu zaufanych kluczy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik_z_kluczem_publicznym.asc</span></p>
+
+<ul>
+  <li>Usuń klucz z magazynu zaufanych kluczy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_klucza</span></p>
+
+<ul>
+  <li>Dodaj zdalny klucz do magazynu zaufanych kluczy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget -qO - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://host.tld/nazwa_pliku.key</span><code class="language-plaintext highlighter-rouge"> | apt-key add -</code></p>
+
+<ul>
+  <li>Dodaj klucz z serwera kluczy na podstawie ID klucza:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key adv --keyserver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span><code class="language-plaintext highlighter-rouge"> --recv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_klucza</span></p>

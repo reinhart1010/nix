@@ -1,0 +1,52 @@
+<h1 id="aws-acm-pca">aws acm-pca</h1>
+
+<p>AWS 인증서 관리자 개인 인증 기관.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/acm-pca/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/acm-pca/index.html</a>.</p>
+
+<ul>
+  <li>개인 인증 기관 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm-pca create-certificate-authority --certificate-authority-configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ca_config</span><code class="language-plaintext highlighter-rouge"> --idempotency-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span><code class="language-plaintext highlighter-rouge"> --permanent-deletion-time-in-days </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span></p>
+
+<ul>
+  <li>개인 인증 기관 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm-pca describe-certificate-authority --certificate-authority-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ca_arn</span></p>
+
+<ul>
+  <li>개인 인증 기관 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm-pca list-certificate-authorities</code></p>
+
+<ul>
+  <li>인증 기관 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm-pca update-certificate-authority --certificate-authority-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ca_arn</span><code class="language-plaintext highlighter-rouge"> --certificate-authority-configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ca_config</span><code class="language-plaintext highlighter-rouge"> --status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">status</span></p>
+
+<ul>
+  <li>개인 인증 기관 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm-pca delete-certificate-authority --certificate-authority-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ca_arn</span></p>
+
+<ul>
+  <li>인증서 발행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm-pca issue-certificate --certificate-authority-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ca_arn</span><code class="language-plaintext highlighter-rouge"> --certificate-signing-request </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cert_signing_request</span><code class="language-plaintext highlighter-rouge"> --signing-algorithm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algorithm</span><code class="language-plaintext highlighter-rouge"> --validity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">validity</span></p>
+
+<ul>
+  <li>인증서 취소:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm-pca revoke-certificate --certificate-authority-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ca_arn</span><code class="language-plaintext highlighter-rouge"> --certificate-serial </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">serial</span><code class="language-plaintext highlighter-rouge"> --reason </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reason</span></p>
+
+<ul>
+  <li>인증서 세부사항 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm-pca get-certificate --certificate-authority-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ca_arn</span><code class="language-plaintext highlighter-rouge"> --certificate-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cert_arn</span></p>

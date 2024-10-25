@@ -1,0 +1,46 @@
+<h1 id="aws-lambda">aws lambda</h1>
+
+<p>서버를 프로비저닝하거나 관리하지 않고도 코드를 실행하기 위한 컴퓨팅 서비스인 AWS Lambda를 사용.
+더 많은 정보: <a href="https://docs.aws.amazon.com/cli/latest/reference/lambda/">https://docs.aws.amazon.com/cli/latest/reference/lambda/</a>.</p>
+
+<ul>
+  <li>함수 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda invoke --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/응답.json</span></p>
+
+<ul>
+  <li>JSON 형식의 입력 페이로드를 사용하여 함수를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda invoke --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --payload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/응답.json</span></p>
+
+<ul>
+  <li>함수 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda list-functions</code></p>
+
+<ul>
+  <li>함수 구성 설정을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda get-function-configuration --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>함수 별칭 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda list-aliases --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>함수에 대해 예약된 동시성 구성 설정을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda get-function-concurrency --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>함수를 호출할 수 있는 AWS 서비스를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda get-policy --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>

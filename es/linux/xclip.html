@@ -1,0 +1,53 @@
+<h1 id="xclip">xclip</h1>
+
+<p>Herramienta para manipular el portapapeles de X11, similar a <code class="language-plaintext highlighter-rouge">xsel</code>.
+Maneja la selección primaria y secundaria de X y el portapapeles (<code class="language-plaintext highlighter-rouge">Ctrl + C</code>/<code class="language-plaintext highlighter-rouge">Ctrl + V</code>).
+Más información: <a href="https://manned.org/xclip">https://manned.org/xclip</a>.</p>
+
+<ul>
+  <li>Copia la salida de un comando a la selección primaria de X11:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xclip</code></p>
+
+<ul>
+  <li>Copia la salida de un commando a una selección de X11:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xclip -selection </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">primary|secondary|clipboard</span></p>
+
+<ul>
+  <li>Copia la salida de un commando al portapapeles, usando notación corta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xclip -sel clip</code></p>
+
+<ul>
+  <li>Copia el contenido de un fichero al portapapeles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -sel clip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.txt</span></p>
+
+<ul>
+  <li>Copia el contenido de un fichero con formato PNG al portapapeles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -sel clip -t image/png </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.png</span></p>
+
+<ul>
+  <li>Copia la entrada del usuario al portapapeles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -i</code></p>
+
+<ul>
+  <li>Imprime el contenido de la selección primaria de X11:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -o</code></p>
+
+<ul>
+  <li>Imprime el contenido del portapapeles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -o -sel clip</code></p>

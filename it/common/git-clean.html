@@ -1,0 +1,40 @@
+<h1 id="git-clean">git clean</h1>
+
+<p>Elimina i file non tracciati dall'albero di lavoro.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-clean">https://git-scm.com/docs/git-clean</a>.</p>
+
+<ul>
+  <li>Elimina i file che non sono tracciati da Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean</code></p>
+
+<ul>
+  <li>Elimina in modo interattivo i file non tracciati da Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–interactive</span></p>
+
+<ul>
+  <li>Mostra quali file non tracciati sarebbero eliminati, senza però eliminarli davvero:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean --dry-run</code></p>
+
+<ul>
+  <li>Forza l'eliminazione dei file non tracciati da Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–force</span></p>
+
+<ul>
+  <li>Forza l'eliminazione delle directory non tracciate da Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–force</span><code class="language-plaintext highlighter-rouge"> -d</code></p>
+
+<ul>
+  <li>Elimina i file non tracciati, compresi quelli da ignorare elencati in <code class="language-plaintext highlighter-rouge">.gitignore</code> e <code class="language-plaintext highlighter-rouge">.git/info/exclude</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean -x</code></p>

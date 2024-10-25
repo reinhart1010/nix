@@ -1,0 +1,53 @@
+<h1 id="kubectl">kubectl</h1>
+
+<p>Befehlszeilenschnittstelle zur Ausführung von Befehlen gegen Kubernetes-Cluster.
+Einige Unterbefehle wie <code class="language-plaintext highlighter-rouge">kubectl run</code> haben ihre eigene Dokumentation zur Verwendung.
+Weitere Informationen: <a href="https://kubernetes.io/docs/reference/kubectl/">https://kubernetes.io/docs/reference/kubectl/</a>.</p>
+
+<ul>
+  <li>Liste Informationen über eine Ressource mit weiteren Details auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod|service|deployment|ingress|…</span><code class="language-plaintext highlighter-rouge"> -o wide</code></p>
+
+<ul>
+  <li>Aktualisiere die angegebenen Pods mit dem Label 'unhealthy' und dem Wert 'true':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl label pods </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> unhealthy=true</code></p>
+
+<ul>
+  <li>Liste alle Ressourcen aller Typen auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get all</code></p>
+
+<ul>
+  <li>Zeige die Ressourcennutzung (CPU/Memory/Storage) von Knoten oder Pods:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl top </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod|node</span></p>
+
+<ul>
+  <li>Zeige die Adresse der Master- und Clusterdienste:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl cluster-info</code></p>
+
+<ul>
+  <li>Zeige eine Erklärung zu einem bestimmten Feld an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl explain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pods.spec.containers</span></p>
+
+<ul>
+  <li>Zeige Logs für einen Container in einem Pod oder einer bestimmten Ressource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span></p>
+
+<ul>
+  <li>Führe einen Befehl in einem bestehenden Pod aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls /</span></p>

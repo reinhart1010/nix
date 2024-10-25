@@ -1,0 +1,29 @@
+<h1 id="encfs">encfs</h1>
+
+<p>암호화된 가상 파일 시스템을 마운트하거나 생성.
+마운트된 파일 시스템을 마운트 해제할 수 있는 <code class="language-plaintext highlighter-rouge">fusermount</code>도 참조.
+더 많은 정보: <a href="https://github.com/vgough/encfs">https://github.com/vgough/encfs</a>.</p>
+
+<ul>
+  <li>암호화된 파일 시스템 초기화 또는 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">encfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/암호화_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/마운트_지점</span></p>
+
+<ul>
+  <li>표준 설정으로 암호화된 파일 시스템을 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">encfs --standard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/암호화_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/마운트_지점</span></p>
+
+<ul>
+  <li>데몬을 생성하는 대신 포어그라운드에서 encfs를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">encfs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/암호화_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/마운트_지점</span></p>
+
+<ul>
+  <li>일반 디렉터리의 암호화된 스냅샷을 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">encfs --reverse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/일반_디렉토리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/암호화_폴더</span></p>

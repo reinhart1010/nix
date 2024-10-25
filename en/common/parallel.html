@@ -1,0 +1,52 @@
+<h1 id="parallel">parallel</h1>
+
+<p>Run commands on multiple CPU cores.
+More information: <a href="https://www.gnu.org/software/parallel">https://www.gnu.org/software/parallel</a>.</p>
+
+<ul>
+  <li>Gzip several files at once, using all cores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel gzip ::: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Read arguments from <code class="language-plaintext highlighter-rouge">stdin</code>, run 4 jobs at once:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls *.txt | parallel -j4 gzip</code></p>
+
+<ul>
+  <li>Convert JPEG images to PNG using replacement strings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel convert {} {.}.png ::: *.jpg</code></p>
+
+<ul>
+  <li>Parallel xargs, cram as many args as possible onto one command:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">args</span><code class="language-plaintext highlighter-rouge"> | parallel -X </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Break <code class="language-plaintext highlighter-rouge">stdin</code> into ~1M blocks, feed each block to <code class="language-plaintext highlighter-rouge">stdin</code> of new command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">big_file.txt</span><code class="language-plaintext highlighter-rouge"> | parallel --pipe --block 1M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run on multiple machines via SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> ::: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg2</span></p>
+
+<ul>
+  <li>Download 4 files simultaneously from a text file containing links showing progress:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel -j4 --bar --eta wget -q {} :::: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/links.txt</span></p>
+
+<ul>
+  <li>Print the jobs which <code class="language-plaintext highlighter-rouge">parallel</code> is running in <code class="language-plaintext highlighter-rouge">stderr</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> ::: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">args</span></p>

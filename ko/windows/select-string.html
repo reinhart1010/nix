@@ -1,0 +1,36 @@
+<h1 id="select-string">Select-String</h1>
+
+<p>PowerShell에서 문자열과 파일에서 텍스트를 찾습니다.
+참고: 이 명령어는 PowerShell을 통해서만 사용할 수 있습니다.
+<code class="language-plaintext highlighter-rouge">Select-String</code>을 UNIX의 <code class="language-plaintext highlighter-rouge">grep</code>이나 Windows의 <code class="language-plaintext highlighter-rouge">findstr.exe</code>와 유사하게 사용할 수 있습니다.
+더 많은 정보: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string</a>.</p>
+
+<ul>
+  <li>파일 내에서 패턴 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Select-String -Path "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일</span><code class="language-plaintext highlighter-rouge">" -Pattern '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>정확한 문자열 검색 (정규식 비활성화):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Select-String -SimpleMatch "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정확한_문자열</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일</span></p>
+
+<ul>
+  <li>현재 디렉토리의 모든 <code class="language-plaintext highlighter-rouge">.ext</code> 파일에서 패턴 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Select-String -Path "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">" -Pattern '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>패턴과 일치하는 줄 앞뒤의 지정된 줄 수 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Select-String --Context </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,3</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 패턴과 일치하지 않는 줄 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Content </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일</span><code class="language-plaintext highlighter-rouge"> | Select-String --NotMatch "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">"</code></p>

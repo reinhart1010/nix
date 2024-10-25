@@ -1,0 +1,28 @@
+<h1 id="ppmfade">ppmfade</h1>
+
+<p>Generate a transition between two PPM images.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmfade.html">https://netpbm.sourceforge.net/doc/ppmfade.html</a>.</p>
+
+<ul>
+  <li>Generate a transition between two PPM images ([f]irst and [l]ast) using the specified effect:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmfade -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.ppm</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image2.ppm</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mix|spread|shift|relief|oil|…</span></p>
+
+<ul>
+  <li>Generate a transition starting with the specified image and ending in a solid black image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmfade -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mix|spread|shift|relief|oil|…</span></p>
+
+<ul>
+  <li>Generate a transition starting with a solid black image and ending with the specified image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmfade -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mix|spread|shift|relief|oil|…</span></p>
+
+<ul>
+  <li>Store the resulting images in files named <code class="language-plaintext highlighter-rouge">base.NNNN.ppm</code> where <code class="language-plaintext highlighter-rouge">NNNN</code> is a increasing number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmfade -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.ppm</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image2.ppm</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mix|spread|shift|relief|oil|…</span><code class="language-plaintext highlighter-rouge"> -base </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base</span></p>

@@ -1,0 +1,28 @@
+<h1 id="go-build">go build</h1>
+
+<p>Go kaynaklarını derle.
+Daha fazla bilgi için: <a href="https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies">https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies</a>.</p>
+
+<ul>
+  <li>Bir 'package main' dosyasını derle (çıktı uzantısız bir dosya ismi olacak):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/main.go</span></p>
+
+<ul>
+  <li>Çıktı dosya ismini belirterek derle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/binary</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/kaynak.go</span></p>
+
+<ul>
+  <li>Bir paket yarat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/binary</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/paket</span></p>
+
+<ul>
+  <li>Bir ana paketi veri yarış tanımlayıcısını etkinleştirerek çalıştırılabilir olarak derle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build -race -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/çalıştırılabilir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/ana_paket</span></p>

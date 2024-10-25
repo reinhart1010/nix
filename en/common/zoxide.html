@@ -1,0 +1,41 @@
+<h1 id="zoxide">zoxide</h1>
+
+<p>Keep track of the most frequently used directories.
+Uses a ranking algorithm to navigate to the best match.
+More information: <a href="https://github.com/ajeetdsouza/zoxide">https://github.com/ajeetdsouza/zoxide</a>.</p>
+
+<ul>
+  <li>Go to the highest-ranked directory that contains "foo" in the name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Go to the highest-ranked directory that contains "foo" and then "bar":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>
+
+<ul>
+  <li>Start an interactive directory search (requires <code class="language-plaintext highlighter-rouge">fzf</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query --interactive</code></p>
+
+<ul>
+  <li>Add a directory or increment its rank:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Remove a directory from <code class="language-plaintext highlighter-rouge">zoxide</code>'s database interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --interactive</code></p>
+
+<ul>
+  <li>Generate shell configuration for command aliases (<code class="language-plaintext highlighter-rouge">z</code>, <code class="language-plaintext highlighter-rouge">za</code>, <code class="language-plaintext highlighter-rouge">zi</code>, <code class="language-plaintext highlighter-rouge">zq</code>, <code class="language-plaintext highlighter-rouge">zr</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|fish|zsh</span></p>

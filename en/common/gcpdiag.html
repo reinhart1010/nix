@@ -1,0 +1,35 @@
+<h1 id="gcpdiag">gcpdiag</h1>
+
+<p>Google Cloud Platform troubleshooting and diagnostics tool.
+Run in a Docker container or in GCP Cloudshell.
+More information: <a href="https://github.com/GoogleCloudPlatform/gcpdiag">https://github.com/GoogleCloudPlatform/gcpdiag</a>.</p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">gcpdiag</code> on your project, returning all rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcpdiag lint --project=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gcp_project_id</span></p>
+
+<ul>
+  <li>Hide rules that are ok:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcpdiag lint --project=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gcp_project_id</span><code class="language-plaintext highlighter-rouge"> --hide-ok</code></p>
+
+<ul>
+  <li>Authenticate using a service account private key file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcpdiag lint --project=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gcp_project_id</span><code class="language-plaintext highlighter-rouge"> --auth-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/private_key</span></p>
+
+<ul>
+  <li>Search logs and metrics from a number of days back (default: 3 days):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcpdiag lint --project=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gcp_project_id</span><code class="language-plaintext highlighter-rouge"> --within-days </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcpdiag lint --help</code></p>

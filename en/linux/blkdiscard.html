@@ -1,0 +1,22 @@
+<h1 id="blkdiscard">blkdiscard</h1>
+
+<p>Discards device sectors on storage devices. Useful for SSDs.
+More information: <a href="https://manned.org/blkdiscard">https://manned.org/blkdiscard</a>.</p>
+
+<ul>
+  <li>Discard all sectors on a device, removing all data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blkdiscard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/device</span></p>
+
+<ul>
+  <li>Securely discard all blocks on a device, removing all data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blkdiscard --secure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/device</span></p>
+
+<ul>
+  <li>Discard the first 100 MB of a device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blkdiscard --length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100MB</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/device</span></p>
