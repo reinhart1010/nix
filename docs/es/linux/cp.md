@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (español)
 description: "Copia archivos y directorios."
-content_hash: 292140c74f5c03b7f4b31ea5c309c0c10c487449
-last_modified_at: 2023-11-12
+content_hash: 79efceab55d1fb76fd90d6ff5d4ff3a6605bb3c9
+last_modified_at: 2024-10-25
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -67,9 +67,13 @@ Más información: <https://www.gnu.org/software/coreutils/cp>.
 
 `cp -vr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_destino</span>
 
-- Copia archivos de texto en otra ubicación en modo interactivo (pregunta al usuario antes de sobreescribir):
+- Copia varios archivos de inmediato a un directorio:
 
-`cp -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_destino</span>
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_destino</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
+
+- Copia todos los archivos con una extensión específica a otra ubicación en modo interactivo (pregunta al usuario antes de sobreescribir):
+
+`cp -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_destino</span>
 
 - Sigue los enlaces simbólicos antes de copiar:
 
