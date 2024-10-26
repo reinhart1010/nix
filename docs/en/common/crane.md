@@ -2,8 +2,12 @@
 layout: page
 title: common/crane (English)
 description: "Container images managing tool."
-content_hash: 292d3454fffb578ab3745429649ceed41947369e
-last_modified_at: 2024-10-04
+content_hash: 0ef3487bc7ed7ac092df7633d71db92703505bf0
+last_modified_at: 2024-10-26
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/crane.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # crane
@@ -26,7 +30,7 @@ More information: <https://github.com/google/go-containerregistry/blob/main/cmd/
 
 - Specify the platform in the form os/arch`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/variant</span><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:osversion</span>` (e.g. linux/amd64). (default all):
 
-`crane  --platform `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">platform</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
+`crane --platform `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">platform</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
 - Enable debug logs for a subcommand:
 

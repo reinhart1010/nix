@@ -2,8 +2,12 @@
 layout: page
 title: common/gcrane-help (English)
 description: "Help provides help for any command in the application."
-content_hash: 14660b1565ee93360662fcdc1f79d0d46b55377a
-last_modified_at: 2024-10-04
+content_hash: aae42feff4219c4882bb6b2e49c8db552f294fc8
+last_modified_at: 2024-10-26
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/gcrane-help.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # gcrane help
@@ -17,4 +21,4 @@ More information: <https://github.com/google/go-containerregistry/blob/main/cmd/
 
 - Display help:
 
-`grance help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>
+`gcrane help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

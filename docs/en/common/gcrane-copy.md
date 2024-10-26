@@ -2,8 +2,12 @@
 layout: page
 title: common/gcrane-copy (English)
 description: "Efficiently copy a remote image from source to target while retaining the digest value."
-content_hash: 0d688d160d37ed3d1b35924361c04991e46dc491
-last_modified_at: 2024-10-04
+content_hash: 08ab9751b9796cbe5b08eec6440d304f257b3ae1
+last_modified_at: 2024-10-26
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/gcrane-copy.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # gcrane copy
@@ -21,7 +25,7 @@ More information: <https://github.com/google/go-containerregistry/blob/main/cmd/
 
 - Whether to recurse through repositories:
 
-`grance copy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>
+`gcrane copy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>
 
 - Display help:
 

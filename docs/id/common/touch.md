@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/touch (Indonesia)
-description: "Mengubah waktu akses (atime) dan waktu modifikasi (mtime) dari sebuah file."
-content_hash: 1c932619bc99a892e434bbc3a9a466c6fef29815
-last_modified_at: 2024-09-09
+description: "Buat berkas-berkas kosong baru dan setel waktu akses dan modifikasi terhadap para berkas."
+content_hash: c666f412a8aea11ccb79082afea893c3cffc0ca0
+last_modified_at: 2024-10-26
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -42,17 +42,21 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># touch
 
-Mengubah waktu akses (atime) dan waktu modifikasi (mtime) dari sebuah file.
+Buat berkas-berkas kosong baru dan setel waktu akses dan modifikasi terhadap para berkas.
 Informasi lebih lanjut: <https://manned.org/touch>.
 
-- Membuat file baru yang kosong atau mengubah waktu file yang telahj ada ke waktu sekarang:
+- Buat kumpulan berkas baru:
 
-`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_file</span>
+`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>
 
-- Mengatur waktu sebuah file ke tanggal dan jam tertentu:
+- Atur informasi waktu [a]kses atau [m]odifikasi pada kumpulan berkas yang telah tersedia dalam penyimpanan, dan jangan membuat ([c]reate) berkas baru jika tak tersedia dalam penyimpanan:
 
-`touch -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_file</span>
+`touch -c -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|m</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>
 
-- Menggunakan waktu dari satu file untuk mengatur waktu file yang lain:
+- Atur informasi wak[t]u terhadap kumpulan berkas, dan jangan membuat ([c]reate) berkas baru jika tak tersedia dalam penyimpanan:
 
-`touch -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_file2</span>
+`touch -c -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>
+
+- Gunakan informasi wak[t]u atas suatu berkas referensi terhadap kumpulan berkas yang diolah, dan jangan membuat ([c]reate) berkas baru jika tak tersedia dalam penyimpanan:
+
+`touch -c -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_referensi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>

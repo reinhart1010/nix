@@ -2,8 +2,8 @@
 layout: page
 title: linux/gcrane-completion (English)
 description: "Generate the autocompletion script for gcrane for the specified shell."
-content_hash: f1560c4798ddf2b8756da8e61d72e84d1be426b6
-last_modified_at: 2024-10-04
+content_hash: a781eb5cb6492567f7c44f0a6e65e13b36a6d350
+last_modified_at: 2024-10-26
 tldri18n_status: 2
 ---
 # gcrane completion
@@ -18,7 +18,7 @@ More information: <https://github.com/google/go-containerregistry/blob/main/cmd/
 
 - Disable completion descriptions:
 
-`grance completion `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_name</span>` --no-descriptions`
+`gcrane completion `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_name</span>` --no-descriptions`
 
 - Load completions in your current shell session (bash/zsh):
 

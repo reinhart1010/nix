@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ping (Indonesia)
-description: "Mengirim paket-paket ICMP ECHO_REQUEST ke host dalam jaringan."
-content_hash: 80e7faf86b03402bb7e199e41193fefa46b4822c
-last_modified_at: 2024-08-03
+description: "Kirim kumpulan paket ICMP ECHO_REQUEST (sebagai pesan \"ping\") ke host dalam jaringan."
+content_hash: 5021d85b485b7bfcda2e280ab7215fec873f4ea9
+last_modified_at: 2024-10-26
 related_topics:
   - title: Deutsch version
     url: /de/common/ping.html
@@ -27,29 +27,33 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># ping
 
-Mengirim paket-paket ICMP ECHO_REQUEST ke host dalam jaringan.
+Kirim kumpulan paket ICMP ECHO_REQUEST (sebagai pesan "ping") ke host dalam jaringan.
 Informasi lebih lanjut: <https://manned.org/ping>.
 
-- Ping host:
+- Ping suatu host:
 
 `ping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Ping host dalam jumlah kali tertentu:
+- Ping suatu host dengan jumlah pengulangan yang ditetapkan:
 
 `ping -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jumlah</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Ping host, dengan menentukan interval dalam sekian detik di antara request (asalnya 1 detik):
+- Ping suatu host, dengan menentukan interval dalam sekian detik di antara permintaan (asalnya 1 detik):
 
-`ping -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jumlah-detik</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
+`ping -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">detik</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Ping host tanpa mencoba untuk melihat alamat dari nama-nama simbolis:
+- Ping suatu host tanpa mencoba untuk melihat alamat dari nama-nama simbolis:
 
 `ping -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Ping host dan membunyikan bel saat paket diterima (jika terminal anda mendukungnya):
+- Ping suatu host dan membunyikan bel saat paket diterima (jika terminal anda mendukungnya):
 
 `ping -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Menampilkan juga pesan jika tidak ada respon yang diterima:
+- Tampilkan juga pesan jika tidak ada respon yang diterima:
 
 `ping -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
+
+- Ping suatu host dengan jumlah pengulangan yang ditetapkan, batas timeout (`-W`) untuk setiap balasan, serta batas waktu (`-w`) eksekusi bagi keseluruhan proses ping berjalan:
+
+`ping -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jumlah</span>` -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">detik</span>` -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">detik</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
