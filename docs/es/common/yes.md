@@ -3,7 +3,7 @@ layout: page
 title: common/yes (español)
 description: "Retorna algo repetidamente."
 content_hash: b53b003489577c4780ef90cce33d0fee0e08aaf9
-last_modified_at: 2024-10-25
+last_modified_at: 2024-10-26
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -23,12 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yes
+# yes
 
 Retorna algo repetidamente.
 Este comando es frecuentemente utilizado para aceptar todas las confirmaciones en comandos de instalación (como apt-get).

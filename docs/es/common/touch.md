@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/touch (español)
-description: "Cambia el tiempo de accesso y modificación de un archivo (atime, mtime)."
-content_hash: 6b763404c8812d809e635b0b54bcbd987fd098ee
-last_modified_at: 2024-09-09
+description: "Crea archivos y establece los tiempos de acceso y modificación."
+content_hash: 176a53a3a74498407fe19aa1a031fdda01987666
+last_modified_at: 2024-10-26
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -35,24 +35,25 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/touch.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# touch
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># touch
-
-Cambia el tiempo de accesso y modificación de un archivo (atime, mtime).
+Crea archivos y establece los tiempos de acceso y modificación.
 Más información: <https://manned.org/touch>.
 
-- Crea un archivo nuevo o cambia los tiempos de archivos existentes al tiempo actual:
+- Crea los archivos especificados:
 
-`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
 
-- Establece los tiempos de un archivo a un día y hora específicos:
+- Establece los tiempos de [a]cceso o [m]odificación al momento actual y no [c]rea un archivo si este no existe:
 
-`touch -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`touch -c -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|m</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
 
-- Usa los tiempos de un archivo para establecer los tiempos en otro archivo:
+- Establece los [t]iempos de un archivo a un valor específico y no [c]rea el archivo si no existe:
 
-`touch -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo2</span>
+`touch -c -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
+
+- Usa los tiempos de un archivo de [r]eferencia para establecer los tiempos en otro archivo y no [c]rea el archivo si no existe:
+
+`touch -c -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo/de/referencia</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>

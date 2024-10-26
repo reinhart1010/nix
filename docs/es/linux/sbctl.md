@@ -2,21 +2,18 @@
 layout: page
 title: linux/sbctl (español)
 description: "Un gestor de claves de arranque seguro fácil de usar."
-content_hash: 1e254eb940a61d26685e33a814ec13c6bbb4011f
-last_modified_at: 2024-10-25
+content_hash: 00e33a1c481159c648a8ad9f30d5074d08eac04f
+last_modified_at: 2024-10-26
 related_topics:
   - title: English version
     url: /en/linux/sbctl.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sbctl
+# sbctl
 
 Un gestor de claves de arranque seguro fácil de usar.
-Nota: no registrar los certificados de Microsoft puede bloquear su sistema. Ver <https://github.com/Foxboron/sbctl/wiki/FAQ#option-rom>.
+Nota: no registrar los certificados de Microsoft puede bloquear su sistema. Vea <https://github.com/Foxboron/sbctl/wiki/FAQ#option-rom>.
 Más información: <https://github.com/Foxboron/sbctl#usage>.
 
 - Muestra el estado actual del arranque seguro:
@@ -27,7 +24,7 @@ Más información: <https://github.com/Foxboron/sbctl#usage>.
 
 `sbctl create-keys`
 
-- Inscribe las claves de arranque seguro personalizadas y los certificados de proveedor UEFI:
+- Inscribe las claves de arranque seguro personalizadas y los certificados de proveedor UEFI de Microsoft:
 
 `sbctl enroll-keys --microsoft`
 

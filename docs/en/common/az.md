@@ -2,8 +2,8 @@
 layout: page
 title: common/az (English)
 description: "The official CLI tool for Microsoft Azure."
-content_hash: bc56c2db32a782da12deee71344f5220ea4bd4aa
-last_modified_at: 2024-10-05
+content_hash: 7570ab2e9c1848adeee7e75b545ff8553e364ba9
+last_modified_at: 2024-10-26
 related_topics:
   - title: español version
     url: /es/common/az.html
@@ -32,7 +32,7 @@ tldri18n_status: 2
 
 The official CLI tool for Microsoft Azure.
 Some subcommands such as `login` have their own usage documentation.
-More information: <https://learn.microsoft.com/cli/azure>.
+More information: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 - Log in to Azure:
 

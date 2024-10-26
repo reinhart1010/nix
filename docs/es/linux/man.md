@@ -2,8 +2,8 @@
 layout: page
 title: linux/man (español)
 description: "Da formato y muestra páginas del manual."
-content_hash: 0a43758cdccf0212a23359c895f8c450ab1214ac
-last_modified_at: 2024-02-07
+content_hash: bd797024a891f5d176e09a7d8b63a5fa03f2bd5c
+last_modified_at: 2024-10-26
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -17,6 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/man.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/man.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/man.html
     icon: bi bi-globe
@@ -29,21 +32,22 @@ related_topics:
   - title: українська version
     url: /uk/linux/man.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># man
+# man
 
 Da formato y muestra páginas del manual.
 Más información: <https://manned.org/man>.
 
-- Muestra la página del manual para un comando:
+- Muestra la página del manual de un comando:
 
 `man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Muestra la página del manual para un comando de la sección 7:
+- Abre la página del manual de un comando en un navegador (requiere que la variable `BROWSER` esté establecida):
+
+`man --html `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+
+- Muestra la página del manual de la sección 7 de un comando:
 
 `man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
@@ -51,7 +55,7 @@ Más información: <https://manned.org/man>.
 
 `man --whatis `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Muestra las rutas usadas para la búsqueda de las páginas:
+- Muestra las rutas usadas en la búsqueda de las páginas:
 
 `man --path`
 
@@ -59,10 +63,10 @@ Más información: <https://manned.org/man>.
 
 `man --where `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Muestra la página del manual usando una ubicación específica:
+- Muestra la página del manual usando un idioma (locale) específico (p.e. es para español):
 
-`man --locale=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">locale</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
+`man --locale `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">idioma</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Busca las páginas del manual que contienen la cadena indicada:
+- Busca las páginas del manual que contienen la cadena de búsqueda:
 
-`man --apropos "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_a_buscar</span>`"`
+`man --apropos "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_de_búsqueda</span>`"`
