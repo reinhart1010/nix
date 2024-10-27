@@ -3,7 +3,7 @@ layout: page
 title: common/gcrane-gc (Nederlands)
 description: "Toon images die niet getagged zijn."
 content_hash: a74dece0e71c7516276b974691909145bb1d66f2
-last_modified_at: 2024-10-26
+last_modified_at: 2024-10-27
 related_topics:
   - title: English version
     url: /en/common/gcrane-gc.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/gcrane-gc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gcrane-gc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcrane gc
+# gcrane gc
 
 Toon images die niet getagged zijn.
 Zal berekenen welke images opgeruimd kunnen worden met garbage-collection.

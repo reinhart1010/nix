@@ -3,7 +3,7 @@ layout: page
 title: common/banner (Indonesia)
 description: "Cetak argumen perintah ini sebagai suatu seni teks ASCII (ASCII art)."
 content_hash: a0017d6d05ed0cfcbff3306141358c5aece27977
-last_modified_at: 2024-10-26
+last_modified_at: 2024-10-27
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/banner.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/banner.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># banner
+# banner
 
 Cetak argumen perintah ini sebagai suatu seni teks ASCII (ASCII art).
 Informasi lebih lanjut: <https://manned.org/banner>.

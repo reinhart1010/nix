@@ -3,7 +3,7 @@ layout: page
 title: common/atom (Indonesia)
 description: "Editor teks yang dapat dipasang lintas platform."
 content_hash: 505c52034431ac8057744a30fe7b761c4bf4e904
-last_modified_at: 2024-10-26
+last_modified_at: 2024-10-27
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -29,18 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/atom.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/atom.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># atom
+# atom
 
 Editor teks yang dapat dipasang lintas platform.
 Plugin dikelola oleh `apm`.

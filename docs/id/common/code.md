@@ -3,7 +3,7 @@ layout: page
 title: common/code (Indonesia)
 description: "Pengolah kode komputer yang tersedia lintas platform dan dapat diperluas."
 content_hash: 65b690b53f11c71eeccc7bc015f825b193775a48
-last_modified_at: 2024-10-26
+last_modified_at: 2024-10-27
 related_topics:
   - title: Deutsch version
     url: /de/common/code.html
@@ -32,18 +32,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/code.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/code.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># code
+# code
 
 Pengolah kode komputer yang tersedia lintas platform dan dapat diperluas.
 Informasi lebih lanjut: <https://github.com/microsoft/vscode>.

@@ -3,7 +3,7 @@ layout: page
 title: common/ping (Indonesia)
 description: "Kirim kumpulan paket ICMP ECHO_REQUEST (sebagai pesan \"ping\") ke host dalam jaringan."
 content_hash: 5021d85b485b7bfcda2e280ab7215fec873f4ea9
-last_modified_at: 2024-10-26
+last_modified_at: 2024-10-27
 related_topics:
   - title: Deutsch version
     url: /de/common/ping.html
@@ -20,12 +20,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ping.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ping
+# ping
 
 Kirim kumpulan paket ICMP ECHO_REQUEST (sebagai pesan "ping") ke host dalam jaringan.
 Informasi lebih lanjut: <https://manned.org/ping>.

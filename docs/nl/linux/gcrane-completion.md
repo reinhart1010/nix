@@ -3,23 +3,14 @@ layout: page
 title: linux/gcrane-completion (Nederlands)
 description: "Genereer het autocompletion script voor gcrane voor de opgegeven shell."
 content_hash: 80ea65c1a3f7d62736cffcdf8fb39e232441dd6d
-last_modified_at: 2024-10-26
+last_modified_at: 2024-10-27
 related_topics:
   - title: English version
     url: /en/linux/gcrane-completion.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/gcrane-completion.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcrane completion
+# gcrane completion
 
 Genereer het autocompletion script voor gcrane voor de opgegeven shell.
 De beschikbare shells zijn `bash`, `fish`, `powershell` en `zsh`.

@@ -3,7 +3,7 @@ layout: page
 title: common/touch (Indonesia)
 description: "Buat berkas-berkas kosong baru dan setel waktu akses dan modifikasi terhadap para berkas."
 content_hash: c666f412a8aea11ccb79082afea893c3cffc0ca0
-last_modified_at: 2024-10-26
+last_modified_at: 2024-10-27
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/touch.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># touch
+# touch
 
 Buat berkas-berkas kosong baru dan setel waktu akses dan modifikasi terhadap para berkas.
 Informasi lebih lanjut: <https://manned.org/touch>.

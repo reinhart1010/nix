@@ -3,7 +3,7 @@ layout: page
 title: common/bandwhich (Indonesia)
 description: "Tampilkan penggunaan jaringan saat ini berdasarkan proses, koneksi, atau IP/nama host jarak jauh."
 content_hash: 7739eb548549e012043c390b34c33ac997fa3e35
-last_modified_at: 2024-10-26
+last_modified_at: 2024-10-27
 related_topics:
   - title: English version
     url: /en/common/bandwhich.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bandwhich.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bandwhich.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bandwhich
+# bandwhich
 
 Tampilkan penggunaan jaringan saat ini berdasarkan proses, koneksi, atau IP/nama host jarak jauh.
 Informasi lebih lanjut: <https://github.com/imsnif/bandwhich>.

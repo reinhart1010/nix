@@ -3,7 +3,7 @@ layout: page
 title: common/cowsay (Indonesia)
 description: "Buat dan tampilkan seni teks ASCII (ASCII art) yang menampilkan objek (secara bawaan berupa seekor sapi) yang sedang berkata atau berpikir tentang sesuatu."
 content_hash: 63c4fd71c6f7e07c9421baa97a420a6b0b910076
-last_modified_at: 2024-10-26
+last_modified_at: 2024-10-27
 related_topics:
   - title: English version
     url: /en/common/cowsay.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cowsay.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cowsay.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cowsay
+# cowsay
 
 Buat dan tampilkan seni teks ASCII (ASCII art) yang menampilkan objek (secara bawaan berupa seekor sapi) yang sedang berkata atau berpikir tentang sesuatu.
 Informasi lebih lanjut: <https://github.com/tnalpgge/rank-amateur-cowsay>.
