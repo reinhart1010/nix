@@ -2,8 +2,8 @@
 layout: page
 title: common/alias (português (Brasil))
 description: "Cria apelidos -- palavras que são substituídas por um comando."
-content_hash: 28097b79d7e6f097ac915a97fa7a5051ec4d3517
-last_modified_at: 2024-01-13
+content_hash: cd54b4467442b87571ed10f071e35b15b88a324e
+last_modified_at: 2024-10-27
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -70,7 +70,11 @@ Cria apelidos -- palavras que são substituídas por um comando.
 Apelidos expiram ao final da sessão atual do shell de comando, a menos que sejam definidos no arquivo de configuração do shell, por exemplo `~/.bashrc`.
 Mais informações: <https://tldp.org/LDP/abs/html/aliases.html>.
 
-- Cria um apelido:
+- Lista todos os apelidos:
+
+`alias`
+
+- Cria um apelido genérico:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apelido</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
 
