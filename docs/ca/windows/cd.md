@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cd (català)
-description: "Aquest comandament és un àlies de `set-location`."
-content_hash: b198a4f8ed0a9c47d692aecc50d691af8fcad3d8
-last_modified_at: 2023-11-02
+description: "Mostra el directori actual o canvia a un directori diferent."
+content_hash: 5a716dbc0d706ae86ccdc0cc06fc02b10e693cd2
+last_modified_at: 2024-10-27
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -47,15 +47,47 @@ related_topics:
   - title: ไทย version
     url: /th/windows/cd.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/cd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># cd
 
-Aquest comandament és un àlies de `set-location`.
+Mostra el directori actual o canvia a un directori diferent.
+En PowerShell, aquesta ordre és an àlies de `Set-Location`. Aquesta documentació està basada en la versió Command Prompt (`cmd`) de `cd`.
 Més informació: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Veure documentació pel comandament original:
+- Mostra documentació de l'ordre PowerShell equivalent:
 
 `tldr set-location`
+
+- Mostra la ruta (path) del directori actual:
+
+`cd`
+
+- Canvia a un directori específic en el mateix disc:
+
+`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\directori</span>
+
+- Canvia a un directori específic en un altre [d]isc:
+
+`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\directori</span>
+
+- Canvia al directori superior:
+
+`cd ..`
+
+- Canvia al directori inicial de l'usuari actual:
+
+`cd %userprofile%`
+
+- Canvia a l'arrel de la unitat actual:
+
+`cd \`

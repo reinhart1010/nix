@@ -2,9 +2,12 @@
 layout: page
 title: common/cd (català)
 description: "Canvia el directori actual."
-content_hash: 55b78052ddd25c02d2e0b99eb32859a7879ccbb8
-last_modified_at: 2023-11-12
+content_hash: 2d50f5bfe2f6b354821b045afe8e0f7304842191
+last_modified_at: 2024-10-27
 related_topics:
+  - title: العربية version
+    url: /ar/common/cd.html
+    icon: bi bi-globe
   - title: čeština version
     url: /cs/common/cd.html
     icon: bi bi-globe
@@ -76,14 +79,22 @@ Més informació: <https://manned.org/cd>.
 
 `cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">camí/al/directori</span>
 
-- Accedeix al directori `home` del usuari actual:
-
-`cd`
-
 - Accedeix al directori pare del directori actual:
 
 `cd ..`
 
+- Accedeix al directori `home` de l'usuari actual:
+
+`cd`
+
+- Accedeix al directori `home` de l'usuari donat:
+
+`cd ~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
+
 - Accedeix al directori escollit prèviament:
 
 `cd -`
+
+- Accedeix a l'arrel del directori actual:
+
+`cd /`
