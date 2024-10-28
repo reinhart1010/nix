@@ -3,7 +3,7 @@ layout: page
 title: common/bundler (português (Brasil))
 description: "Gerenciador de dependências para a linguagem de programação Ruby."
 content_hash: d6bead33c274f6535e1a307739a2311758c0b0e4
-last_modified_at: 2024-10-27
+last_modified_at: 2024-10-28
 related_topics:
   - title: English version
     url: /en/common/bundler.html
@@ -20,18 +20,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/bundler.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bundler.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bundler
+# bundler
 
 Gerenciador de dependências para a linguagem de programação Ruby.
 `bundler` é um nome comum para o comando `bundle`, mas não um comando em si.

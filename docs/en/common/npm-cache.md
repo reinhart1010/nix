@@ -3,19 +3,10 @@ layout: page
 title: common/npm-cache (English)
 description: "Manage the npm package cache."
 content_hash: e557bbf61bcf463096a73a2dbb5c069008f599f5
-last_modified_at: 2024-10-27
-tldri18n_status: 0
+last_modified_at: 2024-10-28
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/npm-cache.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># npm cache
+# npm cache
 
 Manage the npm package cache.
 More information: <https://docs.npmjs.com/cli/commands/npm-cache>.

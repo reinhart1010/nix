@@ -3,23 +3,14 @@ layout: page
 title: common/gource (한국어)
 description: "Git, SVN, Mercurial 및 Bazaar 저장소의 애니메이션 트리 다이러그램을 렌더링."
 content_hash: 581e2b4e9ecc6f539b71cf64a62881b5d062d6f9
-last_modified_at: 2024-10-27
+last_modified_at: 2024-10-28
 related_topics:
   - title: English version
     url: /en/common/gource.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gource.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gource
+# gource
 
 Git, SVN, Mercurial 및 Bazaar 저장소의 애니메이션 트리 다이러그램을 렌더링.
 시간이 지남에 따라 생성, 수정 또는 제거되는 파일 및 디렉터리르 보여줌.

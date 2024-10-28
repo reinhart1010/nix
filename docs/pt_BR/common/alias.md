@@ -3,7 +3,7 @@ layout: page
 title: common/alias (português (Brasil))
 description: "Cria apelidos -- palavras que são substituídas por um comando."
 content_hash: cd54b4467442b87571ed10f071e35b15b88a324e
-last_modified_at: 2024-10-27
+last_modified_at: 2024-10-28
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -59,12 +59,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/alias.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alias
+# alias
 
 Cria apelidos -- palavras que são substituídas por um comando.
 Apelidos expiram ao final da sessão atual do shell de comando, a menos que sejam definidos no arquivo de configuração do shell, por exemplo `~/.bashrc`.

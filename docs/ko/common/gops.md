@@ -3,23 +3,14 @@ layout: page
 title: common/gops (한국어)
 description: "현재 시스템에서 실행중인 Go 프로세스를 나열하고 진단."
 content_hash: 0f360cceaf8504c3daa7bfa4ced408a3f56ecd42
-last_modified_at: 2024-10-27
+last_modified_at: 2024-10-28
 related_topics:
   - title: English version
     url: /en/common/gops.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gops.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gops
+# gops
 
 현재 시스템에서 실행중인 Go 프로세스를 나열하고 진단.
 더 많은 정보: <https://github.com/google/gops>.
