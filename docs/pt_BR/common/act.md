@@ -2,8 +2,8 @@
 layout: page
 title: common/act (português (Brasil))
 description: "Executa GitHub Actions localmente utilizando Docker."
-content_hash: 6a2d824451ad91a24b89b953aa3d5189ac2a88ad
-last_modified_at: 2023-11-12
+content_hash: 8c6d7bbfb47a03ac5740aaf162dacd0a25022115
+last_modified_at: 2024-10-28
 related_topics:
   - title: English version
     url: /en/common/act.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/act.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/act.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/act.html
@@ -36,7 +39,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Executa GitHub Actions localmente utilizando Docker.
 Mais informações: <https://github.com/nektos/act>.
 
-- Lista acoes disponiveis:
+- Lista ações disponíveis:
 
 `act -l`
 
@@ -44,18 +47,22 @@ Mais informações: <https://github.com/nektos/act>.
 
 `act`
 
-- Executa evento especifico:
+- Executa evento específico:
 
 `act `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo_de_evento</span>
 
-- Executa acao especifica:
+- Executa um job específico:
 
-`act -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">acao_id</span>
+`act -j `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span>
 
-- Nao executa realmente as acoes (i.e. um dry run):
+- Não executa realmente as ações (ex.: um dry run):
 
 `act -n`
 
 - Mostra verbose logs:
 
 `act -v`
+
+- Executa um workflow específico com o evento de push:
+
+`act push -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/workflow</span>
