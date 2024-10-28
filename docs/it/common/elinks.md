@@ -2,18 +2,21 @@
 layout: page
 title: common/elinks (italiano)
 description: "Un browser testuale simile a lynx."
-content_hash: 8bdf4055f583f36410f18bd02b3a5189a2159a71
-last_modified_at: 2023-12-29
+content_hash: 01a36df0188555718afb0301c48b6682b8eee3d0
+last_modified_at: 2024-10-28
 related_topics:
   - title: English version
     url: /en/common/elinks.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/elinks.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # elinks
 
 Un browser testuale simile a lynx.
-Maggiori informazioni: <http://elinks.or.cz>.
+Maggiori informazioni: <https://github.com/rkd77/elinks>.
 
 - Avvia elinks:
 

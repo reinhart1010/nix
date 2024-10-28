@@ -2,8 +2,8 @@
 layout: page
 title: common/elinks (한국어)
 description: "`lynx`와 유사한 텍스트 기반 브라우저."
-content_hash: 61c44a465c93a1b5120e1b7f41f77551c4177645
-last_modified_at: 2024-10-17
+content_hash: ca6ffccb8b817fcd7b28f9b9e53953a7be240039
+last_modified_at: 2024-10-28
 related_topics:
   - title: English version
     url: /en/common/elinks.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # elinks
 
 `lynx`와 유사한 텍스트 기반 브라우저.
-더 많은 정보: <http://elinks.or.cz>.
+더 많은 정보: <https://github.com/rkd77/elinks>.
 
 - ELink 시작:
 
