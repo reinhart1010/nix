@@ -1,0 +1,55 @@
+---
+layout: page
+title: linux/pw-loopback (한국어)
+description: "PipeWire에서 루프백 장치를 생성."
+content_hash: 17b354aafc069b78827e2e342abdf083e2affe03
+last_modified_at: 2024-10-29
+related_topics:
+  - title: English version
+    url: /en/linux/pw-loopback.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/pw-loopback.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/pw-loopback.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/pw-loopback.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># pw-loopback
+
+PipeWire에서 루프백 장치를 생성.
+더 많은 정보: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
+
+- 기본 루프백 동작으로 루프백 장치 생성:
+
+`pw-loopback`
+
+- 스피커에 자동으로 연결되는 루프백 장치 생성:
+
+`pw-loopback -m '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[FL FR]</span>`' --capture-props='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Sink</span>`'`
+
+- 마이크에 자동으로 연결되는 루프백 장치 생성:
+
+`pw-loopback -m '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[FL FR]</span>`' --playback-props='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Source</span>`'`
+
+- 자동으로 아무것에도 연결되지 않는 더미 루프백 장치 생성:
+
+`pw-loopback -m '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[FL FR]</span>`' --capture-props='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Sink</span>`' --playback-props='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Source</span>`'`
+
+- 스피커에 자동으로 연결되고 싱크와 소스 간 좌우 채널을 교환하는 루프백 장치 생성:
+
+`pw-loopback --capture-props='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Sink audio.position=[FL FR]</span>`' --playback-props='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">audio.position=[FR FL]</span>`'`
+
+- 마이크에 자동으로 연결되고 싱크와 소스 간 좌우 채널을 교환하는 루프백 장치 생성:
+
+`pw-loopback --capture-props='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">audio.position=[FR FL]</span>`' --playback-props='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Source audio.position=[FL FR]</span>`'`
