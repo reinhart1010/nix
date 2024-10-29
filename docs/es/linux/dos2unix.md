@@ -3,7 +3,7 @@ layout: page
 title: linux/dos2unix (español)
 description: "Cambia saltos de línea con formato DOS a saltos de línea con formato Unix."
 content_hash: eefc9c993868b3fcf7ce923d5d622e6f7309c60d
-last_modified_at: 2024-10-28
+last_modified_at: 2024-10-29
 related_topics:
   - title: català version
     url: /ca/linux/dos2unix.html
@@ -20,12 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/dos2unix.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dos2unix
+# dos2unix
 
 Cambia saltos de línea con formato DOS a saltos de línea con formato Unix.
 Reemplaza CRLF con LF.

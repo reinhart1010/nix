@@ -3,23 +3,14 @@ layout: page
 title: common/pdftocairo (한국어)
 description: "PDF 파일을 PNG/JPEG/TIFF/PDF/PS/EPS/SVG 형식으로 변환하는 도구입니다 (cairo 사용)."
 content_hash: e8cde4a8ff43e2883459137cbce7af2ac1b3c692
-last_modified_at: 2024-10-28
+last_modified_at: 2024-10-29
 related_topics:
   - title: English version
     url: /en/common/pdftocairo.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pdftocairo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pdftocairo
+# pdftocairo
 
 PDF 파일을 PNG/JPEG/TIFF/PDF/PS/EPS/SVG 형식으로 변환하는 도구입니다 (cairo 사용).
 더 많은 정보: <https://poppler.freedesktop.org>.

@@ -3,23 +3,14 @@ layout: page
 title: linux/zenity (한국어)
 description: "명령줄/셸 스크립트에서 대화 상자를 표시."
 content_hash: 3ec5ea9adcc13ecaec2e322768d2ccc59ee9dd49
-last_modified_at: 2024-10-28
+last_modified_at: 2024-10-29
 related_topics:
   - title: English version
     url: /en/linux/zenity.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/zenity.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zenity
+# zenity
 
 명령줄/셸 스크립트에서 대화 상자를 표시.
 사용자 입력 값을 반환하거나 오류 시 1을 반환.

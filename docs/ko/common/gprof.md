@@ -3,23 +3,14 @@ layout: page
 title: common/gprof (한국어)
 description: "다양한 프로그래밍 언어에 대한 성능 분석 도구."
 content_hash: bce909b2a9d6f99db1359fbe7549ed603e8d5358
-last_modified_at: 2024-10-28
+last_modified_at: 2024-10-29
 related_topics:
   - title: English version
     url: /en/common/gprof.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gprof.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gprof
+# gprof
 
 다양한 프로그래밍 언어에 대한 성능 분석 도구.
 프로그램의 기능 실행을 프로파일링.

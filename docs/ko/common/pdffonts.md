@@ -3,23 +3,14 @@ layout: page
 title: common/pdffonts (한국어)
 description: "Portable Document Format (PDF) 파일의 폰트 정보 뷰어."
 content_hash: 6f4b1a2c1dacf00b9d524afcd4e37b91c5f7b7ae
-last_modified_at: 2024-10-28
+last_modified_at: 2024-10-29
 related_topics:
   - title: English version
     url: /en/common/pdffonts.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pdffonts.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pdffonts
+# pdffonts
 
 Portable Document Format (PDF) 파일의 폰트 정보 뷰어.
 더 많은 정보: <https://www.xpdfreader.com/pdffonts-man.html>.

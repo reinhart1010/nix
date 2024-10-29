@@ -3,23 +3,14 @@ layout: page
 title: common/pdfjoin (한국어)
 description: "pdfjam을 기반으로 한 PDF 병합 도구."
 content_hash: adb24a7588567c8c86e98857f17ee0d11d01bcb2
-last_modified_at: 2024-10-28
+last_modified_at: 2024-10-29
 related_topics:
   - title: English version
     url: /en/common/pdfjoin.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pdfjoin.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pdfjoin
+# pdfjoin
 
 pdfjam을 기반으로 한 PDF 병합 도구.
 더 많은 정보: <https://github.com/rrthomas/pdfjam-extras>.

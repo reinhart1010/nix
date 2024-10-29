@@ -3,7 +3,7 @@ layout: page
 title: common/img2pdf (한국어)
 description: "래스터 이미지를 무손실로 PDF 파일로 변환."
 content_hash: 292e4919029130bddd525c2dfc0fcb4b84954724
-last_modified_at: 2024-10-28
+last_modified_at: 2024-10-29
 related_topics:
   - title: English version
     url: /en/common/img2pdf.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/img2pdf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/img2pdf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># img2pdf
+# img2pdf
 
 래스터 이미지를 무손실로 PDF 파일로 변환.
 지원되는 이미지 포맷으로는 GIF, JPEG, JPEG2000, PNG, GIF, TIFF 등이 있습니다.

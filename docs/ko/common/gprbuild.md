@@ -3,23 +3,14 @@ layout: page
 title: common/gprbuild (한국어)
 description: "Ada 및 기타 언어 (C/C++/Fortran)로 작성된 프로젝트를 위한 고급 빌드 도구."
 content_hash: cf89e3d8d2c978c00afe6b81a998180326d860ef
-last_modified_at: 2024-10-28
+last_modified_at: 2024-10-29
 related_topics:
   - title: English version
     url: /en/common/gprbuild.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gprbuild.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gprbuild
+# gprbuild
 
 Ada 및 기타 언어 (C/C++/Fortran)로 작성된 프로젝트를 위한 고급 빌드 도구.
 더 많은 정보: <https://docs.adacore.com/gprbuild-docs/html/gprbuild_ug.html>.

@@ -3,23 +3,14 @@ layout: page
 title: linux/ytfzf (한국어)
 description: "비디오 및 음악을 찾고 다운로드. POSIX 셸로 작성되었습니다."
 content_hash: b8445d50c4c06704079d72979acc177175a88e6a
-last_modified_at: 2024-10-28
+last_modified_at: 2024-10-29
 related_topics:
   - title: English version
     url: /en/linux/ytfzf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ytfzf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ytfzf
+# ytfzf
 
 비디오 및 음악을 찾고 다운로드. POSIX 셸로 작성되었습니다.
 같이 보기: `youtube-dl`, `yt-dlp`, `instaloader`.
