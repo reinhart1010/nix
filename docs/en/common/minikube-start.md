@@ -3,19 +3,10 @@ layout: page
 title: common/minikube-start (English)
 description: "Start `minikube` with different configurations."
 content_hash: 459382fb5f0dd0d16145cf2dc5bbdb7b7e7fd3a0
-last_modified_at: 2024-10-29
-tldri18n_status: 0
+last_modified_at: 2024-10-30
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/minikube-start.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># minikube start
+# minikube start
 
 Start `minikube` with different configurations.
 More information: <https://minikube.sigs.k8s.io/docs/commands/start/>.

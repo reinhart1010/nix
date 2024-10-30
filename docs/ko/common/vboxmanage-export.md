@@ -3,23 +3,14 @@ layout: page
 title: common/vboxmanage-export (한국어)
 description: "가상 머신을 가상 어플라이언스(ISO) 또는 클라우드 서비스로 내보내기."
 content_hash: 18681bfdf0b5fbcc64e4cd4e65aeb52333c3ace4
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/common/vboxmanage-export.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vboxmanage-export.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vboxmanage-export
+# vboxmanage-export
 
 가상 머신을 가상 어플라이언스(ISO) 또는 클라우드 서비스로 내보내기.
 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-export>.

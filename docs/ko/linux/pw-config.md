@@ -3,7 +3,7 @@ layout: page
 title: linux/pw-config (한국어)
 description: "PipeWire 서버와 클라이언트에서 사용될 설정 경로와 섹션 나열."
 content_hash: 750455eb8e55efbd09ef649b497f45d8a4f6a4ec
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/linux/pw-config.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/pw-config.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pw-config.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pw-config
+# pw-config
 
 PipeWire 서버와 클라이언트에서 사용될 설정 경로와 섹션 나열.
 더 많은 정보: <https://docs.pipewire.org/page_man_pw-config_1.html>.

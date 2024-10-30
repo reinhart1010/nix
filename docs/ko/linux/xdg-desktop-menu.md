@@ -3,23 +3,14 @@ layout: page
 title: linux/xdg-desktop-menu (한국어)
 description: "데스크탑 메뉴 항목을 설치하거나 제거하는 명령줄 도구."
 content_hash: f70c8216b9b096376c9059531f4d8a01f88f0184
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/linux/xdg-desktop-menu.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/xdg-desktop-menu.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xdg-desktop-menu
+# xdg-desktop-menu
 
 데스크탑 메뉴 항목을 설치하거나 제거하는 명령줄 도구.
 더 많은 정보: <https://manned.org/xdg-desktop-menu>.

@@ -3,23 +3,14 @@ layout: page
 title: linux/x11vnc (한국어)
 description: "기존 디스플레이 서버에서 VNC를 활성화하는 VNC 서버."
 content_hash: a1bc5cfb0a0c4353fc2f67efed275e8b3c61e8e3
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/linux/x11vnc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/x11vnc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># x11vnc
+# x11vnc
 
 기존 디스플레이 서버에서 VNC를 활성화하는 VNC 서버.
 기본적으로, 서버는 모든 클라이언트가 연결을 끊으면 자동으로 종료됩니다.

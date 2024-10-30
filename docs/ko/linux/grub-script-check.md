@@ -3,23 +3,14 @@ layout: page
 title: linux/grub-script-check (한국어)
 description: "`grub-script-check` 프로그램은 GRUB 스크립트 파일을 가져와 문법 오류를 검사합니다."
 content_hash: ab0dbda29fd8822e02a23cd6ff5c53103861bc02
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/linux/grub-script-check.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/grub-script-check.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># grub-script-check
+# grub-script-check
 
 `grub-script-check` 프로그램은 GRUB 스크립트 파일을 가져와 문법 오류를 검사합니다.
 경로를 옵션이 아닌 인수로 받을 수 있습니다. 인수가 없을 경우, `stdin`에서 읽습니다.

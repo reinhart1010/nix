@@ -3,23 +3,14 @@ layout: page
 title: common/vboxmanage (한국어)
 description: "VirtualBox의 명령줄 인터페이스."
 content_hash: 6ef474d743b7ab7fddcceadeee74467f4989c7e9
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/common/vboxmanage.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vboxmanage.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># VBoxManage
+# VBoxManage
 
 VirtualBox의 명령줄 인터페이스.
 GUI의 모든 기능을 포함하며 그 이상을 제공합니다.

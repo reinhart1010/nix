@@ -3,23 +3,14 @@ layout: page
 title: linux/xdg-mime (한국어)
 description: "XDG 표준에 따라 MIME 유형을 조회하고 관리."
 content_hash: 214ab2a64613221a46d1ecfc03a709ac7b7e6503
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/linux/xdg-mime.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/xdg-mime.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xdg-mime
+# xdg-mime
 
 XDG 표준에 따라 MIME 유형을 조회하고 관리.
 더 많은 정보: <https://portland.freedesktop.org/doc/xdg-mime.html>.

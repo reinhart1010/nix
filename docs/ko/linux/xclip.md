@@ -3,7 +3,7 @@ layout: page
 title: linux/xclip (한국어)
 description: "X11 클립보드 조작 도구로, `xsel`과 유사합니다."
 content_hash: d9a40e230f9e7eec3f7fade370dd62c2cc29d06d
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: العربية version
     url: /ar/linux/xclip.html
@@ -17,18 +17,9 @@ related_topics:
   - title: français version
     url: /fr/linux/xclip.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/xclip.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xclip
+# xclip
 
 X11 클립보드 조작 도구로, `xsel`과 유사합니다.
 X 기본 및 보조 선택 영역과 시스템 클립보드(`Ctrl + C`/`Ctrl + V`)를 처리합니다.

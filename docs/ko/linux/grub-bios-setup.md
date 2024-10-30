@@ -3,23 +3,14 @@ layout: page
 title: linux/grub-bios-setup (한국어)
 description: "GRUB을 BIOS 구성으로 사용하는 장치 설정."
 content_hash: 4b83800e6a1b1af88936cf453263b760fb4a8d25
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/linux/grub-bios-setup.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/grub-bios-setup.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># grub-bios-setup
+# grub-bios-setup
 
 GRUB을 BIOS 구성으로 사용하는 장치 설정.
 대부분의 경우 `grub-bios-setup` 대신 `grub-install`을 사용해야 합니다.

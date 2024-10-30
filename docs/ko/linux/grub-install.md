@@ -3,7 +3,7 @@ layout: page
 title: linux/grub-install (한국어)
 description: "GRUB을 장치에 설치."
 content_hash: e182d4b5cc59b1b434d21b8257f702c4b65db877
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/linux/grub-install.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/grub-install.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/grub-install.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># grub-install
+# grub-install
 
 GRUB을 장치에 설치.
 더 많은 정보: <https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html>.

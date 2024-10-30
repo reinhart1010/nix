@@ -3,23 +3,14 @@ layout: page
 title: common/vboxmanage-controlvm (한국어)
 description: "현재 실행 중인 가상 머신의 상태 및 설정 변경."
 content_hash: 554833ff2378c6ddaf316ad37e73961b7c0df6af
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/common/vboxmanage-controlvm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vboxmanage-controlvm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vboxmanage-controlvm
+# vboxmanage-controlvm
 
 현재 실행 중인 가상 머신의 상태 및 설정 변경.
 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-controlvm>.

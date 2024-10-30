@@ -3,23 +3,14 @@ layout: page
 title: linux/xinput (한국어)
 description: "사용 가능한 입력 장치를 나열하고, 장치에 대한 정보를 쿼리하며, 입력 장치 설정을 변경."
 content_hash: c3d7e78d96e8e2dfb19f05ef0bc47783d34c167e
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/linux/xinput.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/xinput.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xinput
+# xinput
 
 사용 가능한 입력 장치를 나열하고, 장치에 대한 정보를 쿼리하며, 입력 장치 설정을 변경.
 더 많은 정보: <https://manned.org/xinput>.

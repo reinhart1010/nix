@@ -3,23 +3,14 @@ layout: page
 title: common/vboxmanage-list (한국어)
 description: "Oracle VM VirtualBox 소프트웨어 및 관련 서비스에 대한 정보를 나열합니다."
 content_hash: a51c353549cbe03f11820d3d31b88bf604ed94bd
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/common/vboxmanage-list.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vboxmanage-list.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vboxmanage-list
+# vboxmanage-list
 
 Oracle VM VirtualBox 소프트웨어 및 관련 서비스에 대한 정보를 나열합니다.
 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-list>.

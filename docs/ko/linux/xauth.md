@@ -3,23 +3,14 @@ layout: page
 title: linux/xauth (한국어)
 description: "X 서버에 연결할 때 사용되는 인증 정보를 편집하고 표시."
 content_hash: 495fe6f787da22ffba87629ec7bf3bc7319c16e3
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/linux/xauth.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/xauth.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xauth
+# xauth
 
 X 서버에 연결할 때 사용되는 인증 정보를 편집하고 표시.
 더 많은 정보: <https://manned.org/xauth>.

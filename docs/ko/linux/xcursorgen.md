@@ -3,23 +3,14 @@ layout: page
 title: linux/xcursorgen (한국어)
 description: "PNG 모음에서 X 커서 파일 생성."
 content_hash: 8c9042ae943e34aaa063a857b21bf65426984c4f
-last_modified_at: 2024-10-29
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/linux/xcursorgen.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/xcursorgen.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xcursorgen
+# xcursorgen
 
 PNG 모음에서 X 커서 파일 생성.
 `--prefix`가 생략되면 이미지 파일은 현재 작업 디렉터리에 위치해야 합니다.
