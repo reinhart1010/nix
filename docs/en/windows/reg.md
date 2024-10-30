@@ -2,8 +2,8 @@
 layout: page
 title: windows/reg (English)
 description: "Manage keys and their values in the Windows registry."
-content_hash: db50061cfda5d4219842924dee41ea549a8c1a83
-last_modified_at: 2024-10-05
+content_hash: e7be7b78eabd6667a4cb54c6a968ebd2107f9c59
+last_modified_at: 2024-10-30
 related_topics:
   - title: Nederlands version
     url: /nl/windows/reg.html
@@ -33,7 +33,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - View documentation for searching, viewing, and comparing keys:
 
-`tldr reg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compare|flags|query</span>
+`tldr reg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compare|query</span>
 
 - View documentation for exporting and importing registry keys not preserving the key ownerships and ACLs:
 

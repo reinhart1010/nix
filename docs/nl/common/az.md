@@ -2,8 +2,8 @@
 layout: page
 title: common/az (Nederlands)
 description: "De officiële CLI tool voor Microsoft Azure."
-content_hash: 3e63fdd364eebfecacb935b4d1cdb8d74811e85f
-last_modified_at: 2024-10-05
+content_hash: 8cbc08e50b535abe8194dfe7573fb89bd4de8e28
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -32,7 +32,7 @@ tldri18n_status: 2
 
 De officiële CLI tool voor Microsoft Azure.
 Sommige subcommando's zoals `login` hebben hun eigen documentatie.
-Meer informatie: <https://learn.microsoft.com/cli/azure>.
+Meer informatie: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 - Log in bij Azure:
 

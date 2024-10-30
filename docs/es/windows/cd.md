@@ -1,12 +1,15 @@
 ---
 layout: page
 title: windows/cd (español)
-description: "Muestra el directorio actual o cambia a un directorio."
-content_hash: 7a8dc057e4030ac4992dc8cd53c013754eb0fcf9
-last_modified_at: 2024-01-07
+description: "Muestra el directorio de trabajo actual o se desplaza a un directorio diferente."
+content_hash: e1483f7f780a477ac2901caffb8d8fa4af239a67
+last_modified_at: 2024-10-30
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/windows/cd.html
     icon: bi bi-globe
   - title: čeština version
     url: /cs/windows/cd.html
@@ -51,25 +54,34 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># cd
 
-Muestra el directorio actual o cambia a un directorio.
+Muestra el directorio de trabajo actual o se desplaza a un directorio diferente.
+En PowerShell, este comando es un alias de `Set-Location`. Esta documentación está basada en la versión del símbolo del sistema (`cmd`) de `cd`.
 Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Muestra la ruta (path) del directorio actual:
+- Vea la documentación del comando PowerShell equivalente:
+
+`tldr set-location`
+
+- Muestra la ruta del directorio actual:
 
 `cd`
 
-- Cambia a la raíz de la unidad actual:
-
-`cd \`
-
-- Cambia al directorio superior:
-
-`cd ..`
-
-- Cambia a un directorio específico en el mismo disco:
+- Va a un directorio específico en la misma unidad:
 
 `cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\directorio</span>
 
-- Cambia a un directorio específico en otro disco:
+- Va a un directorio específico en una uni[d]ad diferente:
 
 `cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\directorio</span>
+
+- Sube al directorio padre del directorio actual:
+
+`cd ..`
+
+- Va al directorio principal del usuario actual:
+
+`cd %userprofile%`
+
+- Va a la raíz de la unidad actual:
+
+`cd \`

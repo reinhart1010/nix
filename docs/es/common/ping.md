@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ping (español)
-description: "Envía paquetes ICMP ECHO_REQUEST (pings) a hosts de la red."
-content_hash: c48c6d9ca83b86cbe008dc316981fa56b836a595
-last_modified_at: 2024-08-03
+description: "Envía paquetes ICMP ECHO_REQUEST (pings) a equipos (hosts) de la red."
+content_hash: 25a2f813f47b33ba3be4450dd2c1b7c746451bcc
+last_modified_at: 2024-10-30
 related_topics:
   - title: Deutsch version
     url: /de/common/ping.html
@@ -27,7 +27,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># ping
 
-Envía paquetes ICMP ECHO_REQUEST (pings) a hosts de la red.
+Envía paquetes ICMP ECHO_REQUEST (pings) a equipos (hosts) de la red.
 Más información: <https://manned.org/ping>.
 
 - Envía pings a un host:
@@ -53,3 +53,7 @@ Más información: <https://manned.org/ping>.
 - Muestra también un mensaje si no se recibió respuesta:
 
 `ping -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
+
+- Envía una cantidad específica de pings (`-c`), con un tiempo límite (`-W`) para cada respuesta, y un tiempo máximo total (`-w`) para la ejecución del ping completo:
+
+`ping -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cantidad</span>` -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">segundos</span>` -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">segundos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>

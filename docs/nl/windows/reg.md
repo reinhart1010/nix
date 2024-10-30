@@ -2,8 +2,8 @@
 layout: page
 title: windows/reg (Nederlands)
 description: "Beheer sleutels en de waardes in een Windows registry."
-content_hash: 0fb116bd508cc3fbf30dd8f05784c1d6a88977ac
-last_modified_at: 2024-10-05
+content_hash: 80e0e64151737d099cac1c4326a18deb5c378431
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/windows/reg.html
@@ -33,7 +33,7 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 
 - Bekijk de documentatie voor het zoeken, bekijken en vergelijken van sleutels:
 
-`tldr reg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compare|flags|query</span>
+`tldr reg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compare|query</span>
 
 - Bekijk de documentatie voor het exporteren en importeren van registry sleutels zonder de eigenaar en ACLs te bewaren:
 

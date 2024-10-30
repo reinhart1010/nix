@@ -2,8 +2,8 @@
 layout: page
 title: common/swift (English)
 description: "Create, run and build Swift projects."
-content_hash: f6636064de437c3c6e6fd6f96621b1637dd6d961
-last_modified_at: 2023-11-12
+content_hash: fbf81787adbf943afcdc534f26769754efb7e323
+last_modified_at: 2024-10-30
 tldri18n_status: 2
 ---
 # swift
@@ -13,7 +13,7 @@ More information: <https://swift.org>.
 
 - Start a REPL (interactive shell):
 
-`swift`
+`swift repl`
 
 - Execute a program:
 

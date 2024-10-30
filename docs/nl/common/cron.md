@@ -1,101 +1,32 @@
 ---
 layout: page
 title: common/cron (Nederlands)
-description: "Dit commando is een alias van `crontab`."
-content_hash: ae00075e0c9d68233c0241d4f7e49f233bfb16d1
-last_modified_at: 2023-11-23
+description: "Een systeemplanner voor het onbewaakt uitvoeren van taken of opdrachten."
+content_hash: a8015de78f9d989044466f9967b68411ffe9e52e
+last_modified_at: 2024-10-30
 related_topics:
-  - title: العربية version
-    url: /ar/common/cron.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/cron.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/cron.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/cron.html
-    icon: bi bi-globe
-  - title: Deutsch version
-    url: /de/common/cron.html
-    icon: bi bi-globe
   - title: English version
     url: /en/common/cron.html
-    icon: bi bi-globe
-  - title: español version
-    url: /es/common/cron.html
-    icon: bi bi-globe
-  - title: français version
-    url: /fr/common/cron.html
-    icon: bi bi-globe
-  - title: हिन्दी version
-    url: /hi/common/cron.html
-    icon: bi bi-globe
-  - title: Indonesia version
-    url: /id/common/cron.html
-    icon: bi bi-globe
-  - title: italiano version
-    url: /it/common/cron.html
-    icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/cron.html
-    icon: bi bi-globe
-  - title: 한국어 version
-    url: /ko/common/cron.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/cron.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/cron.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/common/cron.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/cron.html
-    icon: bi bi-globe
-  - title: polski version
-    url: /pl/common/cron.html
-    icon: bi bi-globe
-  - title: português (Brasil) version
-    url: /pt_BR/common/cron.html
-    icon: bi bi-globe
-  - title: português (Portugal) version
-    url: /pt_PT/common/cron.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/cron.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/cron.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cron.html
     icon: bi bi-globe
-  - title: ไทย version
-    url: /th/common/cron.html
-    icon: bi bi-globe
-  - title: Türkçe version
-    url: /tr/common/cron.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/cron.html
-    icon: bi bi-globe
-  - title: 中文 version
-    url: /zh/common/cron.html
-    icon: bi bi-globe
-  - title: 中文 (繁體, 台灣) version
-    url: /zh_TW/common/cron.html
-    icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 0
 ---
-# cron
 
-Dit commando is een alias van `crontab`.
-Het commando om entries toe te voegen, aan te passen of te verwijderen in `cron` is called `crontab`.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
 
-- Bekijk de documentatie van het originele commando:
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cron.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cron
+
+Een systeemplanner voor het onbewaakt uitvoeren van taken of opdrachten.
+Het commando om invoer toe te voegen, te bewerken of te verwijderen in `cron` heet `crontab`.
+
+- Bekijk de documentatie voor het beheren van `cron`-invoeren:
 
 `tldr crontab`

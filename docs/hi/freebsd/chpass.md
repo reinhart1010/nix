@@ -1,0 +1,60 @@
+---
+layout: page
+title: freebsd/chpass (हिन्दी)
+description: "लॉगिन shell और पासवर्ड सहित उपयोगकर्ता डेटाबेस जानकारी जोड़ें या बदलें।"
+content_hash: dbf8e28fc11cdfc3ddef287300375d664784a3e8
+last_modified_at: 2024-10-30
+related_topics:
+  - title: English version
+    url: /en/freebsd/chpass.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/freebsd/chpass.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/freebsd/chpass.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/chpass.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># chpass
+
+लॉगिन shell और पासवर्ड सहित उपयोगकर्ता डेटाबेस जानकारी जोड़ें या बदलें।
+यह भी देखें: `passwd`।
+अधिक जानकारी: <https://man.freebsd.org/cgi/man.cgi?chpass>।
+
+- वर्तमान उपयोगकर्ता के लिए उपयोगकर्ता डेटाबेस जानकारी को अंतःक्रियात्मक रूप से जोड़ें या बदलें:
+
+`su -c chpass`
+
+- वर्तमान उपयोगकर्ता के लिए एक विशिष्ट लॉगिन [s]hell सेट करें:
+
+`chpass -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/shell</span>
+
+- किसी विशिष्ट उपयोगकर्ता के लिए लॉगिन [s]hell सेट करें:
+
+`chpass -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/shell</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span>
+
+- खाता [e]समाप्ति समय बदलें (युग से सेकंड में, UTC):
+
+`su -c 'chpass -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">समय</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span>`'`
+
+- उपयोगकर्ता का पासवर्ड बदलें:
+
+`su -c 'chpass -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">एन्क्रिप्टेड_पासवर्ड</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span>`'`
+
+- क्वेरी करने के लिए NIS सर्वर का [h]होस्ट का नाम या पता निर्दिष्ट करें:
+
+`su -c 'chpass -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">होस्ट का नाम</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span>`'`
+
+- एक विशेष NIS डोमेन निर्दिष्ट करें (डिफ़ॉल्ट रूप से सिस्टम डोमेन नाम):
+
+`su -c 'chpass -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">डोमेन</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span>`'`
