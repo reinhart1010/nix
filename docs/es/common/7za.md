@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (español)
 description: "Archivador de archivos con una alta relación de compresión."
-content_hash: 025fad4ca1f48597744859a8bc7df17cd5123549
-last_modified_at: 2024-01-07
+content_hash: 1f747a05723d61f7409be4e787258b6720bc0ecd
+last_modified_at: 2024-10-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -50,6 +50,9 @@ related_topics:
   - title: русский version
     url: /ru/common/7za.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/7za.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
@@ -91,3 +94,7 @@ Más información: <https://manned.org/7za>.
 - [l]ista los contenidos de un archivo:
 
 `7za l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.7z</span>
+
+- Establece el nivel de compresión (más alto significa más compresión, pero más lenta):
+
+`7za a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.7z</span>` -mx=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span>

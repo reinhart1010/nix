@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (español)
 description: "Administrador de paquetes para RHEL, CentOS y Fedora (Reemplaza a yum)."
-content_hash: d6787848af63934eb92cca7fa5fb02b3377efd10
-last_modified_at: 2023-11-12
+content_hash: 0adb4d0633bbb64210f4809e73caf886db8f90a0
+last_modified_at: 2024-10-30
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -32,6 +32,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/dnf.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -40,32 +43,37 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># dnf
 
 Administrador de paquetes para RHEL, CentOS y Fedora (Reemplaza a yum).
+Para comandos equivalentes en otros administradores de paquetes, vea <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 Más información: <https://dnf.readthedocs.io>.
 
 - Actualiza todos los paquetes a la última versión disponible:
 
-`sudo dnf update`
+`sudo dnf upgrade`
 
 - Busca un paquete usando palabras clave:
 
-`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabra_clave</span>
+`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabra1 palabra2 ...</span>
 
 - Muestra información acerca de un paquete:
 
 `dnf info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
 
-- Instala un nuevo paquete:
+- Instala un nuevo paquete (usa `-y` para confirmar todas las preguntas automáticamente):
 
-`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
+`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete1 paquete2 ...</span>
 
-- Instala un nuevo paquete respondiendo sí a todas las preguntas:
+- Elimina un paquete:
 
-`sudo dnf install -y `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
+`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete1 paquete2 ...</span>
 
 - Lista todos los paquetes instalados:
 
 `dnf list --installed`
 
-- Encuentra qué paquete provee un archivo determinado:
+- Encuentra qué paquetes proveen un archivo determinado:
 
 `dnf provides `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+
+- Ver todas las operaciones pasadas:
+
+`dnf history`

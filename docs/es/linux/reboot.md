@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/reboot (español)
-description: "Reinicia la máquina."
-content_hash: abba976a365ba84659186ee52dbcc05192b6de3e
-last_modified_at: 2023-11-12
+description: "Reinicia el sistema."
+content_hash: 0522e4e3d8f80b11494348d3265f6ab2ba983d97
+last_modified_at: 2024-10-30
 related_topics:
   - title: català version
     url: /ca/linux/reboot.html
@@ -20,6 +20,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/reboot.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/reboot.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/reboot.html
     icon: bi bi-globe
@@ -33,13 +36,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># reboot
 
-Reinicia la máquina.
+Reinicia el sistema.
+Vea también: `halt`, `poweroff`.
 Más información: <https://manned.org/reboot.8>.
 
 - Reinicia inmediatamente:
 
 `reboot`
 
-- Reinicia inmediatamente sin hacer un apagado limpio:
+- Apaga el sistema (igual que `poweroff`):
 
-`reboot -f`
+`reboot --poweroff`
+
+- Detiene (termina todos los procesos y apaga la CPU) el sistema (igual que `halt`):
+
+`reboot --halt`
+
+- Reinicia inmediatamente sin contactar al administrador del sistema:
+
+`reboot --force`
+
+- Escribe la entrada wtmp de apagado sin reiniciar el sistema:
+
+`reboot --wtmp-only`

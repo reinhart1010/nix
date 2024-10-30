@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (español)
 description: "Archivador de ficheros con un alto ratio de compresión."
-content_hash: 193994c485377932dc14c39d479dfa25413a9224
-last_modified_at: 2024-03-14
+content_hash: c9a0f5cf362bc2cc3867652045655e51e7443c32
+last_modified_at: 2024-10-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/7zr.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/7zr.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7zr.html
@@ -75,7 +78,7 @@ Más información: <https://manned.org/7zr>.
 
 - E[x]trae un archivo a un directorio específico:
 
-`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.7z</span>` -o{ruta/de/salida</span>
+`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/de/salida</span>
 
 - E[x]trae un archivo a `stdout`:
 
@@ -84,3 +87,7 @@ Más información: <https://manned.org/7zr>.
 - [l]ista el contenido de un archivo:
 
 `7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.7z</span>
+
+- Establece el nivel de compresión (más alto significa más compresión, pero más lento):
+
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.7z</span>` -mx=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span>

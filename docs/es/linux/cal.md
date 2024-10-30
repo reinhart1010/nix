@@ -2,8 +2,8 @@
 layout: page
 title: linux/cal (español)
 description: "Muestra el calendario, con el día actual resaltado."
-content_hash: 671d7fc1013e668aa61d08d43b156d6400ce34d4
-last_modified_at: 2024-02-15
+content_hash: f1b32a52dbaf259a21ffdb83808fb9a0b95c732c
+last_modified_at: 2024-10-30
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -52,6 +52,14 @@ Más información: <https://manned.org/cal>.
 - Muestra el mes anterior, actual y próximo:
 
 `cal -3`
+
+- Muestra el calendario completo para el año actual:
+
+`cal --year`
+
+- Muestra los 12 meses siguientes:
+
+`cal --twelve`
 
 - Usa el Lunes como primer día de la semana:
 

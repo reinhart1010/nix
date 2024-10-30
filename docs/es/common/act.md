@@ -2,8 +2,8 @@
 layout: page
 title: common/act (español)
 description: "Ejecuta acciones de GitHub localmente mediante Docker."
-content_hash: 0a9eb3f8f2ec5c4558e9e4e95e365e7347c1be4f
-last_modified_at: 2024-05-22
+content_hash: d2e44e12c706b54e22c31650c7db11cb3a0b0ee7
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/common/act.html
@@ -49,11 +49,11 @@ Más información: <https://github.com/nektos/act>.
 
 - Ejecuta un evento específico:
 
-`act `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">event_type</span>
+`act `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo_de_evento</span>
 
 - Ejecuta una acción específica:
 
-`act -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_acción</span>
+`act -j `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_acción</span>
 
 - Simula una acción:
 
@@ -62,3 +62,7 @@ Más información: <https://github.com/nektos/act>.
 - Muestra registros detallados:
 
 `act -v`
+
+- Ejecuta un flujo de trabajo específico con el evento push:
+
+`act push -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/flujo_de_trabajo</span>

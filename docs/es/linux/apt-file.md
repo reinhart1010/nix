@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apt-file (español)
-description: "Busca archivos en paquetes APT, incluyendo los que aún no fueron instalados."
-content_hash: 43a6dd74abc5d0593c7e4090a68c571b2cbc64a0
-last_modified_at: 2024-09-18
+description: "Busca archivos en paquetes `apt`, incluyendo los que aún no han sido instalados."
+content_hash: e593528e1473cb8afc39254cd297eeb5ba1d3565
+last_modified_at: 2024-10-30
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -42,7 +42,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># apt-file
 
-Busca archivos en paquetes APT, incluyendo los que aún no fueron instalados.
+Busca archivos en paquetes `apt`, incluyendo los que aún no han sido instalados.
 Más información: <https://manned.org/apt-file.1>.
 
 - Actualiza los metadatos de la base de datos:
@@ -51,8 +51,12 @@ Más información: <https://manned.org/apt-file.1>.
 
 - Busca paquetes que contengan el archivo o ruta especificada:
 
-`apt-file search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
+`apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
 - Muestra el contenido del paquete especificado:
 
-`apt-file list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_paquete</span>
+`apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_paquete</span>
+
+- Busca paquetes que coincidan con la `expresión_regular`:
+
+`apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span>` --regexp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expresión_regular</span>

@@ -2,8 +2,8 @@
 layout: page
 title: linux/aur (español)
 description: "Construye paquetes desde el AUR y gestiona repositorios locales."
-content_hash: 8b58599ecde2ff50039d107c062367066fb95192
-last_modified_at: 2024-05-01
+content_hash: 20686a42fa049e7cc8e8b1bb3dd9117ffd54fbe7
+last_modified_at: 2024-10-30
 related_topics:
   - title: English version
     url: /en/linux/aur.html
@@ -34,3 +34,7 @@ Más información: <https://github.com/aurutils/aurutils>.
 - Act[u]aliza los paquetes del repositorio local:
 
 `aur sync --upgrades`
+
+- Instala un paquete sin ver los cambios en Vim y sin confirmar la instalación de dependencias:
+
+`aur sync --noview --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
