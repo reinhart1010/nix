@@ -2,8 +2,8 @@
 layout: page
 title: common/age (español)
 description: "Una herramienta de encriptación de archivos sencilla, moderna y segura."
-content_hash: 8444815eebfb8eede993b9746dc7af8eff582eb8
-last_modified_at: 2023-11-12
+content_hash: a4ffc593d94b03fb7a15013eb6615c525f0b3b08
+last_modified_at: 2024-10-31
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -14,8 +14,14 @@ related_topics:
   - title: français version
     url: /fr/common/age.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/age.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/age.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/age.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/age.html
@@ -34,23 +40,20 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># age
 
 Una herramienta de encriptación de archivos sencilla, moderna y segura.
+Vea también: `age-keygen` para generar pares de claves.
 Más información: <https://github.com/FiloSottile/age>.
 
 - Genera un archivo cifrado que se puede descifrar con una frase de contraseña:
 
-`age --passphrase --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_encriptado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_no_encriptado</span>
+`age --passphrase --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_encriptado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_no_cifrado</span>
 
-- Genera un par de claves, guardando la clave privada en un archivo no cifrado e imprimiendo la clave pública en `stdout`:
+- Cifra un archivo con una o varias claves públicas introducidas como literales (repite el indicador `--recipient` para especificar varias claves públicas):
 
-`age-keygen --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
+`age --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_publica</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_cifrado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_no_cifrado</span>
 
-- Cifra un archivo con una o más claves públicas que se introducen como literales:
+- Cifra un archivo a uno o más destinatarios con sus claves públicas especificadas en un archivo (una por línea):
 
-`age --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_publica_1</span>` --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_publica_2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_sin_cifrar</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_cifrado</span>
-
-- Cifra un archivo con una o varias claves públicas especificadas en un archivo de destinatarios:
-
-`age --recipients-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_recipientes</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/para/archivo_sin_cifrar</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_encriptado</span>
+`age --recipients-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_recipientes</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_encriptado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_no_cifrado</span>
 
 - Descifra un archivo con una frase de contraseña:
 
@@ -58,4 +61,4 @@ Más información: <https://github.com/FiloSottile/age>.
 
 - Descifra un archivo con un archivo de clave privada:
 
-`age --decrypt --identity `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_clave_privada</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/para/archivo_descifrado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/para/archivo_cifrado</span>
+`age --decrypt --identity `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_clave_privada</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/para/archivo_descifrado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_cifrado</span>

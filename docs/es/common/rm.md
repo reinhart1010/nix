@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (español)
 description: "Elimina archivos o directorios."
-content_hash: 606952eacbd1df7b270575857750856d6b6f7251
-last_modified_at: 2023-12-29
+content_hash: c458a881ca16762589d3d86f9b20067e1e398fdc
+last_modified_at: 2024-10-31
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -49,20 +49,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># rm
 
 Elimina archivos o directorios.
+Vea también: `rmdir`.
 Más información: <https://www.gnu.org/software/coreutils/rm>.
 
-- Elimina archivos de ubicaciones arbitrarias:
+- Elimina archivos específicos:
 
 `rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
 
+- Elimina archivos específicos ignorando los que no existen:
+
+`rm -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
+
 - Elimina varios archivos de forma interactiva, solicitando confirmación antes de eliminar cada archivo:
 
-`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo(s)</span>
+`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
 
-- Elimina archivos en modo detallado, imprimiendo un mensaje por cada archivo eliminado:
+- Elimina archivos, imprimiendo un mensaje por cada archivo eliminado:
 
-`rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/directorio/*</span>
+`rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
 
-- Elimina, de forma recursiva, un directorio y todos sus subdirectorios:
+- Elimina, de forma recursiva, archivos y directorios:
 
-`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
+`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio1 ruta/al/directorio2 ...</span>

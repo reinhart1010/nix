@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mysqldump (español)
-description: "Crea una copia de seguridad de bases de datos MySQL."
-content_hash: efbf2721c3b3339bd761b53fc52f600ce220546d
-last_modified_at: 2023-11-12
+description: "Crea una copia de seguridad (backup) de bases de datos MySQL."
+content_hash: 2d9bdf46275399988a38363ffb71ad4111a9ffbc
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/mysqldump.html
@@ -18,18 +18,22 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># mysqldump
 
-Crea una copia de seguridad de bases de datos MySQL.
+Crea una copia de seguridad (backup) de bases de datos MySQL.
 Vea también `mysql` para restaurar bases de datos.
 Más información: <https://dev.mysql.com/doc/refman/en/mysqldump.html>.
 
 - Crea un backup (se le pedirá la contraseña al usuario):
 
-`mysqldump --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span>` -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.sql</span>
+`mysqldump --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span>` --result-file=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.sql</span>
+
+- Crea un backup de una tabla específica redireccionando la salida a un archivo (se le pedirá la contraseña al usuario):
+
+`mysqldump --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_tabla</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.sql</span>
 
 - Crea un backup de todas las bases de datos y redirige la salida a un archivo (se le pedirá la contraseña al usuario):
 
 `mysqldump --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` --password --all-databases > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.sql</span>
 
-- Crea un backup de una única tabla de una base de datos (se le pedirá la contraseña al usuario):
+- Crea un backup de todas las bases de datos de un host remoto redirigiendo la salida a un archivo (se le pedirá la contraseña al usuario):
 
-`mysqldump --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_tabla</span>` -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.sql</span>
+`mysqldump --host=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombre_de_host</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` --password --all-databases > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.sql</span>
