@@ -3,7 +3,7 @@ layout: page
 title: freebsd/chpass (हिन्दी)
 description: "लॉगिन shell और पासवर्ड सहित उपयोगकर्ता डेटाबेस जानकारी जोड़ें या बदलें।"
 content_hash: dbf8e28fc11cdfc3ddef287300375d664784a3e8
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/freebsd/chpass.html
@@ -14,18 +14,12 @@ related_topics:
   - title: Nederlands version
     url: /nl/freebsd/chpass.html
     icon: bi bi-globe
-tldri18n_status: 0
+  - title: português (Brasil) version
+    url: /pt_BR/freebsd/chpass.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/chpass.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chpass
+# chpass
 
 लॉगिन shell और पासवर्ड सहित उपयोगकर्ता डेटाबेस जानकारी जोड़ें या बदलें।
 यह भी देखें: `passwd`।

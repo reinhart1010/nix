@@ -3,23 +3,14 @@ layout: page
 title: common/grap (한국어)
 description: "groff (GNU Troff) 문서 형식화 시스템을 위한 차트 작성 전처리기."
 content_hash: 239edf6086a4bf01e68c8a6d6394064799d779cf
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/grap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/grap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># grap
+# grap
 
 groff (GNU Troff) 문서 형식화 시스템을 위한 차트 작성 전처리기.
 `pic` 및 `groff`를 참고.

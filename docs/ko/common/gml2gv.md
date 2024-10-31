@@ -3,23 +3,14 @@ layout: page
 title: common/gml2gv (한국어)
 description: "그래프를 `gml`에서 `gv` 형식으로 변환."
 content_hash: e15b8f054e67515bf824e2d15559e202e6039ad0
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gml2gv.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gml2gv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gml2gv
+# gml2gv
 
 그래프를 `gml`에서 `gv` 형식으로 변환.
 변환기: `gml2gv`, `gv2gml`, `gv2gxl`, `gxl2gv`, `graphml2gv` & `mm2gv`.

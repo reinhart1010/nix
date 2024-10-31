@@ -3,23 +3,14 @@ layout: page
 title: common/gnmic-set (한국어)
 description: "gnmi 네트워크 장치 구성을 수정."
 content_hash: 8a0533328ab4d0dde14f41c18af016d97ceb3322
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gnmic-set.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gnmic-set.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gnmic set
+# gnmic set
 
 gnmi 네트워크 장치 구성을 수정.
 더 많은 정보: <https://gnmic.kmrd.dev/cmd/set>.

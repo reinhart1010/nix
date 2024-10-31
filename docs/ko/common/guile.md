@@ -3,23 +3,14 @@ layout: page
 title: common/guile (한국어)
 description: "Guile 스키마 해석기."
 content_hash: b710eb905d4851252aa6503823afbfc198a58bc6
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/guile.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/guile.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># guile
+# guile
 
 Guile 스키마 해석기.
 더 많은 정보: <https://www.gnu.org/software/guile>.

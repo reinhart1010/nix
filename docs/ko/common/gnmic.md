@@ -3,23 +3,14 @@ layout: page
 title: common/gnmic (한국어)
 description: "gNMI 명령줄 클라이언트."
 content_hash: b3f72448ae87e68c051d4d12851bf18466f80ac2
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gnmic.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gnmic.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gnmic
+# gnmic
 
 gNMI 명령줄 클라이언트.
 gNMI 네트워크 장치 구성을 관리하고 운영 데이터를 살펴봄.

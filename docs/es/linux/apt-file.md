@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-file (español)
 description: "Busca archivos en paquetes `apt`, incluyendo los que aún no han sido instalados."
 content_hash: e593528e1473cb8afc39254cd297eeb5ba1d3565
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-file.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt-file
+# apt-file
 
 Busca archivos en paquetes `apt`, incluyendo los que aún no han sido instalados.
 Más información: <https://manned.org/apt-file.1>.

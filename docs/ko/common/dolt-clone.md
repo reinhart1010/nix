@@ -3,23 +3,14 @@ layout: page
 title: common/dolt-clone (한국어)
 description: "저장소를 새로운 디렉터리에 복제."
 content_hash: f6f30788946ae031cba1a9e8165ce4def08168b3
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/dolt-clone.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dolt-clone.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dolt clone
+# dolt clone
 
 저장소를 새로운 디렉터리에 복제.
 더 많은 정보: <https://docs.dolthub.com/interfaces/cli#dolt-clone>.

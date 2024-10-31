@@ -3,23 +3,14 @@ layout: page
 title: common/gst-launch-1.0 (한국어)
 description: "GStreamer 파이프라인 빌드 및 실행."
 content_hash: 3e4c91a1367c4a0dbf3e8cd3771281afbc9e2bd0
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gst-launch-1.0.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gst-launch-1.0.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gst-launch-1.0
+# gst-launch-1.0
 
 GStreamer 파이프라인 빌드 및 실행.
 더 많은 정보: <https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html?gi-language=c>.

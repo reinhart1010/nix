@@ -3,23 +3,14 @@ layout: page
 title: common/grpcurl (한국어)
 description: "gRPC 서버와 상호 작용."
 content_hash: 5b1374e08e0e08482c32de872cfd7868ac43b5f3
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/grpcurl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/grpcurl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># grpcurl
+# grpcurl
 
 gRPC 서버와 상호 작용.
 `curl`과 비슷하지만, gRPC용임.

@@ -3,7 +3,7 @@ layout: page
 title: common/gocr (한국어)
 description: "광학 문자 인식 도구."
 content_hash: b141bcd7b0071051e452e4c9f8a6f8f50fdcbd44
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gocr.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/gocr.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gocr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gocr
+# gocr
 
 광학 문자 인식 도구.
 엔진을 사용하여 문자를 인식하고, 사용자에게 알 수 없는 패턴을 묻는 메시지를 표시하여 데이터베이스에 저장.

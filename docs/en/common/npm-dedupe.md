@@ -3,19 +3,10 @@ layout: page
 title: common/npm-dedupe (English)
 description: "Reduce duplication in the `node_modules` directory."
 content_hash: b1732814589979362a11c55d753ce00e59e8ada4
-last_modified_at: 2024-10-30
-tldri18n_status: 0
+last_modified_at: 2024-10-31
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/npm-dedupe.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># npm dedupe
+# npm dedupe
 
 Reduce duplication in the `node_modules` directory.
 More information: <https://docs.npmjs.com/cli/commands/npm-dedupe>.

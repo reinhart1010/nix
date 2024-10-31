@@ -3,7 +3,7 @@ layout: page
 title: windows/cd (español)
 description: "Muestra el directorio de trabajo actual o se desplaza a un directorio diferente."
 content_hash: e1483f7f780a477ac2901caffb8d8fa4af239a67
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -47,12 +47,9 @@ related_topics:
   - title: ไทย version
     url: /th/windows/cd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cd
+# cd
 
 Muestra el directorio de trabajo actual o se desplaza a un directorio diferente.
 En PowerShell, este comando es un alias de `Set-Location`. Esta documentación está basada en la versión del símbolo del sistema (`cmd`) de `cd`.

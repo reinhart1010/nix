@@ -3,7 +3,7 @@ layout: page
 title: common/xz (español)
 description: "Comprime o descomprime archivos XZ y LZMA."
 content_hash: ae9d6c5a6755067a35129bb9af2b2fdc65270ff5
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/xz.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/xz.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/xz.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xz
+# xz
 
 Comprime o descomprime archivos XZ y LZMA.
 Más información: <https://manned.org/xz>.

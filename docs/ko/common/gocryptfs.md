@@ -3,7 +3,7 @@ layout: page
 title: common/gocryptfs (한국어)
 description: "Go로 작성된 암호화된 오버레이 파일 시스템."
 content_hash: eb9f5575bdeeb81b3f0b840790bc1d045dd82ec7
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gocryptfs.html
@@ -11,18 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/common/gocryptfs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gocryptfs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gocryptfs
+# gocryptfs
 
 Go로 작성된 암호화된 오버레이 파일 시스템.
 더 많은 정보: <https://github.com/rfjakob/gocryptfs>.

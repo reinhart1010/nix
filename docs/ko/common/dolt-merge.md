@@ -3,23 +3,14 @@ layout: page
 title: common/dolt-merge (한국어)
 description: "두 개 이상의 개발 이력을 함께 결합."
 content_hash: 6e2ca9a2a277db5a5a3be53a97c12b6362619bdd
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/dolt-merge.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dolt-merge.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dolt merge
+# dolt merge
 
 두 개 이상의 개발 이력을 함께 결합.
 더 많은 정보: <https://docs.dolthub.com/cli-reference/cli#dolt-merge>.

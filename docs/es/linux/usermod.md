@@ -3,7 +3,7 @@ layout: page
 title: linux/usermod (español)
 description: "Modifica una cuenta de usuario."
 content_hash: d2a579e19a119830eea5f337b3905f0f5336428e
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: català version
     url: /ca/linux/usermod.html
@@ -17,12 +17,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/usermod.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># usermod
+# usermod
 
 Modifica una cuenta de usuario.
 Vea también: `users`, `useradd`, `userdel`.

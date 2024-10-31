@@ -3,7 +3,7 @@ layout: page
 title: windows/del (العربية)
 description: "حذف ملف واحد او مجموعه من الملفات."
 content_hash: 2e7c41953da7df9c1a50cde6ee83258ca33c04af
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: Deutsch version
     url: /de/windows/del.html
@@ -29,18 +29,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/del.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/del.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># del
+# del
 
 حذف ملف واحد او مجموعه من الملفات.
 وهو الاسم المستعار للامر `Remove-Item`.

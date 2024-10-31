@@ -3,7 +3,7 @@ layout: page
 title: linux/cal (español)
 description: "Muestra el calendario, con el día actual resaltado."
 content_hash: f1b32a52dbaf259a21ffdb83808fb9a0b95c732c
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/cal.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cal
+# cal
 
 Muestra el calendario, con el día actual resaltado.
 Más información: <https://manned.org/cal>.

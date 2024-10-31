@@ -3,23 +3,14 @@ layout: page
 title: common/gladtex (한국어)
 description: "HTML 파일용 LaTeX 수식 전처리기."
 content_hash: c642cc9f6c6423198e6fcb52fff3c23c487c0dd3
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gladtex.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gladtex.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gladtex
+# gladtex
 
 HTML 파일용 LaTeX 수식 전처리기.
 LaTeX 수식을 이미지로 변환.

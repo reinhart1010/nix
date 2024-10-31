@@ -3,23 +3,14 @@ layout: page
 title: common/gnomon (한국어)
 description: "타임스탬프로 콘솔 로깅 문에 주석을 달고, 느린 프로세스를 찾는 유틸리티."
 content_hash: cf498c2d721c8aae8c35410b3ba4ee180118c3f5
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gnomon.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gnomon.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gnomon
+# gnomon
 
 타임스탬프로 콘솔 로깅 문에 주석을 달고, 느린 프로세스를 찾는 유틸리티.
 더 많은 정보: <https://github.com/paypal/gnomon>.

@@ -3,23 +3,14 @@ layout: page
 title: common/dolt-checkout (한국어)
 description: "작업 트리나 테이블을 브랜치나 커밋으로 체크아웃."
 content_hash: 93daf38c0ce24531f71279c1799d6fb9ab4ea525
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/dolt-checkout.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dolt-checkout.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dolt checkout
+# dolt checkout
 
 작업 트리나 테이블을 브랜치나 커밋으로 체크아웃.
 더 많은 정보: <https://docs.dolthub.com/cli-reference/cli#dolt-checkout>.

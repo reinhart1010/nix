@@ -3,17 +3,14 @@ layout: page
 title: linux/aur (español)
 description: "Construye paquetes desde el AUR y gestiona repositorios locales."
 content_hash: 20686a42fa049e7cc8e8b1bb3dd9117ffd54fbe7
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/linux/aur.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aur
+# aur
 
 Construye paquetes desde el AUR y gestiona repositorios locales.
 Nota: Es necesario establecer un repositorio local en `/etc/pacman.conf` e instalar `vifm` para que funcione completamente.

@@ -3,7 +3,7 @@ layout: page
 title: linux/dnf (español)
 description: "Administrador de paquetes para RHEL, CentOS y Fedora (Reemplaza a yum)."
 content_hash: 0adb4d0633bbb64210f4809e73caf886db8f90a0
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/dnf.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dnf
+# dnf
 
 Administrador de paquetes para RHEL, CentOS y Fedora (Reemplaza a yum).
 Para comandos equivalentes en otros administradores de paquetes, vea <https://wiki.archlinux.org/title/Pacman/Rosetta>.

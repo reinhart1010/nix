@@ -3,23 +3,14 @@ layout: page
 title: common/glab (한국어)
 description: "GitLab으로 원활하게 작업."
 content_hash: b4c9b93f86a53070fa61f2a78a1d396b94b0f1d7
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/glab.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/glab.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># glab
+# glab
 
 GitLab으로 원활하게 작업.
 `config`와 같은 일부 하위 명령에는 자체 사용법 문서가 있음.

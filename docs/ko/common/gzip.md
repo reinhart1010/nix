@@ -3,7 +3,7 @@ layout: page
 title: common/gzip (한국어)
 description: "`gzip` 압축 (LZ77)을 사용하여 파일 압축/압축 해제."
 content_hash: 53baa0f00a642ff1c1716de988e6cf05e4e0e8ae
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gzip.html
@@ -14,18 +14,9 @@ related_topics:
   - title: українська version
     url: /uk/common/gzip.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gzip.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gzip
+# gzip
 
 `gzip` 압축 (LZ77)을 사용하여 파일 압축/압축 해제.
 더 많은 정보: <https://www.gnu.org/software/gzip/manual/gzip.html>.

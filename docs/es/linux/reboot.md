@@ -3,7 +3,7 @@ layout: page
 title: linux/reboot (español)
 description: "Reinicia el sistema."
 content_hash: 0522e4e3d8f80b11494348d3265f6ab2ba983d97
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: català version
     url: /ca/linux/reboot.html
@@ -29,12 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/reboot.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># reboot
+# reboot
 
 Reinicia el sistema.
 Vea también: `halt`, `poweroff`.

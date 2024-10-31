@@ -3,23 +3,14 @@ layout: page
 title: common/grex (한국어)
 description: "정규 표현식을 생성."
 content_hash: 90fcb87714311d1bd556cc37a70569fe12a84f9e
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/grex.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/grex.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># grex
+# grex
 
 정규 표현식을 생성.
 더 많은 정보: <https://github.com/pemistahl/grex>.

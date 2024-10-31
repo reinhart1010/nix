@@ -3,7 +3,7 @@ layout: page
 title: common/gsutil (한국어)
 description: "Google Cloud 스토리지 접근."
 content_hash: 60b0dd50de4416884604d693164117c5abb5792b
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gsutil.html
@@ -11,18 +11,9 @@ related_topics:
   - title: українська version
     url: /uk/common/gsutil.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gsutil.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gsutil
+# gsutil
 
 Google Cloud 스토리지 접근.
 `gsutil`을 사용하여 광범위한 버킷 및 객체 관리 작업을 수행 가능.

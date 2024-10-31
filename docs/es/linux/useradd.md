@@ -3,7 +3,7 @@ layout: page
 title: linux/useradd (español)
 description: "Crea un usuario."
 content_hash: 22812cf044ba7d050475f22cc7cb0ebde6a88175
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: català version
     url: /ca/linux/useradd.html
@@ -17,12 +17,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/useradd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># useradd
+# useradd
 
 Crea un usuario.
 Vea también: `users`, `userdel`, `usermod`.

@@ -3,23 +3,14 @@ layout: page
 title: windows/psexec (한국어)
 description: "원격 컴퓨터에서 명령줄 프로세스 실행."
 content_hash: 920d2a20b80203abd6b988885c1c036c74f5317f
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/windows/psexec.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/psexec.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># psexec
+# psexec
 
 원격 컴퓨터에서 명령줄 프로세스 실행.
 이 명령은 고급 명령이며 잠재적으로 위험할 수 있습니다.

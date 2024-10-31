@@ -3,23 +3,14 @@ layout: page
 title: common/gnmic-get (한국어)
 description: "gnmi 네트워크 장치 작동 데이터의 스냅샷 가져오기."
 content_hash: 9c077bf430a6d1402d42a24aafb19c3fad89075d
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gnmic-get.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gnmic-get.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gnmic get
+# gnmic get
 
 gnmi 네트워크 장치 작동 데이터의 스냅샷 가져오기.
 더 많은 정보: <https://gnmic.kmrd.dev/cmd/get>.

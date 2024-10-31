@@ -3,7 +3,7 @@ layout: page
 title: common/gvcolor (한국어)
 description: "다양한 색상으로 순위가 매겨진 이중 그래프를 색깔 입히기."
 content_hash: 48edcb02a29915b7ad6afd924538a55fab286c13
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gvcolor.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/gvcolor.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gvcolor.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gvcolor
+# gvcolor
 
 다양한 색상으로 순위가 매겨진 이중 그래프를 색깔 입히기.
 그래프비즈 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.

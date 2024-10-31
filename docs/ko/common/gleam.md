@@ -3,7 +3,7 @@ layout: page
 title: common/gleam (한국어)
 description: "\"확장 가능한 타입 안전 시스템을 구축하기 위한 친숙한 언어!\"인 Gleam용 컴파일러, 빌드 도구, 패키지 관리자 및 코드 포맷터."
 content_hash: 1b7ffc2e618881a677912c17180f23b9351a7488
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/common/gleam.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/gleam.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gleam.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gleam
+# gleam
 
 "확장 가능한 타입 안전 시스템을 구축하기 위한 친숙한 언어!"인 Gleam용 컴파일러, 빌드 도구, 패키지 관리자 및 코드 포맷터.
 더 많은 정보: <https://gleam.run/writing-gleam/command-line-reference/>.

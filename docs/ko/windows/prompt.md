@@ -3,23 +3,14 @@ layout: page
 title: windows/prompt (한국어)
 description: "명령 창의 기본 DOS 스타일 프롬프트를 변경합니다."
 content_hash: 14c8647775796afde7d3688a1ed5a3dafc9bc6e4
-last_modified_at: 2024-10-30
+last_modified_at: 2024-10-31
 related_topics:
   - title: English version
     url: /en/windows/prompt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/prompt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># prompt
+# prompt
 
 명령 창의 기본 DOS 스타일 프롬프트를 변경합니다.
 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/prompt>.
