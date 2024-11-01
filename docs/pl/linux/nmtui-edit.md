@@ -1,21 +1,22 @@
 ---
 layout: page
 title: linux/nmtui-edit (polski)
-description: "To polecenie jest aliasem `nmtui`."
-content_hash: bd4bfa1679a741f8220ef7798897b81ac8494e6b
-last_modified_at: 2023-11-02
+description: "To polecenie jest aliasem `nmtui edit`."
+content_hash: 25f3c6070e1c710f9104b0f728381a0699653ad2
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/linux/nmtui-edit.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/nmtui-edit.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
+# nmtui-edit
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+To polecenie jest aliasem `nmtui edit`.
 
-<hr># nmtui-edit
-
-To polecenie jest aliasem `nmtui`.
-
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr nmtui`

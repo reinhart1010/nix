@@ -3,7 +3,7 @@ layout: page
 title: common/nano (español)
 description: "Editor sencillo y fácil de usar. Un clon libre y mejorado de `Pico`."
 content_hash: 8767bf915ec890110cca92dd1eb80b3b0dab133e
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/nano.html
@@ -17,12 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/nano.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nano
+# nano
 
 Editor sencillo y fácil de usar. Un clon libre y mejorado de `Pico`.
 Vea también: `emacs`, `helix`, `vim`.

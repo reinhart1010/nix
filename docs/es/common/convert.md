@@ -3,7 +3,7 @@ layout: page
 title: common/convert (español)
 description: "Este comando es un alias de `magick convert`."
 content_hash: fd7a4e763bdea3d8709c2067cafa00cae84a7c64
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/convert.html
@@ -20,18 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/convert.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/convert.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># convert
+# convert
 
 Este comando es un alias de `magick convert`.
 Nota: Este alias está obsoleto desde ImageMagick 7. Ha sido reemplazado por `magick`.

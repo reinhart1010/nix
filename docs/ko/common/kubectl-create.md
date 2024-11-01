@@ -3,23 +3,14 @@ layout: page
 title: common/kubectl-create (한국어)
 description: "파일 또는 `stdin`에서 리소스를 생성."
 content_hash: eccf811d630fda24b54654aa3b68294c050c16b4
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/kubectl-create.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kubectl-create.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kubectl create
+# kubectl create
 
 파일 또는 `stdin`에서 리소스를 생성.
 더 많은 정보: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#create>.

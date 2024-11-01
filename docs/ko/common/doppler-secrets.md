@@ -3,23 +3,14 @@ layout: page
 title: common/doppler-secrets (한국어)
 description: "Doppler 프로젝트의 비밀을 관리."
 content_hash: 13a875a860efadf5c3af6940a36eae0e45498be0
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/doppler-secrets.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/doppler-secrets.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># doppler secrets
+# doppler secrets
 
 Doppler 프로젝트의 비밀을 관리.
 더 많은 정보: <https://docs.doppler.com/docs/accessing-secrets>.

@@ -3,19 +3,10 @@ layout: page
 title: common/sui-move (English)
 description: "Work with Move source code."
 content_hash: f8ef6c0d7128f969ff822a321e581463dcc5d6f8
-last_modified_at: 2024-10-31
-tldri18n_status: 0
+last_modified_at: 2024-11-01
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sui-move.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sui move
+# sui move
 
 Work with Move source code.
 More information: <https://docs.sui.io/references/cli/move>.

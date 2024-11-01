@@ -1,21 +1,22 @@
 ---
 layout: page
 title: linux/nmtui-connect (polski)
-description: "To polecenie jest aliasem `nmtui`."
-content_hash: b844d56478368ba9e365dc7849e44685d841999b
-last_modified_at: 2023-11-02
+description: "To polecenie jest aliasem `nmtui connect`."
+content_hash: 0a9c80b54c2cdfd897322792056a5cf22e2c64d9
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/linux/nmtui-connect.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/nmtui-connect.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
+# nmtui-connect
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+To polecenie jest aliasem `nmtui connect`.
 
-<hr># nmtui-connect
-
-To polecenie jest aliasem `nmtui`.
-
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr nmtui`

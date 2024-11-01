@@ -3,23 +3,14 @@ layout: page
 title: common/kubectl-expose (한국어)
 description: "리소스를 새로운 Kubernetes 서비스로 노출."
 content_hash: 2efcaec622fd88d9b180a5135b6886999f1eb20e
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/kubectl-expose.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kubectl-expose.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kubectl expose
+# kubectl expose
 
 리소스를 새로운 Kubernetes 서비스로 노출.
 더 많은 정보: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#expose>.

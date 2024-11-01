@@ -3,23 +3,14 @@ layout: page
 title: common/mongoexport (한국어)
 description: "MongoDB 인스턴스에 저장된 데이터를 JSON 또는 CSV 형식으로 내보내기."
 content_hash: e55b07be5fc9e749b485e57e2bd122440c2ec63f
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/mongoexport.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mongoexport.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mongoexport
+# mongoexport
 
 MongoDB 인스턴스에 저장된 데이터를 JSON 또는 CSV 형식으로 내보내기.
 더 많은 정보: <https://docs.mongodb.com/database-tools/mongoexport/>.

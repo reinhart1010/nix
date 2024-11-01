@@ -3,19 +3,10 @@ layout: page
 title: common/sui-client-ptb (English)
 description: "Create, sign and execute programmable transaction blocks."
 content_hash: e321e161300079ed53d706bfd3deb956ae1ea7c8
-last_modified_at: 2024-10-31
-tldri18n_status: 0
+last_modified_at: 2024-11-01
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sui-client-ptb.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sui client ptb
+# sui client ptb
 
 Create, sign and execute programmable transaction blocks.
 More information: <https://docs.sui.io/references/cli/ptb>.

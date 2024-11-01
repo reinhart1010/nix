@@ -3,7 +3,7 @@ layout: page
 title: common/tee (español)
 description: "Lee desde la entrada estándar (`stdin`) y escribe a la salida estándar (`stdout`) y a archivos (o comandos)."
 content_hash: e25ea518dbc1e489e7404957dcec5446f66aee76
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/tee.html
@@ -11,12 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/tee.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tee
+# tee
 
 Lee desde la entrada estándar (`stdin`) y escribe a la salida estándar (`stdout`) y a archivos (o comandos).
 Más información: <https://www.gnu.org/software/coreutils/tee>.

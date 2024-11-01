@@ -3,7 +3,7 @@ layout: page
 title: common/kubectl-logs (한국어)
 description: "컨테이너의 로그를 조회하는 도구."
 content_hash: 0b2d2a20a93e15fc61dfa3c664329162a1f91c27
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: Deutsch version
     url: /de/common/kubectl-logs.html
@@ -14,18 +14,9 @@ related_topics:
   - title: español version
     url: /es/common/kubectl-logs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kubectl-logs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kubectl logs
+# kubectl logs
 
 컨테이너의 로그를 조회하는 도구.
 더 많은 정보: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs>.

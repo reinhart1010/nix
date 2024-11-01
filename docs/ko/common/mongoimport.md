@@ -3,23 +3,14 @@ layout: page
 title: common/mongoimport (한국어)
 description: "JSON, CSV, 또는 TSV 파일의 내용을 MongoDB 데이터베이스로 가져오기."
 content_hash: 8ef68440c659a47342d93879a059e2213942058a
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/mongoimport.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mongoimport.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mongoimport
+# mongoimport
 
 JSON, CSV, 또는 TSV 파일의 내용을 MongoDB 데이터베이스로 가져오기.
 더 많은 정보: <https://docs.mongodb.com/database-tools/mongoimport/>.

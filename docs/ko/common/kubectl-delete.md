@@ -3,7 +3,7 @@ layout: page
 title: common/kubectl-delete (한국어)
 description: "Kubernetes 리소스 삭제."
 content_hash: e87f32e0f261bd780af9598f557e77c2a14c628a
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: Deutsch version
     url: /de/common/kubectl-delete.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/kubectl-delete.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kubectl-delete.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kubectl delete
+# kubectl delete
 
 Kubernetes 리소스 삭제.
 더 많은 정보: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#delete>.

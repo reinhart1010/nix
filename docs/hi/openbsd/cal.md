@@ -3,7 +3,7 @@ layout: page
 title: openbsd/cal (हिन्दी)
 description: "वर्तमान दिन को हाइलाइट करते हुए कैलेंडर दिखाएं।"
 content_hash: 1ce7d6f970c92a2b4812c927af786b45909f55cb
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/openbsd/cal.html
@@ -17,18 +17,9 @@ related_topics:
   - title: polski version
     url: /pl/openbsd/cal.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/openbsd/cal.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cal
+# cal
 
 वर्तमान दिन को हाइलाइट करते हुए कैलेंडर दिखाएं।
 अधिक जानकारी: <https://man.openbsd.org/cal>।

@@ -1,21 +1,25 @@
 ---
 layout: page
 title: linux/systemd-umount (polski)
-description: "To polecenie jest aliasem `systemd-mount`."
-content_hash: 510939bae6447fb380711d671778dcada60c394a
-last_modified_at: 2023-11-02
+description: "To polecenie jest aliasem `systemd-mount --umount`."
+content_hash: 1ce8afc10ddbb182a500047902b0bf32a0c2f751
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/linux/systemd-umount.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/systemd-umount.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/systemd-umount.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
+# systemd-umount
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+To polecenie jest aliasem `systemd-mount --umount`.
 
-<hr># systemd-umount
-
-To polecenie jest aliasem `systemd-mount`.
-
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr systemd-mount`

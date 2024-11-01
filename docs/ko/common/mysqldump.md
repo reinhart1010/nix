@@ -3,7 +3,7 @@ layout: page
 title: common/mysqldump (한국어)
 description: "MySQL 데이터베이스 백업."
 content_hash: ac60a70f5b84c42ba4b9cdeb6718270acec78f1f
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/mysqldump.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mysqldump.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mysqldump.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mysqldump
+# mysqldump
 
 MySQL 데이터베이스 백업.
 데이터베이스 복원에 대해서는 `mysql`을 참조하세요.

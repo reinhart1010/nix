@@ -3,7 +3,7 @@ layout: page
 title: common/doppler (한국어)
 description: "Doppler를 사용하여 다양한 환경의 환경 변수를 관리."
 content_hash: 0ff081491ddbe5b5dd8de0c4158f9a510cdc4bf4
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/doppler.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/doppler.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/doppler.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># doppler
+# doppler
 
 Doppler를 사용하여 다양한 환경의 환경 변수를 관리.
 `run` 및 `secrets`와 같은 일부 하위 명령에는 자체 사용법 문서가 존재.

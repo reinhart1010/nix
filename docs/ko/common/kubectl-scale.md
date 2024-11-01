@@ -3,23 +3,14 @@ layout: page
 title: common/kubectl-scale (한국어)
 description: "배포, 레플리카 세트, 복제 컨트롤러 또는 스테이트풀 세트의 크기를 조정."
 content_hash: 814830b55a1885e1e3804cafbaec8b76f2122791
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/kubectl-scale.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kubectl-scale.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kubectl scale
+# kubectl scale
 
 배포, 레플리카 세트, 복제 컨트롤러 또는 스테이트풀 세트의 크기를 조정.
 더 많은 정보: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#scale>.

@@ -3,17 +3,14 @@ layout: page
 title: linux/torsocks (español)
 description: "Enruta el tráfico de cualquier aplicación a través de la red Tor."
 content_hash: 7e1723084ce8cfdc59f8b4032d9f9c5dc749622b
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/linux/torsocks.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># torsocks
+# torsocks
 
 Enruta el tráfico de cualquier aplicación a través de la red Tor.
 Nota: `torsocks` asumirá que debe conectarse al proxy SOCKS que corre en 127.0.0.1:9050 que es el servicio (daemon) predeterminado de Tor.

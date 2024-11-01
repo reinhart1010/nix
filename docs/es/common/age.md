@@ -3,7 +3,7 @@ layout: page
 title: common/age (español)
 description: "Una herramienta de encriptación de archivos sencilla, moderna y segura."
 content_hash: a4ffc593d94b03fb7a15013eb6615c525f0b3b08
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/age.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># age
+# age
 
 Una herramienta de encriptación de archivos sencilla, moderna y segura.
 Vea también: `age-keygen` para generar pares de claves.

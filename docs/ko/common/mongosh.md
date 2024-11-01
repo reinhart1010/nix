@@ -3,23 +3,14 @@ layout: page
 title: common/mongosh (한국어)
 description: "MongoDB의 새로운 쉘로, `mongo`의 대체품입니다."
 content_hash: cb1f9cf50f66c215c0317afbacada994fbe8f892
-last_modified_at: 2024-10-31
+last_modified_at: 2024-11-01
 related_topics:
   - title: English version
     url: /en/common/mongosh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mongosh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mongosh
+# mongosh
 
 MongoDB의 새로운 쉘로, `mongo`의 대체품입니다.
 참고: 모든 연결 옵션은 하나의 문자열로 대체할 수 있습니다: `mongodb://user@host:port/db_name?authSource=authdb_name`.

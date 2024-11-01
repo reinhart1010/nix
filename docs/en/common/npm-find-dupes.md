@@ -3,19 +3,10 @@ layout: page
 title: common/npm-find-dupes (English)
 description: "Identify duplicate dependencies in `node_modules`."
 content_hash: fea4fa529d10291fe8627c453042e1160a26e89b
-last_modified_at: 2024-10-31
-tldri18n_status: 0
+last_modified_at: 2024-11-01
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/npm-find-dupes.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># npm find-dupes
+# npm find-dupes
 
 Identify duplicate dependencies in `node_modules`.
 More information: <https://docs.npmjs.com/cli/commands/npm-find-dupes>.
