@@ -2,8 +2,8 @@
 layout: page
 title: common/wireplumber (English)
 description: "A modular session/policy manager for PipeWire and a GObject-based high-level library that wraps PipeWire’s API."
-content_hash: 64df8c3a1dd6df1e967b1f30620ebe0456210d60
-last_modified_at: 2024-05-23
+content_hash: 6dda58dfe678638a1d8788c1d0133fc655749b01
+last_modified_at: 2024-11-01
 tldri18n_status: 2
 ---
 # wireplumber
@@ -30,4 +30,4 @@ More information: <https://pipewire.pages.freedesktop.org/wireplumber/>.
 
 - Display version:
 
-`wirepumbler --version`
+`wireplumber --version`
