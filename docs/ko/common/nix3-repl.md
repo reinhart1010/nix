@@ -3,23 +3,14 @@ layout: page
 title: common/nix3-repl (한국어)
 description: "Nix 표현식을 평가하기 위한 대화형 환경 시작."
 content_hash: 4a6b24426eb73b9f7b2bc84c63d96ed936730f5a
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/nix3-repl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nix3-repl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nix repl
+# nix repl
 
 Nix 표현식을 평가하기 위한 대화형 환경 시작.
 Nix 표현식 언어에 대한 설명은 <https://nixos.org/manual/nix/stable/language/index.html>을 참고하세요.

@@ -3,7 +3,7 @@ layout: page
 title: common/yes (한국어)
 description: "무언가를 반복적으로 출력."
 content_hash: 8d52a66e9060c106964f2a65bb21e3648c5a3e6b
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -26,18 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/yes.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># yes
+# yes
 
 무언가를 반복적으로 출력.
 이 명령은 일반적으로 설치 명령(예: apt-get)의 모든 프롬프트에 'yes'로 응답하기 위해 사용됩니다.

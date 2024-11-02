@@ -3,23 +3,14 @@ layout: page
 title: common/ybacklight (한국어)
 description: "화면 백라이트 밝기 관리. 같이 보기: `xbacklight`."
 content_hash: a911df9cbe802b3b8841ce6c9c622a5988ff4782
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/ybacklight.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ybacklight.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ybacklight
+# ybacklight
 
 화면 백라이트 밝기 관리. 같이 보기: `xbacklight`.
 더 많은 정보: <https://github.com/pixelcmtd/ybacklight>.

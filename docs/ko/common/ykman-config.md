@@ -3,7 +3,7 @@ layout: page
 title: common/ykman-config (한국어)
 description: "YubiKey 애플리케이션 활성화 또는 비활성화."
 content_hash: b16094bbb59f1cbaae63fc006211bd9d35ce17e5
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/ykman-config.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/ykman-config.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ykman-config.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ykman config
+# ykman config
 
 YubiKey 애플리케이션 활성화 또는 비활성화.
 참고: 현재 활성화된 애플리케이션을 보려면 `ykman info`를 사용할 수 있습니다.

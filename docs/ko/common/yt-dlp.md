@@ -3,7 +3,7 @@ layout: page
 title: common/yt-dlp (한국어)
 description: "추가 기능과 수정이 포함된 youtube-dl 포크."
 content_hash: 29546c520570a38cded24277c3ad0ddba52fba87
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/yt-dlp.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/yt-dlp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/yt-dlp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># yt-dlp
+# yt-dlp
 
 추가 기능과 수정이 포함된 youtube-dl 포크.
 YouTube 및 기타 웹사이트에서 동영상을 다운로드합니다.

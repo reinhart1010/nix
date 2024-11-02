@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/chsh (español)
-description: "Cambia el intérprete de comandos de inicio de sesión."
-content_hash: 214f7f1a684591a7b53dcbf95a905cb2969c196e
-last_modified_at: 2024-02-05
+description: "Cambia el intérprete de comandos de inicio de sesión del usuario (login shell)."
+content_hash: 7c2943a1407326700c2753ced732e1e18d38f894
+last_modified_at: 2024-11-02
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -41,28 +41,22 @@ related_topics:
   - title: svenska version
     url: /sv/common/chsh.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# chsh
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chsh
-
-Cambia el intérprete de comandos de inicio de sesión.
+Cambia el intérprete de comandos de inicio de sesión del usuario (login shell).
+Vea las páginas específicas de la plataforma para más opciones.
 Más información: <https://manned.org/chsh>.
 
-- Cambia interactivamente el intérprete del usuario actual:
+- Establece un intérprete de comandos de inicio de sesión específico para el usuario actual de forma interactiva:
 
 `chsh`
 
-- Cambia el intérprete del usuario actual por otro específico:
+- Establece un intérprete de comandos de inicio de sesión específico para el usuario actual:
 
-`chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/intérprete</span>
+`chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/intérprete</span>
 
-- Cambia el intérprete de otro usuario:
+- Establece un intérprete de comandos de inicio de sesión para un usuario específico:
 
-`chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/intérprete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>
-
-- [l]ista los intérpretes disponibles:
-
-`chsh -l`
+`chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/intérprete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>

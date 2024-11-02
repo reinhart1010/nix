@@ -3,7 +3,7 @@ layout: page
 title: common/ykman-openpgp (한국어)
 description: "OpenPGP YubiKey 애플리케이션 관리."
 content_hash: 084a1eb35424772430f906e03528547fc4c1dba7
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/ykman-openpgp.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/ykman-openpgp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ykman-openpgp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ykman openpgp
+# ykman openpgp
 
 OpenPGP YubiKey 애플리케이션 관리.
 참고: 일부 설정을 위해 `gpg --card-edit`를 사용해야 합니다.

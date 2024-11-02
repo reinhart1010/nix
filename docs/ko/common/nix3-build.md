@@ -3,23 +3,14 @@ layout: page
 title: common/nix3-build (한국어)
 description: "Nix 표현식을 빌드합니다 (가능할 경우 캐시에서 다운로드)."
 content_hash: 7ccf35cf72d36bf92410c2094a59c33fc9843f20
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/nix3-build.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nix3-build.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nix build
+# nix build
 
 Nix 표현식을 빌드합니다 (가능할 경우 캐시에서 다운로드).
 같이 보기: 전통적인 Nix 표현식 빌드에 대한 `nix-build`, flakes에 대한 정보는 `nix3 flake`.

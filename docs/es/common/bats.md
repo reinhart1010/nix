@@ -2,34 +2,42 @@
 layout: page
 title: common/bats (español)
 description: "Bash Automated Testing System: un marco de pruebas compatible con TAP (<https://testanything.org/>) para Bash."
-content_hash: 4dbf5716476e9699d1b739556c9999f96dbb1639
-last_modified_at: 2024-07-11
+content_hash: 866d646301f949935660eefe2e012f0dce1c1c93
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/bats.html
     icon: bi bi-globe
-tldri18n_status: 1
+  - title: 한국어 version
+    url: /ko/common/bats.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bats
+# bats
 
 Bash Automated Testing System: un marco de pruebas compatible con TAP (<https://testanything.org/>) para Bash.
 Más información: <https://bats-core.readthedocs.io/en/stable/usage.html>.
 
-- Ejecuta un guión de prueba BATS y emite los resultados en el formato TAP (Test Anything Protocol):
+- Ejecuta un script de prueba BATS y muestra los resultados en el formato [t]AP (Test Anything Protocol):
 
 `bats --tap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span>
 
-- Cuenta los casos de prueba de un guión de prueba sin ejecutar ninguna prueba:
+- [c]ontar casos de prueba de un script de prueba sin ejecutar ninguna prueba:
 
 `bats --count `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span>
 
-- Ejecuta casos de prueba BATS en un directorio y sus subdirectorios (archivos con extensión `.bats`):
+- Ejecuta casos de prueba BATS [r]ecursivamente (archivos con extensión `.bats`):
 
-`bats --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
+`bats --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span>
 
-- Obtén resultados en un formato específico:
+- Muestra los resultados en un [f]ormato específico:
 
-`bats --formatter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pretty|tap|junit</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span>
+`bats --formatter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pretty|tap|tap13|junit</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span>
+
+- Añade información de [T]iming a las pruebas:
+
+`bats --timing `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span>
+
+- Ejecuta un número específico de traba[j]os en paralelo (requiere tener instalado GNU `parallel`):
+
+`bats --jobs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span>

@@ -3,23 +3,14 @@ layout: page
 title: common/zpool (한국어)
 description: "ZFS 풀 관리."
 content_hash: 4ea61e5807ea47f1ac545709bb8d6b4f3ada3256
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/zpool.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zpool.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zpool
+# zpool
 
 ZFS 풀 관리.
 더 많은 정보: <https://manned.org/zpool>.

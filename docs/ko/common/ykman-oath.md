@@ -3,7 +3,7 @@ layout: page
 title: common/ykman-oath (한국어)
 description: "OATH YubiKey 애플리케이션 관리."
 content_hash: 62933c21700057ca8d2d50f1487b7ef9985e6c3b
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/ykman-oath.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/ykman-oath.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ykman-oath.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ykman oath
+# ykman oath
 
 OATH YubiKey 애플리케이션 관리.
 `keyword`는 이름 또는 발행자의 일부일 수 있습니다.

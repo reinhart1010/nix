@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/az (español)
-description: "La herramienta de línea de comandos de Azure."
-content_hash: 2f64d8bd36481105d01b12c1dfb7ee73a95a361d
-last_modified_at: 2024-10-05
+description: "La herramienta CLI oficial para Microsoft Azure."
+content_hash: a18628a02fb7637139a2a08af1beee08c0d16aa7
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -26,37 +26,42 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/az.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# az
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az
-
-La herramienta de línea de comandos de Azure.
+La herramienta CLI oficial para Microsoft Azure.
 Algunos subcomandos como `login` tienen su propia documentación de uso.
-Más información: <https://learn.microsoft.com/cli/azure>.
+Más información: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 - Inicia sesión en Azure:
 
 `az login`
 
-- Administra la información de la suscripción de Azure:
+- Gestiona la información de suscripción a azure:
 
 `az account`
 
-- Enumera todos los discos administrados de Azure:
+- Lista todos los discos gestionados de Azure:
 
 `az disk list`
 
-- Enumera todas las máquinas virtuales de Azure:
+- Lista todas las máquinas virtuales de Azure:
 
 `az vm list`
 
-- Administra los servicios de Kubernetes de Azure:
+- Gestiona los servicios Azure Kubernetes:
 
 `az aks`
 
-- Administra los recursos de red de Azure:
+- Gestiona los recursos de red de Azure:
 
 `az network`
+
+- Inicia en modo interactivo:
+
+`az interactive`
+
+- Muestra ayuda:
+
+`az --help`

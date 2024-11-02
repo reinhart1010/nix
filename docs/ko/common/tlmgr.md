@@ -3,7 +3,7 @@ layout: page
 title: common/tlmgr (한국어)
 description: "기존 TeX Live 설치의 패키지 및 구성 옵션 관리."
 content_hash: 37b10b6c91948f2676c95447baf963c936d9ebfc
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/tlmgr.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/tlmgr.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tlmgr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tlmgr
+# tlmgr
 
 기존 TeX Live 설치의 패키지 및 구성 옵션 관리.
 `paper`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.

@@ -3,7 +3,7 @@ layout: page
 title: common/nix (한국어)
 description: "패키지 관리를 신뢰성 있고, 재현 가능하며, 선언적으로 만드는 강력한 패키지 관리자."
 content_hash: 936e5843b640a00b71cc8620155f04353bea82fc
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/nix.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/nix.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nix.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nix
+# nix
 
 패키지 관리를 신뢰성 있고, 재현 가능하며, 선언적으로 만드는 강력한 패키지 관리자.
 `nix`는 실험적이며 실험적 기능 사용을 활성화해야 합니다. 안정적인 인터페이스를 원하면 `tldr nix classic`을 참조하세요.

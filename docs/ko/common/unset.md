@@ -3,23 +3,14 @@ layout: page
 title: common/unset (한국어)
 description: "셸 변수 또는 함수를 제거."
 content_hash: 25af158bde1c3d98573bf88cd0026a1bda987ecf
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/unset.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/unset.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># unset
+# unset
 
 셸 변수 또는 함수를 제거.
 더 많은 정보: <https://manned.org/unset>.

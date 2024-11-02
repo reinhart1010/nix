@@ -3,23 +3,14 @@ layout: page
 title: common/xml-elements (한국어)
 description: "XML 문서의 요소를 추출하고 구조를 표시합니다."
 content_hash: a64c30b9a571ec7fef4dc3c3c2568aec9efd1a9a
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/xml-elements.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/xml-elements.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xml elements
+# xml elements
 
 XML 문서의 요소를 추출하고 구조를 표시합니다.
 더 많은 정보: <https://xmlstar.sourceforge.net/docs.php>.

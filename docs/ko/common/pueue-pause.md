@@ -3,23 +3,14 @@ layout: page
 title: common/pueue-pause (한국어)
 description: "실행 중인 작업 또는 그룹 일시 중지."
 content_hash: 37dd60005dbd799f33f09e4551360bdac4e55a6e
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/pueue-pause.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pueue-pause.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pueue pause
+# pueue pause
 
 실행 중인 작업 또는 그룹 일시 중지.
 같이 보기: `pueue start`.

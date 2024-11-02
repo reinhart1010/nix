@@ -3,7 +3,7 @@ layout: page
 title: common/usql (한국어)
 description: "SQL 데이터베이스를 위한 범용 CLI 인터페이스."
 content_hash: 7b76c2866a75141142d2fa8fc9b32c34cf564c3a
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/usql.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/usql.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/usql.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># usql
+# usql
 
 SQL 데이터베이스를 위한 범용 CLI 인터페이스.
 더 많은 정보: <https://github.com/xo/usql>.

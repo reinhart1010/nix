@@ -3,23 +3,14 @@ layout: page
 title: common/tlmgr-remove (한국어)
 description: "TeX Live 패키지 제거."
 content_hash: 8fe4d5c0cd1ac23b8e2e2c8a961b640930217695
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/tlmgr-remove.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tlmgr-remove.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tlmgr remove
+# tlmgr remove
 
 TeX Live 패키지 제거.
 기본적으로, 제거된 패키지는 TL 설치 디렉토리의 `./tlpkg/backups`에 백업됩니다.

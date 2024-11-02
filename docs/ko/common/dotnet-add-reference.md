@@ -3,23 +3,14 @@ layout: page
 title: common/dotnet-add-reference (한국어)
 description: ".NET 프로젝트 간 참조 추가."
 content_hash: 013e7c94e729f6e3abdf46f2cacbc530f4557370
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/dotnet-add-reference.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dotnet-add-reference.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dotnet add reference
+# dotnet add reference
 
 .NET 프로젝트 간 참조 추가.
 더 많은 정보: <https://learn.microsoft.com/dotnet/core/tools/dotnet-add-reference>.

@@ -3,23 +3,14 @@ layout: page
 title: common/nix3-registry (한국어)
 description: "Nix 플레이크 레지스트리를 관리."
 content_hash: 96a2c850f5aef265c8de52ae2de3963e14dd4712
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/nix3-registry.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nix3-registry.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nix registry
+# nix registry
 
 Nix 플레이크 레지스트리를 관리.
 같이 보기: 플레이크에 대한 정보는 `nix3 flake`.

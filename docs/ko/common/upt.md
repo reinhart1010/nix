@@ -3,7 +3,7 @@ layout: page
 title: common/upt (한국어)
 description: "다양한 운영 체제에서 패키지를 관리하기 위한 통합 인터페이스로, Windows, 여러 Linux 배포판, macOS, FreeBSD, Haiku 등을 지원합니다."
 content_hash: c7d642fae40fd4b331eaf4addb24e9acbb060724
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/upt.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/upt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/upt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># upt
+# upt
 
 다양한 운영 체제에서 패키지를 관리하기 위한 통합 인터페이스로, Windows, 여러 Linux 배포판, macOS, FreeBSD, Haiku 등을 지원합니다.
 기본 OS 패키지 관리자가 설치되어 있어야 합니다.

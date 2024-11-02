@@ -3,7 +3,7 @@ layout: page
 title: common/zm (한국어)
 description: "신문 및 블로그 기사를 관리하는 도구."
 content_hash: c7a62fd30b1af6571865005ae58bfab0ff0f1b6a
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/zm.html
@@ -11,18 +11,9 @@ related_topics:
   - title: فارسی version
     url: /fa/common/zm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zm
+# zm
 
 신문 및 블로그 기사를 관리하는 도구.
 더 많은 정보: <https://github.com/ZERMZeitung/zm2>.

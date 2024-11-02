@@ -3,7 +3,7 @@ layout: page
 title: common/uniq (한국어)
 description: "입력 또는 파일에서 고유한 줄을 출력합니다."
 content_hash: 9f8a9e1ab8f1fb3d46b0e7a5cd26b5d90c0a94be
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/uniq.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/uniq.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/uniq.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># uniq
+# uniq
 
 입력 또는 파일에서 고유한 줄을 출력합니다.
 인접하지 않은 반복 줄을 감지하지 않으므로 먼저 정렬해야 합니다.

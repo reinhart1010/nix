@@ -3,7 +3,7 @@ layout: page
 title: common/ugrep (한국어)
 description: "초고속 검색 도구로, 쿼리 TUI를 제공합니다."
 content_hash: 483b3c5d0c0b77924b533f0bff571d695b671565
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/ugrep.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/ugrep.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ugrep.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ugrep
+# ugrep
 
 초고속 검색 도구로, 쿼리 TUI를 제공합니다.
 더 많은 정보: <https://github.com/Genivia/ugrep>.

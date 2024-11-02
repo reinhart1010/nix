@@ -3,7 +3,7 @@ layout: page
 title: common/ssh-keyscan (한국어)
 description: "원격 호스트의 공개 SSH 키를 가져옵니다."
 content_hash: 224bd21b28db16f758974fcde1aab900f405b69d
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-keyscan.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ssh-keyscan.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ssh-keyscan.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ssh-keyscan
+# ssh-keyscan
 
 원격 호스트의 공개 SSH 키를 가져옵니다.
 더 많은 정보: <https://man.openbsd.org/ssh-keyscan>.

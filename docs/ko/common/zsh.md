@@ -3,7 +3,7 @@ layout: page
 title: common/zsh (한국어)
 description: "Z SHell, Bash 호환 명령줄 인터프리터."
 content_hash: 99136ccd85a9bff0926399d7607f91cb5460b0ed
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -29,18 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/zsh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zsh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zsh
+# zsh
 
 Z SHell, Bash 호환 명령줄 인터프리터.
 같이 보기: `bash`, `histexpand`.

@@ -3,7 +3,7 @@ layout: page
 title: common/dotnet-ef (한국어)
 description: "Entity Framework Core용 디자인 타임 개발 작업 수행."
 content_hash: e65743d9d15579ba8a86303be7e6e7d05011485d
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/dotnet-ef.html
@@ -11,18 +11,9 @@ related_topics:
   - title: polski version
     url: /pl/common/dotnet-ef.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dotnet-ef.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dotnet ef
+# dotnet ef
 
 Entity Framework Core용 디자인 타임 개발 작업 수행.
 더 많은 정보: <https://learn.microsoft.com/ef/core/cli/dotnet>.

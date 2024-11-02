@@ -3,7 +3,7 @@ layout: page
 title: common/nix-env (한국어)
 description: "Nix 사용자 환경을 조작하거나 조회합니다."
 content_hash: d3b0e7a43ca0886d7d1bba8107f00f9ab989027e
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/nix-env.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/nix-env.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nix-env.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nix-env
+# nix-env
 
 Nix 사용자 환경을 조작하거나 조회합니다.
 더 많은 정보: <https://nixos.org/manual/nix/stable/#sec-nix-env>.

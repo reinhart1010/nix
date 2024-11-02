@@ -3,23 +3,14 @@ layout: page
 title: common/zapier-scaffold (한국어)
 description: "통합에 시작 트리거, 생성, 검색 또는 리소스를 추가합니다."
 content_hash: 749cd327744aa416895e97b4d12ea5408ecbd218
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/zapier-scaffold.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zapier-scaffold.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zapier scaffold
+# zapier scaffold
 
 통합에 시작 트리거, 생성, 검색 또는 리소스를 추가합니다.
 더 많은 정보: <https://platform.zapier.com/reference/cli#scaffold>.

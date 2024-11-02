@@ -3,23 +3,14 @@ layout: page
 title: common/yadm (한국어)
 description: "`git`을 사용하여 작동하는 dotfiles 관리 도구."
 content_hash: 3816e583e428f185208a5bbd1e55cdccbafd00a0
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/yadm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/yadm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># yadm
+# yadm
 
 `git`을 사용하여 작동하는 dotfiles 관리 도구.
 `init`, `clone`, `push`, `pull`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.

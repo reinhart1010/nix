@@ -3,23 +3,14 @@ layout: page
 title: common/pueue-completions (한국어)
 description: "Bash, Elvish, Fish, PowerShell, Zsh용 셸 자동 완성 파일 생성."
 content_hash: 694dd6404a2d59a503f341584e58301d1acd5e9a
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/pueue-completions.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pueue-completions.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pueue completions
+# pueue completions
 
 Bash, Elvish, Fish, PowerShell, Zsh용 셸 자동 완성 파일 생성.
 더 많은 정보: <https://github.com/Nukesor/pueue>.

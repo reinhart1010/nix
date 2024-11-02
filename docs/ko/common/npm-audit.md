@@ -3,23 +3,14 @@ layout: page
 title: common/npm-audit (한국어)
 description: "프로젝트 의존성에서 알려진 취약점을 스캔."
 content_hash: 3cd21ea6a854a5ee2dc2ad67f169c38147b3f566
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/npm-audit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/npm-audit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># npm audit
+# npm audit
 
 프로젝트 의존성에서 알려진 취약점을 스캔.
 취약점을 보고하고 해결 방법을 제안.

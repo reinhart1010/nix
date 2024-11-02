@@ -3,7 +3,7 @@ layout: page
 title: common/dotnet-restore (한국어)
 description: ".NET 프로젝트의 의존성과 도구를 복원합니다."
 content_hash: 62ca6294614fab658e0402a7870bcbdf87914b7a
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/dotnet-restore.html
@@ -17,18 +17,9 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet-restore.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dotnet-restore.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dotnet restore
+# dotnet restore
 
 .NET 프로젝트의 의존성과 도구를 복원합니다.
 더 많은 정보: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore>.

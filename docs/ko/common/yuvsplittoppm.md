@@ -3,23 +3,14 @@ layout: page
 title: common/yuvsplittoppm (한국어)
 description: "세 개의 서브샘플링된 Abekas YUV 파일을 하나의 PPM 이미지로 변환."
 content_hash: 82cd21917418f90a747830d85889d3ebf5995583
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/yuvsplittoppm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/yuvsplittoppm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># yuvsplittoppm
+# yuvsplittoppm
 
 세 개의 서브샘플링된 Abekas YUV 파일을 하나의 PPM 이미지로 변환.
 더 많은 정보: <https://netpbm.sourceforge.net/doc/yuvsplittoppm.html>.

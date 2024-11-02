@@ -3,23 +3,14 @@ layout: page
 title: common/nix3-search (한국어)
 description: "Nix 플레이크에서 패키지를 검색."
 content_hash: f36d881ea1d81bde501375bc495ca879cd18a4c5
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/nix3-search.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nix3-search.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nix search
+# nix search
 
 Nix 플레이크에서 패키지를 검색.
 같이 보기: 플레이크에 대한 정보는 `nix3 flake`.

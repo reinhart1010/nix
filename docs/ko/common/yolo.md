@@ -3,23 +3,14 @@ layout: page
 title: common/yolo (한국어)
 description: "YOLO 명령줄 인터페이스는 다양한 작업과 버전에서 모델을 간단하게 학습, 검증 또는 추론할 수 있게 해줍니다."
 content_hash: 534b5bcb567e337fcf198e9d9807037b038d6e30
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/yolo.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/yolo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># yolo
+# yolo
 
 YOLO 명령줄 인터페이스는 다양한 작업과 버전에서 모델을 간단하게 학습, 검증 또는 추론할 수 있게 해줍니다.
 더 많은 정보: <https://docs.ultralytics.com/cli/>.

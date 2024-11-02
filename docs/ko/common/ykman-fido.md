@@ -3,7 +3,7 @@ layout: page
 title: common/ykman-fido (한국어)
 description: "YubiKey FIDO 애플리케이션 관리."
 content_hash: c1356c73645832189336c377af8ccbe1dcb6cd98
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/ykman-fido.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/ykman-fido.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ykman-fido.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ykman fido
+# ykman fido
 
 YubiKey FIDO 애플리케이션 관리.
 더 많은 정보: <https://docs.yubico.com/software/yubikey/tools/ykman/FIDO_Commands.html>.

@@ -3,7 +3,7 @@ layout: page
 title: common/youtube-dl (한국어)
 description: "YouTube 및 다른 웹사이트에서 비디오를 다운로드."
 content_hash: 18b7da87477823dbf2eb6de3750c59c53756f0f0
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: català version
     url: /ca/common/youtube-dl.html
@@ -20,18 +20,9 @@ related_topics:
   - title: polski version
     url: /pl/common/youtube-dl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/youtube-dl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># youtube-dl
+# youtube-dl
 
 YouTube 및 다른 웹사이트에서 비디오를 다운로드.
 같이 보기: `yt-dlp`, `ytfzf`, `you-get`.

@@ -3,23 +3,14 @@ layout: page
 title: common/yadm-transcrypt (한국어)
 description: "`transcrypt`가 설치된 경우, 이 명령을 통해 `transcrypt`에 직접 옵션을 전달할 수 있습니다."
 content_hash: 9c378eb60824a218ccd86630d2a621e76335fe4b
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/yadm-transcrypt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/yadm-transcrypt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># yadm-transcrypt
+# yadm-transcrypt
 
 `transcrypt`가 설치된 경우, 이 명령을 통해 `transcrypt`에 직접 옵션을 전달할 수 있습니다.
 yadm 저장소를 사용하도록 환경이 구성되어 있습니다.

@@ -3,23 +3,14 @@ layout: page
 title: common/tlmgr-backup (한국어)
 description: "TeX Live 패키지의 백업을 관리."
 content_hash: 454d1d381d790cdc71b45c9486c98f7ebf6a4a11
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/tlmgr-backup.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tlmgr-backup.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tlmgr backup
+# tlmgr backup
 
 TeX Live 패키지의 백업을 관리.
 기본 백업 디렉토리는 `backupdir` 옵션에 의해 지정되며, `tlmgr option`으로 확인 가능.

@@ -3,7 +3,7 @@ layout: page
 title: common/sshd (한국어)
 description: "Secure Shell 데몬 - 원격 머신이 현재 머신에 안전하게 로그인할 수 있도록 허용합니다."
 content_hash: 056254fc86d9547ffd7fd825458f188392650b5d
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/sshd.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/sshd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sshd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sshd
+# sshd
 
 Secure Shell 데몬 - 원격 머신이 현재 머신에 안전하게 로그인할 수 있도록 허용합니다.
 원격 머신은 이 머신에서 실행되는 것처럼 명령을 실행할 수 있습니다.

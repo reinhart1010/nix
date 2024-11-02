@@ -3,23 +3,14 @@ layout: page
 title: common/zmv (한국어)
 description: "지정된 확장 글로브 패턴과 일치하는 파일을 이동하거나 이름 변경."
 content_hash: c8004982ad4161a837021c276489b98a0e881f22
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/zmv.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zmv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zmv
+# zmv
 
 지정된 확장 글로브 패턴과 일치하는 파일을 이동하거나 이름 변경.
 같이 보기: `zcp` 및 `zln`.

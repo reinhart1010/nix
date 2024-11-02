@@ -3,7 +3,7 @@ layout: page
 title: common/dotnet-publish (한국어)
 description: ".NET 애플리케이션과 그 의존성을 호스팅 시스템에 배포하기 위해 디렉터리에 게시."
 content_hash: 877cde5ac313bac80aa87f35257b4da0b05ee07e
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/dotnet-publish.html
@@ -17,18 +17,9 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet-publish.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dotnet-publish.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dotnet publish
+# dotnet publish
 
 .NET 애플리케이션과 그 의존성을 호스팅 시스템에 배포하기 위해 디렉터리에 게시.
 더 많은 정보: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish>.

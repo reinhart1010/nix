@@ -3,23 +3,14 @@ layout: page
 title: common/uuencode (한국어)
 description: "바이너리 파일을 ASCII로 인코딩하여 단순 ASCII 인코딩만 지원하는 매체를 통해 전송."
 content_hash: d604ec9b40b497f9a0062b6e334aa99bfcbcbb72
-last_modified_at: 2024-11-01
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/uuencode.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/uuencode.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># uuencode
+# uuencode
 
 바이너리 파일을 ASCII로 인코딩하여 단순 ASCII 인코딩만 지원하는 매체를 통해 전송.
 더 많은 정보: <https://manned.org/uuencode>.
