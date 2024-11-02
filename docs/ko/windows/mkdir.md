@@ -2,8 +2,8 @@
 layout: page
 title: windows/mkdir (한국어)
 description: "이 명령은 디렉터리를 생성합니다."
-content_hash: 18149858ded127e4e2b5ab45168c1a8263abcf78
-last_modified_at: 2023-11-12
+content_hash: 493d3f89129ac1a86496ff02e5c723023629a5a3
+last_modified_at: 2024-11-02
 related_topics:
   - title: বাংলা version
     url: /bn/windows/mkdir.html
@@ -20,8 +20,14 @@ related_topics:
   - title: 日本語 version
     url: /ja/windows/mkdir.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/mkdir.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/mkdir.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/mkdir.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/mkdir.html
@@ -41,12 +47,8 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - 디렉토리 만들기:
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span>
 
-- 부모 디렉토리도 함께 생성하기:
+- 중첩된 디렉토리 트리를 재귀적으로 생성:
 
-`mkdir /p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span>
-
-- 생성된 디렉토리에 대한 출력 숨기기:
-
-`mkdir /q `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/하위_디렉토리</span>
