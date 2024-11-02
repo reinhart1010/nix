@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mkfifo (español)
-description: "Crea FIFOs (llamadas pipes)."
-content_hash: b7f8a00e00004ad939317459c5988d60d972abc8
-last_modified_at: 2024-10-09
+description: "Crea FIFOs (named pipes) (pipes nombrados)."
+content_hash: e9530ab59a3804e4854362530ad63f10d85b0e5d
+last_modified_at: 2024-11-02
 related_topics:
   - title: bosanski version
     url: /bs/common/mkfifo.html
@@ -21,17 +21,21 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># mkfifo
 
-Crea FIFOs (llamadas pipes).
+Crea FIFOs (named pipes) (pipes nombrados).
 Más información: <https://www.gnu.org/software/coreutils/mkfifo>.
 
-- Crea un pipe con nombre en una ruta dada:
+- Crea un pipe nombrado en una ruta específica:
 
-`mkfifo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/pipe</span>
+`mkfifo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/pipe</span>
 
-- Envía datos a través de un pipe con nombre y envía el comando al fondo:
+- Envía datos a través de un pipe nombrado ejecutando el comando en segundo plano:
 
-`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"Hola Mundo"</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/pipe</span>` &`
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"Hola Mundo"</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/pipe</span>` &`
 
-- Recibe datos a través de un pipe con nombre:
+- Recibe datos a través de un pipe nombrado:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/pipe</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/pipe</span>
+
+- Comparte tu sesión de la terminal en tiempo real:
+
+`mkfifo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/pipe</span>`; script -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/pipe</span>

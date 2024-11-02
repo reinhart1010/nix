@@ -2,8 +2,8 @@
 layout: page
 title: common/git-tag (español)
 description: "Crea, muestra, borra o verifica etiquetas."
-content_hash: 2accd625def2d78e19ed9ed2a20141d486d537cc
-last_modified_at: 2024-06-21
+content_hash: 2145dfd0effdd030ddb095023cb1ef50d5e20862
+last_modified_at: 2024-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># git tag
 
 Crea, muestra, borra o verifica etiquetas.
-Una etiqueta es una referencia estática a una confirmación específica.
+Una etiqueta (tag) es una referencia estática a una confirmación (commit).
 Más información: <https://git-scm.com/docs/git-tag>.
 
 - Muestra todas las etiquetas:
@@ -55,12 +55,16 @@ Más información: <https://git-scm.com/docs/git-tag>.
 
 - Elimina la etiqueta con el nombre especificado:
 
-`git tag -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_etiqueta</span>
+`git tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_etiqueta</span>
 
-- Obtén las etiquetas actualizadas de upstreams:
+- Obtén las etiquetas actualizadas del remoto (remote):
 
 `git fetch --tags`
 
-- Muestra todas las etiquetas cuyos ancestros incluyan una confirmación específica:
+- Envía una etiqueta al remoto:
+
+`git push origin tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_etiqueta</span>
+
+- Muestra todas las etiquetas cuyos ancestros incluyen una confirmación específica:
 
 `git tag --contains `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span>

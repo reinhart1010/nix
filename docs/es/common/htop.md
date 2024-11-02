@@ -2,8 +2,8 @@
 layout: page
 title: common/htop (español)
 description: "Muestra información dinámica en tiempo real sobre los procesos ejecutándose. Una versión mejorada de `top`."
-content_hash: 958d19b60e45f9bfd42ba5d9f841673aca8d3c7f
-last_modified_at: 2023-11-12
+content_hash: f41a8f3993de03be7930be499b410c906ac184ba
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -23,6 +23,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/htop.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/htop.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -33,21 +36,33 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Muestra información dinámica en tiempo real sobre los procesos ejecutándose. Una versión mejorada de `top`.
 Más información: <https://htop.dev/>.
 
-- Inicia htop:
+- Inicia `htop`:
 
 `htop`
 
-- Inicia htop mostrando solo procesos pertenecientes a un usuario dado:
+- Inicia `htop` mostrando solo los procesos pertenecientes a un usuario dado:
 
-`htop --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>
+`htop --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>
 
-- Ordena procesos por un específico `elemento_de_ordenamiento` (use `htop --sort help` para opciones disponibles):
+- Muestra procesos jerárquicamente en una vista de árbol para visibilizar las relaciones entre padres e hijos:
 
-`htop --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">elemento_de_ordenamiento</span>
+`htop --tree`
 
-- Muestra comandos interactivos mientras corre htop:
+- Ordena procesos especificando un `criterio_de_ordenamiento` (usa `htop --sort help` para ver las opciones disponibles):
+
+`htop --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">criterio_de_ordenamiento</span>
+
+- Inicia `htop` con una espera dada entre las actualizaciones, en décimas de segundo (es decir, 50 = 5 segundos):
+
+`htop --delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>
+
+- Muestra comandos interactivos mientras se está ejecutando `htop`:
 
 `?`
+
+- Cambia a otro panel:
+
+`tab`
 
 - Muestra la ayuda:
 
