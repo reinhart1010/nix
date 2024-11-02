@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mkdir (español)
-description: "Crea un directorio."
-content_hash: a55b8bbd9737cc1afa52dce10beb7b681908faa9
-last_modified_at: 2024-09-07
+description: "Crea directorios y establece sus permisos."
+content_hash: c8160385c2f7fd950a88b1a73c9fef83c1845799
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -51,13 +51,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># mkdir
 
-Crea un directorio.
+Crea directorios y establece sus permisos.
+Vea también: `rmdir`, `ls`.
 Más información: <https://www.gnu.org/software/coreutils/mkdir>.
 
-- Crea un directorio en el directorio actual o en una ruta dada:
+- Crea los directorios especificados:
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directorio</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio1 ruta/al/directorio2 ...</span>
 
-- Crea directorios recursivamente (útil para crear directorios anidados):
+- Crea directorios recursivamente y sus padres si es necesario:
 
 `mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
+
+- Crea directorios con permisos específicos:
+
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--mode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio1 ruta/al/directorio2 ...</span>

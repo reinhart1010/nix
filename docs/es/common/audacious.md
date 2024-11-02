@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/audacious (español)
-description: "Un reproductor de audio de código abierto."
-content_hash: 3e8da64c324d8127e5668a31bea3499d2a413d74
-last_modified_at: 2024-03-08
+description: "Un reproductor de audio de código abierto. Basado indirectamente en XMMS."
+content_hash: 56f1ee577bb9dace6003d8f8442beec9175a2c84
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/audacious.html
@@ -18,12 +18,17 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># audacious
 
-Un reproductor de audio de código abierto.
+Un reproductor de audio de código abierto. Basado indirectamente en XMMS.
+Vea también: `audtool`, `clementine`, `mpc`, `ncmpcpp`.
 Más información: <https://audacious-media-player.org>.
 
-- Inicia el programa:
+- Inicia la interfaz gráfica:
 
 `audacious`
+
+- Inicia una nueva instancia y reproduce un audio:
+
+`audacious --new-instance `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/audio</span>
 
 - Pone en cola un directorio específico de archivos de audio:
 
@@ -33,7 +38,7 @@ Más información: <https://audacious-media-player.org>.
 
 `audacious --play-pause`
 
-- Avanza o retrocede en la lista de reproducción:
+- Salta hacia delante ([fwd]) o hacia atrás ([rew]) en la lista de reproducción:
 
 `audacious --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fwd|rew</span>
 
@@ -41,10 +46,10 @@ Más información: <https://audacious-media-player.org>.
 
 `audacious --stop`
 
-- Inicia una versión acéfala:
+- Inicia en modo CLI (headless):
 
 `audacious --headless`
 
-- Sale en cuanto se detiene la reproducción o mientras no haya nada que reproducir:
+- Sale en cuanto se detenga la reproducción o no haya nada que reproducir:
 
 `audacious --quit-after-play`

@@ -1,0 +1,52 @@
+---
+layout: page
+title: windows/reg-compare (한국어)
+description: "레지스트리에서 키와 해당 값을 비교."
+content_hash: 284808a2b37dc29b124be6b953589e0a0491c487
+last_modified_at: 2024-11-02
+related_topics:
+  - title: English version
+    url: /en/windows/reg-compare.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/windows/reg-compare.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/reg-compare.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># reg compare
+
+레지스트리에서 키와 해당 값을 비교.
+더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
+
+- 특정 키 아래의 모든 값을 다른 키와 비교:
+
+`reg compare `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름2</span>
+
+- 두 키 아래의 특정 [값]을 비교:
+
+`reg compare `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름2</span>` /v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span>
+
+- 두 키의 모든 [하위 키]와 값을 비교:
+
+`reg compare `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름2</span>` /s`
+
+- 지정된 키 간의 일치하는 [동일] 항목만 출력:
+
+`reg compare `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름2</span>` /os`
+
+- 지정된 키 간의 차이점과 일치하는 항목([모두]) 출력:
+
+`reg compare `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름2</span>` /oa`
+
+- 두 키를 비교하고, [아무것도] 출력하지 않음:
+
+`reg compare `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름2</span>` /on`

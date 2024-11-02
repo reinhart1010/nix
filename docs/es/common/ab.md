@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ab (español)
-description: "Herramienta comparativa del servidor Apache HTTP."
-content_hash: b48562557cc8a6d1e5e93166b33bab62df715d3d
-last_modified_at: 2024-01-01
+description: "Herramienta comparativa (benchmark) del servidor Apache HTTP."
+content_hash: 81074f837f938d824e364c0c1d33ae70bddd5a8e
+last_modified_at: 2024-11-02
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -54,7 +54,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># ab
 
-Herramienta comparativa del servidor Apache HTTP.
+Herramienta comparativa (benchmark) del servidor Apache HTTP.
 Más información: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Ejecuta 100 solicitudes HTTP GET a una URL dada:
@@ -76,3 +76,7 @@ Más información: <https://httpd.apache.org/docs/current/programs/ab.html>.
 - Establece el máximo número de segundos utilizados para la comparación:
 
 `ab -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+
+- Escribe los resultados a un archivo CSV:
+
+`ab -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.csv</span>

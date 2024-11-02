@@ -2,14 +2,20 @@
 layout: page
 title: common/amass-enum (español)
 description: "Busca subdominios de un dominio."
-content_hash: 535622cc1464d52e3ea37a09f939209ce924b979
-last_modified_at: 2024-03-18
+content_hash: 8c9841577d3db356d3ef5a9a684b70690f45dde3
+last_modified_at: 2024-11-02
 related_topics:
   - title: English version
     url: /en/common/amass-enum.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/amass-enum.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/amass-enum.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/amass-enum.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/amass-enum.html
@@ -24,22 +30,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Busca subdominios de un dominio.
 Más información: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand>.
 
-- Búsqueda pasiva de subdominios de un dominio:
+- Encuentra (pasivamente) subdominios de un [d]ominio:
 
-`amass enum -passive -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_dominio</span>
+`amass enum -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_dominio</span>
 
-- Busca subdominios de un dominio y los verifica activamente intentando resolver los subdominios encontrados:
+- Encuentra subdominios de un [d]ominio y los verifica activamente intentando resolver los subdominios encontrados:
 
-`amass enum -active -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_dominio</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,443,8080</span>
+`amass enum -active -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_dominio</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,443,8080</span>
 
-- Hace una búsqueda en su modalidad fuerza bruta de subdominios:
+- Realiza una búsqueda de sub[d]ominios por fuerza bruta:
 
-`amass enum -brute -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_dominio</span>
+`amass enum -brute -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_dominio</span>
 
 - Guarda los resultados en un archivo de texto:
 
-`amass enum -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_salida</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_dominio</span>
+`amass enum -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_de_salida</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_dominio</span>
 
-- Guarda los resultados a una base de datos:
+- Guarda la salida del terminal en un archivo y otros resultados detallados en un directorio:
 
-`amass enum -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_salida</span>` -dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_base_de_datos</span>
+`amass enum -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichero_de_salida</span>` -dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_dominio</span>
+
+- Lista todas las fuentes de datos disponibles:
+
+`amass enum -list`

@@ -2,8 +2,8 @@
 layout: page
 title: common/tar (English)
 description: "Archiving utility."
-content_hash: ca0b49fe0f1882393caf5e30280afeb542f34e45
-last_modified_at: 2024-03-14
+content_hash: 2d046eec920f4881c6c65f79967f9cf3726e3505
+last_modified_at: 2024-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -17,6 +17,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/tar.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/tar.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/tar.html
     icon: bi bi-globe
@@ -25,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/tar.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/tar.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/tar.html
@@ -45,7 +51,7 @@ More information: <https://www.gnu.org/software/tar>.
 
 `tar czf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target.tar.gz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- [c]reate a g[z]ipped archive from a directory using relative paths:
+- [c]reate a g[z]ipped (compressed) archive from a directory using relative paths:
 
 `tar czf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target.tar.gz</span>` --directory=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` .`
 
@@ -57,7 +63,7 @@ More information: <https://www.gnu.org/software/tar>.
 
 `tar xf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.tar[.gz|.bz2|.xz]</span>` --directory=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- [c]reate a compressed archive and write it to a [f]ile, using the file extension to [a]utomatically determine the compression program:
+- [c]reate an archive and write it to a [f]ile, using the file extension to [a]utomatically determine the compression program:
 
 `tar caf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target.tar.xz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
