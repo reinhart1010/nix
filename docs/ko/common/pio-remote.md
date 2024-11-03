@@ -3,7 +3,7 @@ layout: page
 title: common/pio-remote (한국어)
 description: "PlatformIO 원격 개발을 위한 보조 명령어."
 content_hash: 6022b244d4ba764483af1ca600dff2e28d9a7247
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/pio-remote.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/pio-remote.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pio-remote.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pio remote
+# pio remote
 
 PlatformIO 원격 개발을 위한 보조 명령어.
 `pio remote [command]`는 로컬에서 실행되는 `pio [command]`와 동일한 인수를 사용합니다.

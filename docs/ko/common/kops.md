@@ -3,23 +3,14 @@ layout: page
 title: common/kops (한국어)
 description: "Kubernetes 클러스터를 생성, 삭제, 업그레이드 및 유지 관리."
 content_hash: b90bc8de7f61722bb9d24b63451ba77eff5cdc13
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/kops.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kops.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kops
+# kops
 
 Kubernetes 클러스터를 생성, 삭제, 업그레이드 및 유지 관리.
 더 많은 정보: <https://github.com/kubernetes/kops/>.

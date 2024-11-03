@@ -3,23 +3,14 @@ layout: page
 title: common/waifu2x-ncnn-vulkan (한국어)
 description: "NCNN 신경망 프레임워크를 사용하여 만화/애니메이션 스타일 이미지의 해상도를 높이는 도구."
 content_hash: 8eaf1905d5f58769a19aaa14341fd371f24bece3
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/waifu2x-ncnn-vulkan.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/waifu2x-ncnn-vulkan.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># waifu2x-ncnn-vulkan
+# waifu2x-ncnn-vulkan
 
 NCNN 신경망 프레임워크를 사용하여 만화/애니메이션 스타일 이미지의 해상도를 높이는 도구.
 더 많은 정보: <https://github.com/nihui/waifu2x-ncnn-vulkan>.

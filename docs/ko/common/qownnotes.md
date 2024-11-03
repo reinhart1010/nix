@@ -3,7 +3,7 @@ layout: page
 title: common/qownnotes (한국어)
 description: "Markdown 노트 작성 애플리케이션."
 content_hash: 971ecb2a73c235deb02ec43ee4512a26842b00c4
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/qownnotes.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/qownnotes.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/qownnotes.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qownnotes
+# qownnotes
 
 Markdown 노트 작성 애플리케이션.
 선택적으로 Nextcloud 및 ownCloud의 노트 작성 애플리케이션과 통합됩니다.

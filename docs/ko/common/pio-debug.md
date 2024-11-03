@@ -3,7 +3,7 @@ layout: page
 title: common/pio-debug (한국어)
 description: "PlatformIO 프로젝트 디버그."
 content_hash: 8aa9aec9de2f3973326b9afdb719cb53c17d026e
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/pio-debug.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/pio-debug.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pio-debug.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pio debug
+# pio debug
 
 PlatformIO 프로젝트 디버그.
 더 많은 정보: <https://docs.platformio.org/en/latest/core/userguide/cmd_debug.html>.

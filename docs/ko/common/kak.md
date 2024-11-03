@@ -3,23 +3,14 @@ layout: page
 title: common/kak (한국어)
 description: "Kakoune는 \"다중 선택\" 패러다임을 구현한 모드 기반 코드 편집기입니다."
 content_hash: 6bb0a8fbc84e07464f9e06aa7198c71ab715b9ec
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/kak.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kak.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kak
+# kak
 
 Kakoune는 "다중 선택" 패러다임을 구현한 모드 기반 코드 편집기입니다.
 데이터를 여러 위치에서 동시에 선택 및 편집할 수 있으며, 사용자는 동일한 세션에 연결하여 공동 편집을 할 수 있습니다.

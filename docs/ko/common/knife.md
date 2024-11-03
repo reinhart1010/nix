@@ -3,23 +3,14 @@ layout: page
 title: common/knife (한국어)
 description: "로컬 Chef 저장소에서 Chef 서버와 상호 작용."
 content_hash: 6a8c3596c0e571a9aee8efaafc87c5a474f05f29
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/knife.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/knife.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># knife
+# knife
 
 로컬 Chef 저장소에서 Chef 서버와 상호 작용.
 더 많은 정보: <https://docs.chef.io/knife.html>.

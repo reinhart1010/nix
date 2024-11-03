@@ -3,7 +3,7 @@ layout: page
 title: windows/chromium (Nederlands)
 description: "Open-source webbrowser die voornamelijk ontwikkeld en onderhouden wordt door Google."
 content_hash: b4956e8ef921649dcd02e9211230c146c4299908
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/windows/chromium.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/windows/chromium.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/chromium.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chromium
+# chromium
 
 Open-source webbrowser die voornamelijk ontwikkeld en onderhouden wordt door Google.
 Let op: mogelijk moet je het `chromium` commando vervangen met jouw gewenste webbrowser, zoals `brave`, `google-chrome`, `microsoft-edge`/`msedge`, `opera` of `vivaldi`.

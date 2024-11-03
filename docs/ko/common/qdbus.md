@@ -3,23 +3,14 @@ layout: page
 title: common/qdbus (한국어)
 description: "Inter-Process Communication (IPC) 및 Remote Procedure Calling (RPC) 메커니즘으로, 원래 Linux를 위해 개발되었습니다."
 content_hash: dc500068cdc91e24e640c3a214d92df2ab070844
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/qdbus.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/qdbus.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qdbus
+# qdbus
 
 Inter-Process Communication (IPC) 및 Remote Procedure Calling (RPC) 메커니즘으로, 원래 Linux를 위해 개발되었습니다.
 더 많은 정보: <https://doc.qt.io/qt-5/qtdbus-index.html>.

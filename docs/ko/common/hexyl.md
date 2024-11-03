@@ -3,7 +3,7 @@ layout: page
 title: common/hexyl (한국어)
 description: "터미널용 간단한 16진수 뷰어. 다양한 카테고리의 바이트를 구별하기 위해 컬러 출력을 사용."
 content_hash: af378c8f41b57fc42a450b976679b0497494a6ac
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/hexyl.html
@@ -14,18 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/hexyl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hexyl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hexyl
+# hexyl
 
 터미널용 간단한 16진수 뷰어. 다양한 카테고리의 바이트를 구별하기 위해 컬러 출력을 사용.
 더 많은 정보: <https://github.com/sharkdp/hexyl>.

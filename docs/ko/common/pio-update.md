@@ -3,7 +3,7 @@ layout: page
 title: common/pio-update (한국어)
 description: "설치된 PlatformIO Core 패키지, 개발 플랫폼 및 전역 라이브러리를 업데이트."
 content_hash: 121b83bc06ef24ad4a212dc148a020eac759bdad
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/pio-update.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/pio-update.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pio-update.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pio update
+# pio update
 
 설치된 PlatformIO Core 패키지, 개발 플랫폼 및 전역 라이브러리를 업데이트.
 같이 보기: `pio platform update`, `pio lib update`.

@@ -3,7 +3,7 @@ layout: page
 title: common/atom (हिन्दी)
 description: "एक क्रॉस-प्लेटफ़ॉर्म प्लग करने योग्य टेक्स्ट संपादक।"
 content_hash: 1aa3bccd0e89261f2bc8ba4e5b84718af501aa23
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -32,18 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/atom.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/atom.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># atom
+# atom
 
 एक क्रॉस-प्लेटफ़ॉर्म प्लग करने योग्य टेक्स्ट संपादक।
 प्लगइन्स को `apm` द्वारा प्रबंधित किया जाता है।

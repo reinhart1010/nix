@@ -3,23 +3,14 @@ layout: page
 title: common/watchexec (한국어)
 description: "파일이 변경될 때 임의의 명령을 실행."
 content_hash: 114b5e0412856ac5147ffd91e9c9644e653bd10b
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/watchexec.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/watchexec.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># watchexec
+# watchexec
 
 파일이 변경될 때 임의의 명령을 실행.
 더 많은 정보: <https://github.com/watchexec/watchexec>.

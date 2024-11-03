@@ -3,7 +3,7 @@ layout: page
 title: common/history (한국어)
 description: "커멘드 라인 히스토리."
 content_hash: 18aa5186747c4f728670d6478a2eee7a62123c59
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -26,18 +26,9 @@ related_topics:
   - title: русский version
     url: /ru/common/history.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/history.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># history
+# history
 
 커멘드 라인 히스토리.
 더 많은 정보: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.

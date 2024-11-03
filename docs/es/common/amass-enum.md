@@ -3,7 +3,7 @@ layout: page
 title: common/amass-enum (español)
 description: "Busca subdominios de un dominio."
 content_hash: 8c9841577d3db356d3ef5a9a684b70690f45dde3
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/amass-enum.html
@@ -20,12 +20,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/amass-enum.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># amass enum
+# amass enum
 
 Busca subdominios de un dominio.
 Más información: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand>.

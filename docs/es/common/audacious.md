@@ -3,7 +3,7 @@ layout: page
 title: common/audacious (español)
 description: "Un reproductor de audio de código abierto. Basado indirectamente en XMMS."
 content_hash: 56f1ee577bb9dace6003d8f8442beec9175a2c84
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/audacious.html
@@ -11,12 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/audacious.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># audacious
+# audacious
 
 Un reproductor de audio de código abierto. Basado indirectamente en XMMS.
 Vea también: `audtool`, `clementine`, `mpc`, `ncmpcpp`.

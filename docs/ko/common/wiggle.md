@@ -3,23 +3,14 @@ layout: page
 title: common/wiggle (한국어)
 description: "`patch`가 처리할 수 없는 패치의 충돌을 해결하는 패치 적용 도구."
 content_hash: 4c1e7ca53d1b8cc52e4110ead6c8bd4fa176de7b
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/wiggle.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/wiggle.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wiggle
+# wiggle
 
 `patch`가 처리할 수 없는 패치의 충돌을 해결하는 패치 적용 도구.
 참고: Wiggle은 모든 변경 사항을 강제로 적용하고, 충돌이 발생하면 병합하며, 해결할 수 없는 문제를 보고합니다.

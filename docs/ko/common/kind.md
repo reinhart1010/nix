@@ -3,23 +3,14 @@ layout: page
 title: common/kind (한국어)
 description: "Docker 컨테이너 \"노드\"를 사용하여 로컬 Kubernetes 클러스터를 실행."
 content_hash: 8f6ea04fba92c9f698eea826b19fc3d3968c70f1
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/kind.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kind.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kind
+# kind
 
 Docker 컨테이너 "노드"를 사용하여 로컬 Kubernetes 클러스터를 실행.
 Kubernetes 자체 테스트를 위해 설계되었으나, 로컬 개발이나 지속적 통합에도 사용 가능.

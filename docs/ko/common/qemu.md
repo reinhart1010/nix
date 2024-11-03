@@ -3,23 +3,14 @@ layout: page
 title: common/qemu (한국어)
 description: "범용 머신 에뮬레이터 및 가상화 도구."
 content_hash: 2a73f96cab0fa51d924f07e9910942f8cdb8b8b9
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/qemu.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/qemu.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qemu
+# qemu
 
 범용 머신 에뮬레이터 및 가상화 도구.
 다양한 CPU 아키텍처를 지원.

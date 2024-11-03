@@ -3,23 +3,14 @@ layout: page
 title: common/kismet (한국어)
 description: "무선 네트워크 및 장치 감지기, 스니퍼, 워드라이빙 도구, WIDS(무선 침입 탐지) 프레임워크."
 content_hash: ee537cbe6f3729786e49e3d620e8630ba3bf68c0
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/kismet.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kismet.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kismet
+# kismet
 
 무선 네트워크 및 장치 감지기, 스니퍼, 워드라이빙 도구, WIDS(무선 침입 탐지) 프레임워크.
 더 많은 정보: <https://www.kismetwireless.net/>.

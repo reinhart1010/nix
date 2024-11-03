@@ -3,7 +3,7 @@ layout: page
 title: common/pio-package (한국어)
 description: "레지스트리에서 패키지를 관리."
 content_hash: 9c103f500a26b05110f9d54127bee553a3f10497
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/pio-package.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/pio-package.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pio-package.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pio package
+# pio package
 
 레지스트리에서 패키지를 관리.
 패키지는 게시된 날짜로부터 72시간(3일) 이내에만 제거할 수 있습니다.

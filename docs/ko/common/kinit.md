@@ -3,23 +3,14 @@ layout: page
 title: common/kinit (한국어)
 description: "Kerberos 서버와 주체를 인증하여 티켓을 얻고 캐시."
 content_hash: 342ea1e6b1e047aee05dbe9640bccb330757cda5
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/kinit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kinit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kinit
+# kinit
 
 Kerberos 서버와 주체를 인증하여 티켓을 얻고 캐시.
 참고: Kerberos 주체는 사용자, 서비스 또는 애플리케이션일 수 있습니다.

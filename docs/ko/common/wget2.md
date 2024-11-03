@@ -3,23 +3,14 @@ layout: page
 title: common/wget2 (한국어)
 description: "웹에서 파일을 다운로드하기 위한 개선된 `wget` 버전."
 content_hash: bff018d554ec5d740722905b689ef4cf79bc7644
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/wget2.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/wget2.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wget2
+# wget2
 
 웹에서 파일을 다운로드하기 위한 개선된 `wget` 버전.
 HTTP, HTTPS 및 HTTP/2 프로토콜을 지원하며 성능이 향상되었습니다.

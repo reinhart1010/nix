@@ -3,7 +3,7 @@ layout: page
 title: common/ab (español)
 description: "Herramienta comparativa (benchmark) del servidor Apache HTTP."
 content_hash: 81074f837f938d824e364c0c1d33ae70bddd5a8e
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -47,12 +47,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ab.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ab
+# ab
 
 Herramienta comparativa (benchmark) del servidor Apache HTTP.
 Más información: <https://httpd.apache.org/docs/current/programs/ab.html>.

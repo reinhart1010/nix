@@ -3,7 +3,7 @@ layout: page
 title: common/wakeonlan (한국어)
 description: "Wake-on-LAN(WOL) 기능이 활성화된 PC에 패킷 전송."
 content_hash: 3375af3c5f2bd9a03ca485107d0c71438363845c
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/wakeonlan.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/wakeonlan.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/wakeonlan.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wakeonlan
+# wakeonlan
 
 Wake-on-LAN(WOL) 기능이 활성화된 PC에 패킷 전송.
 더 많은 정보: <https://github.com/jpoliv/wakeonlan>.

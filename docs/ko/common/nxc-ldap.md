@@ -3,23 +3,14 @@ layout: page
 title: common/nxc-ldap (한국어)
 description: "LDAP를 통해 Windows Active Directory 도메인을 침투 테스트하고 익스플로잇."
 content_hash: ac2daa21bc17bc7425e0af01fce7dfaa6cb9bac9
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/nxc-ldap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nxc-ldap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nxc ldap
+# nxc ldap
 
 LDAP를 통해 Windows Active Directory 도메인을 침투 테스트하고 익스플로잇.
 더 많은 정보: <https://www.netexec.wiki/ldap-protocol>.

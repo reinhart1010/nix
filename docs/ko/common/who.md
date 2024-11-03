@@ -3,7 +3,7 @@ layout: page
 title: common/who (한국어)
 description: "현재 로그인된 사용자와 관련 데이터를 표시 (프로세스, 부팅 시간)."
 content_hash: c6c0887db8e0e0e61719dfed97bc39b97ede9b91
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/who.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/who.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/who.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># who
+# who
 
 현재 로그인된 사용자와 관련 데이터를 표시 (프로세스, 부팅 시간).
 같이 보기: `whoami`.

@@ -3,7 +3,7 @@ layout: page
 title: windows/ospp.vbs (한국어)
 description: "Microsoft Office 제품의 볼륨 라이선스 버전을 설치, 활성화 및 관리합니다."
 content_hash: 6c99d55d2b396e64d2dba1c4f23bf74ceddaf41a
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/windows/ospp.vbs.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/windows/ospp.vbs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/ospp.vbs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ospp.vbs
+# ospp.vbs
 
 Microsoft Office 제품의 볼륨 라이선스 버전을 설치, 활성화 및 관리합니다.
 참고: 이 명령어는 현재 볼륨 라이선스가 있는 Office 제품 버전을 덮어쓰거나 비활성화하거나 제거할 수 있으므로 주의하여 진행하세요.

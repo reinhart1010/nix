@@ -3,23 +3,14 @@ layout: page
 title: common/pbmtextps (한국어)
 description: "텍스트를 PostScript를 사용하여 PBM 이미지로 렌더링."
 content_hash: 0630b2995987ac4b0d292898626d220945eb71ad
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/pbmtextps.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pbmtextps.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pbmtextps
+# pbmtextps
 
 텍스트를 PostScript를 사용하여 PBM 이미지로 렌더링.
 같이 보기: `pbmtext`.

@@ -3,7 +3,7 @@ layout: page
 title: windows/move-item (한국어)
 description: "파일, 디렉토리, 레지스트리 키 및 기타 PowerShell 데이터 항목을 이동 또는 이름을 변경합니다."
 content_hash: 4c5304ea5c941c6e470bd0e1f4a1fc58b49b05fd
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/windows/move-item.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/windows/move-item.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/move-item.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Move-Item
+# Move-Item
 
 파일, 디렉토리, 레지스트리 키 및 기타 PowerShell 데이터 항목을 이동 또는 이름을 변경합니다.
 이 명령어는 PowerShell을 통해서만 실행할 수 있습니다.

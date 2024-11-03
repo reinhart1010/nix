@@ -3,23 +3,14 @@ layout: page
 title: common/hipstopgm (한국어)
 description: "HIPS 파일을 입력으로 읽고 PGM 이미지를 출력으로 반환."
 content_hash: 0cc4d51e0a867f0eb45eb2724b533e0d362a862a
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/hipstopgm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hipstopgm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hipstopgm
+# hipstopgm
 
 HIPS 파일을 입력으로 읽고 PGM 이미지를 출력으로 반환.
 HIPS 파일에 2개 이상의 프레임이 연속적으로 포함되어 있는 경우, `hipstopgm`은 모든 프레임을 수직으로 연결함.

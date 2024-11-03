@@ -3,23 +3,14 @@ layout: page
 title: common/kdeconnect-cli (한국어)
 description: "파일이나 텍스트를 장치에 공유하거나, 벨소리를 울리거나, 잠금을 해제하는 등 여러 작업을 수행하기 위해 KDE Connect를 사용하세요."
 content_hash: e4f920fd43c1f57c3b3b64c57dadff4ff26e0d78
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/kdeconnect-cli.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kdeconnect-cli.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kdeconnect-cli
+# kdeconnect-cli
 
 파일이나 텍스트를 장치에 공유하거나, 벨소리를 울리거나, 잠금을 해제하는 등 여러 작업을 수행하기 위해 KDE Connect를 사용하세요.
 더 많은 정보: <https://kdeconnect.kde.org>.

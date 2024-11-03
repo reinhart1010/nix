@@ -3,7 +3,7 @@ layout: page
 title: common/mkdir (español)
 description: "Crea directorios y establece sus permisos."
 content_hash: c8160385c2f7fd950a88b1a73c9fef83c1845799
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -44,12 +44,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkdir
+# mkdir
 
 Crea directorios y establece sus permisos.
 Vea también: `rmdir`, `ls`.

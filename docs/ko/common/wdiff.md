@@ -3,7 +3,7 @@ layout: page
 title: common/wdiff (한국어)
 description: "텍스트 파일 간의 단어 차이를 표시."
 content_hash: db6712d64e5bb9d12a778bdb213a14679f93512e
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/wdiff.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/wdiff.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/wdiff.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wdiff
+# wdiff
 
 텍스트 파일 간의 단어 차이를 표시.
 더 많은 정보: <https://www.gnu.org/software/wdiff/>.

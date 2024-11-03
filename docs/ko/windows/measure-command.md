@@ -3,23 +3,14 @@ layout: page
 title: windows/measure-command (한국어)
 description: "스크립트 블록 및 cmdlet을 실행하는 데 걸리는 시간을 측정합니다."
 content_hash: 05b622361fa2a7a9c9245a953347013184226172
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/windows/measure-command.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/measure-command.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Measure-Command
+# Measure-Command
 
 스크립트 블록 및 cmdlet을 실행하는 데 걸리는 시간을 측정합니다.
 참고: 이 명령어는 PowerShell을 통해서만 사용할 수 있습니다.

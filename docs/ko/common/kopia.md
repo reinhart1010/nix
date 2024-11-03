@@ -3,7 +3,7 @@ layout: page
 title: common/kopia (한국어)
 description: "빠르고 안전한 오픈 소스 백업 도구."
 content_hash: 1e0b0404bade20e30691968ca543ef84a1e91e2f
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/kopia.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/kopia.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kopia.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kopia
+# kopia
 
 빠르고 안전한 오픈 소스 백업 도구.
 암호화, 압축, 중복 제거 및 증분 스냅샷을 지원합니다.

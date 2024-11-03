@@ -3,23 +3,14 @@ layout: page
 title: windows/measure-object (한국어)
 description: "객체의 숫자 속성과 문자열 객체(예: 텍스트 파일)의 문자, 단어 및 줄을 계산합니다."
 content_hash: c3db086082accaa52a812f44a89109a925e4ccd8
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/windows/measure-object.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/measure-object.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Measure-Object
+# Measure-Object
 
 객체의 숫자 속성과 문자열 객체(예: 텍스트 파일)의 문자, 단어 및 줄을 계산합니다.
 참고: 이 명령어는 PowerShell을 통해서만 사용할 수 있습니다.

@@ -3,7 +3,7 @@ layout: page
 title: common/warp-cli (한국어)
 description: "Cloudflare의 WARP 서비스에 대한 연결을 연결, 연결 해제하고 모드를 전환."
 content_hash: 843d96d5f6405f60316d66c89bc9c6b3c48d7353
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/warp-cli.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/warp-cli.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/warp-cli.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># warp-cli
+# warp-cli
 
 Cloudflare의 WARP 서비스에 대한 연결을 연결, 연결 해제하고 모드를 전환.
 WARP는 개인정보 보호, 보안, 속도를 위해 트래픽을 암호화하는 VPN입니다.

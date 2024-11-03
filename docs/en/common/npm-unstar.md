@@ -3,19 +3,10 @@ layout: page
 title: common/npm-unstar (English)
 description: "Remove the favorite/star mark from a package."
 content_hash: 33372c9893f8d3f2663ac93ea4c81abe943d2bd0
-last_modified_at: 2024-11-02
-tldri18n_status: 0
+last_modified_at: 2024-11-03
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/npm-unstar.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># npm unstar
+# npm unstar
 
 Remove the favorite/star mark from a package.
 More information: <https://docs.npmjs.com/cli/commands/npm-unstar>.

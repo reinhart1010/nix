@@ -3,23 +3,14 @@ layout: page
 title: common/q (한국어)
 description: "CSV 및 TSV 파일에서 SQL 유사 쿼리 실행."
 content_hash: 42312860f0e73b44496c4c5f762afaf3fb59e3b5
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/q.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/q.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># q
+# q
 
 CSV 및 TSV 파일에서 SQL 유사 쿼리 실행.
 더 많은 정보: <https://harelba.github.io/q>.

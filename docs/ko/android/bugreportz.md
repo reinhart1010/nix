@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (한국어)
 description: "압축된 Android 버그 리포트 생성."
 content_hash: b52cca555a8c6e17ae5ef1b5b89c9eab3f3e60db
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -65,12 +65,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreportz
+# bugreportz
 
 압축된 Android 버그 리포트 생성.
 이 명령은 `adb shell`를 통해서만 사용할 수 있습니다.

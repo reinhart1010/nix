@@ -3,23 +3,14 @@ layout: page
 title: common/pbmmask (한국어)
 description: "일반 비트맵에서 마스크 비트맵 생성."
 content_hash: 7fc0ec3e178ba6282574d636c16a1301666c10ae
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/pbmmask.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pbmmask.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pbmmask
+# pbmmask
 
 일반 비트맵에서 마스크 비트맵 생성.
 같이 보기: `pambackground`.

@@ -3,23 +3,14 @@ layout: page
 title: common/katana (한국어)
 description: "자동화 파이프라인에서의 실행에 중점을 둔 빠른 크롤러로, 헤드리스 및 비헤드리스 크롤링을 모두 제공합니다."
 content_hash: a41f7ad60e0f1b3a7bb5b02702afb19799ac8e12
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/katana.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/katana.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># katana
+# katana
 
 자동화 파이프라인에서의 실행에 중점을 둔 빠른 크롤러로, 헤드리스 및 비헤드리스 크롤링을 모두 제공합니다.
 같이 보기: `gau`, `scrapy`, `waymore`.

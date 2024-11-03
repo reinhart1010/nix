@@ -3,7 +3,7 @@ layout: page
 title: freebsd/look (हिन्दी)
 description: "एक सॉर्ट की गई फ़ाइल में एक उपसर्ग से शुरू होने वाली पंक्तियों को प्रदर्शित करें।"
 content_hash: ad08d8c70e91a0bac35b14d6bdf7cd9041940e30
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/freebsd/look.html
@@ -20,18 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/freebsd/look.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/look.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># look
+# look
 
 एक सॉर्ट की गई फ़ाइल में एक उपसर्ग से शुरू होने वाली पंक्तियों को प्रदर्शित करें।
 देखें: `grep`, `sort`।

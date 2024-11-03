@@ -3,7 +3,7 @@ layout: page
 title: common/git-tag (español)
 description: "Crea, muestra, borra o verifica etiquetas."
 content_hash: 2145dfd0effdd030ddb095023cb1ef50d5e20862
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -26,12 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-tag.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git tag
+# git tag
 
 Crea, muestra, borra o verifica etiquetas.
 Una etiqueta (tag) es una referencia estática a una confirmación (commit).

@@ -3,23 +3,14 @@ layout: page
 title: common/holehe (한국어)
 description: "Twitter, Instagram, Imgur 등 120개 이상의 사이트에서 이메일이 계정에 첨부되어 있는지 확인."
 content_hash: 3718217942060dc97288f168f8af3c267bc76b19
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/holehe.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/holehe.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># holehe
+# holehe
 
 Twitter, Instagram, Imgur 등 120개 이상의 사이트에서 이메일이 계정에 첨부되어 있는지 확인.
 더 많은 정보: <https://github.com/megadose/holehe#-cli-example>.

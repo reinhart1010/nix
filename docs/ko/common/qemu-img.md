@@ -3,23 +3,14 @@ layout: page
 title: common/qemu-img (한국어)
 description: "Quick Emulator 가상 HDD 이미지를 생성 및 조작."
 content_hash: 2c2722ab67a63b4c7222f1a9a3adf233c1ae6cf6
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/qemu-img.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/qemu-img.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qemu-img
+# qemu-img
 
 Quick Emulator 가상 HDD 이미지를 생성 및 조작.
 더 많은 정보: <https://qemu.readthedocs.io/en/master/tools/qemu-img.html>.

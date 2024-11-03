@@ -3,23 +3,14 @@ layout: page
 title: common/qtcreator (한국어)
 description: "Qt 애플리케이션을 위한 크로스 플랫폼 IDE."
 content_hash: 71ba3082bf035283a8553b470dd3973f6eac9beb
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/qtcreator.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/qtcreator.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qtcreator
+# qtcreator
 
 Qt 애플리케이션을 위한 크로스 플랫폼 IDE.
 더 많은 정보: <https://doc.qt.io/qtcreator/creator-cli.html>.

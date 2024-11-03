@@ -3,7 +3,7 @@ layout: page
 title: common/kitex (한국어)
 description: "Go RPC 프레임워크 Kitex에서 제공하는 코드 생성 도구."
 content_hash: 215eb8dfeef3028041e0e8b2329feb0fa74568f4
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/kitex.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/kitex.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kitex.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kitex
+# kitex
 
 Go RPC 프레임워크 Kitex에서 제공하는 코드 생성 도구.
 Kitex는 thrift와 protobuf IDL을 모두 수용하며, 서버 측 프로젝트의 스켈레톤을 생성하는 것을 지원합니다.

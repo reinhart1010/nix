@@ -3,23 +3,14 @@ layout: page
 title: common/quarto (한국어)
 description: "Pandoc 기반의 오픈 소스 과학 및 기술 출판 시스템."
 content_hash: f56543081472a5a3268abeb522b85d25b507d6c4
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/quarto.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/quarto.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># quarto
+# quarto
 
 Pandoc 기반의 오픈 소스 과학 및 기술 출판 시스템.
 더 많은 정보: <https://quarto.org/>.

@@ -3,23 +3,14 @@ layout: page
 title: common/pylint (한국어)
 description: "Python 코드 린터."
 content_hash: 33f6973d264d3348ef3affa08491fe9557948b6b
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/pylint.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pylint.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pylint
+# pylint
 
 Python 코드 린터.
 더 많은 정보: <https://pylint.pycqa.org/en/latest/>.

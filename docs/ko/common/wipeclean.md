@@ -3,23 +3,14 @@ layout: page
 title: common/wipeclean (한국어)
 description: "애니메이션 와이퍼를 사용하여 터미널 화면을 지우기."
 content_hash: 2f4c85ac647e21f2215b665a606b5180aed3a3aa
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/wipeclean.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/wipeclean.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wipeclean
+# wipeclean
 
 애니메이션 와이퍼를 사용하여 터미널 화면을 지우기.
 더 많은 정보: <https://github.com/JeanJouliaCode/wipeClean>.

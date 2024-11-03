@@ -3,23 +3,14 @@ layout: page
 title: common/help2man (한국어)
 description: "실행 파일의 `--help` 및 `--version` 출력에서 간단한 매뉴얼 페이지 생성."
 content_hash: c500e07041918e5bb53db760b84d48c5fe355aea
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/help2man.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/help2man.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># help2man
+# help2man
 
 실행 파일의 `--help` 및 `--version` 출력에서 간단한 매뉴얼 페이지 생성.
 더 많은 정보: <https://www.gnu.org/software/help2man>.

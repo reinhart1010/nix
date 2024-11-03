@@ -3,7 +3,7 @@ layout: page
 title: common/warp-diag (한국어)
 description: "Cloudflare의 WARP 서비스 진단 및 피드백 도구."
 content_hash: 4f532fcd478c7cf606f8a5372a6b8b8fed055e9b
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/warp-diag.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/warp-diag.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/warp-diag.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># warp-diag
+# warp-diag
 
 Cloudflare의 WARP 서비스 진단 및 피드백 도구.
 같이 보기: `warp-cli`.

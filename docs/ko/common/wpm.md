@@ -3,23 +3,14 @@ layout: page
 title: common/wpm (한국어)
 description: "타이프레이서와 유사한 콘솔 앱으로, 분당 타자 수(WPM)를 측정합니다."
 content_hash: 8c76b3c55df9a4a71100f9d680dd7d886786fe3b
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/wpm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/wpm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wpm
+# wpm
 
 타이프레이서와 유사한 콘솔 앱으로, 분당 타자 수(WPM)를 측정합니다.
 더 많은 정보: <https://github.com/cslarsen/wpm>.

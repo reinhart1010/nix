@@ -3,7 +3,7 @@ layout: page
 title: common/whereis (한국어)
 description: "명령의 바이너리, 소스 및 매뉴얼 페이지 파일을 찾습니다."
 content_hash: 6b0a12f8ef676c63f17c35a9444f8060ae312d28
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/whereis.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/whereis.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/whereis.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># whereis
+# whereis
 
 명령의 바이너리, 소스 및 매뉴얼 페이지 파일을 찾습니다.
 더 많은 정보: <https://manned.org/whereis>.

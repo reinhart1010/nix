@@ -3,7 +3,7 @@ layout: page
 title: common/nxc-smb (한국어)
 description: "SMB 서버를 침투 테스트하고 익스플로잇."
 content_hash: 3a6a145b8661705e6e070c75ce7e40c1f53ba328
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/nxc-smb.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/nxc-smb.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nxc-smb.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nxc smb
+# nxc smb
 
 SMB 서버를 침투 테스트하고 익스플로잇.
 더 많은 정보: <https://www.netexec.wiki/smb-protocol>.

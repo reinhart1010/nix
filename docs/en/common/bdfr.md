@@ -3,19 +3,10 @@ layout: page
 title: common/bdfr (English)
 description: "Bulk downloader for Reddit."
 content_hash: f71f85ed729273c2bf6ccdd0e73b777882ad2b86
-last_modified_at: 2024-11-02
-tldri18n_status: 0
+last_modified_at: 2024-11-03
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bdfr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bdfr
+# bdfr
 
 Bulk downloader for Reddit.
 More information: <https://github.com/Serene-Arc/bulk-downloader-for-reddit>.

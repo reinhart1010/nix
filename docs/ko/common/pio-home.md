@@ -3,7 +3,7 @@ layout: page
 title: common/pio-home (한국어)
 description: "PlatformIO Home 웹 서버 시작."
 content_hash: 455ef2b092f46468343e0d7a1d7b18e09ef1db21
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/pio-home.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/pio-home.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pio-home.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pio home
+# pio home
 
 PlatformIO Home 웹 서버 시작.
 더 많은 정보: <https://docs.platformio.org/en/latest/core/userguide/cmd_home.html>.

@@ -3,7 +3,7 @@ layout: page
 title: common/kosmorro (한국어)
 description: "특정 날짜 및 지구상의 위치에 대한 천체력 및 이벤트를 계산."
 content_hash: e36630e491b7bd41a588f9ed271d4fc9950c94bf
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/kosmorro.html
@@ -11,18 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/kosmorro.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kosmorro.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kosmorro
+# kosmorro
 
 특정 날짜 및 지구상의 위치에 대한 천체력 및 이벤트를 계산.
 더 많은 정보: <https://kosmorro.space>.

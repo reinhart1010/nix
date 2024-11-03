@@ -3,7 +3,7 @@ layout: page
 title: windows/findstr (हिन्दी)
 description: "एक या एक से अधिक फाइलों में निर्दिष्ट टेक्स्ट खोजें।"
 content_hash: f1804cfcffb655547514fd47bd65d84049614f7a
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/windows/findstr.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/findstr.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/findstr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># findstr
+# findstr
 
 एक या एक से अधिक फाइलों में निर्दिष्ट टेक्स्ट खोजें।
 अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>।

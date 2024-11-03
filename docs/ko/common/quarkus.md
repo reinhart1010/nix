@@ -3,7 +3,7 @@ layout: page
 title: common/quarkus (한국어)
 description: "Quarkus 프로젝트 생성, 확장 관리 및 기본 빌드 및 개발 작업 수행."
 content_hash: a5b21101dd2eea3cc1787edb4242a08a493cad9a
-last_modified_at: 2024-11-02
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/quarkus.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/quarkus.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/quarkus.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># quarkus
+# quarkus
 
 Quarkus 프로젝트 생성, 확장 관리 및 기본 빌드 및 개발 작업 수행.
 더 많은 정보: <https://quarkus.io/guides/cli-tooling>.
