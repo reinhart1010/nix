@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/naabu (español)
-description: "Un rápido escáner de puertos escrito en Go con un enfoque en la fiabilidad y la simplicidad."
-content_hash: ac4174cd841f53fdc05c6e92b292c4469b4b75e7
-last_modified_at: 2024-02-13
+description: "Un escáner de puertos rápido, escrito en Go, enfocado en fiabilidad y simplicidad."
+content_hash: 30ac79afdfb6afa5207ab58b492292bf69351a9e
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/naabu.html
@@ -15,8 +15,9 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># naabu
 
-Un rápido escáner de puertos escrito en Go con un enfoque en la fiabilidad y la simplicidad.
-Nota: Algunas características solo se activan cuando `naabu` se ejecuta con privilegios del superusuario, como el escaneo SYN.
+Un escáner de puertos rápido, escrito en Go, enfocado en fiabilidad y simplicidad.
+Vea también: `nmap`.
+Nota: Algunas características sólo se activan cuando `naabu` se ejecuta con privilegios de superusuario, como el escaneo SYN.
 Más información: <https://github.com/projectdiscovery/naabu>.
 
 - Ejecuta un escaneo SYN contra los puertos predeterminados (top 100) del host remoto:
@@ -42,3 +43,7 @@ Más información: <https://github.com/projectdiscovery/naabu>.
 - Muestra el tipo de CDN que utiliza el host remoto, si existe:
 
 `naabu -p 80,443 -cdn -host `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
+
+- Ejecuta `nmap` desde `naabu` para contar con funcionalidades adicionales (`nmap` debe estar instalado):
+
+`sudo naabu -v -host `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>` -nmap-cli 'nmap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v -T5 -sC</span>`'`

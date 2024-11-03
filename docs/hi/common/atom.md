@@ -2,7 +2,7 @@
 layout: page
 title: common/atom (हिन्दी)
 description: "एक क्रॉस-प्लेटफ़ॉर्म प्लग करने योग्य टेक्स्ट संपादक।"
-content_hash: 1aa3bccd0e89261f2bc8ba4e5b84718af501aa23
+content_hash: b905af31570838b683499d27341c127139f83a8e
 last_modified_at: 2024-11-03
 related_topics:
   - title: Deutsch version
@@ -43,15 +43,15 @@ tldri18n_status: 2
 
 - कोई फ़ाइल या निर्देशिका खोलें:
 
-`atom `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फ़ाइल_या_निर्देशिका</span>
+`atom `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल_या_निर्देशिका/का/पथ</span>
 
 - किसी फ़ाइल या निर्देशिका को नई विंडो में खोलें:
 
-`atom -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फ़ाइल_या_निर्देशिका</span>
+`atom -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल_या_निर्देशिका/का/पथ</span>
 
 - मौजूदा विंडो में कोई फ़ाइल या निर्देशिका खोलें:
 
-`atom --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फ़ाइल_या_निर्देशिका</span>
+`atom --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल_या_निर्देशिका/का/पथ</span>
 
 - एटम को सुरक्षित मोड में खोलें (कोई अतिरिक्त पैकेज लोड नहीं करता):
 

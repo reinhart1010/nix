@@ -2,7 +2,7 @@
 layout: page
 title: freebsd/sockstat (हिन्दी)
 description: "खुले इंटरनेट या UNIX डोमेन सॉकेट्स की सूची।"
-content_hash: 8f6dcaf69e996cb43efa6456872620d3dc031c64
+content_hash: 016867c0268fd4bff26b5453e795c45e1cf15c34
 last_modified_at: 2024-11-03
 related_topics:
   - title: English version
@@ -30,7 +30,7 @@ tldri18n_status: 2
 
 - विशेष [p]पोर्ट्स पर विशेष [P]प्रोटोकॉल का उपयोग करते हुए IPv[4]/IPv[6] सॉकेट्स [l]सुनने की जानकारी दिखाएं:
 
-`sockstat -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span>` -l -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|sctp|divert</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2...</span>
+`sockstat -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span>` -l -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|sctp|divert</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पोर्ट1,पोर्ट2...</span>
 
 - [c]कनेक्टेड सॉकेट्स भी दिखाएं, [n]संख्यात्मक UID को उपयोगकर्ता नाम में परिवर्तित न करें और [w]चौड़ी फ़ील्ड आकार का उपयोग करें:
 

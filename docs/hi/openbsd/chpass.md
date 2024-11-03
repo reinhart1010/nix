@@ -2,8 +2,8 @@
 layout: page
 title: openbsd/chpass (हिन्दी)
 description: "उपयोगकर्ता डेटाबेस जानकारी जोड़ें या बदलें, जिसमें लॉगिन शेल और पासवर्ड शामिल हैं।"
-content_hash: c387c0733fcb59391fdf4ace971c0bde6cf96bd2
-last_modified_at: 2024-11-01
+content_hash: f5fb2dd8003b1e9e1df6cecb7ba4dc18a651aa46
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/openbsd/chpass.html
@@ -31,11 +31,11 @@ tldri18n_status: 2
 
 - वर्तमान उपयोगकर्ता के लिए एक विशिष्ट लॉगिन [s]hell सेट करें:
 
-`doas chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/शेल</span>
+`doas chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शेल/का/पथ</span>
 
 - एक विशिष्ट उपयोगकर्ता के लिए लॉगिन [s]hell सेट करें:
 
-`doas chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/शेल</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता नाम</span>
+`doas chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शेल/का/पथ</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता नाम</span>
 
 - `passwd` फ़ाइल प्रारूप में एक उपयोगकर्ता डेटाबेस प्रविष्टि निर्दिष्ट करें:
 

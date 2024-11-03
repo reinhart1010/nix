@@ -2,7 +2,7 @@
 layout: page
 title: freebsd/look (हिन्दी)
 description: "एक सॉर्ट की गई फ़ाइल में एक उपसर्ग से शुरू होने वाली पंक्तियों को प्रदर्शित करें।"
-content_hash: ad08d8c70e91a0bac35b14d6bdf7cd9041940e30
+content_hash: fa20ad6de5c22988d9c424a5ad8a3996be083cb6
 last_modified_at: 2024-11-03
 related_topics:
   - title: English version
@@ -30,11 +30,11 @@ tldri18n_status: 2
 
 - एक विशेष फ़ाइल में एक विशेष उपसर्ग से शुरू होने वाली पंक्तियों के लिए खोजें:
 
-`look `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पूर्वसूचक</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फाइल</span>
+`look `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पूर्वसूचक</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/का/पथ</span>
 
 - केवल अल्फ़ान्यूमेरिक वर्णों पर केस-इंसेंसिटिव खोजें:
 
-`look `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--ignore-case</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--alphanum</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पूर्वसूचक</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फाइल</span>
+`look `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--ignore-case</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--alphanum</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पूर्वसूचक</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/का/पथ</span>
 
 - एक स्ट्रिंग टर्मिनेशन कैरेक्टर निर्दिष्ट करें (डिफ़ॉल्ट रूप से स्पेस):
 

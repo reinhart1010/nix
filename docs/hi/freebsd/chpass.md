@@ -2,8 +2,8 @@
 layout: page
 title: freebsd/chpass (हिन्दी)
 description: "लॉगिन shell और पासवर्ड सहित उपयोगकर्ता डेटाबेस जानकारी जोड़ें या बदलें।"
-content_hash: dbf8e28fc11cdfc3ddef287300375d664784a3e8
-last_modified_at: 2024-10-31
+content_hash: baa4b71b55b83f1cbc18dfefb5041d1f381dc81d
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/freebsd/chpass.html
@@ -31,11 +31,11 @@ tldri18n_status: 2
 
 - वर्तमान उपयोगकर्ता के लिए एक विशिष्ट लॉगिन [s]hell सेट करें:
 
-`chpass -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/shell</span>
+`chpass -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell/का/पथ</span>
 
 - किसी विशिष्ट उपयोगकर्ता के लिए लॉगिन [s]hell सेट करें:
 
-`chpass -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/shell</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span>
+`chpass -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell/का/पथ</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span>
 
 - खाता [e]समाप्ति समय बदलें (युग से सेकंड में, UTC):
 

@@ -2,7 +2,7 @@
 layout: page
 title: freebsd/df (हिन्दी)
 description: "फाइल सिस्टम डिस्क स्पेस उपयोग का अवलोकन प्रदर्शित करें।"
-content_hash: fcb085741869067e707e421b0481f32421392be1
+content_hash: 36acf9eb3f656fdc0bc771f47f0c0e433ab6b87f
 last_modified_at: 2024-11-03
 related_topics:
   - title: English version
@@ -38,7 +38,7 @@ tldri18n_status: 2
 
 - दिए गए फ़ाइल या डायरेक्टरी को शामिल करते हुए फाइल सिस्टम और उसके डिस्क उपयोग को प्रदर्शित करें:
 
-`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फाइल_या_निर्देशिका</span>
+`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल_या_निर्देशिका/का/पथ</span>
 
 - फाइल सिस्टम [T]प्रकार सहित फ्री और उपयोग किए गए [i]नोड्स की संख्या पर सांख्यिकी शामिल करें:
 

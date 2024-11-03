@@ -2,7 +2,7 @@
 layout: page
 title: openbsd/pkg_add (हिन्दी)
 description: "OpenBSD में पैकेज स्थापित/अपडेट करें।"
-content_hash: 59c29acc35ab23bb34c7e1440d28b9906ac3335b
+content_hash: dc6444c1a6d673d9b46708d1b64c8a4191259428
 last_modified_at: 2024-11-03
 related_topics:
   - title: English version
@@ -38,4 +38,4 @@ OpenBSD में पैकेज स्थापित/अपडेट कर�
 
 - `pkg_info` के कच्चे आउटपुट से पैकेज स्थापित करें:
 
-`pkg_add -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फाइल</span>
+`pkg_add -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/का/पथ</span>
