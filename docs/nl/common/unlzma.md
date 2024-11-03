@@ -1,22 +1,10 @@
 ---
 layout: page
 title: common/unlzma (Nederlands)
-description: "Dit commando is een alias van `xz`."
-content_hash: 69124f235704bfab78acb57e315c8f00073b543f
-last_modified_at: 2023-11-12
+description: "Dit commando is een alias van `xz --format=lzma --decompress`."
+content_hash: 7b7b7b7916ed43e4df523f6aa982dd6fbc17e2f9
+last_modified_at: 2024-11-03
 related_topics:
-  - title: العربية version
-    url: /ar/common/unlzma.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/unlzma.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/unlzma.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/unlzma.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/unlzma.html
     icon: bi bi-globe
@@ -38,23 +26,11 @@ related_topics:
   - title: italiano version
     url: /it/common/unlzma.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/unlzma.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/unlzma.html
     icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/unlzma.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/unlzma.html
-    icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/unlzma.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/unlzma.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/unlzma.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/unlzma.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/unlzma.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/unlzma.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/unlzma.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/unlzma.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/unlzma.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/unlzma.html
@@ -93,7 +60,7 @@ tldri18n_status: 2
 ---
 # unlzma
 
-Dit commando is een alias van `xz`.
+Dit commando is een alias van `xz --format=lzma --decompress`.
 Meer informatie: <https://manned.org/unlzma>.
 
 - Bekijk de documentatie van het originele commando:

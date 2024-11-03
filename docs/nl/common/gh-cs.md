@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (Nederlands)
-description: "Dit commando is een alias van  `gh codespace`."
-content_hash: 5328e3f39770a2dc8760ed3cf15f30ff26559eda
-last_modified_at: 2024-05-09
+description: "Dit commando is een alias van `gh codespace`."
+content_hash: 2293ac96021dd62c08e99aed8e8385db1d469a9f
+last_modified_at: 2024-11-03
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-Dit commando is een alias van  `gh codespace`.
+Dit commando is een alias van `gh codespace`.
 Meer informatie: <https://cli.github.com/manual/gh_codespace>.
 
 - Bekijk de documentatie van het originele commando:

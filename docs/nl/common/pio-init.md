@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/pio-init (Nederlands)
-description: "Dit commando is een alias van `pio project`."
-content_hash: b91bb5361b944bbd1a1e6a98ecfba5b09e5e437d
-last_modified_at: 2024-05-09
+description: "Dit commando is een alias van `pio project init`."
+content_hash: 43702f6a33e5754580b4762e4dbde8b714cbec19
+last_modified_at: 2024-11-03
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # pio init
 
-Dit commando is een alias van `pio project`.
+Dit commando is een alias van `pio project init`.
 
 - Bekijk de documentatie van het originele commando:
 

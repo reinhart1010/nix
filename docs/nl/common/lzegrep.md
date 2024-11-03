@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/lzegrep (Nederlands)
-description: "Dit commando is een alias van `xzgrep`."
-content_hash: 2352630b2e4d5d5c28173bb087c27097f5adda98
-last_modified_at: 2023-11-26
+description: "Dit commando is een alias van `xzgrep --extended-regexp`."
+content_hash: 9ca7a743064919eb8ebb6cc442f10c8e5815a317
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/lzegrep.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # lzegrep
 
-Dit commando is een alias van `xzgrep`.
+Dit commando is een alias van `xzgrep --extended-regexp`.
 Bekijk ook: `egrep`.
 
 - Bekijk de documentatie van het originele commando:

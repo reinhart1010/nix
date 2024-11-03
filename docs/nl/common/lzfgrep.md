@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/lzfgrep (Nederlands)
-description: "Dit commando is een alias van `xzgrep`."
-content_hash: bec08bec7dc4178e50bcd69b9c64d8b0b393ea2a
-last_modified_at: 2023-11-26
+description: "Dit commando is een alias van `xzgrep --fixed-strings`."
+content_hash: 0a73a3e148d947f269c6190d9862214c7a870e04
+last_modified_at: 2024-11-03
 related_topics:
   - title: English version
     url: /en/common/lzfgrep.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # lzfgrep
 
-Dit commando is een alias van `xzgrep`.
+Dit commando is een alias van `xzgrep --fixed-strings`.
 Bekijk ook: `fgrep`.
 
 - Bekijk de documentatie van het originele commando:

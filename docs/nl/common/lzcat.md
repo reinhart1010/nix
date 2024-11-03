@@ -1,22 +1,10 @@
 ---
 layout: page
 title: common/lzcat (Nederlands)
-description: "Dit commando is een alias van `xz`."
-content_hash: 36b41c33fb6d8d584093df54c020251e28b416e2
-last_modified_at: 2023-11-12
+description: "Dit commando is een alias van `xz --format=lzma --decompress --stdout`."
+content_hash: d467f2242e818d98eaa736b976af9f0050cc1130
+last_modified_at: 2024-11-03
 related_topics:
-  - title: العربية version
-    url: /ar/common/lzcat.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/lzcat.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/lzcat.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/lzcat.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/lzcat.html
     icon: bi bi-globe
@@ -38,23 +26,11 @@ related_topics:
   - title: italiano version
     url: /it/common/lzcat.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/lzcat.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/lzcat.html
     icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/lzcat.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/lzcat.html
-    icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/lzcat.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/lzcat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/lzcat.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/lzcat.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/lzcat.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/lzcat.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/lzcat.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/lzcat.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/lzcat.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/lzcat.html
@@ -93,7 +60,7 @@ tldri18n_status: 2
 ---
 # lzcat
 
-Dit commando is een alias van `xz`.
+Dit commando is een alias van `xz --format=lzma --decompress --stdout`.
 Meer informatie: <https://manned.org/lzcat>.
 
 - Bekijk de documentatie van het originele commando:

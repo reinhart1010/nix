@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/vim (한국어)
-description: "Vim (Vi IMproved)는 커맨드 라인 텍스트 에디터로 다양한 종류의 텍스트 조작을 위해 여러 모드를 지원합니다."
-content_hash: cf638d95cee80ca22ff3a068351f831d3748b51b
-last_modified_at: 2024-10-15
+description: "Vim (Vi IMproved)는 다양한 텍스트 조작을 위한 여러 모드를 제공하는 명령줄 텍스트 편집기입니다."
+content_hash: ed3ef6b782377ad1b54dd1af1772b54c2a477d08
+last_modified_at: 2024-11-03
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -45,33 +45,34 @@ tldri18n_status: 2
 ---
 # vim
 
-Vim (Vi IMproved)는 커맨드 라인 텍스트 에디터로 다양한 종류의 텍스트 조작을 위해 여러 모드를 지원합니다.
-`i` 를 눌러 입력 모드로 들어가고, `<Esc>` 를 눌러 Vim 명령어를 입력할 수 있는 일반 모드로 들어갑니다.
+Vim (Vi IMproved)는 다양한 텍스트 조작을 위한 여러 모드를 제공하는 명령줄 텍스트 편집기입니다.
+일반 모드에서 `i`를 눌러 삽입 모드로 진입합니다. `<Esc>`를 눌러 다시 일반 모드로 돌아가면 Vim 명령을 사용할 수 있습니다.
+같이 보기: `vimdiff`, `vimtutor`, `nvim`.
 더 많은 정보: <https://www.vim.org>.
 
 - 파일 열기:
 
-`vim `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일/의/경로</span>
+`vim `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
 
-- 지정된 줄 번호에서 파일 열기:
+- 지정한 줄 번호에서 파일 열기:
 
-`vim +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">줄 번호</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일/의/경로</span>
+`vim +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">줄_번호</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
 
 - Vim 메뉴얼 보기:
 
 `:help<Enter>`
 
-- 저장하고 종료:
+- 현재 버퍼 저장 및 종료:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter></span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter></span>
 
-- 실행취소:
+- 일반 모드로 전환하고 마지막 작업 취소:
 
 `<Esc>u`
 
-- 파일에서 패턴 검색 (`n`/`N` 을 눌러 다음/이전 항목으로 이동):
+- 파일 내 패턴 검색 (`n`/`N`을 눌러 다음/이전 일치 항목으로 이동):
 
-`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색할_패턴</span>`<Enter>`
+`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span>`<Enter>`
 
 - 전체 파일에서 정규식 대체 수행:
 

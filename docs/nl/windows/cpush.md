@@ -1,22 +1,10 @@
 ---
 layout: page
 title: windows/cpush (Nederlands)
-description: "Dit commando is een alias van `choco-push`."
-content_hash: 6548b00d0d0f81b9c940ff8a52947b20d3cb7800
-last_modified_at: 2023-11-12
+description: "Dit commando is een alias van `choco push`."
+content_hash: c0fe4ed720f95bd128911453360fec86b936d0a8
+last_modified_at: 2024-11-03
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cpush.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/windows/cpush.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cpush.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cpush.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cpush.html
     icon: bi bi-globe
@@ -38,23 +26,11 @@ related_topics:
   - title: italiano version
     url: /it/windows/cpush.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/windows/cpush.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/windows/cpush.html
     icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/windows/cpush.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/windows/cpush.html
-    icon: bi bi-globe
   - title: नेपाली version
     url: /ne/windows/cpush.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/windows/cpush.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/cpush.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/cpush.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/windows/cpush.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/windows/cpush.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/cpush.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/windows/cpush.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/windows/cpush.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/cpush.html
@@ -93,7 +60,7 @@ tldri18n_status: 2
 ---
 # cpush
 
-Dit commando is een alias van `choco-push`.
+Dit commando is een alias van `choco push`.
 Meer informatie: <https://docs.chocolatey.org/en-us/create/commands/push>.
 
 - Bekijk de documentatie van het originele commando:

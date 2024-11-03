@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (Nederlands)
-description: "Dit commando is een alias van  `ip route show`."
-content_hash: f7f3468acaaf5a1f702867f5f2957751acf666bf
-last_modified_at: 2024-05-09
+description: "Dit commando is een alias van `ip route show`."
+content_hash: 3cc0f854ecb4043a00bff588aed78aca082484d5
+last_modified_at: 2024-11-03
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ip route list
 
-Dit commando is een alias van  `ip route show`.
+Dit commando is een alias van `ip route show`.
 
 - Bekijk de documentatie van het originele commando:
 

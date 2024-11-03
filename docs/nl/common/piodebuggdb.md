@@ -1,21 +1,12 @@
 ---
 layout: page
 title: common/piodebuggdb (Nederlands)
-description: "Dit commando is een alias van `pio debug`."
-content_hash: 32f0754651700226357255e61fedfde885a38c73
-last_modified_at: 2023-11-12
+description: "Dit commando is een alias van `pio debug --interface=gdb`."
+content_hash: 33ee87c224fba752e78f77e4c21533cd7d2513fa
+last_modified_at: 2024-11-03
 related_topics:
-  - title: العربية version
-    url: /ar/common/piodebuggdb.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/piodebuggdb.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/piodebuggdb.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/piodebuggdb.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/piodebuggdb.html
@@ -49,9 +40,6 @@ related_topics:
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/piodebuggdb.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/common/piodebuggdb.html
     icon: bi bi-globe
   - title: norsk version
     url: /no/common/piodebuggdb.html
@@ -93,7 +81,7 @@ tldri18n_status: 2
 ---
 # piodebuggdb
 
-Dit commando is een alias van `pio debug`.
+Dit commando is een alias van `pio debug --interface=gdb`.
 
 - Bekijk de documentatie van het originele commando:
 
