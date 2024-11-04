@@ -1,0 +1,60 @@
+---
+layout: page
+title: windows/netstat (한국어)
+description: "활성 TCP 연결, 컴퓨터가 수신하는 포트, 네트워크 어댑터 통계, IP 라우팅 테이블, IPv4 통계 및 IPv6 통계를 표시합니다."
+content_hash: 4d463a1ec4722c691ca3b3d90e34f74aae6c578d
+last_modified_at: 2024-11-04
+related_topics:
+  - title: English version
+    url: /en/windows/netstat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/netstat.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/netstat.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># netstat
+
+활성 TCP 연결, 컴퓨터가 수신하는 포트, 네트워크 어댑터 통계, IP 라우팅 테이블, IPv4 통계 및 IPv6 통계를 표시합니다.
+더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/netstat>.
+
+- 활성 TCP 연결 표시:
+
+`netstat`
+
+- 모든 활성 TCP 연결 및 컴퓨터가 수신 중인 TCP 및 UDP 포트 표시:
+
+`netstat -a`
+
+- 전송 및 수신된 바이트 및 패킷 수와 같은 네트워크 어댑터 통계를 표시:
+
+`netstat -e`
+
+- 활성 TCP 연결과 명시적 주소 및 포트 번호를 숫자로 표시:
+
+`netstat -n`
+
+- 활성 TCP 연결과 각 연결의 프로세스 ID(PID) 표시:
+
+`netstat -o`
+
+- IP 라우팅 테이블 내용 표시:
+
+`netstat -r`
+
+- 프로토콜별 통계 표시:
+
+`netstat -s`
+
+- 현재 열려 있는 포트 목록 및 관련 IP 주소 목록을 표시:
+
+`netstat -an`

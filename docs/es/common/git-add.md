@@ -2,8 +2,8 @@
 layout: page
 title: common/git-add (español)
 description: "Añade los archivos cambiados al índice."
-content_hash: 2237e6abee80bae56d6f7d516d121f894248c487
-last_modified_at: 2024-06-20
+content_hash: 55623bcb3a6ab1c9881c0385a129e7972834a65e
+last_modified_at: 2024-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -52,26 +52,30 @@ Más información: <https://git-scm.com/docs/git-add>.
 
 `git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Añade todos los archivos (rastreados o no rastreados):
+- Añade todos los archivos (rastreados o no):
 
-`git add -A`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-A|--all</span>
 
-- Añade los archivos ya rastreados:
+- Añade todos los archivos en el directorio actual:
 
-`git add -u`
+`git add .`
+
+- Añade únicamente los archivos ya rastreados:
+
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|--update</span>
 
 - Añade también los archivos ignorados:
 
-`git add -f`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|--force</span>
 
-- Añade partes de archivos interactivamente:
+- Añade interactivamente partes de archivos al área de preparación (staging):
 
-`git add -p`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--patch</span>
 
-- Añade partes de un archivo dado interactivamente:
+- Añade interactivamente partes de un archivo dado al área de preparación (staging):
 
-`git add -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--patch</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Añade un archivo interactivamente:
+- Añade un archivo interactivamente al área de preparación (staging):
 
-`git add -i`
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>

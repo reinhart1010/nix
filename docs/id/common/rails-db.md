@@ -2,8 +2,8 @@
 layout: page
 title: common/rails-db (Indonesia)
 description: "Beragam subperintah yang berkaitan dengan database untuk Rauby on Rails."
-content_hash: 88e5c452a1c1242eafbec7d9d68799424380894d
-last_modified_at: 2023-12-15
+content_hash: d201a2a3c04a0b1a3b44fe872a939dbcd08aa23a
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/rails-db.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # rails db
 
 Beragam subperintah yang berkaitan dengan database untuk Rauby on Rails.
-Informasi lebih lanjut: <https://guides.rubyonrails.org/command_line.html>.
+Informasi lebih lanjut: <https://guides.rubyonrails.org/active_record_migrations.html>.
 
 - Buat pangkalan data (database) baru, memuat skema dan menginisiasinya dengan data awal:
 
