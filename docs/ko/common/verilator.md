@@ -3,23 +3,14 @@ layout: page
 title: common/verilator (한국어)
 description: "Verilog 및 SystemVerilog 하드웨어 설명 언어(HDL) 디자인을 C++ 또는 SystemC 모델로 변환하여 컴파일 후 실행."
 content_hash: b74309b78fe3b244994effa21450e0d632e6e2e8
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/verilator.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/verilator.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># verilator
+# verilator
 
 Verilog 및 SystemVerilog 하드웨어 설명 언어(HDL) 디자인을 C++ 또는 SystemC 모델로 변환하여 컴파일 후 실행.
 더 많은 정보: <https://veripool.org/guide/latest/>.

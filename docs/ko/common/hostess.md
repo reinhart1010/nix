@@ -3,23 +3,14 @@ layout: page
 title: common/hostess (한국어)
 description: "`/etc/hosts` 파일 관리."
 content_hash: c013ed11265e589279120bdfc20808428ff68376
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/hostess.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hostess.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hostess
+# hostess
 
 `/etc/hosts` 파일 관리.
 더 많은 정보: <https://github.com/cbednarski/hostess>.

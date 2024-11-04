@@ -3,23 +3,14 @@ layout: page
 title: common/vale (한국어)
 description: "Markdown 및 AsciiDoc과 같은 여러 마크업 형식을 지원하는 확장 가능한 스타일 검사기."
 content_hash: 968e3625cc1ec4110d3c50419c396d1fdad0adc6
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/vale.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vale.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vale
+# vale
 
 Markdown 및 AsciiDoc과 같은 여러 마크업 형식을 지원하는 확장 가능한 스타일 검사기.
 더 많은 정보: <https://vale.sh>.

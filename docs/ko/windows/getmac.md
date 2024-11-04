@@ -3,7 +3,7 @@ layout: page
 title: windows/getmac (한국어)
 description: "시스템의 MAC 주소를 표시."
 content_hash: b452ca9f3754d53690778d033a31f9468dbf021e
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/windows/getmac.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/getmac.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/getmac.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># getmac
+# getmac
 
 시스템의 MAC 주소를 표시.
 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/getmac>.

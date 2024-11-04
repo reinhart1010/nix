@@ -2,8 +2,8 @@
 layout: page
 title: common/go-test (한국어)
 description: "Go 패키지를 테스트합니다 (`_test.go`로 끝나는 파일이어야 함)."
-content_hash: d49bb796f5847b9330db5f7a5eea0878496de7e9
-last_modified_at: 2024-10-15
+content_hash: 14b28ba76e162905d4e936c8dca20657bb5eb91a
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/go-test.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # go test
 
 Go 패키지를 테스트합니다 (`_test.go`로 끝나는 파일이어야 함).
-더 많은 정보: <https://golang.org/cmd/go/#hdr-Testing_flags>.
+더 많은 정보: <https://pkg.go.dev/cmd/go#hdr-Testing_flags>.
 
 - 현재 디렉터리에 있는 패키지 테스트:
 

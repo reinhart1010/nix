@@ -3,23 +3,14 @@ layout: page
 title: common/venv (한국어)
 description: "Python에서 가벼운 가상 환경을 생성."
 content_hash: 02fc3338d9775a15bf71d36f629f45984eca435d
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/venv.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/venv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># venv
+# venv
 
 Python에서 가벼운 가상 환경을 생성.
 더 많은 정보: <https://docs.python.org/3/library/venv.html>.

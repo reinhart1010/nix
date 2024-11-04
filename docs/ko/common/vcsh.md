@@ -3,23 +3,14 @@ layout: page
 title: common/vcsh (한국어)
 description: "Git 저장소를 사용하여 홈 디렉토리를 위한 버전 관리 시스템."
 content_hash: 617810d0f55d5df83d1b34aa9e26ed0ffc9989ad
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/vcsh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vcsh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vcsh
+# vcsh
 
 Git 저장소를 사용하여 홈 디렉토리를 위한 버전 관리 시스템.
 같이 보기: `chezmoi`, `stow`, `tuckr`, `homeshick`.

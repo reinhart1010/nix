@@ -3,7 +3,7 @@ layout: page
 title: common/hping3 (한국어)
 description: "TCP, UDP 및 원시 IP와 같은 프로토콜을 지원하는 고급 ping 유틸리티."
 content_hash: 8e73d5ed7576e71439d8a5e8ec6781bee5f07d42
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/hping3.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/hping3.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hping3.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hping3
+# hping3
 
 TCP, UDP 및 원시 IP와 같은 프로토콜을 지원하는 고급 ping 유틸리티.
 높은 권한으로 실행하는 것이 가장 좋음.

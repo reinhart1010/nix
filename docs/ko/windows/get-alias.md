@@ -3,7 +3,7 @@ layout: page
 title: windows/get-alias (한국어)
 description: "현재 PowerShell 세션에서 명령 별칭을 나열하고 가져옵니다."
 content_hash: 265ead4a74368bdf3de49132bb4c42f0e2b0ee9f
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/windows/get-alias.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/windows/get-alias.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/get-alias.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Get-Alias
+# Get-Alias
 
 현재 PowerShell 세션에서 명령 별칭을 나열하고 가져옵니다.
 이 명령은 PowerShell에서만 실행할 수 있습니다.

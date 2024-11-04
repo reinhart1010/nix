@@ -3,23 +3,14 @@ layout: page
 title: windows/get-content (한국어)
 description: "지정된 위치에 있는 항목의 내용을 가져옵니다."
 content_hash: 5c0bd2006f342e7f8961af058dde9f9be9d7d964
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/windows/get-content.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/get-content.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Get-Content
+# Get-Content
 
 지정된 위치에 있는 항목의 내용을 가져옵니다.
 참고: 이 명령은 PowerShell을 통해서만 사용할 수 있습니다.

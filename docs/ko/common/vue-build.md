@@ -3,7 +3,7 @@ layout: page
 title: common/vue-build (한국어)
 description: "빠른 프로토타이핑을 가능하게 하는 `@vue/cli` 및 `@vue/cli-service-global`에서 제공하는 하위 명령입니다."
 content_hash: f002c2b6ac4cc032393e67677ef22e8df707c91d
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/vue-build.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/vue-build.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vue-build.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vue build
+# vue build
 
 빠른 프로토타이핑을 가능하게 하는 `@vue/cli` 및 `@vue/cli-service-global`에서 제공하는 하위 명령입니다.
 더 많은 정보: <https://cli.vuejs.org/guide/prototyping.html>.

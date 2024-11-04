@@ -3,7 +3,7 @@ layout: page
 title: common/hostname (한국어)
 description: "시스템의 호스트 이름을 표시하거나 설정."
 content_hash: 2298acbb4d1da959928ce6866f57eed8127a8de9
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/hostname.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/hostname.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hostname.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hostname
+# hostname
 
 시스템의 호스트 이름을 표시하거나 설정.
 더 많은 정보: <https://manned.org/hostname>.

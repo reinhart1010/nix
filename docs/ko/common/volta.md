@@ -3,23 +3,14 @@ layout: page
 title: common/volta (한국어)
 description: "Node.js 런타임, npm 및 Yarn 패키지 관리자 또는 npm에서 제공하는 바이너리를 설치하는 JavaScript 도구 관리자."
 content_hash: d371c9dabc6aab22051b9b37ebc5643dacddf041
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/volta.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/volta.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># volta
+# volta
 
 Node.js 런타임, npm 및 Yarn 패키지 관리자 또는 npm에서 제공하는 바이너리를 설치하는 JavaScript 도구 관리자.
 더 많은 정보: <https://volta.sh>.

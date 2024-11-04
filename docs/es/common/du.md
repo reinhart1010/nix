@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/du (español)
-description: "Uso de disco: estima y resume el uso de espacio en disco de archivos y directorios."
-content_hash: 28c984c5d46d4279ba0aabe8985fcb7be47587a7
-last_modified_at: 2024-04-29
+description: "Uso del disco: estima y resume el uso del espacio de archivos y directorios."
+content_hash: 87c0612630977074fe3669b93828be54dcec7a6e
+last_modified_at: 2024-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -17,6 +17,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/du.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/du.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/du.html
     icon: bi bi-globe
@@ -26,36 +29,37 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# du
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># du
-
-Uso de disco: estima y resume el uso de espacio en disco de archivos y directorios.
+Uso del disco: estima y resume el uso del espacio de archivos y directorios.
 Más información: <https://www.gnu.org/software/coreutils/du>.
 
-- Lista los tamaños de un directorio y sus subdirectorios en las unidades dadas (B/KiB/MiB):
+- Lista los tamaños de un directorio y sus subdirectorios, en la unidad dada (B/KiB/MiB):
 
 `du -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">b|k|m</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
 
-- Lista los tamaños de un directorio y sus subdirectorios en formato legible para humanos (es decir, seleccionando automáticamente las unidades apropiadas para cada tamaño):
+- Lista los tamaños de un directorio y sus subdirectorios, de forma legible (es decir, seleccionando automáticamente la unidad adecuada para cada tamaño):
 
 `du -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
 
-- Muestra el tamaño de un solo directorio en formato legible para humanos:
+- Muestra el tamaño de un único directorio, en unidades legibles:
 
 `du -sh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
 
-- Lista los tamaños legibles para humanos de un directorio y de todos los archivos y directorios dentro del mismo:
+- Lista los tamaños legibles de un directorio y de todos los archivos y directorios que contiene:
 
 `du -ah `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
 
-- Lista los tamaños legibles para humanos de un directorio y sus subdirectorios hasta N niveles de profundidad:
+- Lista los tamaños legibles de un directorio y sus subdirectorios, hasta N niveles de profundidad:
 
 `du -h --max-depth=N `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
 
-- Lista el tamaño legible para humanos de todos los archivos `.jpg` en subdirectorios del directorio actual y muestra un total al final:
+- Lista el tamaño legible de todos los archivos `.jpg` en los subdirectorios del directorio actual y muestra un total acumulado al final:
 
 `du -ch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*/*.jpg</span>
+
+- Lista todos los archivos y directorios (incluidos los ocultos) por encima de un determinado tamaño (útil para investigar qué está ocupando realmente el espacio):
+
+`du --all --human-readable --threshold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1G|1024M|1048576K</span>` .[^.]* *`

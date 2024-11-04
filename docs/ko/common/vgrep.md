@@ -3,23 +3,14 @@ layout: page
 title: common/vgrep (한국어)
 description: "사용하기 쉬운 grep용 페이지 도구."
 content_hash: c09866c2cbc1f10658de7b44937174064e66434f
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/vgrep.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vgrep.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vgrep
+# vgrep
 
 사용하기 쉬운 grep용 페이지 도구.
 같이 보기: `ugrep`, `rg`.

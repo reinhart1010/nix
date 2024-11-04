@@ -3,23 +3,14 @@ layout: page
 title: common/vinmap (한국어)
 description: "IP 범위를 청크로 나누고 병렬 스캔을 수행하며 XML 또는 JSON 결과를 병합하는 멀티스레드 Nmap 스캐너."
 content_hash: 91a29a78d8dcea9abdd780f634fce120d9787243
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/vinmap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vinmap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vinmap
+# vinmap
 
 IP 범위를 청크로 나누고 병렬 스캔을 수행하며 XML 또는 JSON 결과를 병합하는 멀티스레드 Nmap 스캐너.
 더 많은 정보: <https://pypi.org/project/vinmap>.

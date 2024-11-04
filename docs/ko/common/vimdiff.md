@@ -3,7 +3,7 @@ layout: page
 title: common/vimdiff (한국어)
 description: "두 개 이상의 파일을 vim으로 열어 차이점을 보여줍니다."
 content_hash: ae182c997a146761648cc8c880722753651204b8
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/vimdiff.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/vimdiff.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vimdiff.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vimdiff
+# vimdiff
 
 두 개 이상의 파일을 vim으로 열어 차이점을 보여줍니다.
 같이 보기: `vim`, `vimtutor`, `nvim`.

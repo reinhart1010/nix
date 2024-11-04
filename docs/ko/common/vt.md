@@ -3,7 +3,7 @@ layout: page
 title: common/vt (한국어)
 description: "VirusTotal의 명령줄 인터페이스."
 content_hash: df7e3ec593de3cd54ad6f69d55e9d4f299154721
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/vt.html
@@ -11,18 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/vt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vt
+# vt
 
 VirusTotal의 명령줄 인터페이스.
 이 명령을 사용하려면 VirusTotal 계정의 API 키가 필요합니다.

@@ -2,14 +2,14 @@
 layout: page
 title: common/stripe (English)
 description: "Interact with a Stripe account."
-content_hash: 6f3a54755dba7889d39dedb737f44c335871de66
-last_modified_at: 2023-11-12
+content_hash: 4a8aee4ecfa2767720608ddeeb2cc48c537bf522
+last_modified_at: 2024-11-04
 tldri18n_status: 2
 ---
 # stripe
 
 Interact with a Stripe account.
-More information: <https://github.com/stripe/stripe-cli>.
+More information: <https://docs.stripe.com/stripe-cli>.
 
 - Follow the logs of activity on the account:
 

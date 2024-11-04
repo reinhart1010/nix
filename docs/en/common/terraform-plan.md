@@ -2,8 +2,8 @@
 layout: page
 title: common/terraform-plan (English)
 description: "Generate and show Terraform execution plans."
-content_hash: bdbcbf1198a91fc925efd6ba8ef892988bef6759
-last_modified_at: 2023-11-12
+content_hash: eb937f134c569ded7c71ff5c3de917ec63034fdf
+last_modified_at: 2024-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/terraform-plan.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # terraform plan
 
 Generate and show Terraform execution plans.
-More information: <https://www.terraform.io/docs/cli/commands/plan.html>.
+More information: <https://developer.hashicorp.com/terraform/cli/commands/plan>.
 
 - Generate and show the execution plan in the currently directory:
 

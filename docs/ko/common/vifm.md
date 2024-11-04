@@ -3,7 +3,7 @@ layout: page
 title: common/vifm (한국어)
 description: "VI 파일 관리자는 TUI 파일 관리자입니다."
 content_hash: 54ed936a747016decf270e67cf79f05b1349a59d
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/vifm.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/vifm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vifm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vifm
+# vifm
 
 VI 파일 관리자는 TUI 파일 관리자입니다.
 같이 보기: `clifm`, `vifm`, `mc`, `caja`.

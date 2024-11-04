@@ -2,8 +2,8 @@
 layout: page
 title: common/terraform-plan (Deutsch)
 description: "Erzeugen und Anzeigen von Terraform-Ausführungsplänen."
-content_hash: 1117e5c8bcebab18ab3ff9aa95c3703b96b40621
-last_modified_at: 2023-11-12
+content_hash: e01b8b0d39110322e5c1fb653247909df713ff75
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/terraform-plan.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # terraform plan
 
 Erzeugen und Anzeigen von Terraform-Ausführungsplänen.
-Weitere Informationen: <https://www.terraform.io/docs/cli/commands/plan.html>.
+Weitere Informationen: <https://developer.hashicorp.com/terraform/cli/commands/plan>.
 
 - Erzeugen und Anzeigen des Ausführungsplans im aktuellen Verzeichnis:
 

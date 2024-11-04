@@ -3,23 +3,14 @@ layout: page
 title: common/vala (한국어)
 description: "Vala 코드 실행기."
 content_hash: d5b90443097594cb7475d0d44638947304bfc336
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/vala.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vala.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vala
+# vala
 
 Vala 코드 실행기.
 튜토리얼: <https://wiki.gnome.org/Projects/Vala/Tutorial>.

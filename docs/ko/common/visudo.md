@@ -3,7 +3,7 @@ layout: page
 title: common/visudo (한국어)
 description: "sudoers 파일을 안전하게 편집."
 content_hash: 9551b0ee4a35412d62411670e5e005a8650e8ee4
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/visudo.html
@@ -14,18 +14,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/visudo.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/visudo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># visudo
+# visudo
 
 sudoers 파일을 안전하게 편집.
 더 많은 정보: <https://www.sudo.ws/docs/man/visudo.man>.

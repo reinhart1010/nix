@@ -3,23 +3,14 @@ layout: page
 title: common/hsd-cli (한국어)
 description: "Handshake 블록체인용 커멘드 라인 REST 도구."
 content_hash: 633c31ae33afe7d511ff181b331703d730d10798
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/common/hsd-cli.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hsd-cli.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hsd-cli
+# hsd-cli
 
 Handshake 블록체인용 커멘드 라인 REST 도구.
 더 많은 정보: <https://handshake.org>.

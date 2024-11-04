@@ -2,9 +2,12 @@
 layout: page
 title: common/go-test (English)
 description: "Tests Go packages (files have to end with `_test.go`)."
-content_hash: 760a9bf4807be6becd793fd51bf0d6f5a307400d
-last_modified_at: 2023-11-12
+content_hash: a7301b18d04f10b44a20e92af4c8e930af5680d9
+last_modified_at: 2024-11-04
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/go-test.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/go-test.html
     icon: bi bi-globe
@@ -13,7 +16,7 @@ tldri18n_status: 2
 # go test
 
 Tests Go packages (files have to end with `_test.go`).
-More information: <https://golang.org/cmd/go/#hdr-Testing_flags>.
+More information: <https://pkg.go.dev/cmd/go#hdr-Testing_flags>.
 
 - Test the package found in the current directory:
 

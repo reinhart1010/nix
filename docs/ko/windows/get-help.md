@@ -3,23 +3,14 @@ layout: page
 title: windows/get-help (한국어)
 description: "PowerShell 명령(별칭, cmdlet, 함수)에 대한 도움말 정보와 문서를 표시."
 content_hash: d9170b15193222f05db759482e585bdf18dea732
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/windows/get-help.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/get-help.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Get-Help
+# Get-Help
 
 PowerShell 명령(별칭, cmdlet, 함수)에 대한 도움말 정보와 문서를 표시.
 이 명령은 PowerShell을 통해서만 실행할 수 있습니다.
