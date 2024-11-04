@@ -1,18 +1,18 @@
 ---
 layout: page
-title: linux/nmtui-hostname (español)
-description: "Este comando es un alias de `nmtui hostname`."
-content_hash: 9c3ed2d98f7a01192e0483511df043fdff8ef624
+title: linux/yum-config-manager (español)
+description: "Este comando es un alias de `dnf config-manager`."
+content_hash: 55d28a828e7eb26cd1370e3b274c54adf4f25a43
 last_modified_at: 2024-11-04
 related_topics:
   - title: English version
-    url: /en/linux/nmtui-hostname.html
+    url: /en/linux/yum-config-manager.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/yum-config-manager.html
     icon: bi bi-globe
   - title: Nederlands version
-    url: /nl/linux/nmtui-hostname.html
-    icon: bi bi-globe
-  - title: polski version
-    url: /pl/linux/nmtui-hostname.html
+    url: /nl/linux/yum-config-manager.html
     icon: bi bi-globe
 tldri18n_status: 0
 ---
@@ -22,13 +22,13 @@ This entry is currently considered outdated and its contents may not be up-to-da
 
 Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
 
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/nmtui-hostname.html">View original (English) version</a>
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/yum-config-manager.html">View original (English) version</a>
 <a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
-<hr># nmtui-hostname
+<hr># yum config-manager
 
-Este comando es un alias de `nmtui hostname`.
+Este comando es un alias de `dnf config-manager`.
 
 - Vea la documentación para el comando original:
 
-`tldr nmtui`
+`tldr dnf config-manager`

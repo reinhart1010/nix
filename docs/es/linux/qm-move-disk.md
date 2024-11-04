@@ -1,22 +1,35 @@
 ---
 layout: page
 title: linux/qm-move-disk (español)
-description: "Este comando es un alias de `qm-disk-move`."
-content_hash: dfd67054def19a29be858a3337722987677d3dc5
-last_modified_at: 2023-11-02
+description: "Este comando es un alias de `qm disk move`."
+content_hash: 7506f40fbaae6e2dea84cecfff21872f19b418d7
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/linux/qm-move-disk.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/qm-move-disk.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/qm-move-disk.html
+    icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
 
-<hr># qm-move-disk
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
 
-Este comando es un alias de `qm-disk-move`.
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/qm-move-disk.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># qm move disk
+
+Este comando es un alias de `qm disk move`.
 Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- Ver documentación para el comando original:
+- Vea la documentación para el comando original:
 
-`tldr qm-disk-move`
+`tldr qm disk move`

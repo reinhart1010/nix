@@ -1,22 +1,35 @@
 ---
 layout: page
 title: windows/sc-config (español)
-description: "Este comando es un alias de `sc`."
-content_hash: 9203ae657117093cae67f877b511ab85167c54fb
-last_modified_at: 2023-11-02
+description: "Este comando es un alias de `sc.exe config`."
+content_hash: b9ca6f5c1014303ff29d9240238df5de108622fe
+last_modified_at: 2024-11-04
 related_topics:
   - title: English version
     url: /en/windows/sc-config.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/sc-config.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/sc-config.html
+    icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
 
-<hr># sc-config
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
 
-Este comando es un alias de `sc`.
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/sc-config.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># sc config
+
+Este comando es un alias de `sc.exe config`.
 Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/sc-config>.
 
-- Ver documentación para el comando original:
+- Vea la documentación para el comando original:
 
 `tldr sc`
