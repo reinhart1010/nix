@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/bc (한국어)
-description: "계산기의 기능을 수행합니다."
-content_hash: aa285d8234b00c8e4a4083f1fdd8684c4668fa67
-last_modified_at: 2024-09-09
+description: "임의의 정밀 계산기 언어."
+content_hash: 291a66b107081a174296fe905fb8713de30ee9b6
+last_modified_at: 2024-11-05
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -36,21 +36,34 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># bc
 
-계산기의 기능을 수행합니다.
+임의의 정밀 계산기 언어.
+참조: `dc`, `qalc`.
 더 많은 정보: <https://manned.org/bc>.
 
-- 표준 Math 라이브러리를 사용한 대화형 모드에서 계산기 실행하기:
+- 대화형 세션을 시작:
 
-`bc -l`
+`bc`
 
-- 계산 결과 표현법:
+- 표준 수학 라이브러리([l]ibrary)가 활성화된 상태에서 대화형([i]nteractive) 세션을 시작:
 
-`bc <<< "(1 + 2) * 2 ^ 2"`
+`bc --interactive --mathlib`
 
-- 계산 및 표현되는 소수 자릿수를 10으로 지정하기:
+- 표현식을 계산:
 
-`bc <<< "scale=10; 5 / 3"`
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>`' | bc`
 
-- mathlib를 사용하여 sin 및 cosine의 계산식 표현하기:
+- 스크립트 실행:
 
-`bc -l <<< "s(1) + c(1)"`
+`bc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.bc</span>
+
+- 지정된 척도를 사용해 표현식을 계산:
+
+`echo 'scale = `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>`; `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>`' | bc`
+
+- `mathlib`을 사용하여 사인/코사인/아크탄젠트/자연 로그/지수 함수를 계산:
+
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span>`(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>`)' | bc --mathlib`
+
+- 인라인 계승 스크립트를 실행:
+
+`echo "define factorial(n) { if (n <= 1) return 1; return n*factorial(n-1); }; factorial(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>`)" | bc`

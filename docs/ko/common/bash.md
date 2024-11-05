@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (한국어)
 description: "Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터."
-content_hash: faf06b73c069985f29710e5a2a24aebb3553b2d6
-last_modified_at: 2024-03-10
+content_hash: a9e5e00bd6f0c93860f428bb78443767d792da77
+last_modified_at: 2024-11-05
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -23,6 +23,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/bash.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/bash.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/bash.html
     icon: bi bi-globe
@@ -40,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># bash
 
 Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터.
-참조 : `zsh`, `histexpand` (history expansion).
+참조: `zsh`, `histexpand` (history 확장).
 더 많은 정보: <https://www.gnu.org/software/bash/>.
 
 - 대화형 쉘 시작하기:
@@ -57,16 +60,20 @@ Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터.
 
 - 특정 스크립트 실행하기:
 
-`bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/script.sh</span>
+`bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.sh</span>
 
-- 각 명령어 실행 전 명령어 인쇄하며 특정 스크립트 실행하기:
+- 각 명령어 실행 전 명령어 인쇄하며 특정 스크립트 실행하기(E[x]ecute):
 
-`bash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/script.sh</span>
+`bash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.sh</span>
 
 - 첫 번째 에러([e]rror)가 발생하면 중지되도록 하며 특정 스크립트 실행하기:
 
-`bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/script.sh</span>
+`bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.sh</span>
 
 - `stdin`에서 Bash 실행하기:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'bash가 실행되었습니다'"</span>` | bash`
+
+- 제한된([r]estricted) 쉘 세션을 시작:
+
+`bash -r`

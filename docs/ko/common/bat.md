@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/bat (한국어)
-description: "파일들을 출력하고 연결. 구문 강조와 Git 통합을 가진`cat`클론."
-content_hash: 2421d8121fd5ec991d83d1e90fe7736bd1747fca
-last_modified_at: 2024-03-07
+description: "파일을 출력하고 연결."
+content_hash: ae1aa70c77fa4f8e73a5c0bc580771f31fc0908e
+last_modified_at: 2024-11-05
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -48,29 +48,38 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># bat
 
-파일들을 출력하고 연결. 구문 강조와 Git 통합을 가진`cat`클론.
+파일을 출력하고 연결.
+구문 강조 및 Git 통합 기능을 갖춘 `cat`을 클론.
 더 많은 정보: <https://github.com/sharkdp/bat>.
 
-- 파일 내용을 표준 출력으로 출력:
+- 하나 이상의 파일 내용을 `stdout`으로 깔끔하게 출력:
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 ...</span>
 
 - 여러 파일을 대상 파일에 연결:
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_file</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상_파일</span>
 
-- 대상 파일에 여러 파일을 추가:
+- 꾸밈을 제거하고 페이징을 비활성화 (`--style plain`은 `-p`로 대체되거나, 두 옵션 모두 `-pp`로 대체될 수 있음):
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_file</span>
+`bat --style plain --pager never `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
 
-- 모든 출력 라인 번호 매기기:
+- 배경색이 다른 특정 줄이나 범위를 강조 표시:
 
-`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|--highlight-line</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10|5:10|:10|10:|10:+5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
 
-- json파일 구문 강조:
+- 공백, 탭, 개행 문자 등 출력할 수 없는 문자 표시:
 
-`bat --language json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-A|--show-all</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
+
+- 출력에서 줄 번호를 제외한 모든 꾸밈을 제거:
+
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--number</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
+
+- 구문은 언어를 명시적으로 설정하여 JSON 파일을 강조 표시:
+
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|--language</span>` json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.json</span>
 
 - 지원되는 모든 언어 표시:
 
-`bat --list-languages`
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-L|--list-languages</span>

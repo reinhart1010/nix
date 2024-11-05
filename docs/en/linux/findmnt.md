@@ -2,8 +2,8 @@
 layout: page
 title: linux/findmnt (English)
 description: "Find your filesystem."
-content_hash: e3be890f2d0a407062280a776c964670b73aa824
-last_modified_at: 2023-11-12
+content_hash: b46420a95ebc2a21abdba86aafb8743c96d05f20
+last_modified_at: 2024-11-05
 tldri18n_status: 2
 ---
 # findmnt
@@ -30,3 +30,7 @@ More information: <https://manned.org/findmnt>.
 - Find filesystems with specific label:
 
 `findmnt LABEL=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">BigStorage</span>
+
+- Check mount table content in detail and verify `/etc/fstab`:
+
+`findmnt --verify --verbose`
