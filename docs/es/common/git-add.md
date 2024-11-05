@@ -3,7 +3,7 @@ layout: page
 title: common/git-add (español)
 description: "Añade los archivos cambiados al índice."
 content_hash: 55623bcb3a6ab1c9881c0385a129e7972834a65e
-last_modified_at: 2024-11-04
+last_modified_at: 2024-11-05
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -38,12 +38,9 @@ related_topics:
   - title: українська version
     url: /uk/common/git-add.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git add
+# git add
 
 Añade los archivos cambiados al índice.
 Más información: <https://git-scm.com/docs/git-add>.

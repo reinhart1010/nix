@@ -3,23 +3,14 @@ layout: page
 title: common/httpry (한국어)
 description: "HTTP 트래픽을 표시하고 기록하기 위한 경량 패킷 스니퍼."
 content_hash: 15b10d90d1404afdcfe45bc1c34a3cb8844d76ad
-last_modified_at: 2024-11-04
+last_modified_at: 2024-11-05
 related_topics:
   - title: English version
     url: /en/common/httpry.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/httpry.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># httpry
+# httpry
 
 HTTP 트래픽을 표시하고 기록하기 위한 경량 패킷 스니퍼.
 구문 분석되는 트래픽을 실시간으로 표시하거나 출력 파일에 기록하는 데몬 프로세스로 실행될 수 있음.

@@ -3,23 +3,14 @@ layout: page
 title: common/hub-clone (한국어)
 description: "기존 저장소를 복제."
 content_hash: 5c256e7ce782c546d74728801ffb8f4e48ca7c65
-last_modified_at: 2024-11-04
+last_modified_at: 2024-11-05
 related_topics:
   - title: English version
     url: /en/common/hub-clone.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hub-clone.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hub clone
+# hub clone
 
 기존 저장소를 복제.
 더 많은 정보: <https://hub.github.com/hub-clone.1.html>.

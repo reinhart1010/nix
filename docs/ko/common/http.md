@@ -3,7 +3,7 @@ layout: page
 title: common/http (한국어)
 description: "HTTPie: 테스트, 디버깅 및 일반적으로 API 및 HTTP 서버와 상호작용하도록 설계된 HTTP 클라이언트."
 content_hash: 982836e457ad5cda341f77e7009706dec22817db
-last_modified_at: 2024-11-04
+last_modified_at: 2024-11-05
 related_topics:
   - title: Deutsch version
     url: /de/common/http.html
@@ -17,18 +17,9 @@ related_topics:
   - title: polski version
     url: /pl/common/http.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/http.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># http
+# http
 
 HTTPie: 테스트, 디버깅 및 일반적으로 API 및 HTTP 서버와 상호작용하도록 설계된 HTTP 클라이언트.
 더 많은 정보: <https://httpie.io/docs/cli/usage>.

@@ -3,23 +3,14 @@ layout: page
 title: common/http-server-upload (한국어)
 description: "파일 업로드를 위한 경량 인터페이스를 제공하는 구성이 필요없는 커멘트라인 HTTP 서버."
 content_hash: 543c13ded748e26a3be5e9355a9913115751350b
-last_modified_at: 2024-11-04
+last_modified_at: 2024-11-05
 related_topics:
   - title: English version
     url: /en/common/http-server-upload.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/http-server-upload.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># http-server-upload
+# http-server-upload
 
 파일 업로드를 위한 경량 인터페이스를 제공하는 구성이 필요없는 커멘트라인 HTTP 서버.
 더 많은 정보: <https://github.com/crycode-de/http-server-upload>.
