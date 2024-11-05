@@ -1,0 +1,42 @@
+---
+layout: page
+title: common/netperf (한국어)
+description: "네트워크 처리량을 측정하는 벤치마킹 애플리케이션 `netperf`의 클라이언트 측 명령어. `iperf`와 유사합니다."
+content_hash: 195f02bdb19a9dc9bd03a46cbf5fcbae30168622
+last_modified_at: 2024-11-05
+related_topics:
+  - title: English version
+    url: /en/common/netperf.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/netperf.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># netperf
+
+네트워크 처리량을 측정하는 벤치마킹 애플리케이션 `netperf`의 클라이언트 측 명령어. `iperf`와 유사합니다.
+같이 보기: 서버 측 명령어 `netserver`.
+더 많은 정보: <https://hewlettpackard.github.io/netperf/doc/netperf.html#Global-Command_002dline-Options>.
+
+- 기본 포트(12865)를 통해 특정 IP 주소의 서버에 연결:
+
+`netperf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span>
+
+- [p]ort 지정:
+
+`netperf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span>
+
+- 샘플링 [l]ength를 초 단위로 지정 (기본값은 10초):
+
+`netperf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span>` -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초</span>
+
+- IPv[4] 또는 IPv[6] 강제 사용:
+
+`netperf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span>` -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span>
