@@ -1,0 +1,33 @@
+---
+layout: page
+title: common/idevicesyslog (한국어)
+description: "연결된 iOS 장치의 syslog 메시지를 릴레이."
+content_hash: 833b3be99523dc6fd2c798d6e7580c3b3c690a6c
+last_modified_at: 2024-11-05
+related_topics:
+  - title: English version
+    url: /en/common/idevicesyslog.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/idevicesyslog.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># idevicesyslog
+
+연결된 iOS 장치의 syslog 메시지를 릴레이.
+더 많은 정보: <https://manned.org/idevicesyslog>.
+
+- 연결된 장치의 syslog 메시지 릴레이:
+
+`idevicesyslog`
+
+- 커널 메시지를 억제하고 다른 모든 내용을 출력:
+
+`idevicesyslog --no-kernel`

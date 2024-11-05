@@ -1,0 +1,54 @@
+---
+layout: page
+title: common/obs (한국어)
+description: "오픈 브로드캐스터 소프트웨어."
+content_hash: e122bbaf3a017132f08c7bac52b76d06110359d2
+last_modified_at: 2024-11-05
+related_topics:
+  - title: English version
+    url: /en/common/obs.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/obs.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># obs
+
+오픈 브로드캐스터 소프트웨어.
+비디오 녹화 및 라이브 스트리밍 프로그램.
+더 많은 정보: <https://obsproject.com/>.
+
+- OBS 실행:
+
+`obs`
+
+- OBS를 포터블 모드로 실행:
+
+`obs --portable`
+
+- 실행 시 자동으로 비디오 녹화를 시작:
+
+`obs --startrecording`
+
+- 실행 시 자동으로 리플레이 버퍼 시작:
+
+`obs --startreplaybuffer`
+
+- 실행 시 자동으로 스트리밍 시작:
+
+`obs --startstreaming`
+
+- 실행 시 시스템 트레이로 최소화:
+
+`obs --minimize-to-tray`
+
+- 로그를 더 자세하게 남기기 (디버깅용):
+
+`obs --verbose`

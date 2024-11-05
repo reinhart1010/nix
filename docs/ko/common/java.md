@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/java (한국어)
-description: "자바 애플리케이션 실행기."
-content_hash: 1235c1a6a83b9e5f8c1c49356c845c37a00b6691
-last_modified_at: 2023-11-12
+description: "Java 애플리케이션 실행기."
+content_hash: 50759a97491fefd29ad625b0b654a43bfb516238
+last_modified_at: 2024-11-05
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -27,29 +27,29 @@ tldri18n_status: 2
 ---
 # java
 
-자바 애플리케이션 실행기.
+Java 애플리케이션 실행기.
 더 많은 정보: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>.
 
-- 클래스 이름만 사용하여 기본 메서드가 포함된 자바 클래스 파일을 실행:
+- 메인 메서드를 포함한 Java `.class` 파일을 클래스 이름만 사용하여 실행:
 
-`java `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클래스 이름</span>
+`java `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클래스명</span>
 
-- 자바 프로그램을 실행하고 추가적인 타사 또는 사용자 정의 클래스 사용:
+- 추가 서드파티 또는 사용자 정의 클래스를 사용하여 Java 프로그램 실행:
 
-`java -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/classes1</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/classes2</span>`:. `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클래스 이름</span>
+`java -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/클래스1</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/클래스2</span>`:. `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클래스명</span>
 
 - `.jar` 프로그램 실행:
 
-`java -jar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름.jar</span>
+`java -jar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명.jar</span>
 
-- 포트 5005에서 연결을 기다리는 디버그를 사용하여 `.jar` 프로그램을 실행:
+- 포트 5005에서 연결 대기 상태로 디버그 모드에서 `.jar` 프로그램 실행:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름.jar</span>
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명.jar</span>
 
 - JDK, JRE 및 HotSpot 버전 표시:
 
 `java -version`
 
-- java 명령에 대한 사용법 정보 표시:
+- 도움말 표시:
 
 `java -help`

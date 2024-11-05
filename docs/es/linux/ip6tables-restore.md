@@ -1,21 +1,34 @@
 ---
 layout: page
 title: linux/ip6tables-restore (español)
-description: "Este comando es un alias de `iptables-restore`."
-content_hash: d10e1049d620388257268574e5add257a6ea90fb
-last_modified_at: 2023-11-02
+description: "Este comando es un alias de `iptables-restore` para el cortafuegos (firewall) IPv6."
+content_hash: d20bef5d15819e90a1f5587d821225019cb05426
+last_modified_at: 2024-11-05
 related_topics:
   - title: English version
     url: /en/linux/ip6tables-restore.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/ip6tables-restore.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/ip6tables-restore.html
+    icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/ip6tables-restore.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># ip6tables-restore
 
-Este comando es un alias de `iptables-restore`.
+Este comando es un alias de `iptables-restore` para el cortafuegos (firewall) IPv6.
 
-- Ver documentación para el comando original:
+- Vea la documentación para el comando original:
 
 `tldr iptables-restore`

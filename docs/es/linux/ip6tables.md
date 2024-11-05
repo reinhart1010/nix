@@ -1,21 +1,34 @@
 ---
 layout: page
 title: linux/ip6tables (español)
-description: "Este comando es un alias de `iptables`."
-content_hash: 824805c7848a6fce98cd331f5236ad1c6df1fa5b
-last_modified_at: 2023-11-02
+description: "Este comando es un alias de `iptables`  para el cortafuegos (firewall) IPv6."
+content_hash: d710a284626fc7b9abc024ab29c47113713efb5c
+last_modified_at: 2024-11-05
 related_topics:
   - title: English version
     url: /en/linux/ip6tables.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/ip6tables.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/ip6tables.html
+    icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/ip6tables.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># ip6tables
 
-Este comando es un alias de `iptables`.
+Este comando es un alias de `iptables`  para el cortafuegos (firewall) IPv6.
 
-- Ver documentación para el comando original:
+- Vea la documentación para el comando original:
 
 `tldr iptables`
