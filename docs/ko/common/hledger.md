@@ -1,0 +1,58 @@
+---
+layout: page
+title: common/hledger (한국어)
+description: "강력하고 사용하기 쉬운 텍스트 기반 회계 앱."
+content_hash: cec6c6092aba1b6eb6b9a89a651e9157b5c98315
+last_modified_at: 2024-11-06
+related_topics:
+  - title: English version
+    url: /en/common/hledger.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/hledger.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># hledger
+
+강력하고 사용하기 쉬운 텍스트 기반 회계 앱.
+같이 보기: TUI를 위한 `hledger-ui`, 웹 인터페이스를 위한 `hledger-web`.
+더 많은 정보: <https://hledger.org/hledger.html>.
+
+- 새로운 거래를 대화형으로 기록하고 기본 저널 파일에 저장:
+
+`hledger add`
+
+- `bank.csv`에서 새로운 거래를 가져오고, `bank.csv.rules`를 사용하여 변환:
+
+`hledger import `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bank.csv</span>
+
+- 여러 지정된 저널 파일에서 모든 거래를 출력:
+
+`hledger print --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/prices-2024.journal</span>` --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/prices-2023.journal</span>
+
+- 계정과 그 유형을 계층 구조로 모두 표시:
+
+`hledger accounts --tree --types`
+
+- 자산 및 부채 계정 잔액을 0을 포함하여 계층적으로 표시:
+
+`hledger balancesheet --empty --tree --no-elide`
+
+- 월별 수입/지출/총액을 가장 큰 것부터 2단계로 요약하여 표시:
+
+`hledger incomestatement --monthly --row-total --average --sort --depth 2`
+
+- `assets:bank:checking` 계정의 거래 및 진행 중인 잔액을 표시:
+
+`hledger aregister assets:bank:checking`
+
+- `assets:cash` 계정에서 음식에 소비한 금액을 표시:
+
+`hledger print assets:cash | hledger -f- -I aregister expenses:food`

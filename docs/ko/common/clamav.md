@@ -1,24 +1,12 @@
 ---
 layout: page
 title: common/clamav (한국어)
-description: "이 명령은 `clamdscan` 의 에일리어스 (별칭) 입니다."
-content_hash: a67cc9a8a43bf1c50236b2e19ce43e9436e358b3
-last_modified_at: 2024-05-09
+description: "오픈 소스 안티 바이러스 프로그램."
+content_hash: e7aba706095907860d831cf9377d2c420f98b382
+last_modified_at: 2024-11-06
 related_topics:
-  - title: العربية version
-    url: /ar/common/clamav.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/clamav.html
-    icon: bi bi-globe
   - title: català version
     url: /ca/common/clamav.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/clamav.html
-    icon: bi bi-globe
-  - title: Deutsch version
-    url: /de/common/clamav.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/clamav.html
@@ -26,50 +14,14 @@ related_topics:
   - title: español version
     url: /es/common/clamav.html
     icon: bi bi-globe
-  - title: français version
-    url: /fr/common/clamav.html
-    icon: bi bi-globe
-  - title: हिन्दी version
-    url: /hi/common/clamav.html
-    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/clamav.html
-    icon: bi bi-globe
-  - title: italiano version
-    url: /it/common/clamav.html
-    icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/clamav.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/clamav.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/clamav.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/common/clamav.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/clamav.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/clamav.html
-    icon: bi bi-globe
-  - title: polski version
-    url: /pl/common/clamav.html
-    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/clamav.html
-    icon: bi bi-globe
-  - title: português (Portugal) version
-    url: /pt_PT/common/clamav.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/clamav.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/clamav.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/clamav.html
@@ -77,28 +29,31 @@ related_topics:
   - title: ไทย version
     url: /th/common/clamav.html
     icon: bi bi-globe
-  - title: Türkçe version
-    url: /tr/common/clamav.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/clamav.html
-    icon: bi bi-globe
-  - title: 中文 version
-    url: /zh/common/clamav.html
-    icon: bi bi-globe
-  - title: 中文 (繁體, 台灣) version
-    url: /zh_TW/common/clamav.html
-    icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/clamav.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># ClamAV
 
-이 명령은 `clamdscan` 의 에일리어스 (별칭) 입니다.
+오픈 소스 안티 바이러스 프로그램.
+ClamAV는 명령이 아니라 명령 집합.
 더 많은 정보: <https://www.clamav.net>.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- `clamd` 데몬을 사용하여 파일을 스캔하는 방법에 대한 문서 보기:
 
 `tldr clamdscan`
+
+- `clamd` 데몬을 실행하지 않고 파일을 검색하는 방법에 대한 문서 보기:
+
+`tldr clamscan`
+
+- 바이러스 정의 업데이트에 대한 문서 보기:
+
+`tldr freshclam`
