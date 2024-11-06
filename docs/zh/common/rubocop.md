@@ -2,8 +2,8 @@
 layout: page
 title: common/rubocop (中文)
 description: "格式化 Ruby 文件。"
-content_hash: 3960489ddc22c78050f5cdb692ee1961f2fc4a93
-last_modified_at: 2024-10-13
+content_hash: 144f3de8acb005b31fff775dba8a6c00fcf275cb
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/rubocop.html
@@ -30,11 +30,11 @@ tldri18n_status: 2
 
 - 检查一个或多个指定文件或目录：
 
-`rubocop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录 / 文件名 目录 / 文件名 ...</span>
+`rubocop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1  路径/到/文件2 ...</span>
 
 - 将输出写入指定文件：
 
-`rubocop --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录 / 文件名</span>
+`rubocop --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
 
 - 查看规则列表（格式化规则）：
 

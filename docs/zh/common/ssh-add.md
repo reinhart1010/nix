@@ -2,14 +2,17 @@
 layout: page
 title: common/ssh-add (中文)
 description: "在 ssh 代理中管理加载的 ssh 密钥。"
-content_hash: a4d93692125b7afb7024ccf2380175118b80ab01
-last_modified_at: 2024-03-14
+content_hash: 9892aa2d43a2bd232b2323e0674f460b70690b55
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/ssh-add.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ssh-add.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ssh-add.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ssh-add.html
@@ -28,7 +31,7 @@ tldri18n_status: 2
 
 - 向 ssh 代理添加指定密钥：
 
-`ssh-add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录 / 私钥文件</span>
+`ssh-add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/私钥文件</span>
 
 - 列出当前加载的密钥的指纹：
 
@@ -36,7 +39,7 @@ tldri18n_status: 2
 
 - 从 ssh 代理中删除密钥：
 
-`ssh-add -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录 / 私钥文件</span>
+`ssh-add -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/私钥文件</span>
 
 - 从 ssh 代理中删除所有当前已有的密钥：
 
@@ -44,4 +47,4 @@ tldri18n_status: 2
 
 - 向 ssh 代理和密钥链添加密钥：
 
-`ssh-add -K `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录 / 私钥文件</span>
+`ssh-add -K `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/私钥文件</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (中文)
 description: "创建文件并设置访问/修改时间。"
-content_hash: 475ae6c24b870f42689484c075fdfd6e13020e45
-last_modified_at: 2024-09-22
+content_hash: e985bd63c4f36d1ee845282fe84245a3966a6359
+last_modified_at: 2024-11-06
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -44,7 +44,7 @@ tldri18n_status: 2
 
 - 创建指定的文件：
 
-`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件名1 路径/到/文件名2 ...</span>
+`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 ...</span>
 
 - 将文件的访问(a)或修改时间(m)设置为当前时间，如果文件不存在则不创建(-c)：
 
@@ -52,8 +52,8 @@ tldri18n_status: 2
 
 - 将文件时间(-t)设置为指定值，如果文件不存在则不创建(-c)：
 
-`touch -c -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件名1 路径/到/文件名2 ...</span>
+`touch -c -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 ...</span>
 
 - 将文件时间设置为另一文件(-r,即文件3)的时间，如果文件不存在则不创建(-c)：
 
-`touch -c -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件名1 路径/到/文件名2 ...</span>
+`touch -c -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 ...</span>
