@@ -3,23 +3,14 @@ layout: page
 title: common/phpmd (한국어)
 description: "PHP Mess Detector: 일반적인 잠재적 문제를 확인."
 content_hash: 0ec91d3f9e1984cf98111eacad268c88acf8ad08
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/phpmd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/phpmd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># phpmd
+# phpmd
 
 PHP Mess Detector: 일반적인 잠재적 문제를 확인.
 더 많은 정보: <https://github.com/phpmd/phpmd>.

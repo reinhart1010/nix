@@ -2,9 +2,15 @@
 layout: page
 title: windows/findstr (English)
 description: "Find specified text within one or more files."
-content_hash: b2aec1ce1323dd568b10d663c88b49ef4a896fcb
-last_modified_at: 2024-01-31
+content_hash: 30739e4feff03f01fb57bc77772794aefc3c791f
+last_modified_at: 2024-11-06
 related_topics:
+  - title: हिन्दी version
+    url: /hi/windows/findstr.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/findstr.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/findstr.html
     icon: bi bi-globe
@@ -29,7 +35,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Find strings using a case-insensitive search:
 
-`findstr /i "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1 string2 ...</span>`" *"`
+`findstr /i "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1 string2 ...</span>`" *`
 
 - Find strings in all files using regular expressions:
 

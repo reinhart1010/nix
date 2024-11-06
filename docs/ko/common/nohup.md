@@ -3,7 +3,7 @@ layout: page
 title: common/nohup (한국어)
 description: "터미널이 종료되어도 프로세스가 계속 실행되도록 허용."
 content_hash: 440daaed2481b08c66ca3d2c0b004d19946ad5b7
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/nohup.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/nohup.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nohup.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nohup
+# nohup
 
 터미널이 종료되어도 프로세스가 계속 실행되도록 허용.
 더 많은 정보: <https://www.gnu.org/software/coreutils/nohup>.

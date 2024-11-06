@@ -3,23 +3,14 @@ layout: page
 title: common/ncu (한국어)
 description: "패키지 종속성의 최신 버전을 찾고, 로컬 또는 전역적으로 오래된 npm 패키지를 확인."
 content_hash: 8d09eadfe3bf512c4e71186c20c8ab2bdb4188d6
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/ncu.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ncu.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ncu
+# ncu
 
 패키지 종속성의 최신 버전을 찾고, 로컬 또는 전역적으로 오래된 npm 패키지를 확인.
 `ncu`는 `package.json`의 종속성 버전만 업데이트합니다. 새 버전을 설치하려면 이후에 `npm install`을 실행하세요.

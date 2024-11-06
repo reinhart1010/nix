@@ -3,23 +3,14 @@ layout: page
 title: common/ia (한국어)
 description: "`archive.org`와 상호작용하기 위한 커멘드라인 도구."
 content_hash: 7399a8a32d6f59168aa90d14f10ac3349dcee852
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/ia.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ia.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ia
+# ia
 
 `archive.org`와 상호작용하기 위한 커멘드라인 도구.
 더 많은 정보: <https://archive.org/services/docs/api/internetarchive/cli.html>.

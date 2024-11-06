@@ -3,23 +3,14 @@ layout: page
 title: common/npm-owner (한국어)
 description: "게시된 패키지의 소유권 관리."
 content_hash: f4990bb6b076ecb8b9276b4ae07f9bb58c6b7e61
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/npm-owner.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/npm-owner.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># npm-owner
+# npm-owner
 
 게시된 패키지의 소유권 관리.
 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-owner>.

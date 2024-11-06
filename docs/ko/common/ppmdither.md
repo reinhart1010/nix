@@ -3,23 +3,14 @@ layout: page
 title: common/ppmdither (한국어)
 description: "디더링을 적용하여 이미지의 색상 수를 줄입니다."
 content_hash: e14a806cd256c36f332f16d77828583243b282c9
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/ppmdither.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ppmdither.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ppmdither
+# ppmdither
 
 디더링을 적용하여 이미지의 색상 수를 줄입니다.
 더 많은 정보: <https://netpbm.sourceforge.net/doc/ppmdither.html>.

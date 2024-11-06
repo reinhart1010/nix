@@ -3,23 +3,14 @@ layout: page
 title: common/pgmmake (한국어)
 description: "균일한 회색 레벨로 PGM 이미지를 생성."
 content_hash: 3ee73964fc1a8bef41acd476b83450d11260e42e
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/pgmmake.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pgmmake.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pgmmake
+# pgmmake
 
 균일한 회색 레벨로 PGM 이미지를 생성.
 더 많은 정보: <https://netpbm.sourceforge.net/doc/pgmmake.html>.

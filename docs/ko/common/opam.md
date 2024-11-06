@@ -3,23 +3,14 @@ layout: page
 title: common/opam (한국어)
 description: "OCaml 패키지 관리자."
 content_hash: 780d8d5ee871fd1f16e1209dea226b053d17681c
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/opam.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/opam.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># opam
+# opam
 
 OCaml 패키지 관리자.
 OCaml 컴파일러, 도구 및 라이브러리를 관리합니다.

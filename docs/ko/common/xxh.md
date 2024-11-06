@@ -3,23 +3,14 @@ layout: page
 title: common/xxh (한국어)
 description: "SSH 세션을 통해 모든 사용자 정의 설정과 함께 셸을 사용하세요."
 content_hash: 3eaf1c1615d38b0d60d61274319e81bb2c327859
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/xxh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/xxh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xxh
+# xxh
 
 SSH 세션을 통해 모든 사용자 정의 설정과 함께 셸을 사용하세요.
 참고: xxh는 대상 머신의 시스템 디렉토리에 아무것도 설치하지 않습니다; `~/.xxh`를 제거하면 대상 머신에서 xxh의 모든 흔적이 제거됩니다.

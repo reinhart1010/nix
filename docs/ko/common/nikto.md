@@ -3,23 +3,14 @@ layout: page
 title: common/nikto (한국어)
 description: "웹 서버에 대해 여러 항목에 대한 테스트를 수행하는 웹 서버 스캐너."
 content_hash: e39a30fc17ff9dab8b3c4b6f80ee38d839c8b984
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/nikto.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nikto.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nikto
+# nikto
 
 웹 서버에 대해 여러 항목에 대한 테스트를 수행하는 웹 서버 스캐너.
 더 많은 정보: <https://cirt.net/Nikto2>.

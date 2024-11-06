@@ -3,7 +3,7 @@ layout: page
 title: common/hugo (한국어)
 description: "템플릿 기반 정적 사이트 생성기. 모듈, 구성 요소 및 테마를 사용"
 content_hash: 9f41c5e90a6f600787eed863e14f30d8bd476c8f
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/hugo.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/hugo.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hugo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hugo
+# hugo
 
 템플릿 기반 정적 사이트 생성기. 모듈, 구성 요소 및 테마를 사용
 `server`와 같은 일부 하위 명령에는 자체 사용법 문서가 있음.

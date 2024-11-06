@@ -3,23 +3,14 @@ layout: page
 title: common/ibmcloud (한국어)
 description: "IBM Cloud 앱 및 서비스를 관리하기 위한 커멘드라인 도구."
 content_hash: 6759995dcd82b58b63689a324c27d29895dd404d
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/ibmcloud.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ibmcloud.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ibmcloud
+# ibmcloud
 
 IBM Cloud 앱 및 서비스를 관리하기 위한 커멘드라인 도구.
 더 많은 정보: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>.

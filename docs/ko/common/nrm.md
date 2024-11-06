@@ -3,23 +3,14 @@ layout: page
 title: common/nrm (한국어)
 description: "npm 레지스트리 관리자."
 content_hash: d100bc053461e7922f07af5c9f76035a552848b4
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/nrm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nrm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nrm
+# nrm
 
 npm 레지스트리 관리자.
 다양한 npm 레지스트리 간에 쉽게 전환할 수 있도록 도와줍니다.

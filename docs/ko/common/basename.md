@@ -3,7 +3,7 @@ layout: page
 title: common/basename (한국어)
 description: "경로명의 디렉토리가 아닌 부분을 반환."
 content_hash: c73c8b981eda2d8f752fe6e4d15708a64b1e1fcd
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/basename.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># basename
+# basename
 
 경로명의 디렉토리가 아닌 부분을 반환.
 더 많은 정보: <https://www.gnu.org/software/coreutils/basename>.

@@ -3,7 +3,7 @@ layout: page
 title: common/netlify (한국어)
 description: "Netlify 플랫폼에 사이트를 배포하고 지속적 배포를 설정."
 content_hash: 9b3ea3af82275e7b585b6b25eec2998437d55a40
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/netlify.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/netlify.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/netlify.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># netlify
+# netlify
 
 Netlify 플랫폼에 사이트를 배포하고 지속적 배포를 설정.
 더 많은 정보: <https://cli.netlify.com>.

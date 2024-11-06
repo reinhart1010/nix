@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/clear (한국어)
-description: "이 명령은 `clear-host` 의 에일리어스 (별칭) 입니다."
-content_hash: f467407e794c211705510fb4c91f37dac053d135
-last_modified_at: 2023-11-02
+description: "PowerShell에서 이 명령은 `Clear-Host`의 별칭입니다."
+content_hash: 25b85addf59865a0d5d334bc79f1e99de9a1e835
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/windows/clear.html
@@ -11,14 +11,15 @@ related_topics:
   - title: español version
     url: /es/windows/clear.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/clear.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
+# clear
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+PowerShell에서 이 명령은 `Clear-Host`의 별칭입니다.
 
-<hr># clear
-
-이 명령은 `clear-host` 의 에일리어스 (별칭) 입니다.
-
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- 원본 명령에 대한 문서 보기:
 
 `tldr clear-host`

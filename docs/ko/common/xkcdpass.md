@@ -3,7 +3,7 @@ layout: page
 title: common/xkcdpass (한국어)
 description: "강력한 암호를 생성하는 유연하고 스크립트 가능한 암호 생성기."
 content_hash: f8db3a546b972726a1e9bcf4855ba3ecb16a695f
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/xkcdpass.html
@@ -11,18 +11,9 @@ related_topics:
   - title: polski version
     url: /pl/common/xkcdpass.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/xkcdpass.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xkcdpass
+# xkcdpass
 
 강력한 암호를 생성하는 유연하고 스크립트 가능한 암호 생성기.
 XKCD 936에서 영감을 받았습니다.

@@ -3,23 +3,14 @@ layout: page
 title: common/notmuch (한국어)
 description: "대량의 이메일 메시지를 색인화, 검색, 읽기 및 태깅하기 위한 명령줄 기반 프로그램."
 content_hash: 57e19d0187db456655d9284f40af35cc77497e40
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/notmuch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/notmuch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># notmuch
+# notmuch
 
 대량의 이메일 메시지를 색인화, 검색, 읽기 및 태깅하기 위한 명령줄 기반 프로그램.
 더 많은 정보: <https://notmuchmail.org/manpages/>.

@@ -3,23 +3,14 @@ layout: page
 title: common/phpcbf (한국어)
 description: "phpcs에서 감지된 위반 사항 수정."
 content_hash: 872b35e5a7f8af7653ff5bba9f36da021d907a93
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/phpcbf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/phpcbf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># phpcbf
+# phpcbf
 
 phpcs에서 감지된 위반 사항 수정.
 더 많은 정보: <https://github.com/squizlabs/PHP_CodeSniffer>.

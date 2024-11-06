@@ -3,23 +3,14 @@ layout: page
 title: common/pnmscalefixed (한국어)
 description: "PNM 파일을 빠르게 확장하되 품질이 다소 저하될 수 있습니다."
 content_hash: de49929c13796c6fc6926bdf28bcb6d23c02262b
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/pnmscalefixed.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pnmscalefixed.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pnmscalefixed
+# pnmscalefixed
 
 PNM 파일을 빠르게 확장하되 품질이 다소 저하될 수 있습니다.
 같이 보기: `pamscale`.

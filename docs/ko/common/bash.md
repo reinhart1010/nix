@@ -3,7 +3,7 @@ layout: page
 title: common/bash (한국어)
 description: "Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터."
 content_hash: a9e5e00bd6f0c93860f428bb78443767d792da77
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/bash.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bash
+# bash
 
 Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터.
 참조: `zsh`, `histexpand` (history 확장).

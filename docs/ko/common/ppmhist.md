@@ -3,23 +3,14 @@ layout: page
 title: common/ppmhist (한국어)
 description: "PPM 이미지에 포함된 색상의 히스토그램을 출력."
 content_hash: 0291278bf37905e078b610af374881708f704cbe
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/ppmhist.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ppmhist.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ppmhist
+# ppmhist
 
 PPM 이미지에 포함된 색상의 히스토그램을 출력.
 같이 보기: `pgmhist`.

@@ -3,7 +3,7 @@ layout: page
 title: common/nvim (한국어)
 description: "Neovim은 Vim을 기반으로 한 프로그래머용 텍스트 편집기로, 다양한 텍스트 조작을 위한 여러 모드를 제공합니다."
 content_hash: ad2269e6782a6f9c5b90758d2f97c17752ebc10e
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/nvim.html
@@ -20,18 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/nvim.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nvim.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nvim
+# nvim
 
 Neovim은 Vim을 기반으로 한 프로그래머용 텍스트 편집기로, 다양한 텍스트 조작을 위한 여러 모드를 제공합니다.
 일반 모드에서 `i`를 누르면 입력 모드로 전환됩니다. `<Esc>`를 누르면 일반 모드로 돌아가며, 일반 텍스트 입력이 허용되지 않습니다.

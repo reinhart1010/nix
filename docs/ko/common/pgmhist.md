@@ -3,23 +3,14 @@ layout: page
 title: common/pgmhist (한국어)
 description: "PGM 이미지에 포함된 값의 히스토그램을 출력."
 content_hash: 0b8f604f12879bb7d00d02989b97b74c78dc39fb
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/pgmhist.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pgmhist.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pgmhist
+# pgmhist
 
 PGM 이미지에 포함된 값의 히스토그램을 출력.
 같이 보기: `ppmhist`.

@@ -3,7 +3,7 @@ layout: page
 title: freebsd/ypchsh (español)
 description: "Este comando es un alias de `chpass`."
 content_hash: d65732f99e5fa2cbe97f3e4262e8f55498a2a06a
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/freebsd/ypchsh.html
@@ -20,18 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/freebsd/ypchsh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/ypchsh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ypchsh
+# ypchsh
 
 Este comando es un alias de `chpass`.
 

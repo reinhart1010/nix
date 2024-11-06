@@ -3,7 +3,7 @@ layout: page
 title: common/xcv (한국어)
 description: "명령줄에서 자르기, 복사 및 붙여넣기."
 content_hash: c2d115c3d9c9fbedc60842627c98ccc213bf8005
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/xcv.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/xcv.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/xcv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xcv
+# xcv
 
 명령줄에서 자르기, 복사 및 붙여넣기.
 더 많은 정보: <https://github.com/busterc/xcv>.

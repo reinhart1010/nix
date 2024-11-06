@@ -3,23 +3,14 @@ layout: page
 title: common/xonsh (한국어)
 description: "Python 기반의 크로스 플랫폼 및 Unix 지향 셸."
 content_hash: 955384b958849b0a27d4f304346d711a458d22f2
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/xonsh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/xonsh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xonsh
+# xonsh
 
 Python 기반의 크로스 플랫폼 및 Unix 지향 셸.
 Xonsh(발음: conch)에서 sh/Python 코드를 작성하고 혼합할 수 있습니다.

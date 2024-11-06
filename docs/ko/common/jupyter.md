@@ -3,7 +3,7 @@ layout: page
 title: common/jupyter (한국어)
 description: "코드, 시각화 및 노트를 포함한 문서를 생성하고 공유할 수 있는 웹 애플리케이션."
 content_hash: 2e23e8cfd2cd0b54b123bd5b0ad55984e0fc8775
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/jupyter.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/jupyter.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/jupyter.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># jupyter
+# jupyter
 
 코드, 시각화 및 노트를 포함한 문서를 생성하고 공유할 수 있는 웹 애플리케이션.
 주로 데이터 분석, 과학 컴퓨팅 및 머신 러닝에 사용됩니다.

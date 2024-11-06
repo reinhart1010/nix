@@ -3,7 +3,7 @@ layout: page
 title: common/xargs (한국어)
 description: "다른 명령, 파일 등으로부터 전달된 인수를 사용하여 명령을 실행."
 content_hash: 5ade0ca8a9f1477b902746275901982bd7553e98
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/xargs.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/xargs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/xargs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xargs
+# xargs
 
 다른 명령, 파일 등으로부터 전달된 인수를 사용하여 명령을 실행.
 입력은 하나의 텍스트 블록으로 처리되며 공백, 탭, 개행 및 파일 끝에서 별개의 조각으로 분리됩니다.

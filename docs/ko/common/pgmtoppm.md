@@ -3,23 +3,14 @@ layout: page
 title: common/pgmtoppm (한국어)
 description: "PGM 이미지를 색상화."
 content_hash: ee4fed47805fa2f21ad39fb7e5c5d7b6ffa0daf7
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/pgmtoppm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pgmtoppm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pgmtoppm
+# pgmtoppm
 
 PGM 이미지를 색상화.
 더 많은 정보: <https://netpbm.sourceforge.net/doc/pgmtoppm.html>.

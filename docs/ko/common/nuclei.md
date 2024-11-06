@@ -3,23 +3,14 @@ layout: page
 title: common/nuclei (한국어)
 description: "간단한 YAML 기반 DSL을 사용하는 빠르고 커스터마이즈 가능한 취약점 스캐너."
 content_hash: 8e2fc634ec08fc3504e0fbd78971b357a36d15fe
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/nuclei.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nuclei.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nuclei
+# nuclei
 
 간단한 YAML 기반 DSL을 사용하는 빠르고 커스터마이즈 가능한 취약점 스캐너.
 더 많은 정보: <https://docs.projectdiscovery.io/tools/nuclei/overview>.

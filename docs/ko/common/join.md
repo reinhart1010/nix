@@ -3,7 +3,7 @@ layout: page
 title: common/join (한국어)
 description: "두 정렬된 파일의 공통 필드를 기준으로 줄을 결합."
 content_hash: b694e9fd5c937feef309e2d99cac3024e1c667c5
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/join.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/join.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/join.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># join
+# join
 
 두 정렬된 파일의 공통 필드를 기준으로 줄을 결합.
 더 많은 정보: <https://www.gnu.org/software/coreutils/join>.

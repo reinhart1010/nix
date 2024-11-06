@@ -3,23 +3,14 @@ layout: page
 title: common/odps-inst (한국어)
 description: "ODPS(오픈 데이터 프로세싱 서비스)에서 인스턴스를 관리합니다."
 content_hash: 97e871fa9874f82cad9d5688e14e91297e8b4a5d
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/odps-inst.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/odps-inst.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># odps inst
+# odps inst
 
 ODPS(오픈 데이터 프로세싱 서비스)에서 인스턴스를 관리합니다.
 같이 보기: `odps`.

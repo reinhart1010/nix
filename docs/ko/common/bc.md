@@ -3,7 +3,7 @@ layout: page
 title: common/bc (한국어)
 description: "임의의 정밀 계산기 언어."
 content_hash: 291a66b107081a174296fe905fb8713de30ee9b6
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -29,12 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bc.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bc
+# bc
 
 임의의 정밀 계산기 언어.
 참조: `dc`, `qalc`.

@@ -3,7 +3,7 @@ layout: page
 title: common/open.fish (한국어)
 description: "파일, 디렉토리 및 URI를 기본 애플리케이션으로 엽니다."
 content_hash: 6fae391bab3a2c9784a99ff5f870a2ba475ab415
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/open.fish.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/open.fish.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/open.fish.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># open
+# open
 
 파일, 디렉토리 및 URI를 기본 애플리케이션으로 엽니다.
 이 명령은 내장 `open` 명령이 없는 운영 체제(예: Haiku 및 macOS)에서 fish를 통해 사용할 수 있습니다.

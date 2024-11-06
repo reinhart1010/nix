@@ -3,23 +3,14 @@ layout: page
 title: common/ngrep (한국어)
 description: "정규식을 사용하여 네트워크 트래픽 패킷을 필터링."
 content_hash: fa2e991e57620d207cbadb53d9c4ceeede2d43d5
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/ngrep.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ngrep.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ngrep
+# ngrep
 
 정규식을 사용하여 네트워크 트래픽 패킷을 필터링.
 더 많은 정보: <https://github.com/jpr5/ngrep>.

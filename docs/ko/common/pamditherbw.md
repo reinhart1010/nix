@@ -3,7 +3,7 @@ layout: page
 title: common/pamditherbw (한국어)
 description: "그레이스케일 이미지에 디더링을 적용하여 원래의 그레이스케일과 동일하게 보이는 흑백 픽셀 패턴으로 변환."
 content_hash: 3af8301498acc65a944fa1a35553a9f37948f94b
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/pamditherbw.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/pamditherbw.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pamditherbw.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pamditherbw
+# pamditherbw
 
 그레이스케일 이미지에 디더링을 적용하여 원래의 그레이스케일과 동일하게 보이는 흑백 픽셀 패턴으로 변환.
 같이 보기: `pbmreduce`.

@@ -3,7 +3,7 @@ layout: page
 title: common/naabu (한국어)
 description: "신뢰성과 단순성에 중점을 둔 Go로 작성된 빠른 포트 스캐너."
 content_hash: df0cc6cce7d7ef06851001fd1bb14b3d868db7f5
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/naabu.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/naabu.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/naabu.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># naabu
+# naabu
 
 신뢰성과 단순성에 중점을 둔 Go로 작성된 빠른 포트 스캐너.
 참고: 일부 기능은 `naabu`를 루트 권한으로 실행할 때만 활성화되며, 예를 들어 SYN 스캔이 있습니다.

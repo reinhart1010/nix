@@ -3,23 +3,14 @@ layout: page
 title: common/pammixinterlace (한국어)
 description: "이미지의 각 행을 인접한 두 행과 병합."
 content_hash: 77408321bc899c451a57cd6da7655ae2bfbe586f
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/pammixinterlace.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pammixinterlace.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pammixinterlace
+# pammixinterlace
 
 이미지의 각 행을 인접한 두 행과 병합.
 같이 보기: `pamdeinterlace`.

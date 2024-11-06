@@ -3,7 +3,7 @@ layout: page
 title: common/pamsplit (한국어)
 description: "여러 이미지가 포함된 Netpbm 파일을 단일 이미지 Netpbm 파일로 분할."
 content_hash: b5a229222b815ef7b1b67e15405cb40e58f1011d
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/pamsplit.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/pamsplit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pamsplit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pamsplit
+# pamsplit
 
 여러 이미지가 포함된 Netpbm 파일을 단일 이미지 Netpbm 파일로 분할.
 같이 보기: `pamfile`, `pampick`, `pamexec`.

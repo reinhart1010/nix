@@ -3,23 +3,14 @@ layout: page
 title: common/ooniprobe (한국어)
 description: "네트워크 간섭의 열린 관측소 (OONI)."
 content_hash: 0ffded346f10162c357b755547b6dfcc86af8e88
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/ooniprobe.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ooniprobe.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ooniprobe
+# ooniprobe
 
 네트워크 간섭의 열린 관측소 (OONI).
 웹사이트 및 앱 차단 여부를 테스트하세요. 네트워크의 속도 및 성능을 측정하세요.

@@ -3,23 +3,14 @@ layout: page
 title: common/onionsearch (한국어)
 description: "다양한 `.onion` 검색 엔진에서 URL을 스크랩."
 content_hash: 9938054d43708a5f985e1cb650fd0eb86f1b14a4
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/onionsearch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/onionsearch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># onionsearch
+# onionsearch
 
 다양한 `.onion` 검색 엔진에서 URL을 스크랩.
 참고: `onionsearch`는 `localhost:9050`에서 실행되는 Tor 프록시가 필요하며, `.onion` 웹사이트를 방문하려면 Tor 지원 브라우저가 필요합니다.

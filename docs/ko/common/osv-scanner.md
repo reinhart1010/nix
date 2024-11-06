@@ -3,23 +3,14 @@ layout: page
 title: common/osv-scanner (한국어)
 description: "다양한 매체에서 의존성을 스캔하고 OSV 데이터베이스와 대조합니다."
 content_hash: 5f70ca35ea812bde5cb6e8963f4e092a0e8916a9
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/osv-scanner.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/osv-scanner.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># osv-scanner
+# osv-scanner
 
 다양한 매체에서 의존성을 스캔하고 OSV 데이터베이스와 대조합니다.
 더 많은 정보: <https://osv.dev/about>.

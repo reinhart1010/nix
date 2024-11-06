@@ -3,7 +3,7 @@ layout: page
 title: common/next (한국어)
 description: "서버사이드 렌더링을 사용하여 최적화된 웹 애플리케이션을 구축하는 React 프레임워크."
 content_hash: a6bf2b0a1134521dba68dbc1390080c58f7dccfe
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/next.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/next.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/next.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># next
+# next
 
 서버사이드 렌더링을 사용하여 최적화된 웹 애플리케이션을 구축하는 React 프레임워크.
 더 많은 정보: <https://nextjs.org/docs>.

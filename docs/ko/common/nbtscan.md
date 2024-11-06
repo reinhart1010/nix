@@ -3,23 +3,14 @@ layout: page
 title: common/nbtscan (한국어)
 description: "네트워크를 스캔하여 NetBIOS 이름 정보를 검색."
 content_hash: e1efb5f1bffcf59c61fa8e56b6dff0e3486b46a7
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/nbtscan.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nbtscan.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nbtscan
+# nbtscan
 
 네트워크를 스캔하여 NetBIOS 이름 정보를 검색.
 더 많은 정보: <https://github.com/resurrecting-open-source-projects/nbtscan>.

@@ -3,23 +3,14 @@ layout: page
 title: common/pnmgamma (한국어)
 description: "PNM 이미지에 감마 보정 수행."
 content_hash: 18940887f68bc24990a82c2c1c2347270a02f500
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/pnmgamma.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pnmgamma.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pnmgamma
+# pnmgamma
 
 PNM 이미지에 감마 보정 수행.
 더 많은 정보: <https://netpbm.sourceforge.net/doc/pnmgamma.html>.

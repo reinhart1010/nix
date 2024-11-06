@@ -3,23 +3,14 @@ layout: page
 title: common/phpcs (한국어)
 description: "PHP, JavaScript 및 CSS 파일을 토큰화하여 정의된 코딩 표준 세트의 위반 사항을 감지합니다."
 content_hash: b2186f9eae806351c8e06336e9d929ce32abf935
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/phpcs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/phpcs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># phpcs
+# phpcs
 
 PHP, JavaScript 및 CSS 파일을 토큰화하여 정의된 코딩 표준 세트의 위반 사항을 감지합니다.
 더 많은 정보: <https://github.com/squizlabs/PHP_CodeSniffer>.

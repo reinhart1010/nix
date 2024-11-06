@@ -3,23 +3,14 @@ layout: page
 title: common/npm-star (한국어)
 description: "패키지를 즐겨찾기로 표시."
 content_hash: 45a12b4aa814730ddfcea46918dc98f5fe0af210
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/npm-star.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/npm-star.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># npm star
+# npm star
 
 패키지를 즐겨찾기로 표시.
 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-star>.

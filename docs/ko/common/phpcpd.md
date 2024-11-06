@@ -3,23 +3,14 @@ layout: page
 title: common/phpcpd (한국어)
 description: "PHP 코드의 복사 및 붙여넣기 감지기."
 content_hash: 5e500ffb5bf14e44bdf8a9d3cd3fc1cbedb3c841
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/phpcpd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/phpcpd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># phpcpd
+# phpcpd
 
 PHP 코드의 복사 및 붙여넣기 감지기.
 더 많은 정보: <https://github.com/sebastianbergmann/phpcpd>.

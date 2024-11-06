@@ -3,23 +3,14 @@ layout: page
 title: common/odps (한국어)
 description: "Aliyun ODPS (Open Data Processing Service) 명령줄 도구."
 content_hash: 42f23a602388bb52bba1e89d202cc2ca9fa31fed
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/odps.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/odps.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># odps
+# odps
 
 Aliyun ODPS (Open Data Processing Service) 명령줄 도구.
 `inst`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.

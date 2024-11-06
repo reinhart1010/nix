@@ -3,7 +3,7 @@ layout: page
 title: common/nmap (한국어)
 description: "네트워크 탐색 도구 및 보안/포트 스캐너."
 content_hash: 7faec66637bbc2238b20433d4ed0b6729b50bc49
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/nmap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nmap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nmap
+# nmap
 
 네트워크 탐색 도구 및 보안/포트 스캐너.
 일부 기능(예: SYN 스캔)은 `nmap`을 루트 권한으로 실행할 때만 활성화됩니다.

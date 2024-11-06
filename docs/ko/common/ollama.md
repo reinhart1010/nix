@@ -3,7 +3,7 @@ layout: page
 title: common/ollama (한국어)
 description: "대규모 언어 모델 실행기."
 content_hash: 50dc4a2e2d53f22f47032b56faec34060ecfb700
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/ollama.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/ollama.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ollama.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ollama
+# ollama
 
 대규모 언어 모델 실행기.
 사용 가능한 모델 목록은 <https://ollama.com/library>를 참조하세요.

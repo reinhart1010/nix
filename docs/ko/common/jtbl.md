@@ -3,23 +3,14 @@ layout: page
 title: common/jtbl (한국어)
 description: "JSON 및 JSON Lines 데이터를 터미널에서 표 형태로 출력하는 유틸리티."
 content_hash: 1f6689a591f048f4b2ecd72606b2fe729556e18e
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/jtbl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/jtbl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># jtbl
+# jtbl
 
 JSON 및 JSON Lines 데이터를 터미널에서 표 형태로 출력하는 유틸리티.
 더 많은 정보: <https://github.com/kellyjonbrazil/jtbl>.

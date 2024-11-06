@@ -3,23 +3,14 @@ layout: page
 title: common/hydra (한국어)
 description: "온라인 비밀번호 추측 도구."
 content_hash: 59314142dc6fa969f6eff73109682c1a600e02cf
-last_modified_at: 2024-11-05
+last_modified_at: 2024-11-06
 related_topics:
   - title: English version
     url: /en/common/hydra.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hydra.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hydra
+# hydra
 
 온라인 비밀번호 추측 도구.
 지원되는 프로토콜에는 FTP, HTTP(S), SMTP, SNMP, XMPP, SSH 등이 포함됨.
