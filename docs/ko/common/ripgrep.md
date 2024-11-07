@@ -1,100 +1,31 @@
 ---
 layout: page
 title: common/ripgrep (한국어)
-description: "이 명령은 `rg` 의 에일리어스 (별칭) 입니다."
-content_hash: 0e5acc72e42b8196ede6e571415704f00277b88e
-last_modified_at: 2023-11-12
+description: "`ripgrep`은 명령어 `rg`의 일반적인 이름입니다."
+content_hash: 3d9c7e2e16dbab8c73f1340553ba4e8d379b6d8f
+last_modified_at: 2024-11-07
 related_topics:
-  - title: العربية version
-    url: /ar/common/ripgrep.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/ripgrep.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/ripgrep.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/ripgrep.html
-    icon: bi bi-globe
-  - title: Deutsch version
-    url: /de/common/ripgrep.html
-    icon: bi bi-globe
   - title: English version
     url: /en/common/ripgrep.html
-    icon: bi bi-globe
-  - title: español version
-    url: /es/common/ripgrep.html
-    icon: bi bi-globe
-  - title: français version
-    url: /fr/common/ripgrep.html
-    icon: bi bi-globe
-  - title: हिन्दी version
-    url: /hi/common/ripgrep.html
-    icon: bi bi-globe
-  - title: Indonesia version
-    url: /id/common/ripgrep.html
-    icon: bi bi-globe
-  - title: italiano version
-    url: /it/common/ripgrep.html
-    icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/ripgrep.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/ripgrep.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/ripgrep.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/common/ripgrep.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/ripgrep.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/ripgrep.html
-    icon: bi bi-globe
-  - title: polski version
-    url: /pl/common/ripgrep.html
-    icon: bi bi-globe
-  - title: português (Brasil) version
-    url: /pt_BR/common/ripgrep.html
-    icon: bi bi-globe
-  - title: português (Portugal) version
-    url: /pt_PT/common/ripgrep.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/ripgrep.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/ripgrep.html
-    icon: bi bi-globe
-  - title: தமிழ் version
-    url: /ta/common/ripgrep.html
-    icon: bi bi-globe
-  - title: ไทย version
-    url: /th/common/ripgrep.html
-    icon: bi bi-globe
-  - title: Türkçe version
-    url: /tr/common/ripgrep.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/ripgrep.html
-    icon: bi bi-globe
-  - title: 中文 version
-    url: /zh/common/ripgrep.html
-    icon: bi bi-globe
-  - title: 中文 (繁體, 台灣) version
-    url: /zh_TW/common/ripgrep.html
-    icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 0
 ---
-# ripgrep
 
-이 명령은 `rg` 의 에일리어스 (별칭) 입니다.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/ripgrep.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># ripgrep
+
+`ripgrep`은 명령어 `rg`의 일반적인 이름입니다.
+
+- 원본 명령에 대한 문서 보기:
 
 `tldr rg`

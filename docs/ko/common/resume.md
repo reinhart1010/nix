@@ -1,0 +1,41 @@
+---
+layout: page
+title: common/resume (한국어)
+description: "쉽게 새로운 이력서를 설정."
+content_hash: 176c6eacb759430e8e1c37572dcf94df7fde273a
+last_modified_at: 2024-11-07
+related_topics:
+  - title: English version
+    url: /en/common/resume.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/resume.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># resume
+
+쉽게 새로운 이력서를 설정.
+더 많은 정보: <https://github.com/jsonresume/resume-cli>.
+
+- 현재 작업 디렉토리에 새로운 `resume.json` 파일 생성:
+
+`resume init`
+
+- `resume.json`을 스키마 테스트에 맞춰 표준 준수 여부 검증:
+
+`resume validate`
+
+- 이력서를 스타일 있는 HTML 또는 PDF 형식으로 로컬에 내보내기:
+
+`resume export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/html_또는_pdf</span>
+
+- 로컬 `resume.json`을 제공하는 웹 서버 시작:
+
+`resume serve`
