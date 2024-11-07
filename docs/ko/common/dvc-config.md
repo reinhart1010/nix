@@ -3,23 +3,14 @@ layout: page
 title: common/dvc-config (한국어)
 description: "DVC 저장소의 사용자 정의 구성 옵션을 관리하는 저수준 명령어입니다."
 content_hash: a7e9bd564a01d6cb2978c70e7119138611a1cc98
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/dvc-config.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dvc-config.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dvc config
+# dvc config
 
 DVC 저장소의 사용자 정의 구성 옵션을 관리하는 저수준 명령어입니다.
 이러한 구성은 프로젝트, 로컬, 글로벌 또는 시스템 수준에서 가능합니다.

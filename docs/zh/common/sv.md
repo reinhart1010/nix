@@ -3,17 +3,14 @@ layout: page
 title: common/sv (中文)
 description: "控制一个正在运行的 runsv 服务。"
 content_hash: 96eb623e685a3db8027a140f3b9d9faf1a7af7d3
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/sv.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sv
+# sv
 
 控制一个正在运行的 runsv 服务。
 更多信息：<https://manned.org/sv.8>.

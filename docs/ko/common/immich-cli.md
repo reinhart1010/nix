@@ -3,7 +3,7 @@ layout: page
 title: common/immich-cli (한국어)
 description: "Immich에는 커멘드라인에서 특정 작업을 수행할 수 있는 커멘드라인 인터페이스 (CLI)가 있음."
 content_hash: 670f2bd7103ca7d61ec2f6a0c74e2c31f90d1324
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/immich-cli.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/immich-cli.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/immich-cli.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># immich-cli
+# immich-cli
 
 Immich에는 커멘드라인에서 특정 작업을 수행할 수 있는 커멘드라인 인터페이스 (CLI)가 있음.
 참고: `immich-go`.

@@ -3,14 +3,23 @@ layout: page
 title: common/helix (Nederlands)
 description: "Helix, een post-moderne tekst bewerker, welke verschillende modi beschikbaar stelt tot verschillende manieren van tekst manipulatie."
 content_hash: 2554ef219756ffd9e0762bcdacc435723fcb1e19
-last_modified_at: 2023-12-18
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/helix.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/common/helix.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/helix.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# helix
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># helix
 
 Helix, een post-moderne tekst bewerker, welke verschillende modi beschikbaar stelt tot verschillende manieren van tekst manipulatie.
 Drukken op `i` begint invoegmodus. `<Esc>` begint normale modus, wat toegang geeft tot de Vim commando's.

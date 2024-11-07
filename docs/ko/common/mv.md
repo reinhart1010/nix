@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (한국어)
 description: "파일 및 디렉토리를 이동하거나 이름을 변경합니다."
-content_hash: 17908f4efe6aeb3ebd581e95d0a8de32f83e98bd
-last_modified_at: 2024-08-05
+content_hash: 95463d1fc36589c2760472eac19e6309e8aa61b7
+last_modified_at: 2024-11-07
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/mv.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mv.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mv.html
@@ -57,18 +60,22 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `mv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원본1 경로/대상/원본2 ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/기존_폴더</span>
 
-- 기존 파일을 덮어쓸 때 확인하지 않음:
+- 기존 파일을 덮어쓸 때 확인하지 않고 ([f]) 이동:
 
-`mv -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원본</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표</span>
+`mv --force `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/타겟</span>
 
-- 파일 권한과 관계없이 기존 파일을 덮어쓸 때 확인을 요청:
+- 파일 권한과 관계없이 기존 파일을 덮어쓸 때 [i]대화형 확인 요청:
 
-`mv -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원본</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표</span>
+`mv --interactive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/타겟</span>
 
-- 대상 위치에 기존 파일이 있을 경우 덮어쓰지 않음:
+- 대상에서 기존 파일을 덮어쓰지 않음 ([n]):
 
-`mv -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원본</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표</span>
+`mv --no-clobber `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/타겟</span>
 
-- 파일을 이동한 후에 파일을 표시하는 자세한 모드로 이동:
+- 파일 이동 후 [v]자세한 모드로 파일 보기:
 
-`mv -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원본</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표</span>
+`mv --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/타겟</span>
+
+- 외부 도구를 사용하여 이동 가능한 파일을 수집하기 위해 [t]타겟 디렉터리 지정:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find /var/log -type f -name '*.log' -print0</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xargs -0</span>` mv --target-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/타겟_디렉터리</span>

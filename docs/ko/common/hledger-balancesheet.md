@@ -3,23 +3,14 @@ layout: page
 title: common/hledger-balancesheet (한국어)
 description: "자산 및 부채 계정의 최종 잔액을 표시."
 content_hash: a0c01eb3bfdbdeec14238a0e8ba3aa99db59a2f3
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/hledger-balancesheet.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hledger-balancesheet.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hledger balancesheet
+# hledger balancesheet
 
 자산 및 부채 계정의 최종 잔액을 표시.
 금액은 일반 재무제표와 같이 정상적인 양의 부호로 표시됩니다.

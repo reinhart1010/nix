@@ -2,11 +2,17 @@
 layout: page
 title: common/http (polski)
 description: "HTTPie: HTTP client, ma być łatwiejszy w użyciu niż cURL."
-content_hash: bdcb59e5eb3316d787ddf51c9fda5548dec10645
-last_modified_at: 2024-08-26
+content_hash: 465eb35ae0bdf6951648342000514571acadcc34
+last_modified_at: 2024-11-07
 related_topics:
+  - title: Deutsch version
+    url: /de/common/http.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/http.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/http.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/http.html
@@ -19,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># http
 
 HTTPie: HTTP client, ma być łatwiejszy w użyciu niż cURL.
-Więcej informacji: <https://httpie.org>.
+Więcej informacji: <https://httpie.io/docs/cli/usage>.
 
 - Pobierz adres URL do pliku:
 

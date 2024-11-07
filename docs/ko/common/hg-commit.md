@@ -3,23 +3,14 @@ layout: page
 title: common/hg-commit (한국어)
 description: "준비된 모든 파일 또는 지정된 파일을 저장소에 커밋."
 content_hash: db8de2e412bcf88cb19e0c4ed259dd753f5cf272
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/hg-commit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hg-commit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hg commit
+# hg commit
 
 준비된 모든 파일 또는 지정된 파일을 저장소에 커밋.
 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#commit>.

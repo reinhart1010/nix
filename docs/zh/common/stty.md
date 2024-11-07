@@ -3,7 +3,7 @@ layout: page
 title: common/stty (中文)
 description: "设置终端设备接口的选项。"
 content_hash: bf51d47cfa7fecc3064ca4024a30a8ef0fff8b4f
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/stty.html
@@ -14,12 +14,9 @@ related_topics:
   - title: русский version
     url: /ru/common/stty.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># stty
+# stty
 
 设置终端设备接口的选项。
 更多信息：<https://www.gnu.org/software/coreutils/stty>.

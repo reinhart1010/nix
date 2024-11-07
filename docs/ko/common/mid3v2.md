@@ -1,0 +1,57 @@
+---
+layout: page
+title: common/mid3v2 (한국어)
+description: "오디오 태그 편집."
+content_hash: 8c510e32b21d2e0e6b0aa0f65c7d02779927073b
+last_modified_at: 2024-11-07
+related_topics:
+  - title: English version
+    url: /en/common/mid3v2.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/mid3v2.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/mid3v2.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># mid3v2
+
+오디오 태그 편집.
+같이 보기: `id3v2`.
+더 많은 정보: <https://mutagen.readthedocs.io/en/latest/man/mid3v2.html>.
+
+- 지원되는 모든 ID3v2.3 또는 ID3v2.4 프레임과 그 의미 나열:
+
+`id3v2 --list-frames `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.mp3 경로/대상/파일2.mp3 ...</span>
+
+- 지원되는 모든 ID3v1 숫자 장르 나열:
+
+`id3v2 --list-genres `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.mp3 경로/대상/파일2.mp3 ...</span>
+
+- 특정 파일의 모든 태그 나열:
+
+`id3v2 --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.mp3 경로/대상/파일2.mp3 ...</span>
+
+- 특정 아티스트, 앨범 또는 곡 정보 설정:
+
+`id3v2 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--artist|--album|--song</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.mp3 경로/대상/파일2.mp3 ...</span>
+
+- 특정 이미지 정보 설정:
+
+`id3v2 --picture=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름:설명:이미지_유형:마임_유형</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.mp3 경로/대상/파일2.mp3 ...</span>
+
+- 특정 연도 정보 설정:
+
+`id3v2 --year=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.mp3 경로/대상/파일2.mp3 ...</span>
+
+- 특정 날짜 정보 설정:
+
+`id3v2 --date=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.mp3 경로/대상/파일2.mp3 ...</span>

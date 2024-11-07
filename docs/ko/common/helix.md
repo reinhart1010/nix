@@ -3,7 +3,7 @@ layout: page
 title: common/helix (한국어)
 description: "포스트모던 텍스트 편집기인 Helix는 다양한 종류의 텍스트 조작을 위한 여러 모드를 제공."
 content_hash: ed2e43760886ce68060a6f3f3e6ba1542b21c340
-last_modified_at: 2024-11-03
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/helix.html
@@ -14,9 +14,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/helix.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# helix
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># helix
 
 포스트모던 텍스트 편집기인 Helix는 다양한 종류의 텍스트 조작을 위한 여러 모드를 제공.
 `i`를 누르면 삽입 모드로 들어감. `<Esc>`는 Helix 명령을 사용할 수 있는 일반 모드로 들어감.

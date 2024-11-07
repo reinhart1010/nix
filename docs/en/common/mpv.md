@@ -2,8 +2,8 @@
 layout: page
 title: common/mpv (English)
 description: "A audio/video player based on MPlayer."
-content_hash: 661f7ef800e2944756461dc2f8e83f72a03796c3
-last_modified_at: 2024-10-13
+content_hash: 51e77ccd0ab2690e700566210d9dc7d4b6680869
+last_modified_at: 2024-11-07
 related_topics:
   - title: italiano version
     url: /it/common/mpv.html
@@ -24,7 +24,7 @@ More information: <https://mpv.io>.
 
 - Play a video or audio from a URL or file:
 
-`mpv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|path/to/file</span>`'`
+`mpv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|path/to/file</span>
 
 - Jump backward/forward 5 seconds:
 

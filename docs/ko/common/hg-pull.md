@@ -3,23 +3,14 @@ layout: page
 title: common/hg-pull (한국어)
 description: "지정된 저장소에서 로컬 저장소로 변경 사항을 가져옵니다."
 content_hash: cb91e3b6aea9a1d9f4f02be51ef63d272e5f3c0b
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/hg-pull.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hg-pull.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hg pull
+# hg pull
 
 지정된 저장소에서 로컬 저장소로 변경 사항을 가져옵니다.
 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#pull>.

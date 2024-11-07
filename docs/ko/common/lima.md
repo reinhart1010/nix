@@ -1,22 +1,39 @@
 ---
 layout: page
 title: common/lima (한국어)
-description: "이 명령은 `limactl` 의 에일리어스 (별칭) 입니다."
-content_hash: b91bddb563f6e1401382417c17d8447ef22fb25d
-last_modified_at: 2023-11-02
+description: "이 명령은 기본 VM 인스턴스에 대한 `limactl shell`의 별칭입니다."
+content_hash: 4e5d1286fb5cec328632b3273bee5b1c832eeb5b
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/lima.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/lima.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/lima.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/lima.html
+    icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/lima.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># lima
 
-이 명령은 `limactl` 의 에일리어스 (별칭) 입니다.
+이 명령은 기본 VM 인스턴스에 대한 `limactl shell`의 별칭입니다.
+다른 인스턴스에서 작업하려면 `$LIMA_INSTANCE` 환경 변수를 설정할 수도 있습니다.
 더 많은 정보: <https://github.com/lima-vm/lima>.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- 원본 명령에 대한 문서 보기:
 
 `tldr limactl`

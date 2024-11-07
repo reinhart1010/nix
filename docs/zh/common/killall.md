@@ -3,7 +3,7 @@ layout: page
 title: common/killall (中文)
 description: "根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。"
 content_hash: 28dc6ec36d565143ecb79567f61a39716f4f2524
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/killall.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/killall.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/killall.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># killall
+# killall
 
 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。
 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，从而实现正常退出。

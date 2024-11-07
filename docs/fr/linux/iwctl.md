@@ -2,8 +2,8 @@
 layout: page
 title: linux/iwctl (français)
 description: "Un outil de ligne de commande pour gérer iwd."
-content_hash: 24d47f0804ce62f159b56052929a4be3ceb7de96
-last_modified_at: 2023-11-12
+content_hash: 9eb16c94d290bcbc34a95a5bd4b8f06168028135
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/linux/iwctl.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # iwctl
 
 Un outil de ligne de commande pour gérer iwd.
-Plus d'informations : <https://iwd.wiki.kernel.org/gettingstarted>.
+Plus d'informations : <https://archive.kernel.org/oldwiki/iwd.wiki.kernel.org/gettingstarted.html>.
 
 - Lancer le mode interactif, dans ce mode vous pouvez entrer les commandes directement, avec de l'auto-complétion :
 

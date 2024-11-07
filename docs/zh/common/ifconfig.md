@@ -3,7 +3,7 @@ layout: page
 title: common/ifconfig (中文)
 description: "网络接口配置工具。"
 content_hash: 63707be50bf9cdc5ef7f992dd0ec3e3748dfe15b
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/ifconfig.html
@@ -14,21 +14,15 @@ related_topics:
   - title: français version
     url: /fr/common/ifconfig.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ifconfig.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/ifconfig.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ifconfig.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ifconfig
+# ifconfig
 
 网络接口配置工具。
 更多信息：<https://net-tools.sourceforge.io/man/ifconfig.8.html>.

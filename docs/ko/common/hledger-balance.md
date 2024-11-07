@@ -3,7 +3,7 @@ layout: page
 title: common/hledger-balance (한국어)
 description: "유연하고 일반적인 \"합계\" 보고서로, 숫자 데이터가 포함된 계정을 보여줍니다."
 content_hash: eb9c9c4e6729ea28e33c07a7e0538ef21f0799bd
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/hledger-balance.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/hledger-balance.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/hledger-balance.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hledger balance
+# hledger balance
 
 유연하고 일반적인 "합계" 보고서로, 숫자 데이터가 포함된 계정을 보여줍니다.
 이는 기간별 잔액 변화, 종료 잔액, 예산 성과, 미실현 자본 이득 등을 포함할 수 있습니다.

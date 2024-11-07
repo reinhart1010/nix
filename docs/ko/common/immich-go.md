@@ -3,7 +3,7 @@ layout: page
 title: common/immich-go (한국어)
 description: "Immich-Go는 대규모 사진 컬렉션을 자체 호스팅 Immich 서버에 업로드하는 작업을 간소화하도록 설계된 오픈소스 도구."
 content_hash: 36a587eadd22f8e63d7ba879fe530f62349e52ad
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/immich-go.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/immich-go.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/immich-go.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># immich-go
+# immich-go
 
 Immich-Go는 대규모 사진 컬렉션을 자체 호스팅 Immich 서버에 업로드하는 작업을 간소화하도록 설계된 오픈소스 도구.
 참고: `immich-cli`.

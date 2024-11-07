@@ -3,7 +3,7 @@ layout: page
 title: common/kill (中文)
 description: "向进程发送信号，通常用于停止进程。"
 content_hash: b0eed9fa139680d946dd8c3c55eb5f661fbf7aab
-last_modified_at: 2024-11-06
+last_modified_at: 2024-11-07
 related_topics:
   - title: English version
     url: /en/common/kill.html
@@ -23,18 +23,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/kill.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kill.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kill
+# kill
 
 向进程发送信号，通常用于停止进程。
 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，以便进行正常退出。
