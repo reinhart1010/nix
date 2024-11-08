@@ -3,23 +3,14 @@ layout: page
 title: common/rmlint (한국어)
 description: "파일 시스템에서 공간 낭비 및 기타 손상된 항목을 찾습니다."
 content_hash: f941921625236663392824d4b4fd4af217fdf6a2
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/rmlint.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rmlint.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rmlint
+# rmlint
 
 파일 시스템에서 공간 낭비 및 기타 손상된 항목을 찾습니다.
 더 많은 정보: <https://rmlint.readthedocs.io/en/latest/rmlint.1.html>.

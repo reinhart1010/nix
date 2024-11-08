@@ -3,23 +3,14 @@ layout: page
 title: common/latexmk (한국어)
 description: "LaTeX 소스 파일을 완성된 문서로 컴파일."
 content_hash: abbc738e08614d0a696cc6b1d597ff3467566130
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/latexmk.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/latexmk.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># latexmk
+# latexmk
 
 LaTeX 소스 파일을 완성된 문서로 컴파일.
 필요에 따라 자동으로 여러 번 실행.

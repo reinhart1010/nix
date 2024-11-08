@@ -3,23 +3,14 @@ layout: page
 title: common/lighthouse (한국어)
 description: "웹 애플리케이션과 웹 페이지를 분석하여 최신 성능 메트릭과 개발자 모범 사례에 대한 통찰을 수집합니다."
 content_hash: 2ce32f1b3a23557ce35f87ee685345f14a4b8e75
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/lighthouse.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lighthouse.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lighthouse
+# lighthouse
 
 웹 애플리케이션과 웹 페이지를 분석하여 최신 성능 메트릭과 개발자 모범 사례에 대한 통찰을 수집합니다.
 더 많은 정보: <https://github.com/GoogleChrome/lighthouse>.

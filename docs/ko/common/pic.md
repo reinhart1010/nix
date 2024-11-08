@@ -3,23 +3,14 @@ layout: page
 title: common/pic (한국어)
 description: "groff (GNU Troff) 문서 형식 시스템을 위한 그림 전처리기."
 content_hash: 12b0d883d1ddefce906e6997e9c892ee6551024a
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pic.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pic.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pic
+# pic
 
 groff (GNU Troff) 문서 형식 시스템을 위한 그림 전처리기.
 같이 보기: `groff`, `troff`.

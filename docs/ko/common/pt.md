@@ -3,23 +3,14 @@ layout: page
 title: common/pt (한국어)
 description: "Platinum Searcher."
 content_hash: 5aa4579616d849a9d53ebb2dc48910592ea929e1
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pt
+# pt
 
 Platinum Searcher.
 `ag`와 유사한 코드 검색 도구.

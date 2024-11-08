@@ -3,23 +3,14 @@ layout: page
 title: common/mmdc (한국어)
 description: "도메인 특화 언어를 사용하는 다이어그램 생성 도구인 mermaid의 CLI."
 content_hash: 3db4d8a1d178bd6d98fbaa47fcf8eb1a202ba7eb
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mmdc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mmdc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mmdc
+# mmdc
 
 도메인 특화 언어를 사용하는 다이어그램 생성 도구인 mermaid의 CLI.
 mermaid 정의 파일을 입력으로 받아 SVG, PNG 또는 PDF 파일을 출력으로 생성.

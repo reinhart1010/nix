@@ -3,7 +3,7 @@ layout: page
 title: common/piper (한국어)
 description: "빠르고 로컬에서 동작하는 신경망 기반의 텍스트 음성 변환 시스템."
 content_hash: b05f62f04b2139dbc7342a2d21637ff1d1697e59
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/piper.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/piper.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/piper.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># piper
+# piper
 
 빠르고 로컬에서 동작하는 신경망 기반의 텍스트 음성 변환 시스템.
 <https://rhasspy.github.io/piper-samples>에서 음성 모델을 시도해보고 다운로드하세요.

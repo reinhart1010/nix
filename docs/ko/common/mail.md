@@ -3,23 +3,14 @@ layout: page
 title: common/mail (한국어)
 description: "인수가 주어지지 않으면 사용자의 메일함을 조작하는 명령입니다."
 content_hash: 0b02580ff32928a395c66b73637bb22ee2477378
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mail.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mail.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mail
+# mail
 
 인수가 주어지지 않으면 사용자의 메일함을 조작하는 명령입니다.
 이메일을 보내려면 메시지 본문을 `stdin`에서 작성합니다.

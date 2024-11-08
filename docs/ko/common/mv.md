@@ -3,7 +3,7 @@ layout: page
 title: common/mv (한국어)
 description: "파일 및 디렉토리를 이동하거나 이름을 변경합니다."
 content_hash: 95463d1fc36589c2760472eac19e6309e8aa61b7
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -38,12 +38,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mv.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mv
+# mv
 
 파일 및 디렉토리를 이동하거나 이름을 변경합니다.
 더 많은 정보: <https://www.gnu.org/software/coreutils/mv>.

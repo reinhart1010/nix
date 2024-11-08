@@ -3,23 +3,14 @@ layout: page
 title: common/mosh (한국어)
 description: "Mobile Shell (`mosh`)는 SSH를 대체하는 강력하고 반응성이 뛰어난 도구입니다."
 content_hash: e444f89d1119214dd17d6b411264560c5434bb4b
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mosh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mosh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mosh
+# mosh
 
 Mobile Shell (`mosh`)는 SSH를 대체하는 강력하고 반응성이 뛰어난 도구입니다.
 `mosh`는 네트워크를 이동하면서도 원격 서버와의 연결을 지속합니다.

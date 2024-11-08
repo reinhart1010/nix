@@ -3,7 +3,7 @@ layout: page
 title: common/pwd (한국어)
 description: "현재 작업 디렉토리의 이름을 출력."
 content_hash: 3d2061cf4000a49d0e30e94c45212a08bcb2c100
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -41,18 +41,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/pwd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pwd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pwd
+# pwd
 
 현재 작업 디렉토리의 이름을 출력.
 더 많은 정보: <https://www.gnu.org/software/coreutils/pwd>.

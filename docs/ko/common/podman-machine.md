@@ -3,7 +3,7 @@ layout: page
 title: common/podman-machine (한국어)
 description: "Podman을 실행하는 가상 머신을 생성하고 관리."
 content_hash: c6c04c300b237e7b4fdf31c7cac3ee3f626b1184
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/podman-machine.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/podman-machine.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/podman-machine.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># podman machine
+# podman machine
 
 Podman을 실행하는 가상 머신을 생성하고 관리.
 Podman 버전 4 이상에 포함되어 있습니다.

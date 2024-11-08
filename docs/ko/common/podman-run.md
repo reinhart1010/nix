@@ -3,7 +3,7 @@ layout: page
 title: common/podman-run (한국어)
 description: "새로운 Podman 컨테이너에서 명령 실행."
 content_hash: ae3238c28e7f8632c6da6abb0dc3ce1293cf2864
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/podman-run.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/podman-run.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/podman-run.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># podman run
+# podman run
 
 새로운 Podman 컨테이너에서 명령 실행.
 더 많은 정보: <https://docs.podman.io/en/latest/markdown/podman-run.1.html>.

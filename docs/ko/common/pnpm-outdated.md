@@ -3,23 +3,14 @@ layout: page
 title: common/pnpm-outdated (한국어)
 description: "오래된 패키지 확인."
 content_hash: e7ec27a59038bee9d7d0e6968ab8e937359e804b
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pnpm-outdated.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pnpm-outdated.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pnpm outdated
+# pnpm outdated
 
 오래된 패키지 확인.
 인수를 제공하여 설치된 패키지의 일부 집합으로 확인을 제한할 수 있습니다 (패턴 지원).

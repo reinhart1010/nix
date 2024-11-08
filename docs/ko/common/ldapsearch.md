@@ -3,23 +3,14 @@ layout: page
 title: common/ldapsearch (한국어)
 description: "LDAP 디렉토리를 쿼리."
 content_hash: 69f903567a8ed2d0b4033cb74743fccbe563a242
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/ldapsearch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ldapsearch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ldapsearch
+# ldapsearch
 
 LDAP 디렉토리를 쿼리.
 더 많은 정보: <https://docs.ldap.com/ldap-sdk/docs/tool-usages/ldapsearch.html>.

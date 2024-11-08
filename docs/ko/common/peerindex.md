@@ -3,7 +3,7 @@ layout: page
 title: common/peerindex (한국어)
 description: "MRT TABLE_DUMPV2 피어 인덱스 테이블 검사."
 content_hash: 4671c1b2c7a2c1ba206d54ff6952f26ebcb71a02
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: Deutsch version
     url: /de/common/peerindex.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/peerindex.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/peerindex.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># peerindex
+# peerindex
 
 MRT TABLE_DUMPV2 피어 인덱스 테이블 검사.
 `gzip`, `bzip2`, `xz`로 압축된 파일을 읽을 수 있습니다.

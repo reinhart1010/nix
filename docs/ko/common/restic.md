@@ -3,23 +3,14 @@ layout: page
 title: common/restic (한국어)
 description: "빠르고 안전한 백업 프로그램."
 content_hash: 55bbdb5d701b8dcea3537f4e51988fc02eb1d6be
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/restic.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/restic.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># restic
+# restic
 
 빠르고 안전한 백업 프로그램.
 더 많은 정보: <https://restic.net>.

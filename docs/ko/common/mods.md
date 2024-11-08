@@ -3,23 +3,14 @@ layout: page
 title: common/mods (한국어)
 description: "파이프라인을 위해 설계된 커맨드라인 AI."
 content_hash: 9b03d979cc3851ab3e2348725ea8d408c1aa3d92
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mods.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mods.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mods
+# mods
 
 파이프라인을 위해 설계된 커맨드라인 AI.
 더 많은 정보: <https://github.com/charmbracelet/mods>.

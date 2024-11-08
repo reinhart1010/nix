@@ -3,23 +3,14 @@ layout: page
 title: common/projucer (한국어)
 description: "JUCE 프레임워크 애플리케이션을 위한 프로젝트 관리자."
 content_hash: 2250fe3a1b7a743f40ad1a0fccbd319fa5a78276
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/projucer.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/projucer.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Projucer
+# Projucer
 
 JUCE 프레임워크 애플리케이션을 위한 프로젝트 관리자.
 더 많은 정보: <https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools>.

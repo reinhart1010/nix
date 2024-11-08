@@ -3,23 +3,14 @@ layout: page
 title: common/pi3topbm (한국어)
 description: "Atari Degas PI3 이미지를 PBM 이미지로 변환."
 content_hash: 4ff311fc227c8b978e6e05a2dc95ccd37c95b71a
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pi3topbm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pi3topbm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pi3topbm
+# pi3topbm
 
 Atari Degas PI3 이미지를 PBM 이미지로 변환.
 같이 보기: `pbmtopi3`.

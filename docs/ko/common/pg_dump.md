@@ -3,23 +3,14 @@ layout: page
 title: common/pg_dump (한국어)
 description: "PostgreSQL 데이터베이스를 스크립트 파일 또는 다른 아카이브 파일로 추출."
 content_hash: 2c3d8a98fd51fd3bdf9a78fe0aef0a10214c61e7
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pg_dump.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pg_dump.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pg_dump
+# pg_dump
 
 PostgreSQL 데이터베이스를 스크립트 파일 또는 다른 아카이브 파일로 추출.
 더 많은 정보: <https://www.postgresql.org/docs/current/app-pgdump.html>.

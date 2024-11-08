@@ -3,23 +3,14 @@ layout: page
 title: common/leave (한국어)
 description: "출발할 시간이 되었을 때 알림을 설정."
 content_hash: 48bbf9b1e9a7121f97024bac324fb4bb233e1c95
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/leave.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/leave.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># leave
+# leave
 
 출발할 시간이 되었을 때 알림을 설정.
 알림을 제거하려면 `kill $(pidof leave)` 사용.

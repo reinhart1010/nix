@@ -3,23 +3,14 @@ layout: page
 title: common/llvm-config (한국어)
 description: "LLVM을 사용하는 프로그램을 컴파일하는 데 필요한 다양한 구성 정보를 얻습니다."
 content_hash: f5520258265f327f929993093d0e632d429660b2
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/llvm-config.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/llvm-config.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># llvm-config
+# llvm-config
 
 LLVM을 사용하는 프로그램을 컴파일하는 데 필요한 다양한 구성 정보를 얻습니다.
 일반적으로 Makefile이나 configure 스크립트와 같은 빌드 시스템에서 호출됩니다.

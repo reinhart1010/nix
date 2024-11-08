@@ -3,7 +3,7 @@ layout: page
 title: common/mozillavpn (한국어)
 description: "Firefox 제작사에서 제공하는 가상 사설망."
 content_hash: a3270ae87e1a3571a96644a30a8e1815f3c37d18
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mozillavpn.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/mozillavpn.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mozillavpn.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mozillavpn
+# mozillavpn
 
 Firefox 제작사에서 제공하는 가상 사설망.
 같이 보기: `fastd`, `ivpn`, `mullvad`, `warp-cli`.

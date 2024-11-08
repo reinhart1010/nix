@@ -3,23 +3,14 @@ layout: page
 title: common/pulumi-preview (한국어)
 description: "스택의 리소스 업데이트 미리 보기."
 content_hash: 5a5ec06d00ded24c86efce467f5aef5998960a34
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pulumi-preview.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pulumi-preview.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pulumi preview
+# pulumi preview
 
 스택의 리소스 업데이트 미리 보기.
 더 많은 정보: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_preview/>.

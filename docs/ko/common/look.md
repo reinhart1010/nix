@@ -3,7 +3,7 @@ layout: page
 title: common/look (한국어)
 description: "정렬된 파일에서 특정 접두사로 시작하는 줄을 표시."
 content_hash: 03b65d03fe3bde229c08f6750b7aa602ff77e7e1
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/look.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/look.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/look.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># look
+# look
 
 정렬된 파일에서 특정 접두사로 시작하는 줄을 표시.
 참고: 파일 내의 줄은 정렬되어 있어야 합니다.

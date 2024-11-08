@@ -3,23 +3,14 @@ layout: page
 title: common/lt (한국어)
 description: "Localtunnel은 로컬호스트를 외부에 노출시켜 손쉽게 테스트하고 공유할 수 있게 해줍니다."
 content_hash: 4dba65770d8cb2f471a6e52834bd1e91186206a9
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/lt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lt
+# lt
 
 Localtunnel은 로컬호스트를 외부에 노출시켜 손쉽게 테스트하고 공유할 수 있게 해줍니다.
 더 많은 정보: <https://github.com/localtunnel/localtunnel>.

@@ -3,23 +3,14 @@ layout: page
 title: common/mcfly (한국어)
 description: "스마트 명령어 기록 검색 및 관리 도구."
 content_hash: 7c662962dc23e30f6c9333550061fd91970cda2e
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mcfly.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mcfly.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mcfly
+# mcfly
 
 스마트 명령어 기록 검색 및 관리 도구.
 기본 셸 히스토리 검색(CTRL-R)을 대체하여 명령어에 대한 문맥과 관련성을 제공하는 지능형 검색 엔진.

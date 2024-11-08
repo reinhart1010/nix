@@ -3,7 +3,7 @@ layout: page
 title: common/perl (한국어)
 description: "Perl 5 언어 인터프리터."
 content_hash: 9d0b5665768e4c611724073f6e9b01bf4d4cfe67
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/perl.html
@@ -11,18 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/perl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/perl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># perl
+# perl
 
 Perl 5 언어 인터프리터.
 더 많은 정보: <https://www.perl.org>.

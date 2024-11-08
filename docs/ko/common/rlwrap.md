@@ -3,23 +3,14 @@ layout: page
 title: common/rlwrap (한국어)
 description: "REPL 명령에 라인 편집, 지속적인 히스토리 및 프롬프트 완성을 추가."
 content_hash: b235cec163c5d87b42a5f9281851398b4d78cb19
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/rlwrap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rlwrap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rlwrap
+# rlwrap
 
 REPL 명령에 라인 편집, 지속적인 히스토리 및 프롬프트 완성을 추가.
 더 많은 정보: <https://github.com/hanslub42/rlwrap>.

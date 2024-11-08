@@ -3,23 +3,14 @@ layout: page
 title: common/lsyncd (한국어)
 description: "파일과 디렉토리를 감시하고 변경 시 `rsync`를 실행."
 content_hash: beab415c1d6e746e477923d70010c7c810da8556
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/lsyncd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lsyncd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lsyncd
+# lsyncd
 
 파일과 디렉토리를 감시하고 변경 시 `rsync`를 실행.
 주로 두 시스템의 디렉토리를 동기화하여 한 디렉토리에서 발생한 변경 사항을 즉시 다른 디렉토리에 반영하기 위해 사용.

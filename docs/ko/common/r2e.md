@@ -3,23 +3,14 @@ layout: page
 title: common/r2e (한국어)
 description: "RSS 피드를 이메일 주소로 전달."
 content_hash: 52e9bb219b8d3b5ae65c29529249852b062c7b4b
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/r2e.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/r2e.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># r2e
+# r2e
 
 RSS 피드를 이메일 주소로 전달.
 설정된 `sendmail` 또는 SMTP 설정이 필요합니다.

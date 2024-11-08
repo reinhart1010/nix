@@ -3,7 +3,7 @@ layout: page
 title: common/popd (한국어)
 description: "`pushd` 셸 내장 명령어를 통해 디렉토리 스택에 올려놓은 디렉토리를 제거."
 content_hash: ba285918c9d414c7c27e2908ba6f6fbb0658788c
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: dansk version
     url: /da/common/popd.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/popd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/popd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># popd
+# popd
 
 `pushd` 셸 내장 명령어를 통해 디렉토리 스택에 올려놓은 디렉토리를 제거.
 `pushd`로 스택에 디렉토리를 올리는 방법과 `dirs`로 디렉토리 스택 내용을 표시하는 방법도 참고.

@@ -3,7 +3,7 @@ layout: page
 title: common/mpv (한국어)
 description: "MPlayer 기반의 오디오/비디오 플레이어."
 content_hash: 2b57ceed24cac3e077e274a448ab6c104ebabc17
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mpv.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mpv.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mpv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mpv
+# mpv
 
 MPlayer 기반의 오디오/비디오 플레이어.
 같이 보기: `mplayer`, `vlc`.

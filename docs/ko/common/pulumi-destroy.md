@@ -3,23 +3,14 @@ layout: page
 title: common/pulumi-destroy (한국어)
 description: "스택 내의 모든 기존 리소스를 제거합니다."
 content_hash: bafcda0e4f5bc66d7940f50ed43716fd9c1dd4be
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pulumi-destroy.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pulumi-destroy.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pulumi destroy
+# pulumi destroy
 
 스택 내의 모든 기존 리소스를 제거합니다.
 더 많은 정보: <https://www.pulumi.com/docs/cli/commands/pulumi_destroy/>.

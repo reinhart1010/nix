@@ -3,7 +3,7 @@ layout: page
 title: common/rg (한국어)
 description: "Ripgrep은 재귀적 라인 지향 검색 도구입니다."
 content_hash: e95b4b75af288d4fe25d78bc6e5371c497d78432
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/rg.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/rg.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rg.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rg
+# rg
 
 Ripgrep은 재귀적 라인 지향 검색 도구입니다.
 `grep`의 더 빠른 대안이 되는 것을 목표로 합니다.

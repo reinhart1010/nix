@@ -3,7 +3,7 @@ layout: page
 title: common/mvn (한국어)
 description: "Apache Maven: Java 기반 프로젝트를 빌드하고 관리."
 content_hash: af24acf9485cc52de75eed4f850f4203f81b8322
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mvn.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mvn.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mvn.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mvn
+# mvn
 
 Apache Maven: Java 기반 프로젝트를 빌드하고 관리.
 더 많은 정보: <https://maven.apache.org>.

@@ -2,14 +2,17 @@
 layout: page
 title: common/z (English)
 description: "Tracks the most used (by frequency) directories and enables quickly navigating to them using string patterns or regular expressions."
-content_hash: 70f3dd697744105629e75421ac4a223093dad125
-last_modified_at: 2024-04-23
+content_hash: d4eaa7c52a23d7fb636ff12d87eb9cde8c2d62cb
+last_modified_at: 2024-11-08
 related_topics:
   - title: français version
     url: /fr/common/z.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/z.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/z.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/z.html
@@ -43,7 +46,7 @@ More information: <https://github.com/rupa/z>.
 
 - Remove the current directory from `z`'s database:
 
-`z -x .`
+`z -x`
 
 - Restrict matches to subdirectories of the current directory:
 

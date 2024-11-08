@@ -3,7 +3,7 @@ layout: page
 title: common/less (한국어)
 description: "파일을 인터랙티브하게 열어 스크롤 및 검색할 수 있음."
 content_hash: 9469e755985b852d1546418e5889b871931f2d25
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: Deutsch version
     url: /de/common/less.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/less.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/less.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># less
+# less
 
 파일을 인터랙티브하게 열어 스크롤 및 검색할 수 있음.
 더 많은 정보: <https://greenwoodsoftware.com/less/>.

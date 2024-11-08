@@ -3,23 +3,14 @@ layout: page
 title: common/mp4box (한국어)
 description: "MPEG-4 시스템 도구: 스트림을 MP4 컨테이너에 멀티플렉싱."
 content_hash: fa2faf2aaa38058dd5afd6862c4bafeffe7654ea
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mp4box.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mp4box.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mp4box
+# mp4box
 
 MPEG-4 시스템 도구: 스트림을 MP4 컨테이너에 멀티플렉싱.
 더 많은 정보: <https://gpac.wp.imt.fr/mp4box>.

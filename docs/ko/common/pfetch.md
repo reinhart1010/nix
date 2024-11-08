@@ -3,23 +3,14 @@ layout: page
 title: common/pfetch (한국어)
 description: "시스템 정보를 표시."
 content_hash: d48bfad582e337322fa60b5e4be4dd1e12f70d40
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pfetch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pfetch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pfetch
+# pfetch
 
 시스템 정보를 표시.
 더 많은 정보: <https://github.com/dylanaraps/pfetch>.

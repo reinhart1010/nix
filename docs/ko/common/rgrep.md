@@ -3,23 +3,14 @@ layout: page
 title: common/rgrep (한국어)
 description: "정규 표현식을 사용하여 파일에서 패턴을 재귀적으로 찾기."
 content_hash: c25b72d9f544f2bad43bc9c2075724bfa83f21ea
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/rgrep.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rgrep.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rgrep
+# rgrep
 
 정규 표현식을 사용하여 파일에서 패턴을 재귀적으로 찾기.
 `grep -r`와 동일합니다.

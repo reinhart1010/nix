@@ -3,7 +3,7 @@ layout: page
 title: common/paste (한국어)
 description: "파일의 라인을 병합."
 content_hash: 38d7c7f94ab47d84136b2852bb1b1ab3a91651a7
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/paste.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/paste.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/paste.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># paste
+# paste
 
 파일의 라인을 병합.
 더 많은 정보: <https://www.gnu.org/software/coreutils/paste>.

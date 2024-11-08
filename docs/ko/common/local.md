@@ -3,23 +3,14 @@ layout: page
 title: common/local (한국어)
 description: "로컬 변수를 선언하고 속성을 부여합니다."
 content_hash: d7487a0becec8901e8c007f68089ad13d0d3ab4e
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/local.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/local.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># local
+# local
 
 로컬 변수를 선언하고 속성을 부여합니다.
 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.

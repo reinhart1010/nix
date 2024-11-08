@@ -3,23 +3,14 @@ layout: page
 title: common/recsel (한국어)
 description: "recfile에서 레코드를 출력: 사람이 편집할 수 있는 일반 텍스트 데이터베이스."
 content_hash: 81fb98cb4e7701a1a8b2159d408fdd481a40166f
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/recsel.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/recsel.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># recsel
+# recsel
 
 recfile에서 레코드를 출력: 사람이 편집할 수 있는 일반 텍스트 데이터베이스.
 더 많은 정보: <https://www.gnu.org/software/recutils/manual/recutils.html>.

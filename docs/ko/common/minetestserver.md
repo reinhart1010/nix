@@ -3,7 +3,7 @@ layout: page
 title: common/minetestserver (한국어)
 description: "멀티플레이어 무한 세계 블록 샌드박스 서버."
 content_hash: a42ed6c3604517afb0f567c2e4f2881b3a4fafb2
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/minetestserver.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/minetestserver.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/minetestserver.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># minetestserver
+# minetestserver
 
 멀티플레이어 무한 세계 블록 샌드박스 서버.
 그래픽 클라이언트인 `minetest`도 참고하세요.

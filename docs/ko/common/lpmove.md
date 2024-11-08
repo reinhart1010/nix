@@ -3,7 +3,7 @@ layout: page
 title: common/lpmove (한국어)
 description: "작업 또는 모든 작업을 다른 프린터로 이동."
 content_hash: 41ab3e3fe42327c088a2ede1f6fb7a6cac4abf52
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/lpmove.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/lpmove.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lpmove.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lpmove
+# lpmove
 
 작업 또는 모든 작업을 다른 프린터로 이동.
 같이 보기: `cancel`, `lp`, `lpr`, `lprm`.

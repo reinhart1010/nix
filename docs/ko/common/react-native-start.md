@@ -3,23 +3,14 @@ layout: page
 title: common/react-native-start (한국어)
 description: "React Native 서버를 시작하는 명령줄 도구."
 content_hash: ea8c124cb42e406f3268028b1d664e9b83e2a94b
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/react-native-start.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/react-native-start.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># react-native start
+# react-native start
 
 React Native 서버를 시작하는 명령줄 도구.
 더 많은 정보: <https://github.com/react-native-community/cli/blob/master/docs/commands.md#start>.

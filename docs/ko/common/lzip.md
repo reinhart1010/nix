@@ -3,23 +3,14 @@ layout: page
 title: common/lzip (한국어)
 description: "`gzip` 또는 `bzip2`와 유사한 사용자 인터페이스를 가진 무손실 데이터 압축기."
 content_hash: b9b1e36800d20f52ad5fe1322c7b257d24658c7f
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/lzip.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lzip.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lzip
+# lzip
 
 `gzip` 또는 `bzip2`와 유사한 사용자 인터페이스를 가진 무손실 데이터 압축기.
 Lzip은 "Lempel-Ziv-Markovchain-Algorithm" (LZMA) 스트림 형식의 단순화된 형태를 사용하며 상호 운용성을 극대화하고 안전성을 최적화하기 위해 3단계 무결성 검사를 제공합니다.

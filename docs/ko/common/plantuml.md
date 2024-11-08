@@ -3,7 +3,7 @@ layout: page
 title: common/plantuml (한국어)
 description: "일반 텍스트 언어로 UML 다이어그램을 작성하고 다양한 형식으로 렌더링."
 content_hash: 2b9a27d4fd11e3823ae8958f76126e6c2bacf231
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: Deutsch version
     url: /de/common/plantuml.html
@@ -14,18 +14,9 @@ related_topics:
   - title: español version
     url: /es/common/plantuml.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/plantuml.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># plantuml
+# plantuml
 
 일반 텍스트 언어로 UML 다이어그램을 작성하고 다양한 형식으로 렌더링.
 더 많은 정보: <https://plantuml.com/en/command-line>.

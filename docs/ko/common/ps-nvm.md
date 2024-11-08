@@ -3,7 +3,7 @@ layout: page
 title: common/ps-nvm (한국어)
 description: "PowerShell 기반의 여러 Node.js 버전 관리 도구로, `nvm`에서 영감을 받았습니다."
 content_hash: 28427b6274ae16fbb94e164dd3e7d8a0b45092db
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/ps-nvm.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/ps-nvm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ps-nvm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ps-nvm
+# ps-nvm
 
 PowerShell 기반의 여러 Node.js 버전 관리 도구로, `nvm`에서 영감을 받았습니다.
 이 도구는 PowerShell을 통해서만 실행할 수 있는 여러 명령어를 제공합니다.

@@ -3,23 +3,14 @@ layout: page
 title: common/moe (한국어)
 description: "ISO-8859-15로 인코딩된 텍스트를 위한 WYSIWYG 텍스트 편집기."
 content_hash: 827e8689c009ad5dd3bd97f834be33c71964d6f5
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/moe.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/moe.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># moe
+# moe
 
 ISO-8859-15로 인코딩된 텍스트를 위한 WYSIWYG 텍스트 편집기.
 더 많은 정보: <https://www.gnu.org/software/moe/moe.html>.

@@ -3,7 +3,7 @@ layout: page
 title: common/lpinfo (한국어)
 description: "CUPS 프린트 서버의 연결된 프린터 및 설치된 드라이버 나열."
 content_hash: cd5e33c45a7af1b05033f68255a7dc37d60d31ae
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: Deutsch version
     url: /de/common/lpinfo.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/lpinfo.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lpinfo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lpinfo
+# lpinfo
 
 CUPS 프린트 서버의 연결된 프린터 및 설치된 드라이버 나열.
 더 많은 정보: <https://openprinting.github.io/cups/doc/man-lpinfo.html>.

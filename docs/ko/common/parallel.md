@@ -3,23 +3,14 @@ layout: page
 title: common/parallel (한국어)
 description: "여러 CPU 코어에서 명령 실행."
 content_hash: d456b8ab36aad5f01013ac2b7eb7e56d10926446
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/parallel.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/parallel.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># parallel
+# parallel
 
 여러 CPU 코어에서 명령 실행.
 더 많은 정보: <https://www.gnu.org/software/parallel>.

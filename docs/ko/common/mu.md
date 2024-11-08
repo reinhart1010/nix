@@ -3,23 +3,14 @@ layout: page
 title: common/mu (한국어)
 description: "로컬 Maildir에서 이메일을 색인하고 검색."
 content_hash: 29d9542e1ba3dff161df9bc38abf650712551108
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mu.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mu.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mu
+# mu
 
 로컬 Maildir에서 이메일을 색인하고 검색.
 더 많은 정보: <https://man.cx/mu>.

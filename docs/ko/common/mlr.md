@@ -3,23 +3,14 @@ layout: page
 title: common/mlr (한국어)
 description: "Miller는 CSV, TSV 및 표 형식 JSON과 같은 이름으로 색인된 데이터를 위한 `awk`, `sed`, `cut`, `join`, `sort`와 유사합니다."
 content_hash: e075cafca59875cd9715152cbc447fe2079cfca2
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mlr.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mlr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mlr
+# mlr
 
 Miller는 CSV, TSV 및 표 형식 JSON과 같은 이름으로 색인된 데이터를 위한 `awk`, `sed`, `cut`, `join`, `sort`와 유사합니다.
 더 많은 정보: <https://johnkerl.org/miller/doc>.

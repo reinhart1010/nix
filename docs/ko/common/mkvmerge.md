@@ -3,23 +3,14 @@ layout: page
 title: common/mkvmerge (한국어)
 description: "멀티미디어 스트림을 병합하고 추출."
 content_hash: eeef4108014d0504c5b63e49f24263d19ee66f3e
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mkvmerge.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mkvmerge.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mkvmerge
+# mkvmerge
 
 멀티미디어 스트림을 병합하고 추출.
 더 많은 정보: <https://mkvtoolnix.download/doc/mkvmerge.html>.

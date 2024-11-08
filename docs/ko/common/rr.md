@@ -3,23 +3,14 @@ layout: page
 title: common/rr (한국어)
 description: "프로그램 실행을 기록하고 재생하기 위한 디버깅 도구."
 content_hash: edcfff6932cd79efbbda1120fbc5e1f320a5e954
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/rr.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rr
+# rr
 
 프로그램 실행을 기록하고 재생하기 위한 디버깅 도구.
 더 많은 정보: <https://rr-project.org/>.

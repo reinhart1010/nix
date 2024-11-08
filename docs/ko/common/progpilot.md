@@ -3,23 +3,14 @@ layout: page
 title: common/progpilot (한국어)
 description: "PHP 보안 취약점을 감지하기 위한 정적 분석 도구."
 content_hash: 5ea446a8db90995b33f9a202cfd5af08cc3edbdc
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/progpilot.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/progpilot.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># progpilot
+# progpilot
 
 PHP 보안 취약점을 감지하기 위한 정적 분석 도구.
 더 많은 정보: <https://github.com/designsecurity/progpilot>.

@@ -3,23 +3,14 @@ layout: page
 title: common/lein (한국어)
 description: "선언적 구성을 사용하여 Clojure 프로젝트를 관리."
 content_hash: 7b4887e48c1b8eadaf96bf1c4c473c26111d484f
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/lein.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lein.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lein
+# lein
 
 선언적 구성을 사용하여 Clojure 프로젝트를 관리.
 더 많은 정보: <https://leiningen.org>.

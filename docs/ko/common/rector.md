@@ -3,23 +3,14 @@ layout: page
 title: common/rector (한국어)
 description: "PHP 5.3+ 코드를 업데이트하고 리팩토링하는 자동화 도구."
 content_hash: 580e17692dfab7664edbfe63f643190c1dcf4e19
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/rector.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rector.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rector
+# rector
 
 PHP 5.3+ 코드를 업데이트하고 리팩토링하는 자동화 도구.
 더 많은 정보: <https://github.com/rectorphp/rector>.

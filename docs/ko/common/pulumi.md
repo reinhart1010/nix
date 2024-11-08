@@ -3,23 +3,14 @@ layout: page
 title: common/pulumi (한국어)
 description: "친숙한 프로그래밍 언어를 사용하여 어떤 클라우드에서도 인프라 정의."
 content_hash: 66bfd1a813cec79339a1a2267f454d1882b3cea4
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pulumi.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pulumi.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pulumi
+# pulumi
 
 친숙한 프로그래밍 언어를 사용하여 어떤 클라우드에서도 인프라 정의.
 `up`과 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.

@@ -3,23 +3,14 @@ layout: page
 title: common/patch (한국어)
 description: "diff 파일을 사용하여 파일(들)을 패치."
 content_hash: 8a9fcd152920da8d75a255bb25c3ac7dce7a59f4
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/patch.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/patch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># patch
+# patch
 
 diff 파일을 사용하여 파일(들)을 패치.
 diff 파일은 `diff` 명령으로 생성되어야 함.

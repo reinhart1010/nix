@@ -3,23 +3,14 @@ layout: page
 title: common/mamba-repoquery (한국어)
 description: "conda 및 mamba 패키지 저장소와 패키지 의존성을 효율적으로 조회."
 content_hash: 1222b3ecf425c0fdf19fc3b4e01c2dd6b0d04e79
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mamba-repoquery.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mamba-repoquery.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mamba repoquery
+# mamba repoquery
 
 conda 및 mamba 패키지 저장소와 패키지 의존성을 효율적으로 조회.
 더 많은 정보: <https://mamba.readthedocs.io/en/latest/user_guide/mamba.html#repoquery>.

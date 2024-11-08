@@ -3,23 +3,14 @@ layout: page
 title: common/llm (한국어)
 description: "원격 API 및 로컬에서 설치 및 실행할 수 있는 모델을 통해 대형 언어 모델(LLM)과 상호 작용."
 content_hash: 695d103c9a8223693f582afbc21a2233c30528ca
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/llm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/llm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># llm
+# llm
 
 원격 API 및 로컬에서 설치 및 실행할 수 있는 모델을 통해 대형 언어 모델(LLM)과 상호 작용.
 더 많은 정보: <https://llm.datasette.io/en/stable/help.html>.

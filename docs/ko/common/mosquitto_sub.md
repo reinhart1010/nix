@@ -3,23 +3,14 @@ layout: page
 title: common/mosquitto_sub (한국어)
 description: "주제를 구독하고 수신한 메시지를 출력하는 간단한 MQTT 버전 3.1.1 클라이언트."
 content_hash: 321cf668ad4ecba596b7bb17a229824554cb92c6
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mosquitto_sub.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mosquitto_sub.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mosquitto_sub
+# mosquitto_sub
 
 주제를 구독하고 수신한 메시지를 출력하는 간단한 MQTT 버전 3.1.1 클라이언트.
 더 많은 정보: <https://mosquitto.org/man/mosquitto_sub-1.html>.

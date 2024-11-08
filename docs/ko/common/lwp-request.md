@@ -3,23 +3,14 @@ layout: page
 title: common/lwp-request (한국어)
 description: "간단한 명령줄 HTTP 클라이언트."
 content_hash: 1aadc00568f96eb2d930399b19af4759aaa696da
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/lwp-request.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lwp-request.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lwp-request
+# lwp-request
 
 간단한 명령줄 HTTP 클라이언트.
 libwww-perl로 제작되었습니다.

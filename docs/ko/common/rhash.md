@@ -3,23 +3,14 @@ layout: page
 title: common/rhash (한국어)
 description: "일반적인 메시지 다이제스트를 계산하거나 확인."
 content_hash: 87b893908598767297f7f5471850becddc7df5a9
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/rhash.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rhash.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rhash
+# rhash
 
 일반적인 메시지 다이제스트를 계산하거나 확인.
 더 많은 정보: <https://rhash.sourceforge.net/manpage.php>.

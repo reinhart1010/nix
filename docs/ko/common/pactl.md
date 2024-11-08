@@ -3,7 +3,7 @@ layout: page
 title: common/pactl (한국어)
 description: "실행 중인 PulseAudio 사운드 서버 제어."
 content_hash: b5af92b40fe46381171dc25cd951e9a5c9067d78
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pactl.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/pactl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pactl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pactl
+# pactl
 
 실행 중인 PulseAudio 사운드 서버 제어.
 더 많은 정보: <https://manned.org/pactl>.

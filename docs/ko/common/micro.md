@@ -3,7 +3,7 @@ layout: page
 title: common/micro (한국어)
 description: "현대적이고 직관적인 터미널 기반 텍스트 편집기."
 content_hash: e18d3392f296cbcee092d877f4ca08b730e37855
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/micro.html
@@ -14,18 +14,9 @@ related_topics:
   - title: русский version
     url: /ru/common/micro.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/micro.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># micro
+# micro
 
 현대적이고 직관적인 터미널 기반 텍스트 편집기.
 키보드뿐만 아니라 마우스를 사용하여 탐색하거나 텍스트를 선택할 수 있습니다.

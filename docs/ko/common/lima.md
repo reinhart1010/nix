@@ -3,7 +3,7 @@ layout: page
 title: common/lima (한국어)
 description: "이 명령은 기본 VM 인스턴스에 대한 `limactl shell`의 별칭입니다."
 content_hash: 4e5d1286fb5cec328632b3273bee5b1c832eeb5b
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/lima.html
@@ -17,18 +17,9 @@ related_topics:
   - title: polski version
     url: /pl/common/lima.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lima.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lima
+# lima
 
 이 명령은 기본 VM 인스턴스에 대한 `limactl shell`의 별칭입니다.
 다른 인스턴스에서 작업하려면 `$LIMA_INSTANCE` 환경 변수를 설정할 수도 있습니다.

@@ -3,23 +3,14 @@ layout: page
 title: common/mh_lint (한국어)
 description: "MATLAB 또는 Octave 코드에서 버그를 찾으려 시도합니다."
 content_hash: f99aa452ab558a9f88493b5732636020721ddf98
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/mh_lint.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mh_lint.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mh_lint
+# mh_lint
 
 MATLAB 또는 Octave 코드에서 버그를 찾으려 시도합니다.
 이 도구는 완벽하지도 않고 완전하지도 않음을 유의하세요.

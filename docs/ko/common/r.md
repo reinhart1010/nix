@@ -3,7 +3,7 @@ layout: page
 title: common/r (한국어)
 description: "R 언어 인터프리터."
 content_hash: 322283075d45ae0f1bd583e3bb8faf869fa2b707
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/r.html
@@ -14,18 +14,9 @@ related_topics:
   - title: polski version
     url: /pl/common/r.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/r.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># R
+# R
 
 R 언어 인터프리터.
 더 많은 정보: <https://www.r-project.org>.

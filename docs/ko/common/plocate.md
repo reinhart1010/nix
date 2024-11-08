@@ -3,23 +3,14 @@ layout: page
 title: common/plocate (한국어)
 description: "파일 이름을 빠르게 찾기."
 content_hash: e554b46ca10f40d20c52774338f99ffb94088739
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/plocate.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/plocate.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># plocate
+# plocate
 
 파일 이름을 빠르게 찾기.
 새 파일을 포함하려면 `sudo updatedb`를 실행하세요.

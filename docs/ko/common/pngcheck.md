@@ -3,7 +3,7 @@ layout: page
 title: common/pngcheck (한국어)
 description: "PNG, JNG, MNG 파일에 대한 자세한 정보를 출력하고 검증합니다."
 content_hash: 08ed0f06a96312346c3a550f431a4a81800ef2cd
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pngcheck.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/pngcheck.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pngcheck.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pngcheck
+# pngcheck
 
 PNG, JNG, MNG 파일에 대한 자세한 정보를 출력하고 검증합니다.
 더 많은 정보: <http://www.libpng.org/pub/png/apps/pngcheck.html>.

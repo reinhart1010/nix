@@ -3,23 +3,14 @@ layout: page
 title: common/pulumi-stack (한국어)
 description: "스택을 관리하고 스택 상태를 확인."
 content_hash: 4e95c9a7b6b144b58e0f8677b1738667145f54ae
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pulumi-stack.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pulumi-stack.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pulumi stack
+# pulumi stack
 
 스택을 관리하고 스택 상태를 확인.
 더 많은 정보: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_stack/>.

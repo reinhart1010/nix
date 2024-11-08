@@ -3,23 +3,14 @@ layout: page
 title: common/pgbench (한국어)
 description: "PostgreSQL에 대한 벤치마크 테스트 실행."
 content_hash: 3b287949350deb719a65cd90e9e1f1988f4630f2
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/pgbench.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pgbench.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pgbench
+# pgbench
 
 PostgreSQL에 대한 벤치마크 테스트 실행.
 더 많은 정보: <https://www.postgresql.org/docs/10/pgbench.html>.

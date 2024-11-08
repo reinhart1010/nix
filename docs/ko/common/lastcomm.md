@@ -3,7 +3,7 @@ layout: page
 title: common/lastcomm (한국어)
 description: "마지막으로 실행된 명령어를 표시."
 content_hash: c95e4c28af8450ac9a5133681c89c90692fc1416
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: Deutsch version
     url: /de/common/lastcomm.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/lastcomm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lastcomm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lastcomm
+# lastcomm
 
 마지막으로 실행된 명령어를 표시.
 더 많은 정보: <https://manpages.debian.org/latest/acct/lastcomm.1.en.html>.

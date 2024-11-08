@@ -3,7 +3,7 @@ layout: page
 title: common/rar (한국어)
 description: "RAR 압축 도구. 선택적으로 자동 추출이 가능한 다중 볼륨 아카이브를 지원."
 content_hash: 0d49bf873ab28d2a1457f1dadb9c8ed6ab752ffe
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/rar.html
@@ -11,18 +11,9 @@ related_topics:
   - title: polski version
     url: /pl/common/rar.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rar.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rar
+# rar
 
 RAR 압축 도구. 선택적으로 자동 추출이 가능한 다중 볼륨 아카이브를 지원.
 더 많은 정보: <https://manned.org/rar>.

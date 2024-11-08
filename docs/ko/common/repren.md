@@ -3,23 +3,14 @@ layout: page
 title: common/repren (한국어)
 description: "다중 패턴 문자열 교체 및 파일 이름 바꾸기 도구."
 content_hash: f5d86d8049f1cb55c27dd13154e08f2da7eb6965
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/repren.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/repren.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># repren
+# repren
 
 다중 패턴 문자열 교체 및 파일 이름 바꾸기 도구.
 더 많은 정보: <https://github.com/jlevy/repren>.

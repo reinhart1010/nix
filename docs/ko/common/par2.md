@@ -3,7 +3,7 @@ layout: page
 title: common/par2 (한국어)
 description: "PAR 2.0 호환 패리티 아카이브(.par2 파일)를 사용한 파일 검증 및 복구."
 content_hash: 221e9453a6e5758dfb7fa4bc3a547a7c4b236b9c
-last_modified_at: 2024-11-07
+last_modified_at: 2024-11-08
 related_topics:
   - title: English version
     url: /en/common/par2.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/par2.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/par2.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># par2
+# par2
 
 PAR 2.0 호환 패리티 아카이브(.par2 파일)를 사용한 파일 검증 및 복구.
 더 많은 정보: <https://github.com/Parchive/par2cmdline/>.
