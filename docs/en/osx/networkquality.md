@@ -2,14 +2,14 @@
 layout: page
 title: osx/networkquality (English)
 description: "Measure the network quality by connecting to the internet."
-content_hash: 6804ea21c9967437e0ed022d3836e52ca70a562d
-last_modified_at: 2023-11-12
+content_hash: ea4db4fffd54dc88df965de04fb3311b8a2093fb
+last_modified_at: 2024-11-08
 tldri18n_status: 2
 ---
 # networkQuality
 
 Measure the network quality by connecting to the internet.
-More information: <https://support.apple.com/HT212313>.
+More information: <https://support.apple.com/101942>.
 
 - Test the network quality for the default interface:
 
