@@ -1,101 +1,42 @@
 ---
 layout: page
 title: linux/bspwm (한국어)
-description: "이 명령은 `bspc` 의 에일리어스 (별칭) 입니다."
-content_hash: ca52cd9a5cc1165ba5d50cc89190b8c631933049
-last_modified_at: 2024-02-26
+description: "바이너리 공간 분할 기반의 타일링 윈도우 매니저."
+content_hash: 29ad443e66109a398446b98a0a8f579c252b8fcd
+last_modified_at: 2024-11-08
 related_topics:
-  - title: العربية version
-    url: /ar/linux/bspwm.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/bspwm.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/bspwm.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/bspwm.html
-    icon: bi bi-globe
-  - title: Deutsch version
-    url: /de/linux/bspwm.html
-    icon: bi bi-globe
   - title: English version
     url: /en/linux/bspwm.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/bspwm.html
     icon: bi bi-globe
-  - title: français version
-    url: /fr/linux/bspwm.html
-    icon: bi bi-globe
-  - title: हिन्दी version
-    url: /hi/linux/bspwm.html
-    icon: bi bi-globe
-  - title: Indonesia version
-    url: /id/linux/bspwm.html
-    icon: bi bi-globe
-  - title: italiano version
-    url: /it/linux/bspwm.html
-    icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/bspwm.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/bspwm.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/bspwm.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/linux/bspwm.html
-    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/bspwm.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/bspwm.html
-    icon: bi bi-globe
-  - title: polski version
-    url: /pl/linux/bspwm.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/bspwm.html
     icon: bi bi-globe
-  - title: português (Portugal) version
-    url: /pt_PT/linux/bspwm.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/bspwm.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/bspwm.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/bspwm.html
     icon: bi bi-globe
-  - title: ไทย version
-    url: /th/linux/bspwm.html
-    icon: bi bi-globe
-  - title: Türkçe version
-    url: /tr/linux/bspwm.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/bspwm.html
-    icon: bi bi-globe
-  - title: 中文 version
-    url: /zh/linux/bspwm.html
-    icon: bi bi-globe
-  - title: 中文 (繁體, 台灣) version
-    url: /zh_TW/linux/bspwm.html
-    icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 0
 ---
-# bspwm
 
-이 명령은 `bspc` 의 에일리어스 (별칭) 입니다.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/bspwm.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># bspwm
+
+바이너리 공간 분할 기반의 타일링 윈도우 매니저.
+같이 보기: `bspc`, 제어를 위해 사용합니다.
 더 많은 정보: <https://github.com/baskerville/bspwm>.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- `bspwm` 시작 (이 명령을 실행할 때 기존의 윈도우 매니저가 열려 있으면 안 됩니다):
 
-`tldr bspc`
+`bspwm -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/설정</span>

@@ -1,0 +1,48 @@
+---
+layout: page
+title: linux/calcurse (한국어)
+description: "명령줄에서 사용할 수 있는 텍스트 기반의 일정 관리 및 달력 애플리케이션."
+content_hash: 24167a4584956e5d8e09981522aca9c3077aca9d
+last_modified_at: 2024-11-08
+related_topics:
+  - title: English version
+    url: /en/linux/calcurse.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/calcurse.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/calcurse.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># calcurse
+
+명령줄에서 사용할 수 있는 텍스트 기반의 일정 관리 및 달력 애플리케이션.
+더 많은 정보: <https://calcurse.org>.
+
+- 인터랙티브 모드로 `calcurse` 시작:
+
+`calcurse`
+
+- 오늘의 약속 및 이벤트를 출력하고 종료:
+
+`calcurse --appointment`
+
+- 모든 로컬 calcurse 항목을 제거하고 원격 객체 가져오기:
+
+`calcurse-caldav --init=keep-remote`
+
+- 모든 원격 객체 제거하고 로컬 calcurse 항목 푸시:
+
+`calcurse-caldav --init=keep-local`
+
+- 로컬 객체를 CalDAV 서버에 복사하고 그 반대도 수행:
+
+`calcurse-caldav --init=two-way`

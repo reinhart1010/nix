@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (中文)
 description: "生成一个压缩的 Android 错误报告。"
-content_hash: eaacbae8626f005473a692639652f3c6c7dd8295
-last_modified_at: 2024-10-17
+content_hash: b64548a320298447def642b3e2c72bdef48981e6
+last_modified_at: 2024-11-08
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -84,10 +84,14 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `bugreportz -p`
 
-- 显示帮助信息：
+- 将 Android 错误报告的内容写入 `stdout`：
+
+`bugreportz -s`
+
+- 显示帮助：
 
 `bugreportz -h`
 
-- 显示 `bugreportz` 的版本：
+- 显示版本：
 
 `bugreportz -v`

@@ -1,0 +1,49 @@
+---
+layout: page
+title: linux/dstat (한국어)
+description: "시스템 리소스 통계 생성을 위한 다재다능한 도구."
+content_hash: abd1af9f547dd5408179b75af598139457d848b8
+last_modified_at: 2024-11-08
+related_topics:
+  - title: English version
+    url: /en/linux/dstat.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/dstat.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># dstat
+
+시스템 리소스 통계 생성을 위한 다재다능한 도구.
+더 많은 정보: <http://dag.wieers.com/home-made/dstat>.
+
+- CPU, 디스크, 네트워크, 페이징 및 시스템 통계 표시:
+
+`dstat`
+
+- 5초마다 통계를 표시하고 4번만 업데이트:
+
+`dstat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>
+
+- CPU 및 메모리 통계만 표시:
+
+`dstat --cpu --mem`
+
+- 사용 가능한 모든 dstat 플러그인 나열:
+
+`dstat --list`
+
+- 가장 많은 메모리와 CPU를 사용하는 프로세스 표시:
+
+`dstat --top-mem --top-cpu`
+
+- 배터리 백분율 및 남은 배터리 시간 표시:
+
+`dstat --battery --battery-remain`

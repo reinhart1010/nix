@@ -1,104 +1,47 @@
 ---
 layout: page
 title: linux/cgroups (한국어)
-description: "이 명령은 `cgclassify` 의 에일리어스 (별칭) 입니다."
-content_hash: 9b5a2272037521addbc65201b7444a5162666d9f
-last_modified_at: 2023-11-12
+description: "Cgroups, 또는 control groups는 프로세스의 자원 사용을 제한, 측정 및 제어하기 위한 Linux 커널 기능입니다."
+content_hash: 5a5d2d6f3d0bb50e01787e1cb5507be0c975992a
+last_modified_at: 2024-11-08
 related_topics:
-  - title: العربية version
-    url: /ar/linux/cgroups.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/cgroups.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/cgroups.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/cgroups.html
-    icon: bi bi-globe
-  - title: Deutsch version
-    url: /de/linux/cgroups.html
-    icon: bi bi-globe
   - title: English version
     url: /en/linux/cgroups.html
-    icon: bi bi-globe
-  - title: español version
-    url: /es/linux/cgroups.html
-    icon: bi bi-globe
-  - title: français version
-    url: /fr/linux/cgroups.html
-    icon: bi bi-globe
-  - title: हिन्दी version
-    url: /hi/linux/cgroups.html
-    icon: bi bi-globe
-  - title: Indonesia version
-    url: /id/linux/cgroups.html
-    icon: bi bi-globe
-  - title: italiano version
-    url: /it/linux/cgroups.html
-    icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/cgroups.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/cgroups.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/cgroups.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/linux/cgroups.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/cgroups.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/cgroups.html
-    icon: bi bi-globe
-  - title: polski version
-    url: /pl/linux/cgroups.html
-    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cgroups.html
-    icon: bi bi-globe
-  - title: português (Portugal) version
-    url: /pt_PT/linux/cgroups.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/cgroups.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/cgroups.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/cgroups.html
     icon: bi bi-globe
-  - title: ไทย version
-    url: /th/linux/cgroups.html
-    icon: bi bi-globe
-  - title: Türkçe version
-    url: /tr/linux/cgroups.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/cgroups.html
-    icon: bi bi-globe
-  - title: 中文 version
-    url: /zh/linux/cgroups.html
-    icon: bi bi-globe
-  - title: 中文 (繁體, 台灣) version
-    url: /zh_TW/linux/cgroups.html
-    icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/cgroups.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># cgroups
 
-이 명령은 `cgclassify` 의 에일리어스 (별칭) 입니다.
+Cgroups, 또는 control groups는 프로세스의 자원 사용을 제한, 측정 및 제어하기 위한 Linux 커널 기능입니다.
+Cgroups는 하나의 명령이 아니라 명령들의 모음이며, 관련 페이지를 아래에서 확인하세요.
 더 많은 정보: <https://www.kernel.org/doc/Documentation/cgroup-v2.txt>.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- `cgclassify`에 대한 문서 보기:
 
 `tldr cgclassify`
+
+- `cgcreate`에 대한 문서 보기:
+
+`tldr cgcreate`
+
+- `cgexec`에 대한 문서 보기:
+
+`tldr cgexec`
