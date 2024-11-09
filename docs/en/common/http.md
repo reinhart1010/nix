@@ -1,10 +1,16 @@
 ---
 layout: page
 title: common/http (English)
-description: "HTTPie: an HTTP client designed for testing, debugging, and generally interacting with APIs & HTTP servers."
-content_hash: cb4bad65a69aae41f19d9cc49ba6d7bf6e15e5d6
-last_modified_at: 2024-09-12
+description: "HTTPie: an HTTP client designed for testing, debugging, and generally interacting with APIs and HTTP servers."
+content_hash: 4d6cfb680fe7cecf7b29bc1c2033bd6645346976
+last_modified_at: 2024-11-09
 related_topics:
+  - title: Deutsch version
+    url: /de/common/http.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/http.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/http.html
     icon: bi bi-globe
@@ -15,14 +21,14 @@ tldri18n_status: 2
 ---
 # http
 
-HTTPie: an HTTP client designed for testing, debugging, and generally interacting with APIs & HTTP servers.
+HTTPie: an HTTP client designed for testing, debugging, and generally interacting with APIs and HTTP servers.
 More information: <https://httpie.io/docs/cli/usage>.
 
-- Make a simple GET request (shows response header and content):
+- Make a simple GET request (shows response headers and content):
 
-`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span>
+`http `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Print specific output content (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata):
+- Print specific parts of the content (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata):
 
 `http --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H|B|h|b|m|Hh|Hhb|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 

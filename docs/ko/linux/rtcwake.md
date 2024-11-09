@@ -1,0 +1,49 @@
+---
+layout: page
+title: linux/rtcwake (한국어)
+description: "BIOS 시계에 상대적인 지정된 기상 시간까지 시스템을 절전 상태로 전환."
+content_hash: b7e8c35c3d568a80b7c6bff94299f971ca44a2eb
+last_modified_at: 2024-11-09
+related_topics:
+  - title: English version
+    url: /en/linux/rtcwake.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/rtcwake.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># rtcwake
+
+BIOS 시계에 상대적인 지정된 기상 시간까지 시스템을 절전 상태로 전환.
+더 많은 정보: <https://manned.org/rtcwake>.
+
+- 알람이 설정되었는지 여부를 확인:
+
+`sudo rtcwake -m show -v`
+
+- RAM에 일시 중지하고 10초 후에 기상:
+
+`sudo rtcwake -m mem -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>
+
+- 디스크에 일시 중지(더 높은 전력 절약)하고 15분 후에 기상:
+
+`sudo rtcwake -m disk --date +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">15</span>`min`
+
+- 시스템을 동결(램에 일시 중지보다 더 효율적이며 Linux 커널 버전 3.9 이상 필요)하고 지정된 날짜와 시간에 기상:
+
+`sudo rtcwake -m freeze --date `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDhhmm</span>
+
+- 이전에 설정한 알람 비활성화:
+
+`sudo rtcwake -m disable`
+
+- 주어진 시간에 컴퓨터를 깨우는 드라이 런 수행. (중단하려면 Ctrl + C를 누르세요):
+
+`sudo rtcwake -m on --date `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:ss</span>

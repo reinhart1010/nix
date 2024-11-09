@@ -1,0 +1,45 @@
+---
+layout: page
+title: linux/runcon (한국어)
+description: "프로그램을 다른 SELinux 보안 컨텍스트에서 실행."
+content_hash: 9c4f1b611b4c7deadca714ffb35f1dde21286469
+last_modified_at: 2024-11-09
+related_topics:
+  - title: English version
+    url: /en/linux/runcon.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/runcon.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/runcon.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># runcon
+
+프로그램을 다른 SELinux 보안 컨텍스트에서 실행.
+같이 보기: `secon`.
+더 많은 정보: <https://www.gnu.org/software/coreutils/runcon>.
+
+- 현재 실행 컨텍스트의 보안 컨텍스트를 출력:
+
+`runcon`
+
+- 명령을 실행할 도메인 지정:
+
+`runcon -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span>`_t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
+
+- 명령을 실행할 컨텍스트 역할 지정:
+
+`runcon -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">역할</span>`_r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
+
+- 명령을 실행할 전체 컨텍스트 지정:
+
+`runcon `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span>`_u:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">역할</span>`_r:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span>`_t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
