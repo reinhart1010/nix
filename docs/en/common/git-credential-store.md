@@ -1,14 +1,18 @@
 ---
 layout: page
 title: common/git-credential-store (English)
-description: "`git` helper to store passwords on disk."
-content_hash: d88436925873e72bf709f77a4816fa68e706c0c6
-last_modified_at: 2023-11-12
+description: "Git helper to store passwords on disk."
+content_hash: 52f10dec66b7f7756dd43bd25749263e62eeac7b
+last_modified_at: 2024-11-09
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/git-credential-store.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # git credential-store
 
-`git` helper to store passwords on disk.
+Git helper to store passwords on disk.
 More information: <https://git-scm.com/docs/git-credential-store>.
 
 - Store Git credentials in a specific file:

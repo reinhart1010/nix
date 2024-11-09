@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/htop (Indonesia)
-description: "Menampilkan informasi waktu nyata dinamis tentang proses yang berjalan. Versi `top` yang disempurnakan."
-content_hash: d5613cca6244236fb875c8019a4f9a1fdf267060
-last_modified_at: 2023-11-12
+description: "Tampilkan informasi waktu nyata dinamis tentang proses yang berjalan. Versi `top` yang disempurnakan."
+content_hash: 0fa98ab9e87f6668b73c85b2f780f8c28416d12f
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -23,6 +23,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/htop.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/htop.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -30,26 +33,34 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># htop
 
-Menampilkan informasi waktu nyata dinamis tentang proses yang berjalan. Versi `top` yang disempurnakan.
+Tampilkan informasi waktu nyata dinamis tentang proses yang berjalan. Versi `top` yang disempurnakan.
 Informasi lebih lanjut: <https://htop.dev/>.
 
-- Mulai htop:
+- Mulai `htop`:
 
 `htop`
 
-- Mulai htop menampilkan proses yang dimiliki oleh pengguna tertentu:
+- Mulai `htop` dan tampilkan proses yang dimiliki oleh pengguna tertentu:
 
-`htop --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_pengguna</span>
+`htop --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
+
+- Tampilkan daftar proses beserta hierarki penugasannya dalam bentuk tampilan pohon untuk menunjukkan relasi proses induk beserta anak-anaknya:
+
+`htop --tree`
 
 - Urutkan proses berdasarkan `sort_item` yang ditentukan (gunakan `htop --sort help` untuk opsi yang tersedia  ):
 
 `htop --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sort_item</span>
 
+- Jalankan `htop` dengan jangka waktu pemuatan ulang (refresh) data tertentu, dalam bentuk sepersepuluh detik (yakni 50 = 5 detik):
+
+`htop --delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>
+
 - Lihat perintah interaktif saat menjalankan htop:
 
 `?`
 
-- Beralih ke tab lain:
+- Alihkan tampilan menuju tab lain:
 
 `tab`
 

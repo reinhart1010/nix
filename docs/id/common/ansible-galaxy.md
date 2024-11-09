@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible-galaxy (Indonesia)
 description: "Buat dan atur peran pengguna (role) Ansible."
-content_hash: e3d2eb8ec2ed518043f26ed5c4fa0414c22e1773
-last_modified_at: 2024-06-13
+content_hash: 9ebd673a4fc16b64a10d513945140b577fb2fbad
+last_modified_at: 2024-11-09
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-galaxy.html
@@ -30,30 +30,30 @@ tldri18n_status: 2
 Buat dan atur peran pengguna (role) Ansible.
 Informasi lebih lanjut: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
 
-- Pasang sebuah peran kepada suatu pengguna:
+- Tampilkan daftar peran atau koleksi yang tersedia:
 
-`ansible-galaxy install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span>
+`ansible-galaxy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role|collection</span>` list`
 
-- Buang peran dari suatu pengguna:
+- Cari suatu peran berdasarkan nama menggunakan tingkat verbositas tertentu (`-v` harus dimasukkan pada akhir baris perintah):
 
-`ansible-galaxy remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span>
+`ansible-galaxy role search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span>` -v`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vvvvv</span>
 
-- Tampilkan daftar peran yang tersedia:
+- Pasang atau bongkar peran-peran pengguna:
 
-`ansible-galaxy list`
-
-- Cari peran berdasarkan nama:
-
-`ansible-galaxy search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span>
+`ansible-galaxy role `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">install|remove</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran1 nama_peran2 ...</span>
 
 - Terbitkan sebuah peran baru:
 
-`ansible-galaxy init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span>
+`ansible-galaxy role init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span>
 
-- Dapatkan informasi mengenai peran sebuah pengguna:
+- Dapatkan informasi mengenai suatu peran:
 
-`ansible-galaxy role info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span>
+`ansible-galaxy role info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_peran</span>
 
-- Dapatkan informasi mengenai suatu koleksi:
+- Pasang atau bongkar kumpulan koleksi (collection):
 
-`ansible-galaxy collection info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_koleksi</span>
+`ansible-galaxy collection `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">install|remove</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_koleksi1 nama_koleksi1 ...</span>
+
+- Tampilkan bantuan mengenai manajemen peran (role) maupun koleksi (collection):
+
+`ansible-galaxy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role|collection</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

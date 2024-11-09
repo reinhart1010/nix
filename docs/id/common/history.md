@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/history (Indonesia)
-description: "Sejarah command-line."
-content_hash: b0ce93541fd0cd1f17a8de4083c4e4b6e59c976d
-last_modified_at: 2024-04-11
+description: "Tampilkan riwayat penugasan baris perintah (command-line)."
+content_hash: 1f6c01a9eb61202f5ed2407c73a77f7b6b5ceeeb
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/history.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/history.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/history.html
@@ -30,25 +33,29 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># history
 
-Sejarah command-line.
+Tampilkan riwayat penugasan baris perintah (command-line).
 Informasi lebih lanjut: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
 
-- Tampilkan sejarah perintah-perintah dengan angka baris:
+- Tampilkan riwayat penugasan baris perintah beserta angka baris:
 
 `history`
 
-- Tampilkan 20 perintah-perintah terakhir (di Zsh perintah ini menampilkan semua perintah-perintah sejak dari baris ke-20):
+- Tampilkan 20 perintah tugas terakhir (di Zsh perintah ini menampilkan semua perintah-perintah sejak dari baris ke-20):
 
 `history `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>
 
-- Hapus sejarah perintah-perintah (hanya untuk sesi shell Bash saat ini):
+- Tampilkan riwayat dengan format tanggal dan waktu tertentu (hanya tersedia dalam Zsh):
+
+`history -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">d|f|i|E</span>
+
+- Hapus seluruh riwayat perintah penugasan (hanya untuk sesi shell Bash saat ini):
 
 `history -c`
 
-- Tulis ulang file sejarah dengan sejarah sesi shell Bash saat ini (seringkali dikombinasikan dengan `history -c` untuk menghapus sejarah):
+- Tulis ulang berkas dengan riwayat sesi shell Bash saat ini (seringkali dikombinasikan dengan `history -c` untuk menghapus riwayat):
 
 `history -w`
 
-- Hapus entri sejarah pada offset tertentu:
+- Hapus entri riwayat pada offset tertentu:
 
 `history -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">offset</span>

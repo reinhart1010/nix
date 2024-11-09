@@ -2,8 +2,8 @@
 layout: page
 title: common/act (Indonesia)
 description: "Jalankan GitHub Actions secara lokal melalui Docker."
-content_hash: c3669e447bf6e8112f8588d4c89f996d180c411d
-last_modified_at: 2023-12-16
+content_hash: 113a7a026fc8dd26742954d5490c6621dedf328e
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/common/act.html
@@ -48,9 +48,9 @@ Informasi lebih lanjut: <https://github.com/nektos/act>.
 
 `act `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jenis_event</span>
 
-- Jalankan tugas/[a]ction tertentu:
+- Jalankan tugas/[j]ob tertentu:
 
-`act -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">action_id</span>
+`act -j `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span>
 
 - Tampilkan tugas-tugas yang akan dijalankan ta[n]pa mengeksekusikannya (dry-run):
 
@@ -62,4 +62,4 @@ Informasi lebih lanjut: <https://github.com/nektos/act>.
 
 - Jalankan [W]orkflow tertentu:
 
-`act push -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalam/menuju/workflow</span>
+`act push -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/workflow</span>
