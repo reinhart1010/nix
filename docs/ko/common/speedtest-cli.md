@@ -1,0 +1,58 @@
+---
+layout: page
+title: common/speedtest-cli (한국어)
+description: "<https://speedtest.net>를 사용하여 인터넷 대역폭 테스트."
+content_hash: 211bfb49f569b86daa1f21eeb1eb3e7ad9111b31
+last_modified_at: 2024-11-09
+related_topics:
+  - title: English version
+    url: /en/common/speedtest-cli.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/speedtest-cli.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># speedtest-cli
+
+<https://speedtest.net>를 사용하여 인터넷 대역폭 테스트.
+공식 CLI는 `speedtest`를 참조하세요.
+더 많은 정보: <https://github.com/sivel/speedtest-cli>.
+
+- 속도 테스트 실행:
+
+`speedtest-cli`
+
+- 속도 테스트를 실행하고 비트 대신 바이트 단위로 값 표시:
+
+`speedtest-cli --bytes`
+
+- `HTTP` 대신 `HTTPS`를 사용하여 속도 테스트 실행:
+
+`speedtest-cli --secure`
+
+- 다운로드 테스트를 수행하지 않고 속도 테스트 실행:
+
+`speedtest-cli --no-download`
+
+- 속도 테스트를 실행하고 결과 이미지를 생성:
+
+`speedtest-cli --share`
+
+- 거리별로 정렬된 모든 `speedtest.net` 서버 나열:
+
+`speedtest-cli --list`
+
+- 특정 speedtest.net 서버로 속도 테스트 실행:
+
+`speedtest-cli --server `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버_ID</span>
+
+- 속도 테스트를 실행하고 결과를 JSON 형식으로 표시 (진행 정보 억제):
+
+`speedtest-cli --json`

@@ -2,8 +2,12 @@
 layout: page
 title: common/scamper (English)
 description: "Actively probes the Internet in order to analyze topology and performance."
-content_hash: 0b27583d8125fd18a65ac1c8e17c552768b49692
-last_modified_at: 2024-02-15
+content_hash: d31cfe053b232f6839f374fdc6bfc431776a2424
+last_modified_at: 2024-11-09
+related_topics:
+  - title: Deutsch version
+    url: /de/common/scamper.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # scamper
@@ -18,7 +22,7 @@ More information: <https://www.caida.org/catalog/software/scamper/>.
 
 - Execute two actions (ping and traceroute) on two different targets:
 
-`scamper -I "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ping</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.1</span>`" -I "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trace</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.2</span>
+`scamper -I "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ping</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.1</span>`" -I "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trace</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.2</span>`"`
 
 - Ping several hosts with UDP, use a specific port number for the first ping and increase it for each subsequent ping:
 

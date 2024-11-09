@@ -1,15 +1,18 @@
 ---
 layout: page
 title: common/tldr (한국어)
-description: "간단한 매뉴얼 페이지."
-content_hash: 3560a97961f815b32b90f123bf489ddba4b45f28
-last_modified_at: 2023-11-22
+description: "tldr-pages 프로젝트에서 제공하는 명령줄 도구에 대한 간단한 도움말 페이지를 표시합니다."
+content_hash: 1966277e51486a0e69fa2b08506a46fa772ea18f
+last_modified_at: 2024-11-09
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/tldr.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/tldr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/tldr.html
@@ -35,6 +38,9 @@ related_topics:
   - title: sh version
     url: /sh/common/tldr.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/tldr.html
+    icon: bi bi-globe
   - title: ไทย version
     url: /th/common/tldr.html
     icon: bi bi-globe
@@ -57,17 +63,34 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># tldr
 
-간단한 매뉴얼 페이지.
+tldr-pages 프로젝트에서 제공하는 명령줄 도구에 대한 간단한 도움말 페이지를 표시합니다.
+참고: `--language` 및 `--list` 옵션은 클라이언트 사양에 필수는 아니지만 대부분의 클라이언트가 이를 구현합니다.
 더 많은 정보: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
-- 명령어 형식적 사용법 가져오기 (힌트 : 이걸 사용하는 방법입니다!):
+- 특정 명령에 대한 tldr 페이지를 출력 (힌트: 이렇게 이곳에 도착했습니다!):
 
 `tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
 
-- Linux에서 tar에 대한 tldr 문서 표시하기:
+- 특정 하위 명령에 대한 tldr 페이지를 출력:
 
-`tldr -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar</span>
+`tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명령어</span>
 
-- git 부속명령에 대한 도움말 가져오기:
+- 주어진 [L]언어로 된 명령어의 tldr 페이지를 출력 (가능한 경우, 그렇지 않으면 영어로 표시):
 
-`tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git checkout</span>
+`tldr --language `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">언어_코드</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
+
+- 특정 [p]플랫폼의 명령어에 대한 tldr 페이지를 출력:
+
+`tldr --platform `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
+
+- tldr 페이지의 로컬 캐시 [u]업데이트:
+
+`tldr --update`
+
+- 현재 플랫폼 및 `common`에 대한 모든 페이지 [l]목록:
+
+`tldr --list`
+
+- 명령어에 대한 사용할 수 있는 모든 하위 명령 페이지 [l]목록:
+
+`tldr --list | grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>` | column`

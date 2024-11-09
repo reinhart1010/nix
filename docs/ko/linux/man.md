@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/man (한국어)
-description: "참조 페이지 뷰어 유틸리티입니다."
-content_hash: 97a86b31495f657d549773af5534bcabc282c7c7
-last_modified_at: 2024-02-07
+description: "매뉴얼 페이지를 포맷하고 표시합니다."
+content_hash: f06612d5d0893e59d174e63408505806fd01b1c1
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/man.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/man.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/man.html
@@ -36,33 +39,37 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># man
 
-참조 페이지 뷰어 유틸리티입니다.
+매뉴얼 페이지를 포맷하고 표시합니다.
 더 많은 정보: <https://manned.org/man>.
 
-- 명령에 대한 도움말 페이지 표시:
+- 명령어에 대한 매뉴얼 페이지 표시:
 
 `man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
 
-- 7 섹션에서 명령 매크로 패키지에 대한 도움말 페이지를 표시:
+- 브라우저에서 명령어에 대한 매뉴얼 페이지 열기 (`BROWSER` 변수가 설정되어 있어야 함):
+
+`man --html `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
+
+- 섹션 7에서 명령어에 대한 매뉴얼 페이지 표시:
 
 `man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
 
-- 도움말 페이지에서 간단한 설명을 표시(가능한 경우):
+- 명령어에 대한 사용 가능한 모든 섹션 나열:
 
 `man --whatis `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
 
-- 참조 페이지의 검색 경로를 표시합니다:
+- 매뉴얼 페이지 검색 경로 표시:
 
 `man --path`
 
-- 참조 페이지 자체가 아닌 참조 페이지의 위치 표시:
+- 매뉴얼 페이지 자체가 아닌 매뉴얼 페이지의 위치 표시:
 
 `man --where `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
 
-- 특정 로컬(언어 및 지역)을 사용하여 도움말 페이지를 표시:
+- 특정 로케일을 사용하여 매뉴얼 페이지 표시:
 
-`man --locale=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로캘</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
+`man --locale `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로케일</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>
 
-- 검색 문자열이 포함된 도움말 페이지 탐색:
+- 검색 문자열을 포함하는 매뉴얼 페이지 검색:
 
 `man --apropos "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_문자열</span>`"`

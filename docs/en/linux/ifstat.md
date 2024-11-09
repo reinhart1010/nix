@@ -2,8 +2,8 @@
 layout: page
 title: linux/ifstat (English)
 description: "View network interface statistics."
-content_hash: fc3fdf7db4f81faef3add302e243e7e61bf5a768
-last_modified_at: 2024-10-07
+content_hash: 252c52f52baef69dbc941e1aafbe454773fdf32b
+last_modified_at: 2024-11-09
 tldri18n_status: 2
 ---
 # ifstat
@@ -21,4 +21,4 @@ More information: <https://manned.org/ifstat>.
 
 - View error rate:
 
-`ifstat {-e|--errors</span>
+`ifstat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--errors</span>

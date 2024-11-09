@@ -1,0 +1,53 @@
+---
+layout: page
+title: linux/nmcli-radio (한국어)
+description: "라디오 스위치의 상태를 표시하거나 NetworkManager를 사용하여 활성화/비활성화."
+content_hash: 15aeaea3ec87814b6ca00564590e73ede62eb86a
+last_modified_at: 2024-11-09
+related_topics:
+  - title: English version
+    url: /en/linux/nmcli-radio.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/nmcli-radio.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/nmcli-radio.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># nmcli radio
+
+라디오 스위치의 상태를 표시하거나 NetworkManager를 사용하여 활성화/비활성화.
+이 하위 명령은 `nmcli r`로도 호출할 수 있습니다.
+더 많은 정보: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+
+- Wi-Fi 상태 표시:
+
+`nmcli radio wifi`
+
+- Wi-Fi 켜기 또는 끄기:
+
+`nmcli radio wifi `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
+
+- WWAN 상태 표시:
+
+`nmcli radio wwan`
+
+- WWAN 켜기 또는 끄기:
+
+`nmcli radio wwan `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
+
+- 두 스위치의 상태 표시:
+
+`nmcli radio all`
+
+- 두 스위치 켜기 또는 끄기:
+
+`nmcli radio all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>

@@ -2,8 +2,8 @@
 layout: page
 title: linux/qrcp (English)
 description: "A file transfer tool."
-content_hash: 65fa21b8576fab583952c34b73140a00308abedb
-last_modified_at: 2024-01-24
+content_hash: a6c06f254bc433c2f88514ca4471e3191b4a171c
+last_modified_at: 2024-11-09
 tldri18n_status: 2
 ---
 # qrcp
@@ -29,7 +29,7 @@ More information: <https://github.com/claudiodangelis/qrcp>.
 
 - Use a specific network [i]nterface:
 
-`qrcp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">send|receive</span>` --interface interface`
+`qrcp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">send|receive</span>` --interface `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>
 
 - Keep the server alive:
 

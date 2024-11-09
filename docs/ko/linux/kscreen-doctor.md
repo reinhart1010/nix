@@ -1,0 +1,37 @@
+---
+layout: page
+title: linux/kscreen-doctor (한국어)
+description: "화면 설정을 변경하고 조작합니다."
+content_hash: 042704d1f08a4ce2ad8e6fe80cfd681fde64592c
+last_modified_at: 2024-11-09
+related_topics:
+  - title: English version
+    url: /en/linux/kscreen-doctor.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/kscreen-doctor.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># kscreen-doctor
+
+화면 설정을 변경하고 조작합니다.
+더 많은 정보: <https://invent.kde.org/plasma/libkscreen>.
+
+- 디스플레이 출력 정보 표시:
+
+`kscreen-doctor --outputs`
+
+- ID가 1인 디스플레이 출력의 회전을 오른쪽으로 설정:
+
+`kscreen-doctor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.1.rotation.right</span>
+
+- ID가 `HDMI-2`인 디스플레이 출력의 배율을 2 (200%)로 설정:
+
+`kscreen-doctor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.HDMI-2.scale.2</span>

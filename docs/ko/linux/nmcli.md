@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/nmcli (한국어)
-description: "이 명령은 `nmcli agent` 의 에일리어스 (별칭) 입니다."
-content_hash: f383674c1db9b56ede3cc4afcdadf81bedb2c433
-last_modified_at: 2023-11-02
+description: "NetworkManager를 사용하여 네트워크 구성을 관리합니다."
+content_hash: 94c4424d77fd27f4da8958e0f5dc28d2b4f935c8
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/nmcli.html
@@ -11,18 +11,52 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/nmcli.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/nmcli.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/nmcli.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/nmcli.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># nmcli
 
-이 명령은 `nmcli agent` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+NetworkManager를 사용하여 네트워크 구성을 관리합니다.
+더 많은 정보: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- NetworkManager 비밀/폴킷 에이전트로서 `nmcli` 실행에 대한 문서 보기:
 
 `tldr nmcli agent`
+
+- 네트워크 연결 관리에 대한 문서 보기:
+
+`tldr nmcli connection`
+
+- 네트워크 인터페이스 관리 및 새로운 Wi-Fi 연결 설정에 대한 문서 보기:
+
+`tldr nmcli device`
+
+- NetworkManager의 일반 설정 관리에 대한 문서 보기:
+
+`tldr nmcli general`
+
+- NetworkManager의 활동 모니터에 대한 문서 보기:
+
+`tldr nmcli monitor`
+
+- 네트워킹 활성화/비활성화 및 상태 확인에 대한 문서 보기:
+
+`tldr nmcli networking`
+
+- 라디오 스위치 관리에 대한 문서 보기:
+
+`tldr nmcli radio`

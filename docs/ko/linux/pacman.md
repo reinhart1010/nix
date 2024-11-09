@@ -2,14 +2,17 @@
 layout: page
 title: linux/pacman (한국어)
 description: "Arch Linux 패키지 관리 도구."
-content_hash: daff15b8c93786d3c07b793394cfff58f25d2404
-last_modified_at: 2024-09-25
+content_hash: 48229f746baf8253c0795c549e757eb27cb4e677
+last_modified_at: 2024-11-09
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/pacman.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/pacman.html
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/linux/pacman.html
@@ -52,7 +55,7 @@ tldri18n_status: 2
 # pacman
 
 Arch Linux 패키지 관리 도구.
-같이 보기: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
+같이 보기: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 다른 패키지 관리자의 동등한 명령을 보려면 <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 더 많은 정보: <https://manned.org/pacman.8>.
 
