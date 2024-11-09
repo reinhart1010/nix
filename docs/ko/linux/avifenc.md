@@ -3,23 +3,14 @@ layout: page
 title: linux/avifenc (한국어)
 description: "AV1 이미지 파일 포맷 (AVIF) 인코더."
 content_hash: e682d4b0f15547b4b21088229576fc21f56d6933
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/avifenc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/avifenc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># avifenc
+# avifenc
 
 AV1 이미지 파일 포맷 (AVIF) 인코더.
 더 많은 정보: <https://aomediacodec.github.io/av1-avif/>.

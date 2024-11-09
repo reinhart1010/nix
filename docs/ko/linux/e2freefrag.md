@@ -3,23 +3,14 @@ layout: page
 title: linux/e2freefrag (한국어)
 description: "ext2/ext3/ext4 파일시스템의 여유 공간 조각화 정보를 출력합니다."
 content_hash: f6c0c0b512ec5aa3dde609fcda0caf24acedf8cc
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/e2freefrag.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/e2freefrag.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># e2freefrag
+# e2freefrag
 
 ext2/ext3/ext4 파일시스템의 여유 공간 조각화 정보를 출력합니다.
 더 많은 정보: <https://manned.org/e2freefrag>.

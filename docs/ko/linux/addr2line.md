@@ -3,7 +3,7 @@ layout: page
 title: linux/addr2line (한국어)
 description: "바이너리의 주소를 파일 이름과 줄 번호로 변환."
 content_hash: c4073e274ed6b4b95a2a2a18e2a218595f103cc5
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: Deutsch version
     url: /de/linux/addr2line.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/addr2line.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/addr2line.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># addr2line
+# addr2line
 
 바이너리의 주소를 파일 이름과 줄 번호로 변환.
 더 많은 정보: <https://manned.org/addr2line>.

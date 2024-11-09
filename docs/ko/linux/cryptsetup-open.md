@@ -3,23 +3,14 @@ layout: page
 title: linux/cryptsetup-open (한국어)
 description: "암호화된 볼륨의 암호 해독된 매핑 생성."
 content_hash: 680220d4fdb1ca034f85bea6dc2a8e88f6473b84
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/cryptsetup-open.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/cryptsetup-open.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cryptsetup open
+# cryptsetup open
 
 암호화된 볼륨의 암호 해독된 매핑 생성.
 참고: TRIM이 활성화된 경우, 해방된 블록 정보의 형태로 최소한의 데이터 누출이 발생할 수 있으며, 사용 중인 파일 시스템을 파악하는 데 충분할 수 있습니다.

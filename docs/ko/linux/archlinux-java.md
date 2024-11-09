@@ -3,7 +3,7 @@ layout: page
 title: linux/archlinux-java (한국어)
 description: "설치된 자바 환경 간 전환."
 content_hash: d154ab5185858ffda78a2132ab2ccc16e1bc090b
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: Deutsch version
     url: /de/linux/archlinux-java.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/archlinux-java.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/archlinux-java.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># archlinux-java
+# archlinux-java
 
 설치된 자바 환경 간 전환.
 더 많은 정보: <https://wiki.archlinux.org/title/Java#Switching_between_JVM>.

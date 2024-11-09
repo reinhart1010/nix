@@ -3,7 +3,7 @@ layout: page
 title: linux/alpine (한국어)
 description: "pico/nano에서 영감을 받은 인터페이스를 가진 이메일 클라이언트 및 유즈넷 뉴스그룹 프로그램입니다."
 content_hash: 11034bf9aff347213250c69653abd910330c2d1b
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: Deutsch version
     url: /de/linux/alpine.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/alpine.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/alpine.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># alpine
+# alpine
 
 pico/nano에서 영감을 받은 인터페이스를 가진 이메일 클라이언트 및 유즈넷 뉴스그룹 프로그램입니다.
 IMAP을 통해 대부분의 최신 이메일 서비스를 지원합니다.

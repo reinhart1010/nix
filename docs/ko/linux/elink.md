@@ -3,23 +3,14 @@ layout: page
 title: linux/elink (한국어)
 description: "데이터베이스 내에서 미리 계산된 이웃을 조회하거나 다른 데이터베이스에서 관련 레코드를 찾습니다."
 content_hash: cdb9d8ec1eb7ba56611e1a03f8cb9e6ea38d3166
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/elink.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/elink.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># elink
+# elink
 
 데이터베이스 내에서 미리 계산된 이웃을 조회하거나 다른 데이터베이스에서 관련 레코드를 찾습니다.
 `edirect` 패키지의 일부입니다.

@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-file (한국어)
 description: "`apt` 패키지에서 아직 설치되지 않은 파일 검색."
 content_hash: 12ef2fada02e6978ec89880e12734b4dc7ed448f
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -38,18 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-file.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/apt-file.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># apt-file
+# apt-file
 
 `apt` 패키지에서 아직 설치되지 않은 파일 검색.
 더 많은 정보: <https://manned.org/apt-file.1>.

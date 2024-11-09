@@ -3,7 +3,7 @@ layout: page
 title: linux/cmus (한국어)
 description: "명령줄 음악 플레이어."
 content_hash: a52282d7bac0ae1578b943f5ad0fc00cce41c212
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: català version
     url: /ca/linux/cmus.html
@@ -23,18 +23,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/cmus.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/cmus.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cmus
+# cmus
 
 명령줄 음악 플레이어.
 화살표 키로 탐색하고, `<enter/return>`으로 선택하며, 숫자 1-8로 다른 보기를 전환합니다.

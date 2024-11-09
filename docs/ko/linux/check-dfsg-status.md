@@ -3,7 +3,7 @@ layout: page
 title: linux/check-dfsg-status (한국어)
 description: "Debian 기반 OS에 설치된 비자유 소프트웨어 패키지를 보고."
 content_hash: 8f7ffb4dcab155bf3c425bd02d3631d4a1f2c618
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/check-dfsg-status.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/check-dfsg-status.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/check-dfsg-status.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># check-dfsg-status
+# check-dfsg-status
 
 Debian 기반 OS에 설치된 비자유 소프트웨어 패키지를 보고.
 이 명령은 이전에 `vrms`로 알려졌습니다.

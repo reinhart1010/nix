@@ -3,23 +3,14 @@ layout: page
 title: linux/dropbearkey (한국어)
 description: "Dropbear 형식으로 SSH 키를 생성합니다."
 content_hash: c774a676a6a221bfae9ad3c7ee42a4594ae9b3f7
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/dropbearkey.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dropbearkey.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dropbearkey
+# dropbearkey
 
 Dropbear 형식으로 SSH 키를 생성합니다.
 더 많은 정보: <https://manned.org/dropbearkey.1>.

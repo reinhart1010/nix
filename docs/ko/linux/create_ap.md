@@ -3,23 +3,14 @@ layout: page
 title: linux/create_ap (한국어)
 description: "모든 채널에서 AP(액세스 포인트)를 생성합니다."
 content_hash: 17f12a85892fff7e89a10ed1fe03ed63ae66527b
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/create_ap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/create_ap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># create_ap
+# create_ap
 
 모든 채널에서 AP(액세스 포인트)를 생성합니다.
 더 많은 정보: <https://github.com/oblique/create_ap>.

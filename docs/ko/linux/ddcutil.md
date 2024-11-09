@@ -3,23 +3,14 @@ layout: page
 title: linux/ddcutil (한국어)
 description: "DDC/CI를 통해 연결된 디스플레이의 설정을 제어합니다."
 content_hash: 17d84d3f9258c9c3325188a1e52ad740644a6e10
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/ddcutil.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ddcutil.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ddcutil
+# ddcutil
 
 DDC/CI를 통해 연결된 디스플레이의 설정을 제어합니다.
 이 명령은 `i2c-dev` 커널 모듈이 로드되어 있어야 합니다. 같이 보기: `modprobe`.

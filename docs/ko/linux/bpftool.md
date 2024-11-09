@@ -3,23 +3,14 @@ layout: page
 title: linux/bpftool (한국어)
 description: "eBPF 프로그램 및 맵을 간단하게 검사하고 조작."
 content_hash: cb738e21a5cfd50634e3f5c185082a6ae479bb4f
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/bpftool.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/bpftool.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bpftool
+# bpftool
 
 eBPF 프로그램 및 맵을 간단하게 검사하고 조작.
 `prog`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.

@@ -3,23 +3,14 @@ layout: page
 title: linux/autorecon (한국어)
 description: "다중 스레드 네트워크 정찰 도구로, 서비스의 자동 열거를 수행합니다."
 content_hash: 66d81062e69ad0d68dd17dfb1ca2bef4066031e2
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/autorecon.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/autorecon.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># autorecon
+# autorecon
 
 다중 스레드 네트워크 정찰 도구로, 서비스의 자동 열거를 수행합니다.
 더 많은 정보: <https://github.com/Tib3rius/AutoRecon>.

@@ -3,23 +3,14 @@ layout: page
 title: linux/edquota (한국어)
 description: "사용자 또는 그룹의 쿼터를 편집. 기본적으로 쿼터가 있는 모든 파일 시스템에서 작동합니다."
 content_hash: 32434b1bda2cbbc1d137e073d1b87dc52f669393
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/edquota.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/edquota.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># edquota
+# edquota
 
 사용자 또는 그룹의 쿼터를 편집. 기본적으로 쿼터가 있는 모든 파일 시스템에서 작동합니다.
 쿼터 정보는 파일 시스템의 루트에 있는 `quota.user` 및 `quota.group` 파일에 영구적으로 저장됩니다.

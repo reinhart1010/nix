@@ -3,23 +3,14 @@ layout: page
 title: linux/duperemove (한국어)
 description: "중복 파일 시스템 익스텐트를 찾아 중복 제거를 예약합니다."
 content_hash: b7d8071c1382e1a551203fbc5db2635c180f6e09
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/duperemove.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/duperemove.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># duperemove
+# duperemove
 
 중복 파일 시스템 익스텐트를 찾아 중복 제거를 예약합니다.
 익스텐트는 파일 시스템 내 파일의 작은 부분입니다.

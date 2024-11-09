@@ -3,23 +3,14 @@ layout: page
 title: linux/etckeeper (한국어)
 description: "시스템 구성 파일을 Git으로 추적합니다."
 content_hash: ec1f717decf86fd7d31c8cc0a29963b4d77ce7d0
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/etckeeper.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/etckeeper.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># etckeeper
+# etckeeper
 
 시스템 구성 파일을 Git으로 추적합니다.
 더 많은 정보: <https://etckeeper.branchable.com/>.

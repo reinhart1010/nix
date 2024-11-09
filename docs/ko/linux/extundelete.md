@@ -3,23 +3,14 @@ layout: page
 title: linux/extundelete (한국어)
 description: "저널을 분석하여 ext3 또는 ext4 파티션에서 삭제된 파일을 복구합니다."
 content_hash: ac6ccebba7997801e0047b7a4c77a2707cdfdb51
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/extundelete.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/extundelete.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># extundelete
+# extundelete
 
 저널을 분석하여 ext3 또는 ext4 파티션에서 삭제된 파일을 복구합니다.
 Unix 시간 정보는 `date`, 파티션을 마운트 해제하려면 `umount`도 참조하세요.

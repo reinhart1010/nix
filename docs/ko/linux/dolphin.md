@@ -3,7 +3,7 @@ layout: page
 title: linux/dolphin (한국어)
 description: "KDE의 파일 관리자로, 파일 및 디렉토리를 관리합니다."
 content_hash: 1ecbff3b90512c7e6d91c862369d935c6a772098
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/dolphin.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dolphin.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dolphin.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dolphin
+# dolphin
 
 KDE의 파일 관리자로, 파일 및 디렉토리를 관리합니다.
 같이 보기: `nautilus`, `caja`, `thunar`, `ranger`.

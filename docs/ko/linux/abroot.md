@@ -3,7 +3,7 @@ layout: page
 title: linux/abroot (한국어)
 description: "2개의 루트 파티션 상태(A⟺B) 간 트랜잭션을 통해 완전한 불변성과 원자성을 제공하는 유틸리티."
 content_hash: daed2306958a80153956941ceb8a2cb6c3ee26e3
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/abroot.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/abroot.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/abroot.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># abroot
+# abroot
 
 2개의 루트 파티션 상태(A⟺B) 간 트랜잭션을 통해 완전한 불변성과 원자성을 제공하는 유틸리티.
 항상 시스템이 일관된 상태를 유지하도록 OCI 이미지를 사용하여 업데이트를 수행합니다.

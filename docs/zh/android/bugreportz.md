@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (中文)
 description: "生成一个压缩的 Android 错误报告。"
 content_hash: b64548a320298447def642b3e2c72bdef48981e6
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -65,12 +65,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreportz
+# bugreportz
 
 生成一个压缩的 Android 错误报告。
 此命令只能通过 `adb shell` 使用。

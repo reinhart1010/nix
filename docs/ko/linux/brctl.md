@@ -3,7 +3,7 @@ layout: page
 title: linux/brctl (한국어)
 description: "Ethernet 브리지 관리 도구."
 content_hash: b52419fb0fba058a9209adb56f48c8f086a2b5a9
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/brctl.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/brctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/brctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># brctl
+# brctl
 
 Ethernet 브리지 관리 도구.
 더 많은 정보: <https://manned.org/brctl>.

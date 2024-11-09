@@ -3,23 +3,14 @@ layout: page
 title: linux/chat (한국어)
 description: "모뎀 또는 시리얼 장치와의 대화를 자동화합니다."
 content_hash: 627c36c94dd030d2c5c325b29d17d3350b3cbd75
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/chat.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/chat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chat
+# chat
 
 모뎀 또는 시리얼 장치와의 대화를 자동화합니다.
 주로 PPP(Point-to-Point Protocol) 연결을 설정하는 데 사용됩니다.

@@ -3,7 +3,7 @@ layout: page
 title: linux/dnf5 (한국어)
 description: "RHEL, Fedora, CentOS를 위한 패키지 관리 도구(dnf를 대체하며, dnf는 yum을 대체)."
 content_hash: 533286d65370226941d77ca9ad6683d40b570319
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/dnf5.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/dnf5.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dnf5.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dnf5
+# dnf5
 
 RHEL, Fedora, CentOS를 위한 패키지 관리 도구(dnf를 대체하며, dnf는 yum을 대체).
 DNF5는 C++로 다시 작성된 DNF 패키지 관리자로, 성능이 향상되고 크기가 작아졌습니다.

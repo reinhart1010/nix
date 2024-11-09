@@ -3,7 +3,7 @@ layout: page
 title: linux/a2disconf (한국어)
 description: "Debian 기반 운영체제에서 Apache 구성 파일을 비활성화합니다."
 content_hash: e73df1ea5b42ce451bc8e3662f55974536e406ef
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: català version
     url: /ca/linux/a2disconf.html
@@ -38,18 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/a2disconf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/a2disconf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># a2disconf
+# a2disconf
 
 Debian 기반 운영체제에서 Apache 구성 파일을 비활성화합니다.
 더 많은 정보: <https://manned.org/a2disconf.8>.

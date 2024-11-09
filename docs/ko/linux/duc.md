@@ -3,7 +3,7 @@ layout: page
 title: linux/duc (한국어)
 description: "디스크 사용량을 색인화, 검사 및 시각화하는 도구 모음."
 content_hash: 682eed11fa2bdb1c70ab0c811516613e90230a19
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/duc.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/duc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/duc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># duc
+# duc
 
 디스크 사용량을 색인화, 검사 및 시각화하는 도구 모음.
 Duc는 파일 시스템의 폴더 누적 크기를 데이터베이스로 유지하여 이를 쿼리하거나 데이터의 위치를 나타내는 멋진 그래프를 생성할 수 있게 합니다.

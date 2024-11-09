@@ -3,23 +3,14 @@ layout: page
 title: linux/dracut (한국어)
 description: "Linux 커널을 부팅하기 위한 initramfs 이미지를 생성합니다."
 content_hash: 75accf88ad2622bef4c7f6661877a2201dab8fb1
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/dracut.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dracut.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dracut
+# dracut
 
 Linux 커널을 부팅하기 위한 initramfs 이미지를 생성합니다.
 Dracut은 기본적으로 `/etc/dracut.conf`, `/etc/dracut.conf.d/*.conf`, `/usr/lib/dracut/dracut.conf.d/*.conf`의 구성 파일에서 옵션을 사용합니다.

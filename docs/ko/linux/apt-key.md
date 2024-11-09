@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-key (한국어)
 description: "Debian 및 Ubuntu의 APT 패키지 관리자를 위한 키 관리 도구."
 content_hash: 6ef93eb4452b427fb46a2dc48bef36fb35c3dab6
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -32,18 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-key.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/apt-key.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># apt-key
+# apt-key
 
 Debian 및 Ubuntu의 APT 패키지 관리자를 위한 키 관리 도구.
 참고: `apt-key`는 이제 더 이상 사용되지 않습니다 (`apt-key del`의 유지 보수 스크립트에서의 사용 제외).

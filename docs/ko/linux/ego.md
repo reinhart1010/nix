@@ -3,23 +3,14 @@ layout: page
 title: linux/ego (한국어)
 description: "Funtoo의 공식 시스템 성격 관리 도구."
 content_hash: a3df9d21aa07c4e27e5e20916f5906432d73e4b4
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/ego.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ego.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ego
+# ego
 
 Funtoo의 공식 시스템 성격 관리 도구.
 더 많은 정보: <https://funtoo-ego.readthedocs.io/en/develop/>.

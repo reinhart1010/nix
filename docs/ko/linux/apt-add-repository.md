@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-add-repository (한국어)
 description: "`apt` 저장소 정의를 관리합니다."
 content_hash: bc1e765a007c45e0ba640926895f6fc5772bfa9c
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: català version
     url: /ca/linux/apt-add-repository.html
@@ -35,18 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-add-repository.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/apt-add-repository.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># apt-add-repository
+# apt-add-repository
 
 `apt` 저장소 정의를 관리합니다.
 더 많은 정보: <https://manned.org/apt-add-repository.1>.

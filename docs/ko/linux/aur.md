@@ -3,7 +3,7 @@ layout: page
 title: linux/aur (한국어)
 description: "AUR에서 패키지를 빌드하고 로컬 저장소를 관리합니다."
 content_hash: fb03e4f29d43b7eb274669fd83632c4aefec1367
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/aur.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/aur.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/aur.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aur
+# aur
 
 AUR에서 패키지를 빌드하고 로컬 저장소를 관리합니다.
 참고: 이 기능을 완전히 사용하려면 `/etc/pacman.conf`에 로컬 저장소가 정의되어 있어야 하며 `vifm`이 설치되어 있어야 합니다.

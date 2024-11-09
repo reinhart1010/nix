@@ -3,7 +3,7 @@ layout: page
 title: linux/certbot (한국어)
 description: "TLS 인증서를 자동으로 획득하고 갱신하기 위한 Let's Encrypt 에이전트."
 content_hash: 371412fe51b6feccac2f790734bf876b08d5ecc6
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: Deutsch version
     url: /de/linux/certbot.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/certbot.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/certbot.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># certbot
+# certbot
 
 TLS 인증서를 자동으로 획득하고 갱신하기 위한 Let's Encrypt 에이전트.
 `letsencrypt`의 후속 도구.

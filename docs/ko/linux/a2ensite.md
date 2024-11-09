@@ -3,7 +3,7 @@ layout: page
 title: linux/a2ensite (한국어)
 description: "Debian 기반 운영 체제에서 Apache 가상 호스트를 활성화합니다."
 content_hash: ad283f00be569173fd5ca31a0f2a364542b42dae
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: català version
     url: /ca/linux/a2ensite.html
@@ -38,18 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/a2ensite.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/a2ensite.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># a2ensite
+# a2ensite
 
 Debian 기반 운영 체제에서 Apache 가상 호스트를 활성화합니다.
 더 많은 정보: <https://manned.org/a2ensite.8>.

@@ -3,23 +3,14 @@ layout: page
 title: linux/cockpit-ws (한국어)
 description: "브라우저 애플리케이션과 `cockpit-bridge`와 같은 다양한 구성 도구 및 서비스 간 통신."
 content_hash: e9dc3c3580dfc05310bea7607a6ecc5d70daee92
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/cockpit-ws.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/cockpit-ws.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cockpit-ws
+# cockpit-ws
 
 브라우저 애플리케이션과 `cockpit-bridge`와 같은 다양한 구성 도구 및 서비스 간 통신.
 더 많은 정보: <https://cockpit-project.org/guide/latest/cockpit-ws.8.html>.

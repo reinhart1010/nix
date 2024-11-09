@@ -3,7 +3,7 @@ layout: page
 title: linux/cp (한국어)
 description: "파일과 디렉터리를 복사합니다."
 content_hash: 31511e2241c2498ea72dcc12f1d53a6b76f6f8f8
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -41,12 +41,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/cp.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cp
+# cp
 
 파일과 디렉터리를 복사합니다.
 더 많은 정보: <https://www.gnu.org/software/coreutils/cp>.

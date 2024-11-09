@@ -3,7 +3,7 @@ layout: page
 title: linux/cuyo (한국어)
 description: "테트리스와 유사한 게임."
 content_hash: c0e5d7b22b658f7da7b97a809f6aa85d1bc5fbb4
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: Deutsch version
     url: /de/linux/cuyo.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/linux/cuyo.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/cuyo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cuyo
+# cuyo
 
 테트리스와 유사한 게임.
 더 많은 정보: <https://www.karimmi.de/cuyo/>.

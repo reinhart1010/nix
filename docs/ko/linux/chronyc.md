@@ -3,23 +3,14 @@ layout: page
 title: linux/chronyc (한국어)
 description: "Chrony NTP 데몬을 쿼리합니다."
 content_hash: 568d4c8e85caa8f7d734be1c7c5e53a5cc56dbd2
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/chronyc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/chronyc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chronyc
+# chronyc
 
 Chrony NTP 데몬을 쿼리합니다.
 더 많은 정보: <https://chrony-project.org/doc/4.6.1/chronyc.html>.

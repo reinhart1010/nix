@@ -3,23 +3,14 @@ layout: page
 title: linux/avahi-resolve (한국어)
 description: "호스트 이름과 IP 주소 간 변환."
 content_hash: ff8bdd08b0c1794359a160bb69ae9fb0876f81ae
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/avahi-resolve.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/avahi-resolve.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># avahi-resolve
+# avahi-resolve
 
 호스트 이름과 IP 주소 간 변환.
 더 많은 정보: <https://www.avahi.org/>.

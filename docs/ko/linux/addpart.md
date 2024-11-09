@@ -3,7 +3,7 @@ layout: page
 title: linux/addpart (한국어)
 description: "지정된 파티션의 존재를 Linux 커널에 알립니다."
 content_hash: a78d9e4da0f70f59d95a9efb7e479ee82e6a3ee3
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: català version
     url: /ca/linux/addpart.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/addpart.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/addpart.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># addpart
+# addpart
 
 지정된 파티션의 존재를 Linux 커널에 알립니다.
 `add partition` ioctl의 간단한 래퍼입니다.

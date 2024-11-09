@@ -3,7 +3,7 @@ layout: page
 title: linux/enum4linux (한국어)
 description: "원격 시스템에서 Windows 및 Samba 정보를 열거합니다."
 content_hash: 2f5f3fbdebcd89b2908cff570e20575305c84c25
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/enum4linux.html
@@ -11,18 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/linux/enum4linux.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/enum4linux.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># enum4linux
+# enum4linux
 
 원격 시스템에서 Windows 및 Samba 정보를 열거합니다.
 더 많은 정보: <https://labs.portcullis.co.uk/tools/enum4linux/>.

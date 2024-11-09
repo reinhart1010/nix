@@ -3,7 +3,7 @@ layout: page
 title: linux/audit2allow (한국어)
 description: "SELinux 로컬 정책 모듈을 생성하여 로그에 기록된 거부된 작업 기반의 규칙을 허용합니다."
 content_hash: b4495e33aab8ee7ea91de69af79f6e6bcffb77c2
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/audit2allow.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/audit2allow.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/audit2allow.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># audit2allow
+# audit2allow
 
 SELinux 로컬 정책 모듈을 생성하여 로그에 기록된 거부된 작업 기반의 규칙을 허용합니다.
 참고: audit2allow 사용 시 주의가 필요하며, 생성된 정책을 적용하기 전에 항상 검토하세요. 과도한 접근을 허용할 수 있습니다.

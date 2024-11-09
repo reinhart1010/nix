@@ -3,7 +3,7 @@ layout: page
 title: linux/avahi-browse (한국어)
 description: "로컬 네트워크에서 mDNS/DNS-SD를 통해 노출된 서비스와 호스트를 표시합니다."
 content_hash: 692c5b3040cfe06522d4a657e0b6bec67515168e
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/avahi-browse.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/avahi-browse.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/avahi-browse.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># avahi-browse
+# avahi-browse
 
 로컬 네트워크에서 mDNS/DNS-SD를 통해 노출된 서비스와 호스트를 표시합니다.
 Avahi는 Apple 기기에서 발견되는 Bonjour(Zeroconf)와 호환됩니다.

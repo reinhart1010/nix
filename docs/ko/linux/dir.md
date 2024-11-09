@@ -3,7 +3,7 @@ layout: page
 title: linux/dir (한국어)
 description: "한 줄에 하나의 파일씩 디렉토리 내용을 나열하며, 특수 문자는 백슬래시 이스케이프 시퀀스로 표시됩니다."
 content_hash: 560d77a3c178944f39afd34ac58fde14b657e674
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/dir.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/dir.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dir.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dir
+# dir
 
 한 줄에 하나의 파일씩 디렉토리 내용을 나열하며, 특수 문자는 백슬래시 이스케이프 시퀀스로 표시됩니다.
 `ls -C --escape`와 같이 작동합니다.

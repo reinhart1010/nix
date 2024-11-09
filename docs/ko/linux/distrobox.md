@@ -3,7 +3,7 @@ layout: page
 title: linux/distrobox (한국어)
 description: "터미널 내에서 컨테이너로 리눅스 배포판을 사용하세요. 이를 통해 패키지를 설치하고 사용하며, 호스트 OS와의 긴밀한 통합, 스토리지(`home` 디렉토리) 및 하드웨어를 공유합니다."
 content_hash: 3da1264068a2c51025074ac3d284ac39a5ea3278
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/distrobox.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/distrobox.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/distrobox.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># distrobox
+# distrobox
 
 터미널 내에서 컨테이너로 리눅스 배포판을 사용하세요. 이를 통해 패키지를 설치하고 사용하며, 호스트 OS와의 긴밀한 통합, 스토리지(`home` 디렉토리) 및 하드웨어를 공유합니다.
 참고: Podman 또는 Docker를 사용하여 컨테이너를 생성합니다.

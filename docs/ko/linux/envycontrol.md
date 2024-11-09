@@ -3,23 +3,14 @@ layout: page
 title: linux/envycontrol (한국어)
 description: "Nvidia Optimus 노트북을 위한 GPU 전환 도구."
 content_hash: f73aa8244fd337495314715cfb0f744160b312f8
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/envycontrol.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/envycontrol.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># envycontrol
+# envycontrol
 
 Nvidia Optimus 노트북을 위한 GPU 전환 도구.
 더 많은 정보: <https://github.com/bayasdev/envycontrol>.

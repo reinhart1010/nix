@@ -3,23 +3,14 @@ layout: page
 title: linux/e2undo (한국어)
 description: "ext2/ext3/ext4 파일 시스템에 대한 undo 로그 재생."
 content_hash: 29fecadbe70e7b520b35980db5c8f9ba61df15e6
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/e2undo.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/e2undo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># e2undo
+# e2undo
 
 ext2/ext3/ext4 파일 시스템에 대한 undo 로그 재생.
 e2fsprogs 프로그램의 실패한 작업을 취소하는 데 사용할 수 있습니다.

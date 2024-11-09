@@ -3,23 +3,14 @@ layout: page
 title: common/in2csv (한국어)
 description: "다양한 표 데이터 형식을 CSV로 변환."
 content_hash: ce9fc84af8d5e770414e9c45abd08f9c192485ce
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/common/in2csv.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/in2csv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># in2csv
+# in2csv
 
 다양한 표 데이터 형식을 CSV로 변환.
 csvkit에 포함.

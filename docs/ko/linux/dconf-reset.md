@@ -3,7 +3,7 @@ layout: page
 title: linux/dconf-reset (한국어)
 description: "dconf 데이터베이스에서 키 값을 재설정."
 content_hash: 32ab85071e53cf0661ab58f4ac73072965963649
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/dconf-reset.html
@@ -11,18 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dconf-reset.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dconf-reset.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dconf reset
+# dconf reset
 
 dconf 데이터베이스에서 키 값을 재설정.
 같이 보기: `dconf`.

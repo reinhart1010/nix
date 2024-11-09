@@ -3,23 +3,14 @@ layout: page
 title: common/influx (한국어)
 description: "InfluxDB 커멘드 라인 클라이언트."
 content_hash: 3ccd4fb4a130a66c69f2f5250dab2bdadb10374e
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/common/influx.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/influx.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># influx
+# influx
 
 InfluxDB 커멘드 라인 클라이언트.
 더 많은 정보: <https://docs.influxdata.com/influxdb/v1.7/tools/shell/>.

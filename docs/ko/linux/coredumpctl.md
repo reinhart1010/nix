@@ -3,7 +3,7 @@ layout: page
 title: linux/coredumpctl (한국어)
 description: "저장된 코어 덤프와 메타데이터를 검색하고 처리합니다."
 content_hash: 45f5f07d784b6fcb2e7d915c217b377c87e37d22
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: català version
     url: /ca/linux/coredumpctl.html
@@ -17,18 +17,9 @@ related_topics:
   - title: polski version
     url: /pl/linux/coredumpctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/coredumpctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># coredumpctl
+# coredumpctl
 
 저장된 코어 덤프와 메타데이터를 검색하고 처리합니다.
 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/coredumpctl.html>.

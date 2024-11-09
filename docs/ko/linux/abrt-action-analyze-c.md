@@ -3,23 +3,14 @@ layout: page
 title: linux/abrt-action-analyze-c (한국어)
 description: "`coredump`와 함께 문제 데이터 디렉터리에 대한 UUID를 계산합니다."
 content_hash: 4e9e0b57f7ce1fa7f711a230544df5b2ee3fa2c7
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/abrt-action-analyze-c.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/abrt-action-analyze-c.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># abrt-action-analyze-c
+# abrt-action-analyze-c
 
 `coredump`와 함께 문제 데이터 디렉터리에 대한 UUID를 계산합니다.
 더 많은 정보: <https://manned.org/abrt-action-analyze-c>.

@@ -3,23 +3,14 @@ layout: page
 title: linux/deb-get (한국어)
 description: "타사 저장소 또는 직접 다운로드를 통해 배포된 `.deb` 패키지에 대한 `apt-get` 기능."
 content_hash: 789cd0bd709b572360b35c77e28f96e677b605db
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/deb-get.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/deb-get.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># deb-get
+# deb-get
 
 타사 저장소 또는 직접 다운로드를 통해 배포된 `.deb` 패키지에 대한 `apt-get` 기능.
 `apt-get`을 사용하는 Linux 배포판과 함께 작동합니다.

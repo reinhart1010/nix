@@ -3,7 +3,7 @@ layout: page
 title: linux/apx-subsystems (한국어)
 description: "`apx`에서 서브시스템을 관리합니다."
 content_hash: 15e4a5ab689b0b03add491331d13c7d47c81da36
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/apx-subsystems.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/apx-subsystems.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/apx-subsystems.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># apx subsystems
+# apx subsystems
 
 `apx`에서 서브시스템을 관리합니다.
 서브시스템은 기존 스택을 기반으로 생성될 수 있는 컨테이너입니다.

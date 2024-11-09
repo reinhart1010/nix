@@ -3,7 +3,7 @@ layout: page
 title: linux/eselect-locale (한국어)
 description: "시스템 언어를 설정하는 `LANG` 환경 변수를 관리하기 위한 `eselect` 모듈."
 content_hash: 47cc84ecb79d9e37e1327e01960e841d75e92c66
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/eselect-locale.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/eselect-locale.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/eselect-locale.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># eselect locale
+# eselect locale
 
 시스템 언어를 설정하는 `LANG` 환경 변수를 관리하기 위한 `eselect` 모듈.
 더 많은 정보: <https://wiki.gentoo.org/wiki/Eselect#Locale>.

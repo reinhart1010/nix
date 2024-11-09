@@ -3,23 +3,14 @@ layout: page
 title: linux/dnsmap (한국어)
 description: "dnsmap 명령은 도메인의 일반적인 하위 도메인(e.g. smtp.domain.org)을 스캔합니다."
 content_hash: 7d38c9ec3184e41a54e8827a53d0c7053347ed0b
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/dnsmap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dnsmap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dnsmap
+# dnsmap
 
 dnsmap 명령은 도메인의 일반적인 하위 도메인(e.g. smtp.domain.org)을 스캔합니다.
 더 많은 정보: <https://github.com/resurrecting-open-source-projects/dnsmap>.

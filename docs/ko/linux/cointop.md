@@ -3,23 +3,14 @@ layout: page
 title: linux/cointop (한국어)
 description: "터미널에서 암호화폐를 추적하고 모니터링."
 content_hash: a5d3402b2105e100a6aff8210c2512ac9837211c
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/cointop.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/cointop.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cointop
+# cointop
 
 터미널에서 암호화폐를 추적하고 모니터링.
 더 많은 정보: <https://github.com/cointop-sh/cointop>.

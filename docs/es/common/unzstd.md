@@ -1,21 +1,28 @@
 ---
 layout: page
 title: common/unzstd (español)
-description: "Este comando es un alias de `zstd`."
-content_hash: fa00fd94bd3b81f48d3a4f8eaa92a0121dc7f11a
-last_modified_at: 2023-11-02
+description: "Este comando es un alias de `zstd --decompress`."
+content_hash: 22313033694f194eaacc86af682d56928ad8c393
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/common/unzstd.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/unzstd.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/unzstd.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/unzstd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
+# unzstd
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+Este comando es un alias de `zstd --decompress`.
 
-<hr># unzstd
-
-Este comando es un alias de `zstd`.
-
-- Ver documentación para el comando original:
+- Vea la documentación para el comando original:
 
 `tldr zstd`

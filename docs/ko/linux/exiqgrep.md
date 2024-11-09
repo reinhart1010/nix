@@ -3,23 +3,14 @@ layout: page
 title: linux/exiqgrep (한국어)
 description: "Exim 큐 출력에서 `grep`의 기능을 제공하는 Perl 스크립트."
 content_hash: ff264ad025ae0bbbf50285d4a78705017ac9cc67
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/exiqgrep.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/exiqgrep.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># exiqgrep
+# exiqgrep
 
 Exim 큐 출력에서 `grep`의 기능을 제공하는 Perl 스크립트.
 더 많은 정보: <https://www.exim.org/exim-html-current/doc/html/spec_html/ch-exim_utilities.html>.

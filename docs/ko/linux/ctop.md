@@ -3,7 +3,7 @@ layout: page
 title: linux/ctop (한국어)
 description: "CPU, 메모리 및 블록 IO 사용에 대한 실시간 메트릭으로 컨테이너 성능 및 상태를 즉시 시각화."
 content_hash: dff1dbc06c33f37a792009cff4aef82655885089
-last_modified_at: 2024-11-08
+last_modified_at: 2024-11-09
 related_topics:
   - title: English version
     url: /en/linux/ctop.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/ctop.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ctop.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ctop
+# ctop
 
 CPU, 메모리 및 블록 IO 사용에 대한 실시간 메트릭으로 컨테이너 성능 및 상태를 즉시 시각화.
 더 많은 정보: <https://github.com/bcicen/ctop>.
