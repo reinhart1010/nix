@@ -2,14 +2,20 @@
 layout: page
 title: windows/rm (English)
 description: "In PowerShell, this command is an alias of `Remove-Item`."
-content_hash: 73bdb72a07e8a8d62da27efb8a3dd0fe834a33f0
-last_modified_at: 2023-11-12
+content_hash: 91f3a7fc6b774b7906bb9d68576252348b9d3827
+last_modified_at: 2024-11-10
+related_topics:
+  - title: 한국어 version
+    url: /ko/windows/rm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/rm.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # rm
 
 In PowerShell, this command is an alias of `Remove-Item`.
-More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/remove-item>.
 
 - View documentation for the original command:
 

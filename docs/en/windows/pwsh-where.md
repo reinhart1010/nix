@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (English)
 description: "This command is an alias of `Where-Object`."
-content_hash: 99ce7a9d71aa9dd5b056196fa6311e79aee7e47a
-last_modified_at: 2023-12-22
+content_hash: b36246f7faf7ef27e69e363aac9f07280350a1a1
+last_modified_at: 2024-11-10
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # pwsh where
 
 This command is an alias of `Where-Object`.
-More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
 
 - View documentation for the original command:
 

@@ -2,14 +2,23 @@
 layout: page
 title: common/pnmtopnm (English)
 description: "This command is an alias of `pamtopnm`."
-content_hash: a1f93dca62b6fa472462bdc96b023fd05ce5cccf
-last_modified_at: 2023-11-26
+content_hash: a9d6ce24c9e476400b288bd3aaf340838b519802
+last_modified_at: 2024-11-10
+related_topics:
+  - title: español version
+    url: /es/common/pnmtopnm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/pnmtopnm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/pnmtopnm.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pnmtopnm
 
 This command is an alias of `pamtopnm`.
-More information: <https://netpbm.sourceforge.net/doc/pnmtopnm.html>.
 
 - View documentation for the original command:
 

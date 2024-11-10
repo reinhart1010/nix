@@ -2,14 +2,23 @@
 layout: page
 title: windows/sl (English)
 description: "In PowerShell, this command is an alias of `Set-Location`."
-content_hash: d91c8971be0b47b20684f20858d02c8448caf055
-last_modified_at: 2023-11-12
+content_hash: a52e94692fa0dcefc7e0fb398e2f7204c3e38e0f
+last_modified_at: 2024-11-10
+related_topics:
+  - title: Indonesia version
+    url: /id/windows/sl.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/sl.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/sl.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # sl
 
 In PowerShell, this command is an alias of `Set-Location`.
-More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-location>.
 
 - View documentation for the original command:
 

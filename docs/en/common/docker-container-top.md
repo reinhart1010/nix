@@ -2,9 +2,15 @@
 layout: page
 title: common/docker-container-top (English)
 description: "This command is an alias of `docker top`."
-content_hash: bc7c1d968088eca137d5fcf634e09e00f9e3bb38
-last_modified_at: 2024-09-19
+content_hash: 9621c1cedd23970255f283a8c56cfd770a19ad46
+last_modified_at: 2024-11-10
 related_topics:
+  - title: español version
+    url: /es/common/docker-container-top.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-container-top.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/docker-container-top.html
     icon: bi bi-globe
@@ -16,7 +22,6 @@ tldri18n_status: 2
 # docker container top
 
 This command is an alias of `docker top`.
-More information: <https://docs.docker.com/reference/cli/docker/container/top/>.
 
 - View documentation for the original command:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (English)
 description: "This command is an alias of `fossil commit`."
-content_hash: 363a421953e6f9336cf93038e9338ade0cb814a6
-last_modified_at: 2023-11-12
+content_hash: 795f8f51fe666a8c34a82fa830207b39336f7295
+last_modified_at: 2024-11-10
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil ci
 
 This command is an alias of `fossil commit`.
-More information: <https://fossil-scm.org/home/help/commit>.
 
 - View documentation for the original command:
 
