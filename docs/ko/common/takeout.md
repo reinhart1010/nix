@@ -3,23 +3,14 @@ layout: page
 title: common/takeout (한국어)
 description: "Docker 기반의 개발 전용 의존성 관리자."
 content_hash: 2089e7c6423238ce1f1a9eabca1e8273a161bf2e
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/takeout.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/takeout.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># takeout
+# takeout
 
 Docker 기반의 개발 전용 의존성 관리자.
 더 많은 정보: <https://github.com/tighten/takeout>.

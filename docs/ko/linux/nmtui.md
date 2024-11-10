@@ -3,10 +3,13 @@ layout: page
 title: linux/nmtui (한국어)
 description: "NetworkManager를 제어하기 위한 텍스트 사용자 인터페이스."
 content_hash: 7ad4f709f4e4734fbb59bb86b975778eb2b8f352
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/nmtui.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/nmtui.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/nmtui.html
@@ -17,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/nmtui.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/nmtui.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nmtui
+# nmtui
 
 NetworkManager를 제어하기 위한 텍스트 사용자 인터페이스.
 화살표 키로 탐색하고, Enter 키로 옵션을 선택하세요.

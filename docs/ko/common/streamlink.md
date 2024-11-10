@@ -3,23 +3,14 @@ layout: page
 title: common/streamlink (한국어)
 description: "다양한 서비스에서 스트림을 추출하여 원하는 비디오 플레이어로 전달."
 content_hash: 723ca78dfca2cfd70690f5d26e99d2f70cf7587b
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/streamlink.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/streamlink.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># streamlink
+# streamlink
 
 다양한 서비스에서 스트림을 추출하여 원하는 비디오 플레이어로 전달.
 더 많은 정보: <https://streamlink.github.io>.

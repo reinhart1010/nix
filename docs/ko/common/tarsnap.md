@@ -3,23 +3,14 @@ layout: page
 title: common/tarsnap (한국어)
 description: "원격 Tarsnap 암호화 백업을 조작."
 content_hash: d8f20f32c889615030a3963cc860cb0376cef067
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/tarsnap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tarsnap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tarsnap
+# tarsnap
 
 원격 Tarsnap 암호화 백업을 조작.
 참고: `/usr/local/etc/tarsnap.conf` 또는 `~/.tarsnaprc`에서 설정하면 키 파일과 캐시 디렉토리를 지정할 필요가 없습니다.

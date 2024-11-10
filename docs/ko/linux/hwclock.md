@@ -3,23 +3,14 @@ layout: page
 title: linux/hwclock (한국어)
 description: "하드웨어 시계를 읽거나 변경합니다. 일반적으로 루트 권한이 필요합니다."
 content_hash: 7147ec914b5fb5d4a59e5c26947dd1d405cc9a12
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/hwclock.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/hwclock.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hwclock
+# hwclock
 
 하드웨어 시계를 읽거나 변경합니다. 일반적으로 루트 권한이 필요합니다.
 더 많은 정보: <https://manned.org/hwclock>.

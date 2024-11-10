@@ -3,7 +3,7 @@ layout: page
 title: linux/qm-disk-move (español)
 description: "Mueve un disco virtual de un almacenamiento a otro dentro del mismo grupo Proxmox."
 content_hash: 64163215300da0756f12b372d8a791e06a27922f
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/qm-disk-move.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/qm-disk-move.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/qm-disk-move.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qm disk move
+# qm disk move
 
 Mueve un disco virtual de un almacenamiento a otro dentro del mismo grupo Proxmox.
 Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.

@@ -3,23 +3,14 @@ layout: page
 title: common/tre (한국어)
 description: "현재 디렉토리의 내용을 트리 형태로 표시."
 content_hash: 73fb7bfee5f10b018491398824b988aeb496dc26
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/tre.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tre.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tre
+# tre
 
 현재 디렉토리의 내용을 트리 형태로 표시.
 기본적으로 `.gitignore` 설정을 존중합니다.

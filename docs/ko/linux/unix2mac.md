@@ -3,7 +3,7 @@ layout: page
 title: linux/unix2mac (한국어)
 description: "Unix 스타일의 줄 끝을 macOS 스타일로 변경."
 content_hash: 553109c7b24e2f385c169f8ebb1da0eb28ad5992
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/unix2mac.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/unix2mac.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/unix2mac.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># unix2mac
+# unix2mac
 
 Unix 스타일의 줄 끝을 macOS 스타일로 변경.
 LF를 CR로 대체.

@@ -3,23 +3,14 @@ layout: page
 title: linux/virt-xml (한국어)
 description: "명령줄 옵션을 사용하여 libvirt 도메인 XML 파일을 편집합니다."
 content_hash: 0513f9501934f8df2bb04b3f835500aeb91c797b
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/virt-xml.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/virt-xml.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># virt-xml
+# virt-xml
 
 명령줄 옵션을 사용하여 libvirt 도메인 XML 파일을 편집합니다.
 참고: '도메인'은 기존 VM의 이름, UUID 또는 ID를 의미합니다 (참조: tldr virsh).

@@ -3,7 +3,7 @@ layout: page
 title: linux/mount.cifs (한국어)
 description: "SMB (Server Message Block) 또는 CIFS (Common Internet File System) 공유를 마운트."
 content_hash: 8c5e3933737868609c04bdbd217c794e5754a3b0
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/mount.cifs.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/mount.cifs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mount.cifs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mount.cifs
+# mount.cifs
 
 SMB (Server Message Block) 또는 CIFS (Common Internet File System) 공유를 마운트.
 참고: `mount`에 `-t cifs` 옵션을 전달하여 동일한 작업을 수행할 수 있습니다.

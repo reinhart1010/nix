@@ -2,8 +2,8 @@
 layout: page
 title: common/az (français)
 description: "La CLI officielle de Microsoft Azure."
-content_hash: 6718c2eb08b09897cb77ca0b82466dbbfec39f8b
-last_modified_at: 2024-09-14
+content_hash: 8909ba70bf7e53e07fcce9d500a32f488359f3b1
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -26,26 +26,23 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/az.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az
+# az
 
 La CLI officielle de Microsoft Azure.
 Certaines commandes comme `az login` ont leur propre documentation.
-Plus d'informations : <https://learn.microsoft.com/cli/azure>.
+Plus d'informations : <https://learn.microsoft.com/cli/azure/reference-index>.
 
 - Connexion à Azure :
 
 `az login`
 
-- Gère les informations de souscription azure :
+- Gère les informations de souscription Azure :
 
 `az account`
 
-- Affiche tous les disques managés Azure :
+- Affiche tous les disques administrés Azure :
 
 `az disk list`
 
@@ -53,10 +50,18 @@ Plus d'informations : <https://learn.microsoft.com/cli/azure>.
 
 `az vm list`
 
-- Gère Azure Kubernetes Services :
+- Gère les services Kubernetes Azure :
 
 `az aks`
 
 - Gère les ressources réseaux Azure :
 
 `az network`
+
+- Démarre en mode interactif :
+
+`az interactive`
+
+- Affiche l'aide :
+
+`az --help`

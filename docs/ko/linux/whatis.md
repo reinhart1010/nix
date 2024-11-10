@@ -3,7 +3,7 @@ layout: page
 title: linux/whatis (한국어)
 description: "매뉴얼 페이지에서 한 줄 설명을 표시합니다."
 content_hash: 19e6011de5bbf73388bb965211749436740927bf
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/whatis.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/linux/whatis.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/whatis.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># whatis
+# whatis
 
 매뉴얼 페이지에서 한 줄 설명을 표시합니다.
 더 많은 정보: <https://manned.org/whatis>.

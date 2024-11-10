@@ -3,23 +3,14 @@ layout: page
 title: common/sf (한국어)
 description: "Salesforce 조직과 작업할 때 개발 및 빌드 자동화를 단순화하는 강력한 명령줄 인터페이스."
 content_hash: fb6099b8e802ea81844f6c4bcc3114686875950e
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/sf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sf
+# sf
 
 Salesforce 조직과 작업할 때 개발 및 빌드 자동화를 단순화하는 강력한 명령줄 인터페이스.
 더 많은 정보: <https://developer.salesforce.com/tools/salesforcecli>.

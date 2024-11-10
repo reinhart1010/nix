@@ -3,23 +3,14 @@ layout: page
 title: linux/kexec (한국어)
 description: "새 커널로 직접 재부팅."
 content_hash: 925c64ff04008dade7dc4c212b9042298b7640a9
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/kexec.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/kexec.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kexec
+# kexec
 
 새 커널로 직접 재부팅.
 더 많은 정보: <https://manned.org/kexec>.

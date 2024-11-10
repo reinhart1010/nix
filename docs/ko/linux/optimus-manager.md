@@ -3,23 +3,14 @@ layout: page
 title: linux/optimus-manager (한국어)
 description: "Nvidia Optimus 노트북을 위한 GPU 전환 유틸리티."
 content_hash: 47998db7c95ffd62f97c2e1a20b3f709571e52dd
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/optimus-manager.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/optimus-manager.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># optimus-manager
+# optimus-manager
 
 Nvidia Optimus 노트북을 위한 GPU 전환 유틸리티.
 더 많은 정보: <https://github.com/Askannz/optimus-manager>.

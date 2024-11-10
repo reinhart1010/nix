@@ -3,7 +3,7 @@ layout: page
 title: common/screen (한국어)
 description: "원격 서버에서 세션을 열어 유지. 단일 SSH 연결로 여러 창을 관리."
 content_hash: 6e9ea021910d43abe9af70ebd71c466d6d2643b5
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/screen.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/screen.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/screen.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># screen
+# screen
 
 원격 서버에서 세션을 열어 유지. 단일 SSH 연결로 여러 창을 관리.
 같이 보기: `tmux`, `zellij`.

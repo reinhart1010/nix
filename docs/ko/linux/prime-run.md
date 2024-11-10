@@ -3,7 +3,7 @@ layout: page
 title: linux/prime-run (한국어)
 description: "대체 Nvidia 그래픽 카드를 사용하여 프로그램을 실행합니다."
 content_hash: ab3a1b6b238b5d1acb99dedb8dff35252b43e5b3
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/prime-run.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/prime-run.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/prime-run.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># prime-run
+# prime-run
 
 대체 Nvidia 그래픽 카드를 사용하여 프로그램을 실행합니다.
 더 많은 정보: <https://wiki.archlinux.org/title/PRIME#PRIME_render_offload>.

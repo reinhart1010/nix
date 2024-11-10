@@ -3,23 +3,14 @@ layout: page
 title: linux/quotacheck (한국어)
 description: "파일 시스템의 디스크 사용량을 스캔하여 쿼터 파일을 생성, 확인 및 복구합니다."
 content_hash: 2b8e5c83316807df481cd99997a6656a2940a888
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/quotacheck.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/quotacheck.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># quotacheck
+# quotacheck
 
 파일 시스템의 디스크 사용량을 스캔하여 쿼터 파일을 생성, 확인 및 복구합니다.
 쿼터 파일의 손상이나 손실을 방지하기 위해 쿼터를 비활성화한 상태에서 실행하는 것이 좋습니다.

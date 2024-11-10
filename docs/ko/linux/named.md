@@ -3,23 +3,14 @@ layout: page
 title: linux/named (한국어)
 description: "DNS(동적 이름 서비스) 서버 데몬을 실행하여 호스트명을 IP 주소로, 그 반대로 변환합니다."
 content_hash: cb77939fc5ffda5c453fdf57a5417babc44f4dae
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/named.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/named.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># named
+# named
 
 DNS(동적 이름 서비스) 서버 데몬을 실행하여 호스트명을 IP 주소로, 그 반대로 변환합니다.
 더 많은 정보: <https://manned.org/named>.

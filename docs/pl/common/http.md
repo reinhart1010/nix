@@ -3,7 +3,7 @@ layout: page
 title: common/http (polski)
 description: "HTTPie: klient HTTP przeznaczony do testowania, debugowania i ogólnej interakcji z API i serwerami HTTP."
 content_hash: 8ca8d6089ac31c0d7799d516ce2599fa940fda29
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: Deutsch version
     url: /de/common/http.html
@@ -17,12 +17,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/http.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># http
+# http
 
 HTTPie: klient HTTP przeznaczony do testowania, debugowania i ogólnej interakcji z API i serwerami HTTP.
 Więcej informacji: <https://httpie.io/docs/cli/usage>.

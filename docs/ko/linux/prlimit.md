@@ -3,23 +3,14 @@ layout: page
 title: linux/prlimit (한국어)
 description: "프로세스 리소스의 소프트 및 하드 제한을 가져오거나 설정합니다."
 content_hash: fc5b53a8164973386ee81df6036260394ec556a5
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/prlimit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/prlimit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># prlimit
+# prlimit
 
 프로세스 리소스의 소프트 및 하드 제한을 가져오거나 설정합니다.
 프로세스 ID와 하나 이상의 리소스를 지정하면 prlimit이 제한을 검색 및/또는 수정하려고 시도합니다.

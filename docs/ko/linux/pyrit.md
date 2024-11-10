@@ -3,23 +3,14 @@ layout: page
 title: linux/pyrit (한국어)
 description: "계산 능력을 활용한 WPA/WPA2 크래킹 도구."
 content_hash: d4ea34aa787a9c2c6cd20cb82ba302c0f29b986d
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/pyrit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pyrit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pyrit
+# pyrit
 
 계산 능력을 활용한 WPA/WPA2 크래킹 도구.
 더 많은 정보: <https://github.com/JPaulMora/Pyrit>.

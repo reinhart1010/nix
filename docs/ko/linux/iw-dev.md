@@ -3,23 +3,14 @@ layout: page
 title: linux/iw-dev (한국어)
 description: "무선 장치를 표시하고 조작합니다."
 content_hash: 151dbdce4f5437cc5107c5622a0ca9129cdfb49f
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/iw-dev.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/iw-dev.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># iw dev
+# iw dev
 
 무선 장치를 표시하고 조작합니다.
 채널, 주파수 및 규제 정보 목록은 <https://wireless.docs.kernel.org/en/latest/en/developers/documentation/channellist.html>.

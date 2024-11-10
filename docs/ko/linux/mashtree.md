@@ -3,23 +3,14 @@ layout: page
 title: linux/mashtree (한국어)
 description: "유전체로부터 빠르게 트리를 생성합니다."
 content_hash: cff1f715e333c8d7fe4a57a582a841b77b7e93e5
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/mashtree.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mashtree.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mashtree
+# mashtree
 
 유전체로부터 빠르게 트리를 생성합니다.
 계통수를 생성하지 않습니다.

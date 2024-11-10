@@ -3,23 +3,14 @@ layout: page
 title: common/tmsu (한국어)
 description: "파일에 태그를 붙이는 간단한 명령줄 도구."
 content_hash: ba56f431036383d33e72bcec544a5976f0bc8cd6
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/tmsu.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tmsu.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tmsu
+# tmsu
 
 파일에 태그를 붙이는 간단한 명령줄 도구.
 더 많은 정보: <https://tmsu.org>.

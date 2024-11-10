@@ -3,7 +3,7 @@ layout: page
 title: linux/resolvectl (한국어)
 description: "도메인 이름, IPv4 및 IPv6 주소, DNS 리소스 레코드 및 서비스를 해석."
 content_hash: 4e5783042ce9a40929512b33381cce322f90a9e3
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/resolvectl.html
@@ -17,18 +17,9 @@ related_topics:
   - title: polski version
     url: /pl/linux/resolvectl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/resolvectl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># resolvectl
+# resolvectl
 
 도메인 이름, IPv4 및 IPv6 주소, DNS 리소스 레코드 및 서비스를 해석.
 DNS 해석기를 검사하고 재구성.

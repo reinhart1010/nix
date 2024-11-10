@@ -3,7 +3,7 @@ layout: page
 title: linux/nmcli (한국어)
 description: "NetworkManager를 사용하여 네트워크 구성을 관리합니다."
 content_hash: 94c4424d77fd27f4da8958e0f5dc28d2b4f935c8
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/nmcli.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/nmcli.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/nmcli.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nmcli
+# nmcli
 
 NetworkManager를 사용하여 네트워크 구성을 관리합니다.
 더 많은 정보: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.

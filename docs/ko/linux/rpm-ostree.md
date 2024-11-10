@@ -3,7 +3,7 @@ layout: page
 title: linux/rpm-ostree (한국어)
 description: "하이브리드 이미지/패키지 시스템."
 content_hash: ec1958f9dd9692f061676705e81433e9f751b3fb
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/rpm-ostree.html
@@ -11,18 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/rpm-ostree.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/rpm-ostree.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rpm-ostree
+# rpm-ostree
 
 하이브리드 이미지/패키지 시스템.
 ostree 배포, 패키지 레이어, 파일시스템 오버레이 및 부트 구성을 관리합니다.

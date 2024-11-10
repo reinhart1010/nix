@@ -3,7 +3,7 @@ layout: page
 title: linux/networkctl (한국어)
 description: "네트워크 링크의 상태를 조회합니다."
 content_hash: c06cb7dfe25db3d1a7ba07af8a9e98a305563387
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/networkctl.html
@@ -11,18 +11,9 @@ related_topics:
   - title: polski version
     url: /pl/linux/networkctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/networkctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># networkctl
+# networkctl
 
 네트워크 링크의 상태를 조회합니다.
 `systemd-networkd`를 사용하여 네트워크 구성을 관리합니다.

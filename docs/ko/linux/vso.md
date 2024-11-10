@@ -3,23 +3,14 @@ layout: page
 title: linux/vso (한국어)
 description: "Vanilla OS를 위한 패키지 관리자, 시스템 업데이트 및 작업 자동화 도구."
 content_hash: 5a8c1464b4fa494708c37c7018f0a5819a54d584
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/vso.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/vso.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vso
+# vso
 
 Vanilla OS를 위한 패키지 관리자, 시스템 업데이트 및 작업 자동화 도구.
 더 많은 정보: <https://github.com/Vanilla-OS/vanilla-system-operator>.

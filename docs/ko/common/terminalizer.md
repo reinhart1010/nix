@@ -3,23 +3,14 @@ layout: page
 title: common/terminalizer (한국어)
 description: "터미널을 기록하고, 애니메이션 GIF 및 웹 플레이어를 생성하며, 선택적으로 <https://terminalizer.com>에 업로드."
 content_hash: c6ee71e093100180ff9823e57c4c1d18f563f42c
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/terminalizer.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/terminalizer.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># terminalizer
+# terminalizer
 
 터미널을 기록하고, 애니메이션 GIF 및 웹 플레이어를 생성하며, 선택적으로 <https://terminalizer.com>에 업로드.
 같이 보기: `asciinema`.

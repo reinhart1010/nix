@@ -3,7 +3,7 @@ layout: page
 title: common/transmission (한국어)
 description: "간단한 토렌트 클라이언트."
 content_hash: 2616899b226ea8f23485975376d89a04a8be6a4b
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/transmission.html
@@ -17,18 +17,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/transmission.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/transmission.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># transmission
+# transmission
 
 간단한 토렌트 클라이언트.
 Transmission은 하나의 명령이 아닌 명령 집합입니다. 아래 페이지를 참조하세요.

@@ -3,23 +3,14 @@ layout: page
 title: linux/machinectl (한국어)
 description: "systemd 머신 관리자를 제어합니다."
 content_hash: ec4f3eef77891a82b16361881cd4d3a86cf3a5b2
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/machinectl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/machinectl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># machinectl
+# machinectl
 
 systemd 머신 관리자를 제어합니다.
 가상 머신, 컨테이너 및 이미지에서 작업을 실행합니다.

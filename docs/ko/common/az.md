@@ -2,8 +2,8 @@
 layout: page
 title: common/az (한국어)
 description: "Microsoft Azure의 공식 CLI tool입니다."
-content_hash: e7d8b18f967fbfce0487790039f22c44553aab7f
-last_modified_at: 2024-10-14
+content_hash: f537361605790e87b1a4779fde2790d8250e09f6
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -32,7 +32,7 @@ tldri18n_status: 2
 
 Microsoft Azure의 공식 CLI tool입니다.
 `login`과 같은 하위 명령어는 자체 사용법 문서가 존재.
-더 많은 정보: <https://learn.microsoft.com/cli/azure>.
+더 많은 정보: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 - Azure에 로그인:
 

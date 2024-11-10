@@ -3,7 +3,7 @@ layout: page
 title: linux/ip-rule (한국어)
 description: "IP 라우팅 정책 데이터베이스 관리."
 content_hash: 4943a316a6a22329866a043ca54f672d54f720c7
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/ip-rule.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/ip-rule.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ip-rule.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ip rule
+# ip rule
 
 IP 라우팅 정책 데이터베이스 관리.
 더 많은 정보: <https://manned.org/ip-rule>.

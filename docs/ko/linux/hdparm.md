@@ -3,23 +3,14 @@ layout: page
 title: linux/hdparm (한국어)
 description: "SATA 및 IDE 하드 드라이브 매개변수를 조회하고 설정합니다."
 content_hash: a8d31bf735f77ffcc6937148b4b79c1e1090f55f
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/hdparm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/hdparm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># hdparm
+# hdparm
 
 SATA 및 IDE 하드 드라이브 매개변수를 조회하고 설정합니다.
 더 많은 정보: <https://manned.org/hdparm>.

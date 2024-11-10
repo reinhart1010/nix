@@ -3,23 +3,14 @@ layout: page
 title: linux/fluidsynth (한국어)
 description: "MIDI 파일에서 오디오 합성."
 content_hash: fa2a6832a91406f96d6d58f200882f2dfc926ce1
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/fluidsynth.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/fluidsynth.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fluidsynth
+# fluidsynth
 
 MIDI 파일에서 오디오 합성.
 더 많은 정보: <https://github.com/FluidSynth/fluidsynth/wiki/UserManual>.

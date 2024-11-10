@@ -3,23 +3,14 @@ layout: page
 title: common/spike (한국어)
 description: "JavaScript로 작성된 완전한 기능을 갖춘 정적 웹사이트 생성기."
 content_hash: ec8284b6cba5b2c65434eba3204f88a87de2d393
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/spike.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/spike.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># spike
+# spike
 
 JavaScript로 작성된 완전한 기능을 갖춘 정적 웹사이트 생성기.
 더 많은 정보: <https://spike.js.org>.

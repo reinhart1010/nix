@@ -3,23 +3,14 @@ layout: page
 title: linux/quickget (한국어)
 description: "Quickemu 가상 머신 빌드를 위한 자료를 다운로드하고 준비합니다."
 content_hash: 77e22747adc3e560851b61fd2aca1f1859ba0ed7
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/quickget.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/quickget.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># quickget
+# quickget
 
 Quickemu 가상 머신 빌드를 위한 자료를 다운로드하고 준비합니다.
 참고: "edition" 매개변수는 항상 선택 사항입니다.

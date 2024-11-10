@@ -3,7 +3,7 @@ layout: page
 title: linux/ip-route (한국어)
 description: "IP 라우팅 테이블 관리 하위 명령."
 content_hash: 84162e5d3b2c580f4aebbfa18a75d3c7a2d43c38
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/ip-route.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/ip-route.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ip-route.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ip route
+# ip route
 
 IP 라우팅 테이블 관리 하위 명령.
 더 많은 정보: <https://manned.org/ip-route>.

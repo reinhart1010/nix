@@ -3,23 +3,14 @@ layout: page
 title: common/scalafmt (한국어)
 description: "Scala 코드를 위한 코드 포매터."
 content_hash: ae61a94d556ce4c2b562a7a383c915ab4e7e65c8
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/scalafmt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/scalafmt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># scalafmt
+# scalafmt
 
 Scala 코드를 위한 코드 포매터.
 설정은 `.scalafmt.conf` 파일에 저장됩니다.

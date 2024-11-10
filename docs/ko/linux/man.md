@@ -3,7 +3,7 @@ layout: page
 title: linux/man (한국어)
 description: "매뉴얼 페이지를 포맷하고 표시합니다."
 content_hash: f06612d5d0893e59d174e63408505806fd01b1c1
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -32,12 +32,9 @@ related_topics:
   - title: українська version
     url: /uk/linux/man.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># man
+# man
 
 매뉴얼 페이지를 포맷하고 표시합니다.
 더 많은 정보: <https://manned.org/man>.

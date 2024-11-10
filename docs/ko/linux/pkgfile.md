@@ -3,23 +3,14 @@ layout: page
 title: linux/pkgfile (한국어)
 description: "Arch 기반 시스템의 공식 저장소에서 패키지의 파일을 검색합니다."
 content_hash: 90eb9098864f4e1ff606e948811fd49d287da8d5
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/pkgfile.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pkgfile.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pkgfile
+# pkgfile
 
 Arch 기반 시스템의 공식 저장소에서 패키지의 파일을 검색합니다.
 같이 보기: `pacman files`, `pacman --files`의 사용법 설명.

@@ -3,7 +3,7 @@ layout: page
 title: linux/mount.ddi (한국어)
 description: "Discoverable Disk Images 마운트."
 content_hash: e0f901d9f4cb94a8abe158f1a96f9c2cb7e74a5c
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/mount.ddi.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/mount.ddi.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mount.ddi.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mount.ddi
+# mount.ddi
 
 Discoverable Disk Images 마운트.
 같이 보기: DDIs와 관련된 다른 명령어는 `systemd-dissect`.

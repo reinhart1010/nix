@@ -3,23 +3,14 @@ layout: page
 title: linux/po4a-translate (한국어)
 description: "PO 파일을 문서 형식으로 다시 변환."
 content_hash: 3cb4266436ff455e74f78753a06c8fbfd0ba917b
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/po4a-translate.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/po4a-translate.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># po4a-translate
+# po4a-translate
 
 PO 파일을 문서 형식으로 다시 변환.
 제공된 PO 파일은 `po4a-gettextize`로 생성된 POT 파일의 번역본이어야 합니다.

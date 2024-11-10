@@ -3,23 +3,14 @@ layout: page
 title: linux/pvdisplay (한국어)
 description: "Logical Volume Manager (LVM) 물리 볼륨 정보를 표시합니다."
 content_hash: 23dd9ed92e75951972cae008cb2bd0b6e51d1768
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/pvdisplay.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pvdisplay.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pvdisplay
+# pvdisplay
 
 Logical Volume Manager (LVM) 물리 볼륨 정보를 표시합니다.
 같이 보기: `lvm`.

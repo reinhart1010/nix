@@ -3,23 +3,14 @@ layout: page
 title: common/sui-client-ptb (한국어)
 description: "프로그래머블 트랜잭션 블록 생성, 서명 및 실행."
 content_hash: a7d627b79d2879048b1c77a79377181ffb476e2a
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/sui-client-ptb.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sui-client-ptb.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sui client ptb
+# sui client ptb
 
 프로그래머블 트랜잭션 블록 생성, 서명 및 실행.
 더 많은 정보: <https://docs.sui.io/references/cli/ptb>.

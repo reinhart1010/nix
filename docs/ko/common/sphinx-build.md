@@ -3,23 +3,14 @@ layout: page
 title: common/sphinx-build (한국어)
 description: "Sphinx 문서 생성기."
 content_hash: da66a165513bc564461075e73888e072ecb64300
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/sphinx-build.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sphinx-build.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sphinx-build
+# sphinx-build
 
 Sphinx 문서 생성기.
 더 많은 정보: <https://www.sphinx-doc.org/en/master/man/sphinx-build.html>.

@@ -3,7 +3,7 @@ layout: page
 title: linux/pwn (한국어)
 description: "신속한 프로토타이핑을 위한 Exploit 개발 라이브러리."
 content_hash: e9d3326df734fba6eea135e86f319c6944376427
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/pwn.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/pwn.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pwn.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pwn
+# pwn
 
 신속한 프로토타이핑을 위한 Exploit 개발 라이브러리.
 더 많은 정보: <https://docs.pwntools.com/en/stable/commandline.html>.

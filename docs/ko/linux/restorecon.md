@@ -3,23 +3,14 @@ layout: page
 title: linux/restorecon (한국어)
 description: "SELinux 보안 컨텍스트를 파일/디렉토리의 지속적인 규칙에 따라 복원."
 content_hash: cc2b13dd8be0396dc52cac8b26ee2a5bd9c6179f
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/restorecon.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/restorecon.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># restorecon
+# restorecon
 
 SELinux 보안 컨텍스트를 파일/디렉토리의 지속적인 규칙에 따라 복원.
 같이 보기: `semanage-fcontext`.

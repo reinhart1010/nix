@@ -3,23 +3,14 @@ layout: page
 title: linux/instaloader (한국어)
 description: "Instagram에서 사진, 비디오, 캡션 및 기타 메타데이터를 다운로드."
 content_hash: fe7ef5eadbaa1c0a94364db19a10754abbe9ea49
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/instaloader.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/instaloader.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># instaloader
+# instaloader
 
 Instagram에서 사진, 비디오, 캡션 및 기타 메타데이터를 다운로드.
 참고: 고품질 미디어 다운로드를 위해 Instagram 로그인 정보가 필요합니다.

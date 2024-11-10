@@ -3,7 +3,7 @@ layout: page
 title: linux/pamac (한국어)
 description: "GUI 패키지 관리자 pamac의 명령줄 도구."
 content_hash: e952be787bd8cff054dbe498634dcd12cd01518e
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/pamac.html
@@ -11,18 +11,9 @@ related_topics:
   - title: українська version
     url: /uk/linux/pamac.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pamac.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pamac
+# pamac
 
 GUI 패키지 관리자 pamac의 명령줄 도구.
 AUR 패키지가 보이지 않으면 `/etc/pamac.conf` 또는 GUI에서 활성화하세요.

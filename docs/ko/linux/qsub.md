@@ -3,23 +3,14 @@ layout: page
 title: linux/qsub (한국어)
 description: "스크립트를 큐 관리 시스템 TORQUE에 제출합니다."
 content_hash: 264057366d505095d2ee70a3e1940e53e18be9ad
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/qsub.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/qsub.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qsub
+# qsub
 
 스크립트를 큐 관리 시스템 TORQUE에 제출합니다.
 더 많은 정보: <https://manned.org/qsub.1>.

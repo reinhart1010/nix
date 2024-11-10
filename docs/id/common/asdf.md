@@ -3,7 +3,7 @@ layout: page
 title: common/asdf (Indonesia)
 description: "Alat baris perintah untuk mengatur versi paket piranti lunak yang berbeda-beda."
 content_hash: 6d50553559a0a71c6dbc70c53baf21b084947ee8
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: Deutsch version
     url: /de/common/asdf.html
@@ -29,18 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asdf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/asdf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># asdf
+# asdf
 
 Alat baris perintah untuk mengatur versi paket piranti lunak yang berbeda-beda.
 Informasi lebih lanjut: <https://asdf-vm.com>.

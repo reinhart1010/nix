@@ -3,23 +3,14 @@ layout: page
 title: linux/powerstat (한국어)
 description: "배터리 전원 소스를 사용하거나 RAPL 인터페이스를 지원하는 컴퓨터의 전력 소비를 측정합니다."
 content_hash: ce184ecd4329adeefec2d141c8eeed418723e4ee
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/powerstat.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/powerstat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># powerstat
+# powerstat
 
 배터리 전원 소스를 사용하거나 RAPL 인터페이스를 지원하는 컴퓨터의 전력 소비를 측정합니다.
 더 많은 정보: <https://manned.org/powerstat>.

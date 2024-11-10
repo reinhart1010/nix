@@ -3,7 +3,7 @@ layout: page
 title: common/bq (Indonesia)
 description: "Alat pemrosesan data berbasis Python untuk BigQuery, layanan pergudangan data Google Cloud yang sepenuhnya terkelola dan bersifat serverless."
 content_hash: 31f2fff4923f13054af3b9931bc94be99c8962f7
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/bq.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bq.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bq.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bq
+# bq
 
 Alat pemrosesan data berbasis Python untuk BigQuery, layanan pergudangan data Google Cloud yang sepenuhnya terkelola dan bersifat serverless.
 Informasi lebih lanjut: <https://cloud.google.com/bigquery/docs/reference/bq-cli-reference>.

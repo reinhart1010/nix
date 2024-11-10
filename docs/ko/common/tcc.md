@@ -3,23 +3,14 @@ layout: page
 title: common/tcc (한국어)
 description: "C 소스 파일을 스크립트처럼 실행할 수 있는 작은 C 컴파일러로, `gcc`와 유사한 명령줄 옵션을 제공합니다."
 content_hash: 6d2a3555f69f07ba9c8fec87db308d116438bcea
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/tcc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tcc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tcc
+# tcc
 
 C 소스 파일을 스크립트처럼 실행할 수 있는 작은 C 컴파일러로, `gcc`와 유사한 명령줄 옵션을 제공합니다.
 더 많은 정보: <https://bellard.org/tcc/tcc-doc.html>.

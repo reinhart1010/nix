@@ -3,7 +3,7 @@ layout: page
 title: linux/torsocks (한국어)
 description: "모든 애플리케이션의 트래픽을 Tor 네트워크를 통해 라우팅합니다."
 content_hash: b3bc7fcdd1aaaff7e3c3df54433f13a6330781ee
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/torsocks.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/torsocks.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/torsocks.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># torsocks
+# torsocks
 
 모든 애플리케이션의 트래픽을 Tor 네트워크를 통해 라우팅합니다.
 참고: `torsocks`는 Tor 데몬의 기본값인 127.0.0.1:9050에서 실행 중인 Tor SOCKS 프록시에 연결해야 한다고 가정합니다.

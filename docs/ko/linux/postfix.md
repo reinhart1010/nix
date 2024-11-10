@@ -3,23 +3,14 @@ layout: page
 title: linux/postfix (한국어)
 description: "Postfix 메일 전송 에이전트(MTA) 제어 프로그램."
 content_hash: 8d3845f613c9b61e044e8d42ddda2830c59a6e97
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/postfix.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/postfix.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># postfix
+# postfix
 
 Postfix 메일 전송 에이전트(MTA) 제어 프로그램.
 Postfix와 통합되는 메일 전달 에이전트(MDA)인 `dovecot`도 참고하세요.

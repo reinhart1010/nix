@@ -3,23 +3,14 @@ layout: page
 title: common/swagger-codegen (한국어)
 description: "OpenAPI/swagger 정의에서 REST API에 대한 코드와 문서를 생성합니다."
 content_hash: 548822a63b1fc61151c9ef983fc2e47b2ae82f1f
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/swagger-codegen.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/swagger-codegen.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># swagger-codegen
+# swagger-codegen
 
 OpenAPI/swagger 정의에서 REST API에 대한 코드와 문서를 생성합니다.
 더 많은 정보: <https://github.com/swagger-api/swagger-codegen>.

@@ -3,23 +3,14 @@ layout: page
 title: linux/http-prompt (한국어)
 description: "자동 완성 및 구문 강조 기능을 갖춘 대화형 명령줄 HTTP 클라이언트."
 content_hash: ed7c212bb97cb3b9739c55c4e4ebb5a00aec33f4
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/http-prompt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/http-prompt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># http-prompt
+# http-prompt
 
 자동 완성 및 구문 강조 기능을 갖춘 대화형 명령줄 HTTP 클라이언트.
 더 많은 정보: <https://github.com/httpie/http-prompt>.

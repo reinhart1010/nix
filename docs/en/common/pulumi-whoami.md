@@ -3,19 +3,10 @@ layout: page
 title: common/pulumi-whoami (English)
 description: "Print information about the currently logged in user."
 content_hash: 8fee080f5a32ae6ba033d8156a9e3bd6899cb71e
-last_modified_at: 2024-11-09
-tldri18n_status: 0
+last_modified_at: 2024-11-10
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pulumi-whoami.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pulumi whoami
+# pulumi whoami
 
 Print information about the currently logged in user.
 More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_whoami/>.

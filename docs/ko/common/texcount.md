@@ -3,23 +3,14 @@ layout: page
 title: common/texcount (한국어)
 description: "TeX 문서에서 매크로를 제외하고 단어 수를 세기."
 content_hash: 9b90868cdb503838052cc2fe892556ef546de9b6
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/texcount.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/texcount.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># texcount
+# texcount
 
 TeX 문서에서 매크로를 제외하고 단어 수를 세기.
 참고: TeX 문서가 `\include` 또는 `\input`을 사용하고 포함된 파일을 세려면, `texcount`를 루트 TeX 파일이 있는 디렉토리에서 실행해야 합니다.

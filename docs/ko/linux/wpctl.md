@@ -3,23 +3,14 @@ layout: page
 title: linux/wpctl (한국어)
 description: "WirePlumber를 관리하는 도구로, PipeWire의 세션 및 정책 관리자를 관리합니다."
 content_hash: 4e91cd38780c62e5ad8f92b4c586e655e365c2a2
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/wpctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/wpctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wpctl
+# wpctl
 
 WirePlumber를 관리하는 도구로, PipeWire의 세션 및 정책 관리자를 관리합니다.
 참고: `id` 대신 특별한 이름인 `@DEFAULT_SINK@`을 사용하여 기본 싱크를 조작할 수 있습니다.

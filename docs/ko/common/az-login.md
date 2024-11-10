@@ -2,8 +2,8 @@
 layout: page
 title: common/az-login (한국어)
 description: "Azure에 로그인."
-content_hash: 198707c21ab4432c64f748cc5db1279e315d4df1
-last_modified_at: 2024-09-22
+content_hash: cc4c648236c874325aa06aa38b0697647ec584e9
+last_modified_at: 2024-11-10
 related_topics:
   - title: Deutsch version
     url: /de/common/az-login.html
@@ -11,13 +11,16 @@ related_topics:
   - title: English version
     url: /en/common/az-login.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/az-login.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # az login
 
 Azure에 로그인.
 `azure-cli`의 일부 (`az`라고도 함).
-더 많은 정보: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
+더 많은 정보: <https://learn.microsoft.com/cli/azure/reference-index#az-login>.
 
 - 대화형으로 로그인:
 

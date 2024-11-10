@@ -3,23 +3,14 @@ layout: page
 title: common/shopt (한국어)
 description: "Bash 셸 옵션 관리: Bash 셸에 특화된 동작을 제어하는 변수(`$BASHOPTS`에 저장)."
 content_hash: ec857e257149aac144bd552d5024c9c3f68aaaef
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/shopt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/shopt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># shopt
+# shopt
 
 Bash 셸 옵션 관리: Bash 셸에 특화된 동작을 제어하는 변수(`$BASHOPTS`에 저장).
 일반적인 POSIX 셸 변수는 `set` 명령으로 대신 관리 (`$SHELLOPTS`에 저장).

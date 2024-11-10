@@ -3,23 +3,14 @@ layout: page
 title: common/supervisorctl (한국어)
 description: "Supervisor는 UNIX 계열 운영 체제에서 여러 프로세스를 제어할 수 있게 해주는 클라이언트/서버 시스템입니다."
 content_hash: 023f58bfacc5fb07dfff5edfaf001f7a55bdcf40
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/supervisorctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/supervisorctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># supervisorctl
+# supervisorctl
 
 Supervisor는 UNIX 계열 운영 체제에서 여러 프로세스를 제어할 수 있게 해주는 클라이언트/서버 시스템입니다.
 Supervisorctl은 shell과 유사한 인터페이스를 제공하는 supervisor의 명령줄 클라이언트입니다.

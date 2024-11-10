@@ -3,7 +3,7 @@ layout: page
 title: linux/kill (한국어)
 description: "프로세스에 신호를 보내는 유틸리티로, 주로 프로세스 중지와 관련이 있습니다."
 content_hash: 16765a58d808f54f45770a64bc856728e4b3d97a
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/kill.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/kill.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/kill.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kill
+# kill
 
 프로세스에 신호를 보내는 유틸리티로, 주로 프로세스 중지와 관련이 있습니다.
 SIGKILL 및 SIGSTOP을 제외한 모든 신호는 프로세스에 의해 가로채져서 안전하게 종료될 수 있습니다.

@@ -3,7 +3,7 @@ layout: page
 title: common/terraform-plan (한국어)
 description: "Terraform 실행 계획을 생성하고 보여줍니다."
 content_hash: ea3fdf64f81ee4331a45a81e242860873114d30d
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: Deutsch version
     url: /de/common/terraform-plan.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/terraform-plan.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/terraform-plan.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># terraform plan
+# terraform plan
 
 Terraform 실행 계획을 생성하고 보여줍니다.
 더 많은 정보: <https://developer.hashicorp.com/terraform/cli/commands/plan>.

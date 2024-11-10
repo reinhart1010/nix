@@ -3,23 +3,14 @@ layout: page
 title: common/sails (한국어)
 description: "Node.js 위에 구축된 실시간 엔터프라이즈 레벨 MVC 프레임워크."
 content_hash: 07271274b7cfae09f54f4ca4969bec6611cfdba0
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/sails.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sails.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sails
+# sails
 
 Node.js 위에 구축된 실시간 엔터프라이즈 레벨 MVC 프레임워크.
 더 많은 정보: <https://sailsjs.com>.

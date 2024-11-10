@@ -3,23 +3,14 @@ layout: page
 title: linux/vgscan (한국어)
 description: "지원되는 모든 논리 볼륨 관리자(LVM) 블록 장치에서 볼륨 그룹을 검색합니다."
 content_hash: 53c1d5e2fa324c8af9b5b3c7c1a2ee085d303b40
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/vgscan.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/vgscan.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vgscan
+# vgscan
 
 지원되는 모든 논리 볼륨 관리자(LVM) 블록 장치에서 볼륨 그룹을 검색합니다.
 같이 보기: `lvm`, `vgchange`.

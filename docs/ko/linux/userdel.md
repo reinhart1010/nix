@@ -3,7 +3,7 @@ layout: page
 title: linux/userdel (한국어)
 description: "사용자 계정을 삭제하거나 사용자를 그룹에서 제거합니다."
 content_hash: 9cfe722c4bc98e79ef6e26868c6e70073c3f2cca
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: català version
     url: /ca/linux/userdel.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/userdel.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/userdel.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># userdel
+# userdel
 
 사용자 계정을 삭제하거나 사용자를 그룹에서 제거합니다.
 같이 보기: `users`, `useradd`, `usermod`.

@@ -3,23 +3,14 @@ layout: page
 title: common/twopi (한국어)
 description: "`graphviz` 파일에서 `방사형` 네트워크 그래프 이미지를 렌더링."
 content_hash: 4421b2db0dd323cd9ee154b7a08044111f9aca79
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/twopi.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/twopi.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># twopi
+# twopi
 
 `graphviz` 파일에서 `방사형` 네트워크 그래프 이미지를 렌더링.
 레이아웃: `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage` 및 `patchwork`.

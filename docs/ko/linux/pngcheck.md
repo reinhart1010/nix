@@ -3,7 +3,7 @@ layout: page
 title: linux/pngcheck (한국어)
 description: "PNG 기반(PNG, JNG, MNG) 이미지 파일의 무결성을 검증하는 포렌식 도구."
 content_hash: bd2aefe55f370752d0f32843d36ae06277986141
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/pngcheck.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/pngcheck.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pngcheck.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pngcheck
+# pngcheck
 
 PNG 기반(PNG, JNG, MNG) 이미지 파일의 무결성을 검증하는 포렌식 도구.
 파일에서 내장된 이미지와 텍스트를 추출할 수도 있습니다.

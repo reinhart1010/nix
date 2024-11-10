@@ -3,7 +3,7 @@ layout: page
 title: linux/wine (한국어)
 description: "Unix 기반 시스템에서 Windows 실행 파일을 실행."
 content_hash: 03016905e0a54721de0bd288d94565dd7095557a
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/wine.html
@@ -11,18 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/wine.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/wine.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wine
+# wine
 
 Unix 기반 시스템에서 Windows 실행 파일을 실행.
 더 많은 정보: <https://wiki.winehq.org/>.

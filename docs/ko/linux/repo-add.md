@@ -3,23 +3,14 @@ layout: page
 title: linux/repo-add (한국어)
 description: "Pacman을 통해 해당 패키지의 설치를 가능하게 하는 패키지 데이터베이스 유지 관리 유틸리티."
 content_hash: 65244638e48199e32a8fe678a41b4e7bd1fe71df
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/repo-add.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/repo-add.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># repo-add
+# repo-add
 
 Pacman을 통해 해당 패키지의 설치를 가능하게 하는 패키지 데이터베이스 유지 관리 유틸리티.
 더 많은 정보: <https://manned.org/repo-add>.

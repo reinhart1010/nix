@@ -3,7 +3,7 @@ layout: page
 title: common/truncate (한국어)
 description: "파일의 크기를 지정된 크기로 줄이거나 늘립니다."
 content_hash: 258e07e9ddc450800bf158ee9c2cfc9d2ced71ae
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/truncate.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/truncate.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/truncate.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># truncate
+# truncate
 
 파일의 크기를 지정된 크기로 줄이거나 늘립니다.
 더 많은 정보: <https://www.gnu.org/software/coreutils/truncate>.

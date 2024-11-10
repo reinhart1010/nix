@@ -3,7 +3,7 @@ layout: page
 title: linux/rpmconf (한국어)
 description: "패키지 업그레이드 후 남겨진 RPMNEW, RPMSAVE 및 RPMORIG 파일 처리."
 content_hash: aaf02b957b32b2e09db3348a6c9e64c30a495a8f
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/rpmconf.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/rpmconf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/rpmconf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rpmconf
+# rpmconf
 
 패키지 업그레이드 후 남겨진 RPMNEW, RPMSAVE 및 RPMORIG 파일 처리.
 같이 보기: `rpm`.

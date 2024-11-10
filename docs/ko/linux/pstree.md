@@ -3,23 +3,14 @@ layout: page
 title: linux/pstree (한국어)
 description: "실행 중인 프로세스를 트리 형태로 보여주는 유용한 도구."
 content_hash: 2063f86b98878e22f5e772d12aed0aee0ec6aa54
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/pstree.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pstree.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pstree
+# pstree
 
 실행 중인 프로세스를 트리 형태로 보여주는 유용한 도구.
 더 많은 정보: <https://manned.org/pstree>.

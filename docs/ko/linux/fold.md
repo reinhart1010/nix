@@ -3,7 +3,7 @@ layout: page
 title: linux/fold (한국어)
 description: "고정 폭 출력 장치를 위한 긴 줄을 접습니다."
 content_hash: 3a93b90bd1899fafd64f5b19b7e4605e50236521
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/fold.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/fold.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/fold.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># fold
+# fold
 
 고정 폭 출력 장치를 위한 긴 줄을 접습니다.
 더 많은 정보: <https://www.gnu.org/software/coreutils/fold>.

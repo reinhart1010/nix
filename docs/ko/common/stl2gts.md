@@ -3,23 +3,17 @@ layout: page
 title: common/stl2gts (한국어)
 description: "STL 파일을 GTS(GNU 삼각형 표면 라이브러리) 파일 형식으로 변환."
 content_hash: bc98c5a7d15e9854eb3972f2292335358f85c454
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/stl2gts.html
     icon: bi bi-globe
-tldri18n_status: 0
+  - title: हिन्दी version
+    url: /hi/common/stl2gts.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/stl2gts.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># stl2gts
+# stl2gts
 
 STL 파일을 GTS(GNU 삼각형 표면 라이브러리) 파일 형식으로 변환.
 더 많은 정보: <https://manned.org/stl2gts>.

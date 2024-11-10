@@ -3,23 +3,14 @@ layout: page
 title: common/salt (한국어)
 description: "원격 salt 미니언에서 명령을 실행하고 상태를 확인."
 content_hash: 6fd4c3fedfddc6c044f551cce9cb6cec748b8107
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/salt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/salt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># salt
+# salt
 
 원격 salt 미니언에서 명령을 실행하고 상태를 확인.
 더 많은 정보: <https://docs.saltproject.io/en/latest/ref/cli/index.html>.

@@ -3,26 +3,20 @@ layout: page
 title: common/stdbuf (한국어)
 description: "표준 스트림에 대한 버퍼링 작업을 수정하여 명령을 실행."
 content_hash: 6311984ce554d71d5d565795b41dbe17b2d652c3
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/stdbuf.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/stdbuf.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/stdbuf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/stdbuf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># stdbuf
+# stdbuf
 
 표준 스트림에 대한 버퍼링 작업을 수정하여 명령을 실행.
 더 많은 정보: <https://www.gnu.org/software/coreutils/stdbuf>.

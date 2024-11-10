@@ -3,23 +3,14 @@ layout: page
 title: linux/rdesktop (한국어)
 description: "원격 데스크톱 프로토콜 클라이언트."
 content_hash: 151309da29102e54cad47f74610e2246d73a64a3
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/rdesktop.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/rdesktop.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rdesktop
+# rdesktop
 
 원격 데스크톱 프로토콜 클라이언트.
 RDP 프로토콜을 사용하여 원격 컴퓨터에 연결할 수 있습니다.

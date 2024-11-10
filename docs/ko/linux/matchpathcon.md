@@ -3,23 +3,14 @@ layout: page
 title: linux/matchpathcon (한국어)
 description: "경로의 지속적인 SELinux 보안 컨텍스트 설정을 조회합니다."
 content_hash: fb393a497cfca85544d68a1af0a97258c892bdcd
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/matchpathcon.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/matchpathcon.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># matchpathcon
+# matchpathcon
 
 경로의 지속적인 SELinux 보안 컨텍스트 설정을 조회합니다.
 같이 보기: `semanage-fcontext`, `secon`, `chcon`, `restorecon`.

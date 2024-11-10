@@ -3,23 +3,14 @@ layout: page
 title: common/typst (한국어)
 description: "Typst 파일을 PDF로 컴파일."
 content_hash: adb7657f40105ca272523c26ccdb10d434494282
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/typst.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/typst.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># typst
+# typst
 
 Typst 파일을 PDF로 컴파일.
 참고: 출력 위치 지정은 선택 사항입니다.

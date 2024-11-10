@@ -3,23 +3,14 @@ layout: page
 title: common/todo.sh (한국어)
 description: "`todo.txt` 파일을 관리하기 위한 간단하고 확장 가능한 셸 스크립트."
 content_hash: c3341497dbf249e65ac1afaba0ec165f82c95003
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/todo.sh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/todo.sh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># todo.sh
+# todo.sh
 
 `todo.txt` 파일을 관리하기 위한 간단하고 확장 가능한 셸 스크립트.
 더 많은 정보: <https://github.com/todotxt/todo.txt-cli>.

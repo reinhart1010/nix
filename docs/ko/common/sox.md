@@ -3,23 +3,14 @@ layout: page
 title: common/sox (한국어)
 description: "Sound eXchange: 오디오 파일을 재생, 녹음 및 변환하는 도구."
 content_hash: 36d0c56c82ebe962471c0dae0ba339f15c633c19
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/sox.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sox.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sox
+# sox
 
 Sound eXchange: 오디오 파일을 재생, 녹음 및 변환하는 도구.
 오디오 형식은 확장자로 식별됩니다.

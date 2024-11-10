@@ -3,23 +3,14 @@ layout: page
 title: common/serve (한국어)
 description: "정적 파일 제공 및 디렉토리 목록화 도구."
 content_hash: 02f7d29e3edd7c579b54a76efa5bbce48a22e51b
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/serve.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/serve.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># serve
+# serve
 
 정적 파일 제공 및 디렉토리 목록화 도구.
 더 많은 정보: <https://github.com/vercel/serve>.

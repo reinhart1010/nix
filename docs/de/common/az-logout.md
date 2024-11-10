@@ -2,8 +2,8 @@
 layout: page
 title: common/az-logout (Deutsch)
 description: "Von Azure-Abonnements abmelden."
-content_hash: 774577d35ccf509e9c3d5cafa452180786e4a9e3
-last_modified_at: 2023-11-12
+content_hash: 497936629154ffc0d0aa023f15319c92a816148d
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/az-logout.html
@@ -11,13 +11,19 @@ related_topics:
   - title: español version
     url: /es/common/az-logout.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/az-logout.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/az-logout.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # az logout
 
 Von Azure-Abonnements abmelden.
 Teil von `azure-cli` (auch bekannt als `az`).
-Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az_logout>.
+Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az-logout>.
 
 - Melde das aktuelle aktive Konto ab:
 

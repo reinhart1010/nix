@@ -3,23 +3,14 @@ layout: page
 title: linux/urpmi.addmedia (한국어)
 description: "Mageia에 미디어 추가."
 content_hash: 10f02b8288e93c599156e5d16ed289576873771f
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/urpmi.addmedia.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/urpmi.addmedia.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># urpmi.addmedia
+# urpmi.addmedia
 
 Mageia에 미디어 추가.
 참고: Mageia 문서에서는 미디엄과 저장소를 동의어로 사용합니다.

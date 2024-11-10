@@ -3,7 +3,7 @@ layout: page
 title: common/bundle (español)
 description: "Administrador de dependencias para el lenguaje de programación Ruby."
 content_hash: c92f2bf91ac610d0ce4e3d711b057703a37f6f27
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/bundle.html
@@ -23,18 +23,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/bundle.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bundle.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bundle
+# bundle
 
 Administrador de dependencias para el lenguaje de programación Ruby.
 Más información: <https://bundler.io/man/bundle.1.html>.

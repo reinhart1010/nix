@@ -3,7 +3,7 @@ layout: page
 title: common/tput (한국어)
 description: "터미널 설정 및 기능을 조회하고 수정."
 content_hash: 6c79353fca9fb36907318ab0d385439879b72328
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/tput.html
@@ -14,18 +14,9 @@ related_topics:
   - title: русский version
     url: /ru/common/tput.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tput.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tput
+# tput
 
 터미널 설정 및 기능을 조회하고 수정.
 더 많은 정보: <https://manned.org/tput>.

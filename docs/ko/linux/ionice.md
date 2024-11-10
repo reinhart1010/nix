@@ -3,23 +3,14 @@ layout: page
 title: linux/ionice (한국어)
 description: "프로그램의 I/O 스케줄링 클래스 및 우선순위를 가져오거나 설정합니다."
 content_hash: fd534e5940c1d1dc4e3ec13735c77487735545da
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/ionice.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ionice.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ionice
+# ionice
 
 프로그램의 I/O 스케줄링 클래스 및 우선순위를 가져오거나 설정합니다.
 스케줄링 클래스: 1 (실시간), 2 (최선 노력), 3 (유휴).

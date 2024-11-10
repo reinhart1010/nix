@@ -3,23 +3,14 @@ layout: page
 title: common/typeorm (한국어)
 description: "Node.js, 브라우저, Cordova, Ionic, React Native, NativeScript, Electron 플랫폼에서 실행할 수 있는 JavaScript ORM."
 content_hash: 949f051bfb579971122bf016d29f48a837e07d05
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/typeorm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/typeorm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># typeorm
+# typeorm
 
 Node.js, 브라우저, Cordova, Ionic, React Native, NativeScript, Electron 플랫폼에서 실행할 수 있는 JavaScript ORM.
 더 많은 정보: <https://typeorm.io/>.

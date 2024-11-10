@@ -3,23 +3,14 @@ layout: page
 title: common/safe (한국어)
 description: "HashiCorp Vault와 상호작용."
 content_hash: b26698e0cfac155ec78530caf065dd5af3efa80d
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/safe.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/safe.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># safe
+# safe
 
 HashiCorp Vault와 상호작용.
 더 많은 정보: <https://github.com/starkandwayne/safe>.

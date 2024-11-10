@@ -3,23 +3,14 @@ layout: page
 title: common/sequelize (한국어)
 description: "Postgres, MySQL, MariaDB, SQLite 및 Microsoft SQL Server를 위한 Promise 기반 Node.js ORM."
 content_hash: e177f81a9fbb574530754a967088993a7b260a37
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/sequelize.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sequelize.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sequelize
+# sequelize
 
 Postgres, MySQL, MariaDB, SQLite 및 Microsoft SQL Server를 위한 Promise 기반 Node.js ORM.
 더 많은 정보: <https://sequelize.org/>.

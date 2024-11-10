@@ -3,23 +3,14 @@ layout: page
 title: linux/file-rename (한국어)
 description: "여러 파일 이름 변경."
 content_hash: 4ed8f812547131e4be1a9f214c12073f285abc87
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/file-rename.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/file-rename.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rename
+# rename
 
 여러 파일 이름 변경.
 참고: 이 페이지는 `rename` Debian 패키지의 명령을 설명합니다.

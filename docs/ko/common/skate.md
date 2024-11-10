@@ -3,23 +3,14 @@ layout: page
 title: common/skate (한국어)
 description: "간단하고 강력한 키-값 저장소."
 content_hash: 0a0fc063d6db51fd0898dc466110d9412ba30610
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/skate.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/skate.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># skate
+# skate
 
 간단하고 강력한 키-값 저장소.
 더 많은 정보: <https://github.com/charmbracelet/skate>.

@@ -3,23 +3,14 @@ layout: page
 title: linux/playerctl (한국어)
 description: "MPRIS를 통해 미디어 플레이어 제어."
 content_hash: b4c3f0e1bf4d25984cfcf5d4cd64a6b25bb8ca5c
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/playerctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/playerctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># playerctl
+# playerctl
 
 MPRIS를 통해 미디어 플레이어 제어.
 더 많은 정보: <https://github.com/altdesktop/playerctl>.

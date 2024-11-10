@@ -3,23 +3,14 @@ layout: page
 title: common/tbl (한국어)
 description: "groff (GNU Troff) 문서 형식 시스템을 위한 테이블 전처리기."
 content_hash: 2d92b66be357f04e8b60610ea275047345a37528
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/tbl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tbl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tbl
+# tbl
 
 groff (GNU Troff) 문서 형식 시스템을 위한 테이블 전처리기.
 같이 보기: `groff`, `troff`.

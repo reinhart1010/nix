@@ -3,7 +3,7 @@ layout: page
 title: linux/radeontop (한국어)
 description: "AMD GPU의 사용률을 표시합니다."
 content_hash: 38e6e3e4ca906a9cbff34d271f0de9e8e652afe2
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/radeontop.html
@@ -11,18 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/linux/radeontop.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/radeontop.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># radeontop
+# radeontop
 
 AMD GPU의 사용률을 표시합니다.
 시스템에 따라 루트 권한이 필요할 수 있습니다.

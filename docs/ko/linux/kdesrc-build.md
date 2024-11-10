@@ -3,23 +3,14 @@ layout: page
 title: linux/kdesrc-build (한국어)
 description: "KDE 구성 요소를 소스 저장소에서 손쉽게 빌드."
 content_hash: 46f1c418f65f021d18ac8216e456cf60a56b1256
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/kdesrc-build.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/kdesrc-build.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kdesrc-build
+# kdesrc-build
 
 KDE 구성 요소를 소스 저장소에서 손쉽게 빌드.
 더 많은 정보: <https://docs.kde.org/trunk5/en/kdesrc-build/kdesrc-build/index.html>.

@@ -3,23 +3,14 @@ layout: page
 title: common/security-checker (한국어)
 description: "PHP 애플리케이션이 알려진 보안 취약점을 가진 의존성을 사용하는지 확인."
 content_hash: 7f1eb563a6fd4962bde6702b463099fae6c6d664
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/security-checker.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/security-checker.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># security-checker
+# security-checker
 
 PHP 애플리케이션이 알려진 보안 취약점을 가진 의존성을 사용하는지 확인.
 더 많은 정보: <https://github.com/sensiolabs/security-checker>.

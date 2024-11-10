@@ -3,23 +3,14 @@ layout: page
 title: linux/run-mailcap (한국어)
 description: "MailCap 프로그램 실행."
 content_hash: c080faf5acd31d97ecb8c9851dd8bd2445a43f8d
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/run-mailcap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/run-mailcap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># run-mailcap
+# run-mailcap
 
 MailCap 프로그램 실행.
 mailcap 파일(또는 그 별칭)의 항목을 통해 프로그램을 실행하여 각 MIME 타입/파일을 주어진 작업으로 처리.

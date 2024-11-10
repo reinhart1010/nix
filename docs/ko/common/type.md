@@ -3,7 +3,7 @@ layout: page
 title: common/type (한국어)
 description: "셀이 실행할 명령의 유형을 표시합니다."
 content_hash: 3f799008f9d5a21f0cc69c4ed39b98417b0e8237
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/type.html
@@ -14,18 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/type.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/type.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># type
+# type
 
 셀이 실행할 명령의 유형을 표시합니다.
 참고: 모든 예시는 POSIX 호환이 아닙니다.

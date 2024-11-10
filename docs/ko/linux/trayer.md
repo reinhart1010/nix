@@ -3,23 +3,14 @@ layout: page
 title: linux/trayer (한국어)
 description: "경량의 GTK-2 기반 시스템 트레이."
 content_hash: 78dd7485d8be3241966954237f74ba814649b35a
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/trayer.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/trayer.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># trayer
+# trayer
 
 경량의 GTK-2 기반 시스템 트레이.
 더 많은 정보: <https://github.com/sargon/trayer-srg>.

@@ -3,23 +3,14 @@ layout: page
 title: linux/tod (한국어)
 description: "Rust로 작성된 간단한 Todoist 클라이언트."
 content_hash: 25abbde56a9b87fca0b95c3d4e930d54b225170e
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/tod.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/tod.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tod
+# tod
 
 Rust로 작성된 간단한 Todoist 클라이언트.
 간단한 입력을 받아 인박스 또는 다른 프로젝트에 저장합니다. 자연어 처리를 활용하여 기한, 태그 등을 할당합니다.

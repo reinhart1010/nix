@@ -3,7 +3,7 @@ layout: page
 title: linux/jhead (한국어)
 description: "이미지 타임스탬프 및 EXIF 데이터 조작."
 content_hash: e7e85df09537603950282e96af418cda9e87ab2e
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: Deutsch version
     url: /de/linux/jhead.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/linux/jhead.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/jhead.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># jhead
+# jhead
 
 이미지 타임스탬프 및 EXIF 데이터 조작.
 더 많은 정보: <https://www.sentex.net/~mwandel/jhead/usage.html>.

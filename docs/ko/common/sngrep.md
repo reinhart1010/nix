@@ -3,23 +3,14 @@ layout: page
 title: common/sngrep (한국어)
 description: "터미널에서 SIP 호출 메시지 흐름을 표시."
 content_hash: 2f81f5abbcbc29fb40ec53ba97150e86ceaaa232
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/sngrep.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sngrep.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sngrep
+# sngrep
 
 터미널에서 SIP 호출 메시지 흐름을 표시.
 더 많은 정보: <https://github.com/irontec/sngrep>.

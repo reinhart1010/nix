@@ -3,7 +3,7 @@ layout: page
 title: common/history (Indonesia)
 description: "Tampilkan riwayat penugasan baris perintah (command-line)."
 content_hash: 1f6c01a9eb61202f5ed2407c73a77f7b6b5ceeeb
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -26,12 +26,9 @@ related_topics:
   - title: русский version
     url: /ru/common/history.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># history
+# history
 
 Tampilkan riwayat penugasan baris perintah (command-line).
 Informasi lebih lanjut: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.

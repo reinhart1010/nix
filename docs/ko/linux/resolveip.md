@@ -3,23 +3,14 @@ layout: page
 title: linux/resolveip (한국어)
 description: "호스트명을 IP 주소로, IP 주소를 호스트명으로 변환."
 content_hash: 9d96948fbb63de1b67b790938b58c1b311c0066b
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/resolveip.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/resolveip.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># resolveip
+# resolveip
 
 호스트명을 IP 주소로, IP 주소를 호스트명으로 변환.
 더 많은 정보: <https://mariadb.com/kb/en/resolveip/>.

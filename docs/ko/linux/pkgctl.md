@@ -3,7 +3,7 @@ layout: page
 title: linux/pkgctl (한국어)
 description: "Arch Linux devtools를 위한 통합 명령줄 프론트엔드."
 content_hash: abba837de55507c6e1debd5818a1e54d46658657
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/pkgctl.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/pkgctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pkgctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pkgctl
+# pkgctl
 
 Arch Linux devtools를 위한 통합 명령줄 프론트엔드.
 더 많은 정보: <https://manned.org/pkgctl.1>.

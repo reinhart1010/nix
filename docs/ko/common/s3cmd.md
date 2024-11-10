@@ -3,23 +3,14 @@ layout: page
 title: common/s3cmd (한국어)
 description: "S3 호환 객체 저장소에서 데이터를 업로드, 검색 및 관리하기 위한 커맨드라인 도구 및 클라이언트."
 content_hash: fefac5aeb0f75dbd2c58a7edd27e9c8bda1b89f0
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/s3cmd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/s3cmd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># s3cmd
+# s3cmd
 
 S3 호환 객체 저장소에서 데이터를 업로드, 검색 및 관리하기 위한 커맨드라인 도구 및 클라이언트.
 더 많은 정보: <https://s3tools.org/s3cmd>.

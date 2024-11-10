@@ -3,7 +3,7 @@ layout: page
 title: common/sc_warts2csv (한국어)
 description: "`scamper`에 의해 수집된 트레이서트를 CSV 형식으로 덤프."
 content_hash: 91bd7fe1c1c4c6dc799c264644e607bceff2ad0f
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: Deutsch version
     url: /de/common/sc_warts2csv.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/sc_warts2csv.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sc_warts2csv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sc_warts2csv
+# sc_warts2csv
 
 `scamper`에 의해 수집된 트레이서트를 CSV 형식으로 덤프.
 더 많은 정보: <https://www.caida.org/catalog/software/scamper/>.

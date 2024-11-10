@@ -3,23 +3,14 @@ layout: page
 title: common/standard-version (한국어)
 description: "SemVer 및 Conventional Commits를 사용하여 버전 관리 및 변경 로그 생성을 자동화."
 content_hash: acb40afba98b77310235e5eef0d55c6589567a64
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/standard-version.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/standard-version.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># standard-version
+# standard-version
 
 SemVer 및 Conventional Commits를 사용하여 버전 관리 및 변경 로그 생성을 자동화.
 더 많은 정보: <https://github.com/conventional-changelog/standard-version>.

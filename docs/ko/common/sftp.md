@@ -3,23 +3,14 @@ layout: page
 title: common/sftp (한국어)
 description: "안전한 파일 전송 프로그램."
 content_hash: d966254c3c6cb0e7bd07dedcc260db3f2ab290dd
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/sftp.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sftp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sftp
+# sftp
 
 안전한 파일 전송 프로그램.
 SSH를 통해 호스트 간 파일을 복사하는 대화형 프로그램.

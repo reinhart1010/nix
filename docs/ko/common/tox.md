@@ -3,7 +3,7 @@ layout: page
 title: common/tox (한국어)
 description: "여러 Python 버전에서 Python 테스트를 자동화."
 content_hash: 054f80a8d7fd5392920777e2aedf49c7452862c9
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: العربية version
     url: /ar/common/tox.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/tox.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tox.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tox
+# tox
 
 여러 Python 버전에서 Python 테스트를 자동화.
 tox.ini를 사용하여 환경 및 테스트 명령을 구성하세요.

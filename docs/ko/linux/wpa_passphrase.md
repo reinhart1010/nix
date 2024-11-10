@@ -3,7 +3,7 @@ layout: page
 title: linux/wpa_passphrase (한국어)
 description: "ASCII 암호 구문으로부터 SSID에 대한 WPA-PSK 키를 생성."
 content_hash: de922d8c2f6b1cde35d4b12534c2256a01525aa8
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/wpa_passphrase.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/wpa_passphrase.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/wpa_passphrase.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wpa_passphrase
+# wpa_passphrase
 
 ASCII 암호 구문으로부터 SSID에 대한 WPA-PSK 키를 생성.
 더 많은 정보: <https://manned.org/wpa_passphrase.1>.

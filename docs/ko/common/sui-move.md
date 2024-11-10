@@ -3,23 +3,14 @@ layout: page
 title: common/sui-move (한국어)
 description: "Move 소스 코드를 다루기 위한 도구."
 content_hash: 0ef17ed95e86a3696b8aaab49ffc78f3a446ce3b
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/sui-move.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sui-move.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sui move
+# sui move
 
 Move 소스 코드를 다루기 위한 도구.
 더 많은 정보: <https://docs.sui.io/references/cli/move>.

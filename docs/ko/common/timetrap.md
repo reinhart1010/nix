@@ -3,23 +3,14 @@ layout: page
 title: common/timetrap (한국어)
 description: "Ruby로 작성된 간단한 명령줄 시간 추적기."
 content_hash: d516a05d53949e75ac7f54d5ff83c20090e8cf29
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/timetrap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/timetrap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># timetrap
+# timetrap
 
 Ruby로 작성된 간단한 명령줄 시간 추적기.
 더 많은 정보: <https://github.com/samg/timetrap>.

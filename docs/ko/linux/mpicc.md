@@ -3,7 +3,7 @@ layout: page
 title: linux/mpicc (한국어)
 description: "Open MPI C 래퍼 컴파일러."
 content_hash: d7c69fb3b737dbe4749ad77a71bbbc4b1a367121
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/mpicc.html
@@ -11,18 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/linux/mpicc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mpicc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mpicc
+# mpicc
 
 Open MPI C 래퍼 컴파일러.
 래퍼는 C 컴파일러 위에 얇은 쉘로, Open MPI 프로그램을 컴파일/링크하는 데 필요한 관련 컴파일러 및 링커 플래그를 명령줄에 추가한 후, 실제 명령을 수행하기 위해 기본 C 컴파일러를 호출합니다.

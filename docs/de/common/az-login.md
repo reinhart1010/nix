@@ -2,11 +2,17 @@
 layout: page
 title: common/az-login (Deutsch)
 description: "Melden Sie sich bei Azure an."
-content_hash: fafaa4373ff0ef2fc0d4e82091253bdfcc6b4d5f
-last_modified_at: 2023-11-12
+content_hash: 2066ba4ace665beee042ea523b5a483d24604799
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/az-login.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/az-login.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/az-login.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +20,7 @@ tldri18n_status: 2
 
 Melden Sie sich bei Azure an.
 Teil von `azure-cli` (auch bekannt als `az`).
-Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
+Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az-login>.
 
 - Melden Sie sich interaktiv an:
 

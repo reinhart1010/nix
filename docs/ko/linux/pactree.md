@@ -3,23 +3,14 @@ layout: page
 title: linux/pactree (한국어)
 description: "pacman용 패키지 의존성 트리 뷰어."
 content_hash: b3d0bc8987ee11b79beb113d36f6229907ba9ab0
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/pactree.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pactree.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pactree
+# pactree
 
 pacman용 패키지 의존성 트리 뷰어.
 더 많은 정보: <https://manned.org/pactree.8>.

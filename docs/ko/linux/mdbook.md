@@ -3,23 +3,14 @@ layout: page
 title: linux/mdbook (한국어)
 description: "Markdown 파일을 작성하여 온라인 책을 만듭니다."
 content_hash: 06b129f9ee89d18f4cde80f7c99b3983429885ca
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/mdbook.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mdbook.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mdbook
+# mdbook
 
 Markdown 파일을 작성하여 온라인 책을 만듭니다.
 더 많은 정보: <https://rust-lang.github.io/mdBook/>.

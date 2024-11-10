@@ -3,23 +3,14 @@ layout: page
 title: common/satis (한국어)
 description: "Satis 정적 Composer 저장소를 위한 명령줄 도구."
 content_hash: f148c0dc8852f0aa77826cbcf499a5230b1c6ecd
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/satis.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/satis.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># satis
+# satis
 
 Satis 정적 Composer 저장소를 위한 명령줄 도구.
 더 많은 정보: <https://github.com/composer/satis>.

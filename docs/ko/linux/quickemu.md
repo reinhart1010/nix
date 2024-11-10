@@ -3,23 +3,14 @@ layout: page
 title: linux/quickemu (한국어)
 description: "고도로 최적화된 데스크탑 가상 머신을 빠르게 구축하고 관리합니다."
 content_hash: 5bf3bb665d18e7936560b2056fd911819ec6eb55
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/quickemu.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/quickemu.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># quickemu
+# quickemu
 
 고도로 최적화된 데스크탑 가상 머신을 빠르게 구축하고 관리합니다.
 같이 보기: VM 설정 준비를 위한 `quickget`.

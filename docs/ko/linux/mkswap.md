@@ -3,23 +3,14 @@ layout: page
 title: linux/mkswap (한국어)
 description: "디바이스나 파일에 Linux 스왑 영역을 설정합니다."
 content_hash: bbb0920684d55e7c96811d0a3269b872fa7e08fa
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/mkswap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mkswap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mkswap
+# mkswap
 
 디바이스나 파일에 Linux 스왑 영역을 설정합니다.
 참고: `path/to/file`은 일반 파일 또는 스왑 파티션을 가리킬 수 있습니다.

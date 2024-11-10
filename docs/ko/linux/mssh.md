@@ -3,23 +3,14 @@ layout: page
 title: linux/mssh (한국어)
 description: "여러 SSH 서버와 동시에 상호작용할 수 있는 GTK+ 기반 SSH 클라이언트."
 content_hash: b861c15ad4187d75b07c48bcfabe022c5864fdf5
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/mssh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mssh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mssh
+# mssh
 
 여러 SSH 서버와 동시에 상호작용할 수 있는 GTK+ 기반 SSH 클라이언트.
 더 많은 정보: <https://manned.org/mssh>.

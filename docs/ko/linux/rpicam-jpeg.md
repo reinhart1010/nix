@@ -3,23 +3,14 @@ layout: page
 title: linux/rpicam-jpeg (한국어)
 description: "Raspberry Pi 카메라를 사용하여 JPEG 이미지를 캡처하고 저장."
 content_hash: 94133e036133d2d5ca94776ff8bd77252de5e0a6
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/rpicam-jpeg.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/rpicam-jpeg.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rpicam-jpeg
+# rpicam-jpeg
 
 Raspberry Pi 카메라를 사용하여 JPEG 이미지를 캡처하고 저장.
 더 많은 정보: <https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-jpeg>.

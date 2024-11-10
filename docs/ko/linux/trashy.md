@@ -3,23 +3,14 @@ layout: page
 title: linux/trashy (한국어)
 description: "Rust로 작성된 `rm` 및 `trash-cli`의 대안."
 content_hash: 521598358bfec65116d9ad020491fd017e94c173
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/trashy.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/trashy.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># trashy
+# trashy
 
 Rust로 작성된 `rm` 및 `trash-cli`의 대안.
 더 많은 정보: <https://github.com/oberblastmeister/trashy>.

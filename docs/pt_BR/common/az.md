@@ -2,8 +2,8 @@
 layout: page
 title: common/az (português (Brasil))
 description: "A interface de linha de comando oficial do Microsoft Azure."
-content_hash: f9beaf87577623f9b96eb6adf39793898f04956e
-last_modified_at: 2024-09-14
+content_hash: 9d9eb45797f6c580ae04c02360dd84cbe03e6e06
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -26,21 +26,19 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/az.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az
+# az
 
 A interface de linha de comando oficial do Microsoft Azure.
-Mais informações: <https://learn.microsoft.com/cli/azure>.
+Alguns subcomandos como `login` tem sua própria documentação de uso.
+Mais informações: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 - Faz log in no Azure:
 
 `az login`
 
-- Gerencia informações de assinatura do Microsoft Azure:
+- Gerencia informações de assinatura do Azure:
 
 `az account`
 
@@ -59,3 +57,11 @@ Mais informações: <https://learn.microsoft.com/cli/azure>.
 - Gerencia recursos de rede do Azure:
 
 `az network`
+
+- Inicia modo interativo:
+
+`az interactive`
+
+- Mostra ajuda:
+
+`az --help`

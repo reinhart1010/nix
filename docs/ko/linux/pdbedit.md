@@ -3,23 +3,14 @@ layout: page
 title: linux/pdbedit (한국어)
 description: "Samba 사용자 데이터베이스 편집."
 content_hash: 0f5b0b72a9f8c0e681dc2426acf4ef6fe9b0f11c
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/pdbedit.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pdbedit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pdbedit
+# pdbedit
 
 Samba 사용자 데이터베이스 편집.
 간단한 사용자 추가/제거/비밀번호 변경은 `smbpasswd`를 사용할 수도 있습니다.

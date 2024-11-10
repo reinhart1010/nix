@@ -3,23 +3,14 @@ layout: page
 title: linux/po4a-gettextize (한국어)
 description: "파일을 PO 파일로 변환합니다."
 content_hash: 8060b0e3de624ec8381c4dfd8e2432f1d70170ef
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/po4a-gettextize.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/po4a-gettextize.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># po4a-gettextize
+# po4a-gettextize
 
 파일을 PO 파일로 변환합니다.
 더 많은 정보: <https://po4a.org/man/man1/po4a-gettextize.1.php>.

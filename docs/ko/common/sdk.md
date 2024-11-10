@@ -3,23 +3,14 @@ layout: page
 title: common/sdk (한국어)
 description: "여러 소프트웨어 개발 키트의 병렬 버전을 관리."
 content_hash: 33a2d5af47a408c56c93a18f6b48ddbf70e87592
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/sdk.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sdk.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sdk
+# sdk
 
 여러 소프트웨어 개발 키트의 병렬 버전을 관리.
 Java, Groovy, Scala, Kotlin, Gradle, Maven, Vert.x 등 여러 언어를 지원.

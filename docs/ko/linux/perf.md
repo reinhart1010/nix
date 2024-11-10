@@ -3,23 +3,14 @@ layout: page
 title: linux/perf (한국어)
 description: "Linux 성능 카운터 측정을 위한 프레임워크."
 content_hash: 3fb9e046466f40117be2ae9cb77fcfcecce40dbc
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/perf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/perf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># perf
+# perf
 
 Linux 성능 카운터 측정을 위한 프레임워크.
 더 많은 정보: <https://perf.wiki.kernel.org>.

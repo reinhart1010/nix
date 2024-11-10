@@ -3,23 +3,14 @@ layout: page
 title: linux/wodim (한국어)
 description: "CD 또는 DVD에 데이터를 기록하는 명령어(일부 시스템에서는 `cdrecord`로 별칭됨)."
 content_hash: f5229418b75523d466e70a807f9d8d709b457765
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/wodim.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/wodim.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wodim
+# wodim
 
 CD 또는 DVD에 데이터를 기록하는 명령어(일부 시스템에서는 `cdrecord`로 별칭됨).
 wodim의 일부 사용은 디스크의 모든 데이터를 지우는 등의 파괴적 작업을 수행할 수 있습니다.

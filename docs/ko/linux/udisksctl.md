@@ -3,23 +3,14 @@ layout: page
 title: linux/udisksctl (한국어)
 description: "`udisksd`와 상호 작용하여 스토리지 장치를 조회하고 조작."
 content_hash: d088f2037fd83ca247e36e5bcd3ff26bc79aeb6f
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/udisksctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/udisksctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># udisksctl
+# udisksctl
 
 `udisksd`와 상호 작용하여 스토리지 장치를 조회하고 조작.
 더 많은 정보: <https://storaged.org/doc/udisks2-api/latest/udisksctl.1.html>.

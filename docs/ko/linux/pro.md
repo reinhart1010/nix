@@ -3,23 +3,14 @@ layout: page
 title: linux/pro (한국어)
 description: "Ubuntu Pro 서비스 관리."
 content_hash: 319276a97299533aeddd251363e1f526b7ba888d
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/pro.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pro.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pro
+# pro
 
 Ubuntu Pro 서비스 관리.
 더 많은 정보: <https://manned.org/ubuntu-advantage.1>.

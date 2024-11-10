@@ -3,7 +3,7 @@ layout: page
 title: linux/iptables-restore (한국어)
 description: "`iptables` IPv4 구성을 복원합니다."
 content_hash: 63aaeb8ffa3337936ff5b7ca22e182e9deded755
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/iptables-restore.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/iptables-restore.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/iptables-restore.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># iptables-restore
+# iptables-restore
 
 `iptables` IPv4 구성을 복원합니다.
 IPv6에 대해 동일한 작업을 수행하려면 `ip6tables-restore`를 사용합니다.

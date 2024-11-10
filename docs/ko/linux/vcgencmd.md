@@ -3,23 +3,14 @@ layout: page
 title: linux/vcgencmd (한국어)
 description: "Raspberry Pi의 시스템 정보를 출력합니다."
 content_hash: e58b1106956e454652312ff98b3e3e7c9a04087f
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/vcgencmd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/vcgencmd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vcgencmd
+# vcgencmd
 
 Raspberry Pi의 시스템 정보를 출력합니다.
 더 많은 정보: <https://www.raspberrypi.com/documentation/computers/os.html#vcgencmd>.

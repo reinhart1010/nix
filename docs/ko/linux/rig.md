@@ -3,7 +3,7 @@ layout: page
 title: linux/rig (한국어)
 description: "임의의 이름과 성, 거리 번호와 주소를 생성하는 도구로, 지리적으로 일관된 도시, 주, 우편번호 및 지역번호를 함께 제공합니다."
 content_hash: ebee8452454688a3b57aed124ef21cf3600942f5
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: català version
     url: /ca/linux/rig.html
@@ -14,18 +14,9 @@ related_topics:
   - title: español version
     url: /es/linux/rig.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/rig.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rig
+# rig
 
 임의의 이름과 성, 거리 번호와 주소를 생성하는 도구로, 지리적으로 일관된 도시, 주, 우편번호 및 지역번호를 함께 제공합니다.
 더 많은 정보: <https://manned.org/rig>.

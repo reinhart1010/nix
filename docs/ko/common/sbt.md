@@ -3,23 +3,14 @@ layout: page
 title: common/sbt (한국어)
 description: "Scala 및 Java 프로젝트를 위한 빌드 도구."
 content_hash: 391a795d91fa476613d59a0b15e302e86273848b
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/sbt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sbt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sbt
+# sbt
 
 Scala 및 Java 프로젝트를 위한 빌드 도구.
 더 많은 정보: <https://www.scala-sbt.org/1.x/docs/>.

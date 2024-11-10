@@ -3,23 +3,14 @@ layout: page
 title: linux/kscreen-console (한국어)
 description: "KScreen의 상태를 조회하는 커맨드라인 도구."
 content_hash: db45f8db3807a138c8387490a963253fe53278e4
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/kscreen-console.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/kscreen-console.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kscreen-console
+# kscreen-console
 
 KScreen의 상태를 조회하는 커맨드라인 도구.
 더 많은 정보: <https://manned.org/kscreen-console>.

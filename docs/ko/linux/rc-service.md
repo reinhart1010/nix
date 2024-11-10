@@ -3,23 +3,14 @@ layout: page
 title: linux/rc-service (한국어)
 description: "매개변수를 사용하여 OpenRC 서비스를 찾아 실행합니다."
 content_hash: 3012cb72f7bd24212191911fb0df75258f95029a
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/rc-service.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/rc-service.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rc-service
+# rc-service
 
 매개변수를 사용하여 OpenRC 서비스를 찾아 실행합니다.
 같이 보기: `openrc`.

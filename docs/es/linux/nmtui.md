@@ -3,7 +3,7 @@ layout: page
 title: linux/nmtui (español)
 description: "Interfaz de usuario de texto para controlar NetworkManager."
 content_hash: b1cfa3e204cf7955d613c6b92147394262146a6d
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/nmtui.html
@@ -11,24 +11,18 @@ related_topics:
   - title: italiano version
     url: /it/linux/nmtui.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/nmtui.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/nmtui.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/nmtui.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/nmtui.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nmtui
+# nmtui
 
 Interfaz de usuario de texto para controlar NetworkManager.
 Utilice las teclas de flecha para navegar, tecla intro (enter) para seleccionar una opción.

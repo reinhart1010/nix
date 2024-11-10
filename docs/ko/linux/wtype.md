@@ -3,23 +3,14 @@ layout: page
 title: linux/wtype (한국어)
 description: "Wayland에서 키보드 입력을 시뮬레이트합니다. X11의 `xdotool type`과 유사합니다."
 content_hash: 2501ea8a0e75312b301e2a2db856478c75584982
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/wtype.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/wtype.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wtype
+# wtype
 
 Wayland에서 키보드 입력을 시뮬레이트합니다. X11의 `xdotool type`과 유사합니다.
 같이 보기: `ydotool`.

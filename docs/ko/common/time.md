@@ -3,7 +3,7 @@ layout: page
 title: common/time (한국어)
 description: "명령어 실행 시간을 측정."
 content_hash: e495d118abeff9b2ab1d8a58244ee8f86fbf4738
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -26,18 +26,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/time.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/time.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># time
+# time
 
 명령어 실행 시간을 측정.
 참고: `time`은 셸 내장 명령어이거나 독립 실행형 프로그램이거나 둘 다일 수 있습니다.

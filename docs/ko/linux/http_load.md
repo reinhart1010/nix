@@ -3,23 +3,14 @@ layout: page
 title: linux/http_load (한국어)
 description: "HTTP 벤치마킹 도구."
 content_hash: c675dbb28580cbaeb773bf6cf999b58870dde8f4
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/http_load.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/http_load.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># http_load
+# http_load
 
 HTTP 벤치마킹 도구.
 웹 서버의 처리량을 테스트하기 위해 여러 HTTP 패치를 병렬로 실행합니다.

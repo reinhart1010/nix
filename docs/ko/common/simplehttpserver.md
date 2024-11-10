@@ -3,7 +3,7 @@ layout: page
 title: common/simplehttpserver (한국어)
 description: "파일 업로드, 기본 인증, 사용자 정의 응답을 위한 YAML 규칙을 지원하는 간단한 HTTP/S 서버."
 content_hash: 9365e1e70062040a3382491600bacc3a2e2deb04
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/simplehttpserver.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/simplehttpserver.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/simplehttpserver.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># simplehttpserver
+# simplehttpserver
 
 파일 업로드, 기본 인증, 사용자 정의 응답을 위한 YAML 규칙을 지원하는 간단한 HTTP/S 서버.
 Python의 `http.server`에 대한 Go 대안.

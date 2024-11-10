@@ -3,23 +3,14 @@ layout: page
 title: linux/runlim (한국어)
 description: "Linux의 proc 파일 시스템을 사용하여 프로그램 및 자식 프로세스의 시간 및 메모리 사용량을 샘플링하고 제한합니다."
 content_hash: 0607a3f35d18e50f70f358486771bede4136d7eb
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/runlim.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/runlim.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># runlim
+# runlim
 
 Linux의 proc 파일 시스템을 사용하여 프로그램 및 자식 프로세스의 시간 및 메모리 사용량을 샘플링하고 제한합니다.
 더 많은 정보: <https://fmv.jku.at/runlim>.

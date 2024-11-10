@@ -2,8 +2,8 @@
 layout: page
 title: common/az (italiano)
 description: "Strumento ufficiale da linea di comando per Microsoft Azure."
-content_hash: 3121fd2174c6def1d7614b882fe28bf74e10a92b
-last_modified_at: 2024-10-05
+content_hash: dfd88bb90e946cbf7fd8f362c932d1634f5f5b89
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -35,7 +35,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Strumento ufficiale da linea di comando per Microsoft Azure.
 Alcuni comandi aggiuntivi, come `login`, hanno la propria documentazione.
-Maggiori informazioni: <https://learn.microsoft.com/cli/azure>.
+Maggiori informazioni: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 - Effettua il log in ad Azure:
 

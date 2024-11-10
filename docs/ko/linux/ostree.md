@@ -3,23 +3,14 @@ layout: page
 title: linux/ostree (한국어)
 description: "운영 체제 루트 파일 시스템에 최적화된 바이너리 파일의 버전 관리 도구로, `git`과 유사합니다."
 content_hash: 2823e5c1d067141437a2384ca2c49cfae6f699f1
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/ostree.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ostree.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ostree
+# ostree
 
 운영 체제 루트 파일 시스템에 최적화된 바이너리 파일의 버전 관리 도구로, `git`과 유사합니다.
 OSTree는 Fedora Silverblue, Fedora IoT, Fedora CoreOS와 같은 불변 이미지 기반 운영 체제의 기초입니다.

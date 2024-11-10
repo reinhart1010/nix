@@ -3,23 +3,14 @@ layout: page
 title: linux/mandb (한국어)
 description: "사전 형식화된 매뉴얼 페이지 데이터베이스 관리."
 content_hash: 522646de06672c4d31b227556172fe82ab5464d9
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/mandb.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mandb.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mandb
+# mandb
 
 사전 형식화된 매뉴얼 페이지 데이터베이스 관리.
 더 많은 정보: <https://manned.org/mandb>.

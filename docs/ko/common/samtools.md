@@ -3,23 +3,14 @@ layout: page
 title: common/samtools (한국어)
 description: "고처리량 시퀀싱(유전체학) 데이터를 처리하기 위한 도구."
 content_hash: 213acaea1f8b58ea689f7af93973c1b6732c11df
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/common/samtools.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/samtools.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># samtools
+# samtools
 
 고처리량 시퀀싱(유전체학) 데이터를 처리하기 위한 도구.
 SAM/BAM/CRAM 형식의 데이터를 읽기/쓰기/편집/색인/보기 위해 사용됩니다.

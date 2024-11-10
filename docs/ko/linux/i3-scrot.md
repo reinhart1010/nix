@@ -3,23 +3,14 @@ layout: page
 title: linux/i3-scrot (한국어)
 description: "i3 윈도우 관리자를 위한 스크린샷 유틸리티 `scrot`의 래퍼 스크립트."
 content_hash: 97532cb34103717a3b91c1f9d20b06f2aaef7768
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/i3-scrot.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/i3-scrot.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># i3-scrot
+# i3-scrot
 
 i3 윈도우 관리자를 위한 스크린샷 유틸리티 `scrot`의 래퍼 스크립트.
 기본 저장 위치는 `~/Pictures`이며, `~/.config/i3-scrot.conf`에서 변경할 수 있습니다.

@@ -3,23 +3,14 @@ layout: page
 title: linux/virt-viewer (한국어)
 description: "가상 머신(VM)을 위한 최소한의 그래픽 인터페이스."
 content_hash: 89741a07fea1740dddda3b227b1b81acfea5623e
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/virt-viewer.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/virt-viewer.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># virt-viewer
+# virt-viewer
 
 가상 머신(VM)을 위한 최소한의 그래픽 인터페이스.
 참고: '도메인'은 기존 VM의 이름, UUID 또는 ID를 의미합니다 (참조: tldr virsh).

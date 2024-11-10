@@ -3,7 +3,7 @@ layout: page
 title: linux/nmcli-radio (한국어)
 description: "라디오 스위치의 상태를 표시하거나 NetworkManager를 사용하여 활성화/비활성화."
 content_hash: 15aeaea3ec87814b6ca00564590e73ede62eb86a
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: English version
     url: /en/linux/nmcli-radio.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/nmcli-radio.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/nmcli-radio.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nmcli radio
+# nmcli radio
 
 라디오 스위치의 상태를 표시하거나 NetworkManager를 사용하여 활성화/비활성화.
 이 하위 명령은 `nmcli r`로도 호출할 수 있습니다.

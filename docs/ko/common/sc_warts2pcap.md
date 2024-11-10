@@ -3,7 +3,7 @@ layout: page
 title: common/sc_warts2pcap (한국어)
 description: "`warts` 객체에 포함된 패킷을 PCAP 파일로 작성."
 content_hash: 00a3340ddc5abd882a53280efb1b3e085bb0af57
-last_modified_at: 2024-11-09
+last_modified_at: 2024-11-10
 related_topics:
   - title: Deutsch version
     url: /de/common/sc_warts2pcap.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/sc_warts2pcap.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sc_warts2pcap.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sc_warts2pcap
+# sc_warts2pcap
 
 `warts` 객체에 포함된 패킷을 PCAP 파일로 작성.
 이는 tbit, sting 및 sniff에 대해서만 가능합니다.
