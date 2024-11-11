@@ -3,23 +3,14 @@ layout: page
 title: linux/xmount (한국어)
 description: "여러 입력 및 출력 하드 디스크 이미지 형식을 선택적 쓰기 캐시 지원과 함께 실시간으로 변환합니다."
 content_hash: c2bc83ed0c1cb75c9c440988330e8cf7ef52d08a
-last_modified_at: 2024-11-10
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/linux/xmount.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/xmount.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xmount
+# xmount
 
 여러 입력 및 출력 하드 디스크 이미지 형식을 선택적 쓰기 캐시 지원과 함께 실시간으로 변환합니다.
 FUSE(Filesystem in Userspace)를 사용하여 입력 이미지의 가상 표현을 포함하는 가상 파일 시스템을 만듭니다.

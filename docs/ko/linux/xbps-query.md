@@ -3,7 +3,7 @@ layout: page
 title: linux/xbps-query (한국어)
 description: "패키지 및 저장소 정보를 조회하는 XBPS 유틸리티."
 content_hash: ea7c074658d55af2ee7c4865d25677c3126a35dc
-last_modified_at: 2024-11-10
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/linux/xbps-query.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/xbps-query.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/xbps-query.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xbps-query
+# xbps-query
 
 패키지 및 저장소 정보를 조회하는 XBPS 유틸리티.
 같이 보기: `xbps`.

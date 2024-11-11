@@ -3,7 +3,7 @@ layout: page
 title: common/strings (हिन्दी)
 description: "एक ऑब्जेक्ट फ़ाइल या बाइनरी में प्रिंट करने योग्य स्ट्रिंग्स खोजें।"
 content_hash: 33b0170ff595499fe393785b46d4573b0fa239b4
-last_modified_at: 2024-11-10
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/common/strings.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/strings.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/strings.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># strings
+# strings
 
 एक ऑब्जेक्ट फ़ाइल या बाइनरी में प्रिंट करने योग्य स्ट्रिंग्स खोजें।
 अधिक जानकारी: <https://manned.org/strings>।

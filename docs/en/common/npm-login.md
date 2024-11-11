@@ -3,19 +3,10 @@ layout: page
 title: common/npm-login (English)
 description: "Login to a registry user account."
 content_hash: eddd0e6d7d08d0da8f9b709fe6b4cb2ac822c155
-last_modified_at: 2024-11-10
-tldri18n_status: 0
+last_modified_at: 2024-11-11
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/npm-login.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># npm login
+# npm login
 
 Login to a registry user account.
 More information: <https://docs.npmjs.com/cli/commands/npm-login>.

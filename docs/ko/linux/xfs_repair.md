@@ -3,7 +3,7 @@ layout: page
 title: linux/xfs_repair (한국어)
 description: "XFS 파일 시스템 복구."
 content_hash: f8cc3ee443e11d13b5a16b58d907dbdf8bc42f46
-last_modified_at: 2024-11-10
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/linux/xfs_repair.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/xfs_repair.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/xfs_repair.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xfs_repair
+# xfs_repair
 
 XFS 파일 시스템 복구.
 더 많은 정보: <https://manned.org/xfs_repair>.

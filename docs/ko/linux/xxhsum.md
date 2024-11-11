@@ -3,23 +3,14 @@ layout: page
 title: linux/xxhsum (한국어)
 description: "빠른 비암호화 알고리즘인 xxHash를 사용하여 체크섬을 출력하거나 검증합니다."
 content_hash: ab92833965af16412844fe240f225d55058a2253
-last_modified_at: 2024-11-10
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/linux/xxhsum.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/xxhsum.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xxhsum
+# xxhsum
 
 빠른 비암호화 알고리즘인 xxHash를 사용하여 체크섬을 출력하거나 검증합니다.
 더 많은 정보: <https://github.com/Cyan4973/xxHash>.

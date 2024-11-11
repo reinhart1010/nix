@@ -3,7 +3,7 @@ layout: page
 title: linux/xbps-install (한국어)
 description: "XBPS 패키지를 (재)설치하고 업데이트하는 도구."
 content_hash: d890216793f12bcea9ab630feb7ab4edaa160b7a
-last_modified_at: 2024-11-10
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/linux/xbps-install.html
@@ -14,18 +14,9 @@ related_topics:
   - title: русский version
     url: /ru/linux/xbps-install.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/xbps-install.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># xbps-install
+# xbps-install
 
 XBPS 패키지를 (재)설치하고 업데이트하는 도구.
 같이 보기: `xbps`.
