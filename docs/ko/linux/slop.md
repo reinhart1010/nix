@@ -1,0 +1,45 @@
+---
+layout: page
+title: linux/slop (한국어)
+description: "화면의 선택 영역을 가져옵니다."
+content_hash: c22db0c422c8497423c2ea674555fce86f06fa42
+last_modified_at: 2024-11-11
+related_topics:
+  - title: English version
+    url: /en/linux/slop.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/slop.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># slop
+
+화면의 선택 영역을 가져옵니다.
+더 많은 정보: <https://github.com/naelstrof/slop>.
+
+- 사용자가 선택할 때까지 기다린 후 그 기하정보를 `stdout`에 출력:
+
+`slop`
+
+- 드래그하여 선택하는 대신 더블 클릭하여 선택:
+
+`slop -D`
+
+- 선택 영역을 윤곽선 대신 강조:
+
+`slop -l`
+
+- 출력 형식 지정:
+
+`slop -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">형식_문자열</span>
+
+- 선택 사각형의 색상 지정:
+
+`slop -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">빨강</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초록</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파랑</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">알파</span>

@@ -1,0 +1,50 @@
+---
+layout: page
+title: linux/speedread (한국어)
+description: "간단한 터미널 기반 오픈 소스 Spritz 유사 도구."
+content_hash: b00c2d7139cf694e080c71bfc57b63a23511b877
+last_modified_at: 2024-11-11
+related_topics:
+  - title: English version
+    url: /en/linux/speedread.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/speedread.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># speedread
+
+간단한 터미널 기반 오픈 소스 Spritz 유사 도구.
+입력된 텍스트를 단어별 RSVP(빠른 연속 시각적 표시)로 최적의 읽기 지점에 맞춰 표시하여, 눈이 한 곳에 고정된 상태에서 일반적인 속도보다 훨씬 빠르게 텍스트를 읽을 수 있게 합니다.
+더 많은 정보: <https://github.com/pasky/speedread>.
+
+- 특정 속도로 텍스트 파일 읽기:
+
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.txt</span>` | speedread -wpm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">250</span>
+
+- 특정 줄부터 다시 시작:
+
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.txt</span>` | speedread -resume `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
+
+- 한 번에 여러 단어를 표시:
+
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.txt</span>` | speedread -multiword`
+
+- 읽기 중 10% 속도 감소:
+
+`[`
+
+- 읽기 중 10% 속도 증가:
+
+`]`
+
+- 일시 정지하고 마지막 몇 줄을 컨텍스트로 표시:
+
+`<space>`

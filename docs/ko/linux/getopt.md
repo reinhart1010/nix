@@ -1,0 +1,41 @@
+---
+layout: page
+title: linux/getopt (한국어)
+description: "명령줄 인수를 파싱합니다."
+content_hash: f0b7a1998e1e7d219d9d79fbad2904a131241558
+last_modified_at: 2024-11-11
+related_topics:
+  - title: English version
+    url: /en/linux/getopt.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/getopt.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># getopt
+
+명령줄 인수를 파싱합니다.
+더 많은 정보: <https://www.gnu.org/software/libc/manual/html_node/Getopt.html>.
+
+- 축약형으로 `verbose`/`version` 플래그를 파싱:
+
+`getopt --options vV --longoptions verbose,version -- --version --verbose`
+
+- 축약형 `-f`로 필수 인자를 갖는 `--file` 옵션 추가:
+
+`getopt --options f: --longoptions file: -- --file=somefile`
+
+- 축약형 `-v`로 선택적 인자를 갖는 `--verbose` 옵션 추가 및 비옵션 매개변수 `arg` 전달:
+
+`getopt --options v:: --longoptions verbose:: -- --verbose arg`
+
+- `-r` 및 `--verbose` 플래그, 선택적 인자를 갖는 `--accept` 옵션, 필수 인자를 갖는 `--target` 옵션을 축약형으로 추가:
+
+`getopt --options rv::s::t: --longoptions verbose,source::,target: -- -v --target target`

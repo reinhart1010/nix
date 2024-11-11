@@ -1,0 +1,49 @@
+---
+layout: page
+title: linux/sacct (한국어)
+description: "Slurm 서비스로부터 회계 데이터를 표시합니다."
+content_hash: 4d77977efa90e93224f830609317a055d975ba58
+last_modified_at: 2024-11-11
+related_topics:
+  - title: English version
+    url: /en/linux/sacct.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/sacct.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># sacct
+
+Slurm 서비스로부터 회계 데이터를 표시합니다.
+더 많은 정보: <https://slurm.schedmd.com/sacct.html>.
+
+- 최근 작업의 작업 ID, 작업 이름, 파티션, 계정, 할당된 CPU 수, 작업 상태 및 작업 종료 코드를 표시:
+
+`sacct`
+
+- 최근 작업의 작업 ID, 작업 상태 및 작업 종료 코드를 표시:
+
+`sacct --brief`
+
+- 작업의 할당을 표시:
+
+`sacct --jobs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_ID</span>` --allocations`
+
+- 작업의 경과 시간, 작업 이름, 요청된 CPU 수 및 요청된 메모리를 표시:
+
+`sacct --jobs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_ID</span>` --format=Elapsed,JobName,ReqCPUS,ReqMem`
+
+- 1주일 전부터 현재까지 발생한 최근 작업을 표시:
+
+`sacct --starttime=$(date -d "1 week ago" +'%F')`
+
+- 속성에 대해 더 많은 문자를 출력:
+
+`sacct --format=JobID,JobName%100`

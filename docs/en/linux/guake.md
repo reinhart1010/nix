@@ -2,8 +2,8 @@
 layout: page
 title: linux/guake (English)
 description: "A drop-down terminal for GNOME."
-content_hash: c30f03ec346d0707504dbee6de0bee9494c357f8
-last_modified_at: 2023-12-29
+content_hash: 0edcdda3f519493bd3a9216a8d5cec0804fc296e
+last_modified_at: 2024-11-11
 tldri18n_status: 2
 ---
 # guake
@@ -21,7 +21,7 @@ More information: <https://github.com/Guake/guake>.
 
 - Open a new tab:
 
-`<Ctrl> + <Shift> +T`
+`<Ctrl> + <Shift> + T`
 
 - Close the terminal:
 

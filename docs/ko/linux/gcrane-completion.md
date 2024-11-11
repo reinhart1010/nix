@@ -1,0 +1,61 @@
+---
+layout: page
+title: linux/gcrane-completion (한국어)
+description: "지정된 셸에 대한 gcrane 자동 완성 스크립트를 생성합니다."
+content_hash: cd96cb53f656582bacae2c9a86f016a95db5f16b
+last_modified_at: 2024-11-11
+related_topics:
+  - title: English version
+    url: /en/linux/gcrane-completion.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/gcrane-completion.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/gcrane-completion.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># gcrane completion
+
+지정된 셸에 대한 gcrane 자동 완성 스크립트를 생성합니다.
+사용 가능한 셸은 `bash`, `fish`, `powershell`, `zsh`입니다.
+더 많은 정보: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
+
+- 셸에 대한 자동 완성 스크립트 생성:
+
+`gcrane completion `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">셸_이름</span>
+
+- 완성 설명 비활성화:
+
+`gcrane completion `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">셸_이름</span>` --no-descriptions`
+
+- 현재 셸 세션에서 완성 로드 (bash/zsh):
+
+`source <(gcrane completion bash/zsh)>`
+
+- 현재 셸 세션에서 완성 로드 (fish):
+
+`gcrane completion fish | source`
+
+- 새로운 세션마다 완성 로드 (bash):
+
+`gcrane completion bash > /etc/bash_completion.d/gcrane`
+
+- 새로운 세션마다 완성 로드 (zsh):
+
+`gcrane completion zsh > "${fpath[1]}/_gcrane"`
+
+- 새로운 세션마다 완성 로드 (fish):
+
+`gcrane completion fish > ~/.config/fish/completions/gcrane.fish`
+
+- 도움말 표시:
+
+`gcrane completion `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">셸_이름</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>
