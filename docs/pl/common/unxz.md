@@ -2,21 +2,9 @@
 layout: page
 title: common/unxz (polski)
 description: "To polecenie jest aliasem `xz`."
-content_hash: 355802754e47f2d6874f98a0e62a7fd50312cca5
-last_modified_at: 2023-11-12
+content_hash: 5bd661fe146297fe80c560ffc8f3df2541c56a53
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/common/unxz.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/unxz.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/unxz.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/unxz.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/unxz.html
     icon: bi bi-globe
@@ -38,17 +26,8 @@ related_topics:
   - title: italiano version
     url: /it/common/unxz.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/unxz.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/unxz.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/unxz.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/unxz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/unxz.html
@@ -56,20 +35,11 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/unxz.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/unxz.html
-    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/unxz.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/unxz.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/unxz.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/unxz.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/unxz.html
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/unxz.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/unxz.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/unxz.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # unxz
 
 To polecenie jest aliasem `xz`.
-Więcej informacji: <https://manned.org/unxz>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

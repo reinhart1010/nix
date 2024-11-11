@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (Nederlands)
 description: "Dit commando is een alias van `invoke-webrequest`."
-content_hash: f933ae9eadc248f80e6d24f91bc931c4f0ceaa02
-last_modified_at: 2023-11-12
+content_hash: a5c94b9161d749137d076bfe29c6031b69c34743
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 Dit commando is een alias van `invoke-webrequest`.
-Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Bekijk de documentatie van het originele commando:
 

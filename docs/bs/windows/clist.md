@@ -2,18 +2,9 @@
 layout: page
 title: windows/clist (bosanski)
 description: "Ova komanda je pseudonim za `choco list`."
-content_hash: f344214a4b6c0f0b50a43dfaa4d2232284c1844c
-last_modified_at: 2023-11-12
+content_hash: 3f44ea98fa9ec39fb84fa0ec967ace727ffb3443
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
     icon: bi bi-globe
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 Ova komanda je pseudonim za `choco list`.
-Više informacija: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

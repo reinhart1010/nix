@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (bosanski)
 description: "Ova komanda je pseudonim za `Select-String`."
-content_hash: bbedef112dc183ff49e02428b249ddaced552101
-last_modified_at: 2023-11-12
+content_hash: 72c45ac89e9bc4ac18bc088354dac2211c8ccde7
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 Ova komanda je pseudonim za `Select-String`.
-Više informacija: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

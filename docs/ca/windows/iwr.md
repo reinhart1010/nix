@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (català)
 description: "Aquest comandament és un àlies de `invoke-webrequest`."
-content_hash: db330acdd020f3b3502cbe1edb846fd5b3a07c69
-last_modified_at: 2023-11-12
+content_hash: a7ceccf11d8ccd8ec7039059b6267b8e383d0e82
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 Aquest comandament és un àlies de `invoke-webrequest`.
-Més informació: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Veure documentació pel comandament original:
 

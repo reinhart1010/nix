@@ -2,18 +2,9 @@
 layout: page
 title: windows/cinst (bosanski)
 description: "Ova komanda je pseudonim za `choco install`."
-content_hash: b0bcecebca004e12a370212e479bbfe528075467
-last_modified_at: 2023-11-12
+content_hash: c09a6fe7345785de55932a348a4822390567fcc4
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cinst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cinst.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
     icon: bi bi-globe
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cinst
 
 Ova komanda je pseudonim za `choco install`.
-Više informacija: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

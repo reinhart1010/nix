@@ -2,18 +2,9 @@
 layout: page
 title: windows/cuninst (bosanski)
 description: "Ova komanda je pseudonim za `choco uninstall`."
-content_hash: 0392422b866a1878e3f05acf41f6e81da4f01f67
-last_modified_at: 2023-11-12
+content_hash: 38f413af219a7affda65048df57b4d9a73d00c00
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cuninst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cuninst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cuninst.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cuninst.html
     icon: bi bi-globe
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cuninst
 
 Ova komanda je pseudonim za `choco uninstall`.
-Više informacija: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

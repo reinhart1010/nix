@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (bosanski)
 description: "Ova komanda je pseudonim za `fossil rm`."
-content_hash: 98740ea833a32e280e7c94965ed4a0798befc70f
-last_modified_at: 2024-05-09
+content_hash: e794a7d60514f452a15c406455ff383ad05231a1
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil delete
 
 Ova komanda je pseudonim za `fossil rm`.
-Više informacija: <https://fossil-scm.org/home/help/delete>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

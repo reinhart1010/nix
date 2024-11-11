@@ -2,8 +2,8 @@
 layout: page
 title: common/lzcat (Nederlands)
 description: "Dit commando is een alias van `xz --format=lzma --decompress --stdout`."
-content_hash: d467f2242e818d98eaa736b976af9f0050cc1130
-last_modified_at: 2024-11-03
+content_hash: 0921b2d78ef8df87e757f62e00bfaea9318143eb
+last_modified_at: 2024-11-11
 related_topics:
   - title: Deutsch version
     url: /de/common/lzcat.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # lzcat
 
 Dit commando is een alias van `xz --format=lzma --decompress --stdout`.
-Meer informatie: <https://manned.org/lzcat>.
 
 - Bekijk de documentatie van het originele commando:
 

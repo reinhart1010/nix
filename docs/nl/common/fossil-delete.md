@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (Nederlands)
 description: "Dit commando is een alias van `fossil rm`."
-content_hash: 4625446834e66e28b3e6953b211f54eadec171e1
-last_modified_at: 2024-05-09
+content_hash: a592e71215b419667abf4e5699f8cbb941361ec2
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil delete
 
 Dit commando is een alias van `fossil rm`.
-Meer informatie: <https://fossil-scm.org/home/help/delete>.
 
 - Bekijk de documentatie van het originele commando:
 

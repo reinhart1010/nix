@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (norsk)
 description: "Denne kommandoen er et alias for `Where-Object`."
-content_hash: baffbf3d69fb744a60d885b549e7401955eb7925
-last_modified_at: 2023-12-22
+content_hash: 89eea8036711fe952c09f2d8ac473ca181ebcca9
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # pwsh where
 
 Denne kommandoen er et alias for `Where-Object`.
-Mer informasjon: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

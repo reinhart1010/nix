@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (español)
 description: "Copia archivos y directorios."
-content_hash: 69b34c193ec32eeba40336d546c1987cdb285d16
-last_modified_at: 2023-11-12
+content_hash: 16a210a4100f97f879bf672b8e2f893fad83e74d
+last_modified_at: 2024-11-11
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -66,26 +69,34 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Copia archivos y directorios.
 Más información: <https://www.gnu.org/software/coreutils/cp>.
 
-- Copia un archivo a otra ruta:
+- Copia un archivo a otra ubicación:
 
-`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/archivo_original.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/archivo_copia.ext</span>
+`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_origen.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_destino.ext</span>
 
-- Copia un archivo a un directorio, manteniendo el nombre del archivo:
+- Copia un archivo en otro directorio, manteniendo el nombre del archivo:
 
-`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/archivo_original.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/directorio_destino</span>
+`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_origen.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_destino</span>
 
-- Copia de forma recursiva un directorio y su contenido a otra ruta (si la ruta de destino existe, el directorio se copiará dentro):
+- Copia recursivamente el contenido de un directorio a otra ubicación (si el destino existe, el directorio se copia dentro de él):
 
-`cp -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/directorio_original</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/directorio_copia</span>
+`cp -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_de_origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_de_destino</span>
 
-- Copia de forma recursiva y verbosa un directorio (muestra un listado de los archivos copiados):
+- Copia un directorio de forma recursiva, en modo detallado (muestra los archivos a medida que se copian):
 
-`cp -vR `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/directorio_original</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/directorio_copia</span>
+`cp -vR `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_de_origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_de_destino</span>
 
-- Copia archivos de texto a otra ruta de forma interactiva (pregunta al usuario antes de sobreescribir):
+- Copia varios archivos a la vez en un directorio:
 
-`cp -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/directorio_destino</span>
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_de_destino</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
 
-- Copia enlaces simbólicos sin mantener la referencia al original:
+- Copia archivos de texto a otra ubicación, en modo interactivo (pregunta al usuario antes de sobrescribir):
 
-`cp -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enlace</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/directorio_destino</span>
+`cp -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_de_objetivo</span>
+
+- Sigue los enlaces simbólicos antes de copiar:
+
+`cp -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enlace</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_de_destino</span>
+
+- Utiliza el primer argumento como directorio de destino (útil para `xargs ... | cp -t <DEST_DIR>`):
+
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_de_destino</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...</span>

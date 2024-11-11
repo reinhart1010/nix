@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (català)
 description: "Aquest comandament és un àlies de `Select-String`."
-content_hash: 012c2f625f04022410612bb8647def20c2bba57c
-last_modified_at: 2023-11-12
+content_hash: 079cebeb16413a4d43b7cb9bdea5cc1185bb61e1
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 Aquest comandament és un àlies de `Select-String`.
-Més informació: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Veure documentació pel comandament original:
 

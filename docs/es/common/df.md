@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/df (español)
-description: "Entrega información general del uso de espacio en disco del sistema de archivos."
-content_hash: 7f83ea36cee8542af54cc74ce822a65be8091e80
-last_modified_at: 2024-01-09
+description: "Muestra una visión general del uso del espacio en disco del sistema de archivos."
+content_hash: ae4d43cc89a1038aee2520623986a4f988c84fb8
+last_modified_at: 2024-11-11
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -42,25 +42,21 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># df
 
-Entrega información general del uso de espacio en disco del sistema de archivos.
+Muestra una visión general del uso del espacio en disco del sistema de archivos.
 Más información: <https://manned.org/df.1posix>.
 
-- Muestra todos los sistemas de archivos y sus usos de disco:
+- Muestra todos los sistemas de ficheros y su uso de disco usando unidades de 512 bytes:
 
 `df`
 
-- Muestra todos los sistemas de archivos y sus usos de disco en formato legible para humanos:
-
-`df -h`
-
-- Muestra el sistema de archivos que contiene determinado archivo o directorio y su uso de disco:
+- Muestra el sistema de archivos y su uso del disco que contiene el archivo o directorio dado:
 
 `df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span>
 
-- Muestra estadísticas sobre el número de inodos libres:
+- Utiliza unidades de 1024 bytes en las columnas de cifras de espacio:
 
-`df -i`
+`df -k`
 
-- Muestra sistemas de archivos excluyendo los tipos especificados:
+- Muestra la información de forma portátil (formato POSIX):
 
-`df -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">squashfs</span>` -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs</span>
+`df -P`

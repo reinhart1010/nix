@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (Nederlands)
 description: "Dit commando is een alias van `choco push`."
-content_hash: c0fe4ed720f95bd128911453360fec86b936d0a8
-last_modified_at: 2024-11-03
+content_hash: 63fa6e5511cfb3489ce190b768c2b670f31f32f4
+last_modified_at: 2024-11-11
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # cpush
 
 Dit commando is een alias van `choco push`.
-Meer informatie: <https://docs.chocolatey.org/en-us/create/commands/push>.
 
 - Bekijk de documentatie van het originele commando:
 

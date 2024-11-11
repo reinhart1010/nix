@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `Select-String`."
-content_hash: c7c117628288493694a9b146b21cd184f14144c0
-last_modified_at: 2023-11-12
+content_hash: 45c38cf9f460a5e504189b377f34fde74dc2b7e0
+last_modified_at: 2024-11-11
 related_topics:
   - title: bosanski version
     url: /bs/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 هذا الأمر هو اسم مستعار لـ `Select-String`.
-لمزيد من التفاصيل: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - إعرض التوثيقات للأمر الأصلي:
 

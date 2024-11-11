@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (norsk)
 description: "Denne kommandoen er et alias for `Select-String`."
-content_hash: 72bdb3e7ef0727c92d81a1c55c7a5481c3a83fd6
-last_modified_at: 2023-11-12
+content_hash: 9e1018fac7825803d8073be7e196fa68eb2f5439
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 Denne kommandoen er et alias for `Select-String`.
-Mer informasjon: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

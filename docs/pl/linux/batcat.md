@@ -2,21 +2,9 @@
 layout: page
 title: linux/batcat (polski)
 description: "To polecenie jest aliasem dla `bat`."
-content_hash: b94d04c30fcd2f68e7b878d2b17a115192d8ab07
-last_modified_at: 2023-11-12
+content_hash: 91a2c2f6d62cbfa938abfdaf8ffc2ff71e25a882
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/linux/batcat.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/batcat.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/batcat.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/batcat.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/batcat.html
     icon: bi bi-globe
@@ -38,17 +26,8 @@ related_topics:
   - title: italiano version
     url: /it/linux/batcat.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/batcat.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/batcat.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/batcat.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/batcat.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/linux/batcat.html
@@ -56,20 +35,11 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/batcat.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/batcat.html
-    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/batcat.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/linux/batcat.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/batcat.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/batcat.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/batcat.html
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/batcat.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/batcat.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/batcat.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # batcat
 
 To polecenie jest aliasem dla `bat`.
-Więcej informacji: <https://github.com/sharkdp/bat>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

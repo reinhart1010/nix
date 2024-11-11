@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/rd (English)
-description: "This command is an alias of `rmdir` on Command Prompt, and subsequently `Remove-Item` in PowerShell."
-content_hash: 9dd822ec454210f751c78820cc7a6ed6d2804f9d
-last_modified_at: 2024-11-10
+description: "This command is an alias of `rmdir` on the Command Prompt and `Remove-Item` in PowerShell."
+content_hash: 80341f2d22a28d25ff900822842ab8f42b637578
+last_modified_at: 2024-11-11
 related_topics:
   - title: Deutsch version
     url: /de/windows/rd.html
@@ -60,7 +60,7 @@ tldri18n_status: 2
 ---
 # rd
 
-This command is an alias of `rmdir` on Command Prompt, and subsequently `Remove-Item` in PowerShell.
+This command is an alias of `rmdir` on the Command Prompt and `Remove-Item` in PowerShell.
 
 - View documentation for the original Command Prompt command:
 

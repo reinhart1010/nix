@@ -2,21 +2,9 @@
 layout: page
 title: linux/cc (polski)
 description: "To polecenie jest aliasem dla `gcc`."
-content_hash: 587d4f3a54957553013c4e7d22f0fbca3676ad3a
-last_modified_at: 2023-11-12
+content_hash: 575e341d3757d88cfb143d4af8a15624bbe0e34a
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/linux/cc.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/cc.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/cc.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/cc.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/cc.html
     icon: bi bi-globe
@@ -38,17 +26,8 @@ related_topics:
   - title: italiano version
     url: /it/linux/cc.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/cc.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/cc.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/cc.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/cc.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/linux/cc.html
@@ -56,20 +35,11 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/cc.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/cc.html
-    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cc.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/linux/cc.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/cc.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/cc.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/cc.html
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/cc.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/cc.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/cc.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # cc
 
 To polecenie jest aliasem dla `gcc`.
-Więcej informacji: <https://gcc.gnu.org>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

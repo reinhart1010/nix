@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (norsk)
 description: "Denne kommandoen er et alias for `tldr-lint`."
-content_hash: 4e59986d997dd97952d9b90a1ac5cf34ede64fea
-last_modified_at: 2023-11-12
+content_hash: b2ba9a2b6f84e4aa527ceb6e16732f850262c11f
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 Denne kommandoen er et alias for `tldr-lint`.
-Mer informasjon: <https://github.com/tldr-pages/tldr-lint>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

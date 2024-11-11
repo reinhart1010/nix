@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-sync (English)
 description: "Arch Linux package manager utility."
-content_hash: f6cb1edc489bf669a789b73776f65f0140f4cd06
-last_modified_at: 2024-09-25
+content_hash: a08a5fb7d45cec684f76f643a0f8d31dfb550aef
+last_modified_at: 2024-11-11
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -36,32 +36,32 @@ More information: <https://manned.org/pacman.8>.
 
 - Install a new package:
 
-`sudo pacman --sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Synchronize and update all packages (add `--downloadonly` to download the packages and not update them):
+- [S]ynchronize and refresh ([y]) the package database along with a sys[u]pgrade (add `--downloadonly` to only download the packages and not update them):
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman -Syu`
 
-- Update all packages and install a new one without prompting:
+- Update and [u]pgrade all packages and install a new one without prompting:
 
-`sudo pacman --sync --refresh --sysupgrade --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo pacman -Syu --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Search the package database for a regular expression or keyword:
+- Search ([s]) the package database for a regular expression or keyword:
 
-`pacman --sync --search "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
+`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
 
-- Display information about a package:
+- Display [i]nformation about a package:
 
-`pacman --sync --info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`pacman -Si `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Overwrite conflicting files during a package update:
 
-`sudo pacman --sync --refresh --sysupgrade --overwrite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`sudo pacman -Syu --overwrite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Synchronize and update all packages, but ignore a specific package (can be used more than once):
+- [S]ynchronize and [u]pdate all packages, but ignore a specific package (can be used more than once):
 
-`sudo pacman --sync --refresh --sysupgrade --ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo pacman -Syu --ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Remove not installed packages and unused repositories from the cache (use two `--clean` flags to clean all packages):
+- Remove not installed packages and unused repositories from the cache (use the flags `Scc` to [c]lean all packages):
 
-`sudo pacman --sync --clean`
+`sudo pacman -Sc`

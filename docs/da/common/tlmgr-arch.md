@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (dansk)
 description: "Denne kommando er et alias af `tlmgr platform`."
-content_hash: bcf15b8d5068e1799e378b92c93ca3e283b21053
-last_modified_at: 2024-05-09
+content_hash: bf7239e32d24c2bcfb2abf033777680866276387
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # tlmgr arch
 
 Denne kommando er et alias af `tlmgr platform`.
-Mere information: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Se dokumentation for den oprindelige kommando:
 

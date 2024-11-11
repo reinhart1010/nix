@@ -2,18 +2,20 @@
 layout: page
 title: windows/ni (Nederlands)
 description: "In PowerShell is dit commando een alias van `New-Item`."
-content_hash: 7e45d9c428aa1e666028360df21a0aa7176d4e11
-last_modified_at: 2023-11-26
+content_hash: db4cfcc052b0fad1c4fcacfb03b217a9bdb2389d
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/windows/ni.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/ni.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # ni
 
 In PowerShell is dit commando een alias van `New-Item`.
-Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
 
 - Bekijk de documentatie van het originele commando:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/unlzma (Nederlands)
 description: "Dit commando is een alias van `xz --format=lzma --decompress`."
-content_hash: 7b7b7b7916ed43e4df523f6aa982dd6fbc17e2f9
-last_modified_at: 2024-11-03
+content_hash: 5ce5308c1ba407612d803df7c379dbcd990e25ca
+last_modified_at: 2024-11-11
 related_topics:
   - title: Deutsch version
     url: /de/common/unlzma.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # unlzma
 
 Dit commando is een alias van `xz --format=lzma --decompress`.
-Meer informatie: <https://manned.org/unlzma>.
 
 - Bekijk de documentatie van het originele commando:
 

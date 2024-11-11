@@ -2,17 +2,11 @@
 layout: page
 title: linux/ncal (català)
 description: "Aquest comandament és un àlies de `cal`."
-content_hash: 05d6c6da9db62e776f98e1b58e5c9067c9c1b4cd
-last_modified_at: 2023-11-12
+content_hash: 2112e974ce7cb7ea2e738a08314ecc4a33180c61
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,7 +88,6 @@ tldri18n_status: 2
 # ncal
 
 Aquest comandament és un àlies de `cal`.
-Més informació: <https://manned.org/ncal>.
 
 - Veure documentació per el comandament original:
 

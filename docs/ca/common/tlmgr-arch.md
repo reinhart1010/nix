@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (català)
 description: "Aquest comandament és un àlies de `tlmgr platform`."
-content_hash: 17a14d9acfdadd2b3eea9c889d1d4e4f17bd3432
-last_modified_at: 2024-05-09
+content_hash: 877a78cdbff7f0ccc96759393a8dc55d43aa34fb
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # tlmgr arch
 
 Aquest comandament és un àlies de `tlmgr platform`.
-Més informació: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Veure documentació pel comandament original:
 

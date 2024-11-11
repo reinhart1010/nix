@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (bosanski)
 description: "Ova komanda je pseudonim za `tlmgr platform`."
-content_hash: e25742b453647ebca5d63a660ec22d31e5335685
-last_modified_at: 2023-11-12
+content_hash: 627f967a34f09709199fd38cddda6cb4e6a5f0eb
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # tlmgr arch
 
 Ova komanda je pseudonim za `tlmgr platform`.
-Više informacija: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Pregledaj dokumentaciju za izvornu komandu:
 

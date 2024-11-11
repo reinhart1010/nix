@@ -2,8 +2,8 @@
 layout: page
 title: common/xzcat (Nederlands)
 description: "Dit commando is een alias van `xz --decompress --stdout`."
-content_hash: 09780f187d24fa66156d7916ca5cc87e636fc080
-last_modified_at: 2024-11-03
+content_hash: 903edeb4fbc8c6670461d50fe259b3a875750a13
+last_modified_at: 2024-11-11
 related_topics:
   - title: Deutsch version
     url: /de/common/xzcat.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # xzcat
 
 Dit commando is een alias van `xz --decompress --stdout`.
-Meer informatie: <https://manned.org/xzcat>.
 
 - Bekijk de documentatie van het originele commando:
 

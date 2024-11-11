@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (polski)
 description: "To polecenie jest aliasem  `fossil init`."
-content_hash: 0d5d31d0279f6b8294124280fee4a59cb3514778
-last_modified_at: 2024-05-09
+content_hash: a047fca556d71804935d310b99fa75fead3af8ae
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil new
 
 To polecenie jest aliasem  `fossil init`.
-Więcej informacji: <https://fossil-scm.org/home/help/new>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

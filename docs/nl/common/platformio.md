@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (Nederlands)
 description: "Dit commando is een alias van `pio`."
-content_hash: c4c6a8d59dc9f7b57b8673e37684d5641d334fd3
-last_modified_at: 2023-11-12
+content_hash: 4ad35f39fccc936377350766bca917340753b3c1
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 Dit commando is een alias van `pio`.
-Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Bekijk de documentatie van het originele commando:
 

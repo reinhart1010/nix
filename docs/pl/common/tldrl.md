@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (polski)
 description: "To polecenie jest aliasem `tldr-lint`."
-content_hash: f2826943052deeea539931f433acfa2e0147b3f9
-last_modified_at: 2023-11-12
+content_hash: e21204b3574b4facd5db6c7efa2244430e20aa90
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 To polecenie jest aliasem `tldr-lint`.
-Więcej informacji: <https://github.com/tldr-pages/tldr-lint>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

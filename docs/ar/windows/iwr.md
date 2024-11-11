@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `invoke-webrequest`."
-content_hash: 40176880a13d151ffc3885b076a1b0b7034d5fbd
-last_modified_at: 2023-11-12
+content_hash: 53d348bfe0be5f6be13991ff62f769bd61b35b49
+last_modified_at: 2024-11-11
 related_topics:
   - title: bosanski version
     url: /bs/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 هذا الأمر هو اسم مستعار لـ `invoke-webrequest`.
-لمزيد من التفاصيل: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - إعرض التوثيقات للأمر الأصلي:
 

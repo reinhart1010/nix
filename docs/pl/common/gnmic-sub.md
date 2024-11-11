@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (polski)
 description: "To polecenie jest aliasem `gnmic subscribe`."
-content_hash: 5fc60d426314d1cb7a2946ff65ef368a12c67500
-last_modified_at: 2024-05-09
+content_hash: 8770613e99f2bb68b47dda704f5fc0df48da940a
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gnmic sub
 
 To polecenie jest aliasem `gnmic subscribe`.
-Więcej informacji: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

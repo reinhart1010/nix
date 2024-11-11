@@ -2,18 +2,23 @@
 layout: page
 title: windows/sc-delete (Nederlands)
 description: "Dit commando is een alias van `sc.exe delete`."
-content_hash: ea2ec88c45740a635a0486d268c83e83b75f576a
-last_modified_at: 2024-05-09
+content_hash: 2fe28c145671ca333423980c7249d375d01969a9
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/windows/sc-delete.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/sc-delete.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/sc-delete.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # sc delete
 
 Dit commando is een alias van `sc.exe delete`.
-Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/sc-delete>.
 
 - Bekijk de documentatie van het originele commando:
 

@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (norsk)
 description: "Denne kommandoen er et alias for `choco list`."
-content_hash: 9390df68c80e9c45b5cbb0bf5e9c77206c7f4340
-last_modified_at: 2023-11-12
+content_hash: dad8f7e9fbb7efecc7d8ace1dc0bdc71db15f8c5
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 Denne kommandoen er et alias for `choco list`.
-Mer informasjon: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

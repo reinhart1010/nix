@@ -2,19 +2,24 @@
 layout: page
 title: linux/qm-resize (Nederlands)
 description: "Dit commando is een alias van `qm-disk-resize`."
-content_hash: 54869e8ae78011b89b79652bad6573249d344dbd
-last_modified_at: 2023-11-26
+content_hash: 143c4ee481ef9cc52e2f3a983877bedb40b583d9
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/linux/qm-resize.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/qm-resize.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/qm-resize.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # qm resize
 
 Dit commando is een alias van `qm-disk-resize`.
-Meer informatie: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr qm-disk-resize`
+`tldr qm disk resize`

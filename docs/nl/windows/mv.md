@@ -2,11 +2,14 @@
 layout: page
 title: windows/mv (Nederlands)
 description: "In PowerShell is dit commando een alias van `Move-Item`."
-content_hash: 75ecd3e68e4ff0e77b4c44a728b5df664fdc90d9
-last_modified_at: 2024-10-10
+content_hash: 227fa177e3a3cd394ef3f435dfc00a0c04ec01db
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/windows/mv.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/mv.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +17,6 @@ tldri18n_status: 2
 
 In PowerShell is dit commando een alias van `Move-Item`.
 Maar dit commando is niet beschikbaar op de Command Prompt (`cmd`). Gebruik `move` voor soortgelijke functionaliteit.
-Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/move-item>.
 
 - Bekijk de documentatie van het equivalente Command Prompt commando:
 

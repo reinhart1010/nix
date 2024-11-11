@@ -1,15 +1,18 @@
 ---
 layout: page
 title: common/at (español)
-description: "Ejecuta comandos una vez en un momento posterior."
-content_hash: 7a613c15a63d1fd110240699cab69f81aae1c647
-last_modified_at: 2024-10-17
+description: "Ejecuta los comandos una vez en otro momento."
+content_hash: 2861742c30031e06bdfade48c54f076e94e6a4e0
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/common/at.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/at.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/at.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/at.html
@@ -39,18 +42,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># at
 
-Ejecuta comandos una vez en un momento posterior.
-El servicio atd (o atrun) debe estar ejecutándose para las ejecuciones reales.
+Ejecuta los comandos una vez en otro momento.
+Los resultados se enviarán al correo del usuario.
 Más información: <https://manned.org/at>.
 
-- Ejecuta comandos desde la entrada estándar en 5 minutos (pulsa `Ctrl + D` cuando termines):
+- Inicia el servicio (daemon)`atd`:
+
+`systemctl start atd`
+
+- Crea comandos interactivamente y los ejecuta en 5 minutos (pulsa `<Ctrl> + D` cuando termines):
 
 `at now + 5 minutes`
 
-- Ejecuta un comando desde la entrada estándar a las 10:00 AM de hoy:
+- Crea comandos de forma interactiva y los ejecuta a una hora determinada:
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span>`" | at 1000`
+`at `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span>
 
-- Ejecuta comandos desde un archivo dado el próximo martes:
+- Ejecuta un comando de `stdin` a las 10:00 AM de hoy:
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`" | at 1000`
+
+- Ejecuta comandos desde un archivo determinado el próximo martes:
 
 `at -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>` 9:30 PM Tue`

@@ -2,20 +2,14 @@
 layout: page
 title: linux/ncal (norsk)
 description: "Denne kommandoen er et alias for `cal`."
-content_hash: 106cfc937eda2515146b7b70b8c742c0e3ddb281
-last_modified_at: 2023-11-12
+content_hash: 3bb93a1e878d1e50b2aec268691f89b946b9ccae
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,7 +88,6 @@ tldri18n_status: 2
 # ncal
 
 Denne kommandoen er et alias for `cal`.
-Mer informasjon: <https://manned.org/ncal>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

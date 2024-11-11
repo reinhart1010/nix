@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (català)
 description: "Aquest comandament és un àlies de  `gh codespace`."
-content_hash: acb175ea0625cb313f8e9c9d98de92439c494be2
-last_modified_at: 2024-05-09
+content_hash: f3624d8646dc081576a0430ae6807c58b42814c6
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gh cs
 
 Aquest comandament és un àlies de  `gh codespace`.
-Més informació: <https://cli.github.com/manual/gh_codespace>.
 
 - Veure documentació pel comandament original:
 

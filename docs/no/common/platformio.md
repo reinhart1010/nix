@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (norsk)
 description: "Denne kommandoen er et alias for `pio`."
-content_hash: 4304db6736caa4266526eae2895f59773ef94733
-last_modified_at: 2023-11-12
+content_hash: 48611a4501c4327aae50ab5d7056b2fc00caa6e2
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 Denne kommandoen er et alias for `pio`.
-Mer informasjon: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

@@ -2,20 +2,11 @@
 layout: page
 title: windows/cinst (polski)
 description: "To polecenie jest aliasem `choco install`."
-content_hash: 7cc5c2e4b6df3980a8ef0a7d5b9dd4b29ba27b8d
-last_modified_at: 2023-11-12
+content_hash: 3c9ca5af68771d300a995096914369ef4c3df9c8
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cinst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cinst
 
 To polecenie jest aliasem `choco install`.
-Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

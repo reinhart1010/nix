@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (polski)
 description: "To polecenie jest aliasem `Where-Object`."
-content_hash: 3966269c5e8549061a72f510f473d3db4bafd5e0
-last_modified_at: 2023-12-22
+content_hash: 8d05fdf1e356575dcf6c8a8b0f31ef8d3c894cc7
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # pwsh where
 
 To polecenie jest aliasem `Where-Object`.
-Więcej informacji: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

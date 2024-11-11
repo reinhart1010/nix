@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (polski)
 description: "To polecenie jest aliasem `invoke-webrequest`."
-content_hash: cce6044fbc147a27c3b2a5536abe3187237e9c7b
-last_modified_at: 2023-11-12
+content_hash: b58be9d25c21e817d62d1b4275866970235c5c65
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 To polecenie jest aliasem `invoke-webrequest`.
-Więcej informacji: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

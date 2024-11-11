@@ -2,20 +2,14 @@
 layout: page
 title: linux/ncal (Nederlands)
 description: "Dit commando is een alias van `cal`."
-content_hash: e125af2ca2c33e26dc8de78f9099a17bcfab418a
-last_modified_at: 2023-11-12
+content_hash: a3482041c07723bfc2890ac14140af276de0c9cb
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,7 +88,6 @@ tldri18n_status: 2
 # ncal
 
 Dit commando is een alias van `cal`.
-Meer informatie: <https://manned.org/ncal>.
 
 - Bekijk de documentatie van het originele commando:
 

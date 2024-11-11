@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (norsk)
 description: "Denne kommandoen er et alias for `fossil rm`."
-content_hash: fea23506a2e3b9f4bac8a441de1c14e7433877ca
-last_modified_at: 2024-05-09
+content_hash: 3b1bbcb85c563ec73e107c64ab2994877fcb0446
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil delete
 
 Denne kommandoen er et alias for `fossil rm`.
-Mer informasjon: <https://fossil-scm.org/home/help/delete>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

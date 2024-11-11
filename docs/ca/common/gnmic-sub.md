@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (català)
 description: "Aquest comandament és un àlies de `gnmic subscribe`."
-content_hash: 58338fd11477351228e15470cfa556d6bb7ea960
-last_modified_at: 2024-05-09
+content_hash: 9e2b79da82f6ca72f64407887b7585938fb2d81d
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gnmic sub
 
 Aquest comandament és un àlies de `gnmic subscribe`.
-Més informació: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
 - Veure documentació pel comandament original:
 

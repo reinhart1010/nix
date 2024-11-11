@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (norsk)
 description: "Denne kommandoen er et alias for `tlmgr platform`."
-content_hash: 9f8a67eef703db137dd309a0d8ab2486f77139e3
-last_modified_at: 2024-05-09
+content_hash: 2116cb76420110b2bc5b88826399a9299dc15ba4
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # tlmgr arch
 
 Denne kommandoen er et alias for `tlmgr platform`.
-Mer informasjon: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

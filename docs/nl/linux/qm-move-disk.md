@@ -2,18 +2,23 @@
 layout: page
 title: linux/qm-move-disk (Nederlands)
 description: "Dit commando is een alias van `qm disk move`."
-content_hash: 7d0ed921401ba77badb47477c51552c9772f5adb
-last_modified_at: 2023-12-15
+content_hash: 6c59ad3b9a74bdcbbf2becfe53fbf29a37ad766c
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/linux/qm-move-disk.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/qm-move-disk.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/qm-move-disk.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # qm move disk
 
 Dit commando is een alias van `qm disk move`.
-Meer informatie: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Bekijk de documentatie van het originele commando:
 

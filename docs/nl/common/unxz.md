@@ -2,8 +2,8 @@
 layout: page
 title: common/unxz (Nederlands)
 description: "Dit commando is een alias van `xz --decompress`."
-content_hash: 7c989152d0cb8272af1014807ab71600a0aaa62f
-last_modified_at: 2024-11-03
+content_hash: 0bd48d3057476e9d4200d272f2f7f6e1d5fd8ef2
+last_modified_at: 2024-11-11
 related_topics:
   - title: Deutsch version
     url: /de/common/unxz.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # unxz
 
 Dit commando is een alias van `xz --decompress`.
-Meer informatie: <https://manned.org/unxz>.
 
 - Bekijk de documentatie van het originele commando:
 

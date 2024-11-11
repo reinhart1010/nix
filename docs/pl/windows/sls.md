@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (polski)
 description: "To polecenie jest aliasem `Select-String`."
-content_hash: 4a0182c7c27efda18de94f074a284e6975df2e4b
-last_modified_at: 2023-11-12
+content_hash: 3e05e414db8d65b137c33d47a88ec46c31692e8e
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 To polecenie jest aliasem `Select-String`.
-Więcej informacji: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

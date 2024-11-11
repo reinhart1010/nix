@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (polski)
 description: "To polecenie jest aliasem `choco list`."
-content_hash: 208b183cc50a4131ee6502600b1e7dfad05e6512
-last_modified_at: 2023-11-12
+content_hash: 7c75e93c916bad195d3ca2c266990907027faf43
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 To polecenie jest aliasem `choco list`.
-Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

@@ -1,22 +1,10 @@
 ---
 layout: page
 title: windows/rd (polski)
-description: "To polecenie jest aliasem `rmdir`."
-content_hash: e32548fe3bf889d104f6e798a2d7bbc45591cd48
-last_modified_at: 2023-11-12
+description: "To polecenie jest aliasem `rmdir` w Wierszu Poleceń i `Remove-Item` w PowerShell."
+content_hash: 218278c1da4aeaff80aeb5490c5eeea4101df79a
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/windows/rd.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/windows/rd.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/rd.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/rd.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/rd.html
     icon: bi bi-globe
@@ -38,17 +26,8 @@ related_topics:
   - title: italiano version
     url: /it/windows/rd.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/windows/rd.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/windows/rd.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/windows/rd.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/windows/rd.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/windows/rd.html
@@ -56,20 +35,11 @@ related_topics:
   - title: Nederlands version
     url: /nl/windows/rd.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/windows/rd.html
-    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/rd.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/windows/rd.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/windows/rd.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/windows/rd.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/rd.html
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/windows/rd.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/windows/rd.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/rd.html
@@ -96,9 +63,12 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># rd
 
-To polecenie jest aliasem `rmdir`.
-Więcej informacji: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.
+To polecenie jest aliasem `rmdir` w Wierszu Poleceń i `Remove-Item` w PowerShell.
 
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia Wiersza Poleceń:
 
 `tldr rmdir`
+
+- Zobacz dokumentację oryginalnego polecenia PowerShell:
+
+`tldr remove-item`

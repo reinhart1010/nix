@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (català)
 description: "Aquest comandament es un àlies de `fossil commit`."
-content_hash: 8d04a8e9b3574a888107cf94ad86b534b1cb600c
-last_modified_at: 2023-11-12
+content_hash: 560d69f1d592677854d4242d490cb7bd5b0aa870
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil ci
 
 Aquest comandament es un àlies de `fossil commit`.
-Més informació: <https://fossil-scm.org/home/help/commit>.
 
 - Veure documentació per el comandament original:
 

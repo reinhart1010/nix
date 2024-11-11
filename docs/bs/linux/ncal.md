@@ -2,17 +2,11 @@
 layout: page
 title: linux/ncal (bosanski)
 description: "Ova komanda je pseudonim za `cal`."
-content_hash: 959d19faf2677633dc0a7b22f35c33f8a5ae7de1
-last_modified_at: 2023-11-12
+content_hash: 787ace2dacdf0faa23776f0b3d3a7d897f30575d
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,7 +88,6 @@ tldri18n_status: 2
 # ncal
 
 Ova komanda je pseudonim za `cal`.
-Više informacija: <https://manned.org/ncal>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

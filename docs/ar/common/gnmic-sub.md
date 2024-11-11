@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `gnmic subscribe`."
-content_hash: 4d5777c085d23ed82c13bbffeea2e23cd34cc2d0
-last_modified_at: 2024-05-09
+content_hash: ba9f232233961e5f1ae6040142e1d7d84ce2647d
+last_modified_at: 2024-11-11
 related_topics:
   - title: bosanski version
     url: /bs/common/gnmic-sub.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gnmic sub
 
 هذا الأمر هو اسم مستعار لـ `gnmic subscribe`.
-لمزيد من التفاصيل: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
 - إعرض التوثيقات للأمر الأصلي:
 

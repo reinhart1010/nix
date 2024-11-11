@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (Nederlands)
 description: "Dit commando is een alias van `tldr-lint`."
-content_hash: 903113fd4dd79a8f3e331de157fe190b1cb62e54
-last_modified_at: 2023-11-12
+content_hash: ae92b6673c2dda4a11dfb49544758576783e6d0c
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 Dit commando is een alias van `tldr-lint`.
-Meer informatie: <https://github.com/tldr-pages/tldr-lint>.
 
 - Bekijk de documentatie van het originele commando:
 

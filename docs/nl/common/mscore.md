@@ -2,8 +2,8 @@
 layout: page
 title: common/mscore (Nederlands)
 description: "Dit commando is een alias van `musescore`."
-content_hash: 720103192e3b66592debcc6107657d29bece2811
-last_modified_at: 2024-10-10
+content_hash: e372b9f78c5d280ecd34e54dadd596d4694cdb4e
+last_modified_at: 2024-11-11
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -85,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 Dit commando is een alias van `musescore`.
-Meer informatie: <https://musescore.org/handbook/command-line-options>.
 
 - Bekijk de documentatie van het originele commando:
 

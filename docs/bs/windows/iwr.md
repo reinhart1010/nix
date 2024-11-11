@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (bosanski)
 description: "Ova komanda je pseudonim za `invoke-webrequest`."
-content_hash: 214b63d78962eac42fd167d74db95a4e40833f77
-last_modified_at: 2023-11-12
+content_hash: d296ea71a3ce0161323504e523925b2cf8d1e179
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 Ova komanda je pseudonim za `invoke-webrequest`.
-Više informacija: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

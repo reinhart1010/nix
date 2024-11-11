@@ -2,18 +2,9 @@
 layout: page
 title: common/mscore (bosanski)
 description: "Ova komanda je pseudonim za `musescore`."
-content_hash: 80cb4b1a2794f1bc1a015957bfd4d71920c2868c
-last_modified_at: 2023-11-12
+content_hash: f297c2adf77b4528a7294e3ea8e978839b0190ce
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
     icon: bi bi-globe
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 Ova komanda je pseudonim za `musescore`.
-Više informacija: <https://musescore.org/handbook/command-line-options>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

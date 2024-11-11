@@ -2,18 +2,9 @@
 layout: page
 title: common/tldrl (bosanski)
 description: "Ova komanda je pseudonim za `tldr-lint`."
-content_hash: ca3bb6aeb167e5d1051d0484be3bec6c67fb5281
-last_modified_at: 2023-11-12
+content_hash: ff117a1aeb2eedef30497a3e55109ea30362844c
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
     icon: bi bi-globe
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 Ova komanda je pseudonim za `tldr-lint`.
-Više informacija: <https://github.com/tldr-pages/tldr-lint>.
 
 - Pregledaj dokumentaciju za izvornu komandu:
 

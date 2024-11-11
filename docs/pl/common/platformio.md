@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (polski)
 description: "To polecenie jest aliasem `pio`."
-content_hash: e9274ea7b334184036278a5468dc086d85eb932a
-last_modified_at: 2023-11-12
+content_hash: 949dca0d4d60c59cfb8fcf46624357052ebfc14d
+last_modified_at: 2024-11-11
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 To polecenie jest aliasem `pio`.
-Więcej informacji: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

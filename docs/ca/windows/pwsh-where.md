@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (català)
 description: "Aquest comandament és un àlies de `Where-Object`."
-content_hash: 0c36e3bf9e49abbc1828e189e32cd67be1784f6f
-last_modified_at: 2023-12-22
+content_hash: bcb575358631dd3686f7709acfde3f9349cac11a
+last_modified_at: 2024-11-11
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # pwsh where
 
 Aquest comandament és un àlies de `Where-Object`.
-Més informació: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
 
 - Veure documentació pel comandament original:
 

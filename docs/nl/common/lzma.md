@@ -2,8 +2,8 @@
 layout: page
 title: common/lzma (Nederlands)
 description: "Dit commando is een alias van `xz --format=lzma`."
-content_hash: cc185db135f5986d3f73e3fd648cd37a9fe160fb
-last_modified_at: 2024-11-03
+content_hash: c0684a42fe2fe32bba7e876a4781737afa7fe6a9
+last_modified_at: 2024-11-11
 related_topics:
   - title: Deutsch version
     url: /de/common/lzma.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # lzma
 
 Dit commando is een alias van `xz --format=lzma`.
-Meer informatie: <https://manned.org/lzma>.
 
 - Bekijk de documentatie van het originele commando:
 

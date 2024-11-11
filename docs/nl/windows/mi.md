@@ -2,18 +2,20 @@
 layout: page
 title: windows/mi (Nederlands)
 description: "In PowerShell is dit commando een alias van `move-item`."
-content_hash: f8f2790a23dab58a83ef7615ba262408cad1362f
-last_modified_at: 2023-12-05
+content_hash: 8e05b8be3c39833b066c919e0995fab37cad6c1a
+last_modified_at: 2024-11-11
 related_topics:
   - title: English version
     url: /en/windows/mi.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/mi.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # mi
 
 In PowerShell is dit commando een alias van `move-item`.
-Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/move-item>.
 
 - Bekijk de documentatie van het originele commando:
 
