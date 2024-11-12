@@ -2,8 +2,8 @@
 layout: page
 title: common/core-validate-commit (한국어)
 description: "Node.js 코어에 대한 커밋 메시지를 확인."
-content_hash: bf2bc1b72059b168de8c6505bd28e92e8291e277
-last_modified_at: 2024-09-30
+content_hash: 5a6421dcde2599b30664411e3af7ef3c4ab77e69
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/common/core-validate-commit.html
@@ -21,11 +21,11 @@ Node.js 코어에 대한 커밋 메시지를 확인.
 
 - 특정 커밋을 확인:
 
-`core-validate-commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해쉬</span>
+`core-validate-commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해시</span>
 
 - 다양한 커밋의 유효성을 검사:
 
-`git rev-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해쉬</span>`..HEAD | xargs core-validate-commit`
+`git rev-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해시</span>`..HEAD | xargs core-validate-commit`
 
 - 모든 유효성 검사 규칙을 나열:
 

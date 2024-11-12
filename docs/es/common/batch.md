@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/batch (español)
-description: "Este es un comando alias de `at`."
-content_hash: 1598d6b97741e634495bf956aa0ec760eda21150
-last_modified_at: 2024-10-25
+description: "Este comando es un alias de `at`."
+content_hash: 8e27bfd776fd5140c8abe0289676b56eb802044f
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -30,8 +30,8 @@ tldri18n_status: 2
 ---
 # batch
 
-Este es un comando alias de `at`.
+Este comando es un alias de `at`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
 `tldr at`

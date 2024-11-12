@@ -2,8 +2,8 @@
 layout: page
 title: common/gitlab-runner (한국어)
 description: "GitLab 실행기 관리."
-content_hash: eded089c38a7015c3009528d84f7d605a3a3a0a5
-last_modified_at: 2024-10-24
+content_hash: 9ea9595ae57c6d5ae4ddabea16921381b1dcdc87
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/common/gitlab-runner.html
@@ -30,7 +30,7 @@ GitLab 실행기 관리.
 
 `sudo gitlab-runner unregister --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span>
 
-- 실행기 서비스 상태릂 표시:
+- 실행기 서비스 상태를 표시:
 
 `sudo gitlab-runner status`
 

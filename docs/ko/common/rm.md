@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (한국어)
 description: "파일 혹은 폴더를 삭제."
-content_hash: 185366deafb87a8addd556655384cdccfa42c089
-last_modified_at: 2023-12-29
+content_hash: 65b4f1a1cbb49d1614e2c41233927b3eb0bdf6bc
+last_modified_at: 2024-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -49,20 +49,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># rm
 
 파일 혹은 폴더를 삭제.
+참고: `rmdir`.
 더 많은 정보: <https://www.gnu.org/software/coreutils/rm>.
 
-- 임의의 경로에서 파일을 제거:
+- 특정 파일 삭제:
 
-`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일의/경로 다른/파일의/경로 ...</span>
+`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 ...</span>
 
-- 여라개의 파일을 하나씩 확인받으면서 제거:
+- 존재하지 않는 파일은 무시하고 특정 파일 삭제:
 
-`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일들</span>
+`rm -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 ...</span>
 
-- 상세화면과 함께 파일을 제거, 삭제된 파일에 대해 메시지를 출력함:
+- 삭제하기 전에 각각의 파일 삭제 여부를 확인:
 
-`rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">폴더의/경로/*</span>
+`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 ...</span>
 
-- 재귀적으로 폴더와 그 폴더내의 하위폴더들을 모두 제거:
+- 각 파일 삭제 시 삭제 정보 출력:
 
-`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">폴더의/경로</span>
+`rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 ...</span>
+
+- 특정 파일 및 디렉터리를 재귀적으로 삭제:
+
+`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_혹은_디렉토리1 파일_혹은_디렉토리2 ...</span>

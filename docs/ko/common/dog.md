@@ -2,8 +2,8 @@
 layout: page
 title: common/dog (한국어)
 description: "DNS 조회 유틸리티."
-content_hash: 8da74f44e27ce185bc5f38d99e65f2b2cb8b6efd
-last_modified_at: 2024-10-17
+content_hash: 6a90f90147aa8ef4e5da8dd415ef18985837b11f
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/common/dog.html
@@ -39,6 +39,6 @@ DNS 조회 유틸리티.
 
 `dog --query `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` --type MX --nameserver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1</span>` --tcp`
 
-- DoH(DNS over HTTPS)를 사용하여 호스트 이름(A 레코드)과 연견된 IP를 조회:
+- DoH(DNS over HTTPS)를 사용하여 호스트 이름(A 레코드)과 연결된 IP를 조회:
 
 `dog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` --https @`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://cloudflare-dns.com/dns-query</span>

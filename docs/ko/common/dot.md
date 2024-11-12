@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/dot (한국어)
-description: "방향 그래프의 레이어 도면을 생성하는 명령 도구입니다."
-content_hash: 42cf6f5e0a332bb3f5d9d931594942169e90b70a
-last_modified_at: 2023-11-12
+description: "`graphviz` 파일로부터 `선형 방향` 네트워크 그래프를 렌더링."
+content_hash: 81d4506138ec56a6c63d9e2b91f51f5e69bbbbd4
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/common/dot.html
@@ -18,13 +18,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># dot
 
-방향 그래프의 레이어 도면을 생성하는 명령 도구입니다.
+`graphviz` 파일로부터 `선형 방향` 네트워크 그래프를 렌더링.
+레이아웃: `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage`, `patchwork`.
 더 많은 정보: <https://graphviz.org/doc/info/command.html>.
 
-- 입력 파일 이름과 선택한 포맷을 기반으로 이미지 파일을 랜더링하고 출력파일 이름 결정하기:
+- 입력 파일명과 출력 포맷에 기반한 파일명으로 PNG 이미지 렌더링(대문자 -O 사용):
 
-`dot -Tpng -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명.dot</span>
+`dot -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png</span>` -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일명.gv</span>
 
-- DOT 파일로부터 SVG 생성하기:
+- 지정된 출력 파일명으로 SVG 이미지 렌더링(소문자 -o 사용):
 
-`dot -Tsvg -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/출력_파일명.svg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명.dot</span>
+`dot -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">svg</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.svg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일명.gv</span>
+
+- PS, PDF, SVG, Fig, PNG, GIF, JPEG, JSON, DOT 포맷으로 출력물을 렌더링:
+
+`dot -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span>` -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일명.gv</span>
+
+- `stdin`과 `stdout`을 사용해 GIF 이미지를 렌더링:
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">digraph {this -> that} </span>`" | dot -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gif</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.gif</span>
+
+- 도움말을 표시:
+
+`dot -?`

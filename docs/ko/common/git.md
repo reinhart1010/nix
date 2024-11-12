@@ -2,8 +2,8 @@
 layout: page
 title: common/git (한국어)
 description: "분산 버전 관리 시스템."
-content_hash: 6c68acd256e2a38ae5ee764dee3122e51c2e7eef
-last_modified_at: 2024-10-13
+content_hash: 1241788f0611c82d046e80415fef39beb02f8549
+last_modified_at: 2024-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -76,7 +76,7 @@ tldri18n_status: 2
 
 - 하위 명령어 도움말 출력 (`clone`, `add`, `push`, `log`, 등등):
 
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명렁어</span>
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명령어</span>
 
 - Git 버전 확인:
 

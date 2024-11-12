@@ -2,8 +2,8 @@
 layout: page
 title: windows/remove-item (한국어)
 description: "파일, 폴더, 레지스트리 키 및 하위 키를 삭제합니다."
-content_hash: 1f1eabb49c1aad27f78b64bc0773457600d64810
-last_modified_at: 2024-10-26
+content_hash: f0848e60e90bdec272373b235d3d5766e6c879dc
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/windows/remove-item.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 
 `Remove-Item -Force `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일1 , 경로\대상\파일2 ...</span>
 
-- 특정 파일 또는 레지스트리 키를 각 삭제 전에 확인 메세지를 표시:
+- 특정 파일 또는 레지스트리 키를 각 삭제 전에 확인 메시지를 표시:
 
 `Remove-Item -Confirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일_또는_키1 , 경로\대상\파일_또는_키2 ...</span>
 

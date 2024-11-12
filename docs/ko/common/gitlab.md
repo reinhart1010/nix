@@ -2,8 +2,8 @@
 layout: page
 title: common/gitlab (한국어)
 description: "GitLab API용 Ruby 래퍼."
-content_hash: 5203c57cd47e5bae2226e16a55fc5662559b43ed
-last_modified_at: 2024-10-24
+content_hash: 4fdc2c546b72b6d40bfb61e87bccf7848d412c1e
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/common/gitlab.html
@@ -25,7 +25,7 @@ GitLab API용 Ruby 래퍼.
 
 - 특정 커밋에 대한 정보를 얻기:
 
-`gitlab commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해쉬</span>
+`gitlab commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해시</span>
 
 - CI 파이프라인의 작업에 대한 정보를 얻기:
 

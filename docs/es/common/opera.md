@@ -1,18 +1,21 @@
 ---
 layout: page
-title: linux/mount.smb3 (español)
-description: "Este comando es un alias de `mount.cifs`."
-content_hash: e83e500823241d2c9278f7197a5b3aa04f820185
+title: common/opera (español)
+description: "Este comando es un alias de `chromium`."
+content_hash: 676f1e5758a579ab43f020daab5abcfc07ea0148
 last_modified_at: 2024-11-12
 related_topics:
   - title: English version
-    url: /en/linux/mount.smb3.html
+    url: /en/common/opera.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/opera.html
     icon: bi bi-globe
   - title: 한국어 version
-    url: /ko/linux/mount.smb3.html
+    url: /ko/common/opera.html
     icon: bi bi-globe
   - title: Nederlands version
-    url: /nl/linux/mount.smb3.html
+    url: /nl/common/opera.html
     icon: bi bi-globe
 tldri18n_status: 0
 ---
@@ -22,14 +25,14 @@ This entry is currently considered outdated and its contents may not be up-to-da
 
 Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
 
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/mount.smb3.html">View original (English) version</a>
+<a class="btn btn-primary" href="{{ site.url }}/en/common/opera.html">View original (English) version</a>
 <a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
-<hr># mount.smb3
+<hr># opera
 
-Este comando es un alias de `mount.cifs`.
-Nota: para las versiones SMB anteriores a la 3, se debe utilizar `mount.cifs`.
+Este comando es un alias de `chromium`.
+Más información: <https://opera.com>.
 
 - Vea la documentación para el comando original:
 
-`tldr mount.cifs`
+`tldr chromium`

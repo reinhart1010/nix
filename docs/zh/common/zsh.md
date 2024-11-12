@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/zsh (中文)
-description: "Z SHell."
-content_hash: ba42631c9072ed252bde988d602909dc070db96e
-last_modified_at: 2023-11-12
+description: "Z SHell，一个兼容 Bash 的命令行解释器。"
+content_hash: f12fb42511e1939743179f50e7971c6c9f64389c
+last_modified_at: 2024-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -20,6 +20,9 @@ related_topics:
   - title: italiano version
     url: /it/common/zsh.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/zsh.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/zsh.html
     icon: bi bi-globe
@@ -33,22 +36,38 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># zsh
 
-Z SHell.
-与 `bash` 和 `sh` 兼容的命令行解释器。
+Z SHell，一个兼容 Bash 的命令行解释器。
+参见：`bash`，`histexpand`.
 更多信息：<https://www.zsh.org>.
 
 - 启动交互式解释器：
 
 `zsh`
 
-- 执行从参数传入的命令：
+- 执行指定的命令：
 
-`zsh -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`zsh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span>`"`
 
-- 从文件执行命令（脚本）：
+- 执行指定的脚本：
 
-`zsh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`zsh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/脚本.zsh</span>
 
-- 从文件执行命令并将执行过的命令打印到终端：
+- 不执行指定的脚本，只检查其语法错误：
 
-`zsh -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`zsh --no-exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/脚本.zsh</span>
+
+- 执行来自 `stdin` 的命令：
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span>` | zsh`
+
+- 执行指定的脚本，并打印出每一个将要执行的命令：
+
+`zsh --xtrace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/脚本.zsh</span>
+
+- 启动详细模式的交互式解释器，会打印出每一个将要执行的命令：
+
+`zsh --verbose`
+
+- 在 `zsh` 里执行指定的命令，但禁用 glob 模式：
+
+`noglob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>

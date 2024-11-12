@@ -1,21 +1,12 @@
 ---
 layout: page
 title: common/piodebuggdb (español)
-description: "Este comando es un alias de `pio debug`."
-content_hash: e77a3d5e86faeaeb3245662b3616b0c7b6d01333
-last_modified_at: 2024-01-07
+description: "Este comando es un alias de `pio debug --interface=gdb`."
+content_hash: b5a6646f01b1678dfe6883039010d1e355dc7174
+last_modified_at: 2024-11-12
 related_topics:
-  - title: العربية version
-    url: /ar/common/piodebuggdb.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/piodebuggdb.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/piodebuggdb.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/piodebuggdb.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/piodebuggdb.html
@@ -46,9 +37,6 @@ related_topics:
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/piodebuggdb.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/common/piodebuggdb.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/piodebuggdb.html
@@ -93,8 +81,8 @@ tldri18n_status: 2
 ---
 # piodebuggdb
 
-Este comando es un alias de `pio debug`.
+Este comando es un alias de `pio debug --interface=gdb`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
 `tldr pio debug`
