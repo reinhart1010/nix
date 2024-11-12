@@ -3,7 +3,7 @@ layout: page
 title: windows/rd (polski)
 description: "To polecenie jest aliasem `rmdir` w Wierszu Poleceń i `Remove-Item` w PowerShell."
 content_hash: 218278c1da4aeaff80aeb5490c5eeea4101df79a
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/rd.html
@@ -56,12 +56,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rd
+# rd
 
 To polecenie jest aliasem `rmdir` w Wierszu Poleceń i `Remove-Item` w PowerShell.
 

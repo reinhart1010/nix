@@ -3,23 +3,14 @@ layout: page
 title: linux/switch_root (한국어)
 description: "다른 파일 시스템을 마운트 트리의 루트로 사용."
 content_hash: 0fa32265964684ca20588bf26c2b299f551ff61b
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/switch_root.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/switch_root.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># switch_root
+# switch_root
 
 다른 파일 시스템을 마운트 트리의 루트로 사용.
 참고: 새 루트가 마운트의 루트가 아닌 경우, switch_root는 작동하지 않습니다. 바인드 마운트를 사용하여 이를 해결할 수 있습니다.

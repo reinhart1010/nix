@@ -3,7 +3,7 @@ layout: page
 title: common/at (español)
 description: "Ejecuta los comandos una vez en otro momento."
 content_hash: 2861742c30031e06bdfade48c54f076e94e6a4e0
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># at
+# at
 
 Ejecuta los comandos una vez en otro momento.
 Los resultados se enviarán al correo del usuario.

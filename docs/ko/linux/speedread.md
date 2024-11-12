@@ -3,23 +3,14 @@ layout: page
 title: linux/speedread (한국어)
 description: "간단한 터미널 기반 오픈 소스 Spritz 유사 도구."
 content_hash: b00c2d7139cf694e080c71bfc57b63a23511b877
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/speedread.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/speedread.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># speedread
+# speedread
 
 간단한 터미널 기반 오픈 소스 Spritz 유사 도구.
 입력된 텍스트를 단어별 RSVP(빠른 연속 시각적 표시)로 최적의 읽기 지점에 맞춰 표시하여, 눈이 한 곳에 고정된 상태에서 일반적인 속도보다 훨씬 빠르게 텍스트를 읽을 수 있게 합니다.

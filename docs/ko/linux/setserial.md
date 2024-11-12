@@ -3,23 +3,14 @@ layout: page
 title: linux/setserial (한국어)
 description: "시리얼 포트 정보를 읽고 수정합니다."
 content_hash: 316a573f34926445186541ca61edac630c8a1b37
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/setserial.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/setserial.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># setserial
+# setserial
 
 시리얼 포트 정보를 읽고 수정합니다.
 더 많은 정보: <https://manned.org/setserial>.

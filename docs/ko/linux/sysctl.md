@@ -3,7 +3,7 @@ layout: page
 title: linux/sysctl (한국어)
 description: "커널 런타임 변수를 나열하고 변경합니다."
 content_hash: dbb71e45ccd33dee9be11ae0b58805f16f62891c
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/sysctl.html
@@ -14,18 +14,9 @@ related_topics:
   - title: français version
     url: /fr/linux/sysctl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/sysctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sysctl
+# sysctl
 
 커널 런타임 변수를 나열하고 변경합니다.
 더 많은 정보: <https://manned.org/sysctl.8>.

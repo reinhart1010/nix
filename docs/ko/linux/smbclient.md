@@ -3,7 +3,7 @@ layout: page
 title: linux/smbclient (한국어)
 description: "서버의 SMB/CIFS 리소스에 접근하기 위한 FTP 유사 클라이언트."
 content_hash: 73421a52042513ffaffbfd99b228c839d06ce32b
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/smbclient.html
@@ -11,18 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/linux/smbclient.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/smbclient.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># smbclient
+# smbclient
 
 서버의 SMB/CIFS 리소스에 접근하기 위한 FTP 유사 클라이언트.
 더 많은 정보: <https://manned.org/smbclient>.

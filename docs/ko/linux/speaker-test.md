@@ -3,23 +3,14 @@ layout: page
 title: linux/speaker-test (한국어)
 description: "ALSA를 위한 스피커 테스트 톤 생성기."
 content_hash: eaea81cef67be0fbdb98af5134d02fc7a12c076f
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/speaker-test.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/speaker-test.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># speaker-test
+# speaker-test
 
 ALSA를 위한 스피커 테스트 톤 생성기.
 같이 보기: `aplay`, `arecord`, `amixer`.

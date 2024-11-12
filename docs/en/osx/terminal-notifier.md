@@ -2,11 +2,14 @@
 layout: page
 title: osx/terminal-notifier (English)
 description: "Send macOS User Notifications."
-content_hash: 6b587226575958b1eaedff9e26f2bde04ce5b705
-last_modified_at: 2023-11-12
+content_hash: 667ae801627faaf1b7592c19ff0c67a3a9f22bf9
+last_modified_at: 2024-11-12
 related_topics:
   - title: español version
     url: /es/osx/terminal-notifier.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/terminal-notifier.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -29,4 +32,4 @@ More information: <https://github.com/julienXX/terminal-notifier>.
 
 - Open an app when the notification is clicked:
 
-`terminal-notifier -message '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Imported 42 contacts.</span>`'  -activate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.AddressBook</span>
+`terminal-notifier -message '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Imported 42 contacts.</span>`' -activate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.AddressBook</span>

@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (українська)
 description: "Ця команда є псевдонімом для `tldr-lint`."
-content_hash: 4f0e7f1c8a772eed1d5862d33fb880e29289015a
-last_modified_at: 2023-11-12
+content_hash: 8646bb7d543732ce952138228b4615aba3411422
+last_modified_at: 2024-11-12
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 Ця команда є псевдонімом для `tldr-lint`.
-Більше інформації: <https://github.com/tldr-pages/tldr-lint>.
 
 - Дивись документацію для оригінальної команди:
 

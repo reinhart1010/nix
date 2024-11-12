@@ -3,23 +3,14 @@ layout: page
 title: linux/snmpwalk (한국어)
 description: "SNMP 쿼리 도구."
 content_hash: d59e3c6f75a96b5b36a0e1f371a525ddc821b971
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/snmpwalk.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/snmpwalk.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># snmpwalk
+# snmpwalk
 
 SNMP 쿼리 도구.
 더 많은 정보: <https://manned.org/snmpwalk>.

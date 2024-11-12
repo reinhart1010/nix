@@ -3,23 +3,14 @@ layout: page
 title: linux/ss (한국어)
 description: "소켓을 조사하는 유틸리티."
 content_hash: daefea364312b11d9a05881f7a37394bcb416b3a
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/ss.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ss.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ss
+# ss
 
 소켓을 조사하는 유틸리티.
 더 많은 정보: <https://manned.org/ss.8>.

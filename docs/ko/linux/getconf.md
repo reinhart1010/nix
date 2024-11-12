@@ -3,23 +3,14 @@ layout: page
 title: linux/getconf (한국어)
 description: "Linux 시스템에서 구성 값을 가져옵니다."
 content_hash: 8af52cbf858fd55fd803f897da4c12b8dd08e4e2
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/getconf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/getconf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># getconf
+# getconf
 
 Linux 시스템에서 구성 값을 가져옵니다.
 더 많은 정보: <https://manned.org/getconf.1>.

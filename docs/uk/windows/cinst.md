@@ -2,20 +2,11 @@
 layout: page
 title: windows/cinst (українська)
 description: "Ця команда є псевдонімом для `choco install`."
-content_hash: 6b2d91ad0acd2d7f708d37763811b5ed03bda12d
-last_modified_at: 2023-11-12
+content_hash: 8169c9c3f9442b5bc2f7ab1eae7dc38a12e3628c
+last_modified_at: 2024-11-12
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cinst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cinst
 
 Ця команда є псевдонімом для `choco install`.
-Більше інформації: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Дивись документацію для оригінальної команди:
 

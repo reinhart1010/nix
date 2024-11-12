@@ -3,23 +3,14 @@ layout: page
 title: linux/gcov (한국어)
 description: "프로그램의 테스트되지 않은 부분을 발견하는 코드 커버리지 분석 및 프로파일링 도구."
 content_hash: c5028b5fdb83b991623759db9b8fbc8157e6f3c1
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/gcov.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/gcov.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcov
+# gcov
 
 프로그램의 테스트되지 않은 부분을 발견하는 코드 커버리지 분석 및 프로파일링 도구.
 코드 세그먼트의 실행 빈도로 주석이 추가된 소스 코드의 복사본도 표시합니다.

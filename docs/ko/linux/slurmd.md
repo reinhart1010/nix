@@ -3,23 +3,14 @@ layout: page
 title: linux/slurmd (한국어)
 description: "컴퓨트 노드에서 실행 중인 모든 작업을 모니터링하고, 작업을 수락, 실행 및 요청 시 실행 중인 작업을 종료합니다."
 content_hash: 306efea27ee46c1d73e204c44aeb27c26523a0b7
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/slurmd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/slurmd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># slurmd
+# slurmd
 
 컴퓨트 노드에서 실행 중인 모든 작업을 모니터링하고, 작업을 수락, 실행 및 요청 시 실행 중인 작업을 종료합니다.
 더 많은 정보: <https://slurm.schedmd.com/slurmd.html>.

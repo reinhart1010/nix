@@ -3,23 +3,14 @@ layout: page
 title: linux/slapt-get (한국어)
 description: "Slackware 패키지 관리를 위한 `apt`와 유사한 시스템."
 content_hash: fce97c0c7fbcfbe5801fbd5cddcdcb3f4e069f28
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/slapt-get.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/slapt-get.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># slapt-get
+# slapt-get
 
 Slackware 패키지 관리를 위한 `apt`와 유사한 시스템.
 slapt-getrc 파일에서 패키지 소스를 구성해야 합니다.

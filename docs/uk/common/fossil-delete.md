@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (українська)
 description: "Ця команда є псевдонімом для `fossil rm`."
-content_hash: ac7abb61230dd287fff56a43f11313f41386f7db
-last_modified_at: 2024-05-09
+content_hash: 67782737ce04f156c26b219e46da9342bbda9135
+last_modified_at: 2024-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil delete
 
 Ця команда є псевдонімом для `fossil rm`.
-Більше інформації: <https://fossil-scm.org/home/help/delete>.
 
 - Дивись документацію для оригінальної команди:
 

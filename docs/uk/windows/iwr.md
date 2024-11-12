@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (українська)
 description: "Ця команда є псевдонімом для `invoke-webrequest`."
-content_hash: 2e986faff1cb639236d11f7dc1741ed8ac4c7c2c
-last_modified_at: 2023-11-12
+content_hash: 6e328f7d2de84f76411c1bc4ed2a77b6509fea0a
+last_modified_at: 2024-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 Ця команда є псевдонімом для `invoke-webrequest`.
-Більше інформації: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Дивись документацію для оригінальної команди:
 

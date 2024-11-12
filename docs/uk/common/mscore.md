@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (українська)
 description: "Ця команда є псевдонімом для `musescore`."
-content_hash: 632318c98413de42b8be04f9809b4b588f28a8b0
-last_modified_at: 2023-11-12
+content_hash: fe2405d36119f25f1856d3270b606cf750262c72
+last_modified_at: 2024-11-12
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 Ця команда є псевдонімом для `musescore`.
-Більше інформації: <https://musescore.org/handbook/command-line-options>.
 
 - Дивись документацію для оригінальної команди:
 

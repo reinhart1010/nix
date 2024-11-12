@@ -3,23 +3,14 @@ layout: page
 title: linux/secret-tool (한국어)
 description: "`libsecret` 패키지의 일부로 비밀번호를 저장하고 검색."
 content_hash: c55a24a1618ca42185ef4025819617d0f03872cd
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/secret-tool.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/secret-tool.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># secret-tool
+# secret-tool
 
 `libsecret` 패키지의 일부로 비밀번호를 저장하고 검색.
 `gnome-keyring`과 같은 Freedesktop 비밀 서비스 구현과 통신.

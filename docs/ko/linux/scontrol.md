@@ -3,23 +3,14 @@ layout: page
 title: linux/scontrol (한국어)
 description: "작업에 대한 정보를 보고 수정합니다."
 content_hash: 00003a3dbd8ad0cd95ca31cfbd45c106ccd1d3e7
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/scontrol.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/scontrol.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># scontrol
+# scontrol
 
 작업에 대한 정보를 보고 수정합니다.
 더 많은 정보: <https://slurm.schedmd.com/scontrol.html>.

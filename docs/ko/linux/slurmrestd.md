@@ -3,23 +3,14 @@ layout: page
 title: linux/slurmrestd (한국어)
 description: "REST API를 통해 Slurm에 인터페이스를 제공하는 도구입니다. *Inetd 모드* 및 *Listen 모드*에서 사용할 수 있습니다."
 content_hash: 0feaab059d3fa285f1403e4a2288b91922736f2b
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/slurmrestd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/slurmrestd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># slurmrestd
+# slurmrestd
 
 REST API를 통해 Slurm에 인터페이스를 제공하는 도구입니다. *Inetd 모드* 및 *Listen 모드*에서 사용할 수 있습니다.
 더 많은 정보: <https://slurm.schedmd.com/slurmrestd.html>.

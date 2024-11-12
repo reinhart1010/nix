@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (українська)
 description: "Ця команда є псевдонімом для `tlmgr platform`."
-content_hash: 0470a3b7ec271990e1deb0f60f79c885c6610dbd
-last_modified_at: 2024-05-09
+content_hash: d5ac78289553e9b699761848f28f40cbc0be0e2d
+last_modified_at: 2024-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # tlmgr arch
 
 Ця команда є псевдонімом для `tlmgr platform`.
-Більше інформації: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Дивись документацію для оригінальної команди:
 

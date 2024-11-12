@@ -3,7 +3,7 @@ layout: page
 title: common/df (español)
 description: "Muestra una visión general del uso del espacio en disco del sistema de archivos."
 content_hash: ae4d43cc89a1038aee2520623986a4f988c84fb8
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/df.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># df
+# df
 
 Muestra una visión general del uso del espacio en disco del sistema de archivos.
 Más información: <https://manned.org/df.1posix>.

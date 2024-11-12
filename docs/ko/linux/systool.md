@@ -3,7 +3,7 @@ layout: page
 title: linux/systool (한국어)
 description: "버스 및 클래스별 시스템 장치 정보를 확인합니다."
 content_hash: fa631528454067245cfbddc2c209075661dbfb86
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/systool.html
@@ -11,18 +11,9 @@ related_topics:
   - title: español version
     url: /es/linux/systool.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/systool.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># systool
+# systool
 
 버스 및 클래스별 시스템 장치 정보를 확인합니다.
 이 명령어는 `sysfs` 패키지의 일부입니다.

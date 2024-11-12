@@ -3,23 +3,14 @@ layout: page
 title: linux/guix-package (한국어)
 description: "Guix 패키지를 설치, 업그레이드, 제거하거나 이전 구성으로 롤백합니다."
 content_hash: 985fa18119fdb78c5716bef527f91f2791566c25
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/guix-package.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/guix-package.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># guix package
+# guix package
 
 Guix 패키지를 설치, 업그레이드, 제거하거나 이전 구성으로 롤백합니다.
 더 많은 정보: <https://guix.gnu.org/manual/html_node/Invoking-guix-package.html>.

@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (українська)
 description: "Ця команда є псевдонімом для `Where-Object`."
-content_hash: 297899284d330234bcf77055d4befd4bc01339f0
-last_modified_at: 2023-12-22
+content_hash: cb661973082b40f0cf0f520599a6a4ad714fe862
+last_modified_at: 2024-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # pwsh where
 
 Ця команда є псевдонімом для `Where-Object`.
-Більше інформації: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
 
 - Дивись документацію для оригінальної команди:
 

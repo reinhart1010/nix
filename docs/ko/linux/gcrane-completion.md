@@ -3,7 +3,7 @@ layout: page
 title: linux/gcrane-completion (한국어)
 description: "지정된 셸에 대한 gcrane 자동 완성 스크립트를 생성합니다."
 content_hash: cd96cb53f656582bacae2c9a86f016a95db5f16b
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/gcrane-completion.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/gcrane-completion.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/gcrane-completion.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcrane completion
+# gcrane completion
 
 지정된 셸에 대한 gcrane 자동 완성 스크립트를 생성합니다.
 사용 가능한 셸은 `bash`, `fish`, `powershell`, `zsh`입니다.

@@ -3,23 +3,14 @@ layout: page
 title: linux/strace (한국어)
 description: "시스템 호출을 추적하는 문제 해결 도구."
 content_hash: d50838ef4ec93faf6f89cbfc6c22a8840c5b72a1
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/strace.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/strace.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># strace
+# strace
 
 시스템 호출을 추적하는 문제 해결 도구.
 더 많은 정보: <https://manned.org/strace>.

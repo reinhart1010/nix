@@ -3,23 +3,14 @@ layout: page
 title: linux/sensible-editor (한국어)
 description: "기본 편집기를 엽니다."
 content_hash: e901cec823e78a32513f72239620ff4c94f500fc
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/sensible-editor.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/sensible-editor.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sensible-editor
+# sensible-editor
 
 기본 편집기를 엽니다.
 더 많은 정보: <https://manned.org/sensible-editor>.

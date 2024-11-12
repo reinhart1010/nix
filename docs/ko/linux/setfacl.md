@@ -3,23 +3,14 @@ layout: page
 title: linux/setfacl (한국어)
 description: "파일 접근 제어 목록(ACL) 설정."
 content_hash: b733dd745c1da817bbd26ed99771fee42a3a4fca
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/setfacl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/setfacl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># setfacl
+# setfacl
 
 파일 접근 제어 목록(ACL) 설정.
 더 많은 정보: <https://manned.org/setfacl>.

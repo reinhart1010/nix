@@ -3,23 +3,14 @@ layout: page
 title: linux/sattach (한국어)
 description: "Slurm 작업 단계에 연결."
 content_hash: 8d44653b73cdde8198ff4b0e4cdee1c988acc642
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/sattach.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/sattach.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sattach
+# sattach
 
 Slurm 작업 단계에 연결.
 더 많은 정보: <https://slurm.schedmd.com/sattach.html>.

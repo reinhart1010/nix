@@ -3,23 +3,14 @@ layout: page
 title: linux/strigger (한국어)
 description: "Slurm 트리거 정보를 조회하거나 수정합니다."
 content_hash: 6d0ffa0c7e3755cbd46939ce1d60b995eae82194
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/strigger.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/strigger.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># strigger
+# strigger
 
 Slurm 트리거 정보를 조회하거나 수정합니다.
 트리거는 Slurm 클러스터에서 이벤트가 발생할 때 자동으로 실행되는 작업입니다.

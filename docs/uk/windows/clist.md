@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (українська)
 description: "Ця команда є псевдонімом для `choco list`."
-content_hash: a1c15deb8db5bac6262e98be8f83c6f5437ef2d1
-last_modified_at: 2023-11-12
+content_hash: aa35f0f9f757a55eb0b5068250e09243a51f1e24
+last_modified_at: 2024-11-12
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 Ця команда є псевдонімом для `choco list`.
-Більше інформації: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Дивись документацію для оригінальної команди:
 

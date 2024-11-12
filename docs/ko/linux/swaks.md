@@ -3,23 +3,14 @@ layout: page
 title: linux/swaks (한국어)
 description: "스위스 아미 나이프 SMTP, 다목적 SMTP 트랜잭션 테스터."
 content_hash: 2023f395daa889d7f403fb5ca532d3b0ad06bb5c
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/swaks.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/swaks.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># swaks
+# swaks
 
 스위스 아미 나이프 SMTP, 다목적 SMTP 트랜잭션 테스터.
 더 많은 정보: <https://github.com/jetmore/swaks/blob/develop/doc/base.pod>.

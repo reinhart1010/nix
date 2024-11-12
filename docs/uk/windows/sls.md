@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (українська)
 description: "Ця команда є псевдонімом для `Select-String`."
-content_hash: ba4f054aae18356a0e225ea1fd8271f34f3f0552
-last_modified_at: 2023-11-12
+content_hash: c87adaa2c7cd7e38eeefdf8f1903bda2a869932c
+last_modified_at: 2024-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 Ця команда є псевдонімом для `Select-String`.
-Більше інформації: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Дивись документацію для оригінальної команди:
 

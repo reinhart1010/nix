@@ -3,7 +3,7 @@ layout: page
 title: linux/gnome-software (한국어)
 description: "애플리케이션을 추가 및 제거하고 시스템을 업데이트합니다."
 content_hash: 14d8c2e33836d2611ad04bff61103d96eeb8ae3d
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/gnome-software.html
@@ -11,18 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/gnome-software.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/gnome-software.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gnome-software
+# gnome-software
 
 애플리케이션을 추가 및 제거하고 시스템을 업데이트합니다.
 더 많은 정보: <https://apps.gnome.org/app/org.gnome.Software/>.

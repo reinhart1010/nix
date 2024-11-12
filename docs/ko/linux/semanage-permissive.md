@@ -3,7 +3,7 @@ layout: page
 title: linux/semanage-permissive (한국어)
 description: "지속적인 SELinux 허용 도메인 관리."
 content_hash: af12870395940e639ede0e8fc5c4845538aa520c
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/semanage-permissive.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/semanage-permissive.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/semanage-permissive.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># semanage permissive
+# semanage permissive
 
 지속적인 SELinux 허용 도메인 관리.
 이로 인해 프로세스가 비구속 상태가 될 수 있으므로, 장기적으로 사용할 경우 SELinux를 올바르게 구성하는 것이 좋습니다.

@@ -3,23 +3,14 @@ layout: page
 title: linux/getopt (한국어)
 description: "명령줄 인수를 파싱합니다."
 content_hash: f0b7a1998e1e7d219d9d79fbad2904a131241558
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/getopt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/getopt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># getopt
+# getopt
 
 명령줄 인수를 파싱합니다.
 더 많은 정보: <https://www.gnu.org/software/libc/manual/html_node/Getopt.html>.

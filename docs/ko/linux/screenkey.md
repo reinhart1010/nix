@@ -3,23 +3,14 @@ layout: page
 title: linux/screenkey (한국어)
 description: "키 입력을 화면에 표시하는 스크린캐스트 도구."
 content_hash: 8cf317a79c726f5541861a69436a249610ddd4ad
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 related_topics:
   - title: English version
     url: /en/linux/screenkey.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/screenkey.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># screenkey
+# screenkey
 
 키 입력을 화면에 표시하는 스크린캐스트 도구.
 더 많은 정보: <https://www.thregr.org/~wavexx/software/screenkey/>.
