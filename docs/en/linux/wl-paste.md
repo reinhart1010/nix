@@ -2,9 +2,12 @@
 layout: page
 title: linux/wl-paste (English)
 description: "Paste content in Wayland clipboard."
-content_hash: 8e6741d93f6a7b172f35b8bb95e717d240b7741f
-last_modified_at: 2024-02-15
+content_hash: dfd6f87ee59743ac084b3ecd6a94383d5be24321
+last_modified_at: 2024-11-13
 related_topics:
+  - title: 한국어 version
+    url: /ko/linux/wl-paste.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/wl-paste.html
     icon: bi bi-globe
@@ -19,6 +22,10 @@ More information: <https://github.com/bugaevc/wl-clipboard>.
 - Paste the contents of the clipboard:
 
 `wl-paste`
+
+- Paste the contents of the primary clipboard (highlighted text):
+
+`wl-paste --primary`
 
 - Write the contents of the clipboard to a file:
 

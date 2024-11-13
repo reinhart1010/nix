@@ -3,14 +3,20 @@ layout: page
 title: linux/wl-paste (Türkçe)
 description: "Wayland için panoda saklanan verilere erişim aracı."
 content_hash: 12806e8aadca9adf801172e3f58a1e7ea9ba06c1
-last_modified_at: 2023-11-12
+last_modified_at: 2024-11-13
 related_topics:
   - title: English version
     url: /en/linux/wl-paste.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/linux/wl-paste.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# wl-paste
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># wl-paste
 
 Wayland için panoda saklanan verilere erişim aracı.
 Ayrıca bakın: `wl-copy`.

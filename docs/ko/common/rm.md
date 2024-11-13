@@ -3,7 +3,7 @@ layout: page
 title: common/rm (한국어)
 description: "파일 혹은 폴더를 삭제."
 content_hash: 65b4f1a1cbb49d1614e2c41233927b3eb0bdf6bc
-last_modified_at: 2024-11-12
+last_modified_at: 2024-11-13
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -41,12 +41,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/rm.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rm
+# rm
 
 파일 혹은 폴더를 삭제.
 참고: `rmdir`.

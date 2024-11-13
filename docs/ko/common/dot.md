@@ -3,7 +3,7 @@ layout: page
 title: common/dot (한국어)
 description: "`graphviz` 파일로부터 `선형 방향` 네트워크 그래프를 렌더링."
 content_hash: 81d4506138ec56a6c63d9e2b91f51f5e69bbbbd4
-last_modified_at: 2024-11-12
+last_modified_at: 2024-11-13
 related_topics:
   - title: English version
     url: /en/common/dot.html
@@ -11,12 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/common/dot.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dot
+# dot
 
 `graphviz` 파일로부터 `선형 방향` 네트워크 그래프를 렌더링.
 레이아웃: `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage`, `patchwork`.

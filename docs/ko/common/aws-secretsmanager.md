@@ -3,7 +3,7 @@ layout: page
 title: common/aws-secretsmanager (한국어)
 description: "시크릿 정보 저장, 관리, 검색."
 content_hash: 9fbd66f88f04ef0437376cbc19a056035616c945
-last_modified_at: 2024-09-22
+last_modified_at: 2024-11-13
 related_topics:
   - title: English version
     url: /en/common/aws-secretsmanager.html
@@ -11,9 +11,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-secretsmanager.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# aws secretsmanager
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># aws secretsmanager
 
 시크릿 정보 저장, 관리, 검색.
 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/secretsmanager/>.

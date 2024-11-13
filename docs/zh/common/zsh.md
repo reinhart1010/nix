@@ -3,7 +3,7 @@ layout: page
 title: common/zsh (中文)
 description: "Z SHell，一个兼容 Bash 的命令行解释器。"
 content_hash: f12fb42511e1939743179f50e7971c6c9f64389c
-last_modified_at: 2024-11-12
+last_modified_at: 2024-11-13
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -29,12 +29,9 @@ related_topics:
   - title: русский version
     url: /ru/common/zsh.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zsh
+# zsh
 
 Z SHell，一个兼容 Bash 的命令行解释器。
 参见：`bash`，`histexpand`.

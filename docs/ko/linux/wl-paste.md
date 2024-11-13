@@ -3,7 +3,7 @@ layout: page
 title: linux/wl-paste (한국어)
 description: "Wayland 클립보드의 내용을 붙여넣기."
 content_hash: e2c749343121c86058940625c970125943d43fb8
-last_modified_at: 2024-11-10
+last_modified_at: 2024-11-13
 related_topics:
   - title: English version
     url: /en/linux/wl-paste.html
@@ -11,9 +11,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/wl-paste.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# wl-paste
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># wl-paste
 
 Wayland 클립보드의 내용을 붙여넣기.
 같이 보기: `wl-copy`, `xclip`.

@@ -3,14 +3,20 @@ layout: page
 title: common/aws-secretsmanager (português (Brasil))
 description: "Armazena, gerencia, e obtem secrets."
 content_hash: bc21e652e4a5ab0037210d56374d3009abc0c660
-last_modified_at: 2024-01-03
+last_modified_at: 2024-11-13
 related_topics:
   - title: English version
     url: /en/common/aws-secretsmanager.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/common/aws-secretsmanager.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# aws secretsmanager
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># aws secretsmanager
 
 Armazena, gerencia, e obtem secrets.
 Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/secretsmanager/>.
