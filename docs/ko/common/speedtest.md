@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/speedtest (한국어)
-description: "https://speedtest.net을 사용하여 인터넷 대역폭을 테스트하는 공식 명령줄 인터페이스."
-content_hash: 83f56b4fb32353e7cbdb5ac35c8a187b6c2c61f8
-last_modified_at: 2024-11-10
+description: "<https://speedtest.net>을 사용하여 인터넷 대역폭을 테스트하는 공식 명령줄 인터페이스."
+content_hash: 283a72610fa5d97a8c2f64ed6518d034ad6fb3f1
+last_modified_at: 2024-11-13
 related_topics:
   - title: English version
     url: /en/common/speedtest.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # speedtest
 
-https://speedtest.net을 사용하여 인터넷 대역폭을 테스트하는 공식 명령줄 인터페이스.
+<https://speedtest.net>을 사용하여 인터넷 대역폭을 테스트하는 공식 명령줄 인터페이스.
 참고: 일부 플랫폼에서는 `speedtest`를 `speedtest-cli`에 연결합니다. 이 페이지의 일부 예제가 작동하지 않는 경우, `speedtest-cli`를 참조하세요.
 더 많은 정보: <https://www.speedtest.net/apps/cli>.
 
