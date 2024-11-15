@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (Nederlands)
 description: "Dit commando is een alias van `gh codespace`."
-content_hash: 61a5cf8b303b0b61f5065e23ae3e12c0e43572ee
-last_modified_at: 2024-11-11
+content_hash: 5fbce0d421c7fcdb2cfaa18ab4c9762024b09e41
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -97,4 +97,4 @@ Dit commando is een alias van `gh codespace`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr gh-codespace`
+`tldr gh codespace`

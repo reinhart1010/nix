@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (Türkçe)
 description: "Bu komut  `fossil init`.için bir takma addır."
-content_hash: 1baba43294808778101bbaa8258103673265fe6e
-last_modified_at: 2024-05-09
+content_hash: 5e291398845762b6a0ad6a782d618dbd5551893b
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -98,4 +98,4 @@ Daha fazla bilgi için: <https://fossil-scm.org/home/help/new>.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr fossil-init`
+`tldr fossil init`

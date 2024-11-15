@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-route-list (日本語)
 description: "このコマンドは  `ip route show`.のエイリアスです。"
-content_hash: 51246af02470fa7f07d8e17047f740c9000548e3
-last_modified_at: 2024-05-09
+content_hash: 64a5ef81a1fc445e3ba75e7cfcadd59049a29d3c
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -97,4 +97,4 @@ tldri18n_status: 2
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr ip-route-show`
+`tldr ip route show`

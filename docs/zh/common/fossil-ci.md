@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (中文)
 description: "这是  `fossil commit`.命令的一个别名。"
-content_hash: bd1118b28438a78d39403dfae95da969fc00e31e
-last_modified_at: 2024-05-09
+content_hash: 9d4e4537c3d07a2f4993bd22f7b8609bbebe7530
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - 原命令的文档在：
 
-`tldr fossil-commit`
+`tldr fossil commit`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-route-list (हिन्दी)
 description: "यह आदेश  `ip route show`.का उपनाम है।"
-content_hash: a7caf9d2182ea6ce02ad090056b502b9f586eaba
-last_modified_at: 2024-05-09
+content_hash: 58735947ae5d2fafd64d514754675d1bec5b2c5d
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -97,4 +97,4 @@ tldri18n_status: 2
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr ip-route-show`
+`tldr ip route show`

@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (polski)
 description: "To polecenie jest aliasem  `fossil commit`."
-content_hash: 69b7fe246f710c20aebd72c45314806036730087
-last_modified_at: 2024-11-11
+content_hash: 1863bbb6d52c718c9b85677659f2487eb6cdd78b
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -97,4 +97,4 @@ To polecenie jest aliasem  `fossil commit`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr fossil-commit`
+`tldr fossil commit`

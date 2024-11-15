@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (norsk)
 description: "Denne kommandoen er et alias for  `gh codespace`."
-content_hash: f6baa40e2d2cd8bedf24573e02973c50155ff6ec
-last_modified_at: 2024-11-11
+content_hash: 39ee780aee934ca6fd4f31602e053c4ffcf3eb6a
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -97,4 +97,4 @@ Denne kommandoen er et alias for  `gh codespace`.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 
-`tldr gh-codespace`
+`tldr gh codespace`

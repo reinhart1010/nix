@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (മലയാളം)
 description: "ഈ കമാൻഡ്  `fossil init`.എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 7e4178bca5e716bb15ab171bbf7e8e5ef9dbf310
-last_modified_at: 2024-05-09
+content_hash: 32da31234059b24ce5c04ecc7b5819d357fb0e3f
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 
-`tldr fossil-init`
+`tldr fossil init`

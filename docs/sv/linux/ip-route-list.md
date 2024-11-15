@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-route-list (svenska)
 description: "Det här kommandot är ett alias för  `ip route show`."
-content_hash: ecb31fac806ed13d6c7cf0461de763979bbc983b
-last_modified_at: 2024-05-09
+content_hash: 318695d8136d71e9b8d14e36e19c5df72206158a
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -97,4 +97,4 @@ Det här kommandot är ett alias för  `ip route show`.
 
 - Se dokumentationen för orginalkommandot:
 
-`tldr ip-route-show`
+`tldr ip route show`

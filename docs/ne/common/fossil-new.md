@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (नेपाली)
 description: "यो आदेश  `fossil init`.को उपनाम हो |"
-content_hash: 86689f40ee93e7d20b0ed97c9eaf78179ae85547
-last_modified_at: 2024-05-09
+content_hash: 70d3b15852cd235c13c583439206fc0a8b3b9ddc
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
-`tldr fossil-init`
+`tldr fossil init`

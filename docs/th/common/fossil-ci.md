@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil-commit`"
-content_hash: 7d28f231f9737fa94edd7e951d53de14fdbe7871
-last_modified_at: 2024-05-09
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil commit`"
+content_hash: 98b9c143bc77f1d9e4088e9e0388e7fcc4f2d5a7
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # fossil ci
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil-commit`
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil commit`
 ข้อมูลเพิ่มเติม: <https://fossil-scm.org/home/help/commit>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr fossil-commit`
+`tldr fossil commit`

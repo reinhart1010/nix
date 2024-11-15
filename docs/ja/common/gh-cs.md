@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (日本語)
 description: "このコマンドは  `gh codespace`.のエイリアスです。"
-content_hash: f2c862e1b24f454fd4e5e366bae30ec68b91667b
-last_modified_at: 2024-05-09
+content_hash: 5268ee2b2887144e7a934dc8b1c59a2d1e30d301
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr gh-codespace`
+`tldr gh codespace`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `gh-codespace`"
-content_hash: 375fddbabfea7174c754e26b692a33eb8f93d293
-last_modified_at: 2024-05-09
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `gh codespace`"
+content_hash: ab10afcba57e21d5fc04eb2300f3cd8897d70616
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # gh cs
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `gh-codespace`
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `gh codespace`
 ข้อมูลเพิ่มเติม: <https://cli.github.com/manual/gh_codespace>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr gh-codespace`
+`tldr gh codespace`

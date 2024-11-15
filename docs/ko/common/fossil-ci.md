@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (한국어)
 description: "이 명령은  `fossil commit`.의 에일리어스 (별칭) 입니다."
-content_hash: 354e1fa10fd97232676bd2e1895ea3cc918e5ea4
-last_modified_at: 2024-05-09
+content_hash: f58aa17836b0dc60270d43738ff9a210df70c49b
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 
-`tldr fossil-commit`
+`tldr fossil commit`

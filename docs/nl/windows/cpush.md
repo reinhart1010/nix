@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (Nederlands)
 description: "Dit commando is een alias van `choco push`."
-content_hash: 63fa6e5511cfb3489ce190b768c2b670f31f32f4
-last_modified_at: 2024-11-11
+content_hash: 396f8b3709b20204cb3e82692d96254473323bf2
+last_modified_at: 2024-11-15
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -64,4 +64,4 @@ Dit commando is een alias van `choco push`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr choco-push`
+`tldr choco push`

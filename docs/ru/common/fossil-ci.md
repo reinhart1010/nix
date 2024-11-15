@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (русский)
 description: "Эта команда — псевдоним для  `fossil commit`."
-content_hash: 108919331d8fe50652b31ca11651e9f35a797eba
-last_modified_at: 2024-05-09
+content_hash: 1a3a84f0c5068740970103072b16761719d2d83a
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - Смотри документацию для оригинальной команды:
 
-`tldr fossil-commit`
+`tldr fossil commit`

@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (العربية)
 description: "هذا الأمر هو اسم مستعار لـ  `fossil commit`."
-content_hash: 2eadd2234af0a4fe734265114035cc1c14edd267
-last_modified_at: 2024-11-11
+content_hash: 6b3b252e761eb80a49362614c0e3a75ceffd3bf0
+last_modified_at: 2024-11-15
 related_topics:
   - title: bosanski version
     url: /bs/common/fossil-ci.html
@@ -97,4 +97,4 @@ tldri18n_status: 2
 
 - إعرض التوثيقات للأمر الأصلي:
 
-`tldr fossil-commit`
+`tldr fossil commit`

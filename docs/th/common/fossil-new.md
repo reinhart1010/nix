@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil-init`"
-content_hash: e4907093cb87988e5ba00eebbacd77888b5d107a
-last_modified_at: 2024-05-09
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil init`"
+content_hash: 4a6139f9f9441895705b7b4aa27f1686589aad8b
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # fossil new
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil-init`
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil init`
 ข้อมูลเพิ่มเติม: <https://fossil-scm.org/home/help/new>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr fossil-init`
+`tldr fossil init`

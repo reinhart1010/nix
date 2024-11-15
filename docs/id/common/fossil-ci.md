@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (Indonesia)
 description: "Perintah ini merupakan alias dari  `fossil commit`."
-content_hash: fa10714e6df2f2ade89749832b5414ebce2069b5
-last_modified_at: 2024-05-09
+content_hash: fcd16db3816f407c9ff46ea73f462b672badaf5e
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -98,4 +98,4 @@ Informasi lebih lanjut: <https://fossil-scm.org/home/help/commit>.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr fossil-commit`
+`tldr fossil commit`

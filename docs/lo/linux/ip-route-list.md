@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-route-list (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ  `ip route show`."
-content_hash: 3910c22bcf78e6a65026102c1877be0def9e325e
-last_modified_at: 2024-05-09
+content_hash: 6dd55fda76e0faf0bbb4251e9c19aa10ef13e445
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -97,4 +97,4 @@ tldri18n_status: 2
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
-`tldr ip-route-show`
+`tldr ip route show`

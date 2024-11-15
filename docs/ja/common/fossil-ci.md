@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (日本語)
 description: "このコマンドは  `fossil commit`.のエイリアスです。"
-content_hash: 84f2e105002ccd60eac460a350aa3a0473c021c2
-last_modified_at: 2024-05-09
+content_hash: 30483b516e0cbebb7e0f30e630dcd17c8a14f4da
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr fossil-commit`
+`tldr fossil commit`

@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (português (Brasil))
 description: "Este comando é um apelido de  `gh codespace`."
-content_hash: afc50f6f9d816de1ba0f2e9d9ff07298cae8df27
-last_modified_at: 2024-05-09
+content_hash: 46b318fc1d8fee6828be515f6818b7b93c061e04
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -98,4 +98,4 @@ Mais informações: <https://cli.github.com/manual/gh_codespace>.
 
 - Exibe documentação sobre o comando original:
 
-`tldr gh-codespace`
+`tldr gh codespace`

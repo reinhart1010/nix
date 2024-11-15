@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (中文 (繁體, 台灣))
 description: "這是  `fossil init`.命令的一個別名。"
-content_hash: e7fc749bec6652d4bb4b0e6b3e166b933ea2e5f7
-last_modified_at: 2024-05-09
+content_hash: 195ffcff9637703b3a65aedf959dfac454ed8ae8
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - 原命令的文件在：
 
-`tldr fossil-init`
+`tldr fossil init`

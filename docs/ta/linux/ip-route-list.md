@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-route-list (தமிழ்)
 description: "இக்கட்டளை  `ip route show`.கட்டளையின் மற்றொருப் பெயர்."
-content_hash: b81fb2ef36e5ab6dabed10e3284781cc336cf3b2
-last_modified_at: 2024-05-09
+content_hash: caed109df55b441d1923460b092261b0e61ca940
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -97,4 +97,4 @@ tldri18n_status: 2
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 
-`tldr ip-route-show`
+`tldr ip route show`

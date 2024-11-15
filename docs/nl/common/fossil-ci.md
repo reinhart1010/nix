@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (Nederlands)
 description: "Dit commando is een alias van `fossil commit`."
-content_hash: 7d91ce978b4f42cf29ca3f044d53315ba85393b0
-last_modified_at: 2024-11-11
+content_hash: b16381c6f65ce8e378e9b175afad43931224fcf1
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -97,4 +97,4 @@ Dit commando is een alias van `fossil commit`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr fossil-commit`
+`tldr fossil commit`

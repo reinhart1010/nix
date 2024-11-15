@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (한국어)
 description: "이 명령은  `fossil init`.의 에일리어스 (별칭) 입니다."
-content_hash: 6c4bda81d7209a5ab72ce11663edd5fb599b04f4
-last_modified_at: 2024-05-09
+content_hash: 492d62e8bfea360dc69d2702add88bb233fa731b
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 
-`tldr fossil-init`
+`tldr fossil init`

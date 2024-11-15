@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (polski)
 description: "To polecenie jest aliasem  `fossil init`."
-content_hash: a047fca556d71804935d310b99fa75fead3af8ae
-last_modified_at: 2024-11-11
+content_hash: 36066effd95b3925534085494716f9b159cc69c5
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -97,4 +97,4 @@ To polecenie jest aliasem  `fossil init`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr fossil-init`
+`tldr fossil init`

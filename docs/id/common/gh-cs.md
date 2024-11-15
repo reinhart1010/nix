@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (Indonesia)
 description: "Perintah ini merupakan alias dari  `gh codespace`."
-content_hash: 5f7439604d883d24a87245de51f97ae5672f4871
-last_modified_at: 2024-05-09
+content_hash: 4301b929d3db52c7be41e0ea7c9f404bf0dfe543
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -98,4 +98,4 @@ Informasi lebih lanjut: <https://cli.github.com/manual/gh_codespace>.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr gh-codespace`
+`tldr gh codespace`

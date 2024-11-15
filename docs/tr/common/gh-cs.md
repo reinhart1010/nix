@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (Türkçe)
 description: "Bu komut  `gh codespace`.için bir takma addır."
-content_hash: 471acf43bcefd33edc2edb70b06a79ff47b5d263
-last_modified_at: 2024-05-09
+content_hash: dabd8fd6974f5f5bd62c44e953eb62cc513cbed3
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -98,4 +98,4 @@ Daha fazla bilgi için: <https://cli.github.com/manual/gh_codespace>.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr gh-codespace`
+`tldr gh codespace`

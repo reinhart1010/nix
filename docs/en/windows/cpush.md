@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (English)
 description: "This command is an alias of `choco push`."
-content_hash: 615528064b2ca5af7e0d904ca18f47e7f57ba877
-last_modified_at: 2024-11-10
+content_hash: fe852bd8253175471eddffb65032a80bb162db83
+last_modified_at: 2024-11-15
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -64,4 +64,4 @@ This command is an alias of `choco push`.
 
 - View documentation for the original command:
 
-`tldr choco-push`
+`tldr choco push`

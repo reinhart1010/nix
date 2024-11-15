@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (தமிழ்)
 description: "இக்கட்டளை  `gh codespace`.கட்டளையின் மற்றொருப் பெயர்."
-content_hash: d2b9169b8d5343ef3f12f1e4c831dad7fe822ecc
-last_modified_at: 2024-05-09
+content_hash: 47b67b4db63e5603e288a794ac29537fb56d6321
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 
-`tldr gh-codespace`
+`tldr gh codespace`

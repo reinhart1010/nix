@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (українська)
 description: "Ця команда є псевдонімом для  `fossil init`."
-content_hash: 3b2f80a17d463c809bb5e4bebb28c8af5e38ec4d
-last_modified_at: 2024-11-12
+content_hash: 3a75c0cb45f2cdfae008cc8c8543de8448826241
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -97,4 +97,4 @@ tldri18n_status: 2
 
 - Дивись документацію для оригінальної команди:
 
-`tldr fossil-init`
+`tldr fossil init`

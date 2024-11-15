@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (Nederlands)
 description: "Dit commando is een alias van `fossil init`."
-content_hash: 0a25bdff34c8836ace1d8b286726ba6bbb1c7342
-last_modified_at: 2024-11-11
+content_hash: 9c6ee406fb1143c62dd8d838ba286f0a3932e9d8
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -97,4 +97,4 @@ Dit commando is een alias van `fossil init`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr fossil-init`
+`tldr fossil init`

@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ  `fossil commit`."
-content_hash: 890389549ee6fe13c9d410adce7c7131561dda20
-last_modified_at: 2024-05-09
+content_hash: 8124b3b1ba249caadc0f9e318dd42201631c249d
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
-`tldr fossil-commit`
+`tldr fossil commit`

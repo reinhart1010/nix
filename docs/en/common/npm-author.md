@@ -2,11 +2,18 @@
 layout: page
 title: common/npm-author (English)
 description: "This command is an alias of `npm owner`."
-content_hash: 230649be93b401299684ce80e1c570ab7cfa668b
-last_modified_at: 2024-11-04
+content_hash: cf94e9d25c7cbc59802586db92d13cd740a4f8f9
+last_modified_at: 2024-11-15
+related_topics:
+  - title: español version
+    url: /es/common/npm-author.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/npm-author.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-author
+# npm author
 
 This command is an alias of `npm owner`.
 

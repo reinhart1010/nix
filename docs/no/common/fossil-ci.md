@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (norsk)
 description: "Denne kommandoen er et alias for  `fossil commit`."
-content_hash: bc405f24915513922b6dbba04799154c08f4dfb0
-last_modified_at: 2024-11-11
+content_hash: 9e624602efc0c0f6a89614fd3930c343b121e3f0
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -97,4 +97,4 @@ Denne kommandoen er et alias for  `fossil commit`.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 
-`tldr fossil-commit`
+`tldr fossil commit`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-route-list (português (Portugal))
 description: "Este comando é um alias de  `ip route show`."
-content_hash: f31999a37265d3a85e547ca19b6315769be09b3d
-last_modified_at: 2024-05-09
+content_hash: a25054e55c17a3c2ac60104b59fc73fd377461a5
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -97,4 +97,4 @@ Este comando é um alias de  `ip route show`.
 
 - Exibe documentação do comando original:
 
-`tldr ip-route-show`
+`tldr ip route show`

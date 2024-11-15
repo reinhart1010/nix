@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (svenska)
 description: "Det här kommandot är ett alias för  `gh codespace`."
-content_hash: e5b9ddbf1ea443640065070ebc763b1256bf3ebb
-last_modified_at: 2024-05-09
+content_hash: 9a835c798f52c37c56738b05b6699d30b10997f0
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -98,4 +98,4 @@ Mer information: <https://cli.github.com/manual/gh_codespace>.
 
 - Se dokumentationen för orginalkommandot:
 
-`tldr gh-codespace`
+`tldr gh codespace`

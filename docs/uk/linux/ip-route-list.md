@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-route-list (українська)
 description: "Ця команда є псевдонімом для  `ip route show`."
-content_hash: c36567f5a973db8186edc7fefc7c3d7ecf37810d
-last_modified_at: 2024-05-09
+content_hash: d2597f2a44c70c600b7e1b89b9d7f822ab9fe568
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -97,4 +97,4 @@ tldri18n_status: 2
 
 - Дивись документацію для оригінальної команди:
 
-`tldr ip-route-show`
+`tldr ip route show`

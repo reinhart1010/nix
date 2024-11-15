@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `ip-route-show`"
-content_hash: 05eede0a89dc39a1e718a8197e20b710b66d9288
-last_modified_at: 2024-05-09
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `ip route show`"
+content_hash: 73b01f057b4f6df95e83f5fd2d3d52eac23317d7
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -93,8 +93,8 @@ tldri18n_status: 2
 ---
 # ip route list
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `ip-route-show`
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `ip route show`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr ip-route-show`
+`tldr ip route show`

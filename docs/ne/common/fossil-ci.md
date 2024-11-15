@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (नेपाली)
 description: "यो आदेश  `fossil commit`.को उपनाम हो |"
-content_hash: e51f9aeb56873782c7bf9a37e6c336a83f24b46a
-last_modified_at: 2024-05-09
+content_hash: bd8dec164561e32c62c44e5ef0f54e83693bc57a
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -98,4 +98,4 @@ tldri18n_status: 2
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
-`tldr fossil-commit`
+`tldr fossil commit`

@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (bosanski)
 description: "Ova komanda je pseudonim za  `fossil init`."
-content_hash: 071076ecb47ca0f9720d116be785b7b327d52ae3
-last_modified_at: 2024-11-11
+content_hash: 8eedc5d3f4ec7416328de18839c70cae240431e4
+last_modified_at: 2024-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -97,4 +97,4 @@ Ova komanda je pseudonim za  `fossil init`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 
-`tldr fossil-init`
+`tldr fossil init`

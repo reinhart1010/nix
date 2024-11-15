@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cpush (polski)
-description: "To polecenie jest aliasem `choco-push`."
-content_hash: ed9d3b845f9821b76fc6146fecfa1ae44bd2ecf4
-last_modified_at: 2024-11-11
+description: "To polecenie jest aliasem `choco push`."
+content_hash: 847b4b80e27da7229350be09355e2041dfa3f59d
+last_modified_at: 2024-11-15
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -60,8 +60,8 @@ tldri18n_status: 2
 ---
 # cpush
 
-To polecenie jest aliasem `choco-push`.
+To polecenie jest aliasem `choco push`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr choco-push`
+`tldr choco push`
