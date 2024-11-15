@@ -2,8 +2,12 @@
 layout: page
 title: common/rich (English)
 description: "A toolbox for fancy output in the terminal."
-content_hash: f554702eb450b80162d4f1930fe318f56f0fabd2
-last_modified_at: 2023-11-12
+content_hash: 68032a1c2f4f0e5548a54aa6292a306b68361e8a
+last_modified_at: 2024-11-15
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/rich.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # rich
@@ -17,7 +21,7 @@ More information: <https://github.com/Textualize/rich-cli>.
 
 - Add line numbers, and indentation guides:
 
-`rich `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span>` --line-number --guides`
+`rich `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span>` --line-numbers --guides`
 
 - Apply a theme:
 

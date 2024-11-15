@@ -2,9 +2,12 @@
 layout: page
 title: common/yt-dlp (English)
 description: "A youtube-dl fork with additional features and fixes."
-content_hash: 74a05e70cb914e2d8180c8d7721411d881e03c30
-last_modified_at: 2024-06-04
+content_hash: 8fc53a22369930d68b11bf04f5bc12d26f783de9
+last_modified_at: 2024-11-15
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/yt-dlp.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/yt-dlp.html
     icon: bi bi-globe
@@ -36,6 +39,10 @@ More information: <https://github.com/yt-dlp/yt-dlp>.
 - Specify audio format and audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
 
 `yt-dlp --extract-audio --audio-format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span>` --audio-quality `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
+
+- Download only the second, fourth, fifth, sixth, and last items in a playlist (the first item is 1, not 0):
+
+`yt-dlp --playlist-items 2,4:6,-1 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://youtube.com/playlist?list=PLbzoR-pLrL6pTJfLQ3UwtB-3V4fimdqnA</span>`"`
 
 - Download all playlists of a YouTube channel/user keeping each playlist in a separate directory:
 

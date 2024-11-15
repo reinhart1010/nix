@@ -2,8 +2,12 @@
 layout: page
 title: linux/nft (English)
 description: "Allows configuration of tables, chains and rules provided by the Linux kernel firewall."
-content_hash: dcfc2b87cf3d14999a89f77d10d38d9bd60cb755
-last_modified_at: 2023-11-12
+content_hash: 6340d1000fcee91fda20c7aa2dad6c3f1abed014
+last_modified_at: 2024-11-15
+related_topics:
+  - title: 한국어 version
+    url: /ko/linux/nft.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # nft
@@ -22,7 +26,7 @@ More information: <https://wiki.nftables.org/wiki-nftables/index.php/Main_Page>.
 
 - Add a new chain to accept all inbound traffic:
 
-`sudo nft add chain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span>` \{ type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span>` hook `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span>` priority `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>` \; policy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">accept</span>` \}`
+`sudo nft add chain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span>` \{ type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span>` hook `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span>` priority `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>` \; policy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">accept</span>` \; \}`
 
 - Add a new rule to accept several TCP ports:
 
