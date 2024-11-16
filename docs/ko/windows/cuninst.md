@@ -2,20 +2,11 @@
 layout: page
 title: windows/cuninst (한국어)
 description: "이 명령은 `choco uninstall` 의 에일리어스 (별칭) 입니다."
-content_hash: 91dea67c756d783f0fbd67b0b4bebc7ab37c7eb9
-last_modified_at: 2023-11-12
+content_hash: 0c1235274b4c38c0e96160b1c11c8a3a92e8edd4
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cuninst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cuninst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cuninst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cuninst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cuninst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cuninst
 
 이 명령은 `choco uninstall` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

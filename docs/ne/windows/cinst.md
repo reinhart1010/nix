@@ -2,20 +2,11 @@
 layout: page
 title: windows/cinst (नेपाली)
 description: "यो आदेश `choco install` को उपनाम हो |"
-content_hash: c1713ef0751eb8d698c335a4925b02bccc9b17d1
-last_modified_at: 2023-11-12
+content_hash: 2e72fac29fe660c4888fca49e98986a72778689e
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cinst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cinst
 
 यो आदेश `choco install` को उपनाम हो |
-थप जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/install>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

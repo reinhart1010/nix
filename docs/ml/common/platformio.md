@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (മലയാളം)
 description: "ഈ കമാൻഡ് `pio` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: f4afa6c15f70ed286712dd266ed2658fcab1b3eb
-last_modified_at: 2023-11-12
+content_hash: 1e8764cb4dc2eea52d1900b43ba9e47b9b3331a1
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 ഈ കമാൻഡ് `pio` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

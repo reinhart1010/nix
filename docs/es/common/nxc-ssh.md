@@ -2,11 +2,14 @@
 layout: page
 title: common/nxc-ssh (español)
 description: "Prueba y explota servidores SSH."
-content_hash: 51744db1284aa4fda0fe9b081b0b7ded33dd8fcd
-last_modified_at: 2024-07-31
+content_hash: b787409157efd79fd3feec0023fac4fef87b4252
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/nxc-ssh.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/nxc-ssh.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -30,8 +33,8 @@ Más información: <https://www.netexec.wiki/ssh-protocol>.
 
 - Prueba una combinación de nombres de usuario y contraseñas en una serie de objetivos:
 
-`nxc ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.0/24</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span>
+`nxc ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.0/24</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span>
 
 - Comprueba los privilegios `sudo` en un inicio de sesión correcto:
 
-`nxc ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/contraseñas.txt</span>` --sudo-check`
+`nxc ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/contraseñas.txt</span>` --sudo-check`

@@ -2,20 +2,11 @@
 layout: page
 title: windows/cuninst (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `choco uninstall`."
-content_hash: 8545182267e8bd220da7b099dd68ca11b2ffbcab
-last_modified_at: 2023-11-12
+content_hash: d997944b95861bc71bdaf30faac2a0bd066d7e39
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cuninst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cuninst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cuninst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cuninst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cuninst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cuninst
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `choco uninstall`.
-ຂໍ້ມູນເພີ່ມເຕີມ: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຄຳສັ່ງແບບເຕັມ:
 

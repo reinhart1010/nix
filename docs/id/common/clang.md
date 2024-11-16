@@ -2,8 +2,8 @@
 layout: page
 title: common/clang (Indonesia)
 description: "Susun kode sumber C, C++, dan Objective-C. Dapat dipakai sebagai pengganti mutlak (drop-in) bagi GCC."
-content_hash: e31df86b89e12726c61da04dc7d7a5550da3cd20
-last_modified_at: 2024-09-24
+content_hash: 11fba520e61036524cb21d65692390901ec2fb35
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/clang.html
@@ -20,6 +20,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/clang.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/clang.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # clang
@@ -32,11 +35,11 @@ Informasi lebih lanjut: <https://clang.llvm.org/docs/ClangCommandLineReference.h
 
 `clang `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber1.c jalan/menuju/sumber2.c ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 
-- Tampilkan pesan peringatan dan galat dalam [o]utput:
+- Tampilkan pesan peringatan dan galat dalam output:
 
 `clang `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.c</span>` -Wall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 
-- Izinkan peringatan dan simbol debug dalam [o]utput:
+- Izinkan peringatan dan simbol debug dalam output:
 
 `clang `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.c</span>` -Wall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--debug</span>` -Og `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 

@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (മലയാളം)
 description: "ഈ കമാൻഡ് `musescore` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 8357d27bc28a6ca201f3fdfcb04e7bdc7138ca2c
-last_modified_at: 2023-11-12
+content_hash: 0772fc8b3e6242e10c4138c6fe91c39d85d9c4e8
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 ഈ കമാൻഡ് `musescore` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://musescore.org/handbook/command-line-options>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

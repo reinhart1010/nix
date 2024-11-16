@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (മലയാളം)
 description: "ഈ കമാൻഡ് `choco list` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: b8297013123a8bfdb298f4cbf4a76f9fd0c812d5
-last_modified_at: 2023-11-12
+content_hash: c2f480e915e93ebabe3ea83178be4aa3be65e54f
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 ഈ കമാൻഡ് `choco list` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (한국어)
 description: "이 명령은 `choco list` 의 에일리어스 (별칭) 입니다."
-content_hash: 8dedf010d241fcf19db4abfe69fcd0429fad76bb
-last_modified_at: 2023-11-12
+content_hash: f888ce16e33472681b37248c801b78be1e7af0c4
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 이 명령은 `choco list` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

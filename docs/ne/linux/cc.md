@@ -2,21 +2,9 @@
 layout: page
 title: linux/cc (नेपाली)
 description: "यो आदेश `gcc` को उपनाम हो |"
-content_hash: 217de47e140ce729fb370d064ccb9a8fad1fc091
-last_modified_at: 2023-11-12
+content_hash: a010ba79c6005304477f65f1b71e2afbb7ae7e78
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/linux/cc.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/cc.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/cc.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/cc.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/cc.html
     icon: bi bi-globe
@@ -38,23 +26,11 @@ related_topics:
   - title: italiano version
     url: /it/linux/cc.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/cc.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/cc.html
     icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/cc.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/cc.html
-    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/cc.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/cc.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/cc.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/cc.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/cc.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/cc.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/cc.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/cc.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/cc.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/cc.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # cc
 
 यो आदेश `gcc` को उपनाम हो |
-थप जानकारी: <https://gcc.gnu.org>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

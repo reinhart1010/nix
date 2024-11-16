@@ -2,11 +2,14 @@
 layout: page
 title: common/hping (한국어)
 description: "이 명령은 `hping3`의 에일리어스 (별칭) 입니다."
-content_hash: f15eeea4057f7809be788f5db1ba73e79426dd34
-last_modified_at: 2024-11-04
+content_hash: 1b292028111e4c77d2d3f76f6e7653d66a5e3fa8
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/hping.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/hping.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/hping.html
@@ -22,7 +25,6 @@ tldri18n_status: 2
 # hping
 
 이 명령은 `hping3`의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://github.com/antirez/hping>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/chsh (español)
 description: "Cambia el intérprete de comandos de inicio de sesión del usuario (login shell)."
-content_hash: 7c2943a1407326700c2753ced732e1e18d38f894
-last_modified_at: 2024-11-02
+content_hash: b17f0bb3180a399c18fd6dc1b5d20129562f473f
+last_modified_at: 2024-11-16
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -59,4 +59,4 @@ Más información: <https://manned.org/chsh>.
 
 - Establece un intérprete de comandos de inicio de sesión para un usuario específico:
 
-`chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/intérprete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>
+`chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/intérprete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>

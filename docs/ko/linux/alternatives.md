@@ -2,21 +2,9 @@
 layout: page
 title: linux/alternatives (한국어)
 description: "이 명령은 `update-alternatives` 의 에일리어스 (별칭) 입니다."
-content_hash: 18b3570633c1e4c4f82e235b0911dcbe7f736eb9
-last_modified_at: 2023-11-12
+content_hash: 4a99b8ad922ed6b34e7b902f96f7993a488bb7f4
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/linux/alternatives.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/alternatives.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/alternatives.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/alternatives.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/alternatives.html
     icon: bi bi-globe
@@ -38,23 +26,11 @@ related_topics:
   - title: italiano version
     url: /it/linux/alternatives.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/alternatives.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/alternatives.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/alternatives.html
-    icon: bi bi-globe
   - title: नेपाली version
     url: /ne/linux/alternatives.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/alternatives.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/alternatives.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/alternatives.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/alternatives.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/alternatives.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/alternatives.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/alternatives.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/alternatives.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/alternatives.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/alternatives.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # alternatives
 
 이 명령은 `update-alternatives` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://manned.org/alternatives>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

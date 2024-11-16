@@ -2,20 +2,14 @@
 layout: page
 title: linux/ncal (മലയാളം)
 description: "ഈ കമാൻഡ് `cal` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: fe1f54bb75aba5d364b4b76dc37c558fe2f84b8b
-last_modified_at: 2023-11-12
+content_hash: e4963cbdff62f565646606ef41e7ac0dd2965ed6
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,7 +88,6 @@ tldri18n_status: 2
 # ncal
 
 ഈ കമാൻഡ് `cal` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://manned.org/ncal>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

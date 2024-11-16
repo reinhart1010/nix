@@ -2,8 +2,8 @@
 layout: page
 title: common/clang++ (Indonesia)
 description: "Susun kode C++."
-content_hash: 2cadb9bed8c7849c97694a43bb3e612d1df30b14
-last_modified_at: 2024-09-24
+content_hash: fb2796b507c9d96ff9e9d1f10c9d368bd0e92cf8
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/clang++.html
@@ -11,11 +11,17 @@ related_topics:
   - title: English version
     url: /en/common/clang++.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/clang++.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/clang++.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/clang++.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/clang++.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -29,11 +35,11 @@ Informasi lebih lanjut: <https://clang.llvm.org>.
 
 `clang++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber1.cpp jalan/menuju/sumber2.cpp ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 
-- Tampilkan pesan peringatan dan galat dalam [o]utput:
+- Tampilkan pesan peringatan dan galat dalam output:
 
 `clang++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.cpp</span>` -Wall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 
-- Izinkan peringatan dan simbol debug dalam [o]utput:
+- Izinkan peringatan dan simbol debug dalam output:
 
 `clang++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.cpp</span>` -Wall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--debug</span>` -Og `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 

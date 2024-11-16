@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (नेपाली)
 description: "यो आदेश  `gh codespace`.को उपनाम हो |"
-content_hash: 70f921b7a11a244bc3ff5d7553f9c1ce3b755501
-last_modified_at: 2024-11-15
+content_hash: a7d430e3d461f8d708d1820cef5a619820daf8dd
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gh cs
 
 यो आदेश  `gh codespace`.को उपनाम हो |
-थप जानकारी: <https://cli.github.com/manual/gh_codespace>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

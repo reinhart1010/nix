@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (नेपाली)
 description: "यो आदेश `musescore` को उपनाम हो |"
-content_hash: 83e612e90856d0561c521660b98c5c0871a70b06
-last_modified_at: 2023-11-12
+content_hash: 189efa2ebb95ece2cf0274654117d4c416d38eec
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 यो आदेश `musescore` को उपनाम हो |
-थप जानकारी: <https://musescore.org/handbook/command-line-options>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

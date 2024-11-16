@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `choco list`."
-content_hash: 4506caff351d3f2d2a46935066d9034aae43ecbf
-last_modified_at: 2023-11-12
+content_hash: ad137adf7e83ffe5a5503401b0e2e2a4d1a6efeb
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `choco list`.
-ຂໍ້ມູນເພີ່ມເຕີມ: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຄຳສັ່ງແບບເຕັມ:
 

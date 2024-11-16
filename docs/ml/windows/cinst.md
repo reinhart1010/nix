@@ -2,20 +2,11 @@
 layout: page
 title: windows/cinst (മലയാളം)
 description: "ഈ കമാൻഡ് `choco install` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 174fc12059bcebb5151ce55abaf526bb8f0c9940
-last_modified_at: 2023-11-12
+content_hash: 0751e7f823fa3253f32f315645e9a0c7900b5132
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cinst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cinst
 
 ഈ കമാൻഡ് `choco install` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

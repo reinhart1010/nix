@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `Select-String`."
-content_hash: 7cce6011e56c2c4a21d6afbe9ec21f7f6ff64356
-last_modified_at: 2023-11-12
+content_hash: be53dd4b3f800b55dc1c10f9b14e168347a08d97
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `Select-String`.
-ຂໍ້ມູນເພີ່ມເຕີມ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 

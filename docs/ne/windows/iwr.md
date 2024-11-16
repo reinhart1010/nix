@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (नेपाली)
 description: "यो आदेश `invoke-webrequest` को उपनाम हो |"
-content_hash: acde9f11df0a3ba2d1bd9671df33d771fdb57320
-last_modified_at: 2023-11-12
+content_hash: eb6723823e51ad70c80dbee70819dfee71f05a8f
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 यो आदेश `invoke-webrequest` को उपनाम हो |
-थप जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

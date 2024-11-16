@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-iam (español)
 description: "Interactúa con el Manejo de Identidad y Acceso (o \"IAM\" en inglés), un servicio web para controlar seguramente el acceso a servicios de AWS."
-content_hash: 564b59be73dff78f00784b9c950a58177424c55d
-last_modified_at: 2024-06-18
+content_hash: 916b5fd627683f1fc1cc43afad01ab18aacaa743
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-iam.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/aws-iam.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/aws-iam.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/aws-iam.html
@@ -50,7 +53,7 @@ Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/ref
 
 - Lista claves de acceso para un usuario específico:
 
-`aws iam list-access-keys --user-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>
+`aws iam list-access-keys --user-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>
 
 - Muestra ayuda:
 

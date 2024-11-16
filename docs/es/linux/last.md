@@ -2,11 +2,14 @@
 layout: page
 title: linux/last (español)
 description: "Lista la información de los últimos inicios de sesión de usuario."
-content_hash: de8f040adc2e3b2967ac9ff689563dd9c0646a68
-last_modified_at: 2024-04-12
+content_hash: 2fccec59b899a4945b438e8bd98d114ed37ca238
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/linux/last.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/last.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -22,7 +25,7 @@ Más información: <https://manned.org/last.1>.
 
 - Lista la información de inicio de sesión de un usuario específico:
 
-`last `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>
+`last `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>
 
 - Muestra la información de una terminal específica:
 

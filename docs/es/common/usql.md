@@ -2,11 +2,14 @@
 layout: page
 title: common/usql (español)
 description: "Interfaz de línea de comandos universal para bases de datos SQL."
-content_hash: 1854775c977ea6dc62c14a659fc3e14daa0521a8
-last_modified_at: 2024-06-18
+content_hash: e770189dbb782d37f14d68383cb0a7a6495e1c74
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/usql.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/usql.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -17,7 +20,7 @@ Más información: <https://github.com/xo/usql>.
 
 - Conecta a una base de datos específica:
 
-`usql `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sqlserver|mysql|postgres|sqlite3|...</span>`://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_usuario</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span>
+`usql `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sqlserver|mysql|postgres|sqlite3|...</span>`://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span>
 
 - Ejecuta comandos desde un archivo:
 

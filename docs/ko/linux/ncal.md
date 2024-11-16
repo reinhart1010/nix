@@ -2,20 +2,14 @@
 layout: page
 title: linux/ncal (한국어)
 description: "이 명령은 `cal` 의 에일리어스 (별칭) 입니다."
-content_hash: 717f72cbc23f7bd32c8c0d8c2d11b1fda6cf9655
-last_modified_at: 2023-11-12
+content_hash: 0c18d4dc9b615665fc5a899aca8e071488c2eeeb
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,7 +88,6 @@ tldri18n_status: 2
 # ncal
 
 이 명령은 `cal` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://manned.org/ncal>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

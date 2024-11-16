@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (한국어)
 description: "이 명령은 `choco push` 의 에일리어스 (별칭) 입니다."
-content_hash: e6af7306b7fd551b046a45c873841d284d0c7b61
-last_modified_at: 2024-11-15
+content_hash: 5817306fba5c9abffc938c70f0d628a8e7e054a3
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # cpush
 
 이 명령은 `choco push` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://docs.chocolatey.org/en-us/create/commands/push>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

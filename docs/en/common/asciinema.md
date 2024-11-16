@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (English)
 description: "Record and replay terminal sessions, and optionally share them on <https://asciinema.org>."
-content_hash: d53456d409e39ce84f778d9ed3ecbb6c6fa3e623
-last_modified_at: 2024-09-25
+content_hash: b377d44be3078f837530150ed9fb47ceeb15b5c1
+last_modified_at: 2024-11-16
 related_topics:
   - title: español version
     url: /es/common/asciinema.html
@@ -54,7 +54,7 @@ More information: <https://docs.asciinema.org/manual/cli/usage>.
 
 `asciinema play https://asciinema.org/a/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cast_id</span>
 
-- Make a new recording, limiting any [i]dle time to at most 2.5 seconds:
+- Make a new recording, limiting any idle time to at most 2.5 seconds:
 
 `asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--idle-time-limit</span>` 2.5`
 

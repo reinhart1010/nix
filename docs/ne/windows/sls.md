@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (नेपाली)
 description: "यो आदेश `Select-String` को उपनाम हो |"
-content_hash: a185d4440954f4d6b64a56e4e243f096f53b9426
-last_modified_at: 2023-11-12
+content_hash: de5c693d7d14f455c095b118ed59e80927cb39f0
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 यो आदेश `Select-String` को उपनाम हो |
-थप जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

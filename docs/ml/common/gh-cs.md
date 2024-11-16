@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (മലയാളം)
 description: "ഈ കമാൻഡ്  `gh codespace`.എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 6ded3b0b8057b2a497f2dfc5b7b333a4c378f6ac
-last_modified_at: 2024-11-15
+content_hash: 36c08e7e329c9efc315f01e807ba32cee1fce9c6
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gh cs
 
 ഈ കമാൻഡ്  `gh codespace`.എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://cli.github.com/manual/gh_codespace>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

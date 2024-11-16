@@ -2,11 +2,14 @@
 layout: page
 title: linux/w (español)
 description: "Muestra quien ha iniciado sesión y sus procesos."
-content_hash: bfb92e0607417c703eb684a60b2cb573955ecfbb
-last_modified_at: 2023-11-12
+content_hash: 413cc9377b9a7daa6d3d62e327ae0dadcafb4c97
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/linux/w.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/w.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/w.html
@@ -24,7 +27,7 @@ Más información: <https://www.geeksforgeeks.org/w-command-in-linux-with-exampl
 
 - Muestra información sobre un usuario específico:
 
-`w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>
+`w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>
 
 - Muestra información sin incluir la cabecera:
 

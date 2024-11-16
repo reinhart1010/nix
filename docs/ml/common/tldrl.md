@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (മലയാളം)
 description: "ഈ കമാൻഡ് `tldr-lint` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 6b1fb122946398eee52d1d5b5d8b84e0796cb660
-last_modified_at: 2023-11-12
+content_hash: 706c5d3d112fb1b882c141cd7b5cba7d367476e6
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 ഈ കമാൻഡ് `tldr-lint` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://github.com/tldr-pages/tldr-lint>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

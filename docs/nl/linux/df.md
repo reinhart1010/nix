@@ -2,11 +2,14 @@
 layout: page
 title: linux/df (Nederlands)
 description: "Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte."
-content_hash: 0754c42f9a5ab15635070a7d9f185f9130de6896
-last_modified_at: 2024-09-27
+content_hash: 2f336aa72913a6e4cd11a056cc13a07bb44a217b
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/linux/df.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/df.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/df.html
@@ -30,7 +33,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/df>.
 
 `df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>
 
-- Neem statistieken op over het aantal beschikbare [i]-knooppunte:
+- Neem statistieken op over het aantal beschikbare inodes:
 
 `df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--inodes</span>
 

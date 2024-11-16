@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (മലയാളം)
 description: "ഈ കമാൻഡ് `invoke-webrequest` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: d513612d355bd2e4ed263543920f1613750f936d
-last_modified_at: 2023-11-12
+content_hash: ffef0d111f396f6eef8a0d6b002f52ab46da7ee1
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 ഈ കമാൻഡ് `invoke-webrequest` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

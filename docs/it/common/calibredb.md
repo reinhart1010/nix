@@ -2,8 +2,8 @@
 layout: page
 title: common/calibredb (italiano)
 description: "Strumentoi per gestire il tuo database di e-book."
-content_hash: 272da1ae9bfeaeee9d5f80ebaafe5b9ef2550bee
-last_modified_at: 2024-09-25
+content_hash: 7c38fb54f19f20d6c2d7b447176988b87797bb26
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/calibredb.html
@@ -38,7 +38,7 @@ Maggiori informazioni: <https://manual.calibre-ebook.com/generated/en/calibredb.
 
 `calibredb add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percoso/del/file1 percoso/del/file2 ...</span>
 
-- Aggiungere [r]icorsivamente tutti gli e-book in una directory alla libreria:
+- Aggiungere ricorsivamente tutti gli e-book in una directory alla libreria:
 
 `calibredb add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recurse</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percoso/della/directory</span>
 

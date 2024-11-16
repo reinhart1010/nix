@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (Nederlands)
 description: "Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org."
-content_hash: 3b39365c81fc5fdee9ba7b4aa9d7c857c20f5ef3
-last_modified_at: 2024-09-25
+content_hash: ffb57fff570121a4230cb8f903e906272e3c0d6f
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -54,7 +54,7 @@ Meer informatie: <https://docs.asciinema.org/manual/cli/usage>.
 
 `asciinema play https://asciinema.org/a/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cast_id</span>
 
-- Maak een nieuwe opname met een [i]nactieve tijd van maximaal 2,5 seconden:
+- Maak een nieuwe opname met een inactieve tijd van maximaal 2,5 seconden:
 
 `asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--idle-time-limit</span>` 2.5`
 

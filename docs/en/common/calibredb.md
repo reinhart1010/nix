@@ -2,8 +2,8 @@
 layout: page
 title: common/calibredb (English)
 description: "Manipulate an e-book database."
-content_hash: 968615434c2add0c7403c8dfa59412e21d34f9aa
-last_modified_at: 2024-09-25
+content_hash: 4b2e39e62a587abac6ce741f6b4f77fbf4d5973d
+last_modified_at: 2024-11-16
 related_topics:
   - title: Indonesia version
     url: /id/common/calibredb.html
@@ -38,7 +38,7 @@ More information: <https://manual.calibre-ebook.com/generated/en/calibredb.html>
 
 `calibredb add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- [r]ecursively add all e-books under a directory to the library:
+- Recursively add all e-books under a directory to the library:
 
 `calibredb add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recurse</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 

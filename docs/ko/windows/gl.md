@@ -2,8 +2,8 @@
 layout: page
 title: windows/gl (한국어)
 description: "이 명령어는 PowerShell에서 `Get-Location` 의 별칭입니다."
-content_hash: b27693000201fcec2676938577310f0e2475ea6b
-last_modified_at: 2024-11-06
+content_hash: ae00562b5d70dfbb0dae1a3f51a1085e53954c18
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/windows/gl.html
@@ -16,7 +16,6 @@ tldri18n_status: 2
 # gl
 
 이 명령어는 PowerShell에서 `Get-Location` 의 별칭입니다.
-더 많은 정보: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-location>.
 
 - 원본 명령어의 문서 보기:
 

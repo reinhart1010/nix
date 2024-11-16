@@ -2,11 +2,14 @@
 layout: page
 title: common/keybase (español)
 description: "Directorio de claves que conecta identidades en redes sociales a claves encriptadas de una manera públicamente auditable."
-content_hash: 0a62b545ebafd4bc7cee76db73eccd3d4959067c
-last_modified_at: 2023-11-12
+content_hash: 4a5fe3a0370944dbaa23cc9b6b3b827bf1eb160f
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/keybase.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/keybase.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -17,11 +20,11 @@ Más información: <https://keybase.io/docs/command_line>.
 
 - Sigue a otro usuario:
 
-`keybase follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>
+`keybase follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>
 
 - Añade una nueva prueba:
 
-`keybase prove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servicio</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario_en_el_servicio</span>
+`keybase prove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servicio</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario_en_el_servicio</span>
 
 - Firma un archivo:
 

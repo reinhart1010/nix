@@ -2,20 +2,11 @@
 layout: page
 title: windows/cuninst (മലയാളം)
 description: "ഈ കമാൻഡ് `choco uninstall` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 9e9bff0dc0a4299e44f39a1935f210ca84a51acf
-last_modified_at: 2023-11-12
+content_hash: 77d27fbb562a57090fada944e99e26c8ec641baa
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cuninst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cuninst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cuninst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cuninst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cuninst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cuninst
 
 ഈ കമാൻഡ് `choco uninstall` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

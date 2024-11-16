@@ -2,8 +2,8 @@
 layout: page
 title: common/g++ (Indonesia)
 description: "Susun kode sumber C++."
-content_hash: c93ca7fa659dfa39116fbb8c3337431cb7562ddd
-last_modified_at: 2024-09-24
+content_hash: 1b34e776b6613841b61caa86a6217dee0f5070de
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -32,11 +32,11 @@ Informasi lebih lanjut: <https://gcc.gnu.org>.
 
 `g++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber1.c jalan/menuju/sumber2.cpp ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 
-- Tampilkan pesan peringatan dan galat dalam [o]utput:
+- Tampilkan pesan peringatan dan galat dalam output:
 
 `g++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.cpp</span>` -Wall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 
-- Izinkan peringatan dan simbol debug dalam [o]utput:
+- Izinkan peringatan dan simbol debug dalam output:
 
 `g++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.cpp</span>` -Wall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--debug</span>` -Og `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 

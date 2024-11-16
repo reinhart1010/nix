@@ -2,20 +2,11 @@
 layout: page
 title: windows/cinst (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `choco install`."
-content_hash: 1008df21b2bed23fa6c6e1ae2edf1b2ea71cb494
-last_modified_at: 2023-11-12
+content_hash: d9307115ee0ebffc6db016708ff08ba35aa7610d
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cinst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cinst
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `choco install`.
-ຂໍ້ມູນເພີ່ມເຕີມ: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຄຳສັ່ງແບບເຕັມ:
 

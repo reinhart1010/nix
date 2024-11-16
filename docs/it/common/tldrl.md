@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (italiano)
 description: "Questo comando è un alias per `tldr-lint`."
-content_hash: 288bcfae64101421e803fbf9f07ec86ab5501f0e
-last_modified_at: 2023-11-12
+content_hash: c6fe132687e0762d5772453c22f3786fa72d4014
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 Questo comando è un alias per `tldr-lint`.
-Maggiori informazioni: <https://github.com/tldr-pages/tldr-lint>.
 
 - Consulta la documentazione del comando originale:
 

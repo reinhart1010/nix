@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (한국어)
 description: "이 명령은 `Select-String` 의 에일리어스 (별칭) 입니다."
-content_hash: bbc258fad0f47642679cfd85f73115a5f8b47c29
-last_modified_at: 2023-11-12
+content_hash: 9f7c8467a39e6ba7347e92a3aacb3536ab2323bb
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 이 명령은 `Select-String` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

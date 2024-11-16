@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (한국어)
 description: "이 명령은 `musescore` 의 에일리어스 (별칭) 입니다."
-content_hash: a3fe266451022513f31daff57222ee0bb7ebe1a0
-last_modified_at: 2023-11-12
+content_hash: ae017d391087eebca6f1fc0952d1016b286ee457
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 이 명령은 `musescore` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://musescore.org/handbook/command-line-options>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

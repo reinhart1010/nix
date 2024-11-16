@@ -2,11 +2,14 @@
 layout: page
 title: common/gitleaks (español)
 description: "Detecta secretos y claves API filtradas en repositorios Git."
-content_hash: c13aca76401fb5330a3fadfe261fc7a20d5201a7
-last_modified_at: 2024-05-04
+content_hash: a1030f45f472c322efe2ce0a66c739d32d6159f7
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/gitleaks.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/gitleaks.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -17,7 +20,7 @@ Más información: <https://github.com/gitleaks/gitleaks>.
 
 - Escanea un repositorio remoto:
 
-`gitleaks detect --repo-url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/nombre_usuario/repositorio.git</span>
+`gitleaks detect --repo-url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/usuario/repositorio.git</span>
 
 - Escanea un directorio local:
 

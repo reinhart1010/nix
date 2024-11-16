@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (italiano)
 description: "Registra e riproduci sessioni di terminale, condividendole opzionalmente su asciiname.org."
-content_hash: f3e39e6dd87fafe612de5cda056f2d0438e51aed
-last_modified_at: 2024-09-25
+content_hash: fa0aadd13988e4136823796319083cd0fa045930
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -53,7 +53,7 @@ Maggiori informazioni: <https://docs.asciinema.org/manual/cli/usage>.
 
 `asciinema play https://asciinema.org/a/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_registrazione</span>
 
-- Avvia una nuova registrazione, limitando qualsiasi periodo di [i]nattività a 2.5 secondi:
+- Avvia una nuova registrazione, limitando qualsiasi periodo di inattività a 2.5 secondi:
 
 `asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--idle-time-limit</span>` 2.5`
 

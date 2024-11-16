@@ -2,14 +2,17 @@
 layout: page
 title: common/aws-cognito-idp (español)
 description: "Administra el grupo de usuarios de Amazon Cognito y sus usuarios y grupos utilizando la CLI."
-content_hash: e828e40f7358da71136c5cdbd1baefd437eb4fd9
-last_modified_at: 2024-05-22
+content_hash: 9463565fc44a26642521d14f15b85f814e465107
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-cognito-idp.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/aws-cognito-idp.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/aws-cognito-idp.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -32,7 +35,7 @@ Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/ref
 
 - Crea un usuario en un grupo específico:
 
-`aws cognito-idp admin-create-user --username `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_usuario</span>` --user-pool-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_pool</span>
+`aws cognito-idp admin-create-user --username `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` --user-pool-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_pool</span>
 
 - Lista los usuarios de un pool específico:
 
@@ -40,4 +43,4 @@ Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/ref
 
 - Elimina un usuario de un grupo específico:
 
-`aws cognito-idp admin-delete-user --username `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_usuario</span>` --user-pool-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_pool</span>
+`aws cognito-idp admin-delete-user --username `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` --user-pool-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_pool</span>

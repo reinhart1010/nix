@@ -2,21 +2,9 @@
 layout: page
 title: linux/cc (한국어)
 description: "이 명령은 `gcc` 의 에일리어스 (별칭) 입니다."
-content_hash: 6a56eef872579dace44f81b21abab4b8c0955cbf
-last_modified_at: 2023-11-12
+content_hash: adb464c285b3f8fc7ddd20b7876c12dca000d4ff
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/linux/cc.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/cc.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/cc.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/cc.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/cc.html
     icon: bi bi-globe
@@ -38,23 +26,11 @@ related_topics:
   - title: italiano version
     url: /it/linux/cc.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/cc.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/cc.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/cc.html
-    icon: bi bi-globe
   - title: नेपाली version
     url: /ne/linux/cc.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/cc.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/cc.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/cc.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/cc.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/cc.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/cc.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/cc.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/cc.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/cc.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/cc.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # cc
 
 이 명령은 `gcc` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://gcc.gnu.org>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

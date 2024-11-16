@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (Indonesia)
 description: "Rekam dan putar ulang sesi terminal, dan secara opsional membagikannya di <https://asciinema.org>."
-content_hash: ffabb96d5e84cab5555dff5e659055ce118e0d08
-last_modified_at: 2024-09-25
+content_hash: 4228d28c0761f9edfecefb0147be51c898895cc4
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -54,7 +54,7 @@ Informasi lebih lanjut: <https://docs.asciinema.org/manual/cli/usage>.
 
 `asciinema play https://asciinema.org/a/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_rekaman</span>
 
-- Buat rekaman baru, dengan membatasi waktu diam/[i]dle terlama selama 2.5 detik:
+- Buat rekaman baru, dengan membatasi waktu diam/idle terlama selama 2.5 detik:
 
 `asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--idle-time-limit</span>` 2.5`
 

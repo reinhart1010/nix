@@ -2,20 +2,11 @@
 layout: page
 title: windows/cuninst (नेपाली)
 description: "यो आदेश `choco uninstall` को उपनाम हो |"
-content_hash: 27b7467838ec568899b534d4277a90bc19997f7c
-last_modified_at: 2023-11-12
+content_hash: d721cccbe292cc763110262878da3a7491feeaa7
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cuninst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cuninst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cuninst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cuninst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cuninst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cuninst
 
 यो आदेश `choco uninstall` को उपनाम हो |
-थप जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

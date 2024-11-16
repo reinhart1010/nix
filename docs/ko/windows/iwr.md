@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (한국어)
 description: "이 명령은 `invoke-webrequest` 의 에일리어스 (별칭) 입니다."
-content_hash: c9a90272f221813fb4b437a5b18a100219d7a9af
-last_modified_at: 2023-11-12
+content_hash: e9d42d3041b54d029c105a1d300ff0c43e985226
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 이 명령은 `invoke-webrequest` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

@@ -2,11 +2,14 @@
 layout: page
 title: common/helix (Nederlands)
 description: "Helix, een post-moderne tekst bewerker, welke verschillende modi beschikbaar stelt tot verschillende manieren van tekst manipulatie."
-content_hash: 2554ef219756ffd9e0762bcdacc435723fcb1e19
-last_modified_at: 2024-11-07
+content_hash: 0d389e0eb35e1992e26f215dfb5b77dd5284b7fb
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/helix.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/helix.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/helix.html
@@ -29,6 +32,14 @@ Meer informatie: <https://helix-editor.com>.
 
 `helix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
+- Open bestanden en toon ze naast elkaar:
+
+`helix --vsplit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2</span>
+
+- Toon de tutorial om  Helix te leren (of open het binnen Helix door op `<Esc>` te drukken en `:tutor` te typen):
+
+`helix --tutor`
+
 - Pas het Helix thema aan:
 
 `:theme `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">thema_naam</span>
@@ -48,7 +59,3 @@ Meer informatie: <https://helix-editor.com>.
 - Zoek een patroon in het bestand (druk op `n`/`N` om naar de volgende/vorige overeenkomst te gaan):
 
 `/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoek_patroon</span>`<Enter>`
-
-- Formateer het bestand:
-
-`:format`

@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (മലയാളം)
 description: "ഈ കമാൻഡ് `Select-String` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: d0beec0d795a02105c8bde32013b35f491dbc4ca
-last_modified_at: 2023-11-12
+content_hash: 2fe1abdaeea25191ba154a8586aa014605e820a6
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 ഈ കമാൻഡ് `Select-String` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

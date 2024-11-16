@@ -2,8 +2,8 @@
 layout: page
 title: common/git-annotate (Indonesia)
 description: "Tampilkan kode hash serta pelaku komit terakhir pada setiap baris suatu file teks."
-content_hash: 6d5990ac6d04f8bddf785ed72f2b2e31faceed44
-last_modified_at: 2024-10-13
+content_hash: 7b141ef67d0409e46dcacc8389e9e8e2a5735b3a
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/git-annotate.html
@@ -30,7 +30,7 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-annotate>.
 
 `git annotate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span>
 
-- Tampilkan file dengan informasi komit menggunakan alamat surel/[e]mail daripada nama pelaku:
+- Tampilkan file dengan informasi komit menggunakan alamat surel/email daripada nama pelaku:
 
 `git annotate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|--show-email</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span>
 

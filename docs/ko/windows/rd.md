@@ -2,8 +2,8 @@
 layout: page
 title: windows/rd (한국어)
 description: "이 명령은 Command Prompt에서는 `rmdir`의 별칭이며, PowerShell에서는 `Remove-Item`의 별칭입니다."
-content_hash: db62c201881aa5b073be9dd9032681d4c46994a1
-last_modified_at: 2024-11-06
+content_hash: 8e8ca8ebab55089d31a8a20a843949fabc74b3bd
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/windows/rd.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # rd
 
 이 명령은 Command Prompt에서는 `rmdir`의 별칭이며, PowerShell에서는 `Remove-Item`의 별칭입니다.
-더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.
 
 - 원본 Command Prompt 명령에 대한 문서 보기:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/aria2c (español)
 description: "Utilidad de descarga rápida."
-content_hash: ebdffeed136a14bc55b5b324bb3f0fa68e385652
-last_modified_at: 2024-06-18
+content_hash: e84437271ea6011e36eebb07cd59ae0341cdc0c7
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/aria2c.html
@@ -60,7 +60,7 @@ Más información: <https://aria2.github.io>.
 
 - Descarga a través de FTP con un nombre de usuario y contraseña:
 
-`aria2c --ftp-user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_usuario</span>` --ftp-passwd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
+`aria2c --ftp-user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` --ftp-passwd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
 
 - Limita la velocidad de descarga en bytes por segundo:
 

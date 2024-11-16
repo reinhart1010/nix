@@ -2,8 +2,8 @@
 layout: page
 title: common/git-clean (Indonesia)
 description: "Hapus berkas-berkas yang tak dilacak oleh Git pada pohon direktori kerja saat ini."
-content_hash: f46ba924183d445483d7c37b5a5f0c7b91d440c0
-last_modified_at: 2024-09-11
+content_hash: 4b282b41897705392b252d5a958c20b190e21f93
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/git-clean.html
@@ -37,7 +37,7 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-clean>.
 
 `git clean`
 
-- Hapus menggunakan mode [i]nteraktif:
+- Hapus menggunakan mode interaktif:
 
 `git clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--interactive</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (മലയാളം)
 description: "ഈ കമാൻഡ് `fossil rm` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 461a20b3779214b82cecaa2fe81dcd31cc11e621
-last_modified_at: 2024-05-09
+content_hash: 229ad6537a234e1b5de62710394b10d259178399
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil delete
 
 ഈ കമാൻഡ് `fossil rm` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://fossil-scm.org/home/help/delete>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

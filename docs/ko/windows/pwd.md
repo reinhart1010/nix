@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwd (한국어)
 description: "PowerShell에서 이 명령은 `Get-Location`의 별칭입니다."
-content_hash: a7833b25d3d5e077ac7b9e0b6720378878025041
-last_modified_at: 2024-10-30
+content_hash: 8b4e8273edce21302f4221bdf9169c31d7f4ab61
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/windows/pwd.html
@@ -17,7 +17,6 @@ tldri18n_status: 2
 
 PowerShell에서 이 명령은 `Get-Location`의 별칭입니다.
 그러나 이 명령은 명령 프롬프트(`cmd`)에서 사용할 수 없습니다. 유사한 기능을 위해 `cd`를 사용하세요.
-더 많은 정보: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-location>.
 
 - 동등한 명령 프롬프트 명령에 대한 문서 보기:
 

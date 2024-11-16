@@ -2,8 +2,8 @@
 layout: page
 title: common/calibredb (Indonesia)
 description: "Kelola suatu pangkalan data perpustakaan buku digital."
-content_hash: f4abc7d854b198ec0c9295d233712a4f66a87c2c
-last_modified_at: 2024-09-25
+content_hash: 607f21918f07a2f2ee7f58b8815d615e6a6ac4d1
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/calibredb.html
@@ -38,7 +38,7 @@ Informasi lebih lanjut: <https://manual.calibre-ebook.com/generated/en/calibredb
 
 `calibredb add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>
 
-- Masukkan seluruh buku dalam suatu direktori secara [r]ekursif:
+- Masukkan seluruh buku dalam suatu direktori secara rekursif:
 
 `calibredb add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recurse</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
 

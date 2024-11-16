@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (മലയാളം)
 description: "ഈ കമാൻഡ് `gnmic subscribe` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 3c7bf9b2c468ac5b21c18269f6facee8c6df58bc
-last_modified_at: 2024-05-09
+content_hash: 7af3062314f1dc049b929dde6851b789b417d061
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gnmic sub
 
 ഈ കമാൻഡ് `gnmic subscribe` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

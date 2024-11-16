@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (नेपाली)
 description: "यो आदेश `pio` को उपनाम हो |"
-content_hash: c30dfa9999d8af08aa2201c8f58964da9acf9d89
-last_modified_at: 2023-11-12
+content_hash: 4993e80e790f14bd86f334ebe6177bbcd0630700
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 यो आदेश `pio` को उपनाम हो |
-थप जानकारी: <https://docs.platformio.org/en/latest/core/userguide/>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

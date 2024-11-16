@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (नेपाली)
 description: "यो आदेश `gnmic subscribe` को उपनाम हो |"
-content_hash: 13d4f388c0aa206aa16ee4aaddc32886274e610a
-last_modified_at: 2024-05-09
+content_hash: 8080d7ca1a48b72d8a36f75d27e3969070dcd966
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gnmic sub
 
 यो आदेश `gnmic subscribe` को उपनाम हो |
-थप जानकारी: <https://gnmic.kmrd.dev/cmd/subscribe>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

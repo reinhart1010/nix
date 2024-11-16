@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (नेपाली)
 description: "यो आदेश `choco push` को उपनाम हो |"
-content_hash: 92bb98e6106ebf22c574f1d5309c723267b8660d
-last_modified_at: 2024-11-15
+content_hash: dc36e9201ac77d50b07e7aa3b2e2aa8b88587173
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # cpush
 
 यो आदेश `choco push` को उपनाम हो |
-थप जानकारी: <https://docs.chocolatey.org/en-us/create/commands/push>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

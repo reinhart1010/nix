@@ -2,14 +2,17 @@
 layout: page
 title: common/gcc (Indonesia)
 description: "Praproses dan susun kode sumber C dan C++, lalu rakit dan gabungkan bersama-sama."
-content_hash: c14264e7063dfe80a6f3314ff831f31e76d6778e
-last_modified_at: 2024-09-23
+content_hash: 298214bd16bc5c2d50d2dde7c31ca1f191720297
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/gcc.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/gcc.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/gcc.html
@@ -38,11 +41,11 @@ Informasi lebih lanjut: <https://gcc.gnu.org>.
 
 `gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber1.c jalan/menuju/sumber2.c ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 
-- Tampilkan pesan peringatan dan galat dalam [o]utput:
+- Tampilkan pesan peringatan dan galat dalam output:
 
 `gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.c</span>` -Wall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 
-- Izinkan peringatan dan simbol debug dalam [o]utput:
+- Izinkan peringatan dan simbol debug dalam output:
 
 `gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.c</span>` -Wall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|--debug</span>` -Og `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 

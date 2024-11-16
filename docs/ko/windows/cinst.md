@@ -2,20 +2,11 @@
 layout: page
 title: windows/cinst (한국어)
 description: "이 명령은 `choco install` 의 에일리어스 (별칭) 입니다."
-content_hash: 84e4ebe67159dfc6ad83ad41ca3fd43548ef3687
-last_modified_at: 2023-11-12
+content_hash: aeffd5766c12687cbe412196ff88ca6849666c3c
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cinst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cinst
 
 이 명령은 `choco install` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

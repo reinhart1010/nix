@@ -2,8 +2,8 @@
 layout: page
 title: common/ac (español)
 description: "Imprime estadísticas sobre cuanto tiempo han estado conectados los usuarios."
-content_hash: a2343a1b505135d6f8585a7749d657206b77f4af
-last_modified_at: 2024-01-07
+content_hash: acaad747e27150bf675d9653e1356dbf58d9cc6c
+last_modified_at: 2024-11-16
 related_topics:
   - title: বাংলা version
     url: /bn/common/ac.html
@@ -49,8 +49,8 @@ Más información: <https://man.openbsd.org/ac>.
 
 - Imprime cuanto tiempo ha estado conectado un usuario en particular en horas:
 
-`ac -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>
+`ac -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>
 
 - Imprime cuánto tiempo ha estado conectado un usuario en particular en horas por día (con total):
 
-`ac -dp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>
+`ac -dp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>

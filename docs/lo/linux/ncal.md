@@ -2,20 +2,14 @@
 layout: page
 title: linux/ncal (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `cal`."
-content_hash: 2fa81a1c6189d4f93799a9f543d7ec52f340f739
-last_modified_at: 2023-11-12
+content_hash: 0531549527141200709aced3dbfa02c56f65fb5c
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,7 +88,6 @@ tldri18n_status: 2
 # ncal
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `cal`.
-ຂໍ້ມູນເພີ່ມເຕີມ: <https://manned.org/ncal>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຄຳສັ່ງແບບເຕັມ:
 

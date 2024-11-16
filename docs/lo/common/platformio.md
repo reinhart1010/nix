@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `pio`."
-content_hash: ad4873f26df0ae6e732ec679cea6e3de2fb0090b
-last_modified_at: 2023-11-12
+content_hash: 2b4853f91b2b59a223479112a372b4e9d2bd1e01
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `pio`.
-ຂໍ້ມູນເພີ່ມເຕີມ: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຄຳສັ່ງແບບເຕັມ:
 

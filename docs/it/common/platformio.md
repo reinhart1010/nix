@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (italiano)
 description: "Questo comando è un alias per `pio`."
-content_hash: ea6f333a0b16a83dda34dffb9676e15055ce3338
-last_modified_at: 2023-11-12
+content_hash: ffc3171f512085e1cd11d6f6c606a8aa1c7ae0a9
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 Questo comando è un alias per `pio`.
-Maggiori informazioni: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Consulta la documentazione del comando originale:
 

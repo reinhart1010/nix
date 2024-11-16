@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (italiano)
 description: "Questo comando è un alias per `invoke-webrequest`."
-content_hash: 059815333803bba415f19b91fab12ce1d9583704
-last_modified_at: 2023-11-12
+content_hash: 54df3e4d4788d4afc2500f9f8638eef59a4a6780
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 Questo comando è un alias per `invoke-webrequest`.
-Maggiori informazioni: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Consulta la documentazione del comando originale:
 

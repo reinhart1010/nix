@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `tldr-lint`."
-content_hash: d7ef1845e62f2ecaea4a7228e0c920b0a6a850a5
-last_modified_at: 2023-11-12
+content_hash: 3d6663a80afe452c2b672dfc66d05496f12b9567
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `tldr-lint`.
-ຂໍ້ມູນເພີ່ມເຕີມ: <https://github.com/tldr-pages/tldr-lint>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຄຳສັ່ງແບບເຕັມ:
 

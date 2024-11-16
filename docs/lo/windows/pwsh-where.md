@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `Where-Object`."
-content_hash: 3428991bca93244a13424247e4d934c8d773007d
-last_modified_at: 2023-12-22
+content_hash: 2b27c037e1101103d61dd1d6bad8d00136c1df5e
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # pwsh where
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `Where-Object`.
-ຂໍ້ມູນເພີ່ມເຕີມ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 

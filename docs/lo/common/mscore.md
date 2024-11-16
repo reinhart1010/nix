@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `musescore`."
-content_hash: 14394aa02ac85db02aa43ded1a15de112cd31114
-last_modified_at: 2023-11-12
+content_hash: 2dbd6c347140df46bf0db8b144a24a72298c805d
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `musescore`.
-ຂໍ້ມູນເພີ່ມເຕີມ: <https://musescore.org/handbook/command-line-options>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຄຳສັ່ງແບບເຕັມ:
 

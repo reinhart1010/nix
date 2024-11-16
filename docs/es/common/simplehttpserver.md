@@ -2,11 +2,14 @@
 layout: page
 title: common/simplehttpserver (español)
 description: "Un simple servidor HTTP/S que soporta subida de ficheros, autenticación básica y reglas YAML para respuestas personalizadas."
-content_hash: 061b30c64ac491670f9f5a7ee545f633a0014e1e
-last_modified_at: 2024-03-17
+content_hash: 04553b482defcd9493884a2e3aa9105b7131008d
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/simplehttpserver.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/simplehttpserver.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -22,7 +25,7 @@ Más información: <https://github.com/projectdiscovery/simplehttpserver>.
 
 - Inicia el servidor HTTP con autenticación básica sirviendo una ruta específica a través del puerto 80 en todas las interfaces:
 
-`sudo simplehttpserver -basic-auth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span>` -path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/www/html</span>` -listen 0.0.0.0:80`
+`sudo simplehttpserver -basic-auth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span>` -path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/www/html</span>` -listen 0.0.0.0:80`
 
 - Inicia el servidor HTTP, habilitando HTTPS utilizando un certificado autofirmado con SAN personalizado en todas las interfaces:
 

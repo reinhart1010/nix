@@ -2,20 +2,11 @@
 layout: page
 title: windows/cuninst (italiano)
 description: "Questo comando è un alias per `choco uninstall`."
-content_hash: 9de07299cd6b61ae9bc3640654f48fd5ece2e397
-last_modified_at: 2023-11-12
+content_hash: 4b69762a8a677fd87fab3604e2be9ddc0fc8b0c8
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cuninst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cuninst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cuninst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cuninst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cuninst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cuninst
 
 Questo comando è un alias per `choco uninstall`.
-Maggiori informazioni: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Consulta la documentazione del comando originale:
 
