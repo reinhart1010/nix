@@ -2,8 +2,8 @@
 layout: page
 title: windows/rd (español)
 description: "Este comando es un alias de `rmdir` en la consola de comandos, y subsecuentemente de `Remove-Item` en PowerShell."
-content_hash: 8eae801d40e9d60e4b942aeb1dd10a3aee08fc1c
-last_modified_at: 2024-10-17
+content_hash: 585be6feea1463c8a8e5e75184812fb85fd1481b
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/windows/rd.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # rd
 
 Este comando es un alias de `rmdir` en la consola de comandos, y subsecuentemente de `Remove-Item` en PowerShell.
-Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.
 
 - Vea documentación del comando original de la consola:
 

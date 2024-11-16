@@ -2,15 +2,15 @@
 layout: page
 title: common/npm-outdated (한국어)
 description: "오래된 npm 패키지 의존성을 확인."
-content_hash: 9a6ba488f2782b46a0b3e7002a90ba4b7230bc59
-last_modified_at: 2024-11-02
+content_hash: fe37944ea045356b8dd004030fa4b7d933146072
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/npm-outdated.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-outdated
+# npm outdated
 
 오래된 npm 패키지 의존성을 확인.
 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-outdated>.

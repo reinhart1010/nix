@@ -2,8 +2,8 @@
 layout: page
 title: common/npm-name (Nederlands)
 description: "Controleer of een pakket- of organisatienaam beschikbaar is op npm."
-content_hash: 4ad19d6e0be0254d48c64d9ddab4b5c7ab72d864
-last_modified_at: 2024-10-10
+content_hash: 60420fb9a0a7b7727dffd396ed5ceab8e43f5696
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/npm-name.html
@@ -13,7 +13,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-name
+# npm name
 
 Controleer of een pakket- of organisatienaam beschikbaar is op npm.
 Meer informatie: <https://github.com/sindresorhus/npm-name-cli>.

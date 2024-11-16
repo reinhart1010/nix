@@ -1,18 +1,27 @@
 ---
 layout: page
 title: common/batch (polski)
-description: "Wykonaj polecenia, gdy pozwoli na to poziom obciążenia systmu."
-content_hash: f5518094b9a94069dad9665288f51ff507c0cdee
-last_modified_at: 2024-10-17
+description: "To polecenie jest aliasem `at`."
+content_hash: 034add0935714b6e8c0886ec628b02f752bb7861
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/batch.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/batch.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/batch.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/batch.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/batch.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/batch.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/batch.html
@@ -24,18 +33,8 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># batch
 
-Wykonaj polecenia, gdy pozwoli na to poziom obciążenia systmu.
-Aby działać poprawnie wymaga działającego serwisu atd (lub atrun).
-Więcej informacji: <https://manned.org/batch>.
+To polecenie jest aliasem `at`.
 
-- Wykonaj polecenie wprowadzone przy użyciu wejścia standardowego (aby zakończyć naciśnij `Ctrl + D`):
+- Zobacz dokumentację oryginalnego polecenia:
 
-`batch`
-
-- Wykonaj polecenie podane z wejścia standardowego:
-
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./zrób_backup.sh</span>`" | batch`
-
-- Wykonaj polecenia z podanego pliku:
-
-`batch -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>
+`tldr at`

@@ -2,11 +2,15 @@
 layout: page
 title: common/npm-org (English)
 description: "Manage organizations."
-content_hash: 329becfd924365807049a7fcb338878bc2503a56
-last_modified_at: 2024-11-05
+content_hash: 673bfde451f0518680c42fb4c456655689e1132b
+last_modified_at: 2024-11-16
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/npm-org.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-org
+# npm org
 
 Manage organizations.
 More information: <https://docs.npmjs.com/cli/commands/npm-org>.

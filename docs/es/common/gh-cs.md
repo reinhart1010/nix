@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-cs (español)
 description: "Este comando es un alias de `gh codespace`."
-content_hash: 1b394aa17a1ffaf6f997d26b7de1f2b78a2edad1
-last_modified_at: 2024-11-15
+content_hash: f7cd5150cf1d21aab2b46b7b20ba6e013c3105ec
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -94,8 +94,7 @@ tldri18n_status: 2
 # gh cs
 
 Este comando es un alias de `gh codespace`.
-Más información: <https://cli.github.com/manual/gh_codespace>.
 
-- Muestra la documentación del comando original:
+- Vea la documentación del comando original:
 
 `tldr gh codespace`

@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (Deutsch)
 description: "Dieser Befehl ist ein Alias von `fossil rm`."
-content_hash: 33b737a6f9cfec200c0831a022307eb80285740c
-last_modified_at: 2024-05-09
+content_hash: b3a098dd38867476a2bf44a6f4095f2de2b4d617
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil delete
 
 Dieser Befehl ist ein Alias von `fossil rm`.
-Weitere Informationen: <https://fossil-scm.org/home/help/delete>.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

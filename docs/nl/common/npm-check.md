@@ -2,8 +2,8 @@
 layout: page
 title: common/npm-check (Nederlands)
 description: "Controleer op verouderde, onjuiste en ongebruikte npm-pakketafhankelijkheden."
-content_hash: 13a1a4a1b75534a6790158e4f7ae7d553c618301
-last_modified_at: 2024-10-10
+content_hash: b36317a6bad113d7046523ad5183e6b5e474d8ac
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/npm-check.html
@@ -16,7 +16,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-check
+# npm check
 
 Controleer op verouderde, onjuiste en ongebruikte npm-pakketafhankelijkheden.
 Meer informatie: <https://github.com/dylang/npm-check>.

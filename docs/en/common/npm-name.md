@@ -2,8 +2,8 @@
 layout: page
 title: common/npm-name (English)
 description: "Check whether a package or organization name is available on npm."
-content_hash: bb636bfa7bdc3e3fe615a5f30f69b3c4a332c586
-last_modified_at: 2024-10-20
+content_hash: 57f722c4fa905e7818790a93b1cd0b4b34a4a8dd
+last_modified_at: 2024-11-16
 related_topics:
   - title: 한국어 version
     url: /ko/common/npm-name.html
@@ -13,7 +13,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-name
+# npm name
 
 Check whether a package or organization name is available on npm.
 More information: <https://github.com/sindresorhus/npm-name-cli>.

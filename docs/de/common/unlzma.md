@@ -2,21 +2,9 @@
 layout: page
 title: common/unlzma (Deutsch)
 description: "Dieser Befehl ist ein Alias von `xz`."
-content_hash: 84b3531cde2ba9c25fcc5da353a8029baa669ee9
-last_modified_at: 2023-11-12
+content_hash: 43a2319ab5df7737b12b54a5c41bc70bc4c61793
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/unlzma.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/unlzma.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/unlzma.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/unlzma.html
-    icon: bi bi-globe
   - title: English version
     url: /en/common/unlzma.html
     icon: bi bi-globe
@@ -35,26 +23,14 @@ related_topics:
   - title: italiano version
     url: /it/common/unlzma.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/unlzma.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/unlzma.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/unlzma.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/unlzma.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/unlzma.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/unlzma.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/unlzma.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/unlzma.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/unlzma.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/unlzma.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/unlzma.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/unlzma.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/unlzma.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/unlzma.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/unlzma.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # unlzma
 
 Dieser Befehl ist ein Alias von `xz`.
-Weitere Informationen: <https://manned.org/unlzma>.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

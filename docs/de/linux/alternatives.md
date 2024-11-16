@@ -2,21 +2,9 @@
 layout: page
 title: linux/alternatives (Deutsch)
 description: "Dieser Befehl ist ein Alias von `update-alternatives`."
-content_hash: bc5e5eef96a728c98cddea12ce9fb6cf8635ba77
-last_modified_at: 2023-11-12
+content_hash: f133c03fb410ca12d57c734c9f7c67067dda602a
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/linux/alternatives.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/alternatives.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/alternatives.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/alternatives.html
-    icon: bi bi-globe
   - title: English version
     url: /en/linux/alternatives.html
     icon: bi bi-globe
@@ -35,26 +23,14 @@ related_topics:
   - title: italiano version
     url: /it/linux/alternatives.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/alternatives.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/alternatives.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/alternatives.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/alternatives.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/linux/alternatives.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/alternatives.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/alternatives.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/alternatives.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/alternatives.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/alternatives.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/alternatives.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/alternatives.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/alternatives.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/alternatives.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/alternatives.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # alternatives
 
 Dieser Befehl ist ein Alias von `update-alternatives`.
-Weitere Informationen: <https://manned.org/alternatives>.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

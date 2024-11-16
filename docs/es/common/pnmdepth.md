@@ -2,8 +2,8 @@
 layout: page
 title: common/pnmdepth (español)
 description: "Este comando es un alias de `pamdepth`."
-content_hash: 7efbee47a2faeb903f353aefff6423780331e83f
-last_modified_at: 2024-11-09
+content_hash: 26f1e68d30528274e01f00052fe6f28938893b6d
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/pnmdepth.html
@@ -19,7 +19,6 @@ tldri18n_status: 2
 # pnmdepth
 
 Este comando es un alias de `pamdepth`.
-Más información: <https://netpbm.sourceforge.net/doc/pnmdepth.html>.
 
 - Vea la documentación para el comando original:
 

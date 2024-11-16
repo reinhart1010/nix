@@ -2,8 +2,8 @@
 layout: page
 title: common/lzma (español)
 description: "Este comando es un alias de `xz --format=lzma`."
-content_hash: 9933baf59486ec905fd610c957acc6783396bb3a
-last_modified_at: 2024-11-12
+content_hash: 5960bd0fc4a0d2639dad060d5d1097d6cc3d66a8
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/lzma.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # lzma
 
 Este comando es un alias de `xz --format=lzma`.
-Más información: <https://manned.org/lzma>.
 
 - Vea la documentación para el comando original:
 

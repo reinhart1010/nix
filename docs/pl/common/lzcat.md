@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/lzcat (polski)
-description: "To polecenie jest aliasem `xz`."
-content_hash: 3f4f7f01216feaefd44758a394df159641ad289c
-last_modified_at: 2024-11-11
+description: "To polecenie jest aliasem `xz --format=lzma --decompress --stdout`."
+content_hash: ef8506dc0fc87956a54c882e68ead9be731ec5a3
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/lzcat.html
@@ -60,7 +60,7 @@ tldri18n_status: 2
 ---
 # lzcat
 
-To polecenie jest aliasem `xz`.
+To polecenie jest aliasem `xz --format=lzma --decompress --stdout`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

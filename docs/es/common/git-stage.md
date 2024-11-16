@@ -2,8 +2,8 @@
 layout: page
 title: common/git-stage (español)
 description: "Este comando es un alias de `git add`."
-content_hash: 67adec00a819468c969d341f12247b589a68479d
-last_modified_at: 2024-11-06
+content_hash: 607f16510c0a7a5908ba7a05f41aa8ec2a4d772e
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/git-stage.html
@@ -34,7 +34,6 @@ tldri18n_status: 2
 # git stage
 
 Este comando es un alias de `git add`.
-Más información: <https://git-scm.com/docs/git-stage>.
 
 - Vea la documentación para el comando original:
 

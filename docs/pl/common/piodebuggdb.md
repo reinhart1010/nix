@@ -1,21 +1,12 @@
 ---
 layout: page
 title: common/piodebuggdb (polski)
-description: "To polecenie jest aliasem `pio debug`."
-content_hash: 86ad990fbfb60f5710ca7fbc63a508359dea9300
-last_modified_at: 2023-11-12
+description: "To polecenie jest aliasem `pio debug --interface=gdb`."
+content_hash: 1a368d112d0a1dc005abaeb849bb61219438adf3
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/piodebuggdb.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/piodebuggdb.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/piodebuggdb.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/piodebuggdb.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/piodebuggdb.html
@@ -49,9 +40,6 @@ related_topics:
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/piodebuggdb.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/common/piodebuggdb.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/piodebuggdb.html
@@ -93,7 +81,7 @@ tldri18n_status: 2
 ---
 # piodebuggdb
 
-To polecenie jest aliasem `pio debug`.
+To polecenie jest aliasem `pio debug --interface=gdb`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

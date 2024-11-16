@@ -2,8 +2,8 @@
 layout: page
 title: common/pnmtoplainpnm (español)
 description: "Este comando es un alias de `pamtopnm -plain`."
-content_hash: 1e088e818f2eda35342e27238b26cc8c5946151b
-last_modified_at: 2024-11-09
+content_hash: 266cb52dec730e704613935f041ef675cce5f85f
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/pnmtoplainpnm.html
@@ -19,7 +19,6 @@ tldri18n_status: 2
 # pnmtoplainpnm
 
 Este comando es un alias de `pamtopnm -plain`.
-Más información: <https://netpbm.sourceforge.net/doc/pnmtoplainpnm.html>.
 
 - Vea la documentación para el comando original:
 

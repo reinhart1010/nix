@@ -2,8 +2,8 @@
 layout: page
 title: windows/slmgr (español)
 description: "Este comando es un alias de `slmgr.vbs`."
-content_hash: 8689a7c5c2e9deaedff920b8b60eab44298b49aa
-last_modified_at: 2024-11-05
+content_hash: 8220e4fa25596320ae336245ad3229b5371011fc
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/windows/slmgr.html
@@ -19,7 +19,6 @@ tldri18n_status: 2
 # slmgr
 
 Este comando es un alias de `slmgr.vbs`.
-Más información: <https://learn.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options>.
 
 - Vea la documentación para el comando original:
 

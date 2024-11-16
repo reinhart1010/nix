@@ -2,8 +2,8 @@
 layout: page
 title: common/npm-why (Nederlands)
 description: "Identificeert waarom een npm-pakket is geïnstalleerd."
-content_hash: 9e4cdc6d9a0c511891a5aed71f38e5ba888083a1
-last_modified_at: 2024-10-10
+content_hash: 22b9ada42f84873a7a4beeb123c3564774540f94
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/npm-why.html
@@ -19,7 +19,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-why
+# npm why
 
 Identificeert waarom een npm-pakket is geïnstalleerd.
 Meer informatie: <https://github.com/amio/npm-why>.

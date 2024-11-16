@@ -2,8 +2,8 @@
 layout: page
 title: common/npm-home (English)
 description: "Open the npm page, Yarn page, or GitHub repository of a package in the web browser."
-content_hash: 532c2687da787e2ae4594f1faeb91e7f6d96bfcd
-last_modified_at: 2024-10-20
+content_hash: 7674d4639ef30ef0f10da993a86a5cc3c316d50b
+last_modified_at: 2024-11-16
 related_topics:
   - title: 한국어 version
     url: /ko/common/npm-home.html
@@ -13,7 +13,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-home
+# npm home
 
 Open the npm page, Yarn page, or GitHub repository of a package in the web browser.
 More information: <https://github.com/sindresorhus/npm-home>.

@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (español)
 description: "Este comando es un alias de `musescore`."
-content_hash: 496e0764f0fb67e8014a8574c05b49dc22c8c1dd
-last_modified_at: 2024-01-07
+content_hash: cab100437e1ee79a8d228cfb45e848e150737ec3
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,8 +85,7 @@ tldri18n_status: 2
 # mscore
 
 Este comando es un alias de `musescore`.
-Más información: <https://musescore.org/handbook/command-line-options>.
 
-- Muestra la documentación del comando original:
+- Vea la documentación del comando original:
 
 `tldr musescore`

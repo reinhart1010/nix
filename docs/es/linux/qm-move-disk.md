@@ -2,8 +2,8 @@
 layout: page
 title: linux/qm-move-disk (español)
 description: "Este comando es un alias de `qm disk move`."
-content_hash: 7506f40fbaae6e2dea84cecfff21872f19b418d7
-last_modified_at: 2024-11-05
+content_hash: 28d2788abc26721232040b71e7073340ec469d66
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/linux/qm-move-disk.html
@@ -19,7 +19,6 @@ tldri18n_status: 2
 # qm move disk
 
 Este comando es un alias de `qm disk move`.
-Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Vea la documentación para el comando original:
 

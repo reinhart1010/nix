@@ -2,8 +2,8 @@
 layout: page
 title: common/lzcat (español)
 description: "Este comando es un alias de `xz --format=lzma --decompress --stdout`."
-content_hash: 88117c9ff9f8adaca5e7b0432005a9ff70992f5d
-last_modified_at: 2024-11-12
+content_hash: 1ba038079c71a266a382b89922ca88f7067ab97d
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/lzcat.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # lzcat
 
 Este comando es un alias de `xz --format=lzma --decompress --stdout`.
-Más información: <https://manned.org/lzcat>.
 
 - Vea la documentación para el comando original:
 

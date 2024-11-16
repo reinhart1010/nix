@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-cp (español)
 description: "Este comando es un alias de `crane copy`."
-content_hash: c1fb0dd3606887326a1c4b0ff4cbd16859e22a46
-last_modified_at: 2024-11-06
+content_hash: 24defd9dc0f88a80832b02c65487e5f24d6e19f0
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/crane-cp.html
@@ -19,7 +19,6 @@ tldri18n_status: 2
 # crane cp
 
 Este comando es un alias de `crane copy`.
-Más información: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_copy.md>.
 
 - Vea la documentación para el comando original:
 

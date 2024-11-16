@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/alternatives (polski)
-description: "To polecenie jest aliasem dla `update-alternatives`."
-content_hash: bda28201e433f79c9c518761a634d32308fd4d6c
-last_modified_at: 2024-11-11
+description: "To polecenie jest aliasem `update-alternatives`."
+content_hash: 17ef3f69b6a3b80e91de2dfb13d4d88896a04f27
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/linux/alternatives.html
@@ -60,7 +60,7 @@ tldri18n_status: 2
 ---
 # alternatives
 
-To polecenie jest aliasem dla `update-alternatives`.
+To polecenie jest aliasem `update-alternatives`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

@@ -2,11 +2,15 @@
 layout: page
 title: common/npm-owner (English)
 description: "Manage ownership of published packages."
-content_hash: 556add308f0f4775a45213e4eac11b7e67b21bac
-last_modified_at: 2024-11-04
+content_hash: 0a6815c60588cc0270a995c716159b4bd0a175e4
+last_modified_at: 2024-11-16
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/npm-owner.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-owner
+# npm owner
 
 Manage ownership of published packages.
 More information: <https://docs.npmjs.com/cli/commands/npm-owner>.

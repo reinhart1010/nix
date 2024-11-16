@@ -2,8 +2,8 @@
 layout: page
 title: common/unxz (español)
 description: "Este comando es un alias de `xz --decompress`."
-content_hash: 03a38a443a2cde623b7727ded2027486093346f4
-last_modified_at: 2024-11-12
+content_hash: 34b0ff0b07967f12eaaf35f5a7b74b3be06f1781
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/unxz.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # unxz
 
 Este comando es un alias de `xz --decompress`.
-Más información: <https://manned.org/unxz>.
 
 - Vea la documentación para el comando original:
 

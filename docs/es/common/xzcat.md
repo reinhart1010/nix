@@ -2,8 +2,8 @@
 layout: page
 title: common/xzcat (español)
 description: "Este comando es un alias de `xz --decompress --stdout`."
-content_hash: b507b258f68cc48bf407dbf8714dc61f580bed1a
-last_modified_at: 2024-11-12
+content_hash: 36be81f1ca62df13be83a93df6be038093435adb
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/xzcat.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # xzcat
 
 Este comando es un alias de `xz --decompress --stdout`.
-Más información: <https://manned.org/xzcat>.
 
 - Vea la documentación para el comando original:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/azure-cli (español)
 description: "Este comando es un alias de `az`."
-content_hash: 2c72146888d7a99df8386f35ffaea5c177bd816f
-last_modified_at: 2024-10-31
+content_hash: 509178d6ce815168f547c875d40a92c09ef0e190
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/azure-cli.html
@@ -28,8 +28,7 @@ tldri18n_status: 2
 # azure-cli
 
 Este comando es un alias de `az`.
-Más información: <https://learn.microsoft.com/cli/azure>.
 
-- Muestra la documentación del comando original:
+- Vea la documentación del comando original:
 
 `tldr az`

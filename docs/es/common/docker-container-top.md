@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-container-top (español)
 description: "Este comando es un alias de `docker top`."
-content_hash: 41004f4c607dcb1573cecaebcd54fdb8c1f5ce35
-last_modified_at: 2024-11-06
+content_hash: a97c2b49fb5268d882bac7d94fe946f4b84f2876
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/docker-container-top.html
@@ -22,7 +22,6 @@ tldri18n_status: 2
 # docker container top
 
 Este comando es un alias de `docker top`.
-Más información: <https://docs.docker.com/reference/cli/docker/container/top/>.
 
 - Vea la documentación para el comando original:
 

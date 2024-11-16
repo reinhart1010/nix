@@ -2,8 +2,8 @@
 layout: page
 title: common/npm-install (한국어)
 description: "Node 패키지 설치."
-content_hash: 05d9028d8520e49d4fee88dba461093e7e553247
-last_modified_at: 2024-11-02
+content_hash: 828a8f6d5ff7e67c376400a4c44c0b55c2c4c130
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/npm-install.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 Node 패키지 설치.
 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-install>.
 
-- package.json에 나열된 의존성 설치:
+- `package.json`에 나열된 의존성 설치:
 
 `npm install`
 

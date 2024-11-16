@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (Deutsch)
 description: "Dieser Befehl ist ein Alias von `choco push`."
-content_hash: 04532d6f4b609b354b8e464fed42aa6f02cebf67
-last_modified_at: 2024-11-15
+content_hash: 7e987bd81edc7f317c03ba96ac81d9300d494475
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/windows/cpush.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # cpush
 
 Dieser Befehl ist ein Alias von `choco push`.
-Weitere Informationen: <https://docs.chocolatey.org/en-us/create/commands/push>.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

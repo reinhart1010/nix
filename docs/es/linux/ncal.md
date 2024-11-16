@@ -2,20 +2,14 @@
 layout: page
 title: linux/ncal (español)
 description: "Este comando es un alias de `cal`."
-content_hash: 8da75486522484e2b3fee157d05de797636c746c
-last_modified_at: 2024-01-07
+content_hash: 93b8a5450c6ce84e5fa34aa04a7f73e707581533
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,8 +88,7 @@ tldri18n_status: 2
 # ncal
 
 Este comando es un alias de `cal`.
-Más información: <https://manned.org/ncal>.
 
-- Muestra la documentación del comando original:
+- Vea la documentación del comando original:
 
 `tldr cal`

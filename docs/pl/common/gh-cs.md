@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (polski)
-description: "To polecenie jest aliasem  `gh codespace`."
-content_hash: c17670b140d5017e27d951893fe56977a193d4f3
-last_modified_at: 2024-11-15
+description: "To polecenie jest aliasem `gh codespace`."
+content_hash: 67c95d7d414a495f6639950612d528da9de74e23
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-To polecenie jest aliasem  `gh codespace`.
+To polecenie jest aliasem `gh codespace`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

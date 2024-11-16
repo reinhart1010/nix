@@ -2,15 +2,15 @@
 layout: page
 title: common/npm-org (한국어)
 description: "조직을 관리."
-content_hash: b338e8bbdae989b66d160cc844b4843663d5f0fa
-last_modified_at: 2024-11-06
+content_hash: 893f9902f38114e13c8f4ae8f20cf9a4c8a64690
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/npm-org.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-org
+# npm org
 
 조직을 관리.
 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-org>.

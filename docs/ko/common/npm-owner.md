@@ -2,15 +2,15 @@
 layout: page
 title: common/npm-owner (한국어)
 description: "게시된 패키지의 소유권 관리."
-content_hash: f4990bb6b076ecb8b9276b4ae07f9bb58c6b7e61
-last_modified_at: 2024-11-06
+content_hash: fc433845f997a93a89173d5ff356bef6b39a85c8
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/npm-owner.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-owner
+# npm owner
 
 게시된 패키지의 소유권 관리.
 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-owner>.

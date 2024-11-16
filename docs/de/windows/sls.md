@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (Deutsch)
 description: "Dieser Befehl ist ein Alias von `Select-String`."
-content_hash: ac7b5a7da9c606a77ca1f3e5f7184e194cf316da
-last_modified_at: 2023-11-12
+content_hash: f24302d27a8af38d5812c1e24badd35fbcc9625a
+last_modified_at: 2024-11-16
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 Dieser Befehl ist ein Alias von `Select-String`.
-Weitere Informationen: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

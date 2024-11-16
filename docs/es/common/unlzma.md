@@ -2,8 +2,8 @@
 layout: page
 title: common/unlzma (español)
 description: "Este comando es un alias de `xz --format=lzma --decompress`."
-content_hash: ca1fb57a76b0378d9be34bfa2583eae1b81cec81
-last_modified_at: 2024-11-12
+content_hash: f9c2235d55d53d0d69816d62169229ac77fcd59d
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/unlzma.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # unlzma
 
 Este comando es un alias de `xz --format=lzma --decompress`.
-Más información: <https://manned.org/unlzma>.
 
 - Vea la documentación para el comando original:
 

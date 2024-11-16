@@ -2,8 +2,8 @@
 layout: page
 title: common/hping (español)
 description: "Este comando es un alias de `hping3`."
-content_hash: e9f1d510b7fe2ba946fdcbbb7ccf27c08ac5c54b
-last_modified_at: 2024-11-06
+content_hash: 784daa1a7896235731106762fb988a8c59699ec0
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/hping.html
@@ -25,7 +25,6 @@ tldri18n_status: 2
 # hping
 
 Este comando es un alias de `hping3`.
-Más información: <https://github.com/antirez/hping>.
 
 - Vea la documentación para el comando original:
 

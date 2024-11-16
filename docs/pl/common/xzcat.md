@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/xzcat (polski)
-description: "To polecenie jest aliasem `xz`."
-content_hash: 189c9cbf68ed701f6a372662fb12c2a84ac0bc33
-last_modified_at: 2024-11-11
+description: "To polecenie jest aliasem `xz --decompress --stdout`."
+content_hash: 470836cdd793fb4699bd25154e4ab3576fef45f9
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/xzcat.html
@@ -60,7 +60,7 @@ tldri18n_status: 2
 ---
 # xzcat
 
-To polecenie jest aliasem `xz`.
+To polecenie jest aliasem `xz --decompress --stdout`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

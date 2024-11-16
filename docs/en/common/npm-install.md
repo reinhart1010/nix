@@ -1,17 +1,21 @@
 ---
 layout: page
 title: common/npm-install (English)
-description: "Install node packages."
-content_hash: 578b844f4b8433bd3112e6a6aea6bf507ef0ab6e
-last_modified_at: 2024-10-17
+description: "Install Node packages."
+content_hash: cc25156cc76d4f25b7be5e78e3dff007aef1ffe2
+last_modified_at: 2024-11-16
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/npm-install.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # npm install
 
-Install node packages.
+Install Node packages.
 More information: <https://docs.npmjs.com/cli/commands/npm-install>.
 
-- Install dependencies listed in package.json:
+- Install dependencies listed in `package.json`:
 
 `npm install`
 

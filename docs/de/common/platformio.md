@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (Deutsch)
 description: "Dieser Befehl ist ein Alias von `pio`."
-content_hash: 6acf710bd1ce5c15ee0433ac6ee6388dcfc1e6d0
-last_modified_at: 2023-11-12
+content_hash: f93b0716e10b0b23164d615d1fcfc6dfd18151e1
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 Dieser Befehl ist ein Alias von `pio`.
-Weitere Informationen: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

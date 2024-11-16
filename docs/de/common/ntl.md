@@ -2,21 +2,9 @@
 layout: page
 title: common/ntl (Deutsch)
 description: "Dieser Befehl ist ein Alias von `netlify`."
-content_hash: 5fb4e61f26b8c223fd388be228bda2c3f34ab5f3
-last_modified_at: 2023-11-12
+content_hash: 5062d5028bb617a51c9d1108522095516fce4eba
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/ntl.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/ntl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/ntl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/ntl.html
-    icon: bi bi-globe
   - title: English version
     url: /en/common/ntl.html
     icon: bi bi-globe
@@ -35,26 +23,14 @@ related_topics:
   - title: italiano version
     url: /it/common/ntl.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/ntl.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ntl.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/ntl.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/ntl.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/ntl.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/ntl.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/ntl.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ntl.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/ntl.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/ntl.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/ntl.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/ntl.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/ntl.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/ntl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ntl.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # ntl
 
 Dieser Befehl ist ein Alias von `netlify`.
-Weitere Informationen: <https://cli.netlify.com>.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

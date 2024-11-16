@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-container-rename (español)
 description: "Este comando es un alias de `docker rename`."
-content_hash: 5526423e63bc25486be733afc267620926800afd
-last_modified_at: 2024-11-06
+content_hash: aa13653fe0288885c5fc3512a3c90a3e19842f65
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/docker-container-rename.html
@@ -22,7 +22,6 @@ tldri18n_status: 2
 # docker container rename
 
 Este comando es un alias de `docker rename`.
-Más información: <https://docs.docker.com/reference/cli/docker/container/rename/>.
 
 - Vea la documentación para el comando original:
 

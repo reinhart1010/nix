@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/megadl (polski)
-description: "To polecenie jest aliasem dla `megatools-dl`."
-content_hash: 54f7ea672b27331258f47387e379786d0492337a
-last_modified_at: 2024-11-11
+description: "To polecenie jest aliasem `megatools-dl`."
+content_hash: 9943da20624cca39a4e7b813684b55e46e980503
+last_modified_at: 2024-11-16
 related_topics:
   - title: català version
     url: /ca/linux/megadl.html
@@ -63,7 +63,7 @@ tldri18n_status: 2
 ---
 # megadl
 
-To polecenie jest aliasem dla `megatools-dl`.
+To polecenie jest aliasem `megatools-dl`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

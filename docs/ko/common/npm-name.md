@@ -2,8 +2,8 @@
 layout: page
 title: common/npm-name (한국어)
 description: "npm에서 패키지 또는 조직 이름이 사용 가능한지 확인."
-content_hash: 02b796a16aaf5799219811e1e1448e9b1e669e01
-last_modified_at: 2024-11-01
+content_hash: bfacfaf8c7dd30d091d08c6d9967181c96e80f2a
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/npm-name.html
@@ -13,7 +13,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-name
+# npm name
 
 npm에서 패키지 또는 조직 이름이 사용 가능한지 확인.
 더 많은 정보: <https://github.com/sindresorhus/npm-name-cli>.

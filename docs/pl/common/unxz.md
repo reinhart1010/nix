@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/unxz (polski)
-description: "To polecenie jest aliasem `xz`."
-content_hash: 5bd661fe146297fe80c560ffc8f3df2541c56a53
-last_modified_at: 2024-11-11
+description: "To polecenie jest aliasem `xz --decompress`."
+content_hash: 3e05f9d90f26db7e02b6a4da5ec3645d3e217881
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/unxz.html
@@ -60,7 +60,7 @@ tldri18n_status: 2
 ---
 # unxz
 
-To polecenie jest aliasem `xz`.
+To polecenie jest aliasem `xz --decompress`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

@@ -2,21 +2,9 @@
 layout: page
 title: common/xzcat (Deutsch)
 description: "Dieser Befehl ist ein Alias von `xz`."
-content_hash: dbf95dbe3dce4e0450ef7d1314575d0bc184993b
-last_modified_at: 2023-11-12
+content_hash: ca8e59b91d491ef23c0a87123bfce447f2d37977
+last_modified_at: 2024-11-16
 related_topics:
-  - title: العربية version
-    url: /ar/common/xzcat.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/xzcat.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/xzcat.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/xzcat.html
-    icon: bi bi-globe
   - title: English version
     url: /en/common/xzcat.html
     icon: bi bi-globe
@@ -35,26 +23,14 @@ related_topics:
   - title: italiano version
     url: /it/common/xzcat.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/xzcat.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/xzcat.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/xzcat.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/xzcat.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/xzcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/xzcat.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/xzcat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/xzcat.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/xzcat.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/xzcat.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/xzcat.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/xzcat.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/xzcat.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/xzcat.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/xzcat.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # xzcat
 
 Dieser Befehl ist ein Alias von `xz`.
-Weitere Informationen: <https://manned.org/xzcat>.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

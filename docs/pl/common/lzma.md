@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/lzma (polski)
-description: "To polecenie jest aliasem `xz`."
-content_hash: 808b5669b5e92dda16c25612bfa6ca915f8b6cc9
-last_modified_at: 2024-11-11
+description: "To polecenie jest aliasem `xz --format=lzma`."
+content_hash: 1529affaad788dea93ce96593612da4c4941ec18
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/lzma.html
@@ -60,7 +60,7 @@ tldri18n_status: 2
 ---
 # lzma
 
-To polecenie jest aliasem `xz`.
+To polecenie jest aliasem `xz --format=lzma`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

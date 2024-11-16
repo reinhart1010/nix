@@ -2,8 +2,8 @@
 layout: page
 title: windows/sc-config (español)
 description: "Este comando es un alias de `sc.exe config`."
-content_hash: b9ca6f5c1014303ff29d9240238df5de108622fe
-last_modified_at: 2024-11-05
+content_hash: d091399fcc3d7e467f64ccb58816aefae1c2c068
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/windows/sc-config.html
@@ -19,7 +19,6 @@ tldri18n_status: 2
 # sc config
 
 Este comando es un alias de `sc.exe config`.
-Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/sc-config>.
 
 - Vea la documentación para el comando original:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-remove (English)
 description: "Arch Linux package manager utility."
-content_hash: 022faed7217046eb3172d313f6413315d33640a4
-last_modified_at: 2024-09-25
+content_hash: a15e65c9d524e098e87d370dcd28561e561c1925
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -34,30 +34,30 @@ Arch Linux package manager utility.
 See also: `pacman`.
 More information: <https://manned.org/pacman.8>.
 
-- Remove a package and its dependencies:
+- [R]emove a package and its dependencies recur[s]ively:
 
-`sudo pacman --remove --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Remove a package and both its dependencies and configuration files:
+- [R]emove a package and its dependencies. Also do [n]ot save backups of configuration files:
 
-`sudo pacman --remove --recursive --nosave `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo pacman -Rsn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Remove a package without prompting:
+- [R]emove a package without prompting:
 
-`sudo pacman --remove --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo pacman -R --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Remove orphan packages (installed as dependencies but not required by any package):
+- [R]emove orphan packages (installed as [d]ependencies but no[t] required by any package):
 
-`sudo pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)`
+`sudo pacman -Rsn $(pacman -Qdtq)`
 
-- Remove a package and all packages that depend on it:
+- [R]emove a package and [c]ascade that to all packages that depend on it:
 
-`sudo pacman --remove --cascade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo pacman -Rc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- List packages that would be affected (does not remove any packages):
+- List and [p]rint packages that would be affected (does not [R]emove any packages):
 
-`pacman --remove --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`pacman -Rp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Display help:
+- Display [h]elp:
 
-`pacman --remove --help`
+`pacman -Rh`

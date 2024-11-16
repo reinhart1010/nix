@@ -2,8 +2,8 @@
 layout: page
 title: common/npm-home (Nederlands)
 description: "Open de npm-pagina, Yarn-pagina of GitHub-repository van een pakket in de webbrowser."
-content_hash: 2ab031aba9c4bbb7cf428fdfba8097c85afe533a
-last_modified_at: 2024-10-10
+content_hash: e0483c2db1b5254cde151aae29398a717bccba54
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/npm-home.html
@@ -13,7 +13,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-home
+# npm home
 
 Open de npm-pagina, Yarn-pagina of GitHub-repository van een pakket in de webbrowser.
 Meer informatie: <https://github.com/sindresorhus/npm-home>.

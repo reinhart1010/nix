@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/cc (polski)
-description: "To polecenie jest aliasem dla `gcc`."
-content_hash: 575e341d3757d88cfb143d4af8a15624bbe0e34a
-last_modified_at: 2024-11-11
+description: "To polecenie jest aliasem `gcc`."
+content_hash: 3506cd88f2f39800f16e448244f83c91759c696d
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/linux/cc.html
@@ -60,7 +60,7 @@ tldri18n_status: 2
 ---
 # cc
 
-To polecenie jest aliasem dla `gcc`.
+To polecenie jest aliasem `gcc`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

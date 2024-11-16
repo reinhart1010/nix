@@ -1,12 +1,21 @@
 ---
 layout: page
 title: openbsd/chsh (polski)
-description: "Ta komenda jest aliasem `chpass`."
-content_hash: a57285b764b3da223d7b3a666eb746c265fd76ae
-last_modified_at: 2024-05-09
+description: "To polecenie jest aliasem `chpass`."
+content_hash: 3f2e3c2a2e38642c93adbe33715d9b1750af635f
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/openbsd/chsh.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/openbsd/chsh.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/openbsd/chsh.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/openbsd/chsh.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/openbsd/chsh.html
@@ -15,8 +24,8 @@ tldri18n_status: 2
 ---
 # chsh
 
-Ta komenda jest aliasem `chpass`.
+To polecenie jest aliasem `chpass`.
 
-- Pokaż dokumentację oryginalnej komendy:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr chpass`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/batcat (polski)
-description: "To polecenie jest aliasem dla `bat`."
-content_hash: 91a2c2f6d62cbfa938abfdaf8ffc2ff71e25a882
-last_modified_at: 2024-11-11
+description: "To polecenie jest aliasem `bat`."
+content_hash: 9e978cd6e4bce7696d4d4eaebcf09a619ddc15d3
+last_modified_at: 2024-11-16
 related_topics:
   - title: Deutsch version
     url: /de/linux/batcat.html
@@ -60,8 +60,8 @@ tldri18n_status: 2
 ---
 # batcat
 
-To polecenie jest aliasem dla `bat`.
+To polecenie jest aliasem `bat`.
 
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr bat`
