@@ -3,14 +3,20 @@ layout: page
 title: common/yt-dlp (português (Portugal))
 description: "Um fork do youtube-dl com funcionalidades e correções adicionais."
 content_hash: 92354abdef8d5b64c46d2d0107fad7fcb2062367
-last_modified_at: 2024-06-05
+last_modified_at: 2024-11-16
 related_topics:
   - title: English version
     url: /en/common/yt-dlp.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/common/yt-dlp.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# yt-dlp
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># yt-dlp
 
 Um fork do youtube-dl com funcionalidades e correções adicionais.
 Descarrega vídeos do YouTube e de outros websites.
