@@ -3,7 +3,7 @@ layout: page
 title: common/batch (polski)
 description: "To polecenie jest aliasem `at`."
 content_hash: 034add0935714b6e8c0886ec628b02f752bb7861
-last_modified_at: 2024-11-16
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -26,12 +26,9 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/batch.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># batch
+# batch
 
 To polecenie jest aliasem `at`.
 

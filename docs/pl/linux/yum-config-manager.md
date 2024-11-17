@@ -3,7 +3,7 @@ layout: page
 title: linux/yum-config-manager (polski)
 description: "To polecenie jest aliasem `dnf config-manager`."
 content_hash: 27f06a37f63ca955a6d35d27d0dfea7fc35afb0e
-last_modified_at: 2024-11-16
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/linux/yum-config-manager.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/yum-config-manager.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/yum-config-manager.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># yum config-manager
+# yum config-manager
 
 To polecenie jest aliasem `dnf config-manager`.
 

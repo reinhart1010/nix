@@ -3,7 +3,7 @@ layout: page
 title: common/fswebcam (한국어)
 description: "작고 간단한 \*nix용 웹캠."
 content_hash: 5b1b05b8585c0468e175100a8997046b683ffa2c
-last_modified_at: 2024-11-16
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/fswebcam.html
