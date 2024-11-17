@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (नेपाली)
-description: "यो आदेश  `fossil init`.को उपनाम हो |"
-content_hash: a2ab69e5b4ee6ee4a0306c9014e9adc21866b84c
-last_modified_at: 2024-11-16
+description: "यो आदेश `fossil init`.को उपनाम हो |"
+content_hash: 3367dfb64b0bf68a9949736e76b6e0e59fba04b3
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil new
 
-यो आदेश  `fossil init`.को उपनाम हो |
+यो आदेश `fossil init`.को उपनाम हो |
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

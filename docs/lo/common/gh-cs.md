@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (ລາວ)
-description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ  `gh codespace`."
-content_hash: 533eba6daaa181505e88a553718daef9d078ecbc
-last_modified_at: 2024-11-16
+description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `gh codespace`."
+content_hash: a8360a56bb9e31277d708f29475c1c521003538d
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ  `gh codespace`.
+ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `gh codespace`.
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/htop (Indonesia)
 description: "Tampilkan informasi waktu nyata dinamis tentang proses yang berjalan. Versi `top` yang disempurnakan."
-content_hash: 0fa98ab9e87f6668b73c85b2f780f8c28416d12f
-last_modified_at: 2024-11-10
+content_hash: 7a4b4f5d73d079a2c5ab084b732449e590504f4b
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -45,7 +45,7 @@ Informasi lebih lanjut: <https://htop.dev/>.
 
 `htop --tree`
 
-- Urutkan proses berdasarkan `sort_item` yang ditentukan (gunakan `htop --sort help` untuk opsi yang tersedia  ):
+- Urutkan proses berdasarkan `sort_item` yang ditentukan (gunakan `htop --sort help` untuk opsi yang tersedia):
 
 `htop --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sort_item</span>
 

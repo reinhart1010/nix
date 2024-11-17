@@ -2,11 +2,17 @@
 layout: page
 title: common/fc (português (Brasil))
 description: "Abre o último comando executado em um editor de texto."
-content_hash: daa0aee0e970e9b773341fcc38ad63b9eae45e57
-last_modified_at: 2023-12-28
+content_hash: ff709eae512a1cd92a97d69db11a9847b8b2c503
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/fc.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/fc.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/fc.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/fc.html
@@ -32,3 +38,19 @@ Mais informações: <https://manned.org/fc>.
 - Exibe um histórico dos últimos comandos executados:
 
 `fc -l`
+
+- Lista os comandos recentes em ordem reversa:
+
+`fc -l -r`
+
+- Edita e executa um comando do histórico:
+
+`fc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span>
+
+- Edita comandos em um dado intervalo e executa-os:
+
+`fc '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">416</span>`' '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">420</span>`'`
+
+- Mosta ajuda:
+
+`fc --help`

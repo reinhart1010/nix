@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (français)
-description: "Cette commande est un alias de  `fossil init`."
-content_hash: 992782854a9e5b3b9a5fbac2dbfc50569dab1458
-last_modified_at: 2024-11-15
+description: "Cette commande est un alias de `fossil init`."
+content_hash: e7c967f3e945e959667aca8d0affadaaab1a56b3
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil new
 
-Cette commande est un alias de  `fossil init`.
+Cette commande est un alias de `fossil init`.
 Plus d'informations : <https://fossil-scm.org/home/help/new>.
 
 - Voir la documentation de la commande originale :

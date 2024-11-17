@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (svenska)
-description: "Det här kommandot är ett alias för  `gh codespace`."
-content_hash: 9a835c798f52c37c56738b05b6699d30b10997f0
-last_modified_at: 2024-11-15
+description: "Det här kommandot är ett alias för `gh codespace`."
+content_hash: c1fb78f7739d84309893434cda3b5f261dde1374
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-Det här kommandot är ett alias för  `gh codespace`.
+Det här kommandot är ett alias för `gh codespace`.
 Mer information: <https://cli.github.com/manual/gh_codespace>.
 
 - Se dokumentationen för orginalkommandot:

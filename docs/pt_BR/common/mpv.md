@@ -2,14 +2,17 @@
 layout: page
 title: common/mpv (português (Brasil))
 description: "Um tocador de vídeo/audio baseado no MPlayer."
-content_hash: 8ea78fabb82dfb944811c7b15456464b144de94f
-last_modified_at: 2024-06-11
+content_hash: 7ccc7e7808160c60731dff5cade04a5bd226376a
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/mpv.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/mpv.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mpv.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/mpv.html
@@ -19,11 +22,12 @@ tldri18n_status: 2
 # mpv
 
 Um tocador de vídeo/audio baseado no MPlayer.
+Veja também: `mplayer`, `vlc`.
 Mais informações: <https://mpv.io>.
 
 - Toca um vídeo ou áudio de uma URL ou arquivo:
 
-`mpv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|caminho/para/arquivo</span>`'`
+`mpv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|caminho/para/arquivo</span>
 
 - Avança/retrocede 5 segundos:
 
@@ -33,11 +37,11 @@ Mais informações: <https://mpv.io>.
 
 `DOWN <or> UP`
 
-- Aumenta ou diminui a velocidade de reprodução em 10%:
+- Diminui ou aumenta a velocidade de reprodução em 10%:
 
 `[ <or> ]`
 
-- Captura a imagem atual (salva em `./mpv-shotNNNN.jpg` por padrão):
+- Captura a imagem do quadro atual (salva em `./mpv-shotNNNN.jpg` por padrão):
 
 `s`
 

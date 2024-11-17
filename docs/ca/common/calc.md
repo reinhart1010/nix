@@ -2,8 +2,8 @@
 layout: page
 title: common/calc (català)
 description: "Una calculadora de precisió arbitrària en la terminal."
-content_hash: 566340b1f9547b60eb1483e4a9ec12f4b85a3c8b
-last_modified_at: 2023-11-12
+content_hash: 117e797b24b3834efdd8483a808c27eef44c1869
+last_modified_at: 2024-11-17
 related_topics:
   - title: Deutsch version
     url: /de/common/calc.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/calc.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/calc.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/calc.html
@@ -43,6 +46,6 @@ Més informació: <https://github.com/lcn2/calc>.
 
 `calc`
 
-- Realizar un càlcul  en mode no-interactiu:
+- Realizar un càlcul en mode no-interactiu:
 
 `calc -p '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">85 * (36 / 4)</span>`'`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (bosanski)
-description: "Ova komanda je pseudonim za  `gh codespace`."
-content_hash: 8feb5a30155710e3448d219e476ee27bd418cc57
-last_modified_at: 2024-11-15
+description: "Ova komanda je pseudonim za `gh codespace`."
+content_hash: c81e2152d96effc7207c89cd2bea353a38c46bbb
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-Ova komanda je pseudonim za  `gh codespace`.
+Ova komanda je pseudonim za `gh codespace`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

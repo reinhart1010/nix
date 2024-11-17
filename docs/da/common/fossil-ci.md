@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (dansk)
-description: "Denne kommando er et alias af  `fossil commit`."
-content_hash: c90371809cbc16b0367145e5ed81add3cd21d6f2
-last_modified_at: 2024-11-15
+description: "Denne kommando er et alias af `fossil commit`."
+content_hash: 603058899dc806df217779914a489292cbe000f0
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil ci
 
-Denne kommando er et alias af  `fossil commit`.
+Denne kommando er et alias af `fossil commit`.
 
 - Se dokumentation for den oprindelige kommando:
 

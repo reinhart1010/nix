@@ -2,9 +2,12 @@
 layout: page
 title: common/img2pdf (English)
 description: "Losslessly convert raster images to a PDF file."
-content_hash: e9ce8ca21fbb7e67b4494a8fd9cdfee8fd1aa45c
-last_modified_at: 2024-02-15
+content_hash: 249040a9e96586eabce2349664f75d2b78225fa7
+last_modified_at: 2024-11-17
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/img2pdf.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/img2pdf.html
     icon: bi bi-globe
@@ -24,7 +27,7 @@ More information: <https://gitlab.mister-muffin.de/josch/img2pdf>.
 
 `img2pdf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.gif</span>` --first-frame-only --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span>
 
-- Auto orient the image, use a specific  page size in landscape mode, and set a border of specific sizes horizontally and vertically:
+- Auto orient the image, use a specific page size in landscape mode, and set a border of specific sizes horizontally and vertically:
 
 `img2pdf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ext</span>` --auto-orient --pagesize `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A4^T</span>` --border `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2cm</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5.1cm</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span>
 

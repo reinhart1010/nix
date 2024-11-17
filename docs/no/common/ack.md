@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (norsk)
 description: "Et søkeverktøy som grep, optimalisert for utviklere."
-content_hash: b75afc915e14ef687a45178f0d40ee7f90f8ae94
-last_modified_at: 2024-05-05
+content_hash: 0cca143a160b088a68ed334db34e4f1050a19e25
+last_modified_at: 2024-11-17
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -80,6 +80,6 @@ Mer informasjon: <https://beyondgrep.com/documentation>.
 
 `ack --count --files-with-matches "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">søkemønster</span>`"`
 
-- List opp alle verdiene som kan brukes med  `--type`:
+- List opp alle verdiene som kan brukes med `--type`:
 
 `ack --help-types`

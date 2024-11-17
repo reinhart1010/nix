@@ -2,18 +2,21 @@
 layout: page
 title: windows/move (Nederlands)
 description: "Verplaats of hernoem bestanden en mappen."
-content_hash: 9b6341e0cfcea03251df620bc242a2763c4e1559
-last_modified_at: 2023-12-05
+content_hash: dbed74977c6764b108b5d7610fc51f1b656f0e91
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/windows/move.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/move.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # move
 
 Verplaats of hernoem bestanden en mappen.
-In PowerShell is dit commando een alias van `Move-Item`. Deze documentatie is gebaserd op de  Command Prompt (`cmd`) versie van `move`.
+In PowerShell is dit commando een alias van `Move-Item`. Deze documentatie is gebaserd op de Command Prompt (`cmd`) versie van `move`.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/move>.
 
 - Bekijk de documentatie van het PowerShell equivalente commando:

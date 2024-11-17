@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (हिन्दी)
-description: "यह आदेश  `fossil commit`.का उपनाम है।"
-content_hash: dec7755a98121a877cf56ef6f7bdd2103a876137
-last_modified_at: 2024-11-15
+description: "यह आदेश `fossil commit`.का उपनाम है।"
+content_hash: 2409c70c37d2f367ea40f178e7dbed0136d6e72b
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil ci
 
-यह आदेश  `fossil commit`.का उपनाम है।
+यह आदेश `fossil commit`.का उपनाम है।
 अधिक जानकारी: <https://fossil-scm.org/home/help/commit>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:

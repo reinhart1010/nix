@@ -2,8 +2,8 @@
 layout: page
 title: common/age (português (Brasil))
 description: "Uma simples, moderna e segura ferramenta de criptografia de arquivos."
-content_hash: f4505f82ae5b98ee873f6a9b418170ee380660c7
-last_modified_at: 2023-11-12
+content_hash: 93a99a94c68276a361a7b27df049eef440717bf5
+last_modified_at: 2024-11-17
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -17,8 +17,14 @@ related_topics:
   - title: français version
     url: /fr/common/age.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/age.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/age.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/age.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/age.html
@@ -34,28 +40,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># age
 
 Uma simples, moderna e segura ferramenta de criptografia de arquivos.
+Veja também: `age-keygen` para geração de pares de chaves.
 Mais informações: <https://github.com/FiloSottile/age>.
 
 - Gera um arquivo criptografado que pode ser descriptografado com uma frase-chave:
 
 `age --passphrase --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_criptografado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_descriptografado</span>
 
-- Gera um par de chaves, salvando a chave privada em um arquivo não criptografado e imprimindo a chave pública para `stdout`:
+- Criptografa arquivo com uma ou mais chaves públicas que são inseridas como literais (repita o argumento `--recipient` para especificar múltiplas chaves públicas):
 
-`age-keygen --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+`age --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chave_pública</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_criptografado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_descriptografado</span>
 
-- Criptografa arquivo com uma ou mais chaves públicas que são inseridas como literais:
+- Criptografa arquivo com um ou mais destinatários que são especificadas em um arquivo (um por linha):
 
-`age --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chave_pública_1</span>` --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chave_pública_2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_descriptografado</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_criptografado</span>
-
-- Criptografa arquivo com uma ou mais chaves públicas que são especificadas no arquivo do destinatário:
-
-`age --recipients-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_destinatário</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_descriptografado</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_criptografado</span>
+`age --recipients-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_destinatários</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_criptografado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_descriptografado</span>
 
 - Descriptografa um arquivo com uma frase-chave:
 
 `age --decrypt --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_descriptografado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_criptografado</span>
 
-- Descriptografa um arquivo com um arquivo chave privada:
+- Descriptografa um arquivo com um arquivo de chave privada:
 
-`age --decrypt --identity `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_chave_privada</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_descriptografado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_criptografado</span>
+`age --decrypt --identity `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_chave_privada</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_descriptografado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_criptografado</span>

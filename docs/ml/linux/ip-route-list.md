@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (മലയാളം)
-description: "ഈ കമാൻഡ്  `ip route show`.എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 219e7667abd88d9b4e8ac980d6ad00a8669d2830
-last_modified_at: 2024-11-15
+description: "ഈ കമാൻഡ് `ip route show`.എന്നത്തിന്റെ അപരനാമമാണ്."
+content_hash: 34c9d15830631d8879859662e540c991b8969300
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ip route list
 
-ഈ കമാൻഡ്  `ip route show`.എന്നത്തിന്റെ അപരനാമമാണ്.
+ഈ കമാൻഡ് `ip route show`.എന്നത്തിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

@@ -1,12 +1,15 @@
 ---
 layout: page
 title: linux/ip6tables (español)
-description: "Este comando es un alias de `iptables`  para el cortafuegos (firewall) IPv6."
-content_hash: d710a284626fc7b9abc024ab29c47113713efb5c
-last_modified_at: 2024-11-06
+description: "Este comando es un alias de `iptables` para el cortafuegos (firewall) IPv6."
+content_hash: 2c075ed4416e3306a2856518f44513329fc8f506
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/linux/ip6tables.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/ip6tables.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/ip6tables.html
@@ -18,7 +21,7 @@ tldri18n_status: 2
 ---
 # ip6tables
 
-Este comando es un alias de `iptables`  para el cortafuegos (firewall) IPv6.
+Este comando es un alias de `iptables` para el cortafuegos (firewall) IPv6.
 
 - Vea la documentación para el comando original:
 

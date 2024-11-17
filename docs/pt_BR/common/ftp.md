@@ -2,8 +2,8 @@
 layout: page
 title: common/ftp (português (Brasil))
 description: "Ferramentas para interagir com um servidor via Protocolo de Transferência de Arquivos."
-content_hash: e34049797df4bfc89a2ac50a06ddf4bc05541e8f
-last_modified_at: 2024-10-25
+content_hash: a969cd7049fc4dd18494e10cb4e4320057e51238
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/ftp.html
@@ -31,6 +31,10 @@ Mais informações: <https://manned.org/ftp>.
 
 `ftp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp.example.com</span>
 
+- Conecta a um servidor FTP especificando o endereço de IP e porta:
+
+`ftp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endereço_IP</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span>
+
 - Alterna para o modo de transferência binária (gráficos, arquivos compactados, etc):
 
 `binary`
@@ -47,10 +51,10 @@ Mais informações: <https://manned.org/ftp>.
 
 `mput `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip</span>
 
-- Exclui vários arquivos no servidor remoto:
+- Exclui vários arquivos do servidor remoto:
 
 `mdelete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>
 
 - Renomeia um arquivo no servidor remoto:
 
-`rename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo_original</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_novo_arquivo</span>
+`rename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo_original</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">novo_nome_do_arquivo</span>

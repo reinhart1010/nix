@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (bosanski)
-description: "Ova komanda je pseudonim za  `ip route show`."
-content_hash: d0323d2c78745681dadc8e4289b13a1f98f08b4e
-last_modified_at: 2024-11-15
+description: "Ova komanda je pseudonim za `ip route show`."
+content_hash: a3eabdad53f7f1fc39eaee21159251f12f2f20b2
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ip route list
 
-Ova komanda je pseudonim za  `ip route show`.
+Ova komanda je pseudonim za `ip route show`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

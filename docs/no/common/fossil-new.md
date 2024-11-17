@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (norsk)
-description: "Denne kommandoen er et alias for  `fossil init`."
-content_hash: c2ddc99f9a4f770d9dc644b0400ef608e9151c29
-last_modified_at: 2024-11-15
+description: "Denne kommandoen er et alias for `fossil init`."
+content_hash: 81afd9f28bea6adba2a08af8459f578bc45956e8
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil new
 
-Denne kommandoen er et alias for  `fossil init`.
+Denne kommandoen er et alias for `fossil init`.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

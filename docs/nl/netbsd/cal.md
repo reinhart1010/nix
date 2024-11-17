@@ -2,11 +2,14 @@
 layout: page
 title: netbsd/cal (Nederlands)
 description: "Toon een kalender."
-content_hash: 1946c2b48276a5b4bb788a694fa177f63fee5311
-last_modified_at: 2024-09-19
+content_hash: 08be02b5c0a952917a6875cb3a898170579ef814
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/netbsd/cal.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/netbsd/cal.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/netbsd/cal.html
@@ -30,7 +33,7 @@ Meer informatie: <https://man.netbsd.org/cal.1>.
 
 `cal `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">maand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jaar</span>
 
-- Toon de volledige kalender voor het huidige jaar door gebruik te maken van [j]ulian dagen  (beginnend vanaf één, genummerd vanaf 1 januari):
+- Toon de volledige kalender voor het huidige jaar door gebruik te maken van [j]ulian dagen (beginnend vanaf één, genummerd vanaf 1 januari):
 
 `cal -y -j`
 

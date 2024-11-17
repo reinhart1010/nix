@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (Deutsch)
-description: "Dieser Befehl ist ein Alias von  `gh codespace`."
-content_hash: 11df9d27e933e289f919877dfca36b0da04ba4a4
-last_modified_at: 2024-11-16
+description: "Dieser Befehl ist ein Alias von `gh codespace`."
+content_hash: 2fb3f600ecde2d3295de88001ed5010c4aaa4cfc
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-Dieser Befehl ist ein Alias von  `gh codespace`.
+Dieser Befehl ist ein Alias von `gh codespace`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

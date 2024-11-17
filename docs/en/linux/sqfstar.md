@@ -2,9 +2,12 @@
 layout: page
 title: linux/sqfstar (English)
 description: "Create a squashfs filesystem from a tar archive."
-content_hash: cfc56a22b5d91ce9dc457a5d72bb7fc6f6827b80
-last_modified_at: 2024-03-14
+content_hash: 554e48649951e8074b1a225b4e72cafa570d0e15
+last_modified_at: 2024-11-17
 related_topics:
+  - title: 한국어 version
+    url: /ko/linux/sqfstar.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/sqfstar.html
     icon: bi bi-globe
@@ -15,7 +18,7 @@ tldri18n_status: 2
 Create a squashfs filesystem from a tar archive.
 More information: <https://manned.org/sqfstar>.
 
-- Create a squashfs filesystem (compressed using `gzip` by default) from an uncompressed  tar  archive:
+- Create a squashfs filesystem (compressed using `gzip` by default) from an uncompressed tar archive:
 
 `sqfstar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem.squashfs</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar</span>
 

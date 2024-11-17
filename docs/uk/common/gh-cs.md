@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (українська)
-description: "Ця команда є псевдонімом для  `gh codespace`."
-content_hash: f48e64e52c22746d0d2c355e78bc78a78c0bc80e
-last_modified_at: 2024-11-15
+description: "Ця команда є псевдонімом для `gh codespace`."
+content_hash: e516567cef5bed6a09715c8239d71b6ae0fd1bdf
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-Ця команда є псевдонімом для  `gh codespace`.
+Ця команда є псевдонімом для `gh codespace`.
 
 - Дивись документацію для оригінальної команди:
 

@@ -2,14 +2,17 @@
 layout: page
 title: common/histexpand (français)
 description: "Réutiliser et développer l'historique des commandes shell dans `sh`, `bash`, `zsh`, `rbash` et `ksh`."
-content_hash: 6526e1acbc80d6c2e178f8734cfe21a2ba804641
-last_modified_at: 2023-11-12
+content_hash: 8066c2081d04399f87d4ac90e3e538be36e2dd40
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/histexpand.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/histexpand.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/histexpand.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/histexpand.html
@@ -49,6 +52,6 @@ Plus d'informations : <https://www.gnu.org/software/bash/manual/html_node/Histor
 
 `^`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span>`^`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string2</span>`^`
 
-- Effectue une expansion de l'historique, mais affiche la commande qui aurait du être exécutée au lieu de l'exécuter  :
+- Effectue une expansion de l'historique, mais affiche la commande qui aurait du être exécutée au lieu de l'exécuter :
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">!-n</span>`:p`

@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (português (Brasil))
 description: "Uma linguagem de calculadora de precisão arbitrária."
-content_hash: a64fd926c3efb725f2ec7104def22356d17afc57
-last_modified_at: 2024-09-09
+content_hash: f4a66825b47c5d5dddca0e770fe3309f53122054
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -37,16 +37,16 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># bc
 
 Uma linguagem de calculadora de precisão arbitrária.
-Veja também: `dc`.
+Veja também: `dc`, `qalc`.
 Mais informações: <https://manned.org/bc>.
 
 - Inicia uma sessão interativa:
 
 `bc`
 
-- Inicia uma sessão interativa com a biblioteca matemática padrão ativada:
+- Inicia uma sessão [i]nterativa com a biblioteca padrão habilitada:
 
-`bc --mathlib`
+`bc --interactive --mathlib`
 
 - Calcula uma expressão:
 
@@ -63,3 +63,7 @@ Mais informações: <https://manned.org/bc>.
 - Calcula uma função seno/cosseno/arco tangente/logaritmo natural/função exponencial usando `mathlib`:
 
 `echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span>`(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>`)' | bc --mathlib`
+
+- Executa um script fatorial a partir da linha de comando:
+
+`echo "define factorial(n) { if (n <= 1) return 1; return n*factorial(n-1); }; factorial(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>`)" | bc`

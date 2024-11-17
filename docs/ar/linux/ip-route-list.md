@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (العربية)
-description: "هذا الأمر هو اسم مستعار لـ  `ip route show`."
-content_hash: ad9323252ad61ba2000408d2070708b468e2ae45
-last_modified_at: 2024-11-15
+description: "هذا الأمر هو اسم مستعار لـ `ip route show`."
+content_hash: 86f2faa833b52d1a36018dc8d4d4fa3cc2e70839
+last_modified_at: 2024-11-17
 related_topics:
   - title: bosanski version
     url: /bs/linux/ip-route-list.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ip route list
 
-هذا الأمر هو اسم مستعار لـ  `ip route show`.
+هذا الأمر هو اسم مستعار لـ `ip route show`.
 
 - إعرض التوثيقات للأمر الأصلي:
 

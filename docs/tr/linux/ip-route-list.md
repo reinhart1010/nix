@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (Türkçe)
-description: "Bu komut  `ip route show`.için bir takma addır."
-content_hash: e43cc3a2be99843a7bf011d4ea2ee4a3691af51b
-last_modified_at: 2024-11-15
+description: "Bu komut `ip route show`.için bir takma addır."
+content_hash: 0ae4944368b1cf1689a25ce9ab4b0d1d6e0113d5
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ip route list
 
-Bu komut  `ip route show`.için bir takma addır.
+Bu komut `ip route show`.için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 

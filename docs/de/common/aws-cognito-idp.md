@@ -2,14 +2,17 @@
 layout: page
 title: common/aws-cognito-idp (Deutsch)
 description: "Verwalten des Amazon Cognito-Benutzerpools, seiner Benutzer und Gruppen mit der CLI."
-content_hash: 3091c5c63170e2a3bec66a3add067cf2cffc4127
-last_modified_at: 2023-11-12
+content_hash: ffeaa588850985a6e982195a7557c4cb675b317a
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/aws-cognito-idp.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/aws-cognito-idp.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/aws-cognito-idp.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -38,6 +41,6 @@ Weitere Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest
 
 `aws cognito-idp list-users --user-pool-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzerpool_id</span>
 
-- Lösche einen  Benutzer aus einem bestimmten Pool:
+- Lösche einen Benutzer aus einem bestimmten Pool:
 
 `aws cognito-idp admin-delete-user --username `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span>` --user-pool-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzerpool_id</span>

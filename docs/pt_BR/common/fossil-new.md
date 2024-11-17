@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (português (Brasil))
-description: "Este comando é um apelido de  `fossil init`."
-content_hash: 454172d642da6a5df88a712c8f6c852b21a46a9a
-last_modified_at: 2024-11-15
+description: "Este comando é um apelido de `fossil init`."
+content_hash: 2baf0d4074bdf911083d60dd1ddbf45f4923bde4
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil new
 
-Este comando é um apelido de  `fossil init`.
+Este comando é um apelido de `fossil init`.
 Mais informações: <https://fossil-scm.org/home/help/new>.
 
 - Exibe documentação sobre o comando original:

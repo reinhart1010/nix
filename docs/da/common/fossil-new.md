@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (dansk)
-description: "Denne kommando er et alias af  `fossil init`."
-content_hash: cb7376d0d86f9b59d2e1c2b817aaefc6fd00332d
-last_modified_at: 2024-11-15
+description: "Denne kommando er et alias af `fossil init`."
+content_hash: 4b2ec7fe2ce41df3cb1650d09f53f7a5595f16f1
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil new
 
-Denne kommando er et alias af  `fossil init`.
+Denne kommando er et alias af `fossil init`.
 
 - Se dokumentation for den oprindelige kommando:
 

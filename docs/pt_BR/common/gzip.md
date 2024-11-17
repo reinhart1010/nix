@@ -2,11 +2,17 @@
 layout: page
 title: common/gzip (português (Brasil))
 description: "Compacta/descompacta arquivos com compressão gzip (LZ77)."
-content_hash: ad61a4251313587ca9c7aeb5a7a877f48bd84e67
-last_modified_at: 2024-06-06
+content_hash: 2e755cfe92d65cf88644fdad2f5afa942a973a9a
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/gzip.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/gzip.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/gzip.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -20,24 +26,28 @@ Mais informações: <https://www.gnu.org/software/gzip/manual/gzip.html>.
 
 - Compacta um arquivo, substituindo-o por uma versão compactada gzip:
 
-`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span>
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho_para_arquivo</span>
 
-- Descompacta um arquivo, substituindo-o pela versão não compactada original:
+- Descompacta um arquivo, substituindo-o pela versão descompactada original:
 
-`gzip -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span>`.gz`
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decompress caminho/para/arquivo.gz</span>
 
 - Compacta um arquivo, mantendo o arquivo original:
 
-`gzip --keep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span>
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-k|--keep caminho/para/arquivo</span>
 
 - Compacta um arquivo definindo o nome do arquivo de saída:
 
-`gzip -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_compactado.ext.gz</span>
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|--stdout caminho/para/arquivo</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.gz</span>
 
 - Descompacta um arquivo gzip definindo o nome do arquivo de saída:
 
-`gzip -c -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span>`.gz > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_descompactado.ext</span>
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|--stdout</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decompress</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.gz</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_descompactado</span>
 
-- Especifica o nível de compactação. 1=mais rápido (pior), 9=mais lendo 9melhor, o nível padrão é 6:
+- Especifica o nível de compactação. 1 é o mais rápido (baixa compressão), 9 é o mais lento (baixa compressão), o nível padrão é 6:
 
-`gzip -9 -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.ext</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_compactado.ext.gz</span>
+`gzip -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|--stdout</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.gz</span>
+
+- Mostra o nome e o percentual de redução para cada arquivo comprimido ou descomprimido:
+
+`gzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--decompress</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.gz</span>

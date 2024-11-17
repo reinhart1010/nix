@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (日本語)
-description: "このコマンドは  `ip route show`.のエイリアスです。"
-content_hash: 64a5ef81a1fc445e3ba75e7cfcadd59049a29d3c
-last_modified_at: 2024-11-15
+description: "このコマンドは `ip route show`.のエイリアスです。"
+content_hash: 95fe7fa65df5ad8f16f7543533b034c8bb7c1496
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ip route list
 
-このコマンドは  `ip route show`.のエイリアスです。
+このコマンドは `ip route show`.のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

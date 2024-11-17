@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (മലയാളം)
-description: "ഈ കമാൻഡ്  `fossil commit`.എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 0e2c0a8992785c3549e1725f354c8fce4414e8be
-last_modified_at: 2024-11-16
+description: "ഈ കമാൻഡ് `fossil commit`.എന്നത്തിന്റെ അപരനാമമാണ്."
+content_hash: ec98dd9bdeb1ad82e05f0b36d20556133ba13bf1
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil ci
 
-ഈ കമാൻഡ്  `fossil commit`.എന്നത്തിന്റെ അപരനാമമാണ്.
+ഈ കമാൻഡ് `fossil commit`.എന്നത്തിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

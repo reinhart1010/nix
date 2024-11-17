@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (中文)
-description: "这是  `fossil init`.命令的一个别名。"
-content_hash: e636fbecf29fd4f522abb25034a047d958bc1ec7
-last_modified_at: 2024-11-15
+description: "这是 `fossil init`.命令的一个别名。"
+content_hash: 5ce88ab98490d82b24104fe047e1fe0113c3738b
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil new
 
-这是  `fossil init`.命令的一个别名。
+这是 `fossil init`.命令的一个别名。
 更多信息：<https://fossil-scm.org/home/help/new>.
 
 - 原命令的文档在：

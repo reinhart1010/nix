@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-ci (bosanski)
-description: "Ova komanda je pseudonim za  `fossil commit`."
-content_hash: a99c03920f6f839e366b59f5115a859dd91d315a
-last_modified_at: 2024-11-15
+description: "Ova komanda je pseudonim za `fossil commit`."
+content_hash: 3bfc14e6f01bc908569fa4dd8f26c19ef1e7bf3b
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil ci
 
-Ova komanda je pseudonim za  `fossil commit`.
+Ova komanda je pseudonim za `fossil commit`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

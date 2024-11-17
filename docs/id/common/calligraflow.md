@@ -2,18 +2,21 @@
 layout: page
 title: common/calligraflow (Indonesia)
 description: "Aplikasi pengolah flowchart dan diagram, bagian dari Calligra."
-content_hash: 360116410a1932734a2bce155a7f19fdba3c5d06
-last_modified_at: 2024-06-11
+content_hash: 9b1b5624c089cea1a37e724910dc77eccb89e059
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/calligraflow.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/calligraflow.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # calligraflow
 
 Aplikasi pengolah flowchart dan diagram, bagian dari Calligra.
-Lihat juga:  `calligrastage`, `calligrawords`, `calligrasheets`.
+Lihat juga: `calligrastage`, `calligrawords`, `calligrasheets`.
 Informasi lebih lanjut: <https://manned.org/calligraflow>.
 
 - Buka aplikasi pengolah flowchart dan diagram:

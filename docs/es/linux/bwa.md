@@ -2,11 +2,14 @@
 layout: page
 title: linux/bwa (español)
 description: "Herramienta de alineación Burrows-Wheeler."
-content_hash: 6b87e1ab44ebc269d22484b4cf869c0ac4e323a5
-last_modified_at: 2024-05-19
+content_hash: 77514dd8d49553d0bc39cfc32cdb51705ba18b95
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/linux/bwa.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/bwa.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -32,6 +35,6 @@ Más información: <https://github.com/lh3/bwa>.
 
 `bwa mem -M -t 32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/referencia.fa</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/lectura_par_final_1.fq.gz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/lectura_par_final_2.fq.gz</span>` | gzip > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/alineamiento_par_final.sam.gz</span>
 
-- Mapea las lecturas finales del par (secuencias) al genoma indexado usando 32 subprocesos con [C]omentarios FASTA/Q  (p. ej. BC:Z:CGTAC) anexando a un resultado comprimido:
+- Mapea las lecturas finales del par (secuencias) al genoma indexado usando 32 subprocesos con [C]omentarios FASTA/Q (p. ej. BC:Z:CGTAC) anexando a un resultado comprimido:
 
 `bwa mem -C -t 32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/referencia.fa</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/lectura_par_final_1.fq.gz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/lectura_par_final_2.fq.gz</span>` | gzip > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/lectura_par_final.sam.gz</span>

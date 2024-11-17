@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (한국어)
-description: "이 명령은  `gh codespace`.의 에일리어스 (별칭) 입니다."
-content_hash: 6f83b597a82f5cc25a9f082093085324ec84c0bf
-last_modified_at: 2024-11-16
+description: "이 명령은 `gh codespace`.의 에일리어스 (별칭) 입니다."
+content_hash: 2680764e82bda3a8ea20aff8d313f8d95f9bc882
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-이 명령은  `gh codespace`.의 에일리어스 (별칭) 입니다.
+이 명령은 `gh codespace`.의 에일리어스 (별칭) 입니다.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

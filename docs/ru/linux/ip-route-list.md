@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (русский)
-description: "Эта команда — псевдоним для  `ip route show`."
-content_hash: 2001f9baabf7ae64fed3c9a7cde82fe3c2c18dd9
-last_modified_at: 2024-11-15
+description: "Эта команда — псевдоним для `ip route show`."
+content_hash: 312720cf562acfabbf5bbdd8a57c265d11c8d140
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ip route list
 
-Эта команда — псевдоним для  `ip route show`.
+Эта команда — псевдоним для `ip route show`.
 
 - Смотри документацию для оригинальной команды:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ack (português (Brasil))
-description: "Uma ferramenta de pesquisa similar ao grep, otimizada para programadores."
-content_hash: 197a3224c60887fdd584899bb568a4edfe630c58
-last_modified_at: 2023-12-28
+description: "Uma ferramenta de pesquisa similar ao `grep`, otimizada para programadores."
+content_hash: eebc1517e6973d955209fda4e9d2a21589b6d441
+last_modified_at: 2024-11-17
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -51,21 +51,38 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># ack
 
-Uma ferramenta de pesquisa similar ao grep, otimizada para programadores.
+Uma ferramenta de pesquisa similar ao `grep`, otimizada para programadores.
+Veja também: `rg`, que é muito mais rápido.
 Mais informações: <https://beyondgrep.com/documentation>.
 
-- Procura por arquivos que contenham o termo "foo":
+- Procura por arquivos que contenham o termo, ou a expressão regular, no diretório atual:
 
-`ack `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>
+`ack "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_de_busca</span>`"`
 
-- Procura por arquivos em uma linguagem específica:
+- Procura um padrão sem diferenciar maiúsculas e minúsculas:
 
-`ack --ruby `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">each_with_object</span>
+`ack --ignore-case "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_de_busca</span>`"`
 
-- Conta o número total de correspondências para o termo "foo":
+- Procura por linhas correspondentes ao padrão, imprimindo apenas o texto correspondente e não o resto da linha:
 
-`ack -ch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>
+`ack -o "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_de_busca</span>`"`
 
-- Mostra o nome dos arquivos contendo o termo "foo" e o número de correspondências em cada arquivo:
+- Limita a busca a um tipo específico de arquivo:
 
-`ack -cl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>
+`ack --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_de_busca</span>`"`
+
+- Não busca arquivos de um tipo específico:
+
+`ack --type no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_de_busca</span>`"`
+
+- Conta o total de correspondências encontradas:
+
+`ack --count --no-filename "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_de_busca</span>`"`
+
+- Imprime o nome dos arquivos e o número de correspondências para cada arquivo:
+
+`ack --count --files-with-matches "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_de_busca</span>`"`
+
+- Lista todos os valores que podem ser utilizados com `--type`:
+
+`ack --help-types`

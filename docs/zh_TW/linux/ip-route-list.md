@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (中文 (繁體, 台灣))
-description: "這是  `ip route show`.命令的一個別名。"
-content_hash: 6cb409ade186882e4ea9ed4f66c957548587d4b8
-last_modified_at: 2024-11-15
+description: "這是 `ip route show`.命令的一個別名。"
+content_hash: da53cc9d721ac0489db2867734c8f09bd90d2ea0
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ip route list
 
-這是  `ip route show`.命令的一個別名。
+這是 `ip route show`.命令的一個別名。
 
 - 原命令的文件在：
 

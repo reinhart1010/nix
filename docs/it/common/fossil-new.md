@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/fossil-new (italiano)
-description: "Questo comando è un alias per  `fossil init`."
-content_hash: 025d60232a4b510749d0503cb5414ab5f40e548f
-last_modified_at: 2024-11-16
+description: "Questo comando è un alias per `fossil init`."
+content_hash: e7ef580276c904b83bbed3dd93bfd6194edb3a5f
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # fossil new
 
-Questo comando è un alias per  `fossil init`.
+Questo comando è un alias per `fossil init`.
 
 - Consulta la documentazione del comando originale:
 

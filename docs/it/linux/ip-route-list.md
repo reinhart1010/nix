@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (italiano)
-description: "Questo comando è un alias per  `ip route show`."
-content_hash: c940118798ec618662904b1069aa9503a9ec0724
-last_modified_at: 2024-11-15
+description: "Questo comando è un alias per `ip route show`."
+content_hash: badac233e363240b5a181f23bd3a2298064415ea
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ip route list
 
-Questo comando è un alias per  `ip route show`.
+Questo comando è un alias per `ip route show`.
 
 - Consulta la documentazione del comando originale:
 

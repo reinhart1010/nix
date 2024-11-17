@@ -2,11 +2,14 @@
 layout: page
 title: common/bundle (Nederlands)
 description: "Dependency manager voor de Ruby programmeertaal."
-content_hash: 8fdf0090bad3d6f4c4cd49ecd1138b3b2e2acbf1
-last_modified_at: 2023-12-04
+content_hash: a3f3e84f9008c81861f971cc3e0dd05dfa10e601
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/bundle.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/bundle.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/bundle.html
@@ -51,7 +54,7 @@ Meer informatie: <https://bundler.io/man/bundle.1.html>.
 
 `bundle update --group `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">development</span>
 
-- Toon de geïnstalleerde gems in de `Gemfile` welke  nieuwere versies beschikbaar hebben:
+- Toon de geïnstalleerde gems in de `Gemfile` welke nieuwere versies beschikbaar hebben:
 
 `bundle outdated`
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (dansk)
-description: "Denne kommando er et alias af  `gh codespace`."
-content_hash: 952f146851d577064969c1154a584a49d5a0060c
-last_modified_at: 2024-11-15
+description: "Denne kommando er et alias af `gh codespace`."
+content_hash: b07106979b6347c06258bf1ef2759bb5abf764e4
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-Denne kommando er et alias af  `gh codespace`.
+Denne kommando er et alias af `gh codespace`.
 
 - Se dokumentation for den oprindelige kommando:
 

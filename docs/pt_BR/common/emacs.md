@@ -2,8 +2,8 @@
 layout: page
 title: common/emacs (português (Brasil))
 description: "O editor extensível, personalizável, autodocumentável, com exibição em tempo real."
-content_hash: b486d4d3da62815b19900b798e932522d2c58ac8
-last_modified_at: 2023-12-29
+content_hash: 6c2994e89b6d3bbdf6f60d2411f030c19ed3d1d9
+last_modified_at: 2024-11-17
 related_topics:
   - title: Deutsch version
     url: /de/common/emacs.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/emacs.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/emacs.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -33,6 +36,10 @@ Mais informações: <https://www.gnu.org/software/emacs>.
 
 `emacs +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_linha</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
+- Inicia um arquivo Emacs Lisp como script:
+
+`emacs --script `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.el</span>
+
 - Inicia o Emacs em modo console (sem uma janela X):
 
 `emacs --no-window-system`
@@ -49,6 +56,6 @@ Mais informações: <https://www.gnu.org/software/emacs>.
 
 `<Ctrl> + X, <Ctrl> + S`
 
-- Deixa o Emacs:
+- Sai do Emacs:
 
 `<Ctrl> + X, <Ctrl> + C`

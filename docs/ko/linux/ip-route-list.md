@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ip-route-list (한국어)
-description: "이 명령은  `ip route show`.의 에일리어스 (별칭) 입니다."
-content_hash: 26ded1c5b0c54dc18c4118a71dad0646ccb4ccbb
-last_modified_at: 2024-11-15
+description: "이 명령은 `ip route show`.의 에일리어스 (별칭) 입니다."
+content_hash: 072ad1c10a4f3f0b4b78d48ea2b0f62963c103d3
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ip route list
 
-이 명령은  `ip route show`.의 에일리어스 (별칭) 입니다.
+이 명령은 `ip route show`.의 에일리어스 (별칭) 입니다.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

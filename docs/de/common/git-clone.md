@@ -2,8 +2,8 @@
 layout: page
 title: common/git-clone (Deutsch)
 description: "Klone ein existierendes Repository."
-content_hash: 2bb6e6c28ba302ee1607bfcaf427bb589b66ee1a
-last_modified_at: 2023-12-28
+content_hash: 9aac9bc90633e4fe37d6dbbbe37a83a97875ce0b
+last_modified_at: 2024-11-17
 related_topics:
   - title: English version
     url: /en/common/git-clone.html
@@ -53,7 +53,7 @@ Weitere Informationen: <https://git-scm.com/docs/git-clone>.
 
 `git clone --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_zu_repository</span>
 
-- Klone nur das  `.git` Verzeichnis für ein existierendes repository:
+- Klone nur das `.git` Verzeichnis für ein existierendes repository:
 
 `git clone --no-checkout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_zu_repository</span>
 

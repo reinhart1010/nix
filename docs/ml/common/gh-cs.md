@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (മലയാളം)
-description: "ഈ കമാൻഡ്  `gh codespace`.എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 36c08e7e329c9efc315f01e807ba32cee1fce9c6
-last_modified_at: 2024-11-16
+description: "ഈ കമാൻഡ് `gh codespace`.എന്നത്തിന്റെ അപരനാമമാണ്."
+content_hash: c572d33fb0a87ec7f1b427af177d4ff0d1c23e90
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-ഈ കമാൻഡ്  `gh codespace`.എന്നത്തിന്റെ അപരനാമമാണ്.
+ഈ കമാൻഡ് `gh codespace`.എന്നത്തിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

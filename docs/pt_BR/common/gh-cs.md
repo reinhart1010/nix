@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (português (Brasil))
-description: "Este comando é um apelido de  `gh codespace`."
-content_hash: 46b318fc1d8fee6828be515f6818b7b93c061e04
-last_modified_at: 2024-11-15
+description: "Este comando é um apelido de `gh codespace`."
+content_hash: 81590c6a905bf7f877aed9c9fe1c8a74b8763d93
+last_modified_at: 2024-11-17
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-Este comando é um apelido de  `gh codespace`.
+Este comando é um apelido de `gh codespace`.
 Mais informações: <https://cli.github.com/manual/gh_codespace>.
 
 - Exibe documentação sobre o comando original:

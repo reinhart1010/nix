@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-network (français)
 description: "Créer et gérer des réseaux Docker."
-content_hash: ae1ed3b1950f1f914f8943c6e4786c1c4f358436
-last_modified_at: 2024-09-25
+content_hash: 0c1b469eb21ba037d02445c52e66178aac6a6bc5
+last_modified_at: 2024-11-17
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-network.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-network.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-network.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-network.html
@@ -39,7 +42,7 @@ Plus d'informations : <https://docs.docker.com/reference/cli/docker/network/>.
 
 `docker network inspect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_reseau</span>
 
-- Connecter un conteneur à un réseau en utilisant un nom  ou  un ID :
+- Connecter un conteneur à un réseau en utilisant un nom ou un ID :
 
 `docker network connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_reseau</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_conteneur|ID</span>
 
