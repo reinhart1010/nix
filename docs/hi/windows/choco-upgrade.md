@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-upgrade (हिन्दी)
 description: "चॉकलेटी के साथ एक या अधिक पैकेज अपग्रेड करें।"
-content_hash: a4b1af4bbb274be3efbb8f14299ccd66794ff476
-last_modified_at: 2023-11-12
+content_hash: 568d9a0bcd80cc0403de00151617148724a87758
+last_modified_at: 2024-11-18
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-upgrade.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/choco-upgrade.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/choco-upgrade.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-upgrade.html
@@ -59,4 +62,4 @@ tldri18n_status: 2
 
 - प्रमाणीकरण के लिए उपयोगकर्ता नाम और पासवर्ड प्रदान करें:
 
-`choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता नाम</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पासवर्ड</span>
+`choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पासवर्ड</span>

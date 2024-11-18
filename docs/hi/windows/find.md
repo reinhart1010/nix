@@ -2,8 +2,8 @@
 layout: page
 title: windows/find (हिन्दी)
 description: "एक या अधिक फ़ाइलों में निर्दिष्ट स्ट्रिंग ढूंढें।"
-content_hash: b769dc22107be833f654ba9bbf00304570a7b839
-last_modified_at: 2023-11-12
+content_hash: d8c87fee51ee67e8d5394eb37ff12fc4068f1b64
+last_modified_at: 2024-11-18
 related_topics:
   - title: বাংলা version
     url: /bn/windows/find.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/find.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/find.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/find.html
@@ -38,16 +41,16 @@ tldri18n_status: 2
 
 - वे पंक्तियाँ खोजें जिनमें एक निर्दिष्ट स्ट्रिंग हो:
 
-`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ\से\फ़ाइल_या_निर्देशिका</span>
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल_या_निर्देशिका\का\पथ</span>
 
 - वे पंक्तियाँ प्रदर्शित करें जिनमें निर्दिष्ट स्ट्रिंग नहीं है:
 
-`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ\से\फ़ाइल_या_निर्देशिका</span>` /v`
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल_या_निर्देशिका\का\पथ</span>` /v`
 
 - निर्दिष्ट स्ट्रिंग वाली पंक्तियों की संख्या प्रदर्शित करें:
 
-`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ\से\फ़ाइल_या_निर्देशिका</span>` /c`
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल_या_निर्देशिका\का\पथ</span>` /c`
 
 - पंक्तियों की सूची के साथ पंक्ति संख्याएँ प्रदर्शित करें:
 
-`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ\से\फ़ाइल_या_निर्देशिका</span>` /n`
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल_या_निर्देशिका\का\पथ</span>` /n`

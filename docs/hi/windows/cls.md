@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cls (हिन्दी)
-description: "यह आदेश `clear-host` का उपनाम है।"
-content_hash: 8d5fbb927bcc5cc515b39fff671a22525b83f473
-last_modified_at: 2023-11-02
+description: "स्क्रीन को साफ करता है।"
+content_hash: 903fb15c84b630002cf6be2c5cb9d5b26d902629
+last_modified_at: 2024-11-18
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -23,8 +23,14 @@ related_topics:
   - title: 日本語 version
     url: /ja/windows/cls.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/cls.html
+    icon: bi bi-globe
   - title: ລາວ version
     url: /lo/windows/cls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/cls.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/cls.html
@@ -41,15 +47,27 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cls.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/cls.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># cls
 
-यह आदेश `clear-host` का उपनाम है।
+स्क्रीन को साफ करता है।
+PowerShell में, यह कमांड `Clear-Host` का उपनाम है। यह दस्तावेज़ Command Prompt (`cmd`) संस्करण के `cls` पर आधारित है।
 अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>।
 
-- मूल आदेश के लिए दस्तावेज़ देखें:
+- समकक्ष PowerShell कमांड का दस्तावेज़ देखें:
 
 `tldr clear-host`
+
+- स्क्रीन को साफ करें:
+
+`cls`

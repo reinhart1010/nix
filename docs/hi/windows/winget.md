@@ -2,8 +2,8 @@
 layout: page
 title: windows/winget (हिन्दी)
 description: "विंडोज़ पैकेज प्रबंधक।"
-content_hash: 576f6a482f43967e112aabb40568e8f40db241ab
-last_modified_at: 2023-11-12
+content_hash: 48b8310dafdfa28ca1b739c36df46fd266cf2286
+last_modified_at: 2024-11-18
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/winget.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/winget.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/winget.html
@@ -59,8 +62,8 @@ tldri18n_status: 2
 
 - किसी फ़ाइल से पैकेज आयात करें, या स्थापित पैकेज़ को किसी फ़ाइल में निर्यात करें:
 
-`winget `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import|export</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--import-file|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span>
+`winget `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import|export</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--import-file|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल\का\पथ</span>
 
 - विंगेट-पीकेजीएस(winget-pkgs) रिपॉजिटरी में पीआर(PR) सबमिट करने से पहले मैनिफ़ेस्ट को सत्यापित करें:
 
-`winget validate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रकट/का/पथ</span>
+`winget validate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रकट\का\पथ</span>

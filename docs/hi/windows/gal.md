@@ -1,22 +1,34 @@
 ---
 layout: page
 title: windows/gal (हिन्दी)
-description: "यह आदेश `get-alias` का उपनाम है।"
-content_hash: a101a6fcb56d957d7861d55c8eb6c040c4bc446c
-last_modified_at: 2023-11-02
+description: "PowerShell में, यह कमांड `Get-Alias` का उपनाम है।"
+content_hash: 1de4e1131d543632892e04828763e08c3aa764fb
+last_modified_at: 2024-11-18
 related_topics:
   - title: English version
     url: /en/windows/gal.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/gal.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/gal.html
+    icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/gal.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># gal
 
-यह आदेश `get-alias` का उपनाम है।
-अधिक जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-alias>।
+PowerShell में, यह कमांड `Get-Alias` का उपनाम है।
 
-- मूल आदेश के लिए दस्तावेज़ देखें:
+- मूल कमांड के लिए प्रलेखन देखें:
 
 `tldr get-alias`

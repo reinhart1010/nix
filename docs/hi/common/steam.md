@@ -2,8 +2,8 @@
 layout: page
 title: common/steam (हिन्दी)
 description: "वॉल्व द्वारा वीडियो गेम प्लेटफ़ॉर्म।"
-content_hash: c4d089731dab3c3c122df15687e0739f895b12a6
-last_modified_at: 2024-11-10
+content_hash: 1a48b04a95ceb100f2c4a44d65ef616b4690fcb9
+last_modified_at: 2024-11-18
 related_topics:
   - title: Deutsch version
     url: /de/common/steam.html
@@ -38,7 +38,7 @@ tldri18n_status: 2
 
 - निर्दिष्ट क्रेडेंशियल्स के साथ स्टीम में लॉगिन करें:
 
-`steam -login `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता नाम</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पासवर्ड</span>
+`steam -login `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पासवर्ड</span>
 
 - स्टीम को बिग पिक्चर मोड में लॉन्च करें:
 

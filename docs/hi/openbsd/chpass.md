@@ -2,8 +2,8 @@
 layout: page
 title: openbsd/chpass (हिन्दी)
 description: "उपयोगकर्ता डेटाबेस जानकारी जोड़ें या बदलें, जिसमें लॉगिन शेल और पासवर्ड शामिल हैं।"
-content_hash: f5fb2dd8003b1e9e1df6cecb7ba4dc18a651aa46
-last_modified_at: 2024-11-03
+content_hash: 5c2cfb15d5bb35a90dd65a7da1b3d6f5519c0fe5
+last_modified_at: 2024-11-18
 related_topics:
   - title: English version
     url: /en/openbsd/chpass.html
@@ -35,8 +35,8 @@ tldri18n_status: 2
 
 - एक विशिष्ट उपयोगकर्ता के लिए लॉगिन [s]hell सेट करें:
 
-`doas chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शेल/का/पथ</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता नाम</span>
+`doas chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शेल/का/पथ</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span>
 
 - `passwd` फ़ाइल प्रारूप में एक उपयोगकर्ता डेटाबेस प्रविष्टि निर्दिष्ट करें:
 
-`doas chsh -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता नाम:एनक्रिप्टेड_पासवर्ड:uid:gid:...</span>
+`doas chsh -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम:एनक्रिप्टेड_पासवर्ड:uid:gid:...</span>
