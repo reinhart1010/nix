@@ -3,7 +3,7 @@ layout: page
 title: common/age (português (Brasil))
 description: "Uma simples, moderna e segura ferramenta de criptografia de arquivos."
 content_hash: 93a99a94c68276a361a7b27df049eef440717bf5
-last_modified_at: 2024-11-17
+last_modified_at: 2024-11-18
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/age.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># age
+# age
 
 Uma simples, moderna e segura ferramenta de criptografia de arquivos.
 Veja também: `age-keygen` para geração de pares de chaves.

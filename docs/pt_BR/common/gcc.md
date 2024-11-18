@@ -3,7 +3,7 @@ layout: page
 title: common/gcc (português (Brasil))
 description: "Pré-processa e compila arquivos de código fonte C e C++, depois monta-os e vincula-os."
 content_hash: 0424f28b0251ae0f89fdc1b20d77a5090f0c32e9
-last_modified_at: 2024-11-17
+last_modified_at: 2024-11-18
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -29,12 +29,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/gcc.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gcc
+# gcc
 
 Pré-processa e compila arquivos de código fonte C e C++, depois monta-os e vincula-os.
 Mais informações: <https://gcc.gnu.org>.

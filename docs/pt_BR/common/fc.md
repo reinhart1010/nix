@@ -3,7 +3,7 @@ layout: page
 title: common/fc (português (Brasil))
 description: "Abre o último comando executado em um editor de texto."
 content_hash: ff709eae512a1cd92a97d69db11a9847b8b2c503
-last_modified_at: 2024-11-17
+last_modified_at: 2024-11-18
 related_topics:
   - title: English version
     url: /en/common/fc.html
@@ -17,12 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/fc.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fc
+# fc
 
 Abre o último comando executado em um editor de texto.
 Mais informações: <https://manned.org/fc>.

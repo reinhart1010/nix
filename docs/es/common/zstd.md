@@ -3,7 +3,7 @@ layout: page
 title: common/zstd (español)
 description: "Comprime o descomprime archivos con compresión Zstandard."
 content_hash: 4732465b716227582e37852e34905f5a67e50782
-last_modified_at: 2024-11-17
+last_modified_at: 2024-11-18
 related_topics:
   - title: English version
     url: /en/common/zstd.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/zstd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zstd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zstd
+# zstd
 
 Comprime o descomprime archivos con compresión Zstandard.
 Más información: <https://github.com/facebook/zstd>.
