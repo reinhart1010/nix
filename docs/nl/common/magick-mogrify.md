@@ -2,8 +2,8 @@
 layout: page
 title: common/magick-mogrify (Nederlands)
 description: "Voer bewerkingen uit op meerdere afbeeldingen, zoals het wijzigen van de grootte, bijsnijden, omkeren en effecten toevoegen."
-content_hash: 6b250b12324836a5da880af26af652936c4e646a
-last_modified_at: 2024-11-17
+content_hash: 457e8ef285e44b69125fafda0fff36d92d5d3345
+last_modified_at: 2024-11-19
 related_topics:
   - title: English version
     url: /en/common/magick-mogrify.html
@@ -42,3 +42,7 @@ Meer informatie: <https://imagemagick.org/script/mogrify.php>.
 - Verdubbel de helderheid van alle afbeeldingsbestanden in de huidige map:
 
 `magick mogrify -modulate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span>
+
+- Verklein de bestandsgrootte van alle GIF-afbeeldingen in de huidige map door de kwaliteit te verlagen:
+
+`magick mogrify -layers 'optimize' -fuzz `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7%</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.gif</span>
