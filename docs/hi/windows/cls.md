@@ -3,7 +3,7 @@ layout: page
 title: windows/cls (हिन्दी)
 description: "स्क्रीन को साफ करता है।"
 content_hash: 903fb15c84b630002cf6be2c5cb9d5b26d902629
-last_modified_at: 2024-11-18
+last_modified_at: 2024-11-19
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -47,18 +47,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cls.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/cls.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cls
+# cls
 
 स्क्रीन को साफ करता है।
 PowerShell में, यह कमांड `Clear-Host` का उपनाम है। यह दस्तावेज़ Command Prompt (`cmd`) संस्करण के `cls` पर आधारित है।

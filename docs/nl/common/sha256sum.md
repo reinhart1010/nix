@@ -3,10 +3,13 @@ layout: page
 title: common/sha256sum (Nederlands)
 description: "Bereken SHA256 cryptografische checksums."
 content_hash: 75b0fc6d521ce914f3ddeb22851a1e0bf6cabb06
-last_modified_at: 2024-06-27
+last_modified_at: 2024-11-19
 related_topics:
   - title: English version
     url: /en/common/sha256sum.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/sha256sum.html
     icon: bi bi-globe
   - title: sh version
     url: /sh/common/sha256sum.html
@@ -14,9 +17,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha256sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sha256sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sha256sum
 
 Bereken SHA256 cryptografische checksums.
 Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.

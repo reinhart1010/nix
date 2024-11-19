@@ -3,7 +3,7 @@ layout: page
 title: common/sha256sum (한국어)
 description: "SHA256 암호화 체크섬 계산."
 content_hash: 1f02229f1a63728a236d943a8a0058fb8558f222
-last_modified_at: 2024-10-15
+last_modified_at: 2024-11-19
 related_topics:
   - title: English version
     url: /en/common/sha256sum.html
@@ -17,9 +17,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha256sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sha256sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sha256sum
 
 SHA256 암호화 체크섬 계산.
 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.

@@ -3,17 +3,26 @@ layout: page
 title: common/sha256sum (தமிழ்)
 description: "SHA256 மறையீட்டு சரிகாண்தொகையைக் கணி."
 content_hash: 8e4bf82f608ec0147e56e6a40de5aebaec77eef8
-last_modified_at: 2023-11-13
+last_modified_at: 2024-11-19
 related_topics:
   - title: English version
     url: /en/common/sha256sum.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/sha256sum.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/sha256sum.html
+    icon: bi bi-globe
   - title: sh version
     url: /sh/common/sha256sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sha256sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sha256sum
 
 SHA256 மறையீட்டு சரிகாண்தொகையைக் கணி.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
