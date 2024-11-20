@@ -2,8 +2,8 @@
 layout: page
 title: common/sha256sum (English)
 description: "Calculate SHA256 cryptographic checksums."
-content_hash: 8a657664e167b31b63232c6a3cf71a91199fa31b
-last_modified_at: 2024-11-18
+content_hash: f22bc275ea502c5cb3f73ec57a7eec854cabf48c
+last_modified_at: 2024-11-20
 related_topics:
   - title: 한국어 version
     url: /ko/common/sha256sum.html
@@ -36,7 +36,7 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | sha256sum`
 
-- Read a file of SHA256 sums and filenames and verify all files have matching checksums:
+- Read a file of SHA256 checksums and filenames and verify all files have matching checksums:
 
 `sha256sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha256</span>
 
@@ -48,6 +48,6 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 `sha256sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha256</span>
 
-- Check known SHA256 sum of a file:
+- Check known SHA256 checksum of a file:
 
-`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">known-sha256-sum-of-the-file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | sha256sum --check`
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">known_sha256_checksum_of_the_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | sha256sum --check`

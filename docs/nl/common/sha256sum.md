@@ -2,8 +2,8 @@
 layout: page
 title: common/sha256sum (Nederlands)
 description: "Bereken SHA256 cryptografische checksums."
-content_hash: 75b0fc6d521ce914f3ddeb22851a1e0bf6cabb06
-last_modified_at: 2024-11-19
+content_hash: 5b51b18c931bf786f748c281cb1d382294339ae3
+last_modified_at: 2024-11-20
 related_topics:
   - title: English version
     url: /en/common/sha256sum.html
@@ -50,3 +50,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-u
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
 `sha256sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.sha256</span>
+
+- Controleer een bekende SHA256 checksum van een bestand:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bekende_sha256_checksum_van_een_bestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>` | sha256sum --check`

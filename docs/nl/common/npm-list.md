@@ -2,7 +2,7 @@
 layout: page
 title: common/npm-list (Nederlands)
 description: "Dit commando is een alias van `npm ls`."
-content_hash: 7d401a5655787b8f934d9bd691228133cd8d9d2c
+content_hash: f0c637189785236a82967b39c2d68b49deffb1ad
 last_modified_at: 2024-11-20
 related_topics:
   - title: English version
@@ -10,7 +10,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# npm-list
+# npm list
 
 Dit commando is een alias van `npm ls`.
 
