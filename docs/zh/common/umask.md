@@ -3,7 +3,7 @@ layout: page
 title: common/umask (中文)
 description: "管理用户为新创建文件设置的读/写/执行权限掩码（即被限制的权限）。"
 content_hash: e9b418d47f70c2b138da92984a5d75a7d9e77be7
-last_modified_at: 2024-11-19
+last_modified_at: 2024-11-20
 related_topics:
   - title: English version
     url: /en/common/umask.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/umask.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/umask.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># umask
+# umask
 
 管理用户为新创建文件设置的读/写/执行权限掩码（即被限制的权限）。
 更多信息：<https://manned.org/umask>.

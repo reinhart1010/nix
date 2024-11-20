@@ -3,7 +3,7 @@ layout: page
 title: common/uncrustify (中文)
 description: "C、C++、C#、D、Java 和 Pawn 源代码格式化工具。"
 content_hash: 72503c9ae5776d5065b3742dafc4c3f2beceb04c
-last_modified_at: 2024-11-19
+last_modified_at: 2024-11-20
 related_topics:
   - title: English version
     url: /en/common/uncrustify.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/uncrustify.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/uncrustify.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># uncrustify
+# uncrustify
 
 C、C++、C#、D、Java 和 Pawn 源代码格式化工具。
 更多信息：<https://github.com/uncrustify/uncrustify>.

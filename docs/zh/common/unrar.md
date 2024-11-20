@@ -3,7 +3,7 @@ layout: page
 title: common/unrar (中文)
 description: "提取 RAR 压缩档案。"
 content_hash: c9009a3bd599d30f5fd2b7f3c895e654cb82a49e
-last_modified_at: 2024-11-19
+last_modified_at: 2024-11-20
 related_topics:
   - title: English version
     url: /en/common/unrar.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/unrar.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/unrar.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># unrar
+# unrar
 
 提取 RAR 压缩档案。
 更多信息：<https://manned.org/unrar>.

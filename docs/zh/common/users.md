@@ -3,7 +3,7 @@ layout: page
 title: common/users (中文)
 description: "显示已登录用户的列表。"
 content_hash: 9857bb9cfb83b5a4250d94457288182f14511668
-last_modified_at: 2024-11-19
+last_modified_at: 2024-11-20
 related_topics:
   - title: English version
     url: /en/common/users.html
@@ -20,18 +20,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/users.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/users.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># users
+# users
 
 显示已登录用户的列表。
 请参阅：`useradd`，`userdel`，`usermod`。

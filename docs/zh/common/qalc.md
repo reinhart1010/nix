@@ -3,7 +3,7 @@ layout: page
 title: common/qalc (中文)
 description: "强大且易用的命令行计算器。"
 content_hash: 8412d28424e32df665685cf1027f8ebdf5619586
-last_modified_at: 2024-11-19
+last_modified_at: 2024-11-20
 related_topics:
   - title: English version
     url: /en/common/qalc.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/qalc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/qalc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qalc
+# qalc
 
 强大且易用的命令行计算器。
 请参阅：`bc`。

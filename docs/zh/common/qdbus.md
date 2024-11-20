@@ -3,7 +3,7 @@ layout: page
 title: common/qdbus (中文)
 description: "进程间通信 (IPC) 和远程过程调用 (RPC) 机制，最初在 Linux 上开发。"
 content_hash: 7dfcb76e91931a0a6e66504db194436bea4ed2ef
-last_modified_at: 2024-11-19
+last_modified_at: 2024-11-20
 related_topics:
   - title: English version
     url: /en/common/qdbus.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/qdbus.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/qdbus.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qdbus
+# qdbus
 
 进程间通信 (IPC) 和远程过程调用 (RPC) 机制，最初在 Linux 上开发。
 更多信息：<https://doc.qt.io/qt-5/qtdbus-index.html>.

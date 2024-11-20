@@ -3,7 +3,7 @@ layout: page
 title: common/unexpand (中文)
 description: "将空格转换为制表符。"
 content_hash: 3c4ebeac12ed049f1f264e161376c2a5ea1f92b6
-last_modified_at: 2024-11-19
+last_modified_at: 2024-11-20
 related_topics:
   - title: English version
     url: /en/common/unexpand.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/unexpand.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/unexpand.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># unexpand
+# unexpand
 
 将空格转换为制表符。
 更多信息：<https://www.gnu.org/software/coreutils/unexpand>.

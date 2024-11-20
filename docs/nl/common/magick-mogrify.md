@@ -3,7 +3,7 @@ layout: page
 title: common/magick-mogrify (Nederlands)
 description: "Voer bewerkingen uit op meerdere afbeeldingen, zoals het wijzigen van de grootte, bijsnijden, omkeren en effecten toevoegen."
 content_hash: 457e8ef285e44b69125fafda0fff36d92d5d3345
-last_modified_at: 2024-11-19
+last_modified_at: 2024-11-20
 related_topics:
   - title: English version
     url: /en/common/magick-mogrify.html
@@ -11,12 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/magick-mogrify.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># magick mogrify
+# magick mogrify
 
 Voer bewerkingen uit op meerdere afbeeldingen, zoals het wijzigen van de grootte, bijsnijden, omkeren en effecten toevoegen.
 Wijzigingen worden direct toegepast op het originele bestand.
