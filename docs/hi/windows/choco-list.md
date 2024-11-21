@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-list (हिन्दी)
 description: "चॉकलेट के साथ पैकेजों की सूची प्रदर्शित करें।"
 content_hash: d08b2c4c110cd697fcdf206f4e39680fe204cf5e
-last_modified_at: 2024-11-20
+last_modified_at: 2024-11-21
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-list.html
@@ -29,18 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-list.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/choco-list.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># choco list
+# choco list
 
 चॉकलेट के साथ पैकेजों की सूची प्रदर्शित करें।
 अधिक जानकारी: <https://chocolatey.org/docs/commands-list>।
