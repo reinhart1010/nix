@@ -2,8 +2,15 @@
 layout: page
 title: linux/hyprctl (English)
 description: "Control parts of the Hyprland Wayland compositor."
-content_hash: fdb29f14485dd4a700bc5c377135000b8c77f881
-last_modified_at: 2024-06-15
+content_hash: 97f13722454ff59db4a06eb7c4ecac018bf6bfcd
+last_modified_at: 2024-11-23
+related_topics:
+  - title: español version
+    url: /es/linux/hyprctl.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/hyprctl.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # hyprctl
@@ -27,9 +34,9 @@ More information: <https://wiki.hyprland.org/Configuring/Using-hyprctl>.
 
 `hyprctl workspaces`
 
-- Call a dispatcher with an argument:
+- Call a dispatcher:
 
-`hyprctl dispatch exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app</span>
+`hyprctl dispatch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dispatcher</span>
 
 - Set a configuration keyword dynamically:
 
