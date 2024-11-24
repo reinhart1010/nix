@@ -3,14 +3,20 @@ layout: page
 title: common/b3sum (français)
 description: "Calcule les sommes de contrôle cryptographiques BLAKE3."
 content_hash: cf8f7927268d14d264f9eafa19abd057cb3c72e9
-last_modified_at: 2024-03-07
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/b3sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/common/b3sum.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# b3sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># b3sum
 
 Calcule les sommes de contrôle cryptographiques BLAKE3.
 Plus d'informations : <https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum>.

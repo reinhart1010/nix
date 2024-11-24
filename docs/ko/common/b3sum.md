@@ -3,7 +3,7 @@ layout: page
 title: common/b3sum (한국어)
 description: "BLAKE3 암호화 체크섬을 계산."
 content_hash: 61feef9efaa07a2f835c0bec74eda30ed3a7ecef
-last_modified_at: 2024-09-22
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/b3sum.html
@@ -11,9 +11,12 @@ related_topics:
   - title: français version
     url: /fr/common/b3sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# b3sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># b3sum
 
 BLAKE3 암호화 체크섬을 계산.
 더 많은 정보: <https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum>.

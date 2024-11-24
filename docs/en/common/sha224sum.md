@@ -2,9 +2,15 @@
 layout: page
 title: common/sha224sum (English)
 description: "Calculate SHA224 cryptographic checksums."
-content_hash: 44e133e547b516589f5bc5a96d7506a5c646af0f
-last_modified_at: 2023-11-12
+content_hash: 96afc25abfcf9e2d464a50d405decdaf1be99370
+last_modified_at: 2024-11-24
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/sha224sum.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/sha224sum.html
+    icon: bi bi-globe
   - title: sh version
     url: /sh/common/sha224sum.html
     icon: bi bi-globe
@@ -30,7 +36,7 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | sha224sum`
 
-- Read a file of SHA224 sums and filenames and verify all files have matching checksums:
+- Read a file of SHA224 checksums and filenames and verify all files have matching checksums:
 
 `sha224sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha224</span>
 
@@ -41,3 +47,7 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 - Only show a message when verification fails, ignoring missing files:
 
 `sha224sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha224</span>
+
+- Check a known SHA224 checksum of a file:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">known_sha224_checksum_of_the_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | sha224sum --check`

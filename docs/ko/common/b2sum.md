@@ -3,7 +3,7 @@ layout: page
 title: common/b2sum (한국어)
 description: "BLACK2 암호화 체크섬을 계산."
 content_hash: 19a11b854f9d5bac1a648db65b2293fa8e9469e4
-last_modified_at: 2024-10-14
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -20,9 +20,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/b2sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# b2sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># b2sum
 
 BLACK2 암호화 체크섬을 계산.
 더 많은 정보: <https://www.gnu.org/software/coreutils/b2sum>.

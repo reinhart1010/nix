@@ -2,8 +2,15 @@
 layout: page
 title: common/b3sum (English)
 description: "Calculate BLAKE3 cryptographic checksums."
-content_hash: 045441251a4dcc63b49b742f39d140b31eb28a78
-last_modified_at: 2023-11-12
+content_hash: ca30284ed82723fc87020f5634ce1a064d2c0003
+last_modified_at: 2024-11-24
+related_topics:
+  - title: français version
+    url: /fr/common/b3sum.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/b3sum.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # b3sum
@@ -23,10 +30,14 @@ More information: <https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum>.
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | b3sum`
 
-- Read a file of BLAKE3 sums and filenames and verify all files have matching checksums:
+- Read a file of BLAKE3 checksums and filenames and verify all files have matching checksums:
 
 `b3sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.b3</span>
 
 - Only show a message for missing files or when verification fails:
 
 `b3sum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.b3</span>
+
+- Check a known BLAKE3 checksum of a file:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">known_blake3_checksum_of_the_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | b3sum --check`

@@ -3,7 +3,7 @@ layout: page
 title: common/b2sum (français)
 description: "Calcule les sommes de contrôle cryptographiques BLAKE2."
 content_hash: 47b09a85d123b58a201ae151cd7453e570efb90f
-last_modified_at: 2023-12-28
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -14,12 +14,18 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/b2sum.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/b2sum.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/b2sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# b2sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># b2sum
 
 Calcule les sommes de contrôle cryptographiques BLAKE2.
 Plus d'informations : <https://www.gnu.org/software/coreutils/b2sum>.

@@ -2,8 +2,8 @@
 layout: page
 title: common/b2sum (English)
 description: "Calculate BLAKE2 cryptographic checksums."
-content_hash: 812aa844768ebb5ea24742ae0c11d264b2758a8a
-last_modified_at: 2023-11-12
+content_hash: ba54039054261fa56af350a5a8de6c7fad19dfae
+last_modified_at: 2024-11-24
 related_topics:
   - title: français version
     url: /fr/common/b2sum.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/b2sum.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/b2sum.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/b2sum.html
@@ -36,7 +39,7 @@ More information: <https://www.gnu.org/software/coreutils/b2sum>.
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | b2sum`
 
-- Read a file of BLAKE2 sums and filenames and verify all files have matching checksums:
+- Read a file of BLAKE2 checksums and filenames and verify all files have matching checksums:
 
 `b2sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.b2</span>
 
@@ -47,3 +50,7 @@ More information: <https://www.gnu.org/software/coreutils/b2sum>.
 - Only show a message when verification fails, ignoring missing files:
 
 `b2sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.b2</span>
+
+- Check a known BLAKE2 checksum of a file:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">known_blake2_checksum_of_the_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | b2sum --check`

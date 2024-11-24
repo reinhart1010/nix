@@ -3,17 +3,26 @@ layout: page
 title: common/sha512sum (தமிழ்)
 description: "SHA512 மறையீட்டு சரிகாண்தொகையைக் கணி."
 content_hash: 54b436d25394a62c07db0e2a08570b1729443e61
-last_modified_at: 2023-11-13
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/sha512sum.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/sha512sum.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/sha512sum.html
+    icon: bi bi-globe
   - title: sh version
     url: /sh/common/sha512sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sha512sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sha512sum
 
 SHA512 மறையீட்டு சரிகாண்தொகையைக் கணி.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.

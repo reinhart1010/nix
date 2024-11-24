@@ -3,17 +3,26 @@ layout: page
 title: common/sha384sum (தமிழ்)
 description: "SHA384 மறையீட்டு சரிகாண்தொகையைக் கணி."
 content_hash: 63529d007bdd2cc16f09c53019114c46206d4aa6
-last_modified_at: 2023-11-13
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/sha384sum.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/sha384sum.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/sha384sum.html
+    icon: bi bi-globe
   - title: sh version
     url: /sh/common/sha384sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sha384sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sha384sum
 
 SHA384 மறையீட்டு சரிகாண்தொகையைக் கணி.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.

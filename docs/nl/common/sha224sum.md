@@ -3,10 +3,13 @@ layout: page
 title: common/sha224sum (Nederlands)
 description: "Bereken SHA224 cryptografische checksums."
 content_hash: eadef02c5719913cb2e4b790465e220b29df622b
-last_modified_at: 2024-06-27
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/sha224sum.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/sha224sum.html
     icon: bi bi-globe
   - title: sh version
     url: /sh/common/sha224sum.html
@@ -14,9 +17,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha224sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sha224sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sha224sum
 
 Bereken SHA224 cryptografische checksums.
 Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.

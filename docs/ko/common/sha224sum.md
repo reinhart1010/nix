@@ -3,7 +3,7 @@ layout: page
 title: common/sha224sum (한국어)
 description: "SHA224 암호화 체크섬 계산."
 content_hash: 41995547c9556400c81f4b414b553197561807a9
-last_modified_at: 2024-10-15
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/sha224sum.html
@@ -17,9 +17,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha224sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sha224sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sha224sum
 
 SHA224 암호화 체크섬 계산.
 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.

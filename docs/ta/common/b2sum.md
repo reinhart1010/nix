@@ -3,7 +3,7 @@ layout: page
 title: common/b2sum (தமிழ்)
 description: "BLAKE2 மறையீட்டு சரிகாண்தொகைகளைக் கணி அல்லது சரிபார்."
 content_hash: 7ef4c859f36f9dde20d474da24a37d2e4e621bb5
-last_modified_at: 2023-11-13
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -17,9 +17,15 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/b2sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: Nederlands version
+    url: /nl/common/b2sum.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# b2sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># b2sum
 
 BLAKE2 மறையீட்டு சரிகாண்தொகைகளைக் கணி அல்லது சரிபார்.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/b2sum>.

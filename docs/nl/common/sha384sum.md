@@ -3,10 +3,13 @@ layout: page
 title: common/sha384sum (Nederlands)
 description: "Bereken SHA384 cryptografische checksums."
 content_hash: 3a9708d9cf01276dab570da8a3006f46d77df9b9
-last_modified_at: 2024-06-27
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/sha384sum.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/sha384sum.html
     icon: bi bi-globe
   - title: sh version
     url: /sh/common/sha384sum.html
@@ -14,9 +17,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha384sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sha384sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sha384sum
 
 Bereken SHA384 cryptografische checksums.
 Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.

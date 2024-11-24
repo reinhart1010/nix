@@ -2,8 +2,8 @@
 layout: page
 title: common/sha256sum (English)
 description: "Calculate SHA256 cryptographic checksums."
-content_hash: f22bc275ea502c5cb3f73ec57a7eec854cabf48c
-last_modified_at: 2024-11-20
+content_hash: 179865f69abaaffffe50b5ca4bf6aa3004f6719f
+last_modified_at: 2024-11-24
 related_topics:
   - title: 한국어 version
     url: /ko/common/sha256sum.html
@@ -48,6 +48,6 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 `sha256sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha256</span>
 
-- Check known SHA256 checksum of a file:
+- Check a known SHA256 checksum of a file:
 
 `echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">known_sha256_checksum_of_the_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | sha256sum --check`

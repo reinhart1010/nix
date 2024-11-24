@@ -3,17 +3,26 @@ layout: page
 title: common/sha224sum (தமிழ்)
 description: "SHA224 மறையீட்டு சரிகாண்தொகையைக் கணி."
 content_hash: d5993eff78aa37238894dbd5aa7db6c33a8c21e8
-last_modified_at: 2023-11-13
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/sha224sum.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/sha224sum.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/sha224sum.html
+    icon: bi bi-globe
   - title: sh version
     url: /sh/common/sha224sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sha224sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sha224sum
 
 SHA224 மறையீட்டு சரிகாண்தொகையைக் கணி.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.

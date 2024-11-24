@@ -3,7 +3,7 @@ layout: page
 title: common/sha384sum (한국어)
 description: "SHA384 암호화 체크섬 계산."
 content_hash: b088bcfa18d4b7b53a2c6901df9b63705f9c38a5
-last_modified_at: 2024-10-15
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/sha384sum.html
@@ -17,9 +17,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha384sum.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sha384sum
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sha384sum
 
 SHA384 암호화 체크섬 계산.
 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
