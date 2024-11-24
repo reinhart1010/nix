@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (português (Brasil))
 description: "Este comando é um apelido de `choco list`."
-content_hash: f8b868593ed4dc73aa53ca02460f94bbbced3083
-last_modified_at: 2024-02-25
+content_hash: 8dccf385d4565dade44bfb3d1d2465de37f46a4f
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 Este comando é um apelido de `choco list`.
-Mais informações: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Exibe documentação sobre o comando original:
 

@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (português (Brasil))
 description: "Este comando é um apelido de `tldr-lint`."
-content_hash: 981425b229d00328e4b583f259445c8dafbc1c39
-last_modified_at: 2024-02-25
+content_hash: 5f04a2d792b04d5c6529b261844612cae3a2ef9b
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 Este comando é um apelido de `tldr-lint`.
-Mais informações: <https://github.com/tldr-pages/tldr-lint>.
 
 - Exibe documentação sobre o comando original:
 

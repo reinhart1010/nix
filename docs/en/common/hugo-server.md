@@ -2,8 +2,15 @@
 layout: page
 title: common/hugo-server (English)
 description: "Build and serve a site with Hugo's built-in webserver."
-content_hash: 3f419f7ec05f4aec538df7775a4aba10bb23aa3c
-last_modified_at: 2024-09-07
+content_hash: 81f9745237f57e5d5fd472d277830f782c8396fb
+last_modified_at: 2024-11-24
+related_topics:
+  - title: español version
+    url: /es/common/hugo-server.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/hugo-server.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # hugo server
@@ -22,6 +29,10 @@ More information: <https://gohugo.io/commands/hugo_server/>.
 - Build and serve a site while minifying supported output formats (HTML, XML, etc.):
 
 `hugo server --minify`
+
+- Build and serve a site in the production environment with full re-renders while minifying supported formats:
+
+`hugo server --environment `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">production</span>` --disableFastRender --minify`
 
 - Display help:
 

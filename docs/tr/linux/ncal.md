@@ -2,20 +2,14 @@
 layout: page
 title: linux/ncal (Türkçe)
 description: "Bu komut `cal` için bir takma addır."
-content_hash: 848f99eba9d20c76570948a5dfbb8201cd90de1f
-last_modified_at: 2023-11-12
+content_hash: d5a01fe4ede8368bcb8b86cfceece4caecc5f171
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,7 +88,6 @@ tldri18n_status: 2
 # ncal
 
 Bu komut `cal` için bir takma addır.
-Daha fazla bilgi için: <https://manned.org/ncal>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

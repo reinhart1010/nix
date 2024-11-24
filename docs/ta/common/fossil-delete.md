@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (தமிழ்)
 description: "இக்கட்டளை `fossil rm` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: 3fd8a088e83832a2855c569d5f3cb29ab8a3b1b5
-last_modified_at: 2024-05-09
+content_hash: 237564f98c1fbb188218631a12f6def81a3e9ccc
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil delete
 
 இக்கட்டளை `fossil rm` கட்டளையின் மற்றொருப் பெயர்.
-மேலும் விவரத்திற்கு: <https://fossil-scm.org/home/help/delete>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

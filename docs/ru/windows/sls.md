@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (русский)
 description: "Эта команда — псевдоним для `Select-String`."
-content_hash: 6ce94e88a8d953914293fb2fa72599616aaa8d73
-last_modified_at: 2023-11-12
+content_hash: 9e701932b3684b91d630bf341571b887095339cb
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 Эта команда — псевдоним для `Select-String`.
-Больше информации: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Смотри документацию для оригинальной команды:
 

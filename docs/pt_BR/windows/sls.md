@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (português (Brasil))
 description: "Este comando é um apelido de `Select-String`."
-content_hash: 069b6dd193b67a6e55512e022f609c72ccd1d3c3
-last_modified_at: 2024-02-25
+content_hash: 644b5f40d9ab306f342bfb373301feca6bdd8838
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 Este comando é um apelido de `Select-String`.
-Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Exibe documentação sobre o comando original:
 

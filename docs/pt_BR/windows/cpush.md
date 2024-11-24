@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (português (Brasil))
 description: "Este comando é um apelido de `choco push`."
-content_hash: bf82386aac764cd9959d3d5fa57c81ea6554d90e
-last_modified_at: 2024-11-15
+content_hash: b223a8218903df0064f063165696e436c4d4a95e
+last_modified_at: 2024-11-24
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # cpush
 
 Este comando é um apelido de `choco push`.
-Mais informações: <https://docs.chocolatey.org/en-us/create/commands/push>.
 
 - Exibe documentação sobre o comando original:
 

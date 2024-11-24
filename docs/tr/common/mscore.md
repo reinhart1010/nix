@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (Türkçe)
 description: "Bu komut `musescore` için bir takma addır."
-content_hash: dc1ddbbec3e8315104b4dda3fddaed1744fb77d5
-last_modified_at: 2023-11-12
+content_hash: 4f782f1f5b7797d7b2c80b2f07d2ca67fa0996b5
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 Bu komut `musescore` için bir takma addır.
-Daha fazla bilgi için: <https://musescore.org/handbook/command-line-options>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (தமிழ்)
 description: "இக்கட்டளை `choco push` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: 3afa1ad24eafb8b0fadf15593e4f7267efd5b6a1
-last_modified_at: 2024-11-15
+content_hash: 171770f300b90dd730d3d4c5bedd892a3417c7a0
+last_modified_at: 2024-11-24
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # cpush
 
 இக்கட்டளை `choco push` கட்டளையின் மற்றொருப் பெயர்.
-மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/create/commands/push>.
 
 - அசல் கட்டளைக்கான ஆவணங்களைப் பார்க்கவும்:
 

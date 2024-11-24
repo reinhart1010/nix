@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (português (Portugal))
 description: "Este comando é um alias de `Select-String`."
-content_hash: 963aba699efbdb7f20e3cd6b3db9f7c71953ad31
-last_modified_at: 2023-12-28
+content_hash: 3712ad8a55c6d3d864c0ca11a8f75ad89bf92c2c
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 Este comando é um alias de `Select-String`.
-Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Exibe documentação do comando original:
 

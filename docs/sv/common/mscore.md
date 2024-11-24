@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (svenska)
 description: "Det här kommandot är ett alias för `musescore`."
-content_hash: 77f285c6a7622153d2ed03afdcc333e257e82cac
-last_modified_at: 2023-11-12
+content_hash: a6156d53355738858798c786173789c513ff4e30
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 Det här kommandot är ett alias för `musescore`.
-Mer information: <https://musescore.org/handbook/command-line-options>.
 
 - Se dokumentationen för orginalkommandot:
 

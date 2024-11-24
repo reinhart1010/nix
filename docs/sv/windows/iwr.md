@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (svenska)
 description: "Det här kommandot är ett alias för `invoke-webrequest`."
-content_hash: eb0b8ae32607f8fcc188e9dcb1a67c962d063c63
-last_modified_at: 2023-11-12
+content_hash: 80ecebf80519f6febff765339c1de1fb8a657b20
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 Det här kommandot är ett alias för `invoke-webrequest`.
-Mer information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Se dokumentationen för orginalkommandot:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (português (Brasil))
 description: "Este comando é um apelido de `invoke-webrequest`."
-content_hash: 0c7fe4bb0e4440de6bd88a952ea2562470d25eae
-last_modified_at: 2024-02-25
+content_hash: a19718d8bdb7920d00425a226f25c83c17bbcd76
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 Este comando é um apelido de `invoke-webrequest`.
-Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Exibe documentação sobre o comando original:
 

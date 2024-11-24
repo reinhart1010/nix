@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (தமிழ்)
 description: "இக்கட்டளை `fossil commit`.கட்டளையின் மற்றொருப் பெயர்."
-content_hash: ddb482748c880a7f4fdbcfb35a5d8a27cb6787c4
-last_modified_at: 2024-11-17
+content_hash: bdfe6d24a8aab6256b5ab78fa1d82284362edb8a
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil ci
 
 இக்கட்டளை `fossil commit`.கட்டளையின் மற்றொருப் பெயர்.
-மேலும் விவரத்திற்கு: <https://fossil-scm.org/home/help/commit>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

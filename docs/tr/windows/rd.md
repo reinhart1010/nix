@@ -2,21 +2,9 @@
 layout: page
 title: windows/rd (Türkçe)
 description: "Bu komut `rmdir` için bir takma addır."
-content_hash: 5b35ee94f0a90fce0e91f17c9b1b980f15ebdd5b
-last_modified_at: 2023-11-12
+content_hash: effbb30cef42092bd25848e6766d63248572b406
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/windows/rd.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/windows/rd.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/rd.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/rd.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/rd.html
     icon: bi bi-globe
@@ -38,26 +26,14 @@ related_topics:
   - title: italiano version
     url: /it/windows/rd.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/windows/rd.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/windows/rd.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/windows/rd.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/windows/rd.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/windows/rd.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/rd.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/windows/rd.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/rd.html
@@ -68,20 +44,11 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/rd.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/windows/rd.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/windows/rd.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/rd.html
     icon: bi bi-globe
   - title: ไทย version
     url: /th/windows/rd.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/windows/rd.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/rd.html
@@ -97,7 +64,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># rd
 
 Bu komut `rmdir` için bir takma addır.
-Daha fazla bilgi için: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

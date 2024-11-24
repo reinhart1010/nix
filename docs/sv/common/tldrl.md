@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (svenska)
 description: "Det här kommandot är ett alias för `tldr-lint`."
-content_hash: ceb9a72f766bcec3dd716dbde4456c915254d3b7
-last_modified_at: 2023-11-12
+content_hash: f6ee629bd73f19f39685259377ca92e47efee287
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 Det här kommandot är ett alias för `tldr-lint`.
-Mer information: <https://github.com/tldr-pages/tldr-lint>.
 
 - Se dokumentationen för orginalkommandot:
 

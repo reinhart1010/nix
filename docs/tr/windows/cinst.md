@@ -2,20 +2,11 @@
 layout: page
 title: windows/cinst (Türkçe)
 description: "Bu komut `choco install` için bir takma addır."
-content_hash: eb6d837755652af7a0c2821bad05f5c9465777bb
-last_modified_at: 2023-11-12
+content_hash: a2549bf49028a6dcf519a8991ba0fb354368939b
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cinst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cinst
 
 Bu komut `choco install` için bir takma addır.
-Daha fazla bilgi için: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

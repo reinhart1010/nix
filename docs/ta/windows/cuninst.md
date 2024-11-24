@@ -2,20 +2,11 @@
 layout: page
 title: windows/cuninst (தமிழ்)
 description: "இக்கட்டளை `choco uninstall` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: d0cd5060387504b7aa15f7add3c30c38e004b97b
-last_modified_at: 2023-11-12
+content_hash: fdd2066268734aea2f15b911a6539a3f541ba784
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cuninst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cuninst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cuninst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cuninst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cuninst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cuninst
 
 இக்கட்டளை `choco uninstall` கட்டளையின் மற்றொருப் பெயர்.
-மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

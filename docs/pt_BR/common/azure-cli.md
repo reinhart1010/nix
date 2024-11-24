@@ -2,11 +2,14 @@
 layout: page
 title: common/azure-cli (português (Brasil))
 description: "Este comando ė um alias(apelido) de `az`."
-content_hash: 8de3b0d60f0a352e488cbfaf4493f7c86885f518
-last_modified_at: 2024-10-29
+content_hash: e56bf367c5c8ca49bef22da37e301493cb56ac54
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/azure-cli.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/azure-cli.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/azure-cli.html
@@ -25,7 +28,6 @@ tldri18n_status: 2
 # azure-cli
 
 Este comando ė um alias(apelido) de `az`.
-Mais informações: <https://learn.microsoft.com/cli/azure>.
 
 - Veja a documentação para o comando original:
 

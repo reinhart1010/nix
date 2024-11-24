@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (Türkçe)
 description: "Bu komut `fossil rm` için bir takma addır."
-content_hash: aff41b256939b3609dd2eba04f3ec0272d2d4774
-last_modified_at: 2024-05-09
+content_hash: 846706046da4f79d2dde2ce303e930f81f72f3e4
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil delete
 
 Bu komut `fossil rm` için bir takma addır.
-Daha fazla bilgi için: <https://fossil-scm.org/home/help/delete>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

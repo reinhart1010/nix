@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (Türkçe)
 description: "Bu komut `choco list` için bir takma addır."
-content_hash: e03b8c982a8cf4ad0da47b224f9f3f026c56b405
-last_modified_at: 2023-11-12
+content_hash: 7f1742e1d0833667c7ffa53edba3bae259a5f6be
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 Bu komut `choco list` için bir takma addır.
-Daha fazla bilgi için: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

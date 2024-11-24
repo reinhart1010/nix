@@ -2,11 +2,14 @@
 layout: page
 title: common/git-stage (português (Brasil))
 description: "Este comando é um apelido de `git add`."
-content_hash: fac02a79ee2ba55d00664a60e4821abed4e1f7c6
-last_modified_at: 2024-10-25
+content_hash: 515fa5fab117675a1a2984bb8c23ffd81e2c83fd
+last_modified_at: 2024-11-24
 related_topics:
   - title: English version
     url: /en/common/git-stage.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/git-stage.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-stage.html
@@ -31,7 +34,6 @@ tldri18n_status: 2
 # git stage
 
 Este comando é um apelido de `git add`.
-Mais informações: <https://git-scm.com/docs/git-stage>.
 
 - Exibe documentação sobre o comando original:
 

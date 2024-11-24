@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (Türkçe)
 description: "Bu komut `pio` için bir takma addır."
-content_hash: fe8d0fff373a905f9bb3f716187afd1507e881b6
-last_modified_at: 2023-11-12
+content_hash: f527fb1e232ac1170cfff82c0b9e84fecf7999c2
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 Bu komut `pio` için bir takma addır.
-Daha fazla bilgi için: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

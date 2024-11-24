@@ -2,21 +2,9 @@
 layout: page
 title: common/unxz (தமிழ்)
 description: "இக்கட்டளை `xz` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: 53dbfa62b957f8fc701e9916ecdafdea3e92deca
-last_modified_at: 2023-11-12
+content_hash: d2913349d6d77456ba62b9e5b61a8b2ed4189715
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/unxz.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/unxz.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/unxz.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/unxz.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/unxz.html
     icon: bi bi-globe
@@ -38,26 +26,14 @@ related_topics:
   - title: italiano version
     url: /it/common/unxz.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/unxz.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/unxz.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/unxz.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/unxz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/unxz.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/unxz.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/unxz.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/unxz.html
@@ -68,20 +44,11 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/unxz.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/unxz.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/unxz.html
-    icon: bi bi-globe
   - title: ไทย version
     url: /th/common/unxz.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/unxz.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/unxz.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/unxz.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # unxz
 
 இக்கட்டளை `xz` கட்டளையின் மற்றொருப் பெயர்.
-மேலும் விவரத்திற்கு: <https://manned.org/unxz>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

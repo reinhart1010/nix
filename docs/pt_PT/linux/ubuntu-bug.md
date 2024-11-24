@@ -2,20 +2,11 @@
 layout: page
 title: linux/ubuntu-bug (português (Portugal))
 description: "Este comando é um alias de `apport-bug`."
-content_hash: 90e1e2ac17f0b940ff66e4754ce28b594fe103cc
-last_modified_at: 2023-12-28
+content_hash: e756dd000e644ccac5a2a90e2ec4e7216e77c936
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ubuntu-bug.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/ubuntu-bug.html
-    icon: bi bi-globe
   - title: català version
     url: /ca/linux/ubuntu-bug.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ubuntu-bug.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ubuntu-bug.html
@@ -38,17 +29,8 @@ related_topics:
   - title: italiano version
     url: /it/linux/ubuntu-bug.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/ubuntu-bug.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/ubuntu-bug.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/ubuntu-bug.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/ubuntu-bug.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/linux/ubuntu-bug.html
@@ -56,20 +38,11 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/ubuntu-bug.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/ubuntu-bug.html
-    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/ubuntu-bug.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/ubuntu-bug.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/ubuntu-bug.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/ubuntu-bug.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/ubuntu-bug.html
@@ -79,9 +52,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/ubuntu-bug.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/ubuntu-bug.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/ubuntu-bug.html
@@ -94,7 +64,6 @@ tldri18n_status: 2
 # ubuntu-bug
 
 Este comando é um alias de `apport-bug`.
-Mais informações: <https://manned.org/ubuntu-bug>.
 
 - Exibe documentação do comando original:
 

@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (русский)
 description: "Эта команда — псевдоним для `tldr-lint`."
-content_hash: 915dcf377c92bcfdfecc5aa87db1a3713ebb60b4
-last_modified_at: 2023-11-12
+content_hash: 5653e3f1abc3168ab2228b1395a75a8705fa5c91
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 Эта команда — псевдоним для `tldr-lint`.
-Больше информации: <https://github.com/tldr-pages/tldr-lint>.
 
 - Смотри документацию для оригинальной команды:
 

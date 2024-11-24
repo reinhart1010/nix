@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (svenska)
 description: "Det här kommandot är ett alias för `pio`."
-content_hash: 39bd7afe5e70e97bef5c314ce8785fe5c2f8f3e7
-last_modified_at: 2023-11-12
+content_hash: aeb491d3b27f2eefe94fd61a9b38035be4c8199d
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 Det här kommandot är ett alias för `pio`.
-Mer information: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Se dokumentationen för orginalkommandot:
 

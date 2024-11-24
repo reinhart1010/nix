@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (português (Brasil))
 description: "Este comando é um apelido de `pio`."
-content_hash: 15298d716de9b105f592c804c15462581947fd6e
-last_modified_at: 2024-02-25
+content_hash: 010a541db8a807604429dd82b3f8b918a9db71ae
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 Este comando é um apelido de `pio`.
-Mais informações: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Exibe documentação sobre o comando original:
 

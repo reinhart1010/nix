@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (русский)
 description: "Эта команда — псевдоним для `gnmic subscribe`."
-content_hash: 3150514cd3ebea3b88765a93b8ab87e528432157
-last_modified_at: 2024-05-09
+content_hash: e60aeca77b71f857d4936b55fed777cde737e095
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gnmic sub
 
 Эта команда — псевдоним для `gnmic subscribe`.
-Больше информации: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
 - Смотри документацию для оригинальной команды:
 

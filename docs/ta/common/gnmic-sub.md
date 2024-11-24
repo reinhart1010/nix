@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (தமிழ்)
 description: "இக்கட்டளை `gnmic subscribe` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: a35a0e72c17c812add5a36de854a1ba5d63eec62
-last_modified_at: 2024-05-09
+content_hash: 3ec7ee07644d739a9110fe403fdf38fbdabf6381
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gnmic sub
 
 இக்கட்டளை `gnmic subscribe` கட்டளையின் மற்றொருப் பெயர்.
-மேலும் விவரத்திற்கு: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

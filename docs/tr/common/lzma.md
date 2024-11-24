@@ -2,21 +2,9 @@
 layout: page
 title: common/lzma (Türkçe)
 description: "Bu komut `xz` için bir takma addır."
-content_hash: 0d5e6d50a646f9a07d13098cdb2091c638c019c1
-last_modified_at: 2023-11-12
+content_hash: fcc00255ffa0e9ab091d8af69f9fcd93e59f520b
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/lzma.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/lzma.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/lzma.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/lzma.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/lzma.html
     icon: bi bi-globe
@@ -38,26 +26,14 @@ related_topics:
   - title: italiano version
     url: /it/common/lzma.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/lzma.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/lzma.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/lzma.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/lzma.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/lzma.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/lzma.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/lzma.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/lzma.html
@@ -68,20 +44,11 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/lzma.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/lzma.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/lzma.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/lzma.html
     icon: bi bi-globe
   - title: ไทย version
     url: /th/common/lzma.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/lzma.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/lzma.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # lzma
 
 Bu komut `xz` için bir takma addır.
-Daha fazla bilgi için: <https://manned.org/lzma>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

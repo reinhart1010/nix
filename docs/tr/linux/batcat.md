@@ -2,21 +2,9 @@
 layout: page
 title: linux/batcat (Türkçe)
 description: "Bu komut `bat` için bir takma addır."
-content_hash: edc1cf72074c8781f48f98d83aaf7a204b9e7742
-last_modified_at: 2023-11-12
+content_hash: 51c491b8df06c1963c92fde43da3b11ff4f6f096
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/linux/batcat.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/batcat.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/batcat.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/batcat.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/batcat.html
     icon: bi bi-globe
@@ -38,26 +26,14 @@ related_topics:
   - title: italiano version
     url: /it/linux/batcat.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/batcat.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/batcat.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/batcat.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/batcat.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/linux/batcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/batcat.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/batcat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/batcat.html
@@ -68,20 +44,11 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/batcat.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/batcat.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/batcat.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/batcat.html
     icon: bi bi-globe
   - title: ไทย version
     url: /th/linux/batcat.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/batcat.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/batcat.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # batcat
 
 Bu komut `bat` için bir takma addır.
-Daha fazla bilgi için: <https://github.com/sharkdp/bat>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (தமிழ்)
 description: "இக்கட்டளை `Select-String` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: 6d42221b2d2bac4175291b2be9ea09fbd50c4ecf
-last_modified_at: 2023-11-12
+content_hash: 861ad5e797827ef879600e4fd85df7681624c1ad
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 இக்கட்டளை `Select-String` கட்டளையின் மற்றொருப் பெயர்.
-மேலும் விவரத்திற்கு: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

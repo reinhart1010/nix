@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (தமிழ்)
 description: "இக்கட்டளை `musescore` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: f2e6d767f38d57d29a80d21b283c18ea1df54c7f
-last_modified_at: 2023-11-12
+content_hash: b9305beb7d596adaf2d1a3eb74502b65909fe042
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 இக்கட்டளை `musescore` கட்டளையின் மற்றொருப் பெயர்.
-மேலும் விவரத்திற்கு: <https://musescore.org/handbook/command-line-options>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

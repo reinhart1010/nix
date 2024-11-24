@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (தமிழ்)
 description: "இக்கட்டளை `invoke-webrequest` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: ded8455ee919f8e6a9274f6ec1eca1f29060d600
-last_modified_at: 2023-11-12
+content_hash: 4cb64f9d8b4806ca932263f3bbf81096717d9452
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 இக்கட்டளை `invoke-webrequest` கட்டளையின் மற்றொருப் பெயர்.
-மேலும் விவரத்திற்கு: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

@@ -2,20 +2,11 @@
 layout: page
 title: windows/cuninst (Türkçe)
 description: "Bu komut `choco uninstall` için bir takma addır."
-content_hash: e10b219ba0d2cf4d8fd947b67c6ffec947e54a5c
-last_modified_at: 2023-11-12
+content_hash: 5a0997800a5287ea67453d27bc99a557968ce74c
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cuninst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cuninst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cuninst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cuninst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cuninst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cuninst
 
 Bu komut `choco uninstall` için bir takma addır.
-Daha fazla bilgi için: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

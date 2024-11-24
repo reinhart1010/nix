@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (русский)
 description: "Эта команда — псевдоним для `fossil init`."
-content_hash: 4adc382dbb61088e6f427997cc86e2ecd880b36f
-last_modified_at: 2024-11-17
+content_hash: e6f8ae4c376984cf752552541941f8d5dd2cbcd1
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil new
 
 Эта команда — псевдоним для `fossil init`.
-Больше информации: <https://fossil-scm.org/home/help/new>.
 
 - Смотри документацию для оригинальной команды:
 

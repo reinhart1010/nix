@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (svenska)
 description: "Det här kommandot är ett alias för `fossil commit`."
-content_hash: 10a59895302fbf8e0641d8dbe8ad1c5a67a316e8
-last_modified_at: 2024-11-17
+content_hash: 65e75b93008110483b527f285e534e8a5c0dfe23
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil ci
 
 Det här kommandot är ett alias för `fossil commit`.
-Mer information: <https://fossil-scm.org/home/help/commit>.
 
 - Se dokumentationen för orginalkommandot:
 

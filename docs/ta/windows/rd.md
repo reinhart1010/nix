@@ -2,21 +2,9 @@
 layout: page
 title: windows/rd (தமிழ்)
 description: "இந்த கட்டளை, கட்டளை வரியில் `rmdir` மற்றும் PowerShell இல் `Remove-Item` என்பதன் மாற்றுப்பெயர்."
-content_hash: 6c1ce1918b1d3b419a6539a7c1f43740d897a56c
-last_modified_at: 2023-11-26
+content_hash: a822b2b7fbf67f45c0607fb3bf91775b9fdcff45
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/windows/rd.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/windows/rd.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/rd.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/rd.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/rd.html
     icon: bi bi-globe
@@ -38,26 +26,14 @@ related_topics:
   - title: italiano version
     url: /it/windows/rd.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/windows/rd.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/windows/rd.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/windows/rd.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/windows/rd.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/windows/rd.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/rd.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/windows/rd.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/rd.html
@@ -68,20 +44,11 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/rd.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/windows/rd.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/windows/rd.html
-    icon: bi bi-globe
   - title: ไทย version
     url: /th/windows/rd.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/windows/rd.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/windows/rd.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/rd.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # rd
 
 இந்த கட்டளை, கட்டளை வரியில் `rmdir` மற்றும் PowerShell இல் `Remove-Item` என்பதன் மாற்றுப்பெயர்.
-மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.
 
 - அசல் கட்டளை வரியில் (Command Prompt) கட்டளைக்கான ஆவணங்களைக் காண்க:
 

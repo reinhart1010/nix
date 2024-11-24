@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (português (Brasil))
 description: "Este comando é um apelido de `musescore`."
-content_hash: 53c331f5fd5d71f3a76b8d4a101698e6ae429c8f
-last_modified_at: 2024-02-25
+content_hash: c6434560c37db5b0c36c9193ffe6c304e094e3f2
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 Este comando é um apelido de `musescore`.
-Mais informações: <https://musescore.org/handbook/command-line-options>.
 
 - Exibe documentação sobre o comando original:
 

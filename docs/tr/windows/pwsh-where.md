@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (Türkçe)
 description: "Bu komut `Where-Object` için bir takma addır."
-content_hash: 46802407df1b6f368a01298e2c34f74588f45c25
-last_modified_at: 2023-12-22
+content_hash: 0cd5a199dfe0003a45afab47d789520b1f3f831b
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # pwsh where
 
 Bu komut `Where-Object` için bir takma addır.
-Daha fazla bilgi için: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

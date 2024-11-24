@@ -2,20 +2,11 @@
 layout: page
 title: windows/cinst (русский)
 description: "Эта команда — псевдоним для `choco install`."
-content_hash: 69022b66e40017d6ce1746924f055fe878bd6ff3
-last_modified_at: 2023-11-12
+content_hash: 2b552ba34d22f8ebd3bb7781d0444198fb3e28fd
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cinst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cinst
 
 Эта команда — псевдоним для `choco install`.
-Больше информации: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Смотри документацию для оригинальной команды:
 

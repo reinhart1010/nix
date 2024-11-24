@@ -2,21 +2,9 @@
 layout: page
 title: common/lzcat (português (Portugal))
 description: "Este comando é um alias de `xz`."
-content_hash: 9c5921b6a1075db9627065bf56b09b0dfa608032
-last_modified_at: 2023-12-28
+content_hash: 7dac841aea56c8bee23bfe2e5f0d8e66aeb541e8
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/lzcat.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/lzcat.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/lzcat.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/lzcat.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/lzcat.html
     icon: bi bi-globe
@@ -38,17 +26,8 @@ related_topics:
   - title: italiano version
     url: /it/common/lzcat.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/lzcat.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/lzcat.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/lzcat.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/lzcat.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/lzcat.html
@@ -56,20 +35,11 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/lzcat.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/lzcat.html
-    icon: bi bi-globe
   - title: polski version
     url: /pl/common/lzcat.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/lzcat.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/lzcat.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/lzcat.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/lzcat.html
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/lzcat.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/lzcat.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/lzcat.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # lzcat
 
 Este comando é um alias de `xz`.
-Mais informações: <https://manned.org/lzcat>.
 
 - Exibe documentação do comando original:
 

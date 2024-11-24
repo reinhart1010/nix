@@ -2,20 +2,14 @@
 layout: page
 title: linux/ncal (português (Brasil))
 description: "Este comando é um apelido de `cal`."
-content_hash: e13d86f2b647c3a16dc2c01e6faa346c624f38c2
-last_modified_at: 2024-02-25
+content_hash: 6068687f0b3e8ce09748500320f500ceb78a2879
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,7 +88,6 @@ tldri18n_status: 2
 # ncal
 
 Este comando é um apelido de `cal`.
-Mais informações: <https://manned.org/ncal>.
 
 - Exibe documentação sobre o comando original:
 

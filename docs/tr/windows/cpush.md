@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (Türkçe)
 description: "Bu komut `choco push` için bir takma addır."
-content_hash: b60df9ef7d77a2aea8ad052cc5e369c09379bbce
-last_modified_at: 2024-11-15
+content_hash: 30c86604b93f5c98314f9b32f9e64c0ac4747c2c
+last_modified_at: 2024-11-24
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # cpush
 
 Bu komut `choco push` için bir takma addır.
-Daha fazla bilgi için: <https://docs.chocolatey.org/en-us/create/commands/push>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

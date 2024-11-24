@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (தமிழ்)
 description: "இக்கட்டளை `choco list` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: de9b358f56288de472795827a412eb28a1f8bd2c
-last_modified_at: 2023-11-12
+content_hash: ea349e32a54f17252447449642168f936fced209
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 இக்கட்டளை `choco list` கட்டளையின் மற்றொருப் பெயர்.
-மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

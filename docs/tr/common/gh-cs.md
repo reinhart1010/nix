@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-cs (Türkçe)
-description: "Bu komut `gh codespace`.için bir takma addır."
-content_hash: 45dfbdf3a54b56f45da949e02fb3dcabecf61b40
-last_modified_at: 2024-11-17
+description: "Bu komut `gh codespace` için bir takma addır."
+content_hash: e1a2dcc9a519429966e96a0e17252074b80675ae
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
@@ -93,8 +93,7 @@ tldri18n_status: 2
 ---
 # gh cs
 
-Bu komut `gh codespace`.için bir takma addır.
-Daha fazla bilgi için: <https://cli.github.com/manual/gh_codespace>.
+Bu komut `gh codespace` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 

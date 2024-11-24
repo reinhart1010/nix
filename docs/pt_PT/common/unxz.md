@@ -2,21 +2,9 @@
 layout: page
 title: common/unxz (português (Portugal))
 description: "Este comando é um alias de `xz`."
-content_hash: 94667d8476b71ff2fafa37878d6da7d0687eb133
-last_modified_at: 2023-12-28
+content_hash: 3644829f46024d37657efedfee7245f6a3559813
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/unxz.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/unxz.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/unxz.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/unxz.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/unxz.html
     icon: bi bi-globe
@@ -38,17 +26,8 @@ related_topics:
   - title: italiano version
     url: /it/common/unxz.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/unxz.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/unxz.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/unxz.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/unxz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/unxz.html
@@ -56,20 +35,11 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/unxz.html
     icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/unxz.html
-    icon: bi bi-globe
   - title: polski version
     url: /pl/common/unxz.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/unxz.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/unxz.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/unxz.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/unxz.html
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/unxz.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/unxz.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/unxz.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # unxz
 
 Este comando é um alias de `xz`.
-Mais informações: <https://manned.org/unxz>.
 
 - Exibe documentação do comando original:
 

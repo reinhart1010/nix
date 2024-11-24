@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (русский)
 description: "Эта команда — псевдоним для `musescore`."
-content_hash: 736f62e93dce61336a07e263f5dd7775111b85b2
-last_modified_at: 2023-11-12
+content_hash: 883e0c9560edd434882c3f463813664709333b13
+last_modified_at: 2024-11-24
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 Эта команда — псевдоним для `musescore`.
-Больше информации: <https://musescore.org/handbook/command-line-options>.
 
 - Смотри документацию для оригинальной команды:
 

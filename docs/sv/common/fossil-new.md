@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (svenska)
 description: "Det här kommandot är ett alias för `fossil init`."
-content_hash: 857570e8a620f5adedb73580682d4558227917db
-last_modified_at: 2024-11-17
+content_hash: fd9138b278477b5c6d43e35c5ce5a38d83eec7cb
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil new
 
 Det här kommandot är ett alias för `fossil init`.
-Mer information: <https://fossil-scm.org/home/help/new>.
 
 - Se dokumentationen för orginalkommandot:
 

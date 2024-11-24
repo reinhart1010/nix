@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (Türkçe)
 description: "Bu komut `invoke-webrequest` için bir takma addır."
-content_hash: c07e4597b3bd90b8b79bdb5c9ca3f8b3f0181692
-last_modified_at: 2023-11-12
+content_hash: 64e1fb54c0fd0a9ca1f413aba4382a25af69244e
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 Bu komut `invoke-webrequest` için bir takma addır.
-Daha fazla bilgi için: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

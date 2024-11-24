@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (svenska)
 description: "Det här kommandot är ett alias för `tlmgr platform`."
-content_hash: d1f9e3dcc1c1f07d827ad0d6e6202ba5bef5a91c
-last_modified_at: 2024-05-09
+content_hash: 3b6c417e6a59f0ec6b5be8ac84d64bbb3ea5f58e
+last_modified_at: 2024-11-24
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # tlmgr arch
 
 Det här kommandot är ett alias för `tlmgr platform`.
-Mer information: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Se dokumentationen för orginalkommandot:
 
