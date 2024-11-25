@@ -2,8 +2,8 @@
 layout: page
 title: common/clear (English)
 description: "Clears the screen of the terminal."
-content_hash: e81787365d69dafb28dada4a0d65d91718beca0c
-last_modified_at: 2024-01-30
+content_hash: ff021721748319d8674a117c355f1469fb6f041d
+last_modified_at: 2024-11-25
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/clear.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/clear.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/clear.html
     icon: bi bi-globe
@@ -39,11 +42,11 @@ tldri18n_status: 2
 Clears the screen of the terminal.
 More information: <https://manned.org/clear>.
 
-- Clear the screen (equivalent to pressing Control-L in Bash shell):
+- Clear the screen:
 
 `clear`
 
-- Clear the screen but keep the terminal's scrollback buffer:
+- Clear the screen but keep the terminal's scrollback buffer (equivalent to pressing Ctrl + L in Bash):
 
 `clear -x`
 
