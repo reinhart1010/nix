@@ -3,7 +3,7 @@ layout: page
 title: common/magick-identify (español)
 description: "Describe el formato y las características de los archivos de imagen."
 content_hash: 6fdb69aa4c55d5dccfa5721338197a81118e1fdf
-last_modified_at: 2024-11-24
+last_modified_at: 2024-11-25
 related_topics:
   - title: English version
     url: /en/common/magick-identify.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/magick-identify.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/magick-identify.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># magick identify
+# magick identify
 
 Describe el formato y las características de los archivos de imagen.
 Vea también: `magick`.

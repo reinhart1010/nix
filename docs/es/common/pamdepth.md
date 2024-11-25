@@ -3,7 +3,7 @@ layout: page
 title: common/pamdepth (español)
 description: "Reduce la profundidad (es decir, la resolución de color) en una imagen."
 content_hash: 0b7c8bfbd0f2ef5018b914c5039f32285b8744ac
-last_modified_at: 2024-11-24
+last_modified_at: 2024-11-25
 related_topics:
   - title: English version
     url: /en/common/pamdepth.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/pamdepth.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pamdepth.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pamdepth
+# pamdepth
 
 Reduce la profundidad (es decir, la resolución de color) en una imagen.
 Más información: <https://netpbm.sourceforge.net/doc/pamdepth.html>.

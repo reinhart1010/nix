@@ -3,7 +3,7 @@ layout: page
 title: common/pamditherbw (español)
 description: "Aplica dithering a una imagen en escala de grises, es decir, la convierte en un patrón de píxeles blancos y negros que parecen iguales a la escala de grises original."
 content_hash: bb8eaecac1febae4d405a11ba0c7c930d10a10c3
-last_modified_at: 2024-11-24
+last_modified_at: 2024-11-25
 related_topics:
   - title: English version
     url: /en/common/pamditherbw.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/pamditherbw.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pamditherbw.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pamditherbw
+# pamditherbw
 
 Aplica dithering a una imagen en escala de grises, es decir, la convierte en un patrón de píxeles blancos y negros que parecen iguales a la escala de grises original.
 Vea también: `pbmreduce`.

@@ -3,7 +3,7 @@ layout: page
 title: common/musescore (español)
 description: "MuseScore editor de música de 3 hojas."
 content_hash: fb9da8e2858340b23f3bca6e994b5449f512dbcb
-last_modified_at: 2024-11-24
+last_modified_at: 2024-11-25
 related_topics:
   - title: Deutsch version
     url: /de/common/musescore.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/musescore.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/musescore.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># musescore
+# musescore
 
 MuseScore editor de música de 3 hojas.
 Vea también: `lilypond`.

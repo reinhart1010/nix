@@ -3,7 +3,7 @@ layout: page
 title: common/radare2 (español)
 description: "Un conjunto de herramientas de ingeniería inversa."
 content_hash: e0694997081cd7c2058ab0482c2982ee6e54425a
-last_modified_at: 2024-11-24
+last_modified_at: 2024-11-25
 related_topics:
   - title: English version
     url: /en/common/radare2.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/radare2.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/radare2.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># radare2
+# radare2
 
 Un conjunto de herramientas de ingeniería inversa.
 Más información: <https://www.radare.org/r/docs.html>.

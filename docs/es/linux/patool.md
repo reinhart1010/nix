@@ -3,23 +3,14 @@ layout: page
 title: linux/patool (español)
 description: "Gestor de archivos de almacenamiento."
 content_hash: ba2c3ac1903c92b2def3e923f973b5f2b8e6adbd
-last_modified_at: 2024-11-24
+last_modified_at: 2024-11-25
 related_topics:
   - title: English version
     url: /en/linux/patool.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/patool.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># patool
+# patool
 
 Gestor de archivos de almacenamiento.
 Se pueden crear, extraer, probar, listar, buscar, reempaquetar y comparar varios formatos de archivo.

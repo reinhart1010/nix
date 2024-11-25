@@ -3,19 +3,14 @@ layout: page
 title: linux/bootc (English)
 description: "Boot and upgrade via container images."
 content_hash: fc570445c8c6617eae368c7e099707a4e3d88dcf
-last_modified_at: 2024-11-24
-tldri18n_status: 0
+last_modified_at: 2024-11-25
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/bootc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/bootc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bootc
+# bootc
 
 Boot and upgrade via container images.
 Manages transactional, in-place operating system updates using OCI/Docker container images.

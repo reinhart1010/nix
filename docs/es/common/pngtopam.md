@@ -3,7 +3,7 @@ layout: page
 title: common/pngtopam (español)
 description: "Convierte una imagen PNG a una imagen Netpbm."
 content_hash: be7c219e0ad75d6732d34edb3e1b7e85a850e892
-last_modified_at: 2024-11-24
+last_modified_at: 2024-11-25
 related_topics:
   - title: English version
     url: /en/common/pngtopam.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/pngtopam.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pngtopam.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pngtopam
+# pngtopam
 
 Convierte una imagen PNG a una imagen Netpbm.
 Vea también: `pamtopng`.

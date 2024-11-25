@@ -3,19 +3,10 @@ layout: page
 title: linux/flatpak-update (English)
 description: "Update flatpak applications and runtimes."
 content_hash: 2f079e8e6265f5edf97255f9a82a7c5b8f4e8993
-last_modified_at: 2024-11-24
-tldri18n_status: 0
+last_modified_at: 2024-11-25
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/flatpak-update.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># flatpak update
+# flatpak update
 
 Update flatpak applications and runtimes.
 More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-update>.

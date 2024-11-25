@@ -3,7 +3,7 @@ layout: page
 title: common/magick-mogrify (español)
 description: "Realiza operaciones en múltiples imágenes, como redimensionar, recortar, voltear y añadir efectos."
 content_hash: ea6f46b3497e8038aae22eab8b00a792bafc3908
-last_modified_at: 2024-11-24
+last_modified_at: 2024-11-25
 related_topics:
   - title: English version
     url: /en/common/magick-mogrify.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/magick-mogrify.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/magick-mogrify.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># magick mogrify
+# magick mogrify
 
 Realiza operaciones en múltiples imágenes, como redimensionar, recortar, voltear y añadir efectos.
 Los cambios se aplican directamente al archivo original.
