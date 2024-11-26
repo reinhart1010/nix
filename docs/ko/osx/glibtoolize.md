@@ -1,22 +1,10 @@
 ---
 layout: page
 title: osx/glibtoolize (한국어)
-description: "이 명령은 `-p linux libtoolize` 의 에일리어스 (별칭) 입니다."
-content_hash: f9158e8f3aaf045f5f89b5a98cb8d9fbbf29496b
-last_modified_at: 2023-11-12
+description: "이 명령어는 GNU `libtoolize`의 별칭입니다."
+content_hash: 8f3690a8b4042ff9b74c727ce6d138c1fb7846a7
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/osx/glibtoolize.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/osx/glibtoolize.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/osx/glibtoolize.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/osx/glibtoolize.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/osx/glibtoolize.html
     icon: bi bi-globe
@@ -38,23 +26,8 @@ related_topics:
   - title: italiano version
     url: /it/osx/glibtoolize.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/osx/glibtoolize.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/osx/glibtoolize.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/osx/glibtoolize.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/osx/glibtoolize.html
-    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/osx/glibtoolize.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/osx/glibtoolize.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/osx/glibtoolize.html
@@ -65,12 +38,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/glibtoolize.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/osx/glibtoolize.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/osx/glibtoolize.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/osx/glibtoolize.html
     icon: bi bi-globe
@@ -79,9 +46,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/osx/glibtoolize.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/osx/glibtoolize.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/glibtoolize.html
@@ -93,8 +57,8 @@ tldri18n_status: 2
 ---
 # glibtoolize
 
-이 명령은 `-p linux libtoolize` 의 에일리어스 (별칭) 입니다.
+이 명령어는 GNU `libtoolize`의 별칭입니다.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- 원본 명령어 보기:
 
 `tldr -p linux libtoolize`

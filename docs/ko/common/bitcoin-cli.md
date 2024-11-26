@@ -2,8 +2,8 @@
 layout: page
 title: common/bitcoin-cli (한국어)
 description: "RPC 호출을 통해 비트코인 데몬과 상호 작용하는 커맨드라인 클라이언트.`bitcoin.conf`에 정의된 구성 사용."
-content_hash: 40f42e09141e1f28d3a782919f564a423e437872
-last_modified_at: 2024-07-26
+content_hash: b63aae90c7fb01df3e27cf14905476b486774211
+last_modified_at: 2024-11-26
 related_topics:
   - title: English version
     url: /en/common/bitcoin-cli.html
@@ -42,4 +42,16 @@ RPC 호출을 통해 비트코인 데몬과 상호 작용하는 커맨드라인 
 
 - wallet 정보를 텍스트 파일로 출력:
 
-`bitcoin-cli dumpwallet "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일/의/경로</span>`"`
+`bitcoin-cli dumpwallet "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>`"`
+
+- 블록체인 정보 출력:
+
+`bitcoin-cli getblockchaininfo`
+
+- 네트워크 정보 출력:
+
+`bitcoin-cli getnetworkinfo`
+
+- 비트코인 코어 데몬 중지:
+
+`bitcoin-cli stop`

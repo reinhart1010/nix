@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-s3-rm (한국어)
 description: "S3 객체 삭제."
-content_hash: 06957601f49334acdcba35abacadbdbc3b2a500d
-last_modified_at: 2024-11-09
+content_hash: 0294144e8c706fa51bace5aa309f4fc49ac7699a
+last_modified_at: 2024-11-26
 related_topics:
   - title: English version
     url: /en/common/aws-s3-rm.html
@@ -29,6 +29,10 @@ S3 객체 삭제.
 - 특정 S3 액세스 포인트에서 객체 삭제:
 
 `aws s3 rm s3://arn:aws:s3:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리전</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">계정_아이디</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">액세스_포인트</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">액세스_포인트_이름</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">객체_키</span>
+
+- 버킷 내 모든 객체 삭제 (버킷 비우기):
+
+`aws s3 rm s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span>` --recursive`
 
 - 도움말 표시:
 

@@ -2,9 +2,12 @@
 layout: page
 title: common/cd (한국어)
 description: "현재 작업중인 디렉토리 변경."
-content_hash: 8ece9eb068688ba93b3c1653d4cc4ec4045b71b9
-last_modified_at: 2023-11-12
+content_hash: 31d223b0e413e35dc6e6b942c98b01e986d6c1ab
+last_modified_at: 2024-11-26
 related_topics:
+  - title: العربية version
+    url: /ar/common/cd.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/cd.html
     icon: bi bi-globe
@@ -72,18 +75,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 현재 작업중인 디렉토리 변경.
 더 많은 정보: <https://manned.org/cd>.
 
-- 주어진 디렉토리로 이동:
+- 지정된 디렉토리로 이동:
 
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/디렉토리명</span>
-
-- 현재 사용자의 홈 디렉토리로 이동:
-
-`cd`
+`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span>
 
 - 현재 디렉토리의 상위 디렉토리로 이동:
 
 `cd ..`
 
-- 이전에 선택되었던 디렉토리로 이동:
+- 현재 사용자의 홈 디렉토리로 이동:
+
+`cd`
+
+- 지정된 사용자의 홈 디렉토리로 이동:
+
+`cd ~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span>
+
+- 이전에 선택한 디렉토리로 이동:
 
 `cd -`
+
+- 루트 디렉토리로 이동:
+
+`cd /`

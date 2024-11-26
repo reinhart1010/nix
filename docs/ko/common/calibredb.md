@@ -2,11 +2,14 @@
 layout: page
 title: common/calibredb (한국어)
 description: "전자책 데이터베이스를 조작하는 도구."
-content_hash: 3fccba1ee0ba82d3428107bca873142ce9ffbd34
-last_modified_at: 2023-11-12
+content_hash: b3ef1911e7e8283bb8f9a8e70b8732d15bfb22cd
+last_modified_at: 2024-11-26
 related_topics:
   - title: English version
     url: /en/common/calibredb.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/calibredb.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/calibredb.html
@@ -36,7 +39,11 @@ Calibre 전자책 라이브러리의 일부.
 
 - 라이브러리에 전자책 하나 이상 추가하기:
 
-`calibredb add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명1 파일명2 …</span>
+`calibredb add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 ...</span>
+
+- 디렉토리 내의 모든 전자책을 재귀적으로 라이브러리에 추가:
+
+`calibredb add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recurse</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span>
 
 - 라이브러리에서 전자책을 하나 이상 제거하기. 전자책 ID 필요(위를 참조하시오):
 

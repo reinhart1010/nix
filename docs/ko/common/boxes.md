@@ -2,8 +2,8 @@
 layout: page
 title: common/boxes (한국어)
 description: "ASCII 아트 상자 그리기, 제거 및 복구"
-content_hash: 1c932c57ca1d125b5933ee50cbbf7df1481635df
-last_modified_at: 2024-02-20
+content_hash: eef5eb90223d31db60d30164402e2f49e28f0a07
+last_modified_at: 2024-11-26
 related_topics:
   - title: English version
     url: /en/common/boxes.html
@@ -25,18 +25,26 @@ ASCII 아트 상자 그리기, 제거 및 복구
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span>`" | boxes`
 
-- 문자열에서 상자를 제거:
+- 문자열에서 상자를 제거[r]:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span>`" | boxes -r`
 
-- 문자열 주위에 특정 디자인의 상자 그리기:
+- 문자열 주위에 특정 디자인[d]의 상자 그리기:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span>`" | boxes -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parchment</span>
 
-- 너비가 10이고 높이가 5인 상자를 그리기:
+- 상자 크기[s] 지정(열 단위):
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span>`" | boxes -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>`x`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
 
-- 중앙에 텍스트가 있는 상자 그리기:
+- 상자 텍스트 수평[h] 정렬[a](왼쪽[l], 중앙[c], 오른쪽[r]):
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span>`" | boxes -a c`
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span>`" | boxes -a h`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">l|c|r</span>
+
+- 상자 텍스트 수직[v] 정렬[a](위쪽[t], 중앙[c], 아래쪽[b]):
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span>`" | boxes -a v`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">t|c|b</span>
+
+- 상자 텍스트 양쪽 조정[j](왼쪽[l], 중앙[c], 오른쪽[r]):
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span>`" | boxes -a j`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">l|c|r</span><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vt</span>

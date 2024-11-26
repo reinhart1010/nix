@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/chown (한국어)
-description: "파일과 디렉토리의 사용자 및 그룹 소유권을 변경."
-content_hash: a51cc35d60e016de5383c6341888465124de7925
-last_modified_at: 2024-02-28
+description: "파일과 디렉토리의 사용자 및 그룹 소유권 변경."
+content_hash: eb83ed12518148bc41c9f71b9ee412491f0503fb
+last_modified_at: 2024-11-26
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -42,25 +42,29 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># chown
 
-파일과 디렉토리의 사용자 및 그룹 소유권을 변경.
+파일과 디렉토리의 사용자 및 그룹 소유권 변경.
 더 많은 정보: <https://www.gnu.org/software/coreutils/chown>.
 
-- 파일/디렉토리의 소유 사용자 변경:
+- 파일/디렉토리를 소유한 사용자를 변경:
 
-`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명_또는_디렉토리명</span>
+`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span>
 
-- 파일/디렉토리의 소유 사용자 및 그룹 변경:
+- 파일/디렉토리를 소유한 사용자 및 그룹을 변경:
 
-`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명_또는_디렉토리명</span>
+`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span>
 
-- 디렉토리 소유자와 그 내용을 재귀적으로 변경:
+- 소유한 사용자 및 그룹을 모두 `사용자`로 변경:
 
-`chown -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/디렉토리명</span>
+`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span>`: `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span>
 
-- 심볼릭 링크의 소유자 변경:
+- 디렉토리 및 그 내용의 소유한 사용자를 재귀적으로 변경:
 
-`chown -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/심볼릭_링크</span>
+`chown -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span>
 
-- 참조 파일과 일치하도록 파일/디렉토리 소유자 변경:
+- 심볼릭 링크의 소유한 사용자를 변경:
 
-`chown --reference=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/참조_파일명</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명_또는_디렉토리명</span>
+`chown -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">심볼릭_링크</span>
+
+- 파일/디렉토리의 소유한 사용자를 참조 파일과 일치시키기:
+
+`chown --reference `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/참조_파일</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span>
