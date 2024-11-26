@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (English)
 description: "Package management utility for RHEL, Fedora, and CentOS (replaces yum)."
-content_hash: a26ed68dcc6d66565b4a13a7f1655052dad0b7d9
-last_modified_at: 2023-11-12
+content_hash: 30ebb9a4fd8fa2a4f88112abd419ecb402818c9f
+last_modified_at: 2024-11-26
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -20,6 +20,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/dnf.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/dnf.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/dnf.html
     icon: bi bi-globe
@@ -32,11 +35,15 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/dnf.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # dnf
 
 Package management utility for RHEL, Fedora, and CentOS (replaces yum).
+Some subcommands such as `group` and `config-manager` have their own usage documentation.
 For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 More information: <https://dnf.readthedocs.io>.
 
