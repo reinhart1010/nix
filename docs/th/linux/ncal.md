@@ -2,20 +2,14 @@
 layout: page
 title: linux/ncal (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `cal`"
-content_hash: 54958505bdddbb39fd475e0ac6a47ad5f9334629
-last_modified_at: 2023-11-12
+content_hash: e4591db76b78e2723c1b2fdac136487252e33a6b
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,7 +88,6 @@ tldri18n_status: 2
 # ncal
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `cal`
-ข้อมูลเพิ่มเติม: <https://manned.org/ncal>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

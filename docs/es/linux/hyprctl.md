@@ -2,11 +2,14 @@
 layout: page
 title: linux/hyprctl (español)
 description: "Controla partes del compositor Hyprland Wayland."
-content_hash: 443c35a52f570b0671531ba233a97039cae3b20a
-last_modified_at: 2024-06-20
+content_hash: 07e915c8d8f27e3cfce93473f25592be548883e0
+last_modified_at: 2024-11-26
 related_topics:
   - title: English version
     url: /en/linux/hyprctl.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/hyprctl.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -31,11 +34,11 @@ Más información: <https://wiki.hyprland.org/Configuring/Using-hyprctl>.
 
 `hyprctl workspaces`
 
-- Llama a un gestor con un argumento:
+- Llama a un despachador:
 
-`hyprctl dispatch exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aplicación</span>
+`hyprctl dispatch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">despachador</span>
 
-- Establece una palabra clave de configuración de forma dinámica:
+- Establece una configuración de una palabra clave (keyword) de forma dinámica:
 
 `hyprctl keyword `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabra_clave</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span>
 

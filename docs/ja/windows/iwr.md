@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (日本語)
 description: "このコマンドは `invoke-webrequest` のエイリアスです。"
-content_hash: 4e0fce7f05e0d4c699261ece31593233b853698d
-last_modified_at: 2023-11-12
+content_hash: 46e9d17c272d688e747b7ba79bd1493dfe790102
+last_modified_at: 2024-11-26
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 このコマンドは `invoke-webrequest` のエイリアスです。
-詳しくはこちら: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

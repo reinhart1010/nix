@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `musescore`"
-content_hash: 026a40b4fb5d6f62ca48d257b2fd3f5bbb4c426d
-last_modified_at: 2023-11-12
+content_hash: d81c7a771993c2b4c1575c43222d05f2e302a55e
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `musescore`
-ข้อมูลเพิ่มเติม: <https://musescore.org/handbook/command-line-options>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

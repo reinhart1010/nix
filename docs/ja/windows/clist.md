@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (日本語)
 description: "このコマンドは `choco list` のエイリアスです。"
-content_hash: 376cf96008fcae6c7afe5becff624dba4d392517
-last_modified_at: 2023-11-12
+content_hash: 4b260842942c7d9f1e4cba0b70d2a1de33dcde7c
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 このコマンドは `choco list` のエイリアスです。
-詳しくはこちら: <https://docs.chocolatey.org/en-us/choco/commands/list>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

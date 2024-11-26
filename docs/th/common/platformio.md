@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `pio`"
-content_hash: b852e09296e49627a305e1db2ac18e551be5267e
-last_modified_at: 2023-11-12
+content_hash: f2839db61dcf40ab32d77b2f586b7fef0dcee83d
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `pio`
-ข้อมูลเพิ่มเติม: <https://docs.platformio.org/en/latest/core/userguide/>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

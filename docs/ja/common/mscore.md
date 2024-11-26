@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (日本語)
 description: "このコマンドは `musescore` のエイリアスです。"
-content_hash: c78c52d5278fbfb9b2639367748a672343fa6508
-last_modified_at: 2023-11-12
+content_hash: 4fcf2c55768a9a4769ccc0ee481ea0f90803f1c4
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 このコマンドは `musescore` のエイリアスです。
-詳しくはこちら: <https://musescore.org/handbook/command-line-options>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

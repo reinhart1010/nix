@@ -2,20 +2,11 @@
 layout: page
 title: windows/cinst (日本語)
 description: "このコマンドは `choco install` のエイリアスです。"
-content_hash: 05c2ec21ab179d47a89b424c1c4afa53e97d871f
-last_modified_at: 2023-11-12
+content_hash: ab7f25324ed17c20cd8baa497617ae8eef5e603c
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cinst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cinst
 
 このコマンドは `choco install` のエイリアスです。
-詳しくはこちら: <https://docs.chocolatey.org/en-us/choco/commands/install>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

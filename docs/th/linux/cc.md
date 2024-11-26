@@ -2,21 +2,9 @@
 layout: page
 title: linux/cc (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `gcc`"
-content_hash: 86d80a6bfd9e88907d2aab45a97b0665e7a73a47
-last_modified_at: 2023-11-12
+content_hash: ccd2108f1aefd483d0409aa398dd73d50d6201e0
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/linux/cc.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/cc.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/cc.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/cc.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/cc.html
     icon: bi bi-globe
@@ -38,26 +26,14 @@ related_topics:
   - title: italiano version
     url: /it/linux/cc.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/cc.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/cc.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/cc.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/cc.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/linux/cc.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/cc.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/cc.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/cc.html
@@ -68,20 +44,11 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/cc.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/cc.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/cc.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/cc.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/cc.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/cc.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/cc.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # cc
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `gcc`
-ข้อมูลเพิ่มเติม: <https://gcc.gnu.org>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

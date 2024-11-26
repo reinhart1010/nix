@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (日本語)
 description: "このコマンドは `Where-Object` のエイリアスです。"
-content_hash: 3d616f8f9e3eeb909fdfb784cb67dbbd49b7530f
-last_modified_at: 2023-12-22
+content_hash: 3aa3bed9f380a4367bdeed53f057659cd7b4443b
+last_modified_at: 2024-11-26
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # pwsh where
 
 このコマンドは `Where-Object` のエイリアスです。
-詳しくはこちら: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `Select-String`"
-content_hash: aa5795003f1764907ce653d7172b3d07e39dfb3c
-last_modified_at: 2023-11-12
+content_hash: f87f7141eed00149a45e9cc841270c88f7be3219
+last_modified_at: 2024-11-26
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `Select-String`
-ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `Where-Object`"
-content_hash: b5d36e47702fa915e620969d4895ee80deb3ad89
-last_modified_at: 2023-12-22
+content_hash: ea8a7123120f160a445d3ca01d68332621afd9e9
+last_modified_at: 2024-11-26
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # pwsh where
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `Where-Object`
-ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

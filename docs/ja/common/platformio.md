@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (日本語)
 description: "このコマンドは `pio` のエイリアスです。"
-content_hash: c20c0c12222ee45d8a7536d06cfe66a8ff10407c
-last_modified_at: 2023-11-12
+content_hash: 2730c67732f3c00572d4d208709afeccda72edfd
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 このコマンドは `pio` のエイリアスです。
-詳しくはこちら: <https://docs.platformio.org/en/latest/core/userguide/>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

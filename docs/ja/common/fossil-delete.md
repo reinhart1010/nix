@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (日本語)
 description: "このコマンドは `fossil rm` のエイリアスです。"
-content_hash: 20b53c66eb3bbf2921d065b52c4a7183021e9ab3
-last_modified_at: 2024-05-09
+content_hash: 798ecc7d29c270f2689406f3d1fb7e6e3da38e16
+last_modified_at: 2024-11-26
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil delete
 
 このコマンドは `fossil rm` のエイリアスです。
-詳しくはこちら: <https://fossil-scm.org/home/help/delete>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

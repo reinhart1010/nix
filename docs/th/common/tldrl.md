@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tldr-lint`"
-content_hash: 4f4415a8e2ad5dde04271b9ca14a270b92f639e4
-last_modified_at: 2023-11-12
+content_hash: 62680cb1847f8dfd65a6f576bc59c40f27513aed
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tldr-lint`
-ข้อมูลเพิ่มเติม: <https://github.com/tldr-pages/tldr-lint>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

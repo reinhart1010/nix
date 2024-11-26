@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco list`"
-content_hash: a5722773b782a46fc2f8d8966ad3659b556839d9
-last_modified_at: 2023-11-12
+content_hash: de641b2a324ea6841a1c6753f5c4adbeb5b040d6
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco list`
-ข้อมูลเพิ่มเติม: <https://docs.chocolatey.org/en-us/choco/commands/list>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

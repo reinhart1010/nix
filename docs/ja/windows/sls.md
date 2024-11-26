@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (日本語)
 description: "このコマンドは `Select-String` のエイリアスです。"
-content_hash: ce1c3e8cab5b98c6c7dbdd3f9af7568437ad7763
-last_modified_at: 2023-11-12
+content_hash: 8bd40dce14766bc103e150271fbdc8f3936c6e60
+last_modified_at: 2024-11-26
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 このコマンドは `Select-String` のエイリアスです。
-詳しくはこちら: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

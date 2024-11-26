@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-s (español)
 description: "Este comando es un alias de `pacman --sync`."
-content_hash: e7103c46bb072374d4bba920f8d94b606d4b1677
-last_modified_at: 2024-11-17
+content_hash: 2d4151a43973ab42035d8722c6d55d07cd716af4
+last_modified_at: 2024-11-26
 related_topics:
   - title: English version
     url: /en/linux/pacman-s.html
@@ -20,6 +20,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `pacman --sync`.
 
-- Consulte la documentación del comando original:
+- Consulta la documentación del comando original:
 
 `tldr pacman sync`

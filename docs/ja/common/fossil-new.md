@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (日本語)
 description: "このコマンドは `fossil init`.のエイリアスです。"
-content_hash: 36d9a0fbd7882c2c606606b92c59b8ac181683ca
-last_modified_at: 2024-11-17
+content_hash: 97896492713eb2d60b811ee23c0816f203833925
+last_modified_at: 2024-11-26
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil new
 
 このコマンドは `fossil init`.のエイリアスです。
-詳しくはこちら: <https://fossil-scm.org/home/help/new>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

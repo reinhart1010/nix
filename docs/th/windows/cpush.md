@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco push`"
-content_hash: f8baf050e90b4c3ba68f9c50f73e51dfad6c22cf
-last_modified_at: 2024-11-15
+content_hash: 52f7287711cbfda71fd509cae509fb3377d48771
+last_modified_at: 2024-11-26
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # cpush
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco push`
-ข้อมูลเพิ่มเติม: <https://docs.chocolatey.org/en-us/create/commands/push>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

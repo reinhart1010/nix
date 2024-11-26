@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `gnmic subscribe`"
-content_hash: 569256910c31e33c328b187b09de4672c4dc83da
-last_modified_at: 2024-05-09
+content_hash: aae240f457df84316acc5bb803012cdbe37456e3
+last_modified_at: 2024-11-26
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gnmic sub
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `gnmic subscribe`
-ข้อมูลเพิ่มเติม: <https://gnmic.kmrd.dev/cmd/subscribe>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

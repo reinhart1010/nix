@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (日本語)
 description: "このコマンドは `tldr-lint` のエイリアスです。"
-content_hash: 5b7c7194cc7b5a29e6c9c8c3076493903c8edfbb
-last_modified_at: 2023-11-12
+content_hash: 27a6837073800b2dd726c57c0239c07279ba337b
+last_modified_at: 2024-11-26
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 このコマンドは `tldr-lint` のエイリアスです。
-詳しくはこちら: <https://github.com/tldr-pages/tldr-lint>
 
 - オリジナルのコマンドのドキュメントを表示する:
 
