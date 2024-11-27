@@ -3,7 +3,7 @@ layout: page
 title: common/chromium (한국어)
 description: "구글에서 주도하는 오픈소스 웹 브라우저."
 content_hash: 654d853dd4b4e74461a6c5a4dcf912e2bd2bd121
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: Deutsch version
     url: /de/common/chromium.html
@@ -29,12 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/chromium.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chromium
+# chromium
 
 구글에서 주도하는 오픈소스 웹 브라우저.
 참고: 원하는 웹 브라우저로 `chromium` 명령어를 대체할 수 있습니다. 예를 들어 `brave`, `google-chrome`, `opera`, `vivaldi` 등을 사용할 수 있습니다.

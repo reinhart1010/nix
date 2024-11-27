@@ -3,7 +3,7 @@ layout: page
 title: common/boxes (한국어)
 description: "ASCII 아트 상자 그리기, 제거 및 복구"
 content_hash: eef5eb90223d31db60d30164402e2f49e28f0a07
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: English version
     url: /en/common/boxes.html
@@ -11,12 +11,9 @@ related_topics:
   - title: فارسی version
     url: /fa/common/boxes.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># boxes
+# boxes
 
 ASCII 아트 상자 그리기, 제거 및 복구
 더 많은 정보: <https://boxes.thomasjensen.com/boxes-man-1.html>.

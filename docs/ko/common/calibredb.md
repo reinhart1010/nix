@@ -3,7 +3,7 @@ layout: page
 title: common/calibredb (한국어)
 description: "전자책 데이터베이스를 조작하는 도구."
 content_hash: b3ef1911e7e8283bb8f9a8e70b8732d15bfb22cd
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: English version
     url: /en/common/calibredb.html
@@ -14,12 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/common/calibredb.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># calibredb
+# calibredb
 
 전자책 데이터베이스를 조작하는 도구.
 Calibre 전자책 라이브러리의 일부.

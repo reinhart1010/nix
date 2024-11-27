@@ -3,7 +3,7 @@ layout: page
 title: common/accelerate (português (Brasil))
 description: "Uma biblioteca que habilita o mesmo código PyTorch a rodar em qualquer configuração distribuída."
 content_hash: f570084a891bd44fcd156d70cb1308bcc6a6baee
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: English version
     url: /en/common/accelerate.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/accelerate.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/accelerate.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># accelerate
+# accelerate
 
 Uma biblioteca que habilita o mesmo código PyTorch a rodar em qualquer configuração distribuída.
 Mais informações: <https://huggingface.co/docs/accelerate/index>.

@@ -3,7 +3,7 @@ layout: page
 title: common/amass-intel (español)
 description: "Recopila información de código abierto sobre una organización, como dominios raíz y ASNs."
 content_hash: 74e14614795460b031c204821a0a264e12a67f23
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: English version
     url: /en/common/amass-intel.html
@@ -20,12 +20,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/amass-intel.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># amass intel
+# amass intel
 
 Recopila información de código abierto sobre una organización, como dominios raíz y ASNs.
 Más información: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.

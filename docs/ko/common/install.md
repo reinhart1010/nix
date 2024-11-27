@@ -3,7 +3,7 @@ layout: page
 title: common/install (한국어)
 description: "파일 복사 및 속성 설정."
 content_hash: 26d0050a0d757ad73e11975ac96154fc9fed2ea4
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: English version
     url: /en/common/install.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/install.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/install.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># install
+# install
 
 파일 복사 및 속성 설정.
 파일 (자주 실행 가능)을 시스템 위치 (예: `/usr/local/bin`)에 복사하고 적절한 권한/소유권을 부여합니다.

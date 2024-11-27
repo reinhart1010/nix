@@ -3,17 +3,14 @@ layout: page
 title: common/chisel (한국어)
 description: "TCP/UDP 터널 생성, HTTP를 통해 전송, SSH를 통해 보안."
 content_hash: 200d86e08fbf1de18fc95f33b1574c9b7d5bd336
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: English version
     url: /en/common/chisel.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chisel
+# chisel
 
 TCP/UDP 터널 생성, HTTP를 통해 전송, SSH를 통해 보안.
 동일한 `chisel` 실행 파일에 클라이언트와 서버 모두 포함됩니다.

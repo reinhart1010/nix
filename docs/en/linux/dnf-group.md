@@ -3,19 +3,10 @@ layout: page
 title: linux/dnf-group (English)
 description: "Manage virtual collections of packages on Fedora-based systems."
 content_hash: 531c536f35f4c86dc87dd082bda29cbfadb6c332
-last_modified_at: 2024-11-26
-tldri18n_status: 0
+last_modified_at: 2024-11-27
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/dnf-group.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dnf group
+# dnf group
 
 Manage virtual collections of packages on Fedora-based systems.
 More information: <https://manned.org/man/dnf-group>.

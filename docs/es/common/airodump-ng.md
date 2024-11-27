@@ -3,7 +3,7 @@ layout: page
 title: common/airodump-ng (español)
 description: "Captura paquetes y muestra información sobre redes inalámbricas."
 content_hash: 98daf07d3243d4cb4a1e8b354eae25700ce02154
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: Deutsch version
     url: /de/common/airodump-ng.html
@@ -23,12 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/airodump-ng.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># airodump-ng
+# airodump-ng
 
 Captura paquetes y muestra información sobre redes inalámbricas.
 Parte de `aircrack-ng`.

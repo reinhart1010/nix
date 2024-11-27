@@ -3,7 +3,7 @@ layout: page
 title: linux/libtool (한국어)
 description: "공유 라이브러리를 사용하는 복잡성을 일관되고 이식 가능한 인터페이스 뒤로 숨기는 제네릭 라이브러리 지원 스크립트."
 content_hash: 4966780157c5a78140d3cad53a5a57706f72b703
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: English version
     url: /en/linux/libtool.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/libtool.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/libtool.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># libtool
+# libtool
 
 공유 라이브러리를 사용하는 복잡성을 일관되고 이식 가능한 인터페이스 뒤로 숨기는 제네릭 라이브러리 지원 스크립트.
 더 많은 정보: <https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtool>.

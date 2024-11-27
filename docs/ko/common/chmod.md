@@ -3,7 +3,7 @@ layout: page
 title: common/chmod (한국어)
 description: "파일이나 디렉토리의 연결 권한 변경."
 content_hash: bcdc3c48c26e18e0c195413d337d5a35aaed59ff
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -47,12 +47,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/chmod.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chmod
+# chmod
 
 파일이나 디렉토리의 연결 권한 변경.
 더 많은 정보: <https://www.gnu.org/software/coreutils/chmod>.

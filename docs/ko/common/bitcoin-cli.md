@@ -3,7 +3,7 @@ layout: page
 title: common/bitcoin-cli (한국어)
 description: "RPC 호출을 통해 비트코인 데몬과 상호 작용하는 커맨드라인 클라이언트.`bitcoin.conf`에 정의된 구성 사용."
 content_hash: b63aae90c7fb01df3e27cf14905476b486774211
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: English version
     url: /en/common/bitcoin-cli.html
@@ -14,12 +14,9 @@ related_topics:
   - title: polski version
     url: /pl/common/bitcoin-cli.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bitcoin-cli
+# bitcoin-cli
 
 RPC 호출을 통해 비트코인 데몬과 상호 작용하는 커맨드라인 클라이언트.`bitcoin.conf`에 정의된 구성 사용.
 더 많은 정보: <https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments>.

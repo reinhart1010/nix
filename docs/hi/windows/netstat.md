@@ -3,7 +3,7 @@ layout: page
 title: windows/netstat (हिन्दी)
 description: "सक्रिय TCP कनेक्शनों, उन पोर्टों को प्रदर्शित करें जिन पर कंप्यूटर सुन रहा है, नेटवर्क एडाप्टर के आँकड़े, IP रूटिंग टेबल, IPv4 आँकड़े और IPv6 आँकड़े।"
 content_hash: 625013c81cb5ded034c281f773d3025d0dc25958
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: English version
     url: /en/windows/netstat.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/windows/netstat.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/netstat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># netstat
+# netstat
 
 सक्रिय TCP कनेक्शनों, उन पोर्टों को प्रदर्शित करें जिन पर कंप्यूटर सुन रहा है, नेटवर्क एडाप्टर के आँकड़े, IP रूटिंग टेबल, IPv4 आँकड़े और IPv6 आँकड़े।
 अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/netstat>।

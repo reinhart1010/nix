@@ -3,7 +3,7 @@ layout: page
 title: windows/nvm (हिन्दी)
 description: "Node.js के संस्करणों को स्थापित, अनइंस्टॉल या स्विच करें।"
 content_hash: f936700ed271dd30a2ede6907fcefac8a7acc3f8
-last_modified_at: 2024-11-26
+last_modified_at: 2024-11-27
 related_topics:
   - title: English version
     url: /en/windows/nvm.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/nvm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/nvm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nvm
+# nvm
 
 Node.js के संस्करणों को स्थापित, अनइंस्टॉल या स्विच करें।
 "12.8" या "v16.13.1" जैसे संस्करण नंबर और "stable", "system" आदि जैसे लेबल का समर्थन करता है।
