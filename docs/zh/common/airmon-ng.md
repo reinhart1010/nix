@@ -2,8 +2,8 @@
 layout: page
 title: common/airmon-ng (中文)
 description: "激活无线网络设备的监控模式。"
-content_hash: 7cd1dd239f7fc01608e013718034844ec0371809
-last_modified_at: 2023-11-12
+content_hash: a144c9fef4c0e062b841a962b52040ff43a0e4e6
+last_modified_at: 2024-11-27
 related_topics:
   - title: Deutsch version
     url: /de/common/airmon-ng.html
@@ -16,6 +16,12 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/airmon-ng.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/airmon-ng.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/airmon-ng.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/airmon-ng.html
@@ -31,9 +37,10 @@ tldri18n_status: 2
 # airmon-ng
 
 激活无线网络设备的监控模式。
+属于 `aircrack-ng` 套件的一部分。
 更多信息：<https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
-- 列出无线设备和它们的状态：
+- 列出无线设备及其状态：
 
 `sudo airmon-ng`
 

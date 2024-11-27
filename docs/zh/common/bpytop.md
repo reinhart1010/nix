@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/bpytop (中文)
-description: "用图形显示有关正在运行的进程的动态实时信息。类似于 `gtop` 和 `htop`."
-content_hash: 46826c644174e0025489118bc3229c30560fa6e7
-last_modified_at: 2024-10-13
+description: "一个资源监视器，显示有关 CPU、内存、磁盘、网络和进程的信息。"
+content_hash: 8ccf8070b9ed29f5976353b521fe4c48198348a6
+last_modified_at: 2024-11-27
 related_topics:
   - title: català version
     url: /ca/common/bpytop.html
@@ -21,14 +21,15 @@ tldri18n_status: 2
 ---
 # bpytop
 
-用图形显示有关正在运行的进程的动态实时信息。类似于 `gtop` 和 `htop`.
+一个资源监视器，显示有关 CPU、内存、磁盘、网络和进程的信息。
+`bashtop` 的 Python 版本。
 更多信息：<https://github.com/aristocratos/bpytop>.
 
 - 运行 bpytop：
 
 `bpytop`
 
-- 以最小模式启动，无需内存和网络盒：
+- 以最小模式启动，不显示内存和网络框：
 
 `bpytop -m`
 
@@ -40,7 +41,7 @@ tldri18n_status: 2
 
 `f`
 
-- 改变设置：
+- 修改设置：
 
 `M`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (中文)
 description: "修改用户和用户组对文件或目录的所有权。"
-content_hash: 331180363827e149e4f1ea9f15cdc1792b402cad
-last_modified_at: 2024-02-28
+content_hash: 4043262a9249647b26d2745dcb5097415369071e
+last_modified_at: 2024-11-27
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -53,6 +53,10 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户组</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件或目录</span>
 
+- 将所有者用户和用户组都更改为 `user`：
+
+`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>`: `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件_或_目录</span>
+
 - 递归修改目录及其子目录和文件的所有者：
 
 `chown -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>
@@ -63,4 +67,4 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - 修改文件或目录的所有者与参考文件相同：
 
-`chown --reference=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/参考文件</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件或目录</span>
+`chown --reference `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/参考文件</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件或目录</span>

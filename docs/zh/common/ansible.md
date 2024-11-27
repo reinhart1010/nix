@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible (中文)
 description: "通过 SSH 协议远程管理计算机组。使用 `/etc/ansible/hosts` 文件来添加组 / 主机。"
-content_hash: b08e1c593c8aaf3ee644cb1defa51b666f7f4c9d
-last_modified_at: 2024-10-05
+content_hash: 489b41fa44f2fe46dbcbf69b460af50f3b758fb8
+last_modified_at: 2024-11-27
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html
@@ -66,3 +66,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 - 使用自定义的清单文件执行一个命令：
 
 `ansible `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">组</span>` -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">清单文件</span>` -m command -a '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>`'`
+
+- 列出清单中的组：
+
+`ansible localhost -m debug -a '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">var=groups.keys()</span>`'`

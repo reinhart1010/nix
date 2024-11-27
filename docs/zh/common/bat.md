@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (中文)
 description: "可以打印并且合并文件的命令。"
-content_hash: dfdef09ef50001d09f28f9f75f7251986604ab7a
-last_modified_at: 2024-03-14
+content_hash: da502f4c5d9cf34cec4eab4763af0ac2ad6a033e
+last_modified_at: 2024-11-27
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -52,26 +52,34 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 `cat` 的复制品，外加语法高亮和 Git 集成。
 更多信息：<https://github.com/sharkdp/bat>.
 
-- 文件内容打印：
+- 使用美化样式打印一个或多个文件的内容到 `stdout`：
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 ...</span>
 
-- 多文件合并到目标文件：
+- 将多个文件连接成一个目标文件：
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目标文件</span>
 
-- 在指定文件后追加多个文件合并的内容：
+- 移除修饰并禁用分页（`--style plain` 可以用 `-p` 代替，或用 `-pp` 组合两个选项）：
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件2</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件</span>
+`bat --style plain --pager never `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
 
-- 打印时，显示行号：
+- 使用不同的背景颜色高亮显示特定行或一行范围：
 
-`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|--highlight-line</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10|5:10|:10|10:|10:+5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
 
-- 高亮一个 JSON 文件：
+- 显示不可打印字符，如空格、制表符或换行：
 
-`bat --language json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件.json</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-A|--show-all</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
 
-- 受支持的语言清单：
+- 在输出中只保留行号，移除所有其他修饰：
 
-`bat --list-languages`
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--number</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
+
+- 通过明确设置语言来语法高亮显示 JSON 文件：
+
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|--language</span>` json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.json</span>
+
+- 显示所有支持的语言：
+
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-L|--list-languages</span>
