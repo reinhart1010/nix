@@ -2,8 +2,8 @@
 layout: page
 title: common/podman-login (English)
 description: "Log in to a container registry."
-content_hash: 7d1cf17925a030f01310672184f2af30f8b06475
-last_modified_at: 2024-11-22
+content_hash: ca41cb16b421d5d0a19882091e94b3268604b41c
+last_modified_at: 2024-11-27
 tldri18n_status: 2
 ---
 # podman login
@@ -22,4 +22,4 @@ More information: <https://docs.podman.io/en/latest/markdown/podman-login.1.html
 
 - Log in to an insecure (HTTP) registry:
 
-`podman login --tls-verify false `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.example.org</span>
+`podman login --tls-verify=false `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.example.org</span>
