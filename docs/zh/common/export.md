@@ -3,7 +3,7 @@ layout: page
 title: common/export (中文)
 description: "命令为当前 shell 中的子进程进行环境变量设置。"
 content_hash: df2958300551e0c61874f58de460fdfab8df8312
-last_modified_at: 2024-11-27
+last_modified_at: 2024-11-28
 related_topics:
   - title: Deutsch version
     url: /de/common/export.html
@@ -20,12 +20,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/export.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># export
+# export
 
 命令为当前 shell 中的子进程进行环境变量设置。
 更多信息：<https://manned.org/export.1posix>.

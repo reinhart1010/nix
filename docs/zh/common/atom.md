@@ -3,7 +3,7 @@ layout: page
 title: common/atom (中文)
 description: "一个跨平台的可扩展文本编辑器。"
 content_hash: 6645907c10af6b0e22e6a482c7858f770d4bd841
-last_modified_at: 2024-11-27
+last_modified_at: 2024-11-28
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -32,12 +32,9 @@ related_topics:
   - title: polski version
     url: /pl/common/atom.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># atom
+# atom
 
 一个跨平台的可扩展文本编辑器。
 插件由 `apm` 管理。

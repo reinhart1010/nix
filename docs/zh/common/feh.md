@@ -3,7 +3,7 @@ layout: page
 title: common/feh (中文)
 description: "轻量级图像查看工具。"
 content_hash: fde14ba3c5a99e6c36f8e62bef2e6a3f077173b9
-last_modified_at: 2024-11-27
+last_modified_at: 2024-11-28
 related_topics:
   - title: English version
     url: /en/common/feh.html
@@ -14,12 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/feh.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># feh
+# feh
 
 轻量级图像查看工具。
 更多信息：<https://feh.finalrewind.org>.

@@ -3,7 +3,7 @@ layout: page
 title: common/cp (中文)
 description: "复制文件和目录。"
 content_hash: 09397be94d2f9df9947ae228373f530a411fb968
-last_modified_at: 2024-11-27
+last_modified_at: 2024-11-28
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -59,12 +59,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cp.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cp
+# cp
 
 复制文件和目录。
 更多信息：<https://www.gnu.org/software/coreutils/cp>.

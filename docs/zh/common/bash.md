@@ -3,7 +3,7 @@ layout: page
 title: common/bash (中文)
 description: "Bourne-Again SHell，兼容 `sh` 的命令行解释器。"
 content_hash: de770bd598bdf229f700f6e0638a983a8dd174d5
-last_modified_at: 2024-11-27
+last_modified_at: 2024-11-28
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/bash.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bash
+# bash
 
 Bourne-Again SHell，兼容 `sh` 的命令行解释器。
 此外请参阅：`zsh`，`histexpand`（历史展开）。

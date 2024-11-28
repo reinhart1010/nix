@@ -3,7 +3,7 @@ layout: page
 title: common/git-clone (中文)
 description: "克隆现有的代码仓库。"
 content_hash: c43c435a315f7c322368dafc363ce473ef2cf7e3
-last_modified_at: 2024-11-27
+last_modified_at: 2024-11-28
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -38,12 +38,9 @@ related_topics:
   - title: українська version
     url: /uk/common/git-clone.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git clone
+# git clone
 
 克隆现有的代码仓库。
 更多信息：<https://git-scm.com/docs/git-clone>.

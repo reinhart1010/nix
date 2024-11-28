@@ -3,7 +3,7 @@ layout: page
 title: common/fc (中文)
 description: "打开最近的命令进行编辑，然后运行它。"
 content_hash: 7490511e3b82bd95b4c5b5168c38befd129e2b83
-last_modified_at: 2024-11-27
+last_modified_at: 2024-11-28
 related_topics:
   - title: English version
     url: /en/common/fc.html
@@ -17,12 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fc.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fc
+# fc
 
 打开最近的命令进行编辑，然后运行它。
 更多信息：<https://manned.org/fc>.

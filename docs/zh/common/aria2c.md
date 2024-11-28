@@ -3,7 +3,7 @@ layout: page
 title: common/aria2c (中文)
 description: "快速下载工具。"
 content_hash: b8a8ad640d9c9549e715d912a025ee4416c6fbf2
-last_modified_at: 2024-11-27
+last_modified_at: 2024-11-28
 related_topics:
   - title: English version
     url: /en/common/aria2c.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/aria2c.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aria2c
+# aria2c
 
 快速下载工具。
 支持 HTTP(S)、FTP、SFTP、BitTorrent 和 Metalink。

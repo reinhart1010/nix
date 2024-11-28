@@ -3,7 +3,7 @@ layout: page
 title: common/ansible-playbook (中文)
 description: "通过 SSH 协议在远程计算机上执行 playbook 中定义的任务。"
 content_hash: c7ea451add7591f64fec4ad0dc40783d9a90e871
-last_modified_at: 2024-11-27
+last_modified_at: 2024-11-28
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-playbook.html
@@ -23,12 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ansible-playbook.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansible-playbook
+# ansible-playbook
 
 通过 SSH 协议在远程计算机上执行 playbook 中定义的任务。
 更多信息：<https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.
