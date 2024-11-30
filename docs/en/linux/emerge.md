@@ -2,8 +2,12 @@
 layout: page
 title: linux/emerge (English)
 description: "Gentoo Linux package manager utility."
-content_hash: 3238f6b80436d649852b106c61fadf0b2718d5a3
-last_modified_at: 2023-11-12
+content_hash: eee120cb9ce8cab358f9141bff6229fd7f9c9808
+last_modified_at: 2024-11-30
+related_topics:
+  - title: 한국어 version
+    url: /ko/linux/emerge.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # emerge
@@ -14,27 +18,27 @@ More information: <https://wiki.gentoo.org/wiki/Portage#emerge>.
 
 - Synchronize all packages:
 
-`emerge --sync`
+`sudo emerge --sync`
 
 - Update all packages, including dependencies:
 
-`emerge -uDNav @world`
+`sudo emerge -uDNav @world`
 
 - Resume a failed updated, skipping the failing package:
 
-`emerge --resume --skipfirst`
+`sudo emerge --resume --skipfirst`
 
 - Install a new package, with confirmation:
 
-`emerge -av `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo emerge -av `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Remove a package, with confirmation:
 
-`emerge -Cav `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo emerge -Cav `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Remove orphaned packages (that were installed only as dependencies):
 
-`emerge -avc`
+`sudo emerge -avc`
 
 - Search the package database for a keyword:
 

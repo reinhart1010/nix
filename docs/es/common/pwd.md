@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (español)
 description: "Muestra el nombre del directorio actual."
-content_hash: e529d2c86c8e4daeac0064b842d32a19d30bb75f
-last_modified_at: 2024-11-27
+content_hash: d73e710d19a5e8f01d78f602444ed55b4f2bad35
+last_modified_at: 2024-11-30
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -58,3 +58,7 @@ Más información: <https://www.gnu.org/software/coreutils/pwd>.
 - Muestra el directorio actual y resuelve todos los enlaces simbólicos (es decir, muestra la ruta "física"):
 
 `pwd -P`
+
+- Imprime el directorio lógico actual:
+
+`pwd -L`

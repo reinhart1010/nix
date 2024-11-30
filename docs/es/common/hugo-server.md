@@ -2,8 +2,8 @@
 layout: page
 title: common/hugo-server (español)
 description: "Construye y publica un sitio con el servidor web integrado de Hugo."
-content_hash: aaaf3d04aeb15f88593e2b7746bcfb7d2d7fac90
-last_modified_at: 2024-11-25
+content_hash: f11a3c3bf24005c95017451228715dee24e9e32d
+last_modified_at: 2024-11-30
 related_topics:
   - title: English version
     url: /en/common/hugo-server.html
@@ -29,9 +29,13 @@ Más información: <https://gohugo.io/commands/hugo_server/>.
 
 `hugo server --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_puerto</span>
 
-- Construye y publica un sitio mientras se minifican los formatos de salida soportados (HTML, XML, etc.):
+- Construye y publica un sitio mientras se minimizan los formatos de salida soportados (HTML, XML, etc.):
 
 `hugo server --minify`
+
+- Construye y sirve un sitio en el entorno de producción con reconstrucción completa (re-render) disminuyendo el tamaño (minify) en los formatos soportados:
+
+`hugo server --environment `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">producción</span>` --disableFastRender --minify`
 
 - Muestra la ayuda:
 
