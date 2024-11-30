@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (Indonesia)
 description: "Perintah ini merupakan alias dari `choco push`."
-content_hash: ee43b14ec4b7083f42d756fb8d155eb56627a22b
-last_modified_at: 2024-11-15
+content_hash: 590a368e1c3241421eb526ad17f37df82f4d4940
+last_modified_at: 2024-11-30
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # cpush
 
 Perintah ini merupakan alias dari `choco push`.
-Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/create/commands/push>.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

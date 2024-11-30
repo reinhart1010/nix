@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (中文)
 description: "这是 `musescore` 命令的一个别名。"
-content_hash: af720fc8ac9772bdc2bdacf0cf58f8a26085cab0
-last_modified_at: 2023-11-12
+content_hash: 62f847b5f099505975be0e6e20876d969fc416c1
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 这是 `musescore` 命令的一个别名。
-更多信息：<https://musescore.org/handbook/command-line-options>.
 
 - 原命令的文档在：
 

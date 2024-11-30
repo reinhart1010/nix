@@ -2,20 +2,11 @@
 layout: page
 title: common/mscore (Indonesia)
 description: "Perintah ini merupakan alias dari `musescore`."
-content_hash: cb7c16b73a58a23ce73e2d2b702b58a9be39e2d1
-last_modified_at: 2024-01-03
+content_hash: 7b4038e7d159765dceeabf4848a4f2b23d5925ee
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/common/mscore.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/mscore.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # mscore
 
 Perintah ini merupakan alias dari `musescore`.
-Informasi lebih lanjut: <https://musescore.org/handbook/command-line-options>.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (Indonesia)
 description: "Perintah ini merupakan alias dari `Select-String`."
-content_hash: b1e65056fa3263dc8d82b882b39b392cb49b08fb
-last_modified_at: 2024-01-03
+content_hash: 57aff043ecf6d19ca2d6998e318320ba14b93afc
+last_modified_at: 2024-11-30
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 Perintah ini merupakan alias dari `Select-String`.
-Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

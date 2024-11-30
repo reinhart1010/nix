@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (हिन्दी)
 description: "यह आदेश `choco list` का उपनाम है।"
-content_hash: 9655e2ac4b61abdbe18920e732c45f678bf6bd21
-last_modified_at: 2023-11-12
+content_hash: 1d16d3c60f6c1b24612b240a213056628e39b4c6
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 यह आदेश `choco list` का उपनाम है।
-अधिक जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/list>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

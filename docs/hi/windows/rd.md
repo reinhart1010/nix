@@ -2,21 +2,9 @@
 layout: page
 title: windows/rd (हिन्दी)
 description: "यह आदेश `rmdir` का उपनाम है।"
-content_hash: 4bd5c8de0130359fd2d5224a4a365c79687ba545
-last_modified_at: 2023-11-12
+content_hash: dc421bc8164493513a5367c0e5a0bd43d9e855f3
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/windows/rd.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/windows/rd.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/rd.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/rd.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/rd.html
     icon: bi bi-globe
@@ -35,26 +23,14 @@ related_topics:
   - title: italiano version
     url: /it/windows/rd.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/windows/rd.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/windows/rd.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/windows/rd.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/windows/rd.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/windows/rd.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/rd.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/windows/rd.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/rd.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/rd.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/windows/rd.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/windows/rd.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/rd.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/windows/rd.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/windows/rd.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/rd.html
@@ -97,7 +64,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># rd
 
 यह आदेश `rmdir` का उपनाम है।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

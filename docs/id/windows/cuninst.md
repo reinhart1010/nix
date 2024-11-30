@@ -2,20 +2,11 @@
 layout: page
 title: windows/cuninst (Indonesia)
 description: "Perintah ini merupakan alias dari `choco uninstall`."
-content_hash: 7db4040742a4e2ccdd75ea04427e00fd6ad7ec7d
-last_modified_at: 2024-01-03
+content_hash: 12a3dbebcc639c5bc933b51b50991656a8c42239
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cuninst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cuninst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cuninst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cuninst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cuninst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cuninst
 
 Perintah ini merupakan alias dari `choco uninstall`.
-Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

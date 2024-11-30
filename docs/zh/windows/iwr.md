@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (中文)
 description: "这是 `invoke-webrequest` 命令的一个别名。"
-content_hash: e7784f12c71719bc4ed469f44dec6e8b25e1cc9b
-last_modified_at: 2023-11-12
+content_hash: 9cab703bb5f1fe881fadc1b59bca4d619fb2a52d
+last_modified_at: 2024-11-30
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 这是 `invoke-webrequest` 命令的一个别名。
-更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - 原命令的文档在：
 

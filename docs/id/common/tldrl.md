@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (Indonesia)
 description: "Perintah ini merupakan alias dari `tldr-lint`."
-content_hash: 3084ec81543a69c865d43924edcab2d7fbb8eaa0
-last_modified_at: 2024-01-03
+content_hash: fc2c3482b224d5f9f9b13f8112c51c0b7a95f8d9
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 Perintah ini merupakan alias dari `tldr-lint`.
-Informasi lebih lanjut: <https://github.com/tldr-pages/tldr-lint>.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

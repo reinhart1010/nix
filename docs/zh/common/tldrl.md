@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (中文)
 description: "这是 `tldr-lint` 命令的一个别名。"
-content_hash: 770aff3b14f31b5b87f82543ca3bc372be89ba4a
-last_modified_at: 2023-11-12
+content_hash: 1629f423ce6affb0587a6eea450040e63cbd5cb9
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 这是 `tldr-lint` 命令的一个别名。
-更多信息：<https://github.com/tldr-pages/tldr-lint>.
 
 - 原命令的文档在：
 

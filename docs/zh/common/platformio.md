@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (中文)
 description: "这是 `pio` 命令的一个别名。"
-content_hash: 128dfab129d76a2b02a5c6c29642f8667b943d42
-last_modified_at: 2023-11-12
+content_hash: 67d40a0e27a2f2fab73ded9f11688781d73f0718
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 这是 `pio` 命令的一个别名。
-更多信息：<https://docs.platformio.org/en/latest/core/userguide/>.
 
 - 原命令的文档在：
 

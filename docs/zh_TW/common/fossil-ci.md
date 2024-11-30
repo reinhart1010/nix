@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-ci (中文 (繁體, 台灣))
 description: "這是 `fossil commit`.命令的一個別名。"
-content_hash: 7a0f3790f4a59f766cb5bdf327ac3d31b278f4e5
-last_modified_at: 2024-11-17
+content_hash: b9e29500234663063a8760f94421b519a1de2426
+last_modified_at: 2024-11-30
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # fossil ci
 
 這是 `fossil commit`.命令的一個別名。
-更多資訊：<https://fossil-scm.org/home/help/commit>.
 
 - 原命令的文件在：
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (français)
 description: "Cette commande est un alias de `choco push`."
-content_hash: bd9b4d66074301e6fdd63f24a7c10606a1a667a7
-last_modified_at: 2024-11-15
+content_hash: bd8219a5b17dc0dab5e503e6e0fb80aa8d995013
+last_modified_at: 2024-11-30
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # cpush
 
 Cette commande est un alias de `choco push`.
-Plus d'informations : <https://docs.chocolatey.org/en-us/create/commands/push>.
 
 - Voir la documentation de la commande originale :
 

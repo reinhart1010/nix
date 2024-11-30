@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (Indonesia)
 description: "Perintah ini merupakan alias dari `Invoke-WebRequest` di PowerShell."
-content_hash: b1fdf137e88e29dc93b6b33b8d70d7f2e19714e7
-last_modified_at: 2023-11-12
+content_hash: 19f8647fe64942dd612ec81a7de71a381a8aa437
+last_modified_at: 2024-11-30
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # iwr
 
 Perintah ini merupakan alias dari `Invoke-WebRequest` di PowerShell.
-Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

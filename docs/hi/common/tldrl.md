@@ -2,20 +2,11 @@
 layout: page
 title: common/tldrl (हिन्दी)
 description: "यह आदेश `tldr-lint` का उपनाम है।"
-content_hash: f496abf9826d98cfac513145dfb8a3db6ef3b4ba
-last_modified_at: 2023-11-12
+content_hash: 8a4bddc9b5bb429d26953effc5ff72dff24b3a06
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/common/tldrl.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # tldrl
 
 यह आदेश `tldr-lint` का उपनाम है।
-अधिक जानकारी: <https://github.com/tldr-pages/tldr-lint>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

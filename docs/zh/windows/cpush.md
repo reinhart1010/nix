@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (中文)
 description: "这是 `choco push` 命令的一个别名。"
-content_hash: 3b804ef8860956a299052e176ba4b33466cc88a1
-last_modified_at: 2024-11-15
+content_hash: b393b0128885bb346719d11430e44859a8743a63
+last_modified_at: 2024-11-30
 related_topics:
   - title: Deutsch version
     url: /de/windows/cpush.html
@@ -61,7 +61,6 @@ tldri18n_status: 2
 # cpush
 
 这是 `choco push` 命令的一个别名。
-更多信息：<https://docs.chocolatey.org/en-us/create/commands/push>.
 
 - 原命令的文档在：
 

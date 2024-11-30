@@ -2,20 +2,11 @@
 layout: page
 title: common/platformio (Indonesia)
 description: "Perintah ini merupakan alias dari `pio`."
-content_hash: 81cecb78655ca5cf78fe3af933ea34f816c5e22b
-last_modified_at: 2024-01-03
+content_hash: f6ad44bab6fedcf0bc444d03d68b23004fd12617
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/common/platformio.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # platformio
 
 Perintah ini merupakan alias dari `pio`.
-Informasi lebih lanjut: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

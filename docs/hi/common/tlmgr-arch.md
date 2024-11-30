@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (हिन्दी)
 description: "यह आदेश `tlmgr platform` का उपनाम है।"
-content_hash: ecbc90bdb0cba9cab86cfdc84843e6e23283df6c
-last_modified_at: 2024-05-09
+content_hash: 9a456dcc56b95d489c837d846bf4b674439cf772
+last_modified_at: 2024-11-30
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # tlmgr arch
 
 यह आदेश `tlmgr platform` का उपनाम है।
-अधिक जानकारी: <https://www.tug.org/texlive/tlmgr.html>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

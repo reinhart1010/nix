@@ -2,21 +2,9 @@
 layout: page
 title: common/unxz (中文 (繁體, 台灣))
 description: "這是 `xz` 命令的一個別名。"
-content_hash: b3fc55774f789113674643bd13704cd0205de648
-last_modified_at: 2023-11-12
+content_hash: aa2f2b6ff1eb1b99a97bbaeb8248c3eac6f62be8
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/common/unxz.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/unxz.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/unxz.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/unxz.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/unxz.html
     icon: bi bi-globe
@@ -38,26 +26,14 @@ related_topics:
   - title: italiano version
     url: /it/common/unxz.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/unxz.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/unxz.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/unxz.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/unxz.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/unxz.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/unxz.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/unxz.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/unxz.html
@@ -68,12 +44,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/unxz.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/unxz.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/unxz.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/unxz.html
     icon: bi bi-globe
@@ -83,9 +53,6 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/unxz.html
     icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/unxz.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/unxz.html
     icon: bi bi-globe
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # unxz
 
 這是 `xz` 命令的一個別名。
-更多資訊：<https://manned.org/unxz>.
 
 - 原命令的文件在：
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/sls (中文)
 description: "这是 `Select-String` 命令的一个别名。"
-content_hash: ed1c9d781615eae83d5bbf772f2b74f20213fd34
-last_modified_at: 2023-11-12
+content_hash: 527976f8d460472ff6381062098c8c175c1712be
+last_modified_at: 2024-11-30
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # sls
 
 这是 `Select-String` 命令的一个别名。
-更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - 原命令的文档在：
 

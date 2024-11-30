@@ -2,21 +2,9 @@
 layout: page
 title: linux/alternatives (中文)
 description: "这是 `update-alternatives` 命令的一个别名。"
-content_hash: 37b396004f19e0b71850a681e7c75a589bd16500
-last_modified_at: 2023-11-12
+content_hash: 8bef02b7ee4619cf403ac61615bec2c28c7d8127
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/linux/alternatives.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/linux/alternatives.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/linux/alternatives.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/alternatives.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/alternatives.html
     icon: bi bi-globe
@@ -38,26 +26,14 @@ related_topics:
   - title: italiano version
     url: /it/linux/alternatives.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/linux/alternatives.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/alternatives.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/linux/alternatives.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/linux/alternatives.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/linux/alternatives.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/alternatives.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/linux/alternatives.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/alternatives.html
@@ -68,12 +44,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/alternatives.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/linux/alternatives.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/linux/alternatives.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/alternatives.html
     icon: bi bi-globe
@@ -83,9 +53,6 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/alternatives.html
     icon: bi bi-globe
-  - title: українська version
-    url: /uk/linux/alternatives.html
-    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/alternatives.html
     icon: bi bi-globe
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # alternatives
 
 这是 `update-alternatives` 命令的一个别名。
-更多信息：<https://manned.org/alternatives>.
 
 - 原命令的文档在：
 

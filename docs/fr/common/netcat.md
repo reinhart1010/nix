@@ -2,11 +2,17 @@
 layout: page
 title: common/netcat (français)
 description: "Cette commande est un alias de `nc`."
-content_hash: 7936718d90a203e06240afcd3bc9673dc0b8592b
-last_modified_at: 2024-09-09
+content_hash: 1628f9ad01dda15a67075f3cb431670fd918d7db
+last_modified_at: 2024-11-30
 related_topics:
   - title: English version
     url: /en/common/netcat.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/netcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/netcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/netcat.html
@@ -19,7 +25,6 @@ tldri18n_status: 2
 # netcat
 
 Cette commande est un alias de `nc`.
-Plus d'informations : <https://manned.org/nc>.
 
 - Voir la documentation de la commande originale :
 

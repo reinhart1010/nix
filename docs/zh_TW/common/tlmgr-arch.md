@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (中文 (繁體, 台灣))
 description: "這是 `tlmgr platform` 命令的一個別名。"
-content_hash: c47dad9a002e433b9321b1e9ee51560d87c184be
-last_modified_at: 2024-05-09
+content_hash: 8243c411b14f21596ea907bb5e2fdf646a56a330
+last_modified_at: 2024-11-30
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # tlmgr arch
 
 這是 `tlmgr platform` 命令的一個別名。
-更多資訊：<https://www.tug.org/texlive/tlmgr.html>.
 
 - 原命令的文件在：
 

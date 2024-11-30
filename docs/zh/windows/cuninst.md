@@ -2,20 +2,11 @@
 layout: page
 title: windows/cuninst (中文)
 description: "这是 `choco uninstall` 命令的一个别名。"
-content_hash: 1219247e327ef21872b322dc76008bf5b27a58fc
-last_modified_at: 2023-11-12
+content_hash: 633528c2ad0bc60c38cb003ee1e1a708984595cb
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cuninst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cuninst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cuninst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cuninst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cuninst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cuninst
 
 这是 `choco uninstall` 命令的一个别名。
-更多信息：<https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - 原命令的文档在：
 

@@ -2,20 +2,11 @@
 layout: page
 title: windows/cinst (français)
 description: "Cette commande est un alias de `choco install`."
-content_hash: 6c9ea85ed2a36e0f0adedad343d35a488225480f
-last_modified_at: 2023-11-12
+content_hash: 41edff96d8b555c32e6f77c62ae8e5497cd1225f
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/windows/cinst.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # cinst
 
 Cette commande est un alias de `choco install`.
-Plus d'informations : <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Voir la documentation de la commande originale :
 

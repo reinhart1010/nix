@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (中文 (繁體, 台灣))
 description: "這是 `choco list` 命令的一個別名。"
-content_hash: 130093cae15c85c8ce7af05e72cb402d58b4b23c
-last_modified_at: 2023-11-12
+content_hash: 7374e5568d4ace810c831cd8452ed130892b7683
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 這是 `choco list` 命令的一個別名。
-更多資訊：<https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - 原命令的文件在：
 

@@ -2,21 +2,9 @@
 layout: page
 title: common/lzcat (हिन्दी)
 description: "यह आदेश `xz` का उपनाम है।"
-content_hash: edbe6294d3d57346e0cb8de2035ae562165ec913
-last_modified_at: 2023-11-12
+content_hash: 1473c3f556c9fef2c748e39f1f72d60766ff0e3f
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/common/lzcat.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/lzcat.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/lzcat.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/lzcat.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/lzcat.html
     icon: bi bi-globe
@@ -35,26 +23,14 @@ related_topics:
   - title: italiano version
     url: /it/common/lzcat.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/lzcat.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/lzcat.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/lzcat.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/lzcat.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/lzcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/lzcat.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/lzcat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/lzcat.html
@@ -65,12 +41,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/lzcat.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/lzcat.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/lzcat.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/lzcat.html
     icon: bi bi-globe
@@ -79,9 +49,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/lzcat.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/lzcat.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/lzcat.html
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # lzcat
 
 यह आदेश `xz` का उपनाम है।
-अधिक जानकारी: <https://manned.org/lzcat>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

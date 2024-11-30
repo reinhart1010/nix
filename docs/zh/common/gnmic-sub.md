@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (中文)
 description: "这是 `gnmic subscribe` 命令的一个别名。"
-content_hash: 44b33633936b3cbb7043947abcdadb0c4145307d
-last_modified_at: 2024-05-09
+content_hash: 0aff4aa52166a5e9e9a00c3ebee7617b57837396
+last_modified_at: 2024-11-30
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # gnmic sub
 
 这是 `gnmic subscribe` 命令的一个别名。
-更多信息：<https://gnmic.kmrd.dev/cmd/subscribe>.
 
 - 原命令的文档在：
 

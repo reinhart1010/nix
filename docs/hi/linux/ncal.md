@@ -2,20 +2,14 @@
 layout: page
 title: linux/ncal (हिन्दी)
 description: "यह आदेश `cal` का उपनाम है।"
-content_hash: c945ce091612115cbeaf9a8fddeadb618c089658
-last_modified_at: 2023-11-12
+content_hash: fbb344370e0f2ea15ad059ccde364a3820fa98d5
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/linux/ncal.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -94,7 +88,6 @@ tldri18n_status: 2
 # ncal
 
 यह आदेश `cal` का उपनाम है।
-अधिक जानकारी: <https://manned.org/ncal>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

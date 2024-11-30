@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (中文)
 description: "这是 `Where-Object` 命令的一个别名。"
-content_hash: e125c565f3be1955d2dc3c62f9b386939519988c
-last_modified_at: 2023-12-22
+content_hash: 7954338cdafce93081627b299763d10590d95bd4
+last_modified_at: 2024-11-30
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -94,7 +94,6 @@ tldri18n_status: 2
 # pwsh where
 
 这是 `Where-Object` 命令的一个别名。
-更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
 
 - 原命令的文档在：
 

@@ -2,21 +2,9 @@
 layout: page
 title: common/unlzma (中文)
 description: "这是 `xz` 命令的一个别名。"
-content_hash: a3b37e628aad5ce3690c847902d59abccda11b7b
-last_modified_at: 2023-11-12
+content_hash: c4e1f15e71b01e3c5ee862186660dfa466be7c48
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/common/unlzma.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/common/unlzma.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/common/unlzma.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/common/unlzma.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/unlzma.html
     icon: bi bi-globe
@@ -38,26 +26,14 @@ related_topics:
   - title: italiano version
     url: /it/common/unlzma.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/common/unlzma.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/unlzma.html
-    icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/common/unlzma.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/common/unlzma.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/unlzma.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/unlzma.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/unlzma.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/unlzma.html
@@ -68,12 +44,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/unlzma.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/unlzma.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/common/unlzma.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/unlzma.html
     icon: bi bi-globe
@@ -83,9 +53,6 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/unlzma.html
     icon: bi bi-globe
-  - title: українська version
-    url: /uk/common/unlzma.html
-    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/unlzma.html
     icon: bi bi-globe
@@ -94,7 +61,6 @@ tldri18n_status: 2
 # unlzma
 
 这是 `xz` 命令的一个别名。
-更多信息：<https://manned.org/unlzma>.
 
 - 原命令的文档在：
 

@@ -2,20 +2,11 @@
 layout: page
 title: windows/clist (Indonesia)
 description: "Perintah ini merupakan alias dari `choco list`."
-content_hash: d99aeedf0076bd2835ed61c4a44c1a3279cd3fd4
-last_modified_at: 2024-01-03
+content_hash: 7d88adaccdcf6260e1f8eb4d4be5f67f8194fb6f
+last_modified_at: 2024-11-30
 related_topics:
-  - title: العربية version
-    url: /ar/windows/clist.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/windows/clist.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -94,7 +85,6 @@ tldri18n_status: 2
 # clist
 
 Perintah ini merupakan alias dari `choco list`.
-Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
