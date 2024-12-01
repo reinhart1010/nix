@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-remove (español)
 description: "Utilidad del administrador de paquetes de Arch Linux."
 content_hash: f3fc07720d82bad14b3005dbe071cd7df66f5335
-last_modified_at: 2024-11-30
+last_modified_at: 2024-12-01
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -32,18 +32,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman-remove.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pacman-remove.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pacman --remove
+# pacman --remove
 
 Utilidad del administrador de paquetes de Arch Linux.
 Vea también: `pacman`.

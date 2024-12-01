@@ -3,7 +3,7 @@ layout: page
 title: common/gnmic-subscribe (español)
 description: "Suscribirse a las actualizaciones de estado de un dispositivo de red gnmic."
 content_hash: 409b8fd560bcbe2f9782e0555ebf0323c314122e
-last_modified_at: 2024-11-30
+last_modified_at: 2024-12-01
 related_topics:
   - title: English version
     url: /en/common/gnmic-subscribe.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/gnmic-subscribe.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gnmic-subscribe.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gnmic subscribe
+# gnmic subscribe
 
 Suscribirse a las actualizaciones de estado de un dispositivo de red gnmic.
 Más información: <https://gnmic.kmrd.dev/cmd/subscribe>.

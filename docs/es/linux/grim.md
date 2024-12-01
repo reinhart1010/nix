@@ -3,7 +3,7 @@ layout: page
 title: linux/grim (español)
 description: "Obtiene imágenes (capturas de pantalla) de un compositor Wayland."
 content_hash: 8352b2a11d667ca1091263318ab1ff6452a146ba
-last_modified_at: 2024-11-30
+last_modified_at: 2024-12-01
 related_topics:
   - title: English version
     url: /en/linux/grim.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/grim.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/grim.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># grim
+# grim
 
 Obtiene imágenes (capturas de pantalla) de un compositor Wayland.
 Más información: <https://sr.ht/~emersion/grim>.

@@ -3,7 +3,7 @@ layout: page
 title: common/hugo-server (español)
 description: "Construye y publica un sitio con el servidor web integrado de Hugo."
 content_hash: f11a3c3bf24005c95017451228715dee24e9e32d
-last_modified_at: 2024-11-30
+last_modified_at: 2024-12-01
 related_topics:
   - title: English version
     url: /en/common/hugo-server.html
@@ -11,12 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/hugo-server.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hugo server
+# hugo server
 
 Construye y publica un sitio con el servidor web integrado de Hugo.
 Más información: <https://gohugo.io/commands/hugo_server/>.
