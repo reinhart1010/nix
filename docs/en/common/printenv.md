@@ -2,14 +2,21 @@
 layout: page
 title: common/printenv (English)
 description: "Print values of all or environment variables."
-content_hash: 9e16721f16e3e65b90ee024d3d0eadd7e23f80b1
-last_modified_at: 2024-02-15
+content_hash: 1a3317f981e82eb50e95df35207d899ba4538d50
+last_modified_at: 2024-12-03
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/printenv.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/printenv.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # printenv
 
 Print values of all or environment variables.
-More information: <https://www.gnu.org/software/coreutils/printenv>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/printenv-invocation.html>.
 
 - Display key-value pairs of all environment variables:
 

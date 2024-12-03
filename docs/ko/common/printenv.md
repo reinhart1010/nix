@@ -2,8 +2,8 @@
 layout: page
 title: common/printenv (한국어)
 description: "모든 환경 변수 또는 지정된 환경 변수의 값을 출력."
-content_hash: c73daca03a4eddcdf768825fbe15484399841633
-last_modified_at: 2024-11-08
+content_hash: 372fee9eee75ce9573575fd609f2f63143e2f72c
+last_modified_at: 2024-12-03
 related_topics:
   - title: English version
     url: /en/common/printenv.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # printenv
 
 모든 환경 변수 또는 지정된 환경 변수의 값을 출력.
-더 많은 정보: <https://www.gnu.org/software/coreutils/printenv>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/printenv-invocation.html>.
 
 - 모든 환경 변수의 키-값 쌍 출력:
 
