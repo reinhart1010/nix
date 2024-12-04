@@ -2,8 +2,15 @@
 layout: page
 title: common/brew-list (English)
 description: "List installed formulae/casks or their files."
-content_hash: 667d0fa3a0298f64bc7803f77a986a508b714d2f
-last_modified_at: 2023-11-12
+content_hash: 96064f65001c4a79fd979f8ce918fb1e3982066a
+last_modified_at: 2024-12-04
+related_topics:
+  - title: Indonesia version
+    url: /id/common/brew-list.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/brew-list.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # brew list
@@ -30,3 +37,7 @@ More information: <https://docs.brew.sh/Manpage#list-ls-options-installed_formul
 - List only casks:
 
 `brew list --cask`
+
+- List only pinned formulae:
+
+`brew list --pinned`
