@@ -1,0 +1,43 @@
+---
+layout: page
+title: common/zm (中文)
+description: "一个管理报纸和博客文章的工具。"
+content_hash: 7eebb13bf75529dc7d6202d45343ebd213fa230d
+last_modified_at: 2024-12-04
+related_topics:
+  - title: English version
+    url: /en/common/zm.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/zm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/zm.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/zm.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># zm
+
+一个管理报纸和博客文章的工具。
+更多信息：<https://github.com/ZERMZeitung/zm2>.
+
+- 创建一个新的草稿：
+
+`zm new`
+
+- 编辑草稿：
+
+`zm edit`
+
+- 发布草稿并使用 git 提交：
+
+`zm publish`
