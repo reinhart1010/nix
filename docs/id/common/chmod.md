@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (Indonesia)
 description: "Mengubah hak akses pengguna suatu file atau direktori."
-content_hash: 25db3d6997021abd4840ea45062d3895a43485dd
-last_modified_at: 2023-11-12
+content_hash: a29ebd81ea57b3dab4b8677cddf5119106faaa73
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -52,7 +52,7 @@ tldri18n_status: 2
 # chmod
 
 Mengubah hak akses pengguna suatu file atau direktori.
-Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/chmod>.
+Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Berikan pengguna pembuat file hak untuk mengeksekusinya (misal: sebagai script):
 

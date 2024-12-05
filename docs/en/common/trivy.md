@@ -2,8 +2,12 @@
 layout: page
 title: common/trivy (English)
 description: "Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues."
-content_hash: 9cb196f0d27a12f3f5bb338b83cc396d791717ed
-last_modified_at: 2024-03-02
+content_hash: 14832b7e6f1b8c0343b88415c849707510544a4b
+last_modified_at: 2024-12-05
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/trivy.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # trivy
@@ -41,4 +45,4 @@ More information: <https://aquasecurity.github.io/trivy>.
 
 - Generate output with a SARIF template:
 
-`trivy image --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template</span>` --template `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"@sarif.tpl"</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/report.sarif</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image:tag</span>
+`trivy image --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template</span>` --template "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@sarif.tpl</span>`" -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/report.sarif</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image:tag</span>

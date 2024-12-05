@@ -2,8 +2,8 @@
 layout: page
 title: common/rich (한국어)
 description: "터미널에서 화려한 출력을 위한 도구 모음."
-content_hash: eccbf788208eddb5eca8089868354ff99b60b495
-last_modified_at: 2024-11-08
+content_hash: 2ebbb441a7a7c94296d6634307309a5b9c51b01f
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/rich.html
@@ -41,4 +41,4 @@ tldri18n_status: 2
 
 - 서식 태그, 사용자 정의 정렬 및 줄 너비를 사용하여 텍스트 표시:
 
-`rich --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"Hello [green on black]Stylized[/green on black] [bold]World[/bold]"</span>` --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">left|center|right</span>` --width `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>
+`rich --print "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello [green on black]Stylized[/green on black] [bold]World[/bold]</span>`" --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">left|center|right</span>` --width `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>

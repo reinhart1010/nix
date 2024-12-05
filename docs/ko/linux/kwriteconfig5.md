@@ -2,8 +2,8 @@
 layout: page
 title: linux/kwriteconfig5 (한국어)
 description: "KDE Plasma의 KConfig 항목 쓰기."
-content_hash: d2701c7380175e9fc43e7a96f570686cc7a4c82b
-last_modified_at: 2024-11-10
+content_hash: 55c9ddea639a92420b8e9ffd7674a67ef5cd3bdd
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/linux/kwriteconfig5.html
@@ -41,4 +41,4 @@ KDE Plasma의 KConfig 항목 쓰기.
 
 - KRunner를 Meta(커맨드/윈도우) 글로벌 핫키로 열리도록 설정:
 
-`kwriteconfig5 --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.config/kwinrc</span>` --group `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ModifierOnlyShortcuts</span>` --key `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Meta</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"org.kde.kglobalaccel,/component/krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch"</span>
+`kwriteconfig5 --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.config/kwinrc</span>` --group `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ModifierOnlyShortcuts</span>` --key `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Meta</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.kde.kglobalaccel,/component/krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch</span>`"`

@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (Deutsch)
 description: "Ändere die Zugriffsberechtigungen einer Datei oder eines Verzeichnisses."
-content_hash: 080239e8e409f9728f07a78b1dbea322a0ddf2fc
-last_modified_at: 2023-11-12
+content_hash: c92f9650b6a479daf7c6eb979a85ba9be08aaee4
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/chmod.html
@@ -52,7 +52,7 @@ tldri18n_status: 2
 # chmod
 
 Ändere die Zugriffsberechtigungen einer Datei oder eines Verzeichnisses.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/chmod>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Gib dem Besitzer einer Datei ([u]ser) das Recht, sie auszuführen (e[x]ecute):
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-config (한국어)
 description: "GitHub CLI의 설정 변경."
-content_hash: 214b8adb0cdbb6fd40c16eb8f59605e6771ba95c
-last_modified_at: 2024-10-12
+content_hash: 97b670972183055fd4baf90b184dfe8f3b59a8d3
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/gh-config.html
@@ -33,7 +33,7 @@ GitHub CLI의 설정 변경.
 
 - 기본 텍스트 편집기로 재설정:
 
-`gh config set editor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">""</span>
+`gh config set editor ""`
 
 - 대화형 프롬프트 비활성화:
 

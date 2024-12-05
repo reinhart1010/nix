@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (italiano)
 description: "Cambia i permessi di accesso di file o directory."
-content_hash: 9e4aaf98c5118670b36ad5e6f3dfea432e8e23f7
-last_modified_at: 2023-11-12
+content_hash: 6c0ec140114d37d4031994449fa99e50dc1c0914
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -55,7 +55,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># chmod
 
 Cambia i permessi di accesso di file o directory.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/chmod>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Dai il permesso di eseguire (x) un file al suo proprietario (u):
 

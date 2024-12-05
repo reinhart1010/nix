@@ -2,8 +2,8 @@
 layout: page
 title: common/acme.sh (français)
 description: "Script shell implémentant le protocole client ACME, une alternative à `certbot`."
-content_hash: 3788fb03f5f5c1e582672fcea4507d7d027a5619
-last_modified_at: 2023-12-03
+content_hash: 1df04bc809f3e45c5a80d40b7555cf15bba05af0
+last_modified_at: 2024-12-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh.html
@@ -13,6 +13,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/acme.sh.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/acme.sh.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/acme.sh.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/acme.sh.html
@@ -57,4 +63,4 @@ Plus d'informations : <https://github.com/acmesh-official/acme.sh>.
 
 - Installe les fichiers de certificat dans un dossier spécifique (Utile pour les renouvellements automatiques de certificat) :
 
-`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemple.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/exemple.com.key</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/exemple.com.cer</span>` --reloadcmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"systemctl force-reload nginx"</span>
+`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemple.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/exemple.com.key</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/exemple.com.cer</span>` --reloadcmd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemctl force-reload nginx</span>`"`

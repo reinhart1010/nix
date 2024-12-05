@@ -2,8 +2,8 @@
 layout: page
 title: common/mkfifo (한국어)
 description: "FIFO(이름 있는 파이프) 생성."
-content_hash: fb71bf892c84f308fa7320ef9c7b4cb4e9421b66
-last_modified_at: 2024-11-08
+content_hash: 29f988ca9d609b6374aa19ae715b9261c29503f8
+last_modified_at: 2024-12-05
 related_topics:
   - title: bosanski version
     url: /bs/common/mkfifo.html
@@ -30,7 +30,7 @@ FIFO(이름 있는 파이프) 생성.
 
 - 이름 있는 파이프를 통해 데이터를 보내고 명령을 백그라운드로 전송:
 
-`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"Hello World"</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파이프</span>` &`
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span>`" > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파이프</span>` &`
 
 - 이름 있는 파이프를 통해 데이터 수신:
 

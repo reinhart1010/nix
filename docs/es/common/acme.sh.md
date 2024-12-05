@@ -2,8 +2,8 @@
 layout: page
 title: common/acme.sh (español)
 description: "Shell script implementando el protocolo cliente ACME, una alternativa a `certbot`."
-content_hash: c06965c5d0e9237073965f943b95cd26aeeb9c11
-last_modified_at: 2024-01-07
+content_hash: cf603b92520e47fd5814166022afb048d9ef7624
+last_modified_at: 2024-12-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/acme.sh.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/acme.sh.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/acme.sh.html
@@ -60,4 +63,4 @@ Más información: <https://github.com/acmesh-official/acme.sh>.
 
 - Instala archivos de certificado en las ubicaciones especificadas (útil para la renovación automática de certificados):
 
-`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/ejemplo.com.key</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/ejemplo.com.cer</span>` --reloadcmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"systemctl force-reload nginx"</span>
+`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/ejemplo.com.key</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/ejemplo.com.cer</span>` --reloadcmd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemctl force-reload nginx</span>`"`

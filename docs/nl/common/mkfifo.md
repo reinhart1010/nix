@@ -2,8 +2,8 @@
 layout: page
 title: common/mkfifo (Nederlands)
 description: "Maak FIFOs (benoemde pipes)."
-content_hash: 14acf6d3951c7e1dbce403b0a500439a78185387
-last_modified_at: 2024-10-11
+content_hash: ab2cec156a480da02f8e0f9884683388faf03e19
+last_modified_at: 2024-12-05
 related_topics:
   - title: bosanski version
     url: /bs/common/mkfifo.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/mkfifo.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mkfifo.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -27,7 +30,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/mkfifo>.
 
 - Stuur data naar een benoemde pipe en stuur het commando naar de achtergrond:
 
-`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"Hello World"</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span>` &`
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span>`" > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span>` &`
 
 - Ontvang data van benoemde pipe:
 

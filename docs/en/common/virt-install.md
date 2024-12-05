@@ -2,8 +2,12 @@
 layout: page
 title: common/virt-install (English)
 description: "Create virtual machines with libvirt and begin OS installation."
-content_hash: 251faa2af7c8686a9b3bb59d56d7d0b636c0ded0
-last_modified_at: 2023-11-12
+content_hash: fd1026ddac1eb85b06b307cb85650629ae64f88b
+last_modified_at: 2024-12-05
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/virt-install.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # virt-install
@@ -29,4 +33,4 @@ More information: <https://virt-manager.org/>.
 
 - Create a virtual machine and kickstart an automated deployment based on Fedora 35 using only remote resources (no ISO required):
 
-`virt-install --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span>` --memory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span>` --disk path=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.qcow2</span>`,size=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>` --location=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/</span>` --extra-args=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"inst.ks=https://path/to/valid/kickstart.org"</span>
+`virt-install --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span>` --memory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span>` --disk path=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.qcow2</span>`,size=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>` --location=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/</span>` --extra-args="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inst.ks=https://path/to/valid/kickstart.org</span>`"`

@@ -2,8 +2,8 @@
 layout: page
 title: common/read (한국어)
 description: "`stdin`으로부터 데이터를 수신하는 셸 내장 함수."
-content_hash: d1dc2a39913dee346f1018797e25a7aaa0efba4a
-last_modified_at: 2024-11-08
+content_hash: ae5bb77361dd61b3b85a6a2bc58a6712940295d2
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/read.html
@@ -35,7 +35,7 @@ tldri18n_status: 2
 
 - 여러 값을 여러 변수에 할당:
 
-`read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ 변수1 _ 변수2</span>` <<< `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"The surname is Bond"</span>
+`read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ 변수1 _ 변수2</span>` <<< "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">The surname is Bond</span>`"`
 
 - 백슬래시(\\)를 이스케이프 문자로 사용하지 않음:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/nuclei (한국어)
 description: "간단한 YAML 기반 DSL을 사용하는 빠르고 커스터마이즈 가능한 취약점 스캐너."
-content_hash: 8e2fc634ec08fc3504e0fbd78971b357a36d15fe
-last_modified_at: 2024-11-06
+content_hash: 5bb38c7d64ebb5ceeb03bac9df0d9b485871c495
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/nuclei.html
@@ -45,4 +45,4 @@ tldri18n_status: 2
 
 - 하나 이상의 [t]emplate [c]onditions에 기반한 스캔 실행:
 
-`nuclei -tc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"contains(tags, 'xss') && contains(tags, 'cve')"</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://vulnerable.website</span>
+`nuclei -tc "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contains(tags, 'xss') && contains(tags, 'cve')</span>`" -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://vulnerable.website</span>

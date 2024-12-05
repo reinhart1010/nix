@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (فارسی)
 description: "تغییر مجوز(ها)ی دسترسی به یک فایل یا پوشه."
-content_hash: 6ddbd9a71eb2a2af55e7f76d6b4c681180587fea
-last_modified_at: 2024-01-08
+content_hash: 5eb784dfd3704fcbc8b9aa83e36a5d693f77562f
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -52,7 +52,7 @@ tldri18n_status: 2
 # chmod
 
 تغییر مجوز(ها)ی دسترسی به یک فایل یا پوشه.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/chmod>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - به مالک فایل دسترسی اجرا میدهد:
 

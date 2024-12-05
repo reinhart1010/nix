@@ -2,8 +2,12 @@
 layout: page
 title: windows/show-markdown (English)
 description: "Shows a Markdown file or string in the console in a friendly way using VT100 escape sequences or in a browser using HTML."
-content_hash: 6c8b1e312e4dca8a2a628e45ce9d40fe662d016a
-last_modified_at: 2024-06-07
+content_hash: b60b816494a469e273d6b6c38cb1349d511d9ec9
+last_modified_at: 2024-12-05
+related_topics:
+  - title: 한국어 version
+    url: /ko/windows/show-markdown.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # Show-Markdown
@@ -18,7 +22,7 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 
 - Render markdown to console from string:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"# Markdown content"</span>` | Show-Markdown`
+`"`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"># Markdown content</span>`" | Show-Markdown`
 
 - Open Markdown file in a browser:
 

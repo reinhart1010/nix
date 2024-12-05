@@ -2,8 +2,8 @@
 layout: page
 title: common/virt-install (한국어)
 description: "libvirt를 사용하여 가상 머신을 생성하고 OS 설치를 시작합니다."
-content_hash: 97af3a2a4c64752ae0a74e7e15654013495e711c
-last_modified_at: 2024-11-04
+content_hash: 11f7a6e2954f05baa8328c220040a6552772c764
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/virt-install.html
@@ -33,4 +33,4 @@ libvirt를 사용하여 가상 머신을 생성하고 OS 설치를 시작합니�
 
 - Fedora 35를 기반으로 한 자동 배포를 시작하고 원격 리소스만 사용하여 가상 머신 생성 (ISO 불필요):
 
-`virt-install --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상머신_이름</span>` --memory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span>` --disk path=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.qcow2</span>`,size=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>` --location=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/</span>` --extra-args=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"inst.ks=https://경로/대상/유효한/kickstart.org"</span>
+`virt-install --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상머신_이름</span>` --memory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span>` --disk path=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.qcow2</span>`,size=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>` --location=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/</span>` --extra-args="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inst.ks=https://경로/대상/유효한/kickstart.org</span>`"`

@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (中文)
 description: "修改文件或目录的访问权限。"
-content_hash: 62db19b725dd9b42728d01f4dbf424520e96b592
-last_modified_at: 2023-11-12
+content_hash: a9cfdd5cce30736427f9ebd56a42f0bee3305eb6
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -52,7 +52,7 @@ tldri18n_status: 2
 # chmod
 
 修改文件或目录的访问权限。
-更多信息：<https://www.gnu.org/software/coreutils/chmod>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - 授予所有者［u］执行［x］文件的权限：
 

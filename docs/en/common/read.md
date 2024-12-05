@@ -2,8 +2,18 @@
 layout: page
 title: common/read (English)
 description: "Shell builtin for retrieving data from `stdin`."
-content_hash: 236712518c71808ea9ae854d36f218542bf081b4
-last_modified_at: 2024-08-06
+content_hash: 8da93b6007acefccdf1971649f03454aaac1b134
+last_modified_at: 2024-12-05
+related_topics:
+  - title: español version
+    url: /es/common/read.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/read.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/read.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # read
@@ -25,7 +35,7 @@ More information: <https://manned.org/read.1p>.
 
 - Assign multiple values to multiple variables:
 
-`read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ variable1 _ variable2</span>` <<< `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"The surname is Bond"</span>
+`read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ variable1 _ variable2</span>` <<< "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">The surname is Bond</span>`"`
 
 - Do not let backslash (\\) act as an escape character:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (español)
 description: "Cambia los permisos de acceso de un archivo o directorio."
-content_hash: bc240e7ec14357999dd2e0bb30620f40f462db29
-last_modified_at: 2024-01-07
+content_hash: 8c85b305cc29ee4d8967c2c405f8974600c0503e
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -52,7 +52,7 @@ tldri18n_status: 2
 # chmod
 
 Cambia los permisos de acceso de un archivo o directorio.
-Más información: <https://www.gnu.org/software/coreutils/chmod>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Otorga al [u]suario que es propietario del archivo permiso para [x] ejecutarlo:
 

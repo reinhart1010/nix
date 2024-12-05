@@ -2,14 +2,17 @@
 layout: page
 title: common/read (Nederlands)
 description: "Shell builtin voor het ophalen van data van `stdin`."
-content_hash: 10f729ee04ff99a66ad243efa4137cc9a1f7e3e9
-last_modified_at: 2024-09-22
+content_hash: 70e9cc8baa1fe2cf10146282b6c9ce4031b2562b
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/read.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/read.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/read.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -32,7 +35,7 @@ Meer informatie: <https://manned.org/read.1p>.
 
 - Wijs meerdere waarden toe aan meerdere variabelen:
 
-`read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ variable1 _ variable2</span>` <<< `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"De achternaam is Bond"</span>
+`read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ variable1 _ variable2</span>` <<< "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">De achternaam is Bond</span>`"`
 
 - Laat backslash (\\) niet optreden als een escape-teken:
 

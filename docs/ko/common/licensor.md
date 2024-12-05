@@ -2,8 +2,8 @@
 layout: page
 title: common/licensor (한국어)
 description: "라이선스를 `stdout`에 출력."
-content_hash: 9d33b5eb70b778ae145ca0273a5a5bcfceda9157
-last_modified_at: 2024-11-08
+content_hash: 4c7e62478b0329d84ff56e4d7f2e772846a9710c
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/licensor.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 
 - Bobby Tables라는 저작권자를 지정:
 
-`licensor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MIT</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"Bobby Tables"</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LICENSE</span>
+`licensor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MIT</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Bobby Tables</span>`" > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LICENSE</span>
 
 - WITH 표현을 사용하여 라이선스 예외사항 지정:
 

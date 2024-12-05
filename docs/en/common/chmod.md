@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (English)
 description: "Change the access permissions of a file or directory."
-content_hash: 2680a4295b967cf730e2afbad1e9ab42819ffdb2
-last_modified_at: 2023-11-12
+content_hash: 96e6fe3fbdd2a24adaf7cbca1acc407193921203
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -52,7 +52,7 @@ tldri18n_status: 2
 # chmod
 
 Change the access permissions of a file or directory.
-More information: <https://www.gnu.org/software/coreutils/chmod>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Give the [u]ser who owns a file the right to e[x]ecute it:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (Nederlands)
 description: "Verander de toegangstoestemmingen van een bestand of map."
-content_hash: dbf88e74c4191c8de681dd9e27e0f13d7e20b63c
-last_modified_at: 2023-11-12
+content_hash: 0906b07267b184169eba7c442cca1806665424d3
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -52,7 +52,7 @@ tldri18n_status: 2
 # chmod
 
 Verander de toegangstoestemmingen van een bestand of map.
-Meer informatie: <https://www.gnu.org/software/coreutils/chmod>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Geef een gebruiker ([u]ser) die het bestand beheert het recht om deze uit te voeren (e[x]ecute):
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (português (Brasil))
 description: "Muda a permissão de acesso de um arquivo ou diretório."
-content_hash: c324390a5b856ec41d2d5c6ed15dff62148d4083
-last_modified_at: 2023-11-12
+content_hash: 926a8b63eb438dc5c3e9154ab931e75325eae0a4
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -52,7 +52,7 @@ tldri18n_status: 2
 # chmod
 
 Muda a permissão de acesso de um arquivo ou diretório.
-Mais informações: <https://www.gnu.org/software/coreutils/chmod>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Dá ao [u]suário dono de um arquivo o direito de e[x]ecutá-lo:
 

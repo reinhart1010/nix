@@ -2,8 +2,12 @@
 layout: page
 title: common/gh-config (English)
 description: "Change configuration for GitHub cli."
-content_hash: 048febc7f0c57cd1350e59cc15bdf0a43c68d2ad
-last_modified_at: 2023-11-12
+content_hash: 131a4b5b65da7bda51160bcf491ab18a7f44082f
+last_modified_at: 2024-12-05
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/gh-config.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # gh config
@@ -29,7 +33,7 @@ More information: <https://cli.github.com/manual/gh_config>.
 
 - Reset to default text editor:
 
-`gh config set editor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">""</span>
+`gh config set editor ""`
 
 - Disable interactive prompts:
 

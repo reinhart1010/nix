@@ -2,8 +2,8 @@
 layout: page
 title: common/acme.sh (中文)
 description: "实现了 ACME 客户端协议的 shell 脚本，是 `certbot` 的替代品。"
-content_hash: f3bb277a3e22b0d2ddd71ac1ced84339bad95373
-last_modified_at: 2023-12-03
+content_hash: fc78dc9688603bcf4f046b64abf07700a3661786
+last_modified_at: 2024-12-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh.html
@@ -16,6 +16,12 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/acme.sh.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/acme.sh.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/acme.sh.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/acme.sh.html
@@ -57,4 +63,4 @@ tldri18n_status: 2
 
 - 将证书文件安装到指定位置（对自动更新证书很有用）：
 
-`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/路径/到/example.com.key</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/路径/到/example.com.cer</span>` --reloadcmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"systemctl force-reload nginx"</span>
+`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/路径/到/example.com.key</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/路径/到/example.com.cer</span>` --reloadcmd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemctl force-reload nginx</span>`"`

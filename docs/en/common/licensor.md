@@ -2,8 +2,12 @@
 layout: page
 title: common/licensor (English)
 description: "Write licenses to `stdout`."
-content_hash: 9498bb4e385038a2a62542449a1064c922764b3b
-last_modified_at: 2023-11-12
+content_hash: d3af2304330d918ff6d4eff5f4226f72ca4b81fa
+last_modified_at: 2024-12-05
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/licensor.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # licensor
@@ -21,7 +25,7 @@ More information: <https://github.com/raftario/licensor>.
 
 - Specify a copyright holder named Bobby Tables:
 
-`licensor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MIT</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"Bobby Tables"</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LICENSE</span>
+`licensor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MIT</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Bobby Tables</span>`" > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LICENSE</span>
 
 - Specify licence exceptions with a WITH expression:
 

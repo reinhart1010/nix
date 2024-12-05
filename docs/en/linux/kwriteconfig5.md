@@ -2,8 +2,12 @@
 layout: page
 title: linux/kwriteconfig5 (English)
 description: "Write KConfig entries for KDE Plasma."
-content_hash: 2e8ac0b9d5b5c88b856c8320452d685cfd764a22
-last_modified_at: 2023-11-12
+content_hash: 627b2be13dc382dc78491e0faf1c68bb14e0775d
+last_modified_at: 2024-12-05
+related_topics:
+  - title: 한국어 version
+    url: /ko/linux/kwriteconfig5.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # kwriteconfig5
@@ -37,4 +41,4 @@ More information: <https://userbase.kde.org/KDE_System_Administration/Configurat
 
 - Configure KRunner to open with the Meta (Command/Windows) global hotkey:
 
-`kwriteconfig5 --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.config/kwinrc</span>` --group `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ModifierOnlyShortcuts</span>` --key `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Meta</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"org.kde.kglobalaccel,/component/krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch"</span>
+`kwriteconfig5 --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.config/kwinrc</span>` --group `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ModifierOnlyShortcuts</span>` --key `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Meta</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.kde.kglobalaccel,/component/krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch</span>`"`

@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (한국어)
 description: "파일이나 디렉토리의 연결 권한 변경."
-content_hash: bcdc3c48c26e18e0c195413d337d5a35aaed59ff
-last_modified_at: 2024-11-27
+content_hash: 2426c88c2878f1c9882337c13cbeb3a20e457cc0
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -52,7 +52,7 @@ tldri18n_status: 2
 # chmod
 
 파일이나 디렉토리의 연결 권한 변경.
-더 많은 정보: <https://www.gnu.org/software/coreutils/chmod>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - 파일을 소유한 사용자[u]에게 실행[x] 권한 부여:
 

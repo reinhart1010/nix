@@ -2,8 +2,8 @@
 layout: page
 title: linux/swaybg (한국어)
 description: "Wayland 합성기용 배경화면 도구."
-content_hash: 3df436bde9fe753461a479ce8f7e46dafc772e09
-last_modified_at: 2024-11-12
+content_hash: fd17d5b376ebea0980333306ba3a625fefdc2169
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/linux/swaybg.html
@@ -25,4 +25,4 @@ Wayland 합성기용 배경화면 도구.
 
 - 배경화면을 고정된 [c]색상으로 설정:
 
-`swaybg --color `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"#rrggbb"</span>
+`swaybg --color "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">#rrggbb</span>`"`

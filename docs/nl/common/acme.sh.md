@@ -2,8 +2,8 @@
 layout: page
 title: common/acme.sh (Nederlands)
 description: "Shell-script dat het ACME-clientprotocol implementeert, een alternatief voor `certbot`."
-content_hash: db3ac6fd29f0836cf8bb7a8cac096a8570619cad
-last_modified_at: 2024-06-19
+content_hash: f45808ee9a195fe499b49403b8fa88f93dd9b9b1
+last_modified_at: 2024-12-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/acme.sh.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/acme.sh.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/acme.sh.html
@@ -60,4 +63,4 @@ Meer informatie: <https://github.com/acmesh-official/acme.sh>.
 
 - Installeer certificaatbestanden op de opgegeven locaties (handig voor automatische certificaatvernieuwing):
 
-`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorbeeld.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/voorbeeld.com.key</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/voorbeeld.com.cer</span>` --reloadcmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"systemctl force-reload nginx"</span>
+`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorbeeld.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/voorbeeld.com.key</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/voorbeeld.com.cer</span>` --reloadcmd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemctl force-reload nginx</span>`"`

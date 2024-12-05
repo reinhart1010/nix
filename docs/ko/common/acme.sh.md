@@ -2,8 +2,8 @@
 layout: page
 title: common/acme.sh (한국어)
 description: "`certbot`의 대안으로 ACME 클라이언트 프로토콜을 구현하는 쉘 스크립트."
-content_hash: 7c0c0d70db0b28658ffbbb15d937ba9e0ebdfd48
-last_modified_at: 2024-09-05
+content_hash: 7f10c7d3ccf584a74ad26463c072eaa91b1db903
+last_modified_at: 2024-12-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh.html
@@ -63,4 +63,4 @@ tldri18n_status: 2
 
 - 지정된 위치에 인증서 파일 설치 (자동 인증서 갱신에 장점이 있음):
 
-`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/example.com.key</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/example.com.cer</span>` --reloadcmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"systemctl force-reload nginx"</span>
+`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/example.com.key</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/example.com.cer</span>` --reloadcmd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemctl force-reload nginx</span>`"`

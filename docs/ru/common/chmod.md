@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (русский)
 description: "Изменить права доступа файлу или папке."
-content_hash: 75afda81fb9baed313fcc7d11516ee577f0a521a
-last_modified_at: 2023-11-12
+content_hash: 878a051f8a497991683bc1df9e1e5c5076e805e7
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -52,7 +52,7 @@ tldri18n_status: 2
 # chmod
 
 Изменить права доступа файлу или папке.
-Больше информации: <https://www.gnu.org/software/coreutils/chmod>.
+Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Дать пользователю ([u]ser), который владеет файлом, права на его исполнение (e[x]ecute):
 

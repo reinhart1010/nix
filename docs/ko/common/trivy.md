@@ -2,8 +2,8 @@
 layout: page
 title: common/trivy (한국어)
 description: "컨테이너 이미지, 파일 시스템 및 Git 저장소의 취약점과 구성 문제를 스캔하는 도구."
-content_hash: 3d427222abb11d43974a1c82ad37d58437c3d27d
-last_modified_at: 2024-11-10
+content_hash: 8a3d9d392bfb64783bc9294d83dcf3efa25ef3e8
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/trivy.html
@@ -45,4 +45,4 @@ tldri18n_status: 2
 
 - SARIF 템플릿으로 출력 생성:
 
-`trivy image --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template</span>` --template `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"@sarif.tpl"</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/보고서.sarif</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지:태그</span>
+`trivy image --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template</span>` --template "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@sarif.tpl</span>`" -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/보고서.sarif</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지:태그</span>

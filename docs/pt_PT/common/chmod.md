@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (português (Portugal))
 description: "Alterar as permissões de acesso a um ficheiro ou diretório."
-content_hash: 33ef6aadc02f78ef90d3644133b7dc2d6a26e382
-last_modified_at: 2023-12-28
+content_hash: 8a252dbeb8229510d1e6d03e71946521586e245b
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -55,7 +55,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># chmod
 
 Alterar as permissões de acesso a um ficheiro ou diretório.
-Mais informações: <https://www.gnu.org/software/coreutils/chmod>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Dá a um [u]tilizador que possui um ficheiro o direito a e[x]ecutá-lo:
 

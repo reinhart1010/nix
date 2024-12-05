@@ -2,11 +2,14 @@
 layout: page
 title: common/read (español)
 description: "Shell builtin para recuperar datos de `stdin`."
-content_hash: 68db8fe01eef9d5482b974777a46d131f677ac90
-last_modified_at: 2024-09-22
+content_hash: 91d8af7cf02bbeb33b655feb3fb3be1a753dacb8
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/read.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/read.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/read.html
@@ -32,7 +35,7 @@ Más información: <https://manned.org/read.1p>.
 
 - Asigna varios valores a varias variables:
 
-`read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ variable1 _ variable2</span>` <<< `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"El apellido es Bond"</span>
+`read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ variable1 _ variable2</span>` <<< "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">El apellido es Bond"</span>`"`
 
 - No dejes que la barra invertida (\) actúe como carácter de escape:
 

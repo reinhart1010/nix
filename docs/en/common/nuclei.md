@@ -2,8 +2,12 @@
 layout: page
 title: common/nuclei (English)
 description: "Fast and customizable vulnerability scanner based on a simple YAML based DSL."
-content_hash: 053c18aeea32af366533021a74ebc25dd49e40df
-last_modified_at: 2024-08-24
+content_hash: 4c61b77cc1b01f37efc1bb1f102760c836ca9010
+last_modified_at: 2024-12-05
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/nuclei.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # nuclei
@@ -41,4 +45,4 @@ More information: <https://docs.projectdiscovery.io/tools/nuclei/overview>.
 
 - Run scan based on one or more [t]emplate [c]onditions:
 
-`nuclei -tc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"contains(tags, 'xss') && contains(tags, 'cve')"</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://vulnerable.website</span>
+`nuclei -tc "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contains(tags, 'xss') && contains(tags, 'cve')</span>`" -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://vulnerable.website</span>

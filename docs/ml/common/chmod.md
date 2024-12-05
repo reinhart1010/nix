@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (മലയാളം)
 description: "ഒരു ഫയലിന്റെയോ ഡയറക്ടറിയുടെയോ പ്രവേശന അനുമതികൾ മാറ്റുക."
-content_hash: e68e4119ac378e64c0a0d1e08a8cb7ae6bb00291
-last_modified_at: 2023-11-12
+content_hash: 7243fa03d6bff0ca5d94eec048e70dc16668fd66
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -52,7 +52,7 @@ tldri18n_status: 2
 # chmod
 
 ഒരു ഫയലിന്റെയോ ഡയറക്ടറിയുടെയോ പ്രവേശന അനുമതികൾ മാറ്റുക.
-കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/chmod>.
+കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - ഒരു ഫയൽ കൈവശമുള്ള [u]ser-ന് അത് e[x]ecute ചെയ്യാനുള്ള അവകാശം നൽകുക:
 

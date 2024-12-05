@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (中文 (繁體, 台灣))
 description: "修改文件或目錄的存取權限。"
-content_hash: 4d43947c72bcc8f17fb1a0f9e807cb1d7d24d269
-last_modified_at: 2023-11-12
+content_hash: 30eef8647a7d71367880620640741b32c7b859ab
+last_modified_at: 2024-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -53,7 +53,7 @@ tldri18n_status: 2
 
 修改文件或目錄的存取權限。
 使用者類型分為檔案所有者（u）、檔案所有者之群組（g）、以及其他使用者（o）。
-更多資訊：<https://www.gnu.org/software/coreutils/chmod>.
+更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - 給予文件所有者執行的權限：
 

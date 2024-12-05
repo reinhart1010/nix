@@ -2,8 +2,8 @@
 layout: page
 title: common/acme.sh (বাংলা)
 description: "ACME ক্লায়েন্ট প্রোটোকল প্রয়োজনীয় স্ক্রিপ্ট, `certbot` এর একটি বিকল্প।"
-content_hash: a82e596c2564241f00fb7ee3c6c9921c21d2193e
-last_modified_at: 2023-12-03
+content_hash: e5dda744450b728c0025bb79ce9b0da4f88f0f0d
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/acme.sh.html
@@ -13,6 +13,12 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/acme.sh.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/acme.sh.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/acme.sh.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/acme.sh.html
@@ -57,4 +63,4 @@ ACME ক্লায়েন্ট প্রোটোকল প্রয়ো�
 
 - নির্দিষ্ট অবস্থানে সার্টিফিকেট ফাইল ইনস্টল করুন (স্বয়ংক্রিয় সার্টিফিকেট পুনরারম্ভের জন্য উপযুক্ত):
 
-`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/পথ/থেকে/উদাহরণ.কম.কি</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/পথ/থেকে/উদাহরণ.কম.সিআর</span>` --reloadcmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"systemctl force-reload nginx"</span>
+`acme.sh --install-cert -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` --key-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/পথ/থেকে/উদাহরণ.কম.কি</span>` --fullchain-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/পথ/থেকে/উদাহরণ.কম.সিআর</span>` --reloadcmd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemctl force-reload nginx</span>`"`

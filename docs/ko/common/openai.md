@@ -2,8 +2,8 @@
 layout: page
 title: common/openai (한국어)
 description: "OpenAI API에 접근할 수 있는 CLI 도구."
-content_hash: d47f7bd4c0be2efef1c58f486b00abaf2546a723
-last_modified_at: 2024-11-06
+content_hash: ef24819db95d50ae5feb4bbfd4076237fa6bec55
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/openai.html
@@ -21,7 +21,7 @@ OpenAI API에 접근할 수 있는 CLI 도구.
 
 - 완료 생성:
 
-`openai api completions.create --model `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ada</span>` --prompt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"Hello world"</span>
+`openai api completions.create --model `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ada</span>` --prompt "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello world</span>`"`
 
 - 채팅 완료 생성:
 
@@ -29,4 +29,4 @@ OpenAI API에 접근할 수 있는 CLI 도구.
 
 - DALL·E API를 통해 이미지 생성:
 
-`openai api image.create --prompt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"two dogs playing chess, cartoon"</span>` --num-images `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`openai api image.create --prompt "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">two dogs playing chess, cartoon</span>`" --num-images `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
