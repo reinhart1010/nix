@@ -3,7 +3,7 @@ layout: page
 title: common/zipgrep (中文)
 description: "在 Zip 压缩档案中的文件中使用扩展正则表达式查找模式（支持 `?`、`+`、`{}`、`()` 和 `|`）。"
 content_hash: 609be3dbf31f19d5e952635123b4e6d725e0e2de
-last_modified_at: 2024-12-04
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/zipgrep.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/zipgrep.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zipgrep.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zipgrep
+# zipgrep
 
 在 Zip 压缩档案中的文件中使用扩展正则表达式查找模式（支持 `?`、`+`、`{}`、`()` 和 `|`）。
 更多信息：<https://manned.org/zipgrep>.

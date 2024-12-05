@@ -3,7 +3,7 @@ layout: page
 title: common/zipcloak (中文)
 description: "加密 Zip 压缩档案内的内容。"
 content_hash: 830a821aae663afc13e5f1c067370ef0ff6c03c3
-last_modified_at: 2024-12-04
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/zipcloak.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/zipcloak.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zipcloak.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zipcloak
+# zipcloak
 
 加密 Zip 压缩档案内的内容。
 更多信息：<https://manned.org/zipcloak>.

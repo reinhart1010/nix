@@ -3,7 +3,7 @@ layout: page
 title: common/zapier-push (中文)
 description: "构建并上传一个 Zapier 集成。"
 content_hash: 4e9e1e44dd6ac8a1492d84b00b86bb7b82a7bf2a
-last_modified_at: 2024-12-04
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/zapier-push.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/zapier-push.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zapier-push.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zapier push
+# zapier push
 
 构建并上传一个 Zapier 集成。
 更多信息：<https://platform.zapier.com/reference/cli#push>.

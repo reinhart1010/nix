@@ -3,23 +3,14 @@ layout: page
 title: linux/tmt-run (中文)
 description: "执行测试步骤。默认情况下，所有测试步骤都被执行。"
 content_hash: ab914a3e904cf2f000dfb0cbc6b0e35e7c005405
-last_modified_at: 2024-12-04
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/linux/tmt-run.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/tmt-run.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tmt run
+# tmt run
 
 执行测试步骤。默认情况下，所有测试步骤都被执行。
 更多信息：<https://tmt.readthedocs.io/en/stable/overview.html#run>.

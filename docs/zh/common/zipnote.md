@@ -3,7 +3,7 @@ layout: page
 title: common/zipnote (中文)
 description: "查看、添加或编辑 Zip 压缩包的注释。"
 content_hash: 955ec5e4719926c852fc068aaab428b2e954dc2d
-last_modified_at: 2024-12-04
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/zipnote.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/zipnote.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zipnote.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zipnote
+# zipnote
 
 查看、添加或编辑 Zip 压缩包的注释。
 文件在 Zip 压缩包中也可以被重命名。

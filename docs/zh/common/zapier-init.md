@@ -3,7 +3,7 @@ layout: page
 title: common/zapier-init (中文)
 description: "初始化一个新的 Zapier 集成。"
 content_hash: dc87a1bf6ccad00f6167e6945cc90a1e9d2af655
-last_modified_at: 2024-12-04
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/zapier-init.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/zapier-init.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zapier-init.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zapier init
+# zapier init
 
 初始化一个新的 Zapier 集成。
 更多信息：<https://platform.zapier.com/reference/cli#init>.

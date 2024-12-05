@@ -3,7 +3,7 @@ layout: page
 title: common/brew-list (Indonesia)
 description: "Tampilkan daftar formula/cask atau berkas-berkas terkait yang terpasang dalam perangkat saat ini."
 content_hash: 4e58cfee961ceb7d806637ccd62954c2b206cb37
-last_modified_at: 2024-10-27
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/brew-list.html
@@ -11,9 +11,12 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/brew-list.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# brew list
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># brew list
 
 Tampilkan daftar formula/cask atau berkas-berkas terkait yang terpasang dalam perangkat saat ini.
 Informasi lebih lanjut: <https://docs.brew.sh/Manpage#list-ls-options-installed_formulainstalled_cask->.

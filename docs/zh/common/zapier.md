@@ -3,7 +3,7 @@ layout: page
 title: common/zapier (中文)
 description: "创建、自动化并管理 Zapier 集成。"
 content_hash: c2ed8b87b88c582d3a975c6b6f968892e3ca5fb8
-last_modified_at: 2024-12-04
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/zapier.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/zapier.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zapier.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zapier
+# zapier
 
 创建、自动化并管理 Zapier 集成。
 此命令也有关于其子命令的文件，例如：`build`，`init`，`scaffold`，`push`，`test`，等。

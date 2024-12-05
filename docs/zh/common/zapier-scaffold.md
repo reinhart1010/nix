@@ -3,7 +3,7 @@ layout: page
 title: common/zapier-scaffold (中文)
 description: "添加一个起始 {触发器}、{创建}、{搜索} 或 {资源} 到一个集成。"
 content_hash: 5c22768fe898e8646a56278ff6c91c0d47cac211
-last_modified_at: 2024-12-04
+last_modified_at: 2024-12-05
 related_topics:
   - title: English version
     url: /en/common/zapier-scaffold.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/zapier-scaffold.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/zapier-scaffold.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># zapier scaffold
+# zapier scaffold
 
 添加一个起始 {触发器}、{创建}、{搜索} 或 {资源} 到一个集成。
 更多信息：<https://platform.zapier.com/reference/cli#scaffold>.
