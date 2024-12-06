@@ -2,9 +2,12 @@
 layout: page
 title: common/fd (English)
 description: "An alternative to `find`."
-content_hash: 274e4252b443a30ee578f40b286966cd1b88fff3
-last_modified_at: 2023-11-12
+content_hash: 19e319a3d6f5e70a1e70aba4d4e24460a8a1adc6
+last_modified_at: 2024-12-06
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/fd.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/fd.html
     icon: bi bi-globe
@@ -20,13 +23,13 @@ More information: <https://github.com/sharkdp/fd>.
 
 `fd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string|regex</span>`"`
 
-- Find files that begin with `foo`:
+- Find files that begin with a specific string:
 
-`fd "^foo"`
+`fd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^string</span>`"`
 
 - Find files with a specific extension:
 
-`fd --extension txt`
+`fd --extension `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span>
 
 - Find files in a specific directory:
 
