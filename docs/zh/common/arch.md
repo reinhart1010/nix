@@ -2,8 +2,8 @@
 layout: page
 title: common/arch (中文)
 description: "展示系统架构的名称。"
-content_hash: 57738e10638adaefbef7378b64b2a4633fe2cc1f
-last_modified_at: 2023-11-12
+content_hash: c60c0db001612d0642219702ef74c10e74b58248
+last_modified_at: 2024-12-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/arch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/arch.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/arch.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arch.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 展示系统架构的名称。
 另见`uname`.
-更多信息：<https://www.gnu.org/software/coreutils/arch>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
 
 - 展示系统架构：
 

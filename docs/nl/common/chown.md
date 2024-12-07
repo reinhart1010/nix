@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (Nederlands)
 description: "Verander gebruiker- en groepsbeheer van bestanden en mappen."
-content_hash: 33dc8e92eabf4bf3831a2ce7b180f80e2acc1daf
-last_modified_at: 2024-05-04
+content_hash: 24800814ae0dfdc370bace0b1b8d4a5639f1ca64
+last_modified_at: 2024-12-07
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # chown
 
 Verander gebruiker- en groepsbeheer van bestanden en mappen.
-Meer informatie: <https://www.gnu.org/software/coreutils/chown>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Verander gebruikkersbeheerder van een bestand/map:
 

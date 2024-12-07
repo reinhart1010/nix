@@ -2,8 +2,8 @@
 layout: page
 title: common/arch (English)
 description: "Display the name of the system architecture."
-content_hash: c8c1b41d15c1dfe70afb7a80c7fe104639fa8cdc
-last_modified_at: 2023-11-12
+content_hash: 7163ef9df9a6b7a23dac15abb2d943714b6a79e0
+last_modified_at: 2024-12-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/arch.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/arch.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/arch.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arch.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 Display the name of the system architecture.
 See also `uname`.
-More information: <https://www.gnu.org/software/coreutils/arch>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
 
 - Display the system's architecture:
 

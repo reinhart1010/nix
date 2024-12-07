@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (français)
 description: "Un archiveur de fichiers avec un haut taux de compression."
-content_hash: c93f9f2db03e76f5cdebb1dfc5ee9abaf27f8244
-last_modified_at: 2024-03-14
+content_hash: 1e8e0b3bb7000ea5fd077533cc58876fa30daae2
+last_modified_at: 2024-12-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/common/7zr.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/7zr.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7zr.html
@@ -58,7 +61,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># 7zr
 
 Un archiveur de fichiers avec un haut taux de compression.
-Similaire à `7z` sauf qu'il supporte que les fichiers 7z.
+Similaire à `7z` sauf qu'il ne supporte que les fichiers 7z.
 Plus d'informations : <https://manned.org/7zr>.
 
 - Compresse un fichier ou un dossier :
@@ -84,3 +87,7 @@ Plus d'informations : <https://manned.org/7zr>.
 - Liste le contenu d'une archive :
 
 `7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.7z</span>
+
+- Définit le niveau de compression (plus il est élevé, plus la compression est importante, mais plus elle est lente) :
+
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.7z</span>` -mx=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_dossier</span>

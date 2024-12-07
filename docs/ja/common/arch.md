@@ -2,8 +2,8 @@
 layout: page
 title: common/arch (日本語)
 description: "システムアーキテクチャ名前を示する。"
-content_hash: 7cb73fdbf50379804d6c74a671cc8c9718eeb853
-last_modified_at: 2023-11-12
+content_hash: 81fe96064125c2d050321197776efbf8e18f4a1b
+last_modified_at: 2024-12-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/arch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/arch.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/arch.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arch.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 システムアーキテクチャ名前を示する。
 'uname' も参照してください。
-詳しくはこちら: <https://www.gnu.org/software/coreutils/arch>
+詳しくはこちら: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>
 
 - システムアーキテクチャを示する:
 

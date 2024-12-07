@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (English)
 description: "Change user and group ownership of files and directories."
-content_hash: e7a520ef0fa0ccbc9337f87fec334f420504ba52
-last_modified_at: 2024-04-19
+content_hash: e597bae470fce225070f04a675bddb53f2483502
+last_modified_at: 2024-12-07
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # chown
 
 Change user and group ownership of files and directories.
-More information: <https://www.gnu.org/software/coreutils/chown>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Change the owner user of a file/directory:
 

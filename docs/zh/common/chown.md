@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (中文)
 description: "修改用户和用户组对文件或目录的所有权。"
-content_hash: 4043262a9249647b26d2745dcb5097415369071e
-last_modified_at: 2024-11-28
+content_hash: 19900c466f885b15428cdeacc73dcda607b096a8
+last_modified_at: 2024-12-07
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # chown
 
 修改用户和用户组对文件或目录的所有权。
-更多信息：<https://www.gnu.org/software/coreutils/chown>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - 修改文件或目录的所有者：
 

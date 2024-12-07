@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (فارسی)
 description: "مالک فایل یا پوشه را تغییر میدهد."
-content_hash: f8ffa6d426ab51d31557cff23dcdeb0039a4a3d4
-last_modified_at: 2024-02-28
+content_hash: abf3f1bb5187bec35d26dba14924da82b86fb8dc
+last_modified_at: 2024-12-07
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -43,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># chown
 
 مالک فایل یا پوشه را تغییر میدهد.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/chown>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - تغییر مالک یه فایل یا پوشه:
 

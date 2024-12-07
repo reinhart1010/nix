@@ -2,8 +2,12 @@
 layout: page
 title: common/tesseract (English)
 description: "OCR (Optical Character Recognition) engine."
-content_hash: 9552afac7fbfe5ae66d021b5e238f77e0b766ae4
-last_modified_at: 2023-11-12
+content_hash: e94b360e75e2a6ac51f42f5ba66793f65b6bdf50
+last_modified_at: 2024-12-07
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/tesseract.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # tesseract
@@ -25,7 +29,7 @@ More information: <https://github.com/tesseract-ocr/tesseract>.
 
 - Specify a custom page segmentation mode (default is 3):
 
-`tesseract -psm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0_to_10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output</span>
+`tesseract --psm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0_to_10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output</span>
 
 - List page segmentation modes and their descriptions:
 

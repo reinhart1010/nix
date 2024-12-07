@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (español)
 description: "Cambia la propiedad de usuario y grupo de archivos y directorios."
-content_hash: 54ea24f54c9d2d72a7d94e23a32d9b52ccb8a6ff
-last_modified_at: 2024-11-02
+content_hash: 790399ea8f5b0ab017c92854e59807539a4d2948
+last_modified_at: 2024-12-07
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # chown
 
 Cambia la propiedad de usuario y grupo de archivos y directorios.
-Más información: <https://www.gnu.org/software/coreutils/chown>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Cambia el usuario propietario de un archivo/directorio:
 

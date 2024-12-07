@@ -2,8 +2,8 @@
 layout: page
 title: common/arch (svenska)
 description: "Visa namnet på systemarkitekturen."
-content_hash: 4972535e1728359cc81407fdfdaaa39f5f24a8c1
-last_modified_at: 2023-11-12
+content_hash: 21b522356ddec4fd9c1dc4b90e1914150836e376
+last_modified_at: 2024-12-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/arch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/arch.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/arch.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arch.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 Visa namnet på systemarkitekturen.
 Se även `uname`.
-Mer information: <https://www.gnu.org/software/coreutils/arch>.
+Mer information: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
 
 - Visa systemarkitekturen:
 

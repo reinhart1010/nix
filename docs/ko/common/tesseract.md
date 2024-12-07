@@ -2,8 +2,8 @@
 layout: page
 title: common/tesseract (한국어)
 description: "OCR (Optical Character Recognition) 엔진."
-content_hash: c1df82f6feb7b10b7b9d1eeaa99147e026b4991b
-last_modified_at: 2024-11-10
+content_hash: f612683e8ef0471fbd4cfb635f9ed3bab748b0d7
+last_modified_at: 2024-12-07
 related_topics:
   - title: English version
     url: /en/common/tesseract.html
@@ -29,7 +29,7 @@ OCR (Optical Character Recognition) 엔진.
 
 - 사용자 정의 페이지 세분화 모드 지정 (기본값은 3):
 
-`tesseract -psm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0에서_10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력</span>
+`tesseract --psm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0에서_10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력</span>
 
 - 페이지 세분화 모드 및 설명 나열:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/arch (Türkçe)
 description: "Sistem mimarisinin ismini göster."
-content_hash: 9c9f357064bc65c5570307421574c9fcbf77b28e
-last_modified_at: 2023-11-12
+content_hash: aacfbd2289afec27b5f29d2ac4cebd55fb4c889a
+last_modified_at: 2024-12-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/arch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/arch.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/arch.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arch.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 Sistem mimarisinin ismini göster.
 Ayrıca bakınız: `uname`.
-Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/arch>.
+Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
 
 - Sistemin mimarisini göster:
 

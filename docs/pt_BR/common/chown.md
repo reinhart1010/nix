@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (português (Brasil))
 description: "Muda o usuário e grupo donos de arquivos e diretórios."
-content_hash: 7eb76dec9e3cac5200f2a307f6f1ede688001609
-last_modified_at: 2024-04-19
+content_hash: ccb1a9699340dc3d115f844e6e0fe0922a3622ad
+last_modified_at: 2024-12-07
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -43,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># chown
 
 Muda o usuário e grupo donos de arquivos e diretórios.
-Mais informações: <https://www.gnu.org/software/coreutils/chown>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Muda o usuário que é dono de um arquivo ou diretório:
 

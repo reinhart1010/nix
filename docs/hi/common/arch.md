@@ -2,8 +2,8 @@
 layout: page
 title: common/arch (हिन्दी)
 description: "सिस्टम आर्किटेक्चर का नाम प्रदर्शित करें।"
-content_hash: c043b2d17c0dc7ea87dafce122d855753b49b763
-last_modified_at: 2023-11-12
+content_hash: f7462266416d309d3594e992236824bb3be4092b
+last_modified_at: 2024-12-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/arch.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/arch.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/arch.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arch.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 सिस्टम आर्किटेक्चर का नाम प्रदर्शित करें।
 `uname` भी देखें।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/arch>।
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>।
 
 - सिस्टम आर्किटेक्चर प्रदर्शित करें:
 

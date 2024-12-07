@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (italiano)
 description: "Cambia utente e gruppo proprietario di file e directory."
-content_hash: 942b2117cb20e24d49c7799a7d28ca023e4f94ff
-last_modified_at: 2024-02-28
+content_hash: 16eae90192912b1b686191e49ae8063e5ed5c3c9
+last_modified_at: 2024-12-07
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -43,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># chown
 
 Cambia utente e gruppo proprietario di file e directory.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/chown>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Cambia l'utente proprietario di un file/directory:
 

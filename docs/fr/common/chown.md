@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (français)
 description: "Modifie l'utilisateur et le groupe propriétaire des fichiers et dossiers."
-content_hash: 5b57e8e4392839ac7d98b3b857d56cecbc619691
-last_modified_at: 2024-09-07
+content_hash: 53f9e04be80679f5bf8ef7627abe7b1d37927ca0
+last_modified_at: 2024-12-07
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # chown
 
 Modifie l'utilisateur et le groupe propriétaire des fichiers et dossiers.
-Plus d'informations : <https://www.gnu.org/software/coreutils/chown>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Modifie le propriétaire d'un fichier/dossier :
 

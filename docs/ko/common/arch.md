@@ -2,8 +2,8 @@
 layout: page
 title: common/arch (한국어)
 description: "시스템 구조의 이름을 보여줍니다."
-content_hash: bb7f65423ef3bed938e858891a74402b02785051
-last_modified_at: 2023-11-12
+content_hash: c7a6878d143230add41cddffe5ab9206a2a24a85
+last_modified_at: 2024-12-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/arch.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/arch.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/arch.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arch.html
@@ -50,7 +53,7 @@ tldri18n_status: 2
 
 시스템 구조의 이름을 보여줍니다.
 `uname` 도 같이 보세요.
-더 많은 정보: <https://www.gnu.org/software/coreutils/arch>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
 
 - 시스템 구조 보여주기:
 

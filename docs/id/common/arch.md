@@ -2,8 +2,8 @@
 layout: page
 title: common/arch (Indonesia)
 description: "Tampilkan nama arsitektur sistem saat ini."
-content_hash: 012ddb0ff7b063bb8baae0ed3df93124aed50f29
-last_modified_at: 2024-06-15
+content_hash: 8a01ae51707ae3b6133e302d7a64a447ed5f1dec
+last_modified_at: 2024-12-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/arch.html
@@ -53,7 +53,7 @@ tldri18n_status: 2
 
 Tampilkan nama arsitektur sistem saat ini.
 Lihat juga: `uname`.
-Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/arch>.
+Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
 
 - Tampilkan informasi arsitektur sistem saat ini:
 

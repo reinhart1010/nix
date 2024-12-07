@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (polski)
 description: "Zmienia właściciela i grupę właścicieli dla plików i katalogów."
-content_hash: b3afa6f07d91ac268deb7b6206ad8402ae668f6e
-last_modified_at: 2024-02-28
+content_hash: e019fd1f1a291d120206c211c9d0f0e523066fee
+last_modified_at: 2024-12-07
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -43,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># chown
 
 Zmienia właściciela i grupę właścicieli dla plików i katalogów.
-Więcej informacji: <https://www.gnu.org/software/coreutils/chown>.
+Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Zmień właściciela pliku/katalogu:
 

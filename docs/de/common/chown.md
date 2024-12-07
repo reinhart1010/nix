@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (Deutsch)
 description: "Ändere den Besitzer und die Besitzergruppe von Dateien und Verzeichnissen."
-content_hash: 6054e3d7c6f8aa1609ce45107cb6271f9658bf74
-last_modified_at: 2024-04-19
+content_hash: e37a10d1c0eddf991df289a197883c09c3a51bca
+last_modified_at: 2024-12-07
 related_topics:
   - title: English version
     url: /en/common/chown.html
@@ -43,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># chown
 
 Ändere den Besitzer und die Besitzergruppe von Dateien und Verzeichnissen.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/chown>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Ändere den Besitzer einer Datei/eines Verzeichnisses:
 
