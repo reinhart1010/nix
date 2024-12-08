@@ -3,7 +3,7 @@ layout: page
 title: common/podman-image (español)
 description: "Gestiona imágenes Docker."
 content_hash: ac6d5fa22e624a75408a2c94585b83496a2862db
-last_modified_at: 2024-12-07
+last_modified_at: 2024-12-08
 related_topics:
   - title: English version
     url: /en/common/podman-image.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/podman-image.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/podman-image.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># podman image
+# podman image
 
 Gestiona imágenes Docker.
 Vea también: `podman build`, `podman import` y `podman pull`.

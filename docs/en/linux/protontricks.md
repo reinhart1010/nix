@@ -2,9 +2,12 @@
 layout: page
 title: linux/protontricks (English)
 description: "A simple wrapper that runs Winetricks commands for Proton enabled games."
-content_hash: 932cdcada5c0ca236793adcb2b88ea884b9fff56
-last_modified_at: 2024-01-30
+content_hash: 65172c41a9ae036ae0b15e24e92c1e56d72b5861
+last_modified_at: 2024-12-08
 related_topics:
+  - title: 한국어 version
+    url: /ko/linux/protontricks.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/protontricks.html
     icon: bi bi-globe
@@ -37,6 +40,10 @@ More information: <https://github.com/Matoking/protontricks>.
 - [s]earch for a game's App ID by name:
 
 `protontricks -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">game_name</span>
+
+- Run an executable in the proton environment of a specific game:
+
+`protontricks-launch --appid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">appid</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable.exe</span>
 
 - Display help:
 

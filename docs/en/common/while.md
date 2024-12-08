@@ -2,9 +2,12 @@
 layout: page
 title: common/while (English)
 description: "Simple shell loop."
-content_hash: 2dc331e80b2571c7ced27b3b0f65e30ea006a5a4
-last_modified_at: 2023-11-12
+content_hash: ebe22016ee5e8274e5e529df0611aa10a3bfce9c
+last_modified_at: 2024-12-08
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/while.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/while.html
     icon: bi bi-globe
@@ -22,3 +25,7 @@ More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3
 - Execute a command forever once every second:
 
 `while :; do `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`; sleep 1; done`
+
+- Execute a command until it returns a non-zero value:
+
+`while `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`; do :; done`

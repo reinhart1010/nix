@@ -3,23 +3,14 @@ layout: page
 title: common/podman-login (español)
 description: "Inicia sesión en un registro de contenedores (container registry)."
 content_hash: ccc267fde5f4634ca69b27a38487ef942b42ba3f
-last_modified_at: 2024-12-07
+last_modified_at: 2024-12-08
 related_topics:
   - title: English version
     url: /en/common/podman-login.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/podman-login.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># podman login
+# podman login
 
 Inicia sesión en un registro de contenedores (container registry).
 Nota: la ruta predeterminada de archivo de autenticación (authfile) en Linux es `$XDG_RUNTIME_DIR/containers/auth.json`, que generalmente se almacena en un `tmpfs` (en RAM).

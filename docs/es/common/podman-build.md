@@ -3,7 +3,7 @@ layout: page
 title: common/podman-build (español)
 description: "Herramienta que no corre como servicio (daemon) para construir imágenes de contenedores."
 content_hash: 42e5c981d9497ae00be30a5169ddfe0d196ae652
-last_modified_at: 2024-12-07
+last_modified_at: 2024-12-08
 related_topics:
   - title: English version
     url: /en/common/podman-build.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/podman-build.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/podman-build.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># podman build
+# podman build
 
 Herramienta que no corre como servicio (daemon) para construir imágenes de contenedores.
 Podman proporciona una línea de comando comparable con Docker-CLI. En pocas palabras: `alias docker=podman`.

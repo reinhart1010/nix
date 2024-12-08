@@ -3,14 +3,23 @@ layout: page
 title: linux/protontricks (தமிழ்)
 description: "புரோட்டான் இயக்கப்பட்ட கேம்களுக்கான ஒயின்ட்ரிக்ஸ் கட்டளைகளை இயக்கும் எளிய ரேப்பர்."
 content_hash: 2fb279c9fc627dc6a1986ae02499df6c40e73370
-last_modified_at: 2023-11-12
+last_modified_at: 2024-12-08
 related_topics:
   - title: English version
     url: /en/linux/protontricks.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/linux/protontricks.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/protontricks.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# protontricks
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># protontricks
 
 புரோட்டான் இயக்கப்பட்ட கேம்களுக்கான ஒயின்ட்ரிக்ஸ் கட்டளைகளை இயக்கும் எளிய ரேப்பர்.
 மேலும் விவரத்திற்கு: <https://github.com/Matoking/protontricks>.

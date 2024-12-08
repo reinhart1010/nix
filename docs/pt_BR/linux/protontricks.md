@@ -3,17 +3,23 @@ layout: page
 title: linux/protontricks (português (Brasil))
 description: "Um wrapper simples que executa comandos WineTricks para jogos habilitados para o Proton."
 content_hash: 07a594af93ee212d7c05fdf207fd840f36607f6a
-last_modified_at: 2023-12-28
+last_modified_at: 2024-12-08
 related_topics:
   - title: English version
     url: /en/linux/protontricks.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/protontricks.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/protontricks.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# protontricks
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># protontricks
 
 Um wrapper simples que executa comandos WineTricks para jogos habilitados para o Proton.
 Mais informações: <https://github.com/Matoking/protontricks>.

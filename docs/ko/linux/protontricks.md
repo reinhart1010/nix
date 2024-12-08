@@ -3,7 +3,7 @@ layout: page
 title: linux/protontricks (한국어)
 description: "Proton을 지원하는 게임을 위해 Winetricks 명령을 실행하는 간단한 래퍼."
 content_hash: 64ef856ada0617dfbf696951d61f8d43c5cd4621
-last_modified_at: 2024-11-10
+last_modified_at: 2024-12-08
 related_topics:
   - title: English version
     url: /en/linux/protontricks.html
@@ -14,9 +14,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/protontricks.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# protontricks
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># protontricks
 
 Proton을 지원하는 게임을 위해 Winetricks 명령을 실행하는 간단한 래퍼.
 더 많은 정보: <https://github.com/Matoking/protontricks>.

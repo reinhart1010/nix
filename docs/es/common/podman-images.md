@@ -3,7 +3,7 @@ layout: page
 title: common/podman-images (español)
 description: "Gestiona imágenes de Podman."
 content_hash: 26f834c1e305f5396767a48b84ef3de164339a6b
-last_modified_at: 2024-12-07
+last_modified_at: 2024-12-08
 related_topics:
   - title: English version
     url: /en/common/podman-images.html
@@ -14,18 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/podman-images.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/podman-images.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># podman images
+# podman images
 
 Gestiona imágenes de Podman.
 Más información: <https://docs.podman.io/en/latest/markdown/podman-images.1.html>.
