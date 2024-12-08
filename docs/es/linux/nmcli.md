@@ -1,28 +1,65 @@
 ---
 layout: page
 title: linux/nmcli (español)
-description: "Este comando es un alias de `nmcli agent`."
-content_hash: d75a7446527e6ddaa29974a10d660bdb7eeaf273
-last_modified_at: 2023-11-02
+description: "Gestiona la configuración de red usando NetworkManager."
+content_hash: 6a111aad9893ecce10e90322ab56c50ff28fd87c
+last_modified_at: 2024-12-08
 related_topics:
   - title: English version
     url: /en/linux/nmcli.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/nmcli.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/nmcli.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/nmcli.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/nmcli.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/nmcli.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># nmcli
 
-Este comando es un alias de `nmcli agent`.
-Más información: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+Gestiona la configuración de red usando NetworkManager.
+Más información: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
-- Ver documentación para el comando original:
+- Muestra documentación para ejecutar `nmcli` como agente secreto/polkit de NetworkManager:
 
 `tldr nmcli agent`
+
+- Muestra documentación para gestionar conexiones de red:
+
+`tldr nmcli connection`
+
+- Muestra documentación para gestionar interfaces de red y establecer nuevas conexiones WiFi:
+
+`tldr nmcli device`
+
+- Muestra documentación para gestionar los ajustes generales de NetworkManager:
+
+`tldr nmcli general`
+
+- Muestra documentación para el monitor de actividad de NetworkManager:
+
+`tldr nmcli monitor`
+
+- Muestra documentación para habilitar/desactivar y comprobar el estado de las redes:
+
+`tldr nmcli networking`
+
+- Muestra documentación para la gestión de interruptores de radio (radio switches):
+
+`tldr nmcli radio`
