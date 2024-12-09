@@ -2,8 +2,8 @@
 layout: page
 title: common/sha512sum (Nederlands)
 description: "Bereken SHA512 cryptografische checksums."
-content_hash: fceff661bc38f324e80410b06d098082297768fa
-last_modified_at: 2024-11-24
+content_hash: 8f902d0ae32db6fcb589bc4b1f18ddcb0d33cb87
+last_modified_at: 2024-12-09
 related_topics:
   - title: English version
     url: /en/common/sha512sum.html
@@ -50,3 +50,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-u
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
 `sha512sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.sha512</span>
+
+- Controleer een bekende SHA512 checksum van een bestand:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bekende_sha512_checksum_van_het_bestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>` | sha512sum --check`

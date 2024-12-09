@@ -2,8 +2,8 @@
 layout: page
 title: common/b2sum (Nederlands)
 description: "Bereken BLAKE2 cryptografische checksums."
-content_hash: 9c1b4555777ac82854646810fb9f1343a67a0a37
-last_modified_at: 2024-11-24
+content_hash: db9b5720777bdac4a1ed5ce7bdb82fe343e336be
+last_modified_at: 2024-12-09
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -53,3 +53,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/b2sum>.
 - Toon alleen een melding als een verificatie faalt en negeer missende bestanden:
 
 `b2sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.b2</span>
+
+- Controleer een bekende BLAKE2 checksum van een bestand:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bekende_blake2_checksum_van_het_bestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>` | b2sum --check`

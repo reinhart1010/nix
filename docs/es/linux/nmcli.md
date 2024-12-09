@@ -3,7 +3,7 @@ layout: page
 title: linux/nmcli (español)
 description: "Gestiona la configuración de red usando NetworkManager."
 content_hash: 6a111aad9893ecce10e90322ab56c50ff28fd87c
-last_modified_at: 2024-12-08
+last_modified_at: 2024-12-09
 related_topics:
   - title: English version
     url: /en/linux/nmcli.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/nmcli.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/nmcli.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nmcli
+# nmcli
 
 Gestiona la configuración de red usando NetworkManager.
 Más información: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.

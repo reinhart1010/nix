@@ -3,23 +3,14 @@ layout: page
 title: linux/wf-recorder (español)
 description: "Screencast para Wayland opcionalmente con audio."
 content_hash: 6eebdeddf858d988ddd2e7be37c84b03c0a86c1f
-last_modified_at: 2024-12-08
+last_modified_at: 2024-12-09
 related_topics:
   - title: English version
     url: /en/linux/wf-recorder.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/wf-recorder.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wf-recorder
+# wf-recorder
 
 Screencast para Wayland opcionalmente con audio.
 Por defecto necesita terminar el proceso con Ctrl-C.

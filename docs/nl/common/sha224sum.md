@@ -2,8 +2,8 @@
 layout: page
 title: common/sha224sum (Nederlands)
 description: "Bereken SHA224 cryptografische checksums."
-content_hash: eadef02c5719913cb2e4b790465e220b29df622b
-last_modified_at: 2024-11-24
+content_hash: 3f30fc2a6b91e2f9d6faf107d1e782cae1296578
+last_modified_at: 2024-12-09
 related_topics:
   - title: English version
     url: /en/common/sha224sum.html
@@ -50,3 +50,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-u
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
 `sha224sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.sha224</span>
+
+- Controleer een bekende SHA224 checksum van een bestand:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bekende_sha224_checksum_van_het_bestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>` | sha224sum --check`

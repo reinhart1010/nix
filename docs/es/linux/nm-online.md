@@ -3,7 +3,7 @@ layout: page
 title: linux/nm-online (español)
 description: "Pregunte a NetworkManager si la red está conectada."
 content_hash: 9ef782fa2d3c3173e5865caa9b80df31d71525d5
-last_modified_at: 2024-12-08
+last_modified_at: 2024-12-09
 related_topics:
   - title: English version
     url: /en/linux/nm-online.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/nm-online.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/nm-online.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nm-online
+# nm-online
 
 Pregunte a NetworkManager si la red está conectada.
 Más información: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nm-online.html>.

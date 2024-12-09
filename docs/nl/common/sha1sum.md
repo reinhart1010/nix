@@ -2,8 +2,8 @@
 layout: page
 title: common/sha1sum (Nederlands)
 description: "Bereken SHA1 cryptografische checksums."
-content_hash: b3b402493fbc3b21ca69eb717868af1c18072928
-last_modified_at: 2024-11-24
+content_hash: f038d696d0acce32139161fd6661e3267f37f4cf
+last_modified_at: 2024-12-09
 related_topics:
   - title: English version
     url: /en/common/sha1sum.html
@@ -50,3 +50,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/sha1sum>.
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
 `sha1sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.sha1</span>
+
+- Controleer een bekende SHA1 checksum van een bestand:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bekende_sha1_checksum_van_het_bestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>` | sha1sum --check`

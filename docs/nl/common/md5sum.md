@@ -2,8 +2,8 @@
 layout: page
 title: common/md5sum (Nederlands)
 description: "Bereken MD5 cryptografische checksums."
-content_hash: d94691a01ec689a8292459219cd22a7c66445757
-last_modified_at: 2024-11-24
+content_hash: 80e72280eb2ed78a193b373859eddd63335524f1
+last_modified_at: 2024-12-09
 related_topics:
   - title: English version
     url: /en/common/md5sum.html
@@ -53,3 +53,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/md5sum>.
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
 `md5sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.md5</span>
+
+- Controleer een bekende MD5 checksum van een bestand:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bekende_md5_checksum_van_het_bestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>` | md5sum --check`

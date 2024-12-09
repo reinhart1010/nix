@@ -2,8 +2,8 @@
 layout: page
 title: common/sha384sum (Nederlands)
 description: "Bereken SHA384 cryptografische checksums."
-content_hash: 3a9708d9cf01276dab570da8a3006f46d77df9b9
-last_modified_at: 2024-11-24
+content_hash: 46c3077b5ada4828df293c90afcc026658b01286
+last_modified_at: 2024-12-09
 related_topics:
   - title: English version
     url: /en/common/sha384sum.html
@@ -50,3 +50,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-u
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
 `sha384sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.sha384</span>
+
+- Controleer een bekende SHA384 checksum van een bestand:
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bekende_sha384_checksum_van_het_bestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>` | sha384sum --check`

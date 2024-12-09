@@ -3,7 +3,7 @@ layout: page
 title: common/podman (español)
 description: "Herramienta de gestión sencilla para pods, contenedores e imágenes."
 content_hash: f3da3eb7b7ca4483f0649a37f8301554fbf7d486
-last_modified_at: 2024-12-08
+last_modified_at: 2024-12-09
 related_topics:
   - title: English version
     url: /en/common/podman.html
@@ -17,18 +17,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/podman.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/podman.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># podman
+# podman
 
 Herramienta de gestión sencilla para pods, contenedores e imágenes.
 Podman proporciona una línea de comando comparable con Docker-CLI. En pocas palabras: `alias docker=podman`.
