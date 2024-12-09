@@ -1,0 +1,40 @@
+<h1 id="twurl">twurl</h1>
+
+<p>Twitter API에 특화된 Curl과 유사한 명령어.
+더 많은 정보: <a href="https://github.com/twitter/twurl">https://github.com/twitter/twurl</a>.</p>
+
+<ul>
+  <li>Twitter 계정에 대한 접근을 승인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl authorize --consumer-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트위터_API_키</span><code class="language-plaintext highlighter-rouge"> --consumer-secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트위터_API_비밀</span></p>
+
+<ul>
+  <li>API 엔드포인트에 GET 요청 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl -X GET </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트위터_API_엔드포인트</span></p>
+
+<ul>
+  <li>API 엔드포인트에 POST 요청 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl -X POST -d '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">엔드포인트_파라미터</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트위터_API_엔드포인트</span></p>
+
+<ul>
+  <li>Twitter에 미디어 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl -H "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트위터_업로드_URL</span><code class="language-plaintext highlighter-rouge">" -X POST "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트위터_업로드_엔드포인트</span><code class="language-plaintext highlighter-rouge">" --file "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/미디어.jpg</span><code class="language-plaintext highlighter-rouge">" --file-field "media"</code></p>
+
+<ul>
+  <li>다른 Twitter API 호스트에 접근:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트위터_API_URL</span><code class="language-plaintext highlighter-rouge"> -X GET </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트위터_API_엔드포인트</span></p>
+
+<ul>
+  <li>요청한 리소스에 대한 별칭 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">별칭_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스</span></p>

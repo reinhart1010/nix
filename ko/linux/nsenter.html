@@ -1,0 +1,44 @@
+<h1 id="nsenter">nsenter</h1>
+
+<p>실행 중인 프로세스의 네임스페이스에서 새로운 명령을 실행합니다.
+Docker 이미지나 chroot 감옥에 특히 유용합니다.
+더 많은 정보: <a href="https://manned.org/nsenter">https://manned.org/nsenter</a>.</p>
+
+<ul>
+  <li>특정 프로세스와 동일한 네임스페이스를 사용하여 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_인수</span></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>특정 프로세스의 마운트</td>
+          <td>UTS</td>
+          <td>IPC</td>
+          <td>네트워크</td>
+          <td>PID</td>
+          <td>사용자</td>
+          <td>cgroup</td>
+          <td>시간 네임스페이스에서 명령 실행:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mount|uts|ipc|net|pid|user|cgroup</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_인수</span></p>
+
+<ul>
+  <li>특정 프로세스의 UTS, 시간, IPC 네임스페이스에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> --uts --time --ipc -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_인수</span></p>
+
+<ul>
+  <li>procfs를 참조하여 특정 프로세스의 네임스페이스에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --pid=/proc/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge">/pid/net -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_인수</span></p>

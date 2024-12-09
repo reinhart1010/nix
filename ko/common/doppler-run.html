@@ -1,0 +1,34 @@
+<h1 id="doppler-run">doppler run</h1>
+
+<p>환경에 주입된 Doppler 비밀 정보를 사용하여 명령을 실행.
+더 많은 정보: <a href="https://docs.doppler.com/docs/cli#run-a-command-with-secrets-populated-in-environment">https://docs.doppler.com/docs/cli#run-a-command-with-secrets-populated-in-environment</a>.</p>
+
+<ul>
+  <li>명령어 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doppler run --command </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>다중 명령어 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doppler run --command </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어1 &amp;&amp; 명령어2</span></p>
+
+<ul>
+  <li>스크립트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doppler run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/명령어.sh</span></p>
+
+<ul>
+  <li>지정된 프로젝트 및 구성으로 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doppler run -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성_이름</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>비밀이 변경되면 자동으로 프로세스를 다시 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doppler run --watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>

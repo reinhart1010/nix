@@ -1,0 +1,53 @@
+<h1 id="tailscale">tailscale</h1>
+
+<p>A private WireGuard network service.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">up</code> have their own usage documentation.
+More information: <a href="https://tailscale.com">https://tailscale.com</a>.</p>
+
+<ul>
+  <li>Connect to Tailscale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale up</code></p>
+
+<ul>
+  <li>Disconnect from Tailscale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale down</code></p>
+
+<ul>
+  <li>Display the current Tailscale IP addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale ip</code></p>
+
+<ul>
+  <li>Ping a peer node at the Tailscale layer and display which route it took for each response:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip|hostname</span></p>
+
+<ul>
+  <li>Analyze the local network conditions and display the result:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale netcheck</code></p>
+
+<ul>
+  <li>Start a web server for controlling Tailscale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale web</code></p>
+
+<ul>
+  <li>Display a shareable identifier to help diagnose issues:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale bugreport</code></p>
+
+<ul>
+  <li>Display help for a subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

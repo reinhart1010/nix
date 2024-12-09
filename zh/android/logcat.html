@@ -1,0 +1,34 @@
+<h1 id="logcat">logcat</h1>
+
+<p>转储系统消息日志，包括发生错误时的堆栈跟踪信息，以及应用程序记录的信息消息。
+更多信息：<a href="https://developer.android.com/tools/logcat">https://developer.android.com/tools/logcat</a>.</p>
+
+<ul>
+  <li>显示系统日志：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat</code></p>
+
+<ul>
+  <li>将系统日志写入文件（[f]ile）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>显示与正则表达式匹配的日志行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --regex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">正则表达式</span></p>
+
+<ul>
+  <li>显示特定 PID 的日志：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>显示特定包的进程日志：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --pid $(pidof -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包</span><code class="language-plaintext highlighter-rouge">)</code></p>

@@ -1,0 +1,53 @@
+<h1 id="asciinema">asciinema</h1>
+
+<p>录制和重放终端会话，并可以选择将其分享在 <a href="https://asciinema.org">https://asciinema.org</a> 上。
+请参阅：<code class="language-plaintext highlighter-rouge">terminalizer</code>。
+更多信息：<a href="https://docs.asciinema.org/manual/cli/usage">https://docs.asciinema.org/manual/cli/usage</a>.</p>
+
+<ul>
+  <li>将本地安装的<code class="language-plaintext highlighter-rouge">asciinema</code>与 asciinema.org 账号关联：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema auth</code></p>
+
+<ul>
+  <li>进行新的录制（使用 <code class="language-plaintext highlighter-rouge">Ctrl+D</code> 完成录制或键入 <code class="language-plaintext highlighter-rouge">exit</code>，然后选择上传或保存到本地）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec</code></p>
+
+<ul>
+  <li>进行新的录制，保存到本地的文件中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/录制文件.cast</span></p>
+
+<ul>
+  <li>从本地文件中播放终端录屏：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/录制文件.cast</span></p>
+
+<ul>
+  <li>在 <a href="https://asciinema.org">https://asciinema.org</a> 中播放终端录屏：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play https://asciinema.org/a/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件 ID</span></p>
+
+<ul>
+  <li>进行新的录制，将闲置时间设置为最多 2.5 秒：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–idle-time-limit</span><code class="language-plaintext highlighter-rouge"> 2.5</code></p>
+
+<ul>
+  <li>打印本地保存的录像的完整输出：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/录制文件.cast</span></p>
+
+<ul>
+  <li>从本地上传一个录屏到 asciinema.org：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/录制文件.cast</span></p>

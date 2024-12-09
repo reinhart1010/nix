@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="docker-images">docker images</h1>
+
+<p>Verwalte Docker Images.
+Weitere Informationen: <a href="https://docs.docker.com/reference/cli/docker/image/ls/">https://docs.docker.com/reference/cli/docker/image/ls/</a>.</p>
+
+<ul>
+  <li>Liste alle Docker Images auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<ul>
+  <li>Liste alle Docker Images inkl. Zwischen-Images auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --all</code></p>
+
+<ul>
+  <li>Liste nur die IDs der Docker Images auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --quiet</code></p>
+
+<ul>
+  <li>Liste alle Docker Images auf, die nicht von einem Container verwendet werden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --filter dangling=true</code></p>
+
+<ul>
+  <li>Liste alle Docker Images mit einer bestimmten Zeichenfolge im Namen auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>name</em></span><code class="language-plaintext highlighter-rouge">"</code></p>

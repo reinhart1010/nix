@@ -1,0 +1,22 @@
+<h1 id="createdb">createdb</h1>
+
+<p>PostgreSQL 데이터베이스 생성.
+더 많은 정보: <a href="https://www.postgresql.org/docs/current/app-createdb.html">https://www.postgresql.org/docs/current/app-createdb.html</a>.</p>
+
+<ul>
+  <li>현재 사용자가 가지고 있는 데이터베이스를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">createdb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span></p>
+
+<ul>
+  <li>설명과 함께 특정 사용자가 소유한 데이터베이스를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">createdb --owner </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">설명</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>템플릿에서 데이터베이스를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">createdb --template </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">템플릿_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span></p>

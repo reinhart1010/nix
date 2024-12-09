@@ -1,0 +1,53 @@
+<h1 id="fabric">fabric</h1>
+
+<p>Un marco de trabajo de código abierto para aumentar el número de humanos utilizando IA.
+Proporciona un marco modular para resolver problemas específicos utilizando un conjunto de instrucciones de IA de origen colectivo.
+Más información: <a href="https://github.com/danielmiessler/fabric">https://github.com/danielmiessler/fabric</a>.</p>
+
+<ul>
+  <li>Ejecuta el setup para configurar fabric:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --setup</code></p>
+
+<ul>
+  <li>Lista todos los patrones disponibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --listpatterns</code></p>
+
+<ul>
+  <li>Ejecuta un patrón con la entrada de un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_patrón</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_entrada</span></p>
+
+<ul>
+  <li>Ejecuta un patrón en la URL de un vídeo de YouTube:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --youtube "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=id_del_video</span><code class="language-plaintext highlighter-rouge">" --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_patrón</span></p>
+
+<ul>
+  <li>Encadena patrones pasando la salida de uno a otro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón1</span><code class="language-plaintext highlighter-rouge"> | fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón2</span></p>
+
+<ul>
+  <li>Ejecuta un patrón personalizado definido por el usuario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_patrón_personalizado</span></p>
+
+<ul>
+  <li>Ejecuta un patrón y guarda el resultado en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_patrón</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_salida</span></p>
+
+<ul>
+  <li>Ejecuta un patrón con las variables especificadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_patrón</span><code class="language-plaintext highlighter-rouge"> --variable "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_variable</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge">"</code></p>

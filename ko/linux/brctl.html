@@ -1,0 +1,34 @@
+<h1 id="brctl">brctl</h1>
+
+<p>Ethernet 브리지 관리 도구.
+더 많은 정보: <a href="https://manned.org/brctl">https://manned.org/brctl</a>.</p>
+
+<ul>
+  <li>현재 존재하는 Ethernet 브리지에 대한 정보를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl show</code></p>
+
+<ul>
+  <li>새 Ethernet 브리지 인터페이스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브리지_이름</span></p>
+
+<ul>
+  <li>기존 Ethernet 브리지 인터페이스 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브리지_이름</span></p>
+
+<ul>
+  <li>기존 브리지에 인터페이스 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl addif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브리지_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터페이스_이름</span></p>
+
+<ul>
+  <li>기존 브리지에서 인터페이스 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl delif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브리지_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터페이스_이름</span></p>

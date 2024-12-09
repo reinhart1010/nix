@@ -1,0 +1,29 @@
+<h1 id="lvcreate">lvcreate</h1>
+
+<p>Create a logical volume in an existing volume group. A volume group is a collection of logical and physical volumes.
+See also: <code class="language-plaintext highlighter-rouge">lvm</code>.
+More information: <a href="https://manned.org/lvcreate">https://manned.org/lvcreate</a>.</p>
+
+<ul>
+  <li>Create a logical volume of 10 gigabytes in the volume group vg1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvcreate -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10G</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vg1</span></p>
+
+<ul>
+  <li>Create a 1500 megabyte linear logical volume named mylv in the volume group vg1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvcreate -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1500</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mylv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vg1</span></p>
+
+<ul>
+  <li>Create a logical volume called mylv that uses 60% of the total space in volume group vg1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvcreate -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60%VG</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mylv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vg1</span></p>
+
+<ul>
+  <li>Create a logical volume called mylv that uses all the unallocated space in the volume group vg1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvcreate -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100%FREE</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mylv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vg1</span></p>

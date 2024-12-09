@@ -1,0 +1,16 @@
+<h1 id="picocom">picocom</h1>
+
+<p>시리얼 콘솔을 에뮬레이트하기 위한 최소한의 프로그램.
+더 많은 정보: <a href="https://manned.org/picocom">https://manned.org/picocom</a>.</p>
+
+<ul>
+  <li>지정된 전송 속도로 시리얼 콘솔에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">picocom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyXYZ</span><code class="language-plaintext highlighter-rouge"> --baud </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">전송_속도</span></p>
+
+<ul>
+  <li>특수 문자 매핑 (예: <code class="language-plaintext highlighter-rouge">LF</code>를 <code class="language-plaintext highlighter-rouge">CRLF</code>로):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">picocom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyXYZ</span><code class="language-plaintext highlighter-rouge"> --imap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lfcrlf</span></p>

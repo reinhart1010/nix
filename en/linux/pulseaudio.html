@@ -1,0 +1,34 @@
+<h1 id="pulseaudio">pulseaudio</h1>
+
+<p>The PulseAudio sound system daemon and manager.
+More information: <a href="https://www.freedesktop.org/wiki/Software/PulseAudio/">https://www.freedesktop.org/wiki/Software/PulseAudio/</a>.</p>
+
+<ul>
+  <li>Check if PulseAudio is running (a non-zero exit code means it is not running):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulseaudio --check</code></p>
+
+<ul>
+  <li>Start the PulseAudio daemon in the background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulseaudio --start</code></p>
+
+<ul>
+  <li>Kill the running PulseAudio daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulseaudio --kill</code></p>
+
+<ul>
+  <li>List available modules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulseaudio --dump-modules</code></p>
+
+<ul>
+  <li>Load a module into the currently running daemon with the specified arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulseaudio --load="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span><code class="language-plaintext highlighter-rouge">"</code></p>

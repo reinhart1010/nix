@@ -1,0 +1,53 @@
+<h1 id="podman">podman</h1>
+
+<p>காய்கள், கொள்கலன்கள் மற்றும் படங்களுக்கான எளிய மேலாண்மை கருவி.
+போட்மேன் ஒரு Docker-CLI ஒப்பிடக்கூடிய கட்டளை வரியை வழங்குகிறது. எளிமையாகச் சொன்னால்: <code class="language-plaintext highlighter-rouge">alias docker=podman</code>.
+மேலும் விவரத்திற்கு: <a href="https://github.com/containers/podman/blob/main/commands-demo.md">https://github.com/containers/podman/blob/main/commands-demo.md</a>.</p>
+
+<ul>
+  <li>அனைத்து கொள்கலன்களையும் பட்டியலிடு (இரண்டும் இயங்கும் மற்றும் நிறுத்தப்பட்டது):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --all</code></p>
+
+<ul>
+  <li>தனிப்பயன் பெயருடன் ஒரு படத்திலிருந்து ஒரு கொள்கலனை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman run --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கொள்கலன்_பெயர்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">படம்</span></p>
+
+<ul>
+  <li>ஏற்கனவே உள்ள கொள்கலனைத் தொடங்கவும் அல்லது நிறுத்தவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கொள்கலன்_பெயர்</span></p>
+
+<ul>
+  <li>பதிவேட்டில் இருந்து ஒரு படத்தை இழுக்கவும் (டாக்கர் ஹப்பிற்கு இயல்புநிலை):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">படம்</span></p>
+
+<ul>
+  <li>ஏற்கனவே பதிவிறக்கம் செய்யப்பட்ட படங்களின் பட்டியலைக் காண்பி:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman images</code></p>
+
+<ul>
+  <li>ஏற்கனவே இயங்கும் கொள்கலனில் ஒரு ஷெல் திறக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman exec --interactive --tty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கொள்கலன்_பெயர்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span></p>
+
+<ul>
+  <li>நிறுத்தப்பட்ட கொள்கலனை அகற்றவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கொள்கலன்_பெயர்</span></p>
+
+<ul>
+  <li>ஒன்று அல்லது அதற்கு மேற்பட்ட கொள்கலன்களின் பதிவுகளைக் காண்பி மற்றும் பதிவு வெளியீட்டைப் பின்பற்றவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman logs --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கொள்கலன்_பெயர்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கொள்கலன்_ஐடி</span></p>

@@ -1,0 +1,29 @@
+<h1 id="airmon-ng">airmon-ng</h1>
+
+<p>Activeer de monitormodus op draadloze netwerkapparaten.
+Deel van <code class="language-plaintext highlighter-rouge">aircrack-ng</code>.
+Meer informatie: <a href="https://www.aircrack-ng.org/doku.php?id=airmon-ng">https://www.aircrack-ng.org/doku.php?id=airmon-ng</a>.</p>
+
+<ul>
+  <li>Maak een lijst van draadloze apparaten en hun statussen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng</code></p>
+
+<ul>
+  <li>Schakel de monitormodus in voor een specifiek apparaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span></p>
+
+<ul>
+  <li>Dood storende processen die draadloze apparaten gebruiken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng check kill</code></p>
+
+<ul>
+  <li>Schakel de monitormodus uit voor een specifieke netwerkinterface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0mon</span></p>

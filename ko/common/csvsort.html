@@ -1,0 +1,28 @@
+<h1 id="csvsort">csvsort</h1>
+
+<p>csvkit에 포함된 CSV 파일을 정렬.
+더 많은 정보: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvsort.html">https://csvkit.readthedocs.io/en/latest/scripts/csvsort.html</a>.</p>
+
+<ul>
+  <li>CSV 파일을 9열을 기준으로 정렬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsort -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.csv</span></p>
+
+<ul>
+  <li>CSV 파일을 "이름" 열에 따라 내림차순으로 정렬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsort -r -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.csv</span></p>
+
+<ul>
+  <li>CSV 파일을 2열, 4열을 기준으로 정렬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsort -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.csv</span></p>
+
+<ul>
+  <li>데이터 형식과 관계 없이 CSV 파일 정렬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsort --no-inference -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.csv</span></p>

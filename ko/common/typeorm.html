@@ -1,0 +1,52 @@
+<h1 id="typeorm">typeorm</h1>
+
+<p>Node.js, 브라우저, Cordova, Ionic, React Native, NativeScript, Electron 플랫폼에서 실행할 수 있는 JavaScript ORM.
+더 많은 정보: <a href="https://typeorm.io/">https://typeorm.io/</a>.</p>
+
+<ul>
+  <li>새로운 TypeORM 프로젝트 구조 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm init</code></p>
+
+<ul>
+  <li>빈 마이그레이션 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm migration:create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마이그레이션_이름</span></p>
+
+<ul>
+  <li>스키마를 업데이트하는 SQL 문이 포함된 마이그레이션 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm migration:generate --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마이그레이션_이름</span></p>
+
+<ul>
+  <li>대기 중인 모든 마이그레이션 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm migration:run</code></p>
+
+<ul>
+  <li>특정 디렉터리에 새 엔터티 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm entity:create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">엔터티</span><code class="language-plaintext highlighter-rouge"> --dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>기본 연결에서 <code class="language-plaintext highlighter-rouge">typeorm schema:sync</code>로 실행될 SQL 문 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm schema:log</code></p>
+
+<ul>
+  <li>기본 연결에서 특정 SQL 문 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql_문장</span></p>
+
+<ul>
+  <li>하위 명령에 대한 도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명령</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

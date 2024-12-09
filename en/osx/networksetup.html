@@ -1,0 +1,28 @@
+<h1 id="networksetup">networksetup</h1>
+
+<p>Configuration tool for Network System Preferences.
+More information: <a href="https://support.apple.com/guide/remote-desktop/about-networksetup-apdd0c5a2d5/mac">https://support.apple.com/guide/remote-desktop/about-networksetup-apdd0c5a2d5/mac</a>.</p>
+
+<ul>
+  <li>List available network service providers (Ethernet, Wi-Fi, Bluetooth, etc):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networksetup -listallnetworkservices</code></p>
+
+<ul>
+  <li>Show network settings for a particular networking device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networksetup -getinfo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Wi-Fi</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Get currently connected Wi-Fi network name (Wi-Fi device usually en0 or en1):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networksetup -getairportnetwork </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en0</span></p>
+
+<ul>
+  <li>Connect to a particular Wi-Fi network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networksetup -setairportnetwork </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Airport Network SSID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>

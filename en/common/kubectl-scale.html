@@ -1,0 +1,22 @@
+<h1 id="kubectl-scale">kubectl scale</h1>
+
+<p>Set a new size for a deployment, replica set, replication controller, or stateful set.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#scale">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#scale</a>.</p>
+
+<ul>
+  <li>Scale a replica set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl scale --replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_replicas</span><code class="language-plaintext highlighter-rouge"> rs/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replica_name</span></p>
+
+<ul>
+  <li>Scale a resource identified by a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl scale --replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_replicas</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yml</span></p>
+
+<ul>
+  <li>Scale a deployment based on current number of replicas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl scale --current-replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">current_replicas</span><code class="language-plaintext highlighter-rouge"> --replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_replicas</span><code class="language-plaintext highlighter-rouge"> deployment/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment_name</span></p>

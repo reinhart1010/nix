@@ -1,0 +1,41 @@
+<h1 id="md-to-clip">md-to-clip</h1>
+
+<p>Convert tldr-pages to Command Line Interface Pages.
+See also: <code class="language-plaintext highlighter-rouge">clip-view</code>.
+More information: <a href="https://github.com/command-line-interface-pages/v2-tooling/tree/main/md-to-clip">https://github.com/command-line-interface-pages/v2-tooling/tree/main/md-to-clip</a>.</p>
+
+<ul>
+  <li>Convert tldr-pages files and save into the same directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">md-to-clip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/page1.md path/to/page2.md …</span></p>
+
+<ul>
+  <li>Convert tldr-pages files and save into a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">md-to-clip --output-directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/page1.md path/to/page2.md …</span></p>
+
+<ul>
+  <li>Convert a tldr-page file to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">md-to-clip --no-file-save &lt;(echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page-content</span><code class="language-plaintext highlighter-rouge">')</code></p>
+
+<ul>
+  <li>Convert tldr-pages files while recognizing additional placeholders from a specific config:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">md-to-clip --special-placeholder-config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.yaml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/page1.md path/to/page2.md …</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">md-to-clip --help</code></p>
+
+<ul>
+  <li>Display version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">md-to-clip --version</code></p>

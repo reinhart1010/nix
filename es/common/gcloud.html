@@ -1,0 +1,52 @@
+<h1 id="gcloud">gcloud</h1>
+
+<p>La herramienta CLI oficial de Google Cloud Platform.
+Más información: <a href="https://cloud.google.com/sdk/gcloud">https://cloud.google.com/sdk/gcloud</a>.</p>
+
+<ul>
+  <li>Lista todas las propiedades de la configuración activa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config list</code></p>
+
+<ul>
+  <li>Inicia sesión en la cuenta de Google:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud auth login</code></p>
+
+<ul>
+  <li>Establece como proyecto activo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config set project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_proyecto</span></p>
+
+<ul>
+  <li>SSH en una instancia de máquina virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instancia</span></p>
+
+<ul>
+  <li>Muestra todas las instancias de Google Compute Engine de un proyecto. Por defecto, se muestran las instancias de todas las zonas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute instances list</code></p>
+
+<ul>
+  <li>Actualiza un archivo kubeconfig con las credenciales adecuadas para apuntar kubectl a un clúster específico en Google Kubernetes Engine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud container clusters get-credentials </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_cluster</span></p>
+
+<ul>
+  <li>Actualiza todos los componentes de la CLI de gcloud:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud components update</code></p>
+
+<ul>
+  <li>Muestra la ayuda para un comando determinado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>

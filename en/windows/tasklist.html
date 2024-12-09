@@ -1,0 +1,34 @@
+<h1 id="tasklist">tasklist</h1>
+
+<p>Display a list of currently running processes on a local or remote machine.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist">https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist</a>.</p>
+
+<ul>
+  <li>Display currently running processes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tasklist</code></p>
+
+<ul>
+  <li>Display running processes in a specified output format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tasklist /fo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table|list|csv</span></p>
+
+<ul>
+  <li>Display running processes using the specified <code class="language-plaintext highlighter-rouge">.exe</code> or <code class="language-plaintext highlighter-rouge">.dll</code> file name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tasklist /m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_pattern</span></p>
+
+<ul>
+  <li>Display processes running on a remote machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tasklist /s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> /u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Display services using each process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tasklist /svc</code></p>

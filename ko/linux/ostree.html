@@ -1,0 +1,47 @@
+<h1 id="ostree">ostree</h1>
+
+<p>운영 체제 루트 파일 시스템에 최적화된 바이너리 파일의 버전 관리 도구로, <code class="language-plaintext highlighter-rouge">git</code>과 유사합니다.
+OSTree는 Fedora Silverblue, Fedora IoT, Fedora CoreOS와 같은 불변 이미지 기반 운영 체제의 기초입니다.
+더 많은 정보: <a href="https://ostreedev.github.io/ostree">https://ostreedev.github.io/ostree</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">$PWD</code>의 파일을 <code class="language-plaintext highlighter-rouge">$PWD/path/to/repo</code>의 메타데이터와 함께 저장소로 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree init --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span></p>
+
+<ul>
+  <li>파일의 커밋(스냅샷) 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree commit --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span><code class="language-plaintext highlighter-rouge"> --branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름</span></p>
+
+<ul>
+  <li>커밋 내 파일 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree ls --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_ID</span></p>
+
+<ul>
+  <li>커밋의 메타데이터 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree show --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_ID</span></p>
+
+<ul>
+  <li>커밋 목록 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree log --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름</span></p>
+
+<ul>
+  <li>저장소 요약 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree summary --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span><code class="language-plaintext highlighter-rouge"> --view</code></p>
+
+<ul>
+  <li>사용 가능한 참조(브랜치) 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree refs --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span></p>

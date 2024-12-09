@@ -1,0 +1,23 @@
+<h1 id="acyclic">acyclic</h1>
+
+<p>Jadikan gambaran grafik berarah (dalam Graphviz) menjadi asiklik dengan memutarbalikkan beberapa garis tepi.
+Daftar filter Graphviz: <code class="language-plaintext highlighter-rouge">acyclic</code>, <code class="language-plaintext highlighter-rouge">bcomps</code>, <code class="language-plaintext highlighter-rouge">comps</code>, <code class="language-plaintext highlighter-rouge">edgepaint</code>, <code class="language-plaintext highlighter-rouge">gvcolor</code>, <code class="language-plaintext highlighter-rouge">gvpack</code>, <code class="language-plaintext highlighter-rouge">mingle</code>, <code class="language-plaintext highlighter-rouge">nop</code>, <code class="language-plaintext highlighter-rouge">sccmap</code>, <code class="language-plaintext highlighter-rouge">tred</code>, &amp; <code class="language-plaintext highlighter-rouge">unflatten</code>.
+Informasi lebih lanjut: <a href="https://graphviz.org/pdf/acyclic.1.pdf">https://graphviz.org/pdf/acyclic.1.pdf</a>.</p>
+
+<ul>
+  <li>Ubah grafik berarah menjadi asiklik dengan membalikkan beberapa garis tepi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acyclic </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gv</span></p>
+
+<ul>
+  <li>Cari tahu apakah grafik tersebut bersifat asiklik, memiliki siklus, atau tidak berarah, sehingga tidak menghasilkan output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acyclic -v -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span></p>
+
+<ul>
+  <li>Tampilkan informasi bantuan untuk <code class="language-plaintext highlighter-rouge">acyclic</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acyclic -?</code></p>

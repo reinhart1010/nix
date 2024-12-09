@@ -1,0 +1,46 @@
+<h1 id="ansible-playbook">ansible-playbook</h1>
+
+<p>通过 SSH 协议在远程计算机上执行 playbook 中定义的任务。
+更多信息：<a href="https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html">https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html</a>.</p>
+
+<ul>
+  <li>执行 playbook 中的任务：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span></p>
+
+<ul>
+  <li>使用自定义主机清单执行 playbook 中的任务：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">清单文件</span></p>
+
+<ul>
+  <li>使用通过命令行定义的额外变量执行 playbook 中的任务：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">变量1</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">变量2</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值2</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>使用在 JSON 文件中定义的额外变量执行 playbook 中的任务：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> -e "@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">变量.json</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>执行 playbook 中的指定标签的任务：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">标签1,标签2</span></p>
+
+<ul>
+  <li>从指定任务开始执行 playbook 中的任务：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> --start-at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">任务名称</span></p>
+
+<ul>
+  <li>以不做任何更改（试执行）方式执行 playbook 中的任务：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> --check --diff</code></p>

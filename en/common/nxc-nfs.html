@@ -1,0 +1,34 @@
+<h1 id="nxc-nfs">nxc nfs</h1>
+
+<p>Pentest and exploit NFS servers. Currently supports anonymous mode only.
+More information: <a href="https://www.netexec.wiki/nfs-protocol">https://www.netexec.wiki/nfs-protocol</a>.</p>
+
+<ul>
+  <li>Detect the version of a remote NFS server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc nfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.0/24</span></p>
+
+<ul>
+  <li>List the available NFS shares:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc nfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> --shares</code></p>
+
+<ul>
+  <li>Enumerate the exposed shares recursively to the specified depth:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc nfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> --enum-shares </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Download the specified remote file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc nfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> --get-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span></p>
+
+<ul>
+  <li>Upload the specified local file to the remote share:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc nfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> --put-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span></p>

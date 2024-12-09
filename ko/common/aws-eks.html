@@ -1,0 +1,47 @@
+<h1 id="aws-eks">aws eks</h1>
+
+<p>Amazon Elastic Kubernetes Service (EKS) 애드온, 클러스터 및 노드 그룹 관리.
+Amazon EKS는 AWS에서 Kubernetes를 쉽게 실행하기 위한 서비스.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/eks/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/eks/index.html</a>.</p>
+
+<ul>
+  <li>EKS 클러스터 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks create-cluster --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span><code class="language-plaintext highlighter-rouge"> --role-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eks_service_role_arn</span><code class="language-plaintext highlighter-rouge"> --resources-vpc-config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subnetIds=<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;subnet_ids&lt;/span&gt;</code>,securityGroupIds=<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;security_group_ids}&lt;/span&gt;</code>}`</span></p>
+
+<ul>
+  <li>EKS 클러스터에 연결하기 위한 kubeconfig를 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks update-kubeconfig --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>사용 가능한 EKS 클러스터 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks list-clusters</code></p>
+
+<ul>
+  <li>Describe EKS 클러스터 세부정보 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks describe-cluster --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>EKS 클러스터 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks delete-cluster --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>EKS 클러스터의 노드그룹 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks list-nodegroups --cluster-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>노드 그룹 세부 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws eks describe-nodegroup --cluster-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span><code class="language-plaintext highlighter-rouge"> --nodegroup-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노드그룹_이름</span></p>

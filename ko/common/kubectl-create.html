@@ -1,0 +1,40 @@
+<h1 id="kubectl-create">kubectl create</h1>
+
+<p>파일 또는 <code class="language-plaintext highlighter-rouge">stdin</code>에서 리소스를 생성.
+더 많은 정보: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#create">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#create</a>.</p>
+
+<ul>
+  <li>리소스 정의 파일을 사용하여 리소스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.yml</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 리소스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create -f -</code></p>
+
+<ul>
+  <li>배포 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create deployment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">배포_이름</span><code class="language-plaintext highlighter-rouge"> --image=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지</span></p>
+
+<ul>
+  <li>복제본과 함께 배포 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create deployment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">배포_이름</span><code class="language-plaintext highlighter-rouge"> --image=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지</span><code class="language-plaintext highlighter-rouge"> --replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">복제본_수</span></p>
+
+<ul>
+  <li>서비스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스_유형</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스_이름</span><code class="language-plaintext highlighter-rouge"> --tcp=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_포트</span></p>
+
+<ul>
+  <li>네임스페이스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">네임스페이스_이름</span></p>

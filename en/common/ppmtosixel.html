@@ -1,0 +1,28 @@
+<h1 id="ppmtosixel">ppmtosixel</h1>
+
+<p>Convert a PPM image to DEC sixel format.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmtosixel.html">https://netpbm.sourceforge.net/doc/ppmtosixel.html</a>.</p>
+
+<ul>
+  <li>Convert a PPM image to DEC sixel format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtosixel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sixel</span></p>
+
+<ul>
+  <li>Produce an uncompressed SIXEL file that is much slower to print:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtosixel -raw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sixel</span></p>
+
+<ul>
+  <li>Add a left margin of 1.5 inches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtosixel -margin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sixel</span></p>
+
+<ul>
+  <li>Encode control codes in a more portable (although less space-efficient) way:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtosixel -7bit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sixel</span></p>

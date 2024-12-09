@@ -1,0 +1,17 @@
+<h1 id="get-acl">Get-Acl</h1>
+
+<p>파일이나 레지스트리 키와 같은 리소스의 보안 설명자를 가져옵니다.
+참고: 이 명령은 PowerShell을 통해서만 사용할 수 있습니다.
+더 많은 정보: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.security/get-acl">https://learn.microsoft.com/powershell/module/microsoft.powershell.security/get-acl</a>.</p>
+
+<ul>
+  <li>특정 디렉토리의 ACL 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Acl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\폴더</span></p>
+
+<ul>
+  <li>레지스트리 키의 ACL 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Acl -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HKLM:\System\CurrentControlSet\Control</span><code class="language-plaintext highlighter-rouge"> | Format-List</code></p>

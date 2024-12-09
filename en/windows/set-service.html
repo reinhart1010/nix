@@ -1,0 +1,23 @@
+<h1 id="set-service">Set-Service</h1>
+
+<p>Starts, stops, and suspends a service, and changes its properties.
+Note: This command can only be used through PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-service">https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-service</a>.</p>
+
+<ul>
+  <li>Change a display name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-Service -Name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -DisplayName "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Change the startup type of services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-Service -Name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> -StartupType </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Automatic</span></p>
+
+<ul>
+  <li>Change the description of a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-Service -Name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> -Description "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">description</span><code class="language-plaintext highlighter-rouge">"</code></p>

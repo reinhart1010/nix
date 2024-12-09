@@ -1,0 +1,35 @@
+<h1 id="apt-key">apt-key</h1>
+
+<p>Eina de gestió de claus per al Gestor de Paquets APT (APT Package Manager) en Debian i Ubuntu.
+Nota: <code class="language-plaintext highlighter-rouge">apt-key</code> és obsolet (excepte l'ús de <code class="language-plaintext highlighter-rouge">apt-key del</code> en scrits de mantenidor).
+Més informació: <a href="https://manned.org/apt-key.8">https://manned.org/apt-key.8</a>.</p>
+
+<ul>
+  <li>Mostra les claus de confiança:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key list</code></p>
+
+<ul>
+  <li>Afegeix una clau al magatzem de claus de confiança:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arxiu_clau_pública.asc</span></p>
+
+<ul>
+  <li>Borra una clau del magatzem de claus de confiança:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_clau</span></p>
+
+<ul>
+  <li>Afegir una clau remota al magatzem de claus de confiança:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget -qO - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://host.tld/archiu.clau</span><code class="language-plaintext highlighter-rouge"> | apt-key add -</code></p>
+
+<ul>
+  <li>Afegir una clau d'un servidor de claus amb l'identificador de la clau:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key adv --keyserver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span><code class="language-plaintext highlighter-rouge"> --recv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_clau</span></p>

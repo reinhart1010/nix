@@ -1,0 +1,29 @@
+<h1 id="az-storage-queue">az storage queue</h1>
+
+<p>Azure에서 스토리지 큐를 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/storage/queue">https://learn.microsoft.com/cli/azure/storage/queue</a>.</p>
+
+<ul>
+  <li>큐 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage queue create --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">큐_이름</span><code class="language-plaintext highlighter-rouge"> --metadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">큐_메타데이터</span></p>
+
+<ul>
+  <li>큐에 대한 공유 액세스 서명을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage queue generate-sas --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">큐_이름</span><code class="language-plaintext highlighter-rouge"> --permissions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">큐_권한</span><code class="language-plaintext highlighter-rouge"> --expiry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">만료_날짜</span><code class="language-plaintext highlighter-rouge"> --https-only</code></p>
+
+<ul>
+  <li>스토리지 계정의 큐 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage queue list --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필터_접두사</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span></p>
+
+<ul>
+  <li>지정된 대기열과 포함된 모든 메시지를 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage queue delete --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">큐_이름</span><code class="language-plaintext highlighter-rouge"> --fail-not-exist</code></p>

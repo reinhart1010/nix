@@ -1,0 +1,53 @@
+<h1 id="vim">vim</h1>
+
+<p>Vim (Vi IMproved), un éditeur de texte en ligne de commandes, fournit plusieurs modes pour différentes manipulations de texte.
+Pressez <code class="language-plaintext highlighter-rouge">i</code> pour passer en mode édition. <code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> revient au mode normal, qui ne permet pas l insertion de code.
+Plus d'informations : <a href="https://www.vim.org">https://www.vim.org</a>.</p>
+
+<ul>
+  <li>Ouvrir un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Ouvrir un fichier à une ligne spécifiée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_ligne</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Consulter le manuel utilisateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:help&lt;Entrée&gt;</code></p>
+
+<ul>
+  <li>Sauvegarder et fermer :</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>&lt;/span&gt;</Enter></Esc></Enter></Esc></Esc></span></p>
+
+<ul>
+  <li>Annuler la dernière opération :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;u</code></p>
+
+<ul>
+  <li>Rechercher un motif dans un fichier (appuyez <code class="language-plaintext highlighter-rouge">n</code>/<code class="language-plaintext highlighter-rouge">N</code> pour aller à la prochaine / précédente occurrence) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">motif_recherché</span><code class="language-plaintext highlighter-rouge">&lt;Entrée&gt;</code></p>
+
+<ul>
+  <li>Effectuer une substitution par expression régulière dans tout le fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">motif</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remplacement</span><code class="language-plaintext highlighter-rouge">/g&lt;Entrée&gt;</code></p>
+
+<ul>
+  <li>Afficher les numéros de ligne :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:set nu&lt;Entrée&gt;</code></p>

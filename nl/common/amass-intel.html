@@ -1,0 +1,46 @@
+<h1 id="amass-intel">amass intel</h1>
+
+<p>Verzamel open source informatie over een organisatie, zoals hoofddomeinen en ASN's.
+Meer informatie: <a href="https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand">https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand</a>.</p>
+
+<ul>
+  <li>Vind hoofddomeinen in een range van IP adressen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -addr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1-254</span></p>
+
+<ul>
+  <li>Gebruik actieve verkenningsmethoden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -active -addr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1-254</span></p>
+
+<ul>
+  <li>Vind hoofddomeinen gerelateerd aan een domein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -whois -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domeinnaam</span></p>
+
+<ul>
+  <li>Vind ASN's die bij een [org]anisatie horen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organisatienaam</span></p>
+
+<ul>
+  <li>Vind hoofddomeinen die bij een bepaald ASN horen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -asn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asn</span></p>
+
+<ul>
+  <li>Sla de resultaten op in een tekstbestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uitvoer_bestand</span><code class="language-plaintext highlighter-rouge"> -whois -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domeinnaam</span></p>
+
+<ul>
+  <li>Toon alle beschikbare databronnen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -list</code></p>

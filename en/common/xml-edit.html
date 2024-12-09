@@ -1,0 +1,40 @@
+<h1 id="xml-edit">xml edit</h1>
+
+<p>Edit an XML document.
+More information: <a href="https://xmlstar.sourceforge.net/docs.php">https://xmlstar.sourceforge.net/docs.php</a>.</p>
+
+<ul>
+  <li>Delete elements matching an XPATH from an XML document:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH1</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span></p>
+
+<ul>
+  <li>Move an element node of an XML document from XPATH1 to XPATH2:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --move "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH1</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH2</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span></p>
+
+<ul>
+  <li>Rename all attributes named "id" to "ID":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --rename "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//*/@id</span><code class="language-plaintext highlighter-rouge">" -v "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ID</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span></p>
+
+<ul>
+  <li>Rename sub-elements of the element "table" that are named "rec" to "record":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --rename "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/xml/table/rec</span><code class="language-plaintext highlighter-rouge">" -v "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">record</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span></p>
+
+<ul>
+  <li>Update the XML table record with "id=3" to the value "id=5":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --update "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml/table/rec[@id=3]/@id</span><code class="language-plaintext highlighter-rouge">" -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --help</code></p>

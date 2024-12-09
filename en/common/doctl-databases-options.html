@@ -1,0 +1,34 @@
+<h1 id="doctl-databases-options">doctl databases options</h1>
+
+<p>Enable the navigation of available options under each database engine.
+More information: <a href="https://docs.digitalocean.com/reference/doctl/reference/databases/options">https://docs.digitalocean.com/reference/doctl/reference/databases/options</a>.</p>
+
+<ul>
+  <li>Run a <code class="language-plaintext highlighter-rouge">doctl databases options</code> command with an access token:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases options </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access_token</span></p>
+
+<ul>
+  <li>Retrieve a list of the available database engines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases options engines</code></p>
+
+<ul>
+  <li>Retrieve a list of the available regions for a given database engine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases options regions --engine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pg|mysql|redis|mongodb</span></p>
+
+<ul>
+  <li>Retrieve a list of the available slugs for a given database engine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases options slugs --engine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pg|mysql|redis|mongodb</span></p>
+
+<ul>
+  <li>Retrieve a list of the available versions for a given database engine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases options versions --engine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pg|mysql|redis|mongodb</span></p>

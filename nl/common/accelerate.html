@@ -1,0 +1,40 @@
+<h1 id="accelerate">accelerate</h1>
+
+<p>Accelerate is een bibliotheek waarmee dezelfde PyTorch-code kan worden uitgevoerd op elke gedistribueerde configuratie.
+Meer informatie: <a href="https://huggingface.co/docs/accelerate/index">https://huggingface.co/docs/accelerate/index</a>.</p>
+
+<ul>
+  <li>Toon informatie over de omgeving:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate env</code></p>
+
+<ul>
+  <li>Maak interactief een configuratiebestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate config</code></p>
+
+<ul>
+  <li>Toon de geschatte GPU-geheugenkosten van het uitvoeren van een Hugging Face model met verschillende gegevenstypen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate estimate-memory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name/model</span></p>
+
+<ul>
+  <li>Test een Accelerate configuratiebestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate test --config_file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/config.yaml</span></p>
+
+<ul>
+  <li>Voer een model uit op CPU met Accelerate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.py</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–cpu</span></p>
+
+<ul>
+  <li>Voer een model uit op multi-GPU met Accelerate, met 2 machines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.py</span><code class="language-plaintext highlighter-rouge"> --multi_gpu --num_machines 2</code></p>

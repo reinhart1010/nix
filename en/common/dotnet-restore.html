@@ -1,0 +1,40 @@
+<h1 id="dotnet-restore">dotnet restore</h1>
+
+<p>Restores the dependencies and tools of a .NET project.
+More information: <a href="https://learn.microsoft.com/dotnet/core/tools/dotnet-restore">https://learn.microsoft.com/dotnet/core/tools/dotnet-restore</a>.</p>
+
+<ul>
+  <li>Restore dependencies for a .NET project or solution in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore</code></p>
+
+<ul>
+  <li>Restore dependencies for a .NET project or solution in a specific location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_or_solution</span></p>
+
+<ul>
+  <li>Restore dependencies without caching the HTTP requests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --no-cache</code></p>
+
+<ul>
+  <li>Force all dependencies to be resolved even if the last restore was successful:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --force</code></p>
+
+<ul>
+  <li>Restore dependencies using package source failures as warnings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --ignore-failed-sources</code></p>
+
+<ul>
+  <li>Restore dependencies with a specific verbosity level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --verbosity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet|minimal|normal|detailed|diagnostic</span></p>

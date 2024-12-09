@@ -1,0 +1,28 @@
+<h1 id="fossil-commit">fossil commit</h1>
+
+<p>Commit files to a Fossil repository.
+More information: <a href="https://fossil-scm.org/home/help/commit">https://fossil-scm.org/home/help/commit</a>.</p>
+
+<ul>
+  <li>Create a new version containing all the changes in the current checkout; user will be prompted for a comment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fossil commit</code></p>
+
+<ul>
+  <li>Create a new version containing all the changes in the current checkout, using the specified comment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fossil commit --comment "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comment</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create a new version containing all the changes in the current checkout with a comment read from a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fossil commit --message-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/commit_message_file</span></p>
+
+<ul>
+  <li>Create a new version containing changes from the specified files; user will be prompted for a comment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fossil commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>

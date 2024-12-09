@@ -1,0 +1,28 @@
+<h1 id="nvcc">nvcc</h1>
+
+<p>NVIDIA CUDA 컴파일러 드라이버.
+더 많은 정보: <a href="https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc">https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc</a>.</p>
+
+<ul>
+  <li>CUDA 프로그램 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.cu</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/실행파일</span></p>
+
+<ul>
+  <li>디버그 정보 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.cu</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/실행파일</span><code class="language-plaintext highlighter-rouge"> --debug --device-debug</code></p>
+
+<ul>
+  <li>다른 경로에서 라이브러리 포함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.cu</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/실행파일</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/포함대상</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/라이브러리</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라이브러리_이름</span></p>
+
+<ul>
+  <li>특정 GPU 아키텍처에 대한 컴퓨팅 능력 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.cu</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/실행파일</span><code class="language-plaintext highlighter-rouge"> --generate-code arch=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아키텍처_이름</span><code class="language-plaintext highlighter-rouge">,code=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpu_코드_이름</span></p>

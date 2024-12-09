@@ -1,0 +1,52 @@
+<h1 id="aws-iam">aws iam</h1>
+
+<p>Interact with Identity and Access Management (IAM), a web service for securely controlling access to AWS services.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html</a>.</p>
+
+<ul>
+  <li>List users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-users</code></p>
+
+<ul>
+  <li>List policies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-policies</code></p>
+
+<ul>
+  <li>List groups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-groups</code></p>
+
+<ul>
+  <li>Get users in a group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam get-group --group-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span></p>
+
+<ul>
+  <li>Describe an IAM policy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam get-policy --policy-arn arn:aws:iam::aws:policy/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">policy_name</span></p>
+
+<ul>
+  <li>List access keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-access-keys</code></p>
+
+<ul>
+  <li>List access keys for a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-access-keys --user-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam help</code></p>

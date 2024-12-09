@@ -1,0 +1,52 @@
+<h1 id="pathping">pathping</h1>
+
+<p><code class="language-plaintext highlighter-rouge">ping</code> 및 <code class="language-plaintext highlighter-rouge">tracert</code>의 기능을 결합한 라우팅 도구입니다.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/pathping">https://learn.microsoft.com/windows-server/administration/windows-commands/pathping</a>.</p>
+
+<ul>
+  <li>호스트에 핑을 보내고 경로를 추적:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span></p>
+
+<ul>
+  <li>호스트명을 IP 주소로 역방향 조회하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -n</code></p>
+
+<ul>
+  <li>대상을 찾기 위해 검색할 최대 홉 수 지정 (기본값은 30):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">최대_홉</span></p>
+
+<ul>
+  <li>핑 사이에 대기할 시간 지정 (기본값은 240):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시간</span></p>
+
+<ul>
+  <li>각 홉에 대한 쿼리 수 지정 (기본값은 100):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쿼리</span></p>
+
+<ul>
+  <li>IPv4 사용 강제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -4</code></p>
+
+<ul>
+  <li>IPv6 사용 강제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -6</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathping /?</code></p>

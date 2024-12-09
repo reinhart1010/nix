@@ -1,0 +1,40 @@
+<h1 id="pdfjam">pdfjam</h1>
+
+<p>Shell frontend for the LaTeX pdfpages package for mingling PDFs.
+More information: <a href="https://github.com/rrthomas/pdfjam">https://github.com/rrthomas/pdfjam</a>.</p>
+
+<ul>
+  <li>Merge two (or more) PDFs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfjam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.pdf</span><code class="language-plaintext highlighter-rouge"> --outfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.pdf</span></p>
+
+<ul>
+  <li>Merge the first page of each file together:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfjam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">files…</span><code class="language-plaintext highlighter-rouge"> 1 --outfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.pdf</span></p>
+
+<ul>
+  <li>Merge subranges from two PDFs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfjam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.pdf 3-5,1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.pdf 4-6</span><code class="language-plaintext highlighter-rouge"> --outfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.pdf</span></p>
+
+<ul>
+  <li>Sign an A4 page (adjust delta to height for other formats) with a scanned signature by overlaying them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfjam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/signature</span><code class="language-plaintext highlighter-rouge"> --fitpaper true --outfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/signed.pdf</span><code class="language-plaintext highlighter-rouge"> --nup "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1x2</span><code class="language-plaintext highlighter-rouge">" --delta "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0 -842pt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Arrange the pages from the input file into a fancy 2x2 grid:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfjam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> --nup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2x2</span><code class="language-plaintext highlighter-rouge"> --suffix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4up</span><code class="language-plaintext highlighter-rouge"> --preamble '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\usepackage{fancyhdr} \pagestyle{fancy}</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Reverse the order of pages within each given file and concatenate them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfjam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">files…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">last-1</span><code class="language-plaintext highlighter-rouge"> --suffix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reversed</span></p>

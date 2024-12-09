@@ -1,0 +1,22 @@
+<h1 id="aws-s3-presign">aws s3 presign</h1>
+
+<p>Amazon S3 객체에 대해 미리 서명된 URL 생성.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/presign.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/presign.html</a>.</p>
+
+<ul>
+  <li>한 시간 동안 유효한 특정 S3 객체에 대해 미리 서명된 URL을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 presign s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 수명 동안 유효한 미리 서명된 URL을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 presign s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> --expires-in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">지속_시간</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 presign help</code></p>

@@ -1,0 +1,28 @@
+<h1 id="opensnoop">opensnoop</h1>
+
+<p>Track file opens on your system.
+More information: <a href="https://keith.github.io/xcode-man-pages/opensnoop.1m.html">https://keith.github.io/xcode-man-pages/opensnoop.1m.html</a>.</p>
+
+<ul>
+  <li>Print all file opens as they occur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo opensnoop</code></p>
+
+<ul>
+  <li>Track all file opens by a process by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo opensnoop -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Track all file opens by a process by PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo opensnoop -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Track which processes open a specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo opensnoop -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,40 @@
+<h1 id="vboxmanage-showvminfo">vboxmanage-showvminfo</h1>
+
+<p>Show information about registered virtual machine.
+More information: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-showvminfo">https://www.virtualbox.org/manual/ch08.html#vboxmanage-showvminfo</a>.</p>
+
+<ul>
+  <li>Show information about a particular virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage showvminfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name|uuid</span></p>
+
+<ul>
+  <li>Show more detailed information about a particular virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage showvminfo --details </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name|uuid</span></p>
+
+<ul>
+  <li>Show information in a machine readable format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage showvminfo --machinereadable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name|uuid</span></p>
+
+<ul>
+  <li>Specify password ID if the virtual machine is encrypted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage showvminfo --password-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name|uuid</span></p>
+
+<ul>
+  <li>Specify the password file if the virtual machine is encrypted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage showvminfo --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/password_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name|uuid</span></p>
+
+<ul>
+  <li>Show the logs of a specific virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage showvminfo --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name|uuid</span></p>

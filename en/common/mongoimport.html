@@ -1,0 +1,40 @@
+<h1 id="mongoimport">mongoimport</h1>
+
+<p>Imports content from a JSON, CSV, or TSV file into a MongoDB database.
+More information: <a href="https://docs.mongodb.com/database-tools/mongoimport/">https://docs.mongodb.com/database-tools/mongoimport/</a>.</p>
+
+<ul>
+  <li>Import a JSON file into a specific collection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span><code class="language-plaintext highlighter-rouge"> --uri=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mongodb_uri</span><code class="language-plaintext highlighter-rouge"> --collection=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">collection_name</span></p>
+
+<ul>
+  <li>Import a CSV file, using the first line of the file to determine field names:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">csv</span><code class="language-plaintext highlighter-rouge"> --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span><code class="language-plaintext highlighter-rouge"> --db=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span><code class="language-plaintext highlighter-rouge"> --collection=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">collection_name</span></p>
+
+<ul>
+  <li>Import a JSON array, using each element as a separate document:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --jsonArray --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span></p>
+
+<ul>
+  <li>Import a JSON file using a specific mode and a query to match existing documents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span><code class="language-plaintext highlighter-rouge"> --mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delete|merge|upsert</span><code class="language-plaintext highlighter-rouge"> --upsertFields="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field1,field2,…</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Import a CSV file, reading field names from a separate CSV file and ignoring fields with empty values:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">csv</span><code class="language-plaintext highlighter-rouge"> --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span><code class="language-plaintext highlighter-rouge"> --fieldFile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/field_file.csv</span><code class="language-plaintext highlighter-rouge"> --ignoreBlanks</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --help</code></p>

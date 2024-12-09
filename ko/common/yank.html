@@ -1,0 +1,28 @@
+<h1 id="yank">yank</h1>
+
+<p><code class="language-plaintext highlighter-rouge">stdin</code>에서 입력을 읽고 선택 인터페이스를 표시하여 필드를 선택하고 클립보드에 복사할 수 있게 합니다.
+더 많은 정보: <a href="https://manned.org/yank">https://manned.org/yank</a>.</p>
+
+<ul>
+  <li>기본 구분자 (\f, \n, \r, \s, \t)를 사용하여 Yank:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sudo dmesg</span><code class="language-plaintext highlighter-rouge"> | yank</code></p>
+
+<ul>
+  <li>전체 라인을 Yank:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sudo dmesg</span><code class="language-plaintext highlighter-rouge"> | yank -l</code></p>
+
+<ul>
+  <li>특정 구분자를 사용하여 Yank:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo hello=world</span><code class="language-plaintext highlighter-rouge"> | yank -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">=</span></p>
+
+<ul>
+  <li>특정 패턴과 일치하는 필드만 Yank:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ps ux</span><code class="language-plaintext highlighter-rouge"> | yank -g "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[0-9]+</span><code class="language-plaintext highlighter-rouge">"</code></p>

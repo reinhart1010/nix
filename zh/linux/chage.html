@@ -1,0 +1,34 @@
+<h1 id="chage">chage</h1>
+
+<p>更改用户账户和密码到期信息。
+更多信息：<a href="https://manned.org/chage">https://manned.org/chage</a>.</p>
+
+<ul>
+  <li>列出用户的密码信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chage --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span></p>
+
+<ul>
+  <li>启用密码在 10 天内过期：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chage --maxdays </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span></p>
+
+<ul>
+  <li>关闭密码过期：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chage --maxdays </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span></p>
+
+<ul>
+  <li>设置账户到期日期：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chage --expiredate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span></p>
+
+<ul>
+  <li>强制用户在下次登录时更改密码：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chage --lastday </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span></p>

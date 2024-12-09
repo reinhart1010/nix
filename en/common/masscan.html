@@ -1,0 +1,47 @@
+<h1 id="masscan">masscan</h1>
+
+<p>Network scanner for scanning as fast as possible.
+Best run with elevated privileges. Nmap compatibility run <code class="language-plaintext highlighter-rouge">masscan --nmap</code> to find out more.
+More information: <a href="https://github.com/robertdavidgraham/masscan">https://github.com/robertdavidgraham/masscan</a>.</p>
+
+<ul>
+  <li>Scan an IP or network subnet for [p]ort 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">masscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address|network_prefix</span><code class="language-plaintext highlighter-rouge"> --ports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>Scan a class B subnet for the top 100 ports at 100,000 packets per second:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">masscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.0/16</span><code class="language-plaintext highlighter-rouge"> --top-ports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --rate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000</span></p>
+
+<ul>
+  <li>Scan a class B subnet avoiding ranges from a specific exclude file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">masscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.0/16</span><code class="language-plaintext highlighter-rouge"> --top-ports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --excludefile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Scan the Internet for web servers running on port 80 and 443:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">masscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0.0.0/0</span><code class="language-plaintext highlighter-rouge"> --ports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,443</span><code class="language-plaintext highlighter-rouge"> --rate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10000000</span></p>
+
+<ul>
+  <li>Scan the Internet for DNS servers running on UDP port 53:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">masscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0.0.0/0</span><code class="language-plaintext highlighter-rouge"> --ports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">U:53</span><code class="language-plaintext highlighter-rouge"> --rate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10000000</span></p>
+
+<ul>
+  <li>Scan the Internet for a specific port range and export to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">masscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0.0.0/0</span><code class="language-plaintext highlighter-rouge"> --ports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0-65535</span><code class="language-plaintext highlighter-rouge"> --output-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">binary|grepable|json|list|xml</span><code class="language-plaintext highlighter-rouge"> --output-filename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Read binary scan results from a file and output to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">masscan --readscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

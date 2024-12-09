@@ -1,0 +1,45 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="dpkg">dpkg</h1>
+
+<p>डेबियन पैकेज प्रबंधक।
+कुछ उपकमांड जैसे <code class="language-plaintext highlighter-rouge">dpkg deb</code> के अपने स्वयं के उपयोग दस्तावेज़ हैं।
+अन्य पैकेज प्रबंधकों में समकक्ष कमांड के लिए, देखें <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+अधिक जानकारी: <a href="https://manned.org/dpkg">https://manned.org/dpkg</a>।</p>
+
+<ul>
+  <li>एक पैकेज इनस्टॉल करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल.deb/का/पथ</span></p>
+
+<ul>
+  <li>एक पैकेज निकालें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज_का_नाम</span></p>
+
+<ul>
+  <li>इन्सटाल्ड पैकेजों की सूची बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैटर्न</span></p>
+
+<ul>
+  <li>पैकेज की सामग्री सूचीबद्ध करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज_का_नाम</span></p>
+
+<ul>
+  <li>लोकल पैकेज फ़ाइल की सामग्री सूचीबद्ध करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल.deb/का/पथ</span></p>
+
+<ul>
+  <li>पता लगाएं कि कौन सा पैकेज फ़ाइल का मालिक है:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल_का_नाम</span></p>

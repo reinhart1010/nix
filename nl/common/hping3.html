@@ -1,0 +1,47 @@
+<h1 id="hping3">hping3</h1>
+
+<p>Geavanceerd pinghulpprogramma dat protocollen ondersteunt zoals TCP, UDP en IP.
+Dit kan het beste uitgevoerd worden met extra priveleges.
+Meer informatie: <a href="https://github.com/antirez/hping">https://github.com/antirez/hping</a>.</p>
+
+<ul>
+  <li>Ping een bestemming met 4 ICMP ping aanvragen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --icmp --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_of_hostnaam</span></p>
+
+<ul>
+  <li>Ping een IP addres over UDP op poort 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --udp --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_of_hostnaam</span></p>
+
+<ul>
+  <li>Scan TCP poort 80, maar scan vanaf de specifieke lokale bronpoort 5090:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --verbose --syn --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --baseport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5090</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_of_hostnaam</span></p>
+
+<ul>
+  <li>Traceroute met behulp van een TCP scan naar een specifieke bestemmingspoort:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --traceroute --verbose --syn --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_of_hostnaam</span></p>
+
+<ul>
+  <li>Scan een set van TCP poorten op een specifiek IP adres:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,3000,9000</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_of_hostnaam</span></p>
+
+<ul>
+  <li>Voer een TCP ACK scan uit om te checken of een gegeven host nog leeft:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --verbose --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --ack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_of_hostnaam</span></p>
+
+<ul>
+  <li>Voer een charge test uit op poort 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --flood --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_of_hostnaam</span></p>

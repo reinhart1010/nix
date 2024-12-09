@@ -1,0 +1,35 @@
+<h1 id="truss">truss</h1>
+
+<p>İzleme sistem çağrıları için sorun giderme aracı.
+SunOS'in strace alternatifi.
+Daha fazla bilgi için: <a href="https://www.unix.com/man-page/linux/1/truss">https://www.unix.com/man-page/linux/1/truss</a>.</p>
+
+<ul>
+  <li>Bir programı tüm alt işlemleriyle beraber çalıştırarak başlat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Belirtilen işlemi onun PID değerini girerek izlemeye başla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Bir programı argümanları ve çevresel değerlerini göstererek başlar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -a -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Her bir sistem çağrısı için zaman, çağrı ve hataları say ve program çıkışında bunların özetini bildir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -c -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Bir işlemi onun çıktısını sistem çağrısıyla süzerek izle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system_çağrısı_ismi</span></p>

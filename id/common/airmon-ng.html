@@ -1,0 +1,29 @@
+<h1 id="airmon-ng">airmon-ng</h1>
+
+<p>Nyalakan mode pengawasan pada perangkat jaringan nirkabel/wireless.
+Bagian dari paket perangkat lunak jaringan Aircrack-ng.
+Informasi lebih lanjut: <a href="https://www.aircrack-ng.org/doku.php?id=airmon-ng">https://www.aircrack-ng.org/doku.php?id=airmon-ng</a>.</p>
+
+<ul>
+  <li>Tampilkan daftar perangkat nirkabel beserta statusnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng</code></p>
+
+<ul>
+  <li>Mulai awasi jaringan untuk perangkat tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span></p>
+
+<ul>
+  <li>Hentikan proses-proses mengganggu yang memanfaatkan perangkat nirkabel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng check kill</code></p>
+
+<ul>
+  <li>Matikan mode pengawasan untuk interface jaringan tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0mon</span></p>

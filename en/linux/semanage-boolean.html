@@ -1,0 +1,23 @@
+<h1 id="semanage-boolean">semanage boolean</h1>
+
+<p>Manage persistent SELinux boolean settings.
+See also: <code class="language-plaintext highlighter-rouge">semanage</code> for managing SELinux policies, <code class="language-plaintext highlighter-rouge">getsebool</code> for checking boolean values, and <code class="language-plaintext highlighter-rouge">setsebool</code> for applying non-persistent boolean settings.
+More information: <a href="https://manned.org/semanage-boolean">https://manned.org/semanage-boolean</a>.</p>
+
+<ul>
+  <li>List all booleans settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span></p>
+
+<ul>
+  <li>List all user-defined boolean settings without headings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-C|–locallist</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–noheading</span></p>
+
+<ul>
+  <li>Set or unset a boolean persistently:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modify</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1|–on|-0|–off</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">haproxy_connect_any</span></p>

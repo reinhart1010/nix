@@ -1,0 +1,22 @@
+<h1 id="cgclassify">cgclassify</h1>
+
+<p>Move tarefas em execução para <code class="language-plaintext highlighter-rouge">cgroups</code>.
+Mais informações: <a href="https://manned.org/cgclassify">https://manned.org/cgclassify</a>.</p>
+
+<ul>
+  <li>Move o processo com um PID específico para o grupo de controle estudante na hierarquia CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cgclassify -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu:estudante</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span></p>
+
+<ul>
+  <li>Move o processo com um PID específico para grupos de controle baseados no arquivo de configuração <code class="language-plaintext highlighter-rouge">/etc/cgrules.conf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cgclassify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span></p>
+
+<ul>
+  <li>Move o processo com um PID específico para o grupo de controle estudante na hierarquia CPU. Note: o daemon do serviço <code class="language-plaintext highlighter-rouge">cgred</code> não altera <code class="language-plaintext highlighter-rouge">cgroups</code> do PID específico e seus filhos (com base em <code class="language-plaintext highlighter-rouge">/etc/cgrules.conf</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cgclassify --sticky -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu:/estudante</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span></p>

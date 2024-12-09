@@ -1,0 +1,23 @@
+<h1 id="sshpass">sshpass</h1>
+
+<p>Um provedor de senha SSH.
+Ele funciona criando um TTY, inserindo a senha nele e, em seguida, redirecionando <code class="language-plaintext highlighter-rouge">stdin</code> para a sessão SSH.
+Mais informações: <a href="https://manned.org/sshpass">https://manned.org/sshpass</a>.</p>
+
+<ul>
+  <li>Conecta a um servidor remoto usando uma senha fornecida em um descritor de arquivo (neste caso, <code class="language-plaintext highlighter-rouge">stdin</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshpass -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_servidor</span></p>
+
+<ul>
+  <li>Conecta a um servidor remoto com a senha fornecida como opção e aceita automaticamente chaves SSH desconhecidas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshpass -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha</span><code class="language-plaintext highlighter-rouge"> ssh -o StrictHostKeyChecking=no </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_servidor</span></p>
+
+<ul>
+  <li>Conecta a um servidor remoto usando a primeira linha de um arquivo como senha, aceita automaticamente chaves SSH desconhecidas e executa um comando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshpass -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span><code class="language-plaintext highlighter-rouge"> ssh -o StrictHostKeyChecking=no </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_servidor</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>

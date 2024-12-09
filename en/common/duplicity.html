@@ -1,0 +1,42 @@
+<h1 id="duplicity">duplicity</h1>
+
+<p>Create incremental, compressed, encrypted and versioned backups.
+Can also upload the backups to a variety of backend services.
+It is worth mentioning that depending on the version, some options may not be available (e.g. <code class="language-plaintext highlighter-rouge">--gio</code> in 2.0.0).
+More information: <a href="https://duplicity.gitlab.io">https://duplicity.gitlab.io</a>.</p>
+
+<ul>
+  <li>Backup a directory via FTPS to a remote machine, encrypting it with a password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">FTP_PASSWORD=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp_login_password</span><code class="language-plaintext highlighter-rouge"> PASSPHRASE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encryption_password</span><code class="language-plaintext highlighter-rouge"> duplicity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftps://user@hostname/target/directory/path/</span></p>
+
+<ul>
+  <li>Backup a directory to Amazon S3, doing a full backup every month:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicity --full-if-older-than </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name[/prefix]</span></p>
+
+<ul>
+  <li>Delete versions older than 1 year from a backup stored on a WebDAV share:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">FTP_PASSWORD=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">webdav_login_password</span><code class="language-plaintext highlighter-rouge"> duplicity remove-older-than </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1Y</span><code class="language-plaintext highlighter-rouge"> --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">webdav[s]://user@hostname[:port]/some_dir</span></p>
+
+<ul>
+  <li>List the available backups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicity collection-status "file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">absolute/path/to/backup/directory</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List the files in a backup stored on a remote machine, via SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicity list-current-files --time </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span><code class="language-plaintext highlighter-rouge"> scp://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@hostname</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/backup/dir</span></p>
+
+<ul>
+  <li>Restore a subdirectory from a GnuPG-encrypted local backup to a given location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PASSPHRASE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg_key_password</span><code class="language-plaintext highlighter-rouge"> duplicity restore --encrypt-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg_key_id</span><code class="language-plaintext highlighter-rouge"> --path-to-restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">relative/path/restoredirectory</span><code class="language-plaintext highlighter-rouge"> file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">absolute/path/to/backup/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory/to/restore/to</span></p>

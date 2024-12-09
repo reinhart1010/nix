@@ -1,0 +1,52 @@
+<h1 id="chromium">chromium</h1>
+
+<p>Navegador web de código aberto desenvolvido e mantido principalmente pela Google.
+Mais informações: <a href="https://www.chromium.org/developers/how-tos/run-chromium-with-flags/">https://www.chromium.org/developers/how-tos/run-chromium-with-flags/</a>.</p>
+
+<ul>
+  <li>Abre uma URL ou arquivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com|caminho/para/arquivo.html</span></p>
+
+<ul>
+  <li>Abre no modo de navegação anônima (incógnito):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --incognito </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Abre em uma nova janela:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --new-window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Abre no modo aplicativo (sem barra de tarefas, barra de URL, botões, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --app=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Usa um servidor proxy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --proxy-server="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">socks5://hostname:66</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Abre com um diretório de perfil customizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Abre sem validação CORS (útil para testar uma API):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span><code class="language-plaintext highlighter-rouge"> --disable-web-security</code></p>
+
+<ul>
+  <li>Abre com uma janela DevTools para cada aba aberta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --auto-open-devtools-for-tabs</code></p>

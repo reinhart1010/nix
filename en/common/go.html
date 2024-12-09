@@ -1,0 +1,47 @@
+<h1 id="go">go</h1>
+
+<p>Manage Go source code.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">build</code> have their own usage documentation.
+More information: <a href="https://golang.org">https://golang.org</a>.</p>
+
+<ul>
+  <li>Download and install a package, specified by its import path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_path</span></p>
+
+<ul>
+  <li>Compile and run a source file (it has to contain a <code class="language-plaintext highlighter-rouge">main</code> package):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span><code class="language-plaintext highlighter-rouge">.go</code></p>
+
+<ul>
+  <li>Compile a source file into a named executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span><code class="language-plaintext highlighter-rouge">.go</code></p>
+
+<ul>
+  <li>Compile the package present in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build</code></p>
+
+<ul>
+  <li>Execute all test cases of the current package (files have to end with <code class="language-plaintext highlighter-rouge">_test.go</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test</code></p>
+
+<ul>
+  <li>Compile and install the current package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go install</code></p>
+
+<ul>
+  <li>Initialize a new module in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>

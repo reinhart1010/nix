@@ -1,0 +1,34 @@
+<h1 id="ldc">ldc</h1>
+
+<p>D compiler using LLVM as a backend.
+More information: <a href="https://wiki.dlang.org/Using_LDC">https://wiki.dlang.org/Using_LDC</a>.</p>
+
+<ul>
+  <li>Compile a source code file into an executable binary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldc2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.d</span><code class="language-plaintext highlighter-rouge"> -of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span></p>
+
+<ul>
+  <li>Compile the source code file without linking:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldc2 -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.d</span></p>
+
+<ul>
+  <li>Select the target architecture and OS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldc -mtriple=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">architecture_OS</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.d</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldc2 -h</code></p>
+
+<ul>
+  <li>Display complete help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldc2 -help-hidden</code></p>

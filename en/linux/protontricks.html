@@ -1,0 +1,46 @@
+<h1 id="protontricks">protontricks</h1>
+
+<p>A simple wrapper that runs Winetricks commands for Proton enabled games.
+More information: <a href="https://github.com/Matoking/protontricks">https://github.com/Matoking/protontricks</a>.</p>
+
+<ul>
+  <li>Run the protontricks GUI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protontricks --gui</code></p>
+
+<ul>
+  <li>Run Winetricks for a specific game:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protontricks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">appid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">winetricks_args</span></p>
+
+<ul>
+  <li>Run a command within a game's installation directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protontricks -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">appid</span></p>
+
+<ul>
+  <li>[l]ist all installed games:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protontricks -l</code></p>
+
+<ul>
+  <li>[s]earch for a game's App ID by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protontricks -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">game_name</span></p>
+
+<ul>
+  <li>Run an executable in the proton environment of a specific game:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protontricks-launch --appid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">appid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable.exe</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protontricks --help</code></p>

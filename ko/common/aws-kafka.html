@@ -1,0 +1,53 @@
+<h1 id="aws-kafka">aws kafka</h1>
+
+<p>Amazon MSK (Apache Kafka용 관리형 스트리밍) 클러스터 관리.
+추가 정보: <code class="language-plaintext highlighter-rouge">aws</code>.
+더 많은 정보: <a href="https://docs.aws.amazon.com/cli/latest/reference/kafka/index.html">https://docs.aws.amazon.com/cli/latest/reference/kafka/index.html</a>.</p>
+
+<ul>
+  <li>새로운 MSK 클러스터 만들기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kafka create-cluster --cluster-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span><code class="language-plaintext highlighter-rouge"> --broker-node-group-info instanceType=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인스턴스_타입</span><code class="language-plaintext highlighter-rouge">,clientSubnets=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서브넷_아이디1 서브넷_아이디2 …</span><code class="language-plaintext highlighter-rouge"> --kafka-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전</span><code class="language-plaintext highlighter-rouge"> --number-of-broker-nodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span></p>
+
+<ul>
+  <li>MSK 클러스터 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kafka describe-cluster --cluster-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_arn</span></p>
+
+<ul>
+  <li>현재 지역의 모든 MSK 클러스터 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kafka list-clusters</code></p>
+
+<ul>
+  <li>새로운 MSK 구성 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kafka create-configuration --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성파일_이름</span><code class="language-plaintext highlighter-rouge"> --server-properties file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/구성파일_이름.txt</span></p>
+
+<ul>
+  <li>MSK 구성파일 내용 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kafka describe-configuration --arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_arn</span></p>
+
+<ul>
+  <li>현재 지역의 모든 MSK 구성 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kafka list-configurations</code></p>
+
+<ul>
+  <li>MSK 클러스터 구성 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kafka update-cluster-configuration --cluster-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_arn</span><code class="language-plaintext highlighter-rouge"> --configuration-info arn=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_arn</span><code class="language-plaintext highlighter-rouge">,revision=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_revision</span></p>
+
+<ul>
+  <li>MSK 클러스터 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kafka delete-cluster --cluster-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_arn</span></p>

@@ -1,0 +1,46 @@
+<h1 id="sops">sops</h1>
+
+<p>SOPS (Secrets OPerationS): a simple and flexible tool for managing secrets.
+More information: <a href="https://github.com/mozilla/sops">https://github.com/mozilla/sops</a>.</p>
+
+<ul>
+  <li>Encrypt a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.enc.json</span></p>
+
+<ul>
+  <li>Decrypt a file to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.enc.json</span></p>
+
+<ul>
+  <li>Update the declared keys in a <code class="language-plaintext highlighter-rouge">sops</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops updatekeys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.enc.yaml</span></p>
+
+<ul>
+  <li>Rotate data keys for a <code class="language-plaintext highlighter-rouge">sops</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.enc.yaml</span></p>
+
+<ul>
+  <li>Change the extension of the file once encrypted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops -d --input-type json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.enc.json</span></p>
+
+<ul>
+  <li>Extract keys by naming them, and array elements by numbering them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops -d --extract '["an_array"][1]' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.enc.json</span></p>
+
+<ul>
+  <li>Show the difference between two <code class="language-plaintext highlighter-rouge">sops</code> files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff &lt;(sops -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/secret1.enc.yaml</span><code class="language-plaintext highlighter-rouge">) &lt;(sops -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/secret2.enc.yaml</span><code class="language-plaintext highlighter-rouge">)</code></p>

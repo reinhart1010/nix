@@ -1,0 +1,40 @@
+<h1 id="blastp">blastp</h1>
+
+<p>Protein-Protein BLAST.
+More information: <a href="https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastp_application_options/">https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastp_application_options/</a>.</p>
+
+<ul>
+  <li>Align two or more sequences using blastp, with the e-value threshold of 1e-9, pairwise output format, output to screen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject.fa</span><code class="language-plaintext highlighter-rouge"> -evalue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1e-9</span></p>
+
+<ul>
+  <li>Align two or more sequences using blastp-fast:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -task blastp-fast -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject.fa</span></p>
+
+<ul>
+  <li>Align two or more sequences, custom tabular output format, output to file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject.fa</span><code class="language-plaintext highlighter-rouge"> -outfmt '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6 qseqid qlen qstart qend sseqid slen sstart send bitscore evalue pident</span><code class="language-plaintext highlighter-rouge">' -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.tsv</span></p>
+
+<ul>
+  <li>Search protein databases using a protein query, 16 threads to use in the BLAST search, with a maximum number of 10 aligned sequences to keep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blast_database_name</span><code class="language-plaintext highlighter-rouge"> -num_threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span><code class="language-plaintext highlighter-rouge"> -max_target_seqs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Search the remote non-redundant protein database using a protein query:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nr</span><code class="language-plaintext highlighter-rouge"> -remote</code></p>
+
+<ul>
+  <li>Display help (use <code class="language-plaintext highlighter-rouge">-help</code> for detailed help):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -h</code></p>

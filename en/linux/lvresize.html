@@ -1,0 +1,29 @@
+<h1 id="lvresize">lvresize</h1>
+
+<p>Change the size of a logical volume.
+See also: <code class="language-plaintext highlighter-rouge">lvm</code>.
+More information: <a href="https://manned.org/lvresize">https://manned.org/lvresize</a>.</p>
+
+<ul>
+  <li>Change the size of a logical volume to 120 GB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvresize --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">120G</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_group</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logical_volume</span></p>
+
+<ul>
+  <li>Extend the size of a logical volume as well as the underlying filesystem by 120 GB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvresize --size +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">120G</span><code class="language-plaintext highlighter-rouge"> --resizefs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_group</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logical_volume</span></p>
+
+<ul>
+  <li>Extend the size of a logical volume to 100% of the free physical volume space:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvresize --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge">%FREE </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_group</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logical_volume</span></p>
+
+<ul>
+  <li>Reduce the size of a logical volume as well as the underlying filesystem by 120 GB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvresize --size -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">120G</span><code class="language-plaintext highlighter-rouge"> --resizefs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_group</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logical_volume</span></p>

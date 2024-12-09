@@ -1,0 +1,47 @@
+<h1 id="linode-cli-object-storage">linode-cli object-storage</h1>
+
+<p>Linode 오브젝트 스토리지 관리.
+같이 보기: <code class="language-plaintext highlighter-rouge">linode-cli</code>.
+더 많은 정보: <a href="https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-object-storage">https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-object-storage</a>.</p>
+
+<ul>
+  <li>모든 오브젝트 스토리지 버킷 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage buckets list</code></p>
+
+<ul>
+  <li>새 오브젝트 스토리지 버킷 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage buckets create --cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_ID</span><code class="language-plaintext highlighter-rouge"> --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_레이블</span></p>
+
+<ul>
+  <li>오브젝트 스토리지 버킷 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage buckets delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_레이블</span></p>
+
+<ul>
+  <li>오브젝트 스토리지 클러스터 지역 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage clusters list</code></p>
+
+<ul>
+  <li>오브젝트 스토리지의 액세스 키 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage keys list</code></p>
+
+<ul>
+  <li>오브젝트 스토리지에 대한 새 액세스 키 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage keys create --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레이블</span></p>
+
+<ul>
+  <li>오브젝트 스토리지에 대한 액세스 키 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli object-storage keys revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">액세스_키_ID</span></p>

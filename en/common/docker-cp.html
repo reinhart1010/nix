@@ -1,0 +1,22 @@
+<h1 id="docker-cp">docker cp</h1>
+
+<p>Copy files or directories between host and container filesystems.
+More information: <a href="https://docs.docker.com/reference/cli/docker/container/cp/">https://docs.docker.com/reference/cli/docker/container/cp/</a>.</p>
+
+<ul>
+  <li>Copy a file or directory from the host to a container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory_on_host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory_in_container</span></p>
+
+<ul>
+  <li>Copy a file or directory from a container to the host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory_in_container</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory_on_host</span></p>
+
+<ul>
+  <li>Copy a file or directory from the host to a container, following symlinks (copies the symlinked files directly, not the symlinks themselves):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker cp --follow-link </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/symlink_on_host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory_in_container</span></p>

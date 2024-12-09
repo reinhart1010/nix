@@ -1,0 +1,46 @@
+<h1 id="doskey">doskey</h1>
+
+<p>Manage macros, windows commands and command-lines.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/doskey">https://learn.microsoft.com/windows-server/administration/windows-commands/doskey</a>.</p>
+
+<ul>
+  <li>List available macros:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macros</code></p>
+
+<ul>
+  <li>Create a new macro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create a new macro for a specific executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /exename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Remove a macro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> =</code></p>
+
+<ul>
+  <li>Display all commands that are stored in memory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /history</code></p>
+
+<ul>
+  <li>Save macros to a file for portability:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macros &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\macinit_file</span></p>
+
+<ul>
+  <li>Load macros from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macrofile = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\macinit_file</span></p>

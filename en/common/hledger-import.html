@@ -1,0 +1,40 @@
+<h1 id="hledger-import">hledger import</h1>
+
+<p>Import new transactions from one or more data files to the main journal.
+More information: <a href="https://hledger.org/hledger.html#import">https://hledger.org/hledger.html#import</a>.</p>
+
+<ul>
+  <li>Import new transactions from <code class="language-plaintext highlighter-rouge">bank.csv</code>, using <code class="language-plaintext highlighter-rouge">bank.csv.rules</code> to convert:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bank.csv</span></p>
+
+<ul>
+  <li>Show what would be imported from these two files, without doing anything:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bank1.csv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bank2.csv</span><code class="language-plaintext highlighter-rouge"> --dry-run</code></p>
+
+<ul>
+  <li>Import new transactions from all CSV files, using the same rules for all:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger import --rules-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">common.rules</span><code class="language-plaintext highlighter-rouge"> *.csv</code></p>
+
+<ul>
+  <li>Show conversion errors or results while editing <code class="language-plaintext highlighter-rouge">bank.csv.rules</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watchexec -- hledger -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bank.csv</span><code class="language-plaintext highlighter-rouge"> print</code></p>
+
+<ul>
+  <li>Mark <code class="language-plaintext highlighter-rouge">bank.csv</code>'s current data as seen, as if already imported:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger import --catchup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bank.csv</span></p>
+
+<ul>
+  <li>Mark <code class="language-plaintext highlighter-rouge">bank.csv</code> as all new, as if not yet imported:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rm -f .latest.bank.csv</code></p>

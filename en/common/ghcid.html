@@ -1,0 +1,41 @@
+<h1 id="ghcid">ghcid</h1>
+
+<p>Simple and efficient CLI IDE for Haskell that reloads code on file changes.
+Continuously displays compile errors, warnings, and test results.
+More information: <a href="https://github.com/ndmitchell/ghcid">https://github.com/ndmitchell/ghcid</a>.</p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">ghcid</code> and monitor a Haskell file for changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghcid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Main.hs</span></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">ghcid</code> with a specific command, such as loading a Stack or Cabal project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghcid --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack ghci Main.hs</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run an action (default <code class="language-plaintext highlighter-rouge">main</code>) on each file save:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghcid --run=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">action</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Main.hs</span></p>
+
+<ul>
+  <li>Set maximum height and width (default to console height and width):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghcid --height=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span><code class="language-plaintext highlighter-rouge"> --width=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Main.hs</span></p>
+
+<ul>
+  <li>Write full GHC compiler output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghcid --outputfile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Main.hs</span></p>
+
+<ul>
+  <li>Execute REPL commands (eg. <code class="language-plaintext highlighter-rouge">-- $&gt; 1+1</code>) on each file save:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghcid --allow-eval </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Main.hs</span></p>

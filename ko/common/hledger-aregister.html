@@ -1,0 +1,28 @@
+<h1 id="hledger-aregister">hledger aregister</h1>
+
+<p>한 계좌의 거래 내역과 잔액을 한 줄로 표시.
+더 많은 정보: <a href="https://hledger.org/hledger.html#aregister">https://hledger.org/hledger.html#aregister</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">assets:bank:checking</code> 계좌의 거래 내역과 잔액 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger aregister assets:bank:checking</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">*savings*</code>라는 이름의 첫 번째 계좌의 거래 내역과 잔액 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger aregister savings</code></p>
+
+<ul>
+  <li>지정된 너비로 체크 계좌의 정리된 거래 내역 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger aregister checking --cleared --width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">120</span></p>
+
+<ul>
+  <li>예측 규칙의 거래를 포함하여 체크 계좌의 내역 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger aregister checking --forecast</code></p>

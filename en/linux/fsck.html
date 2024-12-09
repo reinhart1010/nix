@@ -1,0 +1,22 @@
+<h1 id="fsck">fsck</h1>
+
+<p>Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run.
+More information: <a href="https://manned.org/fsck">https://manned.org/fsck</a>.</p>
+
+<ul>
+  <li>Check filesystem <code class="language-plaintext highlighter-rouge">/dev/sdXN</code>, reporting any damaged blocks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fsck </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Check filesystem <code class="language-plaintext highlighter-rouge">/dev/sdXN</code>, reporting any damaged blocks and interactively letting the user choose to repair each one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fsck -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Check filesystem <code class="language-plaintext highlighter-rouge">/dev/sdXN</code>, reporting any damaged blocks and automatically repairing them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fsck -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>

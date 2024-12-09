@@ -1,0 +1,47 @@
+<h1 id="uuidparse">uuidparse</h1>
+
+<p>Parse universally unique identifiers.
+See also: <code class="language-plaintext highlighter-rouge">uuidgen</code>.
+More information: <a href="https://manned.org/uuidparse.1">https://manned.org/uuidparse.1</a>.</p>
+
+<ul>
+  <li>Parse the specified UUIDs, use a tabular output format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuidparse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid1 uuid2 …</span></p>
+
+<ul>
+  <li>Parse UUIDs from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | uuidparse</code></p>
+
+<ul>
+  <li>Use the JSON output format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuidparse --json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid1 uuid2 …</span></p>
+
+<ul>
+  <li>Do not print a header line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuidparse --noheadings </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid1 uuid2 …</span></p>
+
+<ul>
+  <li>Use the raw output format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuidparse --raw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid1 uuid2 …</span></p>
+
+<ul>
+  <li>Specify which of the four output columns to print:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuidparse --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UUID,VARIANT,TYPE,TIME</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuidparse -h</code></p>

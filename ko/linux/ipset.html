@@ -1,0 +1,34 @@
+<h1 id="ipset">ipset</h1>
+
+<p>방화벽 규칙을 위한 IP 집합 생성.
+더 많은 정보: <a href="https://manned.org/ipset">https://manned.org/ipset</a>.</p>
+
+<ul>
+  <li>IP 주소를 포함할 빈 IP 집합 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipset create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">집합_이름</span><code class="language-plaintext highlighter-rouge"> hash:ip</code></p>
+
+<ul>
+  <li>특정 IP 집합 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipset destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">집합_이름</span></p>
+
+<ul>
+  <li>특정 집합에 IP 주소 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipset add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">집합_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.25</span></p>
+
+<ul>
+  <li>집합에서 특정 IP 주소 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipset del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">집합_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.25</span></p>
+
+<ul>
+  <li>IP 집합 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipset save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">집합_이름</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/ip_집합</span></p>

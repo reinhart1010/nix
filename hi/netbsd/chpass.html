@@ -1,0 +1,41 @@
+<h1 id="chpass">chpass</h1>
+
+<p>उपयोगकर्ता डेटाबेस जानकारी जोड़ें या बदलें, जिसमें लॉगिन शेल और पासवर्ड शामिल हैं।
+और देखें: <code class="language-plaintext highlighter-rouge">passwd</code>।
+अधिक जानकारी: <a href="https://man.netbsd.org/chsh">https://man.netbsd.org/chsh</a>।</p>
+
+<ul>
+  <li>वर्तमान उपयोगकर्ता के लिए इंटरैक्टिव रूप से एक विशिष्ट लॉगिन शेल सेट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>वर्तमान उपयोगकर्ता के लिए एक विशिष्ट लॉगिन [s]शेल सेट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शेल/का/पथ</span></p>
+
+<ul>
+  <li>एक विशिष्ट उपयोगकर्ता के लिए एक लॉगिन [s]शेल सेट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शेल/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">passwd</code> फ़ाइल प्रारूप में एक उपयोगकर्ता डेटाबेस प्रविष्टि निर्दिष्ट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम:encrypted_password:uid:gid:…</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span></p>
+
+<ul>
+  <li>केवल [l]स्थानीय पासवर्ड फ़ाइल को अपडेट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -l -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शेल/का/पथ</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span></p>
+
+<ul>
+  <li>मजबूरन डेटाबेस [y]P पासवर्ड डेटाबेस प्रविष्टि बदलें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -y -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शेल/का/पथ</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span></p>

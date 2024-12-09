@@ -1,0 +1,40 @@
+<h1 id="rhash">rhash</h1>
+
+<p>Calculate or check common message digests.
+More information: <a href="https://rhash.sourceforge.net/manpage.php">https://rhash.sourceforge.net/manpage.php</a>.</p>
+
+<ul>
+  <li>Calculate default CRC32 digests of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Recursively process a directory to generate an SFV file using SHA1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash --sha1 --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.sfv</span></p>
+
+<ul>
+  <li>Verify the integrity of files based on an SFV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sfv</span></p>
+
+<ul>
+  <li>Calculate the SHA3 digest of a text message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash --sha3-256 --message '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Calculate CRC32 digest of a file and output digest encoded in base64 using BSD format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash --base64 --bsd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Use custom output template:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash --printf '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%p\t%s\t%{mtime}\t%m\n</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

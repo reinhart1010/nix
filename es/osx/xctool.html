@@ -1,0 +1,22 @@
+<h1 id="xctool">xctool</h1>
+
+<p>Herramienta para construir proyectos Xcode.
+Más información: <a href="https://github.com/facebookarchive/xctool">https://github.com/facebookarchive/xctool</a>.</p>
+
+<ul>
+  <li>Construye un proyecto sin ningún espacio de trabajo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xctool -project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TuProyecto.xcodeproj</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SuEsquema</span><code class="language-plaintext highlighter-rouge"> build</code></p>
+
+<ul>
+  <li>Construye un proyecto que forma parte de un espacio de trabajo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xctool -workspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TuEspacioDeTrabajo.xcworkspace</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TuEsquema</span><code class="language-plaintext highlighter-rouge"> build</code></p>
+
+<ul>
+  <li>Limpia, construye y ejecuta todas las pruebas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xctool -workspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TuEspacioTrabajo.xcworkspace</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TuEsquema</span><code class="language-plaintext highlighter-rouge"> clean build test</code></p>

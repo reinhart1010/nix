@@ -1,0 +1,52 @@
+<h1 id="bundle">bundle</h1>
+
+<p>Dependency manager for the Ruby programming language.
+More information: <a href="https://bundler.io/man/bundle.1.html">https://bundler.io/man/bundle.1.html</a>.</p>
+
+<ul>
+  <li>Install all gems defined in the <code class="language-plaintext highlighter-rouge">Gemfile</code> expected in the working directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle install</code></p>
+
+<ul>
+  <li>Execute a command in the context of the current bundle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span></p>
+
+<ul>
+  <li>Update all gems by the rules defined in the <code class="language-plaintext highlighter-rouge">Gemfile</code> and regenerate <code class="language-plaintext highlighter-rouge">Gemfile.lock</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update</code></p>
+
+<ul>
+  <li>Update one or more specific gem(s) defined in the <code class="language-plaintext highlighter-rouge">Gemfile</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name2</span></p>
+
+<ul>
+  <li>Update one or more specific gems(s) defined in the <code class="language-plaintext highlighter-rouge">Gemfile</code> but only to the next patch version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update --patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name2</span></p>
+
+<ul>
+  <li>Update all gems within the given group in the <code class="language-plaintext highlighter-rouge">Gemfile</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">development</span></p>
+
+<ul>
+  <li>List installed gems in the <code class="language-plaintext highlighter-rouge">Gemfile</code> with newer versions available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle outdated</code></p>
+
+<ul>
+  <li>Create a new gem skeleton:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle gem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name</span></p>

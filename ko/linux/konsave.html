@@ -1,0 +1,46 @@
+<h1 id="konsave">konsave</h1>
+
+<p>한 번의 명령으로 Linux 사용자 설정을 저장하고 적용.
+더 많은 정보: <a href="https://github.com/Prayag2/konsave">https://github.com/Prayag2/konsave</a>.</p>
+
+<ul>
+  <li>현재 설정을 프로필로 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span></p>
+
+<ul>
+  <li>프로필 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span></p>
+
+<ul>
+  <li>현재 설정을 프로필로 저장하며, 동일한 이름의 기존 프로필이 있을 경우 덮어쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span><code class="language-plaintext highlighter-rouge"> --force</code></p>
+
+<ul>
+  <li>모든 프로필 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --list</code></p>
+
+<ul>
+  <li>프로필 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span></p>
+
+<ul>
+  <li>프로필을 <code class="language-plaintext highlighter-rouge">.knsv</code>로 내보내기하여 홈 디렉토리에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --export-profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.knsv</code> 프로필 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --import-profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프로필_이름.knsv</span></p>

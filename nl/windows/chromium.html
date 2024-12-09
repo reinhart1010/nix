@@ -1,0 +1,53 @@
+<h1 id="chromium">chromium</h1>
+
+<p>Open-source webbrowser die voornamelijk ontwikkeld en onderhouden wordt door Google.
+Let op: mogelijk moet je het <code class="language-plaintext highlighter-rouge">chromium</code> commando vervangen met jouw gewenste webbrowser, zoals <code class="language-plaintext highlighter-rouge">brave</code>, <code class="language-plaintext highlighter-rouge">google-chrome</code>, <code class="language-plaintext highlighter-rouge">microsoft-edge</code>/<code class="language-plaintext highlighter-rouge">msedge</code>, <code class="language-plaintext highlighter-rouge">opera</code> of <code class="language-plaintext highlighter-rouge">vivaldi</code>.
+Meer informatie: <a href="https://www.chromium.org/developers/how-tos/run-chromium-with-flags/">https://www.chromium.org/developers/how-tos/run-chromium-with-flags/</a>.</p>
+
+<ul>
+  <li>Open een specifieke URL of bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com|path/naar/bestand.html</span></p>
+
+<ul>
+  <li>Open in incognito modus (gebruik <code class="language-plaintext highlighter-rouge">--inprivate</code> voor Microsoft Edge):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chromium –incognito|msedge –inprivate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Open in een nieuw venster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --new-window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorbeeld.com</span></p>
+
+<ul>
+  <li>Open in applicatie modus (zonder werkbalken, URL balk, knoppen, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --app=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Gebruik een proxy server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --proxy-server="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">socks5://hostname:66</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Open met een aangepaste profiel map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>
+
+<ul>
+  <li>Open zonder CORS validatie (handig om een API te testen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span><code class="language-plaintext highlighter-rouge"> --disable-web-security</code></p>
+
+<ul>
+  <li>Open met een DevTools venster voor elk geopend tabblad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --auto-open-devtools-for-tabs</code></p>

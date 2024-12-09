@@ -1,0 +1,22 @@
+<h1 id="pnmtopclxl">pnmtopclxl</h1>
+
+<p>Convert a PNM file to an HP LaserJet PCL XL printer stream.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmtopclxl.html">https://netpbm.sourceforge.net/doc/pnmtopclxl.html</a>.</p>
+
+<ul>
+  <li>Convert PNM files to an HP LaserJet PCL XL printer stream:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopclxl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.pnm path/to/input2.pnm …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pclxl</span></p>
+
+<ul>
+  <li>Specify the resolution of the image as well as the location of the page from the upper left corner of each image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopclxl -dpi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resolution</span><code class="language-plaintext highlighter-rouge"> -xoffs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_offset</span><code class="language-plaintext highlighter-rouge"> -yoffs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_offset</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.pnm path/to/input2.pnm …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pclxl</span></p>
+
+<ul>
+  <li>Generate a duplex printer stream for the specified paper format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopclxl -duplex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vertical|horizontal</span><code class="language-plaintext highlighter-rouge"> -format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">letter|legal|a3|a4|a5|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.pnm path/to/input2.pnm …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pclxl</span></p>

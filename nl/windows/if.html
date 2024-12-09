@@ -1,0 +1,46 @@
+<h1 id="if">if</h1>
+
+<p>Voert voorwaardelijke verwerking uit in batchscripts.
+Meer informatie: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/if">https://learn.microsoft.com/windows-server/administration/windows-commands/if</a>.</p>
+
+<ul>
+  <li>Voer de opgegeven commando's uit als de voorwaarde waar is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorwaarde</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Voorwaarde is waar</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Voer de opgegeven commando's uit als de voorwaarde onwaar is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if not </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorwaarde</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Voorwaarde is waar</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Voer de eerste opgegeven commando's uit als de voorwaarde waar is, anders voer de tweede opgegeven commando's uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorwaarde</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Voorwaarde is waar</span><code class="language-plaintext highlighter-rouge">) else (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Voorwaarde is onwaar</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Controleer of <code class="language-plaintext highlighter-rouge">%errorlevel%</code> groter dan of gelijk is aan de opgegeven exitcode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if errorlevel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Voorwaarde is waar</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Controleer of twee strings gelijk zijn:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge">% == </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Voorwaarde is waar</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Controleer of twee strings gelijk zijn zonder naar hoofdletters te kijken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if /i %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge">% == </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Voorwaarde is waar</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Controleer of een bestand bestaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if exist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Voorwaarde is waar</span><code class="language-plaintext highlighter-rouge">)</code></p>

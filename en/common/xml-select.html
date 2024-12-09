@@ -1,0 +1,35 @@
+<h1 id="xml-select">xml select</h1>
+
+<p>Select from XML documents using XPATHs.
+Tip: use <code class="language-plaintext highlighter-rouge">xml elements</code> to display the XPATHs of an XML document.
+More information: <a href="https://xmlstar.sourceforge.net/docs.php">https://xmlstar.sourceforge.net/docs.php</a>.</p>
+
+<ul>
+  <li>Select all elements matching "XPATH1" and print the value of their sub-element "XPATH2":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml select --template --match "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH1</span><code class="language-plaintext highlighter-rouge">" --value-of "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH2</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span></p>
+
+<ul>
+  <li>Match "XPATH1" and print the value of "XPATH2" as text with new-lines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml select --text --template --match "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH1</span><code class="language-plaintext highlighter-rouge">" --value-of "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH2</span><code class="language-plaintext highlighter-rouge">" --nl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span></p>
+
+<ul>
+  <li>Count the elements of "XPATH1":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml select --template --value-of "count(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH1</span><code class="language-plaintext highlighter-rouge">)" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span></p>
+
+<ul>
+  <li>Count all nodes in one or more XML documents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml select --text --template --inp-name --output " " --value-of "count(node())" --nl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.xml|URI</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input2.xml|URI</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml select --help</code></p>

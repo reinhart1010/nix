@@ -1,0 +1,34 @@
+<h1 id="wc">wc</h1>
+
+<p>줄, 단어 또는 바이트 수를 계산.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/wc.1.html">https://keith.github.io/xcode-man-pages/wc.1.html</a>.</p>
+
+<ul>
+  <li>[f]파일의 줄 수 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>[f]파일의 단어 수 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>[f]파일의 문자 수(바이트) 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>멀티바이트 문자 집합을 고려하여 [f]파일의 문자 수 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>을 사용하여 순서대로 줄, 단어 및 문자 수(바이트) 계산:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find .</span><code class="language-plaintext highlighter-rouge"> | wc</code></p>

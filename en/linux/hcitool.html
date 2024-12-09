@@ -1,0 +1,52 @@
+<h1 id="hcitool">hcitool</h1>
+
+<p>Monitor, configure connections, and send special commands to Bluetooth devices.
+More information: <a href="https://manned.org/hcitool">https://manned.org/hcitool</a>.</p>
+
+<ul>
+  <li>Scan for Bluetooth devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool scan</code></p>
+
+<ul>
+  <li>Output the name of a device, returning its MAC address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bdaddr</span></p>
+
+<ul>
+  <li>Fetch information about a remote Bluetooth device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bdaddr</span></p>
+
+<ul>
+  <li>Check the link quality to a Bluetooth device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool lq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bdaddr</span></p>
+
+<ul>
+  <li>Modify the transmit power level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool tpl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bdaddr</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1</span></p>
+
+<ul>
+  <li>Display the link policy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool lp</code></p>
+
+<ul>
+  <li>Request authentication with a specific device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bdaddr</span></p>
+
+<ul>
+  <li>Display local devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool dev</code></p>

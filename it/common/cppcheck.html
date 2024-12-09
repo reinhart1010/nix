@@ -1,0 +1,47 @@
+<h1 id="cppcheck">cppcheck</h1>
+
+<p>Strumento di analisi statica per codice C/C++.
+Piuttosto che sugli errori di sintassi, si concentra su tipi di bug che normalmente non vengono rilevati dai compilatori.
+Maggiori informazioni: <a href="https://cppcheck.sourceforge.net">https://cppcheck.sourceforge.net</a>.</p>
+
+<ul>
+  <li>Controlla la directory corrente ricorsivamente, mostrando il progresso a schermo e loggando i messaggi di errore in un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppcheck . 2&gt; cppcheck.log</code></p>
+
+<ul>
+  <li>Controlla una determinata directory ricorsivamente, senza stampare informazioni sul progresso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppcheck --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span></p>
+
+<ul>
+  <li>Controlla un determinato file, specificando quali test eseguire (di default, solo gli errori sono mostrati):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppcheck --enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error|warning|style|performance|portability|information|all</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.cpp</span></p>
+
+<ul>
+  <li>Elenca i test disponibili:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppcheck --errorlist</code></p>
+
+<ul>
+  <li>Controlla un determinato file, ignorando specifici test:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppcheck --suppress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_test1</span><code class="language-plaintext highlighter-rouge"> --suppress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">it_test2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.cpp</span></p>
+
+<ul>
+  <li>Controlla la directory corrente, fornendo percorsi da includere per file esterni (e.g. librerie esterne):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppcheck -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">include/directory_1</span><code class="language-plaintext highlighter-rouge"> -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">include/directory_2</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>Controlla un progetto Microsoft Visual Studio (<code class="language-plaintext highlighter-rouge">*.vcxproj</code>) o file solution (<code class="language-plaintext highlighter-rouge">*.sln</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cppcheck --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/progetto.sln</span></p>

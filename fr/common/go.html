@@ -1,0 +1,47 @@
+<h1 id="go">go</h1>
+
+<p>Outil de gestion du code source Go.
+Certaines sous-commandes telles que <code class="language-plaintext highlighter-rouge">build</code> ont leur propre documentation d'utilisation.
+Plus d'informations : <a href="https://golang.org">https://golang.org</a>.</p>
+
+<ul>
+  <li>Télécharger et installer un paquet, spécifié par son chemin d'importation :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin_du_paquet</span></p>
+
+<ul>
+  <li>Compiler et exécuter un fichier source (il doit contenir un paquet <code class="language-plaintext highlighter-rouge">main</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span><code class="language-plaintext highlighter-rouge">.go</code></p>
+
+<ul>
+  <li>Compiler un fichier source dans un exécutable nommé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span><code class="language-plaintext highlighter-rouge">.go</code></p>
+
+<ul>
+  <li>Compile le paquet présent dans le répertoire courant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build</code></p>
+
+<ul>
+  <li>Exécuter tous les cas de test du paquet courant (les fichiers doivent se terminer par <code class="language-plaintext highlighter-rouge">_test.go</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test</code></p>
+
+<ul>
+  <li>Compiler et installer le paquet actuel :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go install</code></p>
+
+<ul>
+  <li>Initialiser un nouveau module dans le répertoire courant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_module</span></p>

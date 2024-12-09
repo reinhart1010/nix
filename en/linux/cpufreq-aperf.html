@@ -1,0 +1,29 @@
+<h1 id="cpufreq-aperf">cpufreq-aperf</h1>
+
+<p>Calculate the average CPU frequency over a time period.
+Requires root privileges.
+More information: <a href="https://manned.org/cpufreq-aperf">https://manned.org/cpufreq-aperf</a>.</p>
+
+<ul>
+  <li>Start calculating, defaulting to all CPU cores and 1 second refresh interval:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpufreq-aperf</code></p>
+
+<ul>
+  <li>Start calculating for CPU 1 only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpufreq-aperf -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Start calculating with a 3 second refresh interval for all CPU cores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpufreq-aperf -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Calculate only once:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpufreq-aperf -o</code></p>

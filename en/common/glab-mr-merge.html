@@ -1,0 +1,34 @@
+<h1 id="glab-mr-merge">glab mr merge</h1>
+
+<p>Merge GitLab merge requests.
+More information: <a href="https://glab.readthedocs.io/en/latest/mr/merge.html">https://glab.readthedocs.io/en/latest/mr/merge.html</a>.</p>
+
+<ul>
+  <li>Merge the merge request associated with the current branch interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr merge</code></p>
+
+<ul>
+  <li>Merge the specified merge request, interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mr_number</span></p>
+
+<ul>
+  <li>Merge the merge request, removing the branch on both the local and the remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr merge --remove-source-branch</code></p>
+
+<ul>
+  <li>Squash the current merge request into one commit with the message body and merge:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr merge --squash --message="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_message_body</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr merge --help</code></p>

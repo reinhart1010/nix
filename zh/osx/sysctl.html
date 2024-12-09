@@ -1,0 +1,34 @@
+<h1 id="sysctl">sysctl</h1>
+
+<p>访问内核状态信息。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/sysctl.8.html">https://keith.github.io/xcode-man-pages/sysctl.8.html</a>.</p>
+
+<ul>
+  <li>显示所有可用变量及其值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysctl -a</code></p>
+
+<ul>
+  <li>显示 Apple 型号标识符：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysctl -n hw.model</code></p>
+
+<ul>
+  <li>显示 CPU 模型：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysctl -n machdep.cpu.brand_string</code></p>
+
+<ul>
+  <li>显示可用的 CPU 功能（MMX, SSE, SSE2, SSE3, AES, 等）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysctl -n machdep.cpu.features</code></p>
+
+<ul>
+  <li>设置一个可更改的内核状态变量：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysctl -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">部分。可修改的变量</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值</span></p>

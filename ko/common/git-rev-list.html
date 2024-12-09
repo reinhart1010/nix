@@ -1,0 +1,34 @@
+<h1 id="git-rev-list">git rev-list</h1>
+
+<p>리비전(커밋)을 역순으로 나열합니다.
+더 많은 정보: <a href="https://git-scm.com/docs/git-rev-list">https://git-scm.com/docs/git-rev-list</a>.</p>
+
+<ul>
+  <li>현재 브랜치의 모든 커밋 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>특정 파일이 변경(추가/편집/제거)된 최신 커밋 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–max-count</span><code class="language-plaintext highlighter-rouge"> 1 HEAD -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 날짜 이후의 커밋을 특정 브랜치에서 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list --since "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2019-12-01 00:00:00</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름</span></p>
+
+<ul>
+  <li>특정 커밋의 모든 병합 커밋 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list --merges </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span></p>
+
+<ul>
+  <li>특정 태그 이후의 커밋 수 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그_이름</span><code class="language-plaintext highlighter-rouge">..HEAD --count</code></p>

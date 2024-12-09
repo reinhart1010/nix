@@ -1,0 +1,22 @@
+<h1 id="ogrmergepy">ogrmerge.py</h1>
+
+<p>여러 벡터 데이터셋을 하나로 병합.
+더 많은 정보: <a href="https://gdal.org/programs/ogrmerge.html">https://gdal.org/programs/ogrmerge.html</a>.</p>
+
+<ul>
+  <li>각 입력 셰이프파일에 대해 레이어가 포함된 GeoPackage 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrmerge.py -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GPKG</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.gpkg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력1.shp 경로/대상/입력2.shp …</span></p>
+
+<ul>
+  <li>각 입력 GeoJSON에 대해 레이어가 포함된 가상 데이터 소스(VRT) 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrmerge.py -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VRT</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.vrt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력1.geojson 경로/대상/입력2.geojson …</span></p>
+
+<ul>
+  <li>두 벡터 데이터셋을 연결하고 속성 'source_name'에 데이터셋의 소스 이름 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrmerge.py -single -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GeoJSON</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.geojson</span><code class="language-plaintext highlighter-rouge"> -src_layer_field_name country </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력1.shp 경로/대상/입력2.shp …</span></p>

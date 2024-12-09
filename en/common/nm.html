@@ -1,0 +1,28 @@
+<h1 id="nm">nm</h1>
+
+<p>List symbol names in object files.
+More information: <a href="https://manned.org/nm">https://manned.org/nm</a>.</p>
+
+<ul>
+  <li>List global (extern) functions in a file (prefixed with T):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nm -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.o</span></p>
+
+<ul>
+  <li>List only undefined symbols in a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nm -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.o</span></p>
+
+<ul>
+  <li>List all symbols, even debugging symbols:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nm -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.o</span></p>
+
+<ul>
+  <li>Demangle C++ symbols (make them readable):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nm --demangle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.o</span></p>

@@ -1,0 +1,40 @@
+<h1 id="hyperfine">hyperfine</h1>
+
+<p>커멘드라인 벤치마킹 도구.
+더 많은 정보: <a href="https://github.com/sharkdp/hyperfine/">https://github.com/sharkdp/hyperfine/</a>.</p>
+
+<ul>
+  <li>최소 10회 실행하여, 기본 벤치마크를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>비교 벤치마크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make target1</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make target2</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>최소 벤치마킹 실행 횟수 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine --min-runs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>웜업으로 벤치마크 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine --warmup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>각 벤치마크 실행 전에 명령을 실행 (캐시 지우기, 등):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine --prepare '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make clean</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>각 실행마다 단일 매개변수가 변경되는 벤치마크를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine --prepare '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make clean</span><code class="language-plaintext highlighter-rouge">' --parameter-scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스레드_수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make -j {스레드_수}</span><code class="language-plaintext highlighter-rouge">'</code></p>

@@ -1,0 +1,41 @@
+<h1 id="gitsome">gitsome</h1>
+
+<p>A terminal-based interface for GitHub, accessed via the <code class="language-plaintext highlighter-rouge">gh</code> command.
+It also provides menu-style autocomplete suggestions for <code class="language-plaintext highlighter-rouge">git</code> commands.
+More information: <a href="https://github.com/donnemartin/gitsome">https://github.com/donnemartin/gitsome</a>.</p>
+
+<ul>
+  <li>Enter the gitsome shell (optional), to enable autocompletion and interactive help for Git (and gh) commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitsome</code></p>
+
+<ul>
+  <li>Setup GitHub integration with the current account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh configure</code></p>
+
+<ul>
+  <li>List notifications for the current account (as would be seen in <a href="https://github.com/notifications">https://github.com/notifications</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh notifications</code></p>
+
+<ul>
+  <li>List the current account's starred repos, filtered by a given search string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh starred "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python 3</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>View the recent activity feed of a given GitHub repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh feed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tldr-pages/tldr</span></p>
+
+<ul>
+  <li>View the recent activity feed for a given GitHub user, using the default pager (e.g. <code class="language-plaintext highlighter-rouge">less</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh feed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">torvalds</span><code class="language-plaintext highlighter-rouge"> -p</code></p>

@@ -1,0 +1,28 @@
+<h1 id="ppmtoilbm">ppmtoilbm</h1>
+
+<p>PPM 이미지를 ILBM 파일로 변환.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/ppmtoilbm.html">https://netpbm.sourceforge.net/doc/ppmtoilbm.html</a>.</p>
+
+<ul>
+  <li>PPM 이미지를 ILBM 파일로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoilbm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ilbm</span></p>
+
+<ul>
+  <li>ILBM 파일에 최대 <code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;n&lt;/span&gt;</code>개의 플레인 작성하고, 이 수를 초과하면 HAM/24비트/직접 색상 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoilbm -maxplanes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hamif|24if|dcif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ilbm</span></p>
+
+<ul>
+  <li>정확히 <code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;n&lt;/span&gt;</code>개의 플레인으로 ILBM 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoilbm -fixplanes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ilbm</span></p>
+
+<ul>
+  <li>사용할 압축 방법 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoilbm -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compress|nocompress|savemem</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ilbm</span></p>

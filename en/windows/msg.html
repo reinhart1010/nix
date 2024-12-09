@@ -1,0 +1,34 @@
+<h1 id="msg">msg</h1>
+
+<p>Send a message to a user or session.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/msg">https://learn.microsoft.com/windows-server/administration/windows-commands/msg</a>.</p>
+
+<ul>
+  <li>Send a message to a specified user or session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username|session_name|session_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span></p>
+
+<ul>
+  <li>Send a message from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">" | msg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username|session_name|session_id</span></p>
+
+<ul>
+  <li>Send a message to a specific server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msg /server:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username|session_name|session_id</span></p>
+
+<ul>
+  <li>Send a message to all users of the current machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msg *</code></p>
+
+<ul>
+  <li>Set a delay in seconds for a message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msg /time:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>

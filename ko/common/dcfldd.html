@@ -1,0 +1,16 @@
+<h1 id="dcfldd">dcfldd</h1>
+
+<p>법의학 및 보안을 위한 향상된 dd 버전.
+더 많은 정보: <a href="https://dcfldd.sourceforge.net/">https://dcfldd.sourceforge.net/</a>.</p>
+
+<ul>
+  <li>원시 이미지 파일에 디스크를 복사하고 SHA256을 사용해 이미지를 해시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dcfldd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disk_device</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.img</span><code class="language-plaintext highlighter-rouge"> hash=sha256 hashlog=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.hash</span></p>
+
+<ul>
+  <li>디스크를 원시 이미지 파일에 복사하여, 각 1GB 청크를 해싱:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dcfldd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disk_device</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.img</span><code class="language-plaintext highlighter-rouge"> hash=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha512|sha384|sha256|sha1|md5</span><code class="language-plaintext highlighter-rouge"> hashlog=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.hash</span><code class="language-plaintext highlighter-rouge"> hashwindow=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1G</span></p>

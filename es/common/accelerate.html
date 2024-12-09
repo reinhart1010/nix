@@ -1,0 +1,40 @@
+<h1 id="accelerate">accelerate</h1>
+
+<p>Una biblioteca que permite ejecutar el mismo código PyTorch en cualquier configuración distribuida.
+Más información: <a href="https://huggingface.co/docs/accelerate/index">https://huggingface.co/docs/accelerate/index</a>.</p>
+
+<ul>
+  <li>Imprime información del entorno:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate env</code></p>
+
+<ul>
+  <li>Crea interactivamente un archivo de configuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate config</code></p>
+
+<ul>
+  <li>Imprime el coste estimado en memoria de la GPU al ejecutar un modelo Hugging Face con distintos tipos de datos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate estimate-memory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre/modelo</span></p>
+
+<ul>
+  <li>Prueba un archivo de configuración de Accelerate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate test --config_file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/config.yaml</span></p>
+
+<ul>
+  <li>Ejecuta un modelo en CPU con Accelerate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/script.py</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–cpu</span></p>
+
+<ul>
+  <li>Ejecuta un modelo en multi-GPU con Accelerate, con 2 máquinas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/script.py</span><code class="language-plaintext highlighter-rouge"> --multi_gpu --num_machines 2</code></p>

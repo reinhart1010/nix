@@ -1,0 +1,52 @@
+<h1 id="git-checkout">git checkout</h1>
+
+<p>Comprueba una rama o rutas con el árbol de trabajo.
+Más información: <a href="https://git-scm.com/docs/git-checkout">https://git-scm.com/docs/git-checkout</a>.</p>
+
+<ul>
+  <li>Crea una nueva rama y se cambia a la misma:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span></p>
+
+<ul>
+  <li>Crea una nueva rama a partir de una referencia específica (rama, remoto/rama, las etiquetas son ejemplos de referencias válidas) y cambiarse a esta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">referencia</span></p>
+
+<ul>
+  <li>Cambia a una rama local existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span></p>
+
+<ul>
+  <li>Cambia a la rama previamente comprobada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout -</code></p>
+
+<ul>
+  <li>Cambia a una rama remota existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout --track </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span></p>
+
+<ul>
+  <li>Descarta todos los cambios sin marcar en el directorio actual (vea <code class="language-plaintext highlighter-rouge">git reset</code> para más comandos para deshacer):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout .</code></p>
+
+<ul>
+  <li>Descarta los cambios no marcados de un archivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_archivo</span></p>
+
+<ul>
+  <li>Reemplaza un archivo en el directorio actual con la versión de este en la confirmación de una rama específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_archivo</span></p>

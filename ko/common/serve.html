@@ -1,0 +1,46 @@
+<h1 id="serve">serve</h1>
+
+<p>정적 파일 제공 및 디렉토리 목록화 도구.
+더 많은 정보: <a href="https://github.com/vercel/serve">https://github.com/vercel/serve</a>.</p>
+
+<ul>
+  <li>기본 포트에서 현재 디렉토리를 제공하는 HTTP 서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve</code></p>
+
+<ul>
+  <li>특정 [p]포트에서 특정 디렉토리를 제공하는 HTTP 서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>모든 응답에 <code class="language-plaintext highlighter-rouge">Access-Control-Allow-Origin: *</code> 헤더를 포함하여 CORS가 활성화된 HTTP 서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve --cors</code></p>
+
+<ul>
+  <li>모든 찾을 수 없는 요청을 <code class="language-plaintext highlighter-rouge">index.html</code> 파일로 리다이렉트하는 기본 포트의 HTTP 서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve --single</code></p>
+
+<ul>
+  <li>지정된 인증서를 사용하여 기본 포트에서 HTTPS 서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve --ssl-cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/인증서.pem</span><code class="language-plaintext highlighter-rouge"> --ssl-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키.pem</span></p>
+
+<ul>
+  <li>특정 구성 파일을 사용하여 기본 포트에서 HTTP 서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/서버.json</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve --help</code></p>

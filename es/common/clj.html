@@ -1,0 +1,41 @@
+<h1 id="clj">clj</h1>
+
+<p>Herramienta de Clojure para usar una interfaz interactiva (REPL) o invocar una función con datos.
+Todas las opciones se pueden definir en un archivo <code class="language-plaintext highlighter-rouge">deps.edn</code>.
+Más información: <a href="https://clojure.org/guides/deps_and_cli">https://clojure.org/guides/deps_and_cli</a>.</p>
+
+<ul>
+  <li>Inicia una REPL (interfaz interactiva):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clj</code></p>
+
+<ul>
+  <li>Ejecuta una función:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clj -X </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace/nombre_de_función</span></p>
+
+<ul>
+  <li>Ejecuta la función principal de un espacio de nombres (namespace) especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clj -M -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumentos</span></p>
+
+<ul>
+  <li>Prepara un proyecto resolviendo dependencias, descargando bibliotecas y haciendo/cacheando rutas de clases (classpaths):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clj -P</code></p>
+
+<ul>
+  <li>Inicia un servidor nREPL con el software intermedio (middleware) CIDER:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"}&lt;/span&gt;</code>' -m nrepl.cmdline –middleware '["cider.nrepl/cider-middleware"]' –interactive`</p>
+
+<ul>
+  <li>Inicia un REPL de ClojureScript y abre un navegador web:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}&lt;/span&gt;</code>' –main cljs.main –repl`</p>

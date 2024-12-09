@@ -1,0 +1,23 @@
+<h1 id="write">write</h1>
+
+<p>지정된 로그인 사용자에게 터미널에 메시지를 작성합니다 (ctrl-C로 메시지 작성을 중단할 수 있음).
+시스템에서 활성 사용자들의 모든 터미널 ID를 확인하려면 <code class="language-plaintext highlighter-rouge">who</code> 명령을 사용하세요. 같이 보기: <code class="language-plaintext highlighter-rouge">mesg</code>.
+더 많은 정보: <a href="https://manned.org/write">https://manned.org/write</a>.</p>
+
+<ul>
+  <li>지정된 사용자에게 주어진 터미널 ID로 메시지 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">터미널_ID</span></p>
+
+<ul>
+  <li>터미널 <code class="language-plaintext highlighter-rouge">/dev/tty/5</code>에서 "testuser"에게 메시지 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">testuser</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty/5</span></p>
+
+<ul>
+  <li>의사 터미널 <code class="language-plaintext highlighter-rouge">/dev/pts/5</code>에서 "johndoe"에게 메시지 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">johndoe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pts/5</span></p>

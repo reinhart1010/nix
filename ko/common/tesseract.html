@@ -1,0 +1,34 @@
+<h1 id="tesseract">tesseract</h1>
+
+<p>OCR (Optical Character Recognition) 엔진.
+더 많은 정보: <a href="https://github.com/tesseract-ocr/tesseract">https://github.com/tesseract-ocr/tesseract</a>.</p>
+
+<ul>
+  <li>이미지에서 텍스트를 인식하여 <code class="language-plaintext highlighter-rouge">output.txt</code>에 저장 (<code class="language-plaintext highlighter-rouge">.txt</code> 확장자는 자동으로 추가됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tesseract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력</span></p>
+
+<ul>
+  <li>ISO 639-2 코드로 사용자 정의 언어 지정 (기본값은 영어, 예: deu = Deutsch = 독일어):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tesseract -l deu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력</span></p>
+
+<ul>
+  <li>사용 가능한 언어의 ISO 639-2 코드 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tesseract --list-langs</code></p>
+
+<ul>
+  <li>사용자 정의 페이지 세분화 모드 지정 (기본값은 3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tesseract --psm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0에서_10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력</span></p>
+
+<ul>
+  <li>페이지 세분화 모드 및 설명 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tesseract --help-psm</code></p>

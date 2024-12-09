@@ -1,0 +1,40 @@
+<h1 id="ab">ab</h1>
+
+<p>Apache HTTP server benchmarking tool.
+More information: <a href="https://httpd.apache.org/docs/current/programs/ab.html">https://httpd.apache.org/docs/current/programs/ab.html</a>.</p>
+
+<ul>
+  <li>Execute 100 HTTP GET requests to a given URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Execute 100 HTTP GET requests, in concurrent batches of 10, to a URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 -c 10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Execute 100 HTTP POST requests to a URL, using a JSON payload from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Use HTTP [k]eep-Alive, i.e. perform multiple requests within one HTTP session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Set the maximum number of seconds ([t]imeout) to spend for benchmarking (30 by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Write the results to a CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>

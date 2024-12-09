@@ -1,0 +1,35 @@
+<h1 id="soupault">soupault</h1>
+
+<p>A static website generator based on HTML element tree rewriting.
+It can also be used as an HTML post-processor or metadata extractor.
+More information: <a href="https://soupault.app">https://soupault.app</a>.</p>
+
+<ul>
+  <li>Initialize a minimal website project in the current working directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">soupault --init</code></p>
+
+<ul>
+  <li>Build a website:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">soupault</code></p>
+
+<ul>
+  <li>Override default configuration file and directory locations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">soupault --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config_path</span><code class="language-plaintext highlighter-rouge"> --site-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_dir</span><code class="language-plaintext highlighter-rouge"> --build-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_dir</span></p>
+
+<ul>
+  <li>Extract metadata into a JSON file without generating pages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">soupault --index-only --dump-index-json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span></p>
+
+<ul>
+  <li>Show the effective configuration (values from <code class="language-plaintext highlighter-rouge">soupault.toml</code> plus defaults):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">soupault --show-effective-config</code></p>

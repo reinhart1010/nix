@@ -1,0 +1,41 @@
+<h1 id="pacman-files">pacman –files</h1>
+
+<p>Arch Linux package manager utility.
+See also: <code class="language-plaintext highlighter-rouge">pacman</code>, <code class="language-plaintext highlighter-rouge">pkgfile</code>.
+More information: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Update the package database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Fy</code></p>
+
+<ul>
+  <li>Find the package that owns a specific [F]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Find the package that owns a specific [F]ile, using a regular e[x]pression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fx '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>List only the package names:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>[l]ist the [F]iles owned by a specific package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Display [h]elp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fh</code></p>

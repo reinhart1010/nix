@@ -1,0 +1,52 @@
+<h1 id="tree">tree</h1>
+
+<p>Mevcut dizinin içeriğini ağaç biçiminde göster.
+Daha fazla bilgi için: <a href="https://manned.org/tree">https://manned.org/tree</a>.</p>
+
+<ul>
+  <li>Dosya ve dizinleri <code class="language-plaintext highlighter-rouge">num</code> değeri kadar derinlikte göster (1 olması durumunda mevcut dizin gösterilir):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num</span></p>
+
+<ul>
+  <li>Yalnızca dizinleri göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -d</code></p>
+
+<ul>
+  <li>Renklendirme açık olacak şekilde gizli dosyaları dahi göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -a -C</code></p>
+
+<ul>
+  <li>Ağacın satırlarını girintiler yerine tüm yolu belirterek göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -i -f</code></p>
+
+<ul>
+  <li>Tüm dosyaların ve dizinlerin eklenerek artan boyutlarını, insanların okuyabileceği bir biçimde göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -s -h --du</code></p>
+
+<ul>
+  <li>Ağaç hiyerarşisi içindeki dosyaları bir wildcard (glob) kalıbı kullanarak ve aranan özellikteki dosyalara sahip olmayan dizinleri yoksayarak göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -P '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span><code class="language-plaintext highlighter-rouge">' --prune</code></p>
+
+<ul>
+  <li>Ağaç hiyerarşisi içindeki dizinleri bir wildcard (glob) kalıbı kullanarak ve istenen dizine atalığı olmayan dizinleri yoksayarak göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin_ismi</span><code class="language-plaintext highlighter-rouge"> --matchdirs --prune</code></p>
+
+<ul>
+  <li>Ağacı belirtilen dizinleri yoksayarak göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -I '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin_ismi1|dizin_ismi2</span><code class="language-plaintext highlighter-rouge">'</code></p>

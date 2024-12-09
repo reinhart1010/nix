@@ -1,0 +1,35 @@
+<h1 id="wireplumber">wireplumber</h1>
+
+<p>A modular session/policy manager for PipeWire and a GObject-based high-level library that wraps PipeWire’s API.
+See also: <code class="language-plaintext highlighter-rouge">wpctl</code>, <code class="language-plaintext highlighter-rouge">pipewire</code>.
+More information: <a href="https://pipewire.pages.freedesktop.org/wireplumber/">https://pipewire.pages.freedesktop.org/wireplumber/</a>.</p>
+
+<ul>
+  <li>Make WirePlumber start with the user session immediately (for systemd systems):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl --user --now enable wireplumber</code></p>
+
+<ul>
+  <li>Run WirePlumber, after <code class="language-plaintext highlighter-rouge">pipewire</code> is started (for non-systemd systems):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wireplumber</code></p>
+
+<ul>
+  <li>Specify a different context configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wireplumber --config-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wireplumber --help</code></p>
+
+<ul>
+  <li>Display version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wireplumber --version</code></p>

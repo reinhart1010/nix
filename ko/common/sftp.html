@@ -1,0 +1,54 @@
+<h1 id="sftp">sftp</h1>
+
+<p>안전한 파일 전송 프로그램.
+SSH를 통해 호스트 간 파일을 복사하는 대화형 프로그램.
+비대화형 파일 전송은 <code class="language-plaintext highlighter-rouge">scp</code> 또는 <code class="language-plaintext highlighter-rouge">rsync</code>를 참조하세요.
+더 많은 정보: <a href="https://manned.org/sftp">https://manned.org/sftp</a>.</p>
+
+<ul>
+  <li>원격 서버에 연결하고 대화형 명령 모드로 진입:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_사용자</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span></p>
+
+<ul>
+  <li>다른 포트를 사용하여 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sftp -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_포트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_사용자</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span></p>
+
+<ul>
+  <li>사전 정의된 호스트를 사용하여 연결 (<code class="language-plaintext highlighter-rouge">~/.ssh/config</code>에 설정된 경우):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>원격 파일을 로컬 시스템으로 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/원격_파일</span></p>
+
+<ul>
+  <li>로컬 파일을 원격 시스템으로 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">put </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/로컬_파일</span></p>
+
+<ul>
+  <li>원격 디렉토리를 로컬 시스템으로 재귀적으로 전송 (<code class="language-plaintext highlighter-rouge">put</code>에도 적용 가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">get -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/원격_디렉토리</span></p>
+
+<ul>
+  <li>로컬 컴퓨터의 파일 목록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lls</code></p>
+
+<ul>
+  <li>원격 컴퓨터의 파일 목록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls</code></p>

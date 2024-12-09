@@ -1,0 +1,28 @@
+<h1 id="dm-tool">dm-tool</h1>
+
+<p>디스플레이 관리자와 통신하는 도구.
+더 많은 정보: <a href="https://manned.org/dm-tool">https://manned.org/dm-tool</a>.</p>
+
+<ul>
+  <li>현재 데스크톱 세션을 열어두고 로그인한 사용자가 인증하면 복원되도록 하면서 그리터 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dm-tool switch-to-greeter</code></p>
+
+<ul>
+  <li>현재 세션 잠금:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dm-tool lock</code></p>
+
+<ul>
+  <li>특정 사용자로 전환하며 필요 시 인증 프롬프트 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dm-tool switch-to-user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세션</span></p>
+
+<ul>
+  <li>실행 중인 LightDM 세션 내에서 동적 시트 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dm-tool add-seat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xlocal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>

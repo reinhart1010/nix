@@ -1,0 +1,52 @@
+<h1 id="aptitude">aptitude</h1>
+
+<p>Debian ve Ubuntu paket yönetim aracı.
+Daha fazla bilgi için: <a href="https://manned.org/aptitude.8">https://manned.org/aptitude.8</a>.</p>
+
+<ul>
+  <li>Kullanılabilir paket ve sürüm listesini senkronize et. Bu, herhangi bir aptitude komutunu uygulamadan önce çalıştırılmalıdır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude update</code></p>
+
+<ul>
+  <li>Yeni bir paket ve onun bağımlılıklarını kur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Paket ara:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>İndirilmiş bir paket ara: (<code class="language-plaintext highlighter-rouge">?installed</code> bir aptitude arama ifadesidir):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude search '?installed(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span><code class="language-plaintext highlighter-rouge">)'</code></p>
+
+<ul>
+  <li>Bir paket ve onun bağımlılıklarını kaldır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Yüklü paketleri son kullanılabilir sürümlerine yükselt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude upgrade</code></p>
+
+<ul>
+  <li>Yüklü paketleri yükle (<code class="language-plaintext highlighter-rouge">aptitude upgrade</code> gibi), gereksizleri sil ve yeni bağımlılıkları karşılamak üzere ek paketler kur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude full-upgrade</code></p>
+
+<ul>
+  <li>Bir paketin otomatik yükseltilmesini engellemek için onu beklemede tut:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude hold '?installed(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span><code class="language-plaintext highlighter-rouge">)'</code></p>

@@ -1,0 +1,34 @@
+<h1 id="git-describe">git describe</h1>
+
+<p>Créer un nom unique et lisible pour un objet à partir d'une référence disponible.
+Plus d'informations : <a href="https://git-scm.com/docs/git-describe">https://git-scm.com/docs/git-describe</a>.</p>
+
+<ul>
+  <li>Créer un nom unique pour le commit courant (le nom contient le tag le plus récent, le nombre de commits additionnels, et l'empreinte abrégée du commit) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe</code></p>
+
+<ul>
+  <li>Créer un nom avec une empreinte de commit de 4 caractères :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe --abbrev=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Générer un nom avec le chemin complet du tag :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe --all</code></p>
+
+<ul>
+  <li>Décrire un tag Git :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">v1.0.0</span></p>
+
+<ul>
+  <li>Créer un nom pour le dernier commit d'une branche donnée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche</span></p>

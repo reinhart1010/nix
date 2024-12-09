@@ -1,0 +1,28 @@
+<h1 id="gyb">gyb</h1>
+
+<p>HTTPS를 통해 Gmail API를 사용하여 Gmail 메시지를 로컬로 백업.
+더 많은 정보: <a href="https://github.com/GAM-team/got-your-back">https://github.com/GAM-team/got-your-back</a>.</p>
+
+<ul>
+  <li>Gmail 계정에 있는 모든 이메일의 수와 크기를 추정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gyb --email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@gmail.com</span><code class="language-plaintext highlighter-rouge"> --action estimate</code></p>
+
+<ul>
+  <li>Gmail 계정을 특정 디렉토리에 백업:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gyb --email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@gmail.com</span><code class="language-plaintext highlighter-rouge"> --action backup --local-folder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span></p>
+
+<ul>
+  <li>Gmail 계정에서 중요하거나 별표 표시된 이메일만 기본 로컬 폴더에 백업:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gyb --email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@gmail.com</span><code class="language-plaintext highlighter-rouge"> --search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">is:important OR is:starred</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>로컬 폴더에서 Gmail 계정에서 복원:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gyb --email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@gmail.com</span><code class="language-plaintext highlighter-rouge"> --action restore --local-folder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span></p>

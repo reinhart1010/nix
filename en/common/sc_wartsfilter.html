@@ -1,0 +1,22 @@
+<h1 id="sc_wartsfilter">sc_wartsfilter</h1>
+
+<p>Select specific records from a <code class="language-plaintext highlighter-rouge">warts</code> file.
+More information: <a href="https://www.caida.org/catalog/software/scamper/">https://www.caida.org/catalog/software/scamper/</a>.</p>
+
+<ul>
+  <li>Filter all data records that had specific destinations and write them to a separate file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_wartsfilter -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.warts</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.warts</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.5</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.6</span></p>
+
+<ul>
+  <li>Filter all records that had certain destinations in a prefix and write them to a separate file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_wartsfilter -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.warts</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.warts</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8::/32</span></p>
+
+<ul>
+  <li>Filter all records that using a specific action and output them as JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_wartsfilter -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.warts</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ping</span><code class="language-plaintext highlighter-rouge"> | sc_warts2json</code></p>

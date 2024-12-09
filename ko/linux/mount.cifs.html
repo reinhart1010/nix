@@ -1,0 +1,23 @@
+<h1 id="mountcifs">mount.cifs</h1>
+
+<p>SMB (Server Message Block) 또는 CIFS (Common Internet File System) 공유를 마운트.
+참고: <code class="language-plaintext highlighter-rouge">mount</code>에 <code class="language-plaintext highlighter-rouge">-t cifs</code> 옵션을 전달하여 동일한 작업을 수행할 수 있습니다.
+더 많은 정보: <a href="https://manned.org/mount.cifs">https://manned.org/mount.cifs</a>.</p>
+
+<ul>
+  <li>지정된 사용자명 또는 기본적으로 <code class="language-plaintext highlighter-rouge">$USER</code>를 사용하여 연결 (비밀번호 입력 필요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">공유_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마운트_지점</span></p>
+
+<ul>
+  <li>게스트 사용자로 연결 (비밀번호 없이):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o guest //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">공유_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마운트_지점</span></p>
+
+<ul>
+  <li>마운트된 디렉토리의 소유권 정보 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o uid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_ID|사용자명</span><code class="language-plaintext highlighter-rouge">,gid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_ID|그룹명</span><code class="language-plaintext highlighter-rouge"> //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">공유_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마운트_지점</span></p>

@@ -1,0 +1,52 @@
+<h1 id="keyctl">keyctl</h1>
+
+<p>Manipulate the Linux kernel keyring.
+More information: <a href="https://manned.org/keyctl">https://manned.org/keyctl</a>.</p>
+
+<ul>
+  <li>List keys in a specific keyring:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_keyring</span></p>
+
+<ul>
+  <li>List current keys in the user default session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@us</span></p>
+
+<ul>
+  <li>Store a key in a specific keyring:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type_keyring</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_value</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_keyring</span></p>
+
+<ul>
+  <li>Store a key with its value from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_value</span><code class="language-plaintext highlighter-rouge"> | keyctl padd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type_keyring</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_keyring</span></p>
+
+<ul>
+  <li>Put a timeout on a key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">timeout_in_seconds</span></p>
+
+<ul>
+  <li>Read a key and format it as a hex-dump if not printable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span></p>
+
+<ul>
+  <li>Read a key and format as-is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl pipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span></p>
+
+<ul>
+  <li>Revoke a key and prevent any further action on it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span></p>

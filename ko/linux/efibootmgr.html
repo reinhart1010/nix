@@ -1,0 +1,34 @@
+<h1 id="efibootmgr">efibootmgr</h1>
+
+<p>UEFI 부트 매니저를 조작합니다.
+더 많은 정보: <a href="https://manned.org/efibootmgr">https://manned.org/efibootmgr</a>.</p>
+
+<ul>
+  <li>부트 옵션과 해당 번호를 모두 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">efibootmgr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–unicode</span></p>
+
+<ul>
+  <li>UEFI Shell v2를 부트 옵션으로 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo efibootmgr -c -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> -l "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\경로\대상\shell.efi</span><code class="language-plaintext highlighter-rouge">" -L "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UEFI Shell</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Linux를 부트 옵션으로 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo efibootmgr --create --disk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span><code class="language-plaintext highlighter-rouge"> --part </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --loader "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\vmlinuz</span><code class="language-plaintext highlighter-rouge">" --unicode "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kernel_cmdline</span><code class="language-plaintext highlighter-rouge">" --label "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Linux</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>현재 부트 순서 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo efibootmgr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–bootorder</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0002,0008,0001,0005</span></p>
+
+<ul>
+  <li>부트 옵션 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo efibootmgr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-b|–bootnum</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0008</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-B|–delete-bootnum</span></p>

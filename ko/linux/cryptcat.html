@@ -1,0 +1,34 @@
+<h1 id="cryptcat">cryptcat</h1>
+
+<p>Cryptcat은 암호화 기능을 갖춘 netcat입니다.
+더 많은 정보: <a href="https://cryptcat.sourceforge.net">https://cryptcat.sourceforge.net</a>.</p>
+
+<ul>
+  <li>지정된 [p]포트에서 [l]수신하고 받은 데이터를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptcat -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -l -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>특정 포트에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptcat -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP_주소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>타임아웃([w]) 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptcat -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초_단위_타임아웃</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP_주소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>지정된 호스트의 열린 포트 [z]스캔:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptcat -v -z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP_주소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>프록시로 작동하여 로컬 TCP 포트에서 지정된 원격 호스트로 데이터 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptcat -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -l -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로컬_포트</span><code class="language-plaintext highlighter-rouge"> | cryptcat -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_포트</span></p>

@@ -1,0 +1,46 @@
+<h1 id="mlr">mlr</h1>
+
+<p>Miller는 CSV, TSV 및 표 형식 JSON과 같은 이름으로 색인된 데이터를 위한 <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">sed</code>, <code class="language-plaintext highlighter-rouge">cut</code>, <code class="language-plaintext highlighter-rouge">join</code>, <code class="language-plaintext highlighter-rouge">sort</code>와 유사합니다.
+더 많은 정보: <a href="https://johnkerl.org/miller/doc">https://johnkerl.org/miller/doc</a>.</p>
+
+<ul>
+  <li>CSV 파일을 표 형식으로 보기 좋게 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mlr --icsv --opprint cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">예제.csv</span></p>
+
+<ul>
+  <li>JSON 데이터를 받아 출력 형식을 보기 좋게 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '{"hello":"world"}' | mlr --ijson --opprint cat</code></p>
+
+<ul>
+  <li>특정 필드를 알파벳 순서로 정렬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mlr --icsv --opprint sort -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">예제.csv</span></p>
+
+<ul>
+  <li>특정 필드를 내림차순 숫자 순서로 정렬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mlr --icsv --opprint sort -nr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">예제.csv</span></p>
+
+<ul>
+  <li>CSV를 JSON으로 변환하며 계산 수행 및 계산 결과 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mlr --icsv --ojson put '$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새필드1</span><code class="language-plaintext highlighter-rouge"> = $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옛필드A</span><code class="language-plaintext highlighter-rouge">/$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옛필드B</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">예제.csv</span></p>
+
+<ul>
+  <li>JSON을 받아 출력 형식을 수직 JSON으로 포맷:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat</code></p>
+
+<ul>
+  <li>압축된 CSV 파일의 숫자를 문자열로 처리하여 행 필터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mlr --prepipe 'gunzip' --csv filter -S '$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드명</span><code class="language-plaintext highlighter-rouge"> =~ "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규_표현식</span><code class="language-plaintext highlighter-rouge">"' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">예제.csv.gz</span></p>

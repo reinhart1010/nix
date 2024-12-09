@@ -1,0 +1,46 @@
+<h1 id="knife">knife</h1>
+
+<p>로컬 Chef 저장소에서 Chef 서버와 상호 작용.
+더 많은 정보: <a href="https://docs.chef.io/knife.html">https://docs.chef.io/knife.html</a>.</p>
+
+<ul>
+  <li>새 노드 부트스트랩:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife bootstrap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fqdn_또는_ip</span></p>
+
+<ul>
+  <li>등록된 모든 노드 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife node list</code></p>
+
+<ul>
+  <li>노드 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife node show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노드_이름</span></p>
+
+<ul>
+  <li>노드 편집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife node edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노드_이름</span></p>
+
+<ul>
+  <li>역할 편집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife role edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">역할_이름</span></p>
+
+<ul>
+  <li>데이터 백 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife data bag show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터_백_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터_백_항목</span></p>
+
+<ul>
+  <li>로컬 쿠크북을 Chef 서버에 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife cookbook upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쿠크북_이름</span></p>

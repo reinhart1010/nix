@@ -1,0 +1,28 @@
+<h1 id="chpasswd">chpasswd</h1>
+
+<p>여러 사용자의 비밀번호를 <code class="language-plaintext highlighter-rouge">stdin</code>을 통해 변경합니다.
+더 많은 정보: <a href="https://manned.org/chpasswd.8">https://manned.org/chpasswd.8</a>.</p>
+
+<ul>
+  <li>특정 사용자의 비밀번호 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_비밀번호</span><code class="language-plaintext highlighter-rouge">" | sudo chpasswd</code></p>
+
+<ul>
+  <li>여러 사용자의 비밀번호 변경 (입력 텍스트에는 공백이 없어야 합니다.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명_1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_비밀번호_1</span><code class="language-plaintext highlighter-rouge">\n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명_2</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_비밀번호_2</span><code class="language-plaintext highlighter-rouge">" | sudo chpasswd</code></p>
+
+<ul>
+  <li>특정 사용자의 비밀번호를 암호화된 형태로 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_암호화된_비밀번호</span><code class="language-plaintext highlighter-rouge">" | sudo chpasswd --encrypted</code></p>
+
+<ul>
+  <li>특정 사용자의 비밀번호를 변경하고 저장된 비밀번호에 특정 암호화를 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_비밀번호</span><code class="language-plaintext highlighter-rouge">" | sudo chpasswd --crypt-method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NONE|DES|MD5|SHA256|SHA512</span></p>

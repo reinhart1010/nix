@@ -1,0 +1,34 @@
+<h1 id="dvc-diff">dvc diff</h1>
+
+<p>DVC로 추적된 파일과 디렉토리의 변경 사항을 표시.
+더 많은 정보: <a href="https://dvc.org/doc/command-reference/diff">https://dvc.org/doc/command-reference/diff</a>.</p>
+
+<ul>
+  <li>다른 Git 커밋, 태그, 브랜치와 현재 작업 공간을 기준으로 DVC로 추적된 파일 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해시/태그/브랜치</span></p>
+
+<ul>
+  <li>한 Git 커밋에서 다른 커밋으로의 DVC로 추적된 파일의 변경 사항 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리비전1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리비전2</span></p>
+
+<ul>
+  <li>DVC로 추적된 파일을 최신 해시와 함께 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc diff --show-hash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span></p>
+
+<ul>
+  <li>DVC로 추적된 파일을 JSON 형식으로 출력하여 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc diff --show-json --show-hash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span></p>
+
+<ul>
+  <li>DVC로 추적된 파일을 Markdown 형식으로 출력하여 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc diff --show-md --show-hash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span></p>

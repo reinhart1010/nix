@@ -1,0 +1,46 @@
+<h1 id="tsc">tsc</h1>
+
+<p>TypeScript compiler.
+More information: <a href="https://www.typescriptlang.org/docs/handbook/compiler-options.html">https://www.typescriptlang.org/docs/handbook/compiler-options.html</a>.</p>
+
+<ul>
+  <li>Compile a TypeScript file <code class="language-plaintext highlighter-rouge">foobar.ts</code> into a JavaScript file <code class="language-plaintext highlighter-rouge">foobar.js</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foobar.ts</span></p>
+
+<ul>
+  <li>Compile a TypeScript file into JavaScript using a specific target syntax (default is <code class="language-plaintext highlighter-rouge">ES3</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsc --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ES5|ES2015|ES2016|ES2017|ES2018|ESNEXT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foobar.ts</span></p>
+
+<ul>
+  <li>Compile a TypeScript file into a JavaScript file with a custom name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsc --outFile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.js</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.ts</span></p>
+
+<ul>
+  <li>Compile all <code class="language-plaintext highlighter-rouge">.ts</code> files of a TypeScript project defined in a <code class="language-plaintext highlighter-rouge">tsconfig.json</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsc --build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tsconfig.json</span></p>
+
+<ul>
+  <li>Run the compiler using command-line options and arguments fetched from a text file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsc @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">args.txt</span></p>
+
+<ul>
+  <li>Type-check multiple JavaScript files, and output only the errors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsc --allowJs --checkJs --noEmit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">src/<em>*/</em>.js</span></p>
+
+<ul>
+  <li>Run the compiler in watch mode, which automatically recompiles code when it changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsc --watch</code></p>

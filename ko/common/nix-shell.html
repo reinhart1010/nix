@@ -1,0 +1,41 @@
+<h1 id="nix-shell">nix-shell</h1>
+
+<p>Nix 표현을 기반으로 대화형 셸 시작.
+같이 보기: <code class="language-plaintext highlighter-rouge">nix3 shell</code>.
+더 많은 정보: <a href="https://nixos.org/manual/nix/stable/command-ref/nix-shell.html">https://nixos.org/manual/nix/stable/command-ref/nix-shell.html</a>.</p>
+
+<ul>
+  <li>현재 디렉터리의 <code class="language-plaintext highlighter-rouge">shell.nix</code> 또는 <code class="language-plaintext highlighter-rouge">default.nix</code>의 nix 표현으로 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell</code></p>
+
+<ul>
+  <li>비대화형 셸에서 셸 명령 실행 후 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell --run "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수1 인수2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>현재 디렉터리의 <code class="language-plaintext highlighter-rouge">default.nix</code>의 표현으로 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default.nix</span></p>
+
+<ul>
+  <li>nixpkgs에서 로드된 패키지로 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell --packages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지1 패키지2 …</span></p>
+
+<ul>
+  <li>특정 nixpkgs 리비전에서 로드된 패키지로 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell --packages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지1 패키지2 …</span><code class="language-plaintext highlighter-rouge"> -I nixpkgs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz</span></p>
+
+<ul>
+  <li>특정 인터프리터에서 파일의 나머지를 평가하여 <code class="language-plaintext highlighter-rouge">#!-scripts</code>에서 사용 (자세한 내용은 <a href="https://nixos.org/manual/nix/stable/#use-as-a-interpreter">https://nixos.org/manual/nix/stable/#use-as-a-interpreter</a> 참고):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터프리터</span><code class="language-plaintext highlighter-rouge"> --packages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지1 패키지2 …</span></p>

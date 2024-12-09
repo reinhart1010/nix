@@ -1,0 +1,23 @@
+<h1 id="csvsql">csvsql</h1>
+
+<p>CSV 파일에 대한 SQL문을 생성하거나 해당 문을 데이터베이스에서 직접 실행.
+csvkit에 포함됨.
+더 많은 정보: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvsql.html">https://csvkit.readthedocs.io/en/latest/scripts/csvsql.html</a>.</p>
+
+<ul>
+  <li>CSV 파일에 대한 <code class="language-plaintext highlighter-rouge">CREATE TABLE</code> SQL 문을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터.csv</span></p>
+
+<ul>
+  <li>CSV 파일을 SQL 데이터베이스로 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsql --insert --db "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mysql://user:password@host/database</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.csv</span></p>
+
+<ul>
+  <li>CSV 파일에서 SQL 쿼리를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsql --query "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">select * from 'data'</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.csv</span></p>

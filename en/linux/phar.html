@@ -1,0 +1,52 @@
+<h1 id="phar">phar</h1>
+
+<p>Create, update or extract PHP archives (PHAR).
+More information: <a href="https://manned.org/phar">https://manned.org/phar</a>.</p>
+
+<ul>
+  <li>Add one or more files or directories to a Phar file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar add -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>Display the contents of a Phar file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar list -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span></p>
+
+<ul>
+  <li>Delete the specified file or directory from a Phar file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar delete -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_or_directory</span></p>
+
+<ul>
+  <li>Compress or uncompress files and directories in a Phar file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar compress -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algorithm</span></p>
+
+<ul>
+  <li>Get information about a Phar file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar info -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span></p>
+
+<ul>
+  <li>Sign a Phar file with a specific hash algorithm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar sign -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span><code class="language-plaintext highlighter-rouge"> -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algorithm</span></p>
+
+<ul>
+  <li>Sign a Phar file with an OpenSSL private key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar sign -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span><code class="language-plaintext highlighter-rouge"> -h openssl -y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/private_key</span></p>
+
+<ul>
+  <li>Display help and available hashing/compression algorithms:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar help</code></p>

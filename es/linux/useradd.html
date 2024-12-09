@@ -1,0 +1,47 @@
+<h1 id="useradd">useradd</h1>
+
+<p>Crea un usuario.
+Vea también: <code class="language-plaintext highlighter-rouge">users</code>, <code class="language-plaintext highlighter-rouge">userdel</code>, <code class="language-plaintext highlighter-rouge">usermod</code>.
+Más información: <a href="https://manned.org/useradd">https://manned.org/useradd</a>.</p>
+
+<ul>
+  <li>Crea un usuario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Crea un usuario con el ID de usuario específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–uid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Crea un usuario con una línea de comando (shell) específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Crea un usuario perteneciente a grupos adicionales (ten en cuenta que no se colocan espacios en blanco):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-G|–groups</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo1,grupo2,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Crea un usuario con el directorio home predeterminado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–create-home</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Crea un usuario con el directorio home con una copia de los archivos provenientes de un directorio plantilla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-k|–skel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_plantilla</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–create-home</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Crea un usuario del sistema sin directorio home:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–system</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>

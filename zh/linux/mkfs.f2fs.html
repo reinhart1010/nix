@@ -1,0 +1,16 @@
+<h1 id="mkfsf2fs">mkfs.f2fs</h1>
+
+<p>在分区内创建一个 F2FS 文件系统。
+更多信息：<a href="https://manned.org/mkfs.f2fs">https://manned.org/mkfs.f2fs</a>.</p>
+
+<ul>
+  <li>在设备 b 的第 1 个分区内创建一个 F2FS 文件系统（<code class="language-plaintext highlighter-rouge">sdb1</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.f2fs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>创建一个带有卷标签的 F2FS 文件系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.f2fs -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_label</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

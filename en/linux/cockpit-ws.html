@@ -1,0 +1,34 @@
+<h1 id="cockpit-ws">cockpit-ws</h1>
+
+<p>Communicate between the browser application and various configuration tools and services like <code class="language-plaintext highlighter-rouge">cockpit-bridge</code>.
+More information: <a href="https://cockpit-project.org/guide/latest/cockpit-ws.8.html">https://cockpit-project.org/guide/latest/cockpit-ws.8.html</a>.</p>
+
+<ul>
+  <li>Start with authentication via SSH at <code class="language-plaintext highlighter-rouge">127.0.0.1</code> with port <code class="language-plaintext highlighter-rouge">22</code> enabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cockpit-ws --local-ssh</code></p>
+
+<ul>
+  <li>Start an HTTP server on a specific port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cockpit-ws --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Start and bind to a specific IP address (defaults to <code class="language-plaintext highlighter-rouge">0.0.0.0</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cockpit-ws --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span></p>
+
+<ul>
+  <li>Start without TLS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cockpit-ws --no-tls</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cockpit-ws --help</code></p>

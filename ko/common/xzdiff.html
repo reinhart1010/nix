@@ -1,0 +1,35 @@
+<h1 id="xzdiff">xzdiff</h1>
+
+<p><code class="language-plaintext highlighter-rouge">xz</code>, <code class="language-plaintext highlighter-rouge">lzma</code>, <code class="language-plaintext highlighter-rouge">gzip</code>, <code class="language-plaintext highlighter-rouge">bzip2</code>, <code class="language-plaintext highlighter-rouge">lzop</code>, 또는 <code class="language-plaintext highlighter-rouge">zstd</code>로 압축된 파일에 대해 <code class="language-plaintext highlighter-rouge">diff</code>를 실행.
+지정된 모든 옵션은 <code class="language-plaintext highlighter-rouge">diff</code>에 직접 전달됩니다.
+더 많은 정보: <a href="https://manned.org/xzdiff">https://manned.org/xzdiff</a>.</p>
+
+<ul>
+  <li>두 파일 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzdiff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>
+
+<ul>
+  <li>두 파일을 비교하여 차이를 나란히 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzdiff --side-by-side </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>
+
+<ul>
+  <li>두 파일을 비교하고 다르다는 것만 보고(차이점 세부사항은 없음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzdiff --brief </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>
+
+<ul>
+  <li>두 파일을 비교하고 파일이 동일할 때 보고:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzdiff --report-identical-files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>
+
+<ul>
+  <li>페이지 단위로 결과를 보여주며 두 파일 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzdiff --paginate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>

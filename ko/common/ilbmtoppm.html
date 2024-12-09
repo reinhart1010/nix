@@ -1,0 +1,28 @@
+<h1 id="ilbmtoppm">ilbmtoppm</h1>
+
+<p>ILBM 파일을 PPM 이미지로 변환:.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/ilbmtoppm.html">https://netpbm.sourceforge.net/doc/ilbmtoppm.html</a>.</p>
+
+<ul>
+  <li>ILBM 파일을 PPM 이미지로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ilbmtoppm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ilbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppm</span></p>
+
+<ul>
+  <li>이미지가 투명한 부분을 "비춰보이게" 하려면 지정된 색상을 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ilbmtoppm -transparent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">색깔</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ilbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppm</span></p>
+
+<ul>
+  <li>지정된 청크 ID를 가진 청크를 무시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ilbmtoppm -ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chunkID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ilbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppm</span></p>
+
+<ul>
+  <li>입력의 투명도 정보를 지정된 PBM 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ilbmtoppm -maskfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마스크파일.pbm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ilbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppm</span></p>

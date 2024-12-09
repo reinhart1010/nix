@@ -1,0 +1,22 @@
+<h1 id="ld">ld</h1>
+
+<p>Menghubungkan file-file obyek berbarengan.
+Informasi lebih lanjut: <a href="https://sourceware.org/binutils/docs-2.38/ld.html">https://sourceware.org/binutils/docs-2.38/ld.html</a>.</p>
+
+<ul>
+  <li>Menghubungkan file obyek tertentu yang tidak memiliki kebergantungan ke suatu executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ld </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.o</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/output_executable</span></p>
+
+<ul>
+  <li>Menghubungkan 2 file obyek berbarengan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ld </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file1.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file2.o</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/output_executable</span></p>
+
+<ul>
+  <li>Menghubungkan secara dinamis sebuah program x86_64 ke glibc (jalan-jalan file berubah bergantung pada sistem):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ld --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/output_executable</span><code class="language-plaintext highlighter-rouge"> --dynamic-linker /lib/ld-linux-x86-64.so.2 /lib/crt1.o /lib/crti.o -lc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.o</span><code class="language-plaintext highlighter-rouge"> /lib/crtn.o</code></p>

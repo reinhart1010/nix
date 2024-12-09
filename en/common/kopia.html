@@ -1,0 +1,53 @@
+<h1 id="kopia">kopia</h1>
+
+<p>Fast, secure open-source backup tool.
+Supports encryption, compression, deduplication, and incremental snapshots.
+More information: <a href="https://kopia.io/docs/reference/command-line/">https://kopia.io/docs/reference/command-line/</a>.</p>
+
+<ul>
+  <li>Create a repository in the local filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia repository create filesystem --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_repository</span></p>
+
+<ul>
+  <li>Create a repository on Amazon S3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia repository create s3 --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> --access-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AWS_access_key_id</span><code class="language-plaintext highlighter-rouge"> --secret-access-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AWS_secret_access_key</span></p>
+
+<ul>
+  <li>Connect to a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia repository connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_type</span><code class="language-plaintext highlighter-rouge"> --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span></p>
+
+<ul>
+  <li>Create a snapshot of a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia snapshot create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>List snapshots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia snapshot list</code></p>
+
+<ul>
+  <li>Restore a snapshot to a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia snapshot restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span></p>
+
+<ul>
+  <li>Create a new policy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia policy set --global --keep-latest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_snapshots_to_keep</span><code class="language-plaintext highlighter-rouge"> --compression </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compression_algorithm</span></p>
+
+<ul>
+  <li>Ignore a specific file or folder from backups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia policy set --global --add-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_folder</span></p>

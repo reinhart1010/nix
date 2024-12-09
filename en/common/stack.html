@@ -1,0 +1,40 @@
+<h1 id="stack">stack</h1>
+
+<p>Manage Haskell projects.
+More information: <a href="https://github.com/commercialhaskell/stack">https://github.com/commercialhaskell/stack</a>.</p>
+
+<ul>
+  <li>Create a new package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template</span></p>
+
+<ul>
+  <li>Compile a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack build</code></p>
+
+<ul>
+  <li>Run tests inside a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack test</code></p>
+
+<ul>
+  <li>Compile a project and re-compile every time a file changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack build --file-watch</code></p>
+
+<ul>
+  <li>Compile a project and execute a command after compilation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack build --exec "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run a program and pass an argument to it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument</span></p>

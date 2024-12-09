@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="hashcat">hashcat</h1>
+
+<p>Outil de récupération de mot de passe rapide et avancé.
+Plus d'informations : <a href="https://hashcat.net/wiki/doku.php?id=hashcat">https://hashcat.net/wiki/doku.php?id=hashcat</a>.</p>
+
+<ul>
+  <li>Effectue une attaque par force brute (mode 3) avec le masque hashcat par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashcat --hash-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_type_hash</span><code class="language-plaintext highlighter-rouge"> --attack-mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valeur_hash</span></p>
+
+<ul>
+  <li>Effectue une attaque par force brute (mode 3) avec un motif connu de 4 chiffres :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashcat --hash-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_type_hash</span><code class="language-plaintext highlighter-rouge"> --attack-mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valeur_hash</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">?d?d?d?d</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Effectue une attaque par force brute (mode 3) en utilisant au plus 8 caractères parmi tous les caractères ASCII imprimables :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashcat --hash-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_type_hash</span><code class="language-plaintext highlighter-rouge"> --attack-mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> --increment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valeur_hash</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">?a?a?a?a?a?a?a?a</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Effectue une attaque par dictionnaire (mode 0) en utilisant la liste de mots RockYou d'une machine Kali Linux :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashcat --hash-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_type_hash</span><code class="language-plaintext highlighter-rouge"> --attack-mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valeur_hash</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/share/wordlists/rockyou.txt</span></p>
+
+<ul>
+  <li>Effectue une attaque par dictionnaire basée sur des règles (mode 0) en utilisant la liste de mots RockYou modifiée avec des variations de mots de passe courants :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashcat --hash-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_type_hash</span><code class="language-plaintext highlighter-rouge"> --attack-mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> --rules-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/share/hashcat/rules/best64.rule</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valeur_hash</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/share/wordlists/rockyou.txt</span></p>
+
+<ul>
+  <li>Effectue une attaque combinée (mode 1) en utilisant la concaténation de mots provenant de deux dictionnaires personnalisés différents :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashcat --hash-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_type_hash</span><code class="language-plaintext highlighter-rouge"> --attack-mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valeur_hash</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/dictionnaire1.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/dictionnaire2.txt</span></p>
+
+<ul>
+  <li>Affiche le résultat d'un hash déjà craqué :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hashcat --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valeur_hash</span></p>

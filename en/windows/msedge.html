@@ -1,0 +1,54 @@
+<h1 id="msedge">msedge</h1>
+
+<p>Modern web browser developed by Microsoft based on the Chromium web browser developed by Google.
+This command is available instead as <code class="language-plaintext highlighter-rouge">microsoft-edge</code> for other platforms.
+Note: Additional command arguments from <code class="language-plaintext highlighter-rouge">chromium</code> may also be usable to control Microsoft Edge.
+More information: <a href="https://microsoft.com/edge">https://microsoft.com/edge</a>.</p>
+
+<ul>
+  <li>Open a specific URL or file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msedge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com|path/to/file.html</span></p>
+
+<ul>
+  <li>Open in InPrivate mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msedge --inprivate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Open in a new window:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msedge --new-window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Open in application mode (without toolbars, URL bar, buttons, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msedge --app=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Use a proxy server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msedge --proxy-server="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">socks5://hostname:66</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Open with a custom profile directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msedge --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Open without CORS validation (useful to test an API):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msedge --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --disable-web-security</code></p>
+
+<ul>
+  <li>Open with a DevTools window for each tab opened:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msedge --auto-open-devtools-for-tabs</code></p>

@@ -1,0 +1,28 @@
+<h1 id="perl">perl</h1>
+
+<p>The Perl 5 language interpreter.
+More information: <a href="https://www.perl.org">https://www.perl.org</a>.</p>
+
+<ul>
+  <li>Print lines from <code class="language-plaintext highlighter-rouge">stdin</code> [m/] matching regex1 and case insensitive [/i] regex2:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -n -e 'print if m/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex1</span><code class="language-plaintext highlighter-rouge">/ and m/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex2</span><code class="language-plaintext highlighter-rouge">/i'</code></p>
+
+<ul>
+  <li>Say [-E] first match group, using a regexp, ignoring space in regex [/x]:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -n -E 'say $1 if m/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">before</span><code class="language-plaintext highlighter-rouge"> (  </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_regex</span><code class="language-plaintext highlighter-rouge">  ) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">after</span><code class="language-plaintext highlighter-rouge">/x'</code></p>
+
+<ul>
+  <li>[-i]n-place, with backup, [s/] substitute all occurrence [/g] of regex with replacement:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -i'.bak' -p -e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span><code class="language-plaintext highlighter-rouge">/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/files</span></p>
+
+<ul>
+  <li>Use perl's inline documentation, some pages also available via manual pages on Linux:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perldoc perlrun ; perldoc module ; perldoc -f splice; perldoc -q perlfaq1</code></p>

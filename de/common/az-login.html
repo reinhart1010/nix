@@ -1,0 +1,35 @@
+<h1 id="az-login">az login</h1>
+
+<p>Melden Sie sich bei Azure an.
+Teil von <code class="language-plaintext highlighter-rouge">azure-cli</code> (auch bekannt als <code class="language-plaintext highlighter-rouge">az</code>).
+Weitere Informationen: <a href="https://learn.microsoft.com/cli/azure/reference-index#az-login">https://learn.microsoft.com/cli/azure/reference-index#az-login</a>.</p>
+
+<ul>
+  <li>Melden Sie sich interaktiv an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login</code></p>
+
+<ul>
+  <li>Melden Sie sich mit einem Dienstprinzipal mit dem geheimen Clientschlüssel an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --service-principal --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://azure-cli-service-principal</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret</span><code class="language-plaintext highlighter-rouge"> --tenant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">someone.onmicrosoft.com</span></p>
+
+<ul>
+  <li>Melden Sie sich mit einem Dienstprinzipal mithilfe des Clientzertifikats an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --service-principal --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://azure-cli-service-principal</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cert.pem</span><code class="language-plaintext highlighter-rouge"> --tenant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">someone.onmicrosoft.com</span></p>
+
+<ul>
+  <li>Melden Sie sich mit der vom System zugewiesenen verwalteten Identität eines virtuellen Computers an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --identity</code></p>
+
+<ul>
+  <li>Melden Sie sich mit der vom Benutzer zugewiesenen verwalteten Identität eines virtuellen Computers an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --identity --username /subscriptions/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subscription_id</span><code class="language-plaintext highlighter-rouge">/resourcegroups/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_rg</span><code class="language-plaintext highlighter-rouge">/providers/Microsoft.ManagedIdentity/userAssignedIdentities/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_id</span></p>

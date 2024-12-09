@@ -1,0 +1,40 @@
+<h1 id="doctl-kubernetes-cluster">doctl kubernetes cluster</h1>
+
+<p>Kubernetes 클러스터를 관리하고 클러스터와 관련된 구성 옵션을 봄.
+더 많은 정보: <a href="https://docs.digitalocean.com/reference/doctl/reference/kubernetes/cluster/">https://docs.digitalocean.com/reference/doctl/reference/kubernetes/cluster/</a>.</p>
+
+<ul>
+  <li>Kubernetes 클러스터 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl kubernetes cluster create --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nyc1</span><code class="language-plaintext highlighter-rouge"> --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s-1vcpu-2gb</span><code class="language-plaintext highlighter-rouge"> --version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>모든 Kubernetes 클러스터 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl kubernetes cluster list</code></p>
+
+<ul>
+  <li>kubeconfig를 가져와 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl kubernetes cluster kubeconfig save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>사용 가능한 업그레이드 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl kubernetes cluster get-upgrades </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>클러스터를 새로운 Kubernetes 버전으로 업그레이드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl kubernetes cluster upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>클러스터 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl kubernetes cluster delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>

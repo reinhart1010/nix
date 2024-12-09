@@ -1,0 +1,22 @@
+<h1 id="vboxmanage-registervm">vboxmanage-registervm</h1>
+
+<p>가상 머신(VM) 등록.
+더 많은 정보: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-registervm">https://www.virtualbox.org/manual/ch08.html#vboxmanage-registervm</a>.</p>
+
+<ul>
+  <li>기존 VM 등록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage registervm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일이름.vbox</span></p>
+
+<ul>
+  <li>VM의 암호화 비밀번호 파일 제공:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage registervm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일이름.vbox</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/비밀번호_파일</span></p>
+
+<ul>
+  <li>명령줄에서 암호화 비밀번호 입력 요청:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage registervm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일이름.vbox</span><code class="language-plaintext highlighter-rouge"> --password -</code></p>

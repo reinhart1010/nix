@@ -1,0 +1,22 @@
+<h1 id="gdalwarp">gdalwarp</h1>
+
+<p>이미지 재투영 및 워핑 유틸리티.
+더 많은 정보: <a href="https://gdal.org/programs/gdalwarp.html">https://gdal.org/programs/gdalwarp.html</a>.</p>
+
+<ul>
+  <li>래스터 데이터세트 재투영:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalwarp -t_srs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">EPSG:4326</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.tif</span></p>
+
+<ul>
+  <li>특정 좌표를 사용하여 래스터 데이터세트 자르기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalwarp -te </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">min_x</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">min_y</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_x</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_y</span><code class="language-plaintext highlighter-rouge"> -te_srs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">EPSG:4326</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.tif</span></p>
+
+<ul>
+  <li>벡터 레이어를 사용하여 래스터 데이터세트 자르기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalwarp -cutline </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/자르기_위한_영역.geojson</span><code class="language-plaintext highlighter-rouge"> -crop_to_cutline </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.tif</span></p>

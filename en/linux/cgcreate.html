@@ -1,0 +1,23 @@
+<h1 id="cgcreate">cgcreate</h1>
+
+<p>Create cgroups, used to limit, measure, and control resources used by processes.
+<code class="language-plaintext highlighter-rouge">cgroups</code> types can be <code class="language-plaintext highlighter-rouge">memory</code>, <code class="language-plaintext highlighter-rouge">cpu</code>, <code class="language-plaintext highlighter-rouge">net_cls</code>, etc.
+More information: <a href="https://manned.org/cgcreate">https://manned.org/cgcreate</a>.</p>
+
+<ul>
+  <li>Create a new group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cgcreate -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_type</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span></p>
+
+<ul>
+  <li>Create a new group with multiple cgroup types:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cgcreate -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_type1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_type2</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span></p>
+
+<ul>
+  <li>Create a subgroup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkdir /sys/fs/cgroup/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_type</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subgroup_name</span></p>

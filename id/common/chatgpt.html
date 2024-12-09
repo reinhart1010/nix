@@ -1,0 +1,40 @@
+<h1 id="chatgpt">chatgpt</h1>
+
+<p>Skrip syel untuk memakai OpenAI ChatGPT dan DALL-E dalam terminal.
+Informasi lebih lanjut: <a href="https://github.com/0xacx/chatGPT-shell-cli">https://github.com/0xacx/chatGPT-shell-cli</a>.</p>
+
+<ul>
+  <li>Jalankan dalam mode percakapan interaktif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chatgpt</code></p>
+
+<ul>
+  <li>Berikan [p]rompt (pertanyaan) untuk dijawab oleh sang model:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chatgpt --prompt "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Bagaimana cara membuat kriteria ekspresi reguler untuk mencocokkan format alamat surel/email?</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Jalankan dalam mode interaktif menggunakan suatu [m]odel (model default adalah <code class="language-plaintext highlighter-rouge">gpt-3.5-turbo</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chatgpt --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpt-4</span></p>
+
+<ul>
+  <li>Jalankan dalam mode interaktif dengan [i]nitial prompt, perintah/permintaan awal yang dapat mendefinisikan jenis jawaban yang diharapkan dari sang model:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chatgpt --init-prompt "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Anda adalah Rick, dari serial Rick and Morty. Tanggapi pertanyaan dengan gayanya dan menyertakan lelucon yang menghina.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Alihkan luaran dari program baris perintah lainnya sebagai pertanyaan masukan (prompt) kepada <code class="language-plaintext highlighter-rouge">chatgpt</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Bagaimana cara melihat proses yang berjalan di Ubuntu?</span><code class="language-plaintext highlighter-rouge">" | chatgpt</code></p>
+
+<ul>
+  <li>Generate an image using DALL-E:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chatgpt --prompt "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image: Seekor kucing putih</span><code class="language-plaintext highlighter-rouge">"</code></p>

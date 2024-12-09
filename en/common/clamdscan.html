@@ -1,0 +1,52 @@
+<h1 id="clamdscan">clamdscan</h1>
+
+<p>Scan for viruses using the ClamAV Daemon.
+More information: <a href="https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan">https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan</a>.</p>
+
+<ul>
+  <li>Scan a file or directory for vulnerabilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Scan data from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | clamdscan -</code></p>
+
+<ul>
+  <li>Scan the current directory and output only infected files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --infected</code></p>
+
+<ul>
+  <li>Print the scan report to a log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/log_file</span></p>
+
+<ul>
+  <li>Move infected files to a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/quarantine_directory</span></p>
+
+<ul>
+  <li>Remove infected files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --remove</code></p>
+
+<ul>
+  <li>Use multiple threads to scan a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --multiscan</code></p>
+
+<ul>
+  <li>Pass the file descriptor instead of streaming the file to the daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --fdpass</code></p>

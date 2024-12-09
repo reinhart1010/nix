@@ -1,0 +1,28 @@
+<h1 id="openai">openai</h1>
+
+<p>OpenAI API에 접근할 수 있는 CLI 도구.
+더 많은 정보: <a href="https://github.com/openai/openai-python">https://github.com/openai/openai-python</a>.</p>
+
+<ul>
+  <li>모델 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openai api models.list</code></p>
+
+<ul>
+  <li>완료 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openai api completions.create --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ada</span><code class="language-plaintext highlighter-rouge"> --prompt "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello world</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>채팅 완료 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openai api chat_completions.create --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpt-3.5-turbo</span><code class="language-plaintext highlighter-rouge"> --message </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user "Hello world"</span></p>
+
+<ul>
+  <li>DALL·E API를 통해 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openai api image.create --prompt "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">two dogs playing chess, cartoon</span><code class="language-plaintext highlighter-rouge">" --num-images </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>

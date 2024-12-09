@@ -1,0 +1,28 @@
+<h1 id="qm-guest-exec">qm guest exec</h1>
+
+<p>Execute a specific command via a guest agent.
+More information: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Execute a specific command via a guest agent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm guest exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span></p>
+
+<ul>
+  <li>Execute a specific command via a guest agent asynchronously:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm guest exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span><code class="language-plaintext highlighter-rouge"> --synchronous 0</code></p>
+
+<ul>
+  <li>Execute a specific command via a guest agent with a specified timeout of 10 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm guest exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2…</span><code class="language-plaintext highlighter-rouge"> --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Execute a specific command via a guest agent and forward input from <code class="language-plaintext highlighter-rouge">stdin</code> until EOF to the guest agent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm guest exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span><code class="language-plaintext highlighter-rouge"> --pass-stdin 1</code></p>

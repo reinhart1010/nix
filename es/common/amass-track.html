@@ -1,0 +1,19 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="amass-track">amass track</h1>
+
+<p>Seguimiento de las diferencias entre enumeraciones del mismo dominio.
+Más información: <a href="https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-track-subcommand">https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-track-subcommand</a>.</p>
+
+<ul>
+  <li>Muestra la diferencia entre las últimas enumeraciones de un dominio específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass track -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_de_base_de_datos</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_dominio</span><code class="language-plaintext highlighter-rouge"> -last </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..infinity</span></p>
+
+<ul>
+  <li>Muestra la diferencia entre un momento determinado y la última enumeración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass track -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_de_base_de_datos</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_dominio</span><code class="language-plaintext highlighter-rouge"> -since </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">01/02 15:04:05 2006 MST</span></p>

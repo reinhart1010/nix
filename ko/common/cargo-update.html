@@ -1,0 +1,28 @@
+<h1 id="cargo-update">cargo update</h1>
+
+<p><code class="language-plaintext highlighter-rouge">Cargo.lock</code>에 기록된 종속성을 업데이트.
+더 많은 정보: <a href="https://doc.rust-lang.org/cargo/commands/cargo-update.html">https://doc.rust-lang.org/cargo/commands/cargo-update.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Cargo.lock</code>의 종속성을 가능한 최신버전으로 업데이트함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo update</code></p>
+
+<ul>
+  <li>업데이트될 내용을 표시하지만, 실제로 잠금 파일을 작성하지는 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo update --dry-run</code></p>
+
+<ul>
+  <li>지정된 종속성만 업데이트함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo update --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">의존성1</span><code class="language-plaintext highlighter-rouge"> --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">의존성2</span><code class="language-plaintext highlighter-rouge"> --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">의존성3</span></p>
+
+<ul>
+  <li>특정 버전에 대한 특정 종속성을 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo update --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">의존성</span><code class="language-plaintext highlighter-rouge"> --precise </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.3</span></p>
