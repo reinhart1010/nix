@@ -1,0 +1,28 @@
+<h1 id="hexdump">hexdump</h1>
+
+<p>ASCII, 10진수, 16진수, 8진수 덤프.
+더 많은 정보: <a href="https://manned.org/hexdump">https://manned.org/hexdump</a>.</p>
+
+<ul>
+  <li>파일의 16진수 표현을 출력하고, 중복된 줄을 '*'로 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>입력 오프셋을 16진수로 표시하고 해당 ASCII 표현을 두 열로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일의 16진수 표현을 표시하지만, 입력의 n바이트만 해석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump -C -n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">바이트_수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>중복된 줄을 '*'로 변경하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump --no-squeezing </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

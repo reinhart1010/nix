@@ -1,0 +1,53 @@
+<h1 id="gh-pr">gh pr</h1>
+
+<p>GitHub 풀 리퀘스트를 관리.
+<code class="language-plaintext highlighter-rouge">create</code>와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+더 많은 정보: <a href="https://cli.github.com/manual/gh_pr">https://cli.github.com/manual/gh_pr</a>.</p>
+
+<ul>
+  <li>풀 리퀘스트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr create</code></p>
+
+<ul>
+  <li>특정 풀 리퀘스트를 로컬에서 체크아웃:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr_number</span></p>
+
+<ul>
+  <li>현재 브랜치의 풀 리퀘스트에서 변경 사항 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr diff</code></p>
+
+<ul>
+  <li>현재 브랜치의 풀 리퀘스트 승인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr review --approve</code></p>
+
+<ul>
+  <li>현재 브랜치와 연관된 풀 리퀘스트를 대화식으로 병합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr merge</code></p>
+
+<ul>
+  <li>풀 리퀘스트를 대화식으로 수정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr edit</code></p>
+
+<ul>
+  <li>풀 리퀘스트의 기준 브랜치 수정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr edit --base </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>현재 저장소의 풀 리퀘스트 상태 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr status</code></p>

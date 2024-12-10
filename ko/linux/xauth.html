@@ -1,0 +1,52 @@
+<h1 id="xauth">xauth</h1>
+
+<p>X 서버에 연결할 때 사용되는 인증 정보를 편집하고 표시.
+더 많은 정보: <a href="https://manned.org/xauth">https://manned.org/xauth</a>.</p>
+
+<ul>
+  <li>특정 인증 파일로 대화형 모드 시작 (<code class="language-plaintext highlighter-rouge">~/.Xauthority</code>가 기본값):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xauth -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>인증 파일에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xauth info</code></p>
+
+<ul>
+  <li>모든 디스플레이에 대한 인증 항목 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xauth list</code></p>
+
+<ul>
+  <li>특정 디스플레이에 대한 인증 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xauth add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디스플레이_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로토콜_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span></p>
+
+<ul>
+  <li>특정 디스플레이에 대한 인증 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xauth remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디스플레이_이름</span></p>
+
+<ul>
+  <li>현재 디스플레이에 대한 인증 항목을 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xauth extract - $DISPLAY</code></p>
+
+<ul>
+  <li>특정 파일에서 인증 항목을 인증 데이터베이스에 병합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> | xauth merge -</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xauth --help</code></p>

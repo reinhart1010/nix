@@ -1,0 +1,29 @@
+<h1 id="as">as</h1>
+
+<p>Draagbare GNU assembler.
+Voornamelijk bedoeld om uitvoer van <code class="language-plaintext highlighter-rouge">gcc</code> te assembleren voor gebruik door <code class="language-plaintext highlighter-rouge">ld</code>.
+Meer informatie: <a href="https://keith.github.io/xcode-man-pages/as.1.html">https://keith.github.io/xcode-man-pages/as.1.html</a>.</p>
+
+<ul>
+  <li>Assembleer een bestand en schrijf de output naar <code class="language-plaintext highlighter-rouge">a.out</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.s</span></p>
+
+<ul>
+  <li>Assembleer de output naar een specifiek bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.s</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_bestand.o</span></p>
+
+<ul>
+  <li>Genereer sneller output door spaties en commentaarvoorverwerking over te slaan. (Moet alleen worden gebruikt voor vertrouwde compilers):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.s</span></p>
+
+<ul>
+  <li>Voeg een specifiek pad toe aan de lijst met mappen om te zoeken naar bestanden die zijn opgegeven in <code class="language-plaintext highlighter-rouge">.include</code>-richtlijnen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.s</span></p>

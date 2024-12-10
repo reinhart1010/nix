@@ -1,0 +1,23 @@
+<h1 id="prlimit">prlimit</h1>
+
+<p>Get or set process resource soft and hard limits.
+Given a process ID and one or more resources, prlimit tries to retrieve and/or modify the limits.
+More information: <a href="https://manned.org/prlimit">https://manned.org/prlimit</a>.</p>
+
+<ul>
+  <li>Display limit values for all current resources for the running parent process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prlimit</code></p>
+
+<ul>
+  <li>Display limit values for all current resources of a specified process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prlimit --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid_number</span></p>
+
+<ul>
+  <li>Run a command with a custom number of open files limit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prlimit --nofile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

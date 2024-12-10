@@ -1,0 +1,34 @@
+<h1 id="enum4linux">enum4linux</h1>
+
+<p>Enumerate Windows and Samba information from remote systems.
+More information: <a href="https://labs.portcullis.co.uk/tools/enum4linux/">https://labs.portcullis.co.uk/tools/enum4linux/</a>.</p>
+
+<ul>
+  <li>Try to enumerate using all methods:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enum4linux -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Enumerate using given login credentials:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enum4linux -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>List usernames from a given host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enum4linux -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>List shares:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enum4linux -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Get OS information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enum4linux -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>

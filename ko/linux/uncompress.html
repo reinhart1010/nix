@@ -1,0 +1,28 @@
+<h1 id="uncompress">uncompress</h1>
+
+<p>Unix <code class="language-plaintext highlighter-rouge">compress</code> 명령으로 압축된 파일을 해제합니다.
+더 많은 정보: <a href="https://manned.org/uncompress.1">https://manned.org/uncompress.1</a>.</p>
+
+<ul>
+  <li>특정 파일 압축 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.Z 경로/대상/파일2.Z …</span></p>
+
+<ul>
+  <li>존재하지 않는 파일을 무시하고 특정 파일 압축 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncompress -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.Z 경로/대상/파일2.Z …</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdout</code>에 출력 (파일은 변경되지 않고 <code class="language-plaintext highlighter-rouge">.Z</code> 파일도 생성되지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncompress -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.Z 경로/대상/파일2.Z …</span></p>
+
+<ul>
+  <li>자세히 모드 (압축 감소 또는 확장 비율을 <code class="language-plaintext highlighter-rouge">stderr</code>에 출력):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncompress -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.Z 경로/대상/파일2.Z …</span></p>

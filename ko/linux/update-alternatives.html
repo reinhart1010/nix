@@ -1,0 +1,34 @@
+<h1 id="update-alternatives">update-alternatives</h1>
+
+<p>심볼릭 링크를 편리하게 관리하여 기본 명령을 결정합니다.
+더 많은 정보: <a href="https://manned.org/update-alternatives">https://manned.org/update-alternatives</a>.</p>
+
+<ul>
+  <li>심볼릭 링크 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo update-alternatives --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/심볼릭링크</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/명령_바이너리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">우선순위</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">java</code>에 대한 심볼릭 링크 구성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo update-alternatives --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java</span></p>
+
+<ul>
+  <li>심볼릭 링크 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo update-alternatives --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/opt/java/jdk1.8.0_102/bin/java</span></p>
+
+<ul>
+  <li>지정된 명령에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-alternatives --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java</span></p>
+
+<ul>
+  <li>모든 명령과 현재 선택된 항목 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-alternatives --get-selections</code></p>

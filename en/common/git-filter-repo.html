@@ -1,0 +1,29 @@
+<h1 id="git-filter-repo">git filter-repo</h1>
+
+<p>A versatile tool for rewriting Git history.
+See also: <code class="language-plaintext highlighter-rouge">bfg</code>.
+More information: <a href="https://github.com/newren/git-filter-repo">https://github.com/newren/git-filter-repo</a>.</p>
+
+<ul>
+  <li>Replace a sensitive string in all files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git filter-repo --replace-text &lt;(echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find</span><code class="language-plaintext highlighter-rouge">==&gt;</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span><code class="language-plaintext highlighter-rouge">')</code></p>
+
+<ul>
+  <li>Extract a single folder, keeping history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git filter-repo --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder</span></p>
+
+<ul>
+  <li>Remove a single folder, keeping history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git filter-repo --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder</span><code class="language-plaintext highlighter-rouge"> --invert-paths</code></p>
+
+<ul>
+  <li>Move everything from sub-folder one level up:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git filter-repo --path-rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder/:</span></p>

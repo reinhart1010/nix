@@ -1,0 +1,40 @@
+<h1 id="xml-format">xml format</h1>
+
+<p>XML 문서를 포맷합니다.
+더 많은 정보: <a href="https://xmlstar.sourceforge.net/docs.php">https://xmlstar.sourceforge.net/docs.php</a>.</p>
+
+<ul>
+  <li>XML 문서를 탭으로 들여쓰기하여 포맷:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml format --indent-tab </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.xml|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.xml</span></p>
+
+<ul>
+  <li>HTML 문서를 4칸의 공백으로 들여쓰기하여 포맷:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml format --html --indent-spaces </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.html|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.html</span></p>
+
+<ul>
+  <li>잘못된 XML 문서에서 구문 분석이 가능한 부분을 복구하고 들여쓰지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml format --recover --noindent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/잘못된.xml|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/복구된.xml</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 XML 문서를 포맷하고 <code class="language-plaintext highlighter-rouge">DOCTYPE</code> 선언을 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.xml</span><code class="language-plaintext highlighter-rouge"> | xml format --dropdtd &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.xml</span></p>
+
+<ul>
+  <li>XML 선언을 생략하여 XML 문서를 포맷:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml format --omit-decl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.xml|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.xml</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml format --help</code></p>

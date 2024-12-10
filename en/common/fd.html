@@ -1,0 +1,41 @@
+<h1 id="fd">fd</h1>
+
+<p>An alternative to <code class="language-plaintext highlighter-rouge">find</code>.
+Aims to be faster and easier to use than <code class="language-plaintext highlighter-rouge">find</code>.
+More information: <a href="https://github.com/sharkdp/fd">https://github.com/sharkdp/fd</a>.</p>
+
+<ul>
+  <li>Recursively find files matching a specific pattern in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string|regex</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Find files that begin with a specific string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^string</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Find files with a specific extension:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd --extension </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span></p>
+
+<ul>
+  <li>Find files in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string|regex</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Include ignored and hidden files in the search:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd --hidden --no-ignore "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string|regex</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Execute a command on each search result returned:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string|regex</span><code class="language-plaintext highlighter-rouge">" --exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

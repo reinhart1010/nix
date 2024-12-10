@@ -1,0 +1,29 @@
+<h1 id="zmv">zmv</h1>
+
+<p>移动或重命名符合指定扩展模式的文件。
+请参阅：<code class="language-plaintext highlighter-rouge">zcp</code> 和 <code class="language-plaintext highlighter-rouge">zln</code>。
+更多信息：<a href="https://zsh.sourceforge.net/Doc/Release/User-Contributions.html">https://zsh.sourceforge.net/Doc/Release/User-Contributions.html</a>.</p>
+
+<ul>
+  <li>使用类似正则表达式的模式移动文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zmv '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(*).log</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$1.txt</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>预览移动结果，但不进行任何实际更改：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zmv -n '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(*).log</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$1.txt</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>交互式移动文件，在每次更改之前进行提示：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zmv -i '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(*).log</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$1.txt</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>在执行时详细打印每个操作：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zmv -v '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(*).log</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$1.txt</span><code class="language-plaintext highlighter-rouge">'</code></p>

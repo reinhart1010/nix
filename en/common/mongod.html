@@ -1,0 +1,28 @@
+<h1 id="mongod">mongod</h1>
+
+<p>The MongoDB database server.
+More information: <a href="https://docs.mongodb.com/manual/reference/program/mongod">https://docs.mongodb.com/manual/reference/program/mongod</a>.</p>
+
+<ul>
+  <li>Specify the storage directory (default: <code class="language-plaintext highlighter-rouge">/data/db</code> on Linux and macOS, <code class="language-plaintext highlighter-rouge">C:\data\db</code> on Windows):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --dbpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Specify a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Specify the port to listen on (default: 27017):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Specify the database profiling level. 0 is off, 1 is only slow operations, 2 is all (default: 0):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|2</span></p>

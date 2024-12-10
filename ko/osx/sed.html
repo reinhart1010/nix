@@ -1,0 +1,35 @@
+<h1 id="sed">sed</h1>
+
+<p>스크립트 방식으로 텍스트 편집.
+같이 보기: <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">ed</code>.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/sed.1.html">https://keith.github.io/xcode-man-pages/sed.1.html</a>.</p>
+
+<ul>
+  <li>모든 입력 라인에서 <code class="language-plaintext highlighter-rouge">apple</code>(기본 정규식)을 <code class="language-plaintext highlighter-rouge">mango</code>(기본 정규식)로 모두 교체하고 결과를 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | sed 's/apple/mango/g'</code></p>
+
+<ul>
+  <li>특정 스크립트 [f]파일을 실행하고 결과를 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | sed -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트_파일.sed</span></p>
+
+<ul>
+  <li>모든 입력 라인에서 <code class="language-plaintext highlighter-rouge">apple</code>(확장 정규식)을 <code class="language-plaintext highlighter-rouge">APPLE</code>(확장 정규식)로 모두 교체하고 결과를 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | sed -E 's/(apple)/\U\1/g'</code></p>
+
+<ul>
+  <li>첫 번째 라인만 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | sed -n '1p'</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">file</code> 내 모든 <code class="language-plaintext highlighter-rouge">apple</code>(기본 정규식)을 <code class="language-plaintext highlighter-rouge">mango</code>(기본 정규식)로 교체하고 원본을 <code class="language-plaintext highlighter-rouge">file.bak</code>으로 백업 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i bak 's/apple/mango/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

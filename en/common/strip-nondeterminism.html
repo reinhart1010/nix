@@ -1,0 +1,22 @@
+<h1 id="strip-nondeterminism">strip-nondeterminism</h1>
+
+<p>Remove non-deterministic information (e.g. timestamps) from files.
+More information: <a href="https://salsa.debian.org/reproducible-builds/strip-nondeterminism">https://salsa.debian.org/reproducible-builds/strip-nondeterminism</a>.</p>
+
+<ul>
+  <li>Strip nondeterministic information from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strip-nondeterminism </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Strip nondeterministic information from a file manually specifying the filetype:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strip-nondeterminism --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filetype</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Strip nondeterministic information from a file; instead of removing timestamps set them to the specified UNIX timestamp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strip-nondeterminism --timestamp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unix_timestamp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,47 @@
+<h1 id="chpass">chpass</h1>
+
+<p>लॉगिन shell और पासवर्ड सहित उपयोगकर्ता डेटाबेस जानकारी जोड़ें या बदलें।
+यह भी देखें: <code class="language-plaintext highlighter-rouge">passwd</code>।
+अधिक जानकारी: <a href="https://man.freebsd.org/cgi/man.cgi?chpass">https://man.freebsd.org/cgi/man.cgi?chpass</a>।</p>
+
+<ul>
+  <li>वर्तमान उपयोगकर्ता के लिए उपयोगकर्ता डेटाबेस जानकारी को अंतःक्रियात्मक रूप से जोड़ें या बदलें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>वर्तमान उपयोगकर्ता के लिए एक विशिष्ट लॉगिन [s]hell सेट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell/का/पथ</span></p>
+
+<ul>
+  <li>किसी विशिष्ट उपयोगकर्ता के लिए लॉगिन [s]hell सेट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span></p>
+
+<ul>
+  <li>खाता [e]समाप्ति समय बदलें (युग से सेकंड में, UTC):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">समय</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>उपयोगकर्ता का पासवर्ड बदलें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">एन्क्रिप्टेड_पासवर्ड</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>क्वेरी करने के लिए NIS सर्वर का [h]होस्ट का नाम या पता निर्दिष्ट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">होस्ट का नाम</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>एक विशेष NIS डोमेन निर्दिष्ट करें (डिफ़ॉल्ट रूप से सिस्टम डोमेन नाम):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">डोमेन</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोक्तानाम</span><code class="language-plaintext highlighter-rouge">'</code></p>

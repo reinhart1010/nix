@@ -1,0 +1,54 @@
+<h1 id="lmms">lmms</h1>
+
+<p>무료, 오픈 소스, 크로스 플랫폼 디지털 오디오 워크스테이션.
+<code class="language-plaintext highlighter-rouge">.mmp</code> 또는 <code class="language-plaintext highlighter-rouge">.mmpz</code> 프로젝트 파일을 렌더링하거나, <code class="language-plaintext highlighter-rouge">.mmpz</code>를 XML로 덤프하거나, GUI를 시작할 수 있습니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">mixxx</code>.
+더 많은 정보: <a href="https://lmms.io">https://lmms.io</a>.</p>
+
+<ul>
+  <li>GUI 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lmms</code></p>
+
+<ul>
+  <li>GUI 시작 및 외부 구성 파일 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lmms --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/config.xml</span></p>
+
+<ul>
+  <li>GUI 시작 및 MIDI 또는 Hydrogen 파일 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lmms --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/midi/또는/hydrogen/파일</span></p>
+
+<ul>
+  <li>지정된 창 크기로 GUI 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lmms --geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_크기</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_크기</span><code class="language-plaintext highlighter-rouge">+</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_오프셋</span><code class="language-plaintext highlighter-rouge">+</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_오프셋</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.mmpz</code> 파일 덤프:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lmms dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/mmpz/파일.mmpz</span></p>
+
+<ul>
+  <li>프로젝트 파일 렌더링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lmms render </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/mmpz_또는_mmp/파일</span></p>
+
+<ul>
+  <li>프로젝트 파일의 개별 트랙 렌더링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lmms rendertracks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/mmpz_또는_mmp/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/덤프/폴더</span></p>
+
+<ul>
+  <li>사용자 지정 샘플레이트, 포맷으로 루프 렌더링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lmms render --samplerate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">88200</span><code class="language-plaintext highlighter-rouge"> --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ogg</span><code class="language-plaintext highlighter-rouge"> --loop --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력/파일.ogg</span></p>

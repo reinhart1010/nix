@@ -1,0 +1,22 @@
+<h1 id="trap">trap</h1>
+
+<p>이벤트 발생 시 명령을 실행.
+더 많은 정보: <a href="https://manned.org/trap.1posix">https://manned.org/trap.1posix</a>.</p>
+
+<ul>
+  <li>예상 이벤트의 이름과 명령 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap</code></p>
+
+<ul>
+  <li>신호를 받았을 때 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap 'echo "신호 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span><code class="language-plaintext highlighter-rouge"> 수신"' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HUP</span></p>
+
+<ul>
+  <li>명령 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HUP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">INT</span></p>

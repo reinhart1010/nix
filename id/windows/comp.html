@@ -1,0 +1,53 @@
+<h1 id="comp">comp</h1>
+
+<p>Bandingkan isi antar kedua berkas atau himpunan berkas.
+Gunakan wildcard (*) untukk membandingkan himpunan berkas.
+Informasi lebih lanjut: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/comp">https://learn.microsoft.com/windows-server/administration/windows-commands/comp</a>.</p>
+
+<ul>
+  <li>Bandingkan isi berkas secara interaktif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp</code></p>
+
+<ul>
+  <li>Bandingkan isi antara kedua berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas2</span></p>
+
+<ul>
+  <li>Bandingkan isi antara kedua himpunan berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\direktori1</span><code class="language-plaintext highlighter-rouge">\* </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\direktori2</span><code class="language-plaintext highlighter-rouge">\*</code></p>
+
+<ul>
+  <li>Tampilkan perbedaan dalam format [d]esimal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp /d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas2</span></p>
+
+<ul>
+  <li>Tampilkan perbedaan dalam format [a]SCII:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp /a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas2</span></p>
+
+<ul>
+  <li>Tampilkan nomor baris di mana perbedaan antar isi terdeteksi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp /l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas2</span></p>
+
+<ul>
+  <li>Bandingkan berkas-berkas tanpa menghiraukan penggunaan huruf besar/kecil ([c]ase-insensitive):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp /c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas2</span></p>
+
+<ul>
+  <li>Hanya bandingkan isi 5 baris pertama antara kedua berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comp /n=5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\berkas2</span></p>

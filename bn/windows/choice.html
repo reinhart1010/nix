@@ -1,0 +1,40 @@
+<h1 id="choice">choice</h1>
+
+<p>ব্যবহারকারীকে একটি চয়েস নির্বাচন করতে উৎসাহিত করুন এবং নির্বাচিত চয়েস ইনডেক্স ফিরিয়ে দিন।
+আরও তথ্য পাবেন: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/choice">https://learn.microsoft.com/windows-server/administration/windows-commands/choice</a>।</p>
+
+<ul>
+  <li>বর্তমান ব্যবহারকারীকে <code class="language-plaintext highlighter-rouge">Y</code> বা <code class="language-plaintext highlighter-rouge">N</code> চয়েস নির্বাচন করতে:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice</code></p>
+
+<ul>
+  <li>বর্তমান ব্যবহারকারীকে একটি নির্দিষ্ট সেট থেকে [c]hoice নির্বাচন করতে:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice /c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AB</span></p>
+
+<ul>
+  <li>বর্তমান ব্যবহারকারীকে একটি চয়েস নির্বাচন করতে একটি নির্দিষ্ট [m]essage সহ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice /m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">বার্তা</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>বর্তমান ব্যবহারকারীকে একটি [c]ase-[s]ensitive [c]hoice নির্বাচন করতে একটি নির্দিষ্ট সেট থেকে:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice /cs /c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Ab</span></p>
+
+<ul>
+  <li>বর্তমান ব্যবহারকারীকে একটি চয়েস নির্বাচন করতে এবং একটি নির্দিষ্ট [t]ime এ [d]efault চয়েস এ প্রাথমিকভাবে পছন্দ করতে:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> /d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span></p>
+
+<ul>
+  <li>সাহায্য দেখান:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice /?</code></p>

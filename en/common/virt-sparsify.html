@@ -1,0 +1,17 @@
+<h1 id="virt-sparsify">virt-sparsify</h1>
+
+<p>Make virtual machine drive images thin-provisioned.
+Note: Use only for offline machines to avoid data corruption.
+More information: <a href="https://libguestfs.org">https://libguestfs.org</a>.</p>
+
+<ul>
+  <li>Create a sparsified compressed image without snapshots from an unsparsified one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-sparsify --compress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.qcow2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_new.qcow2</span></p>
+
+<ul>
+  <li>Sparsify an image in-place:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-sparsify --in-place </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.img</span></p>

@@ -1,0 +1,28 @@
+<h1 id="mamba-repoquery">mamba repoquery</h1>
+
+<p>conda 및 mamba 패키지 저장소와 패키지 의존성을 효율적으로 조회.
+더 많은 정보: <a href="https://mamba.readthedocs.io/en/latest/user_guide/mamba.html#repoquery">https://mamba.readthedocs.io/en/latest/user_guide/mamba.html#repoquery</a>.</p>
+
+<ul>
+  <li>특정 패키지의 사용 가능한 모든 버전 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba repoquery search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>특정 제약 조건을 만족하는 모든 패키지 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba repoquery search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sphinx&lt;5</span></p>
+
+<ul>
+  <li>현재 활성화된 환경에 설치된 패키지의 의존성을 트리 형식으로 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba repoquery depends --tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scipy</span></p>
+
+<ul>
+  <li>특정 패키지의 설치가 필요한 현재 환경의 패키지를 출력 (<code class="language-plaintext highlighter-rouge">depends</code>의 역방향):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba repoquery whoneeds </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ipython</span></p>

@@ -1,0 +1,35 @@
+<h1 id="killall">killall</h1>
+
+<p>프로세스 이름으로 모든 인스턴스에 종료 신호를 보냅니다 (정확한 이름이어야 함).
+SIGKILL 및 SIGSTOP을 제외한 모든 신호는 프로세스에 의해 가로채어져 클린 종료가 가능합니다.
+더 많은 정보: <a href="https://manned.org/killall">https://manned.org/killall</a>.</p>
+
+<ul>
+  <li>기본 SIGTERM (종료) 신호를 사용하여 프로세스 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_이름</span></p>
+
+<ul>
+  <li>사용 가능한 신호 이름 [l]ist 보기 ('SIG' 접두사 없이 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -l</code></p>
+
+<ul>
+  <li>종료 전에 인터랙티브하게 확인 요청:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_이름</span></p>
+
+<ul>
+  <li>SIGINT (인터럽트) 신호를 사용하여 프로세스 종료, 이는 <code class="language-plaintext highlighter-rouge">Ctrl + C</code>로 전송되는 신호와 동일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -INT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_이름</span></p>
+
+<ul>
+  <li>프로세스를 강제로 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -KILL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_이름</span></p>

@@ -1,0 +1,22 @@
+<h1 id="fold">fold</h1>
+
+<p>Breek elke regel in een invoerbestand af om in een gespecificeerde breedte te passen en toon het in <code class="language-plaintext highlighter-rouge">stdout</code>.
+Meer informatie: <a href="https://manned.org/fold.1p">https://manned.org/fold.1p</a>.</p>
+
+<ul>
+  <li>Breek elke regel af op de standaard breedte (80 tekens):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Breek elke regel af op een breedte van "30":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fold -w30 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Breek elke regel af op een breedte van "5" en breek de regel bij spaties (zet elk door spaties gescheiden woord op een nieuwe regel, woorden langer dan 5 tekens worden afgebroken):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fold -w5 -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

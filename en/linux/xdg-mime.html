@@ -1,0 +1,28 @@
+<h1 id="xdg-mime">xdg-mime</h1>
+
+<p>Query and manage MIME types according to the XDG standard.
+More information: <a href="https://portland.freedesktop.org/doc/xdg-mime.html">https://portland.freedesktop.org/doc/xdg-mime.html</a>.</p>
+
+<ul>
+  <li>Display the MIME type of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-mime query filetype </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Display the default application for opening PNGs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-mime query default </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image/png</span></p>
+
+<ul>
+  <li>Display the default application for opening a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-mime query default $(xdg-mime query filetype </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Set imv as the default application for opening PNG and JPEG images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-mime default </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imv.desktop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image/png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image/jpeg</span></p>

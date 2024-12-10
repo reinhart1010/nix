@@ -1,0 +1,40 @@
+<h1 id="protonvpn-connect">protonvpn connect</h1>
+
+<p>Connect to ProtonVPN.
+More information: <a href="https://github.com/Rafficer/linux-cli-community">https://github.com/Rafficer/linux-cli-community</a>.</p>
+
+<ul>
+  <li>Connect to ProtonVPN interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protonvpn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c|connect</span></p>
+
+<ul>
+  <li>Connect to ProtonVPN using the fastest server available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protonvpn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c|connect</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–fastest</span></p>
+
+<ul>
+  <li>Connect to ProtonVPN using a specific server with a specific protocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protonvpn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c|connect</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_name</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp|tcp</span></p>
+
+<ul>
+  <li>Connect to ProtonVPN using a random server with a specific protocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protonvpn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c|connect</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–random</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp|tcp</span></p>
+
+<ul>
+  <li>Connect to ProtonVPN using the fastest Tor-supporting server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protonvpn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c|connect</span><code class="language-plaintext highlighter-rouge"> --tor</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protonvpn connect --help</code></p>

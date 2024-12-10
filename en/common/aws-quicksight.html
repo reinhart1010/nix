@@ -1,0 +1,40 @@
+<h1 id="aws-quicksight">aws quicksight</h1>
+
+<p>Create, delete, list, search and update AWS QuickSight entities.
+More information: <a href="https://docs.aws.amazon.com/cli/latest/reference/quicksight/">https://docs.aws.amazon.com/cli/latest/reference/quicksight/</a>.</p>
+
+<ul>
+  <li>List datasets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws quicksight list-data-sets --aws-account-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_account_id</span></p>
+
+<ul>
+  <li>List users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws quicksight list-users --aws-account-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_account_id</span><code class="language-plaintext highlighter-rouge"> --namespace default</code></p>
+
+<ul>
+  <li>List groups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws quicksight list-groups --aws-account-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_account_id</span><code class="language-plaintext highlighter-rouge"> --namespace default</code></p>
+
+<ul>
+  <li>List dashboards:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws quicksight list-dashboards --aws-account-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_account_id</span></p>
+
+<ul>
+  <li>Display detailed information about a dataset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws quicksight describe-data-set --aws-account-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_account_id</span><code class="language-plaintext highlighter-rouge"> --data-set-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data_set_id</span></p>
+
+<ul>
+  <li>Display who has access to the dataset and what kind of actions they can perform on the dataset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws quicksight describe-data-set-permissions --aws-account-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_account_id</span><code class="language-plaintext highlighter-rouge"> --data-set-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data_set_id</span></p>

@@ -1,0 +1,41 @@
+<h1 id="move">move</h1>
+
+<p>Verplaats of hernoem bestanden en mappen.
+In PowerShell is dit commando een alias van <code class="language-plaintext highlighter-rouge">Move-Item</code>. Deze documentatie is gebaserd op de Command Prompt (<code class="language-plaintext highlighter-rouge">cmd</code>) versie van <code class="language-plaintext highlighter-rouge">move</code>.
+Meer informatie: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/move">https://learn.microsoft.com/windows-server/administration/windows-commands/move</a>.</p>
+
+<ul>
+  <li>Bekijk de documentatie van het PowerShell equivalente commando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr move-item</code></p>
+
+<ul>
+  <li>Hernoem een bestand of map als het doel een niet-bestaande map is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\doel</span></p>
+
+<ul>
+  <li>Verplaats een bestand of map naar een bestaande map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestaande_map</span></p>
+
+<ul>
+  <li>Verplaats een map of bestand naar een andere schijf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:\pad\naar\bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">D:\pad\naar\doel</span></p>
+
+<ul>
+  <li>Vraag niet voor bevestiging voordat bestaande bestanden worden overschreven:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">move /Y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestaande_map</span></p>
+
+<ul>
+  <li>Vraag voor bevestiging voordat bestaande bestanden worden overschreven, ongeacht de bestandspermissies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">move /-Y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestaande_map</span></p>

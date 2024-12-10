@@ -1,0 +1,28 @@
+<h1 id="terraform-output">terraform output</h1>
+
+<p>Exporta datos estructurados sobre tus recursos Terraform.
+Más información: <a href="https://developer.hashicorp.com/terraform/cli/commands/output">https://developer.hashicorp.com/terraform/cli/commands/output</a>.</p>
+
+<ul>
+  <li>Sin argumentos adicionales, <code class="language-plaintext highlighter-rouge">output</code> mostrará todas las salidas del módulo raíz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform output</code></p>
+
+<ul>
+  <li>Genera solo un valor con un nombre específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Convierte el valor de salida en una cadena sin formato (útil para scripts de shell):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform output -raw</code></p>
+
+<ul>
+  <li>Formatea las salidas como un objeto JSON, con una clave por cada salida (útil con jq):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform output -json</code></p>

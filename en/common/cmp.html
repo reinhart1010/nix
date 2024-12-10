@@ -1,0 +1,28 @@
+<h1 id="cmp">cmp</h1>
+
+<p>Compare two files byte by byte.
+More information: <a href="https://www.gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html">https://www.gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html</a>.</p>
+
+<ul>
+  <li>Output char and line number of the first difference between two files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Output info of the first difference: char, line number, bytes, and values:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmp --print-bytes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Output the byte numbers and values of every difference:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmp --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare files but output nothing, yield only the exit status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmp --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>

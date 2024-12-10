@@ -1,0 +1,29 @@
+<h1 id="odps-tunnel">odps tunnel</h1>
+
+<p>ODPS(Open Data Processing Service)에서의 데이터 터널.
+같이 보기: <code class="language-plaintext highlighter-rouge">odps</code>.
+더 많은 정보: <a href="https://www.alibabacloud.com/help/doc-detail/27971.htm">https://www.alibabacloud.com/help/doc-detail/27971.htm</a>.</p>
+
+<ul>
+  <li>테이블을 로컬 파일로 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tunnel download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>로컬 파일을 테이블 파티션에 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tunnel upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파티션_사양</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>필드 및 레코드 구분자를 지정하여 테이블 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tunnel upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> -fd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드_구분자</span><code class="language-plaintext highlighter-rouge"> -rd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레코드_구분자</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>여러 스레드를 사용하여 테이블 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tunnel upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> -threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스레드_수</span><code class="language-plaintext highlighter-rouge">;</code></p>

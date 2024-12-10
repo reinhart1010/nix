@@ -1,0 +1,22 @@
+<h1 id="st-util">st-util</h1>
+
+<p>STM32 ARM Cortex 마이크로컨트롤러와 상호작용하기 위해 GDB (GNU Debugger) 서버 실행.
+더 많은 정보: <a href="https://github.com/texane/stlink">https://github.com/texane/stlink</a>.</p>
+
+<ul>
+  <li>포트 4500에서 GDB 서버 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">st-util -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4500</span></p>
+
+<ul>
+  <li>GDB 서버에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">(gdb) target extended-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4500</span></p>
+
+<ul>
+  <li>장치에 펌웨어 쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">(gdb) load </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firmware.elf</span></p>

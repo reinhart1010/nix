@@ -1,0 +1,53 @@
+<h1 id="pacman-sync">pacman –sync</h1>
+
+<p>Synchronise les paquets.
+Voir aussi: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Plus d'informations : <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Installe un nouveau paquet :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Synchronise et mettre à jour :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade</code></p>
+
+<ul>
+  <li>Synchronise, mets à jour et installe un paquet sans demander de confirmation :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Recherche un paquet en utilisant un nom ou une expression régulière :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">motif</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Affiche des informations sur un paquet :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Ecris par dessus des fichiers pendant une mise à jour :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Synchronise et mets à jour les paquets, en ignorant un paquet (peut être utilisé plusieurs fois) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Supprime les fichiers concernant des paquets non installés et les dépôts supprimés du cache de pacman :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --clean</code></p>

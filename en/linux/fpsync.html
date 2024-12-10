@@ -1,0 +1,40 @@
+<h1 id="fpsync">fpsync</h1>
+
+<p>Execute several synchronization processes locally or on several remote workers through SSH.
+More information: <a href="https://www.fpart.org/fpsync/">https://www.fpart.org/fpsync/</a>.</p>
+
+<ul>
+  <li>Recursively synchronize a directory to another location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/source/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/destination/</span></p>
+
+<ul>
+  <li>Recursively synchronize a directory with the final pass (It enables rsync's <code class="language-plaintext highlighter-rouge">--delete</code> option with each synchronization job):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/source/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/destination/</span></p>
+
+<ul>
+  <li>Recursively synchronize a directory to a destination using 8 concurrent synchronization jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v -n 8 -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/source/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/destination/</span></p>
+
+<ul>
+  <li>Recursively synchronize a directory to a destination using 8 concurrent synchronization jobs spread over two remote workers (machine1 and machine2):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v -n 8 -E -w login@machine1 -w login@machine2 -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/shared/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/source/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/destination/</span></p>
+
+<ul>
+  <li>Recursively synchronize a directory to a destination using 4 local workers, each one transferring at most 1000 files and 100 MB per synchronization job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v -n 4 -f 1000 -s $((100 * 1024 * 1024)) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/source/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/destination/</span></p>
+
+<ul>
+  <li>Recursively synchronize any directories but exclude specific <code class="language-plaintext highlighter-rouge">.snapshot*</code> files (Note: options and values must be separated by a pipe character):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fpsync -v -O "-x|.snapshot*" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/source/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/destination/</span></p>

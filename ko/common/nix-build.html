@@ -1,0 +1,17 @@
+<h1 id="nix-build">nix-build</h1>
+
+<p>Nix 표현식을 빌드.
+같이 보기: <code class="language-plaintext highlighter-rouge">nix3 build</code>.
+더 많은 정보: <a href="https://nixos.org/manual/nix/stable/command-ref/nix-build.html">https://nixos.org/manual/nix/stable/command-ref/nix-build.html</a>.</p>
+
+<ul>
+  <li>Nix 표현식 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-build '&lt;nixpkgs&gt;' --attr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firefox</span></p>
+
+<ul>
+  <li>샌드박스된 Nix 표현식 빌드 (NixOS가 아닌 경우):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-build '&lt;nixpkgs&gt;' --attr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firefox</span><code class="language-plaintext highlighter-rouge"> --option sandbox true</code></p>

@@ -1,0 +1,54 @@
+<h1 id="aws">aws</h1>
+
+<p>A interface de linha de comando oficial para o Amazon Web Services.
+Passo-a-passo, Single Sign-On (SSO), autocompletar de recursos e opções de YAML somente na v2.
+Alguns subcomandos como <code class="language-plaintext highlighter-rouge">s3</code> tem sua própia documentação de uso.
+Mais informações: <a href="https://aws.amazon.com/cli">https://aws.amazon.com/cli</a>.</p>
+
+<ul>
+  <li>Configura a linha de comando da AWS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure wizard</code></p>
+
+<ul>
+  <li>Configura a linha de comando da AWS usando o SSO:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure sso</code></p>
+
+<ul>
+  <li>Obtenha a informações da identidade usada (útil para analisar problemas de permissão):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sts get-caller-identity</code></p>
+
+<ul>
+  <li>Lista recursos da AWS em uma região em yaml:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb list-tables --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sa-east-1</span><code class="language-plaintext highlighter-rouge"> --output yaml</code></p>
+
+<ul>
+  <li>Usa prompt de comando para ajuda com o preenchimento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam create-user --cli-auto-prompt</code></p>
+
+<ul>
+  <li>Usa um passo-a-passo interativo para um recurso da AWS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb wizard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nova-tabela</span></p>
+
+<ul>
+  <li>Gera um arquivo esqueleo em JSON (útil para ser usado em infraestrutura como código):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb update-table --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>Veja o texto de ajuda para o comando da AWS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> help</code></p>

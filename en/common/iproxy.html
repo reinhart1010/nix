@@ -1,0 +1,28 @@
+<h1 id="iproxy">iproxy</h1>
+
+<p>A proxy that binds local TCP ports to be forwarded to the specified ports on a usbmux device.
+More information: <a href="https://manned.org/iproxy">https://manned.org/iproxy</a>.</p>
+
+<ul>
+  <li>Bind a local TCP port and forward it to a port on the connected USB device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iproxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_port</span></p>
+
+<ul>
+  <li>Bind multiple local TCP ports and forward them to the respective ports on the connected USB device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iproxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_port1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port2</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_port2</span></p>
+
+<ul>
+  <li>Bind a local port and forward it to a specific device by UDID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iproxy --udid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_udid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_port</span></p>
+
+<ul>
+  <li>Bind a local port and forward it to a network-connected device with WiFi sync enabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iproxy --network </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_port</span></p>

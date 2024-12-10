@@ -1,0 +1,35 @@
+<h1 id="img2pdf">img2pdf</h1>
+
+<p>래스터 이미지를 무손실로 PDF 파일로 변환.
+지원되는 이미지 포맷으로는 GIF, JPEG, JPEG2000, PNG, GIF, TIFF 등이 있습니다.
+더 많은 정보: <a href="https://gitlab.mister-muffin.de/josch/img2pdf">https://gitlab.mister-muffin.de/josch/img2pdf</a>.</p>
+
+<ul>
+  <li>하나 이상의 이미지를 각각의 페이지에 넣어 단일 PDF로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">img2pdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지1.확장자 경로/대상/이미지2.확장자 …</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pdf</span></p>
+
+<ul>
+  <li>다중 프레임 이미지의 첫 프레임만 PDF로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">img2pdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.gif</span><code class="language-plaintext highlighter-rouge"> --first-frame-only --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pdf</span></p>
+
+<ul>
+  <li>이미지를 자동으로 방향 설정하고, 가로 모드의 특정 페이지 크기를 사용하며, 가로 및 세로로 특정 크기의 테두리를 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">img2pdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.확장자</span><code class="language-plaintext highlighter-rouge"> --auto-orient --pagesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A4^T</span><code class="language-plaintext highlighter-rouge"> --border </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2cm</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5.1cm</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pdf</span></p>
+
+<ul>
+  <li>페이지의 특정 크기 내에 지정된 치수로만 큰 이미지를 축소:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">img2pdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.확장자</span><code class="language-plaintext highlighter-rouge"> --pagesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30cm</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20cm</span><code class="language-plaintext highlighter-rouge"> --imgsize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10cm</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">15cm</span><code class="language-plaintext highlighter-rouge"> --fit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shrink</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pdf</span></p>
+
+<ul>
+  <li>이미지를 PDF로 변환하고, 결과 파일에 메타데이터 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">img2pdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.확장자</span><code class="language-plaintext highlighter-rouge"> --title </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제목</span><code class="language-plaintext highlighter-rouge"> --author </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저자</span><code class="language-plaintext highlighter-rouge"> --creationdate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1970-01-31</span><code class="language-plaintext highlighter-rouge"> --keywords </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키워드1 키워드2</span><code class="language-plaintext highlighter-rouge"> --subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주제</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pdf</span></p>

@@ -1,0 +1,40 @@
+<h1 id="amass-enum">amass enum</h1>
+
+<p>Cari seluruh subdomain dari suatu domain internet.
+Informasi lebih lanjut: <a href="https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand">https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand</a>.</p>
+
+<ul>
+  <li>Cari para subdomain dari suatu [d]omain (secara pasif):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_domain</span></p>
+
+<ul>
+  <li>Cari para subdomain dari [d]omain dengan memeriksa apakah subdomain tersebut dapat ditemukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -active -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_domain</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,443,8080</span></p>
+
+<ul>
+  <li>Lakukan pencarian terhadap para sub[d]omain secara paksa (brute force):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -brute -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_domain</span></p>
+
+<ul>
+  <li>Simpan hasil pencarian ke dalam suatu berkas teks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_output</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_domain</span></p>
+
+<ul>
+  <li>Simpan hasil luaran (output) terminal menuju suatu berkas dan informasi tambahan ke dalam direktori tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_output</span><code class="language-plaintext highlighter-rouge"> -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_domain</span></p>
+
+<ul>
+  <li>Tampilkan daftar sumber pencarian data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -list</code></p>

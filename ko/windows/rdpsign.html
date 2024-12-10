@@ -1,0 +1,34 @@
+<h1 id="rdpsign">rdpsign</h1>
+
+<p>원격 데스크톱 프로토콜(RDP) 파일을 서명하는 도구입니다.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign">https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign</a>.</p>
+
+<ul>
+  <li>RDP 파일 서명:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdpsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일.rdp</span></p>
+
+<ul>
+  <li>특정 sha256 해시를 사용하여 RDP 파일 서명:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdpsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일.rdp</span><code class="language-plaintext highlighter-rouge"> /sha265 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">해시</span></p>
+
+<ul>
+  <li>최소 출력 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdpsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일.rdp</span><code class="language-plaintext highlighter-rouge"> /q</code></p>
+
+<ul>
+  <li>자세한 경고, 메시지 및 상태 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdpsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일.rdp</span><code class="language-plaintext highlighter-rouge"> /v</code></p>
+
+<ul>
+  <li>파일을 업데이트하지 않고 출력 결과를 <code class="language-plaintext highlighter-rouge">stdout</code>에 표시하여 서명을 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdpsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일.rdp</span><code class="language-plaintext highlighter-rouge"> /l</code></p>

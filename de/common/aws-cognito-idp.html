@@ -1,0 +1,40 @@
+<h1 id="aws-cognito-idp">aws cognito-idp</h1>
+
+<p>Verwalten des Amazon Cognito-Benutzerpools, seiner Benutzer und Gruppen mit der CLI.
+Weitere Informationen: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html</a>.</p>
+
+<ul>
+  <li>Erstelle einen neuen Cognito-Benutzerpool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp create-user-pool --pool-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Liste alle Bentzerpools auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp list-user-pools --max-results </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Lösche einen bestimmten Benutzerpool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp delete-user-pool --user-pool-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzerpool_id</span></p>
+
+<ul>
+  <li>Erstelle einen Benutzer in einem bestimmten Pool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp admin-create-user --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span><code class="language-plaintext highlighter-rouge"> --user-pool-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzerpool_id</span></p>
+
+<ul>
+  <li>Liste die Benutzer eines bestimmten Pool auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp list-users --user-pool-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzerpool_id</span></p>
+
+<ul>
+  <li>Lösche einen Benutzer aus einem bestimmten Pool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp admin-delete-user --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span><code class="language-plaintext highlighter-rouge"> --user-pool-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzerpool_id</span></p>

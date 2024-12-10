@@ -1,0 +1,34 @@
+<h1 id="sysbench">sysbench</h1>
+
+<p>시스템의 CPU, IO 및 메모리를 벤치마킹.
+더 많은 정보: <a href="https://github.com/akopytov/sysbench/">https://github.com/akopytov/sysbench/</a>.</p>
+
+<ul>
+  <li>1개의 스레드로 10초 동안 CPU 벤치마크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysbench cpu run</code></p>
+
+<ul>
+  <li>여러 스레드로 지정된 시간 동안 CPU 벤치마크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysbench --threads=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스레드_수</span><code class="language-plaintext highlighter-rouge"> --time=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초</span></p>
+
+<ul>
+  <li>1개의 스레드로 10초 동안 메모리 벤치마크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysbench memory run</code></p>
+
+<ul>
+  <li>파일 시스템 수준의 읽기 벤치마크 준비:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysbench fileio prepare</code></p>
+
+<ul>
+  <li>파일 시스템 수준의 벤치마크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysbench --file-test-mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rndrd|rndrw|rndwr|seqrd|seqrewr|seqwr</span><code class="language-plaintext highlighter-rouge"> fileio run</code></p>

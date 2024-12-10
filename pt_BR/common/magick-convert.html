@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="magick-convert">magick convert</h1>
+
+<p>Ferramenta de conversão de imagens da ImageMagick.
+Mais informações: <a href="https://imagemagick.org/script/convert.php">https://imagemagick.org/script/convert.php</a>.</p>
+
+<ul>
+  <li>Converte uma imagem do formato JPEG para o formato PNG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem.png</span></p>
+
+<ul>
+  <li>Escala uma imagem para 50% do seu tamanho original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem.png</span><code class="language-plaintext highlighter-rouge"> -resize 50% </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nova_imagem.png</span></p>
+
+<ul>
+  <li>Escala uma imagem, mantendo as suas proporções originais, para uma dimensão máxima de 640x480:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem.png</span><code class="language-plaintext highlighter-rouge"> -resize 640x480 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nova_imagem.png</span></p>
+
+<ul>
+  <li>Junta várias imagens horizontalmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem1.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem2.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem3.png</span><code class="language-plaintext highlighter-rouge"> +append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nova_imagem.png</span></p>
+
+<ul>
+  <li>Cria um GIF a partir de uma série de imagens, com um intervalo de 100ms entre elas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem1.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem2.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem3.png</span><code class="language-plaintext highlighter-rouge"> -delay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nova_imagem.gif</span></p>
+
+<ul>
+  <li>Cria uma nova imagem de tamanho 800x600 com apenas um fundo sólido vermelho:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick convert -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">800x600</span><code class="language-plaintext highlighter-rouge"> "xc:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">#ff0000</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem.png</span></p>

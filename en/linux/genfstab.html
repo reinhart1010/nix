@@ -1,0 +1,28 @@
+<h1 id="genfstab">genfstab</h1>
+
+<p>Arch Linux install script to generate output suitable for addition to an fstab file.
+More information: <a href="https://manned.org/genfstab.8">https://manned.org/genfstab.8</a>.</p>
+
+<ul>
+  <li>Display an fstab compatible output based on a volume label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genfstab -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point</span></p>
+
+<ul>
+  <li>Display an fstab compatible output based on a volume UUID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genfstab -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point</span></p>
+
+<ul>
+  <li>A usual way to generate an fstab file, requires root permissions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genfstab -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/mnt</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/mnt/etc/fstab</span></p>
+
+<ul>
+  <li>Append a volume into an fstab file to mount it automatically:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genfstab -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point</span><code class="language-plaintext highlighter-rouge"> | sudo tee -a /etc/fstab</code></p>

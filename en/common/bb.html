@@ -1,0 +1,28 @@
+<h1 id="bb">bb</h1>
+
+<p>Native Clojure interpreter for scripting.
+More information: <a href="https://book.babashka.org/#usage">https://book.babashka.org/#usage</a>.</p>
+
+<ul>
+  <li>[e]valuate an expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bb -e "(+ 1 2 3)"</code></p>
+
+<ul>
+  <li>Evaluate a script [f]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bb -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.clj</span></p>
+
+<ul>
+  <li>Bind [i]nput to a sequence of lines from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "first\nsecond" | bb -i "(map clojure.string/capitalize *input*)"</code></p>
+
+<ul>
+  <li>Bind [I]nput to a sequence of EDN (Extensible Data Notation) values from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "{:key 'val}" | bb -I "(:key (first *input*))"</code></p>

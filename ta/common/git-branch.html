@@ -1,0 +1,52 @@
+<h1 id="git-branch">git branch</h1>
+
+<p>கிளைகளுடன் வேலை செய்வதற்கான பிரதான கிட் கட்டளை.
+மேலும் விவரத்திற்கு: <a href="https://git-scm.com/docs/git-branch">https://git-scm.com/docs/git-branch</a>.</p>
+
+<ul>
+  <li>அனைத்து கிளைகளையும் பட்டியலிடுங்கள் (உள்ளூர் மற்றும் தொலைதூர; தற்போதைய கிளை <code class="language-plaintext highlighter-rouge">*</code> மூலம் சிறப்பிக்கப்படுகிறது):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --all</code></p>
+
+<ul>
+  <li>எந்தெந்த கிளைகள் தங்கள் வரலாற்றில் குறிப்பிட்ட Git கமிட்டை உள்ளடக்கியிருக்கின்றன என்பதை பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --all --contains </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்_ஹாஷ்</span></p>
+
+<ul>
+  <li>தற்போதைய கிளையின் பெயரைக் காட்டு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --show-current</code></p>
+
+<ul>
+  <li>தற்போதைய கமிட்டின் அடிப்படையில் புதிய கிளையை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கிளையின்_பெயர்</span></p>
+
+<ul>
+  <li>ஒரு குறிப்பிட்ட கமிட்டின் அடிப்படையில் புதிய கிளையை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கிளையின்_பெயர்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்_ஹாஷ்</span></p>
+
+<ul>
+  <li>ஒரு கிளையின் மறுபெயரிடு (இதை செய்ய அந்த கிளையை செக்கவுட் செய்த்திருக்க கூடாது):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–move</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பழைய_கிளையின்_பெயர்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">புதிய_கிளையின்_பெயர்</span></p>
+
+<ul>
+  <li>கணினியில் ஒரு கிளையை நீக்கு (இதை செய்ய அந்த கிளையை செக்கவுட் செய்த்திருக்க கூடாது):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கிளையின்_பெயர்</span></p>
+
+<ul>
+  <li>தொலை களஞ்சியத்தில் ஒரு கிளையை நீக்கு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_பெயர்</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_கிளையின்_பெயர்</span></p>

@@ -1,0 +1,22 @@
+<h1 id="uuencode">uuencode</h1>
+
+<p>Encode binary files into ASCII for transport via mediums that only support simple ASCII encoding.
+More information: <a href="https://manned.org/uuencode">https://manned.org/uuencode</a>.</p>
+
+<ul>
+  <li>Encode a file and print the result to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuencode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file_name_after_decoding</span></p>
+
+<ul>
+  <li>Encode a file and write the result to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuencode -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file_name_after_decoding</span></p>
+
+<ul>
+  <li>Encode a file using Base64 instead of the default uuencode encoding and write the result to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuencode -m -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file_name_after_decoding</span></p>

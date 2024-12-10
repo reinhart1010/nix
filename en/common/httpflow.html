@@ -1,0 +1,34 @@
+<h1 id="httpflow">httpflow</h1>
+
+<p>A command-line utility to capture and dump HTTP streams.
+More information: <a href="https://github.com/six-ddc/httpflow">https://github.com/six-ddc/httpflow</a>.</p>
+
+<ul>
+  <li>Capture traffic on all interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpflow -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span></p>
+
+<ul>
+  <li>Use a bpf-style capture to filter the results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpflow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host httpbin.org or host baidu.com</span></p>
+
+<ul>
+  <li>Use a regular expression to filter requests by URLs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpflow -u '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Read packets from PCAP format binary file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpflow -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">out.cap</span></p>
+
+<ul>
+  <li>Write the output to a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpflow -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

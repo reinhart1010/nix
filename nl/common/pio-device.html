@@ -1,0 +1,46 @@
+<h1 id="pio-device">pio device</h1>
+
+<p>Beheer en monitor PlatformIO apparaten.
+Meer informatie: <a href="https://docs.platformio.org/en/latest/core/userguide/device/">https://docs.platformio.org/en/latest/core/userguide/device/</a>.</p>
+
+<ul>
+  <li>Toon alle beschikbare seriele poorten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device list</code></p>
+
+<ul>
+  <li>Toon alle beschikbare logische apparaten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device list --logical</code></p>
+
+<ul>
+  <li>Start een interactieve apparaat monitor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor</code></p>
+
+<ul>
+  <li>Start een interactieve apparaat monitor en luister naar een specifieke poort:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSBX</span></p>
+
+<ul>
+  <li>Start een interactieve apparaat monitor en stel een specifieke baud in (standaard is 9600):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor --baud </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">57600</span></p>
+
+<ul>
+  <li>Start een interactieve apparaat monitor en stel een specifieke EOL karakter in (standaard is <code class="language-plaintext highlighter-rouge">CRLF</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor --eol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CRLF|CR|LF</span></p>
+
+<ul>
+  <li>Ga naar het menu van de interactieve apparaat monitor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + T</code></p>

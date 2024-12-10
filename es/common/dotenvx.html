@@ -1,0 +1,46 @@
+<h1 id="dotenvx">dotenvx</h1>
+
+<p>Un <code class="language-plaintext highlighter-rouge">dotenv</code> mejor, del creador de <code class="language-plaintext highlighter-rouge">dotenv</code>.
+Más información: <a href="https://dotenvx.com/docs">https://dotenvx.com/docs</a>.</p>
+
+<ul>
+  <li>Ejecuta un comando con variables de entorno desde un archivo <code class="language-plaintext highlighter-rouge">.env</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx run -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Ejecuta un comando con variables de entorno desde un archivo <code class="language-plaintext highlighter-rouge">.env</code> específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx run -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.env</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Establece una variable de entorno con cifrado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span></p>
+
+<ul>
+  <li>Establece una variable de entorno sin encriptación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge"> --plain</code></p>
+
+<ul>
+  <li>Devuelve las variables de entorno definidas en un archivo <code class="language-plaintext highlighter-rouge">.env</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx get</code></p>
+
+<ul>
+  <li>Devuelve el valor de una variable de entorno definida en un archivo <code class="language-plaintext highlighter-rouge">.env</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave</span></p>
+
+<ul>
+  <li>Devuelve todas las variables de entorno de los archivos <code class="language-plaintext highlighter-rouge">.env</code> y OS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx get --all</code></p>

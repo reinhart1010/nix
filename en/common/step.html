@@ -1,0 +1,53 @@
+<h1 id="step">step</h1>
+
+<p>An easy-to-use CLI tool for building, operating, and automating Public Key Infrastructure (PKI) systems and workflows.
+See also: <code class="language-plaintext highlighter-rouge">openssl</code>.
+More information: <a href="https://smallstep.com/docs/step-cli/">https://smallstep.com/docs/step-cli/</a>.</p>
+
+<ul>
+  <li>Inspect the contents of a certificate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">step certificate inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/certificate.crt</span></p>
+
+<ul>
+  <li>Create a root CA certificate and a key (append <code class="language-plaintext highlighter-rouge">--no-password --insecure</code> to skip private key password protection):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">step certificate create "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Example Root CA</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root-ca.crt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root-ca.key</span><code class="language-plaintext highlighter-rouge"> --profile root-ca</code></p>
+
+<ul>
+  <li>Generate a certificate for a specific hostname and sign it with the root CA (generating a CSR can be skipped for simplification):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">step certificate create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname.example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hostname.crt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hostname.key</span><code class="language-plaintext highlighter-rouge"> --profile leaf --ca </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root-ca.crt</span><code class="language-plaintext highlighter-rouge"> --ca-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root-ca.key</span></p>
+
+<ul>
+  <li>Verify a certificate chain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">step certificate verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hostname.crt</span><code class="language-plaintext highlighter-rouge"> --roots </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root-ca.crt</span><code class="language-plaintext highlighter-rouge"> --verbose</code></p>
+
+<ul>
+  <li>Convert a PEM format certificate to DER and write it to disk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">step certificate format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/certificate.pem</span><code class="language-plaintext highlighter-rouge"> --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/certificate.der</span></p>
+
+<ul>
+  <li>Install or uninstall a root certificate in the system's default trust store:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">step certificate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">install|uninstall</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root-ca.crt</span></p>
+
+<ul>
+  <li>Create a RSA/EC private and public keypair (append <code class="language-plaintext highlighter-rouge">--no-password --insecure</code> to skip private key password protection):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">step crypto keypair </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/public_key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/private_key</span><code class="language-plaintext highlighter-rouge"> --kty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">RSA|EC</span></p>
+
+<ul>
+  <li>Show help for subcommands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">step </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path|base64|certificate|completion|context|crl|crypto|oauth|ca|beta|ssh</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

@@ -1,0 +1,34 @@
+<h1 id="debsecan">debsecan</h1>
+
+<p>Debian Security Analyzer, a tool to list vulnerabilities on a particular Debian installation.
+More information: <a href="https://gitlab.com/fweimer/debsecan">https://gitlab.com/fweimer/debsecan</a>.</p>
+
+<ul>
+  <li>List vulnerable installed packages on the current host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debsecan</code></p>
+
+<ul>
+  <li>List vulnerable installed packages of a specific suite:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debsecan --suite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release_code_name</span></p>
+
+<ul>
+  <li>List only fixed vulnerabilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debsecan --suite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release_code_name</span><code class="language-plaintext highlighter-rouge"> --only-fixed</code></p>
+
+<ul>
+  <li>List only fixed vulnerabilities of unstable ("sid") and mail to root:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debsecan --suite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sid</span><code class="language-plaintext highlighter-rouge"> --only-fixed --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">report</span><code class="language-plaintext highlighter-rouge"> --mailto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root</span><code class="language-plaintext highlighter-rouge"> --update-history</code></p>
+
+<ul>
+  <li>Upgrade vulnerable installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade $(debsecan --only-fixed --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">packages</span><code class="language-plaintext highlighter-rouge">)</code></p>

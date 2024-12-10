@@ -1,0 +1,40 @@
+<h1 id="docker-service">docker service</h1>
+
+<p>Bir Docker daemon'unun üzerindeki servisleri yönet.
+Daha fazla bilgi için: <a href="https://docs.docker.com/reference/cli/docker/service/">https://docs.docker.com/reference/cli/docker/service/</a>.</p>
+
+<ul>
+  <li>Bir Docker daeomon'unun üzerindeki servisleri listele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service ls</code></p>
+
+<ul>
+  <li>Yeni bir servis yarat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servis_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imge</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiket</span></p>
+
+<ul>
+  <li>Boşluk ile ayrılmış bir servis listesinin detaylı bilgisini görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servis_ismi|ID</span></p>
+
+<ul>
+  <li>Boşluk ile ayrılmış bir servis listesinin görevlerini sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service ps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servis_ismi|ID</span></p>
+
+<ul>
+  <li>Boşluk ile ayrılmış bir servis listesi için belirli bir replika miktarına yüksel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service scale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servis_ismi</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replika_miktarı</span></p>
+
+<ul>
+  <li>Boşluk ile ayrılmış bir servis listesini sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servis_ismi|ID</span></p>

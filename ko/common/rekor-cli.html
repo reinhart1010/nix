@@ -1,0 +1,28 @@
+<h1 id="rekor-cli">rekor-cli</h1>
+
+<p>소프트웨어 프로젝트의 공급망 내에서 생성된 메타데이터의 변경 불가능한 변조 방지 원장.
+더 많은 정보: <a href="https://github.com/sigstore/rekor">https://github.com/sigstore/rekor</a>.</p>
+
+<ul>
+  <li>아티팩트를 Rekor에 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rekor-cli upload --artifact </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ext</span><code class="language-plaintext highlighter-rouge"> --signature </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ext.sig</span><code class="language-plaintext highlighter-rouge"> --pki-format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x509</span><code class="language-plaintext highlighter-rouge"> --public-key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키.pub</span></p>
+
+<ul>
+  <li>투명성 로그의 항목에 대한 정보 얻기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rekor-cli get --uuid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0e81b4d9299e2609e45b5c453a4c0e7820ac74e02c4935a8b830d104632fd2d1</span></p>
+
+<ul>
+  <li>아티팩트로 Rekor 색인에서 항목 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rekor-cli search --artifact </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ext</span></p>
+
+<ul>
+  <li>특정 해시로 Rekor 색인에서 항목 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rekor-cli search --sha </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b</span></p>

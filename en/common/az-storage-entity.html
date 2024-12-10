@@ -1,0 +1,35 @@
+<h1 id="az-storage-entity">az storage entity</h1>
+
+<p>Manage Azure Table storage entities.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/storage/entity">https://learn.microsoft.com/cli/azure/storage/entity</a>.</p>
+
+<ul>
+  <li>Insert an entity into a table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage entity insert --entity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">space_separated_key_value_pairs</span><code class="language-plaintext highlighter-rouge"> --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_key</span></p>
+
+<ul>
+  <li>Delete an existing entity from a table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage entity delete --partition-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partition_key</span><code class="language-plaintext highlighter-rouge"> --row-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">row_key</span><code class="language-plaintext highlighter-rouge"> --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_key</span></p>
+
+<ul>
+  <li>Update an existing entity by merging its properties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage entity merge --entity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">space_separated_key_value_pairs</span><code class="language-plaintext highlighter-rouge"> --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_key</span></p>
+
+<ul>
+  <li>List entities which satisfy a query:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage entity query --filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query_filter</span><code class="language-plaintext highlighter-rouge"> --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_key</span></p>
+
+<ul>
+  <li>Get an entity from the specified table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage entity show --partition-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partition_key</span><code class="language-plaintext highlighter-rouge"> --row-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">row_key</span><code class="language-plaintext highlighter-rouge"> --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_key</span></p>

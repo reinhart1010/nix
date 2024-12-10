@@ -1,0 +1,28 @@
+<h1 id="gnuplot">gnuplot</h1>
+
+<p>A graph plotter that outputs in several formats.
+More information: <a href="http://www.gnuplot.info/">http://www.gnuplot.info/</a>.</p>
+
+<ul>
+  <li>Start the interactive graph plotting shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnuplot</code></p>
+
+<ul>
+  <li>Plot the graph for the specified graph definition file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnuplot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/definition.plt</span></p>
+
+<ul>
+  <li>Set the output format by executing a command before loading the definition file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnuplot -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">set output "path/to/filename.png" size 1024,768</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/definition.plt</span></p>
+
+<ul>
+  <li>Persist the graph plot preview window after gnuplot exits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnuplot --persist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/definition.plt</span></p>

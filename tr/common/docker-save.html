@@ -1,0 +1,28 @@
+<h1 id="docker-save">docker save</h1>
+
+<p>Bir veya daha fazla Docker imgesini arşivlemek için dışa aktar.
+Daha fazla bilgi için: <a href="https://docs.docker.com/reference/cli/docker/image/save/">https://docs.docker.com/reference/cli/docker/image/save/</a>.</p>
+
+<ul>
+  <li>Bir imgeyi, <code class="language-plaintext highlighter-rouge">stdout</code>'u tar arşivine yönlendirerek kaydet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imge</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiket</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya.tar</span></p>
+
+<ul>
+  <li>Bir imgeyi, bir tar arşivine kaydet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imge</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiket</span></p>
+
+<ul>
+  <li>Bir imgenin tüm etiketlerini kaydet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imge_ismi</span></p>
+
+<ul>
+  <li>Bir imgenin belirli etiketlerini kaydetmek için elle seç:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imge_ismi:etiket1 imge_ismi:etiket2 …</span></p>

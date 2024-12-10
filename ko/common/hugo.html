@@ -1,0 +1,53 @@
+<h1 id="hugo">hugo</h1>
+
+<p>템플릿 기반 정적 사이트 생성기. 모듈, 구성 요소 및 테마를 사용
+<code class="language-plaintext highlighter-rouge">server</code>와 같은 일부 하위 명령에는 자체 사용법 문서가 있음.
+더 많은 정보: <a href="https://gohugo.io">https://gohugo.io</a>.</p>
+
+<ul>
+  <li>새로운 Hugo 사이트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo new site </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/사이트</span></p>
+
+<ul>
+  <li>새로운 Hugo 테마를 생성 (테마는 <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>에서도 다운로드 할 수 있음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo new theme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테마_이름</span></p>
+
+<ul>
+  <li>새로운 페이지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">섹션_이름</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">페이지_이름</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">./public/</code> 디렉토리에 사이트를 구축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo</code></p>
+
+<ul>
+  <li>"초안"으로 표시된 페이지를 포함하는 사이트 구축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo --buildDrafts</code></p>
+
+<ul>
+  <li>로컬 IP에 사이트 구축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo server --bind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로컬-ip</span><code class="language-plaintext highlighter-rouge"> --baseURL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://로컬-ip</span></p>
+
+<ul>
+  <li>주어진 디렉토리에 사이트를 구축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo --destination </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목적지</span></p>
+
+<ul>
+  <li>사이트를 구축하고, 웹 서버를 시작하여 서비스를 제공하여, 페이지가 편집되면 자동으로 다시 로드됨:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hugo server</code></p>

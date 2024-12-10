@@ -1,0 +1,52 @@
+<h1 id="clamscan">clamscan</h1>
+
+<p>Scanner antivirus da linea di comando.
+Maggiori informazioni: <a href="https://docs.clamav.net/manual/Usage/Scanning.html#clamscan">https://docs.clamav.net/manual/Usage/Scanning.html#clamscan</a>.</p>
+
+<ul>
+  <li>Analizza un file cercando vulnerabilità:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Analizza ricorsivamente tutti i file in una specifica directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span></p>
+
+<ul>
+  <li>Analizza dati da standard input:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | clamscan -</code></p>
+
+<ul>
+  <li>Specifica un file o directory di file da usare come database virus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span></p>
+
+<ul>
+  <li>Analizza la directory corrente e mostra in output solo i file infetti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --infected</code></p>
+
+<ul>
+  <li>Scrivi il risultato di uno scan in un file di log:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_log</span></p>
+
+<ul>
+  <li>Sposta i file infetti in una specifica directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_quarantena</span></p>
+
+<ul>
+  <li>Elimina i file infetti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --remove yes</code></p>

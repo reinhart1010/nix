@@ -1,0 +1,41 @@
+<h1 id="linode-cli-volumes">linode-cli volumes</h1>
+
+<p>Manage Linode Volumes.
+See also: <code class="language-plaintext highlighter-rouge">linode-cli</code>.
+More information: <a href="https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-block-storage-volumes">https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-block-storage-volumes</a>.</p>
+
+<ul>
+  <li>List current Volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes list</code></p>
+
+<ul>
+  <li>Create a new Volume and attach it to a specific Linode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes create --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_label</span><code class="language-plaintext highlighter-rouge"> --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size_in_GB</span><code class="language-plaintext highlighter-rouge"> --linode-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linode_id</span></p>
+
+<ul>
+  <li>Attach a Volume to a specific Linode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes attach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span><code class="language-plaintext highlighter-rouge"> --linode-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linode_id</span></p>
+
+<ul>
+  <li>Detach a Volume from a Linode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes detach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span></p>
+
+<ul>
+  <li>Resize a Volume (Note: size can only be increased):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span><code class="language-plaintext highlighter-rouge"> --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_size_in_GB</span></p>
+
+<ul>
+  <li>Delete a Volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span></p>

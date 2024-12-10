@@ -1,0 +1,46 @@
+<h1 id="swupd">swupd</h1>
+
+<p>Clear Linux의 패키지 관리 도구.
+더 많은 정보: <a href="https://www.clearlinux.org/clear-linux-documentation/guides/clear/swupd.html">https://www.clearlinux.org/clear-linux-documentation/guides/clear/swupd.html</a>.</p>
+
+<ul>
+  <li>최신 버전으로 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo swupd update</code></p>
+
+<ul>
+  <li>현재 버전을 표시하고, 새 버전이 있는지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swupd check-update</code></p>
+
+<ul>
+  <li>설치된 번들 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swupd bundle-list</code></p>
+
+<ul>
+  <li>원하는 패키지가 존재하는 번들 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swupd search -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>새 번들 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo swupd bundle-add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">번들</span></p>
+
+<ul>
+  <li>번들 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo swupd bundle-remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">번들</span></p>
+
+<ul>
+  <li>손상되었거나 누락된 파일 수정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo swupd verify</code></p>

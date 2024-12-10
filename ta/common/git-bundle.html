@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-bundle">git bundle</h1>
+
+<p>ஒரு காப்பக கோப்பில் பொருள்கள் மற்றும் குறிப்புகளை தொகுக்கவும்.
+மேலும் விவரத்திற்கு: <a href="https://git-scm.com/docs/git-bundle">https://git-scm.com/docs/git-bundle</a>.</p>
+
+<ul>
+  <li>ஒரு குறிப்பிட்ட கிளையின் அனைத்து பொருள்கள் மற்றும் குறிப்புகளைக் கொண்ட ஒரு மூட்டை கோப்பை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.bundle/பாதை</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கிளையின்_பெயர்</span></p>
+
+<ul>
+  <li>அனைத்து கிளைகளின் மூட்டை கோப்பை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.bundle/பாதை</span><code class="language-plaintext highlighter-rouge"> --all</code></p>
+
+<ul>
+  <li>தற்போதைய கிளையின் கடைசி 5 கமிட்டுகளின் மூட்டை கோப்பை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.bundle/பாதை</span><code class="language-plaintext highlighter-rouge"> -5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>சமீபத்திய 7 நாட்களின் மூட்டை கோப்பை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.bundle/பாதை</span><code class="language-plaintext highlighter-rouge"> --since=7.days </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>ஒரு மூட்டை கோப்பு தற்போதைய களஞ்சியத்தில் செல்லுபடியாகும் மற்றும் பயன்படுத்தலாம் என்பதை சரிபார்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.bundle/பாதை</span></p>
+
+<ul>
+  <li>ஒரு மூட்டையில் உள்ள குறிப்புகளின் பட்டியலை நிலையான வெளியீட்டில் அச்சிடுக:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle unbundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.bundle/பாதை</span></p>
+
+<ul>
+  <li>ஒரு மூட்டை கோப்பிலிருந்து ஒரு குறிப்பிட்ட கிளையை தற்போதைய களஞ்சியத்தில் இணைக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.bundle/பாதை</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கிளையின்_பெயர்</span></p>

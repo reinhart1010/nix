@@ -1,0 +1,40 @@
+<h1 id="openvpn">openvpn</h1>
+
+<p>OpenVPN client and daemon binary.
+More information: <a href="https://openvpn.net/">https://openvpn.net/</a>.</p>
+
+<ul>
+  <li>Connect to server using a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo openvpn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/client.conf</span></p>
+
+<ul>
+  <li>Try to set up an insecure peer-to-peer tunnel on bob.example.com host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo openvpn --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice.example.com</span><code class="language-plaintext highlighter-rouge"> --dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tun1</span><code class="language-plaintext highlighter-rouge"> --ifconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.2</span></p>
+
+<ul>
+  <li>Connect to the awaiting bob.example.com host without encryption:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo openvpn --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bob.example.com</span><code class="language-plaintext highlighter-rouge"> --dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tun1</span><code class="language-plaintext highlighter-rouge"> --ifconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.1</span></p>
+
+<ul>
+  <li>Create a cryptographic key and save it to file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn --genkey secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key</span></p>
+
+<ul>
+  <li>Try to set up a peer-to-peer tunnel on bob.example.com host with a static key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo openvpn --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice.example.com</span><code class="language-plaintext highlighter-rouge"> --dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tun1</span><code class="language-plaintext highlighter-rouge"> --ifconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.2</span><code class="language-plaintext highlighter-rouge"> --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key</span></p>
+
+<ul>
+  <li>Connect to the awaiting bob.example.com host with the same static key as on bob.example.com:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo openvpn --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bob.example.com</span><code class="language-plaintext highlighter-rouge"> --dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tun1</span><code class="language-plaintext highlighter-rouge"> --ifconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.1</span><code class="language-plaintext highlighter-rouge"> --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key</span></p>

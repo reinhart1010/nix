@@ -1,0 +1,34 @@
+<h1 id="export">export</h1>
+
+<p>Export shell variables to child processes.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-export">https://www.gnu.org/software/bash/manual/bash.html#index-export</a>.</p>
+
+<ul>
+  <li>Set an environment variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VARIABLE</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Unset an environment variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">export -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VARIABLE</span></p>
+
+<ul>
+  <li>Export a function to child processes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">export -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FUNCTION_NAME</span></p>
+
+<ul>
+  <li>Append a pathname to the environment variable <code class="language-plaintext highlighter-rouge">PATH</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">export PATH=$PATH:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/append</span></p>
+
+<ul>
+  <li>Display a list of active exported variables in shell command form:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">export -p</code></p>

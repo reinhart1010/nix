@@ -1,0 +1,41 @@
+<h1 id="nim">nim</h1>
+
+<p>Nim 컴파일러.
+Nim 언어 소스 파일을 처리, 컴파일 및 링크합니다.
+더 많은 정보: <a href="https://nim-lang.org/docs/nimc.html">https://nim-lang.org/docs/nimc.html</a>.</p>
+
+<ul>
+  <li>소스 파일 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nim compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.nim</span></p>
+
+<ul>
+  <li>소스 파일 컴파일 및 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nim compile -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.nim</span></p>
+
+<ul>
+  <li>릴리스 최적화가 활성화된 상태로 소스 파일 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nim compile -d:release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.nim</span></p>
+
+<ul>
+  <li>파일 크기 최적화가 적용된 릴리스 바이너리 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nim compile -d:release --opt:size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.nim</span></p>
+
+<ul>
+  <li>모듈에 대한 HTML 문서 생성 (출력은 현재 디렉토리에 저장됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nim doc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.nim</span></p>
+
+<ul>
+  <li>파일의 문법 및 의미 체계 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nim check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.nim</span></p>

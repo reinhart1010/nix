@@ -1,0 +1,34 @@
+<h1 id="krunvm">krunvm</h1>
+
+<p>Utilidad basada en CLI para crear micro máquinas virtuales utilizando imágenes OCI.
+Más información: <a href="https://github.com/containers/krunvm">https://github.com/containers/krunvm</a>.</p>
+
+<ul>
+  <li>Crea una micro máquina virtual basada en Fedora:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker.io/fedora</span><code class="language-plaintext highlighter-rouge"> --cpus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_vcpus</span><code class="language-plaintext highlighter-rouge"> --mem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memoria_en_megabytes</span><code class="language-plaintext highlighter-rouge"> --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Inicia una imagen específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm start "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Lista las imágenes existentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm list</code></p>
+
+<ul>
+  <li>Cambia una imagen específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm changevm --cpus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_vcpus</span><code class="language-plaintext highlighter-rouge"> --mem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memoria_en_megabytes</span><code class="language-plaintext highlighter-rouge"> --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_nombre</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Borra una imagen específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,53 @@
+<h1 id="npm">npm</h1>
+
+<p>Gerenciador de pacotes JavaScript e Node.js.
+Gerencia projetos Node.js e suas dependências de módulos.
+Mais informações: <a href="https://www.npmjs.com">https://www.npmjs.com</a>.</p>
+
+<ul>
+  <li>Cria um arquio <code class="language-plaintext highlighter-rouge">package.json</code> com os valores padrões (omita <code class="language-plaintext highlighter-rouge">--yes</code> para torná-lo interativo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-y|–yes</span></p>
+
+<ul>
+  <li>Baixa todos os pacotes listados como dependências em <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install</code></p>
+
+<ul>
+  <li>Baixa uma versão específica de um pacote e o adiciona à lista de dependências em <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versão</span></p>
+
+<ul>
+  <li>Baixa a última versão de um pacote e o adiciona à lista de dependências de desenvolvimento em <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-D|–save-dev</span></p>
+
+<ul>
+  <li>Baixa a última versão de um pacote e o instala globalmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–global</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Desinstala um pacote e o remove da lista de dependências em <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Lista todas as dependências instaladas localmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm list</code></p>
+
+<ul>
+  <li>Lista todos os pacotes de nível superior instalados globalmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–global</span><code class="language-plaintext highlighter-rouge"> --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span></p>

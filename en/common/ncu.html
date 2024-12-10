@@ -1,0 +1,53 @@
+<h1 id="ncu">ncu</h1>
+
+<p>Find newer versions of package dependencies and check outdated npm packages locally or globally.
+<code class="language-plaintext highlighter-rouge">ncu</code> only updates dependency versions in <code class="language-plaintext highlighter-rouge">package.json</code>. To install the new versions, run <code class="language-plaintext highlighter-rouge">npm install</code> afterwards.
+More information: <a href="https://github.com/raineorshine/npm-check-updates">https://github.com/raineorshine/npm-check-updates</a>.</p>
+
+<ul>
+  <li>List outdated dependencies in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncu</code></p>
+
+<ul>
+  <li>List outdated global <code class="language-plaintext highlighter-rouge">npm</code> packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncu --global</code></p>
+
+<ul>
+  <li>Upgrade all dependencies in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncu --upgrade</code></p>
+
+<ul>
+  <li>Interactively upgrade dependencies in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncu --interactive</code></p>
+
+<ul>
+  <li>List outdated dependencies up to the highest minor version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncu --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minor</span></p>
+
+<ul>
+  <li>List outdated dependencies that match a keyword or regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncu --filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword|/regex/</span></p>
+
+<ul>
+  <li>List only a specific section of outdated dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncu --dep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dev|optional|peer|prod|packageManager</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncu --help</code></p>

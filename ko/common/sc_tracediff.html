@@ -1,0 +1,22 @@
+<h1 id="sc_tracediff">sc_tracediff</h1>
+
+<p>경로가 변경된 traceroute 경로를 표시.
+더 많은 정보: <a href="https://www.caida.org/catalog/software/scamper/">https://www.caida.org/catalog/software/scamper/</a>.</p>
+
+<ul>
+  <li>두 <code class="language-plaintext highlighter-rouge">warts</code> 파일에서 traceroute의 차이점 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_tracediff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.warts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2.warts</span></p>
+
+<ul>
+  <li>두 <code class="language-plaintext highlighter-rouge">warts</code> 파일에서 변경되지 않은 traceroute도 포함하여 차이점 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_tracediff -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.warts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2.warts</span></p>
+
+<ul>
+  <li>두 <code class="language-plaintext highlighter-rouge">warts</code> 파일에서 traceroute의 차이점을 표시하고 가능하면 IP 주소 대신 DNS 이름을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_tracediff -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.warts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2.warts</span></p>

@@ -1,0 +1,17 @@
+<h1 id="pbcopy">pbcopy</h1>
+
+<p><code class="language-plaintext highlighter-rouge">stdin</code>에서 데이터를 클립보드로 복사합니다.
+키보드에서 Cmd + C를 누르는 것과 비슷합니다.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/pbcopy.1.html">https://keith.github.io/xcode-man-pages/pbcopy.1.html</a>.</p>
+
+<ul>
+  <li>특정 [f]파일의 내용을 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbcopy &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 명령의 결과를 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -type t -name "*.png" | pbcopy</code></p>

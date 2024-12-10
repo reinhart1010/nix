@@ -1,0 +1,34 @@
+<h1 id="kotlinc">kotlinc</h1>
+
+<p>Kotlin 컴파일러.
+더 많은 정보: <a href="https://kotlinlang.org/docs/command-line.html">https://kotlinlang.org/docs/command-line.html</a>.</p>
+
+<ul>
+  <li>REPL (대화형 셸) 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kotlinc</code></p>
+
+<ul>
+  <li>Kotlin 파일 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kotlinc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.kt</span></p>
+
+<ul>
+  <li>여러 Kotlin 파일 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kotlinc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.kt 경로/대상/파일2.kt …</span></p>
+
+<ul>
+  <li>특정 Kotlin Script 파일 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kotlinc -script </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.kts</span></p>
+
+<ul>
+  <li>Kotlin 파일을 Kotlin 런타임 라이브러리가 포함된 독립 실행형 jar 파일로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kotlinc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.kt</span><code class="language-plaintext highlighter-rouge"> -include-runtime -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.jar</span></p>

@@ -1,0 +1,29 @@
+<h1 id="caret">Caret</h1>
+
+<p>Bash builtin to quick substitute a string in the previous command and run the result.
+Equivalent to <code class="language-plaintext highlighter-rouge">!!:s^string1^string2</code>.
+More information: <a href="https://gnu.org/software/bash/manual/bash.html#Event-Designators">https://gnu.org/software/bash/manual/bash.html#Event-Designators</a>.</p>
+
+<ul>
+  <li>Run the previous command replacing <code class="language-plaintext highlighter-rouge">string1</code> with <code class="language-plaintext highlighter-rouge">string2</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string2</span></p>
+
+<ul>
+  <li>Remove <code class="language-plaintext highlighter-rouge">string1</code> from the previous command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code></p>
+
+<ul>
+  <li>Replace <code class="language-plaintext highlighter-rouge">string1</code> with <code class="language-plaintext highlighter-rouge">string2</code> in the previous command and add <code class="language-plaintext highlighter-rouge">string3</code> to its end:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string2</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string3</span></p>
+
+<ul>
+  <li>Replace all occurrences of <code class="language-plaintext highlighter-rouge">string1</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string2</span><code class="language-plaintext highlighter-rouge">^:&amp;</code></p>

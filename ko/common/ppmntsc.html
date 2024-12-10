@@ -1,0 +1,28 @@
+<h1 id="ppmntsc">ppmntsc</h1>
+
+<p>PPM 이미지의 RGB 색상을 NTSC 또는 PAL 컬러 시스템과 호환되도록 만듭니다.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/ppmntsc.html">https://netpbm.sourceforge.net/doc/ppmntsc.html</a>.</p>
+
+<ul>
+  <li>PPM 이미지의 RGB 색상을 NTSC 컬러 시스템과 호환되도록 만들기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmntsc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.ppm</span></p>
+
+<ul>
+  <li>PPM 이미지의 RGB 색상을 PAL 컬러 시스템과 호환되도록 만들기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmntsc --pal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.ppm</span></p>
+
+<ul>
+  <li>입력 이미지의 불법 픽셀 수를 <code class="language-plaintext highlighter-rouge">stderr</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmntsc --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.ppm</span></p>
+
+<ul>
+  <li>합법/불법/수정된 픽셀만 출력하고 다른 픽셀은 검정색으로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmntsc --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">legalonly|illegalonly|correctedonly</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.ppm</span></p>

@@ -1,0 +1,22 @@
+<h1 id="ipsumdump">ipsumdump</h1>
+
+<p>Summarise TCP/IP dumps into a human and machine readable ASCII format.
+More information: <a href="https://manned.org/ipsumdump">https://manned.org/ipsumdump</a>.</p>
+
+<ul>
+  <li>Print the source and destination IP addresses of all packets in a PCAP file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipsumdump --src --dst </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span></p>
+
+<ul>
+  <li>Print the timestamps, source address, source port, destination address, destination port and protocol of all packets read from a given network interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipsumdump --interface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> -tsSdDp</code></p>
+
+<ul>
+  <li>Print the anonymised source address, anonymised destination address, and IP packet length of all packets in a PCAP file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipsumdump --src --dst --length --anonymize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span></p>

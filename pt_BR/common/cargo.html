@@ -1,0 +1,53 @@
+<h1 id="cargo">cargo</h1>
+
+<p>Gerencia projetos Rust e as dependências dos modulos (crates).
+Alguns subcomandos como <code class="language-plaintext highlighter-rouge">build</code> tem a sua própria documentação.
+Mais informações: <a href="https://doc.rust-lang.org/cargo">https://doc.rust-lang.org/cargo</a>.</p>
+
+<ul>
+  <li>Procura por crates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string_procurada</span></p>
+
+<ul>
+  <li>Instala uma crate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_crate</span></p>
+
+<ul>
+  <li>Lista as crates instaladas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install --list</code></p>
+
+<ul>
+  <li>Cria um novo binário ou projeyo Rust de biblioteca no diretório especificado (ou o diretório atual por padrão):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Adiciona uma dependência ao Cargo.toml no diretório atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependência</span></p>
+
+<ul>
+  <li>Constrói o projeto Rust no diretório atual usando o perfil de lançamento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --release</code></p>
+
+<ul>
+  <li>Constrói o projeto Rust no diretório atual utilizando o nightly compilador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo +nightly build</code></p>
+
+<ul>
+  <li>Constrói o projeto Rust utilizando um número específico de threads (padrão é o número de cores do CPU):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_threads</span></p>

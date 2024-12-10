@@ -1,0 +1,34 @@
+<h1 id="apg">apg</h1>
+
+<p>Buat kata sandi secara acak dan kompleks.
+Informasi lebih lanjut: <a href="https://manned.org/apg">https://manned.org/apg</a>.</p>
+
+<ul>
+  <li>Buat sebuah kata sandi secara acak (panjang default bagi kata sandi adalah 8):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg</code></p>
+
+<ul>
+  <li>Buat sebuah kata sandi dengan minimum 1 simbol (S), 1 nomor (N), 1 huruf kapital (C), dan 1 huruf kecil (L):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -M SNCL</code></p>
+
+<ul>
+  <li>Buat kata sandi dengan panjang 16 karakter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span></p>
+
+<ul>
+  <li>Buat kata sandi dengan panjang ma[x]imum 16 karakter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span></p>
+
+<ul>
+  <li>Buat sebuah kata sandi yang tidak mengandung kata yang terkandung di dalam suatu berkas kamus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_kamus</span></p>

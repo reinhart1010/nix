@@ -1,0 +1,52 @@
+<h1 id="vboxmanage-import">vboxmanage-import</h1>
+
+<p>Import a previously exported virtual machine (VM).
+More information: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-import">https://www.virtualbox.org/manual/ch08.html#vboxmanage-import</a>.</p>
+
+<ul>
+  <li>Import a VM from an OVF or OVA file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ovf</span></p>
+
+<ul>
+  <li>Set the name of the imported VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ovf</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>Indicate the folder where the configuration of the imported VM will be stored:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ovf</span><code class="language-plaintext highlighter-rouge"> --basefolder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Register the imported VM in VirtualBox:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ovf</span><code class="language-plaintext highlighter-rouge"> --register</code></p>
+
+<ul>
+  <li>Perform a dry run to check the import without actually importing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ovf</span><code class="language-plaintext highlighter-rouge"> --dry-run</code></p>
+
+<ul>
+  <li>Set the guest OS type (one of <code class="language-plaintext highlighter-rouge">VBoxManage list ostypes</code>) for the imported VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ovf</span><code class="language-plaintext highlighter-rouge"> --ostype=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ostype</span></p>
+
+<ul>
+  <li>Set the memory (in megabytes) for the imported VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ovf</span><code class="language-plaintext highlighter-rouge"> --memory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Set the number of CPUs for the imported VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ovf</span><code class="language-plaintext highlighter-rouge"> --cpus=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>

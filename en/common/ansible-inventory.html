@@ -1,0 +1,29 @@
+<h1 id="ansible-inventory">ansible-inventory</h1>
+
+<p>Display or dump an Ansible inventory.
+See also: <code class="language-plaintext highlighter-rouge">ansible</code>.
+More information: <a href="https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html">https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html</a>.</p>
+
+<ul>
+  <li>Display the default inventory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-inventory --list</code></p>
+
+<ul>
+  <li>Display a custom inventory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-inventory --list --inventory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_script_or_directory</span></p>
+
+<ul>
+  <li>Display the default inventory in YAML:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-inventory --list --yaml</code></p>
+
+<ul>
+  <li>Dump the default inventory to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-inventory --list --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

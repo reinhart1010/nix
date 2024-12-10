@@ -1,0 +1,42 @@
+<h1 id="agetty">agetty</h1>
+
+<p>Alternativa a <code class="language-plaintext highlighter-rouge">getty</code>: Abre un puerto <code class="language-plaintext highlighter-rouge">tty</code>, pide un nombre de usuario, e invoca el comando <code class="language-plaintext highlighter-rouge">/bin/login</code>.
+Normalmente es invocado por <code class="language-plaintext highlighter-rouge">init</code>.
+Nota: la tasa de baudios es la velocidad de transferencia de datos entre una terminal y un dispositivo a través de una conexión serie.
+Más información: <a href="https://manned.org/agetty">https://manned.org/agetty</a>.</p>
+
+<ul>
+  <li>Conecta <code class="language-plaintext highlighter-rouge">stdin</code> a un puerto (relativo a <code class="language-plaintext highlighter-rouge">/dev</code>) y especifica opcionalmente una tasa de baudios (cuyo valor predeterminado es 9600):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span></p>
+
+<ul>
+  <li>Asume que <code class="language-plaintext highlighter-rouge">stdin</code> ya está conectado a una <code class="language-plaintext highlighter-rouge">tty</code> y establece un tiempo de espera para el inicio de sesión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–timeout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tiempo_de_espera_en_segundos</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>Asume que <code class="language-plaintext highlighter-rouge">tty</code> es de [8]-bits, sobreescribiendo la variable de entorno <code class="language-plaintext highlighter-rouge">TERM</code> establecida por <code class="language-plaintext highlighter-rouge">init</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty -8 - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable_term</span></p>
+
+<ul>
+  <li>Omite el inicio de sesión e invoca, como superusuario, otro programa de inicio de sesión en lugar de <code class="language-plaintext highlighter-rouge">/bin/login</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–skip-login</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–login-program</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa_de_inicio_de_sesión</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty</span></p>
+
+<ul>
+  <li>Escribe el mensaje de inicio de sesión sin mostrar el contenido del archivo de pre-inicio de sesión (<code class="language-plaintext highlighter-rouge">/etc/issue</code> por predeterminado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–noissue</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>Cambia el directorio raíz y escribe un host falso en el archivo <code class="language-plaintext highlighter-rouge">utmp</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–chroot</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/raíz_directorio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|–host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_falso</span><code class="language-plaintext highlighter-rouge"> -</code></p>

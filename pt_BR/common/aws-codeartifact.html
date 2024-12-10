@@ -1,0 +1,35 @@
+<h1 id="aws-codeartifact">aws codeartifact</h1>
+
+<p>Gerencia repositórios, domínios, pacotes, versões de pacotes e ativos do CodeArtifact.
+O CodeArtifact é um repositório de artefatos compatível com gerenciadores de pacotes populares e ferramentas de construção como Maven, Gradle, npm, Yarn, Twine, pip, NuGet e SwiftPM.
+Mais informações: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/codeartifact/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/codeartifact/index.html</a>.</p>
+
+<ul>
+  <li>Lista domínios disponíveis para a sua conta da AWS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws codeartifact list-domains</code></p>
+
+<ul>
+  <li>Gera credenciais para um gerenciador de pacote específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws codeartifact login --tool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm|pip|twine</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seu_domínio</span><code class="language-plaintext highlighter-rouge"> --repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_repositório</span></p>
+
+<ul>
+  <li>Recupera a URL do endpoint de um repositório do CodeArtifact:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws codeartifact get-repository-endpoint --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seu_domínio</span><code class="language-plaintext highlighter-rouge"> --repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_repositório</span><code class="language-plaintext highlighter-rouge"> --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm|pypi|maven|nuget|generic</span></p>
+
+<ul>
+  <li>Exibe ajuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws codeartifact help</code></p>
+
+<ul>
+  <li>Exibe ajuda para um subcomando específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws codeartifact </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span><code class="language-plaintext highlighter-rouge"> help</code></p>

@@ -1,0 +1,46 @@
+<h1 id="dotnet-tool">dotnet tool</h1>
+
+<p>.NET 도구를 관리하고 NuGet에서 게시된 도구를 검색.
+더 많은 정보: <a href="https://learn.microsoft.com/dotnet/core/tools/global-tools">https://learn.microsoft.com/dotnet/core/tools/global-tools</a>.</p>
+
+<ul>
+  <li>전역 도구 설치 (<code class="language-plaintext highlighter-rouge">--global</code>은 로컬 도구에는 사용하지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool install --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dotnetsay</span></p>
+
+<ul>
+  <li>로컬 도구 매니페스트에 정의된 도구 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool restore</code></p>
+
+<ul>
+  <li>특정 전역 도구 업데이트 (<code class="language-plaintext highlighter-rouge">--global</code>은 로컬 도구에는 사용하지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool update --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도구_이름</span></p>
+
+<ul>
+  <li>전역 도구 제거 (<code class="language-plaintext highlighter-rouge">--global</code>은 로컬 도구에는 사용하지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool uninstall --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도구_이름</span></p>
+
+<ul>
+  <li>설치된 전역 도구 나열 (<code class="language-plaintext highlighter-rouge">--global</code>은 로컬 도구에는 사용하지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool list --global</code></p>
+
+<ul>
+  <li>NuGet에서 도구 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_어구</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool --help</code></p>

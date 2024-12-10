@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="ssh-keygen">ssh-keygen</h1>
+
+<p>Génère des clés SSH. Utilisées entre autres pour l'authentification ou la connexion sans utiliser de mot de passe.
+Plus d'informations : <a href="https://man.openbsd.org/ssh-keygen">https://man.openbsd.org/ssh-keygen</a>.</p>
+
+<ul>
+  <li>Génère une clé de manière interactive :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen</code></p>
+
+<ul>
+  <li>Génère une clé ed25519, avec 32 passages de fonction de dérivation de clé et enrigster dans un fichier spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ed25519</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">32</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/fichier</span></p>
+
+<ul>
+  <li>Génère une clé RSA de 4096 bits, avec l'adresse électronique en commentaire :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span><code class="language-plaintext highlighter-rouge"> -C "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commentaire|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Retire les clés d'une machine donnée du fichier <code class="language-plaintext highlighter-rouge">known_hosts</code> des hôtes connus (utile lorsque un hôte déjà enregistré change de clé) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span></p>
+
+<ul>
+  <li>Affiche l'empreinte d'une clé sous format d'un hash MD5 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -l -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">md5</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/fichier</span></p>
+
+<ul>
+  <li>Change le mot de passe d'une clé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -p -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/fichier</span></p>
+
+<ul>
+  <li>Change le format d'une clé (par exemple du format OPENSSH vers PEM), le fichier étant réécrit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -p -N "" -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PEM</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/cle_privee_OpenSSH</span></p>

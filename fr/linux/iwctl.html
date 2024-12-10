@@ -1,0 +1,40 @@
+<h1 id="iwctl">iwctl</h1>
+
+<p>Un outil de ligne de commande pour gérer iwd.
+Plus d'informations : <a href="https://archive.kernel.org/oldwiki/iwd.wiki.kernel.org/gettingstarted.html">https://archive.kernel.org/oldwiki/iwd.wiki.kernel.org/gettingstarted.html</a>.</p>
+
+<ul>
+  <li>Lancer le mode interactif, dans ce mode vous pouvez entrer les commandes directement, avec de l'auto-complétion :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl</code></p>
+
+<ul>
+  <li>Avoir l'aide générale :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl --help</code></p>
+
+<ul>
+  <li>Afficher vos stations wifi :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl station list</code></p>
+
+<ul>
+  <li>Lancer la recherche de réseaux avec une station :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl station </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">station</span><code class="language-plaintext highlighter-rouge"> scan</code></p>
+
+<ul>
+  <li>Afficher les réseaux trouvés par une station :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl station </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">station</span><code class="language-plaintext highlighter-rouge"> get-networks</code></p>
+
+<ul>
+  <li>Se connecter à un réseau avec une station, si des informations de connexion sont nécessaires elles seront demandées :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl station </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">station</span><code class="language-plaintext highlighter-rouge"> connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_réseau</span></p>

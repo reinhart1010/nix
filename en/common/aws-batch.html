@@ -1,0 +1,40 @@
+<h1 id="aws-batch">aws batch</h1>
+
+<p>Run batch computing workloads through the AWS Batch service.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/batch/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/batch/index.html</a>.</p>
+
+<ul>
+  <li>List running batch jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch list-jobs --job-queue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span></p>
+
+<ul>
+  <li>Create compute environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch create-compute-environment --compute-environment-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compute_environment_name</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span></p>
+
+<ul>
+  <li>Create batch job queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch create-job-queue --job-queue-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span><code class="language-plaintext highlighter-rouge"> --priority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priority</span><code class="language-plaintext highlighter-rouge"> --compute-environment-order </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compute_environment</span></p>
+
+<ul>
+  <li>Submit job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch submit-job --job-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_name</span><code class="language-plaintext highlighter-rouge"> --job-queue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_queue</span><code class="language-plaintext highlighter-rouge"> --job-definition </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_definition</span></p>
+
+<ul>
+  <li>Describe the list of batch jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch describe-jobs --jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jobs</span></p>
+
+<ul>
+  <li>Cancel job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch cancel-job --job-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span><code class="language-plaintext highlighter-rouge"> --reason </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reason</span></p>

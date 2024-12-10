@@ -1,0 +1,52 @@
+<h1 id="ip-rule">ip rule</h1>
+
+<p>IP 라우팅 정책 데이터베이스 관리.
+더 많은 정보: <a href="https://manned.org/ip-rule">https://manned.org/ip-rule</a>.</p>
+
+<ul>
+  <li>라우팅 정책 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span></p>
+
+<ul>
+  <li>패킷 소스 주소를 기준으로 새 규칙 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule add from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>패킷 목적지 주소를 기준으로 새 규칙 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule add to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>패킷 소스 주소를 기준으로 규칙 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule delete from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>패킷 목적지 주소를 기준으로 규칙 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule delete to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>삭제된 모든 규칙 플러시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule flush</code></p>
+
+<ul>
+  <li>모든 규칙을 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule save &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/ip_규칙들.dat</span></p>
+
+<ul>
+  <li>파일에서 모든 규칙 복원:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule restore &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/ip_규칙들.dat</span></p>

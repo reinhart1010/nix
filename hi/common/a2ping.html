@@ -1,0 +1,46 @@
+<h1 id="a2ping">a2ping</h1>
+
+<p>छवियों को EPS या PDF फाइलों में परिवर्तित करें।
+अधिक जानकारी: <a href="https://manned.org/a2ping">https://manned.org/a2ping</a>।</p>
+
+<ul>
+  <li>एक छवि को PDF में बदलें (ध्यान दें: आउटपुट फ़ाइल नाम निर्दिष्ट करना वैकल्पिक है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">छवि.ext/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट.pdf/का/पथ</span></p>
+
+<ul>
+  <li>निर्दिष्ट विधि का उपयोग करके दस्तावेज़ को संपीड़ित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --nocompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|zip|best|flate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>यदि मौजूद है तो HiResBoundingBox को स्कैन करें (ध्यान दें: यह डिफ़ॉल्ट रूप से हाँ है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --nohires </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>मूल पृष्ठ के नीचे और बाईं ओर पृष्ठ सामग्री की अनुमति दें (नोट: यह डिफ़ॉल्ट रूप से नहीं है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --below </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">gs</code> के लिए अतिरिक्त तर्क पारित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --gsextra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">तर्क</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>बाहरी प्रोग्राम में अतिरिक्त तर्क पास करें (यानी <code class="language-plaintext highlighter-rouge">pdftops</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping --extra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">तर्क</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>सहायता प्रदर्शित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">a2ping -h</code></p>

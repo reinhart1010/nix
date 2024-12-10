@@ -1,0 +1,52 @@
+<h1 id="chmod">chmod</h1>
+
+<p>Modifie les droits d'accès d'un fichier ou d'un répertoire.
+Plus d'informations : <a href="https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html</a>.</p>
+
+<ul>
+  <li>Donne les droits d'e[x]écution à l'[u]tilisateur auquel le fichier appartient :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Donne à l'[u]tilisateur les droits de lecture [r] et d'écriture [w] sur un fichier/répertoire :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+rw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_répertoire</span></p>
+
+<ul>
+  <li>Enlève les droits d'e[x]écution pour le [g]roupe :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod g-x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Donne à tous [a] les utilisateurs les droits de lecture [r] et d'e[x]écution :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod a+rx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Donne aux autres [o] utilisateurs (qui sont dans un autre groupe) les mêmes droits que ceux du [g]roupe propriétaire :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o=g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Retire tous les droits aux autres [o] utilisateurs :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Modifie les permissions récursivement en donnant aux membres du [g]roupe et aux autres [o] utilisateurs le droit d'écriture [w] :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod -R g+w,o+w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/répertoire</span></p>
+
+<ul>
+  <li>Donne récursivement à tous [a] les utilisateurs les droits de lecture [r] de fichiers et d'e[X]écution de sous-répertoires à l'intérieur d'un répertoire :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod -R a+rX </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/répertoire</span></p>

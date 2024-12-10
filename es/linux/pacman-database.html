@@ -1,0 +1,42 @@
+<h1 id="pacman-database">pacman –database</h1>
+
+<p>Opera en la base de datos de paquetes de Arch Linux.
+Modifica ciertos atributos de los paquetes instalados.
+Vea también: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Más información: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Marca un paquete como instalado implícitamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --database --asdeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Marca un paquete como instalado explícitamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --database --asexplicit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Verifica que todas las dependencias del paquete estén instaladas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --database --check</code></p>
+
+<ul>
+  <li>Verifica los repositorios para asegurarse de que todas las dependencias especificadas estén disponibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --database --check --check</code></p>
+
+<ul>
+  <li>Muestra solo mensajes de error:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --database --check --quiet</code></p>
+
+<ul>
+  <li>Muestra ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --database --help</code></p>

@@ -1,0 +1,22 @@
+<h1 id="vela">vela</h1>
+
+<p>Vela 파이프라인을 위한 명령줄 도구.
+더 많은 정보: <a href="https://go-vela.github.io/docs/reference/cli/">https://go-vela.github.io/docs/reference/cli/</a>.</p>
+
+<ul>
+  <li>Git 브랜치, 커밋 또는 태그에서 파이프라인 실행 트리거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vela add deployment --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직</span><code class="language-plaintext highlighter-rouge"> --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소_이름</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">환경</span><code class="language-plaintext highlighter-rouge"> --ref </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치|커밋|refs/tags/git_태그</span><code class="language-plaintext highlighter-rouge"> --description "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">배포_설명</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>저장소의 배포 목록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vela get deployment --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직</span><code class="language-plaintext highlighter-rouge"> --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소_이름</span></p>
+
+<ul>
+  <li>특정 배포 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vela view deployment --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직</span><code class="language-plaintext highlighter-rouge"> --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소_이름</span><code class="language-plaintext highlighter-rouge"> --deployment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">배포_번호</span></p>

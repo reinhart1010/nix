@@ -1,0 +1,53 @@
+<h1 id="git-bulk">git bulk</h1>
+
+<p>Lakukan operasi yang sama dalam lebih dari satu repositori Git.
+Bagian dari <code class="language-plaintext highlighter-rouge">git-extras</code>.
+Informasi lebih lanjut: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk">https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk</a>.</p>
+
+<ul>
+  <li>Daftarkan direktori saat ini sebagai tempat kerja (workspace):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --addcurrent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_workspace</span></p>
+
+<ul>
+  <li>Masukkan tempat kerja saat ini ke dalam daftar direktori yang akan diubah:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --addworkspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_workspace</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/jalan/absolut/menuju/repositori</span></p>
+
+<ul>
+  <li>Gandakan suatu repositori ke dalam direktori induk tertentu, kemudian masukkan repositori baru tersebut sebagai tempat kerja:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --addworkspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_workspace</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/jalan/absolut/menuju/direktori_induk</span><code class="language-plaintext highlighter-rouge"> --from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span></p>
+
+<ul>
+  <li>Gandakan lebih dari satu repositori ke dalam direktori induk tertentu (menurut berkas daftar lokasi remote yang dipisah dengan barisan baru), kemudian masukkan sebagai tempat kerja:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --addworkspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_workspace</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/jalan/absolut/menuju/direktori_induk</span><code class="language-plaintext highlighter-rouge"> --from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/jalan/absolut/menuju/berkas</span></p>
+
+<ul>
+  <li>Tampilkan daftar seluruh tempat kerja yang terdaftar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --listall</code></p>
+
+<ul>
+  <li>Jalankan sebuah perintah Git pada kumpulan repositori yang dikelola oleh tempat kerja saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumen-argumen_perintah</span></p>
+
+<ul>
+  <li>Hapus suatu tempat dari daftar tempat kerja (hal ini tidak akan menghilangkan seluruh isi direktori yang direferensikan sebagai tempat kerja):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --removeworkspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_workspace</span></p>
+
+<ul>
+  <li>Hapus seluruh tempat dari daftar tempat kerja:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --purge</code></p>

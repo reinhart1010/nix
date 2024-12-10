@@ -1,0 +1,40 @@
+<h1 id="tlmgr-repository">tlmgr repository</h1>
+
+<p>TeX Live 설치의 저장소를 관리합니다.
+더 많은 정보: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>모든 설정된 저장소와 해당 태그(설정된 경우)를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr repository list</code></p>
+
+<ul>
+  <li>특정 저장소에서 사용할 수 있는 모든 패키지를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr repository list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로|url|태그</span></p>
+
+<ul>
+  <li>특정 태그와 함께 새 저장소 추가 (태그는 필수 아님):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr repository add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로|url</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span></p>
+
+<ul>
+  <li>특정 저장소 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr repository remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로|url|태그</span></p>
+
+<ul>
+  <li>새로운 저장소 목록 설정, 이전 목록 덮어쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr repository set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로|url|태그</span><code class="language-plaintext highlighter-rouge">#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로|url|태그</span><code class="language-plaintext highlighter-rouge">#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span></p>
+
+<ul>
+  <li>모든 설정된 저장소의 검증 상태 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr repository status</code></p>

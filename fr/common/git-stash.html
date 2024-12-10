@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-stash">git stash</h1>
+
+<p>Stocker les modifications Git locales dans une zone temporaire.
+Plus d'informations : <a href="https://git-scm.com/docs/git-stash">https://git-scm.com/docs/git-stash</a>.</p>
+
+<ul>
+  <li>Stocker les changements courants, sauf les fichiers non-suivis :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash push -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_stash_optionel</span></p>
+
+<ul>
+  <li>Stocker les changements courants, incluant les fichiers non-suivis :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash -u</code></p>
+
+<ul>
+  <li>Stocker les parties d'un fichier interactivement :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash -p</code></p>
+
+<ul>
+  <li>Lister tous les stashs (affiche leurs noms, les branches relatives et messages) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash list</code></p>
+
+<ul>
+  <li>Applique un stash (par défaut, le dernier, nommé stash@{0}) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_stash_ou_de_commit_optionel</span></p>
+
+<ul>
+  <li>Applique un stash (par défaut le dernier, stash@{0}), et le supprimer de la liste des stashs s'il n'y a pas de conflit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash pop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_stash_optionel</span></p>
+
+<ul>
+  <li>Supprime tous les stashs :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash clear</code></p>

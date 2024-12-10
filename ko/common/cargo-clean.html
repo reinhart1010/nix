@@ -1,0 +1,28 @@
+<h1 id="cargo-clean">cargo clean</h1>
+
+<p><code class="language-plaintext highlighter-rouge">target</code> 디렉터리에서 생성된 아티팩트를 제거.
+더 많은 정보: <a href="https://doc.rust-lang.org/cargo/commands/cargo-clean.html">https://doc.rust-lang.org/cargo/commands/cargo-clean.html</a>.</p>
+
+<ul>
+  <li>전체 <code class="language-plaintext highlighter-rouge">target</code> 디렉터리를 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean</code></p>
+
+<ul>
+  <li>문서 아티팩트 제거 (<code class="language-plaintext highlighter-rouge">target/doc</code> 디렉터리):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean --doc</code></p>
+
+<ul>
+  <li>릴리스 아티팩트 제거 (<code class="language-plaintext highlighter-rouge">target/release</code> 디렉터리):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean --release</code></p>
+
+<ul>
+  <li>지정된 프로필의 디렉터리에서 아티팩트를 제거 (이 경우, <code class="language-plaintext highlighter-rouge">target/debug</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dev</span></p>

@@ -1,0 +1,29 @@
+<h1 id="gitlab">gitlab</h1>
+
+<p>GitLab API용 Ruby 래퍼.
+<code class="language-plaintext highlighter-rouge">ctl</code>과 같은 일부 하위 명령에는 자체 사용법 문서가 존재.
+더 많은 정보: <a href="https://narkoz.github.io/gitlab/">https://narkoz.github.io/gitlab/</a>.</p>
+
+<ul>
+  <li>새로운 프로젝트를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab create_project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span></p>
+
+<ul>
+  <li>특정 커밋에 대한 정보를 얻기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해시</span></p>
+
+<ul>
+  <li>CI 파이프라인의 작업에 대한 정보를 얻기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab pipeline_jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파이프라인_아이디</span></p>
+
+<ul>
+  <li>특정 CI 작업을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab job_play </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_아이디</span></p>

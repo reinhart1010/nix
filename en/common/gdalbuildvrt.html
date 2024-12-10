@@ -1,0 +1,28 @@
+<h1 id="gdalbuildvrt">gdalbuildvrt</h1>
+
+<p>Build Virtual Datasets from a list of existing datasets.
+More information: <a href="https://gdal.org/programs/gdalbuildvrt.html">https://gdal.org/programs/gdalbuildvrt.html</a>.</p>
+
+<ul>
+  <li>Make a virtual mosaic from all TIFF files contained in a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalbuildvrt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.vrt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory/*.tif</span></p>
+
+<ul>
+  <li>Make a virtual mosaic from files whose name is specified in a text file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalbuildvrt -input_file_list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/list.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.vrt</span></p>
+
+<ul>
+  <li>Make an RGB virtual mosaic from 3 single-band input files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalbuildvrt -separate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/rgb.vrt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/red.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/green.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/blue.tif</span></p>
+
+<ul>
+  <li>Make a virtual mosaic with blue background color (RGB: 0 0 255):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalbuildvrt -hidenodata -vrtnodata "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0 0 255</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.vrt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory/*.tif</span></p>

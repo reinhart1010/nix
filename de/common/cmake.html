@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cmake">cmake</h1>
+
+<p>Plattformübergreifendes Build-Automatisierungs-System, das Vorlagen für native Build-Systeme erzeugt.
+Weitere Informationen: <a href="https://cmake.org/cmake/help/latest/manual/cmake.1.html">https://cmake.org/cmake/help/latest/manual/cmake.1.html</a>.</p>
+
+<ul>
+  <li>Erzeuge eine Build-Vorlage im aktuellen Verzeichnis mit <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code> eines Projektordners:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/projektordner</span></p>
+
+<ul>
+  <li>Erzeuge eine Build-Vorlage mit der Build-Art <code class="language-plaintext highlighter-rouge">Release</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/projektordner</span><code class="language-plaintext highlighter-rouge"> -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CMAKE_BUILD_TYPE=Release</span></p>
+
+<ul>
+  <li>Benutze eine generierte Vorlage, um Artifakte zu erzeugen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/build_verzeichnis</span></p>
+
+<ul>
+  <li>Installiere die Build-Artifakte in <code class="language-plaintext highlighter-rouge">/usr/local/</code> und entferne Debugsymbole:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/build_verzeichnis</span><code class="language-plaintext highlighter-rouge"> --strip</code></p>
+
+<ul>
+  <li>Installiere die Build-Artifakte mit einem eigenen Präfix für Pfade:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/build_verzeichnis</span><code class="language-plaintext highlighter-rouge"> --strip --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span></p>
+
+<ul>
+  <li>Führe ein bestimmtes Build-Ziel aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/build_verzeichnis</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zielname</span></p>

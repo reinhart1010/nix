@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="caffeinate">caffeinate</h1>
+
+<p>Menghindari macOS dari sleep (mode tidur).
+Informasi lebih lanjut: <a href="https://keith.github.io/xcode-man-pages/caffeinate.8.html">https://keith.github.io/xcode-man-pages/caffeinate.8.html</a>.</p>
+
+<ul>
+  <li>Menghindari mode sleep selama 1 jam (3600 detik):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caffeinate -u -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3600</span></p>
+
+<ul>
+  <li>Menghindari mode sleep sampai sebuah command selesai:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caffeinate -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Menghindari mode sleep sampai anda mengetik Ctrl-C:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caffeinate -i</code></p>

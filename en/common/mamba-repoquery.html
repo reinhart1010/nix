@@ -1,0 +1,28 @@
+<h1 id="mamba-repoquery">mamba repoquery</h1>
+
+<p>Efficiently query conda and mamba package repositories and package dependencies.
+More information: <a href="https://mamba.readthedocs.io/en/latest/user_guide/mamba.html#repoquery">https://mamba.readthedocs.io/en/latest/user_guide/mamba.html#repoquery</a>.</p>
+
+<ul>
+  <li>Search for all available versions of a particular package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba repoquery search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Search for all packages satisfying specific constraints:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba repoquery search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sphinx&lt;5</span></p>
+
+<ul>
+  <li>List the dependencies of a package installed in the currently activated environment, in a tree format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba repoquery depends --tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scipy</span></p>
+
+<ul>
+  <li>Print packages in the current environment that require a particular package to be installed (i.e. inverse of <code class="language-plaintext highlighter-rouge">depends</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba repoquery whoneeds </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ipython</span></p>

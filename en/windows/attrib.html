@@ -1,0 +1,40 @@
+<h1 id="attrib">attrib</h1>
+
+<p>Display or change attributes of files or directories.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/attrib">https://learn.microsoft.com/windows-server/administration/windows-commands/attrib</a>.</p>
+
+<ul>
+  <li>Display all set attributes of files in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib</code></p>
+
+<ul>
+  <li>Display all set attributes of files in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span></p>
+
+<ul>
+  <li>Display all set attributes of files and [d]irectories in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib /d</code></p>
+
+<ul>
+  <li>Display all set attributes of files in the current directory and [s]ub-directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib /s</code></p>
+
+<ul>
+  <li>Add the <code class="language-plaintext highlighter-rouge">[r]ead-only</code> or <code class="language-plaintext highlighter-rouge">[a]rchive</code> or <code class="language-plaintext highlighter-rouge">[s]ystem</code> or <code class="language-plaintext highlighter-rouge">[h]idden</code> or <code class="language-plaintext highlighter-rouge">not content [i]ndexed</code> attribute to files or directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">r|a|s|h|i</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory1 path\to\file_or_directory2 …</span></p>
+
+<ul>
+  <li>Remove a specific attribute of files or directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">r|a|s|h|i</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory1 path\to\file_or_directory2 …</span></p>

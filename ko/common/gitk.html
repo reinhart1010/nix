@@ -1,0 +1,35 @@
+<h1 id="gitk">gitk</h1>
+
+<p>Git 저장소를 그래픽으로 탐색.
+참고: <code class="language-plaintext highlighter-rouge">git-gui</code>, <code class="language-plaintext highlighter-rouge">git-cola</code>, <code class="language-plaintext highlighter-rouge">tig</code>.
+더 많은 정보: <a href="https://git-scm.com/docs/gitk">https://git-scm.com/docs/gitk</a>.</p>
+
+<ul>
+  <li>현재 Git 저장소에 대한 저장소 브라우저를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitk</code></p>
+
+<ul>
+  <li>특정 파일이나 디렉토리에 대한 저장소 브라우저 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span></p>
+
+<ul>
+  <li>1주일 전 이후에 이루어진 커밋 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitk --since="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1 week ago</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>2016년 1월 1일보다 오래된 커밋을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitk --until="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1/1/2015</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>모든 지점에서 최대 100개의 변경 사항 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitk --max-count=100 --all</code></p>

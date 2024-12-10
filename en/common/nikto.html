@@ -1,0 +1,34 @@
+<h1 id="nikto">nikto</h1>
+
+<p>Web server scanner which performs tests against web servers for multiple items.
+More information: <a href="https://cirt.net/Nikto2">https://cirt.net/Nikto2</a>.</p>
+
+<ul>
+  <li>Perform a basic Nikto scan against a target host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl nikto.pl -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1</span></p>
+
+<ul>
+  <li>Specify the port number when performing a basic scan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl nikto.pl -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">443</span></p>
+
+<ul>
+  <li>Scan ports and protocols with full URL syntax:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl nikto.pl -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://192.168.0.1:443/</span></p>
+
+<ul>
+  <li>Scan multiple ports in the same scanning session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl nikto.pl -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,88,443</span></p>
+
+<ul>
+  <li>Update to the latest plugins and databases:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl nikto.pl -update</code></p>

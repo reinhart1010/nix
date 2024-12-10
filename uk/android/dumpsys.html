@@ -1,0 +1,41 @@
+<h1 id="dumpsys">dumpsys</h1>
+
+<p>Отримати інформацію про системні сервіси Android.
+Ця команда може бути виконана тільки за допомогою <code class="language-plaintext highlighter-rouge">adb shell</code>.
+Більше інформації: <a href="https://developer.android.com/tools/dumpsys">https://developer.android.com/tools/dumpsys</a>.</p>
+
+<ul>
+  <li>Отримати дані діагностики для всіх системних сервісів:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys</code></p>
+
+<ul>
+  <li>Отримати дані діагностики для конкретного системного сервісу:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">сервіс</span></p>
+
+<ul>
+  <li>Вивести усі сервіси <code class="language-plaintext highlighter-rouge">dumpsys</code>, про які може бути надана інформація:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -l</code></p>
+
+<ul>
+  <li>Вивести специфічні аргументи для сервісу:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">сервіс</span><code class="language-plaintext highlighter-rouge"> -h</code></p>
+
+<ul>
+  <li>Виключити специфічний сервіс з виводу діагностики:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys --skip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">сервіс</span></p>
+
+<ul>
+  <li>Визначити таймаут в секундах (стандартно 10 секунд):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span></p>

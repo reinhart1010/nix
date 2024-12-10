@@ -1,0 +1,35 @@
+<h1 id="nix-shell">nix shell</h1>
+
+<p>Start a shell in which the specified packages are available.
+See also: <code class="language-plaintext highlighter-rouge">nix-shell</code> for setting up development environments, <code class="language-plaintext highlighter-rouge">nix3 flake</code> for information about flakes.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-shell.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-shell.html</a>.</p>
+
+<ul>
+  <li>Start an interactive shell with some packages from <code class="language-plaintext highlighter-rouge">nixpkgs</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg1 nixpkgs#packageSet.pkg2 …</span></p>
+
+<ul>
+  <li>Start a shell providing a package from an older version of <code class="language-plaintext highlighter-rouge">nixpkgs</code> (21.05):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs/nixos-21.05#pkg</span></p>
+
+<ul>
+  <li>Start a shell with the "default package" from a flake in the current directory, printing build logs if any builds happen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix shell -L</code></p>
+
+<ul>
+  <li>Start a shell with a package from a flake on GitHub:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github:owner/repo#pkg</span></p>
+
+<ul>
+  <li>Run a command in a shell with a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some-cmd –someflag 'Some other arguments'</span></p>

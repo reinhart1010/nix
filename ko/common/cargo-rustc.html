@@ -1,0 +1,53 @@
+<h1 id="cargo-rustc">cargo rustc</h1>
+
+<p>Rust 패키지를 컴파일. <code class="language-plaintext highlighter-rouge">cargo build</code>와 유사하지만, 컴파일러에 추가 옵션을 전달할 수 있음.
+사용 가능한 모든 옵션은 <code class="language-plaintext highlighter-rouge">rustc --help</code>를 참조.
+더 많은 정보: <a href="https://doc.rust-lang.org/cargo/commands/cargo-rustc.html">https://doc.rust-lang.org/cargo/commands/cargo-rustc.html</a>.</p>
+
+<ul>
+  <li>패키지를 빌드하고 <code class="language-plaintext highlighter-rouge">rustc</code>에 옵션을 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rustc_옵션</span></p>
+
+<ul>
+  <li>최적화를 통해 릴리스 모드에서 아티팩트 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --release</code></p>
+
+<ul>
+  <li>현재 CPU에 대한 아키텍처별 최적화로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --release -- -C target-cpu=native</code></p>
+
+<ul>
+  <li>속도 최적화로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc -- -C opt-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3</span></p>
+
+<ul>
+  <li>크기([s]ize) 최적화로 컴파일 (<code class="language-plaintext highlighter-rouge">z</code> 또한 루프 벡터화를 끔):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc -- -C opt-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|z</span></p>
+
+<ul>
+  <li>패키지가 안전하지 않은 코드를 사용하는지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --lib -- -D unsafe-code</code></p>
+
+<ul>
+  <li>특정 패키지 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>지정된 바이너리만 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>

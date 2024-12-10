@@ -1,0 +1,47 @@
+<h1 id="naabu">naabu</h1>
+
+<p>A fast port scanner written in Go with a focus on reliability and simplicity.
+Note: Some features are only activated when <code class="language-plaintext highlighter-rouge">naabu</code> is run with root privileges such as SYN scan.
+More information: <a href="https://github.com/projectdiscovery/naabu">https://github.com/projectdiscovery/naabu</a>.</p>
+
+<ul>
+  <li>Run a SYN scan against default (top 100) ports of remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo naabu -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Display available network interfaces and public IP address of the local host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -interface-list</code></p>
+
+<ul>
+  <li>Scan all ports of the remote host (CONNECT scan without <code class="language-plaintext highlighter-rouge">sudo</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -p - -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Scan the top 1000 ports of the remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -top-ports 1000 -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Scan TCP ports 80, 443 and UDP port 53 of the remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -p 80,443,u:53 -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Show CDN type the remote host is using, if any:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -p 80,443 -cdn -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">nmap</code> from <code class="language-plaintext highlighter-rouge">naabu</code> for additional functionalities (<code class="language-plaintext highlighter-rouge">nmap</code> must be installed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo naabu -v -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -nmap-cli 'nmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v -T5 -sC</span><code class="language-plaintext highlighter-rouge">'</code></p>

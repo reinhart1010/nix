@@ -1,0 +1,34 @@
+<h1 id="shutdown">shutdown</h1>
+
+<p>Shutdown and reboot the system.
+More information: <a href="https://manned.org/shutdown.8">https://manned.org/shutdown.8</a>.</p>
+
+<ul>
+  <li>Power off ([h]alt) immediately:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown -h now</code></p>
+
+<ul>
+  <li>[r]eboot immediately:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown -r now</code></p>
+
+<ul>
+  <li>[r]eboot in 5 minutes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown -r +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> &amp;</code></p>
+
+<ul>
+  <li>Shutdown at 1:00 pm (Uses 24[h] clock):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown -h 13:00</code></p>
+
+<ul>
+  <li>[c]ancel a pending shutdown/reboot operation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown -c</code></p>

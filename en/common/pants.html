@@ -1,0 +1,46 @@
+<h1 id="pants">pants</h1>
+
+<p>Fast, scalable, user-friendly, open-source build and developer workflow tool.
+More information: <a href="https://www.pantsbuild.org/2.20/docs/using-pants/command-line-help">https://www.pantsbuild.org/2.20/docs/using-pants/command-line-help</a>.</p>
+
+<ul>
+  <li>List all targets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pants list ::</code></p>
+
+<ul>
+  <li>Run all tests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pants test ::</code></p>
+
+<ul>
+  <li>Fix, format, and lint only uncommitted files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pants --changed-since=HEAD fix fmt lint</code></p>
+
+<ul>
+  <li>Typecheck only uncommitted files and their dependents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pants --changed-since=HEAD --changed-dependents=transitive check</code></p>
+
+<ul>
+  <li>Create a distributable package for the specified target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pants package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory:target-name</span></p>
+
+<ul>
+  <li>Auto-generate BUILD file targets for new source files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pants tailor ::</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pants help</code></p>

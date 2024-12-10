@@ -1,0 +1,34 @@
+<h1 id="zola">zola</h1>
+
+<p>Un generador de sitios estáticos en un único binario con todo incorporado.
+Más información: <a href="https://www.getzola.org/documentation/getting-started/cli-usage/">https://www.getzola.org/documentation/getting-started/cli-usage/</a>.</p>
+
+<ul>
+  <li>Crea la estructura de directorios utilizada por Zola en el directorio dado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zola init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mi_sitio</span></p>
+
+<ul>
+  <li>Construye todo el sitio en el directorio <code class="language-plaintext highlighter-rouge">public</code> después de eliminarlo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zola build</code></p>
+
+<ul>
+  <li>Construye todo el sitio en un directorio diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zola build --output-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_resultado/</span></p>
+
+<ul>
+  <li>Construye y sirve el sitio usando un servidor local (por defecto es <code class="language-plaintext highlighter-rouge">127.0.0.1:1111</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zola serve</code></p>
+
+<ul>
+  <li>Construye todas las páginas como lo haría el comando build, pero sin escribir ninguno de los resultados al disco:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zola check</code></p>

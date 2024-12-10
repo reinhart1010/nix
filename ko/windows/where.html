@@ -1,0 +1,29 @@
+<h1 id="where">where</h1>
+
+<p>검색 패턴과 일치하는 파일의 위치를 표시합니다.
+기본적으로 현재 작업 디렉토리와 PATH 환경 변수의 경로를 폴더로 설정합니다.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/where">https://learn.microsoft.com/windows-server/administration/windows-commands/where</a>.</p>
+
+<ul>
+  <li>파일 패턴의 위치 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_패턴</span></p>
+
+<ul>
+  <li>파일 크기와 날짜를 포함하여 파일 패턴의 위치 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where /T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_패턴</span></p>
+
+<ul>
+  <li>지정된 경로에서 파일 패턴을 재귀적으로 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where /R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_패턴</span></p>
+
+<ul>
+  <li>파일 패턴의 위치에 대한 오류 코드를 자동으로 반환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where /Q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_패턴</span></p>

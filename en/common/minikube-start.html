@@ -1,0 +1,34 @@
+<h1 id="minikube-start">minikube start</h1>
+
+<p>Start <code class="language-plaintext highlighter-rouge">minikube</code> with different configurations.
+More information: <a href="https://minikube.sigs.k8s.io/docs/commands/start/">https://minikube.sigs.k8s.io/docs/commands/start/</a>.</p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">minikube</code> with a specific Kubernetes version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minikube start --kubernetes-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">v1.24.0</span></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">minikube</code> with specific resource allocations (e.g., memory and CPU):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minikube start --memory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> --cpus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">minikube</code> with a specific driver (e.g., VirtualBox):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minikube start --driver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">virtualbox</span></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">minikube</code> in the background (headless mode):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minikube start --background</code></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">minikube</code> with custom add-ons (e.g., the metrics server):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minikube start --addons </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">metrics-server</span></p>

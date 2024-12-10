@@ -1,0 +1,40 @@
+<h1 id="jupytext">jupytext</h1>
+
+<p>Jupyter 노트북을 일반 텍스트 문서로 변환하고, 다시 노트북으로 변환합니다.
+더 많은 정보: <a href="https://jupytext.readthedocs.io">https://jupytext.readthedocs.io</a>.</p>
+
+<ul>
+  <li>노트북을 <code class="language-plaintext highlighter-rouge">.ipynb</code>/<code class="language-plaintext highlighter-rouge">.py</code>로 쌍으로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --set-formats ipynb,py </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노트북.ipynb</span></p>
+
+<ul>
+  <li>노트북을 <code class="language-plaintext highlighter-rouge">.py</code> 파일로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --to py </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노트북.ipynb</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.py</code> 파일을 출력 없이 노트북으로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --to notebook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노트북.py</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.md</code> 파일을 노트북으로 변환하고 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --to notebook --execute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노트북.md</span></p>
+
+<ul>
+  <li>노트북의 입력 셀을 업데이트하고 출력 및 메타데이터를 유지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --update --to notebook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노트북.py</span></p>
+
+<ul>
+  <li>노트북의 모든 쌍으로 연결된 표현 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노트북.ipynb</span></p>

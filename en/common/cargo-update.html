@@ -1,0 +1,28 @@
+<h1 id="cargo-update">cargo update</h1>
+
+<p>Update dependencies as recorded in <code class="language-plaintext highlighter-rouge">Cargo.lock</code>.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-update.html">https://doc.rust-lang.org/cargo/commands/cargo-update.html</a>.</p>
+
+<ul>
+  <li>Update dependencies in <code class="language-plaintext highlighter-rouge">Cargo.lock</code> to the latest possible version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo update</code></p>
+
+<ul>
+  <li>Display what would be updated, but don't actually write the lockfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo update --dry-run</code></p>
+
+<ul>
+  <li>Update only the specified dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo update --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency1</span><code class="language-plaintext highlighter-rouge"> --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency2</span><code class="language-plaintext highlighter-rouge"> --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency3</span></p>
+
+<ul>
+  <li>Set a specific dependency to a specific version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo update --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency</span><code class="language-plaintext highlighter-rouge"> --precise </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.3</span></p>

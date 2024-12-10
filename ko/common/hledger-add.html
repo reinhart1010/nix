@@ -1,0 +1,34 @@
+<h1 id="hledger-add">hledger add</h1>
+
+<p>콘솔에서 대화형 프롬프트로 새로운 거래를 기록합니다.
+더 많은 정보: <a href="https://hledger.org/hledger.html#add">https://hledger.org/hledger.html#add</a>.</p>
+
+<ul>
+  <li>기본 저널 파일에 새로운 거래 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger add</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">2024.journal</code>에 거래를 추가하되, 자동 완성을 위해 <code class="language-plaintext highlighter-rouge">2023.journal</code>도 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger add --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/2024.journal</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/2023.journal</span></p>
+
+<ul>
+  <li>처음 네 개의 프롬프트에 대한 답변 제공:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오늘</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">best buy</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">지출:용품</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$20</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">$PAGER</code>로 <code class="language-plaintext highlighter-rouge">add</code>의 옵션 및 문서 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger add --help</code></p>
+
+<ul>
+  <li>사용 가능하면 <code class="language-plaintext highlighter-rouge">info</code> 또는 <code class="language-plaintext highlighter-rouge">man</code>으로 <code class="language-plaintext highlighter-rouge">add</code>의 문서 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger help add</code></p>

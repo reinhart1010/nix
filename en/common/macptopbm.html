@@ -1,0 +1,29 @@
+<h1 id="macptopbm">macptopbm</h1>
+
+<p>Read a MacPaint file as input and produce a PBM image as output.
+See also: <code class="language-plaintext highlighter-rouge">pbmtomacp</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/macptopbm.html">https://netpbm.sourceforge.net/doc/macptopbm.html</a>.</p>
+
+<ul>
+  <li>Convert a MacPaint file into a PGM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">macptopbm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.macp</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Skip over a specified number of bytes when reading the file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">macptopbm -extraskip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Suppress all informational messages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">macptopbm -quiet &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Display version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">macptopbm -version</code></p>

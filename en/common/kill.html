@@ -1,0 +1,47 @@
+<h1 id="kill">kill</h1>
+
+<p>Sends a signal to a process, usually related to stopping the process.
+All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.
+More information: <a href="https://manned.org/kill.1posix">https://manned.org/kill.1posix</a>.</p>
+
+<ul>
+  <li>Terminate a program using the default SIGTERM (terminate) signal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span></p>
+
+<ul>
+  <li>List available signal names (to be used without the <code class="language-plaintext highlighter-rouge">SIG</code> prefix):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -l</code></p>
+
+<ul>
+  <li>Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|HUP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span></p>
+
+<ul>
+  <li>Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing <code class="language-plaintext highlighter-rouge">Ctrl + C</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|INT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span></p>
+
+<ul>
+  <li>Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9|KILL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span></p>
+
+<ul>
+  <li>Signal the operating system to pause a program until a SIGCONT ("continue") signal is received:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">17|STOP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span></p>
+
+<ul>
+  <li>Send a <code class="language-plaintext highlighter-rouge">SIGUSR1</code> signal to all processes with the given GID (group id):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGUSR1</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span></p>

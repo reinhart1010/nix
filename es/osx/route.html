@@ -1,0 +1,41 @@
+<h1 id="route">route</h1>
+
+<p>Manipula manualmente las tablas de enrutamiento.
+Necesita ser root.
+Más información: <a href="https://keith.github.io/xcode-man-pages/route.8.html">https://keith.github.io/xcode-man-pages/route.8.html</a>.</p>
+
+<ul>
+  <li>Añade una ruta a un destino a través de una puerta de enlace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip_destino</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_puerta</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Añade una ruta a una subred /24 a través de una puerta de enlace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip_subred</span><code class="language-plaintext highlighter-rouge">/24" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_puerta</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ejecuta en modo de prueba (no hace nada, sólo imprime):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route -t add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip_destino</span><code class="language-plaintext highlighter-rouge">/24" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_puerta</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Elimina todas las rutas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route flush</code></p>
+
+<ul>
+  <li>Elimina una ruta específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip_destino</span><code class="language-plaintext highlighter-rouge">/24"</code></p>
+
+<ul>
+  <li>Busca y muestra la ruta de un destino (nombre de host o dirección IP):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route get "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge">"</code></p>

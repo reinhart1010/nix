@@ -1,0 +1,29 @@
+<h1 id="mail">mail</h1>
+
+<p>인수가 주어지지 않으면 사용자의 메일함을 조작하는 명령입니다.
+이메일을 보내려면 메시지 본문을 <code class="language-plaintext highlighter-rouge">stdin</code>에서 작성합니다.
+더 많은 정보: <a href="https://manned.org/mail">https://manned.org/mail</a>.</p>
+
+<ul>
+  <li>개인 메일을 확인하기 위한 대화형 프롬프트 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mail</code></p>
+
+<ul>
+  <li>입력한 이메일 메시지를 선택적으로 참조(CC)와 함께 보내기. 아래 명령은 <code class="language-plaintext highlighter-rouge">&lt;Enter&gt;</code>를 누른 후 계속됩니다. 메시지 텍스트를 입력하세요(여러 줄 가능). 메시지 입력이 완료되면 <code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt;-D</code>를 누르세요:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mail --subject="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제목</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">받는이@example.com</span><code class="language-plaintext highlighter-rouge"> --cc="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">참조_이메일_주소</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>파일 내용을 포함하는 이메일 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mail --subject="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$HOSTNAME 파일명.txt</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">받는이@example.com</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일명.txt</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">tar.gz</code> 파일을 첨부 파일로 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cvzf - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더1 경로/대상/폴더2</span><code class="language-plaintext highlighter-rouge"> | uuencode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.tar.gz</span><code class="language-plaintext highlighter-rouge"> | mail --subject="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제목</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">받는이@example.com</span></p>

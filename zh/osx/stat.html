@@ -1,0 +1,34 @@
+<h1 id="stat">stat</h1>
+
+<p>显示文件状态。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/stat.1.html">https://keith.github.io/xcode-man-pages/stat.1.html</a>.</p>
+
+<ul>
+  <li>显示文件属性，如大小、权限、创建和访问日期等：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span></p>
+
+<ul>
+  <li>与上面相同，但更详细（更类似于 Linux 的 <code class="language-plaintext highlighter-rouge">stat</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span></p>
+
+<ul>
+  <li>只显示文件权限：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -f %Mp%Lp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span></p>
+
+<ul>
+  <li>显示文件的所有者和所属组：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -f "%Su %Sg" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span></p>
+
+<ul>
+  <li>以字节为单位显示文件的大小：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -f "%z %N" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span></p>

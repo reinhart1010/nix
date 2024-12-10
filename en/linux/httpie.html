@@ -1,0 +1,52 @@
+<h1 id="httpie">httpie</h1>
+
+<p>A user friendly HTTP tool.
+More information: <a href="https://github.com/httpie/httpie">https://github.com/httpie/httpie</a>.</p>
+
+<ul>
+  <li>Send a GET request (default method with no request data):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Send a POST request (default method with request data):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=World</span></p>
+
+<ul>
+  <li>Send a POST request with redirected input:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span></p>
+
+<ul>
+  <li>Send a PUT request with a given JSON body:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http PUT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=world</span></p>
+
+<ul>
+  <li>Send a DELETE request with a given request header:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http DELETE </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">API-Key:foo</span></p>
+
+<ul>
+  <li>Show the whole HTTP exchange (both request and response):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Download a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Follow redirects and show intermediary requests and responses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --follow --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>

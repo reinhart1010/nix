@@ -1,0 +1,23 @@
+<h1 id="grub-bios-setup">grub-bios-setup</h1>
+
+<p>GRUB을 BIOS 구성으로 사용하는 장치 설정.
+대부분의 경우 <code class="language-plaintext highlighter-rouge">grub-bios-setup</code> 대신 <code class="language-plaintext highlighter-rouge">grub-install</code>을 사용해야 합니다.
+더 많은 정보: <a href="https://manned.org/grub-bios-setup.8">https://manned.org/grub-bios-setup.8</a>.</p>
+
+<ul>
+  <li>GRUB으로 부팅하도록 장치 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-bios-setup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>문제가 감지되어도 설치 강행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-bios-setup --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>특정 디렉터리에 GRUB 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-bios-setup --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/boot/grub</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>

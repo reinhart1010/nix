@@ -1,0 +1,53 @@
+<h1 id="gcloud-compute">gcloud compute</h1>
+
+<p>Create, run, and manage VMs on Google Cloud infrastructure.
+See also: <code class="language-plaintext highlighter-rouge">gcloud</code>.
+More information: <a href="https://cloud.google.com/sdk/gcloud/reference/compute">https://cloud.google.com/sdk/gcloud/reference/compute</a>.</p>
+
+<ul>
+  <li>List Compute Engine zones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute zones list</code></p>
+
+<ul>
+  <li>Create a VM instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute instances create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_name</span></p>
+
+<ul>
+  <li>Display a VM instance's details:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute instances describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_name</span></p>
+
+<ul>
+  <li>List all VM instances in a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute instances list</code></p>
+
+<ul>
+  <li>Create a snapshot of a persistent disk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute disks snapshot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disk_name</span><code class="language-plaintext highlighter-rouge"> --snapshot-names </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_name</span></p>
+
+<ul>
+  <li>Display a snapshot's details:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute snapshots describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_name</span></p>
+
+<ul>
+  <li>Delete a snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute snapshots delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_name</span></p>
+
+<ul>
+  <li>Connect to a VM instance using SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_name</span></p>

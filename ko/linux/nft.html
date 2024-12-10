@@ -1,0 +1,53 @@
+<h1 id="nft">nft</h1>
+
+<p>Linux 커널 방화벽이 제공하는 테이블, 체인 및 규칙을 구성합니다.
+Nftables는 iptables를 대체합니다.
+더 많은 정보: <a href="https://wiki.nftables.org/wiki-nftables/index.php/Main_Page">https://wiki.nftables.org/wiki-nftables/index.php/Main_Page</a>.</p>
+
+<ul>
+  <li>현재 구성 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft list ruleset</code></p>
+
+<ul>
+  <li>"inet" 가족과 "filter" 테이블로 새 테이블 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft add table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span></p>
+
+<ul>
+  <li>모든 수신 트래픽을 허용하는 새 체인 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft add chain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span><code class="language-plaintext highlighter-rouge"> \{ type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span><code class="language-plaintext highlighter-rouge"> hook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span><code class="language-plaintext highlighter-rouge"> priority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> \; policy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">accept</span><code class="language-plaintext highlighter-rouge"> \}</code></p>
+
+<ul>
+  <li>여러 TCP 포트를 허용하는 새 규칙 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft add rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dport { telnet, ssh, http, https } accept</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">192.168.0.0/24</code> 서브넷의 모든 트래픽을 호스트의 공용 IP로 변환하는 NAT 규칙 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft add rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nat</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">postrouting</span><code class="language-plaintext highlighter-rouge"> ip saddr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.0/24</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">masquerade</span></p>
+
+<ul>
+  <li>규칙 핸들 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft --handle --numeric list chain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">family</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span></p>
+
+<ul>
+  <li>규칙 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft delete rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span><code class="language-plaintext highlighter-rouge"> handle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>현재 구성 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft list ruleset &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/nftables.conf</span></p>

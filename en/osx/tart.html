@@ -1,0 +1,52 @@
+<h1 id="tart">tart</h1>
+
+<p>Build, run and manage macOS and Linux virtual machines (VMs) on Apple Silicon.
+More information: <a href="https://github.com/cirruslabs/tart">https://github.com/cirruslabs/tart</a>.</p>
+
+<ul>
+  <li>Pull a remote VM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">acme.io/org/name:tag</span></p>
+
+<ul>
+  <li>Clone a VM from a local or remote image source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source-vm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm-name</span></p>
+
+<ul>
+  <li>Create a new Mac VM from a specific ipsw file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart create --from-ipsw=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest|path/to/file.ipsw</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm-name</span></p>
+
+<ul>
+  <li>Run an existing VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm-name</span></p>
+
+<ul>
+  <li>Run an existing VM with a specific mounted directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart run --dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/local_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm-name</span></p>
+
+<ul>
+  <li>List VMs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart list</code></p>
+
+<ul>
+  <li>Get IP address of a running VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm-name</span></p>
+
+<ul>
+  <li>Change a VM's display resolution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm-name</span><code class="language-plaintext highlighter-rouge"> --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">400</span></p>

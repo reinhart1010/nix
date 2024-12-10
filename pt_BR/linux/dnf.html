@@ -1,0 +1,53 @@
+<h1 id="dnf">dnf</h1>
+
+<p>Gerenciador de pacotes das distribuições baseadas em RHEL (substituto do yum).
+Para comandos equivalentes em outros gerenciadores de pacotes, veja <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+Mais informações: <a href="https://dnf.readthedocs.io">https://dnf.readthedocs.io</a>.</p>
+
+<ul>
+  <li>Atualiza os pacotes instalados para suas versões mais atuais:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf upgrade</code></p>
+
+<ul>
+  <li>Busca pacotes com palavras-chave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palavra_chave1 palavra_chave2 …</span></p>
+
+<ul>
+  <li>Mostra detalhes sobre um determinado pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Instala um novo pacote (use <code class="language-plaintext highlighter-rouge">-y</code> para responder sim à todos os prompts):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote1 pacote2 …</span></p>
+
+<ul>
+  <li>Remove um pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote1 pacote2 …</span></p>
+
+<ul>
+  <li>Lista pacotes intalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf list --installed</code></p>
+
+<ul>
+  <li>Busca por pacotes que fornecem um dado comando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf provides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Mostra todas as operações passadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf history</code></p>

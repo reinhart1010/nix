@@ -1,0 +1,29 @@
+<h1 id="airmon-ng">airmon-ng</h1>
+
+<p>激活无线网络设备的监控模式。
+属于 <code class="language-plaintext highlighter-rouge">aircrack-ng</code> 套件的一部分。
+更多信息：<a href="https://www.aircrack-ng.org/doku.php?id=airmon-ng">https://www.aircrack-ng.org/doku.php?id=airmon-ng</a>.</p>
+
+<ul>
+  <li>列出无线设备及其状态：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng</code></p>
+
+<ul>
+  <li>为一个特定的设备打开监控模式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span></p>
+
+<ul>
+  <li>关闭使用无线设备的干扰进程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng check kill</code></p>
+
+<ul>
+  <li>关闭某个特定网络接口的监控模式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0mon</span></p>

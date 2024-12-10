@@ -1,0 +1,40 @@
+<h1 id="arecord">arecord</h1>
+
+<p>ALSA 사운드카드 드라이버용 사운드 레코더.
+더 많은 정보: <a href="https://manned.org/arecord">https://manned.org/arecord</a>.</p>
+
+<ul>
+  <li>"CD" 품질로 녹음 (완료 시 Ctrl-C로 종료):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord -vv --format=cd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.wav</span></p>
+
+<ul>
+  <li>"CD" 품질로 10초 동안 고정된 길이로 녹음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord -vv --format=cd --duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.wav</span></p>
+
+<ul>
+  <li>녹음하여 MP3로 저장 (완료 시 Ctrl-C로 종료):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord -vv --format=cd --file-type raw | lame -r - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.mp3</span></p>
+
+<ul>
+  <li>모든 사운드 카드와 디지털 오디오 장치 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord --list-devices</code></p>
+
+<ul>
+  <li>인터랙티브 인터페이스 허용 (예: 스페이스바나 엔터로 재생 또는 일시 정지):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord --interactive</code></p>
+
+<ul>
+  <li>마이크 테스트를 위해 5초 샘플을 녹음하고 재생:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord -d 5 test-mic.wav &amp;&amp; aplay test-mic.wav &amp;&amp; rm test-mic.wav</code></p>

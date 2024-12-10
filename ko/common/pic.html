@@ -1,0 +1,17 @@
+<h1 id="pic">pic</h1>
+
+<p>groff (GNU Troff) 문서 형식 시스템을 위한 그림 전처리기.
+같이 보기: <code class="language-plaintext highlighter-rouge">groff</code>, <code class="language-plaintext highlighter-rouge">troff</code>.
+더 많은 정보: <a href="https://manned.org/pic">https://manned.org/pic</a>.</p>
+
+<ul>
+  <li>그림이 포함된 입력을 처리하고, 나중에 groff를 사용하여 PostScript로 조판하기 위해 출력 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pic </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pic</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.roff</span></p>
+
+<ul>
+  <li>[me] 매크로 패키지를 사용하여 그림이 포함된 입력을 PDF로 조판:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pic -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pic</span><code class="language-plaintext highlighter-rouge"> | groff -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">me</span><code class="language-plaintext highlighter-rouge"> -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span></p>

@@ -1,0 +1,34 @@
+<h1 id="apg">apg</h1>
+
+<p>Criar senhas aleatórias arbitrariamente complexas.
+Mais informações: <a href="https://manned.org/apg">https://manned.org/apg</a>.</p>
+
+<ul>
+  <li>Cria senha aleatória (tamanho padrão para as senhas é 8 caracteres):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg</code></p>
+
+<ul>
+  <li>Cria senha com pelo menos 1 símbolo (S), 1 número (N), 1 letra maiúscula (C), 1 letra minúscula (L):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -M SNCL</code></p>
+
+<ul>
+  <li>Cria uma senha com 16 caracteres:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span></p>
+
+<ul>
+  <li>Cria senha com tamanho máximo de 16 caracteres:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span></p>
+
+<ul>
+  <li>Cria uma senha que não aparece em um dicionário provido pelo usuário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_dicionario</span></p>

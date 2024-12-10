@@ -1,0 +1,30 @@
+<h1 id="urpmiaddmedia">urpmi.addmedia</h1>
+
+<p>Mageia에 미디어 추가.
+참고: Mageia 문서에서는 미디엄과 저장소를 동의어로 사용합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">urpmi</code>, <code class="language-plaintext highlighter-rouge">urpmi.update</code>, <code class="language-plaintext highlighter-rouge">urpme</code>, <code class="language-plaintext highlighter-rouge">urpmi.removemedia</code>, <code class="language-plaintext highlighter-rouge">urpmf</code>, <code class="language-plaintext highlighter-rouge">urpmq</code>.
+더 많은 정보: <a href="https://wiki.mageia.org/en/URPMI#urpme">https://wiki.mageia.org/en/URPMI#urpme</a>.</p>
+
+<ul>
+  <li>미디엄 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi.addmedia </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">미디엄</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp://ftp.site.com/path/to/Mageia/RPMS</span></p>
+
+<ul>
+  <li>하드 드라이브에서 미디엄 추가 (먼저 해당 디렉터리에서 <code class="language-plaintext highlighter-rouge">genhdlist2</code> 실행):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi.addmedia --distrib HD file:/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span></p>
+
+<ul>
+  <li>선택한 미러에서 중요한 미디어 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi.addmedia --distrib ftp://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">미러_웹사이트</span><code class="language-plaintext highlighter-rouge">/mirror/mageia/distrib/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아키텍처</span></p>
+
+<ul>
+  <li>미러 목록에서 자동으로 미러 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmi.addmedia --distrib --mirrorlist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">미러리스트</span></p>

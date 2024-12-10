@@ -1,0 +1,41 @@
+<h1 id="katana">katana</h1>
+
+<p>자동화 파이프라인에서의 실행에 중점을 둔 빠른 크롤러로, 헤드리스 및 비헤드리스 크롤링을 모두 제공합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">gau</code>, <code class="language-plaintext highlighter-rouge">scrapy</code>, <code class="language-plaintext highlighter-rouge">waymore</code>.
+더 많은 정보: <a href="https://github.com/projectdiscovery/katana">https://github.com/projectdiscovery/katana</a>.</p>
+
+<ul>
+  <li>URL 목록을 크롤링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">katana -list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com,https://google.com,…</span></p>
+
+<ul>
+  <li>Chromium을 사용하여 헤드리스 모드로 URL 크롤링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">katana -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge"> -headless</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">subfinder</code>를 사용하여 서브도메인을 찾고, [p]a[s]sive 소스(Wayback Machine, Common Crawl, AlienVault)로 URL 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">subfinder -list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/domains.txt</span><code class="language-plaintext highlighter-rouge"> | katana -passive</code></p>
+
+<ul>
+  <li>프록시(http/socks5)를 통해 요청 전달하고 파일에서 사용자 정의 [H]eaders 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">katana -proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:8080</span><code class="language-plaintext highlighter-rouge"> -headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/headers.txt</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>크롤링 [s]trategy, 크롤링할 하위 디렉토리의 [d]epth, 속도 제한(초당 요청 수) 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">katana -strategy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depth-first|breadth-first</span><code class="language-plaintext highlighter-rouge"> -depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> -rate-limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">subfinder</code>를 사용하여 서브도메인을 찾고, 각 서브도메인을 최대 시간 동안 크롤링하며 결과를 [o]utput 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">subfinder -list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/domains.txt</span><code class="language-plaintext highlighter-rouge"> | katana -crawl-duration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> -output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/output.txt</span></p>

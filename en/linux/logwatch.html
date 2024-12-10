@@ -1,0 +1,16 @@
+<h1 id="logwatch">logwatch</h1>
+
+<p>Summarizes many different logs for common services (e.g. apache, pam_unix, sshd, etc.) in a single report.
+More information: <a href="https://manned.org/logwatch">https://manned.org/logwatch</a>.</p>
+
+<ul>
+  <li>Analyze logs for a range of dates at a certain level of detail:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logwatch --range </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yesterday|today|all|help</span><code class="language-plaintext highlighter-rouge"> --detail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">low|medium|others</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Restrict report to only include information for a selected service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logwatch --range </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">all</span><code class="language-plaintext highlighter-rouge"> --service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apache|pam_unix|etc</span></p>

@@ -1,0 +1,35 @@
+<h1 id="install-nodeversion">Install-NodeVersion</h1>
+
+<p>Installeer Node.js runtime versies voor <code class="language-plaintext highlighter-rouge">ps-nvm</code>.
+Onderdeel van <code class="language-plaintext highlighter-rouge">ps-nvm</code> en kan alleen uitgevoerd worden in PowerShell.
+Meer informatie: <a href="https://github.com/aaronpowell/ps-nvm">https://github.com/aaronpowell/ps-nvm</a>.</p>
+
+<ul>
+  <li>Installeer een specifieke Node.js versie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_versie</span></p>
+
+<ul>
+  <li>Installeer meerdere Node.js versies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_versie1 , node_versie2 , …</span></p>
+
+<ul>
+  <li>Installeer de laatst beschikbare versie van Node.js 20:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-NodeVersion ^20</code></p>
+
+<ul>
+  <li>Installeer de x86 (x86 32-bit) / x64 (x86 64-bit) / arm64 (ARM 64-bit) versie van Node.js:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_versie</span><code class="language-plaintext highlighter-rouge"> -Architecture </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x86|x64|arm64</span></p>
+
+<ul>
+  <li>Gebruik een HTTP proxy voor het downloaden van Node.js:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node-version</span><code class="language-plaintext highlighter-rouge"> -Proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>

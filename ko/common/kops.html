@@ -1,0 +1,40 @@
+<h1 id="kops">kops</h1>
+
+<p>Kubernetes 클러스터를 생성, 삭제, 업그레이드 및 유지 관리.
+더 많은 정보: <a href="https://github.com/kubernetes/kops/">https://github.com/kubernetes/kops/</a>.</p>
+
+<ul>
+  <li>구성 사양에서 클러스터 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops create cluster -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름.yaml</span></p>
+
+<ul>
+  <li>새로운 SSH 공개 키 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops create secret sshpublickey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/id_rsa.pub</span></p>
+
+<ul>
+  <li>클러스터 구성을 <code class="language-plaintext highlighter-rouge">~/.kube/config</code> 파일로 내보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops export kubecfg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>클러스터 구성을 YAML로 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops get cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span><code class="language-plaintext highlighter-rouge"> -o yaml</code></p>
+
+<ul>
+  <li>클러스터 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops delete cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span><code class="language-plaintext highlighter-rouge"> --yes</code></p>
+
+<ul>
+  <li>클러스터 유효성 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops validate cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span><code class="language-plaintext highlighter-rouge"> --wait </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">준비_시간</span><code class="language-plaintext highlighter-rouge"> --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필요한_검증_수</span></p>

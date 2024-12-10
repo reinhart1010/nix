@@ -1,0 +1,52 @@
+<h1 id="npm-star">npm star</h1>
+
+<p>Mark a package as favorite.
+More information: <a href="https://docs.npmjs.com/cli/commands/npm-star">https://docs.npmjs.com/cli/commands/npm-star</a>.</p>
+
+<ul>
+  <li>Star a public package from the default registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm star </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Star a package within a specific scope:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm star @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scope</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Star a package from a specific registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm star </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> --registry=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_url</span></p>
+
+<ul>
+  <li>Star a private package that requires authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm star </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> --auth-type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">legacy|oauth|web|saml</span></p>
+
+<ul>
+  <li>Star a package by providing an OTP for two-factor authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm star </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> --otp=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">otp</span></p>
+
+<ul>
+  <li>Star a package with detailed logging:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm star </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> --loglevel=verbose</code></p>
+
+<ul>
+  <li>List all your starred packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm star --list</code></p>
+
+<ul>
+  <li>List your starred packages from a specific registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm star --list --registry=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_url</span></p>

@@ -1,0 +1,23 @@
+<h1 id="flock">flock</h1>
+
+<p>쉘 스크립트에서 잠금을 관리.
+명령의 하나의 프로세스만 실행 중인지 확인하는 데 사용할 수 있음.
+더 많은 정보: <a href="https://manned.org/flock">https://manned.org/flock</a>.</p>
+
+<ul>
+  <li>다른 사람이 잠금을 요구하지 않는 즉시 파일 잠금과 함께 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/락.lock</span><code class="language-plaintext highlighter-rouge"> --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>파일 잠금을 사용하여 명령을 실행하고, 잠금이 존재하지 않으면 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/락.lock</span><code class="language-plaintext highlighter-rouge"> --nonblock --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>파일 잠금을 사용하여, 명령을 실행하고 잠금이 존재하면 않으면 특정 오류 코드로 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/락.lock</span><code class="language-plaintext highlighter-rouge"> --nonblock --conflict-exit-code </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">에러_코드</span><code class="language-plaintext highlighter-rouge"> -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge">"</code></p>

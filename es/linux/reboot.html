@@ -1,0 +1,35 @@
+<h1 id="reboot">reboot</h1>
+
+<p>Reinicia el sistema.
+Vea también: <code class="language-plaintext highlighter-rouge">halt</code>, <code class="language-plaintext highlighter-rouge">poweroff</code>.
+Más información: <a href="https://manned.org/reboot.8">https://manned.org/reboot.8</a>.</p>
+
+<ul>
+  <li>Reinicia inmediatamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reboot</code></p>
+
+<ul>
+  <li>Apaga el sistema (igual que <code class="language-plaintext highlighter-rouge">poweroff</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reboot --poweroff</code></p>
+
+<ul>
+  <li>Detiene (termina todos los procesos y apaga la CPU) el sistema (igual que <code class="language-plaintext highlighter-rouge">halt</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reboot --halt</code></p>
+
+<ul>
+  <li>Reinicia inmediatamente sin contactar al administrador del sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reboot --force</code></p>
+
+<ul>
+  <li>Escribe la entrada wtmp de apagado sin reiniciar el sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reboot --wtmp-only</code></p>

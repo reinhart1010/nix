@@ -1,0 +1,52 @@
+<h1 id="chromium">chromium</h1>
+
+<p>Open-Source-Webbrowser von Google.
+Weitere Informationen: <a href="https://www.chromium.org/developers/how-tos/run-chromium-with-flags/">https://www.chromium.org/developers/how-tos/run-chromium-with-flags/</a>.</p>
+
+<ul>
+  <li>Öffne eine bestimmte Datei oder URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com|pfad/zu/datei.html</span></p>
+
+<ul>
+  <li>Öffne eine URL im Inkognito-Modus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --incognito </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">beispiel.com</span></p>
+
+<ul>
+  <li>Öffne eine URL in einem neuen Fenster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --new-window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">beispiel.com</span></p>
+
+<ul>
+  <li>Öffne eine URL im Anwendungsmodus (ohne Symbolleisten, Suchleiste, Schaltflächen usw.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --app=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com</span></p>
+
+<ul>
+  <li>Öffne eine URL und verwende einen Proxy-Server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --proxy-server="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">socks5://hostname:66</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">beispiel.com</span></p>
+
+<ul>
+  <li>Öffne Chromium mit einem eigenen Profil-Verzeichnis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span></p>
+
+<ul>
+  <li>Öffne Chromium ohne CORS-Verifizierung (nützlich, um eine API zu testen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span><code class="language-plaintext highlighter-rouge"> --disable-web-security</code></p>
+
+<ul>
+  <li>Öffne Chromium mit einem <code class="language-plaintext highlighter-rouge">DevTools</code>-Fenster für jeden geöffneten Tab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --auto-open-devtools-for-tabs</code></p>

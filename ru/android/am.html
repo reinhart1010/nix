@@ -1,0 +1,28 @@
+<h1 id="am">am</h1>
+
+<p>Менеджер активностей Android.
+Больше информации: <a href="https://developer.android.com/tools/adb#am">https://developer.android.com/tools/adb#am</a>.</p>
+
+<ul>
+  <li>Начать определённую активность:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.android.settings/.Settings</span></p>
+
+<ul>
+  <li>Начать активность и передать в неё данные:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span></p>
+
+<ul>
+  <li>Начать активность соответствующую определенному действию и категории:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.MAIN</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.category.HOME</span></p>
+
+<ul>
+  <li>Преобразовать намерение в URI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am to-uri -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span></p>

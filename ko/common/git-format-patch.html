@@ -1,0 +1,23 @@
+<h1 id="git-format-patch">git format-patch</h1>
+
+<p>.patch 파일 준비. 커밋을 이메일로 전송할 때 유용합니다.
+생성된 .patch 파일을 적용할 수 있는 <code class="language-plaintext highlighter-rouge">git am</code>도 참고하세요.
+더 많은 정보: <a href="https://git-scm.com/docs/git-format-patch">https://git-scm.com/docs/git-format-patch</a>.</p>
+
+<ul>
+  <li>푸시되지 않은 모든 커밋에 대한 자동 이름 지정 <code class="language-plaintext highlighter-rouge">.patch</code> 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origin</span></p>
+
+<ul>
+  <li>두 개의 리비전 사이의 모든 커밋에 대한 <code class="language-plaintext highlighter-rouge">.patch</code> 파일을 <code class="language-plaintext highlighter-rouge">stdout</code>으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision_1</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision_2</span></p>
+
+<ul>
+  <li>최근 3개의 커밋에 대한 <code class="language-plaintext highlighter-rouge">.patch</code> 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>

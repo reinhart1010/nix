@@ -1,0 +1,28 @@
+<h1 id="add-appxpackage">Add-AppxPackage</h1>
+
+<p>Un utilitaire PowerShell pour ajouter un paquet d'applications signé (<code class="language-plaintext highlighter-rouge">.appx</code>, <code class="language-plaintext highlighter-rouge">.msix</code>, <code class="language-plaintext highlighter-rouge">.appxbundle</code>, <code class="language-plaintext highlighter-rouge">.appxbundle</code> et <code class="language-plaintext highlighter-rouge">.msixbundle</code>) à un compte utilisateur.
+Plus d'informations : <a href="https://learn.microsoft.com/powershell/module/appx/Add-AppxPackage">https://learn.microsoft.com/powershell/module/appx/Add-AppxPackage</a>.</p>
+
+<ul>
+  <li>Ajoute un paquet d'application :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin\vers\paquet.msix</span></p>
+
+<ul>
+  <li>Ajoute un paquet d'application avec ses dependences :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin\vers\paquet.msix</span><code class="language-plaintext highlighter-rouge"> -DependencyPath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin\vers\dependences.msix</span></p>
+
+<ul>
+  <li>Installe une application en utilisant le fichier d'installation de l'application :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -AppInstallerFile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin\vers\application.appinstaller</span></p>
+
+<ul>
+  <li>Ajoute un paquet non signé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin\vers\paquet.msix</span><code class="language-plaintext highlighter-rouge"> -DependencyPath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin\vers\dependences.msix</span><code class="language-plaintext highlighter-rouge"> -AllowUnsigned</code></p>

@@ -1,0 +1,35 @@
+<h1 id="git-bisect">git bisect</h1>
+
+<p>Use binary search to find the commit that introduced a bug.
+Git automatically jumps back and forth in the commit graph to progressively narrow down the faulty commit.
+More information: <a href="https://git-scm.com/docs/git-bisect">https://git-scm.com/docs/git-bisect</a>.</p>
+
+<ul>
+  <li>Start a bisect session on a commit range bounded by a known buggy commit, and a known clean (typically older) one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bad_commit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">good_commit</span></p>
+
+<ul>
+  <li>For each commit that <code class="language-plaintext highlighter-rouge">git bisect</code> selects, mark it as "bad" or "good" after testing it for the issue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">good|bad</span></p>
+
+<ul>
+  <li>After <code class="language-plaintext highlighter-rouge">git bisect</code> pinpoints the faulty commit, end the bisect session and return to the previous branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect reset</code></p>
+
+<ul>
+  <li>Skip a commit during a bisect (e.g. one that fails the tests due to a different issue):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect skip</code></p>
+
+<ul>
+  <li>Display a log of what has been done so far:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect log</code></p>

@@ -1,0 +1,28 @@
+<h1 id="qmrestore">qmrestore</h1>
+
+<p>Restore QemuServer <code class="language-plaintext highlighter-rouge">vzdump</code> backups.
+More information: <a href="https://pve.proxmox.com/pve-docs/qmrestore.1.html">https://pve.proxmox.com/pve-docs/qmrestore.1.html</a>.</p>
+
+<ul>
+  <li>Restore virtual machine from given backup file on the original storage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmrestore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/vzdump-qemu-100.vma.lzo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Overwrite existing virtual machine from a given backup file on the original storage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmrestore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/vzdump-qemu-100.vma.lzo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --force true</code></p>
+
+<ul>
+  <li>Restore the virtual machine from a given backup file on specific storage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmrestore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/vzdump-qemu-100.vma.lzo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --storage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local</span></p>
+
+<ul>
+  <li>Start virtual machine immediately from the backup while restoring in the background (only on Proxmox Backup Server):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmrestore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/vzdump-qemu-100.vma.lzo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --live-restore true</code></p>

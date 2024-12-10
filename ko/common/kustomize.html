@@ -1,0 +1,28 @@
+<h1 id="kustomize">kustomize</h1>
+
+<p>Kubernetes 리소스를 쉽게 배포.
+더 많은 정보: <a href="https://github.com/kubernetes-sigs/kustomize">https://github.com/kubernetes-sigs/kustomize</a>.</p>
+
+<ul>
+  <li>리소스 및 네임스페이스가 포함된 커스터마이제이션 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kustomize create --resources </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment.yaml,service.yaml</span><code class="language-plaintext highlighter-rouge"> --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">staging</span></p>
+
+<ul>
+  <li>커스터마이제이션 파일을 빌드하고 <code class="language-plaintext highlighter-rouge">kubectl</code>로 배포:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kustomize build . | kubectl apply -f -</code></p>
+
+<ul>
+  <li>커스터마이제이션 파일에 이미지 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kustomize edit set image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">busybox=alpine:3.6</span></p>
+
+<ul>
+  <li>현재 디렉터리의 Kubernetes 리소스를 검색하여 커스터마이제이션 파일에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kustomize create --autodetect</code></p>

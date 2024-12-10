@@ -1,0 +1,23 @@
+<h1 id="sed">sed</h1>
+
+<p>Edita texto de manera scriptable.
+Vea también: <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">ed</code>.
+Más información: <a href="https://manned.org/sed.1posix">https://manned.org/sed.1posix</a>.</p>
+
+<ul>
+  <li>Reemplaza todas las ocurrencias de <code class="language-plaintext highlighter-rouge">apple</code> (regex básica) por <code class="language-plaintext highlighter-rouge">mango</code> (regex básica) en todas las líneas de entrada y muestra el resultado en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | sed 's/apple/mango/g'</code></p>
+
+<ul>
+  <li>Ejecuta un archivo de script específico y muestra el resultado en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | sed -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.sed</span></p>
+
+<ul>
+  <li>Imprime solo la primera línea en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | sed -n '1p'</code></p>

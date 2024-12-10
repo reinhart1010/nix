@@ -1,0 +1,41 @@
+<h1 id="wiggle">wiggle</h1>
+
+<p><code class="language-plaintext highlighter-rouge">patch</code>가 처리할 수 없는 패치의 충돌을 해결하는 패치 적용 도구.
+참고: Wiggle은 모든 변경 사항을 강제로 적용하고, 충돌이 발생하면 병합하며, 해결할 수 없는 문제를 보고합니다.
+더 많은 정보: <a href="https://manned.org/wiggle">https://manned.org/wiggle</a>.</p>
+
+<ul>
+  <li>패치 파일의 변경 사항을 원본 파일에 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wiggle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/나의_패치.patch</span></p>
+
+<ul>
+  <li>변경 사항을 [출력] 파일에 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wiggle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/나의_패치.patch</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.txt</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">file.rej</code>에서 적용되지 않은 변경 사항을 가져와서 파일에 병합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wiggle --replace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.rej</span></p>
+
+<ul>
+  <li>패치 또는 병합 파일의 한 브랜치 [추출]:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wiggle -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/나의_패치.patch</span></p>
+
+<ul>
+  <li>패치를 적용하고 비교된 단어를 [출력] 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wiggle --words </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/나의_단어_패치.patch</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/단어_패치된_코드.c</span></p>
+
+<ul>
+  <li>병합 기능에 대한 도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wiggle --merge --help</code></p>

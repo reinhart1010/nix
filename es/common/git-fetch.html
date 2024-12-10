@@ -1,0 +1,34 @@
+<h1 id="git-fetch">git fetch</h1>
+
+<p>Descarga objetos y referencias de un repositorio remoto.
+Más información: <a href="https://git-scm.com/docs/git-fetch">https://git-scm.com/docs/git-fetch</a>.</p>
+
+<ul>
+  <li>Recibe los últimos cambios del repositorio remoto upstream por defecto (si se ha establecido):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fetch</code></p>
+
+<ul>
+  <li>Recibe las ramas nuevas de un repositorio remoto upstream específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fetch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span></p>
+
+<ul>
+  <li>Recibe los últimos cambios de todos los repositorios remotos upstream:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fetch --all</code></p>
+
+<ul>
+  <li>Recibe también las etiquetas de un repositorio upstream:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fetch --tags</code></p>
+
+<ul>
+  <li>Elimina las referencias locales a ramas remotas que han sido eliminadas de upstream:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fetch --prune</code></p>

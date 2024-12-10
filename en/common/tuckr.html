@@ -1,0 +1,35 @@
+<h1 id="tuckr">tuckr</h1>
+
+<p>Dotfile manager written in Rust.
+See also: <code class="language-plaintext highlighter-rouge">chezmoi</code>, <code class="language-plaintext highlighter-rouge">vcsh</code>, <code class="language-plaintext highlighter-rouge">homeshick</code>, <code class="language-plaintext highlighter-rouge">stow</code>.
+More information: <a href="https://github.com/RaphGL/Tuckr">https://github.com/RaphGL/Tuckr</a>.</p>
+
+<ul>
+  <li>Check dotfile status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tuckr status</code></p>
+
+<ul>
+  <li>Add all dotfiles to system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tuckr add \*</code></p>
+
+<ul>
+  <li>Add all dotfiles except specified programs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tuckr add \* -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program2</span></p>
+
+<ul>
+  <li>Remove all dotfiles from the system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tuckr rm \*</code></p>
+
+<ul>
+  <li>Add a program dotfile and run its setup script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tuckr set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
