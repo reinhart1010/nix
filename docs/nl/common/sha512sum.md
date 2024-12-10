@@ -3,7 +3,7 @@ layout: page
 title: common/sha512sum (Nederlands)
 description: "Bereken SHA512 cryptografische checksums."
 content_hash: 8f902d0ae32db6fcb589bc4b1f18ddcb0d33cb87
-last_modified_at: 2024-12-09
+last_modified_at: 2024-12-10
 related_topics:
   - title: English version
     url: /en/common/sha512sum.html
@@ -17,12 +17,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha512sum.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sha512sum
+# sha512sum
 
 Bereken SHA512 cryptografische checksums.
 Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.

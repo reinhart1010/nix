@@ -3,7 +3,7 @@ layout: page
 title: common/pwd (русский)
 description: "Отобразить абсолютной путь до текущей/рабочей директории."
 content_hash: afe801efe2bd854ac5fc9a1306842d88c5ce1eed
-last_modified_at: 2024-11-27
+last_modified_at: 2024-12-10
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -41,12 +41,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/pwd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pwd
+# pwd
 
 Отобразить абсолютной путь до текущей/рабочей директории.
 Больше информации: <https://www.gnu.org/software/coreutils/pwd>.

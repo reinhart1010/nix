@@ -3,7 +3,7 @@ layout: page
 title: common/b2sum (Nederlands)
 description: "Bereken BLAKE2 cryptografische checksums."
 content_hash: db9b5720777bdac4a1ed5ce7bdb82fe343e336be
-last_modified_at: 2024-12-09
+last_modified_at: 2024-12-10
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -20,12 +20,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/b2sum.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># b2sum
+# b2sum
 
 Bereken BLAKE2 cryptografische checksums.
 Meer informatie: <https://www.gnu.org/software/coreutils/b2sum>.
