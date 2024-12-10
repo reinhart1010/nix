@@ -2,8 +2,8 @@
 layout: page
 title: common/b2sum (français)
 description: "Calcule les sommes de contrôle cryptographiques BLAKE2."
-content_hash: 47b09a85d123b58a201ae151cd7453e570efb90f
-last_modified_at: 2024-11-24
+content_hash: 1308d04966e418f2bdec957f6d3d68b9b539ae9f
+last_modified_at: 2024-12-10
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -28,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># b2sum
 
 Calcule les sommes de contrôle cryptographiques BLAKE2.
-Plus d'informations : <https://www.gnu.org/software/coreutils/b2sum>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html>.
 
 - Calcule la somme de contrôle BLAKE2 d'un fichier :
 

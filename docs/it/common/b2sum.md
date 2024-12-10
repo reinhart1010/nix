@@ -2,8 +2,8 @@
 layout: page
 title: common/b2sum (italiano)
 description: "Calcola checksum BLAKE2."
-content_hash: 8fa1192d246f04e09f45c95cec703b087f33ac2f
-last_modified_at: 2023-11-12
+content_hash: 7d86ec9fd12b328d409d18e86294ac3c8cb9d2cf
+last_modified_at: 2024-12-10
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/b2sum.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/b2sum.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/b2sum.html
@@ -25,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># b2sum
 
 Calcola checksum BLAKE2.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/b2sum>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html>.
 
 - Calcola il checksum BLAKE2 per un file:
 

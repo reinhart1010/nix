@@ -2,8 +2,8 @@
 layout: page
 title: common/b2sum (English)
 description: "Calculate BLAKE2 cryptographic checksums."
-content_hash: ba54039054261fa56af350a5a8de6c7fad19dfae
-last_modified_at: 2024-11-24
+content_hash: ca7b502627d4b3211a1a8b9fc9302acc007d13b4
+last_modified_at: 2024-12-10
 related_topics:
   - title: français version
     url: /fr/common/b2sum.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # b2sum
 
 Calculate BLAKE2 cryptographic checksums.
-More information: <https://www.gnu.org/software/coreutils/b2sum>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html>.
 
 - Calculate the BLAKE2 checksum for one or more files:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/b2sum (தமிழ்)
 description: "BLAKE2 மறையீட்டு சரிகாண்தொகைகளைக் கணி அல்லது சரிபார்."
-content_hash: 7ef4c859f36f9dde20d474da24a37d2e4e621bb5
-last_modified_at: 2024-11-24
+content_hash: 6db33fd05d0531c0ea12f66dd95cd5f1be937568
+last_modified_at: 2024-12-10
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -28,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># b2sum
 
 BLAKE2 மறையீட்டு சரிகாண்தொகைகளைக் கணி அல்லது சரிபார்.
-மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/b2sum>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html>.
 
 - ஒன்று அல்லது அதற்கு மேற்பட்ட கோப்புகளுக்கான BLAKE2 சரிகாண்தொகையைக் கணி:
 

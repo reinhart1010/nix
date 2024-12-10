@@ -2,8 +2,8 @@
 layout: page
 title: common/b2sum (한국어)
 description: "BLACK2 암호화 체크섬을 계산."
-content_hash: 19a11b854f9d5bac1a648db65b2293fa8e9469e4
-last_modified_at: 2024-11-24
+content_hash: 126d101bbda7cbc94c1da9d224b3da85401b4f1d
+last_modified_at: 2024-12-10
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -28,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># b2sum
 
 BLACK2 암호화 체크섬을 계산.
-더 많은 정보: <https://www.gnu.org/software/coreutils/b2sum>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html>.
 
 - 하나 이상의 파일에 대해 BLAKE2 체크섬을 계산:
 

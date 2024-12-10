@@ -2,18 +2,21 @@
 layout: page
 title: common/basenc (Nederlands)
 description: "Encodeer of decodeer een bestand of `stdin` door gebruik te maken van een specifieke encoding naar `stdout`."
-content_hash: ad06636c0065038fa695ddfb9f096563ead1902c
-last_modified_at: 2024-01-05
+content_hash: f17ab6d40e7d2cce0ee23df6073b84e10aba2351
+last_modified_at: 2024-12-10
 related_topics:
   - title: English version
     url: /en/common/basenc.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/basenc.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # basenc
 
 Encodeer of decodeer een bestand of `stdin` door gebruik te maken van een specifieke encoding naar `stdout`.
-Meer informatie: <https://www.gnu.org/software/coreutils/basenc>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/basenc-invocation.html>.
 
 - Encodeer een bestand met base64 encoding:
 

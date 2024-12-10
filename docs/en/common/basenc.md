@@ -2,14 +2,21 @@
 layout: page
 title: common/basenc (English)
 description: "Encode or decode file or `stdin` using a specified encoding, to `stdout`."
-content_hash: e1454d59dac7edec6c5c74d890ae6082380c1a6f
-last_modified_at: 2023-11-12
+content_hash: 0ea7a3c45d5a7903f4e745052dd697a370278a29
+last_modified_at: 2024-12-10
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/basenc.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/basenc.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # basenc
 
 Encode or decode file or `stdin` using a specified encoding, to `stdout`.
-More information: <https://www.gnu.org/software/coreutils/basenc>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/basenc-invocation.html>.
 
 - Encode a file with base64 encoding:
 
