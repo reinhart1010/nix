@@ -2,8 +2,8 @@
 layout: page
 title: common/basename (English)
 description: "Remove leading directory portions from a path."
-content_hash: d5711e0c59496c697d11ffea98f2193770a39094
-last_modified_at: 2024-11-04
+content_hash: b46d637c1c9d097f3eaf57f6047bb2368f30f6c8
+last_modified_at: 2024-12-10
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # basename
 
 Remove leading directory portions from a path.
-More information: <https://www.gnu.org/software/coreutils/basename>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
 - Show only the file name from a path:
 

@@ -2,11 +2,14 @@
 layout: page
 title: common/basename (Deutsch)
 description: "Entfernt führende Verzeichniskomponenten in einem Pfad."
-content_hash: ca86986782e1c1d35a280a787fd8500b62613513
-last_modified_at: 2023-11-12
+content_hash: 25787211de87ce01bc6c834485988fc9d0a7d39d
+last_modified_at: 2024-12-10
 related_topics:
   - title: English version
     url: /en/common/basename.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/basename.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/basename.html
@@ -16,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/basename.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/basename.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/basename.html
@@ -31,7 +37,7 @@ tldri18n_status: 2
 # basename
 
 Entfernt führende Verzeichniskomponenten in einem Pfad.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/basename>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
 - Ermittle den Dateinamen in einem Pfad:
 

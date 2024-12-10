@@ -2,8 +2,8 @@
 layout: page
 title: common/basename (italiano)
 description: "Restituisce la parte finale un percorso."
-content_hash: 0e943c22605de6f8ad540c8d255fcb7c3f039ce4
-last_modified_at: 2023-11-12
+content_hash: 49e8d5645247f24bba02c1f656773a4a346efea9
+last_modified_at: 2024-12-10
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -11,11 +11,17 @@ related_topics:
   - title: English version
     url: /en/common/basename.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/basename.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/basename.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/basename.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/basename.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/basename.html
@@ -34,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># basename
 
 Restituisce la parte finale un percorso.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/basename>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
 - Mostra solo il nome del file da un percorso:
 

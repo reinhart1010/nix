@@ -2,8 +2,8 @@
 layout: page
 title: common/basename (한국어)
 description: "경로명의 디렉토리가 아닌 부분을 반환."
-content_hash: c73c8b981eda2d8f752fe6e4d15708a64b1e1fcd
-last_modified_at: 2024-11-06
+content_hash: 43848b6dec2a2a3a49cce9c425cb7baba5534a7b
+last_modified_at: 2024-12-10
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # basename
 
 경로명의 디렉토리가 아닌 부분을 반환.
-더 많은 정보: <https://www.gnu.org/software/coreutils/basename>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
 - 경로에서 파일 이름만 표시:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/basename (español)
 description: "Remueve nombres de directorios al inicio de una ruta."
-content_hash: 368d1a0fbaea2b765d993d0899614c07c171b730
-last_modified_at: 2023-12-24
+content_hash: 1f4d3f14463d787223719d30dfc066aaf3ba0da1
+last_modified_at: 2024-12-10
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -20,6 +20,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/basename.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/basename.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/basename.html
     icon: bi bi-globe
@@ -34,7 +37,7 @@ tldri18n_status: 2
 # basename
 
 Remueve nombres de directorios al inicio de una ruta.
-Más información: <https://www.gnu.org/software/coreutils/basename>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
 - Imprime el nombre de un fichero a partir de su ruta:
 

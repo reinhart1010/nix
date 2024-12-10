@@ -2,14 +2,17 @@
 layout: page
 title: common/basename (português (Brasil))
 description: "Remove o prefixo de um caminho."
-content_hash: b179d32408adf2c00a199a82d22830f79dbbf2d0
-last_modified_at: 2023-11-12
+content_hash: 72aee3156e0d1921d3449a71a5b66874d143719e
+last_modified_at: 2024-12-10
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/basename.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/basename.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/basename.html
@@ -19,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/basename.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/basename.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/basename.html
@@ -31,7 +37,7 @@ tldri18n_status: 2
 # basename
 
 Remove o prefixo de um caminho.
-Mais informações: <https://www.gnu.org/software/coreutils/basename>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
 - Mostra apenas o nome do arquivo em um caminho:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/basename (Nederlands)
 description: "Verwijder voorlopende map delen van een pad."
-content_hash: 327964acfb07a9d576143abf68402827a96c0d73
-last_modified_at: 2024-01-05
+content_hash: 4b7b2f5d9cd09591d6676a93356b7f61ad8d2052
+last_modified_at: 2024-12-10
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # basename
 
 Verwijder voorlopende map delen van een pad.
-Meer informatie: <https://www.gnu.org/software/coreutils/basename>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
 - Toon alleen de bestandsnaam van een pad:
 
