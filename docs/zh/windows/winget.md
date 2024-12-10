@@ -2,8 +2,8 @@
 layout: page
 title: windows/winget (中文)
 description: "Windows 软件包管理器命令行工具。"
-content_hash: ad3f1ef5f5452ef81854eda5d163b1337c421868
-last_modified_at: 2023-11-12
+content_hash: aafbd8b2da598787c9ab7c8e9609fd5db2ea2645
+last_modified_at: 2024-12-10
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/winget.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/winget.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/winget.html
@@ -36,14 +39,34 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Windows 软件包管理器命令行工具。
 更多信息：<https://learn.microsoft.com/windows/package-manager/winget>.
 
-- 安装一个软件包：
+- 安装一个包：
 
-`winget install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`winget install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包</span>
 
-- 显示关于一个软件包的信息：
+- 移除一个包（注意：`remove` 也可以用来代替 `uninstall`）：
 
-`winget show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`winget uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包</span>
 
-- 查找一个软件包：
+- 显示一个包的信息：
 
-`winget search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`winget show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包</span>
+
+- 搜索一个包：
+
+`winget search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包</span>
+
+- 将所有包升级到最新版本：
+
+`winget upgrade --all`
+
+- 列出所有可以通过 `winget` 管理的已安装包：
+
+`winget list --source winget`
+
+- 从文件导入包，或将已安装的包导出到文件：
+
+`winget `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import|export</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--import-file|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
+
+- 在提交合并到 winget-pkgs 仓库之前验证清单：
+
+`winget validate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/清单</span>

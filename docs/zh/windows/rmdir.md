@@ -1,12 +1,15 @@
 ---
 layout: page
 title: windows/rmdir (中文)
-description: "删除一个目录和其中的内容。"
-content_hash: b57fd29256706985b955c18bea0490ee05b9b93b
-last_modified_at: 2023-11-12
+description: "删除目录及其内容。"
+content_hash: a6d96421baa73f532024f99c95218b8742623798
+last_modified_at: 2024-12-10
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/rmdir.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/rmdir.html
@@ -24,17 +27,22 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># rmdir
 
-删除一个目录和其中的内容。
+删除目录及其内容。
+在 PowerShell 中，此命令是 `Remove-Item` 的别名。此文档基于 `cmd` 版本的 `rmdir`。
 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+
+- 查看等效的 PowerShell 命令的文档：
+
+`tldr remove-item`
 
 - 删除一个空目录：
 
-`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录的路径</span>
+`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径\到\目录</span>
 
-- 递归删除一个目录及其中的内容：
+- 递归删除目录及其内容：
 
-`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录的路径</span>` /s`
+`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径\到\目录</span>` /s`
 
-- 在没有提示的情况下递归删除目录及其内容：
+- 递归删除目录及其内容，无需提示：
 
-`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` /s /q`
+`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径\到\目录</span>` /s /q`
