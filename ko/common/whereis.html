@@ -1,0 +1,40 @@
+<h1 id="whereis">whereis</h1>
+
+<p>명령의 바이너리, 소스 및 매뉴얼 페이지 파일을 찾습니다.
+더 많은 정보: <a href="https://manned.org/whereis">https://manned.org/whereis</a>.</p>
+
+<ul>
+  <li>SSH에 대한 바이너리, 소스 및 매뉴얼 페이지 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh</span></p>
+
+<ul>
+  <li>ls에 대한 바이너리 및 매뉴얼 페이지 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -bm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls</span></p>
+
+<ul>
+  <li>gcc의 소스와 Git의 매뉴얼 페이지 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gcc</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/usr/bin/</code>에서만 gcc의 바이너리 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -b -B </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/bin/</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gcc</span></p>
+
+<ul>
+  <li>비정상적인 바이너리 찾기 (시스템에 하나 이상의 바이너리가 있는 경우):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -u *</code></p>
+
+<ul>
+  <li>비정상적인 매뉴얼 항목을 가진 바이너리 찾기 (하나 이상의 매뉴얼이 설치된 경우):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -u -m *</code></p>

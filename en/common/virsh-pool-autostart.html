@@ -1,0 +1,17 @@
+<h1 id="virsh-pool-autostart">virsh pool-autostart</h1>
+
+<p>Enable or disable autostart for a virtual machine storage pool.
+See also: <code class="language-plaintext highlighter-rouge">virsh</code>.
+More information: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>Enable autostart for the storage pool specified by name or UUID (determine using <code class="language-plaintext highlighter-rouge">virsh pool-list</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-autostart --pool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span></p>
+
+<ul>
+  <li>Disable autostart for the storage pool specified by name or UUID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-autostart --pool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span><code class="language-plaintext highlighter-rouge"> --disable</code></p>

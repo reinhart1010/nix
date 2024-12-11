@@ -1,0 +1,53 @@
+<h1 id="ack">ack</h1>
+
+<p>Un tool di ricerca simile a <code class="language-plaintext highlighter-rouge">grep</code>, ottimizzato per programmatori.
+Vedi anche: <code class="language-plaintext highlighter-rouge">rg</code>, che è molto più veloce.
+Maggiori informazioni: <a href="https://beyondgrep.com/documentation">https://beyondgrep.com/documentation</a>.</p>
+
+<ul>
+  <li>Cerca ricorsivamente file contenenti una stringa o un'espressione regolare nella directory corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_ricerca</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Cerca un pattern in modalità case-insensitive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --ignore-case "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_ricerca</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Cerca righe di testo contenenti un pattern, mostrando solo il testo corrispondente e non il resto della riga:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_ricerca</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Limita la ricerca ai file di un tipo specifico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_ricerca</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Non cercare nei file di un tipo specifico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --type no</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_ricerca</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Conta il numero totale di corrispondenze trovate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --count --no-filename "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_ricerca</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Mostra i nomi dei file e il numero di corrispondenze per ogni singolo file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --count --files-with-matches "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_ricerca</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Mostra la lista di tutti i valori che possono essere usati con <code class="language-plaintext highlighter-rouge">--type</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ack --help-types</code></p>

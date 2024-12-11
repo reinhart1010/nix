@@ -1,0 +1,53 @@
+<h1 id="pacman-query">pacman –query</h1>
+
+<p>Narzędzie do zarządzania pakietami w Arch Linuksie.
+Zobacz także: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Więcej informacji: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Wyświetl zainstalowane pakiety i ich wersje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query</code></p>
+
+<ul>
+  <li>Wyświetl tylko pakiety niebędące zależnościami i ich wersje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --explicit</code></p>
+
+<ul>
+  <li>Znajdź, do którego pakietu należy plik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --owns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pliku</span></p>
+
+<ul>
+  <li>Wyświetl informacje o zainstalowanym pakiecie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pakietu</span></p>
+
+<ul>
+  <li>Znajdź pliki należące do pakietu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pakietu</span></p>
+
+<ul>
+  <li>Wyświetl pakiety-sieroty (zainstalowane jako zależności ale nie są już wymagane przez żaden pakiet):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --unrequired --deps --quiet</code></p>
+
+<ul>
+  <li>Wyświetl zainstalowane pakiety, których nie ma w repozytoriach:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --foreign</code></p>
+
+<ul>
+  <li>Wyświetl przestarzałe pakiety:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --upgrades</code></p>

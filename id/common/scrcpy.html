@@ -1,0 +1,46 @@
+<h1 id="scrcpy">scrcpy</h1>
+
+<p>Tampilkan layar and kontrol perangkat Android anda di dalam desktop.
+Informasi lebih lanjut: <a href="https://github.com/Genymobile/scrcpy">https://github.com/Genymobile/scrcpy</a>.</p>
+
+<ul>
+  <li>Tampilkan layar sebuah perangkat yang terhubung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy</code></p>
+
+<ul>
+  <li>Tampilkan layar perangkat tertentu berdasarkan ID atau alamat IP-nya (temukan menggunakan perintah <code class="language-plaintext highlighter-rouge">adb devices</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --serial </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0123456789abcdef|192.168.0.1:5555</span></p>
+
+<ul>
+  <li>Tampilkan layar dalam mode layar penuh / fullscreen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --fullscreen</code></p>
+
+<ul>
+  <li>Putarkan tampilan layar perangkat dalam kelipatan 90 derajat (berlawanan arah jarum jam):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --rotation </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|2|3</span></p>
+
+<ul>
+  <li>Tunjukkan indikator sentuhan pada perangkat fisik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --show-touches</code></p>
+
+<ul>
+  <li>Rekam tampilan layar perangkat ke dalam file video tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --record </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.mp4</span></p>
+
+<ul>
+  <li>Tentukan direktori yang akan digunakan untuk memindahkan file (non-APK) ke dalam perangkat melalui drag-and-drop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrcpy --push-target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>

@@ -1,0 +1,24 @@
+<h1 id="renice">renice</h1>
+
+<p>실행 중인 프로세스의 스케줄링 우선순위/친화도를 변경.
+친화도 값은 -20(프로세스에 가장 유리함)에서 19(프로세스에 가장 불리함)까지.
+같이 보기: <code class="language-plaintext highlighter-rouge">nice</code>.
+더 많은 정보: <a href="https://manned.org/renice">https://manned.org/renice</a>.</p>
+
+<ul>
+  <li>실행 중인 [p]rocess의 우선순위를 증가/감소:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>특정 [u]ser가 소유한 모든 프로세스의 우선순위를 증가/감소:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-4</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|사용자</span></p>
+
+<ul>
+  <li>프로세스 [g]roup에 속한 모든 프로세스의 우선순위를 증가/감소:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_그룹</span></p>

@@ -1,0 +1,46 @@
+<h1 id="argos-translate">argos-translate</h1>
+
+<p>Una biblioteca de traducción local (offline) de código abierto y una herramienta CLI escrita en Python.
+Más información: <a href="https://www.argosopentech.com/">https://www.argosopentech.com/</a>.</p>
+
+<ul>
+  <li>Instala pares de traducción del español al inglés:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argospm install translate-es_en</code></p>
+
+<ul>
+  <li>Traduce un texto del español (<code class="language-plaintext highlighter-rouge">es</code>) al inglés (<code class="language-plaintext highlighter-rouge">en</code>) (Nota: sólo se admiten códigos de dos letras para los idiomas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argos-translate --from-lang es --to-lang en </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">un texto corto</span></p>
+
+<ul>
+  <li>Traduce un archivo de texto del inglés al hindi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.txt</span><code class="language-plaintext highlighter-rouge"> | argos-translate --from-lang en --to-lang hi</code></p>
+
+<ul>
+  <li>Lista todos los pares de traducción instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argospm list</code></p>
+
+<ul>
+  <li>Muestra pares de traducción del inglés que están disponibles para ser instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argospm search --from-lang en</code></p>
+
+<ul>
+  <li>Actualiza pares de paquetes de lenguaje instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argospm update</code></p>
+
+<ul>
+  <li>Traduce de <code class="language-plaintext highlighter-rouge">ar</code> a <code class="language-plaintext highlighter-rouge">ru</code> (Nota: esto requiere que se instalen los pares de traducción <code class="language-plaintext highlighter-rouge">translate-ar_en</code> y <code class="language-plaintext highlighter-rouge">translate-en_ru</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argos-translate --from-lang ar --to-lang ru </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">صورة تساوي أكثر من ألف كلمة</span></p>

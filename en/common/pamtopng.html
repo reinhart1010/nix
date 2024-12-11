@@ -1,0 +1,29 @@
+<h1 id="pamtopng">pamtopng</h1>
+
+<p>Convert a PAM image to PNG.
+See also: <code class="language-plaintext highlighter-rouge">pnmtopng</code>, <code class="language-plaintext highlighter-rouge">pngtopam</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pamtopng.html">https://netpbm.sourceforge.net/doc/pamtopng.html</a>.</p>
+
+<ul>
+  <li>Convert the specified PAM image to PNG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtopng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span></p>
+
+<ul>
+  <li>Mark the specified color as transparent in the output image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtopng -transparent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">color</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span></p>
+
+<ul>
+  <li>Include the text in the specified file as tEXt chunks in the output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtopng -text </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span></p>
+
+<ul>
+  <li>Cause the output file to be interlaced in Adam7 format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtopng -interlace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span></p>

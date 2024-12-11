@@ -1,0 +1,34 @@
+<h1 id="git-describe">git describe</h1>
+
+<p>Give an object a human-readable name based on an available ref.
+More information: <a href="https://git-scm.com/docs/git-describe">https://git-scm.com/docs/git-describe</a>.</p>
+
+<ul>
+  <li>Create a unique name for the current commit (the name contains the most recent annotated tag, the number of additional commits, and the abbreviated commit hash):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe</code></p>
+
+<ul>
+  <li>Create a name with 4 digits for the abbreviated commit hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe --abbrev=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Generate a name with the tag reference path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe --all</code></p>
+
+<ul>
+  <li>Describe a Git tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">v1.0.0</span></p>
+
+<ul>
+  <li>Create a name for the last commit of a given branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>

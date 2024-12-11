@@ -1,0 +1,22 @@
+<h1 id="chattr">chattr</h1>
+
+<p>Change attributes of files or directories.
+More information: <a href="https://manned.org/chattr">https://manned.org/chattr</a>.</p>
+
+<ul>
+  <li>Make a file or directory immutable to changes and deletion, even by superuser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chattr +i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Make a file or directory mutable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chattr -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Recursively make an entire directory and contents immutable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chattr -R +i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

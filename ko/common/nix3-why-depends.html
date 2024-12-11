@@ -1,0 +1,16 @@
+<h1 id="nix-why-depends">nix why-depends</h1>
+
+<p>패키지가 다른 패키지에 의존하는 이유를 보여줍니다.
+더 많은 정보: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html</a>.</p>
+
+<ul>
+  <li>현재 실행 중인 NixOS 시스템이 특정 저장소 경로를 요구하는 이유를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix why-depends </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/run/현재_시스템</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span></p>
+
+<ul>
+  <li>nixpkgs의 패키지가 다른 패키지를 <em>빌드 타임</em> 의존성으로 요구하는 이유를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix why-depends --derivation </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#의존자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#의존성</span></p>

@@ -1,0 +1,29 @@
+<h1 id="netserver">netserver</h1>
+
+<p>네트워크 처리량을 측정하는 벤치마킹 애플리케이션 <code class="language-plaintext highlighter-rouge">netperf</code>의 서버 측 명령.
+같이 보기: <code class="language-plaintext highlighter-rouge">netperf</code>, 클라이언트 측 명령.
+더 많은 정보: <a href="https://manned.org/netserver.1">https://manned.org/netserver.1</a>.</p>
+
+<ul>
+  <li>기본 포트(12865)에서 서버 시작 및 백그라운드로 포크:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netserver</code></p>
+
+<ul>
+  <li>포그라운드에서 서버 시작 및 포크하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netserver -D</code></p>
+
+<ul>
+  <li>포트 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netserver -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>IPv[4] 또는 IPv[6] 강제 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netserver -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span></p>

@@ -1,0 +1,28 @@
+<h1 id="dirb">dirb</h1>
+
+<p>Scan HTTP-based webservers for directories and files.
+More information: <a href="https://dirb.sourceforge.net">https://dirb.sourceforge.net</a>.</p>
+
+<ul>
+  <li>Scan a webserver using the default wordlist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dirb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span></p>
+
+<ul>
+  <li>Scan a webserver using a custom wordlist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dirb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist.txt</span></p>
+
+<ul>
+  <li>Scan a webserver non-recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dirb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span><code class="language-plaintext highlighter-rouge"> -r</code></p>
+
+<ul>
+  <li>Scan a webserver using a specified user-agent and cookie for HTTP-requests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dirb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_agent_string</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cookie_string</span></p>

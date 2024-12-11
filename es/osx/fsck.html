@@ -1,0 +1,29 @@
+<h1 id="fsck">fsck</h1>
+
+<p>Comprueba la integridad de un sistema de archivos o los repara. El sistema de ficheros debe estar desmontado en el momento de ejecutar el comando.
+Es una envoltura que llama a <code class="language-plaintext highlighter-rouge">fsck_hfs</code>, <code class="language-plaintext highlighter-rouge">fsck_apfs</code>, <code class="language-plaintext highlighter-rouge">fsck_msdos</code>, <code class="language-plaintext highlighter-rouge">fsck_exfat</code>, y <code class="language-plaintext highlighter-rouge">fsck_udf</code> según sea necesario.
+Más información: <a href="https://keith.github.io/xcode-man-pages/fsck.8.html">https://keith.github.io/xcode-man-pages/fsck.8.html</a>.</p>
+
+<ul>
+  <li>Comprueba el sistema de ficheros <code class="language-plaintext highlighter-rouge">/dev/sdX</code>, informando de cualquier bloque dañado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsck </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Comprueba el sistema de ficheros <code class="language-plaintext highlighter-rouge">/dev/sdX</code> sólo si está limpio, informando de los bloques dañados y dejando que el usuario elija interactivamente si repara cada uno de ellos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsck -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Comprueba el sistema de archivos <code class="language-plaintext highlighter-rouge">/dev/sdX</code> sólo si está limpio, informando de los bloques dañados y reparándolos automáticamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsck -fy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Comprueba el sistema de archivos <code class="language-plaintext highlighter-rouge">/dev/sdX</code>, informando si se ha desmontado correctamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsck -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>

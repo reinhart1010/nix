@@ -1,0 +1,28 @@
+<h1 id="dropbearkey">dropbearkey</h1>
+
+<p>Generate SSH keys in Dropbear format.
+More information: <a href="https://manned.org/dropbearkey.1">https://manned.org/dropbearkey.1</a>.</p>
+
+<ul>
+  <li>Generate an SSH key of [t]ype ed25519 and write it to key [f]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dropbearkey -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ed25519</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span></p>
+
+<ul>
+  <li>Generate an SSH key of [t]ype ecdsa and write it to key [f]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dropbearkey -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ecdsa</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span></p>
+
+<ul>
+  <li>Generate an SSH key of [t]ype RSA with 4096-bit key [s]ize and write it to key [f]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dropbearkey -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span></p>
+
+<ul>
+  <li>Print the private key fingerprint and public key in key [f]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dropbearkey -y -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span></p>

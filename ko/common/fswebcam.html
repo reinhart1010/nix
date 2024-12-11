@@ -1,0 +1,28 @@
+<h1 id="fswebcam">fswebcam</h1>
+
+<p>작고 간단한 *nix용 웹캠.
+더 많은 정보: <a href="https://www.sanslogic.co.uk/fswebcam">https://www.sanslogic.co.uk/fswebcam</a>.</p>
+
+<ul>
+  <li>사진을 찍음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fswebcam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름</span></p>
+
+<ul>
+  <li>사용자 정의 해상도로 사진 찍기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fswebcam -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">너비</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">높이</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름</span></p>
+
+<ul>
+  <li>선택한 장치에서 사진을 찍음(기본값 <code class="language-plaintext highlighter-rouge">/dev/video0</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fswebcam -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">장치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름</span></p>
+
+<ul>
+  <li>타임스탬프가 있는 사진을 찍음(타임스탬프 문자열은 strftime로 형식화됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fswebcam --timestamp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타임스탬프</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름</span></p>

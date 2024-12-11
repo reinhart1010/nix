@@ -1,0 +1,40 @@
+<h1 id="npm-unstar">npm unstar</h1>
+
+<p>Remove the favorite/star mark from a package.
+More information: <a href="https://docs.npmjs.com/cli/commands/npm-unstar">https://docs.npmjs.com/cli/commands/npm-unstar</a>.</p>
+
+<ul>
+  <li>Unstar a public package from the default registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Unstar a package within a specific scope:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scope</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Unstar a package from a specific registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> --registry=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_url</span></p>
+
+<ul>
+  <li>Unstar a private package that requires authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> --auth-type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">legacy|oauth|web|saml</span></p>
+
+<ul>
+  <li>Unstar a package by providing an OTP for two-factor authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> --otp=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">otp</span></p>
+
+<ul>
+  <li>Unstar a package with a specific logging level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> --loglevel=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">silent|error|warn|notice|http|timing|info|verbose|silly</span></p>

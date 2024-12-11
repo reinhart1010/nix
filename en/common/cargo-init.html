@@ -1,0 +1,35 @@
+<h1 id="cargo-init">cargo init</h1>
+
+<p>Create a new Cargo package.
+Equivalent of <code class="language-plaintext highlighter-rouge">cargo new</code>, but specifying a directory is optional.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-init.html">https://doc.rust-lang.org/cargo/commands/cargo-init.html</a>.</p>
+
+<ul>
+  <li>Initialize a Rust project with a binary target in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init</code></p>
+
+<ul>
+  <li>Initialize a Rust project with a binary target in the specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Initialize a Rust project with a library target in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init --lib</code></p>
+
+<ul>
+  <li>Initialize a version control system repository in the project directory (default: <code class="language-plaintext highlighter-rouge">git</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init --vcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git|hg|pijul|fossil|none</span></p>
+
+<ul>
+  <li>Set the package name (default: directory name):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

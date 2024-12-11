@@ -1,0 +1,47 @@
+<h1 id="dvc-config">dvc config</h1>
+
+<p>Low level command to manage custom configuration options for dvc repositories.
+These configurations can be on project, local, global, or system level.
+More information: <a href="https://dvc.org/doc/command-reference/config">https://dvc.org/doc/command-reference/config</a>.</p>
+
+<ul>
+  <li>Get the name of the default remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc config core.remote</code></p>
+
+<ul>
+  <li>Set the project's default remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc config core.remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span></p>
+
+<ul>
+  <li>Unset the project's default remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc config --unset core.remote</code></p>
+
+<ul>
+  <li>Get the configuration value for a specified key for the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span></p>
+
+<ul>
+  <li>Set the configuration value for a key on a project level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Unset a project level configuration value for a given key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc config --unset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span></p>
+
+<ul>
+  <li>Set a local, global, or system level configuration value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc config --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local|global|system</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>

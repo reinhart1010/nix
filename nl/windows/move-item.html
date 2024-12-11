@@ -1,0 +1,53 @@
+<h1 id="move-item">Move-Item</h1>
+
+<p>Verplaats of hernoem bestanden, mappen, registersleutels en andere PowerShell data items.
+Dit commando kan alleen worden uitgevoerd onder PowerShell.
+Meer informatie: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.management/move-item">https://learn.microsoft.com/powershell/module/microsoft.powershell.management/move-item</a>.</p>
+
+<ul>
+  <li>Hernoem een bestand of map wanneer het doelwit geen bestaande map is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Move-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\doel</span></p>
+
+<ul>
+  <li>Verplaats een bestand of map naar een bestaande map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Move-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestaande_map</span></p>
+
+<ul>
+  <li>Hernoem of verplaats bestand(en) met een specifieke naam (behandel geen speciale karakters in strings):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Move-Item -LiteralPath "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand_of_map</span></p>
+
+<ul>
+  <li>Verplaats meerdere bestanden naar een bestaande map, waardoor de bestandsnamen ongewijzigd blijven:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Move-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron1 , pad\naar\bron2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestaande_map</span></p>
+
+<ul>
+  <li>Verplaats of hernoem registersleutel(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Move-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron_sleutel1 , pad\naar\bron_sleutel2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\nieuwe_of_bestaande_sleutel</span></p>
+
+<ul>
+  <li>Vraag niet om bevestiging voordat bestaande bestanden of registersleutels worden overschreven:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv -Force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\doel</span></p>
+
+<ul>
+  <li>Vraag om bevestiging voordat bestaande bestanden worden overschreven, ongeacht bestandsrechten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv -Confirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\doel</span></p>
+
+<ul>
+  <li>Verplaats bestanden in de dry-run-modus en toon bestanden en mappen die kunnen worden verplaatst zonder ze uit te voeren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv -WhatIf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\doel</span></p>

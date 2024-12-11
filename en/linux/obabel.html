@@ -1,0 +1,28 @@
+<h1 id="obabel">obabel</h1>
+
+<p>Translate chemistry-related data.
+More information: <a href="https://open-babel.readthedocs.io/en/latest/Command-line_tools/babel.html">https://open-babel.readthedocs.io/en/latest/Command-line_tools/babel.html</a>.</p>
+
+<ul>
+  <li>Convert a .mol file to XYZ coordinates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">obabel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mol</span><code class="language-plaintext highlighter-rouge"> -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.xyz</span></p>
+
+<ul>
+  <li>Convert a SMILES string to a 500x500 picture:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">obabel -:"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SMILES</span><code class="language-plaintext highlighter-rouge">" -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.png</span><code class="language-plaintext highlighter-rouge"> -xp 500</code></p>
+
+<ul>
+  <li>Convert a file of SMILES string to separate 3D .mol files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">obabel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.smi</span><code class="language-plaintext highlighter-rouge"> -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.mol</span><code class="language-plaintext highlighter-rouge"> --gen3D -m</code></p>
+
+<ul>
+  <li>Render multiple inputs into one picture:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">obabel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span><code class="language-plaintext highlighter-rouge"> -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.png</span></p>

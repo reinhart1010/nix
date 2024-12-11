@@ -1,0 +1,52 @@
+<h1 id="nl">nl</h1>
+
+<p>Voorzie regels van een nummer uit een bestand of van <code class="language-plaintext highlighter-rouge">stdin</code>.
+Meer informatie: <a href="https://manned.org/nl.1p">https://manned.org/nl.1p</a>.</p>
+
+<ul>
+  <li>Voorzie niet-lege regels in een bestand van een nummer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Lees van <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | nl -</code></p>
+
+<ul>
+  <li>Nummer [a]lle [b]ody regels inclusief lege regels of [n]ummer geen [b]ody regels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Nummer alleen de [b]ody regels die overeenkomen met een basis reguliere expressie (BRE) [p]atroon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -b p'FooBar[0-9]' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Gebruik een specifieke [i]ncrement voor regelnummering:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">increment</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Specificeer het nummeringsformaat voor regels: [r]echts of [l]inks uitgelijnd, met of zonder voorloopnullen ([z]eros):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rz|ln|rn</span></p>
+
+<ul>
+  <li>Specificeer de breedte ([w]) van de nummering (standaard is 6):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">col_width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Gebruik een specifieke string om de regelnummers van de regels te [s]cheiden (standaard is TAB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">separator</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

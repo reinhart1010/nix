@@ -1,0 +1,44 @@
+<h1 id="vboxmanage-export">vboxmanage-export</h1>
+
+<p>Export virtual machines to a virtual appliance (ISO) or a cloud service.
+More information: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-export">https://www.virtualbox.org/manual/ch08.html#vboxmanage-export</a>.</p>
+
+<ul>
+  <li>Specify the target OVA file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage export --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.ova</span></p>
+
+<ul>
+  <li>Export in OVF 0.9 legacy mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage export --legacy09</code></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Export in OVF (0.9</td>
+          <td>1.0</td>
+          <td>2.0) format:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage export --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ovf09|ovf10|ovf20</span></p>
+
+<ul>
+  <li>Create manifest of the exported files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage export --manifest</code></p>
+
+<ul>
+  <li>Specify a description of the VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage export --description "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_description</span><code class="language-plaintext highlighter-rouge">"</code></p>

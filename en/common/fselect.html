@@ -1,0 +1,34 @@
+<h1 id="fselect">fselect</h1>
+
+<p>Find files with SQL-like queries.
+More information: <a href="https://github.com/jhspetersson/fselect">https://github.com/jhspetersson/fselect</a>.</p>
+
+<ul>
+  <li>Select full path and size from temporary or configuration files in a given directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fselect size, path from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> where name = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'*.cfg'</span><code class="language-plaintext highlighter-rouge"> or name = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'*.tmp'</span></p>
+
+<ul>
+  <li>Find square images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fselect path from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> where width = height</code></p>
+
+<ul>
+  <li>Find old-school rap 320kbps MP3 files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fselect path from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> where genre = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Rap</span><code class="language-plaintext highlighter-rouge"> and bitrate = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">320</span><code class="language-plaintext highlighter-rouge"> and mp3_year lt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2000</span></p>
+
+<ul>
+  <li>Select only the first 5 results and output as JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fselect size, path from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> into json</code></p>
+
+<ul>
+  <li>Use SQL aggregate functions to calculate minimum, maximum and average size of files in a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fselect "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MIN(size), MAX(size), AVG(size), SUM(size), COUNT(*)</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge">"</code></p>

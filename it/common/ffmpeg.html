@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="ffmpeg">ffmpeg</h1>
+
+<p>Tool per convertire audio e video.
+Maggiori informazioni: <a href="https://ffmpeg.org">https://ffmpeg.org</a>.</p>
+
+<ul>
+  <li>Estrai l'audio da un video e salvalo come MP3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/video.mp4</span><code class="language-plaintext highlighter-rouge"> -vn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/audio</span><code class="language-plaintext highlighter-rouge">.mp3</code></p>
+
+<ul>
+  <li>Sequenzia immagini numerate (<code class="language-plaintext highlighter-rouge">foto_1.jpg</code>, <code class="language-plaintext highlighter-rouge">foto_2.jpg</code>, ecc) per creare un video o una GIF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/frame_%d.jpg</span><code class="language-plaintext highlighter-rouge"> -f image2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video.mpg|video.gif</span></p>
+
+<ul>
+  <li>Estrai un singolo fotogramma da un video al timestamp mm:ss e salvalo come immagine di dimensioni 128x128:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -ss </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm:ss</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/video.mp4</span><code class="language-plaintext highlighter-rouge"> -frames 1 -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">128x128</span><code class="language-plaintext highlighter-rouge"> -f image2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/image.png</span></p>
+
+<ul>
+  <li>Taglia un video da un momento iniziale mm:ss a un momento finale mm:ss (rimuovi la flag -to per tagliare fino alla fine):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -ss </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm:ss</span><code class="language-plaintext highlighter-rouge"> -to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm2:ss2</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/video.mp4</span><code class="language-plaintext highlighter-rouge"> -codec copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/output.mp4</span></p>
+
+<ul>
+  <li>Converti un video AVI a MP4. Audio AAC a 128kbit, video h264 a CRF 23:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/input_video</span><code class="language-plaintext highlighter-rouge">.avi -codec:a aac -b:a 128k -codec:v libx264 -crf 23 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/output_video</span><code class="language-plaintext highlighter-rouge">.mp4</code></p>
+
+<ul>
+  <li>Effettua un remux di un video MKV a MP4 senza re-encodare gli stream audio o video:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i {percorso/del/{input_video&lt;/span&gt;</code>.mkv -codec copy <code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;percorso/del/output_video&lt;/span&gt;</code>.mp4`</p>
+
+<ul>
+  <li>Converti un video MP4 a codec VP9. Per ottenere la migliore qualità possibile, usa un valore di CRF (consigliabile tra 15-35) e -b:v DEVE essere 0:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/input_video</span><code class="language-plaintext highlighter-rouge">.mp4 -codec:v libvpx-vp9 -crf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span><code class="language-plaintext highlighter-rouge"> -b:v 0 -codec:a libopus -vbr on -threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_threads</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/output_video</span><code class="language-plaintext highlighter-rouge">.webm</code></p>

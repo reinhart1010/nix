@@ -1,0 +1,34 @@
+<h1 id="aspell">aspell</h1>
+
+<p>Интерактивная проверка орфографии.
+Больше информации: <a href="http://aspell.net/">http://aspell.net/</a>.</p>
+
+<ul>
+  <li>Проверить орфографию в одном файле:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>
+
+<ul>
+  <li>Вывести список неверно написанных слов из стандартного ввода:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл</span><code class="language-plaintext highlighter-rouge"> | aspell list</code></p>
+
+<ul>
+  <li>Показать доступные словари:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell dicts</code></p>
+
+<ul>
+  <li>Запустить <code class="language-plaintext highlighter-rouge">aspell</code> с использованием другого языка (двухсимвольный код согласно ISO 639):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell --lang=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span></p>
+
+<ul>
+  <li>Вывести список неверно написанных слов из стандартного ввода, игнорируя слова из персонального списка:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл</span><code class="language-plaintext highlighter-rouge"> | aspell --personal=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">персональный_список_слов.pws</span><code class="language-plaintext highlighter-rouge"> list</code></p>

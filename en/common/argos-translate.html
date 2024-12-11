@@ -1,0 +1,46 @@
+<h1 id="argos-translate">argos-translate</h1>
+
+<p>An open-source offline translation library and CLI tool written in Python.
+More information: <a href="https://www.argosopentech.com/">https://www.argosopentech.com/</a>.</p>
+
+<ul>
+  <li>Install translation pairs for Spanish to English translation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argospm install translate-es_en</code></p>
+
+<ul>
+  <li>Translate some text from Spanish (<code class="language-plaintext highlighter-rouge">es</code>) to English (<code class="language-plaintext highlighter-rouge">en</code>) (Note: only two letter language codes are supported):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argos-translate --from-lang es --to-lang en </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">un texto corto</span></p>
+
+<ul>
+  <li>Translate a text file from English to Hindi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span><code class="language-plaintext highlighter-rouge"> | argos-translate --from-lang en --to-lang hi</code></p>
+
+<ul>
+  <li>List all installed translation pairs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argospm list</code></p>
+
+<ul>
+  <li>Show translation pairs from English that are available to be installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argospm search --from-lang en</code></p>
+
+<ul>
+  <li>Update installed language package pairs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argospm update</code></p>
+
+<ul>
+  <li>Translate from <code class="language-plaintext highlighter-rouge">ar</code> to <code class="language-plaintext highlighter-rouge">ru</code> (Note: this requires the translation pairs <code class="language-plaintext highlighter-rouge">translate-ar_en</code> and <code class="language-plaintext highlighter-rouge">translate-en_ru</code> to be installed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argos-translate --from-lang ar --to-lang ru </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">صورة تساوي أكثر من ألف كلمة</span></p>

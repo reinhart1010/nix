@@ -1,0 +1,29 @@
+<h1 id="dunstify">dunstify</h1>
+
+<p>Uma ferramenta de notificação que é uma extensão do <code class="language-plaintext highlighter-rouge">notify-send</code>, mas com mais funcionalidades baseadas em <code class="language-plaintext highlighter-rouge">dunst</code>.
+Aceita todas as opções do <code class="language-plaintext highlighter-rouge">notify-send</code>.
+Mais informações: <a href="https://github.com/dunst-project/dunst/wiki/Guides">https://github.com/dunst-project/dunst/wiki/Guides</a>.</p>
+
+<ul>
+  <li>Mostra uma notificação com um dado título e mensagem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dunstify "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Título</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Mensagem</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Mostra uma notificação com uma urgência específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dunstify "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Título</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Mensagem</span><code class="language-plaintext highlighter-rouge">" -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">low|normal|critical</span></p>
+
+<ul>
+  <li>Especifica um ID para a mensagem (sobrescreve qualquer mensagem anterior com o mesmo ID):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dunstify "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Título</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Mensagem</span><code class="language-plaintext highlighter-rouge">" -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">123</span></p>
+
+<ul>
+  <li>Mostra opções de ajuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dunstify --help</code></p>

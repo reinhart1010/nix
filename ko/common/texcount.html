@@ -1,0 +1,35 @@
+<h1 id="texcount">texcount</h1>
+
+<p>TeX 문서에서 매크로를 제외하고 단어 수를 세기.
+참고: TeX 문서가 <code class="language-plaintext highlighter-rouge">\include</code> 또는 <code class="language-plaintext highlighter-rouge">\input</code>을 사용하고 포함된 파일을 세려면, <code class="language-plaintext highlighter-rouge">texcount</code>를 루트 TeX 파일이 있는 디렉토리에서 실행해야 합니다.
+더 많은 정보: <a href="https://app.uio.no/ifi/texcount/howto.html">https://app.uio.no/ifi/texcount/howto.html</a>.</p>
+
+<ul>
+  <li>TeX 파일의 단어 수 세기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">texcount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tex</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">\input</code> 또는 <code class="language-plaintext highlighter-rouge">\include</code>로 구성된 문서 및 하위 문서의 단어 수 세기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">texcount -merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.tex</span></p>
+
+<ul>
+  <li>문서 및 하위 문서의 단어 수를 세고 각 파일을 별도로 나열 (총 단어 수 포함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">texcount -inc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.tex</span></p>
+
+<ul>
+  <li>문서 및 하위 문서의 단어 수를 세고 각 챕터별로 세부 카운트 제공 (하위 섹션 대신):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">texcount -merge -sub=chapter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.tex</span></p>
+
+<ul>
+  <li>자세한 출력과 함께 단어 수 세기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">texcount -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tex</span></p>

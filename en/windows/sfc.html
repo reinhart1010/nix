@@ -1,0 +1,46 @@
+<h1 id="sfc">sfc</h1>
+
+<p>Scans the integrity of Windows system files.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/sfc">https://learn.microsoft.com/windows-server/administration/windows-commands/sfc</a>.</p>
+
+<ul>
+  <li>Display information about the usage of the command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfc</code></p>
+
+<ul>
+  <li>Scan all system files and, if possible, repair any problems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfc /scannow</code></p>
+
+<ul>
+  <li>Scan all system files without attempting to repair any:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfc /verifyonly</code></p>
+
+<ul>
+  <li>Scan a specific file and, if possible, repair any problems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfc /scanfile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span></p>
+
+<ul>
+  <li>Scan a specific file without attempting to repair it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfc /verifyfile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span></p>
+
+<ul>
+  <li>When repairing offline, specify the boot directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfc /offbootdir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span></p>
+
+<ul>
+  <li>When repairing offline, specify the Windows directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sfc /offwindir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span></p>

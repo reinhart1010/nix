@@ -1,0 +1,53 @@
+<h1 id="cargo">cargo</h1>
+
+<p>Gestiona proyectos Rust y sus dependencias de módulos (crates).
+Algunos subcomandos como <code class="language-plaintext highlighter-rouge">build</code> tienen su propia documentación de uso.
+Más información: <a href="https://doc.rust-lang.org/cargo">https://doc.rust-lang.org/cargo</a>.</p>
+
+<ul>
+  <li>Busca crates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_de_busqueda</span></p>
+
+<ul>
+  <li>Instala un crate binario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_crate</span></p>
+
+<ul>
+  <li>Lista los crates binarios instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install --list</code></p>
+
+<ul>
+  <li>Crea un nuevo proyecto Rust binario o de biblioteca en el directorio especificado (o en el directorio de trabajo actual por defecto):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Añade una dependencia a <code class="language-plaintext highlighter-rouge">Cargo.toml</code> en el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependencia</span></p>
+
+<ul>
+  <li>Construye el proyecto Rust en el directorio actual utilizando el perfil de lanzamiento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --release</code></p>
+
+<ul>
+  <li>Construye el proyecto Rust en el directorio actual utilizando el compilador nightly (requiere <code class="language-plaintext highlighter-rouge">rustup</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo +nightly build</code></p>
+
+<ul>
+  <li>Construye usando un número específico de hilos (por defecto es el número de CPUs lógicas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_de_hilos</span></p>

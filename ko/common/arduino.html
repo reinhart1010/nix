@@ -1,0 +1,52 @@
+<h1 id="arduino">arduino</h1>
+
+<p>Arduino Studio - Arduino 플랫폼을 위한 통합 개발 환경.
+더 많은 정보: <a href="https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc">https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc</a>.</p>
+
+<ul>
+  <li>스케치 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ino</span></p>
+
+<ul>
+  <li>스케치를 작성하고 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ino</span></p>
+
+<ul>
+  <li>Atmega328p CPU가 장착된 Arduino Nano에 스케치를 빌드하고 업로드, 포트 <code class="language-plaintext highlighter-rouge">/dev/ttyACM0</code>에 연결됨:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --board </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arduino:avr:nano:cpu=atmega328p</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyACM0</span><code class="language-plaintext highlighter-rouge"> --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ino</span></p>
+
+<ul>
+  <li>환경 설정 <code class="language-plaintext highlighter-rouge">name</code>을 주어진 <code class="language-plaintext highlighter-rouge">value</code>로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --pref </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>스케치를 빌드하고 빌드 결과를 빌드 디렉터리에 넣고, 해당 디렉토리에 있는 이전 빌드 결과를 재사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --pref build.path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/빌드_디렉터리</span><code class="language-plaintext highlighter-rouge"> --verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ino</span></p>
+
+<ul>
+  <li>(변경된) 기본 설정을 <code class="language-plaintext highlighter-rouge">preferences.txt</code>에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --save-prefs</code></p>
+
+<ul>
+  <li>최신 SAM 보드 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --install-boards "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arduino:sam</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Bridge 및 Servo 라이브러리 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --install-library "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Bridge:1.0.0,Servo:1.2.0</span><code class="language-plaintext highlighter-rouge">"</code></p>

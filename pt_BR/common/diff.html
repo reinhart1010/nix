@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="diff">diff</h1>
+
+<p>Compara diretórios e arquivos.
+Mais informações: <a href="https://manned.org/diff">https://manned.org/diff</a>.</p>
+
+<ul>
+  <li>Compara arquivos (mostra as mudanças necessárias para transformar <code class="language-plaintext highlighter-rouge">arquivo_antigo</code> em <code class="language-plaintext highlighter-rouge">arquivo_novo</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_antigo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_novo</span></p>
+
+<ul>
+  <li>Compara arquivos, ignorando espaço:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --ignore-all-space </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_antigo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_novo</span></p>
+
+<ul>
+  <li>Compara arquivos, mostrando diferenças lado a lado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --side-by-side </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_antigo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_novo</span></p>
+
+<ul>
+  <li>Compara arquivos, mostrando as diferenças de forma padronizada como feito por <code class="language-plaintext highlighter-rouge">git diff</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --unified </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_antigo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_novo</span></p>
+
+<ul>
+  <li>Compara diretórios recursivamente, mostrando nomes de diretórios e arquivos diferentes e listando as diferenças entre os arquivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_antigo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_novo</span></p>
+
+<ul>
+  <li>Compara diretórios, mostrando apenas os nomes dos arquivos diferentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --recursive --brief </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_antigo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_novo</span></p>
+
+<ul>
+  <li>Cria um arquivo patch para o Git a partir das diferenças entre dois arquivos, tratando arquivos ausentes como vazios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --text --unified --new-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_antigo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_novo</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diferenca.patch</span></p>

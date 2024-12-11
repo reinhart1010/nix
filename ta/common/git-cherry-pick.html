@@ -1,0 +1,29 @@
+<h1 id="git-cherry-pick">git cherry-pick</h1>
+
+<p>தற்போதுள்ள கமிட்டுகளால் அறிமுகப்படுத்தப்பட்ட மாற்றங்களை தற்போதைய கிளையில் பயன்படுத்துங்கள்.
+மற்றொரு கிளையில் மாற்றங்களைப் பயன்படுத்த, முதலில் விரும்பிய கிளைக்கு மாற <code class="language-plaintext highlighter-rouge">git checkout</code> ஐப் பயன்படுத்தவும்.
+மேலும் விவரத்திற்கு: <a href="https://git-scm.com/docs/git-cherry-pick">https://git-scm.com/docs/git-cherry-pick</a>.</p>
+
+<ul>
+  <li>தற்போதைய கிளைக்கு ஒரு கமிட்டை பயன்படுத்துங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்</span></p>
+
+<ul>
+  <li>தற்போதைய கிளையில் பலவிதமான கமிட்டுகளைப் பயன்படுத்துங்கள் (மேலும் <code class="language-plaintext highlighter-rouge">git rebase --onto</code> பார்க்கவும் ):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொடக்க_கமிட்</span><code class="language-plaintext highlighter-rouge">~..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முடிவு_கமிட்</span></p>
+
+<ul>
+  <li>தற்போதைய கிளைக்கு பல (வரிசை அல்லாத) கமிட்டுகளைப் பயன்படுத்துங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்_1 கமிட்_2 …</span></p>
+
+<ul>
+  <li>ஒரு கமிட்டை உருவாக்காமல், பணிபுரியும் கோப்பகத்தில் ஒரு கமிட்டின் மாற்றங்களைச் சேர்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick --no-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்</span></p>

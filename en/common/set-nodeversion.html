@@ -1,0 +1,29 @@
+<h1 id="set-nodeversion">Set-NodeVersion</h1>
+
+<p>Set the default Node.js version for <code class="language-plaintext highlighter-rouge">ps-nvm</code>.
+Part of <code class="language-plaintext highlighter-rouge">ps-nvm</code> and can only be run under PowerShell.
+More information: <a href="https://github.com/aaronpowell/ps-nvm">https://github.com/aaronpowell/ps-nvm</a>.</p>
+
+<ul>
+  <li>Use a specific version of Node.js in the current PowerShell session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_version</span></p>
+
+<ul>
+  <li>Use the latest installed Node.js version 20.x:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion ^20</code></p>
+
+<ul>
+  <li>Set the default Node.js version for the current user (only applies to future PowerShell sessions):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_version</span><code class="language-plaintext highlighter-rouge"> -Persist User</code></p>
+
+<ul>
+  <li>Set the default Node.js version for all users (must be run as Administrator/root and only applies to future PowerShell sessions):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_version</span><code class="language-plaintext highlighter-rouge"> -Persist Machine</code></p>

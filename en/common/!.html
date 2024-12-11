@@ -1,0 +1,52 @@
+<h1 id="exclamation-mark">Exclamation mark</h1>
+
+<p>Bash builtin to substitute with a command found in history.
+More information: <a href="https://gnu.org/software/bash/manual/bash.html#Event-Designators">https://gnu.org/software/bash/manual/bash.html#Event-Designators</a>.</p>
+
+<ul>
+  <li>Substitute with the previous command and run it with <code class="language-plaintext highlighter-rouge">sudo</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>Substitute with a command based on its line number found with <code class="language-plaintext highlighter-rouge">history</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span></p>
+
+<ul>
+  <li>Substitute with a command that was used a specified number of lines back:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span></p>
+
+<ul>
+  <li>Substitute with the most recent command that starts with a string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span></p>
+
+<ul>
+  <li>Substitute with the arguments of the latest command:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> !*</code></p>
+
+<ul>
+  <li>Substitute with the last argument of the latest command:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> !$</code></p>
+
+<ul>
+  <li>Substitute with the last command but without the last argument:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!:-</code></p>
+
+<ul>
+  <li>Print last command that starts with a string without executing it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">:p</code></p>

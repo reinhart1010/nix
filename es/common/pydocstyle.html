@@ -1,0 +1,46 @@
+<h1 id="pydocstyle">pydocstyle</h1>
+
+<p>Comprueba estáticamente que los scripts de Python cumplen con las convenciones de documentación de Python.
+Más información: <a href="https://www.pydocstyle.org/en/latest/">https://www.pydocstyle.org/en/latest/</a>.</p>
+
+<ul>
+  <li>Analiza un script de Python o todos los scripts de Python en un directorio específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pydocstyle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.py|ruta/al/directorio</span></p>
+
+<ul>
+  <li>Muestra una explicación de cada error:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pydocstyle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|–explain</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.py|ruta/al/directorio</span></p>
+
+<ul>
+  <li>Muestra información de depuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pydocstyle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–debug</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.py|ruta/al/directorio</span></p>
+
+<ul>
+  <li>Muestra el número total de errores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pydocstyle --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.py|ruta/a/directorio</span></p>
+
+<ul>
+  <li>Utiliza un archivo de configuración específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pydocstyle --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_config</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.py|ruta/al/directorio</span></p>
+
+<ul>
+  <li>Ignora uno o más errores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pydocstyle --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">D101,D2,D107,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.py|ruta/al/directorio</span></p>
+
+<ul>
+  <li>Busca errores de una convención específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pydocstyle --convention </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pep257|numpy|google</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.py|ruta/a/directorio</span></p>

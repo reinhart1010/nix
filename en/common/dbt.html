@@ -1,0 +1,46 @@
+<h1 id="dbt">dbt</h1>
+
+<p>A tool to model transformations in data warehouses.
+More information: <a href="https://github.com/dbt-labs/dbt-core">https://github.com/dbt-labs/dbt-core</a>.</p>
+
+<ul>
+  <li>Debug the dbt project and the connection to the database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbt debug</code></p>
+
+<ul>
+  <li>Run all models of the project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbt run</code></p>
+
+<ul>
+  <li>Run all tests of <code class="language-plaintext highlighter-rouge">example_model</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbt test --select example_model</code></p>
+
+<ul>
+  <li>Build (load seeds, run models, snapshots, and tests associated with) <code class="language-plaintext highlighter-rouge">example_model</code> and its downstream dependents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbt build --select example_model+</code></p>
+
+<ul>
+  <li>Build all models, except the ones with the tag <code class="language-plaintext highlighter-rouge">not_now</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbt build --exclude "tag:not_now"</code></p>
+
+<ul>
+  <li>Build all models with tags <code class="language-plaintext highlighter-rouge">one</code> and <code class="language-plaintext highlighter-rouge">two</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbt build --select "tag:one,tag:two"</code></p>
+
+<ul>
+  <li>Build all models with tags <code class="language-plaintext highlighter-rouge">one</code> or <code class="language-plaintext highlighter-rouge">two</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbt build --select "tag:one tag:two"</code></p>

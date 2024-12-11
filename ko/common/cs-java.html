@@ -1,0 +1,46 @@
+<h1 id="cs-java">cs java</h1>
+
+<p><code class="language-plaintext highlighter-rouge">java</code> 및 <code class="language-plaintext highlighter-rouge">java-home</code> 명령은 JVM을 가져오고 설치. <code class="language-plaintext highlighter-rouge">java</code> 명령으로도 설치됨.
+더 많은 정보: <a href="https://get-coursier.io/docs/cli-java">https://get-coursier.io/docs/cli-java</a>.</p>
+
+<ul>
+  <li>coursier를 사용하여 Java 버전 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java -version</code></p>
+
+<ul>
+  <li>coursier를 사용하여 사용자 정의 속성으로 특정 Java 버전을 호출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java --jvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_버전</span><code class="language-plaintext highlighter-rouge"> -Xmx32m -X</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">다른_jvm_옵션</span><code class="language-plaintext highlighter-rouge"> -jar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/jar_이름.jar</span></p>
+
+<ul>
+  <li>coursier 기본 인덱스에 사용 가능한 모든 JVM을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java --available</code></p>
+
+<ul>
+  <li>시스템에 설치된 모든 JVM을 자신의 위치와 함께 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java --installed</code></p>
+
+<ul>
+  <li>특정 JVM을 셸 인스턴스의 일회성 기본값으로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java --jvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_버전</span><code class="language-plaintext highlighter-rouge"> --env</code></p>
+
+<ul>
+  <li>기본 JVM 설정에 대한 변경 사항을 되돌림:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eval "$(cs java --disable)"</code></p>
+
+<ul>
+  <li>특정 JVM을 전체 시스템의 기본값으로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java --jvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_버전</span><code class="language-plaintext highlighter-rouge"> --setup</code></p>

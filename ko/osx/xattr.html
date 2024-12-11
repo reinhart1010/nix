@@ -1,0 +1,34 @@
+<h1 id="xattr">xattr</h1>
+
+<p>확장 파일 시스템 속성을 다루는 유틸리티.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/xattr.1.html">https://keith.github.io/xcode-man-pages/xattr.1.html</a>.</p>
+
+<ul>
+  <li>주어진 파일의 key:value 확장 속성 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일</span></p>
+
+<ul>
+  <li>주어진 파일에 속성 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">속성_키</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">속성_값</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일</span></p>
+
+<ul>
+  <li>주어진 파일에서 속성 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.quarantine</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일</span></p>
+
+<ul>
+  <li>주어진 파일에서 모든 확장 속성 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일</span></p>
+
+<ul>
+  <li>주어진 폴더에서 속성을 재귀적으로 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -rd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">속성_키</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">폴더</span></p>

@@ -1,0 +1,40 @@
+<h1 id="nvram">nvram</h1>
+
+<p>Manipulate firmware variables.
+More information: <a href="https://keith.github.io/xcode-man-pages/nvram.8.html">https://keith.github.io/xcode-man-pages/nvram.8.html</a>.</p>
+
+<ul>
+  <li>[p]rint all the variables stored in the NVRAM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvram -p</code></p>
+
+<ul>
+  <li>[p]rint all the variables stored in the NVRAM using [x]ML format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvram -xp</code></p>
+
+<ul>
+  <li>Modify the value of a firmware variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nvram </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>[d]elete a firmware variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nvram -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>[c]lear all the firmware variables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nvram -c</code></p>
+
+<ul>
+  <li>Set a firmware variable from a specific [x]ML [f]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nvram -xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.xml</span></p>

@@ -1,0 +1,34 @@
+<h1 id="meshlabserver">meshlabserver</h1>
+
+<p>Command-line interface for the MeshLab 3D mesh processing software.
+More information: <a href="https://manned.org/meshlabserver">https://manned.org/meshlabserver</a>.</p>
+
+<ul>
+  <li>Convert an STL file to an OBJ file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">meshlabserver -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.stl</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.obj</span></p>
+
+<ul>
+  <li>Convert a WRL file to a OFF file, including the vertex and face normals in the output mesh:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">meshlabserver -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.wrl</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.off</span><code class="language-plaintext highlighter-rouge"> -om vn fn</code></p>
+
+<ul>
+  <li>Dump a list of all the available processing filters into a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">meshlabserver -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Process a 3D file using a filter script created in the MeshLab GUI (Filters &gt; Show current filter script &gt; Save Script):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">meshlabserver -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.ply</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.ply</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter_script.mlx</span></p>
+
+<ul>
+  <li>Process a 3D file using a filter script, writing the output of the filters into a log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">meshlabserver -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.x3d</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.x3d</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter_script.mlx</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logfile</span></p>

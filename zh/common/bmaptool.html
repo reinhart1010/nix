@@ -1,0 +1,28 @@
+<h1 id="bmaptool">bmaptool</h1>
+
+<p>便捷地创建或复制块文件映射（被设计的比<code class="language-plaintext highlighter-rouge">cp</code>或<code class="language-plaintext highlighter-rouge">dd</code>更快）。
+更多信息：<a href="https://source.tizen.org/documentation/reference/bmaptool">https://source.tizen.org/documentation/reference/bmaptool</a>.</p>
+
+<ul>
+  <li>使用图片生成块图文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blockmap 格式文件.bmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">图片文件</span></p>
+
+<ul>
+  <li>复制图片到指定目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool copy --bmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blockmap 格式文件</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">图片文件</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/开发路径/sdb</span></p>
+
+<ul>
+  <li>复制压缩后的图片到指定目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool copy --bmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blockmap 格式文件</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">图片文件.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/开发路径/sdb</span></p>
+
+<ul>
+  <li>复制图片的时候，不将图片转成块图：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool copy --nobmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">图片文件</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/开发路径/sdb</span></p>

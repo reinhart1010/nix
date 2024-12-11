@@ -1,0 +1,22 @@
+<h1 id="blkdiscard">blkdiscard</h1>
+
+<p>丢弃存储设备上的设备扇区。对 SSD 有用。
+更多信息：<a href="https://manned.org/blkdiscard">https://manned.org/blkdiscard</a>.</p>
+
+<ul>
+  <li>丢弃设备上的所有扇区，删除所有数据：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blkdiscard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/设备名</span></p>
+
+<ul>
+  <li>安全地丢弃设备上的所有块，删除所有数据：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blkdiscard --secure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/设备名</span></p>
+
+<ul>
+  <li>丢弃设备的前 100 MB：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blkdiscard --length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100MB</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/设备名</span></p>

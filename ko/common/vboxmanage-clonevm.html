@@ -1,0 +1,28 @@
+<h1 id="vboxmanage-clonevm">vboxmanage-clonevm</h1>
+
+<p>기존 가상 머신(VM)의 복제본 생성.
+더 많은 정보: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-clonevm">https://www.virtualbox.org/manual/ch08.html#vboxmanage-clonevm</a>.</p>
+
+<ul>
+  <li>지정된 VM 복제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage clonevm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름</span></p>
+
+<ul>
+  <li>새로운 VM에 대한 새 이름 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage clonevm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_vm_이름</span></p>
+
+<ul>
+  <li>새 VM 구성 파일이 저장될 폴더 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage clonevm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름</span><code class="language-plaintext highlighter-rouge"> --basefolder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>VirtualBox에 복제된 VM 등록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage clonevm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름</span><code class="language-plaintext highlighter-rouge"> --register</code></p>

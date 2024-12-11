@@ -1,0 +1,52 @@
+<h1 id="pngquant">pngquant</h1>
+
+<p>PNG converter and lossy image compressor.
+More information: <a href="https://pngquant.org/">https://pngquant.org/</a>.</p>
+
+<ul>
+  <li>Compress a specific PNG as much as possible and write result to a new file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngquant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Compress a specific PNG and override original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngquant --ext .png --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Try to compress a specific PNG with custom quality (skip if below the min value):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngquant --quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0-100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Compress a specific PNG with the number of colors reduced to 64:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngquant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">64</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Compress a specific PNG and skip if the file is larger than the original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngquant --skip-if-larger </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Compress a specific PNG and remove metadata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngquant --strip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Compress a specific PNG and save it to the given path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngquant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Compress a specific PNG and show progress:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngquant --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>

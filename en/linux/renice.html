@@ -1,0 +1,24 @@
+<h1 id="renice">renice</h1>
+
+<p>Alter the scheduling priority/niceness of running processes.
+Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process).
+See also: <code class="language-plaintext highlighter-rouge">nice</code>.
+More information: <a href="https://manned.org/renice">https://manned.org/renice</a>.</p>
+
+<ul>
+  <li>Set the absolute priority of a running [p]rocess:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+3</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Increase/decrease the priority of all processes owned by a [u]ser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice --relative </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-4</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|user</span></p>
+
+<ul>
+  <li>Set the priority of all processes that belong to a process [g]roup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice --absolute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_group</span></p>

@@ -1,0 +1,29 @@
+<h1 id="envsubst">envsubst</h1>
+
+<p>환경변수를 쉘 형식 문자열의 값으로 대체.
+교체할 변수는 <code class="language-plaintext highlighter-rouge">${var}</code> 또는 <code class="language-plaintext highlighter-rouge">$var</code> 형식이어야 함.
+더 많은 정보: <a href="https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html">https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>의 환경 변수를 바꾸고 <code class="language-plaintext highlighter-rouge">stdout</code>으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$HOME</span><code class="language-plaintext highlighter-rouge">' | envsubst</code></p>
+
+<ul>
+  <li>입력 파일의 환경 변수를 바꾸고 <code class="language-plaintext highlighter-rouge">stdout</code>으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envsubst &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일</span></p>
+
+<ul>
+  <li>입력 파일의 환경 변수를 바꾸고 파일로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envsubst &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일</span></p>
+
+<ul>
+  <li>공백으로 구분된 목록에서 입력 파일의 환경 변수를 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envsubst '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$USER $SHELL $HOME</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일</span></p>

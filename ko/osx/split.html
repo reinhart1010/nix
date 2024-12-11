@@ -1,0 +1,28 @@
+<h1 id="split">split</h1>
+
+<p>파일을 여러 조각으로 분할합니다.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/split.1.html">https://keith.github.io/xcode-man-pages/split.1.html</a>.</p>
+
+<ul>
+  <li>파일을 각 조각이 10줄씩 되도록 분할 (마지막 조각 제외):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">split -l 10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>정규 표현식으로 파일을 분할. 매칭된 라인은 다음 출력 파일의 첫 번째 라인이 됩니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">split -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat|^[dh]og</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>각 조각이 512바이트가 되도록 파일을 분할 (마지막 조각 제외; 킬로바이트는 512k, 메가바이트는 512m 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">split -b 512 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일을 5개의 파일로 분할. 각 조각은 동일한 크기를 가지도록 분할됩니다 (마지막 조각 제외):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">split -n 5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

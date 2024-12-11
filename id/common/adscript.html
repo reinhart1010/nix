@@ -1,0 +1,28 @@
+<h1 id="adscript">adscript</h1>
+
+<p>Penyusun (compiler) untuk file Adscript.
+Informasi lebih lanjut: <a href="https://github.com/Amplus2/Adscript">https://github.com/Amplus2/Adscript</a>.</p>
+
+<ul>
+  <li>Susun suatu file menjadi file objek:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_input.adscript</span></p>
+
+<ul>
+  <li>Susun dan gabungkan file menjadi sebuah file program mandiri:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --executable --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_input.adscript</span></p>
+
+<ul>
+  <li>Susun sebuah file menggunakan kode LLVM IR daripada kode mesin yang sesungguhnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --llvm-ir --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.ll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_input.adscript</span></p>
+
+<ul>
+  <li>Susun menjadi file objek untuk arsitektur CPU atau sistem operasi yang berbeda dengan mesin saat ini (cross-compile):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --target-triple </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">i386-linux-elf</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_input.adscript</span></p>

@@ -1,0 +1,34 @@
+<h1 id="btrfs-rescue">btrfs rescue</h1>
+
+<p>Tenta recuperar um sistema de arquivos btrfs danificado.
+Mais informações: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html">https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html</a>.</p>
+
+<ul>
+  <li>Reconstrói a árvore de metadados do sistema de arquivos (muito lento):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue chunk-recover </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/partição</span></p>
+
+<ul>
+  <li>Corrige problemas relacionados ao alinhamento do tamanho do dispositivo (por exemplo, incapaz de montar o sistema de arquivos com incompatibilidade de super total de bytes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue fix-device-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/partição</span></p>
+
+<ul>
+  <li>Recupera um superblock corrompido das cópias corretas (recupere a raiz da árvore do sistema de arquivos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue super-recover </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/partição</span></p>
+
+<ul>
+  <li>Recupera-se de uma transação interrompida (corrige problemas de repetição de log):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue zero-log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/partição</span></p>
+
+<ul>
+  <li>Cria um dispositivo de controle <code class="language-plaintext highlighter-rouge">/dev/btrfs-control</code> quando o <code class="language-plaintext highlighter-rouge">mknod</code> não estiver instalado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue create-control-device</code></p>

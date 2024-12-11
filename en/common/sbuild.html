@@ -1,0 +1,46 @@
+<h1 id="sbuild">sbuild</h1>
+
+<p>Build a Debian binary package in a clean <code class="language-plaintext highlighter-rouge">chroot</code> environment.
+More information: <a href="https://wiki.debian.org/sbuild">https://wiki.debian.org/sbuild</a>.</p>
+
+<ul>
+  <li>Build the package in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbuild</code></p>
+
+<ul>
+  <li>Build the given package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbuild </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Build for a certain distribution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbuild --dist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span></p>
+
+<ul>
+  <li>Build using custom dependencies (if a directory is passed, all files ending with <code class="language-plaintext highlighter-rouge">.deb</code> are used):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbuild --extra-package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Run a shell in case of build failure to further investigate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbuild --build-failed-commands=%SBUILD_SHELL</code></p>
+
+<ul>
+  <li>Cross build for a certain architecture:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbuild --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">architecture</span></p>
+
+<ul>
+  <li>Build for the given native architecture:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbuild --arch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">architecture</span></p>

@@ -1,0 +1,26 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="at">at</h1>
+
+<p>Jednokrotnie wykonaj polecenia w późniejszym czasie.
+Usługa atd (lub atrun) powinna być uruchomiona dla rzeczywistych wykonań.
+Więcej informacji: <a href="https://manned.org/at">https://manned.org/at</a>.</p>
+
+<ul>
+  <li>Wykonaj polecenia z <code class="language-plaintext highlighter-rouge">stdin</code> po upływie 5 minut (naciśnij <code class="language-plaintext highlighter-rouge">Ctrl + D</code> po zakończeniu):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at now + 5 minutes</code></p>
+
+<ul>
+  <li>Wykonaj polecenie z <code class="language-plaintext highlighter-rouge">stdin</code> dziś o 10:00:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./zrób_kopię_zapasową_bazy_danych.sh</span><code class="language-plaintext highlighter-rouge">" | at 1000</code></p>
+
+<ul>
+  <li>Wykonaj polecenia z danego pliku w następny wtorek:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span><code class="language-plaintext highlighter-rouge"> 9:30 PM Tue</code></p>

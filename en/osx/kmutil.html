@@ -1,0 +1,40 @@
+<h1 id="kmutil">kmutil</h1>
+
+<p>Utility for managing kernel extensions (kexts) and kext collections on disk.
+More information: <a href="https://keith.github.io/xcode-man-pages/kmutil.8.html">https://keith.github.io/xcode-man-pages/kmutil.8.html</a>.</p>
+
+<ul>
+  <li>Find kexts available on the operating system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kmutil find</code></p>
+
+<ul>
+  <li>Display logging information about the Kernel Management sub-system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kmutil log</code></p>
+
+<ul>
+  <li>Inspect and display a kext collection's contents according to the options provided:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kmutil inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">options</span></p>
+
+<ul>
+  <li>Check the consistency of kext collections against each other:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kmutil check</code></p>
+
+<ul>
+  <li>Dump kernelmanagerd state for debugging:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kmutil dumpstate</code></p>
+
+<ul>
+  <li>Load one or more extensions based on the bundle specified at this path in the results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kmutil load --bundle-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/extension.kext</span></p>

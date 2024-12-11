@@ -1,0 +1,52 @@
+<h1 id="dolt-branch">dolt branch</h1>
+
+<p>Dolt 브랜치 관리.
+더 많은 정보: <a href="https://docs.dolthub.com/cli-reference/cli#dolt-branch">https://docs.dolthub.com/cli-reference/cli#dolt-branch</a>.</p>
+
+<ul>
+  <li>로컬 분기 나열 (현재 분기는 <code class="language-plaintext highlighter-rouge">*</code>로 강조 표시됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt branch</code></p>
+
+<ul>
+  <li>모든 로컬 및 원격 브랜치를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt branch --all</code></p>
+
+<ul>
+  <li>현재 브랜치를 기반으로 새로운 브랜치를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름</span></p>
+
+<ul>
+  <li>지정된 커밋을 최신으로 사용하여 새로운 브랜치를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span></p>
+
+<ul>
+  <li>브랜치 이름 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt branch --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름2</span></p>
+
+<ul>
+  <li>브랜치 복제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt branch --copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름2</span></p>
+
+<ul>
+  <li>브랜치 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt branch --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름</span></p>
+
+<ul>
+  <li>현재 브랜치의 이름을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dolt branch --show-current</code></p>

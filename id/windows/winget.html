@@ -1,0 +1,52 @@
+<h1 id="winget">winget</h1>
+
+<p>Manajer Paket Antarmuka Baris Perintah Windows.
+Informasi lebih lanjut: <a href="https://learn.microsoft.com/windows/package-manager/winget">https://learn.microsoft.com/windows/package-manager/winget</a>.</p>
+
+<ul>
+  <li>Pasang suatu paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Hapus paket yang terpasang sebelumnya (Catatan: subperintah <code class="language-plaintext highlighter-rouge">uninstall</code> juga dapat digantikan dengan <code class="language-plaintext highlighter-rouge">remove</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Tampilkan informasi tentang paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Cari paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Perbarui seluruh paket menuju versi terkini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget upgrade --all</code></p>
+
+<ul>
+  <li>Tampilkan paket terpasang yang dapat dikelola oleh <code class="language-plaintext highlighter-rouge">winget</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget list --source winget</code></p>
+
+<ul>
+  <li>Impor atau ekspor daftar paket terpasang ke dalam suatu file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import|export</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–import-file|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Lakukan uji validasi manifes pemaketan winget sebelum mengirimkan rencana perubahan (Pull Request) menuju repositori winget-pkgs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/manifes</span></p>

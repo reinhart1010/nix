@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cryptsetup">cryptsetup</h1>
+
+<p>管理普通 dm-crypt 和 LUKS（Linux 统一密钥设置）加密卷。
+更多信息：<a href="https://manned.org/cryptsetup">https://manned.org/cryptsetup</a>.</p>
+
+<ul>
+  <li>初始化 LUKS 卷（覆盖分区上的所有数据）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span></p>
+
+<ul>
+  <li>打开 LUKS 卷并在 <code class="language-plaintext highlighter-rouge">/dev/mapper/目标</code> 创建解密映射：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksOpen </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标</span></p>
+
+<ul>
+  <li>删除已存在的映射：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksClose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标</span></p>
+
+<ul>
+  <li>更改 LUKS 卷的口令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksChangeKey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span></p>

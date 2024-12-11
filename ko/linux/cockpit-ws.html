@@ -1,0 +1,34 @@
+<h1 id="cockpit-ws">cockpit-ws</h1>
+
+<p>브라우저 애플리케이션과 <code class="language-plaintext highlighter-rouge">cockpit-bridge</code>와 같은 다양한 구성 도구 및 서비스 간 통신.
+더 많은 정보: <a href="https://cockpit-project.org/guide/latest/cockpit-ws.8.html">https://cockpit-project.org/guide/latest/cockpit-ws.8.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">127.0.0.1</code>에서 포트 <code class="language-plaintext highlighter-rouge">22</code>로 SSH 인증을 통해 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cockpit-ws --local-ssh</code></p>
+
+<ul>
+  <li>특정 포트에서 HTTP 서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cockpit-ws --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>특정 IP 주소에 바인딩하여 시작 (기본값은 <code class="language-plaintext highlighter-rouge">0.0.0.0</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cockpit-ws --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_주소</span></p>
+
+<ul>
+  <li>TLS 없이 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cockpit-ws --no-tls</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cockpit-ws --help</code></p>

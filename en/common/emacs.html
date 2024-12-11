@@ -1,0 +1,53 @@
+<h1 id="emacs">emacs</h1>
+
+<p>The extensible, customizable, self-documenting, real-time display editor.
+See also <code class="language-plaintext highlighter-rouge">emacsclient</code>.
+More information: <a href="https://www.gnu.org/software/emacs">https://www.gnu.org/software/emacs</a>.</p>
+
+<ul>
+  <li>Start Emacs and open a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Open a file at a specified line number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line_number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Run an Emacs Lisp file as a script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs --script </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.el</span></p>
+
+<ul>
+  <li>Start Emacs in console mode (without an X window):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs --no-window-system</code></p>
+
+<ul>
+  <li>Start an Emacs server in the background (accessible via <code class="language-plaintext highlighter-rouge">emacsclient</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs --daemon</code></p>
+
+<ul>
+  <li>Stop a running Emacs server and all its instances, asking for confirmation on unsaved files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --eval '(save-buffers-kill-emacs)'</code></p>
+
+<ul>
+  <li>Save a file in Emacs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + X, &lt;Ctrl&gt; + S</code></p>
+
+<ul>
+  <li>Quit Emacs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + X, &lt;Ctrl&gt; + C</code></p>

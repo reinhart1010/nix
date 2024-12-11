@@ -1,0 +1,41 @@
+<h1 id="crane">crane</h1>
+
+<p>Hulpmiddel voor het beheren van containerimages.
+Sommige subcommando's zoals <code class="language-plaintext highlighter-rouge">pull</code>, <code class="language-plaintext highlighter-rouge">push</code>, <code class="language-plaintext highlighter-rouge">copy</code>, enz. hebben hun eigen gebruiksdocumentatie.
+Meer informatie: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/</a>.</p>
+
+<ul>
+  <li>Voer een <code class="language-plaintext highlighter-rouge">crane</code> subcommando uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Sta het pushen van niet-distribueerbare (buitenlandse) lagen toe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane --allow-nondistributable-artifacts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Sta het ophalen van afbeeldingsreferenties zonder TLS toe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane --insecure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Geef het platform op in de vorm os/arch<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;/variant&lt;/span&gt;&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;:osversion&lt;/span&gt;</code> (bijv. linux/amd64). (standaard alle):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">platform</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Schakel debuglogs in voor een subcommando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Toon help voor een subcommando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>

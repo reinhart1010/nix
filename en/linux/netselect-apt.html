@@ -1,0 +1,28 @@
+<h1 id="netselect-apt">netselect-apt</h1>
+
+<p>Create a <code class="language-plaintext highlighter-rouge">sources.list</code> file for a Debian mirror with the lowest latency.
+More information: <a href="https://manned.org/netselect-apt">https://manned.org/netselect-apt</a>.</p>
+
+<ul>
+  <li>Create <code class="language-plaintext highlighter-rouge">sources.list</code> using the lowest latency server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect-apt</code></p>
+
+<ul>
+  <li>Specify Debian branch, stable is used by default:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect-apt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">testing</span></p>
+
+<ul>
+  <li>Include non-free section:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect-apt --non-free</code></p>
+
+<ul>
+  <li>Specify a country for the mirror list lookup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect-apt -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">India</span></p>

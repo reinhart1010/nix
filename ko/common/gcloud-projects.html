@@ -1,0 +1,35 @@
+<h1 id="gcloud-projects">gcloud projects</h1>
+
+<p>Google Cloud에서 프로젝트 액세스 정책 관리.
+같이 보기: <code class="language-plaintext highlighter-rouge">gcloud</code>.
+더 많은 정보: <a href="https://cloud.google.com/sdk/gcloud/reference/projects">https://cloud.google.com/sdk/gcloud/reference/projects</a>.</p>
+
+<ul>
+  <li>새 프로젝트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud projects create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_아이디|프로젝트_번호</span></p>
+
+<ul>
+  <li>모든 활성 프로젝트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud projects list</code></p>
+
+<ul>
+  <li>프로젝트의 메타데이터 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud projects describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_아이디</span></p>
+
+<ul>
+  <li>프로젝트 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud projects delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_아이디|프로젝트_번호</span></p>
+
+<ul>
+  <li>지정된 프로젝트에 IAM 정책 바인딩 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud projects add-iam-policy-binding </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_아이디</span><code class="language-plaintext highlighter-rouge"> --member </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주체</span><code class="language-plaintext highlighter-rouge"> --role </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">역할</span></p>

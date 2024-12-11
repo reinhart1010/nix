@@ -1,0 +1,23 @@
+<h1 id="distrobox-enter">distrobox-enter</h1>
+
+<p>Enter a Distrobox container. See also: <code class="language-plaintext highlighter-rouge">tldr distrobox</code>.
+Default command executed is your SHELL, but you can specify different shells or entire commands to execute. If used inside a script, an application, or a service, you can use the <code class="language-plaintext highlighter-rouge">--headless</code> mode to disable the tty and interactivity.
+More information: <a href="https://distrobox.it/usage/distrobox-enter">https://distrobox.it/usage/distrobox-enter</a>.</p>
+
+<ul>
+  <li>Enter a Distrobox container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Enter a Distrobox container and run a command at login:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh -l</span></p>
+
+<ul>
+  <li>Enter a Distrobox container without instantiating a tty:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uptime -p</span></p>

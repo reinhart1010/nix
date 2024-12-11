@@ -1,0 +1,46 @@
+<h1 id="pipx">pipx</h1>
+
+<p>Install and run Python applications in isolated environments.
+More information: <a href="https://github.com/pypa/pipx">https://github.com/pypa/pipx</a>.</p>
+
+<ul>
+  <li>Run an app in a temporary virtual environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pycowsay</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">moo</span></p>
+
+<ul>
+  <li>Install a package in a virtual environment and add entry points to path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>List installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx list</code></p>
+
+<ul>
+  <li>Run an app in a temporary virtual environment with a package name different from the executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx run --spec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpx-cli</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpx</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://www.github.com</span></p>
+
+<ul>
+  <li>Inject dependencies into an existing virtual environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx inject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency1 dependency2 …</span></p>
+
+<ul>
+  <li>Install a package in a virtual environment with pip arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx install --pip-args='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pip-args</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Upgrade/reinstall/uninstall all installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">upgrade-all|uninstall-all|reinstall-all</span></p>

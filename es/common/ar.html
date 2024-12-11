@@ -1,0 +1,35 @@
+<h1 id="ar">ar</h1>
+
+<p>Crea, modifica y extrae de archivos Unix. Típicamente utilizado para bibliotecas estáticas (<code class="language-plaintext highlighter-rouge">.a</code>) y paquetes Debian (<code class="language-plaintext highlighter-rouge">.deb</code>).
+Vea también: <code class="language-plaintext highlighter-rouge">tar</code>, <code class="language-plaintext highlighter-rouge">ranlib</code>.
+Más información: <a href="https://manned.org/ar">https://manned.org/ar</a>.</p>
+
+<ul>
+  <li>E[x]trae todos los miembros de un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.a</span></p>
+
+<ul>
+  <li>Lis[t]a los contenidos de un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.ar</span></p>
+
+<ul>
+  <li>[r]eemplaza o añade archivos a un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.deb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/binario-debian ruta/a/control.tar.gz ruta/a/datos.tar.xz …</span></p>
+
+<ul>
+  <li>In[s]erta un índice de archivo objeto (equivalente a usar <code class="language-plaintext highlighter-rouge">ranlib</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.a</span></p>
+
+<ul>
+  <li>Crea un archivo con archivos específicos incluyendo un índice de archivo objeto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.a</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.o ruta/al/archivo2.o …</span></p>

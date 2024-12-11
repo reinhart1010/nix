@@ -1,0 +1,46 @@
+<h1 id="docker-node">docker node</h1>
+
+<p>Manage Docker Swarm nodes.
+More information: <a href="https://docs.docker.com/reference/cli/docker/node/">https://docs.docker.com/reference/cli/docker/node/</a>.</p>
+
+<ul>
+  <li>List nodes in the swarm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker node ls</code></p>
+
+<ul>
+  <li>List tasks running on one or more nodes, defaults to the current node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker node ps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node1 node2 node3 …</span></p>
+
+<ul>
+  <li>Display detailed information on one or more nodes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker node inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node1 node2 node3 …</span></p>
+
+<ul>
+  <li>Promote one or more nodes to manager in the swarm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker node promote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node1 node2 node3 …</span></p>
+
+<ul>
+  <li>Demote one or more nodes from manager in the swarm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker node demote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node1 node2 node3 …</span></p>
+
+<ul>
+  <li>Remove one or more nodes from the swarm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker node rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node1 node2 node3 …</span></p>
+
+<ul>
+  <li>Update metadata about a node, such as its availability, labels, or roles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker node update --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">availability|role|label-add|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">active|worker|foo|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node1</span></p>

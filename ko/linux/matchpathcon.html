@@ -1,0 +1,23 @@
+<h1 id="matchpathcon">matchpathcon</h1>
+
+<p>경로의 지속적인 SELinux 보안 컨텍스트 설정을 조회합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">semanage-fcontext</code>, <code class="language-plaintext highlighter-rouge">secon</code>, <code class="language-plaintext highlighter-rouge">chcon</code>, <code class="language-plaintext highlighter-rouge">restorecon</code>.
+더 많은 정보: <a href="https://manned.org/matchpathcon.8">https://manned.org/matchpathcon.8</a>.</p>
+
+<ul>
+  <li>절대 경로의 지속적인 보안 컨텍스트 설정 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">matchpathcon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 파일 유형에 대한 설정으로 조회 제한:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">matchpathcon -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file|dir|pipe|chr_file|blk_file|lnk_file|sock_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/파일</span></p>
+
+<ul>
+  <li>경로의 지속적인 보안 컨텍스트와 현재 보안 컨텍스트가 일치하는지 [v]확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">matchpathcon -V </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/파일</span></p>

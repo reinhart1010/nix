@@ -1,0 +1,34 @@
+<h1 id="rdpsign">rdpsign</h1>
+
+<p>用于签名远程桌面协议（RDP）文件的工具。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign">https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign</a>.</p>
+
+<ul>
+  <li>为一个 RDP 文件签名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdpsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径.rdp</span></p>
+
+<ul>
+  <li>使用一个指定的 sha256 哈希值为 RDP 文件签名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdpsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径.rdp</span><code class="language-plaintext highlighter-rouge"> /sha265 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">哈希值</span></p>
+
+<ul>
+  <li>启用静默输出：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdpsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径.rdp</span><code class="language-plaintext highlighter-rouge"> /q</code></p>
+
+<ul>
+  <li>显示详细的信息、警告和状态：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdpsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径.rdp</span><code class="language-plaintext highlighter-rouge"> /v</code></p>
+
+<ul>
+  <li>在不更新文件的情况下将输出显示到标准输出来测试签名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdpsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径.rdp</span><code class="language-plaintext highlighter-rouge"> /l</code></p>

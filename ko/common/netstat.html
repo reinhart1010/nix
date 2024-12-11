@@ -1,0 +1,47 @@
+<h1 id="netstat">netstat</h1>
+
+<p>네트워크 관련 정보(열려 있는 연결, 소켓 포트 등) 표시.
+같이 보기: <code class="language-plaintext highlighter-rouge">ss</code>.
+더 많은 정보: <a href="https://manned.org/netstat">https://manned.org/netstat</a>.</p>
+
+<ul>
+  <li>모든 포트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --all</code></p>
+
+<ul>
+  <li>수신 대기 중인 모든 포트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --listening</code></p>
+
+<ul>
+  <li>수신 대기 중인 TCP 포트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --tcp</code></p>
+
+<ul>
+  <li>PID 및 프로그램 이름 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --program</code></p>
+
+<ul>
+  <li>정보를 지속적으로 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --continuous</code></p>
+
+<ul>
+  <li>경로를 나열하고 IP 주소를 호스트 이름으로 변환하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --route --numeric</code></p>
+
+<ul>
+  <li>수신 대기 중인 TCP 및 UDP 포트 나열 (+ 루트 권한일 경우 사용자 및 프로세스 표시):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --listening --program --numeric --tcp --udp --extend</code></p>

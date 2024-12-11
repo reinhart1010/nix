@@ -1,0 +1,53 @@
+<h1 id="resolvectl">resolvectl</h1>
+
+<p>Resolve domain names, IPv4 and IPv6 addresses, DNS resource records, and services.
+Introspect and reconfigure the DNS resolver.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/resolvectl.html">https://www.freedesktop.org/software/systemd/man/resolvectl.html</a>.</p>
+
+<ul>
+  <li>Show DNS settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl status</code></p>
+
+<ul>
+  <li>Resolve the IPv4 and IPv6 addresses for one or more domains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain1 domain2 …</span></p>
+
+<ul>
+  <li>Retrieve the domain of a specified IP address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span></p>
+
+<ul>
+  <li>Flush all local DNS caches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl flush-caches</code></p>
+
+<ul>
+  <li>Display DNS statistics (transactions, cache, and DNSSEC verdicts):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl statistics</code></p>
+
+<ul>
+  <li>Retrieve an MX record of a domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl --legend=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">no</span><code class="language-plaintext highlighter-rouge"> --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MX</span><code class="language-plaintext highlighter-rouge"> query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span></p>
+
+<ul>
+  <li>Resolve an SRV record, for example _xmpp-server._tcp gmail.com:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl service _</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span><code class="language-plaintext highlighter-rouge">._</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Retrieve a TLS key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl tlsa tcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge">:443</code></p>

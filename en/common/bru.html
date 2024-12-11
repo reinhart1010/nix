@@ -1,0 +1,40 @@
+<h1 id="bru">bru</h1>
+
+<p>CLI for Bruno, an Opensource IDE for exploring and testing APIs.
+More information: <a href="https://docs.usebruno.com/bru-cli/overview">https://docs.usebruno.com/bru-cli/overview</a>.</p>
+
+<ul>
+  <li>Run all request files from the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run</code></p>
+
+<ul>
+  <li>Run a single request from the current directory by specifying its filename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.bru</span></p>
+
+<ul>
+  <li>Run requests using an environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_name</span></p>
+
+<ul>
+  <li>Run requests using an environment with a variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_name</span><code class="language-plaintext highlighter-rouge"> --env-var </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable_name</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable_value</span></p>
+
+<ul>
+  <li>Run request and collect the results in an output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.json</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --help</code></p>

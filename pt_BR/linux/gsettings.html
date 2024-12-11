@@ -1,0 +1,46 @@
+<h1 id="gsettings">gsettings</h1>
+
+<p>Consulta e modifica configurações do dconf com validação de esquema.
+Mais informações: <a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_the_desktop_environment_in_rhel_8/configuring-gnome-at-low-level_using-the-desktop-environment-in-rhel-8#using-gsettings-command_configuring-gnome-at-low-level">https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_the_desktop_environment_in_rhel_8/configuring-gnome-at-low-level_using-the-desktop-environment-in-rhel-8#using-gsettings-command_configuring-gnome-at-low-level</a>.</p>
+
+<ul>
+  <li>Define o valor de uma chave. Falha se a chave não existe ou o valor está fora do intervalo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.exemplo.esquema</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chave-exemplo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span></p>
+
+<ul>
+  <li>Imprime o valor de uma chave ou o padrão fornecido pelo esquema se a chave não foi definida no <code class="language-plaintext highlighter-rouge">dconf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.exemplo.esquema</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chave-exemplo</span></p>
+
+<ul>
+  <li>Desfaz a definição de uma chave, para que o valor padrão do esquema seja usado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.exemplo.esquema</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chave-exemplo</span></p>
+
+<ul>
+  <li>Exibe todos os esquemas, chaves e valores (não realocáveis):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings list-recursively</code></p>
+
+<ul>
+  <li>Exibe todas as chaves e valores (padrão se não definido) de um esquema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings list-recursively </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.exemplo.esquema</span></p>
+
+<ul>
+  <li>Exibe valores permitidos pelo esquema para uma chave (útil com chaves enumeráveis):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings range </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.exemplo.esquema</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chave-exemplo</span></p>
+
+<ul>
+  <li>Exibe a descrição legível por humanos de uma chave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.exemplo.esquema</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chave-exemplo</span></p>

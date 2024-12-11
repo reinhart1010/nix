@@ -1,0 +1,52 @@
+<h1 id="aws-dynamodb">aws dynamodb</h1>
+
+<p>예측 가능한 성능과 원활한 확장성을 갖춘 빠른 NoSQL 데이터베이스인 AWS Dynamodb 데이터베이스를 조작.
+더 많은 정보: <a href="https://docs.aws.amazon.com/cli/latest/reference/dynamodb/">https://docs.aws.amazon.com/cli/latest/reference/dynamodb/</a>.</p>
+
+<ul>
+  <li>테이블 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb create-table --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --attribute-definitions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AttributeName=S,AttributeType=S</span><code class="language-plaintext highlighter-rouge"> --key-schema </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AttributeName=S,KeyType=HASH</span><code class="language-plaintext highlighter-rouge"> --provisioned-throughput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ReadCapacityUnits=5,WriteCapacityUnits=5</span></p>
+
+<ul>
+  <li>DynamoDB의 모든 테이블 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb list-tables</code></p>
+
+<ul>
+  <li>특정 테이블에 대한 세부정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb describe-table --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span></p>
+
+<ul>
+  <li>테이블에 항목 ㅊ두가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb put-item --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --item '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"AttributeName": {"S": "value"}</span><code class="language-plaintext highlighter-rouge">}'</code></p>
+
+<ul>
+  <li>테이블에서 항목 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb get-item --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --key '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"ID": {"N": "1"}</span><code class="language-plaintext highlighter-rouge">}'</code></p>
+
+<ul>
+  <li>테이블의 항목 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb update-item --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --key '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"ID": {"N": "1"}</span><code class="language-plaintext highlighter-rouge">}' --update-expression "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SET Name = :n</span><code class="language-plaintext highlighter-rouge">" --expression-attribute-values '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{":n": {"S": "Jane"}</span><code class="language-plaintext highlighter-rouge">}'</code></p>
+
+<ul>
+  <li>테이블의 항목을 스캔:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb scan --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span></p>
+
+<ul>
+  <li>테이블에서 항목 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws dynamodb delete-item --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --key '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"ID": {"N": "1"}</span><code class="language-plaintext highlighter-rouge">}'</code></p>

@@ -1,0 +1,53 @@
+<h1 id="tailscale-up">tailscale up</h1>
+
+<p>Connect the client to the Tailscale network.
+In version 1.8 and above, command-line arguments are stored and reused until they're overwritten or <code class="language-plaintext highlighter-rouge">--reset</code> is called.
+More information: <a href="https://tailscale.com/kb/1080/cli/#up">https://tailscale.com/kb/1080/cli/#up</a>.</p>
+
+<ul>
+  <li>Connect to Tailscale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale up</code></p>
+
+<ul>
+  <li>Connect and offer the current machine to be an exit node for internet traffic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale up --advertise-exit-node</code></p>
+
+<ul>
+  <li>Connect using a specific node for internet traffic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale up --exit-node=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exit_node_ip</span></p>
+
+<ul>
+  <li>Connect and block incoming connections to the current node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale up --shields-up</code></p>
+
+<ul>
+  <li>Connect and don't accept DNS configuration from the admin panel (defaults to <code class="language-plaintext highlighter-rouge">true</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale up --accept-dns=false</code></p>
+
+<ul>
+  <li>Connect and configure Tailscale as a subnet router:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale up --advertise-routes=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.0/24,10.0.1.0/24,…</span></p>
+
+<ul>
+  <li>Connect and accept subnet routes from Tailscale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale up --accept-routes</code></p>
+
+<ul>
+  <li>Reset unspecified settings to their default values and connect:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale up --reset</code></p>

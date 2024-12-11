@@ -1,0 +1,53 @@
+<h1 id="dnf">dnf</h1>
+
+<p>Administrador de paquetes para RHEL, CentOS y Fedora (Reemplaza a yum).
+Para comandos equivalentes en otros administradores de paquetes, vea <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+Más información: <a href="https://dnf.readthedocs.io">https://dnf.readthedocs.io</a>.</p>
+
+<ul>
+  <li>Actualiza todos los paquetes a la última versión disponible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf upgrade</code></p>
+
+<ul>
+  <li>Busca un paquete usando palabras clave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabra1 palabra2 …</span></p>
+
+<ul>
+  <li>Muestra información acerca de un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Instala un nuevo paquete (usa <code class="language-plaintext highlighter-rouge">-y</code> para confirmar todas las preguntas automáticamente):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete1 paquete2 …</span></p>
+
+<ul>
+  <li>Elimina un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete1 paquete2 …</span></p>
+
+<ul>
+  <li>Lista todos los paquetes instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf list --installed</code></p>
+
+<ul>
+  <li>Encuentra qué paquetes proveen un archivo determinado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf provides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Ver todas las operaciones pasadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf history</code></p>

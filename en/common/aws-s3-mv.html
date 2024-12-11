@@ -1,0 +1,28 @@
+<h1 id="aws-s3-mv">aws s3 mv</h1>
+
+<p>Move local files or S3 objects to another location locally or in S3.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mv.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mv.html</a>.</p>
+
+<ul>
+  <li>Move a file from local to a specified bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 mv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span></p>
+
+<ul>
+  <li>Move a specific S3 object into another bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 mv s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name1</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name2</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target</span></p>
+
+<ul>
+  <li>Move a specific S3 object into another bucket keeping the original name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 mv s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name1</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name2</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 mv help</code></p>

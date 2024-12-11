@@ -1,0 +1,35 @@
+<h1 id="rename">rename</h1>
+
+<p>Rename multiple files.
+Note: this page refers to the command from the <code class="language-plaintext highlighter-rouge">perl-rename</code> Arch Linux package.
+More information: <a href="https://manned.org/rename">https://manned.org/rename</a>.</p>
+
+<ul>
+  <li>Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'s/foo/bar/'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>
+
+<ul>
+  <li>Dry-run - display which renames would occur without performing them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'s/foo/bar/'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>
+
+<ul>
+  <li>Force renaming even if the operation would remove existing destination files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'s/foo/bar/'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>
+
+<ul>
+  <li>Convert filenames to lower case (use <code class="language-plaintext highlighter-rouge">-f</code> in case-insensitive filesystems to prevent "already exists" errors):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename 'y/A-Z/a-z/' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>
+
+<ul>
+  <li>Replace whitespace with underscores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename 's/\s+/_/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>

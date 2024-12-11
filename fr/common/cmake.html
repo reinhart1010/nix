@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cmake">cmake</h1>
+
+<p>Système de construction logicielle multiplateforme, qui permet de générer des recettes de construction pour les systèmes de construction natifs.
+Plus d'informations : <a href="https://cmake.org/cmake/help/latest/manual/cmake.1.html">https://cmake.org/cmake/help/latest/manual/cmake.1.html</a>.</p>
+
+<ul>
+  <li>Génère une recette de construction <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code> depuis le répertoire d'un projet :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire_du_projet</span></p>
+
+<ul>
+  <li>Génère une recette de construction, en définissant le type de construction à <code class="language-plaintext highlighter-rouge">Release</code> à l'aide d'une variable CMake :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire_du_projet</span><code class="language-plaintext highlighter-rouge"> -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CMAKE_BUILD_TYPE=Release</span></p>
+
+<ul>
+  <li>Utilise une recette déjà générée dans un répertoire donné pour construire les artefacts :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire_de_construction</span></p>
+
+<ul>
+  <li>Installe les artefacts de construction dans <code class="language-plaintext highlighter-rouge">/usr/local/</code> et retirer les symboles de débogage :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire_de_construction</span><code class="language-plaintext highlighter-rouge"> --strip</code></p>
+
+<ul>
+  <li>Installe les artefacts de construction en utilisant un préfixe personnalisé pour les chemins :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire_de_construction</span><code class="language-plaintext highlighter-rouge"> --strip --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire</span></p>
+
+<ul>
+  <li>Lance une cible de construction personnalisée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire_de_construction</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_cible</span></p>

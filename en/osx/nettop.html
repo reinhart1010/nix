@@ -1,0 +1,52 @@
+<h1 id="nettop">nettop</h1>
+
+<p>Display updated information about the network.
+More information: <a href="https://keith.github.io/xcode-man-pages/nettop.1.html">https://keith.github.io/xcode-man-pages/nettop.1.html</a>.</p>
+
+<ul>
+  <li>Monitor TCP and UDP sockets from all interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop</code></p>
+
+<ul>
+  <li>Monitor TCP sockets from Loopback interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">loopback</span></p>
+
+<ul>
+  <li>Monitor a specific process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -p "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id|process_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display a per-process summary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -P</code></p>
+
+<ul>
+  <li>Print 10 samples of network information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Monitor changes every 5 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -d -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>While running nettop, list interactive commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">h</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -h</code></p>

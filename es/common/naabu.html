@@ -1,0 +1,48 @@
+<h1 id="naabu">naabu</h1>
+
+<p>Un escáner de puertos rápido, escrito en Go, enfocado en fiabilidad y simplicidad.
+Vea también: <code class="language-plaintext highlighter-rouge">nmap</code>.
+Nota: Algunas características sólo se activan cuando <code class="language-plaintext highlighter-rouge">naabu</code> se ejecuta con privilegios de superusuario, como el escaneo SYN.
+Más información: <a href="https://github.com/projectdiscovery/naabu">https://github.com/projectdiscovery/naabu</a>.</p>
+
+<ul>
+  <li>Ejecuta un escaneo SYN contra los puertos predeterminados (top 100) del host remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo naabu -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Muestra las interfaces de red disponibles y la dirección IP pública del host local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -interface-list</code></p>
+
+<ul>
+  <li>Escanea todos los puertos del host remoto (escaneo CONNECT sin <code class="language-plaintext highlighter-rouge">sudo</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -p - -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Escanea los top 1000 puertos del host remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -top-ports 1000 -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Escanea los puertos TCP 80, 443 y UDP 53 del host remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -p 80,443,u:53 -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Muestra el tipo de CDN que utiliza el host remoto, si existe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">naabu -p 80,443 -cdn -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ejecuta <code class="language-plaintext highlighter-rouge">nmap</code> desde <code class="language-plaintext highlighter-rouge">naabu</code> para contar con funcionalidades adicionales (<code class="language-plaintext highlighter-rouge">nmap</code> debe estar instalado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo naabu -v -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -nmap-cli 'nmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v -T5 -sC</span><code class="language-plaintext highlighter-rouge">'</code></p>

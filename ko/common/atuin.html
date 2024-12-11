@@ -1,0 +1,41 @@
+<h1 id="atuin">atuin</h1>
+
+<p>검색 가능한 데이터베이스에 쉘 기록을 저장하세요.
+선택적으로 컴퓨터 간에 암호화된 기록을 동기화하세요.
+더 많은 정보: <a href="https://atuin.sh/docs/commands">https://atuin.sh/docs/commands</a>.</p>
+
+<ul>
+  <li>쉘에 atuin 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eval "$(atuin init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|zsh|fish</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>쉘 기본 기록 파일에서 기록 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin import auto</code></p>
+
+<ul>
+  <li>특정 명령에 대한 쉘 기록 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>기본 동기화 서버에 계정 등록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin register -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이메일</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span></p>
+
+<ul>
+  <li>기본 동기화 서버에 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin login -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span></p>
+
+<ul>
+  <li>동기화 서버와의 동기화 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin sync</code></p>

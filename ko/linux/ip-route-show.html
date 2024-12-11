@@ -1,0 +1,52 @@
+<h1 id="ip-route-show">ip route show</h1>
+
+<p>IP 라우팅 테이블 관리용 하위 명령어.
+더 많은 정보: <a href="https://manned.org/ip-route">https://manned.org/ip-route</a>.</p>
+
+<ul>
+  <li>라우팅 테이블 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show</code></p>
+
+<ul>
+  <li>메인 라우팅 테이블 표시 (첫 번째 예시와 동일):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">main|254</span></p>
+
+<ul>
+  <li>로컬 라우팅 테이블 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local|255</span></p>
+
+<ul>
+  <li>모든 라우팅 테이블 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">all|unspec|0</span></p>
+
+<ul>
+  <li>특정 장치에서만 경로 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>특정 범위 내의 경로 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show scope link</code></p>
+
+<ul>
+  <li>라우팅 캐시 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show cache</code></p>
+
+<ul>
+  <li>IPv6 또는 IPv4 경로만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-6|-4</span><code class="language-plaintext highlighter-rouge"> route show</code></p>

@@ -1,0 +1,40 @@
+<h1 id="ansible-vault">ansible-vault</h1>
+
+<p>Chiffre &amp; déchiffre des valeurs, des structures de données et des fichiers dans un projet Ansible.
+Plus d'informations : <a href="https://docs.ansible.com/ansible/latest/user_guide/vault.html#id17">https://docs.ansible.com/ansible/latest/user_guide/vault.html#id17</a>.</p>
+
+<ul>
+  <li>Crée un nouveau fichier vault chiffré avec une invite à rentrer un mot passe :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_vault</span></p>
+
+<ul>
+  <li>Crée un nouveau fichier vault chiffré avec un fichier clé vault pour le chiffrer :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault create --vault-password-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_de_mot_de_passe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_vault</span></p>
+
+<ul>
+  <li>Chiffre un ficher existant avec un fichier de mot de passe optionnel :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault encrypt --vault-password-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_de_mot_de_passe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_vault</span></p>
+
+<ul>
+  <li>Chiffre un texte avec le format de chiffrage pour textes d'Ansible, en affichant une invite interactif :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault encrypt_string</code></p>
+
+<ul>
+  <li>Affiche un fichier chiffré, en utilisant un fichier de mot de passe pour le déchiffrer :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault view --vault-password-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_de_mot_de_passe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_vault</span></p>
+
+<ul>
+  <li>Remplace le fichier de mot de passe d'un fichier vault déjà chiffré par un autre :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault rekey --vault-password-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_fichier_de_mot_de_passe</span><code class="language-plaintext highlighter-rouge"> --new-vault-password-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_fichier_de_mot_de_passe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_vault</span></p>

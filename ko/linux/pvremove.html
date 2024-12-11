@@ -1,0 +1,34 @@
+<h1 id="pvremove">pvremove</h1>
+
+<p>물리적 볼륨에서 LVM 레이블 제거.
+더 많은 정보: <a href="https://manned.org/pvremove">https://manned.org/pvremove</a>.</p>
+
+<ul>
+  <li>물리적 볼륨에서 LVM 레이블 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pvremove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>
+
+<ul>
+  <li>작업 중 자세한 출력 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pvremove --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>
+
+<ul>
+  <li>확인을 묻지 않고 LVM 레이블 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pvremove --yes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>
+
+<ul>
+  <li>강제로 LVM 레이블 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pvremove --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>
+
+<ul>
+  <li>출력을 JSON 형식으로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pvremove --reportformat json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>

@@ -1,0 +1,55 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="esbuild">esbuild</h1>
+
+<p>속도를 위해 제작된 자바스크립트 번들러 및 압축 도구.
+더 많은 정보: <a href="https://esbuild.github.io/">https://esbuild.github.io/</a>.</p>
+
+<ul>
+  <li>자바스크립트 애플리케이션을 번들로 묶어 <code class="language-plaintext highlighter-rouge">stdout</code>으로 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esbuild --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.js</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 JSX 애플리케이션 번들링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esbuild --bundle --outfile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.js</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.jsx</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">production</code> 모드에서 소스맵을 사용하여 JSX 애플리케이션을 번들로 묶고 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esbuild --bundle --define:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process.env.NODE_ENV="production"</span><code class="language-plaintext highlighter-rouge"> --minify --sourcemap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.js</span></p>
+
+<ul>
+  <li>쉼표로 구분된 브라우저 목록을 위해 JSX 애플리케이션을 번들로 묶음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esbuild --bundle --minify --sourcemap --target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chrome58,firefox57,safari11,edge16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.jsx</span></p>
+
+<ul>
+  <li>특정 노드 버전에 대한 자바스크립트 애플리케이션 번들:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esbuild --bundle --platform=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node</span><code class="language-plaintext highlighter-rouge"> --target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node12</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.js</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.js</code> 파일에 JSX 구문을 활성화하는 자바스크립트 애플리케이션을 번들로 묶음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esbuild --bundle app.js --loader:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.js=jsx</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.js</span></p>
+
+<ul>
+  <li>HTTP 서버에서 자바스크립트 애플리케이션을 번들링하고 제공:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esbuild --bundle --serve=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> --outfile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index.js</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.js</span></p>
+
+<ul>
+  <li>파일 목록을 출력 폴더에 번들링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esbuild --bundle --outdir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>

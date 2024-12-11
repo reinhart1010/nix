@@ -1,0 +1,40 @@
+<h1 id="nova">nova</h1>
+
+<p>The OpenStack project that provides a way to provision compute instances.
+More information: <a href="https://docs.openstack.org/nova/latest/">https://docs.openstack.org/nova/latest/</a>.</p>
+
+<ul>
+  <li>List VMs on current tenant:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova list</code></p>
+
+<ul>
+  <li>List VMs of all tenants (admin user only):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova list --all-tenants</code></p>
+
+<ul>
+  <li>Boot a VM on a specific host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova boot --nic net-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">net_id</span><code class="language-plaintext highlighter-rouge"> --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_id</span><code class="language-plaintext highlighter-rouge"> --flavor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">flavor</span><code class="language-plaintext highlighter-rouge"> --availability-zone nova:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>Start a server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span></p>
+
+<ul>
+  <li>Stop a server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span></p>
+
+<ul>
+  <li>Attach a network interface to a specific VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova interface-attach --net-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">net_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span></p>

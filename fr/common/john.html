@@ -1,0 +1,52 @@
+<h1 id="john">john</h1>
+
+<p>Outil de cassage de mot de passe.
+Plus d'informations : <a href="https://www.openwall.com/john/">https://www.openwall.com/john/</a>.</p>
+
+<ul>
+  <li>Craque les hashs de mots de passe :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/hashs.txt</span></p>
+
+<ul>
+  <li>Affiche les mots de passe cassés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/hashs.txt</span></p>
+
+<ul>
+  <li>Affiche les mots de passe cassés des utilisateurs par identifiant d'utilisateur à partir de plusieurs fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --show --users=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ids_utilisateurs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/hashs1.txt chemin/vers/autres/hashs2.txt …</span></p>
+
+<ul>
+  <li>Craque des hashs de mots de passe, à l'aide d'une liste de mots personnalisée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --wordlist=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/liste_de_mots.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/hashs.txt</span></p>
+
+<ul>
+  <li>Liste des formats de hachage disponibles :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --list=formats</code></p>
+
+<ul>
+  <li>Craque les hashs de mots de passe, en utilisant un format de hash spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">md5crypt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/hashs.txt</span></p>
+
+<ul>
+  <li>Craque les hashs de mots de passe, en activant les règles d'altération de mots :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --rules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/hashs.txt</span></p>
+
+<ul>
+  <li>Restaure une session de craquage interrompue à partir d'un fichier d'état, par exemple <code class="language-plaintext highlighter-rouge">mon_cassage.rec</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --restore=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/mon_cassage.rec</span></p>

@@ -1,0 +1,52 @@
+<h1 id="install-module">Install-Module</h1>
+
+<p>Install PowerShell modules from PowerShell Gallery, NuGet, and other repositories.
+More information: <a href="https://learn.microsoft.com/powershell/module/powershellget/install-module">https://learn.microsoft.com/powershell/module/powershellget/install-module</a>.</p>
+
+<ul>
+  <li>Install a module, or update it to the latest available version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module</span></p>
+
+<ul>
+  <li>Install a module with a specific version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module</span><code class="language-plaintext highlighter-rouge"> -RequiredVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Install a module no earlier than a specific version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module</span><code class="language-plaintext highlighter-rouge"> -MinimumVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Specify a range of supported versions (inclusive) of the required module:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module</span><code class="language-plaintext highlighter-rouge"> -MinimumVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minimum_version</span><code class="language-plaintext highlighter-rouge"> -MaximumVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">maximum_version</span></p>
+
+<ul>
+  <li>Install module from a specific repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module</span><code class="language-plaintext highlighter-rouge"> -Repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span></p>
+
+<ul>
+  <li>Install module from specific repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module</span><code class="language-plaintext highlighter-rouge"> -Repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository1 , repository2 , …</span></p>
+
+<ul>
+  <li>Install the module for all/current user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module</span><code class="language-plaintext highlighter-rouge"> -Scope </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AllUsers|CurrentUser</span></p>
+
+<ul>
+  <li>Perform a dry run to determine which modules will be installed, upgraded, or removed through <code class="language-plaintext highlighter-rouge">Install-Module</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module</span><code class="language-plaintext highlighter-rouge"> -WhatIf</code></p>

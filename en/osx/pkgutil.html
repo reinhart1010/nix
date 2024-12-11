@@ -1,0 +1,28 @@
+<h1 id="pkgutil">pkgutil</h1>
+
+<p>Query and manipulate Mac OS X Installer packages and receipts.
+More information: <a href="https://keith.github.io/xcode-man-pages/pkgutil.1.html">https://keith.github.io/xcode-man-pages/pkgutil.1.html</a>.</p>
+
+<ul>
+  <li>List package IDs for all installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgutil --pkgs</code></p>
+
+<ul>
+  <li>Verify cryptographic signatures of a package file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgutil --check-signature </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.pkg</span></p>
+
+<ul>
+  <li>List all the files for an installed package given its ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgutil --files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.microsoft.Word</span></p>
+
+<ul>
+  <li>Extract the contents of a package file into a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgutil --expand-full </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.pkg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

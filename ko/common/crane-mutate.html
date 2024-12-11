@@ -1,0 +1,53 @@
+<h1 id="crane-mutate">crane mutate</h1>
+
+<p>이미지 라벨과 주석을 수정.
+컨테이너를 레지스트리에 푸시해야 하며, 매니페스트가 레지스트리에서 업데이트.
+더 많은 정보: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_mutate.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_mutate.md</a>.</p>
+
+<ul>
+  <li>새로운 주석을 설정 (기본값 []):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–annotation</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–label</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">annotation/label</span></p>
+
+<ul>
+  <li>이미지에 추가할 tarball/command/entrypoint/environment variable/exposed-ports의 경로를 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–append</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–cmd</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–entrypoint</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|–env</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–exposed-ports</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">var1 var2 …</span></p>
+
+<ul>
+  <li>결과 이미지의 새로운 tarball 경로:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tarball</span></p>
+
+<ul>
+  <li>변형된 이미지를 푸시하기 위한 os/arch<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;/variant&lt;/span&gt;&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;:osversion&lt;/span&gt;&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;,&lt;platform&gt;&lt;/span&gt;</code> 형식의 저장소:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate --set-platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">플랫폼_이름</span></p>
+
+<ul>
+  <li>변형된 이미지에 적용할 새로운 태그를 참조:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그_이름</span></p>
+
+<ul>
+  <li>새로운 사용자 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>설정할 새로운 작업 디렉토리 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|–workdir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/작업디렉토리</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

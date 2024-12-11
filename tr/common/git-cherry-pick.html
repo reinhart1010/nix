@@ -1,0 +1,29 @@
+<h1 id="git-cherry-pick">git cherry-pick</h1>
+
+<p>Varolan commit'ler ile getirilen yenilikleri mevcut dala uygula.
+Değişiklikleri başka bir dala aktarmak için, önce <code class="language-plaintext highlighter-rouge">git checkout</code> komutu kullanılmalıdır.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-cherry-pick">https://git-scm.com/docs/git-cherry-pick</a>.</p>
+
+<ul>
+  <li>Mevcut dala bir commit uygula:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_ismi</span></p>
+
+<ul>
+  <li>Mevcut dala belirtilmiş aralıktaki kadar commit uygula (ayrıca <code class="language-plaintext highlighter-rouge">git rebase --onto</code> komutunun araştırılması önerilir):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ilk_commit</span><code class="language-plaintext highlighter-rouge">~..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">son_commit</span></p>
+
+<ul>
+  <li>Mevcut dala birçok (ardışık olmayan) commit uygula:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_1 commit_2 …</span></p>
+
+<ul>
+  <li>Bir commit'in değişikliklerini, herhangi bir yeni commit oluşturmadan çalışan dizine ekle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick --no-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

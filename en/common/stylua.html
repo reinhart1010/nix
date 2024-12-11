@@ -1,0 +1,34 @@
+<h1 id="stylua">stylua</h1>
+
+<p>An opinionated Lua code formatter.
+More information: <a href="https://github.com/JohnnyMorganz/StyLua">https://github.com/JohnnyMorganz/StyLua</a>.</p>
+
+<ul>
+  <li>Auto-format a file or an entire directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stylua </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Check if a specific file has been formatted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stylua --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Run with a specific configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stylua --config-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Format code from <code class="language-plaintext highlighter-rouge">stdin</code> and output to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stylua - &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.lua</span></p>
+
+<ul>
+  <li>Format a file or directory using spaces and preferring single quotes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stylua --indent-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Spaces</span><code class="language-plaintext highlighter-rouge"> --quote-style </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AutoPreferSingle</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>

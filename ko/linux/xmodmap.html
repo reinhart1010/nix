@@ -1,0 +1,28 @@
+<h1 id="xmodmap">xmodmap</h1>
+
+<p>X에서 키맵과 포인터 버튼 매핑을 수정하는 유틸리티.
+더 많은 정보: <a href="https://manned.org/xmodmap">https://manned.org/xmodmap</a>.</p>
+
+<ul>
+  <li>포인터에서 좌클릭과 우클릭을 교체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmodmap -e 'pointer = 3 2 1'</code></p>
+
+<ul>
+  <li>키보드의 키를 다른 키로 재할당:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmodmap -e 'keycode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키코드</span><code class="language-plaintext highlighter-rouge"> = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키이름</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>키보드의 키 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmodmap -e 'keycode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키코드</span><code class="language-plaintext highlighter-rouge"> ='</code></p>
+
+<ul>
+  <li>지정된 파일에 있는 모든 xmodmap 표현 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmodmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

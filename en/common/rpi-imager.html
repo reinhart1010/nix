@@ -1,0 +1,22 @@
+<h1 id="rpi-imager">rpi-imager</h1>
+
+<p>Flash images onto storage devices.
+More information: <a href="https://github.com/raspberrypi/rpi-imager">https://github.com/raspberrypi/rpi-imager</a>.</p>
+
+<ul>
+  <li>Write a specific image to a specific block device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpi-imager --cli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Write a specific image to a block device, disabling the checksum verification:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpi-imager --cli --disable-verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Write a specific image to a block device, which will expect a specific checksum when running the verification:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpi-imager --cli --sha256 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expected_hash</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>

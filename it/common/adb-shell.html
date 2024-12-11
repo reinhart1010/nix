@@ -1,0 +1,52 @@
+<h1 id="adb-shell">adb shell</h1>
+
+<p>Android Debug Bridge Shell: Esegue un commando remoto sull'emulatore o dispositivo Android connesso.
+Maggiori informazioni: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Avvia un interprete di comandi iterativo remoto sull'emulatore/dispositivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell</code></p>
+
+<ul>
+  <li>Fornisce tutte le proprietà dell'emulatore o dispositivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell getprop</code></p>
+
+<ul>
+  <li>Ripristina tutti i permessi di esecuzione ai loro valori predefiniti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell pm reset-permissions</code></p>
+
+<ul>
+  <li>Revoca un permesso pericoloso da un'applicazione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell pm revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">permesso</span></p>
+
+<ul>
+  <li>Attiva un evento chiave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell input keyevent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keycode</span></p>
+
+<ul>
+  <li>Pulisce i dati di un'applicazione sull'emulatore o dispositivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell pm clear </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto</span></p>
+
+<ul>
+  <li>Avvia un'attività sull'emulatore/dispositivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell am start -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">attività</span></p>
+
+<ul>
+  <li>Avvia la schermata iniziale sull'emulatore o dispositivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN</code></p>

@@ -1,0 +1,34 @@
+<h1 id="pueue-kill">pueue kill</h1>
+
+<p>Kill running tasks or whole groups.
+More information: <a href="https://github.com/Nukesor/pueue">https://github.com/Nukesor/pueue</a>.</p>
+
+<ul>
+  <li>Kill all tasks in the default group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue kill</code></p>
+
+<ul>
+  <li>Kill a specific task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue kill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Kill a task and terminate all its child processes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue kill --children </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Kill all tasks in a group and pause the group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue kill --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span></p>
+
+<ul>
+  <li>Kill all tasks across all groups and pause all groups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue kill --all</code></p>

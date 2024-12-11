@@ -1,0 +1,23 @@
+<h1 id="genie">genie</h1>
+
+<p>Set up and use a "bottle" namespace to run systemd under WSL (Windows Subsystem for Linux).
+To run these from Windows rather than an already-running distribution, precede them with <code class="language-plaintext highlighter-rouge">wsl</code>.
+More information: <a href="https://github.com/arkane-systems/genie">https://github.com/arkane-systems/genie</a>.</p>
+
+<ul>
+  <li>Initialize the bottle (run once, at start):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genie -i</code></p>
+
+<ul>
+  <li>Run a login shell inside the bottle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genie -s</code></p>
+
+<ul>
+  <li>Run a specified command inside the bottle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genie -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

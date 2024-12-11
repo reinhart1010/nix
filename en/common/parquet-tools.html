@@ -1,0 +1,52 @@
+<h1 id="parquet-tools">parquet-tools</h1>
+
+<p>Show, inspect and manipulate Parquet file.
+More information: <a href="https://github.com/apache/parquet-mr">https://github.com/apache/parquet-mr</a>.</p>
+
+<ul>
+  <li>Display the content of a Parquet file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parquet-tools cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parquet</span></p>
+
+<ul>
+  <li>Display the first few lines of a Parquet file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parquet-tools head </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parquet</span></p>
+
+<ul>
+  <li>Print the schema of a Parquet file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parquet-tools schema </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parquet</span></p>
+
+<ul>
+  <li>Print the metadata of a Parquet file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parquet-tools meta </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parquet</span></p>
+
+<ul>
+  <li>Print the content and metadata of a Parquet file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parquet-tools dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parquet</span></p>
+
+<ul>
+  <li>Concatenate several Parquet files into the target one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parquet-tools merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parquet1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parquet2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_parquet</span></p>
+
+<ul>
+  <li>Print the count of rows in a Parquet file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parquet-tools rowcount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parquet</span></p>
+
+<ul>
+  <li>Print the column and offset indexes of a Parquet file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parquet-tools column-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parquet</span></p>

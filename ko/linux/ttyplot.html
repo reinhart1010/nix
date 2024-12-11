@@ -1,0 +1,28 @@
+<h1 id="ttyplot">ttyplot</h1>
+
+<p>실시간 커맨드라인 플로팅 유틸리티로, <code class="language-plaintext highlighter-rouge">stdin</code>으로 데이터 입력을 받습니다.
+더 많은 정보: <a href="https://github.com/tenox7/ttyplot">https://github.com/tenox7/ttyplot</a>.</p>
+
+<ul>
+  <li>값 <code class="language-plaintext highlighter-rouge">1</code>, <code class="language-plaintext highlighter-rouge">2</code>, <code class="language-plaintext highlighter-rouge">3</code>을 플로팅 (<code class="language-plaintext highlighter-rouge">cat</code>은 ttyplot의 종료를 방지):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">{ echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1 2 3</span><code class="language-plaintext highlighter-rouge">; cat } | ttyplot</code></p>
+
+<ul>
+  <li>특정 제목과 단위를 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">{ echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1 2 3</span><code class="language-plaintext highlighter-rouge">; cat } | ttyplot -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제목</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">단위</span></p>
+
+<ul>
+  <li>while 루프를 사용하여 랜덤 값을 지속적으로 플로팅:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">{ while </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span><code class="language-plaintext highlighter-rouge">; do echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$RANDOM</span><code class="language-plaintext highlighter-rouge">; sleep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">; done } | ttyplot</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">ping</code>의 출력을 파싱하여 시각화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span><code class="language-plaintext highlighter-rouge"> | sed -u '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s/^.*time=//g; s/ ms//g</span><code class="language-plaintext highlighter-rouge">' | ttyplot -t "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8로의 핑</span><code class="language-plaintext highlighter-rouge">" -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ms</span></p>

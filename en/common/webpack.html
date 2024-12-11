@@ -1,0 +1,28 @@
+<h1 id="webpack">webpack</h1>
+
+<p>Bundle a web project's js files and other assets into a single output file.
+More information: <a href="https://webpack.js.org">https://webpack.js.org</a>.</p>
+
+<ul>
+  <li>Create a single output file from an entry point file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webpack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app.js</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bundle.js</span></p>
+
+<ul>
+  <li>Load CSS files too from the JavaScript file (this uses the CSS loader for CSS files):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webpack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app.js</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bundle.js</span><code class="language-plaintext highlighter-rouge"> --module-bind '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">css=css</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Pass a configuration file (with e.g. the entry script and the output filename) and show compilation progress:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webpack --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">webpack.config.js</span><code class="language-plaintext highlighter-rouge"> --progress</code></p>
+
+<ul>
+  <li>Automatically recompile on changes to project files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webpack --watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app.js</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bundle.js</span></p>

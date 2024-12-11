@@ -1,0 +1,46 @@
+<h1 id="sops">sops</h1>
+
+<p>SOPS (Secrets OPerationS): 비밀 관리를 위한 간단하고 유연한 도구.
+더 많은 정보: <a href="https://github.com/mozilla/sops">https://github.com/mozilla/sops</a>.</p>
+
+<ul>
+  <li>파일 암호화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.enc.json</span></p>
+
+<ul>
+  <li>파일을 <code class="language-plaintext highlighter-rouge">stdout</code>으로 복호화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.enc.json</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">sops</code> 파일에서 선언된 키 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops updatekeys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.enc.yaml</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">sops</code> 파일의 데이터 키 회전:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.enc.yaml</span></p>
+
+<ul>
+  <li>파일 암호화 후 확장자 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops -d --input-type json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.enc.json</span></p>
+
+<ul>
+  <li>이름으로 키를 추출하고, 번호로 배열 요소 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sops -d --extract '["an_array"][1]' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.enc.json</span></p>
+
+<ul>
+  <li>두 <code class="language-plaintext highlighter-rouge">sops</code> 파일 간의 차이점 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff &lt;(sops -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/secret1.enc.yaml</span><code class="language-plaintext highlighter-rouge">) &lt;(sops -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/secret2.enc.yaml</span><code class="language-plaintext highlighter-rouge">)</code></p>

@@ -1,0 +1,53 @@
+<h1 id="curl">curl</h1>
+
+<p>Mentransfer data dari atau ke server.
+Mendukung sebagian besar protokol, termasuk HTTP, FTP, dan POP3.
+Informasi lebih lanjut: <a href="https://curl.se/docs/manpage.html">https://curl.se/docs/manpage.html</a>.</p>
+
+<ul>
+  <li>Unduh konten URL ke file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namafile</span></p>
+
+<ul>
+  <li>Unduh file, simpan hasilnya dengan nama file yang ditentukan oleh URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --remote-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com/namafile</span></p>
+
+<ul>
+  <li>Unduh file, mengikuti pengalihan lokasi, dan secara otomatis melanjutkan transfer file sebelumnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --fail --remote-name --location --continue-at - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com/filename</span></p>
+
+<ul>
+  <li>Mengirim data form yang telah di encode (permintaan POST atau tipe data <code class="language-plaintext highlighter-rouge">application/x-www-form-urlencoded</code>). Gunakan <code class="language-plaintext highlighter-rouge">--data @file_name</code> atau <code class="language-plaintext highlighter-rouge">--data @'-'</code> untuk membaca dari <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'name=bob'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com/form</span></p>
+
+<ul>
+  <li>Mengirim sebuah permintaan dengan header tambahan, menggunakan metode HTTP kustom:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'X-My-Header: 123'</span><code class="language-plaintext highlighter-rouge"> --request </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PUT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com</span></p>
+
+<ul>
+  <li>Mengirim data dalam format JSON, Menentukan jenis konten yang sesuai header:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span><code class="language-plaintext highlighter-rouge"> --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Content-Type: application/json'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com/users/1234</span></p>
+
+<ul>
+  <li>Memberikan nama pengguna dan kata sandi untuk otentikasi server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_pengguna</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com</span></p>
+
+<ul>
+  <li>Memberikan sertifikat klien dan kunci untuk sumber daya, melewati validasi sertifikat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client.pem</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key.pem</span><code class="language-plaintext highlighter-rouge"> --insecure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://contoh.com</span></p>

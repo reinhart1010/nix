@@ -1,0 +1,22 @@
+<h1 id="noti">noti</h1>
+
+<p>Monitorea un proceso y activa una notificación gráfica de voz o servicio.
+Más información: <a href="https://github.com/variadico/noti">https://github.com/variadico/noti</a>.</p>
+
+<ul>
+  <li>Muestra una notificación cuando <code class="language-plaintext highlighter-rouge">tar</code> termina de comprimir archivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">noti </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar -cjf ejemplo.tar.bz2 ejemplo/</span></p>
+
+<ul>
+  <li>Muestra una notificación incluso cuando se pone después del comando a vigilar:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_a_vigilar</span><code class="language-plaintext highlighter-rouge">; noti</code></p>
+
+<ul>
+  <li>Monitorea un proceso por PID y activa una notificación cuando el PID desaparece:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">noti -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_del_proceso</span></p>

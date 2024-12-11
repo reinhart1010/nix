@@ -1,0 +1,23 @@
+<h1 id="pkg_add">pkg_add</h1>
+
+<p>OpenBSD में पैकेज स्थापित/अपडेट करें।
+देखें: <code class="language-plaintext highlighter-rouge">pkg_info</code>, <code class="language-plaintext highlighter-rouge">pkg_delete</code>।
+अधिक जानकारी: <a href="https://man.openbsd.org/pkg_add">https://man.openbsd.org/pkg_add</a>।</p>
+
+<ul>
+  <li>सभी पैकेज अपडेट करें, जिसमें निर्भरताएँ शामिल हैं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg_add -u</code></p>
+
+<ul>
+  <li>एक नया पैकेज स्थापित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg_add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">pkg_info</code> के कच्चे आउटपुट से पैकेज स्थापित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg_add -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/का/पथ</span></p>

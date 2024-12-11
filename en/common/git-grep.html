@@ -1,0 +1,35 @@
+<h1 id="git-grep">git-grep</h1>
+
+<p>Find strings inside files anywhere in a repository's history.
+Accepts a lot of the same flags as regular <code class="language-plaintext highlighter-rouge">grep</code>.
+More information: <a href="https://git-scm.com/docs/git-grep">https://git-scm.com/docs/git-grep</a>.</p>
+
+<ul>
+  <li>Search for a string in tracked files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_string</span></p>
+
+<ul>
+  <li>Search for a string in files matching a pattern in tracked files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_string</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_glob_pattern</span></p>
+
+<ul>
+  <li>Search for a string in tracked files, including submodules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep --recurse-submodules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_string</span></p>
+
+<ul>
+  <li>Search for a string at a specific point in history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~2</span></p>
+
+<ul>
+  <li>Search for a string across all branches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_string</span><code class="language-plaintext highlighter-rouge"> $(git rev-list --all)</code></p>

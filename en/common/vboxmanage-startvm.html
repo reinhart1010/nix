@@ -1,0 +1,34 @@
+<h1 id="vboxmanage-startvm">vboxmanage-startvm</h1>
+
+<p>Start a virtual machine.
+More information: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-startvm">https://www.virtualbox.org/manual/ch08.html#vboxmanage-startvm</a>.</p>
+
+<ul>
+  <li>Start a virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name|uuid</span></p>
+
+<ul>
+  <li>Start a virtual machine with the specified UI mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name|uuid</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">headless|gui|sdl|separate</span></p>
+
+<ul>
+  <li>Specify a password file to start an encrypted virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name|uuid</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/password_file</span></p>
+
+<ul>
+  <li>Specify a password ID to start an encrypted virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name|uuid</span><code class="language-plaintext highlighter-rouge"> --password-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_id</span></p>
+
+<ul>
+  <li>Start a virtual machine with an environment variable pair name value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name|uuid</span><code class="language-plaintext highlighter-rouge"> --put-env=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>

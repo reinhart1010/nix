@@ -1,0 +1,53 @@
+<h1 id="lzip">lzip</h1>
+
+<p>A lossless data compressor with a user interface similar to <code class="language-plaintext highlighter-rouge">gzip</code> or <code class="language-plaintext highlighter-rouge">bzip2</code>.
+Lzip uses a simplified form of the "Lempel-Ziv-Markovchain-Algorithm" (LZMA) stream format and provides 3-factor integrity checking to maximize interoperability and optimize safety.
+More information: <a href="https://www.nongnu.org/lzip">https://www.nongnu.org/lzip</a>.</p>
+
+<ul>
+  <li>Archive a file, replacing it with with a compressed version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Archive a file, keeping the input file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lzip -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Archive a file with the best compression (level=9):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lzip -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --best</code></p>
+
+<ul>
+  <li>Archive a file at the fastest speed (level=0):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lzip -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --fast</code></p>
+
+<ul>
+  <li>Test the integrity of compressed file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lzip --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.lz</span></p>
+
+<ul>
+  <li>Decompress a file, replacing it with the original uncompressed version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lzip -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.lz</span></p>
+
+<ul>
+  <li>Decompress a file, keeping the archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lzip -d -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.lz</span></p>
+
+<ul>
+  <li>List files which are in an archive and show compression stats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lzip --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.lz</span></p>

@@ -1,0 +1,16 @@
+<h1 id="convmv">convmv</h1>
+
+<p>Convert filenames (NOT file content) from one encoding to another.
+More information: <a href="https://www.j3e.de/linux/convmv/man/">https://www.j3e.de/linux/convmv/man/</a>.</p>
+
+<ul>
+  <li>Test filename encoding conversion (don't actually change the filename):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convmv -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from_encoding</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_encoding</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>Convert filename encoding and rename the file to the new encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convmv -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from_encoding</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_encoding</span><code class="language-plaintext highlighter-rouge"> --notest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>

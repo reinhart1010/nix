@@ -1,0 +1,52 @@
+<h1 id="tcpdump">tcpdump</h1>
+
+<p>네트워크의 트래픽 덤프.
+더 많은 정보: <a href="https://www.tcpdump.org">https://www.tcpdump.org</a>.</p>
+
+<ul>
+  <li>사용 가능한 네트워크 인터페이스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -D</code></p>
+
+<ul>
+  <li>특정 인터페이스의 트래픽 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>콘솔에서 콘텐츠(ASCII)를 표시하는 모든 TCP 트래픽을 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -A tcp</code></p>
+
+<ul>
+  <li>호스트에서 들어오고 나가는 트래픽을 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.example.com</span></p>
+
+<ul>
+  <li>특정 인터페이스, 소스, 목적지 및 목적지 포트에서 트래픽을 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> src </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span><code class="language-plaintext highlighter-rouge"> and dst </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.2</span><code class="language-plaintext highlighter-rouge"> and dst port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>네트워크 트래픽 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump net </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.0/24</span></p>
+
+<ul>
+  <li>포트 22를 통한 트래픽을 제외한 모든 트래픽을 캡처하고 덤프 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dumpfile.pcap</span><code class="language-plaintext highlighter-rouge"> port not </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span></p>
+
+<ul>
+  <li>지정된 덤프 파일에서 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dumpfile.pcap</span></p>

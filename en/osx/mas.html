@@ -1,0 +1,52 @@
+<h1 id="mas">mas</h1>
+
+<p>Command-line interface for the Mac App Store.
+More information: <a href="https://github.com/mas-cli/mas">https://github.com/mas-cli/mas</a>.</p>
+
+<ul>
+  <li>Sign into the Mac App Store for the first time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mas signin "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Show all installed applications and their product identifiers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mas list</code></p>
+
+<ul>
+  <li>Search for an application, displaying the price alongside the results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mas search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application</span><code class="language-plaintext highlighter-rouge">" --price</code></p>
+
+<ul>
+  <li>Install or update an application using exact numeric id:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mas install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numeric_product_id</span></p>
+
+<ul>
+  <li>Install the first application that would be returned by the respective search:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mas lucky "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List all outdated apps with pending updates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mas outdated</code></p>
+
+<ul>
+  <li>Install all pending updates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mas upgrade</code></p>
+
+<ul>
+  <li>Upgrade a specific application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mas upgrade "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numeric_product_id</span><code class="language-plaintext highlighter-rouge">"</code></p>

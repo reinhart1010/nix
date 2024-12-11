@@ -1,0 +1,28 @@
+<h1 id="goaccess">goaccess</h1>
+
+<p>오픈 소스 실시간 웹 로그 분석기.
+더 많은 정보: <a href="https://goaccess.io">https://goaccess.io</a>.</p>
+
+<ul>
+  <li>대화형 모드로 하나 이상의 로그 파일 분석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goaccess </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로그파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>특정 로그 포맷(또는 "combined" 같은 미리 정의된 포맷) 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goaccess </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로그파일</span><code class="language-plaintext highlighter-rouge"> --log-format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포맷</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 로그 분석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로그파일</span><code class="language-plaintext highlighter-rouge"> | goaccess -</code></p>
+
+<ul>
+  <li>로그를 실시간으로 분석하여 HTML 파일로 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goaccess </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로그파일</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.html</span><code class="language-plaintext highlighter-rouge"> --real-time-html</code></p>

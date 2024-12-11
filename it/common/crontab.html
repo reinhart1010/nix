@@ -1,0 +1,44 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="crontab">crontab</h1>
+
+<p>Programma cron job per essere eseguiti a determinati intervalli di tempo per l'utente corrente.
+Formato definizione di un job: "(minuto) (ora) (giorno_del_mese) (mese) (giorno_della_settimana) comando_da_eseguire".
+Maggiori informazioni: <a href="https://crontab.guru/">https://crontab.guru/</a>.</p>
+
+<ul>
+  <li>Modifica il file crontab per l'utente corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -e</code></p>
+
+<ul>
+  <li>Elenca i cron job esistenti per l'utente corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -l</code></p>
+
+<ul>
+  <li>Rimuovi tutti i cron job per l'utente corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -r</code></p>
+
+<ul>
+  <li>Esempio di un job eseguito alle 10:00 ogni giorno (* vuol dire qualsiasi valore):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">0 10 * * * </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_da_eseguire</span></p>
+
+<ul>
+  <li>Esempio di un job eseguito ogni minuto il 3 Aprile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">* * 3 Apr * </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_da_eseguire</span></p>
+
+<ul>
+  <li>Esempio di un job che esegue un determinato script alle 02:30 ogni venerdì:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">30 2 * * Fri </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/percorso/assoluto/dello/script.sh</span></p>

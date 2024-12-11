@@ -1,0 +1,35 @@
+<h1 id="at">at</h1>
+
+<p>Planifie l'exécution d'une commande une fois à un moment donné.
+Le service atd (ou atrun) doit être actif pour l'exécution des commandes planifiées.
+Plus d'informations : <a href="https://manned.org/at">https://manned.org/at</a>.</p>
+
+<ul>
+  <li>Démarre <code class="language-plaintext highlighter-rouge">atd</code> comme un service (en tâche de fond) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl start atd</code></p>
+
+<ul>
+  <li>Planifie l'exécution de la commande donnée dans l'entrée standard dans 5 minutes (Appuyer sur <code class="language-plaintext highlighter-rouge">Ctrl + D</code> une fois la commande inscrite) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at now + 5 minutes</code></p>
+
+<ul>
+  <li>Crée des commandes de manière interactive et les exécute à un moment précis :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span></p>
+
+<ul>
+  <li>Planifie l'exécution d'une commande depuis l'entrée standard (impression echo redirigée dans un tube) aujourd'hui à 10h00 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span><code class="language-plaintext highlighter-rouge">" | at 1000</code></p>
+
+<ul>
+  <li>Planifie l'exécution des commandes inclues dans un [f]ichier pour mardi prochain 21h30 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span><code class="language-plaintext highlighter-rouge"> 9:30 PM Tue</code></p>

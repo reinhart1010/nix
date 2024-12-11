@@ -1,0 +1,52 @@
+<h1 id="npm-find-dupes">npm find-dupes</h1>
+
+<p>Identify duplicate dependencies in <code class="language-plaintext highlighter-rouge">node_modules</code>.
+More information: <a href="https://docs.npmjs.com/cli/commands/npm-find-dupes">https://docs.npmjs.com/cli/commands/npm-find-dupes</a>.</p>
+
+<ul>
+  <li>List all duplicate packages within <code class="language-plaintext highlighter-rouge">node_modules</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm find-dupes</code></p>
+
+<ul>
+  <li>Include <code class="language-plaintext highlighter-rouge">devDependencies</code> in duplicate detection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm find-dupes --include=dev</code></p>
+
+<ul>
+  <li>List all duplicate instances of a specific package in <code class="language-plaintext highlighter-rouge">node-modules</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm find-dupes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Exclude optional dependencies from duplicate detection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm find-dupes --omit=optional</code></p>
+
+<ul>
+  <li>Set the logging level for output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm find-dupes --loglevel=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">silent|error|warn|info|verbose</span></p>
+
+<ul>
+  <li>Output duplicate information in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm find-dupes --json</code></p>
+
+<ul>
+  <li>Limit duplicate search to specific scopes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm find-dupes --scope=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@scope1,@scope2</span></p>
+
+<ul>
+  <li>Exclude specific scopes from duplicate detection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm find-dupes --omit-scope=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@scope1,@scope2</span></p>

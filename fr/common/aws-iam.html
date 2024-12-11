@@ -1,0 +1,52 @@
+<h1 id="aws-iam">aws iam</h1>
+
+<p>CLI pour AWS IAM.
+Plus d'informations : <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html</a>.</p>
+
+<ul>
+  <li>Liste les utilisateurs :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-users</code></p>
+
+<ul>
+  <li>Liste les politiques :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-policies</code></p>
+
+<ul>
+  <li>Liste les groupes :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-groups</code></p>
+
+<ul>
+  <li>Récupère les utilisateurs dans un groupe :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam get-group --group-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_groupe</span></p>
+
+<ul>
+  <li>Décris une politique IAM :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam get-policy --policy-arn arn:aws:iam::aws:policy/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_politique</span></p>
+
+<ul>
+  <li>Liste les clés d’accès :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-access-keys</code></p>
+
+<ul>
+  <li>Liste les clés d'accès pour un utilisateur spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-access-keys --user-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d_utilisateur</span></p>
+
+<ul>
+  <li>Affiche la page d'aide pour <code class="language-plaintext highlighter-rouge">aws iam</code> (avec toutes les commandes iam disponibles) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam help</code></p>

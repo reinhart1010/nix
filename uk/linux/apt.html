@@ -1,0 +1,54 @@
+<h1 id="apt">apt</h1>
+
+<p>Утиліта керування пакетами для дистрибутивів на основі Debian.
+Рекомендована заміна для <code class="language-plaintext highlighter-rouge">apt-get</code> при інтерактивному використанні в Ubuntu версії 16.04 і пізніших.
+Еквівалентні команди в інших менеджерах пакунків дивитися <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+Більше інформації: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>.</p>
+
+<ul>
+  <li>Оновити список доступних пакетів і версій (рекомендується запускати це перед іншими командами <code class="language-plaintext highlighter-rouge">apt</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Шукати заданий пакет:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пакет</span></p>
+
+<ul>
+  <li>Відобразити інформацію про пакет:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пакет</span></p>
+
+<ul>
+  <li>Встановити пакет або оновити його до останньої доступної версії:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пакет</span></p>
+
+<ul>
+  <li>Видалити пакет (використання <code class="language-plaintext highlighter-rouge">purge</code> натомість також видаляє його конфігураційні файли):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пакет</span></p>
+
+<ul>
+  <li>Оновити усі встановлені пакети до найновіших доступних версій:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>Відобразити список усіх пакетів:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>Відобразити список усіх встановлених пакетів:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

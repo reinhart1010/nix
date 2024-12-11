@@ -1,0 +1,28 @@
+<h1 id="lli">lli</h1>
+
+<p>Directly execute programs from LLVM bitcode.
+More information: <a href="https://www.llvm.org/docs/CommandGuide/lli.html">https://www.llvm.org/docs/CommandGuide/lli.html</a>.</p>
+
+<ul>
+  <li>Execute a bitcode or IR file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ll</span></p>
+
+<ul>
+  <li>Execute with command-line arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span></p>
+
+<ul>
+  <li>Enable all optimizations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lli -O3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ll</span></p>
+
+<ul>
+  <li>Load a dynamic library before linking:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lli --dlopen=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/library.dll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ll</span></p>

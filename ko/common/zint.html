@@ -1,0 +1,22 @@
+<h1 id="zint">zint</h1>
+
+<p>바코드 및 QR 코드를 생성.
+더 많은 정보: <a href="https://www.zint.org.uk/manual/chapter/4">https://www.zint.org.uk/manual/chapter/4</a>.</p>
+
+<ul>
+  <li>바코드를 생성하고 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zint --data "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8 데이터</span><code class="language-plaintext highlighter-rouge">" --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>생성할 코드 유형 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zint --barcode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">코드_유형</span><code class="language-plaintext highlighter-rouge"> --data "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8 데이터</span><code class="language-plaintext highlighter-rouge">" --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>지원되는 모든 코드 유형 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zint --types</code></p>

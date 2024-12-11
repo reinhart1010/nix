@@ -1,0 +1,41 @@
+<h1 id="immich-cli">immich-cli</h1>
+
+<p>Immich에는 커멘드라인에서 특정 작업을 수행할 수 있는 커멘드라인 인터페이스 (CLI)가 있음.
+참고: <code class="language-plaintext highlighter-rouge">immich-go</code>.
+더 많은 정보: <a href="https://immich.app/docs/features/command-line-interface/">https://immich.app/docs/features/command-line-interface/</a>.</p>
+
+<ul>
+  <li>Immich 서버에 인증:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich login </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버_주소/api</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버_키</span></p>
+
+<ul>
+  <li>일부 이미지 파일 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일1.jpg 파일2.jpg</span></p>
+
+<ul>
+  <li>하위 디렉터리를 포함한 디렉터리 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich upload --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span></p>
+
+<ul>
+  <li>디렉터리를 기반으로 앨범 만들기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich upload --album-name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">My summer holiday</span><code class="language-plaintext highlighter-rouge">" --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span></p>
+
+<ul>
+  <li>glob 패턴과 일치하는 리소스 건너뛰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich upload --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><strong>/Raw/</strong> <em>*/</em>.tif</span><code class="language-plaintext highlighter-rouge"> --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span></p>
+
+<ul>
+  <li>숨겨진 파일 포함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich upload --include-hidden --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span></p>

@@ -1,0 +1,29 @@
+<h1 id="lpoptions">lpoptions</h1>
+
+<p>Exibe ou define opções e padrões de uma impressora.
+Veja também: <code class="language-plaintext highlighter-rouge">lpadmin</code>.
+Mais informações: <a href="https://openprinting.github.io/cups/doc/man-lpoptions.html">https://openprinting.github.io/cups/doc/man-lpoptions.html</a>.</p>
+
+<ul>
+  <li>Define a impressora padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpoptions -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">impressora[/instância]</span></p>
+
+<ul>
+  <li>Lista opções específicas de uma impressora:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpoptions -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">impressora</span><code class="language-plaintext highlighter-rouge"> -l</code></p>
+
+<ul>
+  <li>Define uma nova opção em uma impressora:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpoptions -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">impressora</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opção[=valor]</span></p>
+
+<ul>
+  <li>Exclui as opções de uma impressora específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpoptions -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">impressora</span><code class="language-plaintext highlighter-rouge"> -x</code></p>

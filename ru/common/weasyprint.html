@@ -1,0 +1,34 @@
+<h1 id="weasyprint">weasyprint</h1>
+
+<p>Переводить HTML в PDF или PNG.
+Больше информации: <a href="https://weasyprint.org/">https://weasyprint.org/</a>.</p>
+
+<ul>
+  <li>Перевести HTML файл в PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/входного.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/выходного.pdf</span></p>
+
+<ul>
+  <li>Перевести HTML файл в PNG, включая дополнительные пользовательские таблицы стилей:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/входного.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/выходного.png</span><code class="language-plaintext highlighter-rouge"> --stylesheet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/таблицы-стилей.css</span></p>
+
+<ul>
+  <li>При переводе выводить дополнительную отладочную информацию:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/входного.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/выходного.pdf</span><code class="language-plaintext highlighter-rouge"> --verbose</code></p>
+
+<ul>
+  <li>При выводе в PNG указать нестандартное разрешение:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/входного.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/выходного.png</span><code class="language-plaintext highlighter-rouge"> --resolution </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span></p>
+
+<ul>
+  <li>Во входном HTML файле указать базовый URL для относительных URLs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/входного.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/выходного.png</span><code class="language-plaintext highlighter-rouge"> --base-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_или_имя-файла</span></p>

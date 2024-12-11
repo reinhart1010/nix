@@ -1,0 +1,23 @@
+<h1 id="zip2john">zip2john</h1>
+
+<p>Extract password hashes from Zip archives for use with John the Ripper password cracker.
+This is a utility tool usually installed as part of the John the Ripper installation.
+More information: <a href="https://www.openwall.com/john/">https://www.openwall.com/john/</a>.</p>
+
+<ul>
+  <li>Extract the password hash from an archive, listing all files in the archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip2john </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zip</span></p>
+
+<ul>
+  <li>Extract the password hash using [o]nly a specific compressed file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip2john -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zip</span></p>
+
+<ul>
+  <li>Extract the password hash from a compressed file to a specific file (for use with John the Ripper):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip2john -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zip</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.hash</span></p>

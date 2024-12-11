@@ -1,0 +1,23 @@
+<h1 id="f3fix">f3fix</h1>
+
+<p>Edit the partition table of a fake flash drive.
+See also: <code class="language-plaintext highlighter-rouge">f3probe</code>, <code class="language-plaintext highlighter-rouge">f3write</code>, <code class="language-plaintext highlighter-rouge">f3read</code>.
+More information: <a href="https://oss.digirati.com.br/f3/">https://oss.digirati.com.br/f3/</a>.</p>
+
+<ul>
+  <li>Fill a fake flash drive with a single partition that matches its real capacity:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo f3fix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/device_name</span></p>
+
+<ul>
+  <li>Mark the partition as bootable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo f3fix --boot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/device_name</span></p>
+
+<ul>
+  <li>Specify the filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo f3fix --fs-type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/device_name</span></p>

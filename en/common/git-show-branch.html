@@ -1,0 +1,52 @@
+<h1 id="git-show-branch">git show-branch</h1>
+
+<p>Show branches and their commits.
+More information: <a href="https://git-scm.com/docs/git-show-branch">https://git-scm.com/docs/git-show-branch</a>.</p>
+
+<ul>
+  <li>Show a summary of the latest commit on a branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name|ref|commit</span></p>
+
+<ul>
+  <li>Compare commits in the history of multiple commits or branches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name1|ref1|commit1 branch_name2|ref2|commit2 …</span></p>
+
+<ul>
+  <li>Compare all remote tracking branches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-branch --remotes</code></p>
+
+<ul>
+  <li>Compare both local and remote tracking branches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-branch --all</code></p>
+
+<ul>
+  <li>List the latest commits in all branches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-branch --all --list</code></p>
+
+<ul>
+  <li>Compare a given branch with the current branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-branch --current </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit|branch_name|ref</span></p>
+
+<ul>
+  <li>Display the commit name instead of the relative name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-branch --sha1-name --current </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">current|branch_name|ref</span></p>
+
+<ul>
+  <li>Keep going a given number of commits past the common ancestor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-branch --more </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit|branch_name|ref</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit|branch_name|ref</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span></p>

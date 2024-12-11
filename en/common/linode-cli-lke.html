@@ -1,0 +1,35 @@
+<h1 id="linode-cli-lke">linode-cli lke</h1>
+
+<p>Manage Linode Kubernetes Engine (LKE) clusters.
+See also: <code class="language-plaintext highlighter-rouge">linode-cli</code>.
+More information: <a href="https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-lke">https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-lke</a>.</p>
+
+<ul>
+  <li>List all LKE clusters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli lke clusters list</code></p>
+
+<ul>
+  <li>Create a new LKE cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli lke clusters create --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge"> --node-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_type</span><code class="language-plaintext highlighter-rouge"> --nodes-count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span></p>
+
+<ul>
+  <li>View details of a specific LKE cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli lke clusters view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_id</span></p>
+
+<ul>
+  <li>Update an existing LKE cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli lke clusters update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_id</span><code class="language-plaintext highlighter-rouge"> --node-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_node_type</span></p>
+
+<ul>
+  <li>Delete an LKE cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli lke clusters delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_id</span></p>

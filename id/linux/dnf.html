@@ -1,0 +1,53 @@
+<h1 id="dnf">dnf</h1>
+
+<p>Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum).
+Lihat <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah <code class="language-plaintext highlighter-rouge">dnf</code>.
+Informasi lebih lanjut: <a href="https://dnf.readthedocs.io">https://dnf.readthedocs.io</a>.</p>
+
+<ul>
+  <li>Perbarui seluruh paket yang terpasang ke versi terbaru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf upgrade</code></p>
+
+<ul>
+  <li>Cari paket yang tersedia dengan kata-kata kunci tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_kunci1 kata_kunci2 …</span></p>
+
+<ul>
+  <li>Tampilkan informasi tentang suatu paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Pasang kumpulan paket (gunakan <code class="language-plaintext highlighter-rouge">-y</code> jawab untuk ya semua pertanyaan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1 paket2 …</span></p>
+
+<ul>
+  <li>Hapus kumpulan paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1 paket2 …</span></p>
+
+<ul>
+  <li>Tampilkan daftar semua paket yang telah terpasang:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf list --installed</code></p>
+
+<ul>
+  <li>Temukan paket mana yang menyediakan perintah tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf provides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span></p>
+
+<ul>
+  <li>Lihat informasi riwayat penugasan <code class="language-plaintext highlighter-rouge">dnf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf history</code></p>

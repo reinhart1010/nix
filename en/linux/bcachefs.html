@@ -1,0 +1,53 @@
+<h1 id="bcachefs">bcachefs</h1>
+
+<p>Manage <code class="language-plaintext highlighter-rouge">bcachefs</code> filesystems/devices.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">device</code> have their own usage documentation.
+More information: <a href="https://bcachefs-docs.readthedocs.io/en/latest/index.html">https://bcachefs-docs.readthedocs.io/en/latest/index.html</a>.</p>
+
+<ul>
+  <li>Format a partition with <code class="language-plaintext highlighter-rouge">bcachefs</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Mount a <code class="language-plaintext highlighter-rouge">bcachefs</code> filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mountpoint</span></p>
+
+<ul>
+  <li>Create a RAID 0 filesystem where an SSD acts as a cache and an HDD acts as a long-term storage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs format --label=ssd.ssd1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ssd/partition</span><code class="language-plaintext highlighter-rouge"> --label=hdd.hdd1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hdd/partition</span><code class="language-plaintext highlighter-rouge"> --replicas=1 --foreground_target=ssd --promote_target=ssd --background_target=hdd</code></p>
+
+<ul>
+  <li>Mount a multidevice filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mountpoint</span></p>
+
+<ul>
+  <li>Display disk usage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bcachefs fs usage --human-readable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mountpoint</span></p>
+
+<ul>
+  <li>Set replicas after formatting and mounting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs set-fs-option --metadata_replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --data_replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Force <code class="language-plaintext highlighter-rouge">bcachefs</code> to ensure all files are replicated:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs data rereplicate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mountpoint</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bcachefs</code></p>

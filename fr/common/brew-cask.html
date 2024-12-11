@@ -1,0 +1,56 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="brew-cask">brew –cask</h1>
+
+<p>Outil en lignes de commande pour gérer les applications macOS distribuées sous forme de binaires.
+Cette commande remplace <code class="language-plaintext highlighter-rouge">brew cask</code>, qui a été dépréciée en faveur de <code class="language-plaintext highlighter-rouge">brew --cask</code>.
+Plus d'informations : <a href="https://github.com/Homebrew/homebrew-cask">https://github.com/Homebrew/homebrew-cask</a>.</p>
+
+<ul>
+  <li>Recherche une formule (c.a.d. un package) et/ou un casks (c.a.d une application native) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texte</span></p>
+
+<ul>
+  <li>Installe un cask :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew install --cask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_cask</span></p>
+
+<ul>
+  <li>Liste les casks installés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew list --cask</code></p>
+
+<ul>
+  <li>Liste les casks installés qui ont une nouvelle version disponible :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew outdated --cask</code></p>
+
+<ul>
+  <li>Met à jour le cask précisé (si aucun nom de cask n'est précisé, tous seront mis à jour) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew upgrade --cask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_cask</span></p>
+
+<ul>
+  <li>Désinstalle un cask :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew uninstall --cask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_cask</span></p>
+
+<ul>
+  <li>Désinstalle un cask et supprime les paramètres et fichiers associés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew zap --cask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_cask</span></p>
+
+<ul>
+  <li>Affiche les informations d'un cask en particulier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew info --cask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_cask</span></p>

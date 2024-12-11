@@ -1,0 +1,40 @@
+<h1 id="chkconfig">chkconfig</h1>
+
+<p>Gerencia o runlevel dos serviços no CentOS 6.
+Mais informações: <a href="https://manned.org/chkconfig">https://manned.org/chkconfig</a>.</p>
+
+<ul>
+  <li>Exibe os serviços com os respectivos runlevels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --list</code></p>
+
+<ul>
+  <li>Exibe o runlevel de um serviço:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntpd</span></p>
+
+<ul>
+  <li>Habilita o início de um serviço durante o processo de boot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sshd</span><code class="language-plaintext highlighter-rouge"> on</code></p>
+
+<ul>
+  <li>Habilita o início do serviço durante o processo de boot para os runlevels 2, 3, 4 e 5:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2345</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sshd</span><code class="language-plaintext highlighter-rouge"> on</code></p>
+
+<ul>
+  <li>Desabilita a inicialização de um determinado serviço durante o processo de boot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntpd</span><code class="language-plaintext highlighter-rouge"> off</code></p>
+
+<ul>
+  <li>Desabilita a inicialização de um determinado serviço durante o processo de boot para o runlevel 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntpd</span><code class="language-plaintext highlighter-rouge"> off</code></p>

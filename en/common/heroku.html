@@ -1,0 +1,40 @@
+<h1 id="heroku">heroku</h1>
+
+<p>Create and manage Heroku apps.
+More information: <a href="https://www.heroku.com/">https://www.heroku.com/</a>.</p>
+
+<ul>
+  <li>Log in to your Heroku account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku login</code></p>
+
+<ul>
+  <li>Create a Heroku app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku create</code></p>
+
+<ul>
+  <li>Show logs for an app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku logs --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>
+
+<ul>
+  <li>Run a one-off process inside a dyno (Heroku virtual machine):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge"> --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>
+
+<ul>
+  <li>List dynos (Heroku virtual machines) for an app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku ps --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>
+
+<ul>
+  <li>Permanently destroy an app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku destroy --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>

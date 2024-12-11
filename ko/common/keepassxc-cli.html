@@ -1,0 +1,52 @@
+<h1 id="keepassxc-cli">keepassxc-cli</h1>
+
+<p>KeepassXC의 명령줄 인터페이스.
+더 많은 정보: <a href="https://manned.org/keepassxc-cli">https://manned.org/keepassxc-cli</a>.</p>
+
+<ul>
+  <li>항목 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터베이스_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>폴더 내용 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터베이스_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>자동 생성된 비밀번호로 항목 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli add --generate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터베이스_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">항목_이름</span></p>
+
+<ul>
+  <li>항목 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터베이스_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">항목_이름</span></p>
+
+<ul>
+  <li>항목의 비밀번호를 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli clip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터베이스_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">항목_이름</span></p>
+
+<ul>
+  <li>TOTP 코드를 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli clip --totp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터베이스_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">항목_이름</span></p>
+
+<ul>
+  <li>7개의 단어로 구성된 구문 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli diceware --words </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span></p>
+
+<ul>
+  <li>16개의 출력 가능한 ASCII 문자로 비밀번호 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli generate --lower --upper --numeric --special --length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span></p>

@@ -1,0 +1,28 @@
+<h1 id="watchexec">watchexec</h1>
+
+<p>파일이 변경될 때 임의의 명령을 실행.
+더 많은 정보: <a href="https://github.com/watchexec/watchexec">https://github.com/watchexec/watchexec</a>.</p>
+
+<ul>
+  <li>현재 디렉토리의 파일이 변경될 때 <code class="language-plaintext highlighter-rouge">ls -la</code> 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watchexec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -la</span></p>
+
+<ul>
+  <li>현재 디렉토리의 JavaScript, CSS, HTML 파일이 변경될 때 <code class="language-plaintext highlighter-rouge">make</code> 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watchexec --exts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">js,css,html</span><code class="language-plaintext highlighter-rouge"> make</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">lib</code> 또는 <code class="language-plaintext highlighter-rouge">src</code> 디렉토리의 파일이 변경될 때 <code class="language-plaintext highlighter-rouge">make</code> 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watchexec --watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lib</span><code class="language-plaintext highlighter-rouge"> --watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">src</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span></p>
+
+<ul>
+  <li>현재 디렉토리의 파일이 변경될 때 <code class="language-plaintext highlighter-rouge">my_server</code> 호출/재시작, 자식 프로세스를 중지하기 위해 <code class="language-plaintext highlighter-rouge">SIGKILL</code> 신호 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watchexec --restart --stop-signal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGKILL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_server</span></p>

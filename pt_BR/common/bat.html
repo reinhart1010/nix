@@ -1,0 +1,53 @@
+<h1 id="bat">bat</h1>
+
+<p>Imprime e concatena arquivos.
+Um clone do <code class="language-plaintext highlighter-rouge">cat</code> com realce de sintaxe e integração com Git.
+Mais informações: <a href="https://github.com/sharkdp/bat">https://github.com/sharkdp/bat</a>.</p>
+
+<ul>
+  <li>Imprime o conteúdo formatado de um arquivo para a saída padrão (stdout):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Concatena o conteúdo de vários arquivos em um arquivo destino:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/arquivo1 /caminho/para/arquivo2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/arquivo_destino</span></p>
+
+<ul>
+  <li>Remove estilizacão e desabilita páginação (<code class="language-plaintext highlighter-rouge">--style plain</code> pode ser substituído por <code class="language-plaintext highlighter-rouge">-p</code>, ou ambas as opções com <code class="language-plaintext highlighter-rouge">-pp</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --style plain --pager never </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Destaca uma linha específica ou um intervalo de linhas com uma cor de fundo diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|–highlight-line</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10|5:10|:10|10:|10:+5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Mostra caracteres não imprimíveis como espaço, tab ou nova linha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-A|–show-all</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Remove toda estilizacão exceto os números das linhas no arquivo de saída:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Realça a sintaxe de um arquivo ao definir explicitamente a linguagem (e.g. JSON):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–language</span><code class="language-plaintext highlighter-rouge"> json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/arquivo.json</span></p>
+
+<ul>
+  <li>Mostra todas as linguagens suportadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-L|–list-languages</span></p>

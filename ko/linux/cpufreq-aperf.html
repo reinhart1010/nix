@@ -1,0 +1,29 @@
+<h1 id="cpufreq-aperf">cpufreq-aperf</h1>
+
+<p>일정 시간 동안 평균 CPU 주파수를 계산합니다.
+루트 권한이 필요합니다.
+더 많은 정보: <a href="https://manned.org/cpufreq-aperf">https://manned.org/cpufreq-aperf</a>.</p>
+
+<ul>
+  <li>모든 CPU 코어와 1초 새로고침 간격으로 계산 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpufreq-aperf</code></p>
+
+<ul>
+  <li>CPU 1만 계산 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpufreq-aperf -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>모든 CPU 코어에 대해 3초 새로고침 간격으로 계산 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpufreq-aperf -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>한 번만 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cpufreq-aperf -o</code></p>

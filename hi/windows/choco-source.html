@@ -1,0 +1,46 @@
+<h1 id="choco-source">choco source</h1>
+
+<p>चॉकलेटी वाले पैकेजों के लिए स्रोत प्रबंधित करें।
+अधिक जानकारी: <a href="https://chocolatey.org/docs/commands-source">https://chocolatey.org/docs/commands-source</a>।</p>
+
+<ul>
+  <li>वर्तमान में उपलब्ध स्रोतों की सूची बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source list</code></p>
+
+<ul>
+  <li>एक नया पैकेज स्रोत जोड़ें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">यूआरएल</span></p>
+
+<ul>
+  <li>क्रेडेंशियल्स के साथ एक नया पैकेज स्रोत जोड़ें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">यूआरएल</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पासवर्ड</span></p>
+
+<ul>
+  <li>क्लाइंट प्रमाणपत्र के साथ एक नया पैकेज स्रोत जोड़ें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">यूआरएल</span><code class="language-plaintext highlighter-rouge"> --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रमाणपत्र_फ़ाइल\का\पथ</span></p>
+
+<ul>
+  <li>पैकेज स्रोत सक्षम करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source enable --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span></p>
+
+<ul>
+  <li>पैकेज स्रोत को अक्षम करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source disable --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span></p>
+
+<ul>
+  <li>पैकेज स्रोत हटाएँ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source remove --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span></p>

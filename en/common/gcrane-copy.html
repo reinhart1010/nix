@@ -1,0 +1,28 @@
+<h1 id="gcrane-copy">gcrane copy</h1>
+
+<p>Efficiently copy a remote image from source to target while retaining the digest value.
+More information: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md">https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md</a>.</p>
+
+<ul>
+  <li>Copy an image from source to target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcrane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cp|copy</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span></p>
+
+<ul>
+  <li>Set the maximum number of concurrent copies, defaults to 20:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcrane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-j|–jobs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nr_of_copies</span></p>
+
+<ul>
+  <li>Whether to recurse through repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcrane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–recursive</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcrane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

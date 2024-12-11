@@ -1,0 +1,53 @@
+<h1 id="tlp-stat">tlp-stat</h1>
+
+<p>Generate TLP status reports.
+See also <code class="language-plaintext highlighter-rouge">tlp</code>.
+More information: <a href="https://linrunner.de/tlp/usage/tlp-stat">https://linrunner.de/tlp/usage/tlp-stat</a>.</p>
+
+<ul>
+  <li>Generate status report with configuration and all active settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlp-stat</code></p>
+
+<ul>
+  <li>Show information about various devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlp-stat --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">battery|disk|processor|graphics|pcie|rfkill|usb</span></p>
+
+<ul>
+  <li>Show verbose information about devices that support verbosity:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlp-stat --verbose --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">battery|processor|pcie|usb</span></p>
+
+<ul>
+  <li>Show configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlp-stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–config</span></p>
+
+<ul>
+  <li>Monitor [p]ower supply <code class="language-plaintext highlighter-rouge">udev</code> [ev]ents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlp-stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-P|–pev</span></p>
+
+<ul>
+  <li>Show [p]ower [sup]ply diagonistics:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlp-stat --psup</code></p>
+
+<ul>
+  <li>Show [temp]eratures and fan speed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlp-stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–temp</span></p>
+
+<ul>
+  <li>Show general system information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlp-stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–system</span></p>

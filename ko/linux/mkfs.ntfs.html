@@ -1,0 +1,22 @@
+<h1 id="mkfsntfs">mkfs.ntfs</h1>
+
+<p>파티션 내에 NTFS 파일 시스템 생성.
+더 많은 정보: <a href="https://manned.org/mkfs.ntfs">https://manned.org/mkfs.ntfs</a>.</p>
+
+<ul>
+  <li>장치 b의 파티션 1 (<code class="language-plaintext highlighter-rouge">sdb1</code>) 에 NTFS 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.ntfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>볼륨 레이블을 지정하여 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.ntfs -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_레이블</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>특정 UUID로 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.ntfs -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UUID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

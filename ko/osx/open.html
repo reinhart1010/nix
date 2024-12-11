@@ -1,0 +1,46 @@
+<h1 id="open">open</h1>
+
+<p>파일, 디렉토리 및 애플리케이션을 엽니다.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/open.1.html">https://keith.github.io/xcode-man-pages/open.1.html</a>.</p>
+
+<ul>
+  <li>파일을 관련 애플리케이션으로 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.ext</span></p>
+
+<ul>
+  <li>그래픽 macOS [a]애플리케이션 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -a "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>[b]번들 식별자를 기반으로 그래픽 macOS 앱 실행 (<code class="language-plaintext highlighter-rouge">osascript</code>를 사용하여 쉽게 얻을 수 있음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.domain.application</span></p>
+
+<ul>
+  <li>현재 디렉토리를 Finder에서 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open .</code></p>
+
+<ul>
+  <li>파일을 Finder에서 [R]표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>현재 디렉토리에서 주어진 확장자의 모든 파일을 관련 애플리케이션으로 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.확장자</span></p>
+
+<ul>
+  <li>[b]번들 식별자를 통해 지정된 애플리케이션의 [n]새 인스턴스 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -n -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.domain.application</span></p>

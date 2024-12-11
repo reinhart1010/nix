@@ -1,0 +1,53 @@
+<h1 id="transmission-cli">transmission-cli</h1>
+
+<p>Een lichtgewicht, command-line BitTorrent client.
+Deze tool is verouderd, bekijk <code class="language-plaintext highlighter-rouge">transmission-remote</code>.
+Meer informatie: <a href="https://transmissionbt.com">https://transmissionbt.com</a>.</p>
+
+<ul>
+  <li>Download een specifieke torrent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|pad/naar/bestand</span></p>
+
+<ul>
+  <li>Download een torrent naar een specifieke map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --download-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/download_map</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|pad/naar/bestand</span></p>
+
+<ul>
+  <li>Maak een torrent bestand van een specifiek bestand of map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bronbestand_of_map</span></p>
+
+<ul>
+  <li>Zet de download snelheid limiet naar 50 KB/s:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --downlimit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|pad/naar/bestand</span></p>
+
+<ul>
+  <li>Zet de upload snelheid limiet naar 50 KB/s:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --uplimit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|pad/naar/bestand</span></p>
+
+<ul>
+  <li>Gebruik een specifieke poort voor verbindingen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort_nummer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|pad/naar/bestand</span></p>
+
+<ul>
+  <li>Forceer versleuteling voor alle peer-verbindingen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --encryption-required </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|pad/naar/bestand</span></p>
+
+<ul>
+  <li>Gebruik een Bluetack-geformatteerde peer blocklist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --blocklist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blocklist_url|pad/naar/blocklist</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|pad/naar/bestand</span></p>

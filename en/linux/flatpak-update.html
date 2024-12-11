@@ -1,0 +1,22 @@
+<h1 id="flatpak-update">flatpak update</h1>
+
+<p>Update flatpak applications and runtimes.
+More information: <a href="https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-update">https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-update</a>.</p>
+
+<ul>
+  <li>Update all installed applications and runtimes (use <code class="language-plaintext highlighter-rouge">-y</code> to confirm all prompts automatically):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak update</code></p>
+
+<ul>
+  <li>Update only a specific app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>Update/Downgrade to a specific commit (also see flatpak remote-info and flatpak mask):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak update --commit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">COMMIT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>

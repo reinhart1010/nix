@@ -1,0 +1,34 @@
+<h1 id="adig">adig</h1>
+
+<p>도메인 네임 시스템(DNS) 서버에서 받은 정보를 출력합니다.
+더 많은 정보: <a href="https://manned.org/adig">https://manned.org/adig</a>.</p>
+
+<ul>
+  <li>호스트 이름에 대한 A (기본) 레코드를 DNS에서 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>추가 [d]디버깅 출력 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>특정 DNS [s]서버에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.3.4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>DNS 서버에 연결할 때 특정 TCP 포트 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>DNS 서버에 연결할 때 특정 UDP 포트 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

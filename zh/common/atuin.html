@@ -1,0 +1,41 @@
+<h1 id="atuin">atuin</h1>
+
+<p>存储您的 shell 历史记录到可搜索的数据库。
+可选择在机器之间同步加密历史记录。
+更多信息：<a href="https://atuin.sh/docs/commands">https://atuin.sh/docs/commands</a>.</p>
+
+<ul>
+  <li>安装 atuin 到您的 shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eval "$(atuin init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|zsh|fish</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>从 shell 默认历史记录文件导入：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin import auto</code></p>
+
+<ul>
+  <li>搜索 shell 历史记录中指定的命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>
+
+<ul>
+  <li>使用指定的用户名，邮箱和密码在默认同步服务器注册账号：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin register -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">邮箱</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span></p>
+
+<ul>
+  <li>登录默认同步服务器：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin login -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span></p>
+
+<ul>
+  <li>与同步服务器同步历史记录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin sync</code></p>

@@ -1,0 +1,52 @@
+<h1 id="wsl">wsl</h1>
+
+<p>Windows Subsystem for Linux를 관리합니다.
+더 많은 정보: <a href="https://learn.microsoft.com/windows/wsl/reference">https://learn.microsoft.com/windows/wsl/reference</a>.</p>
+
+<ul>
+  <li>Linux 쉘 시작 (기본 배포판):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쉘_명령어</span></p>
+
+<ul>
+  <li>쉘을 사용하지 않고 Linux 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어_인수</span></p>
+
+<ul>
+  <li>특정 배포판 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --distribution </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">배포판</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쉘_명령어</span></p>
+
+<ul>
+  <li>사용 가능한 배포판 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --list</code></p>
+
+<ul>
+  <li>배포판을 <code class="language-plaintext highlighter-rouge">.tar</code> 파일로 내보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">배포판</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\배포판_파일이름.tar</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.tar</code> 파일에서 배포판 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">배포판</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\설치_위치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\배포판_파일이름.tar</span></p>
+
+<ul>
+  <li>특정 배포판에 대해 사용되는 wsl 버전 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --set-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">배포판</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전</span></p>
+
+<ul>
+  <li>Windows Subsystem for Linux 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --shutdown</code></p>

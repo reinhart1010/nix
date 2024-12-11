@@ -1,0 +1,28 @@
+<h1 id="choco-apikey">choco apikey</h1>
+
+<p>Verwalte die API-Schlüssel für die Quellen von Chocolatey.
+Weitere Informationen: <a href="https://chocolatey.org/docs/commands-apikey">https://chocolatey.org/docs/commands-apikey</a>.</p>
+
+<ul>
+  <li>Gib eine Liste von Quellen und ihren API-Schlüsseln aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco apikey</code></p>
+
+<ul>
+  <li>Zeige eine bestimmte Quelle und ihren API-Schlüssel an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco apikey --source "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quell_url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Setze den API-Schlüssel für eine Quelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco apikey --source "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quell_url</span><code class="language-plaintext highlighter-rouge">" --key "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">api_schluessel</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Entferne den API-Schlüssel einer Quelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco apikey --source "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quell_url</span><code class="language-plaintext highlighter-rouge">" --remove</code></p>
