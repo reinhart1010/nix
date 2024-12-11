@@ -3,7 +3,7 @@ layout: page
 title: windows/shutdown (中文)
 description: "用于关闭、重启或注销计算机的工具。"
 content_hash: d4476965df0e4022447ad22aa78299d25e354ee7
-last_modified_at: 2024-12-10
+last_modified_at: 2024-12-11
 related_topics:
   - title: English version
     url: /en/windows/shutdown.html
@@ -14,12 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/windows/shutdown.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># shutdown
+# shutdown
 
 用于关闭、重启或注销计算机的工具。
 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown>.

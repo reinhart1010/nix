@@ -3,7 +3,7 @@ layout: page
 title: windows/whoami (中文)
 description: "显示当前用户的详细信息。"
 content_hash: 6980f57309f1d754458d6b74e64cc0d6ceac7a42
-last_modified_at: 2024-12-10
+last_modified_at: 2024-12-11
 related_topics:
   - title: English version
     url: /en/windows/whoami.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/whoami.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># whoami
+# whoami
 
 显示当前用户的详细信息。
 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.

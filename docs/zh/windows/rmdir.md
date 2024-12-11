@@ -3,7 +3,7 @@ layout: page
 title: windows/rmdir (中文)
 description: "删除目录及其内容。"
 content_hash: a6d96421baa73f532024f99c95218b8742623798
-last_modified_at: 2024-12-10
+last_modified_at: 2024-12-11
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -20,12 +20,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rmdir.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rmdir
+# rmdir
 
 删除目录及其内容。
 在 PowerShell 中，此命令是 `Remove-Item` 的别名。此文档基于 `cmd` 版本的 `rmdir`。

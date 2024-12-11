@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (English)
 description: "Main Git command for working with branches."
-content_hash: 9e15324402c3fcb5e718813c22afe47aeacf6464
-last_modified_at: 2024-09-03
+content_hash: 4fbe7fa6d986bb640a05653346b4aa15ef7eb7c3
+last_modified_at: 2024-12-11
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -59,11 +59,11 @@ More information: <https://git-scm.com/docs/git-branch>.
 
 `git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span>
 
-- Rename a branch (must not have it checked out to do this):
+- Rename a branch (you must switch to a different branch before doing this):
 
 `git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--move</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_branch_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_branch_name</span>
 
-- Delete a local branch (must not have it checked out to do this):
+- Delete a local branch (you must switch to a different branch before doing this):
 
 `git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|--delete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
 
