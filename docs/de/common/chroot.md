@@ -2,8 +2,8 @@
 layout: page
 title: common/chroot (Deutsch)
 description: "Führe einen Befehl oder eine interaktive Shell mit einem speziellen root-Verzeichnis aus."
-content_hash: 58450b5173ce9355d0935156084b18ced51d201c
-last_modified_at: 2024-05-05
+content_hash: d8762769463fdb1d8abc099e62d42318d4240959
+last_modified_at: 2024-12-12
 related_topics:
   - title: English version
     url: /en/common/chroot.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # chroot
 
 Führe einen Befehl oder eine interaktive Shell mit einem speziellen root-Verzeichnis aus.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/chroot>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>.
 
 - Führe einen Befehl mit einem neuen root-Verzeichnis aus:
 

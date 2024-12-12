@@ -2,8 +2,8 @@
 layout: page
 title: common/chroot (한국어)
 description: "특수 루트 디렉토리를 사용하여 명령 또는 대화형 쉘 실행."
-content_hash: 9849b70dfe27f18c476ec5cee505c0308310917c
-last_modified_at: 2023-11-12
+content_hash: 4f232e5d4a95123a74437fee27e9922289e9cb6e
+last_modified_at: 2024-12-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # chroot
 
 특수 루트 디렉토리를 사용하여 명령 또는 대화형 쉘 실행.
-더 많은 정보: <https://www.gnu.org/software/coreutils/chroot>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>.
 
 - 새로운 루트 디렉토리로 명령어 실행:
 

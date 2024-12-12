@@ -2,8 +2,8 @@
 layout: page
 title: common/chgrp (English)
 description: "Change group ownership of files and directories."
-content_hash: d7f27c29bbb3b50a1a81f355ff9ff61d52e942d2
-last_modified_at: 2024-04-19
+content_hash: 3331b338b6c267816396d01c3994dc4bcb48c686
+last_modified_at: 2024-12-12
 related_topics:
   - title: français version
     url: /fr/common/chgrp.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # chgrp
 
 Change group ownership of files and directories.
-More information: <https://www.gnu.org/software/coreutils/chgrp>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
 - Change the owner group of a file/directory:
 

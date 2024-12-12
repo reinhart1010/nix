@@ -2,8 +2,8 @@
 layout: page
 title: common/chroot (italiano)
 description: "Esegui un comando o una shell interattiva con una speciale directory root."
-content_hash: 2ba44fe39d209755bcb4745383a0712d44eb5744
-last_modified_at: 2023-11-12
+content_hash: f1bfa19c126511f30d7130f58283864cb7e76bdf
+last_modified_at: 2024-12-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # chroot
 
 Esegui un comando o una shell interattiva con una speciale directory root.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/chroot>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>.
 
 - Esegui un comando con una diversa directory root:
 

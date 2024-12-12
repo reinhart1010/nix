@@ -2,8 +2,8 @@
 layout: page
 title: common/chgrp (한국어)
 description: "파일 및 디렉토리의 그룹 소유권 변경."
-content_hash: 2b16f24e4a93ad87dbdef798925e6e6215cb164f
-last_modified_at: 2024-10-13
+content_hash: b9beaf4d161c3c1706638e13adf8ef73f44f87e0
+last_modified_at: 2024-12-12
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # chgrp
 
 파일 및 디렉토리의 그룹 소유권 변경.
-더 많은 정보: <https://www.gnu.org/software/coreutils/chgrp>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
 - 파일/디렉토리의 소유 그룹 변경:
 

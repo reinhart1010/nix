@@ -2,8 +2,8 @@
 layout: page
 title: common/chgrp (Nederlands)
 description: "Verander beheerdersgroep van bestanden en mappen."
-content_hash: c5914d76a5d54253f98c5200a69ec53501ea00f3
-last_modified_at: 2024-05-04
+content_hash: 9c2a653098b2f2cbedc96b5916c6c68ac156a0f9
+last_modified_at: 2024-12-12
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # chgrp
 
 Verander beheerdersgroep van bestanden en mappen.
-Meer informatie: <https://www.gnu.org/software/coreutils/chgrp>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
 - Verander beheerdergroep van een bestand of map:
 

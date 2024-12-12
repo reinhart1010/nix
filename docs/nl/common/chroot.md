@@ -2,8 +2,8 @@
 layout: page
 title: common/chroot (Nederlands)
 description: "Voer commando of interactieve shell uit met een speciale hoofdmap."
-content_hash: 38a1ca5e63726cbb6594d997427bbfdbf538632d
-last_modified_at: 2023-11-12
+content_hash: 1c9131bb40da36617f53a28165921190db2ba1ab
+last_modified_at: 2024-12-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # chroot
 
 Voer commando of interactieve shell uit met een speciale hoofdmap.
-Meer informatie: <https://www.gnu.org/software/coreutils/chroot>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>.
 
 - Voer commando uit met gegeven hoofdmap:
 

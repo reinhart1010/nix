@@ -2,8 +2,8 @@
 layout: page
 title: common/chroot (français)
 description: "Exécute une commande ou un shell interactif avec un répertoire racine spécial."
-content_hash: 2e49ac3f164ad0522d1fd7b8fbdfd16acb68e6dc
-last_modified_at: 2023-11-12
+content_hash: 6206cc5f180871b9eff3a8a26cbeaaced92e69a9
+last_modified_at: 2024-12-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # chroot
 
 Exécute une commande ou un shell interactif avec un répertoire racine spécial.
-Plus d'informations : <https://www.gnu.org/software/coreutils/chroot>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>.
 
 - Exécute la commande en tant que nouveau répertoire racine :
 

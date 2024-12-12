@@ -2,8 +2,8 @@
 layout: page
 title: common/chgrp (français)
 description: "Change la propriété de groupe des fichiers et des répertoires."
-content_hash: 8d8cf1800d7334f10889c24573920ff0269c1683
-last_modified_at: 2024-10-13
+content_hash: bd595f7d13e50b1b7567013be9ea848ff9cd0af1
+last_modified_at: 2024-12-12
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # chgrp
 
 Change la propriété de groupe des fichiers et des répertoires.
-Plus d'informations : <https://www.gnu.org/software/coreutils/chgrp>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
 - Change le groupe propriétaire d'un fichier/répertoire :
 

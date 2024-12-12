@@ -2,8 +2,8 @@
 layout: page
 title: common/chgrp (italiano)
 description: "Cambia il gruppo proprietario di file e directory."
-content_hash: c7dc7eece7a23ccaa843add143c88b3a2d3b06d9
-last_modified_at: 2024-10-13
+content_hash: 7d4028cb5b5835d23dda82011fb013bffe6f427b
+last_modified_at: 2024-12-12
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # chgrp
 
 Cambia il gruppo proprietario di file e directory.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/chgrp>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
 - Cambia il gruppo proprietario di un file/directory:
 

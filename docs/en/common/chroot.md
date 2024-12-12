@@ -2,8 +2,8 @@
 layout: page
 title: common/chroot (English)
 description: "Run command or interactive shell with special root directory."
-content_hash: c9d7c87c9c7fb6eda1bbdfcc5107fb7e40ea7111
-last_modified_at: 2024-01-24
+content_hash: 87db5961d43fadfcefe099fb9b0421ec7f906933
+last_modified_at: 2024-12-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # chroot
 
 Run command or interactive shell with special root directory.
-More information: <https://www.gnu.org/software/coreutils/chroot>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>.
 
 - Run command as new root directory:
 
