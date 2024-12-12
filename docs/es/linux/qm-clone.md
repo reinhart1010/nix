@@ -3,7 +3,7 @@ layout: page
 title: linux/qm-clone (español)
 description: "Crea una copia de la máquina virtual en el Administrador de Máquinas Virtuales QEMU/KVM."
 content_hash: 60dadb8c500636b9d94c1a45d3ba6352289e4279
-last_modified_at: 2024-12-11
+last_modified_at: 2024-12-12
 related_topics:
   - title: English version
     url: /en/linux/qm-clone.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/qm-clone.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/qm-clone.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qm clone
+# qm clone
 
 Crea una copia de la máquina virtual en el Administrador de Máquinas Virtuales QEMU/KVM.
 Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.

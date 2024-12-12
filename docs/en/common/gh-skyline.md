@@ -3,19 +3,10 @@ layout: page
 title: common/gh-skyline (English)
 description: "Generate a 3D model of your GitHub contribution history."
 content_hash: 7e3e66934ebe34a6294448fef2f05d3c54eb15b5
-last_modified_at: 2024-12-11
-tldri18n_status: 0
+last_modified_at: 2024-12-12
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gh-skyline.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gh skyline
+# gh skyline
 
 Generate a 3D model of your GitHub contribution history.
 By default, it will create a `{username}-{year}-github-skyline.stl` file in the current directory.

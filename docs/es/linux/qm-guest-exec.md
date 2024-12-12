@@ -3,7 +3,7 @@ layout: page
 title: linux/qm-guest-exec (español)
 description: "Ejecuta una orden específica a través de un agente huésped."
 content_hash: 61523e9ebaac3cd7f0e03ef07b222494f7e5ee69
-last_modified_at: 2024-12-11
+last_modified_at: 2024-12-12
 related_topics:
   - title: English version
     url: /en/linux/qm-guest-exec.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/qm-guest-exec.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/qm-guest-exec.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qm guest exec
+# qm guest exec
 
 Ejecuta una orden específica a través de un agente huésped.
 Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.

@@ -3,7 +3,7 @@ layout: page
 title: common/complete (español)
 description: "Autocompleta argumentos para comandos de la interfaz interactiva (shell)."
 content_hash: 452351c24a8d43080ddb0c310b08a33950833172
-last_modified_at: 2024-12-11
+last_modified_at: 2024-12-12
 related_topics:
   - title: English version
     url: /en/common/complete.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/complete.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/complete.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># complete
+# complete
 
 Autocompleta argumentos para comandos de la interfaz interactiva (shell).
 Más información: <https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html>.

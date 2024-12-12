@@ -3,7 +3,7 @@ layout: page
 title: common/gum (español)
 description: "Produce guiones glamorosos para el intérprete de comando."
 content_hash: dd7b2bbd3d3604d488b5b0b47bf48c3bf34911f0
-last_modified_at: 2024-12-11
+last_modified_at: 2024-12-12
 related_topics:
   - title: English version
     url: /en/common/gum.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/gum.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gum.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gum
+# gum
 
 Produce guiones glamorosos para el intérprete de comando.
 Más información: <https://github.com/charmbracelet/gum>.

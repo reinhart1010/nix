@@ -3,7 +3,7 @@ layout: page
 title: linux/ip-neighbour (español)
 description: "Subcomando de gestión de tablas IP de vecinos/ARP."
 content_hash: 7f44a71b7976bf260ca4bd750712157aeb955174
-last_modified_at: 2024-12-11
+last_modified_at: 2024-12-12
 related_topics:
   - title: English version
     url: /en/linux/ip-neighbour.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/ip-neighbour.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ip-neighbour.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ip neighbour
+# ip neighbour
 
 Subcomando de gestión de tablas IP de vecinos/ARP.
 Más información: <https://manned.org/ip-neighbour.8>.
