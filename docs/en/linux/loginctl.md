@@ -2,8 +2,8 @@
 layout: page
 title: linux/loginctl (English)
 description: "Manage the systemd login manager."
-content_hash: 4d6ea8012f5a34455e1b3b96c049ef85dfbc7f62
-last_modified_at: 2023-11-12
+content_hash: 0f83a8fbcaab2cc55886f9de297fb956cecd7d84
+last_modified_at: 2024-12-12
 related_topics:
   - title: polski version
     url: /pl/linux/loginctl.html
@@ -34,3 +34,7 @@ More information: <https://www.freedesktop.org/software/systemd/man/loginctl.htm
 - Execute a `loginctl` operation on a remote host:
 
 `loginctl list-users -H `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span>
+
+- Log a user out on all of their sessions:
+
+`loginctl terminate-user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
