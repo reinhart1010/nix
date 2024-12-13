@@ -2,8 +2,8 @@
 layout: page
 title: common/cksum (Nederlands)
 description: "Bereken de CRC checksums en het aantal bytes van een bestand."
-content_hash: 20db9ca570c7a571b50dab7bb80152c465639eb3
-last_modified_at: 2024-06-19
+content_hash: 1122d554d5ab1ae0dc55fea44dbc49a3be71d504
+last_modified_at: 2024-12-13
 related_topics:
   - title: English version
     url: /en/common/cksum.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Bereken de CRC checksums en het aantal bytes van een bestand.
 Let op: op oudere UNIX systemen kan de CRC implementatie verschillen.
-Meer informatie: <https://www.gnu.org/software/coreutils/cksum>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/cksum-invocation.html>.
 
 - Toon een 32-bit checksum, grootte in bytes en bestandsnaam:
 

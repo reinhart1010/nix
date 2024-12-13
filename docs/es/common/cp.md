@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (español)
 description: "Copia archivos y directorios."
-content_hash: 16a210a4100f97f879bf672b8e2f893fad83e74d
-last_modified_at: 2024-11-12
+content_hash: 73dd4cb583869996167fce9a4919bdd9df3e3b8c
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -64,7 +64,7 @@ tldri18n_status: 2
 # cp
 
 Copia archivos y directorios.
-Más información: <https://www.gnu.org/software/coreutils/cp>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copia un archivo a otra ubicación:
 

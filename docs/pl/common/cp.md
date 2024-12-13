@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (polski)
 description: "Kopiuje pliki i katalogi."
-content_hash: 6eaf2309a1ad1d350f3f2552ce58dad5c1023e0d
-last_modified_at: 2023-11-12
+content_hash: f43ea2104ccacdb0cf852e64eeba3b0cc96d95f8
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -41,6 +41,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/cp.html
     icon: bi bi-globe
@@ -64,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 Kopiuje pliki i katalogi.
-Więcej informacji: <https://www.gnu.org/software/coreutils/cp>.
+Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Kopiuj plik do innej lokalizacji:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (Deutsch)
 description: "Kopiere Dateien und Verzeichnisse."
-content_hash: afe1fd41c36be1d54afde7d99433f21aa1073210
-last_modified_at: 2023-11-12
+content_hash: ff1485584320b747a8d6bd97f52833198ec7137e
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -64,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 Kopiere Dateien und Verzeichnisse.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/cp>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Kopiere eine Datei an einen anderen Ort:
 

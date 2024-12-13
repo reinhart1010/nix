@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (한국어)
 description: "파일과 디렉터리를 복사합니다."
-content_hash: 31511e2241c2498ea72dcc12f1d53a6b76f6f8f8
-last_modified_at: 2024-11-09
+content_hash: 50a626b3325214decc78e0a4086c1261c1c9f4cb
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # cp
 
 파일과 디렉터리를 복사합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/cp>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - 파일을 다른 위치로 복사:
 

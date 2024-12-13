@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (português (Brasil))
 description: "Copia arquivos e diretórios."
-content_hash: adbda516e84857362e9a2277cee10d3bd6cc8e9f
-last_modified_at: 2023-11-12
+content_hash: e1f82b6beaccdb2297b835f9c138042d754120eb
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -41,6 +41,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # cp
 
 Copia arquivos e diretórios.
-Mais informações: <https://www.gnu.org/software/coreutils/cp>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copia um arquivo para outra localização:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (italiano)
 description: "Copia file e directory."
-content_hash: 1d8f859604e39dff00b075ff155444ab5c8e6a41
-last_modified_at: 2023-11-12
+content_hash: 33e4bf85a6b2129d949ba8fb2f566764134b43c3
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 Copia file e directory.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/cp>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copia un file in un'altra posizione:
 

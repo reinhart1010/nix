@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (català)
 description: "Copia fitxers i directoris."
-content_hash: 977803b15db12d197f76554d55b013752e43c0ea
-last_modified_at: 2023-11-12
+content_hash: e6c73172bcd873f820ee8c1cf754b3b3e09d14b1
+last_modified_at: 2024-12-13
 related_topics:
   - title: Deutsch version
     url: /de/common/cp.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -64,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 Copia fitxers i directoris.
-Més informació: <https://www.gnu.org/software/coreutils/cp>.
+Més informació: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copia un fitxer a un altre directori:
 

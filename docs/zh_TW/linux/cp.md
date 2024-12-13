@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (中文 (繁體, 台灣))
 description: "複製檔案與資料夾。"
-content_hash: ee8e87fe87283000ed59b6cd5d8880aa5b63de40
-last_modified_at: 2023-11-12
+content_hash: 909a363f5850a5a03ab050c148c7f0f804346acb
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 複製檔案與資料夾。
-更多資訊：<https://www.gnu.org/software/coreutils/cp>.
+更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - 複製一個檔案到新位置，並重新命名：
 

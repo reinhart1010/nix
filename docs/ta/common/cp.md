@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (தமிழ்)
 description: "கோப்புகளையோ அடைவுகளையோ நகலெடு."
-content_hash: 6d8e7682e7828cf77f8147d45762a91d715cad39
-last_modified_at: 2023-11-13
+content_hash: 135a5b4270bf513dbd717d8aa1904adebbde0a95
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -41,6 +41,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # cp
 
 கோப்புகளையோ அடைவுகளையோ நகலெடு.
-மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/cp>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - கோப்பை நகலெடு:
 

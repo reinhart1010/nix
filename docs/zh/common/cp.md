@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (中文)
 description: "复制文件和目录。"
-content_hash: 09397be94d2f9df9947ae228373f530a411fb968
-last_modified_at: 2024-11-28
+content_hash: d0a2188d229fc8626ecf87ba45c28e3c01a540e1
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -64,7 +64,7 @@ tldri18n_status: 2
 # cp
 
 复制文件和目录。
-更多信息：<https://www.gnu.org/software/coreutils/cp>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - 将文件复制到另一个位置：
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (हिन्दी)
 description: "फाइलों और निर्देशिकाओं की प्रतिलिपि बनाएँ।"
-content_hash: 772ad11a09fd9089c1684a1ccf191354fa49d9f6
-last_modified_at: 2023-11-12
+content_hash: 03e390652bca03fdc6f51bfdc82bd6f6dcc12acf
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -64,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 फाइलों और निर्देशिकाओं की प्रतिलिपि बनाएँ।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/cp>।
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>।
 
 - किसी फ़ाइल को दूसरे स्थान पर कॉपी करें:
 

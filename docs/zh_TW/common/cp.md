@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (中文 (繁體, 台灣))
 description: "複製檔案或整個目錄。"
-content_hash: 8b56b39980d38b8f9320cc375d2ddb30a4c91ec6
-last_modified_at: 2023-11-12
+content_hash: 50a812c4fb252d5b51904108551d30cff124600f
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -41,6 +41,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -64,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 複製檔案或整個目錄。
-更多資訊：<https://www.gnu.org/software/coreutils/cp>.
+更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - 將檔案複製到另一個位置：
 

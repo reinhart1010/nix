@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (فارسی)
 description: "کپی فایل ها و دایرکتوری ها."
-content_hash: 371705da91b694316c39f6452e3465689e55b330
-last_modified_at: 2023-11-12
+content_hash: 9fae72afd6bcab158fb7191bfab56938dc21fa8f
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -64,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 کپی فایل ها و دایرکتوری ها.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/cp>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - کپی فایل از مبدا به مقصد مشخص شده:
 

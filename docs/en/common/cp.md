@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (English)
 description: "Copy files and directories."
-content_hash: 5eef61ec77680e89668695350698b0a3bde1b138
-last_modified_at: 2023-11-12
+content_hash: 85d3e867fe5212e2a7d0272070b080d97634a358
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # cp
 
 Copy files and directories.
-More information: <https://www.gnu.org/software/coreutils/cp>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copy a file to another location:
 

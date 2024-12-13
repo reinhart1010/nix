@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (Deutsch)
 description: "Kopiere Dateien und Verzeichnisse."
-content_hash: cdaf75c6da833210da7b1157cb81c8e71640562e
-last_modified_at: 2024-10-07
+content_hash: 422196335c5187d35bf1808595110c2f827c9e89
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 Kopiere Dateien und Verzeichnisse.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/cp>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Kopiere eine Datei an einen anderen Ort:
 

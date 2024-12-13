@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (français)
 description: "Copie des fichiers et des répertoires."
-content_hash: c0394809015df90472d1079336cf88cde0ed3b05
-last_modified_at: 2023-11-12
+content_hash: 8cf8019c886575d8ba69fb067b34fd82e19e6ee5
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -64,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 Copie des fichiers et des répertoires.
-Plus d'informations : <https://www.gnu.org/software/coreutils/cp>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copier un fichier vers un autre emplacement :
 

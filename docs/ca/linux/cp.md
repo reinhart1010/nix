@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (català)
 description: "Còpia arxius i directoris."
-content_hash: 567c3e1e5b058cb0fc8ec379fee4d794898776c8
-last_modified_at: 2023-11-12
+content_hash: f9f9f0428d8707dc9840706b3839b0d403049570
+last_modified_at: 2024-12-13
 related_topics:
   - title: Deutsch version
     url: /de/linux/cp.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 Còpia arxius i directoris.
-Més informació: <https://www.gnu.org/software/coreutils/cp>.
+Més informació: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copia un arxiu a un altre directori:
 

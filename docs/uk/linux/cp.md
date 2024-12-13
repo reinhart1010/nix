@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (українська)
 description: "Скопіювати файли і папки."
-content_hash: baeb2a861bb1e5f8ecc5f8b6806961eed2ae4d0e
-last_modified_at: 2023-11-12
+content_hash: a5acab01d20da5528a687fcf9682f501aa1ba5e9
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 Скопіювати файли і папки.
-Більше інформації: <https://www.gnu.org/software/coreutils/cp>.
+Більше інформації: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Скопіювати файл в інше місце:
 

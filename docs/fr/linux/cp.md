@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (français)
 description: "Copier fichiers et répertoires."
-content_hash: 8c65f9b195d0bbf9e86fcc6e54ea5197c8bbbdad
-last_modified_at: 2023-12-20
+content_hash: c2595090e34628f296caa10b96fb623c0ca701d5
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 Copier fichiers et répertoires.
-Plus d'informations : <https://www.gnu.org/software/coreutils/cp>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copier un fichier vers un autre emplacement :
 

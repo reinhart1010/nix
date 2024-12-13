@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (Nederlands)
 description: "Kopieer bestanden en mappen."
-content_hash: 67c46776b3d1d34f011d38b45825cf43dc454a3c
-last_modified_at: 2024-06-19
+content_hash: bc342b42dce70cf0915a524eb3fc23dd8951cc0e
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # cp
 
 Kopieer bestanden en mappen.
-Meer informatie: <https://www.gnu.org/software/coreutils/cp>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Kopieer een bestand naar een andere locatie:
 

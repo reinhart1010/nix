@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (Türkçe)
 description: "Dosyaları ve dizinleri kopyalayın."
-content_hash: cd1fb2ffef025d775b11e7223987d54a8e2673e5
-last_modified_at: 2023-11-12
+content_hash: a5a3a629c92ad046967fa173e07b72cbb56a63b9
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -41,6 +41,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -64,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 Dosyaları ve dizinleri kopyalayın.
-Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/cp>.
+Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Bir dosyayı başka bir konuma kopyalayın:
 

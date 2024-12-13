@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (한국어)
 description: "파일 및 디렉토리 복사."
-content_hash: 41c8144075ec433ece8bc35ac365a2e899e7ed43
-last_modified_at: 2023-11-12
+content_hash: fcc7854d962f816d4e710d5fa3e3e95309d3d459
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -64,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 파일 및 디렉토리 복사.
-더 많은 정보: <https://www.gnu.org/software/coreutils/cp>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - 파일을 다른 위치로 복사:
 

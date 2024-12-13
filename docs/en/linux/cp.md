@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (English)
 description: "Copy files and directories."
-content_hash: f9b39cb98895efe009821711f46767a5292c7ae5
-last_modified_at: 2024-01-18
+content_hash: a00de82dde414ac8e55e576290fef1da7d87b656
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # cp
 
 Copy files and directories.
-More information: <https://www.gnu.org/software/coreutils/cp>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copy a file to another location:
 

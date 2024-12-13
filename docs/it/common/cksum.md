@@ -2,8 +2,8 @@
 layout: page
 title: common/cksum (italiano)
 description: "Calcola checksum CRC e conta i byte di un file."
-content_hash: 972c460c7626f40587ade4d13df5aa0f147f7f6c
-last_modified_at: 2023-11-12
+content_hash: 39a858803c284edbb090c418dc6a922b619a2c0f
+last_modified_at: 2024-12-13
 related_topics:
   - title: English version
     url: /en/common/cksum.html
@@ -14,6 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cksum.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cksum.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cksum.html
     icon: bi bi-globe
@@ -23,7 +26,7 @@ tldri18n_status: 2
 
 Calcola checksum CRC e conta i byte di un file.
 Nota: in vecchi sistemi UNIX l'implementazione di CRC potrebbe essere diversa.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/cksum>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/cksum-invocation.html>.
 
 - Calcola e mostra un checksum di 32 bit, dimensione in byte e nome del file:
 

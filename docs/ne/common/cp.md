@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (नेपाली)
 description: "फाइलहरू र डिरेक्टोरीहरू सार्नुहोस।"
-content_hash: 6b0eddb461d7c136be803836fd2a2855600d2d79
-last_modified_at: 2023-11-12
+content_hash: d2860977afdfb546da03a19328c48b212674cf31
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -38,6 +38,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -64,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 फाइलहरू र डिरेक्टोरीहरू सार्नुहोस।
-थप जानकारी: <https://www.gnu.org/software/coreutils/cp>।
+थप जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>।
 
 - एउटा स्थान बाट अर्को स्थानमा फाइलहरु सार्नुहोस:
 

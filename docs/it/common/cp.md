@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (italiano)
 description: "Copia file e directory."
-content_hash: db410ee056f677a9a280fe98f00ec8b049662f00
-last_modified_at: 2023-11-12
+content_hash: 9375835610e1c08ab42ce60620af96349e1187d8
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/cp.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
     icon: bi bi-globe
@@ -64,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 Copia file e directory.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/cp>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copia un file in un'altra posizione:
 

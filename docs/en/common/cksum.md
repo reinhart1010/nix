@@ -2,8 +2,8 @@
 layout: page
 title: common/cksum (English)
 description: "Calculate CRC checksums and byte counts of a file."
-content_hash: 12d74e2248d025f27a9b9abafe7b718c11b7a089
-last_modified_at: 2024-02-15
+content_hash: d0c832d32eec496aa9c05ff8367112863420174c
+last_modified_at: 2024-12-13
 related_topics:
   - title: हिन्दी version
     url: /hi/common/cksum.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Calculate CRC checksums and byte counts of a file.
 Note: on old UNIX systems the CRC implementation may differ.
-More information: <https://www.gnu.org/software/coreutils/cksum>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/cksum-invocation.html>.
 
 - Display a 32-bit checksum, size in bytes and filename:
 

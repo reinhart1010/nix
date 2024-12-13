@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (Nederlands)
 description: "Kopieer bestanden en directories."
-content_hash: 1437b650fb524713b1ac436106696333efaef08f
-last_modified_at: 2024-08-13
+content_hash: 21659fbef8879b9cc6f417d13caec430ec1a7440
+last_modified_at: 2024-12-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -64,7 +64,7 @@ tldri18n_status: 2
 # cp
 
 Kopieer bestanden en directories.
-Meer informatie: <https://www.gnu.org/software/coreutils/cp>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Kopieer een bestand naar een andere locatie:
 
