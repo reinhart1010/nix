@@ -3,14 +3,17 @@ layout: page
 title: linux/loginctl (polski)
 description: "Zarządzaj menedżerem logowania systemd."
 content_hash: 507226cbff303593d0a9169583e946f098b65258
-last_modified_at: 2023-11-12
+last_modified_at: 2024-12-13
 related_topics:
   - title: English version
     url: /en/linux/loginctl.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# loginctl
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># loginctl
 
 Zarządzaj menedżerem logowania systemd.
 Więcej informacji: <https://www.freedesktop.org/software/systemd/man/loginctl.html>.

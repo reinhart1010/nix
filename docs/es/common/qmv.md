@@ -3,7 +3,7 @@ layout: page
 title: common/qmv (español)
 description: "Mueve archivos y directorios usando el editor de texto predeterminado para definir los nombres de archivos."
 content_hash: 20c8079850a5ef9f8fa4f67fe5bfd53403db6b02
-last_modified_at: 2024-12-12
+last_modified_at: 2024-12-13
 related_topics:
   - title: English version
     url: /en/common/qmv.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/qmv.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/qmv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qmv
+# qmv
 
 Mueve archivos y directorios usando el editor de texto predeterminado para definir los nombres de archivos.
 Más información: <https://www.nongnu.org/renameutils/>.
