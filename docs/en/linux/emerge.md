@@ -2,8 +2,8 @@
 layout: page
 title: linux/emerge (English)
 description: "Gentoo Linux package manager utility."
-content_hash: eee120cb9ce8cab358f9141bff6229fd7f9c9808
-last_modified_at: 2024-11-30
+content_hash: 45b03653b952a73acaceb08152b199c4459a18ae
+last_modified_at: 2024-12-14
 related_topics:
   - title: 한국어 version
     url: /ko/linux/emerge.html
@@ -22,7 +22,7 @@ More information: <https://wiki.gentoo.org/wiki/Portage#emerge>.
 
 - Update all packages, including dependencies:
 
-`sudo emerge -uDNav @world`
+`sudo emerge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-avuDN|--ask --verbose --update --deep --newuse</span>` @world`
 
 - Resume a failed updated, skipping the failing package:
 
@@ -30,16 +30,16 @@ More information: <https://wiki.gentoo.org/wiki/Portage#emerge>.
 
 - Install a new package, with confirmation:
 
-`sudo emerge -av `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo emerge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-av|--ask --verbose</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Remove a package, with confirmation:
+- Remove a package and its dependencies with confirmation:
 
-`sudo emerge -Cav `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo emerge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-avc|--ask --verbose --depclean</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Remove orphaned packages (that were installed only as dependencies):
+- Remove orphaned packages (installed as dependencies but no longer required by any package):
 
-`sudo emerge -avc`
+`sudo emerge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-avc|--ask --verbose --depclean</span>
 
 - Search the package database for a keyword:
 
-`emerge -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span>
+`emerge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-S|--searchdesc</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span>
