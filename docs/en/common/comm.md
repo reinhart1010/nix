@@ -2,8 +2,8 @@
 layout: page
 title: common/comm (English)
 description: "Select or reject lines common to two files. Both files must be sorted."
-content_hash: 29b5283df552f88b544d244d28e1e8be4ef7f10c
-last_modified_at: 2023-11-12
+content_hash: 59c6b0e7c7bec485df8064ad3cabd39cde179d9a
+last_modified_at: 2024-12-14
 related_topics:
   - title: italiano version
     url: /it/common/comm.html
@@ -11,12 +11,15 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/comm.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/comm.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # comm
 
 Select or reject lines common to two files. Both files must be sorted.
-More information: <https://www.gnu.org/software/coreutils/comm>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/comm-invocation.html>.
 
 - Produce three tab-separated columns: lines only in first file, lines only in second file and common lines:
 

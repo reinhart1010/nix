@@ -2,8 +2,8 @@
 layout: page
 title: common/comm (Nederlands)
 description: "Toon overeenkomstige regels tussen twee bestanden. Beide bestanden dienen gesorteerd te zijn."
-content_hash: ee4a5fb9ef4115293843784ab2925df2bf2981f7
-last_modified_at: 2024-01-10
+content_hash: 8b3890a79772a958fdab66bff33476b9787891b7
+last_modified_at: 2024-12-14
 related_topics:
   - title: English version
     url: /en/common/comm.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # comm
 
 Toon overeenkomstige regels tussen twee bestanden. Beide bestanden dienen gesorteerd te zijn.
-Meer informatie: <https://www.gnu.org/software/coreutils/comm>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/comm-invocation.html>.
 
 - Produceer drie tab-gescheiden kolommen: regels die alleen voorkomen in het eerste bestand, regels die alleen voorkomen in het tweede bestand en overeenkomstige regels tussen beide bestanden:
 

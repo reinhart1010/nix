@@ -2,8 +2,8 @@
 layout: page
 title: common/comm (italiano)
 description: "Seleziona o ignora linee comuni a due file. Entrambi i file devono essere ordinati."
-content_hash: 3ed462f51dc500d9a6ce385b6908bf183f41da56
-last_modified_at: 2023-11-12
+content_hash: 13d29c47c001b0ea60dfc87ad79730030cd2e26c
+last_modified_at: 2024-12-14
 related_topics:
   - title: English version
     url: /en/common/comm.html
@@ -11,12 +11,15 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/comm.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/comm.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # comm
 
 Seleziona o ignora linee comuni a due file. Entrambi i file devono essere ordinati.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/comm>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/comm-invocation.html>.
 
 - Produci tre colonne separate da tab: linee solo nel primo file, linee solo nel secondo file, e linee comuni ad entrambi:
 
