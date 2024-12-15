@@ -3,19 +3,10 @@ layout: page
 title: common/vitest (English)
 description: "Fast, modern testing framework built for Vite, offering seamless integration, TypeScript support, and a Jest-compatible API for unit, integration, and snapshot testing."
 content_hash: 4467af09fadd904b921c2a84d40ea2a25f1a2e3c
-last_modified_at: 2024-12-14
-tldri18n_status: 0
+last_modified_at: 2024-12-15
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vitest.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vitest
+# vitest
 
 Fast, modern testing framework built for Vite, offering seamless integration, TypeScript support, and a Jest-compatible API for unit, integration, and snapshot testing.
 More information: <https://vitest.dev/guide>.

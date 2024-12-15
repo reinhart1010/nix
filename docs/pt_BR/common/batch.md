@@ -3,7 +3,7 @@ layout: page
 title: common/batch (português (Brasil))
 description: "Este comando é um apelido de `at`."
 content_hash: bfa3b8c91d6578018a208b0f1a63545311fa525e
-last_modified_at: 2024-10-25
+last_modified_at: 2024-12-15
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -26,9 +26,12 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/batch.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# batch
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># batch
 
 Este comando é um apelido de `at`.
 

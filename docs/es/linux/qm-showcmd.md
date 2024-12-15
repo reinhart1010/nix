@@ -3,7 +3,7 @@ layout: page
 title: linux/qm-showcmd (español)
 description: "Muestra la línea de comandos que se utiliza para iniciar una máquina virtual (información de depuración)."
 content_hash: 065628a4f49a0ad14e835e62034f55a79b50d239
-last_modified_at: 2024-12-14
+last_modified_at: 2024-12-15
 related_topics:
   - title: English version
     url: /en/linux/qm-showcmd.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/qm-showcmd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/qm-showcmd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qm showcmd
+# qm showcmd
 
 Muestra la línea de comandos que se utiliza para iniciar una máquina virtual (información de depuración).
 Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.

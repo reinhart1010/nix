@@ -3,10 +3,13 @@ layout: page
 title: common/batch (português (Portugal))
 description: "Executar comandos num momento mais tarde quando a carga do sistema permitir."
 content_hash: 714a50da95ea987ba910c7589c90ee1154338876
-last_modified_at: 2024-10-17
+last_modified_at: 2024-12-15
 related_topics:
   - title: English version
     url: /en/common/batch.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/batch.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/batch.html
@@ -14,15 +17,18 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/batch.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/batch.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/batch.html
     icon: bi bi-globe
-tldri18n_status: 1
+  - title: português (Brasil) version
+    url: /pt_BR/common/batch.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># batch
+# batch
 
 Executar comandos num momento mais tarde quando a carga do sistema permitir.
 O serviço atd (ou atrun) deve correr para atuais execuções.

@@ -3,26 +3,32 @@ layout: page
 title: common/batch (italiano)
 description: "Esegui comandi nel futuro quando il carico di lavoro del sistema lo permette."
 content_hash: f872f58a6176ff49d9df5cefaf1e2f6b51383616
-last_modified_at: 2024-10-17
+last_modified_at: 2024-12-15
 related_topics:
   - title: English version
     url: /en/common/batch.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/batch.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/batch.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/batch.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/batch.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/batch.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/batch.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># batch
+# batch
 
 Esegui comandi nel futuro quando il carico di lavoro del sistema lo permette.
 Il servizio atd (o atrun) deve essere attivo per eseguire i comandi.
