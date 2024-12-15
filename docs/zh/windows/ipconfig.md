@@ -2,9 +2,12 @@
 layout: page
 title: windows/ipconfig (中文)
 description: "显示和管理 Windows 的网络配置。"
-content_hash: 8c91fed306e7fde2733e4ec7fd027f986ce64f24
-last_modified_at: 2023-11-12
+content_hash: 488e6a01143fa9e5bbb9b127350c027aa2c06a5c
+last_modified_at: 2024-12-15
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/ipconfig.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/ipconfig.html
     icon: bi bi-globe
@@ -19,6 +22,12 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/ipconfig.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/ipconfig.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/ipconfig.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/windows/ipconfig.html
@@ -52,6 +61,10 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `ipconfig /release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">适配器</span>
 
-- 清除所有 DNS 缓存：
+- 显示所有本地 DNS 缓存：
+
+`ipconfig /displaydns`
+
+- 清除所有本地 DNS 缓存：
 
 `ipconfig /flushdns`
