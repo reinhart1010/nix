@@ -3,7 +3,7 @@ layout: page
 title: windows/ipconfig (中文)
 description: "显示和管理 Windows 的网络配置。"
 content_hash: 488e6a01143fa9e5bbb9b127350c027aa2c06a5c
-last_modified_at: 2024-12-15
+last_modified_at: 2024-12-16
 related_topics:
   - title: Deutsch version
     url: /de/windows/ipconfig.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/ipconfig.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ipconfig
+# ipconfig
 
 显示和管理 Windows 的网络配置。
 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
