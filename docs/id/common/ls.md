@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (Indonesia)
 description: "Tampilkan daftar konten pada direktori."
-content_hash: 8c7f1349953843d7c7338ca9775be10b8f7b43eb
-last_modified_at: 2024-10-04
+content_hash: 3030d61240bfde0cf6aac89ed23d21d0afa14029
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 Tampilkan daftar konten pada direktori.
-Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/ls>.
+Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Tampilkan daftar isi berkas dengan satu item tiap baris:
 

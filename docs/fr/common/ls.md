@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (français)
 description: "Liste le contenu d'un répertoire."
-content_hash: 072444ac04b9e122376d222cba98a77887ba5601
-last_modified_at: 2024-10-13
+content_hash: e5e4aa8bd102653e73883662b866fccebdcd52e4
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 Liste le contenu d'un répertoire.
-Plus d'informations : <https://www.gnu.org/software/coreutils/ls>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Liste les fichiers, un par ligne :
 

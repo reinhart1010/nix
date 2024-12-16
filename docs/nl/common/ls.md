@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (Nederlands)
 description: "Toon de inhoud van een map."
-content_hash: 32b3f5530a8bccf26aa1df6577bd9980b7ecc06b
-last_modified_at: 2024-06-19
+content_hash: 97194aea0493a49394fe411a71646cddbdc538c1
+last_modified_at: 2024-12-16
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -67,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 Toon de inhoud van een map.
-Meer informatie: <https://www.gnu.org/software/coreutils/ls>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Toon één bestand per regel:
 

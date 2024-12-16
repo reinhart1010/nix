@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (中文)
 description: "列出目录中的内容。"
-content_hash: c7a1327606ee9ab0a43a831ba5877335e8498852
-last_modified_at: 2024-10-13
+content_hash: a33778635fab7ce1f06f54783f24430a4c9ad064
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 列出目录中的内容。
-更多信息：<https://www.gnu.org/software/coreutils/ls>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - 列出目录中的文件，每个文件占一行：
 

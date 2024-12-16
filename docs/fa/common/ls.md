@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (فارسی)
 description: "نمایش محتویات دایرکتوری."
-content_hash: a721bf6136c5d3db89a3322fdb3b3267cd89ecdb
-last_modified_at: 2024-10-13
+content_hash: 006f41a3c1be5015fba6978a980afbcaafba9b96
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -73,7 +73,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># ls
 
 نمایش محتویات دایرکتوری.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/ls>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - نمایش فایل ها به صورت خطی:
 

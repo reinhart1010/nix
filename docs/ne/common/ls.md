@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (नेपाली)
 description: "एउटा डिरेक्टोरीमा भएका सबै वस्तुहरुको सुची देखाउँछ।"
-content_hash: df5a28ec51bea543cd279f856b64e87c2284bd14
-last_modified_at: 2024-10-13
+content_hash: 879665199c2c34ace0871815f843fc3e23511de3
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 एउटा डिरेक्टोरीमा भएका सबै वस्तुहरुको सुची देखाउँछ।
-थप जानकारी: <https://www.gnu.org/software/coreutils/ls>।
+थप जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>।
 
 - एक लाइनमा एउटा वस्तु देखाएर फाइलहरू देखाउनुहोस्:
 

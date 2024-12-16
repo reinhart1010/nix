@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (English)
 description: "List directory contents."
-content_hash: 8645290c0f121e0e925c638e1feee289acf07b17
-last_modified_at: 2024-09-14
+content_hash: 6037b7444c8121be2f994c7014b65d753753540b
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 List directory contents.
-More information: <https://www.gnu.org/software/coreutils/ls>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - List files one per line:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (한국어)
 description: "폴더의 내용물을 리스팅합니다."
-content_hash: 62da316c5379eb5b38442a4c699024e8a34840fb
-last_modified_at: 2024-10-13
+content_hash: 443405e207d886f25a18cacf0f1a2c5d451c4238
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 폴더의 내용물을 리스팅합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/ls>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - 한줄에 하나의 파일씩 나열:
 

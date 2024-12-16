@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (ไทย)
 description: "แสดงชื่อ ขนาด หรือข้อมูลเบื้องต้นของแต่ละไฟล์หรือโฟลเดอร์"
-content_hash: 0696bcc3a9e6afefeb4c7d0431efb584e6234101
-last_modified_at: 2024-10-13
+content_hash: 3cc8c903a4ac4dd4f85b2e4d5b620c4f3cc52f12
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 แสดงชื่อ ขนาด หรือข้อมูลเบื้องต้นของแต่ละไฟล์หรือโฟลเดอร์
-ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/coreutils/ls>
+ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>
 
 - แสดงชื่อไฟล์หรือโฟลเดอร์ หนึ่งชื่อต่อบรรทัด:
 

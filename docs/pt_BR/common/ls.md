@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (português (Brasil))
 description: "Lista o conteúdo de um diretório."
-content_hash: 86af90ba724baa1d539c705fadecdebf58a8c266
-last_modified_at: 2024-10-13
+content_hash: 4e719268b40bd408e78327c42e902c0fd0cb0dae
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 Lista o conteúdo de um diretório.
-Mais informações: <https://www.gnu.org/software/coreutils/ls>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Lista arquivos um por linha:
 

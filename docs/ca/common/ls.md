@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (català)
 description: "Llista els continguts d'un directori."
-content_hash: a4711d3fed2f6d6ed925f77c1ad21361f1a7ca0d
-last_modified_at: 2024-10-13
+content_hash: f0ecfb74c1f97980854784798cb5d1100a8f2cc7
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 Llista els continguts d'un directori.
-Més informació: <https://www.gnu.org/software/coreutils/ls>.
+Més informació: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Llista els fitxers un per línia:
 

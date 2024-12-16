@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (español)
 description: "Lista los contenidos de directorios."
-content_hash: 7750dced917f35f8480737a4204e4582b1621018
-last_modified_at: 2024-06-18
+content_hash: 79219cb715a510ec19a838c10d4de2df5307c1f0
+last_modified_at: 2024-12-16
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -38,6 +41,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/ls.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
     icon: bi bi-globe
@@ -64,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 Lista los contenidos de directorios.
-Más información: <https://www.gnu.org/software/coreutils/ls>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Lista un archivo por línea:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (中文 (繁體, 台灣))
 description: "列出目錄內容。"
-content_hash: 3cb289eaf5779970efc182ad62baaf2b8868360d
-last_modified_at: 2024-10-13
+content_hash: db82253c6dfda46778b996ea7986ed9bf7740f05
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -73,7 +73,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># ls
 
 列出目錄內容。
-更多資訊：<https://www.gnu.org/software/coreutils/ls>.
+更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - 列出目錄中的檔案，其中每個檔案佔一行：
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (Deutsch)
 description: "Liste den Inhalt eines Verzeichnisses auf."
-content_hash: cf0527d437608640c732364f6005deba3cad1103
-last_modified_at: 2024-10-13
+content_hash: b22be06d98073534e8736376130eed63600cd71d
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 Liste den Inhalt eines Verzeichnisses auf.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/ls>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Liste den Inhalt in einer Datei pro Zeile auf:
 

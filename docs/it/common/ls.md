@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (italiano)
 description: "Elenca i contenuti di una directory."
-content_hash: 20ffda03fbb7de749dfb20ed186be485f21b2113
-last_modified_at: 2024-10-13
+content_hash: 27e95f1bad4f3145a517c0b15d0c8cadb6a0a618
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 Elenca i contenuti di una directory.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/ls>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Elenca i file nella directory corrente, uno per riga:
 

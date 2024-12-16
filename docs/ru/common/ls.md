@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (русский)
 description: "Вывод содержимого каталога."
-content_hash: f67ae39ff50586ed65ad41e93176ac98b8f56d1e
-last_modified_at: 2024-10-13
+content_hash: 8e9b042a5395084d506373db84fed8eab60453e8
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 Вывод содержимого каталога.
-Больше информации: <https://www.gnu.org/software/coreutils/ls>.
+Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Список файлов по одному в строке:
 

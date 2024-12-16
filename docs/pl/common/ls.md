@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (polski)
 description: "Wypisz zawartość katalogu."
-content_hash: 6da6b6f06e90398ebf168e958987aec402350c1e
-last_modified_at: 2024-06-23
+content_hash: d8261aee96edbbbaa844fe9a2d5dd5e17af8effd
+last_modified_at: 2024-12-16
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -67,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 Wypisz zawartość katalogu.
-Więcej informacji: <https://www.gnu.org/software/coreutils/ls>.
+Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Wypisz po jednym pliku w linijce:
 

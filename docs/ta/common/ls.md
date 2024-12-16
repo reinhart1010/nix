@@ -2,9 +2,12 @@
 layout: page
 title: common/ls (தமிழ்)
 description: "அடைவு உள்ளடக்கத்தைப் பட்டியலிடு."
-content_hash: bfea58868eef235f0b3cbd59bd3130d12cc4ee01
-last_modified_at: 2024-01-24
+content_hash: 970c48c3d415a6f444d5d97429a32e9cec2b9f94
+last_modified_at: 2024-12-16
 related_topics:
+  - title: العربية version
+    url: /ar/common/ls.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/ls.html
     icon: bi bi-globe
@@ -41,6 +44,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/ls.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ls.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/ls.html
     icon: bi bi-globe
@@ -64,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 அடைவு உள்ளடக்கத்தைப் பட்டியலிடு.
-மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/ls>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - கோப்புகளை வரிக்கொன்றாகப் பட்டியலிடு:
 

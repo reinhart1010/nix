@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (العربية)
 description: "إدراج محتويات مجلد."
-content_hash: 0d952bb00bb569a0a31765a4917c183e31c133df
-last_modified_at: 2024-08-23
+content_hash: 0fc0d00b6dba6420a24963f71df7d13d4abd9aec
+last_modified_at: 2024-12-16
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 إدراج محتويات مجلد.
-لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/ls>.
+لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - إدراج كل الملفات في أسطر منفصلة:
 

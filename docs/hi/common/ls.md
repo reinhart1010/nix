@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (हिन्दी)
 description: "डायरेक्टरी की सामग्री की सूची दिखाएं।"
-content_hash: 748ceee0288ace7b0dd13155c42e512b0e4a3da4
-last_modified_at: 2024-10-13
+content_hash: 209cd972babe101aa044fe649e7a6f68a90fccf8
+last_modified_at: 2024-12-16
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -70,7 +70,7 @@ tldri18n_status: 2
 # ls
 
 डायरेक्टरी की सामग्री की सूची दिखाएं।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/ls>।
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>।
 
 - एक प्रति पंक्ति फ़ाइलों की सूची दिखाएं:
 
