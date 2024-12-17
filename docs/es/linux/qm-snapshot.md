@@ -3,7 +3,7 @@ layout: page
 title: linux/qm-snapshot (español)
 description: "Crea instantáneas de máquinas virtuales."
 content_hash: 96d20dfc472957bff0c62d6ad8f37b6d7bc74dd0
-last_modified_at: 2024-12-16
+last_modified_at: 2024-12-17
 related_topics:
   - title: English version
     url: /en/linux/qm-snapshot.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/qm-snapshot.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/qm-snapshot.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qm snapshot
+# qm snapshot
 
 Crea instantáneas de máquinas virtuales.
 Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.

@@ -3,7 +3,7 @@ layout: page
 title: linux/pdfattach (español)
 description: "Agrega un nuevo archivo adjunto (incorporándolo) a un archivo PDF existente."
 content_hash: 6d90af813c14a8e4cddb86ff8b0d8f9e0afe7091
-last_modified_at: 2024-12-16
+last_modified_at: 2024-12-17
 related_topics:
   - title: English version
     url: /en/linux/pdfattach.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/pdfattach.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pdfattach.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pdfattach
+# pdfattach
 
 Agrega un nuevo archivo adjunto (incorporándolo) a un archivo PDF existente.
 Vea también: `pdfdetach`, `pdfimages`, `pdfinfo`.
