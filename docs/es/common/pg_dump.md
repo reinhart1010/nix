@@ -3,7 +3,7 @@ layout: page
 title: common/pg_dump (español)
 description: "Extrae una base de datos PostgreSQL en un archivo de script u otro archivo de almacenamiento."
 content_hash: 641462d4921bf26af7e5c9d6bbe1ad8289a2b0a9
-last_modified_at: 2024-12-17
+last_modified_at: 2024-12-18
 related_topics:
   - title: English version
     url: /en/common/pg_dump.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/pg_dump.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pg_dump.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pg_dump
+# pg_dump
 
 Extrae una base de datos PostgreSQL en un archivo de script u otro archivo de almacenamiento.
 Más información: <https://www.postgresql.org/docs/current/app-pgdump.html>.

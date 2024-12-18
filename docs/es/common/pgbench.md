@@ -3,7 +3,7 @@ layout: page
 title: common/pgbench (español)
 description: "Ejecuta una prueba de referencia (benchmark test) en PostgreSQL."
 content_hash: 36db158e6772864e55a9d8dfd27b0ccab200fa08
-last_modified_at: 2024-12-17
+last_modified_at: 2024-12-18
 related_topics:
   - title: English version
     url: /en/common/pgbench.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/pgbench.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pgbench.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pgbench
+# pgbench
 
 Ejecuta una prueba de referencia (benchmark test) en PostgreSQL.
 Más información: <https://www.postgresql.org/docs/10/pgbench.html>.

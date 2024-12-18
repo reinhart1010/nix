@@ -3,7 +3,7 @@ layout: page
 title: common/pg_restore (español)
 description: "Restaura una base de datos PostgreSQL de un archivo creado con pg_dump."
 content_hash: 481b9ab82b83e295a372b206d36ab0c1bccfcc5e
-last_modified_at: 2024-12-17
+last_modified_at: 2024-12-18
 related_topics:
   - title: English version
     url: /en/common/pg_restore.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/pg_restore.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pg_restore.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pg_restore
+# pg_restore
 
 Restaura una base de datos PostgreSQL de un archivo creado con pg_dump.
 Más información: <https://www.postgresql.org/docs/current/app-pgrestore.html>.

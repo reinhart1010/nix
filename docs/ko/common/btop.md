@@ -3,7 +3,7 @@ layout: page
 title: common/btop (한국어)
 description: "CPU, 메모리, 디스크, 네트워크 및 프로세스에 대한 정보를 표시하는 리소스 모니터."
 content_hash: 14ff1e0a677d5f4155d4ff9c806cf7922ba1ffb9
-last_modified_at: 2024-09-22
+last_modified_at: 2024-12-18
 related_topics:
   - title: English version
     url: /en/common/btop.html
@@ -17,9 +17,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/btop.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# btop
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># btop
 
 CPU, 메모리, 디스크, 네트워크 및 프로세스에 대한 정보를 표시하는 리소스 모니터.
 `bpytop`의 C++ 버전.
