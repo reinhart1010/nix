@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (English)
 description: "Print given arguments."
-content_hash: f264eab46955028a77c2c4ddf74e6d0f7147afb4
-last_modified_at: 2023-11-12
+content_hash: 6b29ab6b32b01af488311c32834049efa64f7c75
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # echo
 
 Print given arguments.
-More information: <https://www.gnu.org/software/coreutils/echo>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Print a text message. Note: quotes are optional:
 

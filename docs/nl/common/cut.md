@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (Nederlands)
 description: "Snij velden eruit vanuit `stdin` of bestanden."
-content_hash: 480f10905022cf47652d2c89900bdf58e1f92a66
-last_modified_at: 2024-05-10
+content_hash: 63ffebf9b7eaf6489794a9274b603cccf46cbe0d
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # cut
 
 Snij velden eruit vanuit `stdin` of bestanden.
-Meer informatie: <https://www.gnu.org/software/coreutils/cut>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Toon een specifiek karakter/veldbereik voor iedere regel:
 

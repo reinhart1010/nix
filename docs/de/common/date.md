@@ -2,8 +2,8 @@
 layout: page
 title: common/date (Deutsch)
 description: "Setze die Systemzeit oder zeige sie an."
-content_hash: e535112f0eccfeb375786a28e868bec604108918
-last_modified_at: 2024-04-19
+content_hash: 0c2dc0275fbd0c9c2f8725425121de31a37e4f71
+last_modified_at: 2024-12-18
 related_topics:
   - title: English version
     url: /en/common/date.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/date.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/date.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/date.html
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # date
 
 Setze die Systemzeit oder zeige sie an.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/date>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Zeige das aktuelle Datum im Format der eingestellten Locale an:
 

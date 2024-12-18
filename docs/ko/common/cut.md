@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (한국어)
 description: "`stdin` 혹은 파일에서 출력 필드를 자른다."
-content_hash: 484508fe864ddddbad14eef0b1e128b289f1452c
-last_modified_at: 2023-11-12
+content_hash: 7c9f9c36bc5f6554d7af105df0ee8c56ecc3d2b0
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/cut.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cut.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/cut.html
@@ -31,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cut
 
 `stdin` 혹은 파일에서 출력 필드를 자른다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/cut>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - `stdin`의 각 라인에 첫번째 16개의 문자를 자르기:
 

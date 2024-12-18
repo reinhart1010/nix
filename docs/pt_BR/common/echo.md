@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (português (Brasil))
 description: "Imprime os argumentos passados."
-content_hash: acef38857314b7a217f3272babf73c5b521a0230
-last_modified_at: 2023-11-12
+content_hash: 393742deb275b451c2e91d69c347e1e762af4bd1
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # echo
 
 Imprime os argumentos passados.
-Mais informações: <https://www.gnu.org/software/coreutils/echo>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Imprime uma mensagem de texto. Nota: aspas são opcionais:
 

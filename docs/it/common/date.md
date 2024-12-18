@@ -2,8 +2,8 @@
 layout: page
 title: common/date (italiano)
 description: "Imposta o mostra data e ora di sistema."
-content_hash: 3b5b7464593a6ad1c3b62c76e746fd2573b1521f
-last_modified_at: 2023-11-12
+content_hash: 81c0cb949663ca50c89ba844cb0e0be96874cff6
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/date.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/date.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/date.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/date.html
@@ -28,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># date
 
 Imposta o mostra data e ora di sistema.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/date>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Mostra la data corrente utilizzando il formato predefinito della locale corrente:
 

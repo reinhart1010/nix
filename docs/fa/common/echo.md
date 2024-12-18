@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (فارسی)
 description: "چاپ ورودی داده شده."
-content_hash: 3d6f61161120b34fc7873a3d74a7711cb0972c3f
-last_modified_at: 2024-01-05
+content_hash: c6320feb279f75ca8b9bc4baf7625c3d370a59b3
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # echo
 
 چاپ ورودی داده شده.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/echo>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - چاپ پیام ورودی. نکته : استفاده از علامت نقل قول انتخابی است:
 

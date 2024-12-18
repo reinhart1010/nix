@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (中文 (繁體, 台灣))
 description: "印出文字。"
-content_hash: 20aebdc5f9fa289c8ddb2b51a89a03a8d8e488c2
-last_modified_at: 2023-11-12
+content_hash: 0324506fe090daac3b832f621e9ee9704e0e7900
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># echo
 
 印出文字。
-更多資訊：<https://www.gnu.org/software/coreutils/echo>.
+更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - 印出一行文字（如果文字中沒有連續的空格，可以不加引號）：
 

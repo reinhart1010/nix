@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (español)
 description: "Corta campos de `stdin` o archivos."
-content_hash: 76af7b7c4cb3ece7a51503d741852e8d54d4bbc7
-last_modified_at: 2024-10-08
+content_hash: 8f84a0267b29120f63478f84b3c4693427aac657
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # cut
 
 Corta campos de `stdin` o archivos.
-Más información: <https://www.gnu.org/software/coreutils/cut>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Imprime un rango específico de caracteres/campos de cada línea:
 

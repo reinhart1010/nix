@@ -2,8 +2,8 @@
 layout: page
 title: common/date (português (Brasil))
 description: "Define ou exibe a data do sistema."
-content_hash: a89e6002f61a7890432861e56cc1117e8a37ed0c
-last_modified_at: 2024-04-19
+content_hash: bf9a7e5e38a48b4e3a7d53d6fecbe7938a6fac2d
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/date.html
@@ -17,6 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/date.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/date.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/date.html
     icon: bi bi-globe
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # date
 
 Define ou exibe a data do sistema.
-Mais informações: <https://www.gnu.org/software/coreutils/date>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Exibe a data atual usando o formato padrão de localidade:
 

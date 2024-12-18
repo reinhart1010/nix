@@ -2,8 +2,8 @@
 layout: page
 title: common/date (Nederlands)
 description: "Stel de systeemdatum in of toon deze."
-content_hash: 4ba1fa31cfd8a441da374744a8a67a986a1bafdf
-last_modified_at: 2024-06-10
+content_hash: 4f9e1fd565cefe019cd5ff7da760c89cdc89aea0
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/date.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # date
 
 Stel de systeemdatum in of toon deze.
-Meer informatie: <https://www.gnu.org/software/coreutils/date>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Toon de huidige datum in het standaardformaat van de locale:
 

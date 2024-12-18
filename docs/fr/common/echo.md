@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (français)
 description: "Affiche les paramètres donnés dans la console."
-content_hash: db044101b8631dd4a4ffe0c0b8fa36b5af6282ee
-last_modified_at: 2023-11-12
+content_hash: 622d7c940f6dfe7f9225cdf631e00a59aa838dee
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># echo
 
 Affiche les paramètres donnés dans la console.
-Plus d'informations : <https://www.gnu.org/software/coreutils/echo>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Affiche un message (les guillemets sont facultatifs) :
 

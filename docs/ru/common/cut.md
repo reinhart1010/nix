@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (русский)
 description: "Вырезать поля из стандартного ввода или файлов."
-content_hash: db47691e732fa2f08b058b250701c996ec822089
-last_modified_at: 2024-05-06
+content_hash: 936a950cbbf3aa4ded82ef608de448cda1e0df85
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cut
 
 Вырезать поля из стандартного ввода или файлов.
-Больше информации: <https://www.gnu.org/software/coreutils/cut>.
+Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Вывести указанный диапазон символов/полей каждой строки (`--characters|fields 1|1,10|1-10|1-|-10` далее обозначается как `диапазон`):
 

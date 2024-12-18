@@ -2,8 +2,8 @@
 layout: page
 title: common/date (English)
 description: "Set or display the system date."
-content_hash: 5bf5092cae7a6441ab624879b77fa05474a946b4
-last_modified_at: 2024-04-19
+content_hash: 58cde9a447fdf4a09807040b1ead02d379db52fb
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/date.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/date.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/date.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/date.html
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # date
 
 Set or display the system date.
-More information: <https://www.gnu.org/software/coreutils/date>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Display the current date using the default locale's format:
 

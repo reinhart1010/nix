@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (Nederlands)
 description: "Toont gegeven argumenten."
-content_hash: a3e01c905c1ae6ad86412f45f11ec732f7a5979f
-last_modified_at: 2024-06-19
+content_hash: a3b75dfece773ac2e0fe863f703c70d876ae7c8d
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # echo
 
 Toont gegeven argumenten.
-Meer informatie: <https://www.gnu.org/software/coreutils/echo>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Toon een tekstbericht. Let op: aanhalingstekens zijn optioneel:
 

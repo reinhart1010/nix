@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (português (Brasil))
 description: "Recorta campos do `stdin` ou de arquivos."
-content_hash: 1b4c0533fae7041fb491ac0719e78f4991211e8b
-last_modified_at: 2024-05-06
+content_hash: 7d3fbe356625c3e3b266a6bbf87697ee27af8ded
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -34,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cut
 
 Recorta campos do `stdin` ou de arquivos.
-Mais informações: <https://www.gnu.org/software/coreutils/cut>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Imprime um intervalo específico de caracteres/campos de cada linha:
 

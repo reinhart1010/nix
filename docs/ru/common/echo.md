@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (русский)
 description: "Отобразить заданные аргументы."
-content_hash: 6be4c037edadd8879885c4f5036b7f53c99ee3d0
-last_modified_at: 2023-11-12
+content_hash: 8ae0c9f1265733f784ab2def1adbdecda9b0a66f
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># echo
 
 Отобразить заданные аргументы.
-Больше информации: <https://www.gnu.org/software/coreutils/echo>.
+Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Отобразить текстовое сообщение. Примечание: кавычки необязательны:
 

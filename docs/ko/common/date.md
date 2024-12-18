@@ -2,8 +2,8 @@
 layout: page
 title: common/date (한국어)
 description: "시스템 날짜 설정 및 표시."
-content_hash: fcafd51a0e20d308f7eb60bfa612a0885d1b8fa5
-last_modified_at: 2024-10-13
+content_hash: 2d82f11033480fe6a2c0940e73fedca77c4728e8
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/date.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # date
 
 시스템 날짜 설정 및 표시.
-더 많은 정보: <https://www.gnu.org/software/coreutils/date>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - 기본 로컬 형식을 사용하여 현재 날짜 표시:
 

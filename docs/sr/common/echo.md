@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (српски)
 description: "Prikazuje date argumente."
-content_hash: 63657390e150aeb89521d1dc3d26973b0a091fe4
-last_modified_at: 2023-11-12
+content_hash: fd0882e41391be002c7b88ac9854255149398a65
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># echo
 
 Prikazuje date argumente.
-Više informacija na: <https://www.gnu.org/software/coreutils/echo>.
+Više informacija na: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Prikazuje tekstualnu poruku. Napomena: navodnici su opcionalni:
 

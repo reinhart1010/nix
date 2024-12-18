@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (中文)
 description: "输出给定参数。"
-content_hash: 532cd84d19dac4af837da9cd4ba7a34d9265c2e9
-last_modified_at: 2023-11-12
+content_hash: 9127360bf2da6da83981a7da810763bcf3b28a5b
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # echo
 
 输出给定参数。
-更多信息：<https://www.gnu.org/software/coreutils/echo>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - 输出文本信息. 注意： 引号是可选的：
 

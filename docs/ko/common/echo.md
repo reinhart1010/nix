@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (한국어)
 description: "주어진 인자들을 출력한다."
-content_hash: 6e5b904e96564a3a7a3a6093ed9ae78ce73c3281
-last_modified_at: 2023-11-12
+content_hash: 572d999ddd45f5ef9a6fcd9dbc9459f3100fa746
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># echo
 
 주어진 인자들을 출력한다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/echo>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - 텍스트 메시지를 출력한다. 참고: 따옴표는 선택 사항:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (italiano)
 description: "Taglia dividendo in campi `stdin` o file."
-content_hash: 50be6b22566b60e2c8139fa964983d3c24cee6a8
-last_modified_at: 2023-11-12
+content_hash: b4beb2e2050ece45162871e9bda33464f127a24f
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cut.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/cut.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/cut.html
@@ -31,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cut
 
 Taglia dividendo in campi `stdin` o file.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/cut>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Estrai i primi 16 caratteri di ogni riga da `stdin`:
 

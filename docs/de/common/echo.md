@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (Deutsch)
 description: "Gib angegebene Argumente aus."
-content_hash: e31312d3e82447c2ce1d1f436b65109e7e350ae8
-last_modified_at: 2023-11-12
+content_hash: 45ca9689d2509c1edc26a7fabaed7fc1f103bf14
+last_modified_at: 2024-12-18
 related_topics:
   - title: English version
     url: /en/common/echo.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># echo
 
 Gib angegebene Argumente aus.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/echo>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Gib einen Text aus. (Hinweis: Anführungszeichen sind optional):
 

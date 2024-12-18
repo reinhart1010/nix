@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (italiano)
 description: "Stampa a schermo gli argomenti forniti."
-content_hash: f13afefe917a89a1b70caec0d33da9859e36fd36
-last_modified_at: 2023-11-12
+content_hash: edfeaf4f8304565cc0fb319448c3d85d2d9c9b5f
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># echo
 
 Stampa a schermo gli argomenti forniti.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/echo>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Stampa un messaggio di testo. Nota: le virgolette sono opzionali:
 

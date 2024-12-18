@@ -2,8 +2,8 @@
 layout: page
 title: common/date (Türkçe)
 description: "Sistem tarihini görüntüleyin veya ayarlayın."
-content_hash: a54eea801555a4e87622669348a3072af0eecd39
-last_modified_at: 2023-11-12
+content_hash: 8b83e103af9934f34ea8724cf6a4d4cbe0961880
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/date.html
@@ -17,6 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/date.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/date.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/date.html
     icon: bi bi-globe
@@ -28,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># date
 
 Sistem tarihini görüntüleyin veya ayarlayın.
-Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/date>.
+Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Varsayılan yerel biçimi kullanarak geçerli tarihi görüntüleyin:
 

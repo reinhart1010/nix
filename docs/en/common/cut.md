@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (English)
 description: "Cut out fields from `stdin` or files."
-content_hash: eed88b0fd417e80d7a9aba643560d03c9604d147
-last_modified_at: 2024-05-05
+content_hash: 0f0b9456661b588a90e0209806ef5c5729de5baf
+last_modified_at: 2024-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # cut
 
 Cut out fields from `stdin` or files.
-More information: <https://www.gnu.org/software/coreutils/cut>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Print a specific [c]haracter/[f]ield range of each line:
 
