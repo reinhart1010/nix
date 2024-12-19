@@ -1,0 +1,28 @@
+<h1 id="openssl-ts">openssl ts</h1>
+
+<p>OpenSSL command to generate and verify timestamps.
+More information: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-ts.html">https://www.openssl.org/docs/manmaster/man1/openssl-ts.html</a>.</p>
+
+<ul>
+  <li>Generate a SHA-512 timestamp request of a specific file and output to <code class="language-plaintext highlighter-rouge">file.tsq</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl ts -query -data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -sha512 -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tsq</span></p>
+
+<ul>
+  <li>Check the date and metadata of a specific timestamp response file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl ts -reply -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tsr</span><code class="language-plaintext highlighter-rouge"> -text</code></p>
+
+<ul>
+  <li>Verify a timestamp request file and a timestamp response file from the server with an SSL certificate file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl ts -verify -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tsr</span><code class="language-plaintext highlighter-rouge"> -queryfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tsq</span><code class="language-plaintext highlighter-rouge"> -partial_chain -CAfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cert.pem</span></p>
+
+<ul>
+  <li>Create a timestamp response for request using key and signing certificate and output it to <code class="language-plaintext highlighter-rouge">file.tsr</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl ts -reply -queryfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tsq</span><code class="language-plaintext highlighter-rouge"> -inkey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/tsakey.pem</span><code class="language-plaintext highlighter-rouge"> -signer tsacert.pem -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tsr</span></p>

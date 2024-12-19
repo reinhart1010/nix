@@ -1,0 +1,34 @@
+<h1 id="gbp">gbp</h1>
+
+<p>Git을 사용하여 Debian 패키지 빌드 시스템과 통합하는 시스템.
+더 많은 정보: <a href="https://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html">https://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html</a>.</p>
+
+<ul>
+  <li>기존 Debian 패키지를 gbp로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gbp import-dsc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/패키지.dsc</span></p>
+
+<ul>
+  <li>현재 디렉토리에서 기본 빌더(<code class="language-plaintext highlighter-rouge">debuild</code>)를 사용하여 패키지 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gbp buildpackage -jauto -us -uc</code></p>
+
+<ul>
+  <li>Debian Bullseye용 <code class="language-plaintext highlighter-rouge">pbuilder</code> 환경에서 패키지 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">DIST=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bullseye</span><code class="language-plaintext highlighter-rouge"> ARCH=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amd64</span><code class="language-plaintext highlighter-rouge"> gbp buildpackage -jauto -us -uc --git-builder=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git-pbuilder</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.changes</code> 파일에서 패키지를 소스 전용 업로드로 지정 (참조: <a href="https://wiki.debian.org/SourceOnlyUpload">https://wiki.debian.org/SourceOnlyUpload</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gbp buildpackage -jauto -us -uc --changes-options=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-S</span></p>
+
+<ul>
+  <li>새로운 업스트림 릴리스 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gbp import-orig --pristine-tar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/패키지.tar.gz</span></p>

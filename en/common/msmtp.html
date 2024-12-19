@@ -1,0 +1,23 @@
+<h1 id="msmtp">msmtp</h1>
+
+<p>An SMTP client.
+It reads text from <code class="language-plaintext highlighter-rouge">stdin</code> and sends it to an SMTP server.
+More information: <a href="https://marlam.de/msmtp">https://marlam.de/msmtp</a>.</p>
+
+<ul>
+  <li>Send an email using the default account configured in <code class="language-plaintext highlighter-rouge">~/.msmtprc</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello world</span><code class="language-plaintext highlighter-rouge">" | msmtp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to@example.org</span></p>
+
+<ul>
+  <li>Send an email using a specific account configured in <code class="language-plaintext highlighter-rouge">~/.msmtprc</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello world</span><code class="language-plaintext highlighter-rouge">" | msmtp --account=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to@example.org</span></p>
+
+<ul>
+  <li>Send an email without a configured account. The password should be specified in the <code class="language-plaintext highlighter-rouge">~/.msmtprc</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello world</span><code class="language-plaintext highlighter-rouge">" | msmtp --host=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span><code class="language-plaintext highlighter-rouge"> --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">999</span><code class="language-plaintext highlighter-rouge"> --from=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from@example.org</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to@example.org</span></p>

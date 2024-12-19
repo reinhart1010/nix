@@ -1,0 +1,17 @@
+<h1 id="eqn">eqn</h1>
+
+<p>groff (GNU Troff) 문서 형식화 시스템용 방정식 전처리.
+참고: <code class="language-plaintext highlighter-rouge">troff</code> 및 <code class="language-plaintext highlighter-rouge">groff</code>.
+더 많은 정보: <a href="https://manned.org/eqn">https://manned.org/eqn</a>.</p>
+
+<ul>
+  <li>방정식으로 입력을 처리하고, groff를 사용하여 향후 조판을 위해 출력을 PostScript에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eqn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.eqn</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.roff</span></p>
+
+<ul>
+  <li>매크로([me] macro) 패키지를 사용하여 방정식이 포함된 입력 파일을 PDF로 조판:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eqn -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.eqn</span><code class="language-plaintext highlighter-rouge"> | groff -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">me</span><code class="language-plaintext highlighter-rouge"> -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span></p>

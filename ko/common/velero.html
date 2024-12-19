@@ -1,0 +1,34 @@
+<h1 id="velero">velero</h1>
+
+<p>Kubernetes 애플리케이션 및 그들의 지속 볼륨을 백업 및 마이그레이션.
+더 많은 정보: <a href="https://github.com/heptio/velero">https://github.com/heptio/velero</a>.</p>
+
+<ul>
+  <li>모든 리소스를 포함하는 백업 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">velero backup create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">백업_이름</span></p>
+
+<ul>
+  <li>모든 백업 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">velero backup get</code></p>
+
+<ul>
+  <li>백업 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">velero backup delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">백업_이름</span></p>
+
+<ul>
+  <li>주간 백업 생성, 각각 90일(2160시간) 동안 유지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">velero schedule create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스케줄_이름</span><code class="language-plaintext highlighter-rouge"> --schedules="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@every 7d</span><code class="language-plaintext highlighter-rouge">" --ttl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2160h0m0s</span></p>
+
+<ul>
+  <li>특정 스케줄에 의해 트리거된 최신 성공적인 백업에서 복원 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">velero restore create --from-schedule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스케줄_이름</span></p>

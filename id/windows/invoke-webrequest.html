@@ -1,0 +1,35 @@
+<h1 id="invoke-webrequest">Invoke-WebRequest</h1>
+
+<p>Membuat panggilan dan permintaan HTTP/HTTPS.
+Perintah ini hanya dapat digunakan dalam PowerShell.
+Informasi lebih lanjut: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest</a>.</p>
+
+<ul>
+  <li>Unduh konten URL ke file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Invoke-WebRequest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span><code class="language-plaintext highlighter-rouge"> -OutFile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Kirim data form yang telah di encode (permintaan POST atau tipe data <code class="language-plaintext highlighter-rouge">application/x-www-form-urlencoded</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Invoke-WebRequest -Method Post -Body @{ name='bob' } </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/form</span></p>
+
+<ul>
+  <li>Kirim sebuah permintaan dengan header tambahan, menggunakan metode HTTP kustom:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Invoke-WebRequest -Headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@{ X-My-Header = '123' }</span><code class="language-plaintext highlighter-rouge"> -Method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PUT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>
+
+<ul>
+  <li>Kirim data dalam format JSON, Menentukan jenis konten yang sesuai header:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Invoke-WebRequest -Body </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span><code class="language-plaintext highlighter-rouge"> -ContentType 'application/json' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/users/1234</span></p>
+
+<ul>
+  <li>Berikan nama pengguna dan kata sandi untuk otentikasi server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Invoke-WebRequest -Headers @{ Authorization = "Basic "+ [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes("myusername:mypassword")) } </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>

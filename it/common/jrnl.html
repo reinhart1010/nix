@@ -1,0 +1,34 @@
+<h1 id="jrnl">jrnl</h1>
+
+<p>Una semplice applicazione da linea di comando per tenere un diario.
+Maggiori informazioni: <a href="https://jrnl.sh">https://jrnl.sh</a>.</p>
+
+<ul>
+  <li>Inserisci una nuova nota con il tuo editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jrnl</code></p>
+
+<ul>
+  <li>Inserimento veloce di una nota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jrnl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">today at 3am</span><code class="language-plaintext highlighter-rouge">: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">titolo</span><code class="language-plaintext highlighter-rouge">. </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contenuto</span></p>
+
+<ul>
+  <li>Mostra le ultime dieci note inserite:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jrnl -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Mostra tutto quello che è successo dall'inizio dello scorso anno fino all'inizio di marzo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jrnl -from "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">last year</span><code class="language-plaintext highlighter-rouge">" -until </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">march</span></p>
+
+<ul>
+  <li>Modifica tutte le note taggate con "texas" e "history":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jrnl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@texas</span><code class="language-plaintext highlighter-rouge"> -and </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@history</span><code class="language-plaintext highlighter-rouge"> --edit</code></p>

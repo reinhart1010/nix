@@ -1,0 +1,46 @@
+<h1 id="konsave">konsave</h1>
+
+<p>Save and apply your Linux customizations with just one command.
+More information: <a href="https://github.com/Prayag2/konsave">https://github.com/Prayag2/konsave</a>.</p>
+
+<ul>
+  <li>Save the current configuration as a profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span></p>
+
+<ul>
+  <li>Apply a profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span></p>
+
+<ul>
+  <li>Save the current configuration as a profile, overwriting existing profiles if they exist with the same name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span><code class="language-plaintext highlighter-rouge"> --force</code></p>
+
+<ul>
+  <li>List all profiles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --list</code></p>
+
+<ul>
+  <li>Remove a profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span></p>
+
+<ul>
+  <li>Export a profile as a <code class="language-plaintext highlighter-rouge">.knsv</code> to the home directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --export-profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span></p>
+
+<ul>
+  <li>Import a <code class="language-plaintext highlighter-rouge">.knsv</code> profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">konsave --import-profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/profile_name.knsv</span></p>

@@ -1,0 +1,22 @@
+<h1 id="lldb">lldb</h1>
+
+<p>El depurador de bajo nivel LLVM.
+Más información: <a href="https://lldb.llvm.org/man/lldb.html">https://lldb.llvm.org/man/lldb.html</a>.</p>
+
+<ul>
+  <li>Depura un ejecutable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lldb "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejecutable</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Adjunta <code class="language-plaintext highlighter-rouge">lldb</code> a un proceso en ejecución con un PID dado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lldb -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Espera a que se inicie un nuevo proceso con un nombre determinado y adjuntarlo al mismo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lldb -w -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_proceso</span><code class="language-plaintext highlighter-rouge">"</code></p>

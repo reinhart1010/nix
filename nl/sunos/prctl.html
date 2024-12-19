@@ -1,0 +1,22 @@
+<h1 id="prctl">prctl</h1>
+
+<p>Lees of configureer de Get or set the resource controls of running processes, tasks, and projects.
+Meer informatie: <a href="https://www.unix.com/man-page/sunos/1/prctl">https://www.unix.com/man-page/sunos/1/prctl</a>.</p>
+
+<ul>
+  <li>Uitlezen van de process limits en rechten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Uitlezen van de process limits en rechten in een geformatteerde layout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Uitlezen van het max file descripter van een lopend proces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl -n process.max-file-descriptor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>

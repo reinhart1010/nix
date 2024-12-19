@@ -1,0 +1,22 @@
+<h1 id="zek">zek</h1>
+
+<p>从 XML 生成一个 Go 结构体。
+更多信息：<a href="https://github.com/miku/zek">https://github.com/miku/zek</a>.</p>
+
+<ul>
+  <li>从 <code class="language-plaintext highlighter-rouge">stdin</code> 中给定的 XML 生成一个 Go 结构体，并将输出显示在 <code class="language-plaintext highlighter-rouge">stdout</code> 上：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输入.xml</span><code class="language-plaintext highlighter-rouge"> | zek</code></p>
+
+<ul>
+  <li>从 <code class="language-plaintext highlighter-rouge">stdin</code> 中给定的 XML 生成一个 Go 结构体，并将输出发送到文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://url/to/xml</span><code class="language-plaintext highlighter-rouge"> | zek -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出.go</span></p>
+
+<ul>
+  <li>从 <code class="language-plaintext highlighter-rouge">stdin</code> 中给定的 XML 生成一个示例 Go 程序，并将输出发送到文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输入.xml</span><code class="language-plaintext highlighter-rouge"> | zek -p -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出.go</span></p>

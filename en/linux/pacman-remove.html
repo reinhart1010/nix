@@ -1,0 +1,47 @@
+<h1 id="pacman-remove">pacman –remove</h1>
+
+<p>Arch Linux package manager utility.
+See also: <code class="language-plaintext highlighter-rouge">pacman</code>.
+More information: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>[R]emove a package and its dependencies recur[s]ively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>[R]emove a package and its dependencies. Also do [n]ot save backups of configuration files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rsn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>[R]emove a package without prompting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -R --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>[R]emove orphan packages (installed as [d]ependencies but no[t] required by any package):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rsn $(pacman -Qdtq)</code></p>
+
+<ul>
+  <li>[R]emove a package and [c]ascade that to all packages that depend on it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>List and [p]rint packages that would be affected (does not [R]emove any packages):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Rp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Display [h]elp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Rh</code></p>

@@ -1,0 +1,46 @@
+<h1 id="bundletool-dump">bundletool dump</h1>
+
+<p>Android 애플리케이션 번들을 조작.
+더 많은 정보: <a href="https://developer.android.com/tools/bundletool">https://developer.android.com/tools/bundletool</a>.</p>
+
+<ul>
+  <li>기본 모듈의 <code class="language-plaintext highlighter-rouge">AndroidManifest.xml</code>을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump manifest --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span></p>
+
+<ul>
+  <li>XPath를 사용해 <code class="language-plaintext highlighter-rouge">AndroidManifest.xml</code>의 특정 값을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump manifest --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --xpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/manifest/@android:versionCode</span></p>
+
+<ul>
+  <li>특정 모듈의 <code class="language-plaintext highlighter-rouge">AndroidManifest.xml</code>을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump manifest --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>애플리케이션 번들의 모든 리소스를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump resources --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span></p>
+
+<ul>
+  <li>특정 리소스에 대한 구성을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump resources --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --resource </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type/name</span></p>
+
+<ul>
+  <li>ID를 사용하여 특정 리소스에 대한 구성 및 값을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump resources --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --resource </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0x7f0e013a</span><code class="language-plaintext highlighter-rouge"> --values</code></p>
+
+<ul>
+  <li>번들 구성 파일의 내용을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool dump config --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span></p>

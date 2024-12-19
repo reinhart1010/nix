@@ -1,0 +1,29 @@
+<h1 id="git-commit-tree">git commit-tree</h1>
+
+<p>Commit cisimleri oluşturmaya yarayan düşük seviyeli araç.
+Ayrıca <code class="language-plaintext highlighter-rouge">git commit</code> sayfasına bakılması önerilir.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-commit-tree">https://git-scm.com/docs/git-commit-tree</a>.</p>
+
+<ul>
+  <li>Belirtilen mesaj ile bir commit cismi oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ağaç</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mesaj</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Bir dosyadan mesaj okuyan bir commit cismi oluştur (<code class="language-plaintext highlighter-rouge">stdin</code> için <code class="language-plaintext highlighter-rouge">-</code> ekini kullan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ağaç</span><code class="language-plaintext highlighter-rouge"> -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span></p>
+
+<ul>
+  <li>GPG anahtarıyla imzalanmış bir commit cismi oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ağaç</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mesaj</span><code class="language-plaintext highlighter-rouge">" --gpg-sign</code></p>
+
+<ul>
+  <li>Belirtilen ana commit cismi ile bir commit cismi oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ağaç</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mesaj</span><code class="language-plaintext highlighter-rouge">" -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ana_commit_sha</span></p>

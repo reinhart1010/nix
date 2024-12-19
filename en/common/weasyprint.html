@@ -1,0 +1,34 @@
+<h1 id="weasyprint">weasyprint</h1>
+
+<p>Render HTML to PDF or PNG.
+More information: <a href="https://weasyprint.org/">https://weasyprint.org/</a>.</p>
+
+<ul>
+  <li>Render an HTML file to PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span></p>
+
+<ul>
+  <li>Render an HTML file to PNG, including an additional user stylesheet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span><code class="language-plaintext highlighter-rouge"> --stylesheet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/stylesheet.css</span></p>
+
+<ul>
+  <li>Output additional debugging information when rendering:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span><code class="language-plaintext highlighter-rouge"> --verbose</code></p>
+
+<ul>
+  <li>Specify a custom resolution when outputting to PNG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span><code class="language-plaintext highlighter-rouge"> --resolution </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span></p>
+
+<ul>
+  <li>Specify a base URL for relative URLs in the input HTML file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span><code class="language-plaintext highlighter-rouge"> --base-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_or_filename</span></p>

@@ -1,0 +1,53 @@
+<h1 id="gpg">gpg</h1>
+
+<p>GNU Privacy Guard.
+GNU Privacy Guard 2에 대해서는 <code class="language-plaintext highlighter-rouge">gpg2</code>를 참조. 대부분의 운영체제는 <code class="language-plaintext highlighter-rouge">gpg</code>를 <code class="language-plaintext highlighter-rouge">gpg2</code>에 심볼릭 링크를 설정함.
+더 많은 정보: <a href="https://gnupg.org">https://gnupg.org</a>.</p>
+
+<ul>
+  <li>GPG 공개 및 개인 키를 대화형으로 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --full-generate-key</code></p>
+
+<ul>
+  <li>암호화 없이 <code class="language-plaintext highlighter-rouge">doc.txt</code>에 서명 (<code class="language-plaintext highlighter-rouge">doc.txt.asc</code>에 출력을 기록):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --clearsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>alice@example.com 및 bob@example.com에 대해 <code class="language-plaintext highlighter-rouge">doc.txt</code>를 암호화하고 서명 (<code class="language-plaintext highlighter-rouge">doc.txt.gpg</code>로 출력):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --encrypt --sign --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span><code class="language-plaintext highlighter-rouge"> --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bob@example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>비밀번호 문구만으로 <code class="language-plaintext highlighter-rouge">doc.txt</code>를 암호화 (<code class="language-plaintext highlighter-rouge">doc.txt.gpg</code>로 출력):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --symmetric </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">doc.txt.gpg</code> 복호화 (<code class="language-plaintext highlighter-rouge">stdout</code>으로 출력):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --decrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt.gpg</span></p>
+
+<ul>
+  <li>공개 키 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public.gpg</span></p>
+
+<ul>
+  <li>alice@example.com에 대한 공개 키 내보내기 (<code class="language-plaintext highlighter-rouge">stdout</code>으로 출력):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --export --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span></p>
+
+<ul>
+  <li>alice@example.com의 개인 키 내보내기 (<code class="language-plaintext highlighter-rouge">stdout</code>으로 출력):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --export-secret-keys --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span></p>

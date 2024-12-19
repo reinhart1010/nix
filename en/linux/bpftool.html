@@ -1,0 +1,53 @@
+<h1 id="bpftool">bpftool</h1>
+
+<p>Inspect and manipulate eBPF programs and maps in a simple way.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">prog</code> have their own usage documentation.
+More information: <a href="https://manned.org/bpftool">https://manned.org/bpftool</a>.</p>
+
+<ul>
+  <li>List information about loaded <code class="language-plaintext highlighter-rouge">eBPF</code> programs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpftool prog list</code></p>
+
+<ul>
+  <li>List <code class="language-plaintext highlighter-rouge">eBPF</code> program attachments in the kernel networking subsystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpftool net list</code></p>
+
+<ul>
+  <li>List all active links:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpftool link list</code></p>
+
+<ul>
+  <li>List all <code class="language-plaintext highlighter-rouge">raw_tracepoint</code>, <code class="language-plaintext highlighter-rouge">tracepoint</code>, <code class="language-plaintext highlighter-rouge">kprobe</code> attachments in the system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpftool perf list</code></p>
+
+<ul>
+  <li>List <code class="language-plaintext highlighter-rouge">BPF Type Format (BTF)</code> data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpftool btf list</code></p>
+
+<ul>
+  <li>List information about loaded maps:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpftool map list</code></p>
+
+<ul>
+  <li>Probe a network device "eth0" for supported <code class="language-plaintext highlighter-rouge">eBPF</code> features:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpftool feature probe dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Run commands in batch mode from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpftool batch file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myfile</span></p>

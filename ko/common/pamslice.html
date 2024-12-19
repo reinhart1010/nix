@@ -1,0 +1,28 @@
+<h1 id="pamslice">pamslice</h1>
+
+<p>PAM 이미지에서 한 줄의 값을 추출.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pamslice.html">https://netpbm.sourceforge.net/doc/pamslice.html</a>.</p>
+
+<ul>
+  <li>n번째 행의 픽셀 값을 테이블 형식으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -row </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pam</span></p>
+
+<ul>
+  <li>n번째 열의 픽셀 값을 테이블 형식으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -column </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pam</span></p>
+
+<ul>
+  <li>입력 이미지의 m번째 평면만 고려:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -row </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> -plane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pam</span></p>
+
+<ul>
+  <li>시각화를 위한 <code class="language-plaintext highlighter-rouge">xmgr</code> 입력 형식으로 출력 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -row </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> -xmgr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pam</span></p>

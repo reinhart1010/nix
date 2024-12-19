@@ -1,0 +1,34 @@
+<h1 id="nasm">nasm</h1>
+
+<p>Netwide Assembler, 휴대용 80x86 어셈블러.
+더 많은 정보: <a href="https://nasm.us">https://nasm.us</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">source.asm</code>을 (기본) raw 바이너리 형식의 바이너리 파일 <code class="language-plaintext highlighter-rouge">source</code>로 어셈블:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nasm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.asm</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">source.asm</code>을 지정된 형식의 바이너리 파일 <code class="language-plaintext highlighter-rouge">output_file</code>로 어셈블:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nasm -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">형식</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.asm</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력_파일</span></p>
+
+<ul>
+  <li>유효한 출력 형식 목록 나열(기본 nasm 도움말 포함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nasm -hf</code></p>
+
+<ul>
+  <li>어셈블하고 어셈블리 목록 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nasm -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목록_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.asm</span></p>
+
+<ul>
+  <li>어셈블하기 전에 포함 파일 검색 경로에 디렉토리 추가(마지막에 슬래시 포함 필요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nasm -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/포함_폴더/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.asm</span></p>

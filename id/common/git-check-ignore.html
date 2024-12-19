@@ -1,0 +1,34 @@
+<h1 id="git-check-ignore">git check-ignore</h1>
+
+<p>Analisa kumpulan file yang diabaikan/dikecualikan oleh Git (didefinisikan dalam ".gitignore").
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-check-ignore">https://git-scm.com/docs/git-check-ignore</a>.</p>
+
+<ul>
+  <li>Cek apakah suatu file atau direktori telah diabaikan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span></p>
+
+<ul>
+  <li>Cek apakah lebih dari satu file atau direktori telah diabaikan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori1 jalan/menuju/file_atau_direktori2 …</span></p>
+
+<ul>
+  <li>Cek pengecualian file dan direktori menggunakan daftar yang didefinisikan dalam <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --stdin &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_daftar</span></p>
+
+<ul>
+  <li>Jangan cek index Git (biasanya dipakai untuk mengetahui mengapa terdapat jalur yang tetap dilacak Git dan tak diabaikan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --no-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori1 jalan/menuju/file_atau_direktori2 …</span></p>
+
+<ul>
+  <li>Tampilkan informasi pola pengecualian <code class="language-plaintext highlighter-rouge">.gitignore</code> yang dipakai untuk mengecualikan setiap jalur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori1 jalan/menuju/file_atau_direktori2 …</span></p>

@@ -1,0 +1,41 @@
+<h1 id="dconf">dconf</h1>
+
+<p>Gerencia banco de dados dconf.
+Veja também: <code class="language-plaintext highlighter-rouge">dconf-read</code>, <code class="language-plaintext highlighter-rouge">dconf-reset</code>, <code class="language-plaintext highlighter-rouge">dconf-write</code>, <code class="language-plaintext highlighter-rouge">gsettings</code>.
+Mais informações: <a href="https://manned.org/dconf">https://manned.org/dconf</a>.</p>
+
+<ul>
+  <li>Imprime um valor de chave específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/chave</span></p>
+
+<ul>
+  <li>Imprime sub-diretórios e sub-chaves de um caminho específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/diretório/</span></p>
+
+<ul>
+  <li>Grava um valor de chave específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/chave</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Redefine um valor de chave específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/chave</span></p>
+
+<ul>
+  <li>Observa alterações em uma chave/diretório específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/chave|/caminho/para/diretório/</span></p>
+
+<ul>
+  <li>Despeja um diretório específico no formato de arquivo INI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/diretório/</span></p>

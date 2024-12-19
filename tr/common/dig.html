@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="dig">dig</h1>
+
+<p>DNS sunucularına sorgulama yapmak için kullanılan bir komuttur.
+Daha fazla bilgi için: <a href="https://manned.org/dig">https://manned.org/dig</a>.</p>
+
+<ul>
+  <li>İlgili sunucu ile ilgili IP adresi sorgulaması yapılır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +short </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>DNS sorgulaması için alternatif server kullanılır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Tersine DNS sorgulaması yapılır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1</span></p>
+
+<ul>
+  <li>Belli başlı DNS sunucuları ile ilgili kayıtları sorgular:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +short </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|MX|TXT|CNAME|NS</span></p>

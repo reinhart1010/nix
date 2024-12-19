@@ -1,0 +1,29 @@
+<h1 id="odps-func">odps func</h1>
+
+<p>ODPS (Open Data Processing Service)에서 함수 관리.
+같이 보기: <code class="language-plaintext highlighter-rouge">odps</code>.
+더 많은 정보: <a href="https://www.alibabacloud.com/help/doc-detail/27971.htm">https://www.alibabacloud.com/help/doc-detail/27971.htm</a>.</p>
+
+<ul>
+  <li>현재 프로젝트의 함수 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">list functions;</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.jar</code> 리소스를 사용하여 Java 함수 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">create function </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">함수_이름</span><code class="language-plaintext highlighter-rouge"> as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로.대상.패키지.Func</span><code class="language-plaintext highlighter-rouge"> using '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지.jar</span><code class="language-plaintext highlighter-rouge">';</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.py</code> 리소스를 사용하여 Python 함수 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">create function </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">함수_이름</span><code class="language-plaintext highlighter-rouge"> as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스크립트.Func</span><code class="language-plaintext highlighter-rouge"> using '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스크립트.py</span><code class="language-plaintext highlighter-rouge">';</code></p>
+
+<ul>
+  <li>함수 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drop function </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">함수_이름</span><code class="language-plaintext highlighter-rouge">;</code></p>

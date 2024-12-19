@@ -1,0 +1,23 @@
+<h1 id="mitmdump">mitmdump</h1>
+
+<p>HTTP 트래픽을 보기, 기록 및 프로그래밍적으로 변환.
+mitmproxy의 명령줄 대응 도구.
+더 많은 정보: <a href="https://docs.mitmproxy.org/stable/#mitmdump">https://docs.mitmproxy.org/stable/#mitmdump</a>.</p>
+
+<ul>
+  <li>프록시를 시작하고 모든 출력을 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmdump -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>저장된 트래픽 파일에서 POST 요청만 필터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmdump -nr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_파일_이름</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력_파일_이름</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~m post</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>저장된 트래픽 파일 재생:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmdump -nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

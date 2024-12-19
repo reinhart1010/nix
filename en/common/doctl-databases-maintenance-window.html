@@ -1,0 +1,22 @@
+<h1 id="doctl-databases-maintenance-window">doctl databases maintenance-window</h1>
+
+<p>Schedule, and check the schedule of, maintenance windows for your databases.
+More information: <a href="https://docs.digitalocean.com/reference/doctl/reference/databases/maintenance-window">https://docs.digitalocean.com/reference/doctl/reference/databases/maintenance-window</a>.</p>
+
+<ul>
+  <li>Run a <code class="language-plaintext highlighter-rouge">doctl databases maintenance-window</code> command with an access token:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases maintenance-window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access_token</span></p>
+
+<ul>
+  <li>Retrieve details about a database cluster's maintenance windows:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases maintenance-window get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span></p>
+
+<ul>
+  <li>Update the maintenance window for a database cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases maintenance-window update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span><code class="language-plaintext highlighter-rouge"> --day </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">day_of_the_week</span><code class="language-plaintext highlighter-rouge"> --hour </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hour_in_24_hours_format</span></p>

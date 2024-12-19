@@ -1,0 +1,52 @@
+<h1 id="findstr">findstr</h1>
+
+<p>एक या एक से अधिक फाइलों में निर्दिष्ट टेक्स्ट खोजें।
+अधिक जानकारी: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/findstr">https://learn.microsoft.com/windows-server/administration/windows-commands/findstr</a>।</p>
+
+<ul>
+  <li>सभी फाइलों में एक या एक से अधिक स्ट्रिंग्स खोजें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग1 स्ट्रिंग2 …</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>एक पाईप्ड कमांड के आउटपुट में एक या एक से अधिक स्ट्रिंग्स खोजें:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निर्देशिका</span><code class="language-plaintext highlighter-rouge"> | findstr "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग1 स्ट्रिंग2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>सभी फाइलों में पुनरावृत्तिपूर्वक एक या एक से अधिक स्ट्रिंग्स खोजें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग1 स्ट्रिंग2 …</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>केस-इंसेंसिटिव सर्च का उपयोग करके स्ट्रिंग्स खोजें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /i "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग1 स्ट्रिंग2 …</span><code class="language-plaintext highlighter-rouge">" *"</code></p>
+
+<ul>
+  <li>नियमित एक्सप्रेशंस का उपयोग करके सभी फाइलों में स्ट्रिंग्स खोजें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /r "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">एक्सप्रेशंस</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>सभी टेक्स्ट फाइलों में एक लिटरल स्ट्रिंग (जिसमें स्पेसेस शामिल हैं) खोजें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /c:"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग1 स्ट्रिंग2 …</span><code class="language-plaintext highlighter-rouge">" *.txt</code></p>
+
+<ul>
+  <li>प्रत्येक मेल खाने वाली लाइन के पहले लाइन नंबर दिखाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग1 स्ट्रिंग2 …</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>केवल उन फाइलों के नाम दिखाएं जिनमें मैच पाया गया हो:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्ट्रिंग1 स्ट्रिंग2 …</span><code class="language-plaintext highlighter-rouge">" *</code></p>

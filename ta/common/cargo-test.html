@@ -1,0 +1,40 @@
+<h1 id="cargo-test">cargo test</h1>
+
+<p>ரஸ்ட் தொகுப்பின் அலகு மற்றும் ஒருங்கிணைப்பு சோதனைகளை செயல்படுத்தவும்.
+மேலும் விவரத்திற்கு: <a href="https://doc.rust-lang.org/cargo/commands/cargo-test.html">https://doc.rust-lang.org/cargo/commands/cargo-test.html</a>.</p>
+
+<ul>
+  <li>அவர்களின் பெயர்களில் ஒரு குறிப்பிட்ட சரம் உள்ள சோதனைகளை மட்டும் இயக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சோதனை_பெயர்</span></p>
+
+<ul>
+  <li>ஒரே நேரத்தில் இயங்கும் சோதனை வழக்குகளின் எண்ணிக்கையை அமைக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test -- --test-threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">எண்ணிக்கை</span></p>
+
+<ul>
+  <li>மேம்படுத்தல்களுடன், வெளியீட்டு பயன்முறையில் கலைப்பொருட்களை சோதிக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test --release</code></p>
+
+<ul>
+  <li>பணியிடத்தில் உள்ள அனைத்து தொகுப்புகளையும் சோதிக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test --workspace</code></p>
+
+<ul>
+  <li>ஒரு குறிப்பிட்ட தொகுப்புக்கான சோதனைகளை இயக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொகுப்பு</span></p>
+
+<ul>
+  <li>சோதனைச் செயலாக்கங்களிலிருந்து வெளியீட்டை மறைக்காமல் சோதனைகளை இயக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test -- --nocapture</code></p>

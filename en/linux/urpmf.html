@@ -1,0 +1,38 @@
+<h1 id="urpmf">urpmf</h1>
+
+<p>Find files in packages and query information about them in Mageia.
+See also: <code class="language-plaintext highlighter-rouge">urpmi</code>, <code class="language-plaintext highlighter-rouge">urpme</code>, <code class="language-plaintext highlighter-rouge">urpmi.addmedia</code>, <code class="language-plaintext highlighter-rouge">urpmi.removemedia</code>, <code class="language-plaintext highlighter-rouge">urpmi.update</code>, <code class="language-plaintext highlighter-rouge">urpmq</code>.
+More information: <a href="https://wiki.mageia.org/en/URPMI#urpmi.removemedia">https://wiki.mageia.org/en/URPMI#urpmi.removemedia</a>.</p>
+
+<ul>
+  <li>Search for packages that contain a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Search for packages that contain both a keyword [a]nd another in their summaries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmf --summary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword1</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword2</span></p>
+
+<ul>
+  <li>Search for packages that contain a keyword [o]r another in their descriptions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmf --description </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword1</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword2</span></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Search for packages that do not contain a keyword in their name ignoring case distinction using "</td>
+          <td>" as the [F]ield separator (":" by default):</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmf --description ! </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span><code class="language-plaintext highlighter-rouge"> -F'|'</code></p>

@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="diff">diff</h1>
+
+<p>Vergleiche Dateien und Verzeichnisse.
+Weitere Informationen: <a href="https://manned.org/diff">https://manned.org/diff</a>.</p>
+
+<ul>
+  <li>Vergleiche Dateien (Listet jene Veränderungen auf, mit denen <code class="language-plaintext highlighter-rouge">datei1</code> zu <code class="language-plaintext highlighter-rouge">datei2</code> wird):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei2</span></p>
+
+<ul>
+  <li>Vergleiche Dateien und ignoriere Leerzeichen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --ignore-all-space </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei2</span></p>
+
+<ul>
+  <li>Vergleiche Dateien und zeige Unterschiede nebeneinander:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --side-by-side </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei2</span></p>
+
+<ul>
+  <li>Vergleiche Dateien und zeige Unterschiede in vereinheitlichtem Format (wie in <code class="language-plaintext highlighter-rouge">git diff</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --unified </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei2</span></p>
+
+<ul>
+  <li>Vergleiche Verzeichnisse rekursiv (zeigt sowohl Namen von unterschiedlichen Dateien/Verzeichnissen, als auch Unterschiede zwischen Dateien):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">altes_verzeichnis</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">neues_verzeichnis</span></p>
+
+<ul>
+  <li>Vergleiche Verzeichnisse und zeige nur die Namen der Dateien, die unterschiedlich sind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --recursive --brief </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">altes_verzeichnis</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">neues_verzeichnis</span></p>
+
+<ul>
+  <li>Erstelle ein patch-Datei für Git bestehend aus den Unterschieden zweier Dateien und behandle fehlende Dateien als leer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --text --unified --new-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei2</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/diff.patch</span></p>

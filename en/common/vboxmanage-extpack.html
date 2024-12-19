@@ -1,0 +1,34 @@
+<h1 id="vboxmanage-extpack">vboxmanage-extpack</h1>
+
+<p>Manage extension packs for Oracle VirtualBox.
+More information: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-extpack">https://www.virtualbox.org/manual/ch08.html#vboxmanage-extpack</a>.</p>
+
+<ul>
+  <li>Install extension packs to VirtualBox (Note: you need to remove the existing version of the extension pack before installing a new version.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage extpack install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.vbox-extpack</span></p>
+
+<ul>
+  <li>Remove the existing version of the VirtualBox extension pack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage extpack install --replace</code></p>
+
+<ul>
+  <li>Uninstall extension packs from VirtualBox:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage extpack uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">extension_pack_name</span></p>
+
+<ul>
+  <li>Uninstall extension packs and skip most uninstallation refusals:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage extpack uninstall --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">extension_pack_name</span></p>
+
+<ul>
+  <li>Clean up temporary files and directories left by extension packs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage extpack cleanup</code></p>

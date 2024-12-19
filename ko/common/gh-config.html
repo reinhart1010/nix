@@ -1,0 +1,46 @@
+<h1 id="gh-config">gh config</h1>
+
+<p>GitHub CLI의 설정 변경.
+더 많은 정보: <a href="https://cli.github.com/manual/gh_config">https://cli.github.com/manual/gh_config</a>.</p>
+
+<ul>
+  <li>사용 중인 Git 프로토콜 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config get git_protocol</code></p>
+
+<ul>
+  <li>프로토콜을 SSH로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set git_protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh</span></p>
+
+<ul>
+  <li>모든 <code class="language-plaintext highlighter-rouge">gh</code> 명령어의 기본 페이지로 <code class="language-plaintext highlighter-rouge">delta</code>를 나란히 보기 모드로 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set pager '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delta –side-by-side</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>텍스트 편집기를 Vim으로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set editor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vim</span></p>
+
+<ul>
+  <li>기본 텍스트 편집기로 재설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set editor ""</code></p>
+
+<ul>
+  <li>대화형 프롬프트 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set prompt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disabled</span></p>
+
+<ul>
+  <li>특정 설정 값 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>

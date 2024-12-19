@@ -1,0 +1,34 @@
+<h1 id="modprobe">modprobe</h1>
+
+<p>Linux 커널에 모듈을 추가하거나 제거합니다.
+더 많은 정보: <a href="https://manned.org/modprobe">https://manned.org/modprobe</a>.</p>
+
+<ul>
+  <li>모듈을 커널에 로드하는 것처럼 시뮬레이션하지만 실제로는 하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈_이름</span></p>
+
+<ul>
+  <li>모듈을 커널에 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈_이름</span></p>
+
+<ul>
+  <li>모듈을 커널에서 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈_이름</span></p>
+
+<ul>
+  <li>모듈과 해당 모듈에 의존하는 모듈을 커널에서 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --remove-dependencies </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈_이름</span></p>
+
+<ul>
+  <li>커널 모듈의 의존성 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --show-depends </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈_이름</span></p>

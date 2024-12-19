@@ -1,0 +1,35 @@
+<h1 id="lsinitrd">lsinitrd</h1>
+
+<p>Show the contents of an initramfs image.
+See also: <code class="language-plaintext highlighter-rouge">dracut</code>.
+More information: <a href="https://github.com/dracutdevs/dracut/blob/master/man/lsinitrd.1.asc">https://github.com/dracutdevs/dracut/blob/master/man/lsinitrd.1.asc</a>.</p>
+
+<ul>
+  <li>Show the contents of the initramfs image for the current kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsinitrd</code></p>
+
+<ul>
+  <li>Show the contents of the initramfs image for the specified kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsinitrd --kver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kernel_version</span></p>
+
+<ul>
+  <li>Show the contents of the specified initramfs image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsinitrd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/initramfs.img</span></p>
+
+<ul>
+  <li>List modules included in the initramfs image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsinitrd --mod</code></p>
+
+<ul>
+  <li>Unpack the initramfs to the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsinitrd --unpack</code></p>

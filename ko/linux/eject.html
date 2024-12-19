@@ -1,0 +1,46 @@
+<h1 id="eject">eject</h1>
+
+<p>CD, 플로피 디스크 및 테이프 드라이브를 꺼냅니다.
+더 많은 정보: <a href="https://manned.org/eject">https://manned.org/eject</a>.</p>
+
+<ul>
+  <li>기본 장치 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eject -d</code></p>
+
+<ul>
+  <li>기본 장치 꺼내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eject</code></p>
+
+<ul>
+  <li>특정 장치 꺼내기 (기본 순서는 cd-rom, scsi, 플로피 및 테이프입니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/cdrom</span></p>
+
+<ul>
+  <li>장치 트레이가 열려 있는지 닫혀 있는지 토글:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eject -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/cdrom</span></p>
+
+<ul>
+  <li>CD 드라이브 꺼내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eject -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/cdrom</span></p>
+
+<ul>
+  <li>플로피 드라이브 꺼내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eject -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/mnt/floppy</span></p>
+
+<ul>
+  <li>테이프 드라이브 꺼내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eject -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/mnt/tape</span></p>

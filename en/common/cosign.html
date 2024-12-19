@@ -1,0 +1,52 @@
+<h1 id="cosign">cosign</h1>
+
+<p>Container Signing, Verification and Storage in an OCI registry.
+More information: <a href="https://github.com/sigstore/cosign">https://github.com/sigstore/cosign</a>.</p>
+
+<ul>
+  <li>Generate a key-pair:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cosign generate-key-pair</code></p>
+
+<ul>
+  <li>Sign a container and store the signature in the registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cosign sign -key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cosign.key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Sign a container image with a key pair stored in a Kubernetes secret:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cosign sign -key k8s://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Sign a blob with a local key pair file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cosign sign-blob --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cosign.key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Verify a container against a public key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cosign verify -key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cosign.pub</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Verify images with a public key in a Dockerfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cosign dockerfile verify -key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cosign.pub</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Dockerfile</span></p>
+
+<ul>
+  <li>Verify an image with a public key stored in a Kubernetes secret:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cosign verify -key k8s://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Copy a container image and its signatures:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cosign copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com/src:latest</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com/dest:latest</span></p>

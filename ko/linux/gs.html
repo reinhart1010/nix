@@ -1,0 +1,40 @@
+<h1 id="gs">gs</h1>
+
+<p>GhostScript는 PDF 및 PostScript 인터프리터입니다.
+더 많은 정보: <a href="https://manned.org/gs">https://manned.org/gs</a>.</p>
+
+<ul>
+  <li>파일 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gs -dQUIET -dBATCH </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.pdf</span></p>
+
+<ul>
+  <li>e-book 기기에서 읽을 수 있도록 PDF 파일 크기를 150 dpi 이미지로 줄이기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gs -dNOPAUSE -dQUIET -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -sOutputFile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력.pdf</span></p>
+
+<ul>
+  <li>PDF 파일의 페이지 1부터 3까지를 150 dpi 해상도의 이미지로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=jpeg -r150 -dFirstPage=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> -dLastPage=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> -sOutputFile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력_%d.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력.pdf</span></p>
+
+<ul>
+  <li>PDF 파일에서 페이지 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력.pdf</span></p>
+
+<ul>
+  <li>PDF 파일 병합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력1.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력2.pdf</span></p>
+
+<ul>
+  <li>PostScript 파일을 PDF 파일로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력.ps</span></p>

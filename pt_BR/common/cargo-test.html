@@ -1,0 +1,40 @@
+<h1 id="cargo-test">cargo test</h1>
+
+<p>Executa os testes unitários e de integração de um pacote Rust.
+Mais informações: <a href="https://doc.rust-lang.org/cargo/commands/cargo-test.html">https://doc.rust-lang.org/cargo/commands/cargo-test.html</a>.</p>
+
+<ul>
+  <li>Executa apenas os testes que contenham um texto específico em seus nomes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nomedoteste</span></p>
+
+<ul>
+  <li>Define o número de casos de teste para execução simultânea:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test -- --test-threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quantidade</span></p>
+
+<ul>
+  <li>Testa os artefatos em modo de publicação (release), com otimizações:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test --release</code></p>
+
+<ul>
+  <li>Testa todos os pacotes no workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test --workspace</code></p>
+
+<ul>
+  <li>Executa testes para um pacote específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Executa testes sem ocultar a saída das execuções dos testes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo test -- --nocapture</code></p>

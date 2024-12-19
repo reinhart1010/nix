@@ -1,0 +1,22 @@
+<h1 id="zint">zint</h1>
+
+<p>Genera códigos de barras y códigos QR.
+Más información: <a href="https://www.zint.org.uk/manual/chapter/4">https://www.zint.org.uk/manual/chapter/4</a>.</p>
+
+<ul>
+  <li>Crea un archivo con un código de barras:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zint --data "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datos_UTF-8</span><code class="language-plaintext highlighter-rouge">" --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Crea un archivo con otro tipo de código de barras:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zint --barcode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo_de_código</span><code class="language-plaintext highlighter-rouge"> --data "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datos_UTF-8</span><code class="language-plaintext highlighter-rouge">" --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Lista todos los tipos de códigos de barras soportados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zint --types</code></p>

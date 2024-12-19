@@ -1,0 +1,16 @@
+<h1 id="qr">qr</h1>
+
+<p>在终端中使用 ANSI VT-100 转义代码生成二维码。
+更多信息：<a href="https://github.com/lincolnloop/python-qrcode/">https://github.com/lincolnloop/python-qrcode/</a>.</p>
+
+<ul>
+  <li>生成一个二维码：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数据</span><code class="language-plaintext highlighter-rouge">" | qr</code></p>
+
+<ul>
+  <li>指定错误纠正等级（默认为 M）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数据</span><code class="language-plaintext highlighter-rouge">" | qr --error-correction=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">L|M|Q|H</span></p>

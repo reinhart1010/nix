@@ -1,0 +1,47 @@
+<h1 id="git-reset">git reset</h1>
+
+<p>Annulla commit o rimuovi modifiche dall'area di stage, reimpostando l'HEAD corrente su uno specifico stato.
+Se viene fornito un percorso, il comando reset si interpreta come "rimuovi dall'area di stage"; se viene fornito l'hash di un commit o un ramo, si interpreta come "annulla commit".
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-reset">https://git-scm.com/docs/git-reset</a>.</p>
+
+<ul>
+  <li>Rimuovi tutto dall'area di stage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset</code></p>
+
+<ul>
+  <li>Rimuovi dall'area di stage uno o più file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 …</span></p>
+
+<ul>
+  <li>Rimuovi dall'area di stage solo alcune porzioni di un file in modo interattivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset --patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Annulla l'ultimo commit, preservando tutte le modifiche nel filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset HEAD~</code></p>
+
+<ul>
+  <li>Annulla gli ultimi due commit, aggiungendo all'area di stage le modifiche relative:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset --soft HEAD~2</code></p>
+
+<ul>
+  <li>Annulla le modifiche non committate, indipendentemente se siano presenti nell'area di stage o meno (usa <code class="language-plaintext highlighter-rouge">git checkout</code> per queste ultime):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset --hard</code></p>
+
+<ul>
+  <li>Reimposta il repository su un dato commit, annullando qualsiasi tipo di modifica precedente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset --hard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

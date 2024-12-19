@@ -1,0 +1,34 @@
+<h1 id="pylint">pylint</h1>
+
+<p>A Python code linter.
+More information: <a href="https://pylint.pycqa.org/en/latest/">https://pylint.pycqa.org/en/latest/</a>.</p>
+
+<ul>
+  <li>Show lint errors in a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pylint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span></p>
+
+<ul>
+  <li>Lint a package or module (must be importable; no <code class="language-plaintext highlighter-rouge">.py</code> suffix):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pylint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_or_module</span></p>
+
+<ul>
+  <li>Lint a package from a directory path (must contain an <code class="language-plaintext highlighter-rouge">__init__.py</code> file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pylint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Lint a file and use a configuration file (usually named <code class="language-plaintext highlighter-rouge">pylintrc</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pylint --rcfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pylintrc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span></p>
+
+<ul>
+  <li>Lint a file and disable a specific error code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pylint --disable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C,W,no-error,design</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,28 @@
+<h1 id="gixy">gixy</h1>
+
+<p>Analyze nginx configuration files.
+More information: <a href="https://github.com/yandex/gixy">https://github.com/yandex/gixy</a>.</p>
+
+<ul>
+  <li>Analyze nginx configuration (default path: <code class="language-plaintext highlighter-rouge">/etc/nginx/nginx.conf</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gixy</code></p>
+
+<ul>
+  <li>Analyze nginx configuration but skip specific tests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gixy --skips </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http_splitting</span></p>
+
+<ul>
+  <li>Analyze nginx configuration with the specific severity level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gixy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|-ll|-lll</span></p>
+
+<ul>
+  <li>Analyze nginx configuration files on the specific path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gixy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/configuration_file_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/configuration_file_2</span></p>

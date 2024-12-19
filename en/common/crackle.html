@@ -1,0 +1,22 @@
+<h1 id="crackle">crackle</h1>
+
+<p>Crack and decrypt Bluetooth Low Energy (BLE) encryption.
+More information: <a href="https://github.com/mikeryan/crackle">https://github.com/mikeryan/crackle</a>.</p>
+
+<ul>
+  <li>Check whether the recorded BLE communications contain the packets necessary for recovering temporary keys (TKs):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crackle -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pcap</span></p>
+
+<ul>
+  <li>Use brute force to recover the TK of the recorded pairing events and use it to decrypt all subsequent communications:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crackle -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pcap</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/decrypted.pcap</span></p>
+
+<ul>
+  <li>Use the specified long-term key (LTK) to decrypt the recorded communication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crackle -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pcap</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/decrypted.pcap</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">81b06facd90fe7a6e9bbd9cee59736a7</span></p>

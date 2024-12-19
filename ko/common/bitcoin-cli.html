@@ -1,0 +1,52 @@
+<h1 id="bitcoin-cli">bitcoin-cli</h1>
+
+<p>RPC 호출을 통해 비트코인 데몬과 상호 작용하는 커맨드라인 클라이언트.<code class="language-plaintext highlighter-rouge">bitcoin.conf</code>에 정의된 구성 사용.
+더 많은 정보: <a href="https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments">https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments</a>.</p>
+
+<ul>
+  <li>지정된 주소로 트랜잭션 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli sendtoaddress "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">양</span></p>
+
+<ul>
+  <li>하나 이상의 블록 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli generate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">블록_갯수</span></p>
+
+<ul>
+  <li>wallet에 대한 고급 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli getwalletinfo</code></p>
+
+<ul>
+  <li>보내지지 않은 모든 트랜잭션의 출력 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli listunspent</code></p>
+
+<ul>
+  <li>wallet 정보를 텍스트 파일로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli dumpwallet "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>블록체인 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli getblockchaininfo</code></p>
+
+<ul>
+  <li>네트워크 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli getnetworkinfo</code></p>
+
+<ul>
+  <li>비트코인 코어 데몬 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli stop</code></p>

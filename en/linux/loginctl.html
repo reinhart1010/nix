@@ -1,0 +1,40 @@
+<h1 id="loginctl">loginctl</h1>
+
+<p>Manage the systemd login manager.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/loginctl.html">https://www.freedesktop.org/software/systemd/man/loginctl.html</a>.</p>
+
+<ul>
+  <li>Print all current sessions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loginctl list-sessions</code></p>
+
+<ul>
+  <li>Print all properties of a specific session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loginctl show-session </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_id</span><code class="language-plaintext highlighter-rouge"> --all</code></p>
+
+<ul>
+  <li>Print all properties of a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loginctl show-user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Print a specific property of a user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loginctl show-user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --property=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">property_name</span></p>
+
+<ul>
+  <li>Execute a <code class="language-plaintext highlighter-rouge">loginctl</code> operation on a remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loginctl list-users -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span></p>
+
+<ul>
+  <li>Log a user out on all of their sessions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loginctl terminate-user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>

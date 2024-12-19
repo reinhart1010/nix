@@ -1,0 +1,40 @@
+<h1 id="nix-shell">nix-shell</h1>
+
+<p>Startet eine interaktive Shell, die auf einem Nix-Ausdruck basiert.
+Weitere Informationen: <a href="https://nixos.org/manual/nix/stable/command-ref/nix-shell.html">https://nixos.org/manual/nix/stable/command-ref/nix-shell.html</a>.</p>
+
+<ul>
+  <li>Starte mit Nix-Ausdruck in <code class="language-plaintext highlighter-rouge">shell.nix</code> oder <code class="language-plaintext highlighter-rouge">default.nix</code> im aktuellen Verzeichnis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell</code></p>
+
+<ul>
+  <li>Führe Shell-Befehl in nicht-interaktiver Shell aus und beende:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell --run "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Starte mit Ausdruck in <code class="language-plaintext highlighter-rouge">default.nix</code> im aktuellen Verzeichnis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default.nix</span></p>
+
+<ul>
+  <li>Starte mit aus nixpkgs geladenen Paketen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell --packages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_name_1 paket_name_2 …</span></p>
+
+<ul>
+  <li>Starte mit Paketen, die aus einer bestimmten Nixpkgs-Revision geladen wurden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell --packages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_name_1 paket_name_2 …</span><code class="language-plaintext highlighter-rouge"> -I nixpkgs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz</span></p>
+
+<ul>
+  <li>Führe den Rest der Datei mit einem bestimmten Interpreter aus, zur Verwendung in <code class="language-plaintext highlighter-rouge">#!-scripts</code> (siehe <a href="https://nixos.org/manual/nix/stable/#use-as-a-interpreter">https://nixos.org/manual/nix/stable/#use-as-a-interpreter</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interpreter</span><code class="language-plaintext highlighter-rouge"> --packages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_name_1 paket_name_2 …</span></p>

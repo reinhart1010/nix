@@ -1,0 +1,46 @@
+<h1 id="tftp">tftp</h1>
+
+<p>Trivial File Transfer Protocol client.
+Meer informatie: <a href="https://manned.org/tftp.1">https://manned.org/tftp.1</a>.</p>
+
+<ul>
+  <li>Maak verbinding met een TFTP-server door het IP-adres en de poort op te geven:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort</span></p>
+
+<ul>
+  <li>Maak verbinding met een TFTP-server en voer een TFTP-[c]ommand uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Maak verbinding met een TFTP-server met IPv6 en forceer dat de oorspronkelijke poort binnen een [R]ange ligt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span><code class="language-plaintext highlighter-rouge"> -6 -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort</span></p>
+
+<ul>
+  <li>Stel de overdrachtsmodus in op binaire of ASCIi via de tftp-client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">binary|ascii</span></p>
+
+<ul>
+  <li>Download een bestand van een server via de tftp-client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Upload een bestand naar een server via de tftp-client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">put </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Verlaat de tftp-client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quit</code></p>

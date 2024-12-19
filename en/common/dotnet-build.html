@@ -1,0 +1,46 @@
+<h1 id="dotnet-build">dotnet build</h1>
+
+<p>Builds a .NET application and its dependencies.
+More information: <a href="https://learn.microsoft.com/dotnet/core/tools/dotnet-build">https://learn.microsoft.com/dotnet/core/tools/dotnet-build</a>.</p>
+
+<ul>
+  <li>Compile the project or solution in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build</code></p>
+
+<ul>
+  <li>Compile a .NET project or solution in debug mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_or_solution</span></p>
+
+<ul>
+  <li>Compile in release mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Release</span></p>
+
+<ul>
+  <li>Compile without restoring dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --no-restore</code></p>
+
+<ul>
+  <li>Compile with a specific verbosity level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --verbosity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet|minimal|normal|detailed|diagnostic</span></p>
+
+<ul>
+  <li>Compile for a specific runtime:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --runtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">runtime_identifier</span></p>
+
+<ul>
+  <li>Specify the output directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

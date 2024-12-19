@@ -1,0 +1,46 @@
+<h1 id="pamixer">pamixer</h1>
+
+<p>PulseAudio를 위한 간단한 커맨드라인 믹서.
+더 많은 정보: <a href="https://github.com/cdemoulins/pamixer">https://github.com/cdemoulins/pamixer</a>.</p>
+
+<ul>
+  <li>모든 싱크 및 소스를 해당 ID와 함께 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --list-sinks --list-sources</code></p>
+
+<ul>
+  <li>기본 싱크의 볼륨을 75%로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --set-volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">75</span></p>
+
+<ul>
+  <li>기본이 아닌 싱크 음소거 전환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --toggle-mute --sink </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ID</span></p>
+
+<ul>
+  <li>기본 싱크의 볼륨을 5% 증가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --increase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>소스의 볼륨을 5% 감소:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --decrease </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ID</span></p>
+
+<ul>
+  <li>100% 이상으로 볼륨을 증가, 감소 또는 설정하기 위해 부스트 허용 옵션 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --set-volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">105</span><code class="language-plaintext highlighter-rouge"> --allow-boost</code></p>
+
+<ul>
+  <li>기본 싱크 음소거 (<code class="language-plaintext highlighter-rouge">--unmute</code>를 사용하여 음소거 해제 가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --mute</code></p>

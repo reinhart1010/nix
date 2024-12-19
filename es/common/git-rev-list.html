@@ -1,0 +1,34 @@
+<h1 id="git-rev-list">git rev-list</h1>
+
+<p>Muestra las revisiones (confirmaciones) en orden cronológico inverso.
+Más información: <a href="https://git-scm.com/docs/git-rev-list">https://git-scm.com/docs/git-rev-list</a>.</p>
+
+<ul>
+  <li>Muestra todas las confirmaciones de la rama actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Imprime la última confirmación que cambió (agregó/editó/eliminó) un archivo específico en la rama actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–max-count</span><code class="language-plaintext highlighter-rouge"> 1 HEAD -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Muestra las confirmaciones más recientes a partir de una fecha y una rama específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list --since "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2019-12-01 00:00:00</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span></p>
+
+<ul>
+  <li>Muestra todas las confirmaciones fusionadas en una confirmación específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list --merges </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span></p>
+
+<ul>
+  <li>Imprime el número de confirmaciones desde una etiqueta específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_etiqueta</span><code class="language-plaintext highlighter-rouge">..HEAD --count</code></p>

@@ -1,0 +1,41 @@
+<h1 id="git-switch">git switch</h1>
+
+<p>Wechsle zwischen Branches. Verfügbar ab Git Version 2.23+.
+Siehe auch <code class="language-plaintext highlighter-rouge">git checkout</code>.
+Weitere Informationen: <a href="https://git-scm.com/docs/git-switch">https://git-scm.com/docs/git-switch</a>.</p>
+
+<ul>
+  <li>Wechsle zu einem existierenden Branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branche_name</span></p>
+
+<ul>
+  <li>Erstelle einen neuen Branch und wechsele zu diesem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Erstelle einen neuen Branch basierend auf einem existierenden Commit und wechsele zu diesem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Wechsele zum vorherigen Branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch -</code></p>
+
+<ul>
+  <li>Wechsele zu einem Branch und aktualisiere alle Submodule entsprechend:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --recurse-submodules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Wechsele zu einem Branch und merge automatisch den aktuellen Branch und alle Änderungen, die nicht committed wurden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>

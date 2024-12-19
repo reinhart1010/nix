@@ -1,0 +1,34 @@
+<h1 id="rpcinfo">rpcinfo</h1>
+
+<p>Make an RPC call to an RPC server and reports what it finds.
+More information: <a href="https://manned.org/rpcinfo">https://manned.org/rpcinfo</a>.</p>
+
+<ul>
+  <li>Show full table of all RPC services registered on localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo</code></p>
+
+<ul>
+  <li>Show concise table of all RPC services registered on localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span></p>
+
+<ul>
+  <li>Display table of statistics of rpcbind operations on localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -m</code></p>
+
+<ul>
+  <li>Display list of entries of given service name (mountd) and version number (2) on a remote nfs share:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_nfs_server_ip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Delete the registration for version 1 of the mountd service for all transports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>

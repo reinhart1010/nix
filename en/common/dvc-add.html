@@ -1,0 +1,28 @@
+<h1 id="dvc-add">dvc add</h1>
+
+<p>Add changed files to the index.
+More information: <a href="https://dvc.org/doc/command-reference/add">https://dvc.org/doc/command-reference/add</a>.</p>
+
+<ul>
+  <li>Add a single target file to the index:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Add a target directory to the index:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Recursively add all the files in a given target directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc add --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Add a target file with a custom <code class="language-plaintext highlighter-rouge">.dvc</code> filename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc add --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">custom_name.dvc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

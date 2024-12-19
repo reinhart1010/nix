@@ -1,0 +1,52 @@
+<h1 id="lvm">lvm</h1>
+
+<p>Manage physical volumes, volume groups, and logical volumes using the Logical Volume Manager (LVM) interactive shell.
+More information: <a href="https://manned.org/lvm">https://manned.org/lvm</a>.</p>
+
+<ul>
+  <li>Start the Logical Volume Manager interactive shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lvm</code></p>
+
+<ul>
+  <li>Initialize a drive or partition to be used as a physical volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lvm pvcreate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>
+
+<ul>
+  <li>Display information about physical volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lvm pvdisplay</code></p>
+
+<ul>
+  <li>Create a volume group called vg1 from the physical volume on <code class="language-plaintext highlighter-rouge">/dev/sdXY</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lvm vgcreate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vg1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>
+
+<ul>
+  <li>Display information about volume groups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lvm vgdisplay</code></p>
+
+<ul>
+  <li>Create a logical volume with size 10G from volume group vg1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lvm lvcreate -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10G</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vg1</span></p>
+
+<ul>
+  <li>Display information about logical volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lvm lvdisplay</code></p>
+
+<ul>
+  <li>Display help for a specific command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvm help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

@@ -1,0 +1,28 @@
+<h1 id="enca">enca</h1>
+
+<p>텍스트 파일의 인코딩을 감지하고 변환.
+더 많은 정보: <a href="https://github.com/nijel/enca">https://github.com/nijel/enca</a>.</p>
+
+<ul>
+  <li>시스템의 위치에 따라 파일 인코딩을 감지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>POSIX/C 위치 형식 (예: zh_CN, en_US)에서 언어를 지정하는 파일 인코딩을 감지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">언어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>파일을 특정 인코딩으로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">언어</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인코딩</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>다른 인코딩을 사용하여 기존 파일의 복사본을 만듬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">언어</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인코딩</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원본_파일</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새로운_파일</span></p>

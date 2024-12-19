@@ -1,0 +1,53 @@
+<h1 id="firewall-cmd">firewall-cmd</h1>
+
+<p>The firewalld command-line client.
+View and adapt the runtime or permanent firewall configuration state.
+More information: <a href="https://firewalld.org/documentation/man-pages/firewall-cmd">https://firewalld.org/documentation/man-pages/firewall-cmd</a>.</p>
+
+<ul>
+  <li>View all available firewall zones and rules in their runtime configuration state:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --list-all-zones</code></p>
+
+<ul>
+  <li>Permanently move the interface into the block zone, effectively blocking all communication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">block</span><code class="language-plaintext highlighter-rouge"> --change-interface=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enp1s0</span></p>
+
+<ul>
+  <li>Permanently open the port for a service in the specified zone (like port 443 when in the <code class="language-plaintext highlighter-rouge">public</code> zone):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public</span><code class="language-plaintext highlighter-rouge"> --add-service=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https</span></p>
+
+<ul>
+  <li>Permanently close the port for a service in the specified zone (like port 80 when in the <code class="language-plaintext highlighter-rouge">public</code> zone):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public</span><code class="language-plaintext highlighter-rouge"> --remove-service=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http</span></p>
+
+<ul>
+  <li>Permanently forward a port for incoming packets in the specified zone (like port 443 to 8443 when entering the <code class="language-plaintext highlighter-rouge">public</code> zone):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public</span><code class="language-plaintext highlighter-rouge"> --add-rich-rule='rule family="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ipv4|ipv6</span><code class="language-plaintext highlighter-rouge">" forward-port port="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">443</span><code class="language-plaintext highlighter-rouge">" protocol="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp|tcp</span><code class="language-plaintext highlighter-rouge">" to-port="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8443</span><code class="language-plaintext highlighter-rouge">"'</code></p>
+
+<ul>
+  <li>Reload firewalld to lose any runtime changes and force the permanent configuration to take effect immediately:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --reload</code></p>
+
+<ul>
+  <li>Save the runtime configuration state to the permanent configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --runtime-to-permanent</code></p>
+
+<ul>
+  <li>Enable panic mode in case of Emergency. All traffic is dropped, any active connection will be terminated:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --panic-on</code></p>

@@ -1,0 +1,48 @@
+<h1 id="warp-cli">warp-cli</h1>
+
+<p>Connect, disconnect and switch modes of a connection to Cloudflare's WARP service.
+WARP is a VPN that encrypts traffic for privacy, security, and speed.
+See also: <code class="language-plaintext highlighter-rouge">fastd</code>, <code class="language-plaintext highlighter-rouge">ivpn</code>, <code class="language-plaintext highlighter-rouge">mozillavpn</code>, <code class="language-plaintext highlighter-rouge">mullvad</code>.
+More information: <a href="https://developers.cloudflare.com/warp-client/">https://developers.cloudflare.com/warp-client/</a>.</p>
+
+<ul>
+  <li>Register the current device to WARP (must be run before first connection):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">warp-cli registration new</code></p>
+
+<ul>
+  <li>Connect to WARP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">warp-cli connect</code></p>
+
+<ul>
+  <li>Disconnect from WARP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">warp-cli disconnect</code></p>
+
+<ul>
+  <li>Display the WARP connection status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">warp-cli status</code></p>
+
+<ul>
+  <li>Switch to a specific mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">warp-cli set-mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mode</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">warp-cli help</code></p>
+
+<ul>
+  <li>Display help for a subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">warp-cli help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>

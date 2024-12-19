@@ -1,0 +1,52 @@
+<h1 id="ftp">ftp</h1>
+
+<p>로컬 및 원격 FTP 서버 간에 파일을 상호작용하며 전송.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/ftp">https://learn.microsoft.com/windows-server/administration/windows-commands/ftp</a>.</p>
+
+<ul>
+  <li>원격 FTP 서버에 상호작용하며 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>익명 사용자로 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>초기 연결 시 자동 로그인 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>FTP 명령 목록이 포함된 파일 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -s:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>여러 파일 다운로드(글롭 표현식):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.png</span></p>
+
+<ul>
+  <li>여러 파일 업로드(글롭 표현식):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip</span></p>
+
+<ul>
+  <li>원격 서버에서 여러 파일 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp --help</code></p>

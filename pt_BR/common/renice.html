@@ -1,0 +1,23 @@
+<h1 id="renice">renice</h1>
+
+<p>Altera a prioridade/agradabilidade de agendamento de um ou mais processos em execução.
+Os valores de agradabilidade variam de -20 (mais favorável ao processo) a 19 (menos favorável ao processo).
+Mais informações: <a href="https://manned.org/renice">https://manned.org/renice</a>.</p>
+
+<ul>
+  <li>Altera a prioridade de um [p]rocesso em execução:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Altera a prioridade de todos os processos pertencentes a um [u]suário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-4</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuario</span></p>
+
+<ul>
+  <li>Altera a prioridade de todos os processos que pertencem a um [g]rupo de processos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_de_processos</span></p>

@@ -1,0 +1,36 @@
+<h1 id="sockstat">sockstat</h1>
+
+<p>खुले इंटरनेट या UNIX डोमेन सॉकेट्स की सूची।
+नोट: यह प्रोग्राम FreeBSD के <code class="language-plaintext highlighter-rouge">sockstat</code> से NetBSD 3.0 के लिए एक पुनर्लेखन है।
+देखें: <code class="language-plaintext highlighter-rouge">netstat</code>।
+अधिक जानकारी: <a href="https://man.netbsd.org/sockstat.1">https://man.netbsd.org/sockstat.1</a>।</p>
+
+<ul>
+  <li>सुनने और जुड़े सॉकेट्स के लिए IPv4, IPv6 और यूनिक्स सॉकेट्स की जानकारी दिखाएँ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat</code></p>
+
+<ul>
+  <li>एक विशिष्ट [p]पोर्ट पर एक विशिष्ट [P]प्रोटोकॉल का उपयोग करते हुए IPv[4]/IPv[6] सॉकेट्स [l]सुनने के लिए जानकारी दिखाएँ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span><code class="language-plaintext highlighter-rouge"> -l -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|sctp|divert</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पोर्ट1,पोर्ट2…</span></p>
+
+<ul>
+  <li>[c]जुड़े सॉकेट्स भी दिखाएँ, [u]यूनिक्स सॉकेट्स दिखाते हुए:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -cu</code></p>
+
+<ul>
+  <li>केवल [n]संख्यात्मक आउटपुट दिखाएँ, पते और पोर्ट्स के लिए प्रतीकात्मक नामों को हल किए बिना:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -n</code></p>
+
+<ul>
+  <li>निर्दिष्ट पते के [f]परिवार के सॉकेट्स की केवल सूची बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet|inet6|local|unix</span></p>

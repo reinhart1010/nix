@@ -1,0 +1,16 @@
+<h1 id="qm-guest-passwd">qm guest passwd</h1>
+
+<p>Establece la contraseña para un usuario en el administrador de máquinas virtuales QEMU/KVM.
+Más información: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Establece una contraseña para un usuario específico en una máquina virtual de forma interactiva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm guest passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Establece una contraseña ya procesada (hashed) para un usuario específico en una máquina virtual de forma interactiva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm guest passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --crypted 1</code></p>

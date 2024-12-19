@@ -1,0 +1,29 @@
+<h1 id="abbr">abbr</h1>
+
+<p>Gestiona abreviatures per la shell fish.
+Les paraules definides per l'usuari es reemplacen per expresions llarges en introduïr-les.
+Més informació: <a href="https://fishshell.com/docs/current/cmds/abbr.html">https://fishshell.com/docs/current/cmds/abbr.html</a>.</p>
+
+<ul>
+  <li>Afegeix una nova abreviatura:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_abreviatura</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comandament</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span></p>
+
+<ul>
+  <li>Canvia el nom d'una abreviatura existent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">antic_nom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nou_nom</span></p>
+
+<ul>
+  <li>Esborra una abreviatura existent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --erase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_abreviatura</span></p>
+
+<ul>
+  <li>Importa les abreviatures definides en un altre host per SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_host</span><code class="language-plaintext highlighter-rouge"> abbr --show | source</code></p>

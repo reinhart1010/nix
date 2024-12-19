@@ -1,0 +1,52 @@
+<h1 id="pulumi-stack">pulumi stack</h1>
+
+<p>스택을 관리하고 스택 상태를 확인.
+더 많은 정보: <a href="https://www.pulumi.com/docs/iac/cli/commands/pulumi_stack/">https://www.pulumi.com/docs/iac/cli/commands/pulumi_stack/</a>.</p>
+
+<ul>
+  <li>새 스택 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스택_이름</span></p>
+
+<ul>
+  <li>스택 상태 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack</code></p>
+
+<ul>
+  <li>현재 프로젝트의 스택 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack ls</code></p>
+
+<ul>
+  <li>모든 프로젝트의 스택 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack ls --all</code></p>
+
+<ul>
+  <li>활성 스택 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스택_이름</span></p>
+
+<ul>
+  <li>스택 출력을 평문으로 표시 (비밀 포함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack output --show-secrets</code></p>
+
+<ul>
+  <li>스택 상태를 JSON 파일로 내보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack export --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.json</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack --help</code></p>

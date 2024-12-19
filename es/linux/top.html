@@ -1,0 +1,46 @@
+<h1 id="top">top</h1>
+
+<p>Muestra información dinámica en tiempo real sobre procesos ejecutándose.
+Más información: <a href="https://manned.org/top">https://manned.org/top</a>.</p>
+
+<ul>
+  <li>Inicia top:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top</code></p>
+
+<ul>
+  <li>Oculta los procesos inactivos o zombies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top -i</code></p>
+
+<ul>
+  <li>Muestra solo procesos pertenecientes a un usuario dado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Ordena procesos por una columna:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_columna</span></p>
+
+<ul>
+  <li>Muestra los hilos individuales de un proceso dado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top -Hp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_proceso</span></p>
+
+<ul>
+  <li>Muestra solo los procesos con un(os) PID(s) dado(s), separados por comas. (Normalmente no se conoce el PID de antemano. Este ejemplo lo obtiene del nombre del proceso):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top -p $(pgrep -d ',' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_proceso</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Obtén ayuda acerca de los comandos interactivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">?</code></p>

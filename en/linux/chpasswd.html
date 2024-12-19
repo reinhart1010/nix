@@ -1,0 +1,28 @@
+<h1 id="chpasswd">chpasswd</h1>
+
+<p>Change the passwords for multiple users by using <code class="language-plaintext highlighter-rouge">stdin</code>.
+More information: <a href="https://manned.org/chpasswd.8">https://manned.org/chpasswd.8</a>.</p>
+
+<ul>
+  <li>Change the password for a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_password</span><code class="language-plaintext highlighter-rouge">" | sudo chpasswd</code></p>
+
+<ul>
+  <li>Change the passwords for multiple users (The input text must not contain any spaces.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username_1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_password_1</span><code class="language-plaintext highlighter-rouge">\n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username_2</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_password_2</span><code class="language-plaintext highlighter-rouge">" | sudo chpasswd</code></p>
+
+<ul>
+  <li>Change the password for a specific user, and specify it in encrypted form:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_encrypted_password</span><code class="language-plaintext highlighter-rouge">" | sudo chpasswd --encrypted</code></p>
+
+<ul>
+  <li>Change the password for a specific user, and use a specific encryption for the stored password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_password</span><code class="language-plaintext highlighter-rouge">" | sudo chpasswd --crypt-method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NONE|DES|MD5|SHA256|SHA512</span></p>

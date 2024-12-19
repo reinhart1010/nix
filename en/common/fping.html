@@ -1,0 +1,28 @@
+<h1 id="fping">fping</h1>
+
+<p>A more powerful ping which can ping multiple hosts.
+More information: <a href="https://fping.org">https://fping.org</a>.</p>
+
+<ul>
+  <li>List the status of all hosts within a range:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.{1..254}</span></p>
+
+<ul>
+  <li>List alive hosts within a subnet generated from a netmask:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–alive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–generate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.0/24</span></p>
+
+<ul>
+  <li>List alive hosts within a subnet generated from an IP range and prune per-probe results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-q|–quiet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–alive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–generate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.254</span></p>
+
+<ul>
+  <li>List unreachable hosts within a subnet generated from a netmask:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–unreach</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–generate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.0/24</span></p>

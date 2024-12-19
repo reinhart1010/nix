@@ -1,0 +1,52 @@
+<h1 id="aws-sqs">aws sqs</h1>
+
+<p>Cria, apaga, e envia mensagens para filas para o serviço AWS SQS.
+Mais informações: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sqs/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sqs/index.html</a>.</p>
+
+<ul>
+  <li>Lista todas as filas disponíveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs list-queues</code></p>
+
+<ul>
+  <li>Exibe a URL de uma fila específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs get-queue-url --queue-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_fila</span></p>
+
+<ul>
+  <li>Cria uma fila com atributos especificados em arquivo JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs create-queue --queue-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_fila</span><code class="language-plaintext highlighter-rouge"> --attributes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file://caminho/para/arquivos_de_atributos.json</span></p>
+
+<ul>
+  <li>Envia mensagem específica para uma fila:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs send-message --queue-url https://sqs.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regiao</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_fila</span><code class="language-plaintext highlighter-rouge"> --message-body "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">corpo_da_mensagem</span><code class="language-plaintext highlighter-rouge">" --delay-seconds </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inteiro</span><code class="language-plaintext highlighter-rouge"> --message-attributes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file://caminho/para/arquivos_de_atributos.json</span></p>
+
+<ul>
+  <li>Remove uma mensagem específica de uma fila:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs delete-message --queue-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://url_da_fila</span><code class="language-plaintext highlighter-rouge"> --receipt-handle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificado_da_mensagem</span></p>
+
+<ul>
+  <li>Remove uma fila específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs delete-queue --queue-url https://sqs.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regiao</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_fila</span></p>
+
+<ul>
+  <li>Remove todas as mensagens de uma fila específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs purge-queue --queue-url https://sqs.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regiao</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_fila</span></p>
+
+<ul>
+  <li>Habilita uma conta AWS específica para enviar mensagens para uma fila:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs add-permission --queue-url https://sqs.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regiao</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_fila</span><code class="language-plaintext highlighter-rouge"> --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_permissao</span><code class="language-plaintext highlighter-rouge"> --aws-account-ids </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_da_conta</span><code class="language-plaintext highlighter-rouge"> --actions SendMessage</code></p>

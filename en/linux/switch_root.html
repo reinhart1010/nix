@@ -1,0 +1,18 @@
+<h1 id="switch_root">switch_root</h1>
+
+<p>Use a different filesystem as the root of the mount tree.
+Note: switch_root will fail to function if the new root is not the root of a mount. Use bind-mounting as a workaround.
+See also: <code class="language-plaintext highlighter-rouge">chroot</code>, <code class="language-plaintext highlighter-rouge">mount</code>.
+More information: <a href="https://manned.org/switch_root.8">https://manned.org/switch_root.8</a>.</p>
+
+<ul>
+  <li>Move <code class="language-plaintext highlighter-rouge">/proc</code>, <code class="language-plaintext highlighter-rouge">/dev</code>, <code class="language-plaintext highlighter-rouge">/sys</code> and <code class="language-plaintext highlighter-rouge">/run</code> to the specified filesystem, use this filesystem as the new root and start the specified init process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">switch_root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/sbin/init</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">switch_root -h</code></p>

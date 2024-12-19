@@ -1,0 +1,46 @@
+<h1 id="nmcli-connection">nmcli connection</h1>
+
+<p>NetworkManager ile bağlantı yönetimi.
+Daha fazla bilgi için: <a href="https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html">https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html</a>.</p>
+
+<ul>
+  <li>Tüm NetworkManager bağlantılarını listele (ad, UUID, tür ve aygıtı gösterir):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli connection</code></p>
+
+<ul>
+  <li>UUID belirterek bağlantıyı etkinleştir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli connection up uuid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid</span></p>
+
+<ul>
+  <li>Bağlantıyı devre dışı bırak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli connection down uuid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid</span></p>
+
+<ul>
+  <li>IPv4 ve IPv6 otomatik olarak yapılandırılan bir bağlantı oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli connection add ifname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arayüz_adı</span><code class="language-plaintext highlighter-rouge"> type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethernet</span><code class="language-plaintext highlighter-rouge"> ipv4.method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">auto</span><code class="language-plaintext highlighter-rouge"> ipv6.method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">auto</span></p>
+
+<ul>
+  <li>Statik bir yalnızca IPv6 bağlantısı oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli connection add ifname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arayüz_adı</span><code class="language-plaintext highlighter-rouge"> type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethernet</span><code class="language-plaintext highlighter-rouge"> ip6 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8::2/64</span><code class="language-plaintext highlighter-rouge"> gw6 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8::1</span><code class="language-plaintext highlighter-rouge"> ipv6.dns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8::1</span><code class="language-plaintext highlighter-rouge"> ipv4.method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ignore</span></p>
+
+<ul>
+  <li>Statik bir yalnızca IPv4 bağlantısı oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli connection add ifname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arayüz_adı</span><code class="language-plaintext highlighter-rouge"> type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethernet</span><code class="language-plaintext highlighter-rouge"> ip4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.7/8</span><code class="language-plaintext highlighter-rouge"> gw4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.1</span><code class="language-plaintext highlighter-rouge"> ipv4.dns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.1</span><code class="language-plaintext highlighter-rouge"> ipv6.method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ignore</span></p>
+
+<ul>
+  <li>Bir OVPN dosyasından OpenVPN kullanan bir VPN bağlantısı oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli connection import type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">openvpn</span><code class="language-plaintext highlighter-rouge"> file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vpn_yapılandırması.ovpn/dosyasının/yolu</span></p>

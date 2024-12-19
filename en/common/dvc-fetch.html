@@ -1,0 +1,34 @@
+<h1 id="dvc-fetch">dvc fetch</h1>
+
+<p>Download DVC tracked files and directories from a remote repository.
+More information: <a href="https://dvc.org/doc/command-reference/fetch">https://dvc.org/doc/command-reference/fetch</a>.</p>
+
+<ul>
+  <li>Fetch the latest changes from the default remote upstream repository (if set):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc fetch</code></p>
+
+<ul>
+  <li>Fetch changes from a specific remote upstream repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc fetch --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span></p>
+
+<ul>
+  <li>Fetch the latest changes for a specific target/s:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc fetch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target/s</span></p>
+
+<ul>
+  <li>Fetch changes for all branch and tags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc fetch --all-branches --all-tags</code></p>
+
+<ul>
+  <li>Fetch changes for all commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc fetch --all-commits</code></p>

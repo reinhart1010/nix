@@ -1,0 +1,22 @@
+<h1 id="lynis">lynis</h1>
+
+<p>System and security auditing tool.
+More information: <a href="https://cisofy.com/documentation/lynis/">https://cisofy.com/documentation/lynis/</a>.</p>
+
+<ul>
+  <li>Check that Lynis is up-to-date:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lynis update info</code></p>
+
+<ul>
+  <li>Run a security audit of the system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lynis audit system</code></p>
+
+<ul>
+  <li>Run a security audit of a Dockerfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lynis audit dockerfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dockerfile</span></p>

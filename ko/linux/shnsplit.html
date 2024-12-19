@@ -1,0 +1,28 @@
+<h1 id="shnsplit">shnsplit</h1>
+
+<p><code class="language-plaintext highlighter-rouge">.cue</code> 파일에 따라 오디오 파일을 분할합니다.
+더 많은 정보: <a href="http://shnutils.freeshell.org/shntool/">http://shnutils.freeshell.org/shntool/</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.wav</code> + <code class="language-plaintext highlighter-rouge">.cue</code> 파일을 여러 파일로 분할:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.cue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.wav</span></p>
+
+<ul>
+  <li>지원되는 형식 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -a</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.flac</code> 파일을 여러 파일로 분할:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.cue</span><code class="language-plaintext highlighter-rouge"> -o flac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.flac</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.wav</code> 파일을 "트랙 번호 - 앨범 - 제목" 형식으로 분할:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.cue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.wav</span><code class="language-plaintext highlighter-rouge"> -t "%n - %a - %t"</code></p>

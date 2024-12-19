@@ -1,0 +1,28 @@
+<h1 id="at">at</h1>
+
+<p>Voert commando's uit op een gespecificeerd tijdstip.
+Meer informatie: <a href="https://manned.org/at.1">https://manned.org/at.1</a>.</p>
+
+<ul>
+  <li>Open een <code class="language-plaintext highlighter-rouge">at</code>-prompt om een nieuwe reeks geplande commando's te maken, druk op <code class="language-plaintext highlighter-rouge">Ctrl + D</code> om op te slaan en af te sluiten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span></p>
+
+<ul>
+  <li>Voer de commando's uit en e-mail het resultaat met behulp van een lokaal mailprogramma zoals Sendmail:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span><code class="language-plaintext highlighter-rouge"> -m</code></p>
+
+<ul>
+  <li>Voer een script uit op het opgegeven tijdstip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon een systeembericht om 23:00 op 18 februari:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "notify-send '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Wake up!</span><code class="language-plaintext highlighter-rouge">'" | at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">11pm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Feb 18</span></p>

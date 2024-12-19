@@ -1,0 +1,28 @@
+<h1 id="nvcc">nvcc</h1>
+
+<p>The NVIDIA CUDA Compiler Driver.
+More information: <a href="https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc">https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc</a>.</p>
+
+<ul>
+  <li>Compile a CUDA program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.cu</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span></p>
+
+<ul>
+  <li>Generate debu[g] information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.cu</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> --debug --device-debug</code></p>
+
+<ul>
+  <li>Include libraries from a different path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.cu</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/includes</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/library</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">library_name</span></p>
+
+<ul>
+  <li>Specify the compute capability for a specific GPU architecture:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.cu</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> --generate-code arch=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arch_name</span><code class="language-plaintext highlighter-rouge">,code=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpu_code_name</span></p>

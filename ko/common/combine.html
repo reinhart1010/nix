@@ -1,0 +1,30 @@
+<h1 id="combine">combine</h1>
+
+<p>두 파일의 줄에서 설정 작업 수행.
+출력되는 줄의 순서는 첫 번째 파일의 줄 순서에 따라 결정됨.
+참고: <code class="language-plaintext highlighter-rouge">diff</code>.
+더 많은 정보: <a href="https://joeyh.name/code/moreutils/">https://joeyh.name/code/moreutils/</a>.</p>
+
+<ul>
+  <li>지정된 두 파일 모두에 있는 라인을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">combine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> and </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>
+
+<ul>
+  <li>첫 번째 파일에는 있지만, 두 번째 파일에는 없는 줄을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">combine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> not </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>
+
+<ul>
+  <li>지정된 파일 중 하나에 있는 줄을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">combine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> or </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>
+
+<ul>
+  <li>지정된 파일 중 정확히 하나에만 있는 줄을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">combine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> xor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>

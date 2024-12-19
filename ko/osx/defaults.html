@@ -1,0 +1,40 @@
+<h1 id="defaults">defaults</h1>
+
+<p>macOS 사용자 애플리케이션 구성을 읽고 쓰기.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/defaults.1.html">https://keith.github.io/xcode-man-pages/defaults.1.html</a>.</p>
+
+<ul>
+  <li>애플리케이션 옵션에 대한 시스템 기본값 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults read "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옵션</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>애플리케이션 옵션에 대한 기본값 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults read -app "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옵션</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>도메인 이름, 키 및 값에서 키워드 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults find "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키워드</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>애플리케이션 옵션의 기본값 쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults write "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옵션</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-타입</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>Mission Control 애니메이션 속도 향상:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults write com.apple.Dock expose-animation-duration -float 0.1</code></p>
+
+<ul>
+  <li>애플리케이션의 모든 기본값 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션</span><code class="language-plaintext highlighter-rouge">"</code></p>

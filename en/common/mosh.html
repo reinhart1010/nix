@@ -1,0 +1,41 @@
+<h1 id="mosh">mosh</h1>
+
+<p>Mobile Shell (<code class="language-plaintext highlighter-rouge">mosh</code>) is a robust and responsive replacement for SSH.
+<code class="language-plaintext highlighter-rouge">mosh</code> persists connections to remote servers while roaming between networks.
+More information: <a href="https://mosh.org">https://mosh.org</a>.</p>
+
+<ul>
+  <li>Connect to a remote server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Connect to a remote server with a specific identity (private key):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh --ssh="ssh -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Connect to a remote server using a specific port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh --ssh="ssh -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2222</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Run a command on a remote server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command -with -flags</span></p>
+
+<ul>
+  <li>Select Mosh UDP port (useful when <code class="language-plaintext highlighter-rouge">remote_host</code> is behind a NAT):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">124</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Usage when <code class="language-plaintext highlighter-rouge">mosh-server</code> binary is outside standard path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh --server=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bin/</span><code class="language-plaintext highlighter-rouge">mosh-server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>

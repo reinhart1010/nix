@@ -1,0 +1,35 @@
+<h1 id="astyle">astyle</h1>
+
+<p>Source code indenter, formatter, and beautifier for the C, C++, C# and Java programming languages.
+Upon running, a copy of the original file is created with an ".orig" appended to the original file name.
+More information: <a href="https://astyle.sourceforge.net">https://astyle.sourceforge.net</a>.</p>
+
+<ul>
+  <li>Apply the default style of 4 spaces per indent and no formatting changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file</span></p>
+
+<ul>
+  <li>Apply the Java style with attached braces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --style=java </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Apply the allman style with broken braces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --style=allman </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Apply a custom indent using spaces. Choose between 2 and 20 spaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --indent=spaces=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_spaces</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Apply a custom indent using tabs. Choose between 2 and 20 tabs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --indent=tab=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_tabs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

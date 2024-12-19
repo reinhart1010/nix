@@ -1,0 +1,40 @@
+<h1 id="forfiles">forfiles</h1>
+
+<p>지정한 명령어를 실행할 파일을 선택.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles">https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles</a>.</p>
+
+<ul>
+  <li>현재 디렉토리에서 파일 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles</code></p>
+
+<ul>
+  <li>특정 디렉토리에서 파일 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\폴더</span></p>
+
+<ul>
+  <li>각 파일에 대해 지정된 명령어 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles /c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 글로브 패턴을 사용하여 파일 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles /m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">글로브_패턴</span></p>
+
+<ul>
+  <li>파일을 재귀적으로 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles /s</code></p>
+
+<ul>
+  <li>5일 이상된 파일 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles /d +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>

@@ -1,0 +1,52 @@
+<h1 id="pacstrap">pacstrap</h1>
+
+<p>Arch Linux install script to install packages to the specified new root directory.
+More information: <a href="https://manned.org/pacstrap.8">https://manned.org/pacstrap.8</a>.</p>
+
+<ul>
+  <li>Install the <code class="language-plaintext highlighter-rouge">base</code> package, Linux kernel and firmware for common hardware:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux-firmware</span></p>
+
+<ul>
+  <li>Install the <code class="language-plaintext highlighter-rouge">base</code> package, Linux LTS kernel and <code class="language-plaintext highlighter-rouge">base-devel</code> build tools:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base-devel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux-lts</span></p>
+
+<ul>
+  <li>Install packages without copy the host's mirrorlist to the target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">packages</span></p>
+
+<ul>
+  <li>Use an alternate configuration file for Pacman:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pacman.conf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">packages</span></p>
+
+<ul>
+  <li>Install packages using the package cache on the host instead of on the target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">packages</span></p>
+
+<ul>
+  <li>Initialize an empty <code class="language-plaintext highlighter-rouge">pacman</code> keyring in the target without copying it from the host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -K </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">packages</span></p>
+
+<ul>
+  <li>Install packages in interactive mode (prompts for confirmation):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">packages</span></p>
+
+<ul>
+  <li>Install packages using package files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package2</span></p>

@@ -1,0 +1,28 @@
+<h1 id="dropbearkey">dropbearkey</h1>
+
+<p>Dropbear 형식으로 SSH 키를 생성합니다.
+더 많은 정보: <a href="https://manned.org/dropbearkey.1">https://manned.org/dropbearkey.1</a>.</p>
+
+<ul>
+  <li>[t]유형 ed25519의 SSH 키를 생성하여 키 [f]파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dropbearkey -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ed25519</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키_파일</span></p>
+
+<ul>
+  <li>[t]유형 ecdsa의 SSH 키를 생성하여 키 [f]파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dropbearkey -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ecdsa</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키_파일</span></p>
+
+<ul>
+  <li>4096비트 키 [s]크기의 [t]유형 RSA SSH 키를 생성하여 키 [f]파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dropbearkey -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키_파일</span></p>
+
+<ul>
+  <li>키 [f]파일의 개인 키 지문과 공개 키 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dropbearkey -y -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키_파일</span></p>

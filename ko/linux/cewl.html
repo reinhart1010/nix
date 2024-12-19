@@ -1,0 +1,34 @@
+<h1 id="cewl">cewl</h1>
+
+<p>웹 콘텐츠에서 크래킹용 단어 목록을 만드는 URL 수집 도구.
+더 많은 정보: <a href="https://digi.ninja/projects/cewl.php">https://digi.ninja/projects/cewl.php</a>.</p>
+
+<ul>
+  <li>지정된 URL에서 링크 깊이 2까지 단어 목록 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cewl --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/단어목록.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>지정된 URL에서 최소 5자 이상의 알파벳과 숫자로 이루어진 단어 목록 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cewl --with-numbers --min_word_length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>디버그 모드로 이메일 주소를 포함한 지정된 URL에서 단어 목록 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cewl --debug --email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>HTTP 기본 또는 다이제스트 인증을 사용하여 지정된 URL에서 단어 목록 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cewl --auth_type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">basic|digest</span><code class="language-plaintext highlighter-rouge"> --auth_user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> --auth_pass </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>프록시를 통해 지정된 URL에서 단어 목록 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cewl --proxy_host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> --proxy_port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>

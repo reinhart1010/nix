@@ -1,0 +1,35 @@
+<h1 id="aa-status">aa-status</h1>
+
+<p>Lista los módulos AppArmor cargados actualmente.
+Vea también: <code class="language-plaintext highlighter-rouge">aa-complain</code>, <code class="language-plaintext highlighter-rouge">aa-disable</code>, <code class="language-plaintext highlighter-rouge">aa-enforce</code>.
+Más información: <a href="https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-status.8">https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-status.8</a>.</p>
+
+<ul>
+  <li>Muestra el estado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo aa-status</code></p>
+
+<ul>
+  <li>Muestra el número de políticas cargadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo aa-status --profiled</code></p>
+
+<ul>
+  <li>Muestra el número de políticas impuestas cargadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo aa-status --enforced</code></p>
+
+<ul>
+  <li>Muestra el número de políticas no obligatorias cargadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo aa-status --complaining</code></p>
+
+<ul>
+  <li>Muestra el número de políticas impuestas cargadas que terminan tareas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo aa-status --kill</code></p>

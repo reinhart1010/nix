@@ -1,0 +1,34 @@
+<h1 id="ffprobe">ffprobe</h1>
+
+<p>Analizzatore di flussi multimediali.
+Maggiori informazioni: <a href="https://ffmpeg.org/ffprobe.html">https://ffmpeg.org/ffprobe.html</a>.</p>
+
+<ul>
+  <li>Visualizza tutte le informazioni disponibili sui flussi di un file multimediale (audio, video, immagini, etc):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffprobe -v error -show_streams </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.mp4</span></p>
+
+<ul>
+  <li>Visualizza la durata del contenuto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.mp4</span></p>
+
+<ul>
+  <li>Visualizza la frequenza dei fotogrammi di un video:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffprobe -v error -select_streams v:0 -show_entries stream=avg_frame_rate -of default=noprint_wrappers=1:nokey=1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video.mp4</span></p>
+
+<ul>
+  <li>Visualizza la larghezza o l'altezza di un video:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffprobe -v error -select_streams v:0 -show_entries stream=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width|height</span><code class="language-plaintext highlighter-rouge"> -of default=noprint_wrappers=1:nokey=1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video.mp4</span></p>
+
+<ul>
+  <li>Visualizza il bit-rate medio di un video:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffprobe -v error -select_streams v:0 -show_entries stream=bit_rate -of default=noprint_wrappers=1:nokey=1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video.mp4</span></p>

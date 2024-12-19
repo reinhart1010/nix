@@ -1,0 +1,52 @@
+<h1 id="waydroid">waydroid</h1>
+
+<p>A container-based approach to boot a full Android system on a regular Linux system like Ubuntu.
+More information: <a href="https://docs.waydro.id">https://docs.waydro.id</a>.</p>
+
+<ul>
+  <li>Start Waydroid:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waydroid</code></p>
+
+<ul>
+  <li>Initialize Waydroid (required on first run or after reinstalling Android):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo waydroid init</code></p>
+
+<ul>
+  <li>Install a new Android app from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waydroid app install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span></p>
+
+<ul>
+  <li>Launch an Android app by its package name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waydroid app launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>Start or stop the Waydroid session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waydroid session </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span></p>
+
+<ul>
+  <li>Manage the Waydroid container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo waydroid container </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|freeze|unfreeze</span></p>
+
+<ul>
+  <li>Open Waydroid shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo waydroid shell</code></p>
+
+<ul>
+  <li>Adjust Waydroid window dimensions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waydroid prop set persist.waydroid.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width|height</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span></p>

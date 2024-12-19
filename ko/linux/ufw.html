@@ -1,0 +1,53 @@
+<h1 id="ufw">ufw</h1>
+
+<p>간단한 방화벽.
+방화벽 구성을 더욱 쉽게 만들어주는 <code class="language-plaintext highlighter-rouge">iptables</code>의 프론트엔드.
+더 많은 정보: <a href="https://wiki.ubuntu.com/UncomplicatedFirewall">https://wiki.ubuntu.com/UncomplicatedFirewall</a>.</p>
+
+<ul>
+  <li>ufw 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw enable</code></p>
+
+<ul>
+  <li>ufw 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw disable</code></p>
+
+<ul>
+  <li>번호와 함께 ufw 규칙 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw status numbered</code></p>
+
+<ul>
+  <li>이 호스트의 포트 5432에서 서비스 식별 주석과 함께 들어오는 트래픽 허용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw allow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5432</span><code class="language-plaintext highlighter-rouge"> comment "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Service</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>192.168.0.4에서 이 호스트의 모든 주소로의 포트 22에서 TCP 트래픽만 허용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw allow proto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.4</span><code class="language-plaintext highlighter-rouge"> to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span></p>
+
+<ul>
+  <li>이 호스트의 포트 80에서 트래픽 차단:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw deny </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>포트 범위 8412:8500에 대한 모든 UDP 트래픽 차단:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw deny proto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8412:8500</span></p>
+
+<ul>
+  <li>특정 규칙 삭제. 규칙 번호는 <code class="language-plaintext highlighter-rouge">ufw status numbered</code> 명령으로 확인 가능:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙_번호</span></p>

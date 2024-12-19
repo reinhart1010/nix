@@ -1,0 +1,29 @@
+<h1 id="git-squash">git squash</h1>
+
+<p>여러 커밋을 하나의 커밋으로 합치기.
+<code class="language-plaintext highlighter-rouge">git-extras</code>의 일부.
+더 많은 정보: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-squash">https://github.com/tj/git-extras/blob/master/Commands.md#git-squash</a>.</p>
+
+<ul>
+  <li>특정 브랜치의 모든 커밋을 현재 브랜치에 하나의 커밋으로 합치기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git squash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_branch</span></p>
+
+<ul>
+  <li>현재 브랜치에서 특정 커밋부터 시작하는 모든 커밋을 합치기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git squash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>최근 <code class="language-plaintext highlighter-rouge">n</code>개의 커밋을 합치고 메시지와 함께 커밋:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git squash HEAD~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메시지</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>최근 <code class="language-plaintext highlighter-rouge">n</code>개의 커밋을 합치고 모든 개별 메시지를 연결하여 커밋:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git squash --squash-msg HEAD~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>

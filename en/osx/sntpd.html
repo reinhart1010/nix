@@ -1,0 +1,23 @@
+<h1 id="sntpd">sntpd</h1>
+
+<p>An SNTP server.
+It should not be invoked manually.
+More information: <a href="https://keith.github.io/xcode-man-pages/sntpd.8.html">https://keith.github.io/xcode-man-pages/sntpd.8.html</a>.</p>
+
+<ul>
+  <li>Start the daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sntpd</code></p>
+
+<ul>
+  <li>Overwrite existing state with the local clock (stratum 1), for running a master/primary server, without synchronizing with another (higher stratum) server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sntpd -L</code></p>
+
+<ul>
+  <li>Use a custom file for the SNTP state:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sntpd -z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/state.bin</span></p>

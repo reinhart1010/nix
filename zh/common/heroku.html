@@ -1,0 +1,40 @@
+<h1 id="heroku">heroku</h1>
+
+<p>从命令行创建和管理 Heroku 应用。
+更多信息：<a href="https://www.heroku.com/">https://www.heroku.com/</a>.</p>
+
+<ul>
+  <li>登录到你的 heroku 帐户：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku login</code></p>
+
+<ul>
+  <li>创建一个 heroku 应用：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku create</code></p>
+
+<ul>
+  <li>显示应用的日志：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku logs --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>
+
+<ul>
+  <li>在 dyno（Heroku 虚拟机）中运行一次性进程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge"> --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>
+
+<ul>
+  <li>列出应用的 dyno（Heroku 虚拟机）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku ps --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>
+
+<ul>
+  <li>永久销毁应用：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku destroy --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>

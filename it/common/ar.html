@@ -1,0 +1,34 @@
+<h1 id="ar">ar</h1>
+
+<p>Crea, modifica ed estrai da archivi (<code class="language-plaintext highlighter-rouge">.a</code>, <code class="language-plaintext highlighter-rouge">.so</code>, <code class="language-plaintext highlighter-rouge">.o</code>).
+Maggiori informazioni: <a href="https://manned.org/ar">https://manned.org/ar</a>.</p>
+
+<ul>
+  <li>Estrai ([x]) tutti i membri da un archivio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.a</span></p>
+
+<ul>
+  <li>Lis[t]a tutti i membri di un archivio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.ar</span></p>
+
+<ul>
+  <li>Sostituisci ([r]) o aggiungi file ad un archvio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.deb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/debian-binary percorso/del/control.tar.gz percorso/del/data.tar.xz …</span></p>
+
+<ul>
+  <li>In[s]erisci o sostituisci un indice in un archivio (equivalente ad usare <code class="language-plaintext highlighter-rouge">ranlib</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.a</span></p>
+
+<ul>
+  <li>Crea un archivio con dei file creando anche il relativo indice:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.a</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1.o percorso/del/file2.o …</span></p>

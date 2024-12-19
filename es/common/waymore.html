@@ -1,0 +1,29 @@
+<h1 id="waymore">waymore</h1>
+
+<p>Obtén las URLs de un dominio desde Wayback Machine, Common Crawl, Alien Vault OTX, URLScan y VirusTotal.
+Nota: A menos que se especifique lo contrario, los resultados se escriben en el directorio <code class="language-plaintext highlighter-rouge">results/</code> donde reside el archivo <code class="language-plaintext highlighter-rouge">config.yml</code> de waymore (por defecto en <code class="language-plaintext highlighter-rouge">~/.config/waymore/</code>).
+Más información: <a href="https://github.com/xnl-h4ck3r/waymore">https://github.com/xnl-h4ck3r/waymore</a>.</p>
+
+<ul>
+  <li>Busca URLs de un dominio (la salida suele estar en <code class="language-plaintext highlighter-rouge">~/.config/waymore/results/</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span></p>
+
+<ul>
+  <li>Limita los resultados de la búsqueda para que solo incluyan una lista de URLs de un dominio y almacena los resultados en el archivo especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -mode U -oU </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/ejemplo.com-urls.txt</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span></p>
+
+<ul>
+  <li>Imprime solo los cuerpos de contenido de las URLs y almacena los resultados en el directorio especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -mode R -oR </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/ejemplo.com-url-responses</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span></p>
+
+<ul>
+  <li>Filtra los resultados especificando intervalos de fechas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDD|YYYMM|YYYY</span><code class="language-plaintext highlighter-rouge"> -to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AAAAMMDD|AAAAMMD|AAAAMMD</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span></p>

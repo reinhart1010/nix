@@ -1,0 +1,28 @@
+<h1 id="ppmtoxpm">ppmtoxpm</h1>
+
+<p>PPM 이미지를 X11 버전 3 픽스맵으로 변환.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/ppmtoxpm.html">https://netpbm.sourceforge.net/doc/ppmtoxpm.html</a>.</p>
+
+<ul>
+  <li>PPM 이미지를 XPM 이미지로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoxpm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.xpm</span></p>
+
+<ul>
+  <li>출력 XPM 이미지에서 접두사 문자열 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoxpm -name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">접두사_문자열</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.xpm</span></p>
+
+<ul>
+  <li>출력 XPM 파일에서 색상을 이름 대신 16진수 코드로 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoxpm -hexonly </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.xpm</span></p>
+
+<ul>
+  <li>지정된 PGM 파일을 투명 마스크로 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoxpm -alphamask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/알파_파일.pgm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.xpm</span></p>

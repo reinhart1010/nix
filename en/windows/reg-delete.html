@@ -1,0 +1,28 @@
+<h1 id="reg-delete">reg delete</h1>
+
+<p>Delete keys or their values from the registry.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete</a>.</p>
+
+<ul>
+  <li>Delete a specific registry key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span></p>
+
+<ul>
+  <li>Delete a [v]alue under a specific key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Delete [a]ll [v]alues recursively under the specified key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /va</code></p>
+
+<ul>
+  <li>[f]orcefully (without a prompt) delete [a]ll [v]alues recursively under a key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /f /va</code></p>

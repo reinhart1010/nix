@@ -1,0 +1,22 @@
+<h1 id="partprobe">partprobe</h1>
+
+<p>Notify the operating system kernel of partition table changes.
+More information: <a href="https://manned.org/partprobe">https://manned.org/partprobe</a>.</p>
+
+<ul>
+  <li>Notify the operating system kernel of partition table changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo partprobe</code></p>
+
+<ul>
+  <li>Notify the kernel of partition table changes and show a summary of devices and their partitions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo partprobe --summary</code></p>
+
+<ul>
+  <li>Show a summary of devices and their partitions but don't notify the kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo partprobe --summary --dry-run</code></p>

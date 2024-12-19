@@ -1,0 +1,29 @@
+<h1 id="as">as</h1>
+
+<p>Portable GNU assembler.
+Primarily intended to assemble output from <code class="language-plaintext highlighter-rouge">gcc</code> to be used by <code class="language-plaintext highlighter-rouge">ld</code>.
+More information: <a href="https://manned.org/as">https://manned.org/as</a>.</p>
+
+<ul>
+  <li>Assemble a file, writing the output to <code class="language-plaintext highlighter-rouge">a.out</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.s</span></p>
+
+<ul>
+  <li>Assemble the output to a given file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.s</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.o</span></p>
+
+<ul>
+  <li>Generate output faster by skipping whitespace and comment preprocessing. (Should only be used for trusted compilers):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.s</span></p>
+
+<ul>
+  <li>Include a given path to the list of directories to search for files specified in <code class="language-plaintext highlighter-rouge">.include</code> directives:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.s</span></p>

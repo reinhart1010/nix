@@ -1,0 +1,23 @@
+<h1 id="sshpass">sshpass</h1>
+
+<p>An SSH password provider.
+It works by creating a TTY, feeding the password into it, and then redirecting <code class="language-plaintext highlighter-rouge">stdin</code> to the SSH session.
+More information: <a href="https://manned.org/sshpass">https://manned.org/sshpass</a>.</p>
+
+<ul>
+  <li>Connect to a remote server using a password supplied on a file descriptor (in this case, <code class="language-plaintext highlighter-rouge">stdin</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshpass -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span></p>
+
+<ul>
+  <li>Connect to a remote server with the password supplied as an option, and automatically accept unknown SSH keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshpass -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> ssh -o StrictHostKeyChecking=no </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span></p>
+
+<ul>
+  <li>Connect to a remote server using the first line of a file as the password, automatically accept unknown SSH keys, and launch a command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshpass -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> ssh -o StrictHostKeyChecking=no </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,34 @@
+<h1 id="wc">wc</h1>
+
+<p>Count lines, words, or bytes.
+More information: <a href="https://keith.github.io/xcode-man-pages/wc.1.html">https://keith.github.io/xcode-man-pages/wc.1.html</a>.</p>
+
+<ul>
+  <li>Count lines in file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Count words in file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Count characters (bytes) in file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Count characters in file (taking multi-byte character sets into account):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Use <code class="language-plaintext highlighter-rouge">stdin</code> to count lines, words and characters (bytes) in that order:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find .</span><code class="language-plaintext highlighter-rouge"> | wc</code></p>

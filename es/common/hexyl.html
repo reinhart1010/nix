@@ -1,0 +1,28 @@
+<h1 id="hexyl">hexyl</h1>
+
+<p>Un simple visor hexadecimal para la terminal. Utiliza salida coloreada para distinguir diferentes categorías de bytes.
+Más información: <a href="https://github.com/sharkdp/hexyl">https://github.com/sharkdp/hexyl</a>.</p>
+
+<ul>
+  <li>Imprime la representación hexadecimal de un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Imprime la representación hexadecimal de los primeros <code class="language-plaintext highlighter-rouge">n</code> bytes de un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Imprime los bytes 512 a 1024 de un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Imprime 512 bytes empezando por el byte 1024:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge">:+</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

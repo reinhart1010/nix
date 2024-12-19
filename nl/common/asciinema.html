@@ -1,0 +1,53 @@
+<h1 id="asciinema">asciinema</h1>
+
+<p>Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">terminalizer</code>.
+Meer informatie: <a href="https://docs.asciinema.org/manual/cli/usage">https://docs.asciinema.org/manual/cli/usage</a>.</p>
+
+<ul>
+  <li>Associeer de lokale installatie van <code class="language-plaintext highlighter-rouge">asciinema</code> met het asciinema.org account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema auth</code></p>
+
+<ul>
+  <li>Maak een nieuwe opname (gebruiker krijgt een vraag om het lokaal op te slaan of te uploaden als de opname klaar is):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec</code></p>
+
+<ul>
+  <li>Maak een nieuwe opname en sla het op in een lokaal bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/opname.cast</span></p>
+
+<ul>
+  <li>Speel een terminal opname af vanaf een lokaal bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/opname.cast</span></p>
+
+<ul>
+  <li>Speel een terminal opname af vanaf asciinema.org:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play https://asciinema.org/a/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cast_id</span></p>
+
+<ul>
+  <li>Maak een nieuwe opname met een inactieve tijd van maximaal 2,5 seconden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–idle-time-limit</span><code class="language-plaintext highlighter-rouge"> 2.5</code></p>
+
+<ul>
+  <li>Laat de volledige inhoud zien van een lokaal opgeslagen opname:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/opname.cast</span></p>
+
+<ul>
+  <li>Sla een lokaal opgeslagen terminal sessie op bij asciinema.org:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/opname.cast</span></p>

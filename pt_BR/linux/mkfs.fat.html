@@ -1,0 +1,28 @@
+<h1 id="mkfsfat">mkfs.fat</h1>
+
+<p>Cria um sistema de arquivos MS-DOS dentro de uma partição.
+Mais informações: <a href="https://manned.org/mkfs.fat">https://manned.org/mkfs.fat</a>.</p>
+
+<ul>
+  <li>Cria um sistema de arquivos fat dentro da partição 1 do dispositivo b (<code class="language-plaintext highlighter-rouge">sdb1</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.fat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Cria um sistema de arquivos com um nome de volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.fat -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_de_volume</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Cria um sistema de arquivos com um ID de volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.fat -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_de_volume</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Usa 5 em vez de 2 tabelas de alocação de arquivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.fat -f 5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

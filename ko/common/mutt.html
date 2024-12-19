@@ -1,0 +1,34 @@
+<h1 id="mutt">mutt</h1>
+
+<p>커맨드라인 이메일 클라이언트.
+더 많은 정보: <a href="http://mutt.org">http://mutt.org</a>.</p>
+
+<ul>
+  <li>지정된 메일박스 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutt -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메일박스</span></p>
+
+<ul>
+  <li>이메일을 보내며 제목과 참조 수신자를 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutt -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제목</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">참조@example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">수신자@example.com</span></p>
+
+<ul>
+  <li>파일을 첨부하여 이메일 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutt -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일2</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">수신자@example.com</span></p>
+
+<ul>
+  <li>메시지 본문으로 포함할 파일 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutt -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">수신자@example.com</span></p>
+
+<ul>
+  <li>RFC 5322 형식으로 헤더와 본문을 포함한 초안 파일 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutt -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">수신자@example.com</span></p>

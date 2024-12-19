@@ -1,0 +1,40 @@
+<h1 id="iostat">iostat</h1>
+
+<p>Report statistics for devices and partitions.
+More information: <a href="https://manned.org/iostat">https://manned.org/iostat</a>.</p>
+
+<ul>
+  <li>Display a report of CPU and disk statistics since system startup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iostat</code></p>
+
+<ul>
+  <li>Display a report of CPU and disk statistics with units converted to megabytes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iostat -m</code></p>
+
+<ul>
+  <li>Display CPU statistics:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iostat -c</code></p>
+
+<ul>
+  <li>Display disk statistics with disk names (including LVM):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iostat -N</code></p>
+
+<ul>
+  <li>Display extended disk statistics with disk names for device "sda":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iostat -xN </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sda</span></p>
+
+<ul>
+  <li>Display incremental reports of CPU and disk statistics every 2 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iostat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>

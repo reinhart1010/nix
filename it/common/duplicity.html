@@ -1,0 +1,41 @@
+<h1 id="duplicity">duplicity</h1>
+
+<p>Crea archivi incrementali, compressi, cifrati con controllo di versione.
+Può caricare i backup su una varietà di servizi backend.
+Maggiori informazioni: <a href="https://duplicity.gitlab.io">https://duplicity.gitlab.io</a>.</p>
+
+<ul>
+  <li>Esegui il backup di una directory via FTPS su una macchina remota, cifrandolo con una password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">FTP_PASSWORD=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_login_ftp</span><code class="language-plaintext highlighter-rouge"> PASSPHRASE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_cifratura</span><code class="language-plaintext highlighter-rouge"> duplicity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_sorgente</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftps://utente@hostname/percorso/della/directory_target/</span></p>
+
+<ul>
+  <li>Esegui il backup di una directory in un server Amazon S3, facendo un backup completo ogni mese:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicity --full-if-older-than </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_bucket[/prefisso]</span></p>
+
+<ul>
+  <li>Elimina le versioni più vecchie di un anno da un backup salvato in un server WebDAV:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">FTP_PASSWORD=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_login_webdav</span><code class="language-plaintext highlighter-rouge"> duplicity remove-older-than </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1Y</span><code class="language-plaintext highlighter-rouge"> --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">webdav[s]://utente@hostname[:porta]/directory</span></p>
+
+<ul>
+  <li>Elenca i backup disponibili:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicity collection-status "file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/assoluto/della/directory/di/backup</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Elenca i file in un backup salvato su una macchina remota, via SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicity list-current-files --time </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span><code class="language-plaintext highlighter-rouge"> scp://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utente@hostname</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory/backup</span></p>
+
+<ul>
+  <li>Ripristina una sotto-directory da un backup locale cifrato con GnuPG in una posizione precisa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PASSPHRASE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_chiave_gpg</span><code class="language-plaintext highlighter-rouge"> duplicity restore --encrypt-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_chiave_gpg</span><code class="language-plaintext highlighter-rouge"> --path-to-restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/relativo/sotto_directory</span><code class="language-plaintext highlighter-rouge"> file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/assoluto/della/directory/di/backup</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory/dove/ripristinare</span></p>

@@ -1,0 +1,16 @@
+<h1 id="aws-s3-rb">aws s3 rb</h1>
+
+<p>Delete an empty S3 bucket.
+More information: <a href="https://docs.aws.amazon.com/cli/latest/reference/s3/rb.html">https://docs.aws.amazon.com/cli/latest/reference/s3/rb.html</a>.</p>
+
+<ul>
+  <li>Delete an empty S3 bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 rb s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>
+
+<ul>
+  <li>Force delete an S3 bucket and its non-versioned objects (will crash if versioned objects are present):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 rb s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> --force</code></p>

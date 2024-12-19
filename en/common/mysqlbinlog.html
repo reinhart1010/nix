@@ -1,0 +1,34 @@
+<h1 id="mysqlbinlog">mysqlbinlog</h1>
+
+<p>Utility for processing MySQL binary log files.
+More information: <a href="https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html">https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html</a>.</p>
+
+<ul>
+  <li>Show events from a specific binary log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlbinlog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binlog</span></p>
+
+<ul>
+  <li>Show entries from a binary log for a specific database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlbinlog --database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binlog</span></p>
+
+<ul>
+  <li>Show events from a binary log between specific dates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlbinlog --start-datetime='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2022-01-01 01:00:00</span><code class="language-plaintext highlighter-rouge">' --stop-datetime='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2022-02-01 01:00:00</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binlog</span></p>
+
+<ul>
+  <li>Show events from a binary log between specific positions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlbinlog --start-position=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --stop-position=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binlog</span></p>
+
+<ul>
+  <li>Show binary log from a MySQL server on the given host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlbinlog --host=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binlog</span></p>

@@ -1,0 +1,53 @@
+<h1 id="tgpt">tgpt</h1>
+
+<p>Talk to an AI chatbot without the need for API keys.
+Available providers: <code class="language-plaintext highlighter-rouge">openai</code>, <code class="language-plaintext highlighter-rouge">opengpts</code>, <code class="language-plaintext highlighter-rouge">koboldai</code>, <code class="language-plaintext highlighter-rouge">phind</code>, <code class="language-plaintext highlighter-rouge">llama2</code>, <code class="language-plaintext highlighter-rouge">blackboxai</code>.
+More information: <a href="https://github.com/aandrew-me/tgpt">https://github.com/aandrew-me/tgpt</a>.</p>
+
+<ul>
+  <li>Chat with the default provider (GPT-3.5-turbo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tgpt "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Start [m]ulti-line interactive mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tgpt --multiline</code></p>
+
+<ul>
+  <li>Generate [i]mages and save them to the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tgpt --image "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Generate [c]ode with the default provider (GPT-3.5-turbo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tgpt --code "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Chat with a specific provider [q]uietly (without animations):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tgpt --provider </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">openai|opengpts|koboldai|phind|llama2|blackboxai</span><code class="language-plaintext highlighter-rouge"> --quiet --whole "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Generate and execute [s]hell commands using a specific provider (with a confirmation prompt):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tgpt --provider </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">llama2</span><code class="language-plaintext highlighter-rouge"> --shell "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Prompt with an API key, model, max response length, temperature, and <code class="language-plaintext highlighter-rouge">top_p</code> (required when using <code class="language-plaintext highlighter-rouge">openai</code> provider):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tgpt --provider openai --key "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">api_key</span><code class="language-plaintext highlighter-rouge">" --model "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpt-3.5-turbo</span><code class="language-plaintext highlighter-rouge">" --max-length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --temperature </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.7</span><code class="language-plaintext highlighter-rouge"> --top_p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.9</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Feed a file as additional pre-prompt input:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tgpt --provider </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blackboxai</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">" &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,28 @@
+<h1 id="ssh-keyscan">ssh-keyscan</h1>
+
+<p>원격 호스트의 공개 SSH 키를 가져옵니다.
+더 많은 정보: <a href="https://man.openbsd.org/ssh-keyscan">https://man.openbsd.org/ssh-keyscan</a>.</p>
+
+<ul>
+  <li>원격 호스트의 모든 공개 SSH 키 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>특정 포트에서 대기 중인 원격 호스트의 모든 공개 SSH 키 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>원격 호스트의 특정 유형의 공개 SSH 키 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa,dsa,ecdsa,ed25519</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>주어진 호스트의 지문으로 SSH known_hosts 파일 수동 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; ~/.ssh/known_hosts</code></p>

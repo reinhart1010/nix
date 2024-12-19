@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cp">cp</h1>
+
+<p>फाइलहरू र डिरेक्टोरीहरू सार्नुहोस।
+थप जानकारी: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html</a>।</p>
+
+<ul>
+  <li>एउटा स्थान बाट अर्को स्थानमा फाइलहरु सार्नुहोस:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्रोत_फाइल.ext/को/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्ष्य_फाइल.ext/को/पथ</span></p>
+
+<ul>
+  <li>फाइलको नाम उही राखेर अर्को डिरेक्टोरीमा फाइलहरु सार्नुहोस:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्रोत_फाइल.ext/को/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्षित_अभिभावक_निर्देशिका/को/पथ</span></p>
+
+<ul>
+  <li>पुनरावर्ती रूपमा डिरेक्टोरीमा भएका सबै चीजहरुलाइ अर्को स्थानमा सार्नुहोस(यदि स्थान पहिले देखि नै छ भने,डिरेक्टोरी भित्र सार्नुहोस):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्रोत_निर्देशिका/को/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्ष्य_निर्देशिका/को/पथ</span></p>
+
+<ul>
+  <li>पुनरावर्ती रूपमा एउटा डाइरेक्टरी सार्नुहोस, शब्दमय रुपमा (फाइलहरु सार्दा सार्दै सरिरहेको पनि देखिन्छ):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -vR </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्रोत_निर्देशिका/को/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्ष्य_निर्देशिका/को/पथ</span></p>
+
+<ul>
+  <li>अन्तरक्रियात्मक रुपमा अर्को स्थानमा पाठ्य फाइलहरू सार्नुहोस (अधिलेखन गर्नु अघि प्रयोगकर्तालाई सोध्छ):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्ष्य_निर्देशिका/को/पथ</span></p>
+
+<ul>
+  <li>सार्नु अघि प्रतीकात्मक लिङ्कहरू पछ्याउनुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लिङ्क</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्ष्य_निर्देशिका/को/पथ</span></p>

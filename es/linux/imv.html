@@ -1,0 +1,41 @@
+<h1 id="imv">imv</h1>
+
+<p>Visor de imágenes de línea de comando para Wayland y X11 dirigido a gestores de ventanas en mosaico.
+Maneja múltiples formatos incluyendo Photoshop (PSD).
+Más información: <a href="https://sr.ht/~exec64/imv">https://sr.ht/~exec64/imv</a>.</p>
+
+<ul>
+  <li>Muestra múltiples imágenes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">imv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen1.ext ruta/a/la/imagen2.ext …</span></p>
+
+<ul>
+  <li>Vista en modo de pantalla completa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">imv -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.ext</span></p>
+
+<ul>
+  <li>Muestra imágenes de un directorio [r]ecursivamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">imv -r --slideshow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Abre múltiples imágenes vía <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -type f -name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.svg</span><code class="language-plaintext highlighter-rouge">" | imv</code></p>
+
+<ul>
+  <li>Hace una presentación desde un directorio que muestra cada imagen durante 10 segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">imv -t 10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Muestra múltiples imágenes de la web:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -Osw '%{filename_effective}\n' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://www.example.com/[1-10].jpg</span><code class="language-plaintext highlighter-rouge">' | imv</code></p>

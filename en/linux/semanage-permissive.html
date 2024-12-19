@@ -1,0 +1,18 @@
+<h1 id="semanage-permissive">semanage permissive</h1>
+
+<p>Manage persistent SELinux permissive domains.
+Note that this effectively makes the process unconfined. For long-term use, it is recommended to configure SELiunx properly.
+See also: <code class="language-plaintext highlighter-rouge">semanage</code>, <code class="language-plaintext highlighter-rouge">getenforce</code>, <code class="language-plaintext highlighter-rouge">setenforce</code>.
+More information: <a href="https://manned.org/semanage-permissive">https://manned.org/semanage-permissive</a>.</p>
+
+<ul>
+  <li>List all process types (a.k.a domains) that are in permissive mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage permissive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span></p>
+
+<ul>
+  <li>Set or unset permissive mode for a domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage permissive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–add|-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpd_t</span></p>

@@ -1,0 +1,41 @@
+<h1 id="zoxide">zoxide</h1>
+
+<p>记录最常使用的目录。
+使用一个排序算法来导航到最佳匹配。
+更多信息：<a href="https://github.com/ajeetdsouza/zoxide">https://github.com/ajeetdsouza/zoxide</a>.</p>
+
+<ul>
+  <li>转到名称中包含 "foo" 的排名最高的目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>转到名称中依次包含 "foo" 和 "bar" 的排名最高的目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>
+
+<ul>
+  <li>启动一个交互式目录搜索（需要 <code class="language-plaintext highlighter-rouge">fzf</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query --interactive</code></p>
+
+<ul>
+  <li>添加一个目录或提升其排名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span></p>
+
+<ul>
+  <li>从 <code class="language-plaintext highlighter-rouge">zoxide</code> 的数据库中交互式地移除一个目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span><code class="language-plaintext highlighter-rouge"> --interactive</code></p>
+
+<ul>
+  <li>为命令别名生成 shell 配置（<code class="language-plaintext highlighter-rouge">z</code>, <code class="language-plaintext highlighter-rouge">za</code>, <code class="language-plaintext highlighter-rouge">zi</code>, <code class="language-plaintext highlighter-rouge">zq</code>, <code class="language-plaintext highlighter-rouge">zr</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|fish|zsh</span></p>

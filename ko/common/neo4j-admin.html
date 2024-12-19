@@ -1,0 +1,47 @@
+<h1 id="neo4j-admin">neo4j-admin</h1>
+
+<p>Neo4j DBMS(데이터베이스 관리 시스템) 관리 및 운영.
+같이 보기: <code class="language-plaintext highlighter-rouge">cypher-shell</code>, <code class="language-plaintext highlighter-rouge">mysqld</code>.
+더 많은 정보: <a href="https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/">https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/</a>.</p>
+
+<ul>
+  <li>DBMS 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin server start</code></p>
+
+<ul>
+  <li>DBMS 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin server stop</code></p>
+
+<ul>
+  <li>기본 <code class="language-plaintext highlighter-rouge">neo4j</code> 사용자의 초기 비밀번호 설정 (DBMS를 처음 시작하기 위한 전제 조건):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin dbms set-initial-password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span></p>
+
+<ul>
+  <li>오프라인 데이터베이스의 아카이브(덤프)를 <code class="language-plaintext highlighter-rouge">database_name.dump</code>라는 이름의 파일로 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin database dump --to-path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">database_name.dump</code>라는 아카이브에서 데이터베이스 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin database load --from-path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> --overwrite-destination=true</code></p>
+
+<ul>
+  <li>지정된 아카이브 파일을 <code class="language-plaintext highlighter-rouge">stdin</code>을 통해 데이터베이스 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin database load --from-stdin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> --overwrite-destination=true &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일이름.dump</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin --help</code></p>

@@ -1,0 +1,22 @@
+<h1 id="puppet-apply">puppet apply</h1>
+
+<p>Puppet 매니페스트를 로컬에서 적용.
+더 많은 정보: <a href="https://puppet.com/docs/puppet/7/man/apply.html">https://puppet.com/docs/puppet/7/man/apply.html</a>.</p>
+
+<ul>
+  <li>매니페스트 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/매니페스트</span></p>
+
+<ul>
+  <li>Puppet 코드 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet apply --execute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">코드</span></p>
+
+<ul>
+  <li>특정 모듈 및 Hiera 구성 파일 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet apply --modulepath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --hiera_config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/매니페스트</span></p>

@@ -1,0 +1,40 @@
+<h1 id="rhash">rhash</h1>
+
+<p>일반적인 메시지 다이제스트를 계산하거나 확인.
+더 많은 정보: <a href="https://rhash.sourceforge.net/manpage.php">https://rhash.sourceforge.net/manpage.php</a>.</p>
+
+<ul>
+  <li>파일의 기본 CRC32 다이제스트 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>디렉터리를 재귀적으로 처리하여 SHA1을 사용한 SFV 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash --sha1 --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.sfv</span></p>
+
+<ul>
+  <li>SFV 파일을 기반으로 파일의 무결성 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.sfv</span></p>
+
+<ul>
+  <li>텍스트 메시지의 SHA3 다이제스트 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash --sha3-256 --message '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메시지</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>파일의 CRC32 다이제스트를 계산하고 BSD 형식을 사용하여 base64로 인코딩된 다이제스트 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash --base64 --bsd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>사용자 정의 출력 템플릿 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rhash --printf '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%p\t%s\t%{mtime}\t%m\n</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

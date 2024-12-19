@@ -1,0 +1,34 @@
+<h1 id="dockerd">dockerd</h1>
+
+<p>Docker 컨테이너를 시작하고 관리하는 지속적인 프로세스.
+더 많은 정보: <a href="https://docs.docker.com/reference/cli/dockerd/">https://docs.docker.com/reference/cli/dockerd/</a>.</p>
+
+<ul>
+  <li>Docker 데몬 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockerd</code></p>
+
+<ul>
+  <li>Docker 데몬을 실행하고 특정 소켓(UNIX 및 TCP)을 수신하도록 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockerd --host unix://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tmp.sock</span><code class="language-plaintext highlighter-rouge"> --host tcp://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>특정 데몬 PID 파일로 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockerd --pidfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/PID_파일</span></p>
+
+<ul>
+  <li>디버그 모드로 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockerd --debug</code></p>
+
+<ul>
+  <li>특정 로그 레벨로 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockerd --log-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debug|info|warn|error|fatal</span></p>

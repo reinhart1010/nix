@@ -1,0 +1,41 @@
+<h1 id="calibredb">calibredb</h1>
+
+<p>Strumentoi per gestire il tuo database di e-book.
+Parte del manager di e-book Calibre.
+Maggiori informazioni: <a href="https://manual.calibre-ebook.com/generated/en/calibredb.html">https://manual.calibre-ebook.com/generated/en/calibredb.html</a>.</p>
+
+<ul>
+  <li>Elenca gli e-book nella libreria con informazioni aggiuntive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb list</code></p>
+
+<ul>
+  <li>Cerca tra gli e-book mostrando informazioni aggiuntive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb list --search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">termine_di_ricerca</span></p>
+
+<ul>
+  <li>Cerca mostrando solamente gli ID degli e-book:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">termine_di_ricerca</span></p>
+
+<ul>
+  <li>Aggiungi uno o più e-book alla libreria:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percoso/del/file1 percoso/del/file2 …</span></p>
+
+<ul>
+  <li>Aggiungere ricorsivamente tutti gli e-book in una directory alla libreria:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–recurse</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percoso/della/directory</span></p>
+
+<ul>
+  <li>Rimuovi uno o più e-book dalla libreria. Sono necessari gli ID (vedi sopra):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id1 id2 …</span></p>

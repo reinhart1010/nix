@@ -1,0 +1,28 @@
+<h1 id="nm">nm</h1>
+
+<p>Lista los nombres de símbolos en los archivos objeto.
+Más información: <a href="https://manned.org/nm">https://manned.org/nm</a>.</p>
+
+<ul>
+  <li>Lista de funciones globales (externas) en un archivo (con prefijo T):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nm -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.o</span></p>
+
+<ul>
+  <li>Lista solo los símbolos no definidos en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nm -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.o</span></p>
+
+<ul>
+  <li>Lista todos los símbolos, incluso símbolos de depuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nm -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.o</span></p>
+
+<ul>
+  <li>Reconstruye símbolos C++ (hace que sean legibles):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nm --demangle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.o</span></p>

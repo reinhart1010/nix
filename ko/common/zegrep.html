@@ -1,0 +1,40 @@
+<h1 id="zegrep">zegrep</h1>
+
+<p>압축 파일에서 <code class="language-plaintext highlighter-rouge">egrep</code>을 사용하여 확장 정규 표현식 패턴 찾기.
+더 많은 정보: <a href="https://www.unix.com/man-page/freebsd/1/zegrep/">https://www.unix.com/man-page/freebsd/1/zegrep/</a>.</p>
+
+<ul>
+  <li>압축 파일에서 확장 정규 표현식(대소문자 구분)을 검색 (<code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code> 및 <code class="language-plaintext highlighter-rouge">|</code> 지원):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zegrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>압축 파일에서 확장 정규 표현식(대소문자 구분 안 함)을 검색 (<code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code> 및 <code class="language-plaintext highlighter-rouge">|</code> 지원):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zegrep --ignore-case "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>패턴과 일치하지 않는 줄 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zegrep --invert-match "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>일치하는 각 줄에 대해 파일 이름과 줄 번호 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zegrep --with-filename --line-number "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>패턴과 일치하는 줄 검색, 일치한 텍스트만 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zegrep --only-matching "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>압축 파일 내의 파일을 재귀적으로 검색하여 패턴 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zegrep --recursive "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

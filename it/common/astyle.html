@@ -1,0 +1,35 @@
+<h1 id="astyle">astyle</h1>
+
+<p>Indentatore, formattatore e beautifier di codice sorgente per i linguaggi C, C++, C# e Java.
+Quando eseguito, una copia del file originale è creata con l'estensione ".orig" aggiunta come suffisso.
+Maggiori informazioni: <a href="https://astyle.sourceforge.net">https://astyle.sourceforge.net</a>.</p>
+
+<ul>
+  <li>Applica lo stile di default di 4 spazi per livello di indentazione e nessun cambiamento alla formattazione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_sorgente</span></p>
+
+<ul>
+  <li>Applica lo stile Java con parentesi graffe aperte sulla stessa riga (attached braces):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --style=java </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Applica lo stile allman per parantesi graffe su linee separate (broken braces):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --style=allman </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Applica un'indentazione personalizzata utilizzando spazi. Scegli tra 2 e 20 spazi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --indent=spaces=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_spazi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Applica un'indentazione personalizzata utilizzando tab. Scegli tra 2 e 20 tab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --indent=tab=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_tab</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>

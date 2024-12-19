@@ -1,0 +1,46 @@
+<h1 id="cargo-add">cargo add</h1>
+
+<p>ரஸ்ட் திட்டத்தின் <code class="language-plaintext highlighter-rouge">Cargo.toml</code> கோப்பில் சார்புகளைச் சேர்க்கவும்.
+மேலும் விவரத்திற்கு: <a href="https://doc.rust-lang.org/cargo/commands/cargo-add.html">https://doc.rust-lang.org/cargo/commands/cargo-add.html</a>.</p>
+
+<ul>
+  <li>தற்போதைய திட்டப்பணியில் சார்புநிலையின் சமீபத்திய பதிப்பைச் சேர்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சார்பு</span></p>
+
+<ul>
+  <li>சார்புநிலையின் குறிப்பிட்ட பதிப்பைச் சேர்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சார்பு</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பதிப்பு</span></p>
+
+<ul>
+  <li>சார்புநிலையைச் சேர்த்து ஒன்று அல்லது அதற்கு மேற்பட்ட குறிப்பிட்ட அம்சங்களை இயக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சார்பு</span><code class="language-plaintext highlighter-rouge"> --features </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அம்சம்_1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அம்சம்_2</span></p>
+
+<ul>
+  <li>விருப்ப சார்புநிலையைச் சேர்க்கவும், அது கிரேட்டின் அம்சமாக வெளிப்படும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சார்பு</span><code class="language-plaintext highlighter-rouge"> --optional</code></p>
+
+<ul>
+  <li>சார்புநிலையாக உள்ளூர் கிரேட்டைச் சேர்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கிரேட்/பாதை</span></p>
+
+<ul>
+  <li>ஒரு மேம்பாட்டைச் சேர்க்கவும் அல்லது சார்புநிலையை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சார்பு</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dev|build</span></p>
+
+<ul>
+  <li>அனைத்து இயல்புநிலை அம்சங்களும் முடக்கப்பட்டுள்ள சார்புநிலையைச் சேர்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சார்பு</span><code class="language-plaintext highlighter-rouge"> --no-default-features</code></p>

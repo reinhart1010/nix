@@ -1,0 +1,17 @@
+<h1 id="lsyncd">lsyncd</h1>
+
+<p>파일과 디렉토리를 감시하고 변경 시 <code class="language-plaintext highlighter-rouge">rsync</code>를 실행.
+주로 두 시스템의 디렉토리를 동기화하여 한 디렉토리에서 발생한 변경 사항을 즉시 다른 디렉토리에 반영하기 위해 사용.
+더 많은 정보: <a href="https://github.com/lsyncd/lsyncd">https://github.com/lsyncd/lsyncd</a>.</p>
+
+<ul>
+  <li>소스를 감시하고 변경 시마다 <code class="language-plaintext highlighter-rouge">rsync</code>를 실행하여 파일을 대상에 동기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsyncd -rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트::공유_이름</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rsyncd</code> 공유 대신 SSH 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsyncd -rsyncssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상</span></p>

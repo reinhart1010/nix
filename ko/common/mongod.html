@@ -1,0 +1,28 @@
+<h1 id="mongod">mongod</h1>
+
+<p>MongoDB 데이터베이스 서버.
+더 많은 정보: <a href="https://docs.mongodb.com/manual/reference/program/mongod">https://docs.mongodb.com/manual/reference/program/mongod</a>.</p>
+
+<ul>
+  <li>저장 디렉터리 지정 (기본값: Linux 및 macOS는 <code class="language-plaintext highlighter-rouge">/data/db</code>, Windows는 <code class="language-plaintext highlighter-rouge">C:\data\db</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --dbpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>설정 파일 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>청취할 포트 지정 (기본값: 27017):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>데이터베이스 프로파일링 수준 지정. 0은 꺼짐, 1은 느린 작업만, 2는 모든 작업 (기본값: 0):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|2</span></p>

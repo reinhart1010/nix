@@ -1,0 +1,46 @@
+<h1 id="npm-access">npm access</h1>
+
+<p>Set access level on published packages.
+More information: <a href="https://docs.npmjs.com/cli/npm-access">https://docs.npmjs.com/cli/npm-access</a>.</p>
+
+<ul>
+  <li>List packages for a user or scope:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm access list packages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user|scope|scope:team</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>List collaborators on a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm access list collaborators </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Get status of a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm access get status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Set package status (public or private):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm access set status=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public|private</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Grant access to a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm access grant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">read-only|read-write</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scope:team</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Revoke access to a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm access revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scope:team</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Configure two-factor authentication requirement:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm access set mfa=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|publish|automation</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>

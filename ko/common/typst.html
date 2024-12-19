@@ -1,0 +1,29 @@
+<h1 id="typst">typst</h1>
+
+<p>Typst 파일을 PDF로 컴파일.
+참고: 출력 위치 지정은 선택 사항입니다.
+더 많은 정보: <a href="https://github.com/typst/typst">https://github.com/typst/typst</a>.</p>
+
+<ul>
+  <li>주어진 디렉터리에 템플릿(예: <code class="language-plaintext highlighter-rouge">@preview/charged-ieee</code>)을 사용하여 새로운 Typst 프로젝트 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typst init "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">템플릿</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>Typst 파일 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typst compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.typ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span></p>
+
+<ul>
+  <li>Typst 파일을 감시하고 변경 시 다시 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typst watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.typ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span></p>
+
+<ul>
+  <li>시스템 및 주어진 디렉토리에서 발견 가능한 모든 글꼴 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typst --font-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폰트_디렉토리</span><code class="language-plaintext highlighter-rouge"> fonts</code></p>

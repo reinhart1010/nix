@@ -1,0 +1,52 @@
+<h1 id="docker-volume">docker volume</h1>
+
+<p>Docker 볼륨 관리.
+더 많은 정보: <a href="https://docs.docker.com/reference/cli/docker/volume/">https://docs.docker.com/reference/cli/docker/volume/</a>.</p>
+
+<ul>
+  <li>볼륨 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_이름</span></p>
+
+<ul>
+  <li>특정 레이블을 사용하여 볼륨 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume create --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레이블</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_이름</span></p>
+
+<ul>
+  <li>100 MiB의 크기와 1000의 uid를 가진 <code class="language-plaintext highlighter-rouge">tmpfs</code> 볼륨 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume create --opt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs</span><code class="language-plaintext highlighter-rouge"> --opt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs</span><code class="language-plaintext highlighter-rouge"> --opt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">o</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size=100m,uid=1000</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_이름</span></p>
+
+<ul>
+  <li>모든 볼륨 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume ls</code></p>
+
+<ul>
+  <li>볼륨 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_이름</span></p>
+
+<ul>
+  <li>볼륨에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_이름</span></p>
+
+<ul>
+  <li>사용되지 않는 모든 로컬 볼륨 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume prune</code></p>
+
+<ul>
+  <li>하위 명령에 대한 도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서브커맨드</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

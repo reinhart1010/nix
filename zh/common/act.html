@@ -1,0 +1,46 @@
+<h1 id="act">act</h1>
+
+<p>使用 Docker 本地运行 GitHub Actions.
+更多信息：<a href="https://github.com/nektos/act">https://github.com/nektos/act</a>.</p>
+
+<ul>
+  <li>列出可用的 actions 清单：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -l</code></p>
+
+<ul>
+  <li>运行默认 event：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act</code></p>
+
+<ul>
+  <li>运行指定 event：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">event_type</span></p>
+
+<ul>
+  <li>运行指定 action：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">action_id</span></p>
+
+<ul>
+  <li>非实际运行 actions（也就是 dry-run 模式）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -n</code></p>
+
+<ul>
+  <li>展示详细记录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -v</code></p>
+
+<ul>
+  <li>运行指定 workflow：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act push -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workflow 的路径</span></p>

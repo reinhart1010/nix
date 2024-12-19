@@ -1,0 +1,47 @@
+<h1 id="rc-service">rc-service</h1>
+
+<p>매개변수를 사용하여 OpenRC 서비스를 찾아 실행합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">openrc</code>.
+더 많은 정보: <a href="https://manned.org/rc-service">https://manned.org/rc-service</a>.</p>
+
+<ul>
+  <li>서비스 상태 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rc-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스_이름</span><code class="language-plaintext highlighter-rouge"> status</code></p>
+
+<ul>
+  <li>서비스 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스_이름</span><code class="language-plaintext highlighter-rouge"> start</code></p>
+
+<ul>
+  <li>서비스 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스_이름</span><code class="language-plaintext highlighter-rouge"> stop</code></p>
+
+<ul>
+  <li>서비스 재시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스_이름</span><code class="language-plaintext highlighter-rouge"> restart</code></p>
+
+<ul>
+  <li>서비스의 사용자 지정 명령을 실행 시뮬레이션:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_이름</span></p>
+
+<ul>
+  <li>서비스의 사용자 지정 명령 실제 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_이름</span></p>
+
+<ul>
+  <li>디스크에서 서비스 정의 위치 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rc-service --resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스_이름</span></p>

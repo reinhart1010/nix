@@ -1,0 +1,22 @@
+<h1 id="cmdkey">cmdkey</h1>
+
+<p>저장된 사용자 이름 및 비밀번호를 생성, 표시, 삭제.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/cmdkey">https://learn.microsoft.com/windows-server/administration/windows-commands/cmdkey</a>.</p>
+
+<ul>
+  <li>모든 사용자 자격 증명 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmdkey /list</code></p>
+
+<ul>
+  <li>서버에 액세스하는 사용자의 자격 증명 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmdkey /add:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버_이름</span><code class="language-plaintext highlighter-rouge"> /user:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_이름</span></p>
+
+<ul>
+  <li>특정 대상의 자격 증명 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmdkey /delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_이름</span></p>

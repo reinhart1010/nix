@@ -1,0 +1,34 @@
+<h1 id="extrace">extrace</h1>
+
+<p>exec() 호출을 추적합니다.
+더 많은 정보: <a href="https://github.com/chneukirchen/extrace">https://github.com/chneukirchen/extrace</a>.</p>
+
+<ul>
+  <li>시스템에서 발생하는 모든 프로그램 실행을 추적:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo extrace</code></p>
+
+<ul>
+  <li>명령을 실행하고 해당 명령의 하위 프로세스만 추적:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo extrace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>각 프로세스의 현재 작업 디렉터리 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo extrace -d</code></p>
+
+<ul>
+  <li>각 실행 파일의 전체 경로 해석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo extrace -l</code></p>
+
+<ul>
+  <li>각 프로세스를 실행하는 사용자 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo extrace -u</code></p>

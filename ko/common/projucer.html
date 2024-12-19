@@ -1,0 +1,40 @@
+<h1 id="projucer">Projucer</h1>
+
+<p>JUCE 프레임워크 애플리케이션을 위한 프로젝트 관리자.
+더 많은 정보: <a href="https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools">https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools</a>.</p>
+
+<ul>
+  <li>프로젝트에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프로젝트_파일</span></p>
+
+<ul>
+  <li>프로젝트의 모든 파일 및 리소스 다시 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --resave </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프로젝트_파일</span></p>
+
+<ul>
+  <li>프로젝트의 버전 번호 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --set-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전_번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프로젝트_파일</span></p>
+
+<ul>
+  <li>PIP 파일에서 JUCE 프로젝트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --create-project-from-pip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/PIP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력</span></p>
+
+<ul>
+  <li>모든 JUCE 스타일 주석 (<code class="language-plaintext highlighter-rouge">//=====</code>, <code class="language-plaintext highlighter-rouge">//-----</code> 또는 <code class="language-plaintext highlighter-rouge">///////</code>) 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --tidy-divider-comments </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상_폴더</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --help</code></p>

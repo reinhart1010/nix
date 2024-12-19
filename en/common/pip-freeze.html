@@ -1,0 +1,34 @@
+<h1 id="pip-freeze">pip freeze</h1>
+
+<p>List installed packages in requirements format.
+More information: <a href="https://pip.pypa.io/en/stable/cli/pip_freeze">https://pip.pypa.io/en/stable/cli/pip_freeze</a>.</p>
+
+<ul>
+  <li>List installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pip freeze</code></p>
+
+<ul>
+  <li>List installed packages and write it to the <code class="language-plaintext highlighter-rouge">requirements.txt</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pip freeze &gt; requirements.txt</code></p>
+
+<ul>
+  <li>List installed packages in a virtual environment, excluding globally installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pip freeze --local &gt; requirements.txt</code></p>
+
+<ul>
+  <li>List installed packages in the user-site:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pip freeze --user &gt; requirements.txt</code></p>
+
+<ul>
+  <li>List all packages, including <code class="language-plaintext highlighter-rouge">pip</code>, <code class="language-plaintext highlighter-rouge">distribute</code>, <code class="language-plaintext highlighter-rouge">setuptools</code>, and <code class="language-plaintext highlighter-rouge">wheel</code> (they are skipped by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pip freeze --all &gt; requirements.txt</code></p>

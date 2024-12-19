@@ -1,0 +1,40 @@
+<h1 id="npm-unstar">npm unstar</h1>
+
+<p>패키지에서 즐겨찾기/별표 표시를 제거.
+더 많은 정보: <a href="https://docs.npmjs.com/cli/commands/npm-unstar">https://docs.npmjs.com/cli/commands/npm-unstar</a>.</p>
+
+<ul>
+  <li>기본 레지스트리에서 공개 패키지의 별표 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_이름</span></p>
+
+<ul>
+  <li>특정 범위 내의 패키지의 별표 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">범위</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_이름</span></p>
+
+<ul>
+  <li>특정 레지스트리에서 패키지의 별표 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_이름</span><code class="language-plaintext highlighter-rouge"> --registry=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레지스트리_URL</span></p>
+
+<ul>
+  <li>인증이 필요한 비공개 패키지의 별표 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_이름</span><code class="language-plaintext highlighter-rouge"> --auth-type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">legacy|oauth|web|saml</span></p>
+
+<ul>
+  <li>이중 인증을 위한 OTP를 제공하여 패키지의 별표 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_이름</span><code class="language-plaintext highlighter-rouge"> --otp=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">OTP</span></p>
+
+<ul>
+  <li>특정 로깅 수준으로 패키지의 별표 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_이름</span><code class="language-plaintext highlighter-rouge"> --loglevel=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">silent|error|warn|notice|http|timing|info|verbose|silly</span></p>

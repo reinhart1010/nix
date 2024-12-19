@@ -1,0 +1,16 @@
+<h1 id="ddrescue">ddrescue</h1>
+
+<p>손상된 블록 장치에서 데이터를 읽는 데이터 복구 도구.
+더 많은 정보: <a href="https://www.gnu.org/software/ddrescue/">https://www.gnu.org/software/ddrescue/</a>.</p>
+
+<ul>
+  <li>장치의 이미지를 생성하고 로그 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ddrescue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.dd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로그.txt</span></p>
+
+<ul>
+  <li>디스크 A를 디스크 B로 클론하고 로그 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ddrescue --force --no-scrape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로그.txt</span></p>

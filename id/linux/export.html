@@ -1,0 +1,34 @@
+<h1 id="export">export</h1>
+
+<p>Ekspor variabel menuju anak-anak proses syel sistem operasi.
+Informasi lebih lanjut: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-export">https://www.gnu.org/software/bash/manual/bash.html#index-export</a>.</p>
+
+<ul>
+  <li>Setel nilai suatu variabel lingkungan syel (environment variable):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VARIABEL</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nilai</span></p>
+
+<ul>
+  <li>Hapus nilai variabel lingkungan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">export -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VARIABEL</span></p>
+
+<ul>
+  <li>Ekspor suatu fungsi perintah (function) menuju anak-anak proses syel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">export -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NAMA_FUNGSI</span></p>
+
+<ul>
+  <li>Tambahkan alamat direktori baru menuju variabel lingkungan <code class="language-plaintext highlighter-rouge">PATH</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">export PATH=$PATH:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/append</span></p>
+
+<ul>
+  <li>Tampilkan daftar variabel yang telah diekspor dalam bentuk kode perintah syel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">export -p</code></p>

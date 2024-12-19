@@ -1,0 +1,28 @@
+<h1 id="gnmic-get">gnmic get</h1>
+
+<p>gnmi 네트워크 장치 작동 데이터의 스냅샷 가져오기.
+더 많은 정보: <a href="https://gnmic.kmrd.dev/cmd/get">https://gnmic.kmrd.dev/cmd/get</a>.</p>
+
+<ul>
+  <li>특정 경로에서 장치 상태의 스냅샷을 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피:포트</span><code class="language-plaintext highlighter-rouge"> get --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로</span></p>
+
+<ul>
+  <li>여러 경로에서 장치 상태를 쿼리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피:포트</span><code class="language-plaintext highlighter-rouge"> get --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리1</span><code class="language-plaintext highlighter-rouge"> --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리2</span></p>
+
+<ul>
+  <li>공통 접두사를 사용하여 여러 경로에서 장치 상태를 쿼리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피:포트</span><code class="language-plaintext highlighter-rouge"> get --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">접두사</span><code class="language-plaintext highlighter-rouge"> --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리1</span><code class="language-plaintext highlighter-rouge"> --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리2</span></p>
+
+<ul>
+  <li>장치 상태를 쿼리하고 응답 인코딩을 지정 (json_ietf):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피:포트</span><code class="language-plaintext highlighter-rouge"> get --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로</span><code class="language-plaintext highlighter-rouge"> --encoding json_ietf</code></p>

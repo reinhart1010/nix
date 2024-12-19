@@ -1,0 +1,52 @@
+<h1 id="exclamation-mark">Exclamation mark</h1>
+
+<p>Digunakan pada Bash sebagai pengganti perintah yang sebelumnya dieksekusikan.
+Informasi lebih lanjut: <a href="https://gnu.org/software/bash/manual/bash.html#Event-Designators">https://gnu.org/software/bash/manual/bash.html#Event-Designators</a>.</p>
+
+<ul>
+  <li>Jalankan perintah sebelumnya menggunakan <code class="language-plaintext highlighter-rouge">sudo</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>Ambil perintah sebelumnya menurut nomor urutan yang terdapat dalam <code class="language-plaintext highlighter-rouge">history</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nomor_urut</span></p>
+
+<ul>
+  <li>Ambil perintah sebelumnya yang kesekian:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nomor_urut</span></p>
+
+<ul>
+  <li>Ambil perintah sebelumnya menurut awalan nama perintah:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">awalan_perintah</span></p>
+
+<ul>
+  <li>Gunakan susunan argumen/opsi perintah yang sama dengan perintah sebelumnya:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge"> !*</code></p>
+
+<ul>
+  <li>Gunakan argumen/opsi perintah terakhir dari perintah sebelumnya:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge"> !$</code></p>
+
+<ul>
+  <li>Gantikan nama perintah dengan nama perintah sebelumnya, tanpa menggunakan argumen/opsi dari perintah terakhir tersebut:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!:-</code></p>
+
+<ul>
+  <li>Cetak nama perintah terakhir yang dimulai dengan awalan kata tertentu, tanpa mengeksekusi perintah terakhir tersebut:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">awalan_perintah</span><code class="language-plaintext highlighter-rouge">:p</code></p>

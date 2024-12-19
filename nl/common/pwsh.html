@@ -1,0 +1,54 @@
+<h1 id="pwsh">pwsh</h1>
+
+<p>Command-line shell en scripting taal specifiek ontworpen voor systeemadministratie.
+Dit commando refereert naar PowerShell versie 6 en hoger (ook wel bekend als PowerShell Core en cross-platform PowerShell).
+Om de originele Windows versie (5.1 en lager, ook wel bekend als de legacy Windows PowerShell) te gebruiken, gebruik <code class="language-plaintext highlighter-rouge">powershell</code> in plaats van <code class="language-plaintext highlighter-rouge">pwsh</code>.
+Meer informatie: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh">https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh</a>.</p>
+
+<ul>
+  <li>Start een interactieve shell sessie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh</code></p>
+
+<ul>
+  <li>Start een interactieve shell sessie zonder het laden van startup configuraties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -NoProfile</code></p>
+
+<ul>
+  <li>Voer specifieke commando's uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -Command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'powershell is uitgevoerd'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Voer een specifiek script uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -File </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.ps1</span></p>
+
+<ul>
+  <li>Start een sessie met een specifieke versie van PowerShell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -Version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versie</span></p>
+
+<ul>
+  <li>Voorkom dat een shell afsluit na het uitvoeren van de opstart-commando's:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -NoExit</code></p>
+
+<ul>
+  <li>Beschrijf het formaat van de data die gestuurd word naar to PowerShell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -InputFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Text|XML</span></p>
+
+<ul>
+  <li>Bepaal hoe een uitvoer van Powershell word geformateerd:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -OutputFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Text|XML</span></p>

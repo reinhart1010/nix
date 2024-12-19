@@ -1,0 +1,41 @@
+<h1 id="sox">sox</h1>
+
+<p>Sound eXchange: play, record and convert audio files.
+Audio formats are identified by the extension.
+More information: <a href="https://sox.sourceforge.net">https://sox.sourceforge.net</a>.</p>
+
+<ul>
+  <li>Merge two audio files into one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sox -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_audio1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_audio2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_audio</span></p>
+
+<ul>
+  <li>Trim an audio file to the specified times:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sox </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_audio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_audio</span><code class="language-plaintext highlighter-rouge"> trim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">duration</span></p>
+
+<ul>
+  <li>Normalize an audio file (adjust volume to the maximum peak level, without clipping):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sox --norm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_audio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_audio</span></p>
+
+<ul>
+  <li>Reverse and save an audio file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sox </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_audio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_audio</span><code class="language-plaintext highlighter-rouge"> reverse</code></p>
+
+<ul>
+  <li>Print statistical data of an audio file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sox </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_audio</span><code class="language-plaintext highlighter-rouge"> -n stat</code></p>
+
+<ul>
+  <li>Increase the volume of an audio file by 2x:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sox -v 2.0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_audio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_audio</span></p>

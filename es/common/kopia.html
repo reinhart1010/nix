@@ -1,0 +1,53 @@
+<h1 id="kopia">kopia</h1>
+
+<p>Herramienta de copia de seguridad de código abierto, rápida y segura.
+Soporta encriptación, compresión, deduplicación e instantáneas incrementales.
+Más información: <a href="https://kopia.io/docs/reference/command-line/">https://kopia.io/docs/reference/command-line/</a>.</p>
+
+<ul>
+  <li>Crea un repositorio en el sistema de archivos local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia repository create filesystem --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/repositorio_local</span></p>
+
+<ul>
+  <li>Crea un repositorio en Amazon S3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia repository create s3 --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_bucket</span><code class="language-plaintext highlighter-rouge"> --access-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_clave_de_acceso_AWS</span><code class="language-plaintext highlighter-rouge"> --secret-access-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_de_acceso_secreta_AWS</span></p>
+
+<ul>
+  <li>Conecta a un repositorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia repository connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo_de_repositorio</span><code class="language-plaintext highlighter-rouge"> --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/repositorio</span></p>
+
+<ul>
+  <li>Crea una instantánea de un directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia snapshot create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Lista instantáneas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia snapshot list</code></p>
+
+<ul>
+  <li>Restaura una instantánea en un directorio específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia snapshot restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_instantánea</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_objetivo</span></p>
+
+<ul>
+  <li>Crea una nueva política:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia policy set --global --keep-latest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_instantáneas_a_mantener</span><code class="language-plaintext highlighter-rouge"> --compression </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algoritmo_de_compresión</span></p>
+
+<ul>
+  <li>Excluye un archivo o directorio específico de las copias de seguridad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kopia policy set --global --add-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span></p>

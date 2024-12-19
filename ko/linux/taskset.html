@@ -1,0 +1,34 @@
+<h1 id="taskset">taskset</h1>
+
+<p>프로세스의 CPU 친화도를 가져오거나 설정하거나 정의된 CPU 친화도로 새 프로세스를 시작합니다.
+더 많은 정보: <a href="https://manned.org/taskset">https://manned.org/taskset</a>.</p>
+
+<ul>
+  <li>실행 중인 프로세스의 PID로 CPU 친화도 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskset --pid --cpu-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>실행 중인 프로세스의 PID로 CPU 친화도 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskset --pid --cpu-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>단일 CPU에 대한 친화도로 새 프로세스 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskset --cpu-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>여러 비연속 CPU에 대한 친화도로 새 프로세스 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskset --cpu-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_2</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_3</span></p>
+
+<ul>
+  <li>CPU 1부터 4까지의 친화도로 새 프로세스 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskset --cpu-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_1</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_4</span></p>

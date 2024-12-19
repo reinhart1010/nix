@@ -1,0 +1,35 @@
+<h1 id="gcloud-projects">gcloud projects</h1>
+
+<p>Manage project access policies in Google Cloud.
+See also: <code class="language-plaintext highlighter-rouge">gcloud</code>.
+More information: <a href="https://cloud.google.com/sdk/gcloud/reference/projects">https://cloud.google.com/sdk/gcloud/reference/projects</a>.</p>
+
+<ul>
+  <li>Create a new project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud projects create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_id|project_number</span></p>
+
+<ul>
+  <li>List all active projects:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud projects list</code></p>
+
+<ul>
+  <li>Display metadata for a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud projects describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_id</span></p>
+
+<ul>
+  <li>Delete a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud projects delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_id|project_number</span></p>
+
+<ul>
+  <li>Add an IAM policy binding to a specified project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud projects add-iam-policy-binding </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_id</span><code class="language-plaintext highlighter-rouge"> --member </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">principal</span><code class="language-plaintext highlighter-rouge"> --role </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role</span></p>

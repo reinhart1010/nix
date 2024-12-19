@@ -1,0 +1,46 @@
+<h1 id="git-commit">git commit</h1>
+
+<p>Committe Dateien in ein Repository.
+Weitere Informationen: <a href="https://git-scm.com/docs/git-commit">https://git-scm.com/docs/git-commit</a>.</p>
+
+<ul>
+  <li>Committe die gestagten Dateien mit einer Nachricht in das Repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Committe alle gestagten Dateien zum Repository mit einer Nachricht aus einer Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/commit_nachricht_datei</span></p>
+
+<ul>
+  <li>Stage alle modifizierten Dateien und committe sie mit einer Nachricht:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --all --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Committe gestagten Dateien und signiere sie mit dem definierten GPG Schlüssel (oder mit dem in der Konfigurationsdatei definierten, wenn kein Argument angegeben ist):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --gpg-sign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span><code class="language-plaintext highlighter-rouge"> --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ersetze den letzten Commit mit den gerade auf dem Stage liegenden Änderungen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --amend</code></p>
+
+<ul>
+  <li>Comitte nur spezifische Dateien (die Dateien müssen schon auf dem Stage liegen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1 pfad/zu/datei2 …</span></p>
+
+<ul>
+  <li>Erzeuge einen Commit, auch wenn keine Dateien auf dem Stage liegen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span><code class="language-plaintext highlighter-rouge">" --allow-empty</code></p>

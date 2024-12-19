@@ -1,0 +1,46 @@
+<h1 id="usql">usql</h1>
+
+<p>Interfaz de línea de comandos universal para bases de datos SQL.
+Más información: <a href="https://github.com/xo/usql">https://github.com/xo/usql</a>.</p>
+
+<ul>
+  <li>Conecta a una base de datos específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sqlserver|mysql|postgres|sqlite3|…</span><code class="language-plaintext highlighter-rouge">://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span></p>
+
+<ul>
+  <li>Ejecuta comandos desde un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/query.sql</span></p>
+
+<ul>
+  <li>Ejecuta un comando SQL específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql --command="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_sql</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ejecuta un comando SQL en el intérprete de comandos de <code class="language-plaintext highlighter-rouge">usql</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Muestra el esquema de la base de datos:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; \d</code></p>
+
+<ul>
+  <li>Exporta los resultados de la consulta a un archivo específico:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; \g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_con_resultados</span></p>
+
+<ul>
+  <li>Importa datos de un archivo CSV a una tabla específica:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; \copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/datos.csv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_tabla</span></p>

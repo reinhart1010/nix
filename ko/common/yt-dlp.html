@@ -1,0 +1,51 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="yt-dlp">yt-dlp</h1>
+
+<p>추가 기능과 수정이 포함된 youtube-dl 포크.
+YouTube 및 기타 웹사이트에서 동영상을 다운로드합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">yt-dlp</code>, <code class="language-plaintext highlighter-rouge">ytfzf</code>.
+더 많은 정보: <a href="https://github.com/yt-dlp/yt-dlp">https://github.com/yt-dlp/yt-dlp</a>.</p>
+
+<ul>
+  <li>동영상 또는 재생목록 다운로드 (아래 명령의 기본 옵션 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>동영상의 다운로드 가능한 형식 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --list-formats "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>사용 가능한 최고의 MP4 비디오로 동영상 또는 재생목록 다운로드 (기본은 "bv*+ba/b"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>동영상에서 오디오 추출 (ffmpeg 또는 ffprobe 필요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --extract-audio "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>추출된 오디오의 형식과 품질 지정 (0 (최고)에서 10 (최악) 사이, 기본값 = 5):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --extract-audio --audio-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span><code class="language-plaintext highlighter-rouge"> --audio-quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>YouTube 채널/사용자의 모든 재생목록을 각각의 폴더에 저장하여 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/user/TheLinuxFoundation/playlists</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Udemy 강의를 각 챕터별로 다른 폴더에 저장하여 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -P "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge">" -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.udemy.com/java-tutorial</span><code class="language-plaintext highlighter-rouge">"</code></p>

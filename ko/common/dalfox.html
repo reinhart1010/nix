@@ -1,0 +1,22 @@
+<h1 id="dalfox">dalfox</h1>
+
+<p>자동화에 중점을 둔 강력한 오픈소스 XSS 스캐너.
+더 많은 정보: <a href="https://dalfox.hahwul.com/docs/usage">https://dalfox.hahwul.com/docs/usage</a>.</p>
+
+<ul>
+  <li>XSS 취약점에 대한 단일 URL을 스캔:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dalfox url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>
+
+<ul>
+  <li>인증을 위해 헤더를 사용해 URL을 스캔:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dalfox url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span><code class="language-plaintext highlighter-rouge"> -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'X-My-Header: 123'</span></p>
+
+<ul>
+  <li>파일에서 URL 목록을 스캔:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dalfox file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

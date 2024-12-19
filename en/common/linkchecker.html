@@ -1,0 +1,28 @@
+<h1 id="linkchecker">linkchecker</h1>
+
+<p>Command-line client to check HTML documents and websites for broken links.
+More information: <a href="https://linkchecker.github.io/linkchecker/">https://linkchecker.github.io/linkchecker/</a>.</p>
+
+<ul>
+  <li>Find broken links on <a href="https://example.com/">https://example.com/</a>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linkchecker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span></p>
+
+<ul>
+  <li>Also check URLs that point to external domains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linkchecker --check-extern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span></p>
+
+<ul>
+  <li>Ignore URLs that match a specific regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linkchecker --ignore-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span></p>
+
+<ul>
+  <li>Output results to a CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linkchecker --file-output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">csv</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span></p>

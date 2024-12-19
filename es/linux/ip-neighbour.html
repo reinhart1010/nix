@@ -1,0 +1,34 @@
+<h1 id="ip-neighbour">ip neighbour</h1>
+
+<p>Subcomando de gestión de tablas IP de vecinos/ARP.
+Más información: <a href="https://manned.org/ip-neighbour.8">https://manned.org/ip-neighbour.8</a>.</p>
+
+<ul>
+  <li>Muestra las entradas de la tabla de vecinos/ARP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip neighbour</code></p>
+
+<ul>
+  <li>Elimina entradas en la tabla de vecinos del dispositivo <code class="language-plaintext highlighter-rouge">eth0</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip neighbour flush dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Realiza una búsqueda de vecinos y devuelve una entrada de vecinos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip neighbour get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lookup_ip</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Agrega o elimina una entrada ARP a los vecinos IP de <code class="language-plaintext highlighter-rouge">eth0</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip neighbour </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">add|del</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip</span><code class="language-plaintext highlighter-rouge"> lladdr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> nud reachable</code></p>
+
+<ul>
+  <li>Cambia o reemplaza una entrada ARP para la dirección IP vecina a <code class="language-plaintext highlighter-rouge">eth0</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip neighbour </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">change|replace</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip</span><code class="language-plaintext highlighter-rouge"> lladdr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nueva_mac_address</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>

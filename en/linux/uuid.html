@@ -1,0 +1,47 @@
+<h1 id="uuid">uuid</h1>
+
+<p>Generate and decode Universally Unique Identifiers (UUID).
+See also <code class="language-plaintext highlighter-rouge">uuidgen</code>.
+More information: <a href="https://manned.org/uuid">https://manned.org/uuid</a>.</p>
+
+<ul>
+  <li>Generate a UUIDv1 (based on time and system's hardware address, if present):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid</code></p>
+
+<ul>
+  <li>Generate a UUIDv4 (based on random data):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Generate multiple UUIDv4 identifiers at once:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_uuids</span></p>
+
+<ul>
+  <li>Generate a UUIDv4 and specify the output format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">BIN|STR|SIV</span></p>
+
+<ul>
+  <li>Generate a UUIDv4 and write the output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Generate a UUIDv5 (based on the supplied object name) with a specified namespace prefix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> ns:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DNS|URL|OID|X500</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object_name</span></p>
+
+<ul>
+  <li>Decode a given UUID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid</span></p>

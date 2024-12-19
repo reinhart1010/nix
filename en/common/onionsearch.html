@@ -1,0 +1,35 @@
+<h1 id="onionsearch">onionsearch</h1>
+
+<p>Scrape URLs on different <code class="language-plaintext highlighter-rouge">.onion</code> search engines.
+Note: <code class="language-plaintext highlighter-rouge">onionsearch</code> requires a Tor proxy running on <code class="language-plaintext highlighter-rouge">localhost:9050</code>; a Tor enabled browser is needed to visit the <code class="language-plaintext highlighter-rouge">.onion</code> websites.
+More information: <a href="https://github.com/megadose/OnionSearch">https://github.com/megadose/OnionSearch</a>.</p>
+
+<ul>
+  <li>Request results from all the search engines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">onionsearch "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Request search results from specific search engines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">onionsearch "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" --engines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tor66 deeplink phobos …</span></p>
+
+<ul>
+  <li>Exclude certain search engines when searching:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">onionsearch "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">candle ahmia …</span></p>
+
+<ul>
+  <li>Limit the number of pages to load per engine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">onionsearch "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stuxnet</span><code class="language-plaintext highlighter-rouge">" --engines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tor66 deeplink phobos …</span><code class="language-plaintext highlighter-rouge"> --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>List all supported search engines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">onionsearch --help | grep -A1 -i "supported engines"</code></p>

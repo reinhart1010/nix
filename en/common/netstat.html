@@ -1,0 +1,47 @@
+<h1 id="netstat">netstat</h1>
+
+<p>Display network-related information such as open connections, open socket ports, etc.
+See also: <code class="language-plaintext highlighter-rouge">ss</code>.
+More information: <a href="https://manned.org/netstat">https://manned.org/netstat</a>.</p>
+
+<ul>
+  <li>List all ports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --all</code></p>
+
+<ul>
+  <li>List all listening ports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --listening</code></p>
+
+<ul>
+  <li>List listening TCP ports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --tcp</code></p>
+
+<ul>
+  <li>Display PID and program names:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --program</code></p>
+
+<ul>
+  <li>List information continuously:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --continuous</code></p>
+
+<ul>
+  <li>List routes and do not resolve IP addresses to hostnames:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --route --numeric</code></p>
+
+<ul>
+  <li>List listening TCP and UDP ports (+ user and process if you're root):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --listening --program --numeric --tcp --udp --extend</code></p>

@@ -1,0 +1,34 @@
+<h1 id="systemd-sysext">systemd-sysext</h1>
+
+<p>Activa o desactiva imágenes de extensión del sistema (system extension images).
+Más información: <a href="https://www.freedesktop.org/software/systemd/man/systemd-sysext.html">https://www.freedesktop.org/software/systemd/man/systemd-sysext.html</a>.</p>
+
+<ul>
+  <li>Lista de imágenes de extensión instaladas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-sysext list</code></p>
+
+<ul>
+  <li>Combina imágenes de extensión del sistema en <code class="language-plaintext highlighter-rouge">/usr/</code> y <code class="language-plaintext highlighter-rouge">/opt/</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-sysext merge</code></p>
+
+<ul>
+  <li>Comprueba el estado de fusión actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-sysext status</code></p>
+
+<ul>
+  <li>Separa todas las imágenes de extensión del sistema actualmente instaladas en <code class="language-plaintext highlighter-rouge">/usr/</code> y <code class="language-plaintext highlighter-rouge">/opt/</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-sysext unmerge</code></p>
+
+<ul>
+  <li>Actualiza imágenes de extensión del sistema (una combinación de <code class="language-plaintext highlighter-rouge">unmerge</code> y <code class="language-plaintext highlighter-rouge">merge</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-sysext refresh</code></p>

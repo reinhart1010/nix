@@ -1,0 +1,35 @@
+<h1 id="airdecap-ng">airdecap-ng</h1>
+
+<p>解密 WEP、WPA 或 WPA2 加密的捕获文件。
+是 Aircrack-ng 网络软件套件的一部分。
+更多信息：<a href="https://www.aircrack-ng.org/doku.php?id=airdecap-ng">https://www.aircrack-ng.org/doku.php?id=airdecap-ng</a>.</p>
+
+<ul>
+  <li>从开放网络捕获文件中移除无线头，并使用接入点的 MAC 地址进行过滤：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ap_mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/捕获文件.cap</span></p>
+
+<ul>
+  <li>使用十六进制格式的密钥解密 WEP 加密的捕获文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hex_key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/捕获文件.cap</span></p>
+
+<ul>
+  <li>使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/捕获文件.cap</span></p>
+
+<ul>
+  <li>使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件，并保留头部信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -l -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/捕获文件.cap</span></p>
+
+<ul>
+  <li>使用接入点的 MAC 地址进行过滤，并使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ap_mac</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/捕获文件.cap</span></p>

@@ -1,0 +1,53 @@
+<h1 id="huggingface-cli">huggingface-cli</h1>
+
+<p>Interactúa con Hugging Face Hub.
+Inicia sesión, gestiona la caché local, carga o descarga archivos.
+Más información: <a href="https://huggingface.co/docs/huggingface_hub/guides/cli">https://huggingface.co/docs/huggingface_hub/guides/cli</a>.</p>
+
+<ul>
+  <li>Inicia sesión en Hugging Face Hub:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli login</code></p>
+
+<ul>
+  <li>Muestra el nombre del usuario conectado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli whoami</code></p>
+
+<ul>
+  <li>Cierra sesión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli logout</code></p>
+
+<ul>
+  <li>Genera información sobre el entorno:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli env</code></p>
+
+<ul>
+  <li>Descarga archivos de un repositorio e imprime la ruta (omite los nombres de archivo para descargar todo el repositorio):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli download --repo-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_archivo1 nombre_archivo2 …</span></p>
+
+<ul>
+  <li>Sube una carpeta entera o un archivo a Hugging Face:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli upload --repo-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_repositorio_o_directorio_de_repositorio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de repositorio_o_directorio</span></p>
+
+<ul>
+  <li>Escanea la caché para ver los repositorios descargados y su uso de disco:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli scan-cache</code></p>
+
+<ul>
+  <li>Elimina la caché de forma interactiva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli delete-cache</code></p>

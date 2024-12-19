@@ -1,0 +1,40 @@
+<h1 id="tmsu">tmsu</h1>
+
+<p>Simple command-line tool for tagging files.
+More information: <a href="https://tmsu.org">https://tmsu.org</a>.</p>
+
+<ul>
+  <li>Tag a specific file with multiple tags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmsu tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mp3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">music</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">big-jazz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span></p>
+
+<ul>
+  <li>Tag multiple files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmsu tag --tags "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">music mp3</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.mp3</span></p>
+
+<ul>
+  <li>List tags of specified file(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmsu tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.mp3</span></p>
+
+<ul>
+  <li>List files with specified tag(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmsu files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">big-jazz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">music</span></p>
+
+<ul>
+  <li>List files with tags matching boolean expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmsu files "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(year &gt;= 1990 and year &lt;= 2000)</span><code class="language-plaintext highlighter-rouge"> and </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grunge</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Mount tmsu virtual filesystem to an existing directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmsu mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

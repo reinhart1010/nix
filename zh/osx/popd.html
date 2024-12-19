@@ -1,0 +1,21 @@
+<h1 id="popd">popd</h1>
+
+<p>通过 pushd shell 内置程序删除目录堆栈中的目录。</p>
+
+<ul>
+  <li>从堆栈中删除顶部目录，并用 <code class="language-plaintext highlighter-rouge">cd</code> 跳转到该目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">popd</code></p>
+
+<ul>
+  <li>删除第 n 个目录（从零开始，以用 <code class="language-plaintext highlighter-rouge">dirs</code> 打印的列表左侧开始）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">popd +N</code></p>
+
+<ul>
+  <li>删除第 n 个目录（从零开始，以用 <code class="language-plaintext highlighter-rouge">dirs</code> 打印的列表右侧开始）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">popd -N</code></p>

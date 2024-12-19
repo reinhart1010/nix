@@ -1,0 +1,34 @@
+<h1 id="sv">sv</h1>
+
+<p>Control a running runsv service.
+More information: <a href="https://manned.org/sv.8">https://manned.org/sv.8</a>.</p>
+
+<ul>
+  <li>Start a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo sv up </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/service</span></p>
+
+<ul>
+  <li>Stop a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo sv down </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/service</span></p>
+
+<ul>
+  <li>Get service status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo sv status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/service</span></p>
+
+<ul>
+  <li>Reload a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo sv reload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/service</span></p>
+
+<ul>
+  <li>Start a service, but only if it's not running and don't restart it if it stops:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo sv once </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/service</span></p>

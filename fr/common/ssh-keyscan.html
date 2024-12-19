@@ -1,0 +1,28 @@
+<h1 id="ssh-keyscan">ssh-keyscan</h1>
+
+<p>Récupère les clés SSH publiques de machines distantes.
+Plus d'informations : <a href="https://man.openbsd.org/ssh-keyscan">https://man.openbsd.org/ssh-keyscan</a>.</p>
+
+<ul>
+  <li>Récupère toutes les clés d'une machine distante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span></p>
+
+<ul>
+  <li>Récupère toutes les clés d'une machine distante en écoutant sur un port particulier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span></p>
+
+<ul>
+  <li>Récupère un type particulier de clés d'une machine distante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa,dsa,ecdsa,ed25519</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span></p>
+
+<ul>
+  <li>Met à jour manuellement le fichier <code class="language-plaintext highlighter-rouge">known_hosts</code> des hôtes connus avec l'empreinte d'une :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keyscan -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; ~/.ssh/known_hosts</code></p>

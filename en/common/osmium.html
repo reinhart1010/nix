@@ -1,0 +1,52 @@
+<h1 id="osmium">osmium</h1>
+
+<p>Multipurpose tool for handling OpenStreetMap (OSM) files.
+More information: <a href="https://osmcode.org/osmium-tool/manual">https://osmcode.org/osmium-tool/manual</a>.</p>
+
+<ul>
+  <li>Show file information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osmium fileinfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.osm</span></p>
+
+<ul>
+  <li>Display contents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osmium show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.osm</span></p>
+
+<ul>
+  <li>Convert file format from PBF into XML:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osmium cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.osm.pbf</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.osm</span></p>
+
+<ul>
+  <li>Extract a geographic region by the given [b]ounding box:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osmium extract -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">min_longitude</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">min_latitude</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_longitude</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_latitude</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pbf</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbf</span></p>
+
+<ul>
+  <li>Extract a geographic region by a GeoJSON file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osmium extract -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/polygon.geojson</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pbf</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbf</span></p>
+
+<ul>
+  <li>Filter all objects tagged as "restaurant":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osmium tags-filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pbf</span><code class="language-plaintext highlighter-rouge"> amenity=restaurant -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbf</span></p>
+
+<ul>
+  <li>Filter for "way" objects tagged as "highway":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osmium tags-filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pbf</span><code class="language-plaintext highlighter-rouge"> w/highway -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbf</span></p>
+
+<ul>
+  <li>Filter "way" and "relation" objects tagged as "building":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osmium tags-filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pbf</span><code class="language-plaintext highlighter-rouge"> wr/building -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbf</span></p>

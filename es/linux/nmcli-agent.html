@@ -1,0 +1,23 @@
+<h1 id="nmcli-agent">nmcli agent</h1>
+
+<p>Ejecuta <code class="language-plaintext highlighter-rouge">nmcli</code> como agente secreto de NetworkManager o agente polkit.
+Este subcomando también se puede llamar con <code class="language-plaintext highlighter-rouge">nmcli a</code>.
+Más información: <a href="https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html">https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html</a>.</p>
+
+<ul>
+  <li>Registra <code class="language-plaintext highlighter-rouge">nmcli</code> como agente secreto y escucha solicitudes secretas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli agent secret</code></p>
+
+<ul>
+  <li>Registra <code class="language-plaintext highlighter-rouge">nmcli</code> como agente polkit y escucha solicitudes de autorización:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli agent polkit</code></p>
+
+<ul>
+  <li>Registra <code class="language-plaintext highlighter-rouge">nmcli</code> como agente secreto y agente de polkit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli agent all</code></p>

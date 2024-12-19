@@ -1,0 +1,41 @@
+<h1 id="git-apply">git apply</h1>
+
+<p>Gunakan perubahan dari file deskripsi perubahan (patch) kepada indeks perubahan tanpa mencatat sebuah komit.
+Lihat juga <code class="language-plaintext highlighter-rouge">git am</code>, yang sama-sama menggunakan perubahan dari file patch namun juga mencatatnya ke dalam sebuah komit baru.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-apply">https://git-scm.com/docs/git-apply</a>.</p>
+
+<ul>
+  <li>Tampilkan informasi lengkap (mode verbose) atas proses perubahan yang sedang dilakukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Gunakan patch dan tambahkan file yang diubah ke dalam indeks perubahan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Gunakan perubahan dari file patch dari sumber dalam jaringan (online):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/file.patch</span><code class="language-plaintext highlighter-rouge"> | git apply</code></p>
+
+<ul>
+  <li>Tampilkan informasi statistik perbedaan (diffstat) setelah melakukan perubahan menurut file patch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --stat --apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Batalkan perubahan yang dilakukan melalui file patch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --reverse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Simpan hasil perubahan ke dalam indeks perubahan tanpa merubah susunan file/direktori dalam direktori kerja saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --cache </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>

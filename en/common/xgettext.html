@@ -1,0 +1,28 @@
+<h1 id="xgettext">xgettext</h1>
+
+<p>Extract gettext strings from code files.
+More information: <a href="https://www.gnu.org/software/gettext/manual/html_node/xgettext-Invocation.html">https://www.gnu.org/software/gettext/manual/html_node/xgettext-Invocation.html</a>.</p>
+
+<ul>
+  <li>Scan file and output strings to <code class="language-plaintext highlighter-rouge">messages.po</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xgettext </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span></p>
+
+<ul>
+  <li>Use a different output filename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xgettext --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span></p>
+
+<ul>
+  <li>Append new strings to an existing file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xgettext --join-existing --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span></p>
+
+<ul>
+  <li>Don't add a header containing metadata to the output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xgettext --omit-header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span></p>

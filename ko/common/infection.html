@@ -1,0 +1,52 @@
+<h1 id="infection">infection</h1>
+
+<p>PHP용 코드 변경 테스팅 프레임워크.
+더 많은 정보: <a href="https://infection.github.io">https://infection.github.io</a>.</p>
+
+<ul>
+  <li>구성 파일을 사용하여 코드를 분석 (또는 존재하지 않는 경우 새롭게 생성):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection</code></p>
+
+<ul>
+  <li>특정 수의 스레드를 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스레드_수</span></p>
+
+<ul>
+  <li>최소 MSI(Mutation Score Indicator)를 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --min-msi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">백분율</span></p>
+
+<ul>
+  <li>최소 적용 코드 MSI를 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --min-covered-msi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">백분율</span></p>
+
+<ul>
+  <li>특정 테스트 프레임워크를 사용 (기본값은 PHPUnit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --test-framework </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">phpunit|phpspec</span></p>
+
+<ul>
+  <li>테스트에 포함된 코드 줄만 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --only-covered</code></p>
+
+<ul>
+  <li>적용된 코드 변경을 주는 부분을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --show-mutations</code></p>
+
+<ul>
+  <li>로그 상세 수준을 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --log-verbosity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default|all|none</span></p>

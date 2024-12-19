@@ -1,0 +1,34 @@
+<h1 id="snort">snort</h1>
+
+<p>Open-source network intrusion detection system.
+More information: <a href="https://www.snort.org/#documents">https://www.snort.org/#documents</a>.</p>
+
+<ul>
+  <li>Capture packets with verbose output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo snort -v -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Capture packets and dump application layer data with verbose output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo snort -vd -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Capture packets and display link layer packet headers with verbose output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo snort -ve -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Capture packets and save them in the specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo snort -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Capture packets according to rules and save offending packets along with alerts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo snort -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/rules.conf</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

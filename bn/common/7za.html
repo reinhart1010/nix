@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="7za">7za</h1>
+
+<p>একটি উচ্চ সঙ্কোচন অনুবাদক সাথে ফাইল অ্যার্কাইভার।
+<code class="language-plaintext highlighter-rouge">7z</code> এর মত, কিন্তু এটি কম ফাইল ধরণসমূহ সমর্থন করে এবং ক্রস-প্ল্যাটফর্ম।
+আরও তথ্য পাবেন: <a href="https://manned.org/7za">https://manned.org/7za</a>।</p>
+
+<ul>
+  <li>একটি ফাইল বা ডিরেক্টরি অ্যার্কাইভ করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/আর্কাইভ.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/ফাইল_অথবা_ডিরেক্টরি</span></p>
+
+<ul>
+  <li>একটি বিদ্যমান আর্কাইভ এনক্রিপ্ট করুন (ফাইলের নামগুলি সহ):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/এনক্রিপ্টেড.7z</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাসওয়ার্ড</span><code class="language-plaintext highlighter-rouge"> -mhe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/আর্কাইভ.7z</span></p>
+
+<ul>
+  <li>একটি আর্কাইভ বিন্দুবর্তন রক্ষা করে একটি আর্কাইভ নেওয়া:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/আর্কাইভ.7z</span></p>
+
+<ul>
+  <li>একটি আর্কাইভটি একটি নির্দিষ্ট ডিরেক্টরিতে নেওয়া:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/আর্কাইভ.7z</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/আউটপুট</span></p>
+
+<ul>
+  <li>একটি আর্কাইভটি একটি <code class="language-plaintext highlighter-rouge">stdout</code> এ নেওয়া:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/আর্কাইভ.7z</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>একটি নির্দিষ্ট আর্কাইভ ধরণ ব্যবহার করে অ্যার্কাইভ করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7z|bzip2|gzip|lzip|tar|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/আর্কাইভ.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/ফাইল_অথবা_ডিরেক্টরি</span></p>
+
+<ul>
+  <li>একটি আর্কাইভের সামগ্রী তালিকা দেখুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/আর্কাইভ.7z</span></p>

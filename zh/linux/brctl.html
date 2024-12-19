@@ -1,0 +1,34 @@
+<h1 id="brctl">brctl</h1>
+
+<p>以太网桥管理。
+更多信息：<a href="https://manned.org/brctl">https://manned.org/brctl</a>.</p>
+
+<ul>
+  <li>显示有关当前现有以太网网桥信息的列表：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl show</code></p>
+
+<ul>
+  <li>创建新的以太网桥接接口：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">网桥名</span></p>
+
+<ul>
+  <li>删除一个已存在的以太网桥接接口：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">网桥名</span></p>
+
+<ul>
+  <li>向现有网桥添加接口：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl addif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">网桥名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">接口名</span></p>
+
+<ul>
+  <li>从现有网桥中删除接口：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl delif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">网桥名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">接口名</span></p>

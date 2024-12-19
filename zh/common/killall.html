@@ -1,0 +1,35 @@
+<h1 id="killall">killall</h1>
+
+<p>根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。
+除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，从而实现正常退出。
+更多信息：<a href="https://manned.org/killall">https://manned.org/killall</a>.</p>
+
+<ul>
+  <li>使用默认的 SIGTERM（终止）信号结束进程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">进程名称</span></p>
+
+<ul>
+  <li>列出可用的信号名称（使用时无需加 <code class="language-plaintext highlighter-rouge">SIG</code> 前缀）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -l</code></p>
+
+<ul>
+  <li>交互式地询问确认后再终止进程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">进程名称</span></p>
+
+<ul>
+  <li>使用 SIGINT（中断）信号终止进程，与按下 <code class="language-plaintext highlighter-rouge">Ctrl + C</code> 发送的信号相同：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -INT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">进程名称</span></p>
+
+<ul>
+  <li>强制杀死一个进程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -KILL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">进程名称</span></p>

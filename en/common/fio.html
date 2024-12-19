@@ -1,0 +1,34 @@
+<h1 id="fio">fio</h1>
+
+<p>Flexible I/O tester: do an I/O action spawning multiple threads or processes.
+More information: <a href="https://fio.readthedocs.io/en/latest/fio_doc.html">https://fio.readthedocs.io/en/latest/fio_doc.html</a>.</p>
+
+<ul>
+  <li>Test random reads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fio --filename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --direct=1 --rw=randread --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_name</span><code class="language-plaintext highlighter-rouge"> --eta-newline=1 --readonly</code></p>
+
+<ul>
+  <li>Test sequential reads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fio --filename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --direct=1 --rw=read --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_name</span><code class="language-plaintext highlighter-rouge"> --eta-newline=1 --readonly</code></p>
+
+<ul>
+  <li>Test random read/write:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fio --filename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --direct=1 --rw=randrw --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_name</span><code class="language-plaintext highlighter-rouge"> --eta-newline=1</code></p>
+
+<ul>
+  <li>Test with parameters from a job file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fio </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/job_file</span></p>
+
+<ul>
+  <li>Convert a specific job file to command-line options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fio --showcmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/job_file</span></p>

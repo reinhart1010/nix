@@ -1,0 +1,23 @@
+<h1 id="cargo-yank">cargo yank</h1>
+
+<p>Remove a pushed crate from the index. This should only be used when you accidentally release a significantly broken crate.
+Note: this does not remove any data. The crate is still present after a yank - this just prevents new projects from using it.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-yank.html">https://doc.rust-lang.org/cargo/commands/cargo-yank.html</a>.</p>
+
+<ul>
+  <li>Yank the specified version of a crate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo yank </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crate</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Undo a yank (i.e. allow downloading it again):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo yank --undo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crate</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Use the specified registry (registry names can be defined in the configuration - the default is <a href="https://crates.io">https://crates.io</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo yank --registry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crate</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>

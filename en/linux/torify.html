@@ -1,0 +1,47 @@
+<h1 id="torify">torify</h1>
+
+<p>Route network traffic through the Tor network.
+Note: This command has been deprecated, and is now a backwards-compatible wrapper of <code class="language-plaintext highlighter-rouge">torsocks</code>.
+More information: <a href="https://manned.org/torify">https://manned.org/torify</a>.</p>
+
+<ul>
+  <li>Route traffic via Tor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Toggle Tor in shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span></p>
+
+<ul>
+  <li>Spawn a Tor-enabled shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torify --shell</code></p>
+
+<ul>
+  <li>Check for a Tor-enabled shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torify show</code></p>
+
+<ul>
+  <li>Specify Tor configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torify -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config-file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Use a specific Tor SOCKS proxy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torify -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proxy</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Redirect output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span></p>

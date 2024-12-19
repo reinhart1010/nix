@@ -1,0 +1,34 @@
+<h1 id="reflex">reflex</h1>
+
+<p>Watch a directory and rerun a command when certain files change.
+More information: <a href="https://github.com/cespare/reflex">https://github.com/cespare/reflex</a>.</p>
+
+<ul>
+  <li>Rebuild with <code class="language-plaintext highlighter-rouge">make</code> if any file changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflex make</code></p>
+
+<ul>
+  <li>Compile and run Go application if any <code class="language-plaintext highlighter-rouge">.go</code> file changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflex --regex='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.go$</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">go run .</span></p>
+
+<ul>
+  <li>Ignore a directory when watching for changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflex --inverse-regex='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^dir/</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run command when reflex starts and restarts on file changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflex --start-service=true </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Substitute the filename that changed in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflex -- echo {}</code></p>

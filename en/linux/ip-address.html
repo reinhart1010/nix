@@ -1,0 +1,40 @@
+<h1 id="ip-address">ip address</h1>
+
+<p>IP Address management subcommand.
+More information: <a href="https://manned.org/ip-address">https://manned.org/ip-address</a>.</p>
+
+<ul>
+  <li>List network interfaces and their associated IP addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address</code></p>
+
+<ul>
+  <li>Filter to show only active network interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address show up</code></p>
+
+<ul>
+  <li>Display information about a specific network interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address show dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Add an IP address to a network interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Remove an IP address from a network interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Delete all IP addresses in a given scope from a network interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address flush dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> scope </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global|host|link</span></p>

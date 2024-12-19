@@ -1,0 +1,22 @@
+<h1 id="systemd-cgls">systemd-cgls</h1>
+
+<p>선택된 Linux 제어 그룹 계층의 내용을 트리 형태로 보여줍니다.
+더 많은 정보: <a href="https://www.freedesktop.org/software/systemd/man/systemd-cgls.html">https://www.freedesktop.org/software/systemd/man/systemd-cgls.html</a>.</p>
+
+<ul>
+  <li>시스템의 전체 제어 그룹 계층 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cgls</code></p>
+
+<ul>
+  <li>특정 리소스 컨트롤러의 제어 그룹 트리 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cgls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu|memory|io</span></p>
+
+<ul>
+  <li>하나 이상의 systemd 유닛의 제어 그룹 계층 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cgls --unit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unit1 unit2 …</span></p>

@@ -1,0 +1,52 @@
+<h1 id="exclamation-mark">Exclamation mark</h1>
+
+<p>Bash incorporado para sustituir con un comando encontrado en la historia.
+Más información: <a href="https://gnu.org/software/bash/manual/bash.html#Event-Designators">https://gnu.org/software/bash/manual/bash.html#Event-Designators</a>.</p>
+
+<ul>
+  <li>Sustituye con el comando anterior y lo ejecuta con <code class="language-plaintext highlighter-rouge">sudo</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>Sustituye con un comando basado en un número de línea encontrado con <code class="language-plaintext highlighter-rouge">history</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span></p>
+
+<ul>
+  <li>Sustituye con un comando que se utilizó un número especificado de líneas atrás:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span></p>
+
+<ul>
+  <li>Sustituye por el comando más reciente que empiece por una cadema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span></p>
+
+<ul>
+  <li>Sustituye con los argumentos del último comando:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> !*</code></p>
+
+<ul>
+  <li>Sustituye con el último argumento del último comando:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> !$</code></p>
+
+<ul>
+  <li>Sustituye con el último comando pero sin el último argumento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!:-</code></p>
+
+<ul>
+  <li>Imprimie el último comando que empieza por una cadena sin ejecutarlo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span><code class="language-plaintext highlighter-rouge">:p</code></p>

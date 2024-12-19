@@ -1,0 +1,40 @@
+<h1 id="cloudflared">cloudflared</h1>
+
+<p>Cloudflare 네트워크에 대한 지속적인 연결을 생성.
+더 많은 정보: <a href="https://developers.cloudflare.com/argo-tunnel/">https://developers.cloudflare.com/argo-tunnel/</a>.</p>
+
+<ul>
+  <li>Cloudflare 계정의 도메인에 대한 연결을 인증하고 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared tunnel login</code></p>
+
+<ul>
+  <li>특정 이름의 터널을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared tunnel create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>로컬 서버에서 Cloudflare의 호스트로 터널을 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared tunnel --hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span></p>
+
+<ul>
+  <li>로컬 서버의 인증서를 확인하지 않고, 로컬 서버에서 Cloudflare의 호스트로 터널을 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared tunnel --hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트_번호</span><code class="language-plaintext highlighter-rouge"> --no-tls-verify</code></p>
+
+<ul>
+  <li>로그를 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared tunnel --hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> http://localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트_번호</span><code class="language-plaintext highlighter-rouge"> --loglevel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">panic|fatal|error|warn|info|debug</span><code class="language-plaintext highlighter-rouge"> --logfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>cloudflared를 시스템 서비스로 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cloudflared service install</code></p>

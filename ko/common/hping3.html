@@ -1,0 +1,47 @@
+<h1 id="hping3">hping3</h1>
+
+<p>TCP, UDP 및 원시 IP와 같은 프로토콜을 지원하는 고급 ping 유틸리티.
+높은 권한으로 실행하는 것이 가장 좋음.
+더 많은 정보: <a href="https://github.com/antirez/hping">https://github.com/antirez/hping</a>.</p>
+
+<ul>
+  <li>4개의 ICMP ping 요청으로 대상에 ping을 보냄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --icmp --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_또는_호스트명</span></p>
+
+<ul>
+  <li>포트 80에서 UDP를 통해 IP 주소를 ping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --udp --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_또는_호스트명</span></p>
+
+<ul>
+  <li>특정 로컬 소스 포트 5090에서 스캔해 TCP 포트 80을 스캔:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --verbose --syn --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --baseport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5090</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_또는_호스트명</span></p>
+
+<ul>
+  <li>특정 대상 포트에 대한 TCP 스캔을 사용해 경로를 추적:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --traceroute --verbose --syn --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_또는_호스트명</span></p>
+
+<ul>
+  <li>특정 IP 주소에서 TCP 포트 세트를 스캔 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,3000,9000</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_또는_호스트명</span></p>
+
+<ul>
+  <li>TCP ACK 스캔을 수행해, 특정 호스트가 살아 있는지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --verbose --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --ack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_또는_호스트명</span></p>
+
+<ul>
+  <li>포트 80에서 부하 테스트를 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --flood --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_또는_호스트명</span></p>

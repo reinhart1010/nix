@@ -1,0 +1,52 @@
+<h1 id="virt-manager">virt-manager</h1>
+
+<p>A desktop user interface for managing KVM and Xen virtual machines and LXC containers.
+More information: <a href="https://manned.org/virt-manager.1">https://manned.org/virt-manager.1</a>.</p>
+
+<ul>
+  <li>Launch the GUI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-manager</code></p>
+
+<ul>
+  <li>Connect to a hypervisor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-manager --connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hypervisor_uri</span></p>
+
+<ul>
+  <li>Don't fork virt-manager process into background on startup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-manager --no-fork</code></p>
+
+<ul>
+  <li>Print debug output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-manager --debug</code></p>
+
+<ul>
+  <li>Open the "New VM" wizard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-manager --show-domain-creator</code></p>
+
+<ul>
+  <li>Show domain details window for a specific virtual machine/container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-manager --show-domain-editor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|id|uuid</span></p>
+
+<ul>
+  <li>Show domain performance window for a specific virtual machine/container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-manager --show-domain-performance </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|id|uuid</span></p>
+
+<ul>
+  <li>Show connection details window:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-manager --show-host-summary</code></p>

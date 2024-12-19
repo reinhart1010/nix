@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="adduser">adduser</h1>
+
+<p>Servizio per aggiungere utenti.
+Maggiori informazioni: <a href="https://manned.org/adduser">https://manned.org/adduser</a>.</p>
+
+<ul>
+  <li>Crea un nuovo utente con una directory home predefinita e richiede all'utente di impostare una password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adduser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span></p>
+
+<ul>
+  <li>Crea un utente senza una directory home:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adduser --no-create-home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span></p>
+
+<ul>
+  <li>Crea un utente con una directory home nel percorso specificato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adduser --home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/home</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span></p>
+
+<ul>
+  <li>Crea un nuovo utente con l'interprete di comandi(shell) specificato come shell di accesso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adduser --shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span></p>
+
+<ul>
+  <li>Crea un nuovo utente appartenente al gruppo specificato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adduser --ingroup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gruppo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span></p>
+
+<ul>
+  <li>Aggiunge un utente esistente al gruppo specificato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adduser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gruppo</span></p>
