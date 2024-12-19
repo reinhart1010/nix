@@ -2,8 +2,8 @@
 layout: page
 title: common/md5sum (English)
 description: "Calculate MD5 cryptographic checksums."
-content_hash: 793e44b80a7cdee61d02f01cc0183a44c04a9e1b
-last_modified_at: 2024-11-24
+content_hash: a898ecc8845f70bd7d059a569f0e355281fd2aad
+last_modified_at: 2024-12-19
 related_topics:
   - title: italiano version
     url: /it/common/md5sum.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # md5sum
 
 Calculate MD5 cryptographic checksums.
-More information: <https://www.gnu.org/software/coreutils/md5sum>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html>.
 
 - Calculate the MD5 checksum for one or more files:
 

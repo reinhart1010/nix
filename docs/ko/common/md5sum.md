@@ -2,8 +2,8 @@
 layout: page
 title: common/md5sum (한국어)
 description: "MD5 암호화 체크섬 계산."
-content_hash: 0d6f53e2e9e9b25903f825ecc28961962a13f828
-last_modified_at: 2024-11-24
+content_hash: 721682ae07fdc8595abefaa51173b3b07031f962
+last_modified_at: 2024-12-19
 related_topics:
   - title: English version
     url: /en/common/md5sum.html
@@ -28,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># md5sum
 
 MD5 암호화 체크섬 계산.
-더 많은 정보: <https://www.gnu.org/software/coreutils/md5sum>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html>.
 
 - 하나 이상의 파일에 대한 MD5 체크섬 계산:
 

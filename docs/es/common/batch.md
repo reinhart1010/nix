@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/batch (español)
-description: "Este comando es un alias de `at`."
-content_hash: 8e27bfd776fd5140c8abe0289676b56eb802044f
-last_modified_at: 2024-12-15
+description: "Ejecuta comandos en un momento posterior cuando los niveles de carga del sistema lo permitan."
+content_hash: bd1914f82caa55f3076465f1a1153140d6868a84
+last_modified_at: 2024-12-19
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -33,8 +33,19 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># batch
 
-Este comando es un alias de `at`.
+Ejecuta comandos en un momento posterior cuando los niveles de carga del sistema lo permitan.
+Los resultados serán enviados al correo del usuario.
+Vea también: `at`, `atq`, `atrm` `mail`.
+Más información: <https://manned.org/batch>.
 
-- Vea la documentación para el comando original:
+- Lanza el servicio `atd`:
 
-`tldr at`
+`systemctl start atd`
+
+- Ejecuta comandos de `stdin` (presiona `Ctrl + D` cuando hayas finalizado):
+
+`batch`
+
+- Ejecuta un comando desde `stdin`:
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./hacer_copia_de_la_bd.sh</span>`" | batch`

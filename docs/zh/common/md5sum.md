@@ -2,14 +2,20 @@
 layout: page
 title: common/md5sum (中文)
 description: "计算 MD5 加密校验和。"
-content_hash: 446884059372f30a382dd0c1c4ee5764cb4e2977
-last_modified_at: 2023-11-12
+content_hash: 2d08331107ebeee38984054fc04ac7c058e19383
+last_modified_at: 2024-12-19
 related_topics:
   - title: English version
     url: /en/common/md5sum.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/md5sum.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/md5sum.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/md5sum.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/md5sum.html
@@ -22,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># md5sum
 
 计算 MD5 加密校验和。
-更多信息：<https://www.gnu.org/software/coreutils/md5sum>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html>.
 
 - 计算文件的 MD5 校验和：
 

@@ -2,11 +2,17 @@
 layout: page
 title: common/md5sum (italiano)
 description: "Calcola i checksum crittografici di tipo MD5."
-content_hash: d3fe3ff7b3ca3a34148ff03fe3796c5976b5ac90
-last_modified_at: 2023-11-12
+content_hash: 2cbb51603b72fdfdaed1d7fbfbb34cede407ea74
+last_modified_at: 2024-12-19
 related_topics:
   - title: English version
     url: /en/common/md5sum.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/md5sum.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/md5sum.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/md5sum.html
@@ -22,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># md5sum
 
 Calcola i checksum crittografici di tipo MD5.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/md5sum>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html>.
 
 - Calcolare il checksum MD5 di un file:
 

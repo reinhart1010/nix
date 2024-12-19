@@ -2,8 +2,8 @@
 layout: page
 title: common/md5sum (Nederlands)
 description: "Bereken MD5 cryptografische checksums."
-content_hash: 80e72280eb2ed78a193b373859eddd63335524f1
-last_modified_at: 2024-12-10
+content_hash: 0797f7773e739e95879aa1b1f509cef63dc67ffc
+last_modified_at: 2024-12-19
 related_topics:
   - title: English version
     url: /en/common/md5sum.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # md5sum
 
 Bereken MD5 cryptografische checksums.
-Meer informatie: <https://www.gnu.org/software/coreutils/md5sum>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html>.
 
 - Bereken de MD5 checksum voor één of meer bestanden:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/md5sum (தமிழ்)
 description: "MD5 மறையீட்டு சரிகாண்தொகையைக் கணி."
-content_hash: ee5f567b5d775d35e1c06e660e79533527d9d5aa
-last_modified_at: 2024-11-24
+content_hash: 28339fa40ffcd1066905b2f58bd4fe00a6ab787c
+last_modified_at: 2024-12-19
 related_topics:
   - title: English version
     url: /en/common/md5sum.html
@@ -28,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># md5sum
 
 MD5 மறையீட்டு சரிகாண்தொகையைக் கணி.
-மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/md5sum>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html>.
 
 - கோப்பின் MD5 சரிகாண்தொகையைக் கணி:
 
