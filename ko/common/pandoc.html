@@ -1,0 +1,34 @@
+<h1 id="pandoc">pandoc</h1>
+
+<p>다양한 형식 간에 문서를 변환합니다.
+더 많은 정보: <a href="https://pandoc.org/MANUAL.html">https://pandoc.org/MANUAL.html</a>.</p>
+
+<ul>
+  <li>파일을 PDF로 변환 (출력 형식은 파일 확장자로 결정됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.md</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span></p>
+
+<ul>
+  <li>적절한 헤더/푸터가 있는 독립 실행형 파일로 변환 (LaTeX, HTML 등):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.md</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–standalone</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.html</span></p>
+
+<ul>
+  <li>형식 감지 및 변환을 수동으로 지정 (파일 이름 확장자를 사용한 자동 형식 감지를 무시하거나 파일 이름 확장자가 전혀 없는 경우):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|-r|–from|–read</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docx|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|-w|–to|–write</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력</span></p>
+
+<ul>
+  <li>지원되는 모든 입력 형식 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc --list-input-formats</code></p>
+
+<ul>
+  <li>지원되는 모든 출력 형식 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc --list-output-formats</code></p>

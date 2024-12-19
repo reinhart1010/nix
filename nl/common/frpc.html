@@ -1,0 +1,41 @@
+<h1 id="frpc">frpc</h1>
+
+<p>Maak verbinding met een <code class="language-plaintext highlighter-rouge">frps</code>-server om verbindingen op de huidige host te proxyen.
+Onderdeel van <code class="language-plaintext highlighter-rouge">frp</code>.
+Meer informatie: <a href="https://github.com/fatedier/frp">https://github.com/fatedier/frp</a>.</p>
+
+<ul>
+  <li>Start de service met het standaardconfiguratiebestand (aangenomen wordt dat dit <code class="language-plaintext highlighter-rouge">frps.ini</code> is in de huidige map):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">frpc</code></p>
+
+<ul>
+  <li>Start de service met het nieuwere TOML-configuratiebestand (<code class="language-plaintext highlighter-rouge">frps.toml</code> in plaats van <code class="language-plaintext highlighter-rouge">frps.ini</code>) in de huidige map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">frpc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–config</span><code class="language-plaintext highlighter-rouge"> ./frps.toml</code></p>
+
+<ul>
+  <li>Start de service met een specifiek configuratiebestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">frpc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–config</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Controleer of het configuratiebestand geldig is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">frpc verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–config</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon het script om autocompletion op te zetten voor Bash, fish, PowerShell of Zsh:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">frpc completion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|fish|powershell|zsh</span></p>
+
+<ul>
+  <li>Toon de versie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">frpc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–version</span></p>

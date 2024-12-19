@@ -1,0 +1,40 @@
+<h1 id="osascript">osascript</h1>
+
+<p>Run AppleScript or JavaScript for Automation (JXA).
+More information: <a href="https://keith.github.io/xcode-man-pages/osascript.1.html">https://keith.github.io/xcode-man-pages/osascript.1.html</a>.</p>
+
+<ul>
+  <li>Run an AppleScript command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'Hello world'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run multiple AppleScript commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'Hello'</span><code class="language-plaintext highlighter-rouge">" -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'world'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run a compiled (<code class="language-plaintext highlighter-rouge">*.scpt</code>), bundled (<code class="language-plaintext highlighter-rouge">*.scptd</code>), or plaintext (<code class="language-plaintext highlighter-rouge">*.applescript</code>) AppleScript file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/apple.scpt</span></p>
+
+<ul>
+  <li>Get the bundle identifier of an application (useful for <code class="language-plaintext highlighter-rouge">open -b</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -e 'id of app "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Application</span><code class="language-plaintext highlighter-rouge">"'</code></p>
+
+<ul>
+  <li>Run a JavaScript command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -l JavaScript -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">console.log('Hello world');</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run a JavaScript file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -l JavaScript </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.js</span></p>

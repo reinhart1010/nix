@@ -1,0 +1,29 @@
+<h1 id="waymore">waymore</h1>
+
+<p>Wayback Machine, Common Crawl, Alien Vault OTX, URLScan, VirusTotal에서 도메인의 URL을 가져오기.
+참고: 별도로 지정하지 않으면 출력은 waymore의 <code class="language-plaintext highlighter-rouge">config.yml</code>이 있는 <code class="language-plaintext highlighter-rouge">results/</code> 디렉토리에 저장됩니다 (기본적으로 <code class="language-plaintext highlighter-rouge">~/.config/waymore/</code>).
+더 많은 정보: <a href="https://github.com/xnl-h4ck3r/waymore">https://github.com/xnl-h4ck3r/waymore</a>.</p>
+
+<ul>
+  <li>도메인의 URL 검색 (출력은 일반적으로 <code class="language-plaintext highlighter-rouge">~/.config/waymore/results/</code>에 저장됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>검색 결과를 도메인의 URL 목록으로만 제한하고 지정된 파일에 출력 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -mode U -oU </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/example.com-주소.txt</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>URL의 콘텐츠 본문만 출력하고 지정된 디렉토리에 출력 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -mode R -oR </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/example.com-주소-응답</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>날짜 범위를 지정하여 결과 필터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDD|YYYYMM|YYYY</span><code class="language-plaintext highlighter-rouge"> -to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDD|YYYYMM|YYYY</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

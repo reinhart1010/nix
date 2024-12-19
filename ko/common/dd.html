@@ -1,0 +1,34 @@
+<h1 id="dd">dd</h1>
+
+<p>파일을 변환하고 복사.
+더 많은 정보: <a href="https://manned.org/dd.1p">https://manned.org/dd.1p</a>.</p>
+
+<ul>
+  <li>isohybrid 파일(예: <code class="language-plaintext highlighter-rouge">archlinux-xxx.iso</code>)에서 부팅 가능한 USB 드라이브를 만들고 진행 상황을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.iso</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/usb_drive</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>블록 크기가 4 MiB인 다른 드라이브에 복제하고 명령이 끝나기 전 쓰기 버퍼를 비움:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=4194304 conv=fsync if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/source_drive</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dest_drive</span></p>
+
+<ul>
+  <li>커널 랜덤 드라이버를 사용하여 임의 바이트를 가진 파일을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> if=/dev/urandom of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/임의의_파일</span></p>
+
+<ul>
+  <li>디스크의 순차적인 쓰기 성능을 벤치마킹:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span><code class="language-plaintext highlighter-rouge"> if=/dev/zero of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_1GB</span></p>
+
+<ul>
+  <li>시스템 백업을 생성하여, IMG 파일에 저장하고 (나중에 <code class="language-plaintext highlighter-rouge">if</code>와 <code class="language-plaintext highlighter-rouge">of</code>를 교체해 복원 가능), 진행 상황을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/drive_device</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.img</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>

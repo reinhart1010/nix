@@ -1,0 +1,28 @@
+<h1 id="pamslice">pamslice</h1>
+
+<p>Extrae una línea de valores de una imagen PAM.
+Más información: <a href="https://netpbm.sourceforge.net/doc/pamslice.html">https://netpbm.sourceforge.net/doc/pamslice.html</a>.</p>
+
+<ul>
+  <li>Imprime los valores de los píxeles de la n-ésima fila en una tabla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -row </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen.pam</span></p>
+
+<ul>
+  <li>Imprime los valores de los píxeles de la n-ésima columna de una tabla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -column </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen.pam</span></p>
+
+<ul>
+  <li>Considera solo el m-ésimo plano de la imagen de entrada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -row </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> -plane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen.pam</span></p>
+
+<ul>
+  <li>Produce la salida en un formato adecuado para la entrada a un <code class="language-plaintext highlighter-rouge">xmgr</code> para la visualización:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -row </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> -xmgr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen.pam</span></p>

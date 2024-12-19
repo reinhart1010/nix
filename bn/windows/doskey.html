@@ -1,0 +1,46 @@
+<h1 id="doskey">doskey</h1>
+
+<p>ম্যাক্রোজ, উইন্ডোজ কমান্ড এবং কমান্ড-লাইন পরিচালনা করুন।
+আরও তথ্য পাবেন: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/doskey">https://learn.microsoft.com/windows-server/administration/windows-commands/doskey</a>।</p>
+
+<ul>
+  <li>উপস্থিত ম্যাক্রোগুলির তালিকা তৈরি করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macros</code></p>
+
+<ul>
+  <li>একটি নতুন ম্যাক্রো তৈরি করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">নাম</span><code class="language-plaintext highlighter-rouge"> = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">কমান্ড</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>একটি নির্দিষ্ট সম্পাদনযোগ্য জন্য একটি নতুন ম্যাক্রো তৈরি করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /exename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">সম্পাদন</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">নাম</span><code class="language-plaintext highlighter-rouge"> = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">কমান্ড</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>ম্যাক্রো অপসারণ করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">নাম</span><code class="language-plaintext highlighter-rouge"> =</code></p>
+
+<ul>
+  <li>মেমোরিতে সংরক্ষিত সমস্ত কমান্ড দেখান:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /history</code></p>
+
+<ul>
+  <li>পোর্টেবিলিটির জন্য ম্যাক্রোগুলি ফাইলে সংরক্ষণ করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macros &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ফাইলের\পথ</span></p>
+
+<ul>
+  <li>একটি ফাইল থেকে ম্যাক্রোগুলি লোড করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macrofile = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ফাইলের\পথ</span></p>

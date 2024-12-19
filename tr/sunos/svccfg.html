@@ -1,0 +1,22 @@
+<h1 id="svccfg">svccfg</h1>
+
+<p>Servis yapılandırmalarını içe aktar, dışa aktar ve düzenle.
+Daha fazla bilgi için: <a href="https://www.unix.com/man-page/linux/1m/svccfg">https://www.unix.com/man-page/linux/1m/svccfg</a>.</p>
+
+<ul>
+  <li>Yapılandırma dosyasını değerlendir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smf.xml</span></p>
+
+<ul>
+  <li>Servis yapılandırma dosyalarını belirtilen dosyaya yazılacak şekilde dışa aktar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servisismi</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smf.xml</span></p>
+
+<ul>
+  <li>Dosyadan servis yapılandırmalarını içe aktar/güncelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smf.xml</span></p>

@@ -1,0 +1,55 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="convert">convert</h1>
+
+<p>ImageMagick Bildkonvertierungswerkzeug.
+Weitere Informationen: <a href="https://imagemagick.org/script/convert.php">https://imagemagick.org/script/convert.php</a>.</p>
+
+<ul>
+  <li>Konvertiere ein Bild von JPEG nach PNG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span></p>
+
+<ul>
+  <li>Skaliere ein Bild auf 50% seiner Originalgröße:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span><code class="language-plaintext highlighter-rouge"> -resize 50% </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild2.png</span></p>
+
+<ul>
+  <li>Skaliere ein Bild unter Beibehaltung des ursprünglichen Seitenverhältnisses auf eine maximale Größe von 640x480:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span><code class="language-plaintext highlighter-rouge"> -resize 640x480 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild2.png</span></p>
+
+<ul>
+  <li>Hänge Bilder horizontal aneinander:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild1.png pfad/zu/bild2.png …</span><code class="language-plaintext highlighter-rouge"> +append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span></p>
+
+<ul>
+  <li>Hänge Bilder vertikal aneinander:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild1.png pfad/zu/bild2.png …</span><code class="language-plaintext highlighter-rouge"> -append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span></p>
+
+<ul>
+  <li>Erstelle ein animiertes GIF aus einer Serie von Bildern mit einer Verzögerung von 100 ms zwischen den Bildern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild1.png pfad/zu/bild2.png …</span><code class="language-plaintext highlighter-rouge"> -delay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/animation.gif</span></p>
+
+<ul>
+  <li>Erstelle ein Bild mit nichts als einem festen Hintergrund:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">800x600</span><code class="language-plaintext highlighter-rouge"> "xc:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">#ff0000</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.png</span></p>
+
+<ul>
+  <li>Erstelle ein Favicon aus mehreren Bildern verschiedener Größe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild1.png pfad/zu/bild2.png …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.ico</span></p>

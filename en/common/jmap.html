@@ -1,0 +1,34 @@
+<h1 id="jmap">jmap</h1>
+
+<p>Java memory map tool.
+More information: <a href="https://docs.oracle.com/en/java/javase/20/docs/specs/man/jmap.html">https://docs.oracle.com/en/java/javase/20/docs/specs/man/jmap.html</a>.</p>
+
+<ul>
+  <li>Print shared object mappings for a Java process (output like pmap):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java_pid</span></p>
+
+<ul>
+  <li>Print heap summary information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmap -heap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.jar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java_pid</span></p>
+
+<ul>
+  <li>Print histogram of heap usage by type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmap -histo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java_pid</span></p>
+
+<ul>
+  <li>Dump contents of the heap into a binary file for analysis with jhat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmap -dump:format=b,file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java_pid</span></p>
+
+<ul>
+  <li>Dump live objects of the heap into a binary file for analysis with jhat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmap -dump:live,format=b,file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java_pid</span></p>

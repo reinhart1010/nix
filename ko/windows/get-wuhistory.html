@@ -1,0 +1,35 @@
+<h1 id="get-wuhistory">Get-WUHistory</h1>
+
+<p>Windows Update에서 설치된 업데이트의 기록을 가져옵니다. 외부 <code class="language-plaintext highlighter-rouge">PSWindowsUpdate</code> 모듈의 일부입니다.
+이 명령은 PowerShell에서만 실행할 수 있습니다.
+더 많은 정보: <a href="https://github.com/mgajda83/PSWindowsUpdate">https://github.com/mgajda83/PSWindowsUpdate</a>.</p>
+
+<ul>
+  <li>업데이트 기록 목록 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUHistory</code></p>
+
+<ul>
+  <li>최근 10개의 설치된 업데이트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUHistory -Last </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>특정 날짜부터 오늘까지 설치된 모든 업데이트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUHistory -MaxDate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">날짜</span></p>
+
+<ul>
+  <li>지난 24시간 동안 설치된 모든 업데이트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUHistory -MaxDate (Get-Date).AddDays(-1)</code></p>
+
+<ul>
+  <li>결과를 이메일(SMTP)로 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUHistory -SendReport -PSWUSettings @{SmtpServer="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smtp_서버</span><code class="language-plaintext highlighter-rouge">"; Port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smtp_포트</span><code class="language-plaintext highlighter-rouge"> From="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">발신자_이메일</span><code class="language-plaintext highlighter-rouge">" To="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">수신자_이메일</span><code class="language-plaintext highlighter-rouge">"}</code></p>

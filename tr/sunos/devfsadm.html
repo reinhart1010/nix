@@ -1,0 +1,22 @@
+<h1 id="devfsadm">devfsadm</h1>
+
+<p><code class="language-plaintext highlighter-rouge">/dev</code> için yönetim komutu. <code class="language-plaintext highlighter-rouge">/dev</code> ad alanına yönetir.
+Daha fazla bilgi için: <a href="https://www.unix.com/man-page/sunos/1m/devfsadm">https://www.unix.com/man-page/sunos/1m/devfsadm</a>.</p>
+
+<ul>
+  <li>Yeni disk ara:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devfsadm -c disk</code></p>
+
+<ul>
+  <li>Sarkab /dev bağlantılarını temizle ve yeni bir cihaz ara:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devfsadm -C -v</code></p>
+
+<ul>
+  <li>Komut çalıştırılacağı takdirde ne olacağını gör ancak herhangi bir düzenleme yapma:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devfsadm -C -v -n</code></p>

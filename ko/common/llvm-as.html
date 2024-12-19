@@ -1,0 +1,22 @@
+<h1 id="llvm-as">llvm-as</h1>
+
+<p>LLVM Intermediate Representation(<code class="language-plaintext highlighter-rouge">.ll</code>)을 Bitcode(<code class="language-plaintext highlighter-rouge">.bc</code>)로 변환하는 어셈블러.
+더 많은 정보: <a href="https://llvm.org/docs/CommandGuide/llvm-as.html">https://llvm.org/docs/CommandGuide/llvm-as.html</a>.</p>
+
+<ul>
+  <li>IR 파일을 어셈블:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-as -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.bc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.ll</span></p>
+
+<ul>
+  <li>IR 파일을 어셈블하고, 생성된 Bitcode 파일에 모듈 해시 포함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-as --module-hash -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.bc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.ll</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 IR 파일을 읽어 어셈블:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.ll</span><code class="language-plaintext highlighter-rouge"> | llvm-as -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.bc</span></p>

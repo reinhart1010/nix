@@ -1,0 +1,22 @@
+<h1 id="go-get">go get</h1>
+
+<p>의존성 패키지를 추가하거나 레거시 GOPATH 모드에서 패키지를 다운로드.
+더 많은 정보: <a href="https://pkg.go.dev/cmd/go#hdr-Add_dependencies_to_current_module_and_install_them">https://pkg.go.dev/cmd/go#hdr-Add_dependencies_to_current_module_and_install_them</a>.</p>
+
+<ul>
+  <li>모듈 모드에서 <code class="language-plaintext highlighter-rouge">go.mod</code>에 지정된 패키지를 추가하거나 GOPATH 모드에서 패키지 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com/pkg</span></p>
+
+<ul>
+  <li>모듈 인식 모드에서 지정된 버전으로 패키지 수정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com/pkg</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">v1.2.3</span></p>
+
+<ul>
+  <li>지정된 패키지 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com/pkg</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none</span></p>

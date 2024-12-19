@@ -1,0 +1,29 @@
+<h1 id="alien">alien</h1>
+
+<p>Convert different installation packages to other formats.
+See also: <code class="language-plaintext highlighter-rouge">debtap</code>, for <code class="language-plaintext highlighter-rouge">.deb</code> conversion on Arch Linux.
+More information: <a href="https://manned.org/alien">https://manned.org/alien</a>.</p>
+
+<ul>
+  <li>Convert a specific installation file to Debian format (<code class="language-plaintext highlighter-rouge">.deb</code> extension):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo alien --to-deb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Convert a specific installation file to Red Hat format (<code class="language-plaintext highlighter-rouge">.rpm</code> extension):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo alien --to-rpm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Convert a specific installation file to a Slackware installation file (<code class="language-plaintext highlighter-rouge">.tgz</code> extension):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo alien --to-tgz </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Convert a specific installation file to Debian format and install on the system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo alien --to-deb --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

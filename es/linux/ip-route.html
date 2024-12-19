@@ -1,0 +1,46 @@
+<h1 id="ip-route">ip route</h1>
+
+<p>Subcomando de gestión de tablas de enrutamiento IP.
+Más información: <a href="https://manned.org/ip-route">https://manned.org/ip-route</a>.</p>
+
+<ul>
+  <li>Muestra la tabla de enrutamiento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span></p>
+
+<ul>
+  <li>Agrega una ruta predeterminada usando reenvío de puerta de enlace (gateway):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip route add default via </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_de_gateway</span></p>
+
+<ul>
+  <li>Añade una ruta predeterminada utilizando <code class="language-plaintext highlighter-rouge">eth0</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip route add default dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Añade una ruta estática:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip route add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_destino</span><code class="language-plaintext highlighter-rouge"> via </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_de_gateway</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Elimina una ruta estática:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip route del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_destino</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Cambia o reemplaza una ruta estática:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip route </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">change|replace</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_destino</span><code class="language-plaintext highlighter-rouge"> via </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_de_gateway</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Muestra qué ruta será utilizada por el kernel para llegar a una dirección IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_destino</span></p>

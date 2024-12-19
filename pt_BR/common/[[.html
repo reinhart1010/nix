@@ -1,0 +1,53 @@
+<h1>[[</h1>
+
+<p>Verifica tipos de arquivos e compara valores.
+Retorna 0 se a condição é verdadeira, 1 se a condição é falsa.
+Mais informações: <a href="https://gnu.org/software/bash/manual/bash.html#index-_005b_005b">https://gnu.org/software/bash/manual/bash.html#index-_005b_005b</a>.</p>
+
+<ul>
+  <li>Testa se uma determinada variável é igual/diferente a uma determinada string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[[ $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variável</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">==|!=</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" ]]</code></p>
+
+<ul>
+  <li>Testa se uma determinada string está em conformidade com um determinado padrão/regex:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[[ $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variável</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">==|=~</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão</span><code class="language-plaintext highlighter-rouge"> ]]</code></p>
+
+<ul>
+  <li>Testa se uma determinada variável é igual [eq]/não igual [ne]/maior que [gt]/menor que [lt]/maior ou igual que [ge]/menor ou igual que [le] um determinado número:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[[ $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variável</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq|ne|gt|lt|ge|le</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span><code class="language-plaintext highlighter-rouge"> ]]</code></p>
+
+<ul>
+  <li>Testa se uma determinada variável tem um valor [n]ão vazio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[[ -n $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variável</span><code class="language-plaintext highlighter-rouge"> ]]</code></p>
+
+<ul>
+  <li>Testa se determinada variável tem um valor va[z]io:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[[ -z $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variável</span><code class="language-plaintext highlighter-rouge"> ]]</code></p>
+
+<ul>
+  <li>Testa se um determinado arquivo exite[f]:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[[ -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span><code class="language-plaintext highlighter-rouge"> ]]</code></p>
+
+<ul>
+  <li>Testa se um determinado [d]iretório existe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[[ -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span><code class="language-plaintext highlighter-rouge"> ]]</code></p>
+
+<ul>
+  <li>Testa se um determinado arquivo ou diretório [e]xiste:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[[ -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório</span><code class="language-plaintext highlighter-rouge"> ]]</code></p>

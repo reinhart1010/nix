@@ -1,0 +1,40 @@
+<h1 id="chatgpt">chatgpt</h1>
+
+<p>Shell script para usar ChatGPT de OpenAI y DALL-E desde la terminal.
+Más información: <a href="https://github.com/0xacx/chatGPT-shell-cli">https://github.com/0xacx/chatGPT-shell-cli</a>.</p>
+
+<ul>
+  <li>Comienza en modo chat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chatgpt</code></p>
+
+<ul>
+  <li>Da un [p]rompt para responder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chatgpt --prompt "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">¿Cuál es la expresión regular para emparejar una dirección de correo electrónico?</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Inicia en modo chat utilizando un [m]odelo específico (por defecto es <code class="language-plaintext highlighter-rouge">gpt-3.5-turbo</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chatgpt --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpt-4</span></p>
+
+<ul>
+  <li>Inicia en modo chat con un prompt [i]nicial:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chatgpt --init-prompt "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Tú eres Rick, de Rick y Morty. Responde a las preguntas usando su amaneramiento e incluye chistes insultantes.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Envía el resultado de un comando a ChatGPT como un prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">¿Cómo ver los procesos en ejecución en Ubuntu?</span><code class="language-plaintext highlighter-rouge">" | chatgpt</code></p>
+
+<ul>
+  <li>Genera una imagen utilizando DALL-E:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chatgpt --prompt "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image: Un gato blanco</span><code class="language-plaintext highlighter-rouge">"</code></p>

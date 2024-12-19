@@ -1,0 +1,34 @@
+<h1 id="gunzip">gunzip</h1>
+
+<p>Extract files from a <code class="language-plaintext highlighter-rouge">gzip</code> (<code class="language-plaintext highlighter-rouge">.gz</code>) archive.
+More information: <a href="https://manned.org/gunzip">https://manned.org/gunzip</a>.</p>
+
+<ul>
+  <li>Extract a file from an archive, replacing the original file if it exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar.gz</span></p>
+
+<ul>
+  <li>Extract a file to a target destination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunzip --stdout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar.gz</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar</span></p>
+
+<ul>
+  <li>Extract a file and keep the archive file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunzip --keep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar.gz</span></p>
+
+<ul>
+  <li>List the contents of a compressed file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunzip --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt.gz</span></p>
+
+<ul>
+  <li>Decompress an archive from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.gz</span><code class="language-plaintext highlighter-rouge"> | gunzip</code></p>

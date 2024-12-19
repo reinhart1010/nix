@@ -1,0 +1,28 @@
+<h1 id="pyinfra">pyinfra</h1>
+
+<p>Automates infrastructure at a large scale.
+More information: <a href="https://docs.pyinfra.com">https://docs.pyinfra.com</a>.</p>
+
+<ul>
+  <li>Execute a command over SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyinfra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_ip_address</span><code class="language-plaintext highlighter-rouge"> exec -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_name_and_arguments</span></p>
+
+<ul>
+  <li>Execute contents of a deploy file on a list of targets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyinfra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_list.py</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/deploy.py</span></p>
+
+<ul>
+  <li>Execute commands on locally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyinfra @local </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/deploy.py</span></p>
+
+<ul>
+  <li>Execute commands over Docker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyinfra @docker/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/deploy.py</span></p>

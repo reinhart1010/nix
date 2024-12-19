@@ -1,0 +1,46 @@
+<h1 id="chcon">chcon</h1>
+
+<p>Cambia contesto di sicurezza SELinux di file o directory.
+Maggiori informazioni: <a href="https://www.gnu.org/software/coreutils/chcon">https://www.gnu.org/software/coreutils/chcon</a>.</p>
+
+<ul>
+  <li>Mostra il contesto di sicurezza di un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -lZ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span></p>
+
+<ul>
+  <li>Cambia il contesto di sicurezza di un file usandone un'altro come riferimento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon --reference=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_riferimento</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Cambia l'intero contesto di sicurezza SELinux di un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utente</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruolo</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">range/livello</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Cambia solo l'utente di un contesto di sicurezza SELinux:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utente</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Cambia solo il ruolo di un contesto di sicurezza SELinux:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruolo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Cambia solo il tipo di un contesto di sicurezza SELinux:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Cambia solo il range/livello di un contesto di sicurezza SELinux:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">range/livello</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>

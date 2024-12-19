@@ -1,0 +1,40 @@
+<h1 id="husky">husky</h1>
+
+<p>네이티브 Git 훅을 쉽게 만들었습니다.
+더 많은 정보: <a href="https://typicode.github.io/husky">https://typicode.github.io/husky</a>.</p>
+
+<ul>
+  <li>현재 폴더에 Husky를 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">husky install</code></p>
+
+<ul>
+  <li>Husky를 특정 폴더에 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">husky install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>특정 명령을 Git의 <code class="language-plaintext highlighter-rouge">pre-push</code> 훅으로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">husky set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.husky/pre-push</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어_인자</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>현재 <code class="language-plaintext highlighter-rouge">pre-commit</code> 훅에 특정 명령을 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">husky add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.husky/pre-commit</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어_인자</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>현재 폴더에서 Husky 훅 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">husky uninstall</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">husky</code></p>

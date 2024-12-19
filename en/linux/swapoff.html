@@ -1,0 +1,23 @@
+<h1 id="swapoff">swapoff</h1>
+
+<p>Disable devices and files for swapping.
+Note: <code class="language-plaintext highlighter-rouge">path/to/file</code> can either point to a regular file or a swap partition.
+More information: <a href="https://manned.org/swapoff">https://manned.org/swapoff</a>.</p>
+
+<ul>
+  <li>Disable a given swap area:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swapoff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Disable all swap areas in <code class="language-plaintext highlighter-rouge">/proc/swaps</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swapoff --all</code></p>
+
+<ul>
+  <li>Disable a swap partition by its label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swapoff -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label</span></p>

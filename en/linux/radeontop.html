@@ -1,0 +1,29 @@
+<h1 id="radeontop">radeontop</h1>
+
+<p>Show utilization of AMD GPUs.
+May require root privileges depending on your system.
+More information: <a href="https://github.com/clbr/radeontop">https://github.com/clbr/radeontop</a>.</p>
+
+<ul>
+  <li>Show the utilization of the default AMD GPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">radeontop</code></p>
+
+<ul>
+  <li>Enable colored output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">radeontop --color</code></p>
+
+<ul>
+  <li>Select a specific GPU (the bus number is the first number in the output of <code class="language-plaintext highlighter-rouge">lspci</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">radeontop --bus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus_number</span></p>
+
+<ul>
+  <li>Specify the display refresh rate (higher means more GPU overhead):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">radeontop --ticks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">samples_per_second</span></p>

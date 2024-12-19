@@ -1,0 +1,53 @@
+<h1 id="podman">podman</h1>
+
+<p>Simple management tool for pods, containers and images.
+Podman provides a Docker-CLI comparable command-line. Simply put: <code class="language-plaintext highlighter-rouge">alias docker=podman</code>.
+More information: <a href="https://github.com/containers/podman/blob/main/commands-demo.md">https://github.com/containers/podman/blob/main/commands-demo.md</a>.</p>
+
+<ul>
+  <li>List all containers (both running and stopped):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --all</code></p>
+
+<ul>
+  <li>Create a container from an image, with a custom name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman run --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Start or stop an existing container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Pull an image from a registry (defaults to Docker Hub):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Display the list of already downloaded images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman images</code></p>
+
+<ul>
+  <li>Open a shell inside an already running container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman exec --interactive --tty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span></p>
+
+<ul>
+  <li>Remove a stopped container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Display the logs of one or more containers and follow log output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman logs --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_id</span></p>

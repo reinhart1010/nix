@@ -1,0 +1,34 @@
+<h1 id="btrfs-device">btrfs device</h1>
+
+<p>管理 btrfs 文件系统中的设备。
+更多信息：<a href="https://btrfs.readthedocs.io/en/latest/btrfs-device.html">https://btrfs.readthedocs.io/en/latest/btrfs-device.html</a>.</p>
+
+<ul>
+  <li>将一个或多个设备添加到 btrfs 文件系统中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向设备1的路径</span><code class="language-plaintext highlighter-rouge"> [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向设备2的路径</span><code class="language-plaintext highlighter-rouge">] </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向 btrfs 文件系统的路径</span></p>
+
+<ul>
+  <li>从 btrfs 文件系统中删除设备：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向设备的路径|设备 ID</span><code class="language-plaintext highlighter-rouge"> [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>显示错误统计：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device stats </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向 btrfs 文件系统的路径</span></p>
+
+<ul>
+  <li>扫描所有磁盘并将所有检测到的 btrfs 文件系统通知内核：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device scan --all-devices</code></p>
+
+<ul>
+  <li>显示详细的每个磁盘的空间分配统计信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device usage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指向 btrfs 文件系统的路径</span></p>

@@ -1,0 +1,34 @@
+<h1 id="btrfs-device">btrfs device</h1>
+
+<p>btrfs 파일 시스템에서 장치 관리.
+더 많은 정보: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-device.html">https://btrfs.readthedocs.io/en/latest/btrfs-device.html</a>.</p>
+
+<ul>
+  <li>btrfs 파일 시스템에 하나 이상의 장치 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/블록_장치1</span><code class="language-plaintext highlighter-rouge"> [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/블록_장치2</span><code class="language-plaintext highlighter-rouge">] </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_파일_시스템</span></p>
+
+<ul>
+  <li>btrfs 파일 시스템에서 장치 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/장치|장치_ID</span><code class="language-plaintext highlighter-rouge"> [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>오류 통계 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device stats </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_파일_시스템</span></p>
+
+<ul>
+  <li>모든 디스크를 스캔하고 감지된 모든 btrfs 파일 시스템을 커널에 알림:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device scan --all-devices</code></p>
+
+<ul>
+  <li>디스크별 할당 통계 자세히 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device usage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_파일_시스템</span></p>

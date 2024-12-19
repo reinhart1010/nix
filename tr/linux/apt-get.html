@@ -1,0 +1,53 @@
+<h1 id="apt-get">apt-get</h1>
+
+<p>Debian ve Ubuntu paket yönetim aracı.
+Paket aramak için <code class="language-plaintext highlighter-rouge">apt-cache</code> komutunu kullanın.
+Daha fazla bilgi için: <a href="https://manned.org/apt-get.8">https://manned.org/apt-get.8</a>.</p>
+
+<ul>
+  <li>Kullanılabilir paket ve versiyon listesini güncelleyin (diğer <code class="language-plaintext highlighter-rouge">apt-get</code> komutlarını çalıştırmadan önce kullanmanız önerilir):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get update</code></p>
+
+<ul>
+  <li>Bir paket yükleyin veya son sürüme güncelleyin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Bir paketi silin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Bir paketi ve konfigürasyon dosyalarını silin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get purge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Yüklü paketlerin hepsini son sürümlerine yükseltin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get upgrade</code></p>
+
+<ul>
+  <li>Yerel depoyu temizleyin - kullanılmayan gereksiz paket dosyalarını (.deb) silin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoclean</code></p>
+
+<ul>
+  <li>Artık gerekmeyen paketleri silin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoremove</code></p>
+
+<ul>
+  <li>Yüklenmiş paketleri yükseltin (<code class="language-plaintext highlighter-rouge">upgrade</code> gibi), ancak gereksiz paketleri silin ve yeni bağımlılıkları memnun edecek ek paketler kurun:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get dist-upgrade</code></p>

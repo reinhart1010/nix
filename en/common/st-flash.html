@@ -1,0 +1,22 @@
+<h1 id="st-flash">st-flash</h1>
+
+<p>Flash binary files to STM32 ARM Cortex microcontrollers.
+More information: <a href="https://github.com/texane/stlink">https://github.com/texane/stlink</a>.</p>
+
+<ul>
+  <li>Read 4096 bytes from the device starting from 0x8000000:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">st-flash read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firmware</span><code class="language-plaintext highlighter-rouge">.bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0x8000000</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span></p>
+
+<ul>
+  <li>Write firmware to device starting from 0x8000000:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">st-flash write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firmware</span><code class="language-plaintext highlighter-rouge">.bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0x8000000</span></p>
+
+<ul>
+  <li>Erase firmware from device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">st-flash erase</code></p>

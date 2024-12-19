@@ -1,0 +1,34 @@
+<h1 id="flarectl">flarectl</h1>
+
+<p>Official CLI for Cloudflare.
+More information: <a href="https://github.com/cloudflare/cloudflare-go/blob/master/cmd/flarectl/README.md">https://github.com/cloudflare/cloudflare-go/blob/master/cmd/flarectl/README.md</a>.</p>
+
+<ul>
+  <li>Block a specific IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flarectl firewall rules create --zone="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge">" --value="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span><code class="language-plaintext highlighter-rouge">" --mode="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">block</span><code class="language-plaintext highlighter-rouge">" --notes="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Block bad actor</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Add a DNS record:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flarectl dns create --zone="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge">" --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app</span><code class="language-plaintext highlighter-rouge">" --type="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CNAME</span><code class="language-plaintext highlighter-rouge">" --content="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myapp.herokuapp.com</span><code class="language-plaintext highlighter-rouge">" --proxy</code></p>
+
+<ul>
+  <li>List all Cloudflare IPv4/IPv6 ranges:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flarectl ips --ip-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ipv4|ipv6|all</span></p>
+
+<ul>
+  <li>Create many new Cloudflare zones automatically with names from <code class="language-plaintext highlighter-rouge">domains.txt</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for domain in $(cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domains.txt</span><code class="language-plaintext highlighter-rouge">); do flarectl zone info --zone=$domain; done</code></p>
+
+<ul>
+  <li>List all firewall rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flarectl firewall rules list</code></p>

@@ -1,0 +1,16 @@
+<h1 id="picocom">picocom</h1>
+
+<p>Minimal program to emulate serial consoles.
+More information: <a href="https://manned.org/picocom">https://manned.org/picocom</a>.</p>
+
+<ul>
+  <li>Connect to a serial console with a specified baud rate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">picocom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyXYZ</span><code class="language-plaintext highlighter-rouge"> --baud </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">baud_rate</span></p>
+
+<ul>
+  <li>Map special characters (e.g. <code class="language-plaintext highlighter-rouge">LF</code> to <code class="language-plaintext highlighter-rouge">CRLF</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">picocom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyXYZ</span><code class="language-plaintext highlighter-rouge"> --imap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lfcrlf</span></p>

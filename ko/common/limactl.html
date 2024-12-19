@@ -1,0 +1,47 @@
+<h1 id="limactl">limactl</h1>
+
+<p>Linux 게스트용 가상 머신 관리자로, 여러 VM 템플릿을 제공합니다.
+macOS에서 컨테이너 실행에 사용할 수 있으며, macOS 및 Linux 호스트에서 일반적인 가상 머신 사용 사례에도 적합합니다.
+더 많은 정보: <a href="https://github.com/lima-vm/lima">https://github.com/lima-vm/lima</a>.</p>
+
+<ul>
+  <li>VM 목록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl list</code></p>
+
+<ul>
+  <li>기본 설정을 사용하여 VM 생성(선택적으로 이름 및/또는 템플릿 제공 가능, 사용 가능한 템플릿은 <code class="language-plaintext highlighter-rouge">limactl create --list-templates</code> 참조):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름</span><code class="language-plaintext highlighter-rouge"> template://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debian|fedora|ubuntu|…</span></p>
+
+<ul>
+  <li>VM 시작(일부 의존성이 설치될 수 있으며 몇 분이 소요될 수 있음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름</span></p>
+
+<ul>
+  <li>VM 내부에서 원격 셸 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름</span></p>
+
+<ul>
+  <li>VM 내부에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>VM 중지/종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름</span></p>
+
+<ul>
+  <li>VM 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름</span></p>

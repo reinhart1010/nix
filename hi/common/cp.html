@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cp">cp</h1>
+
+<p>फाइलों और निर्देशिकाओं की प्रतिलिपि बनाएँ।
+अधिक जानकारी: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html</a>।</p>
+
+<ul>
+  <li>किसी फ़ाइल को दूसरे स्थान पर कॉपी करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्रोत_फ़ाइल/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्ष्य_फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>फ़ाइल नाम रखते हुए किसी फ़ाइल को दूसरी निर्देशिका में कॉपी करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्रोत_फ़ाइल/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्ष्य_निर्देशिका/का/पथ</span></p>
+
+<ul>
+  <li>किसी निर्देशिका की सामग्री को किसी अन्य स्थान पर दोबारा कॉपी करें (यदि गंतव्य मौजूद है, तो निर्देशिका इसके अंदर कॉपी की गई है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्रोत_निर्देशिका/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्ष्य_निर्देशिका/का/पथ</span></p>
+
+<ul>
+  <li>एक निर्देशिका को पुनरावर्ती रूप से कॉपी करें, वर्बोज़ मोड में (फ़ाइलों को कॉपी किए जाने के रूप में दिखाता है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -vR </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्रोत_निर्देशिका/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्ष्य_निर्देशिका/का/पथ</span></p>
+
+<ul>
+  <li>टेक्स्ट फ़ाइलों को किसी अन्य स्थान पर इंटरेक्टिव मोड में कॉपी करें (ओवरराइटिंग से पहले उपयोगकर्ता को संकेत देता है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्ष्य_निर्देशिका/का/पथ</span></p>
+
+<ul>
+  <li>कॉपी करने से पहले प्रतीकात्मक लिंक का पालन करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लिंक</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लक्ष्य_निर्देशिका/का/पथ</span></p>

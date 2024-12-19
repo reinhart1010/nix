@@ -1,0 +1,40 @@
+<h1 id="zfs">zfs</h1>
+
+<p>管理 ZFS 文件系统。
+更多信息：<a href="https://manned.org/zfs">https://manned.org/zfs</a>.</p>
+
+<ul>
+  <li>列出所有可用的 ZFS 文件系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs list</code></p>
+
+<ul>
+  <li>创建一个新的 ZFS 文件系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">存储池名称/文件系统名称</span></p>
+
+<ul>
+  <li>删除一个 ZFS 文件系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">存储池名称/文件系统名称</span></p>
+
+<ul>
+  <li>创建一个 ZFS 文件系统的快照：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs snapshot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">存储池名称/文件系统名称</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">快照名称</span></p>
+
+<ul>
+  <li>在文件系统上启用压缩：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs set compression=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">存储池名称/文件系统名称</span></p>
+
+<ul>
+  <li>更改文件系统的挂载点：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs set mountpoint=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/我的/挂载/路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">存储池名称/文件系统名称</span></p>

@@ -1,0 +1,41 @@
+<h1 id="semanage">semanage</h1>
+
+<p>SELinux 영구 정책 관리 도구.
+<code class="language-plaintext highlighter-rouge">boolean</code>, <code class="language-plaintext highlighter-rouge">fcontext</code>, <code class="language-plaintext highlighter-rouge">port</code> 등의 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+더 많은 정보: <a href="https://manned.org/semanage">https://manned.org/semanage</a>.</p>
+
+<ul>
+  <li>SELinux 불리언 설정 또는 해제. 불리언은 관리자가 정책 규칙이 제한된 프로세스 유형(도메인)에 어떻게 영향을 미치는지 사용자 정의할 수 있게 함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modify</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1|–on|-0|–off</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">haproxy_connect_any</span></p>
+
+<ul>
+  <li>사용자 정의 파일 컨텍스트 레이블링 규칙 추가. 파일 컨텍스트는 제한된 도메인이 접근할 수 있는 파일을 정의함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage fcontext </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–add</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">samba_share_t</span><code class="language-plaintext highlighter-rouge"> '/mnt/share(/.*)?'</code></p>
+
+<ul>
+  <li>사용자 정의 포트 레이블링 규칙 추가. 포트 레이블은 제한된 도메인이 청취할 수 있는 포트를 정의함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–add</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_port_t</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|–proto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22000</span></p>
+
+<ul>
+  <li>제한된 도메인에 대한 허용 모드 설정 또는 해제. 도메인별 허용 모드는 <code class="language-plaintext highlighter-rouge">setenforce</code>에 비해 더 세분화된 제어를 제공함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage permissive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–add|-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpd_t</span></p>
+
+<ul>
+  <li>기본 저장소에서 로컬 사용자 정의 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–output_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">semanage export</code>로 생성된 파일을 로컬 사용자 정의에 가져오기 (주의: 현재 사용자 정의가 제거될 수 있음!):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

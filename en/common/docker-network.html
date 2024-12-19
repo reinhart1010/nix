@@ -1,0 +1,46 @@
+<h1 id="docker-network">docker network</h1>
+
+<p>Create and manage Docker networks.
+More information: <a href="https://docs.docker.com/reference/cli/docker/network/">https://docs.docker.com/reference/cli/docker/network/</a>.</p>
+
+<ul>
+  <li>List all available and configured networks on Docker daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network ls</code></p>
+
+<ul>
+  <li>Create a user-defined network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network create --driver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">driver_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span></p>
+
+<ul>
+  <li>Display detailed information about one or more networks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name1 network_name2 …</span></p>
+
+<ul>
+  <li>Connect a container to a network using a name or ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name|ID</span></p>
+
+<ul>
+  <li>Disconnect a container from a network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network disconnect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name|ID</span></p>
+
+<ul>
+  <li>Remove all unused (not referenced by any container) networks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network prune</code></p>
+
+<ul>
+  <li>Remove one or more unused networks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name1 network_name2 …</span></p>

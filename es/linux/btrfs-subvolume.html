@@ -1,0 +1,40 @@
+<h1 id="btrfs-subvolume">btrfs subvolume</h1>
+
+<p>Gestiona subvolúmenes e imágenes instantáneas de btrfs.
+Más información: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html">https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html</a>.</p>
+
+<ul>
+  <li>Crea un nuevo subvolumen vacío:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/nuevo_subvolumen</span></p>
+
+<ul>
+  <li>Lista todos los subvolúmenes e imágenes instantáneas en el sistema de archivos especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_sistema_de_archivos_btrfs</span></p>
+
+<ul>
+  <li>Elimina un subvolumen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_subvolumen</span></p>
+
+<ul>
+  <li>Crea una imagen instantánea de solo lectura de un subvolumen existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume snapshot -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_subvolumen_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_destino</span></p>
+
+<ul>
+  <li>Crea una imagen instantánea de lectura y escritura de un subvolumen existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume snapshot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_subvolumen_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_destino</span></p>
+
+<ul>
+  <li>Muestra información detallada sobre un subvolumen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_subvolumen</span></p>

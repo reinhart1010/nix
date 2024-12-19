@@ -1,0 +1,34 @@
+<h1 id="ia">ia</h1>
+
+<p><code class="language-plaintext highlighter-rouge">archive.org</code>와 상호작용하기 위한 커멘드라인 도구.
+더 많은 정보: <a href="https://archive.org/services/docs/api/internetarchive/cli.html">https://archive.org/services/docs/api/internetarchive/cli.html</a>.</p>
+
+<ul>
+  <li>API 키로 <code class="language-plaintext highlighter-rouge">ia</code>를 구성 (일부 기능은 이 단계 없이 작동하지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ia configure</code></p>
+
+<ul>
+  <li>하나 이상의 항목을 <code class="language-plaintext highlighter-rouge">archive.org</code>에 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ia upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">식별자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> --metadata="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mediatype:data</span><code class="language-plaintext highlighter-rouge">" --metadata="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title:example</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">archive.org</code>에서 하나 이상의 항목을 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ia download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">항목</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">archive.org</code>에서 하나 이상의 항목을 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ia delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">식별자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">archive.org</code>에서 검색하여, 결과를 JSON로 반환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ia search '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject:"subject" collection:collection</span><code class="language-plaintext highlighter-rouge">'</code></p>

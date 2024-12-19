@@ -1,0 +1,34 @@
+<h1 id="aws-sso">aws sso</h1>
+
+<p>SSO(Single Sign-On) 자격 증명을 사용하여 AWS 리소스에 대한 액세스를 관리.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sso/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sso/index.html</a>.</p>
+
+<ul>
+  <li>SSO 세션을 시작하고 액세스 토큰을 새로 고침. <code class="language-plaintext highlighter-rouge">aws configure sso</code>를 사용한 설정이 필요:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sso login</code></p>
+
+<ul>
+  <li>SSO 세션을 종료하고 캐시된 액세스 토큰을 지움:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sso logout</code></p>
+
+<ul>
+  <li>사용자가 액세스할 수 있는 모든 AWS 계정을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sso list-accounts</code></p>
+
+<ul>
+  <li>특정 AWS 계정에 대해 사용자가 액세스할 수 있는 모든 역할을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sso list-account-roles --account-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">계정</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토큰</span></p>
+
+<ul>
+  <li>특정 계정에 대한 단기 자격 증명 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws get-role-credentials --account-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">계정</span><code class="language-plaintext highlighter-rouge"> --role-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">역할</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토큰</span></p>

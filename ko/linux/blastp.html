@@ -1,0 +1,40 @@
+<h1 id="blastp">blastp</h1>
+
+<p>단백질-단백질 BLAST.
+더 많은 정보: <a href="https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastp_application_options/">https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastp_application_options/</a>.</p>
+
+<ul>
+  <li>e-value 임계값이 1e-9인 경우, 쌍별 출력 형식으로 두 개 이상의 서열을 blastp로 정렬하고 화면에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쿼리.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상.fa</span><code class="language-plaintext highlighter-rouge"> -evalue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1e-9</span></p>
+
+<ul>
+  <li>blastp-fast를 사용하여 두 개 이상의 서열 정렬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -task blastp-fast -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쿼리.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상.fa</span></p>
+
+<ul>
+  <li>사용자 정의 테이블 형식으로 두 개 이상의 서열 정렬하고 파일에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쿼리.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상.fa</span><code class="language-plaintext highlighter-rouge"> -outfmt '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6 qseqid qlen qstart qend sseqid slen sstart send bitscore evalue pident</span><code class="language-plaintext highlighter-rouge">' -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력.tsv</span></p>
+
+<ul>
+  <li>단백질 쿼리를 사용하여 단백질 데이터베이스 검색, BLAST 검색에 사용할 16개의 스레드, 최대 10개의 정렬된 서열 유지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쿼리.fa</span><code class="language-plaintext highlighter-rouge"> -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blast_데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> -num_threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span><code class="language-plaintext highlighter-rouge"> -max_target_seqs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>원격 비중복 단백질 데이터베이스를 단백질 쿼리로 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쿼리.fa</span><code class="language-plaintext highlighter-rouge"> -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nr</span><code class="language-plaintext highlighter-rouge"> -remote</code></p>
+
+<ul>
+  <li>도움말 표시 (<code class="language-plaintext highlighter-rouge">-help</code>로 자세한 도움말 확인 가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastp -h</code></p>

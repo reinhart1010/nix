@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="reg-query">reg query</h1>
+
+<p>显示注册表中键和子键的值。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query</a>.</p>
+
+<ul>
+  <li>显示一个键中的所有值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span></p>
+
+<ul>
+  <li>显示键中指定的值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span><code class="language-plaintext highlighter-rouge"> /v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值</span></p>
+
+<ul>
+  <li>显示指定键和其子键中的所有的值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>搜索与特定模式匹配的键和值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span><code class="language-plaintext highlighter-rouge"> /f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查询语句</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>显示与指定数据类型匹配的键的值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span><code class="language-plaintext highlighter-rouge"> /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">类型</span></p>

@@ -1,0 +1,34 @@
+<h1 id="svcs">svcs</h1>
+
+<p>List information about running services.
+More information: <a href="https://www.unix.com/man-page/linux/1/svcs">https://www.unix.com/man-page/linux/1/svcs</a>.</p>
+
+<ul>
+  <li>List all running services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs</code></p>
+
+<ul>
+  <li>List services that are not running:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -vx</code></p>
+
+<ul>
+  <li>List information about a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs apache</code></p>
+
+<ul>
+  <li>Show location of service log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -L apache</code></p>
+
+<ul>
+  <li>Display end of a service log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail $(svcs -L apache)</code></p>

@@ -1,0 +1,40 @@
+<h1 id="repquota">repquota</h1>
+
+<p>Display a summary of existing file quotas for a filesystem.
+More information: <a href="https://manned.org/repquota">https://manned.org/repquota</a>.</p>
+
+<ul>
+  <li>Report stats for all quotas in use:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo repquota -all</code></p>
+
+<ul>
+  <li>Report quota stats for all users, even those who aren't using any of their quota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo repquota -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem</span></p>
+
+<ul>
+  <li>Report on quotas for users only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repquota --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem</span></p>
+
+<ul>
+  <li>Report on quotas for groups only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo repquota --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem</span></p>
+
+<ul>
+  <li>Report on used quota and limits in a human-readable format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo repquota --human-readable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem</span></p>
+
+<ul>
+  <li>Report on all quotas for users and groups in a human-readable format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo repquota -augs</code></p>

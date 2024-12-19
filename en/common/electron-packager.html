@@ -1,0 +1,29 @@
+<h1 id="electron-packager">electron-packager</h1>
+
+<p>Build Electron app executables for Windows, Linux and macOS.
+Requires a valid package.json in the application directory.
+More information: <a href="https://github.com/electron/electron-packager">https://github.com/electron/electron-packager</a>.</p>
+
+<ul>
+  <li>Package an application for the current architecture and platform:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electron-packager "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/app</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Package an application for all architectures and platforms:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electron-packager "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/app</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span><code class="language-plaintext highlighter-rouge">" --all</code></p>
+
+<ul>
+  <li>Package an application for 64-bit Linux:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electron-packager "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/app</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span><code class="language-plaintext highlighter-rouge">" --platform="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux</span><code class="language-plaintext highlighter-rouge">" --arch="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x64</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Package an application for ARM macOS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electron-packager "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/app</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span><code class="language-plaintext highlighter-rouge">" --platform="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">darwin</span><code class="language-plaintext highlighter-rouge">" --arch="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arm64</span><code class="language-plaintext highlighter-rouge">"</code></p>

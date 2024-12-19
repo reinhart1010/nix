@@ -1,0 +1,46 @@
+<h1 id="jello">jello</h1>
+
+<p>Python 구문을 사용하는 명령줄 JSON 처리기.
+더 많은 정보: <a href="https://github.com/kellyjonbrazil/jello">https://github.com/kellyjonbrazil/jello</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 <code class="language-plaintext highlighter-rouge">stdout</code>으로 JSON 또는 JSON-Lines 데이터를 보기 좋게 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.json</span><code class="language-plaintext highlighter-rouge"> | jello</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 <code class="language-plaintext highlighter-rouge">stdout</code>으로 JSON 또는 JSON Lines 데이터의 스키마 출력 (grep에 유용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.json</span><code class="language-plaintext highlighter-rouge"> | jello -s</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 <code class="language-plaintext highlighter-rouge">stdout</code>으로 JSON 또는 JSON-Lines 데이터의 배열의 모든 요소 (또는 객체의 모든 값) 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.json</span><code class="language-plaintext highlighter-rouge"> | jello -l</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 <code class="language-plaintext highlighter-rouge">stdout</code>으로 JSON 또는 JSON-Lines 데이터의 첫 번째 요소 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.json</span><code class="language-plaintext highlighter-rouge"> | jello _[0]</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 <code class="language-plaintext highlighter-rouge">stdout</code>으로 JSON 또는 JSON-Lines 데이터의 각 요소에서 주어진 키의 값 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.json</span><code class="language-plaintext highlighter-rouge"> | jello '[i.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> for i in _]'</code></p>
+
+<ul>
+  <li>(입력 JSON에 <code class="language-plaintext highlighter-rouge">key_name1</code> 및 <code class="language-plaintext highlighter-rouge">key_name2</code> 키가 있다고 가정할 때) 여러 키의 값을 새 JSON 객체로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.json</span><code class="language-plaintext highlighter-rouge"> | jello '{"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키1</span><code class="language-plaintext highlighter-rouge">": _.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name1</span><code class="language-plaintext highlighter-rouge">, "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge">": _.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name2}</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>문자열로 주어진 키의 값 출력 (JSON 출력 비활성화):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.json</span><code class="language-plaintext highlighter-rouge"> | jello -r '"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">: " + _.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge">'</code></p>

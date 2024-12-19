@@ -1,0 +1,29 @@
+<h1 id="choco-pin">choco pin</h1>
+
+<p>Pin a package at a version with Chocolatey.
+Pinned packages are skipped automatically when upgrading.
+More information: <a href="https://chocolatey.org/docs/commands-pin">https://chocolatey.org/docs/commands-pin</a>.</p>
+
+<ul>
+  <li>Display a list of pinned packages and their versions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco pin list</code></p>
+
+<ul>
+  <li>Pin a package at its current version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco pin add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Pin a package at a specific version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco pin add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> --version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Remove a pin for a specific package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco pin remove --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>

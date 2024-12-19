@@ -1,0 +1,28 @@
+<h1 id="sdiag">sdiag</h1>
+
+<p><code class="language-plaintext highlighter-rouge">slurmctld</code> 실행에 대한 정보를 표시합니다.
+더 많은 정보: <a href="https://slurm.schedmd.com/sdiag.html">https://slurm.schedmd.com/sdiag.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">slurmctld</code> 실행과 관련된 모든 성능 카운터 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiag --all</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">slurmctld</code> 실행과 관련된 성능 카운터 재설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiag --reset</code></p>
+
+<ul>
+  <li>출력 형식 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiag --all --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|yaml</span></p>
+
+<ul>
+  <li>명령을 보낼 클러스터 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiag --all --cluster=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>

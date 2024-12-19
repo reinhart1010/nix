@@ -1,0 +1,47 @@
+<h1 id="ed">ed</h1>
+
+<p>Unix의 원본 텍스트 편집기.
+참고: <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">sed</code>.
+더 많은 정보: <a href="https://www.gnu.org/software/ed/manual/ed_manual.html">https://www.gnu.org/software/ed/manual/ed_manual.html</a>.</p>
+
+<ul>
+  <li>빈 문서로 대화형 편집기 세션을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed</code></p>
+
+<ul>
+  <li>빈 문서와 특정 프롬프트로 대화형 편집기 세션을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --prompt='&gt; '</code></p>
+
+<ul>
+  <li>사용자에게 친숙한 오류로 대화형 편집기 세션을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --verbose</code></p>
+
+<ul>
+  <li>진단, 바이트 수 및 '!' 프롬프트가 없는 빈 문서로 대화형 편집기 세션을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --quiet</code></p>
+
+<ul>
+  <li>명령이 실패할 때, 종료 상태 변경 없이 대화형 편집기 세션을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --loose-exit-status</code></p>
+
+<ul>
+  <li>특정 파일을 편집 (로드된 파일의 바이트가 표시):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>문자열을 모든 줄에 대한 특정 대체 문자열로 대체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">,s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규_표현식</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[대체_문자열]</span><code class="language-plaintext highlighter-rouge">/g</code></p>

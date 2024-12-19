@@ -1,0 +1,53 @@
+<h1 id="pacman-query">pacman –query</h1>
+
+<p>Utilitário de Arch Linux para gerenciamento de pacotes.
+Veja também: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Mais informações: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Lista pacotes instalados e suas versões:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query</code></p>
+
+<ul>
+  <li>Lista apenas pacotes e versões que foram instalados explicitamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --explicit</code></p>
+
+<ul>
+  <li>Procura qual pacote possui um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --owns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span></p>
+
+<ul>
+  <li>Exibe informações sobre um pacote instalado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Lista arquivos fornecidos por um pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Lista pacotes órfãos (instalados como dependências, mas que nenhum pacote instalado necessita):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --unrequired --deps --quiet</code></p>
+
+<ul>
+  <li>Lista pacotes instalados não encontrados nos repositórios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --foreign</code></p>
+
+<ul>
+  <li>Lista pacotes desatualizados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --upgrades</code></p>

@@ -1,0 +1,34 @@
+<h1 id="bluetoothd">bluetoothd</h1>
+
+<p>Daemon to manage bluetooth devices.
+More information: <a href="https://manned.org/bluetoothd">https://manned.org/bluetoothd</a>.</p>
+
+<ul>
+  <li>Start the daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd</code></p>
+
+<ul>
+  <li>Start the daemon, logging to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --nodetach</code></p>
+
+<ul>
+  <li>Start the daemon with a specific configuration file (defaults to <code class="language-plaintext highlighter-rouge">/etc/bluetooth/main.conf</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --configfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Start the daemon with verbose output to <code class="language-plaintext highlighter-rouge">stderr</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --debug</code></p>
+
+<ul>
+  <li>Start the daemon with verbose output coming from specific files in the bluetoothd or plugins source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --debug=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1:path/to/file2:…</span></p>

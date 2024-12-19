@@ -1,0 +1,35 @@
+<h1 id="az-image">az image</h1>
+
+<p>Azure에서 사용자 지정 가상 머신 이미지를 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code> (<code class="language-plaintext highlighter-rouge">az</code>라고도 함)의 일부.
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/image">https://learn.microsoft.com/cli/azure/image</a>.</p>
+
+<ul>
+  <li>리소스 그룹 아래에 사용자 정의 이미지를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az image list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span></p>
+
+<ul>
+  <li>관리 디스크 또는 스냅샷에서 사용자 지정 이미지를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az image create --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --os-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">windows|linux</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">os_디스크_소스</span></p>
+
+<ul>
+  <li>사용자 정의 이미지 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az image delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span></p>
+
+<ul>
+  <li>사용자 정의 이미지의 세부정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az image show --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span></p>
+
+<ul>
+  <li>사용자 정의 이미지 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az image update --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">property=value</span></p>

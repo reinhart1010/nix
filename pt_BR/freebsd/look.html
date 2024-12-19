@@ -1,0 +1,29 @@
+<h1 id="look">look</h1>
+
+<p>Exibe linhas começando com um prefixo em um arquivo ordenado.
+Veja também: <code class="language-plaintext highlighter-rouge">grep</code>, <code class="language-plaintext highlighter-rouge">sort</code>.
+Mais informações: <a href="https://man.freebsd.org/cgi/man.cgi?look">https://man.freebsd.org/cgi/man.cgi?look</a>.</p>
+
+<ul>
+  <li>Busca por linhas começando com um prefixo específico em um arquivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefixo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Busca sem distinção entre maiúsculas e minúsculas apenas em caracteres alfanuméricos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–ignore-case</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–alphanum</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefixo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Especifica um caractere de término de string (espaço por padrão):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–terminate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span></p>
+
+<ul>
+  <li>Busca em <code class="language-plaintext highlighter-rouge">/usr/share/dict/words</code> (<code class="language-plaintext highlighter-rouge">--ignore-case</code> e <code class="language-plaintext highlighter-rouge">--alphanum</code> são assumidos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefixo</span></p>

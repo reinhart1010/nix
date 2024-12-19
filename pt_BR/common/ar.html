@@ -1,0 +1,35 @@
+<h1 id="ar">ar</h1>
+
+<p>Cria, modifica e extrai de arquivos Unix. Normalmente usado para bibliotecas estáticas (<code class="language-plaintext highlighter-rouge">.a</code>) e pacotes Debian (<code class="language-plaintext highlighter-rouge">.deb</code>).
+Veja também: <code class="language-plaintext highlighter-rouge">tar</code>.
+Mais informações: <a href="https://manned.org/ar">https://manned.org/ar</a>.</p>
+
+<ul>
+  <li>Descompacta todos os membros de um arquivo compactado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.a</span></p>
+
+<ul>
+  <li>Lista o conteúdo em um arquivo compactado específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.ar</span></p>
+
+<ul>
+  <li>Substitui ou adiciona arquivos específicos para um arquivo compactado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.deb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/binário-debian caminho/para/control.tar.gz caminho/para/data.tar.xz …</span></p>
+
+<ul>
+  <li>Insere um índice de arquivos objetos (equivalente a usar <code class="language-plaintext highlighter-rouge">ranlib</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.a</span></p>
+
+<ul>
+  <li>Cria um arquivo compactado com arquivos específicos, acompanhado por um índice de arquivo objeto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.a</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1.o caminho/para/arquivo2.o …</span></p>

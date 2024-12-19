@@ -1,0 +1,40 @@
+<h1 id="pax">pax</h1>
+
+<p>Archiving and copying utility.
+More information: <a href="https://manned.org/pax.1p">https://manned.org/pax.1p</a>.</p>
+
+<ul>
+  <li>List the contents of an archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pax -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar</span></p>
+
+<ul>
+  <li>List the contents of a <code class="language-plaintext highlighter-rouge">gzip</code> archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pax -zf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar.gz</span></p>
+
+<ul>
+  <li>Create an archive from files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pax -wf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Create an archive from files, using output redirection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pax -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target.tar</span></p>
+
+<ul>
+  <li>Extract an archive into the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pax -rf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.tar</span></p>
+
+<ul>
+  <li>Copy to a directory, while keeping the original metadata; <code class="language-plaintext highlighter-rouge">target/</code> must exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pax -rw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target/</span></p>

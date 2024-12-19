@@ -1,0 +1,22 @@
+<h1 id="mkfsexfat">mkfs.exfat</h1>
+
+<p>Create an exfat filesystem inside a partition.
+More information: <a href="https://manned.org/mkfs.exfat">https://manned.org/mkfs.exfat</a>.</p>
+
+<ul>
+  <li>Create an exfat filesystem inside partition 1 on device b (<code class="language-plaintext highlighter-rouge">sdb1</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.exfat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Create filesystem with a volume-name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.exfat -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Create filesystem with a volume-id:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.exfat -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

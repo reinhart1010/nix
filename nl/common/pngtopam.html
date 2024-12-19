@@ -1,0 +1,29 @@
+<h1 id="pngtopam">pngtopam</h1>
+
+<p>Converteer een PNG afbeelding naar een Netpbm afbeelding.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">pamtopng</code>.
+Meer informatie: <a href="https://netpbm.sourceforge.net/doc/pngtopam.html">https://netpbm.sourceforge.net/doc/pngtopam.html</a>.</p>
+
+<ul>
+  <li>Converteer de gespecificeerde PNG afbeelding naar een Netpbm afbeelding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngtopam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>
+
+<ul>
+  <li>Maak een uitvoerafbeelding die zowel de hoofdafbeelding als de transparantiemasker van de invoerafbeelding bevat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngtopam -alphapam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>
+
+<ul>
+  <li>Vervang transparente pixels door de gespecificeerde kleur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngtopam -mix -background </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kleur</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>
+
+<ul>
+  <li>Schrijf tEXt chunks gevonden in de invoer-afbeelding naar het gespecificeerde tekstbestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngtopam -text </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>

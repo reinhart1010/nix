@@ -1,0 +1,46 @@
+<h1 id="xinput">xinput</h1>
+
+<p>사용 가능한 입력 장치를 나열하고, 장치에 대한 정보를 쿼리하며, 입력 장치 설정을 변경.
+더 많은 정보: <a href="https://manned.org/xinput">https://manned.org/xinput</a>.</p>
+
+<ul>
+  <li>모든 입력 장치 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xinput list</code></p>
+
+<ul>
+  <li>입력 장치 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xinput disable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>입력 장치 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xinput enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>입력 장치를 마스터에서 분리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xinput float </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>입력 장치를 슬레이브로 마스터에 재연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xinput reattach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마스터_id</span></p>
+
+<ul>
+  <li>입력 장치의 설정 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xinput list-props </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>입력 장치의 설정 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xinput set-prop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">설정_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>

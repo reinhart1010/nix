@@ -1,0 +1,29 @@
+<h1 id="cavif">cavif</h1>
+
+<p>PNG/JPEG 이미지를 AVIF로 변환함. Rust로 작성됨.
+참고: <code class="language-plaintext highlighter-rouge">convert</code>.
+더 많은 정보: <a href="https://github.com/kornelski/cavif-rs">https://github.com/kornelski/cavif-rs</a>.</p>
+
+<ul>
+  <li>JPEG 파일을 AVIF로 변환하여, <code class="language-plaintext highlighter-rouge">file.avif</code>에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cavif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/image.jpg</span></p>
+
+<ul>
+  <li>이미지를 품질을 조정하고 PNG 파일을 AVIF로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cavif --quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/image.png</span></p>
+
+<ul>
+  <li>출력 위치를 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cavif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/image.jpg</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/output.avif</span></p>
+
+<ul>
+  <li>이미 존재하는 경우, 대상 파일을 덮어씀:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cavif --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/image.jpg</span></p>

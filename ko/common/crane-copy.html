@@ -1,0 +1,34 @@
+<h1 id="crane-copy">crane copy</h1>
+
+<p>다이제스트 값을 유지하면서 소스에서 대상으로 원격 이미지를 효율적으로 복사.
+더 많은 정보: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_copy.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_copy.md</a>.</p>
+
+<ul>
+  <li>소스에서 대상으로 이미지를 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상</span></p>
+
+<ul>
+  <li>모든 태그 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–all-tags</span></p>
+
+<ul>
+  <li>최대 동시 복사본 수를 설정, 기본값은 GOMAXPROCS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-j|–jobs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">int</span></p>
+
+<ul>
+  <li>대상의 기존 태그를 덮어쓰지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–no-clobber</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

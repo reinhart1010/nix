@@ -1,0 +1,29 @@
+<h1 id="alex">alex</h1>
+
+<p>Una herramienta que detecta escritura insensible y desconsiderada.
+Ayuda a encontrar en el texto frases que son parciales con el género, que polarizan, o están relacionadas con la raza, son desconsideradas con la religión u otras frases tendenciosas.
+Más información: <a href="https://github.com/get-alex/alex">https://github.com/get-alex/alex</a>.</p>
+
+<ul>
+  <li>Analiza texto desde <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">His network looks good</span><code class="language-plaintext highlighter-rouge"> | alex --stdin</code></p>
+
+<ul>
+  <li>Analiza todos los archivos del directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alex</code></p>
+
+<ul>
+  <li>Analiza un archivo dado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_texto.md</span></p>
+
+<ul>
+  <li>Analiza todos los archivos Markdown excepto <code class="language-plaintext highlighter-rouge">ejemplo.md</code>.:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alex *.md !</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/ejemplo.md</span></p>

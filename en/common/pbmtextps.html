@@ -1,0 +1,29 @@
+<h1 id="pbmtextps">pbmtextps</h1>
+
+<p>Render text as a PBM image using PostScript.
+See also: <code class="language-plaintext highlighter-rouge">pbmtext</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pbmtextps.html">https://netpbm.sourceforge.net/doc/pbmtextps.html</a>.</p>
+
+<ul>
+  <li>Render a single line of text as a PBM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtextps "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World!</span><code class="language-plaintext highlighter-rouge">" &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Specify the font and font size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtextps -font </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Times-Roman</span><code class="language-plaintext highlighter-rouge"> -fontsize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World!</span><code class="language-plaintext highlighter-rouge">" &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Specify the desired left and top margins:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtextps -leftmargin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">70</span><code class="language-plaintext highlighter-rouge"> -topmargin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">162</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World!</span><code class="language-plaintext highlighter-rouge">" &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Do not output the rendered text as a PBM image, but a PostScript program that would create this image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtextps -dump-ps "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World!</span><code class="language-plaintext highlighter-rouge">" &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ps</span></p>

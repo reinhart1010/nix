@@ -1,0 +1,29 @@
+<h1 id="airodump-ng">airodump-ng</h1>
+
+<p>패킷을 캡처하고, 무선 네트워크에 대한 정보를 표시.
+<code class="language-plaintext highlighter-rouge">aircrack-ng</code>의 일부.
+더 많은 정보: <a href="https://www.aircrack-ng.org/doku.php?id=airodump-ng">https://www.aircrack-ng.org/doku.php?id=airodump-ng</a>.</p>
+
+<ul>
+  <li>2.4GHz 대역의 무선 네트워크에 대한 패킷을 캡처하고 정보를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터페이스</span></p>
+
+<ul>
+  <li>5GHz 대역의 무선 네트워크에 대한 패킷을 캡처하고 정보를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터페이스</span><code class="language-plaintext highlighter-rouge"> --band a</code></p>
+
+<ul>
+  <li>2.4GHz 및 5GHz 대역 모두에서 무선 네트워크에 대한 패킷을 캡처하고 정보를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터페이스</span><code class="language-plaintext highlighter-rouge"> --band abg</code></p>
+
+<ul>
+  <li>MAC 주소와 채널을 통해 패킷을 캡처하고, 무선 네트워크에 대한 정보를 표시 및 출력 결과를 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng --channel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">channel</span><code class="language-plaintext highlighter-rouge"> --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --bssid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>

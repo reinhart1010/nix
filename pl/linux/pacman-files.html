@@ -1,0 +1,41 @@
+<h1 id="pacman-files">pacman –files</h1>
+
+<p>Narzędzie do zarządzania pakietami w Arch Linuksie.
+Zobacz także: <code class="language-plaintext highlighter-rouge">pacman</code>, <code class="language-plaintext highlighter-rouge">pkgfile</code>.
+Więcej informacji: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Zaktualizuj bazę danych pakietów:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --files --refresh</code></p>
+
+<ul>
+  <li>Znajdź pakiet, do którego należy podany plik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pliku</span></p>
+
+<ul>
+  <li>Znajdź pakiet, do którego należy podany plik, używając wyrażenia regularnego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --regex '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wyrażenie_regularne</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Wyświetl tylko nazwy pakietów:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pliku</span></p>
+
+<ul>
+  <li>Wyświetl pliki należące do podanego pakietu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pakietu</span></p>
+
+<ul>
+  <li>Wyświetl pomoc:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --help</code></p>

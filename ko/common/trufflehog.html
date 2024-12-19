@@ -1,0 +1,52 @@
+<h1 id="trufflehog">trufflehog</h1>
+
+<p>파일, Git 저장소, S3 버킷 및 Docker 이미지에서 인증 정보를 찾고 검증.
+더 많은 정보: <a href="https://github.com/trufflesecurity/trufflehog">https://github.com/trufflesecurity/trufflehog</a>.</p>
+
+<ul>
+  <li>Git 저장소에서 검증된 비밀 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog git </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/trufflesecurity/test_keys</span><code class="language-plaintext highlighter-rouge"> --only-verified</code></p>
+
+<ul>
+  <li>GitHub 조직에서 검증된 비밀 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog github --org=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trufflesecurity</span><code class="language-plaintext highlighter-rouge"> --only-verified</code></p>
+
+<ul>
+  <li>GitHub 저장소에서 검증된 키 검색 및 JSON 출력 받기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog git </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/trufflesecurity/test_keys</span><code class="language-plaintext highlighter-rouge"> --only-verified --json</code></p>
+
+<ul>
+  <li>GitHub 저장소와 그 이슈 및 풀 리퀘스트 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog github --repo=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/trufflesecurity/test_keys</span><code class="language-plaintext highlighter-rouge"> --issue-comments --pr-comments</code></p>
+
+<ul>
+  <li>S3 버킷에서 검증된 키 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog s3 --bucket=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷 이름</span><code class="language-plaintext highlighter-rouge"> --only-verified</code></p>
+
+<ul>
+  <li>IAM 역할을 사용하여 S3 버킷 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog s3 --role-arn=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iam-role-arn</span></p>
+
+<ul>
+  <li>개별 파일 또는 디렉터리 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog filesystem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리1 경로/대상/파일_또는_디렉터리2 …</span></p>
+
+<ul>
+  <li>Docker 이미지에서 검증된 비밀 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog docker --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trufflesecurity/secrets</span><code class="language-plaintext highlighter-rouge"> --only-verified</code></p>

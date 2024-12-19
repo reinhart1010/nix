@@ -1,0 +1,28 @@
+<h1 id="keep-header">keep-header</h1>
+
+<p>Keep first line untouched by a command, passing it directly to <code class="language-plaintext highlighter-rouge">stdout</code>.
+More information: <a href="https://github.com/eBay/tsv-utils#keep-header">https://github.com/eBay/tsv-utils#keep-header</a>.</p>
+
+<ul>
+  <li>Sort a file and keep the first line at the top:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keep-header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -- sort</code></p>
+
+<ul>
+  <li>Output first line directly to <code class="language-plaintext highlighter-rouge">stdout</code>, passing the remainder of the file through the specified command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keep-header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Read from <code class="language-plaintext highlighter-rouge">stdin</code>, sorting all except the first line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | keep-header -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Grep a file, keeping the first line regardless of the search pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keep-header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -- grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span></p>

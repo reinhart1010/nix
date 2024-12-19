@@ -1,0 +1,52 @@
+<h1 id="blackfire">blackfire</h1>
+
+<p>Strumento di profilazione da linea di comando per PHP.
+Maggiori informazioni: <a href="https://blackfire.io">https://blackfire.io</a>.</p>
+
+<ul>
+  <li>Inizializza e configura il client Blackfire:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire config</code></p>
+
+<ul>
+  <li>Lancia l'agent Blackfire:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire agent</code></p>
+
+<ul>
+  <li>Lancia l'agent Blackfire su uno specifico socket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire agent --socket="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp://127.0.0.1:8307</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Lancia il profiler su uno specifico programma:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php percorso/del/file.php</span></p>
+
+<ul>
+  <li>Lancia il profiler e raccogli 10 campioni:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire --samples 10 run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php percorso/del/file.php</span></p>
+
+<ul>
+  <li>Lancia il profiler e mostra i risultati in output come JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire --json run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php percorso/del/file.php</span></p>
+
+<ul>
+  <li>Carica un file del profiler sul servizio web di Blackfire:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Mostra lo stato dei profili sul servizio web di Blackfire:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire status</code></p>

@@ -1,0 +1,22 @@
+<h1 id="locate">locate</h1>
+
+<p>Find filenames quickly.
+More information: <a href="https://keith.github.io/xcode-man-pages/locate.1.html">https://keith.github.io/xcode-man-pages/locate.1.html</a>.</p>
+
+<ul>
+  <li>Look for pattern in the database. Note: the database is recomputed periodically (usually weekly or daily):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">locate "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as <code class="language-plaintext highlighter-rouge">*pattern*</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">locate */</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Recompute the database. You need to do it if you want to find recently added files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo /usr/libexec/locate.updatedb</code></p>

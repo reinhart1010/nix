@@ -1,0 +1,34 @@
+<h1 id="rails-generate">rails generate</h1>
+
+<p>Membuat Rails templates yang baru ke suatu proyek.
+Informasi lebih lanjut: <a href="https://guides.rubyonrails.org/command_line.html#bin-rails-generate">https://guides.rubyonrails.org/command_line.html#bin-rails-generate</a>.</p>
+
+<ul>
+  <li>Menampilkan semua generator yang tersedia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate</code></p>
+
+<ul>
+  <li>Membuat model baru bernama Post dengan atribut judul dan uraian:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Post</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">judul:string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uraian:text</span></p>
+
+<ul>
+  <li>Mmebuat <em>controller</em> baru bernama Posts dengan actions index, show, new dan create:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate controller </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Posts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">create</span></p>
+
+<ul>
+  <li>Membuat migrasi baru yang menambahkan atribut kategori ke model yang sudah ada bernama Post:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate migration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AddKategoriToPost</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kategori:string</span></p>
+
+<ul>
+  <li>Membuat <em>scaffold</em> untuk model bernama Post, dengan pendefinisian atribut judul dan uraian:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate scaffold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Post</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title:string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">body:text</span></p>

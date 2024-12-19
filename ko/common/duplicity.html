@@ -1,0 +1,42 @@
+<h1 id="duplicity">duplicity</h1>
+
+<p>증분, 압축, 암호화 및 버전별 백업을 생성.
+다양한 백엔드 서비스에 백업을 업로드할 수도 있음.
+버전에 따라 일부 옵션을 사용하지 못할 수도 있음 (예: 2.0.0의 <code class="language-plaintext highlighter-rouge">--gio</code>).
+더 많은 정보: <a href="https://duplicity.gitlab.io">https://duplicity.gitlab.io</a>.</p>
+
+<ul>
+  <li>FTPS를 통해 디렉터리를 원격 시스템에 백업하고, 비밀번호로 암호화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">FTP_PASSWORD=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp_로그인_비밀번호</span><code class="language-plaintext highlighter-rouge"> PASSPHRASE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호_비밀번호</span><code class="language-plaintext highlighter-rouge"> duplicity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스/디렉토리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftps://사용자@호스트명/타겟/디렉토리/경로/</span></p>
+
+<ul>
+  <li>매월 전체 백업을 수행하여 Amazon S3에 디렉터리를 백업:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicity --full-if-older-than </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름[/접두사]</span></p>
+
+<ul>
+  <li>WebDAV 공유에 저장된 백업에서 1년이 넘은 버전을 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">FTP_PASSWORD=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">webdav_로그인_비밀번호</span><code class="language-plaintext highlighter-rouge"> duplicity remove-older-than </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1Y</span><code class="language-plaintext highlighter-rouge"> --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">webdav[s]://사용자@호스트명[:포트]/일부_디렉토리</span></p>
+
+<ul>
+  <li>사용 가능한 백업을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicity collection-status "file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">절대/경로/대상/백업/디렉토리</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>SSH를 통해 원격 시스템에 저장된 백업의 파일을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duplicity list-current-files --time </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span><code class="language-plaintext highlighter-rouge"> scp://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자@호스트명</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/백업/디렉토리</span></p>
+
+<ul>
+  <li>GnuPG로 암호화된 로컬 백업의 하위 디렉토리를 지정된 위치로 복원:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PASSPHRASE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg_키_비밀번호</span><code class="language-plaintext highlighter-rouge"> duplicity restore --encrypt-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg_키_아이디</span><code class="language-plaintext highlighter-rouge"> --path-to-restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">상대/경로/복원된디렉토리</span><code class="language-plaintext highlighter-rouge"> file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">절대/경로/대상/백업/디렉토리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리/대상/복원/대상</span></p>

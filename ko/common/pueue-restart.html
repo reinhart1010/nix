@@ -1,0 +1,40 @@
+<h1 id="pueue-restart">pueue restart</h1>
+
+<p>작업을 다시 시작.
+더 많은 정보: <a href="https://github.com/Nukesor/pueue">https://github.com/Nukesor/pueue</a>.</p>
+
+<ul>
+  <li>특정 작업 다시 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_아이디</span></p>
+
+<ul>
+  <li>여러 작업을 한 번에 다시 시작하고 즉시 시작 (대기열에 넣지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart --start-immediately </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_아이디</span></p>
+
+<ul>
+  <li>다른 경로에서 특정 작업 다시 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart --edit-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_아이디</span></p>
+
+<ul>
+  <li>다시 시작하기 전에 명령 편집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart --edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_아이디</span></p>
+
+<ul>
+  <li>작업을 제자리에서 다시 시작 (별도의 작업으로 대기열에 넣지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart --in-place </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_아이디</span></p>
+
+<ul>
+  <li>실패한 모든 작업 다시 시작 및 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart --all-failed --stashed</code></p>

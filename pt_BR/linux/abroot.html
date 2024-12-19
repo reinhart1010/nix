@@ -1,0 +1,53 @@
+<h1 id="abroot">abroot</h1>
+
+<p>Utilitário que fornece total imutabilidade e atomicidade ao transacionar entre 2 estados da partição raíz (A⟺B).
+Atualizações são realizadas usando imagens OCI, para garantir que o sistema sempre estará em um estado consistente.
+Mais informações: <a href="https://github.com/Vanilla-OS/ABRoot">https://github.com/Vanilla-OS/ABRoot</a>.</p>
+
+<ul>
+  <li>Adiciona pacotes à imagem local (Nota: após executar esse comando você precisa aplicar as alterações.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot pkg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Remove pacotes da imagem local(Nota: após executar esse comando você precisa aplicar as alterações.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot pkg remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Lista pacotes da imagem local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot pkg list</code></p>
+
+<ul>
+  <li>Aplica mudanças à imagem local (Nota: você precisa reiniciar o sistema para que as mudanças sejam aplicadas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot pkg apply</code></p>
+
+<ul>
+  <li>Reverte o sistema para o estado anterior:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot rollback</code></p>
+
+<ul>
+  <li>Edita/Mostra os parâmetros do kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot kargs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">edit|show</span></p>
+
+<ul>
+  <li>Mostra o estado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot status</code></p>
+
+<ul>
+  <li>Exibe ajuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abroot --help</code></p>

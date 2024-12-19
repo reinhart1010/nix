@@ -1,0 +1,22 @@
+<h1 id="grubby">grubby</h1>
+
+<p><code class="language-plaintext highlighter-rouge">grub</code> 및 <code class="language-plaintext highlighter-rouge">zipl</code> 부트로더를 설정하는 도구.
+더 많은 정보: <a href="https://manned.org/grubby.8">https://manned.org/grubby.8</a>.</p>
+
+<ul>
+  <li>모든 커널 메뉴 항목에 커널 부팅 인자 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo grubby --update-kernel=ALL --args '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet console=ttyS0</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>기본 커널 항목에서 기존 인자 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo grubby --update-kernel=DEFAULT --remove-args </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet</span></p>
+
+<ul>
+  <li>모든 커널 메뉴 항목 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo grubby --info=ALL</code></p>

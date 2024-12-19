@@ -1,0 +1,34 @@
+<h1 id="tesseract">tesseract</h1>
+
+<p>OCR (Optical Character Recognition) engine.
+More information: <a href="https://github.com/tesseract-ocr/tesseract">https://github.com/tesseract-ocr/tesseract</a>.</p>
+
+<ul>
+  <li>Recognize text in an image and save it to <code class="language-plaintext highlighter-rouge">output.txt</code> (the <code class="language-plaintext highlighter-rouge">.txt</code> extension is added automatically):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tesseract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output</span></p>
+
+<ul>
+  <li>Specify a custom language (default is English) with an ISO 639-2 code (e.g. deu = Deutsch = German):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tesseract -l deu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output</span></p>
+
+<ul>
+  <li>List the ISO 639-2 codes of available languages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tesseract --list-langs</code></p>
+
+<ul>
+  <li>Specify a custom page segmentation mode (default is 3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tesseract --psm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0_to_10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output</span></p>
+
+<ul>
+  <li>List page segmentation modes and their descriptions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tesseract --help-psm</code></p>

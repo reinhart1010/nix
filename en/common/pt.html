@@ -1,0 +1,35 @@
+<h1 id="pt">pt</h1>
+
+<p>Platinum Searcher.
+A code search tool similar to <code class="language-plaintext highlighter-rouge">ag</code>.
+More information: <a href="https://github.com/monochromegane/the_platinum_searcher">https://github.com/monochromegane/the_platinum_searcher</a>.</p>
+
+<ul>
+  <li>Find files containing "foo" and print the files with highlighted matches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Find files containing "foo" and display count of matches in each file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pt -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Find files containing "foo" as a whole word and ignore its case:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pt -wi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Find "foo" in files with a given extension using a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pt -G='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.bar$</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Find files whose contents match the regular expression, up to 2 directories deep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pt --depth=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> -e '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^ba[rz]*$</span><code class="language-plaintext highlighter-rouge">'</code></p>

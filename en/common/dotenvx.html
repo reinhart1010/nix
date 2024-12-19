@@ -1,0 +1,46 @@
+<h1 id="dotenvx">dotenvx</h1>
+
+<p>A better <code class="language-plaintext highlighter-rouge">dotenv</code>, from the creator of <code class="language-plaintext highlighter-rouge">dotenv</code>.
+More information: <a href="https://dotenvx.com/docs">https://dotenvx.com/docs</a>.</p>
+
+<ul>
+  <li>Run a command with environment variables from a <code class="language-plaintext highlighter-rouge">.env</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx run -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run a command with environment variables from a specific <code class="language-plaintext highlighter-rouge">.env</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx run -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.env</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Set an environment variable with encryption:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Set an environment variable without encryption:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> --plain</code></p>
+
+<ul>
+  <li>Return environment variables defined in a <code class="language-plaintext highlighter-rouge">.env</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx get</code></p>
+
+<ul>
+  <li>Return the value of an environment variable defined in a <code class="language-plaintext highlighter-rouge">.env</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span></p>
+
+<ul>
+  <li>Return all environment variables from <code class="language-plaintext highlighter-rouge">.env</code> files and OS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotenvx get --all</code></p>

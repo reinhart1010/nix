@@ -1,0 +1,40 @@
+<h1 id="quilt">quilt</h1>
+
+<p>管理一系列的补丁。
+更多信息：<a href="https://savannah.nongnu.org/projects/quilt">https://savannah.nongnu.org/projects/quilt</a>.</p>
+
+<ul>
+  <li>从文件中导入一个已有补丁：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件名.patch</span></p>
+
+<ul>
+  <li>创建一个新补丁：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名.patch</span></p>
+
+<ul>
+  <li>将文件添加到当前补丁：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>编辑文件后，用更改刷新当前补丁：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt refresh</code></p>
+
+<ul>
+  <li>应用系列文件中的所有补丁：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt push -a</code></p>
+
+<ul>
+  <li>移除所有已应用的补丁：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt pop -a</code></p>

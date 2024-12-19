@@ -1,0 +1,23 @@
+<h1 id="mkfs">mkfs</h1>
+
+<p>Build a Linux filesystem on a hard disk partition.
+This command is deprecated in favor of filesystem specific mkfs.<type> utils.
+More information: &lt;https://manned.org/mkfs&gt;.</type></p>
+
+<ul>
+  <li>Build a Linux ext2 filesystem on a partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Build a filesystem of a specified type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ext4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Build a filesystem of a specified type and check for bad blocks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs -c -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>

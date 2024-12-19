@@ -1,0 +1,28 @@
+<h1 id="browser-sync">browser-sync</h1>
+
+<p>A local web server that updates browser on file changes.
+More information: <a href="https://browsersync.io/docs/command-line">https://browsersync.io/docs/command-line</a>.</p>
+
+<ul>
+  <li>Start a server from a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync start --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Start a server from local directory, watching all CSS files in a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync start --server --files '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory/*.css</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Create configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync init</code></p>
+
+<ul>
+  <li>Start Browsersync from configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync start --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config_file</span></p>

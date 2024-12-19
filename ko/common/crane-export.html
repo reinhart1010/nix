@@ -1,0 +1,22 @@
+<h1 id="crane-export">crane export</h1>
+
+<p>컨테이너 이미지의 파일 시스템을 tarball로 내보냄.
+더 많은 정보: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_digest.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_digest.md</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdout</code>에 tarball을 작성 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>파일에 tarball 쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tarball</span></p>
+
+<ul>
+  <li>stdin에서 이미지 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane export - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일이름</span></p>

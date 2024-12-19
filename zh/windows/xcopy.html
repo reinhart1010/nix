@@ -1,0 +1,52 @@
+<h1 id="xcopy">xcopy</h1>
+
+<p>复制文件和目录树。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy">https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy</a>.</p>
+
+<ul>
+  <li>复制文件到指定的路径：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">被复制的目录路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标路径</span></p>
+
+<ul>
+  <li>列出在复制前将要被复制的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件或目录的路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标路径</span><code class="language-plaintext highlighter-rouge"> /p</code></p>
+
+<ul>
+  <li>仅复制目录结构，不包括文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件或目录的路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标路径</span><code class="language-plaintext highlighter-rouge"> /t</code></p>
+
+<ul>
+  <li>复制时包含空目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件或目录的路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标路径</span><code class="language-plaintext highlighter-rouge"> /e</code></p>
+
+<ul>
+  <li>复制文件时保留 ACL 信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件或目录的路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标路径</span><code class="language-plaintext highlighter-rouge"> /o</code></p>
+
+<ul>
+  <li>网络连接丢失时允许恢复：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件或目录的路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标路径</span><code class="language-plaintext highlighter-rouge"> /z</code></p>
+
+<ul>
+  <li>当文件存在于目标路径中时禁用提示：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件或目录的路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标路径</span><code class="language-plaintext highlighter-rouge"> /y</code></p>
+
+<ul>
+  <li>显示详细的使用帮助：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcopy /?</code></p>

@@ -1,0 +1,52 @@
+<h1 id="vboxmanage-import">vboxmanage-import</h1>
+
+<p>이전에 내보낸 가상 머신(VM)을 가져오기.
+더 많은 정보: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-import">https://www.virtualbox.org/manual/ch08.html#vboxmanage-import</a>.</p>
+
+<ul>
+  <li>OVF 또는 OVA 파일에서 VM 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ovf</span></p>
+
+<ul>
+  <li>가져온 VM의 이름 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ovf</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름</span></p>
+
+<ul>
+  <li>가져온 VM의 구성 파일이 저장될 폴더 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ovf</span><code class="language-plaintext highlighter-rouge"> --basefolder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>VirtualBox에 가져온 VM 등록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ovf</span><code class="language-plaintext highlighter-rouge"> --register</code></p>
+
+<ul>
+  <li>실제로 가져오지 않고 가져오기를 확인하는 드라이런 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ovf</span><code class="language-plaintext highlighter-rouge"> --dry-run</code></p>
+
+<ul>
+  <li>가져온 VM의 게스트 OS 유형 설정 (<code class="language-plaintext highlighter-rouge">VBoxManage list ostypes</code> 중 하나):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ovf</span><code class="language-plaintext highlighter-rouge"> --ostype=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">os유형</span></p>
+
+<ul>
+  <li>가져온 VM의 메모리 크기 설정 (메가바이트 단위):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ovf</span><code class="language-plaintext highlighter-rouge"> --memory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>가져온 VM의 CPU 개수 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ovf</span><code class="language-plaintext highlighter-rouge"> --cpus=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>

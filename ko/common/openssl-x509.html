@@ -1,0 +1,28 @@
+<h1 id="openssl-x509">openssl x509</h1>
+
+<p>X.509 인증서를 관리하기 위한 OpenSSL 명령어.
+더 많은 정보: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-x509.html">https://www.openssl.org/docs/manmaster/man1/openssl-x509.html</a>.</p>
+
+<ul>
+  <li>인증서 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름.crt</span><code class="language-plaintext highlighter-rouge"> -noout -text</code></p>
+
+<ul>
+  <li>인증서 만료 날짜 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -enddate -noout -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름.pem</span></p>
+
+<ul>
+  <li>인증서를 이진 DER 인코딩과 텍스트 PEM 인코딩 간 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -inform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">der</span><code class="language-plaintext highlighter-rouge"> -outform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pem</span><code class="language-plaintext highlighter-rouge"> -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원본_인증서_파일</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변환된_인증서_파일</span></p>
+
+<ul>
+  <li>인증서의 공개 키를 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인증서_파일</span><code class="language-plaintext highlighter-rouge"> -noout -pubkey -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력_파일</span></p>

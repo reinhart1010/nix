@@ -1,0 +1,28 @@
+<h1 id="amass-db">amass db</h1>
+
+<p>Interactie met een Amass database.
+Meer informatie: <a href="https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-db-subcommand">https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-db-subcommand</a>.</p>
+
+<ul>
+  <li>Toon alle uitgevoerde opsommingen in de database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/database_map</span><code class="language-plaintext highlighter-rouge"> -list</code></p>
+
+<ul>
+  <li>Toon de resultaten van een specifieke opsommingsindex en domeinnaam:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/database_map</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domeinnaam</span><code class="language-plaintext highlighter-rouge"> -enum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indexlijst</span><code class="language-plaintext highlighter-rouge"> -show</code></p>
+
+<ul>
+  <li>Toon alle gevonden subdomeinen van een domeinnaam binnen de opsomming:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/database_map</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domeinnaam</span><code class="language-plaintext highlighter-rouge"> -enum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indexlijst</span><code class="language-plaintext highlighter-rouge"> -names</code></p>
+
+<ul>
+  <li>Toon een samenvatting van de gevonden subdomeinen binnen de opsomming:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/database_map</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domeinnaam</span><code class="language-plaintext highlighter-rouge"> -enum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indexlijst</span><code class="language-plaintext highlighter-rouge"> -summary</code></p>

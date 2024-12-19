@@ -1,0 +1,22 @@
+<h1 id="prctl">prctl</h1>
+
+<p>चल रहे प्रक्रियाओं, कार्यों और परियोजनाओं के संसाधन नियंत्रण प्राप्त करें या सेट करें।
+अधिक जानकारी: <a href="https://www.unix.com/man-page/sunos/1/prctl">https://www.unix.com/man-page/sunos/1/prctl</a>।</p>
+
+<ul>
+  <li>प्रक्रिया सीमाओं और अनुमतियों की जांच करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>मशीन पार्सेबल प्रारूप में प्रक्रिया सीमाओं और अनुमतियों की जांच करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>चल रही प्रक्रिया के लिए विशिष्ट सीमा प्राप्त करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl -n process.max-file-descriptor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>

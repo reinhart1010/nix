@@ -1,0 +1,35 @@
+<h1 id="git-scp">git scp</h1>
+
+<p>현재 작업 트리에서 원격 저장소의 작업 디렉토리로 파일을 복사합니다.
+<code class="language-plaintext highlighter-rouge">git-extras</code>의 일부입니다. 파일 전송에는 <code class="language-plaintext highlighter-rouge">rsync</code>를 사용합니다.
+더 많은 정보: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-scp">https://github.com/tj/git-extras/blob/master/Commands.md#git-scp</a>.</p>
+
+<ul>
+  <li>스테이지되지 않은 파일을 특정 원격으로 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span></p>
+
+<ul>
+  <li>스테이지된 파일과 스테이지되지 않은 파일을 원격으로 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> HEAD</code></p>
+
+<ul>
+  <li>마지막 커밋에서 변경된 파일 및 모든 스테이지된 또는 스테이지되지 않은 파일을 원격으로 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> HEAD~1</code></p>
+
+<ul>
+  <li>특정 파일을 원격으로 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>특정 디렉토리를 원격으로 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

@@ -1,0 +1,34 @@
+<h1 id="objcopy">objcopy</h1>
+
+<p>Copy the contents of an object file to another file.
+More information: <a href="https://manned.org/objcopy">https://manned.org/objcopy</a>.</p>
+
+<ul>
+  <li>Copy data to another file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">objcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_file</span></p>
+
+<ul>
+  <li>Translate object files from one format to another:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">objcopy --input-target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_format</span><code class="language-plaintext highlighter-rouge"> --output-target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_format</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_file</span></p>
+
+<ul>
+  <li>Strip all symbol information from the file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">objcopy --strip-all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_file</span></p>
+
+<ul>
+  <li>Strip debugging information from the file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">objcopy --strip-debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_file</span></p>
+
+<ul>
+  <li>Copy a specific section from the source file to the destination file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">objcopy --only-section </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">section</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_file</span></p>

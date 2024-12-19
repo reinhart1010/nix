@@ -1,0 +1,53 @@
+<h1 id="dtrace">dtrace</h1>
+
+<p>A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility.
+Generic front-end to DTrace facility, requiring root privileges.
+More information: <a href="https://keith.github.io/xcode-man-pages/dtrace.1.html">https://keith.github.io/xcode-man-pages/dtrace.1.html</a>.</p>
+
+<ul>
+  <li>Set target data model for a specific architecture:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dtrace -arch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arch_name</span></p>
+
+<ul>
+  <li>Claim [a]nonymous tracing state and display the traced data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dtrace -a</code></p>
+
+<ul>
+  <li>Set principal trace buffer size. Supported units are <code class="language-plaintext highlighter-rouge">k</code>, <code class="language-plaintext highlighter-rouge">m</code>, <code class="language-plaintext highlighter-rouge">g</code>, or <code class="language-plaintext highlighter-rouge">t</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dtrace -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2g</span></p>
+
+<ul>
+  <li>Compile the specified D Program [s]ource file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dtrace -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">D_script</span></p>
+
+<ul>
+  <li>Run the specified [c]ommand and exit upon its completion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dtrace -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Specify [f]unction name to trace or list (-l option). The corresponding argument can include any of the probe description forms like <code class="language-plaintext highlighter-rouge">provider:module:function</code>, <code class="language-plaintext highlighter-rouge">module:function</code> or <code class="language-plaintext highlighter-rouge">function</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dtrace -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">function</span></p>
+
+<ul>
+  <li>Grad the specified [p]rocess ID, cache its symbol table, and exit upon completion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dtrace -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Combine different options for tracing function in a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dtrace -a -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">buffer_size</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">function</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>

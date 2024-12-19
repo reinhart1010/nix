@@ -1,0 +1,35 @@
+<h1 id="truss">truss</h1>
+
+<p>Troubleshooting tool voor het traceren van system calls.
+SunOS equivalent van strace.
+Meer informatie: <a href="https://www.unix.com/man-page/linux/1/truss">https://www.unix.com/man-page/linux/1/truss</a>.</p>
+
+<ul>
+  <li>Start het traceren van een programma door het uit te voeren, en de tracering van alle child processes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Start het traceren van een specifiek proces aan de hand van het PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Start het traceren van een programma door het uit te voeren, en toont alle argumenent en omgevingsinstellingen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -a -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Telt tijd, oproepen, en fouten voor elke systeem call en geeft een oplijsting bij de beindiging van de applicatie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -c -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Traceert een process filter output via system call:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system_call_name</span></p>

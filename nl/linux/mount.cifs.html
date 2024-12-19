@@ -1,0 +1,23 @@
+<h1 id="mountcifs">mount.cifs</h1>
+
+<p>Mount SMB (Server Message Block) of CIFS (Common Internet File System) shares.
+Let op: u kunt ook hetzelfde doen door de optie <code class="language-plaintext highlighter-rouge">-t cifs</code> door te geven aan <code class="language-plaintext highlighter-rouge">mount</code>.
+Meer informatie: <a href="https://manned.org/mount.cifs">https://manned.org/mount.cifs</a>.</p>
+
+<ul>
+  <li>Verbinding maken met de opgegeven gebruikersnaam of <code class="language-plaintext highlighter-rouge">$USER</code> als standaard (U wordt gevraagd om een wachtwoord):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span><code class="language-plaintext highlighter-rouge"> //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>
+
+<ul>
+  <li>Maak verbinding als gastgebruiker (zonder wachtwoord):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o guest //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>
+
+<ul>
+  <li>Stel eigendomsinformatie in voor de mounted map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o uid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_id|gebruikersnaam</span><code class="language-plaintext highlighter-rouge">,gid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id|groupname</span><code class="language-plaintext highlighter-rouge"> //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>

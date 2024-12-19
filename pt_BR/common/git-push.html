@@ -1,0 +1,52 @@
+<h1 id="git-push">git push</h1>
+
+<p>Envia commits para um repositório remoto.
+Mais informações: <a href="https://git-scm.com/docs/git-push">https://git-scm.com/docs/git-push</a>.</p>
+
+<ul>
+  <li>Envia alterações locais na branch atual para sua contraparte remota padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push</code></p>
+
+<ul>
+  <li>Envia alterações de uma branch local específica para sua contraparte remota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_local</span></p>
+
+<ul>
+  <li>Envia alterações de uma branch local específica para sua contraparte remota, e define a branch remota como o destino push/pull padrão da branch local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_local</span></p>
+
+<ul>
+  <li>Envia alterações de uma branch local específica para uma branch remota específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_local</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_remota</span></p>
+
+<ul>
+  <li>Envia alterações em todas as branches locais para suas contrapartes em um determinado repositório remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_remoto</span></p>
+
+<ul>
+  <li>Exclui uma branch em um repositório remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_remoto</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_remota</span></p>
+
+<ul>
+  <li>Remove branches remotas que não tenham uma contraparte local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --prune </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_remoto</span></p>
+
+<ul>
+  <li>Publica etiquetas que ainda não estão no repositório remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --tags</code></p>

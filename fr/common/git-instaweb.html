@@ -1,0 +1,46 @@
+<h1 id="git-instaweb">git instaweb</h1>
+
+<p>Outil pour le lancement d'un serveur gitweb.
+Plus d'informations : <a href="https://git-scm.com/docs/git-instaweb">https://git-scm.com/docs/git-instaweb</a>.</p>
+
+<ul>
+  <li>Démarre un serveur gitweb depuis le dépôt (<code class="language-plaintext highlighter-rouge">repository</code>) courant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git instaweb --start</code></p>
+
+<ul>
+  <li>Écoute uniquement sur le port localhost :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git instaweb --start --local</code></p>
+
+<ul>
+  <li>Écoute sur un port spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git instaweb --start --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span></p>
+
+<ul>
+  <li>Utiliser un daemon HTTP spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git instaweb --start --httpd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lighttpd|apache2|mongoose|plackup|webrick</span></p>
+
+<ul>
+  <li>Lancer en même temps qu'un navigateur web :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git instaweb --start --browser</code></p>
+
+<ul>
+  <li>Stoppe le serveur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git instaweb --stop</code></p>
+
+<ul>
+  <li>Redémarre le serveur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git instaweb --restart</code></p>

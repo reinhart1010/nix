@@ -1,0 +1,34 @@
+<h1 id="bear">bear</h1>
+
+<p>A tool to generate compilation databases for <code class="language-plaintext highlighter-rouge">clang</code> tooling.
+More information: <a href="https://github.com/rizsotto/Bear">https://github.com/rizsotto/Bear</a>.</p>
+
+<ul>
+  <li>Generate <code class="language-plaintext highlighter-rouge">compile_commands.json</code> by running a build command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bear -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span></p>
+
+<ul>
+  <li>Generate compilation database with a custom output file name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bear --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compile_commands.json</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span></p>
+
+<ul>
+  <li>Append results to an existing <code class="language-plaintext highlighter-rouge">compile_commands.json</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bear --append -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span></p>
+
+<ul>
+  <li>Run in verbose mode to get detailed output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bear --verbose -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span></p>
+
+<ul>
+  <li>Force <code class="language-plaintext highlighter-rouge">bear</code> to use the preload method for command interception:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bear --force-preload -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span></p>

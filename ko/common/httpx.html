@@ -1,0 +1,53 @@
+<h1 id="httpx">httpx</h1>
+
+<p>여러 프로브를 한 번에 실행하기 위해 Go로 작성된 빠르고 다목적 HTTP 도구 키트.
+참고: 동일한 명령 이름을 가진 관련 없는 Python's HTTPX와 혼동하지 말것.
+더 많은 정보: <a href="https://github.com/projectdiscovery/httpx">https://github.com/projectdiscovery/httpx</a>.</p>
+
+<ul>
+  <li>프로브 상태를 표시하는 [u]RL, 호스트, IP 주소 또는 서브넷 (CIDR 표기법)에 대해 프로브를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -probe -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|host|ipaddress|subnet_with_cidr</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">subfinder</code>의 입력으로 상태 코드([s]tatus [c]ode)를 표시하는 여러 호스트에 대해 프로브를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">subfinder -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> | httpx -sc</code></p>
+
+<ul>
+  <li>감지된([d]etected) 기술([t]echnology) 및 응답시간([r]esponse [t]ime)을 보여주는 파일에서 호스트 목록([l]ist)에 대해 제한된 속도로 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -rl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">150</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/개행으로_구분된_호스트_목록</span><code class="language-plaintext highlighter-rouge"> -td -rt</code></p>
+
+<ul>
+  <li>웹페이지 제목, 사용 중인 CDN/WAF 및 페이지 콘텐츠 해시를 표시하는 [u]RL에 대해 프로브를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span><code class="language-plaintext highlighter-rouge"> -title -cdn -hash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha256</span></p>
+
+<ul>
+  <li>사용자 정의된 포트([p]orts)와 특정 초 후 시간 초과가 있는 호스트 목록에 대해 프로블를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -probe -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트1,호스트2,…</span><code class="language-plaintext highlighter-rouge"> -p http:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,8000-8080</span><code class="language-plaintext highlighter-rouge">,https:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">443,8443</span><code class="language-plaintext highlighter-rouge"> -timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>특정 응답 코드([c]odes)를 필터링하여([f]iltering), 호스트 목록에 대해 프로브를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트1,호스트2,…</span><code class="language-plaintext highlighter-rouge"> -fc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">400,401,404</span></p>
+
+<ul>
+  <li>특정 응답 코드([c]odes)와 일치하는([m]atching) 호스트 목록에 대해 프로브를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트1,호스트2,…</span><code class="language-plaintext highlighter-rouge"> -mc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200,301,304</span></p>
+
+<ul>
+  <li>특정 경로의 스크린샷([s]creenshots)을 저장하고([s]aving) 스크린샷 타임아웃([s]creenshot [t]imeouts)을 사용하여 URL에 대해 프로브를 실행 (리소스는 <code class="language-plaintext highlighter-rouge">./output</code>에 저장됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.github.com</span><code class="language-plaintext highlighter-rouge"> -path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/tldr-pages/tldr,/projectdiscovery/httpx</span><code class="language-plaintext highlighter-rouge"> -ss -st </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>

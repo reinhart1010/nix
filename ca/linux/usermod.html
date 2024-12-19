@@ -1,0 +1,35 @@
+<h1 id="usermod">usermod</h1>
+
+<p>Modifica una conta d'usuari.
+Vegeu també: <code class="language-plaintext highlighter-rouge">users</code>, <code class="language-plaintext highlighter-rouge">useradd</code>, <code class="language-plaintext highlighter-rouge">userdel</code>.
+Més informació: <a href="https://manned.org/usermod">https://manned.org/usermod</a>.</p>
+
+<ul>
+  <li>Canvia el nom d'usuari:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod --login </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nou_nom_usuari</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_usuari</span></p>
+
+<ul>
+  <li>Canvia l'id d'usuari:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod --uid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_usuari</span></p>
+
+<ul>
+  <li>Canvia la shell d'un usuari:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod --shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cami/a/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_usuar</span></p>
+
+<ul>
+  <li>Afegeix un usuari a grups suplementaris (cal tenir en compte els espais en blanc):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod --append --groups </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grup1,grup2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_usuar</span></p>
+
+<ul>
+  <li>Crea un nou directori home per un usuari i mou tots els arxius a ell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod --move-home --home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/home</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_usuar</span></p>

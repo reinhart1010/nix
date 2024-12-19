@@ -1,0 +1,40 @@
+<h1 id="procs">procs</h1>
+
+<p>활성 프로세스에 대한 정보를 표시.
+더 많은 정보: <a href="https://github.com/dalance/procs">https://github.com/dalance/procs</a>.</p>
+
+<ul>
+  <li>PID, 사용자, CPU 사용량, 메모리 사용량 및 시작한 명령을 보여주는 모든 프로세스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">procs</code></p>
+
+<ul>
+  <li>트리 형태로 모든 프로세스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">procs --tree</code></p>
+
+<ul>
+  <li>시작한 명령에 Zsh가 포함된 프로세스 정보 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">procs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span></p>
+
+<ul>
+  <li>CPU 시간으로 [a]scending 또는 [d]escending 순서로 정렬된 모든 프로세스 정보 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">procs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–sorta|–sortd</span><code class="language-plaintext highlighter-rouge"> cpu</code></p>
+
+<ul>
+  <li>PID, 명령 또는 사용자에 <code class="language-plaintext highlighter-rouge">41</code> 또는 <code class="language-plaintext highlighter-rouge">firefox</code>가 포함된 프로세스 정보 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">procs --or </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID|command|user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">41</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firefox</span></p>
+
+<ul>
+  <li>PID <code class="language-plaintext highlighter-rouge">41</code>과 명령 또는 사용자에 <code class="language-plaintext highlighter-rouge">zsh</code>가 포함된 프로세스 정보 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">procs --and </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">41</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span></p>

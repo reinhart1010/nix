@@ -1,0 +1,28 @@
+<h1 id="git-ls-tree">git ls-tree</h1>
+
+<p>List the contents of a tree object.
+More information: <a href="https://git-scm.com/docs/git-ls-tree">https://git-scm.com/docs/git-ls-tree</a>.</p>
+
+<ul>
+  <li>List the contents of the tree on a branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>List the contents of the tree on a commit, recursing into subtrees:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-tree -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span></p>
+
+<ul>
+  <li>List only the filenames of the tree on a commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-tree --name-only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span></p>
+
+<ul>
+  <li>Print the filenames of the current branch head in a tree structure (Note: <code class="language-plaintext highlighter-rouge">tree --fromfile</code> is not supported on Windows):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-tree -r --name-only HEAD | tree --fromfile</code></p>

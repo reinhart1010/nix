@@ -1,0 +1,23 @@
+<h1 id="vkpurge">vkpurge</h1>
+
+<p>List or remove old kernel versions left behind by <code class="language-plaintext highlighter-rouge">xbps</code>.
+The <code class="language-plaintext highlighter-rouge">version</code> arguments support shell globs.
+More information: <a href="https://man.voidlinux.org/vkpurge.8">https://man.voidlinux.org/vkpurge.8</a>.</p>
+
+<ul>
+  <li>List all removable kernel versions (or those matching <code class="language-plaintext highlighter-rouge">version</code> if the argument is specified):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vkpurge list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Remove all unused kernels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vkpurge rm all</code></p>
+
+<ul>
+  <li>Remove kernel versions matching <code class="language-plaintext highlighter-rouge">version</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vkpurge rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>

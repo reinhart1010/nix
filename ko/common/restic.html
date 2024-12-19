@@ -1,0 +1,40 @@
+<h1 id="restic">restic</h1>
+
+<p>빠르고 안전한 백업 프로그램.
+더 많은 정보: <a href="https://restic.net">https://restic.net</a>.</p>
+
+<ul>
+  <li>지정된 로컬 디렉터리에 백업 저장소 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic init --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span></p>
+
+<ul>
+  <li>디렉터리를 저장소에 백업:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span><code class="language-plaintext highlighter-rouge"> backup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>저장소에 현재 저장된 백업 스냅샷 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span><code class="language-plaintext highlighter-rouge"> snapshots</code></p>
+
+<ul>
+  <li>특정 백업 스냅샷을 대상 디렉터리에 복원:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span><code class="language-plaintext highlighter-rouge"> restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest|스냅샷_ID</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/타겟</span></p>
+
+<ul>
+  <li>특정 백업의 특정 경로를 대상 디렉터리에 복원:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/저장소</span><code class="language-plaintext highlighter-rouge"> restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스냅샷_ID</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/타겟</span><code class="language-plaintext highlighter-rouge"> --include </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/복원</span></p>
+
+<ul>
+  <li>저장소를 정리하고 각 고유 백업의 최신 스냅샷만 유지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic forget --keep-last 1 --prune</code></p>

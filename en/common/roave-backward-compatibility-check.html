@@ -1,0 +1,28 @@
+<h1 id="roave-backward-compatibility-check">roave-backward-compatibility-check</h1>
+
+<p>Verify backward compatibility breaks between two versions of a PHP library.
+More information: <a href="https://github.com/Roave/BackwardCompatibilityCheck">https://github.com/Roave/BackwardCompatibilityCheck</a>.</p>
+
+<ul>
+  <li>Check for breaking changes since the last tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">roave-backward-compatibility-check</code></p>
+
+<ul>
+  <li>Check for breaking changes since a specific tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">roave-backward-compatibility-check --from=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git_reference</span></p>
+
+<ul>
+  <li>Check for breaking changes between the last tag and a specific reference:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">roave-backward-compatibility-check --to=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git_reference</span></p>
+
+<ul>
+  <li>Check for breaking changes and output to Markdown:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">roave-backward-compatibility-check --format=markdown &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">results.md</span></p>

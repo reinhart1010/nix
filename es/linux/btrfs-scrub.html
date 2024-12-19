@@ -1,0 +1,41 @@
+<h1 id="btrfs-scrub">btrfs scrub</h1>
+
+<p>Realiza un scrub en sistemas de archivos btrfs para verificar la integridad de los datos.
+Se recomienda ejecutar un scrub una vez al mes.
+Más información: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html">https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html</a>.</p>
+
+<ul>
+  <li>Inicia un scrub:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_montaje_btrfs</span></p>
+
+<ul>
+  <li>Muestra el estado de un scrub en curso o del último completado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_montaje_btrfs</span></p>
+
+<ul>
+  <li>Cancela un scrub en curso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub cancel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_montaje_btrfs</span></p>
+
+<ul>
+  <li>Reanuda un scrub previamente cancelado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub resume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_montaje_btrfs</span></p>
+
+<ul>
+  <li>Inicia un scrub, pero espera a que termine antes de salir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub start -B </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_montaje_btrfs</span></p>
+
+<ul>
+  <li>Inicia un scrub en modo silencioso (no imprime errores ni estadísticas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub start -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_montaje_btrfs</span></p>

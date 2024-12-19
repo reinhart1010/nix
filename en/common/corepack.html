@@ -1,0 +1,52 @@
+<h1 id="corepack">corepack</h1>
+
+<p>Zero-runtime-dependency package acting as bridge between Node projects and their package managers.
+More information: <a href="https://github.com/nodejs/corepack">https://github.com/nodejs/corepack</a>.</p>
+
+<ul>
+  <li>Add the Corepack shims to the Node.js installation directory to make them available as global commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">corepack enable</code></p>
+
+<ul>
+  <li>Add the Corepack shims to a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">corepack enable --install-directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Remove the Corepack shims from the Node.js installation directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">corepack disable</code></p>
+
+<ul>
+  <li>Prepare a specific package manager:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">corepack prepare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_manager</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span><code class="language-plaintext highlighter-rouge"> --activate</code></p>
+
+<ul>
+  <li>Prepare the package manager configured for the project in the current path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">corepack prepare</code></p>
+
+<ul>
+  <li>Use a package manager without installing it as a global command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">corepack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm|pnpm|yarn</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_manager_arguments</span></p>
+
+<ul>
+  <li>Install a package manager from the specified archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">corepack hydrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/corepack.tgz</span></p>
+
+<ul>
+  <li>Display help for a subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">corepack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

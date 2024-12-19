@@ -1,0 +1,34 @@
+<h1 id="gh-gist">gh gist</h1>
+
+<p>在命令行上使用 GitHub Gists.
+更多信息：<a href="https://cli.github.com/manual/gh_gist">https://cli.github.com/manual/gh_gist</a>.</p>
+
+<ul>
+  <li>从一个以空格分隔的文件列表中创建一个新的 Gist：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh gist create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/文件</span></p>
+
+<ul>
+  <li>创建一个带有描述的新 Gist：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh gist create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span><code class="language-plaintext highlighter-rouge"> --desc "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">描述</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>编辑一个 Gist：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh gist edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_或_url</span></p>
+
+<ul>
+  <li>列出当前登录用户所拥有的 Gist：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh gist list --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">int</span></p>
+
+<ul>
+  <li>在默认浏览器中查看 Gist，且不渲染 Markdown：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh gist view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_或_url</span><code class="language-plaintext highlighter-rouge"> --web --raw</code></p>

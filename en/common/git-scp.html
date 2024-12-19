@@ -1,0 +1,35 @@
+<h1 id="git-scp">git scp</h1>
+
+<p>Copy files from the current working tree to the working directory of a remote repository.
+Part of <code class="language-plaintext highlighter-rouge">git-extras</code>. Uses <code class="language-plaintext highlighter-rouge">rsync</code> to transfer files.
+More information: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-scp">https://github.com/tj/git-extras/blob/master/Commands.md#git-scp</a>.</p>
+
+<ul>
+  <li>Copy unstaged files to a specific remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span></p>
+
+<ul>
+  <li>Copy staged and unstaged files to a remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> HEAD</code></p>
+
+<ul>
+  <li>Copy files that has been changed in the last commit and any staged or unstaged files to a remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> HEAD~1</code></p>
+
+<ul>
+  <li>Copy specific files to a remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Copy a specific directory to a remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git scp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

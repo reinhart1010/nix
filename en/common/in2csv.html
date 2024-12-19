@@ -1,0 +1,29 @@
+<h1 id="in2csv">in2csv</h1>
+
+<p>Convert various tabular data formats to CSV.
+Included in csvkit.
+More information: <a href="https://csvkit.readthedocs.io/en/latest/scripts/in2csv.html">https://csvkit.readthedocs.io/en/latest/scripts/in2csv.html</a>.</p>
+
+<ul>
+  <li>Convert an XLS file to CSV:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in2csv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.xls</span></p>
+
+<ul>
+  <li>Convert a DBF file to a CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in2csv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.dbf</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Convert a specific sheet from an XLSX file to CSV:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in2csv --sheet=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sheet_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.xlsx</span></p>
+
+<ul>
+  <li>Pipe a JSON file to in2csv:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.json</span><code class="language-plaintext highlighter-rouge"> | in2csv -f json &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>

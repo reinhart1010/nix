@@ -1,0 +1,52 @@
+<h1 id="reg-query">reg query</h1>
+
+<p>레지스트리의 키와 하위 키의 값을 표시.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query</a>.</p>
+
+<ul>
+  <li>키의 모든 값 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span></p>
+
+<ul>
+  <li>키의 특정 [값] 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>키와 하위 키의 모든 값 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>특정 패턴과 일치하는 키와 값을 [검색]:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>지정된 데이터 [형식]과 일치하는 키의 값 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /t REG_</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SZ|MULTI_SZ|EXPAND_SZ|DWORD|BINARY|NONE</span></p>
+
+<ul>
+  <li>데이터에서만 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /d</code></p>
+
+<ul>
+  <li>키 이름에서만 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" /k</code></p>
+
+<ul>
+  <li>[대소문자] 구분하여 [정확히] 일치하는 값 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /c /e</code></p>

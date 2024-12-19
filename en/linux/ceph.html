@@ -1,0 +1,46 @@
+<h1 id="ceph">ceph</h1>
+
+<p>A unified storage system.
+More information: <a href="https://ceph.io/en">https://ceph.io/en</a>.</p>
+
+<ul>
+  <li>Check cluster health status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ceph status</code></p>
+
+<ul>
+  <li>Check cluster usage stats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ceph df</code></p>
+
+<ul>
+  <li>Get the statistics for the placement groups in a cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ceph pg dump --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plain</span></p>
+
+<ul>
+  <li>Create a storage pool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ceph osd pool create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page_number</span></p>
+
+<ul>
+  <li>Delete a storage pool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ceph osd pool delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name</span></p>
+
+<ul>
+  <li>Rename a storage pool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ceph osd pool rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">current_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_name</span></p>
+
+<ul>
+  <li>Self-repair pool storage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ceph pg repair </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name</span></p>

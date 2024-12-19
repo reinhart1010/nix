@@ -1,0 +1,52 @@
+<h1 id="docker-system">docker system</h1>
+
+<p>Verwalte Docker Daten und zeige systemweite Informationen an.
+Weitere Informationen: <a href="https://docs.docker.com/reference/cli/docker/system/">https://docs.docker.com/reference/cli/docker/system/</a>.</p>
+
+<ul>
+  <li>Zeige Hilfe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system</code></p>
+
+<ul>
+  <li>Zeige Docker Festplattennutzung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system df</code></p>
+
+<ul>
+  <li>Zeige detaillierte Informationen zur Festplattennutzung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system df --verbose</code></p>
+
+<ul>
+  <li>Entferne nicht-verwendete Daten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system prune</code></p>
+
+<ul>
+  <li>Entferne nicht-verwendete Daten, die älter als die angegebene Zeit sind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system prune --filter "until=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stunden</span><code class="language-plaintext highlighter-rouge">h</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minuten</span><code class="language-plaintext highlighter-rouge">m"</code></p>
+
+<ul>
+  <li>Zeige Echtzeit-Events vom Docker Daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system events</code></p>
+
+<ul>
+  <li>Zeige Echtzeit-Events von Containern und formatiere jede Zeile als gültiges JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system events --filter 'type=container' --format '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json .</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Zeige systemweite Informationen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system info</code></p>

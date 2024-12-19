@@ -1,0 +1,40 @@
+<h1 id="hyperfine">hyperfine</h1>
+
+<p>A command-line benchmarking tool.
+More information: <a href="https://github.com/sharkdp/hyperfine/">https://github.com/sharkdp/hyperfine/</a>.</p>
+
+<ul>
+  <li>Run a basic benchmark, performing at least 10 runs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Run a comparative benchmark:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make target1</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make target2</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Change minimum number of benchmarking runs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine --min-runs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Perform benchmark with warmup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine --warmup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Run a command before each benchmark run (to clear caches, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine --prepare '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make clean</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Run a benchmark where a single parameter changes for each run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hyperfine --prepare '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make clean</span><code class="language-plaintext highlighter-rouge">' --parameter-scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num_threads</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make -j {num_threads}</span><code class="language-plaintext highlighter-rouge">'</code></p>

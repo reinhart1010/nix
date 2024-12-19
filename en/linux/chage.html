@@ -1,0 +1,34 @@
+<h1 id="chage">chage</h1>
+
+<p>Change user account and password expiry information.
+More information: <a href="https://manned.org/chage">https://manned.org/chage</a>.</p>
+
+<ul>
+  <li>List password information for the user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chage --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Enable password expiration in 10 days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chage --maxdays </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Disable password expiration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chage --maxdays </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Set account expiration date:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chage --expiredate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Force user to change password on next log in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chage --lastday </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>

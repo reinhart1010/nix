@@ -1,0 +1,28 @@
+<h1 id="cradle-deploy">cradle deploy</h1>
+
+<p>Gestisci distribuzioni Cradle.
+Maggiori informazioni: <a href="https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#deploy">https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#deploy</a>.</p>
+
+<ul>
+  <li>Distribuisci Cradle su un server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cradle deploy production</code></p>
+
+<ul>
+  <li>Distribuisci assets statici ad Amazon S3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cradle deploy s3</code></p>
+
+<ul>
+  <li>Distribuisci assets statici, inclusa la directory "components" di Yarn:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cradle deploy s3 --include-yarn</code></p>
+
+<ul>
+  <li>Distribuisci assets statici, includendo la directory "upload":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cradle deploy s3 --include-upload</code></p>

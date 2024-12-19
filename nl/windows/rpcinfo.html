@@ -1,0 +1,28 @@
+<h1 id="rpcinfo">rpcinfo</h1>
+
+<p>Toon programma's via RPC op externe computers.
+Meer informatie: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/rpcinfo">https://learn.microsoft.com/windows-server/administration/windows-commands/rpcinfo</a>.</p>
+
+<ul>
+  <li>Toon alle programma's geregistreerd op de lokale computer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo</code></p>
+
+<ul>
+  <li>Toon alle programma's geregistreerd op een externe computer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_naam</span></p>
+
+<ul>
+  <li>Roep een specifiek programma aan op een externe computer via TCP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programma_naam</span></p>
+
+<ul>
+  <li>Roep een specifiek programma aan op een externe computer via UDP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo /u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programma_naam</span></p>

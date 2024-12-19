@@ -1,0 +1,28 @@
+<h1 id="add-appxpackage">Add-AppxPackage</h1>
+
+<p>A PowerShell utility to add a signed app package (<code class="language-plaintext highlighter-rouge">.appx</code>, <code class="language-plaintext highlighter-rouge">.msix</code>, <code class="language-plaintext highlighter-rouge">.appxbundle</code> and <code class="language-plaintext highlighter-rouge">.msixbundle</code>) to a user account.
+More information: <a href="https://learn.microsoft.com/powershell/module/appx/Add-AppxPackage">https://learn.microsoft.com/powershell/module/appx/Add-AppxPackage</a>.</p>
+
+<ul>
+  <li>Add an app package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\package.msix</span></p>
+
+<ul>
+  <li>Add an app package with dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\package.msix</span><code class="language-plaintext highlighter-rouge"> -DependencyPath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\dependencies.msix</span></p>
+
+<ul>
+  <li>Install an app using the app installer file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -AppInstallerFile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\app.appinstaller</span></p>
+
+<ul>
+  <li>Add an unsigned package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\package.msix</span><code class="language-plaintext highlighter-rouge"> -DependencyPath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\dependencies.msix</span><code class="language-plaintext highlighter-rouge"> -AllowUnsigned</code></p>

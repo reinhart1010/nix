@@ -1,0 +1,29 @@
+<h1 id="az-storage-table">az storage table</h1>
+
+<p>Azure에서 NoSQL 키-값 스토리지를 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/storage/table">https://learn.microsoft.com/cli/azure/storage/table</a>.</p>
+
+<ul>
+  <li>스토리지 계정에 새 테이블을 만듬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage table create --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --fail-on-exist</code></p>
+
+<ul>
+  <li>테이블에 대한 공유 액세스 서명을 공유:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage table generate-sas --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --permissions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sas_permissions</span><code class="language-plaintext highlighter-rouge"> --expiry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">만료_날짜</span><code class="language-plaintext highlighter-rouge"> --https-only</code></p>
+
+<ul>
+  <li>스토리지 계정의 테이블 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage table list --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span></p>
+
+<ul>
+  <li>지정된 테이블과 여기에 포함된 모든 데이터를 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage table delete --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --fail-not-exist</code></p>

@@ -1,0 +1,40 @@
+<h1 id="pg_dump">pg_dump</h1>
+
+<p>Extract a PostgreSQL database into a script file or other archive file.
+More information: <a href="https://www.postgresql.org/docs/current/app-pgdump.html">https://www.postgresql.org/docs/current/app-pgdump.html</a>.</p>
+
+<ul>
+  <li>Dump database into an SQL-script file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file.sql</span></p>
+
+<ul>
+  <li>Same as above, customize username:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file.sql</span></p>
+
+<ul>
+  <li>Same as above, customize host and port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file.sql</span></p>
+
+<ul>
+  <li>Dump a database into a custom-format archive file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump -Fc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file.dump</span></p>
+
+<ul>
+  <li>Dump only database data into an SQL-script file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.sql</span></p>
+
+<ul>
+  <li>Dump only schema (data definitions) into an SQL-script file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.sql</span></p>

@@ -1,0 +1,29 @@
+<h1 id="get-alias">Get-Alias</h1>
+
+<p>Toon en verkrijg commando aliases in de huidige PowerShell sessie.
+Dit commando kan alleen worden uitgevoerd onder PowerShell.
+Meer informatie: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-alias">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-alias</a>.</p>
+
+<ul>
+  <li>Toon alle aliases in de huidige sessie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Alias</code></p>
+
+<ul>
+  <li>Ontvang de aliased commando naam:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando_alias</span></p>
+
+<ul>
+  <li>Toon alle aliases toegewezen aan een specifiek commando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Alias -Definition </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span></p>
+
+<ul>
+  <li>Toon aliases die beginnen met <code class="language-plaintext highlighter-rouge">abc</code>, maar sluit die uit die eindigen op<code class="language-plaintext highlighter-rouge">def</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">abc</span><code class="language-plaintext highlighter-rouge">* -Exclude *</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">def</span></p>

@@ -1,0 +1,40 @@
+<h1 id="influx">influx</h1>
+
+<p>InfluxDB 커멘드 라인 클라이언트.
+더 많은 정보: <a href="https://docs.influxdata.com/influxdb/v1.7/tools/shell/">https://docs.influxdata.com/influxdb/v1.7/tools/shell/</a>.</p>
+
+<ul>
+  <li>자격증명 없이 localhost에서 실행되는 InfluxDB에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx</code></p>
+
+<ul>
+  <li>특정 사용자 이름으로 연결 (비밀번호를 묻는 메시지가 표시됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx -username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -password ""</code></p>
+
+<ul>
+  <li>특정 호스트에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span></p>
+
+<ul>
+  <li>특정 데이터베이스 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx -database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span></p>
+
+<ul>
+  <li>주어진 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx -execute "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">influxql_명령</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 형식으로 출력을 반환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx -execute "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">influxql_명령</span><code class="language-plaintext highlighter-rouge">" -format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|csv|column</span></p>

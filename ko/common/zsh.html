@@ -1,0 +1,53 @@
+<h1 id="zsh">zsh</h1>
+
+<p>Z SHell, Bash 호환 명령줄 인터프리터.
+같이 보기: <code class="language-plaintext highlighter-rouge">bash</code>, <code class="language-plaintext highlighter-rouge">histexpand</code>.
+더 많은 정보: <a href="https://www.zsh.org">https://www.zsh.org</a>.</p>
+
+<ul>
+  <li>대화형 셸 세션 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh</code></p>
+
+<ul>
+  <li>특정 [c]명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 스크립트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.zsh</span></p>
+
+<ul>
+  <li>특정 스크립트를 실행하지 않고 구문 오류 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh --no-exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.zsh</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 특정 명령 실행:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span><code class="language-plaintext highlighter-rouge"> | zsh</code></p>
+
+<ul>
+  <li>특정 스크립트를 실행하며 각 명령을 실행 전에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh --xtrace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.zsh</span></p>
+
+<ul>
+  <li>대화형 셸 세션을 자세한 모드로 시작하여 실행 전 각 명령 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh --verbose</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">zsh</code> 내에서 특정 명령을 글로브 패턴 비활성화하여 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">noglob </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>

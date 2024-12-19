@@ -1,0 +1,28 @@
+<h1 id="salt-call">salt-call</h1>
+
+<p>Invoke salt locally on a salt minion.
+More information: <a href="https://docs.saltproject.io/en/latest/ref/cli/salt-call.html">https://docs.saltproject.io/en/latest/ref/cli/salt-call.html</a>.</p>
+
+<ul>
+  <li>Perform a highstate on this minion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-call state.highstate</code></p>
+
+<ul>
+  <li>Perform a highstate dry-run, compute all changes but don't actually perform them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-call state.highstate test=true</code></p>
+
+<ul>
+  <li>Perform a highstate with verbose debugging output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-call -l debug state.highstate</code></p>
+
+<ul>
+  <li>List this minion's grains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-call grains.items</code></p>

@@ -1,0 +1,41 @@
+<h1 id="pacman-upgrade">pacman –upgrade</h1>
+
+<p>Kegunaan manajer paket Arch Linux.
+Guarda anche: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Informasi lebih lanjut: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Instal satu paket atau lebih dari file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/paket1.pkg.tar.zst</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/paket2.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Instal paket tanpa konfirmasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/paket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Timpa file yang bentrok selama pemasangan paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/paket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Instal paket, melewati pemeriksaan versi dependensi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade --nodeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/paket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Tampilkan daftar paket yang akan terpengaruh (tidak menginstal paket apa pun):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --upgrade --print </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/paket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Tampilkan bantuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --upgrade --help</code></p>

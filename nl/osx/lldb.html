@@ -1,0 +1,22 @@
+<h1 id="lldb">lldb</h1>
+
+<p>De LLVM Low-Level Debugger.
+Meer informatie: <a href="https://lldb.llvm.org/man/lldb.html">https://lldb.llvm.org/man/lldb.html</a>.</p>
+
+<ul>
+  <li>Debug een uitvoerbaar bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lldb "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uitvoerbaar_bestand</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Koppel <code class="language-plaintext highlighter-rouge">lldb</code> aan een draaiend proces met een gegeven PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lldb -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Wacht op de start van een nieuw proces met een gegeven naam en koppel eraan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lldb -w -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proces_naam</span><code class="language-plaintext highlighter-rouge">"</code></p>

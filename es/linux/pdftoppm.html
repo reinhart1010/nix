@@ -1,0 +1,34 @@
+<h1 id="pdftoppm">pdftoppm</h1>
+
+<p>Convierte páginas de documentos PDF al formato de imagen Pixmap portátil.
+Más información: <a href="https://manned.org/pdftoppm">https://manned.org/pdftoppm</a>.</p>
+
+<ul>
+  <li>Especifica el rango de páginas a convertir (N es la primera página, M es la última página):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftoppm -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">M</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefijo_del_nombre_de_la_imagen</span></p>
+
+<ul>
+  <li>Convierte solo la primera página de un PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftoppm -singlefile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefijo_del_nombre_de_la_imagen</span></p>
+
+<ul>
+  <li>Genera un archivo PBM monocromático (en lugar de un archivo PPM de color):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftoppm -mono </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefijo_del_nombre_de_la_imagen</span></p>
+
+<ul>
+  <li>Genera un archivo PGM en escala de grises (en lugar de un archivo PPM de color):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftoppm -gray </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefijo_del_nombre_de_la_imagen</span></p>
+
+<ul>
+  <li>Genera un archivo PNG en lugar de un archivo PPM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftoppm -png </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefijo_del_nombre_de_la_imagen</span></p>

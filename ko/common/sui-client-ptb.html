@@ -1,0 +1,34 @@
+<h1 id="sui-client-ptb">sui client ptb</h1>
+
+<p>프로그래머블 트랜잭션 블록 생성, 서명 및 실행.
+더 많은 정보: <a href="https://docs.sui.io/references/cli/ptb">https://docs.sui.io/references/cli/ptb</a>.</p>
+
+<ul>
+  <li>패키지와 모듈에서 Move 함수 호출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client ptb --move-call p::m::f "&lt;</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타입</span><code class="language-plaintext highlighter-rouge">&gt;" args</code></p>
+
+<ul>
+  <li>u64 타입의 두 요소로 Move 벡터 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client ptb --make-move-vec "&lt;u64&gt;" "[1000,2000]"</code></p>
+
+<ul>
+  <li>가스 코인을 분할하고 주소로 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client ptb --split-coins gas "[1000]" --assign new_coins --transfer-objects "[new_coins]" @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span></p>
+
+<ul>
+  <li>객체를 주소로 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client ptb --transfer-objects "[</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">객체_ID</span><code class="language-plaintext highlighter-rouge">]" @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span></p>
+
+<ul>
+  <li>Move 패키지를 게시하고 업그레이드 기능을 송신자에게 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client ptb --move-call sui::tx_context::sender --assign sender --publish "." --assign upgrade_cap --transfer-objects "[upgrade_cap]" sender</code></p>

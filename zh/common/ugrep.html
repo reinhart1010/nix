@@ -1,0 +1,52 @@
+<h1 id="ugrep">ugrep</h1>
+
+<p>超快速搜索工具，带有查询 TUI。
+更多信息：<a href="https://github.com/Genivia/ugrep">https://github.com/Genivia/ugrep</a>.</p>
+
+<ul>
+  <li>启动查询 TUI，在当前目录中递归搜索文件（按 CTRL-Z 获取帮助）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --query</code></p>
+
+<ul>
+  <li>在当前目录中递归搜索包含正则表达式搜索模式的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>在特定文件或特定目录中的所有文件中搜索，并显示匹配的行号：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --line-number "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件或目录</span></p>
+
+<ul>
+  <li>递归搜索当前目录中的所有文件，并打印每个匹配文件的名称：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --files-with-matches "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>模糊搜索文件，允许模式中多达 3 个额外、缺失或不匹配的字符：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --fuzzy=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>也递归搜索压缩文件、Zip 和 tar 存档：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --decompress "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>仅搜索文件名匹配特定 glob 模式的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --glob="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">glob_pattern</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>仅搜索 C++ 源文件（使用 <code class="language-plaintext highlighter-rouge">--file-type=list</code> 列出所有文件类型）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ugrep --file-type=cpp "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>

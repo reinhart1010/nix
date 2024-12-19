@@ -1,0 +1,46 @@
+<h1 id="fastboot">fastboot</h1>
+
+<p>Communicate with connected Android devices when in bootloader mode (the one place ADB doesn't work).
+More information: <a href="https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot">https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot</a>.</p>
+
+<ul>
+  <li>Unlock the bootloader:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot oem unlock</code></p>
+
+<ul>
+  <li>Relock the bootloader:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot oem lock</code></p>
+
+<ul>
+  <li>Reboot the device from fastboot mode into fastboot mode again:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot reboot bootloader</code></p>
+
+<ul>
+  <li>Flash a given image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot flash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span></p>
+
+<ul>
+  <li>Flash a custom recovery image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot flash recovery </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span></p>
+
+<ul>
+  <li>List connected devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot devices</code></p>
+
+<ul>
+  <li>Display all information of a device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot getvar all</code></p>

@@ -1,0 +1,41 @@
+<h1 id="torsocks">torsocks</h1>
+
+<p>Enruta el tráfico de cualquier aplicación a través de la red Tor.
+Nota: <code class="language-plaintext highlighter-rouge">torsocks</code> asumirá que debe conectarse al proxy SOCKS que corre en 127.0.0.1:9050 que es el servicio (daemon) predeterminado de Tor.
+Más información: <a href="https://gitlab.torproject.org/tpo/core/torsocks/">https://gitlab.torproject.org/tpo/core/torsocks/</a>.</p>
+
+<ul>
+  <li>Ejecuta un comando usando Tor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torsocks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Activa o desactiva Tor en este intérprete de comandos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">. torsocks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span></p>
+
+<ul>
+  <li>Lanza una nueva interfaz de comando habilitada con Tor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torsocks --shell</code></p>
+
+<ul>
+  <li>Revisa si la interfaz de comando actual está habilitada con Tor (<code class="language-plaintext highlighter-rouge">LD_PRELOAD</code> este valor estará vacío si no está habilitada):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torsocks show</code></p>
+
+<ul>
+  <li>Aísla el tráfico a través de un circuito Tor diferente, mejorando el anonimato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torsocks --isolate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">curl https://check.torproject.org/api/ip</span></p>
+
+<ul>
+  <li>Se conecta a un proxy Tor que se ejecuta en una dirección y un puerto específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">torsocks --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>

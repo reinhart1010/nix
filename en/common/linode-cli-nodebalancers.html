@@ -1,0 +1,47 @@
+<h1 id="linode-cli-nodebalancers">linode-cli nodebalancers</h1>
+
+<p>Manage Linode NodeBalancers.
+See also: <code class="language-plaintext highlighter-rouge">linode-cli</code>.
+More information: <a href="https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-nodebalancers">https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-nodebalancers</a>.</p>
+
+<ul>
+  <li>List all NodeBalancers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli nodebalancers list</code></p>
+
+<ul>
+  <li>Create a new NodeBalancer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli nodebalancers create --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span></p>
+
+<ul>
+  <li>View details of a specific NodeBalancer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli nodebalancers view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodebalancer_id</span></p>
+
+<ul>
+  <li>Update an existing NodeBalancer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli nodebalancers update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodebalancer_id</span><code class="language-plaintext highlighter-rouge"> --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_label</span></p>
+
+<ul>
+  <li>Delete a NodeBalancer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli nodebalancers delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodebalancer_id</span></p>
+
+<ul>
+  <li>List configurations for a NodeBalancer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli nodebalancers configs list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodebalancer_id</span></p>
+
+<ul>
+  <li>Add a new configuration to a NodeBalancer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli nodebalancers configs create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodebalancer_id</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> --protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol</span></p>

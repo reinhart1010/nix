@@ -1,0 +1,34 @@
+<h1 id="glab-mr-merge">glab mr merge</h1>
+
+<p>GitLab 병합 요청을 관리.
+더 많은 정보: <a href="https://glab.readthedocs.io/en/latest/mr/merge.html">https://glab.readthedocs.io/en/latest/mr/merge.html</a>.</p>
+
+<ul>
+  <li>현재 브랜치와 관련된 병합 요청을 대화식으로 병합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr merge</code></p>
+
+<ul>
+  <li>지정된 병합 요청을 대화식으로 병합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mr_번호</span></p>
+
+<ul>
+  <li>로컬과 원격 모두에서 브랜치를 제거하여 병합 요청을 병합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr merge --remove-source-branch</code></p>
+
+<ul>
+  <li>현재 병합 요청을 메시지 본문과 함께 하나의 커밋으로 스쿼시하고 병합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr merge --squash --message="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_메시지_본체</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab mr merge --help</code></p>

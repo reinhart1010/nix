@@ -1,0 +1,34 @@
+<h1 id="pdftk">pdftk</h1>
+
+<p>PDF toolkit.
+More information: <a href="https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit">https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit</a>.</p>
+
+<ul>
+  <li>Extract pages 1-3, 5 and 6-10 from a PDF file and save them as another one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.pdf</span><code class="language-plaintext highlighter-rouge"> cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-3 5 6-10</span><code class="language-plaintext highlighter-rouge"> output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span></p>
+
+<ul>
+  <li>Merge (concatenate) a list of PDF files and save the result as another one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1.pdf file2.pdf …</span><code class="language-plaintext highlighter-rouge"> cat output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span></p>
+
+<ul>
+  <li>Split each page of a PDF file into a separate file, with a given filename output pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.pdf</span><code class="language-plaintext highlighter-rouge"> burst output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">out_%d.pdf</span></p>
+
+<ul>
+  <li>Rotate all pages by 180 degrees clockwise:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.pdf</span><code class="language-plaintext highlighter-rouge"> cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-endsouth</span><code class="language-plaintext highlighter-rouge"> output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span></p>
+
+<ul>
+  <li>Rotate third page by 90 degrees clockwise and leave others unchanged:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.pdf</span><code class="language-plaintext highlighter-rouge"> cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-2 3east 4-end</span><code class="language-plaintext highlighter-rouge"> output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span></p>

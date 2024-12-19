@@ -1,0 +1,34 @@
+<h1 id="solo">solo</h1>
+
+<p>Interact with Solo hardware security keys.
+More information: <a href="https://github.com/solokeys/solo-python">https://github.com/solokeys/solo-python</a>.</p>
+
+<ul>
+  <li>List connected Solos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">solo ls</code></p>
+
+<ul>
+  <li>Update the currently connected Solo's firmware to the latest version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">solo key update</code></p>
+
+<ul>
+  <li>Blink the LED of a specific Solo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">solo key wink --serial </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">serial_number</span></p>
+
+<ul>
+  <li>Generate random bytes using the currently connected Solo's secure random number generator:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">solo key rng raw</code></p>
+
+<ul>
+  <li>Monitor the serial output of a Solo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">solo monitor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/serial_port</span></p>

@@ -1,0 +1,34 @@
+<h1 id="qm-create">qm create</h1>
+
+<p>Crea o restaura una máquina virtual en el administrador de máquinas virtuales QEMU/KVM.
+Más información: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Crea una máquina virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Inicia automáticamente la máquina después de su creación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --start 1</code></p>
+
+<ul>
+  <li>Especifica el tipo de sistema operativo en la máquina virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --ostype </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">win10</span></p>
+
+<ul>
+  <li>Reemplaza una máquina existente (requiere archivarla):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_respaldo.tar</span><code class="language-plaintext highlighter-rouge"> --force 1</code></p>
+
+<ul>
+  <li>Especifica un guión (script) a ejecutar automáticamente dependiendo del estado de la máquina virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --hookscript </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/guión.pl</span></p>

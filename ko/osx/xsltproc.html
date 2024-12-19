@@ -1,0 +1,16 @@
+<h1 id="xsltproc">xsltproc</h1>
+
+<p>XSLT를 사용하여 XML을 변환하여 출력(주로 HTML 또는 XML)을 생성합니다.
+더 많은 정보: <a href="http://www.xmlsoft.org/xslt/xsltproc.html">http://www.xmlsoft.org/xslt/xsltproc.html</a>.</p>
+
+<ul>
+  <li>특정 XSLT 스타일시트를 사용하여 XML 파일 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsltproc --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스타일시트_파일.xslt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.xml</span></p>
+
+<ul>
+  <li>스타일시트의 매개변수에 값을 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsltproc --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.html</span><code class="language-plaintext highlighter-rouge"> --stringparam "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스타일시트_파일.xslt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/xml_파일.xml</span></p>

@@ -1,0 +1,40 @@
+<h1 id="slurmrestd">slurmrestd</h1>
+
+<p>REST API를 통해 Slurm에 인터페이스를 제공하는 도구입니다. <em>Inetd 모드</em> 및 <em>Listen 모드</em>에서 사용할 수 있습니다.
+더 많은 정보: <a href="https://slurm.schedmd.com/slurmrestd.html">https://slurm.schedmd.com/slurmrestd.html</a>.</p>
+
+<ul>
+  <li>클라이언트 요청을 처리하기 전에 그룹 ID를 변경하고 보조 그룹을 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurmrestd --g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[호스트]:포트 | unix:/경로/대상/소켓</span></p>
+
+<ul>
+  <li>로드할 인증 플러그인의 쉼표로 구분된 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurmrestd -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인증_플러그인</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[호스트]:포트 | unix:/경로/대상/소켓</span></p>
+
+<ul>
+  <li>지정된 파일에서 Slurm 설정 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurmrestd -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>클라이언트 요청을 처리하기 전에 사용자 ID 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurmrestd -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_ID</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurmrestd -h</code></p>
+
+<ul>
+  <li>버전 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurmrestd -V</code></p>

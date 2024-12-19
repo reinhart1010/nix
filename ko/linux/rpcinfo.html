@@ -1,0 +1,34 @@
+<h1 id="rpcinfo">rpcinfo</h1>
+
+<p>RPC 서버에 RPC 호출을 수행하고 결과를 보고합니다.
+더 많은 정보: <a href="https://manned.org/rpcinfo">https://manned.org/rpcinfo</a>.</p>
+
+<ul>
+  <li>localhost에 등록된 모든 RPC 서비스의 전체 테이블 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo</code></p>
+
+<ul>
+  <li>localhost에 등록된 모든 RPC 서비스의 간결한 테이블 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span></p>
+
+<ul>
+  <li>localhost에서 rpcbind 작업의 통계 테이블 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -m</code></p>
+
+<ul>
+  <li>원격 NFS 공유에서 주어진 서비스 이름(mountd)과 버전 번호(2)의 항목 목록 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_NFS_서버_IP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>모든 전송 방식에 대해 mountd 서비스의 버전 1 등록 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>

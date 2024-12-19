@@ -1,0 +1,46 @@
+<h1 id="ndctl">ndctl</h1>
+
+<p>Utility for managing Non-Volatile DIMMs.
+More information: <a href="https://manned.org/ndctl">https://manned.org/ndctl</a>.</p>
+
+<ul>
+  <li>Create an 'fsdax' mode namespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ndctl create-namespace --mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fsdax</span></p>
+
+<ul>
+  <li>Change the mode of a namespace to 'raw':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ndctl create-namespace --reconfigure=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespaceX.Y</span><code class="language-plaintext highlighter-rouge"> --mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw</span></p>
+
+<ul>
+  <li>Check a sector mode namespace for consistency, and repair if needed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ndctl check-namespace --repair </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespaceX.Y</span></p>
+
+<ul>
+  <li>List all namespaces, regions, and buses (including disabled ones):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ndctl list --namespaces --regions --buses --idle</code></p>
+
+<ul>
+  <li>List a specific namespace and include lots of additional information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ndctl list -vvv --namespace=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespaceX.Y</span></p>
+
+<ul>
+  <li>Run a monitor to watch for SMART health events for NVDIMMs on the 'ACPI.NFIT' bus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ndctl monitor --bus=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ACPI.NFIT</span></p>
+
+<ul>
+  <li>Remove a namespace (when applicable) or reset it to an initial state:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ndctl destroy-namespace --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespaceX.Y</span></p>

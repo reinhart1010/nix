@@ -1,0 +1,47 @@
+<h1>[</h1>
+
+<p>بررسی نوع فایل و مقایسه مقدار ها
+عدد 0 برمیگرداند اگر شرط درست باشد و 1 اگر شرط نادرست باشد
+اطلاعات بیشتر: <a href="https://gnu.org/software/bash/manual/bash.html#index-test">https://gnu.org/software/bash/manual/bash.html#index-test</a>.</p>
+
+<ul>
+  <li>بررسی میکند که آیا یک متغییر با رشته معین برابر است یا نابرابر :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">=|!=</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>اینکه متغییری برابر/ نابرابر/ بزرگتر از/ کوچکتر از/ برابر یا بزرگتر/ کوچکتر یا برابر با عددی است را بررسی میکند :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq|ne|gt|lt|ge|le</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">integer</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>اینکه متغییر با مقدار معین دارد یا مقدار نا معین دارد را بررسی میکند :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -n "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>اینکه متغییری مقدار تهی دارد را بررسی میکند :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -z "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>اینکه فایل معینی وجود دارد یا خیر را بررسی میکند :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>اینکه دایرکتوری معینی وجود دارد یا خیر را بررسی میکند :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>اینکه فایل یا دایرکتوری معینی وجود دارد یا خیر را بررسی میکند :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span><code class="language-plaintext highlighter-rouge"> ]</code></p>

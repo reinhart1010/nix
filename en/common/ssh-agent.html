@@ -1,0 +1,18 @@
+<h1 id="ssh-agent">ssh-agent</h1>
+
+<p>Spawn an SSH Agent process.
+An SSH Agent holds SSH keys decrypted in memory until removed or the process is killed.
+See also <code class="language-plaintext highlighter-rouge">ssh-add</code>, which can add and manage keys held by an SSH Agent.
+More information: <a href="https://man.openbsd.org/ssh-agent">https://man.openbsd.org/ssh-agent</a>.</p>
+
+<ul>
+  <li>Start an SSH Agent for the current shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eval $(ssh-agent)</code></p>
+
+<ul>
+  <li>Kill the currently running agent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-agent -k</code></p>

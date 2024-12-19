@@ -1,0 +1,40 @@
+<h1 id="openvpn">openvpn</h1>
+
+<p>OpenVPN 클라이언트 및 데몬 바이너리.
+더 많은 정보: <a href="https://openvpn.net/">https://openvpn.net/</a>.</p>
+
+<ul>
+  <li>구성 파일을 사용하여 서버에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo openvpn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/클라이언트.conf</span></p>
+
+<ul>
+  <li>bob.example.com 호스트에서 안전하지 않은 피어-투-피어 터널 설정 시도:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo openvpn --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice.example.com</span><code class="language-plaintext highlighter-rouge"> --dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tun1</span><code class="language-plaintext highlighter-rouge"> --ifconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.2</span></p>
+
+<ul>
+  <li>암호화 없이 대기 중인 bob.example.com 호스트에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo openvpn --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bob.example.com</span><code class="language-plaintext highlighter-rouge"> --dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tun1</span><code class="language-plaintext highlighter-rouge"> --ifconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.1</span></p>
+
+<ul>
+  <li>암호화 키를 생성하고 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn --genkey secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키</span></p>
+
+<ul>
+  <li>고정 키를 사용하여 bob.example.com 호스트에서 피어-투-피어 터널 설정 시도:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo openvpn --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice.example.com</span><code class="language-plaintext highlighter-rouge"> --dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tun1</span><code class="language-plaintext highlighter-rouge"> --ifconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.2</span><code class="language-plaintext highlighter-rouge"> --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키</span></p>
+
+<ul>
+  <li>bob.example.com에서 사용된 동일한 고정 키로 대기 중인 bob.example.com 호스트에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo openvpn --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bob.example.com</span><code class="language-plaintext highlighter-rouge"> --dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tun1</span><code class="language-plaintext highlighter-rouge"> --ifconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.4.0.1</span><code class="language-plaintext highlighter-rouge"> --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키</span></p>

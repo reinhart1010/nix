@@ -1,0 +1,29 @@
+<h1 id="update-rcd">update-rc.d</h1>
+
+<p>Install and remove services which are System-V style init script links.
+Init scripts are in the <code class="language-plaintext highlighter-rouge">/etc/init.d/</code>.
+More information: <a href="https://manned.org/update-rc.d">https://manned.org/update-rc.d</a>.</p>
+
+<ul>
+  <li>Install a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-rc.d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mysql</span><code class="language-plaintext highlighter-rouge"> defaults</code></p>
+
+<ul>
+  <li>Enable a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-rc.d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mysql</span><code class="language-plaintext highlighter-rouge"> enable</code></p>
+
+<ul>
+  <li>Disable a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-rc.d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mysql</span><code class="language-plaintext highlighter-rouge"> disable</code></p>
+
+<ul>
+  <li>Forcibly remove a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-rc.d -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mysql</span><code class="language-plaintext highlighter-rouge"> remove</code></p>

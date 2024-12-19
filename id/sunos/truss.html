@@ -1,0 +1,35 @@
+<h1 id="truss">truss</h1>
+
+<p>Alat pemecah masalah untuk menelusuri panggilan sistem.
+Perintah setara strace untuk SunOS.
+Informasi lebih lanjut: <a href="https://www.unix.com/man-page/linux/1/truss">https://www.unix.com/man-page/linux/1/truss</a>.</p>
+
+<ul>
+  <li>Telusuri sebuah program dengan mengeksekusinya dan mengawasi semua proses turunan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Mulai menelusuri sebuah proses tertentu berdasarkan PID-nya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Mulai menelusuri sebuah program dengan mengeksekusinya, tampilkan argumen-argumen dan variabel-variabel lingkungan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -a -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Menghitung waktu, panggilan, dan error untuk setiap panggilan sistem dan laporkan sebuah ringkasan saat keluar program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -c -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Telusuri proses berdasarkan keluaran dari panggilan sistem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_panggilan_sistem</span></p>

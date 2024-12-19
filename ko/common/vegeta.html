@@ -1,0 +1,41 @@
+<h1 id="vegeta">vegeta</h1>
+
+<p>HTTP 부하 테스트를 위한 명령줄 도구 및 라이브러리.
+같이 보기: <code class="language-plaintext highlighter-rouge">ab</code>.
+더 많은 정보: <a href="https://github.com/tsenart/vegeta">https://github.com/tsenart/vegeta</a>.</p>
+
+<ul>
+  <li>30초 동안 공격 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET https://example.com</span><code class="language-plaintext highlighter-rouge">" | vegeta attack -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span></p>
+
+<ul>
+  <li>자체 서명된 HTTPS 인증서가 있는 서버에 대한 공격 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET https://example.com</span><code class="language-plaintext highlighter-rouge">" | vegeta attack -insecure -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span></p>
+
+<ul>
+  <li>초당 10개의 요청 비율로 공격 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET https://example.com</span><code class="language-plaintext highlighter-rouge">" | vegeta attack -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> -rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>공격을 시작하고 보고서 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET https://example.com</span><code class="language-plaintext highlighter-rouge">" | vegeta attack -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> | vegeta report</code></p>
+
+<ul>
+  <li>공격을 시작하고 결과를 그래프에 플롯(시간에 따른 지연):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET https://example.com</span><code class="language-plaintext highlighter-rouge">" | vegeta attack -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> | vegeta plot &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/결과.html</span></p>
+
+<ul>
+  <li>파일에 있는 여러 URL에 대한 공격 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vegeta attack -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> -targets=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">requests.txt</span><code class="language-plaintext highlighter-rouge"> | vegeta report</code></p>

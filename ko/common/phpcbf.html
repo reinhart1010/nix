@@ -1,0 +1,40 @@
+<h1 id="phpcbf">phpcbf</h1>
+
+<p>phpcs에서 감지된 위반 사항 수정.
+더 많은 정보: <a href="https://github.com/squizlabs/PHP_CodeSniffer">https://github.com/squizlabs/PHP_CodeSniffer</a>.</p>
+
+<ul>
+  <li>지정된 디렉터리의 문제 수정 (기본적으로 PEAR 표준 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcbf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>설치된 코딩 표준 목록 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcbf -i</code></p>
+
+<ul>
+  <li>검사할 코딩 표준 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcbf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --standard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표준</span></p>
+
+<ul>
+  <li>쉼표로 구분된 파일 확장자를 지정하여 스니핑할 때 포함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcbf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --extensions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_확장자1,파일_확장자2,…</span></p>
+
+<ul>
+  <li>처리 전에 로드할 쉼표로 구분된 파일 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcbf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --bootstrap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1,경로/대상/파일2,…</span></p>
+
+<ul>
+  <li>하위 디렉터리로 재귀하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcbf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> -l</code></p>

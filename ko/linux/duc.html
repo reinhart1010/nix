@@ -1,0 +1,41 @@
+<h1 id="duc">duc</h1>
+
+<p>디스크 사용량을 색인화, 검사 및 시각화하는 도구 모음.
+Duc는 파일 시스템의 폴더 누적 크기를 데이터베이스로 유지하여 이를 쿼리하거나 데이터의 위치를 나타내는 멋진 그래프를 생성할 수 있게 합니다.
+더 많은 정보: <a href="http://duc.zevv.nl">http://duc.zevv.nl</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/usr</code> 폴더를 색인하고 기본 데이터베이스 위치 <code class="language-plaintext highlighter-rouge">~/.duc.db</code>에 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/usr/local</code> 아래의 모든 파일과 폴더를 나열하고 상대적 파일 크기를 [g]그래프로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc ls --classify --graph </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/local</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/usr/local</code> 아래의 모든 파일과 폴더를 트리뷰로 재귀적으로 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc ls --classify --graph --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/local</span></p>
+
+<ul>
+  <li>선버스트 그래프를 사용하여 파일 시스템을 탐색하는 그래픽 인터페이스 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc gui </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr</span></p>
+
+<ul>
+  <li>파일 시스템을 탐색하기 위한 ncurses 콘솔 인터페이스 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc ui </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr</span></p>
+
+<ul>
+  <li>데이터베이스 정보 덤프:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc info</code></p>

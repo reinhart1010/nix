@@ -1,0 +1,28 @@
+<h1 id="airmon-ng">airmon-ng</h1>
+
+<p>Ativa modo de monitoramento em dispositivos de rede sem-fio.
+Mais informações: <a href="https://www.aircrack-ng.org/doku.php?id=airmon-ng">https://www.aircrack-ng.org/doku.php?id=airmon-ng</a>.</p>
+
+<ul>
+  <li>Lista os dispositivos sem-fio e seus respectivos estados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng</code></p>
+
+<ul>
+  <li>Liga o modo de monitoramento para um dispositivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span></p>
+
+<ul>
+  <li>Encerra processos problemáticos que usam dispositivos sem-fio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng check kill</code></p>
+
+<ul>
+  <li>Desativa o modo de monitoramento para um dispositivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0mon</span></p>

@@ -1,0 +1,34 @@
+<h1 id="zipgrep">zipgrep</h1>
+
+<p>Zip 아카이브 내 파일에서 확장 정규 표현식을 사용하여 패턴 찾기 (<code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code> 및 <code class="language-plaintext highlighter-rouge">|</code> 지원).
+더 많은 정보: <a href="https://manned.org/zipgrep">https://manned.org/zipgrep</a>.</p>
+
+<ul>
+  <li>Zip 아카이브 내에서 패턴 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zipgrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.zip</span></p>
+
+<ul>
+  <li>각 일치 항목에 대해 파일 이름과 줄 번호 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zipgrep -H -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.zip</span></p>
+
+<ul>
+  <li>패턴과 일치하지 않는 줄 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zipgrep -v "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.zip</span></p>
+
+<ul>
+  <li>검색에서 Zip 아카이브 내 파일 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zipgrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색할/파일1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색할/파일2</span></p>
+
+<ul>
+  <li>검색에서 Zip 아카이브 내 파일 제외:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zipgrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.zip</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제외할/파일1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제외할/파일2</span></p>

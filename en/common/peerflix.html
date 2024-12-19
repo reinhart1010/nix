@@ -1,0 +1,34 @@
+<h1 id="peerflix">peerflix</h1>
+
+<p>Stream video- or audio-based torrents to a media player.
+More information: <a href="https://github.com/mafintosh/peerflix">https://github.com/mafintosh/peerflix</a>.</p>
+
+<ul>
+  <li>Stream the largest media file in a torrent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">peerflix "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">torrent_url|magnet_link</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List all streamable files contained in a torrent (given as a magnet link):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">peerflix "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">magnet:?xt=urn:btih:0123456789abcdef0123456789abcdef01234567</span><code class="language-plaintext highlighter-rouge">" --list</code></p>
+
+<ul>
+  <li>Stream the largest file in a torrent, given as a torrent URL, to VLC:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">peerflix "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.net/music.torrent</span><code class="language-plaintext highlighter-rouge">" --vlc</code></p>
+
+<ul>
+  <li>Stream the largest file in a torrent to MPlayer, with subtitles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">peerflix "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">torrent_url|magnet_link</span><code class="language-plaintext highlighter-rouge">" --mplayer --subtitles </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subtitle-file.srt</span></p>
+
+<ul>
+  <li>Stream all files from a torrent to Airplay:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">peerflix "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">torrent_url|magnet_link</span><code class="language-plaintext highlighter-rouge">" --all --airplay</code></p>

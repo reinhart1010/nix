@@ -1,0 +1,23 @@
+<h1 id="cryptsetup-luksformat">cryptsetup luksFormat</h1>
+
+<p>Initialize a LUKS partition and the initial key slot (0) with a passphrase or keyfile.
+Note: this operation overwrites all data on the partition.
+More information: <a href="https://manned.org/cryptsetup-luksFormat">https://manned.org/cryptsetup-luksFormat</a>.</p>
+
+<ul>
+  <li>Initialize a LUKS volume with a passphrase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>
+
+<ul>
+  <li>Initialize a LUKS volume with a keyfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/keyfile</span></p>
+
+<ul>
+  <li>Initialize a LUKS volume with a passphrase and set its label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksFormat --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>

@@ -1,0 +1,41 @@
+<h1 id="autossh">autossh</h1>
+
+<p>Run, monitor and restart SSH connections.
+Auto-reconnects to keep port forwarding tunnels up. Accepts all SSH flags.
+More information: <a href="https://www.harding.motd.ca/autossh">https://www.harding.motd.ca/autossh</a>.</p>
+
+<ul>
+  <li>Start an SSH session, restarting when the [M]onitoring port fails to return data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_port</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Forward a [L]ocal port to a remote one, restarting when necessary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_port</span><code class="language-plaintext highlighter-rouge"> -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge">:localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Fork <code class="language-plaintext highlighter-rouge">autossh</code> into the background before executing SSH and do [N]ot open a remote shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_port</span><code class="language-plaintext highlighter-rouge"> -N "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run in the background, with no monitoring port, and instead send SSH keep-alive packets every 10 seconds to detect failure:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run in the background, with no monitoring port and no remote shell, exiting if the port forward fails:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge">:localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Run in the background, logging <code class="language-plaintext highlighter-rouge">autossh</code> debug output and SSH verbose output to files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/autossh_log_file.log</span><code class="language-plaintext highlighter-rouge"> autossh -f -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_port</span><code class="language-plaintext highlighter-rouge"> -v -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ssh_log_file.log</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span></p>

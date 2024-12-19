@@ -1,0 +1,46 @@
+<h1 id="kubectl-get">kubectl get</h1>
+
+<p>Abfragen von Kubernetes Resourcen und Objekten.
+Weitere Informationen: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#get">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#get</a>.</p>
+
+<ul>
+  <li>Zeige alle Namespaces im Cluster an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get namespaces</code></p>
+
+<ul>
+  <li>Frage alle Nodes in einem bestimmten [n]amespace ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get nodes --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Frage alle Pods in einem bestimmten [n]amespace ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get pods --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Frage alle Deployments in einem bestimmten [n]amespace ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get deployments --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Frage alle Services in einem bestimmten [n]amespace ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get services --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Frage alle Resourcen in einem bestimmten [n]amespace ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get all --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Frage alle Ressourcen ab, die in einer YAML Datei definiert sind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/manifest.yaml</span></p>

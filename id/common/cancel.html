@@ -1,0 +1,47 @@
+<h1 id="cancel">cancel</h1>
+
+<p>Batalkan penugasan pencetakan dokumen terhadap mesin-mesin pencetak (printer).
+Lihat juga: <code class="language-plaintext highlighter-rouge">lp</code>, <code class="language-plaintext highlighter-rouge">lpmove</code>, <code class="language-plaintext highlighter-rouge">lpstat</code>.
+Informasi lebih lanjut: <a href="https://openprinting.github.io/cups/doc/man-cancel.html">https://openprinting.github.io/cups/doc/man-cancel.html</a>.</p>
+
+<ul>
+  <li>Batalkan pekerjaan yang sedang dikerjakan ke dalam mesin pencetak yang diatur sebagai tujuan bawaan (atur mesin tujuan bawaan dengan perintah <code class="language-plaintext highlighter-rouge">lpoptions -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pencetak</span>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel</code></p>
+
+<ul>
+  <li>Batalkan pekerjaan yang sedang dikerjakan ke dalam mesin pencetak yang diatur sebagai tujuan bawaan menurut pengaturan suatu pengguna ([u]ser):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Batalkan pekerjaan yang sedang dikerjakan ke dalam suatu mesin pencetak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pencetak</span></p>
+
+<ul>
+  <li>Batalkan suatu pekerjaan yang sedang dikerjakan ke dalam suatu mesin pencetak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pencetak</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nomor_induk_pekerjaan</span></p>
+
+<ul>
+  <li>Batalkan semu[a] pekerjaan yang sedang dan akan dikerjakan oleh mesin pencetak apapun:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel -a</code></p>
+
+<ul>
+  <li>Batalkan semu[a] pekerjaan yang sedang dan akan dikerjakan oleh suatu mesin pencetak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pencetak</span></p>
+
+<ul>
+  <li>Batalkan pekerjaan yang sedang ditangani oleh suatu peladen (server) layanan pencetak, kemudian hapus ([x]) berkas-berkas data pendukung pekerjaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">peladen</span><code class="language-plaintext highlighter-rouge"> -x</code></p>

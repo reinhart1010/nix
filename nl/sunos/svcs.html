@@ -1,0 +1,34 @@
+<h1 id="svcs">svcs</h1>
+
+<p>Geef informatie over actieve services.
+Meer informatie: <a href="https://www.unix.com/man-page/linux/1/svcs">https://www.unix.com/man-page/linux/1/svcs</a>.</p>
+
+<ul>
+  <li>Oplijsting van alle actieve services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs</code></p>
+
+<ul>
+  <li>Oplijsting van alle inactieve services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -vx</code></p>
+
+<ul>
+  <li>Geef informatie over een specifieke service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs apache</code></p>
+
+<ul>
+  <li>Toon de locatie van de log file van een service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -L apache</code></p>
+
+<ul>
+  <li>Toon de laatste lijnen van een service log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail $(svcs -L apache)</code></p>

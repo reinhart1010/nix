@@ -1,0 +1,28 @@
+<h1 id="watch">watch</h1>
+
+<p>Execute a command repeatedly, and monitor the output in full-screen mode.
+More information: <a href="https://manned.org/watch">https://manned.org/watch</a>.</p>
+
+<ul>
+  <li>Monitor files in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls</span></p>
+
+<ul>
+  <li>Monitor disk space and highlight the changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watch -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">df</span></p>
+
+<ul>
+  <li>Monitor "node" processes, refreshing every 3 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watch -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ps aux | grep node</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Monitor disk space and if it changes, stop monitoring:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watch -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">df</span></p>

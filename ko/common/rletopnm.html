@@ -1,0 +1,22 @@
+<h1 id="rletopnm">rletopnm</h1>
+
+<p>Utah Raster Tools RLE 이미지 파일을 PNM 파일로 변환.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/rletopnm.html">https://netpbm.sourceforge.net/doc/rletopnm.html</a>.</p>
+
+<ul>
+  <li>RLE 이미지를 PNM 파일로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rletopnm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.rle</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>
+
+<ul>
+  <li>RLE 파일의 알파 채널을 포함하는 PGM 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rletopnm -alphaout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/알파_파일.pgm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.rle</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>
+
+<ul>
+  <li>자세한 모드로 작동하고 RLE 헤더의 내용을 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rletopnm -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.rle</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>

@@ -1,0 +1,40 @@
+<h1 id="foreman">foreman</h1>
+
+<p>Procfile 기반 애플리케이션 관리 도구.
+더 많은 정보: <a href="https://manned.org/foreman">https://manned.org/foreman</a>.</p>
+
+<ul>
+  <li>현재 디렉토리의 Procfile로 애플리케이션 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman start</code></p>
+
+<ul>
+  <li>지정된 Procfile로 애플리케이션 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman start -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Procfile</span></p>
+
+<ul>
+  <li>특정 애플리케이션 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스</span></p>
+
+<ul>
+  <li>Procfile 형식 검증:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman check</code></p>
+
+<ul>
+  <li>프로세스 환경과 함께 일회성 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>"worker"라는 이름의 프로세스를 제외한 모든 프로세스 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman start -m all=1,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">worker</span><code class="language-plaintext highlighter-rouge">=0</code></p>

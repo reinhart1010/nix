@@ -1,0 +1,40 @@
+<h1 id="dnf-config-manager">dnf config-manager</h1>
+
+<p>Administra opciones de configuración y repositorios DNF en sistemas basados en Fedora.
+Más información: <a href="https://manned.org/dnf-config-manager">https://manned.org/dnf-config-manager</a>.</p>
+
+<ul>
+  <li>Agrega (y activa) un repositorio de una URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --add-repo=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_del_repositorio</span></p>
+
+<ul>
+  <li>Imprime los valores de configuración actuales:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --dump</code></p>
+
+<ul>
+  <li>Habilita un repositorio específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --set-enabled </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_del_repositorio</span></p>
+
+<ul>
+  <li>Deshabilita repositorios especificados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --set-disabled </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_del_repositorio1 identificador_del_repositorio2 …</span></p>
+
+<ul>
+  <li>Establece una opción de configuración para un repositorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --setopt=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opción</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span></p>
+
+<ul>
+  <li>Muestra la ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --help-cmd</code></p>

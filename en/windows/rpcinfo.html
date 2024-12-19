@@ -1,0 +1,28 @@
+<h1 id="rpcinfo">rpcinfo</h1>
+
+<p>List programs via RPC on remote computers.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/rpcinfo">https://learn.microsoft.com/windows-server/administration/windows-commands/rpcinfo</a>.</p>
+
+<ul>
+  <li>List all programs registered on the local computer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo</code></p>
+
+<ul>
+  <li>List all programs registered on a remote computer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_name</span></p>
+
+<ul>
+  <li>Call a specific program on a remote computer using TCP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program_name</span></p>
+
+<ul>
+  <li>Call a specific program on a remote computer using UDP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo /u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program_name</span></p>

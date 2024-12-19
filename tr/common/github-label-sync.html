@@ -1,0 +1,34 @@
+<h1 id="github-label-sync">github-label-sync</h1>
+
+<p>GitHub etiketlerini senkronize etmeye yarayan komut satırı arayüzü.
+Daha fazla bilgi için: <a href="https://github.com/Financial-Times/github-label-sync">https://github.com/Financial-Times/github-label-sync</a>.</p>
+
+<ul>
+  <li>Yerel bir <code class="language-plaintext highlighter-rouge">labels.json</code> dosyası kullanarak etiketleri senkronize et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">github-label-sync --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depo_ismi</span></p>
+
+<ul>
+  <li>Belirli bir etiketlenen JSON dosyası kullanarak etiketleri senkronize et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">github-label-sync --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span><code class="language-plaintext highlighter-rouge"> --labels </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|örnek/json_dosyası</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depo_ismi</span></p>
+
+<ul>
+  <li>Programı etiketleri gerçekten senkronize etmeden çalıştır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">github-label-sync --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span><code class="language-plaintext highlighter-rouge"> --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depo_ismi</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">labels.json</code> içinde olmayan etiketleri sakla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">github-label-sync --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span><code class="language-plaintext highlighter-rouge"> --allow-added-labels </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depo_ismi</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">GITHUB_ACCESS_TOKEN</code> ortam değişkenini kullanarak senkronize et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">github-label-sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depo_ismi</span></p>

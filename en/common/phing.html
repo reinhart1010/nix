@@ -1,0 +1,52 @@
+<h1 id="phing">phing</h1>
+
+<p>A PHP build tool based on Apache Ant.
+More information: <a href="https://www.phing.info">https://www.phing.info</a>.</p>
+
+<ul>
+  <li>Perform the default task in the <code class="language-plaintext highlighter-rouge">build.xml</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phing</code></p>
+
+<ul>
+  <li>Initialize a new build file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phing -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build.xml</span></p>
+
+<ul>
+  <li>Perform a specific task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phing </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>
+
+<ul>
+  <li>Use the given build file path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phing -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build.xml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>
+
+<ul>
+  <li>Log to the given file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phing -logfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/log_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>
+
+<ul>
+  <li>Use custom properties in the build:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phing -D</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">property</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>
+
+<ul>
+  <li>Specify a custom listener class:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phing -listener </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">class_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>
+
+<ul>
+  <li>Build using verbose output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phing -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>

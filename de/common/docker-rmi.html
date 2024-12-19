@@ -1,0 +1,28 @@
+<h1 id="docker-rmi">docker rmi</h1>
+
+<p>Lösche eines oder mehrere Docker Images.
+Weitere Informationen: <a href="https://docs.docker.com/reference/cli/docker/image/rm/">https://docs.docker.com/reference/cli/docker/image/rm/</a>.</p>
+
+<ul>
+  <li>Zeige Hilfe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rmi</code></p>
+
+<ul>
+  <li>Lösche eines oder mehrere Docker Images anhand der angegebenen Namen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rmi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image1 image2 …</span></p>
+
+<ul>
+  <li>Erzwinge das Löschen eines Images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rmi --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Lösche ein Image aber behalte Eltern-Images ohne Tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rmi --no-prune </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>

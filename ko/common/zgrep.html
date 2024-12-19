@@ -1,0 +1,46 @@
+<h1 id="zgrep">zgrep</h1>
+
+<p>압축 파일 내에서 텍스트 패턴을 검색하는 도구 (<code class="language-plaintext highlighter-rouge">grep -Z</code>와 동등).
+더 많은 정보: <a href="https://manned.org/zgrep">https://manned.org/zgrep</a>.</p>
+
+<ul>
+  <li>압축 파일에서 패턴 검색 (대소문자 구분):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패턴</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축/파일</span></p>
+
+<ul>
+  <li>압축 파일에서 패턴 검색 (대소문자 구분 안 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패턴</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축/파일</span></p>
+
+<ul>
+  <li>일치하는 패턴이 포함된 행의 개수를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패턴</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축/파일</span></p>
+
+<ul>
+  <li>패턴이 없는 행을 표시 (검색 기능 반전):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패턴</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축/파일</span></p>
+
+<ul>
+  <li>여러 패턴으로 압축 파일 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패턴_1</span><code class="language-plaintext highlighter-rouge">" -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패턴_2</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축/파일</span></p>
+
+<ul>
+  <li>확장 정규 표현식 사용 (<code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code> 및 <code class="language-plaintext highlighter-rouge">|</code> 지원):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규_표현식</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>각 일치 항목 전후로 3줄의 [C]ontext, [B]efore, 또는 [A]fter 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C|B|A</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패턴</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축/파일</span></p>

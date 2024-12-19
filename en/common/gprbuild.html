@@ -1,0 +1,28 @@
+<h1 id="gprbuild">gprbuild</h1>
+
+<p>A high-level build tool for projects written in Ada and other languages (C/C++/Fortran).
+More information: <a href="https://docs.adacore.com/gprbuild-docs/html/gprbuild_ug.html">https://docs.adacore.com/gprbuild-docs/html/gprbuild_ug.html</a>.</p>
+
+<ul>
+  <li>Build a project (assuming only one <code class="language-plaintext highlighter-rouge">*.gpr</code> file exists in the current directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gprbuild</code></p>
+
+<ul>
+  <li>Build a specific [P]roject file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gprbuild -P</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span></p>
+
+<ul>
+  <li>Clean up the build workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gprclean</code></p>
+
+<ul>
+  <li>Install compiled binaries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gprinstall --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/installation/dir</span></p>

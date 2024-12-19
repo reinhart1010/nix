@@ -1,0 +1,23 @@
+<h1 id="zlib-flate">zlib-flate</h1>
+
+<p>Raw zlib compression and decompression program.
+Part of <code class="language-plaintext highlighter-rouge">qpdf</code>.
+More information: <a href="https://manned.org/zlib-flate">https://manned.org/zlib-flate</a>.</p>
+
+<ul>
+  <li>Compress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zlib-flate -compress &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zlib</span></p>
+
+<ul>
+  <li>Uncompress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zlib-flate -uncompress &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zlib</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Compress a file with a specified compression level. 0=Fastest (Worst), 9=Slowest (Best):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zlib-flate -compress=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compression_level</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zlib</span></p>

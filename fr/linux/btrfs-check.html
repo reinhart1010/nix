@@ -1,0 +1,46 @@
+<h1 id="btrfs-check">btrfs check</h1>
+
+<p>Vérifier l'état, ou réparer un système de fichiers de type btrfs.
+Plus d'informations : <a href="https://btrfs.readthedocs.io/en/latest/btrfs-check.html">https://btrfs.readthedocs.io/en/latest/btrfs-check.html</a>.</p>
+
+<ul>
+  <li>Vérifier l'état d'un système de fichiers btrfs :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/partition</span></p>
+
+<ul>
+  <li>Vérifier l'état et réparer d'un système de fichiers btrfs (dangereux) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/partition</span></p>
+
+<ul>
+  <li>Afficher la progression de vérification en cours :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --progress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/partition</span></p>
+
+<ul>
+  <li>Vérifier la somme de contrôle de chaque bloc de données (si le système de fichiers à été correctement vérifié) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --check-data-csum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/partition</span></p>
+
+<ul>
+  <li>Utiliser le <code class="language-plaintext highlighter-rouge">n</code>-ième super-bloc (<code class="language-plaintext highlighter-rouge">n</code> peut-être <code class="language-plaintext highlighter-rouge">0</code>, <code class="language-plaintext highlighter-rouge">1</code> ou <code class="language-plaintext highlighter-rouge">2</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --super </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/partition</span></p>
+
+<ul>
+  <li>Reconstruire l'arbre des sommes de contrôle (checksum tree) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair --init-csum-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/partition</span></p>
+
+<ul>
+  <li>Reconstruire l'arbre des domaines (extent tree) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair --init-extent-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/partition</span></p>

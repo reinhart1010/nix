@@ -1,0 +1,34 @@
+<h1 id="pip-freeze">pip freeze</h1>
+
+<p>설치된 패키지를 요구 사항 형식으로 나열.
+더 많은 정보: <a href="https://pip.pypa.io/en/stable/cli/pip_freeze">https://pip.pypa.io/en/stable/cli/pip_freeze</a>.</p>
+
+<ul>
+  <li>설치된 패키지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pip freeze</code></p>
+
+<ul>
+  <li>설치된 패키지를 나열하고 <code class="language-plaintext highlighter-rouge">requirements.txt</code> 파일에 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pip freeze &gt; requirements.txt</code></p>
+
+<ul>
+  <li>가상 환경에서 설치된 패키지를 나열하고, 전역적으로 설치된 패키지를 제외:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pip freeze --local &gt; requirements.txt</code></p>
+
+<ul>
+  <li>사용자 사이트에 설치된 패키지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pip freeze --user &gt; requirements.txt</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">pip</code>, <code class="language-plaintext highlighter-rouge">distribute</code>, <code class="language-plaintext highlighter-rouge">setuptools</code>, <code class="language-plaintext highlighter-rouge">wheel</code>을 포함한 모든 패키지 나열 (기본적으로 생략됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pip freeze --all &gt; requirements.txt</code></p>

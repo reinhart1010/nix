@@ -1,0 +1,46 @@
+<h1 id="dotnet-tool">dotnet tool</h1>
+
+<p>Zarządzaj narzędziami .NET i szukaj narzędzi opublikowanych w repozytorium NuGet.
+Więcej informacji: <a href="https://learn.microsoft.com/dotnet/core/tools/global-tools">https://learn.microsoft.com/dotnet/core/tools/global-tools</a>.</p>
+
+<ul>
+  <li>Zainstaluj narzędzie globalne (nie używaj flagi <code class="language-plaintext highlighter-rouge">--global</code>, by użyć polecenia dla narzędzi lokalnych):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool install --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dotnetsay</span></p>
+
+<ul>
+  <li>Zainstaluj narzędzia zdefiniowane w lokalnym manifeście narzędzi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool restore</code></p>
+
+<ul>
+  <li>Zaktualizuj wyspecyfikowane narzędzie globalne (nie używaj flagi <code class="language-plaintext highlighter-rouge">--global</code>, by użyć polecenia dla narzędzi lokalnych):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool update --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_narzędzia</span></p>
+
+<ul>
+  <li>Odinstaluj narzędzie globalne (nie używaj flagi <code class="language-plaintext highlighter-rouge">--global</code>, by użyć polecenia dla narzędzi lokalnych):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool uninstall --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_narzędzia</span></p>
+
+<ul>
+  <li>Wyświetl zainstalowane narzędzia globalne (nie używaj flagi <code class="language-plaintext highlighter-rouge">--global</code>, by użyć polecenia dla narzędzi lokalnych):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool list --global</code></p>
+
+<ul>
+  <li>Szukaj narzędzi w repozytorium NuGet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">szukana_fraza</span></p>
+
+<ul>
+  <li>Wyświetl pomoc:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool --help</code></p>

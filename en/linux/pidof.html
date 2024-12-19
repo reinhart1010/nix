@@ -1,0 +1,28 @@
+<h1 id="pidof">pidof</h1>
+
+<p>Get the ID of a process using its name.
+More information: <a href="https://manned.org/pidof">https://manned.org/pidof</a>.</p>
+
+<ul>
+  <li>List all process IDs with given name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pidof </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash</span></p>
+
+<ul>
+  <li>List a single process ID with given name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pidof -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash</span></p>
+
+<ul>
+  <li>List process IDs including scripts with given name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pidof -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.py</span></p>
+
+<ul>
+  <li>Kill all processes with given name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill $(pidof </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">)</code></p>

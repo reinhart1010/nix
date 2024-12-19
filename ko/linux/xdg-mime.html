@@ -1,0 +1,28 @@
+<h1 id="xdg-mime">xdg-mime</h1>
+
+<p>XDG 표준에 따라 MIME 유형을 조회하고 관리.
+더 많은 정보: <a href="https://portland.freedesktop.org/doc/xdg-mime.html">https://portland.freedesktop.org/doc/xdg-mime.html</a>.</p>
+
+<ul>
+  <li>파일의 MIME 유형 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-mime query filetype </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>PNG 파일을 여는 기본 애플리케이션 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-mime query default </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image/png</span></p>
+
+<ul>
+  <li>특정 파일을 여는 기본 애플리케이션 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-mime query default $(xdg-mime query filetype </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>PNG 및 JPEG 이미지를 여는 기본 애플리케이션을 imv로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-mime default </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imv.desktop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image/png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image/jpeg</span></p>

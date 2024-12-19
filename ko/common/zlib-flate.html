@@ -1,0 +1,23 @@
+<h1 id="zlib-flate">zlib-flate</h1>
+
+<p>원시 zlib 압축 및 압축 해제 프로그램.
+<code class="language-plaintext highlighter-rouge">qpdf</code>의 일부.
+더 많은 정보: <a href="https://manned.org/zlib-flate">https://manned.org/zlib-flate</a>.</p>
+
+<ul>
+  <li>파일 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zlib-flate -compress &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축된.zlib</span></p>
+
+<ul>
+  <li>파일 압축 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zlib-flate -uncompress &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축된.zlib</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일</span></p>
+
+<ul>
+  <li>지정된 압축 수준으로 파일 압축. 0=가장 빠름 (최악), 9=가장 느림 (최고):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zlib-flate -compress=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">압축_수준</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/압축된.zlib</span></p>

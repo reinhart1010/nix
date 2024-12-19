@@ -1,0 +1,35 @@
+<h1 id="run-mailcap">run-mailcap</h1>
+
+<p>MailCap 프로그램 실행.
+mailcap 파일(또는 그 별칭)의 항목을 통해 프로그램을 실행하여 각 MIME 타입/파일을 주어진 작업으로 처리.
+더 많은 정보: <a href="https://manned.org/run-mailcap">https://manned.org/run-mailcap</a>.</p>
+
+<ul>
+  <li>run-mailcap에서 작업 플래그를 사용하여 개별 작업/프로그램 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run-mailcap --action=ACTION [--option[=value]]</code></p>
+
+<ul>
+  <li>간단한 사용법:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run-mailcap --action=ACTION </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span></p>
+
+<ul>
+  <li>추가 정보를 켜기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run-mailcap --action=ACTION --debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span></p>
+
+<ul>
+  <li>"copiousoutput" 지시문을 무시하고 출력을 <code class="language-plaintext highlighter-rouge">stdout</code>으로 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run-mailcap --action=ACTION --nopager </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span></p>
+
+<ul>
+  <li>실제로 실행하지 않고 발견된 명령을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run-mailcap --action=ACTION --norun </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span></p>

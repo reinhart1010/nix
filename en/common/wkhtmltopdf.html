@@ -1,0 +1,34 @@
+<h1 id="wkhtmltopdf">wkhtmltopdf</h1>
+
+<p>An open-source command-line tool to convert HTML documents or web pages into PDF files.
+More information: <a href="https://wkhtmltopdf.org/">https://wkhtmltopdf.org/</a>.</p>
+
+<ul>
+  <li>Convert a HTML document into PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wkhtmltopdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span></p>
+
+<ul>
+  <li>Specify the PDF page size (please see <code class="language-plaintext highlighter-rouge">PaperSize</code> of <code class="language-plaintext highlighter-rouge">QPrinter</code> for supported sizes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wkhtmltopdf --page-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span></p>
+
+<ul>
+  <li>Set the PDF page margins:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wkhtmltopdf --margin-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">top|bottom|left|right</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10mm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span></p>
+
+<ul>
+  <li>Set the PDF page orientation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wkhtmltopdf --orientation </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Landscape|Portrait</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span></p>
+
+<ul>
+  <li>Generate a greyscale version of the PDF document:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wkhtmltopdf --grayscale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span></p>

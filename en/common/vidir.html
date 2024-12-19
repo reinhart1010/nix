@@ -1,0 +1,34 @@
+<h1 id="vidir">vidir</h1>
+
+<p>Edit directories in a text editor.
+More information: <a href="https://joeyh.name/code/moreutils/">https://joeyh.name/code/moreutils/</a>.</p>
+
+<ul>
+  <li>Edit the contents of the specified directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vidir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 …</span></p>
+
+<ul>
+  <li>Display each action taken by the program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vidir --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 …</span></p>
+
+<ul>
+  <li>Edit the contents of current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vidir</code></p>
+
+<ul>
+  <li>Use the specified text editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">EDITOR=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vim</span><code class="language-plaintext highlighter-rouge"> vidir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 …</span></p>
+
+<ul>
+  <li>Read a list of files to edit from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | vidir -</code></p>

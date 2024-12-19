@@ -1,0 +1,34 @@
+<h1 id="stl2gts">stl2gts</h1>
+
+<p>Convert STL files into the GTS (GNU triangulated surface library) file format.
+More information: <a href="https://manned.org/stl2gts">https://manned.org/stl2gts</a>.</p>
+
+<ul>
+  <li>Convert an STL file to a GTS file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stl2gts &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.stl</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.gts</span></p>
+
+<ul>
+  <li>Convert an STL file to a GTS file and revert face normals:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stl2gts --revert &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.stl</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.gts</span></p>
+
+<ul>
+  <li>Convert an STL file to a GTS file and do not merge vertices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stl2gts --nomerge &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.stl</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.gts</span></p>
+
+<ul>
+  <li>Convert an STL file to a GTS file and display surface statistics:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stl2gts --verbose &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.stl</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.gts</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stl2gts --help</code></p>

@@ -1,0 +1,53 @@
+<h1 id="pacman-key">pacman-key</h1>
+
+<p>Wrapper script for GnuPG used to manage pacman's keyring.
+See also: <code class="language-plaintext highlighter-rouge">pacman</code>.
+More information: <a href="https://manned.org/pacman-key">https://manned.org/pacman-key</a>.</p>
+
+<ul>
+  <li>Initialize the <code class="language-plaintext highlighter-rouge">pacman</code> keyring:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --init</code></p>
+
+<ul>
+  <li>Add the default Arch Linux keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --populate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archlinux</span></p>
+
+<ul>
+  <li>List keys from the public keyring:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-key --list-keys</code></p>
+
+<ul>
+  <li>Add the specified keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/keyfile.gpg</span></p>
+
+<ul>
+  <li>Receive a key from a key server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --recv-keys "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|name|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Print the fingerprint of a specific key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-key --finger "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|name|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Sign an imported key locally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --lsign-key "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|name|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Remove a specific key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|name|email</span><code class="language-plaintext highlighter-rouge">"</code></p>

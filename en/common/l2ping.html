@@ -1,0 +1,46 @@
+<h1 id="l2ping">l2ping</h1>
+
+<p>Send an L2CAP echo request and receive an answer.
+More information: <a href="https://manned.org/l2ping">https://manned.org/l2ping</a>.</p>
+
+<ul>
+  <li>Ping a Bluetooth device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo l2ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>
+
+<ul>
+  <li>Reverse ping a Bluetooth device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo l2ping -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>
+
+<ul>
+  <li>Ping a Bluetooth device from a specified interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo l2ping -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hci0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>
+
+<ul>
+  <li>Ping Bluetooth device with a specified sized data package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo l2ping -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">byte_count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>
+
+<ul>
+  <li>Ping flood a Bluetooth device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo l2ping -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>
+
+<ul>
+  <li>Ping a Bluetooth device a specified amount of times:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo l2ping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amount</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>
+
+<ul>
+  <li>Ping a Bluetooth device with a specified delay between requests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo l2ping -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>

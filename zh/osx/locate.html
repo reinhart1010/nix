@@ -1,0 +1,22 @@
+<h1 id="locate">locate</h1>
+
+<p>快速查找文件名。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/locate.1.html">https://keith.github.io/xcode-man-pages/locate.1.html</a>.</p>
+
+<ul>
+  <li>在数据库中查找关键字。注意：数据库定期重新更新（通常每周或每天）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">locate "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">关键字</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>按文件名查找文件（不包含填充字符的模式被解释为 <code class="language-plaintext highlighter-rouge">*关键字*</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">locate */</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>重新建立文件数据索引数据库。如果要查找最近添加的文件，则需要执行此操作：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo /usr/libexec/locate.updatedb</code></p>

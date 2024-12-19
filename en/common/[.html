@@ -1,0 +1,47 @@
+<h1>[</h1>
+
+<p>Check file types and compare values.
+Returns a status of 0 if the condition evaluates to true, 1 if it evaluates to false.
+More information: <a href="https://gnu.org/software/bash/manual/bash.html#index-test">https://gnu.org/software/bash/manual/bash.html#index-test</a>.</p>
+
+<ul>
+  <li>Test if a given variable is equal/not equal to the specified string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">=|!=</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Test if a given variable is [eq]ual/[n]ot [e]qual/[g]reater [t]han/[l]ess [t]han/[g]reater than or [e]qual/[l]ess than or [e]qual to the specified number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq|ne|gt|lt|ge|le</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">integer</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Test if the specified variable has a [n]on-empty value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -n "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Test if the specified variable has an empty value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -z "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Test if the specified [f]ile exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Test if the specified [d]irectory exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Test if the specified file or directory [e]xists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span><code class="language-plaintext highlighter-rouge"> ]</code></p>

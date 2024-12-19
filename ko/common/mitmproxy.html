@@ -1,0 +1,41 @@
+<h1 id="mitmproxy">mitmproxy</h1>
+
+<p>대화형 중간자 HTTP 프록시.
+같이 보기: <code class="language-plaintext highlighter-rouge">mitmweb</code> 및 <code class="language-plaintext highlighter-rouge">mitmdump</code>.
+더 많은 정보: <a href="https://docs.mitmproxy.org/stable/">https://docs.mitmproxy.org/stable/</a>.</p>
+
+<ul>
+  <li>기본 설정으로 <code class="language-plaintext highlighter-rouge">mitmproxy</code> 시작 (포트 <code class="language-plaintext highlighter-rouge">8080</code>에서 대기):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmproxy</code></p>
+
+<ul>
+  <li>사용자 정의 주소와 포트에 바인딩하여 <code class="language-plaintext highlighter-rouge">mitmproxy</code> 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmproxy --listen-host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP_주소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|–listen-port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>스크립트를 사용하여 트래픽을 처리하는 <code class="language-plaintext highlighter-rouge">mitmproxy</code> 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmproxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–scripts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/script.py</span></p>
+
+<ul>
+  <li>SSL/TLS 마스터 키로 로그를 외부 프로그램(와이어샤크 등)으로 내보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">SSLKEYLOGFILE="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge">" mitmproxy</code></p>
+
+<ul>
+  <li>프록시 서버의 작동 모드 지정 (<code class="language-plaintext highlighter-rouge">regular</code>가 기본값):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmproxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–mode</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular|transparent|socks5|…</span></p>
+
+<ul>
+  <li>콘솔 레이아웃 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmproxy --console-layout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">horizontal|single|vertical</span></p>

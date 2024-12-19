@@ -1,0 +1,28 @@
+<h1 id="cmp">cmp</h1>
+
+<p>مقایسه بایت به بایت دو فایل.
+اطلاعات بیشتر: <a href="https://www.gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html">https://www.gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html</a>.</p>
+
+<ul>
+  <li>نمایش کارکتر و خطی که اولین تفاوت دو فایل در آن یافت شد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>نمایش اطلاعات اولین تفاوت پیدا شده: کاراکتر، شماره خط، بایت ها، و مقادیر آنها:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmp --print-bytes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>نمایش شماره بایتها و مقادیر تمامی تفاوت ها:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmp --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>مقایسه فایلها در حالت خاموش، تنها مقدار خروجی برنامه در ترمینال در دسترس است:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmp --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>

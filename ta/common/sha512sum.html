@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="sha512sum">sha512sum</h1>
+
+<p>SHA512 மறையீட்டு சரிகாண்தொகையைக் கணி.
+மேலும் விவரத்திற்கு: <a href="https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html">https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html</a>.</p>
+
+<ul>
+  <li>ஒன்று அல்லது அதற்கு மேற்பட்ட கோப்புகளுக்கான SHA512 சரிகாண்தொகையைக் கணி:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sha512sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை கோப்பு2/பாதை …</span></p>
+
+<ul>
+  <li>SHA512 சரிகாண்தொகை பட்டியலைக் கணக்கிட்டு ஒரு கோப்பில் சேமிக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sha512sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை கோப்பு2/பாதை …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.sha512/பாதை</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code> (இயல் உள்ளீடு) இலிருந்து SHA512 சரிகாண்தொகையை கணி:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கட்டளை</span><code class="language-plaintext highlighter-rouge"> | sha512sum</code></p>
+
+<ul>
+  <li>SHA512 தொகைகள் மற்றும் கோப்புப்பெயர்களின் கோப்பைப் படித்து, எல்லாக் கோப்புகளிலும் சரிகாண்தொகைகள் பொருந்துகின்றன என்பதைச் சரிபார்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sha512sum --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.sha512/பாதை</span></p>
+
+<ul>
+  <li>விடுபட்ட கோப்புகள் அல்லது சரிபார்ப்பு தோல்வியுற்றால் மட்டுமே செய்தியைக் காட்டவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sha512sum --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.sha512/பாதை</span></p>
+
+<ul>
+  <li>சரிபார்ப்பு தோல்வியுற்றால், விடுபட்ட கோப்புகளைப் புறக்கணித்து, செய்தியை மட்டும் காட்டவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sha512sum --ignore-missing --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.sha512/பாதை</span></p>

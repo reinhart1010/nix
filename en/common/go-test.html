@@ -1,0 +1,40 @@
+<h1 id="go-test">go test</h1>
+
+<p>Tests Go packages (files have to end with <code class="language-plaintext highlighter-rouge">_test.go</code>).
+More information: <a href="https://pkg.go.dev/cmd/go#hdr-Testing_flags">https://pkg.go.dev/cmd/go#hdr-Testing_flags</a>.</p>
+
+<ul>
+  <li>Test the package found in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test</code></p>
+
+<ul>
+  <li>[v]erbosely test the package in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v</code></p>
+
+<ul>
+  <li>Test the packages in the current directory and all subdirectories (note the <code class="language-plaintext highlighter-rouge">...</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v ./...</code></p>
+
+<ul>
+  <li>Test the package in the current directory and run all benchmarks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v -bench .</code></p>
+
+<ul>
+  <li>Test the package in the current directory and run all benchmarks for 50 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v -bench . -benchtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50s</span></p>
+
+<ul>
+  <li>Test the package with coverage analysis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -cover</code></p>

@@ -1,0 +1,29 @@
+<h1 id="chpass">chpass</h1>
+
+<p>Add or change user database information, including login shell and password.
+See also: <code class="language-plaintext highlighter-rouge">passwd</code>.
+More information: <a href="https://man.openbsd.org/chsh">https://man.openbsd.org/chsh</a>.</p>
+
+<ul>
+  <li>Set a specific login shell for the current user interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh</code></p>
+
+<ul>
+  <li>Set a specific login [s]hell for the current user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span></p>
+
+<ul>
+  <li>Set a login [s]hell for a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Specify a user database entry in the <code class="language-plaintext highlighter-rouge">passwd</code> file format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username:encrypted_password:uid:gid:…</span></p>

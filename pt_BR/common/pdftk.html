@@ -1,0 +1,34 @@
+<h1 id="pdftk">pdftk</h1>
+
+<p>Conjunto de utilitários para manipular arquivos PDF.
+Mais informações: <a href="https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit">https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit</a>.</p>
+
+<ul>
+  <li>Extrai conjuntos de páginas de um arquivo PDF (páginas 1 a 3, 5 e 6 a 10) e guardá-las num novo arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.pdf</span><code class="language-plaintext highlighter-rouge"> cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-3 5 6-10</span><code class="language-plaintext highlighter-rouge"> output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">novo_arquivo.pdf</span></p>
+
+<ul>
+  <li>Concatena uma lista de arquivos PDF, guardando o resultado num novo arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo1.pdf arquivo2.pdf arquivoN.pdf …</span><code class="language-plaintext highlighter-rouge"> cat output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">novo_arquivo.pdf</span></p>
+
+<ul>
+  <li>Parte cada página de um arquivo PDF num arquivo separado, com um padrão para o nome dos novos arquivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.pdf</span><code class="language-plaintext highlighter-rouge"> burst output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">página_%d.pdf</span></p>
+
+<ul>
+  <li>Gira em 180° todas as páginas de um arquivo PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.pdf</span><code class="language-plaintext highlighter-rouge"> cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-endsouth</span><code class="language-plaintext highlighter-rouge"> output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">novo_arquivo.pdf</span></p>
+
+<ul>
+  <li>Gira a terceira página de um arquivo PDF em 90° no sentido horário, não modificando as restantes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.pdf</span><code class="language-plaintext highlighter-rouge"> cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-2 3east 4-end</span><code class="language-plaintext highlighter-rouge"> output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">novo_arquivo.pdf</span></p>

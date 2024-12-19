@@ -1,0 +1,40 @@
+<h1 id="pg_restore">pg_restore</h1>
+
+<p>pg_dump로 생성된 아카이브 파일에서 PostgreSQL 데이터베이스 복원.
+더 많은 정보: <a href="https://www.postgresql.org/docs/current/app-pgrestore.html">https://www.postgresql.org/docs/current/app-pgrestore.html</a>.</p>
+
+<ul>
+  <li>기존 데이터베이스에 아카이브 복원:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브_파일.dump</span></p>
+
+<ul>
+  <li>위와 동일하며, 사용자 이름 커스터마이즈:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_이름</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브_파일.dump</span></p>
+
+<ul>
+  <li>위와 동일하며, 호스트 및 포트 커스터마이즈:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브_파일.dump</span></p>
+
+<ul>
+  <li>아카이브에 포함된 데이터베이스 객체 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브_파일.dump</span></p>
+
+<ul>
+  <li>데이터베이스 객체를 생성하기 전에 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore --clean -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브_파일.dump</span></p>
+
+<ul>
+  <li>여러 작업을 사용하여 복원:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브_파일.dump</span></p>
