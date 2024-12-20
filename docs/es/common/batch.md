@@ -3,7 +3,7 @@ layout: page
 title: common/batch (español)
 description: "Ejecuta comandos en un momento posterior cuando los niveles de carga del sistema lo permitan."
 content_hash: bd1914f82caa55f3076465f1a1153140d6868a84
-last_modified_at: 2024-12-19
+last_modified_at: 2024-12-20
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -26,12 +26,9 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/batch.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># batch
+# batch
 
 Ejecuta comandos en un momento posterior cuando los niveles de carga del sistema lo permitan.
 Los resultados serán enviados al correo del usuario.

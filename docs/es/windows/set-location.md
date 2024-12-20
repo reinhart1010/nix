@@ -3,7 +3,7 @@ layout: page
 title: windows/set-location (español)
 description: "Muestra el directorio de trabajo actual o va a un directorio diferente."
 content_hash: ba8b636711d1adbe4e98838c854e959edc460adb
-last_modified_at: 2024-12-19
+last_modified_at: 2024-12-20
 related_topics:
   - title: English version
     url: /en/windows/set-location.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/windows/set-location.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/set-location.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Set-Location
+# Set-Location
 
 Muestra el directorio de trabajo actual o va a un directorio diferente.
 Nota: Este comando sólo se puede utilizar a través de PowerShell.

@@ -3,7 +3,7 @@ layout: page
 title: common/mail (español)
 description: "El comando opera en el buzón de correo del usuario si no se da ningún argumento."
 content_hash: 13da8e4d90959f0cad2b79a3eb4997c4542c85c0
-last_modified_at: 2024-12-19
+last_modified_at: 2024-12-20
 related_topics:
   - title: English version
     url: /en/common/mail.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/mail.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mail.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mail
+# mail
 
 El comando opera en el buzón de correo del usuario si no se da ningún argumento.
 Para enviar un correo electrónico, el cuerpo del mensaje se construye desde `stdin`.
